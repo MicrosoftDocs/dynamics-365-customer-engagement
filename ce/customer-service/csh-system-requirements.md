@@ -1,11 +1,10 @@
 ---
 title: "Customer Service Hub system requirements | MicrosoftDocs"
 description: "System requirements for Customer Service Hub."
-ms.date: 10/05/2020
+ms.date: 09/20/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # System requirements for Customer Service Hub
@@ -22,7 +21,7 @@ The following browsers are supported:
 - Internet Explorer 11
 
 > [!NOTE]
-> Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internetexplorer11).
+> Support for Internet Explorer 11 is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 
 
 The following mobile devices and operating systems are supported:

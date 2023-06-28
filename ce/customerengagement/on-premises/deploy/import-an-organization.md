@@ -14,7 +14,6 @@ ms.assetid: c4a9106e-26e2-482d-acd7-2f66b722efee
 caps.latest.revision: 16
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Import an organization
 
@@ -31,7 +30,7 @@ You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
 > -   The encryption key is required to activate data encryption when you import an organization database into a new deployment; a deployment that has had the configuration database (MSCRM_CONFIG) re-created after the organization was encrypted; or a restore from an earlier backup that doesn’t contain the encryption key. You can copy the original encryption key to Notepad and paste it into the Settings > Data Management > Data Encryption dialog after the organization import is completed. When you activate data encryption after redeployment, we recommend you use [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to paste the encryption key into the Data Encryption dialog box. For more information about data encryption, see [Enhance security by encrypting your data](../admin/data-encryption.md).  
   
 > [!TIP]
->  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Import-CrmOrganization command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps).  
+>  The procedure described here can be implemented by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the Import-CrmOrganization command in the [Microsoft Dynamics 365 Customer Engagement (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps&preserve-view=true).  
   
 #### Import an organization  
   

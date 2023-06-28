@@ -14,7 +14,6 @@ author: Mattp123
 ms.assetid: 2e7f75dd-7a3f-4716-b995-b626929c0501
 caps.latest.revision: 14
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 ---
@@ -82,7 +81,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
    4.  Enter the following information in the web resource form:  
   
-       |||  
+       ||Value |  
        |-|-|  
        |**Name**|preventAutoSave|  
        |**Display Name**|Prevent Auto Save|  

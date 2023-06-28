@@ -1,16 +1,15 @@
 ---
-title: "Personas and privileges | MicrosoftDocs"
-description: "Get information about the privileges and recommended access levels for administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service."
-ms.date: 08/31/2021
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+title: Personas and privileges
+description: Learn about the privileges and recommended access levels for administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
+ms.date: 05/31/2023
+ms.topic: conceptual
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Personas and privileges
-
-## Introduction
 
 This topic lists the table privileges and recommended access levels for the administrator, supervisor, and agent personas in Customer Service and Omnichannel for Customer Service.
 
@@ -18,9 +17,8 @@ To know more about the various access levels, see [Security roles](/power-platfo
 
 For more information about how personas are mapped to roles, see [Manage personas](role-persona-mapping.md#manage-personas).
 
-> [!Note]
+> [!NOTE]
 > If custom plug-ins and workflows are used in the system, then you must ensure that the required privileges are granted to the personas, otherwise your plug-ins won't work.
-
 
 ## Persona: Administrator
 
@@ -68,7 +66,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Conversation Sentiment	              |	msdyn_ocliveworkitemsentiment	  |	Create, Delete, Read, Update	                      |	Global	|
 |	Custom messaging account	          |	msdyn_ocbotchannelregistration | Append, Append To, Create, Delete, Read, Update  	      |	Global	|
 |	Customization	                      |	Customization	              |	Publish, Read, Update	                                  |	Global	|
-||||
+
 
 |	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
 |-----------                    |--------------------                                       |-----------------        | -------- |
@@ -115,7 +113,7 @@ The following table lists the privileges and recommended access levels for the a
 |	Provisioning State	                  |	msdyn_ocprovisioningstate	     |	Append, Append To, Create, Delete, Read, Update	     |	Global	|
 |	Publisher	                          |	Publisher	                          |	Read	                                  |	Global	|
 |	Publisher Address	                  |	PublisherAddress	                  |	Read	                                  |	Global	|
-||||
+
 
 |	Table name                	|	Table unique name	                                |	Privilege name	          | Recommended access level |
 |-----------                    |--------------------                                       |-----------------        | -------- |
@@ -165,7 +163,6 @@ The following table lists the privileges and recommended access levels for the a
 |	User settings	                      |	msdyn_usersettin                      |	Append, Append To, Create, Delete, Read, Update	  |	Global	|
 |   Work stream capacity<br>profile</br> | msdyn_liveworkstreamcapacityprofile | Append, Append To, Assign, Create, Delete, Read, Share, Update | Global |
 |	Workstream	                          | msdyn_liveworkstream |	Append, Append To, Assign, Create, Delete, Read, Share, Update  | Global	|
-| | | | 
 
 
 ## Persona: Supervisor
@@ -222,7 +219,6 @@ The following table lists the privileges and recommended access levels for the s
 |	                                        	|	                    	                |	Append, Append To, Update          	  |	Local	|
 |		                                        |	                    	                |	Assign	                              |	Deep	|
 |	Operating Hour	                            |	msdyn_operatinghour    	                |	Read	|	Global	|
-||||
 
 
 |	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
@@ -270,7 +266,6 @@ The following table lists the privileges and recommended access levels for the s
 |	User Setting                    	|	msdyusd_usersettings	                        |	Append, Append To, Read, Update		|	Global	|
 |	User settings	                    |	msdyn_usersetting	           |	Append, Append To, Create, Delete, Read, Update	|	Global	|
 |	Workstream                        	|	msdyn_liveworkstream	                        |	Read	                            |	Global	|
-||||
 
 ## Persona: Agent
 
@@ -316,7 +311,6 @@ The following table lists the privileges and recommended access levels for the a
 |	Deprecated Workstream <<br>Entity Configuration</br>	|	msdyn_entityconfig	|	Read	                                |	Global	|
 |	Entity	                        |	msdyn_entityroutingconfiguration	        |	Read	                                |	Global	|
 |	Entity Routing Context	        |	msdyn_cdsentityengagementctx	            |	Read	                                |	Global	|
-||||
 
 |	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
 |	   -----                              |------	                              |	------                          |	  ---              	|
@@ -351,7 +345,6 @@ The following table lists the privileges and recommended access levels for the a
 |	Presence                                	|	msdyn_presence	                        |	Read	                        |	Global	|
 |	Productivity pane configuration            	|	msdyn_paneconfiguration	                |	Read	                        |	Global	|
 |	Provisioning State	                        |	msdyn_ocprovisioningstate	            |	Read                        	|	Global	|
-||||
 
 
 |	Table name                            |	Table unique name	                  |	Privilege name                |	Recommended access level	|
@@ -396,7 +389,6 @@ The following table lists the privileges and recommended access levels for the a
 |	Workstream capacity profile	            |	msdyn_liveworkstreamcapacityprofile	    |	Read	                |	Local	|
 |	Workstream                                	|	msdyn_liveworkstream	                |	Append, Append To, Read	|	Global	|
 |	                                        	|		                                    |	Assign, Share	        |	Basic	|
-||||
 
 ### See also
 

@@ -1,30 +1,28 @@
 ---
-title: "TimeZoneRule Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "TimeZoneRule entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the TimeZoneRule entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# TimeZoneRule Entity Reference
+
+# TimeZoneRule entity reference
 
 Definition for time conversion between local time and Coordinated Universal Time (UTC) for a particular time zone at a particular time period.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Retrieve|GET [*org URI*]/api/data/v9.0/timezonerules(*timezoneruleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/timezonerules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -612,29 +610,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_timezonerule_createdby"></a> lk_timezonerule_createdby
 
-See systemuser Entity [lk_timezonerule_createdby](systemuser.md#BKMK_lk_timezonerule_createdby) One-To-Many relationship.
+See the [lk_timezonerule_createdby](systemuser.md#BKMK_lk_timezonerule_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_timezonerule_modifiedonbehalfby"></a> lk_timezonerule_modifiedonbehalfby
 
-See systemuser Entity [lk_timezonerule_modifiedonbehalfby](systemuser.md#BKMK_lk_timezonerule_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_timezonerule_modifiedonbehalfby](systemuser.md#BKMK_lk_timezonerule_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_timezonerule_modifiedby"></a> lk_timezonerule_modifiedby
 
-See systemuser Entity [lk_timezonerule_modifiedby](systemuser.md#BKMK_lk_timezonerule_modifiedby) One-To-Many relationship.
+See the [lk_timezonerule_modifiedby](systemuser.md#BKMK_lk_timezonerule_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_timezonerule_timezonedefinitionid"></a> lk_timezonerule_timezonedefinitionid
 
-See timezonedefinition Entity [lk_timezonerule_timezonedefinitionid](timezonedefinition.md#BKMK_lk_timezonerule_timezonedefinitionid) One-To-Many relationship.
+See the [lk_timezonerule_timezonedefinitionid](timezonedefinition.md#BKMK_lk_timezonerule_timezonedefinitionid) one-to-many relationship for the [timezonedefinition](timezonedefinition.md) entity.
 
 ### <a name="BKMK_lk_timezonerule_createdonbehalfby"></a> lk_timezonerule_createdonbehalfby
 
-See systemuser Entity [lk_timezonerule_createdonbehalfby](systemuser.md#BKMK_lk_timezonerule_createdonbehalfby) One-To-Many relationship.
+See the [lk_timezonerule_createdonbehalfby](systemuser.md#BKMK_lk_timezonerule_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.timezonerule?text=timezonerule EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

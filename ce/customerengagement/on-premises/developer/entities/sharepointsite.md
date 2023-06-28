@@ -1,41 +1,39 @@
 ---
-title: "SharePointSite Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SharePointSite entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SharePointSite entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SharePointSite Entity Reference
+
+# SharePointSite entity reference
 
 SharePoint site from where documents can be managed in Microsoft Dynamics 365.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/sharepointsites(*sharepointsiteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/sharepointsites<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/sharepointsites(*sharepointsiteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/sharepointsites(*sharepointsiteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveAbsoluteAndSiteCollectionUrl|<xref href="Microsoft.Dynamics.CRM.RetrieveAbsoluteAndSiteCollectionUrl?text=RetrieveAbsoluteAndSiteCollectionUrl Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sharepointsites<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/sharepointsites(*sharepointsiteid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/sharepointsites(*sharepointsiteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveAbsoluteAndSiteCollectionUrl|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -157,14 +155,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsDefault Options
+#### IsDefault Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -180,14 +178,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsGridPresent Options
+#### IsGridPresent Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -203,14 +201,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsPowerBISite Options
+#### IsPowerBISite Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -343,14 +341,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ServiceType Options
+#### ServiceType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|SharePoint|
-|1|OneDrive|
-|2|Shared with me|
-|3|MS Teams|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|SharePoint||
+|1|OneDrive||
+|2|Shared with me||
 
 
 
@@ -381,7 +378,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -402,7 +399,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -468,15 +465,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ValidationStatus Options
+#### ValidationStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Not Validated|
-|2|In Progress|
-|3|Invalid|
-|4|Valid|
-|5|Could not validate|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Not Validated||
+|2|In Progress||
+|3|Invalid||
+|4|Valid||
+|5|Could not validate||
 
 
 
@@ -492,17 +489,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ValidationStatusErrorCode Options
+#### ValidationStatusErrorCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|This record's URL has not been validated.|
-|2|This record's URL is valid.|
-|3|This record's URL is not valid.|
-|4|The URL schemes of Microsoft Dynamics 365 and SharePoint are different.|
-|5|The URL could not be accessed because of Internet Explorer security settings.|
-|6|Authentication failure.|
-|7|Invalid certificates.|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|This record's URL has not been validated.||
+|2|This record's URL is valid.||
+|3|This record's URL is not valid.||
+|4|The URL schemes of Microsoft Dynamics 365 and SharePoint are different.||
+|5|The URL could not be accessed because of Internet Explorer security settings.||
+|6|Authentication failure.||
+|7|Invalid certificates.||
 
 
 <a name="read-only-attributes"></a>
@@ -933,7 +930,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_sharepointdocumentlocation_parent_sharepointsite"></a> sharepointdocumentlocation_parent_sharepointsite
 
-Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sharepointsite](sharepointdocumentlocation.md#BKMK_sharepointdocumentlocation_parent_sharepointsite) Many-To-One relationship.
+Same as the [sharepointdocumentlocation_parent_sharepointsite](sharepointdocumentlocation.md#BKMK_sharepointdocumentlocation_parent_sharepointsite) many-to-one relationship for the [sharepointdocumentlocation](sharepointdocumentlocation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -948,7 +945,7 @@ Same as sharepointdocumentlocation entity [sharepointdocumentlocation_parent_sha
 
 ### <a name="BKMK_sharepointsite_principalobjectattributeaccess"></a> sharepointsite_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [sharepointsite_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointsite_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [sharepointsite_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_sharepointsite_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -963,7 +960,7 @@ Same as principalobjectattributeaccess entity [sharepointsite_principalobjectatt
 
 ### <a name="BKMK_SharePointSite_SyncErrors"></a> SharePointSite_SyncErrors
 
-Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePointSite_SyncErrors) Many-To-One relationship.
+Same as the [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePointSite_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -978,7 +975,7 @@ Same as syncerror entity [SharePointSite_SyncErrors](syncerror.md#BKMK_SharePoin
 
 ### <a name="BKMK_sharepointsite_parentsite_sharepointsite"></a> sharepointsite_parentsite_sharepointsite
 
-Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) Many-To-One relationship.
+Same as the [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) many-to-one relationship for the [sharepointsite](sharepointsite.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -993,7 +990,7 @@ Same as sharepointsite entity [sharepointsite_parentsite_sharepointsite](sharepo
 
 ### <a name="BKMK_SharePointSite_DuplicateBaseRecord"></a> SharePointSite_DuplicateBaseRecord
 
-Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [SharePointSite_DuplicateBaseRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1008,7 +1005,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateBaseRecord](duplicaterec
 
 ### <a name="BKMK_SharePointSite_AsyncOperations"></a> SharePointSite_AsyncOperations
 
-Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md#BKMK_SharePointSite_AsyncOperations) Many-To-One relationship.
+Same as the [SharePointSite_AsyncOperations](asyncoperation.md#BKMK_SharePointSite_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1023,7 +1020,7 @@ Same as asyncoperation entity [SharePointSite_AsyncOperations](asyncoperation.md
 
 ### <a name="BKMK_SharePointSite_DuplicateMatchingRecord"></a> SharePointSite_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [SharePointSite_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SharePointSite_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1038,7 +1035,7 @@ Same as duplicaterecord entity [SharePointSite_DuplicateMatchingRecord](duplicat
 
 ### <a name="BKMK_SharePointSite_ProcessSessions"></a> SharePointSite_ProcessSessions
 
-Same as processsession entity [SharePointSite_ProcessSessions](processsession.md#BKMK_SharePointSite_ProcessSessions) Many-To-One relationship.
+Same as the [SharePointSite_ProcessSessions](processsession.md#BKMK_SharePointSite_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1069,45 +1066,41 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_user_sharepointsite"></a> user_sharepointsite
 
-See systemuser Entity [user_sharepointsite](systemuser.md#BKMK_user_sharepointsite) One-To-Many relationship.
+See the [user_sharepointsite](systemuser.md#BKMK_user_sharepointsite) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_sharepointsite"></a> team_sharepointsite
 
-See team Entity [team_sharepointsite](team.md#BKMK_team_sharepointsite) One-To-Many relationship.
+See the [team_sharepointsite](team.md#BKMK_team_sharepointsite) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_sharepointsites"></a> business_unit_sharepointsites
 
-See businessunit Entity [business_unit_sharepointsites](businessunit.md#BKMK_business_unit_sharepointsites) One-To-Many relationship.
+See the [business_unit_sharepointsites](businessunit.md#BKMK_business_unit_sharepointsites) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_SharePointSite"></a> TransactionCurrency_SharePointSite
 
-See transactioncurrency Entity [TransactionCurrency_SharePointSite](transactioncurrency.md#BKMK_TransactionCurrency_SharePointSite) One-To-Many relationship.
+See the [TransactionCurrency_SharePointSite](transactioncurrency.md#BKMK_TransactionCurrency_SharePointSite) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_sharepointsitebase_modifiedonbehalfby"></a> lk_sharepointsitebase_modifiedonbehalfby
 
-See systemuser Entity [lk_sharepointsitebase_modifiedonbehalfby](systemuser.md#BKMK_lk_sharepointsitebase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_sharepointsitebase_modifiedonbehalfby](systemuser.md#BKMK_lk_sharepointsitebase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_sharepointsitebase_createdby"></a> lk_sharepointsitebase_createdby
 
-See systemuser Entity [lk_sharepointsitebase_createdby](systemuser.md#BKMK_lk_sharepointsitebase_createdby) One-To-Many relationship.
+See the [lk_sharepointsitebase_createdby](systemuser.md#BKMK_lk_sharepointsitebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_sharepointsite_parentsite_sharepointsite"></a> sharepointsite_parentsite_sharepointsite
 
-See sharepointsite Entity [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) One-To-Many relationship.
+See the [sharepointsite_parentsite_sharepointsite](sharepointsite.md#BKMK_sharepointsite_parentsite_sharepointsite) one-to-many relationship for the [sharepointsite](sharepointsite.md) entity.
 
 ### <a name="BKMK_lk_sharepointsitebase_createdonbehalfby"></a> lk_sharepointsitebase_createdonbehalfby
 
-See systemuser Entity [lk_sharepointsitebase_createdonbehalfby](systemuser.md#BKMK_lk_sharepointsitebase_createdonbehalfby) One-To-Many relationship.
+See the [lk_sharepointsitebase_createdonbehalfby](systemuser.md#BKMK_lk_sharepointsitebase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_sharepointsitebase_modifiedby"></a> lk_sharepointsitebase_modifiedby
 
-See systemuser Entity [lk_sharepointsitebase_modifiedby](systemuser.md#BKMK_lk_sharepointsitebase_modifiedby) One-To-Many relationship.
+See the [lk_sharepointsitebase_modifiedby](systemuser.md#BKMK_lk_sharepointsitebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.sharepointsite?text=sharepointsite EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

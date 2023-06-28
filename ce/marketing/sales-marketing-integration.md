@@ -9,14 +9,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Sales and marketing collaboration with Dynamics 365
@@ -73,7 +69,7 @@ More information: [Event planning and management](event-management.md)
 LinkedIn is a social network that focuses on companies, professionals, and working life. It can be a great source for running targeted campaigns, exploring professional networks, generating new leads, and learning more about your customers. Dynamics 365 Sales and Dynamics 365 Marketing both offer several features for integrating LinkedIn with your marketing and sales initiatives.
 
 - Both apps offer integration with LinkedIn Lead Gen Forms, which imports leads generated through LinkedIn campaigns into Dynamics 365.
-- Dynamics 365 Marketing can create LinkedIn Matched Audiences, which find LinkedIn profiles that match contacts that are members of selected segments in Dynamics 365. This lets you run multi-channel campaigns that target the same collections of individuals on LinkedIn, email, and other custom channels available to customer journeys (such as SMS).
+- Dynamics 365 Marketing can create LinkedIn Matched Audiences, which find LinkedIn profiles that match contacts that are members of selected segments in Dynamics 365. This lets you run multi-channel campaigns that target the same collections of individuals on LinkedIn, email, and other custom channels available to customer journeys (such as text messages).
 - Customer journeys in Dynamics 365 Marketing can monitor for contacts that submit LinkedIn Lead Gen Forms and include triggers that react to those submissions.
 - Dynamics 365 Sales integrates with LinkedIn Sales Navigator, which enables salespeople to get to know their sales contacts even better through their LinkedIn profile information and connections.
 

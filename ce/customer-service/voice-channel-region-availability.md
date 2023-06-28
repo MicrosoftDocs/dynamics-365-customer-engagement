@@ -1,164 +1,96 @@
 ---
-title: "Regional availability of the voice channel | MicrosoftDocs"
-description: "Learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
+title: Supported cloud locations for voice channel
+description: Use this article to know about the supported cloud locations for the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.date: 02/22/2022
-ms.topic: article
-
+ms.reviewer: shujoshi
+ms.date: 05/22/2023
+ms.topic: conceptual
+ms.custom: bap-template
 ---
-
-# Regional availability and supported languages for the voice channel
+# Supported cloud locations for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+This article provides information about the supported cloud locations for the voice channel.
 
-This article provides information about the availability of the voice channel in different geographical regions, supported languages, locale codes, and language limitations by feature.
-
-> [!NOTE]
-> For information about availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
-
-## Supported regions
-
-Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
+For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 > [!IMPORTANT]
-> Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+>
+> - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
+> - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
 
-|Geographic location | Availability | Availability in Customer Service trial|
-|----------|---------|-----|
-|North America (crm.dynamics.com) <sup> **1** </sup> |November 2021  | November 2021|
-|Europe, Middle East, Africa (crm4.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
-|Asia Pacific (crm5.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
-|Australia, New Zealand, Fiji (crm6.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
-|South America (crm2.dynamics.com) |To be announced | To be announced|
-|Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
-|Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
-||||
+## Global cloud deployments
+
+The following table lists the global region, URL, and general and trial availabilities of the voice channel. Use the global cloud deployments if the voice channel in Customer Service isn't yet available for your local cloud deployments.
+
+|Geographic location |URL| General availability | Availability in Customer Service trial|
+|----------|---------|-----|---------|
+|North America |crm.dynamics.com |Available | Available|
+|Europe, Middle East, Africa| crm4.dynamics.com|Available | Available|
+|Asia Pacific |crm5.dynamics.com |Available | Available |
+
+## Local cloud deployments
+
+If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+
+|Geographic location | URL| General availability | Availability in Customer Service trial|
+|----------|---------|-----|----------|
+|Australia| crm6.dynamics.com |Available |Available|
+|United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
+|Canada **<sup>1 </sup>** |crm3.dynamics.com |Available | To be announced  |
+|Switzerland **<sup>1</sup>** |crm17.dynamics.com  | Available | To be announced|
+|India **<sup>1</sup>** | crm8.dynamics.com | Available | To be announced|
+|Japan **<sup>1, 2</sup>** | To be announced  | In preview| To be announced|
+|South America |To be announced | To be announced|To be announced|
+|France | To be announced | To be announced|To be announced|
+|Germany | To be announced | To be announced|To be announced|
+| United Arab Emirates | To be announced | To be announced |To be announced|
+|South Africa | To be announced | To be announced|To be announced|
+|Norway | To be announced | To be announced|To be announced|
+|Korea | To be announced | To be announced|To be announced|
+|Singapore|To be announced | To be announced|To be announced|
 
 > [!NOTE]
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 >
-> - <sup>**1**</sup> Supports [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) for purchasing new US numbers and also [porting your existing US or toll-free phone numbers](/azure/communication-services/quickstarts/telephony/port-phone-number). Customers with billing locations in United States, United Kingdom, Ireland, and Puerto Rico are the only ones who can purchase numbers through Microsoft as a carrier. Even though Microsoft as a carrier is available in other regions, only the listed billing locations will be supported. Other customers can select a [different carrier](voice-channel-bring-your-own-number.md) by using Azure direct routing.
-> - <sup>**2**</sup>  Microsoft as a carrier is available only in specific billing postal codes, however bring your own carrier via Azure direct routing is supported everywhere using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). Though Azure direct routing is in public preview everywhere, it will provide generally available level of support for Dynamics 365 customers where the voice channel is generally available in the region. Country/Region-specific cloud deployments for the voice channel in Omnichannel for Customer Service are excluded, you must use the general region deployment. For example, in the preceding table, country/region cloud for local deployment in United Kingdom is **"To be announced"** and is not part of the Europe geographical region availability. If you want your data to stay within the country/region, you'll need to wait for country/region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+> **<sup> 2</sup>** The geographic location won't have Power Virtual Agents support.
 
+## Sovereign cloud deployments
 
-## Supported languages and locale codes
+The following table lists the sovereign region, URL, and general availability of the voice channel in Customer Service.
 
-See the information in the following table to know about the supported languages and locale codes.
+|Sovereign region|URL|General availability|
+|-------|---------|-----------|
+|Government Community Cloud (GCC) Moderate| To be announced |To be announced|
+|GCC High|To be announced |To be announced |
+|GCC Department of Defense (DoD)|To be announced |To be announced |
+|China | To be announced | To be announced|
+|Germany | To be announced | To be announced|
 
-| Language |Locale code |
-| ---- | ---- |
-| Arabic - Saudi Arabia	| ar-SA  |
-| Basque  | eu-ES  |
-| Bulgarian - Bulgaria | 	bg-BG  |
-| Catalan 	| ca-ES  |
-| Chinese - China	| zh-CN  |
-| Chinese - Hong Kong SAR | 	zh-HK  |
-| Chinese - Taiwan	| zh-TW  |
-| Croatian - Croatia | 	hr-HR  |
-| Czech - Czech Republic	| cs-CZ  |
-| Danish - Denmark | da-DK  |
-| Dutch - Netherlands | 	nl-NL  |
-| English - United States | 	en-US  |
-| Estonian - Estonia	| et-EE  |
-| Finnish - Finland	| fi-FI  |
-| French - France	| fr-FR  |
-| Galician 	| gl-ES  |
-| German - Germany	| de-DE  |
-| Greek - Greece	| el-GR  |
-| Hebrew - Israel	| he-IL  |
-| Hindi - India	| hi-IN  |
-| Hungarian - Hungary	| hu-HU  |
-| Indonesian - Indonesia	| id-ID  |
-| Italian - Italy	| it-IT  |
-| Japanese - Japan	| ja-JP  |
-| Kazakh - Kazakhstan	| kk-KZ  |
-| Korean - Korea	| ko-KR  |
-| Latvian - Latvia	| lv-LV  |
-| Lithuanian - Lithuania	| lt-LT  |
-| Malay - Malaysia	| ms-MY  |
-| Norwegian Bokmal - Norway	| nb-NO  |
-| Polish - Poland	| pl-PL  |
-| Portuguese - Brazil	| pt-BR  |
-| Portuguese - Portugal	| pt-PT  |
-| Romanian - Romania	| ro-RO  |
-| Russian - Russia	| ru-RU  |
-| Serbian (Cyrillic) - Serbia	| sr-Cyrl-CS  |
-| Serbian (Latin) - Serbia	| sr-Latn-CS  |
-| Slovak - Slovakia	| sk-SK  |
-| Slovenian - Slovenia	| sl-SI  |
-| Spanish - Spain	| es-ES  |
-| Swedish - Sweden	| sv-SE  |
-| Thai - Thailand	| th-TH  |
-| Turkish - Turkey	| tr-TR  |
-| Ukrainian - Ukraine	| uk-UA  |
-| Vietnamese - Vietnam	| vi-VN |
-|||
+### Microsoft calling plans
 
-### Language limitations by feature
+Microsoft calling plans are available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Import phone numbers](voice-channel-sync-from-acs.md)
 
-In Text-to-Speech and Speech-to-Text, the following languages only are supported in the voice channel.
+You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
-| Language    | Locale code |
-|-------------|-------------|
-| Arabic - Egypt | ar-EG |
-| Arabic - Saudi Arabia | ar-SA |
-| Catalan - Spain | ca-ES |
-| Chinese - Mandarin, Simplified |zh-CN |
-| Chinese - Cantonese, Traditional | zh-HK |
-| Chinese - Taiwanese, Mandarin | zh-TW |
-| Danish - Denmark | da-DK |
-| Dutch - Netherlands | nl-NL |
-| English - Australia | en-AU |
-| English - Canada | en-CA |
-| English - India | en-IN |
-| English - New Zealand | en- NZ |
-| English - United Kingdom | en-GB |
-| English - United States | en-US  |
-| Finnish - Finland | fi-FI |
-| French - Canada | fr-CA |
-| French - France | fr-FR |
-| German - Germany | de-DE |
-| Gujarati - India | gu-IN |
-| Hindi - India | hi-IN |
-| Hungarian - Hungary | hu-HU |
-| Italian - Italy | it-IT |
-| Japanese - Japan | ja-JP|
-| Korean - Korea | ko-KR |
-| Marathi - India | mr-IN |
-| Norwegian - Norway | nb-NO |
-| Polish - Poland | pl-PL |
-| Portuguese - Brazil | pt-BR |
-| Portuguese - Portugal | pt-PT |
-| Russian - Russia | ru-RU |
-| Spanish - Spain | es-ES  |
-| Spanish - Mexico	| es-MX  |
-| Swedish - Sweden | sv-SE |
-| Tamil - India | ta-IN |
-| Telugu - India | te-IN |
-| Thai - Thailand | th-TH |
-| Turkish - Turkey | tr-TR |
-|||
+### Azure direct routing
 
+You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
-Use the information in the following table to know about the feature-wise support for languages.
- 
-| Feature |	List of supported languages |
-| ---- | ---- |
-| Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support)|
-| Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
-| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
-| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment) |
-| Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
-|||
+In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
+
+The voice channel in Omnichannel for Customer Service doesn't support emergency calling when Azure direct routing is used.
+
+## Next steps
+
+[Provision voice channel](voice-channel-install.md)  
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 

@@ -1,30 +1,26 @@
 ---
 title: "Uninstall Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 Marketing from a Dynamics 365 instance."
-ms.date: 02/10/2020
-
+ms.date: 07/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Uninstall Dynamics 365 Marketing
 
 You can remove the Marketing application from any Dynamics 365 instance where it's installed. After removing it, you'll end up with a Marketing license that you can use on another Dynamics 365 instance, if desired.
 
+> [!IMPORTANT]
+> The uninstall process detailed below *does not* remove all Marketing-related solutions from your instance. To remove all Marketing-related solutions, you must follow the process below then manually delete the solutions in the order listed in [Solution uninstall order for removing Dynamics 365 Marketing](solution-uninstall-order.md).
 
 ## Uninstall Dynamics 365 Marketing services
-
 
 The Marketing uninstall wizard handles most of the uninstall process. The uninstall wizard:
 
@@ -38,7 +34,7 @@ The Marketing uninstall wizard handles most of the uninstall process. The uninst
 
 To run the uninstall wizard:
 
-1. If you have sample data installed, remove it. More information: [Manage sample data](additional-settings.md).
+1. If you have sample data installed, remove it. More information: [Add or remove sample data](/power-platform/admin/add-remove-sample-data).
 
 1. [Run the Marketing setup wizard](re-run-setup.md) for the instance where you want to uninstall the Marketing application. Make sure the correct instance is listed.
 
@@ -67,6 +63,5 @@ To reset a portal:
 [Open the Power Platform admin center](power-platform-admin-center.md)  
 [Keep Marketing up to date](apply-updates.md)  
 [Manage Marketing environments](manage-marketing-environments.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

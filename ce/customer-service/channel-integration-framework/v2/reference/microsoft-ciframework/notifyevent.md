@@ -1,11 +1,10 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 07/13/2021
+description: "Get reference information such as syntax and parameters for the notifyEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 11/30/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -13,24 +12,25 @@ ms.custom:
 
 # notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Displays a notification that can be used to inform agent about incoming conversations.
+Displays a notification that can be used to inform the agent about incoming conversations.
 
 ## Syntax
 
-`Microsoft.CIFramework.notifyEvent(input, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.notifyEvent(input, correlationId, cancellationToken).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | Name            | Type     | Required     | Description     |
 |-----------------|----------|--------------|-----------------|
-| input           | String   | Yes          | JSON input      |
-| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.          |
-| successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
-| errorCallback   | Function | No           | A function to call when the operation fails.  |
+| input           | JSON object   | Yes          | String      |
+| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
+| cancellationToken | String    | No        | Is the unique string that's used by the [`cancelEvent`](cancelEvent.md) method to cancel notifications about incoming conversations. |
+| successCallback | Function | No           | A function to call when the request is successful. On successful callback, the response object will have the information about whether the customer accepted or rejected the conversation. |
+| errorCallback   | Function | No           | A function to call when the request fails.  |
 
 ## Callback function details
 
-The following objects are passed into successCallback and errorCallback functions.
+The following objects are passed into the `successCallback` and `errorCallback` functions.
 
 ### successCallback function
 
@@ -75,23 +75,28 @@ Sample JSON object:
 ## Example
 
 ```javascript
+var canceltoken = "cancellationtoken"+ Math.ceil(Math.random() * 100000 + 100000).toString();
+
+ 
+
 var input = {
-	templateName: "msdyn_chat_incoming_unauthenticated",
-	// unique name of the configured template
-	templateParameters: {
-	}
+                templateName: "msdyn_chat_incoming_unauthenticated",
+                // unique name of the configured template
+                templateParameters: {
+                },
+// unique random token, to identify the notification during cancelEvent call
+                cancellationToken: canceltoken
 }
 Microsoft.CIFramework.notifyEvent(input).then(
-	function success(result) {
-		console.log(result);
-		// Perform operations
-	},
-	function (error) {
-		console.log(error.message);
-		// Handle error conditions
-	}
+                function success(result) {
+                                console.log(result);
+                                // Perform operations
+                },
+                function (error) {
+                                console.log(error.message);
+                                // Handle error conditions
+                }
 );
 ```
-
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

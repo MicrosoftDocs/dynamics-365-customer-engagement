@@ -1,18 +1,16 @@
 ---
-title: "BulkOperation Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the BulkOperation entity."
-ms.date: 04/02/2019
-
+title: "Quick Campaign (BulkOperation)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Quick Campaign (BulkOperation)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# BulkOperation Entity Reference
+
+# Quick Campaign (BulkOperation)  entity reference
 
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
@@ -21,18 +19,18 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/bulkoperations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMembersBulkOperation|<xref href="Microsoft.Dynamics.CRM.RetrieveMembersBulkOperation?text=RetrieveMembersBulkOperation Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMembersBulkOperationRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/bulkoperations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/bulkoperations(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMembersBulkOperation|<xref:Microsoft.Crm.Sdk.Messages.RetrieveMembersBulkOperationRequest>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -189,13 +187,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -212,16 +210,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### CreatedRecordTypeCode Options
+#### CreatedRecordTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Phone Call|
-|2|Fax|
-|3|Letter|
-|4|Email|
-|5|Appointment|
-|6|Send Direct Email|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Phone Call||
+|2|Fax||
+|3|Letter||
+|4|Email||
+|5|Appointment||
+|6|Send Direct Email||
 
 
 
@@ -252,13 +250,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -371,14 +369,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMapiPrivate Options
+#### IsMapiPrivate Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -409,14 +407,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LeftVoiceMail Options
+#### LeftVoiceMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -433,16 +431,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### OperationTypeCode Options
+#### OperationTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Create Opportunities|
-|2|Create Activities|
-|3|Send Direct Mail|
-|4|Distribute|
-|5|Execute|
-|7|Quick Campaign|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Create Opportunities||
+|2|Create Activities||
+|3|Send Direct Mail||
+|4|Distribute||
+|5|Execute||
+|7|Quick Campaign||
 
 
 
@@ -562,13 +560,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -692,7 +690,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -713,7 +711,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -772,13 +770,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### TargetedRecordTypeCode Options
+#### TargetedRecordTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Account|
-|2|Contact|
-|4|Lead|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Account||
+|2|Contact||
+|4|Lead||
 
 
 
@@ -847,7 +845,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1171,15 +1169,15 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InstanceTypeCode Options
+#### InstanceTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Not Recurring|
-|1|Recurring Master|
-|2|Recurring Instance|
-|3|Recurring Exception|
-|4|Recurring Future Exception|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Not Recurring||
+|1|Recurring Master||
+|2|Recurring Instance||
+|3|Recurring Exception||
+|4|Recurring Future Exception||
 
 
 
@@ -1195,14 +1193,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1218,14 +1216,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1241,14 +1239,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1658,7 +1656,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -1728,15 +1726,13 @@ Listed by **SchemaName**.
 - [bulkoperation_OpportunityCloses](#BKMK_bulkoperation_OpportunityCloses)
 - [bulkoperation_OrderCloses](#BKMK_bulkoperation_OrderCloses)
 - [bulkoperation_QuoteCloses](#BKMK_bulkoperation_QuoteCloses)
-- [bulkoperation_msdyn_bookingalerts](#BKMK_bulkoperation_msdyn_bookingalerts)
-- [bulkoperation_msdyn_approvals](#BKMK_bulkoperation_msdyn_approvals)
 
 
 ### <a name="BKMK_BulkOperation_ActivityPointers"></a> BulkOperation_ActivityPointers
 
 **Added by**: System Solution Solution
 
-Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.md#BKMK_BulkOperation_ActivityPointers) Many-To-One relationship.
+Same as the [BulkOperation_ActivityPointers](activitypointer.md#BKMK_BulkOperation_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1753,7 +1749,7 @@ Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperation_SyncErrors) Many-To-One relationship.
+Same as the [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperation_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1770,7 +1766,7 @@ Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperat
 
 **Added by**: System Solution Solution
 
-Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#BKMK_bulkoperation_activity_parties) Many-To-One relationship.
+Same as the [bulkoperation_activity_parties](activityparty.md#BKMK_bulkoperation_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1787,7 +1783,7 @@ Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#B
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#BKMK_BulkOperation_AsyncOperations) Many-To-One relationship.
+Same as the [BulkOperation_AsyncOperations](asyncoperation.md#BKMK_BulkOperation_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1804,7 +1800,7 @@ Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_BulkOperation_MailboxTrackingFolder) Many-To-One relationship.
+Same as the [BulkOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_BulkOperation_MailboxTrackingFolder) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1821,7 +1817,7 @@ Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailb
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperation_BulkDeleteFailures) Many-To-One relationship.
+Same as the [BulkOperation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperation_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1838,7 +1834,7 @@ Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefa
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [bulkoperation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperation_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1855,7 +1851,7 @@ Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttr
 
 **Added by**: System Solution Solution
 
-Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkOperation_Appointment) Many-To-One relationship.
+Same as the [BulkOperation_Appointment](appointment.md#BKMK_BulkOperation_Appointment) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1872,7 +1868,7 @@ Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkO
 
 **Added by**: System Solution Solution
 
-Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Many-To-One relationship.
+Same as the [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1889,7 +1885,7 @@ Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Ma
 
 **Added by**: System Solution Solution
 
-Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-To-One relationship.
+Same as the [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1906,7 +1902,7 @@ Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-T
 
 **Added by**: System Solution Solution
 
-Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter) Many-To-One relationship.
+Same as the [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1923,7 +1919,7 @@ Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter
 
 **Added by**: System Solution Solution
 
-Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperation_Phonecall) Many-To-One relationship.
+Same as the [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperation_Phonecall) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1940,7 +1936,7 @@ Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperati
 
 **Added by**: System Solution Solution
 
-Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many-To-One relationship.
+Same as the [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1957,7 +1953,7 @@ Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many
 
 **Added by**: System Solution Solution
 
-Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_BulkOperation_RecurringAppointmentMaster) Many-To-One relationship.
+Same as the [BulkOperation_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_BulkOperation_RecurringAppointmentMaster) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1974,7 +1970,7 @@ Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMas
 
 **Added by**: System Solution Solution
 
-Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#BKMK_BulkOperation_SocialActivity) Many-To-One relationship.
+Same as the [BulkOperation_SocialActivity](socialactivity.md#BKMK_BulkOperation_SocialActivity) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1991,7 +1987,7 @@ Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#B
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkoperation_Annotations) Many-To-One relationship.
+Same as the [bulkoperation_Annotations](annotation.md#BKMK_bulkoperation_Annotations) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2006,7 +2002,7 @@ Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkope
 
 ### <a name="BKMK_BulkOperation_CampaignResponse"></a> BulkOperation_CampaignResponse
 
-Same as campaignresponse entity [BulkOperation_CampaignResponse](campaignresponse.md#BKMK_BulkOperation_CampaignResponse) Many-To-One relationship.
+Same as the [BulkOperation_CampaignResponse](campaignresponse.md#BKMK_BulkOperation_CampaignResponse) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2021,7 +2017,7 @@ Same as campaignresponse entity [BulkOperation_CampaignResponse](campaignrespons
 
 ### <a name="BKMK_BulkOperation_logs"></a> BulkOperation_logs
 
-Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_BulkOperation_logs) Many-To-One relationship.
+Same as the [BulkOperation_logs](bulkoperationlog.md#BKMK_BulkOperation_logs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2038,7 +2034,7 @@ Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_Bu
 
 **Added by**: System Solution Solution
 
-Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperation_QueueItem) Many-To-One relationship.
+Same as the [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperation_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2055,7 +2051,7 @@ Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperati
 
 **Added by**: Service Solution
 
-Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentresolution.md#BKMK_bulkoperation_IncidentResolutions) Many-To-One relationship.
+Same as the [bulkoperation_IncidentResolutions](incidentresolution.md#BKMK_bulkoperation_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2072,7 +2068,7 @@ Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentre
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceappointment.md#BKMK_bulkoperation_ServiceAppointments) Many-To-One relationship.
+Same as the [bulkoperation_ServiceAppointments](serviceappointment.md#BKMK_bulkoperation_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2089,7 +2085,7 @@ Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceapp
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclose.md#BKMK_bulkoperation_OpportunityCloses) Many-To-One relationship.
+Same as the [bulkoperation_OpportunityCloses](opportunityclose.md#BKMK_bulkoperation_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2106,7 +2102,7 @@ Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclo
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkoperation_OrderCloses) Many-To-One relationship.
+Same as the [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkoperation_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2123,7 +2119,7 @@ Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkope
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCloses) Many-To-One relationship.
+Same as the [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2135,50 +2131,16 @@ Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkope
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
-
-### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bulkoperation_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bulkoperation_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_bulkoperation_msdyn_approvals"></a> bulkoperation_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [bulkoperation_msdyn_approvals](msdyn_approval.md#BKMK_bulkoperation_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|bulkoperation_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [interactionforemail_BulkOperations](#BKMK_interactionforemail_BulkOperations)
 - [lead_BulkOperations](#BKMK_lead_BulkOperations)
 - [bookableresourcebooking_BulkOperations](#BKMK_bookableresourcebooking_BulkOperations)
 - [bookableresourcebookingheader_BulkOperations](#BKMK_bookableresourcebookingheader_BulkOperations)
-- [interactionforemail_BulkOperations](#BKMK_interactionforemail_BulkOperations)
 - [knowledgebaserecord_BulkOperations](#BKMK_knowledgebaserecord_BulkOperations)
 - [account_BulkOperations](#BKMK_account_BulkOperations)
 - [lk_BulkOperation_createdby](#BKMK_lk_BulkOperation_createdby)
@@ -2199,139 +2161,135 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [List_BulkOperations](#BKMK_List_BulkOperations)
 
 
+### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
+
+**Added by**: System Solution Solution
+
+See the [interactionforemail_BulkOperations](interactionforemail.md#BKMK_interactionforemail_BulkOperations) one-to-many relationship for the [interactionforemail](interactionforemail.md) entity.
+
 ### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
 
 **Added by**: Lead Management Solution
 
-See lead Entity [lead_BulkOperations](lead.md#BKMK_lead_BulkOperations) One-To-Many relationship.
+See the [lead_BulkOperations](lead.md#BKMK_lead_BulkOperations) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_BulkOperations"></a> bookableresourcebooking_BulkOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_BulkOperations](bookableresourcebooking.md#BKMK_bookableresourcebooking_BulkOperations) One-To-Many relationship.
+See the [bookableresourcebooking_BulkOperations](bookableresourcebooking.md#BKMK_bookableresourcebooking_BulkOperations) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_BulkOperations"></a> bookableresourcebookingheader_BulkOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_BulkOperations](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_BulkOperations) One-To-Many relationship.
-
-### <a name="BKMK_interactionforemail_BulkOperations"></a> interactionforemail_BulkOperations
-
-**Added by**: System Solution Solution
-
-See interactionforemail Entity [interactionforemail_BulkOperations](interactionforemail.md#BKMK_interactionforemail_BulkOperations) One-To-Many relationship.
+See the [bookableresourcebookingheader_BulkOperations](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_BulkOperations) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_knowledgebaserecord_BulkOperations"></a> knowledgebaserecord_BulkOperations
 
 **Added by**: System Solution Solution
 
-See knowledgebaserecord Entity [knowledgebaserecord_BulkOperations](knowledgebaserecord.md#BKMK_knowledgebaserecord_BulkOperations) One-To-Many relationship.
+See the [knowledgebaserecord_BulkOperations](knowledgebaserecord.md#BKMK_knowledgebaserecord_BulkOperations) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_account_BulkOperations"></a> account_BulkOperations
 
 **Added by**: System Solution Solution
 
-See account Entity [account_BulkOperations](account.md#BKMK_account_BulkOperations) One-To-Many relationship.
+See the [account_BulkOperations](account.md#BKMK_account_BulkOperations) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_lk_BulkOperation_createdby"></a> lk_BulkOperation_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_BulkOperation_createdby](systemuser.md#BKMK_lk_BulkOperation_createdby) One-To-Many relationship.
+See the [lk_BulkOperation_createdby](systemuser.md#BKMK_lk_BulkOperation_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_contact_BulkOperations"></a> contact_BulkOperations
 
 **Added by**: System Solution Solution
 
-See contact Entity [contact_BulkOperations](contact.md#BKMK_contact_BulkOperations) One-To-Many relationship.
+See the [contact_BulkOperations](contact.md#BKMK_contact_BulkOperations) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_bulkoperation_mailbox_sendermailboxid"></a> bulkoperation_mailbox_sendermailboxid
 
 **Added by**: System Solution Solution
 
-See mailbox Entity [bulkoperation_mailbox_sendermailboxid](mailbox.md#BKMK_bulkoperation_mailbox_sendermailboxid) One-To-Many relationship.
+See the [bulkoperation_mailbox_sendermailboxid](mailbox.md#BKMK_bulkoperation_mailbox_sendermailboxid) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_bulkoperation_transactioncurrency_transactioncurrencyid"></a> bulkoperation_transactioncurrency_transactioncurrencyid
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid) One-To-Many relationship.
+See the [bulkoperation_transactioncurrency_transactioncurrencyid](transactioncurrency.md#BKMK_bulkoperation_transactioncurrency_transactioncurrencyid) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_user_BulkOperation"></a> user_BulkOperation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_BulkOperation](systemuser.md#BKMK_user_BulkOperation) One-To-Many relationship.
+See the [user_BulkOperation](systemuser.md#BKMK_user_BulkOperation) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_bulkoperation_sla_slaid"></a> bulkoperation_sla_slaid
 
 **Added by**: System Solution Solution
 
-See sla Entity [bulkoperation_sla_slaid](sla.md#BKMK_bulkoperation_sla_slaid) One-To-Many relationship.
+See the [bulkoperation_sla_slaid](sla.md#BKMK_bulkoperation_sla_slaid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_business_unit_BulkOperation_activities"></a> business_unit_BulkOperation_activities
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_BulkOperation_activities](businessunit.md#BKMK_business_unit_BulkOperation_activities) One-To-Many relationship.
+See the [business_unit_BulkOperation_activities](businessunit.md#BKMK_business_unit_BulkOperation_activities) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_knowledgearticle_BulkOperations"></a> knowledgearticle_BulkOperations
 
 **Added by**: System Solution Solution
 
-See knowledgearticle Entity [knowledgearticle_BulkOperations](knowledgearticle.md#BKMK_knowledgearticle_BulkOperations) One-To-Many relationship.
+See the [knowledgearticle_BulkOperations](knowledgearticle.md#BKMK_knowledgearticle_BulkOperations) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_lk_BulkOperation_modifiedonbehalfby"></a> lk_BulkOperation_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_BulkOperation_modifiedonbehalfby](systemuser.md#BKMK_lk_BulkOperation_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_BulkOperation_modifiedonbehalfby](systemuser.md#BKMK_lk_BulkOperation_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_BulkOperation_createdonbehalfby"></a> lk_BulkOperation_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_BulkOperation_createdonbehalfby](systemuser.md#BKMK_lk_BulkOperation_createdonbehalfby) One-To-Many relationship.
+See the [lk_BulkOperation_createdonbehalfby](systemuser.md#BKMK_lk_BulkOperation_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_BulkOperation_modifiedby"></a> lk_BulkOperation_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_BulkOperation_modifiedby](systemuser.md#BKMK_lk_BulkOperation_modifiedby) One-To-Many relationship.
+See the [lk_BulkOperation_modifiedby](systemuser.md#BKMK_lk_BulkOperation_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_BulkOperation"></a> team_BulkOperation
 
 **Added by**: System Solution Solution
 
-See team Entity [team_BulkOperation](team.md#BKMK_team_BulkOperation) One-To-Many relationship.
+See the [team_BulkOperation](team.md#BKMK_team_BulkOperation) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_bulkoperation_sla_slainvokedid"></a> bulkoperation_sla_slainvokedid
 
 **Added by**: System Solution Solution
 
-See sla Entity [bulkoperation_sla_slainvokedid](sla.md#BKMK_bulkoperation_sla_slainvokedid) One-To-Many relationship.
+See the [bulkoperation_sla_slainvokedid](sla.md#BKMK_bulkoperation_sla_slainvokedid) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_activity_pointer_BulkOperation"></a> activity_pointer_BulkOperation
 
 **Added by**: System Solution Solution
 
-See activitypointer Entity [activity_pointer_BulkOperation](activitypointer.md#BKMK_activity_pointer_BulkOperation) One-To-Many relationship.
+See the [activity_pointer_BulkOperation](activitypointer.md#BKMK_activity_pointer_BulkOperation) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_CampaignActivity_BulkOperations"></a> CampaignActivity_BulkOperations
 
-See campaignactivity Entity [CampaignActivity_BulkOperations](campaignactivity.md#BKMK_CampaignActivity_BulkOperations) One-To-Many relationship.
+See the [CampaignActivity_BulkOperations](campaignactivity.md#BKMK_CampaignActivity_BulkOperations) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_List_BulkOperations"></a> List_BulkOperations
 
-See list Entity [List_BulkOperations](list.md#BKMK_List_BulkOperations) One-To-Many relationship.
+See the [List_BulkOperations](list.md#BKMK_List_BulkOperations) one-to-many relationship for the [list](list.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bulkoperation?text=bulkoperation EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

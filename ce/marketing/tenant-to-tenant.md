@@ -1,22 +1,17 @@
 ---
 title: "Move environments between tenants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to prepare for and request to move an environment from one tenant to another."
-ms.date: 07/28/2021
-
+ms.date: 09/23/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Tenant to tenant migration for Dynamics 365 Marketing
@@ -25,6 +20,9 @@ Migrating a Marketing environment between tenants requires assistance from our t
 
 > [!NOTE]
 > When migrating a Marketing environment between tenants, the support team will advise you about pre-migration and post-migration steps (see below). Familiarize yourself with the [Marketing app status after migration](#marketing-app-status-after-migration) to determine if migration will be a good fit for your environment.
+
+> [!WARNING]
+> The Marketing app doesn't currently support migration between different tenant geographic locations (geo to geo).
 
 ## Marketing app status after migration
 

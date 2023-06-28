@@ -1,11 +1,10 @@
 ---
 title: "Create or edit sales orders in Dynamics 365 Sales"
 description: "Use orders to track details of the products or services that your customers want to place an order for."
-ms.date: 10/25/2021
+ms.date: 07/06/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -22,12 +21,11 @@ searchScope:
 Use orders to track details of the products or services that your customers want to place an order for.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## When to create an order
 
@@ -110,6 +108,7 @@ meaningful and unique. By default, these records are sorted by Name in the recor
   
 > [!NOTE]
 >  - You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
+>  - You can't set the status of multiple orders to fulfilled at one go.  
 >  - You can't update or change an order after it has been closed, or if it has been partially or completely fulfilled.  
   
   

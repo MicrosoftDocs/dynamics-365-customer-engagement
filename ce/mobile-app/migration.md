@@ -11,16 +11,12 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 8828238c-1605-4710-a192-0017acb03194
 caps.latest.revision: 97
-ms.author: mkaur
-author: mduelae
-manager: kvivek
+ms.author: sericks
+author: sericks007
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app 

@@ -1,5 +1,6 @@
 ---
 title: "Choose records to work with offline in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to choose a subset of records in Dynamics 365 for Outlook to take for offline mode work by using offline synchronization filters.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
@@ -18,14 +19,10 @@ ms.assetid: 720b3428-867f-4abc-861c-580930b0e43c
 caps.latest.revision: 23
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Choose records to work with offline in Dynamics 365 for Outlook
 Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data to take with you when you go offline with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] by using offline synchronization filters. By default, these filters copy the appointments, contacts, and tasks records you own to your local drive. You might want to modify the filters to take a smaller subset of data with you or to synchronize particular records. For example, you might want to synchronize all reports since reports you don’t own wouldn’t normally be synchronized.  

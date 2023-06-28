@@ -1,11 +1,10 @@
 ---
 title: "How to use ZoomInfo app data in Dynamics 365 Sales | MicrosoftDocs"
 description: "Understand how you can use ZoomInfo app data in Dynamics 365 Sales. Learn how to find and import B2B account, contact, and lead info, or update existing data."
-ms.date: 10/25/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 # Use ZoomInfo app data 
 
@@ -16,12 +15,11 @@ As a seller or sales manager, you can do the following tasks using ZoomInfo data
 -	Update data on existing leads, contacts, and accounts
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Prerequisites   
 
@@ -37,7 +35,7 @@ You can access the ZoomInfo app in the following ways:
 
 To access and understand the ZoomInfo data, follow these steps:   
 
-1.	Sign in to your Dynamics 365 environment and choose one of the following options to open the ZoomInfo data:   
+1.	Open your Dynamics 365 Apps page and choose one of the following options to open the ZoomInfo data:   
     -	Select the **ZoomInfo** app and on the left navigation pane, select **Accounts**, **Contacts**, or **Leads**, depending on the record for which you want to view information.
     -	Select the **Sales Hub** app and on the left navigation pane, select **Accounts**, **Contacts**, or **Leads**, depending on the record for which you want to view information.
  

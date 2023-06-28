@@ -1,31 +1,13 @@
 ---
-title: "Fulfillment preferences (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn about how to use fulfillment preferences in Dynamics 365 Field Service
-ms.date: 12/06/2018
-ms.reviewer: krbjoran
-
-ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+title: Define intervals and time groups with fulfillment preferences
+description: Learn how to use fulfillment preferences and the related concepts of intervals and time groups in Dynamics 365 Field Service.
+ms.date: 02/16/2023
+ms.topic: conceptual
+author: clearab
+ms.author: anclear
 ---
-# Fulfillment preferences in Dynamics 365 Field Service
+# Define intervals and time groups with fulfillment preferences
 
 [!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
-
-### See also  
-  
- [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
- [Create a work order](../field-service/create-work-order.md)   
- [Create work order types](../field-service/create-work-order-types.md)   
- [Set up work order sub-statuses](./work-order-status-booking-status.md)   
- [Set up service task types](../field-service/set-up-service-task-types.md)   
- [Configure incident types](../field-service/configure-incident-types.md)   
- [Set priorities](../field-service/set-priorities.md)<br>
- [User's Guide](../field-service/user-guide.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,18 +1,16 @@
 ---
-title: "msdyn_odatav4ds Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_odatav4ds entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_odatav4ds entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# msdyn_odatav4ds Entity Reference
+
+# msdyn_odatav4ds entity reference
 
 Data sources used by the OData v4 data provider to access data from an external web service.
 
@@ -21,15 +19,15 @@ Data sources used by the OData v4 data provider to access data from an external 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_odatav4ds<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_odatav4ds(*msdyn_odatav4dsid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_odatav4ds(*msdyn_odatav4dsid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_odatav4ds<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_odatav4ds(*msdyn_odatav4dsid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -119,14 +117,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter10header Options
+#### msdyn_isparameter10header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -142,14 +140,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter1header Options
+#### msdyn_isparameter1header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -165,14 +163,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter2header Options
+#### msdyn_isparameter2header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -188,14 +186,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter3header Options
+#### msdyn_isparameter3header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -211,14 +209,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter4header Options
+#### msdyn_isparameter4header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -234,14 +232,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter5header Options
+#### msdyn_isparameter5header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -257,14 +255,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter6header Options
+#### msdyn_isparameter6header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -280,14 +278,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter7header Options
+#### msdyn_isparameter7header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -303,14 +301,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter8header Options
+#### msdyn_isparameter8header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -326,14 +324,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_isparameter9header Options
+#### msdyn_isparameter9header Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Header|
-|0|Query String|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Header||
+|0|Query String||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -379,14 +377,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_paginationmode Options
+#### msdyn_paginationmode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Server-side Paging|
-|0|Client-side Paging|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Server-side Paging||
+|0|Client-side Paging||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -402,12 +400,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### msdyn_paginationtype Options
+#### msdyn_paginationtype Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Client-side Paging|
-|1|Server-side Paging|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Client-side Paging||
+|1|Server-side Paging||
 
 
 
@@ -743,14 +741,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### msdyn_returninlinecount Options
+#### msdyn_returninlinecount Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|True|
-|0|False|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|True||
+|0|False||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -790,8 +788,4 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_odatav4ds?text=msdyn_odatav4ds EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

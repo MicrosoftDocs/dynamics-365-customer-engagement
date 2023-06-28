@@ -5,7 +5,6 @@ ms.date: 01/25/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast configuration
@@ -20,11 +19,11 @@ Activate a forecast, and download the spreadsheet template to populate quotas an
 
 
 ## License and role requirements
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Activate a forecast and upload simple data
 
@@ -94,6 +93,8 @@ Now that you've completed the required configurations for the forecast, use the 
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
+> [!NOTE]
+> If you update data (simple columns and adjust fields), the changes may take up to two hours to reflect in the forecast.
 
 ## Use APIs to upload forecast data
 

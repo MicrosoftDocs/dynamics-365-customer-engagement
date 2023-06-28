@@ -1,11 +1,10 @@
 ---
 title: "setAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes syntax and parameter information for the setAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
-ms.date: 07/01/2019
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+description: "Includes reference information such as syntax and parameter for the setAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 04/04/2022
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
 ---
 # setAuthTokenProvider
 
@@ -36,7 +35,7 @@ This SDK is applicable only if authentication is enabled for the widget. To enab
 | ---- | ---- | ---- |
 | authTokenProvider | Function | Function which when invoked with a callback function as an argument, fetches the JWT token and invokes the callback function with the JWT token as its argument  |
 
-## Return Value
+## Return value
 
 None
 
@@ -83,17 +82,18 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
     });
 });
 ```
+
 ## Error codes
 
-The following error codes can occur with this method.
+The following errors can occur with this method.
 
-|Error Code|Error message|
+|Error code|Error message|
 |-----|-----|
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 
-## See also
+### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 

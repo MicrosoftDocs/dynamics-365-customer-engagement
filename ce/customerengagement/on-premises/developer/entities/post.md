@@ -1,32 +1,30 @@
 ---
-title: "Post Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Post entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Post entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Post Entity Reference
+
+# Post entity reference
 
 An activity feed post.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/posts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/posts(*postid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/posts(*postid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/posts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -132,13 +130,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### Source Options
+#### Source Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Auto Post|
-|2|Manual Post|
-|3|ActionHub Post|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Auto Post||
+|2|Manual Post||
+|3|ActionHub Post||
 
 
 
@@ -188,17 +186,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### Type Options
+#### Type Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Check-in|
-|2|Idea|
-|3|News|
-|4|Private Message|
-|5|Question|
-|6|Re-post|
-|7|Status|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Check-in||
+|2|Idea||
+|3|News||
+|4|Private Message||
+|5|Question||
+|6|Re-post||
+|7|Status||
 
 
 
@@ -502,14 +500,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### PostToYammer Options
+#### PostToYammer Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -615,7 +613,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_post_AsyncOperations"></a> post_AsyncOperations
 
-Same as asyncoperation entity [post_AsyncOperations](asyncoperation.md#BKMK_post_AsyncOperations) Many-To-One relationship.
+Same as the [post_AsyncOperations](asyncoperation.md#BKMK_post_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -630,7 +628,7 @@ Same as asyncoperation entity [post_AsyncOperations](asyncoperation.md#BKMK_post
 
 ### <a name="BKMK_post_BulkDeleteFailures"></a> post_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [post_BulkDeleteFailures](bulkdeletefailure.md#BKMK_post_BulkDeleteFailures) Many-To-One relationship.
+Same as the [post_BulkDeleteFailures](bulkdeletefailure.md#BKMK_post_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -645,7 +643,7 @@ Same as bulkdeletefailure entity [post_BulkDeleteFailures](bulkdeletefailure.md#
 
 ### <a name="BKMK_Post_Comments"></a> Post_Comments
 
-Same as postcomment entity [Post_Comments](postcomment.md#BKMK_Post_Comments) Many-To-One relationship.
+Same as the [Post_Comments](postcomment.md#BKMK_Post_Comments) many-to-one relationship for the [postcomment](postcomment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -660,7 +658,7 @@ Same as postcomment entity [Post_Comments](postcomment.md#BKMK_Post_Comments) Ma
 
 ### <a name="BKMK_Post_Likes"></a> Post_Likes
 
-Same as postlike entity [Post_Likes](postlike.md#BKMK_Post_Likes) Many-To-One relationship.
+Same as the [Post_Likes](postlike.md#BKMK_Post_Likes) many-to-one relationship for the [postlike](postlike.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -687,29 +685,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_post_createdby"></a> lk_post_createdby
 
-See systemuser Entity [lk_post_createdby](systemuser.md#BKMK_lk_post_createdby) One-To-Many relationship.
+See the [lk_post_createdby](systemuser.md#BKMK_lk_post_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_post_createdonbehalfby"></a> lk_post_createdonbehalfby
 
-See systemuser Entity [lk_post_createdonbehalfby](systemuser.md#BKMK_lk_post_createdonbehalfby) One-To-Many relationship.
+See the [lk_post_createdonbehalfby](systemuser.md#BKMK_lk_post_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_post_modifiedby"></a> lk_post_modifiedby
 
-See systemuser Entity [lk_post_modifiedby](systemuser.md#BKMK_lk_post_modifiedby) One-To-Many relationship.
+See the [lk_post_modifiedby](systemuser.md#BKMK_lk_post_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_post_modifiedonbehalfby"></a> lk_post_modifiedonbehalfby
 
-See systemuser Entity [lk_post_modifiedonbehalfby](systemuser.md#BKMK_lk_post_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_post_modifiedonbehalfby](systemuser.md#BKMK_lk_post_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_post"></a> organization_post
 
-See organization Entity [organization_post](organization.md#BKMK_organization_post) One-To-Many relationship.
+See the [organization_post](organization.md#BKMK_organization_post) one-to-many relationship for the [organization](organization.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.post?text=post EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

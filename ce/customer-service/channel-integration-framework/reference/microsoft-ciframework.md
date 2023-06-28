@@ -3,9 +3,8 @@ title: "Microsoft.CIFramework (JavaScript API Reference) for Dynamics 365 Channe
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 03/14/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
@@ -58,11 +57,12 @@ Use the following APIs to perform CRUD operations on entity records.
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
+| [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/includes/raiseEvent-description.md)] |
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework 1.0](../system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

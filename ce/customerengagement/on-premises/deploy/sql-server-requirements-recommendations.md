@@ -14,7 +14,6 @@ ms.assetid: be02a7d8-d0a6-44b2-8e45-7216bb7045e5
 caps.latest.revision: 26
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # SQL Server requirements and recommendations for Microsoft Dynamics 365 Customer Engagement (on-premises)
 
@@ -64,16 +63,16 @@ The following requirements and recommendations apply to new and existing install
     > [!NOTE]
     > [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] sets the collation order at the database level. This setting might differ from that set at the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] level.  
   
--   Review all [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installation options and be prepared to make the needed selections when you run Setup. For more information, see [SQL Server Installation](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2017).  
+-   Review all [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installation options and be prepared to make the needed selections when you run Setup. For more information, see [SQL Server Installation](/sql/database-engine/install-windows/installation-for-sql-server?view=sql-server-2017&preserve-view=true).  
   
--   If you plan to install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in a location other than the default file location, see [File Locations for Default and Named Instances of SQL Server](/sql/sql-server/install/file-locations-for-default-and-named-instances-of-sql-server?view=sql-server-2017).  
+-   If you plan to install [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in a location other than the default file location, see [File Locations for Default and Named Instances of SQL Server](/sql/sql-server/install/file-locations-for-default-and-named-instances-of-sql-server?view=sql-server-2017&preserve-view=true).  
   
      You should also consider where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases are located on the server, and the hard-disk configuration that will support them.  
   
     > [!NOTE]
     >  To achieve the best combination of disk fault tolerance and performance, consider the many specifications for redundant array of independent disks (RAID) available from hardware vendors. Format the disks where the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] database files reside for the fault-tolerance requirements of the application and performance parameters for the I/O activity occurring on that partition.  
   
--   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017)  
+-   We recommend that common language runtime (CLR) be enabled on the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that hosts the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database. CLR can show a significant improvement in performance for some features such as time zone conversions when you run dashboards, charts, advanced finds, and [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub experience. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CLR Integration - Enabling](/sql/relational-databases/clr-integration/clr-integration-enabling?view=sql-server-2017&preserve-view=true)  
 <!--  
 <a name="sql2016_perf"></a>   
 ## Improve performance when you use  Microsoft Dynamics 365 Customer Engagement (on-premises) with SQL Server 2016  

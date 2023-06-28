@@ -1,21 +1,16 @@
 ---
 title: "Set up an event website (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 Marketing event website, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
-ms.date: 04/06/2019
-
+ms.date: 10/19/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set up the event website
@@ -109,6 +104,10 @@ When a visitor to the website decides to register for your event, they proceed a
     - If your event offers pass-level registration and includes more than one pass, then the form allows a different pass to be selected for each registrant as needed. (Session-level registration isn't available when you use this option.)
     - If your event offers session-level registration, then the form allows the registrant to assemble their own schedule from all available sessions. (Passes and online payment aren't available if you use this option)
     - If you've chosen to enable a CAPTCHA, then the visitor must fill out the CAPTCHA field to continue after entering details about each registrant.
+        > [!IMPORTANT]
+        > Beginning in November 2022, the [Captcha](http://www.captcha.net/) service endpoints for event website are changing. If you have origin checks for your event portal requests, the Captcha call origin points will change from `https://client.prod.repmap.microsoft.com/` to `https://*.svc.dynamics.com` (where * varies based on the Events API).
+        >
+        > You can learn more about the Events API in the [Using the Events API](developer/using-events-api.md) article.
     - One advantage of creating a registration account is that those contacts can sign in again to view their event schedules and to cancel registrations if needed.
     - If you are hosting the event website on a Power Apps portal, then visitors who use the site to create a registration account must do so using an email address that doesn't belong to any contact already in your database.
 1. If your event requires payment, a payment gateway opens and the visitor must enter their payment details.

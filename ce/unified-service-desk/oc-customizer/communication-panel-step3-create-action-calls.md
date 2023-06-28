@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -162,7 +161,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | IsCaseSession=False |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omnichannel Session Accepted
+## Omnichannel Session Accepted (Order 15)
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -190,7 +189,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | SetVisualProperty | 
   | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
-## Omnichannel Session Accepted
+## Omnichannel Session Accepted (Order 10)
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -247,7 +246,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | LogicalName=\[\[EntityLogicalName\]+\] <br> id=\[\[EntityId\]+\] |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Load Form for entity
+## Load Form for entity session
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -334,17 +333,6 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | CopyToContext | 
   | General | Data | contactIds = \[\[contact\]+\] |
-
-## Omnichannel Fetch Context Contacts
-
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Omnichannel Fetch Context Contacts |
-  | General | Order | 3 |
-  | General | Hosted Control | CRM Global Manager |
-  | General | Action     | DoSearch | 
-  | General | Data | ContextContactSearch <br> global=True |
-  | Advanced | Condition |  $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
 ## Omnichannel Save Context Entities
 

@@ -1,22 +1,17 @@
 ---
 title: "Change the URL for event websites hosted on Power Apps portals (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to change the URL where Power Apps portals hosts your events in Dynamics 365 Marketing."
-ms.date: 10/10/2019
-
+ms.date: 03/28/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Change the URL for event websites hosted on Power Apps portals
@@ -34,7 +29,7 @@ To change the URL for your portal and the default URL for your events and pages:
 
 1. If you haven't already done so, change the subdomain for your Power Apps portal by following the instructions given in [Change the base URL of a portal](/powerapps/maker/portals/admin/change-base-url). Be sure to read the warning in the introduction to this topic before changing this.
 
-1. In Dynamics 365 Marketing, select **Marketing** in the top ribbon to change apps, then select **Power Apps portals**.
+1. In Dynamics 365 Marketing, select **Marketing** in the top ribbon to change apps, then select **Portal management**.
 
     > [!div class="mx-imgBorder"]
     > ![Open the Portals app.](media/app-selector-portals2.png)

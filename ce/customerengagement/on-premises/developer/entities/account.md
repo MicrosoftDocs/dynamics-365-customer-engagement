@@ -1,44 +1,42 @@
 ---
-title: "Account Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Account entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Account entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Account Entity Reference
+
+# Account entity reference
 
 Business that represents a customer or potential customer. The company that is billed in business transactions.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|POST [*org URI*]/api/data/v9.0/accounts<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|Merge|<xref href="Microsoft.Dynamics.CRM.Merge?text=Merge Action" />|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/accounts<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Rollup|<xref href="Microsoft.Dynamics.CRM.Rollup?text=Rollup Function" />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/accounts(*accountid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Merge|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -138,16 +136,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [LastUsedInCampaign](#BKMK_LastUsedInCampaign)
 - [MarketCap](#BKMK_MarketCap)
 - [MarketingOnly](#BKMK_MarketingOnly)
-- [msdyn_BillingAccount](#BKMK_msdyn_BillingAccount)
-- [msdyn_externalaccountid](#BKMK_msdyn_externalaccountid)
-- [msdyn_PreferredResource](#BKMK_msdyn_PreferredResource)
-- [msdyn_SalesTaxCode](#BKMK_msdyn_SalesTaxCode)
-- [msdyn_ServiceTerritory](#BKMK_msdyn_ServiceTerritory)
-- [msdyn_TaxExempt](#BKMK_msdyn_TaxExempt)
-- [msdyn_TaxExemptNumber](#BKMK_msdyn_TaxExemptNumber)
-- [msdyn_TravelCharge](#BKMK_msdyn_TravelCharge)
-- [msdyn_TravelChargeType](#BKMK_msdyn_TravelChargeType)
-- [msdyn_WorkOrderInstructions](#BKMK_msdyn_WorkOrderInstructions)
 - [Name](#BKMK_Name)
 - [NumberOfEmployees](#BKMK_NumberOfEmployees)
 - [OriginatingLeadId](#BKMK_OriginatingLeadId)
@@ -177,7 +165,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [StateCode](#BKMK_StateCode)
 - [StatusCode](#BKMK_StatusCode)
 - [StockExchange](#BKMK_StockExchange)
-- [TeamsFollowed](#BKMK_TeamsFollowed)
 - [Telephone1](#BKMK_Telephone1)
 - [Telephone2](#BKMK_Telephone2)
 - [Telephone3](#BKMK_Telephone3)
@@ -204,12 +191,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AccountCategoryCode Options
+#### AccountCategoryCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Preferred Customer|
-|2|Standard|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Preferred Customer||
+|2|Standard||
 
 
 
@@ -225,11 +212,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AccountClassificationCode Options
+#### AccountClassificationCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -275,11 +262,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AccountRatingCode Options
+#### AccountRatingCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -308,14 +295,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_AddressTypeCode Options
+#### Address1_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Bill To|
-|2|Ship To|
-|3|Primary|
-|4|Other|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Bill To||
+|2|Ship To||
+|3|Primary||
+|4|Other||
 
 
 
@@ -395,12 +382,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_FreightTermsCode Options
+#### Address1_FreightTermsCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|FOB|
-|2|No Charge|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|FOB||
+|2|No Charge||
 
 
 
@@ -560,17 +547,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_ShippingMethodCode Options
+#### Address1_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Airborne|
-|2|DHL|
-|3|FedEx|
-|4|UPS|
-|5|Postal Mail|
-|6|Full Load|
-|7|Will Call|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Airborne||
+|2|DHL||
+|3|FedEx||
+|4|UPS||
+|5|Postal Mail||
+|6|Full Load||
+|7|Will Call||
 
 
 
@@ -695,11 +682,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_AddressTypeCode Options
+#### Address2_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -779,11 +766,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_FreightTermsCode Options
+#### Address2_FreightTermsCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -943,11 +930,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_ShippingMethodCode Options
+#### Address2_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -1059,11 +1046,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### BusinessTypeCode Options
+#### BusinessTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -1096,14 +1083,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### CreditOnHold Options
+#### CreditOnHold Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1119,11 +1106,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### CustomerSizeCode Options
+#### CustomerSizeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -1139,22 +1126,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### CustomerTypeCode Options
+#### CustomerTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Competitor|
-|2|Consultant|
-|3|Customer|
-|4|Investor|
-|5|Partner|
-|6|Influencer|
-|7|Press|
-|8|Prospect|
-|9|Reseller|
-|10|Supplier|
-|11|Vendor|
-|12|Other|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Competitor||
+|2|Consultant||
+|3|Customer||
+|4|Investor||
+|5|Partner||
+|6|Influencer||
+|7|Press||
+|8|Prospect||
+|9|Reseller||
+|10|Supplier||
+|11|Vendor||
+|12|Other||
 
 
 
@@ -1165,7 +1152,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|
-|DisplayName|Product Price List|
+|DisplayName|Price List|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|defaultpricelevelid|
@@ -1202,14 +1189,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotBulkEMail Options
+#### DoNotBulkEMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Allow|
-|0|Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Allow||
+|0|Allow||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1225,14 +1212,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotBulkPostalMail Options
+#### DoNotBulkPostalMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1248,14 +1235,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotEMail Options
+#### DoNotEMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Allow|
-|0|Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Allow||
+|0|Allow||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1271,14 +1258,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotFax Options
+#### DoNotFax Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Allow|
-|0|Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Allow||
+|0|Allow||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1294,14 +1281,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotPhone Options
+#### DoNotPhone Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Allow|
-|0|Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Allow||
+|0|Allow||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1317,14 +1304,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotPostalMail Options
+#### DoNotPostalMail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Allow|
-|0|Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Allow||
+|0|Allow||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1340,14 +1327,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotSendMM Options
+#### DoNotSendMM Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Do Not Send|
-|0|Send|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Do Not Send||
+|0|Send||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1443,14 +1430,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### FollowEmail Options
+#### FollowEmail Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Allow|
-|0|Do Not Allow|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Allow||
+|0|Do Not Allow||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -1499,43 +1486,43 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### IndustryCode Options
+#### IndustryCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Accounting|
-|2|Agriculture and Non-petrol Natural Resource Extraction|
-|3|Broadcasting Printing and Publishing|
-|4|Brokers|
-|5|Building Supply Retail|
-|6|Business Services|
-|7|Consulting|
-|8|Consumer Services|
-|9|Design, Direction and Creative Management|
-|10|Distributors, Dispatchers and Processors|
-|11|Doctor's Offices and Clinics|
-|12|Durable Manufacturing|
-|13|Eating and Drinking Places|
-|14|Entertainment Retail|
-|15|Equipment Rental and Leasing|
-|16|Financial|
-|17|Food and Tobacco Processing|
-|18|Inbound Capital Intensive Processing|
-|19|Inbound Repair and Services|
-|20|Insurance|
-|21|Legal Services|
-|22|Non-Durable Merchandise Retail|
-|23|Outbound Consumer Service|
-|24|Petrochemical Extraction and Distribution|
-|25|Service Retail|
-|26|SIG Affiliations|
-|27|Social Services|
-|28|Special Outbound Trade Contractors|
-|29|Specialty Realty|
-|30|Transportation|
-|31|Utility Creation and Distribution|
-|32|Vehicle Retail|
-|33|Wholesale|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Accounting||
+|2|Agriculture and Non-petrol Natural Resource Extraction||
+|3|Broadcasting Printing and Publishing||
+|4|Brokers||
+|5|Building Supply Retail||
+|6|Business Services||
+|7|Consulting||
+|8|Consumer Services||
+|9|Design, Direction and Creative Management||
+|10|Distributors, Dispatchers and Processors||
+|11|Doctor's Offices and Clinics||
+|12|Durable Manufacturing||
+|13|Eating and Drinking Places||
+|14|Entertainment Retail||
+|15|Equipment Rental and Leasing||
+|16|Financial||
+|17|Food and Tobacco Processing||
+|18|Inbound Capital Intensive Processing||
+|19|Inbound Repair and Services||
+|20|Insurance||
+|21|Legal Services||
+|22|Non-Durable Merchandise Retail||
+|23|Outbound Consumer Service||
+|24|Petrochemical Extraction and Distribution||
+|25|Service Retail||
+|26|SIG Affiliations||
+|27|Social Services||
+|28|Special Outbound Trade Contractors||
+|29|Specialty Realty||
+|30|Transportation||
+|31|Utility Creation and Distribution||
+|32|Vehicle Retail||
+|33|Wholesale||
 
 
 
@@ -1599,202 +1586,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### MarketingOnly Options
+#### MarketingOnly Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
-
-
-### <a name="BKMK_msdyn_BillingAccount"></a> msdyn_BillingAccount
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Reference to an other account to be used for billing (only to be used if billing account differs)|
-|DisplayName|Billing Account|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_billingaccount|
-|RequiredLevel|None|
-|Targets|account|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_externalaccountid"></a> msdyn_externalaccountid
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|External Account ID from other systems.|
-|DisplayName|External ID|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_externalaccountid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PreferredResource"></a> msdyn_PreferredResource
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Preferred Resource (Deprecated)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_preferredresource|
-|RequiredLevel|None|
-|Targets|bookableresource|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_SalesTaxCode"></a> msdyn_SalesTaxCode
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Default Sales Tax Code|
-|DisplayName|Sales Tax Code|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_salestaxcode|
-|RequiredLevel|None|
-|Targets|msdyn_taxcode|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|The Service Territory this account belongs to. This is used to optimize scheduling and routing|
-|DisplayName|Service Territory|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_serviceterritory|
-|RequiredLevel|None|
-|Targets|territory|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_TaxExempt"></a> msdyn_TaxExempt
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select whether the account is tax exempt.|
-|DisplayName|Tax Exempt|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_taxexempt|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_TaxExempt Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_TaxExemptNumber"></a> msdyn_TaxExemptNumber
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the government tax exempt number.|
-|DisplayName|Tax Exempt Number|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_taxexemptnumber|
-|MaxLength|20|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_TravelCharge"></a> msdyn_TravelCharge
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Enter the travel charge to include on work orders. This value will be multiplied by the travel charge type.|
-|DisplayName|Travel Charge|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_travelcharge|
-|MaxValue|1000000000|
-|MinValue|0|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
-
-
-### <a name="BKMK_msdyn_TravelChargeType"></a> msdyn_TravelChargeType
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Specify how travel is charged for this account.|
-|DisplayName|Travel Charge Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_travelchargetype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_TravelChargeType Options
-
-|Value|Label|
-|-----|-----|
-|690970000|Hourly|
-|690970001|Mileage|
-|690970002|Fixed|
-|690970003|None|
-
-
-
-### <a name="BKMK_msdyn_WorkOrderInstructions"></a> msdyn_WorkOrderInstructions
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the default instructions to show on new work orders.|
-|DisplayName|Work Order Instructions|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_workorderinstructions|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|Memo|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -1901,14 +1701,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### OwnershipCode Options
+#### OwnershipCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Public|
-|2|Private|
-|3|Subsidiary|
-|4|Other|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Public||
+|2|Private||
+|3|Subsidiary||
+|4|Other||
 
 
 
@@ -1938,14 +1738,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### ParticipatesInWorkflow Options
+#### ParticipatesInWorkflow Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1961,14 +1761,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PaymentTermsCode Options
+#### PaymentTermsCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Net 30|
-|2|2% 10, Net 30|
-|3|Net 45|
-|4|Net 60|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Net 30||
+|2|2% 10, Net 30||
+|3|Net 45||
+|4|Net 60||
 
 
 
@@ -1984,17 +1784,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PreferredAppointmentDayCode Options
+#### PreferredAppointmentDayCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Sunday|
-|1|Monday|
-|2|Tuesday|
-|3|Wednesday|
-|4|Thursday|
-|5|Friday|
-|6|Saturday|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Sunday||
+|1|Monday||
+|2|Tuesday||
+|3|Wednesday||
+|4|Thursday||
+|5|Friday||
+|6|Saturday||
 
 
 
@@ -2010,13 +1810,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PreferredAppointmentTimeCode Options
+#### PreferredAppointmentTimeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Morning|
-|2|Afternoon|
-|3|Evening|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Morning||
+|2|Afternoon||
+|3|Evening||
 
 
 
@@ -2032,15 +1832,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PreferredContactMethodCode Options
+#### PreferredContactMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Any|
-|2|Email|
-|3|Phone|
-|4|Fax|
-|5|Mail|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Any||
+|2|Email||
+|3|Phone||
+|4|Fax||
+|5|Mail||
 
 
 
@@ -2194,11 +1994,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ShippingMethodCode Options
+#### ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -2237,7 +2037,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Shows the ID of the stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -2258,7 +2058,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -2279,7 +2079,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -2302,24 +2102,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|20|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_TeamsFollowed"></a> TeamsFollowed
-
-**Added by**: Sales Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Number of users or conversations followed the record|
-|DisplayName|TeamsFollowed|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|teamsfollowed|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
 
 
 ### <a name="BKMK_Telephone1"></a> Telephone1
@@ -2382,11 +2164,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### TerritoryCode Options
+#### TerritoryCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -2457,7 +2239,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -2561,12 +2343,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_BillingAccountName](#BKMK_msdyn_BillingAccountName)
-- [msdyn_BillingAccountYomiName](#BKMK_msdyn_BillingAccountYomiName)
-- [msdyn_PreferredResourceName](#BKMK_msdyn_PreferredResourceName)
-- [msdyn_SalesTaxCodeName](#BKMK_msdyn_SalesTaxCodeName)
-- [msdyn_ServiceTerritoryName](#BKMK_msdyn_ServiceTerritoryName)
-- [msdyn_travelcharge_Base](#BKMK_msdyn_travelcharge_Base)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OpenDeals](#BKMK_OpenDeals)
 - [OpenDeals_Date](#BKMK_OpenDeals_Date)
@@ -2994,14 +2770,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsPrivate Options
+#### IsPrivate Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -3080,14 +2856,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### Merged Options
+#### Merged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -3242,115 +3018,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
-
-
-### <a name="BKMK_msdyn_BillingAccountName"></a> msdyn_BillingAccountName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_billingaccountname|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_BillingAccountYomiName"></a> msdyn_BillingAccountYomiName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_billingaccountyominame|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_PreferredResourceName"></a> msdyn_PreferredResourceName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_preferredresourcename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_SalesTaxCodeName"></a> msdyn_SalesTaxCodeName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_salestaxcodename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_ServiceTerritoryName"></a> msdyn_ServiceTerritoryName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_serviceterritoryname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_travelcharge_Base"></a> msdyn_travelcharge_Base
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Value of the Travel Charge in base currency.|
-|DisplayName|Travel Charge (Base)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_travelcharge_base|
-|MaxValue|922337203685477|
-|MinValue|-922337203685477|
-|Precision|2|
-|PrecisionSource|1|
-|RequiredLevel|None|
-|Type|Money|
 
 
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
@@ -3870,7 +3537,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_geofence_account](#BKMK_msdyn_geofence_account)
+- [account_principalobjectattributeaccess](#BKMK_account_principalobjectattributeaccess)
 - [lead_customer_accounts](#BKMK_lead_customer_accounts)
 - [lead_parent_account](#BKMK_lead_parent_account)
 - [account_bookableresource_AccountId](#BKMK_account_bookableresource_AccountId)
@@ -3894,50 +3561,6 @@ Listed by **SchemaName**.
 - [order_customer_accounts](#BKMK_order_customer_accounts)
 - [quote_customer_accounts](#BKMK_quote_customer_accounts)
 - [opportunity_parent_account](#BKMK_opportunity_parent_account)
-- [account_msdyn_bookingalerts](#BKMK_account_msdyn_bookingalerts)
-- [msdyn_account_msdyn_actual_AccountCustomer](#BKMK_msdyn_account_msdyn_actual_AccountCustomer)
-- [msdyn_account_msdyn_actual_AccountVendor](#BKMK_msdyn_account_msdyn_actual_AccountVendor)
-- [account_msdyn_approvals](#BKMK_account_msdyn_approvals)
-- [msdyn_account_msdyn_accountpricelist_Account](#BKMK_msdyn_account_msdyn_accountpricelist_Account)
-- [msdyn_account_msdyn_estimateline_AccountCustomer](#BKMK_msdyn_account_msdyn_estimateline_AccountCustomer)
-- [msdyn_account_msdyn_estimateline_AccountVendor](#BKMK_msdyn_account_msdyn_estimateline_AccountVendor)
-- [msdyn_account_msdyn_fact_AccountCustomer](#BKMK_msdyn_account_msdyn_fact_AccountCustomer)
-- [msdyn_account_msdyn_fact_AccountVendor](#BKMK_msdyn_account_msdyn_fact_AccountVendor)
-- [msdyn_account_msdyn_invoicelinetransaction_AccountCustomer](#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer)
-- [msdyn_account_msdyn_invoicelinetransaction_AccountVendor](#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor)
-- [msdyn_account_msdyn_journalline_AccountCustomer](#BKMK_msdyn_account_msdyn_journalline_AccountCustomer)
-- [msdyn_account_msdyn_journalline_AccountVendor](#BKMK_msdyn_account_msdyn_journalline_AccountVendor)
-- [msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer](#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer)
-- [msdyn_account_msdyn_opportunitylinetransaction_AccountVendor](#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor)
-- [msdyn_account_msdyn_orderlinetransaction_AccountCustomer](#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer)
-- [msdyn_account_msdyn_orderlinetransaction_AccountVendor](#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor)
-- [msdyn_account_msdyn_project_Customer](#BKMK_msdyn_account_msdyn_project_Customer)
-- [msdyn_account_msdyn_quotelinetransaction_AccountCustomer](#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer)
-- [msdyn_account_msdyn_quotelinetransaction_AccountVendor](#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor)
-- [msdyn_account_account_BillingAccount](#BKMK_msdyn_account_account_BillingAccount)
-- [msdyn_account_msdyn_actual_ServiceAccount](#BKMK_msdyn_account_msdyn_actual_ServiceAccount)
-- [msdyn_account_msdyn_agreement_BillingAccount](#BKMK_msdyn_account_msdyn_agreement_BillingAccount)
-- [msdyn_account_msdyn_agreement_ServiceAccount](#BKMK_msdyn_account_msdyn_agreement_ServiceAccount)
-- [msdyn_account_msdyn_customerasset_Account](#BKMK_msdyn_account_msdyn_customerasset_Account)
-- [msdyn_account_msdyn_entitlementapplication_serviceaccount](#BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount)
-- [msdyn_account_msdyn_payment_Account](#BKMK_msdyn_account_msdyn_payment_Account)
-- [msdyn_account_msdyn_purchaseorder_Vendor](#BKMK_msdyn_account_msdyn_purchaseorder_Vendor)
-- [msdyn_account_msdyn_requirementresourcepreference_Account](#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account)
-- [msdyn_account_msdyn_rma_BillingAccount](#BKMK_msdyn_account_msdyn_rma_BillingAccount)
-- [msdyn_account_msdyn_rma_ServiceAccount](#BKMK_msdyn_account_msdyn_rma_ServiceAccount)
-- [msdyn_account_msdyn_rmaproduct_Changeownership](#BKMK_msdyn_account_msdyn_rmaproduct_Changeownership)
-- [msdyn_account_msdyn_rmaproduct_ReturntoVendor](#BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor)
-- [msdyn_account_msdyn_rtv_Vendor](#BKMK_msdyn_account_msdyn_rtv_Vendor)
-- [msdyn_account_msdyn_workorder_BillingAccount](#BKMK_msdyn_account_msdyn_workorder_BillingAccount)
-- [msdyn_account_msdyn_workorder_ServiceAccount](#BKMK_msdyn_account_msdyn_workorder_ServiceAccount)
-- [msdyn_account_msdyn_workorderresourcerestriction_Account](#BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account)
-- [msdyn_account_opportunityproduct_ServiceAccount](#BKMK_msdyn_account_opportunityproduct_ServiceAccount)
-- [msdyn_account_product_DefaultVendor](#BKMK_msdyn_account_product_DefaultVendor)
-- [msdyn_account_quote_Account](#BKMK_msdyn_account_quote_Account)
-- [msdyn_account_quotedetail_ServiceAccount](#BKMK_msdyn_account_quotedetail_ServiceAccount)
-- [msdyn_account_salesorder_Account](#BKMK_msdyn_account_salesorder_Account)
-- [msdyn_account_msdyn_iotdevice_Account](#BKMK_msdyn_account_msdyn_iotdevice_Account)
-- [account_principalobjectattributeaccess](#BKMK_account_principalobjectattributeaccess)
 - [Account_Faxes](#BKMK_Account_Faxes)
 - [slakpiinstance_account](#BKMK_slakpiinstance_account)
 - [account_PostFollows](#BKMK_account_PostFollows)
@@ -3973,28 +3596,26 @@ Listed by **SchemaName**.
 - [account_connections2](#BKMK_account_connections2)
 
 
-### <a name="BKMK_msdyn_geofence_account"></a> msdyn_geofence_account
+### <a name="BKMK_account_principalobjectattributeaccess"></a> account_principalobjectattributeaccess
 
-**Added by**: Active Solution Solution
-
-Same as msdyn_geofence entity [msdyn_geofence_account](msdyn_geofence.md#BKMK_msdyn_geofence_account) Many-To-One relationship.
+Same as the [account_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_account_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_geofence|
-|ReferencingAttribute|msdyn_account|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
 |IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_geofence_account|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_principalobjectattributeaccess|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_customer_accounts"></a> lead_customer_accounts
 
 **Added by**: Lead Management Solution
 
-Same as lead entity [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts) Many-To-One relationship.
+Same as the [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts) many-to-one relationship for the [lead](lead.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4011,7 +3632,7 @@ Same as lead entity [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts
 
 **Added by**: Lead Management Solution
 
-Same as lead entity [lead_parent_account](lead.md#BKMK_lead_parent_account) Many-To-One relationship.
+Same as the [lead_parent_account](lead.md#BKMK_lead_parent_account) many-to-one relationship for the [lead](lead.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4028,7 +3649,7 @@ Same as lead entity [lead_parent_account](lead.md#BKMK_lead_parent_account) Many
 
 **Added by**: Scheduling Solution
 
-Same as bookableresource entity [account_bookableresource_AccountId](bookableresource.md#BKMK_account_bookableresource_AccountId) Many-To-One relationship.
+Same as the [account_bookableresource_AccountId](bookableresource.md#BKMK_account_bookableresource_AccountId) many-to-one relationship for the [bookableresource](bookableresource.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4045,7 +3666,7 @@ Same as bookableresource entity [account_bookableresource_AccountId](bookableres
 
 **Added by**: Marketing Solution
 
-Same as bulkoperation entity [account_BulkOperations](bulkoperation.md#BKMK_account_BulkOperations) Many-To-One relationship.
+Same as the [account_BulkOperations](bulkoperation.md#BKMK_account_BulkOperations) many-to-one relationship for the [bulkoperation](bulkoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4062,7 +3683,7 @@ Same as bulkoperation entity [account_BulkOperations](bulkoperation.md#BKMK_acco
 
 **Added by**: Marketing Solution
 
-Same as campaignresponse entity [account_CampaignResponses](campaignresponse.md#BKMK_account_CampaignResponses) Many-To-One relationship.
+Same as the [account_CampaignResponses](campaignresponse.md#BKMK_account_CampaignResponses) many-to-one relationship for the [campaignresponse](campaignresponse.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4079,7 +3700,7 @@ Same as campaignresponse entity [account_CampaignResponses](campaignresponse.md#
 
 **Added by**: Marketing Solution
 
-Same as bulkoperationlog entity [CreatedAccount_BulkOperationLogs2](bulkoperationlog.md#BKMK_CreatedAccount_BulkOperationLogs2) Many-To-One relationship.
+Same as the [CreatedAccount_BulkOperationLogs2](bulkoperationlog.md#BKMK_CreatedAccount_BulkOperationLogs2) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4096,7 +3717,7 @@ Same as bulkoperationlog entity [CreatedAccount_BulkOperationLogs2](bulkoperatio
 
 **Added by**: Marketing Solution
 
-Same as bulkoperationlog entity [SourceAccount_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceAccount_BulkOperationLogs) Many-To-One relationship.
+Same as the [SourceAccount_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceAccount_BulkOperationLogs) many-to-one relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4113,7 +3734,7 @@ Same as bulkoperationlog entity [SourceAccount_BulkOperationLogs](bulkoperationl
 
 **Added by**: Service Solution
 
-Same as incidentresolution entity [account_IncidentResolutions](incidentresolution.md#BKMK_account_IncidentResolutions) Many-To-One relationship.
+Same as the [account_IncidentResolutions](incidentresolution.md#BKMK_account_IncidentResolutions) many-to-one relationship for the [incidentresolution](incidentresolution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4130,7 +3751,7 @@ Same as incidentresolution entity [account_IncidentResolutions](incidentresoluti
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [Account_ServiceAppointments](serviceappointment.md#BKMK_Account_ServiceAppointments) Many-To-One relationship.
+Same as the [Account_ServiceAppointments](serviceappointment.md#BKMK_Account_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4147,7 +3768,7 @@ Same as serviceappointment entity [Account_ServiceAppointments](serviceappointme
 
 **Added by**: Service Solution
 
-Same as contractdetail entity [contractlineitem_customer_accounts](contractdetail.md#BKMK_contractlineitem_customer_accounts) Many-To-One relationship.
+Same as the [contractlineitem_customer_accounts](contractdetail.md#BKMK_contractlineitem_customer_accounts) many-to-one relationship for the [contractdetail](contractdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4164,7 +3785,7 @@ Same as contractdetail entity [contractlineitem_customer_accounts](contractdetai
 
 **Added by**: Service Solution
 
-Same as contract entity [contract_billingcustomer_accounts](contract.md#BKMK_contract_billingcustomer_accounts) Many-To-One relationship.
+Same as the [contract_billingcustomer_accounts](contract.md#BKMK_contract_billingcustomer_accounts) many-to-one relationship for the [contract](contract.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4181,7 +3802,7 @@ Same as contract entity [contract_billingcustomer_accounts](contract.md#BKMK_con
 
 **Added by**: Service Solution
 
-Same as contract entity [contract_customer_accounts](contract.md#BKMK_contract_customer_accounts) Many-To-One relationship.
+Same as the [contract_customer_accounts](contract.md#BKMK_contract_customer_accounts) many-to-one relationship for the [contract](contract.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4198,7 +3819,7 @@ Same as contract entity [contract_customer_accounts](contract.md#BKMK_contract_c
 
 **Added by**: Service Solution
 
-Same as incident entity [incident_customer_accounts](incident.md#BKMK_incident_customer_accounts) Many-To-One relationship.
+Same as the [incident_customer_accounts](incident.md#BKMK_incident_customer_accounts) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4215,7 +3836,7 @@ Same as incident entity [incident_customer_accounts](incident.md#BKMK_incident_c
 
 **Added by**: Service Solution
 
-Same as entitlement entity [account_entitlement_Account](entitlement.md#BKMK_account_entitlement_Account) Many-To-One relationship.
+Same as the [account_entitlement_Account](entitlement.md#BKMK_account_entitlement_Account) many-to-one relationship for the [entitlement](entitlement.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4232,7 +3853,7 @@ Same as entitlement entity [account_entitlement_Account](entitlement.md#BKMK_acc
 
 **Added by**: Service Solution
 
-Same as entitlement entity [account_entitlement_Customer](entitlement.md#BKMK_account_entitlement_Customer) Many-To-One relationship.
+Same as the [account_entitlement_Customer](entitlement.md#BKMK_account_entitlement_Customer) many-to-one relationship for the [entitlement](entitlement.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4249,7 +3870,7 @@ Same as entitlement entity [account_entitlement_Customer](entitlement.md#BKMK_ac
 
 **Added by**: Sales Solution
 
-Same as opportunityclose entity [account_OpportunityCloses](opportunityclose.md#BKMK_account_OpportunityCloses) Many-To-One relationship.
+Same as the [account_OpportunityCloses](opportunityclose.md#BKMK_account_OpportunityCloses) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4266,7 +3887,7 @@ Same as opportunityclose entity [account_OpportunityCloses](opportunityclose.md#
 
 **Added by**: Sales Solution
 
-Same as orderclose entity [account_OrderCloses](orderclose.md#BKMK_account_OrderCloses) Many-To-One relationship.
+Same as the [account_OrderCloses](orderclose.md#BKMK_account_OrderCloses) many-to-one relationship for the [orderclose](orderclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4283,7 +3904,7 @@ Same as orderclose entity [account_OrderCloses](orderclose.md#BKMK_account_Order
 
 **Added by**: Sales Solution
 
-Same as quoteclose entity [account_QuoteCloses](quoteclose.md#BKMK_account_QuoteCloses) Many-To-One relationship.
+Same as the [account_QuoteCloses](quoteclose.md#BKMK_account_QuoteCloses) many-to-one relationship for the [quoteclose](quoteclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4300,7 +3921,7 @@ Same as quoteclose entity [account_QuoteCloses](quoteclose.md#BKMK_account_Quote
 
 **Added by**: Sales Solution
 
-Same as invoice entity [invoice_customer_accounts](invoice.md#BKMK_invoice_customer_accounts) Many-To-One relationship.
+Same as the [invoice_customer_accounts](invoice.md#BKMK_invoice_customer_accounts) many-to-one relationship for the [invoice](invoice.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4317,7 +3938,7 @@ Same as invoice entity [invoice_customer_accounts](invoice.md#BKMK_invoice_custo
 
 **Added by**: Sales Solution
 
-Same as opportunity entity [opportunity_customer_accounts](opportunity.md#BKMK_opportunity_customer_accounts) Many-To-One relationship.
+Same as the [opportunity_customer_accounts](opportunity.md#BKMK_opportunity_customer_accounts) many-to-one relationship for the [opportunity](opportunity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4334,7 +3955,7 @@ Same as opportunity entity [opportunity_customer_accounts](opportunity.md#BKMK_o
 
 **Added by**: Sales Solution
 
-Same as salesorder entity [order_customer_accounts](salesorder.md#BKMK_order_customer_accounts) Many-To-One relationship.
+Same as the [order_customer_accounts](salesorder.md#BKMK_order_customer_accounts) many-to-one relationship for the [salesorder](salesorder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4351,7 +3972,7 @@ Same as salesorder entity [order_customer_accounts](salesorder.md#BKMK_order_cus
 
 **Added by**: Sales Solution
 
-Same as quote entity [quote_customer_accounts](quote.md#BKMK_quote_customer_accounts) Many-To-One relationship.
+Same as the [quote_customer_accounts](quote.md#BKMK_quote_customer_accounts) many-to-one relationship for the [quote](quote.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4368,7 +3989,7 @@ Same as quote entity [quote_customer_accounts](quote.md#BKMK_quote_customer_acco
 
 **Added by**: Sales Solution
 
-Same as opportunity entity [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_account) Many-To-One relationship.
+Same as the [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_account) many-to-one relationship for the [opportunity](opportunity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -4381,755 +4002,9 @@ Same as opportunity entity [opportunity_parent_account](opportunity.md#BKMK_oppo
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_account_msdyn_bookingalerts"></a> account_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [account_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_account_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|account_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_actual_AccountCustomer"></a> msdyn_account_msdyn_actual_AccountCustomer
-
-**Added by**: Universal Resource Scheduling Solution
-
-Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountCustomer](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_actual_AccountVendor"></a> msdyn_account_msdyn_actual_AccountVendor
-
-**Added by**: Universal Resource Scheduling Solution
-
-Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountVendor](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_account_msdyn_approvals"></a> account_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [account_msdyn_approvals](msdyn_approval.md#BKMK_account_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|account_msdyn_approvals|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_accountpricelist_Account"></a> msdyn_account_msdyn_accountpricelist_Account
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_accountpricelist entity [msdyn_account_msdyn_accountpricelist_Account](msdyn_accountpricelist.md#BKMK_msdyn_account_msdyn_accountpricelist_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_accountpricelist|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_accountpricelist_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountCustomer"></a> msdyn_account_msdyn_estimateline_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountCustomer](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_estimateline|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_estimateline_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountVendor"></a> msdyn_account_msdyn_estimateline_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountVendor](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_estimateline|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_estimateline_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_fact_AccountCustomer"></a> msdyn_account_msdyn_fact_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountCustomer](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fact|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_fact_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_fact_AccountVendor"></a> msdyn_account_msdyn_fact_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountVendor](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fact|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_fact_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_invoicelinetransaction_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountCustomer](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_invoicelinetransaction|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_invoicelinetransaction_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor"></a> msdyn_account_msdyn_invoicelinetransaction_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountVendor](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_invoicelinetransaction|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_invoicelinetransaction_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_journalline_AccountCustomer"></a> msdyn_account_msdyn_journalline_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountCustomer](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journalline|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_journalline_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_journalline_AccountVendor"></a> msdyn_account_msdyn_journalline_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountVendor](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journalline|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_journalline_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_opportunitylinetransaction|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountVendor](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_opportunitylinetransaction|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_opportunitylinetransaction_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer"></a> msdyn_account_msdyn_orderlinetransaction_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountCustomer](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderlinetransaction|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_orderlinetransaction_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor"></a> msdyn_account_msdyn_orderlinetransaction_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountVendor](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderlinetransaction|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_orderlinetransaction_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_project_Customer"></a> msdyn_account_msdyn_project_Customer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_project entity [msdyn_account_msdyn_project_Customer](msdyn_project.md#BKMK_msdyn_account_msdyn_project_Customer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_project|
-|ReferencingAttribute|msdyn_customer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_project_Customer|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_quotelinetransaction_AccountCustomer
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountCustomer](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotelinetransaction|
-|ReferencingAttribute|msdyn_accountcustomer|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_quotelinetransaction_AccountCustomer|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor"></a> msdyn_account_msdyn_quotelinetransaction_AccountVendor
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountVendor](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotelinetransaction|
-|ReferencingAttribute|msdyn_accountvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_quotelinetransaction_AccountVendor|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
-
-**Added by**: Field Service Solution
-
-Same as account entity [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|account|
-|ReferencingAttribute|msdyn_billingaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_account_BillingAccount|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Accounts<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_actual_ServiceAccount"></a> msdyn_account_msdyn_actual_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_actual entity [msdyn_account_msdyn_actual_ServiceAccount](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_agreement_BillingAccount"></a> msdyn_account_msdyn_agreement_BillingAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_BillingAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_BillingAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreement|
-|ReferencingAttribute|msdyn_billingaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_agreement_BillingAccount|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Agreements<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_agreement_ServiceAccount"></a> msdyn_account_msdyn_agreement_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_ServiceAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreement|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_agreement_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_customerasset_Account"></a> msdyn_account_msdyn_customerasset_Account
-
-**Added by**: Field Service Solution
-
-Same as msdyn_customerasset entity [msdyn_account_msdyn_customerasset_Account](msdyn_customerasset.md#BKMK_msdyn_account_msdyn_customerasset_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_customerasset|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_customerasset_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount"></a> msdyn_account_msdyn_entitlementapplication_serviceaccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_entitlementapplication entity [msdyn_account_msdyn_entitlementapplication_serviceaccount](msdyn_entitlementapplication.md#BKMK_msdyn_account_msdyn_entitlementapplication_serviceaccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_entitlementapplication|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_entitlementapplication_serviceaccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_payment_Account"></a> msdyn_account_msdyn_payment_Account
-
-**Added by**: Field Service Solution
-
-Same as msdyn_payment entity [msdyn_account_msdyn_payment_Account](msdyn_payment.md#BKMK_msdyn_account_msdyn_payment_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_payment|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_payment_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_purchaseorder_Vendor"></a> msdyn_account_msdyn_purchaseorder_Vendor
-
-**Added by**: Field Service Solution
-
-Same as msdyn_purchaseorder entity [msdyn_account_msdyn_purchaseorder_Vendor](msdyn_purchaseorder.md#BKMK_msdyn_account_msdyn_purchaseorder_Vendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorder|
-|ReferencingAttribute|msdyn_vendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_purchaseorder_Vendor|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_requirementresourcepreference_Account"></a> msdyn_account_msdyn_requirementresourcepreference_Account
-
-**Added by**: Field Service Solution
-
-Same as msdyn_requirementresourcepreference entity [msdyn_account_msdyn_requirementresourcepreference_Account](msdyn_requirementresourcepreference.md#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_requirementresourcepreference|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_requirementresourcepreference_Account|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resource Preferences<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_rma_BillingAccount"></a> msdyn_account_msdyn_rma_BillingAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rma entity [msdyn_account_msdyn_rma_BillingAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_BillingAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rma|
-|ReferencingAttribute|msdyn_billingaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rma_BillingAccount|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billing RMAs<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_rma_ServiceAccount"></a> msdyn_account_msdyn_rma_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rma entity [msdyn_account_msdyn_rma_ServiceAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rma|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rma_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: RMAs<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_rmaproduct_Changeownership"></a> msdyn_account_msdyn_rmaproduct_Changeownership
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_Changeownership](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_Changeownership) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rmaproduct|
-|ReferencingAttribute|msdyn_changeownership|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rmaproduct_Changeownership|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Change ownership<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor"></a> msdyn_account_msdyn_rmaproduct_ReturntoVendor
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_ReturntoVendor](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rmaproduct|
-|ReferencingAttribute|msdyn_returntovendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rmaproduct_ReturntoVendor|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Return to Vendor<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_rtv_Vendor"></a> msdyn_account_msdyn_rtv_Vendor
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rtv entity [msdyn_account_msdyn_rtv_Vendor](msdyn_rtv.md#BKMK_msdyn_account_msdyn_rtv_Vendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rtv|
-|ReferencingAttribute|msdyn_vendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rtv_Vendor|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: RTVs<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_workorder_BillingAccount"></a> msdyn_account_msdyn_workorder_BillingAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_BillingAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_BillingAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorder|
-|ReferencingAttribute|msdyn_billingaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorder_BillingAccount|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Work Orders<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_workorder_ServiceAccount"></a> msdyn_account_msdyn_workorder_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_ServiceAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorder|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorder_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account"></a> msdyn_account_msdyn_workorderresourcerestriction_Account
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderresourcerestriction entity [msdyn_account_msdyn_workorderresourcerestriction_Account](msdyn_workorderresourcerestriction.md#BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderresourcerestriction|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorderresourcerestriction_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_opportunityproduct_ServiceAccount"></a> msdyn_account_opportunityproduct_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as opportunityproduct entity [msdyn_account_opportunityproduct_ServiceAccount](opportunityproduct.md#BKMK_msdyn_account_opportunityproduct_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|opportunityproduct|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_opportunityproduct_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_product_DefaultVendor"></a> msdyn_account_product_DefaultVendor
-
-**Added by**: Field Service Solution
-
-Same as product entity [msdyn_account_product_DefaultVendor](product.md#BKMK_msdyn_account_product_DefaultVendor) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|product|
-|ReferencingAttribute|msdyn_defaultvendor|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_product_DefaultVendor|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Default Vendor<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_quote_Account"></a> msdyn_account_quote_Account
-
-**Added by**: Field Service Solution
-
-Same as quote entity [msdyn_account_quote_Account](quote.md#BKMK_msdyn_account_quote_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quote|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_quote_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_quotedetail_ServiceAccount"></a> msdyn_account_quotedetail_ServiceAccount
-
-**Added by**: Field Service Solution
-
-Same as quotedetail entity [msdyn_account_quotedetail_ServiceAccount](quotedetail.md#BKMK_msdyn_account_quotedetail_ServiceAccount) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quotedetail|
-|ReferencingAttribute|msdyn_serviceaccount|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_quotedetail_ServiceAccount|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_salesorder_Account"></a> msdyn_account_salesorder_Account
-
-**Added by**: Field Service Solution
-
-Same as salesorder entity [msdyn_account_salesorder_Account](salesorder.md#BKMK_msdyn_account_salesorder_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|salesorder|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_salesorder_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_account_msdyn_iotdevice_Account"></a> msdyn_account_msdyn_iotdevice_Account
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-Same as msdyn_iotdevice entity [msdyn_account_msdyn_iotdevice_Account](msdyn_iotdevice.md#BKMK_msdyn_account_msdyn_iotdevice_Account) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_iotdevice|
-|ReferencingAttribute|msdyn_account|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_iotdevice_Account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_account_principalobjectattributeaccess"></a> account_principalobjectattributeaccess
-
-Same as principalobjectattributeaccess entity [account_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_account_principalobjectattributeaccess) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|principalobjectattributeaccess|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|account_principalobjectattributeaccess|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_Account_Faxes"></a> Account_Faxes
 
-Same as fax entity [Account_Faxes](fax.md#BKMK_Account_Faxes) Many-To-One relationship.
+Same as the [Account_Faxes](fax.md#BKMK_Account_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5144,7 +4019,7 @@ Same as fax entity [Account_Faxes](fax.md#BKMK_Account_Faxes) Many-To-One relati
 
 ### <a name="BKMK_slakpiinstance_account"></a> slakpiinstance_account
 
-Same as slakpiinstance entity [slakpiinstance_account](slakpiinstance.md#BKMK_slakpiinstance_account) Many-To-One relationship.
+Same as the [slakpiinstance_account](slakpiinstance.md#BKMK_slakpiinstance_account) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5159,7 +4034,7 @@ Same as slakpiinstance entity [slakpiinstance_account](slakpiinstance.md#BKMK_sl
 
 ### <a name="BKMK_account_PostFollows"></a> account_PostFollows
 
-Same as postfollow entity [account_PostFollows](postfollow.md#BKMK_account_PostFollows) Many-To-One relationship.
+Same as the [account_PostFollows](postfollow.md#BKMK_account_PostFollows) many-to-one relationship for the [postfollow](postfollow.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5174,7 +4049,7 @@ Same as postfollow entity [account_PostFollows](postfollow.md#BKMK_account_PostF
 
 ### <a name="BKMK_Account_Tasks"></a> Account_Tasks
 
-Same as task entity [Account_Tasks](task.md#BKMK_Account_Tasks) Many-To-One relationship.
+Same as the [Account_Tasks](task.md#BKMK_Account_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5189,7 +4064,7 @@ Same as task entity [Account_Tasks](task.md#BKMK_Account_Tasks) Many-To-One rela
 
 ### <a name="BKMK_account_connections1"></a> account_connections1
 
-Same as connection entity [account_connections1](connection.md#BKMK_account_connections1) Many-To-One relationship.
+Same as the [account_connections1](connection.md#BKMK_account_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5204,7 +4079,7 @@ Same as connection entity [account_connections1](connection.md#BKMK_account_conn
 
 ### <a name="BKMK_SocialActivity_PostAuthorAccount_accounts"></a> SocialActivity_PostAuthorAccount_accounts
 
-Same as socialactivity entity [SocialActivity_PostAuthorAccount_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthorAccount_accounts) Many-To-One relationship.
+Same as the [SocialActivity_PostAuthorAccount_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthorAccount_accounts) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5219,7 +4094,7 @@ Same as socialactivity entity [SocialActivity_PostAuthorAccount_accounts](social
 
 ### <a name="BKMK_Account_DuplicateBaseRecord"></a> Account_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Account_DuplicateBaseRecord](duplicaterecord.md#BKMK_Account_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Account_DuplicateBaseRecord](duplicaterecord.md#BKMK_Account_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5234,7 +4109,7 @@ Same as duplicaterecord entity [Account_DuplicateBaseRecord](duplicaterecord.md#
 
 ### <a name="BKMK_SocialActivity_PostAuthor_accounts"></a> SocialActivity_PostAuthor_accounts
 
-Same as socialactivity entity [SocialActivity_PostAuthor_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthor_accounts) Many-To-One relationship.
+Same as the [SocialActivity_PostAuthor_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthor_accounts) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5249,7 +4124,7 @@ Same as socialactivity entity [SocialActivity_PostAuthor_accounts](socialactivit
 
 ### <a name="BKMK_Account_SyncErrors"></a> Account_SyncErrors
 
-Same as syncerror entity [Account_SyncErrors](syncerror.md#BKMK_Account_SyncErrors) Many-To-One relationship.
+Same as the [Account_SyncErrors](syncerror.md#BKMK_Account_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5264,7 +4139,7 @@ Same as syncerror entity [Account_SyncErrors](syncerror.md#BKMK_Account_SyncErro
 
 ### <a name="BKMK_Account_MailboxTrackingFolder"></a> Account_MailboxTrackingFolder
 
-Same as mailboxtrackingfolder entity [Account_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Account_MailboxTrackingFolder) Many-To-One relationship.
+Same as the [Account_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Account_MailboxTrackingFolder) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5279,7 +4154,7 @@ Same as mailboxtrackingfolder entity [Account_MailboxTrackingFolder](mailboxtrac
 
 ### <a name="BKMK_Account_BulkDeleteFailures"></a> Account_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [Account_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Account_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Account_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Account_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5294,7 +4169,7 @@ Same as bulkdeletefailure entity [Account_BulkDeleteFailures](bulkdeletefailure.
 
 ### <a name="BKMK_Account_ActivityPointers"></a> Account_ActivityPointers
 
-Same as activitypointer entity [Account_ActivityPointers](activitypointer.md#BKMK_Account_ActivityPointers) Many-To-One relationship.
+Same as the [Account_ActivityPointers](activitypointer.md#BKMK_Account_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5309,7 +4184,7 @@ Same as activitypointer entity [Account_ActivityPointers](activitypointer.md#BKM
 
 ### <a name="BKMK_Account_Email_SendersAccount"></a> Account_Email_SendersAccount
 
-Same as email entity [Account_Email_SendersAccount](email.md#BKMK_Account_Email_SendersAccount) Many-To-One relationship.
+Same as the [Account_Email_SendersAccount](email.md#BKMK_Account_Email_SendersAccount) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5324,7 +4199,7 @@ Same as email entity [Account_Email_SendersAccount](email.md#BKMK_Account_Email_
 
 ### <a name="BKMK_Account_Appointments"></a> Account_Appointments
 
-Same as appointment entity [Account_Appointments](appointment.md#BKMK_Account_Appointments) Many-To-One relationship.
+Same as the [Account_Appointments](appointment.md#BKMK_Account_Appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5339,7 +4214,7 @@ Same as appointment entity [Account_Appointments](appointment.md#BKMK_Account_Ap
 
 ### <a name="BKMK_Socialprofile_customer_accounts"></a> Socialprofile_customer_accounts
 
-Same as socialprofile entity [Socialprofile_customer_accounts](socialprofile.md#BKMK_Socialprofile_customer_accounts) Many-To-One relationship.
+Same as the [Socialprofile_customer_accounts](socialprofile.md#BKMK_Socialprofile_customer_accounts) many-to-one relationship for the [socialprofile](socialprofile.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5354,7 +4229,7 @@ Same as socialprofile entity [Socialprofile_customer_accounts](socialprofile.md#
 
 ### <a name="BKMK_Account_Emails"></a> Account_Emails
 
-Same as email entity [Account_Emails](email.md#BKMK_Account_Emails) Many-To-One relationship.
+Same as the [Account_Emails](email.md#BKMK_Account_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5369,7 +4244,7 @@ Same as email entity [Account_Emails](email.md#BKMK_Account_Emails) Many-To-One 
 
 ### <a name="BKMK_account_activity_parties"></a> account_activity_parties
 
-Same as activityparty entity [account_activity_parties](activityparty.md#BKMK_account_activity_parties) Many-To-One relationship.
+Same as the [account_activity_parties](activityparty.md#BKMK_account_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5384,7 +4259,7 @@ Same as activityparty entity [account_activity_parties](activityparty.md#BKMK_ac
 
 ### <a name="BKMK_Account_Phonecalls"></a> Account_Phonecalls
 
-Same as phonecall entity [Account_Phonecalls](phonecall.md#BKMK_Account_Phonecalls) Many-To-One relationship.
+Same as the [Account_Phonecalls](phonecall.md#BKMK_Account_Phonecalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5399,7 +4274,7 @@ Same as phonecall entity [Account_Phonecalls](phonecall.md#BKMK_Account_Phonecal
 
 ### <a name="BKMK_Account_SocialActivities"></a> Account_SocialActivities
 
-Same as socialactivity entity [Account_SocialActivities](socialactivity.md#BKMK_Account_SocialActivities) Many-To-One relationship.
+Same as the [Account_SocialActivities](socialactivity.md#BKMK_Account_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5414,7 +4289,7 @@ Same as socialactivity entity [Account_SocialActivities](socialactivity.md#BKMK_
 
 ### <a name="BKMK_Account_DuplicateMatchingRecord"></a> Account_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Account_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Account_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Account_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Account_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5429,7 +4304,7 @@ Same as duplicaterecord entity [Account_DuplicateMatchingRecord](duplicaterecord
 
 ### <a name="BKMK_account_actioncard"></a> account_actioncard
 
-Same as actioncard entity [account_actioncard](actioncard.md#BKMK_account_actioncard) Many-To-One relationship.
+Same as the [account_actioncard](actioncard.md#BKMK_account_actioncard) many-to-one relationship for the [actioncard](actioncard.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5444,7 +4319,7 @@ Same as actioncard entity [account_actioncard](actioncard.md#BKMK_account_action
 
 ### <a name="BKMK_Account_AsyncOperations"></a> Account_AsyncOperations
 
-Same as asyncoperation entity [Account_AsyncOperations](asyncoperation.md#BKMK_Account_AsyncOperations) Many-To-One relationship.
+Same as the [Account_AsyncOperations](asyncoperation.md#BKMK_Account_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5459,7 +4334,7 @@ Same as asyncoperation entity [Account_AsyncOperations](asyncoperation.md#BKMK_A
 
 ### <a name="BKMK_Account_CustomerAddress"></a> Account_CustomerAddress
 
-Same as customeraddress entity [Account_CustomerAddress](customeraddress.md#BKMK_Account_CustomerAddress) Many-To-One relationship.
+Same as the [Account_CustomerAddress](customeraddress.md#BKMK_Account_CustomerAddress) many-to-one relationship for the [customeraddress](customeraddress.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5474,7 +4349,7 @@ Same as customeraddress entity [Account_CustomerAddress](customeraddress.md#BKMK
 
 ### <a name="BKMK_Account_Annotation"></a> Account_Annotation
 
-Same as annotation entity [Account_Annotation](annotation.md#BKMK_Account_Annotation) Many-To-One relationship.
+Same as the [Account_Annotation](annotation.md#BKMK_Account_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5489,7 +4364,7 @@ Same as annotation entity [Account_Annotation](annotation.md#BKMK_Account_Annota
 
 ### <a name="BKMK_Account_Letters"></a> Account_Letters
 
-Same as letter entity [Account_Letters](letter.md#BKMK_Account_Letters) Many-To-One relationship.
+Same as the [Account_Letters](letter.md#BKMK_Account_Letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5504,7 +4379,7 @@ Same as letter entity [Account_Letters](letter.md#BKMK_Account_Letters) Many-To-
 
 ### <a name="BKMK_Account_RecurringAppointmentMasters"></a> Account_RecurringAppointmentMasters
 
-Same as recurringappointmentmaster entity [Account_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Account_RecurringAppointmentMasters) Many-To-One relationship.
+Same as the [Account_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Account_RecurringAppointmentMasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5519,7 +4394,7 @@ Same as recurringappointmentmaster entity [Account_RecurringAppointmentMasters](
 
 ### <a name="BKMK_Account_Email_EmailSender"></a> Account_Email_EmailSender
 
-Same as email entity [Account_Email_EmailSender](email.md#BKMK_Account_Email_EmailSender) Many-To-One relationship.
+Same as the [Account_Email_EmailSender](email.md#BKMK_Account_Email_EmailSender) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5534,7 +4409,7 @@ Same as email entity [Account_Email_EmailSender](email.md#BKMK_Account_Email_Ema
 
 ### <a name="BKMK_Account_ProcessSessions"></a> Account_ProcessSessions
 
-Same as processsession entity [Account_ProcessSessions](processsession.md#BKMK_Account_ProcessSessions) Many-To-One relationship.
+Same as the [Account_ProcessSessions](processsession.md#BKMK_Account_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5549,7 +4424,7 @@ Same as processsession entity [Account_ProcessSessions](processsession.md#BKMK_A
 
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
 
-Same as account entity [account_parent_account](account.md#BKMK_account_parent_account) Many-To-One relationship.
+Same as the [account_parent_account](account.md#BKMK_account_parent_account) many-to-one relationship for the [account](account.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5564,7 +4439,7 @@ Same as account entity [account_parent_account](account.md#BKMK_account_parent_a
 
 ### <a name="BKMK_contact_customer_accounts"></a> contact_customer_accounts
 
-Same as contact entity [contact_customer_accounts](contact.md#BKMK_contact_customer_accounts) Many-To-One relationship.
+Same as the [contact_customer_accounts](contact.md#BKMK_contact_customer_accounts) many-to-one relationship for the [contact](contact.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5579,7 +4454,7 @@ Same as contact entity [contact_customer_accounts](contact.md#BKMK_contact_custo
 
 ### <a name="BKMK_account_master_account"></a> account_master_account
 
-Same as account entity [account_master_account](account.md#BKMK_account_master_account) Many-To-One relationship.
+Same as the [account_master_account](account.md#BKMK_account_master_account) many-to-one relationship for the [account](account.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5594,7 +4469,7 @@ Same as account entity [account_master_account](account.md#BKMK_account_master_a
 
 ### <a name="BKMK_Account_SharepointDocumentLocation"></a> Account_SharepointDocumentLocation
 
-Same as sharepointdocumentlocation entity [Account_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Account_SharepointDocumentLocation) Many-To-One relationship.
+Same as the [Account_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Account_SharepointDocumentLocation) many-to-one relationship for the [sharepointdocumentlocation](sharepointdocumentlocation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5609,7 +4484,7 @@ Same as sharepointdocumentlocation entity [Account_SharepointDocumentLocation](s
 
 ### <a name="BKMK_account_connections2"></a> account_connections2
 
-Same as connection entity [account_connections2](connection.md#BKMK_account_connections2) Many-To-One relationship.
+Same as the [account_connections2](connection.md#BKMK_account_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -5632,10 +4507,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [equipment_accounts](#BKMK_equipment_accounts)
 - [service_accounts](#BKMK_service_accounts)
 - [territory_accounts](#BKMK_territory_accounts)
-- [msdyn_account_account_BillingAccount](#BKMK_msdyn_account_account_BillingAccount)
-- [msdyn_bookableresource_account_PreferredResource](#BKMK_msdyn_bookableresource_account_PreferredResource)
-- [msdyn_msdyn_taxcode_account_SalesTaxCode](#BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode)
-- [msdyn_territory_account_ServiceTerritory](#BKMK_msdyn_territory_account_ServiceTerritory)
 - [account_primary_contact](#BKMK_account_primary_contact)
 - [account_master_account](#BKMK_account_master_account)
 - [system_user_accounts](#BKMK_system_user_accounts)
@@ -5657,113 +4528,91 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [account_originating_lead](lead.md#BKMK_account_originating_lead) One-To-Many relationship.
+See the [account_originating_lead](lead.md#BKMK_account_originating_lead) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_price_level_accounts"></a> price_level_accounts
 
 **Added by**: Product Management Solution
 
-See pricelevel Entity [price_level_accounts](pricelevel.md#BKMK_price_level_accounts) One-To-Many relationship.
+See the [price_level_accounts](pricelevel.md#BKMK_price_level_accounts) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_equipment_accounts"></a> equipment_accounts
 
 **Added by**: Service Solution
 
-See equipment Entity [equipment_accounts](equipment.md#BKMK_equipment_accounts) One-To-Many relationship.
+See the [equipment_accounts](equipment.md#BKMK_equipment_accounts) one-to-many relationship for the [equipment](equipment.md) entity.
 
 ### <a name="BKMK_service_accounts"></a> service_accounts
 
 **Added by**: Service Solution
 
-See service Entity [service_accounts](service.md#BKMK_service_accounts) One-To-Many relationship.
+See the [service_accounts](service.md#BKMK_service_accounts) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_territory_accounts"></a> territory_accounts
 
 **Added by**: Application Common Solution
 
-See territory Entity [territory_accounts](territory.md#BKMK_territory_accounts) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
-
-See account Entity [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookableresource_account_PreferredResource"></a> msdyn_bookableresource_account_PreferredResource
-
-**Added by**: Scheduling Solution
-
-See bookableresource Entity [msdyn_bookableresource_account_PreferredResource](bookableresource.md#BKMK_msdyn_bookableresource_account_PreferredResource) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode"></a> msdyn_msdyn_taxcode_account_SalesTaxCode
-
-**Added by**: Field Service Solution
-
-See msdyn_taxcode Entity [msdyn_msdyn_taxcode_account_SalesTaxCode](msdyn_taxcode.md#BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_territory_account_ServiceTerritory"></a> msdyn_territory_account_ServiceTerritory
-
-**Added by**: Application Common Solution
-
-See territory Entity [msdyn_territory_account_ServiceTerritory](territory.md#BKMK_msdyn_territory_account_ServiceTerritory) One-To-Many relationship.
+See the [territory_accounts](territory.md#BKMK_territory_accounts) one-to-many relationship for the [territory](territory.md) entity.
 
 ### <a name="BKMK_account_primary_contact"></a> account_primary_contact
 
-See contact Entity [account_primary_contact](contact.md#BKMK_account_primary_contact) One-To-Many relationship.
+See the [account_primary_contact](contact.md#BKMK_account_primary_contact) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_account_master_account"></a> account_master_account
 
-See account Entity [account_master_account](account.md#BKMK_account_master_account) One-To-Many relationship.
+See the [account_master_account](account.md#BKMK_account_master_account) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_system_user_accounts"></a> system_user_accounts
 
-See systemuser Entity [system_user_accounts](systemuser.md#BKMK_system_user_accounts) One-To-Many relationship.
+See the [system_user_accounts](systemuser.md#BKMK_system_user_accounts) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_accountbase_modifiedby"></a> lk_accountbase_modifiedby
 
-See systemuser Entity [lk_accountbase_modifiedby](systemuser.md#BKMK_lk_accountbase_modifiedby) One-To-Many relationship.
+See the [lk_accountbase_modifiedby](systemuser.md#BKMK_lk_accountbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
 
-See account Entity [account_parent_account](account.md#BKMK_account_parent_account) One-To-Many relationship.
+See the [account_parent_account](account.md#BKMK_account_parent_account) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_business_unit_accounts"></a> business_unit_accounts
 
-See businessunit Entity [business_unit_accounts](businessunit.md#BKMK_business_unit_accounts) One-To-Many relationship.
+See the [business_unit_accounts](businessunit.md#BKMK_business_unit_accounts) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_transactioncurrency_account"></a> transactioncurrency_account
 
-See transactioncurrency Entity [transactioncurrency_account](transactioncurrency.md#BKMK_transactioncurrency_account) One-To-Many relationship.
+See the [transactioncurrency_account](transactioncurrency.md#BKMK_transactioncurrency_account) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_user_accounts"></a> user_accounts
 
-See systemuser Entity [user_accounts](systemuser.md#BKMK_user_accounts) One-To-Many relationship.
+See the [user_accounts](systemuser.md#BKMK_user_accounts) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_accountbase_createdonbehalfby"></a> lk_accountbase_createdonbehalfby
 
-See systemuser Entity [lk_accountbase_createdonbehalfby](systemuser.md#BKMK_lk_accountbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_accountbase_createdonbehalfby](systemuser.md#BKMK_lk_accountbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_processstage_account"></a> processstage_account
 
-See processstage Entity [processstage_account](processstage.md#BKMK_processstage_account) One-To-Many relationship.
+See the [processstage_account](processstage.md#BKMK_processstage_account) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_manualsla_account"></a> manualsla_account
 
-See sla Entity [manualsla_account](sla.md#BKMK_manualsla_account) One-To-Many relationship.
+See the [manualsla_account](sla.md#BKMK_manualsla_account) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_lk_accountbase_createdby"></a> lk_accountbase_createdby
 
-See systemuser Entity [lk_accountbase_createdby](systemuser.md#BKMK_lk_accountbase_createdby) One-To-Many relationship.
+See the [lk_accountbase_createdby](systemuser.md#BKMK_lk_accountbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_sla_account"></a> sla_account
 
-See sla Entity [sla_account](sla.md#BKMK_sla_account) One-To-Many relationship.
+See the [sla_account](sla.md#BKMK_sla_account) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_lk_accountbase_modifiedonbehalfby"></a> lk_accountbase_modifiedonbehalfby
 
-See systemuser Entity [lk_accountbase_modifiedonbehalfby](systemuser.md#BKMK_lk_accountbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_accountbase_modifiedonbehalfby](systemuser.md#BKMK_lk_accountbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_accounts"></a> team_accounts
 
-See team Entity [team_accounts](team.md#BKMK_team_accounts) One-To-Many relationship.
+See the [team_accounts](team.md#BKMK_team_accounts) one-to-many relationship for the [team](team.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -5777,7 +4626,7 @@ Relationship details provided where the Account entity is the first entity in th
 ### <a name="BKMK_accountleads_association"></a> accountleads_association
 
 IntersectEntityName: accountleads<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -5787,7 +4636,7 @@ IntersectEntityName: accountleads<br />
 |NavigationPropertyName|accountleads_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -5799,13 +4648,9 @@ IntersectEntityName: accountleads<br />
 
 ### <a name="BKMK_listaccount_association"></a> listaccount_association
 
-See list Entity [listaccount_association](list.md#BKMK_listaccount_association) Many-To-Many Relationship.
+See the [listaccount_association](list.md#BKMK_listaccount_association) many-to-many relationship for the [list](list.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.account?text=account EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

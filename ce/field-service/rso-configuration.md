@@ -1,127 +1,88 @@
 ---
 title: Resource Scheduling Optimization configuration in Dynamics 365 Field Service
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
-author: FieldServiceDave
-ms.author: daclar
-ms.reviewer: krbjoran
-manager: shellyha
-ms.date: 01/02/2020
+author: FeifeiQiu
+ms.author: feiqiu
+ms.date: 09/14/2022
 ms.topic: article
-
 ms.subservice: resource-scheduling-optimization
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Resource Scheduling Optimization configuration 
+# Resource Scheduling Optimization configuration
 
-Perform these configuration steps after you deploy the Resource Scheduling Optimization solution.
+Perform these configuration steps after [successful deployment](rso-deployment.md) of the Resource Scheduling Optimization solution.
 
 ## Enable Resource Scheduling Optimization
 
-1. Go to **Resource Scheduling Optimization** \> **Administration** \>
-    **Resource Scheduling Parameters**.
+1. Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling Parameters**.
+
+1. On the General tab, set **Connect to Maps** as **Yes**. The setting connects the organization with the Bing Maps service that the schedule board uses. You need a system administrator role to enable this setting.
+
+1. Go to the Resource Scheduling Optimization tab.
+
+   :::image type="content" source="media/rso-settings-enable.png" alt-text="Screenshot of Resource Scheduling Optimization tab.":::
 
    - Set **Enable Resource Scheduling Optimization** to **Yes**.
 
-   - Set **Default Goal** if needed. A default goal helps speed up interactions with
-     Resource Scheduling Optimization through the schedule board by predefining how the engine optimizes
-     data. Users can still pick different goals. 
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of "Enable Resource Scheduling Optimization" field set to "Yes" ](media/9311df68c981d7f4c5e984622ca1e244.png)
-
-   - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
-     organization to interact with the Bing Maps service that the schedule board
-     uses.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Connect to Maps" set as "Yes."](media/c2e5f7299860832f2823f285d0fcd113.png)
-
-     > [!NOTE]
-     > Only a user with the system administrator role can enable this setting. 
+   - Set **Default Goal** if needed. A default [optimization goal](rso-optimization-goal.md) helps speed up interactions with Resource Scheduling Optimization through the schedule board. It defines how the engine optimizes data. Users can still choose different goals.
 
 ## Add required security roles to users who will configure and run Resource Scheduling Optimization
 
-2. Go to **Settings** \> **Security** \> **Users**, navigate to the
-    **Application Users** view, and assign the Field Service - Administrator
-    security role to the Resource Scheduling Optimization application user.
+Ensure that Resource Scheduling Optimization can optimize work order-related requirements and bookings:
 
-3. Go to **Settings** \> **Security** \> **Field Security Profiles**, open
-    **Field Service – Administrator**, and add **Resource Scheduling
-    Optimization** to the field security profile.
+1. Go to **Settings** > **Advanced Settings** > **Security** > **Users**. And assign the security role *Field Service - Administrator* to the Resource Scheduling Optimization application user.
 
-  Steps 2 and 3 help ensure that Resource Scheduling Optimization is able to optimize work order-related requirements and bookings. 
+1. Go to **Security** > **Field Security Profiles**. Select **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the field security profile.
   
-  For dispatchers who want to interact with Resource Scheduling Optimization:
-   1. Go to **Settings** \> **Security** \> **Users**.
-  2. Locate the user or team of dispatchers.
-   3. Select **Manage Roles**.
-   4. Grant **RSO Dispatcher** a security role.
-  5. Select **Save**.
-   6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
-   7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
-team to the profile and then select **Save**.
+Enable dispatchers to interact with Resource Scheduling Optimization:
 
-## Make data changes to prepare for optimizations 
+1. Go to **Settings** > **Security** > **Users**.
 
-The settings described here are selected and applied to all optimization scopes.
+1. Locate the user or team of dispatchers.
 
-1. Update **Optimize Schedule** to **Yes** for resources. Go to
-    **Resource Scheduling Optimization** \> **Resources**. Navigate to the
-    **Scheduling Summary** view, select one or more resource records, and then
-    select **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
+1. Select **Manage Roles**.
 
-   > [!NOTE]
-   > - After you enable your resources for Resource Scheduling Optimization, you need to set the latitude
-    and longitude for the resources’ organizational unit or personal address,
-    depending on whether their start/end location is an organizational unit or a
-    personal address.
-   > - Start location and end location must have the same setting. For example,
-    you cannot have the start location be a personal address and the end
-    location be location agnostic. 
+1. Assign a security role.
+
+1. Select **Save**.
+
+1. Go to **Settings** > **Security** > **Field Security Profiles**.
+
+1. Open **Resource Scheduling Optimization - Dispatcher** and add the user or team to the profile and then select **Save**.
+
+## Make data changes to prepare for optimizations
+
+The settings described in this section apply to all optimization scopes.
+
+1. Go to **Resource Scheduling Optimization** > **Resources**. Open the **Scheduling Summary** view. Select one or more resource records and select **Edit**.
+
+1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records.
+
+1. After enabling the resources for schedule optimization, specify the address for the organizational unit or resource address, depending on their start and end location.
   
-2. Configure booking setup metadata for the entity. Set
-    **Default Scheduling Method** to **Optimize**. For example, if enabled for
-    work order entity’s booking setup metadata, every newly created work order
-    and related resource requirement will be configured to optimize
-    automatically.
-    
-    ![Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to "Optimize."](media/f0d624969f46a29e897670479a546ef6.png)
+1. Go to **Resource Scheduling Optimization** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
 
-3. For existing resource requirement records, update the resource
-    requirements scheduling Method. Go to **Resource Scheduling
-    Optimization** \> **Resource Requirements,** navigate to the **Unscheduled
-    Work Order Requirements** view, select some or all records, and select
-    **Edit** to bulk edit the **Optimize Schedule** field to **Yes**.
+1. Double-click an enabled entity to configure booking setup metadata. In the **Resource Scheduling Optimization** section, set the **Default Scheduling Method** to **Optimize** and **Save** the changes. For example, you can enable it for the work order entity. Every new work order and related resource requirement will be configured to optimize automatically.
+
+   :::image type="content" source="media/rso-entity-default-scheduling-method.png" alt-text="Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to Optimize.":::
+
+1. For existing resource requirement records, update the resource requirements scheduling method. Go to **Resource Scheduling Optimization** > **Resource Requirements** and open the **Unscheduled Work Order Requirements** view. Select the records to optimize, and select **Edit**.
+
+   - On the **Resource Scheduling Optimization** tab, set the **Scheduling Method** to **Optimize**.
+
+   - On the Scheduling tab, make sure the location is **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify the address.  
+
+   - On the **General** tab, check that **From Date** and **To Date** fall into the time window you want to schedule. You can use the bulk edit feature to update values for selected records as well.
+
+1. Go to **Resource Scheduling Optimization** > **Settings** > **Booking Statuses**. Select a booking status and choose the **Scheduling Method**.
+
+   :::image type="content" source="media/rso-booking-statuses.png" alt-text="Screenshot showing active booking statuses.":::
+
+   - **Optimize**: Allows the system to freely move this booking to optimize scheduling.
+   - **Do Not Move**: The system won't change the booking. Resource Scheduling Optimization preserves the estimated arrival time and assigned resource. The start time and estimated travel duration may be changed if the earlier booking is in a new location. It's similar to a user setting the booking to **Locked to resource + time**.
+   - **Ignore**: Resource Scheduling Optimization will completely ignore this booking. It will ignore for both location and time, meaning there will be overlaps. Use this setting when the booking status is proposed or canceled.
 
     > [!NOTE]
-    > Work location must be set to **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify latitude and longitude.  
-    
-    
-4. Check **From Date** and **To Date** for resource requirements to make sure
-    the dates fall into the window you would like to schedule. You can use the
-    bulk edit feature to update values for selected records as well.
-
-5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
-    Statuses** and configure **Scheduling Method** for booking status.
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot showing active booking statuses.](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
-
-    > [!NOTE]
-    > Any booking status with an empty scheduling method will be treated as Do Not Move.
-    
-   - **Optimize**: This status means Resource Scheduling Optimization is free to move this booking around. 
-   - **Do Not Move**: This means Resource Scheduling Optimization doesn't alter the booking. Resource Scheduling Optimization preserves the estimated arrival time and assigned resource. The booking’s
-    start time and estimated travel duration may be changed if Resource Scheduling Optimization schedules a
-    booking in a new location before the Do Not Move booking). This operates the
-    same as if the user set the booking to **Locked to resource + time** on the
-    scheduling lock options field.
-   - **Ignore**: Resource Scheduling Optimization will completely ignore this booking. It will ignore for both
-    location and time, meaning there will be overlaps. It is as if the booking
-    doesn’t exist. Use this when the booking status is in the state of proposed or canceled.
-
-
-
-
+    > Booking statuses with no specified scheduling method are treated as Do Not Move.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

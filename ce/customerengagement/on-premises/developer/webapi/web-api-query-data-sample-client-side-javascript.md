@@ -1,5 +1,6 @@
 ---
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
+description: Learn how to perform basic query requests using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript with this code sample.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -13,7 +14,6 @@ ms.assetid: 6df7cccb-071d-4853-8acb-01bceef973ca
 caps.latest.revision: 22
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -759,7 +759,7 @@ distinct=\"false\" page=\"3\" count=\"4\"> \
  [Query Data using the Web API](query-data-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   
- [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)   
+ [Web API Query Data Sample (C#)](/power-apps/developer/data-platform/webapi/samples/cdswebapiservice-basic-operations)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   

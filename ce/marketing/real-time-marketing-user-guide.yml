@@ -23,7 +23,7 @@ metadata:
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
 landingContent:
-  # Card
+  # Card 
   - title: Get started with real-time marketing
     linkLists:
       - linkListType: get-started
@@ -42,14 +42,14 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create an event-based journey
-            url: real-time-marketing-event-based-journey.md
+          - text: Create a trigger-based journey
+            url: real-time-marketing-trigger-based-journey.md
           - text: Create a segment-based journey
             url: real-time-marketing-segment-based-journey.md
+          - text: "Preview: Build segments in real-time marketing"
+            url: real-time-marketing-build-segments.md
           - text: Set a business goal and measure progress through a journey
             url: real-time-marketing-business-goals.md
-          - text: Use natural language in real-time marketing journeys
-            url: real-time-marketing-natural-language.md
           - text: Experiment and refine real-time marketing journeys
             url: real-time-marketing-experimentation.md
           - text: Access and interpret analytics

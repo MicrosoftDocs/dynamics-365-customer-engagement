@@ -1,23 +1,21 @@
 ---
 title: "Configure Power BI template apps for Sales | MicrosoftDocs"
 description: "Establish a two-way communication between Dynamics 365 and Power BI template app and configure Sales Analytics and Process Analytics."
-ms.date: 10/25/2021
+ms.date: 09/14/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 # Configure Power BI template apps to work with Dynamics 365 Sales 
 
 In this article, you'll learn how to configure Power BI template apps to work with Dynamics 365 Sales.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | <ul><li>Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise</li><li>Power BI Pro</li></ul>  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 

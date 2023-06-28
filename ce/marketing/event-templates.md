@@ -1,21 +1,16 @@
 ---
 title: "Set and use event templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to create an event template and how to use templates when creating a new event in Dynamics 365 Marketing."
-ms.date: 02/01/2019
-
+ms.date: 06/10/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create and use event templates
@@ -28,6 +23,21 @@ If you often create similar events, then you can save time by setting up one or 
 - Event passes
 
 When you create an event from a template, the main template record and all its related records are copied to create new, standard records. No link to the template remains, so you can now work with your new event just as you would with an event that you created from scratch.
+
+## Event template limitations
+
+Creating a template from an event is essentially the same as creating an event from an event. There are, however, a few differences between the operations. It's handy to know the differences between templates and creating an event from an event because some plugins are sensitive to whether the clone is a template or an event.
+  
+The following information isn't copied to templates:
+
+- The start/end date of the session's speaker engagements
+- The start/end date of the event's speaker engagements
+- The event room reservations
+- Session room reservations
+- Webinar configurations
+- Teams meetings and calendar items
+
+Learn more: [Create an Event from another Event](event-from-event.md).
 
 > [!NOTE]
 > Session speakers aren't part of the event, but are linked to from each session. These links are preserved in the template and included in events created based on a template, but the speaker records themselves are not copied or otherwise affected.

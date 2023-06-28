@@ -1,41 +1,39 @@
 ---
-title: "Goal Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Goal entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Goal entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Goal Entity Reference
+
+# Goal entity reference
 
 Target objective for a user or a team for a specified time period.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/goals(*goalid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/goals<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/goals(*goalid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Recalculate|<xref href="Microsoft.Dynamics.CRM.Recalculate?text=Recalculate Action" />|<xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/goals(*goalid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/goals<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/goals(*goalid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/goals(*goalid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Recalculate|<xref:Microsoft.Crm.Sdk.Messages.RecalculateRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -175,13 +173,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AmountDataType Options
+#### AmountDataType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Money|
-|1|Decimal|
-|2|Integer|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Money||
+|1|Decimal||
+|2|Integer||
 
 
 
@@ -197,14 +195,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### ConsiderOnlyGoalOwnersRecords Options
+#### ConsiderOnlyGoalOwnersRecords Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Owned by goal owner|
-|0|All|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Owned by goal owner||
+|0|All||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -285,42 +283,42 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### FiscalPeriod Options
+#### FiscalPeriod Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Quarter 1|
-|2|Quarter 2|
-|3|Quarter 3|
-|4|Quarter 4|
-|101|January|
-|102|February|
-|103|March|
-|104|April|
-|105|May|
-|106|June|
-|107|July|
-|108|August|
-|109|September|
-|110|October|
-|111|November|
-|112|December|
-|201|Semester 1|
-|202|Semester 2|
-|301|Annual|
-|401|P1|
-|402|P2|
-|403|P3|
-|404|P4|
-|405|P5|
-|406|P6|
-|407|P7|
-|408|P8|
-|409|P9|
-|410|P10|
-|411|P11|
-|412|P12|
-|413|P13|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Quarter 1||
+|2|Quarter 2||
+|3|Quarter 3||
+|4|Quarter 4||
+|101|January||
+|102|February||
+|103|March||
+|104|April||
+|105|May||
+|106|June||
+|107|July||
+|108|August||
+|109|September||
+|110|October||
+|111|November||
+|112|December||
+|201|Semester 1||
+|202|Semester 2||
+|301|Annual||
+|401|P1||
+|402|P2||
+|403|P3||
+|404|P4||
+|405|P5||
+|406|P6||
+|407|P7||
+|408|P8||
+|409|P9||
+|410|P10||
+|411|P11||
+|412|P12||
+|413|P13||
 
 
 
@@ -336,79 +334,79 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### FiscalYear Options
+#### FiscalYear Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1970|FY1970|
-|1971|FY1971|
-|1972|FY1972|
-|1973|FY1973|
-|1974|FY1974|
-|1975|FY1975|
-|1976|FY1976|
-|1977|FY1977|
-|1978|FY1978|
-|1979|FY1979|
-|1980|FY1980|
-|1981|FY1981|
-|1982|FY1982|
-|1983|FY1983|
-|1984|FY1984|
-|1985|FY1985|
-|1986|FY1986|
-|1987|FY1987|
-|1988|FY1988|
-|1989|FY1989|
-|1990|FY1990|
-|1991|FY1991|
-|1992|FY1992|
-|1993|FY1993|
-|1994|FY1994|
-|1995|FY1995|
-|1996|FY1996|
-|1997|FY1997|
-|1998|FY1998|
-|1999|FY1999|
-|2000|FY2000|
-|2001|FY2001|
-|2002|FY2002|
-|2003|FY2003|
-|2004|FY2004|
-|2005|FY2005|
-|2006|FY2006|
-|2007|FY2007|
-|2008|FY2008|
-|2009|FY2009|
-|2010|FY2010|
-|2011|FY2011|
-|2012|FY2012|
-|2013|FY2013|
-|2014|FY2014|
-|2015|FY2015|
-|2016|FY2016|
-|2017|FY2017|
-|2018|FY2018|
-|2019|FY2019|
-|2020|FY2020|
-|2021|FY2021|
-|2022|FY2022|
-|2023|FY2023|
-|2024|FY2024|
-|2025|FY2025|
-|2026|FY2026|
-|2027|FY2027|
-|2028|FY2028|
-|2029|FY2029|
-|2030|FY2030|
-|2031|FY2031|
-|2032|FY2032|
-|2033|FY2033|
-|2034|FY2034|
-|2035|FY2035|
-|2036|FY2036|
-|2037|FY2037|
-|2038|FY2038|
+|Value|Label|Description|
+|-----|-----|--------|
+|1970|FY1970||
+|1971|FY1971||
+|1972|FY1972||
+|1973|FY1973||
+|1974|FY1974||
+|1975|FY1975||
+|1976|FY1976||
+|1977|FY1977||
+|1978|FY1978||
+|1979|FY1979||
+|1980|FY1980||
+|1981|FY1981||
+|1982|FY1982||
+|1983|FY1983||
+|1984|FY1984||
+|1985|FY1985||
+|1986|FY1986||
+|1987|FY1987||
+|1988|FY1988||
+|1989|FY1989||
+|1990|FY1990||
+|1991|FY1991||
+|1992|FY1992||
+|1993|FY1993||
+|1994|FY1994||
+|1995|FY1995||
+|1996|FY1996||
+|1997|FY1997||
+|1998|FY1998||
+|1999|FY1999||
+|2000|FY2000||
+|2001|FY2001||
+|2002|FY2002||
+|2003|FY2003||
+|2004|FY2004||
+|2005|FY2005||
+|2006|FY2006||
+|2007|FY2007||
+|2008|FY2008||
+|2009|FY2009||
+|2010|FY2010||
+|2011|FY2011||
+|2012|FY2012||
+|2013|FY2013||
+|2014|FY2014||
+|2015|FY2015||
+|2016|FY2016||
+|2017|FY2017||
+|2018|FY2018||
+|2019|FY2019||
+|2020|FY2020||
+|2021|FY2021||
+|2022|FY2022||
+|2023|FY2023||
+|2024|FY2024||
+|2025|FY2025||
+|2026|FY2026||
+|2027|FY2027||
+|2028|FY2028||
+|2029|FY2029||
+|2030|FY2030||
+|2031|FY2031||
+|2032|FY2032||
+|2033|FY2033||
+|2034|FY2034||
+|2035|FY2035||
+|2036|FY2036||
+|2037|FY2037||
+|2038|FY2038||
 
 
 
@@ -577,14 +575,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### IsAmount Options
+#### IsAmount Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Amount|
-|0|Count|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Amount||
+|0|Count||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -600,14 +598,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsFiscalPeriodGoal Options
+#### IsFiscalPeriodGoal Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Fiscal Period|
-|0|Custom Period|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Fiscal Period||
+|0|Custom Period||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -623,14 +621,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsOverridden Options
+#### IsOverridden Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -646,14 +644,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsOverride Options
+#### IsOverride Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -788,14 +786,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### RollupOnlyFromChildGoals Options
+#### RollupOnlyFromChildGoals Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -938,7 +936,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -959,7 +957,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -2043,7 +2041,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_goal_msdyn_forecastinstance](#BKMK_msdyn_goal_msdyn_forecastinstance)
 - [goal_parent_goal](#BKMK_goal_parent_goal)
 - [Goal_DuplicateBaseRecord](#BKMK_Goal_DuplicateBaseRecord)
 - [Goal_RollupError_Goal](#BKMK_Goal_RollupError_Goal)
@@ -2057,26 +2054,9 @@ Listed by **SchemaName**.
 - [goal_principalobjectattributeaccess](#BKMK_goal_principalobjectattributeaccess)
 
 
-### <a name="BKMK_msdyn_goal_msdyn_forecastinstance"></a> msdyn_goal_msdyn_forecastinstance
-
-**Added by**: Forecasting Solution
-
-Same as msdyn_forecastinstance entity [msdyn_goal_msdyn_forecastinstance](msdyn_forecastinstance.md#BKMK_msdyn_goal_msdyn_forecastinstance) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_forecastinstance|
-|ReferencingAttribute|msdyn_matchinggoalid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_goal_msdyn_forecastinstance|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_goal_parent_goal"></a> goal_parent_goal
 
-Same as goal entity [goal_parent_goal](goal.md#BKMK_goal_parent_goal) Many-To-One relationship.
+Same as the [goal_parent_goal](goal.md#BKMK_goal_parent_goal) many-to-one relationship for the [goal](goal.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2091,7 +2071,7 @@ Same as goal entity [goal_parent_goal](goal.md#BKMK_goal_parent_goal) Many-To-On
 
 ### <a name="BKMK_Goal_DuplicateBaseRecord"></a> Goal_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Goal_DuplicateBaseRecord](duplicaterecord.md#BKMK_Goal_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Goal_DuplicateBaseRecord](duplicaterecord.md#BKMK_Goal_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2106,7 +2086,7 @@ Same as duplicaterecord entity [Goal_DuplicateBaseRecord](duplicaterecord.md#BKM
 
 ### <a name="BKMK_Goal_RollupError_Goal"></a> Goal_RollupError_Goal
 
-Same as goal entity [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) Many-To-One relationship.
+Same as the [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) many-to-one relationship for the [goal](goal.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2121,7 +2101,7 @@ Same as goal entity [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) 
 
 ### <a name="BKMK_Goal_SyncErrors"></a> Goal_SyncErrors
 
-Same as syncerror entity [Goal_SyncErrors](syncerror.md#BKMK_Goal_SyncErrors) Many-To-One relationship.
+Same as the [Goal_SyncErrors](syncerror.md#BKMK_Goal_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2136,7 +2116,7 @@ Same as syncerror entity [Goal_SyncErrors](syncerror.md#BKMK_Goal_SyncErrors) Ma
 
 ### <a name="BKMK_Goal_Annotation"></a> Goal_Annotation
 
-Same as annotation entity [Goal_Annotation](annotation.md#BKMK_Goal_Annotation) Many-To-One relationship.
+Same as the [Goal_Annotation](annotation.md#BKMK_Goal_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2151,7 +2131,7 @@ Same as annotation entity [Goal_Annotation](annotation.md#BKMK_Goal_Annotation) 
 
 ### <a name="BKMK_Goal_AsyncOperations"></a> Goal_AsyncOperations
 
-Same as asyncoperation entity [Goal_AsyncOperations](asyncoperation.md#BKMK_Goal_AsyncOperations) Many-To-One relationship.
+Same as the [Goal_AsyncOperations](asyncoperation.md#BKMK_Goal_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2166,7 +2146,7 @@ Same as asyncoperation entity [Goal_AsyncOperations](asyncoperation.md#BKMK_Goal
 
 ### <a name="BKMK_Goal_ProcessSessions"></a> Goal_ProcessSessions
 
-Same as processsession entity [Goal_ProcessSessions](processsession.md#BKMK_Goal_ProcessSessions) Many-To-One relationship.
+Same as the [Goal_ProcessSessions](processsession.md#BKMK_Goal_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2181,7 +2161,7 @@ Same as processsession entity [Goal_ProcessSessions](processsession.md#BKMK_Goal
 
 ### <a name="BKMK_goal_connections1"></a> goal_connections1
 
-Same as connection entity [goal_connections1](connection.md#BKMK_goal_connections1) Many-To-One relationship.
+Same as the [goal_connections1](connection.md#BKMK_goal_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2196,7 +2176,7 @@ Same as connection entity [goal_connections1](connection.md#BKMK_goal_connection
 
 ### <a name="BKMK_goal_connections2"></a> goal_connections2
 
-Same as connection entity [goal_connections2](connection.md#BKMK_goal_connections2) Many-To-One relationship.
+Same as the [goal_connections2](connection.md#BKMK_goal_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2211,7 +2191,7 @@ Same as connection entity [goal_connections2](connection.md#BKMK_goal_connection
 
 ### <a name="BKMK_Goal_DuplicateMatchingRecord"></a> Goal_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Goal_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Goal_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Goal_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Goal_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2226,7 +2206,7 @@ Same as duplicaterecord entity [Goal_DuplicateMatchingRecord](duplicaterecord.md
 
 ### <a name="BKMK_goal_principalobjectattributeaccess"></a> goal_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [goal_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_goal_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [goal_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_goal_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2270,97 +2250,93 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_team_goal"></a> team_goal
 
-See team Entity [team_goal](team.md#BKMK_team_goal) One-To-Many relationship.
+See the [team_goal](team.md#BKMK_team_goal) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_goalrollupquery_actualint"></a> goalrollupquery_actualint
 
-See goalrollupquery Entity [goalrollupquery_actualint](goalrollupquery.md#BKMK_goalrollupquery_actualint) One-To-Many relationship.
+See the [goalrollupquery_actualint](goalrollupquery.md#BKMK_goalrollupquery_actualint) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_actualmoney"></a> goal_rollupquery_actualmoney
 
-See goalrollupquery Entity [goal_rollupquery_actualmoney](goalrollupquery.md#BKMK_goal_rollupquery_actualmoney) One-To-Many relationship.
+See the [goal_rollupquery_actualmoney](goalrollupquery.md#BKMK_goal_rollupquery_actualmoney) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_actualdecimal"></a> goal_rollupquery_actualdecimal
 
-See goalrollupquery Entity [goal_rollupquery_actualdecimal](goalrollupquery.md#BKMK_goal_rollupquery_actualdecimal) One-To-Many relationship.
+See the [goal_rollupquery_actualdecimal](goalrollupquery.md#BKMK_goal_rollupquery_actualdecimal) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_customint"></a> goal_rollupquery_customint
 
-See goalrollupquery Entity [goal_rollupquery_customint](goalrollupquery.md#BKMK_goal_rollupquery_customint) One-To-Many relationship.
+See the [goal_rollupquery_customint](goalrollupquery.md#BKMK_goal_rollupquery_customint) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_custommoney"></a> goal_rollupquery_custommoney
 
-See goalrollupquery Entity [goal_rollupquery_custommoney](goalrollupquery.md#BKMK_goal_rollupquery_custommoney) One-To-Many relationship.
+See the [goal_rollupquery_custommoney](goalrollupquery.md#BKMK_goal_rollupquery_custommoney) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_customdecimal"></a> goal_rollupquery_customdecimal
 
-See goalrollupquery Entity [goal_rollupquery_customdecimal](goalrollupquery.md#BKMK_goal_rollupquery_customdecimal) One-To-Many relationship.
+See the [goal_rollupquery_customdecimal](goalrollupquery.md#BKMK_goal_rollupquery_customdecimal) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_inprogressint"></a> goal_rollupquery_inprogressint
 
-See goalrollupquery Entity [goal_rollupquery_inprogressint](goalrollupquery.md#BKMK_goal_rollupquery_inprogressint) One-To-Many relationship.
+See the [goal_rollupquery_inprogressint](goalrollupquery.md#BKMK_goal_rollupquery_inprogressint) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_inprogressmoney"></a> goal_rollupquery_inprogressmoney
 
-See goalrollupquery Entity [goal_rollupquery_inprogressmoney](goalrollupquery.md#BKMK_goal_rollupquery_inprogressmoney) One-To-Many relationship.
+See the [goal_rollupquery_inprogressmoney](goalrollupquery.md#BKMK_goal_rollupquery_inprogressmoney) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_goal_rollupquery_inprogressdecimal"></a> goal_rollupquery_inprogressdecimal
 
-See goalrollupquery Entity [goal_rollupquery_inprogressdecimal](goalrollupquery.md#BKMK_goal_rollupquery_inprogressdecimal) One-To-Many relationship.
+See the [goal_rollupquery_inprogressdecimal](goalrollupquery.md#BKMK_goal_rollupquery_inprogressdecimal) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_lk_goal_createdby"></a> lk_goal_createdby
 
-See systemuser Entity [lk_goal_createdby](systemuser.md#BKMK_lk_goal_createdby) One-To-Many relationship.
+See the [lk_goal_createdby](systemuser.md#BKMK_lk_goal_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_goal_createdonbehalfby"></a> lk_goal_createdonbehalfby
 
-See systemuser Entity [lk_goal_createdonbehalfby](systemuser.md#BKMK_lk_goal_createdonbehalfby) One-To-Many relationship.
+See the [lk_goal_createdonbehalfby](systemuser.md#BKMK_lk_goal_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_goal_modifiedby"></a> lk_goal_modifiedby
 
-See systemuser Entity [lk_goal_modifiedby](systemuser.md#BKMK_lk_goal_modifiedby) One-To-Many relationship.
+See the [lk_goal_modifiedby](systemuser.md#BKMK_lk_goal_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_goal_modifiedonbehalfby"></a> lk_goal_modifiedonbehalfby
 
-See systemuser Entity [lk_goal_modifiedonbehalfby](systemuser.md#BKMK_lk_goal_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_goal_modifiedonbehalfby](systemuser.md#BKMK_lk_goal_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_goal"></a> user_goal
 
-See systemuser Entity [user_goal](systemuser.md#BKMK_user_goal) One-To-Many relationship.
+See the [user_goal](systemuser.md#BKMK_user_goal) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_goal"></a> business_unit_goal
 
-See businessunit Entity [business_unit_goal](businessunit.md#BKMK_business_unit_goal) One-To-Many relationship.
+See the [business_unit_goal](businessunit.md#BKMK_business_unit_goal) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_user_goal_goalowner"></a> user_goal_goalowner
 
-See systemuser Entity [user_goal_goalowner](systemuser.md#BKMK_user_goal_goalowner) One-To-Many relationship.
+See the [user_goal_goalowner](systemuser.md#BKMK_user_goal_goalowner) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_goal_parent_goal"></a> goal_parent_goal
 
-See goal Entity [goal_parent_goal](goal.md#BKMK_goal_parent_goal) One-To-Many relationship.
+See the [goal_parent_goal](goal.md#BKMK_goal_parent_goal) one-to-many relationship for the [goal](goal.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_Goal"></a> TransactionCurrency_Goal
 
-See transactioncurrency Entity [TransactionCurrency_Goal](transactioncurrency.md#BKMK_TransactionCurrency_Goal) One-To-Many relationship.
+See the [TransactionCurrency_Goal](transactioncurrency.md#BKMK_TransactionCurrency_Goal) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_metric_goal"></a> metric_goal
 
-See metric Entity [metric_goal](metric.md#BKMK_metric_goal) One-To-Many relationship.
+See the [metric_goal](metric.md#BKMK_metric_goal) one-to-many relationship for the [metric](metric.md) entity.
 
 ### <a name="BKMK_Goal_RollupError_Goal"></a> Goal_RollupError_Goal
 
-See goal Entity [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) One-To-Many relationship.
+See the [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) one-to-many relationship for the [goal](goal.md) entity.
 
 ### <a name="BKMK_team_goal_goalowner"></a> team_goal_goalowner
 
-See team Entity [team_goal_goalowner](team.md#BKMK_team_goal_goalowner) One-To-Many relationship.
+See the [team_goal_goalowner](team.md#BKMK_team_goal_goalowner) one-to-many relationship for the [team](team.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.goal?text=goal EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,37 +1,32 @@
 ---
 title: "Schedule in sequence with requirement dependencies | MicrosoftDocs"
-description: Learn how to schedule in sequence using requirement dependencies in resource scheduling optimization
+description: Learn how to schedule in sequence using requirement dependencies in Resource Scheduling Optimization
 ms.date: 02/10/2020
-ms.reviewer: krbjoran
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: FeifeiQiu
+ms.author: feiqiu
 ---
 
 # Schedule in sequence with requirement dependencies
 
-Ensure resource scheduling optimization autoschedules requirements in sequence by adding requirement dependencies.
+Ensure Resource Scheduling Optimization autoschedules requirements in sequence by adding requirement dependencies.
 
 Consider the following scenarios that might call for requirement dependencies:
 
 1. A technician needs to travel to one location to pick up a unique part from the warehouse before performing at a customer's site.
 2. A work order must be completed and approved before another work order can begin. For example, a physical installation must occur before an electrical connection.
 
-Requirement dependencies let you schedule requirements in a specific order by relating them through a predecessor and successor dependency relationship. When resource scheduling optimization runs, it ensures the requirements are scheduled in the correct order where the start time of the defined predecessor is after the end time of the predecessor. 
+Requirement dependencies let you schedule requirements in a specific order by relating them through a predecessor and successor dependency relationship. When Resource Scheduling Optimization runs, it ensures the requirements are scheduled in the correct order where the start time of the defined predecessor is after the end time of the predecessor. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing scheduled requirements.](./media/rso-requirement-dependency.png)
 
-In the previous screenshot, you can see resource scheduling optimization scheduled requirements "Task 2.1," "Task 2.2," and "Task 2.3" in order.
+In the previous screenshot, you can see Resource Scheduling Optimization scheduled requirements "Task 2.1," "Task 2.2," and "Task 2.3" in order.
 
 ## Instructions
 
@@ -53,13 +48,13 @@ For every requirement, add a requirement dependency. In our example, there's ano
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource requirement on the successors tab.](./media/rso-requirement-dependency-next-link.png)
 
-After creating each requirement and adding the desired requirement dependencies, run resource scheduling optimization. Assuming the requirements are within resource scheduling optimization's scope, resource scheduling optimization will respect the dependencies. There's no need to add a constraint or objective to the optimization goal.
+After creating each requirement and adding the desired requirement dependencies, run Resource Scheduling Optimization. Assuming the requirements are within Resource Scheduling Optimization's scope, Resource Scheduling Optimization will respect the dependencies. There's no need to add a constraint or objective to the optimization goal.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing scheduled requirements.](./media/rso-requirement-dependency-different-location.png)
 
-In the previous screenshot, the requirements Task 1.1, Task 1.2, and Task 1.3 were all scheduled in order. You can see there's expected travel time between Task 1.1 and Task 1.2; this indicates a different location and was respected by resource scheduling optimization. 
+In the previous screenshot, the requirements Task 1.1, Task 1.2, and Task 1.3 were all scheduled in order. You can see there's expected travel time between Task 1.1 and Task 1.2; this indicates a different location and was respected by Resource Scheduling Optimization. 
 
 ## Configuration considerations
 
@@ -71,13 +66,13 @@ In the previous screenshot, the requirements Task 1.1, Task 1.2, and Task 1.3 we
 
 - Requirement dependencies are not considered by the schedule assistant or when manually scheduling via the schedule board. 
 
-- Resource scheduling optimization will ensure the start time of the successor is after the end time of the predecessor. If all requirements can't be completed on the same day, resource scheduling optimization will schedule the following day to the same resource assuming the following day is within the time scope of resource scheduling optimization. In the following screenshot, requirement "Task 2.3" was scheduled on the day following requirement "Task 2.2."  
+- Resource scheduling optimization will ensure the start time of the successor is after the end time of the predecessor. If all requirements can't be completed on the same day, Resource Scheduling Optimization will schedule the following day to the same resource assuming the following day is within the time scope of Resource Scheduling Optimization. In the following screenshot, requirement "Task 2.3" was scheduled on the day following requirement "Task 2.2."  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board, showing requirements scheduled across two days.](./media/rso-requirement-dependency-day-gap.png)
 
 
-- If needed, resource scheduling optimization will schedule successive requirements around existing bookings in cases where an existing booking is locked and cannot be moved. 
+- If needed, Resource Scheduling Optimization will schedule successive requirements around existing bookings in cases where an existing booking is locked and cannot be moved. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,7 +14,6 @@ ms.assetid: 090de410-ae36-4ac4-a7a9-2a05fe24e9a5
 caps.latest.revision: 10
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Sample Dynamics 365 Report Authoring Extension XML configuration file
 

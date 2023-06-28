@@ -2,7 +2,7 @@
 title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement (on-premises) compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 05/12/2023
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -14,7 +14,6 @@ ms.assetid: dd682a4b-d04b-40c2-b680-9dec34b986f0
 caps.latest.revision: 33
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -27,7 +26,7 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
   
 <a name="bkm_where"></a>   
 ## Where to find the SolutionPackager tool  
- The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Download tools from NuGet](download-tools-nuget.md) for information about how to download it.
+ The SolutionPackager tool is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. See [Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget) for information about how to download it.
   
   
 <a name="arguments"></a>   
@@ -127,8 +126,15 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
   <FileToFile map="assembly.dll" to="c:\path\folder\assembly.dll" />  
   <FileToFile map="PluginAssemblies\**\this.dll" to="..\..\Plugins\**\that.dll" />  
   <FileToFile map="Webresrouces\ardvark.jpg" to="%SRCBASE%\CrmPackage\WebResources\JPG format\aardvark.jpg" />  
-  ```  
+  ```
   
+  ```xml  
+  <FileToFile
+    map="pluginpackages\cr886_PluginPackageTest\package\cr886_PluginPackageTest.nupkg"
+    to="myplg\bin\Debug\myplg.1.0.0.nupkg" /> 
+  ``` 
+  Note that in the above NuGet package example, cr886_PluginPackageTest.nupkg is not overwritten if the file already exists in the specified location.
+
 <a name="file_path_mapping"></a>   
 ### File to path mapping  
  The following provides detailed information on file-to-path mapping.  
@@ -193,9 +199,8 @@ SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer
   
  The SolutionPackager can process unmanaged and managed solution .zip files as a combined set via the /PackageType:Both parameter. To perform this operation, it is necessary to export your solution twice as each type, naming the .zip files as follows.  
   
-|||  
-|-|-|  
-|Unmanaged .zip file: AnyName.zip|Managed .zip file: AnyName_managed.zip|  
+- Unmanaged .zip file: AnyName.zip
+- Managed .zip file: AnyName_managed.zip
   
  The tool will assume the presence of the managed zip file in the same folder as the unmanaged file and extract both files into a single folder preserving the differences where managed and unmanaged components exist.  
   

@@ -1,17 +1,13 @@
 ---
 title: "Customize resource matching in Universal Resource Scheduling"
 description: "Learn how the built-in resource constraints are implemented in Universal Resource Scheduling, and how to extend the system with custom resource constraints."
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 ms.date: 06/14/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 
 # Extend Universal Resource Scheduling with custom resource constraints
@@ -201,8 +197,6 @@ Universal Resource Scheduling can be extended with custom resource constraints. 
 ### Custom constraints
 
 We'll use "language" as an example scenario. An organization wants to filter resources by the language they speak. They also want to capture on the Requirement record the language required for a job. This constraint follows a similar pattern to the built-in Territory constraint. A new master entity Language stores the different languages a resource can speak. A Resource record can be associated to many Languages through a many-to-many relationship entity. On the Requirement entity, we'll create two new lookup attributes: `Required Language` and `Secondary Language`. When finding available resources for a requirement, only resources associated with either the `Required Language` or the `Secondary Language` will be shown.
-
-Since extensible constraints work fully with the relational model of Dynamics 365, any structure used to express constraints can be used in Universal Resource Scheduling. Here's a more powerful example of custom constraints. Let's assume an organization picks up products from a location and delivers them to a customer's location. The Resource entity is extended with a `Maximum Weight` attribute describing the maximum weight it can carry, in case of a vehicle resource. The Requirement entity is related to the Dynamics 365 Product entity with a many-to-many relationship; each Product gets a new `Weight` attribute, too. When a Requirement record is created to capture required work, it is related to all the products required to complete the job. When a user finds availability for a Requirement, the total weight of all related Product records is retrieved and only resources that can carry this weight, defined in the `Maximum Weight` attribute, are returned.
 
 Here, we'll describe the custom language constraint. First, we have our new Language entity:
 

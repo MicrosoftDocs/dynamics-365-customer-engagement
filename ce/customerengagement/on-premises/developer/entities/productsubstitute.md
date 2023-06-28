@@ -1,18 +1,16 @@
 ---
-title: "ProductSubstitute Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the ProductSubstitute entity."
-ms.date: 04/02/2019
-
+title: "Product Relationship (ProductSubstitute)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Product Relationship (ProductSubstitute)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ProductSubstitute Entity Reference
+
+# Product Relationship (ProductSubstitute)  entity reference
 
 Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.
 
@@ -21,15 +19,15 @@ Information about the selling relationship between two products, including the r
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/productsubstitutes<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/productsubstitutes(*productsubstituteid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/productsubstitutes(*productsubstituteid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/productsubstitutes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/productsubstitutes(*productsubstituteid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -77,12 +75,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Direction Options
+#### Direction Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Uni-Directional|
-|1|Bi-Directional|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Uni-Directional||
+|1|Bi-Directional||
 
 
 
@@ -176,14 +174,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### SalesRelationshipType Options
+#### SalesRelationshipType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Up-sell|
-|1|Cross-sell|
-|2|Accessory|
-|3|Substitute|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Up-sell||
+|1|Cross-sell||
+|2|Accessory||
+|3|Substitute||
 
 
 
@@ -199,7 +197,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -586,7 +584,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -659,7 +657,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [ProductSubstitute_SyncErrors](syncerror.md#BKMK_ProductSubstitute_SyncErrors) Many-To-One relationship.
+Same as the [ProductSubstitute_SyncErrors](syncerror.md#BKMK_ProductSubstitute_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -676,7 +674,7 @@ Same as syncerror entity [ProductSubstitute_SyncErrors](syncerror.md#BKMK_Produc
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [ProductSubstitute_AsyncOperations](asyncoperation.md#BKMK_ProductSubstitute_AsyncOperations) Many-To-One relationship.
+Same as the [ProductSubstitute_AsyncOperations](asyncoperation.md#BKMK_ProductSubstitute_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -693,7 +691,7 @@ Same as asyncoperation entity [ProductSubstitute_AsyncOperations](asyncoperation
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [productsubstitute_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productsubstitute_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [productsubstitute_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_productsubstitute_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -710,7 +708,7 @@ Same as mailboxtrackingfolder entity [productsubstitute_MailboxTrackingFolders](
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [ProductSubstitute_ProcessSession](processsession.md#BKMK_ProductSubstitute_ProcessSession) Many-To-One relationship.
+Same as the [ProductSubstitute_ProcessSession](processsession.md#BKMK_ProductSubstitute_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -727,7 +725,7 @@ Same as processsession entity [ProductSubstitute_ProcessSession](processsession.
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [ProductSubstitute_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ProductSubstitute_BulkDeleteFailures) Many-To-One relationship.
+Same as the [ProductSubstitute_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ProductSubstitute_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -744,7 +742,7 @@ Same as bulkdeletefailure entity [ProductSubstitute_BulkDeleteFailures](bulkdele
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [ProductSubstitute_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ProductSubstitute_PrincipalObjectAttributeAccess) Many-To-One relationship.
+Same as the [ProductSubstitute_PrincipalObjectAttributeAccess](principalobjectattributeaccess.md#BKMK_ProductSubstitute_PrincipalObjectAttributeAccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -776,51 +774,47 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_ProductSubstitute_createdby](systemuser.md#BKMK_lk_ProductSubstitute_createdby) One-To-Many relationship.
+See the [lk_ProductSubstitute_createdby](systemuser.md#BKMK_lk_ProductSubstitute_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_ProductSubstitute_createdonbehalfby"></a> lk_ProductSubstitute_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_ProductSubstitute_createdonbehalfby](systemuser.md#BKMK_lk_ProductSubstitute_createdonbehalfby) One-To-Many relationship.
+See the [lk_ProductSubstitute_createdonbehalfby](systemuser.md#BKMK_lk_ProductSubstitute_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_ProductSubstitute_modifiedby"></a> lk_ProductSubstitute_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_ProductSubstitute_modifiedby](systemuser.md#BKMK_lk_ProductSubstitute_modifiedby) One-To-Many relationship.
+See the [lk_ProductSubstitute_modifiedby](systemuser.md#BKMK_lk_ProductSubstitute_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_ProductSubstitute_modifiedonbehalfby"></a> lk_ProductSubstitute_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_ProductSubstitute_modifiedonbehalfby](systemuser.md#BKMK_lk_ProductSubstitute_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_ProductSubstitute_modifiedonbehalfby](systemuser.md#BKMK_lk_ProductSubstitute_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_ProductSubstitute"></a> organization_ProductSubstitute
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_ProductSubstitute](organization.md#BKMK_organization_ProductSubstitute) One-To-Many relationship.
+See the [organization_ProductSubstitute](organization.md#BKMK_organization_ProductSubstitute) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_product_ProductSubstitute_substitutedproductid"></a> product_ProductSubstitute_substitutedproductid
 
-See product Entity [product_ProductSubstitute_substitutedproductid](product.md#BKMK_product_ProductSubstitute_substitutedproductid) One-To-Many relationship.
+See the [product_ProductSubstitute_substitutedproductid](product.md#BKMK_product_ProductSubstitute_substitutedproductid) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_product_ProductSubstitute_productid"></a> product_ProductSubstitute_productid
 
-See product Entity [product_ProductSubstitute_productid](product.md#BKMK_product_ProductSubstitute_productid) One-To-Many relationship.
+See the [product_ProductSubstitute_productid](product.md#BKMK_product_ProductSubstitute_productid) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_transactioncurrency_ProductSubstitute"></a> transactioncurrency_ProductSubstitute
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_ProductSubstitute](transactioncurrency.md#BKMK_transactioncurrency_ProductSubstitute) One-To-Many relationship.
+See the [transactioncurrency_ProductSubstitute](transactioncurrency.md#BKMK_transactioncurrency_ProductSubstitute) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.productsubstitute?text=productsubstitute EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -14,7 +14,6 @@ ms.assetid: 7f3a16a4-241b-4a20-ac90-30a3ecebeccc
 caps.latest.revision: 18
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Upgrade and enable a Language Pack
 

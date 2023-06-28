@@ -1,18 +1,16 @@
 ---
-title: "msdyn_PostAlbum Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_PostAlbum entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_PostAlbum entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# msdyn_PostAlbum Entity Reference
+
+# msdyn_PostAlbum entity reference
 
 Contains user profile images that are stored as attachments and displayed in posts.
 
@@ -21,23 +19,23 @@ Contains user profile images that are stored as attachments and displayed in pos
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_postalbums<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_postalbums<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_postalbums(*msdyn_postalbumid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|IsValidStateTransition|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -178,7 +176,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -199,7 +197,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -632,15 +630,13 @@ Listed by **SchemaName**.
 - [msdyn_postalbum_connections2](#BKMK_msdyn_postalbum_connections2)
 - [msdyn_postalbum_Annotations](#BKMK_msdyn_postalbum_Annotations)
 - [msdyn_postalbum_ServiceAppointments](#BKMK_msdyn_postalbum_ServiceAppointments)
-- [msdyn_postalbum_msdyn_bookingalerts](#BKMK_msdyn_postalbum_msdyn_bookingalerts)
-- [msdyn_postalbum_msdyn_approvals](#BKMK_msdyn_postalbum_msdyn_approvals)
 
 
 ### <a name="BKMK_msdyn_postalbum_ActivityPointers"></a> msdyn_postalbum_ActivityPointers
 
 **Added by**: System Solution Solution
 
-Same as activitypointer entity [msdyn_postalbum_ActivityPointers](activitypointer.md#BKMK_msdyn_postalbum_ActivityPointers) Many-To-One relationship.
+Same as the [msdyn_postalbum_ActivityPointers](activitypointer.md#BKMK_msdyn_postalbum_ActivityPointers) many-to-one relationship for the [activitypointer](activitypointer.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -657,7 +653,7 @@ Same as activitypointer entity [msdyn_postalbum_ActivityPointers](activitypointe
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [msdyn_postalbum_SyncErrors](syncerror.md#BKMK_msdyn_postalbum_SyncErrors) Many-To-One relationship.
+Same as the [msdyn_postalbum_SyncErrors](syncerror.md#BKMK_msdyn_postalbum_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -674,7 +670,7 @@ Same as syncerror entity [msdyn_postalbum_SyncErrors](syncerror.md#BKMK_msdyn_po
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [msdyn_postalbum_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [msdyn_postalbum_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -691,7 +687,7 @@ Same as duplicaterecord entity [msdyn_postalbum_DuplicateMatchingRecord](duplica
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [msdyn_postalbum_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [msdyn_postalbum_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_postalbum_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -708,7 +704,7 @@ Same as duplicaterecord entity [msdyn_postalbum_DuplicateBaseRecord](duplicatere
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [msdyn_postalbum_AsyncOperations](asyncoperation.md#BKMK_msdyn_postalbum_AsyncOperations) Many-To-One relationship.
+Same as the [msdyn_postalbum_AsyncOperations](asyncoperation.md#BKMK_msdyn_postalbum_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -725,7 +721,7 @@ Same as asyncoperation entity [msdyn_postalbum_AsyncOperations](asyncoperation.m
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [msdyn_postalbum_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postalbum_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [msdyn_postalbum_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_postalbum_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -742,7 +738,7 @@ Same as mailboxtrackingfolder entity [msdyn_postalbum_MailboxTrackingFolders](ma
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [msdyn_postalbum_ProcessSession](processsession.md#BKMK_msdyn_postalbum_ProcessSession) Many-To-One relationship.
+Same as the [msdyn_postalbum_ProcessSession](processsession.md#BKMK_msdyn_postalbum_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -759,7 +755,7 @@ Same as processsession entity [msdyn_postalbum_ProcessSession](processsession.md
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [msdyn_postalbum_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postalbum_BulkDeleteFailures) Many-To-One relationship.
+Same as the [msdyn_postalbum_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_postalbum_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -776,7 +772,7 @@ Same as bulkdeletefailure entity [msdyn_postalbum_BulkDeleteFailures](bulkdelete
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [msdyn_postalbum_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postalbum_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [msdyn_postalbum_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_postalbum_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -793,7 +789,7 @@ Same as principalobjectattributeaccess entity [msdyn_postalbum_PrincipalObjectAt
 
 **Added by**: System Solution Solution
 
-Same as appointment entity [msdyn_postalbum_Appointments](appointment.md#BKMK_msdyn_postalbum_Appointments) Many-To-One relationship.
+Same as the [msdyn_postalbum_Appointments](appointment.md#BKMK_msdyn_postalbum_Appointments) many-to-one relationship for the [appointment](appointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -810,7 +806,7 @@ Same as appointment entity [msdyn_postalbum_Appointments](appointment.md#BKMK_ms
 
 **Added by**: System Solution Solution
 
-Same as email entity [msdyn_postalbum_Emails](email.md#BKMK_msdyn_postalbum_Emails) Many-To-One relationship.
+Same as the [msdyn_postalbum_Emails](email.md#BKMK_msdyn_postalbum_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -827,7 +823,7 @@ Same as email entity [msdyn_postalbum_Emails](email.md#BKMK_msdyn_postalbum_Emai
 
 **Added by**: System Solution Solution
 
-Same as fax entity [msdyn_postalbum_Faxes](fax.md#BKMK_msdyn_postalbum_Faxes) Many-To-One relationship.
+Same as the [msdyn_postalbum_Faxes](fax.md#BKMK_msdyn_postalbum_Faxes) many-to-one relationship for the [fax](fax.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -844,7 +840,7 @@ Same as fax entity [msdyn_postalbum_Faxes](fax.md#BKMK_msdyn_postalbum_Faxes) Ma
 
 **Added by**: System Solution Solution
 
-Same as letter entity [msdyn_postalbum_Letters](letter.md#BKMK_msdyn_postalbum_Letters) Many-To-One relationship.
+Same as the [msdyn_postalbum_Letters](letter.md#BKMK_msdyn_postalbum_Letters) many-to-one relationship for the [letter](letter.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -861,7 +857,7 @@ Same as letter entity [msdyn_postalbum_Letters](letter.md#BKMK_msdyn_postalbum_L
 
 **Added by**: System Solution Solution
 
-Same as phonecall entity [msdyn_postalbum_PhoneCalls](phonecall.md#BKMK_msdyn_postalbum_PhoneCalls) Many-To-One relationship.
+Same as the [msdyn_postalbum_PhoneCalls](phonecall.md#BKMK_msdyn_postalbum_PhoneCalls) many-to-one relationship for the [phonecall](phonecall.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -878,7 +874,7 @@ Same as phonecall entity [msdyn_postalbum_PhoneCalls](phonecall.md#BKMK_msdyn_po
 
 **Added by**: System Solution Solution
 
-Same as task entity [msdyn_postalbum_Tasks](task.md#BKMK_msdyn_postalbum_Tasks) Many-To-One relationship.
+Same as the [msdyn_postalbum_Tasks](task.md#BKMK_msdyn_postalbum_Tasks) many-to-one relationship for the [task](task.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -895,7 +891,7 @@ Same as task entity [msdyn_postalbum_Tasks](task.md#BKMK_msdyn_postalbum_Tasks) 
 
 **Added by**: System Solution Solution
 
-Same as recurringappointmentmaster entity [msdyn_postalbum_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_postalbum_RecurringAppointmentMasters) Many-To-One relationship.
+Same as the [msdyn_postalbum_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_postalbum_RecurringAppointmentMasters) many-to-one relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -912,7 +908,7 @@ Same as recurringappointmentmaster entity [msdyn_postalbum_RecurringAppointmentM
 
 **Added by**: System Solution Solution
 
-Same as socialactivity entity [msdyn_postalbum_SocialActivities](socialactivity.md#BKMK_msdyn_postalbum_SocialActivities) Many-To-One relationship.
+Same as the [msdyn_postalbum_SocialActivities](socialactivity.md#BKMK_msdyn_postalbum_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -929,7 +925,7 @@ Same as socialactivity entity [msdyn_postalbum_SocialActivities](socialactivity.
 
 **Added by**: System Solution Solution
 
-Same as connection entity [msdyn_postalbum_connections1](connection.md#BKMK_msdyn_postalbum_connections1) Many-To-One relationship.
+Same as the [msdyn_postalbum_connections1](connection.md#BKMK_msdyn_postalbum_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -946,7 +942,7 @@ Same as connection entity [msdyn_postalbum_connections1](connection.md#BKMK_msdy
 
 **Added by**: System Solution Solution
 
-Same as connection entity [msdyn_postalbum_connections2](connection.md#BKMK_msdyn_postalbum_connections2) Many-To-One relationship.
+Same as the [msdyn_postalbum_connections2](connection.md#BKMK_msdyn_postalbum_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -963,7 +959,7 @@ Same as connection entity [msdyn_postalbum_connections2](connection.md#BKMK_msdy
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [msdyn_postalbum_Annotations](annotation.md#BKMK_msdyn_postalbum_Annotations) Many-To-One relationship.
+Same as the [msdyn_postalbum_Annotations](annotation.md#BKMK_msdyn_postalbum_Annotations) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -980,7 +976,7 @@ Same as annotation entity [msdyn_postalbum_Annotations](annotation.md#BKMK_msdyn
 
 **Added by**: Service Solution
 
-Same as serviceappointment entity [msdyn_postalbum_ServiceAppointments](serviceappointment.md#BKMK_msdyn_postalbum_ServiceAppointments) Many-To-One relationship.
+Same as the [msdyn_postalbum_ServiceAppointments](serviceappointment.md#BKMK_msdyn_postalbum_ServiceAppointments) many-to-one relationship for the [serviceappointment](serviceappointment.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -989,40 +985,6 @@ Same as serviceappointment entity [msdyn_postalbum_ServiceAppointments](servicea
 |IsHierarchical|False|
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|msdyn_postalbum_ServiceAppointments|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_postalbum_msdyn_bookingalerts"></a> msdyn_postalbum_msdyn_bookingalerts
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_bookingalert entity [msdyn_postalbum_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_postalbum_msdyn_bookingalerts) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_bookingalert|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_postalbum_msdyn_bookingalerts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_postalbum_msdyn_approvals"></a> msdyn_postalbum_msdyn_approvals
-
-**Added by**: Active Solution Solution
-
-Same as msdyn_approval entity [msdyn_postalbum_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_postalbum_msdyn_approvals) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_approval|
-|ReferencingAttribute|regardingobjectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_postalbum_msdyn_approvals|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
@@ -1045,49 +1007,45 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postalbum_createdby](systemuser.md#BKMK_lk_msdyn_postalbum_createdby) One-To-Many relationship.
+See the [lk_msdyn_postalbum_createdby](systemuser.md#BKMK_lk_msdyn_postalbum_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postalbum_createdonbehalfby"></a> lk_msdyn_postalbum_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postalbum_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_postalbum_createdonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_postalbum_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_postalbum_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postalbum_modifiedby"></a> lk_msdyn_postalbum_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postalbum_modifiedby](systemuser.md#BKMK_lk_msdyn_postalbum_modifiedby) One-To-Many relationship.
+See the [lk_msdyn_postalbum_modifiedby](systemuser.md#BKMK_lk_msdyn_postalbum_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_postalbum_modifiedonbehalfby"></a> lk_msdyn_postalbum_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_postalbum_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_postalbum_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_postalbum_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_postalbum_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_msdyn_postalbum"></a> user_msdyn_postalbum
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_msdyn_postalbum](systemuser.md#BKMK_user_msdyn_postalbum) One-To-Many relationship.
+See the [user_msdyn_postalbum](systemuser.md#BKMK_user_msdyn_postalbum) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_msdyn_postalbum"></a> team_msdyn_postalbum
 
 **Added by**: System Solution Solution
 
-See team Entity [team_msdyn_postalbum](team.md#BKMK_team_msdyn_postalbum) One-To-Many relationship.
+See the [team_msdyn_postalbum](team.md#BKMK_team_msdyn_postalbum) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_msdyn_postalbum"></a> business_unit_msdyn_postalbum
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_msdyn_postalbum](businessunit.md#BKMK_business_unit_msdyn_postalbum) One-To-Many relationship.
+See the [business_unit_msdyn_postalbum](businessunit.md#BKMK_business_unit_msdyn_postalbum) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_postalbum?text=msdyn_postalbum EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

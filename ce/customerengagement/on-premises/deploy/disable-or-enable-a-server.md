@@ -14,7 +14,6 @@ ms.assetid: 15b52516-5f58-4cfc-b597-6f8209bb4a6b
 caps.latest.revision: 14
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Disable or enable a server
 
@@ -51,7 +50,7 @@ You can use the **Servers** area to disable or enable a [!INCLUDE[pn_microsoftcr
 >  You can’t disable the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] server roles by using the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] disable feature.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmServer](/powershell/module/microsoft.crm.powershell/disable-crmserver?view=dynamics365ce-ps) and [Enable-CrmServer](/powershell/module/microsoft.crm.powershell/enable-crmserver?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Disable-CrmServer](/powershell/module/microsoft.crm.powershell/disable-crmserver?view=dynamics365ce-ps&preserve-view=true) and [Enable-CrmServer](/powershell/module/microsoft.crm.powershell/enable-crmserver?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ### Disable or enable a server  
   

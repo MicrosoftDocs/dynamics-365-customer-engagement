@@ -1,23 +1,21 @@
 ---
 title: "Close opportunities as won or lost | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
-ms.date: 11/02/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Close opportunities as won or lost 
 
 If your customer has accepted your proposal, congratulations! Whether your customer had accepted or declined your proposal, it's now time to close that opportunity.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 
 ## Close an opportunity  
@@ -82,6 +80,7 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 ### See also  
  [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)    
  [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+[Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

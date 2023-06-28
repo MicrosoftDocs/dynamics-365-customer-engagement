@@ -3,15 +3,11 @@ title: "Walkthrough 2: Display external URLs and webpages for Unified Interface 
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying external URLs and webpages in your agent application. "
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Walkthrough 2: Display external URLs and webpages in your agent application
@@ -144,7 +140,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |     Order      |                          1                          |
    | Hosted Control |                    Contoso Help                     |
    |     Action     |                      Navigate                       |
-   |      Data      | url=https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1 | 
+   |      Data      | url=https://learn.microsoft.com/dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.1 | 
 
 8. Select **Save**. 
 

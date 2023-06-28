@@ -5,7 +5,6 @@ ms.date: 11/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # Understand lead distributions in assignment rules
@@ -18,13 +17,10 @@ The following factors help to determine how leads are assigned:
 - When a seller was last assigned a lead
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Basic lead distribution
 
@@ -143,7 +139,7 @@ In a load-balancing distribution, the priority of sellers is as follows.
 To fine-tune the lead assignment, we need to introduce additional processing to better prioritize sellers according to our requirements. The following additional options are available:
 
 - [Consider seller capacity](#consider-seller-capacity)
-- [Consider seller availability](#consider-seller-availability)
+- [Consider seller work schedule](#consider-seller-work-schedule)
 
 ### Consider seller capacity
 
@@ -178,11 +174,14 @@ The lead will be assigned to Seller 3.
 
 When you select the **Consider seller capacity** option, it removes the sellers with negative or zero available capacity from the list of owners at the time of routing.
 
-### Consider seller availability  
+### Consider seller work schedule  
 
 When this option is selected, the system considers the work schedule of sellers that has been defined in the sales accelerator and filters sellers based on their availability to work on the leads.
 
-The algorithm analyzes sellers' availability in the order of the lead assignment priority (load balancing or round robin) and assigns the lead to a seller who is currently available.
+The algorithm analyzes sellers' availability in the order of the lead assignment priority (load balancing or round robin) and assigns the lead to a seller who is currently available.  
+
+In this example, you configured a time limit of 120 hours to assign a lead record that is created in the application. 
+
 If the matched sellers are currently unavailable, the leads are assigned to sellers who are available within the next 24 hours of the time of routing. If no sellers are available within the next 24 hours, the leads are assigned to sellers who are available within the next 48 hours, and so on up to 120 hours. If no seller is available within 120 hours, the leads are marked as unassigned.
 
 The sellers are divided into six buckets, based on their availability. The buckets are viewed in top to bottom order. At the first non-empty bucket, the lead is distributed among the sellers in the bucket based on round-robin criteria. (For load balancing, only the first bucket is evaluated.)

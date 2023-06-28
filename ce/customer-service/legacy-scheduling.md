@@ -4,8 +4,7 @@ description: "Overview of legacy Service Scheduling features."
 ms.date: 05/08/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
-manager: shujoshi
+ms.author: laalexan
 ---
 
 # Service Scheduling features for legacy users

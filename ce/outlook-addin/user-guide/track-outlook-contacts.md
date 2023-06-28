@@ -1,5 +1,6 @@
 ---
 title: "Track Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to track contacts using a manual process in Microsoft Dynamics 365 for Outlook to keep personal contacts separate from Customer Engagement contacts.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
@@ -18,14 +19,10 @@ ms.assetid: ce639d6e-1cad-4db0-9c46-640af2020c40
 caps.latest.revision: 47
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook contacts in Dynamics 365 for Outlook
 When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], a copy of that contact record is saved in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. After your contacts are tracked, you’ll be able to see any email, tasks, appointments, and account records associated with those contacts. You can access the records in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].

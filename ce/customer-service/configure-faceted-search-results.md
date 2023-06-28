@@ -1,40 +1,26 @@
 ---
-title: Configure faceted search results web template from your portal| MicrosoftDocs
+title: Configure the faceted search results web template from your portal| MicrosoftDocs
 description: Know how the faceted search results web template can be configured from your portal.
-ms.date: 02/04/2022
+ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
-# Configure the faceted search results web template from your portal (preview)
+# Configure the faceted search results web template from your portal
 
+You can view and search for knowledge article attachments on the portal based on Dataverse search. To do so, you must configure the faceted search results web template from your portal.
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+1. In the Portal Management site map **Content** area, select **Web Templates**.
+1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
+1. On the **Web Template** page on the **General** tab, add the following snippet to the **Source** field.
 
-You can view and search for knowledge article attachments on the portal, based on a Microsoft Dataverse search. To do so, you must configure the faceted search results web template from your portal.
-
-  1. In the Portal Management sitemap **Content** area, select **Web Templates**.
-  1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
-  1. On the **Web Template** page > **General** tab, add the following snippet to the **Source** field:
   
   ```JavaScript                        
                               {{#if relatedAttachments}}
@@ -106,14 +92,12 @@ You can view and search for knowledge article attachments on the portal, based o
 		</script>
 ```
 
-  4. Select **Save**.
+4. Select **Save**.
 
 ### See also
 
-[Add a file attachment to a knowledge article](customer-service-hub-user-guide-knowledge-article.md#add-a-file-attachment-to-a-knowledge-article)
-
-[Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)
-
+[Add a file attachment to a knowledge article](customer-service-hub-user-guide-knowledge-article.md#add-a-file-attachment-to-a-knowledge-article)  
+[Update knowledge article attachments for portal](set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
 [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article)
 
 

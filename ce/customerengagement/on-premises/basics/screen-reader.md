@@ -2,10 +2,9 @@
 title: "Use screen reader with Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about using a screen reader with Dynamics 365 Customer Engagement (on-premises) and finding your way around Unified Interface apps."
 keywords: 
-author: ReneeW-CPub
+author: sericks007
 applies_to: Dynamics 365 Customer Engagement (on-premises)
-ms.author: renwe
-manager: renwe
+ms.author: sericks
 ms.date: 05/05/2020
 ms.topic: article
 
@@ -27,7 +26,7 @@ Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/)
 
 > [!NOTE]
 > JAWS screen reader is supported on the latest Unified Interface. If choosing JAWS, we recommend using it with Internet Explorer. 

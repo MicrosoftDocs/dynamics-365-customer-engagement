@@ -15,7 +15,6 @@ ms.assetid: 4cf0d6f6-870b-4ca6-80de-426494a8c2f5
 caps.latest.revision: 
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 
@@ -87,7 +86,7 @@ The following table lists the OData Entity Data Model (EDM) data type mappings w
 
    - **Name**. Type a name that describes the data source.  
 
-   - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to *https://contosodataservice.azurewebsites.net/odata/*.  
+   - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to `https://contosodataservice.azurewebsites.net/odata/`
 
    - **Timeout in seconds**. Enter the number of seconds to wait for a response from the web service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs.  
 

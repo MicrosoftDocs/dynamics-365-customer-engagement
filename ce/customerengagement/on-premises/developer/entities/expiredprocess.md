@@ -1,34 +1,32 @@
 ---
-title: "ExpiredProcess Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ExpiredProcess entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ExpiredProcess entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ExpiredProcess Entity Reference
+
+# ExpiredProcess entity reference
 
 Expired Process Business Process Flow
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/expiredprocesses<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/expiredprocesses(*businessprocessflowinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/expiredprocesses(*businessprocessflowinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/expiredprocesses<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/expiredprocesses(*businessprocessflowinstanceid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/expiredprocesses(*businessprocessflowinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -213,7 +211,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -234,7 +232,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -671,7 +669,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_lk_expiredprocess_workflowlogs"></a> lk_expiredprocess_workflowlogs
 
-Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_lk_expiredprocess_workflowlogs) Many-To-One relationship.
+Same as the [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_lk_expiredprocess_workflowlogs) many-to-one relationship for the [workflowlog](workflowlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -686,7 +684,7 @@ Same as workflowlog entity [lk_expiredprocess_workflowlogs](workflowlog.md#BKMK_
 
 ### <a name="BKMK_ExpiredProcess_SyncErrors"></a> ExpiredProcess_SyncErrors
 
-Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredProcess_SyncErrors) Many-To-One relationship.
+Same as the [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredProcess_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -701,7 +699,7 @@ Same as syncerror entity [ExpiredProcess_SyncErrors](syncerror.md#BKMK_ExpiredPr
 
 ### <a name="BKMK_ExpiredProcess_ProcessSessions"></a> ExpiredProcess_ProcessSessions
 
-Same as processsession entity [ExpiredProcess_ProcessSessions](processsession.md#BKMK_ExpiredProcess_ProcessSessions) Many-To-One relationship.
+Same as the [ExpiredProcess_ProcessSessions](processsession.md#BKMK_ExpiredProcess_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -732,45 +730,41 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_expiredprocess_createdonbehalfby"></a> lk_expiredprocess_createdonbehalfby
 
-See systemuser Entity [lk_expiredprocess_createdonbehalfby](systemuser.md#BKMK_lk_expiredprocess_createdonbehalfby) One-To-Many relationship.
+See the [lk_expiredprocess_createdonbehalfby](systemuser.md#BKMK_lk_expiredprocess_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_transactioncurrency_expiredprocess"></a> transactioncurrency_expiredprocess
 
-See transactioncurrency Entity [transactioncurrency_expiredprocess](transactioncurrency.md#BKMK_transactioncurrency_expiredprocess) One-To-Many relationship.
+See the [transactioncurrency_expiredprocess](transactioncurrency.md#BKMK_transactioncurrency_expiredprocess) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_modifiedonbehalfby"></a> lk_expiredprocess_modifiedonbehalfby
 
-See systemuser Entity [lk_expiredprocess_modifiedonbehalfby](systemuser.md#BKMK_lk_expiredprocess_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_expiredprocess_modifiedonbehalfby](systemuser.md#BKMK_lk_expiredprocess_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_expiredprocess"></a> organization_expiredprocess
 
-See organization Entity [organization_expiredprocess](organization.md#BKMK_organization_expiredprocess) One-To-Many relationship.
+See the [organization_expiredprocess](organization.md#BKMK_organization_expiredprocess) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_knowledgearticleid"></a> lk_expiredprocess_knowledgearticleid
 
-See knowledgearticle Entity [lk_expiredprocess_knowledgearticleid](knowledgearticle.md#BKMK_lk_expiredprocess_knowledgearticleid) One-To-Many relationship.
+See the [lk_expiredprocess_knowledgearticleid](knowledgearticle.md#BKMK_lk_expiredprocess_knowledgearticleid) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_createdby"></a> lk_expiredprocess_createdby
 
-See systemuser Entity [lk_expiredprocess_createdby](systemuser.md#BKMK_lk_expiredprocess_createdby) One-To-Many relationship.
+See the [lk_expiredprocess_createdby](systemuser.md#BKMK_lk_expiredprocess_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_activestageid"></a> lk_expiredprocess_activestageid
 
-See processstage Entity [lk_expiredprocess_activestageid](processstage.md#BKMK_lk_expiredprocess_activestageid) One-To-Many relationship.
+See the [lk_expiredprocess_activestageid](processstage.md#BKMK_lk_expiredprocess_activestageid) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_processid"></a> lk_expiredprocess_processid
 
-See workflow Entity [lk_expiredprocess_processid](workflow.md#BKMK_lk_expiredprocess_processid) One-To-Many relationship.
+See the [lk_expiredprocess_processid](workflow.md#BKMK_lk_expiredprocess_processid) one-to-many relationship for the [workflow](workflow.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_modifiedby"></a> lk_expiredprocess_modifiedby
 
-See systemuser Entity [lk_expiredprocess_modifiedby](systemuser.md#BKMK_lk_expiredprocess_modifiedby) One-To-Many relationship.
+See the [lk_expiredprocess_modifiedby](systemuser.md#BKMK_lk_expiredprocess_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.expiredprocess?text=expiredprocess EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

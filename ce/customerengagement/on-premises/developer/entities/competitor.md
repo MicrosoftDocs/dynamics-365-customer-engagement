@@ -1,18 +1,16 @@
 ---
-title: "Competitor Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Competitor entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Competitor entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Competitor Entity Reference
+
+# Competitor entity reference
 
 Business competing for the sale represented by a lead or opportunity.
 
@@ -21,17 +19,17 @@ Business competing for the sale represented by a lead or opportunity.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|POST [*org URI*]/api/data/v9.0/competitors<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/competitors(*competitorid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/competitors(*competitorid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/competitors<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/competitors(*competitorid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -148,11 +146,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_AddressTypeCode Options
+#### Address1_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -360,11 +358,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_ShippingMethodCode Options
+#### Address1_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -489,11 +487,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_AddressTypeCode Options
+#### Address2_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -701,11 +699,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_ShippingMethodCode Options
+#### Address2_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -1017,7 +1015,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -1124,7 +1122,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1657,7 +1655,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [Competitor_SyncErrors](syncerror.md#BKMK_Competitor_SyncErrors) Many-To-One relationship.
+Same as the [Competitor_SyncErrors](syncerror.md#BKMK_Competitor_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1674,7 +1672,7 @@ Same as syncerror entity [Competitor_SyncErrors](syncerror.md#BKMK_Competitor_Sy
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [Competitor_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Competitor_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Competitor_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Competitor_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1691,7 +1689,7 @@ Same as duplicaterecord entity [Competitor_DuplicateMatchingRecord](duplicaterec
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [Competitor_DuplicateBaseRecord](duplicaterecord.md#BKMK_Competitor_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Competitor_DuplicateBaseRecord](duplicaterecord.md#BKMK_Competitor_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1708,7 +1706,7 @@ Same as duplicaterecord entity [Competitor_DuplicateBaseRecord](duplicaterecord.
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [Competitor_AsyncOperations](asyncoperation.md#BKMK_Competitor_AsyncOperations) Many-To-One relationship.
+Same as the [Competitor_AsyncOperations](asyncoperation.md#BKMK_Competitor_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1725,7 +1723,7 @@ Same as asyncoperation entity [Competitor_AsyncOperations](asyncoperation.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [competitor_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_competitor_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [competitor_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_competitor_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1742,7 +1740,7 @@ Same as mailboxtrackingfolder entity [competitor_MailboxTrackingFolders](mailbox
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [Competitor_ProcessSessions](processsession.md#BKMK_Competitor_ProcessSessions) Many-To-One relationship.
+Same as the [Competitor_ProcessSessions](processsession.md#BKMK_Competitor_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1759,7 +1757,7 @@ Same as processsession entity [Competitor_ProcessSessions](processsession.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [Competitor_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Competitor_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Competitor_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Competitor_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1776,7 +1774,7 @@ Same as bulkdeletefailure entity [Competitor_BulkDeleteFailures](bulkdeletefailu
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [competitor_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_competitor_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [competitor_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_competitor_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1793,7 +1791,7 @@ Same as principalobjectattributeaccess entity [competitor_principalobjectattribu
 
 **Added by**: System Solution Solution
 
-Same as connection entity [competitor_connections1](connection.md#BKMK_competitor_connections1) Many-To-One relationship.
+Same as the [competitor_connections1](connection.md#BKMK_competitor_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1810,7 +1808,7 @@ Same as connection entity [competitor_connections1](connection.md#BKMK_competito
 
 **Added by**: System Solution Solution
 
-Same as connection entity [competitor_connections2](connection.md#BKMK_competitor_connections2) Many-To-One relationship.
+Same as the [competitor_connections2](connection.md#BKMK_competitor_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1827,7 +1825,7 @@ Same as connection entity [competitor_connections2](connection.md#BKMK_competito
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [Competitor_Annotation](annotation.md#BKMK_Competitor_Annotation) Many-To-One relationship.
+Same as the [Competitor_Annotation](annotation.md#BKMK_Competitor_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1842,7 +1840,7 @@ Same as annotation entity [Competitor_Annotation](annotation.md#BKMK_Competitor_
 
 ### <a name="BKMK_competitor_opportunity_activities"></a> competitor_opportunity_activities
 
-Same as opportunityclose entity [competitor_opportunity_activities](opportunityclose.md#BKMK_competitor_opportunity_activities) Many-To-One relationship.
+Same as the [competitor_opportunity_activities](opportunityclose.md#BKMK_competitor_opportunity_activities) many-to-one relationship for the [opportunityclose](opportunityclose.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1859,7 +1857,7 @@ Same as opportunityclose entity [competitor_opportunity_activities](opportunityc
 
 **Added by**: System Solution Solution
 
-Same as postfollow entity [competitor_PostFollows](postfollow.md#BKMK_competitor_PostFollows) Many-To-One relationship.
+Same as the [competitor_PostFollows](postfollow.md#BKMK_competitor_PostFollows) many-to-one relationship for the [postfollow](postfollow.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1890,43 +1888,43 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_competitorbase_createdby](systemuser.md#BKMK_lk_competitorbase_createdby) One-To-Many relationship.
+See the [lk_competitorbase_createdby](systemuser.md#BKMK_lk_competitorbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_competitor_createdonbehalfby"></a> lk_competitor_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_competitor_createdonbehalfby](systemuser.md#BKMK_lk_competitor_createdonbehalfby) One-To-Many relationship.
+See the [lk_competitor_createdonbehalfby](systemuser.md#BKMK_lk_competitor_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_competitorbase_modifiedby"></a> lk_competitorbase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_competitorbase_modifiedby](systemuser.md#BKMK_lk_competitorbase_modifiedby) One-To-Many relationship.
+See the [lk_competitorbase_modifiedby](systemuser.md#BKMK_lk_competitorbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_competitor_modifiedonbehalfby"></a> lk_competitor_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_competitor_modifiedonbehalfby](systemuser.md#BKMK_lk_competitor_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_competitor_modifiedonbehalfby](systemuser.md#BKMK_lk_competitor_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_competitors"></a> organization_competitors
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_competitors](organization.md#BKMK_organization_competitors) One-To-Many relationship.
+See the [organization_competitors](organization.md#BKMK_organization_competitors) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_processstage_competitors"></a> processstage_competitors
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_competitors](processstage.md#BKMK_processstage_competitors) One-To-Many relationship.
+See the [processstage_competitors](processstage.md#BKMK_processstage_competitors) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_transactioncurrency_competitor"></a> transactioncurrency_competitor
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_competitor](transactioncurrency.md#BKMK_transactioncurrency_competitor) One-To-Many relationship.
+See the [transactioncurrency_competitor](transactioncurrency.md#BKMK_transactioncurrency_competitor) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -1941,20 +1939,20 @@ Relationship details provided where the Competitor entity is the first entity in
 
 ### <a name="BKMK_leadcompetitors_association"></a> leadcompetitors_association
 
-See lead Entity [leadcompetitors_association](lead.md#BKMK_leadcompetitors_association) Many-To-Many Relationship.
+See the [leadcompetitors_association](lead.md#BKMK_leadcompetitors_association) many-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_opportunitycompetitors_association"></a> opportunitycompetitors_association
 
-See opportunity Entity [opportunitycompetitors_association](opportunity.md#BKMK_opportunitycompetitors_association) Many-To-Many Relationship.
+See the [opportunitycompetitors_association](opportunity.md#BKMK_opportunitycompetitors_association) many-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_competitorsalesliterature_association"></a> competitorsalesliterature_association
 
-See salesliterature Entity [competitorsalesliterature_association](salesliterature.md#BKMK_competitorsalesliterature_association) Many-To-Many Relationship.
+See the [competitorsalesliterature_association](salesliterature.md#BKMK_competitorsalesliterature_association) many-to-many relationship for the [salesliterature](salesliterature.md) entity.
 
 ### <a name="BKMK_competitorproduct_association"></a> competitorproduct_association
 
 IntersectEntityName: competitorproduct<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -1964,7 +1962,7 @@ IntersectEntityName: competitorproduct<br />
 |NavigationPropertyName|competitorproduct_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -1977,8 +1975,4 @@ IntersectEntityName: competitorproduct<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.competitor?text=competitor EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

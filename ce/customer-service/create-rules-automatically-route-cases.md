@@ -1,38 +1,36 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 02/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
 
 # Route cases using basic routing rulesets
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
 
 Use routing rules in Customer Service to route cases to the right agents at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
-Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule items to correspond to the queue, user, or team in the target environment.
+Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule item to correspond to the queue, user, or team in the target environment.
 
 ## Add routing rulesets site map for custom apps
 
-While creating custom apps, you might not have routing rulesets available in your site map. You must add the routing rulesets to the site map for your custom app to access. To add routing rulesets to the site map, follow these steps:
+In custom apps, you might not have routing rulesets in your site map. To add routing rulesets to the site map, follow these steps:
 
-1. Sign in to https://"<"org">*.dynamics.com/apps, and go to App Designer.
+1. Sign in to https://*`<org>`*.dynamics.com/apps, and go to App Designer.
 
-2. Select the **More Options** ellipsis (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
+2. Select the **More Options** ellipses (...) on your custom app, and then select **OPEN IN APP DESIGNER**. The **App Designer** page appears.
 
 3. Select the pencil icon beside **Site Map**. The **Customer Service Hub** page appears.
 
@@ -48,11 +46,11 @@ While creating custom apps, you might not have routing rulesets available in you
 
     The site map is created with the routing ruleset. Go to your custom app to locate routing rulesets in the site map.
 
-To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
+More information: [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
 ## Create a routing ruleset
 
-You can create routing rulesets in Customer Service to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
+You can create routing rulesets in Customer Service to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#unified-interface-enablement-of-case-routing-rules)
 
 ### Prerequisites
 
@@ -74,10 +72,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Routing**. The **Routing** page appears.
 
@@ -109,7 +104,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
       - **Add related entity:** Select to add a condition for a specific entity.
 
         > [!NOTE]
-        > The following limitations are applicable when defining a rule criteria in Customer Service Hub:
+        > The following limitations are applicable when you define a rule criteria in apps based on Unified Interface:
         >
         > - You can’t select a time value for the Date and Time data type. If you try to edit an existing rule item that was created in the web client, the time will be set to 00:00.
         > - Only one level of the related entity hierarchy is supported though the application lets you select nested related entities.
@@ -118,6 +113,8 @@ When creating routing rulesets, you can add multiple rule items and arrange them
         > - The "in" and "not in" operators for the Single Line of Text and Multiple Lines of Text data types and the "not-on" operator for the Date data type are not supported.
         > - For the lookups data type, only the "equal", "not equal", "null", and "not null" operators are supported.
         > - In the Add related entity list, the "One to Many" and "Many to Many" options are not supported even though the application lets you select them.
+        > - If you use the same related entity more than once in the rule conditions, though the rule will be evaluated at runtime, you can't edit the rule in the app and an error message will be displayed.
+
 
     c. In **Action** > **Route to**, select queue or user/team.
 

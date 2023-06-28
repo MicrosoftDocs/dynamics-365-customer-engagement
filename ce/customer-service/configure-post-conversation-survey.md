@@ -1,18 +1,17 @@
 ---
-title: "Configure post-conversation survey | MicrosoftDocs"
-description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 11/23/2021
-ms.topic: article
+title: Configure post-conversation survey
+description: Learn how to configure a post-conversation survey in Omnichannel for Customer Service.
+ms.date: 03/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure a post-conversation survey
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 You can configure your chat widget to show users a survey that they can respond to after they finish a conversation.
 
@@ -40,8 +39,10 @@ You can enable post-conversation surveys for the following channels:
 - WhatsApp
 - Custom channel
 - Microsoft Teams
+- Apple Messages for Business
+- Google's Business Messages
 
-For a Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
+For the Live chat channel only, you can configure the survey link or survey questions to be displayed in the chat window.
 
 ## Prerequisite
 
@@ -49,21 +50,16 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 
 ## Configure the post-conversation survey
 
-In the Omnichannel admin center or Omnichannel Administration app, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
-
-**To configure the survey**
+In the Customer Service admin center or Omnichannel admin center, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
     - In the site map, select **Workstreams** in **Customer support**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      - In the site map, select **Workstreams** in **General settings**.
 
 1. Select the channel instance, and then select **Edit**.
@@ -77,16 +73,33 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
     - **Send survey link to conversation:** At runtime, the survey link is sent to the customers.
 
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
-   - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
+    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
-1. Select the **Bot conversation survey (preview)** checkbox to share surveys for conversations that are handled by bots.
+1. Select the **Bot conversation survey** checkbox to share surveys for conversations that are handled by bots.
 
-   > [!NOTE]
-   > In preview, the bot conversation survey option is available for only the live chat channel.
+
+   By default, the **Use same survey settings as above** checkbox is selected.
+
+1. If you want to use different survey settings for the conversations handled by bots, repeat steps 4 and 5.
 
 1. Select **Save and close**.
 
-### Configure the survey in Omnichannel Administration
+## Runtime experience of post-conversation surveys
+
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer feedback for the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
+
+- Agent closes the chat conversation.
+- Customer closes the chat conversation.
+- System closes the chat conversation after a pre-defined time.
+
+For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
+
+> [!NOTE]
+> The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
+
+#### Configure the survey in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. Go to **Channels**, and select a channel for which you want to configure a post-conversation survey.
 
@@ -110,22 +123,6 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
 8. Select **Save**.
-
-    > [!div class=mx-imgBorder]
-    > ![Post-conversation survey.](media/oc-post-conversation-survey.png "Post-conversation survey")
-
-## Runtime experience of post-conversation surveys
-
-If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer's feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
-
-- Agent closes the chat conversation.
-- Customer closes the chat conversation.
-- System closes the chat conversation after a pre-defined time.
-
-For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
-
-> [!NOTE]
-> The surveys that you create and survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### See also
 

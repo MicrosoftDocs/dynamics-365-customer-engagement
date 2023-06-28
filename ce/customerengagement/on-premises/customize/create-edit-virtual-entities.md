@@ -14,7 +14,6 @@ ms.assetid: 44834893-0bf6-4a64-8f06-7583fe08330d
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 
@@ -143,7 +142,18 @@ You create fields for a Data Source in the same way as any other entity. For dat
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
 - Virtual entities don't support change tracking and cannot be synchronized by using a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] feature, such as the [!INCLUDE [cc-data-export-service](../includes/cc-data-export-service.md)].
-  
+
+- Business process flows are not supported with virtual entities. More information: [Unexpected error received when a user activates a business process flow](#unexpected-error-received-when-a-user-activates-a-business-process-flow)
+
+## Unexpected error received when a user activates a business process flow
+
+When a user attempts to activate a business process flow, they may receive an "unexpected error" message. Viewing the log file the following log entry is displayed.
+
+ErrorCode: 0x80040216
+Message: System.Web.HttpUnhandledException: Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> Microsoft.Crm.CrmException: Business process flow cannot be enabled for Virtual Entity
+
+This issue occurs because virtual entities don't support business process flows.
+
 ### See also  
 
 [OData v4 Data Provider requirements and best practices](virtual-entity-odata-provider-requirements.md)</br> 

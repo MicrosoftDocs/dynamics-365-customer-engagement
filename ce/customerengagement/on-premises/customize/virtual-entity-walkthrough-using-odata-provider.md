@@ -15,7 +15,6 @@ ms.assetid:
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 ---
@@ -38,7 +37,7 @@ Imagine that you want to access ticket information from an external data source 
 
 Because the data source used for this walkthrough has an OData v4 web service, we can use the OData v4 Data Provider included with your environment.
 
-Web service url: https://contosowebservice.azurewebsites.net/odata/ 
+Web service url: `https://contosowebservice.azurewebsites.net/odata/`
 
 > [!IMPORTANT]
 > The web service url used for this walkthrough isn't a functioning web service.
@@ -66,7 +65,7 @@ Select **NEW**, select **OData v4 Data Provider**, and then select **OK**.
 Enter or select the following information.
 
 - **Name**: Contoso Sample Data Source
-- **URL**: https://contosowebservice.azurewebsites.net/odata 
+- **URL**: `https://contosowebservice.azurewebsites.net/odata`
 - **Timeout**: 30
 - **Return Inline Count**: True
 

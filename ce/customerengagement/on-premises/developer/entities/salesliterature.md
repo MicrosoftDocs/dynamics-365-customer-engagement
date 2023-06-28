@@ -1,18 +1,16 @@
 ---
-title: "SalesLiterature Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SalesLiterature entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SalesLiterature entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SalesLiterature Entity Reference
+
+# SalesLiterature entity reference
 
 Storage of sales literature, which may contain one or more documents.
 
@@ -21,17 +19,17 @@ Storage of sales literature, which may contain one or more documents.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|POST [*org URI*]/api/data/v9.0/salesliteratures<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/salesliteratures(*salesliteratureid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/salesliteratures(*salesliteratureid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/salesliteratures<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/salesliteratures(*salesliteratureid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -149,14 +147,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### HasAttachments Options
+#### HasAttachments Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -189,14 +187,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsCustomerViewable Options
+#### IsCustomerViewable Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -228,21 +226,21 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### LiteratureTypeCode Options
+#### LiteratureTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Presentation|
-|1|Product Sheet|
-|2|Policies And Procedures|
-|3|Sales Literature|
-|4|Spreadsheets|
-|5|News|
-|6|Bulletins|
-|7|Price Sheets|
-|8|Manuals|
-|9|Company Background|
-|100001|Marketing Collateral|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Presentation||
+|1|Product Sheet||
+|2|Policies And Procedures||
+|3|Sales Literature||
+|4|Spreadsheets||
+|5|News||
+|6|Bulletins||
+|7|Price Sheets||
+|8|Manuals||
+|9|Company Background||
+|100001|Marketing Collateral||
 
 
 
@@ -310,7 +308,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -367,7 +365,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -828,7 +826,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [SalesLiterature_SyncErrors](syncerror.md#BKMK_SalesLiterature_SyncErrors) Many-To-One relationship.
+Same as the [SalesLiterature_SyncErrors](syncerror.md#BKMK_SalesLiterature_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -845,7 +843,7 @@ Same as syncerror entity [SalesLiterature_SyncErrors](syncerror.md#BKMK_SalesLit
 
 **Added by**: System Solution Solution
 
-Same as sharepointdocumentlocation entity [SalesLiterature_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_SalesLiterature_SharepointDocumentLocation) Many-To-One relationship.
+Same as the [SalesLiterature_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_SalesLiterature_SharepointDocumentLocation) many-to-one relationship for the [sharepointdocumentlocation](sharepointdocumentlocation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -862,7 +860,7 @@ Same as sharepointdocumentlocation entity [SalesLiterature_SharepointDocumentLoc
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [SalesLiterature_AsyncOperations](asyncoperation.md#BKMK_SalesLiterature_AsyncOperations) Many-To-One relationship.
+Same as the [SalesLiterature_AsyncOperations](asyncoperation.md#BKMK_SalesLiterature_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -879,7 +877,7 @@ Same as asyncoperation entity [SalesLiterature_AsyncOperations](asyncoperation.m
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [salesliterature_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesliterature_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [salesliterature_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesliterature_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -896,7 +894,7 @@ Same as mailboxtrackingfolder entity [salesliterature_MailboxTrackingFolders](ma
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [SalesLiterature_ProcessSessions](processsession.md#BKMK_SalesLiterature_ProcessSessions) Many-To-One relationship.
+Same as the [SalesLiterature_ProcessSessions](processsession.md#BKMK_SalesLiterature_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -913,7 +911,7 @@ Same as processsession entity [SalesLiterature_ProcessSessions](processsession.m
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [SalesLiterature_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesLiterature_BulkDeleteFailures) Many-To-One relationship.
+Same as the [SalesLiterature_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesLiterature_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -930,7 +928,7 @@ Same as bulkdeletefailure entity [SalesLiterature_BulkDeleteFailures](bulkdelete
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [salesliterature_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_salesliterature_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [salesliterature_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_salesliterature_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -945,7 +943,7 @@ Same as principalobjectattributeaccess entity [salesliterature_principalobjectat
 
 ### <a name="BKMK_sales_literature_items"></a> sales_literature_items
 
-Same as salesliteratureitem entity [sales_literature_items](salesliteratureitem.md#BKMK_sales_literature_items) Many-To-One relationship.
+Same as the [sales_literature_items](salesliteratureitem.md#BKMK_sales_literature_items) many-to-one relationship for the [salesliteratureitem](salesliteratureitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -978,55 +976,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_salesliteraturebase_createdby](systemuser.md#BKMK_lk_salesliteraturebase_createdby) One-To-Many relationship.
+See the [lk_salesliteraturebase_createdby](systemuser.md#BKMK_lk_salesliteraturebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_salesliterature_createdonbehalfby"></a> lk_salesliterature_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_salesliterature_createdonbehalfby](systemuser.md#BKMK_lk_salesliterature_createdonbehalfby) One-To-Many relationship.
+See the [lk_salesliterature_createdonbehalfby](systemuser.md#BKMK_lk_salesliterature_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_salesliteraturebase_modifiedby"></a> lk_salesliteraturebase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_salesliteraturebase_modifiedby](systemuser.md#BKMK_lk_salesliteraturebase_modifiedby) One-To-Many relationship.
+See the [lk_salesliteraturebase_modifiedby](systemuser.md#BKMK_lk_salesliteraturebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_salesliterature_modifiedonbehalfby"></a> lk_salesliterature_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_salesliterature_modifiedonbehalfby](systemuser.md#BKMK_lk_salesliterature_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_salesliterature_modifiedonbehalfby](systemuser.md#BKMK_lk_salesliterature_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_sales_literature"></a> organization_sales_literature
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_sales_literature](organization.md#BKMK_organization_sales_literature) One-To-Many relationship.
+See the [organization_sales_literature](organization.md#BKMK_organization_sales_literature) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_processstage_salesliteratures"></a> processstage_salesliteratures
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_salesliteratures](processstage.md#BKMK_processstage_salesliteratures) One-To-Many relationship.
+See the [processstage_salesliteratures](processstage.md#BKMK_processstage_salesliteratures) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_system_user_sales_literature"></a> system_user_sales_literature
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [system_user_sales_literature](systemuser.md#BKMK_system_user_sales_literature) One-To-Many relationship.
+See the [system_user_sales_literature](systemuser.md#BKMK_system_user_sales_literature) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_SalesLiterature"></a> TransactionCurrency_SalesLiterature
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [TransactionCurrency_SalesLiterature](transactioncurrency.md#BKMK_TransactionCurrency_SalesLiterature) One-To-Many relationship.
+See the [TransactionCurrency_SalesLiterature](transactioncurrency.md#BKMK_TransactionCurrency_SalesLiterature) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_subject_sales_literature"></a> subject_sales_literature
 
 **Added by**: System Solution Solution
 
-See subject Entity [subject_sales_literature](subject.md#BKMK_subject_sales_literature) One-To-Many relationship.
+See the [subject_sales_literature](subject.md#BKMK_subject_sales_literature) one-to-many relationship for the [subject](subject.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -1041,12 +1039,12 @@ Relationship details provided where the SalesLiterature entity is the first enti
 
 ### <a name="BKMK_productsalesliterature_association"></a> productsalesliterature_association
 
-See product Entity [productsalesliterature_association](product.md#BKMK_productsalesliterature_association) Many-To-Many Relationship.
+See the [productsalesliterature_association](product.md#BKMK_productsalesliterature_association) many-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_competitorsalesliterature_association"></a> competitorsalesliterature_association
 
 IntersectEntityName: competitorsalesliterature<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -1056,7 +1054,7 @@ IntersectEntityName: competitorsalesliterature<br />
 |NavigationPropertyName|competitorsalesliterature_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -1068,17 +1066,13 @@ IntersectEntityName: competitorsalesliterature<br />
 
 ### <a name="BKMK_campaignactivitysalesliterature_association"></a> campaignactivitysalesliterature_association
 
-See campaignactivity Entity [campaignactivitysalesliterature_association](campaignactivity.md#BKMK_campaignactivitysalesliterature_association) Many-To-Many Relationship.
+See the [campaignactivitysalesliterature_association](campaignactivity.md#BKMK_campaignactivitysalesliterature_association) many-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_campaignsalesliterature_association"></a> campaignsalesliterature_association
 
-See campaign Entity [campaignsalesliterature_association](campaign.md#BKMK_campaignsalesliterature_association) Many-To-Many Relationship.
+See the [campaignsalesliterature_association](campaign.md#BKMK_campaignsalesliterature_association) many-to-many relationship for the [campaign](campaign.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.salesliterature?text=salesliterature EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

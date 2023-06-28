@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # How are stakeholders and sales team members tracked for opportunities? 
 
@@ -15,14 +14,14 @@ When you're working on an opportunity, you need to track who the stakeholders ar
 
 The **Stakeholders** subgrid uses connections to associate contact records as stakeholders with the opportunity. More information: [Add a connection role to link rows to each other](/powerapps/user/add-connection-role).
 
-You can add a contact as a stakeholder to the opportunity by selecting **+New Connection** on the subgrid. This creates a connection record between the opportunity and the contact by using the **Stakeholder** connection role. For more information, see [Configure connection roles](/powerapps/maker/common-data-service/configure-connection-roles). You can change the connection role to any other applicable stakeholder connection role by opening the record and changing the **As this role** field on the connection record. Other out-of-the-box connection roles configured under the **Stakeholder** connection role category are Champion, Decision Maker, End User, Economic Buyer, Influencer, and Technical Buyer.
+You can add a contact as a stakeholder to the opportunity by selecting **New Connection** on the subgrid. This creates a connection record between the opportunity and the contact by using the **Stakeholder** connection role. For more information, see [Configure connection roles](/powerapps/maker/common-data-service/configure-connection-roles). You can change the connection role to any other applicable stakeholder connection role by opening the record and changing the **As this role** field on the connection record. Other out-of-the-box connection roles configured under the **Stakeholder** connection role category are Champion, Decision Maker, End User, Economic Buyer, Influencer, and Technical Buyer.
 
 > [!NOTE]
 > The **Stakeholders** subgrid on the Opportunity form only shows connections that have a connection role category of **Stakeholder**.
 
 ## Sales team subgrid
 
-You can add existing users as sales team members by using the **Sales team** subgrid. The **Sales team** subgrid also uses connections to associate users with the opportunity in different sales member roles. Similar to adding a stakeholder, you can add an existing user as a sales team member by using **+ New Connection**. You can change the connection role to any other applicable sales team connection role by opening the record and changing the **As this role** field on the connection record. Other out-of-the-box connection roles configured under the **Sales team** connection role category are Delivery Professional, Account Manager, Territory Manager, Service Professional, Industry Expert, and Technical Sales Professional.
+You can add existing users as sales team members by using the **Sales team** subgrid. The **Sales team** subgrid also uses connections to associate users with the opportunity in different sales member roles. Similar to adding a stakeholder, you can add an existing user as a sales team member by using **New Connection**. You can change the connection role to any other applicable sales team connection role by opening the record and changing the **As this role** field on the connection record. Other out-of-the-box connection roles configured under the **Sales team** connection role category are Delivery Professional, Account Manager, Territory Manager, Service Professional, Industry Expert, and Technical Sales Professional.
     
 > [!NOTE]
 >  The **Sales team** subgrid only shows connections that have a connection role category of **Sales team**.

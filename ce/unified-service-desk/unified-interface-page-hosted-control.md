@@ -3,15 +3,11 @@ title: "Unified Interface Page hosted control to load a page from a model-driven
 description: "Learn to create the Unified Interface Page hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 11/12/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ---
 
 # Unified Interface Page (hosted control)
@@ -158,7 +154,7 @@ This action is used to navigate to a model-driven app URL. The App Id for the ap
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that's sent to the server as part of an HTTP POST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered by using &quot;<a href="https://event/?" class="uri">https://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that's sent to the server as part of an HTTP POST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered by using &quot;<a href="" class="uri">`https://event/?`</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>

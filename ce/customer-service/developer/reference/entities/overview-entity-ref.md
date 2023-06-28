@@ -1,24 +1,25 @@
 ---
-title: "Overview for Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
-description: "Information on entities introduced as part of Omnichannel for Customer Service"
-ms.date: 11/01/2021
+title: "Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
+description: "This article includes reference information on entities that are added as part of Omnichannel for Customer Service."
+ms.date: 10/27/2022
 ms.topic: overview
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 
 ---
-# Overview
+# Omnichannel for Customer Service entity reference 
 
-Installing Omnichannel for Customer Service solution adds the following entities to your organization.
+When you install the Omnichannel for Customer Service solution, the following entities are added to your Dynamic 365 organization.
 
 | Entity name |
 |--------|
 |[incident](incident.md)|
 |[msdyn_actioninputparameter](msdyn_actioninputparameter.md)|
 |[msdyn_actionoutputparameter](msdyn_actionoutputparameter.md)|
+|[msdyn_agentcapacityprofileunit](msdyn_agentcapacityprofileunit.md)|
 |[msdyn_agentscript](msdyn_agentscript.md)|
 |[msdyn_agentscriptstep](msdyn_agentscriptstep.md)|
+|[msdyn_agentstatus](msdyn_agentstatus.md)
 |[msdyn_agentstatushistory](msdyn_agentstatushistory.md)
 |[msdyn_analytics](msdyn_analytics.md)|
 |[msdyn_assignmentconfiguration](msdyn_assignmentconfiguration.md)|
@@ -57,14 +58,19 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_macrosession](msdyn_macrosession.md)|
 |[msdyn_macrosolutionconfiguration](msdyn_macrosolutionconfiguration.md)|
 |[msdyn_oc_geolocationprovider](msdyn_oc_geolocationprovider.md)|
+|[msdyn_ocapplepay](msdyn_ocapplepay.md)|
 |[msdyn_ocbotchannelregistration](msdyn_ocbotchannelregistration.md)|
+|[msdyn_ocbotchannelregistrationsecret](msdyn_ocbotchannelregistrationsecret.md)|
 |[msdyn_occhannelconfiguration](msdyn_occhannelconfiguration.md)|
 |[msdyn_occhannelstateconfiguration](msdyn_occhannelstateconfiguration.md)|
 |[msdyn_occommunicationprovidersetting](msdyn_occommunicationprovidersetting.md)|
 |[msdyn_occommunicationprovidersettingentry](msdyn_occommunicationprovidersettingentry.md)|
 |[msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md)|
+|[msdyn_ocexternalcontext](msdyn_ocexternalcontext.md)|
 |[msdyn_ocfbapplication](msdyn_ocfbapplication.md)|
 |[msdyn_ocfbpage](msdyn_ocfbpage.md)|
+|[msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md)|
+|[msdyn_ocgooglebusinessmessagespartneraccount](msdyn_ocgooglebusinessmessagespartneraccount.md)|
 |[msdyn_oclanguage](msdyn_oclanguage.md)|
 |[msdyn_oclinechannelconfig](msdyn_oclinechannelconfig.md)|
 |[msdyn_ocliveworkitem](msdyn_ocliveworkitem.md)|
@@ -78,6 +84,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_ocoutboundconfiguration](msdyn_ocoutboundconfiguration.md)|
 |[msdyn_ocoutboundmessage](msdyn_ocoutboundmessage.md)|
 |[msdyn_ocphonenumber](msdyn_ocphonenumber.md)|
+|[msdyn_ocphonecallengagementctx](msdyn_ocphonecallengagementctx.md)|
 |[msdyn_ocprovisioningstate](msdyn_ocprovisioningstate.md)|
 |[msdyn_ocrecording](msdyn_ocrecording.md)|
 |[msdyn_ocrequest](msdyn_ocrequest.md)|
@@ -87,16 +94,22 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_ocsentimentdailytopictrending](msdyn_ocsentimentdailytopictrending.md)|
 |[msdyn_ocsession](msdyn_ocsession.md)|
 |[msdyn_ocsessioncharacteristic](msdyn_ocsessioncharacteristic.md)|
+|[msdyn_ocsessionparticipantevent](msdyn_ocsessionparticipantevent.md)|
 |[msdyn_ocsessionsentiment](msdyn_ocsessionsentiment.md)|
 |[msdyn_ocsimltraining](msdyn_ocsimltraining.md)|
 |[msdyn_ocsitdimportconfig](msdyn_ocsitdimportconfig.md)|
 |[msdyn_ocsitrainingdata](msdyn_ocsitrainingdata.md)|
 |[msdyn_ocskillidentmlmodel](msdyn_ocskillidentmlmodel.md)|
+|[msdyn_ocsmssettingsecret](msdyn_ocsmssettingsecret.md)|
 |[msdyn_ocsystemmessage](msdyn_ocsystemmessage.md)|
 |[msdyn_octag](msdyn_octag.md)|
 |[msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md)|
 |[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
 |[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
+|[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
+|[msdyn_ocvoice](msdyn_ocvoice.md)|
+|[msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md)|
+|[msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md)|
 |[msdyn_ocwechatchannelconfig](msdyn_ocwechatchannelconfig.md)|
 |[msdyn_ocwhatsappchannelaccount](msdyn_ocwhatsappchannelaccount.md)|
 |[msdyn_ocwhatsappchannelnumber](msdyn_ocwhatsappchannelnumber.md)|
@@ -113,6 +126,8 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_personalmessage](msdyn_personalmessage.md)|
 |[msdyn_personalsoundsetting](msdyn_personalsoundsetting.md)|
 |[msdyn_personasecurityrolemapping](msdyn_personasecurityrolemapping.md)|
+|[msdyn_preferredagent](msdyn_preferredagent.md)|
+|[msdyn_preferredagentcustomeridentity](msdyn_preferredagentcustomeridentity.md)|
 |[msdyn_presence](msdyn_presence.md)|
 |[msdyn_productivitypaneconfiguration](msdyn_productivitypaneconfiguration.md)|
 |[msdyn_provider](msdyn_provider.md)|
@@ -161,7 +176,7 @@ When you install Omnichannel for Customer Service, you will see some attributes 
 |-----|
 |`msdyn_capacity`|
 
-More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />.
+More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entity" />
 
 ### Queue entity
 
@@ -170,13 +185,13 @@ More information: <xref:"Microsoft.Dynamics.CRM.systemuser?text=SystemUser entit
 |`msdyn_isdefaultqueue`|
 |`msdyn_priority`|
 
-More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />.
+More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />
 
 ## Deprecated entities
 
-See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and are no longer supported.
+See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and no longer supported.
 
-## See also
+### See also
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]  

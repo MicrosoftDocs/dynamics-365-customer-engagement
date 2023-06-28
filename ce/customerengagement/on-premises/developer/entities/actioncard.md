@@ -1,33 +1,31 @@
 ---
-title: "ActionCard Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ActionCard entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ActionCard entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ActionCard Entity Reference
+
+# ActionCard entity reference
 
 Action card entity to show action cards.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/actioncards<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/actioncards<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/actioncards(*actioncardid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -125,7 +123,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Json formatted string for generic purpose.|
+|Description|For internal use only.|
 |DisplayName|Data Associated with Card Commandbar Actions|
 |Format|TextArea|
 |IsLocalizable|False|
@@ -141,7 +139,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Card Description|
+|Description|For internal use only.|
 |DisplayName|Card Description|
 |Format|TextArea|
 |IsLocalizable|False|
@@ -289,8 +287,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the Object Type Code.|
-|DisplayName|RecordIdObjectTypeCode|
+|Description||
+|DisplayName||
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|recordidobjecttypecode|
@@ -340,7 +338,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,appointment,contact,email,fax,incident,lead,letter,msdyn_approval,msdyn_bookingalert,msfp_surveyinvite,msfp_surveyresponse,opportunity,phonecall,recurringappointmentmaster,serviceappointment,task|
+|Targets|account,appointment,contact,email,fax,incident,lead,letter,opportunity,phonecall,recurringappointmentmaster,serviceappointment,task|
 |Type|Lookup|
 
 
@@ -386,12 +384,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Source Options
+#### Source Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|CRM|
-|2|Exchange|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|CRM||
+|2|Exchange||
 
 
 
@@ -422,13 +420,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### State Options
+#### State Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Active|
-|1|Dismissed|
-|2|Completed|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Active||
+|1|Dismissed||
+|2|Completed||
 
 
 
@@ -474,14 +472,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### Visibility Options
+#### Visibility Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Private|
-|0|Public|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Private||
+|0|Public||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 <a name="read-only-attributes"></a>
@@ -840,8 +838,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 |Property|Value|
 |--------|-----|
-|Description|Shows the record ID Name.|
-|DisplayName|RecordIdName|
+|Description||
+|DisplayName||
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -891,7 +889,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_ActionCardUserState_ActionCard"></a> ActionCardUserState_ActionCard
 
-Same as actioncarduserstate entity [ActionCardUserState_ActionCard](actioncarduserstate.md#BKMK_ActionCardUserState_ActionCard) Many-To-One relationship.
+Same as the [ActionCardUserState_ActionCard](actioncarduserstate.md#BKMK_ActionCardUserState_ActionCard) many-to-one relationship for the [actioncarduserstate](actioncarduserstate.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -913,8 +911,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [incident_actioncard](#BKMK_incident_actioncard)
 - [serviceappointment_actioncard](#BKMK_serviceappointment_actioncard)
 - [opportunity_actioncard](#BKMK_opportunity_actioncard)
-- [msdyn_bookingalert_ActionCards](#BKMK_msdyn_bookingalert_ActionCards)
-- [msdyn_approval_ActionCards](#BKMK_msdyn_approval_ActionCards)
 - [contact_actioncard](#BKMK_contact_actioncard)
 - [lk_actioncardbase_modifiedby](#BKMK_lk_actioncardbase_modifiedby)
 - [letter_actioncard](#BKMK_letter_actioncard)
@@ -936,103 +932,87 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_actioncard](lead.md#BKMK_Lead_actioncard) One-To-Many relationship.
+See the [Lead_actioncard](lead.md#BKMK_Lead_actioncard) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_incident_actioncard"></a> incident_actioncard
 
 **Added by**: Service Solution
 
-See incident Entity [incident_actioncard](incident.md#BKMK_incident_actioncard) One-To-Many relationship.
+See the [incident_actioncard](incident.md#BKMK_incident_actioncard) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_serviceappointment_actioncard"></a> serviceappointment_actioncard
 
 **Added by**: Service Solution
 
-See serviceappointment Entity [serviceappointment_actioncard](serviceappointment.md#BKMK_serviceappointment_actioncard) One-To-Many relationship.
+See the [serviceappointment_actioncard](serviceappointment.md#BKMK_serviceappointment_actioncard) one-to-many relationship for the [serviceappointment](serviceappointment.md) entity.
 
 ### <a name="BKMK_opportunity_actioncard"></a> opportunity_actioncard
 
 **Added by**: Sales Solution
 
-See opportunity Entity [opportunity_actioncard](opportunity.md#BKMK_opportunity_actioncard) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalert_ActionCards"></a> msdyn_bookingalert_ActionCards
-
-**Added by**: Active Solution Solution
-
-See msdyn_bookingalert Entity [msdyn_bookingalert_ActionCards](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_ActionCards) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_approval_ActionCards"></a> msdyn_approval_ActionCards
-
-**Added by**: Active Solution Solution
-
-See msdyn_approval Entity [msdyn_approval_ActionCards](msdyn_approval.md#BKMK_msdyn_approval_ActionCards) One-To-Many relationship.
+See the [opportunity_actioncard](opportunity.md#BKMK_opportunity_actioncard) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_contact_actioncard"></a> contact_actioncard
 
-See contact Entity [contact_actioncard](contact.md#BKMK_contact_actioncard) One-To-Many relationship.
+See the [contact_actioncard](contact.md#BKMK_contact_actioncard) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_lk_actioncardbase_modifiedby"></a> lk_actioncardbase_modifiedby
 
-See systemuser Entity [lk_actioncardbase_modifiedby](systemuser.md#BKMK_lk_actioncardbase_modifiedby) One-To-Many relationship.
+See the [lk_actioncardbase_modifiedby](systemuser.md#BKMK_lk_actioncardbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_letter_actioncard"></a> letter_actioncard
 
-See letter Entity [letter_actioncard](letter.md#BKMK_letter_actioncard) One-To-Many relationship.
+See the [letter_actioncard](letter.md#BKMK_letter_actioncard) one-to-many relationship for the [letter](letter.md) entity.
 
 ### <a name="BKMK_phonecall_actioncard"></a> phonecall_actioncard
 
-See phonecall Entity [phonecall_actioncard](phonecall.md#BKMK_phonecall_actioncard) One-To-Many relationship.
+See the [phonecall_actioncard](phonecall.md#BKMK_phonecall_actioncard) one-to-many relationship for the [phonecall](phonecall.md) entity.
 
 ### <a name="BKMK_task_actioncard"></a> task_actioncard
 
-See task Entity [task_actioncard](task.md#BKMK_task_actioncard) One-To-Many relationship.
+See the [task_actioncard](task.md#BKMK_task_actioncard) one-to-many relationship for the [task](task.md) entity.
 
 ### <a name="BKMK_email_actioncard"></a> email_actioncard
 
-See email Entity [email_actioncard](email.md#BKMK_email_actioncard) One-To-Many relationship.
+See the [email_actioncard](email.md#BKMK_email_actioncard) one-to-many relationship for the [email](email.md) entity.
 
 ### <a name="BKMK_lk_actioncardbase_createdonbehalfby"></a> lk_actioncardbase_createdonbehalfby
 
-See systemuser Entity [lk_actioncardbase_createdonbehalfby](systemuser.md#BKMK_lk_actioncardbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_actioncardbase_createdonbehalfby](systemuser.md#BKMK_lk_actioncardbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_actioncards"></a> business_unit_actioncards
 
-See businessunit Entity [business_unit_actioncards](businessunit.md#BKMK_business_unit_actioncards) One-To-Many relationship.
+See the [business_unit_actioncards](businessunit.md#BKMK_business_unit_actioncards) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_recurringappointmentmaster_actioncard"></a> recurringappointmentmaster_actioncard
 
-See recurringappointmentmaster Entity [recurringappointmentmaster_actioncard](recurringappointmentmaster.md#BKMK_recurringappointmentmaster_actioncard) One-To-Many relationship.
+See the [recurringappointmentmaster_actioncard](recurringappointmentmaster.md#BKMK_recurringappointmentmaster_actioncard) one-to-many relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 ### <a name="BKMK_lk_actioncardbase_createdby"></a> lk_actioncardbase_createdby
 
-See systemuser Entity [lk_actioncardbase_createdby](systemuser.md#BKMK_lk_actioncardbase_createdby) One-To-Many relationship.
+See the [lk_actioncardbase_createdby](systemuser.md#BKMK_lk_actioncardbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_transactioncurrency_actioncard"></a> transactioncurrency_actioncard
 
-See transactioncurrency Entity [transactioncurrency_actioncard](transactioncurrency.md#BKMK_transactioncurrency_actioncard) One-To-Many relationship.
+See the [transactioncurrency_actioncard](transactioncurrency.md#BKMK_transactioncurrency_actioncard) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_account_actioncard"></a> account_actioncard
 
-See account Entity [account_actioncard](account.md#BKMK_account_actioncard) One-To-Many relationship.
+See the [account_actioncard](account.md#BKMK_account_actioncard) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_appointment_actioncard"></a> appointment_actioncard
 
-See appointment Entity [appointment_actioncard](appointment.md#BKMK_appointment_actioncard) One-To-Many relationship.
+See the [appointment_actioncard](appointment.md#BKMK_appointment_actioncard) one-to-many relationship for the [appointment](appointment.md) entity.
 
 ### <a name="BKMK_fax_actioncard"></a> fax_actioncard
 
-See fax Entity [fax_actioncard](fax.md#BKMK_fax_actioncard) One-To-Many relationship.
+See the [fax_actioncard](fax.md#BKMK_fax_actioncard) one-to-many relationship for the [fax](fax.md) entity.
 
 ### <a name="BKMK_lk_actioncardbase_modifiedonbehalfby"></a> lk_actioncardbase_modifiedonbehalfby
 
-See systemuser Entity [lk_actioncardbase_modifiedonbehalfby](systemuser.md#BKMK_lk_actioncardbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_actioncardbase_modifiedonbehalfby](systemuser.md#BKMK_lk_actioncardbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.actioncard?text=actioncard EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,13 +1,12 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Field Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Field Service trial. Explore the app with tours and videos, and find other learning resources."
-author: FieldServiceDave
-ms.author: daclar
+author: jshotts
+ms.author: jasonshotts
 ms.date: 10/01/2021
 ms.topic: get-started
 
 ms.custom: template-trial-setup
-ms.reviewer: krbjoran
 ---
 
 # Sign up for a free Dynamics 365 Field Service trial
@@ -16,7 +15,7 @@ Dynamics 365 Field Service offers a free 30-day trial. After a quick sign-up, yo
 
 **To sign up for the trial**:
 
-1. Go to the [trial overview page](https://dynamics.microsoft.com/get-started/?appname=fieldservice) and select the **Try for free** button.
+1. Go to the [Field Service product page](https://dynamics.microsoft.com/field-service/overview/) and select the **Try for free** button.
 2. Follow the onscreen guidance to enter an email and use an existing account or create an account.
 
 The trial takes a few moments to load, then you can start using the app.
@@ -37,12 +36,12 @@ The trial comes with guided tours and videos that highlight key product features
 
 ### Configuration considerations to get the most out of the trial
 
-- We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, you must configure [Azure IOT Hub or Azure IoT Central](installation-setup-iothub.md).
+- We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, configure [Azure IoT Hub](installation-setup-iothub.md).
 
-- You must configure the Field Service customer portal in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
+- Configure the [Field Service customer portal](customer-portal-overview.md) in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
 
 ## Additional resources
 
-- [Explore training on Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=dynamics-field-service)
+- [Explore Microsoft Learn training](/training/browse/?expanded=dynamics-365&products=dynamics-field-service)
 - [Watch Field Service videos on YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
 - [Trial FAQ](trial-faq.md)

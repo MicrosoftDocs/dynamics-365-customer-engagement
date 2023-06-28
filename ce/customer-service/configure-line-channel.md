@@ -1,18 +1,15 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Configure a LINE channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
@@ -42,10 +39,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -84,20 +78,20 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - Agents can send file attachments
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](context-variables-for-bot.md#add-context-variables)
+   - [Context variables](manage-context-variables.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-### Create a LINE channel in Omnichannel Administration
+#### Create a LINE channel in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
@@ -121,18 +115,12 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
    To create a work stream, see [Create work streams](work-streams-introduction.md).
  
-   > [!div class=mx-imgBorder]
-   > ![LINE Callback information.](media/line-callback-information.png "LINE Callback URL")
-
 5. The Callback URL might take a few minutes to generate. Select **Refresh**.
 
 6. Go to the the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (make sure it's a Messaging API) > **Messaging API**. Copy the **Webhook URL** from Omnichannel for Customer Service, and then paste it into the **Webhook URL** field in the LINE developer console.
 
 7. Make sure that **Use webhook** is enabled in the LINE app dashboard.
  
-   > [!div class=mx-imgBorder]
-   > ![LINE callback information.](media/line-create-new-channel-2.png "LINE callback information")
-
    > More information about the LINE app: [Setting up your LINE app](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
 8. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
@@ -143,7 +131,7 @@ The LINE channel setup is complete.
 > [!NOTE]
 > You can only add one **LINE account** per **LINE Application** channel.
 
-## Modify settings for a specific LINE account
+#### Modify settings for a specific LINE account
 
 1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
 
@@ -166,7 +154,7 @@ The LINE channel setup is complete.
 4. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
 
-## Create routing rules
+#### Create routing rules
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 
@@ -174,8 +162,6 @@ The LINE channel setup is complete.
 
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **LINE Engagement Context**. For example, you can create a rule to transfer LINE chat from a customer named LINE to the default queue.
 
-> [!div class=mx-imgBorder]
-> ![LINE routing rule creation.](media/line-create-routing-rule.png "Create LINE routing rule")
 
 ## Customer and agent experiences
 
@@ -201,11 +187,11 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](create-workstreams.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

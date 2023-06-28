@@ -1,18 +1,13 @@
 ---
-title: "Submit and approve time-off requests in Dynamics 365 Field Service | MicrosoftDocs"
+title: Submit and approve time-off requests
 description: Learn how to submit and approve time-off requests in Dynamics 365 Field Service
-ms.date: 01/16/2020
-ms.reviewer: krbjoran
+ms.date: 08/24/2022
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
-# Submit and approve time-off requests in Dynamics 365 Field Service
+# Submit and approve time-off requests
 
 Keep the schedule board in Dynamics 365 Field Service up to date by logging time-off requests.  
   
@@ -50,7 +45,7 @@ Use the tooltips to help fill in your information, and then select **Save**.
 
 If the related resource requires an approval, a Field Service administrator or dispatcher can approve the request. 
   
-Log into Field Service as a user with the correct security role to approve time off requests (**Field Service-Administrator** or **Field Service-Dispatcher**).
+Log into Field Service as a user with the correct field security profile to approve time off requests (**Field Service-Administrator** or **Field Service-Dispatcher**).
 
 From the main menu, go to **Field Service** > **Time Off Requests**.
 
@@ -89,16 +84,11 @@ To **delete**, select and highlight the time-off and select the delete icon.
 > ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option.](./media/time-off-delete.png)
 
 > [!Note]
-> Deleting a time-off request record will not delete the time-off from the schedule board or resource's calendar.
+> - Deleting a time-off request record won't delete the time-off from the schedule board or resource's calendar.
+> - Once submitted, you can't edit a time-off from the Field Service Mobile application while it's running in offline mode. 
 
 ## Additional notes
 
-- Users with **Field Service-Administrator** or **Field Service-Resource** security roles can approve time-off requests.
+- Users with the **Field Service-Administrator** or **Field Service-Resource** field security profile can approve time-off requests.
   
-### See also  
-    
-- [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
-
-
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

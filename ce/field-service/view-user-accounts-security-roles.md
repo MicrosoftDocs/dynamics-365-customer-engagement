@@ -1,23 +1,19 @@
 ---
-title: "Set up Dynamics 365 Field Service users and security roles | MicrosoftDocs"
-description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service
+title: Set up users and security profiles
+description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service.
 ms.date: 02/18/2021
-ms.reviewer: krbjoran
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: xolee
-manager: hegate
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: jacoh
+author: jasonccohen
 ---
 
-# Set up Dynamics 365 Field Service users and security profiles
+# Set up users and security profiles
 
 In today's workforce, field service management requires several individuals with different roles to execute a work order, including administrators, dispatchers, and frontline workers. This document will provide you the steps to set up each role to successfully use Dynamics 365 Field Service through the different security profiles - security role and field security profile. 
 
 ## Dynamics 365 Field Service roles + definitions
+
 First, let's define the roles that are within of your workforce and understand how they are referred to in Dynamics 365 Field Service.  
 
 **Field Service—Resource** are designed for **frontline workers** who carry out work orders for customers on-site primarily via the Dynamics 365 Field Service mobile application. This role only has read and update abilities on work orders. For example, frontline workers can only view and update information on work orders that are assigned to them.
@@ -28,12 +24,12 @@ First, let's define the roles that are within of your workforce and understand h
 
 **Field Service—Inventory Purchase** is designed for **inventory managers** who are responsible for managing truck stocks, purchasing and reordering inventory, and processing product returns. This role has limited delete (CRUD) abilities for inventory-related entities within their business unit. For example, inventory managers process a product return for one or more lines of business. **This security role should be given to a user in addition to the Field Service-Resource or Field Service-Dispatcher security roles**.
 
-**IoT - Administrator** is designed for **IT administrators or service managers** who are responsible for device registration and device data pulls that are IoTHub operations related to Connected Field Service. This role is characterized by full delete (CRUD) abilities for IoT related entities. For example, a user with these roles may have access to all IoT alerts and devices. 
+**IoT - Administrator** is designed for **IT administrators or service managers** who are responsible for device registration and device data pulls that are IoT Hub operations related to Connected Field Service. This role is characterized by full delete (CRUD) abilities for IoT related entities. For example, a user with these roles may have access to all IoT alerts and devices. 
 
 **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information on CFS security, see the article on [setting up security roles for Connected Field Service](cfs-security-roles.md).  
 
 ## Prerequisites 
-- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide).
+- Your organization must have a Microsoft 365 or Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permission](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide&preserve-view=true).
 - You'll need either a free trial of Dynamics 365 Field Service, or have paid licenses. Learn more about [starting a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
 
 ## Step 1: Add users + assign Dynamics 365 Field Service licenses
@@ -45,7 +41,7 @@ See the topic on [Creating users and assigning security roles in the Power Platf
 
 2. In the left navigation bar, select **Users** > **Active Users**.
 
-3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+3. Select **Add a user** to add individual users or select **Add multiple users** to import multiple users via a CSV file. For more information, visit the [Microsoft 365 article on individual users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ![Screenshot of adding users in Admin Center.](./media/Admin-Center-User.PNG)
 

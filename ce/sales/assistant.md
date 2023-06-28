@@ -7,7 +7,6 @@ ms.topic: article
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,6 +15,8 @@ caps.latest.revision: 22
 # Use the assistant to guide customer communications 
 
 The assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 Some ways the assistant reminds you of upcoming activities are:
 
@@ -29,12 +30,11 @@ Some ways the assistant reminds you of upcoming activities are:
 > The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 
 ## How and where the assistant can help you  

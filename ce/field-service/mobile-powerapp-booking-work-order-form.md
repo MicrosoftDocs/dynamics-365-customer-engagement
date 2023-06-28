@@ -2,15 +2,10 @@
 title: "Edit the Booking and Work Order form (Form Component Control) | MicrosoftDocs"
 description: Learn how to edit the booking and work order form in Dynamics 365 Field Service.
 ms.date: 12/01/2021
-ms.reviewer: krbjoran
 
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: Andrea-Orimoto
+ms.author: andreo
 ---
 
 # Edit the booking and work order form
@@ -60,6 +55,11 @@ Another way you can add work order information to the booking form is to add a [
 > The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
 
+
+>[!NOTE] 
+> For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when selecting **Create New**, the controls must be encapsulated within the Work Order form.
+
+
 ## Using the Form component control
 
 The Booking form and Work Order form are combined using a PCF control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to add information from other entities (tables) into a form; in this case adding Work Order information into the Booking form.
@@ -67,9 +67,4 @@ The Booking form and Work Order form are combined using a PCF control called the
 >[!TIP] 
 > It is recommended to use the Form Component Control to add information from multiple entities (tables) into a single form. For example, you may add Account information into the Customer Asset form. Doing so improves performance by reducing form load times and it also improves usability by reducing the need for the frontline worker to navigate to different forms.
 
-### See also
-- [Customizing entity forms](/powerapps/developer/model-driven-apps/customize-entity-forms).
-
-
-
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

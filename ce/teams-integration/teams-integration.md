@@ -1,15 +1,10 @@
 ---
 title: "Overview of Microsoft Teams integration with Dynamics 365 apps"
 description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
-ms.date: 01/17/2022
+ms.date: 05/26/2023
 ms.topic: article
-
-search.app: 
-  - D365CE
-  - Powerplatform
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Overview of Microsoft Teams integration
@@ -27,6 +22,7 @@ Teams can be integrated with Dynamics 365 Sales, Dynamics 365 Customer Service, 
 >  - Microsoft Dataverse environment
 >  - Legacy web client or legacy apps
 >  - If Dynamics 365 and Microsoft Teams are in different tenants
+>  - Mobile devices
 
 
 Dynamics 365 and Teams integration is built around the following pillars:
@@ -39,8 +35,6 @@ Dynamics 365 and Teams integration is built around the following pillars:
 
 - **Integrate experiences**: Increase audience engagement during and after events across multiple channels with engaging content and recommendations.
 
-> [!div class="mx-imgBorder"] 
-> ![Features of Microsoft Teams app.](media/teams-intro.png "Features of Microsoft Teams app")
 
 ## Features of Teams integration
 
@@ -48,25 +42,33 @@ Microsoft Teams is integrated into Dynamics 365 and additional capabilities are 
 
 - **In Dynamics 365**
 
-  - **Engage in Teams chat**: You can engage in a Teams chat conversation from within Dynamics 365 while working on a record. More information: [Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md) and [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)
+  - **Engage in Teams chat**: You can engage in a Teams chat conversation from within Dynamics 365 while working on a record. More information: [Using Microsoft Teams chat in Dynamics 365](../sales/teams-integration/using-teams-chat-in-dynamics.md)
 
-  - **Collaboration hub**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
+  - **Link Dynamics 365 records to Teams channels**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](../sales/teams-integration/teams-collaboration-enhanced-experience.md)
 
   - **Embedded Teams calling**: Boost seller's productivity by making and receiving Teams calls directly in Dynamics 365. Avoid the need to switch apps, get calls automatically recorded in the relevant record's timeline and save your call notes directly where you need them.  More information: [Call customers through Microsoft Teams dialer in Dynamics 365 Sales](../sales/call-using-microsoft-teams.md)
-
+  
+  - **Integrate Dynamics 365 and Teams meetings**: Microsoft Teams meeting integration allows you to stay in the flow of work, whether you're in Dynamics 365 or Teams. In Dynamics 365, you can create and join Teams meetings directly from Dynamics 365. More information: [Integrate Dynamics 365 and Teams meetings](../sales/teams-integration/teams-meeting-integration.md)
 
 - **In Microsoft Teams**
 
-  - **Display a record or view in tab**: You can add a Dynamics 365 record or a view as tabs into a Teams channel. For example, you can add a tab for an account named Fourth Coffee. When you select the tab, the record’s detail is displayed in its form. Similarly, you can add the view My Open Opportunities as a tab. When you select the tab, you see all your open opportunities. More information: [Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration.md)
+  - **Display a record or view in tab**: You can add a Dynamics 365 record or a view as tabs into a Teams channel. For example, you can add a tab for an account named Fourth Coffee. When you select the tab, the record’s detail is displayed in its form. Similarly, you can add the view My Open Opportunities as a tab. When you select the tab, you see all your open opportunities. More information: [Basic Collaboration Experience with the Dynamics 365 app for Microsoft Teams](../sales/teams-integration/teams-collaboration.md)
 
   - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamics 365 record. Similarly, files uploaded to the linked Dynamics 365 record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
 
-  - **Personal dashboard**: You can use the Dynamics 365 app to view your personal dashboard in Teams. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
+  - **Personal dashboard**: You can use the Dynamics 365 app to set up and view your personal dashboard in Teams. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
+  
+  - **Work with Dynamics 365 records in a Teams meeting**: With Microsoft Teams meeting integration, you can:
+      - View and update Dynamics 365 records seamlessly in a Teams meeting.
+      - Capture notes and tasks seamlessly during a Teams meeting. Your notes and tasks automatically sync to Dynamics 365.
+    
+    More information: [Configure Microsoft Teams meeting integration in Dynamics 365](teams-meeting-integration.md)
+
 
 
 ## Questions and feedback
 
- If you have additional feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
+ If you have additional feedback or questions regarding this feature, contact Microsoft Support.
 
 ## Privacy notice
 

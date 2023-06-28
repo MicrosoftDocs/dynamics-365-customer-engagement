@@ -1,19 +1,17 @@
 ---
-title: "Get user details on Teams from Azure bot | MicrosoftDocs"
-description: "Get user details on Teams from Azure bot in Omnichannel for Customer Service."
+title: "Get user details on Microsoft Teams from Azure bot | MicrosoftDocs"
+description: "Get user details on Microsoft Teams from Azure bot in Omnichannel for Customer Service."
 ms.date: 06/16/2021
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.topic: article
 ---
 
-# Get user details on Teams from Azure bot
-
-
+# Get user details on Microsoft Teams from Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-If you integrate an Azure bot with the Microsoft Teams channel in Omnichannel for Customer Service, you might want to get user details. The Azure bot needs to use the Microsoft Graph SDK to fetch the user details. For information: [Get user details with Microsoft Graph](/graph/tutorials/bot-framework?tutorial-step=4).
+If you integrate an Azure bot with the Microsoft Teams channel in Omnichannel for Customer Service, you might want to get user details. The Azure bot needs to use the Microsoft Graph SDK to fetch the user details. More information: [Get user details with Microsoft Graph](/graph/tutorials/bot-framework?tutorial-step=4)
 
 ### Privacy notice
 

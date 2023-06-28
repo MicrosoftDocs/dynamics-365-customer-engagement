@@ -6,7 +6,6 @@ ms.service: dynamics-365-sales
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.reviewer: 
 ms.custom: 
   - "dyn365-versium"

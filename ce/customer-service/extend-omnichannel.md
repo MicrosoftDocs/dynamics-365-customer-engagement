@@ -5,17 +5,14 @@ ms.date: 11/24/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.reviewer: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Extend Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
 
 Dynamics 365 supports several scenarios to extend Omnichannel for Customer Service:
 

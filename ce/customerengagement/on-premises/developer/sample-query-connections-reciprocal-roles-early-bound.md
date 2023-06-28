@@ -17,13 +17,12 @@ ms.assetid: 166e852a-b6d6-4b80-b4b3-6b5934829a4b
 caps.latest.revision: 17
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Query connections by reciprocal roles (early bound)
 
-This sample shows how to create matching roles and then find a matching role for a particular role. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryByReciprocalRole).
+This sample shows how to create matching roles and then find a matching role for a particular role. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueryByReciprocalRole).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

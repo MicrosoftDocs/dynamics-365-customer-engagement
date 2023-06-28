@@ -1,34 +1,32 @@
 ---
-title: "AsyncOperation Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the AsyncOperation entity."
-ms.date: 04/02/2019
-
+title: "System Job (AsyncOperation)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the System Job (AsyncOperation)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# AsyncOperation Entity Reference
+
+# System Job (AsyncOperation)  entity reference
 
 Process whose execution can proceed independently or in the background.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/asyncoperations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/asyncoperations(*asyncoperationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/asyncoperations(*asyncoperationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/asyncoperations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/asyncoperations(*asyncoperationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -259,76 +257,71 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### OperationType Options
+#### OperationType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|System Event|
-|2|Bulk Email|
-|3|Import File Parse|
-|4|Transform Parse Data|
-|5|Import|
-|6|Activity Propagation|
-|7|Duplicate Detection Rule Publish|
-|8|Bulk Duplicate Detection|
-|9|SQM Data Collection|
-|10|Workflow|
-|11|Quick Campaign|
-|12|Matchcode Update|
-|13|Bulk Delete|
-|14|Deletion Service|
-|15|Index Management|
-|16|Collect Organization Statistics|
-|17|Import Subprocess|
-|18|Calculate Organization Storage Size|
-|19|Collect Organization Database Statistics|
-|20|Collection Organization Size Statistics|
-|21|Database Tuning|
-|22|Calculate Organization Maximum Storage Size|
-|23|Bulk Delete Subprocess|
-|24|Update Statistic Intervals|
-|25|Organization Full Text Catalog Index|
-|26|Database log backup|
-|27|Update Contract States|
-|28|DBCC SHRINKDATABASE maintenance job|
-|29|DBCC SHRINKFILE maintenance job|
-|30|Reindex all indices maintenance job|
-|31|Storage Limit Notification|
-|32|Cleanup inactive workflow assemblies|
-|35|Recurring Series Expansion|
-|38|Import Sample Data|
-|40|Goal Roll Up|
-|41|Audit Partition Creation|
-|42|Check For Language Pack Updates|
-|43|Provision Language Pack|
-|44|Update Organization Database|
-|45|Update Solution|
-|46|Regenerate Entity Row Count Snapshot Data|
-|47|Regenerate Read Share Snapshot Data|
-|49|Post to Yammer|
-|50|Outgoing Activity|
-|51|Incoming Email Processing|
-|52|Mailbox Test Access|
-|53|Encryption Health Check|
-|54|Execute Async Request|
-|56|Update Entitlement States|
-|57|Calculate Rollup Field|
-|58|Mass Calculate Rollup Field|
-|59|Import Translation|
-|62|Convert Date And Time Behavior|
-|63|EntityKey Index Creation|
-|65|Update Knowledge Article States|
-|68|Resource Booking Sync|
-|69|Relationship Assistant Cards|
-|71|Cleanup Solution Components|
-|72|App Module Metadata Operation|
-|73|ALM Anomaly Detection Operation|
-|75|Flow Notification|
-|76|Ribbon Client Metadata Operation|
-|79|CallbackRegistration Expander Operation|
-|90|CascadeAssign|
-|91|CascadeDelete|
-|92|Event Expander Operation|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|System Event||
+|2|Bulk Email||
+|3|Import File Parse||
+|4|Transform Parse Data||
+|5|Import||
+|6|Activity Propagation||
+|7|Duplicate Detection Rule Publish||
+|8|Bulk Duplicate Detection||
+|9|SQM Data Collection||
+|10|Workflow||
+|11|Quick Campaign||
+|12|Matchcode Update||
+|13|Bulk Delete||
+|14|Deletion Service||
+|15|Index Management||
+|16|Collect Organization Statistics||
+|17|Import Subprocess||
+|18|Calculate Organization Storage Size||
+|19|Collect Organization Database Statistics||
+|20|Collection Organization Size Statistics||
+|21|Database Tuning||
+|22|Calculate Organization Maximum Storage Size||
+|23|Bulk Delete Subprocess||
+|24|Update Statistic Intervals||
+|25|Organization Full Text Catalog Index||
+|26|Database log backup||
+|27|Update Contract States||
+|28|DBCC SHRINKDATABASE maintenance job||
+|29|DBCC SHRINKFILE maintenance job||
+|30|Reindex all indices maintenance job||
+|31|Storage Limit Notification||
+|32|Cleanup inactive workflow assemblies||
+|35|Recurring Series Expansion||
+|38|Import Sample Data||
+|40|Goal Roll Up||
+|41|Audit Partition Creation||
+|42|Check For Language Pack Updates||
+|43|Provision Language Pack||
+|44|Update Organization Database||
+|45|Update Solution||
+|46|Regenerate Entity Row Count Snapshot Data||
+|47|Regenerate Read Share Snapshot Data||
+|49|Post to Yammer||
+|50|Outgoing Activity||
+|51|Incoming Email Processing||
+|52|Mailbox Test Access||
+|53|Encryption Health Check||
+|54|Execute Async Request||
+|56|Update Entitlement States||
+|57|Calculate Rollup Field||
+|58|Mass Calculate Rollup Field||
+|59|Import Translation||
+|62|Convert Date And Time Behavior||
+|63|EntityKey Index Creation||
+|65|Update Knowledge Article States||
+|68|Resource Booking Sync||
+|69|Relationship Assistant Cards||
+|71|Cleanup Solution Components||
+|72|App Module Metadata Operation||
+|73|ALM Anomaly Detection Operation||
+|75|Flow Notification||
 
 
 
@@ -491,7 +484,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForUpdate|False|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,accountleads,activitymimeattachment,activitypointer,adminsettingsentity,annotation,annualfiscalcalendar,appointment,attributemap,bookableresource,bookableresourcebooking,bookableresourcebookingexchangesyncidmapping,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,bulkoperation,bulkoperationlog,businessunit,businessunitnewsarticle,calendar,campaign,campaignactivity,campaignactivityitem,campaignitem,campaignresponse,channelaccessprofile,channelaccessprofilerule,characteristic,childincidentcount,commitment,competitor,competitoraddress,competitorproduct,competitorsalesliterature,connection,connectionrole,constraintbasedgroup,contact,contactinvoices,contactleads,contactorders,contactquotes,contract,contractdetail,contracttemplate,convertrule,customeraddress,customeropportunityrole,customerrelationship,discount,discounttype,displaystring,dynamicproperty,dynamicpropertyassociation,dynamicpropertyinstance,dynamicpropertyoptionsetitem,email,emailserverprofile,entitlement,entitlementchannel,entitlementcontacts,entitlemententityallocationtypemapping,entitlementproducts,entitlementtemplate,entitlementtemplatechannel,entitlementtemplateproducts,entitymap,equipment,externalparty,externalpartyitem,fax,fixedmonthlyfiscalcalendar,goal,goalrollupquery,holidaywrapper,import,importdata,importfile,importlog,importmap,incident,incidentknowledgebaserecord,incidentresolution,interactionforemail,invoice,invoicedetail,isvconfig,kbarticle,kbarticlecomment,kbarticletemplate,knowledgearticle,knowledgearticleincident,knowledgebaserecord,lead,leadaddress,leadcompetitors,leadproduct,leadtoopportunitysalesprocess,letter,list,listmember,mailbox,mailmergetemplate,metric,monthlyfiscalcalendar,msdyn_3dmodel,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_analysiscomponent,msdyn_analysisjob,msdyn_analysisresult,msdyn_analysisresultdetail,msdyn_approval,msdyn_batchjob,msdyn_bookableresourceassociation,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingchange,msdyn_bookingjournal,msdyn_bookingrule,msdyn_bookingsetupmetadata,msdyn_bookingtimestamp,msdyn_bpf_2c5fe86acc8b414b8322ae571000c799,msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b,msdyn_bpf_665e73aa18c247d886bfc50499c73b82,msdyn_bpf_989e9b1857e24af18787d5143b67523b,msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39,msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d,msdyn_businessclosure,msdyn_callablecontext,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_configuration,msdyn_connector,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_customerassetcategory,msdyn_databaseversion,msdyn_dataexport,msdyn_delegation,msdyn_dimension,msdyn_dimensionfieldname,msdyn_entitlementapplication,msdyn_entityconfiguration,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_expensereceipt,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_fieldservicesetting,msdyn_fieldserviceslaconfiguration,msdyn_fieldservicesystemjob,msdyn_findworkevent,msdyn_forecastdefinition,msdyn_forecastinstance,msdyn_forecastrecurrence,msdyn_geofence,msdyn_geofenceevent,msdyn_geofencingsettings,msdyn_icebreakersconfig,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_incidenttypessetup,msdyn_incidenttype_requirementgroup,msdyn_integrationjob,msdyn_integrationjobdetail,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdevicecommanddefinition,msdyn_iotdevicedatahistory,msdyn_iotdeviceproperty,msdyn_iotdeviceregistrationhistory,msdyn_iotpropertydefinition,msdyn_iotsettings,msdyn_journal,msdyn_journalline,msdyn_mlresultcache,msdyn_notesanalysisconfig,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookactivity,msdyn_playbookactivityattribute,msdyn_playbookcategory,msdyn_playbookinstance,msdyn_playbooktemplate,msdyn_postalbum,msdyn_postalcode,msdyn_postconfig,msdyn_postruleconfig,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_relationshipinsightsunifiedconfig,msdyn_requirementcharacteristic,msdyn_requirementgroup,msdyn_requirementorganizationunit,msdyn_requirementrelationship,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignment,msdyn_resourceassignmentdetail,msdyn_resourcecategorymarkuppricelevel,msdyn_resourcecategorypricelevel,msdyn_resourcepaytype,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_schedulingparameter,msdyn_servicetasktype,msdyn_shipvia,msdyn_siconfig,msdyn_solutionhealthrule,msdyn_solutionhealthruleargument,msdyn_solutionhealthruleset,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_teamscollaboration,msdyn_timeentry,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_uniquenumber,msdyn_untrackedappointment,msdyn_upgraderun,msdyn_upgradestep,msdyn_upgradeversion,msdyn_userworkhistory,msdyn_wallsavedquery,msdyn_wallsavedqueryusersettings,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,msfp_emailtemplate,msfp_question,msfp_questionresponse,msfp_survey,msfp_surveyinvite,msfp_surveyresponse,msfp_unsubscribedrecipient,opportunity,opportunityclose,opportunitycompetitors,opportunityproduct,opportunitysalesprocess,orderclose,organization,phonecall,phonetocaseprocess,position,post,postfollow,pricelevel,privilege,product,productassociation,productpricelevel,productsalesliterature,productsubstitute,quarterlyfiscalcalendar,queue,queueitem,quote,quoteclose,quotedetail,ratingmodel,ratingvalue,recurringappointmentmaster,relationshiprole,relationshiprolemap,report,resource,resourcegroup,resourcegroupexpansion,resourcespec,role,rollupfield,routingrule,routingruleitem,salesliterature,salesliteratureitem,salesorder,salesorderdetail,salesprocessinstance,savedquery,semiannualfiscalcalendar,service,serviceappointment,servicecontractcontacts,sharepointdocumentlocation,sharepointsite,similarityrule,site,sla,socialactivity,socialprofile,subject,systemform,systemuser,task,team,template,territory,theme,topic,topichistory,topicmodel,topicmodelconfiguration,topicmodelexecutionhistory,transactioncurrency,uom,uomschedule,userform,usermapping,userquery|
+|Targets|account,accountleads,activitymimeattachment,activitypointer,annotation,annualfiscalcalendar,appointment,attributemap,bookableresource,bookableresourcebooking,bookableresourcebookingexchangesyncidmapping,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,bulkoperation,bulkoperationlog,businessunit,businessunitnewsarticle,calendar,campaign,campaignactivity,campaignactivityitem,campaignitem,campaignresponse,channelaccessprofile,channelaccessprofilerule,characteristic,childincidentcount,commitment,competitor,competitoraddress,competitorproduct,competitorsalesliterature,connection,connectionrole,constraintbasedgroup,contact,contactinvoices,contactleads,contactorders,contactquotes,contract,contractdetail,contracttemplate,convertrule,customeraddress,customeropportunityrole,customerrelationship,discount,discounttype,displaystring,dynamicproperty,dynamicpropertyassociation,dynamicpropertyinstance,dynamicpropertyoptionsetitem,email,emailserverprofile,entitlement,entitlementchannel,entitlementcontacts,entitlementproducts,entitlementtemplate,entitlementtemplatechannel,entitlementtemplateproducts,entitymap,equipment,externalparty,externalpartyitem,fax,fixedmonthlyfiscalcalendar,goal,goalrollupquery,import,importdata,importfile,importlog,importmap,incident,incidentknowledgebaserecord,incidentresolution,interactionforemail,invoice,invoicedetail,isvconfig,kbarticle,kbarticlecomment,kbarticletemplate,knowledgearticle,knowledgearticleincident,knowledgebaserecord,lead,leadaddress,leadcompetitors,leadproduct,leadtoopportunitysalesprocess,letter,list,listmember,mailbox,mailmergetemplate,metric,monthlyfiscalcalendar,msdyn_postalbum,msdyn_postconfig,msdyn_postruleconfig,msdyn_relationshipinsightsunifiedconfig,msdyn_siconfig,msdyn_wallsavedquery,msdyn_wallsavedqueryusersettings,opportunity,opportunityclose,opportunitycompetitors,opportunityproduct,opportunitysalesprocess,orderclose,organization,phonecall,phonetocaseprocess,position,post,postfollow,pricelevel,privilege,product,productassociation,productpricelevel,productsalesliterature,productsubstitute,quarterlyfiscalcalendar,queue,queueitem,quote,quoteclose,quotedetail,ratingmodel,ratingvalue,recurringappointmentmaster,relationshiprole,relationshiprolemap,report,resource,resourcegroup,resourcegroupexpansion,resourcespec,role,rollupfield,routingrule,routingruleitem,salesliterature,salesliteratureitem,salesorder,salesorderdetail,salesprocessinstance,savedquery,semiannualfiscalcalendar,service,serviceappointment,servicecontractcontacts,sharepointdocumentlocation,sharepointsite,similarityrule,site,sla,socialactivity,socialprofile,subject,systemform,systemuser,task,team,template,territory,theme,topic,topichistory,topicmodel,topicmodelconfiguration,topicmodelexecutionhistory,transactioncurrency,uom,uomschedule,userform,usermapping,userquery|
 |Type|Lookup|
 
 
@@ -561,7 +554,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Root execution context of the job that triggered async job.|
+|Description|Root execution context of the job that trigerred async job.|
 |DisplayName|RootExecutionContext|
 |Format|TextArea|
 |IsLocalizable|False|
@@ -586,7 +579,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -610,7 +603,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -879,14 +872,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWaitingForEvent Options
+#### IsWaitingForEvent Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1177,14 +1170,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### WorkflowIsBlocked Options
+#### WorkflowIsBlocked Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1236,7 +1229,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_AsyncOperation_MailboxTrackingFolder"></a> AsyncOperation_MailboxTrackingFolder
 
-Same as mailboxtrackingfolder entity [AsyncOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_AsyncOperation_MailboxTrackingFolder) Many-To-One relationship.
+Same as the [AsyncOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_AsyncOperation_MailboxTrackingFolder) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1251,7 +1244,7 @@ Same as mailboxtrackingfolder entity [AsyncOperation_MailboxTrackingFolder](mail
 
 ### <a name="BKMK_AsyncOperation_BulkDeleteOperation"></a> AsyncOperation_BulkDeleteOperation
 
-Same as bulkdeleteoperation entity [AsyncOperation_BulkDeleteOperation](bulkdeleteoperation.md#BKMK_AsyncOperation_BulkDeleteOperation) Many-To-One relationship.
+Same as the [AsyncOperation_BulkDeleteOperation](bulkdeleteoperation.md#BKMK_AsyncOperation_BulkDeleteOperation) many-to-one relationship for the [bulkdeleteoperation](bulkdeleteoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1266,7 +1259,7 @@ Same as bulkdeleteoperation entity [AsyncOperation_BulkDeleteOperation](bulkdele
 
 ### <a name="BKMK_lk_workflowlog_asyncoperation_childworkflow"></a> lk_workflowlog_asyncoperation_childworkflow
 
-Same as workflowlog entity [lk_workflowlog_asyncoperation_childworkflow](workflowlog.md#BKMK_lk_workflowlog_asyncoperation_childworkflow) Many-To-One relationship.
+Same as the [lk_workflowlog_asyncoperation_childworkflow](workflowlog.md#BKMK_lk_workflowlog_asyncoperation_childworkflow) many-to-one relationship for the [workflowlog](workflowlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1281,7 +1274,7 @@ Same as workflowlog entity [lk_workflowlog_asyncoperation_childworkflow](workflo
 
 ### <a name="BKMK_AsyncOperation_Emails"></a> AsyncOperation_Emails
 
-Same as email entity [AsyncOperation_Emails](email.md#BKMK_AsyncOperation_Emails) Many-To-One relationship.
+Same as the [AsyncOperation_Emails](email.md#BKMK_AsyncOperation_Emails) many-to-one relationship for the [email](email.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1296,7 +1289,7 @@ Same as email entity [AsyncOperation_Emails](email.md#BKMK_AsyncOperation_Emails
 
 ### <a name="BKMK_AsyncOperation_DuplicateBaseRecord"></a> AsyncOperation_DuplicateBaseRecord
 
-Same as duplicaterecord entity [AsyncOperation_DuplicateBaseRecord](duplicaterecord.md#BKMK_AsyncOperation_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [AsyncOperation_DuplicateBaseRecord](duplicaterecord.md#BKMK_AsyncOperation_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1311,7 +1304,7 @@ Same as duplicaterecord entity [AsyncOperation_DuplicateBaseRecord](duplicaterec
 
 ### <a name="BKMK_lk_workflowlog_asyncoperations"></a> lk_workflowlog_asyncoperations
 
-Same as workflowlog entity [lk_workflowlog_asyncoperations](workflowlog.md#BKMK_lk_workflowlog_asyncoperations) Many-To-One relationship.
+Same as the [lk_workflowlog_asyncoperations](workflowlog.md#BKMK_lk_workflowlog_asyncoperations) many-to-one relationship for the [workflowlog](workflowlog.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1326,7 +1319,7 @@ Same as workflowlog entity [lk_workflowlog_asyncoperations](workflowlog.md#BKMK_
 
 ### <a name="BKMK_AsyncOperation_SocialActivities"></a> AsyncOperation_SocialActivities
 
-Same as socialactivity entity [AsyncOperation_SocialActivities](socialactivity.md#BKMK_AsyncOperation_SocialActivities) Many-To-One relationship.
+Same as the [AsyncOperation_SocialActivities](socialactivity.md#BKMK_AsyncOperation_SocialActivities) many-to-one relationship for the [socialactivity](socialactivity.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1344,6 +1337,12 @@ Same as socialactivity entity [AsyncOperation_SocialActivities](socialactivity.m
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
+- [theme_AsyncOperations](#BKMK_theme_AsyncOperations)
+- [usermapping_AsyncOperations](#BKMK_usermapping_AsyncOperations)
+- [interactionforemail_AsyncOperations](#BKMK_interactionforemail_AsyncOperations)
+- [knowledgearticle_AsyncOperations](#BKMK_knowledgearticle_AsyncOperations)
+- [post_AsyncOperations](#BKMK_post_AsyncOperations)
+- [position_AsyncOperations](#BKMK_position_AsyncOperations)
 - [Territory_AsyncOperations](#BKMK_Territory_AsyncOperations)
 - [leadaddress_AsyncOperations](#BKMK_leadaddress_AsyncOperations)
 - [Lead_AsyncOperations](#BKMK_Lead_AsyncOperations)
@@ -1375,10 +1374,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [CampaignActivity_AsyncOperations](#BKMK_CampaignActivity_AsyncOperations)
 - [CampaignResponse_AsyncOperations](#BKMK_CampaignResponse_AsyncOperations)
 - [List_AsyncOperations](#BKMK_List_AsyncOperations)
-- [msdyn_databaseversion_AsyncOperations](#BKMK_msdyn_databaseversion_AsyncOperations)
-- [msdyn_upgraderun_AsyncOperations](#BKMK_msdyn_upgraderun_AsyncOperations)
-- [msdyn_upgradestep_AsyncOperations](#BKMK_msdyn_upgradestep_AsyncOperations)
-- [msdyn_upgradeversion_AsyncOperations](#BKMK_msdyn_upgradeversion_AsyncOperations)
 - [ConstraintBasedGroup_AsyncOperations](#BKMK_ConstraintBasedGroup_AsyncOperations)
 - [Contract_AsyncOperations](#BKMK_Contract_AsyncOperations)
 - [ContractDetail_AsyncOperations](#BKMK_ContractDetail_AsyncOperations)
@@ -1398,13 +1393,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Service_AsyncOperations](#BKMK_Service_AsyncOperations)
 - [ServiceAppointment_AsyncOperations](#BKMK_ServiceAppointment_AsyncOperations)
 - [Site_AsyncOperations](#BKMK_Site_AsyncOperations)
-- [entitlemententityallocationtypemapping_AsyncOperations](#BKMK_entitlemententityallocationtypemapping_AsyncOperations)
-- [msdyn_callablecontext_AsyncOperations](#BKMK_msdyn_callablecontext_AsyncOperations)
-- [msdyn_playbookactivity_AsyncOperations](#BKMK_msdyn_playbookactivity_AsyncOperations)
-- [msdyn_playbookactivityattribute_AsyncOperations](#BKMK_msdyn_playbookactivityattribute_AsyncOperations)
-- [msdyn_playbookcategory_AsyncOperations](#BKMK_msdyn_playbookcategory_AsyncOperations)
-- [msdyn_playbookinstance_AsyncOperations](#BKMK_msdyn_playbookinstance_AsyncOperations)
-- [msdyn_playbooktemplate_AsyncOperations](#BKMK_msdyn_playbooktemplate_AsyncOperations)
 - [Discount_AsyncOperations](#BKMK_Discount_AsyncOperations)
 - [DiscountType_AsyncOperations](#BKMK_DiscountType_AsyncOperations)
 - [Invoice_AsyncOperations](#BKMK_Invoice_AsyncOperations)
@@ -1423,231 +1411,13 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [SalesOrder_AsyncOperations](#BKMK_SalesOrder_AsyncOperations)
 - [SalesOrderDetail_AsyncOperations](#BKMK_SalesOrderDetail_AsyncOperations)
 - [Competitor_AsyncOperations](#BKMK_Competitor_AsyncOperations)
-- [adminsettingsentity_AsyncOperations](#BKMK_adminsettingsentity_AsyncOperations)
-- [msdyn_forecastdefinition_AsyncOperations](#BKMK_msdyn_forecastdefinition_AsyncOperations)
-- [msdyn_forecastinstance_AsyncOperations](#BKMK_msdyn_forecastinstance_AsyncOperations)
-- [msdyn_forecastrecurrence_AsyncOperations](#BKMK_msdyn_forecastrecurrence_AsyncOperations)
 - [msdyn_relationshipinsightsunifiedconfig_AsyncOperations](#BKMK_msdyn_relationshipinsightsunifiedconfig_AsyncOperations)
 - [msdyn_siconfig_AsyncOperations](#BKMK_msdyn_siconfig_AsyncOperations)
-- [msdyn_untrackedappointment_AsyncOperations](#BKMK_msdyn_untrackedappointment_AsyncOperations)
-- [msdyn_notesanalysisconfig_AsyncOperations](#BKMK_msdyn_notesanalysisconfig_AsyncOperations)
-- [msdyn_icebreakersconfig_AsyncOperations](#BKMK_msdyn_icebreakersconfig_AsyncOperations)
 - [msdyn_postalbum_AsyncOperations](#BKMK_msdyn_postalbum_AsyncOperations)
 - [msdyn_postconfig_AsyncOperations](#BKMK_msdyn_postconfig_AsyncOperations)
 - [msdyn_postruleconfig_AsyncOperations](#BKMK_msdyn_postruleconfig_AsyncOperations)
 - [msdyn_wallsavedquery_AsyncOperations](#BKMK_msdyn_wallsavedquery_AsyncOperations)
 - [msdyn_wallsavedqueryusersettings_AsyncOperations](#BKMK_msdyn_wallsavedqueryusersettings_AsyncOperations)
-- [msdyn_teamscollaboration_AsyncOperations](#BKMK_msdyn_teamscollaboration_AsyncOperations)
-- [msdyn_actual_AsyncOperations](#BKMK_msdyn_actual_AsyncOperations)
-- [msdyn_bookableresourceassociation_AsyncOperations](#BKMK_msdyn_bookableresourceassociation_AsyncOperations)
-- [msdyn_bookingalert_AsyncOperations](#BKMK_msdyn_bookingalert_AsyncOperations)
-- [msdyn_bookingalertstatus_AsyncOperations](#BKMK_msdyn_bookingalertstatus_AsyncOperations)
-- [msdyn_bookingchange_AsyncOperations](#BKMK_msdyn_bookingchange_AsyncOperations)
-- [msdyn_bookingrule_AsyncOperations](#BKMK_msdyn_bookingrule_AsyncOperations)
-- [msdyn_bookingsetupmetadata_AsyncOperations](#BKMK_msdyn_bookingsetupmetadata_AsyncOperations)
-- [msdyn_businessclosure_AsyncOperations](#BKMK_msdyn_businessclosure_AsyncOperations)
-- [msdyn_clientextension_AsyncOperations](#BKMK_msdyn_clientextension_AsyncOperations)
-- [msdyn_configuration_AsyncOperations](#BKMK_msdyn_configuration_AsyncOperations)
-- [msdyn_organizationalunit_AsyncOperations](#BKMK_msdyn_organizationalunit_AsyncOperations)
-- [msdyn_priority_AsyncOperations](#BKMK_msdyn_priority_AsyncOperations)
-- [msdyn_requirementcharacteristic_AsyncOperations](#BKMK_msdyn_requirementcharacteristic_AsyncOperations)
-- [msdyn_requirementgroup_AsyncOperations](#BKMK_msdyn_requirementgroup_AsyncOperations)
-- [msdyn_requirementorganizationunit_AsyncOperations](#BKMK_msdyn_requirementorganizationunit_AsyncOperations)
-- [msdyn_requirementrelationship_AsyncOperations](#BKMK_msdyn_requirementrelationship_AsyncOperations)
-- [msdyn_requirementresourcecategory_AsyncOperations](#BKMK_msdyn_requirementresourcecategory_AsyncOperations)
-- [msdyn_requirementresourcepreference_AsyncOperations](#BKMK_msdyn_requirementresourcepreference_AsyncOperations)
-- [msdyn_requirementstatus_AsyncOperations](#BKMK_msdyn_requirementstatus_AsyncOperations)
-- [msdyn_resourcerequirement_AsyncOperations](#BKMK_msdyn_resourcerequirement_AsyncOperations)
-- [msdyn_resourcerequirementdetail_AsyncOperations](#BKMK_msdyn_resourcerequirementdetail_AsyncOperations)
-- [msdyn_resourceterritory_AsyncOperations](#BKMK_msdyn_resourceterritory_AsyncOperations)
-- [msdyn_scheduleboardsetting_AsyncOperations](#BKMK_msdyn_scheduleboardsetting_AsyncOperations)
-- [msdyn_schedulingparameter_AsyncOperations](#BKMK_msdyn_schedulingparameter_AsyncOperations)
-- [msdyn_systemuserschedulersetting_AsyncOperations](#BKMK_msdyn_systemuserschedulersetting_AsyncOperations)
-- [msdyn_timegroup_AsyncOperations](#BKMK_msdyn_timegroup_AsyncOperations)
-- [msdyn_timegroupdetail_AsyncOperations](#BKMK_msdyn_timegroupdetail_AsyncOperations)
-- [msdyn_transactionorigin_AsyncOperations](#BKMK_msdyn_transactionorigin_AsyncOperations)
-- [msdyn_workhourtemplate_AsyncOperations](#BKMK_msdyn_workhourtemplate_AsyncOperations)
-- [msdyn_accountpricelist_AsyncOperations](#BKMK_msdyn_accountpricelist_AsyncOperations)
-- [msdyn_approval_AsyncOperations](#BKMK_msdyn_approval_AsyncOperations)
-- [msdyn_batchjob_AsyncOperations](#BKMK_msdyn_batchjob_AsyncOperations)
-- [msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations](#BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations)
-- [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations](#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations)
-- [msdyn_characteristicreqforteammember_AsyncOperations](#BKMK_msdyn_characteristicreqforteammember_AsyncOperations)
-- [msdyn_contactpricelist_AsyncOperations](#BKMK_msdyn_contactpricelist_AsyncOperations)
-- [msdyn_contractlineinvoiceschedule_AsyncOperations](#BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations)
-- [msdyn_contractlinescheduleofvalue_AsyncOperations](#BKMK_msdyn_contractlinescheduleofvalue_AsyncOperations)
-- [msdyn_dataexport_AsyncOperations](#BKMK_msdyn_dataexport_AsyncOperations)
-- [msdyn_delegation_AsyncOperations](#BKMK_msdyn_delegation_AsyncOperations)
-- [msdyn_dimension_AsyncOperations](#BKMK_msdyn_dimension_AsyncOperations)
-- [msdyn_dimensionfieldname_AsyncOperations](#BKMK_msdyn_dimensionfieldname_AsyncOperations)
-- [msdyn_estimate_AsyncOperations](#BKMK_msdyn_estimate_AsyncOperations)
-- [msdyn_estimateline_AsyncOperations](#BKMK_msdyn_estimateline_AsyncOperations)
-- [msdyn_expense_AsyncOperations](#BKMK_msdyn_expense_AsyncOperations)
-- [msdyn_expensecategory_AsyncOperations](#BKMK_msdyn_expensecategory_AsyncOperations)
-- [msdyn_expensereceipt_AsyncOperations](#BKMK_msdyn_expensereceipt_AsyncOperations)
-- [msdyn_fact_AsyncOperations](#BKMK_msdyn_fact_AsyncOperations)
-- [msdyn_fieldcomputation_AsyncOperations](#BKMK_msdyn_fieldcomputation_AsyncOperations)
-- [msdyn_findworkevent_AsyncOperations](#BKMK_msdyn_findworkevent_AsyncOperations)
-- [msdyn_integrationjob_AsyncOperations](#BKMK_msdyn_integrationjob_AsyncOperations)
-- [msdyn_integrationjobdetail_AsyncOperations](#BKMK_msdyn_integrationjobdetail_AsyncOperations)
-- [msdyn_invoicefrequency_AsyncOperations](#BKMK_msdyn_invoicefrequency_AsyncOperations)
-- [msdyn_invoicefrequencydetail_AsyncOperations](#BKMK_msdyn_invoicefrequencydetail_AsyncOperations)
-- [msdyn_invoicelinetransaction_AsyncOperations](#BKMK_msdyn_invoicelinetransaction_AsyncOperations)
-- [msdyn_journal_AsyncOperations](#BKMK_msdyn_journal_AsyncOperations)
-- [msdyn_journalline_AsyncOperations](#BKMK_msdyn_journalline_AsyncOperations)
-- [msdyn_mlresultcache_AsyncOperations](#BKMK_msdyn_mlresultcache_AsyncOperations)
-- [msdyn_opportunitylineresourcecategory_AsyncOperations](#BKMK_msdyn_opportunitylineresourcecategory_AsyncOperations)
-- [msdyn_opportunitylinetransaction_AsyncOperations](#BKMK_msdyn_opportunitylinetransaction_AsyncOperations)
-- [msdyn_opportunitylinetransactioncategory_AsyncOperations](#BKMK_msdyn_opportunitylinetransactioncategory_AsyncOperations)
-- [msdyn_opportunitylinetransactionclassificatio_AsyncOperations](#BKMK_msdyn_opportunitylinetransactionclassificatio_AsyncOperations)
-- [msdyn_opportunitypricelist_AsyncOperations](#BKMK_msdyn_opportunitypricelist_AsyncOperations)
-- [msdyn_orderlineresourcecategory_AsyncOperations](#BKMK_msdyn_orderlineresourcecategory_AsyncOperations)
-- [msdyn_orderlinetransaction_AsyncOperations](#BKMK_msdyn_orderlinetransaction_AsyncOperations)
-- [msdyn_orderlinetransactioncategory_AsyncOperations](#BKMK_msdyn_orderlinetransactioncategory_AsyncOperations)
-- [msdyn_orderlinetransactionclassification_AsyncOperations](#BKMK_msdyn_orderlinetransactionclassification_AsyncOperations)
-- [msdyn_orderpricelist_AsyncOperations](#BKMK_msdyn_orderpricelist_AsyncOperations)
-- [msdyn_processnotes_AsyncOperations](#BKMK_msdyn_processnotes_AsyncOperations)
-- [msdyn_project_AsyncOperations](#BKMK_msdyn_project_AsyncOperations)
-- [msdyn_projectapproval_AsyncOperations](#BKMK_msdyn_projectapproval_AsyncOperations)
-- [msdyn_projectparameter_AsyncOperations](#BKMK_msdyn_projectparameter_AsyncOperations)
-- [msdyn_projectparameterpricelist_AsyncOperations](#BKMK_msdyn_projectparameterpricelist_AsyncOperations)
-- [msdyn_projectpricelist_AsyncOperations](#BKMK_msdyn_projectpricelist_AsyncOperations)
-- [msdyn_projecttask_AsyncOperations](#BKMK_msdyn_projecttask_AsyncOperations)
-- [msdyn_projecttaskdependency_AsyncOperations](#BKMK_msdyn_projecttaskdependency_AsyncOperations)
-- [msdyn_projecttaskstatususer_AsyncOperations](#BKMK_msdyn_projecttaskstatususer_AsyncOperations)
-- [msdyn_projectteam_AsyncOperations](#BKMK_msdyn_projectteam_AsyncOperations)
-- [msdyn_projectteammembersignup_AsyncOperations](#BKMK_msdyn_projectteammembersignup_AsyncOperations)
-- [msdyn_projecttransactioncategory_AsyncOperations](#BKMK_msdyn_projecttransactioncategory_AsyncOperations)
-- [msdyn_quotelineanalyticsbreakdown_AsyncOperations](#BKMK_msdyn_quotelineanalyticsbreakdown_AsyncOperations)
-- [msdyn_quotelineinvoiceschedule_AsyncOperations](#BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations)
-- [msdyn_quotelineresourcecategory_AsyncOperations](#BKMK_msdyn_quotelineresourcecategory_AsyncOperations)
-- [msdyn_quotelinescheduleofvalue_AsyncOperations](#BKMK_msdyn_quotelinescheduleofvalue_AsyncOperations)
-- [msdyn_quotelinetransaction_AsyncOperations](#BKMK_msdyn_quotelinetransaction_AsyncOperations)
-- [msdyn_quotelinetransactioncategory_AsyncOperations](#BKMK_msdyn_quotelinetransactioncategory_AsyncOperations)
-- [msdyn_quotelinetransactionclassification_AsyncOperations](#BKMK_msdyn_quotelinetransactionclassification_AsyncOperations)
-- [msdyn_quotepricelist_AsyncOperations](#BKMK_msdyn_quotepricelist_AsyncOperations)
-- [msdyn_resourceassignment_AsyncOperations](#BKMK_msdyn_resourceassignment_AsyncOperations)
-- [msdyn_resourceassignmentdetail_AsyncOperations](#BKMK_msdyn_resourceassignmentdetail_AsyncOperations)
-- [msdyn_resourcecategorymarkuppricelevel_AsyncOperations](#BKMK_msdyn_resourcecategorymarkuppricelevel_AsyncOperations)
-- [msdyn_resourcecategorypricelevel_AsyncOperations](#BKMK_msdyn_resourcecategorypricelevel_AsyncOperations)
-- [msdyn_resourcerequest_AsyncOperations](#BKMK_msdyn_resourcerequest_AsyncOperations)
-- [msdyn_rolecompetencyrequirement_AsyncOperations](#BKMK_msdyn_rolecompetencyrequirement_AsyncOperations)
-- [msdyn_roleutilization_AsyncOperations](#BKMK_msdyn_roleutilization_AsyncOperations)
-- [msdyn_timeentry_AsyncOperations](#BKMK_msdyn_timeentry_AsyncOperations)
-- [msdyn_timeoffcalendar_AsyncOperations](#BKMK_msdyn_timeoffcalendar_AsyncOperations)
-- [msdyn_transactioncategory_AsyncOperations](#BKMK_msdyn_transactioncategory_AsyncOperations)
-- [msdyn_transactioncategoryclassification_AsyncOperations](#BKMK_msdyn_transactioncategoryclassification_AsyncOperations)
-- [msdyn_transactioncategoryhierarchyelement_AsyncOperations](#BKMK_msdyn_transactioncategoryhierarchyelement_AsyncOperations)
-- [msdyn_transactioncategorypricelevel_AsyncOperations](#BKMK_msdyn_transactioncategorypricelevel_AsyncOperations)
-- [msdyn_transactionconnection_AsyncOperations](#BKMK_msdyn_transactionconnection_AsyncOperations)
-- [msdyn_transactiontype_AsyncOperations](#BKMK_msdyn_transactiontype_AsyncOperations)
-- [msdyn_userworkhistory_AsyncOperations](#BKMK_msdyn_userworkhistory_AsyncOperations)
-- [msdyn_agreement_AsyncOperations](#BKMK_msdyn_agreement_AsyncOperations)
-- [msdyn_agreementbookingdate_AsyncOperations](#BKMK_msdyn_agreementbookingdate_AsyncOperations)
-- [msdyn_agreementbookingincident_AsyncOperations](#BKMK_msdyn_agreementbookingincident_AsyncOperations)
-- [msdyn_agreementbookingproduct_AsyncOperations](#BKMK_msdyn_agreementbookingproduct_AsyncOperations)
-- [msdyn_agreementbookingservice_AsyncOperations](#BKMK_msdyn_agreementbookingservice_AsyncOperations)
-- [msdyn_agreementbookingservicetask_AsyncOperations](#BKMK_msdyn_agreementbookingservicetask_AsyncOperations)
-- [msdyn_agreementbookingsetup_AsyncOperations](#BKMK_msdyn_agreementbookingsetup_AsyncOperations)
-- [msdyn_agreementinvoicedate_AsyncOperations](#BKMK_msdyn_agreementinvoicedate_AsyncOperations)
-- [msdyn_agreementinvoiceproduct_AsyncOperations](#BKMK_msdyn_agreementinvoiceproduct_AsyncOperations)
-- [msdyn_agreementinvoicesetup_AsyncOperations](#BKMK_msdyn_agreementinvoicesetup_AsyncOperations)
-- [msdyn_agreementsubstatus_AsyncOperations](#BKMK_msdyn_agreementsubstatus_AsyncOperations)
-- [msdyn_bookingjournal_AsyncOperations](#BKMK_msdyn_bookingjournal_AsyncOperations)
-- [msdyn_bookingtimestamp_AsyncOperations](#BKMK_msdyn_bookingtimestamp_AsyncOperations)
-- [msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations](#BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations)
-- [msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations](#BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations)
-- [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations)
-- [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations](#BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations)
-- [msdyn_customerasset_AsyncOperations](#BKMK_msdyn_customerasset_AsyncOperations)
-- [msdyn_customerassetcategory_AsyncOperations](#BKMK_msdyn_customerassetcategory_AsyncOperations)
-- [msdyn_entitlementapplication_AsyncOperations](#BKMK_msdyn_entitlementapplication_AsyncOperations)
-- [msdyn_fieldservicepricelistitem_AsyncOperations](#BKMK_msdyn_fieldservicepricelistitem_AsyncOperations)
-- [msdyn_fieldservicesetting_AsyncOperations](#BKMK_msdyn_fieldservicesetting_AsyncOperations)
-- [msdyn_fieldserviceslaconfiguration_AsyncOperations](#BKMK_msdyn_fieldserviceslaconfiguration_AsyncOperations)
-- [msdyn_fieldservicesystemjob_AsyncOperations](#BKMK_msdyn_fieldservicesystemjob_AsyncOperations)
-- [msdyn_incidenttype_AsyncOperations](#BKMK_msdyn_incidenttype_AsyncOperations)
-- [msdyn_incidenttypecharacteristic_AsyncOperations](#BKMK_msdyn_incidenttypecharacteristic_AsyncOperations)
-- [msdyn_incidenttypeproduct_AsyncOperations](#BKMK_msdyn_incidenttypeproduct_AsyncOperations)
-- [msdyn_incidenttypeservice_AsyncOperations](#BKMK_msdyn_incidenttypeservice_AsyncOperations)
-- [msdyn_incidenttypeservicetask_AsyncOperations](#BKMK_msdyn_incidenttypeservicetask_AsyncOperations)
-- [msdyn_incidenttypessetup_AsyncOperations](#BKMK_msdyn_incidenttypessetup_AsyncOperations)
-- [msdyn_incidenttype_requirementgroup_AsyncOperations](#BKMK_msdyn_incidenttype_requirementgroup_AsyncOperations)
-- [msdyn_inventoryadjustment_AsyncOperations](#BKMK_msdyn_inventoryadjustment_AsyncOperations)
-- [msdyn_inventoryadjustmentproduct_AsyncOperations](#BKMK_msdyn_inventoryadjustmentproduct_AsyncOperations)
-- [msdyn_inventoryjournal_AsyncOperations](#BKMK_msdyn_inventoryjournal_AsyncOperations)
-- [msdyn_inventorytransfer_AsyncOperations](#BKMK_msdyn_inventorytransfer_AsyncOperations)
-- [msdyn_orderinvoicingdate_AsyncOperations](#BKMK_msdyn_orderinvoicingdate_AsyncOperations)
-- [msdyn_orderinvoicingproduct_AsyncOperations](#BKMK_msdyn_orderinvoicingproduct_AsyncOperations)
-- [msdyn_orderinvoicingsetup_AsyncOperations](#BKMK_msdyn_orderinvoicingsetup_AsyncOperations)
-- [msdyn_orderinvoicingsetupdate_AsyncOperations](#BKMK_msdyn_orderinvoicingsetupdate_AsyncOperations)
-- [msdyn_payment_AsyncOperations](#BKMK_msdyn_payment_AsyncOperations)
-- [msdyn_paymentdetail_AsyncOperations](#BKMK_msdyn_paymentdetail_AsyncOperations)
-- [msdyn_paymentmethod_AsyncOperations](#BKMK_msdyn_paymentmethod_AsyncOperations)
-- [msdyn_paymentterm_AsyncOperations](#BKMK_msdyn_paymentterm_AsyncOperations)
-- [msdyn_postalcode_AsyncOperations](#BKMK_msdyn_postalcode_AsyncOperations)
-- [msdyn_productinventory_AsyncOperations](#BKMK_msdyn_productinventory_AsyncOperations)
-- [msdyn_purchaseorder_AsyncOperations](#BKMK_msdyn_purchaseorder_AsyncOperations)
-- [msdyn_purchaseorderbill_AsyncOperations](#BKMK_msdyn_purchaseorderbill_AsyncOperations)
-- [msdyn_purchaseorderproduct_AsyncOperations](#BKMK_msdyn_purchaseorderproduct_AsyncOperations)
-- [msdyn_purchaseorderreceipt_AsyncOperations](#BKMK_msdyn_purchaseorderreceipt_AsyncOperations)
-- [msdyn_purchaseorderreceiptproduct_AsyncOperations](#BKMK_msdyn_purchaseorderreceiptproduct_AsyncOperations)
-- [msdyn_purchaseordersubstatus_AsyncOperations](#BKMK_msdyn_purchaseordersubstatus_AsyncOperations)
-- [msdyn_quotebookingincident_AsyncOperations](#BKMK_msdyn_quotebookingincident_AsyncOperations)
-- [msdyn_quotebookingproduct_AsyncOperations](#BKMK_msdyn_quotebookingproduct_AsyncOperations)
-- [msdyn_quotebookingservice_AsyncOperations](#BKMK_msdyn_quotebookingservice_AsyncOperations)
-- [msdyn_quotebookingservicetask_AsyncOperations](#BKMK_msdyn_quotebookingservicetask_AsyncOperations)
-- [msdyn_quotebookingsetup_AsyncOperations](#BKMK_msdyn_quotebookingsetup_AsyncOperations)
-- [msdyn_quoteinvoicingproduct_AsyncOperations](#BKMK_msdyn_quoteinvoicingproduct_AsyncOperations)
-- [msdyn_quoteinvoicingsetup_AsyncOperations](#BKMK_msdyn_quoteinvoicingsetup_AsyncOperations)
-- [msdyn_resourcepaytype_AsyncOperations](#BKMK_msdyn_resourcepaytype_AsyncOperations)
-- [msdyn_rma_AsyncOperations](#BKMK_msdyn_rma_AsyncOperations)
-- [msdyn_rmaproduct_AsyncOperations](#BKMK_msdyn_rmaproduct_AsyncOperations)
-- [msdyn_rmareceipt_AsyncOperations](#BKMK_msdyn_rmareceipt_AsyncOperations)
-- [msdyn_rmareceiptproduct_AsyncOperations](#BKMK_msdyn_rmareceiptproduct_AsyncOperations)
-- [msdyn_rmasubstatus_AsyncOperations](#BKMK_msdyn_rmasubstatus_AsyncOperations)
-- [msdyn_rtv_AsyncOperations](#BKMK_msdyn_rtv_AsyncOperations)
-- [msdyn_rtvproduct_AsyncOperations](#BKMK_msdyn_rtvproduct_AsyncOperations)
-- [msdyn_rtvsubstatus_AsyncOperations](#BKMK_msdyn_rtvsubstatus_AsyncOperations)
-- [msdyn_servicetasktype_AsyncOperations](#BKMK_msdyn_servicetasktype_AsyncOperations)
-- [msdyn_shipvia_AsyncOperations](#BKMK_msdyn_shipvia_AsyncOperations)
-- [msdyn_taxcode_AsyncOperations](#BKMK_msdyn_taxcode_AsyncOperations)
-- [msdyn_taxcodedetail_AsyncOperations](#BKMK_msdyn_taxcodedetail_AsyncOperations)
-- [msdyn_timeoffrequest_AsyncOperations](#BKMK_msdyn_timeoffrequest_AsyncOperations)
-- [msdyn_uniquenumber_AsyncOperations](#BKMK_msdyn_uniquenumber_AsyncOperations)
-- [msdyn_warehouse_AsyncOperations](#BKMK_msdyn_warehouse_AsyncOperations)
-- [msdyn_workorder_AsyncOperations](#BKMK_msdyn_workorder_AsyncOperations)
-- [msdyn_workordercharacteristic_AsyncOperations](#BKMK_msdyn_workordercharacteristic_AsyncOperations)
-- [msdyn_workorderdetailsgenerationqueue_AsyncOperations](#BKMK_msdyn_workorderdetailsgenerationqueue_AsyncOperations)
-- [msdyn_workorderincident_AsyncOperations](#BKMK_msdyn_workorderincident_AsyncOperations)
-- [msdyn_workorderproduct_AsyncOperations](#BKMK_msdyn_workorderproduct_AsyncOperations)
-- [msdyn_workorderresourcerestriction_AsyncOperations](#BKMK_msdyn_workorderresourcerestriction_AsyncOperations)
-- [msdyn_workorderservice_AsyncOperations](#BKMK_msdyn_workorderservice_AsyncOperations)
-- [msdyn_workorderservicetask_AsyncOperations](#BKMK_msdyn_workorderservicetask_AsyncOperations)
-- [msdyn_workordersubstatus_AsyncOperations](#BKMK_msdyn_workordersubstatus_AsyncOperations)
-- [msdyn_workordertype_AsyncOperations](#BKMK_msdyn_workordertype_AsyncOperations)
-- [msdyn_iotalert_AsyncOperations](#BKMK_msdyn_iotalert_AsyncOperations)
-- [msdyn_iotdevice_AsyncOperations](#BKMK_msdyn_iotdevice_AsyncOperations)
-- [msdyn_iotdevicecategory_AsyncOperations](#BKMK_msdyn_iotdevicecategory_AsyncOperations)
-- [msdyn_iotdevicecommand_AsyncOperations](#BKMK_msdyn_iotdevicecommand_AsyncOperations)
-- [msdyn_iotdevicecommanddefinition_AsyncOperations](#BKMK_msdyn_iotdevicecommanddefinition_AsyncOperations)
-- [msdyn_iotdevicedatahistory_AsyncOperations](#BKMK_msdyn_iotdevicedatahistory_AsyncOperations)
-- [msdyn_iotdeviceproperty_AsyncOperations](#BKMK_msdyn_iotdeviceproperty_AsyncOperations)
-- [msdyn_iotdeviceregistrationhistory_AsyncOperations](#BKMK_msdyn_iotdeviceregistrationhistory_AsyncOperations)
-- [msdyn_iotpropertydefinition_AsyncOperations](#BKMK_msdyn_iotpropertydefinition_AsyncOperations)
-- [msdyn_iotsettings_AsyncOperations](#BKMK_msdyn_iotsettings_AsyncOperations)
-- [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations](#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations)
-- [msdyn_entityconfiguration_AsyncOperations](#BKMK_msdyn_entityconfiguration_AsyncOperations)
-- [msdyn_geofence_AsyncOperations](#BKMK_msdyn_geofence_AsyncOperations)
-- [msdyn_geofenceevent_AsyncOperations](#BKMK_msdyn_geofenceevent_AsyncOperations)
-- [msdyn_geofencingsettings_AsyncOperations](#BKMK_msdyn_geofencingsettings_AsyncOperations)
-- [msdyn_connector_AsyncOperations](#BKMK_msdyn_connector_AsyncOperations)
-- [theme_AsyncOperations](#BKMK_theme_AsyncOperations)
-- [usermapping_AsyncOperations](#BKMK_usermapping_AsyncOperations)
-- [interactionforemail_AsyncOperations](#BKMK_interactionforemail_AsyncOperations)
-- [knowledgearticle_AsyncOperations](#BKMK_knowledgearticle_AsyncOperations)
-- [post_AsyncOperations](#BKMK_post_AsyncOperations)
-- [position_AsyncOperations](#BKMK_position_AsyncOperations)
 - [KnowledgeBaseRecord_AsyncOperations](#BKMK_KnowledgeBaseRecord_AsyncOperations)
 - [lk_asyncoperation_createdby](#BKMK_lk_asyncoperation_createdby)
 - [MonthlyFiscalCalendar_AsyncOperations](#BKMK_MonthlyFiscalCalendar_AsyncOperations)
@@ -1719,2100 +1489,757 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [ImportFile_AsyncOperations](#BKMK_ImportFile_AsyncOperations)
 
 
+### <a name="BKMK_theme_AsyncOperations"></a> theme_AsyncOperations
+
+See the [theme_AsyncOperations](theme.md#BKMK_theme_AsyncOperations) one-to-many relationship for the [theme](theme.md) entity.
+
+### <a name="BKMK_usermapping_AsyncOperations"></a> usermapping_AsyncOperations
+
+See the [usermapping_AsyncOperations](usermapping.md#BKMK_usermapping_AsyncOperations) one-to-many relationship for the [usermapping](usermapping.md) entity.
+
+### <a name="BKMK_interactionforemail_AsyncOperations"></a> interactionforemail_AsyncOperations
+
+See the [interactionforemail_AsyncOperations](interactionforemail.md#BKMK_interactionforemail_AsyncOperations) one-to-many relationship for the [interactionforemail](interactionforemail.md) entity.
+
+### <a name="BKMK_knowledgearticle_AsyncOperations"></a> knowledgearticle_AsyncOperations
+
+See the [knowledgearticle_AsyncOperations](knowledgearticle.md#BKMK_knowledgearticle_AsyncOperations) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
+
+### <a name="BKMK_post_AsyncOperations"></a> post_AsyncOperations
+
+See the [post_AsyncOperations](post.md#BKMK_post_AsyncOperations) one-to-many relationship for the [post](post.md) entity.
+
+### <a name="BKMK_position_AsyncOperations"></a> position_AsyncOperations
+
+See the [position_AsyncOperations](position.md#BKMK_position_AsyncOperations) one-to-many relationship for the [position](position.md) entity.
+
 ### <a name="BKMK_Territory_AsyncOperations"></a> Territory_AsyncOperations
 
 **Added by**: Application Common Solution
 
-See territory Entity [Territory_AsyncOperations](territory.md#BKMK_Territory_AsyncOperations) One-To-Many relationship.
+See the [Territory_AsyncOperations](territory.md#BKMK_Territory_AsyncOperations) one-to-many relationship for the [territory](territory.md) entity.
 
 ### <a name="BKMK_leadaddress_AsyncOperations"></a> leadaddress_AsyncOperations
 
 **Added by**: Lead Management Solution
 
-See leadaddress Entity [leadaddress_AsyncOperations](leadaddress.md#BKMK_leadaddress_AsyncOperations) One-To-Many relationship.
+See the [leadaddress_AsyncOperations](leadaddress.md#BKMK_leadaddress_AsyncOperations) one-to-many relationship for the [leadaddress](leadaddress.md) entity.
 
 ### <a name="BKMK_Lead_AsyncOperations"></a> Lead_AsyncOperations
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_AsyncOperations](lead.md#BKMK_Lead_AsyncOperations) One-To-Many relationship.
+See the [Lead_AsyncOperations](lead.md#BKMK_Lead_AsyncOperations) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_dynamicproperty_AsyncOperations"></a> dynamicproperty_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See dynamicproperty Entity [dynamicproperty_AsyncOperations](dynamicproperty.md#BKMK_dynamicproperty_AsyncOperations) One-To-Many relationship.
+See the [dynamicproperty_AsyncOperations](dynamicproperty.md#BKMK_dynamicproperty_AsyncOperations) one-to-many relationship for the [dynamicproperty](dynamicproperty.md) entity.
 
 ### <a name="BKMK_dynamicpropertyassociation_AsyncOperations"></a> dynamicpropertyassociation_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See dynamicpropertyassociation Entity [dynamicpropertyassociation_AsyncOperations](dynamicpropertyassociation.md#BKMK_dynamicpropertyassociation_AsyncOperations) One-To-Many relationship.
+See the [dynamicpropertyassociation_AsyncOperations](dynamicpropertyassociation.md#BKMK_dynamicpropertyassociation_AsyncOperations) one-to-many relationship for the [dynamicpropertyassociation](dynamicpropertyassociation.md) entity.
 
 ### <a name="BKMK_dynamicpropertyinstance_AsyncOperations"></a> dynamicpropertyinstance_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See dynamicpropertyinstance Entity [dynamicpropertyinstance_AsyncOperations](dynamicpropertyinstance.md#BKMK_dynamicpropertyinstance_AsyncOperations) One-To-Many relationship.
+See the [dynamicpropertyinstance_AsyncOperations](dynamicpropertyinstance.md#BKMK_dynamicpropertyinstance_AsyncOperations) one-to-many relationship for the [dynamicpropertyinstance](dynamicpropertyinstance.md) entity.
 
 ### <a name="BKMK_dynamicpropertyoptionsetitem_AsyncOperations"></a> dynamicpropertyoptionsetitem_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See dynamicpropertyoptionsetitem Entity [dynamicpropertyoptionsetitem_AsyncOperations](dynamicpropertyoptionsetitem.md#BKMK_dynamicpropertyoptionsetitem_AsyncOperations) One-To-Many relationship.
+See the [dynamicpropertyoptionsetitem_AsyncOperations](dynamicpropertyoptionsetitem.md#BKMK_dynamicpropertyoptionsetitem_AsyncOperations) one-to-many relationship for the [dynamicpropertyoptionsetitem](dynamicpropertyoptionsetitem.md) entity.
 
 ### <a name="BKMK_PriceLevel_AsyncOperations"></a> PriceLevel_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See pricelevel Entity [PriceLevel_AsyncOperations](pricelevel.md#BKMK_PriceLevel_AsyncOperations) One-To-Many relationship.
+See the [PriceLevel_AsyncOperations](pricelevel.md#BKMK_PriceLevel_AsyncOperations) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_Product_AsyncOperations"></a> Product_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See product Entity [Product_AsyncOperations](product.md#BKMK_Product_AsyncOperations) One-To-Many relationship.
+See the [Product_AsyncOperations](product.md#BKMK_Product_AsyncOperations) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_ProductAssociation_AsyncOperations"></a> ProductAssociation_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See productassociation Entity [ProductAssociation_AsyncOperations](productassociation.md#BKMK_ProductAssociation_AsyncOperations) One-To-Many relationship.
+See the [ProductAssociation_AsyncOperations](productassociation.md#BKMK_ProductAssociation_AsyncOperations) one-to-many relationship for the [productassociation](productassociation.md) entity.
 
 ### <a name="BKMK_ProductPriceLevel_AsyncOperations"></a> ProductPriceLevel_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See productpricelevel Entity [ProductPriceLevel_AsyncOperations](productpricelevel.md#BKMK_ProductPriceLevel_AsyncOperations) One-To-Many relationship.
+See the [ProductPriceLevel_AsyncOperations](productpricelevel.md#BKMK_ProductPriceLevel_AsyncOperations) one-to-many relationship for the [productpricelevel](productpricelevel.md) entity.
 
 ### <a name="BKMK_ProductSubstitute_AsyncOperations"></a> ProductSubstitute_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See productsubstitute Entity [ProductSubstitute_AsyncOperations](productsubstitute.md#BKMK_ProductSubstitute_AsyncOperations) One-To-Many relationship.
+See the [ProductSubstitute_AsyncOperations](productsubstitute.md#BKMK_ProductSubstitute_AsyncOperations) one-to-many relationship for the [productsubstitute](productsubstitute.md) entity.
 
 ### <a name="BKMK_UoM_AsyncOperations"></a> UoM_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See uom Entity [UoM_AsyncOperations](uom.md#BKMK_UoM_AsyncOperations) One-To-Many relationship.
+See the [UoM_AsyncOperations](uom.md#BKMK_UoM_AsyncOperations) one-to-many relationship for the [uom](uom.md) entity.
 
 ### <a name="BKMK_UoMSchedule_AsyncOperations"></a> UoMSchedule_AsyncOperations
 
 **Added by**: Product Management Solution
 
-See uomschedule Entity [UoMSchedule_AsyncOperations](uomschedule.md#BKMK_UoMSchedule_AsyncOperations) One-To-Many relationship.
+See the [UoMSchedule_AsyncOperations](uomschedule.md#BKMK_UoMSchedule_AsyncOperations) one-to-many relationship for the [uomschedule](uomschedule.md) entity.
 
 ### <a name="BKMK_bookableresource_AsyncOperations"></a> bookableresource_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresource Entity [bookableresource_AsyncOperations](bookableresource.md#BKMK_bookableresource_AsyncOperations) One-To-Many relationship.
+See the [bookableresource_AsyncOperations](bookableresource.md#BKMK_bookableresource_AsyncOperations) one-to-many relationship for the [bookableresource](bookableresource.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_AsyncOperations"></a> bookableresourcebooking_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_AsyncOperations](bookableresourcebooking.md#BKMK_bookableresourcebooking_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcebooking_AsyncOperations](bookableresourcebooking.md#BKMK_bookableresourcebooking_AsyncOperations) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_AsyncOperations"></a> bookableresourcebookingheader_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_AsyncOperations](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcebookingheader_AsyncOperations](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_AsyncOperations) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_bookableresourcecategory_AsyncOperations"></a> bookableresourcecategory_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcecategory Entity [bookableresourcecategory_AsyncOperations](bookableresourcecategory.md#BKMK_bookableresourcecategory_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcecategory_AsyncOperations](bookableresourcecategory.md#BKMK_bookableresourcecategory_AsyncOperations) one-to-many relationship for the [bookableresourcecategory](bookableresourcecategory.md) entity.
 
 ### <a name="BKMK_bookableresourcecategoryassn_AsyncOperations"></a> bookableresourcecategoryassn_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcecategoryassn Entity [bookableresourcecategoryassn_AsyncOperations](bookableresourcecategoryassn.md#BKMK_bookableresourcecategoryassn_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcecategoryassn_AsyncOperations](bookableresourcecategoryassn.md#BKMK_bookableresourcecategoryassn_AsyncOperations) one-to-many relationship for the [bookableresourcecategoryassn](bookableresourcecategoryassn.md) entity.
 
 ### <a name="BKMK_bookableresourcecharacteristic_AsyncOperations"></a> bookableresourcecharacteristic_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcecharacteristic Entity [bookableresourcecharacteristic_AsyncOperations](bookableresourcecharacteristic.md#BKMK_bookableresourcecharacteristic_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcecharacteristic_AsyncOperations](bookableresourcecharacteristic.md#BKMK_bookableresourcecharacteristic_AsyncOperations) one-to-many relationship for the [bookableresourcecharacteristic](bookableresourcecharacteristic.md) entity.
 
 ### <a name="BKMK_bookableresourcegroup_AsyncOperations"></a> bookableresourcegroup_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookableresourcegroup Entity [bookableresourcegroup_AsyncOperations](bookableresourcegroup.md#BKMK_bookableresourcegroup_AsyncOperations) One-To-Many relationship.
+See the [bookableresourcegroup_AsyncOperations](bookableresourcegroup.md#BKMK_bookableresourcegroup_AsyncOperations) one-to-many relationship for the [bookableresourcegroup](bookableresourcegroup.md) entity.
 
 ### <a name="BKMK_bookingstatus_AsyncOperations"></a> bookingstatus_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See bookingstatus Entity [bookingstatus_AsyncOperations](bookingstatus.md#BKMK_bookingstatus_AsyncOperations) One-To-Many relationship.
+See the [bookingstatus_AsyncOperations](bookingstatus.md#BKMK_bookingstatus_AsyncOperations) one-to-many relationship for the [bookingstatus](bookingstatus.md) entity.
 
 ### <a name="BKMK_characteristic_AsyncOperations"></a> characteristic_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See characteristic Entity [characteristic_AsyncOperations](characteristic.md#BKMK_characteristic_AsyncOperations) One-To-Many relationship.
+See the [characteristic_AsyncOperations](characteristic.md#BKMK_characteristic_AsyncOperations) one-to-many relationship for the [characteristic](characteristic.md) entity.
 
 ### <a name="BKMK_ratingmodel_AsyncOperations"></a> ratingmodel_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See ratingmodel Entity [ratingmodel_AsyncOperations](ratingmodel.md#BKMK_ratingmodel_AsyncOperations) One-To-Many relationship.
+See the [ratingmodel_AsyncOperations](ratingmodel.md#BKMK_ratingmodel_AsyncOperations) one-to-many relationship for the [ratingmodel](ratingmodel.md) entity.
 
 ### <a name="BKMK_ratingvalue_AsyncOperations"></a> ratingvalue_AsyncOperations
 
 **Added by**: Scheduling Solution
 
-See ratingvalue Entity [ratingvalue_AsyncOperations](ratingvalue.md#BKMK_ratingvalue_AsyncOperations) One-To-Many relationship.
+See the [ratingvalue_AsyncOperations](ratingvalue.md#BKMK_ratingvalue_AsyncOperations) one-to-many relationship for the [ratingvalue](ratingvalue.md) entity.
 
 ### <a name="BKMK_BulkOperation_AsyncOperations"></a> BulkOperation_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_AsyncOperations](bulkoperation.md#BKMK_BulkOperation_AsyncOperations) One-To-Many relationship.
+See the [BulkOperation_AsyncOperations](bulkoperation.md#BKMK_BulkOperation_AsyncOperations) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_BulkOperationLog_AsyncOperations"></a> BulkOperationLog_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See bulkoperationlog Entity [BulkOperationLog_AsyncOperations](bulkoperationlog.md#BKMK_BulkOperationLog_AsyncOperations) One-To-Many relationship.
+See the [BulkOperationLog_AsyncOperations](bulkoperationlog.md#BKMK_BulkOperationLog_AsyncOperations) one-to-many relationship for the [bulkoperationlog](bulkoperationlog.md) entity.
 
 ### <a name="BKMK_Campaign_AsyncOperations"></a> Campaign_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See campaign Entity [Campaign_AsyncOperations](campaign.md#BKMK_Campaign_AsyncOperations) One-To-Many relationship.
+See the [Campaign_AsyncOperations](campaign.md#BKMK_Campaign_AsyncOperations) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_CampaignActivity_AsyncOperations"></a> CampaignActivity_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [CampaignActivity_AsyncOperations](campaignactivity.md#BKMK_CampaignActivity_AsyncOperations) One-To-Many relationship.
+See the [CampaignActivity_AsyncOperations](campaignactivity.md#BKMK_CampaignActivity_AsyncOperations) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_CampaignResponse_AsyncOperations"></a> CampaignResponse_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See campaignresponse Entity [CampaignResponse_AsyncOperations](campaignresponse.md#BKMK_CampaignResponse_AsyncOperations) One-To-Many relationship.
+See the [CampaignResponse_AsyncOperations](campaignresponse.md#BKMK_CampaignResponse_AsyncOperations) one-to-many relationship for the [campaignresponse](campaignresponse.md) entity.
 
 ### <a name="BKMK_List_AsyncOperations"></a> List_AsyncOperations
 
 **Added by**: Marketing Solution
 
-See list Entity [List_AsyncOperations](list.md#BKMK_List_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_databaseversion_AsyncOperations"></a> msdyn_databaseversion_AsyncOperations
-
-**Added by**: Solution Upgrade Infrastructure Solution
-
-See msdyn_databaseversion Entity [msdyn_databaseversion_AsyncOperations](msdyn_databaseversion.md#BKMK_msdyn_databaseversion_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_upgraderun_AsyncOperations"></a> msdyn_upgraderun_AsyncOperations
-
-**Added by**: Solution Upgrade Infrastructure Solution
-
-See msdyn_upgraderun Entity [msdyn_upgraderun_AsyncOperations](msdyn_upgraderun.md#BKMK_msdyn_upgraderun_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_upgradestep_AsyncOperations"></a> msdyn_upgradestep_AsyncOperations
-
-**Added by**: Solution Upgrade Infrastructure Solution
-
-See msdyn_upgradestep Entity [msdyn_upgradestep_AsyncOperations](msdyn_upgradestep.md#BKMK_msdyn_upgradestep_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_upgradeversion_AsyncOperations"></a> msdyn_upgradeversion_AsyncOperations
-
-**Added by**: Solution Upgrade Infrastructure Solution
-
-See msdyn_upgradeversion Entity [msdyn_upgradeversion_AsyncOperations](msdyn_upgradeversion.md#BKMK_msdyn_upgradeversion_AsyncOperations) One-To-Many relationship.
+See the [List_AsyncOperations](list.md#BKMK_List_AsyncOperations) one-to-many relationship for the [list](list.md) entity.
 
 ### <a name="BKMK_ConstraintBasedGroup_AsyncOperations"></a> ConstraintBasedGroup_AsyncOperations
 
 **Added by**: Service Solution
 
-See constraintbasedgroup Entity [ConstraintBasedGroup_AsyncOperations](constraintbasedgroup.md#BKMK_ConstraintBasedGroup_AsyncOperations) One-To-Many relationship.
+See the [ConstraintBasedGroup_AsyncOperations](constraintbasedgroup.md#BKMK_ConstraintBasedGroup_AsyncOperations) one-to-many relationship for the [constraintbasedgroup](constraintbasedgroup.md) entity.
 
 ### <a name="BKMK_Contract_AsyncOperations"></a> Contract_AsyncOperations
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_AsyncOperations](contract.md#BKMK_Contract_AsyncOperations) One-To-Many relationship.
+See the [Contract_AsyncOperations](contract.md#BKMK_Contract_AsyncOperations) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_ContractDetail_AsyncOperations"></a> ContractDetail_AsyncOperations
 
 **Added by**: Service Solution
 
-See contractdetail Entity [ContractDetail_AsyncOperations](contractdetail.md#BKMK_ContractDetail_AsyncOperations) One-To-Many relationship.
+See the [ContractDetail_AsyncOperations](contractdetail.md#BKMK_ContractDetail_AsyncOperations) one-to-many relationship for the [contractdetail](contractdetail.md) entity.
 
 ### <a name="BKMK_ContractTemplate_AsyncOperations"></a> ContractTemplate_AsyncOperations
 
 **Added by**: Service Solution
 
-See contracttemplate Entity [ContractTemplate_AsyncOperations](contracttemplate.md#BKMK_ContractTemplate_AsyncOperations) One-To-Many relationship.
+See the [ContractTemplate_AsyncOperations](contracttemplate.md#BKMK_ContractTemplate_AsyncOperations) one-to-many relationship for the [contracttemplate](contracttemplate.md) entity.
 
 ### <a name="BKMK_entitlement_AsyncOperations"></a> entitlement_AsyncOperations
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_AsyncOperations](entitlement.md#BKMK_entitlement_AsyncOperations) One-To-Many relationship.
+See the [entitlement_AsyncOperations](entitlement.md#BKMK_entitlement_AsyncOperations) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementchannel_AsyncOperations"></a> entitlementchannel_AsyncOperations
 
 **Added by**: Service Solution
 
-See entitlementchannel Entity [entitlementchannel_AsyncOperations](entitlementchannel.md#BKMK_entitlementchannel_AsyncOperations) One-To-Many relationship.
+See the [entitlementchannel_AsyncOperations](entitlementchannel.md#BKMK_entitlementchannel_AsyncOperations) one-to-many relationship for the [entitlementchannel](entitlementchannel.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_AsyncOperations"></a> entitlementtemplate_AsyncOperations
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_AsyncOperations](entitlementtemplate.md#BKMK_entitlementtemplate_AsyncOperations) One-To-Many relationship.
+See the [entitlementtemplate_AsyncOperations](entitlementtemplate.md#BKMK_entitlementtemplate_AsyncOperations) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_entitlementtemplatechannel_AsyncOperations"></a> entitlementtemplatechannel_AsyncOperations
 
 **Added by**: Service Solution
 
-See entitlementtemplatechannel Entity [entitlementtemplatechannel_AsyncOperations](entitlementtemplatechannel.md#BKMK_entitlementtemplatechannel_AsyncOperations) One-To-Many relationship.
+See the [entitlementtemplatechannel_AsyncOperations](entitlementtemplatechannel.md#BKMK_entitlementtemplatechannel_AsyncOperations) one-to-many relationship for the [entitlementtemplatechannel](entitlementtemplatechannel.md) entity.
 
 ### <a name="BKMK_Equipment_AsyncOperations"></a> Equipment_AsyncOperations
 
 **Added by**: Service Solution
 
-See equipment Entity [Equipment_AsyncOperations](equipment.md#BKMK_Equipment_AsyncOperations) One-To-Many relationship.
+See the [Equipment_AsyncOperations](equipment.md#BKMK_Equipment_AsyncOperations) one-to-many relationship for the [equipment](equipment.md) entity.
 
 ### <a name="BKMK_Incident_AsyncOperations"></a> Incident_AsyncOperations
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_AsyncOperations](incident.md#BKMK_Incident_AsyncOperations) One-To-Many relationship.
+See the [Incident_AsyncOperations](incident.md#BKMK_Incident_AsyncOperations) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_IncidentResolution_AsyncOperations"></a> IncidentResolution_AsyncOperations
 
 **Added by**: Service Solution
 
-See incidentresolution Entity [IncidentResolution_AsyncOperations](incidentresolution.md#BKMK_IncidentResolution_AsyncOperations) One-To-Many relationship.
+See the [IncidentResolution_AsyncOperations](incidentresolution.md#BKMK_IncidentResolution_AsyncOperations) one-to-many relationship for the [incidentresolution](incidentresolution.md) entity.
 
 ### <a name="BKMK_knowledgearticleincident_AsyncOperations"></a> knowledgearticleincident_AsyncOperations
 
 **Added by**: Service Solution
 
-See knowledgearticleincident Entity [knowledgearticleincident_AsyncOperations](knowledgearticleincident.md#BKMK_knowledgearticleincident_AsyncOperations) One-To-Many relationship.
+See the [knowledgearticleincident_AsyncOperations](knowledgearticleincident.md#BKMK_knowledgearticleincident_AsyncOperations) one-to-many relationship for the [knowledgearticleincident](knowledgearticleincident.md) entity.
 
 ### <a name="BKMK_phonetocaseprocess_AsyncOperations"></a> phonetocaseprocess_AsyncOperations
 
 **Added by**: Service Solution
 
-See phonetocaseprocess Entity [phonetocaseprocess_AsyncOperations](phonetocaseprocess.md#BKMK_phonetocaseprocess_AsyncOperations) One-To-Many relationship.
+See the [phonetocaseprocess_AsyncOperations](phonetocaseprocess.md#BKMK_phonetocaseprocess_AsyncOperations) one-to-many relationship for the [phonetocaseprocess](phonetocaseprocess.md) entity.
 
 ### <a name="BKMK_Resource_AsyncOperations"></a> Resource_AsyncOperations
 
 **Added by**: Service Solution
 
-See resource Entity [Resource_AsyncOperations](resource.md#BKMK_Resource_AsyncOperations) One-To-Many relationship.
+See the [Resource_AsyncOperations](resource.md#BKMK_Resource_AsyncOperations) one-to-many relationship for the [resource](resource.md) entity.
 
 ### <a name="BKMK_ResourceGroup_AsyncOperations"></a> ResourceGroup_AsyncOperations
 
 **Added by**: Service Solution
 
-See resourcegroup Entity [ResourceGroup_AsyncOperations](resourcegroup.md#BKMK_ResourceGroup_AsyncOperations) One-To-Many relationship.
+See the [ResourceGroup_AsyncOperations](resourcegroup.md#BKMK_ResourceGroup_AsyncOperations) one-to-many relationship for the [resourcegroup](resourcegroup.md) entity.
 
 ### <a name="BKMK_ResourceSpec_AsyncOperations"></a> ResourceSpec_AsyncOperations
 
 **Added by**: Service Solution
 
-See resourcespec Entity [ResourceSpec_AsyncOperations](resourcespec.md#BKMK_ResourceSpec_AsyncOperations) One-To-Many relationship.
+See the [ResourceSpec_AsyncOperations](resourcespec.md#BKMK_ResourceSpec_AsyncOperations) one-to-many relationship for the [resourcespec](resourcespec.md) entity.
 
 ### <a name="BKMK_Service_AsyncOperations"></a> Service_AsyncOperations
 
 **Added by**: Service Solution
 
-See service Entity [Service_AsyncOperations](service.md#BKMK_Service_AsyncOperations) One-To-Many relationship.
+See the [Service_AsyncOperations](service.md#BKMK_Service_AsyncOperations) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_ServiceAppointment_AsyncOperations"></a> ServiceAppointment_AsyncOperations
 
 **Added by**: Service Solution
 
-See serviceappointment Entity [ServiceAppointment_AsyncOperations](serviceappointment.md#BKMK_ServiceAppointment_AsyncOperations) One-To-Many relationship.
+See the [ServiceAppointment_AsyncOperations](serviceappointment.md#BKMK_ServiceAppointment_AsyncOperations) one-to-many relationship for the [serviceappointment](serviceappointment.md) entity.
 
 ### <a name="BKMK_Site_AsyncOperations"></a> Site_AsyncOperations
 
 **Added by**: Service Solution
 
-See site Entity [Site_AsyncOperations](site.md#BKMK_Site_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_entitlemententityallocationtypemapping_AsyncOperations"></a> entitlemententityallocationtypemapping_AsyncOperations
-
-**Added by**: Service Patch Solution
-
-See entitlemententityallocationtypemapping Entity [entitlemententityallocationtypemapping_AsyncOperations](entitlemententityallocationtypemapping.md#BKMK_entitlemententityallocationtypemapping_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_callablecontext_AsyncOperations"></a> msdyn_callablecontext_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_callablecontext Entity [msdyn_callablecontext_AsyncOperations](msdyn_callablecontext.md#BKMK_msdyn_callablecontext_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookactivity_AsyncOperations"></a> msdyn_playbookactivity_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookactivity Entity [msdyn_playbookactivity_AsyncOperations](msdyn_playbookactivity.md#BKMK_msdyn_playbookactivity_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookactivityattribute_AsyncOperations"></a> msdyn_playbookactivityattribute_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookactivityattribute Entity [msdyn_playbookactivityattribute_AsyncOperations](msdyn_playbookactivityattribute.md#BKMK_msdyn_playbookactivityattribute_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookcategory_AsyncOperations"></a> msdyn_playbookcategory_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookcategory Entity [msdyn_playbookcategory_AsyncOperations](msdyn_playbookcategory.md#BKMK_msdyn_playbookcategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_AsyncOperations"></a> msdyn_playbookinstance_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_AsyncOperations](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbooktemplate_AsyncOperations"></a> msdyn_playbooktemplate_AsyncOperations
-
-**Added by**: Playbook Solution
-
-See msdyn_playbooktemplate Entity [msdyn_playbooktemplate_AsyncOperations](msdyn_playbooktemplate.md#BKMK_msdyn_playbooktemplate_AsyncOperations) One-To-Many relationship.
+See the [Site_AsyncOperations](site.md#BKMK_Site_AsyncOperations) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_Discount_AsyncOperations"></a> Discount_AsyncOperations
 
 **Added by**: Sales Solution
 
-See discount Entity [Discount_AsyncOperations](discount.md#BKMK_Discount_AsyncOperations) One-To-Many relationship.
+See the [Discount_AsyncOperations](discount.md#BKMK_Discount_AsyncOperations) one-to-many relationship for the [discount](discount.md) entity.
 
 ### <a name="BKMK_DiscountType_AsyncOperations"></a> DiscountType_AsyncOperations
 
 **Added by**: Sales Solution
 
-See discounttype Entity [DiscountType_AsyncOperations](discounttype.md#BKMK_DiscountType_AsyncOperations) One-To-Many relationship.
+See the [DiscountType_AsyncOperations](discounttype.md#BKMK_DiscountType_AsyncOperations) one-to-many relationship for the [discounttype](discounttype.md) entity.
 
 ### <a name="BKMK_Invoice_AsyncOperations"></a> Invoice_AsyncOperations
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_AsyncOperations](invoice.md#BKMK_Invoice_AsyncOperations) One-To-Many relationship.
+See the [Invoice_AsyncOperations](invoice.md#BKMK_Invoice_AsyncOperations) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_InvoiceDetail_AsyncOperations"></a> InvoiceDetail_AsyncOperations
 
 **Added by**: Sales Solution
 
-See invoicedetail Entity [InvoiceDetail_AsyncOperations](invoicedetail.md#BKMK_InvoiceDetail_AsyncOperations) One-To-Many relationship.
+See the [InvoiceDetail_AsyncOperations](invoicedetail.md#BKMK_InvoiceDetail_AsyncOperations) one-to-many relationship for the [invoicedetail](invoicedetail.md) entity.
 
 ### <a name="BKMK_leadtoopportunitysalesprocess_AsyncOperations"></a> leadtoopportunitysalesprocess_AsyncOperations
 
 **Added by**: Sales Solution
 
-See leadtoopportunitysalesprocess Entity [leadtoopportunitysalesprocess_AsyncOperations](leadtoopportunitysalesprocess.md#BKMK_leadtoopportunitysalesprocess_AsyncOperations) One-To-Many relationship.
+See the [leadtoopportunitysalesprocess_AsyncOperations](leadtoopportunitysalesprocess.md#BKMK_leadtoopportunitysalesprocess_AsyncOperations) one-to-many relationship for the [leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_Opportunity_AsyncOperations"></a> Opportunity_AsyncOperations
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_AsyncOperations](opportunity.md#BKMK_Opportunity_AsyncOperations) One-To-Many relationship.
+See the [Opportunity_AsyncOperations](opportunity.md#BKMK_Opportunity_AsyncOperations) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_OpportunityClose_AsyncOperations"></a> OpportunityClose_AsyncOperations
 
 **Added by**: Sales Solution
 
-See opportunityclose Entity [OpportunityClose_AsyncOperations](opportunityclose.md#BKMK_OpportunityClose_AsyncOperations) One-To-Many relationship.
+See the [OpportunityClose_AsyncOperations](opportunityclose.md#BKMK_OpportunityClose_AsyncOperations) one-to-many relationship for the [opportunityclose](opportunityclose.md) entity.
 
 ### <a name="BKMK_OpportunityProduct_AsyncOperations"></a> OpportunityProduct_AsyncOperations
 
 **Added by**: Sales Solution
 
-See opportunityproduct Entity [OpportunityProduct_AsyncOperations](opportunityproduct.md#BKMK_OpportunityProduct_AsyncOperations) One-To-Many relationship.
+See the [OpportunityProduct_AsyncOperations](opportunityproduct.md#BKMK_OpportunityProduct_AsyncOperations) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 ### <a name="BKMK_opportunitysalesprocess_AsyncOperations"></a> opportunitysalesprocess_AsyncOperations
 
 **Added by**: Sales Solution
 
-See opportunitysalesprocess Entity [opportunitysalesprocess_AsyncOperations](opportunitysalesprocess.md#BKMK_opportunitysalesprocess_AsyncOperations) One-To-Many relationship.
+See the [opportunitysalesprocess_AsyncOperations](opportunitysalesprocess.md#BKMK_opportunitysalesprocess_AsyncOperations) one-to-many relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_OrderClose_AsyncOperations"></a> OrderClose_AsyncOperations
 
 **Added by**: Sales Solution
 
-See orderclose Entity [OrderClose_AsyncOperations](orderclose.md#BKMK_OrderClose_AsyncOperations) One-To-Many relationship.
+See the [OrderClose_AsyncOperations](orderclose.md#BKMK_OrderClose_AsyncOperations) one-to-many relationship for the [orderclose](orderclose.md) entity.
 
 ### <a name="BKMK_Quote_AsyncOperations"></a> Quote_AsyncOperations
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_AsyncOperations](quote.md#BKMK_Quote_AsyncOperations) One-To-Many relationship.
+See the [Quote_AsyncOperations](quote.md#BKMK_Quote_AsyncOperations) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_QuoteClose_AsyncOperations"></a> QuoteClose_AsyncOperations
 
 **Added by**: Sales Solution
 
-See quoteclose Entity [QuoteClose_AsyncOperations](quoteclose.md#BKMK_QuoteClose_AsyncOperations) One-To-Many relationship.
+See the [QuoteClose_AsyncOperations](quoteclose.md#BKMK_QuoteClose_AsyncOperations) one-to-many relationship for the [quoteclose](quoteclose.md) entity.
 
 ### <a name="BKMK_QuoteDetail_AsyncOperations"></a> QuoteDetail_AsyncOperations
 
 **Added by**: Sales Solution
 
-See quotedetail Entity [QuoteDetail_AsyncOperations](quotedetail.md#BKMK_QuoteDetail_AsyncOperations) One-To-Many relationship.
+See the [QuoteDetail_AsyncOperations](quotedetail.md#BKMK_QuoteDetail_AsyncOperations) one-to-many relationship for the [quotedetail](quotedetail.md) entity.
 
 ### <a name="BKMK_SalesLiterature_AsyncOperations"></a> SalesLiterature_AsyncOperations
 
 **Added by**: Sales Solution
 
-See salesliterature Entity [SalesLiterature_AsyncOperations](salesliterature.md#BKMK_SalesLiterature_AsyncOperations) One-To-Many relationship.
+See the [SalesLiterature_AsyncOperations](salesliterature.md#BKMK_SalesLiterature_AsyncOperations) one-to-many relationship for the [salesliterature](salesliterature.md) entity.
 
 ### <a name="BKMK_SalesLiteratureItem_AsyncOperations"></a> SalesLiteratureItem_AsyncOperations
 
 **Added by**: Sales Solution
 
-See salesliteratureitem Entity [SalesLiteratureItem_AsyncOperations](salesliteratureitem.md#BKMK_SalesLiteratureItem_AsyncOperations) One-To-Many relationship.
+See the [SalesLiteratureItem_AsyncOperations](salesliteratureitem.md#BKMK_SalesLiteratureItem_AsyncOperations) one-to-many relationship for the [salesliteratureitem](salesliteratureitem.md) entity.
 
 ### <a name="BKMK_SalesOrder_AsyncOperations"></a> SalesOrder_AsyncOperations
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_AsyncOperations](salesorder.md#BKMK_SalesOrder_AsyncOperations) One-To-Many relationship.
+See the [SalesOrder_AsyncOperations](salesorder.md#BKMK_SalesOrder_AsyncOperations) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_SalesOrderDetail_AsyncOperations"></a> SalesOrderDetail_AsyncOperations
 
 **Added by**: Sales Solution
 
-See salesorderdetail Entity [SalesOrderDetail_AsyncOperations](salesorderdetail.md#BKMK_SalesOrderDetail_AsyncOperations) One-To-Many relationship.
+See the [SalesOrderDetail_AsyncOperations](salesorderdetail.md#BKMK_SalesOrderDetail_AsyncOperations) one-to-many relationship for the [salesorderdetail](salesorderdetail.md) entity.
 
 ### <a name="BKMK_Competitor_AsyncOperations"></a> Competitor_AsyncOperations
 
 **Added by**: Sales Solution
 
-See competitor Entity [Competitor_AsyncOperations](competitor.md#BKMK_Competitor_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_adminsettingsentity_AsyncOperations"></a> adminsettingsentity_AsyncOperations
-
-**Added by**: Sales Patch Solution
-
-See adminsettingsentity Entity [adminsettingsentity_AsyncOperations](adminsettingsentity.md#BKMK_adminsettingsentity_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_forecastdefinition_AsyncOperations"></a> msdyn_forecastdefinition_AsyncOperations
-
-**Added by**: Forecasting Solution
-
-See msdyn_forecastdefinition Entity [msdyn_forecastdefinition_AsyncOperations](msdyn_forecastdefinition.md#BKMK_msdyn_forecastdefinition_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_forecastinstance_AsyncOperations"></a> msdyn_forecastinstance_AsyncOperations
-
-**Added by**: Forecasting Solution
-
-See msdyn_forecastinstance Entity [msdyn_forecastinstance_AsyncOperations](msdyn_forecastinstance.md#BKMK_msdyn_forecastinstance_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_forecastrecurrence_AsyncOperations"></a> msdyn_forecastrecurrence_AsyncOperations
-
-**Added by**: Forecasting Solution
-
-See msdyn_forecastrecurrence Entity [msdyn_forecastrecurrence_AsyncOperations](msdyn_forecastrecurrence.md#BKMK_msdyn_forecastrecurrence_AsyncOperations) One-To-Many relationship.
+See the [Competitor_AsyncOperations](competitor.md#BKMK_Competitor_AsyncOperations) one-to-many relationship for the [competitor](competitor.md) entity.
 
 ### <a name="BKMK_msdyn_relationshipinsightsunifiedconfig_AsyncOperations"></a> msdyn_relationshipinsightsunifiedconfig_AsyncOperations
 
 **Added by**: SI Common Solution
 
-See msdyn_relationshipinsightsunifiedconfig Entity [msdyn_relationshipinsightsunifiedconfig_AsyncOperations](msdyn_relationshipinsightsunifiedconfig.md#BKMK_msdyn_relationshipinsightsunifiedconfig_AsyncOperations) One-To-Many relationship.
+See the [msdyn_relationshipinsightsunifiedconfig_AsyncOperations](msdyn_relationshipinsightsunifiedconfig.md#BKMK_msdyn_relationshipinsightsunifiedconfig_AsyncOperations) one-to-many relationship for the [msdyn_relationshipinsightsunifiedconfig](msdyn_relationshipinsightsunifiedconfig.md) entity.
 
 ### <a name="BKMK_msdyn_siconfig_AsyncOperations"></a> msdyn_siconfig_AsyncOperations
 
 **Added by**: SI Common Solution
 
-See msdyn_siconfig Entity [msdyn_siconfig_AsyncOperations](msdyn_siconfig.md#BKMK_msdyn_siconfig_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_untrackedappointment_AsyncOperations"></a> msdyn_untrackedappointment_AsyncOperations
-
-**Added by**: AutoDataCapture Solution
-
-See msdyn_untrackedappointment Entity [msdyn_untrackedappointment_AsyncOperations](msdyn_untrackedappointment.md#BKMK_msdyn_untrackedappointment_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_notesanalysisconfig_AsyncOperations"></a> msdyn_notesanalysisconfig_AsyncOperations
-
-**Added by**: Notesanalysis Solution
-
-See msdyn_notesanalysisconfig Entity [msdyn_notesanalysisconfig_AsyncOperations](msdyn_notesanalysisconfig.md#BKMK_msdyn_notesanalysisconfig_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_icebreakersconfig_AsyncOperations"></a> msdyn_icebreakersconfig_AsyncOperations
-
-**Added by**: Talking points Solution
-
-See msdyn_icebreakersconfig Entity [msdyn_icebreakersconfig_AsyncOperations](msdyn_icebreakersconfig.md#BKMK_msdyn_icebreakersconfig_AsyncOperations) One-To-Many relationship.
+See the [msdyn_siconfig_AsyncOperations](msdyn_siconfig.md#BKMK_msdyn_siconfig_AsyncOperations) one-to-many relationship for the [msdyn_siconfig](msdyn_siconfig.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_AsyncOperations"></a> msdyn_postalbum_AsyncOperations
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_AsyncOperations](msdyn_postalbum.md#BKMK_msdyn_postalbum_AsyncOperations) One-To-Many relationship.
+See the [msdyn_postalbum_AsyncOperations](msdyn_postalbum.md#BKMK_msdyn_postalbum_AsyncOperations) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_msdyn_postconfig_AsyncOperations"></a> msdyn_postconfig_AsyncOperations
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postconfig Entity [msdyn_postconfig_AsyncOperations](msdyn_postconfig.md#BKMK_msdyn_postconfig_AsyncOperations) One-To-Many relationship.
+See the [msdyn_postconfig_AsyncOperations](msdyn_postconfig.md#BKMK_msdyn_postconfig_AsyncOperations) one-to-many relationship for the [msdyn_postconfig](msdyn_postconfig.md) entity.
 
 ### <a name="BKMK_msdyn_postruleconfig_AsyncOperations"></a> msdyn_postruleconfig_AsyncOperations
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postruleconfig Entity [msdyn_postruleconfig_AsyncOperations](msdyn_postruleconfig.md#BKMK_msdyn_postruleconfig_AsyncOperations) One-To-Many relationship.
+See the [msdyn_postruleconfig_AsyncOperations](msdyn_postruleconfig.md#BKMK_msdyn_postruleconfig_AsyncOperations) one-to-many relationship for the [msdyn_postruleconfig](msdyn_postruleconfig.md) entity.
 
 ### <a name="BKMK_msdyn_wallsavedquery_AsyncOperations"></a> msdyn_wallsavedquery_AsyncOperations
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_wallsavedquery Entity [msdyn_wallsavedquery_AsyncOperations](msdyn_wallsavedquery.md#BKMK_msdyn_wallsavedquery_AsyncOperations) One-To-Many relationship.
+See the [msdyn_wallsavedquery_AsyncOperations](msdyn_wallsavedquery.md#BKMK_msdyn_wallsavedquery_AsyncOperations) one-to-many relationship for the [msdyn_wallsavedquery](msdyn_wallsavedquery.md) entity.
 
 ### <a name="BKMK_msdyn_wallsavedqueryusersettings_AsyncOperations"></a> msdyn_wallsavedqueryusersettings_AsyncOperations
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_wallsavedqueryusersettings Entity [msdyn_wallsavedqueryusersettings_AsyncOperations](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedqueryusersettings_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_teamscollaboration_AsyncOperations"></a> msdyn_teamscollaboration_AsyncOperations
-
-**Added by**: This solution contains Office Productivity implementation Solution
-
-See msdyn_teamscollaboration Entity [msdyn_teamscollaboration_AsyncOperations](msdyn_teamscollaboration.md#BKMK_msdyn_teamscollaboration_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_actual_AsyncOperations"></a> msdyn_actual_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_actual Entity [msdyn_actual_AsyncOperations](msdyn_actual.md#BKMK_msdyn_actual_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookableresourceassociation_AsyncOperations"></a> msdyn_bookableresourceassociation_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookableresourceassociation Entity [msdyn_bookableresourceassociation_AsyncOperations](msdyn_bookableresourceassociation.md#BKMK_msdyn_bookableresourceassociation_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalert_AsyncOperations"></a> msdyn_bookingalert_AsyncOperations
-
-**Added by**: Active Solution Solution
-
-See msdyn_bookingalert Entity [msdyn_bookingalert_AsyncOperations](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_AsyncOperations"></a> msdyn_bookingalertstatus_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_AsyncOperations](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingchange_AsyncOperations"></a> msdyn_bookingchange_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingchange Entity [msdyn_bookingchange_AsyncOperations](msdyn_bookingchange.md#BKMK_msdyn_bookingchange_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_AsyncOperations"></a> msdyn_bookingrule_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_AsyncOperations](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingsetupmetadata_AsyncOperations"></a> msdyn_bookingsetupmetadata_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingsetupmetadata Entity [msdyn_bookingsetupmetadata_AsyncOperations](msdyn_bookingsetupmetadata.md#BKMK_msdyn_bookingsetupmetadata_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_businessclosure_AsyncOperations"></a> msdyn_businessclosure_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_businessclosure Entity [msdyn_businessclosure_AsyncOperations](msdyn_businessclosure.md#BKMK_msdyn_businessclosure_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_clientextension_AsyncOperations"></a> msdyn_clientextension_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_clientextension Entity [msdyn_clientextension_AsyncOperations](msdyn_clientextension.md#BKMK_msdyn_clientextension_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_configuration_AsyncOperations"></a> msdyn_configuration_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_configuration Entity [msdyn_configuration_AsyncOperations](msdyn_configuration.md#BKMK_msdyn_configuration_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_organizationalunit_AsyncOperations"></a> msdyn_organizationalunit_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_organizationalunit Entity [msdyn_organizationalunit_AsyncOperations](msdyn_organizationalunit.md#BKMK_msdyn_organizationalunit_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_priority_AsyncOperations"></a> msdyn_priority_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_priority Entity [msdyn_priority_AsyncOperations](msdyn_priority.md#BKMK_msdyn_priority_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementcharacteristic_AsyncOperations"></a> msdyn_requirementcharacteristic_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementcharacteristic Entity [msdyn_requirementcharacteristic_AsyncOperations](msdyn_requirementcharacteristic.md#BKMK_msdyn_requirementcharacteristic_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementgroup_AsyncOperations"></a> msdyn_requirementgroup_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementgroup Entity [msdyn_requirementgroup_AsyncOperations](msdyn_requirementgroup.md#BKMK_msdyn_requirementgroup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementorganizationunit_AsyncOperations"></a> msdyn_requirementorganizationunit_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementorganizationunit Entity [msdyn_requirementorganizationunit_AsyncOperations](msdyn_requirementorganizationunit.md#BKMK_msdyn_requirementorganizationunit_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementrelationship_AsyncOperations"></a> msdyn_requirementrelationship_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementrelationship Entity [msdyn_requirementrelationship_AsyncOperations](msdyn_requirementrelationship.md#BKMK_msdyn_requirementrelationship_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementresourcecategory_AsyncOperations"></a> msdyn_requirementresourcecategory_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementresourcecategory Entity [msdyn_requirementresourcecategory_AsyncOperations](msdyn_requirementresourcecategory.md#BKMK_msdyn_requirementresourcecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementresourcepreference_AsyncOperations"></a> msdyn_requirementresourcepreference_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementresourcepreference Entity [msdyn_requirementresourcepreference_AsyncOperations](msdyn_requirementresourcepreference.md#BKMK_msdyn_requirementresourcepreference_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_requirementstatus_AsyncOperations"></a> msdyn_requirementstatus_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_requirementstatus Entity [msdyn_requirementstatus_AsyncOperations](msdyn_requirementstatus.md#BKMK_msdyn_requirementstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcerequirement_AsyncOperations"></a> msdyn_resourcerequirement_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_AsyncOperations](msdyn_resourcerequirement.md#BKMK_msdyn_resourcerequirement_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcerequirementdetail_AsyncOperations"></a> msdyn_resourcerequirementdetail_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourcerequirementdetail Entity [msdyn_resourcerequirementdetail_AsyncOperations](msdyn_resourcerequirementdetail.md#BKMK_msdyn_resourcerequirementdetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_AsyncOperations"></a> msdyn_resourceterritory_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_AsyncOperations](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_scheduleboardsetting_AsyncOperations"></a> msdyn_scheduleboardsetting_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_scheduleboardsetting Entity [msdyn_scheduleboardsetting_AsyncOperations](msdyn_scheduleboardsetting.md#BKMK_msdyn_scheduleboardsetting_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_schedulingparameter_AsyncOperations"></a> msdyn_schedulingparameter_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_schedulingparameter Entity [msdyn_schedulingparameter_AsyncOperations](msdyn_schedulingparameter.md#BKMK_msdyn_schedulingparameter_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_AsyncOperations"></a> msdyn_systemuserschedulersetting_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_AsyncOperations](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_AsyncOperations"></a> msdyn_timegroup_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_AsyncOperations](msdyn_timegroup.md#BKMK_msdyn_timegroup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_AsyncOperations"></a> msdyn_timegroupdetail_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_AsyncOperations](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactionorigin_AsyncOperations"></a> msdyn_transactionorigin_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_transactionorigin Entity [msdyn_transactionorigin_AsyncOperations](msdyn_transactionorigin.md#BKMK_msdyn_transactionorigin_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workhourtemplate_AsyncOperations"></a> msdyn_workhourtemplate_AsyncOperations
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_workhourtemplate Entity [msdyn_workhourtemplate_AsyncOperations](msdyn_workhourtemplate.md#BKMK_msdyn_workhourtemplate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_accountpricelist_AsyncOperations"></a> msdyn_accountpricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_accountpricelist Entity [msdyn_accountpricelist_AsyncOperations](msdyn_accountpricelist.md#BKMK_msdyn_accountpricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_approval_AsyncOperations"></a> msdyn_approval_AsyncOperations
-
-**Added by**: Active Solution Solution
-
-See msdyn_approval Entity [msdyn_approval_AsyncOperations](msdyn_approval.md#BKMK_msdyn_approval_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_batchjob_AsyncOperations"></a> msdyn_batchjob_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_batchjob Entity [msdyn_batchjob_AsyncOperations](msdyn_batchjob.md#BKMK_msdyn_batchjob_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations"></a> msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_bpf_665e73aa18c247d886bfc50499c73b82 Entity [msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d Entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_characteristicreqforteammember_AsyncOperations"></a> msdyn_characteristicreqforteammember_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_characteristicreqforteammember Entity [msdyn_characteristicreqforteammember_AsyncOperations](msdyn_characteristicreqforteammember.md#BKMK_msdyn_characteristicreqforteammember_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_contactpricelist_AsyncOperations"></a> msdyn_contactpricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_contactpricelist Entity [msdyn_contactpricelist_AsyncOperations](msdyn_contactpricelist.md#BKMK_msdyn_contactpricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations"></a> msdyn_contractlineinvoiceschedule_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_contractlineinvoiceschedule Entity [msdyn_contractlineinvoiceschedule_AsyncOperations](msdyn_contractlineinvoiceschedule.md#BKMK_msdyn_contractlineinvoiceschedule_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_contractlinescheduleofvalue_AsyncOperations"></a> msdyn_contractlinescheduleofvalue_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_contractlinescheduleofvalue Entity [msdyn_contractlinescheduleofvalue_AsyncOperations](msdyn_contractlinescheduleofvalue.md#BKMK_msdyn_contractlinescheduleofvalue_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_dataexport_AsyncOperations"></a> msdyn_dataexport_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_dataexport Entity [msdyn_dataexport_AsyncOperations](msdyn_dataexport.md#BKMK_msdyn_dataexport_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_delegation_AsyncOperations"></a> msdyn_delegation_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_delegation Entity [msdyn_delegation_AsyncOperations](msdyn_delegation.md#BKMK_msdyn_delegation_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_dimension_AsyncOperations"></a> msdyn_dimension_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_dimension Entity [msdyn_dimension_AsyncOperations](msdyn_dimension.md#BKMK_msdyn_dimension_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_dimensionfieldname_AsyncOperations"></a> msdyn_dimensionfieldname_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_dimensionfieldname Entity [msdyn_dimensionfieldname_AsyncOperations](msdyn_dimensionfieldname.md#BKMK_msdyn_dimensionfieldname_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_estimate_AsyncOperations"></a> msdyn_estimate_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_estimate Entity [msdyn_estimate_AsyncOperations](msdyn_estimate.md#BKMK_msdyn_estimate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_estimateline_AsyncOperations"></a> msdyn_estimateline_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_estimateline Entity [msdyn_estimateline_AsyncOperations](msdyn_estimateline.md#BKMK_msdyn_estimateline_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_expense_AsyncOperations"></a> msdyn_expense_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_expense Entity [msdyn_expense_AsyncOperations](msdyn_expense.md#BKMK_msdyn_expense_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_expensecategory_AsyncOperations"></a> msdyn_expensecategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_expensecategory Entity [msdyn_expensecategory_AsyncOperations](msdyn_expensecategory.md#BKMK_msdyn_expensecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_expensereceipt_AsyncOperations"></a> msdyn_expensereceipt_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_expensereceipt Entity [msdyn_expensereceipt_AsyncOperations](msdyn_expensereceipt.md#BKMK_msdyn_expensereceipt_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fact_AsyncOperations"></a> msdyn_fact_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_fact Entity [msdyn_fact_AsyncOperations](msdyn_fact.md#BKMK_msdyn_fact_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldcomputation_AsyncOperations"></a> msdyn_fieldcomputation_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_fieldcomputation Entity [msdyn_fieldcomputation_AsyncOperations](msdyn_fieldcomputation.md#BKMK_msdyn_fieldcomputation_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_findworkevent_AsyncOperations"></a> msdyn_findworkevent_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_findworkevent Entity [msdyn_findworkevent_AsyncOperations](msdyn_findworkevent.md#BKMK_msdyn_findworkevent_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_integrationjob_AsyncOperations"></a> msdyn_integrationjob_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_integrationjob Entity [msdyn_integrationjob_AsyncOperations](msdyn_integrationjob.md#BKMK_msdyn_integrationjob_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_integrationjobdetail_AsyncOperations"></a> msdyn_integrationjobdetail_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_integrationjobdetail Entity [msdyn_integrationjobdetail_AsyncOperations](msdyn_integrationjobdetail.md#BKMK_msdyn_integrationjobdetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_invoicefrequency_AsyncOperations"></a> msdyn_invoicefrequency_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_invoicefrequency Entity [msdyn_invoicefrequency_AsyncOperations](msdyn_invoicefrequency.md#BKMK_msdyn_invoicefrequency_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_invoicefrequencydetail_AsyncOperations"></a> msdyn_invoicefrequencydetail_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_invoicefrequencydetail Entity [msdyn_invoicefrequencydetail_AsyncOperations](msdyn_invoicefrequencydetail.md#BKMK_msdyn_invoicefrequencydetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_invoicelinetransaction_AsyncOperations"></a> msdyn_invoicelinetransaction_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_invoicelinetransaction Entity [msdyn_invoicelinetransaction_AsyncOperations](msdyn_invoicelinetransaction.md#BKMK_msdyn_invoicelinetransaction_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_journal_AsyncOperations"></a> msdyn_journal_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_journal Entity [msdyn_journal_AsyncOperations](msdyn_journal.md#BKMK_msdyn_journal_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_journalline_AsyncOperations"></a> msdyn_journalline_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_journalline Entity [msdyn_journalline_AsyncOperations](msdyn_journalline.md#BKMK_msdyn_journalline_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_mlresultcache_AsyncOperations"></a> msdyn_mlresultcache_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_mlresultcache Entity [msdyn_mlresultcache_AsyncOperations](msdyn_mlresultcache.md#BKMK_msdyn_mlresultcache_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_opportunitylineresourcecategory_AsyncOperations"></a> msdyn_opportunitylineresourcecategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_opportunitylineresourcecategory Entity [msdyn_opportunitylineresourcecategory_AsyncOperations](msdyn_opportunitylineresourcecategory.md#BKMK_msdyn_opportunitylineresourcecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_opportunitylinetransaction_AsyncOperations"></a> msdyn_opportunitylinetransaction_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_opportunitylinetransaction Entity [msdyn_opportunitylinetransaction_AsyncOperations](msdyn_opportunitylinetransaction.md#BKMK_msdyn_opportunitylinetransaction_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_opportunitylinetransactioncategory_AsyncOperations"></a> msdyn_opportunitylinetransactioncategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_opportunitylinetransactioncategory Entity [msdyn_opportunitylinetransactioncategory_AsyncOperations](msdyn_opportunitylinetransactioncategory.md#BKMK_msdyn_opportunitylinetransactioncategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_opportunitylinetransactionclassificatio_AsyncOperations"></a> msdyn_opportunitylinetransactionclassificatio_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_opportunitylinetransactionclassificatio Entity [msdyn_opportunitylinetransactionclassificatio_AsyncOperations](msdyn_opportunitylinetransactionclassificatio.md#BKMK_msdyn_opportunitylinetransactionclassificatio_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_opportunitypricelist_AsyncOperations"></a> msdyn_opportunitypricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_opportunitypricelist Entity [msdyn_opportunitypricelist_AsyncOperations](msdyn_opportunitypricelist.md#BKMK_msdyn_opportunitypricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderlineresourcecategory_AsyncOperations"></a> msdyn_orderlineresourcecategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_orderlineresourcecategory Entity [msdyn_orderlineresourcecategory_AsyncOperations](msdyn_orderlineresourcecategory.md#BKMK_msdyn_orderlineresourcecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderlinetransaction_AsyncOperations"></a> msdyn_orderlinetransaction_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_orderlinetransaction Entity [msdyn_orderlinetransaction_AsyncOperations](msdyn_orderlinetransaction.md#BKMK_msdyn_orderlinetransaction_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderlinetransactioncategory_AsyncOperations"></a> msdyn_orderlinetransactioncategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_orderlinetransactioncategory Entity [msdyn_orderlinetransactioncategory_AsyncOperations](msdyn_orderlinetransactioncategory.md#BKMK_msdyn_orderlinetransactioncategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderlinetransactionclassification_AsyncOperations"></a> msdyn_orderlinetransactionclassification_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_orderlinetransactionclassification Entity [msdyn_orderlinetransactionclassification_AsyncOperations](msdyn_orderlinetransactionclassification.md#BKMK_msdyn_orderlinetransactionclassification_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderpricelist_AsyncOperations"></a> msdyn_orderpricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_orderpricelist Entity [msdyn_orderpricelist_AsyncOperations](msdyn_orderpricelist.md#BKMK_msdyn_orderpricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_AsyncOperations"></a> msdyn_processnotes_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_AsyncOperations](msdyn_processnotes.md#BKMK_msdyn_processnotes_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_project_AsyncOperations"></a> msdyn_project_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_project Entity [msdyn_project_AsyncOperations](msdyn_project.md#BKMK_msdyn_project_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectapproval_AsyncOperations"></a> msdyn_projectapproval_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectapproval Entity [msdyn_projectapproval_AsyncOperations](msdyn_projectapproval.md#BKMK_msdyn_projectapproval_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectparameter_AsyncOperations"></a> msdyn_projectparameter_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectparameter Entity [msdyn_projectparameter_AsyncOperations](msdyn_projectparameter.md#BKMK_msdyn_projectparameter_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectparameterpricelist_AsyncOperations"></a> msdyn_projectparameterpricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectparameterpricelist Entity [msdyn_projectparameterpricelist_AsyncOperations](msdyn_projectparameterpricelist.md#BKMK_msdyn_projectparameterpricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectpricelist_AsyncOperations"></a> msdyn_projectpricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectpricelist Entity [msdyn_projectpricelist_AsyncOperations](msdyn_projectpricelist.md#BKMK_msdyn_projectpricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projecttask_AsyncOperations"></a> msdyn_projecttask_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projecttask Entity [msdyn_projecttask_AsyncOperations](msdyn_projecttask.md#BKMK_msdyn_projecttask_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projecttaskdependency_AsyncOperations"></a> msdyn_projecttaskdependency_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projecttaskdependency Entity [msdyn_projecttaskdependency_AsyncOperations](msdyn_projecttaskdependency.md#BKMK_msdyn_projecttaskdependency_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projecttaskstatususer_AsyncOperations"></a> msdyn_projecttaskstatususer_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projecttaskstatususer Entity [msdyn_projecttaskstatususer_AsyncOperations](msdyn_projecttaskstatususer.md#BKMK_msdyn_projecttaskstatususer_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_AsyncOperations"></a> msdyn_projectteam_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_AsyncOperations](msdyn_projectteam.md#BKMK_msdyn_projectteam_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteammembersignup_AsyncOperations"></a> msdyn_projectteammembersignup_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteammembersignup Entity [msdyn_projectteammembersignup_AsyncOperations](msdyn_projectteammembersignup.md#BKMK_msdyn_projectteammembersignup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projecttransactioncategory_AsyncOperations"></a> msdyn_projecttransactioncategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projecttransactioncategory Entity [msdyn_projecttransactioncategory_AsyncOperations](msdyn_projecttransactioncategory.md#BKMK_msdyn_projecttransactioncategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelineanalyticsbreakdown_AsyncOperations"></a> msdyn_quotelineanalyticsbreakdown_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelineanalyticsbreakdown Entity [msdyn_quotelineanalyticsbreakdown_AsyncOperations](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_quotelineanalyticsbreakdown_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations"></a> msdyn_quotelineinvoiceschedule_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelineinvoiceschedule Entity [msdyn_quotelineinvoiceschedule_AsyncOperations](msdyn_quotelineinvoiceschedule.md#BKMK_msdyn_quotelineinvoiceschedule_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelineresourcecategory_AsyncOperations"></a> msdyn_quotelineresourcecategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelineresourcecategory Entity [msdyn_quotelineresourcecategory_AsyncOperations](msdyn_quotelineresourcecategory.md#BKMK_msdyn_quotelineresourcecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelinescheduleofvalue_AsyncOperations"></a> msdyn_quotelinescheduleofvalue_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelinescheduleofvalue Entity [msdyn_quotelinescheduleofvalue_AsyncOperations](msdyn_quotelinescheduleofvalue.md#BKMK_msdyn_quotelinescheduleofvalue_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelinetransaction_AsyncOperations"></a> msdyn_quotelinetransaction_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelinetransaction Entity [msdyn_quotelinetransaction_AsyncOperations](msdyn_quotelinetransaction.md#BKMK_msdyn_quotelinetransaction_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelinetransactioncategory_AsyncOperations"></a> msdyn_quotelinetransactioncategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelinetransactioncategory Entity [msdyn_quotelinetransactioncategory_AsyncOperations](msdyn_quotelinetransactioncategory.md#BKMK_msdyn_quotelinetransactioncategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotelinetransactionclassification_AsyncOperations"></a> msdyn_quotelinetransactionclassification_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotelinetransactionclassification Entity [msdyn_quotelinetransactionclassification_AsyncOperations](msdyn_quotelinetransactionclassification.md#BKMK_msdyn_quotelinetransactionclassification_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotepricelist_AsyncOperations"></a> msdyn_quotepricelist_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_quotepricelist Entity [msdyn_quotepricelist_AsyncOperations](msdyn_quotepricelist.md#BKMK_msdyn_quotepricelist_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceassignment_AsyncOperations"></a> msdyn_resourceassignment_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourceassignment Entity [msdyn_resourceassignment_AsyncOperations](msdyn_resourceassignment.md#BKMK_msdyn_resourceassignment_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceassignmentdetail_AsyncOperations"></a> msdyn_resourceassignmentdetail_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourceassignmentdetail Entity [msdyn_resourceassignmentdetail_AsyncOperations](msdyn_resourceassignmentdetail.md#BKMK_msdyn_resourceassignmentdetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcecategorymarkuppricelevel_AsyncOperations"></a> msdyn_resourcecategorymarkuppricelevel_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourcecategorymarkuppricelevel Entity [msdyn_resourcecategorymarkuppricelevel_AsyncOperations](msdyn_resourcecategorymarkuppricelevel.md#BKMK_msdyn_resourcecategorymarkuppricelevel_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcecategorypricelevel_AsyncOperations"></a> msdyn_resourcecategorypricelevel_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourcecategorypricelevel Entity [msdyn_resourcecategorypricelevel_AsyncOperations](msdyn_resourcecategorypricelevel.md#BKMK_msdyn_resourcecategorypricelevel_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcerequest_AsyncOperations"></a> msdyn_resourcerequest_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_resourcerequest Entity [msdyn_resourcerequest_AsyncOperations](msdyn_resourcerequest.md#BKMK_msdyn_resourcerequest_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rolecompetencyrequirement_AsyncOperations"></a> msdyn_rolecompetencyrequirement_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_rolecompetencyrequirement Entity [msdyn_rolecompetencyrequirement_AsyncOperations](msdyn_rolecompetencyrequirement.md#BKMK_msdyn_rolecompetencyrequirement_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_roleutilization_AsyncOperations"></a> msdyn_roleutilization_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_roleutilization Entity [msdyn_roleutilization_AsyncOperations](msdyn_roleutilization.md#BKMK_msdyn_roleutilization_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeentry_AsyncOperations"></a> msdyn_timeentry_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_timeentry Entity [msdyn_timeentry_AsyncOperations](msdyn_timeentry.md#BKMK_msdyn_timeentry_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffcalendar_AsyncOperations"></a> msdyn_timeoffcalendar_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_timeoffcalendar Entity [msdyn_timeoffcalendar_AsyncOperations](msdyn_timeoffcalendar.md#BKMK_msdyn_timeoffcalendar_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactioncategory_AsyncOperations"></a> msdyn_transactioncategory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactioncategory Entity [msdyn_transactioncategory_AsyncOperations](msdyn_transactioncategory.md#BKMK_msdyn_transactioncategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactioncategoryclassification_AsyncOperations"></a> msdyn_transactioncategoryclassification_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactioncategoryclassification Entity [msdyn_transactioncategoryclassification_AsyncOperations](msdyn_transactioncategoryclassification.md#BKMK_msdyn_transactioncategoryclassification_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactioncategoryhierarchyelement_AsyncOperations"></a> msdyn_transactioncategoryhierarchyelement_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactioncategoryhierarchyelement Entity [msdyn_transactioncategoryhierarchyelement_AsyncOperations](msdyn_transactioncategoryhierarchyelement.md#BKMK_msdyn_transactioncategoryhierarchyelement_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactioncategorypricelevel_AsyncOperations"></a> msdyn_transactioncategorypricelevel_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactioncategorypricelevel Entity [msdyn_transactioncategorypricelevel_AsyncOperations](msdyn_transactioncategorypricelevel.md#BKMK_msdyn_transactioncategorypricelevel_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactionconnection_AsyncOperations"></a> msdyn_transactionconnection_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactionconnection Entity [msdyn_transactionconnection_AsyncOperations](msdyn_transactionconnection.md#BKMK_msdyn_transactionconnection_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_transactiontype_AsyncOperations"></a> msdyn_transactiontype_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactiontype Entity [msdyn_transactiontype_AsyncOperations](msdyn_transactiontype.md#BKMK_msdyn_transactiontype_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_userworkhistory_AsyncOperations"></a> msdyn_userworkhistory_AsyncOperations
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_userworkhistory Entity [msdyn_userworkhistory_AsyncOperations](msdyn_userworkhistory.md#BKMK_msdyn_userworkhistory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_AsyncOperations"></a> msdyn_agreement_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_AsyncOperations](msdyn_agreement.md#BKMK_msdyn_agreement_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_AsyncOperations"></a> msdyn_agreementbookingdate_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_AsyncOperations](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_AsyncOperations"></a> msdyn_agreementbookingincident_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_AsyncOperations](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_AsyncOperations"></a> msdyn_agreementbookingproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_AsyncOperations](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_AsyncOperations"></a> msdyn_agreementbookingservice_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_AsyncOperations](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_AsyncOperations"></a> msdyn_agreementbookingservicetask_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_AsyncOperations](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_AsyncOperations"></a> msdyn_agreementbookingsetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_AsyncOperations](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_AsyncOperations"></a> msdyn_agreementinvoicedate_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_AsyncOperations](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_AsyncOperations"></a> msdyn_agreementinvoiceproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_AsyncOperations](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_AsyncOperations"></a> msdyn_agreementinvoicesetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_AsyncOperations](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementsubstatus_AsyncOperations"></a> msdyn_agreementsubstatus_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementsubstatus Entity [msdyn_agreementsubstatus_AsyncOperations](msdyn_agreementsubstatus.md#BKMK_msdyn_agreementsubstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingjournal_AsyncOperations"></a> msdyn_bookingjournal_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingjournal Entity [msdyn_bookingjournal_AsyncOperations](msdyn_bookingjournal.md#BKMK_msdyn_bookingjournal_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_AsyncOperations"></a> msdyn_bookingtimestamp_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_AsyncOperations](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations"></a> msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 Entity [msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations"></a> msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_989e9b1857e24af18787d5143b67523b Entity [msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations"></a> msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Entity [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_AsyncOperations"></a> msdyn_customerasset_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_AsyncOperations](msdyn_customerasset.md#BKMK_msdyn_customerasset_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerassetcategory_AsyncOperations"></a> msdyn_customerassetcategory_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_customerassetcategory Entity [msdyn_customerassetcategory_AsyncOperations](msdyn_customerassetcategory.md#BKMK_msdyn_customerassetcategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_entitlementapplication_AsyncOperations"></a> msdyn_entitlementapplication_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_entitlementapplication Entity [msdyn_entitlementapplication_AsyncOperations](msdyn_entitlementapplication.md#BKMK_msdyn_entitlementapplication_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicepricelistitem_AsyncOperations"></a> msdyn_fieldservicepricelistitem_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicepricelistitem Entity [msdyn_fieldservicepricelistitem_AsyncOperations](msdyn_fieldservicepricelistitem.md#BKMK_msdyn_fieldservicepricelistitem_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_AsyncOperations"></a> msdyn_fieldservicesetting_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_AsyncOperations](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldserviceslaconfiguration_AsyncOperations"></a> msdyn_fieldserviceslaconfiguration_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldserviceslaconfiguration Entity [msdyn_fieldserviceslaconfiguration_AsyncOperations](msdyn_fieldserviceslaconfiguration.md#BKMK_msdyn_fieldserviceslaconfiguration_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesystemjob_AsyncOperations"></a> msdyn_fieldservicesystemjob_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesystemjob Entity [msdyn_fieldservicesystemjob_AsyncOperations](msdyn_fieldservicesystemjob.md#BKMK_msdyn_fieldservicesystemjob_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttype_AsyncOperations"></a> msdyn_incidenttype_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttype Entity [msdyn_incidenttype_AsyncOperations](msdyn_incidenttype.md#BKMK_msdyn_incidenttype_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_AsyncOperations"></a> msdyn_incidenttypecharacteristic_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_AsyncOperations](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_AsyncOperations"></a> msdyn_incidenttypeproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_AsyncOperations](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_AsyncOperations"></a> msdyn_incidenttypeservice_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_AsyncOperations](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservicetask_AsyncOperations"></a> msdyn_incidenttypeservicetask_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservicetask Entity [msdyn_incidenttypeservicetask_AsyncOperations](msdyn_incidenttypeservicetask.md#BKMK_msdyn_incidenttypeservicetask_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypessetup_AsyncOperations"></a> msdyn_incidenttypessetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypessetup Entity [msdyn_incidenttypessetup_AsyncOperations](msdyn_incidenttypessetup.md#BKMK_msdyn_incidenttypessetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttype_requirementgroup_AsyncOperations"></a> msdyn_incidenttype_requirementgroup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttype_requirementgroup Entity [msdyn_incidenttype_requirementgroup_AsyncOperations](msdyn_incidenttype_requirementgroup.md#BKMK_msdyn_incidenttype_requirementgroup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_AsyncOperations"></a> msdyn_inventoryadjustment_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_AsyncOperations](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_AsyncOperations"></a> msdyn_inventoryadjustmentproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_AsyncOperations](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_AsyncOperations"></a> msdyn_inventoryjournal_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_AsyncOperations](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_AsyncOperations"></a> msdyn_inventorytransfer_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_AsyncOperations](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderinvoicingdate_AsyncOperations"></a> msdyn_orderinvoicingdate_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_orderinvoicingdate Entity [msdyn_orderinvoicingdate_AsyncOperations](msdyn_orderinvoicingdate.md#BKMK_msdyn_orderinvoicingdate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderinvoicingproduct_AsyncOperations"></a> msdyn_orderinvoicingproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_orderinvoicingproduct Entity [msdyn_orderinvoicingproduct_AsyncOperations](msdyn_orderinvoicingproduct.md#BKMK_msdyn_orderinvoicingproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderinvoicingsetup_AsyncOperations"></a> msdyn_orderinvoicingsetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_orderinvoicingsetup Entity [msdyn_orderinvoicingsetup_AsyncOperations](msdyn_orderinvoicingsetup.md#BKMK_msdyn_orderinvoicingsetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_orderinvoicingsetupdate_AsyncOperations"></a> msdyn_orderinvoicingsetupdate_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_orderinvoicingsetupdate Entity [msdyn_orderinvoicingsetupdate_AsyncOperations](msdyn_orderinvoicingsetupdate.md#BKMK_msdyn_orderinvoicingsetupdate_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_AsyncOperations"></a> msdyn_payment_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_AsyncOperations](msdyn_payment.md#BKMK_msdyn_payment_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_AsyncOperations"></a> msdyn_paymentdetail_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_AsyncOperations](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_AsyncOperations"></a> msdyn_paymentmethod_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_AsyncOperations](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_AsyncOperations"></a> msdyn_paymentterm_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_AsyncOperations](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_AsyncOperations"></a> msdyn_postalcode_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_AsyncOperations](msdyn_postalcode.md#BKMK_msdyn_postalcode_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_AsyncOperations"></a> msdyn_productinventory_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_AsyncOperations](msdyn_productinventory.md#BKMK_msdyn_productinventory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_AsyncOperations"></a> msdyn_purchaseorder_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_AsyncOperations](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_AsyncOperations"></a> msdyn_purchaseorderbill_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_AsyncOperations](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_AsyncOperations"></a> msdyn_purchaseorderproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_AsyncOperations](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_AsyncOperations"></a> msdyn_purchaseorderreceipt_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_AsyncOperations](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_AsyncOperations"></a> msdyn_purchaseorderreceiptproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_AsyncOperations](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_AsyncOperations"></a> msdyn_purchaseordersubstatus_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_AsyncOperations](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_AsyncOperations"></a> msdyn_quotebookingincident_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_AsyncOperations](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_AsyncOperations"></a> msdyn_quotebookingproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_AsyncOperations](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_AsyncOperations"></a> msdyn_quotebookingservice_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_AsyncOperations](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_AsyncOperations"></a> msdyn_quotebookingservicetask_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_AsyncOperations](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingsetup_AsyncOperations"></a> msdyn_quotebookingsetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingsetup Entity [msdyn_quotebookingsetup_AsyncOperations](msdyn_quotebookingsetup.md#BKMK_msdyn_quotebookingsetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quoteinvoicingproduct_AsyncOperations"></a> msdyn_quoteinvoicingproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quoteinvoicingproduct Entity [msdyn_quoteinvoicingproduct_AsyncOperations](msdyn_quoteinvoicingproduct.md#BKMK_msdyn_quoteinvoicingproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quoteinvoicingsetup_AsyncOperations"></a> msdyn_quoteinvoicingsetup_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_quoteinvoicingsetup Entity [msdyn_quoteinvoicingsetup_AsyncOperations](msdyn_quoteinvoicingsetup.md#BKMK_msdyn_quoteinvoicingsetup_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourcepaytype_AsyncOperations"></a> msdyn_resourcepaytype_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_resourcepaytype Entity [msdyn_resourcepaytype_AsyncOperations](msdyn_resourcepaytype.md#BKMK_msdyn_resourcepaytype_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_AsyncOperations"></a> msdyn_rma_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_AsyncOperations](msdyn_rma.md#BKMK_msdyn_rma_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_AsyncOperations"></a> msdyn_rmaproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_AsyncOperations](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_AsyncOperations"></a> msdyn_rmareceipt_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_AsyncOperations](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_AsyncOperations"></a> msdyn_rmareceiptproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_AsyncOperations](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_AsyncOperations"></a> msdyn_rmasubstatus_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_AsyncOperations](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_AsyncOperations"></a> msdyn_rtv_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_AsyncOperations](msdyn_rtv.md#BKMK_msdyn_rtv_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_AsyncOperations"></a> msdyn_rtvproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_AsyncOperations](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_AsyncOperations"></a> msdyn_rtvsubstatus_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_AsyncOperations](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_servicetasktype_AsyncOperations"></a> msdyn_servicetasktype_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_servicetasktype Entity [msdyn_servicetasktype_AsyncOperations](msdyn_servicetasktype.md#BKMK_msdyn_servicetasktype_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_AsyncOperations"></a> msdyn_shipvia_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_AsyncOperations](msdyn_shipvia.md#BKMK_msdyn_shipvia_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_taxcode_AsyncOperations"></a> msdyn_taxcode_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_taxcode Entity [msdyn_taxcode_AsyncOperations](msdyn_taxcode.md#BKMK_msdyn_taxcode_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_taxcodedetail_AsyncOperations"></a> msdyn_taxcodedetail_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_taxcodedetail Entity [msdyn_taxcodedetail_AsyncOperations](msdyn_taxcodedetail.md#BKMK_msdyn_taxcodedetail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_AsyncOperations"></a> msdyn_timeoffrequest_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_AsyncOperations](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_uniquenumber_AsyncOperations"></a> msdyn_uniquenumber_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_uniquenumber Entity [msdyn_uniquenumber_AsyncOperations](msdyn_uniquenumber.md#BKMK_msdyn_uniquenumber_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_AsyncOperations"></a> msdyn_warehouse_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_AsyncOperations](msdyn_warehouse.md#BKMK_msdyn_warehouse_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_AsyncOperations"></a> msdyn_workorder_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_AsyncOperations](msdyn_workorder.md#BKMK_msdyn_workorder_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_AsyncOperations"></a> msdyn_workordercharacteristic_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_AsyncOperations](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderdetailsgenerationqueue_AsyncOperations"></a> msdyn_workorderdetailsgenerationqueue_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderdetailsgenerationqueue Entity [msdyn_workorderdetailsgenerationqueue_AsyncOperations](msdyn_workorderdetailsgenerationqueue.md#BKMK_msdyn_workorderdetailsgenerationqueue_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_AsyncOperations"></a> msdyn_workorderincident_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_AsyncOperations](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_AsyncOperations"></a> msdyn_workorderproduct_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_AsyncOperations](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_AsyncOperations"></a> msdyn_workorderresourcerestriction_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_AsyncOperations](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_AsyncOperations"></a> msdyn_workorderservice_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_AsyncOperations](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_AsyncOperations"></a> msdyn_workorderservicetask_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_AsyncOperations](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordersubstatus_AsyncOperations"></a> msdyn_workordersubstatus_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workordersubstatus Entity [msdyn_workordersubstatus_AsyncOperations](msdyn_workordersubstatus.md#BKMK_msdyn_workordersubstatus_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordertype_AsyncOperations"></a> msdyn_workordertype_AsyncOperations
-
-**Added by**: Field Service Solution
-
-See msdyn_workordertype Entity [msdyn_workordertype_AsyncOperations](msdyn_workordertype.md#BKMK_msdyn_workordertype_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotalert_AsyncOperations"></a> msdyn_iotalert_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotalert Entity [msdyn_iotalert_AsyncOperations](msdyn_iotalert.md#BKMK_msdyn_iotalert_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevice_AsyncOperations"></a> msdyn_iotdevice_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_AsyncOperations](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_AsyncOperations"></a> msdyn_iotdevicecategory_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_AsyncOperations](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_AsyncOperations"></a> msdyn_iotdevicecommand_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_AsyncOperations](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommanddefinition_AsyncOperations"></a> msdyn_iotdevicecommanddefinition_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdevicecommanddefinition Entity [msdyn_iotdevicecommanddefinition_AsyncOperations](msdyn_iotdevicecommanddefinition.md#BKMK_msdyn_iotdevicecommanddefinition_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicedatahistory_AsyncOperations"></a> msdyn_iotdevicedatahistory_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdevicedatahistory Entity [msdyn_iotdevicedatahistory_AsyncOperations](msdyn_iotdevicedatahistory.md#BKMK_msdyn_iotdevicedatahistory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceproperty_AsyncOperations"></a> msdyn_iotdeviceproperty_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdeviceproperty Entity [msdyn_iotdeviceproperty_AsyncOperations](msdyn_iotdeviceproperty.md#BKMK_msdyn_iotdeviceproperty_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_AsyncOperations"></a> msdyn_iotdeviceregistrationhistory_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_AsyncOperations](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotpropertydefinition_AsyncOperations"></a> msdyn_iotpropertydefinition_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotpropertydefinition Entity [msdyn_iotpropertydefinition_AsyncOperations](msdyn_iotpropertydefinition.md#BKMK_msdyn_iotpropertydefinition_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotsettings_AsyncOperations"></a> msdyn_iotsettings_AsyncOperations
-
-**Added by**: IoT Connector for Microsoft Dynamics 365 Solution
-
-See msdyn_iotsettings Entity [msdyn_iotsettings_AsyncOperations](msdyn_iotsettings.md#BKMK_msdyn_iotsettings_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations"></a> msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations
-
-**Added by**: Connected Field Service for Microsoft Dynamics 365 Solution
-
-See msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b Entity [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_entityconfiguration_AsyncOperations"></a> msdyn_entityconfiguration_AsyncOperations
-
-**Added by**: Geofence Management Solution
-
-See msdyn_entityconfiguration Entity [msdyn_entityconfiguration_AsyncOperations](msdyn_entityconfiguration.md#BKMK_msdyn_entityconfiguration_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_geofence_AsyncOperations"></a> msdyn_geofence_AsyncOperations
-
-**Added by**: Geofence Management Solution
-
-See msdyn_geofence Entity [msdyn_geofence_AsyncOperations](msdyn_geofence.md#BKMK_msdyn_geofence_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_geofenceevent_AsyncOperations"></a> msdyn_geofenceevent_AsyncOperations
-
-**Added by**: Geofence Management Solution
-
-See msdyn_geofenceevent Entity [msdyn_geofenceevent_AsyncOperations](msdyn_geofenceevent.md#BKMK_msdyn_geofenceevent_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_geofencingsettings_AsyncOperations"></a> msdyn_geofencingsettings_AsyncOperations
-
-**Added by**: Geofence Management Solution
-
-See msdyn_geofencingsettings Entity [msdyn_geofencingsettings_AsyncOperations](msdyn_geofencingsettings.md#BKMK_msdyn_geofencingsettings_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_connector_AsyncOperations"></a> msdyn_connector_AsyncOperations
-
-**Added by**: Power Connector Solution Solution
-
-See msdyn_connector Entity [msdyn_connector_AsyncOperations](msdyn_connector.md#BKMK_msdyn_connector_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_theme_AsyncOperations"></a> theme_AsyncOperations
-
-See theme Entity [theme_AsyncOperations](theme.md#BKMK_theme_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_usermapping_AsyncOperations"></a> usermapping_AsyncOperations
-
-See usermapping Entity [usermapping_AsyncOperations](usermapping.md#BKMK_usermapping_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_interactionforemail_AsyncOperations"></a> interactionforemail_AsyncOperations
-
-See interactionforemail Entity [interactionforemail_AsyncOperations](interactionforemail.md#BKMK_interactionforemail_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_knowledgearticle_AsyncOperations"></a> knowledgearticle_AsyncOperations
-
-See knowledgearticle Entity [knowledgearticle_AsyncOperations](knowledgearticle.md#BKMK_knowledgearticle_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_post_AsyncOperations"></a> post_AsyncOperations
-
-See post Entity [post_AsyncOperations](post.md#BKMK_post_AsyncOperations) One-To-Many relationship.
-
-### <a name="BKMK_position_AsyncOperations"></a> position_AsyncOperations
-
-See position Entity [position_AsyncOperations](position.md#BKMK_position_AsyncOperations) One-To-Many relationship.
+See the [msdyn_wallsavedqueryusersettings_AsyncOperations](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedqueryusersettings_AsyncOperations) one-to-many relationship for the [msdyn_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_AsyncOperations"></a> KnowledgeBaseRecord_AsyncOperations
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_AsyncOperations](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_AsyncOperations) One-To-Many relationship.
+See the [KnowledgeBaseRecord_AsyncOperations](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_AsyncOperations) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_lk_asyncoperation_createdby"></a> lk_asyncoperation_createdby
 
-See systemuser Entity [lk_asyncoperation_createdby](systemuser.md#BKMK_lk_asyncoperation_createdby) One-To-Many relationship.
+See the [lk_asyncoperation_createdby](systemuser.md#BKMK_lk_asyncoperation_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_MonthlyFiscalCalendar_AsyncOperations"></a> MonthlyFiscalCalendar_AsyncOperations
 
-See monthlyfiscalcalendar Entity [MonthlyFiscalCalendar_AsyncOperations](monthlyfiscalcalendar.md#BKMK_MonthlyFiscalCalendar_AsyncOperations) One-To-Many relationship.
+See the [MonthlyFiscalCalendar_AsyncOperations](monthlyfiscalcalendar.md#BKMK_MonthlyFiscalCalendar_AsyncOperations) one-to-many relationship for the [monthlyfiscalcalendar](monthlyfiscalcalendar.md) entity.
 
 ### <a name="BKMK_lk_asyncoperation_workflowactivationid"></a> lk_asyncoperation_workflowactivationid
 
-See workflow Entity [lk_asyncoperation_workflowactivationid](workflow.md#BKMK_lk_asyncoperation_workflowactivationid) One-To-Many relationship.
+See the [lk_asyncoperation_workflowactivationid](workflow.md#BKMK_lk_asyncoperation_workflowactivationid) one-to-many relationship for the [workflow](workflow.md) entity.
 
 ### <a name="BKMK_Report_AsyncOperations"></a> Report_AsyncOperations
 
-See report Entity [Report_AsyncOperations](report.md#BKMK_Report_AsyncOperations) One-To-Many relationship.
+See the [Report_AsyncOperations](report.md#BKMK_Report_AsyncOperations) one-to-many relationship for the [report](report.md) entity.
 
 ### <a name="BKMK_SocialActivity_AsyncOperations"></a> SocialActivity_AsyncOperations
 
-See socialactivity Entity [SocialActivity_AsyncOperations](socialactivity.md#BKMK_SocialActivity_AsyncOperations) One-To-Many relationship.
+See the [SocialActivity_AsyncOperations](socialactivity.md#BKMK_SocialActivity_AsyncOperations) one-to-many relationship for the [socialactivity](socialactivity.md) entity.
 
 ### <a name="BKMK_Connection_Role_AsyncOperations"></a> Connection_Role_AsyncOperations
 
-See connectionrole Entity [Connection_Role_AsyncOperations](connectionrole.md#BKMK_Connection_Role_AsyncOperations) One-To-Many relationship.
+See the [Connection_Role_AsyncOperations](connectionrole.md#BKMK_Connection_Role_AsyncOperations) one-to-many relationship for the [connectionrole](connectionrole.md) entity.
 
 ### <a name="BKMK_Team_AsyncOperations"></a> Team_AsyncOperations
 
-See team Entity [Team_AsyncOperations](team.md#BKMK_Team_AsyncOperations) One-To-Many relationship.
+See the [Team_AsyncOperations](team.md#BKMK_Team_AsyncOperations) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_AnnualFiscalCalendar_AsyncOperations"></a> AnnualFiscalCalendar_AsyncOperations
 
-See annualfiscalcalendar Entity [AnnualFiscalCalendar_AsyncOperations](annualfiscalcalendar.md#BKMK_AnnualFiscalCalendar_AsyncOperations) One-To-Many relationship.
+See the [AnnualFiscalCalendar_AsyncOperations](annualfiscalcalendar.md#BKMK_AnnualFiscalCalendar_AsyncOperations) one-to-many relationship for the [annualfiscalcalendar](annualfiscalcalendar.md) entity.
 
 ### <a name="BKMK_SharePointDocumentLocation_AsyncOperations"></a> SharePointDocumentLocation_AsyncOperations
 
-See sharepointdocumentlocation Entity [SharePointDocumentLocation_AsyncOperations](sharepointdocumentlocation.md#BKMK_SharePointDocumentLocation_AsyncOperations) One-To-Many relationship.
+See the [SharePointDocumentLocation_AsyncOperations](sharepointdocumentlocation.md#BKMK_SharePointDocumentLocation_AsyncOperations) one-to-many relationship for the [sharepointdocumentlocation](sharepointdocumentlocation.md) entity.
 
 ### <a name="BKMK_PhoneCall_AsyncOperations"></a> PhoneCall_AsyncOperations
 
-See phonecall Entity [PhoneCall_AsyncOperations](phonecall.md#BKMK_PhoneCall_AsyncOperations) One-To-Many relationship.
+See the [PhoneCall_AsyncOperations](phonecall.md#BKMK_PhoneCall_AsyncOperations) one-to-many relationship for the [phonecall](phonecall.md) entity.
 
 ### <a name="BKMK_mailbox_asyncoperations"></a> mailbox_asyncoperations
 
-See mailbox Entity [mailbox_asyncoperations](mailbox.md#BKMK_mailbox_asyncoperations) One-To-Many relationship.
+See the [mailbox_asyncoperations](mailbox.md#BKMK_mailbox_asyncoperations) one-to-many relationship for the [mailbox](mailbox.md) entity.
 
 ### <a name="BKMK_PostFollow_AsyncOperations"></a> PostFollow_AsyncOperations
 
-See postfollow Entity [PostFollow_AsyncOperations](postfollow.md#BKMK_PostFollow_AsyncOperations) One-To-Many relationship.
+See the [PostFollow_AsyncOperations](postfollow.md#BKMK_PostFollow_AsyncOperations) one-to-many relationship for the [postfollow](postfollow.md) entity.
 
 ### <a name="BKMK_Appointment_AsyncOperations"></a> Appointment_AsyncOperations
 
-See appointment Entity [Appointment_AsyncOperations](appointment.md#BKMK_Appointment_AsyncOperations) One-To-Many relationship.
+See the [Appointment_AsyncOperations](appointment.md#BKMK_Appointment_AsyncOperations) one-to-many relationship for the [appointment](appointment.md) entity.
 
 ### <a name="BKMK_slabase_AsyncOperations"></a> slabase_AsyncOperations
 
-See sla Entity [slabase_AsyncOperations](sla.md#BKMK_slabase_AsyncOperations) One-To-Many relationship.
+See the [slabase_AsyncOperations](sla.md#BKMK_slabase_AsyncOperations) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_SavedQuery_AsyncOperations"></a> SavedQuery_AsyncOperations
 
-See savedquery Entity [SavedQuery_AsyncOperations](savedquery.md#BKMK_SavedQuery_AsyncOperations) One-To-Many relationship.
+See the [SavedQuery_AsyncOperations](savedquery.md#BKMK_SavedQuery_AsyncOperations) one-to-many relationship for the [savedquery](savedquery.md) entity.
 
 ### <a name="BKMK_DisplayString_AsyncOperations"></a> DisplayString_AsyncOperations
 
-See displaystring Entity [DisplayString_AsyncOperations](displaystring.md#BKMK_DisplayString_AsyncOperations) One-To-Many relationship.
+See the [DisplayString_AsyncOperations](displaystring.md#BKMK_DisplayString_AsyncOperations) one-to-many relationship for the [displaystring](displaystring.md) entity.
 
 ### <a name="BKMK_KbArticleComment_AsyncOperations"></a> KbArticleComment_AsyncOperations
 
-See kbarticlecomment Entity [KbArticleComment_AsyncOperations](kbarticlecomment.md#BKMK_KbArticleComment_AsyncOperations) One-To-Many relationship.
+See the [KbArticleComment_AsyncOperations](kbarticlecomment.md#BKMK_KbArticleComment_AsyncOperations) one-to-many relationship for the [kbarticlecomment](kbarticlecomment.md) entity.
 
 ### <a name="BKMK_ActivityPointer_AsyncOperations"></a> ActivityPointer_AsyncOperations
 
-See activitypointer Entity [ActivityPointer_AsyncOperations](activitypointer.md#BKMK_ActivityPointer_AsyncOperations) One-To-Many relationship.
+See the [ActivityPointer_AsyncOperations](activitypointer.md#BKMK_ActivityPointer_AsyncOperations) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_Subject_AsyncOperations"></a> Subject_AsyncOperations
 
-See subject Entity [Subject_AsyncOperations](subject.md#BKMK_Subject_AsyncOperations) One-To-Many relationship.
+See the [Subject_AsyncOperations](subject.md#BKMK_Subject_AsyncOperations) one-to-many relationship for the [subject](subject.md) entity.
 
 ### <a name="BKMK_goalrollupquery_AsyncOperations"></a> goalrollupquery_AsyncOperations
 
-See goalrollupquery Entity [goalrollupquery_AsyncOperations](goalrollupquery.md#BKMK_goalrollupquery_AsyncOperations) One-To-Many relationship.
+See the [goalrollupquery_AsyncOperations](goalrollupquery.md#BKMK_goalrollupquery_AsyncOperations) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) entity.
 
 ### <a name="BKMK_Role_AsyncOperations"></a> Role_AsyncOperations
 
-See role Entity [Role_AsyncOperations](role.md#BKMK_Role_AsyncOperations) One-To-Many relationship.
+See the [Role_AsyncOperations](role.md#BKMK_Role_AsyncOperations) one-to-many relationship for the [role](role.md) entity.
 
 ### <a name="BKMK_SystemForm_AsyncOperations"></a> SystemForm_AsyncOperations
 
-See systemform Entity [SystemForm_AsyncOperations](systemform.md#BKMK_SystemForm_AsyncOperations) One-To-Many relationship.
+See the [SystemForm_AsyncOperations](systemform.md#BKMK_SystemForm_AsyncOperations) one-to-many relationship for the [systemform](systemform.md) entity.
 
 ### <a name="BKMK_Annotation_AsyncOperations"></a> Annotation_AsyncOperations
 
-See annotation Entity [Annotation_AsyncOperations](annotation.md#BKMK_Annotation_AsyncOperations) One-To-Many relationship.
+See the [Annotation_AsyncOperations](annotation.md#BKMK_Annotation_AsyncOperations) one-to-many relationship for the [annotation](annotation.md) entity.
 
 ### <a name="BKMK_Privilege_AsyncOperations"></a> Privilege_AsyncOperations
 
-See privilege Entity [Privilege_AsyncOperations](privilege.md#BKMK_Privilege_AsyncOperations) One-To-Many relationship.
+See the [Privilege_AsyncOperations](privilege.md#BKMK_Privilege_AsyncOperations) one-to-many relationship for the [privilege](privilege.md) entity.
 
 ### <a name="BKMK_ActivityMimeAttachment_AsyncOperations"></a> ActivityMimeAttachment_AsyncOperations
 
-See activitymimeattachment Entity [ActivityMimeAttachment_AsyncOperations](activitymimeattachment.md#BKMK_ActivityMimeAttachment_AsyncOperations) One-To-Many relationship.
+See the [ActivityMimeAttachment_AsyncOperations](activitymimeattachment.md#BKMK_ActivityMimeAttachment_AsyncOperations) one-to-many relationship for the [activitymimeattachment](activitymimeattachment.md) entity.
 
 ### <a name="BKMK_Goal_AsyncOperations"></a> Goal_AsyncOperations
 
-See goal Entity [Goal_AsyncOperations](goal.md#BKMK_Goal_AsyncOperations) One-To-Many relationship.
+See the [Goal_AsyncOperations](goal.md#BKMK_Goal_AsyncOperations) one-to-many relationship for the [goal](goal.md) entity.
 
 ### <a name="BKMK_Fax_AsyncOperations"></a> Fax_AsyncOperations
 
-See fax Entity [Fax_AsyncOperations](fax.md#BKMK_Fax_AsyncOperations) One-To-Many relationship.
+See the [Fax_AsyncOperations](fax.md#BKMK_Fax_AsyncOperations) one-to-many relationship for the [fax](fax.md) entity.
 
 ### <a name="BKMK_QuarterlyFiscalCalendar_AsyncOperations"></a> QuarterlyFiscalCalendar_AsyncOperations
 
-See quarterlyfiscalcalendar Entity [QuarterlyFiscalCalendar_AsyncOperations](quarterlyfiscalcalendar.md#BKMK_QuarterlyFiscalCalendar_AsyncOperations) One-To-Many relationship.
+See the [QuarterlyFiscalCalendar_AsyncOperations](quarterlyfiscalcalendar.md#BKMK_QuarterlyFiscalCalendar_AsyncOperations) one-to-many relationship for the [quarterlyfiscalcalendar](quarterlyfiscalcalendar.md) entity.
 
 ### <a name="BKMK_SharePointSite_AsyncOperations"></a> SharePointSite_AsyncOperations
 
-See sharepointsite Entity [SharePointSite_AsyncOperations](sharepointsite.md#BKMK_SharePointSite_AsyncOperations) One-To-Many relationship.
+See the [SharePointSite_AsyncOperations](sharepointsite.md#BKMK_SharePointSite_AsyncOperations) one-to-many relationship for the [sharepointsite](sharepointsite.md) entity.
 
 ### <a name="BKMK_UserQuery_AsyncOperations"></a> UserQuery_AsyncOperations
 
-See userquery Entity [UserQuery_AsyncOperations](userquery.md#BKMK_UserQuery_AsyncOperations) One-To-Many relationship.
+See the [UserQuery_AsyncOperations](userquery.md#BKMK_UserQuery_AsyncOperations) one-to-many relationship for the [userquery](userquery.md) entity.
 
 ### <a name="BKMK_ImportMap_AsyncOperations"></a> ImportMap_AsyncOperations
 
-See importmap Entity [ImportMap_AsyncOperations](importmap.md#BKMK_ImportMap_AsyncOperations) One-To-Many relationship.
+See the [ImportMap_AsyncOperations](importmap.md#BKMK_ImportMap_AsyncOperations) one-to-many relationship for the [importmap](importmap.md) entity.
 
 ### <a name="BKMK_BusinessUnit_AsyncOperations"></a> BusinessUnit_AsyncOperations
 
-See businessunit Entity [BusinessUnit_AsyncOperations](businessunit.md#BKMK_BusinessUnit_AsyncOperations) One-To-Many relationship.
+See the [BusinessUnit_AsyncOperations](businessunit.md#BKMK_BusinessUnit_AsyncOperations) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_Queue_AsyncOperations"></a> Queue_AsyncOperations
 
-See queue Entity [Queue_AsyncOperations](queue.md#BKMK_Queue_AsyncOperations) One-To-Many relationship.
+See the [Queue_AsyncOperations](queue.md#BKMK_Queue_AsyncOperations) one-to-many relationship for the [queue](queue.md) entity.
 
 ### <a name="BKMK_QueueItem_AsyncOperations"></a> QueueItem_AsyncOperations
 
-See queueitem Entity [QueueItem_AsyncOperations](queueitem.md#BKMK_QueueItem_AsyncOperations) One-To-Many relationship.
+See the [QueueItem_AsyncOperations](queueitem.md#BKMK_QueueItem_AsyncOperations) one-to-many relationship for the [queueitem](queueitem.md) entity.
 
 ### <a name="BKMK_team_asyncoperation"></a> team_asyncoperation
 
-See team Entity [team_asyncoperation](team.md#BKMK_team_asyncoperation) One-To-Many relationship.
+See the [team_asyncoperation](team.md#BKMK_team_asyncoperation) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_asyncoperation_modifiedby"></a> lk_asyncoperation_modifiedby
 
-See systemuser Entity [lk_asyncoperation_modifiedby](systemuser.md#BKMK_lk_asyncoperation_modifiedby) One-To-Many relationship.
+See the [lk_asyncoperation_modifiedby](systemuser.md#BKMK_lk_asyncoperation_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_UserForm_AsyncOperations"></a> UserForm_AsyncOperations
 
-See userform Entity [UserForm_AsyncOperations](userform.md#BKMK_UserForm_AsyncOperations) One-To-Many relationship.
+See the [UserForm_AsyncOperations](userform.md#BKMK_UserForm_AsyncOperations) one-to-many relationship for the [userform](userform.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_AsyncOperations"></a> TransactionCurrency_AsyncOperations
 
-See transactioncurrency Entity [TransactionCurrency_AsyncOperations](transactioncurrency.md#BKMK_TransactionCurrency_AsyncOperations) One-To-Many relationship.
+See the [TransactionCurrency_AsyncOperations](transactioncurrency.md#BKMK_TransactionCurrency_AsyncOperations) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_rollupfield_AsyncOperations"></a> rollupfield_AsyncOperations
 
-See rollupfield Entity [rollupfield_AsyncOperations](rollupfield.md#BKMK_rollupfield_AsyncOperations) One-To-Many relationship.
+See the [rollupfield_AsyncOperations](rollupfield.md#BKMK_rollupfield_AsyncOperations) one-to-many relationship for the [rollupfield](rollupfield.md) entity.
 
 ### <a name="BKMK_Letter_AsyncOperations"></a> Letter_AsyncOperations
 
-See letter Entity [Letter_AsyncOperations](letter.md#BKMK_Letter_AsyncOperations) One-To-Many relationship.
+See the [Letter_AsyncOperations](letter.md#BKMK_Letter_AsyncOperations) one-to-many relationship for the [letter](letter.md) entity.
 
 ### <a name="BKMK_KbArticle_AsyncOperations"></a> KbArticle_AsyncOperations
 
-See kbarticle Entity [KbArticle_AsyncOperations](kbarticle.md#BKMK_KbArticle_AsyncOperations) One-To-Many relationship.
+See the [KbArticle_AsyncOperations](kbarticle.md#BKMK_KbArticle_AsyncOperations) one-to-many relationship for the [kbarticle](kbarticle.md) entity.
 
 ### <a name="BKMK_RecurringAppointmentMaster_AsyncOperations"></a> RecurringAppointmentMaster_AsyncOperations
 
-See recurringappointmentmaster Entity [RecurringAppointmentMaster_AsyncOperations](recurringappointmentmaster.md#BKMK_RecurringAppointmentMaster_AsyncOperations) One-To-Many relationship.
+See the [RecurringAppointmentMaster_AsyncOperations](recurringappointmentmaster.md#BKMK_RecurringAppointmentMaster_AsyncOperations) one-to-many relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 ### <a name="BKMK_Task_AsyncOperations"></a> Task_AsyncOperations
 
-See task Entity [Task_AsyncOperations](task.md#BKMK_Task_AsyncOperations) One-To-Many relationship.
+See the [Task_AsyncOperations](task.md#BKMK_Task_AsyncOperations) one-to-many relationship for the [task](task.md) entity.
 
 ### <a name="BKMK_BusinessUnitNewsArticle_AsyncOperations"></a> BusinessUnitNewsArticle_AsyncOperations
 
-See businessunitnewsarticle Entity [BusinessUnitNewsArticle_AsyncOperations](businessunitnewsarticle.md#BKMK_BusinessUnitNewsArticle_AsyncOperations) One-To-Many relationship.
+See the [BusinessUnitNewsArticle_AsyncOperations](businessunitnewsarticle.md#BKMK_BusinessUnitNewsArticle_AsyncOperations) one-to-many relationship for the [businessunitnewsarticle](businessunitnewsarticle.md) entity.
 
 ### <a name="BKMK_Connection_AsyncOperations"></a> Connection_AsyncOperations
 
-See connection Entity [Connection_AsyncOperations](connection.md#BKMK_Connection_AsyncOperations) One-To-Many relationship.
+See the [Connection_AsyncOperations](connection.md#BKMK_Connection_AsyncOperations) one-to-many relationship for the [connection](connection.md) entity.
 
 ### <a name="BKMK_SystemUser_AsyncOperations"></a> SystemUser_AsyncOperations
 
-See systemuser Entity [SystemUser_AsyncOperations](systemuser.md#BKMK_SystemUser_AsyncOperations) One-To-Many relationship.
+See the [SystemUser_AsyncOperations](systemuser.md#BKMK_SystemUser_AsyncOperations) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_KbArticleTemplate_AsyncOperations"></a> KbArticleTemplate_AsyncOperations
 
-See kbarticletemplate Entity [KbArticleTemplate_AsyncOperations](kbarticletemplate.md#BKMK_KbArticleTemplate_AsyncOperations) One-To-Many relationship.
+See the [KbArticleTemplate_AsyncOperations](kbarticletemplate.md#BKMK_KbArticleTemplate_AsyncOperations) one-to-many relationship for the [kbarticletemplate](kbarticletemplate.md) entity.
 
 ### <a name="BKMK_SdkMessageProcessingStep_AsyncOperations"></a> SdkMessageProcessingStep_AsyncOperations
 
-See sdkmessageprocessingstep Entity [SdkMessageProcessingStep_AsyncOperations](sdkmessageprocessingstep.md#BKMK_SdkMessageProcessingStep_AsyncOperations) One-To-Many relationship.
+See the [SdkMessageProcessingStep_AsyncOperations](sdkmessageprocessingstep.md#BKMK_SdkMessageProcessingStep_AsyncOperations) one-to-many relationship for the [sdkmessageprocessingstep](sdkmessageprocessingstep.md) entity.
 
 ### <a name="BKMK_Template_AsyncOperations"></a> Template_AsyncOperations
 
-See template Entity [Template_AsyncOperations](template.md#BKMK_Template_AsyncOperations) One-To-Many relationship.
+See the [Template_AsyncOperations](template.md#BKMK_Template_AsyncOperations) one-to-many relationship for the [template](template.md) entity.
 
 ### <a name="BKMK_CustomerAddress_AsyncOperations"></a> CustomerAddress_AsyncOperations
 
-See customeraddress Entity [CustomerAddress_AsyncOperations](customeraddress.md#BKMK_CustomerAddress_AsyncOperations) One-To-Many relationship.
+See the [CustomerAddress_AsyncOperations](customeraddress.md#BKMK_CustomerAddress_AsyncOperations) one-to-many relationship for the [customeraddress](customeraddress.md) entity.
 
 ### <a name="BKMK_Contact_AsyncOperations"></a> Contact_AsyncOperations
 
-See contact Entity [Contact_AsyncOperations](contact.md#BKMK_Contact_AsyncOperations) One-To-Many relationship.
+See the [Contact_AsyncOperations](contact.md#BKMK_Contact_AsyncOperations) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_emailserverprofile_asyncoperations"></a> emailserverprofile_asyncoperations
 
-See emailserverprofile Entity [emailserverprofile_asyncoperations](emailserverprofile.md#BKMK_emailserverprofile_asyncoperations) One-To-Many relationship.
+See the [emailserverprofile_asyncoperations](emailserverprofile.md#BKMK_emailserverprofile_asyncoperations) one-to-many relationship for the [emailserverprofile](emailserverprofile.md) entity.
 
 ### <a name="BKMK_lk_asyncoperation_createdonbehalfby"></a> lk_asyncoperation_createdonbehalfby
 
-See systemuser Entity [lk_asyncoperation_createdonbehalfby](systemuser.md#BKMK_lk_asyncoperation_createdonbehalfby) One-To-Many relationship.
+See the [lk_asyncoperation_createdonbehalfby](systemuser.md#BKMK_lk_asyncoperation_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Import_AsyncOperations"></a> Import_AsyncOperations
 
-See import Entity [Import_AsyncOperations](import.md#BKMK_Import_AsyncOperations) One-To-Many relationship.
+See the [Import_AsyncOperations](import.md#BKMK_Import_AsyncOperations) one-to-many relationship for the [import](import.md) entity.
 
 ### <a name="BKMK_system_user_asyncoperation"></a> system_user_asyncoperation
 
-See systemuser Entity [system_user_asyncoperation](systemuser.md#BKMK_system_user_asyncoperation) One-To-Many relationship.
+See the [system_user_asyncoperation](systemuser.md#BKMK_system_user_asyncoperation) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_asyncoperation"></a> business_unit_asyncoperation
 
-See businessunit Entity [business_unit_asyncoperation](businessunit.md#BKMK_business_unit_asyncoperation) One-To-Many relationship.
+See the [business_unit_asyncoperation](businessunit.md#BKMK_business_unit_asyncoperation) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_ImportLog_AsyncOperations"></a> ImportLog_AsyncOperations
 
-See importlog Entity [ImportLog_AsyncOperations](importlog.md#BKMK_ImportLog_AsyncOperations) One-To-Many relationship.
+See the [ImportLog_AsyncOperations](importlog.md#BKMK_ImportLog_AsyncOperations) one-to-many relationship for the [importlog](importlog.md) entity.
 
 ### <a name="BKMK_metric_AsyncOperations"></a> metric_AsyncOperations
 
-See metric Entity [metric_AsyncOperations](metric.md#BKMK_metric_AsyncOperations) One-To-Many relationship.
+See the [metric_AsyncOperations](metric.md#BKMK_metric_AsyncOperations) one-to-many relationship for the [metric](metric.md) entity.
 
 ### <a name="BKMK_SocialProfile_AsyncOperations"></a> SocialProfile_AsyncOperations
 
-See socialprofile Entity [SocialProfile_AsyncOperations](socialprofile.md#BKMK_SocialProfile_AsyncOperations) One-To-Many relationship.
+See the [SocialProfile_AsyncOperations](socialprofile.md#BKMK_SocialProfile_AsyncOperations) one-to-many relationship for the [socialprofile](socialprofile.md) entity.
 
 ### <a name="BKMK_lk_asyncoperation_modifiedonbehalfby"></a> lk_asyncoperation_modifiedonbehalfby
 
-See systemuser Entity [lk_asyncoperation_modifiedonbehalfby](systemuser.md#BKMK_lk_asyncoperation_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_asyncoperation_modifiedonbehalfby](systemuser.md#BKMK_lk_asyncoperation_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Account_AsyncOperations"></a> Account_AsyncOperations
 
-See account Entity [Account_AsyncOperations](account.md#BKMK_Account_AsyncOperations) One-To-Many relationship.
+See the [Account_AsyncOperations](account.md#BKMK_Account_AsyncOperations) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_Email_AsyncOperations"></a> Email_AsyncOperations
 
-See email Entity [Email_AsyncOperations](email.md#BKMK_Email_AsyncOperations) One-To-Many relationship.
+See the [Email_AsyncOperations](email.md#BKMK_Email_AsyncOperations) one-to-many relationship for the [email](email.md) entity.
 
 ### <a name="BKMK_FixedMonthlyFiscalCalendar_AsyncOperations"></a> FixedMonthlyFiscalCalendar_AsyncOperations
 
-See fixedmonthlyfiscalcalendar Entity [FixedMonthlyFiscalCalendar_AsyncOperations](fixedmonthlyfiscalcalendar.md#BKMK_FixedMonthlyFiscalCalendar_AsyncOperations) One-To-Many relationship.
+See the [FixedMonthlyFiscalCalendar_AsyncOperations](fixedmonthlyfiscalcalendar.md#BKMK_FixedMonthlyFiscalCalendar_AsyncOperations) one-to-many relationship for the [fixedmonthlyfiscalcalendar](fixedmonthlyfiscalcalendar.md) entity.
 
 ### <a name="BKMK_SemiAnnualFiscalCalendar_AsyncOperations"></a> SemiAnnualFiscalCalendar_AsyncOperations
 
-See semiannualfiscalcalendar Entity [SemiAnnualFiscalCalendar_AsyncOperations](semiannualfiscalcalendar.md#BKMK_SemiAnnualFiscalCalendar_AsyncOperations) One-To-Many relationship.
+See the [SemiAnnualFiscalCalendar_AsyncOperations](semiannualfiscalcalendar.md#BKMK_SemiAnnualFiscalCalendar_AsyncOperations) one-to-many relationship for the [semiannualfiscalcalendar](semiannualfiscalcalendar.md) entity.
 
 ### <a name="BKMK_MailMergeTemplate_AsyncOperations"></a> MailMergeTemplate_AsyncOperations
 
-See mailmergetemplate Entity [MailMergeTemplate_AsyncOperations](mailmergetemplate.md#BKMK_MailMergeTemplate_AsyncOperations) One-To-Many relationship.
+See the [MailMergeTemplate_AsyncOperations](mailmergetemplate.md#BKMK_MailMergeTemplate_AsyncOperations) one-to-many relationship for the [mailmergetemplate](mailmergetemplate.md) entity.
 
 ### <a name="BKMK_Organization_AsyncOperations"></a> Organization_AsyncOperations
 
-See organization Entity [Organization_AsyncOperations](organization.md#BKMK_Organization_AsyncOperations) One-To-Many relationship.
+See the [Organization_AsyncOperations](organization.md#BKMK_Organization_AsyncOperations) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_Calendar_AsyncOperations"></a> Calendar_AsyncOperations
 
-See calendar Entity [Calendar_AsyncOperations](calendar.md#BKMK_Calendar_AsyncOperations) One-To-Many relationship.
+See the [Calendar_AsyncOperations](calendar.md#BKMK_Calendar_AsyncOperations) one-to-many relationship for the [calendar](calendar.md) entity.
 
 ### <a name="BKMK_ImportFile_AsyncOperations"></a> ImportFile_AsyncOperations
 
-See importfile Entity [ImportFile_AsyncOperations](importfile.md#BKMK_ImportFile_AsyncOperations) One-To-Many relationship.
+See the [ImportFile_AsyncOperations](importfile.md#BKMK_ImportFile_AsyncOperations) one-to-many relationship for the [importfile](importfile.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.asyncoperation?text=asyncoperation EntityType" />
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

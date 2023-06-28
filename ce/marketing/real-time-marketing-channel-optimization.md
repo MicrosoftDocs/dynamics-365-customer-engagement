@@ -2,20 +2,15 @@
 title: "Use AI-driven run-time channel optimization (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use AI-driven run-time channel optimization for real-time marketing."
 ms.date: 03/08/2022
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use AI-driven run-time channel optimization
@@ -29,12 +24,12 @@ The real-time marketing AI model picks the optimal channel for your customer bas
 The AI model operates autonomously and in real time to understand the journey goal and explore ways in which it can optimize for the goal. Initially, every channel is given equal probability to reach the journey goal. But as time goes by, the AI model learns which option is most likely to succeed, given the customer's historical activity (which channel they engaged with the most in the past).
 
 > [!NOTE]
-> Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
+> Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. In addition, if you have enabled the "Multi-brand consent and customizable preference centers (preview)" feature switch, channel optimization will not work at this point. We expect to update this behavior soon. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
 
 ## Prerequisites
 
 - **Journey goal**: You must have a [defined journey goal](real-time-marketing-business-goals.md) for the channel optimization to start working.
-- **Content for your channels**: You must have the content for the channels (email, push, SMS) you want to optimize.
+- **Content for your channels**: You must have the content for the channels (email, text, or push) that you want to optimize.
 
 ## Create and add channel optimization
 
@@ -63,3 +58,5 @@ Following the launch of the customer journey, the following measures can help yo
 If you notice a *No message sent* screen for one of the channels, that means that either the AI model has not routed customers down that channel or the message was sent but your customers have not yet interacted with it by opening the message or clicking the links.
 
 In some cases, the app might be able to fetch engagement data from one channel but not the other.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

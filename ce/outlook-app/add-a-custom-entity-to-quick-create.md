@@ -3,24 +3,19 @@ title: "Add a table to the quick create menu in Dynamics 365 App for Outlook  (D
 ms.custom: 
 description: Add a table to the quick create menu in Dynamics 365 App for Outlook.
 ms.date: 05/20/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg 
+ms.author: sidhartg 
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Add a table to the quick create menu
 

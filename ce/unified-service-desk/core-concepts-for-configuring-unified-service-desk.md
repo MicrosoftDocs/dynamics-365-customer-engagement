@@ -3,17 +3,13 @@ title: "Components of Unified Service Desk | MicrosoftDocs"
 description: "Learn about the components of Unified Service Desk, its object-oriented development concepts, and its design implementation."
 ms.date: 08/23/2017
 ms.topic: get-started-article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 descriptions: 
   - Unified Service Desk provides an object-oriented kind of configuration and development experience through its hosted control implementation where the hosted control is equivalent to the object in a typical object-oriented development
   - and is used throughout Unified Service Desk to provide its loose coupling of components.

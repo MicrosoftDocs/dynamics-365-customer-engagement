@@ -5,7 +5,6 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -37,13 +36,13 @@ If no records are linked to a conversation in Omnichannel for Customer Service, 
 > [!div class="nextstepaction"]
 > [Next topic: Search for records](search-record.md)
 
-## See also
+### See also
 
-- [View customer summary and know everything about customers](customer-summary.md)
-- [View communication panel](left-control-panel.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Link and unlink a record](link-unlink-record.md)
+[View customer summary and know everything about customers](customer-summary.md)
+[View communication panel](left-control-panel.md)
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
+[Link and unlink a record](link-unlink-record.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

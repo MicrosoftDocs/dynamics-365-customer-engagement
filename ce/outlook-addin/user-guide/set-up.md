@@ -1,9 +1,9 @@
 ---
-title: "Set up Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Set up Dynamics 365 for Outlook users | MicrosoftDocs"
+description: Learn how to install, set up, configure, and use Microsoft Dynamics 365 for Outlook with this walkthrough.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
-
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -18,16 +18,12 @@ ms.assetid: a34b2e8a-7588-4132-963a-9ac9f4bcecf7
 caps.latest.revision: 45
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
-# Set up Dynamics 365 for Outlook
+# Set up Dynamics 365 for Outlook users
   
 ## Dynamics 365 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)]. [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  

@@ -1,19 +1,14 @@
 ---
-title: "Set up bookable resources (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
+title: Set up bookable resources (contains video)
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.date: 01/27/2022
-ms.reviewer: krbjoran
 
 ms.topic: article
-author: xonatia
-ms.author: xolee
-manager: hegate
-search.app: 
-  - D365CE
-  - D365FS
+author: ryanchen8
+ms.author: chenryan
 ---
 
-# Set up bookable resources in Dynamics 365 Field Service
+# Set up bookable resources
 
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 
@@ -305,11 +300,5 @@ The process is similar for resources with resource type of Account or User. **Ed
 
   * Create a tab with name as *work hours*. Create a section in it and add the *calendar* field to it.
   * Double-click on the calendar field, and change the control to *Work Hour Control*. Save and publish the form.
-
-### See also   
- 
- [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
- [Set up characteristics](../field-service/set-up-characteristics.md)   
- [Set up resource pay types](../field-service/set-up-resource-pay-types.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,24 +3,19 @@ title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
 ms.date: 12/14/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 
@@ -202,7 +197,7 @@ Follow these steps to push Dynamics 365 App for Outlook to selected users, all u
     - **Option 2**: Select **ADD APP FOR EIGIBILE USERS** to deploy the app to all users that are set up correctly. The **Status** will change to **Pending**.
 
       > [!div class="mx-imgBorder"]
-      > ![Automatically deply the app for eigible users.](media/deploy-app-auto-1.png)
+      > ![Automatically deply the app for eligible users.](media/deploy-app-auto-1.png)
 
    
    - **Option 3**: Push the app to certain users, select those users in the list, and then select **Add App to Outlook**.
@@ -231,7 +226,7 @@ The app will appear in the Outlook ribbon for the added users.
    > [!div class="mx-imgBorder"]
    > ![Setting Customizations.](media/outlookapp_advancedsettings.png)
 
-2. Select the **Settings** button ![Settings button.](../admin/media/mp-ua-r16-settings.png "Settings button"), again and then select **Apps for Dynamics 365 apps**.  
+2. Select the **Settings** button ![Settings button.](media/mp-ua-r16-settings.png "Settings button"), again and then select **Apps for Dynamics 365 apps**.  
 
    > [!div class="mx-imgBorder"]
    > ![Select Apps for Dynamics 365 apps.](media/apps-for-ce.png)
@@ -251,7 +246,7 @@ The app will appear in the Outlook ribbon for the added users.
 ## Troubleshooting installation problems  
 
 
-1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button.](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
+1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button.](media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature.
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another Microsoft Dataverse environment or Customer Engagement (on-premises) organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
 

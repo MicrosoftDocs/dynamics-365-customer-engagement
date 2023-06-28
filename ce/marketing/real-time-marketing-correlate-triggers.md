@@ -8,19 +8,15 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use binding IDs to correlate across triggers
 
-For event-based, repeatable journeys, a customer can repeat a journey without having completed the previous run. For example, consider a journey that sends appointment confirmations and reminders. When a person registers for their first appointment, they enter the journey and receive a confirmation. They'll continue to wait in the journey until they receive a reminder a day before the appointment. During this time, the same person could register for a second appointment. The journey participant will start the same journey a second time for the second appointment. In other words, the same person is now going through two instances of the same journey.
+For trigger-based, repeatable journeys, a customer can repeat a journey without having completed the previous run. For example, consider a journey that sends appointment confirmations and reminders. When a person registers for their first appointment, they enter the journey and receive a confirmation. They'll continue to wait in the journey until they receive a reminder a day before the appointment. During this time, the same person could register for a second appointment. The journey participant will start the same journey a second time for the second appointment. In other words, the same person is now going through two instances of the same journey.
 
 In such a situation, if the journey participant cancels one of the appointments, they should exit only the journey associated with the canceled appointment. For example, if they cancel the first appointment, they should exit the journey associated with the first appointment but continue the journey associated with the second appointment. If you're using out-of-the-box Dataverse-based events, then the behavior is automatic and no other action is needed. However, if you're using custom triggers, you must configure the trigger to correctly identify the specific instance of the journey that the trigger must be associated with.
 
@@ -167,3 +163,5 @@ Trigger event: "incident/000"
 Resume event: ""
 Result: Case 3 resume
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

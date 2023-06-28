@@ -1,11 +1,10 @@
 ---
 title: "translateMessage (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about translateMessage method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
-ms.date: 10/12/2020
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+description: "Includes reference information about translateMessage method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+ms.date: 04/04/2022
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
 ---
 
 # translateMessage
@@ -27,7 +26,7 @@ This method is required to be implemented in web resource. This method is called
 |----|----|----|
 |`translationConfig`|JavaScript object| Consists of `conversationId`, `messagePayload` and `translateToC1orC2` key-value pairs.|
 
-Here is the structure of `translationConfig` parameter.
+Here's the structure of `translationConfig` parameter.
 
 ```json
 
@@ -63,7 +62,7 @@ interface translationConfig {
  } 
 ```
 
-Given below is a sample of the `conversationConfig` parameter.
+Here's a sample of the `conversationConfig` parameter.
 
 ```json
 translationConfig = {
@@ -79,7 +78,7 @@ translationConfig = {
 }
 ```
 
-## Return Value
+## Return value
 
 Returns a promise that resolves to a JavaScript object implementing `TranslatedMessageResponse` interface.
 
@@ -128,12 +127,12 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 }
 ```
 
-## Additional Information
-
-1. In case of an exception during execution of this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message.
-2. Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display the error message based on the provided error codes.
-3. In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
-4. If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
+> [!Note]
+>
+> - In case of an exception during execution of this method, Omnichannel for Customer Service will not retry and instead will display a translation failed error message.
+> - Error while executing this method can be notified via `errorObject`. In case of an error, Omnichannel for Customer Service will not retry and instead will display the error message based on the provided error codes.
+> - In case the returned response is invalid or incomplete, an error message on the translation banner will appear in the conversation control.
+> - If this method is not implemented, then the message will not be translated and the following error message will be displayed to the agent.
 
 ![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 

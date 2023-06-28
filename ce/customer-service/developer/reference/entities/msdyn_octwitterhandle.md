@@ -1,11 +1,10 @@
 ---
 title: "msdyn_octwitterhandle Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_octwitterhandle entity."
-ms.date: 09/14/2020
+ms.date: 05/26/2023
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -901,13 +900,13 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid](#BKMK_msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid)
+- msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid
 - [msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage)
 
 
 ### <a name="BKMK_msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid"></a> msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid
 
-See msdyn_octwitterapplication Entity [msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid](msdyn_octwitterapplication.md#BKMK_msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid) One-To-Many relationship.
+See msdyn_octwitterapplication Entity [msdyn_msdyn_octwitterapplication_msdyn_octwitterhandle_octwitterapplicationid](msdyn_octwitterapplication.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage"></a> msdyn_msdyn_oclanguage_msdyn_octwitterhandle_twitterhandlelanguage
 

@@ -14,14 +14,10 @@ ms.assetid: 7e846aff-e472-4a3a-810d-de2aea0817f0
 caps.latest.revision: 63
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Install Dynamics 365 for Outlook
 To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] on a user’s computer, you need to install the software, and then configure it. This topic describes how to set up and configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], and also how to enable multi-factor authentication (MFA) through OAuth. Using MFA can help make client authentication more secure, especially for mobile users.
@@ -56,7 +52,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
      >  If you have updated your Dynamics 365 apps  organzation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
 
 
-~~~
+
 -   To install from a DVD, double-click **SetupClient.exe** in the installation folder for the architecture (32-bit or 64-bit) of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that you’ve installed:
 
     -   ... \Client\amd64 for 64-bit
@@ -72,7 +68,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
     3.  If you see any dialog boxes titled **Security Warning**, click **Run** in each.
 
      The **Microsoft Dynamics 365 apps for Microsoft Office Outlook Setup** wizard starts.  
-~~~
+
 
 5. On the **License Agreement** page, review the information. If you accept the license agreement, select **I accept the license agreement**, and then click **Next**.
 

@@ -1,21 +1,16 @@
 ---
 title: "Add surveys to your Dynamics 365 Marketing campaigns (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create surveys in Dynamics 365 Marketing using Microsoft Dynamics 365 Customer Voice."
-ms.date: 11/30/2021
-
+ms.date: 04/01/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Add surveys to your marketing campaigns
@@ -70,6 +65,9 @@ Marketing gives you the option to automate customer journey actions based on Dyn
 
 > [!NOTE]
 > As of the October 2020 Marketing release, the Dynamics 365 Customer Voice tile no longer appears in the contextual window that appears when adding a new tile to the canvas. To add the tile, you must set the options for an email tile as shown below.
+
+> [!IMPORTANT]
+> Marketing emails that are used in outbound marketing journeys contain a *personalized* customer voice survey link that is generated in each email. This means that if you send a second email as reminder to fill out the survey, you must use the link from the initial email that is personalized to the recipient. If you do not use the personalized link in the reminder email, the new link will open a blank survey.
 
 To add a Dynamics 365 Customer Voice survey to customer journey:
 1. Go to the [customer journey designer](customer-journeys-create-automated-campaigns.md). Then create or choose an existing customer journey with an email tile. Make sure the email tile is associated with an existing email.

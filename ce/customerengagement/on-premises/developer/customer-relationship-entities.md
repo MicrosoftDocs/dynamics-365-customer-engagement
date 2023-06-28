@@ -1,5 +1,6 @@
 ---
 title: "Customer relationship entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: Learn about how customer relationship entities are not supported in Dynamics 365 for Customer Engagement. Connection entities should be used instead.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -19,7 +20,6 @@ ms.assetid: 7ef2ede5-41b2-4b08-807b-4607df7a58de
 caps.latest.revision: 25
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

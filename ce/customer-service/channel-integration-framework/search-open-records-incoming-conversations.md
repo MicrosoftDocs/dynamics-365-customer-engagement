@@ -1,27 +1,26 @@
 ---
-title: "Walkthrough: Search and open records of incoming conversations | MicrosoftDocs"
+title: "Search and open records of incoming conversations | MicrosoftDocs"
 description: "Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations."
-ms.date: 01/21/2022
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+ms.date: 09/27/2022
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
-# Walkthrough: Search and open records of incoming conversations
+# Search and open records of incoming conversations
 
 In this tutorial, we demonstrate how you can search and open records in Dynamics 365 on an incoming call using Dynamics 365 Channel Integration Framework APIs.
 
-The sample given below covers four scenarios:
+The sample covers four scenarios:
 
-1. Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+- Customer's contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
-2. Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+- Customer's contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
 
-3. Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
+- Customer's contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then the search results are displayed on the console.
 
-4. Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
+- Customer's contact number does not match any record in Dynamics 365, so we search and open empty results and then create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
 
 ## Prerequisites
 
@@ -111,7 +110,7 @@ The sample given below covers four scenarios:
             // Search and show search results on console
             var contactno = "555-5555"; // The contact number to be searched
 
-            // Set the value of searchOnly parameter to True if you only want to get results of the search as a promise result and not open the record or search page. More information: https://docs.microsoft.com/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/searchandopenrecords#parameters.
+            // Set the value of searchOnly parameter to True if you only want to get results of the search as a promise result and not open the record or search page. More information: https://learn.microsoft.com/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/searchandopenrecords#parameters.
             Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'"  + "&$search=" + `${contactno}`, true).then(
                 function success(result) {
                     res = JSON.parse(result);
@@ -206,11 +205,8 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
 ### See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)
-
-[Sample code for softphone integration](sample-softphone-integration.md)
-
-[Frequently asked questions](faq-channel-integration-framework.md)
-
+[Build a simple communication widget](getting-started-simple-widget.md)  
+[Sample code for softphone integration](sample-softphone-integration.md)  
+[Frequently asked questions](faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

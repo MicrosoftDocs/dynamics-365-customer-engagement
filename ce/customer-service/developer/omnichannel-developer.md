@@ -1,42 +1,40 @@
 ---
 title: "Omnichannel for Customer Service for developers | MicrosoftDocs"
-description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features"
-ms.date: 04/06/2020
+description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features."
+ms.date: 10/03/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 # Omnichannel for Customer Service for developers
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-
 ## Live chat widget SDK 
 
-Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
+Omnichannel for Customer Service live chat widget SDK provides methods that lets you do the following.
 - Set, retrieve, and remove custom context provider for a live chat session.
 - Open an existing chat or start a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
 [Start a chat](../initiate-chat-wait-time.md)<br />
-[Live chat SDK JavaScript API reference](omnichannel-reference.md)
+[Live chat SDK reference](omnichannel-reference.md)
 
 ## Start proactive chat 
 
 Anticipating areas where customers need help and then engaging them through chat when they have been browsing your website for some time helps improve customer experience. Omnichannel for Customer Service allows you to offer proactive chat request to your customers when you think they can use some help.
 
-[Start chat proactively](../start-proactive-chat.md)
+[Start a chat proactively](../start-proactive-chat.md)
 
 ## Send custom context
 
 When a customer starts a chat, you can pass custom context to Omnichannel for Customer Service.
 
-[Manage custom context](../send-context-starting-chat.md)
+[Send custom context](../send-context-starting-chat.md)
 
 ## Display custom context 
 
-Learn how you can display the context variables in the Conversation Summary Control for a conversation on the agent user interface.
+Learn how you can display the context variables in the Conversation Summary control for a conversation on the agent user interface.
 
 [Display custom context](../display-custom-context.md)
 
@@ -56,7 +54,7 @@ Omnichannel for Customer Service allows you to route a conversation to a human a
 
 Learn how you can automatically close a conversation using Web API.
 
-[Auto-close a conversation](../auto-close-conversation.md)
+[Configure automatic closure of conversations](../auto-close-conversation.md)
 
 ## runMacro API
 
@@ -80,7 +78,7 @@ Enable your Azure bot to understand context while authoring a bot flow.
 
 Read how you can implement a connector to integrate custom messaging channels using Direct Line Bot.
 
-[Bring your own channel](../bring-your-own-channel.md) 
+[Integrate your own custom channel: Direct Line](../bring-your-own-channel.md) 
 
 
 ### See also
@@ -89,8 +87,8 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Omnichannel for Customer Service for administrators](../omnichannel-administrator.md)<br />
 [Omnichannel for Customer Service for system customizers](../omnichannel-customizer.md)<br />
 [Omnichannel for Customer Service for agents](../omnichannel-agent-overview.md)<br />
-[Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)
-[Live chat SDK JavaScript API reference](omnichannel-reference.md)  
+[Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)  
+[Live chat SDK reference](omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

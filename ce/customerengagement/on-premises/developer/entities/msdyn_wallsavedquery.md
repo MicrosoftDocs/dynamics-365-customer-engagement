@@ -1,18 +1,16 @@
 ---
-title: "msdyn_wallsavedquery Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "msdyn_wallsavedquery entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_wallsavedquery entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# msdyn_wallsavedquery Entity Reference
+
+# msdyn_wallsavedquery entity reference
 
 Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.
 
@@ -21,17 +19,17 @@ Contains information regarding which views are available for users to display on
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries(*msdyn_wallsavedqueryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries(*msdyn_wallsavedqueryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries(*msdyn_wallsavedqueryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_wallsavedqueries(*msdyn_wallsavedqueryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IsValidStateTransition|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -132,14 +130,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_IsVirtual Options
+#### msdyn_IsVirtual Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -155,14 +153,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### msdyn_IsVisible Options
+#### msdyn_IsVisible Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Shown|
-|0|Hidden|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Shown||
+|0|Hidden||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -287,7 +285,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -308,7 +306,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -697,7 +695,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msdyn_wallsavedquery_SyncErrors) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msdyn_wallsavedquery_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -714,7 +712,7 @@ Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msd
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperation.md#BKMK_msdyn_wallsavedquery_AsyncOperations) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_AsyncOperations](asyncoperation.md#BKMK_msdyn_wallsavedquery_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -731,7 +729,7 @@ Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperat
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_wallsavedquery_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_wallsavedquery_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -748,7 +746,7 @@ Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolder
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsession.md#BKMK_msdyn_wallsavedquery_ProcessSession) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_ProcessSession](processsession.md#BKMK_msdyn_wallsavedquery_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -765,7 +763,7 @@ Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsessi
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_wallsavedquery_BulkDeleteFailures) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_wallsavedquery_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -782,7 +780,7 @@ Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkd
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -797,7 +795,7 @@ Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObj
 
 ### <a name="BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings"></a> msdyn_wallsavedquery_wallsavedqueryusersettings
 
-Same as msdyn_wallsavedqueryusersettings entity [msdyn_wallsavedquery_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings) Many-To-One relationship.
+Same as the [msdyn_wallsavedquery_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings) many-to-one relationship for the [msdyn_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -827,41 +825,37 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_wallsavedquery_createdby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_createdby) One-To-Many relationship.
+See the [lk_msdyn_wallsavedquery_createdby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_wallsavedquery_createdonbehalfby"></a> lk_msdyn_wallsavedquery_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_wallsavedquery_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_createdonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_wallsavedquery_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_wallsavedquery_modifiedby"></a> lk_msdyn_wallsavedquery_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_wallsavedquery_modifiedby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_modifiedby) One-To-Many relationship.
+See the [lk_msdyn_wallsavedquery_modifiedby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_msdyn_wallsavedquery_modifiedonbehalfby"></a> lk_msdyn_wallsavedquery_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_msdyn_wallsavedquery_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_msdyn_wallsavedquery_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_wallsavedquery_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_msdyn_wallsavedquery"></a> organization_msdyn_wallsavedquery
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_msdyn_wallsavedquery](organization.md#BKMK_organization_msdyn_wallsavedquery) One-To-Many relationship.
+See the [organization_msdyn_wallsavedquery](organization.md#BKMK_organization_msdyn_wallsavedquery) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_msdyn_postconfig_wallsavedquery"></a> msdyn_postconfig_wallsavedquery
 
-See msdyn_postconfig Entity [msdyn_postconfig_wallsavedquery](msdyn_postconfig.md#BKMK_msdyn_postconfig_wallsavedquery) One-To-Many relationship.
+See the [msdyn_postconfig_wallsavedquery](msdyn_postconfig.md#BKMK_msdyn_postconfig_wallsavedquery) one-to-many relationship for the [msdyn_postconfig](msdyn_postconfig.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_wallsavedquery?text=msdyn_wallsavedquery EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

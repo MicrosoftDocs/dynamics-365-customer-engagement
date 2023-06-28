@@ -1,11 +1,10 @@
 ---
 title: "msdyn_occustommessagingchannel Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occustommessagingchannel entity."
-ms.date: 09/14/2020
+ms.date: 05/26/2023
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -886,7 +885,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](#BKMK_msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration)
+- msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration
 - [msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage](#BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage)
 
 
@@ -894,7 +893,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Omnichannel – Base Solution
 
-See msdyn_ocbotchannelregistration Entity [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](msdyn_ocbotchannelregistration.md#BKMK_msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration) One-To-Many relationship.
+See msdyn_ocbotchannelregistration Entity [msdyn_msdyn_ocbotchannelregistration_msdyn_occustommessagingchannel_custombotchannelregistration](msdyn_ocbotchannelregistration.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage"></a> msdyn_msdyn_oclanguage_msdyn_occustommessagingchannel_custommessagingchannellanguage
 

@@ -1,6 +1,6 @@
 ---
 title: "Sample: Clean up history for a queue (early bound)| MicrosoftDocs"
-decription: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
+description: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -19,13 +19,12 @@ ms.assetid: 81d686b0-7c5d-45e5-b2df-b74b0413bf6b
 caps.latest.revision: 19
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 # Sample: Clean up history for a queue (early bound)
 
-This sample shows how to clean up the history for the queue by using [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) with inactive items. It finds completed phone calls in the queue and removes the associated queue items. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CleanHistoryQueue).
+This sample shows how to clean up the history for the queue by using [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9&preserve-view=true) with inactive items. It finds completed phone calls in the queue and removes the associated queue items. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CleanHistoryQueue).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -50,7 +49,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-Retrieves the queueitem with inactive phone calls from a queue using the [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) message.
+Retrieves the queueitem with inactive phone calls from a queue using the [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9&preserve-view=true) message.
 
 ### Clean up
 

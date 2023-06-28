@@ -1,11 +1,10 @@
 ---
-title: "Create templates for knowledge articles for Dynamics 365 Customer Service | MicrosoftDocs"
+title: Create templates for knowledge articles
 description: Learn how to create templates that simplify the process of creating knowledge articles.
-ms.date: 02/11/2022
+ms.date: 12/14/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
-manager: shujoshi
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
 searchScope: 
@@ -18,7 +17,7 @@ searchScope:
  - Customer Engagement
 ---
 
-# Knowledge article templates
+# Create templates for knowledge articles
 
 Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure.
 
@@ -35,14 +34,11 @@ Before working with templates, make sure you have the required privileges to cre
 
  As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields will be pre-populated when the author creates the article using the template, reducing the efforts to fill in these fields.
 
-You can create a knowledge article template in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can create a knowledge article template in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Article Templates** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
  1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.

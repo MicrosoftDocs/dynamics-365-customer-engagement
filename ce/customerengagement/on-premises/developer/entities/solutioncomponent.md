@@ -1,34 +1,32 @@
 ---
-title: "SolutionComponent Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SolutionComponent entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SolutionComponent entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SolutionComponent Entity Reference
+
+# SolutionComponent entity reference
 
 A component of a CRM solution.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|AddSolutionComponent|<xref href="Microsoft.Dynamics.CRM.AddSolutionComponent?text=AddSolutionComponent Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest>|
-|IsComponentCustomizable|<xref href="Microsoft.Dynamics.CRM.IsComponentCustomizable?text=IsComponentCustomizable Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsComponentCustomizableRequest>|
-|RemoveSolutionComponent|<xref href="Microsoft.Dynamics.CRM.RemoveSolutionComponent?text=RemoveSolutionComponent Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveSolutionComponentRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/solutioncomponents(*solutioncomponentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/solutioncomponents<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|UpdateSolutionComponent|<xref href="Microsoft.Dynamics.CRM.UpdateSolutionComponent?text=UpdateSolutionComponent Action" />|<xref:Microsoft.Crm.Sdk.Messages.UpdateSolutionComponentRequest>|
+|Message|SDK class or method|
+|-|-|
+|AddSolutionComponent|<xref:Microsoft.Crm.Sdk.Messages.AddSolutionComponentRequest>|
+|IsComponentCustomizable|<xref:Microsoft.Crm.Sdk.Messages.IsComponentCustomizableRequest>|
+|RemoveSolutionComponent|<xref:Microsoft.Crm.Sdk.Messages.RemoveSolutionComponentRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|UpdateSolutionComponent|<xref:Microsoft.Crm.Sdk.Messages.UpdateSolutionComponentRequest>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -83,91 +81,89 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentType Options
+#### ComponentType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Entity|
-|2|Attribute|
-|3|Relationship|
-|4|Attribute Picklist Value|
-|5|Attribute Lookup Value|
-|6|View Attribute|
-|7|Localized Label|
-|8|Relationship Extra Condition|
-|9|Option Set|
-|10|Entity Relationship|
-|11|Entity Relationship Role|
-|12|Entity Relationship Relationships|
-|13|Managed Property|
-|14|Entity Key|
-|16|Privilege|
-|17|PrivilegeObjectTypeCode|
-|18|Index|
-|20|Role|
-|21|Role Privilege|
-|22|Display String|
-|23|Display String Map|
-|24|Form|
-|25|Organization|
-|26|Saved Query|
-|29|Workflow|
-|31|Report|
-|32|Report Entity|
-|33|Report Category|
-|34|Report Visibility|
-|35|Attachment|
-|36|Email Template|
-|37|Contract Template|
-|38|KB Article Template|
-|39|Mail Merge Template|
-|44|Duplicate Rule|
-|45|Duplicate Rule Condition|
-|46|Entity Map|
-|47|Attribute Map|
-|48|Ribbon Command|
-|49|Ribbon Context Group|
-|50|Ribbon Customization|
-|52|Ribbon Rule|
-|53|Ribbon Tab To Command Map|
-|55|Ribbon Diff|
-|59|Saved Query Visualization|
-|60|System Form|
-|61|Web Resource|
-|62|Site Map|
-|63|Connection Role|
-|64|Complex Control|
-|65|Hierarchy Rule|
-|66|Custom Control|
-|68|Custom Control Default Config|
-|70|Field Security Profile|
-|71|Field Permission|
-|90|Plugin Type|
-|91|Plugin Assembly|
-|92|SDK Message Processing Step|
-|93|SDK Message Processing Step Image|
-|95|Service Endpoint|
-|150|Routing Rule|
-|151|Routing Rule Item|
-|152|SLA|
-|153|SLA Item|
-|154|Convert Rule|
-|155|Convert Rule Item|
-|161|Mobile Offline Profile|
-|162|Mobile Offline Profile Item|
-|165|Similarity Rule|
-|166|Data Source Mapping|
-|201|SDKMessage|
-|202|SDKMessageFilter|
-|203|SdkMessagePair|
-|204|SdkMessageRequest|
-|205|SdkMessageRequestField|
-|206|SdkMessageResponse|
-|207|SdkMessageResponseField|
-|208|Import Map|
-|210|WebWizard|
-|300|Canvas App|
-|371|Connector|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Entity||
+|2|Attribute||
+|3|Relationship||
+|4|Attribute Picklist Value||
+|5|Attribute Lookup Value||
+|6|View Attribute||
+|7|Localized Label||
+|8|Relationship Extra Condition||
+|9|Option Set||
+|10|Entity Relationship||
+|11|Entity Relationship Role||
+|12|Entity Relationship Relationships||
+|13|Managed Property||
+|14|Entity Key||
+|16|Privilege||
+|17|PrivilegeObjectTypeCode||
+|18|Index||
+|20|Role||
+|21|Role Privilege||
+|22|Display String||
+|23|Display String Map||
+|24|Form||
+|25|Organization||
+|26|Saved Query||
+|29|Workflow||
+|31|Report||
+|32|Report Entity||
+|33|Report Category||
+|34|Report Visibility||
+|35|Attachment||
+|36|Email Template||
+|37|Contract Template||
+|38|KB Article Template||
+|39|Mail Merge Template||
+|44|Duplicate Rule||
+|45|Duplicate Rule Condition||
+|46|Entity Map||
+|47|Attribute Map||
+|48|Ribbon Command||
+|49|Ribbon Context Group||
+|50|Ribbon Customization||
+|52|Ribbon Rule||
+|53|Ribbon Tab To Command Map||
+|55|Ribbon Diff||
+|59|Saved Query Visualization||
+|60|System Form||
+|61|Web Resource||
+|62|Site Map||
+|63|Connection Role||
+|64|Complex Control||
+|65|Hierarchy Rule||
+|66|Custom Control||
+|68|Custom Control Default Config||
+|70|Field Security Profile||
+|71|Field Permission||
+|90|Plugin Type||
+|91|Plugin Assembly||
+|92|SDK Message Processing Step||
+|93|SDK Message Processing Step Image||
+|95|Service Endpoint||
+|150|Routing Rule||
+|151|Routing Rule Item||
+|152|SLA||
+|153|SLA Item||
+|154|Convert Rule||
+|155|Convert Rule Item||
+|161|Mobile Offline Profile||
+|162|Mobile Offline Profile Item||
+|165|Similarity Rule||
+|166|Data Source Mapping||
+|201|SDKMessage||
+|202|SDKMessageFilter||
+|203|SdkMessagePair||
+|204|SdkMessageRequest||
+|205|SdkMessageRequestField||
+|206|SdkMessageResponse||
+|207|SdkMessageResponseField||
+|208|Import Map||
+|210|WebWizard||
 
 
 
@@ -258,14 +254,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMetadata Options
+#### IsMetadata Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Metadata|
-|0|Data|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Metadata||
+|0|Data||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -369,13 +365,13 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### RootComponentBehavior Options
+#### RootComponentBehavior Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Include Subcomponents|
-|1|Do not include subcomponents|
-|2|Include As Shell Only|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Include Subcomponents||
+|1|Do not include subcomponents||
+|2|Include As Shell Only||
 
 
 
@@ -458,7 +454,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_solutioncomponent_parent_solutioncomponent"></a> solutioncomponent_parent_solutioncomponent
 
-Same as solutioncomponent entity [solutioncomponent_parent_solutioncomponent](solutioncomponent.md#BKMK_solutioncomponent_parent_solutioncomponent) Many-To-One relationship.
+Same as the [solutioncomponent_parent_solutioncomponent](solutioncomponent.md#BKMK_solutioncomponent_parent_solutioncomponent) many-to-one relationship for the [solutioncomponent](solutioncomponent.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -484,25 +480,21 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_solutioncomponentbase_modifiedonbehalfby"></a> lk_solutioncomponentbase_modifiedonbehalfby
 
-See systemuser Entity [lk_solutioncomponentbase_modifiedonbehalfby](systemuser.md#BKMK_lk_solutioncomponentbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_solutioncomponentbase_modifiedonbehalfby](systemuser.md#BKMK_lk_solutioncomponentbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_solutioncomponent_parent_solutioncomponent"></a> solutioncomponent_parent_solutioncomponent
 
-See solutioncomponent Entity [solutioncomponent_parent_solutioncomponent](solutioncomponent.md#BKMK_solutioncomponent_parent_solutioncomponent) One-To-Many relationship.
+See the [solutioncomponent_parent_solutioncomponent](solutioncomponent.md#BKMK_solutioncomponent_parent_solutioncomponent) one-to-many relationship for the [solutioncomponent](solutioncomponent.md) entity.
 
 ### <a name="BKMK_lk_solutioncomponentbase_createdonbehalfby"></a> lk_solutioncomponentbase_createdonbehalfby
 
-See systemuser Entity [lk_solutioncomponentbase_createdonbehalfby](systemuser.md#BKMK_lk_solutioncomponentbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_solutioncomponentbase_createdonbehalfby](systemuser.md#BKMK_lk_solutioncomponentbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_solution_solutioncomponent"></a> solution_solutioncomponent
 
-See solution Entity [solution_solutioncomponent](solution.md#BKMK_solution_solutioncomponent) One-To-Many relationship.
+See the [solution_solutioncomponent](solution.md#BKMK_solution_solutioncomponent) one-to-many relationship for the [solution](solution.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.solutioncomponent?text=solutioncomponent EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

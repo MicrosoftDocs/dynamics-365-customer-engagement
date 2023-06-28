@@ -1,22 +1,17 @@
 ---
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 Marketing."
-ms.date: 03/23/2021
-
+ms.date: 01/25/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Event management settings
@@ -39,12 +34,12 @@ You also need to register a web application if you decide to host your event web
 
 ## Webinar providers
 
-A *webinar provider* is a third-party company that hosts webinars. The provider accepts registrations, provides URLs where the presenter and participants can join each webinar, and also provides a server to run the webinar itself. Providers typically also deliver attendance statistics and other webinar features. Microsoft does not provide this service, so to run a webinar, you must sign up with a third-party provider and then configure Dynamics 365 Marketing with the details needed to connect to that provider.
+A *webinar provider* is an app or service that hosts webinars. The provider accepts registrations, provides URLs where the presenter and participants can join each webinar, and also provides a server to run the webinar itself. Providers typically also deliver attendance statistics and other webinar features. Marketing does not provide its own hosting capability, but you can [use Microsoft Teams as a webinar hosting provider](teams-webinar.md). Microsoft Teams is the preferred provider to use for webinars. You can also sign up with a [third-party provider](set-up-webinar.md) and then configure Marketing with the details needed to connect to that provider.
 
 Each webinar provider that you use must have a record listed on the **Webinar providers** page. For each account that you have with your webinar provider, you must also set up a **Webinar configuration** record as described in the next section.
 
 > [!IMPORTANT]
-> In most cases, you should never modify or add any records on the the **Webinar providers** page. Microsoft has partnered with a webinar provider called [On24](https://www.on24.com/), which is the only provider currently supported for use with Dynamics 365 Marketing. When you open the **Webinar providers** list page, you'll see that a preconfigured **On24** record is already listed here. In nearly all cases, you shouldn't edit or delete this record unless you want to specify an alternative terms-of-service and/or privacy policy URL. Likewise, there is usually no reason to add another provider record here unless you have partnered with a developer who has added a deeply customized solution for your organization. Also, the authorization credentials for your On24 account aren't managed by the webinar provider record, but by a webinar configuration record. See [Webinar configurations](#webinar-config), later in this topic, for details about how to connect to your On24 account.
+> In most cases, you should never modify or add any records on the the **Webinar providers** page. Microsoft has partnered with a third-party webinar provider called [On24](https://www.on24.com/). When you open the **Webinar providers** list page, you'll see that a preconfigured **On24** record is already listed here. In nearly all cases, you shouldn't edit or delete this record unless you want to specify an alternative terms-of-service and/or privacy policy URL. Likewise, there is usually no reason to add another provider record here unless you have partnered with a developer who has added a deeply customized solution for your organization. Also, the authorization credentials for your On24 account aren't managed by the webinar provider record, but by a webinar configuration record. See [Webinar configurations](#webinar-config), later in this topic, for details about how to connect to your On24 account.
 
 You can view your webinar providers by going to **Settings** > **Event management** > **Webinar providers**. But as mentioned, you usually shouldn't do anything here. If you do open or create a record here, you'll find the following settings:
 
@@ -55,9 +50,9 @@ You can view your webinar providers by going to **Settings** > **Event managemen
 - **Privacy policy**: Shows the URL for your webinar provider's privacy policy. Select the globe button to open this URL in a new browser tab. This link is provided to Dynamics 365 Marketing users when they are in the process of enabling webinar functionality, which requires them to agree to this policy. A link to the standard On24 privacy policy is provided by default. You might edit this if you prefer to use an alternative URL.
 - **Update credentials**: Unless your system has been customized to use a provider other than On24, don't use these settings (and even then, contact your development team for advice). Instead, see [Webinar configurations](#webinar-config), later in this topic, for details about how to connect to your On24 account.
 
-## Webinar configurations
+## Webinar configurations for third-party providers
 
-After you have set up an account with your webinar provider (probably On24), you must enter your account details to enable Dynamics 365 Marketing to authenticate and interact with it. Even if you use just one webinar provider, you might have several accounts with that provider, and can configure each of them as needed.
+After you have set up an account with your third-party webinar provider (probably On24), you must enter your account details to enable Dynamics 365 Marketing to authenticate and interact with it. Even if you use just one webinar provider, you might have several accounts with that provider, and can configure each of them as needed.
 
 > [!NOTE]
 > Each time you [set up an event or session as a webinar](set-up-webinar.md) (or hybrid), you must choose a webinar configuration. This is how you can control which account you'll be using for that event or session.
@@ -106,11 +101,7 @@ To set your event-administration options:
     - If you'd like to temporarily disable an existing event-administration record, possibly so you can create a new one to use in the meantime, then select the existing record and choose **Deactivate** from the command bar. To view, edit, and/or reactivate a deactivated record, switch to the **Inactive event administration** view using system view menu (above the list).
 1. Make the following settings:
     - **Name**: Enter a name for the current event-administration record.
-    - **Send mail to purchaser**: Set to **Yes** if you'd like the system to send an automatic email to the purchaser each time she or he registers an attendee for an event.
-    - **Email template for purchaser**: Choose the (hard-coded) email template to send to the purchaser when **Send mail to purchaser** is enabled.
-    - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
-    - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
-    - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name.
+    - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name. Learn more: [Set form matching](mkt-settings-matching.md).
     - **Enable demo payment confirmation**: This feature lets you simulate payment on the event website for demo purposes. Set this to **Yes** to enable demo payment. Set it to **No** to disable demo payment. To [enable online payment on a production site](event-payment-gateway.md), you must partner with a third-party payment provider and customize your event site to work with their system. Never enable demo payment on a production system because it can introduce a security vulnerability.
 
     > [!WARNING]

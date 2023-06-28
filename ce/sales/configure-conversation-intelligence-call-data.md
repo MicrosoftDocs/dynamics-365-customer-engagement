@@ -1,30 +1,27 @@
 ---
 title: "Configure call data for conversation intelligence"
 description: "Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers."
-ms.date: 01/10/2022
+ms.date: 09/30/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
-author: udaykirang
-ms.author: udag
-manager: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# Configure conversation intelligence to connect call data 
+# Configure conversation intelligence to connect call data  
 
 Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Create repository and upload call data 
 
@@ -98,7 +95,7 @@ Upload the call recording or transcript to the created call recording repository
     |&nbsp;| `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`. |
     |&nbsp;| `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`. |
     |&nbsp;| `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid). |
-    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, da-DK, sv-SE, fi-FI, and ar-BH. |
+    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, da-DK, sv-SE, fi-FI, nb-NO, and ar-BH. |
     | `version` | &mdash; | Specifies the version of metadata file. The value is 3.0.0. |
     | `title` | &mdash; | (Optional) Specifies the title of the conversation. |
     | `scope` | &mdash; | (Optional) Specifies whether the conversation is internal or external. The value is External or Internal. |

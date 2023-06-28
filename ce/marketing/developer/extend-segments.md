@@ -2,18 +2,13 @@
 title: "Basic operations on segments using API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to use the segmentation API in Dynamics 365 Marketing."
 ms.date: 06/12/2019
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Basic operations on segments using the segmentation API

@@ -1,5 +1,5 @@
 > [!NOTE]
-> This entity has been deprecated. It will still be visible in the [$metadata](/powerapps/developer/common-data-service/webapi/web-api-types-operations#bkmk_csdl) document but using it to access Microsoft Dataverse data is not supported.
+> This entity has been deprecated. It will still be visible in the [$metadata](/power-apps/developer/data-platform/webapi/web-api-service-documents#csdl-metadata-document) document but using it to access Microsoft Dataverse data is not supported.
 
 Primary entity for session data
 

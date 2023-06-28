@@ -1,32 +1,30 @@
 ---
-title: "PostFollow Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the PostFollow entity."
-ms.date: 04/02/2019
-
+title: "Follow (PostFollow)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Follow (PostFollow)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# PostFollow Entity Reference
+
+# Follow (PostFollow)  entity reference
 
 Represents a user following the activity feed of an object.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/postfollows<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/postfollows(*postfollowid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/postfollows(*postfollowid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/postfollows<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -379,14 +377,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### PostToYammer Options
+#### PostToYammer Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -480,7 +478,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_PostFollow_AsyncOperations"></a> PostFollow_AsyncOperations
 
-Same as asyncoperation entity [PostFollow_AsyncOperations](asyncoperation.md#BKMK_PostFollow_AsyncOperations) Many-To-One relationship.
+Same as the [PostFollow_AsyncOperations](asyncoperation.md#BKMK_PostFollow_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -495,7 +493,7 @@ Same as asyncoperation entity [PostFollow_AsyncOperations](asyncoperation.md#BKM
 
 ### <a name="BKMK_PostFollow_SyncErrors"></a> PostFollow_SyncErrors
 
-Same as syncerror entity [PostFollow_SyncErrors](syncerror.md#BKMK_PostFollow_SyncErrors) Many-To-One relationship.
+Same as the [PostFollow_SyncErrors](syncerror.md#BKMK_PostFollow_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -538,91 +536,87 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [lead_PostFollows](lead.md#BKMK_lead_PostFollows) One-To-Many relationship.
+See the [lead_PostFollows](lead.md#BKMK_lead_PostFollows) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_incident_PostFollows"></a> incident_PostFollows
 
 **Added by**: Service Solution
 
-See incident Entity [incident_PostFollows](incident.md#BKMK_incident_PostFollows) One-To-Many relationship.
+See the [incident_PostFollows](incident.md#BKMK_incident_PostFollows) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_opportunity_PostFollows"></a> opportunity_PostFollows
 
 **Added by**: Sales Solution
 
-See opportunity Entity [opportunity_PostFollows](opportunity.md#BKMK_opportunity_PostFollows) One-To-Many relationship.
+See the [opportunity_PostFollows](opportunity.md#BKMK_opportunity_PostFollows) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_competitor_PostFollows"></a> competitor_PostFollows
 
 **Added by**: Sales Solution
 
-See competitor Entity [competitor_PostFollows](competitor.md#BKMK_competitor_PostFollows) One-To-Many relationship.
+See the [competitor_PostFollows](competitor.md#BKMK_competitor_PostFollows) one-to-many relationship for the [competitor](competitor.md) entity.
 
 ### <a name="BKMK_task_PostFollows"></a> task_PostFollows
 
-See task Entity [task_PostFollows](task.md#BKMK_task_PostFollows) One-To-Many relationship.
+See the [task_PostFollows](task.md#BKMK_task_PostFollows) one-to-many relationship for the [task](task.md) entity.
 
 ### <a name="BKMK_appointment_PostFollows"></a> appointment_PostFollows
 
-See appointment Entity [appointment_PostFollows](appointment.md#BKMK_appointment_PostFollows) One-To-Many relationship.
+See the [appointment_PostFollows](appointment.md#BKMK_appointment_PostFollows) one-to-many relationship for the [appointment](appointment.md) entity.
 
 ### <a name="BKMK_phonecall_PostFollows"></a> phonecall_PostFollows
 
-See phonecall Entity [phonecall_PostFollows](phonecall.md#BKMK_phonecall_PostFollows) One-To-Many relationship.
+See the [phonecall_PostFollows](phonecall.md#BKMK_phonecall_PostFollows) one-to-many relationship for the [phonecall](phonecall.md) entity.
 
 ### <a name="BKMK_recurringappointmentmaster_PostFollows"></a> recurringappointmentmaster_PostFollows
 
-See recurringappointmentmaster Entity [recurringappointmentmaster_PostFollows](recurringappointmentmaster.md#BKMK_recurringappointmentmaster_PostFollows) One-To-Many relationship.
+See the [recurringappointmentmaster_PostFollows](recurringappointmentmaster.md#BKMK_recurringappointmentmaster_PostFollows) one-to-many relationship for the [recurringappointmentmaster](recurringappointmentmaster.md) entity.
 
 ### <a name="BKMK_lk_PostFollow_createdby"></a> lk_PostFollow_createdby
 
-See systemuser Entity [lk_PostFollow_createdby](systemuser.md#BKMK_lk_PostFollow_createdby) One-To-Many relationship.
+See the [lk_PostFollow_createdby](systemuser.md#BKMK_lk_PostFollow_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_account_PostFollows"></a> account_PostFollows
 
-See account Entity [account_PostFollows](account.md#BKMK_account_PostFollows) One-To-Many relationship.
+See the [account_PostFollows](account.md#BKMK_account_PostFollows) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_contact_PostFollows"></a> contact_PostFollows
 
-See contact Entity [contact_PostFollows](contact.md#BKMK_contact_PostFollows) One-To-Many relationship.
+See the [contact_PostFollows](contact.md#BKMK_contact_PostFollows) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_systemuser_PostFollows"></a> systemuser_PostFollows
 
-See systemuser Entity [systemuser_PostFollows](systemuser.md#BKMK_systemuser_PostFollows) One-To-Many relationship.
+See the [systemuser_PostFollows](systemuser.md#BKMK_systemuser_PostFollows) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_postfollows"></a> business_unit_postfollows
 
-See businessunit Entity [business_unit_postfollows](businessunit.md#BKMK_business_unit_postfollows) One-To-Many relationship.
+See the [business_unit_postfollows](businessunit.md#BKMK_business_unit_postfollows) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_OwningTeam_postfollows"></a> OwningTeam_postfollows
 
-See team Entity [OwningTeam_postfollows](team.md#BKMK_OwningTeam_postfollows) One-To-Many relationship.
+See the [OwningTeam_postfollows](team.md#BKMK_OwningTeam_postfollows) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_user_owner_postfollows"></a> user_owner_postfollows
 
-See systemuser Entity [user_owner_postfollows](systemuser.md#BKMK_user_owner_postfollows) One-To-Many relationship.
+See the [user_owner_postfollows](systemuser.md#BKMK_user_owner_postfollows) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_postfollow_createdonbehalfby"></a> lk_postfollow_createdonbehalfby
 
-See systemuser Entity [lk_postfollow_createdonbehalfby](systemuser.md#BKMK_lk_postfollow_createdonbehalfby) One-To-Many relationship.
+See the [lk_postfollow_createdonbehalfby](systemuser.md#BKMK_lk_postfollow_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_processsession_PostFollows"></a> processsession_PostFollows
 
-See processsession Entity [processsession_PostFollows](processsession.md#BKMK_processsession_PostFollows) One-To-Many relationship.
+See the [processsession_PostFollows](processsession.md#BKMK_processsession_PostFollows) one-to-many relationship for the [processsession](processsession.md) entity.
 
 ### <a name="BKMK_queue_PostFollows"></a> queue_PostFollows
 
-See queue Entity [queue_PostFollows](queue.md#BKMK_queue_PostFollows) One-To-Many relationship.
+See the [queue_PostFollows](queue.md#BKMK_queue_PostFollows) one-to-many relationship for the [queue](queue.md) entity.
 
 ### <a name="BKMK_knowledgearticle_PostFollows"></a> knowledgearticle_PostFollows
 
-See knowledgearticle Entity [knowledgearticle_PostFollows](knowledgearticle.md#BKMK_knowledgearticle_PostFollows) One-To-Many relationship.
+See the [knowledgearticle_PostFollows](knowledgearticle.md#BKMK_knowledgearticle_PostFollows) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.postfollow?text=postfollow EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,32 +1,43 @@
 ---
-title: "Manage sequences in sales accelerator"
+title: Create conditional workflows with sequences
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 01/10/2022
+ms.date: 09/02/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
-# Manage sequences 
+# Create conditional workflows with sequences
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+
+## Permission requirements to manage sequences
+
+The following table shows the permissions required for a user role to perform tasks on sequences.
+
+>[!NOTE]
+>By default, these permissions are available for System Administrator, Sequence manager, Sales Manager, and Salesperson security roles.
+
+| Task related to sequence | Permissions required |
+|--------------------------|----------------------|
+| Create, edit, and delete | In the Security roles page, under the **Custom Entities** tab, provide Create, Read, Write, and Delete permissions for **Sequence** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges) | 
+| Connect and disconnect| In the security roles page, under the **Custom Entities** tab, provide permissions for following entities: <br>- **Sequence**: Create and Append To<br>- **Sequence Target**: Create, Read, Write, Append, Append To, and Assign<br>- **Sequence Target Step**: Create, Read, Write, Append, and Assign<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges) |
 
 ## Use sequence designer
 
-As a sequence manager, you can use the sequence designer to do the following tasks:  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
+
+You can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).
 - [Connect a sequence to records](connect-a-sequence-to-records.md).
 - [View details of a sequence and its connected records](view-sequence-details-connected-records.md).
-- [Clone a sequence](clone-a-sequence.md).
-- [Edit a sequence](edit-a-sequence.md).
+- [Clone and edit a sequence](edit-a-sequence.md).
 - [Delete a sequence](delete-a-sequence.md).
 
 ## Review prerequisite

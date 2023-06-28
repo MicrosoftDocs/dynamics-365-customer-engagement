@@ -1,18 +1,16 @@
 ---
-title: "KnowledgeArticleIncident Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "KnowledgeArticleIncident entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the KnowledgeArticleIncident entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# KnowledgeArticleIncident Entity Reference
+
+# KnowledgeArticleIncident entity reference
 
 Association between an knowledge article and incident.
 
@@ -21,15 +19,15 @@ Association between an knowledge article and incident.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/knowledgearticleincidents<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/knowledgearticleincidents(*knowledgearticleincidentid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/knowledgearticleincidents(*knowledgearticleincidentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/knowledgearticleincidents<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/knowledgearticleincidents(*knowledgearticleincidentid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -108,14 +106,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Type|Boolean|
 
-#### IsSentToCustomer Options
+#### IsSentToCustomer Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -159,13 +157,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### KnowledgeUsage Options
+#### KnowledgeUsage Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Reference|
-|2|Solution|
-|3|Source|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Reference||
+|2|Solution||
+|3|Source||
 
 
 
@@ -198,7 +196,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -219,7 +217,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -719,7 +717,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [KnowledgeArticleIncident_SyncErrors](syncerror.md#BKMK_KnowledgeArticleIncident_SyncErrors) Many-To-One relationship.
+Same as the [KnowledgeArticleIncident_SyncErrors](syncerror.md#BKMK_KnowledgeArticleIncident_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -736,7 +734,7 @@ Same as syncerror entity [KnowledgeArticleIncident_SyncErrors](syncerror.md#BKMK
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [knowledgearticleincident_AsyncOperations](asyncoperation.md#BKMK_knowledgearticleincident_AsyncOperations) Many-To-One relationship.
+Same as the [knowledgearticleincident_AsyncOperations](asyncoperation.md#BKMK_knowledgearticleincident_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -753,7 +751,7 @@ Same as asyncoperation entity [knowledgearticleincident_AsyncOperations](asyncop
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [knowledgearticleincident_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_knowledgearticleincident_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [knowledgearticleincident_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_knowledgearticleincident_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -770,7 +768,7 @@ Same as mailboxtrackingfolder entity [knowledgearticleincident_MailboxTrackingFo
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [knowledgearticleincident_ProcessSession](processsession.md#BKMK_knowledgearticleincident_ProcessSession) Many-To-One relationship.
+Same as the [knowledgearticleincident_ProcessSession](processsession.md#BKMK_knowledgearticleincident_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -787,7 +785,7 @@ Same as processsession entity [knowledgearticleincident_ProcessSession](processs
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [knowledgearticleincident_BulkDeleteFailures](bulkdeletefailure.md#BKMK_knowledgearticleincident_BulkDeleteFailures) Many-To-One relationship.
+Same as the [knowledgearticleincident_BulkDeleteFailures](bulkdeletefailure.md#BKMK_knowledgearticleincident_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -804,7 +802,7 @@ Same as bulkdeletefailure entity [knowledgearticleincident_BulkDeleteFailures](b
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [knowledgearticleincident_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleincident_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [knowledgearticleincident_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleincident_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -837,59 +835,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_knowledgearticleincident_createdby](systemuser.md#BKMK_lk_knowledgearticleincident_createdby) One-To-Many relationship.
+See the [lk_knowledgearticleincident_createdby](systemuser.md#BKMK_lk_knowledgearticleincident_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleincident_createdonbehalfby"></a> lk_knowledgearticleincident_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_knowledgearticleincident_createdonbehalfby](systemuser.md#BKMK_lk_knowledgearticleincident_createdonbehalfby) One-To-Many relationship.
+See the [lk_knowledgearticleincident_createdonbehalfby](systemuser.md#BKMK_lk_knowledgearticleincident_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleincident_modifiedby"></a> lk_knowledgearticleincident_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_knowledgearticleincident_modifiedby](systemuser.md#BKMK_lk_knowledgearticleincident_modifiedby) One-To-Many relationship.
+See the [lk_knowledgearticleincident_modifiedby](systemuser.md#BKMK_lk_knowledgearticleincident_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleincident_modifiedonbehalfby"></a> lk_knowledgearticleincident_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_knowledgearticleincident_modifiedonbehalfby](systemuser.md#BKMK_lk_knowledgearticleincident_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_knowledgearticleincident_modifiedonbehalfby](systemuser.md#BKMK_lk_knowledgearticleincident_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_knowledgearticleincident"></a> user_knowledgearticleincident
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_knowledgearticleincident](systemuser.md#BKMK_user_knowledgearticleincident) One-To-Many relationship.
+See the [user_knowledgearticleincident](systemuser.md#BKMK_user_knowledgearticleincident) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_knowledgearticleincident"></a> team_knowledgearticleincident
 
 **Added by**: System Solution Solution
 
-See team Entity [team_knowledgearticleincident](team.md#BKMK_team_knowledgearticleincident) One-To-Many relationship.
+See the [team_knowledgearticleincident](team.md#BKMK_team_knowledgearticleincident) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_knowledgearticle_incidents"></a> knowledgearticle_incidents
 
-See incident Entity [knowledgearticle_incidents](incident.md#BKMK_knowledgearticle_incidents) One-To-Many relationship.
+See the [knowledgearticle_incidents](incident.md#BKMK_knowledgearticle_incidents) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_incident_knowledgearticles"></a> incident_knowledgearticles
 
 **Added by**: System Solution Solution
 
-See knowledgearticle Entity [incident_knowledgearticles](knowledgearticle.md#BKMK_incident_knowledgearticles) One-To-Many relationship.
+See the [incident_knowledgearticles](knowledgearticle.md#BKMK_incident_knowledgearticles) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_transactioncurrency_knowledgearticleincident"></a> transactioncurrency_knowledgearticleincident
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_knowledgearticleincident](transactioncurrency.md#BKMK_transactioncurrency_knowledgearticleincident) One-To-Many relationship.
+See the [transactioncurrency_knowledgearticleincident](transactioncurrency.md#BKMK_transactioncurrency_knowledgearticleincident) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.knowledgearticleincident?text=knowledgearticleincident EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

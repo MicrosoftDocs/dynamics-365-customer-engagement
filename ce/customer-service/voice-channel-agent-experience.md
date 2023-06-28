@@ -1,23 +1,24 @@
 ---
-title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
-description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 03/11/2022
+title: Use agent dashboard and call controls in the voice channel
+description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
+ms.date: 06/13/2023
 ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: bap-template
 ---
 
 # Use agent dashboard and call controls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
+The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you a consolidated view of the calling interface, the customer summary, case history, and timeline. The dashboard helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
-You can call a customer by using the phone dialer on the customer summary page or the launch dialer button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
+You can call a customer by using the phone dialer on the **Active Conversation** page or the **Launch dialer** button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
 
 When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
@@ -26,64 +27,54 @@ When a customer calls your business, the incoming call is received by an intelli
 The conversation panel in the agent dashboard includes the following call controls that you can use when you call or answer phone calls from customers.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of call controls](./media/voice-channel-call-controls.png)
+> ![Screenshot of call controls.](./media/voice-channel-call-controls.png)
 
-- **Mute**: Select to mute your microphone so your voice isn't audible to the customer.
-- **Hold**: Select to put the customer on hold; the customer hears the hold music.
-- **Consult**: Select to consult or bring in another agent or supervisor into the call. You can have a *public* consultation where the customer is actively involved in the conversation. You can also have a *private* consultation where you can put the customer on hold before you talk to your peers or supervisor.
-- **Transfer (to agent or queue)**: Select to transfer the call to another agent or queue. During a transfer to queue, the customer is automatically put on hold.
-- **End**: Select to end the call.
-- **Show number pad**: Select to open the number pad, so you can dial an extension number, when required.
-- **Mark number as spam**: Select to [report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
+- **Mute**: Mute your microphone so your voice isn't audible to the customer.
+- **Hold**: Put the customer on hold; the customer will hear the hold music. You can keep only one caller on hold at a time.
+- **Consult**: Select this option to consult with a participant. You can consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
+
+  > [!NOTE]
+  > When you initiate a consult, you are the primary agent and the new participant has a consult role. Select **Transfer** next to the participant to transfer the call to the consulting agent or supervisor. Once the call is transferred, you are the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call will end for the customer.
+
+- **Transfer**: Select this option is to transfer the call to an agent, queue, a Teams user, or an external phone number. After you transfer the call, the agent to whom the call is transferred is the primary agent and you'll no longer be on the call.
+    During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the caller ID. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recording-and-transcription-for-voice). You can disable recording from the dashboard. See: [Transfer and consult scenarios](voice-channel-transfer-consult.md)
+- **End**: End the call.
+- **Show number pad**: Open the number pad to dial an extension number. If you must use the dial pad to send a response while navigating an IVR, select the dial pad icon next to the external participant in the participant list.
+- **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
-- **Take notes**: You can take any important or specific notes regarding your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
-- **Pause recording and transcription**: If you don't want to capture some details of the conversation, such as bank details, billing, or payment information, you can temporarily pause the transcription and later resume it.
-- **Knowledge Articles**: Select this option to get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
+- **Take notes**: Make note of important information or specific details from your conversation with the customer. It's in addition to the call recording and transcription that happen during the conversation.
+- **Pause transcription**: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
+- **Knowledge Articles**: Get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
-- **Transcription**: When transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that the you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
-- **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer mood and feeling via the sentiment icons.
+- **Transcription**: When the transcription and recording service is enabled by your administrator, the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
+- **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
 
 ## Report a phone number as spam
 
-You can report a phone number as a spam call while you are on the call by using the call controls on the conversation panel. A notification is then sent to your administrator for review and further action.
+You can report a phone number as a spam call while you're on the call by using the call controls on the conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
-## Consult with Microsoft Teams users
+## How to avoid call disconnection
 
-If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the Teams tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Microsoft Teams user is saved in Dynamics 365 for reporting and compliance.
+Avoid the following actions to prevent call drops:
 
-Do the following steps to consult while you're on a call:
+- Refresh your browser or select browser bookmark icons when you're in an active call. When you select refresh, even if you select cancel on the confirm refresh dialog, the page is unloaded. You'll be disconnected from the call, and the customer will hear hold music until you rejoin the call from the **My work items** section of **Omnichannel Agent Dashboard**. If you're disconnected from your browser for a longer duration than a few minutes, the call is reassigned to another agent in the queue.
+- Open other apps that will need access to the microphone. It will result in loss of your audio connection, and the customer won't be able to hear you.
+- Open the Customer Service workspace or Omnichannel for Customer Service app in more than one tab in the browser. It causes issues in agent presence.
+- Close the session directly to end call. If you do, the conversation moves from active to wrap up. Then if you close the session, the state goes from wrap up to closed. So, we recommend that you go through the conversation status route and select the **End** button and then close the session to take care of the wrap-up activities.
 
-1. Select the **Consult** option, and go to the **Teams** tab in the **Consult** section that appears.
+## Best practices
 
-2. Use the search option to search for an SME. The results are filtered by the name and live presence in Microsoft Teams.
-
-3. Select **Add** for the SME you want to consult. The SME will receive a call in Microsoft Teams.
-
-4. Optionally, you can transfer the call to the SME.
-
-## Use chat consult with other agents and transfer calls
-
-You can use the chat consult option to contact another agent and consult with them on questions that you might have when you are on a call with a customer.
-
-**To use chat consult and transfer the call**
-
-1. On the call window, select the consult option. The **Consult** pop-up dialog appears.
-
-1. Search for the agent that you want to chat with and select chat for the required agent. A consult notification appears for the secondary agent that you select.
-
-1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can exchange messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
-
-1. If you want to transfer the call to the secondary agent, select the transfer option on the call window. A notification goes to the secondary agent and the call is transferred after the agent accepts the transfer request. The secondary agent becomes the primary agent and you will be disconnected from the call and consult pane with no option to send any further messages.
+- Make sure that you have enabled notifications, and audio and video options in the browser.
+- When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
-[Make and receive your first call](voice-channel-first-call.md)  
 [Call a customer](voice-channel-call-customer.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

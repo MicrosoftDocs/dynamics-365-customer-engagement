@@ -5,17 +5,13 @@ ms.date: 08/09/2021
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Service scheduling overview
@@ -30,7 +26,7 @@ The following topics contain information about legacy service scheduling feature
 
 - Add facilities and equipment  
 
-- Create resource groups 
+- Create resource groups
 
 - Use sites to manage your service locations 
 

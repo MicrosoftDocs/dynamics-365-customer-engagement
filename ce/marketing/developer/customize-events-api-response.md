@@ -1,19 +1,14 @@
 ---
 title: "Customize the response from the Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize responses from the Dynamics 365 Marketing Events API."
-ms.date: 08/26/2020
-
+ms.date: 08/31/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Customize the response from the Events API
@@ -32,6 +27,9 @@ To create a new website entity configuration:
 1. Enter a name of your choice in the **Name** field.
 1. Select the entity that you want to expose an extra field in the **Selected Entity** field.
 1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the Events API.
+
+> [!IMPORTANT]
+> **Selected fields** cannot use the “EntityImage” field, any field of type “Customer," or multi-select “Choice” type field. Single-select “Choice” type fields, however, will work.
 
 > [!div class="mx-imgBorder"]
 > ![Customize API response.](../media/customize-event-api-new.png "Customize API response")

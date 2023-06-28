@@ -1,18 +1,17 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
-description: 
-ms.date: 10/05/2020
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+description: "Includes reference information about getTranslationProvider property in Omnichannel JavaScript API reference."
+ms.date: 04/04/2022
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
 ---
 
 # getTranslationProvider
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This property is required to be set in web resource. It is called once, after agent has logged in to the Omnichannel for Customer Service. It helps Omnichannel for Customer Service to know the functions to be called for initializing a conversation and translating a message.
+This property is required to be set in web resource. It is called once, after the agent has logged in to Omnichannel for Customer Service. It helps Omnichannel for Customer Service to know the functions to be called for initializing a conversation and translating a message.
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L452) for more information on how to set the `getTranslationProvider` property.
@@ -32,9 +31,9 @@ interface {
 }
 ```
 
-The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/omnichannel/developer/reference/methods/initializenewconversation).
+The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/customer-service/developer/reference/methods/initializeNewConversation)
 
-The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/omnichannel/developer/reference/methods/translatemessage).
+The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/customer-service/developer/reference/methods/translateMessage).
 
 A sample of setting the `getTranslationProvider` property is as follows.
 
@@ -53,13 +52,11 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 };
 ```
 
-## Additional Information
-
-1. On exception in the assigned function or invalid return values from the assigned function, Omnichannel for Customer Service will keep translation off for the conversation and might behave abnormally.
-
-2. If this property is not set, the following error will be displayed to the agent.
-
-![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
+> [!Note]
+>
+> - On exception in the assigned function or invalid return values from the assigned function, Omnichannel for Customer Service will keep translation off for the conversation and might behave abnormally.
+> - If this property is not set, the following error will be displayed to the agent.
+> ![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
 ### See also
 

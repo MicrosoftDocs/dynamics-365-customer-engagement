@@ -1,18 +1,14 @@
 ---
 title: "Convert a case to a knowledge article in Customer Service Hub | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to convert a case to a Knowledge article in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 11/27/2019
+ms.date: 12/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -26,7 +22,7 @@ searchScope:
 
 # Convert a case to a Knowledge article
 
-There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
+There are times when existing knowledge articles don't contain relevant information for resolving a case. You, as an agent, can now contribute to the knowledge base by turning all information that's been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 
 1. Make sure you have Create permissions on the Knowledge Article entity.  
@@ -39,9 +35,7 @@ There are times when existing knowledge articles do not contain relevant informa
 
 4. If you want to open the newly-created article, select the **Open the new knowledge article** field to set it to **Yes**, and then select **Convert**. Otherwise, set it to **No**.  
 
-5. If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then select the **Save** button.  
-
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a knowledge article](customer-service-hub-user-guide-knowledge-article.md#create-a-knowledge-article)  
+5. If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then select the **Save** button. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)
 
 The knowledge article is created regardless of whether you set **Open the new knowledge article** to **Yes** or **No**.  
 

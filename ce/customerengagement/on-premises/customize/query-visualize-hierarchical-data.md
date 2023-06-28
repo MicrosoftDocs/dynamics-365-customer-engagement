@@ -15,7 +15,6 @@ author: Mattp123
 ms.assetid: 0cf62817-5ff5-40bb-ad17-e1f6b0921720
 caps.latest.revision: 42
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - customizer
 ---
@@ -84,7 +83,7 @@ For some entities, such as account and user, the visualizations are provided out
   
 -   Presently, a hierarchy or visualization is based on one entity only. You can depict the account hierarchy showing accounts at multiple levels, but you can’t show accounts and contacts in the same hierarchy visualization.  
   
--   Maximum number of fields that can be displayed in a tile is four. If you add more fields to the Quick Form that is used for the tile view, only the first four fields will be displayed.  
+-   Maximum number of fields that can be displayed in a tile is three with Unified Interface and four with the legacy web client. If you add more fields to the Quick Form that is used for the tile view, only the first four fields will be displayed.  
   
 ### Visualization example  
  Let’s look at an example of creating the visualization for a custom entity. We created a custom entity called new_Widget, created a (1:N) self-referential relationship **new_new_widget_new_widget** and marked it as hierarchical, as shown here.  

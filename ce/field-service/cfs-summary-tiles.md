@@ -2,19 +2,14 @@
 title: "Summary tiles in Connected Field Service | MicrosoftDocs"
 description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service
 ms.date: 01/05/2021
-ms.reviewer: krbjoran
 
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+ms.author: vhorvath
+author: vhorvathms
 ---
 
 # Summary tiles in Connected Field Service
@@ -22,7 +17,7 @@ search.app:
 Summary tiles give a numeric overview of important metrics related to IoT devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device readings on an IoT device, with attention to work orders.](./media/cfs-device-readings-history.png)
+> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature, Avg Humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
 
 ## Prerequisites
 
@@ -42,7 +37,7 @@ After a new IoT device is created, there are three default summary tiles:
 If an IoT device is registered with Azure IoT (or a custom IoT provider) and has successfully pulled device data into Field Service, summary tiles for the first two device properties are automatically created. In the following example screenshot, there are summary tiles for average temperature and average humidity for the last seven days. Temperature and humidity are the first two device properties in the first device data pull.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device readings on an IoT device, with attention to work orders.](./media/cfs-device-readings-history-edited.png)
+> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature and the Avg Humidity for the past 7 days highlighted with a red border.](./media/cfs-device-readings-history-edited.png)
 
 > [!Note]
 > The device summaries use the device data history information on the device record, which updates with a slight delay (30-60min); however, you can use the **Pull Device Data** option to get the latest data from Azure IoT.

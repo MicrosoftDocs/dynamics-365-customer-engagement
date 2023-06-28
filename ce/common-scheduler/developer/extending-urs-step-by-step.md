@@ -1,17 +1,13 @@
 ---
 title: "Extend Universal Resource Scheduling with custom constraint"
 description: "This page is a step-by-step guide for extending Universal Resource Scheduling with a custom constraint, using the example of filtering resources by language."
-author: FieldServiceDave
-ms.author: daclar
+author: m-hartmann
+ms.author: mhart
 ms.date: 06/14/2018
-ms.reviewer: krbjoran
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
 ---
 
 # Sample: Extend Universal Resource Scheduling with a custom language constraint

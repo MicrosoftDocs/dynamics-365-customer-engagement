@@ -1,11 +1,10 @@
 ---
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
-ms.date: 01/18/2022
+ms.date: 02/27/2023
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Overview of the Dynamics 365 Sales mobile app 
@@ -18,15 +17,15 @@ Mobile apps help sellers build great customer relationships, stay up-to-date wit
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios while still supporting model-driven configurations. 
 
 > [!NOTE]
-> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablets app to migrate and start using the Dynamics 365 Sales app instead. To know about the difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app, click [here](#difference-between-dynamics-365-sales-app-and-dynamics-365-for-phones-and-tablets-app).
+> It is recommended for all Dynamics 365 Sales users who are using the Dynamics 365 for phones and tablets app to migrate and start using the Dynamics 365 Sales app instead. To know about the difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app, see [Difference between Dynamics 365 Sales app and Dynamics 365 for phones and tablets app](#difference-between-dynamics-365-sales-app-and-dynamics-365-for-phones-and-tablets-app).
 
 With the Dynamics 365 Sales mobile app, you can do the following (and much more):
 
-- Plan your day: Before you start your day, you want to see what it has in store. You can immediately see reminders about your customer meetings or insights for the day.
+- **Plan your day**: Before you start your day, you want to see what it has in store. You can immediately see reminders about your customer meetings or insights for the day.
 
-- Do post-meeting work: After you're out of a meeting, you can quickly add notes, create contacts, and update data in relevant records.
+- **Do post-meeting work**: After you're out of a meeting, you can quickly add notes, create contacts, and update data in relevant records.
 
-- Find required information and act accordingly: Find a contact you want to reach out to with ease, or find the recent records you worked on.
+- **Find required information and act accordingly**: Find a contact you want to reach out to with ease, or find the recent records you worked on.
 
 The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.md#install-the-app-on-ios) and [Android](install-mobile-app.md#install-the-app-on-android). 
 
@@ -47,7 +46,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.m
 |Voice dictation for capturing notes|Supported|Not supported|
 |Push notifications|Supported|Not supported|
 |Lightweight record and activity forms|Supported|Not supported|
-|||
+
 
 ### See also
 

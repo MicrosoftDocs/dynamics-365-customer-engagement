@@ -1,11 +1,10 @@
 ---
 title: "removeAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
-description: "Includes syntax and parameter information for the removeAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
-ms.date: 07/01/2019
-ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+description: "Includes reference information such as syntax and parameters for the removeAuthTokenProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 04/04/2022
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
 ---
 # removeAuthTokenProvider
 
@@ -26,7 +25,7 @@ This SDK is applicable only if authentication is enabled for the widget. To enab
 
 None
 
-## Return Value
+## Return value
 
 None
 
@@ -61,7 +60,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-## See also
+### See also
 
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
 

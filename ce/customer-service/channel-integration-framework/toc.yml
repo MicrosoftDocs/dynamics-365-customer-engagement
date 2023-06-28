@@ -1,51 +1,48 @@
-- name: "Dynamics 365 Channel Integration Framework"
-  href: channel-integration-framework.md
+- name: Dynamics 365 Channel Integration Framework
   items:
-  - name: "Choose between version 1.0 and version 2.0"
-    href: choose-between-versions.md    
-  - name: "Dynamics 365 Channel Integration Framework version 1.0"
-    href: overview-channel-integration-framework.md
-  - name: "Dynamics 365 Channel Integration Framework version 2.0"
-    href: v2/overview-channel-integration-framework.md
-  - name: "What's new"
+  - name: Dynamics 365 Channel Integration Framework
+    href: channel-integration-framework.md
+  - name: Choose between versions 1.0 and 2.0
+    href: choose-between-versions.md
+  - name: What's new
     href: whats-new-channel-integration-framework.md
-  - name: Version 1.0
+  - name: Dynamics 365 Channel Integration Framework 1.0
     items:
-    - name: "System requirements"
-      href:  system-requirements-channel-integration-framework.md
-    - name: "Architecture of version 1.0"
+    - name: Overview
+      href: overview-channel-integration-framework.md
+    - name: Architecture of Dynamics 365 Channel Integration Framework 1.0
       href: architecture-overview-channel-integration-framework.md
-    - name: Download
+    - name: System requirements
+      href: system-requirements-channel-integration-framework.md      
+    - name: Set up Dynamics 365 Channel Integration Framework 1.0
       items:
-      - name: "Get Dynamics 365 Channel Integration Framework"
+      - name: Get Dynamics 365 Channel Integration Framework 1.0
         href: get-channel-integration-framework.md
-      - name: "Sample softphone integration" 
-        href: sample-softphone-integration.md
-    - name: How-to
-      items:
-      - name: "Configure channel provider for your Dynamics 365 organization"
+      - name: Configure channel provider for your Dynamics 365 organization
         href: configure-channel-provider-channel-integration-framework.md
-      - name: "Enable outbound communication (ClickToAct)"
+      - name: Enable outbound communication (ClickToAct)
         href: enable-outbound-communication-clicktoact.md
-      - name: "Add Channel Integration Framework solution as a dependent solution"
+      - name: Manage Dynamics 365 Channel Integration Framework 1.0 solutions
         href: add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel"
+      - name: Authenticate users to the channel
         href: authenticate-channel-users.md
-      - name: "Pass Dynamics 365 URL to widget library"
+      - name: Pass Dynamics 365 URL to widget library
         href: pass-url-widget-library.md
-      - name: "Build a communication widget"
-        items:
-        - name: "Get started with building a simple widget"
-          href: getting-started-simple-widget.md
-        - name: "Search and open records on an incoming conversation"
-          href: search-open-records-incoming-conversations.md
-    - name: JavaScript API Reference
+      - name: Sample softphone integration
+        href: sample-softphone-integration.md      
+    - name: Tutorials
       items:
-      - name: "Microsoft.CIFramework"
+      - name: Build a simple communication widget
+        href: getting-started-simple-widget.md
+      - name: Search and open records on an incoming conversation
+        href: search-open-records-incoming-conversations.md
+    - name: Dynamics 365 Channel Integration Framework 1.0 API reference
+      items:
+      - name: Microsoft.CIFramework
         items:
-        - name: "Overview"
+        - name: Overview
           href: reference/microsoft-ciframework.md
-        - name: "Communication Panel management APIs"
+        - name: Communication panel management APIs
           items:
           - name: "setWidth"
             href: reference/microsoft-ciframework/setWidth.md
@@ -55,27 +52,7 @@
             href: reference/microsoft-ciframework/setMode.md
           - name: "getMode"
             href: reference/microsoft-ciframework/getMode.md
-        - name: "getEntityMetadata"
-          href: reference/microsoft-ciframework/getEntityMetadata.md
-        - name: "setClickToAct"
-          href: reference/microsoft-ciframework/setClickToAct.md
-        - name: "getClickToAct"
-          href: reference/microsoft-ciframework/getClickToAct.md
-        - name: "searchAndOpenRecords"
-          href: reference/microsoft-ciframework/searchAndOpenRecords.md
-        - name: "getEnvironment"
-          href: reference/microsoft-ciframework/getEnvironment.md
-        - name: "openForm"
-          href: reference/microsoft-ciframework/openForm.md
-        - name: "renderSearchPage"
-          href: reference/microsoft-ciframework/renderSearchPage.md
-        - name: "addHandler"
-          href: reference/microsoft-ciframework/addHandler.md
-        - name: "removeHandler"
-          href: reference/microsoft-ciframework/removeHandler.md
-        - name: "updateContext"
-          href: reference/microsoft-ciframework/updateContext.md
-        - name: "CRUD operations APIs"
+        - name: CRUD operations APIs
           items:
           - name: "createRecord"
             href: reference/microsoft-ciframework/createRecord.md
@@ -85,9 +62,33 @@
             href: reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
             href: reference/microsoft-ciframework/deleteRecord.md
-      - name: "Client-side events"
+        - name: Miscellaneous APIs
+          items:
+          - name: "getEntityMetadata"
+            href: reference/microsoft-ciframework/getEntityMetadata.md
+          - name: "setClickToAct"
+            href: reference/microsoft-ciframework/setClickToAct.md
+          - name: "getClickToAct"
+            href: reference/microsoft-ciframework/getClickToAct.md
+          - name: "searchAndOpenRecords"
+            href: reference/microsoft-ciframework/searchAndOpenRecords.md
+          - name: "getEnvironment"
+            href: reference/microsoft-ciframework/getEnvironment.md
+          - name: "openForm"
+            href: reference/microsoft-ciframework/openForm.md
+          - name: "raiseEvent"
+            href: reference/microsoft-ciframework/raiseEvent.md  
+          - name: "renderSearchPage"
+            href: reference/microsoft-ciframework/renderSearchPage.md
+          - name: "addHandler"
+            href: reference/microsoft-ciframework/addHandler.md
+          - name: "removeHandler"
+            href: reference/microsoft-ciframework/removeHandler.md
+      - name: Client-side events
         href: reference/client-side-events.md
         items:
+        - name: "CIFInitDone"
+          href: reference/events/cifinitdone.md
         - name: "onclicktoact"
           href: reference/events/onclicktoact.md
         - name: "onmodechanged"
@@ -98,78 +99,75 @@
           href: reference/events/onsendkbarticle.md
         - name: "onsizechanged"
           href: reference/events/onsizechanged.md
-        - name: "CIFInitDone"
-          href: reference/events/cifinitdone.md
-      - name: Entity reference
-        items:
-        - name: "msdyn_ciprovider"
-          href: reference/entities-attributes/msdyn-ciprovider.md
-        - name: "msdyn_conversationdata"
-          href: reference/entities-attributes/msdyn_conversationdata.md
-        - name: "msdyn_kpieventdata"
-          href: reference/entities-attributes/msdyn_kpieventdata.md
-        - name: "msdyn_kpieventdefinition"
-          href: reference/entities-attributes/msdyn_kpieventdefinition.md
-        - name: "msdyn_sessiondata"
-          href: reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_sessionparticipantdata"
-          href: reference/entities-attributes/msdyn_sessionparticipantdata.md
-
-  - name: Version 2.0
+    - name: Dynamics 365 Channel Integration Framework 1.0 Entity reference
+      items:
+      - name: "msdyn_ciprovider"
+        href: reference/entities-attributes/msdyn-ciprovider.md
+      - name: "msdyn_conversationdata"
+        href: reference/entities-attributes/msdyn_conversationdata.md
+      - name: "msdyn_kpieventdata"
+        href: reference/entities-attributes/msdyn_kpieventdata.md
+      - name: "msdyn_kpieventdefinition"
+        href: reference/entities-attributes/msdyn_kpieventdefinition.md
+      - name: "msdyn_sessiondata"
+        href: reference/entities-attributes/msdyn_sessiondata.md
+      - name: "msdyn_sessionparticipantdata"
+        href: reference/entities-attributes/msdyn_sessionparticipantdata.md
+  - name: Dynamics 365 Channel Integration Framework 2.0
     items:
-    - name: "System requirements"
-      href:  v2/system-requirements-channel-integration-framework-v2.md    
-    - name: "Architecture of version 2.0"
+    - name: Overview
+      href: v2/overview-channel-integration-framework.md
+    - name: Architecture of Dynamics 365 Channel Integration Framework 2.0
       href: v2/architecture-overview-channel-integration-framework-v2.md
-    - name: Download
+    - name: System requirements
+      href: v2/system-requirements-channel-integration-framework-v2.md
+    - name: Modes for communication widget
+      href: v2/modes-communication-widget.md
+    - name: Set up Dynamics 365 Channel Integration Framework 2.0
       items:
-      - name: "Get Dynamics 365 Channel Integration Framework"
+      - name: Get Dynamics 365 Channel Integration Framework 2.0
         href: v2/get-channel-integration-framework.md
-      - name: "Sample softphone integration"
-        href: v2/sample-softphone-integration-v2.md
-    - name: How-to
-      items:
-      - name: "Configure channel provider for your Dynamics 365 organization"
+      - name: Configure channel provider for your Dynamics 365 organization
         href: v2/configure-channel-provider-app-profile-manager.md
-      - name: "Enable outbound communication (ClickToAct)"
+      - name: Enable outbound communication (ClickToAct)
         href: v2/enable-outbound-communication-clicktoact.md
-      - name: "Add Channel Integration Framework solution as a dependent solution"
-        href: v2/add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel"
+      - name: Authenticate users to log in to the channel
         href: v2/authenticate-channel-users.md
-      - name: "Pass Dynamics 365 URL to widget library"
+      - name: Pass Dynamics 365 URL to widget library
         href: v2/pass-url-widget-library.md
-      - name: "Integrate with multi-session app"
-        href: v2/integration-multi-session-experiences.md
-      - name: "Support multiple providers"
-        href: v2/support-multiple-providers.md
-      - name: "Modes for communication widget"
-        href: v2/modes-communication-widget.md
-      - name: "Migrate third-party channel configuration data"
-        href: v2/migrate-config-data.md        
-      - name: Templates
-        items:
-        - name: "Overview of templates"
-          href: v2/templates-overview-cif.md
-        - name: "Manage session templates"
-          href: v2/session-templates-cif.md
-        - name: "Manage application tab templates"
-          href: v2/application-tab-templates-cif.md      
-        - name: "Manage notification templates"
-          href: v2/notification-templates-cif.md
-        - name: "Use automation dictionary to pass data parameter keys"
-          href: v2/automation-dictionary-keys-cif.md
-        - name: "Associate templates with scenarios"
-          href: v2/associate-templates-cif.md          
-    - name: "Channel Analytics"
-      href: v2/channel-analytics.md
-    - name: JavaScript API Reference
+      - name: Manage Dynamics 365 Channel Integration Framework 2.0 solutions
+        href: v2/add-cif-solution-dependent-solution.md
+    - name: Integrate with multisession apps
+      href: v2/integration-multi-session-experiences.md
+    - name: Configure support for single and multiple channel providers
+      href: v2/support-multiple-providers.md
+    - name: Integrate sample softphone app
+      href: v2/sample-softphone-integration-v2.md
+    - name: Migrate third-party channel configuration data
+      href: v2/migrate-config-data.md
+    - name: Templates
       items:
-      - name: "Microsoft.CIFramework"
+      - name: Overview
+        href: v2/templates-overview-cif.md
+      - name: Manage session templates
+        href: v2/session-templates-cif.md
+      - name: Manage application tab templates
+        href: v2/application-tab-templates-cif.md
+      - name: Manage notification templates
+        href: v2/notification-templates-cif.md
+      - name: Use automation dictionary to pass data parameter keys
+        href: v2/automation-dictionary-keys-cif.md
+      - name: Associate templates with scenarios
+        href: v2/associate-templates-cif.md
+    - name: Channel Analytics
+      href: v2/channel-analytics.md                
+    - name: Dynamics 365 Channel Integration Framework 2.0 API reference
+      items:
+      - name: Microsoft.CIFramework
         items:
-        - name: "Overview"
+        - name: Overview
           href: v2/reference/microsoft-ciframework-v2.md
-        - name: "Communication Panel management APIs"
+        - name: Communication panel management APIs
           items:
           - name: "setWidth"
             href: v2/reference/microsoft-ciframework/setWidth.md
@@ -179,27 +177,7 @@
             href: v2/reference/microsoft-ciframework/setMode.md
           - name: "getMode"
             href: v2/reference/microsoft-ciframework/getMode.md
-        - name: "getEntityMetadata"
-          href: v2/reference/microsoft-ciframework/getEntityMetadata.md
-        - name: "setClickToAct"
-          href: v2/reference/microsoft-ciframework/setClickToAct.md
-        - name: "getClickToAct"
-          href: v2/reference/microsoft-ciframework/getClickToAct.md
-        - name: "searchAndOpenRecords"
-          href: v2/reference/microsoft-ciframework/searchAndOpenRecords.md
-        - name: "getEnvironment"
-          href: v2/reference/microsoft-ciframework/getEnvironment.md
-        - name: "openForm"
-          href: v2/reference/microsoft-ciframework/openForm.md
-        - name: "renderSearchPage"
-          href: v2/reference/microsoft-ciframework/renderSearchPage.md
-        - name: "addHandler"
-          href: v2/reference/microsoft-ciframework/addHandler.md
-        - name: "removeHandler"
-          href: v2/reference/microsoft-ciframework/removeHandler.md
-        - name: "updateContext"
-          href: v2/reference/microsoft-ciframework/updateContext.md
-        - name: "CRUD operations APIs"
+        - name: CRUD operations APIs
           items:
           - name: "createRecord"
             href: v2/reference/microsoft-ciframework/createRecord.md
@@ -209,11 +187,19 @@
             href: v2/reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
             href: v2/reference/microsoft-ciframework/deleteRecord.md
-        - name: "Notification management APIs"
+        - name: Presence APIs
+          items:
+          - name: "getPresence"
+            href: v2/reference/microsoft-ciframework/getPresence.md
+          - name: "setPresence"
+            href: v2/reference/microsoft-ciframework/setPresence.md
+        - name: Notification management APIs
           items:
           - name: "notifyEvent"
             href: v2/reference/microsoft-ciframework/notifyevent.md
-        - name: "Session management APIs"
+          - name: "cancelEvent"
+            href: v2/reference/microsoft-ciframework/cancelevent.md
+        - name: Session management APIs
           items:
           - name: "canCreateSession"
             href: v2/reference/microsoft-ciframework/cancreatesession.md
@@ -229,12 +215,12 @@
             href: v2/reference/microsoft-ciframework/setsessiontitle.md
           - name: "requestFocusSession"
             href: v2/reference/microsoft-ciframework/requestfocussession.md
-        - name: "Application Tab management APIs"
+        - name: Application tab management APIs
           items:
           - name: "createTab"
             href: v2/reference/microsoft-ciframework/createtab.md
           - name: "getTabs"
-            href: v2/reference/microsoft-ciframework/gettabs.md  
+            href: v2/reference/microsoft-ciframework/gettabs.md
           - name: "focusTab"
             href: v2/reference/microsoft-ciframework/focustab.md
           - name: "getFocusedTab"
@@ -243,21 +229,49 @@
             href: v2/reference/microsoft-ciframework/refreshtab.md
           - name: "setTabTitle"
             href: v2/reference/microsoft-ciframework/settabtitle.md
-        - name: "Session indicator APIs"
+          - name: "closeTab"
+            href: v2/reference/microsoft-ciframework/closeTab.md
+        - name: Session indicator APIs
           items:
           - name: "notifyKPIBreach"
             href: v2/reference/microsoft-ciframework/notifyKPIBreach.md
           - name: "notifyNewActivity"
             href: v2/reference/microsoft-ciframework/notifyNewActivity.md
-        - name: "Analytics APIs"
+        - name: Channel Analytics APIs
           items:
-          - name: "updateConversation"
-            href: v2/reference/microsoft-ciframework/updateConversation.md
           - name: "logAnalyticsEvent"
             href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md
-      - name: "Client-side events"
-        href: reference/client-side-events.md
+        - name: Miscellaneous APIs
+          items:
+            - name: "getEntityMetadata"
+              href: v2/reference/microsoft-ciframework/getEntityMetadata.md
+            - name: "setClickToAct"
+              href: v2/reference/microsoft-ciframework/setClickToAct.md
+            - name: "getClickToAct"
+              href: v2/reference/microsoft-ciframework/getClickToAct.md
+            - name: "searchAndOpenRecords"
+              href: v2/reference/microsoft-ciframework/searchAndOpenRecords.md
+            - name: "getEnvironment"
+              href: v2/reference/microsoft-ciframework/getEnvironment.md
+            - name: "openForm"
+              href: v2/reference/microsoft-ciframework/openForm.md
+            - name: "raiseEvent"
+              href: v2/reference/microsoft-ciframework/raiseEvent.md
+            - name: "renderSearchPage"
+              href: v2/reference/microsoft-ciframework/renderSearchPage.md
+            - name: "addHandler"
+              href: v2/reference/microsoft-ciframework/addHandler.md
+            - name: "removeHandler"
+              href: v2/reference/microsoft-ciframework/removeHandler.md
+            - name: "updateContext"
+              href: v2/reference/microsoft-ciframework/updateContext.md
+            - name: "updateConversation"
+              href: v2/reference/microsoft-ciframework/updateConversation.md
+      - name: Client-side events
+        href: v2/reference/client-side-events.md
         items:
+        - name: "CIFInitDone"
+          href: v2/reference/events/cifinitdone.md
         - name: "onclicktoact"
           href: v2/reference/events/onclicktoact.md
         - name: "onmodechanged"
@@ -272,41 +286,39 @@
           href: v2/reference/events/onSessionSwitched.md
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
-        - name: "CIFInitDone"
-          href: v2/reference/events/cifinitdone.md
-      - name: Entity reference
-        items:
-        - name: "msdyn_appconfiguration"
-          href: v2/reference/entities-attributes/msdyn_appconfiguration.md
-        - name: "msdyn_channelprovider"
-          href: v2/reference/entities-attributes/msdyn_channelprovider.md
-        - name: "msdyn_conversationdata"
-          href: v2/reference/entities-attributes/msdyn_conversationdata.md
-        - name: "msdyn_kpieventdata"
-          href: v2/reference/entities-attributes/msdyn_kpieventdata.md
-        - name: "msdyn_kpieventdefinition"
-          href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
-        - name: "msdyn_sessiondata"
-          href: v2/reference/entities-attributes/msdyn_sessiondata.md
-        - name: "msdyn_notificationfield"
-          href: v2/reference/entities-attributes/msdyn_notificationfield.md
-        - name: "msdyn_notificationtemplate"
-          href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
-        - name: "msdyn_sessiontemplate"
-          href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
-        - name: "msdyn_applicationtabtemplate"
-          href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
-        - name: "msdyn_templateparameter"
-          href: v2/reference/entities-attributes/msdyn_templateparameter.md
-        - name: "msdyn_sessionparticipantdata"
-          href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
-
+        - name: "onPresenceChange"
+          href: v2/reference/events/onPresenceChange.md
+    - name: Dynamics 365 Channel Integration Framework 2.0 Entity reference
+      items:
+      - name: "msdyn_appconfiguration"
+        href: v2/reference/entities-attributes/msdyn_appconfiguration.md
+      - name: "msdyn_channelprovider"
+        href: v2/reference/entities-attributes/msdyn_channelprovider.md
+      - name: "msdyn_conversationdata"
+        href: v2/reference/entities-attributes/msdyn_conversationdata.md
+      - name: "msdyn_kpieventdata"
+        href: v2/reference/entities-attributes/msdyn_kpieventdata.md
+      - name: "msdyn_kpieventdefinition"
+        href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
+      - name: "msdyn_sessiondata"
+        href: v2/reference/entities-attributes/msdyn_sessiondata.md
+      - name: "msdyn_notificationfield"
+        href: v2/reference/entities-attributes/msdyn_notificationfield.md
+      - name: "msdyn_notificationtemplate"
+        href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
+      - name: "msdyn_sessiontemplate"
+        href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
+      - name: "msdyn_applicationtabtemplate"
+        href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
+      - name: "msdyn_templateparameter"
+        href: v2/reference/entities-attributes/msdyn_templateparameter.md
+      - name: "msdyn_sessionparticipantdata"
+        href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
   - name: Known issues in Dynamics 365 Channel Integration Framework
     href: https://go.microsoft.com/fwlink/p/?linkid=2171869
-  - name: "FAQs"
+  - name: FAQ about Dynamics 365 Channel Integration Framework
     href: faq-channel-integration-framework.md
-
-- name: Dynamics 365 Customer Service
+- name: Dynamics 365 Customer Service Guide
   href: ../help-hub.md
 - name: Omnichannel for Customer Service Guide
   href: ../introduction-omnichannel.md

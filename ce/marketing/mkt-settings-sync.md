@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Sync entities and track insights using Dataset configuration
@@ -61,7 +57,7 @@ To sync a new entity with the insights service:
 1. Depending on how much data needs to be synced (and other factors), you may need to wait for several minutes (up to half an hour) before your data is available for use in your segments, messages, and scoring models. Here are some ways you'll be able to tell that a new entity is synced and ready for use (you only need to check one of these):
 
     - The check box for the relevant entity on the **Dataset configuration** page is shown as checked and grayed out when you first enter the page. The check box is gray to indicate that you can't disable the sync once it has started. You must reload the page manually to see this change.
-    - The relevant entity is shown in the [assist-edit dialog](dynamic-email-content.md#assist-edit) for marketing email messages.
+    - The relevant entity is shown in the [personalization dialog](dynamic-email-content.md#personalization) for marketing email messages.
     - The relevant entity is shown in the **Profiles** list in the [segment designer](segmentation-lists-subscriptions.md). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here&mdash;otherwise the contact entity is already selected by default.)
     - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](score-manage-leads.md).
 

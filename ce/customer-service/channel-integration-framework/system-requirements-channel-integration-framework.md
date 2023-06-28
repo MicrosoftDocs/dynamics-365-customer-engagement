@@ -1,9 +1,8 @@
 ---
 title: "System requirements for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn about the system requirements for Dynamics 365 Dynamics 365 Channel Integration Framework 1.0 and how to get started using it."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.date: 01/21/2022
 ms.topic: article
 ms.custom: 
@@ -13,11 +12,7 @@ ms.custom:
 
 # System requirements for Dynamics 365 Channel Integration Framework 1.0
 
-This topic lists the system requirements for Dynamics 365 Channel Integration Framework 1.0.
-
-## Dynamics 365
-
-Dynamics 365 (online) 9.1 and later.
+You'll need Dynamics 365 (online) 9.1 and later.
 
 ## Supported browsers
 
@@ -34,13 +29,9 @@ The domain of the channel URL should use HTTPS protocol.
 
 ### See also
 
-[Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)
-
-[Get Dynamics 365 Channel Integration Framework 1.0](v2/get-channel-integration-framework.md)
-
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
-
-[FAQs](faq-channel-integration-framework.md)
-
+[Get Dynamics 365 Channel Integration Framework 1.0](get-channel-integration-framework.md)  
+[Get Dynamics 365 Channel Integration Framework 2.0](v2/get-channel-integration-framework.md)  
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
+[FAQs](faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

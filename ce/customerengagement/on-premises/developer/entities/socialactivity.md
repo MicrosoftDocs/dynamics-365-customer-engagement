@@ -1,40 +1,38 @@
 ---
-title: "SocialActivity Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SocialActivity entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SocialActivity entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SocialActivity Entity Reference
+
+# SocialActivity entity reference
 
 For internal use only.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/socialactivities(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/socialactivities<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/socialactivities(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/socialactivities(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/socialactivities<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/socialactivities(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/socialactivities(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -198,13 +196,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Other|
-|1|Facebook|
-|2|Twitter|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Other|Other default|
+|1|Facebook|Facebook item.|
+|2|Twitter|Twitter.|
 
 
 
@@ -236,14 +234,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DirectionCode Options
+#### DirectionCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Outgoing|
-|0|Incoming|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Outgoing||
+|0|Incoming||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -306,14 +304,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -329,14 +327,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -509,12 +507,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PostMessageType Options
+#### PostMessageType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Public Message|
-|1|Private Message|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Public Message||
+|1|Private Message||
 
 
 
@@ -562,13 +560,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Low|
-|1|Normal|
-|2|High|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Low||
+|1|Normal||
+|2|High||
 
 
 
@@ -595,7 +593,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,asyncoperation,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_fieldservicesetting,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_playbookinstance,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,quote,salesorder,site|
+|Targets|account,asyncoperation,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_postalbum,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -788,7 +786,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Stage.|
-|DisplayName|(Deprecated) Process Stage|
+|DisplayName|Process Stage|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -809,7 +807,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -831,7 +829,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -924,7 +922,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1104,14 +1102,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -1477,7 +1475,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_socialactivity_principalobjectattributeaccess"></a> socialactivity_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [socialactivity_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialactivity_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [socialactivity_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_socialactivity_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1492,7 +1490,7 @@ Same as principalobjectattributeaccess entity [socialactivity_principalobjectatt
 
 ### <a name="BKMK_socialactivity_activity_parties"></a> socialactivity_activity_parties
 
-Same as activityparty entity [socialactivity_activity_parties](activityparty.md#BKMK_socialactivity_activity_parties) Many-To-One relationship.
+Same as the [socialactivity_activity_parties](activityparty.md#BKMK_socialactivity_activity_parties) many-to-one relationship for the [activityparty](activityparty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1507,7 +1505,7 @@ Same as activityparty entity [socialactivity_activity_parties](activityparty.md#
 
 ### <a name="BKMK_SocialActivity_BulkDeleteFailures"></a> SocialActivity_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [SocialActivity_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SocialActivity_BulkDeleteFailures) Many-To-One relationship.
+Same as the [SocialActivity_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SocialActivity_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1522,7 +1520,7 @@ Same as bulkdeletefailure entity [SocialActivity_BulkDeleteFailures](bulkdeletef
 
 ### <a name="BKMK_SocialActivity_QueueItem"></a> SocialActivity_QueueItem
 
-Same as queueitem entity [SocialActivity_QueueItem](queueitem.md#BKMK_SocialActivity_QueueItem) Many-To-One relationship.
+Same as the [SocialActivity_QueueItem](queueitem.md#BKMK_SocialActivity_QueueItem) many-to-one relationship for the [queueitem](queueitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1537,7 +1535,7 @@ Same as queueitem entity [SocialActivity_QueueItem](queueitem.md#BKMK_SocialActi
 
 ### <a name="BKMK_SocialActivity_SyncErrors"></a> SocialActivity_SyncErrors
 
-Same as syncerror entity [SocialActivity_SyncErrors](syncerror.md#BKMK_SocialActivity_SyncErrors) Many-To-One relationship.
+Same as the [SocialActivity_SyncErrors](syncerror.md#BKMK_SocialActivity_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1552,7 +1550,7 @@ Same as syncerror entity [SocialActivity_SyncErrors](syncerror.md#BKMK_SocialAct
 
 ### <a name="BKMK_slakpiinstance_socialactivity"></a> slakpiinstance_socialactivity
 
-Same as slakpiinstance entity [slakpiinstance_socialactivity](slakpiinstance.md#BKMK_slakpiinstance_socialactivity) Many-To-One relationship.
+Same as the [slakpiinstance_socialactivity](slakpiinstance.md#BKMK_slakpiinstance_socialactivity) many-to-one relationship for the [slakpiinstance](slakpiinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1567,7 +1565,7 @@ Same as slakpiinstance entity [slakpiinstance_socialactivity](slakpiinstance.md#
 
 ### <a name="BKMK_SocialActivity_DuplicateBaseRecord"></a> SocialActivity_DuplicateBaseRecord
 
-Same as duplicaterecord entity [SocialActivity_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [SocialActivity_DuplicateBaseRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1582,7 +1580,7 @@ Same as duplicaterecord entity [SocialActivity_DuplicateBaseRecord](duplicaterec
 
 ### <a name="BKMK_SocialActivity_AsyncOperations"></a> SocialActivity_AsyncOperations
 
-Same as asyncoperation entity [SocialActivity_AsyncOperations](asyncoperation.md#BKMK_SocialActivity_AsyncOperations) Many-To-One relationship.
+Same as the [SocialActivity_AsyncOperations](asyncoperation.md#BKMK_SocialActivity_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1597,7 +1595,7 @@ Same as asyncoperation entity [SocialActivity_AsyncOperations](asyncoperation.md
 
 ### <a name="BKMK_SocialActivity_ProcessSessions"></a> SocialActivity_ProcessSessions
 
-Same as processsession entity [SocialActivity_ProcessSessions](processsession.md#BKMK_SocialActivity_ProcessSessions) Many-To-One relationship.
+Same as the [SocialActivity_ProcessSessions](processsession.md#BKMK_SocialActivity_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1612,7 +1610,7 @@ Same as processsession entity [SocialActivity_ProcessSessions](processsession.md
 
 ### <a name="BKMK_SocialActivity_DuplicateMatchingRecord"></a> SocialActivity_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [SocialActivity_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [SocialActivity_DuplicateMatchingRecord](duplicaterecord.md#BKMK_SocialActivity_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1627,7 +1625,7 @@ Same as duplicaterecord entity [SocialActivity_DuplicateMatchingRecord](duplicat
 
 ### <a name="BKMK_socialactivity_connections1"></a> socialactivity_connections1
 
-Same as connection entity [socialactivity_connections1](connection.md#BKMK_socialactivity_connections1) Many-To-One relationship.
+Same as the [socialactivity_connections1](connection.md#BKMK_socialactivity_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1642,7 +1640,7 @@ Same as connection entity [socialactivity_connections1](connection.md#BKMK_socia
 
 ### <a name="BKMK_SocialActivity_Annotation"></a> SocialActivity_Annotation
 
-Same as annotation entity [SocialActivity_Annotation](annotation.md#BKMK_SocialActivity_Annotation) Many-To-One relationship.
+Same as the [SocialActivity_Annotation](annotation.md#BKMK_SocialActivity_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1657,7 +1655,7 @@ Same as annotation entity [SocialActivity_Annotation](annotation.md#BKMK_SocialA
 
 ### <a name="BKMK_socialactivity_connections2"></a> socialactivity_connections2
 
-Same as connection entity [socialactivity_connections2](connection.md#BKMK_socialactivity_connections2) Many-To-One relationship.
+Same as the [socialactivity_connections2](connection.md#BKMK_socialactivity_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1687,74 +1685,11 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [Incident_SocialActivities](#BKMK_Incident_SocialActivities)
 - [site_SocialActivities](#BKMK_site_SocialActivities)
 - [service_socialactivities](#BKMK_service_socialactivities)
-- [msdyn_playbookinstance_SocialActivities](#BKMK_msdyn_playbookinstance_SocialActivities)
 - [Invoice_SocialActivities](#BKMK_Invoice_SocialActivities)
 - [Opportunity_SocialActivities](#BKMK_Opportunity_SocialActivities)
 - [Quote_SocialActivities](#BKMK_Quote_SocialActivities)
 - [SalesOrder_SocialActivities](#BKMK_SalesOrder_SocialActivities)
 - [msdyn_postalbum_SocialActivities](#BKMK_msdyn_postalbum_SocialActivities)
-- [msdyn_bookingalertstatus_SocialActivities](#BKMK_msdyn_bookingalertstatus_SocialActivities)
-- [msdyn_bookingrule_SocialActivities](#BKMK_msdyn_bookingrule_SocialActivities)
-- [msdyn_resourceterritory_SocialActivities](#BKMK_msdyn_resourceterritory_SocialActivities)
-- [msdyn_systemuserschedulersetting_SocialActivities](#BKMK_msdyn_systemuserschedulersetting_SocialActivities)
-- [msdyn_timegroup_SocialActivities](#BKMK_msdyn_timegroup_SocialActivities)
-- [msdyn_timegroupdetail_SocialActivities](#BKMK_msdyn_timegroupdetail_SocialActivities)
-- [msdyn_processnotes_SocialActivities](#BKMK_msdyn_processnotes_SocialActivities)
-- [msdyn_projectteam_SocialActivities](#BKMK_msdyn_projectteam_SocialActivities)
-- [msdyn_agreement_SocialActivities](#BKMK_msdyn_agreement_SocialActivities)
-- [msdyn_agreementbookingdate_SocialActivities](#BKMK_msdyn_agreementbookingdate_SocialActivities)
-- [msdyn_agreementbookingincident_SocialActivities](#BKMK_msdyn_agreementbookingincident_SocialActivities)
-- [msdyn_agreementbookingproduct_SocialActivities](#BKMK_msdyn_agreementbookingproduct_SocialActivities)
-- [msdyn_agreementbookingservice_SocialActivities](#BKMK_msdyn_agreementbookingservice_SocialActivities)
-- [msdyn_agreementbookingservicetask_SocialActivities](#BKMK_msdyn_agreementbookingservicetask_SocialActivities)
-- [msdyn_agreementbookingsetup_SocialActivities](#BKMK_msdyn_agreementbookingsetup_SocialActivities)
-- [msdyn_agreementinvoicedate_SocialActivities](#BKMK_msdyn_agreementinvoicedate_SocialActivities)
-- [msdyn_agreementinvoiceproduct_SocialActivities](#BKMK_msdyn_agreementinvoiceproduct_SocialActivities)
-- [msdyn_agreementinvoicesetup_SocialActivities](#BKMK_msdyn_agreementinvoicesetup_SocialActivities)
-- [msdyn_bookingtimestamp_SocialActivities](#BKMK_msdyn_bookingtimestamp_SocialActivities)
-- [msdyn_customerasset_SocialActivities](#BKMK_msdyn_customerasset_SocialActivities)
-- [msdyn_fieldservicesetting_SocialActivities](#BKMK_msdyn_fieldservicesetting_SocialActivities)
-- [msdyn_incidenttypecharacteristic_SocialActivities](#BKMK_msdyn_incidenttypecharacteristic_SocialActivities)
-- [msdyn_incidenttypeproduct_SocialActivities](#BKMK_msdyn_incidenttypeproduct_SocialActivities)
-- [msdyn_incidenttypeservice_SocialActivities](#BKMK_msdyn_incidenttypeservice_SocialActivities)
-- [msdyn_inventoryadjustment_SocialActivities](#BKMK_msdyn_inventoryadjustment_SocialActivities)
-- [msdyn_inventoryadjustmentproduct_SocialActivities](#BKMK_msdyn_inventoryadjustmentproduct_SocialActivities)
-- [msdyn_inventoryjournal_SocialActivities](#BKMK_msdyn_inventoryjournal_SocialActivities)
-- [msdyn_inventorytransfer_SocialActivities](#BKMK_msdyn_inventorytransfer_SocialActivities)
-- [msdyn_payment_SocialActivities](#BKMK_msdyn_payment_SocialActivities)
-- [msdyn_paymentdetail_SocialActivities](#BKMK_msdyn_paymentdetail_SocialActivities)
-- [msdyn_paymentmethod_SocialActivities](#BKMK_msdyn_paymentmethod_SocialActivities)
-- [msdyn_paymentterm_SocialActivities](#BKMK_msdyn_paymentterm_SocialActivities)
-- [msdyn_postalcode_SocialActivities](#BKMK_msdyn_postalcode_SocialActivities)
-- [msdyn_productinventory_SocialActivities](#BKMK_msdyn_productinventory_SocialActivities)
-- [msdyn_purchaseorder_SocialActivities](#BKMK_msdyn_purchaseorder_SocialActivities)
-- [msdyn_purchaseorderbill_SocialActivities](#BKMK_msdyn_purchaseorderbill_SocialActivities)
-- [msdyn_purchaseorderproduct_SocialActivities](#BKMK_msdyn_purchaseorderproduct_SocialActivities)
-- [msdyn_purchaseorderreceipt_SocialActivities](#BKMK_msdyn_purchaseorderreceipt_SocialActivities)
-- [msdyn_purchaseorderreceiptproduct_SocialActivities](#BKMK_msdyn_purchaseorderreceiptproduct_SocialActivities)
-- [msdyn_purchaseordersubstatus_SocialActivities](#BKMK_msdyn_purchaseordersubstatus_SocialActivities)
-- [msdyn_quotebookingincident_SocialActivities](#BKMK_msdyn_quotebookingincident_SocialActivities)
-- [msdyn_quotebookingproduct_SocialActivities](#BKMK_msdyn_quotebookingproduct_SocialActivities)
-- [msdyn_quotebookingservice_SocialActivities](#BKMK_msdyn_quotebookingservice_SocialActivities)
-- [msdyn_quotebookingservicetask_SocialActivities](#BKMK_msdyn_quotebookingservicetask_SocialActivities)
-- [msdyn_rma_SocialActivities](#BKMK_msdyn_rma_SocialActivities)
-- [msdyn_rmaproduct_SocialActivities](#BKMK_msdyn_rmaproduct_SocialActivities)
-- [msdyn_rmareceipt_SocialActivities](#BKMK_msdyn_rmareceipt_SocialActivities)
-- [msdyn_rmareceiptproduct_SocialActivities](#BKMK_msdyn_rmareceiptproduct_SocialActivities)
-- [msdyn_rmasubstatus_SocialActivities](#BKMK_msdyn_rmasubstatus_SocialActivities)
-- [msdyn_rtv_SocialActivities](#BKMK_msdyn_rtv_SocialActivities)
-- [msdyn_rtvproduct_SocialActivities](#BKMK_msdyn_rtvproduct_SocialActivities)
-- [msdyn_rtvsubstatus_SocialActivities](#BKMK_msdyn_rtvsubstatus_SocialActivities)
-- [msdyn_shipvia_SocialActivities](#BKMK_msdyn_shipvia_SocialActivities)
-- [msdyn_timeoffrequest_SocialActivities](#BKMK_msdyn_timeoffrequest_SocialActivities)
-- [msdyn_warehouse_SocialActivities](#BKMK_msdyn_warehouse_SocialActivities)
-- [msdyn_workorder_SocialActivities](#BKMK_msdyn_workorder_SocialActivities)
-- [msdyn_workordercharacteristic_SocialActivities](#BKMK_msdyn_workordercharacteristic_SocialActivities)
-- [msdyn_workorderincident_SocialActivities](#BKMK_msdyn_workorderincident_SocialActivities)
-- [msdyn_workorderproduct_SocialActivities](#BKMK_msdyn_workorderproduct_SocialActivities)
-- [msdyn_workorderresourcerestriction_SocialActivities](#BKMK_msdyn_workorderresourcerestriction_SocialActivities)
-- [msdyn_workorderservice_SocialActivities](#BKMK_msdyn_workorderservice_SocialActivities)
-- [msdyn_workorderservicetask_SocialActivities](#BKMK_msdyn_workorderservicetask_SocialActivities)
 - [KnowledgeBaseRecord_SocialActivities](#BKMK_KnowledgeBaseRecord_SocialActivities)
 - [socialactivity_postauthoraccount_contacts](#BKMK_socialactivity_postauthoraccount_contacts)
 - [KnowledgeArticle_SocialActivities](#BKMK_KnowledgeArticle_SocialActivities)
@@ -1782,571 +1717,189 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Lead Management Solution
 
-See lead Entity [Lead_SocialActivities](lead.md#BKMK_Lead_SocialActivities) One-To-Many relationship.
+See the [Lead_SocialActivities](lead.md#BKMK_Lead_SocialActivities) one-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_bookableresourcebooking_SocialActivities"></a> bookableresourcebooking_SocialActivities
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebooking Entity [bookableresourcebooking_SocialActivities](bookableresourcebooking.md#BKMK_bookableresourcebooking_SocialActivities) One-To-Many relationship.
+See the [bookableresourcebooking_SocialActivities](bookableresourcebooking.md#BKMK_bookableresourcebooking_SocialActivities) one-to-many relationship for the [bookableresourcebooking](bookableresourcebooking.md) entity.
 
 ### <a name="BKMK_bookableresourcebookingheader_SocialActivities"></a> bookableresourcebookingheader_SocialActivities
 
 **Added by**: Scheduling Solution
 
-See bookableresourcebookingheader Entity [bookableresourcebookingheader_SocialActivities](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_SocialActivities) One-To-Many relationship.
+See the [bookableresourcebookingheader_SocialActivities](bookableresourcebookingheader.md#BKMK_bookableresourcebookingheader_SocialActivities) one-to-many relationship for the [bookableresourcebookingheader](bookableresourcebookingheader.md) entity.
 
 ### <a name="BKMK_BulkOperation_SocialActivity"></a> BulkOperation_SocialActivity
 
 **Added by**: Marketing Solution
 
-See bulkoperation Entity [BulkOperation_SocialActivity](bulkoperation.md#BKMK_BulkOperation_SocialActivity) One-To-Many relationship.
+See the [BulkOperation_SocialActivity](bulkoperation.md#BKMK_BulkOperation_SocialActivity) one-to-many relationship for the [bulkoperation](bulkoperation.md) entity.
 
 ### <a name="BKMK_campaign_SocialActivities"></a> campaign_SocialActivities
 
 **Added by**: Marketing Solution
 
-See campaign Entity [campaign_SocialActivities](campaign.md#BKMK_campaign_SocialActivities) One-To-Many relationship.
+See the [campaign_SocialActivities](campaign.md#BKMK_campaign_SocialActivities) one-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_campaignactivity_SocialActivities"></a> campaignactivity_SocialActivities
 
 **Added by**: Marketing Solution
 
-See campaignactivity Entity [campaignactivity_SocialActivities](campaignactivity.md#BKMK_campaignactivity_SocialActivities) One-To-Many relationship.
+See the [campaignactivity_SocialActivities](campaignactivity.md#BKMK_campaignactivity_SocialActivities) one-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_Contract_SocialActivities"></a> Contract_SocialActivities
 
 **Added by**: Service Solution
 
-See contract Entity [Contract_SocialActivities](contract.md#BKMK_Contract_SocialActivities) One-To-Many relationship.
+See the [Contract_SocialActivities](contract.md#BKMK_Contract_SocialActivities) one-to-many relationship for the [contract](contract.md) entity.
 
 ### <a name="BKMK_entitlement_SocialActivities"></a> entitlement_SocialActivities
 
 **Added by**: Service Solution
 
-See entitlement Entity [entitlement_SocialActivities](entitlement.md#BKMK_entitlement_SocialActivities) One-To-Many relationship.
+See the [entitlement_SocialActivities](entitlement.md#BKMK_entitlement_SocialActivities) one-to-many relationship for the [entitlement](entitlement.md) entity.
 
 ### <a name="BKMK_entitlementtemplate_SocialActivities"></a> entitlementtemplate_SocialActivities
 
 **Added by**: Service Solution
 
-See entitlementtemplate Entity [entitlementtemplate_SocialActivities](entitlementtemplate.md#BKMK_entitlementtemplate_SocialActivities) One-To-Many relationship.
+See the [entitlementtemplate_SocialActivities](entitlementtemplate.md#BKMK_entitlementtemplate_SocialActivities) one-to-many relationship for the [entitlementtemplate](entitlementtemplate.md) entity.
 
 ### <a name="BKMK_Incident_SocialActivities"></a> Incident_SocialActivities
 
 **Added by**: Service Solution
 
-See incident Entity [Incident_SocialActivities](incident.md#BKMK_Incident_SocialActivities) One-To-Many relationship.
+See the [Incident_SocialActivities](incident.md#BKMK_Incident_SocialActivities) one-to-many relationship for the [incident](incident.md) entity.
 
 ### <a name="BKMK_site_SocialActivities"></a> site_SocialActivities
 
 **Added by**: Service Solution
 
-See site Entity [site_SocialActivities](site.md#BKMK_site_SocialActivities) One-To-Many relationship.
+See the [site_SocialActivities](site.md#BKMK_site_SocialActivities) one-to-many relationship for the [site](site.md) entity.
 
 ### <a name="BKMK_service_socialactivities"></a> service_socialactivities
 
 **Added by**: Service Solution
 
-See service Entity [service_socialactivities](service.md#BKMK_service_socialactivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_playbookinstance_SocialActivities"></a> msdyn_playbookinstance_SocialActivities
-
-**Added by**: Playbook Solution
-
-See msdyn_playbookinstance Entity [msdyn_playbookinstance_SocialActivities](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_SocialActivities) One-To-Many relationship.
+See the [service_socialactivities](service.md#BKMK_service_socialactivities) one-to-many relationship for the [service](service.md) entity.
 
 ### <a name="BKMK_Invoice_SocialActivities"></a> Invoice_SocialActivities
 
 **Added by**: Sales Solution
 
-See invoice Entity [Invoice_SocialActivities](invoice.md#BKMK_Invoice_SocialActivities) One-To-Many relationship.
+See the [Invoice_SocialActivities](invoice.md#BKMK_Invoice_SocialActivities) one-to-many relationship for the [invoice](invoice.md) entity.
 
 ### <a name="BKMK_Opportunity_SocialActivities"></a> Opportunity_SocialActivities
 
 **Added by**: Sales Solution
 
-See opportunity Entity [Opportunity_SocialActivities](opportunity.md#BKMK_Opportunity_SocialActivities) One-To-Many relationship.
+See the [Opportunity_SocialActivities](opportunity.md#BKMK_Opportunity_SocialActivities) one-to-many relationship for the [opportunity](opportunity.md) entity.
 
 ### <a name="BKMK_Quote_SocialActivities"></a> Quote_SocialActivities
 
 **Added by**: Sales Solution
 
-See quote Entity [Quote_SocialActivities](quote.md#BKMK_Quote_SocialActivities) One-To-Many relationship.
+See the [Quote_SocialActivities](quote.md#BKMK_Quote_SocialActivities) one-to-many relationship for the [quote](quote.md) entity.
 
 ### <a name="BKMK_SalesOrder_SocialActivities"></a> SalesOrder_SocialActivities
 
 **Added by**: Sales Solution
 
-See salesorder Entity [SalesOrder_SocialActivities](salesorder.md#BKMK_SalesOrder_SocialActivities) One-To-Many relationship.
+See the [SalesOrder_SocialActivities](salesorder.md#BKMK_SalesOrder_SocialActivities) one-to-many relationship for the [salesorder](salesorder.md) entity.
 
 ### <a name="BKMK_msdyn_postalbum_SocialActivities"></a> msdyn_postalbum_SocialActivities
 
 **Added by**: Activity Feeds Solution
 
-See msdyn_postalbum Entity [msdyn_postalbum_SocialActivities](msdyn_postalbum.md#BKMK_msdyn_postalbum_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingalertstatus_SocialActivities"></a> msdyn_bookingalertstatus_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingalertstatus Entity [msdyn_bookingalertstatus_SocialActivities](msdyn_bookingalertstatus.md#BKMK_msdyn_bookingalertstatus_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingrule_SocialActivities"></a> msdyn_bookingrule_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_bookingrule Entity [msdyn_bookingrule_SocialActivities](msdyn_bookingrule.md#BKMK_msdyn_bookingrule_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_resourceterritory_SocialActivities"></a> msdyn_resourceterritory_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_resourceterritory Entity [msdyn_resourceterritory_SocialActivities](msdyn_resourceterritory.md#BKMK_msdyn_resourceterritory_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_systemuserschedulersetting_SocialActivities"></a> msdyn_systemuserschedulersetting_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_systemuserschedulersetting Entity [msdyn_systemuserschedulersetting_SocialActivities](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuserschedulersetting_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroup_SocialActivities"></a> msdyn_timegroup_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroup Entity [msdyn_timegroup_SocialActivities](msdyn_timegroup.md#BKMK_msdyn_timegroup_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timegroupdetail_SocialActivities"></a> msdyn_timegroupdetail_SocialActivities
-
-**Added by**: Universal Resource Scheduling Solution
-
-See msdyn_timegroupdetail Entity [msdyn_timegroupdetail_SocialActivities](msdyn_timegroupdetail.md#BKMK_msdyn_timegroupdetail_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_processnotes_SocialActivities"></a> msdyn_processnotes_SocialActivities
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_processnotes Entity [msdyn_processnotes_SocialActivities](msdyn_processnotes.md#BKMK_msdyn_processnotes_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_projectteam_SocialActivities"></a> msdyn_projectteam_SocialActivities
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_projectteam Entity [msdyn_projectteam_SocialActivities](msdyn_projectteam.md#BKMK_msdyn_projectteam_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreement_SocialActivities"></a> msdyn_agreement_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreement Entity [msdyn_agreement_SocialActivities](msdyn_agreement.md#BKMK_msdyn_agreement_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingdate_SocialActivities"></a> msdyn_agreementbookingdate_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingdate Entity [msdyn_agreementbookingdate_SocialActivities](msdyn_agreementbookingdate.md#BKMK_msdyn_agreementbookingdate_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingincident_SocialActivities"></a> msdyn_agreementbookingincident_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingincident Entity [msdyn_agreementbookingincident_SocialActivities](msdyn_agreementbookingincident.md#BKMK_msdyn_agreementbookingincident_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingproduct_SocialActivities"></a> msdyn_agreementbookingproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingproduct Entity [msdyn_agreementbookingproduct_SocialActivities](msdyn_agreementbookingproduct.md#BKMK_msdyn_agreementbookingproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservice_SocialActivities"></a> msdyn_agreementbookingservice_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservice Entity [msdyn_agreementbookingservice_SocialActivities](msdyn_agreementbookingservice.md#BKMK_msdyn_agreementbookingservice_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingservicetask_SocialActivities"></a> msdyn_agreementbookingservicetask_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingservicetask Entity [msdyn_agreementbookingservicetask_SocialActivities](msdyn_agreementbookingservicetask.md#BKMK_msdyn_agreementbookingservicetask_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementbookingsetup_SocialActivities"></a> msdyn_agreementbookingsetup_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementbookingsetup Entity [msdyn_agreementbookingsetup_SocialActivities](msdyn_agreementbookingsetup.md#BKMK_msdyn_agreementbookingsetup_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicedate_SocialActivities"></a> msdyn_agreementinvoicedate_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicedate Entity [msdyn_agreementinvoicedate_SocialActivities](msdyn_agreementinvoicedate.md#BKMK_msdyn_agreementinvoicedate_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoiceproduct_SocialActivities"></a> msdyn_agreementinvoiceproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoiceproduct Entity [msdyn_agreementinvoiceproduct_SocialActivities](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_agreementinvoiceproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_agreementinvoicesetup_SocialActivities"></a> msdyn_agreementinvoicesetup_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_agreementinvoicesetup Entity [msdyn_agreementinvoicesetup_SocialActivities](msdyn_agreementinvoicesetup.md#BKMK_msdyn_agreementinvoicesetup_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bookingtimestamp_SocialActivities"></a> msdyn_bookingtimestamp_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_bookingtimestamp Entity [msdyn_bookingtimestamp_SocialActivities](msdyn_bookingtimestamp.md#BKMK_msdyn_bookingtimestamp_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_customerasset_SocialActivities"></a> msdyn_customerasset_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_customerasset Entity [msdyn_customerasset_SocialActivities](msdyn_customerasset.md#BKMK_msdyn_customerasset_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_fieldservicesetting_SocialActivities"></a> msdyn_fieldservicesetting_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_fieldservicesetting Entity [msdyn_fieldservicesetting_SocialActivities](msdyn_fieldservicesetting.md#BKMK_msdyn_fieldservicesetting_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypecharacteristic_SocialActivities"></a> msdyn_incidenttypecharacteristic_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypecharacteristic Entity [msdyn_incidenttypecharacteristic_SocialActivities](msdyn_incidenttypecharacteristic.md#BKMK_msdyn_incidenttypecharacteristic_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeproduct_SocialActivities"></a> msdyn_incidenttypeproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeproduct Entity [msdyn_incidenttypeproduct_SocialActivities](msdyn_incidenttypeproduct.md#BKMK_msdyn_incidenttypeproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_incidenttypeservice_SocialActivities"></a> msdyn_incidenttypeservice_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_incidenttypeservice Entity [msdyn_incidenttypeservice_SocialActivities](msdyn_incidenttypeservice.md#BKMK_msdyn_incidenttypeservice_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustment_SocialActivities"></a> msdyn_inventoryadjustment_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustment Entity [msdyn_inventoryadjustment_SocialActivities](msdyn_inventoryadjustment.md#BKMK_msdyn_inventoryadjustment_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryadjustmentproduct_SocialActivities"></a> msdyn_inventoryadjustmentproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryadjustmentproduct Entity [msdyn_inventoryadjustmentproduct_SocialActivities](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_inventoryadjustmentproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventoryjournal_SocialActivities"></a> msdyn_inventoryjournal_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_inventoryjournal Entity [msdyn_inventoryjournal_SocialActivities](msdyn_inventoryjournal.md#BKMK_msdyn_inventoryjournal_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_inventorytransfer_SocialActivities"></a> msdyn_inventorytransfer_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_inventorytransfer Entity [msdyn_inventorytransfer_SocialActivities](msdyn_inventorytransfer.md#BKMK_msdyn_inventorytransfer_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_payment_SocialActivities"></a> msdyn_payment_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_payment Entity [msdyn_payment_SocialActivities](msdyn_payment.md#BKMK_msdyn_payment_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentdetail_SocialActivities"></a> msdyn_paymentdetail_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentdetail Entity [msdyn_paymentdetail_SocialActivities](msdyn_paymentdetail.md#BKMK_msdyn_paymentdetail_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentmethod_SocialActivities"></a> msdyn_paymentmethod_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentmethod Entity [msdyn_paymentmethod_SocialActivities](msdyn_paymentmethod.md#BKMK_msdyn_paymentmethod_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_paymentterm_SocialActivities"></a> msdyn_paymentterm_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_paymentterm Entity [msdyn_paymentterm_SocialActivities](msdyn_paymentterm.md#BKMK_msdyn_paymentterm_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_postalcode_SocialActivities"></a> msdyn_postalcode_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_postalcode Entity [msdyn_postalcode_SocialActivities](msdyn_postalcode.md#BKMK_msdyn_postalcode_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_productinventory_SocialActivities"></a> msdyn_productinventory_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_productinventory Entity [msdyn_productinventory_SocialActivities](msdyn_productinventory.md#BKMK_msdyn_productinventory_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorder_SocialActivities"></a> msdyn_purchaseorder_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorder Entity [msdyn_purchaseorder_SocialActivities](msdyn_purchaseorder.md#BKMK_msdyn_purchaseorder_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderbill_SocialActivities"></a> msdyn_purchaseorderbill_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderbill Entity [msdyn_purchaseorderbill_SocialActivities](msdyn_purchaseorderbill.md#BKMK_msdyn_purchaseorderbill_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderproduct_SocialActivities"></a> msdyn_purchaseorderproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderproduct Entity [msdyn_purchaseorderproduct_SocialActivities](msdyn_purchaseorderproduct.md#BKMK_msdyn_purchaseorderproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceipt_SocialActivities"></a> msdyn_purchaseorderreceipt_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceipt Entity [msdyn_purchaseorderreceipt_SocialActivities](msdyn_purchaseorderreceipt.md#BKMK_msdyn_purchaseorderreceipt_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseorderreceiptproduct_SocialActivities"></a> msdyn_purchaseorderreceiptproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseorderreceiptproduct Entity [msdyn_purchaseorderreceiptproduct_SocialActivities](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_purchaseorderreceiptproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_purchaseordersubstatus_SocialActivities"></a> msdyn_purchaseordersubstatus_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_purchaseordersubstatus Entity [msdyn_purchaseordersubstatus_SocialActivities](msdyn_purchaseordersubstatus.md#BKMK_msdyn_purchaseordersubstatus_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingincident_SocialActivities"></a> msdyn_quotebookingincident_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingincident Entity [msdyn_quotebookingincident_SocialActivities](msdyn_quotebookingincident.md#BKMK_msdyn_quotebookingincident_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingproduct_SocialActivities"></a> msdyn_quotebookingproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingproduct Entity [msdyn_quotebookingproduct_SocialActivities](msdyn_quotebookingproduct.md#BKMK_msdyn_quotebookingproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservice_SocialActivities"></a> msdyn_quotebookingservice_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservice Entity [msdyn_quotebookingservice_SocialActivities](msdyn_quotebookingservice.md#BKMK_msdyn_quotebookingservice_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_quotebookingservicetask_SocialActivities"></a> msdyn_quotebookingservicetask_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_quotebookingservicetask Entity [msdyn_quotebookingservicetask_SocialActivities](msdyn_quotebookingservicetask.md#BKMK_msdyn_quotebookingservicetask_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rma_SocialActivities"></a> msdyn_rma_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rma Entity [msdyn_rma_SocialActivities](msdyn_rma.md#BKMK_msdyn_rma_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmaproduct_SocialActivities"></a> msdyn_rmaproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rmaproduct Entity [msdyn_rmaproduct_SocialActivities](msdyn_rmaproduct.md#BKMK_msdyn_rmaproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceipt_SocialActivities"></a> msdyn_rmareceipt_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceipt Entity [msdyn_rmareceipt_SocialActivities](msdyn_rmareceipt.md#BKMK_msdyn_rmareceipt_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmareceiptproduct_SocialActivities"></a> msdyn_rmareceiptproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rmareceiptproduct Entity [msdyn_rmareceiptproduct_SocialActivities](msdyn_rmareceiptproduct.md#BKMK_msdyn_rmareceiptproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rmasubstatus_SocialActivities"></a> msdyn_rmasubstatus_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rmasubstatus Entity [msdyn_rmasubstatus_SocialActivities](msdyn_rmasubstatus.md#BKMK_msdyn_rmasubstatus_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtv_SocialActivities"></a> msdyn_rtv_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rtv Entity [msdyn_rtv_SocialActivities](msdyn_rtv.md#BKMK_msdyn_rtv_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvproduct_SocialActivities"></a> msdyn_rtvproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvproduct Entity [msdyn_rtvproduct_SocialActivities](msdyn_rtvproduct.md#BKMK_msdyn_rtvproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_rtvsubstatus_SocialActivities"></a> msdyn_rtvsubstatus_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_rtvsubstatus Entity [msdyn_rtvsubstatus_SocialActivities](msdyn_rtvsubstatus.md#BKMK_msdyn_rtvsubstatus_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_shipvia_SocialActivities"></a> msdyn_shipvia_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_shipvia Entity [msdyn_shipvia_SocialActivities](msdyn_shipvia.md#BKMK_msdyn_shipvia_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_timeoffrequest_SocialActivities"></a> msdyn_timeoffrequest_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_timeoffrequest Entity [msdyn_timeoffrequest_SocialActivities](msdyn_timeoffrequest.md#BKMK_msdyn_timeoffrequest_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_warehouse_SocialActivities"></a> msdyn_warehouse_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_warehouse Entity [msdyn_warehouse_SocialActivities](msdyn_warehouse.md#BKMK_msdyn_warehouse_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorder_SocialActivities"></a> msdyn_workorder_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorder Entity [msdyn_workorder_SocialActivities](msdyn_workorder.md#BKMK_msdyn_workorder_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workordercharacteristic_SocialActivities"></a> msdyn_workordercharacteristic_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workordercharacteristic Entity [msdyn_workordercharacteristic_SocialActivities](msdyn_workordercharacteristic.md#BKMK_msdyn_workordercharacteristic_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderincident_SocialActivities"></a> msdyn_workorderincident_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderincident Entity [msdyn_workorderincident_SocialActivities](msdyn_workorderincident.md#BKMK_msdyn_workorderincident_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderproduct_SocialActivities"></a> msdyn_workorderproduct_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderproduct Entity [msdyn_workorderproduct_SocialActivities](msdyn_workorderproduct.md#BKMK_msdyn_workorderproduct_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderresourcerestriction_SocialActivities"></a> msdyn_workorderresourcerestriction_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderresourcerestriction Entity [msdyn_workorderresourcerestriction_SocialActivities](msdyn_workorderresourcerestriction.md#BKMK_msdyn_workorderresourcerestriction_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservice_SocialActivities"></a> msdyn_workorderservice_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservice Entity [msdyn_workorderservice_SocialActivities](msdyn_workorderservice.md#BKMK_msdyn_workorderservice_SocialActivities) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_workorderservicetask_SocialActivities"></a> msdyn_workorderservicetask_SocialActivities
-
-**Added by**: Field Service Solution
-
-See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_SocialActivities](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_SocialActivities) One-To-Many relationship.
+See the [msdyn_postalbum_SocialActivities](msdyn_postalbum.md#BKMK_msdyn_postalbum_SocialActivities) one-to-many relationship for the [msdyn_postalbum](msdyn_postalbum.md) entity.
 
 ### <a name="BKMK_KnowledgeBaseRecord_SocialActivities"></a> KnowledgeBaseRecord_SocialActivities
 
-See knowledgebaserecord Entity [KnowledgeBaseRecord_SocialActivities](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_SocialActivities) One-To-Many relationship.
+See the [KnowledgeBaseRecord_SocialActivities](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_SocialActivities) one-to-many relationship for the [knowledgebaserecord](knowledgebaserecord.md) entity.
 
 ### <a name="BKMK_socialactivity_postauthoraccount_contacts"></a> socialactivity_postauthoraccount_contacts
 
-See contact Entity [socialactivity_postauthoraccount_contacts](contact.md#BKMK_socialactivity_postauthoraccount_contacts) One-To-Many relationship.
+See the [socialactivity_postauthoraccount_contacts](contact.md#BKMK_socialactivity_postauthoraccount_contacts) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_KnowledgeArticle_SocialActivities"></a> KnowledgeArticle_SocialActivities
 
-See knowledgearticle Entity [KnowledgeArticle_SocialActivities](knowledgearticle.md#BKMK_KnowledgeArticle_SocialActivities) One-To-Many relationship.
+See the [KnowledgeArticle_SocialActivities](knowledgearticle.md#BKMK_KnowledgeArticle_SocialActivities) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_activity_pointer_socialactivity"></a> activity_pointer_socialactivity
 
-See activitypointer Entity [activity_pointer_socialactivity](activitypointer.md#BKMK_activity_pointer_socialactivity) One-To-Many relationship.
+See the [activity_pointer_socialactivity](activitypointer.md#BKMK_activity_pointer_socialactivity) one-to-many relationship for the [activitypointer](activitypointer.md) entity.
 
 ### <a name="BKMK_SocialActivity_PostAuthorAccount_accounts"></a> SocialActivity_PostAuthorAccount_accounts
 
-See account Entity [SocialActivity_PostAuthorAccount_accounts](account.md#BKMK_SocialActivity_PostAuthorAccount_accounts) One-To-Many relationship.
+See the [SocialActivity_PostAuthorAccount_accounts](account.md#BKMK_SocialActivity_PostAuthorAccount_accounts) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_lk_socialactivity_createdby"></a> lk_socialactivity_createdby
 
-See systemuser Entity [lk_socialactivity_createdby](systemuser.md#BKMK_lk_socialactivity_createdby) One-To-Many relationship.
+See the [lk_socialactivity_createdby](systemuser.md#BKMK_lk_socialactivity_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Account_SocialActivities"></a> Account_SocialActivities
 
-See account Entity [Account_SocialActivities](account.md#BKMK_Account_SocialActivities) One-To-Many relationship.
+See the [Account_SocialActivities](account.md#BKMK_Account_SocialActivities) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_transactioncurrency_socialactivity"></a> transactioncurrency_socialactivity
 
-See transactioncurrency Entity [transactioncurrency_socialactivity](transactioncurrency.md#BKMK_transactioncurrency_socialactivity) One-To-Many relationship.
+See the [transactioncurrency_socialactivity](transactioncurrency.md#BKMK_transactioncurrency_socialactivity) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_sla_socialactivity"></a> sla_socialactivity
 
-See sla Entity [sla_socialactivity](sla.md#BKMK_sla_socialactivity) One-To-Many relationship.
+See the [sla_socialactivity](sla.md#BKMK_sla_socialactivity) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_user_socialactivity"></a> user_socialactivity
 
-See systemuser Entity [user_socialactivity](systemuser.md#BKMK_user_socialactivity) One-To-Many relationship.
+See the [user_socialactivity](systemuser.md#BKMK_user_socialactivity) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_socialactivity"></a> business_unit_socialactivity
 
-See businessunit Entity [business_unit_socialactivity](businessunit.md#BKMK_business_unit_socialactivity) One-To-Many relationship.
+See the [business_unit_socialactivity](businessunit.md#BKMK_business_unit_socialactivity) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_socialactivity_postauthor_contacts"></a> socialactivity_postauthor_contacts
 
-See contact Entity [socialactivity_postauthor_contacts](contact.md#BKMK_socialactivity_postauthor_contacts) One-To-Many relationship.
+See the [socialactivity_postauthor_contacts](contact.md#BKMK_socialactivity_postauthor_contacts) one-to-many relationship for the [contact](contact.md) entity.
 
 ### <a name="BKMK_team_socialactivity"></a> team_socialactivity
 
-See team Entity [team_socialactivity](team.md#BKMK_team_socialactivity) One-To-Many relationship.
+See the [team_socialactivity](team.md#BKMK_team_socialactivity) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_manualsla_socialactivity"></a> manualsla_socialactivity
 
-See sla Entity [manualsla_socialactivity](sla.md#BKMK_manualsla_socialactivity) One-To-Many relationship.
+See the [manualsla_socialactivity](sla.md#BKMK_manualsla_socialactivity) one-to-many relationship for the [sla](sla.md) entity.
 
 ### <a name="BKMK_SocialActivity_PostAuthor_accounts"></a> SocialActivity_PostAuthor_accounts
 
-See account Entity [SocialActivity_PostAuthor_accounts](account.md#BKMK_SocialActivity_PostAuthor_accounts) One-To-Many relationship.
+See the [SocialActivity_PostAuthor_accounts](account.md#BKMK_SocialActivity_PostAuthor_accounts) one-to-many relationship for the [account](account.md) entity.
 
 ### <a name="BKMK_Socialprofile_SocialActivities"></a> Socialprofile_SocialActivities
 
-See socialprofile Entity [Socialprofile_SocialActivities](socialprofile.md#BKMK_Socialprofile_SocialActivities) One-To-Many relationship.
+See the [Socialprofile_SocialActivities](socialprofile.md#BKMK_Socialprofile_SocialActivities) one-to-many relationship for the [socialprofile](socialprofile.md) entity.
 
 ### <a name="BKMK_AsyncOperation_SocialActivities"></a> AsyncOperation_SocialActivities
 
-See asyncoperation Entity [AsyncOperation_SocialActivities](asyncoperation.md#BKMK_AsyncOperation_SocialActivities) One-To-Many relationship.
+See the [AsyncOperation_SocialActivities](asyncoperation.md#BKMK_AsyncOperation_SocialActivities) one-to-many relationship for the [asyncoperation](asyncoperation.md) entity.
 
 ### <a name="BKMK_lk_socialactivity_modifiedby"></a> lk_socialactivity_modifiedby
 
-See systemuser Entity [lk_socialactivity_modifiedby](systemuser.md#BKMK_lk_socialactivity_modifiedby) One-To-Many relationship.
+See the [lk_socialactivity_modifiedby](systemuser.md#BKMK_lk_socialactivity_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_socialactivitybase_createdonbehalfby"></a> lk_socialactivitybase_createdonbehalfby
 
-See systemuser Entity [lk_socialactivitybase_createdonbehalfby](systemuser.md#BKMK_lk_socialactivitybase_createdonbehalfby) One-To-Many relationship.
+See the [lk_socialactivitybase_createdonbehalfby](systemuser.md#BKMK_lk_socialactivitybase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_socialactivitybase_modifiedonbehalfby"></a> lk_socialactivitybase_modifiedonbehalfby
 
-See systemuser Entity [lk_socialactivitybase_modifiedonbehalfby](systemuser.md#BKMK_lk_socialactivitybase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_socialactivitybase_modifiedonbehalfby](systemuser.md#BKMK_lk_socialactivitybase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_Contact_SocialActivities"></a> Contact_SocialActivities
 
-See contact Entity [Contact_SocialActivities](contact.md#BKMK_Contact_SocialActivities) One-To-Many relationship.
+See the [Contact_SocialActivities](contact.md#BKMK_Contact_SocialActivities) one-to-many relationship for the [contact](contact.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.socialactivity?text=socialactivity EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

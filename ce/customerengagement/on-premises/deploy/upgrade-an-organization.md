@@ -14,7 +14,6 @@ ms.assetid: 74fefb8c-2c70-4f61-85ad-83ede2d4158a
 caps.latest.revision: 15
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Upgrade an organization
 
@@ -23,7 +22,7 @@ manager: kvivek
 You can upgrade organizations from earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on-premises by using [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] to import them into the new deployment.  
   
 > [!TIP]
->  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Import-CrmOrganization](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps) commands.  
+>  You can implement the procedure described here by using a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlet. For more information, see the [Import-CrmOrganization](/powershell/module/microsoft.crm.powershell/import-crmorganization?view=dynamics365ce-ps&preserve-view=true) and [Update-CrmOrganization](/powershell/module/microsoft.crm.powershell/update-crmorganization?view=dynamics365ce-ps&preserve-view=true) commands.  
   
 ## Upgrade an organization by importing it  
  During the import process, the Import Organization Wizard detects the version and upgrades the organization automatically.  

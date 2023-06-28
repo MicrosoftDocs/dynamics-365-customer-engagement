@@ -3,18 +3,14 @@ title: "Sample Unified Service Desk | MicrosoftDocs"
 description: "Discover the sample application available with Unified Service Desk  that you can use to quickly get you started."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-  - intro-internal
+ms.collection: get-started
 tags: MigrationHO
 ---
 # Use sample applications to get started

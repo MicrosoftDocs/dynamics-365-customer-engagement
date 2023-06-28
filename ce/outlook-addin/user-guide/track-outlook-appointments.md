@@ -1,5 +1,6 @@
 ---
 title: "Track Outlook appointments in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to track Outlook appointments using a manual process in Dynamics 365 for Outlook to separate personal and Customer Engagement appointments.
 ms.custom:
 ms.date: 01/11/2016
 ms.reviewer:
@@ -18,19 +19,15 @@ ms.assetid: 430d8700-ae27-49b7-a4c1-0e0fcc49fa50
 caps.latest.revision: 18
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType:
   - admin
   - customizer
   - enduser
-search.app:
-  - D365CE
-  - D365Outlook
 ---
 # Track Outlook appointments in Dynamics 365 for Outlook
 You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to save a copy of that appointment record as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] synchronizes the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record so you can view or edit the appointment in either tool. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your appointment records on that device.
 
- Tracking appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal appointments separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] appointments. Synchronization of appointments from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic, however. You can use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to view any appointment records that you own that were created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
+ Tracking appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal appointments separate from your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] appointments. Synchronization of appointments from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is automatic. You can use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to view any appointment records that you own that were created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
 
  If you’re using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or later, you can also synchronize appointment attachments if your system administrator has enabled this capability. You can then view and update the attachments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].
 
@@ -46,7 +43,7 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
     [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message).
 
    > [!NOTE]
-   >  The maximum size for an attachment is 5MB, although this can be increased to 32 MB by a system administrator.  
+   >  The maximum size for an attachment is 5MB, although this can be increased to 32MB by a system administrator.  
   
 3. To track the appointment, do one of the following:  
   

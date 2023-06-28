@@ -1,5 +1,6 @@
 ---
 title: "Resource entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: Learn about resource entities, the types of resource entities, and resource groups for Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -23,7 +24,6 @@ ms.assetid: 1b5c3bca-66b8-4ff3-8f53-db1021bcf95c
 caps.latest.revision: 16
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

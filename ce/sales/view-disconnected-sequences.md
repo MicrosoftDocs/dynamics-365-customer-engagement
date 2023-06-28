@@ -5,7 +5,6 @@ ms.date: 11/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # View a sequence in a grid
@@ -13,12 +12,11 @@ manager: shujoshi
 As an administrator, you can create a saved query to view the latest sequences that are in progress in an entity record grid.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Create a saved query
 
@@ -27,7 +25,7 @@ As an administrator, you can create a saved query to view the latest sequences t
     1.	Follow the steps in [View your user profile](/powerapps/user/view-your-user-profile?context=/dynamics365/context/sales-context).   
     2.	Don't have the correct permissions? Contact your system administrator.   
 
-2.	(Optional) Create a new view for each entity that you want to include in the sequence view. The entity must be enabled for the sales accelerator on the **Workspace** setup page. For more information, go to [Manage access and record type](enable-configure-sales-accelerator.md#manage-access-and-record-type).  
+2.	(Optional) Create a new view for each entity that you want to include in the sequence view. The entity must be enabled for the sales accelerator on the **Workspace** setup page. For more information, go to [Manage access and record type](manage-access-record-type-sales-accelerator.md).  
 
 3.	In the web app, go to **Settings** (![Settings.](media/gear-icon.png "Settings")) > **Advanced Settings**, and then go to **Settings** > **Customizations** > **Solutions**.   
 

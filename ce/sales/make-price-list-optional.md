@@ -1,11 +1,10 @@
 ---
 title: "Make price list optional | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
-ms.date: 10/26/2021
+ms.date: 02/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -23,11 +22,11 @@ When adding products to opportunities, quotes, orders, or invoices, at times, sa
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 ## Make price list optional
@@ -42,11 +41,10 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2.	Under **Product Catalog**, select **Product Catalog Settings**.
 
-3.  Under **Make price lists optional**, set the **Allow line item creation without an associated price list** option to **Yes**.
+3.  Turn on **Make price lists optional** and save the changes.
 
     ![Option to make selection of price list optional in Product Catalog Settings.](media/sales-hub-make-price-list-optional.png "Option to make selection of price list optional in Product Catalog Settings")
 
-4.  Select **Apply**.
 
 # [Sales Professional](#tab/SP)
 

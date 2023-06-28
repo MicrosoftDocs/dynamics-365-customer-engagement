@@ -2,6 +2,8 @@
   href: unified-service-desk.md
 - name: Release history
   href: release-history.md
+- name: Migrate to Customer Service workspace
+  href: admin/migrate-to-csw.md
 - name: What's new
   items:
   - name: What's new for Administrators
@@ -525,6 +527,8 @@
     href: admin/configure-client-diagnostic-logging-unified-service-desk.md
   - name: How Unified Service Desk handles application and system errors
     href: admin/how-unified-service-desk-handles-application-system-errors.md
+  - name: Prevent random running of scripts in Unified Service Desk
+    href: admin/prevent-running-scripts.md  
   - name: Debug issues in Unified Service Desk
     href: debug-issues-unified-service-desk.md
   - name: Use the Debugger control in Unified Service Desk
@@ -619,8 +623,8 @@
       href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
-    - name: Understand conversation states 
-      href: oc-usd/conversation-state.md
+    - name: Understand conversation states in Omnichannel for Customer Service
+      href: /dynamics365/customer-service/oc-conversation-state?context=/dynamics365/context/unified-service-desk-context
     - name: View Omnichannel conversation and Omnichannel session in Model-driven apps 
       href: oc-usd/view-omnichannel-conversation-session.md
     - name: View customer summary for an incoming conversation request 

@@ -1,9 +1,8 @@
 ---
 title: "Dynamics 365 Channel Integration Framework guide | MicrosoftDocs"
 description: "Use this topic for getting started with Dynamics 365 Channel Integration Framework. Includes download links and Javascript reference."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.date: 01/21/2022
 ms.topic: article
 ms.custom: 
@@ -123,7 +122,7 @@ ms.custom:
 <li><a href="v2/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
  methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
 <li><a href="v2/reference/client-side-events.md" data-raw-source="[Client-side events](v2/reference/client-side-events.md)">Client-side events</a>
-<li><a href="/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider" data-raw-source="[Entity reference](/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider)">Entity reference</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_channelprovider" data-raw-source="[Entity reference](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_channelprovider)">Entity reference</a></li>
 </td>
 </tr>
 

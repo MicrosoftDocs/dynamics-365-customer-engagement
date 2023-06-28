@@ -1,22 +1,16 @@
 ---
 title: "Sample: Assign a chart to another user | MicrosoftDocs"
-description: ""
+description: Learn how to assign a user-owned visualization, such as a chart, to another using the AssignRequest message with this sample.
 keywords: 
 ms.date: 10/31/2017
-
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0225d979-0e34-44b5-814c-a5dcb14d6fd9
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 24
-topic-status: Drafting
 search.audienceType: 
   - developer
 
@@ -24,9 +18,9 @@ search.audienceType:
 
 # Sample: Assign a chart to another user
 
-This sample shows how to assign a user-owned visualization to another using the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AssignChartToAnotherUser).
+This sample shows how to assign a user-owned visualization to another using the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AssignChartToAnotherUser).
 
-This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
+This sample requires an additional user that isn't available in your system. Create the required user manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below.
 
 **First Name**: Kevin<br/>
 **Last Name**: Cook<br/>
@@ -41,7 +35,7 @@ This sample requires an additional user that isn't available in your system. Cre
 
 ## What this sample does
 
-The [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains the data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
+The [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9&preserve-view=true) message is intended to be used in a scenario where it contains the data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
 
 ## How this sample works
 
@@ -60,6 +54,5 @@ The `AssignRequest` method assigns the visualization or chart to the newly creat
 ### Clean up
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

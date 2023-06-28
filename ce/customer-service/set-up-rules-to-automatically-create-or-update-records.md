@@ -1,41 +1,36 @@
 ---
-title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
-ms.date: 08/25/2020
+title: Set up rules to automatically create or update records
+description: Automatically create or update records from incoming activities, such as emails, social activities, or custom activities, without the need for coding.
+ms.date: 04/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - ai-gen-docs
+  - ai-gen-desc
 ---
 
-# Set up rules to automatically create or update records
+# Set up rules to automatically create or update records in the legacy app
 
-
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into Microsoft Dataverse records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into Dataverse with the help of *record creation and update rules*.  
 
 By using record creation and update rules in Dynamics 365 Customer Service, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities, without writing any code. Not just that, you can set up the rule to convert the incoming activity into multiple records. For example, you can create a case and a lead from a single social activity.  
 
- A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the newly-created records. The rule also contains channel properties that are used to define conditions for rules, and also for setting properties of the record you’re creating or updating.  
+A record creation and update rule consists of rule items that define the conditions for creating or updating records, and also defines what actions or steps to take on the newly-created records. The rule also contains channel properties that are used to define conditions for rules, and also for setting properties of the record you’re creating or updating.  
 
- To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
-
-> [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+To enable the rule to update records, you must add an **Update** step to the rule. Only the entity that you select in the **Update** step is updated based on the properties you set.   
 
 
 ## Activities and entities supported by record creation and update rules
 
- By default, Dynamics 365 Customer Service supports creating records from the following activities, also called source types in the context of record creation and update rules:  
+By default, Customer Service supports creating records from the following activities, also called source types in the context of record creation and update rules:  
 
 -   Email  
 -   Social activity  
@@ -49,13 +44,13 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Capture data from external sources
 
- You can also capture additional valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
+You can also capture more valuable customer information provided by an external application in the form of JSON (a collection of name-value pairs), and use it to enhance the quality of the target records and set various conditions in the record creation and update rules.  
 
- Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
+Every default (out-of-the-box) activity or custom activity has an Additional Parameters attribute. This attribute stores the JSON payload received from an external application.  
 
- To capture this information in Dataverse, you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
+To capture this information in Dataverse, you can define channel properties and associate them with a particular rule or share them across multiple rules of the same source type. For example, along with a social post, you can capture important information about the post, such as sentiment value. Sentiment value is the property of social activity, so you can use this property in any other record creation and update rule of type Social Activity.  
 
- Here’s the correct format in which Dataverse should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
+Here’s the correct format in which Dataverse should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
 
 {“PropertyName1”:”Propertyvalue1”; “PropertyName2”:”Propertyvalue2”}  
 
@@ -64,9 +59,9 @@ These activities can be converted to any default (system) entity records or cust
 
 ## Activate or deactivate a rule
 
- For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
+For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
 
- When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
+When a record creation and update rule is activated, a corresponding workflow is created automatically. You can use channel properties to define a workflow’s conditions and operators in mapping the target entity attribute values. For complex scenarios, you may configure child workflows.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure workflow steps](../customerengagement/on-premises/customize/configure-workflow-steps.md)  
 
@@ -95,7 +90,7 @@ Before you can use automatic record creation rules, be sure your external applic
 
 If your instance meets the prerequisites, all you need to do is set up rules in Dataverse that will automatically create or update a support case, lead, opportunity, appointment, task, and more from incoming activities.
 
-## Set up a rule to create and update records automatically  
+## Set up a rule to create and update records automatically in the legacy app
   
 1.  Make sure that you have the customer service, sales manager, or marketing manager role or equivalent permissions.  
   
@@ -138,7 +133,7 @@ If your instance meets the prerequisites, all you need to do is set up rules in 
   
 6.  Select **Save**.  
 
-## Set Channel Properties
+### Set Channel Properties
 
 1.  Under **Channel Properties**, in the **Additional Properties** box, select a channel property group.  
 
@@ -147,7 +142,7 @@ If your instance meets the prerequisites, all you need to do is set up rules in 
 
 To learn more about creating channel property groups and adding properties to them, see [Set up channel properties](#set-up-channel-properties) later in this topic.  
 
-## Set Email conditions
+### Set Email conditions
 If the source type for the rule is set to **Email**, specify the conditions for converting the email to the target record.  
 
 1. **Create records for email from unknown senders**. If you select this check box, all email messages from unknown senders (a sender whose email address isn’t present in any records) are converted to new records (based on the conditions you define). A contact record is also created for this unknown sender.  
@@ -165,7 +160,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
 
 3. **Create cases for activities associated with a resolved case**. If you select this check box, a case is created if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created. However, if the email is related to a canceled case, a new case will be created.
 
-4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. A case is created only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the incoming email is associated with the existing resolved case; a new case won’t be created.  
+4. **Create case when the case associated with the activity is resolved since**. If you select the **Create cases for activities associated with a resolved case** check box, select the duration here. A case is created only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the incoming email is associated with the existing resolved case; a new case won’t be created. The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.  
 
 5. **Send automatic email response to customer on record creation**. Select this check box if you want to automatically send email responses to the sender of the email after a target record for the email is created.  
 
@@ -174,7 +169,7 @@ If the source type for the rule is set to **Email**, specify the conditions for 
     > [!NOTE]
     > When mapping incoming email to a field that does not support HTML, you should remove HTML content from the email, so that the text is compatible with Dynamics and the content can be viewed without HTML tags. You can do this in the following ways. </br> </br> 1. Use a regular expression such as \&lt;[^\&gt;]*\&gt; to filter the HTML tags out of the email before mapping it to the field. Note that taking this approach will permanently remove the tags from the content. </br> 2.  If you want to maintain the HTML from the email, but don’t want it to be displayed, customize the field CSS to use the textContent DOM node to have the browser only display the text from the email in the form. </br> </br> Please note that these customizations are not supported by Microsoft. Try them on your sandbox environment to avoid any loss of production data.
 
-## Set Social Activity conditions
+### Set Social Activity conditions
 If the source type for the rule is set to Social Activity, specify the conditions for converting the social activity to the target record.  
 
 1. **Create records for blocked social profile**. If you select this check box, a target record is created or updated for the social posts (social activities) from social profiles that are blocked by you.  
@@ -187,7 +182,7 @@ If the source type for the rule is set to Social Activity, specify the condition
    > [!NOTE]
    > Dataverse determines what record to create based on the entity you select in the **Create Record** step under **Actions**.  
 
-## Set record creation details
+### Set record creation details
 In the **Specify Record Creation and Update Details** section, select ![Add a record button.](../customer-service/media/crm-ua-add-record.gif "Add a record button") to define the conditions for creating or updating a record and specify the properties of the record.  
 
 1.  In the **Name** box, enter a meaningful name for the rule item.  
@@ -234,7 +229,7 @@ In the **Specify Record Creation and Update Details** section, select ![Add a re
     > - Data types "Option Set" and "Two Option" are not supported in string type conditions.  
     > - The property items for each of the supported data types need to have a default value. This requirement is important in scenarios where the configured property line items have a blank incoming web request. In such cases, the property line item will take the default value when referred to in a workflow.  
 
-## Turn on the rule
+### Turn on the rule
 
 Turn on the rule so that records can be created or updated for incoming activities based on the defined conditions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activate or deactivate a rule](#activate-or-deactivate-a-rule).  
 
@@ -242,7 +237,7 @@ Turn on the rule so that records can be created or updated for incoming activiti
 >  Developers can also apply rules retroactively to the incoming records that might have been skipped while a rule was edited. 
 
 
-## Set up channel properties  
+### Set up channel properties  
 
 Every default or custom activity has an **Additional Parameters** attribute. This attribute stores the JSON payload received from an external application.  
 
@@ -250,7 +245,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
  To capture this information in Dataverse and associate it with the record creation or update rule, you can define channel properties in a channel property group and associate them with a rule or share them across multiple rules. For example, along with a social post, you can capture important information about the post, such as rating or influencer score. Rating and influencer score are the properties of social channel.  
 
-### Create channel property groups and add channel properties  
+#### Create channel property groups and add channel properties  
 
 1. After you save the record creation and update rule form, under **Channel Properties** section, in the **Additional Properties** box, select the lookup button, and then select **New**.  
 
@@ -287,7 +282,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
    > [!IMPORTANT]
    > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
-   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](https://json.parser.online.fr/) that will provide a better output.  
+   > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use online JSON parser that will provide a better output.  
    > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
    > 
    > ![Nested value in JSON payload.](../customer-service/media/crm-ua-json-payload-nested-values.png "Nested value in JSON payload")  
@@ -310,11 +305,11 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
    ![Add channel properties to channel property group.](../customer-service/media/crm-ua-channel-property-group.png "Add channel properties to channel property group")  
 
-## Activate a record creation and update rule
+### Activate a record creation and update rule
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.  
 
-### To activate a record creation and update rule  
+#### To activate a record creation and update rule  
 
 1.  Go to **Settings** > **Service Management**. 
 
@@ -334,7 +329,8 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 
-## Upgrade considerations  
+### Upgrade considerations
+
  Here are a few things you should know if you’re upgrading to the latest release, and have existing case creation rules for email and social activity.  
 
 
@@ -348,7 +344,7 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 |  An active case creation rule for social or email source types, with a queue specified   |                                                                                                                                                                 All such rules will be upgraded in an active state.                                                                                                                                                                  |
 | An active case creation rule for social or email source types, without a queue specified |                                                                                  All such rules will be upgraded and deactivated. This is because even in [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], a case creation rule without a queue did not apply and create any record.                                                                                   |
 
-## Recommendation to upgrade solution
+### Recommendation to upgrade solution
 
 Perform the following steps before you upgrade a solution:
 

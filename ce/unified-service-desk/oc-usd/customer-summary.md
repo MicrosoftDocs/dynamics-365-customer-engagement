@@ -5,7 +5,6 @@ ms.date: 01/13/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View a customer summary to get available information about a customer
@@ -124,9 +123,7 @@ An agent script in Omnichannel for Customer Service provides guidance for what y
 
 When you accept an incoming conversation request, a session starts and the **Customer summary** page opens. In the **Agent script** section, you'll see steps as shown in the following illustration.
 
-
-> [!div class='mx-imgBorder']
-> ![Agent script.](../../customer-service/media/agent-script-section.PNG "Agent script")
+:::image type="content" source="../../customer-service/media/components-agent-script.png" alt-text="Agent script components":::
 
 1. Agent script control
 2. Text instructions
@@ -179,13 +176,13 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 
 ### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
-- [Link and unlink a record](link-unlink-record.md)
-- [setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)  
+[Create a record](create-record.md)  
+[Search for records](search-record.md)  
+[Link and unlink a record](link-unlink-record.md)  
+[setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

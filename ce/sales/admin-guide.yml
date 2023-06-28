@@ -128,6 +128,21 @@ landingContent:
             url: configure-predictive-opportunity-scoring.md
           - text: Configure relationship analytics and health 
             url: configure-relationship-analytics.md
+ # Card
+  - title: Encryption
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Enhance security by encrypting your data
+            url: /power-platform/admin/data-encryption
+          - text: Support for customer lockbox
+            url: sales-gdpr-faqs.md#can-the-dynamics-365-sales-data-be-protected-with-customer-lockbox
+          - text: Support for customer-managed key
+            url: sales-gdpr-faqs.md#can-the-dynamics-365-sales-data-be-encrypted-using-customer-managed-encryption-key-cmk
+      - linkListType: how-to-guide
+        links:
+          - text: Manage encryption key
+            url: /power-platform/admin/manage-encryption-key
 
 # Card 
   - title: Dynamics 365 Sales mobile app
@@ -140,3 +155,4 @@ landingContent:
             url: sales-mobile/modify-quick-view-form.md
           - text: Create custom push notifications 
             url: sales-mobile/create-push-notification.md
+

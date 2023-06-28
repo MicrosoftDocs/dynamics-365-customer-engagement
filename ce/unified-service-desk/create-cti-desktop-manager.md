@@ -3,15 +3,11 @@ title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "Learn about the CTI Desktop Manager component and its objects. Also, understand how to raise search requests to access call data."
 ms.date: 12/31/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -47,7 +43,7 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
 - **Unified Service Desk**: The search request is handled by the Global Manager hosted control.  
   
-- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem(system.string,system.string)) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
+- **User Interface Integration (UII)**: The lookup request is sent to [ICustomerSearch](/dotnet/api/microsoft.uii.desktop.core.icustomersearch), and it is up to you how you want to implement the search control. You can also send additional data to the search request using the [String)](/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest.addlookuprequestitem) method. UII provides you project templates to create a Windows Forms-based or WPF-based customer search control with the CTI search request pre-wired.  
   
 <a name="CallData"></a>   
 ## Access call data and events  

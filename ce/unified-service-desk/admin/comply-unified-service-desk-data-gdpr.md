@@ -1,16 +1,12 @@
 ---
 title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
 description: "Understand how the audit log files, diagnostic log files, and telemetry data in Unified Service Desk comply with the GDPR."
-ms.date: 04/24/2018
+ms.date: 05/26/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ---
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data compliance under GDPR
 
@@ -56,7 +52,7 @@ To delete audit logging that you configure using standard auditing by adding an 
 
 ## Diagnostic log files
 
-The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named UnifiedServiceDesk-<date>.log are maintained at the following location on the client computer:
+The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named UnifiedServiceDesk-\<date>.log are maintained at the following location on the client computer:
 
 `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
 
@@ -65,7 +61,7 @@ To delete diagnostic logging:
 1. Go to the default or configured folder path where you store the diagnostic log files.
 The default folder path is: </br>
 `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
-2. Select the **UnifiedServiceDesk-<date>.log** file, and then select **Delete**.
+2. Select the **UnifiedServiceDesk-\<date>.log** file, and then select **Delete**.
 
 ## Telemetry data
 
@@ -80,11 +76,11 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]
 
 ## See also
 
-[Comply with General Data Protection Regulation (GDPR)](comply-gdpr.md)
+[Comply with privacy regulations](comply-gdpr.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

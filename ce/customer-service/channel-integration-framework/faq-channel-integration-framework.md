@@ -1,19 +1,19 @@
 ---
-title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 01/21/2022
+ms.date: 05/26/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# FAQs for Dynamics 365 Channel Integration Framework
+# FAQ about Dynamics 365 Channel Integration Framework
 
-## General FAQs
+This article contains the frequently asked questions about Dynamics 365 Channel Integration Framework versions 1.0 and 2.0.
+## General FAQ
 
 ### What is Dynamics 365 Channel Integration Framework?
 
@@ -43,7 +43,7 @@ No, Dynamics 365 Channel Integration Framework provides an extensible framework 
 
 No, Dynamics 365 Channel Integration Framework provides a JavaScript library that exposes APIs that you can use to perform the following operations:
 - Create, retrieve, update, and delete entity records.
-- Get and set Click-to-Act functionality.
+- Get and set ClickToAct functionality.
 - Search among records of a particular entity type.
 - Get and set the panel width, and so on.
 
@@ -59,14 +59,10 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
-Dynamics 365 Channel Integration Framework supports Microsoft Edge and Google Chrome.
+For information on supported browsers, see the following articles:
 
-> [!NOTE]
-> The widget domain needs to be granted permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently grant the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
-
-### Are there any browsers that Dynamics 365 Channel Integration Framework does not support?
-
-Dynamics 365 Channel Integration Framework does not support Internet Explorer and Firefox browsers.
+- [System requirements for Dynamics 365 Channel Integration Framework 1.0](system-requirements-channel-integration-framework.md)
+- [System requirements for Dynamics 365 Channel Integration Framework 2.0](v2/system-requirements-channel-integration-framework-v2.md)
 
 ### Can partners package solutions that have a dependency on the Dynamics 365 Channel Integration Framework solution, together with the Dynamics 365 Channel Integration Framework solution?
 
@@ -78,7 +74,7 @@ Also, you can add Configuration Experience to the acquired flow that'll allow th
 
 ### What are the new changes to the Channel Integration Framework app?
 
-Channel Integration Framework model-driven app is only applicable to configure channel providers for single session Dynamics 365 model-driven apps. The templates (Session, Notification, and Application tab) will not be available in the Channel Integration Framework app.
+Dynamics 365 Channel Integration Framework 2.0 includes multiple enhancements over Channel Integration Framework 1.0, particularly in its ability to integrate with the latest multisession agent experiences for customer service. To know more, see [Advantages and value propositions of Dynamics 365 Channel Integration Framework 2.0](overview-channel-integration-framework.md#advantages-and-value-propositions-of-dynamics-365-channel-integration-framework-10).
 
 ### My organization is using Channel Integration Framework 1.0. Does the new version impact my organization?
 
@@ -86,7 +82,7 @@ No. There is no impact on Channel Integration Framework 1.0 users. You can conti
 
 ### Where do I configure voice channel provider for multisession apps?
 
-You can configure voice channel providers using the [app profile manager](../../app-profile-manager/overview.md).
+You can configure voice channel providers in [Customer Service admin center and app profile manager](../../app-profile-manager/app-profile-manager.md).
 
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change impact my organization?
 
@@ -101,41 +97,54 @@ You don't need to choose the Unified Interface apps. The telephony channel provi
 	
 ### How do I select roles for the voice channel provider record?
 
-Telephony channel providers are associated with app profiles, which in turn are assigned to users in your organization. With the new changes, you need to assign the app profiles to the users who should have access to the telephony channel provider.
+Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](../../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 
-Yes. Dynamics 365 Channel Integration Framework 1.0 APIs will continue to be available and supported for the single-session Unified Interface apps like Customer Service Hub and Sales Hub. Even with the Dynamics 365 Channel Integration Framework 2.0 app, they will continue to work.
+Yes. You can use your communication widget on the Dynamics 365 Channel Integration Framework 2.0, however, you'll need to configure the channel provider and update the channel URL in the Customer Service admin center app. More information: [Configure channel providers](v2/configure-channel-provider-app-profile-manager.md)
 
 ### How do I use the multisession experiences for my contact center with a third-party provider's communication widget?
 
-Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service. You can integrate any third-party telephony provider with Omnichannel for Customer Service using the Channel Integration Framework 2.0 APIs. 
+Dynamics 365 Channel Integration Framework 2.0 works only with multisession apps such as Omnichannel for Customer Service and Customer Service workspace. You can integrate any third-party telephony provider with Omnichannel for Customer Service or Customer Service workspace using the Dynamics 365 Channel Integration Framework 2.0 APIs. 
 
-For information on selecting versions, see [Choose between version 1.0 and version 2.0](choose-between-versions.md).
+For information on selecting versions, see [Choose between versions 1.0 and 2.0](choose-between-versions.md).
 
 For information on license, see [Dynamics 365 Customer Service pricing overview](https://dynamics.microsoft.com/en-us/customer-service/overview/#pricing) and [Dynamics 365 Customer Service pricing plan](https://dynamics.microsoft.com/en-us/pricing/customer-service/#plans).
 
-### How can third-party telephony providers start their default session?
-
-You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
-
 ### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
-If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
-To create a default session, do the following:
-1. Use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session with relevant application tabs and load them together with the widget.
-2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
+If there are multiple channel providers in your organization, the widget won't be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
+
+To create a default session, see [Start a home (default) session when your organization uses multiple channel providers](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-multiple-channel-providers).
+
+### How can third-party telephony providers start their default session?
+
+You can use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code to make the panel visible. More information: [Start a home (default) session when your organization uses a third-party telephony provider](v2/support-multiple-providers.md#start-a-home-default-session-when-your-organization-uses-a-single-channel-provider)
+
+### Why is the user presence not loading or user is shown as unknown? 
+
+User presence might not load in the following scenarios:
+- The agent doesn't have the Omnichannel agent role privileges
+- The agent capacity and default presence are not set
+- The required channels aren't activated in the agent profile. 
+
+More information: [User presence isn’t loading or user is shown as unknown](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
+
+### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
+
+When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. So after a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL. More information: [Configure a third-party channel provider](v2/configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)
+
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
 This is to make sure that the updated data is available for the agent at all times.
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md)
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
 
-### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
+### Is it possible to view the existing channel providers from Dynamics 365 Channel Integration Framework 2.0 model-driven app?
 
-No, you'll have to navigate to Channel Integration Framework 2.0 from app profile manager to view your existing channel providers. More information: [Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)
+No. You can use the Customer Service admin center app or navigate to the app profile manager on the Power Apps portal to view your existing channel providers. More information: [Configure channel provider](v2/configure-channel-provider-app-profile-manager.md)
 
 
 ## Dynamics 365 Channel Integration Framework 1.0
@@ -154,10 +163,10 @@ No, that is not supported.
 
 ### See also
 
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
-[Known issues of Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)  
+[Known issues in Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

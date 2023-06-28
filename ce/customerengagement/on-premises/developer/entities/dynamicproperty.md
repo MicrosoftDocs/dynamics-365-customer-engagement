@@ -1,18 +1,16 @@
 ---
-title: "DynamicProperty Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the DynamicProperty entity."
-ms.date: 04/02/2019
-
+title: "Property (DynamicProperty)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Property (DynamicProperty)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# DynamicProperty Entity Reference
+
+# Property (DynamicProperty)  entity reference
 
 Information about a product property.
 
@@ -21,16 +19,16 @@ Information about a product property.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/dynamicproperties<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/dynamicproperties(*dynamicpropertyid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/dynamicproperties(*dynamicpropertyid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dynamicproperties<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/dynamicproperties(*dynamicpropertyid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/dynamicproperties(*dynamicpropertyid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -135,15 +133,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### DataType Options
+#### DataType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Option Set|
-|1|Decimal|
-|2|Floating Point Number|
-|3|Single Line Of Text|
-|4|Whole Number|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Option Set||
+|1|Decimal||
+|2|Floating Point Number||
+|3|Single Line Of Text||
+|4|Whole Number||
 
 
 
@@ -300,14 +298,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsHidden Options
+#### IsHidden Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -323,14 +321,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsReadOnly Options
+#### IsReadOnly Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -346,14 +344,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRequired Options
+#### IsRequired Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -606,7 +604,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -628,7 +626,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -1001,14 +999,13 @@ Listed by **SchemaName**.
 - [Dynamicproperty_DynamicPropertyAssociation](#BKMK_Dynamicproperty_DynamicPropertyAssociation)
 - [DynamicProperty_DynamicPropertyInstance](#BKMK_DynamicProperty_DynamicPropertyInstance)
 - [DynamicProperty_DynamicPropertyOptionSetItem](#BKMK_DynamicProperty_DynamicPropertyOptionSetItem)
-- [msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId](#BKMK_msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId)
 
 
 ### <a name="BKMK_dynamicproperty_SyncErrors"></a> dynamicproperty_SyncErrors
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [dynamicproperty_SyncErrors](syncerror.md#BKMK_dynamicproperty_SyncErrors) Many-To-One relationship.
+Same as the [dynamicproperty_SyncErrors](syncerror.md#BKMK_dynamicproperty_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1025,7 +1022,7 @@ Same as syncerror entity [dynamicproperty_SyncErrors](syncerror.md#BKMK_dynamicp
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [dynamicproperty_AsyncOperations](asyncoperation.md#BKMK_dynamicproperty_AsyncOperations) Many-To-One relationship.
+Same as the [dynamicproperty_AsyncOperations](asyncoperation.md#BKMK_dynamicproperty_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1042,7 +1039,7 @@ Same as asyncoperation entity [dynamicproperty_AsyncOperations](asyncoperation.m
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [dynamicproperty_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicproperty_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [dynamicproperty_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicproperty_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1059,7 +1056,7 @@ Same as mailboxtrackingfolder entity [dynamicproperty_MailboxTrackingFolders](ma
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [dynamicproperty_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicproperty_BulkDeleteFailures) Many-To-One relationship.
+Same as the [dynamicproperty_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicproperty_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1076,7 +1073,7 @@ Same as bulkdeletefailure entity [dynamicproperty_BulkDeleteFailures](bulkdelete
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [dynamicproperty_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicproperty_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [dynamicproperty_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicproperty_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1091,7 +1088,7 @@ Same as principalobjectattributeaccess entity [dynamicproperty_PrincipalObjectAt
 
 ### <a name="BKMK_dynamicproperty_base_dynamicproperty"></a> dynamicproperty_base_dynamicproperty
 
-Same as dynamicproperty entity [dynamicproperty_base_dynamicproperty](dynamicproperty.md#BKMK_dynamicproperty_base_dynamicproperty) Many-To-One relationship.
+Same as the [dynamicproperty_base_dynamicproperty](dynamicproperty.md#BKMK_dynamicproperty_base_dynamicproperty) many-to-one relationship for the [dynamicproperty](dynamicproperty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1106,7 +1103,7 @@ Same as dynamicproperty entity [dynamicproperty_base_dynamicproperty](dynamicpro
 
 ### <a name="BKMK_Dynamicproperty_DynamicPropertyAssociation"></a> Dynamicproperty_DynamicPropertyAssociation
 
-Same as dynamicpropertyassociation entity [Dynamicproperty_DynamicPropertyAssociation](dynamicpropertyassociation.md#BKMK_Dynamicproperty_DynamicPropertyAssociation) Many-To-One relationship.
+Same as the [Dynamicproperty_DynamicPropertyAssociation](dynamicpropertyassociation.md#BKMK_Dynamicproperty_DynamicPropertyAssociation) many-to-one relationship for the [dynamicpropertyassociation](dynamicpropertyassociation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1121,7 +1118,7 @@ Same as dynamicpropertyassociation entity [Dynamicproperty_DynamicPropertyAssoci
 
 ### <a name="BKMK_DynamicProperty_DynamicPropertyInstance"></a> DynamicProperty_DynamicPropertyInstance
 
-Same as dynamicpropertyinstance entity [DynamicProperty_DynamicPropertyInstance](dynamicpropertyinstance.md#BKMK_DynamicProperty_DynamicPropertyInstance) Many-To-One relationship.
+Same as the [DynamicProperty_DynamicPropertyInstance](dynamicpropertyinstance.md#BKMK_DynamicProperty_DynamicPropertyInstance) many-to-one relationship for the [dynamicpropertyinstance](dynamicpropertyinstance.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1136,7 +1133,7 @@ Same as dynamicpropertyinstance entity [DynamicProperty_DynamicPropertyInstance]
 
 ### <a name="BKMK_DynamicProperty_DynamicPropertyOptionSetItem"></a> DynamicProperty_DynamicPropertyOptionSetItem
 
-Same as dynamicpropertyoptionsetitem entity [DynamicProperty_DynamicPropertyOptionSetItem](dynamicpropertyoptionsetitem.md#BKMK_DynamicProperty_DynamicPropertyOptionSetItem) Many-To-One relationship.
+Same as the [DynamicProperty_DynamicPropertyOptionSetItem](dynamicpropertyoptionsetitem.md#BKMK_DynamicProperty_DynamicPropertyOptionSetItem) many-to-one relationship for the [dynamicpropertyoptionsetitem](dynamicpropertyoptionsetitem.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1147,23 +1144,6 @@ Same as dynamicpropertyoptionsetitem entity [DynamicProperty_DynamicPropertyOpti
 |ReferencedEntityNavigationPropertyName|DynamicProperty_DynamicPropertyOptionSetItem|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId"></a> msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_fieldcomputation entity [msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId](msdyn_fieldcomputation.md#BKMK_msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fieldcomputation|
-|ReferencingAttribute|msdyn_propertyid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_dynamicproperty_msdyn_fieldcomputation_PropertyId|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1186,53 +1166,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicProperty_createdby](systemuser.md#BKMK_lk_DynamicProperty_createdby) One-To-Many relationship.
+See the [lk_DynamicProperty_createdby](systemuser.md#BKMK_lk_DynamicProperty_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicProperty_createdonbehalfby"></a> lk_DynamicProperty_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicProperty_createdonbehalfby](systemuser.md#BKMK_lk_DynamicProperty_createdonbehalfby) One-To-Many relationship.
+See the [lk_DynamicProperty_createdonbehalfby](systemuser.md#BKMK_lk_DynamicProperty_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicProperty_modifiedby"></a> lk_DynamicProperty_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicProperty_modifiedby](systemuser.md#BKMK_lk_DynamicProperty_modifiedby) One-To-Many relationship.
+See the [lk_DynamicProperty_modifiedby](systemuser.md#BKMK_lk_DynamicProperty_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicProperty_modifiedonbehalfby"></a> lk_DynamicProperty_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicProperty_modifiedonbehalfby](systemuser.md#BKMK_lk_DynamicProperty_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_DynamicProperty_modifiedonbehalfby](systemuser.md#BKMK_lk_DynamicProperty_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_dynamicproperty_organization"></a> dynamicproperty_organization
 
 **Added by**: System Solution Solution
 
-See organization Entity [dynamicproperty_organization](organization.md#BKMK_dynamicproperty_organization) One-To-Many relationship.
+See the [dynamicproperty_organization](organization.md#BKMK_dynamicproperty_organization) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_dynamicproperty_base_dynamicproperty"></a> dynamicproperty_base_dynamicproperty
 
-See dynamicproperty Entity [dynamicproperty_base_dynamicproperty](dynamicproperty.md#BKMK_dynamicproperty_base_dynamicproperty) One-To-Many relationship.
+See the [dynamicproperty_base_dynamicproperty](dynamicproperty.md#BKMK_dynamicproperty_base_dynamicproperty) one-to-many relationship for the [dynamicproperty](dynamicproperty.md) entity.
 
 ### <a name="BKMK_DefaultValueOptionSet_DynamicProperty"></a> DefaultValueOptionSet_DynamicProperty
 
-See dynamicpropertyoptionsetitem Entity [DefaultValueOptionSet_DynamicProperty](dynamicpropertyoptionsetitem.md#BKMK_DefaultValueOptionSet_DynamicProperty) One-To-Many relationship.
+See the [DefaultValueOptionSet_DynamicProperty](dynamicpropertyoptionsetitem.md#BKMK_DefaultValueOptionSet_DynamicProperty) one-to-many relationship for the [dynamicpropertyoptionsetitem](dynamicpropertyoptionsetitem.md) entity.
 
 ### <a name="BKMK_Product_DynamicProperty"></a> Product_DynamicProperty
 
-See product Entity [Product_DynamicProperty](product.md#BKMK_Product_DynamicProperty) One-To-Many relationship.
+See the [Product_DynamicProperty](product.md#BKMK_Product_DynamicProperty) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_ProductAssociation_DynamicProperty"></a> ProductAssociation_DynamicProperty
 
-See productassociation Entity [ProductAssociation_DynamicProperty](productassociation.md#BKMK_ProductAssociation_DynamicProperty) One-To-Many relationship.
+See the [ProductAssociation_DynamicProperty](productassociation.md#BKMK_ProductAssociation_DynamicProperty) one-to-many relationship for the [productassociation](productassociation.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.dynamicproperty?text=dynamicproperty EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

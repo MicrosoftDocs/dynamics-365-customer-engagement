@@ -1,11 +1,10 @@
 ---
 title: "Enable file attachments | MicrosoftDocs"
 description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
-ms.date: 08/25/2020
+ms.date: 05/05/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.reviewer: nenellim
 ---
 
@@ -64,11 +63,11 @@ Now, agents and customers can share file attachments during their conversation.
 
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Configure file attachments](configure-file-attachment.md)  
-[Configure a Facebook channel](configure-facebook-channel.md)  
-[Configure a Twitter channel](configure-twitter-channel.md)  
+[Configure a Facebook channel](configure-facebook-channel.md)   
 [Configure a WhatsApp channel](configure-whatsapp-channel.md)  
 [Configure a WeChat channel](configure-wechat-channel.md)  
 [Configure a LINE channel](configure-line-channel.md)  
+[Download file attachments from your Azure bot](download-attachments-bot.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

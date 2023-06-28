@@ -1,20 +1,16 @@
 ---
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 Marketing."
-ms.date: 03/25/2022
+ms.date: 05/18/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use customer journeys to create automated campaigns
@@ -174,11 +170,11 @@ More information: [Account-based marketing](account-based-marketing.md)
 
 ### Set the minimum consent level
 
-If data protection is enabled for your instance (for example, because you need to comply with the GDPR), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
+If data protection is enabled for your instance (for example, because you need to comply with certain privacy laws and regulations), then use the **Minimum consent** setting to control the minimum level of consent that each contact must have provided to be included on this journey. The level you choose should depend on the types of operations your journey will execute.
 
 It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use customer journeys and all other features of Dynamics 365 Marketing.
 
-More information: [Data protection and the GDPR](gdpr.md)
+More information: [Data protection and privacy](privacy.md)
 
 ### Set the business-unit scope
 
@@ -204,7 +200,7 @@ All customer journeys are active for a limited time. During this time, the journ
 
 ### Choose your content settings
 
-Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the [assist-edit](dynamic-email-content.md#assist-edit) feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
+Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the [personalization](dynamic-email-content.md#personalization) feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
 
 To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
 
@@ -230,7 +226,7 @@ To set up a recurring journey:
 > [!IMPORTANT]
 > When the last iteration of a recurring journey is complete, the journey will change to a **Stopped** state. When the journey is stopped, it is assumed that the iteration schedule is completed. Attempting to restart the stopped customer journey will immediately result in the journey transitioning back to the stopped state.
 >
-> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, the customer journey will go back to a **Live** state.
+> You can extend the customer journey after the last iteration of a recurring journey by increasing the **Iterations count** value. After you've increased the iterations count, select **Go live** to set the customer journey back to a **Live** state.
 >
 > To see the iterations that are already executed and executing, go to **Related** > **Customer Journey Iterations**. For each iteration, the **Created On** value marks the time that the iteration was started.
 

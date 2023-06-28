@@ -1,18 +1,16 @@
 ---
-title: "DynamicPropertyAssociation Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the DynamicPropertyAssociation entity."
-ms.date: 04/02/2019
-
+title: "Property Association (DynamicPropertyAssociation)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Property Association (DynamicPropertyAssociation)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# DynamicPropertyAssociation Entity Reference
+
+# Property Association (DynamicPropertyAssociation)  entity reference
 
 Association of a property definition with another entity in the system.
 
@@ -21,15 +19,15 @@ Association of a property definition with another entity in the system.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/dynamicpropertyassociations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/dynamicpropertyassociations(*dynamicpropertyassociationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/dynamicpropertyassociations(*dynamicpropertyassociationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dynamicpropertyassociations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/dynamicpropertyassociations(*dynamicpropertyassociationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -80,15 +78,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### AssociationStatus Options
+#### AssociationStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Active|
-|1|Deleted|
-|2|Draft|
-|3|Draft Added|
-|4|Draft Deleted|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Active||
+|1|Deleted||
+|2|Draft||
+|3|Draft Added||
+|4|Draft Deleted||
 
 
 
@@ -184,13 +182,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### InheritanceState Options
+#### InheritanceState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Inherited|
-|1|Overridden|
-|2|Owned|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Inherited||
+|1|Overridden||
+|2|Owned||
 
 
 
@@ -669,7 +667,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [dynamicpropertyassociation_SyncErrors](syncerror.md#BKMK_dynamicpropertyassociation_SyncErrors) Many-To-One relationship.
+Same as the [dynamicpropertyassociation_SyncErrors](syncerror.md#BKMK_dynamicpropertyassociation_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -686,7 +684,7 @@ Same as syncerror entity [dynamicpropertyassociation_SyncErrors](syncerror.md#BK
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [dynamicpropertyassociation_AsyncOperations](asyncoperation.md#BKMK_dynamicpropertyassociation_AsyncOperations) Many-To-One relationship.
+Same as the [dynamicpropertyassociation_AsyncOperations](asyncoperation.md#BKMK_dynamicpropertyassociation_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -703,7 +701,7 @@ Same as asyncoperation entity [dynamicpropertyassociation_AsyncOperations](async
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [dynamicpropertyassociation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicpropertyassociation_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [dynamicpropertyassociation_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicpropertyassociation_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -720,7 +718,7 @@ Same as mailboxtrackingfolder entity [dynamicpropertyassociation_MailboxTracking
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [dynamicpropertyassociation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicpropertyassociation_BulkDeleteFailures) Many-To-One relationship.
+Same as the [dynamicpropertyassociation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicpropertyassociation_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -737,7 +735,7 @@ Same as bulkdeletefailure entity [dynamicpropertyassociation_BulkDeleteFailures]
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [dynamicpropertyassociation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicpropertyassociation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as the [dynamicpropertyassociation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicpropertyassociation_PrincipalObjectAttributeAccesses) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -770,55 +768,51 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicPropertyAssociationattribute_createdby](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_createdby) One-To-Many relationship.
+See the [lk_DynamicPropertyAssociationattribute_createdby](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy"></a> lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy) One-To-Many relationship.
+See the [lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_CreatedOnBehalfBy) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicPropertyAssociationattribute_ModifiedBy"></a> lk_DynamicPropertyAssociationattribute_ModifiedBy
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicPropertyAssociationattribute_ModifiedBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_ModifiedBy) One-To-Many relationship.
+See the [lk_DynamicPropertyAssociationattribute_ModifiedBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_ModifiedBy) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy"></a> lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy) One-To-Many relationship.
+See the [lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy](systemuser.md#BKMK_lk_DynamicPropertyAssociationattribute_ModifiedOnBehalfBy) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_DynamicPropertyAssociation_organization"></a> DynamicPropertyAssociation_organization
 
 **Added by**: System Solution Solution
 
-See organization Entity [DynamicPropertyAssociation_organization](organization.md#BKMK_DynamicPropertyAssociation_organization) One-To-Many relationship.
+See the [DynamicPropertyAssociation_organization](organization.md#BKMK_DynamicPropertyAssociation_organization) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_Dynamicproperty_DynamicPropertyAssociation"></a> Dynamicproperty_DynamicPropertyAssociation
 
-See dynamicproperty Entity [Dynamicproperty_DynamicPropertyAssociation](dynamicproperty.md#BKMK_Dynamicproperty_DynamicPropertyAssociation) One-To-Many relationship.
+See the [Dynamicproperty_DynamicPropertyAssociation](dynamicproperty.md#BKMK_Dynamicproperty_DynamicPropertyAssociation) one-to-many relationship for the [dynamicproperty](dynamicproperty.md) entity.
 
 ### <a name="BKMK_DynamicPropertyAssociation_TransactionCurrency"></a> DynamicPropertyAssociation_TransactionCurrency
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [DynamicPropertyAssociation_TransactionCurrency](transactioncurrency.md#BKMK_DynamicPropertyAssociation_TransactionCurrency) One-To-Many relationship.
+See the [DynamicPropertyAssociation_TransactionCurrency](transactioncurrency.md#BKMK_DynamicPropertyAssociation_TransactionCurrency) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_Product_DynamicPropertyAssociation"></a> Product_DynamicPropertyAssociation
 
-See product Entity [Product_DynamicPropertyAssociation](product.md#BKMK_Product_DynamicPropertyAssociation) One-To-Many relationship.
+See the [Product_DynamicPropertyAssociation](product.md#BKMK_Product_DynamicPropertyAssociation) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_ProductAssociation_DynamicPropertyAssociation"></a> ProductAssociation_DynamicPropertyAssociation
 
-See productassociation Entity [ProductAssociation_DynamicPropertyAssociation](productassociation.md#BKMK_ProductAssociation_DynamicPropertyAssociation) One-To-Many relationship.
+See the [ProductAssociation_DynamicPropertyAssociation](productassociation.md#BKMK_ProductAssociation_DynamicPropertyAssociation) one-to-many relationship for the [productassociation](productassociation.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.dynamicpropertyassociation?text=dynamicpropertyassociation EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

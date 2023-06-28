@@ -1,18 +1,16 @@
 ---
-title: "List Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the List entity."
-ms.date: 04/02/2019
-
+title: "Marketing List (List)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Marketing List (List)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# List Entity Reference
+
+# Marketing List (List)  entity reference
 
 Group of existing or potential customers created for a marketing campaign or other sales purposes.
 
@@ -21,29 +19,29 @@ Group of existing or potential customers created for a marketing campaign or oth
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|AddListMembersList|<xref href="Microsoft.Dynamics.CRM.AddListMembersList?text=AddListMembersList Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddListMembersListRequest>|
-|AddMemberList|<xref href="Microsoft.Dynamics.CRM.AddMemberList?text=AddMemberList Action" />|<xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>|
-|Assign|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CopyDynamicListToStatic|<xref href="Microsoft.Dynamics.CRM.CopyDynamicListToStatic?text=CopyDynamicListToStatic Action" />|<xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>|
-|CopyMembersList|<xref href="Microsoft.Dynamics.CRM.CopyMembersList?text=CopyMembersList Action" />|<xref:Microsoft.Crm.Sdk.Messages.CopyMembersListRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/lists<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateActivitiesList|<xref href="Microsoft.Dynamics.CRM.CreateActivitiesList?text=CreateActivitiesList Action" />|<xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|QualifyMemberList|<xref href="Microsoft.Dynamics.CRM.QualifyMemberList?text=QualifyMemberList Action" />|<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
-|RemoveMemberList|<xref href="Microsoft.Dynamics.CRM.RemoveMemberList?text=RemoveMemberList Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/lists<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/lists(*listid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|AddListMembersList|<xref:Microsoft.Crm.Sdk.Messages.AddListMembersListRequest>|
+|AddMemberList|<xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|CopyDynamicListToStatic|<xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>|
+|CopyMembersList|<xref:Microsoft.Crm.Sdk.Messages.CopyMembersListRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateActivitiesList|<xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|QualifyMemberList|<xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>|
+|RemoveMemberList|<xref:Microsoft.Crm.Sdk.Messages.RemoveMemberListRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -124,13 +122,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### CreatedFromCode Options
+#### CreatedFromCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Account|
-|2|Contact|
-|4|Lead|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Account||
+|2|Contact||
+|4|Lead||
 
 
 
@@ -162,14 +160,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### DoNotSendOnOptOut Options
+#### DoNotSendOnOptOut Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -185,14 +183,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IgnoreInactiveListMembers Options
+#### IgnoreInactiveListMembers Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -271,14 +269,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LockStatus Options
+#### LockStatus Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -427,7 +425,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -448,7 +446,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -469,7 +467,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -513,7 +511,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -537,14 +535,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### Type Options
+#### Type Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Dynamic|
-|0|Static|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Dynamic||
+|0|Static||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -971,7 +969,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [List_SyncErrors](syncerror.md#BKMK_List_SyncErrors) Many-To-One relationship.
+Same as the [List_SyncErrors](syncerror.md#BKMK_List_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -988,7 +986,7 @@ Same as syncerror entity [List_SyncErrors](syncerror.md#BKMK_List_SyncErrors) Ma
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [List_DuplicateMatchingRecord](duplicaterecord.md#BKMK_List_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [List_DuplicateMatchingRecord](duplicaterecord.md#BKMK_List_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1005,7 +1003,7 @@ Same as duplicaterecord entity [List_DuplicateMatchingRecord](duplicaterecord.md
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord entity [List_DuplicateBaseRecord](duplicaterecord.md#BKMK_List_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [List_DuplicateBaseRecord](duplicaterecord.md#BKMK_List_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1022,7 +1020,7 @@ Same as duplicaterecord entity [List_DuplicateBaseRecord](duplicaterecord.md#BKM
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [List_AsyncOperations](asyncoperation.md#BKMK_List_AsyncOperations) Many-To-One relationship.
+Same as the [List_AsyncOperations](asyncoperation.md#BKMK_List_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1039,7 +1037,7 @@ Same as asyncoperation entity [List_AsyncOperations](asyncoperation.md#BKMK_List
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [list_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_list_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [list_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_list_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1056,7 +1054,7 @@ Same as mailboxtrackingfolder entity [list_MailboxTrackingFolders](mailboxtracki
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [List_ProcessSessions](processsession.md#BKMK_List_ProcessSessions) Many-To-One relationship.
+Same as the [List_ProcessSessions](processsession.md#BKMK_List_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1073,7 +1071,7 @@ Same as processsession entity [List_ProcessSessions](processsession.md#BKMK_List
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [List_BulkDeleteFailures](bulkdeletefailure.md#BKMK_List_BulkDeleteFailures) Many-To-One relationship.
+Same as the [List_BulkDeleteFailures](bulkdeletefailure.md#BKMK_List_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1090,7 +1088,7 @@ Same as bulkdeletefailure entity [List_BulkDeleteFailures](bulkdeletefailure.md#
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [list_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_list_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [list_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_list_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1107,7 +1105,7 @@ Same as principalobjectattributeaccess entity [list_principalobjectattributeacce
 
 **Added by**: System Solution Solution
 
-Same as connection entity [list_connections1](connection.md#BKMK_list_connections1) Many-To-One relationship.
+Same as the [list_connections1](connection.md#BKMK_list_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1124,7 +1122,7 @@ Same as connection entity [list_connections1](connection.md#BKMK_list_connection
 
 **Added by**: System Solution Solution
 
-Same as connection entity [list_connections2](connection.md#BKMK_list_connections2) Many-To-One relationship.
+Same as the [list_connections2](connection.md#BKMK_list_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1141,7 +1139,7 @@ Same as connection entity [list_connections2](connection.md#BKMK_list_connection
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [List_Annotation](annotation.md#BKMK_List_Annotation) Many-To-One relationship.
+Same as the [List_Annotation](annotation.md#BKMK_List_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1156,7 +1154,7 @@ Same as annotation entity [List_Annotation](annotation.md#BKMK_List_Annotation) 
 
 ### <a name="BKMK_List_BulkOperations"></a> List_BulkOperations
 
-Same as bulkoperation entity [List_BulkOperations](bulkoperation.md#BKMK_List_BulkOperations) Many-To-One relationship.
+Same as the [List_BulkOperations](bulkoperation.md#BKMK_List_BulkOperations) many-to-one relationship for the [bulkoperation](bulkoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1189,55 +1187,55 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_list_createdby](systemuser.md#BKMK_lk_list_createdby) One-To-Many relationship.
+See the [lk_list_createdby](systemuser.md#BKMK_lk_list_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_list_createdonbehalfby"></a> lk_list_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_list_createdonbehalfby](systemuser.md#BKMK_lk_list_createdonbehalfby) One-To-Many relationship.
+See the [lk_list_createdonbehalfby](systemuser.md#BKMK_lk_list_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_list_modifiedby"></a> lk_list_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_list_modifiedby](systemuser.md#BKMK_lk_list_modifiedby) One-To-Many relationship.
+See the [lk_list_modifiedby](systemuser.md#BKMK_lk_list_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_list_modifiedonbehalfby"></a> lk_list_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_list_modifiedonbehalfby](systemuser.md#BKMK_lk_list_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_list_modifiedonbehalfby](systemuser.md#BKMK_lk_list_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_user_list"></a> user_list
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [user_list](systemuser.md#BKMK_user_list) One-To-Many relationship.
+See the [user_list](systemuser.md#BKMK_user_list) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_list"></a> team_list
 
 **Added by**: System Solution Solution
 
-See team Entity [team_list](team.md#BKMK_team_list) One-To-Many relationship.
+See the [team_list](team.md#BKMK_team_list) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_business_unit_list"></a> business_unit_list
 
 **Added by**: System Solution Solution
 
-See businessunit Entity [business_unit_list](businessunit.md#BKMK_business_unit_list) One-To-Many relationship.
+See the [business_unit_list](businessunit.md#BKMK_business_unit_list) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_processstage_lists"></a> processstage_lists
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_lists](processstage.md#BKMK_processstage_lists) One-To-Many relationship.
+See the [processstage_lists](processstage.md#BKMK_processstage_lists) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_transactioncurrency_list"></a> transactioncurrency_list
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_list](transactioncurrency.md#BKMK_transactioncurrency_list) One-To-Many relationship.
+See the [transactioncurrency_list](transactioncurrency.md#BKMK_transactioncurrency_list) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -1253,12 +1251,12 @@ Relationship details provided where the List entity is the first entity in the r
 
 ### <a name="BKMK_campaignactivitylist_association"></a> campaignactivitylist_association
 
-See campaignactivity Entity [campaignactivitylist_association](campaignactivity.md#BKMK_campaignactivitylist_association) Many-To-Many Relationship.
+See the [campaignactivitylist_association](campaignactivity.md#BKMK_campaignactivitylist_association) many-to-many relationship for the [campaignactivity](campaignactivity.md) entity.
 
 ### <a name="BKMK_listaccount_association"></a> listaccount_association
 
 IntersectEntityName: listmember<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -1268,7 +1266,7 @@ IntersectEntityName: listmember<br />
 |NavigationPropertyName|listaccount_association|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Marketing<br />Label: <br />Order: 10|
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -1280,12 +1278,12 @@ IntersectEntityName: listmember<br />
 
 ### <a name="BKMK_campaignlist_association"></a> campaignlist_association
 
-See campaign Entity [campaignlist_association](campaign.md#BKMK_campaignlist_association) Many-To-Many Relationship.
+See the [campaignlist_association](campaign.md#BKMK_campaignlist_association) many-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_listlead_association"></a> listlead_association
 
 IntersectEntityName: listmember<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -1295,7 +1293,7 @@ IntersectEntityName: listmember<br />
 |NavigationPropertyName|listlead_association|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Marketing<br />Label: <br />Order: 10|
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -1308,7 +1306,7 @@ IntersectEntityName: listmember<br />
 ### <a name="BKMK_listcontact_association"></a> listcontact_association
 
 IntersectEntityName: listmember<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -1318,7 +1316,7 @@ IntersectEntityName: listmember<br />
 |NavigationPropertyName|listcontact_association|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Marketing<br />Label: <br />Order: 10|
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -1331,8 +1329,4 @@ IntersectEntityName: listmember<br />
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.list?text=list EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

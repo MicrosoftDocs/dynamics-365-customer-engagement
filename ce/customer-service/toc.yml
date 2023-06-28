@@ -1,9 +1,35 @@
-- name: Dynamics 365 Customer Service
+- name: Dynamics 365 Customer Service documentation
   items: 
-  - name: Dynamics 365 Customer Service
-    href: help-hub.md
-  - name: Introduction
+  - name: Dynamics 365 Customer Service documentation
+    href: index.yml
+  - name: Welcome to Dynamics 365 Customer Service
     href: overview.md
+  - name: Get started
+    items:
+    - name: Use Customer Service workspace
+      href: csw-overview.md
+    - name: Use Customer Service Team Member
+      href: customer-service-team-member.md
+    - name: Use Customer Service admin center
+      href: cs-admin-center.md
+    - name: Omnichannel admin center
+      href: oc-admin-center.md
+    - name: Customer Service Hub
+      href: customer-service-hub-user-guide-basics.md
+    - name: Configure Customer Service
+      href: configure-cs.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
+    - name: Omnichannel for Customer Service
+      items: 
+      - name: Omnichannel for Customer Service
+        href: introduction-omnichannel.md
+      - name: Demo data for Chat for Dynamics 365 Customer Service
+        href: chat-dynamics365-customer-service-demo-data.md
+      - name: Quickly configure a chat widget
+        href: configure-live-chat.md
+    - name: Get started with Customer Service
+      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: Release plans
     href: whats-new-customer-service.md
   - name: Sign up for a free Customer Service trial
@@ -36,6 +62,8 @@
       href: customer-service-workspace-system-requirements.md
     - name: System requirements for Omnichannel for Customer Service
       href: system-requirements-omnichannel.md
+    - name: Service quotas
+      href: service-quotas.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -47,7 +75,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: https://docs.microsoft.com/dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/privacy/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -72,48 +100,44 @@
       href: try-channels.md
     - name: Provide consent to access data
       href: data-access-consent.md
-  - name: Get started
-    items: 
-    - name: Get started with Customer Service
-      href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
-    - name: Configure Customer Service
-      href: configure-cs.md
-    - name: Customer Service admin center
-      href: cs-admin-center.md
-    - name: Omnichannel admin center
-      href: oc-admin-center.md
-    - name: Customer Service Hub
-      href: customer-service-hub-user-guide-basics.md
-    - name: Customer Service workspace
-      href: csw-overview.md
-    - name: Use Customer Service Team Member
-      href: customer-service-team-member.md
-    - name: Omnichannel Administration
-      href: omnichannel-administrator.md  
-    - name: Omnichannel for Customer Service
-      items: 
-      - name: Omnichannel for Customer Service
-        href: introduction-omnichannel.md
-      - name: Demo data for Chat for Dynamics 365 Customer Service
-        href: chat-dynamics365-customer-service-demo-data.md
-      - name: Quickly configure a chat widget
-        href: configure-live-chat.md
   - name: User management
     items: 
     - name: Overview of user management
       href: overview-users.md
     - name: Create users and assign security roles
-      href: /power-platform/admin/create-users-assign-online-security-roles
+      href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/customer-service-context
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-  - name: App profile manager for Customer Service
+    - name: Manage users
+      href: users-user-profiles.md
+    - name: Manage capacity profiles
+      href: capacity-profiles.md
+    - name: Delete historical data of agent capacity updates
+      href: manage-historical-data-capacity-updates.md
+    - name: Manage personas and custom security roles
+      href: role-persona-mapping.md
+    - name: Personas and privileges
+      href: persona-privilege-mapping.md  
+  - name: Agent experience profiles for Customer Service
     items: 
-    - name: Overview of app profile manager
+    - name: Overview of agent experience profiles
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
-      href: ../app-profile-manager/app-profile-manager.md
+      href: ../app-profile-manager/create-agent-experience-profile.md
+    - name: Add users to agent experience profiles
+      href: ../app-profile-manager/add-profile-default.md
+    - name: Configure the inbox for agents
+      href: configure-inbox.md     
+    - name: Configure the agent calendar view
+      href: configure-agent-calendar.md  
+    - name: App profile manager
+      items:
+       - name: Experience for accessing templates and productivity tools
+         href: ../app-profile-manager/create-app-profiles-powerapps.md 
+       - name: Create and use app profiles, inbox in Power Apps
+         href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
     - name: Templates
@@ -136,78 +160,10 @@
         href: ../app-profile-manager/agent-scripts.md
       - name: Manage macros
         href: ../app-profile-manager/macros.md
-      - name: Automation dictionary to pass parameters
+      - name: Manage custom productivity tools
+        href: manage-custom-productivity-tools.md
+      - name: Use automation dictionary to pass parameters keys
         href: ../app-profile-manager/automation-dictionary-keys.md
-    - name: Developer experience
-      items:
-      - name: App profile manager JavaScript API reference
-        items:
-        - name: Overview       
-          href: ../app-profile-manager/reference/microsoft-apm.md
-        - name: Session management
-          items:
-          - name: Methods
-            items:       
-            - name: getFocusedSession
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
-            - name: getAllSessions
-              href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
-            - name: getSession
-              href: ../app-profile-manager/reference/microsoft-apm/getSession.md
-            - name: createSession
-              href: ../app-profile-manager/reference/microsoft-apm/createSession.md
-            - name: canCreateSession
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
-            - name: close
-              href: ../app-profile-manager/reference/microsoft-apm/close.md
-            - name: focus
-              href: ../app-profile-manager/reference/microsoft-apm/focus.md
-            - name: requestFocus
-              href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
-          - name: Properties
-            items:                           
-            - name: sessionID
-              href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
-            - name: isDefault
-              href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
-            - name: canClose
-              href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
-            - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
-        - name: Tab management
-          items:
-          - name: Methods              
-            items: 
-            - name: getFocusedTab
-              href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
-            - name: getAllTabs
-              href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
-            - name: getTab
-              href: ../app-profile-manager/reference/microsoft-apm/getTab.md
-            - name: createTab
-              href: ../app-profile-manager/reference/microsoft-apm/createTab.md
-            - name: canCreateTab
-              href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
-            - name: closeTab
-              href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
-            - name: focusTab
-              href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
-            - name: refreshTab             
-              href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
-          - name: Properties
-            items:       
-            - name: tabID
-              href: ../app-profile-manager/reference/microsoft-apm/tabID.md
-            - name: canClose
-              href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
-            - name: title
-              href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
-        - name: Context management    
-          items:                
-          - name: updateContext
-            href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
-    - name: Readme
-      href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Community
     items: 
     - name: Overview of Community
@@ -236,16 +192,24 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Manage queues for unified routing
+      - name: Create and manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
-        href: configure-work-classification.md
+        items:  
+        - name: Configure work classification rules
+          href: configure-work-classification.md
+        - name: Configure route-to-queue rules
+          href: configure-route-to-queue-rules.md
       - name: Assignment methods for queues
         items:  
         - name: Assignment methods in unified routing
           href: assignment-methods.md
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
+        - name: Configure routing to preferred agents
+          href: configure-preferred-agent.md
+        - name: Manage overflow of work items in queues
+          href: manage-overflow.md
       - name: Set up record routing
         items:
         - name: Provision unified routing for Customer Service
@@ -256,6 +220,8 @@
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
+        - name: Set up unified routing for email records
+          href: configure-routing-for-email-records.md
       - name: Set up skill-based routing
         items: 
         - name: Overview of skill-based routing
@@ -266,6 +232,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+        - name: Model data tables as skills
+          href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
         href: use-sentiment-prediction-for-routing.md
       - name: Use effort estimation model for routing
@@ -276,18 +244,12 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-      - name: Configure users for unified routing
-        items:
-        - name: Manage users
-          href: users-user-profiles.md
-        - name: Manage capacity profiles
-          href: capacity-profiles.md
-        - name: Manage personas and custom security roles
-          href: role-persona-mapping.md
-        - name: Personas and privileges
-          href: persona-privilege-mapping.md
-      - name: Diagnostics for unified routing
+      - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
+      - name: Manage routing diagnostics data
+        href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
     - name: Supervisor experience
       items:
       - name: View historical analytics reports
@@ -306,7 +268,7 @@
         href: manage-skills.md
     - name: Developer experience
       items: 
-      - name: How unified routing affects queue items and their APIs
+      - name: Understand how unified routing affects queue items and live work items for routed records
         href: unified-routing-impact-on-APIs.md
       - name: Add a skill control for routed records
         href: add-skill-control.md
@@ -320,29 +282,45 @@
       href: overview-cases.md
     - name: Administrator experience
       items: 
+      - name: Define status reason transitions for case management
+        href: define-status-reason-transitions-case-management.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
-      - name: Configure AI suggestions for contacts in Microsoft Teams
-        href: configure-teams-collaboration.md
       - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
+      - name: Enable case grids
+        href: enable-case-grids.md
+      - name: Use Power Apps to customize the case management experience
+        href: add-enhanced-case-management.md
+      - name: Configure components to display customer details and recent records
+        href: add-display-components-to-case-form.md
+      - name: Configure components to display case associations
+        href: add-associated-grid-control.md 
+      - name: Enable enhanced case forms for multisession apps
+        href: case-enh-config.md    
+      - name: Use Attachment Control to customize forms
+        href: add-attachment-control.md
+      - name: Use the Due open activities control to customize forms
+        href: add-due-open-activities.md                            
     - name: Agent experience
       items: 
       - name: Create cases
         href: customer-service-hub-user-guide-create-a-case.md
+      - name: Use enhanced case forms to manage cases
+        href: enh-casemgmt-csw.md        
       - name: Resolve, cancel, and reassign cases
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: View, block, or deactivate a social profile
-        href: view-block-deactivate-social-profile.md
+      - name: Manage cases with case grids
+        href: case-grids.md
+      - name: View a social profile
+        href: view-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-      - name: Collaborate with AI-suggested contacts in Microsoft Teams
-        href: use-ai-suggested-contacts-teams.md
-      - name: View AI suggested similar cases and knowledge articles
+      - name: View AI-suggested similar cases and knowledge articles
         href: csw-view-ai-suggested-cases-knowledge-articles.md
       - name: Manage cases using interactive dashboards
         href: customer-service-hub-user-guide-dashboard.md
@@ -358,29 +336,21 @@
         href: remove-validation-contact.md
   - name: Automatically create or update records
     items: 
-    - name: Automatically create or update records in Customer Service Hub
+    - name: Automatically create or update records
       href: automatically-create-update-records.md
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
   - name: Service-level agreements
-    items: 
+    items:
+    - name: Overview of service-level agreements
+      href: overview-service-level-agreements.md 
     - name: Administrator experience
       items: 
-      - name: Define service-level agreements
-        href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Recalculate SLAs in terminal status
-        href: enable-sla-recalculation.md
-      - name: Create entitlements to define support terms
-        href: create-entitlement-define-support-terms-customer.md
-      - name: Use entitlement templates to set up entitlements  
-        href: set-up-entitlements-templates.md
-      - name: Manage service configuration settings
-        href: ../admin/system-settings-dialog-box-service-tab.md
-      - name: Manage service schedules
+      - name: Manage customer service schedules
         items: 
         - name: Create customer service schedules
           href: create-customer-service-schedule-define-work-hours.md
@@ -388,89 +358,179 @@
           href: set-up-holiday-schedule.md
         - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
+      - name: Configure service-level agreements
+        href: define-service-level-agreements.md
+      - name: Apply service-level agreements
+        href: apply-slas.md
       - name: Add timer control for SLA-enabled entities
         href: add-timer-control-case-form-track-time-against-sla.md
+      - name: Export and import a solution with SLAs
+        href: export-import-solution.md
+      - name: Manage service configuration settings
+        href: ../admin/system-settings-dialog-box-service-tab.md
+      - name: Calculate SLA KPIs
+        items:
+        - name: Recalculate SLAs in terminal status
+          href: enable-sla-recalculation.md
+        - name: Enable custom time calculation of SLA KPIs
+          href: enable-sla-custom-time-calculation.md
+        - name: Enable custom recalculation of SLA KPIs
+          href: enable-sla-force-recalculation.md  
+      - name: Create entitlements to define support terms
+        href: create-entitlement-define-support-terms-customer.md
+      - name: Use entitlement templates to set up entitlements  
+        href: set-up-entitlements-templates.md
+      - name: SLA limitations
+        href: sla-limitations.md
+      - name: Migrate SLAs
+        href: migrate-slas.md
+      - name: Create standard SLAs
+        href: create-standard-sla.md
+      - name: Create enhanced SLAs
+        href: create-enhanced-sla.md
       - name: Add a timer in forms to track time against enhanced SLAs
         href: add-timer-forms-track-time-against-enhanced-sla.md
     - name: Agent experience
       items: 
-      - name: Manage case SLAs
+      - name: Understand SLAs
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
-    - name: Use email
-      href: /powerapps/user/view-create-email
-    - name: Email templates
-      items: 
-      - name: Create an email template
-        href: /powerapps/user/email-template-create
-      - name: Insert an email template
-        href: /powerapps/user/insert-email-template
-      - name: Convert an email to a template
-        href: /powerapps/user/email-template-convert
-      - name: Create a signature for emails
-        href: /powerapps/user/email-signature.md
-    - name: Email FAQs and known issues
-      href: /powerapps/user/activities-known-issues
     - name: Administrator experience
       items: 
       - name: Configure email
         href: customer-service-hub-user-guide-email-admin.md
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
+      - name: Configure the enhanced insert email template dialog
+        href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Configure the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
+      - name: Configure a default signature template for a queue
+        href: add-signature-template-queue.md  
+    - name: Agent experience
+      items:
+      - name: Use email
+        href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: View, compose, and respond to emails
+        href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context               
+      - name: Attach a file to email
+        href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
+      - name: Use the rich text editor toolbar in email
+        href: /power-apps/user/email-rich-text-editor?context=/dynamics365/context/customer-service-context
+      - name: Send email to multiple recipients
+        href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
+      - name: Resolve an unresolved email recipient
+        href: /power-apps/user/unresolved-email-recipient?context=/dynamics365/context/customer-service-context
+      - name: Email templates
+        items: 
+        - name: Create an email template
+          href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
+        - name: Insert an email template
+          href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Personalize emails with dynamic text
+          href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
+        - name: Customize an email template using the template editor
+          href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
+        - name: Convert an email to a template
+          href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
+        - name: Create a signature for emails
+          href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
+      - name: Email FAQ and known issues
+        href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
     - name: Configure timeline
       href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
     - name: Use timeline
       href: /powerapps/user/add-activities
-    - name: FAQs about Activities and the Timeline Wall
+    - name: FAQ about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
-    items: 
+    items:
+    - name: Overview of knowledge management 
+      href: overview-knowledge-management.md
     - name: Administrator experience
       items:
       - name: Configure knowledge management 
         href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
-      - name: Set up knowledge search providers
+      - name: Set up external knowledge search providers
         href: set-up-search-providers.md
-      - name: Configure knowledge article search filters
+      - name: Add integrated search providers
+        items:
+        - name: Manage integrated search providers
+          href: add-search-provider.md
+        - name: Configure knowledge article schema mapping
+          href: int-data-mapping.md
+        - name: View and use insights for search providers
+          href: view-and-use-insights.md
+        - name: Schema details to build a metadata mapping template
+          href: int-search-metadata-schema.md
+      - name: Customize knowledge article search filters
         href: enable-knowledge-article-search-filters.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management with Power Virtual Agents
+      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
         href: integrate-KM-with-PVA.md
-      - name: Configure the origin allow list for knowledge articles
+      - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
-      - name: Configure knowledge search control on app side pane for an entity record (preview)
+      - name: Configure knowledge search control on app side pane for an entity record
         href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
-      - name: Configure the knowledge article authoring language
-        href: set-knowledge-article-authoring-language.md
+      - name: Understand the knowledge article creation process
+        href: ka-process.md
       - name: Create and manage knowledge articles 
         href: customer-service-hub-user-guide-knowledge-article.md
-      - name: Create knowledge article templates in Customer Service
+      - name: Configure the knowledge article authoring language
+        href: set-knowledge-article-authoring-language.md
+      - name: Review knowledge articles 
+        href: review-ka.md
+      - name: Publish knowledge articles 
+        href: publish-ka.md
+      - name: Create and manage article versions
+        href: ka-versions.md
+      - name: Translate knowledge articles 
+        href: translate-ka.md
+      - name: Manage feedback for knowledge articles
+        href: feedback-sla.md 
+      - name: Create templates for knowledge articles
         href: create-templates-knowledge-article.md
+      - name: Prevent duplicate workflows with knowledge article operations
+        href: dup-workflows-ka.md
+      - name: Knowledge article analytics
+        href: dashboards-ka.md
     - name: Agent experience
       items:
-      - name: Search for and share knowledge articles in Omnichannel for Customer Service
-        href: oc-search-knowledge-articles.md 
-      - name: Search for knowledge articles in Customer Service workspace
-        href: csw-search-knowledge-articles.md
-      - name: Search for knowledge articles in Customer Service Hub
+      - name: Search knowledge articles
         href: search-knowledge-articles-csh.md
+      - name: Email a knowledge article
+        href: email-articles.md
+      - name: Link and unlink knowledge articles
+        href: link-articles.md
+      - name: Filter knowledge articles
+        href: filter-articles.md
+      - name: Submit ratings and feedback for knowledge articles
+        href: submit-feedback.md
+      - name: Convert a case to a knowledge article
+        href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+      - name: Understand how search works in knowledge management
+        href: search-operators.md
+    - name: Self-service experience
+      items:
+      - name: Search the knowledge base on portals
+        href: knowledge-base-search-methods.md
     - name: Customization experience
       items: 
-      - name: Knowledge base search
-        href: knowledge-base-search-methods.md
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
-      - name: Configure faceted search results web template from your portal (preview) 
+      - name: Add a knowledge article rich text editor control to a form
+        href: rich-text-editor-ka.md
+      - name: Configure faceted search results web template from your portal 
         href: configure-faceted-search-results.md
     - name: Developer experience
       items:
@@ -478,92 +538,146 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-  - name: Microsoft Teams chat for enterprise collaboration
+      - name: Transform, map external source data to knowledge fields
+        href: create-a-conversion-plugin.md        
+  - name: Microsoft Teams for collaboration
     items:
+    - name: Introduction to collaboration
+      href: collaboration.md
     - name: Administrator experience
       items: 
-      - name: Configure Teams chat
+      - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
-      - name: Configure AI suggestions for contacts in Microsoft Teams
+      - name: Enable Teams meetings in Customer Service apps
+        href: configure-teams-meetings.md
+      - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure auto-summarization of conversations
+        href: cs-enable-ai-generated-summary.md
+      - name: Configure customer support swarming
+        href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
-      - name: Use Teams chat
+      - name: Use Microsoft Teams chat
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
+      - name: Use Teams meetings
+        href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: Use auto-summarization for ongoing conversations
+        href: cs-ai-generated-summary.md
+      - name: Use customer support swarming to resolve issues
+        href: use-customer-support-swarming.md
+      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+        items:
+        - name: Overview
+          href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
+        - name: Work with the Dynamics 365 app
+          items:
+          - name: Access the Dynamics 365 app through messaging extensions
+            href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Edit settings of the Dynamics 365 app
+            href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Share feedback
+            href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Share a record in Teams conversation
+            href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
+          - name: View and update record details
+            href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
+          - name: Add chat messages to Dynamics 365 as notes or tasks
+            href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
   - name: Voice
     items:
+    - name: Introduction to the voice channel
+      href: voice-channel.md
     - name: Administrator experience
       items:
-      - name: Introduction to the voice channel
-        href: voice-channel.md
       - name: Install the voice channel
-        href: voice-channel-install.md  
+        href: voice-channel-install.md 
+      - name: Use trial phone numbers
+        href: voice-channel-trial-phone-numbers.md   
       - name: Connect to Azure Communication Services
         items: 
-        - name: Overview
+        - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
-        - name: "Quickstart: Connect to a new Azure resource"
+        - name: "Quickstart: Connect using a new Azure resource"
           href: voice-channel-connect-new-resource.md
-        - name: "Advanced: Connect to an existing Azure resource"    
-          href: voice-channel-connect-existing-resource.md  
+        - name: "Advanced: Connect using an existing Azure resource"
+          href: voice-channel-connect-existing-resource.md 
+        - name: Sync from Azure Communication Services
+          href: voice-channel-sync-from-acs.md
+        - name: Disconnect from Azure Communication Services
+          href: voice-channel-disconnect-from-acs.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
-        href: voice-channel-route-queues.md      
+        href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Forward your Teams calls to digital contact center
+        href: voice-forward-calls.md
+      - name: Configure voicemail to manage inbound calls
+        href: voice-channel-voicemail.md
+      - name: Configure direct callback
+        href: voice-channel-direct-callback.md  
+      - name: Configure outbound and inbound profiles
+        href: configure-outbound-inbound-profiles.md  
       - name: Configure historical analytics for voice
-        href: cs-voice-historical-analytics.md
-      - name: Add Power Virtual Agents bot for voice
-        href: voice-channel-ivr-bots.md
-      - name: Integrate Azure bots for voice
-        href: configure-bot.md
+        href: cs-voice-historical-analytics.md  
+      - name: Configure Power Virtual Agents bots for voice
+        href: voice-channel-pva-bots.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
         href: voice-channel-survey.md
       - name: Block spam numbers
-        href: voice-channel-block-number.md        
-      - name: Handle call overflow for the voice queues
-        href: voice-channel-call-overflow.md
-      - name: Configure call recordings and transcripts
+        href: voice-channel-block-number.md
+      - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Enable consult with Microsoft Teams users
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
+      - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilanguage bot in Power Virtual Agents
-        href: set-up-multilanguage-pva-bot.md  
-      - name: Set up a multilanguage contact center
+      - name: Set up a multilingual bot in Power Virtual Agents
+        href: set-up-multilingual-pva-bot.md  
+      - name: Set up a multilingual contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate third-party IVR systems with voice channel
+      - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported regions and languages
+      - name: Supported cloud locations
         href: voice-channel-region-availability.md
-      - name: FAQs about the voice channel
-        href: voice-channel-faqs.md  
+      - name: Supported languages and locale codes
+        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
-      - name: Make and receive your first phone call
-        href: voice-channel-first-call.md
       - name: Call a customer
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: How to avoid call disconnection
+        href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+      - name: Manage voicemails
+        href: manage-voicemails.md
+      - name: Transfer calls and consult with other users
+        href: voice-channel-transfer-consult.md
       - name: View call recordings and transcripts
         href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md
+    - name: Emergency calling in the voice channel
+      href: voice-channel-emergency-calling.md
+    - name: Pricing scenarios for voice calling
+      href: voice-channel-pricing-scenarios.md  
+    - name: FAQ about the voice channel
+      href: voice-channel-faqs.md  
   - name: Chat
     items: 
     - name: Administrator experience
@@ -582,12 +696,16 @@
         href: persistent-chat.md
       - name: Configure reconnection to a previous chat session
         href: configure-reconnect-chat.md
+      - name: Understand disconnected chats
+        href: oc-conv-state-chat-disconnect.md   
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
         href: average-wait-time.md        
       - name: Delete a channel instance
         href: delete-channel.md
+      - name: Manage enhanced Active Conversation settings
+        href: add-customer-summary-settings.md
     - name: Agent experience
       items: 
       - name: Omnichannel for Customer Service for agents
@@ -602,7 +720,7 @@
         href: oc-notifications.md
       - name: View communication panel
         href: oc-conversation-control.md
-      - name: View customer summary
+      - name: View active conversations
         href: oc-customer-summary.md
       - name: Create a record
         href: oc-create-record.md
@@ -611,7 +729,7 @@
       - name: Take notes for conversation
         href: oc-take-notes.md
       - name: Understand conversation states
-        href: oc-conversation-state.md
+        href: oc-conversation-state.md     
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -630,15 +748,17 @@
         href: oc-search-transcipts.md
       - name: View conversation and session forms
         href: oc-view-activity-types.md
-      - name: View customer summary for an incoming conversation request
+      - name: View active conversation for an incoming conversation request
         href: oc-view-customer-summary-incoming-conversation-request.md
       - name: Real-time language translation of conversations
         href: oc-real-time-translation.md
-      - name: Use Markdown to format messages
+      - name: Markdown formats for agents
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
-      - name: Customize chat widgets using data tags
+      - name: Develop a custom live chat widget
+        href: develop-live-chat-widget.md
+      - name: Customize live chat widgets using data tags
         href: customize-chat-widget.md
       - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
@@ -646,7 +766,7 @@
         href: download-transcripts-bulk.md
       - name: Add a web resource for real-time translation
         href: add-web-resource-real-time-translation.md
-      - name: Enable third-party co-browse
+      - name: Enable third-party co-browse and screen sharing
         href: third-party-co-browse.md
       - name: Live chat widget telemetry
         href: live-chat-telemetry.md
@@ -670,12 +790,14 @@
       items: 
       - name: Overview
         href: omnichannel-customizer.md
-      - name: Customize customer summary form
+      - name: Customize active conversation form
         href: customize-customer-summary.md
       - name: Customize quick view forms
         href: customize-quick-view-form.md
       - name: Customize session forms
         href: customize-session-form.md
+      - name: Customizations supported by Conversation form and entity
+        href: supported-customizations.md  
   - name: Portals
     items: 
     - name: Embed a chat widget in a portal
@@ -688,6 +810,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
@@ -696,48 +820,52 @@
           href: configure-sms-channel-twilio.md
       - name: Set up social channels
         items: 
+        - name: Configure an Apple Messages for Business channel
+          href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
+        - name: Configure Google's Business Messages channel
+          href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a Twitter channel
-          href: configure-twitter-channel.md
         - name: Configure a WhatsApp channel
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
           href: configure-wechat-channel.md
-      - name: Set up Microsoft Teams
-        items: 
-        - name: Configure a Microsoft Teams channel
-          href: configure-microsoft-teams.md
-      - name: Set up a custom messaging channel
-        items: 
-        - name: Configure a custom messaging channel
-          href: configure-custom-channel.md
+      - name: Configure a Microsoft Teams channel
+        href: configure-microsoft-teams.md
+      - name: Configure a custom messaging channel
+        href: configure-custom-channel.md
     - name: Agent experience
       items: 
       - name: Use SMS channel
         href: sms-telesign-twilio.md
       - name: Use Facebook channel
         href: facebook.md
+      - name: Use Google's Business Messages channel
+        href: google-business-messages.md
       - name: Use WhatsApp channel
         href: whatsapp.md
-      - name: Use Teams channel
+      - name: Use Microsoft Teams channel
         href: teams-channel.md
       - name: Use WeChat channel
         href: wechat-channel.md
+      - name: View social profiles
+        href: supported-channels-social-profiles.md  
     - name: Developer experience
       items: 
-      - name: Bring your own custom messaging channel
+      - name: Integrate a custom messaging channel
         items: 
-        - name: "Bring your own custom messaging channel: Direct Line"
+        - name: Integrate your own custom channel using Direct Line
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: "Markdown formats: Direct Line"
+        - name: Markdown formats in custom channels that use Direct Line
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
+    - name: Preconfigured automated message triggers for asynchronous channels
+      href: preconfig-auto-message-triggers-async-channels.md  
   - name: Advanced settings for chat and channels
     items: 
     - name: Configure operating hours
@@ -750,14 +878,22 @@
       href: enable-file-attachments.md
     - name: Enable formatted messages
       href: enable-formatted-messages.md
+    - name: Manage context variables
+      href: manage-context-variables.md      
     - name: Configure pre-conversation surveys
       href: configure-pre-chat-survey.md
     - name: Configure post-conversation surveys
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure chat authentication settings
-      href: create-chat-auth-settings.md
+    - name: Manage authentication settings
+      items:
+      - name: Configure authentication settings for chat  
+        href: create-chat-auth-settings.md
+      - name: Configure authentication settings for Apple Messages for Business
+        href: create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business
+    - name: Configure payment profiles
+      href: configure-payment-profiles.md
     - name: Enable real-time translation of conversations
       href: enable-real-time-translation.md
     - name: Set up customer location detection
@@ -771,23 +907,35 @@
     - name: Configure outbound messages
       href: outbound-messaging.md
     - name: Configure data masking
-      href: data-masking-settings.md
+      href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
+    - name: Copilot in Customer Service
+      items:
+      - name: Configure Copilot in Customer Service
+        href: configure-copilot-features.md
+      - name: Configure copilot settings for custom case forms and custom apps
+        href: copilot-powerapps-settings.md
+      - name: Use copilot features
+        href: use-copilot-features.md
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md  
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
         href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
       - name: Create quick replies
         href: create-quick-replies.md
+      - name: Manage rich messages
+        href: create-rich-messages.md
       - name: Enable personal quick replies
         href: enable-personal-quick-replies.md
       - name: Enable transcripts
         href: enable-transcripts-messaging-channels.md
-      - name: Enable consult pane for agents
-        href: enable-consult.md  
       - name: Enable sound notifications
         href: enable-sound-notifications.md
       - name: Enable missed notifications
@@ -796,6 +944,8 @@
         href: enable-agent-reject-notifications.md
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
+      - name: Configure the agent calendar view
+        href: configure-agent-calendar.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
@@ -804,87 +954,125 @@
         href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
-      - name: View smart assist suggestions for agents configured using custom Azure bot
+      - name: View smart assist suggestions
         href: oc-smart-assist.md
+      - name: View the agent calendar 
+        href:  use-agent-calendar.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
+      - name: Rich messages in conversation control
+        href: rich-messages-conversation-control.md
     - name: Developer experience
       items: 
       - name: Build a smart assist bot
         href: smart-assist-bot.md
       - name: Implement custom scenario
         href: smart-assist-scenario.md
+      - name: Retrieve and format rich messages
+        href: developer/reference/methods/message-object.md
   - name: Bots
     items:
+    - name: Overview of bots
+      href: overview-bots.md
+    - name: Best practices for configuring bots
+      href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Manage your bots
+        href: manage-your-bots.md
+      - name: Configure context variables for bots
+        href: context-variables-for-bot.md      
+      - name: Configure Azure bots
+        items:
+        - name: Bot sessions and licensing
+          href: bot-session-licensing.md
+        - name: Integrate an Azure bot
+          href: configure-bot-azure.md
+        - name: Sample configuration
+          href: sample-config-azure-bot.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-      - name: Integrate an Azure bot
-        href: configure-bot.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
-      - name: Link customer and case when bot escalates or ends conversations
-        href: link-customer-case-when-bot-escalates.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable a bot to escalate and end conversation
+      - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
-      - name: Download attachments from Azure bot
+      - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Get user details on Teams from Azure bot
+      - name: Get Microsoft Teams user details from Azure bot
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-      - name: Download attachments from Power Virtual Agents bot
-        href: download-attachments-PVA-bot.md
-  - name: Insights
+      - name: Pass authentication token to bot during single sign-on in live chat
+        href: pass-auth-token-sso-live-chat.md
+  - name: Analytics dashboards and insights
     items: 
-    - name: Introduction to Customer Service Insights
+    - name: Introduction to analytics and insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability, language availability, and service limits for Customer Service Insights
+    - name: Supported regions and languages, and service limits for analytics and insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
-      items: 
-      - name: Configure Customer Service Insights
-        href: configure-customer-service-analytics-insights-csh.md
-      - name: Configure Customer Service historical analytics
-        href: configure-cs-historical-analytics-csh.md
+      items:
+      - name: Configure analytics and insights dashboards
+        href: configure-customer-service-analytics-insights-csh.md 
+      - name: Manage real-time analytics dashboards
+        items:
+        - name: Manage Omnichannel real-time analytics reports  
+          href: enable-realtime-analytics-dashboard-administrator.md
+        - name: Manage access to Ongoing Conversations dashboard
+          href: configure-ongoing-conversations-dashbaord.md
+        - name: Configure intraday insights
+          href: configure-intraday-dashboard-supervisor.md
+      - name: Enable supervisor access to manage conversations 
+        href: enable-monitor-assign-transfer-conv.md
+      - name: Manage historical analytics dashboards
+        items:
+        - name: Manage Customer Service historical analytics reports
+          href: configure-cs-historical-analytics-csh.md
+        - name: Manage Omnichannel historical analytics reports
+          href: oc-historical-analytics-reports.md
+        - name: Manage Knowledge analytics
+          href: enable-knowledge-search-insights.md
+        - name: Configure Customer Service analytics dashboards in Power BI
+          href: configure-customer-service-analytics-dashboard.md
+        - name: Configure Omnichannel Insights dashboards
+          href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Customize data models of historical and real-time analytics reports
+        href: model-customize-reports.md
+      - name: Configure forecasting
+        items:
+        - name: Configure case forecasting
+          href: configure-volume-forecasting.md
+        - name: Configure agent forecasting for conversation
+          href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md
-      - name: Configure Omnichannel historical analytics
-        href: oc-historical-analytics-reports.md
-      - name: Configure knowledge search insights
-        href: enable-knowledge-search-insights.md
       - name: Configure AI suggestions
         href: csw-enable-ai-suggested-cases-knowledge-articles.md
       - name: Configure AI suggestions for article keywords and descriptions
         href: configure-ai-suggested-article-keywords-description.md
-      - name: Configure Customer Service analytics dashboards in Power BI
-        href: configure-customer-service-analytics-dashboard.md
       - name: Configure AI topic clustering for conversation
         href: ai-topic-clustering-conversations.md
-      - name: Configure intraday insights
-        href: configure-intraday-dashboard-supervisor.md
-      - name: Customize KPIs for intraday insights
-        href: customize-kpis-intraday-insights.md
-      - name: Enable supervisor settings
-        items:
-        - name: Provide access to Ongoing Conversations dashboard
-          href: configure-ongoing-conversations-dashbaord.md
-        - name: Enable supervisors to monitor, assign, and transfer conversations
-          href: enable-monitor-assign-transfer-conv.md
       - name: Configure real-time customer sentiment
         href: enable-sentiment-analysis.md
-      - name: Configure Omnichannel Insights dashboards
-        href: configure-historical-sentiment-dashboard-supervisor.md
     - name: Supervisor experience
       items: 
-      - name: Historical analytics reports
+      - name: Use Omnichannel real-time analytics dashboards
+        items:
+        - name: Overview of Omnichannel real-time analytics reports
+          href: intro-realtime-analytics-dashboard.md
+        - name: Summary report
+          href: realtime-summary-dashboard.md
+        - name: Voice report
+          href: realtime-voice-dashboard.md
+        - name: Agents report
+          href: realtime-agents-analytics.md
+        - name: Ongoing Conversation report
+          href: realtime-ongoing.md
+      - name: Use Customer Service historical analytics dashboards
         items: 
-        - name: Dashboards overview
+        - name: Customer Service historical analytics dashboards
           href: customer-service-analytics-insights-csh.md
         - name: Summary dashboard
           href: summary-dashboard-cs.md
@@ -892,29 +1080,51 @@
           href: agent-dashboard-cs.md
         - name: Case Topics dashboard
           href: case-topics-dashboard-cs.md
-        - name: Historical analytics for unified routing in Customer Service
+        - name: Unified routing dashboard
           href: cs-historical-analytics-unified-routing.md
-        - name: Omnichannel conversation dashboard
+      - name: Use Omnichannel historical analytics dashboards
+        items: 
+        - name: Omnichannel for Customer Service dashboards
+          href: omnichannel-analytics-insights.md
+        - name: Omnichannel Summary dashboard
+          href: omnichannel-summary-dashboard.md
+        - name: Omnichannel Conversation dashboard
           href: oc-conversation-dashboard.md
         - name: Omnichannel Queue dashboard
           href: oc-queue-dashboard.md
+        - name: Omnichannel Voice dashboard
+          href: voice-channel-reports-analytics.md   
         - name: Omnichannel Agent dashboard
           href: agent-dashboard.md
         - name: Omnichannel Bot dashboard
-          href: oc-bot-dashboard.md
+          href: oc-bot-dashboard.md  
         - name: Omnichannel Conversation topic dashboard
           href: oc-conversation-topics-dashboard.md
-        - name: Historical analytics for unified routing in Omnichannel for Customer Service
-          href: oc-historical-analytics-unified-routing.md  
-      - name: Knowledge management analytics
+        - name: Omnichannel Voicemail dashboard
+          href: oc-voicemail-dashboard.md          
+        - name: Unified routing dashboard
+          href: oc-historical-analytics-unified-routing.md
+      - name: Use knowledge management analytics
         href: knowledge-search-analytics-cs.md
-      - name: View analytics dashboards created in Power BI
+      - name: Use Customer Service Analytics dashboards in Power BI
         href: customer-service-analytics.md
-      - name: Intraday supervisor experience
+      - name: Use Omnichannel Insights
+        items: 
+        - name: Introduction to Omnichannel Insights
+          href: intro-dynamics-365-omnichannel-insights-dashboard.md
+        - name: View and understand Omnichannel Insights dashboard
+          href: omnichannel-insights-dashboard.md  
+      - name: Monitor conversations
+        items: 
+          - name: Monitor, assign, transfer, and forcibly end conversations
+            href: monitor-conversations.md
+          - name: Monitor and analyze sentiments
+            href: supervisor-sentiment-monitoring.md
+      - name: Use Intraday analytics reports
         items: 
         - name: Introduction to intraday supervisor experience
           href: intro-intraday-insights-dashboard.md
-        - name: IntradayMonitoring report
+        - name: Intraday Monitoring report
           href: intraday-insights-dashboard.md
         - name: Agents insights report
           href: intraday-agents-insights.md
@@ -922,22 +1132,38 @@
           href: intraday-conversation-insights.md
         - name: Set idle time threshold
           href: set-idle-time-threshold.md
-        - name: View and understand Omnichannel Ongoing Conversations dashboard
-          href: ongoing-conversations-dashboard.md
-      - name: Omnichannel Insights
+      - name: View and understand Omnichannel Ongoing Conversations dashboard
+        href: ongoing-conversations-dashboard.md
+      - name: Use Omnichannel for Customer Service metrics
+        href: oc-metrics-dimensions.md
+      - name: Personalize analytics
         items: 
-        - name: Introduction to Omnichannel Insights
-          href: intro-dynamics-365-omnichannel-insights-dashboard.md
-        - name: View and understand Omnichannel Insights dashboard
-          href: omnichannel-insights-dashboard.md
-      - name: Monitor conversations
-        items: 
-        - name: Monitor, assign, and transfer conversations
-          href: monitor-conversations.md
-        - name: Monitor and analyze sentiments
-          href: supervisor-sentiment-monitoring.md
-    - name: Customize dashboards
+        - name: Manage report filters
+          href: report-filters-groups.md
+        - name: Manage report bookmarks
+          href: manage-bookmarks.md
+      - name: Forecast reports
+        items:
+        - name: Forecast agent, case, and conversation volumes
+          href: use-volume-forecasting.md
+    - name: Report author experience
+      items:
+      - name: Customize visual display
+        href: customize-reports.md
+      - name: Customize data models
+        items:
+        - name: Overview of data model customization
+          href: datamodel-overview.md
+        - name: Use the out-of-the-box data model in your custom reports
+          href: use-datamodel.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
+        - name: Data model mapping for real-time analytics reports
+          href: datamapping-realtime.md
+    - name: Customize analytics
       items: 
+      - name: Customize KPIs for intraday insights
+        href: customize-kpis-intraday-insights.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
@@ -956,6 +1182,8 @@
         href: set-when-business-closed-csh.md
       - name: Schedule entities
         items: 
+        - name: Create an entity for scheduling
+          href: entity-schedule-enable.md
         - name: Create bookable resources
           href: resources-service-scheduling.md
         - name: Add facilities and equipment
@@ -1004,9 +1232,9 @@
         href: create-edit-resource-group.md
       - name: Manage sites
         href: use-sites-manage-service-locations.md
-    - name: Service Scheduling FAQs
+    - name: Service Scheduling FAQ
       items:
-      - name: Service Scheduling FAQs
+      - name: Service Scheduling FAQ
         href: service-scheduling-faq.md
     - name: Developer experience
       items: 
@@ -1052,13 +1280,31 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      href: migrate-oc-to-csw.md
+    - name: Migrate configuration data for the record channel
+      items:
+      - name: Overview of data migration for records
+        href: migrate-config-data-for-records-overview.md
+      - name: Use FetchXML query to filter records
+        href: use-fetchxml-filter-records.md        
+      - name: Migrate configuration data for records
+        href: migrate-config-data-for-records.md        
+      - name: Verify migration of records
+        href: migrate-config-data-verify.md
+      - name: Troubleshoot migration of records  
+        href: migrate-config-data-troubleshoot.md
+    - name: Migrate configuration data for live chat
+      href: migrate-config-data-for-live-chat.md
+    - name: Migrate configuration data for the voice channel
+      href: migrate-config-data-for-voice-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new Omnichannel messaging platform
+    - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
@@ -1068,32 +1314,34 @@
         href: plan-migration.md
       - name: Migrate service scheduling
         href: migrate-entity-records.md
-    - name: Migration FAQs
+    - name: Migration FAQ
       items: 
-      - name: FAQs on Migration tool for automatic record creation rules and SLAs
+      - name: FAQ on migration from Omnichannel for Customer Service app
+        href: migrate-oc-faq.md
+      - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations
     items: 
     - name: Deprecations in Customer Service
       href: deprecations-customer-service.md
-  - name: Routing in Omnichannel Administration (Deprecated)
-    items:
-    - name: Routing and assignment in Omnichannel Administration
-      href: routing-work-distribution-oca.md
-    - name: Create and manage workstreams in Omnichannel Administration
-      href: create-workstreams-oca.md
-    - name: Create queues in Omnichannel Administration
-      href: Create-queues-oca.md
-    - name: Set up routing and assignment rules in Omnichannel Administration
-      href: routing-rules.md  
-    - name: Set up record routing in Omnichannel Administration
-      href: set-up-entity-workstream.md
-    - name: Create multiple workstreams for records in Omnichannel Administration
-      href: multiple-ws-entity-record-routing.md  
-    - name: Route records in Omnichannel Administration app
-      href: entity-channel.md
-    - name: Set up skill-based routing in Omnichannel Administration
-      href: attach-skills.md
+    - name: Routing in Omnichannel Administration
+      items:
+      - name: Routing and assignment in Omnichannel Administration
+        href: routing-work-distribution-oca.md
+      - name: Create and manage workstreams in Omnichannel Administration
+        href: create-workstreams-oca.md
+      - name: Create queues in Omnichannel Administration
+        href: Create-queues-oca.md
+      - name: Set up routing and assignment rules in Omnichannel Administration
+        href: routing-rules.md  
+      - name: Set up record routing in Omnichannel Administration
+        href: set-up-entity-workstream.md
+      - name: Create multiple workstreams for records in Omnichannel Administration
+        href: multiple-ws-entity-record-routing.md  
+      - name: Route records in Omnichannel Administration app
+        href: entity-channel.md
+      - name: Set up skill-based routing in Omnichannel Administration
+        href: attach-skills.md
   - name: Extend Customer Service
     items: 
     - name: Overview
@@ -1112,10 +1360,16 @@
         href: developer/reference/entities/msdyn_actioninputparameter.md
       - name: msdyn_actionoutputparameter
         href: developer/reference/entities/msdyn_actionoutputparameter.md
+      - name: msdyn_agentcapacityprofileunit
+        href: developer/reference/entities/msdyn_agentcapacityprofileunit.md         
+      - name: msdyn_agentcapacityupdatehistory
+        href: developer/reference/entities/msdyn_agentcapacityupdatehistory.md        
       - name: msdyn_agentscript
         href: developer/reference/entities/msdyn_agentscript.md
       - name: msdyn_agentscriptstep
         href: developer/reference/entities/msdyn_agentscriptstep.md
+      - name: msdyn_agentstatus
+        href: developer/reference/entities/msdyn_agentstatus.md         
       - name: msdyn_agentstatushistory
         href: developer/reference/entities/msdyn_agentstatushistory.md        
       - name: msdyn_analytics
@@ -1192,8 +1446,12 @@
         href: developer/reference/entities/msdyn_macrosolutionconfiguration.md
       - name: msdyn_oc_geolocationprovider
         href: developer/reference/entities/msdyn_oc_geolocationprovider.md
+      - name: msdyn_ocapplepay  
+        href: developer/reference/entities/msdyn_ocapplepay.md
       - name: msdyn_ocbotchannelregistration
         href: developer/reference/entities/msdyn_ocbotchannelregistration.md
+      - name: msdyn_ocbotchannelregistrationsecret
+        href: developer/reference/entities/msdyn_ocbotchannelregistrationsecret.md
       - name: msdyn_occhannelconfiguration
         href: developer/reference/entities/msdyn_occhannelconfiguration.md
       - name: msdyn_occhannelstateconfiguration
@@ -1204,10 +1462,16 @@
         href: developer/reference/entities/msdyn_occommunicationprovidersettingentry.md
       - name: msdyn_occustommessagingchannel
         href: developer/reference/entities/msdyn_occustommessagingchannel.md
+      - name: msdyn_ocexternalcontext
+        href: developer/reference/entities/msdyn_ocexternalcontext.md        
       - name: msdyn_ocfbapplication
         href: developer/reference/entities/msdyn_ocfbapplication.md
       - name: msdyn_ocfbpage
         href: developer/reference/entities/msdyn_ocfbpage.md
+      - name: msdyn_ocgooglebusinessmessagesagentaccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md
+      - name: msdyn_ocgooglebusinessmessagespartneraccount
+        href: developer/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md  
       - name: msdyn_oclanguage
         href: developer/reference/entities/msdyn_oclanguage.md
       - name: msdyn_oclinechannelconfig
@@ -1234,6 +1498,8 @@
         href: developer/reference/entities/msdyn_ocoutboundmessage.md
       - name: msdyn_ocphonenumber
         href: developer/reference/entities/msdyn_ocphonenumber.md
+      - name: msdyn_ocphonecallengagementctx
+        href: developer/reference/entities/msdyn_ocphonecallengagementctx.md
       - name: msdyn_ocprovisioningstate
         href: developer/reference/entities/msdyn_ocprovisioningstate.md
       - name: msdyn_ocrecording
@@ -1252,6 +1518,8 @@
         href: developer/reference/entities/msdyn_ocsession.md
       - name: msdyn_ocsessioncharacteristic
         href: developer/reference/entities/msdyn_ocsessioncharacteristic.md
+      - name: msdyn_ocsessionparticipantevent
+        href: developer/reference/entities/msdyn_ocsessionparticipantevent.md
       - name: msdyn_ocsessionsentiment
         href: developer/reference/entities/msdyn_ocsessionsentiment.md
       - name: msdyn_ocsimltraining
@@ -1268,10 +1536,12 @@
         href: developer/reference/entities/msdyn_octag.md
       - name: msdyn_octeamschannelconfig
         href: developer/reference/entities/msdyn_octeamschannelconfig.md
-      - name: msdyn_octwitterapplication
-        href: developer/reference/entities/msdyn_octwitterapplication.md
-      - name: msdyn_octwitterhandle
-        href: developer/reference/entities/msdyn_octwitterhandle.md
+      - name: msdyn_ocvoice
+        href: developer/reference/entities/msdyn_ocvoice.md
+      - name: msdyn_ocvoicechannellanguagesetting
+        href: developer/reference/entities/msdyn_ocvoicechannellanguagesetting.md
+      - name: msdyn_ocvoicechannelsetting
+        href: developer/reference/entities/msdyn_ocvoicechannelsetting.md
       - name: msdyn_ocwechatchannelconfig
         href: developer/reference/entities/msdyn_ocwechatchannelconfig.md
       - name: msdyn_ocwhatsappchannelaccount
@@ -1304,6 +1574,10 @@
         href: developer/reference/entities/msdyn_personalsoundsetting.md
       - name: msdyn_personasecurityrolemapping
         href: developer/reference/entities/msdyn_personasecurityrolemapping.md
+      - name: msdyn_preferredagent
+        href: developer/reference/entities/msdyn_preferredagent.md
+      - name: msdyn_preferredagentcustomeridentity
+        href: developer/reference/entities/msdyn_preferredagentcustomeridentity.md        
       - name: msdyn_presence
         href: developer/reference/entities/msdyn_presence.md
       - name: msdyn_productivitypaneconfiguration
@@ -1352,8 +1626,6 @@
         href: developer/reference/entities/msdyn_teamsengagementctx.md
       - name: msdyn_transcript
         href: developer/reference/entities/msdyn_transcript.md
-      - name: msdyn_twitterengagementctx
-        href: developer/reference/entities/msdyn_twitterengagementctx.md
       - name: msdyn_unifiedroutingdiagnostic
         href: developer/reference/entities/msdyn_unifiedroutingdiagnostic.md
       - name: msdyn_unifiedroutingrun
@@ -1378,7 +1650,7 @@
         href: developer/reference/entities/socialprofile.md
       - name: systemuser
         href: developer/reference/entities/systemuser.md
-    - name: Live chat JavaScript API Reference
+    - name: Live chat SDK Reference
       items: 
       - name: Overview
         href: developer/omnichannel-reference.md
@@ -1396,12 +1668,16 @@
           href: developer/reference/methods/getAuthTokenProvider.md
         - name: removeAuthTokenProvider
           href: developer/reference/methods/removeAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: developer/reference/methods/setBotAuthTokenProvider.md
         - name: startChat
           href: developer/reference/methods/startChat.md
         - name: startProactiveChat
           href: developer/reference/methods/startProactiveChat.md
         - name: closeChat
           href: developer/reference/methods/closeChat.md
+        - name: getAgentAvailability
+          href: developer/reference/methods/getAgentAvailability.md
       - name: Events
         items: 
         - name: "lcw:ready"
@@ -1426,6 +1702,8 @@
           href: developer/reference/events/lcw-onMessageReceived.md
         - name: "lcw:onMessageSent"
           href: developer/reference/events/lcw-onMessageSent.md
+        - name: "lcw:getAgentAvailability"
+          href: developer/reference/events/lcw-getAgentAvailability.md  
         - name: "lcw:error"
           href: developer/reference/events/lcw-error.md                    
       - name: Error code reference
@@ -1454,12 +1732,82 @@
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md 
+        - name: sendMessageToConversation
+          href: developer/reference/methods/sendMessageToConversation.md
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
       items: 
       - name: msdyn_ApplyRoutingRuleEntityRecord
         href: developer/reference/actions/msdyn_ApplyRoutingRuleEntityRecord.md
+    - name: App profile manager JavaScript API reference
+      items:
+      - name: Overview       
+        href: ../app-profile-manager/reference/microsoft-apm.md
+      - name: Session management
+        items:
+        - name: Methods
+          items:       
+          - name: getFocusedSession
+            href: ../app-profile-manager/reference/microsoft-apm/getFocusedSession.md
+          - name: getAllSessions
+            href: ../app-profile-manager/reference/microsoft-apm/getAllSessions.md
+          - name: getSession
+            href: ../app-profile-manager/reference/microsoft-apm/getSession.md
+          - name: createSession
+            href: ../app-profile-manager/reference/microsoft-apm/createSession.md
+          - name: canCreateSession
+            href: ../app-profile-manager/reference/microsoft-apm/canCreateSession.md
+          - name: close
+            href: ../app-profile-manager/reference/microsoft-apm/close.md
+          - name: focus
+            href: ../app-profile-manager/reference/microsoft-apm/focus.md
+          - name: requestFocus
+            href: ../app-profile-manager/reference/microsoft-apm/requestFocus.md
+        - name: Properties
+          items:                           
+          - name: sessionID
+            href: ../app-profile-manager/reference/microsoft-apm/sessionID.md
+          - name: isDefault
+            href: ../app-profile-manager/reference/microsoft-apm/isDefault.md  
+          - name: canClose
+            href: ../app-profile-manager/reference/microsoft-apm/canCloseSession.md
+          - name: title
+            href: ../app-profile-manager/reference/microsoft-apm/sessiontitle.md
+      - name: Tab management
+        items:
+        - name: Methods              
+          items: 
+          - name: getFocusedTab
+            href: ../app-profile-manager/reference/microsoft-apm/getFocusedTab.md
+          - name: getAllTabs
+            href: ../app-profile-manager/reference/microsoft-apm/getAllTabs.md
+          - name: getTab
+            href: ../app-profile-manager/reference/microsoft-apm/getTab.md
+          - name: createTab
+            href: ../app-profile-manager/reference/microsoft-apm/createTab.md
+          - name: canCreateTab
+            href: ../app-profile-manager/reference/microsoft-apm/canCreateTab.md
+          - name: closeTab
+            href: ../app-profile-manager/reference/microsoft-apm/closeTab.md
+          - name: focusTab
+            href: ../app-profile-manager/reference/microsoft-apm/focusTab.md
+          - name: refreshTab             
+            href: ../app-profile-manager/reference/microsoft-apm/refreshTab.md
+        - name: Properties
+          items:       
+          - name: tabID
+            href: ../app-profile-manager/reference/microsoft-apm/tabID.md
+          - name: canClose
+            href: ../app-profile-manager/reference/microsoft-apm/canCloseTab.md
+          - name: title
+            href: ../app-profile-manager/reference/microsoft-apm/tabtitle.md   
+          - name: Context management    
+            items:                
+            - name: updateContext
+              href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
+      - name: Readme
+        href: https://go.microsoft.com/fwlink/p/?linkid=2141982
   - name: Troubleshoot issues in Customer Service
     items: 
     - name: Issue converting an email to a case
@@ -1474,27 +1822,37 @@
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot issues using Solution Health Hub
       href: troubleshoot-using-solution-health-hub.md
-    - name: Troubleshoot channel issues
-      href: troubleshoot-omnichannel-customer-service.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
+    - name: Troubleshoot issues with integrated search providers
+      href: int-search-troubleshoot.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
-  - name: FAQs on Customer Service
+  - name: FAQ about Customer Service
     items: 
-    - name: FAQs on Customer Service admin center
+    - name: FAQ about Customer Service admin center
       href: faq-customer-service-admin-center.md
-    - name: FAQs on unified routing
+    - name: FAQ about unified routing
       href: unified-routing-faqs.md
-    - name: FAQs on AI suggestions for cases and knowledge articles
+    - name: FAQ on managing cases
+      href: faq-case-mgmt.md  
+    - name: FAQ about automatic record creation
+      href: arc-faqs.md        
+    - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
-    - name: FAQs on Omnichannel for Customer Service
+    - name: FAQ about Omnichannel for Customer Service
       href: faqs.md
+    - name: FAQ about custom time calculation of SLA KPIs
+      href: faqs-custom-time-sla-kpis.md
+    - name: FAQ about the voice channel
+      href: voice-channel-faqs.md  
+    - name: FAQ about adding users to agent experience profile
+      href: ../app-profile-manager/faq-agent-experience-profile.md      
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
-    href: https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk
+    href: /dynamics365/unified-service-desk/unified-service-desk
   - name: Dynamics 365 Channel Integration Framework Guide
-    href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+    href: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
   - name: Dynamics 365 Customer Service Insights
-    href: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
+    href: /dynamics365/ai/customer-service-insights/overview

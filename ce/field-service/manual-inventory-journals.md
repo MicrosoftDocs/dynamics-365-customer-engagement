@@ -1,20 +1,16 @@
 ---
-title: "Manual inventory journals in Dynamics 365 Field Service| MicrosoftDocs"
-description: Learn about manual inventory journals in Dynamics 365 Field Service
+title: Use manual inventory journals
+description: Learn about manual inventory journals in Dynamics 365 Field Service.
 ms.date: 3/14/2022
-ms.reviewer: krbjoran
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-search.app: 
-  - D365CE
-  - D365FS
+ms.author: jacoh
+author: jasonccohen
 ---
 
-# Manual inventory journals in Dynamics 365 Field Service
+# Use manual inventory journals
 
 In Dynamics 365 Field Service, organizations can track their product inventory. For any given warehouse and product, an organization can track **Available**, **On Hand**, **On Order**, and **Allocated** inventory.
 
@@ -100,12 +96,5 @@ Navigate to **Field Service > Warehouse > Product Inventory** to view inventory 
 - Inventory adjustments can be used to increment/decrement available inventory for a given warehouse. This is a field service-related process and only applies to adjusting available and on hand inventory. In contrast, manual inventory journals can edit any type of inventory levels; they're also more flexible and better suited for integration scenarios.
 - Both manual inventory journals and inventory adjustments products can have negative quantity values to decrement inventory.
 - Manual inventory journals are used to integrate Dynamics 365 Field Service and Finance & Operations. 
-
-
-
-### See also
-- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegration?tab=Overview)
-- [Configure Field Service and Finance & Operations integration](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

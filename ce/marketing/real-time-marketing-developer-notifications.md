@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Receiving notifications and creating interactions
@@ -136,7 +132,7 @@ Events are used for tracking notifications as follows:
 **Endpoint URL:**
 
 ```
-https://%s/api/v1.0/orgs/<orgId>/event/trackings/<trackingId>
+{PublicEndpoint}api/v1.0/orgs/<orgId>/pushchannel/event/trackings/<trackingId>
 ```
 
 - **OrgId:** This is the id for your organization, generated when you registered with Dynamics CRM.
@@ -339,3 +335,5 @@ AsyncTask.execute(new Runnable() {
             }
         });
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

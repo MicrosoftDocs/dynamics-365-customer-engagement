@@ -1,38 +1,36 @@
 ---
-title: "Category Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Category entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Category entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Category Entity Reference
+
+# Category entity reference
 
 Entity for categorizing records to make it easier for your customers to find them on portals and through search.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/categories(*categoryid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/categories<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/categories(*categoryid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/categories(*categoryid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/categories<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/categories(*categoryid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -608,7 +606,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_category_parent_category"></a> category_parent_category
 
-Same as category entity [category_parent_category](category.md#BKMK_category_parent_category) Many-To-One relationship.
+Same as the [category_parent_category](category.md#BKMK_category_parent_category) many-to-one relationship for the [category](category.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -623,7 +621,7 @@ Same as category entity [category_parent_category](category.md#BKMK_category_par
 
 ### <a name="BKMK_Category_SyncErrors"></a> Category_SyncErrors
 
-Same as syncerror entity [Category_SyncErrors](syncerror.md#BKMK_Category_SyncErrors) Many-To-One relationship.
+Same as the [Category_SyncErrors](syncerror.md#BKMK_Category_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -652,31 +650,31 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_category_parent_category"></a> category_parent_category
 
-See category Entity [category_parent_category](category.md#BKMK_category_parent_category) One-To-Many relationship.
+See the [category_parent_category](category.md#BKMK_category_parent_category) one-to-many relationship for the [category](category.md) entity.
 
 ### <a name="BKMK_lk_category_createdonbehalfby"></a> lk_category_createdonbehalfby
 
-See systemuser Entity [lk_category_createdonbehalfby](systemuser.md#BKMK_lk_category_createdonbehalfby) One-To-Many relationship.
+See the [lk_category_createdonbehalfby](systemuser.md#BKMK_lk_category_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_transactioncurrency_category"></a> transactioncurrency_category
 
-See transactioncurrency Entity [transactioncurrency_category](transactioncurrency.md#BKMK_transactioncurrency_category) One-To-Many relationship.
+See the [transactioncurrency_category](transactioncurrency.md#BKMK_transactioncurrency_category) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_lk_category_createdby"></a> lk_category_createdby
 
-See systemuser Entity [lk_category_createdby](systemuser.md#BKMK_lk_category_createdby) One-To-Many relationship.
+See the [lk_category_createdby](systemuser.md#BKMK_lk_category_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_category_modifiedonbehalfby"></a> lk_category_modifiedonbehalfby
 
-See systemuser Entity [lk_category_modifiedonbehalfby](systemuser.md#BKMK_lk_category_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_category_modifiedonbehalfby](systemuser.md#BKMK_lk_category_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_category_modifiedby"></a> lk_category_modifiedby
 
-See systemuser Entity [lk_category_modifiedby](systemuser.md#BKMK_lk_category_modifiedby) One-To-Many relationship.
+See the [lk_category_modifiedby](systemuser.md#BKMK_lk_category_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_business_unit_category"></a> business_unit_category
 
-See businessunit Entity [business_unit_category](businessunit.md#BKMK_business_unit_category) One-To-Many relationship.
+See the [business_unit_category](businessunit.md#BKMK_business_unit_category) one-to-many relationship for the [businessunit](businessunit.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -686,13 +684,9 @@ Relationship details provided where the Category entity is the first entity in t
 
 ### <a name="BKMK_knowledgearticle_category"></a> knowledgearticle_category
 
-See knowledgearticle Entity [knowledgearticle_category](knowledgearticle.md#BKMK_knowledgearticle_category) Many-To-Many Relationship.
+See the [knowledgearticle_category](knowledgearticle.md#BKMK_knowledgearticle_category) many-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.category?text=category EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

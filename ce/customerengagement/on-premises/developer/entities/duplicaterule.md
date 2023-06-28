@@ -1,43 +1,41 @@
 ---
-title: "DuplicateRule Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the DuplicateRule entity."
-ms.date: 04/02/2019
-
+title: "Duplicate Detection Rule (DuplicateRule)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Duplicate Detection Rule (DuplicateRule)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# DuplicateRule Entity Reference
+
+# Duplicate Detection Rule (DuplicateRule)  entity reference
 
 Rule used to identify potential duplicates.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/duplicaterules(*duplicateruleid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CompoundUpdateDuplicateDetectionRule|<xref href="Microsoft.Dynamics.CRM.CompoundUpdateDuplicateDetectionRule?text=CompoundUpdateDuplicateDetectionRule Action" />|<xref:Microsoft.Crm.Sdk.Messages.CompoundUpdateDuplicateDetectionRuleRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/duplicaterules<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/duplicaterules(*duplicateruleid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|PublishDuplicateRule|<xref href="Microsoft.Dynamics.CRM.PublishDuplicateRule?text=PublishDuplicateRule Action" />|<xref:Microsoft.Crm.Sdk.Messages.PublishDuplicateRuleRequest>|
-|PublishXml|<xref href="Microsoft.Dynamics.CRM.PublishXml?text=PublishXml Action" />|<xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/duplicaterules(*duplicateruleid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/duplicaterules<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|UnpublishDuplicateRule|<xref href="Microsoft.Dynamics.CRM.UnpublishDuplicateRule?text=UnpublishDuplicateRule Action" />|<xref:Microsoft.Crm.Sdk.Messages.UnpublishDuplicateRuleRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/duplicaterules(*duplicateruleid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|CompoundUpdateDuplicateDetectionRule|<xref:Microsoft.Crm.Sdk.Messages.CompoundUpdateDuplicateDetectionRuleRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|PublishDuplicateRule|<xref:Microsoft.Crm.Sdk.Messages.PublishDuplicateRuleRequest>|
+|PublishXml|<xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|UnpublishDuplicateRule|<xref:Microsoft.Crm.Sdk.Messages.UnpublishDuplicateRuleRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -132,14 +130,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### ExcludeInactiveRecords Options
+#### ExcludeInactiveRecords Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|True|
-|0|False|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|True||
+|0|False||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -155,14 +153,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsCaseSensitive Options
+#### IsCaseSensitive Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|True|
-|0|False|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|True||
+|0|False||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -239,7 +237,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -340,659 +338,411 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### BaseEntityTypeCode Options
+#### BaseEntityTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Account|
-|2|Contact|
-|3|Opportunity|
-|4|Lead|
-|5|Note|
-|6|Business Unit Map|
-|7|Owner|
-|8|User|
-|9|Team|
-|10|Business Unit|
-|14|System User Principal|
-|16|AccountLeads|
-|17|ContactInvoices|
-|18|ContactQuotes|
-|19|ContactOrders|
-|20|Service Contract Contact|
-|21|ProductSalesLiterature|
-|22|ContactLeads|
-|24|LeadCompetitors|
-|25|OpportunityCompetitors|
-|26|CompetitorSalesLiterature|
-|27|LeadProduct|
-|29|Subscription|
-|30|Filter Template|
-|31|Privilege Object Type Code|
-|32|Sales Process Instance|
-|33|Subscription Synchronization Information|
-|35|Tracking information for deleted entities|
-|36|Client update|
-|37|Subscription Manually Tracked Object|
-|42|SystemUser BusinessUnit Entity Map|
-|44|Field Sharing|
-|45|Subscription Statistic Offline|
-|46|Subscription Statistic Outlook|
-|47|Subscription Sync Entry Offline|
-|48|Subscription Sync Entry Outlook|
-|50|Position|
-|51|System User Manager Map|
-|52|User Search Facet|
-|54|Global Search Configuration|
-|55|FileAttachment|
-|78|Virtual Entity Data Provider|
-|85|Virtual Entity Data Source|
-|92|Team template|
-|99|Social Profile|
-|112|Case|
-|113|Child Incident Count|
-|123|Competitor|
-|126|Indexed Article|
-|127|Article|
-|129|Subject|
-|132|Announcement|
-|135|Activity Party|
-|150|User Settings|
-|300|Canvas App|
-|301|Callback Registration|
-|371|Connector|
-|950|New Process|
-|951|Translation Process|
-|952|Phone To Case Process|
-|953|Opportunity Sales Process|
-|954|Lead To Opportunity Sales Process|
-|955|Expired Process|
-|1001|Attachment|
-|1002|Attachment|
-|1003|Internal Address|
-|1004|Competitor Address|
-|1006|Competitor Product|
-|1007|Image Descriptor|
-|1010|Contract|
-|1011|Contract Line|
-|1013|Discount|
-|1016|Article Template|
-|1017|Lead Address|
-|1019|Organization|
-|1021|Organization UI|
-|1022|Price List|
-|1023|Privilege|
-|1024|Product|
-|1025|Product Association|
-|1026|Price List Item|
-|1028|Product Relationship|
-|1030|System Form|
-|1031|User Dashboard|
-|1036|Security Role|
-|1037|Role Template|
-|1038|Sales Literature|
-|1039|View|
-|1043|String Map|
-|1048|Property|
-|1049|Property Option Set Item|
-|1055|Unit|
-|1056|Unit Group|
-|1070|Sales Attachment|
-|1071|Address|
-|1072|Subscription Clients|
-|1075|Status Map|
-|1080|Discount List|
-|1082|Article Comment|
-|1083|Opportunity Line|
-|1084|Quote|
-|1085|Quote Line|
-|1086|User Fiscal Calendar|
-|1088|Order|
-|1089|Order Line|
-|1090|Invoice|
-|1091|Invoice Line|
-|1094|Authorization Server|
-|1095|Partner Application|
-|1111|System Chart|
-|1112|User Chart|
-|1113|Ribbon Tab To Command Mapping|
-|1115|Ribbon Context Group|
-|1116|Ribbon Command|
-|1117|Ribbon Rule|
-|1120|Application Ribbons|
-|1130|Ribbon Difference|
-|1140|Replication Backlog|
-|1141|Characteristic|
-|1142|Rating Value|
-|1144|Rating Model|
-|1145|Bookable Resource Booking|
-|1146|Bookable Resource Booking Header|
-|1147|Bookable Resource Category|
-|1148|Bookable Resource Characteristic|
-|1149|Bookable Resource Category Assn|
-|1150|Bookable Resource|
-|1151|Bookable Resource Group|
-|1152|Booking Status|
-|1189|Document Suggestions|
-|1190|SuggestionCardTemplate|
-|1200|Field Security Profile|
-|1201|Field Permission|
-|1203|Team Profiles|
-|1234|Channel Property Group|
-|1235|Property Association|
-|1236|Channel Property|
-|1300|SocialInsightsConfiguration|
-|1309|Saved Organization Insights Configuration|
-|1333|Property Instance|
-|1400|Sync Attribute Mapping Profile|
-|1401|Sync Attribute Mapping|
-|1403|Team Sync-Attribute Mapping Profiles|
-|1404|Principal Sync Attribute Map|
-|2000|Annual Fiscal Calendar|
-|2001|Semiannual Fiscal Calendar|
-|2002|Quarterly Fiscal Calendar|
-|2003|Monthly Fiscal Calendar|
-|2004|Fixed Monthly Fiscal Calendar|
-|2010|Email Template|
-|2011|Contract Template|
-|2012|Unresolved Address|
-|2013|Territory|
-|2015|Theme|
-|2016|User Mapping|
-|2020|Queue|
-|2023|QueueItemCount|
-|2024|QueueMemberCount|
-|2027|License|
-|2029|Queue Item|
-|2500|User Entity UI Settings|
-|2501|User Entity Instance Data|
-|3000|Integration Status|
-|3005|Channel Access Profile|
-|3008|External Party|
-|3231|Connection Role|
-|3233|Connection Role Object Type Code|
-|3234|Connection|
-|4000|Facility/Equipment|
-|4001|Service|
-|4002|Resource|
-|4003|Calendar|
-|4004|Calendar Rule|
-|4005|Scheduling Group|
-|4006|Resource Specification|
-|4007|Resource Group|
-|4009|Site|
-|4010|Resource Expansion|
-|4011|Inter Process Lock|
-|4023|Email Hash|
-|4101|Display String Map|
-|4102|Display String|
-|4110|Notification|
-|4120|Exchange Sync Id Mapping|
-|4200|Activity|
-|4201|Appointment|
-|4202|Email|
-|4204|Fax|
-|4206|Case Resolution|
-|4207|Letter|
-|4208|Opportunity Close|
-|4209|Order Close|
-|4210|Phone Call|
-|4211|Quote Close|
-|4212|Task|
-|4214|Service Activity|
-|4215|Commitment|
-|4216|Social Activity|
-|4220|UntrackedEmail|
-|4230|Saved View|
-|4231|Metadata Difference|
-|4232|Business Data Localized Label|
-|4250|Recurrence Rule|
-|4251|Recurring Appointment|
-|4299|Email Search|
-|4300|Marketing List|
-|4301|Marketing List Member|
-|4400|Campaign|
-|4401|Campaign Response|
-|4402|Campaign Activity|
-|4403|Campaign Item|
-|4404|Campaign Activity Item|
-|4405|Bulk Operation Log|
-|4406|Quick Campaign|
-|4410|Data Import|
-|4411|Data Map|
-|4412|Import Source File|
-|4413|Import Data|
-|4414|Duplicate Detection Rule|
-|4415|Duplicate Record|
-|4416|Duplicate Rule Condition|
-|4417|Column Mapping|
-|4418|List Value Mapping|
-|4419|Lookup Mapping|
-|4420|Owner Mapping|
-|4421|Bookable Resource Booking to Exchange Id Mapping|
-|4423|Import Log|
-|4424|Bulk Delete Operation|
-|4425|Bulk Delete Failure|
-|4426|Transformation Mapping|
-|4427|Transformation Parameter Mapping|
-|4428|Import Entity Mapping|
-|4450|Data Performance Dashboard|
-|4490|Office Document|
-|4500|Relationship Role|
-|4501|Relationship Role Map|
-|4502|Customer Relationship|
-|4503|Opportunity Relationship|
-|4545|Entitlement Template Product|
-|4567|Auditing|
-|4579|Ribbon Client Metadata.|
-|4600|Entity Map|
-|4601|Attribute Map|
-|4602|Plug-in Type|
-|4603|Plug-in Type Statistic|
-|4605|Plug-in Assembly|
-|4606|Sdk Message|
-|4607|Sdk Message Filter|
-|4608|Sdk Message Processing Step|
-|4609|Sdk Message Request|
-|4610|Sdk Message Response|
-|4611|Sdk Message Response Field|
-|4613|Sdk Message Pair|
-|4614|Sdk Message Request Field|
-|4615|Sdk Message Processing Step Image|
-|4616|Sdk Message Processing Step Secure Configuration|
-|4618|Service Endpoint|
-|4619|Plug-in Trace Log|
-|4700|System Job|
-|4702|Workflow Wait Subscription|
-|4703|Process|
-|4704|Process Dependency|
-|4705|ISV Config|
-|4706|Process Log|
-|4707|Application File|
-|4708|Organization Statistic|
-|4709|Site Map|
-|4710|Process Session|
-|4711|Expander Event|
-|4712|Process Trigger|
-|4724|Process Stage|
-|4725|Business Process Flow Instance|
-|4800|Web Wizard|
-|4802|Wizard Page|
-|4803|Web Wizard Access Privilege|
-|4810|Time Zone Definition|
-|4811|Time Zone Rule|
-|4812|Time Zone Localized Name|
-|6363|Entitlement Product|
-|7000|System Application Metadata|
-|7001|User Application Metadata|
-|7100|Solution|
-|7101|Publisher|
-|7102|Publisher Address|
-|7103|Solution Component|
-|7105|Dependency|
-|7106|Dependency Node|
-|7107|Invalid Dependency|
-|7108|Dependency Feature|
-|7200|RuntimeDependency|
-|7272|Entitlement Contact|
-|8000|Post|
-|8001|Post Role|
-|8002|Post Regarding|
-|8003|Follow|
-|8005|Comment|
-|8006|Like|
-|8040|ACIViewMapper|
-|8050|Trace|
-|8051|Trace Association|
-|8052|Trace Regarding|
-|8181|Routing Rule Set|
-|8199|Rule Item|
-|8700|AppModule Metadata|
-|8701|AppModule Metadata Dependency|
-|8702|AppModule Metadata Async Operation|
-|8840|Hierarchy Rule|
-|9006|Model-driven App|
-|9007|App Module Component|
-|9009|App Module Roles|
-|9011|App Config Master|
-|9012|App Configuration|
-|9013|App Configuration Instance|
-|9100|Report|
-|9101|Report Related Entity|
-|9102|Report Related Category|
-|9103|Report Visibility|
-|9104|Report Link|
-|9105|Currency|
-|9106|Mail Merge Template|
-|9107|Import Job|
-|9201|LocalConfigStore|
-|9300|Record Creation and Update Rule|
-|9301|Record Creation and Update Rule Item|
-|9333|Web Resource|
-|9400|Channel Access Profile Rule|
-|9401|Channel Access Profile Rule Item|
-|9502|SharePoint Site|
-|9507|Sharepoint Document|
-|9508|Document Location|
-|9509|SharePoint Data|
-|9510|Rollup Properties|
-|9511|Rollup Job|
-|9600|Goal|
-|9602|Rollup Query|
-|9603|Goal Metric|
-|9604|Rollup Field|
-|9605|Email Server Profile|
-|9606|Mailbox|
-|9607|Mailbox Statistics|
-|9608|Mailbox Auto Tracking Folder|
-|9609|Mailbox Tracking Category|
-|9650|Process Configuration|
-|9690|Organization Insights Notification|
-|9699|Organization Insights Metric|
-|9700|Entitlement|
-|9701|Entitlement Channel|
-|9702|Entitlement Template|
-|9703|Entitlement Template Channel|
-|9704|Entitlement Entity Allocation Type Mapping|
-|9750|SLA|
-|9751|SLA Item|
-|9752|SLA KPI Instance|
-|9753|Custom Control|
-|9754|Custom Control Resource|
-|9755|Custom Control Default Config|
-|9866|Mobile Offline Profile|
-|9867|Mobile Offline Profile Item|
-|9868|Mobile Offline Profile Item Association|
-|9869|Sync Error|
-|9870|Offline Command Definition|
-|9875|Language Provisioning State|
-|9890|SolutionHistoryData|
-|9900|Navigation Setting|
-|9910|MultiEntitySearch|
-|9912|Multi Select Option Value|
-|9919|Hierarchy Security Configuration|
-|9930|Knowledge Base Record|
-|9931|Incident KnowledgeBaseRecord|
-|9932|Time Stamp Date Mapping|
-|9936|Azure Service Connection|
-|9940|Document Template|
-|9941|Personal Document Template|
-|9942|Topic Model Configuration|
-|9943|Topic Model Execution History|
-|9944|Topic Model|
-|9945|Text Analytics Entity Mapping|
-|9946|Topic History|
-|9947|Knowledge Search Model|
-|9948|Text Analytics Topic|
-|9949|Advanced Similarity Rule|
-|9950|Office Graph Document|
-|9951|Similarity Rule|
-|9953|Knowledge Article|
-|9954|Knowledge Article Incident|
-|9955|Knowledge Article Views|
-|9957|Language|
-|9958|Feedback|
-|9959|Category|
-|9960|Knowledge Article Category|
-|9961|DelveActionHub|
-|9962|Action Card|
-|9968|ActionCardUserState|
-|9973|Action Card User Settings|
-|9983|Action Card Type|
-|9986|Interaction for Email|
-|9987|External Party Item|
-|9996|HolidayWrapper|
-|9997|Email Signature|
-|10000|OData v4 Data Source|
-|10001|Solution Component Summary|
-|10002|Solution Component Data Source|
-|10003|Solution History|
-|10004|Solution History Data Source|
-|10005|Component Layer|
-|10006|Component Layer Data Source|
-|10007|Database Version|
-|10008|Upgrade Run|
-|10009|Upgrade Step|
-|10010|Upgrade Version|
-|10011|Playbook Callable Context|
-|10012|Playbook activity|
-|10013|Playbook activity attribute|
-|10014|Playbook category|
-|10015|Playbook|
-|10016|Playbook template|
-|10018|admin_settings_entity|
-|10019|Forecast definition|
-|10020|Forecast|
-|10021|Forecast recurrence|
-|10022|msdyn_relationshipinsightsunifiedconfig|
-|10023|siconfig|
-|10024|UntrackedAppointment|
-|10025|Notes analysis Config|
-|10026|icebreakersconfig|
-|10027|Profile Album|
-|10028|Post Configuration|
-|10029|Post Rule Configuration|
-|10030|Wall View|
-|10031|Filter|
-|10032|Survey email template|
-|10033|Survey question|
-|10034|Survey question response|
-|10035|Survey|
-|10036|Survey invite|
-|10037|Survey response|
-|10038|Unsubscribed recipient|
-|10039|Microsoft Teams Collaboration entity|
-|10040|Actual|
-|10041|Bookable Resource Association|
-|10042|Booking Alert|
-|10043|Booking Alert Status|
-|10044|Booking Change|
-|10045|Booking Rule|
-|10046|Booking Setup Metadata|
-|10047|Business Closure|
-|10048|Client Extension|
-|10049|Configuration|
-|10050|Organizational Unit|
-|10051|Priority|
-|10052|Requirement Characteristic|
-|10053|Requirement Group|
-|10054|Requirement Organization Unit|
-|10055|Requirement Relationship|
-|10056|Requirement Resource Category|
-|10057|Requirement Resource Preference|
-|10058|Requirement Status|
-|10059|Resource Requirement|
-|10060|Resource Requirement Detail|
-|10061|Resource Territory|
-|10062|Schedule Board Setting|
-|10063|Scheduling Parameter|
-|10064|System User Scheduler Setting|
-|10065|Fulfillment Preference|
-|10066|Time Group Detail|
-|10067|Transaction Origin|
-|10068|Work template|
-|10069|Account Project Price List|
-|10070|Project Service Approval|
-|10071|Batch Job|
-|10072|Project Stages|
-|10073|Invoice Process|
-|10074|Competency Requirement (Deprecated)|
-|10075|Contact Price List|
-|10076|Project Contract Line Invoice Schedule|
-|10077|Project Contract Line Milestone|
-|10078|Actual Data Export (Deprecated)|
-|10079|Delegation|
-|10080|Pricing Dimension|
-|10081|Pricing Dimension Field Name|
-|10082|Estimate|
-|10083|Estimate Line|
-|10084|Expense|
-|10085|Expense Category|
-|10086|Expense Receipt|
-|10087|Fact|
-|10088|Field Computation|
-|10089|Find Work Event (Deprecated in v3.0)|
-|10090|Integration Job|
-|10091|Integration Job Detail|
-|10092|Invoice Frequency|
-|10093|Invoice Frequency Detail|
-|10094|Invoice Line Detail|
-|10095|Journal|
-|10096|Journal Line|
-|10097|Result Cache|
-|10098|Opportunity Line Resource Category (Deprecated)|
-|10099|Opportunity Line Detail (Deprecated)|
-|10100|Opportunity Line Transaction Category (Deprecated)|
-|10101|Opportunity Line Transaction Classification (Deprecated)|
-|10102|Opportunity Project Price List|
-|10103|Project Contract Line Resource Category|
-|10104|Project Contract Line Detail|
-|10105|Project Contract Line Transaction Category|
-|10106|Project Contract Line Transaction Classification|
-|10107|Project Contract Project Price List|
-|10108|Process Notes|
-|10109|Project|
-|10110|Project Approval|
-|10111|Project Parameter|
-|10112|Project Parameter Price List|
-|10113|Project Price List|
-|10114|Project Task|
-|10115|Project Task Dependency|
-|10116|Project Task Status User|
-|10117|Project Team Member|
-|10118|Project Team Member Sign-Up (Deprecated in v3.0)|
-|10119|Project Transaction Category (Deprecated)|
-|10120|Quote Line Analytics Breakdown|
-|10121|Quote Line Invoice Schedule|
-|10122|Quote Line Resource Category|
-|10123|Quote Line Milestone|
-|10124|Quote Line Detail|
-|10125|Quote Line Transaction Category|
-|10126|Quote Line Transaction Classification|
-|10127|Quote Project Price List|
-|10128|Resource Assignment|
-|10129|Resource Assignment Detail (Deprecated in v2.0)|
-|10130|Role Price Markup|
-|10131|Role Price|
-|10132|Resource Request|
-|10133|Role competency requirement|
-|10134|Role Utilization|
-|10135|Time Entry|
-|10136|Time Off Calendar|
-|10137|Transaction Category|
-|10138|Transaction Category Classification|
-|10139|Transaction Category Hierarchy Element|
-|10140|Transaction Category Price|
-|10141|Transaction Connection|
-|10142|Transaction Type|
-|10143|User Work History|
-|10148|Three-Dimensional Model|
-|10149|Analysis Component|
-|10150|Analysis Job|
-|10151|Analysis Result|
-|10152|Analysis Result Detail|
-|10153|Solution Health Rule|
-|10154|Solution Health Rule Argument|
-|10155|Solution Health Rule Set|
-|10156|Agreement|
-|10157|Agreement Booking Date|
-|10158|Agreement Booking Incident|
-|10159|Agreement Booking Product|
-|10160|Agreement Booking Service|
-|10161|Agreement Booking Service Task|
-|10162|Agreement Booking Setup|
-|10163|Agreement Invoice Date|
-|10164|Agreement Invoice Product|
-|10165|Agreement Invoice Setup|
-|10166|Agreement Substatus|
-|10167|Booking Journal|
-|10168|Booking Timestamp|
-|10169|Purchase Order Business Process|
-|10170|Case to Work Order Business Process|
-|10171|Agreement Business Process|
-|10172|Work Order Business Process|
-|10173|Customer Asset|
-|10174|Customer Asset Category|
-|10175|Entitlement Application|
-|10176|Field Service Price List Item|
-|10177|Field Service Setting|
-|10178|Field Service SLA Configuration|
-|10179|Field Service System Job|
-|10180|Incident Type|
-|10181|Incident Type Characteristic|
-|10182|Incident Type Product|
-|10183|Incident Type Service|
-|10184|Incident Type Service Task|
-|10185|Incident Types Setup|
-|10186|Incident Type Requirement Group|
-|10187|Inventory Adjustment|
-|10188|Inventory Adjustment Product|
-|10189|Inventory Journal|
-|10190|Inventory Transfer|
-|10191|Order Invoicing Date|
-|10192|Order Invoicing Product|
-|10193|Order Invoicing Setup|
-|10194|Order Invoicing Setup Date|
-|10195|Payment|
-|10196|Payment Detail|
-|10197|Payment Method|
-|10198|Payment Term|
-|10199|Postal Code|
-|10200|Product Inventory|
-|10201|Purchase Order|
-|10202|Purchase Order Bill|
-|10203|Purchase Order Product|
-|10204|Purchase Order Receipt|
-|10205|Purchase Order Receipt Product|
-|10206|Purchase Order SubStatus|
-|10207|Quote Booking Incident|
-|10208|Quote Booking Product|
-|10209|Quote Booking Service|
-|10210|Quote Booking Service Task|
-|10211|Quote Booking Setup|
-|10212|Quote Invoicing Product|
-|10213|Quote Invoicing Setup|
-|10214|Resource Pay Type|
-|10215|RMA|
-|10216|RMA Product|
-|10217|RMA Receipt|
-|10218|RMA Receipt Product|
-|10219|RMA SubStatus|
-|10220|RTV|
-|10221|RTV Product|
-|10222|RTV Substatus|
-|10223|Service Task Type|
-|10224|Ship Via|
-|10225|Tax Code|
-|10226|Tax Code Detail|
-|10227|Time Off Request|
-|10228|Unique Number|
-|10229|Warehouse|
-|10230|Work Order|
-|10231|Work Order Characteristic (Deprecated)|
-|10232|Work Order Details Generation Queue (Deprecated)|
-|10233|Work Order Incident|
-|10234|Work Order Product|
-|10235|Resource Restriction (Deprecated)|
-|10236|Work Order Service|
-|10237|Work Order Service Task|
-|10238|Work Order Substatus|
-|10239|Work Order Type|
-|10241|IoT Alert|
-|10242|IoT Device|
-|10243|IoT Device Category|
-|10244|IoT Device Command|
-|10245|IoT Device Command Definition|
-|10246|IoT Device Data History|
-|10247|IoT Device Property|
-|10248|IoT Device Registration History|
-|10249|IoT Property Definition|
-|10250|IoT Settings|
-|10253|CFS - IoT Alert Process Flow|
-|10254|Entity Configuration|
-|10255|Geofence|
-|10256|Geofence Event|
-|10257|Geofencing Settings|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Account|Business that represents a customer or potential customer. The company that is billed in business transactions.|
+|2|Contact|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
+|3|Opportunity|Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.|
+|4|Lead|Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.|
+|5|Note|Note that is attached to one or more objects, including other notes.|
+|6|Business Unit Map|Stores mapping attributes for business units.|
+|7|Owner|Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.|
+|8|User|Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.|
+|9|Team|Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.|
+|10|Business Unit|Business, division, or department in the Microsoft Dynamics 365 database.|
+|14|System User Principal|For internal use only.|
+|16|AccountLeads|description.|
+|17|ContactInvoices||
+|18|ContactQuotes||
+|19|ContactOrders||
+|20|Service Contract Contact|Item in a Service contract.|
+|21|ProductSalesLiterature||
+|22|ContactLeads||
+|24|LeadCompetitors||
+|25|OpportunityCompetitors||
+|26|CompetitorSalesLiterature||
+|27|LeadProduct||
+|29|Subscription|For internal use only.|
+|30|Filter Template|Template for a filter.|
+|31|Privilege Object Type Code|For internal use only.|
+|32|Sales Process Instance|Instance of a sales process.|
+|33|Subscription Synchronization Information|For internal use only.|
+|35|Tracking information for deleted entities|For internal use only.|
+|36|Client update|Microsoft Dynamics 365 client for Outlook offline database update.|
+|37|Subscription Manually Tracked Object|For internal use only.|
+|42|SystemUser BusinessUnit Entity Map|Stores mapping attributes for business units.|
+|44|Field Sharing|Defines CRM security principals (users and teams) access rights to secured field for an entity instance.|
+|45|Subscription Statistic Offline|Subscription Statistic Offline|
+|46|Subscription Statistic Outlook|Subscription Statistic Outlook|
+|47|Subscription Sync Entry Offline|Used for offline sync, internal use only.|
+|48|Subscription Sync Entry Outlook|Used for outlook sync, internal use only.|
+|50|Position|Position of a user in the hierarchy|
+|51|System User Manager Map|For internal use only.|
+|52|User Search Facet||
+|54|Global Search Configuration||
+|78|Virtual Entity Data Provider|Developers can register plug-ins on a data provider to enable data access for virtual entities in the system.|
+|85|Virtual Entity Data Source|Internal entity that stores data source information for all installed providers.|
+|92|Team template|Team template for an entity enabled for automatically created access teams.|
+|99|Social Profile|This entity is used to store social profile information of its associated account and contacts on different social channels.|
+|112|Case|Service request case associated with a contract.|
+|113|Child Incident Count|For internal use only.|
+|123|Competitor|Business competing for the sale represented by a lead or opportunity.|
+|126|Indexed Article|Article indexed for search purposes.|
+|127|Article|Structured content that is part of the knowledge base.|
+|129|Subject|Information regarding subjects available in the system.|
+|132|Announcement|Announcement associated with an organization.|
+|135|Activity Party|Person or group associated with an activity. An activity can have multiple activity parties.|
+|150|User Settings|User's preferred settings.|
+|950|New Process|New Process Business Process Flow|
+|951|Translation Process|Translation Process Business Process Flow|
+|952|Phone To Case Process|Phone To Case Process Business Process Flow|
+|953|Opportunity Sales Process|Opportunity Sales Process Business Process Flow|
+|954|Lead To Opportunity Sales Process|Lead To Opportunity Sales Process Business Process Flow|
+|955|Expired Process|Expired Process Business Process Flow|
+|1001|Attachment|MIME attachment for an activity.|
+|1002|Attachment|Attachment for an email activity.|
+|1003|Internal Address|Storage of addresses for a user, business unit, or site.|
+|1004|Competitor Address|Additional addresses for a competitor. The first two addresses are stored in the competitor object.|
+|1006|Competitor Product|Association between a competitor and a product offered by the competitor.|
+|1007|Image Descriptor|For internal use only.|
+|1010|Contract|Agreement to provide customer service during a specified amount of time or number of cases.|
+|1011|Contract Line|Line item in a contract that specifies the type of service a customer is entitled to.|
+|1013|Discount|Price reduction made from the list price of a product or service based on the quantity purchased.|
+|1016|Article Template|Template for a knowledge base article that contains the standard attributes of an article.|
+|1017|Lead Address|Address information for a lead.|
+|1019|Organization|Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.|
+|1021|Organization UI|Entity customizations including form layout and icons. Includes current and past versions.|
+|1022|Price List|Entity that defines pricing levels.|
+|1023|Privilege|Permission to perform an action in Microsoft CRM. The platform checks for the privilege and rejects the attempt if the user does not hold the privilege.|
+|1024|Product|Information about products and their pricing information.|
+|1025|Product Association|Instance of a product added to a bundle or kit.|
+|1026|Price List Item|Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.|
+|1028|Product Relationship|Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.|
+|1030|System Form|Organization-owned entity customizations including form layout and dashboards.|
+|1031|User Dashboard|User-owned dashboards.|
+|1036|Security Role|Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.|
+|1037|Role Template|Template for a role. Defines initial attributes that will be used when creating a new role.|
+|1038|Sales Literature|Storage of sales literature, which may contain one or more documents.|
+|1039|View|Saved query against the database.|
+|1043|String Map|Mapping between strings.|
+|1048|Property|Information about a product property.|
+|1049|Property Option Set Item|Item with a name and value in a property option set type.|
+|1055|Unit|Unit of measure.|
+|1056|Unit Group|Grouping of units.|
+|1070|Sales Attachment|Item in the sales literature collection.|
+|1071|Address|Address and shipping information. Used to store additional addresses for an account or contact.|
+|1072|Subscription Clients|For internal use only.|
+|1075|Status Map|Mapping between statuses.|
+|1080|Discount List|Type of discount specified as either a percentage or an amount.|
+|1082|Article Comment|Comment on a knowledge base article.|
+|1083|Opportunity Product|Association between an opportunity and a product.|
+|1084|Quote|Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.|
+|1085|Quote Product|Product line item in a quote. The details include such information as product ID, description, quantity, and cost.|
+|1086|User Fiscal Calendar|Custom fiscal calendar used for tracking sales quotas.|
+|1088|Order|Quote that has been accepted.|
+|1089|Order Product|Line item in a sales order.|
+|1090|Invoice|Order that has been billed.|
+|1091|Invoice Product|Line item in an invoice containing detailed billing information for a product.|
+|1094|Authorization Server|Authorization servers that trust this organization|
+|1095|Partner Application|Partner applications registered for this organization|
+|1111|System Chart|System chart attached to an entity.|
+|1112|User Chart|Chart attached to an entity.|
+|1113|Ribbon Tab To Command Mapping|A mapping between Tab Ids, and the Commands within those tabs.|
+|1115|Ribbon Context Group|Groupings of contextual tabs.|
+|1116|Ribbon Command|Ribbon Commands - the command definition, rules, etc.|
+|1117|Ribbon Rule|Ribbon rule definitions, used to enable and disable, show and hide ribbon elements.|
+|1120|Application Ribbons|Ribbon customizations for the application ribbon and entity ribbon templates.|
+|1130|Ribbon Difference|All layout customizations to be applied to the ribbons, which contain only the differences from the base ribbon.|
+|1140|Replication Backlog|Entity to hold replication backlog tasks. For internal use only.|
+|1141|Characteristic|Skills, education and certifications of resources.|
+|1142|Rating Value|A unique value associated with a rating model that allows providing a user friendly rating value.|
+|1144|Rating Model|Represents a model to evaluate skills or other related entities.|
+|1145|Bookable Resource Booking|Represents the line details of a resource booking.|
+|1146|Bookable Resource Booking Header|Reservation entity representing the summary of the associated resource bookings.|
+|1147|Bookable Resource Category|Categorize resources that have capacity into categories such as roles.|
+|1148|Bookable Resource Characteristic|Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.|
+|1149|Bookable Resource Category Assn|Association entity to model the categorization of resources.|
+|1150|Bookable Resource|Resource that has capacity which can be allocated to work.|
+|1151|Bookable Resource Group|Associates resources with resource groups that they are a member of.|
+|1152|Booking Status|Allows creation of multiple sub statuses mapped to a booking status option.|
+|1189|Document Suggestions|Document Suggestions|
+|1190|SuggestionCardTemplate|Templates for Suggestion Card in Grid|
+|1200|Field Security Profile|Profile which defines access level for secured attributes|
+|1201|Field Permission|Group of privileges used to categorize users to provide appropriate access to secured columns.|
+|1203|Team Profiles|Team Profiles|
+|1234|Channel Property Group|Group or collection of channel properties provided by the external channel for a Microsoft Dynamics 365 activity.|
+|1235|Property Association|Association of a property definition with another entity in the system.|
+|1236|Channel Property|Instance of a channel property containing its name and corresponding data type.|
+|1300|SocialInsightsConfiguration|Configuration for the social insights.|
+|1309|Saved Organization Insights Configuration|Saved configuration for the organization insights|
+|1333|Property Instance|Instance of a property with its value.|
+|1400|Sync Attribute Mapping Profile|Profile which defines sync attribute mapping|
+|1401|Sync Attribute Mapping|Group of Sync-Attribute Mappings used to provide Attribute mappings during sync for a particular user|
+|1403|Team Sync-Attribute Mapping Profiles|Team Sync-Attribute Mapping Profiles|
+|1404|Principal Sync Attribute Map|Maps security principals (users and teams) to sync attribute mappings.|
+|2000|Annual Fiscal Calendar|Year long fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2001|Semiannual Fiscal Calendar|Calendar representing the semi-annual span of time during which the financial activities of an organization are calculated.|
+|2002|Quarterly Fiscal Calendar|Quarterly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2003|Monthly Fiscal Calendar|Monthly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2004|Fixed Monthly Fiscal Calendar|Fixed monthly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2010|Email Template|Template for an email message that contains the standard attributes of an email message.|
+|2011|Contract Template|Template for a contract containing the standard attributes of a contract.|
+|2012|Unresolved Address|For internal use only.|
+|2013|Territory|Territory represents sales regions.|
+|2015|Theme|Information that's used to set custom visual theme options for client applications.|
+|2016|User Mapping|User Mapping|
+|2020|Queue|A list of records that require action, such as accounts, activities, and cases.|
+|2023|QueueItemCount|For internal use only.|
+|2024|QueueMemberCount|For internal use only.|
+|2027|License|Stores information about a Microsoft CRM license.|
+|2029|Queue Item|A specific item in a queue, such as a case record or an activity record.|
+|2500|User Entity UI Settings|Stores user settings for entity views.|
+|2501|User Entity Instance Data|Per User item instance data|
+|3000|Integration Status|Contains integration status information.|
+|3005|Channel Access Profile|Information about permissions needed to access Dynamics 365 through external channels.For internal use only|
+|3008|External Party|Information about external parties that need to access Dynamics 365 from external channels.For internal use only|
+|3231|Connection Role|Role describing a relationship between a two records.|
+|3233|Connection Role Object Type Code|Specifies the entity type that can play specific role in a connection.|
+|3234|Connection|Relationship between two entities.|
+|4000|Facility/Equipment|Resource that can be scheduled.|
+|4001|Service|Activity that represents work done to satisfy a customer's need.|
+|4002|Resource|User or facility/equipment that can be scheduled for a service.|
+|4003|Calendar|Calendar used by the scheduling system to define when an appointment or activity is to occur.|
+|4004|Calendar Rule|Defines free/busy times for a service and for resources or resource groups, such as working, non-working, vacation, and blocked.|
+|4005|Scheduling Group|Resource group or team whose members can be scheduled for a service.|
+|4006|Resource Specification|Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.|
+|4007|Resource Group|Group or collection of people, equipment, and/or facilities that can be scheduled.|
+|4009|Site|Location or branch office where an organization does business. An organization can have multiple sites.|
+|4010|Resource Expansion|Resource Expansions.|
+|4011|Inter Process Lock|Inter Process Locks.|
+|4023|Email Hash|Email activity hashes used for correlation purposes.|
+|4101|Display String Map|Maps customized display strings to entities.|
+|4102|Display String|Customized messages for an entity that has been renamed.|
+|4110|Notification|For internal use only.|
+|4120|Exchange Sync Id Mapping|The mapping used to keep track of the IDs for items synced between CRM and Exchange.|
+|4200|Activity|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.|
+|4201|Appointment|Commitment representing a time interval with start/end times and duration.|
+|4202|Email|Activity that is delivered using email protocols.|
+|4204|Fax|Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.|
+|4206|Case Resolution|Special type of activity that includes description of the resolution, billing status, and the duration of the case.|
+|4207|Letter|Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.|
+|4208|Opportunity Close|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.|
+|4209|Order Close|Activity generated automatically when an order is closed.|
+|4210|Phone Call|Activity to track a telephone call.|
+|4211|Quote Close|Activity generated when a quote is closed.|
+|4212|Task|Generic activity representing work needed to be done.|
+|4214|Service Activity|Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.|
+|4215|Commitment|For internal use only.|
+|4216|Social Activity|For internal use only.|
+|4220|UntrackedEmail|Activity that is delivered using UntrackedEmail protocols.|
+|4230|Saved View|Saved database query that is owned by a user.|
+|4231|Metadata Difference|Metadata Difference|
+|4232|Business Data Localized Label|Business Data Localized Label|
+|4250|Recurrence Rule|Recurrence Rule represents the pattern of incidence of recurring entities.|
+|4251|Recurring Appointment|The Master appointment of a recurring appointment series.|
+|4299|Email Search|Email Address Search Table.|
+|4300|Marketing List|Group of existing or potential customers created for a marketing campaign or other sales purposes.|
+|4301|Marketing List Member|Item in a marketing list.|
+|4400|Campaign|Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.|
+|4401|Campaign Response|Response from an existing or a potential new customer for a campaign.|
+|4402|Campaign Activity|Task performed, or to be performed, by a user for planning or running a campaign.|
+|4403|Campaign Item|Work item in a campaign, a list or sales literature.|
+|4404|Campaign Activity Item|Work item of a campaign activity, such as a list or sales literature.|
+|4405|Bulk Operation Log|Log used to track bulk operation execution, successes, and failures.|
+|4406|Quick Campaign|System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.|
+|4410|Data Import|Status and ownership information for an import job.|
+|4411|Data Map|Data map used in import.|
+|4412|Import Source File|File name of file used for import.|
+|4413|Import Data|Unprocessed data from imported files.|
+|4414|Duplicate Detection Rule|Rule used to identify potential duplicates.|
+|4415|Duplicate Record|Potential duplicate record.|
+|4416|Duplicate Rule Condition|Condition of a duplicate detection rule.|
+|4417|Column Mapping|Mapping for columns in a data map.|
+|4418|List Value Mapping|In a data map, maps list values from the source file to Microsoft Dynamics 365.|
+|4419|Lookup Mapping|In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365.|
+|4420|Owner Mapping|In a data map, maps ownership data from the source file to Microsoft Dynamics 365.|
+|4421|BookableResourceBooking to Exchange Id Mapping|The mapping used to keep track of the IDs for items synced between CRM BookableResourceBooking and Exchange.|
+|4423|Import Log|Failure reason and other detailed information for a record that failed to import.|
+|4424|Bulk Delete Operation|User-submitted bulk deletion job.|
+|4425|Bulk Delete Failure|Record that was not deleted during a bulk deletion job.|
+|4426|Transformation Mapping|In a data map, maps the transformation of source attributes to Microsoft Dynamics 365 attributes.|
+|4427|Transformation Parameter Mapping|In a data map, defines parameters for a transformation.|
+|4428|Import Entity Mapping|Mapping for entities in a data map.|
+|4450|Data Performance Dashboard|Data Performance Dashboard.|
+|4490|Office Document|Used to store Office Documents in database in binary format.|
+|4500|Relationship Role|Relationship between an account or contact and an opportunity.|
+|4501|Relationship Role Map|Mapping of the primary associated objects between which the relationship role is valid.|
+|4502|Customer Relationship|Relationship between a customer and a partner in which either can be an account or contact.|
+|4503|Opportunity Relationship|Relationship between an account or contact and an opportunity.|
+|4545|Entitlement Template Product||
+|4567|Auditing|Track changes to records for analysis, record keeping, and compliance.|
+|4579|Ribbon Client Metadata.|A ribbon client metadata.|
+|4600|Entity Map|Represents a mapping between two related entities so that data from one record can be copied into the form of a new related record.|
+|4601|Attribute Map|Represents a mapping between attributes where the attribute values should be copied from a record into the form of a new related record.|
+|4602|Plug-in Type|Type that inherits from the IPlugin interface and is contained within a plug-in assembly.|
+|4603|Plug-in Type Statistic|Plug-in type statistic.|
+|4605|Plug-in Assembly|Assembly that contains one or more plug-in types.|
+|4606|Sdk Message|Message that is supported by the SDK.|
+|4607|Sdk Message Filter|Filter that defines which SDK messages are valid for each type of entity.|
+|4608|Sdk Message Processing Step|Stage in the execution pipeline that a plug-in is to execute.|
+|4609|Sdk Message Request|For internal use only.|
+|4610|Sdk Message Response|For internal use only.|
+|4611|Sdk Message Response Field|For internal use only.|
+|4613|Sdk Message Pair|For internal use only.|
+|4614|Sdk Message Request Field|For internal use only.|
+|4615|Sdk Message Processing Step Image|Copy of an entity's attributes before or after the core system operation.|
+|4616|Sdk Message Processing Step Secure Configuration|Non-public custom configuration that is passed to a plug-in's constructor.|
+|4618|Service Endpoint|Service endpoint that can be contacted.|
+|4619|Plug-in Trace Log|Trace and exception information generated by plug-ins and custom workflow activities.|
+|4700|System Job|Process whose execution can proceed independently or in the background.|
+|4702|Workflow Wait Subscription|For internal use only.|
+|4703|Process|Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.|
+|4704|Process Dependency|Dependencies for a process.|
+|4705|ISV Config|An XML document used to configure client extension controls.|
+|4706|Process Log|Log used to track process execution.|
+|4707|Application File|Files used by the application|
+|4708|Organization Statistic|Statistics measuring the organization's usage of the Microsoft Dynamics 365 system over the past 24 hours.|
+|4709|Site Map|XML data used to control the application navigation pane.|
+|4710|Process Session|Information that is generated when a dialog is run. Every time that you run a dialog, a dialog session is created.|
+|4711|Expander Event|For internal use only. An event that will be expanded into jobs whose executions can proceed in the background.|
+|4712|Process Trigger|Trigger that invoke a rule.|
+|4724|Process Stage|Stage associated with a process.|
+|4725|Business Process Flow Instance|Active path associated with every Business Process Flow instance|
+|4800|Web Wizard|Definition for a Web-based wizard.|
+|4802|Wizard Page|Page in a Web-based wizard.|
+|4803|Web Wizard Access Privilege|Privilege needed to access a Web-based wizard.|
+|4810|Time Zone Definition|Time zone definition, including name and time zone code.|
+|4811|Time Zone Rule|Definition for time conversion between local time and Coordinated Universal Time (UTC) for a particular time zone at a particular time period.|
+|4812|Time Zone Localized Name|Localized name of the time zone.|
+|6363|Entitlement Product||
+|7000|System Application Metadata|For internal use only.|
+|7001|User Application Metadata|For internal use only.|
+|7100|Solution|A solution which contains CRM customizations.|
+|7101|Publisher|A publisher of a CRM solution.|
+|7102|Publisher Address|Address and shipping information. Used to store additional addresses for a publisher.|
+|7103|Solution Component|A component of a CRM solution.|
+|7105|Dependency|A component dependency in CRM.|
+|7106|Dependency Node|The representation of a component dependency node in CRM.|
+|7107|Invalid Dependency|An invalid dependency in the CRM system.|
+|7108|Dependency Feature|A dependency feature.|
+|7200|RuntimeDependency|Form Level dependencies in CRM.|
+|7272|Entitlement Contact||
+|8000|Post|An activity feed post.|
+|8001|Post Role|Represents the objects with which an activity feed post is associated. For internal use only.|
+|8002|Post Regarding|Represents which object an activity feed post is regarding. For internal use only.|
+|8003|Follow|Represents a user following the activity feed of an object.|
+|8005|Comment|A comment on an activity feed post.|
+|8006|Like|A like on an activity feed post.|
+|8040|ACIViewMapper|Customized messages for an entity that has been renamed.|
+|8050|Trace|A trace log.|
+|8051|Trace Association|Represents the objects with which a trace record is associated. For internal use only.|
+|8052|Trace Regarding|Represents which object a trace record is regarding. For internal use only.|
+|8181|Routing Rule Set|Define Routing Rule to route cases to right people at the right time|
+|8199|Rule Item|Please provide the description for entity|
+|8700|AppModule Metadata|For internal use only.|
+|8701|AppModule Metadata Dependency|For internal use only.|
+|8702|AppModule Metadata Async Operation|For internal use only.|
+|8840|Hierarchy Rule|Organization-owned entity customizations including mapping Quick view form with Relationship Id|
+|9006|App|A role-based, modular business app that provides task-based functionality for a particular area of work.|
+|9007|App Module Component|A component available in a business app such as entity, dashboard, form, view, chart, and business process.|
+|9009|App Module Roles|Security roles that have access to a business app.|
+|9011|App Config Master|Contains the master list of all properties that can be customized for apps in Dynamics 365. For internal use only.|
+|9012|App Configuration|Contains a mapping between an app configuration instance and an app, which defines the properties that can be customized for the app. Optionally, also contains navigation setting for an app. For internal use only.|
+|9013|App Configuration Instance|Contains a property or a list of properties from the app configuration master list that can be customized for any app in Dynamics 365. For internal use only.|
+|9100|Report|Data summary in an easy-to-read layout.|
+|9101|Report Related Entity|Entities related to a report. A report can be related to multiple entities.|
+|9102|Report Related Category|Categories related to a report. A report can be related to multiple categories.|
+|9103|Report Visibility|Area in which to show a report. A report can be shown in multiple areas.|
+|9104|Report Link|Links and dependencies between reports. A report may drill through to another report, or it may have another report as a sub-report.|
+|9105|Currency|Currency in which a financial transaction is carried out.|
+|9106|Mail Merge Template|Template for a mail merge document that contains the standard attributes of that document.|
+|9107|Import Job|For internal use only.|
+|9201|LocalConfigStore||
+|9300|Record Creation and Update Rule|Defines the settings for automatic record creation.|
+|9301|Record Creation and Update Rule Item|Defines the individual conditions required for creating records automatically.|
+|9333|Web Resource|Data equivalent to files used in Web development. Web resources provide client-side components that are used to provide custom user interface elements.|
+|9400|Channel Access Profile Rule|Defines the rules for automatically associating channel access profiles to external party records.For internal use only|
+|9401|Channel Access Profile Rule Item|Defines the rule items of a profile rule set for the automated profile association.For internal use only|
+|9502|SharePoint Site|SharePoint site from where documents can be managed in Microsoft Dynamics 365.|
+|9507|Sharepoint Document|Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.|
+|9508|Document Location|Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.|
+|9509|SharePoint Data|SharePoint's Data Corresponding to a user , Record , Location and Page|
+|9510|Rollup Properties|Stores properties related to rollup fields.|
+|9511|Rollup Job|Stores rollup jobs.|
+|9600|Goal|Target objective for a user or a team for a specified time period.|
+|9602|Rollup Query|Query that is used to filter the results of the goal rollup.|
+|9603|Goal Metric|Type of measurement for a goal, such as money amount or count.|
+|9604|Rollup Field|Field to be rolled up to calculate the actual and in-progress values against the goal.|
+|9605|Email Server Profile|Holds the Email Server Profiles of an organization|
+|9606|Mailbox||
+|9607|Mailbox Statistics|Stores data regarding Mailbox processing cycles|
+|9608|Mailbox Auto Tracking Folder|Stores data about what folders for a mailbox are auto tracked|
+|9609|Mailbox Tracking Category|Stores data about what categories for a mailbox are tracked|
+|9650|Process Configuration|For internal use only.|
+|9690|Organization Insights Notification|Stores data regarding organization insights notification|
+|9699|Organization Insights Metric|Stores data regarding organization insights metric|
+|9700|Entitlement|Defines the amount and type of support a customer should receive.|
+|9701|Entitlement Channel|Defines the amount and type of support for a channel.|
+|9702|Entitlement Template|Contains predefined customer support terms that can be used to created entitlements for customers.|
+|9703|Entitlement Template Channel|Contains predefined support terms for a channel to create entitlements for customers.|
+|9750|SLA|Contains information about the tracked service-level KPIs for cases that belong to different customers.|
+|9751|SLA Item|Contains information about a tracked support KPI for a specific customer.|
+|9752|SLA KPI Instance|Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case|
+|9753|Custom Control|For internal use only.|
+|9754|Custom Control Resource|Custom Control Resource Id|
+|9755|Custom Control Default Config|For internal use only.|
+|9866|Mobile Offline Profile|Information to administer and manage the data available to mobile devices in offline mode.|
+|9867|Mobile Offline Profile Item|Information on entity availability to mobile devices in offline mode for a mobile offline profile item.|
+|9868|Mobile Offline Profile Item Association|Information on relationships to be used to follow related entity's records for mobile offline profile item.|
+|9869|Sync Error|Failure reason and other detailed information for a record that failed to sync.|
+|9870|Offline Command Definition|For internal use only.|
+|9900|Navigation Setting|Navigation Setting: A setting page or group of pages available for configuration within an app. A record representing a group of pages is regarded as the parent navigation setting of one or more other records. For internal use only.|
+|9910|MultiEntitySearch|Multi Entity Search.|
+|9912|Multi Select Option Value|Multi Select Option Value|
+|9919|Hierarchy Security Configuration||
+|9930|Knowledge Base Record|Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.|
+|9931|Incident KnowledgeBaseRecord||
+|9932|Time Stamp Date Mapping|For internal use only.`|
+|9936|Azure Service Connection|Stores connection information for an Azure service|
+|9940|Document Template|Used to store Document Templates in database in binary format.|
+|9941|Personal Document Template|Used to store Personal Document Templates in database in binary format.|
+|9942|Topic Model Configuration|Configuration settings for identification of topics using text analytics.|
+|9943|Topic Model Execution History|Entity for Topic Model Execution History|
+|9944|Topic Model|The model for automatic identification of topics using text analytics.|
+|9945|Text Analytics Entity Mapping||
+|9946|Topic History|Entity for Topic History|
+|9947|Knowledge Search Model|Configuration for automatic suggestion of knowledge articles using text analytics and search|
+|9948|Text Analytics Topic|Text Analytics Topics|
+|9949|Advanced Similarity Rule|A text match rule identifies similar records using keywords and key phrases determined with text analytics|
+|9950|Office Graph Document|Office Graph Documents Description|
+|9951|Similarity Rule||
+|9953|Knowledge Article|Organizational knowledge for internal and external use.|
+|9954|Knowledge Article Incident|Association between an knowledge article and incident.|
+|9955|Knowledge Article Views|No of times an article is viewed per day|
+|9957|Language|Language|
+|9958|Feedback|Container for feedback and ratings for knowledge articles.|
+|9959|Category|Entity for categorizing records to make it easier for your customers to find them on portals and through search.|
+|9960|Knowledge Article Category|Category for a Knowledge Article.|
+|9961|DelveActionHub|Delve Action Hubs Description|
+|9962|Action Card|Action card entity to show action cards.|
+|9968|ActionCardUserState||
+|9973|Action Card User Settings|Stores user settings for action cards|
+|9983|Action Card Type|To provide master data for the card types list. For internal use only|
+|9986|Interaction for Email||
+|9987|External Party Item|Information about external party items that need to access Dynamics 365 from external channels.For internal use only|
+|9997|Email Signature|Signature for email message|
+|10000|OData v4 Data Source|Data sources used by the OData v4 data provider to access data from an external web service.|
+|10001|Solution Component Summary||
+|10002|Solution Component Data Source||
+|10003|msdyn_relationshipinsightsunifiedconfig||
+|10004|siconfig||
+|10005|Profile Album|Contains user profile images that are stored as attachments and displayed in posts.|
+|10006|Post Configuration|Enable or disable entities for Activity Feeds and Yammer collaboration.|
+|10007|Post Rule Configuration|Enable or disable system post rules for an entity for Activity Feeds and Yammer.|
+|10008|Wall View|Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.|
+|10009|Filter|Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.|
 
 
 
@@ -1131,659 +881,411 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### MatchingEntityTypeCode Options
+#### MatchingEntityTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Account|
-|2|Contact|
-|3|Opportunity|
-|4|Lead|
-|5|Note|
-|6|Business Unit Map|
-|7|Owner|
-|8|User|
-|9|Team|
-|10|Business Unit|
-|14|System User Principal|
-|16|AccountLeads|
-|17|ContactInvoices|
-|18|ContactQuotes|
-|19|ContactOrders|
-|20|Service Contract Contact|
-|21|ProductSalesLiterature|
-|22|ContactLeads|
-|24|LeadCompetitors|
-|25|OpportunityCompetitors|
-|26|CompetitorSalesLiterature|
-|27|LeadProduct|
-|29|Subscription|
-|30|Filter Template|
-|31|Privilege Object Type Code|
-|32|Sales Process Instance|
-|33|Subscription Synchronization Information|
-|35|Tracking information for deleted entities|
-|36|Client update|
-|37|Subscription Manually Tracked Object|
-|42|SystemUser BusinessUnit Entity Map|
-|44|Field Sharing|
-|45|Subscription Statistic Offline|
-|46|Subscription Statistic Outlook|
-|47|Subscription Sync Entry Offline|
-|48|Subscription Sync Entry Outlook|
-|50|Position|
-|51|System User Manager Map|
-|52|User Search Facet|
-|54|Global Search Configuration|
-|55|FileAttachment|
-|78|Virtual Entity Data Provider|
-|85|Virtual Entity Data Source|
-|92|Team template|
-|99|Social Profile|
-|112|Case|
-|113|Child Incident Count|
-|123|Competitor|
-|126|Indexed Article|
-|127|Article|
-|129|Subject|
-|132|Announcement|
-|135|Activity Party|
-|150|User Settings|
-|300|Canvas App|
-|301|Callback Registration|
-|371|Connector|
-|950|New Process|
-|951|Translation Process|
-|952|Phone To Case Process|
-|953|Opportunity Sales Process|
-|954|Lead To Opportunity Sales Process|
-|955|Expired Process|
-|1001|Attachment|
-|1002|Attachment|
-|1003|Internal Address|
-|1004|Competitor Address|
-|1006|Competitor Product|
-|1007|Image Descriptor|
-|1010|Contract|
-|1011|Contract Line|
-|1013|Discount|
-|1016|Article Template|
-|1017|Lead Address|
-|1019|Organization|
-|1021|Organization UI|
-|1022|Price List|
-|1023|Privilege|
-|1024|Product|
-|1025|Product Association|
-|1026|Price List Item|
-|1028|Product Relationship|
-|1030|System Form|
-|1031|User Dashboard|
-|1036|Security Role|
-|1037|Role Template|
-|1038|Sales Literature|
-|1039|View|
-|1043|String Map|
-|1048|Property|
-|1049|Property Option Set Item|
-|1055|Unit|
-|1056|Unit Group|
-|1070|Sales Attachment|
-|1071|Address|
-|1072|Subscription Clients|
-|1075|Status Map|
-|1080|Discount List|
-|1082|Article Comment|
-|1083|Opportunity Line|
-|1084|Quote|
-|1085|Quote Line|
-|1086|User Fiscal Calendar|
-|1088|Order|
-|1089|Order Line|
-|1090|Invoice|
-|1091|Invoice Line|
-|1094|Authorization Server|
-|1095|Partner Application|
-|1111|System Chart|
-|1112|User Chart|
-|1113|Ribbon Tab To Command Mapping|
-|1115|Ribbon Context Group|
-|1116|Ribbon Command|
-|1117|Ribbon Rule|
-|1120|Application Ribbons|
-|1130|Ribbon Difference|
-|1140|Replication Backlog|
-|1141|Characteristic|
-|1142|Rating Value|
-|1144|Rating Model|
-|1145|Bookable Resource Booking|
-|1146|Bookable Resource Booking Header|
-|1147|Bookable Resource Category|
-|1148|Bookable Resource Characteristic|
-|1149|Bookable Resource Category Assn|
-|1150|Bookable Resource|
-|1151|Bookable Resource Group|
-|1152|Booking Status|
-|1189|Document Suggestions|
-|1190|SuggestionCardTemplate|
-|1200|Field Security Profile|
-|1201|Field Permission|
-|1203|Team Profiles|
-|1234|Channel Property Group|
-|1235|Property Association|
-|1236|Channel Property|
-|1300|SocialInsightsConfiguration|
-|1309|Saved Organization Insights Configuration|
-|1333|Property Instance|
-|1400|Sync Attribute Mapping Profile|
-|1401|Sync Attribute Mapping|
-|1403|Team Sync-Attribute Mapping Profiles|
-|1404|Principal Sync Attribute Map|
-|2000|Annual Fiscal Calendar|
-|2001|Semiannual Fiscal Calendar|
-|2002|Quarterly Fiscal Calendar|
-|2003|Monthly Fiscal Calendar|
-|2004|Fixed Monthly Fiscal Calendar|
-|2010|Email Template|
-|2011|Contract Template|
-|2012|Unresolved Address|
-|2013|Territory|
-|2015|Theme|
-|2016|User Mapping|
-|2020|Queue|
-|2023|QueueItemCount|
-|2024|QueueMemberCount|
-|2027|License|
-|2029|Queue Item|
-|2500|User Entity UI Settings|
-|2501|User Entity Instance Data|
-|3000|Integration Status|
-|3005|Channel Access Profile|
-|3008|External Party|
-|3231|Connection Role|
-|3233|Connection Role Object Type Code|
-|3234|Connection|
-|4000|Facility/Equipment|
-|4001|Service|
-|4002|Resource|
-|4003|Calendar|
-|4004|Calendar Rule|
-|4005|Scheduling Group|
-|4006|Resource Specification|
-|4007|Resource Group|
-|4009|Site|
-|4010|Resource Expansion|
-|4011|Inter Process Lock|
-|4023|Email Hash|
-|4101|Display String Map|
-|4102|Display String|
-|4110|Notification|
-|4120|Exchange Sync Id Mapping|
-|4200|Activity|
-|4201|Appointment|
-|4202|Email|
-|4204|Fax|
-|4206|Case Resolution|
-|4207|Letter|
-|4208|Opportunity Close|
-|4209|Order Close|
-|4210|Phone Call|
-|4211|Quote Close|
-|4212|Task|
-|4214|Service Activity|
-|4215|Commitment|
-|4216|Social Activity|
-|4220|UntrackedEmail|
-|4230|Saved View|
-|4231|Metadata Difference|
-|4232|Business Data Localized Label|
-|4250|Recurrence Rule|
-|4251|Recurring Appointment|
-|4299|Email Search|
-|4300|Marketing List|
-|4301|Marketing List Member|
-|4400|Campaign|
-|4401|Campaign Response|
-|4402|Campaign Activity|
-|4403|Campaign Item|
-|4404|Campaign Activity Item|
-|4405|Bulk Operation Log|
-|4406|Quick Campaign|
-|4410|Data Import|
-|4411|Data Map|
-|4412|Import Source File|
-|4413|Import Data|
-|4414|Duplicate Detection Rule|
-|4415|Duplicate Record|
-|4416|Duplicate Rule Condition|
-|4417|Column Mapping|
-|4418|List Value Mapping|
-|4419|Lookup Mapping|
-|4420|Owner Mapping|
-|4421|Bookable Resource Booking to Exchange Id Mapping|
-|4423|Import Log|
-|4424|Bulk Delete Operation|
-|4425|Bulk Delete Failure|
-|4426|Transformation Mapping|
-|4427|Transformation Parameter Mapping|
-|4428|Import Entity Mapping|
-|4450|Data Performance Dashboard|
-|4490|Office Document|
-|4500|Relationship Role|
-|4501|Relationship Role Map|
-|4502|Customer Relationship|
-|4503|Opportunity Relationship|
-|4545|Entitlement Template Product|
-|4567|Auditing|
-|4579|Ribbon Client Metadata.|
-|4600|Entity Map|
-|4601|Attribute Map|
-|4602|Plug-in Type|
-|4603|Plug-in Type Statistic|
-|4605|Plug-in Assembly|
-|4606|Sdk Message|
-|4607|Sdk Message Filter|
-|4608|Sdk Message Processing Step|
-|4609|Sdk Message Request|
-|4610|Sdk Message Response|
-|4611|Sdk Message Response Field|
-|4613|Sdk Message Pair|
-|4614|Sdk Message Request Field|
-|4615|Sdk Message Processing Step Image|
-|4616|Sdk Message Processing Step Secure Configuration|
-|4618|Service Endpoint|
-|4619|Plug-in Trace Log|
-|4700|System Job|
-|4702|Workflow Wait Subscription|
-|4703|Process|
-|4704|Process Dependency|
-|4705|ISV Config|
-|4706|Process Log|
-|4707|Application File|
-|4708|Organization Statistic|
-|4709|Site Map|
-|4710|Process Session|
-|4711|Expander Event|
-|4712|Process Trigger|
-|4724|Process Stage|
-|4725|Business Process Flow Instance|
-|4800|Web Wizard|
-|4802|Wizard Page|
-|4803|Web Wizard Access Privilege|
-|4810|Time Zone Definition|
-|4811|Time Zone Rule|
-|4812|Time Zone Localized Name|
-|6363|Entitlement Product|
-|7000|System Application Metadata|
-|7001|User Application Metadata|
-|7100|Solution|
-|7101|Publisher|
-|7102|Publisher Address|
-|7103|Solution Component|
-|7105|Dependency|
-|7106|Dependency Node|
-|7107|Invalid Dependency|
-|7108|Dependency Feature|
-|7200|RuntimeDependency|
-|7272|Entitlement Contact|
-|8000|Post|
-|8001|Post Role|
-|8002|Post Regarding|
-|8003|Follow|
-|8005|Comment|
-|8006|Like|
-|8040|ACIViewMapper|
-|8050|Trace|
-|8051|Trace Association|
-|8052|Trace Regarding|
-|8181|Routing Rule Set|
-|8199|Rule Item|
-|8700|AppModule Metadata|
-|8701|AppModule Metadata Dependency|
-|8702|AppModule Metadata Async Operation|
-|8840|Hierarchy Rule|
-|9006|Model-driven App|
-|9007|App Module Component|
-|9009|App Module Roles|
-|9011|App Config Master|
-|9012|App Configuration|
-|9013|App Configuration Instance|
-|9100|Report|
-|9101|Report Related Entity|
-|9102|Report Related Category|
-|9103|Report Visibility|
-|9104|Report Link|
-|9105|Currency|
-|9106|Mail Merge Template|
-|9107|Import Job|
-|9201|LocalConfigStore|
-|9300|Record Creation and Update Rule|
-|9301|Record Creation and Update Rule Item|
-|9333|Web Resource|
-|9400|Channel Access Profile Rule|
-|9401|Channel Access Profile Rule Item|
-|9502|SharePoint Site|
-|9507|Sharepoint Document|
-|9508|Document Location|
-|9509|SharePoint Data|
-|9510|Rollup Properties|
-|9511|Rollup Job|
-|9600|Goal|
-|9602|Rollup Query|
-|9603|Goal Metric|
-|9604|Rollup Field|
-|9605|Email Server Profile|
-|9606|Mailbox|
-|9607|Mailbox Statistics|
-|9608|Mailbox Auto Tracking Folder|
-|9609|Mailbox Tracking Category|
-|9650|Process Configuration|
-|9690|Organization Insights Notification|
-|9699|Organization Insights Metric|
-|9700|Entitlement|
-|9701|Entitlement Channel|
-|9702|Entitlement Template|
-|9703|Entitlement Template Channel|
-|9704|Entitlement Entity Allocation Type Mapping|
-|9750|SLA|
-|9751|SLA Item|
-|9752|SLA KPI Instance|
-|9753|Custom Control|
-|9754|Custom Control Resource|
-|9755|Custom Control Default Config|
-|9866|Mobile Offline Profile|
-|9867|Mobile Offline Profile Item|
-|9868|Mobile Offline Profile Item Association|
-|9869|Sync Error|
-|9870|Offline Command Definition|
-|9875|Language Provisioning State|
-|9890|SolutionHistoryData|
-|9900|Navigation Setting|
-|9910|MultiEntitySearch|
-|9912|Multi Select Option Value|
-|9919|Hierarchy Security Configuration|
-|9930|Knowledge Base Record|
-|9931|Incident KnowledgeBaseRecord|
-|9932|Time Stamp Date Mapping|
-|9936|Azure Service Connection|
-|9940|Document Template|
-|9941|Personal Document Template|
-|9942|Topic Model Configuration|
-|9943|Topic Model Execution History|
-|9944|Topic Model|
-|9945|Text Analytics Entity Mapping|
-|9946|Topic History|
-|9947|Knowledge Search Model|
-|9948|Text Analytics Topic|
-|9949|Advanced Similarity Rule|
-|9950|Office Graph Document|
-|9951|Similarity Rule|
-|9953|Knowledge Article|
-|9954|Knowledge Article Incident|
-|9955|Knowledge Article Views|
-|9957|Language|
-|9958|Feedback|
-|9959|Category|
-|9960|Knowledge Article Category|
-|9961|DelveActionHub|
-|9962|Action Card|
-|9968|ActionCardUserState|
-|9973|Action Card User Settings|
-|9983|Action Card Type|
-|9986|Interaction for Email|
-|9987|External Party Item|
-|9996|HolidayWrapper|
-|9997|Email Signature|
-|10000|OData v4 Data Source|
-|10001|Solution Component Summary|
-|10002|Solution Component Data Source|
-|10003|Solution History|
-|10004|Solution History Data Source|
-|10005|Component Layer|
-|10006|Component Layer Data Source|
-|10007|Database Version|
-|10008|Upgrade Run|
-|10009|Upgrade Step|
-|10010|Upgrade Version|
-|10011|Playbook Callable Context|
-|10012|Playbook activity|
-|10013|Playbook activity attribute|
-|10014|Playbook category|
-|10015|Playbook|
-|10016|Playbook template|
-|10018|admin_settings_entity|
-|10019|Forecast definition|
-|10020|Forecast|
-|10021|Forecast recurrence|
-|10022|msdyn_relationshipinsightsunifiedconfig|
-|10023|siconfig|
-|10024|UntrackedAppointment|
-|10025|Notes analysis Config|
-|10026|icebreakersconfig|
-|10027|Profile Album|
-|10028|Post Configuration|
-|10029|Post Rule Configuration|
-|10030|Wall View|
-|10031|Filter|
-|10032|Survey email template|
-|10033|Survey question|
-|10034|Survey question response|
-|10035|Survey|
-|10036|Survey invite|
-|10037|Survey response|
-|10038|Unsubscribed recipient|
-|10039|Microsoft Teams Collaboration entity|
-|10040|Actual|
-|10041|Bookable Resource Association|
-|10042|Booking Alert|
-|10043|Booking Alert Status|
-|10044|Booking Change|
-|10045|Booking Rule|
-|10046|Booking Setup Metadata|
-|10047|Business Closure|
-|10048|Client Extension|
-|10049|Configuration|
-|10050|Organizational Unit|
-|10051|Priority|
-|10052|Requirement Characteristic|
-|10053|Requirement Group|
-|10054|Requirement Organization Unit|
-|10055|Requirement Relationship|
-|10056|Requirement Resource Category|
-|10057|Requirement Resource Preference|
-|10058|Requirement Status|
-|10059|Resource Requirement|
-|10060|Resource Requirement Detail|
-|10061|Resource Territory|
-|10062|Schedule Board Setting|
-|10063|Scheduling Parameter|
-|10064|System User Scheduler Setting|
-|10065|Fulfillment Preference|
-|10066|Time Group Detail|
-|10067|Transaction Origin|
-|10068|Work template|
-|10069|Account Project Price List|
-|10070|Project Service Approval|
-|10071|Batch Job|
-|10072|Project Stages|
-|10073|Invoice Process|
-|10074|Competency Requirement (Deprecated)|
-|10075|Contact Price List|
-|10076|Project Contract Line Invoice Schedule|
-|10077|Project Contract Line Milestone|
-|10078|Actual Data Export (Deprecated)|
-|10079|Delegation|
-|10080|Pricing Dimension|
-|10081|Pricing Dimension Field Name|
-|10082|Estimate|
-|10083|Estimate Line|
-|10084|Expense|
-|10085|Expense Category|
-|10086|Expense Receipt|
-|10087|Fact|
-|10088|Field Computation|
-|10089|Find Work Event (Deprecated in v3.0)|
-|10090|Integration Job|
-|10091|Integration Job Detail|
-|10092|Invoice Frequency|
-|10093|Invoice Frequency Detail|
-|10094|Invoice Line Detail|
-|10095|Journal|
-|10096|Journal Line|
-|10097|Result Cache|
-|10098|Opportunity Line Resource Category (Deprecated)|
-|10099|Opportunity Line Detail (Deprecated)|
-|10100|Opportunity Line Transaction Category (Deprecated)|
-|10101|Opportunity Line Transaction Classification (Deprecated)|
-|10102|Opportunity Project Price List|
-|10103|Project Contract Line Resource Category|
-|10104|Project Contract Line Detail|
-|10105|Project Contract Line Transaction Category|
-|10106|Project Contract Line Transaction Classification|
-|10107|Project Contract Project Price List|
-|10108|Process Notes|
-|10109|Project|
-|10110|Project Approval|
-|10111|Project Parameter|
-|10112|Project Parameter Price List|
-|10113|Project Price List|
-|10114|Project Task|
-|10115|Project Task Dependency|
-|10116|Project Task Status User|
-|10117|Project Team Member|
-|10118|Project Team Member Sign-Up (Deprecated in v3.0)|
-|10119|Project Transaction Category (Deprecated)|
-|10120|Quote Line Analytics Breakdown|
-|10121|Quote Line Invoice Schedule|
-|10122|Quote Line Resource Category|
-|10123|Quote Line Milestone|
-|10124|Quote Line Detail|
-|10125|Quote Line Transaction Category|
-|10126|Quote Line Transaction Classification|
-|10127|Quote Project Price List|
-|10128|Resource Assignment|
-|10129|Resource Assignment Detail (Deprecated in v2.0)|
-|10130|Role Price Markup|
-|10131|Role Price|
-|10132|Resource Request|
-|10133|Role competency requirement|
-|10134|Role Utilization|
-|10135|Time Entry|
-|10136|Time Off Calendar|
-|10137|Transaction Category|
-|10138|Transaction Category Classification|
-|10139|Transaction Category Hierarchy Element|
-|10140|Transaction Category Price|
-|10141|Transaction Connection|
-|10142|Transaction Type|
-|10143|User Work History|
-|10148|Three-Dimensional Model|
-|10149|Analysis Component|
-|10150|Analysis Job|
-|10151|Analysis Result|
-|10152|Analysis Result Detail|
-|10153|Solution Health Rule|
-|10154|Solution Health Rule Argument|
-|10155|Solution Health Rule Set|
-|10156|Agreement|
-|10157|Agreement Booking Date|
-|10158|Agreement Booking Incident|
-|10159|Agreement Booking Product|
-|10160|Agreement Booking Service|
-|10161|Agreement Booking Service Task|
-|10162|Agreement Booking Setup|
-|10163|Agreement Invoice Date|
-|10164|Agreement Invoice Product|
-|10165|Agreement Invoice Setup|
-|10166|Agreement Substatus|
-|10167|Booking Journal|
-|10168|Booking Timestamp|
-|10169|Purchase Order Business Process|
-|10170|Case to Work Order Business Process|
-|10171|Agreement Business Process|
-|10172|Work Order Business Process|
-|10173|Customer Asset|
-|10174|Customer Asset Category|
-|10175|Entitlement Application|
-|10176|Field Service Price List Item|
-|10177|Field Service Setting|
-|10178|Field Service SLA Configuration|
-|10179|Field Service System Job|
-|10180|Incident Type|
-|10181|Incident Type Characteristic|
-|10182|Incident Type Product|
-|10183|Incident Type Service|
-|10184|Incident Type Service Task|
-|10185|Incident Types Setup|
-|10186|Incident Type Requirement Group|
-|10187|Inventory Adjustment|
-|10188|Inventory Adjustment Product|
-|10189|Inventory Journal|
-|10190|Inventory Transfer|
-|10191|Order Invoicing Date|
-|10192|Order Invoicing Product|
-|10193|Order Invoicing Setup|
-|10194|Order Invoicing Setup Date|
-|10195|Payment|
-|10196|Payment Detail|
-|10197|Payment Method|
-|10198|Payment Term|
-|10199|Postal Code|
-|10200|Product Inventory|
-|10201|Purchase Order|
-|10202|Purchase Order Bill|
-|10203|Purchase Order Product|
-|10204|Purchase Order Receipt|
-|10205|Purchase Order Receipt Product|
-|10206|Purchase Order SubStatus|
-|10207|Quote Booking Incident|
-|10208|Quote Booking Product|
-|10209|Quote Booking Service|
-|10210|Quote Booking Service Task|
-|10211|Quote Booking Setup|
-|10212|Quote Invoicing Product|
-|10213|Quote Invoicing Setup|
-|10214|Resource Pay Type|
-|10215|RMA|
-|10216|RMA Product|
-|10217|RMA Receipt|
-|10218|RMA Receipt Product|
-|10219|RMA SubStatus|
-|10220|RTV|
-|10221|RTV Product|
-|10222|RTV Substatus|
-|10223|Service Task Type|
-|10224|Ship Via|
-|10225|Tax Code|
-|10226|Tax Code Detail|
-|10227|Time Off Request|
-|10228|Unique Number|
-|10229|Warehouse|
-|10230|Work Order|
-|10231|Work Order Characteristic (Deprecated)|
-|10232|Work Order Details Generation Queue (Deprecated)|
-|10233|Work Order Incident|
-|10234|Work Order Product|
-|10235|Resource Restriction (Deprecated)|
-|10236|Work Order Service|
-|10237|Work Order Service Task|
-|10238|Work Order Substatus|
-|10239|Work Order Type|
-|10241|IoT Alert|
-|10242|IoT Device|
-|10243|IoT Device Category|
-|10244|IoT Device Command|
-|10245|IoT Device Command Definition|
-|10246|IoT Device Data History|
-|10247|IoT Device Property|
-|10248|IoT Device Registration History|
-|10249|IoT Property Definition|
-|10250|IoT Settings|
-|10253|CFS - IoT Alert Process Flow|
-|10254|Entity Configuration|
-|10255|Geofence|
-|10256|Geofence Event|
-|10257|Geofencing Settings|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Account|Business that represents a customer or potential customer. The company that is billed in business transactions.|
+|2|Contact|Person with whom a business unit has a relationship, such as customer, supplier, and colleague.|
+|3|Opportunity|Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion.|
+|4|Lead|Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.|
+|5|Note|Note that is attached to one or more objects, including other notes.|
+|6|Business Unit Map|Stores mapping attributes for business units.|
+|7|Owner|Group of undeleted system users and undeleted teams. Owners can be used to control access to specific objects.|
+|8|User|Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.|
+|9|Team|Collection of system users that routinely collaborate. Teams can be used to simplify record sharing and provide team members with common access to organization data when team members belong to different Business Units.|
+|10|Business Unit|Business, division, or department in the Microsoft Dynamics 365 database.|
+|14|System User Principal|For internal use only.|
+|16|AccountLeads|description.|
+|17|ContactInvoices||
+|18|ContactQuotes||
+|19|ContactOrders||
+|20|Service Contract Contact|Item in a Service contract.|
+|21|ProductSalesLiterature||
+|22|ContactLeads||
+|24|LeadCompetitors||
+|25|OpportunityCompetitors||
+|26|CompetitorSalesLiterature||
+|27|LeadProduct||
+|29|Subscription|For internal use only.|
+|30|Filter Template|Template for a filter.|
+|31|Privilege Object Type Code|For internal use only.|
+|32|Sales Process Instance|Instance of a sales process.|
+|33|Subscription Synchronization Information|For internal use only.|
+|35|Tracking information for deleted entities|For internal use only.|
+|36|Client update|Microsoft Dynamics 365 client for Outlook offline database update.|
+|37|Subscription Manually Tracked Object|For internal use only.|
+|42|SystemUser BusinessUnit Entity Map|Stores mapping attributes for business units.|
+|44|Field Sharing|Defines CRM security principals (users and teams) access rights to secured field for an entity instance.|
+|45|Subscription Statistic Offline|Subscription Statistic Offline|
+|46|Subscription Statistic Outlook|Subscription Statistic Outlook|
+|47|Subscription Sync Entry Offline|Used for offline sync, internal use only.|
+|48|Subscription Sync Entry Outlook|Used for outlook sync, internal use only.|
+|50|Position|Position of a user in the hierarchy|
+|51|System User Manager Map|For internal use only.|
+|52|User Search Facet||
+|54|Global Search Configuration||
+|78|Virtual Entity Data Provider|Developers can register plug-ins on a data provider to enable data access for virtual entities in the system.|
+|85|Virtual Entity Data Source|Internal entity that stores data source information for all installed providers.|
+|92|Team template|Team template for an entity enabled for automatically created access teams.|
+|99|Social Profile|This entity is used to store social profile information of its associated account and contacts on different social channels.|
+|112|Case|Service request case associated with a contract.|
+|113|Child Incident Count|For internal use only.|
+|123|Competitor|Business competing for the sale represented by a lead or opportunity.|
+|126|Indexed Article|Article indexed for search purposes.|
+|127|Article|Structured content that is part of the knowledge base.|
+|129|Subject|Information regarding subjects available in the system.|
+|132|Announcement|Announcement associated with an organization.|
+|135|Activity Party|Person or group associated with an activity. An activity can have multiple activity parties.|
+|150|User Settings|User's preferred settings.|
+|950|New Process|New Process Business Process Flow|
+|951|Translation Process|Translation Process Business Process Flow|
+|952|Phone To Case Process|Phone To Case Process Business Process Flow|
+|953|Opportunity Sales Process|Opportunity Sales Process Business Process Flow|
+|954|Lead To Opportunity Sales Process|Lead To Opportunity Sales Process Business Process Flow|
+|955|Expired Process|Expired Process Business Process Flow|
+|1001|Attachment|MIME attachment for an activity.|
+|1002|Attachment|Attachment for an email activity.|
+|1003|Internal Address|Storage of addresses for a user, business unit, or site.|
+|1004|Competitor Address|Additional addresses for a competitor. The first two addresses are stored in the competitor object.|
+|1006|Competitor Product|Association between a competitor and a product offered by the competitor.|
+|1007|Image Descriptor|For internal use only.|
+|1010|Contract|Agreement to provide customer service during a specified amount of time or number of cases.|
+|1011|Contract Line|Line item in a contract that specifies the type of service a customer is entitled to.|
+|1013|Discount|Price reduction made from the list price of a product or service based on the quantity purchased.|
+|1016|Article Template|Template for a knowledge base article that contains the standard attributes of an article.|
+|1017|Lead Address|Address information for a lead.|
+|1019|Organization|Top level of the Microsoft Dynamics 365 business hierarchy. The organization can be a specific business, holding company, or corporation.|
+|1021|Organization UI|Entity customizations including form layout and icons. Includes current and past versions.|
+|1022|Price List|Entity that defines pricing levels.|
+|1023|Privilege|Permission to perform an action in Microsoft CRM. The platform checks for the privilege and rejects the attempt if the user does not hold the privilege.|
+|1024|Product|Information about products and their pricing information.|
+|1025|Product Association|Instance of a product added to a bundle or kit.|
+|1026|Price List Item|Information about how to price a product in the specified price level, including pricing method, rounding option, and discount type based on a specified product unit.|
+|1028|Product Relationship|Information about the selling relationship between two products, including the relationship type, such as up-sell, cross-sell, substitute, or accessory.|
+|1030|System Form|Organization-owned entity customizations including form layout and dashboards.|
+|1031|User Dashboard|User-owned dashboards.|
+|1036|Security Role|Grouping of security privileges. Users are assigned roles that authorize their access to the Microsoft CRM system.|
+|1037|Role Template|Template for a role. Defines initial attributes that will be used when creating a new role.|
+|1038|Sales Literature|Storage of sales literature, which may contain one or more documents.|
+|1039|View|Saved query against the database.|
+|1043|String Map|Mapping between strings.|
+|1048|Property|Information about a product property.|
+|1049|Property Option Set Item|Item with a name and value in a property option set type.|
+|1055|Unit|Unit of measure.|
+|1056|Unit Group|Grouping of units.|
+|1070|Sales Attachment|Item in the sales literature collection.|
+|1071|Address|Address and shipping information. Used to store additional addresses for an account or contact.|
+|1072|Subscription Clients|For internal use only.|
+|1075|Status Map|Mapping between statuses.|
+|1080|Discount List|Type of discount specified as either a percentage or an amount.|
+|1082|Article Comment|Comment on a knowledge base article.|
+|1083|Opportunity Product|Association between an opportunity and a product.|
+|1084|Quote|Formal offer for products and/or services, proposed at specific prices and related payment terms, which is sent to a prospective customer.|
+|1085|Quote Product|Product line item in a quote. The details include such information as product ID, description, quantity, and cost.|
+|1086|User Fiscal Calendar|Custom fiscal calendar used for tracking sales quotas.|
+|1088|Order|Quote that has been accepted.|
+|1089|Order Product|Line item in a sales order.|
+|1090|Invoice|Order that has been billed.|
+|1091|Invoice Product|Line item in an invoice containing detailed billing information for a product.|
+|1094|Authorization Server|Authorization servers that trust this organization|
+|1095|Partner Application|Partner applications registered for this organization|
+|1111|System Chart|System chart attached to an entity.|
+|1112|User Chart|Chart attached to an entity.|
+|1113|Ribbon Tab To Command Mapping|A mapping between Tab Ids, and the Commands within those tabs.|
+|1115|Ribbon Context Group|Groupings of contextual tabs.|
+|1116|Ribbon Command|Ribbon Commands - the command definition, rules, etc.|
+|1117|Ribbon Rule|Ribbon rule definitions, used to enable and disable, show and hide ribbon elements.|
+|1120|Application Ribbons|Ribbon customizations for the application ribbon and entity ribbon templates.|
+|1130|Ribbon Difference|All layout customizations to be applied to the ribbons, which contain only the differences from the base ribbon.|
+|1140|Replication Backlog|Entity to hold replication backlog tasks. For internal use only.|
+|1141|Characteristic|Skills, education and certifications of resources.|
+|1142|Rating Value|A unique value associated with a rating model that allows providing a user friendly rating value.|
+|1144|Rating Model|Represents a model to evaluate skills or other related entities.|
+|1145|Bookable Resource Booking|Represents the line details of a resource booking.|
+|1146|Bookable Resource Booking Header|Reservation entity representing the summary of the associated resource bookings.|
+|1147|Bookable Resource Category|Categorize resources that have capacity into categories such as roles.|
+|1148|Bookable Resource Characteristic|Associates resources with their characteristics and specifies the proficiency level of a resource for that characteristic.|
+|1149|Bookable Resource Category Assn|Association entity to model the categorization of resources.|
+|1150|Bookable Resource|Resource that has capacity which can be allocated to work.|
+|1151|Bookable Resource Group|Associates resources with resource groups that they are a member of.|
+|1152|Booking Status|Allows creation of multiple sub statuses mapped to a booking status option.|
+|1189|Document Suggestions|Document Suggestions|
+|1190|SuggestionCardTemplate|Templates for Suggestion Card in Grid|
+|1200|Field Security Profile|Profile which defines access level for secured attributes|
+|1201|Field Permission|Group of privileges used to categorize users to provide appropriate access to secured columns.|
+|1203|Team Profiles|Team Profiles|
+|1234|Channel Property Group|Group or collection of channel properties provided by the external channel for a Microsoft Dynamics 365 activity.|
+|1235|Property Association|Association of a property definition with another entity in the system.|
+|1236|Channel Property|Instance of a channel property containing its name and corresponding data type.|
+|1300|SocialInsightsConfiguration|Configuration for the social insights.|
+|1309|Saved Organization Insights Configuration|Saved configuration for the organization insights|
+|1333|Property Instance|Instance of a property with its value.|
+|1400|Sync Attribute Mapping Profile|Profile which defines sync attribute mapping|
+|1401|Sync Attribute Mapping|Group of Sync-Attribute Mappings used to provide Attribute mappings during sync for a particular user|
+|1403|Team Sync-Attribute Mapping Profiles|Team Sync-Attribute Mapping Profiles|
+|1404|Principal Sync Attribute Map|Maps security principals (users and teams) to sync attribute mappings.|
+|2000|Annual Fiscal Calendar|Year long fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2001|Semiannual Fiscal Calendar|Calendar representing the semi-annual span of time during which the financial activities of an organization are calculated.|
+|2002|Quarterly Fiscal Calendar|Quarterly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2003|Monthly Fiscal Calendar|Monthly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2004|Fixed Monthly Fiscal Calendar|Fixed monthly fiscal calendar of an organization. A span of time during which the financial activities of an organization are calculated.|
+|2010|Email Template|Template for an email message that contains the standard attributes of an email message.|
+|2011|Contract Template|Template for a contract containing the standard attributes of a contract.|
+|2012|Unresolved Address|For internal use only.|
+|2013|Territory|Territory represents sales regions.|
+|2015|Theme|Information that's used to set custom visual theme options for client applications.|
+|2016|User Mapping|User Mapping|
+|2020|Queue|A list of records that require action, such as accounts, activities, and cases.|
+|2023|QueueItemCount|For internal use only.|
+|2024|QueueMemberCount|For internal use only.|
+|2027|License|Stores information about a Microsoft CRM license.|
+|2029|Queue Item|A specific item in a queue, such as a case record or an activity record.|
+|2500|User Entity UI Settings|Stores user settings for entity views.|
+|2501|User Entity Instance Data|Per User item instance data|
+|3000|Integration Status|Contains integration status information.|
+|3005|Channel Access Profile|Information about permissions needed to access Dynamics 365 through external channels.For internal use only|
+|3008|External Party|Information about external parties that need to access Dynamics 365 from external channels.For internal use only|
+|3231|Connection Role|Role describing a relationship between a two records.|
+|3233|Connection Role Object Type Code|Specifies the entity type that can play specific role in a connection.|
+|3234|Connection|Relationship between two entities.|
+|4000|Facility/Equipment|Resource that can be scheduled.|
+|4001|Service|Activity that represents work done to satisfy a customer's need.|
+|4002|Resource|User or facility/equipment that can be scheduled for a service.|
+|4003|Calendar|Calendar used by the scheduling system to define when an appointment or activity is to occur.|
+|4004|Calendar Rule|Defines free/busy times for a service and for resources or resource groups, such as working, non-working, vacation, and blocked.|
+|4005|Scheduling Group|Resource group or team whose members can be scheduled for a service.|
+|4006|Resource Specification|Selection rule that allows the scheduling engine to select a number of resources from a pool of resources. The rules can be associated with a service.|
+|4007|Resource Group|Group or collection of people, equipment, and/or facilities that can be scheduled.|
+|4009|Site|Location or branch office where an organization does business. An organization can have multiple sites.|
+|4010|Resource Expansion|Resource Expansions.|
+|4011|Inter Process Lock|Inter Process Locks.|
+|4023|Email Hash|Email activity hashes used for correlation purposes.|
+|4101|Display String Map|Maps customized display strings to entities.|
+|4102|Display String|Customized messages for an entity that has been renamed.|
+|4110|Notification|For internal use only.|
+|4120|Exchange Sync Id Mapping|The mapping used to keep track of the IDs for items synced between CRM and Exchange.|
+|4200|Activity|Task performed, or to be performed, by a user. An activity is any action for which an entry can be made on a calendar.|
+|4201|Appointment|Commitment representing a time interval with start/end times and duration.|
+|4202|Email|Activity that is delivered using email protocols.|
+|4204|Fax|Activity that tracks call outcome and number of pages for a fax and optionally stores an electronic copy of the document.|
+|4206|Case Resolution|Special type of activity that includes description of the resolution, billing status, and the duration of the case.|
+|4207|Letter|Activity that tracks the delivery of a letter. The activity can contain the electronic copy of the letter.|
+|4208|Opportunity Close|Activity that is created automatically when an opportunity is closed, containing information such as the description of the closing and actual revenue.|
+|4209|Order Close|Activity generated automatically when an order is closed.|
+|4210|Phone Call|Activity to track a telephone call.|
+|4211|Quote Close|Activity generated when a quote is closed.|
+|4212|Task|Generic activity representing work needed to be done.|
+|4214|Service Activity|Activity offered by the organization to satisfy its customer's needs. Each service activity includes date, time, duration, and required resources.|
+|4215|Commitment|For internal use only.|
+|4216|Social Activity|For internal use only.|
+|4220|UntrackedEmail|Activity that is delivered using UntrackedEmail protocols.|
+|4230|Saved View|Saved database query that is owned by a user.|
+|4231|Metadata Difference|Metadata Difference|
+|4232|Business Data Localized Label|Business Data Localized Label|
+|4250|Recurrence Rule|Recurrence Rule represents the pattern of incidence of recurring entities.|
+|4251|Recurring Appointment|The Master appointment of a recurring appointment series.|
+|4299|Email Search|Email Address Search Table.|
+|4300|Marketing List|Group of existing or potential customers created for a marketing campaign or other sales purposes.|
+|4301|Marketing List Member|Item in a marketing list.|
+|4400|Campaign|Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life.|
+|4401|Campaign Response|Response from an existing or a potential new customer for a campaign.|
+|4402|Campaign Activity|Task performed, or to be performed, by a user for planning or running a campaign.|
+|4403|Campaign Item|Work item in a campaign, a list or sales literature.|
+|4404|Campaign Activity Item|Work item of a campaign activity, such as a list or sales literature.|
+|4405|Bulk Operation Log|Log used to track bulk operation execution, successes, and failures.|
+|4406|Quick Campaign|System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.|
+|4410|Data Import|Status and ownership information for an import job.|
+|4411|Data Map|Data map used in import.|
+|4412|Import Source File|File name of file used for import.|
+|4413|Import Data|Unprocessed data from imported files.|
+|4414|Duplicate Detection Rule|Rule used to identify potential duplicates.|
+|4415|Duplicate Record|Potential duplicate record.|
+|4416|Duplicate Rule Condition|Condition of a duplicate detection rule.|
+|4417|Column Mapping|Mapping for columns in a data map.|
+|4418|List Value Mapping|In a data map, maps list values from the source file to Microsoft Dynamics 365.|
+|4419|Lookup Mapping|In a data map, maps a lookup attribute in a source file to Microsoft Dynamics 365.|
+|4420|Owner Mapping|In a data map, maps ownership data from the source file to Microsoft Dynamics 365.|
+|4421|BookableResourceBooking to Exchange Id Mapping|The mapping used to keep track of the IDs for items synced between CRM BookableResourceBooking and Exchange.|
+|4423|Import Log|Failure reason and other detailed information for a record that failed to import.|
+|4424|Bulk Delete Operation|User-submitted bulk deletion job.|
+|4425|Bulk Delete Failure|Record that was not deleted during a bulk deletion job.|
+|4426|Transformation Mapping|In a data map, maps the transformation of source attributes to Microsoft Dynamics 365 attributes.|
+|4427|Transformation Parameter Mapping|In a data map, defines parameters for a transformation.|
+|4428|Import Entity Mapping|Mapping for entities in a data map.|
+|4450|Data Performance Dashboard|Data Performance Dashboard.|
+|4490|Office Document|Used to store Office Documents in database in binary format.|
+|4500|Relationship Role|Relationship between an account or contact and an opportunity.|
+|4501|Relationship Role Map|Mapping of the primary associated objects between which the relationship role is valid.|
+|4502|Customer Relationship|Relationship between a customer and a partner in which either can be an account or contact.|
+|4503|Opportunity Relationship|Relationship between an account or contact and an opportunity.|
+|4545|Entitlement Template Product||
+|4567|Auditing|Track changes to records for analysis, record keeping, and compliance.|
+|4579|Ribbon Client Metadata.|A ribbon client metadata.|
+|4600|Entity Map|Represents a mapping between two related entities so that data from one record can be copied into the form of a new related record.|
+|4601|Attribute Map|Represents a mapping between attributes where the attribute values should be copied from a record into the form of a new related record.|
+|4602|Plug-in Type|Type that inherits from the IPlugin interface and is contained within a plug-in assembly.|
+|4603|Plug-in Type Statistic|Plug-in type statistic.|
+|4605|Plug-in Assembly|Assembly that contains one or more plug-in types.|
+|4606|Sdk Message|Message that is supported by the SDK.|
+|4607|Sdk Message Filter|Filter that defines which SDK messages are valid for each type of entity.|
+|4608|Sdk Message Processing Step|Stage in the execution pipeline that a plug-in is to execute.|
+|4609|Sdk Message Request|For internal use only.|
+|4610|Sdk Message Response|For internal use only.|
+|4611|Sdk Message Response Field|For internal use only.|
+|4613|Sdk Message Pair|For internal use only.|
+|4614|Sdk Message Request Field|For internal use only.|
+|4615|Sdk Message Processing Step Image|Copy of an entity's attributes before or after the core system operation.|
+|4616|Sdk Message Processing Step Secure Configuration|Non-public custom configuration that is passed to a plug-in's constructor.|
+|4618|Service Endpoint|Service endpoint that can be contacted.|
+|4619|Plug-in Trace Log|Trace and exception information generated by plug-ins and custom workflow activities.|
+|4700|System Job|Process whose execution can proceed independently or in the background.|
+|4702|Workflow Wait Subscription|For internal use only.|
+|4703|Process|Set of logical rules that define the steps necessary to automate a specific business process, task, or set of actions to be performed.|
+|4704|Process Dependency|Dependencies for a process.|
+|4705|ISV Config|An XML document used to configure client extension controls.|
+|4706|Process Log|Log used to track process execution.|
+|4707|Application File|Files used by the application|
+|4708|Organization Statistic|Statistics measuring the organization's usage of the Microsoft Dynamics 365 system over the past 24 hours.|
+|4709|Site Map|XML data used to control the application navigation pane.|
+|4710|Process Session|Information that is generated when a dialog is run. Every time that you run a dialog, a dialog session is created.|
+|4711|Expander Event|For internal use only. An event that will be expanded into jobs whose executions can proceed in the background.|
+|4712|Process Trigger|Trigger that invoke a rule.|
+|4724|Process Stage|Stage associated with a process.|
+|4725|Business Process Flow Instance|Active path associated with every Business Process Flow instance|
+|4800|Web Wizard|Definition for a Web-based wizard.|
+|4802|Wizard Page|Page in a Web-based wizard.|
+|4803|Web Wizard Access Privilege|Privilege needed to access a Web-based wizard.|
+|4810|Time Zone Definition|Time zone definition, including name and time zone code.|
+|4811|Time Zone Rule|Definition for time conversion between local time and Coordinated Universal Time (UTC) for a particular time zone at a particular time period.|
+|4812|Time Zone Localized Name|Localized name of the time zone.|
+|6363|Entitlement Product||
+|7000|System Application Metadata|For internal use only.|
+|7001|User Application Metadata|For internal use only.|
+|7100|Solution|A solution which contains CRM customizations.|
+|7101|Publisher|A publisher of a CRM solution.|
+|7102|Publisher Address|Address and shipping information. Used to store additional addresses for a publisher.|
+|7103|Solution Component|A component of a CRM solution.|
+|7105|Dependency|A component dependency in CRM.|
+|7106|Dependency Node|The representation of a component dependency node in CRM.|
+|7107|Invalid Dependency|An invalid dependency in the CRM system.|
+|7108|Dependency Feature|A dependency feature.|
+|7200|RuntimeDependency|Form Level dependencies in CRM.|
+|7272|Entitlement Contact||
+|8000|Post|An activity feed post.|
+|8001|Post Role|Represents the objects with which an activity feed post is associated. For internal use only.|
+|8002|Post Regarding|Represents which object an activity feed post is regarding. For internal use only.|
+|8003|Follow|Represents a user following the activity feed of an object.|
+|8005|Comment|A comment on an activity feed post.|
+|8006|Like|A like on an activity feed post.|
+|8040|ACIViewMapper|Customized messages for an entity that has been renamed.|
+|8050|Trace|A trace log.|
+|8051|Trace Association|Represents the objects with which a trace record is associated. For internal use only.|
+|8052|Trace Regarding|Represents which object a trace record is regarding. For internal use only.|
+|8181|Routing Rule Set|Define Routing Rule to route cases to right people at the right time|
+|8199|Rule Item|Please provide the description for entity|
+|8700|AppModule Metadata|For internal use only.|
+|8701|AppModule Metadata Dependency|For internal use only.|
+|8702|AppModule Metadata Async Operation|For internal use only.|
+|8840|Hierarchy Rule|Organization-owned entity customizations including mapping Quick view form with Relationship Id|
+|9006|App|A role-based, modular business app that provides task-based functionality for a particular area of work.|
+|9007|App Module Component|A component available in a business app such as entity, dashboard, form, view, chart, and business process.|
+|9009|App Module Roles|Security roles that have access to a business app.|
+|9011|App Config Master|Contains the master list of all properties that can be customized for apps in Dynamics 365. For internal use only.|
+|9012|App Configuration|Contains a mapping between an app configuration instance and an app, which defines the properties that can be customized for the app. Optionally, also contains navigation setting for an app. For internal use only.|
+|9013|App Configuration Instance|Contains a property or a list of properties from the app configuration master list that can be customized for any app in Dynamics 365. For internal use only.|
+|9100|Report|Data summary in an easy-to-read layout.|
+|9101|Report Related Entity|Entities related to a report. A report can be related to multiple entities.|
+|9102|Report Related Category|Categories related to a report. A report can be related to multiple categories.|
+|9103|Report Visibility|Area in which to show a report. A report can be shown in multiple areas.|
+|9104|Report Link|Links and dependencies between reports. A report may drill through to another report, or it may have another report as a sub-report.|
+|9105|Currency|Currency in which a financial transaction is carried out.|
+|9106|Mail Merge Template|Template for a mail merge document that contains the standard attributes of that document.|
+|9107|Import Job|For internal use only.|
+|9201|LocalConfigStore||
+|9300|Record Creation and Update Rule|Defines the settings for automatic record creation.|
+|9301|Record Creation and Update Rule Item|Defines the individual conditions required for creating records automatically.|
+|9333|Web Resource|Data equivalent to files used in Web development. Web resources provide client-side components that are used to provide custom user interface elements.|
+|9400|Channel Access Profile Rule|Defines the rules for automatically associating channel access profiles to external party records.For internal use only|
+|9401|Channel Access Profile Rule Item|Defines the rule items of a profile rule set for the automated profile association.For internal use only|
+|9502|SharePoint Site|SharePoint site from where documents can be managed in Microsoft Dynamics 365.|
+|9507|Sharepoint Document|Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.|
+|9508|Document Location|Document libraries or folders on a SharePoint server from where documents can be managed in Microsoft Dynamics 365.|
+|9509|SharePoint Data|SharePoint's Data Corresponding to a user , Record , Location and Page|
+|9510|Rollup Properties|Stores properties related to rollup fields.|
+|9511|Rollup Job|Stores rollup jobs.|
+|9600|Goal|Target objective for a user or a team for a specified time period.|
+|9602|Rollup Query|Query that is used to filter the results of the goal rollup.|
+|9603|Goal Metric|Type of measurement for a goal, such as money amount or count.|
+|9604|Rollup Field|Field to be rolled up to calculate the actual and in-progress values against the goal.|
+|9605|Email Server Profile|Holds the Email Server Profiles of an organization|
+|9606|Mailbox||
+|9607|Mailbox Statistics|Stores data regarding Mailbox processing cycles|
+|9608|Mailbox Auto Tracking Folder|Stores data about what folders for a mailbox are auto tracked|
+|9609|Mailbox Tracking Category|Stores data about what categories for a mailbox are tracked|
+|9650|Process Configuration|For internal use only.|
+|9690|Organization Insights Notification|Stores data regarding organization insights notification|
+|9699|Organization Insights Metric|Stores data regarding organization insights metric|
+|9700|Entitlement|Defines the amount and type of support a customer should receive.|
+|9701|Entitlement Channel|Defines the amount and type of support for a channel.|
+|9702|Entitlement Template|Contains predefined customer support terms that can be used to created entitlements for customers.|
+|9703|Entitlement Template Channel|Contains predefined support terms for a channel to create entitlements for customers.|
+|9750|SLA|Contains information about the tracked service-level KPIs for cases that belong to different customers.|
+|9751|SLA Item|Contains information about a tracked support KPI for a specific customer.|
+|9752|SLA KPI Instance|Service level agreement (SLA) key performance indicator (KPI) instance that is tracked for an individual case|
+|9753|Custom Control|For internal use only.|
+|9754|Custom Control Resource|Custom Control Resource Id|
+|9755|Custom Control Default Config|For internal use only.|
+|9866|Mobile Offline Profile|Information to administer and manage the data available to mobile devices in offline mode.|
+|9867|Mobile Offline Profile Item|Information on entity availability to mobile devices in offline mode for a mobile offline profile item.|
+|9868|Mobile Offline Profile Item Association|Information on relationships to be used to follow related entity's records for mobile offline profile item.|
+|9869|Sync Error|Failure reason and other detailed information for a record that failed to sync.|
+|9870|Offline Command Definition|For internal use only.|
+|9900|Navigation Setting|Navigation Setting: A setting page or group of pages available for configuration within an app. A record representing a group of pages is regarded as the parent navigation setting of one or more other records. For internal use only.|
+|9910|MultiEntitySearch|Multi Entity Search.|
+|9912|Multi Select Option Value|Multi Select Option Value|
+|9919|Hierarchy Security Configuration||
+|9930|Knowledge Base Record|Metadata of knowledge base (KB) articles associated with Microsoft Dynamics 365 entities.|
+|9931|Incident KnowledgeBaseRecord||
+|9932|Time Stamp Date Mapping|For internal use only.`|
+|9936|Azure Service Connection|Stores connection information for an Azure service|
+|9940|Document Template|Used to store Document Templates in database in binary format.|
+|9941|Personal Document Template|Used to store Personal Document Templates in database in binary format.|
+|9942|Topic Model Configuration|Configuration settings for identification of topics using text analytics.|
+|9943|Topic Model Execution History|Entity for Topic Model Execution History|
+|9944|Topic Model|The model for automatic identification of topics using text analytics.|
+|9945|Text Analytics Entity Mapping||
+|9946|Topic History|Entity for Topic History|
+|9947|Knowledge Search Model|Configuration for automatic suggestion of knowledge articles using text analytics and search|
+|9948|Text Analytics Topic|Text Analytics Topics|
+|9949|Advanced Similarity Rule|A text match rule identifies similar records using keywords and key phrases determined with text analytics|
+|9950|Office Graph Document|Office Graph Documents Description|
+|9951|Similarity Rule||
+|9953|Knowledge Article|Organizational knowledge for internal and external use.|
+|9954|Knowledge Article Incident|Association between an knowledge article and incident.|
+|9955|Knowledge Article Views|No of times an article is viewed per day|
+|9957|Language|Language|
+|9958|Feedback|Container for feedback and ratings for knowledge articles.|
+|9959|Category|Entity for categorizing records to make it easier for your customers to find them on portals and through search.|
+|9960|Knowledge Article Category|Category for a Knowledge Article.|
+|9961|DelveActionHub|Delve Action Hubs Description|
+|9962|Action Card|Action card entity to show action cards.|
+|9968|ActionCardUserState||
+|9973|Action Card User Settings|Stores user settings for action cards|
+|9983|Action Card Type|To provide master data for the card types list. For internal use only|
+|9986|Interaction for Email||
+|9987|External Party Item|Information about external party items that need to access Dynamics 365 from external channels.For internal use only|
+|9997|Email Signature|Signature for email message|
+|10000|OData v4 Data Source|Data sources used by the OData v4 data provider to access data from an external web service.|
+|10001|Solution Component Summary||
+|10002|Solution Component Data Source||
+|10003|msdyn_relationshipinsightsunifiedconfig||
+|10004|siconfig||
+|10005|Profile Album|Contains user profile images that are stored as attachments and displayed in posts.|
+|10006|Post Configuration|Enable or disable entities for Activity Feeds and Yammer collaboration.|
+|10007|Post Rule Configuration|Enable or disable system post rules for an entity for Activity Feeds and Yammer.|
+|10008|Wall View|Contains information regarding which views are available for users to display on their personal walls. Only an administrator can specify the views that users can choose from to display on their personal walls.|
+|10009|Filter|Contains user personalization information regarding which of the administrator’s selected views to display on a user’s personal wall.|
 
 
 
@@ -1980,7 +1482,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -2002,7 +1504,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_DuplicateRule_Annotation"></a> DuplicateRule_Annotation
 
-Same as annotation entity [DuplicateRule_Annotation](annotation.md#BKMK_DuplicateRule_Annotation) Many-To-One relationship.
+Same as the [DuplicateRule_Annotation](annotation.md#BKMK_DuplicateRule_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2017,7 +1519,7 @@ Same as annotation entity [DuplicateRule_Annotation](annotation.md#BKMK_Duplicat
 
 ### <a name="BKMK_DuplicateRule_SyncErrors"></a> DuplicateRule_SyncErrors
 
-Same as syncerror entity [DuplicateRule_SyncErrors](syncerror.md#BKMK_DuplicateRule_SyncErrors) Many-To-One relationship.
+Same as the [DuplicateRule_SyncErrors](syncerror.md#BKMK_DuplicateRule_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2032,7 +1534,7 @@ Same as syncerror entity [DuplicateRule_SyncErrors](syncerror.md#BKMK_DuplicateR
 
 ### <a name="BKMK_DuplicateRule_DuplicateRuleConditions"></a> DuplicateRule_DuplicateRuleConditions
 
-Same as duplicaterulecondition entity [DuplicateRule_DuplicateRuleConditions](duplicaterulecondition.md#BKMK_DuplicateRule_DuplicateRuleConditions) Many-To-One relationship.
+Same as the [DuplicateRule_DuplicateRuleConditions](duplicaterulecondition.md#BKMK_DuplicateRule_DuplicateRuleConditions) many-to-one relationship for the [duplicaterulecondition](duplicaterulecondition.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2047,7 +1549,7 @@ Same as duplicaterulecondition entity [DuplicateRule_DuplicateRuleConditions](du
 
 ### <a name="BKMK_DuplicateRule_DuplicateBaseRecord"></a> DuplicateRule_DuplicateBaseRecord
 
-Same as duplicaterecord entity [DuplicateRule_DuplicateBaseRecord](duplicaterecord.md#BKMK_DuplicateRule_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [DuplicateRule_DuplicateBaseRecord](duplicaterecord.md#BKMK_DuplicateRule_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2076,37 +1578,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_duplicaterulebase_createdby"></a> lk_duplicaterulebase_createdby
 
-See systemuser Entity [lk_duplicaterulebase_createdby](systemuser.md#BKMK_lk_duplicaterulebase_createdby) One-To-Many relationship.
+See the [lk_duplicaterulebase_createdby](systemuser.md#BKMK_lk_duplicaterulebase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_duplicaterule_createdonbehalfby"></a> lk_duplicaterule_createdonbehalfby
 
-See systemuser Entity [lk_duplicaterule_createdonbehalfby](systemuser.md#BKMK_lk_duplicaterule_createdonbehalfby) One-To-Many relationship.
+See the [lk_duplicaterule_createdonbehalfby](systemuser.md#BKMK_lk_duplicaterule_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_SystemUser_DuplicateRules"></a> SystemUser_DuplicateRules
 
-See systemuser Entity [SystemUser_DuplicateRules](systemuser.md#BKMK_SystemUser_DuplicateRules) One-To-Many relationship.
+See the [SystemUser_DuplicateRules](systemuser.md#BKMK_SystemUser_DuplicateRules) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_team_DuplicateRules"></a> team_DuplicateRules
 
-See team Entity [team_DuplicateRules](team.md#BKMK_team_DuplicateRules) One-To-Many relationship.
+See the [team_DuplicateRules](team.md#BKMK_team_DuplicateRules) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_duplicaterule_modifiedonbehalfby"></a> lk_duplicaterule_modifiedonbehalfby
 
-See systemuser Entity [lk_duplicaterule_modifiedonbehalfby](systemuser.md#BKMK_lk_duplicaterule_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_duplicaterule_modifiedonbehalfby](systemuser.md#BKMK_lk_duplicaterule_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_duplicaterulebase_modifiedby"></a> lk_duplicaterulebase_modifiedby
 
-See systemuser Entity [lk_duplicaterulebase_modifiedby](systemuser.md#BKMK_lk_duplicaterulebase_modifiedby) One-To-Many relationship.
+See the [lk_duplicaterulebase_modifiedby](systemuser.md#BKMK_lk_duplicaterulebase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_BusinessUnit_DuplicateRules"></a> BusinessUnit_DuplicateRules
 
-See businessunit Entity [BusinessUnit_DuplicateRules](businessunit.md#BKMK_BusinessUnit_DuplicateRules) One-To-Many relationship.
+See the [BusinessUnit_DuplicateRules](businessunit.md#BKMK_BusinessUnit_DuplicateRules) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=duplicaterule EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

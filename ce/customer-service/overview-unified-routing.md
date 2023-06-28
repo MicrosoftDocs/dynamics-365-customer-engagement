@@ -1,17 +1,15 @@
 ---
-title: "Overview of unified routing | MicrosoftDocs"
-description: "Overview of unified routing in Customer Service"
-ms.date: 10/07/2021
-ms.topic: overview
+title: Overview of unified routing
+description: Overview of unified routing in Customer Service.
+ms.date: 05/31/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Overview of unified routing
-
-## Introduction
 
 Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct the incoming work item to the best-suited queue and agent by adhering to work item requirements and matching them with the agent’s capabilities.
 
@@ -53,7 +51,7 @@ The requirements for unified routing are same as those that are applicable for O
 
 For the languages that are supported in unified routing, see [Supported languages](international-availability.md#language-availability).
 
-You can configure unified routing only through the Customer Service admin center (preview), Omnichannel admin center, and Customer Service Hub apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
+You can configure unified routing only through the Customer Service admin center, Omnichannel admin center, and Customer Service Hub apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
 
 The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 
@@ -71,8 +69,10 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Configure work classification rulesets](configure-work-classification.md)  
 [Historical analytics for Unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
 [Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
+[Export and import configuration data for the record channel](export-import-config-data-for-records.md)  
+[Export import data for the live chat channel](export-import-config-data-for-live-chat.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

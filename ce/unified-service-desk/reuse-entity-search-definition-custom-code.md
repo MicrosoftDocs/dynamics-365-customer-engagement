@@ -3,15 +3,11 @@ title: "Reuse entity search definition in your custom code | MicrosoftDocs"
 description: "Find information about reusing entity search definitions in your custom code using the EntitySearchRequest message."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
@@ -25,7 +21,7 @@ Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
  Since you use an entity search name in your code to return data and not its FetchXML definition, updating the underlying FetchXML query definition of the entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] without changing the entity search name ensures that you won’t have to update your custom control code, recompile, and redistribute it on the client computers.  
   
- Use the new [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message to construct a request, and then pass the request as parameter to the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice.getentitysearchresults(microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest,system.action{microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse})) method to get the response ([EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse)).  
+ Use the new [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message to construct a request, and then pass the request as parameter to the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) method to get the response ([EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse)).  
   
 <a name="Request"></a>   
 ## Create an EntitySearchRequest object  
@@ -59,7 +55,7 @@ Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 <a name="Execute"></a>   
 ## Execute the request object  
- Use the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice.getentitysearchresults(microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest,system.action{microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse})) method to execute the request object created as described in the previous section. This method executes the [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) object, and returns a [EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) object with the entity search results.  
+ Use the [EntitySearchService](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchservice).[EntitySearchResponse})](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) method to execute the request object created as described in the previous section. This method executes the [EntitySearchRequest](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) object, and returns a [EntitySearchResponse](/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchresponse) object with the entity search results.  
   
  The following code sample demonstrates how you can reuse an existing entity search to retrieve results in pages.  
   

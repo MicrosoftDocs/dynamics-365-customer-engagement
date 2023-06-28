@@ -1,21 +1,17 @@
 ---
-title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing."
-ms.date: 12/14/2020
+title: Create lead scoring models (Dynamics 365 Marketing)
+description: How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing.
+ms.date: 04/21/2023
 
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Design lead-scoring models
@@ -27,7 +23,7 @@ Dynamics 365 Marketing can calculate a score for each lead based on demographic 
 Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
-> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and the GDPR](gdpr.md)
+> Automatic lead scoring can introduce data privacy issues. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and privacy](privacy.md)
 
 ## Lead-scoring prerequisites and requirements
 

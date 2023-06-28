@@ -2,35 +2,19 @@
   items: 
   - name: Overview
     href: teams-integration.md
-  - name: Install and set up
+  - name: Install Dynamics 365 app in Teams
     href: teams-install-app.md
-  - name: Basic vs Enhanced Collaboration Experience
-    href: teams-basic-vs-enhanced-collaboration.md
-  - name: Enable Sensitivity labels
-    href: sensitivity-labels.md
-  - name: Enable or disable the Teams chat in Dynamics 365
-    href: enable-teams-chat.md
-  - name: FAQ on Teams chat integration
-    href: teams-in-dynamics-faq.md
-  - name: Use Teams integration
-    items: 
-    - name: Basic Collaboration with Teams
-      href: teams-collaboration.md
-    - name: Enhanced Collaboration with Teams
-      href: teams-collaboration-enhanced-experience.md
-    - name: Engage in Teams chats from within Dynamics 365
-      items:
-      - name: Engage in Teams chats from within Dynamics 365
-        href: teams-collaboration-in-dynamics.md
-      - name: Using Teams chat in Dynamics 365
-        href: using-teams-chat-in-dynamics.md
-    - name: Use document management
-      href: teams-doc-management.md
-    - name: Use the personal dashboard
-      href: teams-personal-use.md
-  - name: Troubleshoot
-    href: teams-troubleshoot.md
-  - name: Dynamics 365 assistant for Microsoft Teams
-    href: /dynamics365/ai/sales/overview-dynamics-365-assistant-app-teams
+  - name: Set up and use the personal dashboard in Teams
+    href: teams-personal-use.md
+  - name: Use document management
+    href: teams-doc-management.md
   - name: Delete personal data
     href: teams-delete-data.md
+  - name: Link Dynamics 365 records to Microsoft Teams channels
+    href: link-d365-records.md
+  - name: Enable or disable Teams chat in Dynamics 365
+    href: enable-teams-chat.md
+  - name: Integrate Dynamics 365 and Microsoft Teams meetings
+    href: teams-meeting-integration.md
+  - name: Troubleshoot
+    href: teams-troubleshoot.md

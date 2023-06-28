@@ -1,24 +1,21 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing."
-ms.date: 12/16/2021
-
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create and deploy marketing pages
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 A marketing page is a webpage that includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 Marketing and applied immediately to your customer database.
 
@@ -128,7 +125,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 ## Integrate landing pages with other marketing initiatives
 
-To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the [assist edit](dynamic-email-content.md#assist-edit) feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+To include a link to a landing page in a marketing email, you can either create a dynamic text link (in a text element) that references the page by using the [assist edit](dynamic-email-content.md#personalization) feature, or add a dedicated marketing-page element, which creates a colorful call-to-action button that links to the page. More information: [Add dynamic content to email messages](dynamic-email-content.md) and [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
 You can create customer journeys that include triggers that react to marketing page submissions, so that contacts who submit the page are treated differently from those who don't. To do this, include a marketing page tile in your journey design and then place a trigger that references that tile and specifies logic for how to react to it. To trigger on a marketing page linked to in a marketing-email message, add an email tile for the message and then add a marketing page tile as a child tile of that message. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 

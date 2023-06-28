@@ -1,42 +1,41 @@
 ---
 title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: 
+ms.custom:
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
 ms.date: 1/23/2020
 ms.reviewer: pehecke
 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite:
+ms.tgt_pltfrm:
 ms.topic: sample
-applies_to: 
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
 caps.latest.revision: 16
 author: KumarVivek
 ms.author: kvivek
-manager: KumarVivek
-search.audienceType: 
+search.audienceType:
   - developer
 ---
+
 # Sample: Create an on-premises user
 
 This sample shows how to programmatically create a new system user in Dynamics 365 Customer Engagement and Active Directory.
 
-## Requirements  
+## Requirements
 
 The sample applies to on-premises and IFD deployments only. You must have administrator permissions in Customer Engagement and the Active Directory domain to run the sample successfully.
 
-To build the sample, you will need to add the [Helper-Code](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Helper-Code) and [Login-UX](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Login-UX) code to your project.
+To build the sample, you will need to add the [Helper-Code](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Helper-Code) and [Login-UX](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/WorkwithSolutions/WorkwithSolutions/Login-UX) code to your project.
 
 The sample does not delete the new user after the program terminates. This must be done manually in Customer Engagement and then in AD.
-  
-## Demonstrates  
 
- This sample shows how to create a user in Active Directory and then in Customer Engagement using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method. 
+## Demonstrates
+
+This sample shows how to create a user in Active Directory and then in Customer Engagement using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Create%2A> method.
 The new system user is created in the same domain and business unit as the logged on user executing the program.
-  
-## Example
 
+## Example
 
 ```csharp
 using Microsoft.Xrm.Sdk;
@@ -109,7 +108,7 @@ namespace PowerApps.Samples
                     const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Dataverse";
                     if (service.LastCrmError.Equals(UNABLE_TO_LOGIN_ERROR))
                     {
-                        Console.WriteLine("Check the connection string values in cds/App.config.");
+                        Console.WriteLine("Check the connection string values in dataverse/App.config.");
                         throw new Exception(service.LastCrmError);
                     }
                     else
@@ -136,9 +135,10 @@ namespace PowerApps.Samples
     }
 }
 ```
-  
-<a name="complete_sample"></a>   
-### Supporting methods  
+
+<a name="complete_sample"></a>
+
+### Supporting methods
 
 ```csharp
 using Microsoft.Crm.Sdk.Messages;
@@ -158,7 +158,7 @@ namespace PowerApps.Samples
         /// Function to set up the sample.
         /// </summary>
         /// <param name="service">Specifies the service to connect to.</param>
-        /// 
+        ///
         private static void SetUpSample(CrmServiceClient service)
         {
             // Check that the current version is greater than the minimum version
@@ -218,7 +218,7 @@ namespace PowerApps.Samples
 
         /// <summary>
         /// Deletes the custom entity record that was created for this sample.
-        /// <param name="prompt">Indicates whether to prompt the user 
+        /// <param name="prompt">Indicates whether to prompt the user
         /// to delete the entity created in this sample.</param>
         /// </summary>
         public static void DeleteRequiredRecords(CrmServiceClient service, bool prompt)
@@ -292,7 +292,7 @@ namespace PowerApps.Samples
             Boolean accountCreated = false;
             if (result == null)
             {
-                // Create the Active Directory account. 
+                // Create the Active Directory account.
                 userADAccount = directoryEntry.Children.Add("CN= " + userName, "user");
                 userADAccount.Properties["samAccountName"].Value = userName;
                 userADAccount.Properties["givenName"].Value = firstName;
@@ -340,10 +340,10 @@ namespace PowerApps.Samples
     }
 }
 ```
-  
-### See also  
- [User and Team Entities](user-team-entities.md)   
- [Sample: Disable a User](sample-disable-user.md)
 
+### See also
+
+[User and Team Entities](user-team-entities.md)  
+ [Sample: Disable a User](sample-disable-user.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

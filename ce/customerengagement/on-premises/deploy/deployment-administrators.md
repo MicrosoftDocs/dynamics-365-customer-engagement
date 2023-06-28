@@ -14,7 +14,6 @@ ms.assetid: 96c87bbc-9735-4cb9-8549-10a144461c25
 caps.latest.revision: 6
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Deployment Administrators
 

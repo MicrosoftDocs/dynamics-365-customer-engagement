@@ -1,38 +1,37 @@
 ---
 title: "Create plug-in to use preferred geospatial data provider in Universal Resource Scheduling"
 description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice instead of Bing Maps."
-ms.date: 01/29/2018
+ms.date: 09/07/2022
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: krbjoran
-
+ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: conceptual
-author: FieldServiceDave
-ms.author: daclar
-search.app: 
-  - D365CE
-  - D365PS
-  - D365FS
+author: m-hartmann
+ms.author: mhart
 ---
+
 # Create custom plug-in to use your preferred geospatial data provider
 
 This article provides information about the two geospatial actions in Universal Resource Scheduling, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
 
 ## Input and output parameters for geospatial actions
 
-While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in so that you know what data to pass in and the expected output data in your plug-in code. 
+While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in so that you know what data to pass in and the expected output data in your plug-in code.
 
 There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
 - **Web API action reference content**: View reference information about the geospatial actions in Universal Resource Scheduling.
-    - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
+  - `Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix`
 - **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output parameters, including information whether a parameter is required or optional.
- 
-    To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
-    ![Action definition.](../media/FS-ActionDefinition.png)
+> [!NOTE]
+> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Postman to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Postman with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api).
+
+To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
+
+![Action definition.](../media/FS-ActionDefinition.png)
 
 ## Write your custom plug-in
 
@@ -205,7 +204,5 @@ After you have written your custom plug-in code, build the project to generate a
 
 > [!div class="nextstepaction"]
 > [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
-    
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

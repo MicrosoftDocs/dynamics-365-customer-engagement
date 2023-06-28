@@ -1,33 +1,31 @@
 ---
-title: "WorkflowLog Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the WorkflowLog entity."
-ms.date: 04/02/2019
-
+title: "Process Log (WorkflowLog)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Process Log (WorkflowLog)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# WorkflowLog Entity Reference
+
+# Process Log (WorkflowLog)  entity reference
 
 Log used to track process execution.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/workflowlogs<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/workflowlogs(*workflowlogid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/workflowlogs(*workflowlogid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/workflowlogs<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/workflowlogs(*workflowlogid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -327,15 +325,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Status Options
+#### Status Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|In Progress|
-|2|Succeeded|
-|3|Failed|
-|4|Canceled|
-|5|Waiting|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|In Progress||
+|2|Succeeded||
+|3|Failed||
+|4|Canceled||
+|5|Waiting||
 
 
 
@@ -738,13 +736,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [lk_phonetocaseprocess_workflowlogs](#BKMK_lk_phonetocaseprocess_workflowlogs)
 - [lk_leadtoopportunitysalesprocess_workflowlogs](#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs)
 - [lk_opportunitysalesprocess_workflowlogs](#BKMK_lk_opportunitysalesprocess_workflowlogs)
-- [msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs](#BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs)
-- [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs](#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs)
-- [msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs](#BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs)
-- [msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs](#BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs)
-- [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs](#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs)
-- [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs](#BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs)
-- [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs](#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs)
 - [business_unit_workflowlogs](#BKMK_business_unit_workflowlogs)
 - [lk_workflowlog_createdby](#BKMK_lk_workflowlog_createdby)
 - [lk_workflowlog_processsession](#BKMK_lk_workflowlog_processsession)
@@ -764,119 +755,73 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Service Solution
 
-See phonetocaseprocess Entity [lk_phonetocaseprocess_workflowlogs](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_workflowlogs) One-To-Many relationship.
+See the [lk_phonetocaseprocess_workflowlogs](phonetocaseprocess.md#BKMK_lk_phonetocaseprocess_workflowlogs) one-to-many relationship for the [phonetocaseprocess](phonetocaseprocess.md) entity.
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_workflowlogs"></a> lk_leadtoopportunitysalesprocess_workflowlogs
 
 **Added by**: Sales Solution
 
-See leadtoopportunitysalesprocess Entity [lk_leadtoopportunitysalesprocess_workflowlogs](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs) One-To-Many relationship.
+See the [lk_leadtoopportunitysalesprocess_workflowlogs](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_workflowlogs) one-to-many relationship for the [leadtoopportunitysalesprocess](leadtoopportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_lk_opportunitysalesprocess_workflowlogs"></a> lk_opportunitysalesprocess_workflowlogs
 
 **Added by**: Sales Solution
 
-See opportunitysalesprocess Entity [lk_opportunitysalesprocess_workflowlogs](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_workflowlogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs"></a> msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_bpf_665e73aa18c247d886bfc50499c73b82 Entity [msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs](msdyn_bpf_665e73aa18c247d886bfc50499c73b82.md#BKMK_msdyn_bpf_665e73aa18c247d886bfc50499c73b82_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs"></a> msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d Entity [msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs](msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d.md#BKMK_msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs"></a> msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 Entity [msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs"></a> msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_989e9b1857e24af18787d5143b67523b Entity [msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs](msdyn_bpf_989e9b1857e24af18787d5143b67523b.md#BKMK_msdyn_bpf_989e9b1857e24af18787d5143b67523b_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs"></a> msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3 Entity [msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs](msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3.md#BKMK_msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs"></a> msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs
-
-**Added by**: Field Service Solution
-
-See msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39 Entity [msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs](msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39.md#BKMK_msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39_WorkflowLogs) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs"></a> msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs
-
-**Added by**: Connected Field Service for Microsoft Dynamics 365 Solution
-
-See msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b Entity [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_WorkflowLogs) One-To-Many relationship.
+See the [lk_opportunitysalesprocess_workflowlogs](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_workflowlogs) one-to-many relationship for the [opportunitysalesprocess](opportunitysalesprocess.md) entity.
 
 ### <a name="BKMK_business_unit_workflowlogs"></a> business_unit_workflowlogs
 
-See businessunit Entity [business_unit_workflowlogs](businessunit.md#BKMK_business_unit_workflowlogs) One-To-Many relationship.
+See the [business_unit_workflowlogs](businessunit.md#BKMK_business_unit_workflowlogs) one-to-many relationship for the [businessunit](businessunit.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_createdby"></a> lk_workflowlog_createdby
 
-See systemuser Entity [lk_workflowlog_createdby](systemuser.md#BKMK_lk_workflowlog_createdby) One-To-Many relationship.
+See the [lk_workflowlog_createdby](systemuser.md#BKMK_lk_workflowlog_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_processsession"></a> lk_workflowlog_processsession
 
-See processsession Entity [lk_workflowlog_processsession](processsession.md#BKMK_lk_workflowlog_processsession) One-To-Many relationship.
+See the [lk_workflowlog_processsession](processsession.md#BKMK_lk_workflowlog_processsession) one-to-many relationship for the [processsession](processsession.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_processsession_childworkflow"></a> lk_workflowlog_processsession_childworkflow
 
-See processsession Entity [lk_workflowlog_processsession_childworkflow](processsession.md#BKMK_lk_workflowlog_processsession_childworkflow) One-To-Many relationship.
+See the [lk_workflowlog_processsession_childworkflow](processsession.md#BKMK_lk_workflowlog_processsession_childworkflow) one-to-many relationship for the [processsession](processsession.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_asyncoperation_childworkflow"></a> lk_workflowlog_asyncoperation_childworkflow
 
-See asyncoperation Entity [lk_workflowlog_asyncoperation_childworkflow](asyncoperation.md#BKMK_lk_workflowlog_asyncoperation_childworkflow) One-To-Many relationship.
+See the [lk_workflowlog_asyncoperation_childworkflow](asyncoperation.md#BKMK_lk_workflowlog_asyncoperation_childworkflow) one-to-many relationship for the [asyncoperation](asyncoperation.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_asyncoperations"></a> lk_workflowlog_asyncoperations
 
-See asyncoperation Entity [lk_workflowlog_asyncoperations](asyncoperation.md#BKMK_lk_workflowlog_asyncoperations) One-To-Many relationship.
+See the [lk_workflowlog_asyncoperations](asyncoperation.md#BKMK_lk_workflowlog_asyncoperations) one-to-many relationship for the [asyncoperation](asyncoperation.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_modifiedby"></a> lk_workflowlog_modifiedby
 
-See systemuser Entity [lk_workflowlog_modifiedby](systemuser.md#BKMK_lk_workflowlog_modifiedby) One-To-Many relationship.
+See the [lk_workflowlog_modifiedby](systemuser.md#BKMK_lk_workflowlog_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_newprocess_workflowlogs"></a> lk_newprocess_workflowlogs
 
-See newprocess Entity [lk_newprocess_workflowlogs](newprocess.md#BKMK_lk_newprocess_workflowlogs) One-To-Many relationship.
+See the [lk_newprocess_workflowlogs](newprocess.md#BKMK_lk_newprocess_workflowlogs) one-to-many relationship for the [newprocess](newprocess.md) entity.
 
 ### <a name="BKMK_team_workflowlog"></a> team_workflowlog
 
-See team Entity [team_workflowlog](team.md#BKMK_team_workflowlog) One-To-Many relationship.
+See the [team_workflowlog](team.md#BKMK_team_workflowlog) one-to-many relationship for the [team](team.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_createdonbehalfby"></a> lk_workflowlog_createdonbehalfby
 
-See systemuser Entity [lk_workflowlog_createdonbehalfby](systemuser.md#BKMK_lk_workflowlog_createdonbehalfby) One-To-Many relationship.
+See the [lk_workflowlog_createdonbehalfby](systemuser.md#BKMK_lk_workflowlog_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_translationprocess_workflowlogs"></a> lk_translationprocess_workflowlogs
 
-See translationprocess Entity [lk_translationprocess_workflowlogs](translationprocess.md#BKMK_lk_translationprocess_workflowlogs) One-To-Many relationship.
+See the [lk_translationprocess_workflowlogs](translationprocess.md#BKMK_lk_translationprocess_workflowlogs) one-to-many relationship for the [translationprocess](translationprocess.md) entity.
 
 ### <a name="BKMK_lk_expiredprocess_workflowlogs"></a> lk_expiredprocess_workflowlogs
 
-See expiredprocess Entity [lk_expiredprocess_workflowlogs](expiredprocess.md#BKMK_lk_expiredprocess_workflowlogs) One-To-Many relationship.
+See the [lk_expiredprocess_workflowlogs](expiredprocess.md#BKMK_lk_expiredprocess_workflowlogs) one-to-many relationship for the [expiredprocess](expiredprocess.md) entity.
 
 ### <a name="BKMK_lk_workflowlog_modifiedonbehalfby"></a> lk_workflowlog_modifiedonbehalfby
 
-See systemuser Entity [lk_workflowlog_modifiedonbehalfby](systemuser.md#BKMK_lk_workflowlog_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_workflowlog_modifiedonbehalfby](systemuser.md#BKMK_lk_workflowlog_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.workflowlog?text=workflowlog EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,5 +1,6 @@
 ---
 title: "Introduction to activity feeds (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: Learn about the activity feeds terminology, definitions, and entity model in Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -26,7 +27,6 @@ helpviewer_keywords:
 ms.assetid: 1b9e7311-36a6-4f57-a834-429651110515
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

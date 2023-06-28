@@ -3,19 +3,10 @@ title: "Customize Dynamics 365 Field Service for your unique business needs | Mi
 description: Learn how to customize Field Service for your business needs.
 ms.custom:
 - dyn365-fieldservice
-ms.date: 08/25/2021
-ms.reviewer: krbjoran
-
+ms.date: 05/10/2023
 ms.topic: article
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
 # Configure Dynamics 365 Field Service for your unique business needs
@@ -41,6 +32,10 @@ Find documentation to perform common configurations in the following table:
 | Mobile app  |  [Use Microsoft Power Platform to configure the Field Service (Dynamics 365) mobile app](/dynamics365/field-service/mobile-power-utilize-platform) |
 | Scheduling  | [Edit work hour calendars by using APIs](/dynamics365/field-service/field-service-work-hours-calendar-api) |
 
+## Undocumented custom controls
 
+Field Service introduces controls that are only intended to be used as-is on the forms that use them by default.
 
+Refrain from using the following controls in customization scenarios:
 
+- MultiselectLookupControl

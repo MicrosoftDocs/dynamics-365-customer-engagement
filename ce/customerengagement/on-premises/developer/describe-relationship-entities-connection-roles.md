@@ -1,6 +1,6 @@
 ---
 title: "Describe a relationship between entities with connection roles (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-decription: Describing a relationship between entities using create connection roles and connection role categories.
+description: Learn how to describe a relationship between entities using create connection roles and connection role categories in Customer Engagement (on-premises).
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -21,7 +21,6 @@ helpviewer_keywords:
 ms.assetid: 19b6da03-5c17-4f6d-8521-32aa68d60f2e
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

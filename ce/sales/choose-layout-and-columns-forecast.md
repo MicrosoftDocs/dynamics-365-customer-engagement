@@ -1,11 +1,10 @@
 ---
 title: "Configure columns and layouts in forecast grid"
 description: "Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more."
-ms.date: 10/26/2021
+ms.date: 08/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -22,11 +21,11 @@ Configure columns and layouts you want sellers to see in the forecast grid. Add 
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Add and configure columns
 
@@ -75,7 +74,7 @@ To define the layout, select an option set and then add the rollup columns accor
 <a name="configure-columns"> </a>      
 ## Configure columns
 
-You can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
+In the **Layout** step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
 
 >[!NOTE]
 >- Auto configuration of columns are available only for **Opportunity** and **Opportunity product** rollup entities. For other rollup entities, you must manually configure each column.
@@ -116,13 +115,13 @@ Select the column **Type** as **Rollup**. The following options are available to
 |-----------|-------------|
 | Selector | Select the option set value that defines how this column is grouped. For example, if **Best Case** is selected, only opportunities with the forecast category set to **Best Case** will be aggregated. |
 | Data type | Select the data type of a column of which the aggregated value is displayed in the forecast grid. The supported values are currency, integer, and decimal. You can use integer or decimal data type for quantity-based forecast. By default, the value is selected as **Currency**. If the forecast contains both currency and numeric columns, then you must select the primary data type to activate the forecast. More information: [Forecast with different data type](forecast-different-data-types.md). |
-| Amount field | Select the amount field on which the aggregation is calculated. The list is displayed based on the selected **Data type** and **Rollup entity**. For example, if the **Forecast category** option set is selected, the amount field is automatically configured as **Est.Revenue**. <br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
+| Amount field | Select the amount field on which the aggregation is calculated. The list is displayed based on the selected **Data type** and **Rollup entity**. For example, to calculate the aggregation based on the estimated revenue for lost opportunities, select **Est. Revenue** in the **Amount** field.<br> If you're using a custom field to track the estimated revenue for your organization, select that custom field. |
 | Date entity | Select the entity from which you want to choose the date field. <br>If the required date field is not available in the rollup entity, you can choose from the related entities. For example, in a product-based forecast, the rollup entity is **Opportunity Product** and the required estimated close date attribute will not be available in this entity. Therefore, select the **Opportunity** entity from **Related entities** that has the estimated close date attribute. |
 | Date field | Select the date field that defines the record's forecast period. The available fields are based on the selected **Date entity**, such as **Opportunity**. For example, if the **Opportunity** entity is selected, the date field is configured as **Est.Close Date**. <br>If you're using a custom field to track the estimated close date for your organization, select that custom field.|
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit a system-calculated value directly in the forecast grid. When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When this is enabled, a progress bar indicating the attainment percentage is shown below the column's value.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](/ai/sales/understand-forecast-projection-through-trend-chart). |
+| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
 | Unique name | The unique name is used to identify the column to use when you're writing a formula for a **Calculated** column. |
 
 <a name="configure-calculated-type"> </a>
@@ -137,7 +136,7 @@ Calculated columns can be identified in your forecast by looking for the informa
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit the value of a calculated column directly in the forecast grid. When you select the column as adjustable, the formula you have created for this column must satisfy certain conditions that allow a proper rollup of values in the forecast. If not satisfied, an error is displayed, and you can't proceed to the next step. To learn more about the conditions and its corresponding errors, see [Adjustment column conditions](#adjustment-column-conditions).<br> When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/dynamics365/ai/sales/understand-forecast-projection-through-trend-chart). |
+| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
 | Unique name | The unique name is used to identify the column when you're writing a formula for a **Calculated** column. |	
 
 #### Adjustment column conditions

@@ -1,23 +1,21 @@
 ---
 title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
-ms.date: 07/16/2020
+ms.date: 11/15/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] 
 
 Learn how to access the Sales app, navigate the UI, and understand the data in the app, and some quick tips.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Get productive quickly
 
@@ -112,6 +110,11 @@ Here are some highlights of Dynamics 365 Sales:
 2. Select one of the following tiles depending on your license: 
     1. For Sales Enterprise, select **Sales Hub**.
     1. For Sales Professional, select **Sales Professional**.  
+
+    > [!TIP]
+    > Alternatively, visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select the Dynamics 365 app that you want.  
+
+If you don't see the app, contact your administrator to grant you access. For more information, refer to [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
 
 ## Navigate using the site map
 

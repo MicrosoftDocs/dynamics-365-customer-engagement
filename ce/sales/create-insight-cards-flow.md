@@ -7,7 +7,6 @@ ms.custom:
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 caps.latest.revision: 1
 ---
 # Create custom insight cards 
@@ -18,12 +17,11 @@ As a system administrator or sales manager, you can create your own suggested ac
 > ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Create a custom insight card 
 
@@ -261,7 +259,7 @@ To add a custom action, follow these steps:
 
 ### Launch playbook
 
-Use the **Launch playbook** option to launch a playbook from the card. Before you use the playbook option, verify that playbook solution is available in your organization. To learn more, see [Enforce best practices with playbooks](/sales-enterprise/enforce-best-practices-playbooks).
+Use the **Launch playbook** option to launch a playbook from the card. Before you use the playbook option, verify that playbook solution is available in your organization. To learn more, see [Enforce best practices with playbooks](/dynamics365/sales/enforce-best-practices-playbooks).
 
 1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **Launch playbook**.
 

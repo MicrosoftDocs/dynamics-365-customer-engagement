@@ -1,18 +1,16 @@
 ---
-title: "Product Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Product entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Product entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Product Entity Reference
+
+# Product entity reference
 
 Information about products and their pricing information.
 
@@ -21,21 +19,21 @@ Information about products and their pricing information.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Associate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|CloneProduct|<xref href="Microsoft.Dynamics.CRM.CloneProduct?text=CloneProduct Action" />|<xref:Microsoft.Crm.Sdk.Messages.CloneProductRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/products<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api) |<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|PublishProductHierarchy|<xref href="Microsoft.Dynamics.CRM.PublishProductHierarchy?text=PublishProductHierarchy Action" />|<xref:Microsoft.Crm.Sdk.Messages.PublishProductHierarchyRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/products<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RevertProduct|<xref href="Microsoft.Dynamics.CRM.RevertProduct?text=RevertProduct Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevertProductRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/products(*productid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/products(*productid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|CloneProduct|<xref:Microsoft.Crm.Sdk.Messages.CloneProductRequest>|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|PublishProductHierarchy|<xref:Microsoft.Crm.Sdk.Messages.PublishProductHierarchyRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RevertProduct|<xref:Microsoft.Crm.Sdk.Messages.RevertProductRequest>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -65,15 +63,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [EntityImage](#BKMK_EntityImage)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsKit](#BKMK_IsKit)
-- [IsReparented](#BKMK_IsReparented)
 - [IsStockItem](#BKMK_IsStockItem)
-- [msdyn_ConvertToCustomerAsset](#BKMK_msdyn_ConvertToCustomerAsset)
-- [msdyn_DefaultVendor](#BKMK_msdyn_DefaultVendor)
-- [msdyn_FieldServiceProductType](#BKMK_msdyn_FieldServiceProductType)
-- [msdyn_PurchaseName](#BKMK_msdyn_PurchaseName)
-- [msdyn_Taxable](#BKMK_msdyn_Taxable)
-- [msdyn_TransactionCategory](#BKMK_msdyn_TransactionCategory)
-- [msdyn_UPCCode](#BKMK_msdyn_UPCCode)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentProductId](#BKMK_ParentProductId)
@@ -231,39 +221,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsKit Options
+#### IsKit Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_IsReparented"></a> IsReparented
-
-**Added by**: Product Management Patch Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Is Reparented|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|isreparented|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### IsReparented Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -279,157 +244,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsStockItem Options
+#### IsStockItem Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
-
-
-### <a name="BKMK_msdyn_ConvertToCustomerAsset"></a> msdyn_ConvertToCustomerAsset
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Specify whether a product is to be converted to a customer asset. When a product is used on a work order, the system will automatically convert it into a customer asset when the work order is closed.|
-|DisplayName|Convert to Customer Asset|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_converttocustomerasset|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_ConvertToCustomerAsset Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
-
-
-
-### <a name="BKMK_msdyn_DefaultVendor"></a> msdyn_DefaultVendor
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Default vendor that supplies this product|
-|DisplayName|Default Vendor|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_defaultvendor|
-|RequiredLevel|None|
-|Targets|account|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_FieldServiceProductType"></a> msdyn_FieldServiceProductType
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Field Service Product Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fieldserviceproducttype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msdyn_FieldServiceProductType Options
-
-|Value|Label|
-|-----|-----|
-|690970000|Inventory|
-|690970001|Non-Inventory|
-|690970002|Service|
-
-
-
-### <a name="BKMK_msdyn_PurchaseName"></a> msdyn_PurchaseName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Type the name for the product when used on a purchase order.|
-|DisplayName|Purchase Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_purchasename|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_Taxable"></a> msdyn_Taxable
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select whether the item is taxable. If an item is set as not taxable, it won't be taxable even on a taxable work order.|
-|DisplayName|Taxable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_taxable|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-
-#### msdyn_Taxable Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Select the transaction category for this product.|
-|DisplayName|Transaction Category|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_transactioncategory|
-|RequiredLevel|None|
-|Targets|msdyn_transactioncategory|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_UPCCode"></a> msdyn_UPCCode
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Shows the UPC Code for product. Used for bar code scanning.|
-|DisplayName|UPC Code|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_upccode|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -567,13 +390,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ProductStructure Options
+#### ProductStructure Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Product|
-|2|Product Family|
-|3|Product Bundle|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Product||
+|2|Product Family||
+|3|Product Bundle||
 
 
 
@@ -589,14 +412,14 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ProductTypeCode Options
+#### ProductTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Sales Inventory|
-|2|Miscellaneous Charges|
-|3|Services|
-|4|Flat Fees|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Sales Inventory||
+|2|Miscellaneous Charges||
+|3|Services||
+|4|Flat Fees||
 
 
 
@@ -669,7 +492,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Contains the id of the stage where the entity is located.|
-|DisplayName|(Deprecated) Stage Id|
+|DisplayName|Stage Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|stageid|
@@ -706,7 +529,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -729,7 +552,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -837,7 +660,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
-|DisplayName|(Deprecated) Traversed Path|
+|DisplayName|Traversed Path|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -975,9 +798,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_DefaultVendorName](#BKMK_msdyn_DefaultVendorName)
-- [msdyn_DefaultVendorYomiName](#BKMK_msdyn_DefaultVendorYomiName)
-- [msdyn_TransactionCategoryName](#BKMK_msdyn_TransactionCategoryName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
 - [ParentProductIdName](#BKMK_ParentProductIdName)
@@ -1422,60 +1242,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
-### <a name="BKMK_msdyn_DefaultVendorName"></a> msdyn_DefaultVendorName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_defaultvendorname|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_DefaultVendorYomiName"></a> msdyn_DefaultVendorYomiName
-
-**Added by**: Field Service Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_defaultvendoryominame|
-|MaxLength|160|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_TransactionCategoryName"></a> msdyn_TransactionCategoryName
-
-**Added by**: Project Service Automation Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_transactioncategoryname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
 |Property|Value|
@@ -1648,42 +1414,13 @@ Listed by **SchemaName**.
 - [product_invoice_details](#BKMK_product_invoice_details)
 - [product_order_details](#BKMK_product_order_details)
 - [product_quote_details](#BKMK_product_quote_details)
-- [msdyn_product_msdyn_actual_Product](#BKMK_msdyn_product_msdyn_actual_Product)
-- [msdyn_product_msdyn_estimateline_Product](#BKMK_msdyn_product_msdyn_estimateline_Product)
-- [msdyn_product_msdyn_fact_Product](#BKMK_msdyn_product_msdyn_fact_Product)
-- [msdyn_product_msdyn_fieldcomputation_ProductId](#BKMK_msdyn_product_msdyn_fieldcomputation_ProductId)
-- [msdyn_product_msdyn_invoicelinetransaction_Product](#BKMK_msdyn_product_msdyn_invoicelinetransaction_Product)
-- [msdyn_product_msdyn_journalline_Product](#BKMK_msdyn_product_msdyn_journalline_Product)
-- [msdyn_product_msdyn_opportunitylinetransaction_Product](#BKMK_msdyn_product_msdyn_opportunitylinetransaction_Product)
-- [msdyn_product_msdyn_orderlinetransaction_Product](#BKMK_msdyn_product_msdyn_orderlinetransaction_Product)
-- [msdyn_product_msdyn_quotelinetransaction_Product](#BKMK_msdyn_product_msdyn_quotelinetransaction_Product)
-- [msdyn_product_msdyn_agreementbookingproduct_Product](#BKMK_msdyn_product_msdyn_agreementbookingproduct_Product)
-- [msdyn_product_msdyn_agreementbookingservice_Service](#BKMK_msdyn_product_msdyn_agreementbookingservice_Service)
-- [msdyn_product_msdyn_agreementinvoiceproduct_Product](#BKMK_msdyn_product_msdyn_agreementinvoiceproduct_Product)
-- [msdyn_product_msdyn_customerasset_Product](#BKMK_msdyn_product_msdyn_customerasset_Product)
-- [msdyn_product_msdyn_fieldservicepricelistitem_ProductService](#BKMK_msdyn_product_msdyn_fieldservicepricelistitem_ProductService)
-- [msdyn_product_msdyn_fieldservicesetting](#BKMK_msdyn_product_msdyn_fieldservicesetting)
-- [msdyn_product_msdyn_incidenttypeproduct_Product](#BKMK_msdyn_product_msdyn_incidenttypeproduct_Product)
-- [msdyn_product_msdyn_incidenttypeservice_Service](#BKMK_msdyn_product_msdyn_incidenttypeservice_Service)
-- [msdyn_product_msdyn_inventoryadjustmentproduct_Product](#BKMK_msdyn_product_msdyn_inventoryadjustmentproduct_Product)
-- [msdyn_product_msdyn_inventoryjournal_Product](#BKMK_msdyn_product_msdyn_inventoryjournal_Product)
-- [msdyn_product_msdyn_orderinvoicingproduct_Product](#BKMK_msdyn_product_msdyn_orderinvoicingproduct_Product)
-- [msdyn_product_msdyn_productinventory_Product](#BKMK_msdyn_product_msdyn_productinventory_Product)
-- [msdyn_product_msdyn_purchaseorderproduct_Product](#BKMK_msdyn_product_msdyn_purchaseorderproduct_Product)
-- [msdyn_product_msdyn_quotebookingproduct_Product](#BKMK_msdyn_product_msdyn_quotebookingproduct_Product)
-- [msdyn_product_msdyn_quotebookingservice_Service](#BKMK_msdyn_product_msdyn_quotebookingservice_Service)
-- [msdyn_product_msdyn_quoteinvoicingproduct_Product](#BKMK_msdyn_product_msdyn_quoteinvoicingproduct_Product)
-- [msdyn_product_msdyn_rmaproduct_Product](#BKMK_msdyn_product_msdyn_rmaproduct_Product)
-- [msdyn_product_msdyn_rtvproduct_Product](#BKMK_msdyn_product_msdyn_rtvproduct_Product)
-- [msdyn_product_msdyn_workorderproduct_Product](#BKMK_msdyn_product_msdyn_workorderproduct_Product)
-- [msdyn_product_msdyn_workorderservice_Service](#BKMK_msdyn_product_msdyn_workorderservice_Service)
 
 
 ### <a name="BKMK_Product_SyncErrors"></a> Product_SyncErrors
 
 **Added by**: System Solution Solution
 
-Same as syncerror entity [Product_SyncErrors](syncerror.md#BKMK_Product_SyncErrors) Many-To-One relationship.
+Same as the [Product_SyncErrors](syncerror.md#BKMK_Product_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1700,7 +1437,7 @@ Same as syncerror entity [Product_SyncErrors](syncerror.md#BKMK_Product_SyncErro
 
 **Added by**: System Solution Solution
 
-Same as sharepointdocumentlocation entity [Product_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Product_SharepointDocumentLocation) Many-To-One relationship.
+Same as the [Product_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Product_SharepointDocumentLocation) many-to-one relationship for the [sharepointdocumentlocation](sharepointdocumentlocation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1717,7 +1454,7 @@ Same as sharepointdocumentlocation entity [Product_SharepointDocumentLocation](s
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation entity [Product_AsyncOperations](asyncoperation.md#BKMK_Product_AsyncOperations) Many-To-One relationship.
+Same as the [Product_AsyncOperations](asyncoperation.md#BKMK_Product_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1734,7 +1471,7 @@ Same as asyncoperation entity [Product_AsyncOperations](asyncoperation.md#BKMK_P
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder entity [product_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_product_MailboxTrackingFolders) Many-To-One relationship.
+Same as the [product_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_product_MailboxTrackingFolders) many-to-one relationship for the [mailboxtrackingfolder](mailboxtrackingfolder.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1751,7 +1488,7 @@ Same as mailboxtrackingfolder entity [product_MailboxTrackingFolders](mailboxtra
 
 **Added by**: System Solution Solution
 
-Same as processsession entity [Product_ProcessSessions](processsession.md#BKMK_Product_ProcessSessions) Many-To-One relationship.
+Same as the [Product_ProcessSessions](processsession.md#BKMK_Product_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1768,7 +1505,7 @@ Same as processsession entity [Product_ProcessSessions](processsession.md#BKMK_P
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure entity [Product_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Product_BulkDeleteFailures) Many-To-One relationship.
+Same as the [Product_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Product_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1785,7 +1522,7 @@ Same as bulkdeletefailure entity [Product_BulkDeleteFailures](bulkdeletefailure.
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess entity [product_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_product_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [product_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_product_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1802,7 +1539,7 @@ Same as principalobjectattributeaccess entity [product_principalobjectattributea
 
 **Added by**: System Solution Solution
 
-Same as connection entity [product_connections1](connection.md#BKMK_product_connections1) Many-To-One relationship.
+Same as the [product_connections1](connection.md#BKMK_product_connections1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1819,7 +1556,7 @@ Same as connection entity [product_connections1](connection.md#BKMK_product_conn
 
 **Added by**: System Solution Solution
 
-Same as connection entity [product_connections2](connection.md#BKMK_product_connections2) Many-To-One relationship.
+Same as the [product_connections2](connection.md#BKMK_product_connections2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1836,7 +1573,7 @@ Same as connection entity [product_connections2](connection.md#BKMK_product_conn
 
 **Added by**: System Solution Solution
 
-Same as annotation entity [Product_Annotation](annotation.md#BKMK_Product_Annotation) Many-To-One relationship.
+Same as the [Product_Annotation](annotation.md#BKMK_Product_Annotation) many-to-one relationship for the [annotation](annotation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1851,7 +1588,7 @@ Same as annotation entity [Product_Annotation](annotation.md#BKMK_Product_Annota
 
 ### <a name="BKMK_Product_DynamicProperty"></a> Product_DynamicProperty
 
-Same as dynamicproperty entity [Product_DynamicProperty](dynamicproperty.md#BKMK_Product_DynamicProperty) Many-To-One relationship.
+Same as the [Product_DynamicProperty](dynamicproperty.md#BKMK_Product_DynamicProperty) many-to-one relationship for the [dynamicproperty](dynamicproperty.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1866,7 +1603,7 @@ Same as dynamicproperty entity [Product_DynamicProperty](dynamicproperty.md#BKMK
 
 ### <a name="BKMK_Product_DynamicPropertyAssociation"></a> Product_DynamicPropertyAssociation
 
-Same as dynamicpropertyassociation entity [Product_DynamicPropertyAssociation](dynamicpropertyassociation.md#BKMK_Product_DynamicPropertyAssociation) Many-To-One relationship.
+Same as the [Product_DynamicPropertyAssociation](dynamicpropertyassociation.md#BKMK_Product_DynamicPropertyAssociation) many-to-one relationship for the [dynamicpropertyassociation](dynamicpropertyassociation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1881,7 +1618,7 @@ Same as dynamicpropertyassociation entity [Product_DynamicPropertyAssociation](d
 
 ### <a name="BKMK_product_parent_product"></a> product_parent_product
 
-Same as product entity [product_parent_product](product.md#BKMK_product_parent_product) Many-To-One relationship.
+Same as the [product_parent_product](product.md#BKMK_product_parent_product) many-to-one relationship for the [product](product.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1896,7 +1633,7 @@ Same as product entity [product_parent_product](product.md#BKMK_product_parent_p
 
 ### <a name="BKMK_Product_ProductAssociation_AssocProd"></a> Product_ProductAssociation_AssocProd
 
-Same as productassociation entity [Product_ProductAssociation_AssocProd](productassociation.md#BKMK_Product_ProductAssociation_AssocProd) Many-To-One relationship.
+Same as the [Product_ProductAssociation_AssocProd](productassociation.md#BKMK_Product_ProductAssociation_AssocProd) many-to-one relationship for the [productassociation](productassociation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1911,7 +1648,7 @@ Same as productassociation entity [Product_ProductAssociation_AssocProd](product
 
 ### <a name="BKMK_Product_ProductAssociation_Prod"></a> Product_ProductAssociation_Prod
 
-Same as productassociation entity [Product_ProductAssociation_Prod](productassociation.md#BKMK_Product_ProductAssociation_Prod) Many-To-One relationship.
+Same as the [Product_ProductAssociation_Prod](productassociation.md#BKMK_Product_ProductAssociation_Prod) many-to-one relationship for the [productassociation](productassociation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1926,7 +1663,7 @@ Same as productassociation entity [Product_ProductAssociation_Prod](productassoc
 
 ### <a name="BKMK_product_ProductSubstitute_substitutedproductid"></a> product_ProductSubstitute_substitutedproductid
 
-Same as productsubstitute entity [product_ProductSubstitute_substitutedproductid](productsubstitute.md#BKMK_product_ProductSubstitute_substitutedproductid) Many-To-One relationship.
+Same as the [product_ProductSubstitute_substitutedproductid](productsubstitute.md#BKMK_product_ProductSubstitute_substitutedproductid) many-to-one relationship for the [productsubstitute](productsubstitute.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1941,7 +1678,7 @@ Same as productsubstitute entity [product_ProductSubstitute_substitutedproductid
 
 ### <a name="BKMK_product_ProductSubstitute_productid"></a> product_ProductSubstitute_productid
 
-Same as productsubstitute entity [product_ProductSubstitute_productid](productsubstitute.md#BKMK_product_ProductSubstitute_productid) Many-To-One relationship.
+Same as the [product_ProductSubstitute_productid](productsubstitute.md#BKMK_product_ProductSubstitute_productid) many-to-one relationship for the [productsubstitute](productsubstitute.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1956,7 +1693,7 @@ Same as productsubstitute entity [product_ProductSubstitute_productid](productsu
 
 ### <a name="BKMK_product_price_levels"></a> product_price_levels
 
-Same as productpricelevel entity [product_price_levels](productpricelevel.md#BKMK_product_price_levels) Many-To-One relationship.
+Same as the [product_price_levels](productpricelevel.md#BKMK_product_price_levels) many-to-one relationship for the [productpricelevel](productpricelevel.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1973,7 +1710,7 @@ Same as productpricelevel entity [product_price_levels](productpricelevel.md#BKM
 
 **Added by**: Service Solution
 
-Same as contractdetail entity [product_contract_line_items](contractdetail.md#BKMK_product_contract_line_items) Many-To-One relationship.
+Same as the [product_contract_line_items](contractdetail.md#BKMK_product_contract_line_items) many-to-one relationship for the [contractdetail](contractdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1990,7 +1727,7 @@ Same as contractdetail entity [product_contract_line_items](contractdetail.md#BK
 
 **Added by**: Service Solution
 
-Same as incident entity [product_incidents](incident.md#BKMK_product_incidents) Many-To-One relationship.
+Same as the [product_incidents](incident.md#BKMK_product_incidents) many-to-one relationship for the [incident](incident.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2007,7 +1744,7 @@ Same as incident entity [product_incidents](incident.md#BKMK_product_incidents) 
 
 **Added by**: Sales Solution
 
-Same as opportunityproduct entity [opportunity_products](opportunityproduct.md#BKMK_opportunity_products) Many-To-One relationship.
+Same as the [opportunity_products](opportunityproduct.md#BKMK_opportunity_products) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2024,7 +1761,7 @@ Same as opportunityproduct entity [opportunity_products](opportunityproduct.md#B
 
 **Added by**: Sales Solution
 
-Same as invoicedetail entity [product_invoice_details](invoicedetail.md#BKMK_product_invoice_details) Many-To-One relationship.
+Same as the [product_invoice_details](invoicedetail.md#BKMK_product_invoice_details) many-to-one relationship for the [invoicedetail](invoicedetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2041,7 +1778,7 @@ Same as invoicedetail entity [product_invoice_details](invoicedetail.md#BKMK_pro
 
 **Added by**: Sales Solution
 
-Same as salesorderdetail entity [product_order_details](salesorderdetail.md#BKMK_product_order_details) Many-To-One relationship.
+Same as the [product_order_details](salesorderdetail.md#BKMK_product_order_details) many-to-one relationship for the [salesorderdetail](salesorderdetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2058,7 +1795,7 @@ Same as salesorderdetail entity [product_order_details](salesorderdetail.md#BKMK
 
 **Added by**: Sales Solution
 
-Same as quotedetail entity [product_quote_details](quotedetail.md#BKMK_product_quote_details) Many-To-One relationship.
+Same as the [product_quote_details](quotedetail.md#BKMK_product_quote_details) many-to-one relationship for the [quotedetail](quotedetail.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -2068,499 +1805,6 @@ Same as quotedetail entity [product_quote_details](quotedetail.md#BKMK_product_q
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|product_quote_details|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_actual_Product"></a> msdyn_product_msdyn_actual_Product
-
-**Added by**: Universal Resource Scheduling Solution
-
-Same as msdyn_actual entity [msdyn_product_msdyn_actual_Product](msdyn_actual.md#BKMK_msdyn_product_msdyn_actual_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_actual|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_actual_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_estimateline_Product"></a> msdyn_product_msdyn_estimateline_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_estimateline entity [msdyn_product_msdyn_estimateline_Product](msdyn_estimateline.md#BKMK_msdyn_product_msdyn_estimateline_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_estimateline|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_estimateline_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_fact_Product"></a> msdyn_product_msdyn_fact_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_fact entity [msdyn_product_msdyn_fact_Product](msdyn_fact.md#BKMK_msdyn_product_msdyn_fact_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fact|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_fact_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_fieldcomputation_ProductId"></a> msdyn_product_msdyn_fieldcomputation_ProductId
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_fieldcomputation entity [msdyn_product_msdyn_fieldcomputation_ProductId](msdyn_fieldcomputation.md#BKMK_msdyn_product_msdyn_fieldcomputation_ProductId) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fieldcomputation|
-|ReferencingAttribute|msdyn_productid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_fieldcomputation_ProductId|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_invoicelinetransaction_Product"></a> msdyn_product_msdyn_invoicelinetransaction_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_invoicelinetransaction entity [msdyn_product_msdyn_invoicelinetransaction_Product](msdyn_invoicelinetransaction.md#BKMK_msdyn_product_msdyn_invoicelinetransaction_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_invoicelinetransaction|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_invoicelinetransaction_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_journalline_Product"></a> msdyn_product_msdyn_journalline_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_journalline entity [msdyn_product_msdyn_journalline_Product](msdyn_journalline.md#BKMK_msdyn_product_msdyn_journalline_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_journalline|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_journalline_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_opportunitylinetransaction_Product"></a> msdyn_product_msdyn_opportunitylinetransaction_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_opportunitylinetransaction entity [msdyn_product_msdyn_opportunitylinetransaction_Product](msdyn_opportunitylinetransaction.md#BKMK_msdyn_product_msdyn_opportunitylinetransaction_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_opportunitylinetransaction|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_opportunitylinetransaction_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_orderlinetransaction_Product"></a> msdyn_product_msdyn_orderlinetransaction_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_orderlinetransaction entity [msdyn_product_msdyn_orderlinetransaction_Product](msdyn_orderlinetransaction.md#BKMK_msdyn_product_msdyn_orderlinetransaction_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderlinetransaction|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_orderlinetransaction_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_quotelinetransaction_Product"></a> msdyn_product_msdyn_quotelinetransaction_Product
-
-**Added by**: Project Service Automation Solution
-
-Same as msdyn_quotelinetransaction entity [msdyn_product_msdyn_quotelinetransaction_Product](msdyn_quotelinetransaction.md#BKMK_msdyn_product_msdyn_quotelinetransaction_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotelinetransaction|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_quotelinetransaction_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_agreementbookingproduct_Product"></a> msdyn_product_msdyn_agreementbookingproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementbookingproduct entity [msdyn_product_msdyn_agreementbookingproduct_Product](msdyn_agreementbookingproduct.md#BKMK_msdyn_product_msdyn_agreementbookingproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementbookingproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_agreementbookingproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Product<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_agreementbookingservice_Service"></a> msdyn_product_msdyn_agreementbookingservice_Service
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementbookingservice entity [msdyn_product_msdyn_agreementbookingservice_Service](msdyn_agreementbookingservice.md#BKMK_msdyn_product_msdyn_agreementbookingservice_Service) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementbookingservice|
-|ReferencingAttribute|msdyn_service|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_agreementbookingservice_Service|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Service<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_agreementinvoiceproduct_Product"></a> msdyn_product_msdyn_agreementinvoiceproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_agreementinvoiceproduct entity [msdyn_product_msdyn_agreementinvoiceproduct_Product](msdyn_agreementinvoiceproduct.md#BKMK_msdyn_product_msdyn_agreementinvoiceproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_agreementinvoiceproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_agreementinvoiceproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Product<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_customerasset_Product"></a> msdyn_product_msdyn_customerasset_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_customerasset entity [msdyn_product_msdyn_customerasset_Product](msdyn_customerasset.md#BKMK_msdyn_product_msdyn_customerasset_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_customerasset|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_customerasset_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_fieldservicepricelistitem_ProductService"></a> msdyn_product_msdyn_fieldservicepricelistitem_ProductService
-
-**Added by**: Field Service Solution
-
-Same as msdyn_fieldservicepricelistitem entity [msdyn_product_msdyn_fieldservicepricelistitem_ProductService](msdyn_fieldservicepricelistitem.md#BKMK_msdyn_product_msdyn_fieldservicepricelistitem_ProductService) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fieldservicepricelistitem|
-|ReferencingAttribute|msdyn_productservice|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_fieldservicepricelistitem_ProductService|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_fieldservicesetting"></a> msdyn_product_msdyn_fieldservicesetting
-
-**Added by**: Field Service Solution
-
-Same as msdyn_fieldservicesetting entity [msdyn_product_msdyn_fieldservicesetting](msdyn_fieldservicesetting.md#BKMK_msdyn_product_msdyn_fieldservicesetting) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_fieldservicesetting|
-|ReferencingAttribute|msdyn_travelchargeitemid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_fieldservicesetting|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Travel Charge Item<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_incidenttypeproduct_Product"></a> msdyn_product_msdyn_incidenttypeproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_incidenttypeproduct entity [msdyn_product_msdyn_incidenttypeproduct_Product](msdyn_incidenttypeproduct.md#BKMK_msdyn_product_msdyn_incidenttypeproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_incidenttypeproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_incidenttypeproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_incidenttypeservice_Service"></a> msdyn_product_msdyn_incidenttypeservice_Service
-
-**Added by**: Field Service Solution
-
-Same as msdyn_incidenttypeservice entity [msdyn_product_msdyn_incidenttypeservice_Service](msdyn_incidenttypeservice.md#BKMK_msdyn_product_msdyn_incidenttypeservice_Service) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_incidenttypeservice|
-|ReferencingAttribute|msdyn_service|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_incidenttypeservice_Service|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_inventoryadjustmentproduct_Product"></a> msdyn_product_msdyn_inventoryadjustmentproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_inventoryadjustmentproduct entity [msdyn_product_msdyn_inventoryadjustmentproduct_Product](msdyn_inventoryadjustmentproduct.md#BKMK_msdyn_product_msdyn_inventoryadjustmentproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_inventoryadjustmentproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_inventoryadjustmentproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_inventoryjournal_Product"></a> msdyn_product_msdyn_inventoryjournal_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_inventoryjournal entity [msdyn_product_msdyn_inventoryjournal_Product](msdyn_inventoryjournal.md#BKMK_msdyn_product_msdyn_inventoryjournal_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_inventoryjournal|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_inventoryjournal_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_orderinvoicingproduct_Product"></a> msdyn_product_msdyn_orderinvoicingproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_orderinvoicingproduct entity [msdyn_product_msdyn_orderinvoicingproduct_Product](msdyn_orderinvoicingproduct.md#BKMK_msdyn_product_msdyn_orderinvoicingproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_orderinvoicingproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_orderinvoicingproduct_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_productinventory_Product"></a> msdyn_product_msdyn_productinventory_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_productinventory entity [msdyn_product_msdyn_productinventory_Product](msdyn_productinventory.md#BKMK_msdyn_product_msdyn_productinventory_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_productinventory|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_productinventory_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_purchaseorderproduct_Product"></a> msdyn_product_msdyn_purchaseorderproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_purchaseorderproduct entity [msdyn_product_msdyn_purchaseorderproduct_Product](msdyn_purchaseorderproduct.md#BKMK_msdyn_product_msdyn_purchaseorderproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_purchaseorderproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_purchaseorderproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Product<br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_quotebookingproduct_Product"></a> msdyn_product_msdyn_quotebookingproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quotebookingproduct entity [msdyn_product_msdyn_quotebookingproduct_Product](msdyn_quotebookingproduct.md#BKMK_msdyn_product_msdyn_quotebookingproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotebookingproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_quotebookingproduct_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_quotebookingservice_Service"></a> msdyn_product_msdyn_quotebookingservice_Service
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quotebookingservice entity [msdyn_product_msdyn_quotebookingservice_Service](msdyn_quotebookingservice.md#BKMK_msdyn_product_msdyn_quotebookingservice_Service) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quotebookingservice|
-|ReferencingAttribute|msdyn_service|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_quotebookingservice_Service|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_quoteinvoicingproduct_Product"></a> msdyn_product_msdyn_quoteinvoicingproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_quoteinvoicingproduct entity [msdyn_product_msdyn_quoteinvoicingproduct_Product](msdyn_quoteinvoicingproduct.md#BKMK_msdyn_product_msdyn_quoteinvoicingproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_quoteinvoicingproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_quoteinvoicingproduct_Product|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_rmaproduct_Product"></a> msdyn_product_msdyn_rmaproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rmaproduct entity [msdyn_product_msdyn_rmaproduct_Product](msdyn_rmaproduct.md#BKMK_msdyn_product_msdyn_rmaproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rmaproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_rmaproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_rtvproduct_Product"></a> msdyn_product_msdyn_rtvproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_rtvproduct entity [msdyn_product_msdyn_rtvproduct_Product](msdyn_rtvproduct.md#BKMK_msdyn_product_msdyn_rtvproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_rtvproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_rtvproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_workorderproduct_Product"></a> msdyn_product_msdyn_workorderproduct_Product
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderproduct entity [msdyn_product_msdyn_workorderproduct_Product](msdyn_workorderproduct.md#BKMK_msdyn_product_msdyn_workorderproduct_Product) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderproduct|
-|ReferencingAttribute|msdyn_product|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_workorderproduct_Product|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_product_msdyn_workorderservice_Service"></a> msdyn_product_msdyn_workorderservice_Service
-
-**Added by**: Field Service Solution
-
-Same as msdyn_workorderservice entity [msdyn_product_msdyn_workorderservice_Service](msdyn_workorderservice.md#BKMK_msdyn_product_msdyn_workorderservice_Service) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_workorderservice|
-|ReferencingAttribute|msdyn_service|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_product_msdyn_workorderservice_Service|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
@@ -2581,85 +1825,71 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [subject_products](#BKMK_subject_products)
 - [unit_of_measurement_products](#BKMK_unit_of_measurement_products)
 - [unit_of_measurement_schedule_products](#BKMK_unit_of_measurement_schedule_products)
-- [msdyn_msdyn_transactioncategory_product_TransactionCategory](#BKMK_msdyn_msdyn_transactioncategory_product_TransactionCategory)
-- [msdyn_account_product_DefaultVendor](#BKMK_msdyn_account_product_DefaultVendor)
 
 
 ### <a name="BKMK_lk_productbase_createdby"></a> lk_productbase_createdby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_productbase_createdby](systemuser.md#BKMK_lk_productbase_createdby) One-To-Many relationship.
+See the [lk_productbase_createdby](systemuser.md#BKMK_lk_productbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_product_createdonbehalfby"></a> lk_product_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_product_createdonbehalfby](systemuser.md#BKMK_lk_product_createdonbehalfby) One-To-Many relationship.
+See the [lk_product_createdonbehalfby](systemuser.md#BKMK_lk_product_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_productbase_modifiedby"></a> lk_productbase_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_productbase_modifiedby](systemuser.md#BKMK_lk_productbase_modifiedby) One-To-Many relationship.
+See the [lk_productbase_modifiedby](systemuser.md#BKMK_lk_productbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_product_modifiedonbehalfby"></a> lk_product_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Entity [lk_product_modifiedonbehalfby](systemuser.md#BKMK_lk_product_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_product_modifiedonbehalfby](systemuser.md#BKMK_lk_product_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_products"></a> organization_products
 
 **Added by**: System Solution Solution
 
-See organization Entity [organization_products](organization.md#BKMK_organization_products) One-To-Many relationship.
+See the [organization_products](organization.md#BKMK_organization_products) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_processstage_products"></a> processstage_products
 
 **Added by**: System Solution Solution
 
-See processstage Entity [processstage_products](processstage.md#BKMK_processstage_products) One-To-Many relationship.
+See the [processstage_products](processstage.md#BKMK_processstage_products) one-to-many relationship for the [processstage](processstage.md) entity.
 
 ### <a name="BKMK_transactioncurrency_product"></a> transactioncurrency_product
 
 **Added by**: System Solution Solution
 
-See transactioncurrency Entity [transactioncurrency_product](transactioncurrency.md#BKMK_transactioncurrency_product) One-To-Many relationship.
+See the [transactioncurrency_product](transactioncurrency.md#BKMK_transactioncurrency_product) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### <a name="BKMK_price_level_products"></a> price_level_products
 
-See pricelevel Entity [price_level_products](pricelevel.md#BKMK_price_level_products) One-To-Many relationship.
+See the [price_level_products](pricelevel.md#BKMK_price_level_products) one-to-many relationship for the [pricelevel](pricelevel.md) entity.
 
 ### <a name="BKMK_product_parent_product"></a> product_parent_product
 
-See product Entity [product_parent_product](product.md#BKMK_product_parent_product) One-To-Many relationship.
+See the [product_parent_product](product.md#BKMK_product_parent_product) one-to-many relationship for the [product](product.md) entity.
 
 ### <a name="BKMK_subject_products"></a> subject_products
 
 **Added by**: System Solution Solution
 
-See subject Entity [subject_products](subject.md#BKMK_subject_products) One-To-Many relationship.
+See the [subject_products](subject.md#BKMK_subject_products) one-to-many relationship for the [subject](subject.md) entity.
 
 ### <a name="BKMK_unit_of_measurement_products"></a> unit_of_measurement_products
 
-See uom Entity [unit_of_measurement_products](uom.md#BKMK_unit_of_measurement_products) One-To-Many relationship.
+See the [unit_of_measurement_products](uom.md#BKMK_unit_of_measurement_products) one-to-many relationship for the [uom](uom.md) entity.
 
 ### <a name="BKMK_unit_of_measurement_schedule_products"></a> unit_of_measurement_schedule_products
 
-See uomschedule Entity [unit_of_measurement_schedule_products](uomschedule.md#BKMK_unit_of_measurement_schedule_products) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_transactioncategory_product_TransactionCategory"></a> msdyn_msdyn_transactioncategory_product_TransactionCategory
-
-**Added by**: Project Service Automation Solution
-
-See msdyn_transactioncategory Entity [msdyn_msdyn_transactioncategory_product_TransactionCategory](msdyn_transactioncategory.md#BKMK_msdyn_msdyn_transactioncategory_product_TransactionCategory) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_account_product_DefaultVendor"></a> msdyn_account_product_DefaultVendor
-
-**Added by**: System Solution Solution
-
-See account Entity [msdyn_account_product_DefaultVendor](account.md#BKMK_msdyn_account_product_DefaultVendor) One-To-Many relationship.
+See the [unit_of_measurement_schedule_products](uomschedule.md#BKMK_unit_of_measurement_schedule_products) one-to-many relationship for the [uomschedule](uomschedule.md) entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -2676,12 +1906,12 @@ Relationship details provided where the Product entity is the first entity in th
 
 ### <a name="BKMK_campaignproduct_association"></a> campaignproduct_association
 
-See campaign Entity [campaignproduct_association](campaign.md#BKMK_campaignproduct_association) Many-To-Many Relationship.
+See the [campaignproduct_association](campaign.md#BKMK_campaignproduct_association) many-to-many relationship for the [campaign](campaign.md) entity.
 
 ### <a name="BKMK_product_entitlement_association"></a> product_entitlement_association
 
 IntersectEntityName: entitlementproducts<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -2691,7 +1921,7 @@ IntersectEntityName: entitlementproducts<br />
 |NavigationPropertyName|product_entitlement_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -2704,7 +1934,7 @@ IntersectEntityName: entitlementproducts<br />
 ### <a name="BKMK_product_entitlementtemplate_association"></a> product_entitlementtemplate_association
 
 IntersectEntityName: entitlementtemplateproducts<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -2714,7 +1944,7 @@ IntersectEntityName: entitlementtemplateproducts<br />
 |NavigationPropertyName|product_entitlementtemplate_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -2726,12 +1956,12 @@ IntersectEntityName: entitlementtemplateproducts<br />
 
 ### <a name="BKMK_leadproduct_association"></a> leadproduct_association
 
-See lead Entity [leadproduct_association](lead.md#BKMK_leadproduct_association) Many-To-Many Relationship.
+See the [leadproduct_association](lead.md#BKMK_leadproduct_association) many-to-many relationship for the [lead](lead.md) entity.
 
 ### <a name="BKMK_productsalesliterature_association"></a> productsalesliterature_association
 
 IntersectEntityName: productsalesliterature<br />
-#### Entity 1
+#### Table 1
 
 |Property|Value|
 |--------|-----|
@@ -2741,7 +1971,7 @@ IntersectEntityName: productsalesliterature<br />
 |NavigationPropertyName|productsalesliterature_association|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-#### Entity 2
+#### Table 2
 
 |Property|Value|
 |--------|-----|
@@ -2753,13 +1983,9 @@ IntersectEntityName: productsalesliterature<br />
 
 ### <a name="BKMK_competitorproduct_association"></a> competitorproduct_association
 
-See competitor Entity [competitorproduct_association](competitor.md#BKMK_competitorproduct_association) Many-To-Many Relationship.
+See the [competitorproduct_association](competitor.md#BKMK_competitorproduct_association) many-to-many relationship for the [competitor](competitor.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.product?text=product EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

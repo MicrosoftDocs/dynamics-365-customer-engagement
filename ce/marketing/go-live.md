@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Go live with publishable entities and track the go-live status of records
@@ -94,7 +90,7 @@ You can manually set the **Status** of a message to _active_ or _inactive_ by us
 | --- | --- | --- |
 | Active | Draft | The message has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft message, open it and then choose **Go Live** on the command bar. |
 | Active | Live | The message is currently live and can't be edited locally. It is available to be sent at any time by a customer journey.<br><br>To stop a live message, open it and then choose **Stop** from the command bar.<br><br>To edit a live message without stopping it, open it and then choose **Edit** on the command bar. |
-| Active | Stopped | The message was once live, and may have already been delivered to some contacts, but is now stopped so no new copies are being sent. If the message is used in a customer journey, then the message won't be sent by the journey until you start it again (and contacts will wait at the related email tile).<br><br>While stopped, you can edit and save the content without going live. Select **Go live** to republish it. |
+| Active | Stopped | The message was once live, and may have already been delivered to some contacts, but is now stopped so no new copies are being sent. If the message is used in a customer journey, then the message will be sent by the journey but an error will appear on the email tile that it is inactive.<br><br>While stopped, you can edit and save the content without going live. Select **Go live** to republish it. |
 | Active | Live, editable | The message is currently live (and that version could be sent by a customer journey at any time), but you have chosen to edit it locally at the same time.<br><br>Make the required changes and then choose **Save** to update the message and return it to the *active/live* state.<br><br>Note that for your changes to take effect in already live journeys, you must stop and go live with the respective journeys again, otherwise the previous version of the email will continue to be used. |
 | Inactive | Expired | A user has manually deactivated the message using the **Deactivate** button on the command bar. If the message was previously live, then this operation also stops it. |
 

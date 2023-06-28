@@ -1,34 +1,32 @@
 ---
-title: "Position Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Position entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Position entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Position Entity Reference
+
+# Position entity reference
 
 Position of a user in the hierarchy
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/positions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/positions(*positionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/positions(*positionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/positions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/positions(*positionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/positions(*positionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -168,7 +166,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -189,7 +187,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -595,7 +593,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_position_AsyncOperations"></a> position_AsyncOperations
 
-Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_position_AsyncOperations) Many-To-One relationship.
+Same as the [position_AsyncOperations](asyncoperation.md#BKMK_position_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -610,7 +608,7 @@ Same as asyncoperation entity [position_AsyncOperations](asyncoperation.md#BKMK_
 
 ### <a name="BKMK_position_ProcessSession"></a> position_ProcessSession
 
-Same as processsession entity [position_ProcessSession](processsession.md#BKMK_position_ProcessSession) Many-To-One relationship.
+Same as the [position_ProcessSession](processsession.md#BKMK_position_ProcessSession) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -625,7 +623,7 @@ Same as processsession entity [position_ProcessSession](processsession.md#BKMK_p
 
 ### <a name="BKMK_position_users"></a> position_users
 
-Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Many-To-One relationship.
+Same as the [position_users](systemuser.md#BKMK_position_users) many-to-one relationship for the [systemuser](systemuser.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -640,7 +638,7 @@ Same as systemuser entity [position_users](systemuser.md#BKMK_position_users) Ma
 
 ### <a name="BKMK_position_parent_position"></a> position_parent_position
 
-Same as position entity [position_parent_position](position.md#BKMK_position_parent_position) Many-To-One relationship.
+Same as the [position_parent_position](position.md#BKMK_position_parent_position) many-to-one relationship for the [position](position.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -655,7 +653,7 @@ Same as position entity [position_parent_position](position.md#BKMK_position_par
 
 ### <a name="BKMK_Position_SyncErrors"></a> Position_SyncErrors
 
-Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncErrors) Many-To-One relationship.
+Same as the [Position_SyncErrors](syncerror.md#BKMK_Position_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -670,7 +668,7 @@ Same as syncerror entity [Position_SyncErrors](syncerror.md#BKMK_Position_SyncEr
 
 ### <a name="BKMK_position_connection2"></a> position_connection2
 
-Same as connection entity [position_connection2](connection.md#BKMK_position_connection2) Many-To-One relationship.
+Same as the [position_connection2](connection.md#BKMK_position_connection2) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -685,7 +683,7 @@ Same as connection entity [position_connection2](connection.md#BKMK_position_con
 
 ### <a name="BKMK_position_principalobjectattributeaccess"></a> position_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [position_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_position_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [position_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_position_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -700,7 +698,7 @@ Same as principalobjectattributeaccess entity [position_principalobjectattribute
 
 ### <a name="BKMK_position_connection1"></a> position_connection1
 
-Same as connection entity [position_connection1](connection.md#BKMK_position_connection1) Many-To-One relationship.
+Same as the [position_connection1](connection.md#BKMK_position_connection1) many-to-one relationship for the [connection](connection.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -729,37 +727,33 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_position_createdby"></a> lk_position_createdby
 
-See systemuser Entity [lk_position_createdby](systemuser.md#BKMK_lk_position_createdby) One-To-Many relationship.
+See the [lk_position_createdby](systemuser.md#BKMK_lk_position_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_position_createdonbehalfby"></a> lk_position_createdonbehalfby
 
-See systemuser Entity [lk_position_createdonbehalfby](systemuser.md#BKMK_lk_position_createdonbehalfby) One-To-Many relationship.
+See the [lk_position_createdonbehalfby](systemuser.md#BKMK_lk_position_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_position_modifiedby"></a> lk_position_modifiedby
 
-See systemuser Entity [lk_position_modifiedby](systemuser.md#BKMK_lk_position_modifiedby) One-To-Many relationship.
+See the [lk_position_modifiedby](systemuser.md#BKMK_lk_position_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_position_modifiedonbehalfby"></a> lk_position_modifiedonbehalfby
 
-See systemuser Entity [lk_position_modifiedonbehalfby](systemuser.md#BKMK_lk_position_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_position_modifiedonbehalfby](systemuser.md#BKMK_lk_position_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_position"></a> organization_position
 
-See organization Entity [organization_position](organization.md#BKMK_organization_position) One-To-Many relationship.
+See the [organization_position](organization.md#BKMK_organization_position) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_position_parent_position"></a> position_parent_position
 
-See position Entity [position_parent_position](position.md#BKMK_position_parent_position) One-To-Many relationship.
+See the [position_parent_position](position.md#BKMK_position_parent_position) one-to-many relationship for the [position](position.md) entity.
 
 ### <a name="BKMK_transactioncurrency_position"></a> transactioncurrency_position
 
-See transactioncurrency Entity [transactioncurrency_position](transactioncurrency.md#BKMK_transactioncurrency_position) One-To-Many relationship.
+See the [transactioncurrency_position](transactioncurrency.md#BKMK_transactioncurrency_position) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.position?text=position EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

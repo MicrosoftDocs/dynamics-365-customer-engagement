@@ -3,7 +3,6 @@ title: "Set up Omnichannel for Customer Service channels in Customer Service wor
 description: "Learn how to configure Omnichannel for Customer Service channels in Customer Service workspace"
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ms.date: 11/10/2020
 ms.topic: article
 ---
@@ -55,6 +54,7 @@ For supervisors:
 
 
 ### Agent experience
+
 After you have configured the Omnichannel for Customer Service and app profile manager features, agents will have a user experience in Customer Service workspace that is similar to the following:
 
 1.	The agent signs in to Customer Service workspace and can view the Omnichannel agent dashboard from the dashboard view.
@@ -62,7 +62,7 @@ After you have configured the Omnichannel for Customer Service and app profile m
 2.	The agent can work on conversations by accepting or selecting a conversation from the dashboard, and all the functionality of Omnichannel for Customer Service is available to them, including:
 
     a.	Notifications - More information: [View notifications](../customer-service/oc-notifications.md) <br>
-    b.	Customer summary - More information: [View a customer summary to get information about a customer](../customer-service/oc-customer-summary.md) <br>
+    b.	Active Conversation - More information: [View customer information on Active Conversation form](../customer-service/oc-customer-summary.md) <br>
     c.	Notes – More information: [Take notes specific to a conversation](../customer-service/oc-take-notes.md) <br>
     d.	Conversation and session forms – More information: [View conversation and session forms](../customer-service/oc-view-activity-types.md) <br>
     e.	Transcripts – More information: [Search transcripts](../customer-service/oc-search-transcipts.md) <br>
@@ -79,6 +79,7 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 - View customer satisfaction levels - More information: [Sentiment monitoring](../customer-service/supervisor-sentiment-monitoring.md)
 
 ### See also
+
 [App profile manager overview](overview.md)  
 [Roles and privileges associated with app profile manager](security-roles.md)  
 [Customer Service workspace overview](../customer-service/csw-overview.md)  

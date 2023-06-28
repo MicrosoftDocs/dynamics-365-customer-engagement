@@ -3,22 +3,18 @@ title: "UII hosted applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the types of UII hosted applications such as global, session, and dynamic hosted applications."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
 ---
 # UII hosted applications in Unified Service Desk
 A [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] hosted application is a line-of-business application or component whose user interface is hosted in the shell application. A hosted application can either be an existing application developed with no awareness of [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] or an application or component (hosted control) developed specifically for UII. The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif.md)] exposes classes and interfaces that enable you to develop hosted applications that support different scenarios.  
   
- The [IHostedApplication](/dotnet/api/microsoft.uii.csr.ihostedapplication) interface defines a [String)](/dotnet/api/microsoft.uii.csr.hostedcontrol.doaction(microsoft.uii.csr.action,system.string)) method, which enables the application to respond to an action. In the [String)](/dotnet/api/microsoft.uii.csr.hostedcontrol.doaction(microsoft.uii.csr.action,system.string)) method implementation, you can use a switch statement to decide which code to execute, based on the name of the action received through the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym.md)].  
+ The [IHostedApplication](/dotnet/api/microsoft.uii.csr.ihostedapplication) interface defines a [String)](/dotnet/api/microsoft.uii.csr.hostedcontrol.doaction) method, which enables the application to respond to an action. In the [String)](/dotnet/api/microsoft.uii.csr.hostedcontrol.doaction) method implementation, you can use a switch statement to decide which code to execute, based on the name of the action received through the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym.md)].  
   
 <a name="Types"></a>   
 ## Types of UII hosted application  

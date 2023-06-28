@@ -1,28 +1,21 @@
 ---
 title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
-ms.date: 09/20/2021
-ms.reviewer: krbjoran
-
+ms.date: 01/04/2023
 ms.subservice: field-service-mobile
 ms.topic: article
-ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: JonBaker007
+ms.author: jobaker
 ---
 
 # Geofencing for the Dynamics 365 Field Service mobile app
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
-In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a work order's location and compare it to the changing location of field technicians as measured by their mobile devices running the Field Service mobile app. When a work order geofence is crossed by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
+In Dynamics 365 Field Service, the default use case for geofencing is to create a circular geofence around a service account location and compare it to the changing location of field technicians as measured by their mobile devices running the Field Service mobile app. When a work order geofence is crossed by a field technician, a **geofence event** record is created and the geofence status is changed from **outside** to **inside**, indicating the field technician is inside the geofence. Another geofence event is created as the field technician leaves the geofenced area. Based on entering or leaving a geofenced area, a mobile push notification or custom workflow can be triggered.
 
 In this article, we look at how to configure and use geofences by:
 
@@ -33,45 +26,33 @@ In this article, we look at how to configure and use geofences by:
 
 ## Prerequisites
 
-- **Field Service v8.8.32+**.
-
-- Verify geofence solutions are installed. Go to **Settings** > **Solutions** and make sure the following geofence solutions are there. Upgrade to Field Service 8.8.32+ if these solutions are not present.
-
-  - **Geofence Alerts**
-  - **Geofence Management**
-  - **Geofence for Field Service**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of geofence solutions appearing in the solution list in Dynamics 365.](./media/mobile-geofence-solutions.png)
-
-- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts and work orders to later place geofences around.
+- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts to later place geofences around.
    
 - [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
 
-- This article applies to geofencing for the [Field Service mobile app, built on Microsoft Power Platform](mobile-power-app-overview.md).
 
 ## Step 1. Enable and test location tracking, sharing, and auditing
 
-First, [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You will know location tracking is working if the technician's location appears on the schedule board map and in location records in the geolocation tracking record type.
+First, [enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and verify each technician's location is being tracked in Field Service. You'll know location tracking is working if the technician's location appears on the schedule board map and in location records in the geolocation tracking record type.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view on the schedule board, showing a technician on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
 
 ## Step 2. Activate geofence processes
 
-Go to **Settings** > **Processes** and **Activate** the following processes. These processes are installed in a draft state with the geofence solutions:
+Go to **Settings** > **Processes** and ensure the following processes are in an *Active* state.
 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
-- ```Update Resource Location from Resco Audit```
+- ```Update Geofence instance coordinates```
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
 
-If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows.
+If you have **Enhanced Background Processing** (Preview) set to _Yes_ in [Field Service Settings](./configure-default-settings.md#other-settings), enable the geofence Power Automate flows. With Enhanced Background Processing (Preview) with Power Automate Flows, the processes aren't required to be active.
 
 1. Go to https://make.powerapps.com/ and select your environment.
 2. Go to **Solutions** > **Geofencing for Field Service**.
@@ -83,8 +64,6 @@ If you have **Enhanced Background Processing** set to _Yes_ in [Field Service Se
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the geofencing for Field Service solution.](./media/mobile-2020-geofence-flows.png)
 
-> [!Note]
-> If you choose to use enhanced background process Power Automate flows instead of processes, you don't need to deactivate the Processes.
 
 ## Step 3. Configure geofencing settings
 
@@ -120,7 +99,7 @@ Enter the following information:
  
 Next, go to the bookable resource configuration and enter the following:
 
-- **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to work orders and service accounts.
+- **Entity:** Select **Bookable Resource** to compare the location of field technicians relative to the service account of the work order.
 
 - **Latitude / Longitude** Choose the latitude and longitude fields on the bookable resource entity that hold the most recent coordinates of the location.
 
@@ -207,13 +186,8 @@ In the scenario shown in the following screenshot, a geofence will only be creat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of location expiration configuration field.](./media/mobile-geofence-location-expiration.png)
 
-  
 ## Additional notes
 
 - Only circular-shaped geofences are currently supported.
-
-### See also
-
-- [Geofencing for Field Service Mobile (Xamarin) app](field-service-mobile-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

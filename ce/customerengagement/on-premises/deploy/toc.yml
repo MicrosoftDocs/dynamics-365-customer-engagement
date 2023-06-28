@@ -310,3 +310,7 @@
           href: sql-server-failure-recovery.md
         - name: Dynamics 365 Server failure recovery
           href: microsoft-dynamics-365-server-failure-recovery.md
+      - name: Monitor and troubleshoot
+        href: monitor-and-troubleshoot-dynamics-365.md
+    - name: Move the deployment
+      href: move-deployment.md

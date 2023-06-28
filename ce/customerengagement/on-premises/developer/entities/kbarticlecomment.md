@@ -1,36 +1,31 @@
 ---
-title: "KbArticleComment Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the KbArticleComment entity."
-ms.date: 05/13/2020
-
+title: "Article Comment (KbArticleComment)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Article Comment (KbArticleComment)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# KbArticleComment Entity Reference
 
-> [!NOTE]
-> This entity is now deprecated. This means that we do not expect you to use this entity anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service.  
+# Article Comment (KbArticleComment)  entity reference
 
 Comment on a knowledge base article.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/kbarticlecomments<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/kbarticlecomments(*kbarticlecommentid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/kbarticlecomments(*kbarticlecommentid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/kbarticlecomments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/kbarticlecomments(*kbarticlecommentid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -395,7 +390,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_KbArticleComment_ProcessSessions"></a> KbArticleComment_ProcessSessions
 
-Same as processsession entity [KbArticleComment_ProcessSessions](processsession.md#BKMK_KbArticleComment_ProcessSessions) Many-To-One relationship.
+Same as the [KbArticleComment_ProcessSessions](processsession.md#BKMK_KbArticleComment_ProcessSessions) many-to-one relationship for the [processsession](processsession.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -410,7 +405,7 @@ Same as processsession entity [KbArticleComment_ProcessSessions](processsession.
 
 ### <a name="BKMK_KbArticleComment_AsyncOperations"></a> KbArticleComment_AsyncOperations
 
-Same as asyncoperation entity [KbArticleComment_AsyncOperations](asyncoperation.md#BKMK_KbArticleComment_AsyncOperations) Many-To-One relationship.
+Same as the [KbArticleComment_AsyncOperations](asyncoperation.md#BKMK_KbArticleComment_AsyncOperations) many-to-one relationship for the [asyncoperation](asyncoperation.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -425,7 +420,7 @@ Same as asyncoperation entity [KbArticleComment_AsyncOperations](asyncoperation.
 
 ### <a name="BKMK_KbArticleComment_BulkDeleteFailures"></a> KbArticleComment_BulkDeleteFailures
 
-Same as bulkdeletefailure entity [KbArticleComment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_KbArticleComment_BulkDeleteFailures) Many-To-One relationship.
+Same as the [KbArticleComment_BulkDeleteFailures](bulkdeletefailure.md#BKMK_KbArticleComment_BulkDeleteFailures) many-to-one relationship for the [bulkdeletefailure](bulkdeletefailure.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -452,29 +447,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_kbarticlecomment_modifiedonbehalfby"></a> lk_kbarticlecomment_modifiedonbehalfby
 
-See systemuser Entity [lk_kbarticlecomment_modifiedonbehalfby](systemuser.md#BKMK_lk_kbarticlecomment_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_kbarticlecomment_modifiedonbehalfby](systemuser.md#BKMK_lk_kbarticlecomment_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_kbarticlecommentbase_createdby"></a> lk_kbarticlecommentbase_createdby
 
-See systemuser Entity [lk_kbarticlecommentbase_createdby](systemuser.md#BKMK_lk_kbarticlecommentbase_createdby) One-To-Many relationship.
+See the [lk_kbarticlecommentbase_createdby](systemuser.md#BKMK_lk_kbarticlecommentbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_kbarticlecomment_createdonbehalfby"></a> lk_kbarticlecomment_createdonbehalfby
 
-See systemuser Entity [lk_kbarticlecomment_createdonbehalfby](systemuser.md#BKMK_lk_kbarticlecomment_createdonbehalfby) One-To-Many relationship.
+See the [lk_kbarticlecomment_createdonbehalfby](systemuser.md#BKMK_lk_kbarticlecomment_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_kbarticlecommentbase_modifiedby"></a> lk_kbarticlecommentbase_modifiedby
 
-See systemuser Entity [lk_kbarticlecommentbase_modifiedby](systemuser.md#BKMK_lk_kbarticlecommentbase_modifiedby) One-To-Many relationship.
+See the [lk_kbarticlecommentbase_modifiedby](systemuser.md#BKMK_lk_kbarticlecommentbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_kbarticle_comments"></a> kbarticle_comments
 
-See kbarticle Entity [kbarticle_comments](kbarticle.md#BKMK_kbarticle_comments) One-To-Many relationship.
+See the [kbarticle_comments](kbarticle.md#BKMK_kbarticle_comments) one-to-many relationship for the [kbarticle](kbarticle.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.kbarticlecomment?text=kbarticlecomment EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -9,19 +9,15 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Email sending data access and privileges
 
-When core sending is composing an email, it needs to fill in dynamic email elements with actual data. Normally, the data is retrieved from core sending's own cache. In the case of 1-n relationships, which are used in `#each` statements, the data might be fetched directly from CDS.
+When core sending is composing an email, it needs to fill in dynamic email elements with actual data. Normally, the data is retrieved from core sending's own cache. In the case of 1-n relationships, which are used in `#each` statements, the data might be fetched directly from Dataverse.
 
 ## Grant data access permissions
 
@@ -41,3 +37,5 @@ If there is a data access issue, one of the following errors may occur:
 - During email sending, if the data cannot be acquired one of two potential interactions will be shown: either a `MissingDataAccessRights` interaction, or an `Other` interaction specifying `MissingPrivilegesError`.
 
 To resolve the above-listed errors, ensure that the Marketing user has the necessary access rights to all the entities inside the email by following the steps described above.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

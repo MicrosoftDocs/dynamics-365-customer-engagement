@@ -1,23 +1,17 @@
 ---
-title: "How to write scripts to implement complex business logic in Dynamics 365 Field Service | MicrosoftDocs"
+title: Write scripts to implement complex business logic
 description: Learn all about best practices when implementing custom scripts in Dynamics 365 Field Service.
 ms.date: 02/18/2022
-ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
-# Write scripts to implement complex business logic in Field Service
+# Write scripts to implement complex business logic
 
 In some Field Service implementations, there are functionalities and complex business logic that go beyond the processes offered by out-of-the-box Field Service; sometimes, these complexities even extend beyond the platform options, like workflow and business rules. For complex requirements, developers can create custom code.
 
-Implementing complex business logic typically involves writing [plugins](/powerapps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1) on the client side.  
+Implementing complex business logic typically involves writing [plugins](/powerapps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1&preserve-view=true) on the client side.  
 
 In this article, we'll explore these best practices:
 
@@ -61,7 +55,7 @@ Before writing a custom script, try to accomplish your requirement with platform
 
 Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Platform options are more scalable, supportable, are less likely to break with upgrades, and are better for performance.
 
-For more information on using platform options, see this article on [when to use plugins or workflows](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
+For more information on using platform options, see this article on [when to use plugins or workflows](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1&preserve-view=true#when-to-use-plug-ins-vs-workflow).
 
 ## Step 4: Review best practices before writing plugins or scripts
 
@@ -69,7 +63,7 @@ Many best practices have been established from experience with developers across
 
 - [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](/powerapps/developer/data-platform/best-practices/business-logic/)
 - [Best practices and guidance of client side scripting for model-driven apps](/powerapps/developer/model-driven-apps/best-practices/business-logic/)
-- [Best practices for developing with Dynamics 365 Customer Engagement](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
+- [Best practices for developing with Dynamics 365 Customer Engagement](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1&preserve-view=true)
 - [Make intelligent customizations when you use JavaScript on forms](/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
 - [Scalable Customization Design in Microsoft Dataverse](/powerapps/developer/data-platform/scalable-customization-design/overview)
 
@@ -77,7 +71,7 @@ Many best practices have been established from experience with developers across
 
 After writing scripts, you must test them.
 
-First, [use Solution Checker to validate your model-driven apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker). Solution Checker will identify if the scripts violate best practices, like running [synchronously instead of asynchronously](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
+First, [use Solution Checker to validate your model-driven apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker). Solution Checker will identify if the scripts violate best practices, like running [synchronously instead of asynchronously](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1&preserve-view=true#when-to-use-plug-ins-vs-workflow).
 
 Next, use [plugin profiler](/powerapps/developer/data-platform/tutorial-debug-plug-in?tabs=prt) to debug issues.
 
@@ -95,11 +89,4 @@ Many Field Service record types, like work orders (as shown in the following ima
 
 Booking rules are a way of using JavaScript to perform validations on the schedule board. However, just like using JavaScript on other forms like work orders, proceed with caution. Don't create more than one booking rule. Consider instead using [booking alerts](booking-alert.md) to alert dispatchers of issues.
 
-### See also
-
-- [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
-- [Client scripting in Customer Engagement using JavaScript](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1)
-- [Script (JScript) web resources](/powerapps/developer/model-driven-apps/script-jscript-web-resources)
-- [Use plugins to extend business processes](/powerapps/developer/data-platform/plug-ins)
-- [Access external web services](/powerapps/developer/data-platform/access-web-services)
-- [Analyze plug-in performance](/powerapps/developer/data-platform/analyze-performance)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

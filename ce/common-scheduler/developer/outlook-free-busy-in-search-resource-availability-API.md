@@ -1,8 +1,8 @@
 ---
 title: "Outlook free/busy schedules considered by Universal Resource Scheduling's search resource availability API | MicrosoftDocs"
 description: "Learn how to consider Outlook free/busy schedules when calling Universal Resource Scheduling's search resource availability API."
-ms.date: 11/15/2021
-ms.reviewer: krbjoran
+ms.date: 06/21/2022
+ms.reviewer: mhart
 
 ms.subservice: common-scheduler
 ms.topic: article
@@ -11,9 +11,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: salehasiddique-msft
 ms.author: salsiddi
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 
@@ -34,29 +31,7 @@ Some key points:
 
 - Universal Resource Scheduling 3.12.64.x+, available in Field Service 8.8.52.x+ (2021 October Wave 2)
 
-## Step 1: Construct URL for granting permissions to application
-
-This one-time step grants permission to the Resource Scheduling Graph App to call relevant Graph APIs for reading users' organization and calendar information. It must be performed by an Azure AD tenant administrator.  
-
-To grant permissions to the Resource Scheduling Graph App, you'll need:
-
-- _{tenantId}_ - your organization's tenant ID 
-
-To grant the permissions:
-
-In a text editor, create the following URL string. In the place of _{tenantID}_ insert the organization's tenant ID.
-
-```
-  >https://login.microsoftonline.com/{tenantId}/v2.0/adminconsent
-  ?client_id=e3337770-d284-47c9-b67f-b987033bd594
-  &scope=https://graph.microsoft.com/Calendars.Read https://graph.microsoft.com/Organization.Read.All
-  &state=/.default
-
-```
-
-In a web browser, go to this URL, and sign in as a tenant administrator. The dialog box shows the list of permissions the application requires. Choose **Accept** to grant the application these permissions.
-
-## Step 2: Enable setting to include Outlook free/busy in search resource availability API  
+## Step 1: Enable setting to include Outlook free/busy in search resource availability API  
 
 ### At the organization level
 
@@ -83,7 +58,7 @@ To control individual resources, go to the **Scheduling** tab on the resource fo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource level setting.](../media/OutlookFreeBusyInSAAPI-ResourceFlag.png)
 
-## Step 3: Call the search resource availability API with ```ConsiderOutlookSchedules``` as _true_
+## Step 2: Call the search resource availability API with ```ConsiderOutlookSchedules``` as _true_
 
 Call the search resource availability API with **ConsiderOutlookSchedules** as _true_. The feature is available for search resource availability APIs for both requirements ([msdyn_SearchResourceAvailability](/dynamics365/field-service/search-resource-availability-api)) and requirement groups ([msdyn_SearchResourceAvailabilityForRequirementGroup](/dynamics365/field-service/search-resource-availability-api)).
 

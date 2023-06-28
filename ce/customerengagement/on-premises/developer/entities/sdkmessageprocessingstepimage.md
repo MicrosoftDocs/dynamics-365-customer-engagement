@@ -1,33 +1,31 @@
 ---
-title: "SdkMessageProcessingStepImage Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "SdkMessageProcessingStepImage entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the SdkMessageProcessingStepImage entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# SdkMessageProcessingStepImage Entity Reference
+
+# SdkMessageProcessingStepImage entity reference
 
 Copy of an entity's attributes before or after the core system operation.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages(*sdkmessageprocessingstepimageid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages(*sdkmessageprocessingstepimageid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/sdkmessageprocessingstepimages(*sdkmessageprocessingstepimageid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -122,13 +120,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ImageType Options
+#### ImageType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|PreImage|
-|1|PostImage|
-|2|Both|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|PreImage||
+|1|PostImage||
+|2|Both||
 
 
 
@@ -278,14 +276,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -408,14 +406,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -608,33 +606,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_sdkmessageprocessingstepimage_createdonbehalfby"></a> lk_sdkmessageprocessingstepimage_createdonbehalfby
 
-See systemuser Entity [lk_sdkmessageprocessingstepimage_createdonbehalfby](systemuser.md#BKMK_lk_sdkmessageprocessingstepimage_createdonbehalfby) One-To-Many relationship.
+See the [lk_sdkmessageprocessingstepimage_createdonbehalfby](systemuser.md#BKMK_lk_sdkmessageprocessingstepimage_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_sdkmessageprocessingstepimage_modifiedonbehalfby"></a> lk_sdkmessageprocessingstepimage_modifiedonbehalfby
 
-See systemuser Entity [lk_sdkmessageprocessingstepimage_modifiedonbehalfby](systemuser.md#BKMK_lk_sdkmessageprocessingstepimage_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_sdkmessageprocessingstepimage_modifiedonbehalfby](systemuser.md#BKMK_lk_sdkmessageprocessingstepimage_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_sdkmessageprocessingstepid_sdkmessageprocessingstepimage"></a> sdkmessageprocessingstepid_sdkmessageprocessingstepimage
 
-See sdkmessageprocessingstep Entity [sdkmessageprocessingstepid_sdkmessageprocessingstepimage](sdkmessageprocessingstep.md#BKMK_sdkmessageprocessingstepid_sdkmessageprocessingstepimage) One-To-Many relationship.
+See the [sdkmessageprocessingstepid_sdkmessageprocessingstepimage](sdkmessageprocessingstep.md#BKMK_sdkmessageprocessingstepid_sdkmessageprocessingstepimage) one-to-many relationship for the [sdkmessageprocessingstep](sdkmessageprocessingstep.md) entity.
 
 ### <a name="BKMK_createdby_sdkmessageprocessingstepimage"></a> createdby_sdkmessageprocessingstepimage
 
-See systemuser Entity [createdby_sdkmessageprocessingstepimage](systemuser.md#BKMK_createdby_sdkmessageprocessingstepimage) One-To-Many relationship.
+See the [createdby_sdkmessageprocessingstepimage](systemuser.md#BKMK_createdby_sdkmessageprocessingstepimage) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_sdkmessageprocessingstepimage"></a> organization_sdkmessageprocessingstepimage
 
-See organization Entity [organization_sdkmessageprocessingstepimage](organization.md#BKMK_organization_sdkmessageprocessingstepimage) One-To-Many relationship.
+See the [organization_sdkmessageprocessingstepimage](organization.md#BKMK_organization_sdkmessageprocessingstepimage) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_modifiedby_sdkmessageprocessingstepimage"></a> modifiedby_sdkmessageprocessingstepimage
 
-See systemuser Entity [modifiedby_sdkmessageprocessingstepimage](systemuser.md#BKMK_modifiedby_sdkmessageprocessingstepimage) One-To-Many relationship.
+See the [modifiedby_sdkmessageprocessingstepimage](systemuser.md#BKMK_modifiedby_sdkmessageprocessingstepimage) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.sdkmessageprocessingstepimage?text=sdkmessageprocessingstepimage EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

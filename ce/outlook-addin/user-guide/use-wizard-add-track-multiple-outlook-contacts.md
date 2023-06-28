@@ -1,5 +1,6 @@
 ---
 title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
+description: Learn how to use the Add Contacts wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
@@ -18,14 +19,10 @@ ms.assetid: dda44f4b-fe64-4514-bcc1-e02d9a642bd4
 caps.latest.revision: 48
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook
 You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] contacts in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. When you track a contact, a copy of that contact’s record is saved in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. After your contacts are tracked, you’ll see any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email, task, or appointment activities associated with those contacts. If you sync [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] on your mobile device, you can also access your contact records on that device.  

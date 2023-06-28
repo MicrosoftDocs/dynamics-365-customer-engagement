@@ -1,21 +1,16 @@
 ---
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
-ms.date: 09/27/2021
-
+ms.date: 10/19/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set up an event
@@ -88,7 +83,11 @@ The **Website and form** tab provides options for creating a custom [event websi
 - **Portal payment gateway**: To enable online payment during online event registration, set up an account with a third-party online payment provider and then [prepare a payment page](event-payment-gateway.md) on your portal according to their instructions. Then choose that page here. This setting only has an effect for event websites [hosted on the Power Apps portal](set-up-event-portal.md#customize) (it has no effect on externally hosted event websites).
 - **Set registrations end date**: Set this toggle to **Yes** to set a date and time after which contacts will no longer be able to register for the event. Setting an end date for registrations is useful if you would like a cutoff to allow you to finalize your attendee list before the event starts. You can also include a **Website message** regarding the event registration stop date. Set the toggle to **No** to leave registration open until the start of the event.
 - **Use marketing form for registration**: Set the toggle to **Yes** to use a previously prepared [marketing form](marketing-forms.md) for event registration. When the toggle is set to yes, a **Marketing form** option appears below, allowing you to search for the marketing form you would like to use. If you select **No**, the event will use the default event marketing form.
-- **Enable CAPTCHA**: Set the toggle to **Yes** to include a [CAPTCHA](https://www.captcha.net/) on the [registration page](set-up-event-portal.md#registration) of your event website. Set the toggle to **No** to disable the CAPTCHA.
+- **Enable CAPTCHA**: Set the toggle to **Yes** to include a [CAPTCHA](http://www.captcha.net/) on the [registration page](set-up-event-portal.md#registration) of your event website. Set the toggle to **No** to disable the CAPTCHA.
+    > [!IMPORTANT]
+    > Beginning in November 2022, the [Captcha](http://www.captcha.net/) service endpoints for event website are changing. If you have origin checks for your event portal requests, the Captcha call origin points will change from `https://client.prod.repmap.microsoft.com/` to `https://*.svc.dynamics.com` (where * varies based on the Events API).
+    >
+    > You can learn more about the Events API in the [Using the Events API](developer/using-events-api.md) article.
 - **Enable multi-attendee registration**: Set the toggle to **Yes** to allow users of the event website to register several attendees at once. Set the toggle to **No** to allow just one attendee per registration.
 - **Allow anonymous registrations**: Controls whether contacts can freely register themselves for an event on the event website, or if they must first set up an account with a user name and password. Contacts who create an account have several advantages including: the ability to register any number of attendees and the ability to return to view schedules or edit their registrations at any time. This setting only has an effect for event websites [hosted on the Power Apps portal](set-up-event-portal.md#customize) (it has no effect on externally hosted event websites).
 - **Create leads for event registrations**: Set to **Yes** to create a new lead for each contact that registers for the event. Set to **No** to turn off lead generation for events. More information: [Generate and match contacts and leads from event registrations](set-up-event-portal.md#generate-leads).

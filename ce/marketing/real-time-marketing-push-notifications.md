@@ -1,31 +1,40 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 03/16/2022
+ms.date: 03/29/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create push notifications
 
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
-You can send push messages as part of real-time journeys, similar to other outbound messages like SMS.
+> [!NOTE]
+> Push notifications are supported only in countries where [Azure Notification Hubs](https://azure.microsoft.com/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
+
+You can send push messages as part of real-time journeys, similar to other outbound messages like text messages.
 
 ## Create a mobile app configuration
 
-To send push notification messages to your customers, you first need to set up at least one *Mobile app configuration*. To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
+To send push notification messages to your customers, you'll first need to set up at least one *Mobile app configuration*. 
+
+> [!IMPORTANT]
+> If the user or team who is going to create a mobile application has admin privileges, then no further action is required.
+>
+> If the user or team who is going to create a mobile application doesn't have admin privileges, then an admin needs to complete the following steps:
+> 1. Go to **Advanced Settings** > **Security** > **Field Security Profiles** > **Marketers - Mobile app secrets**.
+> 2. Add the corresponding user or team as members.
+> 3. Save and close.
+
+To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
 
 > [!div class="mx-imgBorder"]
 > ![Mobile app configuration screenshot.](media/real-time-marketing-mobile-config.png)
@@ -134,3 +143,5 @@ When creating a real-time marketing journey, you can send push notification mess
 ## Track your push notification messaging metrics from channel insights
 
 You can see how customers reacted to your push messages by checking the push notification analytics in the message itself and within journeys.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

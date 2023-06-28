@@ -14,7 +14,6 @@ ms.assetid: f5f906a0-24ad-4888-bb10-6a783cc56473
 caps.latest.revision: 35
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Administer the deployment using Windows PowerShell
 
@@ -22,9 +21,9 @@ manager: kvivek
 
 With [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] you can easily run deployment commands to change the configuration of your deployment, like tasks that can be performed from the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  You can also use the methods described in the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] to perform these tasks. The [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets are installed on the computer when you install a Full Server role or when you install the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role, if you’re installing individual server roles. To execute commands, you must first register the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] commands with [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)]. This topic describes how to do this plus additional tasks to help you use  [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)].  
   
- Find help about the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at [Microsoft Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
+ Find help about the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at [Microsoft Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps&preserve-view=true).  
   
- For more information about using [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)], see [PowerShell](/powershell/scripting/powershell-scripting?view=powershell-6).  
+ For more information about using [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)], see [PowerShell](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2&preserve-view=true).  
   
  For more information about the programmatic use of the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)], see [MSDN: Administer the deployment using the deployment web service](/previous-versions/dynamicscrm-2016/developers-guide/gg327886(v=crm.8)).  
 
@@ -112,7 +111,7 @@ New-CrmDeploymentAdministrator domain\adminName
  Use [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] to update deployment-wide settings, such as claims-based authentication, Internet-facing deployment (IFD), and web addresses. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Update deployment configuration settings](update-deployment-configuration-settings.md)  -->
   
 ## See Also  
-[Microsoft.Crm.PowerShell](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps)
+[Microsoft.Crm.PowerShell](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps&preserve-view=true)
 
 
 

@@ -1,20 +1,15 @@
 ---
-title: Define settings for parent and child cases (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service
-ms.date: 02/11/2022
-ms.topic: article
+title: Define settings for parent and child cases (Dynamics 365 Customer Service)
+description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service.
+ms.date: 04/27/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
-ms.custom: 
-  - dyn365-customerservice
+ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-incident
@@ -25,8 +20,6 @@ searchScope:
 ---
 
 # Define parent and child case settings
-
-## Introduction
 
 In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to **Service Management** and set up a few rules about how information is inherited. 
 
@@ -40,11 +33,8 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      
      1. Select **Manage** for **Parent child case settings**.
@@ -66,8 +56,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 
     c. In **Maximum number of child cases**, specify a number that denotes the number of child cases a parent case can have.
 
-      > [!Note] 
-      >
+      > [!Note]
       > We recommend that you specify a smaller value for **Maximum number of child cases** to avoid performance issues when cases are resolved or merged.
 
 3. Select **Save**.

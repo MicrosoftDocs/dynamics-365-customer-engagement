@@ -3,23 +3,18 @@ title: "Basic navigation in App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to navigate App for Outlook
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: 
-
+ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sidhartg
+ms.author: sidhartg
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 
 # Basic navigation in App for Outlook
@@ -27,7 +22,7 @@ search.app:
 Use Dynamics 365 App for Outlook while you’re using Outlook on the desktop, web, or phone. When App for Outlook is installed you can use the Dynamics 365 pane to link and track Outlook emails and appointments to records in your app.
 
 > [!IMPORTANT]
-> - The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](../../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../../customer-service/help-hub.md), [Dynamics 365 Marketing](../../marketing/help-hub.yml). [Dynamics 365 Field Service](../../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md)), [Dynamics 365 Customer Engagement (on-premises), version 9](../../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+> - The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](../../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../../customer-service/help-hub.md), [Dynamics 365 Marketing](../../marketing/help-hub.yml). [Dynamics 365 Field Service](../../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/overview)), [Dynamics 365 Customer Engagement (on-premises), version 9](../../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 > - For a prior release that works with earlier versions of Dynamics 365 apps, see [Deploy Dynamics 365 App for Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn946901(v=crm.8)). 
 
 

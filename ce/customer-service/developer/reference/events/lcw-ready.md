@@ -3,9 +3,8 @@ title: "lcw:ready | MicrosoftDocs"
 description: lcw ready event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
 ms.date: 11/10/2021
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 
 # lcw:ready event (Omnichannel for Customer Service JavaScript API reference)
@@ -37,6 +36,6 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [lcw:onMessageReceived](lcw-onMessageReceived.md)  
 [lcw:onMessageSent](lcw-onMessageSent.md)  
 [lcw:threadUpdate](lcw-threadUpdate.md)   
-[JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)] 

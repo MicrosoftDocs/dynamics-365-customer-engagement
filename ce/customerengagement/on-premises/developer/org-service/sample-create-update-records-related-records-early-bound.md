@@ -1,40 +1,38 @@
 ---
 title: "Sample: Create and update records with related records (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create and update a record and related records in one call by using the IOrganizationService.Entity) and IOrganizationService. Entity) methods"
-keywords: 
+keywords:
 ms.date: 01/08/2020
 
-ms.custom: 
-ms.topic: samples
-applies_to: 
+ms.custom:
+ms.topic: sample
+applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 72eeafd8-8dd5-40af-9e3d-575534d60f61
 author: JimDaly
 ms.author: jdaly
-manager: jdaly
 ms.reviewer: pehecke
-ms.suite: 
-ms.tgt_pltfrm: 
-helpviewer_keywords: 
+ms.suite:
+ms.tgt_pltfrm:
+helpviewer_keywords:
   - sample for creating and updating records with related records (early bound)
   - early-bound class samples, creating and updating records with related records (early bound) sample
   - creating and updating records with related records (early bound) sample, early-bound class samples
   - samples for early-bound classes, creating and updating records with related records (early bound) sample
 caps.latest.revision: 21
 topic-status: Drafting
-search.audienceType: 
+search.audienceType:
   - developer
-
 ---
 
 # Sample: Create and update records with related records (early bound)
 
 This sample shows how to create and update a record and related records in one call by using the following methods:
 
-- [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9)
-- [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9)
+- [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9&preserve-view=true)
+- [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9&preserve-view=true)
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CreateUpdateRecordsWithRelatedRecords).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CreateUpdateRecordsWithRelatedRecords).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -56,7 +54,7 @@ Checks for the current version of the org.
 
 ### Demonstrate
 
-1. The `Account` method creates a account record for which we will add letters. 
+1. The `Account` method creates a account record for which we will add letters.
 1. The `Relationship` method creates the reference between letter and account.
 
 ### Clean up

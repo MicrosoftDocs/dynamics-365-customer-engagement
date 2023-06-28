@@ -2,7 +2,7 @@
 title: "Update Dynamics 365 Customer Engagement (on-premises)"
 description: Find how to update Dynamics 365 Customer Engagement (on-premises)
 ms.date: "06/07/2021"
-ms.topic: "topic"
+ms.topic: conceptual
 author: mattp123
 ms.author: matp
 

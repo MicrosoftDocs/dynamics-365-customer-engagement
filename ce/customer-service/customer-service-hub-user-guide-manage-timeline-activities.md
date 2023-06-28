@@ -5,14 +5,10 @@ ms.date: 11/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -22,9 +18,8 @@ ms.custom:
 
  When you update an activity, it moves up in the Timeline. You can sort the Timeline in both ascending or descending order of time, as per your wish.
 
-||||  
-|-|-|-|  
-|**To**|**Do this**|| 
+| To | Do this |
+|----|--------|
 |Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
 |View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new.](media/whats-new.png "What's new in Timeline") |
 |Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |

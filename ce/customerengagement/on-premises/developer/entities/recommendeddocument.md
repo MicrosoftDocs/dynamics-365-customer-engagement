@@ -1,29 +1,27 @@
 ---
-title: "RecommendedDocument Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the RecommendedDocument entity."
-ms.date: 04/02/2019
-
+title: "Document Suggestions (RecommendedDocument)  entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
+description: "Includes schema information and supported messages for the Document Suggestions (RecommendedDocument)  entity."
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# RecommendedDocument Entity Reference
+
+# Document Suggestions (RecommendedDocument)  entity reference
 
 Document Suggestions
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/recommendeddocuments<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|SDK class or method|
+|-|-|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -761,33 +759,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_recommendeddocument_createdby"></a> lk_recommendeddocument_createdby
 
-See systemuser Entity [lk_recommendeddocument_createdby](systemuser.md#BKMK_lk_recommendeddocument_createdby) One-To-Many relationship.
+See the [lk_recommendeddocument_createdby](systemuser.md#BKMK_lk_recommendeddocument_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_recommendeddocument_createdonbehalfby"></a> lk_recommendeddocument_createdonbehalfby
 
-See systemuser Entity [lk_recommendeddocument_createdonbehalfby](systemuser.md#BKMK_lk_recommendeddocument_createdonbehalfby) One-To-Many relationship.
+See the [lk_recommendeddocument_createdonbehalfby](systemuser.md#BKMK_lk_recommendeddocument_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_recommendeddocument_modifiedby"></a> lk_recommendeddocument_modifiedby
 
-See systemuser Entity [lk_recommendeddocument_modifiedby](systemuser.md#BKMK_lk_recommendeddocument_modifiedby) One-To-Many relationship.
+See the [lk_recommendeddocument_modifiedby](systemuser.md#BKMK_lk_recommendeddocument_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_recommendeddocument_modifiedonbehalfby"></a> lk_recommendeddocument_modifiedonbehalfby
 
-See systemuser Entity [lk_recommendeddocument_modifiedonbehalfby](systemuser.md#BKMK_lk_recommendeddocument_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_recommendeddocument_modifiedonbehalfby](systemuser.md#BKMK_lk_recommendeddocument_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_recommendeddocument"></a> organization_recommendeddocument
 
-See organization Entity [organization_recommendeddocument](organization.md#BKMK_organization_recommendeddocument) One-To-Many relationship.
+See the [organization_recommendeddocument](organization.md#BKMK_organization_recommendeddocument) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_TransactionCurrency_recommendeddocument"></a> TransactionCurrency_recommendeddocument
 
-See transactioncurrency Entity [TransactionCurrency_recommendeddocument](transactioncurrency.md#BKMK_TransactionCurrency_recommendeddocument) One-To-Many relationship.
+See the [TransactionCurrency_recommendeddocument](transactioncurrency.md#BKMK_TransactionCurrency_recommendeddocument) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.recommendeddocument?text=recommendeddocument EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

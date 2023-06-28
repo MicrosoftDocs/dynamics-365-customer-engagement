@@ -17,7 +17,6 @@ helpviewer_keywords:
 ms.assetid: 8597998f-764f-4c73-b63d-9f5e02c78061
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 
@@ -189,7 +188,7 @@ The *entities* are used to model and manage business data in Dynamics 365 Custom
 
 <a name="EntityOwnership"></a>   
 ## Entity ownership  
- There are several types of entity ownership. Most entities, including custom entities, are owned by the organization, by a user, or a team. There are some business entities that do not have an owner, such as discount type (discount list), where the ownership is defined by its parent entity discount. The type of ownership defines some of the operations that can be performed on a record. Ownership for an entity is defined in the metadata property <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OwnershipType>. The following table lists the ownership properties.  
+ There are several types of entity ownership. Most entities, including custom entities, are either owned by the organization or by a user or team. There are some business entities that do not have an owner, such as discount type (discount list), where the ownership is defined by its parent entity discount. Ownership type is configured at the time of entity (table) creation and changing ownership type later is not supported. The type of ownership defines some of the operations that can be performed on a record. Ownership for an entity is defined in the metadata property <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OwnershipType>. The following table lists the ownership properties.  
 
 |Ownership Type|Description|  
 |--------------------|-----------------|  
@@ -214,25 +213,37 @@ The *entities* are used to model and manage business data in Dynamics 365 Custom
 ## Entity images  
  Certain system entities have image attributes. You can add image attributes to custom entities. When an entity has an image attribute, you can set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.PrimaryImageAttribute> property to control whether the image will be shown in the application. When the image is shown in the application users of the web application can upload pictures for the entity record. The following system entities have image attributes. Those marked with an asterisk are enabled by default to show them in the application.  
 
-
-|                    |                     |                     |
-|--------------------|---------------------|---------------------|
-|  Account **\\**\*  |      KbArticle      |      Campaign       |
-|      Incident      | Competitor **\\**\* |     Connection      |
-|  Contact **\\**\*  |      Contract       | TransactionCurrency |
-| EmailServerProfile |        Goal         |       Invoice       |
-|   Lead **\\**\*    |       Mailbox       | OpportunityProduct  |
-|     SalesOrder     |    Organization     |  Product **\\**\*   |
-| Publisher **\\**\* |        Queue        |  Resource **\\**\*  |
-|  SalesLiterature   |      Territory      | SystemUser **\\**\* |
+- Account **\\**\*
+- KbArticle
+- Campaign
+- Incident
+- Competitor **\\**\*
+- Connection
+- Contact **\\**\*
+- Contract
+- TransactionCurrency
+- EmailServerProfile
+- Goal
+- Invoice
+- Lead **\\**\*
+- Mailbox
+- OpportunityProduct
+- SalesOrder
+- Organization
+- Product **\\**\*
+- Publisher **\\**\*
+- Queue
+- Resource **\\**\*
+- SalesLiterature
+- Territory
+- SystemUser **\\**\*
 
 More information: [Image data attributes](introduction-entity-attributes.md#BKMK_Image).  
 
 ### See also  
  [Administration and security entities](administration-security-entities.md)   
- [Use Metadata to Generate Entity Diagrams in Dynamics 365 Customer Engagement (on-premises)](use-metadata-generate-entity-diagrams.md)   
- [Define custom state model transitions](define-custom-state-model-transitions.md)   
- [Key to Entity Diagrams](key-entity-diagrams.md)   
+ [Generate entity relationship diagrams](/powerapps/developer/data-platform/use-metadata-generate-entity-diagrams)   
+ [Define custom state model transitions](define-custom-state-model-transitions.md)      
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)   
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   

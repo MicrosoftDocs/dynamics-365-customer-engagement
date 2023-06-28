@@ -1,18 +1,14 @@
 ---
 title: Topics Dashboard | Microsoft Docs
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 04/05/2021
+ms.date: 06/20/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -33,6 +29,16 @@ The Topics dashboard shows a detailed breakdown of cases and their assigned topi
 
 To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
 
+### Access the Topics dashboard
+
+In the Customer Service workspace app, do one of the following to view the dashboard:
+
+- In the default view, select the plus (+) icon, and then select Customer Service historical analytics.
+
+- If the enhanced multisession workspace view is enabled, select the site map and then select Customer Service historical analytics.
+
+On the page that appears, select the dashboard.
+
 ## Key insights card
 
 ![Topics Key insights discovery card.](media/topics-key-insights-card.png "Topics Key insights discovered card")
@@ -45,7 +51,7 @@ The Key insights discovered card has three areas:
 
 ## Report details
 
-The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The key performance indicator (KPI) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 The topics dashboard report has the following KPIs.
 
@@ -53,8 +59,8 @@ The topics dashboard report has the following KPIs.
 |------------|--------------|
 | Total cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently opened.      |
-| Escalated cases   | The percentage of cases that have been escalated.     |
-| Average handle time   | The average time taken by an agent to resolve the case.   |
+| Escalated rate   | The percentage of cases that have been escalated.     |
+| Avg. resolve time (hrs)   | The average time an agent took to resolve the case.   |
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
@@ -68,28 +74,17 @@ The topic metrics chart has the following metrics displayed:
 | Average resolution time  | Month over month trend of case resolution time in minutes.   |
 | Average CSAT    | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | CSAT impact     | The amount that the given topic is driving the overall CSAT trend for the organization.     |
-| Average sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
-| Sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
+| Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
+| Survey sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
-### Case topics drill down view
+### Case topics drill-down view
 
-The case topics drill down view provides supervisors with a holistic look into individual topics in reference to key business metrics and can be valuable in understanding why end customers are contacting support. 
+The case topics drill-down view provides supervisors with a holistic look into individual topics in reference to key business metrics, and can be valuable in understanding why end customers are contacting support.
 
-To access the case topics drill down, select any metric value for the required topic and select **Details**.
+To access the case topics drill down, select any metric value for the required topic, and then select **Details**.
 
 > [!div class="mx-imgBorder"] 
 > ![Case topics drill down view.](media/case-topics-drill-down-view.png "Case topics drill view")
-
-### Automation of case topics for Power Virtual Agents bots
-
-AI-discovered topics in Customer Service historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents bot is available in the region in which your Customer Service organization is located, the feature can be enabled by the administrator for use. 
-
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting **Power Virtual Agents** icon on the **Topic metrics** grid or select **Details** and then select **Automate to bot** within the drill down view. This will launch the topic editing form.  
-
-The suggested trigger phases as well as the topic based on the case title is provided. The first step is to select the Power Virtual Agents bot that is ideal for adding the topic to. If no bot exists, selecting **Create Bot** will redirect to the Power Virtual Agents application for bot creation. Both the topic name and trigger phrases can be modified, and in the case of trigger phrases, additional ones can be added.
-
-> [!NOTE]
-> Any bots created through the Microsoft Teams channel will not be listed in the bot selection list. Users who create bots by using the drill down page for a topic in Customer Service workspace will be redirected to Customer Service Hub for form completion. 
 
 ## Language availability for topics 
 
@@ -105,14 +100,13 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
-
+> While topic discovery isn't prevented and is still possible in languages that aren't listed above, there may be differences in what users experience if they leverage topics in unsupported languages.
 
 ### See also
 
-- [Dashboard overview](customer-service-analytics-insights-csh.md) <br>
-- [Summary dashboard](summary-dashboard-cs.md) <br>
-- [Agent dashboard](agent-dashboard-cs.md) 
-
+[Dashboard overview](customer-service-analytics-insights-csh.md)  
+[Summary dashboard](summary-dashboard-cs.md)  
+[Agent dashboard](agent-dashboard-cs.md)  
+[Manage report bookmarks](manage-bookmarks.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,75 +1,24 @@
 ---
 title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 09/20/2021
+ms.date: 01/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 
 # Try channels in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
-Channels, for example Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real time and provide quick personalized help.
+Channels, like Live Chat, voice, and SMS, are engagement channels that let your agents connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Omnichannel for Customer Service:
 
-1. Sign up for a free 30-day trial of channels using one of the following options:
-   - [Channels trial through trials.dynamics.com](#channels-trial-through-trialsdynamicscom)
-   - [Channels trial through Microsoft 365 admin center](#channels-trial-through-microsoft-365-admin-center)
-2. [Provision Omnichannel for Customer Service](#provision-channels-in-your-organization)
+1. Sign up for a free 30-day trial of channels through Microsoft 365 admin center.
 
-## Channels trial through trials.dynamics.com
+1. Provision Omnichannel for Customer Service.
 
-With this option, you can get a free 30-day trial of Omnichannel for Customer Service including Chat, SMS, Microsoft Teams, and social channels through [https://trials.dynamics.com](https://trials.dynamics.com).
-
-Use this option if you've obtained the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant through volume licensing, cloud solution provider, or reseller or partner programs.
-
-### Prerequisites
-
-- You must have an existing tenant and not sign up for creating a trial tenant.
-- You must have an existing organization account with the global administrator role to enable the trial. If you do not use global administrator credentials, you can join as an existing trial organization with approval of the organization owner.
-
-> [!NOTE]
-> To know the geographic location availability, see [International availability](international-availability.md).
-
-### Get a Dynamics 365 trial instance
-
-1. Go to <https://trials.dynamics.com/Dynamics365/Signup/service>.
-
-2. Select **Customer Service**. If you select any other option, Omnichannel for Customer Service will not be enabled in your tenant.
-
-3. Enter your work email and phone number, and then select **Get started**.
-
-    > [!div class=mx-imgBorder]
-    > ![Create a Customer Service trial.](media/cs-trial.png "Create a Customer Service trial")
-
-4. Sign in with your global administrator credentials and accept the terms and privacy policy. If you already have trial instances (Dynamics 365 instances with Instance Type set to Trial), you'll be asked to create your own trial.
-
-5. Select **Create your own trial**, and then select **Create New Trial**.
-6. Select **Customer service** and then select **Complete Setup**.
-
-    > [!NOTE]
-    > A tenant can have a maximum of five trial instances. If you already have five trial instances in your tenant, you must delete one instance before creating another trial.
-
-You will now be able to see the new trial instance in Power Platform admin center, and can provision channels in your organization.
-
-### Get a Power BI (free) subscription
-
-If you already have a subscription of Dynamics 365 Customer Service Enterprise or a subscription of Power BI in your tenant, you can skip this step. Otherwise, you must get a Power BI (free) subscription.
-
-1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
-
-2. Go to **Billing** > **Purchase services**.
-
-3. Search for Power BI (free) and complete the purchase of Power BI (free) subscription.
-
-    > [!div class=mx-imgBorder]
-    > ![Power BI (free) subscription.](media/powerbi-free.png "Power BI (free) subscription")
 
 ## Channels trial through Microsoft 365 admin center
 
@@ -81,13 +30,12 @@ You must have obtained one of the following subscriptions through the Microsoft 
 
 - Paid or trial subscription of Dynamics 365 Customer Service Enterprise
 - Paid or trial subscription of Dynamics 365 Customer Engagement
-
-If you do not have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center.
+- For voice channel, subscription of Dynamics 365 Customer Engagement Applications Trial
 
 > [!IMPORTANT]
-> If you've obtained the subscription for Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement in your tenant through Volume Licensing Service Center, use the trial option specified in [Channels trial through trials.dynamics.com](#channels-trial-through-trialsdynamicscom).
+> If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
 
-For information about the Digital Messaging license, pricing, and prerequisites, refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Get a trial subscription of channels
 
@@ -104,17 +52,50 @@ For information about the Digital Messaging license, pricing, and prerequisites,
     > [!div class=mx-imgBorder]
     > ![Digital Messaging product licenses dialog box.](media/digital-trial-assign-users.png "Digital Messaging product licenses dialog box")
 
+### Get a trial subscription of voice channel
+
+1. In Microsoft 365 admin center, expand **Billing**, and select **Purchase services**.
+
+1. Search for **Dynamics 365 Customer Engagement Applications Trial**, and select it.
+
+1. Select the **Add-ons** tab, and then select one of the following add-ons to get the trial subscription of the voice channel:
+
+   - Dynamics 365 Customer Service Voice Channel Add-in Trial
+   - Dynamics 365 Customer Service Digital Messaging and Voice Add-in Trial
+
+1. Select **Details**, and on the page that appears, select **Start free trial** to complete your purchase.
+
+1. Go to the **Active users** page, and assign the trial license to the user who will provision the voice trial. Only then the user will be able to see the voice trial for provisioning it.
+
+1. Provision the channel in your environment by following the steps mentioned in the next section of this article.
+
 ## Provision channels in your organization
 
-Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, and social channels in your organization.
+Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, social, and voice channels in your organization.
 
-After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Customer Service admin center (preview) or Omnichannel admin center app to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](set-up-chat-widget.md), [Configure an SMS channel](configure-sms-channel.md), and [Configure a Facebook channel](configure-facebook-channel.md).
+After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Customer Service admin center or Omnichannel admin center app to start configuring the channel. See the following articles to configure channels in Omnichannel for Customer Service:
+
+- [Configure the chat channel](set-up-chat-widget.md)
+- [Configure the SMS channel](configure-sms-channel.md)
+- [Configure the Facebook channel](configure-facebook-channel.md)
+- [Configure the voice channel](voice-channel-inbound-calling.md)
+
+### Get a Power BI (free) subscription
+
+If you already have a subscription of Dynamics 365 Customer Service Enterprise or a subscription of Power BI in your tenant, you can skip this step. Otherwise, you must get a Power BI (free) subscription.
+
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the global administrator credentials.
+
+2. Go to **Billing** > **Purchase services**.
+
+3. Search for Power BI (free) and complete the purchase of Power BI (free) subscription.
+
+    > [!div class=mx-imgBorder]
+    > ![Power BI (free) subscription.](media/powerbi-free.png "Power BI (free) subscription")
 
 ### Videos
 
-[Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
-
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+To view videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
 ### See also
 

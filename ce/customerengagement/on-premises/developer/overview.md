@@ -17,7 +17,7 @@ search.audienceType:
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
-- For documentation of earlier on-premises versions (8.x and earlier), see <https://docs.microsoft.com/previous-versions/dynamics/>.
+- For documentation of earlier on-premises versions (8.x and earlier), see [Dynamics previous versions documentation](/previous-versions/dynamics).
 
 - If you are using our online apps that are built on Dataverse (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Dynamics 365 Field Service, and Dynamics 365 Project Service Automation), see the [Dataverse Developer Guide](/powerapps/developer/common-data-service/overview) along with the respective app's developer docs.
 
@@ -99,8 +99,8 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 
 <li><a href="about-entity-reference.md" data-raw-source="[Entity Reference](about-entity-reference.md)">Entity Reference</a></li>
 <li><a href="/dynamics365/customer-engagement/web-api/about" data-raw-source="[Web API Reference](/dynamics365/customer-engagement/web-api/about)">Web API Reference</a></li>
-<li><a href="/dotnet/api/?view=dynamics-general-ce-9" data-raw-source="[Organization Service Reference](/dotnet/api/?view=dynamics-general-ce-9)">Organization Service Reference</a></li>
-<li><a href="/powerapps/developer/model-driven-apps/clientapi/reference" data-raw-source="[Client API Reference](/powerapps/developer/model-driven-apps/clientapi/reference)">Client API Reference</a></li>
+<li><a href="/dotnet/api/?view=dataverse-sdk-latest&preserve-view=true" data-raw-source="[Organization Service Reference](/dotnet/api/?view=dataverse-sdk-latest&preserve-view=true)">Organization Service Reference</a></li>
+<li><a href="/dynamics365/customerengagement/on-premises/developer/clientapi/reference" data-raw-source="[Client API Reference](/dynamics365/customerengagement/on-premises/developer/clientapi/reference)">Client API Reference</a></li>
 </td>
 </tr>
 
@@ -108,7 +108,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide.
 <td>
 <h2> Additional resources </h2>
 <li><a href="sample-code-directory.md" data-raw-source="[Sample code directory](sample-code-directory.md)">Sample code directory</a></li>
-<li><a href="download-tools-nuget.md" data-raw-source="[Tools on NuGet](download-tools-nuget.md)">Tools on NuGet</a></li>
+<li><a href="/power-apps/developer/data-platform/download-tools-nuget" data-raw-source="[Dataverse development tools](/power-apps/developer/data-platform/download-tools-nuget)">Tools on NuGet</a></li>
 </td>
 
 <td>

@@ -5,7 +5,6 @@ ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Omnichannel for Customer Service for administrators
 
@@ -38,7 +37,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 ## How-to topics
 
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)<br>
+- [Manage a user in Omnichannel](users-user-profiles.md)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
 - [Configure an SMS channel](configure-sms-channel.md) </br>
 - [Configure a Facebook channel](configure-facebook-channel.md)</br>

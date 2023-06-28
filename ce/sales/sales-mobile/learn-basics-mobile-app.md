@@ -1,12 +1,10 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 12/14/2021
+ms.date: 02/27/2023
 ms.topic: article
-
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 # Learn the basics
 
@@ -14,11 +12,11 @@ Know the basic functions and the information displayed on the home screen of the
 
 ## License and role requirements
 
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** |  Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Overview
 
@@ -35,7 +33,7 @@ When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll 
 
 ## Meetings
 
-The **Up next** section of the home page shows important information about the last meeting you were in and the next one coming up. When you tap a meeting, the Meeting details page opens. More information: [View meeting details](view-agenda.md#view-meeting-details)
+The **Up next** section of the home page shows important information about the last meeting you were in and the next one coming up. When you tap a meeting, the meeting details page opens. More information: [View meeting details](view-agenda.md#view-meeting-details)
 
 > [!NOTE]
 > The **Up next** section only includes meetings that have at least one participant who's outside of your organization's domain.
@@ -50,7 +48,7 @@ The **Recent records** section of the home page shows a few records you recently
 
 ## Recent notes
 
-The **Recent notes** section of the home page shows a few notes you recently created or updated through the web or mobile app. You can tap a note to views its details or tap **Recent notes** to view an extended list. More information: [Manage notes](view-edit-add-note.md). You can also open the record to which a note is added by tapping its name on the note card.
+The **Recent notes** section of the home page shows a few notes you recently created or updated through the web or mobile app. You can tap a note to views its details or tap **Recent notes** to view an extended list. You can also open the record to which a note is added by tapping its name on the note card. More information: [Manage notes](view-edit-add-note.md).
 
 ## Reminders and insights
 

@@ -1,33 +1,31 @@
 ---
-title: "ProcessTrigger Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "ProcessTrigger entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the ProcessTrigger entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# ProcessTrigger Entity Reference
+
+# ProcessTrigger entity reference
 
 Trigger that invoke a rule.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/processtriggers<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/processtriggers(*processtriggerid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/processtriggers(*processtriggerid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/processtriggers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/processtriggers(*processtriggerid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -90,12 +88,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### ControlType Options
+#### ControlType Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Attribute|
-|2|Form Tab|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Attribute||
+|2|Form Tab||
 
 
 
@@ -168,13 +166,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### PipelineStage Options
+#### PipelineStage Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Default Value|
-|20|Before Main Operation|
-|40|After Main Operation|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Default Value||
+|20|Before Main Operation||
+|40|After Main Operation||
 
 
 
@@ -233,12 +231,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### Scope Options
+#### Scope Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Form|
-|2|Entity|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Form||
+|2|Entity||
 
 
 <a name="read-only-attributes"></a>
@@ -288,14 +286,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### ComponentState Options
+#### ComponentState Choices/Options
 
-|Value|Label|
-|-----|-----|
-|0|Published|
-|1|Unpublished|
-|2|Deleted|
-|3|Deleted Unpublished|
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
 
 
 
@@ -434,14 +432,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsManaged Options
+#### IsManaged Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Managed|
-|0|Unmanaged|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -698,7 +696,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_ProcessTrigger_SyncErrors"></a> ProcessTrigger_SyncErrors
 
-Same as syncerror entity [ProcessTrigger_SyncErrors](syncerror.md#BKMK_ProcessTrigger_SyncErrors) Many-To-One relationship.
+Same as the [ProcessTrigger_SyncErrors](syncerror.md#BKMK_ProcessTrigger_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -726,33 +724,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_process_processtrigger"></a> process_processtrigger
 
-See workflow Entity [process_processtrigger](workflow.md#BKMK_process_processtrigger) One-To-Many relationship.
+See the [process_processtrigger](workflow.md#BKMK_process_processtrigger) one-to-many relationship for the [workflow](workflow.md) entity.
 
 ### <a name="BKMK_lk_processtriggerbase_createdby"></a> lk_processtriggerbase_createdby
 
-See systemuser Entity [lk_processtriggerbase_createdby](systemuser.md#BKMK_lk_processtriggerbase_createdby) One-To-Many relationship.
+See the [lk_processtriggerbase_createdby](systemuser.md#BKMK_lk_processtriggerbase_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_processtriggerbase_createdonbehalfby"></a> lk_processtriggerbase_createdonbehalfby
 
-See systemuser Entity [lk_processtriggerbase_createdonbehalfby](systemuser.md#BKMK_lk_processtriggerbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_processtriggerbase_createdonbehalfby](systemuser.md#BKMK_lk_processtriggerbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_processtrigger_systemform"></a> processtrigger_systemform
 
-See systemform Entity [processtrigger_systemform](systemform.md#BKMK_processtrigger_systemform) One-To-Many relationship.
+See the [processtrigger_systemform](systemform.md#BKMK_processtrigger_systemform) one-to-many relationship for the [systemform](systemform.md) entity.
 
 ### <a name="BKMK_lk_processtriggerbase_modifiedonbehalfby"></a> lk_processtriggerbase_modifiedonbehalfby
 
-See systemuser Entity [lk_processtriggerbase_modifiedonbehalfby](systemuser.md#BKMK_lk_processtriggerbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_processtriggerbase_modifiedonbehalfby](systemuser.md#BKMK_lk_processtriggerbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_processtriggerbase_modifiedby"></a> lk_processtriggerbase_modifiedby
 
-See systemuser Entity [lk_processtriggerbase_modifiedby](systemuser.md#BKMK_lk_processtriggerbase_modifiedby) One-To-Many relationship.
+See the [lk_processtriggerbase_modifiedby](systemuser.md#BKMK_lk_processtriggerbase_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.processtrigger?text=processtrigger EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,18 +1,14 @@
 ---
 title: Schedule a service activity in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to schedule a service activity in service scheduling in Dynamics 365 Customer Service
-ms.date: 10/19/2021
+ms.date: 09/13/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -77,11 +73,10 @@ Make sure that you have the required security role or equivalent permissions.
    You can select an existing booking and edit, activate, or deactivate it from the **Bookings** tab.
 
       > [!NOTE]
-      > While creating a service activity, manual selection of resources is not supported in the new scheduling experience in the Customer Service Hub.
+      > - While creating a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service Hub.<br><br>
+      > - Once you've created a booking, the booking status won't be updated until you manually refresh the **Bookings** tab.
 
-9. To close or cancel a service activity, select **Close Service Activity** from the command bar.
-
-   Select the status as Closed or Canceled in the **Close Service Activity** dialog box.
+9. To close or cancel a service activity, select **Close Service Activity** from the command bar, and then select the status as **Closed or Canceled** in the **Close Service Activity** dialog box.
 
 10. If the service activity has been completed, select **Mark Complete** from the command bar. 
 

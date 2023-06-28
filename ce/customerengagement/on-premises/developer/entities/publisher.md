@@ -1,33 +1,31 @@
 ---
-title: "Publisher Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Publisher entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the Publisher entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# Publisher Entity Reference
+
+# Publisher entity reference
 
 A publisher of a CRM solution.
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/publishers<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/publishers(*publisherid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/publishers(*publisherid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/publishers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/publishers(*publisherid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -127,11 +125,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_AddressTypeCode Options
+#### Address1_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -339,11 +337,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address1_ShippingMethodCode Options
+#### Address1_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -468,11 +466,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_AddressTypeCode Options
+#### Address2_AddressTypeCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -680,11 +678,11 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Address2_ShippingMethodCode Options
+#### Address2_ShippingMethodCode Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Default Value||
 
 
 
@@ -1102,14 +1100,14 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsReadonly Options
+#### IsReadonly Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -1295,7 +1293,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_Publisher_PublisherAddress"></a> Publisher_PublisherAddress
 
-Same as publisheraddress entity [Publisher_PublisherAddress](publisheraddress.md#BKMK_Publisher_PublisherAddress) Many-To-One relationship.
+Same as the [Publisher_PublisherAddress](publisheraddress.md#BKMK_Publisher_PublisherAddress) many-to-one relationship for the [publisheraddress](publisheraddress.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1310,7 +1308,7 @@ Same as publisheraddress entity [Publisher_PublisherAddress](publisheraddress.md
 
 ### <a name="BKMK_Publisher_DuplicateBaseRecord"></a> Publisher_DuplicateBaseRecord
 
-Same as duplicaterecord entity [Publisher_DuplicateBaseRecord](duplicaterecord.md#BKMK_Publisher_DuplicateBaseRecord) Many-To-One relationship.
+Same as the [Publisher_DuplicateBaseRecord](duplicaterecord.md#BKMK_Publisher_DuplicateBaseRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1325,7 +1323,7 @@ Same as duplicaterecord entity [Publisher_DuplicateBaseRecord](duplicaterecord.m
 
 ### <a name="BKMK_Publisher_DuplicateMatchingRecord"></a> Publisher_DuplicateMatchingRecord
 
-Same as duplicaterecord entity [Publisher_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Publisher_DuplicateMatchingRecord) Many-To-One relationship.
+Same as the [Publisher_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Publisher_DuplicateMatchingRecord) many-to-one relationship for the [duplicaterecord](duplicaterecord.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1340,7 +1338,7 @@ Same as duplicaterecord entity [Publisher_DuplicateMatchingRecord](duplicatereco
 
 ### <a name="BKMK_publisher_solution"></a> publisher_solution
 
-Same as solution entity [publisher_solution](solution.md#BKMK_publisher_solution) Many-To-One relationship.
+Same as the [publisher_solution](solution.md#BKMK_publisher_solution) many-to-one relationship for the [solution](solution.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1355,7 +1353,7 @@ Same as solution entity [publisher_solution](solution.md#BKMK_publisher_solution
 
 ### <a name="BKMK_Publisher_SyncErrors"></a> Publisher_SyncErrors
 
-Same as syncerror entity [Publisher_SyncErrors](syncerror.md#BKMK_Publisher_SyncErrors) Many-To-One relationship.
+Same as the [Publisher_SyncErrors](syncerror.md#BKMK_Publisher_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1370,7 +1368,7 @@ Same as syncerror entity [Publisher_SyncErrors](syncerror.md#BKMK_Publisher_Sync
 
 ### <a name="BKMK_publisher_appmodule"></a> publisher_appmodule
 
-Same as appmodule entity [publisher_appmodule](appmodule.md#BKMK_publisher_appmodule) Many-To-One relationship.
+Same as the [publisher_appmodule](appmodule.md#BKMK_publisher_appmodule) many-to-one relationship for the [appmodule](appmodule.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -1397,29 +1395,25 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_publisher_createdby"></a> lk_publisher_createdby
 
-See systemuser Entity [lk_publisher_createdby](systemuser.md#BKMK_lk_publisher_createdby) One-To-Many relationship.
+See the [lk_publisher_createdby](systemuser.md#BKMK_lk_publisher_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_publisher_modifiedby"></a> lk_publisher_modifiedby
 
-See systemuser Entity [lk_publisher_modifiedby](systemuser.md#BKMK_lk_publisher_modifiedby) One-To-Many relationship.
+See the [lk_publisher_modifiedby](systemuser.md#BKMK_lk_publisher_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_organization_publisher"></a> organization_publisher
 
-See organization Entity [organization_publisher](organization.md#BKMK_organization_publisher) One-To-Many relationship.
+See the [organization_publisher](organization.md#BKMK_organization_publisher) one-to-many relationship for the [organization](organization.md) entity.
 
 ### <a name="BKMK_lk_publisherbase_modifiedonbehalfby"></a> lk_publisherbase_modifiedonbehalfby
 
-See systemuser Entity [lk_publisherbase_modifiedonbehalfby](systemuser.md#BKMK_lk_publisherbase_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_publisherbase_modifiedonbehalfby](systemuser.md#BKMK_lk_publisherbase_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_publisherbase_createdonbehalfby"></a> lk_publisherbase_createdonbehalfby
 
-See systemuser Entity [lk_publisherbase_createdonbehalfby](systemuser.md#BKMK_lk_publisherbase_createdonbehalfby) One-To-Many relationship.
+See the [lk_publisherbase_createdonbehalfby](systemuser.md#BKMK_lk_publisherbase_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.publisher?text=publisher EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -5,7 +5,6 @@ ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View omnichannel conversations and omnichannel session in model-driven apps
@@ -20,7 +19,7 @@ You can find the following activity types in model-driven apps apps:
 
  - Omnichannel session
 
-### Conversation form
+## Conversation form
 
 The conversation form displays information about a conversation request.
 
@@ -33,7 +32,7 @@ The conversation form displays information about a conversation request.
 > [!div class=mx-imgBorder]
 > ![omnichannel conversation form.](../../customer-service/media/oc-crm-conversation-form.png "omnichannel conversation form")  
 
-### Session form
+## Session form
 
 The omnichannel session displays information about a conversation request.
 
@@ -49,7 +48,7 @@ The omnichannel session displays information about a conversation request.
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 
-## See also
+### See also
 
 - [View customer summary and know everything about customers](customer-summary.md)
 

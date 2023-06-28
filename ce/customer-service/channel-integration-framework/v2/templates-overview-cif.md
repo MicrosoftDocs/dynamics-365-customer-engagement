@@ -3,13 +3,12 @@ title: "Overview of templates in Dynamics 365 Channel Integration Framework 2.0 
 description: "Use this topic to get an overview of the templates you can create as an administrator in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: overview
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-  - "intro-internal"
+ms.collection: get-started
 ---
 
 # Overview of templates in Dynamics 365 Channel Integration Framework 2.0

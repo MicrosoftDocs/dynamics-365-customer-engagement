@@ -1,19 +1,13 @@
 ---
-title: "How to customize the Field Service work order form and best practices | MicrosoftDocs"
+title: Customize the work order form
 description: Learn how to customize work order forms in Dynamics 365 Field Service.
 ms.date: 03/03/2022
-ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
-manager: shellyha
-search.app:
-- D365CE
-- D365FS
+author: lmasieri
+ms.author: lmasieri
 ---
 
-# Customize the Field Service work order form
+# Customize the work order form
 
 While setting up Field Service for your organization, you may have to customize the forms that back office workers like dispatchers, service managers, and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 
@@ -274,9 +268,4 @@ The work order form includes form script libraries. Don't edit or remove any out
 
 Many organizations run code scripts on load, on change, and on save of the form to perform validations and run processes. Form scripts can greatly impact form performance like load times. For more information, see the article [Write scripts to implement complex business logic in Field Service](field-service-customize-scripts.md) for best practices, including [running solution checker to test scripts for issues](/powerapps/maker/data-platform/use-powerapps-checker).
 
-## See also
-
-- [Create and edit forms](/powerapps/maker/model-driven-apps/create-and-edit-forms)
-- [Design productive forms](/powerapps/maker/model-driven-apps/design-productive-forms)
-- [Design performant forms](/powerapps/maker/model-driven-apps/design-performant-forms)
-- [Optimize form load time with design and script best practices](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,34 +1,32 @@
 ---
-title: "KnowledgeArticleViews Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "KnowledgeArticleViews entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs"
 description: "Includes schema information and supported messages for the KnowledgeArticleViews entity."
-ms.date: 04/02/2019
-
+ms.date: 08/30/2022
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "annbe"
 search.audienceType: 
   - developer
-
 ---
-# KnowledgeArticleViews Entity Reference
+
+# KnowledgeArticleViews entity reference
 
 No of times an article is viewed per day
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/knowledgearticleviews<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/knowledgearticleviews(*knowledgearticleviewsid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IncrementKnowledgeArticleViewCount|<xref href="Microsoft.Dynamics.CRM.IncrementKnowledgeArticleViewCount?text=IncrementKnowledgeArticleViewCount Function" />|<xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/knowledgearticleviews(*knowledgearticleviewsid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/knowledgearticleviews<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|PATCH [*org URI*]/api/data/v9.0/knowledgearticleviews(*knowledgearticleviewsid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|SDK class or method|
+|-|-|
+|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IncrementKnowledgeArticleViewCount|<xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest>|
+|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -136,12 +134,12 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Location Options
+#### Location Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Internal|
-|2|Web|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Internal||
+|2|Web||
 
 
 
@@ -174,7 +172,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -195,7 +193,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -636,7 +634,7 @@ Listed by **SchemaName**.
 
 ### <a name="BKMK_KnowledgeArticleViews_SyncErrors"></a> KnowledgeArticleViews_SyncErrors
 
-Same as syncerror entity [KnowledgeArticleViews_SyncErrors](syncerror.md#BKMK_KnowledgeArticleViews_SyncErrors) Many-To-One relationship.
+Same as the [KnowledgeArticleViews_SyncErrors](syncerror.md#BKMK_KnowledgeArticleViews_SyncErrors) many-to-one relationship for the [syncerror](syncerror.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -651,7 +649,7 @@ Same as syncerror entity [KnowledgeArticleViews_SyncErrors](syncerror.md#BKMK_Kn
 
 ### <a name="BKMK_knowledgearticleview_principalobjectattributeaccess"></a> knowledgearticleview_principalobjectattributeaccess
 
-Same as principalobjectattributeaccess entity [knowledgearticleview_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleview_principalobjectattributeaccess) Many-To-One relationship.
+Same as the [knowledgearticleview_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_knowledgearticleview_principalobjectattributeaccess) many-to-one relationship for the [principalobjectattributeaccess](principalobjectattributeaccess.md) entity.
 
 |Property|Value|
 |--------|-----|
@@ -679,33 +677,29 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_lk_knowledgearticleviews_modifiedonbehalfby"></a> lk_knowledgearticleviews_modifiedonbehalfby
 
-See systemuser Entity [lk_knowledgearticleviews_modifiedonbehalfby](systemuser.md#BKMK_lk_knowledgearticleviews_modifiedonbehalfby) One-To-Many relationship.
+See the [lk_knowledgearticleviews_modifiedonbehalfby](systemuser.md#BKMK_lk_knowledgearticleviews_modifiedonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_knowledgearticle_views"></a> knowledgearticle_views
 
-See knowledgearticle Entity [knowledgearticle_views](knowledgearticle.md#BKMK_knowledgearticle_views) One-To-Many relationship.
+See the [knowledgearticle_views](knowledgearticle.md#BKMK_knowledgearticle_views) one-to-many relationship for the [knowledgearticle](knowledgearticle.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleviews_createdby"></a> lk_knowledgearticleviews_createdby
 
-See systemuser Entity [lk_knowledgearticleviews_createdby](systemuser.md#BKMK_lk_knowledgearticleviews_createdby) One-To-Many relationship.
+See the [lk_knowledgearticleviews_createdby](systemuser.md#BKMK_lk_knowledgearticleviews_createdby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleviews_modifiedby"></a> lk_knowledgearticleviews_modifiedby
 
-See systemuser Entity [lk_knowledgearticleviews_modifiedby](systemuser.md#BKMK_lk_knowledgearticleviews_modifiedby) One-To-Many relationship.
+See the [lk_knowledgearticleviews_modifiedby](systemuser.md#BKMK_lk_knowledgearticleviews_modifiedby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_lk_knowledgearticleviews_createdonbehalfby"></a> lk_knowledgearticleviews_createdonbehalfby
 
-See systemuser Entity [lk_knowledgearticleviews_createdonbehalfby](systemuser.md#BKMK_lk_knowledgearticleviews_createdonbehalfby) One-To-Many relationship.
+See the [lk_knowledgearticleviews_createdonbehalfby](systemuser.md#BKMK_lk_knowledgearticleviews_createdonbehalfby) one-to-many relationship for the [systemuser](systemuser.md) entity.
 
 ### <a name="BKMK_transactioncurrency_knowledgearticleviews"></a> transactioncurrency_knowledgearticleviews
 
-See transactioncurrency Entity [transactioncurrency_knowledgearticleviews](transactioncurrency.md#BKMK_transactioncurrency_knowledgearticleviews) One-To-Many relationship.
+See the [transactioncurrency_knowledgearticleviews](transactioncurrency.md#BKMK_transactioncurrency_knowledgearticleviews) one-to-many relationship for the [transactioncurrency](transactioncurrency.md) entity.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.knowledgearticleviews?text=knowledgearticleviews EntityType" />
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

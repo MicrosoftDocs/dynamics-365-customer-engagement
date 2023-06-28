@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use custom attributes to enable designer features in emails, pages, and forms
@@ -53,7 +49,7 @@ The following image shows the same design in full-page-edit mode (left) and drag
 ![Full-page editor vs. drag-and-drop editor.](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the **[Assist edit](dynamic-email-content.md#personalization)** button ![The personalization button.](media/button-personalization.png "The personalization button") for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 
@@ -189,10 +185,10 @@ To bring HTML created externally into the designer, start by doing the following
 1. Go to the **Design** > **HTML** tab of the designer.
 1. Clear all content from the HTML tab and paste in the HTML you created externally.
 1. Go to the **Design** > **Designer** tab of the designer and inspect your design.
-1. If you are working with a marketing email, be sure to use [assist edit](dynamic-email-content.md#assist-edit) to [place all required content and links](email-design.md#required-links) (including a subscription-center link and your physical sender address).
+1. If you are working with a marketing email, be sure to use [assist edit](dynamic-email-content.md#personalization) to [place all required content and links](email-design.md#required-links) (including a subscription-center link and your physical sender address).
 
 > [!TIP]
-> Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) [assist edit](dynamic-email-content.md#assist-edit) for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
+> Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) [assist edit](dynamic-email-content.md#personalization) for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
 
 ### Enable the drag and drop editor after import
 

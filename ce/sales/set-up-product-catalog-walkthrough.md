@@ -5,7 +5,6 @@ ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -23,20 +22,22 @@ searchScope:
 
 Set up the product catalog with the collection of products that you sell and their pricing information.
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Process for setting up the product catalog
 
  The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
 
 Watch this video to understand the components of a product catalog and how to set them up:
 
