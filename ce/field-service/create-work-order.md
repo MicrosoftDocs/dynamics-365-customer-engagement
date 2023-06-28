@@ -13,7 +13,7 @@ ms.custom: bap-template
 A work order in Dynamics 365 Field Service has information on what work needs to be done. Work orders are used to coordinate and schedule resources and activities. They can be used for different types of work, such as installations, repairs, or preventive maintenance.  
   
 A work order is often created from a case, an agreement, or an opportunity. It gets scheduled either manually, with the schedule assistant, or the Resource Scheduling Optimization add-in. Once the work is complete, a supervisor reviews and approves it.
- 
+
 ## Create a work order from the work order form and record list
 
 1. In Field Service, change to the **Service** area.
