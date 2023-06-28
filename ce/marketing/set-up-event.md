@@ -139,7 +139,7 @@ The **Website and form** tab provides options for creating a custom [event websi
 # [Real-time marketing](#tab/real-time)
 
 Use the **Registration and attendance** tab to see who registered for the event and who attended. You can also create registrations and check-ins here. The following sections are available:
-- Event registration: This table provides a list of people who [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields]((custom-registration-fields.md)), then you can also view the values submitted by each attendee here.
+- Event registration: This table provides a list of people who [registered](invite-register-house-event-attendees.md) for your event. You can also [register people manually](invite-register-house-event-attendees.md) here. If you are using [custom registration fields](custom-registration-fields.md), then you can also view the values submitted by each attendee here.
 - Event check-ins: Here you can see who attended the event and enter attendance records.
 
 # [Outbound marketing](#tab/outbound)
