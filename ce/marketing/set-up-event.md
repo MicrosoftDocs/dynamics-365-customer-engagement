@@ -77,6 +77,7 @@ Here you can see and edit your basic event information, including:
 - **Waitlist**: The waitlist section only appears if you enable the waitlist in the **Venue constraints** section. Use the waitlist to configure options regarding how to [invite waiting contacts](event-waitlist.md) when space becomes available.
 - **Webinar setup**: The webinar setup section only appears for webinar and hybrid events. Use the settings here to [set up your webinar configuration](set-up-webinar.md) and find the URLs for viewing and presenting the webinar.
 
+--- 
 <a name="agenda-tab"></a>
 
 ### The Agenda tab
