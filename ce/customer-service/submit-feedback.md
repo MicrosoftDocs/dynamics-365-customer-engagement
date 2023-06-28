@@ -1,7 +1,7 @@
 ---
 title: Submit ratings and feedback for knowledge articles
 description: Learn how you can submit feedback about knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/27/2023
+ms.date: 06/28/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,6 +19,8 @@ ms.custom:
 You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge managers can capture and review the feedback on the articles to improve and maintain a relevant knowledge base.
 
 In Customer Service workspace, when you open an article from the **Knowledge Search** tab, you can select either the **Thumbs up** or the **Thumbs down** option to state whether the article was helpful. If you select the **Thumbs down** option, you'll see a **Comments** box, where you can also enter your feedback for an article.
+
+To rate or provide your feedback for an article listed on the productivity pane, you'll have to select and open the article on the preview pane.
 
 Note that the value besides the **Thumbs up** icon doesn't represent the total number of likes for an article. The number that you see might range from 0 to 1 and can include decimals such as 0.75. This is because the value besides the **Thumbs up** icon indicates the average rating of the article based on the feedback and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
 
@@ -40,6 +42,8 @@ Note that the value besides the **Thumbs up** icon doesn't represent the total n
 ### See also
 
 [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
+
+[Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback)
 
 [Search knowledge articles](search-knowledge-articles-csh.md#search-knowledge-articles)
 
