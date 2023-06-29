@@ -11,10 +11,10 @@ ms.custom: bap-template
 
 # Create a call recording repository in Azure
 
-Create a call recording repository (blob container) in an Azure storage account to help you upload the call recordings in the repository for conversation intelligence to assess.  
+Create a call recording repository (blob container) in an Azure storage account to help you store call recordings in the repository for conversation intelligence to assess.  
 
 > [!NOTE] 
-> While creating the repository, ensure that the repository is created in the same region as your tenant to upload the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.
+> While creating the repository, ensure that the repository is created in the same region as your tenant to store the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.
 
 1. Sign in to the Azure dashboard.
   
@@ -31,4 +31,4 @@ Create a call recording repository (blob container) in an Azure storage account 
     > [!div class="mx-imgBorder"]
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")  
 
-Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-sales-insight-app.md#configure-conversation-intelligence).  
+Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#set-up-microsoft-teams-for-conversation-intelligence). 
