@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/21/2023
+ms.date: 06/30/2023
 ms.custom: bap-template
 ---
 
@@ -106,7 +106,10 @@ Use Copilot to draft chat responses when you're in a conversation with a custome
 
 ### Generate a chat response
 
-Use the one-click response generation option that's available on the bottom right of the Conversation control panel and on the bottom left of the Copilot pane. When you select this button, Copilot understands the context of the ongoing conversation and the latest customer question or message and drafts a response to send directly to the customer. You don't need to manually type the question.
+Use the one-click response generation button that's available on the bottom right of the Conversation control panel and on the bottom left of the Copilot pane. When you select this button, Copilot understands the context of the ongoing conversation and the latest customer question or message and drafts a response to send directly to the customer. You don't need to manually type the question.
+
+> [!NOTE]
+> The one-click response generation feature is available in North America, Europe, and United Kingdom only.
 
 ## Summarize cases
 

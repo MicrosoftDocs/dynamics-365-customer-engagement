@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/21/2023 
+ms.date: 06/21/2023
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -99,7 +99,7 @@ Copilot generated case and conversation summaries enhance agent collaboration an
    - **When an agent joins a conversation**: Will generate a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
    - **When a conversation ends**: Will generate a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   -  **On demand, by selecting an button to summarize the conversation** : Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
+   - **On demand, by selecting an button to summarize the conversation** : Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
@@ -142,11 +142,9 @@ Out of the box, users with the Customer Service Representative role only can use
 > [!IMPORTANT]
 > For the Copilot case summary to be displayed, you must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
 
-
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
 ### Next steps
 
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 [Use Copilot features](use-copilot-features.md)  
-
