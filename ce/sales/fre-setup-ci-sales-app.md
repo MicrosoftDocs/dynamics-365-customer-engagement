@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft Teams for conversation intelligence
 description: Learn how to set up conversation intelligence with Microsoft Teams in Dynamics 365 Sales.
-ms.date: 05/15/2023
+ms.date: 06/29/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales

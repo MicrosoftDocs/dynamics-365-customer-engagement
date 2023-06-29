@@ -1,7 +1,7 @@
 ---
 title: Monitor call and insight processing in conversation intelligence
 description: Monitor the processing status of call to verify the call is processed successfully or an error is occurred.
-ms.date: 09/30/2022
+ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

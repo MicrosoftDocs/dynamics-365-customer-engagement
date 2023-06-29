@@ -1,7 +1,7 @@
 ---
 title: "Connect Conversation intelligence app to an environment"
 description: "Use data source to connect or disconnect multiple environments with conversation intelligence."
-ms.date: 09/30/2022
+ms.date: 06/29/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

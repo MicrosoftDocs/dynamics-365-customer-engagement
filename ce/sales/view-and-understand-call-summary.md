@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 04/10/2023
+ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

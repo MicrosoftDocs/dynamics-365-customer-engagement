@@ -1,7 +1,7 @@
 ---
 title: Prerequisites to configure Conversation intelligence app
 description: Verify the prerequisites that are necessary to configure the Conversation intelligence app."
-ms.date: 09/30/2022
+ms.date: 06/29/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -41,7 +41,7 @@ Verify the following requirements before setting up the Conversation intelligenc
     2.	Enter your work email address.  
     3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).  
 -	If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
--    [Set up conversation intelligence](fre-setup-ci-sales-app.md) from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors.  
+-    You must [set up conversation intelligence](fre-setup-ci-sales-app.md) from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app.  
 
 ### See also
 

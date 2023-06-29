@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn about how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 05/18/2023
+ms.date: 06/29/2023
 ms.collection: get-started
 ms.topic: article
 author: udaykirang
