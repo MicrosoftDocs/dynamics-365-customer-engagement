@@ -41,7 +41,7 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
 
-You can create route to voice mails based on phone number by selecting **Organization phone number** in **Work classification** and **Create Intake rule** sections. When you define conditions, select **Equals**, to enter phone number with country code. Or else select **Contains** to enter phone number without country code.
+You can create route to voice mails based on phone number by selecting **Organization phone number** in **Work classification** and **Create Intake rule** sections. When you define conditions, select **Equals** to enter phone number with country code. Or select **Contains** to enter phone number without country code.
 
 ## Use voicemail to manage direct calls to agents
 
