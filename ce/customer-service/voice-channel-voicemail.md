@@ -3,7 +3,7 @@ title: "Configure voicemail to manage inbound calls"
 description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/02/2023
+ms.date: 06/30/2023
 ms.topic: article
 ---
 
@@ -40,6 +40,8 @@ For information on how to configure the conditions and actions, go to [Manage ov
 You can also configure overflow override in the route-to-queue rule of a workstream.
 
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
+
+You can create route to voice mails based on phone number by selecting **Organization phone number** in **Work classification** and **Create Intake rule** sections. When you define conditions, select **Equals**, to enter phone number with country code. Or else select **Contains** to enter phone number without country code.
 
 ## Use voicemail to manage direct calls to agents
 
