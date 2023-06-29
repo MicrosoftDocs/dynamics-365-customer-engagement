@@ -1,6 +1,6 @@
 ﻿---
-title: Integrate third-party dialers with Dynamics 365 Sales conversation intelligence
-description: Learn how to configure third-party dialers and Dynamics 365 Sales to get conversation intelligence for calls made or received from third-party dialers.
+title: Integrate third-party dialers with Dynamics 365 conversation intelligence
+description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
 ms.date: 06/20/2023
 ms.custom: bap-template
 ms.topic: how-to
@@ -9,9 +9,9 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Integrate third-party dialers with Dynamics 365 Sales conversation intelligence
+# Integrate third-party dialers with Dynamics 365 conversation intelligence
 
-With this integration, Dynamics 365 users can use softphones provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app)  
+With this integration, Dynamics 365 users can use dialers provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app)  
 
 ## How the integration works
 
@@ -23,7 +23,7 @@ At a high-level, the integration consists of 3 parts:
 
 3. **Send real-time events:** Send UI events from the provider's client UI to Dynamics 365 conversation intelligence, to enable real-time transcription and call insights experience.
 
-For an example integration between Dynamics 365 conversation intelligence and a third-party telephony provider, Twilio Flex, see [Integrate Twilio Flex with Dynamics 365 Sales conversation intelligence](Integrate-TwilioFlex-with-CI.md)
+For an example integration between Dynamics 365 conversation intelligence and a third-party telephony provider, Twilio Flex, see [Integrate Twilio Flex with Dynamics 365 conversation intelligence](Integrate-TwilioFlex-with-CI.md)
 
 The following diagram illustrates how the integration works:
 
@@ -33,7 +33,7 @@ The following diagram illustrates how the integration works:
 
 1. [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal).
 
-2. Add API permission for media Recording:
+2. Add API permission for media recording:
 
     1. In the Azure AD application that you've created, go to **API permissions**.
 
@@ -75,8 +75,6 @@ The following diagram illustrates how the integration works:
     ```
     For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
  
-   After the request is successful, the Dynamics 365 Sales admin can create a recording policy for the new provider.
-
     <<Editor's note: Need info about the parameters and where they can get it from. Also, the request body in swagger doc is different from the above.>>
 
 3. Call the following conversation intelligence API to get the list of users to record: 
@@ -88,7 +86,7 @@ After the Dynamics 365 Sales admin creates the recording policy, the provider ca
 
 Conversation Intelligence recorders implement the standard [SIPREC protocol](https://www.rfc-editor.org/rfc/rfc7866.html).
 
-The communication is secured using SIPS (port 5061) and SRTP protocols. The authentication is done using [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls) in the SIPS message connection, and based on the certificate provided to the API – this means that the provider must be registered for a tenant to establish SIPS connection.
+The communication is secured using SIPS (port 5061) and SRTP protocols. The authentication is done using [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls) in the SIPS message connection, and is based on the certificate provided to the API – this means that the provider must be registered for a tenant to establish SIPS connection.
 
 The following screenshot illustrates the communication between the SIPREC client and SIPREC server:
 
@@ -96,7 +94,7 @@ The following screenshot illustrates the communication between the SIPREC client
 
 The following metadata are required for conversation intelligence:
 
-1. Headers:
+**Headers:**
 
 | **Header Name** | **Description**                                                                                                                                                            | **Value Example**                  |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
@@ -104,7 +102,7 @@ The following metadata are required for conversation intelligence:
 | X-AccountId     | Unique identifier of the account the call belongs to. This is used for authentication and authorization. This is the same account Id registered in the API for the tenant. | ACxxxxxxxxxxxxxxxxxxxxxxx |
 
 
-2. Metadata –
+**Metadata**
 
 | **Metadata key name** | **Description**                                                        | **Value Example**         |
 |-----------------------|------------------------------------------------------------------------|---------------------------|
@@ -224,7 +222,7 @@ X-AccountId: ACxxxxxxxxxxxxx
 
 ### Recorder endpoints and regions supported
 
-The following table lists the supported recorder endpoints and their regions. You can configure the recorders you want to use in your telephony provider settings. To learn about how this is done for Twilio Flex, see <<Editor's note: Add link to Twlilo article>>
+The following table lists the supported recorder endpoints and their regions. You can configure the recorders you want to use in your telephony provider settings. To learn about how this is done for Twilio Flex, see [Step 2: Install the SIPREC connector and route the calls to Dynamics 365](Integrate-TwilioFlex-with-CI.md#step-2-install-the-siprec-connector-and-route-the-calls-to-dynamics-365).
 
 | Endpoint                                      | Region                  |
 |-----------------------------------------------|-------------------------|
@@ -308,7 +306,10 @@ After registering the new provider with the tenant and setting up the SIPREC for
 
 2. From Change area, select **Sales insights settings**.
 
-2. Go to **Global settings** > **Conversation intelligence** and create a recording policy using the new provider.
+2. Go to **Global settings** > **Conversation intelligence**.
+    In the Call providers section, you'll see the third-party provider that you've registered.
+
+1. Create a recording policy for the new provider. For more information, see [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 
 The following screenshot is an example of a recording policy for Twilio.
 

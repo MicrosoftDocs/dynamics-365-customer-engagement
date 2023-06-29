@@ -597,6 +597,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards

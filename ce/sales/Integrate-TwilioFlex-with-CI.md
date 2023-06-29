@@ -1,6 +1,6 @@
 ﻿---
-title: Integrate Twilio Flex with Dynamics 365 Sales conversation intelligence
-description: Learn how to configure Twilio Flex and Dynamics 365 Sales to get conversation intelligence for calls made or received from Twilio Flex dialers.
+title: Integrate Twilio Flex with Dynamics 365 conversation intelligence
+description: Learn how to configure Twilio Flex and Dynamics 365 to get conversation intelligence for calls made or received from Twilio Flex dialers.
 ms.date: 06/20/2023
 ms.custom: bap-template
 ms.topic: how-to
@@ -9,9 +9,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Integrate Twilio Flex with Dynamics 365 Sales conversation intelligence
-
-This tutorial is based on Twilio's blog: [Integrate Twilio Flex with Microsoft Dynamics 365](https://www.twilio.com/blog/integrate-flex-microsoft-dynamics-365)
+# Integrate Twilio Flex with Dynamics 365 conversation intelligence
 
 This integration lets your sellers make and receive Twilio Flex calls from Dynamics 365 and get real-time transcriptions during the call and AI-generated call insights after the call.
 
@@ -21,7 +19,7 @@ Ensure that you have:
 
 - A Twilio account
 
-- A Twilio Flex Account – see this [link](https://support.twilio.com/hc/en-us/articles/360020442333-Setup-a-Twilio-Flex-Project?_ga=2.214792279.1158585142.1650795950-56040474.1626257650) for more info on how to set up a Flex account.
+- A Twilio Flex account – see this [link](https://support.twilio.com/hc/en-us/articles/360020442333-Setup-a-Twilio-Flex-Project?_ga=2.214792279.1158585142.1650795950-56040474.1626257650) for more info on how to set up a Flex account
 
 - A Microsoft Dynamics 365 Sales environment with the Sales Premium or Sales Enterprise license, along with system administrator privileges
 
@@ -35,7 +33,7 @@ Ensure that you have:
 
 ## Step 1: Configure Twilio Flex as a channel provider
 
-In Dynamics 365 Channel Integration Framework, create a channel provider for for Twilio Flex. See the screenshot below as an example:
+In Dynamics 365 Channel Integration Framework, create a channel provider for Twilio Flex. See the screenshot below as an example:
 
 :::image type="content" source="media/twilio-channel-provider.png" alt-text="Screenshot of Twilio added as a channel provider.":::
 
@@ -46,7 +44,8 @@ Enter the following values::
 - **Enable Outbound Communication:** Yes
 - **API Version:** 1.0
 - **Channel order:** 1
-- **Trusted Domain:** <https://flex.twilio.com/>Select Unified Interface Apps for the Channel: Sales Hub (or any other app you would like the integration to be enabled for)
+- **Trusted Domain:** <https://flex.twilio.com/>  
+- **Select Unified Interface Apps for the Channel:** Sales Hub (or any other app you would like the integration to be enabled for)
 - **Select the security roles for the channel:** Add the roles that would be using Twilio Flex. For example, Salesperson, Sales Manager,and so on.To embed Twilio Flex as an iframe inside Dynamics 365, add the Dynamics 365 org URL to the Allowed URLs list. For more information, see this [article](https://www.twilio.com/docs/flex/admin-guide/setup/secure-iframe#embed-flex-as-an-iframe).
 
 ## Step 2: Install the SIPREC connector and route the calls to Dynamics 365
@@ -59,32 +58,13 @@ Enter the following values::
 
     The following fields are important to note:
 
-    - Unique name: Specify a name and note it down. You'll have to use it in the next steps
+    - **Unique name:** Specify a name and note it down. You'll have to use it in the next steps
 
-    - Session Recording Server: Specify the Dynamics 365 media recording server URL.
+    - **Session Recording Server:** Specify the Dynamics 365 media recording server URL. For a list of recorders and regions supported, see [Recorder endpoints and regions supported](ci-third-party-sp-integration.md#recorder-endpoints-and-regions-supported).
 
         - If you would like to fork the media to the closest recorder, use the following URL: **sip:SRS@media.recording.dynamics.com:5061;secure=true**
 
         - Credentials fields can remain empty. The authentication is done with certificate on the TLS setup between Twilio and Dynamics.
-
-        - For specific region recorders, you can use one of the following recorders:
-
-            | Endpoint                                      | Region                  |
-            |-----------------------------------------------|-------------------------|
-            | media.recording.dynamics.com                  | Global (closest region) |
-            | southeastasia.media.recording.dynamics.com    | Southeast Asia          |
-            | australiaeast.media.recording.dynamics.com    | Australia               |
-            | sam.media.recording.dynamics.com              | South America           |
-            | canadacentral.media.recording.dynamics.com    | Canada                  |
-            | switzerlandnorth.media.recording.dynamics.com | Switzerland             |
-            | eastus.media.recording.dynamics.com           | US                      |
-            | francecentral.media.recording.dynamics.com    | France                  |
-            | centralindia.media.recording.dynamics.com     | India                   |
-            | japaneast.media.recording.dynamics.com        | Japan                   |
-            | uae.media.recording.dynamics.com              | UAE                     |
-            | uksouth.media.recording.dynamics.com          | UK                      |
-            | westeurope.media.recording.dynamics.com       | West Europe             |
-            | zaf.media.recording.dynamics.com              | South Africa            |
 
 ## Step 3: Configure call flow to fork the media to Dynamics 365
 
@@ -100,21 +80,21 @@ Enter the following values::
 
 1. Enter the following values:
 
-    - Stream Action: Start
+    -**Stream Action:** Start
     
-    - Stream Type: Siprec
-    - Connector Name: The name that you gave to the SIPREC connector. In our example, it's SipRec1
-    - Tracks: Both Tracks
-    - Stream parameters:
-        - Role: inbound (since we are going to record incoming calls in this tutorial)
+    - **Stream Type:** Siprec
+    - **Connector Name:** The name that you gave to the SIPREC connector. In our example, it's SipRec1.
+    - **Tracks:** Both Tracks
+    - **Stream parameters:**
+        - **Role:** inbound (In our example, we are going to record incoming calls)
 
-        - CallerDisplayName: {{trigger.call.From}}
+        - **CallerDisplayName:** {{trigger.call.From}}
 
-        - CalleeDisplayName: {{trigger.call.To}}
+        - **CalleeDisplayName:** {{trigger.call.To}}
 
-    Then, through the **Transitions** tab, configure the **Fork Stream** to be before the call is sent to the agent:
+1. In the **Transitions** tab, configure the **Fork Stream** to be before the call is sent to the agent:
 
-        :::image type="content" source="media/twilio-transition-tab.png" alt-text="Screenshot of the Twilio Transition tab.":::
+    :::image type="content" source="media/twilio-transition-tab.png" alt-text="Screenshot of the Twilio Transition tab.":::
 
 2. Save the flow and publish.
 
@@ -140,7 +120,7 @@ Let's set up Twilio as a call provider and configure a recording policy to defin
 
     :::image type="content" source="media/conversation-intelligence-settings.png" alt-text="Screenshot of Conversation intelligence settings page":::
 
-3. Select **Twilio** in the Call providers section and specify the [Twilio account SID](https://console.twilio.com/?_ga=2.257165131.1105660149.1650885795-1161783962.1650797757):
+3. Select **Twilio** in the Call providers section and specify the [Twilio account SID](https://console.twilio.com/?_ga=2.257165131.1105660149.1650885795-1161783962.1650797757).
 
 3. Save the changes.
 
@@ -154,9 +134,9 @@ Let's set up Twilio as a call provider and configure a recording policy to defin
 
 Flex is a React project and customizations that you make to the UI are created as plugin components.
 
-Preparing a Node environment and setting up an empty Flex plugin are outside the scope of this documentation. There is an easy-to-follow guide to creating your first Flex plugin here: <https://www.twilio.com/docs/flex/quickstart/getting-started-plugin>
+Preparing a Node environment and setting up an empty Flex plugin are outside the scope of this documentation. Refer to [Twilio's documentation](https://www.twilio.com/docs/flex/quickstart/getting-started-plugin) for a step-by-step tutorial on creating your first Flex plugin.
 
-The remaining steps assume that you have followed the steps in that tutorial and created a fresh plugin that is ready for you to add your customization code for Dynamics.
+Create a fresh plugin that is ready for you to add your customization code for Dynamics.
 
 At this point, your plugin JS file will look like this:
 
@@ -261,11 +241,12 @@ export default class SamplePlugin extends FlexPlugin {
 }
 
 ```
-We now have a Flex plugin that is ready for us to test and [publish](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release)!
+
+[Publish the plugin](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release). We now have a Flex plugin that is ready for us to test!
 
 ## Step 6: Test Dynamics 365 conversation intelligence and Flex integration
 
-Log into the Sales Hub app, select the Call icon. You'll see Twilio Flex embedded in the right pane. It'll close automatically when not in use.
+Log into the Sales Hub app, select the **Call** icon. You'll see Twilio Flex embedded in the right pane.
 
 :::image type="content" source="media/embedded-twilio-dialer.png" alt-text="Screenshot of the embedded Twilio dialer in Sales Hub app.":::
 
@@ -273,6 +254,9 @@ Make sure you've set your status as **Available** in Twilio and place a call to 
 
 :::image type="content" source="media/twilio-call.png" alt-text="Screenshot of call notification on the embedded dialer":::
 
-Once you answer the call and start recording, you can navigate to the **Transcript** tab to view real-time transcription in the Transcript tab and then view call insights jn the Call Summary page after the call ends.
+Once you answer the call and start recording, navigate to the **Transcript** tab to view real-time transcription and then view call insights in the **Call Summary** page after the call ends.
 
-:::image type="content" source="media/transcript-tab.png" alt-text="Screenshot of the Transcript tab.":::
+
+### See also
+
+[View and understand the call summary page](view-and-understand-call-summary-sales-app.md)
