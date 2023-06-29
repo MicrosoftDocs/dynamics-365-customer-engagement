@@ -33,7 +33,7 @@ Enable the Copilot features for agents to use Copilot to:
 
 For region availability of Copilot, see [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
-For enabling the copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
+For enabling the Copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
@@ -48,11 +48,11 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Opt-in to continue with Copilot setup
 
-Before you enable a copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
-## Enable copilot features
+## Enable Copilot features
 
-Perform the following steps to enable the copilot features:
+Perform the following steps to enable the Copilot features:
 
 1. In Customer Service admin center, use one of the following navigation options: 
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
@@ -72,7 +72,7 @@ Perform the following steps to enable the copilot features:
 
 ### Features supported with different knowledge sources
 
-The following table summarizes the copilot features supported for a configured knowledge source.
+The following table summarizes the Copilot features supported for a configured knowledge source.
 
 | Feature|Knowledge base | External web resources |
 |-------|----------|---------|--------|
@@ -82,7 +82,7 @@ The following table summarizes the copilot features supported for a configured k
 
 ## Enable summarization of cases and conversations
 
-Copilot generated case and conversation summaries enhance agent collaboration and productivity as follows:
+Copilot-generated case and conversation summaries enhance agent collaboration and productivity as follows:
 
 - Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
 - Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation. 
@@ -93,13 +93,13 @@ Copilot generated case and conversation summaries enhance agent collaboration an
 1. In Customer Service admin center, use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries (preview)**
     - **Operations** > **Insights** > **Summaries (preview)**
-1. Select **Manage**  in **Summaries (preview)**.
-1. Select **Make case summaries available to agents** to display a summary of the case on the Case page. 
+1. Select **Manage** in **Summaries (preview)**.
+1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
 1. For Copilot to automatically trigger a conversation summary, select the following options:
    - **When an agent joins a conversation**: Will generate a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
    - **When a conversation ends**: Will generate a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   - **On demand, by selecting an button to summarize the conversation** : Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
+   - **On demand, by selecting a button to summarize the conversation**: Will generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
 
@@ -119,7 +119,7 @@ For more information, see: [Add users to agent experience profiles](../app-profi
 
 ## Assign roles and privileges
 
-Out of the box, users with the Customer Service Representative role only can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
+Out of the box, only users with the Customer Service Representative role can use the Copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
