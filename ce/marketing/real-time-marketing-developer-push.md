@@ -15,9 +15,7 @@ search.audienceType:
 
 # Push notification setup for application developers
 
-[Push notification configuration for real-time marketing](real-time-marketing-push-notifications.md) requires some setup that must be completed by an app developer.
-
-The developer process to set up push notifications follows these steps:
+To enable push notifications in real-time marketing, you need to complete the following steps:
 
 1. [App registration](real-time-marketing-push-notifications.md#create-a-mobile-app-configuration)
 1. [Device registration](real-time-marketing-developer-push.md#implement-user-mapping)
@@ -165,9 +163,69 @@ Parameters:
 @end
 ```
 
+### API v.2
+
+1. Device Registration (single):
+
+Request URL:
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "ApnsDeviceToken": "%APNS_DEVICE_TOKEN%"
+}
+```
+Returns: 202 on success, 400 if request is not valid.
+
+2. Device Registration (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+3. Device Cleanup (single):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN% )"
+}
+```
+Returns: 202 on success, 400 if request is not valid
+
+3. Device Cleanup (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
 ### Device registration for Android applications
 
 To register a device for an Android application, the following request should be issued:
+
+API v.1
 
 Request URL:
 
@@ -240,5 +298,60 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
+API v.2
+
+1. Device Registration (single):
+
+Request URL:
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "FcmDeviceToken": "%FCM_DEVICE_TOKEN%",
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+2. Device Registration (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+3. Device Cleanup (single):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN%)"
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+4. Device Cleanup (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
