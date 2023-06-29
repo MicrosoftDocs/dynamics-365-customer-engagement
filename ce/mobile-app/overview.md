@@ -37,10 +37,6 @@ There are separate mobile apps for:
 - Finance and Operations applications: [Finance and Operations mobile app](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 - Dynamics 365 Customer Engagement (on-premises): [Dynamics 365 for phones and tablets app for Dynamics 365 Customer Engagement (on-premises) apps](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
-> [!NOTE]
-> Users on the Dynamics 365 phones and tablets app can now migrate the Power Apps mobile app: [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](./migration.md).
-
-
 
 ## Related topics
 [Install Dynamics 365 for phones and tablets](./install-dynamics-365-for-phones-and-tablets.md)<br/>
