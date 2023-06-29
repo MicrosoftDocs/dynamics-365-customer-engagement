@@ -21,8 +21,8 @@ search.audienceType:
 
 # Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app 
 
-## Dynamics 365 for phones and tablets will be deprecated for online users and replaced by Power Apps
-Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will only support on-premise users. Online users will need to migrate to the [Power Apps mobile](/powerapps/user/run-canvas-and-model-apps-on-mobile) app. The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
+> [!Important]
+> Dynamics 365 for phones and tablets is deprecated for online users and replaced by Power Apps. Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will only support on-premise users. Online users must migrate to the [Power Apps mobile](/powerapps/user/run-canvas-and-model-apps-on-mobile) app. The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
 
 Follow the steps below to ensure a smooth transition to the new app.
 
