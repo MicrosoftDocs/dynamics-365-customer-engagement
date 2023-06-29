@@ -21,6 +21,21 @@ This article includes procedures for migrating configuration data for records. Y
 
 The procedures include tables with entity information and corresponding sample schemas for each configuration.
 
+## Migrate configuration using a solution
+
+Certain configuration items can be moved between environments using solutions. If there is configuration added in your unified routing setup in the list below these can be moved using a solution. Add the following components to a solution, export the solution and import it into the target environments:
+
+1. Add the components to a solution and export
+   1. Agent Script (msdyn_productivityagentscripts)
+   1. Agent Script Step (msdyn_productivityagentscriptsteps)
+   1. Application Tab Template (msdyn_applicationtabtemplates)
+   1. Notification Field (msdyn_notificationfields)
+   1. Notification Template (msdyn_notificationtemplates)
+   1. Macro (processes)
+   1. Session Templates (msdyn_sessiontemplates)
+   1. Template Parameter (msdyn_templateparameters)
+1. Import the solution into the target environment
+
 ## Migrate configuration for skill-based routing rulesets
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
@@ -91,11 +106,14 @@ The assignment rulesets must be available in the system before the Configutation
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
-| 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
+| 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li><li>Operating Hours (msdyn_operatinghourid)</li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li><li>Inqueue Overflow Ruleset (msdyn_inqueueoverflowrulesetid)</li></ul>  |  [**Sample 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Sample 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Sample 3: Multiple queues for records**](#BKMK3multiple-ur-qs) |
 | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Sample 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Sample 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Sample 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
 | 3. |  Decision ruleset without selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li><li>FetchXML for ruleset (msdyn_fetchxml)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues without selection criteria defined**](#BKMK1nsc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue without selection criteria defined**](#BKMK2nsc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-rls) <br>  |
 | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Sample 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Sample 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Sample 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
 | 5. |  Assignment Configuration Step without selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues without selection criteria defined**](#BKMK1nsc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue without selection criteria defined**](#BKMK2nsc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues without selection criteria defined**](#BKMK3nsc-ur-acs) <br>   |
+|6.|Operating Hour (msdyn_operatinghour)|<ul><li>Description (msdyn_description)</li><li>Name (msdyn_name)</li><li>Operating Hour (msdyn_operatinghourid)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|**Sample 1: Operating Hours for all record queues**<br><br>**Sample 2: Operating Hours for a single record queue**<br><br>**Sample 3: Operating Hours for multiple record queues**|
+|7.|Overflow Action Config(msdyn_overflowactionconfig)|<ul><li> Name (msdyn_name)</li><li>Overflow Action Config (msdyn_overflowactionconfigid)</li><li>Overflow Action Data (msdyn_overflowactiondata)</li><li>Overflow Action Type(msdyn_overflowactiontype)</li><li>Status (statecode)</li><li>Status Reason (statuscode)</li></ul>|**Sample 1: Overflow Action Config filtered to specific records**|
+
 
 Perform the following steps to export and import the rulesets:
 
@@ -121,6 +139,9 @@ Perform the following steps to export and import the rulesets:
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
+> [!NOTE]
+> You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
+
 For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
 ### Step 2: Export and import rulesets with selection criteria defined
@@ -129,7 +150,7 @@ The following table summarizes the entities and corresponding FetchXML samples:
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
-| 1. |  Decision ruleset with selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues with selection criteria defined**](#BKMK1sc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue with selection criteria defined**](#BKMK2sc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues with selection criteria defined**](#BKMK3sc-ur-rls) <br>  |    
+| 1. |  Decision ruleset with selection criteria (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Decision ruleset for all record queues with selection criteria defined**](#BKMK1sc-ur-rls) <br> <br> [**Sample 2: Decision ruleset for a single record queue with selection criteria defined**](#BKMK2sc-ur-rls) <br> <br> [**Sample 3: Decision ruleset for multiple record queues with selection criteria defined**](#BKMK3sc-ur-rls) <br>  |
 | 2. |  Assignment Configuration Step with selection criteria (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Sample 1: Assignment configuration step for all record queues with selection criteria defined**](#BKMK1sc-ur-acs) <br> <br> [**Sample 2: Assignment configuration step for a single record queue with selection criteria defined**](#BKMK2sc-ur-acs) <br> <br> [**Sample 3: Assignment configuration step for multiple record queues with selection criteria defined**](#BKMK3sc-ur-acs) <br>   |
 
 Perform the following steps to export and import the rulesets:
@@ -157,6 +178,35 @@ Perform the following steps to export and import the rulesets:
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
+
+### Step 3: Export and import rulesets for overflow conditions
+
+> [!IMPORTANT]
+> When the Queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first.
+
+|S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+|-----|---------|---------|---------|
+|1.|Decision ruleset without selection criteria (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode) </li><li>Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li><li>FetchXML for ruleset (msdyn_fetchxml) </li></ul>|**Sample 1: Decision Overflow ruleset for a single queue**<br><br> **Sample 2: Decision Overflow ruleset for multiple queues**|
+|2.|Queue (queue)|<ul><li> Assignment Input Contract Id (msdyn_assignmentinputcontractid) </li><li>Assignment Strategy (msdyn_assignmentstrategy) </li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li><ul>||
+
+Perform the following steps to export and import the rulesets:
+1. Generate the schema and save it.
+1. Export the data and generate the compressed (zip) file.
+1. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+1. Package the extracted content again.
+1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
+> [!NOTE]
+> You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
 
 ### FetchXML for queues
 
@@ -637,6 +687,26 @@ For sample schema to get all the required records, see [Sample schema for record
 				</link-entity>
 			</entity>
 		</fetch>
+```
+
+### FetchXML for operating hour configuration step entity
+
+**Sample 1: Operating Hour configuration step for all record queues**<a name="BKMK1-oh"></a>
+
+```xml
+XMLCopy
+        <fetch>
+            <entity name="msdyn_operatinghour">
+                <link-entity name="queue" from="msdyn_operatinghourid" to="msdyn_operatinghourid" link-type="inner" alias="aa">
+                <filter type="and">
+                    <condition attribute="msdyn_queuetype" operator="eq" value="192350001"/>
+                    <condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1"/>
+                    <condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}"/>
+               </filter>
+             </link-entity>
+           </entity>
+        </fetch>
+
 ```
 
 ## Migrate configuration for intake rules for record routing
