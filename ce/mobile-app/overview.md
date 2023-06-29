@@ -22,7 +22,7 @@ search.audienceType:
 # Overview of Dynamics 365 for phones and tablets 
 
 > [!Important]
-> Dynamics 365 for phones and tablets is [deprecated](/power-platform/important-changes-coming) for online users and replaced by Power Apps. Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will only support on-premise users. Online users will need to [migrate to the Power Apps mobile app](migration.md). The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
+> Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will be [deprecated](/power-platform/important-changes-coming#dynamics-365-for-phones-and-tablets-will-be-deprecated-for-online-users-and-replaced-by-power-apps) for online users. Online users must [migrate to the Power Apps mobile app](migration.md). The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
 
 Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. Download the Dynamics 365 mobile app and sign-in to run the same apps that you use in a web browser on your mobile device.
 
