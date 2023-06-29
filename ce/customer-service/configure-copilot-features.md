@@ -21,7 +21,7 @@ ms.collection:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Copilot in Customer Service provides real-time AI assistance that helps agents automate time consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
+Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
 Enable the Copilot features for agents to use Copilot to:
 - Respond to questions
@@ -46,9 +46,9 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
    - The state is set to Published
    - The locale is set to English
 
-## Opt-in to continue with Copilot setup
+## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions and provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 ## Enable Copilot features
 
