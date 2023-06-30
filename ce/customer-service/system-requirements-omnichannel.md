@@ -98,6 +98,21 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://comms.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
+- `https://*.omnichannelengagementhub.com`
+- `https://*.us.omnichannelengagementhub.com`
+- `https://*.eu.omnichannelengagementhub.com`
+- `https://*.ca.omnichannelengagementhub.com`
+- `https://*.au.omnichannelengagementhub.com`
+- `https://*.fr.omnichannelengagementhub.com`
+- `https://*.br.omnichannelengagementhub.com`
+- `https://*.ae.omnichannelengagementhub.com`
+- `https://*.de.omnichannelengagementhub.com`
+- `https://*.in.omnichannelengagementhub.com`
+- `https://*.uk.omnichannelengagementhub.com`
+- `https://*.as.omnichannelengagementhub.com`
+- `https://*.jp.omnichannelengagementhub.com`
+- `https://*.ch.omnichannelengagementhub.com`
+
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
@@ -146,6 +161,7 @@ The Government community cloud links that should be made accessible are as follo
 - `https://*.gcc.teams.microsoft.com`
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
+- `https://*.gov.omnichannelengagementhub.us`
 
 ### See also
 
