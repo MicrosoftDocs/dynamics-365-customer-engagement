@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Sales Insights
 description: Learn about how to enable and configure Sales Insights capabilities in your organization.
-ms.date: 05/18/2023
+ms.date: 06/29/2023
 ms.collection: get-started
 ms.topic: article
 author: udaykirang
@@ -65,7 +65,7 @@ Before you can configure these features, you must accept the privacy notice. To 
 
 1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
 3. In the **Terms of service** section, select **I agree**.
@@ -172,7 +172,7 @@ As an administrator, when you sign in to the application for the first time, you
 You can also update each setting later as required. The following configurations are available:
 
 -    Connect your Sales environment to gather data and display on KPIs. More information: [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)    
--    Connect to call data repository. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)   
+
 -    Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
 -    Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)   
 -    Enable preview features. More information: [Enable preview features](enable-preview-features-sales-insights-app.md)

@@ -1,6 +1,41 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/user-guide.md",
+      "redirect_url": "/dynamics365/field-service/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-service-architecture.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asyncoperation-system-job-entity.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/asynchronous-operation-states.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/dependency-execution-order-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/recurrence-pattern-asynchronous-job-execution.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/supported-entities-asynchronous-operations.md",
+      "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
+      "redirect_document_id": "false"
+    },   
+    {
       "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
       "redirect_url": "connect-gmail-oauth2",
       "redirect_document_id": "false"
@@ -391,8 +426,13 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/landing-page.yml",
+      "redirect_url": "index",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/help-hub.md",
-      "redirect_url": "landing-page",
+      "redirect_url": "index",
       "redirect_document_id": "false"
     },
     {
@@ -2794,6 +2834,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/help-hub.yml",
+      "redirect_url": "/dynamics365/sales/index",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/deal-manager-overview.md",
       "redirect_url": "/dynamics365/sales/use-opportunity-pipeline-view",
       "redirect_document_id": "false"
@@ -3070,17 +3115,17 @@
     },
     {
       "source_path": "ce/developer/org-service/helper-code-enumerations-option-sets.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/org-service/helper-code-serverconnection-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/org-service/helper-code-systemuserprovider-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
@@ -3961,11 +4006,6 @@
     {
       "source_path": "ce/developer/webapi/index.md",
       "redirect_url": "/dynamics365/developer/use-microsoft-dynamics-365-web-api",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/field-service/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/field-service/overview",
       "redirect_document_id": "false"
     },
     {
@@ -7956,17 +7996,17 @@
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-enumerations-option-sets.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-serverconnection-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/helper-code-systemuserprovider-class.md",
-      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs",
       "redirect_document_id": "false"
     },
     {
@@ -24340,6 +24380,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/configure-conversation-intelligence-call-data.md",
+      "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/customize-views.md",
       "redirect_url": "/dynamics365/sales/customize-views",
       "redirect_document_id": "false"
@@ -25151,6 +25196,31 @@
     {
       "source_path": "ce/marketing/email-send-now.md",
       "redirect_url": "/dynamics365/marketing/email-quick-send",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/work-order-customer-account.md",
+      "redirect_url": "/dynamics365/field-service/accounts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-architecture.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service-architecture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/connected-field-service-developer-guide.md",
+      "redirect_url": "/dynamics365/field-service/connected-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/extend-connected-field-service-solutions.md",
+      "redirect_url": "/dynamics365/field-service/extend-connected-field-service-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/developer/iot-parent-iot-alerts-workflow.md",
+      "redirect_url": "/dynamics365/field-service/iot-parent-iot-alerts-workflow",
       "redirect_document_id": "false"
     }
   ]

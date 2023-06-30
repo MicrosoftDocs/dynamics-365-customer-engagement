@@ -84,7 +84,7 @@ The email validation feature in Dynamics 365 Sales and Power Apps works on the s
 
 1. Turn on email validation for leads and contacts, according to your requirements.
 
-Email validation runs immediately on the primary email address in lead and contact records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. 
+Email validation runs on the primary email address in lead and contact records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
