@@ -248,6 +248,8 @@
           href: email-without-journey.md
         - name: Use brand profiles in real-time marketing email
           href: brand-profiles-email.md
+        - name: Import outbound emails, templates, and content blocks to real-time marketing
+          href: real-time-marketing-import-email-to-real-time.md
       - name: Text messages
         items:
         - name: Outbound text messages
