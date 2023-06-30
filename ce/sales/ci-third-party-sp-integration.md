@@ -51,10 +51,22 @@ The following diagram illustrates how the integration works:
 
     ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
 
+   The `scope` parameter specifies the application ID of the Conversation intelligence app. Do not change this value.
+
     For more information about the curl command, see [Get Azure AD tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
 
 1. Call the following conversation intelligence API to register the third-party service provider:  
     ```POST /api/v1.0/providers/tenants```  
+
+    Specify the following parameters in the request body:
+    
+    - **orgID:** Specify the Dynamics 365 org ID.
+
+    - **Type:** Specify "custom" for third-party dialers.
+    - **hosting:** Specify the hosting type of the telephony provider. For example, "cloud" or "on-premises".
+    - **AccountId:** Specify the account ID of the telephony provider.
+    - **CerfificateSubjectName and CertificateIssuer:** Specify the certificate details of the telephony provider.
+    - **SourceIPNetwork:** Specify the IP address of the SIPREC client. Specify "0.0.0.0" if you don't want to restrict the IP address.  
     The following snippet is an example of the request body:
  
      ```java
@@ -73,6 +85,8 @@ The following diagram illustrates how the integration works:
         }
     }
     ```
+ 
+
     For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
  
     <<Editor's note: Need info about the parameters and where they can get it from. Also, the request body in swagger doc is different from the above.>>
