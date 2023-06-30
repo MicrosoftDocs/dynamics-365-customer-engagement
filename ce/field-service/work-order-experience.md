@@ -1,6 +1,6 @@
 ---
 title: Work order form and component experience
-description: 
+description: The new work order experience simplifies work order creation, management, and scheduling.
 ms.date: 06/30/2023
 ms.topic: how-to
 author: lmasieri
@@ -10,13 +10,13 @@ ms.custom: bap-template
 
 # Work order form and component experience (preview)
 
-With the 2023 release wave 2, Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience reduces the number of clicks that are required create, manage, and schedule work orders. It also provides more information at a glance and uses more visually appealing forms that let you quickly update fields on the form.
+With 2023 release wave 2, Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md). It also provides more information at a glance and uses more visually appealing forms that let you quickly update fields on the form.
 
 In this article, we'll discuss the work order form and the components that it uses. You also find information about customizing the new controls and forms and potential limitations.
 
 ## Work order list
 
-### Work Order List grid
+### Work order list grid
 
 The new grid shows work orders in a list and lets you priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
 
@@ -38,12 +38,12 @@ To change between the old form Work Order and the new form, use the form switche
 
 The *General* section on the work order form contains the following cards: 
 
-- Details
-- Functional location
-- Financial
-- Dynamic bookings
-- Contacts
-- Assets
+- [Details](#details-card)
+- [Functional location](#functional-location-card)
+- [Financial](#financial-card)
+- [Dynamic bookings](#dynamic-bookings-card)
+- [Contacts](#contacts-card)
+- [Assets](#assets-card)
 
 #### Details card
 
@@ -111,17 +111,20 @@ The timeline is the place to see an audit log of activity required to get work d
 
 In the related section, you find references to entities that have a relationship to the work order entity.
 
+## Trade coverage validation for work orders
+
+Depending on the [configuration of trade coverages](trades.md), work orders check if the selected account or functional location are covered.
+
+If trade coverage is set to not cover a trade, a warning shows on the work order. However, you can still save the work order.
+
+The validation interprets service accounts and hierarchies in functional locations.
+
+> [!NOTE]
+> If no trade coverage is defined for a trade, the system assumes that the trade is covered for all parameters. Work order won’t show any warnings if trade coverage isn’t defined.
+
 ## Customization considerations
 
-
-### Work Order List grid
-
-
-### Side pane for quick edits
-
-### Work order form
-
-
+For more information about work order customizations, see [Customization considerations for the work order form](work-order-customization.md).
 
 ## Next steps
 

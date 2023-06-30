@@ -1,7 +1,7 @@
 ---
 title: Customization considerations for the work order form
 description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
-ms.date: 06/09/2023
+ms.date: 06/30/2023
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -139,6 +139,23 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 
 > [!TIP]
 > If the map control is still not visible on the form after following these steps, try removing the active form customizations.
+
+## Components in the new work order experience (preview)
+
+The new work order experience in the 2023 release wave 2 introduces several new components for makers to use on their forms. Unless stated differently, you can't customize the components.
+
+The following components get added:
+
+- Work order grid (*msdyn_FieldService.WorkOrderList*) with customizable columns.
+- Functional location card (*msdyn_FieldService.LocationCard*) that works on the work order entity only.
+- Dynamics bookings card (*msdyn_FieldService.BookingCard*).
+- Contact card (*msdyn_FieldService.CustomerContactCard*) where you can customize the mapping of the *Reported by contact* field.
+- Asset card (*msdyn_FieldService.WorkOrderAssetTree*).
+- Products and services summary card (*msdyn_FieldService.LineItemsTabSummaryCard*). The mapping of fields only works for *CostNotToExceed* to *msdyn_costntepercent* and *PriceNotToExceed* to *pricentepercent*.
+- Products and services line items grid (*msdyn_FieldService.LineItemsTabTable*) which you can use on custom views for products or services. To enable filtered results for products, edit the control and set the data source to *Records: Only Related Records*, *Entity: Work Order Products (Work Order)*, and *Default View: LineItemsTab Active Products*.
+- Task summary card (*msdyn_FieldService.TasksAtAGlanceCard*).
+- Task list (*msdyn_FieldService.TasksGrid*).
+- References card (*(msdyn_FieldService.ReferenceDisplay)*) which can show knowledge articles, guides from tasks, or media references. The maximal size of the media files is 100 MB.
 
 ## Next steps
 

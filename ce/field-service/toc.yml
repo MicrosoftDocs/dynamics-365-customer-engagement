@@ -99,6 +99,8 @@ items:
       href: create-work-order.md
     - name: Work order customization considerations
       href: work-order-customization.md
+    - name: Send work order completion surveys
+      href: work-order-surveys.md
 
 - name: Inspections
   items:
