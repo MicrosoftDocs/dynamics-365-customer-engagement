@@ -1,7 +1,7 @@
 ---
 title: Known issues in real-time marketing
 description: Learn about known issues in real-time marketing and how to work around them.
-ms.date: 06/27/2023
+ms.date: 06/28/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -44,7 +44,6 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Email editor
 
-- The real-time marketing email editor *doesn’t* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
 - Content blocks may not be editable immediately after inserting into an email. When a content block is added to an email, its content may not be editable (cannot be selected). To work around this issue, refresh the page.
 
