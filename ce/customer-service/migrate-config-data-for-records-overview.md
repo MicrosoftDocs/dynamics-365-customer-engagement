@@ -34,6 +34,8 @@ Check for the following before you migrate your configuration data:
   - Rating Value (ratingvalue)
   - Capacity Profile (msdyn_capacityprofile)
   - Queue (queue)
+  - Operating hours (msdyn_operatinghour)
+  - Overflow Action Config (msdyn_overflowactionconfig)
   - Decision contract (msdyn_decisioncontract)
   - Decision rule set (msdyn_decisionruleset)
   - Assignment Configuration (msdyn_assignmentconfiguration)
@@ -49,6 +51,7 @@ Check for the following before you migrate your configuration data:
 Perform the steps in the following order to successfully migrate your configuration data from the source to the target organization. 
 
 1. [Use FetchXML query to filter records](use-fetchxml-filter-records.md)
+1. [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution)
 1. [Migrate skill-based routing rulesets](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets)
 1. [Migrate capacity profiles](migrate-config-data-for-records.md#migrate-configuration-for-capacity-profiles)
 1. [Migrate queues](migrate-config-data-for-records.md#migrate-configuration-for-record-queues)
@@ -63,10 +66,7 @@ Perform the steps in the following order to successfully migrate your configurat
 > - Intelligent skill finder
 > - Effort estimation for routing (preview)
 > - Sentiment prediction for routing (preview)
-> - Operating hours
 > - Role persona mapping
-> - Notification template
-> - Session template
 > - Presence
 > - Queue membership
 
