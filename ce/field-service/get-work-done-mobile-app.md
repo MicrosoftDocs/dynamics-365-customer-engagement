@@ -97,7 +97,7 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 
 ## [Public Preview app](#tab/vNext)
 
-To reach this functionality simply navigate to the app menu and follow the same steps as the [Unified Interface app](&tabs=vCurrent#service-assets).
+To reach this functionality simply navigate to the app menu and follow the same steps as the [Unified Interface app](get-work-done-mobile-app.md&tabs=vCurrent#service-assets).
 
 ---
 
@@ -115,6 +115,8 @@ For more information, see the article on [configuring global search](mobile-powe
 ## [Public Preview app](#tab/vNext)
 
 To reach this functionality simply tap on the top search icon in the booking home page, then follow the same steps as the [Unified Interface app](&tabs=vCurrent#barcode-scanning).
+
+For more information, see the article on [configuring global search](mobile-power-app-system-barcode-scanning.md).
 
 ---
 
@@ -137,7 +139,8 @@ For a guided walkthrough, check out the following video.
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply navigate to the app menu and follow the same steps as the [Unified Interface app](&tabs=vCurrent#time-entry).
+
 
 ---
 
@@ -171,7 +174,7 @@ Once the technician saves the work order, it's uploaded and available for bookin
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply navigate to the app menu and follow the same steps as the [Unified Interface app](&tabs=vCurrent#create-follow-up-work-orders).
 
 ---
 
