@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-ms.date: 06/13/2023
+ms.date: 07/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -149,10 +149,6 @@ The KPIs for bots are listed in the following table.
 | Bot resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
 | Bot escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
 | Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
-
-## Omnichannel Sentiment Analysis dashboard
-
-The following section describes the components of the Omnichannel Sentiment Analysis dashboard.
 
 ## Omnichannel Insights – Sentiment Analysis report
 
