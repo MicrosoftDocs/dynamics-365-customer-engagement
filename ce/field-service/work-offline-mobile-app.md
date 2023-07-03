@@ -33,7 +33,7 @@ To sync specific views, for example, to check for new bookings or work order upd
 
 ## [Native UX (preview)](#tab/vNext)
 
-<!--- Content here  -->
+Working offline is currently not supported in Public Preview.
 
 ---
 
