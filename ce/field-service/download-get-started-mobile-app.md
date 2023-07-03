@@ -95,6 +95,8 @@ This feature is not currently available in the Public Preview app.
 
 ## Troubleshoot the app
 
+## [Unified Interface app](#tab/vCurrent)
+
 If you run into issues with the app, you can often solve them by removing all cached data.
 
 On the sitemap, select your profile icon in the top left and choose **Reconfigure**.
@@ -103,5 +105,11 @@ On the sitemap, select your profile icon in the top left and choose **Reconfigur
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the reconfigure option.](./media/mobile-2020-offline-reconfigure.png)
 
 Reconfiguring deletes data and metadata for the current organization from the cache.
+
+## [Public Preview app](#tab/vNext)
+
+This feature is not currently available in the Public Preview app, since offline mode is not yet supported. 
+
+---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
