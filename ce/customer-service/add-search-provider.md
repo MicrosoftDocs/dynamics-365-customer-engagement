@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Manage integrated search providers
 
-With integrated search providers in Dynamics 365 Customer Service, agents can search knowledge articles consolidated from third-party sources, such as enterprise websites that are based on the site map protocol, and experience a single ranking of articles across search providers. Articles are ingested into Dataverse and refreshed on the schedule you specify.
+With integrated search providers in Dynamics 365 Customer Service, you can configure third-party sources, such as enterprise websites that are based on the site map protocol. Articles are ingested into Dataverse and refreshed on the schedule you specify.
 
 ## Prerequisites
 
-To provision integrated search providers, you need the following privileges:
+If you're a first time user, you must provision integrated search providers. Make sure you have the following privileges:
 
 - Basic level: **prvReadconnector**
 - Global level:
@@ -28,28 +28,29 @@ To provision integrated search providers, you need the following privileges:
 
 [Learn more about security roles and privileges](/power-platform/admin/security-roles-privileges#security-roles-and-the-legacy-ui).
 
-## Enable the Integrated Search API trigger flow
-
-Before you can provision integrated search providers, you need to enable the Integrated Search API trigger flow.
-
-[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
-
-1. Sign in to [make.powerapps.com](https://make.powerapps.com).
-1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on **Integrated Search API trigger flow**.
-
-    :::image type="content" source="media/int-search-turn-on.jpg" alt-text="Screenshot of enabling the Integrated Search API trigger flow." lightbox="media/int-search-turn-on.jpg":::<!-- EDITOR'S NOTE: Please highlight the screenshot IAW the new [screenshot guidelines](/bacx/screenshots-for-bap?branch=main).-->
-
 ## Provision integrated search providers
 
 1. Sign in to the Dynamics 365 Customer Service admin center.
 1. Go to **Knowledge** > **Integrated Search providers (Preview)** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
+If you aren't able to provision the integrated search provider, you'll need to enable the Integrated Search API trigger flow.
+
 If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
 
-## Add integrated search providers
+## Enable the Integrated Search API trigger flow
 
-Dataverse data ingestion works with static websites only. Websites that return scripts to load content aren't supported for data ingestion. You must enter a unique combination of root URL, site map URL, and language filters.
+> [!NOTE]
+> To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadWorkflow** (Global level) privileges.
+
+[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
+
+1. Sign in to [make.powerapps.com](https://make.powerapps.com).
+1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on **Integrated Search API trigger flow**.
+
+    :::image type="content" source="media/int-search-turn-on.jpg" alt-text="Screenshot of enabling the Integrated Search API trigger flow." lightbox="media/int-search-turn-on.jpg":::
+
+## Add integrated search providers
 
 1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
 1. On the **Knowledge** page, in the **Integrated search providers** section, select **Manage**.
@@ -65,14 +66,16 @@ Dataverse data ingestion works with static websites only. Websites that return s
 1. In the **Authentication and testing** section:
 
     - **Root URL**: Enter the root URL of the search provider website, including the protocol.
-    - **Site map URL**: Enter the site map URL of the website. To get the site map URL, enter the root URL followed by `/robots.txt` in the address bar, and then search the file for "sitemapindex."<!-- EDITOR'S NOTE: I felt this needed a little more explanation. Is what I added correct? -->
+    - **Site map URL**: Enter the site map URL of the website. To get the site map URL, enter the root URL followed by `/robots.txt` in the address bar, and then search the file for "sitemapindex." For example, type https://www.contoso.com/robots.txt in the address bar.
 
         > [!NOTE]
         >
-        > - The site map that you provide must have the **lastmod** tag within the article **url** tag.<!-- EDITOR'S NOTE: Please clarify this. -->
-        > - The site map and the site index files must have content-type as either application/xml or text/xml.<!-- EDITOR'S NOTE: You didn't mention a site index file before. Do you need to? Also, how can the admin determine the content-type? -->
+        > - The site map that you provide must have the **lastmod** tag within the article **url** tag.
+        > - The site map and the site index files must have content-type as either application/xml or text/xml.
+        > - You must provide static websites only for data ingestion. Websites that return scripts to load content aren't supported for data ingestion.
+        > - A unique combination of root URL, site map URL, and language filters only are allowed.
 
-    - **Language filter for ingestion**: Select the languages you want to map for the ingestion. Select **Reset** to clear your selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.<!-- EDITOR'S NOTE: Is there a word missing in "mapping for language code"? -->
+    - **Language filter for ingestion**: Select the languages you want to map for the ingestion. Select **Reset** to clear your selection. By default, all languages are considered for ingestion. If you apply language filters, you must maintain the mapping for language code.
 
 1. Select **Next**.
 
@@ -95,7 +98,7 @@ Dataverse data ingestion works with static websites only. Websites that return s
 
     The new search provider appears on the **Knowledge** > **All integrated search providers** page. Its status is **Inactive** with status reason **Validated**.  
 
-    If you don't have some of the information, select **Save as draft**. The status is **Inactive** with status reason **Draft**.
+    If you need to add further information, select **Save as draft**. The status is **Inactive** with status reason **Draft**.
 
 ## Run ingestion for search providers
 
@@ -159,7 +162,7 @@ When you deactivate a search provider, ingestion of new and updated articles fro
 Configure search providers as filters to search knowledge articles only from selected data providers. The filter works only if you have Dataverse Search enabled.
 
 > [!NOTE]
-> If you have a custom layer on the Knowledge Articles Quick Find view, add `msdyn_integratedsearchproviderid` in **View columns** and **Find columns** to make articles stop appearing in search results.
+> If you have a custom layer on the Knowledge Articles Quick Find view, add `msdyn_integratedsearchproviderid` in **View columns** and **Find columns** to stop articles from appearing in search results.
 
 1. In the Customer Service admin center, under **Experiences**, select **Knowledge**.
 1. In the **Filters** section, make sure that **Enable search filters** is set to **Yes**.
