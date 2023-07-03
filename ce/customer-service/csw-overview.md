@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 05/03/2023
+ms.date: 06/27/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -26,9 +26,7 @@ For more information about licensing and system requirements, see [Customer Serv
 
 You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
-
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
-
 
 ## Customer Service workspace sessions and tabs
 
@@ -51,12 +49,11 @@ Agents can work on up to nine sessions and within a session, they can open up to
 | Open a view from the Sitemap | View opens in a new tab in the focused session |
 | Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
 
-
 ### Use the Inbox
 
 If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
 More information: [Configure the inbox view](configure-inbox.md)
 
@@ -96,7 +93,7 @@ Here are a few things to note when you use Customer Service workspace in your or
 The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
      - Sub grid controls don't retain the filter or sort conditions.
-     - Web resources, form components, and third-party websites don't retain the state of the page.
+     - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
 - Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout

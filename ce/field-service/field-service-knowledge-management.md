@@ -1,10 +1,11 @@
 ---
-title: Share information through knowledge articles (contains video)
+title: Share information through knowledge articles
 description: Learn about knowledge management and knowledge articles in Dynamics 365 Field Service.
-ms.date: 03/18/2023
+ms.date: 06/09/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ms.custom: bap-template
 ---
 
 # Share information through knowledge articles
@@ -14,8 +15,6 @@ When technicians in the field work on assigned jobs, they need access to relevan
 Knowledge management in Dynamics 365 Field Service associates relevant knowledge articles with work orders, incidents, products, and customer assets.
 
 Access to knowledge articles help improve the fix rate and guide technicians through procedures.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxBzW]
 
 ## Create knowledge articles
 
@@ -54,11 +53,9 @@ Create relationships between knowledge articles and other records, like incident
 > [!TIP]
 > You can also link knowledge articles without configured relationship to incidents, assets, or products. On a target record, go to the **Linked Articles** tab and select **New Linked Article**.
 
-## View work order and knowledge articles on the mobile app
+## Next steps
 
-Technicians find the knowledge articles on work orders in the Field Service mobile app.  Knowledge articles are available while the device has internet connectivity. They aren't available while in the [offline mode](mobile-power-app-system-offline.md).
-
-> [!div class="mx-imgBorder"]
-> ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
+- [Create a work order](create-work-order.md)
+- [Create work order templates with incident types](configure-incident-types.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

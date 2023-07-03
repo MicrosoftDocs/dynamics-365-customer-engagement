@@ -282,6 +282,8 @@
       href: overview-cases.md
     - name: Administrator experience
       items: 
+      - name: Define status reason transitions for case management
+        href: define-status-reason-transitions-case-management.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
       - name: View similar case suggestions
@@ -916,8 +918,10 @@
         href: copilot-powerapps-settings.md
       - name: Use copilot features
         href: use-copilot-features.md
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md  
       - name: Copilot data movement across geographies
-        href: copilot-data-movement.md  
+        href: copilot-data-movement.md
     - name: Administrator experience
       items:
       - name: Productivity pane
@@ -974,6 +978,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Manage your bots
+        href: manage-your-bots.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
       - name: Configure Azure bots
@@ -1176,6 +1182,8 @@
         href: set-when-business-closed-csh.md
       - name: Schedule entities
         items: 
+        - name: Create an entity for scheduling
+          href: entity-schedule-enable.md
         - name: Create bookable resources
           href: resources-service-scheduling.md
         - name: Add facilities and equipment
@@ -1273,6 +1281,9 @@
   - name: Migration solutions
     items: 
     - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      items:
+      - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
+        href: enable-oc-disable-csw.md
       href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
