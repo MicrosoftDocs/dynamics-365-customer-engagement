@@ -1,20 +1,19 @@
 ---
-title: Set up Microsoft Teams for conversation intelligence
-description: Learn how to set up conversation intelligence with Microsoft Teams in Dynamics 365 Sales.
-ms.date: 05/15/2023
+title: Set up conversation intelligence
+description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
+ms.date: 07/03/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
-ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Set up Microsoft Teams for conversation intelligence
+# Set up conversation intelligence
 
-Using Teams together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with Teams allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
+Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
-As an administrator, you can configure conversation intelligence with Microsoft Teams in your sales app. Enable Microsoft Teams call recording for conversation intelligence, select storage, grant app permissions, and define organization-level tracked keywords and competitors. After that, you can [configure sales team-level settings](configure-sales-team-level-settings.md).
+As an administrator, configure conversation intelligence for the dialer that your sellers use.  
 
 If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. Your sellers will get three hours of conversation intelligence per month.
 
@@ -27,36 +26,41 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Prerequisites
+## Prerequisites for Microsoft Teams
 
-- Your organization has a Microsoft Teams Phone System installed and a valid license to use it. [Set up your phone system](/microsoftteams/setting-up-your-phone-system).
-- You have a license to use Teams. [Learn more about Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
+- An installation of Microsoft Teams Phone System along with a valid license to use it. [Set up your phone system](/microsoftteams/setting-up-your-phone-system).
+- A license to use Teams. [Learn more about Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
 
-## Enable calling with Teams
+- [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
 
-Before you configure Teams with conversation intelligence, you must [enable and configure the Teams dialer for your organization](/dynamics365/sales-enterprise/configure-microsoft-teams-dialer).
+## Prerequisites for third-party dialers
 
-<a name="teams-tenant-admin-contact"></a>
-A Teams administrator must set up the phone system and Teams for your organization.
+- A valid license and subscription to use the third-party dialers. Refer to your telephony provider's documentation to set up the phone system and dialer.
 
-### Configure Microsoft Teams call recording
+- [Integrate the third-party dialer with Dynamics 365 Sales](ci-third-party-sp-integration.md).  
+
+## Configure call providers and conversation intelligence
 
 1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
-1. Under **Productivity**, select **Conversation intelligence** to open the **Microsoft Teams call recordings** page.
+1. Under **Productivity**, select **Conversation intelligence**.
+1. In the **Call providers and recording** section, select your call provider. For example, select **Teams** to configure conversation intelligence for your Teams calls.
 
-    :::image type="content" source="media/ci-admin-enable-teams-preview.png" alt-text="Screenshot of the Microsoft Teams call recordings page in Sales Insights settings.":::
+    > [!NOTE]
+    > This section lists only those providers that are configured and integrated. If you don't see your provider listed, verify the prerequisites listed in this article.  
 
-1. Turn on **Microsoft Teams call recordings**, and then configure the other settings as described in the following table.
+    :::image type="content" source="media/ci-call-providers.png" alt-text="Screenshot of the call providers and recording page in Conversation intelligence settings.":::
+
+1. In the **New recording policy** pane, specify a unique name for the policy. 
+1. Configure the other settings as described in the following table.
 
     | Option | Description |
     |--------|-------------|
-    | Enable recording for | Specifies the security roles that have permission to record calls placed using the Teams dialer. By default, this permission is granted to all security roles in your organization. To allow only specific roles to record calls, select **Specific security roles**, and then use the lookup to select the roles.<br>**Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul><br>**Note:**<br><ul><li>Make sure that the users who need to record calls are [assigned to the selected security roles](/power-platform/admin/assign-security-roles).</li><li>Make sure that the selected security roles [have read privileges](/power-platform/admin/security-roles-privileges) to **Recording** records.</li></ul> |
-    | Call recording options | Select an option for initiating call recordings:<br><ul><li>**Manual recording**: Select this option to allow sellers to manually start or stop the recording when they place a call. Select **Automatically start recording the sellers** to record sellers automatically when a call begins. Sellers can start or stop recording the customer at any time.</li><li>**Automatic recording**: Select this option to automatically record calls. Select **Allow sellers to manually stop recording** to allow sellers to stop the recording at any time.</li></ul> |
-    | Recording notification for customers | Select this option to notify customers when call recording starts. |  
+    |Recording options | Select an option for initiating call recordings:<br><ul><li>**Manually record all participants**: Select this option to allow sellers to manually start the recording when a call begins and record all participants.</li> <li>**Manually record all participants, sellers are automatically recorded**: Select this option to record sellers automatically when a call begins. Sellers can start or stop recording the customer at any time.</li><li>**Automatically record all participants**: Select this option to automatically record all the participants in the call.</li> <li>**Automatically record all participants, sellers can stop recording**: Select this option to automatically record all the participants in the call. Sellers can stop the recording at any time.</li></ul> |  
+    | Enable recording policy for | Specifies the security roles that the policy is applicable for. Make sure that the selected security roles [have read privileges](/power-platform/admin/security-roles-privileges) to **Recording** records. <br>**Tips:**<br><ul><li>To implement the feature for your entire organization, select all security roles.</li><li>For a phased implementation, create different security roles for each group of users and then [assign the security role](/power-platform/admin/assign-security-roles) accordingly.</li></ul>|
 
     >[!NOTE]
-    > Unless this is the first time you're setting up conversation intelligence for Teams, the remaining steps are optional. You can complete them now or later as needed.
+    > The remaining steps are optional. You can complete them now or later as needed.
 
 1. (Optional) Under **Call recording storage**, configure the storage-related options as described in the following table.
 
@@ -114,6 +118,10 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
 
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
+
+## Next steps
+
+[configure sales team-level settings](configure-sales-team-level-settings.md)
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
