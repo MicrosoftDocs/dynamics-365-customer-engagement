@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 02/28/2023
+ms.date: 07/03/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -227,6 +227,7 @@ After deploying real-time marketing features, several service users are created.
 ### Real-time marketing service user roles
 | Real-time marketing service role | Marketing area |
 | ---- | ------- |
+| Cxp Content Composition Services | Library |
 | Cxp Channel Definitions Services User | Custom channel |
 | Cxp Consent Services User | Consent management |
 | Cxp CDP-A Export Services User | Analytics |
