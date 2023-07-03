@@ -64,8 +64,8 @@ You can search the knowledge base directly, without viewing a case or conversati
 1. Enter a keyword in the search box.
 
     :::image type="content" source="media/search-kb-article.png" alt-text="Screenshot of knowledge search in Customer Service Hub.":::
-Legend:
 
+Legend:
 1. The search box
 1. Status and visibility tags
 1. The number of attachments, likes, and views, and the date the article was most recently updated
