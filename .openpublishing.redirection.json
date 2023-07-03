@@ -24380,6 +24380,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/configure-conversation-intelligence-call-data.md",
+      "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/customize-views.md",
       "redirect_url": "/dynamics365/sales/customize-views",
       "redirect_document_id": "false"
