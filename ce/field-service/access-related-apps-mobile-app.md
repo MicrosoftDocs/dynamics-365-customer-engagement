@@ -25,7 +25,7 @@ Live charts for IoT data from an IoT device, customer asset, or IoT alert record
 
 ### [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply navigate to the app menu and follow the same steps as the **Unified Interface app**.
 
 --- 
 
@@ -40,13 +40,28 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 
 ### [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply navigate to the app menu and follow the same steps as the **Unified Interface app**.
 
 --- 
 
-## Guides 2D 
+## Guides 2D
 
+### [Unified Interface app](#tab/vCurrent)
 
-<!--- Content here  -->
+This feature is only available in **Public Preview**.
+
+### [Public Preview app](#tab/vNext)
+
+If your organization has enabled your account to access Guides 2D, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides 2D library, search for specific Guides, and follow them step by step.
+
+> [!div class="mx-imgBorder"]
+> Screenshot (Guides 2D home page)
+
+If a **Service Task** within a **Work Order** has been created with a Guides 2D attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
+
+> [!div class="mx-imgBorder"]
+> Screenshot (Guides 2D Service Tasks)
+
+---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
