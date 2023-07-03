@@ -30,8 +30,10 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [Public Preview app](#tab/vNext)
 
-Select a booking to see more details about the booking time and the work order. Update the status to indicate you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map to launch turn-by-turn driving directions on your preferred maps app.
-<!--- Content here  -->
+It is possible to change the status of the booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
+
+> [!div class="mx-imgBorder"]
+Screenshot
 
 ---
 
@@ -46,7 +48,10 @@ On the **Service tab**, you see work order details like work order service tasks
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+Once ready to perform the work, simply access the booking details view, by tapping on the booking tile on the booking home page. You will see three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
+
+> [!div class="mx-imgBorder"]
+> Screenshot
 
 ---
 
