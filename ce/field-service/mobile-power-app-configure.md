@@ -13,9 +13,6 @@ ms.author: andreo
 
 # Edit Sitemap entities (tables) on the home screen
 
-This document describes how to manage the Field Service Mobile app navigation menu. To see how it looks in the app please refer to [this doc](download-get-started-mobile-app.md#navigate-the-app)
-
-
 Sign in to Dynamics 365 as a system administrator.
 
 To see your list of apps, go to:
