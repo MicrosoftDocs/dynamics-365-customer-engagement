@@ -10,14 +10,29 @@ ms.author: andreo
 
 # Field Service (Dynamics 365) mobile app Public Preview
 
-The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
+## Public Preview availability
+In July 2023, we’re introducing the public preview of a **new Dynamics 365 Field Service mobile experience for frontline technicians** to swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures and controls to streamline managing work order Tasks, Services, and Products. 
 
-<!-- Maybe adding an overview video might be useful... -->
+From changing the status of a booking with a quick swipe to accessing driving directions to a customer site with one tap, the redesign saves valuable technician time for daily work. Technicians can not only easily pick, change, or complete work order details, but also add notes with multiple inline images. 
+
+In addition, to help improve first-time fix rates, **Dynamics 365 Guides in 2D mode** can now be embedded for step-by-step instructions with pictures and branching flow.  
+
+> [Add link to this video](https://microsoft-my.sharepoint.com/:v:/p/marewa/EaKlFvr-Pt1BiLOJiy0ylM8Bv1AaRnCv-vCt0-JfZJQEvA?e=ATavzi)
 
 ## Public Preview content in the docs
-Explain how to find the public preview content in the docs (tabs)
+Once enabled by your administrator, the Public Preview features are accessible directly in the GA app, you don't need to download a different app. To learn more about these new features you can navigate these docs and find the specific Public Preview content alongside the current content in dedicated tabs.
 
-## Guides?
+> [!div class="mx-imgBorder"]
+> Screenshot of tabs?
+
+Here's a list of documents that contain specific Public Preview content.
+
+| Document | 
+| --- | 
+| [Download the mobile app and get started)](download-get-started-mobile-app.md)) | 
+| [Complete work orders on the mobile app](get-work-done-mobile-app.md) |
+| [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md) |
+
 
 ## Enabling the Public Preview features (admin)
 
