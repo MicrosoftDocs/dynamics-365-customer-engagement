@@ -33,7 +33,7 @@ The functional location field on the work order tells the technician exactly whe
 It is possible to change the status of the booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
 
 > [!div class="mx-imgBorder"]
-Screenshot
+> ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-public-preview-traveling.png)
 
 ---
 
@@ -51,7 +51,7 @@ On the **Service tab**, you see work order details like work order service tasks
 Once ready to perform the work, simply access the booking details view, by tapping on the booking tile on the booking home page. You will see three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
 
 > [!div class="mx-imgBorder"]
-> Screenshot
+> ![Screenshot of performing work in the Field Service Mobile app. Tasks, products and services.](./media/mobile-public-preview-work.png)
 
 ---
 
@@ -74,7 +74,7 @@ The **Timeline** tab is available for other historical data related to the booki
 In Public Preview you take notes directly in the **Timeline** tab. Simply tap on the **+* Add note** button and add text and/or images to your note. 
 
 > [!div class="mx-imgBorder"]
-> Screenshot
+> ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-public-preview-notes.png)
 
 > [!NOTE]
 > The control currently supports only text and images. More media formats will be supported in subsequent versions.
