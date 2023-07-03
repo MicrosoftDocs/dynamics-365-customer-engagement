@@ -29,23 +29,29 @@ Here's a list of documents that contain specific Public Preview content.
 
 | Document | 
 | --- | 
-| [Download the mobile app and get started)](download-get-started-mobile-app.md)) | 
+| [Download the mobile app and get started)](download-get-started-mobile-app.md) | 
 | [Complete work orders on the mobile app](get-work-done-mobile-app.md) |
 | [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md) |
 
-
 ## Enabling the Public Preview features (admin)
+To enable the Field Service Mobile Public Preview features for your organization's technicians, you need to log in as an administrator to Dynamics 365 and then select the **Field Service Mobile** app from the list of all installed apps in your organizations.
 
-## Known limitations
-- offline
-- customizations
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service Mobile app tile in the list of Dynamics 365 apps on the web](./media/mobile-public-preview-enable-list.png)
 
-## Public Preview FAQ
+Once the Filed Service Mobile app screen loads, click on the bottom left menu and select **Settings**. Finally use the toggle to enable or disable the Public Preview features for all users within the organization.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the Public Preview features](./media/mobile-public-preview-enable-toggle.png)
+
+## Public Preview features limitations
+The public preview features currently have the following limitations:
+- Offline is not supported. In order to properly experience the new Public Preview features, please disable the offline profile.
+- Customizations are not supported. All customizations are currenlty not supported and will not work in Public Preview.
+- Language. The new Public Preview features respect the mobile device language settings, while the current app respects the language settings in the user profile. This might cause a mixed language experience if the two settings are out of sync.
 
 ## Next steps
 
 - [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
-- [Set up offline data and sync filters](mobile-power-app-system-offline.md)
-- [Field Service (Dynamics 365) app for Windows 10+ devices](mobile-powerapp-windows.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
