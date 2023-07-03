@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/02/2023
+ms.date: 07/03/2023
 ms.custom: bap-template
 ---
 
@@ -21,7 +21,7 @@ The search provider may have been configured incorrectly.
 
 ### Resolution
 
-1. Make sure the provider's root URL and sitemap URL are correct. Browse to the URLs to confirm they're valid addresses.
+1. Make sure the provider's root URL and sitemap URL are correct. Browse through the URLs to confirm they're valid addresses.
 
 1. Make sure the **External Reference Id** field is mapped to a unique field in the source property. The ID is expected to be unique. Mapping this field to nonunique fields in the source will cause issues when articles are ingested.
 

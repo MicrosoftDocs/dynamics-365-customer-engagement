@@ -6,12 +6,11 @@ ms.author: sdas
 ms.reviewer: shujoshi 
 ms.service: dynamics-365
 ms.topic: how-to 
-ms.date: 05/02/2023
+ms.date: 07/03/2023
 ms.custom: bap-template 
 ---
 
 # View and use insights for search providers
-<!-- EDITOR'S NOTE: A screenshot of the Insights tab would be helpful here. -->
 
 After you add search providers to Customer Service, you can use the **Insights** tab in the Customer Service admin center to monitor ingestion. The tab displays the following details for the search provider: **Ingestion ID**, **Status**, **Crawl failures**, **Recognized**, **Created**, **Updated**, and **Failed**.
 

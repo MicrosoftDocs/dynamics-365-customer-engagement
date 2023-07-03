@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 06/27/2023
+ms.date: 07/03/2023
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,7 @@ To start, select an option in the **Knowledge article schema** section:
 
 ## Field mapping
 
-With field mapping, you map a knowledge article received from the search provider (the source) to an attribute of the knowledge article entity (the target), based on an operation type.
+With field mapping, you map a knowledge article received from the search provider (the source property) to an attribute of the knowledge article entity (the target), based on an operation type. You need to use an operation type and then select the source property for the mapping.
 
 Article attributes are the knowledge article target field values. Operation types are the mapping patterns that map the source article to the article attributes of the knowledge article entity. More information: [Operation type mapping options](#operation-type-mapping-options). Source Property is the value that you define for each operation type. For example, if you select the **Direct** operation type, you'll have to select from the previously selected meta tags or the **HTML-Title** or **HTML-Body** tags.
 
@@ -35,7 +35,7 @@ Article attributes are the knowledge article target field values. Operation type
 
     The meta tags you select here become attributes you can select as source properties in the **Mapping** section. If you don't select any, only the default source properties **HTML-Title** and **HTML-Body** are available to map.
 
-1. To go on to the **Mapping** section, select **Next**. If you want to stop and come back to this point later, select **Save as draft**.
+1. To go to the **Mapping** section, select **Next**. If you want to stop and come back to this point later, select **Save as draft**.
 1. In the **Mapping** section, the mandatory knowledge article attributes are **External Reference Id**, **Title**, and **Content**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
 
     Make sure the **External Reference Id** value is unique.
@@ -82,7 +82,7 @@ Article attributes are the knowledge article target field values. Operation type
 
 - **Constant**: Enter a constant value in any knowledge article field. The source property is a text field where you can enter the constant value.
 
-- **RegexUrl**: Like Regex, but looks for matches in the URL of the source website only.
+- **RegexUrl**: Like Regex, but looks for matches in the URL of the source website only. To map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
 
 ## Next steps
 
