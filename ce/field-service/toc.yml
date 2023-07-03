@@ -484,6 +484,13 @@ items:
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
 
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: transparency-note.md
+    - name: Transparency note for work order recap
+      href: transparency-note-work-order-recap.md
+
 - name: More resources
   items:
     - name: Video library
