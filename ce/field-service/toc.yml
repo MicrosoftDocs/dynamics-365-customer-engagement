@@ -86,10 +86,12 @@ items:
       href: work-order-resolutions.md
     - name: Knowledge articles
       href: field-service-knowledge-management.md
+
 - name: Copilot in Field Service
   items: 
     - name: Work order recap with Copilot
       href: work-order-recap.md
+
 - name: Work orders
   items:
     - name: Work order process overview
