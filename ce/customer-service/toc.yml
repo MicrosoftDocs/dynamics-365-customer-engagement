@@ -918,8 +918,10 @@
         href: copilot-powerapps-settings.md
       - name: Use copilot features
         href: use-copilot-features.md
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md  
       - name: Copilot data movement across geographies
-        href: copilot-data-movement.md  
+        href: copilot-data-movement.md
     - name: Administrator experience
       items:
       - name: Productivity pane
@@ -1180,6 +1182,8 @@
         href: set-when-business-closed-csh.md
       - name: Schedule entities
         items: 
+        - name: Create an entity for scheduling
+          href: entity-schedule-enable.md
         - name: Create bookable resources
           href: resources-service-scheduling.md
         - name: Add facilities and equipment
@@ -1277,6 +1281,9 @@
   - name: Migration solutions
     items: 
     - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      items:
+      - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
+        href: enable-oc-disable-csw.md
       href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
