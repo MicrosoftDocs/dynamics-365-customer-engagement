@@ -66,7 +66,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
     | Option | Description |
     |--------|-------------|
-    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your [custom Azure storage](create-azure-repo.md). You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage connection string** and **Container name**. <br> </li></ul>|
+    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your [custom Azure storage](create-azure-repo.md). You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage connection string** and **Container name** of your Azure storage. <br> </li></ul>|
     | Retention policy | Select how long to retain call recording data. The application deletes the data when it reaches the time limit. [Learn more about data retention and access](data-retention-deletion-policy.md).<br>For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires a longer retention period, you'll need to use your own storage. |
 
     :::image type="content" source="media/ci-admin-teams-choose-storage-retention-policy.png" alt-text="Screenshot of call recording storage settings.":::
@@ -93,7 +93,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
 
-## Hide personal data (preview)
+### Hide personal data (preview)
 
 To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app.md#call-transcript-and-translation). 
 
@@ -107,7 +107,7 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 
 
-#### Enable call categorization for short calls (preview)
+### Enable call categorization for short calls (preview)
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -131,7 +131,3 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
-
