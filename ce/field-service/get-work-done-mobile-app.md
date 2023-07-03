@@ -71,7 +71,14 @@ The **Timeline** tab is available for other historical data related to the booki
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+In Public Preview you take notes directly in the **Timeline** tab. Simply tap on the **+* Add note** button and add text and/or images to your note. 
+
+> [!div class="mx-imgBorder"]
+> Screenshot
+
+> [!NOTE]
+> The control currently supports only text and images. More media formats will be supported in subsequent versions.
+> Notes in the Timeline are associated with the current booking and cannot currently be viewed at the Work Order level.
 
 ---
 
@@ -90,7 +97,7 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply navigate to the app menu and follow the same steps as the [Unified Interface app](&tabs=vCurrent#service-assets).
 
 ---
 
@@ -107,7 +114,7 @@ For more information, see the article on [configuring global search](mobile-powe
 
 ## [Public Preview app](#tab/vNext)
 
-<!--- Content here  -->
+To reach this functionality simply tap on the top search icon in the booking home page, then follow the same steps as the [Unified Interface app](&tabs=vCurrent#barcode-scanning).
 
 ---
 
