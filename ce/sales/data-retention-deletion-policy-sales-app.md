@@ -1,7 +1,7 @@
 ---
 title: Data retention and deletion policy for conversation intelligence (Sales app)
 description: Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence.
-ms.date: 05/16/2023
+ms.date: 06/29/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -27,9 +27,10 @@ When you configure conversation intelligence, sales call recordings of sellers a
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
 3.    In the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration home page](media/ci-admin-config-page.png "Conversation intelligence configuration home page")
-4.    On the **Settings** page, select the sections as required:    
+
+        > [!div class="mx-imgBorder"]
+        > ![Conversation intelligence configuration home page](media/ci-admin-config-page.png "Conversation intelligence configuration home page")
+1.    On the **Settings** page, select the sections as required:    
     - Select the **Call recording storage** section to configure [data retention policy](#call-recording-storage) for your organization.
     - Select the **Data consent and privacy** section to configure [data consent and privacy](#data-consent-and-privacy) for your organization.  
     
@@ -41,7 +42,7 @@ Choose the storage option as described in the following table:
 
 | Option | Description |
 |--------|-------------|
-| Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option if you want to use the storage provided by Microsoft. By default, this option is selected, and we recommend that you use this storage.</li><li>**Your own Azure storage**: Select this option if you want to use your custom Azure storage. After you select this option, enter the **Storage connection string** and **Container name**.</li></ul>More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md). |
+| Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option if you want to use the storage provided by Microsoft. By default, this option is selected, and we recommend that you use this storage.</li><li>**Your own Azure storage**: Select this option if you want to use your [custom Azure storage](create-azure-repo.md). After you select this option, enter the **Storage connection string** and **Container name**. </li></ul> |
 | Retention policy | Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. <li> For **Microsoft provided storage**, the available retention periods are 30 days and 90 days. </li> <li> For **Your own Azure storage**, the retention period is available from 30 days until 10 years. Use this storage type if your organization requires longer retention periods. | 
 
 > [!div class="mx-imgBorder"]

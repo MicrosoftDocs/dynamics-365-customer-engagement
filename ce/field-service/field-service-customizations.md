@@ -39,3 +39,14 @@ Field Service introduces controls that are only intended to be used as-is on the
 Refrain from using the following controls in customization scenarios:
 
 - MultiselectLookupControl
+- msdyn_postponegenerationuntil
+- It's intended for internal use only. Manipulating values in this field or taking dependencies on it is not supported and can lead to unexpected system behavior. This field is found in the following entities:
+  - Agreement Booking Setup (msdyn_agreementbookingsetup)
+  - Agreement Booking Date (msdyn_agreementbookingdate)
+  - Agreement Invoice Setup (msdyn_agreementinvoicesetup)
+  - Agreement Invoice Date (msdyn_agreementinvoicedate)
+  - Order Invoicing Setup (msdyn_orderinvoicingsetup)
+  - Order Invoicing Setup Date (msdyn_orderinvoicingsetupdate)
+  - Order Invoicing Date (msdyn_orderinvoicingdate)
+  - Incident Types Setup (msdyn_incidenttypessetup)
+  - Quote Booking Setup (msdyn_quotebookingsetup)
