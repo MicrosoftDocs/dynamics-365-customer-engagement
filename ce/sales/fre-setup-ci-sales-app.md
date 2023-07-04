@@ -39,12 +39,15 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 - [Integrate the third-party dialer with Dynamics 365 Sales](ci-third-party-sp-integration.md).  
 
-## Configure call providers and conversation intelligence
+## Create or edit a recording policy
+
+Recording policies define the call provider and the associated security roles and recording options. You can create multiple recording policies and assign them to different security roles. For example, you can create a recording policy for your sales managers that allows them to record calls automatically and another one for your sales representatives that allows them to record calls manually. If your sellers use multiple call providers, you can create a recording policy for each provider.
 
 1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
 1. Under **Productivity**, select **Conversation intelligence**.
-1. In the **Call providers and recording** section, select your call provider. For example, select **Teams** to configure conversation intelligence for your Teams calls.
+
+1. In the **Call providers and recording** section, select your call provider. For example, select **Teams** to create a recording policy for your Teams calls. To edit an existing policy, select the policy from the **Recording policies** table in this section.
 
     > [!NOTE]
     > This section lists only those providers that are configured and integrated. If you don't see your provider listed, verify the prerequisites listed in this article.  
@@ -52,24 +55,25 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
     :::image type="content" source="media/ci-call-providers.png" alt-text="Screenshot of the call providers and recording page in Conversation intelligence settings.":::
 
 1. In the **New recording policy** pane, specify a unique name for the policy. 
-1. Configure the other settings as described in the following table.
+1. Configure the security roles and recording options as described in the following table.
 
     | Option | Description |
     |--------|-------------|
     |Recording options | Select an option for initiating call recordings:<br><ul><li>**Manually record all participants**: Select this option to allow sellers to manually start the recording when a call begins and record all participants.</li> <li>**Manually record all participants, sellers are automatically recorded**: Select this option to record sellers automatically when a call begins. Sellers can start or stop recording the customer at any time.</li><li>**Automatically record all participants**: Select this option to automatically record all the participants in the call.</li> <li>**Automatically record all participants, sellers can stop recording**: Select this option to automatically record all the participants in the call. Sellers can stop the recording at any time.</li></ul> |  
     | Enable recording policy for | Specifies the security roles that the policy is applicable for. Make sure that the selected security roles [have read privileges](/power-platform/admin/security-roles-privileges) to **Recording** records. <br>**Tips:**<br><ul><li>To implement the feature for your entire organization, select all security roles.</li><li>For a phased implementation, create different security roles for each group of users and then [assign the security role](/power-platform/admin/assign-security-roles) accordingly.</li></ul>|
 
-    >[!NOTE]
-    > The remaining steps are optional. You can complete them now or later as needed.
+1. Save the changes. If you're configuring conversation intelligence for the first time, continue with the next section to configure the conversation intelligence settings.
 
-1. (Optional) Under **Call recording storage**, configure the storage-related options as described in the following table.
+## Configure conversation intelligence settings
+
+Configure the settings to specify where your call recording data is stored, the retention period, and the keywords and competitors that you want to track during calls. 
+
+1. (Optional) In the **Call recording storage** section, configure the storage-related options as described in the following table.
 
     | Option | Description |
     |--------|-------------|
     | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your [custom Azure storage](create-azure-repo.md). You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage connection string** and **Container name** of your Azure storage. <br> </li></ul>|
     | Retention policy | Select how long to retain call recording data. The application deletes the data when it reaches the time limit. [Learn more about data retention and access](data-retention-deletion-policy.md).<br>For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires a longer retention period, you'll need to use your own storage. |
-
-    :::image type="content" source="media/ci-admin-teams-choose-storage-retention-policy.png" alt-text="Screenshot of call recording storage settings.":::
 
 1. Under **Business settings**, configure the following settings:
 
@@ -82,8 +86,6 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
     :::image type="content" source="media/ci-admin-conversation-trackers.png" alt-text="Screenshot of business settings.":::
 
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
-
-    :::image type="content" source="media/ci-admin-enable-privacy.png" alt-text="Screenshot of data consent settings.":::
 
 1. In the **License usage** section, you can view information about the total call recording processing hours that have been used and how many of your monthly hours remain.
 
@@ -104,7 +106,7 @@ To comply with Payment Card Industry regulations, organizations must protect per
 1. Follow steps 1 through 4 in the [Configure call providers and conversation intelligence](#configure-call-providers-and-conversation-intelligence) section to open the conversation intelligence settings.
 
 1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
-    :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option.":::
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features and the hide credit card info option.":::
 
 
 
@@ -118,7 +120,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
 
-    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features":::
+    :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features and call categorization options":::
 
 ## Next steps
 
