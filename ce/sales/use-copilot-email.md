@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot uses natural language processing (NLP) algorithms to assist in creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs.
+Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs.
 
 Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content.
 

@@ -26,20 +26,20 @@ Ensure that the Copilot email assist feature is enabled in your organization. Mo
 ## View the Copilot composer
 
 Copilot is available for lead and opportunity records with the Dynamics 365 email experience.  
-Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.png" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The composer will be inactive until you open the email.  
+Sign in to your sales app and the Copilot (:::image type="content" source="media/copilot-icon.png" alt-text="Image of the copilot icon.":::) icon appears on the upper-right corner of the page. The composer is inactive until you open the email.  
 Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot composer becomes active.  
 When opening an email from Timeline or quick create email activity, ensure that the Regarding field contains a lead or an opportunity.  
 
 ## Compose or replay an email
 
-When you are sending an email, you can provide the context for the email in the Copilot composer and a draft is generated. You can review the draft, copy the content to the email, and send it to recipients.  
+When you're sending an email, you can provide the context for the email in the Copilot composer, and a draft is generated. You can review the draft, copy the content to the email, and send it to recipients.  
 
 1.	On the **Copilot** pane, select **Describe the email you want**.  
 
     > [!NOTE]
     > When replying to an email, default options are available to generate a draft, including **Reply to an inquiry**, **Make a proposal**, and **Address a concern**. You can choose an option that suits your needs or draft a new email.
 
-1.	In the **Draft with Copilot** section, enter the statement for which you want to generate the draft email for. An example statement, Write an email to thank Kenny Smith for showing interest in Contoso 3D printers.
+1.	In the **Draft with Copilot** section, enter the statement for which you want to generate the draft email. An example statement, Write an email to thank Kenny Smith for showing interest in Contoso 3D printers.
 
     A draft is generated for the statement. Review the suggested content. 
 
