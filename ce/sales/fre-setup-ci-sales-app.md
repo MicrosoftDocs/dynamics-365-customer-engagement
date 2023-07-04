@@ -101,8 +101,9 @@ To comply with the Payment Card Industry (PCI) regulations, organizations must p
 
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
-- In step 9 above, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
+1. Follow steps 1 through 4 in the [Configure call providers and conversation intelligence](#configure-call-providers-and-conversation-intelligence) section to open the conversation intelligence settings.
 
+1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
     :::image type="content" source="media/hide-pii.png" alt-text="Screenshot of the hide personal data option.":::
 
 
@@ -113,7 +114,7 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
 
-1. Follow steps 1 through 4 in the [Configure Microsoft Teams call recording](#configure-microsoft-teams-call-recording) to open the Teams call recording options.
+1. Follow steps 1 through 4 in the [Configure call providers and conversation intelligence](#configure-call-providers-and-conversation-intelligence) section to open the conversation intelligence settings.
 
 1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
 
