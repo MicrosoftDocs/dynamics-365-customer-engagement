@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 03/14/2023
+ms.date: 07/04/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -35,10 +35,10 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.95.25
 (Includes Universal Resource Scheduling version [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) and Resource Scheduling controls version 1.2.48.231771).
 
-- Dynamics 365 Field Service Mobile: Fixed a bug which prevented updating status of a Work Order Product when the record is created from within the mobile application.
-- Fixed an accessibility bug within Inspection designer to correctly reflow the interrace under different resolutions.
-- Fixed an accessibility bug within Inspections designer to make “move” and “delete” buttons accessible via keyboard.
-- Fixed an accessibility bug within Inspections designer so narrator will announce when a field is marked as required. 
+- Fixed a bug in Dynamics 365 Field Service Mobile that prevented updating status of a work order product when the record is created from within the mobile application.
+- Fixed an accessibility bug in the inspection designer to correctly reflow the interface under different resolutions.
+- Fixed an accessibility bug in the inspection designer to make “move” and “delete” buttons accessible via keyboard.
+- Fixed an accessibility bug in the inspection designer so Narrator announces when a field is marked as required. 
 
 ## 8.8.94.28
 (Includes Universal Resource Scheduling version [3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072) and Resource Scheduling controls version 1.2.47.231641).
