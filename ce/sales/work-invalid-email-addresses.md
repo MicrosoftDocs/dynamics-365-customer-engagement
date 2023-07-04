@@ -15,6 +15,8 @@ ms.custom: bap-template
 
 Email validation in Dynamics 365 Sales identifies and removes non-working or invalid email addresses in your leads and contacts. This proactive validation helps you prioritize customers who have a valid email address, which in turn results in lower email bounce rates, improved engagement, and increased value for your time.
 
+As you enter the email address in the primary email field, the validation process starts automatically. If the email address is invalid, the envelope icon turns red and hover over the cursor on the envelop icon to view the reason for the invalidation. For more information on reasons for the invalidation, see [Understand email error message](#understand-email-error-messages).
+
 Email address validation looks for the following errors:
 
 - **Incorrect syntax**: An address that doesn't contain both a username and an email domain
