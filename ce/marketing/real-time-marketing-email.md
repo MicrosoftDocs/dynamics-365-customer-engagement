@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 04/04/2023
+ms.date: 07/04/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -66,9 +66,9 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Event and sessions registered**: The file contains information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file contains only the event sessions the contact has registered for.
 
-## Preview and test your email
+## Preview and test send your email
 
-Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member (for example, a Contact or Lead) record and preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
+Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member (for example, a Contact or Lead) record trigger data, and other personalization data to preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
 
 To see preview for a specific audience member:
 
@@ -79,8 +79,13 @@ To see preview for a specific audience member:
 > [!div class="mx-imgBorder"]
 > ![better preview and test](media/real-time-marketing-better-preview-and-test.png "better preview and test")
 
+To see preview of personalized content sourced from trigger, follow similar steps as above and select or enter data for the trigger. Here is an example where the email will be sent when business trigger “Incident is created” is raised and will include incident number and title (data that comes from the trigger)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of incident creation](media/real-time-marketing-incident-creation.png "Screenshot of incident creation")
+
 > [!NOTE]
-> For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look.
+> For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look. You can also override actual data that comes from the selected audience record or trigger – simply click on the “Enter manually” for the selected item and provide your own value. This is a quick and easy way to check for edge cases.
 
 You can send the preview email to yourself or another test email address to verify how the received email renders on different devices and different email apps. Preview emails automatically include “[Test]” in the subject header.
 
