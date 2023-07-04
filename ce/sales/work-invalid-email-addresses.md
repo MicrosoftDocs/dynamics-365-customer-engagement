@@ -1,7 +1,7 @@
 ---
 title: Work with invalid email addresses (preview)
 description: View and work with invalid email addresses for leads and contacts in Microsoft Dynamics 365 Sales.
-ms.date: 06/23/2023
+ms.date: 07/07/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
