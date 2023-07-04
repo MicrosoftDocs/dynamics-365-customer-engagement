@@ -25,7 +25,7 @@ Ensure that you have:
 
 - Conversation Intelligence installed and set up – [Learn more](fre-setup-ci-sales-app.md)
 
-- Dynamics 365 Channel Integration Framework 1.0 installed. [Learn more](/customer-service/channel-integration-framework/get-channel-integration-framework)
+- Dynamics 365 Channel Integration Framework 1.0 installed. [Learn more](customer-service/channel-integration-framework/get-channel-integration-framework)
 
 - A local Node JS environment set up
 
@@ -76,7 +76,7 @@ Enter the following values::
 
 1. Now, configure the widget to fork the stream using the SIPREC connector you defined earlier:
 
-    :::image type="content" source="media/fork-stream-widget2.png" alt-text="Screenshot of the Fork Stream widget.":::
+    :::image type="content" source="media/fork-stream-widget2.png" alt-text="Screenshot of the Fork Stream widget configuration.":::
 
 1. Enter the following values:
 

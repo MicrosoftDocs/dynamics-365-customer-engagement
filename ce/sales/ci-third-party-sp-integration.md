@@ -11,7 +11,7 @@ ms.author: lavanyakr
 
 # Integrate third-party dialers with Dynamics 365 conversation intelligence
 
-With this integration, Dynamics 365 users can use dialers provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app)  
+With this integration, Dynamics 365 users can use dialers provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app.md)  
 
 ## How the integration works
 
@@ -263,7 +263,7 @@ To allow conversation intelligence to provide real-time transcription and insigh
 
 - Call ended event: When conversation intelligence gets the "call ended" event, it will wrap up the call and show the **Full summary** button to get the AI-generated call summary and insights.
 
-To send the events, use the [raiseEvent](/customer-service/channel-integration-framework/reference/microsoft-ciframework/raiseevent) API in Dynamics 365 Channel Integration Framework (CIF).
+To send the events, use the [raiseEvent](customer-service/channel-integration-framework/reference/microsoft-ciframework/raiseevent) API in Dynamics 365 Channel Integration Framework (CIF).
 
 Here's a sample code snippet to send the events:
 
