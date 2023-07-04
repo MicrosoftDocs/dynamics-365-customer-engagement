@@ -25,7 +25,7 @@ Ensure that you have:
 
 - Conversation Intelligence installed and set up – [Learn more](fre-setup-ci-sales-app.md)
 
-- Dynamics 365 Channel Integration Framework 1.0 installed. [Learn more](../customer-service/channel-integration-framework/get-channel-integration-framework)
+- Dynamics 365 Channel Integration Framework 1.0 installed. [Learn more](/dynamics365/customer-service/channel-integration-framework/get-channel-integration-framework)
 
 - A local Node JS environment set up
 

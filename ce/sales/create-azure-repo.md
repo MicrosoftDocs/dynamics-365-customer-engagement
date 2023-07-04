@@ -31,4 +31,4 @@ Create a call recording repository (blob container) in an Azure storage account 
     > [!div class="mx-imgBorder"]
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")  
 
-Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-call-providers-and-conversation-intelligence). 
+Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  

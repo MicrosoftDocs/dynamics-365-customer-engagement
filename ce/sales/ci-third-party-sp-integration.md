@@ -263,7 +263,7 @@ To allow conversation intelligence to provide real-time transcription and insigh
 
 - Call ended event: When conversation intelligence gets the "call ended" event, it will wrap up the call and show the **Full summary** button to get the AI-generated call summary and insights.
 
-To send the events, use the [raiseEvent](../customer-service/channel-integration-framework/reference/microsoft-ciframework/raiseevent) API in Dynamics 365 Channel Integration Framework (CIF).
+To send the events, use the [raiseEvent](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/raiseevent) API in Dynamics 365 Channel Integration Framework (CIF).
 
 Here's a sample code snippet to send the events:
 

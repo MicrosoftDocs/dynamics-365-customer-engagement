@@ -39,13 +39,17 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 - [Integrate the third-party dialer with Dynamics 365 Sales](ci-third-party-sp-integration.md).  
 
-## Create or edit a recording policy
-
-Recording policies define the call provider, security roles, and recording options. You can create multiple recording policies and assign them to different security roles. For example, you can create a recording policy for your sales managers that allows them to record calls automatically and another one for your sales representatives that allows them to record calls manually. If your sellers use multiple call providers, you can create a recording policy for each provider.
+## Open the conversation intelligence settings page
 
 1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
 1. Under **Productivity**, select **Conversation intelligence**.
+
+## Create or edit a recording policy
+
+Recording policies define the call provider, security roles, and recording options. You can create multiple recording policies and assign them to different security roles. For example, you can create a recording policy for your sales managers that allows them to record calls automatically and another one for your sales representatives that allows them to record calls manually. If your sellers use multiple call providers, you can create a recording policy for each provider.
+
+1. [Open the **Conversation intelligence settings** page](#open-the-conversation-intelligence-settings-page).
 
 1. In the **Call providers and recording** section, select your call provider. For example, select **Teams** to create a recording policy for your Teams calls. To edit an existing policy, select the policy from the **Recording policies** table in this section.
 
@@ -68,7 +72,9 @@ Recording policies define the call provider, security roles, and recording optio
 
 Configure the settings to specify where your call recording data is stored, the retention period, and the keywords and competitors that you want to track during calls. 
 
-1. (Optional) In the **Call recording storage** section, configure the storage-related options as described in the following table.
+1. [Open the **Conversation intelligence settings** page](#open-the-conversation-intelligence-settings-page).
+
+1. In the **Call recording storage** section, configure the storage-related options as described in the following table.
 
     | Option | Description |
     |--------|-------------|
@@ -103,7 +109,7 @@ To comply with the Payment Card Industry (PCI) regulations, organizations must p
 
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
-1. Follow steps 1 through 4 in the [Configure call providers and conversation intelligence](#configure-call-providers-and-conversation-intelligence) section to open the conversation intelligence settings.
+1. [Open the **Conversation intelligence settings** page](#open-the-conversation-intelligence-settings-page).
 
 1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features and the hide credit card info option.":::
@@ -116,7 +122,7 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
 
-1. Follow steps 1 through 4 in the [Configure call providers and conversation intelligence](#configure-call-providers-and-conversation-intelligence) section to open the conversation intelligence settings.
+1. [Open the **Conversation intelligence settings** page](#open-the-conversation-intelligence-settings-page).
 
 1. Go to the **New and upcoming features** section, select **Call categorization (preview)**, select the type of calls you want the system to detect and tag.  
 
