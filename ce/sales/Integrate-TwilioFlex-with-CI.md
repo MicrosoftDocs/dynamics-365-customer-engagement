@@ -98,7 +98,7 @@ Enter the following values::
 
 2. Save the flow and publish.
 
-## Step 3: Configure a Twilio phone number
+## Step 4: Configure a Twilio phone number
 
 You need to point a Twilio phone number to your newly created Studio Flow.
 
@@ -110,7 +110,7 @@ You need to point a Twilio phone number to your newly created Studio Flow.
 
     :::image type="content" source="media/twilio-call-comes-in.png" alt-text="Screenshot of Twilio Call Comes in Fields.":::
 
-## Step 4: Configure Dynamics 365 for the integration
+## Step 5: Configure Dynamics 365 for the integration
 
 Let's set up Twilio as a call provider and configure a recording policy to define who can record calls, and other information used for conversation insights.
 
@@ -130,7 +130,7 @@ Let's set up Twilio as a call provider and configure a recording policy to defin
 
     2. Select **Create** and then publish the settings.
 
-## Step 5: Prepare Flex plugin to integrate the real-time experience
+## Step 6: Prepare Flex plugin to integrate the real-time experience
 
 Flex is a React project and customizations that you make to the UI are created as plugin components.
 
@@ -244,13 +244,13 @@ export default class SamplePlugin extends FlexPlugin {
 
 [Publish the plugin](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release). We now have a Flex plugin that is ready for us to test!
 
-## Step 6: Test Dynamics 365 conversation intelligence and Flex integration
+## Step 7: Test Dynamics 365 conversation intelligence and Flex integration
 
 Log into the Sales Hub app, select the **Call** icon. You'll see Twilio Flex embedded in the right pane.
 
 :::image type="content" source="media/embedded-twilio-dialer.png" alt-text="Screenshot of the embedded Twilio dialer in Sales Hub app.":::
 
-Make sure you've set your status as **Available** in Twilio and place a call to the Twilio Phone Number that you set up in the [Step 3: Configure a Twilio phone number](#step-3-configure-a-twilio-phone-number).
+Make sure you've set your status as **Available** in Twilio and place a call to the Twilio Phone Number that you set up in the [Step 4: Configure a Twilio phone number](#step-4-configure-a-twilio-phone-number).
 
 :::image type="content" source="media/twilio-call.png" alt-text="Screenshot of call notification on the embedded dialer":::
 

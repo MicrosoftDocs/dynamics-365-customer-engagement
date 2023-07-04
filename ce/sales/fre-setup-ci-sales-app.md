@@ -41,7 +41,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 
 ## Create or edit a recording policy
 
-Recording policies define the call provider and the associated security roles and recording options. You can create multiple recording policies and assign them to different security roles. For example, you can create a recording policy for your sales managers that allows them to record calls automatically and another one for your sales representatives that allows them to record calls manually. If your sellers use multiple call providers, you can create a recording policy for each provider.
+Recording policies define the call provider, security roles, and recording options. You can create multiple recording policies and assign them to different security roles. For example, you can create a recording policy for your sales managers that allows them to record calls automatically and another one for your sales representatives that allows them to record calls manually. If your sellers use multiple call providers, you can create a recording policy for each provider.
 
 1. Select **Change area** in the lower-left corner of the page, and then select **Sales Insights settings**.  
 
@@ -122,15 +122,13 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features and call categorization options":::
 
-## Next steps
-
-[configure sales team-level settings](configure-sales-team-level-settings.md)
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+- [Configure sales team-level settings](configure-sales-team-level-settings.md)  
+- [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
+- [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

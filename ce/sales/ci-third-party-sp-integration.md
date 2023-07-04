@@ -69,29 +69,29 @@ The following diagram illustrates how the integration works:
     - **SourceIPNetwork:** Specify the IP address of the SIPREC client. Specify "0.0.0.0" if you don't want to restrict the IP address.  
     The following snippet is an example of the request body:
  
-     ```java
-    
-    {
-        "orgId": "ad3dca46-962a-4895-9f85-d25f3828781f",
-        "Type": "custom",
-        "hosting": "cloud",
-        "displayName": "Test Custom Provider",
-        "AuthenticationDetails": 
+         ```java
+        
         {
-            "AccountId":"adxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
-            "CertificateSubjectName": "certSubject",
-            "CertificateIssuer": "issuer",
-            "SourceIPNetwork": "0.0.0.0"
+            "orgId": "ad3dca46-962a-4895-9f85-d25f3828781f",
+            "Type": "custom",
+            "hosting": "cloud",
+            "displayName": "Test Custom Provider",
+            "AuthenticationDetails": 
+            {
+                "AccountId":"adxxxxx-xxxx-xxxx-xxxx-xxxxxxxx",
+                "CertificateSubjectName": "certSubject",
+                "CertificateIssuer": "issuer",
+                "SourceIPNetwork": "0.0.0.0"
+            }
         }
-    }
-    ```
+        ```
  
 
     For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
  
     <<Editor's note: Need info about the parameters and where they can get it from. Also, the request body in swagger doc is different from the above.>>
 
-3. Call the following conversation intelligence API to get the list of users to record: 
+3. Call the following conversation intelligence API to get the list of users to record:  
     ```GET /api/v1.0/providers/users```
 
 After the Dynamics 365 Sales admin creates the recording policy, the provider can use this endpoint to filter the media that will be forked to conversation intelligence recorders.
