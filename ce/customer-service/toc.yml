@@ -1160,6 +1160,8 @@
           href: oob-data-models.md
         - name: Data model mapping for real-time analytics reports
           href: datamapping-realtime.md
+        - name: Dataverse entities for historical and real-time analytics
+          href: dataverse-entities.md
     - name: Customize analytics
       items: 
       - name: Customize KPIs for intraday insights
