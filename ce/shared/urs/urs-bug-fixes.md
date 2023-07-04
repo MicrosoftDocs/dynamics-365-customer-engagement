@@ -28,10 +28,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.98.5
 
-- The "Ignore Duration" filter option in the Schedule Assistant will now work correctly on the daily, weekly, and monthly views.
-- The zoom control on the schedule board will be maintained when switching between tabs.
-- When switching between tabs on the schedule board, resource filters will be reset correctly.
-- Search results in Schedule Assistant will be displayed and paged correctly when performing repeated searches.
+- The "Ignore Duration" filter option in the schedule assistant now works correctly on the daily, weekly, and monthly views.
+- The zoom control on the schedule board persists when switching between tabs.
+- When switching between tabs on the schedule board, resource filters reset correctly.
+- Search results in schedule assistant are paged correctly when performing repeated searches.
 
 
 ## 3.12.107.2
