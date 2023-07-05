@@ -50,7 +50,7 @@ Select **Settings** at the top.
 > [!div class="mx-imgBorder"]
 > ![The Power Platform admin center, on an environment, showing the settings option.](./media/offline-2020-ppac-settings.png)
 
-Go to **Users + permissions section** > **Mobile configuration**.
+Go to **Users + permissions section** > **Mobile configuration**. Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
 > [!div class="mx-imgBorder"]
 > ![The Power Platform admin center, showing the Mobile configuration option.](./media/offline-2020-ppac-mobile-configuration.png)

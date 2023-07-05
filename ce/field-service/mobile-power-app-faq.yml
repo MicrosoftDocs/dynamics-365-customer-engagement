@@ -56,20 +56,9 @@ sections:
       - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
-      - question: Do WebResources work in offline mode?
-        answer: |
-          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities#limitations)
-          For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
-      - question: Where can I find information on mobile app offline security and encryption?
-        answer: |
-          Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
       - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
         answer: |
           Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
-      - question: How can I debug offline JavaScript?
-        answer: |
-          You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
-
   
   - name: Sign in
     questions:     
