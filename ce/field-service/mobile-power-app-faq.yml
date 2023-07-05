@@ -49,12 +49,7 @@ sections:
           Currently, the **Get Directions** map button isn't configurable. It will only trigger the device's default map provider.   
   - name: Offline
     questions:
-      - question: Is there a maximum number of records supported by the offline profile?
-        answer: |
-          For optimal performance we recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
-          
-          In general, there’s no limit to the number of records that can be downloaded in offline mode, outside of the limitations of the physical device. Keep in mind that the sync duration will depend on the number and size of the records being synced, in addition to the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes data that's relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users. There's also no limit to the number of entities, custom or otherwise, that you can add to the mobile offline profile. However, we strongly recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
-          
+
       - question: Is there a way to choose the columns ("fields") that are downloaded as part of a mobile offline profile?
         answer: |
           Offline profiles are filtered at the row level, which adjusts the number of records that are downloaded. There's currently no way to filter by column.
