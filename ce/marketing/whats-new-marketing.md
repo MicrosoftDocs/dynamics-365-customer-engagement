@@ -66,7 +66,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 - **Confidently send emails after previewing trigger-based personalization**
     - Personalizing content is an effective strategy for boosting engagement but ensuring such personalized content is accurate for a variety of recipients can be a challenging task. We made this task easier in April 2023 release that added support for previewing emails using data from a selected audience record. This release extends this capability to include support for triggers. Now any personalization that uses data from any out of the box triggers can also be tested easily. Additionally, use can now enter values manually for selected personalization that override data from audience or trigger for easily testing edge cases.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/confidently-send-emails-after-previewing-using-sample-audience-data)
-    - [Docs](real-time-marketing-email.md#preview-and-test-your-email.md)
+    - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
 
 - **Easily include QR codes for event registration, link, page, or any custom text**
     - QR codes are widely used to share information that is easily actionable on mobile devices with just a simple scan. They are an effective tool for promoting and increasing engagement for various purposes like` events, web pages, coupons, and more. The Email designer already includes a feature that allows easy insertion of QR codes for commonly used targets such as events, URLs, surveys, and file downloads. Now, we have added two additional targets. The "Event registration code" target fills a gap in real-time functionality by supporting QR codes for event registration pages along with the registration code needed for check-in. The "Text" option enables you to generate a QR code for any text you type in. Additionally, you can make it dynamic by using personalized data like discount codes or loyalty program membership numbers.
@@ -465,7 +465,7 @@ Monthly enhancement includes an upgraded side pane for goals and exit criteria.
 
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 
-- [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
+- [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/blogs/post/?postid=d87eb0dd-1965-404a-830c-b7b14c8577f4)
 - [Level up customer journeys with advanced orchestration features in Dynamics 365 Marketing - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/03/level-up-customer-journeys-with-advanced-orchestration-features-in-dynamics-365-marketing/)
 - [Extend and optimize your customer outreach with custom channels - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/23/extend-and-optimize-your-customer-outreach-with-custom-channels/)
 
@@ -518,7 +518,7 @@ This month, the new real-time marketing segment builder is generally available. 
 
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 - [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
-- [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
+- [Real-Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/blogs/post/?postid=d87eb0dd-1965-404a-830c-b7b14c8577f4)
 - [Level up customer journeys with advanced orchestration features in Dynamics 365 Marketing - Dynamics 365 IT Pro Blogs](https://cloudblogs.microsoft.com/dynamics365/it/2023/02/03/level-up-customer-journeys-with-advanced-orchestration-features-in-dynamics-365-marketing/)
 
 ## January 2023 update
@@ -530,7 +530,7 @@ There is no Dynamics 365 Marketing release for January. We will be back in Febru
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 
 - [Boost event engagement with real-time journeys - Scenario docs](real-time-marketing-event-registration-journey.md)
-- [Real Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/real-time-marketing-using-conditional-content-within-your-emails)
+- [Real Time Marketing – Using Conditional Content within your emails! - Dynamics FastTrack Blogs](https://community.dynamics.com/blogs/post/?postid=d87eb0dd-1965-404a-830c-b7b14c8577f4)
 
 > [!Tip]
 > To read about updates from previous years, see the [What's new archive](whats-new-marketing-archive.md) article.
