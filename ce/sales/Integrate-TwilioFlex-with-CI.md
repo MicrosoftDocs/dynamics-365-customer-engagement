@@ -15,8 +15,6 @@ This integration lets your sellers make and receive Twilio Flex calls from Dynam
 
 ## Prerequisites
 
-Ensure that you have:
-
 - A Twilio account
 
 - A Twilio Flex account – see this [link](https://support.twilio.com/hc/en-us/articles/360020442333-Setup-a-Twilio-Flex-Project?_ga=2.214792279.1158585142.1650795950-56040474.1626257650) for more info on how to set up a Flex account
@@ -242,7 +240,8 @@ export default class SamplePlugin extends FlexPlugin {
 
 ```
 
-[Publish the plugin](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release). We now have a Flex plugin that is ready for us to test!
+[Publish the plugin](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).  
+We now have a Flex plugin that is ready for us to test!
 
 ## Step 7: Test Dynamics 365 conversation intelligence and Flex integration
 
