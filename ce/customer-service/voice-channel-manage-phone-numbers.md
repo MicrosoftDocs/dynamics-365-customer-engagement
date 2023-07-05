@@ -52,6 +52,9 @@ You'll see a list of all available phone numbers together with their carrier nam
 
 If you don't have any phone numbers set up for your business, see **Acquire new phone numbers** to learn how you can purchase new numbers.
 
+   > [!NOTE]
+   > An active phone number which belongs to an old environment shows up as inactive in the current environment. If your phone number is in inactive state, you must delete the number and add them again.
+
 ## Acquire new phone numbers
 
 You can purchase new phone numbers for your organization after you've checked for the prerequisites, installed the voice channel, and have successfully connected to an Azure Communication Services resource.
