@@ -62,13 +62,7 @@ sections:
   
   - name: Sign in
     questions:     
-        - question: What do the "Reconfigure" and "Sign out" options do?
-          answer: |
-           - Sign out: The user signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile app data that had previously been synced to the device. 
-           - Reconfigure: The user remains signed in to the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile app data that had previously been synced to the device.
-          
-           ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
-  
+
         - question: Why do I get an "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
           answer: |
             ![Screenshot of an error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
@@ -104,9 +98,6 @@ sections:
            ```
            https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
            ```
-        - question: Can I access SharePoint documents in offline mode?
-          answer: |
-           Access to SharePoint documents isn't currently supported in offline mode. 
 
   - name: Entities, forms, views, and fields 
     questions:
