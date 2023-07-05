@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 06/02/2023
+ms.date: 07/05/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,25 +29,29 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.96.2027    |
+| Marketing        |  1.96.2027      |
 
 ### General availability
 
 - **Make your push notifications more engaging by adding images**
     - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results. Quickly find images that best complement your content in seconds thanks to copilot image recommendations.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/make-push-notifications-more-engaging-adding-images)
     - [Docs](real-time-marketing-push-notifications.md)
 
 - **Easily set up your push notifications and engage customers worldwide**
     - We’ve streamlined the configuration process for push notifications with an enhanced, guided experience. It's now easier to set up the push notification channel and incorporate it into your marketing mix, reducing the time and effort required for implementation. Additionally, push notifications are now available worldwide, so you can engage customers across the globe, expand your market presence, and drive growth.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-set-up-push-notifications-engage-customers-worldwide)
     - [Docs](real-time-marketing-developer-push.md)
 
 - **Easily import outbound emails, content blocks, and templates to real-time marketing**
     - Save time and resources, reuse and adapt your existing outbound assets to create engaging and relevant real-time marketing experiences. Easily import your outbound marketing emails, templates, and content blocks into real-time marketing to plug them into your real-time journeys.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/import-outbound-marketing-emails-templates-real-time-marketing)
     - [Docs](real-time-marketing-import-email-to-real-time.md)
 
 - **Match your business needs with multi-brand consent and customizable preference centers**
     - In real-time marketing, marketers can now fully customize out-of-the-box preference centers to better represent their brands and meet their business needs. Create separate preference centers per brand, allowing you to independently capture and manage consent for multiple lines of business. Keep your customers engaged by giving them control over the channels they want to connect to while ensuring that you capture the consent you need to satisfy legal and regulatory requirements.
-    - [Docs]()
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/match-business-needs-more-granular-customizable-consent-preference-centers)
+    - [Docs](compliance-overview.md)
 
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent. Easily configure topics for messages, enabling per-topic customer opt-in or opt-out. Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand. 
@@ -56,7 +60,8 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 - **Plan events with intuitive event registration form**
     - Easily plan events in real-time marketing that drive high attendance, convert customers, and meet your business goals. Events are a critical part of marketing. With the updated event planning features based on new, intuitive registration forms, creating, and managing events is a breeze. Event planning’s tight integration with real-time marketing makes it easier than ever to guide attendees to the next step in their journey.
-    - Docs
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/easily-plan-events-intuitive-event-registration-form-experience)
+    - [Docs](event-management.md)
 
 - **Easily include QR codes for event registration, link, page, or any custom text**
     - QR codes are widely used to share information that is easily actionable on mobile devices with just a simple scan. They are an effective tool for promoting and increasing engagement for various purposes like` events, web pages, coupons, and more. The Email designer already includes a feature that allows easy insertion of QR codes for commonly used targets such as events, URLs, surveys, and file downloads. Now, we have added two additional targets. The "Event registration code" target fills a gap in real-time functionality by supporting QR codes for event registration pages along with the registration code needed for check-in. The "Text" option enables you to generate a QR code for any text you type in. Additionally, you can make it dynamic by using personalized data like discount codes or loyalty program membership numbers.
