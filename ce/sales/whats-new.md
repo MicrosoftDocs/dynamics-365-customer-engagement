@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 07/04/2023
+ms.date: 07/05/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -29,9 +29,9 @@ We're excited to announce our newest updates!
 
 | Feature area | Feature | Description | Resources | Enabled by | Availability |
 |--------------|---------|-------------|-----------|------------|--------------|
-| Sales engagement | Sequence preview | Get an overview of sequence activities and easily collaborate with team members. | [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | Enabled for admins | Public preview |
+| Sales engagement | Sequence preview | Get an overview of sequence activities and easily collaborate with team members. | [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | Enabled for all | Public preview |
 | Sales engagement | Segments | The runtime experience of segments are optimized by  introducing a condition limit. A maximum of 10 conditions are allowed in a segment at any given time. | [Documentation](create-and-activate-a-segment.md#to-create-and-activate-a-segment) | Enabled by default | GA |
-| Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  a condition limit is introduced. A maximum of 5 conditions are allowed in an assignment rule at any given time. | [Documentation](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule) | Enabled by default | GA |
+| Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  condition limits are introduced for the **Select eligible entity** and **Seller with matching attributes** options. A limit of 10 and 5 maximum conditions are applicable for these options respectively. | [Documentation](create-and-activate-assignment-rule.md#conditions-in-assignment-rules) | Enabled by default | GA |
 
 ## May 2023 release
 
