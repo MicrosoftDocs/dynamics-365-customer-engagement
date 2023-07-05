@@ -993,6 +993,8 @@
               href: view-and-understand-call-summary-sales-app.md
             - name: Get real-time call data through Teams call
               href: get-real-time-call-data-through-teams-call.md
+             name: Monitor call and insight processing
+             href: monitor-call-processing-sales-app.md
     - name: Dynamics 365 Sales mobile
       items:
         - name: Overview
