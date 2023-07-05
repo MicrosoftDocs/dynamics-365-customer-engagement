@@ -102,9 +102,6 @@ Configure the settings to specify where your call recording data is stored, the 
 
 1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
 
-You can [monitor the call processing status](monitor-call-processing-sales-app.md) to see how many calls have been processed and how many are pending. It may take up to 12 hours for the calls to be processed.
-
-
 ## Enable new and upcoming features
 
 The following preview features are available for conversation intelligence:
@@ -124,7 +121,6 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 1. Go to the **New and upcoming features** section, select **Hide credit card info in transcripts** to mask credit card information in the transcripts of future calls before they're saved. Currently, the credit card number mentions in the audio are not redacted.
     :::image type="content" source="media/call-categorization-preview.png" alt-text="Screenshot of the New and upcoming features section with the toggle to enable preview features and the hide credit card info option.":::
-
 
 
 ### Enable call categorization for short calls (preview)
