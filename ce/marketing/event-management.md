@@ -1,8 +1,7 @@
 ---
-title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs"
-description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing."
-ms.date: 06/27/2023
-
+title: Plan, publicize, and collect registrations for events
+description: An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing.
+ms.date: 07/05/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -50,11 +49,11 @@ Dynamics 365 Marketing offers two solutions for Event Management: outbound and r
 
 ## When to use real-time marketing and when to use outbound marketing Event Management
 
-Real time marketing solution for event management is a new solution of event management that currently has a subset of features of outbound version and several improvements. 
+Real time marketing solution for event management is a new solution of event management that currently has a subset of features of outbound version and several improvements.
 
 Key features availability:
 
-|          |     Outbound Marketing    |     Real-Time Marketing    |
+|     Feature     |     Outbound Marketing    |     Real-Time Marketing    |
 |---|---|---|
 |     Single session event    |     Yes    |     Yes    |
 |     Multi-session event          |     Yes    |     Yes    |
