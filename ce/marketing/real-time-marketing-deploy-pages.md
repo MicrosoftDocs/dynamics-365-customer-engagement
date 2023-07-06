@@ -51,7 +51,7 @@ With a standalone page, there's a caching mechanism in the background to deliver
 
 ## Host using a single page application (SPA)
 
-The real-time marketing form experience uses a JavaScript API that utilizes various events to change the behavior of the form. This design allows the form to be included and rendered through the API and to be used within a single-page application with React (SPA). The process is described the developer documentation: [Extend real-time marketing forms using code](../developer/realtime-marketing-form-client-side-extensibility.md#custom-events).
+The real-time marketing form experience uses a JavaScript API that utilizes various events to change the behavior of the form. This design allows the form to be included and rendered through the API and to be used within a single-page application with React (SPA). The process is described the developer documentation: [Extend real-time marketing forms using code](./developer/realtime-marketing-form-client-side-extensibility.md#custom-events).
 
 The following screenshot shows an embedded Marketing form on a React page:
 
@@ -98,3 +98,5 @@ The real-time marketing form designer offers flexible options to create and publ
 - In real-time marketing, there's no need to connect the Marketing app with Power Portals / Power Pages.
 - An easy and effective way to build a single landing page is to publish the form as a standalone page.
 - If you need to create a complex marketing web site with multiple pages, you can use Power Pages Studio.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
