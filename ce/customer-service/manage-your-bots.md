@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 07/05/2023
+ms.date: 07/06/2023
 ms.custom: bap-template
 ---
 
@@ -37,7 +37,7 @@ When you add a bot by using the steps outlined in this section, the Power Virtua
 On the **Bots** page, you can review the bot details and also perform the following actions:
 
 - Disconnect the bot.
-- Select the bot name and navigate to the Power Virtual Agents app to configure topics and other settings for the bot.
+- Select the bot name. The Power Virtual Agents app opens on a new tab where you can configure topics and other settings for the bot.
 
 ### Next steps
 
