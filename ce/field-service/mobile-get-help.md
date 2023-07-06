@@ -11,7 +11,7 @@ ms.author: jobaker
 
 # Get help for Field Service Mobile
 
-- If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support request](field-service-get-help.md). Make sure you provide the session ID and version number of the mobile app. Sign in to the app and open main menu. It provides **Session details** and lists the app version.
+- If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support request](field-service-get-help.md). Make sure you provide the session ID and version number of the mobile app. Sign in to the app, select your account picture, and select **Info** to get the session details and the app version.
 
 - For help with **general inquiries, how-to questions, and best practices**, we invite you to [engage with the Dynamics 365 Community](https://community.dynamics.com/365/fieldservice).
 

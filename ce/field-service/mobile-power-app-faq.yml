@@ -134,14 +134,6 @@ sections:
   - name: Other
     questions:       
 
-     - question: How do I change the time zone for the app?
-       answer: |
-          While signed into the app, select the three vertical lines open the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
-  
-     - question: How do I change the language used within the app?
-       answer: |
-          Users can personalize the language settings for themselves by using the [personalization options available in Power Platform.](/power-apps/user/set-personal-options#languages-tab-options) This setting is currently not available in the Field Service Mobile app itself.
-
      - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
        answer: |
           New capabilities to use the native device date and time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilities are enabled by default for the Field Service Mobile app module, but can be enabled for other App Modules with the following steps:

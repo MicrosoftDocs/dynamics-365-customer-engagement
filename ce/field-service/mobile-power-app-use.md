@@ -256,4 +256,10 @@ Use the **Recent** option in the main menu to quickly find things you recently v
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
 
+### Change personal settings
+
+You can change the time zone for the app right in the app settings. Select your account picture and select **Settings**. Choose the **Time Zone** you want the app to use. Close and restart the app for the changes to take effect.
+
+To change the app language, use the [personalization options in Power Platform](/power-apps/user/set-personal-options#languages-tab-options). You can't change the language in the Field Service mobile app.
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
