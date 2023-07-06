@@ -161,20 +161,6 @@ sections:
           > [!div class="mx-imgBorder"]
           > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
 
-         
-     - question: Where can I find the app version and session ID for debugging purposes?
-       answer: |
-        When opening a case with Microsoft Support, you'll often be asked for details about your app, including the app version and session detail. To find the session and app version details:
-        1. After signing into the app, open the main app menu.
-        2. Scroll to the bottom of the menu see **General** settings, and then **Session details**.
-        3. Open session details where you'll see the app version, along with the current session identifier.
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
-
-     - question: How is data on the device secured and encrypted?
-       answer: |
-        For more information, see [details on security and encryption](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
-
      - question: How do I enable Wave 2 2022 enhancements for command bar and form tabs for my Field Service Mobile application?
        answer: |
           As part of Wave 2 2022, the command bar for Field Service mobile has changed in the following ways:
