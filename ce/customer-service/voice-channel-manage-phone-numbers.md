@@ -107,7 +107,8 @@ You can purchase new phone numbers for your organization after you've checked fo
 1. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
  > [!NOTE]
- > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+ > - To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).  
+ > - You can port your Teams number in regions where Azure Communication Services is available. Use the information in [Create a Special Order for Telephone Numbers](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 ## Add a phone number to a voice workstream
 
