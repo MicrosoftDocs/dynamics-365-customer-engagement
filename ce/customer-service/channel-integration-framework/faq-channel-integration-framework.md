@@ -59,7 +59,7 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 ### How can I get updates to Dynamics 365 Channel Integration Framework?
 
-Microsoft is continuously developing and improving online services. Updates to the Dynamics 365 Channel Integration Framework 1.0 are pushed to all customers automatically. 
+Updates to the Dynamics 365 Channel Integration Framework 1.0 are pushed to all customers automatically. 
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
