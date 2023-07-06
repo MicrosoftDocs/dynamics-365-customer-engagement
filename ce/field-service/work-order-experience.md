@@ -40,8 +40,6 @@ To change between the old form Work Order and the new form, use the form switche
 
 ### General section
 
-:::image type="content" source="media/work-order-record-general.png" alt-text="Screenshot of a work order record on the General tab.":::
-
 The *General* section on the work order form contains the following cards:
 
 - [Details](#details-card)
