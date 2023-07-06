@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 05/03/2023 
+ms.date: 06/12/2023 
 ms.custom: bap-template 
 ---
 
@@ -34,7 +34,8 @@ To enable the enhanced case forms, perform the following steps:
    :::image type="content" source="media/settings-enh-case-channel.png" alt-text="Default main case form" lightbox="media/settings-enh-case-channel.png":::
 
 > [!NOTE]
-> If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order)
+> - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
+> - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure set the **ShowInFormSelector** is set to **True**.
 
 ## View and use default components available on enhanced full case form
 

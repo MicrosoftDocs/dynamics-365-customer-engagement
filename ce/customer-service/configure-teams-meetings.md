@@ -1,17 +1,11 @@
 ---
 title: "Enable Microsoft Teams meetings in Customer Service | Microsoft Docs"
-description: "Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 09/19/2022
+description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
+ms.date: 06/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-ms.custom: 
-  - dyn365-customerservice
-  - intro-internal
+ms.collection: bap-template
 ---
 
 # Enable Microsoft Teams meeting integration in Customer Service (preview)
@@ -90,6 +84,18 @@ The side panel helps agents quickly view and update details of the related recor
 1.	Go to the **Forms** tab and select the **In Context Form** form. 
 
 1.	Edit the form to manage the fields that appear in the side panel. By default, all the fields in the form are editable. If you want to set a field as read-only, select the field, and then enable the **Read-only** property.
+
+## Enable Teams meetings to be added to your Outlook calendar
+
+To see appointments in Teams, enable mailbox record integration by following these steps.
+
+1. In Dynamics 365, go to **Settings** > **Email Configuration** > **Mailboxes**.
+1. Select the mailbox record, and then select **EDIT** on the ribbon.
+1. For **Appointments, Contact, and Tasks**, select **Server-Side Synchronization**.
+1. Select the mailbox record, and then select **APPROVE EMAIL** on the ribbon.
+1. Select the mailbox record again, and then select **TEST & ENABLE MAILBOX** on the ribbon.
+1. Refresh the record until you see **Success** for the status. Then you can create an appointment with a Teams meeting and it'll be added to the Teams calendar.
+
    
 ### See also
 [Use Microsoft Teams Meeting integration in Customer Service](use-teams-meetings.md)

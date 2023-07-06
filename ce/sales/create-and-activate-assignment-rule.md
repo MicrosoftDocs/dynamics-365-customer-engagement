@@ -1,7 +1,7 @@
 ---
 title: "Create and activate assignment rules for routing"
 description: "Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales."
-ms.date: 02/02/2023
+ms.date: 05/26/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -85,6 +85,9 @@ When a lead or opportunity record is created in an organization, assignment rule
 
             >[!div class="mx-imgBorder"]
             >![Add related entity condition.](media/sa-segment-condition-add-related-entity.png "Add related entity condition")
+
+        You can't have more than 10 conditions in a rule. More information: [Conditions in assignment rules](#conditions-in-assignment-rules)
+
     -  <a name="considerLeadsCreated"></a>**Consider leads created in the last *hours***: Select the option to assign records that are created in the application in the specified timeframe to sellers.  
         If no seller is available to take the record within the set timeframe, the record is marked as overdue with the status reason *Seller not assigned as record is older than the set timeframe*.   
         To know more about unassigned records and status reasons, see [View unassigned records](manage-unassigned-records.md#view-unassigned-records).  
@@ -94,9 +97,9 @@ When a lead or opportunity record is created in an organization, assignment rule
     | Option | Description |
     |--------|-------------|
     | Any seller | Assign leads to any seller according to their availability, capacity, or distribution pattern. |
-    | Seller with matching attributes | Assign leads to sellers who satisfy the conditions defined through attributes selected from Dynamics 365 or assignment rules. The following options are available:<ul><li>Use existing fields from seller records in Dynamics 365.</li><li>Use seller attributes defined for assignment rules. More information: [Manage seller attributes](manage-seller-attributes.md)</li></ul>For example, you want to assign leads to sellers who are based out of Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** > **Add row**. Enter the condition as **City** (attribute) **Equals** (condition) **Seattle** (value).<br>![Seller with matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Seller with matching attributes") |
+    | Seller with matching attributes | Assign leads to sellers who satisfy the conditions defined through attributes selected from Dynamics 365 or assignment rules. The following options are available:<ul><li>Use existing fields from seller records in Dynamics 365.</li><li>Use seller attributes defined for assignment rules. More information: [Manage seller attributes](manage-seller-attributes.md)</li></ul>For example, you want to assign leads to sellers who are based out of Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** > **Add row**. Enter the condition as **City** (attribute) **Equals** (condition) **Seattle** (value).<br>![Seller with matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Seller with matching attributes") <br>At any given time, you can have a maximum of five conditions, and only one row can be defined under a related entity condition.<br>More information: [Conditions in assignment rules](#conditions-in-assignment-rules) |
     | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added through defining team access. More information: [Grant permissions to use assignment rules](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)<br>![Select specific sellers.](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
-    | Specific teams | Assign leads to a specific team. The lead will be available for all members of the team you select. The teams must be defined in your organization and added to the security roles through define team access. More information: [Grant permissions to use assignment rules](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)<br>The **Distribute leads by** option won't displayed as the leads are assigned to the teams. |
+    | Specific teams | Assign leads to a specific team. The lead is available for all members of the team you select. The teams must be defined in your organization and added to the security roles through define team access. More information: [Grant permissions to use assignment rules](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)<br>The **Distribute leads by** option won't displayed as the leads are assigned to the teams. |
 
 8. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section. More information: [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
@@ -122,7 +125,31 @@ When a lead or opportunity record is created in an organization, assignment rule
 
 9. Select **Create rule**.
 
-The rule is created and activated. It will be listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.
+The rule is created and activated. It's listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.
+
+## Conditions in assignment rules
+
+The condition limit is added to optimize the runtime experience, ensuring faster execution and improved efficiency. The condition limits are applicable for the following configurations:
+
+-	For **Specific *entity*** in the **Select eligible *entity*** for this rule section, a maximum of 10 conditions (including conditions within groups and related entities) are allowed.
+-	For **Sellers with matching attributes** in the **Assign these *entity* to sellers or a team** section, a maximum of five conditions (including conditions within groups and related entities) are allowed. 
+
+If you exceed the limit, a message is displayed stating that the limit is reached and can't save the rule.
+
+>[!NOTE]
+> To increase the limit of conditions, contact Microsoft Support for assistance.  
+
+### Recommendation to add conditions
+
+- **Split condition between assignment rules and segments**: If you have conditions exceeding the limit, move some conditions to segments to improve the runtime efficiency of assignment rules. For example, if you have 15 conditions in the **Select eligible entity for this rule** section of an assignment rule, you can optimize it by moving five conditions to the associated segment. This approach helps streamline the conditions within the assignment rule and improve overall performance. 
+
+- **Create rollup attributes**: You might have performance issues using conditions involving related entities. Use rollup attributes to avoid adding conditions with related entities that have many-to-many, one-to-many relationships, or nested related entities.  
+More information: [Define rollup columns that aggregate values](/power-apps/maker/data-platform/define-rollup-fields) 
+
+- **Avoid duplicate conditions**: Avoid using attributes in conditions that are already used in the connected segment. For example, if you have a segment with the condition City (attribute) Equals (condition) Seattle (value), avoid using the same City attribute in the assignment rule. 
+
+- **Use expression builder only**: Always use the expression builder on the UI to define or update the assignment rules. Don’t update assignment rules through Dataverse, as this can cause unexpected behavior impacting the records that are related to the assignment rules and the records may remain unassigned.
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

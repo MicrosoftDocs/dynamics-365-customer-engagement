@@ -1,10 +1,10 @@
 ---
 title: Improve sequence efficiency with insights
-description: Sequence insights provide valuable data on the performance of sequences and their steps. 
+description: Learn how sequence insights in Microsoft Dynamics 365 Sales provide valuable data on the performance of sequences and steps.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: get-started
 ms.date: 05/08/2023
 ms.custom: bap-template
@@ -12,52 +12,42 @@ ms.custom: bap-template
 
 # Improve sequence efficiency with insights
 
-Sequence insights provide valuable data on the performance of sequences and their steps. These insights enable organizations to identify areas that require improvement and take corrective measures to optimize their processes for intended results.
+Sequence insights provide valuable information about how well your sales sequences are performing. You can use them to find where improvements are needed, optimize your sales processes, and identify best practices that are working well across your sales team. Then you can use these successful practices to streamline your processes through common patterns and strategies that contribute to their success.
 
-Also, by analyzing sequence insights data, organizations  can identify successful best practices that are working well across the sales team. Depending on the best practices, 
-they can streamline their processes through common patterns and strategies that contribute to their success.
-
->[!NOTE]
->- The sequence insights feature is being rolled out in version 9.0.23041.10001. More information: [Released Versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales)
->- Insights data is available for only those sequences that were created or updated after the feature is rolled out to your organization.
->- Sequences that were activated before the feature rollout won't display insights data. You must reactivate such sequences to view their insights.
+The sequence insights feature is available in [version 9.0.23041.10001 and later of Dynamics 365 sales accelerator](/dynamics365/released-versions/dynamics365sales). Insights data is provided only for sequences that were created or updated after the feature is rolled out to your organization. To view insights for sequences that were activated before the feature rollout, reactivate the sequences.
 
 ## Prerequisites
 
-Ensure that sequences are configured and implemented in your organization. More information: [Sequences in sales accelerator](create-manage-sequences.md)
+Sequences are configured and implemented in your organization. [Learn more about sequences in sales accelerator](create-manage-sequences.md).
 
 ## View and understand sequence insights
 
-To view sequence insights, open an active sequence. The sequence opens a Sankey diagram in a designer that illustrates the number of records that passed through each step of the process. 
+To view sequence insights, open an active sequence. The sequence is shown as a Sankey diagram that illustrates the number of records that passed through each step in the sequence. The diagram offers an easy way to view the sequence's overall performance. It can also help you identify steps where more records are getting stuck or leaving the sequence.
 
-This is an easy way to view the overall performance of the sequence. Moreover, you can identify steps in the sequence where a greater number of records are getting stuck or leaving from the sequence. 
+By default, the data covers the entire time the sequence has been active. You can filter it to show a specific duration; for example, the last seven days. Select **All data** in the upper-right corner of the page, and then select a duration.
 
-By default, the data is displayed for the entire duration that the sequence has been active. However, you can filter the data for a specific duration such as last 7 days. Select **All data** at the top-right corner of the page.
+:::image type="content" source="media/si-insights-phone-call.png" alt-text="Screenshot of a sequence flow diagram with insights for a phone call step." lightbox="media/si-insights-phone-call-exp.png":::<!-- EDITOR'S NOTE: Please highlight "All data" in the screenshot IAW our [screenshot guidelines](/bacx/screenshots-for-bap?branch=main) -->
 
-The following image is an example of a sequence with insights displayed on a right pane: 
+To get insights on how sellers are executing a step, select it in the diagram.
 
-:::image type="content" source="media/si-insights-phone-call.png" alt-text="Sequence flow diagram with insights for a phone call step" lightbox="media/si-insights-phone-call-exp.png":::
+The first step displays the following insights for the sequence as a whole:
 
-Select a step to get insights on how sellers are executing that step. 
+- The total number of records that have flown into the sequence, including the number of records that are being processed and that have already been processed.
+- The maximum number of steps taken to process the sequence and the average number of days it took to complete.
+- The reasons the sequence is disconnected from the records. The number listed below each reason indicates how many records were disconnected for that reason. For example, a sequence is disconnected from a record when a seller completes it.
 
-The first step always displays the overall insights of the sequence. You can view the following data:
--	Total number of records that have flown into the sequence including the number of records that are currently being processed and those that have already been processed.
--	The maximum number of steps taken to process the sequence and the average number of days it took to complete the sequence. 
--	Understand the reasons why the sequence is disconnected from the records. The number listed below each reason indicates how many records were disconnected for each corresponding reason. For example, a sequence gets disconnected from a record when a seller completes the sequence. 
+Other steps display a detailed analysis, with the following insights shown for each step:
 
-For other steps, a detailed analysis of each step is displayed.
--	Total number of records that have flown into the sequence including the number of records that are currently being processed and those that have already been processed.
--	Analyze step-specific actions that are performed by records, as these actions may vary for each step. For example, in the phone call step, basic actions that can be performed are making and receiving calls. Here, each action shows the number of records that have performed the action. 
--	Step status shows the number of records that are in different states such as, completed, skipped, and in-progress.
--	Understand the reasons why the sequence is disconnected from the records. The number listed below each reason indicates how many records were disconnected for each corresponding reason.
--	Know the time taken for each record to complete the step.
+- The total number of records that have flown into the sequence, including the number of records that are being processed and that have already been processed.
+- An analysis of the actions that are performed for the step, which may vary by step. For example, in the phone call step, basic actions that can be performed are making and receiving calls. Each action shows the number of records that performed it.
+- The step status, or the number of records that are in progress, completed, or skipped.
+- The reasons the sequence is disconnected from the records. The number listed below each reason indicates how many records were disconnected for that reason.
+- How long each record took to complete the step.
 
->[!NOTE]
->The analytics is not available for condition steps.
+Analytics aren't available for condition steps.
 
 ### See also
 
 [Create and connect sequences for yourself](create-sequence-seller.md)  
 [View and understand sales acceleration reporting](understand-sales-acceleration-reporting.md)  
 [Understand the sequence stats page](understand-sequence-stats.md)
-

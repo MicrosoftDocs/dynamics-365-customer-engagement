@@ -13,8 +13,6 @@ ms.topic: article
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-## Introduction
-
 Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
@@ -50,7 +48,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 
