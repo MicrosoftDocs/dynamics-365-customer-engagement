@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
-ms.date: 01/23/2023
+ms.date: 07/06/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -53,7 +53,7 @@ You'll see a list of all available phone numbers together with their carrier nam
 If you don't have any phone numbers set up for your business, see **Acquire new phone numbers** to learn how you can purchase new numbers.
 
    > [!NOTE]
-   > An active direct routing phone number that belongs to an old environment shows up as inactive in the current environment. If your phone number is in inactive state, you must delete the number and add it again.
+   > If your direct routing phone number is in the inactive state, delete the number and add it again.
 
 ## Acquire new phone numbers
 
