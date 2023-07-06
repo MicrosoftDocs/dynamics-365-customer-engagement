@@ -23,6 +23,8 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
 1. Select your Field Service environment.
 
+   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
+
 1. Once the environment is validated, select **Return to Viva Connections dashboard**.
 
    :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections dashboard":::

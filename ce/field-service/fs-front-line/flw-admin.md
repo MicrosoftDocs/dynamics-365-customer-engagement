@@ -37,6 +37,9 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. In the left pane under the **Admin centers** section, select **Exchange**.
 
+   > [!TIP]
+   > You might need to select **Show all** to view the **Admin centers** section.
+
 1. Under the **Organization** section, select **Add-ins**.
 
    :::image type="content" source="media/exchange-admin.png" alt-text="Microsoft Exchange admin center with Add-ins highlighted":::

@@ -494,6 +494,13 @@ items:
   - name: Field Service (Preview) troubleshooting
     href: fs-front-line/flw-troubleshooting.md
 
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: transparency-note.md
+    - name: Transparency note for Outlook work order creation
+      href: transparency-note-outlook-wo.md
+
 - name: More resources
   items:
     - name: Video library
