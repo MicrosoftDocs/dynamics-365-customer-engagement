@@ -91,7 +91,7 @@ items:
   items:
     - name: Work order process overview
       href: field-service-architecture.md
-    - name: Lifecylce and system statuses
+    - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
     - name: Create a new work order
       href: create-work-order.md

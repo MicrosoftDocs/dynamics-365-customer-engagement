@@ -586,14 +586,14 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
               href: fre-setup-sales-insight-app.md
-            - name: Configure conversation intelligence to connect call data
-              href: configure-conversation-intelligence-call-data.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
             - name: Configure conversation content
