@@ -27,6 +27,8 @@ Updates to the solution are pushed to all customers automatically.
 [!INCLUDE[token-get-channel-integration-framework](shared/token-get-channel-integration-framework.md)]
 
 
+## Next step
+
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
