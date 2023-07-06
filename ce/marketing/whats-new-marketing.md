@@ -41,7 +41,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 ### General availability
 
 - **Make your push notifications more engaging by adding images**
-    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results. Quickly find images that best complement your content in seconds thanks to copilot image recommendations.
+    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/make-push-notifications-more-engaging-adding-images)
     - [Docs](real-time-marketing-push-notifications.md)
 
@@ -85,11 +85,6 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - Reach up to 100 million contacts or leads and send up to 300 million messages per month with Dynamics 365 real-time marketing customer journey orchestration. This added capacity empowers you to deliver personalized experiences at scale and delight customers in new ways. Additional interactions will help you grow your business, whether you’re increasing your customer base in new markets, reaching additional geographies, promoting new products, or expanding your prospective customer pipeline to reach higher sales targets.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/scale-business-confidence-300m-maximum-monthly-interactions)
     - [Docs](fair-use-policy.md)
-
-- **Simplify and summarize your segments using query assist Copilot functionality**
-    - Updated Copilot-enhanced query assist streamlines your workflow and enables effective teamwork. Use query assist copilot functionality in real-time marketing to create segments by describing them in plain English. Then, ensure your segment logic matches the intended outcome by translating the logic into a natural language description of the segment. Users who view or consume segments created by others can use the Copilot functionality to identify which audience the segment captures without needing to understand the segment creation logic. Query assist also offers suggested improvements during segment creation to help eliminate redundant conditional statements and further improve segment.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/target-customer-interactions-using-everyday-language-query-assist-copilot-feature)
-    - [Docs](nl-segment-build.md)
 
 ### Monthly enhancements
 
