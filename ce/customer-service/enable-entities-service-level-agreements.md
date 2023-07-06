@@ -38,7 +38,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 
 - Lead
 
-- Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances  
+- Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances.  
 
   > [!NOTE]
   >  SLAs can also be enabled for custom entities and custom activities.
@@ -55,7 +55,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
   
 3. Select **Customize the System**.  
   
-4. In the solution explorer, in the left nav pane, select the entity that you want to enable for SLA.  
+4. In the solution explorer, in the left navigation pane, select the entity that you want to enable for SLA.  
   
 5. Under **Communication & Collaboration**, select the **Enable for SLA** check box.  
   
@@ -67,7 +67,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 >
 > - You can have active SLAs for a maximum of seven entities.
 > - We recommend that you have a maximum of five SLA KPIs per entity.
-> - We recommend that you have less than 15 SLA items per SLA entity. You can have a maximum of 100 SLA Items per SLA entity.
+> - You can have a maximum of 100 SLA Items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
   
 ### See also
 
