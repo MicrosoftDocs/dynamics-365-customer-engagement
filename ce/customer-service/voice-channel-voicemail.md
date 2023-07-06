@@ -29,7 +29,7 @@ The following prerequisites must be met:
 
 ## Configure voicemail to manage overflow of voice calls
 
-You can redirect the caller to leave a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
+You can redirect the caller to record a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
 - Is received during the after hours of the call center operations
@@ -41,7 +41,9 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
 
-To route voicemail, you can select **Organization phone number** in **Work classification** or **Create Intake rule** and add your organization's phone number on which your customer called. When you define conditions, select **Equals** to enter phone number with country code. Or select **Contains** to enter phone number without country code.
+You can configure routing rules to route voicemail that your customer has recorded on your organization's phone number. In the rule condition, select **Organization phone number** in **Work classification** or **Create Intake rule** and add the required phone number to route the voice mail. When you define the intake or classification conditions, specify the following:
+- The phone number with the country code, if you select **Equals** operator.
+- The phone number without the country code, if you select **Contains** operator.
 
 ## Use voicemail to manage direct calls to agents
 
