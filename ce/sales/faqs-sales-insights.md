@@ -91,11 +91,11 @@ The following table shows the version of Exchange that's supported for Sales Pre
 >[!NOTE]
 >- The assistant and relationship analytics can work without Exchange. However, the information displayed in relationship analytics won't contain Exchange data and the assistant won't display cards that are based on Exchange data. 
 >- For relationship analytics, support for Exchange Online is available only in North America (NAM) and Europe, the Middle East, and Africa (EMEA).
->- For who knows whom, the organization's Office 365 data location must be one of the following and not your region-specific datacenter location:
->   - Global Geography 1: EMEA (Austria, Finland, France, Ireland, Netherlands).
->   - Global Geography 2: Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
->   - Global Geography 3: Americas (Brazil, Chile, United States).<br>
-> [Learn more about datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
+>- For who knows whom, the organization's Office 365 data location must be in one of the following locations and not in your region specific data canter location:
+>   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
+>   - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
+>   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
+> To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 ### What languages are supported?
 
