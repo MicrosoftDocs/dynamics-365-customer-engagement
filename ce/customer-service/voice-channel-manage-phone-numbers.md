@@ -52,6 +52,9 @@ You'll see a list of all available phone numbers together with their carrier nam
 
 If you don't have any phone numbers set up for your business, see **Acquire new phone numbers** to learn how you can purchase new numbers.
 
+   > [!NOTE]
+   > If your direct routing phone number is in the inactive state, delete the number and add it again.
+
 ## Acquire new phone numbers
 
 You can purchase new phone numbers for your organization after you've checked for the prerequisites, installed the voice channel, and have successfully connected to an Azure Communication Services resource.
