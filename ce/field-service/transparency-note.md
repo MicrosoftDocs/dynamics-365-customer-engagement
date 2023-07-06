@@ -17,4 +17,3 @@ ms.reviewer: jacohen
 [!INCLUDE[transparency-note-features](../includes/transparency-note-features.md)]
 
 - [Outlook work order creation](transparency-note-outlook-wo.md)
-- [[Feature]]([Link])
