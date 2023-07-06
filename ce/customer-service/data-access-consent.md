@@ -50,8 +50,7 @@ A detailed explanation is as follows:
   
     More information:
      [Omnichannel Insights for Dynamics 365 - Power BI App](https://appsource.microsoft.com/product/power-bi/ms_dynmcsfnp.ms_dynamics_cca_da_oc_analytics)  
-     [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)  
-     [Omnichannel Sentiment Analysis dashboard](omnichannel-insights-dashboard.md#omnichannelsentiment-analysisdashboard)  
+     [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
 
 - **Sign in and read your profile**: Allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
 

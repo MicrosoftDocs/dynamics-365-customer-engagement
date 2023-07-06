@@ -1,7 +1,7 @@
 ---
 title: "Open the event management work area (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Explains how to access event-management features in Dynamics 365 Marketing."
-ms.date: 12/17/2018
+ms.date: 06/27/2023
 
 ms.custom: 
   - dyn365-marketing
@@ -31,6 +31,8 @@ To find the event management work area:
 1. You are now in the Events work area, and can navigate between event-related entities using the side navigator, just as with the core **Marketing** work area.
 
     ![Open the work area menu.](media/events-nav.png "Open the work area menu")
+
+1. If you have outbound and real-time marketing installed, there is a drop-down menu to the right of the **New Event** button where you can create an event inside real-time marketing. When outbound and real-time marketing are installed, you’ll see outbound and real-time marketing events in the same events list.    
 
 For more information about how to get around in Dynamics 365 Marketing and work with its common features, see [Find your way around Marketing](navigation.md).
 

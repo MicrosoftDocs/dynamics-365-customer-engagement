@@ -84,7 +84,7 @@ After you've configured the search providers, agents can view links in their sea
    > [!div class=mx-imgBorder]
    > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
    
-For more information about agent search experience, go to [Use external search providers](search-knowledge-articles-csh.md#use-external-search-providers).
+For more information about agent search experience, go to [Search across external search providers](search-knowledge-articles-csh.md#search-across-external-search-providers).
 
 > [!NOTE]
 >
