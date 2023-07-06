@@ -49,7 +49,7 @@ Before configuring an IoT command in Field Service, you first need to create IoT
 
 :::image type="content" source="media/IoT-alert-send-command.png" alt-text="Screenshot of an IoT alert with the send command dialog option.":::
 
-## Thermostat simulator commands
+## Example thermostat simulator commands
 
 If you use the [IoT deployment template for Azure IoT Hub](installation-setup-iothub.md), you can choose to install a thermostat simulator. The following table lists commands that you can send to the thermostat simulator.
 
@@ -57,7 +57,7 @@ If you use the [IoT deployment template for Azure IoT Hub](installation-setup-io
 |---|---|
 |     Reset Thermostat  |   {"CommandName":"Reset Thermostat","Parameters":{}}  |
 |     Notification  |   {"CommandName":"Notification","Parameters”: {"Message":"Technician has been dispatched"}}  |
-|     Update IoT property definitions    |      {"CommandName":"Set Values","Parameters”: {"Reading":{"Temperature":"70","Humidity":"60"}}}    |
+|     Set Values (Update IoT property definitions Temperature and Humidity)    |      {"CommandName":"Set Values","Parameters”: {"Reading":{"Temperature":"70","Humidity":"60"}}}    |
 
 ## Next steps
 
