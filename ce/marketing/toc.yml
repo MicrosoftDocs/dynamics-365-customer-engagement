@@ -330,6 +330,8 @@
         href: real-time-marketing-form-overview.md
       - name: Create forms
         href: real-time-marketing-form-create.md
+      - name: Deploy pages that contain real-time marketing forms
+        href: real-time-marketing-deploy-pages.md
       - name: Manage forms
         href: real-time-marketing-manage-forms.md
       - name: Troubleshoot real-time marketing forms
