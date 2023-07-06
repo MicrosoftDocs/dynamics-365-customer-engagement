@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 02/18/2023
+ms.date: 07/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
