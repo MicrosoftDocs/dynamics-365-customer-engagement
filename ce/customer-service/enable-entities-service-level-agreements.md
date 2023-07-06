@@ -67,7 +67,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 >
 > - You can have active SLAs for a maximum of seven entities.
 > - We recommend that you have a maximum of five SLA KPIs per entity.
-> - You can have a maximum of 100 SLA Items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
+> - You can have a maximum of 100 SLA items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
   
 ### See also
 
