@@ -18,15 +18,19 @@ In this article, we'll discuss the work order form and the components that it us
 
 ### Work order list grid
 
-The new grid shows work orders in a list and lets you priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
-
 To change between the old read-only grid and the new editable grid, use the **Show as** control in the command bar. There's also a new default view, which is called **Work Orders (preview)**. Use the view switcher to get to other views that you created.
+
+:::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of a list grid for work orders.":::
+
+The new grid shows work orders in a list and lets you priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
 
 ### Side pane for quick edits
 
 The side pane for the work order form is a simplified form. It enables quick actions like status updates, booking a work order, or editing instructions without switching to the detailed work order form.
 
 To open a work order in the side pane, hover over a work order in the list and select the **Work Order Side Pane** icon. You can open multiple work orders in the side pane and switch between them in the right border or the side pane.
+
+:::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of a work order list with the Work Order Side Pane icon highlighted.":::
 
 ## Work order form
 
@@ -36,7 +40,9 @@ To change between the old form Work Order and the new form, use the form switche
 
 ### General section
 
-The *General* section on the work order form contains the following cards: 
+:::image type="content" source="media/work-order-record-general.png" alt-text="Screenshot of a work order record on the General tab.":::
+
+The *General* section on the work order form contains the following cards:
 
 - [Details](#details-card)
 - [Functional location](#functional-location-card)
