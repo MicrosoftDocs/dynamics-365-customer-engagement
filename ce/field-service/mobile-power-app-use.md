@@ -40,7 +40,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 
 ## Sign in
 
-Launch the app and sign in with your username and password.  
+Launch the app and sign in with your username and password. You can choose which region to connect to in the **Region settings**. 
 
 Administrators should go to the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
 

@@ -101,18 +101,6 @@ sections:
 
   - name: Entities, forms, views, and fields 
     questions:
-        
-      - question: |
-          How many columns ("fields") can be added to an entity view on the mobile app?
-        answer: |
-          Currently, a maximum of three columns (formerly called "fields") can be displayed in a mobile view. 
-
-      - question: |
-          Can I only view Field Service entities on the Field Service (Dynamics 365) mobile app?
-        answer: |
-
-          Because the Field Service (Dynamics 365) mobile app is a model-driven app on Microsoft Power Platform, any entity can be added; however, users can only see an entity or record that they have the licenses and permissions to access, regardless of whether it's part of the Dynamics 365 Field Service app.
-
           
       - question: |
           Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
@@ -145,22 +133,7 @@ sections:
 
   - name: Other
     questions:       
-     - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
-       answer: |
-          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
-      
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
-          
-          The region settings dialog allows the user to select and connect to the desired end point.
 
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
-
-     - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
-       answer: |
-          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
-          
      - question: How do I change the time zone for the app?
        answer: |
           While signed into the app, select the three vertical lines open the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
@@ -188,9 +161,6 @@ sections:
           > [!div class="mx-imgBorder"]
           > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
 
-     - question: Can I use drip scheduling with the Field Service mobile app?
-       answer: |
-          Drip scheduling is currently not supported with the Field Service (Dynamics 365) mobile app. 
          
      - question: Where can I find the app version and session ID for debugging purposes?
        answer: |
