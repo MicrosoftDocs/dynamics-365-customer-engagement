@@ -31,6 +31,13 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 |------------------|-----------------|
 | Marketing        |  1.96.2027      |
 
+> [!IMPORTANT]
+> Starting in July 2023, custom workflows can no longer *read* from the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities. To ensure continued functionality, you must update custom workflows to read from the latest **msdynmkt_contactpointconsent4** entity.
+>
+> Custom workflows that *write* to the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities will automatically have data synced to the latest **msdynmkt_contactpointconsent4** entity until January 2024.
+>
+> Additionally, as of June 2023, the **Consent Type** field is mandatory for the **msdynmkt_contactpointconsent4** entity. To ensure continued functionality of custom workflows, update the workflows to include this mandatory field.
+
 ### General availability
 
 - **Make your push notifications more engaging by adding images**
