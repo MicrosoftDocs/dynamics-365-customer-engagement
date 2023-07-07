@@ -15,9 +15,9 @@ The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
-- Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording will include voicemail only.
+- Voicemails are always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording includes voicemail only.
 - If the customer is unable to record the voicemail, an automated message is played for the customer that informs them that their voicemail couldn't be recorded and they should call back again.
-- The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.
+- The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail is offered if the agent isn't available.
 
 ## Prerequisites for voicemail
 
@@ -97,7 +97,7 @@ Individual voicemails are triggered through direct inward dialing and are routed
 - By default, the individual voicemail queue has no agents.
 - The custom assignment rule assigns the voicemail to an agent based on their direct inward call number.
 - The assignment method is round robin.
-- You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers will be automatically assigned to the agents.
+- You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers are automatically assigned to the agents.
 
 ### Group voicemails
 
@@ -106,15 +106,15 @@ If the voicemail is triggered by the overflow condition of a queue, it's routed 
 - The workstream routes the voicemail to the default group voicemail queue.
 - By default, the queue has no agents. Add those agents to the queue who triage voicemails.
 - The assignment method is highest capacity.
-- Voicemails left for every voice queue will be routed to the group voicemail queue.
+- Voicemails left for every voice queue are routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
-- The operating hours at the workstream level will override the queue-level overflow setup. The operating hours message at the workstream level will be played and the system will disconnect the call.
+- The operating hours at the workstream level override the queue-level overflow setup. The operating hours message at the workstream level are played and the system disconnects the call.
 
 ### Manage voicemail capacity
 
 By default, the voicemail workstream capacity is set to zero.
 
-However, if you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
+However, if you let voicemails take up capacity, the capacity restriction applies for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item are still assigned to them even if all their capacity is consumed.
 
 Because the individual voicemail workstream has a custom assignment rule, capacity isn't taken into account, and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 
