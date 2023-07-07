@@ -55,7 +55,7 @@ To complete the mobile app configuration, the developer must register devices. T
 
     With this approach, once the configuration is complete, you must also implement the user mapping at runtime. This ensures that the correct person in the Marketing app (represented as a Contact, Lead, or Customer Insights profile) is mapped to the correct person using the mobile app on a particular device.
 
-# [Device registration for iOS applications](#tab/ios)
+# [iOS](#tab/ios)
 
 To register a device running an iOS application, the following request should be issued:
 
@@ -221,7 +221,7 @@ Body: array of items equal to body from (3), up to 100 items
 
 Returns: 202 on success, 400 if the request is not valid
 
-# [Device registration for Android applications](#tab/android)
+# [Android](#tab/android)
 
 To register a device for an Android application, the following request should be issued:
 

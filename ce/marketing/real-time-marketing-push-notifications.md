@@ -46,11 +46,11 @@ You can choose to configure an iOS application, an Android application, or both 
 > [!div class="mx-imgBorder"]
 > ![Single Mobile app configuration screenshot.](media/real-time-marketing-single-mobile-app-configuration.png)
 
-# [Android](#tab/android)
+## [Android](#tab/android)
 
 For Android applications, Marketing uses the Firebase Cloud Messaging (FCM) service. To configure your Android application to work with Marketing, you need to enter the FCM API key string.
 
-# [iOS](#tab/ios)
+## [iOS](#tab/ios)
 
 For iOS applications, Marketing uses the Apple Push Notification service (APNs), a platform service that enables third-party application developers to send push notifications to iOS users. You can choose from two authentication modes:
 
