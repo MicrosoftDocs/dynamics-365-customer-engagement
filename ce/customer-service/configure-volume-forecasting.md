@@ -60,10 +60,10 @@ The Forecast report uses an AI-backed forecasting model that predicts case volum
 
 The report can forecast daily trends for a date range up to six months, and intraday (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
-- For daily case volume forecasting, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months.
-- For intraday (15 minutes interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks will be analyzed to generate the forecast.
+- For daily case volume forecasting, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
+- For intraday (15 minutes interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
 
-The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
+The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message is posted on the admin settings page.  
 
 - At least two weeks of historical data is available.
 
@@ -108,7 +108,7 @@ For users in your organization to be able to access the forecast reports, they m
   
 1. If you want to change the time zone to use for forecasting, under **Time zone for daily forecasting**, select time zone you want.
 
-1. If you want to select a particular date that the data starts from, under **Historical data start date (optional)**, choose the **Start date** you want. The latest (closest) date that the start date can be is at least two weeks back from the current date. If nothing is selected, the start date will be decided based on the earliest creation date of all of your historical records, up to two years. If the start date you select is earlier than two years, only last two years of data will be used.
+1. If you want to select a particular date that the data starts from, under **Historical data start date (optional)**, choose the **Start date** you want. The latest (closest) date that the start date can be is at least two weeks back from the current date. If nothing is selected, the start date is decided based on the earliest creation date of all of your historical records, up to two years. If the start date you select is earlier than two years, only last two years of data is used.
 
 1. If you want to specify seasonality, under **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
 
