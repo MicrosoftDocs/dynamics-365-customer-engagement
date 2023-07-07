@@ -25,10 +25,6 @@ In this article, we’ll walk through how to create a bookable resource and add 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
-> [!Note]
-> For additional Dynamics 365 Field Service videos, go to [this full playlist](https://aka.ms/fs-videos).
-
-
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service.
@@ -36,7 +32,7 @@ In this article, we’ll walk through how to create a bookable resource and add 
 
 ## Quickly set up frontline workers to get started
 
-At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. 
+At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders.
 
 To quickly create frontline workers refer to the article on [setting up frontline workers](frontline-worker-set-up.md).
 

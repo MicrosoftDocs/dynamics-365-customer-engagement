@@ -1,7 +1,7 @@
 ---
 title: Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 description: Learn how to deploy and manage the deployment for  the Resource Scheduling Optimization add-in for Dynamics 365 Field Service.
-ms.date: 02/03/2023
+ms.date: 06/21/2023
 ms.topic: how-to
 ms.custom: bap-template
 ms.subservice: resource-scheduling-optimization
@@ -12,6 +12,8 @@ ms.author: feiqiu
 # Deploy the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service
 
 After [getting access to Resource Scheduling Optimization](rso-get-install.md) either by purchasing a license or through your Microsoft representative, deploy it to your Dynamics 365 Field Service environment.
+
+You can deploy multiple instances of the Resource Scheduling Optimization add-in on the same Microsoft 365 tenant. A Resource Scheduling Optimization instance can connect to one Dynamics 365 organization only.
 
 ## Deployment steps
 
