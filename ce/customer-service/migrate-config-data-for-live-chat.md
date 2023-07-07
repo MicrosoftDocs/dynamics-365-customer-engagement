@@ -99,7 +99,7 @@ For migrating queues for live chat, perform the steps outlined in [Migrate data 
    |1.|Workstream (msdyn_liveworkstream)|<ul><li>API Key (msdyn_apikey)</li> <li>API Key Version Number (msdyn_apikeyversionnumber) </li> <li>Allow Automated Messages (msdyn_enableautomatedmessages) </li> <li>Allowed Presences (msdyn_allowedpresences) </li> <li> Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline) </li><li> Auto-close after inactivity (msdyn_autocloseafterinactivity) </li><li> Block capacity for wrap up state (msdyn_blockcapacityforwrapup) </li><li>Bot queue (msdyn_bot_queue) </li><li>Bot rule (msdyn_bot_rule) </li><li>Bot user (msdyn_bot_user) </li><li>CallbackPreviewDialing (msdyn_notificationtemplate_callback_previewdialing) </li><li>Connectors (msdyn_connectorsurl) </li><li>Consult (msdyn_notificationtemplate_consult) </li><li>Conversation mode of chat channels (msdyn_conversationmode) </li><li>Customer ID (msdyn_customerid) </li><li>Customer Disconnect Hold Duration For Open Conversation (msdyn_customerdisconnectholddurationforopenconversation) </li><li>Capacity (msdyn_capacityrequired) </li><li>Capacity format (msdyn_capacityformat) </li><li>Channel (msdyn_streamsource) </li><li>Contract Id (msdyn_routingcontractid) </li><li>Default (msdyn_sessiontemplate_default) </li><li>Default Queue (msdyn_defaultqueue) </li><li>Direction (msdyn_direction) </li><li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams) </li><li>Entity (msdyn_masterentityroutingconfigurationid) </li><li>FallBack Language (msdyn_fallbacklanguage) </li><li>Follow-up after waiting (msdyn_followupafterwaiting) </li><li>Handling Time Threshold (msdyn_handlingtimethreshold) </li><li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth) </li><li>Incoming unauthenticated (msdyn_notificationtemplate_incoming_unauth) </li><li>Is Default (msdyn_isdefault) </li><li>Keep same agent for entire conversation (msdyn_enableagentaffinity) </li><li>Last Validation On (msdyn_lastvalidationon) </li><li>Last Validation Status (msdyn_lastvalidationstatus) </li><li>Matching Logic (msdyn_matchinglogic) </li><li>Max Concurrency (msdyn_maxconcurrentconnection) </li><li>Mode (msdyn_mode) </li><li>Name (msdyn_name) </li><li>Notification (msdyn_notification) </li><li>Notification scenario placeholder (msdyn_notificationscenarioplaceholder) </li><li>Outbound queue (msdyn_outboundqueueid) </li><li>Record Identification Rule (msdyn_recordidentificationrule) </li><li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule) </li><li>Restrict download of recording (msdyn_restrictdownloadrecording) </li><li>Restrict download of transcript (msdyn_restrictdownloadtranscript) </li><li>Screen pop timeout (msdyn_screenpoptimeout) </li><li> Screen pop timeout (msdyn_screenpoptimeout_optionSet) </li><li> Secure API Key (msdyn_secureapikey) </li><li> Skill Attachment Rules Count (msdyn_skillattachmentrulescount) </li><li> Skill Attachment Rules Count (Last Updated On) </li><li> (msdyn_skillattachmentrulescount_date) </li><li> Skill Attachment Rules Count (State) </li><li> (msdyn_skillattachmentrulescount_state) </li><li> Session scenario placeholder (msdyn_sessionscenarioplaceholder) </li><li> SupervisorAssign (msdyn_notificationtemplate_supervisorassign) </li><li> Transfer (msdyn_notificationtemplate_transfer) </li><li> Waiting Time Threshold (msdyn_waitingtimethreshold) </li><li> Work Distribution Mode (msdyn_workdistributionmode) </li><li> Work Stream (msdyn_liveworkstreamid) </li></ul>|[**Sample 1: All live chat workstreams**](#BKMK1lcw)<br><br>[**Sample 2: Single live chat workstream**](#BKMK2lcw)<br><br>[**Sample 3: Multiple live chat workstreams**](#BKMK3lcw) |
    |2.|Context Variable (msdyn_ocliveworkstreamcontextvariable)|<ul><li>Name (msdyn_name) </li><li> Relation Ship Name (msdyn_relationshipname) </li><li> Type (msdyn_datatype) </li><li> Work stream (msdyn_liveworkstreamid) </li><li> IsList (msdyn_islist) </li><li> Modifiable (msdyn_ismodifiable) </li><li> Display Name (msdyn_displayname) </li><li> Displayable (msdyn_isdisplayable) </li><li> Entity Logical Name (msdyn_entitylogicalname) </li><li> Context variable (msdyn_ocliveworkstreamcontextvariableid) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> System Defined (msdyn_issystemdefined) </li></ul>|[**Sample 1: Context Variables for all workstreams**](#BKMK1lcwcv)<br><br> [**Sample 2: Context variables for a single live chat workstream**](#BKMK2lcwcv) <br><br> [**Sample 3: Context Variables for multiple live chat workstreams**](#BKMK3lcwcv) |
    |3.|Decision contract (msdyn_decisioncontract)|<ul><li>Contract definition (msdyn_contractdefinition) </li><li> Decision contract (msdyn_decisioncontractid) </li><li> Name (msdyn_name) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision contract for all live chat workstreams**](#BKMK1dclcw) <br><br>[**Sample 2: Decision contract for a single live chat workstream**](#BKMK2dclcw)<br><br>[**Sample 3: Decision contract for multiple live chat workstreams**](#BKMK3dclcw) |
-   |4.|Decision rule set (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid) </li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li> Input contract (msdyn_inputcontractid) </li><li> Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li> Rule set definition (msdyn_rulesetdefinition) </li><li> Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision ruleset for all live chat workstreams**](#BKMK1drlcw)<br><br>[**Sample 2: Decision ruleset for a single live chat workstream**](#BKMK2drlcw) <br><br>[**Sample 3: Decision ruleset for multiple live chat workstreams**](#BKMK3drlcw) |
+   |4.|Decision rule set (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid) </li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li> Input contract (msdyn_inputcontractid) </li><li> Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li> Rule set definition (msdyn_rulesetdefinition) </li><li> Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision ruleset for all live chat workstreams**](#BKMK1drlcw)<br><br>[**Sample 2: Decision ruleset for a single live chat workstream**](#BKMK2drslcw) <br><br>[**Sample 3: Decision ruleset for multiple live chat workstreams**](#BKMK3drmlcw) |
    |5.|Routing configuration (msdyn_routingconfiguration)|<ul><li>Is active configuration (msdyn_isactiveconfiguration) </li><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Unique name (msdyn_uniquename) </li><li> Workstream (msdyn_liveworkstreamid) </li></ul>|[**Sample 1: Routing configuration for all live chat workstreams**](#BKMK1rclcw)<br><br>[**Sample 2: Routing configuration for a single live chat workstream**](#BKMK2rclcw) <br><br>[**Sample 3: Routing configuration for multiple live chat workstreams**](#BKMK3rclcw) |
    |6.|Routing configuration step (msdyn_routingconfigurationstep)|<ul><li>Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Routing configuration step for all live chat workstreams**](#BKMK1rcs)<br><br>[**Sample 2: Routing configuration step for a single live chat workstream**](#BKMK2rcs) <br><br>[**Sample 3: Routing configuration step for multiple live chat workstreams**](#BKMK3rcs)|
    |7.|Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)|<ul><li>Capacity Profile (msdyn_capacityprofile_id) </li><li> Name (msdyn_name) </li><li> Workstream (msdyn_workstream_id) </li><li> Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid) </li></ul>|[**Sample 1: Workstream capacity profile for all live chat workstreams**](#BKMK1wcp)<br><br>[**Sample 2: Workstream capacity profile for a single live chat workstream**](#BKMK2wcp)<br><br>[**Sample 3: Workstream capacity profile for multiple live chat workstreams**](#BKMK3wcp) |
@@ -124,7 +124,7 @@ For sample schema to get all the required records, see Sample schema for live ch
 
 **Sample 1: All live chat workstreams**<a name="BKMK1lcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -133,10 +133,11 @@ XMLCopy
 		</filter>
 	</entity>
 </fetch>
+```
 
 **Sample 2: Single live chat workstream**<a name="BKMK2lcw"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -144,10 +145,11 @@ XMLCopy
 		</filter>
 	</entity>
 </fetch>
+```
 
 **Sample 3: Multiple live chat workstreams**<a name="BKMK3lcw"></a>
 
-XMLCopy
+```XML
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -157,13 +159,14 @@ XMLCopy
 			</condition>
 		</filter>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 ### FetchXML for context variables entity
 
 **Sample 1: All live chat workstreams context variables**<a name="BKMK1lcwcv"></a>
 
-XMLCopy
+```XML
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa" >
@@ -174,10 +177,11 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 **Sample 2: Single live chat workstream context variables**<a name="BKMK2lcwcv"></a> 
 
-XMLCopy
+```XML
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <filter type="and" >
@@ -185,10 +189,11 @@ XMLCopy
         </filter>
     </entity>
 </fetch>
+```
 
 **Sample 3: Multiple live chat workstreams context variables**<a name="BKMK3lcwcv"></a>
 
-XMLCopy
+```XML
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <filter type="or" >
@@ -197,12 +202,13 @@ XMLCopy
         </filter>
     </entity>
 </fetch>
+```
 
 ### FetchXML for decision contract entity
 
 **Sample 1: Decision contract for all live chat workstreams**<a name="BKMK1dclcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="and" >
@@ -228,10 +234,11 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 **Sample 2: Decision contract for a single live chat workstream**<a name="BKMK2dclcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="and" >
@@ -255,10 +262,11 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 **Sample 3: Decision contract for multiple live chat workstreams**<a name="BKMK3dclcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="and" >
@@ -284,12 +292,13 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 ### FetchXML for decision ruleset entity
 
 **Sample 1: Decision ruleset for all live chat workstreams**<a name="BKMK1drlcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -305,10 +314,11 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 **Sample 2: Decision ruleset for a single live chat workstream**<a name="BKMK2drslcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -323,10 +333,11 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 **Sample 3: Decision ruleset for multiple live chat workstreams**<a name="BKMK3drmlcw"></a>
 
-XMLCopy
+```XML
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -342,13 +353,13 @@ XMLCopy
         </link-entity>
     </entity>
 </fetch>
+```
 
 ### FetchXML for routing configuration entity
 
 **Sample 1: Routing configuration for all live chat workstreams**<a name="BKMK1rclcw"></a>
 
-XMLCopy
-
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -359,10 +370,11 @@ XMLCopy
 		</link-entity>
 	</entity>
 </fetch> 
+```
 
 **Sample 2: Routing configuration for a single live chat workstream**<a name="BKMK2rclcw"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -371,11 +383,12 @@ XMLCopy
 			</filter>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 **Sample 3: Routing configuration for multiple live chat workstreams**<a name="BKMK3rclcw"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -388,11 +401,13 @@ XMLCopy
 		</link-entity>
 	</entity>
 </fetch>
+```
 
 ### FetchXML for routing configuration step entity
 
 **Sample 1: Routing configuration step for all live chat workstreams**<a name="BKMK1rcs"></a>
-XMLCopy
+
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -404,11 +419,12 @@ XMLCopy
 			</link-entity>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 **Sample 2: Routing configuration step for a single live chat workstream**<a name="BKMK2rcs"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -419,11 +435,12 @@ XMLCopy
 			</link-entity>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 **Sample 3: Routing configuration step for multiple live chat workstreams**<a name="BKMK3rcs"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -437,13 +454,14 @@ XMLCopy
 			</link-entity>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 ### FetchXML for workstream capacity profile entity
 
 **Sample 1: Workstream capacity profile for all live chat workstreams**<a name="BKMK1wcp"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -453,11 +471,12 @@ XMLCopy
 			</filter>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 **Sample 2: Workstream capacity profile for a single live chat workstream**<a name="BKMK2wcp"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -466,11 +485,12 @@ XMLCopy
 			</filter>
 		</link-entity>
 	</entity>
-</fetch> 
+</fetch>
+```
 
 **Sample 3: Workstream capacity profile for multiple live chat workstreams**<a name="BKMK3wcp"></a>
 
-XMLCopy
+```XML
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -483,6 +503,7 @@ XMLCopy
 		</link-entity>
 	</entity>
 </fetch>
+```
 
 ## Migrate configuration for live chat widgets
 
@@ -527,7 +548,7 @@ The following assumptions are in place:
 
 ### FetchXML for live chat<a name="BKMKlive-chat"></a>
 
-```
+```XML
     <fetch version="1.0" mapping="logical" distinct="false">
 	<entity name="msdyn_livechatconfig">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
@@ -538,6 +559,7 @@ The following assumptions are in place:
 	</entity>
 </fetch>
 ```
+
 ## Verify your migration
 
 After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
@@ -545,7 +567,7 @@ After you import the unified routing-related configuration data successfully fro
 1. In the UI, make sure that the unified routing configuration and rulesets are rendered properly and don't display errors.
 
 2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
-  
+
 3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable resources capacity profile records.
 
 ## Considerations for export and import of data
