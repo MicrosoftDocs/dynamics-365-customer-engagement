@@ -31,10 +31,17 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 |------------------|-----------------|
 | Marketing        |  1.96.2027      |
 
+> [!IMPORTANT]
+> Starting in July 2023, custom workflows can no longer *read* from the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities. To ensure continued functionality, you must update custom workflows to read from the latest **msdynmkt_contactpointconsent4** entity.
+>
+> Custom workflows that *write* to the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities will automatically have data synced to the latest **msdynmkt_contactpointconsent4** entity until January 2024.
+>
+> Additionally, as of June 2023, the **Consent Type** field is mandatory for the **msdynmkt_contactpointconsent4** entity. To ensure continued functionality of custom workflows, update the workflows to include this mandatory field.
+
 ### General availability
 
 - **Make your push notifications more engaging by adding images**
-    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results. Quickly find images that best complement your content in seconds thanks to copilot image recommendations.
+    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/make-push-notifications-more-engaging-adding-images)
     - [Docs](real-time-marketing-push-notifications.md)
 
@@ -78,11 +85,6 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - Reach up to 100 million contacts or leads and send up to 300 million messages per month with Dynamics 365 real-time marketing customer journey orchestration. This added capacity empowers you to deliver personalized experiences at scale and delight customers in new ways. Additional interactions will help you grow your business, whether you’re increasing your customer base in new markets, reaching additional geographies, promoting new products, or expanding your prospective customer pipeline to reach higher sales targets.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/scale-business-confidence-300m-maximum-monthly-interactions)
     - [Docs](fair-use-policy.md)
-
-- **Simplify and summarize your segments using query assist Copilot functionality**
-    - Updated Copilot-enhanced query assist streamlines your workflow and enables effective teamwork. Use query assist copilot functionality in real-time marketing to create segments by describing them in plain English. Then, ensure your segment logic matches the intended outcome by translating the logic into a natural language description of the segment. Users who view or consume segments created by others can use the Copilot functionality to identify which audience the segment captures without needing to understand the segment creation logic. Query assist also offers suggested improvements during segment creation to help eliminate redundant conditional statements and further improve segment.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/target-customer-interactions-using-everyday-language-query-assist-copilot-feature)
-    - [Docs](nl-segment-build.md)
 
 ### Monthly enhancements
 
@@ -311,7 +313,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 - **Confidently send emails after quickly previewing emails using sample audience data**
     - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
-    - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
+    - [Docs](real-time-marketing-email.md#preview-and-test-send-your-email)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot showing email sample data.](media/whats-new-quick-email-preview.png "Screenshot showing email sample data")
