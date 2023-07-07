@@ -213,7 +213,7 @@ Body:
 ```
 Returns: 202 on success, 400 if the request is not valid
 
-3. Device Cleanup (multiple):
+4. Device Cleanup (multiple):
 
 ```
 POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
@@ -355,5 +355,7 @@ POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregist
 Body: array of items equal to body from (3), up to 100 items
 
 Returns: 202 on success, 400 if request is not valid
+
+---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
