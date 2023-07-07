@@ -200,6 +200,16 @@
           href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
+        - name: Configure Copilot
+          items:
+            - name: Copilot overview
+              href: copilot-overview.md
+            - name: Enable and setup Copilot
+              href: enable-setup-copilot.md
+            - name: Configure Copilot capabilities
+              href: configure-sales-copilot.md
+            - name: Regions and languages supported
+              href: copilot-region-languages.md
         - name: Activity management
           items:
             - name: Set up the timeline control
@@ -753,6 +763,12 @@
           href: teams-integration/teams-collaboration-enhanced-experience.md
     - name: Productivity and document management
       items:
+        - name: Use Copilot
+          items:
+            - name: Copilot overview
+              href: copilot-overview.md
+            - name: Use Copilot capabilities
+              href: use-sales-copilot.md
         - name: Activity management
           items:
             - name: Add activities to the timeline
