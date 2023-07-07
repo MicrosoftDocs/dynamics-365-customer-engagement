@@ -9,14 +9,14 @@ ms.topic: article
 
 # Configure voicemail to manage inbound calls
 
-Voicemails help your customers record messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers record messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
 - Voicemails can be recorded for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
 - Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording will include voicemail only.
-- If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
+- If the customer is unable to record the voicemail, an automated message is played for the customer that informs them that their voicemail couldn't be recorded and they should call back again.
 - The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.
 
 ## Prerequisites for voicemail
@@ -55,7 +55,7 @@ If a direct call to an agent is missed and voicemail is configured, the option t
 
 - Call was rejected by the agent
 - Call timed out
-- Agent presence is set as offline or don't disturb
+- Agent presence is set as offline or do not disturb
 
 Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
 
