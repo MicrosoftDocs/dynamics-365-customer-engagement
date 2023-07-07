@@ -1,6 +1,6 @@
 ---
 title: Compose and send email messages using Copilot
-description: 
+description: Get suggestions on email messages through Copilot in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
