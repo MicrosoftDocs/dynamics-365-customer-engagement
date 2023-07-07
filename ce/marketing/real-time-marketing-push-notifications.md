@@ -48,10 +48,6 @@ You can choose to configure an iOS application, an Android application, or both 
 
 Select the tab that corresponds with your device's operating system:
 
-# [Android](#tab/android)
-
-For Android applications, Marketing uses the Firebase Cloud Messaging (FCM) service. To configure your Android application to work with Marketing, you need to enter the FCM API key string.
-
 # [iOS](#tab/ios)
 
 For iOS applications, Marketing uses the Apple Push Notification service (APNs), a platform service that enables third-party application developers to send push notifications to iOS users. You can choose from two authentication modes:
@@ -62,6 +58,10 @@ For iOS applications, Marketing uses the Apple Push Notification service (APNs),
   - *Key ID*: The 10-character Key ID string.
   - *Bundle ID*: Created together with the APNs certificate for your app.
   - *Team ID*: Refer to Apple developer documentation to determine how to get your Team ID.
+
+# [Android](#tab/android)
+
+For Android applications, Marketing uses the Firebase Cloud Messaging (FCM) service. To configure your Android application to work with Marketing, you need to enter the FCM API key string.
 
 ---
 
