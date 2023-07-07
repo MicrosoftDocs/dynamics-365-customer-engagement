@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 01/23/2023
+ms.date: 07/07/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
