@@ -40,9 +40,9 @@ The following assignment methods are available out of the box:
 
 - **Highest capacity**: Assigns work item to the agent with the highest available capacity among those who have the skills identified during the classification stage, and who has the presence as specified in the allowed presence option of the workstream. In this assignment method, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
-  If you want to use skill-based routing and set the default skill-matching algorithm for the workstream as exact match and choose highest capacity as the assignment method, then the system will filter agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
+  If you want to use skill-based routing and set the default skill-matching algorithm for the workstream as exact match and choose highest capacity as the assignment method, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
 
-  If the default skill-matching algorithm for the workstream is set to closest match, then the system will filter agents based on the workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  If the default skill-matching algorithm for the workstream is set to closest match, then the system filters agents based on the workstream's presence and capacity requirements and order the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
@@ -50,7 +50,7 @@ The following assignment methods are available out of the box:
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
-  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available will be assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
 
   Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This provides higher agent satisfaction and improved customer satisfaction.
 
@@ -72,7 +72,7 @@ You can also create a custom assignment method to suit your business needs.
 
 - **Create new**: Lets you create and use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed. You can create the following rulesets:
 
-  - **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they're available to take more work.
+  - **Prioritization rulesets**: Let you define the order in which the work items are assigned to agents when they're available to take more work.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
   
   > [!IMPORTANT]
@@ -94,7 +94,7 @@ The assignment cycle starts with one of the following triggers:
 
 ## How prioritization rulesets work
 
-A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules will be run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions will be put in the same priority bucket. In the priority bucket, the items will be further sorted by the order specified in the prioritization rule. The second rule will run on the rest of the items in the queue, to identify the next priority bucket, and sort that bucket by the order by attribute until all rules are evaluated.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions is put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sort that bucket by the order by attribute until all rules are evaluated.
 
 You can create only one prioritization ruleset per queue.
 
@@ -102,22 +102,22 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 :::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Prioritization scenario.":::
 
-- During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they're listed.
+- During any assignment cycle, this prioritization ruleset runs, and the rules within the ruleset run in the order they're listed.
 
-- The first rule, "High priority and premium," will find all work items in the queue where the associated case priority is "High" and the case category is "Premium". It will create the top priority bucket with those work items and sort them in the "First in and first out" manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+- The first rule, "High priority and premium," finds all work items in the queue where the associated case priority is "High" and the case category is "Premium". It creates the top priority bucket with those work items and sort them in the "First in and first out" manner as specified in the **Order by** attribute. The first work item to be assigned from the queue are the oldest item in this bucket.
 
-- The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in and first out".
+- The next priority bucket is the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule only considers other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in and first out".
 
-- The next priority bucket consists of work items where case priority is high and they haven't been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order—that is, the work items that require the first response at the earliest will be prioritized first.
+- The next priority bucket consists of work items where case priority is high and they haven't been bucketed already. Here the work items are ordered by their "First Response By" field in the ascending order—that is, the work items that require the first response at the earliest are prioritized first.
 
 Some important points about prioritization rules are as follows:
 
 - You can create only one prioritization ruleset per queue.
-- Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
-- By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item will be assigned first.
-- In normal scenarios, when a sufficient number of agents are available to take up the work items, the queue processing period is only a couple of seconds, and the agents are assigned work items in the priority order. However, if work items pile up because of fewer eligible agents and then an agent becomes available during the processing period, the agent will be offered the next work item according to the priority order. This might create a perception that the highest priority item wasn't assigned, especially after some top-priority items are attempted for assignment and yet remain in the queue.
+- Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change is considered during the next assignment cycle.
+- By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
+- In normal scenarios, when a sufficient number of agents are available to take up the work items, the queue processing period is only a couple of seconds, and the agents are assigned work items in the priority order. However, if work items pile up because of fewer eligible agents and then an agent becomes available during the processing period, the agent is offered the next work item according to the priority order. This might create a perception that the highest priority item wasn't assigned, especially after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
-- Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
+- Prioritization rules are skipped for affinity work items and such work items is assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 
@@ -129,14 +129,14 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 In scenarios when more than one agent matches the requirement of the work item and there's a tie in the order by as well, like, more than one matching agent has the same available capacity, the system resolves the assignment in a round robin manner based on the earliest time of the last assignment.
 
-For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system will assign it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan, because their available capacities were the same and Alicia had an earlier assignment than Alan at 10:35 AM.
+For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan, because their available capacities were the same and Alicia had an earlier assignment than Alan at 10:35 AM.
 
 
 ### Components of an assignment rule
 
 The assignment rules are composed of the following items:
 
-- **Order**: Specifies the order in which the assignment rule will be evaluated in a ruleset. The lower-order rules are run first. If any rule results in matching a user, then the next set of rules isn't evaluated.
+- **Order**: Specifies the order in which the assignment rule is evaluated in a ruleset. The lower-order rules are run first. If any rule results in matching a user, then the next set of rules isn't evaluated.
 - **Name**: The unique rule name.
 - **Condition**: The expressions that are evaluated to match the users with the attributes of incoming work. The conditions have three parts:
   - **User attribute**: Properties of the users that can be used for comparing the user with the incoming work. The user attributes can be one of the following:
@@ -155,7 +155,7 @@ The assignment rules are composed of the following items:
       |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find agents who have matching presence status as specified in the work item.|
       |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the agent has enough capacity to work on the specified items.|
       |User skills|Exact match|Use an operator to find agents who have all the skills which the incoming work item requires.|
-      |User skills|Custom match|Use the operator to find agents whose skills will match at runtime based on the selected lookup attribute on the work item.|
+      |User skills|Custom match|Use the operator to find agents whose skills match at runtime based on the selected lookup attribute on the work item.|
       |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
       ||||
   
@@ -184,15 +184,15 @@ A sample assignment rule is explained in the following scenario with a screensho
 
 :::image type="content" source="media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
 
-The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition will be matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent will be matched against the dynamically calculated membership level of the customer associated with the chat.
+The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition is matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent is matched against the dynamically calculated membership level of the customer associated with the chat.
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
 ### Limits on offering a work item repeatedly to an agent
 
-When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. An agent who declines the same work item thrice won't be considered for further auto assignment for the specific work item. The system will try to offer the declined work item to other agents in the queue if they're eligible.
+When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. An agent who declines the same work item thrice won't be considered for further auto assignment for the specific work item. The system tries to offer the declined work item to other agents in the queue if they're eligible.
 
-For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system will offer the chat from Ana Bowman to other eligible agents. Also, Serena Davis will be considered for other incoming conversations except the declined chat from Ana Bowman.
+For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
 > If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by agents including those who rejected it.
