@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 07/05/2023
+ms.date: 07/07/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -71,8 +71,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - [Docs](set-up-event.md)
 
 - **Confidently send emails after previewing trigger-based personalization**
-    - Personalizing content is an effective strategy for boosting engagement but ensuring such personalized content is accurate for a variety of recipients can be a challenging task. We made this task easier in April 2023 release that added support for previewing emails using data from a selected audience record. This release extends this capability to include support for triggers. Now any personalization that uses data from any out of the box triggers can also be tested easily. Additionally, use can now enter values manually for selected personalization that override data from audience or trigger for easily testing edge cases.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/confidently-send-emails-after-previewing-using-sample-audience-data)
+    - Personalizing content is an effective strategy for boosting engagement but ensuring such personalized content is accurate for a variety of recipients can be a challenging task. We made this task easier in April 2023 release that added support for previewing emails using data from a selected audience record. This release extends this capability to include support for triggers. Now any personalization that uses data from any out of the box triggers can also be tested easily. Additionally, you can now enter values manually for selected personalization that override data from audience or trigger for easily testing edge cases.
     - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
 
 - **Easily include QR codes for event registration, link, page, or any custom text**
