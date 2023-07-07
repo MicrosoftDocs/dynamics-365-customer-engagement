@@ -93,7 +93,7 @@ items:
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
-    - name: Work order experience
+    - name: Work order experience (preview)
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md

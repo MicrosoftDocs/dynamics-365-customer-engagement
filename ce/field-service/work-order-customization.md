@@ -148,14 +148,14 @@ The following components get added:
 
 - Work order grid (*msdyn_FieldService.WorkOrderList*) with customizable columns.
 - Functional location card (*msdyn_FieldService.LocationCard*) that works on the work order entity only.
-- Dynamics bookings card (*msdyn_FieldService.BookingCard*).
+- Dynamics bookings card (*msdyn_FieldService.BookingCard*) that works on the work order entity only.
 - Contact card (*msdyn_FieldService.CustomerContactCard*) where you can customize the mapping of the *Reported by contact* field.
 - Asset card (*msdyn_FieldService.WorkOrderAssetTree*).
 - Products and services summary card (*msdyn_FieldService.LineItemsTabSummaryCard*). The mapping of fields only works for *CostNotToExceed* to *msdyn_costntepercent* and *PriceNotToExceed* to *pricentepercent*.
 - Products and services line items grid (*msdyn_FieldService.LineItemsTabTable*) which you can use on custom views for products or services. To enable filtered results for products, edit the control and set the data source to *Records: Only Related Records*, *Entity: Work Order Products (Work Order)*, and *Default View: LineItemsTab Active Products*.
 - Task summary card (*msdyn_FieldService.TasksAtAGlanceCard*).
 - Task list (*msdyn_FieldService.TasksGrid*).
-- References card (*(msdyn_FieldService.ReferenceDisplay)*) which can show knowledge articles, guides from tasks, or media references. The maximal size of the media files is 100 MB.
+- References card (*msdyn_FieldService.ReferenceDisplay*) which can show knowledge articles, guides from tasks, or media references. The maximal size of the media files is 100 MB.
 
 ## Next steps
 
