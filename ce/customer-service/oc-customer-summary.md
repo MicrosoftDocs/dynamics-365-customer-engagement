@@ -67,7 +67,9 @@ Depending on the settings that are enabled for you, you'll see one of the follow
  
   ### [Enhanced Active Conversation&mdash;Customer Details](#tab/enhancedcustomer)
 
-   Displays the customer or account details. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Add the Customer 360 component to a case form](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form) You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
+   Displays the customer or account details. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Add the Customer 360 component to a case form](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form).<br>
+
+   You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
  
    :::image type="content" source="media/enh-custsummary-conv.png" alt-text="View enhanced CustomerContact or Account" :::
 
