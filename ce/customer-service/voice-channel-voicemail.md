@@ -3,13 +3,13 @@ title: "Configure voicemail to manage inbound calls"
 description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/06/2023
+ms.date: 07/07/2023
 ms.topic: article
 ---
 
 # Configure voicemail to manage inbound calls
 
-Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers record messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
@@ -42,22 +42,26 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
 
 You can configure routing rules to route voicemail that your customer has recorded on your organization's phone number. In the rule condition, select **Organization phone number** in **Work classification** or **Create Intake rule** and add the required phone number to route the voicemail. When you define the intake or classification conditions, specify the following:
-- The phone number with the country code, if you select **Equals** operator.
-- The phone number without the country code, if you select **Contains** operator.
+
+- The phone number with the country code, if you select the **Equals** operator.
+- The phone number without the country code, if you select the **Contains** operator.
+
+> [!NOTE]
+> We recommend that you avoid defining rule conditions based on skills or sentiment category for the missed conversation attribute to route voicemails because they won't work as expected.
 
 ## Use voicemail to manage direct calls to agents
 
 If a direct call to an agent is missed and voicemail is configured, the option to record a voicemail is presented to the customer. The call might not be answered because of one of the following reasons:
 
-- Call rejected by the agent
-- Call times out
-- Agent presence is set as offline or don't disturb 
+- Call was rejected by the agent
+- Call timed out
+- Agent presence is set as offline or don't disturb
 
 Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
 
 ## Configure voicemail views in inbox for agents
 
-1. In Customer Service admin center, in the sitemap, select **Workspaces** under **Agent experience**.
+1. In Customer Service admin center, in the site map, select **Workspaces** under **Agent experience**.
 
 1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
 
