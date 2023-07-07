@@ -1,7 +1,7 @@
 ---
 title: "Configure case forecasting in Customer Service | Microsoft Docs"
 description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/01/2023
+ms.date: 07/06/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -66,6 +66,17 @@ The report can forecast daily trends for a date range up to six months, and intr
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
 
 - At least two weeks of historical data is available.
+
+## Key considerations to enhance forecast accuracy
+
+We recommend the following criteria for utilizing users' data to generate accurate forecasts.
+
+- Non-sparse data: The dataset contains information for every day, ensuring that there isn't missing or incomplete data. Each day has a recorded volume, providing a comprehensive set of observations.
+- Clear weekly pattern: The data exhibits a weekly pattern, wherein the volume consistently follows a specific trend. For instance, weekends consistently have low volumes, while workdays show higher volumes, and vice versa. This pattern helps in establishing a reliable basis for forecasting.
+-  Volume-based accuracy: If the criteria are met, the forecast quality improves with larger volume inputs. Higher volumes of data contribute to a more accurate and robust forecast.
+-  Absence of level shift: Recent days and future periods don't experience any sudden or significant shifts in volume levels. This absence of sudden changes ensures that the historical patterns remain relevant and dependable for forecasting purposes.
+-  Longer historical data set: If all the above criteria are met, a longer history of data further improves the forecast accuracy. A greater historical data set provides a broader perspective and a more comprehensive understanding of the patterns and trends over time. With an extended history, the forecast model can capture and incorporate more variations, leading to more accurate predictions.
+- Weighting recent forecast accuracy: When considering future periods, it's important to acknowledge that the accuracy of the forecast tends to be higher for more immediate timeframes. As time progresses into the future, the certainty and precision of the forecast may decrease. Therefore, the most recent forecast should be given more weight and considered to have better accuracy compared to forecasts for distant future periods.
 
 ## Prerequisites
 
