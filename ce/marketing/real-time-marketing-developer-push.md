@@ -1,7 +1,7 @@
 ---
-title: "Push notification setup for application developers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 03/15/2022
+title: Push notification setup for application developers
+description: Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing.
+ms.date: 07/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -163,7 +163,7 @@ Parameters:
 @end
 ```
 
-### API v.2
+#### API v.2
 
 1. Device Registration (single):
 
@@ -182,7 +182,7 @@ Body:
     "ApnsDeviceToken": "%APNS_DEVICE_TOKEN%"
 }
 ```
-Returns: 202 on success, 400 if request is not valid.
+Returns: 202 on success, 400 if the request is not valid.
 
 2. Device Registration (multiple):
 
@@ -192,7 +192,7 @@ POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregist
 
 Body: array of items equal to body from (1), up to 100 items
 
-Returns: 202 on success, 400 if request is not valid
+Returns: 202 on success, 400 if the request is not valid
 
 3. Device Cleanup (single):
 
@@ -209,7 +209,7 @@ Body:
     "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN% )"
 }
 ```
-Returns: 202 on success, 400 if request is not valid
+Returns: 202 on success, 400 if the request is not valid
 
 3. Device Cleanup (multiple):
 
@@ -219,13 +219,13 @@ POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregist
 
 Body: array of items equal to body from (3), up to 100 items
 
-Returns: 202 on success, 400 if request is not valid
+Returns: 202 on success, 400 if the request is not valid
 
 ### Device registration for Android applications
 
 To register a device for an Android application, the following request should be issued:
 
-API v.1
+#### API v.1
 
 Request URL:
 
@@ -254,7 +254,7 @@ Parameters:
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
 - **FcmToken**: Device registration token. [Learn more about how to locate the token.](https://firebase.google.com/docs/cloud-messaging/android/client#retrieve-the-current-registration-token)
 
-#### Sample code to register the device token with Dynamics 365
+##### Sample code to register the device token with Dynamics 365
 
 ```
 public class DeviceRegistrationContract { 
@@ -298,7 +298,7 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
-API v.2
+#### API v.2
 
 1. Device Registration (single):
 
