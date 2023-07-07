@@ -313,7 +313,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 - **Confidently send emails after quickly previewing emails using sample audience data**
     - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
-    - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
+    - [Docs](real-time-marketing-email.md#preview-and-test-send-your-email)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot showing email sample data.](media/whats-new-quick-email-preview.png "Screenshot showing email sample data")
