@@ -85,6 +85,7 @@ The following diagram provides a visual representation of how consent is enforce
     <td>Tracked</td>
   </tr>
 </table>
+
 <table>
   <tr>
     <th>Non-restrictive enforcement model</th>
