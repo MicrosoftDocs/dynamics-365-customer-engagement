@@ -70,9 +70,9 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
 
 Within the compliance section of the email settings, you need to choose a compliance profile and purpose for the email. This ensures that consent checks are performed as required by the compliance profile and purpose's enforcement model. Optionally, you can choose a topic for the email, which allows you to collect more granular consent data to enable your customers to receive exactly the communications they want. Learn more: Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 
-## Preview and test your email
+## Preview and test send your email
 
-Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member (for example, a Contact or Lead) record and preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
+Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member's (for example, a contact or lead) record trigger data or other personalization data and preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
 
 To see preview for a specific audience member:
 
@@ -83,8 +83,13 @@ To see preview for a specific audience member:
 > [!div class="mx-imgBorder"]
 > ![better preview and test](media/real-time-marketing-better-preview-and-test.png "better preview and test")
 
+To see a preview of personalized content sourced from trigger, follow the steps above and select or enter the data for the trigger. Below is an example where the email will be sent when the business trigger “Incident is created” is raised and will include the incident number and title (data that comes from the trigger).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of incident creation](media/real-time-marketing-incident-creation.png "Screenshot of incident creation")
+
 > [!NOTE]
-> For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look.
+> For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look. You can also override the actual data that comes from the selected audience record or trigger. To override the data, select **Enter manually** for the chosen item and provide your own value. This is a quick and easy way to check for edge cases.
 
 You can send the preview email to yourself or another test email address to verify how the received email renders on different devices and different email apps. Preview emails automatically include “[Test]” in the subject header.
 
