@@ -25,7 +25,7 @@ As a sequence manager, you create an assignment rule for lead and opportunity re
 > [!NOTE]
 > A rule considers only the records that are created or updated after it's activated.
 
-When a lead or opportunity record is created in an organization, assignment rules are applied in the order that they are listed in, from the top of the list to the bottom. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record.
+When a lead or opportunity record is created in an organization, assignment rules are applied in the order that they are listed in, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record.
 
 By default, rules are listed in the order that they were created in, and the most recently created rule is at the bottom of the list. However, you can drag the rules into any order that you want.
 
