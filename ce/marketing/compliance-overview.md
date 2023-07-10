@@ -32,7 +32,7 @@ In outbound marketing, consent is captured and stored on the Contact entity in f
 
 Compliance profiles are the hubs to manage consent and compliance in Dynamics 365 Marketing. Compliance profiles govern how consent is captured and enforced. Compliance profiles store information such as company address, the preference management experience, and related configuration. Compliance profile settings vary based on the type of compliance profile you're creating or modifying.  
 
-Learn more: [Compliance profiles](real-time-marketing-compliance-settings-preview.md#compliance-profiles).  
+Learn more: [Compliance profiles](real-time-marketing-compliance-settings.md#compliance-profiles).  
 
 ## User contact preferences
 
