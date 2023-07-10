@@ -1,7 +1,7 @@
 ---
 title: Manage consent for email and text messages in real-time marketing
 description: Learn how to manage consent for messages in Dynamics 365 Marketing.
-ms.date: 07/01/2023
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -58,7 +58,7 @@ The following diagram provides a visual representation of how consent is enforce
 
 <table>
   <tr>
-    <th style="text-align: center" colspan="4">Restrictive enforcement model</th>
+    <th>Restrictive enforcement model</th>
   </tr>
   <tr>
   	<td></td>
@@ -85,9 +85,9 @@ The following diagram provides a visual representation of how consent is enforce
     <td>Tracked</td>
   </tr>
 </table>
-<table style="width:100%";>
+<table>
   <tr>
-    <th style="text-align: center" colspan="4">Non-restrictive enforcement model</th>
+    <th>Non-restrictive enforcement model</th>
   </tr>
   <tr>
   	<td></td>
@@ -115,9 +115,9 @@ The following diagram provides a visual representation of how consent is enforce
   </tr>
 </table>
 
-<table style="width:100%";>
+<table>
   <tr>
-    <th style="text-align: center" colspan="4">Disabled enforcement model</th>
+    <th>Disabled enforcement model</th>
   </tr>
   <tr>
   	<td></td>
