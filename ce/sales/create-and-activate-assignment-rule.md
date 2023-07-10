@@ -1,6 +1,6 @@
 ---
 title: Create and activate assignment rules for routing
-description: Learn how to create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales.
+description: Learn how to create and activate assignment rules for leads and opportunities, so that records that satisfy defined conditions in Dynamics 365 Sales are automatically assigned to sellers.
 ms.date: 05/26/2023
 ms.topic: article
 author: udaykirang
@@ -9,7 +9,7 @@ ms.author: udag
 
 # Create and activate assignment rules for routing
 
-Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when those conditions are met in Dynamics 365 Sales.
+Create and activate assignment rules for leads and opportunities, so that records that satisfy defined conditions in Dynamics 365 Sales are automatically assigned to sellers.
 
 ## License and role requirements
 
@@ -108,12 +108,12 @@ By default, rules are listed in the order that they were created in, and the mos
     | Any seller | Assign leads to any seller, based on their availability, capacity, or distribution pattern. |
     | Seller with matching attributes | <p>Assign leads to sellers who satisfy the conditions that are defined through attributes that are selected from Dynamics 365 or assignment rules. The following options are available:</p><ul><li>**Use existing fields from seller records in Dynamics 365**</li><li>**Use seller attributes defined for assignment rules** ([Learn how to define and manage seller attributes.](manage-seller-attributes.md))</li></ul><p>For example, you want to assign leads to sellers who are based in Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** \> **Add row**. Enter the condition as *City* (attribute) *Equals* (condition) *Seattle* (value).</p><p>![Screenshot of the example for assigning leads to sellers who have matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Screenshot of the example for assigning leads to sellers who have matching attributes")</p><p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>[Learn more about conditions in assignment rules.](#conditions-in-assignment-rules)</p> |
     | Specific sellers | <p>Assign leads to specific sellers. Select the sellers in the **Choose sellers** lookup.</p><p>**Note**: The security roles for the sellers in the list were added by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>![Screenshow that shows specific sellers selected.](media/sa-ar-select-specific-sellers.png "Screenshow that shows specific sellers selected")</p> |
-    | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p> |
+    | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>If you select this option, the **Distribute leads by** section isn't shown, because leads are assigned to teams. |
 
 1. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, select one of the following options. [Learn more about lead distributions in assignment rules.](understand-lead-distributions-assignment-rules.md)
 
     > [!NOTE]
-    > This section is available only if you selected one of the seller options in the **Assign these leads to** section (**Any seller**, **Seller with matching attributes**, or **Specific sellers**). It isn't available if you selected the **Specific teams** option, because leads are assigned to teams in that case.
+    > This section is available only if you selected one of the seller options in the **Assign these leads to** section (**Any seller**, **Seller with matching attributes**, or **Specific sellers**). It isn't available for teams.
 
     - **Round robin**: Leads are distributed on a cyclical basis to sellers who are qualified to receive the lead based on the conditions of the assignment rule.
     - **Load balancing**: Leads are distributed among sellers based on their current workload. This option helps ensure that all sellers are equally busy.
