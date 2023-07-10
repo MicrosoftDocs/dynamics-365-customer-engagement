@@ -1,7 +1,7 @@
 ---
-title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 03/29/2023
+title: Create push notifications
+description: Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing.
+ms.date: 07/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,9 +17,6 @@ search.audienceType:
 
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
-> [!NOTE]
-> Push notifications are supported only in countries where [Azure Notification Hubs](https://azure.microsoft.com/explore/global-infrastructure/products-by-region/?products=notification-hubs&regions=all) are available.
-
 You can send push messages as part of real-time journeys, similar to other outbound messages like text messages.
 
 ## Create a mobile app configuration
@@ -30,33 +27,28 @@ To send push notification messages to your customers, you'll first need to set u
 > If the user or team who is going to create a mobile application has admin privileges, then no further action is required.
 >
 > If the user or team who is going to create a mobile application doesn't have admin privileges, then an admin needs to complete the following steps:
-> 1. Go to **Advanced Settings** > **Security** > **Field Security Profiles** > **Marketers - Mobile app secrets**.
-> 2. Add the corresponding user or team as members.
-> 3. Save and close.
-
-To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New** on the top ribbon.
-
-> [!div class="mx-imgBorder"]
-> ![Mobile app configuration screenshot.](media/real-time-marketing-mobile-config.png)
-
-The mobile app configuration connects your existing mobile application (already published on the App Store, Google Play, or both) to Dynamics 365 Marketing.
-
-> [!IMPORTANT]
-> To complete the configuration, an app developer will have to help you get the iOS APNs certificate or Android FCM key for your mobile application. Learn more: [Push notification setup for application developers](real-time-marketing-developer-push.md)
 >
-> Dynamics 365 Marketing will then generate an access token that is required to authenticate your application.
+> 1. Go to **Advanced Settings** > **Security** .
+> 2. Go to **Marketers-Mobile app secrets** and add the corresponding user or team as members. Save and close.
+> 3. Go to **Marketers - Mobile app channel instances secrets** and add the corresponding user or team as members. Save and close.
 
-To create a mobile app configuration, complete the following steps:
+To create a new mobile app configuration, go to **Settings** > **Customer engagement** > **Push notifications** and select **+New mobile app** on the top ribbon. The mobile app configuration connects your existing mobile application (already published on the App Store, Google Play, or both) to Dynamics 365 Marketing.
 
-### 1. Enter a name and description for the configuration
+To create a configuration, complete the following steps:
 
-Start by entering a name and a description of your configuration.
-
-### 2. Configure mobile applications
+1. Start by adding a **Name** and **Description** for the configuration.
+    > [!div class="mx-imgBorder"]
+    > ![Mobile app configuration screenshot.](media/real-time-marketing-mobile-app-configuration.png)
+1. For the next step of the configuration, an app developer will have to help you get the iOS APNs certificate or tokens or Android FCM key for your mobile application. Learn more: [Push notification setup for application developers](real-time-marketing-developer-push.md)
 
 You can choose to configure an iOS application, an Android application, or both at the same time. Dynamics 365 Marketing will handle both apps under a single mobile configuration.
 
-#### iOS applications
+> [!div class="mx-imgBorder"]
+> ![Single Mobile app configuration screenshot.](media/real-time-marketing-single-mobile-app-configuration.png)
+
+Select the tab that corresponds with your device's operating system:
+
+# [iOS](#tab/ios)
 
 For iOS applications, Marketing uses the Apple Push Notification service (APNs), a platform service that enables third-party application developers to send push notifications to iOS users. You can choose from two authentication modes:
 
@@ -67,27 +59,16 @@ For iOS applications, Marketing uses the Apple Push Notification service (APNs),
   - *Bundle ID*: Created together with the APNs certificate for your app.
   - *Team ID*: Refer to Apple developer documentation to determine how to get your Team ID.
 
-#### Android applications
+# [Android](#tab/android)
 
 For Android applications, Marketing uses the Firebase Cloud Messaging (FCM) service. To configure your Android application to work with Marketing, you need to enter the FCM API key string.
 
-### 3. Complete the configuration
+---
 
-Once you have entered the information for the mobile applications you want to connect, select **Save** to save and validate the mobile app configuration changes.
+3. Review and save your app configuration, then find and select your newly created mobile app configuration in **Settings** > **Customer engagement** > **Push notification**. Go to the **Developer information** tab, copy the details, and share them with your app developer as they will need them to connect your app.
 
-If the connection was successful, an access token will be generated. You can generate more access tokens as needed—for instance, when app developers need to update the application.
-
-To connect the application with Marketing, you'll need to share the access token and the application ID with your app developer. The token will work immediately, as long as the *Credential validation* field on the right side of the mobile app configuration page shows as valid.
-
->[!TIP]
-> To learn more about the developer configuration for push notifications, see [Push notification setup for application developers](real-time-marketing-developer-push.md).
-
-When the access token is established successfully, the connection is completed and the mobile app configuration will be validated.
-
-Refer to the step-by-step summary on the right side of the mobile app configuration page for the current status of your mobile app configuration.
-
-> [!div class="mx-imgBorder"]
-> ![Mobile app configuration setup status screenshot.](media/real-time-marketing-push-right-side.png "Mobile app configuration setup status screenshot")
+> [!NOTE]
+> To learn more about the developer configuration for push notifications, see [Push notification setup for application developers](real-time-marketing-developer-push.md)
 
 ## Create push notification messages
 
@@ -98,12 +79,13 @@ After you have successfully created your mobile app configuration, you can start
 
 In the push notification message editor, you can enter a title, a subtitle, a message, and preview how your message will appear in iOS and Android.
 
-Using the *On-click behavior* field, you can also specify the message behavior when customers tap on the message in their mobile phones.
+When you add images, copilot will suggest images that match your content when you insert an image.
+
+Using the On-click behavior field, you can also specify the message behavior when customers tap on the message in their mobile phones.
 - **Open the app**: Opens the mobile application.
 - **Open the browser**: Opens a specified URL.
 
 Try test-sending the push notification to your mobile app configuration or add it to a journey to see how it can be used.
-
 To stop messages from being sent, you can deactivate or delete them.
 
 ## Personalize your push notifications

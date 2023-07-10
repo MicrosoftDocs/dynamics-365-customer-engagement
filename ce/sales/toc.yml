@@ -212,6 +212,11 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Enable Copilot email assist
+              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -586,14 +591,14 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
               href: fre-setup-sales-insight-app.md
-            - name: Configure conversation intelligence to connect call data
-              href: configure-conversation-intelligence-call-data.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
             - name: Configure conversation content
@@ -614,6 +619,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -761,6 +770,11 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
         - name: Auto capture activities
           href: auto-capture.md
           items:

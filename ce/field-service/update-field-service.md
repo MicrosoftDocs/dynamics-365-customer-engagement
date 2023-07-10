@@ -14,7 +14,7 @@ Microsoft regularly releases updates to Dynamics 365 Field Service and related s
 
 Multiple updates are released throughout the year.
 
-- **Minor updates** are released each month and include only nondisrupting bug fixes.
+- **Minor updates** are released each month and include only minor bug fixes. Administrators receive a notification when an update is planned.
 
 - **Major updates** are released in April and October and include new features, enhancements, and bug fixes.
 
