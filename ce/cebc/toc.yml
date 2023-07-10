@@ -1,4 +1,4 @@
-- name: Docs
+- name: Learn
   href: /
   topicHref: /
   items:
@@ -32,15 +32,8 @@
       tocHref: /dynamics365/sales/
       topicHref: /dynamics365/sales/index
     - name: Customer Service
-      tocHref: /dynamics365/customer-service/
-      topicHref: /dynamics365/customer-service/overview
-      items:
-      - name: Channel Integration Framework
-        tocHref: /dynamics365/developer/channel-integration-framework/
-        topicHref: /dynamics365/developer/channel-integration-framework/channel-integration-framework
-      - name: Channel Integration Framework
-        tocHref: /dynamics365/customer-service/channel-integration-framework/
-        topicHref: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework       
+      tocHref: /customer-service/
+      topicHref: customer-service/
     - name: Universal Resource Scheduling
       tocHref: /dynamics365/common-scheduler/
       topicHref: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
