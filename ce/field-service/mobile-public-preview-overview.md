@@ -15,7 +15,7 @@ In July 2023, we’re introducing the public preview of a **new Dynamics 365 Fie
 
 From changing the status of a booking with a quick swipe to accessing driving directions to a customer site with one tap, the redesign saves valuable technician time for daily work. Technicians can not only easily pick, change, or complete work order details, but also add notes with multiple inline images. 
 
-In addition, to help improve first-time fix rates, **Dynamics 365 Guides in 2D mode** can now be embedded for step-by-step instructions with pictures and branching flow.  
+In addition, to help improve first-time fix rates, **Dynamics 365 Guides** can now be embedded for step-by-step instructions with pictures and branching flow.  
 
 > [Add link to this video](https://microsoft-my.sharepoint.com/:v:/p/marewa/EaKlFvr-Pt1BiLOJiy0ylM8Bv1AaRnCv-vCt0-JfZJQEvA?e=ATavzi)
 

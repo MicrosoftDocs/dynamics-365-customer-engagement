@@ -44,7 +44,7 @@ To reach this functionality simply navigate to the app menu and follow the same 
 
 --- 
 
-## Guides 2D
+## Guides
 
 ### [Unified Interface app](#tab/vCurrent)
 
@@ -52,16 +52,17 @@ This feature is only available in **Public Preview**.
 
 ### [Public Preview app](#tab/vNext)
 
-If your organization has enabled your account to access Guides 2D, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides 2D library, search for specific Guides, and follow them step by step.
+If your organization has enabled your account to access Guides, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides library, search for specific Guides, and follow them step by step.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Guides 2D home page within the Field Service Mobile app](./media/mobile-public-preview-related-guides-home.png)
+> ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-public-preview-related-guides-home.png)
 
-If a **Service Task** within a **Work Order** has been created with a Guides 2D attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
+<!-- 
+If a **Service Task** within a **Work Order** has been created with a Guides attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Guides 2D Service Tasks within the Field Service Mobile app](./media/mobile-public-preview-related-guides-servicetasks.png)
-
+> ![Screenshot of Guides Service Tasks within the Field Service Mobile app](./media/mobile-public-preview-related-guides-servicetasks.png)
+-->
 ---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
