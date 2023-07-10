@@ -66,4 +66,4 @@ Learn more: [Real-time marketing preference pages](real-time-marketing-complianc
 [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 [Use GDPR features](gdpr-use-features.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
