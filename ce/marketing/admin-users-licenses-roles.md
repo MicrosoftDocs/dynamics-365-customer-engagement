@@ -227,6 +227,7 @@ After deploying real-time marketing features, several service users are created.
 ### Real-time marketing service user roles
 | Real-time marketing service role | Marketing area |
 | ---- | ------- |
+| Cxp Channels Application User | Communication channels |
 | Cxp Channel Definitions Services User | Custom channel |
 | Cxp Consent Services User | Consent management |
 | Cxp CDP-A Export Services User | Analytics |
