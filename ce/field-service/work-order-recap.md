@@ -1,16 +1,20 @@
 ---
-title:
+title: Work order recap with Copilot in Field Service (preview)
 description: 
-ms.date: 07/03/2023
+ms.date: 07/10/2023
 ms.topic: how-to
 ms.custom: bap-template
-author: 
-ms.author: 
+author: jasonccohen
+ms.author: jacoh
 ---
 
 # Work order recap with Copilot in Field Service (preview)
 
+[!INCLUDEpublic-preview-banner]
+
 The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order, including its past developments, future actions, arrival times, work criticality, and parts used or to be used.
+
+[!INCLUDEpublic-preview-note]
 
 ## Generate a work order recap
 
@@ -18,16 +22,16 @@ Users can interact with the recap feature from the work order form, which includ
 
 ## Recap Generation and Content
 
-When you generate a recap, the system passes the work order ID and its current system status to an API. The system then uses the requesting user's security context to pull relevant data based on the status of the work order to create the recap. Assuming the user has access to the data and the data exists for the given work order, the recap uses contextual information directly from the work order and related records to generate the recap content. The feature may use the summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order, as well as related information like requirement characteristics, asset details, and invoice information.
+When you generate a recap, the system passes the work order ID and its current system status to an API. The system then uses the requesting user's security context to pull relevant data based on the status of the work order to create the recap. Assuming the user has access to the data and the data exists for the given work order, the recap uses contextual information directly from the work order and related records to generate the recap content. The system may use the summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order, as well as related information like requirement characteristics, asset details, and invoice information.
 
 The recap is tailored to the work order's lifecycle stage, focusing on the most relevant information for each.
 
-- **Unscheduled**: Recap focuses on information relevant to scheduling the work order.
-- **Scheduled**: Recap emphasizes details relevant to planning and arrival at the work order site.
-- **In Progress**: Recap provides information relevant to completing the work order and shares the current state of work.
-- **Completed**: Recap summarizes the work done, how it was completed, and includes a summary of costs and prices.
-- **Posted**: Recap repeats the *Completed* state information and includes relevant invoice details.
-- **Cancelled**: Recap summarizes the proposed scope of work, scheduling details, and includes any information that might help understand the history of the work order.
+- **Unscheduled**: Information relevant to scheduling the work order.
+- **Scheduled**: Details relevant to planning and arrival at the work order site.
+- **In Progress**: Information relevant to completing the work order and the current state of work.
+- **Completed**: Summary of the work done, how it was completed, and a summary of costs and prices.
+- **Posted**: Repeat of the *Completed* state information and relevant invoice details.
+- **Cancelled**: Summary of the proposed scope of work, scheduling details, and any information that might help understand the history of the work order.
 
 |       Work order system status           |                Included information             |
 |-------------------------------|------------------------|
@@ -38,12 +42,10 @@ The recap is tailored to the work order's lifecycle stage, focusing on the most 
 |      **Posted**  |   - Work order Direct Contextual Summary </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks  </br> - Invoice information (including total amount)                           |
 |      **Cancelled**  |    - Work order Direct Contextual Summary </br> -  Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks |
 
-## Feature availability and usage limitations
+## Feature availability
 
-The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom geography from the new work order form. Environments within the United Kingdom will need to go to Field Service Settings to enable to feature before it is available in their environment. At this time, FS Copilot requests will be processed using resources within the United States. 
+The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot Recap**. Currently, Field Service Copilot requests will be processed using resources within the United States.
 
-The feature also adheres to [responsible AI guidelines](transparency-note-work-order-recap.md) and avoids summarizing information that violates certain restrictions. An admin can enable or disable this feature from the Field Service Settings. When disabled, the Copilot Recap control is hidden from the work order form. This feature is only available, out of the box, on the new work order form.
+The feature also adheres to [responsible AI guidelines](transparency-note-work-order-recap.md) and avoids summarizing information that violates certain restrictions. An admin can enable or disable this feature from the Field Service **Settings** page. When disabled, the Copilot Recap control is hidden from the work order form. This feature is only available, out of the box, on the new work order form.
 
 In the event of errors or service limitations, the system returns an error message instead of a recap summary.
-
-Currently, the recap feature does not allow customization of the prompt or the contextual information passed in the prompt. The feature aims to respect user date/time formatting preferences, timezone settings, and environment specific table and field labels in an attempt to return recap content that is tailored to user expectations as defined by user settings and the settings of the specific environment and Field Service implementation. Further, the intial preview of this feature has been tested for release using English. At this time, use in other languages is not supported.
