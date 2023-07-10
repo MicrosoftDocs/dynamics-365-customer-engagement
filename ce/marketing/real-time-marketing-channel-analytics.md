@@ -17,8 +17,7 @@ search.audienceType:
 
 The built-in aggregate channel analytics dashboard shows important metrics and insights about the delivery and engagement of your marketing assets at any level of aggregation. You can access insights across all journeys and channels as well as zoom in on a particular channel or message. This helps you stay on top of your marketing campaign effectiveness and track the performance of your marketing assets.
 
-> [!div class="mx-imgBorder"]
-> ![Aggregate channel analytics dashboard.](media/real-time-marketing-aggregate-channel-analytics.png "Aggregate channel analytics dashboard")
+:::image type="content" source="media/real-time-marketing-aggregate-channel-analytics.png" alt-text="Aggregate channel analytics dashboard." lightbox="media/real-time-marketing-aggregate-channel-analytics.png":::
 
 > [!NOTE]
 > Currently, only interaction data from real-time marketing journeys is used to populate the aggregate channel analytics dashboards. Data from outbound marketing customer journeys is not used.
