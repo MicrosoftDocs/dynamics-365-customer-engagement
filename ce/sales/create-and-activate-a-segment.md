@@ -1,6 +1,6 @@
 ---
 title: Create and activate segments in sales accelerator
-description: Learn how to create and activate segments by defining conditions to automatically add records that satisfy the conditions in Dynamics 365 Sales.
+description: Learn how to create and activate segments, so that records that satisfy defined conditions in Dynamics 365 Sales are automatically added.
 ms.date: 05/26/2023
 ms.topic: article
 author: udaykirang
@@ -12,7 +12,8 @@ ms.author: udag
 As a sequence manager, you create segments (groups of records) by defining different conditions for each segment. After a segment is activated, any record that satisfies the conditions that are defined for the segment becomes a member of the segment. A sequence that is connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
 > [!NOTE]
-> You can have a maximum of 250 active segments in an organization at any time. To increase the limit for active segments, contact Microsoft Support for help.
+> - Only active records are assigned to segments. For example, when a lead is qualified, it becomes a read-only record and creates a new opportunity record. This lead isn't considered for segmentation, because it's now read-only and is no longer active.
+> - You can have a maximum of 250 active segments in an organization at any time. To increase the limit for active segments, contact Microsoft Support for help.
 
 ## License and role requirements
 
