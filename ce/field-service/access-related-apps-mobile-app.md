@@ -54,13 +54,13 @@ This feature is only available in **Public Preview**.
 
 If your organization has enabled your account to access Guides, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides library, search for specific Guides, and follow them step by step.
 
-> [!div class="mx-imgBorder"]
+> [!div]
 > ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-public-preview-related-guides-home.png)
 
 <!-- 
 If a **Service Task** within a **Work Order** has been created with a Guides attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
 
-> [!div class="mx-imgBorder"]
+> [!div]
 > ![Screenshot of Guides Service Tasks within the Field Service Mobile app](./media/mobile-public-preview-related-guides-servicetasks.png)
 -->
 ---

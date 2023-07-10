@@ -22,9 +22,6 @@ In addition, to help improve first-time fix rates, **Dynamics 365 Guides** can n
 ## Public Preview content in the docs
 Once enabled by your administrator, the Public Preview features are accessible directly in the GA app, you don't need to download a different app. To learn more about these new features you can navigate these docs and find the specific Public Preview content alongside the current content in dedicated tabs.
 
-> [!div class="mx-imgBorder"]
-> Screenshot of tabs?
-
 Here's a list of documents that contain specific Public Preview content.
 
 | Document | 
