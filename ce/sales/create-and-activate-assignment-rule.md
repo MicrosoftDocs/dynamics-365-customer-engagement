@@ -88,7 +88,7 @@ By default, rules are listed in the order that they were created in, and the mos
         - **Add related entity**: Add a condition that is based on the attributes of related entities.
 
             1. In the **Related Entity** list in the upper left, select an attribute. 
-            1. On the list to the right, select either **Contains data** or **Does not contain data**.
+            1. In the list to the right, select either **Contains data** or **Does not contain data**.
             1. Define the condition.
 
             > [!div class="mx-imgBorder"]
