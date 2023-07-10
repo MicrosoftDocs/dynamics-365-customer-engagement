@@ -36,9 +36,6 @@ Here's a list of documents that contain specific Public Preview content.
 ## Enabling the Public Preview features (admin)
 To enable the Field Service Mobile Public Preview features for your organization's technicians, you need to log in as an administrator to Dynamics 365 and then select the **Field Service Mobile** app from the list of all installed apps in your organizations.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile app tile in the list of Dynamics 365 apps on the web](./media/mobile-public-preview-enable-list.png)
-
 Once the Filed Service Mobile app screen loads, click on the bottom left menu and select **Settings**. Finally use the toggle to enable or disable the Public Preview features for all users within the organization.
 
 > [!div class="mx-imgBorder"]
