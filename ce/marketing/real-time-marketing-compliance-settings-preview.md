@@ -1,7 +1,7 @@
-----
+---
 title: "Preview: Grow your business with multi-brand, custom preference centers"
 description: Learn how to manage real-time marketing user compliance settings in Dynamics 365 Marketing.
-ms.date: 05/08/2022
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

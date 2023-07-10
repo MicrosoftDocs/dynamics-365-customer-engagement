@@ -1,7 +1,7 @@
 ---
 title: Use GDPR features
 description: Learn how to use GDPR features in Dynamics 365 Marketing.
-ms.date: 05/08/2023
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

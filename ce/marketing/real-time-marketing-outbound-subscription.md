@@ -1,7 +1,7 @@
 ---
-title: "Use outbound subscription centers in real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing."
-ms.date: 05/08/2023
+title: Use outbound subscription centers in real-time journeys
+description: Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,7 +21,7 @@ This article explains how to use outbound marketing subscription centers in real
 > You can only use subscription centers in real-time journeys that target contacts. Journeys that target leads or customer profiles will continue to use the default preference page.
 
 > [!NOTE]
-> Real-time marketing has introduced a new Compliance profile type of Preference center that works natively with Contact point-based consent in Real-time marketing. Preference centers offer improved functionality, such as more customizable forms and the ability to update text message consent. Learn more about [Real-time marketing compliance profiles](real-time-marketing-compliance-settings.md) and [Preference centers](real-time-marketing-preference-centers.md).  
+> Real-time marketing has introduced a new compliance profile type of preference center that works natively with contact point-based consent in real-time marketing. Preference centers offer improved functionality, such as more customizable forms and the ability to update text message consent. Learn more: [Real-time marketing compliance profiles](real-time-marketing-compliance-settings.md) and [Preference centers](real-time-marketing-preference-centers.md)
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ Now you can use the subscription center you've set up in a real-time marketing e
 
 1. Open or create a new email message in the real-time marketing email editor.
 1. Select the email header and go to **Email Settings** in the right pane.
-1. Under **Compliance**, select the Compliance profile with the Subscription center you set up in the "Quick Create: Compliance" settings in the previous step.
+1. Under **Compliance**, select the compliance profile with the subscription center you set up in the "Quick Create: Compliance" settings in the previous step.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of selecting the subscription center under Compliance.](media/outbound-subscription-compliance-select.png "Screenshot of selecting the subscription center under Compliance")

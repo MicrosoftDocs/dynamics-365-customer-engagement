@@ -1,4 +1,4 @@
-----
+---
 title: "Preview: Manage consent for email and text messages in real-time marketing"
 description: Learn how to manage consent for messages in Dynamics 365 Marketing.
 ms.date: 05/08/2023

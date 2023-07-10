@@ -1,7 +1,7 @@
 ---
-title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 04/04/2023
+title: Create real-time marketing emails
+description: Learn how to create real-time marketing emails in Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -66,9 +66,9 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
     - **Event and sessions registered**: The file contains information for the event and the sessions the contact has registered for.
     - **Only sessions registered**: The file contains only the event sessions the contact has registered for.
 
-### Select a Compliance profile, Purpose, and Topic for the message
+### Select a compliance profile, purpose, and topic for the message
 
-Within the Compliance section of the email settings, you need to choose a Compliance profile and Purpose for the email. This ensures that consent checks are performed as required by the Compliance profile and Purpose's enforcement model. Optionally, you can choose a Topic for the email, which allows you to collect more granular consent data to enable your customers to receive exactly the communications they want. [Learn more about Real-time marketing consent settings.](real-time-marketing-email-and-text-consent.md)
+Within the compliance section of the email settings, you need to choose a compliance profile and purpose for the email. This ensures that consent checks are performed as required by the compliance profile and purpose's enforcement model. Optionally, you can choose a topic for the email, which allows you to collect more granular consent data to enable your customers to receive exactly the communications they want. Learn more: Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 
 ## Preview and test your email
 

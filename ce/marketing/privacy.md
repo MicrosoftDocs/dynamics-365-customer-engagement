@@ -1,7 +1,7 @@
 ---
 title: Data protection and privacy
-description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
-ms.date: 04/21/2023
+description: Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

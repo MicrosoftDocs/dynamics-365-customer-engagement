@@ -1,5 +1,5 @@
 ---
-title: "Manage consent for email and text messages in real-time marketing"
+title: Manage consent for email and text messages in real-time marketing
 description: Learn how to manage consent for messages in Dynamics 365 Marketing.
 ms.date: 07/01/2023
 ms.custom: 
@@ -19,12 +19,12 @@ search.audienceType:
 > Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
-> As of December 2022, consent enforcement for real-time customer journeys for **Contacts** was changed to require opt-in for emails sent using the **Restrictive** consent enforcement model. If you would like to revert to the previous behavior, you can change your consent enforcement model to **Non-restrictive**. Alternatively, if you have previously captured consent on **Contact** records in outbound marketing, you can **Load consent** to populate the contact point consent records used to enforce consent in real-time marketing. [Learn more about migrating consent.](real-time-marketing-migrate-consent.md)
+> As of December 2022, consent enforcement for real-time customer journeys for **contacts** was changed to require opt-in for emails sent using the **restrictive** consent enforcement model. If you would like to revert to the previous behavior, you can change your consent enforcement model to **non-restrictive**. Alternatively, if you have previously captured consent on **contact** records in outbound marketing, you can **load consent** to populate the contact point consent records used to enforce consent in real-time marketing. Learn more: [Migrate consent records to real-time marketing](real-time-marketing-migrate-consent.md)
 
-> [!IMPORTANT]
-> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
+> [!TIP]
+> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, leads or Customer Insights profiles).
 
-Whether consent is checked before sending emails and text messages depends on the consent model that you select for the **Purpose** in a specific **Compliance Profile**. [Learn more about compliance settings.](real-time-marketing-compliance-settings.md)
+Whether consent is checked before sending emails and text messages depends on the consent model that you select for the **Purpose** in a specific **Compliance Profile**. Learn more:[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
 
 ## How consent is respected for emails
 
@@ -48,13 +48,13 @@ The real-time marketing rules for sending text messages are slightly different t
 
 ## Consent to track user behavior
 
-Each Compliance profile has its own Purpose specifically for tracking user interactions, such as message opens and link clicks. Like the Commercial and Transactional purposes, the enforcement model for tracking consent can be Restrictive, Non-restrictive, or disabled. If the tracking purpose is set to a disabled enforcement model, no tracking consent checks are made for messages sent as part of that compliance profile, meaning all interactions are tracked. 
+Each compliance profile has its own purpose specifically for tracking user interactions, such as message opens and link clicks. Like the commercial and transactional purposes, the enforcement model for tracking consent can be restrictive, non-restrictive, or disabled. If the tracking purpose is set to a disabled enforcement model, no tracking consent checks are made for messages sent as part of that compliance profile, meaning all interactions are tracked.
 
-If you would like to collect tracking consent, you can add the tracking purpose to Forms and Preference centers.  
+If you would like to collect tracking consent, you can add the tracking purpose to forms and preference centers.  
 
 ## Consent enforcement diagram
 
-The following diagram provides a visual representation of how consent will be enforced in Real-time marketing.
+The following diagram provides a visual representation of how consent is enforced in real-time marketing.
 
 <table>
   <tr>
@@ -146,7 +146,7 @@ The following diagram provides a visual representation of how consent will be en
 </table>
 
 > [!IMPORTANT]
-> Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, Leads or Customer Insights profiles).
+> Real-time marketing checks the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, leads or Customer Insights profiles).
 
 ## View consent records
 
