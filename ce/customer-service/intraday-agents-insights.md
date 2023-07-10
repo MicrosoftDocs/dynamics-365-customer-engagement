@@ -82,8 +82,8 @@ You can use the filters pane on the right to see only the signed-in agents in th
     >![Set filters to view signed-in agents.](media/filters-signed-in.png "Set filters to view signed-in agents")
 
 You can also create a custom report or customize an existing report per your business requirements to monitor the agent capacity. Use the following entities to get the agent capacity information:
-- The [agent status](/developer/reference/entities/msdyn_agentstatus.md) entity to get the latest capacity profile and presence status of an agent. 
-- The [status history](/developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity to get the history or audit trail of the presence and capacity profile changes for an agent.
+- The [agent status](./developer/reference/entities/msdyn_agentstatus.md) entity to get the latest capacity profile and presence status of an agent. 
+- The [status history](./developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity to get the history or audit trail of the presence and capacity profile changes for an agent.
 
 ### Agent details
 
