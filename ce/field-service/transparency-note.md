@@ -17,4 +17,3 @@ ms.reviewer: jacohen
 [!INCLUDE[transparency-note-features](../includes/transparency-note-features.md)]
 
 - [Work order recap](transparency-note-work-order-recap.md)
-- [[Feature]]([Link])
