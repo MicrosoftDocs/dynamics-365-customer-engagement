@@ -1,7 +1,7 @@
 ---
 title: Coach sellers with conversation intelligence
 description: Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence.
-ms.date: 10/31/2022
+ms.date: 06/29/2023
 ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: lavanyakr01
@@ -58,8 +58,8 @@ Conversation intelligence is designed to help sales managers and sellers in thei
     > [!NOTE]
     > Sales managers can also define tracked keywords and competitors. These tracked keywords and competitors apply only to their team.  
 
-- Configure how long you want to retain a team's or individual seller's data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).  
-- Manage environments and configure call data. To learn more, see [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).  
+- Configure how long you want to retain a team's or individual seller's data in your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).  
+- [Connect conversation intelligence to a Dynamics 365 environment](connect-dynamics365-sales-environment.md) 
 - Monitor call and insight processing data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).   
 -	Configure the levels of hierarchy for which sales managers can view the call data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).  
 
