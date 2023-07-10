@@ -30,10 +30,15 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [Public Preview app](#tab/vNext)
 
-It is possible to change the status of the booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
+Change the status of a booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
 
 > [!div]
 > ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-public-preview-traveling.png)
+
+Open the default maps app to get directions by tapping on the directions icon directly from the bookings home page. You can decide if you want the booking status to change to **Traveling** when you do so.
+
+> [!div]
+> ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-public-preview-traveling-directions.png)
 
 ---
 
@@ -77,7 +82,6 @@ In Public Preview you take notes directly in the **Timeline** tab. Simply tap on
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-public-preview-notes.png)
 
 > [!NOTE]
-> The control currently supports only text and images. More media formats will be supported in subsequent versions.
 > Notes in the Timeline are associated with the current booking and cannot currently be viewed at the Work Order level.
 
 ---
