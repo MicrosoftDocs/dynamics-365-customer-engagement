@@ -50,6 +50,6 @@ On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-ti
     - Migrating your marketing artifacts
     - Identifying potential challenges
     - Retiring the use of outbound marketing
-- [TechTalk: Dynamics 365 Marketing: OBM to RTM Transition Playbook](/dynamics-365-fasttrack-architecture-insights/dynamics-365-marketing-obm-to-rtm-transition-playbook)
+- [TechTalk: Dynamics 365 Marketing: OBM to RTM Transition Playbook](/shows/dynamics-365-fasttrack-architecture-insights/dynamics-365-marketing-obm-to-rtm-transition-playbook)
 
 Reach out to FastTrack or your account manager for additional questions or help.
