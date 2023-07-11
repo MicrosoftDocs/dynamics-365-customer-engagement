@@ -6,7 +6,7 @@
     href: ci-overview.md
   - name: Get real-time marketing
     items:
-    - name: Outbound to real-time playbook
+    - name: Move from outbound to real-time
       href: real-time-marketing-playbook.md
     - name: Real-time marketing transition FAQ
       href: real-time-marketing-transition.md
