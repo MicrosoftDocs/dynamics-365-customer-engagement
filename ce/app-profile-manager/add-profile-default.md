@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 04/05/2023 
+ms.date: 07/11/2023 
 ms.custom: bap-template 
 ---
 
@@ -59,9 +59,12 @@ To add a security role and rank to an agent experience profile, perform the foll
 1. In **Customer Service admin center** select **Workspaces** in **Agent experience**.
 1. On **Agent experience profiles** select a custom agent experience profile, and then select  **Set rank and roles**. 
    > [!NOTE]
-   > - If the default custom profile is set, you can't assign the same profile to user security roles.
-   > - When an agent experience profile with a role assigned is set to default, all the users in the organization will be assigned the agent experience profile, overriding the role assignment. 
    > - You can't set security roles and rank to the out-of-the-box profiles.
+   > - When you set a custom profile as the default, the following changes occur:
+   >   - You can't set security roles and rank to the out-of-the-box profiles.
+   >   - You no longer can assign security roles to the default profile.
+   >   - Existing security roles will be removed.
+
 1. In **Profile rank and roles assignment** specify the following:
      - **Rank**: Used to determine the custom agent experience profile that must be mapped to a user when multiple roles are assigned to a user.
      - **Roles**: The user roles that the custom agent experience profile can be mapped to.
