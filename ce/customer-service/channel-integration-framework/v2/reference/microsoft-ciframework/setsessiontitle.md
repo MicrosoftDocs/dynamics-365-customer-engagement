@@ -1,7 +1,7 @@
 ---
 title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 06/19/2023
+ms.date: 07/12/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -12,14 +12,12 @@ ms.custom:
 
 # setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- 
 
-[!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
-[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
-
- >[!NOTE]  
- > Use this API only when the focused session belongs to the provider or if it is either the home or default session.
+ >[!NOTE]
+ > - This content applies only to Dynamics 365 Channel Integration Framework version 2.0.
+ > - Session management APIs allow you to integrate multisession experiences only in Omnichannel for Customer Service app.
+ > - Use this API only when the focused session belongs to the provider or if it is either the home or default session.
 
 Sets the session title, if the session belongs to the channel provider.
 
