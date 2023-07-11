@@ -57,13 +57,12 @@ The user, John Doe, has both the Customer Service Representative and Omnichannel
 To add a security role and rank to an agent experience profile, perform the following steps:
 
 1. In **Customer Service admin center** select **Workspaces** in **Agent experience**.
-1. On **Agent experience profiles** select a custom agent experience profile, and then select  **Set rank and roles**. 
-   > [!NOTE]
-   > - You can't set security roles and rank to the out-of-the-box profiles.
-   > - When you set a custom profile as the default, the following changes occur:
-   >   - You can't set security roles and rank to the out-of-the-box profiles.
-   >   - You no longer can assign security roles to the default profile.
-   >   - Existing security roles will be removed.
+1. On **Agent experience profiles** select a custom agent experience profile, and then select  **Set rank and roles**. You can't set security roles and rank to the out-of-the-box profiles.
+
+When you set a custom profile as the default, the following changes occur:
+ - You can't set security roles and rank to the out-of-the-box profiles.
+ - You no longer can assign security roles to the default profile.
+ - Existing security roles will be removed.
 
 1. In **Profile rank and roles assignment** specify the following:
      - **Rank**: Used to determine the custom agent experience profile that must be mapped to a user when multiple roles are assigned to a user.
