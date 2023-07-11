@@ -769,6 +769,8 @@
           items:
             - name: Compose and send email messages using Copilot
               href: compose-send-email-copilot.md
+            - name: View and copy email summary
+              href: view-copy-email-summary.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
