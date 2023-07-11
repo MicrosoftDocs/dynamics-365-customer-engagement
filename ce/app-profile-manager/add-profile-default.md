@@ -39,7 +39,7 @@ You can't set multiple profiles as the default profile. If you must change the d
 
 ## Map security roles to agent experience profiles
 
-When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a user role to provide customized app experiences for each group.
+When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a user role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified user role.
 
 If users have multiple security roles, the applications links the profile with the higher rank to the user. 
 
@@ -60,7 +60,8 @@ To add a security role and rank to an agent experience profile, perform the foll
 1. On **Agent experience profiles** select a custom agent experience profile, and then select  **Set rank and roles**. 
    > [!NOTE]
    > - If the default custom profile is set, you can't assign the same profile to user security roles.
-   >- You can't set security roles and rank to the out-of-the-box profiles.
+   > - When an agent experience profile with a role assigned is set to default, all the users in the organization will be assigned the agent experience profile, overriding the role assignment. 
+   > - You can't set security roles and rank to the out-of-the-box profiles.
 1. In **Profile rank and roles assignment** specify the following:
      - **Rank**: Used to determine the custom agent experience profile that must be mapped to a user when multiple roles are assigned to a user.
      - **Roles**: The user roles that the custom agent experience profile can be mapped to.
