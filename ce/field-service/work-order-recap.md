@@ -46,6 +46,6 @@ The recap is tailored to the work order's lifecycle stage, focusing on the most 
 
 The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot Recap**. Currently, Field Service Copilot requests will be processed using resources within the United States.
 
-The feature also adheres to [responsible AI guidelines](transparency-note-work-order-recap.md) and avoids summarizing information that violates certain restrictions. An admin can enable or disable this feature from the Field Service **Settings** page. When disabled, the Copilot Recap control is hidden from the work order form. This feature is only available, out of the box, on the new work order form.
+The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids summarizing information that violates certain restrictions.
 
 In the event of errors or service limitations, the system returns an error message instead of a recap summary.

@@ -487,9 +487,9 @@ items:
 - name: Responsible AI
   items: 
     - name: Overview
-      href: transparency-note.md
-    - name: Transparency note for work order recap
-      href: transparency-note-work-order-recap.md
+      href: responsible-ai-overview.md
+    - name: FAQs for work order recap
+      href: faqs-work-order-recap.md
 
 - name: More resources
   items:
