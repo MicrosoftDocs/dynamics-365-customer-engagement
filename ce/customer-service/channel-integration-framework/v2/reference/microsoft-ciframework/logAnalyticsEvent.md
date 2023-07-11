@@ -1,7 +1,7 @@
 ---
 title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the logAnalyticsEvent method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 11/30/2022
+ms.date: 07/11/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -59,6 +59,26 @@ Here's the structure of the `data` parameter JSON. Be sure to include the fields
 ## Return value
 
 Promise with value as string
+
+## Example
+
+```Javascript
+
+//Success callback handler
+const successCallback = (result) => {
+  // result will indicate if the custom analytics event has been logged
+  console.log(result);
+};
+
+//Failure callback handler
+const errorCallback = (error) => {
+  // handling failure
+  console.error(error)
+};
+
+Microsoft.CIFramework.logAnalyticsEvent(data, eventName, correlationId).then(successCallback, errorCallback);
+
+```
 
 ### See also
 
