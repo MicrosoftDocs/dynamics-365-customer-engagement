@@ -19,8 +19,8 @@ As an administrator for your organization, the set up tasks for the Field Servic
 - Field Service (Preview) Teams app
 
 > [!div class="op_single_selector"]
-> [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
-> [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
+> [Set up the Field Service (Preview) Outlook Add-in](/fs-front-line/flw-admin.md#set-up-the-field-service-preview-outlook-add-in)
+> [Set up the Field Service (Preview) Teams app](../fs-front-line/flw-admin.md#set-up-field-service-preview-teams-app)
 
 ## Set up the Field Service (Preview) Outlook Add-in
 
