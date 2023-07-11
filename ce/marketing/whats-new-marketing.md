@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 07/05/2023
+ms.date: 07/10/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -31,10 +31,17 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 |------------------|-----------------|
 | Marketing        |  1.96.2027      |
 
+> [!IMPORTANT]
+> Starting in July 2023, custom workflows can no longer *read* from the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities. To ensure continued functionality, you must update custom workflows to read from the latest **msdynmkt_contactpointconsent4** entity.
+>
+> Custom workflows that *write* to the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities will automatically have data synced to the latest **msdynmkt_contactpointconsent4** entity until January 2024, with some delay (potentially 24 hours or longer). If your workflows depend on data being available sooner than that, you should update your workflows to *write* to the **msdynmkt_contactpointconsent4** entity instead.
+>
+> Additionally, as of June 2023, the **Consent Type** field is mandatory for the **msdynmkt_contactpointconsent4** entity. To ensure continued functionality of custom workflows, update the workflows to include this mandatory field.
+
 ### General availability
 
 - **Make your push notifications more engaging by adding images**
-    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results. Quickly find images that best complement your content in seconds thanks to copilot image recommendations.
+    - Orchestrate beautiful, personalized push notifications with images to increase customer engagement. Add product images, promotional graphics, brand logos, or appealing illustrations to your push notifications to make them more informative and persuasive. New, eye-catching push notifications lead to higher user engagement and better campaign results.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/make-push-notifications-more-engaging-adding-images)
     - [Docs](real-time-marketing-push-notifications.md)
 
@@ -56,7 +63,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent. Easily configure topics for messages, enabling per-topic customer opt-in or opt-out. Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
-    - [Docs](real-time-marketing-email-text-consent-preview.md)
+    - [Docs](real-time-marketing-email-text-consent.md)
 
 - **Plan events with intuitive event registration form**
     - Easily plan events in real-time marketing that drive high attendance, convert customers, and meet your business goals. Events are a critical part of marketing. With the updated event planning features based on new, intuitive registration forms, creating, and managing events is a breeze. Event planning’s tight integration with real-time marketing makes it easier than ever to guide attendees to the next step in their journey.
@@ -64,9 +71,8 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - [Docs](set-up-event.md)
 
 - **Confidently send emails after previewing trigger-based personalization**
-    - Personalizing content is an effective strategy for boosting engagement but ensuring such personalized content is accurate for a variety of recipients can be a challenging task. We made this task easier in April 2023 release that added support for previewing emails using data from a selected audience record. This release extends this capability to include support for triggers. Now any personalization that uses data from any out of the box triggers can also be tested easily. Additionally, use can now enter values manually for selected personalization that override data from audience or trigger for easily testing edge cases.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/confidently-send-emails-after-previewing-using-sample-audience-data)
-    - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
+    - Personalizing content is an effective strategy for boosting engagement but ensuring such personalized content is accurate for a variety of recipients can be a challenging task. We made this task easier in April 2023 release that added support for previewing emails using data from a selected audience record. This release extends this capability to include support for triggers. Now any personalization that uses data from any out of the box triggers can also be tested easily. Additionally, you can now enter values manually for selected personalization that override data from audience or trigger for easily testing edge cases.
+    - [Docs](real-time-marketing-email.md#preview-and-test-send-your-email)
 
 - **Easily include QR codes for event registration, link, page, or any custom text**
     - QR codes are widely used to share information that is easily actionable on mobile devices with just a simple scan. They are an effective tool for promoting and increasing engagement for various purposes like` events, web pages, coupons, and more. The Email designer already includes a feature that allows easy insertion of QR codes for commonly used targets such as events, URLs, surveys, and file downloads. Now, we have added two additional targets. The "Event registration code" target fills a gap in real-time functionality by supporting QR codes for event registration pages along with the registration code needed for check-in. The "Text" option enables you to generate a QR code for any text you type in. Additionally, you can make it dynamic by using personalized data like discount codes or loyalty program membership numbers.
@@ -78,11 +84,6 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - Reach up to 100 million contacts or leads and send up to 300 million messages per month with Dynamics 365 real-time marketing customer journey orchestration. This added capacity empowers you to deliver personalized experiences at scale and delight customers in new ways. Additional interactions will help you grow your business, whether you’re increasing your customer base in new markets, reaching additional geographies, promoting new products, or expanding your prospective customer pipeline to reach higher sales targets.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/scale-business-confidence-300m-maximum-monthly-interactions)
     - [Docs](fair-use-policy.md)
-
-- **Simplify and summarize your segments using query assist Copilot functionality**
-    - Updated Copilot-enhanced query assist streamlines your workflow and enables effective teamwork. Use query assist copilot functionality in real-time marketing to create segments by describing them in plain English. Then, ensure your segment logic matches the intended outcome by translating the logic into a natural language description of the segment. Users who view or consume segments created by others can use the Copilot functionality to identify which audience the segment captures without needing to understand the segment creation logic. Query assist also offers suggested improvements during segment creation to help eliminate redundant conditional statements and further improve segment.
-    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/target-customer-interactions-using-everyday-language-query-assist-copilot-feature)
-    - [Docs](nl-segment-build.md)
 
 ### Monthly enhancements
 
@@ -311,7 +312,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 - **Confidently send emails after quickly previewing emails using sample audience data**
     - Personalizing content is an effective strategy for boosting engagement. However, ensuring that the personalized content is accurate for a variety of recipients can be a challenging task. Fortunately, real-time marketing makes this easy – simply select a sample audience member record to preview the exact content that will be delivered to that recipient.  
-    - [Docs](real-time-marketing-email.md#preview-and-test-your-email)
+    - [Docs](real-time-marketing-email.md#preview-and-test-send-your-email)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot showing email sample data.](media/whats-new-quick-email-preview.png "Screenshot showing email sample data")
