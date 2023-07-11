@@ -236,20 +236,48 @@
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
-    - name: Communication channels
+    - name: Marketing channels
       items:
-      - name: Real-time marketing emails
+      - name: Email campaigns
         items:
-        - name: Email overview
-          href: real-time-marketing-email.md
-        - name: "Preview: Use AI to kickstart email creation with content ideas"
+        - name: Real-time marketing emails
+          items:
+          - name: Email overview
+            href: real-time-marketing-email.md
+          - name: "Preview: Use AI to kickstart email creation with content ideas"
+            href: content-ideas.md
+          - name: Use "Send now" to send emails instantly in real-time marketing
+            href: email-without-journey.md
+          - name: Use brand profiles in real-time marketing email
+            href: brand-profiles-email.md
+          - name: Import outbound emails, templates, and content blocks to real-time marketing
+            href: real-time-marketing-import-email-to-real-time.md
+        - name: Email marketing overview
+          href: prepare-marketing-emails.md
+        - name: Create a new email and design its content
+          href: email-design.md
+        - name: Add dynamic content to email messages
+          href: dynamic-email-content.md
+        - name: Set the sender, receiver, language, and legal designation
+          href: email-properties.md
+        - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
           href: content-ideas.md
-        - name: Use "Send now" to send emails instantly in real-time marketing
-          href: email-without-journey.md
-        - name: Use brand profiles in real-time marketing email
-          href: brand-profiles-email.md
-        - name: Import outbound emails, templates, and content blocks to real-time marketing
-          href: real-time-marketing-import-email-to-real-time.md
+        - name: Generate iCalendar files for events and sessions
+          href: add-to-calendar.md
+        - name: Check your work using previews and test sends
+          href: email-preview.md
+        - name: Email accessibility checker
+          href: email-accessibility.md
+        - name: Check for errors, go live, and deliver
+          href: email-check-golive.md
+        - name: Quickly design and deliver outbound marketing emails with quick send
+          href: email-quick-send.md
+        - name: Check your spam score
+          href: spam-checker.md
+        - name: Design and run A/B tests on your email designs
+          href: email-a-b-testing.md
+        - name: Email troubleshoot + FAQ
+          href: email-troubleshoot.md
       - name: Text messages
         items:
         - name: Outbound text messages
@@ -332,6 +360,8 @@
         href: real-time-marketing-form-overview.md
       - name: Create forms
         href: real-time-marketing-form-create.md
+      - name: Deploy pages that contain real-time marketing forms
+        href: real-time-marketing-deploy-pages.md
       - name: Manage forms
         href: real-time-marketing-manage-forms.md
       - name: Troubleshoot real-time marketing forms
@@ -516,34 +546,6 @@
         href: email-templates.md
       - name: Use custom attributes to enable designer features
         href: custom-template-attributes.md
-    - name: Email campaigns
-      items:
-      - name: Email marketing overview
-        href: prepare-marketing-emails.md
-      - name: Create a new email and design its content
-        href: email-design.md
-      - name: Add dynamic content to email messages
-        href: dynamic-email-content.md
-      - name: Set the sender, receiver, language, and legal designation
-        href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
-        href: content-ideas.md
-      - name: Generate iCalendar files for events and sessions
-        href: add-to-calendar.md
-      - name: Check your work using previews and test sends
-        href: email-preview.md
-      - name: Email accessibility checker
-        href: email-accessibility.md
-      - name: Check for errors, go live, and deliver
-        href: email-check-golive.md
-      - name: Quickly design and deliver outbound marketing emails with quick send
-        href: email-quick-send.md
-      - name: Check your spam score
-        href: spam-checker.md
-      - name: Design and run A/B tests on your email designs
-        href: email-a-b-testing.md
-      - name: Email troubleshoot + FAQ
-        href: email-troubleshoot.md
     - name: Domain authentication (old version)
       items:
       - name: Authenticate your domains

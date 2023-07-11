@@ -40,6 +40,10 @@ In the next diagram, Field Service takes advantage of the [Dataverse platform](/
 
 To gain a deeper understanding of making API calls into Dataverse, see the [Microsoft Dataverse Developer Guide](/power-apps/developer/data-platform/overview). Additionally, see [Use Postman with the Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api), which provides valuable instructions for setting up Postman and conducting API testing with Dataverse.
 
+## Privacy notice
+
+For more information, see [Privacy notice for Connected Field Service](cfs-privacy-notice.md).
+
 ## Next steps
 
 - [Connected Field Service overview](connected-field-service.md)
