@@ -63,7 +63,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent. Easily configure topics for messages, enabling per-topic customer opt-in or opt-out. Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand. 
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
-    - [Docs](real-time-marketing-email-text-consent-preview.md)
+    - [Docs](real-time-marketing-email-text-consent.md)
 
 - **Plan events with intuitive event registration form**
     - Easily plan events in real-time marketing that drive high attendance, convert customers, and meet your business goals. Events are a critical part of marketing. With the updated event planning features based on new, intuitive registration forms, creating, and managing events is a breeze. Event planning’s tight integration with real-time marketing makes it easier than ever to guide attendees to the next step in their journey.
