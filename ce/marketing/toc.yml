@@ -560,6 +560,24 @@
     href: troubleshoot-marketing-solution-health.md
   - name: General FAQ
     href: troubleshoot-faq.md
+- name: Learning catalog
+  items:
+  - name: Learning catalog overview
+    href: learning-catalog.yml
+  - name: Business Decision Maker
+    href: learning-bdm.md
+  - name: Business User
+    href: learning-bus-user.md
+  - name: Implementation Project Manager
+    href: learning-project-manager.md
+  - name: Administrator
+    href: learning-administrator.md
+  - name: Developer
+    href: learning-developer.md
+  - name: Functional Consultant
+    href: learning-functional-consultant.md
+  - name: Partner Sales and Marketing
+    href: learning-sales.md
 - name: Outbound marketing
   items:
   - name: Outbound marketing user guide overview
@@ -856,21 +874,3 @@
     href: marketing-calendar.md
   - name: Go live with publishable entities and track their status
     href: go-live.md
-- name: Learning catalog
-  items:
-  - name: Learning catalog overview
-    href: learning-catalog.yml
-  - name: Business Decision Maker
-    href: learning-bdm.md
-  - name: Business User
-    href: learning-bus-user.md
-  - name: Implementation Project Manager
-    href: learning-project-manager.md
-  - name: Administrator
-    href: learning-administrator.md
-  - name: Developer
-    href: learning-developer.md
-  - name: Functional Consultant
-    href: learning-functional-consultant.md
-  - name: Partner Sales and Marketing
-    href: learning-sales.md
