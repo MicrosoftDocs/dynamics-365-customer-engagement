@@ -12,7 +12,14 @@ ms.reviewer: shujoshi
 
 # Enable and set up copilot experiences
 
-Copilot is a virtual assistant that helps sellers to be more productive and effective in their daily work. Copilot provides contextual and actionable insights and suggestions to sellers
+Copilot is a virtual assistant that helps sellers to be more productive and efficient in their daily work. Copilot can summarize records, help sellers catch up on activities, prepare for meetings, and so on.
+
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Enable Sales Copilot
 
