@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 02/17/2023
+ms.date: 07/11/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -136,6 +136,13 @@ You can create notes that include specific details that appear in the swarm time
 
   > [!div class="mx-imgBorder"] 
   > ![View of timeline swarm note.](media/swarm-timeline-note.png "Swarm note created on the timeline")
+
+### Case closure and swarm resolution
+
+When you close a case, either by resolving or canceling it, links to any open swarms that are associated with the case are displayed. You can choose to close or cancel those swarms by selecting the links. If you confirm, the relevant swarms are resolved. If you select cancel, you're returned to the case form.
+
+  > [!div class="mx-imgBorder"] 
+  > ![View of resolve case swarm screen.](media/swarm-case-resolve.png "Links to resolve or cancel a case swarm")
 
 ### Resolve a swarm session
 
