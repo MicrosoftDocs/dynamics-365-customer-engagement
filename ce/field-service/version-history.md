@@ -19,10 +19,10 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.95.25](/dynamics365/field-service/version-history#889525)  | TBD | 07/14/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/07/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.95.25](/dynamics365/field-service/version-history#889525)  | TBD | 07/21/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/14/2023 |
-| | *USG* |   [8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/07/2023 |
-|**Station 4** |*Europe* |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/07/2023 |
+| | *USG* |  [8.8.95.25](/dynamics365/field-service/version-history#889525)  | TBD | 07/21/2023 |
+|**Station 4** |*Europe* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/21/2023 |
 |**Station 5** | *North America*|[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/14/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/14/2023 |
 | | *Dedicated Scale Groups* |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/21/2023 |
@@ -35,6 +35,7 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.95.25
 (Includes Universal Resource Scheduling version [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) and Resource Scheduling controls version 1.2.48.231771).
 
+- Fixed a bug causing IoT Alert statuses to change when no change to the Work Order system status has occurred.
 - Fixed a bug in Dynamics 365 Field Service Mobile that prevented updating status of a work order product when the record is created from within the mobile application.
 - Fixed an accessibility bug in the inspection designer to correctly reflow the interface under different resolutions.
 - Fixed an accessibility bug in the inspection designer to make “move” and “delete” buttons accessible via keyboard.

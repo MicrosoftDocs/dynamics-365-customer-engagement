@@ -1,7 +1,7 @@
 ---
-title: "Push notification setup for application developers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 03/15/2022
+title: Push notification setup for application developers
+description: Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing.
+ms.date: 07/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -15,9 +15,7 @@ search.audienceType:
 
 # Push notification setup for application developers
 
-[Push notification configuration for real-time marketing](real-time-marketing-push-notifications.md) requires some setup that must be completed by an app developer.
-
-The developer process to set up push notifications follows these steps:
+To enable push notifications in real-time marketing, you need to complete the following steps:
 
 1. [App registration](real-time-marketing-push-notifications.md#create-a-mobile-app-configuration)
 1. [Device registration](real-time-marketing-developer-push.md#implement-user-mapping)
@@ -57,7 +55,9 @@ To complete the mobile app configuration, the developer must register devices. T
 
     With this approach, once the configuration is complete, you must also implement the user mapping at runtime. This ensures that the correct person in the Marketing app (represented as a Contact, Lead, or Customer Insights profile) is mapped to the correct person using the mobile app on a particular device.
 
-### Device registration for iOS applications
+Select the tab that corresponds with your device's operating system:
+
+# [iOS](#tab/ios)
 
 To register a device running an iOS application, the following request should be issued:
 
@@ -165,9 +165,69 @@ Parameters:
 @end
 ```
 
-### Device registration for Android applications
+#### API v.2
+
+1. Device Registration (single):
+
+Request URL:
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "ApnsDeviceToken": "%APNS_DEVICE_TOKEN%"
+}
+```
+Returns: 202 on success, 400 if the request is not valid.
+
+2. Device Registration (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if the request is not valid
+
+3. Device Cleanup (single):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN% )"
+}
+```
+Returns: 202 on success, 400 if the request is not valid
+
+4. Device Cleanup (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if the request is not valid
+
+# [Android](#tab/android)
 
 To register a device for an Android application, the following request should be issued:
+
+#### API v.1
 
 Request URL:
 
@@ -196,7 +256,7 @@ Parameters:
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
 - **FcmToken**: Device registration token. [Learn more about how to locate the token.](https://firebase.google.com/docs/cloud-messaging/android/client#retrieve-the-current-registration-token)
 
-#### Sample code to register the device token with Dynamics 365
+##### Sample code to register the device token with Dynamics 365
 
 ```
 public class DeviceRegistrationContract { 
@@ -240,5 +300,62 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
+#### API v.2
+
+1. Device Registration (single):
+
+Request URL:
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "FcmDeviceToken": "%FCM_DEVICE_TOKEN%",
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+2. Device Registration (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+3. Device Cleanup (single):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN%)"
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+4. Device Cleanup (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
