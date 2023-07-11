@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 01/23/2023
+ms.date: 07/11/2023
 ms.custom: bap-template
 ---
 
@@ -19,18 +19,20 @@ You can track the various details of your article in Customer Service Hub. The *
 
 ### Analytics tab
 
-To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
+To view an article’s view counts and other related statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**. Shows you the total number of times this article has been viewed. It also shows individual article views on specific days. You can select the column headers to sort by chronological order or by the number of views.
+- **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day. The data that you see is the Coordinated Universal Time (UTC) time zone. You'll need to calculate your local time zone based on UTC. For example, 23rd Jun, 9:00 AM UTC time zone translates to 23rd Jun, 6:00 AM Brazil (UTC-3) time zone.
 
-- **Feedback**. Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback sub grid shows all feedback received for the current knowledge article.  
+    The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
+
+- **Feedback**: Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback sub grid shows all feedback received for the current knowledge article.  
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    
    > [!NOTE]
    > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
 
-- **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
+- **Cases**: Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
      By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you promote your knowledge articles better and provide more useful information to your customers and team members.
 
