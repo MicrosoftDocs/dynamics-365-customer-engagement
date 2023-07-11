@@ -5,6 +5,7 @@
   - name: Real-time marketing overview
     href: real-time-marketing-overview.md
   - name: Get real-time marketing
+    items:
     - name: Outbound to real-time playbook
       href: real-time-marketing-playbook.md
     - name: Real-time marketing transition FAQ
