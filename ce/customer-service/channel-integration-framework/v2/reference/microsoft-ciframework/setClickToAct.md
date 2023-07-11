@@ -49,7 +49,7 @@ Microsoft.CIFramework.setClickToAct(false).then(
 ```
 
 ```Javascript
-// To Enable outbound communication.
+// To enable outbound communication.
 Microsoft.CIFramework.setClickToAct(true).then(
     function (result) {
         // result will indicate whether the outbound communication is enabled or not.
