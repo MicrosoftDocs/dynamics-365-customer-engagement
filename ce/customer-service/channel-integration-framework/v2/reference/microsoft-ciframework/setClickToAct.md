@@ -46,7 +46,9 @@ Microsoft.CIFramework.setClickToAct(false).then(
         // code handling for promise failure
         console.log(error)
     });
+```
 
+```Javascript
 // To Enable outbound communication.
 Microsoft.CIFramework.setClickToAct(true).then(
     function (result) {

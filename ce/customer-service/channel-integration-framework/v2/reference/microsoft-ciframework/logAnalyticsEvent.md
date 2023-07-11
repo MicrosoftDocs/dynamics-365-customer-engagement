@@ -63,7 +63,6 @@ Promise with value as string
 ## Example
 
 ```Javascript
-
 //Success callback handler
 const successCallback = (result) => {
   // result will indicate if the custom analytics event has been logged
@@ -77,7 +76,6 @@ const errorCallback = (error) => {
 };
 
 Microsoft.CIFramework.logAnalyticsEvent(data, eventName, correlationId).then(successCallback, errorCallback);
-
 ```
 
 ### See also

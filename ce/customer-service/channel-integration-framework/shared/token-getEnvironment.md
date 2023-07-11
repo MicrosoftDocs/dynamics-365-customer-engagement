@@ -12,18 +12,3 @@
 ## Return value
 
 Returns a Promise object of type String with details of the current Unified Interface app and page.
-
-## Examples
-
-```Javascript
-
-Microsoft.CIFramework.getEnvironment().then(
-    function (result) {
-        // result will have the information about environment.
-        console.log(result)
-    },
-    function (error) {
-        // code handling for promise failure
-        console.log(error)
-    });
-```

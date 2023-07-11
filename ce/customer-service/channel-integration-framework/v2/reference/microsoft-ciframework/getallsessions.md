@@ -36,7 +36,6 @@ Promise with the value as array of session IDs, which are created by the provide
 ## Example
 
 ```Javascript
-
 Microsoft.CIFramework.getAllSessions().then(
     function (result) {
         // result will have array of session Ids, which are created by the provider and still at active state.

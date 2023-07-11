@@ -14,18 +14,3 @@
 **Type:** Number
 
 **Description:** Returns a promise object containing the width of the panel, in pixels.
-
-## Examples
-
-```Javascript
-
-Microsoft.CIFramework.getWidth().then(
-    function (result) {
-        // result will have width of the panel, in pixels.
-        console.log(result)
-    },
-    function (error) {
-        // code handling for promise failure
-        console.log(error)
-    });
-```
