@@ -2,36 +2,40 @@
   items:
   - name: Dynamics 365 Marketing
     href: help-hub.yml
-  - name: Overview
-    href: overview.md
-  - name: What's new
-    href: whats-new-marketing.md
-  - name: Free trial
-    items:
-    - name: Sign up for a free Marketing trial
-      href: trial-signup.md
-    - name: Marketing trial FAQ
-      href: trial-faq.md
   - name: Get started
     items:
-    - name: Quickstart setup guide
-      href: get-started.md
-    - name: Integrate with Dynamics 365 Customer Insights
-      href: ci-get-started.md
-  - name: Key real-time marketing scenarios
-    items:
-    - name: Send a targeted email blast in real-time marketing
-      href: real-time-marketing-email-get-started.md
-    - name: Boost event engagement with real-time journeys
-      href: real-time-marketing-event-registration-journey.md
-    - name: Identify and resolve errors with real-time customer care journeys
-      href: real-time-marketing-customer-care-journey.md
-    - name: Create dynamic content in multiple languages
-      href: real-time-marketing-dynamic-content-multiple-languages.md  
+    - name: What is Customer Insights - Journeys?
+      href: cij-overview.md
+    - name: What is real-time marketing?
+      href: real-time-marketing-overview.md
+    - name: Deploy real-time marketing
+      href: real-time-marketing-deploy.md
+    - name: What's new
+      href: whats-new-marketing.md
+    - name: Free trial
+      items:
+      - name: Sign up for a free Marketing trial
+        href: trial-signup.md
+      - name: Marketing trial FAQ
+        href: trial-faq.md
+    - name: Key real-time marketing scenarios
+      items:
+      - name: Send a targeted email blast in real-time marketing
+        href: real-time-marketing-email-get-started.md
+      - name: Boost event engagement with real-time journeys
+        href: real-time-marketing-event-registration-journey.md
+      - name: Identify and resolve errors with real-time customer care journeys
+        href: real-time-marketing-customer-care-journey.md
+      - name: Create dynamic content in multiple languages
+        href: real-time-marketing-dynamic-content-multiple-languages.md
   - name: Installation and environment management
     items:
     - name: Install or uninstall
       items:
+      - name: Quickstart setup guide
+        href: get-started.md
+      - name: Integrate with Dynamics 365 Customer Insights
+        href: ci-get-started.md
       - name: Get started with Dynamics 365 Marketing licensing
         href: marketing-license.md
       - name: Purchase a license directly from a Marketing trial
