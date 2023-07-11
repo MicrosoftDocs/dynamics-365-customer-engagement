@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 12/14/2022
+ms.date: 07/03/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -70,19 +70,19 @@ After you have configured knowledge management on your app, you must also set up
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for the app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
       1. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
-        * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
-        *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
-        *	If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
-      *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
-      *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
-	    * Select **Save**.
+        * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** radio button. 
+        *    If you want to use the organizations' s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
+        *    If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
+      *    In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
+      *    In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+        * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the the search filters according to their areas, set the **Allow agent to personalize** toggle to **Yes**.
   6. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
-          *	Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
+          *    Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
-      1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
+      1.    In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
   7. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).
   8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
@@ -105,7 +105,7 @@ After you have configured knowledge management on your app, you must also set up
 5. In the **Knowledge articles search filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 
 6. In the **Knowledge articles authoring language** section, set the **Set default knowledge authoring language for your users** to **Yes**.
-   * If you want to set the default knowledge authoring language for your organization, search and select a language in the **Select a language** field, and then set the **Use organization’s UI language** toggle to **Yes**.
+   * If you want to set the default knowledge authoring language for your organization, search and select a language in the **Select a language** field, and then set the **Use organization's UI language** toggle to **Yes**.
    * If you also want to allow users to set their default knowledge authoring language in the personalization option, set the **​Allow users to set default knowledge authoring language** toggle to **Yes**​. More information: [Configure a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization)
 
 7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal)
@@ -240,7 +240,7 @@ More information: [Search across table data using Dataverse search](/powerapps/d
 
 You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword. 
 
-When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use suggest-as-you-type](search-knowledge-articles-csh.md#use-suggest-as-you-type)
+When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. More information: [Use suggest-as-you-type](search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type)
 
 1. In the Customer Service admin center site map, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
