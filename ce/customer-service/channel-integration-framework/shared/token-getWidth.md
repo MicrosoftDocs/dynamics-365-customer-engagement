@@ -17,8 +17,6 @@
 
 ## Examples
 
-The sample code demonstrates how to create a sample contact record.
-
 ```Javascript
 
 Microsoft.CIFramework.getWidth().then(
@@ -30,3 +28,4 @@ Microsoft.CIFramework.getWidth().then(
         // code handling for promise failure
         console.log(error)
     });
+```

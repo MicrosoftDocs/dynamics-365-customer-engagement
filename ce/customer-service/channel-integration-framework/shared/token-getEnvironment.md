@@ -15,9 +15,8 @@ Returns a Promise object of type String with details of the current Unified Inte
 
 ## Examples
 
-The sample code demonstrates how to create a sample contact record.
-
 ```Javascript
+
 Microsoft.CIFramework.getEnvironment().then(
     function (result) {
         // result will have the information about environment.
@@ -27,3 +26,4 @@ Microsoft.CIFramework.getEnvironment().then(
         // code handling for promise failure
         console.log(error)
     });
+```

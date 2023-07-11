@@ -15,11 +15,11 @@
 
 **Description:** Returns Promise object with the value. True if **ClickToAct** is enabled; false otherwise.
 
-## Examples
+## Example
 
-The sample code demonstrates how to create a sample contact record.
 
 ```Javascript
+
 Microsoft.CIFramework.getClickToAct().then(
     function (result) {
         // result will indicate whether the outbound communication is enabled or not.
@@ -29,3 +29,4 @@ Microsoft.CIFramework.getClickToAct().then(
         // code handling for promise failure
         console.log(error)
     });
+```

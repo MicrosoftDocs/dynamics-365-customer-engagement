@@ -17,9 +17,8 @@
 
 ## Examples
 
-The sample code demonstrates how to create a sample contact record.
-
 ```JavaScript
+
 Microsoft.CIFramework.getMode().then(
     function (result) {
         // result will have current state of the panel.
@@ -29,3 +28,4 @@ Microsoft.CIFramework.getMode().then(
         // code handling for promise failure
         console.log(error)
     });
+```

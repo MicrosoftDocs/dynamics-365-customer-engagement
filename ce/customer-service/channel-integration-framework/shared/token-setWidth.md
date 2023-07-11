@@ -20,9 +20,8 @@ Returns a promise object with a value.
 
 ## Examples
 
-The sample code demonstrates how to create a sample contact record.
-
 ```Javascript
+
 // Setting Panel Width to 500
 Microsoft.CIFramework.setWidth(500).then(
     function (result) {
@@ -33,3 +32,4 @@ Microsoft.CIFramework.setWidth(500).then(
         // code handling for promise failure
         console.log(error)
     });
+```

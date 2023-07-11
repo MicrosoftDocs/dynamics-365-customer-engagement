@@ -309,9 +309,7 @@ An object returned with the following properties in addition to the <i>base</i> 
 </tr>
 </table>
 
-## Examples
-
-The sample code demonstrates how to create a sample contact record.
+## Example
 
 ```Javascript
 // Get the metadata of "account" entity    
@@ -346,3 +344,4 @@ Microsoft.CIFramework.getEntityMetadata("account", ['createdon', 'name']).then(
         // code handling for promise failure
         console.log(error)
     });
+```
