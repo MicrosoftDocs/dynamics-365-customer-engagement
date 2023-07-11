@@ -47,3 +47,29 @@ Furthermore, our AI-powered features make transitioning easy and efficient. With
 
 ## Where can I get help setting up real-time marketing?
 
+The real-time marketing module is already available within your Dynamics 365 Marketing application. To get started, you can consult our documentation: [Real-time marketing overview](real-time-marketing-overview.md)
+
+## As a partner, what if my customers want to use both modules?
+
+New customers only have access to real-time marketing module. Upon request, and after considering specific customer needs and requirements outbound marketing can be enabled exceptionally via support.
+
+For current customers, Dynamics 365 Marketing is set in “Mixed-mode” both outbound and real-time capabilities are available and can be used simultaneously. We nevertheless recommended customers to progressively start transitioning to real-time marketing to unlock the new presented features and gain in productivity and competitiveness.
+
+As all new enhancements and investments are in real-time marketing, for the long term success for the customer, you should actively promote and discourage new customers going live in outbound.
+
+## What does this mean for the outbound module?
+
+The capabilities offered in real-time marketing exceed those offered in outbound, furthermore all innovation and new features are and will be focused on the real-time marketing module. Outbound is progressively being replaced by real-time marketing. In the coming year, we invite all our customers to transition to real-time marketing module to benefit from greater productivity in delivering experiences to engage your customers in the moment that matters.
+
+## Will transitioning to real-time marketing require significant user retraining due to a new user interface?
+
+Transitioning to real-time marketing does not require extensive user retraining, particularly for the most common marketing activities listed below. In these areas, you will either encounter no differences in the user interface (UI) between outbound and real-time marketing, or you will experience UI enhancements that significantly improve usability and efficiency.
+
+- **Email creation**
+    - Users familiar with the outbound email designer will find the same interface in real-time marketing for basic design and editing capabilities. It offers easier and more efficient personalization without need for any coding/scripting.
+- **Event planning and forms**
+    - The user interface for event planning and forms remains the same in both outbound and real-time marketing, eliminating the need for additional training. If you know how to use the email designer, you can seamlessly apply your knowledge to forms as well.
+- **Segment building**
+    - The segment builder in real-time marketing has a user-friendly and intuitive user interface. It now supports natural language instructions, simplifying segment creation. Users can provide instructions in everyday language instead of complex queries.
+- **Journeys**
+    - The journey user interface has been completely redesigned in real-time marketing. Customer feedback indicates that the new UI is more user-friendly, efficient, and natural. Any retraining required for the redesigned journey UI is considered a worthwhile investment, as it improves usability and effectiveness.
