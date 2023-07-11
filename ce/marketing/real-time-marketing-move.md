@@ -1,5 +1,5 @@
 ---
-title: Outbound to real-time playbook
+title: Move from outbound to real-time marketing
 description: Learn how to deploy real-time marketing functionality in Dynamics 365 Marketing.
 ms.date: 07/10/2023
 ms.topic: article
@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ---
 
-# Outbound to real-time playbook
+# Move from outbound to real-time marketing
 
 Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there's a dependency on a specific feature or limitation that hasn't yet been addressed in real-time marketing.  
 
@@ -30,7 +30,7 @@ The following table summarizes the benefits of real-time marketing features vers
 
 Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/blogs/post/?postid=89399977-3ba4-4650-b57d-14ab1654b020).
 
-## Transition from outbound to real-time marketing
+## Real-time marketing transition playbook
 
 Learn about making the move from outbound to real-time marketing in the free [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/blogs/post/?postid=1b4394d5-7764-4484-aba9-c7f972292c10). The playbook covers key information, including:
 
@@ -39,7 +39,7 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 - Identifying potential challenges
 - Retiring the use of outbound marketing
 
-## Default installation of real-time marketing
+## Default real-time marketing installation
 
 On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. New customers will receive a new version of the Marketing app that will only contains real-time marketing features. Although outbound marketing features will continue to be supported for existing users, outbound marketing features will receive no future updates.
 
