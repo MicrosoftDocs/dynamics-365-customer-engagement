@@ -24,45 +24,365 @@
       href: real-time-marketing-customer-care-journey.md
     - name: Create dynamic content in multiple languages
       href: real-time-marketing-dynamic-content-multiple-languages.md
-- name: Installation and environment management
+  - name: Installation and environment management
+    items:
+    - name: Install or uninstall
+      items:
+      - name: Quickstart setup guide
+        href: get-started.md
+      - name: Integrate with Dynamics 365 Customer Insights
+        href: ci-get-started.md
+      - name: Get started with Dynamics 365 Marketing licensing
+        href: marketing-license.md
+      - name: Purchase a license directly from a Marketing trial
+        href: direct-purchase.md
+      - name: Purchase and set up Marketing
+        href: purchase-setup.md
+      - name: Integrate Marketing with a CMS system or a Power Apps portal
+        href: portal-optional.md
+      - name: Re-run the Marketing setup wizard
+        href: re-run-setup.md
+      - name: Uninstall Marketing
+        href: uninstall-marketing.md
+      - name: Solution uninstall order
+        href: solution-uninstall-order.md
+    - name: Manage environments
+      items:
+      - name: Open the Power Platform admin center
+        href: power-platform-admin-center.md
+      - name: Manage Marketing environments
+        href: manage-marketing-environments.md
+      - name: Transfer data between environments
+        href: transfer-data.md
+      - name: Transfer customizations between environments
+        href: transfer-solution.md
+      - name: Tenant to tenant migration
+        href: tenant-to-tenant.md
+      - name: Keep Marketing up to date
+        href: apply-updates.md
+    - name: Installation and management FAQ
+      href: install-manage-faq.yml
+- name: Use real-time marketing
   items:
-  - name: Install or uninstall
+  - name: Real-time marketing user guide
+    href: real-time-marketing-user-guide.yml
+  - name: Get started with real-time marketing
     items:
-    - name: Quickstart setup guide
-      href: get-started.md
-    - name: Integrate with Dynamics 365 Customer Insights
-      href: ci-get-started.md
-    - name: Get started with Dynamics 365 Marketing licensing
-      href: marketing-license.md
-    - name: Purchase a license directly from a Marketing trial
-      href: direct-purchase.md
-    - name: Purchase and set up Marketing
-      href: purchase-setup.md
-    - name: Integrate Marketing with a CMS system or a Power Apps portal
-      href: portal-optional.md
-    - name: Re-run the Marketing setup wizard
-      href: re-run-setup.md
-    - name: Uninstall Marketing
-      href: uninstall-marketing.md
-    - name: Solution uninstall order
-      href: solution-uninstall-order.md
-  - name: Manage environments
+    - name: Use Customer Insights profiles and segments
+      href: real-time-marketing-ci-profile.md
+    - name: Known issues in real-time marketing
+      href: real-time-marketing-known-issues.md
+  - name: Marketing channels
     items:
-    - name: Open the Power Platform admin center
-      href: power-platform-admin-center.md
-    - name: Manage Marketing environments
-      href: manage-marketing-environments.md
-    - name: Transfer data between environments
-      href: transfer-data.md
-    - name: Transfer customizations between environments
-      href: transfer-solution.md
-    - name: Tenant to tenant migration
-      href: tenant-to-tenant.md
-    - name: Keep Marketing up to date
-      href: apply-updates.md
-  - name: Installation and management FAQ
-    href: install-manage-faq.yml
-- name: Administration
+    - name: Email campaigns
+      items:
+      - name: Real-time marketing emails
+        items:
+        - name: Email overview
+          href: real-time-marketing-email.md
+        - name: "Preview: Use AI to kickstart email creation with content ideas"
+          href: content-ideas.md
+        - name: Use "Send now" to send emails instantly in real-time marketing
+          href: email-without-journey.md
+        - name: Use brand profiles in real-time marketing email
+          href: brand-profiles-email.md
+        - name: Import outbound emails, templates, and content blocks to real-time marketing
+          href: real-time-marketing-import-email-to-real-time.md
+      - name: Email marketing overview
+        href: prepare-marketing-emails.md
+      - name: Create a new email and design its content
+        href: email-design.md
+      - name: Add dynamic content to email messages
+        href: dynamic-email-content.md
+      - name: Set the sender, receiver, language, and legal designation
+        href: email-properties.md
+      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
+        href: content-ideas.md
+      - name: Generate iCalendar files for events and sessions
+        href: add-to-calendar.md
+      - name: Check your work using previews and test sends
+        href: email-preview.md
+      - name: Email accessibility checker
+        href: email-accessibility.md
+      - name: Check for errors, go live, and deliver
+        href: email-check-golive.md
+      - name: Quickly design and deliver outbound marketing emails with quick send
+        href: email-quick-send.md
+      - name: Check your spam score
+        href: spam-checker.md
+      - name: Design and run A/B tests on your email designs
+        href: email-a-b-testing.md
+      - name: Email troubleshoot + FAQ
+        href: email-troubleshoot.md
+    - name: Text messages
+      items:
+      - name: Outbound text messages
+        href: real-time-marketing-outbound-text-messaging.md
+      - name: Set up an automated text message keyword flow
+        href: set-up-automated-sms-keyword-flow.md
+    - name: Push notifications
+      href: real-time-marketing-push-notifications.md
+    - name: Create custom channels
+      href: real-time-marketing-create-custom-channels.md
+    - name: Use AI-driven run-time channel optimization
+      href: real-time-marketing-channel-optimization.md
+  - name: Journeys
+    items:
+    - name: Trigger-based journeys
+      items:
+      - name: Create a trigger-based journey
+        href: real-time-marketing-trigger-based-journey.md
+      - name: Real-time marketing triggers
+        href: real-time-marketing-triggers.md
+      - name: Use natural language in real-time marketing journeys
+        href: real-time-marketing-natural-language.md
+      - name: Create custom triggers
+        href: real-time-marketing-custom-triggers.md
+      - name: Trigger a journey based on a Dataverse record change
+        href: real-time-marketing-dataverse-trigger.md
+      - name: Trigger an action outside of a journey
+        href: real-time-marketing-custom-actions.md
+      - name: Test custom triggers before using them
+        href: real-time-marketing-test-triggers.md
+    - name: Segment-based journeys
+      items:
+      - name: Build segments in real-time marketing
+        href: real-time-marketing-build-segments.md
+      - name: Target the right customers using the query assist copilot
+        href: real-time-marketing-natural-language-segments.md
+      - name: Work with segments in real-time marketing
+        href: real-time-marketing-segments.md
+      - name: Create a segment-based journey
+        href: real-time-marketing-segment-based-journey.md
+      - name: Improve targeting with the redesigned segment builder
+        href: real-time-marketing-redesigned-segment-builder.md
+      - name: Create a static snapshot of a segment
+        href: real-time-marketing-static-snapshot.md
+      - name: Individually manage your customer list
+        href: real-time-marketing-include-exclude.md
+      - name: Sync data tables into the segment builder
+        href: real-time-marketing-sync-data-tables.md
+    - name: Journey goals and A/B testing
+      items:
+      - name: Set a business goal and measure progress through a journey
+        href: real-time-marketing-business-goals.md
+      - name: Experiment and refine real-time marketing journeys
+        href: real-time-marketing-experimentation.md
+    - name: Enhance your journeys
+      items:
+      - name: Edit a live journey
+        href: real-time-marketing-edit-journey.md
+      - name: Enhanced journey reminders
+        href: real-time-marketing-enhanced-journey-reminders.md
+      - name: Add email CC recipients to journeys
+        href: real-time-marketing-add-cc-recipients.md
+      - name: Real-time marketing journey tile reference
+        href: real-time-marketing-tile-reference.md
+    - name: Advanced journey capabilities
+      items:
+      - name: Personalize journey variations using multiple journey branches
+        href: real-time-marketing-multiple-branches.md
+      - name: Personalize triggers using conditions
+        href: real-time-marketing-personalize-triggers.md
+      - name: Limit sent with frequency capping
+        href: real-time-marketing-frequency-cap.md
+      - name: When to use attribute versus if/then branches
+        href: real-time-marketing-branches.md
+      - name: Customize the journey designer in real-time Marketing
+        href: real-time-marketing-journey-designer.md
+  - name: Event planning and management
+    items:
+    - name: Event management overview
+      href: event-management.md
+    - name: Create an event
+      items:
+      - name: Open the event management work area
+        href: open-events.md
+      - name: Set up an event
+        href: set-up-event.md
+      - name: Set up session-level registration and waitlisting
+        href: session-level-registration.md
+      - name: Set up and manage an event waitlist
+        href: event-waitlist.md
+      - name: Create and manage recurring events
+        href: event-recurring.md
+      - name: Create and use event templates
+        href: event-templates.md
+      - name: Create an event from another event
+        href: event-from-event.md
+    - name: Host a Microsoft Teams webinar
+      items:
+      - name: Set up a Teams webinar
+        href: teams-webinar.md
+      - name: Optimize your event check-in flow
+        href: optimize-check-in.md
+      - name: Customize your Teams webinar participant follow-up
+        href: teams-webinar-follow-up.md
+      - name: Set up a non-Teams webinar
+        href: set-up-webinar.md
+    - name: Register event attendees
+      items:
+      - name: Invite, register, and house event attendees
+        href: invite-register-house-event-attendees.md
+      - name: Add custom fields to your event registration form
+        href: custom-registration-fields.md
+    - name: Create an event website
+      items:
+      - name: Set up the event website
+        href: set-up-event-portal.md
+      - name: Change the URL for events hosted on Portals
+        href: events-change-url.md
+    - name: Manage events
+      items:
+      - name: Event management dashboard
+        href: event-management-dashboard.md
+      - name: Manage event sponsorships
+        href: manage-event-sponsorships.md
+      - name: Manage attendee logistics and accommodation
+        href: manage-event-logistic.md
+      - name: Set up online payment for events
+        href: event-payment-gateway.md
+      - name: Record and view financial information for events
+        href: event-financials.md
+    - name: Follow up with attendees
+      items:
+      - name: Follow up with Teams webinar participants
+        href: teams-how-to-follow-up.md
+      - name: Follow up after the event
+        href: followup-after-event.md
+    - name: Event troubleshoot + FAQ
+      href: event-troubleshoot.md  
+  - name: Real-time marketing forms 
+    items:
+    - name: Forms overview
+      href: real-time-marketing-form-overview.md
+    - name: Create forms
+      href: real-time-marketing-form-create.md
+    - name: Deploy pages that contain real-time marketing forms
+      href: real-time-marketing-deploy-pages.md
+    - name: Manage forms
+      href: real-time-marketing-manage-forms.md
+    - name: Troubleshoot real-time marketing forms
+      href: real-time-marketing-troubleshooting-forms.md
+  - name: Lead generation and management
+    items:
+    - name: Optimize Lead management by engaging sellers right away
+      href: real-time-marketing-optimize-lead-management.md
+  - name: Analytics
+    items:
+    - name: Access and interpret analytics
+      href: real-time-marketing-analytics.md
+    - name: How to use aggregate cross-journey analytics
+      href: real-time-marketing-cross-journey-analytics.md
+    - name: How to use aggregate channel analytics
+      href: real-time-marketing-channel-analytics.md
+    - name: "Preview: Marketing effectiveness analytics"
+      href: real-time-marketing-effectiveness.md
+    - name: Track campaigns with UTM codes
+      href: real-time-marketing-utm.md
+  - name: Personalization
+    items:
+    - name: Personalize content
+      href: real-time-marketing-personalization.md
+    - name: Personalize content using pre-defined dynamic text
+      href: real-time-marketing-predefined-dynamic-text.md
+    - name: How to use conditional content
+      href: conditional-content.md
+    - name: Create reusable content blocks
+      href: content-blocks.md
+    - name: How to use inline conditions
+      href: real-time-marketing-personalize-inline-conditions.md
+    - name: Personalize lists
+      href: real-time-marketing-personalize-lists.md
+    - name: Preview personalized content
+      href: real-time-marketing-preview-personalized-content.md
+  - name: Assets
+    items:
+    - name: Asset libary add-on file migration
+      href: real-time-marketing-add-on-migration.md
+    - name: Real-time marketing asset library add-on
+      href: real-time-marketing-asset-library.md
+    - name: Use images, files, and videos in your content
+      href: upload-images-files.md
+  - name: Administration
+    items:
+    - name: Journeys
+      items:
+      - name: Move triggers between environments
+        href: move-triggers-between-environments.md
+      - name: Select the audience source for real-time journeys
+        href: real-time-marketing-audience-data.md
+      - name: Real-time marketing link tracking mechanics
+        href: real-time-marketing-link-tracking-mechanics.md
+    - name: Privacy and compliance
+      items:
+      - name: Manage consent for email and text messages in real-time marketing
+        href: real-time-marketing-email-text-consent.md
+      - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
+        href: real-time-marketing-email-text-consent-preview.md
+      - name: Real-time marketing preference centers
+        href: real-time-marketing-preference-centers.md
+      - name: Migrate consent records to real-time marketing
+        href: real-time-marketing-migrate-consent.md
+      - name: Use outbound subscription centers in real-time journeys
+        href: real-time-marketing-outbound-subscription.md
+    - name: Manage SMS (text message) keywords used in customer journeys
+      href: manage-sms-keywords.md
+    - name: Install add-ons
+      href: add-ons.md
+    - name: Business units
+      items:
+      - name: Business unit support in real-time marketing
+        href: real-time-marketing-business-units.md
+      - name: Support for modernized business units
+        href: real-time-marketing-modernized-business-units.md
+      - name: Business units and compliance profiles for multi-brand businesses
+        href: real-time-marketing-business-unit-compliance.md
+      - name: Business units FAQ for real-time marketing
+        href: real-time-marketing-business-unit-faq.md
+  - name: Domain Authentication
+    items:
+    - name: Domain authentication in real-time marketing
+      href: domain-authentication.md
+    - name: BIMI support
+      href: bimi-support.md
+  - name: Real-time marketing troubleshoot + FAQ
+    href: real-time-marketing-faq.md
+- name: Develop and extend
+  items:
+  - name: Manually add a custom channel
+    items:
+    - name: Overview
+      href: real-time-marketing-extend-outreach-custom-channels.md
+    - name: 1. Define your extended configuration entity for the channel instance
+      href: real-time-marketing-define-custom-channel-instance.md
+    - name: 2. Define your extended configuration entity for the channel instance account
+      href: real-time-marketing-define-channel-instance-account.md
+    - name: 3. Define your message parts
+      href: real-time-marketing-custom-channel-message-parts.md
+    - name: 4. Define your localization for the admin interface (optional)
+      href: real-time-marketing-custom-channel-localization-admin.md
+    - name: 5. Define your message editor interface (optional)
+      href: real-time-marketing-custom-channel-message-editor.md
+    - name: 6. Define your custom APIs
+      href: real-time-marketing-custom-channel-custom-API.md
+    - name: 7. Define your channel definition
+      href: real-time-marketing-define-channel-definition.md
+  - name: Push notification setup for application developers
+    href: real-time-marketing-developer-push.md
+  - name: Receive notifications and create interactions
+    href: real-time-marketing-developer-notifications.md
+  - name: Integrate a custom captcha service with marketing forms
+    href: real-time-marketing-form-custom-captcha.md
+  - name: Client-side extensibility for forms
+    href: developer/realtime-marketing-form-client-side-extensibility.md
+  - name: Reference guide for real-time marketing interactions
+    href: real-time-marketing-interactions-reference.md
+  - name: Create a real-time marketing segment using the Web API
+    href: real-time-marketing-api-segment.md
+  - name: Use binding IDs to correlate across triggers
+    href: real-time-marketing-correlate-triggers.md
+- name: Administer
   items:
   - name: Administration overview
     href: admin-guide.md
@@ -224,264 +544,18 @@
     href: known-issues.md
   - name: What's new archive
     href: whats-new-marketing-archive.md
-- name: Real-time marketing
-  items:
-  - name: Real-time marketing user guide
-    href: real-time-marketing-user-guide.yml
-  - name: Get started with real-time marketing
+  - name: Responsible AI transparency notes
     items:
-    - name: Use Customer Insights profiles and segments
-      href: real-time-marketing-ci-profile.md
-    - name: Known issues in real-time marketing
-      href: real-time-marketing-known-issues.md
-  - name: Marketing channels
-    items:
-    - name: Email campaigns
-      items:
-      - name: Real-time marketing emails
-        items:
-        - name: Email overview
-          href: real-time-marketing-email.md
-        - name: "Preview: Use AI to kickstart email creation with content ideas"
-          href: content-ideas.md
-        - name: Use "Send now" to send emails instantly in real-time marketing
-          href: email-without-journey.md
-        - name: Use brand profiles in real-time marketing email
-          href: brand-profiles-email.md
-        - name: Import outbound emails, templates, and content blocks to real-time marketing
-          href: real-time-marketing-import-email-to-real-time.md
-      - name: Email marketing overview
-        href: prepare-marketing-emails.md
-      - name: Create a new email and design its content
-        href: email-design.md
-      - name: Add dynamic content to email messages
-        href: dynamic-email-content.md
-      - name: Set the sender, receiver, language, and legal designation
-        href: email-properties.md
-      - name: "Preview: Use AI to kickstart email creation with content ideas Copilot"
-        href: content-ideas.md
-      - name: Generate iCalendar files for events and sessions
-        href: add-to-calendar.md
-      - name: Check your work using previews and test sends
-        href: email-preview.md
-      - name: Email accessibility checker
-        href: email-accessibility.md
-      - name: Check for errors, go live, and deliver
-        href: email-check-golive.md
-      - name: Quickly design and deliver outbound marketing emails with quick send
-        href: email-quick-send.md
-      - name: Check your spam score
-        href: spam-checker.md
-      - name: Design and run A/B tests on your email designs
-        href: email-a-b-testing.md
-      - name: Email troubleshoot + FAQ
-        href: email-troubleshoot.md
-    - name: Text messages
-      items:
-      - name: Outbound text messages
-        href: real-time-marketing-outbound-text-messaging.md
-      - name: Set up an automated text message keyword flow
-        href: set-up-automated-sms-keyword-flow.md
-    - name: Push notifications
-      href: real-time-marketing-push-notifications.md
-    - name: Create custom channels
-      href: real-time-marketing-create-custom-channels.md
-    - name: Use AI-driven run-time channel optimization
-      href: real-time-marketing-channel-optimization.md
-  - name: Journeys
-    items:
-    - name: Trigger-based journeys
-      items:
-      - name: Create a trigger-based journey
-        href: real-time-marketing-trigger-based-journey.md
-      - name: Real-time marketing triggers
-        href: real-time-marketing-triggers.md
-      - name: Use natural language in real-time marketing journeys
-        href: real-time-marketing-natural-language.md
-      - name: Create custom triggers
-        href: real-time-marketing-custom-triggers.md
-      - name: Trigger a journey based on a Dataverse record change
-        href: real-time-marketing-dataverse-trigger.md
-      - name: Trigger an action outside of a journey
-        href: real-time-marketing-custom-actions.md
-      - name: Test custom triggers before using them
-        href: real-time-marketing-test-triggers.md
-    - name: Segment-based journeys
-      items:
-      - name: Build segments in real-time marketing
-        href: real-time-marketing-build-segments.md
-      - name: Target the right customers using the query assist copilot
-        href: real-time-marketing-natural-language-segments.md
-      - name: Work with segments in real-time marketing
-        href: real-time-marketing-segments.md
-      - name: Create a segment-based journey
-        href: real-time-marketing-segment-based-journey.md
-      - name: Improve targeting with the redesigned segment builder
-        href: real-time-marketing-redesigned-segment-builder.md
-      - name: Create a static snapshot of a segment
-        href: real-time-marketing-static-snapshot.md
-      - name: Individually manage your customer list
-        href: real-time-marketing-include-exclude.md
-      - name: Sync data tables into the segment builder
-        href: real-time-marketing-sync-data-tables.md
-    - name: Journey goals and A/B testing
-      items:
-      - name: Set a business goal and measure progress through a journey
-        href: real-time-marketing-business-goals.md
-      - name: Experiment and refine real-time marketing journeys
-        href: real-time-marketing-experimentation.md
-    - name: Enhance your journeys
-      items:
-      - name: Edit a live journey
-        href: real-time-marketing-edit-journey.md
-      - name: Enhanced journey reminders
-        href: real-time-marketing-enhanced-journey-reminders.md
-      - name: Add email CC recipients to journeys
-        href: real-time-marketing-add-cc-recipients.md
-      - name: Real-time marketing journey tile reference
-        href: real-time-marketing-tile-reference.md
-    - name: Advanced journey capabilities
-      items:
-      - name: Personalize journey variations using multiple journey branches
-        href: real-time-marketing-multiple-branches.md
-      - name: Personalize triggers using conditions
-        href: real-time-marketing-personalize-triggers.md
-      - name: Limit sent with frequency capping
-        href: real-time-marketing-frequency-cap.md
-      - name: When to use attribute versus if/then branches
-        href: real-time-marketing-branches.md
-      - name: Customize the journey designer in real-time Marketing
-        href: real-time-marketing-journey-designer.md
-  - name: Real-time marketing forms 
-    items:
-    - name: Forms overview
-      href: real-time-marketing-form-overview.md
-    - name: Create forms
-      href: real-time-marketing-form-create.md
-    - name: Deploy pages that contain real-time marketing forms
-      href: real-time-marketing-deploy-pages.md
-    - name: Manage forms
-      href: real-time-marketing-manage-forms.md
-    - name: Troubleshoot real-time marketing forms
-      href: real-time-marketing-troubleshooting-forms.md
-  - name: Lead generation and management
-    items:
-    - name: Optimize Lead management by engaging sellers right away
-      href: real-time-marketing-optimize-lead-management.md
-  - name: Analytics
-    items:
-    - name: Access and interpret analytics
-      href: real-time-marketing-analytics.md
-    - name: How to use aggregate cross-journey analytics
-      href: real-time-marketing-cross-journey-analytics.md
-    - name: How to use aggregate channel analytics
-      href: real-time-marketing-channel-analytics.md
-    - name: "Preview: Marketing effectiveness analytics"
-      href: real-time-marketing-effectiveness.md
-    - name: Track campaigns with UTM codes
-      href: real-time-marketing-utm.md
-  - name: Personalization
-    items:
-    - name: Personalize content
-      href: real-time-marketing-personalization.md
-    - name: Personalize content using pre-defined dynamic text
-      href: real-time-marketing-predefined-dynamic-text.md
-    - name: How to use conditional content
-      href: conditional-content.md
-    - name: Create reusable content blocks
-      href: content-blocks.md
-    - name: How to use inline conditions
-      href: real-time-marketing-personalize-inline-conditions.md
-    - name: Personalize lists
-      href: real-time-marketing-personalize-lists.md
-    - name: Preview personalized content
-      href: real-time-marketing-preview-personalized-content.md
-  - name: Assets
-    items:
-    - name: Asset libary add-on file migration
-      href: real-time-marketing-add-on-migration.md
-    - name: Real-time marketing asset library add-on
-      href: real-time-marketing-asset-library.md
-    - name: Use images, files, and videos in your content
-      href: upload-images-files.md
-  - name: Administration
-    items:
-    - name: Journeys
-      items:
-      - name: Move triggers between environments
-        href: move-triggers-between-environments.md
-      - name: Select the audience source for real-time journeys
-        href: real-time-marketing-audience-data.md
-      - name: Real-time marketing link tracking mechanics
-        href: real-time-marketing-link-tracking-mechanics.md
-    - name: Privacy and compliance
-      items:
-      - name: Manage consent for email and text messages in real-time marketing
-        href: real-time-marketing-email-text-consent.md
-      - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
-        href: real-time-marketing-email-text-consent-preview.md
-      - name: Real-time marketing preference centers
-        href: real-time-marketing-preference-centers.md
-      - name: Migrate consent records to real-time marketing
-        href: real-time-marketing-migrate-consent.md
-      - name: Use outbound subscription centers in real-time journeys
-        href: real-time-marketing-outbound-subscription.md
-    - name: Manage SMS (text message) keywords used in customer journeys
-      href: manage-sms-keywords.md
-    - name: Install add-ons
-      href: add-ons.md
-    - name: Business units
-      items:
-      - name: Business unit support in real-time marketing
-        href: real-time-marketing-business-units.md
-      - name: Support for modernized business units
-        href: real-time-marketing-modernized-business-units.md
-      - name: Business units and compliance profiles for multi-brand businesses
-        href: real-time-marketing-business-unit-compliance.md
-      - name: Business units FAQ for real-time marketing
-        href: real-time-marketing-business-unit-faq.md
-  - name: Developer
-    items:
-    - name: Manually add a custom channel
-      items:
-      - name: Overview
-        href: real-time-marketing-extend-outreach-custom-channels.md
-      - name: 1. Define your extended configuration entity for the channel instance
-        href: real-time-marketing-define-custom-channel-instance.md
-      - name: 2. Define your extended configuration entity for the channel instance account
-        href: real-time-marketing-define-channel-instance-account.md
-      - name: 3. Define your message parts
-        href: real-time-marketing-custom-channel-message-parts.md
-      - name: 4. Define your localization for the admin interface (optional)
-        href: real-time-marketing-custom-channel-localization-admin.md
-      - name: 5. Define your message editor interface (optional)
-        href: real-time-marketing-custom-channel-message-editor.md
-      - name: 6. Define your custom APIs
-        href: real-time-marketing-custom-channel-custom-API.md
-      - name: 7. Define your channel definition
-        href: real-time-marketing-define-channel-definition.md
-    - name: Push notification setup for application developers
-      href: real-time-marketing-developer-push.md
-    - name: Receive notifications and create interactions
-      href: real-time-marketing-developer-notifications.md
-    - name: Integrate a custom captcha service with marketing forms
-      href: real-time-marketing-form-custom-captcha.md
-    - name: Client-side extensibility for forms
-      href: developer/realtime-marketing-form-client-side-extensibility.md
-    - name: Reference guide for real-time marketing interactions
-      href: real-time-marketing-interactions-reference.md
-    - name: Create a real-time marketing segment using the Web API
-      href: real-time-marketing-api-segment.md
-    - name: Use binding IDs to correlate across triggers
-      href: real-time-marketing-correlate-triggers.md
-  - name: Domain Authentication
-    items:
-    - name: Domain authentication in real-time marketing
-      href: domain-authentication.md
-    - name: BIMI support
-      href: bimi-support.md
-  - name: Real-time marketing troubleshoot + FAQ
-    href: real-time-marketing-faq.md
+    - name: Overview
+      href: transparency-note-overview.md
+    - name: Transparency note for content ideas
+      href: transparency-note-content-ideas.md
+  - name: "Deprecation: Dynamics 365 for Customer Engagement"
+    href: ce-deprecation.md
+  - name: Troubleshoot with Solution Health Hub
+    href: troubleshoot-marketing-solution-health.md
+  - name: General FAQ
+    href: troubleshoot-faq.md
 - name: Outbound marketing
   items:
   - name: Outbound marketing user guide overview
@@ -778,68 +852,6 @@
     href: marketing-calendar.md
   - name: Go live with publishable entities and track their status
     href: go-live.md
-- name: Event planning and management
-  items:
-  - name: Event management overview
-    href: event-management.md
-  - name: Create an event
-    items:
-    - name: Open the event management work area
-      href: open-events.md
-    - name: Set up an event
-      href: set-up-event.md
-    - name: Set up session-level registration and waitlisting
-      href: session-level-registration.md
-    - name: Set up and manage an event waitlist
-      href: event-waitlist.md
-    - name: Create and manage recurring events
-      href: event-recurring.md
-    - name: Create and use event templates
-      href: event-templates.md
-    - name: Create an event from another event
-      href: event-from-event.md
-  - name: Host a Microsoft Teams webinar
-    items:
-    - name: Set up a Teams webinar
-      href: teams-webinar.md
-    - name: Optimize your event check-in flow
-      href: optimize-check-in.md
-    - name: Customize your Teams webinar participant follow-up
-      href: teams-webinar-follow-up.md
-    - name: Set up a non-Teams webinar
-      href: set-up-webinar.md
-  - name: Register event attendees
-    items:
-    - name: Invite, register, and house event attendees
-      href: invite-register-house-event-attendees.md
-    - name: Add custom fields to your event registration form
-      href: custom-registration-fields.md
-  - name: Create an event website
-    items:
-    - name: Set up the event website
-      href: set-up-event-portal.md
-    - name: Change the URL for events hosted on Portals
-      href: events-change-url.md
-  - name: Manage events
-    items:
-    - name: Event management dashboard
-      href: event-management-dashboard.md
-    - name: Manage event sponsorships
-      href: manage-event-sponsorships.md
-    - name: Manage attendee logistics and accommodation
-      href: manage-event-logistic.md
-    - name: Set up online payment for events
-      href: event-payment-gateway.md
-    - name: Record and view financial information for events
-      href: event-financials.md
-  - name: Follow up with attendees
-    items:
-    - name: Follow up with Teams webinar participants
-      href: teams-how-to-follow-up.md
-    - name: Follow up after the event
-      href: followup-after-event.md
-  - name: Event troubleshoot + FAQ
-    href: event-troubleshoot.md
 - name: Learning catalog
   items:
   - name: Learning catalog overview
@@ -858,15 +870,3 @@
     href: learning-functional-consultant.md
   - name: Partner Sales and Marketing
     href: learning-sales.md
-- name: Responsible AI transparency notes
-  items:
-  - name: Overview
-    href: transparency-note-overview.md
-  - name: Transparency note for content ideas
-    href: transparency-note-content-ideas.md
-- name: "Deprecation: Dynamics 365 for Customer Engagement"
-  href: ce-deprecation.md
-- name: Troubleshoot with Solution Health Hub
-  href: troubleshoot-marketing-solution-health.md
-- name: General FAQ
-  href: troubleshoot-faq.md
