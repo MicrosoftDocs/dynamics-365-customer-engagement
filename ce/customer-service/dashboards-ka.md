@@ -21,7 +21,7 @@ You can track the various details of your article in Customer Service Hub. The *
 
 To view an article’s view counts and other related statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day. The data that you see is the Coordinated Universal Time (UTC) time zone. You'll need to calculate your local time zone based on UTC. For example, 23rd Jun, 9:00 AM UTC time zone translates to 23rd Jun, 6:00 AM Brazil (UTC-3) time zone.
+- **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day. The data is calculated based on the Coordinated Universal Time (UTC) time zone, and the data you'll see is the UTC time converted to your local time zone. For example, 23rd Jun, 12:00 AM UTC time zone translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time zone.
 
     The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
 
