@@ -44,6 +44,9 @@ The public preview features currently have the following limitations:
 - Customizations are not supported. All customizations are currenlty not supported and will not work in Public Preview.
 - Language. The new Public Preview features respect the mobile device language settings, while the current app respects the language settings in the user profile. This might cause a mixed language experience if the two settings are out of sync.
 
+## Public Preview Support
+If you run into issues with the FSM Public Preview please use the "Send feedback" feature in the left navigation menu of the app itself, this will send an email to our team with logs attached to it. If there is a more serious failure, then please submit a support request through your [usual channels](https://learn.microsoft.com/en-us/dynamics365/field-service/field-service-get-help).
+
 ## Next steps
 
 - [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
