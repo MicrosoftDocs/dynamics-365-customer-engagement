@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Field Service (Preview) Teams app for the Frontline Manager
 
-The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards and a Teams tab to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
-
 [!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
+The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards and a Teams tab to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
 ## Select your environment to open your dashboard the first time
 
@@ -52,9 +52,15 @@ The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards an
 
 1. From your Microsoft Viva dashboard, select **See all** on the **Work orders all in one place** tile. A list of work orders display.
 
+   > [!TIP]
+   > To view more work orders in the Field Service app, select **View all in Dynamics 365** at the bottom of the list.
+
    :::image type="content" source="media/fsp-viva-work-order-list.png" alt-text="Screenshot of Field Service (Preview) Teams list of work orders":::
 
 1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
+
+   > [!TIP]
+   > The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”.
 
 1. To filter the work orders by status or priority, select **Filter**, make your selection, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 

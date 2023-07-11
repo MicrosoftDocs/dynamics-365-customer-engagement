@@ -11,16 +11,20 @@ ms.custom: bap-template
 
 # Field Service (Preview) for Administrators
 
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
 As an administrator for your organization, the set up tasks for the Field Service (Preview) depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
-- [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
-- [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
+- Field Service (Preview) Outlook Add-in
+- Field Service (Preview) Teams app
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+> [!div class="op_single_selector"]
+> [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
+> [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
 
 ## Set up the Field Service (Preview) Outlook Add-in
 
-The Field Service (Preview) Outlook Add-in requires the add-in to be enabled. You can quickly enable the Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
+As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
 
 > [!NOTE]
 > Outlook Preview is not supported.
@@ -44,16 +48,28 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
    :::image type="content" source="media/exchange-admin.png" alt-text="Microsoft Exchange admin center with Add-ins highlighted":::
 
-1. Select **Add from the Office Store** and select the **Field Service (Preview) Outlook Add-in**.
+1. Select **Add from App Store**.
 
-1. Select **Save**.
+1. Search for and select **Dynamics 365 Field Service for Outlook (Preview)**.
+
+   :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) Outlook add-in card":::
+
+1. Select **Get it now** and confirm your information.
+
+   :::image type="content" source="media/fsp-outlook-add-users.png" alt-text="Field Service (Preview) Outlook Add users screenshot":::
+
+1. Enable the add-in for the **Entire organization**.
+
+1. Select **Next** and **Accept permissions**.
+
+1. Select **Next** and **Finish deployment**. Then, select **Done**.
 
 ## Set up Field Service (Preview) Teams app
 
 The Field Service (Preview) Teams app requires the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
-- [Deploy Teams Tab app package](#deploy-teams-tab-app-package)
+- [Deploy Teams Tab app](#deploy-teams-tab-app-package)
 - [Select an environment](#select-an-environment)
 - [Install and set up Viva Connections](#install-and-set-up-viva-connections), if it’s not already installed
 - [Deploy Viva Connections Cards for Field Service (Preview)](#deploy-viva-connections-cards-for-field-service-preview)
@@ -83,7 +99,7 @@ Make the Field Service (Preview) app available in Teams.
 
 1. Log in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. [Auto install the Field Service (Preview) Teams app](/microsoftteams/auto-install-approved-apps).
+1. [Auto install the Dynamics 365 Field Service (Preview) Teams app](/microsoftteams/auto-install-approved-apps).
 
 1. After the app is added, select the link to manage it.
 
@@ -137,7 +153,7 @@ Obtain the Viva Connections cards for Field Service (Preview) to make them avail
 
    :::image type="content" source="media/sharepoint-admin-center.png" alt-text="SharePoint screenshot highlighting More features and Open under Apps":::
 
-1. [Add the Field Service (Preview) app from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
+1. [Add Dynamics 365 Field Service for Viva Connections - Preview from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
 
 1. Go to the **API access** page and click **Approve**. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
 

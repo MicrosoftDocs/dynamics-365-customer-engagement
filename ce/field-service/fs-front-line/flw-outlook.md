@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 06/30/2023
+ms.date: 07/11/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 
+[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+
 The Dynamics 365 Field Service (Preview) provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
 The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
-
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
 
 ## Install the Field Service (Preview) Outlook add-in
 
@@ -31,14 +31,14 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ### Install the Outlook Add-in
 
-1. [Install the Outlook Add-in](https://support.microsoft.com/en-us/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More). In the **Add-Ins for Outlook** dialog box, search for **Field Service (Preview)** and select it.
+1. [Install the Outlook Add-in](https://support.microsoft.com/en-us/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More). In the **Add-Ins for Outlook** dialog box, search for **Dynamics 365 Field Service for Outlook (Preview)** and select it.
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) add-in card":::
 
-1. Select **Add**.
+1. Select **Get it now**.
 
 > [!NOTE]
-> Switching to a different theme in Outlook is not supported in Outlook add-ins.
+> Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
 
 ## Open the Field Service (Preview) Outlook add-in
 
