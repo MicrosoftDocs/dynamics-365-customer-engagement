@@ -43,7 +43,7 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [Public Preview app](#tab/vNext)
 
-The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions.
+The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions (Account, Incident type, Time, Duration).
 
 > [!div]
 > ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in public preview](./media/mobile-public-preview-bookings.png)
