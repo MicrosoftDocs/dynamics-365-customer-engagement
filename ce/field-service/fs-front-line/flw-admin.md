@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 06/30/2023
+ms.date: 07/11/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -19,7 +19,7 @@ As an administrator for your organization, the set up tasks for the Field Servic
 - Field Service (Preview) Teams app
 
 > [!div class="op_single_selector"]
-> [Set up the Field Service (Preview) Outlook Add-in](/fs-front-line/flw-admin.md#set-up-the-field-service-preview-outlook-add-in)
+> [Set up the Field Service (Preview) Outlook Add-in](../fs-front-line/flw-admin.md#set-up-the-field-service-preview-outlook-add-in)
 > [Set up the Field Service (Preview) Teams app](../fs-front-line/flw-admin.md#set-up-field-service-preview-teams-app)
 
 ## Set up the Field Service (Preview) Outlook Add-in
