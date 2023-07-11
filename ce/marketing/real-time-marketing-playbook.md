@@ -28,11 +28,11 @@ The following table summarizes the benefits of real-time marketing features vers
 | Branch or suppress a customer journey based on a customer's attributes or segment membership (in Customer Insights)                                                                                                           | Not possible                                                                                                                                                      | Seamless: Customer Insights attributes, segments, and (soon) measures are automatically available for journey logic and suppression criteria, just like any other Dataverse entity |
 | Use marketing interaction data to create segments, measures, and other insights in Customer Insights                                                                                                                          | Requires manual data integration                                                                                                                                  | (Coming soon) Marketing interactions are available in Customer Insights without the need for data integration                                                                     |
 
-Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/realtime-vs-outbound-marketing-journeys).
+Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/blogs/post/?postid=89399977-3ba4-4650-b57d-14ab1654b020).
 
 ## Transition from outbound to real-time marketing
 
-Learn about making the move from outbound to real-time marketing in the free [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/transition-from-outbound-to-real-time-marketing-playbook). The playbook covers key information, including:
+Learn about making the move from outbound to real-time marketing in the free [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/blogs/post/?postid=1b4394d5-7764-4484-aba9-c7f972292c10). The playbook covers key information, including:
 
 - Setting up and configuring Dynamics 365 real-time marketing
 - Migrating your marketing artifacts
