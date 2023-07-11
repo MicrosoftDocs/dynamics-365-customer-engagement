@@ -1,5 +1,5 @@
 ---
-title: Deploy real-time marketing
+title: Outbound to real-time playbook
 description: Learn how to deploy real-time marketing functionality in Dynamics 365 Marketing.
 ms.date: 07/10/2023
 ms.topic: article
@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ---
 
-# Deploy real-time marketing
+# Outbound to real-time playbook
 
 Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there is a dependency on a specific feature or limitation that has not yet been addressed in real-time marketing.  
 
@@ -41,4 +41,7 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 
 ## Default installation of real-time marketing
 
-On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. New customers will receive a new version of the Marketing app that will only contains real-time marketing features. Although outbound marketing features will continue to be supported for existing users, outbound marketing features will receive no future updates. The Marketing app team is committed to empowering users with resources to make the transition to real-time marketing successful.
+On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. New customers will receive a new version of the Marketing app that will only contains real-time marketing features. Although outbound marketing features will continue to be supported for existing users, outbound marketing features will receive no future updates.
+
+## Real-time marketing transition resources
+
