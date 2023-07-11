@@ -16,9 +16,10 @@ search.audienceType:
 
 Customer Insights combines the power of unified customer profiles with the ability to orchestrate customer journeys in real-time, at every touch point, into one software offering. Customer Insights consists of two apps: Customer Insights - Data (formerly Dynamics 365 Customer Insights) and Customer Insights - Journeys (formerly Dynamics 365 Marketing).
 
-The new combined offer simplifies licensing to make it easier to buy and use the applications as your business engages more customers over time.
+The combined app offering simplifies licensing to make it easier to buy and use the applications as your business engages more customers over time.
 
 ## Learn more
 
 - [Dynamics 365 Customer Insights FAQ]()
 - [Customer Insights product announcement]()
+- [Customer Insights licensing and pricing]()
