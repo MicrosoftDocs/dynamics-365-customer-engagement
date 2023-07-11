@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 05/18/2023
+ms.date: 06/21/2023
 ms.custom: bap-template
 ---
 
@@ -38,9 +38,9 @@ Also, as of October 2022, the Omnichannel admin center and the service managemen
 
 Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel for Customer Service agent-facing app to be deprecated
+## Omnichannel for Customer Service agent-facing app is deprecated and will be removed in June 2024
 
-The Omnichannel for Customer Service agent-facing app will be deprecated as of April 1, 2023. After the app is deprecated, support will be available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
+Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
 
 ## setContextProvider method for authenticated chat is deprecated
 

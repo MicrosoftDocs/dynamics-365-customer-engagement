@@ -1,7 +1,7 @@
 ---
 title: "Authenticate your domains (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate your domains in Dynamics 365 Marketing."
-ms.date: 05/18/2023
+ms.date: 06/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -32,18 +32,20 @@ To learn more about email marketing and deliverability, see [Best practices for 
 
 ## The default authenticated domain
 
-By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in dyn365mktg.com. The pre-authenticated domain is there to help you start sending authenticated emails right away. This domain is designed only for initial feature testing or demo purposes as it doesn’t have an email reputation and isn't connected to your organization. It's required that you authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients recognize as coming from your organization. Authenticating your own domain allows you to manage your sending reputation and will improve brand recognition and deliverability results.
+By default, all new Dynamics 365 Marketing installations come with a preauthenticated sending domain ending in dyn365mktg.com. The preauthenticated domain is there to help you start sending authenticated emails right away. This domain is designed only for initial feature testing or demo purposes as it doesn’t have an email reputation and isn't connected to your organization. It's required that you authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients recognize as coming from your organization. Authenticating your own domain allows you to manage your sending reputation and will improve brand recognition and deliverability results.
 
 When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that isn't yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form account-name*@*domain-name). The resulting **From address** will still show the account-name of the user creating the message, but will now show a DKIM-authenticated domain-name that's registered for your Marketing instance (for example, MyName@contoso.s01.dyn365mktg.com), which will provide the deliverability benefit, but probably isn't a valid return address. 
 
 ## Which domains to authenticate
 
-Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with pre-fill enabled.
+Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with prefill enabled.
 - When you're authenticating a domain for email, use the full domain name as it appears in your email return addresses. Email addresses take the form \<MailAccount\>@\<domain\>, so if your email address is lamar.ferrari@contoso.com, then the domain you need to authenticate is contoso.com (not www.contoso.com or any other subdomain).
-- When you're authenticating a domain to support pre-filled forms, you must authenticate each subdomain individually. So if you have forms on contoso.com, www.contoso.com, and events.contoso.com, then you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
+- When you're authenticating a domain to support prefilled forms, you must authenticate each subdomain individually. So if you have forms on contoso.com, www.contoso.com, and events.contoso.com, then you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
 
 > [!IMPORTANT]
 > To use form pre-filling, the page hosting the form must be served over HTTPS (not HTTP).
+>
+> Form pre-filling is **only** supported in outbound marketing forms.
 
 > [!NOTE]
 > All new instances and trials automatically authenticate their instance domain with DKIM and SPF and set that domain as the default sending domain for your instance. Therefore, you'll usually see at least one authenticated domain already set up for all new instances. It should not be used for production email sending purposes, as it is designed only for initial testing purposes.  Make sure to authenticate your own domain before you go live. 
@@ -64,17 +66,17 @@ To authenticate a domain:
 > [!div class="mx-imgBorder"]
 > ![active domains](media/active-domains.png "Active domains")
 
-- Select **New** on the command bar to add a new domain. The wizard guides you through the whole domain authentication process step by step. On the first step you will need to enter the domain name that you want to authenticate and select if it will be used for forms hosting and email sending capabilities.
+- Select **New** on the command bar to add a new domain. The wizard guides you through the whole domain authentication process step by step. On the first step you'll need to enter the domain name that you want to authenticate and select if it will be used for forms hosting and email sending capabilities.
 
 > [!div class="mx-imgBorder"]
 > ![configure new domain](media/configure-new-domain.png "Configure new domain")
 
-- On the next step you will be asked to add your first DNS record, which will check and confirm the ownership of your domain. Use “Copy” buttons to accurately copy the values of TXT record to avoid typos. 
+- On the next step you'll be asked to add your first DNS record, which will check and confirm the ownership of your domain. Use “Copy” buttons to accurately copy the values of TXT record to avoid typos. 
 
 > [!div class="mx-imgBorder"]
 > ![verify domain ownership](media/verify-domain-ownership.png "Verify domain ownership")
 
-- The next 2 steps will guide you through the setup process of CNAME records (CNAME1 and CNAME2) that stand for DKIM protection functionality.
+- The next two steps guide you through the setup process of CNAME records (CNAME1 and CNAME2) that stand for DKIM protection functionality.
 
 > [!div class="mx-imgBorder"]
 > ![enable email sending](media/enable-email-sending.png "Enable email sending")
@@ -87,7 +89,7 @@ To authenticate a domain:
 > [!div class="mx-imgBorder"]
 > ![envelope from](media/envelope-from.png "Envelope from")
 
-- On the last step you will be able to review and check your published DNS records. After your checkup is finished, select **Verify**. The system will check and validate all published DNS records and will show you the result summary on the dashboard. If there’s something wrong with your DNS records, you'll see which exact record fails on the dashboard.
+- On the last step you'll be able to review and check your published DNS records. After your checkup is finished, select **Verify**. The system will check and validate all published DNS records and will show you the result summary on the dashboard. If there’s something wrong with your DNS records, you'll see which exact record fails on the dashboard.
 
 Here’s an example of an error message that states that TXT Ownership key wasn't found published in the DNS, which means either the record wasn't yet published, or it has some mistake/typo.
 
@@ -114,7 +116,7 @@ Technically it is possible to add www.yourdomain.com to use it for sending email
 
 ### Updating a domain's SPF record
 
-The domain authentication wizard described above provides all the configuration needed according the RFC standards. However, there are a small number of email providers that do not follow the RFCs and validate recieved emails by verifying the From address with the SPF record. To prevent email bounces from these email providers, you can update the SPF record in your domain to include the Dynamics Marketing domain. To do this, update the existing SPF record by adding `include: &lt;dynamicssendingdomain&gt;`, where `&lt;dynamicssendingdomain&gt;` is the value as obtained in the registration for the Envelope-From (*ind.pb-dynmktga.com* in the screenshot shown above).
+The domain authentication wizard described above provides all the configuration needed according the RFC standards. However, there are a few email providers that don't follow the RFCs and validate received emails by verifying the From address with the SPF record. To prevent email bounces from these email providers, you can update the SPF record in your domain to include the Dynamics Marketing domain. To do this, update the existing SPF record by adding `include: &lt;dynamicssendingdomain&gt;`, where `&lt;dynamicssendingdomain&gt;` is the value as obtained in the registration for the Envelope-From (*ind.pb-dynmktga.com* in the screenshot shown above).
 
 ## Domain authentication for modernized business units
 
