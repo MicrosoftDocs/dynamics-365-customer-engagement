@@ -1,11 +1,12 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
-description: 
+description: Learn how to use AI to generate a work order recap in Dynamics 365 Field Service.
 ms.date: 07/10/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jasonccohen
 ms.author: jacoh
+ms.reviewer: m-hartmann
 ---
 
 # Work order recap with Copilot in Field Service (preview)
