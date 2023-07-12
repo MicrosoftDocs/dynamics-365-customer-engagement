@@ -30,6 +30,9 @@ Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural lan
 
 ## How to engage with customers in real-time marketing
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a real-time marketing trigger-based journey.](media/overview-live-journey.png "Screenshot of a real-time marketing trigger-based journey")
+
 When reaching out to your customers with real-time marketing, there are three important things to consider: **who**, **what**, and **when**.
 
 The **who** is your audience – who is this communication for? In Dynamics 365 Marketing, your audience is defined by a *segment*. This is a subset of your contacts that meet some criteria. For example, you could have a segment containing customers over the age of 60 who live in North America, a segment for customers who earn more than $100,000 per year, or a blanket segment with all your active contacts. Learn more about segments:
