@@ -31,6 +31,9 @@ Users interact with the recap feature from the work order form.
 - To refresh a summary, select **Regenerate** in the **Copilot Recap** control.
 - Use the **Copilot Recap** control to provide feedback on the recap and help us understand if it's useful or not, and optionally provide more context about your preferences.
 
+> [!NOTE]
+> When a recap is generated, the content is not saved and is only available to the user who generated it. Each user must generate their own recap which is generated with respect to that user's permissions.
+
 ## Recap generation and content
 
 When you generate a recap, the system passes the work order ID and its current system status to an API. The system then uses the requesting user's security context to pull relevant data based on the status of the work order to create the recap. If the user has access to the data and the data exists for the given work order, the recap uses contextual information directly from the work order and related records to generate the recap content. The system may use the summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order. It also uses related information like requirement characteristics, asset details, and invoice information.
