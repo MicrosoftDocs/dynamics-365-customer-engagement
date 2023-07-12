@@ -208,8 +208,8 @@
               href: enable-setup-copilot.md
             - name: Configure Copilot capabilities
               href: configure-sales-copilot.md
-            - name: Regions and languages supported
-              href: copilot-region-languages.md
+            - name: Copilot data movement across geographies
+              href: sales-copilot-data-movement.md
         - name: Activity management
           items:
             - name: Set up the timeline control
