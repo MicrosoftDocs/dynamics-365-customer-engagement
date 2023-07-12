@@ -1,5 +1,5 @@
 ---
-title: Enable and set up copilot experience
+title: Enable and set up copilot capabilities
 description: 
 ms.date: 06/20/2023
 ms.custom: bap-template
@@ -10,9 +10,9 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Enable and set up copilot experiences
+# Enable and set up copilot capabilities
 
-Copilot is a virtual assistant that helps sellers to be more productive and efficient in their daily work. Copilot can summarize records, help sellers catch up on activities, prepare for meetings, and so on.
+Copilot is a virtual assistant that helps sellers to be more productive and efficient in their daily work. Copilot can summarize records, help sellers catch up on updates, prepare for meetings, respond to emails, and so on.
 
 ## License and role requirements
 
@@ -34,7 +34,7 @@ Select the apps and copilot features you want to enable on them. You can only en
 
     :::image type="content" source="media/sales-copilot-setup.png" alt-text="Screenshot of the Set up Sales Copilot panel with the list of apps and options to turn on Compose and Chat." lightbox="media/sales-copilot-setup.png":::
 
-    The side panel displays the list of apps installed in your organization. 
+    The side panel displays the list of apps installed in your organization.  
 1. Select the following copilot features to enable them:
     - **Compose**: Select this checkbox to enable the copilot feature that helps sellers quickly compose emails using the Email assist feature. Learn more about email assist. 
     - **Chat**: Select this checkbox to enable the copilot features that help sellers chat with copilot to get contextual insights and suggestions. For example, sellers can ask copilot to summarize an opportunity or lead, help them prepare for a meeting, and so on. Learn more about chat with copilot.
