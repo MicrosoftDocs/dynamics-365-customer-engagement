@@ -87,7 +87,7 @@ As a sequence manager, you create segments (groups of records) by defining diffe
         > ![Screenshot that shows a condition added for a related entity.](media/sa-segment-condition-add-related-entity.png "Screenshot that shows a condition added for a related entity")
 
     > [!NOTE]
-    > You can have a maximum of 10 conditions in a segment at any time. This number includes conditions that are defined with groups and related entities. The condition limit is added to optimize the runtime experience for segments and therefore ensure faster execution and improved efficiency. If you exceed the limit, a message informs you that the limit has been reached and the segment can't be saved. [Learn about best practices for adding conditions.](#recommendation-to-add-conditions) section.
+    > You can have a maximum of 10 conditions in a segment at any time. This number includes conditions that are defined with groups and related entities. The condition limit is added to optimize the runtime experience for segments and therefore ensure faster execution and improved efficiency. If you exceed the limit, a message informs you that the limit has been reached and the segment can't be saved. [Learn about best practices for adding conditions](#recommendations-for-adding-conditions) section.
     >
     > To increase the limit for conditions in segments, contact Microsoft Support for help.
 
