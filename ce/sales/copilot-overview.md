@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot overview
 description: 
-ms.date: 06/20/2023
+ms.date: 07/12/2023
 ms.custom: bap-template
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -20,6 +20,7 @@ Sales Copilot offers the following capabilities:
 - [Record catch up](#record-catch-up)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
+- [News updates](#news-updates) 
 
 ## Record summarization
 
