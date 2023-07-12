@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service
 description: Use this article to learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 03/16/2023
+ms.date: 07/12/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -74,15 +74,13 @@ Your presence status pertains to the following conditions:
 
 - If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
 
-  > [!NOTE]
-  > The system waits for 2.5 minutes after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
-  >
-  > - Closes the browser
-  > - Signs out of Customer Service workspace
-  > - Closes or signs out of the device
-  > - Disruption to Internet
-  > - Minimizes the browser
-  > - Leaves the browser open without any activity
+The system waits for 2.5 minutes after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
+
+- Closes the browser
+- Signs out of Customer Service workspace
+- Closes or signs out of the device
+- Disruption to Internet
+- Leaves the browser open without any activity
 
 More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
 
