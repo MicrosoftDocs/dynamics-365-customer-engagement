@@ -85,7 +85,7 @@ Here are a few things to note when you use Customer Service workspace in your or
 - `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
   - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
-- Opening a WebResource through `Xrm.Navigation.openWebResource` will open a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
+- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
 - You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
 
 ### Limitations
