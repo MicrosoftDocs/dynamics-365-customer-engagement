@@ -15,11 +15,21 @@ ms.reviewer: m-hartmann
 
 The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order. The recap includes the work order's past developments, future actions, arrival times, work criticality, and parts used or to be used.
 
+The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids summarizing information that violates certain restrictions.
+
 [!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
+
+## Prerequisites
+
+The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot Recap**. Currently, Field Service Copilot requests are processed using resources within the United States.
 
 ## Generate a work order recap
 
-Users interact with the recap feature from the work order form. On a saved work order, select **Generate** in the **Copilot Recap** control to generate a recap summary. To refresh a summary, select **Regenerate**. Use the control to provide feedback on the recap, and help us understand if it's useful or not, and optionally provide more context about your preferences.
+Users interact with the recap feature from the work order form.
+
+- On a saved work order, select **Generate** in the **Copilot Recap** control to generate a recap summary.
+- To refresh a summary, select **Regenerate** in the **Copilot Recap** control.
+- Use the **Copilot Recap** control to provide feedback on the recap and help us understand if it's useful or not, and optionally provide more context about your preferences.
 
 ## Recap generation and content
 
@@ -43,10 +53,9 @@ The recap is tailored to the work order's lifecycle stage, focusing on the most 
 |      **Posted**  |   - Work order Direct Contextual Summary </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks  </br> - Invoice information (including total amount)                           |
 |      **Cancelled**  |    - Work order Direct Contextual Summary </br> -  Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks |
 
-## Feature availability
-
-The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot Recap**. Currently, Field Service Copilot requests are processed using resources within the United States.
-
-The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids summarizing information that violates certain restrictions.
-
 If there are errors or service limitations, the system returns an error message instead of a recap summary.
+
+## See also
+
+- [FAQs for work order recap with copilot (preview)](faqs-work-order-recap.md)
+- [Responsible AI FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
