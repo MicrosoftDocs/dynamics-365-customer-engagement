@@ -31,11 +31,15 @@ Catch up on the updates to your opportunity and lead records since the last seve
 
 ## Meeting preparation
 
-Prepare for your upcoming meetings effortlessly using Copilot. Copilot identifies your upcoming meetings for the day and summarizes the last three interactions from the Notes content of the related record for the selected meeting. The summary is only generated from the notes recorded in the last three months. 
+Prepare for your upcoming meetings effortlessly using Copilot. Copilot identifies your upcoming meetings for the day and summarizes the last three interactions from the Notes content of the related record for the selected meeting. The summary is only generated from the notes recorded in the last three months.
 
 ## Email assistance
 
 Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content.
+
+## News updates
+
+Stay current with trending news about your customers. These news updates can be great conversation starters and help you understand the current dynamics in their organization. Ask Copilot to get you latest news about an account to get the latest news articles featuring or mentioning the account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
 
 ## How can I use Sales Copilot
 

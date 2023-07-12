@@ -44,7 +44,7 @@ The following table lists the requests you can make to Sales Copilot.
 |Catchup with opportunity      | Summarizes the changes to the given opportunity since the last seven days, based on fields configured by your administrator.        |
 |Catchup with lead     | Summarizes the changes to the given lead since the last seven days, based on fields configured by your administrator.        |
 |Prepare for upcoming meetings     | Lists your upcoming meetings scheduled in Dynamics 365. After you select the meeting that you'd like to prepare for, Copilot generates a summary based on the last 3 interactions from the Notes content of the related record. The summary is only generated from the notes recorded in the last 3 months.
-|Show latest news for account     | Displays the latest news about a given account, curated from Bing.         |
+|Show latest news for account     | Displays the latest news about a given account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.        |
 
 You can use the Sales Copilot pane from any page in the Sales Hub app. Type the record name after the @ symbol to view the summary or catch up of the record.  
 
