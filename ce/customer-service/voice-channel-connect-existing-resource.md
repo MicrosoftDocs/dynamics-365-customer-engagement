@@ -51,12 +51,14 @@ You'll need to specify the values of **Application (client) ID** and **Directory
         - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
 
     1. Select **Register**.
+       :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
 
 1. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then note the value.
 
 1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
 
- :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
+    :::image type="content" source="media/acs-resource-application.png" alt-text="resource application" :::
+
 
 ## Connect using an existing Azure resource
 
