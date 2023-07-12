@@ -74,7 +74,7 @@ Your presence status pertains to the following conditions:
 
 - If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
 
-The system waits for 2.5 minutes after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
+The system waits for 2.5 minutes, after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
 
 - Closes the browser
 - Signs out of Customer Service workspace
