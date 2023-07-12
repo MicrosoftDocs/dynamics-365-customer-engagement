@@ -28,7 +28,7 @@ Shareable assets are critical for meaningful and successful customer experiences
 >
 > Files are stored in the organization’s Microsoft Dataverse storage and will count against 
 > their file storage capacity. For more information on Dataverse storage capacity, see [New 
-> Microsoft Dataverse storage capacity](/learn.microsoft.com/power-platform/admin/capacity-storage)
+> Microsoft Dataverse storage capacity](https://learn.microsoft.com/power-platform/admin/capacity-storage)
 
 > [!TIP]
 > As files are stored in the organization’s Microsoft Dataverse storage, ensure that the file types you want to use are not in the list of blocked files extension described at [System Settings General tab - Power Platform](/power-platform/admin/system-settings-dialog-box-general-tab) or the list of blocked MIME types described [here](/power-platform/admin/settings-privacy-security#mime-type-validation). Note that SVG files are in that list by default.  
