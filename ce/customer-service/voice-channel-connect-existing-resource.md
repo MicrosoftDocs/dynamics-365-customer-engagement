@@ -35,7 +35,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
- :::image type="content" source="media/acs-resource-keys.png" alt-text="resource keys" :::
+   :::image type="content" source="media/acs-resource-keys.png" alt-text="resource keys" :::
 
 #### Get application and tenant IDs from the Azure portal
 
