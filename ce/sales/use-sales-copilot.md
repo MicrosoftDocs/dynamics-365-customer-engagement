@@ -1,6 +1,6 @@
 ---
 title: Use Sales Copilot capabilities
-description: 
+description: Learn about how to use Sales Copilot capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
 ms.date: 07/07/2023
 ms.custom: bap-template
 ms.topic: how-to

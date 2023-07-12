@@ -1,6 +1,6 @@
 ---
 title: Enable and set up copilot capabilities
-description: 
+description: Learn about how to enable and set up copilot capabilities in Dynamics 365 Sales.
 ms.date: 06/20/2023
 ms.custom: bap-template
 ms.topic: how-to

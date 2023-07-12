@@ -1,6 +1,6 @@
 ---
 title: Configure copilot capabilities
-description: 
+description: Learn how to configure copilot to use fields that are most relevant to your business for generating summaries and catch up information.
 ms.date: 06/20/2023
 ms.custom: bap-template
 ms.topic: how-to

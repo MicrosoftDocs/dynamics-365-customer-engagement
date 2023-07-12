@@ -1,6 +1,6 @@
 ---
 title: Sales Copilot overview
-description: 
+description: Learn about Sales Copilot, an AI assistant that helps your sales team be more productive and efficient in their daily work.
 ms.date: 07/12/2023
 ms.custom: bap-template
 ms.topic: overview
