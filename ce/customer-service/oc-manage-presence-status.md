@@ -79,7 +79,7 @@ The system waits for 2.5 minutes after which the agent is considered as inactive
 - Closes the browser
 - Signs out of Customer Service workspace
 - Closes or signs out of the device
-- Disruption to Internet
+- Experiences disruption to internet
 - Leaves the browser open without any activity
 
 More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
@@ -92,7 +92,7 @@ The following scenarios describe how your presence status can change while you w
 
 - **Sign in**: When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items have been assigned, then your presence is automatically determined. However, if your default presence status is Away or Offline, then Omnichannel for Customer Service doesn’t change your presence.  
 
-- **Accept work items**: When you accept a work item or it's assigned automatically, then Omnichannel for Customer Service  determines your presence based on your work capacity. But, if your presence status is Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence. 
+- **Accept work items**: When you accept a work item or it's assigned automatically, then Omnichannel for Customer Service determines your presence based on your work capacity. But if your presence status is Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence. 
 
 - **Close work items**: When you close a session, or resolve, cancel, or reroute a case, then Omnichannel for Customer Service determines your presence based on your work capacity. But, if your presence status Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence.
 
