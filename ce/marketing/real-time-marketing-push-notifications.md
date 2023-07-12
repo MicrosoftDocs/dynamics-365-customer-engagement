@@ -28,7 +28,7 @@ To send push notification messages to your customers, you'll first need to set u
 >
 > If the user or team who is going to create a mobile application doesn't have admin privileges, then an admin needs to complete the following steps:
 >
-> 1. Go to **Advanced Settings** > **Security** .
+> 1. Go to **Advanced Settings** > **Security** > **Field Security Profiles**.
 > 2. Go to **Marketers-Mobile app secrets** and add the corresponding user or team as members. Save and close.
 > 3. Go to **Marketers - Mobile app channel instances secrets** and add the corresponding user or team as members. Save and close.
 
