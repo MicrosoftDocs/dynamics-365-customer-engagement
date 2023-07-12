@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 03/02/2023
+ms.date: 06/12/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -119,9 +119,9 @@ The following table describes the channel, status reason, and default configured
  | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
  | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
  |  |  |  |  |
-| Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
- | Voice | Active | 30 days |  The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Active** to **Closed** state when the scheduler runs after the elapsed time. |
- | Voice | Wrap-up | 1 day |  The conversation is eligible for automatic closure after the default configured time elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
+| Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
+ | Voice | Active | 30 days | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Active** to **Closed** state when the scheduler runs after the elapsed time. |
+ | Voice | Wrap-up | 1 day | The conversation is eligible for automatic closure after the default time, 1 day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
  |  |  |  |  |
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
  | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
@@ -132,6 +132,9 @@ The following table describes the channel, status reason, and default configured
 A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
+
+> [!NOTE]
+> The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
 
 To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
 

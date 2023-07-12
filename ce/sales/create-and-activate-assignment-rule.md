@@ -110,6 +110,7 @@ By default, rules are listed in the order that they were created in, and the mos
     | Specific sellers | <p>Assign leads to specific sellers. Select the sellers in the **Choose sellers** lookup.</p><p>**Note**: The security roles for the sellers in the list were added by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>![Screenshow that shows specific sellers selected.](media/sa-ar-select-specific-sellers.png "Screenshow that shows specific sellers selected")</p> |
     | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>If you select this option, the **Distribute leads by** section isn't shown, because leads are assigned to teams. |
 
+
 1. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, select one of the following options. [Learn more about lead distributions in assignment rules.](understand-lead-distributions-assignment-rules.md)
 
     > [!NOTE]

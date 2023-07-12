@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 05/04/2023
+ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
@@ -29,28 +29,33 @@ Having this information ready can help support agents reduce the hold time that 
 - Case
 - Recent cases
 - Timeline
-   
-Depending on the settings enabled for you, you'll see one of the following layouts:
+
+If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you'll see the following options on the **Active Conversation** page:  
+
+- **Save**: You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, the following [Logical column names](supported-customizations.md#logical-column-names) aren't supported. If a default value is already set for a field, the value appears on the form automatically.
+- **Refresh**: Refreshes the data in the form.
+- **Queue:** The queue through which the conversation has been assigned to you.
+- **Start time:** The time when you started the conversation.
+- **Related**: To select and navigate to the required entities.
+
+Depending on the settings that are enabled for you, you'll see one of the following layouts:
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
-  If your administrator has enabled the **Enhanced Active conversation form** in Customer Service admin center, you see the enhanced **Active Conversation** page. 
+  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
+   > [!NOTE]
+   > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
+   > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
 
    :::image type="content" source="media/enh-custsummary-overall-mini.png" alt-text="Enhanced quick case form" lightbox="media/enh-custsummary-overall.png":::
-    
-  > [!NOTE] 
-  > By default, the form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. However, you can switch between active and closed conversations if your administrator has enabled this control.
-
 
   ### [Default Active Conversation page](#tab/customersummarypage)
-    
+
   If your administrator hasn't enabled the **Enhanced Active conversation form** in **Customer Service admin center**, you see the default Active Conversation view.
 
   :::image type="content" source="media/customer-summary.png" alt-text="View the Active Conversation page" :::
 
 ---
-
-For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
 
 ## View customer details
 
@@ -58,11 +63,13 @@ This section provides details such as the contact name or account name. For a co
 
 Use the customer section to search for an existing contact or account record, and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record by using the **Add Contact** or **Add Account** button, respectively. After you create it, search for the record and then select it to link it to the conversation.
 
-Depending on the settings enabled for you, you'll see one of the following layouts:
+Depending on the settings that are enabled for you, you'll see one of the following layouts:
  
   ### [Enhanced Active Conversation&mdash;Customer Details](#tab/enhancedcustomer)
 
-   Displays the customer or account details configured by your administrator. You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
+   Displays the customer or account details. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Add the Customer 360 component to a case form](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form).<br>
+
+   You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
  
    :::image type="content" source="media/enh-custsummary-conv.png" alt-text="View enhanced CustomerContact or Account" :::
 
@@ -72,13 +79,13 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
    :::image type="content" source="media/customer-summary-customer-form.png" alt-text="View enhanced CustomerContact or Account" :::
 
---- 
+---
 
-## View Case details
+## View case details
 
 Use the **Case** section to search for an existing case, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](enh-casemgmt-csw.md)
 
-Depending on the settings enabled for you, you'll see one of the following layouts:
+Depending on the settings that are enabled for you, you'll see one of the following layouts:
 
 
    ### [Enhanced Active Conversation &mdash; Case Details](#tab/enhancedcase)
@@ -99,17 +106,17 @@ Depending on the settings enabled for you, you'll see one of the following layou
 
 This section displays recent cases related to the customer.
 
-Depending on the settings enabled for you, you'll see one of the following layouts:
+Depending on the settings that are enabled for you, you'll see one of the following layouts:
 
-   ### [Enhanced Active Conversation&mdash;Recent Case](#tab/enhancedrecentcases)
+   ### [Enhanced Active Conversation&mdash;Recent case](#tab/enhancedrecentcases)
 
-   Displays the recent cases raised by the customer. However, if you see the default **Recent Cases** card, your administrator has disabled the enhanced **Recent Case** experience for the **Active Conversation** form.
+   Displays the recent cases raised by the customer. However, if you see the default **Recent cases** card, your administrator has disabled the enhanced recent case experience for the **Active Conversation** form.
 
    :::image type="content" source="media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
     
    ### [Default Active Conversation&mdash;Recent case](#tab/recentcase)
     
-   View the default Recent cases experience.
+   View the default recent cases experience.
 
    :::image type="content" source="media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
   
@@ -124,8 +131,7 @@ The **Conversation summary** section provides detailed information about the con
 - **Queue:** The queue through which the conversation has been assigned to you.
 - **Start time:** The time when you started the conversation.
 
-  > [!div class='mx-imgBorder']
-  > ![Conversation details.](media/conversation-details.png "Conversation-details")
+   :::image type="content" source="media/conversation-details.png" alt-text="View conversation details.":::
  
 In addition, the **Conversation summary** section includes several tabs:
 
@@ -179,7 +185,6 @@ The **Linked records** field shows the record that's linked to the conversation.
 > ![View only the linked records in the drop-down.](media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
 ### See also
-
 
 [Search for and share knowledge articles](oc-search-knowledge-articles.md)  
 [View communication panel](oc-conversation-control.md)  

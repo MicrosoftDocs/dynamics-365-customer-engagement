@@ -5,7 +5,7 @@ ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-ms.custom: intro-internal
+ms.collection: get-started
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View agent dashboard and agent work items

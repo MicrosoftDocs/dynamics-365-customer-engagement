@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/22/2022
+ms.date: 06/13/2023
 ms.topic: concept
 ms.reviewer: shujoshi
 ms.custom: bap-template
@@ -13,6 +13,10 @@ ms.custom: bap-template
 # FAQ about the voice channel in Omnichannel for Customer Service
 
 This article includes frequently asked questions (FAQ) about the voice channel.
+
+### Why is the agent unable to make an outbound call?
+
+The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
@@ -104,7 +108,6 @@ You can transfer conversations from one bot to another with different primary la
 
 No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
 
-
 ### Is disaster recovery supported for the voice channel?
 
 - Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
@@ -116,20 +119,25 @@ No, we don't publish a voice quality SLA as many factors related to voice qualit
 
 ### What tools are available to isolate performance and quality of voice channel?
 
-The tools for isolating voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk).
+The tools for isolating voice performance and quality are available through Azure Communication Services and can be found at [Azure Communication Services media quality metrics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk). It might take up to two hours for the data to appear in the logs.
 
 More information:
 
 - [Enable Azure Communication Services logs](/azure/communication-services/concepts/troubleshooting-info?tabs=csharp%2Cjavascript%2Cdotnet)
-- [Turn on metrics to populate in Azure](/azure/communication-services/concepts/analytics/call-logs-azure-monitor)
+- [Azure Communication Services voice and video logs](/azure/communication-services/concepts/analytics/logs/voice-and-video-logs)
 - [Integrate with user-facing diagnostics](/azure/communication-services/concepts/voice-video-calling/user-facing-diagnostics)
 - [Use media quality statistics](/azure/communication-services/concepts/voice-video-calling/media-quality-sdk)
 - [Use pre-call diagnostics](/azure/communication-services/concepts/voice-video-calling/pre-call-diagnostics)
+- [Enable logging in Diagnostic settings](/azure/communication-services/concepts/analytics/enable-logging)
 - [Use Azure Communication Services communication monitoring plug-in](https://www.npmjs.com/package/@azure/communication-monitoring)
 
 ### Does the voice channel support emergency calling?
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
+
+### What are the applicable pricing scenarios for using the voice channel?
+
+To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
 ### See also
 

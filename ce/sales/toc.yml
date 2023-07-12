@@ -1,16 +1,38 @@
+- name: Dynamics 365 Sales documentation
+  href: index.yml
 - name: Welcome to Dynamics 365 Sales
   href: overview.md
-- name: Dynamics 365 Sales documentation
-  href: help-hub.yml
+- name: Get started
+  items:
+    - name: Learn the basics
+      href: user-guide-learn-basics.md
+    - name: Understand the sales process
+      href: nurture-sales-from-lead-order-sales.md
+    - name: Import data
+      href: import-data.md
+    - name: Export data to Excel
+      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
+    - name: Search for your data
+      href: /powerapps/user/search?context=/dynamics365/context/sales-context
+    - name: Assign or share records
+      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
+    - name: Print quote, invoice, or other records
+      href: print-records.md
+    - name: Export sales records to PDF
+      href: create-quote-pdf.md
+    - name: View and manage records in focused view  
+      href: focused-view.md
+    - name: Set focused view as the default view
+      href: set-focused-view-as-default.md
+    - name: Work with views
+      href: work-with-views.md
 - name: What's new or changed
   items:
     - name: What's new or changed in Dynamics 365 sales
       href: whats-new.md
-    - name: March 2023 release
-      href: march-2023-whatsnew.md
-- name: Try, install, and manage
+- name: Try, buy, and install
   items:
-  - name: Sales trial
+  - name: Try
     items:
       - name: Sign up for a free trial
         href: sign-up-for-sales-trial.md
@@ -20,8 +42,12 @@
         href: features-in-trial.md
       - name: Trial FAQs
         href: sales-trial-faq.md
+  - name: Buy
+    href: buy-dynamics-365-sales.md 
   - name: Install and configure
     items:
+    - name: Install and use the Sales apps
+      href: install-overview.md
     - name: System requirements
       href: system-requirements-for-sales-apps.md
     - name: Use the Sales Hub app
@@ -31,10 +57,10 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
-    - name: Install and administer Sales Insights features
-      href: intro-admin-guide-sales-insights.md
     - name: Install Sales Professional app
       href: provision-sales-professional-instance.md
+    - name: Use the Sales Team Member App
+      href: sales-team-member.md
     - name: Add sample data
       items:
         - name: Add or remove sample data in Sales Hub
@@ -47,6 +73,8 @@
       href: uninstall-sales-insights.md
     - name: Configure your sales organization
       items:
+        - name: Set up sales basics
+          href: sales-basics-setup.md 
         - name: System Settings - Sales
           href: system-settings-sales-tab.md
         - name: Create business units
@@ -71,6 +99,8 @@
               href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
             - name: Import data
               href: import-data.md
+        - name: Enable and administer Sales Insights features
+          href: intro-admin-guide-sales-insights.md
     - name: Customize your sales app
       items:
         - name: Create and customize a form
@@ -89,30 +119,6 @@
         href: move-sales-enterprise-sales-professional.md
       - name: Upgrade to Sales Premium
         href: upgrade-sales-premium.md
-- name: Learn the basics
-  items:
-    - name: Learn the basics
-      href: user-guide-learn-basics.md
-    - name: Understand the sales process
-      href: nurture-sales-from-lead-order-sales.md
-    - name: Import data
-      href: import-data.md
-    - name: Export data to Excel
-      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
-    - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
-    - name: Assign or share records
-      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
-    - name: Print quote, invoice, or other records
-      href: print-records.md
-    - name: Export sales records to PDF
-      href: create-quote-pdf.md
-    - name: View and manage records in focused view
-      href: focused-view.md
-    - name: Set focused view as the default view
-      href: set-focused-view-as-default.md
-    - name: Work with views
-      href: work-with-views.md
 - name: Administration guide
   items:
     - name: Administration overview
@@ -144,6 +150,8 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
+        - name: Enable address suggestion
+          href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -204,6 +212,11 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Enable Copilot email assist
+              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -236,6 +249,8 @@
           href: sample-softphone-integration.md
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Define lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
@@ -268,6 +283,8 @@
           href: set-focused-view-as-default.md
     - name: Opportunity management
       items:
+        - name: Opportunity management overview
+          href: opportunity-management-overview.md
         - name: Configure the opportunity pipeline view
           href: opportunity-pipeline-view-for-admins.md
         - name: Enable customization of the Opportunity Close form
@@ -490,12 +507,38 @@
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
-            - name: Configure SMS provider
+            - name: Configure SMS channel
               href: configure-sms-provider.md
+            - name: Add custom SMS channel
+              href: add-custom-sms-provider-intro.md  
+              items:
+                - name: Define an extended configuration entity for a channel instance
+                  href: custom-define-sms-instance.md
+                - name: Define an extended configuration entity for a channel instance account
+                  href: custom-define-sms-account.md
+                - name: Define the message parts
+                  href: custom-sms-message-parts.md
+                - name: Define the localization for the admin interface
+                  href: custom-sms-localization-admin.md
+                - name: Define custom APIs
+                  href: custom-sms-custom-api.md
+                - name: Define the custom channel
+                  href: custom-define-sms-definition.md
             - name: Edit phone numbers
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: Import custom insights model into Dataverse
+              href: import-insights-model-into-dataverse.md
+            - name: Enable seller insights
+              href: enable-seller-insights.md
+            - name: Manage access permissions to view insights
+              href: manage-access-view-insights.md
+            - name: Configure assignment rule to auto assign insights
+              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -548,14 +591,14 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
               href: fre-setup-sales-insight-app.md
-            - name: Configure conversation intelligence to connect call data
-              href: configure-conversation-intelligence-call-data.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
             - name: Configure conversation content
@@ -576,6 +619,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -714,7 +761,7 @@
         - name: Activity management
           items:
             - name: Add activities to the timeline
-              href: /powerapps/user/add-activities?context=/dynamics365/context/sales-context
+              href: timeline-activities.md
             - name: Track and manage activities
               href: manage-activities.md
             - name: Access Dynamics 365 app from Outlook
@@ -723,6 +770,11 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
@@ -750,6 +802,8 @@
           href: /powerapps/user/collaborate-using-sharepoint?context=/dynamics365/context/sales-context
     - name: Lead management
       items:
+        - name: Lead management overview
+          href: lead-management-overview.md
         - name: Create or edit leads
           href: create-edit-lead-sales.md
         - name: View and manage records in focused view
@@ -876,6 +930,11 @@
               href: create-text-message-templates.md
             - name: Manage text message communications
               href: manage-text-message-communications.md
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: View and work on seller insights
+              href: view-understand-insights.md
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
@@ -1314,5 +1373,3 @@
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
       href: ../sales-professional/help-hub.md
-    - name: Sales Team Member app for users with Team Member license
-      href: sales-team-member.md
