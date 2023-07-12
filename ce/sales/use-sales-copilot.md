@@ -40,13 +40,18 @@ The following table lists the requests you can make to Sales Copilot.
 |Request  |Response  |
 |---------|---------|
 |Summarize opportunity     | Summarizes the given opportunity based on the fields configured by your administrator.          |
-|Summarize lead     | Summarizes the given lead based on the fields configured by your administrator.        |
+|Summarize lead     | Summarizes the given lead based on the fields configured by your administrator. Copilot can also suggest possible contacts for a lead.        |
 |Catchup with opportunity      | Summarizes the changes to the given opportunity since the last seven days, based on fields configured by your administrator.        |
 |Catchup with lead     | Summarizes the changes to the given lead since the last seven days, based on fields configured by your administrator.        |
 |Prepare for meetings     | Summarizes the last 3 interactions from the Notes content that were recorded in the last 3 months. 
 |Show latest news for account     | Displays the latest news about a given account, curated from Bing.         |
 
-You can use the Sales Copilot pane from any page in the Sales Hub app. Type the record name after the @ symbol to view the summary or catch up of the record. 
+You can use the Sales Copilot pane from any page in the Sales Hub app. Type the record name after the @ symbol to view the summary or catch up of the record.  
+
+
+## Provide feedback
+
+Rate the usefulness of the response by selecting the thumbs up or thumbs down icon. <<Author's note: Who gets the response and how does it improve?>>
 
 ## See also
 
