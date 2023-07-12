@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 07/11/2023
+ms.date: 07/12/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -48,7 +48,7 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
    :::image type="content" source="media/exchange-admin.png" alt-text="Microsoft Exchange admin center with Add-ins highlighted":::
 
-1. Select **Add from App Store**.
+1. Select **+ (New)** > **Add from AppSource**.
 
 1. Search for and select **Dynamics 365 Field Service for Outlook (Preview)**.
 
@@ -56,9 +56,9 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Select **Get it now** and confirm your information.
 
-   :::image type="content" source="media/fsp-outlook-add-users.png" alt-text="Field Service (Preview) Outlook Add users screenshot":::
+1. On the **Add users** page, select **Entire organization** to enable the add-in for your organization.
 
-1. Enable the add-in for the **Entire organization**.
+   :::image type="content" source="media/fsp-outlook-add-users.png" alt-text="Field Service (Preview) Outlook Add users screenshot":::
 
 1. Select **Next** and **Accept permissions**.
 
@@ -93,96 +93,76 @@ Admin permissions for the following apps:
 
 If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-### Deploy Teams Tab app package
+### Deploy Field Service (Preview) Teams app
 
 Make the Field Service (Preview) app available in Teams.
 
-1. Log in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
 
-1. [Auto install the Dynamics 365 Field Service (Preview) Teams app](/microsoftteams/auto-install-approved-apps).
+1. Search for **Dynamics 365 Field Service (Preview)**.
 
-1. After the app is added, select the link to manage it.
+   :::image type="content" source="media/fsp-teams-app-source.png" alt-text="Dynamics 365 Field Service (Preview) tile showing Get it now.":::
 
-   :::image type="content" source="media/fsp-teams-link-manage.png" alt-text="Teams screenshot highlighting select link to manage the app.":::
+1. Select **Get it now** and confirm your information. Microsoft Teams is launched.
 
-1. [Grant permissions to use the app](/microsoftteams/app-permissions-admin-center#view-resource-specific-consent-permissions-of-an-app).
+1. In Teams, select **Add**.
 
-1. Optionally, [pre-pin and pre-install the app](/microsoftteams/teams-app-setup-policies#pin-apps) for your organization.
+   :::image type="content" source="media/fsp-teams-app-add.png" alt-text="Dynamics 365 Field Service (Preview) showing Add.":::
 
-The Field Service (Preview) app displays under **Built for your org** in Teams.
+1. Open **Field Service (Preview)**.
 
-:::image type="content" source="media/fsp-teams-app.png" alt-text="Teams screenshot highlighting Field Service (Preview) app":::
+1. On the **Settings** tab, select your environment.
 
-### Select an environment
+### Deploy Field Service (Preview) for Viva Connections
 
-You must select your environment before you install and set up Viva Connections.
+Make Field Service (Preview) for Viva Connections available in Teams.
 
-1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
+1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
 
-1. Select **Apps**.
+1. Search for **Dynamics 365 Field Service for Viva Connections**.
 
-1. Select **Add** on the Field Service (Preview) app, and then **Add**.
+   :::image type="content" source="media/fsp-viva-connections-appsource.png" alt-text="Dynamics 365 Field Service (Preview) for Viva Connections tile showing Get it now.":::
 
-1. Select the **Settings** tab, and then select your environment.
+1. Select **Get it now** and confirm your information. Microsoft SharePoint is launched.
 
-   :::image type="content" source="media/fsp-environment.png" alt-text="Teams screenshot highlighting Environment selection":::
+1. In SharePoint, select **Add to Apps site**.
 
-### Install and set up Viva Connections
+   :::image type="content" source="media/fsp-viva-connections-add.png" alt-text="Dynamics 365 Field Service (Preview) for Viva Connections showing Add.":::
 
-Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, install and set it up.
+1. On **Confirm data access**, select **Enable this app and add it to all sites**, and then select **Add**.
 
-1. Log in to the [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+   :::image type="content" source="media/fsp-viva-confirm-access.png" alt-text="Confirm data access dialog box to enable the app to all sites.":::
 
-1. [Add the Viva Connections app](/viva/connections/set-up-admin-center).
+1. On the **Approve access** dialog box, select **Go to API access page**.
 
-1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
+1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval.
 
-1. Under **Apps**, search for and select the Viva Connections app. Then select **Add**.
+### Install and pin the apps in Teams
 
-1. Open the Viva Connections app in Teams.
+1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. On the dashboard, select **Edit**. Set up the dashboard for **Frontline workers** and **Information workers**.
+1. Select **Teams apps** > **Set up policies**.
 
-1. Customize each dashboard with apps based on your organization’s needs.
+1. Select **Global (Org-side default)**.
 
-### Deploy Viva Connections cards for Field Service (Preview)
+   > [!TIP]
+   > If you don't want to provide access to the app globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
 
-Obtain the Viva Connections cards for Field Service (Preview) to make them available to your organization.
+1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
 
-1. Log into the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219).
-
-   :::image type="content" source="media/sharepoint-admin-center.png" alt-text="SharePoint screenshot highlighting More features and Open under Apps":::
-
-1. [Add Dynamics 365 Field Service for Viva Connections - Preview from the SharePoint store](/sharepoint/use-app-catalog#add-apps-from-the-sharepoint-store).
-
-1. Go to the **API access** page and click **Approve**. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
+1. [Pin both the apps and arrange them](/microsoftteams/teams-app-setup-policies#pin-apps).
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
-You can set up the Field Service (Preview) cards to the Viva Connections dashboard through SharePoint or Viva Connections. There are four cards available for the Field Service (Preview) for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
+There are four cards available for the Field Service (Preview) for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
-If your organization has a SharePoint home site and wants to use it for Viva Connections or you already have Viva Connections with a home site, see [edit the dashboard and add cards using Viva Connections](/viva/connections/create-dashboard#how-to-edit-the-dashboard-from-sharepoint-when-you-have-a-home-site).
+1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
 
-If your organization doesn't have a SharePoint home site and doesn't want one, see [Set up Viva Connections without a home site](/viva/connections/viva-connections-setup-guide#set-up-viva-connections-without-a-home-site).
+1. Open the Viva Connections app in Teams.
 
-To set up a home site, see the following steps:
+   :::image type="content" source="media/fsp-viva-connections-dashboard.png" alt-text="Viva Connections dashboard":::
 
-1. In the [SharePoint Admin Center](https://go.microsoft.com/fwlink/?linkid=2185219), select **Sites** > **Active Sites**.
-
-1. Find and select the Viva Connections site name you created when you set up Viva Connections. If you didn’t customize the name, look for a Communications Site called Viva Home.
-
-1. Select **Settings** and then **Manage Viva Connections**.
-
-   :::image type="content" source="media/fsp-sharepoint-vc-dashboard.png" alt-text="SharePoint screenshot of created Viva Connections dashboard":::
-
-   > [!TIP]
-   > An alternative is select the **Pages** tab and select **Dashboard.aspx**.
-
-1. In the **Manage Viva Connections** pane, select **View Dashboard**.
-
-   :::image type="content" source="media/fsp-sharepoint-manage-vc.png" alt-text="SharePoint screenshot of Manage Viva Connections pane":::
-
-1. Select **Edit** and scroll to add a new card.
+1. On the dashboard, select **Edit**. Set up the dashboard for **Frontline workers** or **Information workers**.
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
