@@ -31,9 +31,9 @@ To permanently release or remove one or more phone numbers from your organizatio
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     In the site map, select **Phone numbers** in **General settings**.
 1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
-1. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed.
+1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection is displayed.
 1. Select **Disconnect** again.
-   Any phone numbers associated with the resource will no longer be displayed on the **Phone numbers** page.
+   Any phone numbers associated with the resource are no longer displayed on the **Phone numbers** page.
 1. Delete and clean up the event grid subscription to avoid errors.
 
 ### See also
