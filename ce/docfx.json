@@ -194,10 +194,6 @@
         "**.*": "cebc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
       },
-      "extendBreadcrumb": {
-        "**.*": true,
-        "unified-service-desk/**.*": true
-      },
       "searchScope": {
         "**.*": [
           "Dynamics 365"
