@@ -15,6 +15,3 @@ ms.reviewer: shujoshi
 [!INCLUDE[faqs-overview](../includes/faqs-overview.md)]
 
 [!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
-
-- [[Feature]]([Link])
-- [[Feature]]([Link])
