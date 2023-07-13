@@ -912,7 +912,7 @@
     items: 
     - name: Copilot in Customer Service
       items:
-      - name: Configure Copilot in Customer Service
+      - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
       - name: Configure copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
