@@ -368,7 +368,7 @@ func createInteraction(typeInteraction: Int, trackingId: String) {
     } 
 
 ```
----
+## {-}
 
 ## Receive notifications in Android
 
@@ -517,7 +517,6 @@ Handle the application open through the notification in **MainActivity** to obta
         checkPlayServices(); 
         FirebaseService.createChannelAndHandleNotifications(getApplicationContext());
 ```
----
 
 ## Send events in Android
 
