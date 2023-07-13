@@ -29,6 +29,12 @@ The cross-journey analytics dashboard allows you to check in on the performance 
 
 The following sections describe the widgets in greater depth.
 
+## KPI summary charts
+The KPI summary charts summarize the cross-journey key performance indicators for the specified time period. You can further filter these by journey name, journey status and journey goal.
+- Email engagement rate: The number of unique users that opened or clicked on links divided by the total number of emails(s) sent
+- Push notification engagement rate: The number of unique users that opened or clicked on links divided by the total number of push notification(s) sent
+- Text message engagement rate: The number of unique users that opened or clicked on links divided by the total number of text message(s) sent
+
 ## Overall effectiveness
 
 The list of journeys provides you with key metrics for a clear overview of journeys. Fields such as **Days active** and **Inflow** help you understand if your journey is gaining or losing momentum. If your journey has a goal target set (for example, 10 percent), the target will be available in the table and represented on the journey goal chart to the right, showing its trend.
