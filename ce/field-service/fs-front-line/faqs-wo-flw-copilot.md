@@ -1,18 +1,18 @@
 ---
-title: Transparency note for work order creation in Outlook using Copilot in Field Service (Preview)
-description: This transparency note provides information about the AI technology used in the Dynamics 365 Field Service (Preview) Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+title: FAQ for work order creation in Outlook using Copilot in Field Service (Preview)
+description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service (Preview) Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 07/06/2023
 ms.custom: 
-  - transparency-note
+  - responsible-ai-faqs
 ms.topic: article
 author: KishorIoT
 ms.author: nandab
 ms.reviewer: v-wendysmith@microsoft.com
 ---
 
-# Transparency note for work order creation in Outlook using Copilot in Field Service (Preview)
+# FAQ for work order creation in Outlook using Copilot in Field Service (Preview)
 
-This transparency note describes the AI impact of the Dynamics 365 Field Service (Preview) Outlook add-in using copilot to create work orders feature.
+This FAQ describes the AI impact of the Dynamics 365 Field Service (Preview) Outlook add-in using copilot to create work orders feature.
 
 ## What is work order creation in Outlook using Copilot?
 
@@ -46,4 +46,4 @@ The intention is to aid front-line workers in creating work orders at scale in l
 ## See also
 
 - [Create a work order in Outlook using Copilot in Field Service (Preview)](../field-service/fs-front-line/flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
-- [Transparency notes for Dynamics 365 Field Service](transparency-note.md)
+- [FAQs for Dynamics 365 Field Service](../includes/responsible-ai-overview.md)

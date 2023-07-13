@@ -67,6 +67,8 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ## Create a work order in Outlook using Copilot in Field Service (Preview)
 
+This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
+
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
 1. On the **Copilot** tab select **Create a work order from email**.

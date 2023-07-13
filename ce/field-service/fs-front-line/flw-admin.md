@@ -17,7 +17,9 @@ As an administrator for your organization, the set up tasks for the Field Servic
 
 ## [Field Service (Preview) Outlook](#tab/outlook)
 
-As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
+As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
+
+The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
 
 ### Prerequisites
 

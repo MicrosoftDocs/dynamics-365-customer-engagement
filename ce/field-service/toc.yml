@@ -497,9 +497,9 @@ items:
 - name: Responsible AI
   items: 
     - name: Overview
-      href: transparency-note.md
-    - name: Transparency note for Outlook work order creation
-      href: transparency-note-outlook-wo.md
+      href: includes/responsible-ai-overview.md
+    - name: FAQ for Outlook work order creation
+      href: fs-front-line/faqs-wo-flw-copilot.md
 
 - name: More resources
   items:
