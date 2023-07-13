@@ -203,7 +203,7 @@ class NotificationService: UNNotificationServiceExtension {
 
 ## Send events in iOS
 
-# [iOS - API v.1](#tab/ios-v1)
+### [iOS - API v.1](#tab/ios-v1)
 
 To send events, the following request should be issued:
 
@@ -269,7 +269,7 @@ Body:
 }
 ```
 
-# [iOS - API v.2](#tab/ios-v2)
+### [iOS - API v.2](#tab/ios-v2)
 
 Request URL: 
 ```
@@ -524,7 +524,7 @@ Events are used for tracking notifications as follows:
 - **Opened:** User tapped on the notification.
 - **Clicked:** User clicked on the link within the notification.
 
-# [Android - API v.1](#tab/android-v1)
+### [Android - API v.1](#tab/android-v1)
 
 
 
@@ -550,7 +550,7 @@ Events are used for tracking notifications as follows:
 
 To send events, use the following sample code snippets:
 
-### Part 1: Generate the payload
+#### Part 1: Generate the payload
 
 ```
 EventTrackingContract: 
@@ -603,7 +603,7 @@ public enum EventType {
 } 
 ```
 
-### Part 2: HttpClient for sending the event to the server
+#### Part 2: HttpClient for sending the event to the server
 
 ```
 AsyncTask.execute(new Runnable() { 
@@ -625,7 +625,7 @@ AsyncTask.execute(new Runnable() {
         }); 
 ```
 
-# [Android - API v.2](#tab/android-v2)
+### [Android - API v.2](#tab/android-v2)
 
 
 
@@ -651,7 +651,7 @@ AsyncTask.execute(new Runnable() {
 
 To send events, use the following sample code snippets:
 
-### Part 1: Generate the payload
+#### Part 1: Generate the payload
 
 ```
 EventTrackingContract: 
@@ -675,7 +675,7 @@ public enum EventType {
 }
 ```
 
-### Part 2: HttpClient for sending the event to the server
+#### Part 2: HttpClient for sending the event to the server
 
 ```
 AsyncTask.execute(new Runnable() { 
