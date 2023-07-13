@@ -147,7 +147,6 @@ The Government community cloud links that should be made accessible are as follo
 - `https://*.gcc.teams.microsoft.com`
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
-- `https://*.gov.omnichannelengagementhub.us`
 
 ### See also
 
