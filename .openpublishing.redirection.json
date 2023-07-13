@@ -441,6 +441,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterhandle.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterhandlesecret.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_twitterengagementctx.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },            
+    {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
       "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
