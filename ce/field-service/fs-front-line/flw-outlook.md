@@ -26,9 +26,6 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 - Outlook on the web
 - Outlook 2013 or later on Windows (or Mac)
 
-> [!NOTE]
-> Outlook Preview is not supported.
-
 ### Install the Outlook Add-in
 
 1. [Install the Outlook Add-in](https://support.microsoft.com/en-us/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More). In the **Add-Ins for Outlook** dialog box, search for **Dynamics 365 Field Service for Outlook (Preview)** and select it.
