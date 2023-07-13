@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 05/29/2023 
+ms.date: 06/22/2023 
 ms.custom: bap-template 
 ms.collection: 
 ---
@@ -37,6 +37,16 @@ When you enable the Copilot case summary feature, agents can see the case summar
    - **CC_IncidentId**: **Case (Text)**
 1. Set the **Show hidden** toggle to **On**.
 1. Save and publish the customizations.
+
+You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have **Copilot** option enabled:
+
+1. In Power Apps, add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
+1. Specify the following details in **Configure Event**:
+     - Set the **Event Type** to **On load**.
+     - Set the **Library** to **msdyn_CopilptCaseSummaryLibrary.js**
+     - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
+     - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
+1. Save and publish the changes.
 
 ### Modify fields used to generate case summary
 
@@ -85,18 +95,6 @@ You can customize what agents see on the case summary card by modifying these ke
    ```
 
 Repeat the steps to replace other key values.
-
-## Disable display of Copilot-generated case summaries
-
- To ensure that the case summary doesn't load on a custom case form when the Copilot case summary feature isn't enabled, perform the following steps:
-
-1. In Power Apps, you must add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
-1. Specify the following details in **Configure Event**:
-     - Set the **Event Type** to **On load**.
-     - Set the **Library** to **msdyn_CopilptCaseSummaryLibrary.js**
-     - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
-     - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
-1. Save and publish the changes.
 
 ## Enable Copilot features for custom apps
 

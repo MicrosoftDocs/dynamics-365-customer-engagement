@@ -53,7 +53,7 @@ This sample shows how to create simple [!INCLUDE[pn_LINQ](../../includes/pn-linq
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
 
 ### See also
 
