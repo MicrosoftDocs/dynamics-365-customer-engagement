@@ -497,7 +497,7 @@ items:
 - name: Responsible AI
   items: 
     - name: Overview
-      href: ../includes/responsible-ai-overview.md
+      href: responsible-ai-overview.md
     - name: FAQ for Outlook work order creation
       href: fs-front-line/faqs-wo-flw-copilot.md
 

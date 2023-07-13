@@ -46,4 +46,4 @@ The intention is to aid front-line workers in creating work orders at scale in l
 ## See also
 
 - [Create a work order in Outlook using Copilot in Field Service (Preview)](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
-- [FAQs for Dynamics 365 Field Service](../../includes/responsible-ai-overview.md)
+- [!INCLUDE [FAQs for Dynamics 365 Field Service](/includes/responsible-ai-overview.md)]
