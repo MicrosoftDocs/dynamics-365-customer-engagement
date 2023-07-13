@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to
-ms.date: 07/11/2023 
+ms.date: 07/13/2023 
 ms.custom: bap-template 
 ---
 
@@ -39,7 +39,7 @@ You can't set multiple profiles as the default profile. If you must change the d
 
 ## Map security roles to agent experience profiles
 
-When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a user role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified user role.
+When you have multiple user groups with different roles and privileges, you can assign agent experience profiles to a security role to provide customized app experiences for each group. The application assigns the agent profile to all the users with the specified security role.
 
 If users have multiple security roles, the applications links the profile with the higher rank to the user. 
 
