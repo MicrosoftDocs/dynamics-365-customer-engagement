@@ -104,9 +104,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_ocsystemmessage](msdyn_ocsystemmessage.md)|
 |[msdyn_octag](msdyn_octag.md)|
 |[msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md)|
-|[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
-|[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
-|[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
 |[msdyn_ocvoice](msdyn_ocvoice.md)|
 |[msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md)|
 |[msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md)|
@@ -152,7 +149,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_systemuser_msdyn_omnichannelqueue](msdyn_systemuser_msdyn_omnichannelqueue.md)|
 |[msdyn_teamsengagementctx](msdyn_teamsengagementctx.md)|
 |[msdyn_transcript](msdyn_transcript.md)|
-|[msdyn_twitterengagementctx](msdyn_twitterengagementctx.md)|
 |[msdyn_unifiedroutingdiagnostic](msdyn_unifiedroutingdiagnostic.md)|
 |[msdyn_unifiedroutingrun](msdyn_unifiedroutingrun.md)|
 |[msdyn_unifiedroutingsetuptracker](msdyn_unifiedroutingsetuptracker.md)|
