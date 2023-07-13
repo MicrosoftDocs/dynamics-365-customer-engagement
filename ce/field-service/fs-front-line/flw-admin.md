@@ -18,11 +18,7 @@ As an administrator for your organization, the set up tasks for the Field Servic
 - Field Service (Preview) Outlook Add-in
 - Field Service (Preview) Teams app
 
-> [!div class="op_single_selector"]
-> - [Set up the Field Service (Preview) Outlook Add-in](#set-up-the-field-service-preview-outlook-add-in)
-> - [Set up the Field Service (Preview) Teams app](#set-up-field-service-preview-teams-app)
-
-## Set up the Field Service (Preview) Outlook Add-in
+## [Field Service (Preview) Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
 
@@ -64,17 +60,15 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Select **Next** and **Finish deployment**. Then, select **Done**.
 
-## Set up Field Service (Preview) Teams app
+## [Field Service (Preview) Teams](#tab/teams)
 
 The Field Service (Preview) Teams app requires the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
-- [Deploy Teams Tab app](#deploy-teams-tab-app-package)
-- [Select an environment](#select-an-environment)
-- [Install and set up Viva Connections](#install-and-set-up-viva-connections), if it’s not already installed
-- [Deploy Viva Connections Cards for Field Service (Preview)](#deploy-viva-connections-cards-for-field-service-preview)
+- [Deploy Field Service (Preview) Teams app](#deploy-field-service-preview-teams-app)
+- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
+- [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
-- [Assign audiences](#assign-security-roles-and-field-security-profiles)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
 
 > [!NOTE]
@@ -213,5 +207,7 @@ If some of the permissions of a user are inadequate to view or create work order
    :::image type="content" source="media/fsp-powerapps-column-security-profiles.png" alt-text="PowerApps screenshot showing Column security profiles selection":::
 
 1. Edit the desired column level profiles.
+
+---
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
