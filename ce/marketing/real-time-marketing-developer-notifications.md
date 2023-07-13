@@ -268,6 +268,7 @@ Body:
     [dataTask resume];
 }
 ```
+---
 
 ### [iOS - API v.2](#tab/ios-v2)
 
@@ -367,9 +368,9 @@ func createInteraction(typeInteraction: Int, trackingId: String) {
     } 
 
 ```
+---
 
 ## Receive notifications in Android
-
 
 ### Sample code snippet to parse the incoming notifications in Android
 
@@ -516,6 +517,7 @@ Handle the application open through the notification in **MainActivity** to obta
         checkPlayServices(); 
         FirebaseService.createChannelAndHandleNotifications(getApplicationContext());
 ```
+---
 
 ## Send events in Android
 
@@ -525,8 +527,6 @@ Events are used for tracking notifications as follows:
 - **Clicked:** User clicked on the link within the notification.
 
 ### [Android - API v.1](#tab/android-v1)
-
-
 
 **EventTrackingContract**
 
@@ -624,9 +624,8 @@ AsyncTask.execute(new Runnable() {
             } 
         }); 
 ```
-
+---
 ### [Android - API v.2](#tab/android-v2)
-
 
 
 **EventTrackingContract**
@@ -696,5 +695,5 @@ AsyncTask.execute(new Runnable() {
             } 
         }); 
 ```
-
+---
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
