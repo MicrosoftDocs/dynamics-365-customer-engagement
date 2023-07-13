@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 07/12/2023
+ms.date: 07/13/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,15 +15,9 @@ ms.custom: bap-template
 
 As an administrator for your organization, the set up tasks for the Field Service (Preview) depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
-- Field Service (Preview) Outlook Add-in
-- Field Service (Preview) Teams app
-
 ## [Field Service (Preview) Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go. The Outlook add-in also includes copilot capabilities to create work orders in Outlook. If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
-
-> [!NOTE]
-> Outlook Preview is not supported.
 
 ### Prerequisites
 
@@ -85,7 +79,7 @@ Admin permissions for the following apps:
 
 ### Create user groups
 
-If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
+If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
 ### Deploy Field Service (Preview) Teams app
 
@@ -107,9 +101,12 @@ Make the Field Service (Preview) app available in Teams.
 
 1. On the **Settings** tab, select your environment.
 
+   > [!NOTE]
+   > You must select your environment and have it validated before deploying Field Service (Preview) for Viva Connections.
+
 ### Deploy Field Service (Preview) for Viva Connections
 
-Make Field Service (Preview) for Viva Connections available in Teams.
+Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, [install and set it up](/viva/connections/set-up-admin-center) before continuing. Then, make Field Service (Preview) for Viva Connections available in Teams.
 
 1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
 
@@ -129,7 +126,7 @@ Make Field Service (Preview) for Viva Connections available in Teams.
 
 1. On the **Approve access** dialog box, select **Go to API access page**.
 
-1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval.
+1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
 
 ### Install and pin the apps in Teams
 
@@ -140,7 +137,7 @@ Make Field Service (Preview) for Viva Connections available in Teams.
 1. Select **Global (Org-side default)**.
 
    > [!TIP]
-   > If you don't want to provide access to the app globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
+   > This default policy applies to all users in your organization unless you assign another policy. If you don't want to the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
 
 1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
 
@@ -161,6 +158,9 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
+
+   > [!NOTE]
+   > If you don't set up the target audience for each card, the card will be available to all workers.
 
 1. Preview the experience and then select **Publish** or **Republish**.
 
