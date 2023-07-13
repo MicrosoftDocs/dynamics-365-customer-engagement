@@ -268,7 +268,6 @@ Body:
     [dataTask resume];
 }
 ```
----
 
 ### [iOS - API v.2](#tab/ios-v2)
 
@@ -694,5 +693,4 @@ AsyncTask.execute(new Runnable() {
             } 
         }); 
 ```
----
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
