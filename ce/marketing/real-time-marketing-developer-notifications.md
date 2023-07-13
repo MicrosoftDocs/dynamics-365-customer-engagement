@@ -367,7 +367,6 @@ func createInteraction(typeInteraction: Int, trackingId: String) {
     } 
 
 ```
-## {-}
 
 ## Receive notifications in Android
 
