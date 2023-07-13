@@ -367,6 +367,7 @@ func createInteraction(typeInteraction: Int, trackingId: String) {
     } 
 
 ```
+---
 
 ## Receive notifications in Android
 
@@ -621,7 +622,7 @@ AsyncTask.execute(new Runnable() {
             } 
         }); 
 ```
----
+
 ### [Android - API v.2](#tab/android-v2)
 
 
