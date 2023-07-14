@@ -1,7 +1,7 @@
 ---
 title: Work order form and component experience
 description: The new work order experience simplifies work order creation, management, and scheduling.
-ms.date: 06/30/2023
+ms.date: 07/14/2023
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
@@ -10,13 +10,13 @@ ms.custom: bap-template
 
 # Work order form and component experience (preview)
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 With the Wave 2 2023 release, Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md). It also provides more information at a glance and uses more visually appealing forms that let you quickly update fields on the form.
 
 In this article, we'll discuss the work order form and the components that it uses. You also find information about customizing the new controls and forms and potential limitations.
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
 
 ## Work order list
 
