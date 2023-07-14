@@ -26,18 +26,18 @@ The Customer Portal settings in Field Service link directly to the default Power
 
 To configure email:
 
-   1. Select the *Field Service PowerApps Power Flow Email Notifications* flow, which is turned off by default.
-   1. Open the flow and configure it.
-   1. On the flow, select **Save as** and create a copy of the default flow.
-   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
-    1. Then, select **Turn on** to enable the flow.
+1. Select the *Field Service PowerApps Power Flow Email Notifications* flow, which is turned off by default.
+1. Open the flow and configure it.
+1. On the flow, select **Save as** and create a copy of the default flow.
+1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Select **Turn on** to enable the flow.
 
 To configure SMS:
 
-   1. Select the *Field Service PowerApps Power Flow SMS Notifications* flow, which is turned off by default.
-   1. On the flow, select **Save as** and create a copy of the default flow.
-   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
-   1. Then, select **Turn on** to enable the flow.
+1. Select the *Field Service PowerApps Power Flow SMS Notifications* flow, which is turned off by default.
+1. On the flow, select **Save as** and create a copy of the default flow.
+1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Select **Turn on** to enable the flow.
 
 ## List of notifications
 
