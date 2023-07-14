@@ -144,7 +144,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 
 The new work order experience in the 2023 release wave 2 introduces several new components for makers to use on their forms. Unless stated differently, you can't customize the components.
 
-The following components get added:
+The following components are added:
 
 - Work order grid (*msdyn_FieldService.WorkOrderList*) with customizable columns.
 - Functional location card (*msdyn_FieldService.LocationCard*) that works on the work order entity only.
