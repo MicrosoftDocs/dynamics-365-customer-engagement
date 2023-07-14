@@ -25,7 +25,7 @@ The following sections guide you through the setup process and provide helpful i
    > [!div class="mx-imgBorder"]
    > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
 
-1. Enter the name of the portal, the desired subdomain, and choose a display language and select **Create**.
+1. Enter the name of the portal, the desired subdomain, choose a display language, and select **Create**.
 
 The Power Pages portal site gets created in the background. This process can take a few minutes. You'll get an email when it's ready or you can check the notification area for updates.
 
@@ -63,7 +63,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
 
-- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invitations to the portal either.
+- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invites to the portal either.
 
 ### Display tab
 
