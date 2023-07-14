@@ -17,7 +17,7 @@ Dynamics 365 Sales uses copilot to summarize email conversations and provides yo
 
 ## Prerequisites
 
-Ensure that the Copilot feature is enabled in your organization. More information: [Enable the Copilot email assist feature](enable-copilot-email-assist.md) <!--Update the link -->
+Ensure that the Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
 ## Considerations
 
