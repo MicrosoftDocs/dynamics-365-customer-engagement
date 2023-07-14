@@ -18,8 +18,8 @@ ms.custom:
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
 
->[!Note]  
-> Unified Service Desk doesn't support Microsoft Edge and Google Chrome browser extensions.
+>[!NOTE]  
+> Unified Service Desk doesn't support browser extensions for Microsoft Edge and Google Chrome.
 
 ## Hosting types
  
