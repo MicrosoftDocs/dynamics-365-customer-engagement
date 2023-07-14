@@ -67,7 +67,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power Pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Track my technician tab
 
