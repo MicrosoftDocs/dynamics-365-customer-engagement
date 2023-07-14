@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/11/2023
+ms.date: 07/14/2023
 ms.custom: bap-template
 ---
 
@@ -21,9 +21,11 @@ You can track the various details of your article in Customer Service Hub. The *
 
 To view an article’s view counts and other related statistics, open the article you want to track, and then select the **Analytics** tab.  
   
-- **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day. The data is calculated based on the Coordinated Universal Time (UTC) time zone, and the data you'll see is the UTC time converted to your local time zone. For example, 23rd Jun, 12:00 AM UTC time zone translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time zone.
+- **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day.
 
-    The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
+To maintain uniformity among users who view the data across different time zones, the data is calculated based on the Coordinated Universal Time (UTC) time zone, aggregated and then displayed according to the user's local time zone. So, if you are in the UTC-3 time zone, you’ll see the time, and consequently the day as UTC-3, because the UTC time gets converted to your local time. For example, 23rd Jun, 12:00 AM UTC time translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time.
+
+The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
 
 - **Feedback**: Captures all the feedback and ratings on the knowledge articles and updates the articles accordingly. If your articles are published on a portal, customers and users can provide their feedback and also give ratings on an article. The Feedback sub grid shows all feedback received for the current knowledge article.  
 
