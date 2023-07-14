@@ -1,7 +1,7 @@
 ---
 title: Use images, files, and videos in your content
-description: "How to Upload, manage and use images, files and videos in Dynamics 365 Marketing."
-ms.date: 06/02/2023
+description: How to Upload, manage and use images, files, and videos in Dynamics 365 Marketing.
+ms.date: 07/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -13,7 +13,7 @@ search.audienceType:
   - enduser
 ---
 
-# Upload, manage and use images, files, and videos in online content
+# Upload, manage, and use images, files, and videos in online content
 
 Shareable assets are critical for meaningful and successful customer experiences. The files you use must be available publicly on the internet so your emails and pages can access and display them. The Dynamics 365 Marketing library stores images, documents, and videos, hosting them publicly and providing an easy way to find and link to them while creating content. The library is shared across real-time and outbound marketing, making it easy to upload and use assets where you need them. 
 
@@ -36,7 +36,13 @@ You can create a collection of images, videos, and files for later use. To uploa
 > [!div class="mx-imgBorder"]
 > ![upload replace asset](media/upload-new-images-from-library.png "upload replace asset")
 
-You can add **tags** when you upload a file so it’s easier to organize and find it later.
+You can manually add **tags** when you upload a file so it’s easier to organize and find it later.
+
+Additionally, thanks to enhanced AI tagging, tags are automatically generated any time you upload images to the library.
+
+> [!IMPORTANT]
+> The AI tagging feature is currently in preview.
+
 When you add an image element to your content or need to [link to a file or video](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library), you can choose to use a file that already exists in your Marketing app library or upload a new one. After you've uploaded a file in this way, it will also be available in the library for use in other content.
 
 ## Edit assets 
@@ -59,8 +65,10 @@ To add an image, start by dragging an image element onto your design, which posi
 > [!div class="mx-imgBorder"]
 > ![browse images from asset library and use them](media/use-images-from-library.png "browse images from asset library and use them")
 
-To find an image more quickly, try using the **Filter by keyword** search bar to look for specific keywords.
+To find an image more quickly, try using the **Filter** search bar to look for specific keywords.
 If the image you need isn't there, select **+Upload** to add a new one.
+
+Additionally, the Copilot assistant automatically identifies a selection of images from your library that best complement your content. Quickly and easily choose images that resonate with your audience without having to spend time searching for them.
 
 ### See also
 

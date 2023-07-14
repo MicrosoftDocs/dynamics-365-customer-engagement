@@ -1,7 +1,7 @@
 ---
 title: "Understand the up next widget on records"
 description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
-ms.date: 06/23/2023
+ms.date: 07/07/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -63,6 +63,8 @@ To add manual activities, see [Track and manage activities](manage-activities.md
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW16PET]
 
 The following image shows an example of a sequence preview.
 
