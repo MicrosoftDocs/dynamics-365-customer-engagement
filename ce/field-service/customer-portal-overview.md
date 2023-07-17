@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 Field Service Portal overview
+title: Dynamics 365 Field Service portal overview
 description: Learn how customers can manage their upcoming service visits with customer experience portals in Field Service.
 ms.date: 05/03/2023
 ms.topic: overview
@@ -12,7 +12,7 @@ search.app:
 
 <!-- editor says please check word addition in line 49 to ensure correctness. -->
 
-# Dynamics 365 Field Service Portal overview
+# Dynamics 365 Field Service portal overview
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -37,10 +37,10 @@ Email notifications keep the customer up to date about the status of the booking
 
 Before inviting your customer to self-schedule service appointments, review the following articles that help you get started and set up.
 
-1. [Create and configure the Field Service Portal (preview)](create-configure-customer-portal.md)
-1. [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md)
+1. [Create and configure the Field Service portal (preview)](create-configure-customer-portal.md)
+1. [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md)
 1. If you want customers to see information about their technician location and arrival time, see [Track a technician](customer-portal-technician-tracking.md)
-1. To make sure customers can use a homepage, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md)
+1. To make sure customers can use a home page, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md)
 
 ## Known limitations
 
@@ -54,8 +54,8 @@ Before inviting your customer to self-schedule service appointments, review the 
 
 ## Next steps
 
-- [Create and configure the Field Service Portal](create-configure-customer-portal.md)
-- [Set up notifications for the Field Service Portal](customer-portal-notification-settings.md)
+- [Create and configure the Field Service portal](create-configure-customer-portal.md)
+- [Set up notifications for the Field Service portal](customer-portal-notification-settings.md)
 - [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md)
 - [Track a technician on the Field Service portal](customer-portal-technician-tracking.md)
 
