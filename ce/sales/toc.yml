@@ -222,11 +222,6 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
-        - name: Use Copilot for email messages 
-          href: use-copilot-email.md      
-          items:
-            - name: Enable Copilot email assist
-              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -774,6 +769,12 @@
               href: copilot-overview.md
             - name: Use Copilot capabilities
               href: use-sales-copilot.md
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
+            - name: View and copy email summary
+              href: view-copy-email-summary.md
+            - name: Use Copilot in rich text editor for email
+              href: /power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context
         - name: Activity management
           items:
             - name: Add activities to the timeline
@@ -786,13 +787,6 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
-        - name: Use Copilot for email messages 
-          href: use-copilot-email.md      
-          items:
-            - name: Compose and send email messages using Copilot
-              href: compose-send-email-copilot.md
-            - name: View and copy email summary
-              href: view-copy-email-summary.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
