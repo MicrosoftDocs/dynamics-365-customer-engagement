@@ -30,7 +30,7 @@ Here is a brief description of the workflow.
 
 When a customer raises a request through a channel such as voice, messaging, or chat, a conversation is created. A conversation represents an entire end-to-end interaction with a customer. A conversation can also be created when an agent calls a customer. A conversation typically originates in a workstream on a specific channel. It's then routed to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
 
-A conversation can end during a single session, or it can extend to multiple sessions. A session is created when the system identifies an agent to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or an agent might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and agent performance. Examples include the number of requests that landed in a queue, the number of requests that were rejected by agents, and agent handle time.
+A conversation can end during a single session, or it can extend to multiple sessions. A session is created when the system identifies an agent to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or an agent might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and agent performance. Examples include the number of requests that landed in a queue, the number of requests that agents rejected, and agent handle time.
 
 The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to a bot. When the bot escalates the conversation to a human agent, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best agent to work on the customer request. If that agent rejects the request, a new session is created, and the process of identifying another agent begins.
 
@@ -82,7 +82,7 @@ The following time-based filter options are available on real-time dashboards:
 
 - **Today**: View all conversations that have begun since 12 AM in the selected time zone, in any state or province.
 - **Last 24 hours**: View all conversations that have begun in the last 24 hours, in any state or province.
-- **Include open conversations beyond 24 hours**: View all conversations that have begun in the last 24 hours, in any state or province, and all conversations that have begun in the last three days and are still open.
+- **Include open conversations beyond 24 hours**: View all conversations that have begun in the last 24 hours, in any state or province. In addition, view all conversations that have begun in the last three days and that are still open.
 
 ### Time zone
 
@@ -194,7 +194,7 @@ This metric is a measure of the average time, in seconds, that a customer who wa
 
 ### Average conversation wrap-up time
 
-This metric is a measure of the average time that an agent spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. The calculation is based on the time between the beginning of the wrap-up and the point when the agent closes the conversation. If multiple agents handled a conversation, this metric applies only to the time that was spent by the last agent who worked with the customer.
+This metric is a measure of the average time that an agent spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. The calculation is based on the time between the beginning of the wrap-up and the point when the agent closes the conversation. If multiple agents handled a conversation, this metric applies only to the time that the last agent who worked with the customer spent.
 
 This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
@@ -244,7 +244,7 @@ The metric is a measure of the current sentiment of customer. It's powered by Om
 
 ### Average session handle time
 
-This metric is like conversation handle time, but it's granular and is calculated for every agent who works on the conversation. This metric is relevant to conversations that multiple agents handled. If multiple agents were assigned to work on a customer request for any reason, such as transfers or escalations, this metric measures the average time that was spent by each agent who worked with the customer. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
+This metric is like conversation handle time, but it's granular and is calculated for every agent who works on the conversation. This metric is relevant to conversations that multiple agents handled. If multiple agents were assigned to work on a customer request for any reason (for example, transfers or escalations), this metric measures the average time that each agent who worked with the customer spent. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
 
 #### Related metric
 
@@ -256,7 +256,7 @@ This metric is a measure of the current sentiment of the customer. It's powered 
 
 ### Is handled by external participant (session)
 
-A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that was handled by agents outside Dynamics 365 Customer Service. It indicates the sessions that were assigned to and handled by external agents only.
+A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled. It indicates the sessions that were assigned to and handled by external agents only.
 
 For information about metrics that are related to consultations with external agents, go to the [Is handled by external participant (session)](#is-handled-by-external-participant-session) section.
 
@@ -300,7 +300,7 @@ This metric is a measure of the time, in seconds, that a customer spends waiting
 
 ### Active sessions
 
-This metric is a count of sessions that are currently in progress. A session is considered active if it hasn't yet had an agent assigned, it's awaiting agent acceptance, or agents are actively helping customers.
+This metric is a count of sessions that are currently in progress. A session is considered active if no agent has yet been assigned to it, it's awaiting agent acceptance, or agents are actively helping customers.
 
 ### Closed sessions
 
@@ -312,7 +312,7 @@ This metric is a measure of the total number of sessions that were presented to 
 
 ### Is handled by external participant
 
-A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that was handled by agents outside Dynamics 365 Customer Service.
+A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled.
 
 #### Related metrics
 
@@ -321,7 +321,7 @@ A customer request might be handled by multiple agents, including a combination 
 
 ### Session participant count
 
-This metric is a measure of the total number of agents who were involved in helping a customer. These agents include the primary agent who was assigned to work on the session and any subject matter experts who were consulted. This metric can be analyzed by the SessionParticipationType dimension to get further statistics.
+This metric is a measure of the total number of agents who were involved in helping a customer. These agents include the primary agent who was assigned to work on the session and any subject matter experts who were consulted. You can use the SessionParticipationType dimension to analyze this metric and get further statistics.
 
 ### Average first response time
 
