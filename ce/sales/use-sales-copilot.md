@@ -29,18 +29,17 @@ To use Sales Copilot, your administrator must have [enabled and set it up](enabl
 
 Sales Copilot launches automatically when you access the Sales Hub app. If it's closed, launch it from the Sales Hub app by selecting the Sales Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar.
 
-## Use Sales Copilot
+## Use Sales Copilot chat
 
 In the Sales Copilot (preview) pane, type / to get the list of suggested requests. 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Sales Copilot pane along with the list of suggested requests":::
 
 The following table lists the requests you can make to Sales Copilot.
 
-
 |Request  |Response  |
 |---------|---------|
 |Summarize opportunity     | Summarizes the given opportunity based on the fields configured by your administrator.          |
-|Summarize lead     | Summarizes the given lead based on the fields configured by your administrator. Copilot can also suggest possible contacts for a lead.        |
+|Summarize lead     | Summarizes the given lead based on the fields configured by your administrator. Copilot can also suggest possible contacts for a lead. After you select a suggested contact, Copilot generates a summary of fields that can be updated in the lead based on information from the selected contact and the account associated with it. For example, let's say you selected Kiana Anderson from Contoso as your contact, Copilot will suggest the fields in the lead form that can be filled from Kiana and Contoso's details. You can choose whether you want to update the details or not.          |
 |Catchup with opportunity      | Summarizes the changes to the given opportunity since the last seven days, based on fields configured by your administrator.        |
 |Catchup with lead     | Summarizes the changes to the given lead since the last seven days, based on fields configured by your administrator.        |
 |Prepare for upcoming meetings     | Lists your upcoming meetings scheduled in Dynamics 365. After you select the meeting that you'd like to prepare for, Copilot generates a summary based on the last 3 interactions from the Notes content of the related record. The summary is only generated from the notes recorded in the last 3 months.
@@ -51,7 +50,7 @@ You can use the Sales Copilot pane from any page in the Sales Hub app. Type the 
 
 ## Provide feedback
 
-Rate the usefulness of the response by selecting the thumbs up or thumbs down icon. <<Author's note: Who gets the response and how does it improve?>>
+Rate the usefulness of the response by selecting the thumbs up or thumbs down icon.
 
 ## See also
 

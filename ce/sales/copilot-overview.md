@@ -55,7 +55,7 @@ Use the following links to enable, configure, and use Sales Copilot:
 
 **Sellers, Sales managers, and similar role:** 
 
-- [Use Sales Copilot capabilities](use-sales-copilot.md) 
+- [Use Sales Copilot capabilities](use-sales-copilot.md)
 
 ## Region availability and languages supported
 

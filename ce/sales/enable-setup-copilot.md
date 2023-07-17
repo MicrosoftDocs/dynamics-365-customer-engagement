@@ -27,7 +27,7 @@ Select the apps and copilot features you want to enable on them. You can only en
 
 1. From the Change area in the Sales Hub app, select **App Settings**.  
 
-1. Under **General Settings**, select **Copilot (preview)**.
+1. Under **General Settings**, select **Sales Copilot (preview)**.
     If this is the first time you're setting up copilot, you'll see **Set up Copilot**. If you've already set up copilot, you can enable or disable apps or copilot features by selecting **Manage apps**.
 
 1. Select **Set up Copilot** or **Manage apps** depending on what you see.
@@ -56,7 +56,7 @@ As catch up summaries are generated from the audit history, users need to have a
 
     1. In the Sales Hub app, select **Settings** > **Security** > **Security Roles**.
 
-    1. Select the security role you want to edit and select the **Core Records** tab.
+    1. Select the security role that you want to edit and select the **Core Records** tab.
 
     1. Under **Miscellaneous Privileges** and select the following privileges:
         - **View Audit History**
