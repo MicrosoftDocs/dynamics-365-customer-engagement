@@ -127,7 +127,7 @@ Public preview features include tailoring communications to improve customer eng
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent.  Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
-    - [Docs](real-time-marketing-compliance-settings-preview.md#topics)
+    - [Docs](real-time-marketing-compliance-settings.md#topics)
 
 ### Monthly enhancements
 
