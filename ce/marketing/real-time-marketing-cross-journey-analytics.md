@@ -72,6 +72,6 @@ Here, you can see an overview of all the experiments that have been run for the 
 
 Here are some advanced resources for this topic:
 
-- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/blogs/post/?postid=4e96ca1e-52ed-4ae4-9887-af8d6e563304)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
