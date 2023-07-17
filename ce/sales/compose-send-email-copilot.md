@@ -34,7 +34,9 @@ When opening an email from Timeline or quick create email activity, ensure that 
 
 When you're sending an email, you can provide the context for the email in the Copilot composer, and a draft is generated. You can review the draft, copy the content to the email, and send it to recipients.  
 
-1.	On the **Copilot** pane, select **Describe the email you want**.  
+1.	On the **Copilot** pane, go to the **Compose** tab.
+
+1. Select **Describe the email you want**.  
 
     > [!NOTE]
     > When replying to an email, default options are available to generate a draft, including **Reply to an inquiry**, **Make a proposal**, and **Address a concern**. You can choose an option that suits your needs or draft a new email.
@@ -71,4 +73,5 @@ After you’ve generated the suggested content, you can refine the results furth
 
 ### See also
 
-
+[Copilot overview](copilot-overview.md)  
+[Use Copilot in rich text editor for email](/power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context)

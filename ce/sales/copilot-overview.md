@@ -41,6 +41,7 @@ Prepare for your upcoming meetings effortlessly using Copilot. Copilot identifie
 Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content. Using the email assistance capabilities, you can do the following tasks:  
 - [Compose and send email messages using Copilot](compose-send-email-copilot.md)
 - [View and copy email summary](view-copy-email-summary.md) 
+- [Use Copilot in rich text editor for email](/power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context)
 
 ### News updates
 

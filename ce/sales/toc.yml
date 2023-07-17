@@ -773,6 +773,8 @@
               href: compose-send-email-copilot.md
             - name: View and copy email summary
               href: view-copy-email-summary.md
+            - name: Use Copilot in rich text editor for email
+              href: /power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context
         - name: Activity management
           items:
             - name: Add activities to the timeline
