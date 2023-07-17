@@ -53,7 +53,7 @@ If your tenant has an expired Microsoft 365 license, then the provisioning of Om
 
 ### Resolution
 
-To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Azure Active Directory (Azure AD), and add it back. Follow these steps to remove the services:
+To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Microsoft Entra ID, and add it back. Follow these steps to remove the services:
 
 1. Identify the services in Azure AD.
 2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
@@ -85,16 +85,16 @@ To avoid the provisioning failure, you must remove the Microsoft Teams service p
 ![Run PowerShell as an administrator.](media/powershell.png "Run PowerShell as an administrator")
 
 2. Select **Yes** on the **User Control** dialog to allow the application to make changes.
-3. Type the `Install-Module AzureAD` command in the PowerShell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+3. Type the `Install-Module AzureAD` command in the PowerShell window, and press **Enter**. This command installs the PowerShell commands for interacting with Microsoft Entra ID. <br>
 ![Execute command.](media/powershell2.png "Execute command")
 
 4. PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
 ![Run command.](media/powershell3.png "Run command")
 
 5. Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
-This establishes a connection with the tenant's Azure Active Directory, so you can manage it using PowerShell.
+This establishes a connection with the tenant's Microsoft Entra ID, so you can manage it using PowerShell.
 6. Sign in to your organization as a tenant admin.
-7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **`<ObjectID>`** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Azure Active Directory.
+7. Run the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window twice, one each for Microsoft Teams and Skype Teams Calling API Service. Replace **`<ObjectID>`** with the object ID you had stored earlier. This command deletes the expired Teams service and Skype Teams Calling API Service from Microsoft Entra ID.
 
    > [!Note]
    > Right-click in the PowerShell window to paste the Object ID.
@@ -450,7 +450,7 @@ To add the dashboards using app designer, follow these steps:
 
 The issue might happen due to the following reasons:
 
-- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
+- Microsoft Entra ID consent is not available for Omnichannel for Customer Service app.
 - Agent doesn't the Omnichannel agent role privileges.
 - Agent is not assigned to any queue.
 
@@ -458,7 +458,7 @@ The issue might happen due to the following reasons:
 
 Perform the following steps:
 
-- Contact your administrator to verify that Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
+- Contact your administrator to verify that Microsoft Entra ID consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/p/?linkid=2070932) to get access. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
 - Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](add-users-assign-roles.md#understand-roles-and-their-privileges). 
 - Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
@@ -525,7 +525,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 The issue might happen due to the following reasons:
 
 - Cookies are blocked in the browser.
-- Azure Active Directory consent isn't available for Omnichannel for Customer Service app.
+- Microsoft Entra ID consent isn't available for Omnichannel for Customer Service app.
 - Agent doesn't have the Omnichannel agent role privileges.
 - Capacity and default presence are not set.
 - When you deploy or update the Customer Service workspace app profile, the Channel URL field in the Dynamics 365 Channel Integration Framework 2.0 settings for omnichannel gets overwritten. After a deployment, the Channel Integration Framework product might point to a different URL. So, check and ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 always points to the correct URL.
@@ -536,7 +536,7 @@ The issue might happen due to the following reasons:
 Perform the following steps:
 
 - Ensure that cookies are not blocked in the browser in any mode so that agent and supervisor presence can work properly.
-- Contact your administrator to verify Azure Active Directory consent has been given to the Omnichannel for Customer Service application on your tenant. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Contact your administrator to verify Microsoft Entra ID consent has been given to the Omnichannel for Customer Service application on your tenant. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 - Ensure that the agent account has the **Omnichannel Agent** role assigned. More information: [Assign roles and enable users in Omnichannel for Customer Service](add-users-assign-roles.md)
 - Ensure that the agent account has values set for **Capacity** and **Default presence**. More information: [Create and manage users and user profiles](users-user-profiles.md)
 - Ensure that the Channel URL field in Dynamics 365 Channel Integration Framework 2.0 points to the correct URL. More information: [Configure a third-party channel provider](channel-integration-framework/v2/configure-channel-provider-app-profile-manager.md#configure-a-third-party-channel-provider)

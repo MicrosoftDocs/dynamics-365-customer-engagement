@@ -53,14 +53,14 @@ Before you begin, you must complete the following prerequisites:
 
 - Provide **Dynamics 365 service principal** access to Power BI.
 
-     - Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+     - Your Microsoft Entra ID administrators must create a security group in Microsoft Entra ID with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
         The out-of-the-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
         
     > [!NOTE]
     > In organizations where Dynamics 365 Analytics may not be available, you need to use Dynamics CCA Data Analytics.
 
-    - Power BI administrators must add the security group created in Azure Active Directory to Power BI service settings.
+    - Power BI administrators must add the security group created in Microsoft Entra ID to Power BI service settings.
 
         - **Service Principal** in the **Developer settings**.
         - Create **workspaces** in the **Tenant settings**.

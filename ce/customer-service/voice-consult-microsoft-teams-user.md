@@ -29,7 +29,7 @@ To update the Teams phone number in the user profile, perform the following step
      > [!NOTE]
      > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
-- **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Azure Active Directory for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
+- **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
 
      1. Add a guest user in the Azure portal. More information: [Add a new guest user](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal#add-a-new-guest-user-in-azure-ad)
      2. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.

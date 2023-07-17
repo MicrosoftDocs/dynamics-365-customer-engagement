@@ -61,7 +61,7 @@ A detailed explanation is as follows:
 
 ## What happens when I provide data access consent and provision Omnichannel for Customer Service?
 
-The following enterprise applications will be created in your Azure Active Directory and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
+The following enterprise applications will be created in your Microsoft Entra ID and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
 
 - Omni-channel Engagement Hub
 - Omni-channel Engagement Hub APIs

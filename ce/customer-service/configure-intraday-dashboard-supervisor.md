@@ -76,7 +76,7 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
+   1. Create a security group in Microsoft Entra ID, and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
 
       More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
