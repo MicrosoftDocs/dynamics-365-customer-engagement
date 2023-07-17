@@ -102,13 +102,6 @@ After saving the bookable resource, it's time to set the working hours of the re
 
 Let's walk through how to set up working hours.
 
-In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
-
-In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
-
- > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours tab on a bookable resource.](./media/resource-work-hours-new-navigate.png "Screenshot of work hours tab on a bookable resource.")
-
 In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
 
@@ -151,20 +144,9 @@ You can add breaks or split a resource's work hours into different capacities fo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png "Screenshot of custom work hours on a bookable resource with different capacity on a day.")
 
-In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
-  
-  - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
-  
-  - **Work Schedule for One Day**: Set the hours the resource can be scheduled for on a particular day.  
-  
-  - **Time Off**: Set the dates and times the resources can't work. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of setting working hours and time zone.](media/resource-working-hours-timezone.png "Screenshot of setting working hours and time zone.")
- 
-
 In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
+For more information on editing work hour calendars, go to the article on [editing work hours](/dynamics365/customer-engagement/field-service/field-service-work-hours-calendar-api)
 
 ## Add characteristics, territories, and categories 
 
