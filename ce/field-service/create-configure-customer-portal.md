@@ -1,6 +1,6 @@
 ---
-title: Create and configure the Field Service Portal
-description: Set up and configure the Field Service Portal.
+title: Create and configure the Field Service portal
+description: Set up and configure the Field Service portal.
 ms.date: 05/03/2023
 ms.topic: how-to
 author: m-hartmann
@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Create and configure the Field Service Portal
+# Create and configure the Field Service portal
 
 The following sections guide you through the setup process and provide helpful information to configure the portal template.
 
@@ -35,7 +35,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
 
-:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the customer portal settings in Dynamics 365 Field Service.":::
+:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the Customer Portal settings in Dynamics 365 Field Service.":::
 
 ### Configuration tab
 
