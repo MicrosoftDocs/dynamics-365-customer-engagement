@@ -1,7 +1,7 @@
 ---
-title: "How to use aggregate cross-journey analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing."
-ms.date: 02/21/2023
+title: How to use aggregate cross-journey analytics
+description: Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing.
+ms.date: 07/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -28,6 +28,13 @@ The cross-journey analytics dashboard allows you to check in on the performance 
 - Check in on the experiments that have been run in a journey.
 
 The following sections describe the widgets in greater depth.
+
+## KPI summary charts
+
+KPI summary charts summarize the cross-journey key performance indicators for the specified time period. You can further filter the charts by journey name, journey status, or journey goal.
+- **Email engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of emails sent.
+- **Push notification engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of push notifications sent.
+- **Text message engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of text messages sent.
 
 ## Overall effectiveness
 
