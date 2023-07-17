@@ -49,7 +49,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
 
-- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md).
+- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
 
 - **Communication Type**: Define whether you want the system to send your customer email, SMS, or both message types.
 
