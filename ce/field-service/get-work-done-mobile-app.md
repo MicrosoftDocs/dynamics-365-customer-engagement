@@ -88,8 +88,6 @@ In Public Preview you take notes directly in the **Timeline** tab. Simply tap on
 
 ## Service assets
 
-## [Unified Interface app](#tab/vCurrent)
-
 > [!div class="mx-imgBorder"]
 > ![Device with the Field Service mobile app, showing active customer assets in a list.](./media/mobile-2020-customer-asset-navigate.png)
 
@@ -99,15 +97,8 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
-## [Public Preview app](#tab/vNext)
-
-To reach this functionality simply navigate to the app menu and follow the same steps as the **Unified Interface app**.
-
----
 
 ## Barcode scanning
-
-## [Unified Interface app](#tab/vCurrent)
 
 Select the search icon to find records from any entity. You can also search by scanning a barcode to find records that have a matching barcode field.
 
@@ -116,15 +107,8 @@ Select the search icon to find records from any entity. You can also search by s
 
 For more information, see the article on [configuring global search](mobile-power-app-system-barcode-scanning.md).
 
-## [Public Preview app](#tab/vNext)
-
-To reach this functionality simply tap on the top search icon in the booking home page, then follow the same steps as the **Unified Interface app**.
-
----
 
 ## Time entry
-
-## [Unified Interface app](#tab/vCurrent)
 
 Track the time that technicians spend during work orders and other scenarios and create time entries in the mobile app.
 
@@ -139,16 +123,8 @@ For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
 
-## [Public Preview app](#tab/vNext)
-
-To reach this functionality simply navigate to the app menu and follow the same steps as the **Unified Interface app**.
-
-
----
 
 ## Create follow-up work orders
-
-## [Unified Interface app](#tab/vCurrent)
 
 While working on site, you may want to log work for another time. The Field Service (Dynamics 365) mobile app makes it easy to create follow-up work orders.
 
@@ -174,10 +150,5 @@ The following fields are already filled in based on the current work order:
 
 Once the technician saves the work order, it's uploaded and available for booking to the dispatcher.
 
-## [Public Preview app](#tab/vNext)
-
-To reach this functionality simply navigate to the app menu and follow the same steps as the **Unified Interface app**.
-
----
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,8 +75,6 @@ To access the app navigation in the Public Preview app simply tap on the "More..
 
 ## Recent and pinned records
 
-## [Unified Interface app](#tab/vCurrent)
-
 In the sitemap, use the **Recent** option to quickly find things you recently looked at, like work orders, assets, time entries, and more.
 
 You can also **Pin** important records for quick access.
@@ -84,16 +82,8 @@ You can also **Pin** important records for quick access.
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
 
-## [Public Preview app](#tab/vNext)
-
-This feature is not currently available in the Public Preview app. 
-
----
-
 
 ## Troubleshoot the app
-
-## [Unified Interface app](#tab/vCurrent)
 
 If you run into issues with the app, you can often solve them by removing all cached data.
 
@@ -104,10 +94,5 @@ On the sitemap, select your profile icon in the top left and choose **Reconfigur
 
 Reconfiguring deletes data and metadata for the current organization from the cache.
 
-## [Public Preview app](#tab/vNext)
-
-This feature is not currently available in the Public Preview app, since offline mode is not yet supported. 
-
----
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
