@@ -26,10 +26,10 @@ You can customize the following for the **Active Conversation** page:
 - Embed canvas apps
 
 > [!NOTE]
-> For a conversation entity, you can't add custom forms.<br>
-> We recommend that you don't:
-> - Change the Conversation form or the order in which it's displayed, as it's the default form.
-> - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
+> - For a conversation entity, you can't add custom forms.<br>
+> - We recommend that you don't:
+>   - Change the Conversation form or the order in which it's displayed, as it's the default form.
+>   - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
 
 By default, the **Active Conversation** page displays the sections that are listed in this article. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
