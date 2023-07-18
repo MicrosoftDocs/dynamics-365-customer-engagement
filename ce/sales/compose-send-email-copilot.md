@@ -30,7 +30,7 @@ Sign in to your sales app and the Copilot (:::image type="content" source="media
 Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot composer becomes active.  
 When opening an email from Timeline or quick create email activity, ensure that the Regarding field contains a lead or an opportunity.  
 
-## Compose or reply an email
+## Compose or replay an email
 
 When you're sending an email, you can provide the context for the email in the Copilot composer, and a draft is generated. You can review the draft, copy the content to the email, and send it to recipients.  
 
