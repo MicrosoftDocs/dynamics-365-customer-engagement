@@ -66,7 +66,7 @@ Additionally, if [customize active conversation form](add-customer-summary-setti
 We also recommend that you don't:
 
 - Change the **Conversation** form or the order in which it's displayed, as it's the default form.
-- Modify the out-of-the-box JavaScript handlers used in the **Active Conversation** form.
+- Modify the out-of-the-box JavaScript handlers and web resource used in the **Active Conversation** form.
 
 ### Logical column names
 

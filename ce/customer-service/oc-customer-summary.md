@@ -110,7 +110,8 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
    ### [Enhanced Active Conversation&mdash;Recent case](#tab/enhancedrecentcases)
 
-   Displays the recent cases raised by the customer. However, if you see the default **Recent cases** card, your administrator has disabled the enhanced recent case experience for the **Active Conversation** form.
+   Displays the recent cases raised by the customer. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Customize recent cases](add-customer-summary-settings.md#customize-recent-cases).<br>
+   However, if you see the default **Recent cases** card, your administrator has disabled the enhanced recent case experience for the **Active Conversation** form.
 
    :::image type="content" source="media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
     

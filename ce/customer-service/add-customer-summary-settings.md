@@ -31,15 +31,15 @@ To enable the enhanced Active Conversation form and customize the form, perform 
       - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
       - **Recent cases** card with color coded priority and status fields.
       - The default form selector to switch between active and closed conversations is hidden.
-    - **Customise active conversation form** to display **Queue**, **Start time**, options to save and refresh on the **Active Conversation** form, and enable customizations in [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form). Select **Power Apps** to further customize the form. If you're customizing the form in Power Apps, we recommend the following guidelines:
+    - **Customize active conversation form** to display **Queue**, **Start time**, options to save and refresh on the **Active Conversation** form, and enable customizations in [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form). Select **Power Apps** to further customize the form. If you're customizing the form in Power Apps, we recommend the following guidelines:
        - Reduce the number of custom controls. Keep only the most frequently used controls on the default tab. The remaining data-driven controls should be distributed into secondary tabs to allow the default tab to load quickly. 
        - Limit the amount of customizations using the form Onload event.
        - Limit the amount of external data coming from Canvas apps for efficient and productive forms.
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE]
-   > If **Customise active conversation form** is enabled, then
-   > - the options that are available as a part of the customise active form experience aren't applicable if an agent initiates an outbound call to emergency services.
+   > If **Customize active conversation form** is enabled, then
+   > - the options that are available as a part of the customize active form experience aren't applicable if an agent initiates an outbound call to emergency services.
    > - if an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
 
 
@@ -49,12 +49,12 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 
 By default, the enhanced **Active Conversation** form doesn't display the form selector to switch between open and closed conversations. To allow your users to toggle between open and closed conversations, do the following steps:
 
-1. In [Power Apps](https://make.powerapps.com/), add the **Unhide Conversation form selector** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition)
-1.  In the **Edit Unhide Conversation form selector**, set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition)
+1. In [Power Apps](https://make.powerapps.com/), add the **Show Conversation form selector** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition)
+1.  In the **Edit Show Conversation form selector**, set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition)
 1. Optionally, in the **Setting app values** section, for a required app, you can set the value to **Yes** in the **New app value**. The tab set at the application level overrides the environment level setting.
 1. Save and publish your customizations.
      
-    :::image type="content" source="media/powerapps-unhide-selector.png" alt-text="View the unhide selector" lightbox="media/powerapps-unhide-selector-mini.png"::: 
+    :::image type="content" source="media/powerapps-unhide-selector-mini.png" alt-text="View the show selector" lightbox="media/powerapps-unhide-selector.png"::: 
 
 ## Customize recent cases
 
