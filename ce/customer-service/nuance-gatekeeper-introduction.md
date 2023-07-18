@@ -33,4 +33,4 @@ Nuance Gatekeeper uses deep neural networks to determine a single, transparent a
 
 ### Next steps
 
-[Add authentication setting for Nuance Gatekeeper](configure-omnichannel-gatekeeper.md)  
+[Add authentication setting for Nuance Gatekeeper](configure-gatekeeper-authentication.md)  
