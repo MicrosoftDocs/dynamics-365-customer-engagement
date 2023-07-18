@@ -12,7 +12,7 @@ ms.reviewer: shujoshi
 
 # Sales Copilot overview (preview)
 
-Sales Copilot is an AI assistant that helps your sales team be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. It also has an interface to compose emails, which helps sellers compose professional-looking emails in no time. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
+Sales Copilot is an AI assistant that helps your sales team be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
 
 > [!IMPORTANT]
 > This is a preview feature.
@@ -69,7 +69,4 @@ Use the following links to enable, configure, and use Sales Copilot:
 
 Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside the United States, you'll need to opt in to share relevant data with the Azure OpenAI Service in the United States. This opt-in may result in the transfer of relevant data outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
 
-## Accuracy of the Copilot responses
-
-As Copilot is an AI assistant, it learns from the data in your organization. The accuracy of the responses depends on the quality of the data in your organization. When in doubt, verify the details in the record and provide feedback to Copilot. Copilot uses your feedback to improve the accuracy of its responses.
 
