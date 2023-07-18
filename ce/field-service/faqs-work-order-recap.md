@@ -36,14 +36,14 @@ As a work order progresses through its lifecycle, the work order recap provides 
 ## What are the limitations of work order recap with copilot? How can users minimize the impact of the limitations when using the system?
 
 - This feature is currently in preview.
-  - Users are encouraged to provide feedback on the quality of the content using the like/dislike icon buttons within the feature's control.
+  - Users are encouraged to provide feedback on the quality of the content using the like/dislike icons within the feature's control. We use this data to evaluate and improve the quality of the capability.
 - This feature is intended for use online. It's not available while users are offline.
-- This feature was evaluated using English. It's currently available only in English (en-us).
+- This feature was evaluated using English. It's currently available only in English (en-us). Inaccurate responses may be returned when users converse with the system in languages other than English.
 - The system generates a summary based on the data the user who invoked the summary can see and based on the data that exists within the system. If the user is missing critical permissions, the summary may be of low value. Similarly, if the data in the system is of poor quality, the summary may be of low value. The output of the summary is based on the value of the inputs.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-- While this feature is in preview and only available for environments within the United States and the United Kingdom, the feature can be enabled or disabled for a given environment by an administrator through the Field Service **Settings**, **Copilot Recap** toggle. When disabled, the Copilot Recap control is hidden from the work order form. This feature is only available, out of the box, on the new work order form.
+- While this feature is in preview and only available for environments within the United States and the United Kingdom, the feature can be enabled or disabled for a given environment by an administrator through the Field Service **Settings**, **Copilot recap** toggle. When disabled, the **Copilot recap** control is hidden from the Work order form (preview). This feature is only available, out of the box, on the Work order form.
 - While the prompt and contextual data provided within the prompt can't be customized at this time, the feature respects:
   - Personalization settings for date/time format and time zone to ensure time related outputs reflect the date/time and time zone settings of a given user.
   - Environment specific table and field labels for the contextual information passed in as part of the prompt for a given work order. The response should reflect the labels of the data within a given environment rather than the display labels defined in the default solution.

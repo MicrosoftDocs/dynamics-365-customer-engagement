@@ -13,7 +13,7 @@ ms.reviewer: m-hartmann
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
-The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order. The recap includes the work order's past developments, future actions, arrival times, work criticality, and parts used or to be used.
+The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order and suggest appropriate next steps to help get issues resolved in a timeline manner. The recap includes the work order's past developments, future actions, arrival times, work criticality, and a summary of required parts.
 
 The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids summarizing information that violates certain restrictions.
 
@@ -21,18 +21,18 @@ The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md
 
 ## Prerequisites
 
-The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot Recap**. Currently, Field Service Copilot requests are processed using resources within the United States.
+The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. Currently, Field Service Copilot requests are processed using resources within the United States. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot recap**.
 
 ## Generate a work order recap
 
-Users interact with the recap feature from the work order form.
+Go to the Work order form (preview).
 
-- On a saved work order, select **Generate** in the **Copilot Recap** control to generate a recap summary.
-- To refresh a summary, select **Regenerate** in the **Copilot Recap** control.
-- Use the **Copilot Recap** control to provide feedback on the recap and help us understand if it's useful or not, and optionally provide more context about your preferences.
+- On a saved work order, select **Generate** in the **Copilot recap** control to generate a recap summary.
+- To refresh a summary, select **Regenerate** in the **Copilot recap** control.
+- Use the **Copilot recap** control to provide feedback on the recap and help us understand if it's useful or not, and optionally provide more context about your preferences.
 
 > [!NOTE]
-> When a recap is generated, the content is not saved and is only available to the user who generated it. Each user must generate their own recap which is generated with respect to that user's permissions.
+> When a recap is generated, the content is not saved and is only available to the user who generated it. Each user must generate their own recap, which is generated based on the user's permissions.
 
 ## Recap generation and content
 
