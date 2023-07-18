@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/14/2023
+ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 
@@ -23,7 +23,7 @@ To view an article’s view counts and other related statistics, open the articl
   
 - **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day.
 
-    To maintain uniformity among users who view the data across different time zones, the data is calculated based on the Coordinated Universal Time (UTC) time zone, aggregated and then displayed according to the user's local time zone. So, if you are in the UTC-3 time zone, you’ll see the time, and consequently the day as UTC-3, because the UTC time gets converted to your local time. For example, 23rd Jun, 12:00 AM UTC time translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time.
+    To maintain uniformity among users who view the data across different time zones, the data is calculated based on the Coordinated Universal Time (UTC) time zone, aggregated, and then displayed according to the user's local time zone. So, if you are in the UTC-3 time zone, you’ll see the time and consequently the day as UTC-3, because the UTC time gets converted to your local time. For example, 23rd Jun, 12:00 AM UTC time translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time.
 
     The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
 
