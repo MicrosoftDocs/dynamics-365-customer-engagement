@@ -1,7 +1,7 @@
 ---
 title: Use images, files, and videos in your content
 description: How to Upload, manage and use images, files, and videos in Dynamics 365 Marketing.
-ms.date: 07/06/2023
+ms.date: 07/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,15 +20,14 @@ Shareable assets are critical for meaningful and successful customer experiences
 > [!NOTE]
 > The following file types are supported: AVI, CS, CSS, DOC, DOCX, EPUB,GIF, JPG, JPEG, MP3, MP4, MPEG, MPG, ODP, ODS, ODT, PDF, PNG, PPT, PPTX, PS, RTF, SVG, TAR, TGZ, TXT, WMV, XLS, XLSX, XML, ZIP
 >
-> You will see an error message if you attempt to upload a file of an unsupported type. 
+> You'll see an error message if you attempt to upload a file of an unsupported type.
+>
 > The maximum file size is: 
 > - 5MB for images
 > - 32MB for documents
 > - 128MB for videos
 >
-> Files are stored in the organization’s Microsoft Dataverse storage and will count against 
-> their file storage capacity. For more information on Dataverse storage capacity, see [New 
-> Microsoft Dataverse storage capacity](https://learn.microsoft.com/power-platform/admin/capacity-storage)
+> Files are stored in your organization’s Microsoft Dataverse storage and count against your file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
 
 > [!TIP]
 > As files are stored in the organization’s Microsoft Dataverse storage, ensure that the file types you want to use are not in the list of blocked files extension described at [System Settings General tab - Power Platform](/power-platform/admin/system-settings-dialog-box-general-tab) or the list of blocked MIME types described [here](/power-platform/admin/settings-privacy-security#mime-type-validation). Note that SVG files are in that list by default.  
@@ -49,17 +48,22 @@ Additionally, thanks to enhanced AI tagging, tags are automatically generated an
 
 When you add an image element to your content or need to [link to a file or video](/dynamics365/marketing/real-time-marketing-email#link-to-documents-and-videos-stored-in-the-asset-library), you can choose to use a file that already exists in your Marketing app library or upload a new one. After you've uploaded a file in this way, it will also be available in the library for use in other content.
 
-## Edit assets 
+## Edit assets
+
 You can easily see and edit asset details in the side pane. Simply select the asset to rename, add tags and alt text, and copy the asset URL.
 
 You can **replace** your assets with newer versions whenever needed. To replace an asset:
+
 1. Select the image.
-2. Select **Upload file** in the command bar.
-3. Select a new image.
-4. A new version of the asset appears in the asset library. The new version will also appear wherever the asset is currently being used.
-5. If you open the asset, you can see the version number, but you can't view the previous versions.
+1. Select **Upload file** in the command bar.
+1. Select a new image.
+1. A new version of the asset appears in the asset library. The new version will also appear wherever the asset is currently being used.
+    > [!TIP]
+    > To ensure that you see the newest version of the asset after it's replaced, clear your browser cache and refresh the browser window.
+1. If you open the asset, you can see the version number, but you can't view the previous versions.
 
 ## Find assets
+
 Use the tabs to quickly switch between files categories such as images, videos, or documents. You can use the search bar at the top to search assets by name or use the filter to quickly find assets by tag.
 
 ## Use images in your content
