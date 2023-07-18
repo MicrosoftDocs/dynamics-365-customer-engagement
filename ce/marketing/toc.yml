@@ -198,8 +198,6 @@
         href: compliance-overview.md
       - name: Manage user compliance settings
         href: real-time-marketing-compliance-settings.md
-      - name: "Preview: Manage user compliance settings in real-time marketing (update)"
-        href: real-time-marketing-compliance-settings-preview.md
       - name: Set up global double opt-in
         href: double-opt-in.md
       - name: Set up form double opt-in
@@ -420,8 +418,6 @@
         items:
         - name: Manage consent for email and text messages in real-time marketing
           href: real-time-marketing-email-text-consent.md
-        - name: "Preview: Manage consent for email and text messages in real-time marketing (update)"
-          href: real-time-marketing-email-text-consent-preview.md
         - name: Real-time marketing preference centers
           href: real-time-marketing-preference-centers.md
         - name: Migrate consent records to real-time marketing
