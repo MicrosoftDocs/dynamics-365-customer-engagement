@@ -26,7 +26,7 @@ You can customize the following for the **Active Conversation** page:
 - Embed canvas apps
 
 > [!NOTE]
-> For a conversation entity, you can't add custom forms.
+> For a conversation entity, you can't add custom forms.<br>
 > We recommend that you don't:
 > - Change the Conversation form or the order in which it's displayed, as it's the default form.
 > - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
