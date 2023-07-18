@@ -41,6 +41,9 @@ Follow these steps to download attachments from an Azure bot in the Microsoft Te
 
 ## Manage file attachments during migration
 
+> [!NOTE]
+> The information in this section is applicable to Government Community Cloud (GCC) only.
+
 This section describes how to manage file attachments when you migrate an omnichannel implementation from the Microsoft Teams channel to the Omnichannel bot service messaging platform.
 
 First, let's quickly review file attachment formats in the Teams bot service channel and the Omnichannel bot service channel.
