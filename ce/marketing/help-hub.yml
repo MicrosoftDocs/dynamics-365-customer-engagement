@@ -8,8 +8,6 @@ metadata:
   title: Help resources for Dynamics 365 Marketing
   description: A starting point for browsing help content for Dynamics 365 Marketing.
   ms.date: 07/18/2023
-  ms.custom:
-    - dyn365-marketing
   ms.topic: hub-page
   author: alfergus
   ms.author: alfergus
@@ -51,7 +49,6 @@ landingContent:
           url: import-data.md
         - text: Best practices for email marketing
           url: get-ready-email-marketing.md
-
 
 # Card
 - title: Administer the system
