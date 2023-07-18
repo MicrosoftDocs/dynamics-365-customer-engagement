@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources (contains video)
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.date: 01/27/2022
+ms.date: 07/18/2023
 
 ms.topic: article
 author: ryanchen8
@@ -146,7 +146,7 @@ You can add breaks or split a resource's work hours into different capacities fo
 
 In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
-For more information on editing work hour calendars, go to the article on [editing work hours](/dynamics365/customer-engagement/field-service/field-service-work-hours-calendar-api)
+For more information on editing work hour calendars, see [editing work hours](field-service-work-hours-calendar-api.md)
 
 ## Add characteristics, territories, and categories 
 
