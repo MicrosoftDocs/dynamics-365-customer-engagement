@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 07/11/2023
+ms.date: 07/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -28,7 +28,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ### Install the Outlook Add-in
 
-1. [Install the Outlook Add-in](https://support.microsoft.com/en-us/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8#:~:text=1%20In%20Outlook%2C%20click%20Home%20%3E%20Store%20on,trials%2C%20select%20Get%20it%20to%20...%20See%20More). In the **Add-Ins for Outlook** dialog box, search for **Dynamics 365 Field Service for Outlook (Preview)** and select it.
+1. [Install the Outlook Add-in](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8). In the **Add-Ins for Outlook** dialog box, search for **Dynamics 365 Field Service for Outlook (Preview)** and select it.
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) add-in card":::
 
@@ -40,6 +40,9 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 ## Open the Field Service (Preview) Outlook add-in
 
 1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
+
+   > [!TIP]
+   > If you can't find the add-in, it may appear in a different location. See [Use an add-in in Outlook](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8)
 
    :::image type="content" source="media/fsp-outlook-sign-in.png" alt-text="Field Service (Preview) Outlook sign-in":::
 

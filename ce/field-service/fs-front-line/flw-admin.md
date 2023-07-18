@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 07/13/2023
+ms.date: 07/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian

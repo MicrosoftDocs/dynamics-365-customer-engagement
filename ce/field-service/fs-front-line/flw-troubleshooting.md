@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) troubleshooting
 description: Learn how to troubleshoot issues in Dynamics 365 Field Service (Preview).
-ms.date: 06/13/2023
+ms.date: 07/31/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
 ms.author: jasonxian

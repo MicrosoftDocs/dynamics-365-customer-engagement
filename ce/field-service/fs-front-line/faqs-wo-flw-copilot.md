@@ -1,7 +1,7 @@
 ---
 title: FAQ for work order creation in Outlook using Copilot in Field Service (Preview)
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service (Preview) Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/13/2023
+ms.date: 07/31/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

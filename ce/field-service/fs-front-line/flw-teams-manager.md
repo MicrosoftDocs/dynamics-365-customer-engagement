@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 06/28/2023
+ms.date: 07/31/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
 
-The Dynamics 365 Field Service (Preview) for Teams uses Viva Connection cards and a Teams tab to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
+The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connection dashboard cards to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
 ## Select your environment to open your dashboard the first time
 

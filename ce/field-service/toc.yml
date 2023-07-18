@@ -155,7 +155,7 @@ items:
     - name: Travel charges
       href: travel-charges.md
 
-- name: Field Service in Microsoft 365 apps (preview)
+- name: Microsoft 365 integrations for Field Service (preview)
   items:
     - name: Overview
       href: fs-front-line/flw-overview.md
