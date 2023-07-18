@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 07/18/2023
+ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
@@ -13,15 +13,15 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot for email suggests content while composing or replying to emails, saving your time  and effort. It provides AI-generated suggested drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
+The Copilot email assist feature suggests content while composing or replying to emails, saving your time  and effort. It provides AI-generated suggested drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
-> - Copilot for email is supported only for lead and opportunity records through the Dynamics 365 email experience. 
+> - Copilot email assist is supported only for lead and opportunity records through the Dynamics 365 email experience. 
 
 ## Prerequisites
 
-Ensure that the Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
+Ensure that the Copilot email assist feature is enabled in your organization. More information: [Enable the Copilot email assist feature](enable-copilot-email-assist.md)
 
 ## View the Copilot composer
 
@@ -71,4 +71,5 @@ After you’ve generated the suggested content, you can refine the results furth
 
 ### See also
 
-
+[Use Copilot for email messages](use-copilot-email.md)  
+[Enable Copilot email assist](enable-copilot-email-assist.md)
