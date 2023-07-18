@@ -1,7 +1,7 @@
 ---
 title: Field Service in Microsoft 365 apps (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) which integrates with Microsoft Outlook and Teams.
-ms.date:07/31/2023
+ms.date: 07/31/2023
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
