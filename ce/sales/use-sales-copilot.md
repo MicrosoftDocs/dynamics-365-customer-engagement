@@ -14,7 +14,7 @@ ms.reviewer: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Sales Copilot can summarize records, help you catch up on updates, prepare for meetings, respond to emails, and so on.
+Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Sales Copilot can summarize records, help you catch up on updates, prepare for meetings, and so on.
 
 ## License and role requirements
 
@@ -33,7 +33,7 @@ Sales Copilot launches automatically when you access the Sales Hub app. If it's 
 
 ## Use Sales Copilot chat
 
-In the Sales Copilot (preview) pane, type / to get the list of suggested requests. 
+In the Sales Copilot (preview) pane, type / to get the list of suggested requests or prompts. 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Sales Copilot pane along with the list of suggested requests":::
 
 ### Summarize an opportunity or a lead
