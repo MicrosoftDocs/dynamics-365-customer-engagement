@@ -16,6 +16,4 @@ ms.reviewer: shujoshi
 
 [!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
 
-- [Sales Copilot overview (preview)](copilot-overview.md)  
-- [Use Sales Copilot (preview)](use-sales-copilot.md)  
-- [FAQ for summarization in Sales Copilot](faqs-sales-copilot-for-summarization.md)  
+[Sales Copilot overview (preview)](copilot-overview.md)  

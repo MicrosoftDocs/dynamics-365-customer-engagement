@@ -22,7 +22,7 @@ These frequently asked questions (FAQ) describe the AI impact of the Dynamics 36
 
 Summarization is available for the following use cases– lead summary, opportunity summary, and meeting preparation.
 
-**Lead summary:**A Lead summary in Dynamics 365 Sales generates a summary using the key fields of the lead view. The default lead summary includes the following information:
+**Lead summary:** A Lead summary in Dynamics 365 Sales generates a summary using the key fields of the lead view. The default lead summary includes the following information:
 - Lead topic / What is the lead interested in?  
 
 - Lead source  
@@ -30,6 +30,7 @@ Summarization is available for the following use cases– lead summary, opportun
 - Lead's Preferred method of contact  
 - Insights from the Lead's parent account  
 - Insights from the Lead's parent contact  
+
 However, the admin can configure the field to be selected to generate the summary via App settings. The first seven fields of any selected view can be used to create a meaningful summary.  The generated summary can be shared with other stakeholders and help everyone get up to speed quickly.
 
 **Opportunity summary:** An opportunity summary in Dynamics 365 Sales generates a summary using the key fields of an opportunity view. The default opportunity summary includes the following information:
