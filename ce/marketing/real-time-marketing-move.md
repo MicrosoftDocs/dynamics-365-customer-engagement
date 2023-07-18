@@ -42,14 +42,3 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 ## Default real-time marketing installation
 
 On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. New customers will receive a new version of the Marketing app that will only contains real-time marketing features. Although outbound marketing features will continue to be supported for existing users, outbound marketing features will receive no future updates.
-
-## Real-time marketing transition resources
-
-- [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/blogs/post/?postid=1b4394d5-7764-4484-aba9-c7f972292c10). The playbook covers key information, including:
-    - Setting up and configuring Dynamics 365 real-time marketing
-    - Migrating your marketing artifacts
-    - Identifying potential challenges
-    - Retiring the use of outbound marketing
-- [TechTalk: Dynamics 365 Marketing: OBM to RTM Transition Playbook](/shows/dynamics-365-fasttrack-architecture-insights/dynamics-365-marketing-obm-to-rtm-transition-playbook)
-
-Reach out to FastTrack or your account manager for additional questions or help.

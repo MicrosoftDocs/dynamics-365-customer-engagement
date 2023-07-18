@@ -1,7 +1,7 @@
 ---
 title: Real-time marketing transition FAQ
 description: Answers to frequently asked questions about transitioning to real-time marketing.
-ms.date: 07/10/2023
+ms.date: 07/18/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
