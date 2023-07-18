@@ -1,7 +1,7 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the createTab method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 07/12/2023
+ms.date: 07/18/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
