@@ -32,7 +32,7 @@ By default, Copilot uses the first seven fields in the default lead and opportun
 
 1. Go to the Change area and select **App Settings**.  
 1. Under **General Settings**, select **Sales Copilot (preview)**.
-1. Select **Record summary**, and then select the view you'd like to use for generating summaries for leads and opportunities.
+1. Select **Record summary**, and then select the view you'd like to use for generating summaries for leads and opportunities.  
     You'll see the first seven fields listed under the **Fields** column. These fields will be used to generate summaries.  
 1. Select **Record catch up**, and then select **Turn audit on**.  
     As catch up summaries are generated from the audit history, you must turn on auditing to use this feature. Ensure to enable user access to the audit history and audit summary. For more information, see [Grant audit access to users](enable-setup-copilot.md#grant-audit-access-to-users).

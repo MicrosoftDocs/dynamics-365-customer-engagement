@@ -25,8 +25,6 @@ ms.custom: bap-template
 
 The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
 
-:::image type="content" source="media/copilot-opt-in-terms.png" alt-text="Sales Copilot Opt-in terms ":::
-
 > [!NOTE]
 > The opt-in terms aren't applicable to organizations in the United States geography and therefore won't be visible to them.
 
