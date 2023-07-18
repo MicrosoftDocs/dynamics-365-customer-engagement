@@ -11,8 +11,8 @@
     - name: Move from outbound to real-time
       href: real-time-marketing-move.md
     - name: Transition resources
-      name: real-time-marketing-transition-resources.md
-    - name: Real-time marketing transition FAQ
+      href: real-time-marketing-transition-resources.md
+    - name: Real-time marketing transition FAQs
       href: real-time-marketing-transition.md
   - name: What's new
     href: whats-new-marketing.md
