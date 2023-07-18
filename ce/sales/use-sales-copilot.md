@@ -74,5 +74,5 @@ Use the `Show latest news for account` prompt to get the latest news about an ac
 
 ## See also
 
-[Copilot overview](copilot-overview.md)
+[Copilot overview](copilot-overview.md)  
 [Configure copilot capabilities](configure-sales-copilot.md)
