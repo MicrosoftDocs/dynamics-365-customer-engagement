@@ -1,5 +1,5 @@
 ---
-title: Configure copilot capabilities
+title: Configure copilot capabilities (preview)
 description: Learn how to configure copilot to use fields that are most relevant to your business for generating summaries and catch up information.
 ms.date: 06/20/2023
 ms.custom: bap-template
@@ -10,7 +10,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Configure copilot capabilities
+# Configure copilot capabilities (preview)
 
 You can configure copilot capabilities to specify the fields that copilot should use to generate summaries and catch up information. 
 
@@ -23,7 +23,7 @@ You can configure copilot capabilities to specify the fields that copilot should
 
 ## Configure record summary and catch up fields
 
-By default, Copilot uses the first seven fields in the default lead and opportunity view to generate summaries and first 10 fields to generate catch up. You can configure a view with fields that are most relevant to your business and have Copilot use it for generating summaries and catch ups. You can configure different lead and opportunity views for summary and catch up.
+By default, Copilot uses the first seven fields in the default lead and opportunity view to generate summaries and first 10 fields to generate catch up. You can configure a view with fields that are most relevant to your business and have Copilot use it for generating summaries and catch ups. You can configure different views for summary and catch up.
 
 1. In the Sales Hub app, [create a system view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view) with the fields you want to use for generating summaries and catch up information.
 
@@ -36,7 +36,7 @@ By default, Copilot uses the first seven fields in the default lead and opportun
     As catch up summaries are generated from the audit history, you must turn on auditing to use this feature. Ensure to enable user access to the audit history and audit summary. For more information, see [Grant copilot access to users](enable-setup-copilot.md#grant-copilot-access-to-users).
   
 1. Select the view you'd like to use for generating catch up information for leads and opportunities.
-    You'll see the first 10 fields listed the under **Fields** column. Changes to these fields are only reported in the catch up summary. If you select the **Default system view**, then only changes to the following fields are reported:
+    You'll see the first 10 fields listed the under **Fields** column. Changes to these fields are only reported in the catch ups. If you select the **Default system view**, then only changes to the following fields are reported:
     - Close date
     - Business process flow stage
     - Budget or revenue

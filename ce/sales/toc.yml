@@ -202,7 +202,7 @@
       items:
         - name: Configure Copilot
           items:
-            - name: Copilot overview
+            - name: Copilot overview (preview)
               href: copilot-overview.md
             - name: Enable and setup Copilot
               href: enable-setup-copilot.md
@@ -765,7 +765,7 @@
       items:
         - name: Use Copilot
           items:
-            - name: Copilot overview
+            - name: Copilot overview (preview)
               href: copilot-overview.md
             - name: Use Copilot capabilities
               href: use-sales-copilot.md

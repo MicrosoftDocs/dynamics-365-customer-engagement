@@ -1,6 +1,6 @@
 ---
-title: Sales Copilot overview
-description: Learn about Sales Copilot, an AI assistant that helps your sales team be more productive and efficient in their daily work.
+title: Sales Copilot overview (preview)
+description: Learn about Sales Copilot (preview), an AI assistant that helps your sales team be more productive and efficient in their daily work.
 ms.date: 07/12/2023
 ms.custom: bap-template
 ms.topic: overview
@@ -10,9 +10,13 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Sales Copilot overview
+# Sales Copilot overview (preview)
 
 Sales Copilot is an AI assistant that helps your sales team be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. It also has an interface to compose emails, which helps sellers compose professional-looking emails in no time. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
+
+> [!IMPORTANT]
+> This is a preview feature.
+> Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Sales Copilot capabilities
 
@@ -26,15 +30,19 @@ Sales Copilot offers the following capabilities:
 
 ### Record summarization
 
-Get a quick summary of the opportunity and lead records generated from the fields that matter to you the most. For example, let's say that estimated revenue, close date, contact, and BPF stage are the first few things that you look for in an opportunity. Work with your administrator to configure these fields for summarization. Now, when you ask copilot to summarize an opportunity, you'll get a summary of the opportunity record that includes the estimated revenue, close date, contact, and BPF stage. These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top seven fields that are most relevant to your business.
+Get a quick summary of the opportunity and lead records generated from the fields that matter to you the most. For example, let's say that account, estimated revenue, close date, contact, and BPF stage are the first few things that you look for in an opportunity. Work with your administrator to configure these fields for summarization. Now, when you ask copilot to summarize an opportunity, you'll get a summary of the opportunity record that includes the estimated revenue, close date, contact, and BPF stage. These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top seven fields that are most relevant to your business.
 
 ### Record catch up
 
-Catch up on the updates to your opportunity and lead records since the last seven days. Stay on top of your opportunities and leads by asking Copilot to summarize the changes to fields that matter to you the most. For example, let's say that you want to stay on top of changes to close date, estimated revenue, and contact. Work with your administrator to configure these fields for catch up. These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top 10 fields that are most relevant to your business. 
+Catch up on the updates to your opportunity and lead records since the last seven days. Stay on top of your opportunities and leads by asking Copilot to summarize the changes to fields that matter to you the most. For example, let's say that you want to stay on top of changes to close date, estimated revenue, and contact. Work with your administrator to configure these fields for catch up. These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top 10 fields that are most relevant to your business. The catch up information is generated from the audit history.
 
 ### Meeting preparation
 
-Prepare for your upcoming meetings effortlessly using Copilot. Copilot identifies your upcoming meetings for the day and summarizes the last three interactions from the Notes content of the related record for the selected meeting. The summary is only generated from the notes recorded in the last three months.
+
+Prepare for your upcoming meetings effortlessly using Copilot. Copilot identifies your upcoming meetings for the day and summarizes the following interactions related to the meeting:
+
+- Last three notes recorded since the past 3 months  
+- Latest email
 
 ### Email assistance
 
@@ -45,7 +53,7 @@ Use Copilot to compose professional-looking emails, respond to emails, and get e
 
 ### News updates
 
-Stay current with trending news about your customers. These news updates can be great conversation starters and help you understand the current dynamics in their organization. Ask Copilot to get you latest news about an account to get the latest news articles featuring or mentioning the account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
+Stay current with the latest news about your account. These news updates can be great conversation starters and help you understand the current dynamics in your customers' organization. Ask Copilot to get you the latest news related to an account and get a list of articles featuring or mentioning the account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
 
 ## How can I use Sales Copilot
 

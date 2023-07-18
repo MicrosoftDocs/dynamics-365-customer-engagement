@@ -1,6 +1,6 @@
 ---
 title: Enable and set up copilot capabilities
-description: Learn about how to enable and set up copilot capabilities in Dynamics 365 Sales.
+description: Learn about how to enable and set up copilot capabilities (preview) in Dynamics 365 Sales.
 ms.date: 06/20/2023
 ms.custom: bap-template
 ms.topic: how-to
@@ -11,6 +11,8 @@ ms.reviewer: shujoshi
 ---
 
 # Enable and set up copilot capabilities
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Copilot is a virtual assistant that helps sellers to be more productive and efficient in their daily work. Copilot can summarize records, help sellers catch up on updates, prepare for meetings, respond to emails, and so on.
 
@@ -23,7 +25,7 @@ Copilot is a virtual assistant that helps sellers to be more productive and effi
 
 ## Enable Sales Copilot
 
-Select the apps and copilot features you want to enable on them. You can only enable copilot from the Sales Hub app. If you're using a custom sales app, you need to switch to the Sales Hub app to enable copilot for the custom app.
+Select the apps and the copilot features that you want to enable on the apps. You can enable copilot only from the Sales Hub app. If you're using a custom sales app, you need to switch to the Sales Hub app to enable copilot for the custom app.
 
 1. From the Change area in the Sales Hub app, select **App Settings**.  
 
@@ -36,23 +38,26 @@ Select the apps and copilot features you want to enable on them. You can only en
 
     The side panel displays the list of apps installed in your organization.  
 1. Select the following copilot features to enable them:
-    - **Compose**: Select this checkbox to enable the copilot feature that helps sellers quickly compose emails using the Email assist feature. Learn more about email assist. 
-    - **Chat**: Select this checkbox to enable the copilot features that help sellers chat with copilot to get contextual insights and suggestions. For example, sellers can ask copilot to summarize an opportunity or lead, help them prepare for a meeting, and so on. Learn more about chat with copilot.
+    - **Compose**: Select this checkbox to enable the copilot feature that helps sellers quickly compose emails. More information: [Learn more about composing emails with Copilot](compose-send-email-copilot.md).
+    - **Chat**: Select this checkbox to enable the copilot features that help sellers chat with copilot to get contextual insights and suggestions. For example, sellers can ask copilot to summarize an opportunity or lead, help them prepare for a meeting, and so on. [Learn more about chat with copilot](use-sales-copilot.md).
 
-    After you save the changes, you'll see the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="true":::) in the right most bar. Select the icon to open the copilot panel.
+    After you save the changes, you'll see the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar. Select the icon to open the copilot panel.
 
-## Grant copilot access to users
+## Grant audit access to users
 
-As catch up summaries are generated from the audit history, users need to have access to view audit history and audit summary.
+Catch up information in Sales Copilot is generated from the audit history. Hence, users need to have access to view audit history and audit summary to be able to view lead and opportunity catch ups.
 
-1. Enable user access to the audit:
+1. Allow users to access the audit:
 
     1. In the Sales Hub app, select **Settings** > **Advanced Settings**.
 
     1. Select **Settings** > **Administration** > **System Settings**
 
-    1. Select the **Auditing** tab and select **Audit user access**. 
-2. Grant users access to view audit history and audit summary:
+    1. Select the **Auditing** tab and select **Audit user access**.
+
+    > [!NOTE]
+    > Alternatively, you can turn on audit access from the [Sales Copilot settings page](configure-sales-copilot.md).
+1. Grant users access to view audit history and audit summary:
 
     1. In the Sales Hub app, select **Settings** > **Security** > **Security Roles**.
 
@@ -63,3 +68,7 @@ As catch up summaries are generated from the audit history, users need to have a
         - **View Audit Summary**
 
     1. Save the changes.
+
+## Next step
+
+[Configure copilot capabilities (preview)](configure-sales-copilot.md)
