@@ -6,20 +6,14 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 07/15/2023
+ms.date: 07/28/2023
 ms.custom: bap-template
 ---
 
 # Configure contact center for Nuance Gatekeeper integration (preview)
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Use the information in this article to configure the following settings:
 

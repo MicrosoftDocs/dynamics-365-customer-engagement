@@ -616,7 +616,7 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
-      - name: Integrate Nuance Gatekeeper
+      - name: Integrate Nuance Gatekeeper (preview)
         items:
         - name: Overview of Nuance Gatekeeper Integration
           href: nuance-gatekeeper-introduction.md

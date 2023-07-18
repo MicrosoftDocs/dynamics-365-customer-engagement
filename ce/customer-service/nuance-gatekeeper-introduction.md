@@ -2,24 +2,18 @@
 title: Introduction to integration of Nuance Gatekeeper 
 description: Learn about the Nuance Gatekeeper 
 author: neeranelli 
-ms.author: nenellim 
+ms.author: nenellim
 ms.reviewer: shujoshi 
 ms.topic: overview
 ms.collection: 
-ms.date: 07/15/2023
+ms.date: 07/28/2023
 ms.custom: bap-template
 ---
 
 # Introduction to Nuance Gatekeeper integration (preview)
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 As we move forward into an AI world with increased speed, experiences have become more seamless with manual labor becoming unnecessary for everyone. This is true about the experiences tied to call centers and customer care too.
 

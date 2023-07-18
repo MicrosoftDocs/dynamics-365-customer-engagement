@@ -6,20 +6,16 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection:
-ms.date: 07/15/2023
+ms.date: 07/28/2023
 ms.custom: bap-template 
 ---
 
 # Enroll customers in biometric authentication using Nuance Gatekeeper (preview)
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+## Enroll customers in biometric authentication
 
 When the agent picks up a customer call, if the customer is new, the following actions happen:
 
@@ -35,9 +31,11 @@ If the customer agrees to enroll and gives consent, the agent selects **Enroll**
 
 The agent can then go on to address the issue for which the customer has contacted.
 
-When the customer calls again, they are authenticated automatically through the Gatekeeper feature.
+If the customer declines to be enrolled in the Nuance Gatekeeper authentication, the agent selects the opt-out option and selects an opt-out reason that’s displayed for the agent.
 
-If the customer declines to be enrolled in the Nuance Gatekeeper authentication, the agent selects the opt out option and selects an opt out reason that’s displayed for the agent.
+## Authenticate customers using Nuance Gatekeeper
+
+When customers who are enrolled in biometric authentication call, they are authenticated automatically through the Gatekeeper feature.
 
 If the enrolled customer doesn’t pass the biometric authentication, the agent will receive a “no match” response from Nuance Gatekeeper. If the agent suspects any form of fraud attempt, the agent can proceed to flag the conversation as suspicious.
 

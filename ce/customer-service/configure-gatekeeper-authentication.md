@@ -6,20 +6,14 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 07/15/2023
+ms.date: 07/28/2023
 ms.custom: bap-template 
 ---
 
 # Add authentication setting for Nuance Gatekeeper (preview)
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Prerequisites
 
@@ -64,7 +58,7 @@ Create a new application registration in your Azure Active Directory and share t
 1. In **Authentication settings**, select **Manage**. The **Authentication settings** page is displayed.
 1. Select **New Authentication Settings**, and provide the following information on the **Add authentication setting** page:
     - **Name**: Enter a name for the authentication setting.
-    - **Channel type**: Accept the default value or change to a required value.
+    - **Channel type**: Select **Voice call**.
     - **Authentication type**: **Gatekeeper Biometric Authentication** is selected and not available for an edit.
 1. Select **Next**.
 1. On the **Details** page, enter the following information:
@@ -76,10 +70,13 @@ Create a new application registration in your Azure Active Directory and share t
    - **Config Set ID**: The Nuance Gatekeeper config set ID.
 1. Save and close.
 
-Apart from the default ID, you can configure another ID to uniquely identify the contact between the Omnichannel and Nuance platforms.
+Apart from the default ID, you can optionally configure another ID to uniquely identify the contact between the Omnichannel and Nuance platforms.
 
 1. On the **Create new authentication setting** page, expand **Gatekeeper integration advanced settings**.
 1. Select **Contact (ContactId)** and **Account (AccountId)** in **Contact** and **Account** fields.
+
+   >[!NOTE]
+   > You can't edit the contact and account fields after the authentication setting is created.
 
 After you select save and close, components will be provisioned and your settings tested. Errors at this step means either the settings are not correct, or the Azure Communication Services resources are running in a different Azure tenant from your Dynamics 365 environment.
 
