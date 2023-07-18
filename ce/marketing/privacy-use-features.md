@@ -1,7 +1,7 @@
 ---
 title: Use GDPR features
 description: Learn how to use GDPR features in Dynamics 365 Marketing.
-ms.date: 05/08/2023
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -216,6 +216,6 @@ Once you've enabled auditing for contacts, you are able to view a record of chan
 ### See also
 
 [Manage user compliance settings](real-time-marketing-compliance-settings.md)  
-[Work with data protection and GDPR](gdpr.md)  
+[Work with data protection and GDPR](privacy.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
