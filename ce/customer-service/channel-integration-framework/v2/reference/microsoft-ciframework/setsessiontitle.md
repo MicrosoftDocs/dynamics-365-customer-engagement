@@ -15,8 +15,8 @@ ms.custom:
 
 
  >[!NOTE]
- > - This content applies only to Dynamics 365 Channel Integration Framework version 2.0.
- > - Session management APIs allow you to integrate multisession experiences only in Omnichannel for Customer Service app.
+ > - This content applies to Dynamics 365 Channel Integration Framework version 2.0 only.
+ > - Session management APIs allow you to integrate multisession experiences in Omnichannel for Customer Service app only.
  > - Use this API only when the focused session belongs to the provider or if it is either the home or default session.
 
 Sets the session title, if the session belongs to the channel provider.
