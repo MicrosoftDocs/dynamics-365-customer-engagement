@@ -220,8 +220,6 @@
         href: teams-webinar.md
       - name: Optimize your event check-in flow
         href: optimize-check-in.md
-      - name: Customize your Teams webinar participant follow-up
-        href: teams-webinar-follow-up.md
       - name: Set up a non-Teams webinar
         href: set-up-webinar.md
     - name: Register event attendees
@@ -250,8 +248,6 @@
         href: event-financials.md
     - name: Follow up with attendees
       items:
-      - name: Follow up with Teams webinar participants
-        href: teams-how-to-follow-up.md
       - name: Follow up after the event
         href: followup-after-event.md
     - name: Event troubleshoot + FAQ
@@ -596,8 +592,6 @@
       href: manage-customer-information.md
     - name: Business unit support in outbound marketing
       href: business-units-support-outbound-marketing.md
-    - name: Access a Dynamics 365 Marketing trial from Microsoft Teams
-      href: teams-journey.md
     - name: Sales and marketing collaboration with Dynamics 365
       href: sales-marketing-integration.md
     - name: Import data
