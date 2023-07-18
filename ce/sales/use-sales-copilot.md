@@ -67,7 +67,7 @@ By default, Copilot summarizes the last 10 updates to the record from the audit 
 
 ## Prepare for upcoming meetings
 
-Use the `Prepare for upcoming meetings` prompt to get a list of meetings in the next 24 hours on your calendar. After you select the meeting that you'd like to prepare for, Copilot generates a summary based on the last three Notes (recorded in the last 3 months) and the most recent email thread related to the record. 
+Use the `Prepare for upcoming meetings` prompt to get a list of meetings in the next 24 hours on your calendar. After you select the meeting that you'd like to prepare for, Copilot generates a summary based on the last three Notes (recorded in the last 3 months) and the most recent email thread associated with the timeline of the related record.  
 
 ## Show latest news for an account
 
