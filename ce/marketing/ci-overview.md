@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Customer Insights overview
-description: Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Customer Insights
-ms.date: 07/10/2023
+description: Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Customer Insights.
+ms.date: 07/18/2023
 ms.collection: get-started
 ms.topic: overview
 author: alfergus
@@ -20,6 +20,6 @@ The combined app offering simplifies licensing to make it easier to buy and use 
 
 ## Learn more
 
-- [Dynamics 365 Customer Insights FAQ]()
-- [Customer Insights product announcement]()
-- [Customer Insights licensing and pricing]()
+- [Dynamics 365 Customer Insights FAQ](ci-faq.md)
+<!--- - [Customer Insights product announcement]()
+- [Customer Insights licensing and pricing]()-->
