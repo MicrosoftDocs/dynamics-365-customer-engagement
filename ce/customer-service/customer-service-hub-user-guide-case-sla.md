@@ -109,7 +109,7 @@ When you create an SLA KPI instance for an entity other than the Case entity, th
 
 You can use the following query to create a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
 
-1. From the Power Apps app, go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
+1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
 1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
 1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.\1.Select **Name** and then select **OK**.
 1. Select **Results**. You will see the **Name (regarding)**column displaying the name of the entity.
