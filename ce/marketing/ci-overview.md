@@ -21,5 +21,5 @@ The combined app offering simplifies licensing to make it easier to buy and use 
 ## Learn more
 
 - [Dynamics 365 Customer Insights FAQ](ci-faq.md)
-<!--- - [Customer Insights product announcement]()
-- [Customer Insights licensing and pricing]()-->
+- [Customer Insights combined offering announcement](https://aka.ms/D365InspireBlog)
+<!--- - [Customer Insights licensing and pricing]()-->
