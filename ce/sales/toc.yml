@@ -200,6 +200,16 @@
           href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
+        - name: Configure Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Enable and setup Copilot
+              href: enable-setup-copilot.md
+            - name: Configure Copilot capabilities
+              href: configure-sales-copilot.md
+            - name: Copilot data movement across geographies
+              href: sales-copilot-data-movement.md
         - name: Activity management
           items:
             - name: Set up the timeline control
@@ -212,6 +222,11 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Enable Copilot email assist
+              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -753,6 +768,12 @@
           href: teams-integration/teams-collaboration-enhanced-experience.md
     - name: Productivity and document management
       items:
+        - name: Use Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Use Copilot capabilities
+              href: use-sales-copilot.md
         - name: Activity management
           items:
             - name: Add activities to the timeline
@@ -765,6 +786,11 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
@@ -1359,6 +1385,12 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
+- name: Responsible AI
+  items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for summarization in Sales Copilot
+      href: faqs-sales-copilot-for-summarization.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
