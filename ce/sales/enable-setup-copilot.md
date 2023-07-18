@@ -1,7 +1,7 @@
 ---
-title: Enable and set up copilot capabilities
-description: Learn about how to enable and set up copilot capabilities (preview) in Dynamics 365 Sales.
-ms.date: 06/20/2023
+title: Enable and set up Sales Copilot (prevuew)
+description: Learn about how to enable and set up Sales Copilot (preview) in Dynamics 365 Sales so that sellers can start using it.
+ms.date: 07/18/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -10,7 +10,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Enable and set up copilot capabilities
+# Enable and set up Sales Copilot (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -71,4 +71,4 @@ Catch up information in Sales Copilot is generated from the audit history. Hence
 
 ## Next step
 
-[Configure copilot capabilities (preview)](configure-sales-copilot.md)
+[Configure Sales Copilot (preview)](configure-sales-copilot.md)

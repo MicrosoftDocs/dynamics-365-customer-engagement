@@ -1,7 +1,7 @@
 ---
-title: Use Sales Copilot capabilities (preview)
-description: Learn about how to use Sales Copilot capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
-ms.date: 07/07/2023
+title: Use Sales Copilot (preview)
+description: Learn about how to use Sales Copilot (preview) capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
+ms.date: 07/18/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -10,7 +10,9 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Use Sales copilot capabilities (preview)
+# Use Sales Copilot (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Sales Copilot can summarize records, help you catch up on updates, prepare for meetings, respond to emails, and so on.
 
@@ -61,7 +63,7 @@ After you select a suggested contact, Copilot generates a summary of fields that
 
 Use the `Catchup with opportunity` or `Catchup with lead` prompt to catch up on the updates to your opportunity or lead records since the last seven days or the last login. The catch up information is generated from the audit history. If you don't see any catch up information, ensure that your administrator has [turned on audit and granted you access](enable-setup-copilot.md#grant-audit-access-to-users).
 
-Stay on top of your opportunities and leads by asking Copilot to summarize the changes to fields that matter to you the most. For example, let's say that you want to stay on top of changes to close date, estimated revenue, and contact. Work with your administrator to [configure these fields for catch up](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields). These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+By default, Copilot summarizes the last 10 updates to the record from the audit history. However, you can work with your administrator to [configure specific fields for catch up](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields) so that you stay updated on changes to fields that matter to you the most.. These fields are configurable at the organization level. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 ## Prepare for upcoming meetings
 
@@ -75,4 +77,4 @@ Use the `Show latest news for account` prompt to get the latest news about an ac
 ## See also
 
 [Copilot overview](copilot-overview.md)  
-[Configure copilot capabilities](configure-sales-copilot.md)
+[Configure Sales Copilot (preview)](configure-sales-copilot.md)  

@@ -1,17 +1,17 @@
 ---
-title: Sales copilot data movement across geographies
-description: Learn how data that's used in copilot features in Dynamics 365 Sales moves across geographies where its features aren't available by default.
+title: Sales Copilot data movement across geographies (preview)
+description: Learn how data that's used in Sales Copilot (preview) moves across geographies where its features aren't available by default.
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: concept 
 ms.collection:
-ms.date: 07/12/2023
+ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 
-# Sales copilot data movement across geographies (preview)
+# Sales Copilot data movement across geographies (preview)
 
 > [!IMPORTANT]
 >
@@ -25,6 +25,8 @@ ms.custom: bap-template
 
 The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
 
+:::image type="content" source="media/copilot-opt-in-terms.png" alt-text="Sales Copilot Opt-in terms ":::
+
 > [!NOTE]
 > The opt-in terms aren't applicable to organizations in the United States geography and therefore won't be visible to them.
 
@@ -36,5 +38,5 @@ Examples of customer data, along with personal data that's shared with Azure Ope
 
 ### See also
  
-[Enable and set up copilot capabilities](enable-setup-copilot.md)  
-[Configure copilot capabilities](configure-sales-copilot.md)  
+[Enable and set up Sales Copilot (preview)](enable-setup-copilot.md)
+[Configure Sales Copilot (preview)](configure-sales-copilot.md)
