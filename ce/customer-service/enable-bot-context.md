@@ -8,7 +8,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
-# Configure bot context 
+# Configure bot context
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
