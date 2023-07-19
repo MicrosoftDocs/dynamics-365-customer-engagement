@@ -19,5 +19,5 @@ search.audienceType:
 
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
-- [Responsible AI FAQs for content ideas](faqs-ideas.md)
+- [Responsible AI FAQs for content ideas](faqs-content-ideas.md)
 <!--- - [Responsible AI FAQs for query assist](faqs-query-assist.md) -->
