@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/02/2023
+ms.date: 07/19/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -32,6 +32,8 @@ The following factors are considered during the overflow evaluation:
 
   - The system routes to the queue that's operational and the overflow action is triggered.
   - If none of the queues are operational, the system routes the work item to the queue that will be operational at the earliest and the overflow action is triggered.
+
+- If percentage-based routing is configured, the overflow conditions are evaluated after percentage-based routing identifies the queue.
 
 - If the matched queue is overflowing due to multiple conditions:
 
