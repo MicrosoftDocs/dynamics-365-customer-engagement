@@ -550,12 +550,12 @@
     href: known-issues.md
   - name: What's new archive
     href: whats-new-marketing-archive.md
-  - name: Responsible AI transparency notes
+  - name: Responsible AI FAQs
     items:
     - name: Overview
-      href: transparency-note-overview.md
-    - name: Transparency note for content ideas
-      href: transparency-note-content-ideas.md
+      href: responsible-ai-overview.md
+    - name: Responsible AI FAQs for content ideas
+      href: faqs-content-ideas.md
   - name: "Deprecation: Dynamics 365 for Customer Engagement"
     href: ce-deprecation.md
   - name: Troubleshoot with Solution Health Hub
