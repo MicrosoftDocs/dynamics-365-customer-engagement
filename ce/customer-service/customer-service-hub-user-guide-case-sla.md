@@ -111,8 +111,9 @@ You can use the following query to create a new column called **Name (Regarding)
 
 1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
 1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
-1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.\1.Select **Name** and then select **OK**.
-1. Select **Results**. You will see the **Name (regarding)**column displaying the name of the entity.
+1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.
+1. Select **Name** and then select **OK**.
+1. Select **Results**. You'll see the **Name (regarding)**column displaying the name of the entity.
 1. From **Advanced Find**, select **Download Fetch XML**.
 1. Paste the following query on the URL to see the full name of target entity for the SLA KPI Instance record.
 
