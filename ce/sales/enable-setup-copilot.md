@@ -69,6 +69,14 @@ Catch up information in Sales Copilot is generated from the audit history. Hence
 
     1. Save the changes.
 
+## Server at capacity issue
+
+You may see the following error message when you try to set up Sales Copilot:
+
+`Can't set up Sales Copilot as servers are at capacity right now. Please try later.`
+
+This message is displayed when there are too many orgs trying to set up Sales Copilot and exceeding the capacity of the servers. 
+
 ## Next step
 
 [Configure Sales Copilot (preview)](configure-sales-copilot.md)
