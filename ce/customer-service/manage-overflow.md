@@ -125,7 +125,7 @@ Sometimes, you might not want an overflow action to run for specific types of wo
 
    :::image type="content" source="media/queue-overflow-override.png" alt-text="Configure override conditions for queues in the route-to-queue rule.":::
 
-1. Select **Add queue overflow override**.
+1. Select **Handle rule-specific overflows**.
 
 1. Do the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
 
