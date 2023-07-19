@@ -1,7 +1,7 @@
 ---
-title: Transparency note for content ideas
-description: The transparency note discusses content ideas and the key considerations for making use of this technology responsibly.
-ms.date: 04/10/2023
+title: Responsible AI FAQs for content ideas
+description: The Responsible AI FAQs discuss content ideas and the key considerations for making use of this technology responsibly.
+ms.date: 07/19/2023
 ms.custom: 
   - transparency-note
 ms.topic: article
@@ -13,9 +13,9 @@ search.audienceType:
   - enduser
 ---
 
-# Transparency note for content ideas
+# Responsible AI FAQs for content ideas
 
-This transparency note describes the AI impact of Dynamics 365 Marketing's content ideas feature.
+These responsible AI FAQs describe the AI impact of Dynamics 365 Marketing's content ideas feature.
 
 ## What is content ideas?
 
