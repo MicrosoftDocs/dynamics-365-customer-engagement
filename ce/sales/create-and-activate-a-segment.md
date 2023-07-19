@@ -1,7 +1,7 @@
 ---
 title: Create and activate segments in sales accelerator
 description: Learn how to create and activate segments, so that records that satisfy defined conditions in Dynamics 365 Sales are automatically added.
-ms.date: 05/26/2023
+ms.date: 07/14/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -14,6 +14,7 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 > [!NOTE]
 > - Only active records are assigned to segments. For example, when a lead is qualified, it becomes a read-only record and creates a new opportunity record. This lead isn't considered for segmentation, because it's now read-only and is no longer active.
 > - You can have a maximum of 250 active segments in an organization at any time. To increase the limit for active segments, contact Microsoft Support for help.
+> - You can have a maximum of 10 active assignment rules in a segment at any time. Although you can create additional assignment rules within the segment, only 10 can be active at any time. To increase the limit, contact Microsoft Support for assistance. 
 
 ## License and role requirements
 
