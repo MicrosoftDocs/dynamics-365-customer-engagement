@@ -25,6 +25,7 @@ The following table provides directional guidance on the throughput you should e
 |---------------------------|------------------------------|
 | Up to 10,000,000 contacts | 140,000                      |
 | 10,000,000+ contacts      | 500,000†                     |
+
 *† Available in Preview. Contact your Microsoft representative if you have or are going to purchase a quota of more than 10,000,000 contacts.*
 
 > [!NOTE]
