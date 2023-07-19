@@ -542,6 +542,8 @@
     items:
     - name: Service limits and fair use policy
       href: fair-use-policy.md
+    - name: Throughput guidance
+      href: real-time-marketing-throughput-guidance.md
   - name: Administration and setup FAQ
     href: setup-troubleshooting.yml
   - name: Known issues and workarounds
