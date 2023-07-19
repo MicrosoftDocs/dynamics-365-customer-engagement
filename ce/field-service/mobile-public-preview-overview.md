@@ -41,7 +41,7 @@ Once the Filed Service Mobile app screen loads, click on the bottom left menu an
 ## Public Preview features limitations
 The public preview features currently have the following limitations:
 - Offline is not supported. In order to properly experience the new Public Preview features, please disable the offline profile.
-- Customizations are not supported. All customizations are currenlty not supported and will not work in Public Preview.
+- All Field Service Mobile customizations described [here](https://learn.microsoft.com/en-us/dynamics365/field-service/field-service-customizations) are not supported and will not work in Public Preview.
 - Language. The new Public Preview features respect the mobile device language settings, while the current app respects the language settings in the user profile. This might cause a mixed language experience if the two settings are out of sync.
 
 ## Public Preview Support
