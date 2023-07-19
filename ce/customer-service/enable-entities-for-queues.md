@@ -17,13 +17,15 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 2. Go to the default solution.
 
-3. Select **Tables** from site map, and select a table like **Account**, **Email**  from the list which you want enable queues.
+3. In the site map, select **Tables**.
 
-4. In the **Table properties** section, select **Properties**.
+4. Select tables, like **Account** or **Email** from the list for which you want to enable queues.
 
-5. Select **Advanced options**, scroll down to **Rows in this table** section and select **Can be added to a queue** checkbox.
+5. In the **Table properties** section, select **Properties**.
 
-6. Select **Save**.
+6. Select **Advanced options**, scroll down to **Rows in this table** section and select **Can be added to a queue** checkbox.
+
+7. Select **Save**.
 
 > [!NOTE]
 >
