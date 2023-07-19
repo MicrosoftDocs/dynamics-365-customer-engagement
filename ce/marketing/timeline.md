@@ -1,25 +1,23 @@
 ---
 title: "Customer interactions timeline (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the customer interactions timeline to view historical activity in Dynamics 365 Marketing."
-ms.date: 01/30/2023
+ms.date: 06/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Customer interactions timeline
 
 The interactions timeline for a contact or lead provides a unified view of historical interactions based on customer activities in Dynamics 365 Marketing (both real-time  and outbound), Sales, and Customer Service.
+
+You can also view Customer Insights activities in the timeline. Learn more: [Integrate Customer Insights activities with Dynamics 365 timelines](/dynamics365/customer-insights/activities-in-d365-timeline)
 
 > [!TIP]
 > To learn how to configure the timeline and view interactions across Dynamics 365 Sales and Customer Service, see the [Use timeline](/power-apps/user/add-activities) article in the Power Apps documentation.
@@ -81,3 +79,5 @@ For more information, see [Use custom connectors with the timeline control](/pow
 
 > [!NOTE]
 > Real-time marketing activities from the past 12 months are shown in the timeline for the selected contact or lead. However, historical interactions from outbound marketing activities are only shown post the real-time marketing installation date or May 2022, whichever is later.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

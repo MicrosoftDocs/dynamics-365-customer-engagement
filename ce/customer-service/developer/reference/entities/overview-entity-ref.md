@@ -3,9 +3,8 @@ title: "Omnichannel for Customer Service entity reference documentation | Micros
 description: "This article includes reference information on entities that are added as part of Omnichannel for Customer Service."
 ms.date: 10/27/2022
 ms.topic: overview
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 
 ---
 # Omnichannel for Customer Service entity reference 
@@ -17,8 +16,10 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[incident](incident.md)|
 |[msdyn_actioninputparameter](msdyn_actioninputparameter.md)|
 |[msdyn_actionoutputparameter](msdyn_actionoutputparameter.md)|
+|[msdyn_agentcapacityprofileunit](msdyn_agentcapacityprofileunit.md)|
 |[msdyn_agentscript](msdyn_agentscript.md)|
 |[msdyn_agentscriptstep](msdyn_agentscriptstep.md)|
+|[msdyn_agentstatus](msdyn_agentstatus.md)
 |[msdyn_agentstatushistory](msdyn_agentstatushistory.md)
 |[msdyn_analytics](msdyn_analytics.md)|
 |[msdyn_assignmentconfiguration](msdyn_assignmentconfiguration.md)|
@@ -65,6 +66,7 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_occommunicationprovidersetting](msdyn_occommunicationprovidersetting.md)|
 |[msdyn_occommunicationprovidersettingentry](msdyn_occommunicationprovidersettingentry.md)|
 |[msdyn_occustommessagingchannel](msdyn_occustommessagingchannel.md)|
+|[msdyn_ocexternalcontext](msdyn_ocexternalcontext.md)|
 |[msdyn_ocfbapplication](msdyn_ocfbapplication.md)|
 |[msdyn_ocfbpage](msdyn_ocfbpage.md)|
 |[msdyn_ocgooglebusinessmessagesagentaccount](msdyn_ocgooglebusinessmessagesagentaccount.md)|
@@ -102,9 +104,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_ocsystemmessage](msdyn_ocsystemmessage.md)|
 |[msdyn_octag](msdyn_octag.md)|
 |[msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md)|
-|[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
-|[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
-|[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
 |[msdyn_ocvoice](msdyn_ocvoice.md)|
 |[msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md)|
 |[msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md)|
@@ -150,7 +149,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_systemuser_msdyn_omnichannelqueue](msdyn_systemuser_msdyn_omnichannelqueue.md)|
 |[msdyn_teamsengagementctx](msdyn_teamsengagementctx.md)|
 |[msdyn_transcript](msdyn_transcript.md)|
-|[msdyn_twitterengagementctx](msdyn_twitterengagementctx.md)|
 |[msdyn_unifiedroutingdiagnostic](msdyn_unifiedroutingdiagnostic.md)|
 |[msdyn_unifiedroutingrun](msdyn_unifiedroutingrun.md)|
 |[msdyn_unifiedroutingsetuptracker](msdyn_unifiedroutingsetuptracker.md)|

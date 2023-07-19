@@ -5,8 +5,7 @@ ms.date: 02/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 # Configure and manage custom presence
 

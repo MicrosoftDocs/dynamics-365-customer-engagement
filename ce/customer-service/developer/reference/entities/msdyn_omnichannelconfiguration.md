@@ -3,14 +3,10 @@ title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataver
 description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
 ms.date: 04/16/2021
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_omnichannelconfiguration table/entity reference
@@ -160,7 +156,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2052|Chinese - China|
 |2070|Portuguese - Portugal|
 |2074|Serbian (Latin) - Serbia|
-|3076|Chinese - Hong Kong|
+|3076|Chinese - Hong Kong SAR|
 |3082|Spanish - Spain|
 |3098|Serbian (Cyrillic) - Serbia|
 

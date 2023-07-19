@@ -14,7 +14,6 @@ ms.assetid: 1f5d3be8-bec4-44b2-86c7-e4dbd18a8eae
 caps.latest.revision: 91
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Software requirements for Microsoft Dynamics 365 Server
 

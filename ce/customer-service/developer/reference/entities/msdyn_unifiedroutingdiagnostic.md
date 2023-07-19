@@ -3,14 +3,10 @@ title: "msdyn_unifiedroutingdiagnostic Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_unifiedroutingdiagnostic entity."
 ms.date: 03/31/2021
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: "v-jmh"
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_unifiedroutingdiagnostic Entity Reference
 

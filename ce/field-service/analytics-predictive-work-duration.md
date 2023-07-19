@@ -7,9 +7,6 @@ ms.topic: conceptual
 ms.custom: bap-template
 author: FeifeiQiu
 ms.author: feiqiu
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Predictive work duration reports (Preview)

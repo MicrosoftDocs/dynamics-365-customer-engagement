@@ -5,16 +5,12 @@ ms.date: 10/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Historical analytics for unified routing in Omnichannel for Customer Service
 
-## Introduction
-
-With the introduction of Unified Routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
-
+With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
 ### Access the Unified routing dashboard
 
@@ -48,7 +44,6 @@ The unified routing report displays the following metrics for the selected filte
 |Incoming conversations v/s routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
 |Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
 |Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
-||||
 
 ### Queue drill-down view
 
@@ -62,7 +57,6 @@ The queue drill-down view displays the following KPIs.
 |---------|---------|
 |Incoming sessions in queue vs incoming sessions transferred  |The day-wise view of incoming sessions in the selected queue that are still in the queue versus sessions that have been transferred to other queues.|
 |Incoming session transferred by queue| The queues to which sessions from the selected queue have been transferred.|
-|||
 
 ### Hourly drill-down view
 

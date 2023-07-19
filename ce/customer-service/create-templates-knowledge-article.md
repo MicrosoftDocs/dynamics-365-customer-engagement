@@ -5,7 +5,6 @@ ms.date: 12/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
 searchScope: 

@@ -6,9 +6,6 @@ ms.date: 09/24/2022
 ms.topic: article
 author: jasonccohen
 ms.author: jacoh
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Create products or services for work orders
@@ -22,6 +19,9 @@ With the product entity, you can create products and services to add to work ord
 - **Service** is work that a field technician performs and may bill the client for. Service is measured in time duration.
 
 If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service Mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
+
+> [!NOTE]
+> Field Service doesn't support product bundles.
 
 In this article, we'll explain how to create products and services, add them to work orders, and discuss invoicing and inventory considerations.
 

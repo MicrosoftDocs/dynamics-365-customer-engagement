@@ -10,9 +10,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Use deep links with the Field Service (Dynamics 365) mobile app

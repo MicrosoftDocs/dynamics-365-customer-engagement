@@ -14,7 +14,6 @@ ms.assetid: df2d641a-ede9-494c-82a2-b1ac448c5f88
 caps.latest.revision: 32
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Server XML configuration file
 

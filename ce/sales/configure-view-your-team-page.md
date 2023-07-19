@@ -5,7 +5,6 @@ ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
@@ -90,7 +89,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 - Provide access to non–managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
 - Provide visibility to non–direct managers into the sales team's dashboards.
 
-For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
+For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information in the conversation intelligence application by impersonating Jacob.
 
 1. [Open your team settings page](#open-your-team-settings-page).
 

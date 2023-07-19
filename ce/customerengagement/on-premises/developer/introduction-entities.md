@@ -17,7 +17,6 @@ helpviewer_keywords:
 ms.assetid: 8597998f-764f-4c73-b63d-9f5e02c78061
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
 

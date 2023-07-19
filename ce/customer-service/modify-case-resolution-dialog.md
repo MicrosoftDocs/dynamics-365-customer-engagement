@@ -1,11 +1,10 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
-ms.date: 05/18/2022
+ms.date: 06/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -22,7 +21,7 @@ The following sections discuss the permissions you'll need to modify the case re
 
 > [!Note]
 > The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
-> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#configurable-case-resolution-page)
+> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#configurable-case-resolution-page)
 
 ## Check permissions
 
@@ -61,6 +60,10 @@ You can modify the case resolution dialog and remove a field so that it no longe
 
 As an example, let's see how to remove the **Billable Time** field from the **Information** form.
 
+> [!NOTE]
+> - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
+> - Case resolution isn't supported if **Regarding** is added to **Case resolution dialog**.
+
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Forms**.
 
 2. Open the form you want to edit. For this example, let's select the **Information** form.
@@ -81,7 +84,7 @@ Let's understand how to add custom status values to the case resolution dialog w
  1. Update the Case entity to add a new **Resolved** status type and assign a **Duplicate** custom value to it.
  1. Update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
 
-> [!Important]
+> [!Important] 
 > If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you specified won't be displayed.
 
 ### Update the case entity

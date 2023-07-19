@@ -14,7 +14,6 @@ ms.assetid: 25af20e4-2eac-4bed-888e-be35015b59fb
 caps.latest.revision: 19
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Install or upgrade Language Packs
 

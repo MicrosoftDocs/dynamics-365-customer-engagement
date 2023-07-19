@@ -1,17 +1,14 @@
 ---
-title: "Set up bookable resources (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
+title: Set up bookable resources (contains video)
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.date: 01/27/2022
 
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Set up bookable resources in Dynamics 365 Field Service
+# Set up bookable resources
 
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 
@@ -28,10 +25,6 @@ In this article, we’ll walk through how to create a bookable resource and add 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
-> [!Note]
-> For additional Dynamics 365 Field Service videos, go to [this full playlist](https://aka.ms/fs-videos).
-
-
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service.
@@ -39,7 +32,7 @@ In this article, we’ll walk through how to create a bookable resource and add 
 
 ## Quickly set up frontline workers to get started
 
-At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. 
+At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders.
 
 To quickly create frontline workers refer to the article on [setting up frontline workers](frontline-worker-set-up.md).
 

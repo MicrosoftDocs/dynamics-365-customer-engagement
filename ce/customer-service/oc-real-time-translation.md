@@ -1,21 +1,20 @@
 ---
-title: "Real-time translation in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Overview of language translation for agent and customer chats in the Omnichannel for Customer Service app."
-ms.date: 06/30/2021
-ms.topic: article
+title: Use real-time translation in Omnichannel for Customer Service
+description: Learn how real-time language translation for agent and customer chats works in Omnichannel for Customer Service.
+ms.date: 05/31/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
-# Real-time translation of conversations for agents and customers
+# Use real-time translation of conversations for agents and customers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
-
-## Introduction
 
 When language translation is enabled for conversations that are exchanged between the agent and customer or among agents internally, agents can view the conversation in the language that's set as the default for them. The customer receives the agent's messages in the language they used for initiating the chat. This feature removes the necessity of routing conversations only to agents who know the language being used by the customer.
 
@@ -38,7 +37,6 @@ The following image shows a sample screenshot of the agent experience.
   > [!div class=mx-imgBorder]
   > ![Real-time language translation for the agent.](media/oc-agent-translated-messages.png "Real-time language translation for agent")
 
-
 The following image shows a sample screenshot of the customer experience.
 
   > [!div class=mx-imgBorder]
@@ -46,7 +44,7 @@ The following image shows a sample screenshot of the customer experience.
 
 ### See also
 
-[View a customer summary](oc-customer-summary.md)  
+[View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  
 
 

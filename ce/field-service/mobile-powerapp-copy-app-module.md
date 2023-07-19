@@ -10,9 +10,6 @@ applies_to:
 - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
-search.app:
-- D365CE
-- D365FS
 ---
 
 # Add a custom app module to the Field Service (Dynamics 365) mobile app
@@ -76,7 +73,7 @@ To make the app module available to the Field Service mobile app:
 
 3.  Once the app is added to the solution, **Save and Close**, which will add your app module to the solution you created.
 
-4.  After adding your add module to a solution, export the solution. From the solutions list, select the solution you created and **Export** from the command bar. Follow on-screen steps to export the solution package.
+4.  After adding your app module to a solution, export the solution. From the solutions list, select the solution you created and **Export** from the command bar. Follow on-screen steps to export the solution package.
 
 5.  Open the exported solution (.zip) and edit the file ```Customizations.xml```.
 

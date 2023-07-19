@@ -1,18 +1,17 @@
 ---
-title: "Enable sound notifications for conversations in Omnichannel for Customer Service | MicrosoftDocs"
-description: "How to enable sound notifications for conversations in Omnichannel for Customer Service."
-ms.date: 07/20/2022
-ms.topic: article
+title: Enable sound notifications for conversations in Omnichannel for Customer Service
+description: How to enable sound notifications for conversations in Omnichannel for Customer Service.
+ms.date: 05/31/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Enable sound notifications for conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
@@ -31,7 +30,7 @@ When you enable sound settings, the options to personalize settings are availabl
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 

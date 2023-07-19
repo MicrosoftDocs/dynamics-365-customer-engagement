@@ -1,19 +1,18 @@
 ---
-title: "Configuration of premium forecasting"
-description: "Configure premium forecasting to help sellers and managers improve their forecast accuracy by providing forecast projections based on data."
-ms.date: 10/26/2021
+title: Predict future revenue outcomes using premium forecasting
+description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
+ms.date: 03/15/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
-# About premium forecasting 
+# Predict future revenue outcomes using premium forecasting
 
-Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes. 
+Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes.
 
 >[!IMPORTANT]
->Premium forecasting is not available on Government Community Cloud (GCC), France, and India. 
+>Premium forecasting is not available on Government Community Cloud (GCC), France, and India.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -24,7 +23,7 @@ Premium forecasting helps sellers and managers improve their forecast accuracy b
 
 ## Features available in premium forecasting
 
-The following premium forecasting features are available with Sales Insights. Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
+The following premium forecasting features are available with the Sales Premium license. Before you begin, ensure that forecasting is enabled. More information: [Configure forecasts in your organization](configure-forecast.md).
 
 ### Forecast predictions
 
@@ -33,7 +32,7 @@ Provides an AI-powered forecast that helps sellers and managers understand how m
 To verify that the predictive forecasting feature is enabled in your organization, go to **Change area** > **App settings** > **Forecast configuration**. The **Prediction** column appears in a forecast grid when you select it as a column. To learn more, see [Choose layout and columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast).
 
 >[!NOTE]
-> - **Predictive** column is now available for all hierarchies with rollup entity as **Opportunity**.
+> - **Prediction** column is now available for all hierarchies with rollup entity as **Opportunity**.
 > -  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
 
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
@@ -74,8 +73,9 @@ The flow chart provides a visual representation of how the forecast changes betw
 
 ### See also
 
+[System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)<br>
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)
 
 

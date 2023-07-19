@@ -19,7 +19,6 @@ ms.assetid: 43b26b09-636e-4781-8477-65454c4c5232
 caps.latest.revision: 19
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType:
   - developer
 ---
@@ -54,7 +53,7 @@ This sample shows how to create simple [!INCLUDE[pn_LINQ](../../includes/pn-linq
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/CreateQuery/SampleProgram.cs)
 
 ### See also
 

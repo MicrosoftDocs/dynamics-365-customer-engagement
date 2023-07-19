@@ -1,20 +1,16 @@
 ---
-title: "Use outbound subscription centers in real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing."
-ms.date: 05/24/2022
+title: Use outbound subscription centers in real-time journeys
+description: Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Use outbound subscription centers in real-time journeys
@@ -22,7 +18,10 @@ search.app:
 This article explains how to use outbound marketing subscription centers in real-time journeys. Outbound subscription centers give you consent management flexibility, enabling you to have multiple subscription centers customized and branded to your needs.
 
 > [!IMPORTANT]
-> You can only use subscription centers in real-time journeys that target contacts. Journeys that target leads or customer profiles will continue to use the default preference center.
+> You can only use subscription centers in real-time journeys that target contacts. Journeys that target leads or customer profiles will continue to use the default preference page.
+
+> [!NOTE]
+> Real-time marketing has introduced a new compliance profile type of preference center that works natively with contact point-based consent in real-time marketing. Preference centers offer improved functionality, such as more customizable forms and the ability to update text message consent. Learn more: [Real-time marketing compliance profiles](real-time-marketing-compliance-settings.md) and [Preference centers](real-time-marketing-preference-centers.md)
 
 ## Prerequisites
 
@@ -31,13 +30,6 @@ To use outbound subscription centers in real-time marketing, you must first crea
 ### Create subscription centers in outbound marketing
 
 If you haven’t already, [create your subscription centers](set-up-subscription-center.md) in outbound marketing.
-
-### Enable configurable compliance settings
-
-Before you can use subscription centers in real-time journeys, you must enable configurable compliance settings:
-
-1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Turn on the **Configurable compliance settings in email editor** feature switch.
 
 ## Set up subscription centers in real-time marketing
 
@@ -69,7 +61,15 @@ Now you can use the subscription center you've set up in a real-time marketing e
 
 1. Open or create a new email message in the real-time marketing email editor.
 1. Select the email header and go to **Email Settings** in the right pane.
-1. Under **Compliance**, select the subscription center you set up in the "Quick Create: Compliance" settings in the previous step.
+1. Under **Compliance**, select the compliance profile with the subscription center you set up in the "Quick Create: Compliance" settings in the previous step.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of selecting the subscription center under Compliance.](media/outbound-subscription-compliance-select.png "Screenshot of selecting the subscription center under Compliance")
+
+### See also
+
+[Outbound marketing compliance settings](privacy-use-features.md)
+[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

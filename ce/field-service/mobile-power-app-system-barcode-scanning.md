@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Barcode scanning and global search
@@ -76,6 +73,8 @@ First, make sure there is a barcode field on the record type you want to add the
 > [!div class="mx-imgBorder"]
 > ![Field properties for the barcode scanner control in Power Apps.](./media/enablefortabandmobile.png)
 
+> [!Note]
+> Currently, the barcode scanner control doesn't support setting control-level error notifications. For more information, see [setNotification docs](/power-apps/developer/model-driven-apps/clientapi/reference/controls/setnotification).
 
 ## Step 2: Test scanning a barcode to populate the field value
 

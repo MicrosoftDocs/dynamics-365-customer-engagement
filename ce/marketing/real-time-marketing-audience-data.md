@@ -1,6 +1,6 @@
 ---
-title: "Select the audience source for real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to select the audience source for real-time journeys in Dynamics 365 Marketing."
+title: Select the audience source for real-time journeys
+description: Learn how to select the audience source for real-time journeys in Dynamics 365 Marketing.
 ms.date: 01/23/2023
 ms.custom: 
   - dyn365-admin
@@ -8,14 +8,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Select the audience source for real-time journeys
@@ -27,9 +23,9 @@ To access the **Audience configuration settings**, go to **Settings** > **Custom
 > [!div class="mx-imgBorder"]
 > ![Audience configuration settings screenshot.](media/real-time-marketing-audience-configuration.png "Audience configuration settings screenshot")
 
-Contacts and Leads have default recipient fields set up for emails and phone numbers. The values from these fields are automatically populated in the *Send-to* field. You can modify the default settings by adding more recipient fields or changing the default field content.
+Contacts and leads have default recipient fields set up for emails and phone numbers. The values from these fields are automatically populated in the *Send-to* field. You can modify the default settings by adding more recipient fields or changing the default field content.
 
-Customer Profiles have no default fields set. You can choose which fields from a Customer Profile should be used when sending an email or text message.
+Customer profiles have no default fields set. You can choose which fields from a customer profile should be used when sending an email or text message.
 
 ## Change your audience configuration
 
@@ -43,4 +39,6 @@ You can change the default recipient or add more recipient fields. You can selec
 A default value is displayed in the *Send-to* field, but you can select any other recipient field from the dropdown menu.
 
 > [!Important]
-> For Contacts, only one recipient email address can be used. This is done to remove consent ambiguity. In outbound marketing, a Contact record may store several email addresses with one consent for the entire contact. But in real-time marketing, consent is given per each email address. Learn more in [Compliance settings](real-time-marketing-compliance-settings.md#outbound-consent).
+> For contacts, only one recipient email address can be used. This is done to remove consent ambiguity. In outbound marketing, a contact record may store several email addresses with one consent for the entire contact. But in real-time marketing, consent is given per each email address. Learn more in [Compliance settings](real-time-marketing-compliance-settings.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,7 +22,6 @@ ms.assetid: b0b5a5f6-03b9-4c42-9394-7fa6d27ee509
 caps.latest.revision: 19
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType:
   - developer
 ---
@@ -47,7 +46,7 @@ This sample shows how to create [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] q
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
 
 ### See also
 

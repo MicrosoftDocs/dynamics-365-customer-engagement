@@ -1,11 +1,10 @@
 ---
 title: "Configure route-to-queue rules"
 description: "Learn about how to configure a route-to-queue ruleset for a workstream in unified routing."
-ms.date: 10/03/2022
+ms.date: 02/24/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 searchScope:
 - D365-App-customerservicehub
 - D365-Entity-queueitem
@@ -22,7 +21,7 @@ The route-to-queue ruleset is run after all the work classification rulesets are
 
 A workstream can have only one route-to-queues ruleset.
 
-After you configure the rules, the system matches the rule conditions, and operating hours of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues also match the operating hours, then the queue corresponding to the first rule in the list is selected for assignment. If none of the queues corresponding to the rules meet the operating hours, the work item is assigned to the queue that will be operational at the earliest.
+After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue that will be available first.
 
 The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
 
@@ -52,14 +51,13 @@ When you configure this feature, the system picks a queue from the available lis
 
 1. Repeat **Step 6** to define the percentage allocation for up to five queues. The total percentage allocation for all the queues should sum up to 100.
 
-:::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
+   :::image type="content" source="media/percent-based-routing.png" alt-text="Configure percent-based route-to-queue rules.":::
 
 1. Use the **Remove allocations** option that's available in the **More commands** ellipses to remove the percentage-based routing. When you update the percentage-based settings, you must ensure that the allocation totals to 100.
 
 1. Repeat **Steps 2 through 6** to define the rules to cater to your business needs.
 
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
-
 
 ## Options available for rules
 

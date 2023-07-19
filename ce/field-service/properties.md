@@ -1,17 +1,14 @@
 ---
-title: Create properties and property templates in Field Service
+title: Create properties and property templates
 description: Learn how to use asset properties in Dynamics 365 Field Service.
 ms.date: 01/25/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Create properties and property templates in Field Service
+# Create properties and property templates
 
 Properties record important information about customer assets. After you [define properties](#define-properties), you can [create property templates](#create-property-templates) to quickly and easily apply a set of properties to an asset or an entire category of assets.
 

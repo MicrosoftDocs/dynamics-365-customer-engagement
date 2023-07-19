@@ -5,14 +5,10 @@ ms.date: 11/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom:
   - dyn365-customerservice
 ---
@@ -64,7 +60,7 @@ As an administrator, you can integrate a Power Virtual Agents bot with knowledge
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 ### Search multiple knowledge providers
-As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external knowledge search providers](set-up-search-providers.md#set-up-external-knowledge-search-providers)
+As an administrator, you can use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
 ### Set up search logic and search filters
 As an administrator, you can:
@@ -82,7 +78,7 @@ Having a knowledge base on the portal makes it a customer self-service portal, w
 
 As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
-  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Configure knowledge analytics](enable-knowledge-search-insights.md#configure-knowledge-analytics)
+  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Manage Knowledge analytics](enable-knowledge-search-insights.md#manage-knowledge-analytics)
 
     :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   

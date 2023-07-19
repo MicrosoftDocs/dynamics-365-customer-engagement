@@ -3,14 +3,10 @@ title: "Support for accessibility in Unified Service Desk | MicrosoftDocs"
 description: "Learn about accessibility features such as keyboard navigation, screen reader support, and high contrast setting offered by Unified Service Desk."
 ms.date: 08/23/2017
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD

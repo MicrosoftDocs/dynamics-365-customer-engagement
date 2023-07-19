@@ -14,7 +14,6 @@ ms.assetid: 29ba2ff1-8391-4b42-be1c-6bc1b3e4d14d
 caps.latest.revision: 25
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Configure the AD FS server for IFD
 

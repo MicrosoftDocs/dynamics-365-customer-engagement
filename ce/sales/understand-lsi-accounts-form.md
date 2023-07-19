@@ -5,7 +5,6 @@ ms.date: 10/25/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---

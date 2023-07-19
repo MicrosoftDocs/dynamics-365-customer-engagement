@@ -3,14 +3,10 @@ title: "Post migration steps | MicrosoftDocs"
 description: "Learn about the tasks you must perform after migrating configurations from legacy web client to the Unified Interface app."
 ms.date: 11/16/2020
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin

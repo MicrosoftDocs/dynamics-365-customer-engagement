@@ -14,7 +14,6 @@ ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
 caps.latest.revision: 16
 author: KumarVivek
 ms.author: kvivek
-manager: KumarVivek
 search.audienceType:
   - developer
 ---
@@ -109,7 +108,7 @@ namespace PowerApps.Samples
                     const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Dataverse";
                     if (service.LastCrmError.Equals(UNABLE_TO_LOGIN_ERROR))
                     {
-                        Console.WriteLine("Check the connection string values in cds/App.config.");
+                        Console.WriteLine("Check the connection string values in dataverse/App.config.");
                         throw new Exception(service.LastCrmError);
                     }
                     else

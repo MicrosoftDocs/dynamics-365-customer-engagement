@@ -19,14 +19,10 @@ ms.assetid: 04a2332e-0fc4-4487-8136-e48e01b63055
 caps.latest.revision: 38
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Set up Dynamics 365 for Outlook administrators
 If your users run a recent version of Microsoft Outlook, they can use Microsoft Dynamics 365 for Outlook. Dynamics 365 for Outlook makes it easier for your team to work with Dynamics 365 apps data in the familiar Outlook environment.

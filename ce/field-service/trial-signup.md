@@ -38,7 +38,7 @@ The trial comes with guided tours and videos that highlight key product features
 
 - We provide a glimpse of how Connected Field Service can help you deliver proactive service using smart device alerts. We have included sample IoT device data in the trial; however, to fully experience Connected Field Service for your business, configure [Azure IoT Hub](installation-setup-iothub.md).
 
-- Configure the [Field Service customer portal](scheduling-self-customers.md) in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
+- Configure the [Field Service customer portal](customer-portal-overview.md) in order to experience the self-scheduling and technician tracking features that Field Service can provide your customers.  
 
 ## Additional resources
 

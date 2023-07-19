@@ -1,21 +1,21 @@
 ---
-title: "Configure Dynamics 365 Sales to integrate with SharePoint | MicrosoftDocs"
+title: "Integrate with SharePoint | MicrosoftDocs"
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales with SharePoint."
 ms.date: 07/06/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
 
-# Configure Dynamics 365 Sales to integrate with SharePoint
+# Integrate with SharePoint
 
 Store the documents related to Dynamics 365 Sales entity records in SharePoint. Quickly access, share, and manage these documents from
 the Sales app by integrating with SharePoint Online.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

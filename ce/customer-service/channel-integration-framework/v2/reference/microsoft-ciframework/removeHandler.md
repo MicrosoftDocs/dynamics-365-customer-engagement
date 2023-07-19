@@ -1,11 +1,10 @@
 ---
 title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the removeHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/22/2022
+ms.date: 07/11/2023
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
@@ -18,6 +17,21 @@ ms.custom:
 [!INCLUDE[removeHandler-description](includes/removeHandler-description.md)]
 
 [!INCLUDE[token-removeHandler](../../../shared/token-removeHandler.md)]
+
+## Example
+
+```Javascript
+Microsoft.CIFramework.removeHandler(eventName, handlerFunction).then(
+  function (result) {
+      // result will indicate if the passed in handler function has been removed
+      console.log(result)
+  },
+  function (error) {
+      // code handling for promise failure
+      console.error(error)
+  }
+);
+```
 
 ### See also
 

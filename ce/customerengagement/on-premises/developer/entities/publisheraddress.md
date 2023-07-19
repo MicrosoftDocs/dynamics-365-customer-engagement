@@ -6,11 +6,8 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "margoc"
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # PublisherAddress entity reference
@@ -141,7 +138,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Country/region name in the publisher address.|
-|DisplayName|Country|
+|DisplayName|Country/Region|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|

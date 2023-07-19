@@ -19,7 +19,6 @@ ms.assetid: e7b83553-e710-4e7b-865c-5a8cd31a8166
 caps.latest.revision: 26
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType:
   - developer
 ---
@@ -44,7 +43,7 @@ This sample shows how to use [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] with
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/ComplexQueries/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/ComplexQueries/SampleProgram.cs)
 
 ### See also
 

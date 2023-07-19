@@ -1,22 +1,24 @@
 ---
-title: View and understand sales usage reports
+title: View operational metrics and KPIs in Sales usage reports
 description: View and understand sales usage reports in Microsoft Dynamics 365 Sales to analyze operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.
-ms.date: 02/14/2023
+ms.date: 03/31/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ms.custom: bap-template
 ---
 
-# View and understand sales usage reports
+# View operational metrics and KPIs in sales usage reports
 
-The sales usage dashboard provides a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.
+The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
 
-Sales reports can take up to 24 hours to display after your administrator makes them available in your organization. Thereafter, reports refresh every 24 hours.
+The reports only include data that has been added or updated in the application from the day of enablement. After enabling, it may take up to three days for the sales usage reports to display data, there after, the data is refreshed every 24 hours.
+
+Also, the actions that are performed in the application are reflected in the sales usage reports. Actions such as, bulk import, bulk update, and records updated through the API are not reflected in the sales usage reports.
 
 > [!NOTE]
-> Sales usage reports aren't available in Government Community Cloud (GCC) tenants.
+> - Sales usage reports aren't available in Government Community Cloud (GCC) tenants.
+> - The updated or added data may take up to three days to show in the reports.
 
 ## License and role requirements
 

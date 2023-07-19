@@ -5,7 +5,6 @@ ms.date: 09/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 
 # Relationship intelligence overview 

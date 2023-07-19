@@ -1,18 +1,14 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 11/28/2022
+ms.date: 05/17/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 ---
@@ -51,6 +47,28 @@ The following licenses are required for the swarm feature.
 - Agents who use the swarm feature must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
 - Experts who join a swarm must have a Teams license.
 
+## Guided setup experience for customer support swarming
+
+If you're new to using customer support swarming, you can use the step-by-step guided swarm setup wizard to help walk you quickly through the configuration using default settings.  
+
+If this is your first time accessing the guided setup, follow these steps: 
+
+1. In Customer Service admin center, go to the sitemap, and then in **Agent experience**, select **Collaboration**. 
+
+1. On the **Collaboration** page, on the top banner, select **Get started**. The swarm set-up page is displayed.
+
+1. Follow the wizard to complete the setup.
+
+You can alternatively choose to opt out of the wizard by selecting **Skip setup**. 
+
+If you’ve completed at least one setup, or previously chose to skip the setup, you can launch the guided experience again using the following steps: 
+
+1. On the Collaboration page, next to Customer support swarming (preview), select **Manage**. The Customer support swarming (preview) page is displayed. 
+
+1. On the right side of the page, select **Manage setups**. The Swarming setups page is displayed.
+
+1. Select **Start new**, and then follow the wizard to complete the setup.
+
 ## Overview of the customer support swarming page
 
 Use the following image and legend to understand the layout of the customer support swarming page.
@@ -65,15 +83,15 @@ Use the following image and legend to understand the layout of the customer supp
 |1 | Swarming toggle | Turns on the swarming feature. |
 |2 | Expert notifications | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 |3 | Case details | Add out-of-box case fields. Administrators can configure which case fields show on the form. |
-|4 | Add and manage skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
-|5 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|6 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
-|7 | Agent guide | Administrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
+|4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
+|5 | Experts | Displays a list of experts and their skills who are configured for swarming.
+|6 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
+|7 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
+|8 | Agent guide | Administrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
 
 To configure customer support swarming, you must have administrator privileges and complete the following steps.
 
 1. [Turn on the Embedded chat using Teams feature](#turn-on-embedded-chat-using-teams) for Microsoft Teams desktop or web apps.
-1. [Activate case details on swarms](#activate-case-details-on-swarms)
 1. [Turn on the swarm expert notification flow in Power Automate](#turn-on-the-swarm-expert-notification-flow-in-power-automate)
 
 ### Turn on Embedded chat using Teams
@@ -84,32 +102,13 @@ You can set up Embedded chat using Teams in the Customer Service admin center. T
 1. Next to **Embedded chat using Teams**, select **Manage**.
 1. Set the **Turn on Microsoft Teams chats inside Dynamics 365** toggle to **On**.
    
-
-### Activate case details on swarms
-
-If you haven't already activated the case details for the swarm form, perform the following steps.
-
-1. Select **Collaboration** in the site map. The **Collaboration** page is displayed.
-1. Next to **Customer support swarming (preview)**, select **Manage**. The **Customer support swarming (preview)** page is displayed.
-1. On the **Case details** card, select **Activate case form for swarming**.
-1. Select the **Case form for swarming** form, select the ellipsis, and then select **Activate form**. The form becomes active.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
-
-1. Go to the **Solutions** tab and select **Publish all customizations**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
-
-
 ### Turn on the swarm expert notification flow in Power Automate
 
 To ensure that swarm experts receive invitations directly in Teams, turn on the Microsoft Power Automate flow for swarm expert notifications. Perform the following steps.
 
 1. On the **Customer support swarming (preview)** configuration page, go to the **Expert notifications** card.
 
-1. Select the **Edit in Power Automate** link. The **Case form for swarming** page is displayed.
+1. Select the **Edit in Power Automate** link. The **Send swarm invitation card** page is displayed.
 
 1. After completing the edits, select **Save**.
 
@@ -120,6 +119,10 @@ To ensure that swarm experts receive invitations directly in Teams, turn on the 
 
 > [!Note]
 > You can configure various administration sections without turning on swarming. This is useful in ensuring you've fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issues if it's not fully functional.
+
+## Add a new tab, section, or field to the swarm form
+
+You can customize your swarm form by adding a new tab, section, or field to it. More information: [Create, edit, or configure forms using the form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)
 
 ## Edit case details
 

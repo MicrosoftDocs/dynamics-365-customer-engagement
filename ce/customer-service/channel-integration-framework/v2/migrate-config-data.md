@@ -3,9 +3,8 @@ title: "Migrate third-party channel configuration data | MicrosoftDocs "
 description: "Use this topic to learn how to migrate third-party channel configuration data from Dynamics 365 Channel Integration Framework 1.0 to Channel Integration Framework 2.0 in Customer Service workspace and Omnichannel for Customer Service."
 ms.date: 10/21/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
   - customizer

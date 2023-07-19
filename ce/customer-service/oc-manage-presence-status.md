@@ -1,11 +1,12 @@
 ---
-title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
-description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 02/18/2023
-ms.topic: article
+title: Manage presence status in Omnichannel for Customer Service
+description: Use this article to learn how to view and update your presence status in Omnichannel for Customer Service.
+ms.date: 07/12/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Manage presence status
@@ -14,8 +15,7 @@ manager: shujoshi
 
 Presence is an indication of your availability or status in the application.
 
-  > [!div class=mx-imgBorder]
-  > ![Agent presence status.](media/oceh-presence-icon.png "Agent presence status")
+:::image type="content" source="media/oceh-presence-icon.png" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
@@ -25,20 +25,18 @@ For the presence status or presence icon to display correctly, enable in your br
 
 You can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
-  - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
+- ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
 
-  - ![Appear away presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Appear away
+- ![Appear away presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Appear away
 
-  - ![Do not disturb presence status.](media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Do not disturb
+- ![Do not disturb presence status.](media/oceh-do-not-disturb-icon.png "Do not disturb presence status")  Do not disturb
 
-  - ![Busy presence status.](media/oceh-busy-icon.png "Busy presence status")  Busy
+- ![Busy presence status.](media/oceh-busy-icon.png "Busy presence status")  Busy
 
-  - ![Available presence status.](media/oceh-available-icon.png "Available presence status")  Available
+- ![Available presence status.](media/oceh-available-icon.png "Available presence status")  Available
   
-  - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
+- ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-
- 
 ## Update your presence status
 
 You can update the presence status in the following two ways:
@@ -53,8 +51,7 @@ You can update the presence status in the following two ways:
   
    You might also see other presence statuses that your administrator configured for you.
 
-  > [!div class=mx-imgBorder]
-  > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
+  :::image type="content" source="media/oceh-presence.png" alt-text="Set your presence status.":::
 
 - **Automatically**: When a conversation (work item) is assigned to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
 
@@ -67,13 +64,25 @@ You can update the presence status in the following two ways:
 
 ## Presence status conditions
 
-Your presence status pertains to the following three conditions:
+Your presence status pertains to the following conditions:
 
 - Omnichannel for Customer Service determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
+- If your presence is **Away** or **Offline**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
 
-- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it. 
+- If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
+
+- If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
+
+The system waits for 2.5 minutes, after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
+
+- Closes the browser
+- Signs out of Customer Service workspace
+- Closes or signs out of the device
+- Experiences disruption to internet
+- Leaves the browser open without any activity
+
+More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
 
 ## Presence status scenarios
 
@@ -83,7 +92,7 @@ The following scenarios describe how your presence status can change while you w
 
 - **Sign in**: When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items have been assigned, then your presence is automatically determined. However, if your default presence status is Away or Offline, then Omnichannel for Customer Service doesn’t change your presence.  
 
-- **Accept work items**: When you accept a work item or it's assigned automatically, then Omnichannel for Customer Service  determines your presence based on your work capacity. But, if your presence status is Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence. 
+- **Accept work items**: When you accept a work item or it's assigned automatically, then Omnichannel for Customer Service determines your presence based on your work capacity. But if your presence status is Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence. 
 
 - **Close work items**: When you close a session, or resolve, cancel, or reroute a case, then Omnichannel for Customer Service determines your presence based on your work capacity. But, if your presence status Away or Offline, or if you've manually changed your presence to Do not disturb, then Omnichannel for Customer Service doesn’t change your presence.
 

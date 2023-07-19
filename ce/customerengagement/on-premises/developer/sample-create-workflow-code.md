@@ -14,7 +14,6 @@ ms.assetid: 7105761b-9710-4ad1-a3ee-b7dd58287c81
 caps.latest.revision: 21
 author: JimDaly
 ms.author: jdaly
-manager: kvivek
 search.audienceType:
   - developer
 ---
@@ -33,7 +32,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -41,7 +40,7 @@ The sample shows how to programmatically create an asynchronous workflow in code
 
 ## Example
 
-[CreateAWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/CreateAWorkflow.cs)
+[CreateAWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/CreateAWorkflow.cs)
 
 ### See also
 

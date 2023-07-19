@@ -1,27 +1,19 @@
 ---
-title: "Configure advanced settings for a forecast"
-description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 12/16/2022
+title: Configure advanced settings for a forecast
+description: Configure advanced settings for a forecast in Dynamics 365 Sales.
+ms.date: 06/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
+ms.reviewer: shujoshi 
 ---
 
 # Configure advanced settings for forecasts
 
-When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
-
-- [Automatically hide parent row](#automatically-hide-parent-row)
-- [Turn on multi-currency selection](#turn-on-multi-currency-selection)
-- [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
-- [View prediction factors](#view-prediction-factors)
-- [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
-- [Override column headers (preview)](#override-column-headers-preview)
-- [Customize underlying records](#customize-underlying-records)
-
+Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -33,11 +25,11 @@ In a forecast, each parent row in the hierarchy entity has its own contributor r
 
 You may not want to see duplicate zero-value parent rows. To hide them, turn on **Auto-hide parent row**.
 
-For example, Grace Mbele, a sales manager, has created a forecast based on the **User** hierarchy. When she opens the forecast, she sees two rows each for her sales leads, Jeremy Johnson and Jason Smith. The first row is the parent. The second is the contributor row.
+For example, Grace Mbele, a sales manager, has created a forecast based on the **User** hierarchy. On opening the forecast, Grace sees two rows each for the sales leads, Jeremy Johnson and Jason Smith. The first row is the parent. The second is the contributor row.
 
 :::image type="content" source="./media/forecast-hide-parent-row-disabled.png" alt-text="A screenshot of a user-based forecast, with duplicate zero-value parent rows shown.":::
 
-After Grace turns on **Auto-hide parent row**, she still sees the rolled-up parent rows for Jeremy and Jason, but not the duplicate zero-value rows.
+After turning on **Auto-hide parent row**, Grace still sees the rolled-up parent rows for Jeremy and Jason, but not the duplicate zero-value rows.
 
 :::image type="content" source="./media/forecast-hide-parent-row-enabled.png" alt-text="A screenshot of a user-based forecast, with duplicate zero-value parent rows hidden.":::
 
@@ -107,15 +99,15 @@ In the **Override column headers (Preview)** section, select the custom control 
 
 :::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
-## Customize underlying records
+## Customize underlying records grid
 
-Add a JavaScript library to customize the underlying records in a forecast.
+Add a JavaScript library to customize the underlying records grid in a forecast.
 
 Before you upload the JavaScript library, it must be created according to the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).
 
 ### Create a JavaScript library
 
-Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity:  
+Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity.
 
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -139,6 +131,7 @@ var entityName = executionContext.getFormContext().data.entity.getEntityName();
     }
 }
 ```
+For more such customization examples, see [Override save, update, and load events for editable fields on forecasting grid](developer/reference/custom-actions/events-context.md).
 
 >[!NOTE]
 >

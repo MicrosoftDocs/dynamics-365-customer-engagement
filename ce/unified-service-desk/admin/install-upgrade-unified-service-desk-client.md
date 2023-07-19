@@ -1,16 +1,12 @@
 ---
 title: "Install the Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line."
-ms.date: 06/21/2022
+ms.date: 05/26/2023
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - D365USD
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
@@ -31,13 +27,6 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 
 ::: moniker-end
 
-::: moniker range="dynamics-usd-3"
-
-- For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-i386.exe file.
-
-- For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-3.x.x.xxx-amd64.exe file.
-
-::: moniker-end
 
 <a name="BKMK_USDwizard"></a>   
 
@@ -70,7 +59,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 ::: moniker range="=dynamics-usd-4.2"
 
 > [!Important]
-> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
+> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
 
 ::: moniker-end
 

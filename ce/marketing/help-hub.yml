@@ -5,20 +5,18 @@ title: Help resources for Dynamics 365 Marketing
 summary: Welcome to the Dynamics 365 Marketing documentation. This documentation includes content for all capabilities available in the Marketing app, including real-time marketing and outbound marketing functionality.
 
 metadata:
-  title: "Help resources for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-  description: "A starting point for browsing help content for Dynamics 365 Marketing."
-  ms.date: 03/28/2022
-  ms.custom: 
-    - dyn365-marketing
+  title: Help resources for Dynamics 365 Marketing
+  description: A starting point for browsing help content for Dynamics 365 Marketing.
+  ms.date: 07/18/2023
   ms.topic: hub-page
   author: alfergus
   ms.author: alfergus
   manager: shellyha
-  search.audienceType: 
+  search.audienceType:
     - admin
     - customizer
     - enduser
-  search.app: 
+  search.app:
     - D365CE
     - D365Mktg
 
@@ -26,24 +24,22 @@ metadata:
 
 landingContent:
 
-# Card 
+# Card
 - title: Get started
   linkLists:
       - linkListType: overview
         links:
-        - text: Dynamics 365 Marketing overview 
-          url: overview.md
         - text: Real-time marketing overview
           url: real-time-marketing-overview.md
         - text: Browser and system requirements
           url: browser-requirements.md
       - linkListType: quickstart
         links:
-        - text: Sign up for a free trial 
+        - text: Sign up for a free trial
           url: trial-signup.md
         - text: Purchase and set up Marketing
           url: purchase-setup.md
-        - text: Find your way around 
+        - text: Find your way around
           url: navigation.md
         - text: Use Customer Insights profiles and segments in real-time marketing
           url: real-time-marketing-ci-profile.md
@@ -54,23 +50,22 @@ landingContent:
         - text: Best practices for email marketing
           url: get-ready-email-marketing.md
 
-        
-# Card 
+# Card
 - title: Administer the system
   linkLists:
       - linkListType: overview
         links:
-        - text: Manage Marketing environments 
+        - text: Manage Marketing environments
           url: manage-marketing-environments.md
       - linkListType: how-to-guide
         links:
-        - text: Manage user accounts, user licenses, and security roles 
+        - text: Manage user accounts, user licenses, and security roles
           url: admin-users-licenses-roles.md
-        - text: Organization settings 
+        - text: Organization settings
           url: organization-settings.md
         - text: Data management settings
           url: data-management-settings.md
-        - text: Marketing settings 
+        - text: Marketing settings
           url: marketing-settings.md
         - text: Manage consent for email and text messages in real-time marketing
           url: real-time-marketing-email-text-consent.md
@@ -80,50 +75,32 @@ landingContent:
           url: quota-management.md
         - text: Customize Dynamics 365 Marketing
           url: customize.md
-        - text: Data protection and GDPR
-          url: gdpr.md
+        - text: Data protection and privacy
+          url: privacy.md
 
-# Card 
+# Card
 - title: Basic tutorials
   linkLists:
       - linkListType: overview
         links:
         - text: Real-time marketing asset library
-          url: real-time-marketing-asset-library.md      
+          url: real-time-marketing-asset-library.md
       - linkListType: how-to-guide
         links:
-        - text: Create a trigger-based journey 
+        - text: Create a trigger-based journey
           url: real-time-marketing-trigger-based-journey.md
-        - text: Create a dynamic segment 
-          url: create-segment.md
-        - text: Create a marketing email and go live 
+        - text: Build segments
+          url: real-time-marketing-build-segments.md
+        - text: Create a marketing email and go live
           url: create-marketing-email.md
-        - text: Create a simple customer journey with email messaging 
-          url: create-simple-customer-journey.md
-        - text: Create a landing page with a form 
-          url: create-landing-page.md
-        - text: Create an interactive customer journey with conditions and signup 
-          url: create-interactive-customer-journey.md
-        - text: Set up automatic lead generation and scoring 
-          url: set-up-lead-scoring.md
+        - text: Send a targeted email blast
+          url: real-time-marketing-email-get-started.md
+        - text: Deploy pages that contain real-time marketing forms
+          url: real-time-marketing-deploy-pages.md
+        - text: Optimize lead management by engaging sellers right away
+          url: real-time-marketing-optimize-lead-management.md
 
-# Card 
-- title: Advanced tutorials
-  linkLists:
-      - linkListType: how-to-guide
-        links:
-        - text: Generate activities from a customer journey 
-          url: generate-activities-from-customer-journey.md
-        - text: Manage images for landing pages and email messages
-          url: manage-images.md
-        - text: Create templates for emails, pages, forms, and journeys 
-          url: create-templates.md
-        - text: Track website visits, social media clicks, and banner clicks 
-          url: track-online-behavior.md
-        - text: Set up subscription lists and subscription centers 
-          url: set-up-subscription-center.md
-
-# Card 
+# Card
 - title: Real-time marketing
   linkLists:
       - linkListType: overview
@@ -147,22 +124,22 @@ landingContent:
         - text: Access and interpret analytics
           url: real-time-marketing-analytics.md
 
-# Card 
+# Card
 - title: Outbound marketing
   linkLists:
       - linkListType: overview
         links:
         - text: Design digital content
           url: design-digital-content.md
-        - text: Email marketing overview 
+        - text: Email marketing overview
           url: prepare-marketing-emails.md
       - linkListType: how-to-guide
         links:
-        - text: Create and deploy marketing pages 
+        - text: Create and deploy marketing pages
           url: create-deploy-marketing-pages.md
-        - text: Integrate with landing pages on external websites 
+        - text: Integrate with landing pages on external websites
           url: embed-forms.md
-        - text: Create automated campaigns 
+        - text: Create automated campaigns
           url: customer-journeys-create-automated-campaigns.md
         - text: Working with segments
           url: segmentation-lists-subscriptions.md
@@ -177,14 +154,14 @@ landingContent:
         - text: Create and run online surveys
           url: surveys.md
 
-# Card 
+# Card
 - title: Extend the system
   linkLists:
       - linkListType: how-to-guide
         links:
         - text: Create custom triggers in real-time marketing
           url: real-time-marketing-custom-triggers.md
-        - text: Extend customer journeys using custom channels 
+        - text: Extend customer journeys using custom channels
           url: developer/extend-customer-journeys-custom-channels.md
         - text: Create a custom channel
           url: developer/create-custom-channel.md
@@ -193,16 +170,16 @@ landingContent:
         - text: Metadata reference for your organization
           url: developer/marketing-organization-metadata.md
 
-# Card 
+# Card
 - title: Microsoft Learn resources
   linkLists:
       - linkListType: learn
         links:
-        - text: Getting Started with Dynamics 365 Marketing 
+        - text: Getting Started with Dynamics 365 Marketing
           url: /training/paths/explore-microsoft-dynamics-365-marketing/
-        - text: Set up Dynamics 365 Marketing and configure advanced settings 
+        - text: Set up Dynamics 365 Marketing and configure advanced settings
           url: /training/paths/get-started-with-marketing/
-        - text: Working with Dynamics 365 Marketing 
+        - text: Working with Dynamics 365 Marketing
           url: /dynamics365/marketing/learning-project-manager/
         - text: Manage events in Dynamics 365 Marketing
           url: /training/paths/manage-events-dynamics-365-marketing/

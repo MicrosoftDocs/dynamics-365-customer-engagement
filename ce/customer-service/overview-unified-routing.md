@@ -1,17 +1,15 @@
 ---
-title: "Overview of unified routing | MicrosoftDocs"
-description: "Overview of unified routing in Customer Service"
-ms.date: 04/04/2022
-ms.topic: overview
+title: Overview of unified routing
+description: Overview of unified routing in Customer Service.
+ms.date: 05/31/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
-
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Overview of unified routing
-
-## Introduction
 
 Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct the incoming work item to the best-suited queue and agent by adhering to work item requirements and matching them with the agent’s capabilities.
 

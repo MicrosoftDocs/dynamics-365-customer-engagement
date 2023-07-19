@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 02/10/2023
+ms.date: 06/23/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -42,6 +42,18 @@ No applicable reason can be specified.
 
 **Resolution**: If the reason is empty and the state says **Ready for workflow/Power automate**, and the case doesn't get created, then check system jobs if it's a legacy rule, or check flow runs if it's a modern rule.
 
+### Why do multiple cases get created from a single email?
+
+Multiple cases can get created from a single email because of various reasons. Perform the following steps to check if multiple cases were created for an email.
+
+1. Enable the activity monitor options: **Ready for Power Automate / Workflow** and **Skipped**. More information: [Manage activity monitor to review and track rules](automatically-create-update-records.md#manage-activity-monitor-to-review-and-track-rules)
+1. Send a new email to reproduce the issue.
+1. You should see new activity monitor records in the grid for the new test email. Multiple activity monitor records for the email indicates that there are multiple queue items created for the same email that have triggered the ARC rule. You can also view which rule got triggered on each activity monitor row. The activity monitor records with the **Ready for Power Automate** state indicate that they have reached the flow and are likely to create a case in each of them. If you see the described behavior, perform the next step.
+1. Perform the following steps to identify where the duplicate queue items are from:
+    1. Rule item flow definition, to verify if the child flow adds the email to queue. Duplicate queue items can be created because of various reasons, such as a flow step calling **AddToQueue** bound action, queue item creation, another custom flow which the ARC flow calls from within, or a post operation plugin of an action performed within ARC flow, such as case creation.
+    1. Email background processes, to verify if there are any custom workflows. You can do this during live debugging, where successful background processes get cleaned up. If you don't see any background processes for an email received, it doesn’t necessarily mean that there are no custom runs.
+    1. Multiple queues with active ARC rule set up in the email's recipient or CC list. By default, an email gets added to all the queues which are listed as recipient and CC.
+
 ## FAQ about modern automatic record creation
 
 The following section provides answers to questions about migrated rule or flows in modern automatic record creation.
@@ -75,3 +87,9 @@ No, runtime or create duplicate cases won't be affected. The flow with name **AR
 ### Can I turn off or on ARC flows directly in the Power Automate portal?  
 
 No, don't turn off or on any ARC flows directly in the Power Automate portal. Only enable or disable ARC flows from Microsoft Dataverse.
+
+## See Also
+
+[Troubleshoot common configuration issues with automatic record creation and update rules](/troubleshoot/dynamics-365/customer-service/email/common-email-error-messages)
+
+[Incoming email isn't converted to a case](/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case)

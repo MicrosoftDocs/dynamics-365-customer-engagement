@@ -1,10 +1,10 @@
 ---
 title: Configure an SMS channel using Azure Communication Services | MicrosoftDocs
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
-ms.date: 02/17/2023
+ms.date: 06/20/2023
 ms.topic: how-to
-author: mh-jaya
-ms.author: v-jmh
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
@@ -24,8 +24,6 @@ This article discusses how you can configure an SMS channel using Azure Communic
 - Set up a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features in Customer Service admin center or Omnichannel admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
-
-- Create a workstream for the SMS channel. More information: [Create a workstream for the SMS channel](create-workstreams.md)
 
 ## Configure a workstream for the SMS channel
 

@@ -1,21 +1,17 @@
 ---
 title: "Enable session-level registration and waitlisting for events (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up session-level registration and how it differs from event-level registration in Dynamics 365 Marketing."
-ms.date: 04/01/2019
+ms.date: 06/28/2023
 
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Set up session-level registration and waitlisting
@@ -61,6 +57,12 @@ To view and edit registration details for a session-level event:
 - To view all registrations for a specific session), open the relevant event record, go to the **Agenda** tab, scroll to the **Sessions** list and select a session. In the open  session record, go to the Registration and attendance tab and scroll to the **Sessions registrations** list. You can also add or remove registrations from here.
 
 ## Session-level waitlists
+
+# [Real-time marketing](#tab/real-time)
+
+Waitlist is not supported in Real Time Marketing Event Management.
+
+# [Outbound marketing](#tab/outbound)
 
 The session-level waitlist works similarly to the event-level waitlist except that it manages a separate waitlist for each session. For details about how to set up and use the waitlist (including details about session-level waitlists) see [Set up and manage an event waitlist](event-waitlist.md). That topic also shows how to set up a customer journey that automatically lets contacts on the waitlist know when a spot has become available for them.
 

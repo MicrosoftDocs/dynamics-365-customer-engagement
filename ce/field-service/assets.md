@@ -1,17 +1,14 @@
 ---
-title: Create customer assets in Dynamics 365 Field Service (contains video)
+title: Work with customer assets (contains video)
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
 ms.date: 01/23/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
-# Create customer assets in Dynamics 365 Field Service
+# Work with customer assets
 
 When you add your customers' assets in Field Service, you can track equipment that requires inspections, maintenance, and repairs. Field Service asset management includes which equipment is located at a [functional location](functional-locations.md) and the [service history of all past and present work orders](service-history.md) for each asset.
 

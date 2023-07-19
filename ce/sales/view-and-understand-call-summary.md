@@ -1,11 +1,10 @@
 ---
 title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 01/25/2023
+ms.date: 06/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # View and understand call summary page in Conversation Intelligence app
 
@@ -26,10 +25,9 @@ The information on the call summary page helps both sellers and managers:
 
 ## Prerequisites
 
-- Configure conversation intelligence to process call recordings. More information: [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
-- [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md) so you can process call recordings.
+- Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 - To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
-- [Include and update the *CallPhoneCallCrmId* parameter](configure-conversation-intelligence-call-data.md#upload-call-recordings) with your Dynamics 365 organization's GUID to the metadata file while uploading the call recordings for processing. This helps to connect the call with the activity inside Dynamics 365.
+
 
 ## View the call summary page
 
@@ -124,21 +122,25 @@ The action items are highlighted in blue and a suggestion to create an appropria
 
 #### Mentions tab
 
-The **Mentions** tab displays talking points&mdash;such as keywords, stakeholders, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript and the playback. 
+The **Mentions** tab displays talking points&mdash;such as keywords, stakeholders, questions, and competitors&mdash;that were mentioned during the call. 
 
-- **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
-
-- **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
-- **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV."  
-- **Competitors**: Displays the predefined competitors that customers mentioned during the call.
-- **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
-- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.
-- **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users on the call. For example, What do you think about the demo? 
-- **Questions asked by others**: Displays questions asked by the other participants during the call.  
-
-The following image is an example of a **Mentions** tab.   
+The following image is an example of a **Mentions** tab.  
 > [!div class="mx-imgBorder"]
 > ![Mentions tab](media/ci-summary-keywords.png "Mentions tab")  
+
+Select a mentioned item to view when the item was mentioned in the transcript and playback.
+
+- **Competitors mentioned**: Displays the predefined competitors that customers mentioned during the call.
+
+- **Brands mentioned**: Displays brand and organization names (other than your own) that the customer mentioned during the call.  
+- **Tracked keywords mentioned**: Displays the predefined keywords that customers mentioned during the call.
+- **Keywords mentioned**: Displays the keywords and terms that were most frequently mentioned during the call.
+- **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
+- **Times**: Displays mentions related to time and date during the call; for example, let's talk next week.  
+- **Prices**: Displays prices mentioned during the call; for example, the product will cost $50.
+- **Questions asked by sellers**: Displays questions asked by the Dynamics 365 users during the call. For example, What do you think about the demo? 
+- **Questions asked by others**: Displays the questions asked by the other participants during the call. 
+
 
 ### Call transcript and translation
 

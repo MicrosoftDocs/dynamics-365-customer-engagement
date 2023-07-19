@@ -13,9 +13,8 @@ applies_to:
 author: jimholtz
 ms.assetid: c13e8b53-f4b1-4349-9ba8-4cfef7189c75
 caps.latest.revision: 26
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
 

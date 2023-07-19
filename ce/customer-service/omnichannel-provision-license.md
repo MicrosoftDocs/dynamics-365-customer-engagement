@@ -1,11 +1,10 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 02/17/2023
+ms.date: 06/23/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Provision Omnichannel for Customer Service
@@ -64,14 +63,14 @@ For more information about app permissions, see [Azure app Power BI API permissi
 
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
-1. In Power Platform admin center, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
+1. In [Power Platform admin center](https://admin.powerplatform.microsoft.com/), on the **Environments** page, select the environment in which you want to set up Omnichannel for Customer Service.
 
 1. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
 
    > [!NOTE]
    > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. The correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**.
   
-1. On the **Dynamics 365 apps** page, select **More commands** for **Omnichannel for Customer Service**, and then select **Manage**.
+1. On the **Dynamics 365 apps** page, select the ellipsis for **More application actions** next to **Omnichannel for Customer Service**, and then select **Manage**.
 
     > [!div class=mx-imgBorder]
     > ![Manage Omnichannel for Customer Service.](media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")

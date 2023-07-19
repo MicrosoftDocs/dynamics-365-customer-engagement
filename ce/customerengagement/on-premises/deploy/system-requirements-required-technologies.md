@@ -14,7 +14,6 @@ ms.assetid: e2c85d76-2b14-4d80-b6a7-5ea53fafcc8d
 caps.latest.revision: 35
 author: Mattp123
 ms.author: matp
-manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies
 

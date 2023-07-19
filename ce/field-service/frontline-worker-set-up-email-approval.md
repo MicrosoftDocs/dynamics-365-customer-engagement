@@ -1,18 +1,15 @@
 ---
-title: Send frontline workers an email with a link to download the Dynamics 365 Field Service mobile app 
-description: Learn how global admins can enable the mailboxes of system admins to send emails to their frontline workers in Dynamics 365 Field Service
+title: Send frontline workers a download link for the mobile app
+description: Learn how global admins can enable the mailboxes of system admins to send emails to their frontline workers in Dynamics 365 Field Service.
 ms.author: jacoh
 author: jasonccohen
 
 ms.subservice: field-service-mobile
 ms.date: 04/01/2021
 ms.topic: conceptual
-search.app:
-  - D365CE
-  - D365FS
 ---
 
-# Send frontline workers an email with a link to download Dynamics 365 Field Service mobile app
+# Send frontline workers a download link for the mobile app
 
 As a part of the [**Frontline Worker Set Up**](frontline-worker-set-up.md) process, admins can automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. 
 
@@ -37,7 +34,7 @@ To manually assign the **Approve Email Addresses for Users or Queues** privilege
 
 4. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
 
-> ![Screenshot of adding approve email addresses in Power Platrform admin center.](./media/add_email_privileges_security_role.PNG)
+> ![Screenshot of adding approve email addresses in Power Platform admin center.](./media/add_email_privileges_security_role.PNG)
 
 ## Step 2: Approve mailboxes for system admins
 

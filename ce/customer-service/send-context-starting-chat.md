@@ -5,7 +5,6 @@ ms.date: 01/20/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ---
 # Send custom context during live chat
 

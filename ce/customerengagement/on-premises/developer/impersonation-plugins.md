@@ -14,7 +14,6 @@ ms.assetid: 857bedcc-c2f6-4747-8f89-93388c9ea19f
 caps.latest.revision: 30
 author: phecke
 ms.author: pehecke
-manager: kvivek
 search.audienceType: 
   - developer
 

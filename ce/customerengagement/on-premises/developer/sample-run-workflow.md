@@ -14,7 +14,6 @@ ms.assetid: c32a634c-3e01-42cd-b3ed-d1a89586b1cc
 caps.latest.revision: 22
 author: JimDaly
 ms.author: jdaly
-manager: kvivek
 search.audienceType:
   - developer
 ---
@@ -33,7 +32,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -41,7 +40,7 @@ The sample demonstrates how to programmatically execute a workflow using <xref:M
 
 ## Example
 
-[ExecuteWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/ExecuteWorkflow.cs)
+[ExecuteWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/ExecuteWorkflow.cs)
 
 ### See also
 

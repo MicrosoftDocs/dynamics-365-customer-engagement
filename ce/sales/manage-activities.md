@@ -1,11 +1,13 @@
 ---
-title: "Track and manage activities (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use activities in Dynamics 365 to track of all your customer communications."
-ms.date: 10/25/2021
+title: Track and manage activities
+description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
+ms.date: 02/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
+ms.custom: 
+  - ai-gen-docs
+  - ai-gen-desc
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -176,6 +178,5 @@ Here are some suggestions about how to use activities to your organization's bes
 ### See also
 
 [Work with activities in the Kanban view](activity-kanban-view.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,11 +1,10 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 11/04/2022
+ms.date: 06/30/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -32,6 +31,7 @@ The following table lists the region availability of analytics and insights.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Copilot<sup>**1**</sup> | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
@@ -51,6 +51,8 @@ The following table lists the region availability of analytics and insights.
 ✔: Available  
 ✖: Not available
 
+<sup>**1**</sup> The one-click response generation option with Copilot is available in North America, Europe, and United Kingdom only.
+
 ## Language support for AI-based analytics and insights in Customer Service
 
 The following features support all languages that the product supports.
@@ -66,6 +68,7 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Copilot | ✔ | ✖ | ✖ |✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
@@ -76,7 +79,6 @@ The following table lists the language availability of the other Customer Servic
 
 ✔ : Available  
 ✖ : Not available
-
 
 ## Service limits for analytics and insights
 
@@ -96,22 +98,23 @@ The following table lists the built-in limits for the embedded version of insigh
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase additional capacity in a manner that's minimally disruptive.
+AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase more capacity in a manner that's minimally disruptive.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
 ## Microsoft Power Platform capacity impact
 
-Enabling the insights feature will affect Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
+Enabling the insights feature affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
 
 ### See also
 
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
-[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)<br> 
-[Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)<br>
-[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)<br>
-[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)<br>
-[Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)<br>
-[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
+[Copilot data movement across geographies](copilot-data-movement.md)  
+[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)  
+[Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
+[Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  
+[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)  
 
 

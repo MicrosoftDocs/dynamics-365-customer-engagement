@@ -19,14 +19,10 @@ ms.assetid: 413db37c-1f03-4fc0-aaf1-b13c12407c6c
 caps.latest.revision: 55
 author: mduelae
 ms.author: mkaur
-manager: kvivek
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Outlook
 ---
 # Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange
 [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] uses online synchronization filters to determine which records to synchronize between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] (using [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]), or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters. You use the same set of filters (accessed through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]) whether you’re synchronizing through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)].  

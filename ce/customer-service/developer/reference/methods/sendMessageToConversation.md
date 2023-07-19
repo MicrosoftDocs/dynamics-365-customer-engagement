@@ -3,9 +3,8 @@ title: "sendMessageToConversation (Omnichannel JavaScript API reference) | Micro
 description: "Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 10/03/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ms.reviewer: nenellim
 ---
 # sendMessageToConversation
@@ -20,15 +19,17 @@ Use this method to send messages to a conversation.
 
 ## Syntax
 
-`Microsoft.Omnichannel.sendMessageToConversation(message, toSendBox, liveWorkItemId);`
+`Microsoft.Omnichannel.sendMessageToConversation(message, toSendBox, conversationId);`
 
 ## Parameters
 
 | Parameter         | Type    | Description |
 | ----------------- | ------- | ----------- |
 | message           | String or [MessageObject](message-object.md)   | Indicates the message to be sent to a conversation. | 
-| toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to the conversation. |
-| liveWorkItemId    | String  | Unique identifier of the conversation to which the message is to be sent. |
+| `*`toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to the conversation. Without providing this parameter, the message will be sent to sendbox by default. |
+| `*`conversationId    | String  | Unique identifier of the conversation to which the message is to be sent. Also reffered to as liveworkitemId. Without providing this parameter, the message will send to the focused conversation by default. |
+
+`*` Indicates optional parameter.
 
 ## Return value
 
@@ -37,7 +38,7 @@ Returns a resolved or rejected promise based on the outcome of the operation.
 ## Example
 
 ```javascript
-// Sending message directly to the chat of conversation with provided liveWorkItemId
+// Sending message directly to the chat of conversation with provided conversationId
 Microsoft.Omnichannel.sendMessageToConversation("Test message",  false, "00000000-0000-0000-0000-000000000000");
 ```
 

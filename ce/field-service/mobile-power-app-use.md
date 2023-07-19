@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: josephshum-msft
 ms.author: jshum
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 
@@ -229,6 +226,13 @@ The following fields are already filled in based on the current work order:
 - Transaction Currency ID
 
 Once the technician saves the work order, it's uploaded and available to be booked by the dispatcher.
+
+## View work order and knowledge articles on the mobile app
+
+Technicians find the knowledge articles on work orders in the Field Service mobile app.  Knowledge articles are available while the device has internet connectivity. They aren't available while in the [offline mode](mobile-power-app-system-offline.md).
+
+> [!div class="mx-imgBorder"]
+> ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
 
 ## Home + settings
 

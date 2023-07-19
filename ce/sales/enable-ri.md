@@ -5,7 +5,6 @@ ms.date: 08/19/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: shujoshi
 ---
 # Enable relationship intelligence  
 
@@ -20,7 +19,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 ## Prerequisite
 
-- Ensure that advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- Ensure that advanced Sales Insights features are enabled. To learn more, [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
 ## Enable relationship intelligence
 

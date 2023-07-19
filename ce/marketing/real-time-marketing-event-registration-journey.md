@@ -1,20 +1,16 @@
 ---
 title: "Boost event engagement with real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to boost event engagement with real-time journeys in Dynamics 365 Marketing."
-ms.date: 12/21/2022
+ms.date: 03/21/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Boost event engagement with real-time journeys
@@ -34,6 +30,11 @@ This article explains how to use Dynamics 365 Marketing real-time journeys to fa
 - Sends email reminders seven days and one day before the event.
 - Sends a text message or email reminder one hour before the event.
 - And, if the journey participant attended the event, sends a thank you email. If the journey participant didn't attend the event, sends a “we missed you” email.
+
+The complete journey will look like this (select the image to expand it):
+
+> [!div class="mx-imgBorder"]
+> [ ![Complete event engagement journey](media/event-engagement-complete-journey-small.png) ](media/event-engagement-complete-journey.png#lightbox)
 
 To create this journey, you need to first make sure that you have some prerequisite ingredients ready. Let’s get to it!
 
@@ -140,3 +141,5 @@ Real-time marketing triggers provide a straightforward solution if a journey par
 
 > [!div class="mx-imgBorder"]
 > ![registration canceled](media/event-engagement-create-canceled.png "registration canceled")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

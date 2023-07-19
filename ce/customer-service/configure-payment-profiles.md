@@ -5,7 +5,6 @@ ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
 ---
 
 # Configure payment profiles
@@ -75,7 +74,7 @@ An Apple Pay type rich message may be associated to more than one payment profil
 |-----------|---------------|
 | **Country code**: This is the two-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
 | **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents]() <br><br> - Adaptive card styling isn't supported. |
-| **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries may be impacted: Saudi Arabia and China. | 
+| **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
 
 ### See also

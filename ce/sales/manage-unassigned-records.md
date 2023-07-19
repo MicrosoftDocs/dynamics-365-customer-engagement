@@ -5,7 +5,6 @@ ms.date: 11/11/2022
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # View and manage unassigned records
@@ -21,7 +20,7 @@ Monitoring of unassigned records allows you to view the lead or opportunity reco
 
 ## View unassigned records
 
-You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by creating an assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).
+You can view the list of records that aren't assigned to sellers and assign them to sellers either manually or by creating an assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#create-and-activate-an-assignment-rule).
 
 The records aren't assigned automatically because of one of the following reasons:
 
@@ -70,10 +69,10 @@ When you open the **Assignment rules** home page, by default the lists of rules 
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
 
-    The **Assignment due in** column displays the number of hours left for the record to be assigned to a seller or a team. If the record isn't assigned to any seller or team within the timeframe, the record is marked as overdue. You must assign these records manually or schedule a reassignment run. The time limit is configured through the **Consider seller work schedule** option while configuring the distribution of records in assignment rules. To understand the **Consider seller work schedule** option, see step 8 in [To create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).  
+    The **Assignment due in** column displays the number of hours left for the record to be assigned to a seller or a team. If the record isn't assigned to any seller or team within the timeframe, the record is marked as overdue. You must assign these records manually or schedule a reassignment run. The time limit is configured through the **Consider seller work schedule** option while configuring the distribution of records in assignment rules. To understand the **Consider seller work schedule** option, see step 8 in [To create and activate an assignment rule](create-and-activate-assignment-rule.md#create-and-activate-an-assignment-rule).  
     When the the **Consider seller work schedule** option isn't selected for the rule, the dash (-) icon is displayed corresponding to the records.  
      
-    The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#to-create-and-activate-an-assignment-rule).
+    The **Status Reason** column displays why the record isn't assigned to a seller. By analyzing the reason, you can take appropriate action by assigning these leads to sellers, creating an assignment rule, or by adding conditions to existing assignment rule. More information: [Create and activate an assignment rule](create-and-activate-assignment-rule.md#create-and-activate-an-assignment-rule).
 
 ## Run reassignment of unassigned records
 

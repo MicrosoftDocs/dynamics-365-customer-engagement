@@ -3,9 +3,8 @@ title: "initializeNewConversation (Omnichannel for Customer Service JavaScript A
 description: "Includes reference information about initializeNewConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/12/2020
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+author: gandhamm
+ms.author: mgandham
 ---
 
 # initializeNewConversation
@@ -134,7 +133,7 @@ The `c1Language` parameter in resolved JavaScript object represents a Locale ID 
 |`"1058"`|Ukrainian|
 |`"1066"`|Vietnamese|
 |`"2052"`|Chinese - China|  
-|`"3076"`|Chinese - Hong Kong|
+|`"3076"`|Chinese - Hong Kong SAR|
 ||
 
 **Sample expected response**

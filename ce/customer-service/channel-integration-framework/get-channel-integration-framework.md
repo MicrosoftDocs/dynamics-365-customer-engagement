@@ -1,10 +1,9 @@
 ---
 title: "Get Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 1.0."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 01/21/2022
+author: gandhamm
+ms.author: mgandham
+ms.date: 07/06/2023
 ms.topic: get-started-article
 ms.custom: 
   - "dyn365-a11y"
@@ -15,7 +14,9 @@ ms.custom:
 
 Dynamics 365 Channel Integration Framework is an application (solution) available in Microsoft AppSource.
 
-You can get the solution from within Dynamics 365 or directly from Microsoft AppSource. Download link for Dynamics 365 Channel Integration Framework solution: [Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)
+You can get the solution from within Dynamics 365 or directly from Microsoft AppSource. Download link for Dynamics 365 Channel Integration Framework solution: [Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102).
+
+Updates to the solution are pushed to all customers automatically.
 
 ## Prerequisites
 
@@ -25,6 +26,8 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 
 [!INCLUDE[token-get-channel-integration-framework](shared/token-get-channel-integration-framework.md)]
 
+
+## Next step
 
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)

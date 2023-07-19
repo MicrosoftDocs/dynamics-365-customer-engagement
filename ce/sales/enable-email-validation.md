@@ -1,18 +1,19 @@
 ---
 title: Enable email validation (preview)
-description: Enable lead email validation in Microsoft Dynamics 365 Sales to help your sellers keep their leads clean.
-ms.date: 10/12/2022
-ms.topic: article
+description: Enable email validation for leads and contacts in Microsoft Dynamics 365 Sales to help your sellers keep their customer email addresses clean.
+ms.date: 07/07/2023
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template 
 ---
 
 # Enable email validation (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead records. You'll reduce email bounce rates, improve engagement, and get a better return on your sellers' time.
+Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You'll reduce email bounce rates, improve engagement, and get a better return on your sellers' time. 
 
 ## License and role requirements
 
@@ -44,7 +45,7 @@ Email validation is available in the following regions:
 
 ## What is email validation?
 
-Email validation analyzes the primary email address in lead records to identify the ones that can't receive email. You must enable the feature. It's turned off by default.
+Email validation analyzes the primary email address in lead and contact records to identify the ones that can't receive email. You must enable the feature. It's turned off by default. 
 
 Email address validation looks for the following issues:
 
@@ -56,28 +57,39 @@ Email address validation looks for the following issues:
 
 Sellers can view invalid email addresses on record forms, work list items, and the **Up next** widget in sales accelerator. More information: [Work with invalid email addresses](work-invalid-email-addresses.md)
 
+## Difference between Dynamics 365 Sales and Power Apps 
+
+The email validation feature in Dynamics 365 Sales and Power Apps works on the same principles. However, there are some differences as listed below: 
+
+| Scenario | Dynamics 365 Sales | Power Apps|
+|------|--------------------|-----------|
+| **Validation** | The validation process runs dynamically and targets only the primary email address in lead and contact records.<br>The feedback is displayed each time the form is loaded.<br> More information: [View invalid email addresses](work-invalid-email-addresses.md#view-invalid-email-addresses) | The validation process dynamically runs on all email address fields, providing immediate feedback. <br>Also, validations are not performed on addresses that are bulk imported. |
+| **Actions** | Users can mark the invalid email addresses as valid.<br> More information: [Send an email to an invalid address](work-invalid-email-addresses.md#send-an-email-to-an-invalid-address) | Users can't mark the invalid email addresses as valid. |
+| **Both features enabled in an organization** | Only the primary email addresses of leads and contacts are validated according to the Dynamics 365 Sales implementation. | All other email addresses are validated based on the Power Apps implementation. |
+
+>[!NOTE]
+>To know more about the email validation feature in Power Apps, see [Email address validation for email columns](/power-apps/maker/data-platform/data-validation-email-column).        
+
 ## Limitations of email validation
 
-- Email validation works only for lead records.
-- It's not available in custom apps.
-- It checks only the primary email address in a lead record.
-- Leads that are older than 180 days aren't validated.
+- Email validation works only for lead and contact records.
+- It checks only the primary email address in lead and contact records.
+- Leads and contacts that are older than 180 days aren't validated.
 
 ## Enable email address validation
 
-1. In the Sales Hub site map, select **Change area** > **App settings**.
-1. Select **Data improvement** > **Email validation**.
+1. In the Sales Hub site map, select **Change area** > **App settings** > **Data improvement** > **Email validation**.
 
     :::image type="content" source="media/lead-enable-email-validation-page.png" alt-text="Screenshot of the email validation page.":::
 
-1. Turn on email validation.
+1. Turn on email validation for leads and contacts, according to your requirements.
 
-    :::image type="content" source="media/lead-email-feature-enabled.png" alt-text="Screenshot illustrating the email validation feature is enabled.":::
+Email validation runs immediately on the primary email address in lead and contact records. A red envelope icon indicates an invalid email address. 
 
-Email validation runs immediately on the primary email address in lead records that are less than 180 days old. Subsequently, the validation runs once in every 6 hours. A red envelope icon indicates an invalid email address. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Work with invalid email addresses](work-invalid-email-addresses.md)
+[Work with invalid email addresses](work-invalid-email-addresses.md)   
+[Enable email validation for custom forms](enable-email-validation-custom-forms.md)  

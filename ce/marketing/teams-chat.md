@@ -7,14 +7,10 @@ ms.custom:
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Collaborate using built-in Microsoft Teams chat
@@ -152,3 +148,5 @@ Your administrator can extend the list of supported record types if needed. To e
 ### Set the default name for connected chats
 
 To set the chat title to be used as the record title by default, enable the **Auto-name chats** toggle in the **Lead settings** area and then select **Save**. Users can later change the title if they want.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

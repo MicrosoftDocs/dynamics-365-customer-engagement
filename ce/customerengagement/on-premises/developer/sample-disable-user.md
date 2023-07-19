@@ -14,7 +14,6 @@ ms.assetid: 082fc88f-a951-41c2-85ae-4b5e69e9917c
 caps.latest.revision: 15
 author: KumarVivek
 ms.author: kvivek
-manager: KumarVivek
 search.audienceType:
   - developer
 ---
@@ -35,7 +34,7 @@ Before building this sample, open the solution in Visual Studio and select **Vie
 
 ## Requirements
 
-See [How to run samples](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/README.md) for information about how to run this sample.
+See [How to run samples](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/README.md) for information about how to run this sample.
 
 ## Demonstrates
 
@@ -45,8 +44,8 @@ To view the summary of the specified system user in Customer Engagement, navigat
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleProgram.cs)  
-[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleProgram.cs)  
+[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)
 
 ### See also
 

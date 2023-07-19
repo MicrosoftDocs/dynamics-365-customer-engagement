@@ -14,7 +14,6 @@ applies_to:
 ms.assetid: a3e6a322-6hf7-3hc9-aaea-bff7675d1378
 caps.latest.revision: 35
 ms.author: matp
-manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer

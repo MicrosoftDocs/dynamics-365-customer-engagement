@@ -14,7 +14,6 @@ ms.assetid: 48d19bce-bbe6-4002-bc62-794d8460e55f
 caps.latest.revision: 15
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 # Uninstall or repair a Dynamics 365 Language Pack
 

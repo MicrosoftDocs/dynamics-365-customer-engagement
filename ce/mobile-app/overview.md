@@ -2,7 +2,7 @@
 title: "Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: Overview information for Dynamics 365 for phones and tablets app
-ms.date: 2/12/2021
+ms.date: 6/28/2023
 ms.reviewer: 
 
 ms.suite: 
@@ -13,17 +13,16 @@ ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: sericks
 author: sericks007
-manager: tapanm-MSFT
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Overview of Dynamics 365 for phones and tablets 
+
+> [!Important]
+> Effective January 2024, Dynamics 365 for phones and tablets (iOS and Android) will be [deprecated](/power-platform/important-changes-coming#dynamics-365-for-phones-and-tablets-will-be-deprecated-for-online-users-and-replaced-by-power-apps) for online users. Online users must [migrate to the Power Apps mobile app](migration.md). The Power Apps mobile app provides updated capabilities, a modern user experience, and fast load times.
 
 Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. Download the Dynamics 365 mobile app and sign-in to run the same apps that you use in a web browser on your mobile device.
 
@@ -37,10 +36,6 @@ There are separate mobile apps for:
 - Dynamics 365 Field Service: [Field Service mobile app](../field-service/field-service-mobile-app-user-guide.md)
 - Finance and Operations applications: [Finance and Operations mobile app](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
 - Dynamics 365 Customer Engagement (on-premises): [Dynamics 365 for phones and tablets app for Dynamics 365 Customer Engagement (on-premises) apps](../customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem.md)
-
-> [!NOTE]
-> Users on the Dynamics 365 phones and tablets app can now migrate the Power Apps mobile app: [Migrate from Dynamics 365 phones and tablets app to the Power Apps mobile app](./migration.md).
-
 
 
 ## Related topics

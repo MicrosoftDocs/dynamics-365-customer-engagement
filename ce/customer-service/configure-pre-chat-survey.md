@@ -3,7 +3,6 @@ title: "Configure a pre-conversation survey | MicrosoftDocs"
 description: "Perform the following steps to configure a pre-conversation survey in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 ms.date: 04/04/2022
 ms.topic: article
 ---

@@ -1,29 +1,19 @@
 ---
-title: "Preview: Sync data tables into the segment builder (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to sync data tables into the segment builder in the real-time marketing area of Dynamics 365 Marketing."
+title: Sync data tables into the segment builder
+description: Learn how to sync data tables into the segment builder in the real-time marketing area of Dynamics 365 Marketing.
 ms.date: 11/03/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
-# Preview: Sync data tables into the segment builder
-
-> [!IMPORTANT]
->
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Sync data tables into the segment builder
 
 The real-time marketing segment builder allows you to sync data tables without relying on the help of administrators. This saves you time when setting up segments, letting you directly add data tables to Dynamics 365 Marketing without using the Dynamics 365 admin center.
 
@@ -41,3 +31,5 @@ After you add the new table, you can use the attributes from Fax immediately in 
 
 > [!NOTE]
 > It can take up to 24 hours for a data table to be synchronized into the system. At this time, the segment member size estimate and preview features are not available. You cannot view the segment membership until the table is synchronized into the system.  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

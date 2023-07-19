@@ -1,14 +1,15 @@
 ---
-title: "Set up a multilingual bot in Power Virtual Agents | MicrosoftDocs"
-description: "Use this article to learn how to set up a multilingual bot in Power Virtual Agents to use in Omnichannel for Customer Service."
-ms.date: 08/24/2022
-ms.topic: article
+title: Set up a multilingual bot in Power Virtual Agents
+description: Use this article to learn how to set up a multilingual bot in Power Virtual Agents to use in Omnichannel for Customer Service.
+ms.date: 05/22/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
-# Set up a multilingual bot in Power Virtual Agents for contact center
+# Set up a multilingual bot in Power Virtual Agents
 
 You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up bots as the first contact who can handle such requests.
 
@@ -104,7 +105,7 @@ For example, you can create a bot with the following details:
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
       > [!NOTE]
-      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes)
+      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
 
    h. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
@@ -122,7 +123,7 @@ For example, you can create a bot with the following details:
 
 1. In Power Virtual Agents, refresh **Topics**. You'll see the topic listed.
 
-2. Select **Publish**. 
+1. Select **Publish**.
 
 ## Configure the greeting topic in Power Virtual Agents
 
@@ -195,7 +196,6 @@ For example, ensure the following settings:
 1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the bot routes the call to an agent who can speak with you in the language that you've selected.
 
 ### See also
-
 
 [Set up a multilingual contact center](voice-channel-multi-language-contact-center.md)  
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  

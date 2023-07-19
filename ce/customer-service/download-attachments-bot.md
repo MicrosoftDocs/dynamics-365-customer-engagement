@@ -1,51 +1,56 @@
 ---
-title: "Download file attachments from Azure bot| Microsoft Docs"
-description: "This article includes reference information about downloading attachments from your Azure bot."
-ms.date: 04/29/2022
-ms.topic: reference
+title: Download file attachments from an Azure bot
+description: Learn how to download attachments from an Azure bot in the Microsoft Teams channel.
+ms.date: 03/09/2023
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-manager: shujoshi
+ms.custom: bap-template
 ---
-# Download file attachments from Azure bot
+# Download file attachments from an Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE [cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Follow these steps to download attachments from your Azure bot via the Microsoft Teams channel.
+Follow these steps to download attachments from an Azure bot in the Microsoft Teams channel.
 
-1. Get the token for your bot by providing your bot's Microsoft App ID and client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
+1. [Get the token for your bot](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true) using your bot's Microsoft App ID and client secret.
 
-2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
+1. Get the `attachmentId` from the attachment URL.
 
-3. Use the `attachmentId` in the `RequestUri` variable. Then, call the `GET` request by using the `HttpRequestMessage` method, as shown in the following sample code.
+   For example, if the URL is `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/`, then the `attachmentId` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`.
 
-```csharp
-string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
-var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri);
- 
-var authorization = new AuthenticationHeaderValue("bearer", <add the botToken here>);
-var requestHeaders = new Dictionary<string, string>()
-  {
-     { "Authorization", authorization.ToString() }
-  };
+1. Insert the `attachmentId` in a `RequestUri` variable and then use  `RequestUri` in a `GET` request, like this:
 
-foreach (var header in requestHeaders)
-  {
-      httpRequest.Headers.Add(header.Key, header.Value);
-  }
-
-HttpResponseMessage response = await client.SendAsync(httpRequest);
-```
+    ```csharp
+    string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
+    var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri);
+     
+    var authorization = new AuthenticationHeaderValue("bearer", <add the botToken here>);
+    var requestHeaders = new Dictionary<string, string>()
+      {
+         { "Authorization", authorization.ToString() }
+      };
+    
+    foreach (var header in requestHeaders)
+      {
+          httpRequest.Headers.Add(header.Key, header.Value);
+      }
+    
+    HttpResponseMessage response = await client.SendAsync(httpRequest);
+    ```
 
 ## Manage file attachments during migration
 
-This section describes how you must manage file attachments received by your Azure bot when you migrate your omnichannel implementations from the Microsoft Teams channel to the new messaging platform. 
+> [!NOTE]
+> The information in this section is applicable to Government Community Cloud (GCC) only.
 
-Before you begin, let's quickly learn about file attachment formats in the Teams bot service channel and the Omnichannel bot service channel.
+This section describes how to manage file attachments when you migrate an omnichannel implementation from the Microsoft Teams channel to the Omnichannel bot service messaging platform.
+
+First, let's quickly review file attachment formats in the Teams bot service channel and the Omnichannel bot service channel.
 
 ### File attachment formats
 
-When file attachments are sent from Omnichannel for Customer Service to an Azure bot on the Teams bot service channel, the attachment format is passed in the `Activity.Attachments` property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”.
+When file attachments are sent from Omnichannel for Customer Service to an Azure bot on the Teams bot service channel, the attachment format is passed in the `Activity.Attachments` property. The attachment's content type is "application/vnd.microsoft.teams.file.download.info".
 
 **Teams bot service channel**
 
@@ -105,9 +110,10 @@ However, when file attachments are sent from Omnichannel for Customer Service to
    }
 }
 ```
+
 ### How to manage file attachments in your Azure bot code
 
-In the new channel, the attachment information is not passed in the `Activity.Attachments` field, as is done on the Teams bot service channel. So, to ensure smooth migration between the two chat channels, the Teams channel-specific logic should be retained in the bot code together with the Omnichannel bot service channel-specific logic, as shown in the following sample code.
+Attachment information is passed differently in the Omnichannel bot service channel and the Teams bot service channel. To ensure smooth migration between the two chat channels, keep both the Teams channel-specific logic and the Omnichannel bot service channel-specific logic in the bot code, as shown in the following example.
 
 ```csharp
 // 1. Retrieve Attachment ID from ChannelData["amsReferences"]
@@ -146,7 +152,7 @@ else if (turnContext.Activity.Attachments != null)
 
     if (teamsAttachment != null)
     {
-        // 1. Retrieve Teams Attachment ID from Content[“uniqueId”] field
+        // 1. Retrieve Teams Attachment ID from Content["uniqueId"] field
         string attachmentId = (teamsAttachment.Content as JObject).GetValue("uniqueId").ToString();
 
         // 2. Build HTTP request for specified attachment ID.
@@ -171,4 +177,4 @@ else if (turnContext.Activity.Attachments != null)
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Migration changes for new omnichannel messaging platform](migrate-acs.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

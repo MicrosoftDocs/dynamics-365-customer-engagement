@@ -7,7 +7,6 @@ ms.custom:
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shujoshi
 ---
 
 # msdyn_ConnectSequence Action

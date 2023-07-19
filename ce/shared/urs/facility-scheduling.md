@@ -218,7 +218,7 @@ Scheduling the requirement group creates a booking for the facility resource and
 > ![Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the doctor resource.](../../field-service/media/scheduling-facility-schedule-board-2-resources.png)
 
 > [!Note]
-> As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed he/she will be at the facility at the required time.
+> As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed they will be at the facility at the required time.
 
 ## Scenario 4: Schedule a facility with 5 specific rooms
 

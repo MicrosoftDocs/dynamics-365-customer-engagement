@@ -14,14 +14,13 @@ ms.assetid: f82fe3eb-1867-4edb-869d-58081f38d653
 caps.latest.revision: 23
 author: JimDaly
 ms.author: nabuthuk
-manager: kvivek
 search.audienceType: 
   - developer
 ---
 
 # Sample: Convert a fax to a task
 
-This sample shows how to convert a **Fax** to a **Task**. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ConvertFaxToTask).
+This sample shows how to convert a **Fax** to a **Task**. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ConvertFaxToTask).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

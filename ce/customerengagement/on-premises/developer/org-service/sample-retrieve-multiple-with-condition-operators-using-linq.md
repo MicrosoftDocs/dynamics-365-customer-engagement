@@ -18,7 +18,6 @@ ms.assetid: 38c7ffda-ac37-49d2-a627-b15384a8246b
 caps.latest.revision: 20
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
 search.audienceType:
   - developer
 ---
@@ -43,7 +42,7 @@ This sample shows how to retrieve multiple condition operators with [!INCLUDE[pn
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs)
 
 ### See also
 

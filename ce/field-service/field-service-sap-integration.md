@@ -9,9 +9,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: jacoh
 author: jasonccohen
-search.app: 
-  - D365CE
-  - D365FS
 ---
 
 # Dynamics 365 Field Service and SAP integration

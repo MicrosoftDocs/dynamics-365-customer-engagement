@@ -1,18 +1,14 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 11/14/2022
+ms.date: 06/12/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ms.custom: 
   - dyn365-customerservice
 searchScope:
@@ -160,6 +156,8 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
    - **Wait for a specific amount of time after the connected case has been resolved**: Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created until the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case won't be created until one hour lapses after the existing printer issue case is resolved.
+    
+       The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.
 
       If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
 
@@ -210,7 +208,7 @@ The mails from known senders only will be processed.
 
 The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
 
-The option to create the contact is based on the email sender's permission. If the email sender doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
+The option to create the contact is based on the email recipient's permission. If the email recipient doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
 
 To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
 
@@ -236,7 +234,7 @@ To create a contact for unknown senders of mail, configure the following options
 
 ### Create contacts for unknown senders using rule owner context
 
-By default, a contact for unknown email sender is created with the email owner context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
+By default, a contact for unknown email sender is created with the email recipient's context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
@@ -259,12 +257,13 @@ By default, a contact for unknown email sender is created with the email owner c
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
-## Use activity monitor to review and track rules
+## Manage activity monitor to review and track rules
 
-You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
+You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures all the states. You can customize the events that you want to monitor by deselecting the monitor options in the application.
 
-> [!IMPORTANT]
-> The activity monitor tracks the rules only till they are evaluated in Customer Service Hub before the rule is run in Power Automate.
+> [!NOTE]
+> - Activity monitor is supported only with online environments, such as cloud applications, and not with on-premises environments.
+> - The activity monitor tracks the rules only until they're evaluated in Customer Service Hub before the rule is run in Power Automate.
 
 > ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
 
@@ -292,13 +291,10 @@ Perform the following steps to use the activity monitor for the rules:
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
-4. Perform the following steps to turn on or off monitoring for the states:
-   1. Select **Monitor options** on the command bar. The **Monitor options** dialog appears.
-   2. Select any or all the following states:
+4. If you don't want to monitor any of the following states, you can deselect the state on the **Monitor options** dialog.
       - Ready for Power Automate / workflow
       - Failed
       - Skipped
-
 
 ### Troubleshoot cases
 

@@ -1,20 +1,16 @@
 ---
-title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 05/04/2022
+title: Create real-time marketing emails
+description: Learn how to create real-time marketing emails in Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
-manager: shellyha
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365Mktg
 ---
 
 # Create real-time marketing emails
@@ -43,15 +39,6 @@ The real-time marketing email editor has a new assist edit control to bind perso
 > [!div class="mx-imgBorder"]
 > ![Email editor screenshot.](media/real-time-marketing-email-editor.png "Email editor screenshot")
 
-### AI-driven image suggestions
-
-The new editor analyzes the text content of your email and, using AI, suggests the most relevant images from the new asset library. The images are tagged automatically, saving you time.
-
-Learn more about the [Asset library](real-time-marketing-asset-library.md)
-
-> [!div class="mx-imgBorder"]
-> ![Image suggestions screenshot.](media/real-time-marketing-image-suggestions.png "Image suggestions screenshot")
-
 ### Link to documents and videos stored in the asset library
 
 Add feature-rich links to emails by directly linking to documents stored in the asset library. To link to a document or video:
@@ -75,20 +62,39 @@ The **Link to** dropdown allows the following options for Teams check-ins and ca
 
 - **Teams check-in**: Select a specific Teams event or session that your button or image should link to.
 - **Add to Calendar**: Link to an iCalendar file. Choose the information you want to include in the iCalendar file using the **What should be added to calendar** dropdown. The options include:
-    - **Only the event**: The iCalendar file will contain only the event the contact has registered for.
-    - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
-    - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.
+    - **Only the event**: The iCalendar file contains only the event the contact has registered for.
+    - **Event and sessions registered**: The file contains information for the event and the sessions the contact has registered for.
+    - **Only sessions registered**: The file contains only the event sessions the contact has registered for.
 
-### Link to QR codes
+### Select a compliance profile, purpose, and topic for the message
 
-You can increase customer engagement and promote your business using QR codes for events or coupons. Using QR codes, your customers can access your marketing event website with a single scan. To use a QR code, the recipient scans the code with a mobile device that is equipped with a camera and a QR code reader application. Once the QR code is scanned, it's translated into actionable information such as a webpage or event check-in.
+Within the compliance section of the email settings, you need to choose a compliance profile and purpose for the email. This ensures that consent checks are performed as required by the compliance profile and purpose's enforcement model. Optionally, you can choose a topic for the email, which allows you to collect more granular consent data to enable your customers to receive exactly the communications they want. Learn more: Learn more: [Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 
-To add a QR code that links to your event website:
+## Preview and test send your email
 
-1. Add a **QR code** element to a marketing email.
-1. Resize the QR code if needed.
-1. In the QR code editing pane, select the **Link to** dropdown and then **Event**.
-1. Select your event in the event field.
+Before sending emails to a large number of recipients, it's important to test the email with sample audience members to ensure that the content, layout, and design are displayed correctly. This can be easily accomplished using the **Preview and Test** tab in the email designer tool. In the **Preview and Test** tab, you can select a sample audience member's (for example, a contact or lead) record trigger data or other personalization data and preview the exact content that will be delivered to that recipient. The preview includes dynamically generated content based on the selected audience member data, providing a realistic preview of what the recipient will see.
+
+To see preview for a specific audience member:
+
+1. In the email designer, go to the **Preview and test** tab and select **Edit sample data**.
+1. In the **Audience data** side pane, select a sample audience member.
+1. To verify that default values for all dynamic text are set up correctly, don't select any audience member record. The preview will show the default values.
 
 > [!div class="mx-imgBorder"]
-> ![add QR code](media/real-time-marketing-add-QR-code.png "add QR code")
+> ![better preview and test](media/real-time-marketing-better-preview-and-test.png "better preview and test")
+
+To see a preview of personalized content sourced from trigger, follow the steps above and select or enter the data for the trigger. Below is an example where the email will be sent when the business trigger “Incident is created” is raised and will include the incident number and title (data that comes from the trigger).
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of incident creation](media/real-time-marketing-incident-creation.png "Screenshot of incident creation")
+
+> [!NOTE]
+> For dynamic text that is not bound to the audience, you can enter sample values to see how the content will look. You can also override the actual data that comes from the selected audience record or trigger. To override the data, select **Enter manually** for the chosen item and provide your own value. This is a quick and easy way to check for edge cases.
+
+You can send the preview email to yourself or another test email address to verify how the received email renders on different devices and different email apps. Preview emails automatically include “[Test]” in the subject header.
+
+### See also
+
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

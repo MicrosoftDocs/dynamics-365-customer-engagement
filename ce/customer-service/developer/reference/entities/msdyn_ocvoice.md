@@ -5,10 +5,6 @@ ms.date: 11/01/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-manager: "shujoshi"
-search.app: 
-  - PowerApps
-  - D365CE
 ---
 # msdyn_ocvoice Entity Reference
 

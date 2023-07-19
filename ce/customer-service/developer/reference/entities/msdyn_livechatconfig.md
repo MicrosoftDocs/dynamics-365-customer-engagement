@@ -1,11 +1,10 @@
 ---
 title: "msdyn_livechatconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_livechatconfig entity."
-ms.date: 10/27/2022
+ms.date: 05/26/2023
 ms.topic: "reference"
-author: "mh-jaya"
-ms.author: v-jmh
-manager: "shujoshi"
+author: "gandhamm"
+ms.author: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -1860,7 +1859,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig"></a> msdyn_msdyn_authsettings_msdyn_livechatconfig
 
-See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_authenticationsettings#BKMK_msdyn_msdyn_authsettings_msdyn_livechatconfig) One-To-Many relationship.
+See msdyn_authenticationsettings Entity [msdyn_msdyn_authsettings_msdyn_livechatconfig](msdyn_authenticationsettings.md) One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_livechatconfig_liveworkstreamid
 
