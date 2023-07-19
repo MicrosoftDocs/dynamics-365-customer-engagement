@@ -14,9 +14,7 @@ ms.collection:
 
 [!INCLUDE [cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE [cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-In addition to built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram with Omnichannel for Customer Service. With the custom messaging channel capability, you can:
+Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram with Omnichannel for Customer Service. With the custom messaging channel capability, you can:
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.
@@ -62,7 +60,7 @@ In addition to built-in channels like chat and email, your organization can inte
 
 1. Select **Save and close**.
 
-1. [Configure callback information](#configure-callback-information)
+1. [Configure callback information](#configure-callback-information).
 
 ### Configure workstream and routing rules
 
@@ -101,7 +99,7 @@ In addition to built-in channels like chat and email, your organization can inte
 
 #### Create a workstream in Omnichannel Administration
 
-**To create a workstream for custom channel in Omnichannel Administration**
+[!INCLUDE [cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. Sign in to Dynamics 365, and go to the Omnichannel Administration app.
 
