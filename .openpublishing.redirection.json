@@ -25253,5 +25253,15 @@
       "redirect_url": "/dynamics365/marketing/real-time-marketing-email-text-consent",
       "redirect_document_id": "false"
     }
+    {
+      "source_path": "ce/marketing/transparency-note-overview.md",
+      "redirect_url": "/dynamics365/marketing/responsible-ai-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/transparency-note-content-ideas.md",
+      "redirect_url": "/dynamics365/marketing/faqs-content-ideas",
+      "redirect_document_id": "false"
+    }
   ]
 }
