@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/04/2023
+ms.date: 07/19/2023
 ms.custom: bap-template
 ---
 
@@ -89,6 +89,6 @@ These report copies can be edited and updated to suit your needs, and are provid
 You can choose to specify the same workspace for both historical and real-time analytics.
 
 ## See also
-[Dataverse entities for historical and real-time analytics](dataverse-entities.md#dataverse-entities-for-historical-and-real-time-analytics)  
+[Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics)  
 [Customize data models of historical and real-time analytics reports](model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Customize visual display](customize-reports.md#customize-visual-display)

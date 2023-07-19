@@ -1,19 +1,19 @@
 ---
-title: Dataverse entities for historical and real-time analytics 
+title: Dataverse entities used in historical and real-time analytics 
 description: Learn about the Dataverse entities used in historical and real-time analytics.
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection: 
-ms.date: 07/04/2023
+ms.date: 07/19/2023
 ms.custom: bap-template
 ---
 
-# Dataverse entities for historical and real-time analytics
+# Dataverse entities used in historical and real-time analytics
 
 The article describes the Dataverse entities used in historical and real-time analytics.
 
-## Entities in historical analytics
+## Entities used in historical analytics
 
 - msfp_question
 - msfp_questionresponse
@@ -55,7 +55,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_copilotinteraction
 - email
 
-## Entities in real-time analytics
+## Entities used in real-time analytics
 
 - queuemembership
 - queue
