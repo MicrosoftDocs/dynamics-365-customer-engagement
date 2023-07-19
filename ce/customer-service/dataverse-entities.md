@@ -76,7 +76,7 @@ The article describes the Dataverse entities used in historical and real-time an
 - bookableresource
 - bookableresourcecharacteristic
 - msdyn_ocliveworkitemcharacteristic
-- choiceLabel (new entity for optionset in real-time)
+- choiceLabel (new entity for option set in real-time)
 
 ## Next steps
 
