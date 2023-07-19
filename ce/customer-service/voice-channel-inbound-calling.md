@@ -3,7 +3,7 @@ title: "Set up inbound calling for the voice channel"
 description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/26/2022
+ms.date: 06/07/2023
 ms.topic: article
 
 ---
@@ -48,7 +48,9 @@ To configure the voice channel, you'll need to associate the workstream with a p
 2. On the **Phone number** page, select a number from the list, and select **Next**.
 
     > [!NOTE]
-    > Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.
+    >
+    > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](#acquire-a-phone-number) if you want to configure a new number.    
+    > - The voice channel supports anonymous inbound calls on those numbers only that are configured via Azure Communication Services direct routing.
 
 3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
 

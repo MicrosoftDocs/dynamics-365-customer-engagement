@@ -6,13 +6,13 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 05/03/2023 
+ms.date: 06/21/2023
 ms.custom: bap-template 
 ---
 
 # Manage enhanced Active Conversation settings
 
-The enhanced Active Conversation experience enables you to customize the **Active Conversation** form to display customer and case details that are relevant to your business. When you enable this option, the **Customer 360**, **Case details**, and **Recent cases** components are available on the **Active Conversation** form by default. You can customize these components further in Power Apps.
+The enhanced Active Conversation experience displays the customer and case details that are relevant to your business. When you enable the **Enhanced active conversation form** option, the **Customer 360**, **Case details**, and **Recent cases** components are available on the **Active Conversation** form by default. You can further customize these components in Power Apps.
 
 - **Customer details**: Use the **Customer 360** component in **Account** > **Account form for Conversation Customer Card** form or **Contact** > **Contact form for Conversation Customer Card** to customize the details displayed on **Customer details**.
 - **Case details**: Use the **Customer 360** component in **Case** > **Case for Customer Card** form to customize the details displayed on **Case details**. 
@@ -20,12 +20,30 @@ The enhanced Active Conversation experience enables you to customize the **Activ
 
  More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
 
-## Enable enhanced Active Conversation
+## Manage Active Conversation form settings
 
-1. In Customer Service admin center, go to **Customer Settings**.
-1. Select **Manage** for **Enhanced conversation form** in **Form Settings**.
-1. Set the **Enhanced Active conversation form** toggle to yes in **Enhanced conversation form**.
-2. Select **Configure** to further customize the enhanced Active Conversation form. More information: [Create and customize a model-driven app form](/power-apps/maker/model-driven-apps/create-and-edit-a-model-driven-form).
+To enable the enhanced Active Conversation form and customize the form, perform the following steps:
+
+1. In Customer Service admin center, go to **Workspaces**.
+1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
+1. Select the following options:
+    - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following feaatures are available as a part of the enhanced experience:
+      - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
+      - **Recent cases** card with color coded priority and status fields.
+      - The default form selector to switch between active and closed conversations is hidden.
+    - **Customise active conversation form** to display **Queue**, **Start time**, options to save and refresh on the **Active Conversation** form, and enable customizations in [Customizations supported by the Conversation form](supported-customizations.md#customizations-supported-by-the-conversation-form). Select **Power Apps** to further customize the form. If you're customizing the form in Power Apps, we recommend the following guidelines:
+       - Reduce the number of custom controls. Keep only the most frequently used controls on the default tab. The remaining data-driven controls should be distributed into secondary tabs to allow the default tab to load quickly. 
+       - Limit the amount of customizations using the form Onload event.
+       - Limit the amount of external data coming from Canvas apps for efficient and productive forms.
+       More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
+
+   > [!NOTE]
+   > If **Customise active conversation form** is enabled, then
+   > - the options that are available as a part of the customise active form experience aren't applicable if an agent initiates an outbound call to emergency services.
+   > - if an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
+
+
+    :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="media/enh-active-conv-config-max.png"::: 
 
 ## Display the form selector on Active Conversation form
 
@@ -37,7 +55,6 @@ By default, the enhanced **Active Conversation** form doesn't display the form s
 1. Save and publish your customizations.
      
     :::image type="content" source="media/powerapps-unhide-selector.png" alt-text="View the unhide selector" lightbox="media/powerapps-unhide-selector-mini.png"::: 
-
 
 ## Customize recent cases
 

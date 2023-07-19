@@ -5,8 +5,9 @@ ms.date: 05/12/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
 ms.custom: bap-template
+ms.collection:
 ---
 
 # Configure custom messaging channels

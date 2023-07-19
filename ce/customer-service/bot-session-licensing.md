@@ -4,8 +4,7 @@ description: "Use this article to learn about bot sessions and licensing in Omni
 ms.date: 11/18/2022
 author: neeranelli
 ms.author: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Bot sessions and licensing

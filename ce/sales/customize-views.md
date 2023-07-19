@@ -248,7 +248,6 @@ As you are working on your view, save it often to avoid losing any changes. 
     >To make a copy of your view, select **Save As** to save the current view with a different name.   
 
 ### Publish a system view 
-----------------------
 
 When you're finished creating or updating a view, you need to publish it so people in your organization can use it: 
 

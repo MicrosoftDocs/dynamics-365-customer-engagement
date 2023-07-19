@@ -1,16 +1,16 @@
 ---
-title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Overview of Dynamics 365 Customer Service"
-ms.date: 04/25/2023
+title: Welcome to Dynamics 365 Customer Service
+description: Overview of Dynamics 365 Customer Service.
+ms.date: 06/15/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
-# Overview of Dynamics 365 Customer Service
+# Welcome to Dynamics 365 Customer Service
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
@@ -18,7 +18,7 @@ Welcome to Dynamics 365 Customer Service! We're delighted to offer you a suite o
 
 The agent experience is the heart of Dynamics 365 Customer Service. The key to improving satisfaction in service delivery is enabling agents to take customer requests from any channel, handle multiple sessions at a time, interact with multiple apps without losing context, and enhance their workflow with productivity tools.  
 
-We offer several app experiences for you to choose from, depending on your support organization’s needs.
+We offer several app experiences for you to choose from, depending on your support organization's needs.
 
 Use Customer Service to:
 
@@ -118,11 +118,11 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
-## Accessibility and GDPR in the Customer Service Apps
+## Accessibility and privacy in the Customer Service Apps
 
 Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be effortlessly productive.
 
-For more details about app accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
+For more details about app accessibility and privacy compliance, see [Accessibility and privacy](user-guide-customer-service-hub.md#accessibility-and-privacy).
 
 ## Get Started with Customer Service
 

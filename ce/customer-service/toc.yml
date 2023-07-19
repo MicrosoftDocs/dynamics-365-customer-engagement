@@ -1,9 +1,35 @@
 - name: Dynamics 365 Customer Service documentation
   items: 
   - name: Dynamics 365 Customer Service documentation
-    href: landing-page.yml
-  - name: Introduction
+    href: index.yml
+  - name: Welcome to Dynamics 365 Customer Service
     href: overview.md
+  - name: Get started
+    items:
+    - name: Use Customer Service workspace
+      href: csw-overview.md
+    - name: Use Customer Service Team Member
+      href: customer-service-team-member.md
+    - name: Use Customer Service admin center
+      href: cs-admin-center.md
+    - name: Omnichannel admin center
+      href: oc-admin-center.md
+    - name: Customer Service Hub
+      href: customer-service-hub-user-guide-basics.md
+    - name: Configure Customer Service
+      href: configure-cs.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
+    - name: Omnichannel for Customer Service
+      items: 
+      - name: Omnichannel for Customer Service
+        href: introduction-omnichannel.md
+      - name: Demo data for Chat for Dynamics 365 Customer Service
+        href: chat-dynamics365-customer-service-demo-data.md
+      - name: Quickly configure a chat widget
+        href: configure-live-chat.md
+    - name: Get started with Customer Service
+      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: Release plans
     href: whats-new-customer-service.md
   - name: Sign up for a free Customer Service trial
@@ -49,7 +75,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: /dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/privacy/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -74,32 +100,6 @@
       href: try-channels.md
     - name: Provide consent to access data
       href: data-access-consent.md
-  - name: Get started
-    items:
-    - name: Use Customer Service workspace
-      href: csw-overview.md
-    - name: Use Customer Service Team Member
-      href: customer-service-team-member.md
-    - name: Use Customer Service admin center
-      href: cs-admin-center.md
-    - name: Omnichannel admin center
-      href: oc-admin-center.md
-    - name: Customer Service Hub
-      href: customer-service-hub-user-guide-basics.md
-    - name: Configure Customer Service
-      href: configure-cs.md
-    - name: Omnichannel Administration
-      href: omnichannel-administrator.md  
-    - name: Omnichannel for Customer Service
-      items: 
-      - name: Omnichannel for Customer Service
-        href: introduction-omnichannel.md
-      - name: Demo data for Chat for Dynamics 365 Customer Service
-        href: chat-dynamics365-customer-service-demo-data.md
-      - name: Quickly configure a chat widget
-        href: configure-live-chat.md
-    - name: Get started with Customer Service
-      href: /training/modules/get-started-with-dynamics-365-for-customer-service/
   - name: User management
     items: 
     - name: Overview of user management
@@ -282,6 +282,8 @@
       href: overview-cases.md
     - name: Administrator experience
       items: 
+      - name: Define status reason transitions for case management
+        href: define-status-reason-transitions-case-management.md
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
       - name: View similar case suggestions
@@ -614,6 +616,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Forward your Teams calls to digital contact center
+        href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
         href: voice-channel-voicemail.md
       - name: Configure direct callback
@@ -632,6 +636,8 @@
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
+      - name: Delete call recordings
+        href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
@@ -644,8 +650,10 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations, languages, and locale codes
+      - name: Supported cloud locations
         href: voice-channel-region-availability.md
+      - name: Supported languages and locale codes
+        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
@@ -902,8 +910,20 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
+    - name: Copilot in Customer Service
+      items:
+      - name: Enable Copilot in Customer Service
+        href: configure-copilot-features.md
+      - name: Configure copilot settings for custom case forms and custom apps
+        href: copilot-powerapps-settings.md
+      - name: Use copilot features
+        href: use-copilot-features.md
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md  
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md
     - name: Administrator experience
-      items: 
+      items:
       - name: Productivity pane
         href: productivity-pane.md
       - name: Enable productivity pane and smart assist
@@ -958,6 +978,8 @@
       href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
+      - name: Manage your bots
+        href: manage-your-bots.md
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
       - name: Configure Azure bots
@@ -1016,6 +1038,8 @@
           href: configure-customer-service-analytics-dashboard.md
         - name: Configure Omnichannel Insights dashboards
           href: configure-historical-sentiment-dashboard-supervisor.md
+      - name: Customize data models of historical and real-time analytics reports
+        href: model-customize-reports.md
       - name: Configure forecasting
         items:
         - name: Configure case forecasting
@@ -1122,14 +1146,22 @@
         items:
         - name: Forecast agent, case, and conversation volumes
           href: use-volume-forecasting.md
-    - name: Customize analytics
-      items: 
+    - name: Report author experience
+      items:
       - name: Customize visual display
         href: customize-reports.md
-      - name: Customize data models for historical analytics reports
-        href: model-customize-reports.md
-      - name: Data models and report mappings for historical analytics reports
-        href: oob-data-models.md
+      - name: Customize data models
+        items:
+        - name: Overview of data model customization
+          href: datamodel-overview.md
+        - name: Use the out-of-the-box data model in your custom reports
+          href: use-datamodel.md
+        - name: Data models and report mappings for historical analytics reports
+          href: oob-data-models.md
+        - name: Data model mapping for real-time analytics reports
+          href: datamapping-realtime.md
+    - name: Customize analytics
+      items: 
       - name: Customize KPIs for intraday insights
         href: customize-kpis-intraday-insights.md
       - name: Customize interactive dashboards based on Unified Interface
@@ -1150,6 +1182,8 @@
         href: set-when-business-closed-csh.md
       - name: Schedule entities
         items: 
+        - name: Create an entity for scheduling
+          href: entity-schedule-enable.md
         - name: Create bookable resources
           href: resources-service-scheduling.md
         - name: Add facilities and equipment
@@ -1247,6 +1281,9 @@
   - name: Migration solutions
     items: 
     - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      items:
+      - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
+        href: enable-oc-disable-csw.md
       href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
@@ -1270,8 +1307,6 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new omnichannel messaging platform
-      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
@@ -1800,6 +1835,8 @@
       href: faq-customer-service-admin-center.md
     - name: FAQ about unified routing
       href: unified-routing-faqs.md
+    - name: FAQ on managing cases
+      href: faq-case-mgmt.md  
     - name: FAQ about automatic record creation
       href: arc-faqs.md        
     - name: FAQ about AI suggestions for cases and knowledge articles
