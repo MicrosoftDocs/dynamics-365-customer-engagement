@@ -16,7 +16,7 @@ An administrator has to configure the offline profile for the app before technic
 
 ## [Unified Interface app](#tab/vCurrent)
 
-Downloading the offline data can take some time. aYou can check the download progress and status from the header of the app.
+Downloading the offline data can take some time. You can check the download progress and status from the header of the app.
 
 > [!div class="mx-imgBorder"]
 > ![Devices with the Field Service (Dynamics 365) mobile app, showing the offline status.](./media/mobile-2020-offline-downloading2.png)

@@ -66,7 +66,7 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 
 ## [Public Preview app](#tab/vNext)
 
-To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right.
+To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface app.
 
 > [!div]
 > ![Screenshot of navigatiom in the Field Service Mobile app home page in public preview](./media/mobile-public-preview-navigation.png)

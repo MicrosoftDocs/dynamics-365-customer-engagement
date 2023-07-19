@@ -44,11 +44,11 @@ To reach this functionality simply navigate to the app menu and follow the same 
 
 --- 
 
-## Guides
+## Embedded Guides in Field Service Mobile
 
 ### [Unified Interface app](#tab/vCurrent)
 
-This feature is only available in **Public Preview**.
+This feature is only available in **Public Preview app** and not **Unified Interface app**. 
 
 ### [Public Preview app](#tab/vNext)
 
