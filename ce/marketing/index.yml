@@ -1,0 +1,58 @@
+### YamlMime:Hub
+
+title: Dynamics 365 Marketing
+summary: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+brand: dynamics
+
+metadata:
+  title: Dynamics 365 Marketing
+  description: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+  ms.topic: hub-page
+  author: alfergus
+  ms.author: alfergus
+  ms.date: 07/20/2023
+  ms.custom: bap-template
+  hide_bc: true
+
+highlightedContent:
+
+  items:
+    - title: Welcome to Dynamics 365 Marketing
+      itemType: get-started
+      url: real-time-marketing-overview.md
+    - title: What's new
+      itemType: whats-new
+      url: whats-new-marketing.md
+    - title: Training
+      itemType: training
+      url: /training/browse/?expanded=dynamics-365&resource_type=learning%20path&terms=marketing&products=dynamics-marketing
+    - title: Troubleshoot
+      itemType: concept
+      url: troubleshoot-marketing-solution-health.md
+
+additionalContent:
+  sections:
+    - title: Implement
+      items: 
+    - title: Try/buy/install
+      links:
+      - url: trial-signup.md
+        text: Sign up for a free Marketing trial
+      - url: trial-faq.md
+        text: Marketing trial FAQ
+      - url: marketing-license.md
+        text: Dynamics 365 Marketing licensing
+      - url: direct-purchase.md
+        text: Purchase a license directly from a trial
+      - url: purchase-setup.md
+        text: Buy a subscription
+      - url: real-time-marketing-install.md
+        text: Install 
+    - title: Setup
+      links: 
+      - url: get-started.md
+        text: Marketing app Setup
+      - url: power-platform-admin-center.md
+        text: Manage environments
+      - url: install-manage-faq.md
+        text: Installation and environment management FAQ
