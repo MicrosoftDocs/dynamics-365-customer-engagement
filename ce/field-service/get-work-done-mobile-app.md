@@ -72,7 +72,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 > [!NOTE]
 > Notes are only available when included with the Bookable Resource Booking form. The control doesn't support other entities.
-> Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](/dynamics365/field-service/view-user-accounts-security-roles#q--a) to make sure your app users have access to this table.
+> Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](view-user-accounts-security-roles.md#q--a) to make sure your app users have access to this table.
 
 ## [Public Preview app](#tab/vNext)
 

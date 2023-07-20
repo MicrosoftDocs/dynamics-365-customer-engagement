@@ -26,7 +26,7 @@ Download the app called **Field Service (Dynamics 365)**, as seen in the followi
 
 Launch the app and sign in with your username and password for Field Service.  
 
-If you can't sign in, contact your organization's administrator. They may need to [set up users and security roles](../field-service/view-user-accounts-security-roles.md).
+If you can't sign in, contact your organization's administrator. They may need to [set up users and security roles](view-user-accounts-security-roles.md).
 
 After you sign in, the app may download offline data to your device. It can take some time to complete. The downloaded data depends on your administrator's settings for the offline profile of the mobile app.
 

@@ -10,8 +10,6 @@ ms.author: andreo
 
 # Field Service (Dynamics 365) mobile app Public Preview
 
-[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
-
 ## Public Preview availability
 
 In August 2023, we’re introducing the public preview of a **new Dynamics 365 Field Service mobile experience for frontline technicians** to swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures and controls to streamline managing work order Tasks, Services, and Products.
@@ -22,9 +20,8 @@ In addition, to help improve first-time fix rates, **Dynamics 365 Guides** can n
 
 > [Add link to this video](https://microsoft-my.sharepoint.com/:v:/p/marewa/EaKlFvr-Pt1BiLOJiy0ylM8Bv1AaRnCv-vCt0-JfZJQEvA?e=ATavzi)
 
-[!INCLUDE [public-preview-note](includes/public-preview-note.md)]
-
 ## Public Preview content in the docs
+
 Once enabled by your administrator, the Public Preview features are accessible directly in the GA app on top of the current features and screens, you don't need to download a different app. To learn more about these new features you can navigate these docs and find the specific Public Preview content alongside the current content in dedicated tabs.
 
 Here's a list of documents that contain specific Public Preview content.
@@ -36,6 +33,7 @@ Here's a list of documents that contain specific Public Preview content.
 | [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md) |
 
 ## Enabling the Public Preview features (admin)
+
 To enable the Field Service Mobile Public Preview features for your organization's technicians, you need to log in as an administrator to Dynamics 365 and then select the **Field Service Mobile** app from the list of all installed apps in your organizations.
 
 Once the Filed Service Mobile app screen loads, click on the bottom left menu and select **Settings**. Finally use the toggle to enable or disable the Public Preview features for all users within the organization.
@@ -44,13 +42,15 @@ Once the Filed Service Mobile app screen loads, click on the bottom left menu an
 > ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the Public Preview features](./media/mobile-public-preview-enable-toggle.png)
 
 ## Public Preview features limitations
+
 The public preview features currently have the following limitations:
 - Offline is not supported. In order to properly experience the new Public Preview features, please disable the offline profile.
-- All Field Service Mobile customizations described [here](https://learn.microsoft.com/en-us/dynamics365/field-service/field-service-customizations) are not supported and will not work in Public Preview.
+- All Field Service Mobile customizations described [here](field-service-customizations.md) are not supported and will not work in Public Preview.
 - Language. The new Public Preview features respect the mobile device language settings, while the current app respects the language settings in the user profile. This might cause a mixed language experience if the two settings are out of sync.
 
 ## Public Preview Support
-If you run into issues with the FSM Public Preview please use the "Send feedback" feature in the left navigation menu of the app itself, this will send an email to our team with logs attached to it. If there is a more serious failure, then please submit a support request through your [usual channels](https://learn.microsoft.com/en-us/dynamics365/field-service/field-service-get-help).
+
+If you run into issues with the FSM Public Preview please use the "Send feedback" feature in the left navigation menu of the app itself, this will send an email to our team with logs attached to it. If there is a more serious failure, then please submit a support request through your [usual channels](field-service-get-help.md).
 
 ## Next steps
 
