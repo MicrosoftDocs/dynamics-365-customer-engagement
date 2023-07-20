@@ -28,7 +28,7 @@ Depending on your role, you can use the seller insights feature in the following
 
 - **System administrator or a similar role**:
 
-    - Import your custom insights model, and map the attributes with the `msdyn_salessuggestion` entity attributes. For more information, go to [Import an insights model into Dataverse](import-insights-model-into-dataverse.md).
+    - Import your custom insights model, and map the attributes with the `msdyn_salessuggestion` entity attributes. For more information, go to [Import a custom insights model into Dataverse](import-insights-model-into-dataverse.md).
     - Enable the seller insights feature. For more information, go to [Enable seller insights](enable-seller-insights.md).
     - Configure who can use the seller insights feature. For more information, go to [Manage access to view insights](manage-access-view-insights.md).
     - Configure assignment rules to automatically assign insights to sellers. For more information, go to [Configure assignment rules to automatically assign insights](configure-assignment-rule-auto-assign-insights.md).
