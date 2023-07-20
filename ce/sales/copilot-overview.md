@@ -16,7 +16,7 @@ ms.reviewer: shujoshi
 
 Sales Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
 
-[!INCLUDE [cc-preview-disclaimer](../includes/cc-preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 ## Sales Copilot capabilities
 

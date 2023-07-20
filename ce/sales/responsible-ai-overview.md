@@ -12,8 +12,11 @@ ms.reviewer: shujoshi
 
 # Responsible AI FAQs for Dynamics 365 Sales
 
-[!INCLUDE[faqs-overview](../includes/faqs-overview.md)]
+# Responsible AI FAQs for Dynamics 365 Marketing
 
-[!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
+[!INCLUDE[responsible-ai-intro](../includes/responsible-ai-intro.md)]
 
-[Sales Copilot overview (preview)](copilot-overview.md)  
+[!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
+
+- [FAQ for summarization in Sales Copilot](faqs-sales-copilot-for-summarization.md)
+- [Sales Copilot overview (preview)](copilot-overview.md)
