@@ -7,7 +7,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - ai-gen-docs-bap
-  - ai-gen-desc-bap
+  - ai-gen-desc
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

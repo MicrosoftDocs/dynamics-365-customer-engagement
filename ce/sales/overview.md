@@ -8,7 +8,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.custom: 
   - ai-gen-docs-bap
-  - ai-gen-desc-bap
+  - ai-gen-desc
   - bap-template
 ---
 
