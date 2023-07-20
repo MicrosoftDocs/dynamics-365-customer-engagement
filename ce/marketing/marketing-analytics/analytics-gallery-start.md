@@ -3,8 +3,7 @@ title: Download and use marketing analytics templates and sample reports for Pow
 description: Download and use Power BI templates and sample reports to create custom analytics reports for your Marketing organization.
 ms.date: 02/28/2023
 ms.custom: 
-  - ai-gen-docs
-  - ai-gen-desc
+  - ai-gen-docs-bap
 ms.topic: article
 author: cabeln
 ms.author: cabeln
