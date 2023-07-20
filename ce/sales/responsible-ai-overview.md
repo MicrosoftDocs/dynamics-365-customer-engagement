@@ -12,8 +12,6 @@ ms.reviewer: shujoshi
 
 # Responsible AI FAQs for Dynamics 365 Sales
 
-# Responsible AI FAQs for Dynamics 365 Marketing
-
 [!INCLUDE[responsible-ai-intro](../includes/responsible-ai-intro.md)]
 
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
