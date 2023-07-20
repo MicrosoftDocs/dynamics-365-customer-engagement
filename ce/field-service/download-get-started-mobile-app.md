@@ -43,6 +43,8 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [Public Preview app](#tab/vNext)
 
+[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
+
 The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions (Account, Incident type, Time, Duration).
 
 > [!div]
