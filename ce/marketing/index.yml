@@ -56,3 +56,31 @@ additionalContent:
         text: Manage environments
       - url: install-manage-faq.md
         text: Installation and environment management FAQ
+
+  - title: Arsenal of Marketing Tools
+    items:
+      - title: Email marketing and Automation
+        links:
+        - url: real-time-marketing-email.md
+          text: Email marketing overview
+        - url: content-ideas.md
+          text: Use AI for email creation
+      - title: Customer Journey Mapping
+        links:
+        - url: real-time-marketing-trigger-based-journey.md
+          text: Trigger-based Journeys
+        - url: real-time-marketing-build-segments
+          text: Segment-based Journeys
+        - url: real-time-marketing-business-goals.md
+          text: Enhanced Journey Capabilities
+
+  - title: Real-time Engagement and Analytics
+    items:
+      - title: Personalization
+        links:
+        - url: real-time-marketing-personalization.md
+          text: Personalize content
+        - url: real-time-marketing-analytics.md
+          text: Marketing Analytics
+        - url: real-time-marketing-optimize-lead-management.md
+          text: Optimize lead management
