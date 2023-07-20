@@ -130,7 +130,7 @@
       "recommendations": true
     },
     "fileMetadata": {
-      "uhfheaderId": {
+      "uhfHeaderId": {
         "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService"
       },
       "featureFlags": {
