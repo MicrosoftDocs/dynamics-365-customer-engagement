@@ -11,13 +11,13 @@ ms.reviewer: m-hartmann
 
 # Work order recap with Copilot in Field Service (preview)
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order and suggest appropriate next steps to help get issues resolved in a timeline manner. The recap includes the work order's past developments, future actions, arrival times, work criticality, and a summary of required parts.
 
 The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids summarizing information that violates certain restrictions.
 
-[!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Prerequisites
 
