@@ -8,7 +8,7 @@ ms.service: dynamics-365-sales
 content_well_notification:
 -	AI-contribution
 ms.custom:
- - ai-gen-docs
+ - ai-gen-docs-bap
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
