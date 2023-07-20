@@ -32,8 +32,8 @@ highlightedContent:
 
 additionalContent:
   sections:
-    - title: Implement
-      items: 
+  - title: Implement
+    items: 
     - title: Try/buy/install
       links:
       - url: trial-signup.md
@@ -48,11 +48,11 @@ additionalContent:
         text: Buy a subscription
       - url: real-time-marketing-install.md
         text: Install 
-    - title: Setup
-      links: 
-      - url: get-started.md
-        text: Marketing app Setup
-      - url: power-platform-admin-center.md
-        text: Manage environments
-      - url: install-manage-faq.md
-        text: Installation and environment management FAQ
+  - title: Setup
+    links: 
+    - url: get-started.md
+      text: Marketing app Setup
+    - url: power-platform-admin-center.md
+      text: Manage environments
+    - url: install-manage-faq.md
+      text: Installation and environment management FAQ
