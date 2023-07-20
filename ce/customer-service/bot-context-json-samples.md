@@ -1,11 +1,11 @@
 ---
 title: Code samples for parsing activity JSON
-description: Use this article to understand how you can parse the activity JSON object, to retrieve the bot context for Azure or Power Virtual Agents bots.
-ms.date: 07/12/2022
+description: Learn how to parse the activity JSON object to retrieve the bot context for Azure or Power Virtual Agents bots.
+ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 # Code samples for parsing activity JSON
@@ -79,7 +79,6 @@ This article includes some samples for parsing the activity JSON object in vario
          }
 }
 ```
- 
 
 ## Apple Messages for Business channel
 

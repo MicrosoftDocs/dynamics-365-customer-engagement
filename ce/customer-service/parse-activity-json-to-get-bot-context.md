@@ -1,12 +1,13 @@
 ---
 title: Parse event activity JSON to get bot context
 description: Use this article to understand how you can parse the activity JSON to extract bot context.
-ms.date: 02/22/2023
+ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
+ms.reviewer: shujoshi
 ms.custom: bap-template
+ms.collection:
 ---
 # Parse event activity JSON to get bot context
 
@@ -34,12 +35,9 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
         }
 ```
 
+## Next steps
 
-
-
-## Next steps 
-
-[Code samples for parsing activity JSON](parse-activity-json-to-get-bot-context.md)  
+[Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
 ### See also
 

@@ -1,18 +1,19 @@
 ---
 title:  Configure bot context in Power Virtual Agents bots 
 description: Use this article to understand how you can enable an Power Virtual Agents bot to understand context while authoring a bot flow.
-ms.date: 07/12/2022
+ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.custom: bap-template
+ms.collection:
 ---
 # Configure bot context in Power Virtual Agents bots  
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-As a bot author, you can enable your Power Virtual Agents bots to understand context while authoring a bot flow. 
+As a bot author, you can enable your Power Virtual Agents bots to understand context while authoring a bot flow.
 
 ## Install extensions
 
@@ -24,7 +25,7 @@ Follow the steps mentioned in this article: [Connect your Power Virtual Agents b
 
 ## Next steps
 
-[Code samples for parsing activity JSON](parse-activity-json-to-get-bot-context.md)  
+[Configure context variables for bots](context-variables-for-bot.md)  
 
 ### See also
 
