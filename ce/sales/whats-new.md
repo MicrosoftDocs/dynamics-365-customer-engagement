@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 04/03/2023
+ms.date: 07/05/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -21,9 +21,23 @@ Keep track of changes on the [Dynamics 365 Sales release planner](https://experi
 
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
-## April 2023 release
+This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
-We're excited to announce our newest updates! This article summarizes early access, public preview, and general availability features that were released in the month of April.
+## June 2023 release
+
+We're excited to announce our newest updates! 
+
+| Feature area | Feature | Description | Resources | Enabled by | Availability |
+|--------------|---------|-------------|-----------|------------|--------------|
+| Sales engagement | Sequence preview | Get an overview of sequence activities and easily collaborate with team members. | [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | Enabled for all | Public preview |
+| Sales engagement | Segments | The runtime experience of segments are optimized by  introducing a condition limit. A maximum of 10 conditions are allowed in a segment at any given time. | [Documentation](create-and-activate-a-segment.md#create-and-activate-a-segment) | Enabled by default | GA |
+| Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  condition limits are introduced for the **Select eligible entity** and **Seller with matching attributes** options. A limit of 10 and 5 maximum conditions are applicable for these options respectively. | [Documentation](create-and-activate-assignment-rule.md#conditions-in-assignment-rules) | Enabled by default | GA |
+
+## May 2023 release
+
+No new features or enhancements were released in May 2023. We'll be back in June with more updates.
+
+## April 2023 release
 
 | Feature area | Feature | Description | Resources | Enabled by | Availability |
 |--------------|---------|-------------|-----------|------------|--------------|
@@ -31,19 +45,6 @@ We're excited to announce our newest updates! This article summarizes early acce
 | Contact management | Email validation | Identifies invalid email addresses for contact records. | [Documentation](enable-email-validation.md) | Enabled by default | Public preview |
 | Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | Enabled by default | GA |
 | Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) | Enabled by default | Public preview |
-
-## March 2023 release
-
-This article summarizes early access, public preview, and general availability features that were released in the month of March.
-
-|Feature area  |Feature  |Description  |Resources  |Enabled by |Availability  |
-|---------|---------|---------|---------|---------|---------|
-| Sales engagement | Engage with your Customers using SMS conversation | Support for incoming SMS, routing them to appropriate records, and showing them in the timeline. | [Documentation](manage-text-message-communications.md) | Enabled by admin | Public preview |
-| Sales engagement | Engage with your Customers using SMS conversation | Support for sending and receiving SMS from Contact, Lead and Account forms. | [Documentation](sms-intro.md) | Enabled by default | GA |
-| Sales engagement | Prioritize segments | Set priority for the segments so that the records are connected to the right segment when there are multiple matching segments. | [Documentation](prioritize-segment.md) | Enabled by default | GA |
-| Collaboration | Linked chats in timeline | View linked chats in the timeline of a record. | [Documentation](teams-integration/join-chat.md) | Enabled by default | GA |
-| Predictive scoring | Real-time scoring | View prediction for a new lead in near real time. | [Documentation](work-predictive-lead-scoring.md#real-time-scoring) | Enabled by default | GA |
-| Sales engagement | Prioritize your engagements by using focused view | View and manage all your sales records and the associated activities on one page. | [Documentation](focused-view.md) | Enabled by default | Early access |
 
 ## Get the latest version
 

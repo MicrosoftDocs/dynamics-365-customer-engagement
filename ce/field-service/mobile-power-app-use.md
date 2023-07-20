@@ -8,7 +8,6 @@ author: josephshum-msft
 ms.author: jshum
 ---
 
-
 # Work with the Field Service (Dynamics 365) mobile app
 
 The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. You can download the app for all major platforms for free. A Field Service user license and user permissions are required to work with the app.
@@ -21,5 +20,3 @@ The following articles describe how frontline workers or technicians get the mos
 - [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
 
 We have recently released Public Preview features in the app, learn more about it [here](mobile-public-preview-overview.md).
-
-

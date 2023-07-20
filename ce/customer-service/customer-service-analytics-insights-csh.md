@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -83,7 +83,7 @@ The following tables are used for Customer Service historical analytics:
 [Introduction to Customer Service insights](introduction-customer-service-analytics.md)    
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](configure-customer-service-analytics-insights-csh.md)   
 [Manage bookmarks](manage-bookmarks.md)  
-[Customize the visual display of your analytics reports](customize-reports.md#customize-the-visual-display-of-your-analytics-reports)   
+[Customize visual display](customize-reports.md#customize-visual-display)  
 [Customize data models of historical analytics reports in Customer Service](model-customize-reports.md)   
 [Tracked keywords in Dynamics 365 Sales](../sales/dynamics365-sales-insights-app-home-page.md#tracked-keywords)    
 
