@@ -30,8 +30,6 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [Public Preview app](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
-
 Change the status of a booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
 
 > [!div]

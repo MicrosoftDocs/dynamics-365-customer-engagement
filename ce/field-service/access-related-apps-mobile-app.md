@@ -52,8 +52,6 @@ This feature is only available in **Public Preview app** and not **Unified Inter
 
 ### [Public Preview app](#tab/vNext)
 
-[!INCLUDE [public-preview-banner](includes/public-preview-banner.md)]
-
 If your organization has enabled your account to access Guides, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides library, search for specific Guides, and follow them step by step. [Learn more about Guides](https://aka.ms/fs-guides-mobile)
 
 > [!div]
