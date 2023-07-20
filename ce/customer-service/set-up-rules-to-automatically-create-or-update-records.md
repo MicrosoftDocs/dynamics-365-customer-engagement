@@ -11,8 +11,8 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - ai-gen-docs
-  - ai-gen-desc
+  - ai-gen-docs-bap
+  - ai-gen-desc-bap
 ---
 
 # Set up rules to automatically create or update records in the legacy app

@@ -7,8 +7,8 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.custom: 
-  - ai-gen-docs
-  - ai-gen-desc
+  - ai-gen-docs-bap
+  - ai-gen-desc-bap
   - bap-template
 ---
 
