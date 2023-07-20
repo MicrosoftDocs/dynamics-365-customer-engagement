@@ -46,7 +46,7 @@ Use the following table to get a detailed understanding of the `msdyn_salessugge
 | Related record | `msdyn_relatedrecord` | Lookup | <p>This attribute stores the parent record for the insight and is customized for other entities that support one-to-many (1:N) relationships.</p><p>By default, the relationship is provided through the account entity.</p> |
 | Name | `msdyn_name` | Primary field | The name of the suggestion. |
 | Sales motion | `msdyn_salesmotion` | Optionset | The type of insight, such as *New*, *Relationship Management*, or *True Up*. |
-| Solution area | `msdyn_solutionarea` | Optionset | The broad category of the product or stock keeping unit (SKU). |
+| Solution area | `msdyn_solutionarea` | Optionset | The broad category of the product or stockkeeping unit (SKU). |
 | Sales play | `msdyn_salesplay` | Optionset | The narrow category of the product, SKU, or sales strategy. |
 | Suggestion reason | `msdyn_suggestionreason` | String | The rationale or justification behind a specific insight that is provided. |
 | Suggestion insights | `msdyn_insight` | Multiline string | <p>A list of insights. The multiline text is separated by Windows or Unix newline characters (\\r\\n or \\n). For example, *Line1\\nLine2\\nLine3* is displayed in the widget as:</p><ul><li>Line1</li><li>Line2</li><li>Line3</li></ul> |
