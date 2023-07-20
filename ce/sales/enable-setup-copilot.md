@@ -1,5 +1,5 @@
 ---
-title: Enable and set up Sales Copilot (prevuew)
+title: Enable and set up Sales Copilot (preview)
 description: Learn about how to enable and set up Sales Copilot (preview) in Dynamics 365 Sales so that sellers can start using it.
 ms.date: 07/18/2023
 ms.custom: bap-template
@@ -34,8 +34,6 @@ Select the apps and the copilot features that you want to enable on the apps. Yo
 
 1. Select **Set up Copilot** or **Manage apps** depending on what you see.
 
-    :::image type="content" source="media/sales-copilot-setup.png" alt-text="Screenshot of the Set up Sales Copilot panel with the list of apps and options to turn on Compose and Chat.":::
-
     The side panel displays the list of apps installed in your organization.  
 1. Select the following copilot feature to enable it:
 
@@ -57,6 +55,7 @@ Catch up information in Sales Copilot is generated from the audit history. Hence
 
     > [!NOTE]
     > Alternatively, you can turn on audit access from the [Sales Copilot settings page](configure-sales-copilot.md).
+
 1. Grant users access to view audit history and audit summary:
 
     1. In the Sales Hub app, select **Settings** > **Security** > **Security Roles**.

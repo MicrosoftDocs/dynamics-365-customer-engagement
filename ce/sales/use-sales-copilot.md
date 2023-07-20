@@ -2,9 +2,13 @@
 title: Use Sales Copilot (preview)
 description: Learn about how to use Sales Copilot (preview) capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
 ms.date: 07/18/2023
-ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
+content_well_notification:
+-	AI-contribution
+ms.custom:
+ - ai-gen-docs-bap
+ - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
