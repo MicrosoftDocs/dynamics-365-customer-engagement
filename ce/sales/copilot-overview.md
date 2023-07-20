@@ -5,6 +5,10 @@ ms.date: 07/18/2023
 ms.custom: bap-template
 ms.topic: overview
 ms.service: dynamics-365-sales
+content_well_notification:
+-	AI-contribution
+ms.custom:
+ - ai-gen-docs
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
