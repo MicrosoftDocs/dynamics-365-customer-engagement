@@ -36,5 +36,5 @@ Examples of customer data, along with personal data that's shared with Azure Ope
 
 ### See also
  
-[Enable and set up Sales Copilot (preview)](enable-setup-copilot.md)
+[Enable and set up Sales Copilot (preview)](enable-setup-copilot.md)  
 [Configure Sales Copilot (preview)](configure-sales-copilot.md)

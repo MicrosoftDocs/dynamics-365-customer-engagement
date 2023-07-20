@@ -2,9 +2,13 @@
 title: Sales Copilot overview (preview)
 description: Learn about Sales Copilot (preview), an AI assistant that helps your sales team be more productive and efficient in their daily work.
 ms.date: 07/18/2023
-ms.custom: bap-template
 ms.topic: overview
 ms.service: dynamics-365-sales
+content_well_notification:
+-	AI-contribution
+ms.custom:
+ - ai-gen-docs-bap
+ - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -16,7 +20,7 @@ ms.reviewer: shujoshi
 
 Sales Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
 
-[!INCLUDE [cc-preview-disclaimer](../includes/cc-preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 ## Sales Copilot capabilities
 
