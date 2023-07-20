@@ -38,8 +38,6 @@ To open a work order in the side pane, hover over a work order in the list and s
 
 You can open multiple work orders in the side pane and switch between them in the right border or the side pane.
 
-
-
 ## Work order form
 
 The form for a work order record shows all the available details that relate to the work order. It consists of a *form header* and multiple *sections* that show *cards* with contextual information in the main form. The form header shows the [price not-to-exceed](work-order-not-to-exceed.md), the creation date of the work order, and the [service account](accounts.md).
@@ -152,4 +150,4 @@ For more information about work order customizations, see [Customization conside
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
