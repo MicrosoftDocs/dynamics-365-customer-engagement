@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The seller insights feature displays contextual and intelligent insights about Dynamics 365 Sales records, based on specific criteria. For example, sellers can view insights about an account that they are working on, and then either perform suggested actions to move the deal forward or assign the insight to another colleague to work on.
+The seller insights feature displays contextual and intelligent insights about Dynamics 365 Sales records, based on specific criteria. For example, sellers can view insights about an account that they are working on. They can then either perform suggested actions to move the deal forward or assign the insight to another colleague to work on.
 
 ## Prerequisites
 
