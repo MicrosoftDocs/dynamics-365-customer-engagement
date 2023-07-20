@@ -53,7 +53,7 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 
         **Primary owner**:
 
-        - The primary owner is identified by a star next to the name.
+        - A star next to a name identifies the primary owner.
         - Each rule can have only one primary owner at a time. 
         - Insights are always displayed in the records that the primary owner is assigned to, and the primary owner can perform the following tasks:
 
@@ -63,7 +63,7 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 
         **Secondary owner**:
 
-        - In the account team, secondary owners can view the insights but can't work on them until they are assigned by the primary owner.
+        - In the account team, secondary owners can view the insights but can't work on them until the primary owner assigns them.
         - You can add multiple secondary owners to the rule, or you can assign a security role as the secondary owner.
 
 1. Select **Create rule**. The rule is created, and appropriate insights are displayed to the appropriate sellers or team.
@@ -74,7 +74,7 @@ This section provides some example scenarios to help you understand the suggesti
 
 ### Scenario 1: An account has a single owner or a team
 
-Assign the Contoso insights for an account where potential revenue is between 0 (zero) and 30,000 US dollars (USD) to the account owner. A single owner is assigned to the relevant insights, and primary ownership will be given to the first identified seller.
+Assign the Contoso insights for an account where potential revenue is between 0 (zero) and 30,000 US dollars (USD) to the account owner. A single owner is assigned to the relevant insights, and primary ownership is given to the first identified seller.
 
 Configure the rule as follows for this scenario:
 
