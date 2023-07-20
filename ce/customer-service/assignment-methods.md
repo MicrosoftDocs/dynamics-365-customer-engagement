@@ -50,7 +50,7 @@ The following assignment methods are available out of the box:
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
-  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses the time since last capacity is released for a voice call to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
 
   Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This strategy provides higher agent satisfaction and improved customer satisfaction.
 
