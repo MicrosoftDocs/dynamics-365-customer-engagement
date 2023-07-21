@@ -912,7 +912,7 @@
     items: 
     - name: Copilot in Customer Service
       items:
-      - name: Configure Copilot in Customer Service
+      - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
       - name: Configure copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
@@ -1160,6 +1160,8 @@
           href: oob-data-models.md
         - name: Data model mapping for real-time analytics reports
           href: datamapping-realtime.md
+        - name: Dataverse entities used in historical and real-time analytics
+          href: dataverse-entities.md
     - name: Customize analytics
       items: 
       - name: Customize KPIs for intraday insights
@@ -1307,8 +1309,6 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new omnichannel messaging platform
-      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration

@@ -57,7 +57,7 @@ To complete the mobile app configuration, the developer must register devices. T
 
 Select the tab that corresponds with your device's operating system:
 
-# [iOS](#tab/ios)
+# [iOS - API v.1](#tab/ios-v1)
 
 To register a device running an iOS application, the following request should be issued:
 
@@ -164,8 +164,7 @@ Parameters:
 }
 @end
 ```
-
-#### API v.2
+# [iOS - API v.2](#tab/ios-v2)
 
 1. Device Registration (single):
 
@@ -223,11 +222,107 @@ Body: array of items equal to body from (3), up to 100 items
 
 Returns: 202 on success, 400 if the request is not valid
 
-# [Android](#tab/android)
+
+#### Sample code to extract and save the device token
+
+```
+func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) { 
+
+        let tokenComponents = deviceToken.map { data in String(format: "%02.2hhx", data) } 
+
+        let deviceTokenString = tokenComponents.joined() 
+
+        UserDefaults.standard.set(deviceTokenString, forKey: "deviceToken") 
+
+    } 
+
+```
+
+#### Sample code to register the device token with Dynamics 365 
+
+```
+@IBAction func registerDevice(_ sender: Any){ 
+
+        let orgId = organizationid.text; 
+        let endP = endpoint.text; 
+        let apiToken = apitoken.text; 
+        let appId = appid.text; 
+        let profileId = profileid.text; 
+        let url = URL(string: String(format:"https://%@/api/v1.0/orgs/%@/pushdeviceregistration/devices", endP ?? "", orgId ?? ""))!; 
+        let session = URLSession.shared 
+
+        // Create the URLRequest object using the url object 
+
+        var request = URLRequest(url: url) 
+        request.httpMethod = "POST" 
+
+        // Add headers for the request 
+
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type") // change as per server requirements 
+        request.addValue("application/json", forHTTPHeaderField: "Accept") 
+
+        do { 
+
+          // convert parameters to Data and assign dictionary to httpBody of request 
+
+            let deviceToken = UserDefaults.standard.string(forKey: "deviceToken"); 
+            let userUpdate = String(format:"{\"MobileAppId\":\"%@\",\"UserId\":\"%@\",\"ApnsDeviceToken\":\"%@\",\"ApiToken\": \"%@\"}", appId, profileId ,deviceToken, apiToken); 
+
+            //Convert the String to Data 
+
+            let data = (userUpdate as NSString).data(using: NSUTF8StringEncoding); 
+            request.httpBody = data; 
+
+        } catch let error { 
+
+          print(error.localizedDescription) 
+          return 
+
+        } 
+
+        // Create dataTask using the session object to send data to the server 
+
+        let task = session.dataTask(with: request) { data, response, error in 
+
+            if let error = error { 
+
+                print("Post Request Error: \(error.localizedDescription)") 
+            	 return 
+
+            } 
+
+
+            // ensure there is valid response code returned from this HTTP response 
+
+            guard let httpResponse = response as? HTTPURLResponse, 
+
+                (200...299).contains(httpResponse.statusCode) 
+
+            else { 
+
+                let httpRespose = response as? HTTPURLResponse; 
+                print("Invalid Response received from the server. StatusCode: \(httpRespose?.statusCode) Error: \(httpRespose?.description)"); 
+                return 
+
+            } 
+
+             
+
+            print("Device Registration successful.") 
+
+        } 
+
+        // Resume the task 
+
+        task.resume() 
+
+    } 
+```
+
+
+# [Android - API v.1](#tab/android-v1)
 
 To register a device for an Android application, the following request should be issued:
-
-#### API v.1
 
 Request URL:
 
@@ -300,7 +395,7 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
-#### API v.2
+# [Android - API v.2](#tab/android-v2)
 
 1. Device Registration (single):
 
@@ -355,6 +450,25 @@ POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregist
 Body: array of items equal to body from (3), up to 100 items
 
 Returns: 202 on success, 400 if request is not valid
+
+#### Sample code to register the device token with Dynamics 365 
+
+```
+public String toJsonString() {  
+        JSONObject jsonObject = new JSONObject();  
+        try {  
+            jsonObject.put("DeviceToken ", mDeviceToken);  
+            jsonObject.put("ApiToken", mApiToken);  
+
+            jsonObject.put("MobileAppId ", mMobileAppId);  
+            jsonObject.put("UserId", mUserId); 
+        } catch (JSONException e) {  
+            Log.d(LOG_TAG, "Json exception while creating device registration contract: " + e.getMessage());  
+        }  
+  
+        return jsonObject.toString();  
+    } 
+```
 
 ---
 
