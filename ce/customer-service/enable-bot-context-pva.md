@@ -25,7 +25,11 @@ Follow the steps mentioned in this article: [Connect your Power Virtual Agents b
 
 ## Next steps
 
-[Configure context variables for bots](context-variables-for-bot.md)  
+Use the information in one of the following articles to configure context variables:
+
+- [Configure context variables for bots](context-variables-for-bot.md)  
+- [Getting started with Bot Framework Composer](/power-virtual-agents/advanced-bot-framework-composer-fundamentals)
+- [Create expressions using Power Fx](/power-virtual-agents/advanced-power-fx)
 
 ### See also
 
