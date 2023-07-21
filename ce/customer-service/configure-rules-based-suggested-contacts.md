@@ -64,7 +64,7 @@ A maximum of 10 rules are supported per record type.
 ### Use a custom action
 
 > [!IMPORTANT]
-> We recommend that you have previous experience working with custom actions before configuring them for rules-based suggestions. More information: [Create or edit custom actions from a workflow](/customerengagement/on-premises/customize/configure-actions)
+> We recommend that you have previous experience working with custom actions before configuring them for rules-based suggestions. More information: [Create or edit custom actions from a workflow](../customerengagement/on-premises/customize/configure-actions.md)
 
 You can call a custom action to handle advanced scenarios. The suggested contacts identifier passes along the ID and entity type as arguments, and expects the custom action to return users. In the rule settings section, type the name of an existing action.
 
