@@ -75,8 +75,16 @@ additionalContent:
           text: Trigger-based Journeys
         - url: real-time-marketing-build-segments
           text: Segment-based Journeys
+        - url: real-time-marketing-edit-journey.md
+          text: Journey enhancement
+      - title: A/B testing and Journey optimization
+        links:
         - url: real-time-marketing-business-goals.md
-          text: Enhanced Journey Capabilities
+          text: Journey goals
+        - url: real-time-marketing-personalize-triggers.md
+          text: Personalize triggers using conditions
+        - url: real-time-marketing-journey-designer.md
+          text: Real-time journey designer customization
 
   - title: Real-time Engagement and Analytics
     items:
@@ -92,3 +100,26 @@ additionalContent:
           text: Marketing Analytics
         - url: real-time-marketing-optimize-lead-management.md
           text: Optimize lead management
+      - title: Lead Generation
+        links:
+        - url: real-time-marketing-optimize-lead-management.md
+          text: Lead scoring
+
+  - title: Marketing forms and Event management
+    items:
+      - title: Use Marketing Forms 
+        links:
+        - url: real-time-marketing-form-overview.md
+          text: Forms overview
+        - url: real-time-marketing-form-create.md
+          text: Create forms
+        - url: real-time-marketing-manage-forms.md
+          text: Manage forms
+      - title: Event planning
+        links:
+        - url: event-management.md
+          text: Event planning overview
+        - url: set-up-event.md
+          text: Event Setup
+        - url: event-management-dashboard.md
+          text: Manage events
