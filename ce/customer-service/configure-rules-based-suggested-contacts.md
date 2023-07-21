@@ -77,6 +77,7 @@ To use the custom rule type, you must have an existing custom action that has th
 |CustomActionSuggestedUsers |String |Required | Output |
 |CustomActionInputs |String |Optional |Input |
 
+:::image type="content" source="media/rules-based-custom-arguments.png" alt-text="Required arguments for an existing custom action to use the custom rule type.":::
 
 The output, CustomActionSuggestedUsers, is a list of objects that follow this contract:
 ```
