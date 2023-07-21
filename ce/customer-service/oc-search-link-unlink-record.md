@@ -1,10 +1,12 @@
 ---
-title: "Search, link, and unlink records in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations."
+title: Search, link, and unlink records in Omnichannel for Customer Service
+description: Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations.
 author: neeranelli
 ms.author: nenellim
-ms.date: 11/18/2021
-ms.topic: article
+ms.reviewer: shujoshi
+ms.date: 06/08/2023
+ms.topic: how-to
+ms.custom: bap-template
 
 ---
 
@@ -30,14 +32,13 @@ For the customer (**Contact** or **Account**) section, you can search for a Cont
 |Account| <ul> <li>Account Name</li> <li>Account Number</li> <li>Email</li> <li>Main Phone</li> </ul>  |
 |Contact| <ul> <li>Company Name </li> <li>Email</li> <li>First Name</li> <li>Last Name</li> <li>Middle Name</li> <li>Full Name</li> <li>Mobile Phone</li> </ul>|
 
-
 For the **Case** section, you can search for a Case (Incident) record. By default, you can search by using the following fields.
 
 |Record |Fields|
 |--- |--- |
 |Case| <ul> <li>Case Number</li> <li>Case Title</li> </ul>|
 
-Only active views are displayed for the search results. You can customize the Quick Find View and Lookup View to change the searchable fields based on your business requirements. More information: [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
+Active views only are displayed for the search results. You can customize the Quick Find View and Lookup View to change the search fields based on your business requirements. More information: [Understand views](/dynamics365/customer-engagement/customize/create-edit-views) and [Unified Interface Lookup view leverages Quick Find View](https://blogs.msdn.microsoft.com/crm/2018/11/02/unified-interface-lookup-now-leverages-quick-find-view/)
 
 ## Link a record to the conversation when doing an inline search
 
@@ -48,8 +49,9 @@ During an inline search, the search results are displayed and you can select a r
 
    :::image type="content" source="media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
 
-> [!NOTE]
-> You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
+You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
+
+If you close a linked conversation, the case won't be closed automatically.
 
 ## Search for records by using relevance search
 
@@ -67,8 +69,7 @@ You can search for a case, account, contact, and associated fields as enabled by
 
 After you search for a record by using relevance search, you can link the record to the conversation from the communication panel.
 
-> [!Note]
-> You can link only one record to a conversation.
+You can link one record only to a conversation.
 
 1. Select the record from the list of search results. The record opens in the application tab.
 
@@ -79,8 +80,7 @@ After you search for a record by using relevance search, you can link the record
 
 Now, the **Active Conversation** page is refreshed and updated with details from the record. Similarly, you can link other record types.
 
-> [!NOTE]
-> You can link only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
+You can link and unlink one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 ## Unlink a record from the conversation
 
@@ -93,9 +93,6 @@ To unlink a record, select **Close** next to the customer name in the customer (
 
 > [!div class=mx-imgBorder]
 > ![Blank customer section after unlinking the record.](media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
-
-> [!Note]
-> You can link and unlink only one contact or account in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
 ### See also
 

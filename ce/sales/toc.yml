@@ -150,6 +150,8 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
+        - name: Enable address suggestion
+          href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -198,6 +200,16 @@
           href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
+        - name: Configure Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Enable and setup Copilot
+              href: enable-setup-copilot.md
+            - name: Configure Copilot capabilities
+              href: configure-sales-copilot.md
+            - name: Copilot data movement across geographies
+              href: sales-copilot-data-movement.md
         - name: Activity management
           items:
             - name: Set up the timeline control
@@ -210,6 +222,11 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Enable Copilot email assist
+              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -500,12 +517,38 @@
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
-            - name: Configure SMS provider
+            - name: Configure SMS channel
               href: configure-sms-provider.md
+            - name: Add custom SMS channel
+              href: add-custom-sms-provider-intro.md  
+              items:
+                - name: Define an extended configuration entity for a channel instance
+                  href: custom-define-sms-instance.md
+                - name: Define an extended configuration entity for a channel instance account
+                  href: custom-define-sms-account.md
+                - name: Define the message parts
+                  href: custom-sms-message-parts.md
+                - name: Define the localization for the admin interface
+                  href: custom-sms-localization-admin.md
+                - name: Define custom APIs
+                  href: custom-sms-custom-api.md
+                - name: Define the custom channel
+                  href: custom-define-sms-definition.md
             - name: Edit phone numbers
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: Import custom insights model into Dataverse
+              href: import-insights-model-into-dataverse.md
+            - name: Enable seller insights
+              href: enable-seller-insights.md
+            - name: Manage access permissions to view insights
+              href: manage-access-view-insights.md
+            - name: Configure assignment rule to auto assign insights
+              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -558,14 +601,14 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
               href: fre-setup-sales-insight-app.md
-            - name: Configure conversation intelligence to connect call data
-              href: configure-conversation-intelligence-call-data.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
             - name: Configure conversation content
@@ -586,6 +629,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -721,10 +768,16 @@
           href: teams-integration/teams-collaboration-enhanced-experience.md
     - name: Productivity and document management
       items:
+        - name: Use Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Use Copilot capabilities
+              href: use-sales-copilot.md
         - name: Activity management
           items:
             - name: Add activities to the timeline
-              href: /powerapps/user/add-activities?context=/dynamics365/context/sales-context
+              href: timeline-activities.md
             - name: Track and manage activities
               href: manage-activities.md
             - name: Access Dynamics 365 app from Outlook
@@ -733,6 +786,11 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
@@ -888,6 +946,11 @@
               href: create-text-message-templates.md
             - name: Manage text message communications
               href: manage-text-message-communications.md
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: View and work on seller insights
+              href: view-understand-insights.md
         - name: Campaign management
           items:
             - name: Get started with in-app marketing
@@ -1322,6 +1385,12 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
+- name: Responsible AI
+  items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for summarization in Sales Copilot
+      href: faqs-sales-copilot-for-summarization.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

@@ -38,7 +38,7 @@ The simplest scenario is to construct the solution on existing columns and table
 
 Because the terms and conditions are something we want reuse across multiple emails, we create a [content block](content-blocks.md), which is called “All Country Footer”.
 
-In this content block, we add a section and column where the text of the terms and conditions is placed. Next, different [conditions](conditional-content.md) are added for the various countries that are supported in the footer. In the example below we’re supporting three countries: UK, Spain, and Mexico. 
+In this content block, we add a section and column where the text of the terms and conditions is placed. Next, different [conditions](conditional-content.md) are added for the various countries that are supported in the footer. In the example below we’re supporting three countries/regions: UK, Spain, and Mexico. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing the country footer](media/real-time-marketing-content-block-country-footer.png "Screenshot showing the country footer")

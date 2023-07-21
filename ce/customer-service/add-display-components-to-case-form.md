@@ -22,7 +22,7 @@ After you add the **Customer 360** control to a case form, when an agent selects
 
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
-Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.
+Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.<br>
 Step 2: On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control).
 
 You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in [View the customer details in an app side pane on a custom form](#view-the-customer-details-in-an-app-side-pane-on-a-custom-form) section to add the Customer 360 card to a customized form. 
