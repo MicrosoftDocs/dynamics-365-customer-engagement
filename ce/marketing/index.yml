@@ -106,10 +106,7 @@ additionalContent:
         links:
         - url: real-time-marketing-optimize-lead-management.md
           text: Lead scoring
-
-  - title: Marketing forms and Event management
-    items:
-      - title: Use Marketing Forms 
+      - title: Marketing forms and Event management
         links:
         - url: real-time-marketing-form-overview.md
           text: Forms overview
