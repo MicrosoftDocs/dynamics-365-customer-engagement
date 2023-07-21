@@ -24350,6 +24350,71 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/associate-documents-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/define-playbook-categories.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookactivity.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookactivityattribute.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookcategory.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookinstance.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbooktemplate.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbook-entity-reference.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enforce-best-practices-playbooks.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/launch-playbook.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-playbook-templates.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/mark-playbook-completed.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/track-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/enable-creation-of-orders-from-quotes.md",
       "redirect_url": "/dynamics365/sales/enable-creation-of-orders-from-quotes",
       "redirect_document_id": "false"

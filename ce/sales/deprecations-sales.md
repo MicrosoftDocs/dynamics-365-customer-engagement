@@ -40,9 +40,9 @@ After the cards are deprecated, they’ll no longer be available. You can create
 Starting from Sunday, October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and will not apply to insight cards. To optimize and prioritize the cards, turn off those cards that are not in use. [Learn more](edit-insight-cards.md#turn-cards-on-or-off).
 
 <a name='playbooks'></a>
-## Playbooks will be deprecated
+## Playbooks is deprecated
 
-Starting July 7, 2023, the playbooks feature will be deprecated region-wise. After the feature is deprecated, you can no longer access, create, or launch playbooks. Existing playbooks will not be migrated, hence we recommend that you define sequences for the playbook use cases that you want to carry over. Learn more about [sequences](create-manage-sequences.md).  
+Effective July 2023, the playbooks feature is deprecated. You can no longer access, create, or launch playbooks. If you've added playbook entries to your custom app, remove them manually. Playbooks are replaced by sequences. [Learn more about sequences](create-manage-sequences.md).  
 
 <a name='talking-points'></a>
 ## Talking points is deprecated
