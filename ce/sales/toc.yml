@@ -1202,6 +1202,8 @@
           href: developer/entities/list.md
         - name: Metric
           href: developer/entities/metric.md
+          name: developer/entities/msdyn_callablecontext.md
+          href: msdyn_callablecontext.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
