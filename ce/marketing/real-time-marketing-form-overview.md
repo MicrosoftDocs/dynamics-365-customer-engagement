@@ -1,7 +1,7 @@
 ---
 title: Overview of real-time marketing forms
 description: Overview of real-time marketing forms in Dynamics 365 Marketing.
-ms.date: 05/11/2023
+ms.date: 07/20/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -22,6 +22,9 @@ A marketing form is an inbound communication channel that allows your customers 
 Each marketing form is made from a collection of fields, buttons, graphical elements, and a few configuration settings. Each field included in your form is linked to an attribute of an entity in Dynamics 365 Marketing.
 
 The real-time marketing form editor allows you to easily and quickly create and publish forms. You can choose a template or start from scratch. You can also design form content using drag-and-drop elements and preview options. Once your form is ready, you can publish the form in one quick step.
+
+> [IMPORTANT]
+> There's a limit of 2,000 requests/minute per org. The request limit includes visits, lookup, CAPTCHA, and form submission. The limit allows around 100 to 500 submissions/minute, depending on the form.
 
 ## Comparison of real-time and outbound marketing forms
 
