@@ -23,7 +23,7 @@ The procedures include tables with entity information and corresponding sample s
 
 ## Migrate configuration using a solution
 
-Certain configuration items can be moved between environments using solutions. If there is configuration added in your unified routing setup in the list below these can be moved using a solution. Add the following components to a solution, export the solution and import it into the target environments:
+You can use solutions to move certain configuration items between environments. If a configuration in your unified routing setup has the following items, they can be moved using a solution.
 
 1. Add the components to a solution and export
    1. Agent Script (msdyn_productivityagentscripts)
@@ -139,7 +139,7 @@ Perform the following steps to export and import the rulesets:
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 > [!NOTE]
-> You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
+> Set the Calendar Item associated with the Operating Hour entity correctly after you import the Operating Hour entity into the target environment.
 
 For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
@@ -181,7 +181,7 @@ For sample schema to get all the required records, see [Sample schema for record
 ### Step 3: Export and import rulesets for overflow conditions
 
 > [!IMPORTANT]
-> When the Queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first.
+> When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first.
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
