@@ -41,7 +41,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 ## Enable the Integrated Search API trigger flow
 
 > [!NOTE]
-> To turn on the **Integrated Search API trigger** flow, you must have the **prvReadWorkflow** Global-level privileges.
+> To turn on the **Integrated Search API trigger** flow, you must have the **prvReadWorkflow** (Global-level) privileges.
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 

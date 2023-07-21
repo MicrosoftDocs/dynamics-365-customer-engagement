@@ -60,6 +60,7 @@ If style tags are visible in an article's content summary, it means that style t
 You can search the knowledge base directly, without viewing a case or conversation first, in Customer Service Hub.
 
 1. In Customer Service Hub, under **Knowledge**, select **Knowledge Search**.
+1. Enter a keyword in the search box.
 
 :::image type="content" source="media/search-kb-article.png" alt-text="Screenshot that shows a direct search for a knowledge article in Knowledge Search in Customer Service Hub.":::
 
