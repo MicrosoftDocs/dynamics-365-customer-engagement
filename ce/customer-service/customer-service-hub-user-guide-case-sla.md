@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/19/2023
+ms.date: 07/21/2023
 search.audienceType: 
   - admin
   - customizer
@@ -107,15 +107,19 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 
 When you create an SLA KPI instance for an entity other than the Case entity, the **Regarding** column appears as blank for the SLA KPI instance of the entity. This is a by-design behavior and is also applicable to custom entities.
 
-You can use the following query to create a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
+Perform the following steps to add a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
 
 1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
 1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
 1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.
 1. Select **Name** and then select **OK**.
 1. Select **Results**. You'll see the **Name (regarding)** column displaying the name of the entity.
+
+You can also use the following query to add a new column called **Name (Regarding)**.
+
 1. From **Advanced Find**, select **Download Fetch XML**.
-1. Paste the following query on the URL to see the full name of target entity for the SLA KPI Instance record.
+1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api). 
+Here's an example: https:// your org link/api/data/v9.2/entity name?fetchXml=enter the following query.
 
 ```
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
@@ -135,7 +139,6 @@ You can use the following query to create a new column called **Name (Regarding)
   </entity>
 </fetch>
 ```
-For more information on how to use the query, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
 
 ### See also
 
