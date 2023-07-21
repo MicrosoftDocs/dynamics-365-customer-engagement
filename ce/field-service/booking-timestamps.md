@@ -1,7 +1,7 @@
 ---
 title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.date: 02/23/2023
+ms.date: 06/20/2023
 ms.topic: how-to
 author: clearab
 ms.author: anclear
@@ -36,6 +36,9 @@ Think of a default work order process.
 1. After completing the work, they set the booking status to *Completed*.
 
 The system saves every change of the booking status to keep a track record.
+
+> [!TIP]
+> Bookings have a duration of at least one minute.
 
 ## View timestamps
 

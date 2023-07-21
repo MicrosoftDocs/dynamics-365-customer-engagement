@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 04/25/2023 
+ms.date: 06/27/2023 
 ms.custom: bap-template 
 ---
 
@@ -26,7 +26,7 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 - [Inbound: Azure direct routing](#inbound-azure-direct-routing)
 - [Outbound: Azure direct routing](#outbound-azure-direct-routing)
 
-The following table summarizes the pricing for each scenario.The prices in the following examples are for illustrative purposes and may not reflect the latest Azure pricing in your region.
+The following table summarizes the pricing for each scenario. The prices in the following examples are for illustrative purposes and might not reflect the latest Azure pricing in your region.
 
 |Scenario  | Price   |
 |----------|-----------|
@@ -34,8 +34,11 @@ The following table summarizes the pricing for each scenario.The prices in the f
 |PSTN outbound    | $0.013 per minute      |
 |VOIP inbound| $0.004 per minute   |
 |SBC to Azure Communication Services | $0.004 per minute   |
-
-
+|ROW Consumption Unit – Inbound -> PSTN inbound rate |  $0.022 per minute |
+| App to App Group Calling User Minute –> VOIP rate | $0.004 per minute |
+|ROW Consumption Unit – Outbound –> PSTN outbound rate | $0.013 per minute|
+|Single Channel Mixed Audio Recording –> Recording rate| $0.004 per minute   |
+ 
 ## Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
 
 Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Power Virtual Agents interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
@@ -44,11 +47,11 @@ Mae calls your Azure Communication Services US toll-free number from a mobile de
 
 Cost calculation:
 
-- One participant on PSTN (inbound from Mae)x 10 minutes x 0.022 per participant per minute = $0.22.
+- One participant on PSTN (inbound from Mae) x 10 minutes x 0.022 per participant per minute = $0.22.
 - One participant on Voice over Internet Protocol (VOIP) (inbound to Power Virtual Agents bot) X 2 x $0.004 per minute = $0.008.
   > [!NOTE]
-  > The VOIP call to the Power Virtual Agents bot isn't covered by the intelligent voice bot minutes included in the Voice Channel for Dynamics 365 Customer Service license.
-- One participant on VOIP (inbound to Matias)x 8 x $0.004 per participant per minute= $0.032.
+  > The VOIP call to the Power Virtual Agents bot isn't covered by the intelligent voice bot minutes included in the Voice Channel Add-in license.
+- One participant on VOIP (inbound to Matias) x 8 x $0.004 per participant per minute= $0.032.
 
 **Total cost for the call**: $0.22 + $0.008 + $0.032 = $0.26.
 

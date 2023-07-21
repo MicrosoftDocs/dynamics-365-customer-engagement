@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 06/01/2023
+ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
@@ -42,7 +42,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
   ### [Enhanced Active Conversation page](#tab/enhancedcustomersummarypage)
 
- - If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
+  If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
    > [!NOTE]
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
    > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
@@ -67,7 +67,9 @@ Depending on the settings that are enabled for you, you'll see one of the follow
  
   ### [Enhanced Active Conversation&mdash;Customer Details](#tab/enhancedcustomer)
 
-   Displays the customer or account details configured by your administrator. You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
+   Displays the customer or account details. The fields displayed on this card are based on your administrator's configuration. For more information, go to [Add the Customer 360 component to a case form](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form).<br>
+
+   You can edit the customer or account details inline, without navigating to another tab. However, if you see the default **Customer(Contact or Account)** card, your administrator has disabled the enhanced **Customer Details** experience for the **Active Conversation** form.
  
    :::image type="content" source="media/enh-custsummary-conv.png" alt-text="View enhanced CustomerContact or Account" :::
 
@@ -106,15 +108,15 @@ This section displays recent cases related to the customer.
 
 Depending on the settings that are enabled for you, you'll see one of the following layouts:
 
-   ### [Enhanced Active Conversation&mdash;Recent Case](#tab/enhancedrecentcases)
+   ### [Enhanced Active Conversation&mdash;Recent case](#tab/enhancedrecentcases)
 
-   Displays the recent cases raised by the customer. However, if you see the default **Recent Cases** card, your administrator has disabled the enhanced **Recent Case** experience for the **Active Conversation** form.
+   Displays the recent cases raised by the customer. However, if you see the default **Recent cases** card, your administrator has disabled the enhanced recent case experience for the **Active Conversation** form.
 
    :::image type="content" source="media/enh-custsummary-recent.png" alt-text="enh Case details section of the active conversation page"::: 
     
    ### [Default Active Conversation&mdash;Recent case](#tab/recentcase)
     
-   View the default Recent cases experience.
+   View the default recent cases experience.
 
    :::image type="content" source="media/customer-summary-recent-cases.png" alt-text="enh Case details section of the active conversation page"::: 
   

@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 05/10/2023
+ms.date: 07/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,6 +18,26 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Exchange-based cards will be deprecated
+
+Starting from Sunday, October 1, 2023, the following Exchange-based cards will be deprecated:  
+-	Send Content Request Card
+-	Task Due Today Exchange Card
+-	Upcoming Meeting Exchange Card 
+-	Recent Meeting Exchange Card
+-	Lead Detection Card
+-	Meeting Today Exchange Card
+-	Missed Email Card
+-	Issue Detection Card
+-	Meeting Request Card 
+-	Yes or No Card
+
+After the cards are deprecated, they’ll no longer be available. You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
+
+## Rank optimization of insight cards will be deprecated
+
+Starting from Sunday, October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and will not apply to insight cards. To optimize and prioritize the cards, turn off those cards that are not in use. [Learn more](edit-insight-cards.md#turn-cards-on-or-off).
 
 <a name='playbooks'></a>
 ## Playbooks will be deprecated
