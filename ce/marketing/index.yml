@@ -94,6 +94,8 @@ additionalContent:
           text: Personalize content
         - url:  dynamic-email-content
           text: Add dynamic content to email messages
+        - url: real-time-marketing-dynamic-content-multiple-languages.md
+          text: Create dynamic content for multiple countries and languages
       - title: Analytics
         links:
         - url: real-time-marketing-analytics.md
@@ -123,3 +125,22 @@ additionalContent:
           text: Event Setup
         - url: event-management-dashboard.md
           text: Manage events
+
+  - title: AI Capabilities with Real-time Marketing & Key Scenario Guides
+    items:
+      - title: Copilot capabilities
+        links:
+        - url: content-ideas.md
+          text: Use Copilot to generate email content ideas
+        - url: real-time-marketing-natural-language-segments.md
+          text: Target the right customers using the query assist copilot
+        - url: real-time-marketing-push-notifications.md
+          text: Create push notifications
+      - title: Real-time marketing scenarios
+        links:
+        - url: real-time-marketing-email-get-started.md
+          text: Send a targeted email blast in real-time marketing
+        - url: real-time-marketing-event-registration-journey.md
+          text: Boost event engagement with real-time journeys
+        - url: real-time-marketing-customer-care-journey.md
+          text: Identify and resolve errors with real-time customer care journeys
