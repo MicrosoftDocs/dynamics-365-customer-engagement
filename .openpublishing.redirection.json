@@ -25327,6 +25327,21 @@
       "source_path": "ce/marketing/transparency-note-content-ideas.md",
       "redirect_url": "/dynamics365/marketing/faqs-content-ideas",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-how-to-follow-up.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-journey.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-webinar-follow-up.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
     }
   ]
 }
