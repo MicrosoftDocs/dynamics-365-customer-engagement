@@ -32,32 +32,36 @@ highlightedContent:
 
 additionalContent:
   sections:
-  - title: Implement
+  - title: Getting started
     items: 
-    - title: Try/buy/install
+    - title: Try/buy
       links:
       - url: trial-signup.md
         text: Sign up for a free Marketing trial
-      - url: trial-faq.md
-        text: Marketing trial FAQ
       - url: marketing-license.md
         text: Dynamics 365 Marketing licensing
       - url: direct-purchase.md
         text: Purchase a license directly from a trial
       - url: purchase-setup.md
-        text: Buy a subscription
-      - url: real-time-marketing-install.md
-        text: Install 
-    - title: Set up 
+        text: Buy a subscription 
+    - title: Installation and Setup Guide
       links:
       - url: get-started.md
         text: Marketing app Setup
+      - url: real-time-marketing-install.md
+        text: Install
       - url: power-platform-admin-center.md
         text: Manage environments
+    - title: Licensing and FAQ
+      links:
       - url: install-manage-faq.md
-        text: Installation and environment management FAQ
+        text: Installation and environment management FAQ 
+      - url: trial-faq.md
+        text: Marketing trial FAQ
+      - url: real-time-marketing-known-issues.md
+        text: Real-time marketing known issues
 
-  - title: Arsenal of Marketing Tools
+  - title: Core functionality
     items:
       - title: Email marketing and Automation
         links:
@@ -80,6 +84,10 @@ additionalContent:
         links:
         - url: real-time-marketing-personalization.md
           text: Personalize content
+        - url:  dynamic-email-content
+          text: Add dynamic content to email messages
+      - title: Analytics
+        links:
         - url: real-time-marketing-analytics.md
           text: Marketing Analytics
         - url: real-time-marketing-optimize-lead-management.md
