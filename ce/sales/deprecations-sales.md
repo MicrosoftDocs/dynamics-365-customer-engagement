@@ -22,7 +22,7 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 <a name='playbooks'></a>
 ## Playbooks is deprecated
 
-Effective July 2023, the playbooks feature is deprecated. You can no longer access, create, or launch playbooks. If you've added playbook entries to your custom app, remove them manually. Existing playbooks will not be migrated, hence we recommend that you define sequences for the playbook use cases that you want to carry over.  [Learn more about sequences](create-manage-sequences.md).  
+Effective July 2023, the playbooks feature is deprecated. You can no longer access, create, or launch playbooks. If you've added playbook entries to your custom app, remove them manually. Playbooks are replaced by sequences. [Learn more about sequences](create-manage-sequences.md).  
 
 <a name='talking-points'></a>
 ## Talking points is deprecated
