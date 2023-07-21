@@ -1,10 +1,13 @@
 ---
 title: View and understand the Ongoing conversation report in Omnichannel real-time analytics
 description: Learn how supervisors can use the Ongoing conversation report to view information about the conversations handled by agents in real time.
-ms.date: 04/27/2023
-ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.collection:
+ms.date: 07/21/2023
+ms.custom: bap-template
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -31,7 +34,7 @@ The conversation list shows current ongoing conversations from the last 24 hours
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md)<br>
-[Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md)<br>
+[Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md#view-and-understand-the-agents-report-in-omnichannel-real-time-analytics)<br>
 [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics)

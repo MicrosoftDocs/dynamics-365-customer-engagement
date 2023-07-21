@@ -1,15 +1,18 @@
 ---
 title: Overview of the real-time Omnichannel analytics dashboard
 description: Use this article to get an introduction to real-time Omnichannel analytics dashboard in the Omnichannel for Customer Service and Customer Service workspace apps.
-ms.date: 04/27/2023
-ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.collection:
+ms.date: 07/21/2023
+ms.custom: bap-template
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.collection: get-started
+
 ---
 
-# Overview of the real-time Omnichannel analytics dashboard
+# Overview of Omnichannel real-time analytics dashboard
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

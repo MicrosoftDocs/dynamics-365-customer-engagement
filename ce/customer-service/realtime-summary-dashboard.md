@@ -1,16 +1,19 @@
 ---
 title: View and understand the Summary report in Omnichannel real-time analytics
 description: Learn about the real-time Summary report to help your organization provide a better customer service experience.
-ms.date: 04/27/2023
-ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.collection:
+ms.date: 07/21/2023
+ms.custom: 
+  - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
   - enduser
-ms.custom: 
-  - dyn365-customerservice
 
 ---
 # View and understand the Summary report in Omnichannel real-time analytics
@@ -55,7 +58,7 @@ To view more details about agent analytics by queue, select the **Show more** li
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md)<br>
-[Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md)<br>
+[Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)<br>
 [View and understand the Ongoing conversation report in Omnichannel real-time analytics](realtime-ongoing.md)
