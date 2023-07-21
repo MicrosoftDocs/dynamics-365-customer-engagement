@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: alfergus
   ms.author: alfergus
-  ms.date: 07/20/2023
+  ms.date: 07/21/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -85,6 +85,22 @@ additionalContent:
           text: Personalize triggers using conditions
         - url: real-time-marketing-journey-designer.md
           text: Real-time journey designer customization
+      - title: AI Capabilities with Real-time Marketing & Key Scenario Guides
+        links:
+        - url: content-ideas.md
+          text: Use Copilot to generate email content ideas
+        - url: real-time-marketing-natural-language-segments.md
+          text: Target the right customers using the query assist copilot
+        - url: real-time-marketing-push-notifications.md
+          text: Create push notifications
+      - title: Real-time marketing scenarios
+        links:
+        - url: real-time-marketing-email-get-started.md
+          text: Send a targeted email blast in real-time marketing
+        - url: real-time-marketing-event-registration-journey.md
+          text: Boost event engagement with real-time journeys
+        - url: real-time-marketing-customer-care-journey.md
+          text: Identify and resolve errors with real-time customer care journeys
 
   - title: Real-time Engagement and Analytics
     items:
@@ -123,21 +139,16 @@ additionalContent:
         - url: event-management-dashboard.md
           text: Manage events
 
-  - title: AI Capabilities with Real-time Marketing & Key Scenario Guides
+  - title: Related products
     items:
-      - title: Copilot capabilities
-        links:
-        - url: content-ideas.md
-          text: Use Copilot to generate email content ideas
-        - url: real-time-marketing-natural-language-segments.md
-          text: Target the right customers using the query assist copilot
-        - url: real-time-marketing-push-notifications.md
-          text: Create push notifications
-      - title: Real-time marketing scenarios
-        links:
-        - url: real-time-marketing-email-get-started.md
-          text: Send a targeted email blast in real-time marketing
-        - url: real-time-marketing-event-registration-journey.md
-          text: Boost event engagement with real-time journeys
-        - url: real-time-marketing-customer-care-journey.md
-          text: Identify and resolve errors with real-time customer care journeys
+        # Card
+
+        - title: Dynamics 365 Customer Insights
+          summary: Customer Insights can help you build a deeper understanding of your customers. 
+          url: /dynamics365/customer-insights/overview
+        - title: Dynamics 365 Sales
+          summary: Use Dynamics 365 Sales to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. 
+          url: /dynamics365/sales/overview
+        - title: Microsoft Dataverse
+          summary:  Securely store and manage data that's been used by business applications.
+          url: /power-apps/maker/data-platform/
