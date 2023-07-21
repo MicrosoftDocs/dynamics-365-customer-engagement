@@ -96,13 +96,13 @@ If you're using the out-of-the-box assignment methods for queues, such as highes
 
 The assignment rulesets must be available in the system before the Configutation Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
-### Step 1: Export and import rulesets without selection criteria
-
 > [!IMPORTANT]
 >
 > - For every import of queue records, you must either create new queue records or update existing queue records. You must not mix the actions in the same data import.
 > - When all records in the data.xml of queue entity are for creation, ensure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also have the field for msdyn_queuetype.
 > - When all records in the data.xml of queue entity are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also not have that field for msdyn_queuetype.
+
+### Step 1: Export and import rulesets without selection criteria
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
@@ -145,7 +145,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### Step 2: Export and import rulesets with selection criteria defined
 
-The following table summarizes the entities and corresponding FetchXML samples: 
+The following table summarizes the entities and corresponding FetchXML samples:
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
