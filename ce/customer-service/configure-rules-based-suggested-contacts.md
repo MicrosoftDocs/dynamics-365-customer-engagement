@@ -95,6 +95,11 @@ public class ContactSuggestionCustomActionOutput
     }
   }
 ```
+### Language localization
+
+To ensure that your language is localized, make sure you have Read privileges for the following entities:
+- msdyn_contactsuggestionrule
+- msdyn_contactsuggestionruleset
 
 ### See also
 
