@@ -94,12 +94,12 @@ To apply security roles to users, and to customize each role, do the following:
 
 <a name="inspect-roles"></a>
 
-## Inspect and customize security roles
+## Inspect and create your own copy of security roles
 
 All model-driven apps in Dynamics 365 come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific security roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
 
 > [!IMPORTANT]
-> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
+> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. You cannot customize the out-of-box roles. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will need to update your custom roles after each update to grant access to new entities.
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
