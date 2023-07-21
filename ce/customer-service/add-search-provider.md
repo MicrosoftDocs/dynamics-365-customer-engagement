@@ -17,9 +17,6 @@ With integrated search providers in Dynamics 365 Customer Service, you can confi
 
 If you're a first-time user, you must provision integrated search providers. Make sure that you have the following privileges:
 
-- At the Basic level: **prvReadconnector**
-- At the Global level:
-
 - Basic level: **prvReadconnector**
 - Global level:
   - **prvReadWorkflow**

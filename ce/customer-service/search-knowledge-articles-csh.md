@@ -57,13 +57,11 @@ If style tags are visible in an article's content summary, it means that style t
 
 ## Search the knowledge base directly in Customer Service Hub
 
-In Customer Service Hub, you can search the knowledge base directly, without first viewing a case or conversation.
+You can search the knowledge base directly, without viewing a case or conversation first, in Customer Service Hub.
 
 1. In Customer Service Hub, under **Knowledge**, select **Knowledge Search**.
 
 :::image type="content" source="media/search-kb-article.png" alt-text="Screenshot that shows a direct search for a knowledge article in Knowledge Search in Customer Service Hub.":::
-
-    :::image type="content" source="media/search-kb-article.png" alt-text="Screenshot of knowledge search in Customer Service Hub.":::
 
 Legend:
 1. The search box
@@ -172,12 +170,12 @@ In Customer Service workspace and Omnichannel for Customer Service, when you sel
 
 In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator has configured this option. To view those results, select the source in the list under **Knowledge**.
 
-**In Customer Service Hub**
+In Customer Service Hub:
 
 > [!div class=mx-imgBorder]
 > ![Screenshot of the agent view of search providers in Customer Service Hub.](media/search-provider-agent.png "Screenshot of the agent view of search providers in Customer Service Hub")
 
-**In Customer Service workspace**
+In Customer Service workspace:
 
 For more information on setting up search providers, see [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers).
 
