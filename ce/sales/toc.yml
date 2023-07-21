@@ -571,12 +571,6 @@
               href: optimize-ranking-insight-cards.md
             - name: Add the assistant widget to custom forms
               href: add-assistant-widget-custom-forms.md
-        - name: Playbook management
-          items:
-            - name: Define playbook categories
-              href: define-playbook-categories.md
-            - name: Manage playbook templates
-              href: manage-playbook-templates.md
     - name: Relationship intelligence
       items:
         - name: Relationship intelligence overview
@@ -975,18 +969,6 @@
               href: assistant.md
             - name: Stay updated with cards in assistant
               href: action-cards-reference.md
-        - name: Playbook management
-          items:
-            - name: Associate documents with playbook activities
-              href: associate-documents-playbook-activities.md
-            - name: Enforce best practices with playbooks
-              href: enforce-best-practices-playbooks.md
-            - name: Launch a playbook to carry out activities consistently
-              href: launch-playbook.md
-            - name: Mark playbook as completed
-              href: mark-playbook-completed.md
-            - name: Track playbook activities
-              href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
         - name: Relationship analytics and KPIs overview
@@ -1230,23 +1212,6 @@
           href: developer/entities/opportunitysalesprocess.md
         - name: OrderClose
           href: developer/entities/orderclose.md
-        - name: Playbooks
-          items:
-            - name: Table reference
-              href: developer/reference/playbook-entity-reference.md
-              items:
-                - name: msdyn_playbookinstance
-                  href: developer/entities/msdyn_playbookinstance.md
-                - name: msdyn_playbookactivity
-                  href: developer/entities/msdyn_playbookactivity.md
-                - name: msdyn_playbookactivityattribute
-                  href: developer/entities/msdyn_playbookactivityattribute.md
-                - name: msdyn_playbookcategory
-                  href: developer/entities/msdyn_playbookcategory.md
-                - name: msdyn_playbooktemplate
-                  href: developer/entities/msdyn_playbooktemplate.md
-                - name: msdyn_callablecontext
-                  href: developer/entities/msdyn_callablecontext.md
         - name: PriceLevel
           href: developer/entities/pricelevel.md
         - name: Product
