@@ -552,6 +552,8 @@
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure rules-based suggestions for contacts in Teams
+        href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
       - name: Configure customer support swarming
