@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/19/2023
+ms.date: 07/24/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -115,9 +115,9 @@ In the Customer Service admin center app, do the following steps:
 
         :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-## Configure overflow override
+## Configure rule-specific overflows
 
-Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
+Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules at the workstream level.
 
 1. In the Customer Service admin center, go to the required workstream and select the route-to-queue rule in which the queue is configured.
 
