@@ -76,7 +76,7 @@ The existing queues will be automatically migrated to unified routing.
 
 No. Basic routing can be used only for cases. To route any record type, use unified routing.
 
-### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?<a name="queue-prioritization"></a>
+### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
 No. There's no priority among queues. However, you can prioritize records within a queue.
 
