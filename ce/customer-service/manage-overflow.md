@@ -117,9 +117,9 @@ In the Customer Service admin center app, do the following steps:
 
 ## Configure rule-specific overflows
 
-Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules at the workstream level.
+Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules for a workstream.
 
-1. In the Customer Service admin center, go to the required workstream and select the route-to-queue rule in which the queue is configured.
+1. In the Customer Service admin center, go to the workstream and select the route-to-queue rule in which the queue is configured.
 
 1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**.
 
