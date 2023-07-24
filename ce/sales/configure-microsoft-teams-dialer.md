@@ -74,9 +74,17 @@ Additionally, you must grant the following permissions to your users:
 
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
 
+
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
 
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.
+
+    - **Display missed calls in the Dynamics 365 in-app notification center**
+
+        Allows sellers to see missed calls in the in-app notification center in Dynamics 365. Before you enable this feature, complete the following actions:  
+            - [Allow in-app notifications for the app](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
+            - For the security roles that need to see the notifications, grant read permissions for the **Notification** entity under the **Custom entity** tab.
+                :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
 
     - **Transfer calls (preview)**
 
