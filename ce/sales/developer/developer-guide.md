@@ -37,7 +37,6 @@ Welcome to the Dynamics 365 Sales Developer Guide.
   <li><a href="../developer/entities/opportunity.md" data-raw-source="[Opportunity](../developer/entities/opportunity.md)">Opportunity</a></li>
   <li><a href="../developer/entities/product.md" data-raw-source="[Product](../developer/entities/product.md)">Product</a></li>
   <li><a href="../developer/entities/quote.md" data-raw-source="[Quote](../developer/entities/quote.md)">Quote</a></li>
-  <li><a href="../developer/reference/playbook-entity-reference.md" data-raw-source="[Playbooks](../reference/playbook-entity-reference.md)">Playbooks</a></li>
   <li><a href="../developer/entities/salesorder.md" data-raw-source="[SalesOrder](../developer/entities/salesorder.md)">SalesOrder</a></li>
 
 </td>
