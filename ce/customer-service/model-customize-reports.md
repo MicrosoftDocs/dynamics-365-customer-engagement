@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 06/12/2023
+ms.date: 07/24/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,22 +40,17 @@ Before you begin, you must complete the following prerequisites:
 - Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators.
 
 - Enable insights features in Dynamics 365 Customer Service:
+
     - If you are enabling historical data model customization, you must enable at least one of the historical reports, such as customer service historical analytics, Omnichannel historical analytics, or knowledge analytics. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
     - If you are enabling real-time data model customization, you must enable real-time analytics for Omnichannel. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
 
-- Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following:  
+- Create an Azure Active Directory security group:
 
-     - **Create workspace (new workspace experience)**: Enabling this creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports. More information: [Create workspaces (new workspace experience)](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience)
+    - Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
-    - **Allow service principals to use Power BI APIs**: This uses the Power BI APIs for creating workspaces, deploying reports and models. More information: [Enable service principals](/power-bi/enterprise/service-premium-service-principal#enable-service-principals)  
+        The out-of-the-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. 
 
-    - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring additional data sources, they will create composite models which requires DirectQuery enabled. More information: [Managing composite models on Power BI datasets](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets)
-
-- Provide **Dynamics 365 service principal** access to Power BI.
-
-     - Your Azure Active Directory administrators must create a security group in Microsoft Azure Active Directory with a preferred name of your choice. Add **Dynamics 365 Analytics** as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
-
-        The out-of-the-box **Service Principal Dynamics 365 Analytics** is leveraged to deploy the data model and make changes to the Power BI workspace on behalf of Dynamics 365 Customer Service. Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
+        Permissions within Power BI can be granted only to groups and not individual service principals, and therefore a group needs to be created.
         
     > [!NOTE]
     > In organizations where Dynamics 365 Analytics may not be available, you need to use Dynamics CCA Data Analytics.
@@ -64,8 +59,19 @@ Before you begin, you must complete the following prerequisites:
 
         - **Service Principal** in the **Developer settings**.
         - Create **workspaces** in the **Tenant settings**.
+
+
+- Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following:  
+
+     - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports. You can choose to enable it for the entire organization or just for the security group created earlier.
+
+    - [**Allow service principals to use Power BI APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This uses the Power BI APIs for creating workspaces, deploying reports and models. You can choose to enable it for the entire organization or just for the security group created earlier.
+
+    - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring additional data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built with Dynamics dataset require this permission. You can choose to enable this for your entire organization, or work with your Active Directory administrator to identify a security group that has all the required Dynamics users.
+  
+    - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring additional data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on to of Dynamics dataset require this permission. Users who view reports built with Dynamics dataset require this permission. You can choose to enable this for your entire organization, or work with your Active Directory administrator to identify a security group that has all the required Dynamics users.
         
-    - If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user login) enabling the model customization is a workspace administrator of that Power BI workspace.
+- If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user login) enabling the model customization is a workspace administrator of that Power BI workspace.
 
 ## Enable Power BI data model customization
 
