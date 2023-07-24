@@ -552,6 +552,8 @@
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure rules-based suggestions for contacts in Teams
+        href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
       - name: Configure customer support swarming
@@ -792,9 +794,9 @@
         href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
-      - name: Send custom context
+      - name: Send custom context during live chat
         href: send-context-starting-chat.md
-      - name: Display custom context
+      - name: Display custom context in Conversation summary
         href: display-custom-context.md
     - name: Customizer experience
       items: 
@@ -1004,8 +1006,21 @@
         href: configure-bot-virtual-agent.md
     - name: Developer experience
       items: 
-      - name: Enable bot context NuGet package
+      - name: Configure bot context
         href: enable-bot-context.md
+        items:
+        - name: Azure bots
+          items:
+          - name: Enable bot context for Azure bots
+            href: enable-bot-context-azure.md
+          - name: Parse event activity JSON to get bot context
+            href: parse-activity-json-to-get-bot-context.md
+        - name: Power Virtual Agents
+          items:
+          - name: Enable bot context for Power Virtual Agents bots
+            href: enable-bot-context-pva.md   
+        - name: Code samples for parsing activity JSON 
+          href: bot-context-json-samples.md
       - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
@@ -1170,6 +1185,8 @@
           href: oob-data-models.md
         - name: Data model mapping for real-time analytics reports
           href: datamapping-realtime.md
+        - name: Dataverse entities used in historical and real-time analytics
+          href: dataverse-entities.md
     - name: Customize analytics
       items: 
       - name: Customize KPIs for intraday insights
@@ -1827,16 +1844,16 @@
       href: troubleshoot-sla-issues.md
     - name: Unable to delete a managed solution
       href: troubleshoot-delete-managed-solution.md
-    - name: Known issues in Customer Service and Omnichannel for Customer Service
-      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
     - name: Troubleshoot issues using Solution Health Hub
       href: troubleshoot-using-solution-health-hub.md
-    - name: Report issues in Omnichannel for Customer Service
-      href: report-issues.md
     - name: Troubleshoot issues with integrated search providers
       href: int-search-troubleshoot.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
+    - name: Report issues in Omnichannel for Customer Service
+      href: report-issues.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
   - name: FAQ about Customer Service
