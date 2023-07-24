@@ -77,7 +77,7 @@ Use the `Prepare for upcoming meetings` prompt to get a list of meetings in the 
 
 Use the `Show latest news for account` prompt to get the latest news about an account, curated from Bing. Sales Copilot lists articles featuring or mentioning the account. These news updates can be great conversation starters and help you understand the current dynamics in your customers' organization. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
 
-### Show email that are not replied
+### Show emails that are not replied
 
 The Copilot serves as a prompt to ensure that emails that you forget to reply are not missed. When you open the **Chat** tab, the **Show my unanswered email** option is displayed. Select this option to access the list of emails that remain unreplied. To be included in the list, the emails must meet the following criteria:  
 
