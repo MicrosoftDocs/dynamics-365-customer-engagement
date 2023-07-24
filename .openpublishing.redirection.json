@@ -441,6 +441,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterhandle.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterhandlesecret.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_twitterengagementctx.md",
+      "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },            
+    {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
       "redirect_url": "/power-apps/user/customize-insert-email-template",
       "redirect_document_id": "false"
@@ -24330,6 +24350,71 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/associate-documents-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/define-playbook-categories.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookactivity.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookactivityattribute.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookcategory.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbookinstance.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/entities/msdyn_playbooktemplate.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/reference/playbook-entity-reference.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enforce-best-practices-playbooks.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/launch-playbook.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-playbook-templates.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/mark-playbook-completed.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/track-playbook-activities.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales-professional/enable-creation-of-orders-from-quotes.md",
       "redirect_url": "/dynamics365/sales/enable-creation-of-orders-from-quotes",
       "redirect_document_id": "false"
@@ -25251,6 +25336,41 @@
     {
       "source_path": "ce/customer-service/int-search-troubleshoot.md",
       "redirect_url": "/troubleshoot/dynamics-365/customer-service/knowledge-management/data-not-updated-integrated-search-providers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-compliance-settings-preview.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-compliance-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-email-text-consent-preview.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-email-text-consent",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/transparency-note-overview.md",
+      "redirect_url": "/dynamics365/marketing/responsible-ai-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/transparency-note-content-ideas.md",
+      "redirect_url": "/dynamics365/marketing/faqs-content-ideas",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-how-to-follow-up.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-journey.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/teams-webinar-follow-up.md",
+      "redirect_url": "/dynamics365/marketing/teams-webinar",
       "redirect_document_id": "false"
     }
   ]

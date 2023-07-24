@@ -552,6 +552,8 @@
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure rules-based suggestions for contacts in Teams
+        href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
       - name: Configure customer support swarming
@@ -782,9 +784,9 @@
         href: send-auth-token-starting-chat.md       
       - name: Configure automatic closure of conversations
         href: auto-close-conversation.md
-      - name: Send custom context
+      - name: Send custom context during live chat
         href: send-context-starting-chat.md
-      - name: Display custom context
+      - name: Display custom context in Conversation summary
         href: display-custom-context.md
     - name: Customizer experience
       items: 
@@ -912,7 +914,7 @@
     items: 
     - name: Copilot in Customer Service
       items:
-      - name: Configure Copilot in Customer Service
+      - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
       - name: Configure copilot settings for custom case forms and custom apps
         href: copilot-powerapps-settings.md
@@ -994,8 +996,21 @@
         href: configure-bot-virtual-agent.md
     - name: Developer experience
       items: 
-      - name: Enable bot context NuGet package
+      - name: Configure bot context
         href: enable-bot-context.md
+        items:
+        - name: Azure bots
+          items:
+          - name: Enable bot context for Azure bots
+            href: enable-bot-context-azure.md
+          - name: Parse event activity JSON to get bot context
+            href: parse-activity-json-to-get-bot-context.md
+        - name: Power Virtual Agents
+          items:
+          - name: Enable bot context for Power Virtual Agents bots
+            href: enable-bot-context-pva.md   
+        - name: Code samples for parsing activity JSON 
+          href: bot-context-json-samples.md
       - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
@@ -1160,6 +1175,8 @@
           href: oob-data-models.md
         - name: Data model mapping for real-time analytics reports
           href: datamapping-realtime.md
+        - name: Dataverse entities used in historical and real-time analytics
+          href: dataverse-entities.md
     - name: Customize analytics
       items: 
       - name: Customize KPIs for intraday insights
@@ -1307,8 +1324,6 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new omnichannel messaging platform
-      href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
