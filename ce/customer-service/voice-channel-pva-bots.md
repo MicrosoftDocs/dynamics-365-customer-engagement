@@ -82,7 +82,8 @@ More information:
    1. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
 > [!IMPORTANT]
-> In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+> - In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+> - To avoid call disconnection, ensure that all agents refresh their browsers frequently to be available for customers. If any problem persists, ask agents to reconnect their Power Virtual Agents bot.
 
 ### See also
 
