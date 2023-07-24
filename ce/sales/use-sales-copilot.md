@@ -79,7 +79,7 @@ Use the `Show latest news for account` prompt to get the latest news about an ac
 
 ### Show email that are not replied
 
-The Copilot serves as a prompt to ensure that emails that you forget to reply are not missed. When you open the **Chat** tab, the **Show my unanswered email** option is displayed. Select this option to access the list of emails that remain unreplied. To be included in the list, the email must meet the following criteria:  
+The Copilot serves as a prompt to ensure that emails that you forget to reply are not missed. When you open the **Chat** tab, the **Show my unanswered email** option is displayed. Select this option to access the list of emails that remain unreplied. To be included in the list, the emails must meet the following criteria:  
 
 - Emails that have been pending for past three to seven days from the current day. However, any email that surpasses the seven-day mark will no longer be displayed in the list.
 - Email should contain a buying intent, a question, a query, or an action item.  
