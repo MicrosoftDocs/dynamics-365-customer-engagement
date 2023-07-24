@@ -25309,6 +25309,36 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/troubleshoot-case-email-issue.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-sla-issues.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/welcome-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-delete-managed-solution.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/service-level-agreements/unable-delete-sla-enabled-entity-managed-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-omnichannel-customer-service.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/welcome-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-using-solution-health-hub.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/customer-service-insights/troubleshoot-cs-oc-solution-health",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/int-search-troubleshoot.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/knowledge-management/data-not-updated-integrated-search-providers",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-compliance-settings-preview.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-compliance-settings",
       "redirect_document_id": "false"
