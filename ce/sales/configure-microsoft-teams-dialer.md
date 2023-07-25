@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
-ms.date: 06/07/2023
+ms.date: 07/25/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,7 +33,7 @@ As an administrator, you must configure Microsoft Teams dialer to enable sellers
 
 Ensure that you meet the following requirements before you configure Microsoft Teams dialer in the Sales Hub app:
 
-- A license for using Microsoft Teams. Any Microsoft Teams license will work. [Learn more about Microsoft Teams add-on licenses.](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
+- A license for using Microsoft Teams. Any Microsoft Teams license works. [Learn more about Microsoft Teams add-on licenses.](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
 - An installed phone system and a valid license to use it. [Learn more about how to set up a phone system.](/MicrosoftTeams/setting-up-your-phone-system)
 - A valid public switched telephone network (PSTN) connection through a Teams calling plan, your own PSTN carrier, or direct routing. [Learn more about PSTN connectivity options.](/microsoftteams/pstn-connectivity?source=recommendations)
 - An assigned phone number. [Learn more about how to manage telephone numbers for your organization.](/microsoftteams/manage-phone-numbers-landing-page)
@@ -64,8 +64,6 @@ Additionally, you must grant the following permissions to your users:
     >
     > Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
-    :::image type="content" source="media/teams-dialer-configuration-page.svg" alt-text="Microsoft Teams calls configuration page." lightbox="media/teams-dialer-configuration-page.svg":::
-
 1. Turn on **Teams calls**.
 
     By default, the following options are turned on:
@@ -74,9 +72,17 @@ Additionally, you must grant the following permissions to your users:
 
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
 
+
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
 
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.
+
+    - **Display missed calls in the Dynamics 365 in-app notification center**
+
+        Allows sellers to see missed calls in the in-app notification center in Dynamics 365. Before you enable this feature, complete the following actions:  
+            - [Allow in-app notifications for the app](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
+            - For the security roles that need to see the notifications, grant read permissions for the **Notification** entity under the **Custom entity** tab.
+                :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
 
     - **Transfer calls (preview)**
 
