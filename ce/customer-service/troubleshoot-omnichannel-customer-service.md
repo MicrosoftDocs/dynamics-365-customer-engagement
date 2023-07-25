@@ -55,11 +55,11 @@ If your tenant has an expired Microsoft 365 license, then the provisioning of Om
 
 To avoid the provisioning failure, you must remove the Microsoft Teams service principal and Skype Teams Calling API Service in Microsoft Entra ID, and add it back. Follow these steps to remove the services:
 
-1. Identify the services in Azure AD.
+1. Identify the services in Microsoft Entra ID.
 2. Use PowerShell to remove Microsoft Teams and Skype Teams Calling API Service.
 3. Add the service principal back.
 
-#### Identify the services in Azure AD
+#### Identify the services in Microsoft Entra ID
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 2. Select **Azure Active Directory** in the left pane.
@@ -122,7 +122,7 @@ After removing the expired Microsoft Teams license from the tenant, you can add 
    > [!NOTE]
    > Ignore the error page that appears with the message "no reply URLs configured".
 
-3. Sign in to the [Azure portal](https://portal.azure.com/) as a tenant admin to enable Azure AD for user sign-in.
+3. Sign in to the [Azure portal](https://portal.azure.com/) as a tenant admin to enable Microsoft Entra ID for user sign-in.
 
 4. Go to **Azure Active Directory** > **Enterprise Applications**.
 

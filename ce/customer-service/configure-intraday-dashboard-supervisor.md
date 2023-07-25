@@ -81,7 +81,7 @@ Review the following prerequisites before configuring the supervisor insights:
       More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
 
-   1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+   1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Microsoft Entra ID.
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
 

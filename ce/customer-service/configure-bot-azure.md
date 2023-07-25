@@ -77,7 +77,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from the Azure AD (Active Directory) that you noted earlier from the **Prerequisites** section.
+    - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
     - **Bot handle**: Enter the bot handle that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.
