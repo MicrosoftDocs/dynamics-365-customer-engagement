@@ -9,9 +9,10 @@ ms.author: shjais
 
 # Digital selling capabilities in Sales Enterprise
 
-Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
+Use selected Dynamics 365 Sales Premium features&mdash;sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring&mdash;with the Dynamics 365 Sales Enterprise license.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -25,8 +26,7 @@ Dynamics 365 digital selling capabilities spearhead the digital transformation o
 In the Sales Hub app, you can set up digital selling capabilities from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
->- If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit.
->- Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md)  
+> If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there's no monthly capacity limit. 
 
 <br>
 
@@ -42,7 +42,7 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Sales accelerator     | 1,500 sequence-connected records per month        |  No limit       |
 |Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, upgrade to Sales Premium license.         | 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).        |
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
-|Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information)| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) | 
+|Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information), generated from Dynamics 365 data.| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information), generated from Dynamics 365 and Exchange data. | 
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
@@ -56,6 +56,8 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
     - [Microsoft Teams collaboration](digital-selling-teams-collab.md)
     - [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
     - [Lead and opportunity scoring](digital-selling-scoring.md)
+        > [!NOTE]
+        > Basic relationship insights and who knows whom information are available for early access to Sales Enterprise customers out-of-the-box and does not require any setup. More information: [View relationship analytics and KPIs](relationship-analytics.md).
 
     After you've set up the features, the **Quick setup** button changes to **Edit settings**. Select **Edit settings** to update the settings as required.
 
