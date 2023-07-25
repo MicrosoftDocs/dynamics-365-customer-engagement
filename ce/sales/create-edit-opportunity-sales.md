@@ -80,8 +80,8 @@ Create an opportunity with the details you have. You can update the opportunity 
   
 ### See also 
 
-[Import opportunity records](/powerapps/user/import-data)
-[Create an opportunity by using the Quick create option on the command bar](/powerapps/user/create-a-record)
+[Import opportunity records](/powerapps/user/import-data)  
+[Create an opportunity by using the Quick create option on the command bar](/powerapps/user/create-a-record)  
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  

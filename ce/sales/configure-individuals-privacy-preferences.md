@@ -44,6 +44,6 @@ To view the tracking preferences for all the recipients of a message, select **V
 
 ### See also
 
-[Turn on email engagement](configure-email-engagement.md)
-[View message interactions with email engagement](email-engagement.md)
-[Create and send an email message](create-send-email-message.md)
+[Turn on email engagement](configure-email-engagement.md)  
+[View message interactions with email engagement](email-engagement.md)  
+[Create and send an email message](create-send-email-message.md)  
