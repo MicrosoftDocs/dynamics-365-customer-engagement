@@ -1,7 +1,7 @@
 ---
 title: Plan, publicize, and collect registrations for events
 description: An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing.
-ms.date: 07/05/2023
+ms.date: 07/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -47,13 +47,11 @@ Dynamics 365 Marketing offers two solutions for Event Management: outbound and r
 >
 > If your event website is [self-hosted](./developer/self-hosted.md), you must [install the latest self-hosted sample website](./developer/event-management-web-application.md) to maintain functionality after applying any Marketing update.
 
-## When to use real-time marketing and when to use outbound marketing Event Management
+## When to use real-time and when to use outbound marketing for event management
 
-Real time marketing solution for event management is a new solution of event management that currently has a subset of features of outbound version and several improvements.
+Real-time marketing contains a subset of outbound event management features plus several improvements. The following table compares the real-time and outbound marketing event management features.
 
-Key features availability:
-
-|     Feature     |     Outbound Marketing    |     Real-Time Marketing    |
+|     Feature     |     Outbound marketing    |     Real-time marketing    |
 |---|---|---|
 |     Single session event    |     Yes    |     Yes    |
 |     Multi-session event          |     Yes    |     Yes    |
@@ -62,11 +60,12 @@ Key features availability:
 |     Sessions, session tracks, speaker management    |     Yes    |     Yes    |
 |     Venue management    |     Yes    |     Yes    |
 |     Tracking sponsors    |     Yes    |     Yes    |
-|     Creating Teams Meetings/Live Events/Webinars    |     Yes    |     Yes    |
-|     Support of On24 and other Generic Webinar Providers      |     Yes    |     N/A    |
-|     Using Marketing forms for registrations    |     Yes    |     Yes    |
+|     Creating Teams meetings/live events/webinars    |     Yes    |     Yes    |
+|     Support for On24 and other generic webinar providers      |     Yes    |     N/A    |
+|     Using marketing forms for registrations    |     Yes    |     Yes    |
 |     Waitlist    |     Yes    |     N/A    |
 |     Payments    |     Yes    |     N/A    |
-|     Lead Entity Registration    |     Yes    |     N/A    |
+|     Lead entity registration    |     Yes    |     N/A    |
+|     Set registrations end date    |    Yes    |    N/A    |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
