@@ -1,10 +1,7 @@
 ---
-title: "Test custom triggers before using them (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to test custom triggers before using them in real-time journeys in Dynamics 365 Marketing."
+title: Test custom triggers before using them
+description: Learn how to test custom triggers before using them in real-time journeys in Dynamics 365 Marketing.
 ms.date: 10/06/2022
-ms.custom: 
-  - dyn365-admin
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus

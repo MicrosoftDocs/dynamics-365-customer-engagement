@@ -18,9 +18,9 @@ search.audienceType:
 Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, Infobip, LINK Mobility, Telesign or Twilio and how to create and send text messages in real-time marketing.
 
 > [!NOTE]
-> Text messaging using a toll free number generated in the Azure Communication Services preview is only supported in the countries listed below.
+> Text messaging using a toll free number generated in the Azure Communication Services preview is only supported in the countries/regions listed below.
 >
->| Supported countries | Supported type | Legal designation | Range    |
+>| Supported countries/regions | Supported type | Legal designation | Range    |
 >|---------------------|----------------|-------------------|----------|
 >| United States                 | Toll-free      | Transactional     | Domestic |
 
