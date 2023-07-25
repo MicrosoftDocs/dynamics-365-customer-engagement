@@ -9,7 +9,7 @@ ms.author: shjais
 
 # Digital selling capabilities in Sales Enterprise
 
-Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
+Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -34,7 +34,7 @@ In the Sales Hub app, you can set up digital selling capabilities from the **Get
 
 ## Licensing options
 
-When you set up digital sales with Sales Enterprise license, you get to explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or would like access to all the premium features, you must [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table contains information about the capacity available with the Sales Enterprise and Sales Premium licenses.
+When you set up digital sales with Sales Enterprise license, you get to explore Sales Premium features such as the sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or would like access to all the premium features, you must [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table contains information about the capacity available with the Sales Enterprise and Sales Premium licenses.
 
 
 |Feature  |Sales Enterprise license  |Sales Premium license  |
@@ -42,6 +42,7 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Sales accelerator     | 1,500 sequence-connected records per month        |  No limit       |
 |Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, upgrade to Sales Premium license.         | 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).        |
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
+|Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information)| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) | 
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 

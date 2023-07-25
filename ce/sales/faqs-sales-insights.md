@@ -75,7 +75,7 @@ The following table lists the regions in which Sales Premium features are availa
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Who knows whom | Yes | Yes | No | Yes | Yes | No | No | No | No | Yes | No | No | No |
+| Who knows whom | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
 
 ### Which version of Exchange is supported for features in Sales Premium?
 
