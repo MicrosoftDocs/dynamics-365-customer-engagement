@@ -19,7 +19,7 @@ The rollout of removing the Omnichannel Administration app has started and will 
 
 ## Do I need to migrate any records?
 
-If you want to continue to use workstreams created in the Omnichannel Administration app, then you must migrate them to the Customer Service admin center app by using the information that's available in this article. You need to migrate them because the backend tables for the workstreams and the routing services are different in both the apps. The legacy routing service of the deprecated app will also be shut down.
+If you want to continue to use the workstreams that were created in the Omnichannel Administration app, then you must migrate them to the Customer Service admin center app. The backend tables for the workstreams and the routing services are different in both the apps. The legacy routing service of the deprecated app will also be shut down.
 
 If you are already using Customer Service admin center and unified routing, you don't need to take any action.
 
@@ -29,7 +29,7 @@ If the workstreams or any related records like rules that you are using are visi
 
 ## How do I validate if the migration is successful?
 
-After you have migrated all the workstream configurations from Omnichannel Administration, they are recreated in Customer Service admin center. Use the steps in the following section to do a sanity check.
+After you have migrated all the workstream configurations from Omnichannel Administration, they'll be available in Customer Service admin center. Use the steps in the following section to do a sanity check.
 
 ## Use the migration application for legacy workstreams
 
