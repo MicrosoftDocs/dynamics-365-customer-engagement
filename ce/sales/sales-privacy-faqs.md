@@ -38,5 +38,5 @@ The following list includes services that currently don't support CMK:
 
 ### See also
 
-[Dynamics 365 Sales and privacy laws and regulations](dynamics-365-sales-privacy.md)
-[Sales Insights and privacy laws](embedded-intelligence-privacy.md)
+[Dynamics 365 Sales and privacy laws and regulations](dynamics-365-sales-privacy.md)  
+[Sales Insights and privacy laws](embedded-intelligence-privacy.md)  
