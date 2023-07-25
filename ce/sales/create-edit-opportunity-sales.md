@@ -80,17 +80,16 @@ Create an opportunity with the details you have. You can update the opportunity 
   
 ### See also 
 
-[Import opportunity records](/powerapps/user/import-data)  
-[Create an opportunity by using the Quick create option on the command bar](/powerapps/user/create-a-record)  
-[Add products to an opportunity](add-products-opportunity.md)  
-[Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
-[Recalculate an opportunity](recalculate-opportunity.md)  
-[Close an opportunity](close-opportunity-won-lost-sales.md)  
-[Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
-[Troubleshooting the Opportunity entity](ts-opportunities.md)  
-[Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
-[Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
-[Print quote, invoice, or other records](print-records.md)  
-[Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
+- [Import opportunity records](/powerapps/user/import-data)  
+- [Add products to an opportunity](add-products-opportunity.md)  
+- [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
+- [Recalculate an opportunity](recalculate-opportunity.md)  
+- [Close an opportunity](close-opportunity-won-lost-sales.md)  
+- [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
+- [Troubleshooting the Opportunity entity](ts-opportunities.md)  
+- [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
+- [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
+- [Print quote, invoice, or other records](print-records.md)  
+- [Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
