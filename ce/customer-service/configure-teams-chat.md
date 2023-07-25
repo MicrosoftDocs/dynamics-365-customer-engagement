@@ -221,7 +221,7 @@ You can choose from the following options for assigning permissions to agents:
 ### Assign disconnect chat rights to specific users
 
 You can assign the ability to disconnect chats to record owners or users who connected a chat to a record. For new organizations, by default, these settings are enabled.
-   - **Record owner can disconnect chats **: When enabled, record owners can disconnect any chats that are connected to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
+   - **Record owner can disconnect chats**: When enabled, record owners can disconnect any chats that are connected to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
    - **Chat connector can disconnect chat**: When enabled, users who connected a chat to the Dynamics 365 record can disconnect that connected chat. This permission can also be assigned at the record level.
 
 **To enable or disable user-specific rights to disconnect chats:**
