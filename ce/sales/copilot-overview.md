@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot overview (preview)
 description: Learn about Sales Copilot (preview), an AI assistant that helps your sales team be more productive and efficient in their daily work.
-ms.date: 07/18/2023
+ms.date: 07/25/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -59,12 +59,13 @@ Meeting preparation helps you prepare for your upcoming meetings effortlessly us
 
 More information: [Prepare for upcoming meetings](use-sales-copilot.md#prepare-for-upcoming-meetings)
 
-### ### Email assistance
+### Email assistance
 
 Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content. Using the email assistance capabilities, you can do the following tasks:  
+
 - [Compose and send email messages using Copilot](compose-send-email-copilot.md)  
+
 - [View and copy email summary](view-copy-email-summary.md)  
-- [Use Copilot in rich text editor for email](/power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context)
 
 
 ### News updates

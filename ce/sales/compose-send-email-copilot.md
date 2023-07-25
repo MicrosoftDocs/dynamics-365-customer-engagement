@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 07/18/2023
+ms.date: 07/25/2023
 ms.custom: bap-template
 ---
 
@@ -74,4 +74,3 @@ After you’ve generated the suggested content, you can refine the results furth
 ### See also
 
 [Copilot overview](copilot-overview.md)  
-[Use Copilot in rich text editor for email](/power-apps/maker/model-driven-apps/use-copilot-email-assist?context=/dynamics365/context/sales-context)
