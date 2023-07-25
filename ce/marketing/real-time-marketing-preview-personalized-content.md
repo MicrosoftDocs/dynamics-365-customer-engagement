@@ -1,7 +1,7 @@
 ---
 title: Preview personalized content
 description: Learn how to preview personalized content in Dynamics 365 Marketing.
-ms.date: 07/06/2023
+ms.date: 07/25/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -45,7 +45,7 @@ The following table details how to preview different types of personalized conte
 | Customer Voice                                   | Uses selected CV Survey<br>(Shown as anonymous link)                                                           |
 
 > [!NOTE]
-> 1. When an audience record is selected, any dynamic text and lists that use audience as data a source will be resolved using data from the selected record. You can enter sample values for the remaining dynamic text, if any, that is not using audience as its source.
+> 1. When an audience record is selected, any dynamic text and lists that use audience as data a source will be resolved using data from the selected record. You can enter sample values for the remaining dynamic text, if any, that is not using audience as its source. However, inline condition and conditional content are NOT evaluated using audience record or the sample data provided for trigger. For **inline conditions**, select **True** or **False** values manually to preview its outcome. Similarly, for **conditional content**, select a **variation** to see its preview. 
 > 1. When dynamic text is defined using a specific record and a record is not actually selected, preview uses default values. If a record is selected, preview uses data from that record.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
