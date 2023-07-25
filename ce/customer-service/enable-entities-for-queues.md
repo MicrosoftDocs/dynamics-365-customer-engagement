@@ -15,7 +15,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
-2. Select **Tables**, select the required table such as **Account** or **Email** for which you want to enable queues.
+2. Select **Tables** and then select the required table such as **Account** or **Email** for which you want to enable queues.
 
 5. In **Table properties**, select **Properties**.
 
@@ -25,7 +25,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 > [!NOTE]
 >- You can't disable the table, if you enable it for a queue. The app disables the **Can be added to a queue** checkbox after you select it.
->- If you enable the option - **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records.
+>- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records.
 
 <br><br> ![Automatic record movement to the agent's default queue.](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
