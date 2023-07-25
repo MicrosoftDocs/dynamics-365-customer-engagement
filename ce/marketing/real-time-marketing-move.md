@@ -1,7 +1,7 @@
 ---
 title: Move from outbound to real-time marketing
 description: Learn how to deploy real-time marketing functionality in Dynamics 365 Marketing.
-ms.date: 07/10/2023
+ms.date: 07/19/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -17,9 +17,9 @@ Real-time marketing is the next generation of Dynamics 365 Marketing features. A
 
 Read more about the transition to real-time marketing: [Adapting to evolving customer expectations: staying ahead in the new marketing landscape](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/transition-to-real-time-marketing-and-transform-your-customer-experience/)
 
-## Real-time marketing vs. outbound marketing features
+## Advantages of real-time marketing + Customer Insights
 
-The following table summarizes the benefits of real-time marketing features versus outbound marketing features.
+The following table summarizes the benefits of using real-time marketing and Customer Insights together.
 
 | Scenario                                                                                                                                                                                                                      | Outbound marketing                                                                                                                                                | Real-time marketing                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

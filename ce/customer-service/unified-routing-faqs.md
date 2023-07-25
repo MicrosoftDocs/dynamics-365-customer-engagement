@@ -2,7 +2,7 @@
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
 ms.date: 01/11/2023
-ms.topic: concept
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
