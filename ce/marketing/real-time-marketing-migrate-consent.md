@@ -102,7 +102,7 @@ If you have set up a subscription list to track individuals who don't wish to be
 > * Create contact point consent records
 > * Update contact point consent records
 > 
-> For more information on security roles, visit [Security roles and privileges](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/admin/security-roles-privileges?view=op-9-1#security-roles)
+> For more information on security roles, visit [Security roles and privileges](https://learn.microsoft.com/dynamics365/customerengagement/on-premises/admin/security-roles-privileges?view=op-9-1#security-roles)
 
 ### See also
 
