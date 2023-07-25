@@ -13,6 +13,11 @@ ms.author: nenellim
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
+You can also minimize the communication panel. When you select **Minimize**, the communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-early-access.md)]
+
+
 You can do the following tasks in the communication panel:
 
 - Send quick replies.

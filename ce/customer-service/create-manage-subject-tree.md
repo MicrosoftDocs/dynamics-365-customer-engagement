@@ -18,6 +18,8 @@ ms.custom:
 Dynamics 365 Customer Service includes a subject organizational structure that lets you group service cases and knowledge base articles. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
 
 The search control for the subject tree entity is available by default for out of the box and custom forms. If you'd like to disable the search control, please contact Microsoft support.
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-early-access.md)]
   
 ## Create or edit a subject
 
