@@ -19,3 +19,4 @@ ms.custom:
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
 - [FAQ for Copilot in Customer Service](faq-copilot-for-customer-service.md)
+- [Use copilot to solve customer issues](use-copilot-features.md)
