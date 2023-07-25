@@ -64,8 +64,6 @@ Additionally, you must grant the following permissions to your users:
     >
     > Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
-    :::image type="content" source="media/teams-dialer-configuration-page.svg" alt-text="Microsoft Teams calls configuration page." lightbox="media/teams-dialer-configuration-page.svg":::
-
 1. Turn on **Teams calls**.
 
     By default, the following options are turned on:
