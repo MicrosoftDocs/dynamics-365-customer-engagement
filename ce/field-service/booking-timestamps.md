@@ -50,7 +50,7 @@ Each booking timestamp includes the following information:
 
 ## Generate booking journals
 
-Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking keeps the the estimated end time value. *Canceled* bookings won't have any booking journal records.
+Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time will preserve the previous end time value. *Canceled* bookings won't have any booking journal records.
 
 There are a few types of booking journals:  
 
