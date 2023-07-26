@@ -768,6 +768,10 @@
               href: copilot-overview.md
             - name: Use Copilot capabilities
               href: use-sales-copilot.md
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
+            - name: View and copy email summary
+              href: view-copy-email-summary.md
         - name: Activity management
           items:
             - name: Add activities to the timeline
@@ -1358,6 +1362,8 @@
       href: responsible-ai-overview.md
     - name: FAQ for summarization in Sales Copilot
       href: faqs-sales-copilot-for-summarization.md
+    - name: FAQ for email in Sales Copilot
+      href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
