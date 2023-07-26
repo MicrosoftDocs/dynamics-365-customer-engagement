@@ -86,4 +86,4 @@ The duration resets to the default booking duration. Edit the end time to match 
 
 - Resources that are a member of the pool will not show as available in the schedule assistant if the pool is fully booked for the time period, even if the individual resource is not booked for the period.
 
-- Pool resources will not show as available in the schedule assistant unless at least one child resource of the pool is available during the time period.
+- Pool resources show as available in the schedule assistant if the system can distribute the planned work duration across multiple child resources. For example, if you want to schedule a task of one hour and no resource is available for the full hour, the system suggests two resources that are available for 30 minutes each.
