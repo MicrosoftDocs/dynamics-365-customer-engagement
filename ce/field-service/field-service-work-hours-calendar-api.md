@@ -15,7 +15,7 @@ In addition to using the Field Service app, you can use the following APIs to mo
 
 - The Save Calendar API (`msdyn_SaveCalendar`) creates or updates calendar records on a selected entity, based on the inputs passed as the request.
 - The Delete Calendar API (`msdyn_DeleteCalendar`) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the request.
-- The Save/Delete Calendar API V2 (msdyn_SaveCalendar/msdyn_DeleteCalendar, pass flag UseV2) allows multiple work hour recurrences simultaneously by altering the logic for overlapping rules. View Overlapping rules FAQ below> 
+- The Save/Delete Calendar API V2 (msdyn_SaveCalendar/msdyn_DeleteCalendar, pass flag UseV2) allows multiple work hour recurrences simultaneously by altering the logic for overlapping rules. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).
 
 This topic contains details about each API's input (request) and output (response), and their usage, with examples.
 
@@ -163,7 +163,7 @@ The request contains only one attribute&mdash;**CalendarEventInfo**, which is a 
 |RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or earlier, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as-is. The default value for occurrences is null. The default value for recurrences is 30 Dec 9999, 23:59:59 hours, UTC<!--note from editor: Shouldn't this be in ISO 8601 format?-->.|
 |RecurrenceSplit|	Boolean|	No|	This key is specific to recurrences. It's set to `true` for editing "This and following occurrences" of a recurrence.|
 |ResourceId	| GUID |	No|	This key contains the **SystemUserId** or **ResourceId** and is only to be passed when the entity associated with this call is a bookable resource of type **SystemUser**. This is necessary to check for OwnCalendar privileges on the **Service Management** tab.|
-|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see FAQ Overlapping Rules.|
+|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
 #### RulesAndRecurrences
 
@@ -201,7 +201,7 @@ This POST API creates or modifies calendar rule records for the selected entity.
 |InnerCalendarId|	GUID|	Yes|	This field describes the ID of the **InnerCalendarId** that needs to be deleted. If there are multiple **InnerCalendarIds** associated with a single rule, any one ID is sufficient here. More information about inner and outer calendars: [Calendar entities](/dynamics365/customerengagement/on-premises/developer/calendar-entities) |
 |CalendarId	|GUID	|Yes|	This field describes the **CalendarId** of the entity. |
 |IsVaried	|Boolean	|No	|This field is specific to recurrences, and is set to `yes` if a custom recurrence rule is being deleted. |
-|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see FAQ Overlapping Rules.|
+|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
 ### Output
 
