@@ -42,7 +42,7 @@ The portal requires users to create a portal profile before they can sign in and
 
 ## Book an appointment
 
-1. Sign in to the portal. On the homepage, select **Book a new appointment**.
+1. Sign in to the portal. On the home page, select **Book a new appointment**.
 
 1. Choose the product and service type.
 
@@ -72,21 +72,21 @@ You can change an appointment in the portal by choosing a new date and time, or 
 
 ### Traveling
 
-Appointments in the **Traveling** state mean the technician is on their way to a service appointment. Appointments set to **Traveling** appear in the **Active appointment** section on the portal homepage.
+Appointments in the **Traveling** state mean the technician is on their way to a service appointment. Appointments set to **Traveling** appear in the **Active appointment** section on the portal home page.
 
-If [technician tracking is turned on](customer-portal-technician-tracking.md), the portal shows the technician's location on a map. They can see the location by selecting **View Live Map**.
+If [technician tracking is turned on](customer-portal-technician-tracking.md), the portal shows the technician's location on a map. You can see the location by selecting **View Live Map**.
 
 > [!div class="mx-imgBorder"]
 > ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
 
-If there are multiple appointments set to traveling, only one will appear in the **Active appointment**. The other active appointments will be listed in the **Upcoming appointments** section, but the **View Live Map** option will appear.
+If multiple appointments are set to traveling, only one will appear in the **Active appointment**. The other active appointments will be listed in the **Upcoming appointments** section, but the **View Live Map** option will appear.
 
 > [!NOTE]
 > Technicians must [share their location from the Field Service mobile app](mobile-powerapp-location-auditing.md) for location tracking and the estimated travel time. There's a small delay between their actual location and the location on the map. The delay can increase with limited network coverage of the technician's mobile device.
 
 ### In Progress
 
-Appointments set to **In Progress** appear in the **Upcoming appointments** section of the portal homepage. Appointments in progress can't be changed or canceled.
+Appointments set to **In Progress** appear in the **Upcoming appointments** section of the portal home page. Appointments in progress can't be changed or canceled.
 
 ### Scheduled
 
@@ -95,7 +95,7 @@ Scheduled appointments show in the **Upcoming appointments** section. You can ch
 > [!div class="mx-imgBorder"]
 > ![List of upcoming scheduled appointments in the customer experience portal.](./media/homepage-homepage-with-upcoming-bookings.jpg)
 
-### Canceled or Completed
+### Canceled or completed
 
 Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md#configuration-tab) to send feedback show on completed appointments.
 
@@ -120,13 +120,13 @@ To set the required role:
 
 A contact with a matching email will only receive the portal invite once, even if the contact is deleted and readded to the system. You can work around this with the following steps:
 
-1. Go to **Portal Management** app in the Power Apps admin center.
+1. Go to the **Portal Management** app in the Power Apps admin center.
 1. Open the newly created contact record.
 1. On the command bar, select **Create Invitation**.
 1. From the newly created invitation record, copy the *Invite code*.
 1. Go to the **Web Roles** tab and select **Add existing web role**.
-1. Select the *Web Api Users* web role.
-1. Send the invite code and the portal link to desired email contact.
+1. Select the **Web Api Users** web role.
+1. Send the invite code and the portal link to the desired email contact.
 
 From the portal side:
 

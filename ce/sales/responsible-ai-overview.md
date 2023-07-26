@@ -18,3 +18,4 @@ ms.reviewer: shujoshi
 
 - [FAQ for summarization in Sales Copilot](faqs-sales-copilot-for-summarization.md)
 - [FAQ for email in Sales Copilot](faqs-sales-copilot-for-email.md)
+
