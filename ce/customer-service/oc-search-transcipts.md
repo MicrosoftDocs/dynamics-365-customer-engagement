@@ -25,6 +25,9 @@ As an agent, you communicate with customers to resolve issues. All those convers
 
 You can now view the details in the **Transcript** section.
 
+> [!NOTE]
+> Only your System Administrator has access to view other agents conversations.
+
 ### See also
 
 [Configure relevance search for chat transcript](relevance-search-chat-transcript.md)
