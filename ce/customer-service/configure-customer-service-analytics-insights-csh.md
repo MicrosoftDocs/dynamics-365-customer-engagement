@@ -50,7 +50,7 @@ Users with the system administrator or supervisor role can access the analytics 
     - [Report Bookmarks](manage-bookmarks.md)
 
     > [!NOTE]
-    > For custom roles, select **Read** privileges for [all the entities used by historical and real-time analytics](dataverse-entities.md) as applicable.
+    > For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](dataverse-entities.md), as applicable.
 
 1. Select **Save and close**.
 
