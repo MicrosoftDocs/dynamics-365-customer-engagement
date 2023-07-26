@@ -1,15 +1,23 @@
 ---
-title: "msdyn_ocsession Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocsession entity."
-ms.date: 03/23/2020
+title: "msdyn_ocsession table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocsession table/entity."
+ms.date: 07-26-2023
+ms.service: "powerapps"
 ms.topic: "reference"
-author: "gandhamm"
-ms.author: mgandham
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
+search.audienceType: 
+  - developer
+search.app: 
+  - PowerApps
+  - D365CE
 ---
-# msdyn_ocsession Entity Reference
+# msdyn_ocsession table/entity reference
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
+> [!NOTE]
+> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Session for interacting with a customer
 
 **Added by**: Omnichannel – Base Solution
@@ -19,21 +27,28 @@ Session for interacting with a customer
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_ocsessions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_ocsessions(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.BulkRetainRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_ocsessions(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_ocsessions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
+|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RollbackRetainRequest>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest>|
 
-## Entity Properties
+## Properties
 
 |Property|Value|
 |--------|-----|
@@ -51,9 +66,9 @@ Session for interacting with a customer
 
 <a name="writable-attributes"></a>
 
-## Writable attributes
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ActivityAdditionalParams](#BKMK_ActivityAdditionalParams)
 - [ActivityId](#BKMK_ActivityId)
@@ -80,13 +95,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msdyn_botengagementmode](#BKMK_msdyn_botengagementmode)
 - [msdyn_cdsqueueid](#BKMK_msdyn_cdsqueueid)
 - [msdyn_channel](#BKMK_msdyn_channel)
+- [msdyn_channelinstanceid](#BKMK_msdyn_channelinstanceid)
 - [msdyn_closurereason](#BKMK_msdyn_closurereason)
 - [msdyn_liveworkitemid](#BKMK_msdyn_liveworkitemid)
 - [msdyn_primarysession](#BKMK_msdyn_primarysession)
 - [msdyn_queueassignedon](#BKMK_msdyn_queueassignedon)
+- [msdyn_queueassignedreason](#BKMK_msdyn_queueassignedreason)
 - [msdyn_queueid](#BKMK_msdyn_queueid)
+- [msdyn_routingfailurestage](#BKMK_msdyn_routingfailurestage)
 - [msdyn_sessionclosedon](#BKMK_msdyn_sessionclosedon)
 - [msdyn_sessioncreatedon](#BKMK_msdyn_sessioncreatedon)
+- [msdyn_sessioncreationreason](#BKMK_msdyn_sessioncreationreason)
 - [msdyn_sessionid](#BKMK_msdyn_sessionid)
 - [msdyn_sessionmodifiedon](#BKMK_msdyn_sessionmodifiedon)
 - [msdyn_state](#BKMK_msdyn_state)
@@ -243,7 +262,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### Community Options
+#### Community Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -263,6 +282,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |13|Skype|
 |14|Slack|
 |15|WhatsApp|
+|16|Apple Messages For Business|
+|17|Google's Business Messages|
 
 
 
@@ -295,7 +316,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### DeliveryPriorityCode Options
+#### DeliveryPriorityCode Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -398,7 +419,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsBilled Options
+#### IsBilled Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -421,7 +442,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsMapiPrivate Options
+#### IsMapiPrivate Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -444,7 +465,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### IsWorkflowCreated Options
+#### IsWorkflowCreated Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -484,7 +505,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Boolean|
 
-#### LeftVoiceMail Options
+#### LeftVoiceMail Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -537,7 +558,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_botengagementmode Options
+#### msdyn_botengagementmode Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -564,8 +585,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_msdyn_channel"></a> msdyn_channel
 
-**Added by**: Omnichannel - Base Patch Solution
-
 |Property|Value|
 |--------|-----|
 |Description|The channel type of the session|
@@ -576,7 +595,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_channel Options
+#### msdyn_channel Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -594,7 +613,24 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192380000|Video|
 |192390000|Co-browse|
 |192400000|Screen sharing|
+|192440000|Voice call|
+|192450000|Apple Messages for Business|
+|192450001|Google's Business Messages|
 
+
+
+### <a name="BKMK_msdyn_channelinstanceid"></a> msdyn_channelinstanceid
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier to identify the app to which this conversation belogs to.|
+|DisplayName|Channel Instance ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_channelinstanceid|
+|RequiredLevel|None|
+|Targets|msdyn_channelinstance|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_closurereason"></a> msdyn_closurereason
@@ -609,7 +645,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_closurereason Options
+#### msdyn_closurereason Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -625,8 +661,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350009|VirtualAgentClosed|
 |192350010|AgentTransferToQueue|
 |192350011|SupervisorAssignToQueue|
+|192350012|SupervisorTransferToAgent|
 |192350013|SystemReject|
 |192350014|ForceClose|
+|192350015|OverflowQueueTransfer|
+|192350016|OverflowEndConversation|
+|192350017|AddAgentFailed|
+|192350018|AutoClose|
+|192350019|SecondaryChannelClosed|
+|192350020|CustomerDisconnect|
+|192350021|AgentEndConversation|
+|192350022|CustomerEndConversation|
 
 
 
@@ -645,8 +690,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_msdyn_primarysession"></a> msdyn_primarysession
-
-**Added by**: Omnichannel - Base Patch Solution
 
 |Property|Value|
 |--------|-----|
@@ -675,6 +718,70 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|DateTime|
 
 
+### <a name="BKMK_msdyn_queueassignedreason"></a> msdyn_queueassignedreason
+
+**Added by**: Omnichannel Conversation Extension Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Reason for Queue Assignment|
+|DisplayName|Queue Assignment Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_queueassignedreason|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_queueassignedreason Choices/Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Default|
+|192350001|AgentTransfer|
+|192350002|QueueTransfer|
+|192350003|PreChatSurvey|
+|192350004|PostchatSurvey|
+|192350005|UserAccept|
+|192350006|AutoAccept|
+|192350007|Closed|
+|192350008|AgentInviteRejected|
+|192350009|AgentInviteTimeout|
+|192350010|AgentDisconnected|
+|192350011|AgentTimeout|
+|192350012|AgentTransferred|
+|192350013|CustomerTimeout|
+|192350014|CustomerDisconnect|
+|192350015|SessionTimeout|
+|192350016|Escalated|
+|192350017|Rejected|
+|192350018|TimedOut|
+|192350019|Accepted|
+|192350020|AutoAccepted|
+|192350021|Disconnect|
+|192350022|Timeout|
+|192350023|End|
+|192350024|BotTransferSession |
+|192350025|BotEndConversation |
+|192350026|AssignToAgentBySupervisor  |
+|192350027|AssignToQueueBySupervisor  |
+|192350028|CustomerRejoin|
+|192350029|CustomerEndConversation|
+|192350030|AgentEndConversation|
+|192350031|SupervisorTransferToAgent|
+|192350032|AgentEndConsult|
+|192350033|ForceClose|
+|192350034|OverflowQueueTransfer|
+|192350035|OverflowEndConversation|
+|192350036|OverflowAssignToQueue|
+|192350037|SessionEndAfterWrapUp|
+|192350038|ConversationExpired|
+|192350039|Consult|
+|192350040|AgentMonitor|
+|192350041|AgentConversationJoin|
+|192350042|Preview|
+
+
+
 ### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
 
 |Property|Value|
@@ -687,6 +794,30 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Targets|msdyn_omnichannelqueue|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_routingfailurestage"></a> msdyn_routingfailurestage
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Routing Failure Stage|
+|DisplayName|Routing Failure Stage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_routingfailurestage|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_routingfailurestage Choices/Options
+
+|Value|Label|
+|-----|-----|
+|10|None|
+|1000|Record Identification|
+|2000|Demand Classification|
+
 
 
 ### <a name="BKMK_msdyn_sessionclosedon"></a> msdyn_sessionclosedon
@@ -717,6 +848,70 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msdyn_sessioncreatedon|
 |RequiredLevel|None|
 |Type|DateTime|
+
+
+### <a name="BKMK_msdyn_sessioncreationreason"></a> msdyn_sessioncreationreason
+
+**Added by**: Omnichannel Conversation Extension Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Reason for session creation|
+|DisplayName|Created Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_sessioncreationreason|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_sessioncreationreason Choices/Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Default|
+|192350001|AgentTransfer|
+|192350002|QueueTransfer|
+|192350003|PreChatSurvey|
+|192350004|PostchatSurvey|
+|192350005|UserAccept|
+|192350006|AutoAccept|
+|192350007|Closed|
+|192350008|AgentInviteRejected|
+|192350009|AgentInviteTimeout|
+|192350010|AgentDisconnected|
+|192350011|AgentTimeout|
+|192350012|AgentTransferred|
+|192350013|CustomerTimeout|
+|192350014|CustomerDisconnect|
+|192350015|SessionTimeout|
+|192350016|Escalated|
+|192350017|Rejected|
+|192350018|TimedOut|
+|192350019|Accepted|
+|192350020|AutoAccepted|
+|192350021|Disconnect|
+|192350022|Timeout|
+|192350023|End|
+|192350024|BotTransferSession |
+|192350025|BotEndConversation |
+|192350026|AssignToAgentBySupervisor  |
+|192350027|AssignToQueueBySupervisor  |
+|192350028|CustomerRejoin|
+|192350029|CustomerEndConversation|
+|192350030|AgentEndConversation|
+|192350031|SupervisorTransferToAgent|
+|192350032|AgentEndConsult|
+|192350033|ForceClose|
+|192350034|OverflowQueueTransfer|
+|192350035|OverflowEndConversation|
+|192350036|OverflowAssignToQueue|
+|192350037|SessionEndAfterWrapUp|
+|192350038|ConversationExpired|
+|192350039|Consult|
+|192350040|AgentMonitor|
+|192350041|AgentConversationJoin|
+|192350042|Preview|
+
 
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
@@ -762,7 +957,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_state Options
+#### msdyn_state Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -785,7 +980,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|optionalattendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,queue,systemuser,unresolvedaddress|
+|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
@@ -880,7 +1075,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### PriorityCode Options
+#### PriorityCode Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -917,7 +1112,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,opportunity,quote,salesorder,site,uii_action,uii_hostedapplication,uii_nonhostedapplication,uii_option,uii_savedsession,uii_workflow,uii_workflowstep,uii_workflow_workflowstep_mapping|
+|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_salessuggestion,msdyn_swarm,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -984,7 +1179,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|requiredattendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,queue,systemuser,unresolvedaddress|
+|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
@@ -1125,7 +1320,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Options
+#### StateCode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -1148,7 +1343,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Options
+#### StatusCode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -1258,9 +1453,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [ActivityTypeCode](#BKMK_ActivityTypeCode)
 - [CreatedBy](#BKMK_CreatedBy)
@@ -1282,6 +1477,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [msdyn_cdsqueueidName](#BKMK_msdyn_cdsqueueidName)
+- [msdyn_channelinstanceidName](#BKMK_msdyn_channelinstanceidName)
 - [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
 - [msdyn_primarysessionName](#BKMK_msdyn_primarysessionName)
 - [msdyn_queueidName](#BKMK_msdyn_queueidName)
@@ -1289,6 +1485,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
+- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
 - [OwningTeam](#BKMK_OwningTeam)
 - [OwningUser](#BKMK_OwningUser)
 - [PostponeActivityProcessingUntil](#BKMK_PostponeActivityProcessingUntil)
@@ -1463,8 +1660,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForRead|True|
 |LogicalName|exchangerate|
 |MaxValue|100000000000|
-|MinValue|0.0000000001|
-|Precision|10|
+|MinValue|0.000000000001|
+|Precision|12|
 |RequiredLevel|None|
 |Type|Decimal|
 
@@ -1481,7 +1678,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Picklist|
 
-#### InstanceTypeCode Options
+#### InstanceTypeCode Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -1505,7 +1702,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|SystemRequired|
 |Type|Boolean|
 
-#### IsRegularActivity Options
+#### IsRegularActivity Choices/Options
 
 |Value|Label|
 |-----|-----|
@@ -1651,6 +1848,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msdyn_channelinstanceidName"></a> msdyn_channelinstanceidName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_channelinstanceidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_liveworkitemidName"></a> msdyn_liveworkitemidName
 
 |Property|Value|
@@ -1668,8 +1881,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_msdyn_primarysessionName"></a> msdyn_primarysessionName
-
-**Added by**: Omnichannel - Base Patch Solution
 
 |Property|Value|
 |--------|-----|
@@ -1763,12 +1974,30 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |--------|-----|
 |Description|Unique identifier of the business unit that owns the activity.|
 |DisplayName|Owning Business Unit|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|owningbusinessunit|
 |RequiredLevel|None|
 |Targets|businessunit|
 |Type|Lookup|
+
+
+### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunitname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
@@ -1990,31 +2219,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid)
-- [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
-- [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
-- [msdyn_ocsession_sessionparticipant_nested](#BKMK_msdyn_ocsession_sessionparticipant_nested)
-
-
-### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid"></a> msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid
-
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_ocliveworkitem|
-|ReferencingAttribute|msdyn_lastsessionid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
 
-**Added by**: Omnichannel - Base Patch Solution
-
-Same as msdyn_ocsession entity [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) Many-To-One relationship.
+Same as msdyn_ocsession table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -2026,65 +2234,21 @@ Same as msdyn_ocsession entity [msdyn_msdyn_ocsession_msdyn_ocsession_primaryses
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-
-### <a name="BKMK_msdyn_ocsession_sessionevent_nested"></a> msdyn_ocsession_sessionevent_nested
-
-Same as msdyn_sessionevent entity [msdyn_ocsession_sessionevent_nested](msdyn_sessionevent.md#BKMK_msdyn_ocsession_sessionevent_nested) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_sessionevent|
-|ReferencingAttribute|msdyn_omnichannelsession|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_ocsession_sessionevent_nested|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msdyn_ocsession_sessionparticipant_nested"></a> msdyn_ocsession_sessionparticipant_nested
-
-Same as msdyn_sessionparticipant entity [msdyn_ocsession_sessionparticipant_nested](msdyn_sessionparticipant.md#BKMK_msdyn_ocsession_sessionparticipant_nested) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_sessionparticipant|
-|ReferencingAttribute|msdyn_omnichannelsession|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn_ocsession_sessionparticipant_nested|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid)
-- [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
-- [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
-
-
-### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid
-
-See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
-
-**Added by**: Active Solution Solution
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocsession Entity [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
+See msdyn_ocsession Table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+<xref href="Microsoft.Dynamics.CRM.msdyn_ocsession?text=msdyn_ocsession EntityType" />

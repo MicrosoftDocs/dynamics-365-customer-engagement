@@ -1422,6 +1422,8 @@
         href: developer/reference/entities/msdyn_conversationaction.md
       - name: msdyn_conversationactionlocale
         href: developer/reference/entities/msdyn_conversationactionlocale.md
+      - name: msdyn_conversationmessageblock
+        href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
       - name: msdyn_customengagementctx
