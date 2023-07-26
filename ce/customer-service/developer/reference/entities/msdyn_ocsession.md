@@ -5,9 +5,8 @@ ms.date: 07-26-2023
 ms.service: "powerapps"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: "gandhamm"
+ms.author: "mgandham"
 search.audienceType: 
   - developer
 search.app: 
@@ -16,8 +15,6 @@ search.app:
 ---
 # msdyn_ocsession table/entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Session for interacting with a customer
 
 **Added by**: Omnichannel – Base Solution
@@ -732,55 +729,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-#### msdyn_queueassignedreason Choices/Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Default|
-|192350001|AgentTransfer|
-|192350002|QueueTransfer|
-|192350003|PreChatSurvey|
-|192350004|PostchatSurvey|
-|192350005|UserAccept|
-|192350006|AutoAccept|
-|192350007|Closed|
-|192350008|AgentInviteRejected|
-|192350009|AgentInviteTimeout|
-|192350010|AgentDisconnected|
-|192350011|AgentTimeout|
-|192350012|AgentTransferred|
-|192350013|CustomerTimeout|
-|192350014|CustomerDisconnect|
-|192350015|SessionTimeout|
-|192350016|Escalated|
-|192350017|Rejected|
-|192350018|TimedOut|
-|192350019|Accepted|
-|192350020|AutoAccepted|
-|192350021|Disconnect|
-|192350022|Timeout|
-|192350023|End|
-|192350024|BotTransferSession |
-|192350025|BotEndConversation |
-|192350026|AssignToAgentBySupervisor  |
-|192350027|AssignToQueueBySupervisor  |
-|192350028|CustomerRejoin|
-|192350029|CustomerEndConversation|
-|192350030|AgentEndConversation|
-|192350031|SupervisorTransferToAgent|
-|192350032|AgentEndConsult|
-|192350033|ForceClose|
-|192350034|OverflowQueueTransfer|
-|192350035|OverflowEndConversation|
-|192350036|OverflowAssignToQueue|
-|192350037|SessionEndAfterWrapUp|
-|192350038|ConversationExpired|
-|192350039|Consult|
-|192350040|AgentMonitor|
-|192350041|AgentConversationJoin|
-|192350042|Preview|
-
-
 
 ### <a name="BKMK_msdyn_queueid"></a> msdyn_queueid
 
@@ -863,54 +811,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|msdyn_sessioncreationreason|
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
-
-#### msdyn_sessioncreationreason Choices/Options
-
-|Value|Label|
-|-----|-----|
-|192350000|Default|
-|192350001|AgentTransfer|
-|192350002|QueueTransfer|
-|192350003|PreChatSurvey|
-|192350004|PostchatSurvey|
-|192350005|UserAccept|
-|192350006|AutoAccept|
-|192350007|Closed|
-|192350008|AgentInviteRejected|
-|192350009|AgentInviteTimeout|
-|192350010|AgentDisconnected|
-|192350011|AgentTimeout|
-|192350012|AgentTransferred|
-|192350013|CustomerTimeout|
-|192350014|CustomerDisconnect|
-|192350015|SessionTimeout|
-|192350016|Escalated|
-|192350017|Rejected|
-|192350018|TimedOut|
-|192350019|Accepted|
-|192350020|AutoAccepted|
-|192350021|Disconnect|
-|192350022|Timeout|
-|192350023|End|
-|192350024|BotTransferSession |
-|192350025|BotEndConversation |
-|192350026|AssignToAgentBySupervisor  |
-|192350027|AssignToQueueBySupervisor  |
-|192350028|CustomerRejoin|
-|192350029|CustomerEndConversation|
-|192350030|AgentEndConversation|
-|192350031|SupervisorTransferToAgent|
-|192350032|AgentEndConsult|
-|192350033|ForceClose|
-|192350034|OverflowQueueTransfer|
-|192350035|OverflowEndConversation|
-|192350036|OverflowAssignToQueue|
-|192350037|SessionEndAfterWrapUp|
-|192350038|ConversationExpired|
-|192350039|Consult|
-|192350040|AgentMonitor|
-|192350041|AgentConversationJoin|
-|192350042|Preview|
 
 
 
