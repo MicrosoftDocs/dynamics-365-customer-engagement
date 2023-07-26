@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 07/24/2023
+ms.date: 07/26/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -54,12 +54,6 @@ Before you begin, you must complete the following prerequisites:
         
     > [!NOTE]
     > In organizations where Dynamics 365 Analytics may not be available, you need to use Dynamics CCA Data Analytics.
-
-    - Power BI administrators must add the security group created in Azure Active Directory to Power BI service settings.
-
-        - **Service Principal** in the **Developer settings**.
-        - Create **workspaces** in the **Tenant settings**.
-
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following:  
 
