@@ -79,7 +79,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Technicians indicate break time by changing the booking status to *On Break* to ensure accurate billing.
 
-1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking keeps the the estimated end time value. 
+1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time will preserve the previous end time value.
 
 1. Finally, a back-office worker reviews the completed work order and starts the billing process. They change the work order system status to *Posted*.
 
