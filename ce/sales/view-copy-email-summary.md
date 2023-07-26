@@ -17,7 +17,7 @@ Dynamics 365 Sales uses copilot to summarize email conversations and provides yo
 
 ## Prerequisites
 
-Ensure that the Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
+Ensure that the Sales Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
 ## Considerations
 
@@ -27,7 +27,7 @@ Review the following considerations before you use the email summary feature:
 
 - The email summary contains up to 400 characters.
 
-- You must verify the AI-generated content carefully, as it can have mistakes. It is your responsibility to review and edit the AI-generated summaries to make sure it’s accurate and appropriate.
+- You must verify the AI-generated content carefully, as it can have mistakes. It's your responsibility to review and edit the AI-generated summaries to make sure it’s accurate and appropriate.
 
 ## View the email summary
 

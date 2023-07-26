@@ -29,6 +29,7 @@ Sales Copilot offers the following capabilities:
 - [Record summarization](#record-summarization)
 - [Record catch up](#record-catch-up)
 - [Meeting preparation](#meeting-preparation)
+- [Email assistance](#email-assistance)
 - [News updates](#news-updates) 
 
 ### Record summarization
@@ -61,6 +62,7 @@ Use Copilot to compose professional-looking emails, respond to emails, and get e
 
 - [Compose and send email messages using Copilot](compose-send-email-copilot.md)  
 - [View and copy email summary](view-copy-email-summary.md)  
+- [Show emails that are not replied](use-sales-copilot.md#show-emails-that-are-not-replied)
 
 ### News updates
 

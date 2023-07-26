@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot for email suggests content while composing or replying to emails, saving your time  and effort. It provides AI-generated suggested drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
+Copilot for email suggests content while composing or replying to emails, saving your time  and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
@@ -21,7 +21,7 @@ Copilot for email suggests content while composing or replying to emails, saving
 
 ## Prerequisites
 
-Ensure that the Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
+Ensure that the Sales Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
 ## View the Copilot composer
 
@@ -30,11 +30,13 @@ Sign in to your sales app and the Copilot (:::image type="content" source="media
 Open an email from a record using the Up next widget, Timeline, or quick create email activity. The Copilot composer becomes active.  
 When opening an email from Timeline or quick create email activity, ensure that the Regarding field contains a lead or an opportunity.  
 
-## Compose or reply an email
+## Compose or reply to an email
 
 When you're sending an email, you can provide the context for the email in the Copilot composer, and a draft is generated. You can review the draft, copy the content to the email, and send it to recipients.  
 
-1.	On the **Copilot** pane, go to the **Compose** tab.
+1.	Open a new or an existing email from a lead or an opportunity record.
+
+1. On the **Sales Copilot** pane, go to the **Compose** tab.
 
 1. Select **Describe the email you want**.  
 
@@ -60,13 +62,13 @@ After you’ve generated the suggested content, you can refine the results furth
 
 1.	Enter a statement to refine the suggested content in the **Describe the changes you want** textbox. For example: Make it formal, make it shorter, or suggest a meeting next week. 
 1.	Press **Enter**.
-1.	Review the suggested content and select **Copy to email** to past the content in the email body.
+1.	Review the suggested content and select **Copy to email** to paste the content in the email body.
 
 **To generate different suggestion based on the statement**:
 
 1.	Select **Try again**.  
     New content is generated based on the statement. 
-1.	Review the suggested content and select **Copy to email** to past the content in the email body.  
+1.	Review the suggested content and select **Copy to email** to paste the content in the email body.  
 
 > [!NOTE]
 > To restore the content to the previous version, select the undo (:::image type="content" source="media/undo-icon.png" alt-text="Image of the undo icon.":::) icon beside **Try again**. 
