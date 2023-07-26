@@ -98,21 +98,6 @@ To apply security roles to users, and to customize each role, do the following:
 
 All model-driven apps in Dynamics 365 come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific security roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
 
-### Create a copy of a role
-
-> [!IMPORTANT]
-> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are updated to the latest versions to ensure that each role receives permissions to access the new features added by the update. You cannot customize the out-of-box roles. If you need custom security roles, start by creating a copy of an existing role that is close to what you want and then customize the copy. If you use custom security roles, you'll need to update your custom roles after each app update to grant access to new entities.
-
-To create a copy of a role:
-
-1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
-1. The advanced-settings area opens in a new browser tab. This area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
-1. Select the **Security roles** icon.
-1. Enable the check box next to the role you want to copy, then open the **More Actions** dropdown in the Security Roles toolbar and select **Copy Role...**.
-
-> [!div class="mx-imgBorder"]
-> ![Copy security role](media/copy-role.png "Copy security role") 
-
 ### Inspect security roles
 
 To find out which permissions apply to any existing security role (and/or edit a role):
@@ -134,6 +119,21 @@ Here are a few notes for working with the **Security role** settings:
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
 Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+
+### Create a copy of a role
+
+> [!IMPORTANT]
+> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are updated to the latest versions to ensure that each role receives permissions to access the new features added by the update. You cannot customize the out-of-box roles. If you need custom security roles, start by creating a copy of an existing role that is close to what you want and then customize the copy. If you use custom security roles, you'll need to update your custom roles after each app update to grant access to new entities.
+
+To create a copy of a role:
+
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. The advanced-settings area opens in a new browser tab. This area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. Select the **Security roles** icon.
+1. Enable the check box next to the role you want to copy, then open the **More Actions** dropdown in the Security Roles toolbar and select **Copy Role...**.
+
+> [!div class="mx-imgBorder"]
+> ![Copy security role](media/copy-role.png "Copy security role") 
 
 ## Special permissions for marketing pages and assist edit
 
