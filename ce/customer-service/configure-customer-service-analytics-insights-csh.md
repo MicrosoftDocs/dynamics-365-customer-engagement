@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/24/2023
+ms.date: 07/26/2023
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -44,12 +44,13 @@ Users with the system administrator or supervisor role can access the analytics 
 
 1. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following:
     -  [Omnichannel historical analytics dashboards](omnichannel-analytics-insights.md)
-    - [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)    
+    - [Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
     - [Customer Service historical analytics dashboards](customer-service-analytics-insights-csh.md)
     - [Knowledge analytics dashboards](knowledge-search-analytics-cs.md)
     - [Report Bookmarks](manage-bookmarks.md)
 
-1. Select **Read** privileges for [all the entities used by historical and real-time analytics](dataverse-entities.md).
+    > [!NOTE]
+    > For custom roles, select **Read** privileges for [all the entities used by historical and real-time analytics](dataverse-entities.md) as applicable.
 
 1. Select **Save and close**.
 
