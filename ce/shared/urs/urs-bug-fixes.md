@@ -28,7 +28,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.99.2
 
-- Resource Utilization should now show for schedule board tabs beyond the 10th tab.
+- Resource Utilization now shows for schedule board tabs beyond the 10th tab.
 - If GPS tracking is enabled for a resource with a "location agnostic" location, a pin will be displayed on the schedule board map for the last known location.
 
 ## 3.12.108.5
