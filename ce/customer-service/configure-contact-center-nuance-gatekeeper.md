@@ -1,5 +1,5 @@
 ---
-title: Configure Digital Contact Center Platform for Nuance Gatekeeper integration  #
+title: Configure Digital Contact Center Platform for Nuance Gatekeeper integration
 description: How-to configure Digital Contact Center Platform for Nuance Gatekeeper integration 
 author: neeranelli
 ms.author: nenellim
