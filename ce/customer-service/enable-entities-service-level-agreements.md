@@ -1,7 +1,7 @@
 ---
 title: "Enable entities for service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to enable entities for service level agreements in Dynamics 365 Customer Service."
-ms.date: 07/06/2023
+ms.date: 07/26/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -69,7 +69,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
 > - We recommend that you have a maximum of five SLA KPIs per entity.
 > - You can have a maximum of 100 SLA items per SLA entity, however we recommend that you have less than 15 SLA items per SLA entity.
   
-### See also
+### Next steps
 
  [Configure service level agreements](../customer-service/define-service-level-agreements.md)
 

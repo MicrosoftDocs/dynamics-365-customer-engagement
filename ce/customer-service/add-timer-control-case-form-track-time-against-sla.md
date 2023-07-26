@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against a SLA in Dynamics 365 Customer Service."
-ms.date: 05/23/2023
+ms.date: 07/26/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -186,6 +186,8 @@ More information: [Understand SLA details with Timer control](customer-service-h
    - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 ### See also  
+
+[Configure service level agreements](../customer-service/define-service-level-agreements.md)
 
 [Set and enable languages](../customerengagement/on-premises/admin/enable-languages.md#set-and-enable-languages)
 
