@@ -30,7 +30,19 @@ on the top ribbon. The import wizard will appear. Follow the next steps:
    > ![Screenshot of configuring your settings](media/real-time-marketing-settings-configuration.png "Screenshot of configuring your settings")
 
 > [!NOTE]
-> Emails including A/B tests cannot be imported at the moment and are skipped completely in the import process. These emails, along with any others that fail to be imported are gathered in a downloadable file, displayed when the import is completed.
+> Emails including A/B tests cannot be imported at the moment and are **skipped completely** in the import process. These emails, along with any others that fail to be imported are gathered in a downloadable file, displayed when the import is completed.
+
+> [!NOTE]
+> Emails including the elements below will be imported but need to be reviewed in real-time marketing as **they are not migrated**.
+> | Element or feature |  
+> |---|
+> | Surveys  |
+> | QR code |
+> | Code element | 
+> | Personalization including #if and #else conditions |
+> | Content settings placeholders (except from the subscription center and company address) | 
+> | FormDoiSubmission |
+> | Contextual message placeholders |
 
 ## Import email templates from outbound marketing
 
