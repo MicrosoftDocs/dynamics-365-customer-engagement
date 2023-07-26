@@ -1,7 +1,7 @@
 ---
 title: Sales Copilot overview (preview)
 description: Learn about Sales Copilot (preview), an AI assistant that helps your sales team be more productive and efficient in their daily work.
-ms.date: 07/25/2023
+ms.date: 07/26/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -38,9 +38,7 @@ Record summarization helps you get a quick summary of your opportunity and lead 
 More information:
 
 - [Summarize an opportunity or a lead](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) 
-
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
-
 
 ### Record catch up
 
@@ -49,9 +47,7 @@ Catch ups help you stay on top of the changes to your opportunities and leads. Y
 More information:
 
 - [Catch up with an opportunity or lead](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead)  
-
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
-
 
 ### Meeting preparation
 
@@ -64,16 +60,13 @@ More information: [Prepare for upcoming meetings](use-sales-copilot.md#prepare-f
 Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content. Using the email assistance capabilities, you can do the following tasks:  
 
 - [Compose and send email messages using Copilot](compose-send-email-copilot.md)  
-
 - [View and copy email summary](view-copy-email-summary.md)  
-
 
 ### News updates
 
 News updates help you stay current with the latest news about your account. These news updates can be great conversation starters and help you understand the current dynamics in your customers' organization. Ask Copilot to get you the latest news related to an account and get a list of articles featuring or mentioning the account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
 
 More information: [Show latest news for an account](use-sales-copilot.md#show-latest-news-for-an-account)
-
 
 ## Region availability and languages supported
 

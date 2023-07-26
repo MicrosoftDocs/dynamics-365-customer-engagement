@@ -1395,6 +1395,8 @@
       href: responsible-ai-overview.md
     - name: FAQ for summarization in Sales Copilot
       href: faqs-sales-copilot-for-summarization.md
+    - name: FAQ for email in Sales Copilot
+      href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
