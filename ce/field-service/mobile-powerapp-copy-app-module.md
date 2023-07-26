@@ -30,7 +30,7 @@ Create a custom app module based on the Field Service Mobile app module. Reuse c
 
 1. **Create a New App** opens the app designer. Enter the **Name** and other optional detail. Expand **Advanced** and **Use components from a custom solution**. Set *Field Service* as the solution *Field Service Mobile* as the sitemap. Select **Create**.
 
-   ![The "Create a New App" screen in Power Apps.](media/creatappmodule-name-solution.jpg)
+   ![The "Create a New App" screen in Power Apps.](media/createappmodule-name-solution.jpg)
 
 1. Your new app module contains all standard Field Service Mobile entities. You can now add items to the sitemap and customize your app module.
 
