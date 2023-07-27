@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/12/2023
+ms.date: 06/26/2023
 ms.custom: bap-template
 ---
 
@@ -105,6 +105,7 @@ You can model as a skill any attribute or category you like and match agents wit
 - [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for modeled skills.
 - [Routing diagnostics](unified-routing-diagnostics.md) don't display modeled skills that were matched during assignment.
 - Modeled skills must be of the "lookup" data type.
+- Order by proficiency isn't supported for modeled skills.
 
 ## Next steps
 
