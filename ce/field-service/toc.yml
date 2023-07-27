@@ -1,19 +1,22 @@
 items:
-- name: Welcome to Field Service
+- name: Dynamics 365 Field Service documentation
+  href: index.yml
+
+- name: Welcome to Dynamics 365 Field Service
   href: overview.md
 
-- name: Field Service documentation
-  href: user-guide.md
-
-- name: Try for free
-  items:
-  - name: Sign up for free trial
-    href: trial-signup.md
-  - name: Trial FAQs
-    href: trial-faq.md
-
 - name: Get started
-  href: field-service-get-started.md
+  items:
+  - name: Try for free
+    items:
+      - name: Sign up for free trial
+        href: trial-signup.md
+      - name: Trial FAQs
+        href: trial-faq.md
+  - name: Buy a subscription
+    href: buy-fs.md
+  - name: Get started
+    href: field-service-get-started.md
 
 - name: What's new
   items:
@@ -88,7 +91,7 @@ items:
   items:
     - name: Work order process overview
       href: field-service-architecture.md
-    - name: Lifecylce and system statuses
+    - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
     - name: Create a new work order
       href: create-work-order.md
@@ -480,8 +483,8 @@ items:
   items:
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
-    - name: Learning paths
-      href: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
+    - name: Community forum
+      href: https://community.dynamics.com/forums/thread/?groupid=74407f3d-21f7-403c-a59d-456e2a7dd7f9
     - name: Submit a feature request
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
