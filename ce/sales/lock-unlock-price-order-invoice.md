@@ -38,20 +38,21 @@ After you've finalized an order or invoice for a specific price, you can lock th
     
     When you lock the price, the following happens:
 
-        - The **Prices Locked** field on the order or invoice is set to **Yes**.
+      - The **Prices Locked** field in the order or invoice is set to **Yes**.
 
-        - The **Price Per Unit** field is locked for all the products in the order or invoice and becomes editable.
-        - Though you can change the price list of the order or invoice, the prices of the products are not updated based on the new price list.
+      -  The **Price Per Unit** field is locked for all the products in the order or invoice and is disabled for editing.
+      - You won't be able to add write-in products to the order or invoice as you need to specify the price for write-in products.
+      - Though you can change the price list of the order or invoice, the prices of the products are not updated based on that price list.
+      - You can continue to add products to the quote at the default price, but you won't be able to edit the price.  
  
 4. To unlock prices and use current pricing, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
 
     When you use current pricing, the following happens:
-    - The **Prices Locked** field on the order or invoice is set to **No**.
-    - The **Price Per Unit** field is unlocked for all the products in the order or invoice. You can choose to use the default price or override the price.
+
+    - The **Prices Locked** field in the order or invoice is set to **No**.
+
+    - The **Price Per Unit** field is unlocked for all the products in the order or invoice and becomes editable. You can choose to use the default price or override the price.
     - The prices of the products are updated based on the price list of the order or invoice. If you'd overridden the price of any product, the overridden price is retained.
-
-
-
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
