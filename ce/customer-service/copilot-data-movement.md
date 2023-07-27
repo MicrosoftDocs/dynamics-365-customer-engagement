@@ -4,7 +4,7 @@ description: Learn how data that's used in copilot features in Dynamics 365 Cust
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.topic: concept 
+ms.topic: conceptual 
 ms.collection:
 ms.date: 06/06/2023
 ms.custom: bap-template

@@ -150,6 +150,8 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
+        - name: Enable address suggestion
+          href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
         - name: Integrate LinkedIn Sales Insights
@@ -198,6 +200,16 @@
           href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
+        - name: Configure Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Enable and setup Copilot
+              href: enable-setup-copilot.md
+            - name: Configure Copilot capabilities
+              href: configure-sales-copilot.md
+            - name: Copilot data movement across geographies
+              href: sales-copilot-data-movement.md
         - name: Activity management
           items:
             - name: Set up the timeline control
@@ -210,6 +222,11 @@
               href: /powerapps/maker/model-driven-apps/app-for-outlook-customize?context=/dynamics365/context/sales-context
             - name: Add the Kanban control to Opportunity or Activity entities
               href: add-kanban-control.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Enable Copilot email assist
+              href: enable-copilot-email-assist.md
         - name: Work with templates
           items:
             - name: Create and manage Word templates
@@ -554,12 +571,6 @@
               href: optimize-ranking-insight-cards.md
             - name: Add the assistant widget to custom forms
               href: add-assistant-widget-custom-forms.md
-        - name: Playbook management
-          items:
-            - name: Define playbook categories
-              href: define-playbook-categories.md
-            - name: Manage playbook templates
-              href: manage-playbook-templates.md
     - name: Relationship intelligence
       items:
         - name: Relationship intelligence overview
@@ -584,14 +595,14 @@
       items:
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
             - name: First-run set up
               href: fre-setup-sales-insight-app.md
-            - name: Configure conversation intelligence to connect call data
-              href: configure-conversation-intelligence-call-data.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
             - name: Configure conversation content
@@ -612,6 +623,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -747,6 +762,16 @@
           href: teams-integration/teams-collaboration-enhanced-experience.md
     - name: Productivity and document management
       items:
+        - name: Use Copilot
+          items:
+            - name: Copilot overview (preview)
+              href: copilot-overview.md
+            - name: Use Copilot capabilities
+              href: use-sales-copilot.md
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
+            - name: View and copy email summary
+              href: view-copy-email-summary.md
         - name: Activity management
           items:
             - name: Add activities to the timeline
@@ -759,6 +784,11 @@
               href: activity-kanban-view.md
             - name: Send email using the enhanced email experience
               href: enhanced-email.md
+        - name: Use Copilot for email messages 
+          href: use-copilot-email.md      
+          items:
+            - name: Compose and send email messages using Copilot
+              href: compose-send-email-copilot.md
         - name: Auto capture activities
           href: auto-capture.md
           items:
@@ -943,18 +973,6 @@
               href: assistant.md
             - name: Stay updated with cards in assistant
               href: action-cards-reference.md
-        - name: Playbook management
-          items:
-            - name: Associate documents with playbook activities
-              href: associate-documents-playbook-activities.md
-            - name: Enforce best practices with playbooks
-              href: enforce-best-practices-playbooks.md
-            - name: Launch a playbook to carry out activities consistently
-              href: launch-playbook.md
-            - name: Mark playbook as completed
-              href: mark-playbook-completed.md
-            - name: Track playbook activities
-              href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
         - name: Relationship analytics and KPIs overview
@@ -1188,6 +1206,8 @@
           href: developer/entities/list.md
         - name: Metric
           href: developer/entities/metric.md
+        - name: msdyn_callablecontext
+          href: developer/entities/msdyn_callablecontext.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
@@ -1198,23 +1218,6 @@
           href: developer/entities/opportunitysalesprocess.md
         - name: OrderClose
           href: developer/entities/orderclose.md
-        - name: Playbooks
-          items:
-            - name: Table reference
-              href: developer/reference/playbook-entity-reference.md
-              items:
-                - name: msdyn_playbookinstance
-                  href: developer/entities/msdyn_playbookinstance.md
-                - name: msdyn_playbookactivity
-                  href: developer/entities/msdyn_playbookactivity.md
-                - name: msdyn_playbookactivityattribute
-                  href: developer/entities/msdyn_playbookactivityattribute.md
-                - name: msdyn_playbookcategory
-                  href: developer/entities/msdyn_playbookcategory.md
-                - name: msdyn_playbooktemplate
-                  href: developer/entities/msdyn_playbooktemplate.md
-                - name: msdyn_callablecontext
-                  href: developer/entities/msdyn_callablecontext.md
         - name: PriceLevel
           href: developer/entities/pricelevel.md
         - name: Product
@@ -1353,6 +1356,14 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
+- name: Responsible AI
+  items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for summarization in Sales Copilot
+      href: faqs-sales-copilot-for-summarization.md
+    - name: FAQ for email in Sales Copilot
+      href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

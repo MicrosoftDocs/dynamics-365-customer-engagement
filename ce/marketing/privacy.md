@@ -1,7 +1,7 @@
 ---
 title: Data protection and privacy
-description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
-ms.date: 04/21/2023
+description: Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -76,9 +76,9 @@ In addition, special privacy protection is required for minors (children), requi
 
 ### See also
 
-[Manage user compliance settings](real-time-marketing-compliance-settings.md)  
-[Use GDPR features](gdpr-use-features.md)  
+[Manage user compliance settings](compliance-overview.md)
+[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Set up a subscription center](set-up-subscription-center.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

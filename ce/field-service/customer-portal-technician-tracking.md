@@ -21,14 +21,14 @@ Provide your customers with automated service reminders and notifications that i
 
 ## Prerequisites
 
-- The Field Service mobile app
-- [Technician location sharing](mobile-powerapp-location-auditing.md) must be enabled in Field Service, and also allowed from the technician's mobile device.
+- The Field Service mobile app.
+- [Technician location sharing](mobile-powerapp-location-auditing.md) enabled in Field Service, and also allowed from the technician's mobile device.
 - SMS provider with a supported Power Automate connector for mobile SMS communication.
 - Email provider with a supported Power Automate connector such as Office 365 Outlook for email communications.
 
 ## Configure track my technician settings
 
-In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record. Turn on the **Track My Technician** setting. Then go to the **Track My Technician** tab on the customer portal settings to enable the following settings.
+In Field Service, open **Settings**. Under **Customer Portal**, select **Customer Portal** and open the settings record. Turn on the **Track My Technician** setting. Then go to the **Track My Technician** tab on the customer portal settings to enable the following settings.
 
 > [!div class="mx-imgBorder"]
 > ![Track my technician settings.](./media/TmT-GASettings.png)
@@ -53,7 +53,7 @@ To review and test changes, set up an account and contact as if you were one of 
 3. Assign the contact as the primary contact of the test account you created.
 4. Create a work order related to the service account you created.
 5. Create a booking for the work order, and set the status to *Scheduled*. Set the start date within the range of the booking reminder notification.
-6. Assign a resource to the booking. The resource needs access to the Field Service mobile app and have location sharing enabled.
-7. After saving the booking, you should receive an email and/or SMS notification to the email address and phone number of the test contact. Follow the link the notification to review the portal, and you'll find a map showing the location of the service account.
+6. Assign a resource to the booking. The resource needs access to the Field Service mobile app and to have location sharing enabled.
+7. After saving the booking, you should receive an email or SMS notification to the email address or phone number of the test contact. Follow the link the notification to review the portal, and you'll find a map showing the location of the service account.
 8. Change the booking status to *Traveling*. You'll receive a second email or SMS notification. This notification includes a map showing the current location of the technician and their estimated arrival time to the service account location.
 9. Finally, change the booking status to *Complete*, which will trigger the booking complete notification.

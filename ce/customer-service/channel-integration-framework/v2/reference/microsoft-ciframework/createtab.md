@@ -1,7 +1,7 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the createTab method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 02/20/2023
+ms.date: 07/18/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -11,6 +11,9 @@ ms.custom:
 ---
 
 # createTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+
+ >[!NOTE]  
+ > Use this API only when the focused session belongs to the provider or if it is the home or default session.
 
 Creates a tab in a focused session and returns the unique identifier of the created tab.
 

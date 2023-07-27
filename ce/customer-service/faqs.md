@@ -2,7 +2,7 @@
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
 ms.date: 04/18/2023
-ms.topic: concept
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -31,7 +31,7 @@ Submit your ideas and feedback on our [Ideas forum](https://experience.dynamics.
 
 ### Is there a forum for me to engage with and discuss issues with the broader community?
 
-Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/763) is the place where you can engage with the community at large.
+Yes, our [Community Forum](https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74) is the place where you can engage with the community at large.
 
 ### How do I get help with the issues I face?
 
