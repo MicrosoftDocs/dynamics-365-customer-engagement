@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/21/2023
+ms.date: 07/27/2023
 search.audienceType: 
   - admin
   - customizer
@@ -103,42 +103,13 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 > [!NOTE]
 > The **Active Duration (min)** and **Elapsed Time (min)** data aren't applicable for legacy SLAs.
 
-## Configure SLA KPI instance name through Advanced Find
+## Know the SLA KPI instance entity name
 
-When you create an SLA KPI instance for an entity other than the Case entity, the **Regarding** column appears as blank for the SLA KPI instance of the entity. This is a by-design behavior and is also applicable to custom entities.
+The SLA KPI instance **Regarding** column appears as blank, instead of displaying the entity name. This happens for all entities other than the Case entity.
 
-Perform the following steps to add a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
+This is also applicable to custom entities. On Unified Interface, you'll see the **Regarding** column as blank, whereas on the web client, it appears as **(No name)**.
 
-1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
-1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
-1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.
-1. Select **Name** and then select **OK**.
-1. Select **Results**. You'll see the **Name (regarding)** column displaying the name of the entity.
-
-You can also use the following query to add a new column called **Name (Regarding)**.
-
-1. From **Advanced Find**, select **Download Fetch XML**.
-1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api). 
-Here's an example: https:// your org link/api/data/v9.2/entity name?fetchXml=enter the following query.
-
-```
-<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
-
-  <entity name="slakpiinstance">
-    <attribute name="name" />
-    <attribute name="status" />
-    <attribute name="regarding" />
-    <attribute name="failuretime" />
-    <attribute name="warningtime" />
-    <attribute name="succeededon" />
-    <attribute name="slakpiinstanceid" />
-    <order attribute="name" descending="false" />
-    <link-entity name="lead" from="leadid" to="regarding" link-type="inner" alias="ai">
-      <attribute name="fullname" />
-    </link-entity>
-  </entity>
-</fetch>
-```
+Your administrator must [configure the SLA KPI instance name through Advanced Find](define-service-level-agreements.md#configure-sla-kpi-instance-name-through-advanced-find), for you to view the entity name.
 
 ### See also
 

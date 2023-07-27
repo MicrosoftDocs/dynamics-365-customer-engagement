@@ -59,7 +59,6 @@ Review the following requirements before configuring SLAs for your organization:
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
 > - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
 
-
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
@@ -106,6 +105,45 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
     > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
 
 6. Select **Activate**. The SLA KPI is saved and activated.
+
+When you create an SLA KPI instance for an entity other than the Case entity, the **Regarding** column appears as blank for the SLA KPI instance of the entity. This is a by-design behavior and is also applicable to custom entities.
+
+However, you can [configure the SLA KPI instance entity name through Advanced Find](#configure-sla-kpi-instance-name-through-advanced-find), so that agents can view the entity name.
+
+### Configure SLA KPI instance entity name through Advanced Find
+
+Perform the following steps to add a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
+
+1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
+1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
+1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.
+1. Select **Name** and then select **OK**.
+1. Select **Results**. You'll see the **Name (regarding)** column displaying the name of the entity.
+
+You can also use the following query to add a new column called **Name (Regarding)**.
+
+1. From **Advanced Find**, select **Download Fetch XML**.
+1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api). 
+Here's an example: https:// your org link/api/data/v9.2/entity name?fetchXml=enter the following query.
+
+```
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+
+  <entity name="slakpiinstance">
+    <attribute name="name" />
+    <attribute name="status" />
+    <attribute name="regarding" />
+    <attribute name="failuretime" />
+    <attribute name="warningtime" />
+    <attribute name="succeededon" />
+    <attribute name="slakpiinstanceid" />
+    <order attribute="name" descending="false" />
+    <link-entity name="lead" from="leadid" to="regarding" link-type="inner" alias="ai">
+      <attribute name="fullname" />
+    </link-entity>
+  </entity>
+</fetch>
+```
 
 ## Create SLAs <a name="create-slas"></a>
 
