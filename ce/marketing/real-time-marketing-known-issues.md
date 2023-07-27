@@ -1,7 +1,7 @@
 ---
-title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 05/09/2023
+title: Known issues in real-time marketing
+description: Learn about known issues in real-time marketing and how to work around them.
+ms.date: 06/28/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -34,6 +34,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 - The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
 - After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
 - Customer journeys have a limitation of eight nested conditions.
+- When a segment-based journey is stopped (by stopping it manually or when it reaches its end date), it will stop the instances of the segments that it is using. When this takes longer than expected, the **Status Reason** will temporarily change to "Error" and only when the stopping has completed, it will go to status "Stopped" (normally within one or two hours after stopping).
 
 ## Dynamics 365 Customer Insights
 
@@ -43,7 +44,6 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Email editor
 
-- The real-time marketing email editor *doesn’t* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
 - Content blocks may not be editable immediately after inserting into an email. When a content block is added to an email, its content may not be editable (cannot be selected). To work around this issue, refresh the page.
 

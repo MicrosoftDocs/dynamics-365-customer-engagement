@@ -1,9 +1,7 @@
 ---
-title: "Business unit support in outbound marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Business unit support in outbound marketing in Dynamics 365 Marketing."
-ms.date: 02/09/2021
-ms.custom: 
-  - dyn365-marketing
+title: Business unit support in outbound marketing
+description: Business unit support in outbound marketing in Dynamics 365 Marketing.
+ms.date: 07/25/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -40,6 +38,9 @@ Business units affect customer journeys as follows:
     - Standard and advanced users are limited to creating journeys scoped at the business unit level.
     - Only users with create/update at the organization-level permissions are able to select the organization scope setting.
 - When [scoping is disabled](business-units-support-outbound-marketing.md#enable-or-disable-business-unit-scopes-in-outbound-marketing) for your instance, all journeys are scoped at the organization level, which means they'll process all contacts in the targeted segments, lists, and/or pages, regardless of which business unit each contact belongs to.
+
+> [!NOTE]
+> The scoping business unit on a **Live** journey does not change even if the owner of the journey changes or if the business unit of the owner changes. If you edit a **Live** journey and publish a new version, the *new* journey version will take the current value of the business unit of the journey owner at the time of publication for scoping purposes. The previous version of the journey, however, retains the original business unit scoping.
 
 ## Lead and contact creation, matching, and scoring
 
