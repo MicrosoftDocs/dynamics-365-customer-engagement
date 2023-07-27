@@ -1,7 +1,7 @@
 ---
 title: Real-time marketing transition FAQs
 description: Answers to frequently asked questions about transitioning to real-time marketing.
-ms.date: 07/18/2023
+ms.date: 07/19/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -99,11 +99,11 @@ search.audienceType:
 
     If you're transitioning from outbound marketing, review our resource page ([Real-time transition resources](real-time-marketing-transition-resources.md)) to receive guidance and prepare your transition to real-time marketing.
 
-    Reach out to your account manager with additional questions or help needed.
+    Reach out to your account manager with further questions or if help is needed.
 
 1. **What does this mean for outbound marketing?**
 
-    Real-time marketing has already surpassed traditional outbound marketing in functionality and effectiveness, and our innovations and upcoming AI features are exclusively focused on the real-time marketing. In the coming year, we'll be transitioning all our customers to real-time marketing to benefit from greater productivity in delivering experiences to engage your customers in the moment that matters. We'll continue to support outbound, but we don't intend to add any new enhancements.
+    Real-time marketing has already surpassed traditional outbound marketing in functionality and effectiveness, and our innovations and upcoming AI features are exclusively focused on the real-time marketing. In the coming year, we'll be transitioning all customers to real-time marketing to benefit from improved features to better engage your customers in the moment that matters. We'll continue to support outbound, but we don't intend to add new enhancements.
 
 1. **Will transitioning to real-time marketing require significant user retraining due to a new user interface?**
 
@@ -128,3 +128,21 @@ search.audienceType:
     **Journeys**
 
     - The journey UI has been completely redesigned in real-time marketing. Customer feedback indicates that the new UI is more user-friendly, efficient, and natural. Any retraining required for the redesigned journey UI is considered a worthwhile investment, as it improves usability and effectiveness.
+
+## Scalability
+
+1. **What is the new scale of real-time marketing and how does it compare to the previous level?**
+
+    Marketers can now reach up to reach up to 100,000,000 contacts or leads and send up to 300,000,000 messages per month in real-time marketing. This is over 3x the previous outbound marketing limit of 30,000,000 contacts and 100,000,000 monthly interactions.
+
+    This added capacity empowers marketers to deliver personalized experiences at scale and delight their customers in new ways. Additional interactions help marketers grow their business, whether by increasing their customer base in new markets, reaching additional geographies, promoting new products, or expanding their prospective customer pipeline to reach higher sales targets.
+
+1. **When is the increased scale available and is it available only for real-time marketing?**
+
+    The new scale of 100,000,000 contacts and 300,000,000 monthly interactions can only be unlocked with real-time marketing. This is available immediately for customers who need to operate at the new scale. To learn more, reach out to your Microsoft representative.
+
+1. **Are there any additional costs associated with the increased scalability level? What is the implementation process?**
+
+    There's a contact threshold of 10,000,000 contacts purchased that unlocks the new scale. Existing customers that need to upgrade or new customers must meet the contact threshold to unlock the new scale and receive the increased throughput.
+
+    To unlock the new scale, reach out to your Microsoft sales representatives with your requirements. The end-to-end process to upgrade to the new scale will be completed within two weeks.
