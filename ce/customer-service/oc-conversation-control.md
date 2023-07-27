@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 04/04/2022
+ms.date: 07/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -152,7 +152,7 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact) which is present at the bottom of the chat conversation control.
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 
