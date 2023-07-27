@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 07/28/2023
 ms.custom: bap-template
 ---
 
@@ -37,6 +37,9 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
    1. Routing diagnostics items for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](developer/reference/entities/msdyn_unifiedroutingdiagnostic.md)
    1. Routing diagnostics for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](developer/reference/entities/msdyn_unifiedroutingrun.md)
+
+> [!NOTE]
+> We recommend you to turn off the diagnostic feature before you perform delete operation.
 
 ## Next steps
 
