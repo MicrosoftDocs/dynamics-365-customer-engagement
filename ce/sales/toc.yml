@@ -202,6 +202,8 @@
       items:
         - name: Configure Copilot
           items:
+            - name: Sales Copilot FAQs
+              href: sales-copilot-faq.md
             - name: Copilot overview (preview)
               href: copilot-overview.md
             - name: Enable and setup Copilot
