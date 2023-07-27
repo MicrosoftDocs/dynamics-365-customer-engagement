@@ -101,5 +101,5 @@ Actions that are performed on email are stored in Microsoft Azure Storage. Azure
 ### See also
 
 [Turn on email engagement](configure-email-engagement.md)  
-[Create and send an email message](create-send-email-message.md)
+[Create and send an email message](create-send-email-message.md)  
 [Configure privacy preferences](configure-individuals-privacy-preferences.md)

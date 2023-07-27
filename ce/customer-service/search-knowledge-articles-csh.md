@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/03/2023
+ms.date: 07/21/2023
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -60,10 +60,9 @@ If style tags are visible in an article's content summary, it means that style t
 You can search the knowledge base directly, without viewing a case or conversation first, in Customer Service Hub.
 
 1. In Customer Service Hub, under **Knowledge**, select **Knowledge Search**.
-
 1. Enter a keyword in the search box.
 
-    :::image type="content" source="media/search-kb-article.png" alt-text="Screenshot of knowledge search in Customer Service Hub.":::
+:::image type="content" source="media/search-kb-article.png" alt-text="Screenshot that shows a direct search for a knowledge article in Knowledge Search in Customer Service Hub.":::
 
 Legend:
 1. The search box
@@ -158,7 +157,7 @@ If your administrator has provided [privileges to custom roles](#prerequisites),
 1. Select an article from the list of search results.
 1. Select the **Favorite** (heart) icon to add the article to your favorites list, or, if it's already a favorite, remove it.
 
-View your saved articles in the **My favorites** tab. The **My favorites** tab is available in the app side pane, standalone search control, form-embedded control, and the reference pane.
+View your favorite articles on the **My favorites** tab. This tab is available in the app side pane, the standalone search control, the form-embedded control, and the reference pane.
 
 The article you most recently marked as a favorite appears first in your favorites list. If an article is deleted, it no longer appears in the list.
 
@@ -166,19 +165,18 @@ Favorite articles are saved in the language in which you viewed them when you ma
 
 If you create a major or minor version of a favorite article, then the new version appears as a favorite and the earlier version is removed from the list.
 
-In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens in an app tab. In Customer Service Hub, the article opens in a new browser window.
+In Customer Service workspace and Omnichannel for Customer Service, when you select a favorite article, it opens on an application tab. In Customer Service Hub, the article opens in a new browser window.
 
 ## Search across external search providers
 
-In Customer Service Hub and Customer Service workspace, you may be able to search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator configured the option. To view those results, select the source from the list under **Knowledge**.
+In Customer Service Hub and Customer Service workspace, you can search for files, documents, and articles from data sources outside your Dynamics 365 organization, if your administrator has configured this option. To view those results, select the source in the list under **Knowledge**.
 
 In Customer Service Hub:
 
-   > [!div class=mx-imgBorder]
-   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
+> [!div class=mx-imgBorder]
+> ![Screenshot of the agent view of search providers in Customer Service Hub.](media/search-provider-agent.png "Screenshot of the agent view of search providers in Customer Service Hub")
 
-In Customer Service workspace: 
-:::image type="content" source="media/csw-external-sources.png" alt-text="Search results for external sources in Customer Service workspace":::
+In Customer Service workspace:
 
 For more information on setting up search providers, see [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers).
 

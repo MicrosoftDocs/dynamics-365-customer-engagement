@@ -150,5 +150,5 @@ The grid in the opportunity pipeline view is an instance of the Power Apps edita
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
-[Column-level security to control access](/power-platform/admin/field-level-security)
+[Column-level security to control access](/power-platform/admin/field-level-security)  
 [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids)

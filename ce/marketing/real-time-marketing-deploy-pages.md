@@ -1,6 +1,6 @@
 ---
 title: Deploy pages that contain real-time marketing forms
-description: Learn how real-time marketing forms are deployed on Power Pages and other destinations
+description: Learn how real-time marketing forms are deployed on Power Pages and other destinations.
 ms.date: 07/05/2023
 ms.custom: 
   - dyn365-marketing
