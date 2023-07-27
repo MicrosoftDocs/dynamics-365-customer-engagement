@@ -1,11 +1,11 @@
 ---
-title: 
-description: 
+title: IoT partner integrations
+description: Learn how Field Service integrates with IoT-enabled devices from IoT vendors to extend functionality and enhance field service operations.
 ms.date: 07/27/2023
 ms.topic: conceptual
 ms.subservice: connected-field-service
-author: 
-ms.author: 
+author: MSKeith
+ms.author: keith
 ---
 
 ## IoT partner integrations
