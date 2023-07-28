@@ -36,7 +36,7 @@ The Copilot report displays the following metrics.
 |--------|---------|
 | Daily active users | The number of unique agents who used Copilot at least once in the last day |
 | Total copilot AI responses | The total number of responses that Copilot provided |
-| Number of responses used | The number of times that text from a Copilot response was copied |
+| Number of responses used | The number of times that text from a copilot response was copied |
 | Percentage of copilot AI responses used | The percentage of responses that were copied |
 
 ### Productivity: Cases
@@ -67,6 +67,6 @@ The Copilot report displays the following metrics.
 
 ### See also
 
-[Use Copilot features](use-copilot-features.md)  
+[Use copilot features](use-copilot-features.md)  
 [Configure copilot](configure-copilot-features.md)  
 [Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot-preview)
