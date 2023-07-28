@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 The Dynamics 365 Field Service (Preview) provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
@@ -86,9 +86,9 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
 1. At a minimum, ensure the required information is entered for the work order.
 
-   - [Service Account](../accounts.md)
-   - [Work Order Type](../create-work-order-types.md)
-   - [Price List](../create-price-list.md)
+   - [Service Account](accounts.md)
+   - [Work Order Type](create-work-order-types.md)
+   - [Price List](create-price-list.md)
 
 1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
 
@@ -108,14 +108,15 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service (Preview) Outlook pane Work Orders tab highlighting the Create button":::
 
 1. At a minimum, enter the required information for the work order.
-   - [Service Account](../accounts.md)
-   - [Work Order Type](../create-work-order-types.md)
-   - [Price List](../create-price-list.md)
+
+   - [Service Account](accounts.md)
+   - [Work Order Type](create-work-order-types.md)
+   - [Price List](create-price-list.md)
 
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service (Preview) Outlook Create work order pane":::
 
    > [!TIP]
-   > Copy relevant information from the email into the **Description** field. For general information about work orders, see [Work order architecture](../field-service-architecture.md).
+   > Copy relevant information from the email into the **Description** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
 1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
 
@@ -159,6 +160,6 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 1. Make the necessary changes and select **Save**. Within the details of the work order, you can also:
 
    - Open a map to locate the service address
-   - [Open the schedule board in Field Service](../configure-schedule-board.md#overview-of-the-schedule-board)
+   - [Open the schedule board in Field Service](configure-schedule-board.md#overview-of-the-schedule-board)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Field Service (Preview) troubleshooting
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 ## As an admin, I can't find users when setting up frontline workers in the Field Service web app
 
@@ -112,7 +112,7 @@ An error message displays indicating the currency entered on the work order does
 
 ### Resolution
 
-Change the currency on the work order to match the price list. Or contact your admin to check the [settings on the specific price list](../create-price-list.md) on the Field Service Web.
+Change the currency on the work order to match the price list. Or contact your admin to check the [settings on the specific price list](create-price-list.md) on the Field Service Web.
 
 ## User has not been assigned any roles error
 
@@ -128,4 +128,4 @@ An error message displays indicating the user has not been granted the correct p
 
 An admin must [assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles).
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

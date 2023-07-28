@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Field Service (Preview) Teams app for the Frontline Worker
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 The Dynamics 365 Field Service Teams app enables frontline workers to view upcoming work orders and edit current work orders without disrupting their workflow. As a frontline worker, you can view work orders assigned to you and manage your current work order directly in Microsoft Viva Connections on your mobile device.
 
@@ -37,7 +37,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
    :::image type="content" source="media/fsp-flw-viva-work-orders.png" alt-text="Field Service (Preview) Viva Connections mobile list of work orders":::
 
-1. To filter by **Booking status**, select **Filter**, make your selection, and then select **Apply**. For more information on booking status, see [Work order life cycle and statuses](../work-order-status-booking-status.md).
+1. To filter by **Booking status**, select **Filter**, make your selection, and then select **Apply**. For more information on booking status, see [Work order life cycle and statuses](work-order-status-booking-status.md).
 
 ## View and manage your current work order
 
@@ -52,7 +52,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
    - Open a map to locate the service address
    - View tasks and products in Field Service
    - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
-   - Change the [Booking status](../work-order-status-booking-status.md)
+   - Change the [Booking status](work-order-status-booking-status.md)
    - Change the Actual arrival or end time
 
 1. If you made changes, select **Save**.
@@ -67,4 +67,4 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Field Service in Microsoft 365 apps (preview)
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 Dynamics 365 Field Service (Preview) integrates Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
 
-[!INCLUDE[public-preview-note](../../includes/public-preview-note.md)]
+[!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
 
 An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to assist with work order creation in Outlook.
 
@@ -34,4 +34,4 @@ Administrators enable these preview features for end users in their organization
 
 Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

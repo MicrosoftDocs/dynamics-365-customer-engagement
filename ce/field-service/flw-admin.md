@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Field Service (Preview) for Administrators
 
-[!INCLUDE[public-preview-banner](../../includes/public-preview-banner.md)]
+[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 As an administrator for your organization, the set up tasks for the Field Service (Preview) depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
@@ -170,9 +170,9 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 Assign Azure Active Directory (AAD) permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
 
-For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](../view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](../view-user-accounts-security-roles.md).
+For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles/md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
 
-1. Go to Field Service **Get Started** page and [set up your frontline workers](../frontline-worker-set-up.md#get-started).
+1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md#get-started).
 
 1. Assign a **Security Role** and **Field Security** role. The other fields are optional.
 
@@ -188,7 +188,7 @@ Synchronize your AAD groups to the Dataverse security roles. Although this step 
 
 ### Set up column level security (optional)
 
-If some of the permissions of a user are inadequate to view or create work orders, you can grant the user an elevated security role or change the column-level security of the user’s security role. For more information, see [Set up users and security profiles](../view-user-accounts-security-roles.md) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+If some of the permissions of a user are inadequate to view or create work orders, you can grant the user an elevated security role or change the column-level security of the user’s security role. For more information, see [Set up users and security profiles](view-user-accounts-security-roles.md) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 1. Depending on your environment go to Power Apps.
 
