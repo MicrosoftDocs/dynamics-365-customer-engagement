@@ -152,7 +152,7 @@ To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Link to conversations
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact) which is present at the bottom of the chat conversation control.
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact) which is at the bottom of the chat conversation control.
 
 To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 

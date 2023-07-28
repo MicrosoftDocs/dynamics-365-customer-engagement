@@ -45,10 +45,10 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Take notes**: Make note of important information or specific details from your conversation with the customer. It's in addition to the call recording and transcription that happen during the conversation.
 - **Pause transcription**: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
 - **Knowledge Articles**: Get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
-- **Link to conversation**: You can link another conversation, case, customer or knowledge article to the conversation.
+- **Link to conversation**: You can link another conversation, case, customer, or knowledge article to the conversation.
 
   > [!NOTE]
-  > The **Link to conversation** button is disabled once you end the voice call. Open account or contact in a new tab and select **Link to conversation** to link record (customer or case) to conversation.
+  > The **Link to conversation** button is disabled after you end the voice call. Open account or contact in a new tab and select **Link to conversation** to link record (customer or case) to conversation.
 
 - **Transcription**: When the transcription and recording service is enabled by your administrator, the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
