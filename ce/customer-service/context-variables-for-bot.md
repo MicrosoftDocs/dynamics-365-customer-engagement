@@ -1,11 +1,12 @@
 ---
-title: "Configure context variables for bots | MicrosoftDocs"
-description: "Use this topic to understand how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 08/30/2022
-ms.topic: article
+title: Configure context variables for bots
+description: Learn how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service.
+ms.date: 07/21/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Configure context variables for bots
@@ -26,14 +27,14 @@ The following table contains the list of context variables in Omnichannel for Cu
 | [Case](record-identification-rule.md) | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id) |
 ||||
 
-> [!Note]
+> [!NOTE]
 > Use the context variable names as defined and don't change them when you author flows in Azure or Power Virtual Agents bots. Also, be sure to use exact match to pass the value to the context variable because it is case-sensitive. If there's a mismatch, the record won't get automatically identified. More information: [Identify records automatically](record-identification-rule.md)
 
 ## Context variables for Power Virtual Agents bots
 
 The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bots](configure-bot-virtual-agent.md).
 
-> [!Important]
+> [!IMPORTANT]
 > To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
 
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents |
@@ -71,7 +72,6 @@ At runtime, the required information is captured in the context variable that ca
 You can also configure the **Transfer to agent** node in the Power Virtual Agents topic to send a private message with relevant context variables to the live agent during the escalation.
 
 The global variables that are created in Power Virtual Agents can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off).
-
 
 ### Parse JSON object to extract record ID
 
