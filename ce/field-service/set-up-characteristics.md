@@ -63,15 +63,19 @@ You can define rating values in a proficiency model that's used to indicate the 
   
 1. Select **Save & Close**.
 
-## Enhanced characteristics (Preview)
+## Enhanced characteristics (preview)
 
-Starting with 2023 release wave 2, you can add more details to a resource's characteristics. That's especially useful if you want to document when a certification was issued or when it expires.
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+Add more details to a resource's characteristics. That's especially useful if you want to document when a certification was issued or when it expires.
 
 Before users can specify enhanced characteristics, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
 
-In Field Service, change to the **Settings** area.
-Under **General**, select **Field Service Settings**.
-On the **Features** tab, set **Enhanced characteristics** to **On**.
+1. In Field Service, change to the **Settings** area.
+1. Under **General**, select **Field Service Settings**.
+1. On the **Features** tab, set **Enhanced characteristics** to **On**.
 
 With enhanced characteristics enabled, you can append some more information to *Bookable Resource Characteristic* records.
 

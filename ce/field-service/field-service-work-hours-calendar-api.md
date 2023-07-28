@@ -560,7 +560,11 @@ There are a couple different ranks that rules fall under:
 - *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
 - *Rank 0* - weekly recurrence (working/non-working). 
  
-#### V2 overlapping rules
+#### V2 overlapping rules (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 - The Rank 1 rules have a higher priority than Rank 0 rules. if there are two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence will take the priority over the weekly recurrence.
 - When there are multiple Rank 0 rules within the same date span:

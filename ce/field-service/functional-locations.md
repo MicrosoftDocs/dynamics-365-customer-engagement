@@ -53,7 +53,11 @@ The new location appears in the list. You can drag it into an existing hierarchy
 
 Select a location in the list to view information about it.
 
-## Create and assign functional location types
+## Create and assign functional location types (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 Use functional location types to group locations. Functional location types allow you to quickly [apply property templates](properties.md) to a group of locations.
 
