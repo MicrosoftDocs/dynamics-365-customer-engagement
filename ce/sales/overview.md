@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Sales Professional**: Ideal for enterprises that need a sales automation solution. [Learn more about Dynamics 365 Sales Professional](#dynamics-365-sales-professional).
 
-- **Microsoft Sales Copilot:** Ideal for enterprises that wants sellers to use Microsoft 365 and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Sales Copilot](#viva-sales)
+- **Microsoft Sales Copilot:** Ideal for enterprises that wants sellers to use Microsoft 365 and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Sales Copilot](#microsoft-sales-copilot)
 
 ### Dynamics 365 Sales Premium
 
