@@ -216,7 +216,7 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
-        - name: Enable entities for queues in unified routing
+        - name: Enable tables for queues in unified routing
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md

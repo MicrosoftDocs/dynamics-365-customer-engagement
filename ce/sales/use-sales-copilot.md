@@ -1,7 +1,7 @@
 ---
 title: Use Sales Copilot (preview)
 description: Learn about how to use Sales Copilot (preview) capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
-ms.date: 07/18/2023
+ms.date: 07/25/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -77,6 +77,17 @@ Use the `Prepare for upcoming meetings` prompt to get a list of meetings in the 
 
 Use the `Show latest news for account` prompt to get the latest news about an account, curated from Bing. Sales Copilot lists articles featuring or mentioning the account. These news updates can be great conversation starters and help you understand the current dynamics in your customers' organization. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
 
+### Show emails that are not replied
+
+The Copilot serves as a prompt to ensure that emails that you forget to reply are not missed. When you open the **Chat** tab, the **Show my unanswered email** option is displayed. Select this option to access the list of emails that remain unreplied. To be included in the list, the emails must meet the following criteria:  
+
+- Emails that have been pending for past three to seven days from the current day. However, any email that surpasses the seven-day mark will no longer be displayed in the list.
+- Email should contain a buying intent, a question, a query, or an action item.  
+- Email should have the **Regarding** field as a lead or an opportunity.
+
+The following card is an example of the list of emails that are not replied:  
+
+:::image type="content" source="media/copilot-email-reminder.png" alt-text="List of emails that are not replied":::
 
 ## See also
 
