@@ -1,16 +1,16 @@
 ### YamlMime:Hub
 
-title: Dynamics 365 Marketing
-summary: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+title: Dynamics 365 Marketing documentation
+summary: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles.
 brand: dynamics
 
 metadata:
-  title: Dynamics 365 Marketing
-  description: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles. Learn about the suite of capabilities that Customer Service provides and ensure that your business delivers the best customer service experience to your customers.
+  title: Dynamics 365 Marketing documentation
+  description: Discover how to make the most of Dynamics 365 Marketing with training, docs, and videos covering product capabilities and how-to articles.
   ms.topic: hub-page
   author: alfergus
   ms.author: alfergus
-  ms.date: 07/21/2023
+  ms.date: 07/28/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -20,89 +20,76 @@ highlightedContent:
     - title: Welcome to Dynamics 365 Marketing
       itemType: get-started
       url: real-time-marketing-overview.md
+    
     - title: What's new
       itemType: whats-new
       url: whats-new-marketing.md
+    
     - title: Training
       itemType: training
       url: /training/browse/?expanded=dynamics-365&resource_type=learning%20path&terms=marketing&products=dynamics-marketing
+    
     - title: Troubleshoot
       itemType: concept
-      url: troubleshoot-marketing-solution-health.md
+      url: /troubleshoot/dynamics-365/marketing/welcome-marketing
 
 additionalContent:
   sections:
   - title: Getting started
     items: 
-    - title: Try/buy
+    - title: Try or buy
       links:
       - url: trial-signup.md
-        text: Sign up for a free Marketing trial
-      - url: marketing-license.md
-        text: Dynamics 365 Marketing licensing
+        text: Sign up for a free trial
       - url: direct-purchase.md
-        text: Purchase a license directly from a trial
-      - url: purchase-setup.md
-        text: Buy a subscription 
-    - title: Installation and Setup Guide
+        text: Licensing
+      - url: marketing-license.md
+        text: Purchase
+    - title: Installation and setup guide
       links:
       - url: get-started.md
-        text: Marketing app Setup
-      - url: real-time-marketing-install.md
-        text: Install
+        text: Marketing app setup
+      - url: purchase-setup.md
+        text: Set up Marketing
       - url: power-platform-admin-center.md
         text: Manage environments
-    - title: Licensing and FAQ
+    - title: Administer
       links:
+      - url: organization-settings.md
+        text: Organization settings
+      - url: admin-best-practices.md
+        text: Admin best practices
       - url: install-manage-faq.md
-        text: Installation and environment management FAQ 
-      - url: trial-faq.md
-        text: Marketing trial FAQ
-      - url: real-time-marketing-known-issues.md
-        text: Real-time marketing known issues
+        text: Environment management FAQ 
 
   - title: Core functionality
     items:
-      - title: Email marketing and Automation
+      - title: Email marketing and automation
         links:
         - url: real-time-marketing-email.md
           text: Email marketing overview
         - url: content-ideas.md
-          text: Use AI for email creation
-      - title: Customer Journey Mapping
+          text: Use AI for email creation        
+        - url: real-time-marketing-email-get-started.md
+          text: Send a targeted email blast
+      - title: Real-time journeys
         links:
         - url: real-time-marketing-trigger-based-journey.md
-          text: Trigger-based Journeys
+          text: Trigger-based journeys
         - url: real-time-marketing-build-segments
-          text: Segment-based Journeys
-        - url: real-time-marketing-edit-journey.md
-          text: Journey enhancement
-      - title: A/B testing and Journey optimization
+          text: Segment-based journeys
+        - url: real-time-marketing-natural-language.md
+          text: Use AI for segment creation
+      - title: Event planning
         links:
-        - url: real-time-marketing-business-goals.md
-          text: Journey goals
-        - url: real-time-marketing-personalize-triggers.md
-          text: Personalize triggers using conditions
-        - url: real-time-marketing-journey-designer.md
-          text: Real-time journey designer customization
-      - title: AI Capabilities with Real-time Marketing & Key Scenario Guides
-        links:
-        - url: content-ideas.md
-          text: Use Copilot to generate email content ideas
-        - url: real-time-marketing-natural-language-segments.md
-          text: Target the right customers using the query assist copilot
-        - url: real-time-marketing-push-notifications.md
-          text: Create push notifications
-      - title: Real-time marketing scenarios
-        links:
-        - url: real-time-marketing-email-get-started.md
-          text: Send a targeted email blast in real-time marketing
-        - url: real-time-marketing-event-registration-journey.md
-          text: Boost event engagement with real-time journeys
-        - url: real-time-marketing-customer-care-journey.md
-          text: Identify and resolve errors with real-time customer care journeys
+        - url: event-management.md
+          text: Event planning overview
+        - url: set-up-event.md
+          text: Event setup
+        - url: event-management-dashboard.md
+          text: Manage events
 
-  - title: Real-time Engagement and Analytics
+  - title: Personalize and analyze results
     items:
       - title: Personalization
         links:
@@ -112,17 +99,7 @@ additionalContent:
           text: Add dynamic content to email messages
         - url: real-time-marketing-dynamic-content-multiple-languages.md
           text: Create dynamic content for multiple countries and languages
-      - title: Analytics
-        links:
-        - url: real-time-marketing-analytics.md
-          text: Marketing Analytics
-        - url: real-time-marketing-optimize-lead-management.md
-          text: Optimize lead management
-      - title: Lead Generation
-        links:
-        - url: real-time-marketing-optimize-lead-management.md
-          text: Lead scoring
-      - title: Marketing forms and Event management
+      - title: Marketing forms
         links:
         - url: real-time-marketing-form-overview.md
           text: Forms overview
@@ -130,14 +107,14 @@ additionalContent:
           text: Create forms
         - url: real-time-marketing-manage-forms.md
           text: Manage forms
-      - title: Event planning
+      - title: Analytics
         links:
-        - url: event-management.md
-          text: Event planning overview
-        - url: set-up-event.md
-          text: Event Setup
-        - url: event-management-dashboard.md
-          text: Manage events
+        - url: real-time-marketing-analytics.md
+          text: Access and interpret analytics
+        - url: real-time-marketing-cross-journey-analytics.md
+          text: Cross-journey analytics
+        - url: Marketing effectiveness
+          text: real-time-marketing-effectiveness.md
 
   - title: Related products
     items:
