@@ -29,7 +29,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.96.2027      |
+| Real-time marketing        |  1.1.26671.175      |
 
 > [!IMPORTANT]
 > With the July 2023 release, customer consent data began migration to utilize the new multi-brand consent features. For some Marketing users, the migration changed the settings that control whether tracking links are included in messages. The changes may prevent tracking in messages if customers have not given explicit consent. After the migration, if you want to enable tracking links in messages for customers who have not provided tracking consent, [update the **Tracking purpose** enforcement model](real-time-marketing-email-text-consent.md#consent-enforcement-diagram) of your **Compliance Profile(s)** to "Non-restrictive." This enables tracking links to be substituted in emails as long as the receiver has not explicitly opted out of tracking.
@@ -109,7 +109,7 @@ Public preview features include tailoring communications to improve customer eng
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.95.2014.0    |
+| Real-time marketing        |  1.1.25335.62    |
 
 ### General availability
 
@@ -154,7 +154,7 @@ Public preview features include AI-powered milestone attribution analysis, multi
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.94.2009.0    |
+| Real-time marketing        |  1.1.24040.75    |
 
 ### General availability
 
@@ -241,7 +241,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.93.2021.0    |
+| Real-time marketing        |  1.1.10512.27    |
 
 ### General availability
 
