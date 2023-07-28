@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 07/26/2023
+ms.date: 07/28/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -87,7 +87,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
       - To use an existing workspace, select the workspace from the dropdown list.
       - To create a new workspace, select **Create new workspace**.
   
-      :::image type="content" source="media/workspace-historical.png" alt-text="Select a workspace to configure historical data model customization":::
+      
 
 ### [Real-time data model](#tab/realtimedatamodel)
 
@@ -95,9 +95,7 @@ Specify the Power BI workspace where the Dynamics data model and reports will be
       - To use an existing workspace, select the workspace from the dropdown list.
       - To create a new workspace, select **Create new workspace**.
   
-      :::image type="content" source="media/workspace-realtime.png" alt-text="Select a workspace to configure real-time data model customization":::  
-
----
+    ---
 
 2. Select **Save**. This initiates the provisioning of the reports.
  
