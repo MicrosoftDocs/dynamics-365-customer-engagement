@@ -12,8 +12,8 @@ ms.reviewer: jacohen
 
 # Responsible AI FAQs for Dynamics 365 Field Service
 
-[!INCLUDE[rai-faq-overview](../includes/faqs-overview.md)]
+[!INCLUDE [rai-faq-overview](../includes/responsible-ai-intro.md)]
 
-[!INCLUDE[rai-faq-features](../includes/faqs-feature.md)]
+[!INCLUDE [rai-faq-features](../includes/responsible-ai-features.md)]
 
 - [Outlook work order creation](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
