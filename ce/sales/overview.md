@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Sales Professional**: Ideal for enterprises that need a sales automation solution. [Learn more about Dynamics 365 Sales Professional](#dynamics-365-sales-professional).
 
-- **Viva Sales:** Ideal for enterprises that wants sellers to use Microsoft 365 and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Viva Sales](#viva-sales)
+- **Microsoft Sales Copilot:** Ideal for enterprises that wants sellers to use Microsoft 365 and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Sales Copilot](#viva-sales)
 
 ### Dynamics 365 Sales Premium
 
@@ -76,9 +76,9 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
 
-### Viva Sales
+### Microsoft Sales Copilot
 
-By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Viva Sales empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Viva Sales is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. [Go to Viva Sales documentation](/viva/sales/introduction)
+By enriching the data set with customer engagement data from Microsoft 365 and the power of AI, Microsoft Sales Copilot (formerly known as Viva Sales) empowers sellers with sales intelligence that helps them deeply understand their customers for faster deal closure. Microsoft Sales Copilot is designed to help sellers boost productivity, lighten workloads, save time, and help salespeople sell more. [Go to Microsoft Sales Copilot documentation](/viva/sales/introduction)
 
 ## Compare solutions
 

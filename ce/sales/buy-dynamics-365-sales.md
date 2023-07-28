@@ -17,7 +17,7 @@ You can buy one of the following licenses depending on your organization's needs
 - Sales Enterprise
 - Sales Premium  
 - Microsoft Relationship Sales (Sales Enterprise + LinkedIn Sales Navigator Enterprise)
-- Microsoft Viva Sales
+- Microsoft Sales Copilot (formerly known as Viva Sales)
 
 ## Before you buy
 
