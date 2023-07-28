@@ -1,7 +1,7 @@
 ---
 title: "Create or edit quotes in Dynamics 365 Sales"
 description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
-ms.date: 10/25/2021
+ms.date: 07/28/2023
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -98,24 +98,23 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 The price calculation for a quote depends on the product catalog, line items, pricing rules, discounts, and taxes. It also varies based on the quote phase such as draft, active, or closed. 
   
-- **Draft State**: During the draft phase, pricing calculations are based on the following elements: 
+- **Draft State**: During the draft phase, pricing calculations are based on the following elements:
 
-    * **Product Catalog**: The system maintains a product catalog with products/services available for quoting. 
-    * **Price list**: Price lists define the price of the product. Each price list can have different pricing for the same product or service based on factors such as volume discounts, customer-specific pricing, or contract terms. 
+    * **Product Catalog**: Includes a product catalog with products/services available for quoting.  
+    * **Price list**: Defines the price of the products included in the quote. 
 
-    * **Line Items**: To specify the products/services being quoted, you can add line items to the quote. For each line item, you select the product/service from the catalog and specify the quantity.  
-    * **Pricing Rules**: Rules to determine the price of a product or service based on various factors such as volume discounts, customer-specific pricing, contract terms, or any other configured criteria.  
-    * **Discounts**: Discounts can be applied to individual line items, or the overall quote based on specific conditions or negotiations with the customer. Discounts can be percentage-based or fixed amounts.  
-    * **Taxes**: Tax rules configured to calculate applicable taxes based on the product, customer location, and other relevant factors.   
+    * **Line Items**: Includes the products/services that you've added as line items to the quote, along with the quantity.  
+    * **Pricing Rules**: Determines the price of a product or service based on various factors such as volume discounts, customer-specific pricing, contract terms, or any other configured criteria.  
+    * **Discounts**: Specifies the discounts to be applied to individual line items, or the overall quote based on specific conditions or negotiations with the customer. Discounts can be percentage-based or fixed amounts.  
+    * **Taxes**: Specifies the tax rules that are configured to calculate applicable taxes based on the product, customer location, and other relevant factors.  
   
-    The overall price is calculated by adding the price of all the products in the quote and deducting any applied discounts.  
+    In the draft state, the prices are adjusted to the actual prices on the price list when you open or edit the quote. The overall price is calculated by adding the price of all the products in the quote and deducting any applied discounts.
   
-2. **Active State**: The active quote state usually has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published.  
+- **Active State**: The active quote state usually has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
   
-3. **Closed Phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
+- **Closed Phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
+    In the active and closed states, the prices are not adjusted to the actual prices on the price list when you open or edit the quote.
   
-
-
 ## Email a quote
 
 When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#export-to-pdf)
