@@ -190,10 +190,6 @@ You can use keyboard shortcuts when viewing the schedule board in the list view,
 |  --- | --- | 
 | Expand collapsed row | SHIFT ALT + | 
 | Collapse expanded row | SHIFT ALT - | 
-
-## Enable the legacy schedule board
-
-[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   
 ## Privacy
 
