@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/27/2023
+ms.date: 07/28/2023
 search.audienceType: 
   - admin
   - customizer
@@ -105,9 +105,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 
 ## Know the SLA KPI instance entity name
 
-The SLA KPI instance **Regarding** column appears as blank, instead of displaying the entity name. This happens for all entities other than the Case entity.
-
-This is also applicable to custom entities. On Unified Interface, you'll see the **Regarding** column as blank, whereas on the web client, it appears as **(No name)**.
+For SLA KPI instances, you'll see the **Regarding** column as blank on Unified Interface, and on the web client you'll see it as **(No name)**. This happens for all existing and custom entities, other than the case entity.
 
 Your administrator must [configure the SLA KPI instance name through Advanced Find](define-service-level-agreements.md#configure-sla-kpi-instance-name-through-advanced-find), for you to view the entity name.
 
@@ -115,5 +113,6 @@ Your administrator must [configure the SLA KPI instance name through Advanced Fi
 
 [Use the Main form and its components](../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 
+[Configure SLA KPI instance entity name through Advanced Find](define-service-level-agreements.md#configure-sla-kpi-instance-entity-name-through-advanced-find)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 07/27/2023
+ms.date: 07/28/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -106,9 +106,9 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 
 6. Select **Activate**. The SLA KPI is saved and activated.
 
-When you create an SLA KPI instance for an entity other than the Case entity, the **Regarding** column appears as blank for the SLA KPI instance of the entity. This is a by-design behavior and is also applicable to custom entities.
+When you create an SLA KPI instance for an entity, other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior and is also applicable to custom entities.
 
-However, you can [configure the SLA KPI instance entity name through Advanced Find](#configure-sla-kpi-instance-name-through-advanced-find), so that agents can view the entity name.
+If you choose to show the entity name for your agents, you can [configure the SLA KPI instance entity name through Advanced Find](#configure-sla-kpi-instance-name-through-advanced-find).
 
 ### Configure SLA KPI instance entity name through Advanced Find
 
