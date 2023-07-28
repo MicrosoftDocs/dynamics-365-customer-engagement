@@ -59,7 +59,7 @@ additionalContent:
         text: Organization settings
       - url: admin-best-practices.md
         text: Admin best practices
-      - url: install-manage-faq.md
+      - url: install-manage-faq.yml
         text: Environment management FAQ 
 
   - title: Core functionality
@@ -76,7 +76,7 @@ additionalContent:
         links:
         - url: real-time-marketing-trigger-based-journey.md
           text: Trigger-based journeys
-        - url: real-time-marketing-build-segments
+        - url: real-time-marketing-build-segments.md
           text: Segment-based journeys
         - url: real-time-marketing-natural-language.md
           text: Use AI for segment creation
@@ -95,7 +95,7 @@ additionalContent:
         links:
         - url: real-time-marketing-personalization.md
           text: Personalize content
-        - url:  dynamic-email-content
+        - url:  dynamic-email-content.md
           text: Add dynamic content to email messages
         - url: real-time-marketing-dynamic-content-multiple-languages.md
           text: Create dynamic content for multiple countries and languages
