@@ -12,11 +12,11 @@ ms.author: andreo
 
 ## Public Preview availability
 
-In August 2023, we’re introducing the public preview of a **new Dynamics 365 Field Service mobile experience for frontline technicians** to swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures and controls to streamline managing work order Tasks, Services, and Products.
+In August 2023, we’re introducing the preview of a **new Dynamics 365 Field Service mobile experience for frontline technicians** to swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures and controls to streamline managing work order Tasks, Services, and Products. 
 
-From changing the status of a booking with a quick swipe to accessing driving directions to a customer site with one tap, the redesign saves valuable technician time for daily work. Technicians can not only easily pick, change, or complete work order details, but also add notes with multiple inline images.
+From changing the status of a booking with a quick swipe to accessing driving directions to a customer site with one tap, the redesign saves valuable technician time for daily work – cutting down the number of taps for key tasks in half. Technicians can not only easily pick, change, or complete work order details, but also add notes with multiple inline images. 
 
-In addition, to help improve first-time fix rates, [**Dynamics 365 Guides** can now be embedded](embed-guides-2D.md) for step-by-step instructions with pictures and branching flow. [Learn more about Guides.](https://aka.ms/fs-guides-mobile) 
+Technicians who need additional support can now also use **Dynamics 365 Guides** embedded in Field Service mobile. Embedded Guides in Field Service provide technicians with step-by-step guided instructions, pictures, and videos explaining the immediate task. [Learn more about Guides.](https://aka.ms/fs-guides-mobile) 
 
 > [Add link to this video](https://microsoft-my.sharepoint.com/:v:/p/marewa/EaKlFvr-Pt1BiLOJiy0ylM8Bv1AaRnCv-vCt0-JfZJQEvA?e=ATavzi)
 
