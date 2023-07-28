@@ -38,7 +38,7 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 1. Optional:
    - If this location is part of a hierarchy, enter its **Parent Functional Location**. You can skip this step and drag the location into its place in an existing hierarchy later.
-   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types) of the same type. For example, warehouses or office buildings.
+   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types-preview) of the same type. For example, warehouses or office buildings.
    - Enter a **Cost center** for bills related to a location.
    - Note an **Email address** for the right contact person of the location.
    - Set an **Open date** to indicate when a location first opened.

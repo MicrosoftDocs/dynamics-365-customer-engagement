@@ -67,7 +67,7 @@ For example, a resource works from 5:00 AM to 10:00 AM every Monday, and 12:00 P
 These APIs support create, update, and delete operations for the following work hour types:
 
 - [Working hours](#working-hours)
-- [Nonworking hours](#non-working-hour)
+- [Nonworking hours](#nonworking-hour)
 - [Breaks](#break)
 - [Time off](#time-off)
 - [Business closure](#business-closure)
