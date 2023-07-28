@@ -106,7 +106,7 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 
 6. Select **Activate**. The SLA KPI is saved and activated.
 
-When you create an SLA KPI instance for an entity, other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior and is also applicable to custom entities.
+When agents create an SLA KPI instance for an entity, other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior and is also applicable to custom entities.
 
 If you choose to show the entity name for your agents, you can [configure the SLA KPI instance entity name through Advanced Find](#configure-sla-kpi-instance-name-through-advanced-find).
 
