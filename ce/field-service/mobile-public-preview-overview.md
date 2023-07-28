@@ -28,7 +28,7 @@ Here's a list of documents that contain specific Public Preview content.
 
 | Document | 
 | --- | 
-| [Download the mobile app and get started)](download-get-started-mobile-app.md) | 
+| [Download the mobile app and get started](download-get-started-mobile-app.md) | 
 | [Complete work orders on the mobile app](get-work-done-mobile-app.md) |
 | [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md) |
 
