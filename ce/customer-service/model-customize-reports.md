@@ -74,31 +74,17 @@ Before you begin, you must complete the following prerequisites:
      1. For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
      1. For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
  1. On the selected page, switch the **Enable embedded Power BI data model customization** toggle to **On**.
- 
+
 ## Step 1: Select a Power BI workspace
 
 Specify the Power BI workspace where the Dynamics data model and reports will be provisioned.
 
-1. Go to the data model for which you want to select a Power BI workspace.
+1. From the Insights page, go to the data model for which you want to select a Power BI workspace.
 
-### [Historical data model](#tab/historicaldatamodel)
+1. Select **Create new workspace** or to use an existing workspace, select a workspace from the dropdown list.
 
-  - On the **Embedded Power BI extensibility - Historical data model customization** page:
-      - To use an existing workspace, select the workspace from the dropdown list.
-      - To create a new workspace, select **Create new workspace**.
-  
-      
+1. Select **Save**. This initiates the provisioning of the reports.
 
-### [Real-time data model](#tab/realtimedatamodel)
-
-  - On the **Embedded Power BI extensibility - Real-time data model customization** page:
-      - To use an existing workspace, select the workspace from the dropdown list.
-      - To create a new workspace, select **Create new workspace**.
-  
-    ---
-
-2. Select **Save**. This initiates the provisioning of the reports.
- 
 > [!NOTE]
 > The specified workspace applies only to the customer's workspace. A new managed workspace will be created by Microsoft for historical and real-time reports each, when configured. For more information, go to: [How data model customization works](datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
 
@@ -111,6 +97,8 @@ It could take up to 24 hours for the provisioning to complete. You can leave the
 After the report is provisioned, you must provide **Write** permissions for users who will be authoring reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
 
 You'll need to be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) will have the necessary permissions added.
+
+:::image type="content" source="media/step3-grant-permissions.png" alt-text="Image for step 3 grant read and write permissions":::
 
 ### Grant access to the Power BI data model
 
