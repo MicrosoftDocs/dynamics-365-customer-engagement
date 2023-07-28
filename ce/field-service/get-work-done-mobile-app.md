@@ -35,7 +35,8 @@ Change the status of a booking to **Traveling** directly from the booking home p
 > [!div]
 > ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-public-preview-traveling.png)
 
-Open the default maps app to get directions by tapping on the directions icon directly from the bookings home page. You can decide if you want the booking status to change to **Traveling** when you do so.
+Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. If the booking record contains the geolocation of the address (lat/long), then the control will use that, otherwise it will fallback to the address string. If no address is specified, then the directions icon will not be available. 
+You can decide if you want the booking status to change to **Traveling** when you do so. 
 
 > [!div]
 > ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-public-preview-traveling-directions.png)
