@@ -11,10 +11,6 @@ ms.author: anclear
 
 Booking timestamps record the date and time that a *Booking Status* changes. They log how technicians spend their time, provide details for invoicing, and enable booking journals.
 
-- Reporting, in order to see how technicians are spending their time
-- Time-keeping, in order to provide a level of detail for invoicing
-- Booking journals, in order to see a holistic view of time spent on any given work order
-
 :::image type="content" source="media/scheduling-timestamps-booking-statuses-per-fs-status.png" alt-text="Screenshot of booking timestamps on a booking resource booking":::
 
 > [!TIP]
@@ -31,9 +27,9 @@ By default, the system creates timestamps automatically when the booking status 
 Think of a default work order process.
 
 1. A dispatcher schedules a work order to a technician. When scheduling the booking, it's booking status changes to *Scheduled*.
-1. The technician sees the work order on their mobile device and updates the booking status to reflect progress. While driving to the work site, they set it to *Traveling*.
+1. The technician sees the work order on their mobile device and updates the booking status to reflect progress. While they travel to the work site, they set it to *Traveling*.
 1. When the work starts, the update it to *In Progress*.
-1. After completing the work, they set the booking status to *Completed*.
+1. After the technician completes the work, they set the booking status to *Completed*.
 
 The system saves every change of the booking status to keep a track record.
 
@@ -53,7 +49,7 @@ Each booking timestamp includes the following information:
 
 ## Generate booking journals
 
-Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time will preserve the previous end time value. *Canceled* bookings won't have any booking journal records.
+Booking journals calculate total travel time and working time for a booking. When a bookable resource booking status changes to *Completed*, the system creates booking journals per the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value. *Canceled* bookings won't have any booking journal records.
 
 There are a few types of booking journals:  
 
