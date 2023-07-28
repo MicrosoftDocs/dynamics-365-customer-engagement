@@ -124,4 +124,4 @@ In this scenario, a customer has multiple brands, each one needing to capture co
 
 ### Operating in multiple countries and / or requiring preference center in multiple languages 
 
-Similar to the multiple brand scenario but in this scenario the company is looking to structure around the multiple geographies it may operate in rather than by the brands used. This too can be addressed with multiple compliance profiles created for each country. Once defined, each compliance profile would have its own preference center page, with content written in the appropriate language and reference the appropriate supporting material.
+Similar to the multiple brand scenario but in this scenario the company is looking to structure around the multiple geographies it may operate in rather than by the brands used. This too can be addressed with multiple compliance profiles created for each country. Once defined, each compliance profile would have its own preference center page, with content written in the appropriate language and reference the appropriate supporting material..
