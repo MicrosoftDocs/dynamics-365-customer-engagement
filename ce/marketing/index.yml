@@ -113,8 +113,8 @@ additionalContent:
           text: Access and interpret analytics
         - url: real-time-marketing-cross-journey-analytics.md
           text: Cross-journey analytics
-        - url: Marketing effectiveness
-          text: real-time-marketing-effectiveness.md
+        - url: real-time-marketing-effectiveness.md
+          text: Marketing effectiveness
 
   - title: Related products
     items:
