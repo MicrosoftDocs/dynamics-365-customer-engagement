@@ -100,11 +100,11 @@ To return to the choice of six prompts, select **Start over** at the bottom of t
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
-:::image type="content" source="media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::<!-- EDITOR'S NOTE: Please crop this screenshot IAW our screenshot guidelines, https://review.learn.microsoft.com/en-us/bacx/screenshots-for-bap?branch=main. -->
+:::image type="content" source="media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
 
 ### Generate a chat response
 
-Select [the one-click response generation button]<!-- EDITOR'S NOTE: Replace the text in square brackets with the button label. --> at the lower-right corner of the Conversation control panel and at the lower-left corner of the Copilot pane. Copilot analyzes the context of the conversation and the latest customer question or message, and drafts a response to send directly to the customer. You don't need to manually type the question.
+Select the one-click response generation button at the lower-right corner of the Conversation control panel and at the lower-left corner of the Copilot pane. Copilot analyzes the context of the conversation and the latest customer question or message, and drafts a response to send directly to the customer. You don't need to manually type the question.
 
 > [!NOTE]
 > The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
