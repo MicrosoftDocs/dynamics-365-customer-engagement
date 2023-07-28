@@ -33,8 +33,7 @@ Most of the Dynamics 365 Sales features fully support customer lockbox, except f
 
 Yes, the Dynamics 365 Sales data can be encrypted using CMK. For more information, see [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key).
 
-> [!NOTE]
-> Currently, conversation intelligence doesn't support CMK.
+Most of the Dynamics 365 Sales features fully support customer lockbox, except for conversation intelligence. 
 
 
 ### See also
