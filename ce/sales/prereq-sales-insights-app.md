@@ -1,7 +1,7 @@
 ---
 title: Prerequisites to configure Conversation intelligence app
 description: Verify the prerequisites that are necessary to configure the Conversation intelligence app."
-ms.date: 06/29/2023
+ms.date: 07/28/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
