@@ -158,15 +158,15 @@ items:
 - name: Microsoft 365 integrations for Field Service (preview)
   items:
     - name: Overview
-      href: fs-front-line/flw-overview.md
+      href: flw-overview.md
     - name: Administrators
-      href: fs-front-line/flw-admin.md
+      href: flw-admin.md
     - name: Outlook add-in with Copilot for the Frontline Manager
-      href: fs-front-line/flw-outlook.md
+      href: flw-outlook.md
     - name: Teams app for the Frontline Manager
-      href: fs-front-line/flw-teams-manager.md
+      href: flw-teams-manager.md
     - name: Teams app for the Frontline Worker
-      href: fs-front-line/flw-teams-worker.md
+      href: flw-teams-worker.md
 
 - name: Scheduling
   items:
@@ -492,14 +492,14 @@ items:
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
   - name: Field Service (Preview) troubleshooting
-    href: fs-front-line/flw-troubleshooting.md
+    href: flw-troubleshooting.md
 
 - name: Responsible AI
   items: 
     - name: Overview
       href: responsible-ai-overview.md
     - name: FAQ for Outlook work order creation
-      href: fs-front-line/faqs-wo-flw-copilot.md
+      href: faqs-wo-flw-copilot.md
 
 - name: More resources
   items:

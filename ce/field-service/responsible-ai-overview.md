@@ -16,4 +16,4 @@ ms.reviewer: jacohen
 
 [!INCLUDE[rai-faq-features](../includes/faqs-feature.md)]
 
-- [Outlook work order creation](fs-front-line/flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
+- [Outlook work order creation](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)

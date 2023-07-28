@@ -16,7 +16,7 @@ Microsoft Dynamics 365 Field Service integrates with various business apps to st
 
 ## Integrate with Dynamics 365 Field Service (Preview)
 
-With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information, see [Dynamics 365 Field Service (Preview) overview](./fs-front-line/flw-overview.md).
+With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information, see [Dynamics 365 Field Service (Preview) overview](flw-overview.md).
 
 ## Integrate with Dynamics 365 Supply Chain Management
 
