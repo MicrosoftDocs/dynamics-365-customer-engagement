@@ -12,16 +12,19 @@ ms.date:     07/27/2023
 ---
 
 # Sales Copilot FAQs
-Here are some FAQs for customers using Sales Copilot in Dynamics 365 Sales.
+Here are some frequently asked questions from customers of Sales Copilot in Dynamics 365 Sales.
 
 **Q. How does the data flow between Dynamics and AOAI endpoints?** <br>
 When you type a query in copilot we pass the relevant data to AOAI via our plugins and services. We will release a high level architecture document around the GA timeframe.
+
+**Have we opted out form abuse monitoring and human review?**
+Yes. Our AOAI resources have opted out of [this feature](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review).
 
 **Q. What data is included in the requests?** <br>
 This varies as per the type of request made. For eg. when you attempt to summarize your opportunity the revelant fields of the opportunity and associated metadata is pushed to the AOAI endpoint to generate a summary.
 
 **Q. Is any of my data retained outside my CRM?** <br>
-We do not retain any of your data in any new data store. To detect and mitigate abuse, Azure OpenAI stores all prompts and generated content securely for up to thirty (30) days. You can read more about the AOAI data and privacy committments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy)
+We do not retain any of your data in any new data store. You can read more about the AOAI data and privacy committments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy)
 
 **Q. How is the data encrypted?** <br>
 All data continues to be handled according to the Microsoft data management guidelines. See [here](https://www.microsoft.com/en-us/trust-center/privacy/data-management).
