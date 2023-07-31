@@ -10,7 +10,7 @@ ms.date: 08/01/2023
 ms.custom: bap-template 
 ---
 
-# Enable linking of timeline notes to other table records
+# Enable linking of timeline notes with other table records
 
 You can use the **Relate note to a table record** feature to perform the following actions on case, account, and contact tables, without having to leave the current page:
 - Move a note on the timeline of an existing table record to another table record. For example, you can transfer a note on the timeline of a contact to an existing case. 

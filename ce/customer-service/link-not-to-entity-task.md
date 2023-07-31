@@ -1,6 +1,6 @@
 ---
-title:  Link timeline notes to other table records
-description: learn about linking timeline notes to other table records
+title:  Link timeline notes with other table records
+description: Learn about linking timeline notes to other table records.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
@@ -10,7 +10,7 @@ ms.date: 08/01/2023
 ms.custom: bap-template 
 ---
 
-# Learn about linking timeline notes to other tables
+# Learn about linking timeline notes with other tables
 
 You can use notes on the timeline to record case summary, investigations, or add images and files for reference. You can use the **Relate note to a table record** feature on the timeline, to perform the following actions, on case, account, and contact tables without having to leave the current page:
 - Move a note on the timeline of an existing table record to another table record. For example, you can move a note on the timeline of a contact to an existing case. 
