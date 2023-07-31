@@ -94,6 +94,7 @@ The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
   - Sub grid controls don't retain the filter or sort conditions.
   - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
+  - When changing the status record in a tab, the corresponding record open in a grid or subgrid of another tab does not automatically refresh.
 - Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
