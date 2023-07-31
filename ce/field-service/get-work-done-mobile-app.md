@@ -77,7 +77,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-In Public Preview you take notes directly in the **Timeline** tab. Simply tap on the **+* Add note** button and add text and/or images to your note. 
+In the new mobile UX (preview) you take notes directly in the **Timeline** tab. Simply tap on the **+* Add note** button and add text and/or images to your note. 
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-preview-notes.png)
