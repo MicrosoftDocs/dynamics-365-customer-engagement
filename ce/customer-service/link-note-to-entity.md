@@ -25,7 +25,7 @@ You can choose to enable this feature on any table that allows you to add a time
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, and then select the table for which agents can link notes taken on the timeline.
 1. Select **Form**.
-1. Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](create-and-edit-forms.md).
+1. Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 1. Select the timeline component on the form.
 1. In the **Properties** > **Notes** section, perform the following steps:
     - Select **Link to Table**.
