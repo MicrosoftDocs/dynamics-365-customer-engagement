@@ -19,4 +19,4 @@ The following articles describe how frontline workers or technicians get the mos
 - [Work offline and update offline data](work-offline-mobile-app.md)
 - [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
 
-We have recently released Public Preview features in the app, learn more about it [here](mobile-public-preview-overview.md).
+We have recently released Preview features in the app, learn more about it [here](mobile-powerapp-newux-overview.md).

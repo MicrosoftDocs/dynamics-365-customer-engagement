@@ -46,12 +46,12 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions (Account, Incident type, Time, Duration).
 
 > [!div]
-> ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in public preview](./media/mobile-public-preview-bookings.png)
+> ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in public preview](./media/mobile-preview-bookings.png)
 
 Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right.
 
 > [!div]
-> ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in public preview](./media/mobile-public-preview-swipe.png)
+> ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in public preview](./media/mobile-preview-swipe.png)
 
 ---
 
@@ -69,7 +69,7 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface app.
 
 > [!div]
-> ![Screenshot of navigatiom in the Field Service Mobile app home page in public preview](./media/mobile-public-preview-navigation.png)
+> ![Screenshot of navigatiom in the Field Service Mobile app home page in public preview](./media/mobile-preview-navigation.png)
 
 ---
 
