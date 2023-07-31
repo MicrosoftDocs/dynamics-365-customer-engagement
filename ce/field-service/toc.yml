@@ -228,10 +228,10 @@ items:
 
 - name: Mobile app
   items:
-    - name: Public Preview
-      href: mobile-public-preview-overview.md
     - name: Overview
       href: mobile-power-app-overview.md
+    - name: New mobile UX (preview)
+      href: mobile-powerapp-newux-overview.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
