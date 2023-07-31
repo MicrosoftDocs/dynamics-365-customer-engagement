@@ -190,7 +190,7 @@ To add a record type to connect chats to in Dynamics 365 records:
 For any view that's selected, keep in mind the following details:
 
  - The first five fields of any view are used as the context card details (in addition to a connection to the record).
- - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You are able to see from the configuration experience that the specific field isn't supported.
+ - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You're able to see from the configuration experience that the specific field isn't supported.
  
    > [!div class="mx-imgBorder"] 
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
