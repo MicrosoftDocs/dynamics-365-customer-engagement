@@ -29,12 +29,12 @@ ms.custom: bap-template
 
 ### Check for Azure tenant requirement
 
-The Dynamics 365 environment and the Azure Communication Services resource that's connected to the organization must be in the same Azure tenant. We also recommend that the Azure Communication Services resource used for Dynamics 365 environment that's using Gatekeeper be isolated in their own Azure subscription.
+The Customer Service instance and the Azure Communication Services resource that's connected to the organization must be in the same Azure tenant. We also recommend that the Azure Communication Services resource used for Customer Service instance that's using Gatekeeper be isolated in their own Azure subscription.
 
 To verify, do the following steps:
 
 1. In Customer Service admin center, go to the workstream and voice channel you'll use.
-1. Verify that the Dynamics 365 environment and Azure Communication Services resource with phone numbers are using the same tenant.
+1. Verify that the Customer Service instance and Azure Communication Services resource with phone numbers are using the same tenant.
 
 If your Dynamics 365 instance isn't in the same tenant, the new service components that share the audio stream between the Digital Contact Center Platform and Nuance Gatekeeper can't be registered. You'll see an error message when you try to create the authentication setting.
 
