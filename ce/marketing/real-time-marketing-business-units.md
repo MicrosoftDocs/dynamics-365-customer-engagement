@@ -1,9 +1,7 @@
 ---
-title: "Business unit support in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use business unit support in Dynamics 365 Marketing."
-ms.date: 01/27/2023
-ms.custom: 
-  - dyn365-marketing
+title: Business unit support in real-time marketing
+description: Learn how to use business unit support in Dynamics 365 Marketing.
+ms.date: 07/27/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -30,6 +28,9 @@ Business units affect customer journeys as follows:
 - When [scoping is enabled](real-time-marketing-business-units.md#enabling-business-unit-scopes-in-real-time-marketing) for your instance, each [journey](real-time-marketing-trigger-based-journey.md) is automatically be scoped to the journey owner’s business unit. In addition:
     - Business unit scoped journeys will only process audience members that belong to the same business unit as the journey owner.
     - If the environment's business unit scoping is enabled, all journeys will automatically filter the segments, emails, text messages, and push notifications that can be used in a journey to those that are in the same business unit as the journey.
+
+> [!NOTE]
+> The scoping business unit on a **Live** journey does not change even if the owner of the journey changes or if the business unit of the owner changes. If you edit a **Live** journey and publish a new version, the *new* journey version will take the current value of the business unit of the journey owner at the time of publication for scoping purposes. The previous version of the journey, however, retains the original business unit scoping.
 
 ## Message (email, text message, push notification) and template design
 
