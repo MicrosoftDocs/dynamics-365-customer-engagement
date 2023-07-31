@@ -56,7 +56,7 @@ Finally the top header allows access to the app left nav (settings, feedback, ch
 > [!div]
 > ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-preview-bookings.png)
 
-Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allow the technician to edit the status of the booking and to launch the map application to get direction directly from the home page, without the need of opening the booking details page.
+Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allow the technician to edit the status of the booking and to launch the map application to get directions directly from the home page, without the need of opening the booking details page.
 
 > [!div]
 > ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-preview-swipe.png)
