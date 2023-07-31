@@ -17,7 +17,7 @@ Here are some frequently asked questions from customers of Sales Copilot in Dyna
 **Q. How does the data flow between Dynamics and AOAI endpoints?** <br>
 When you type a query in copilot we pass the relevant data to AOAI via our plugins and services. We will release a high level architecture document around the GA timeframe.
 
-**Have we opted out form abuse monitoring and human review?**
+**Have we opted out of abuse monitoring and human review?**
 Yes. Our AOAI resources have opted out of [this feature](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review).
 
 **Q. What data is included in the requests?** <br>
