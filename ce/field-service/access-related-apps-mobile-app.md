@@ -35,13 +35,13 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 If your organization has enabled your account to access Guides, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides library, search for specific Guides, and follow them step by step. [Learn more about Guides](https://aka.ms/fs-guides-mobile)
 
 > [!div]
-> ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-preview-related-guides-home.png)
+> ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-newux-related-guides-home.png)
 
 <!-- 
 If a **Service Task** within a **Work Order** has been created with a Guides attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
 
 > [!div]
-> ![Screenshot of Guides Service Tasks within the Field Service Mobile app](./media/mobile-preview-related-guides-servicetasks.png)
+> ![Screenshot of Guides Service Tasks within the Field Service Mobile app](./media/mobile-newux-related-guides-servicetasks.png)
 -->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

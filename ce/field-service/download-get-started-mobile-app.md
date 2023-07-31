@@ -54,12 +54,12 @@ The menu at the bottom allows for easy access to the bookings home page (**Home*
 Finally the top header allows access to the app left nav (settings, feedback, change app, etc.) via the user icon, and to the global search via the search icon.
 
 > [!div]
-> ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-preview-bookings.png)
+> ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-newux-bookings.png)
 
 Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allow the technician to edit the status of the booking and to launch the map application to get directions directly from the home page, without the need of opening the booking details page.
 
 > [!div]
-> ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-preview-swipe.png)
+> ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-newux-swipe.png)
 
 ---
 
@@ -77,7 +77,7 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 To access the app navigation in the New mobile UX (preview) simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface UX.
 
 > [!div]
-> ![Screenshot of navigatiom in the Field Service Mobile app home page in preview](./media/mobile-preview-navigation.png)
+> ![Screenshot of navigatiom in the Field Service Mobile app home page in preview](./media/mobile-newux-navigation.png)
 
 ---
 

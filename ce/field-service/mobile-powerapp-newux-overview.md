@@ -39,7 +39,7 @@ To enable the Field Service Mobile Preview features for your organization's tech
 Once the Filed Service Mobile app screen loads, click on the bottom left menu and switch the area to **Settings**. From there, use the toggle to enable or disable the preview features for all users within the organization.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the Preview features](./media/mobile-preview-enable-toggle.png)
+> ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the Preview features](./media/mobile-newux-enable-toggle.png)
 
 ## Limitations of preview features
 
