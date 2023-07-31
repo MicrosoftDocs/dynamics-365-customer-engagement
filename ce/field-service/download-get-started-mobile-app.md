@@ -74,7 +74,7 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-To access the app navigation in the New mobile UX (preview) simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface app.
+To access the app navigation in the New mobile UX (preview) simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface UX.
 
 > [!div]
 > ![Screenshot of navigatiom in the Field Service Mobile app home page in preview](./media/mobile-preview-navigation.png)
