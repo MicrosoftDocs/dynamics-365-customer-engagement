@@ -98,7 +98,7 @@ Do the following steps:
 1. Configure a [context variable](manage-context-variables.md#add-context-variables) with the name "NuanceGatekeeperEnabled" and of the Number type.
 1. Configure a [work classification rule](configure-work-classification.md) for the workstream through which the conversation will be handled. Ensure that the output value for the context variable is set to zero. When it’s set to zero, the conversation is excluded from the authentication process.
 
-  :::image type="content" source="media/exclude-conversation-from-gatekeeper-authentication.png" alt-text="Screenshot of configure routing rules to exclude a conversation from biometric authentication by Nuance Gatekeeper.":::
+    :::image type="content" source="media/exclude-conversation-from-gatekeeper-authentication.png" alt-text="Screenshot of configure routing rules to exclude a conversation from biometric authentication by Nuance Gatekeeper.":::
 
 > [!NOTE]
 > The routing rule isn’t evaluated for transferred calls or supervisor-assigned calls.
