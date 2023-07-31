@@ -43,12 +43,15 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions (Account, Incident type, Time, Duration).
+The first screen shows the list of all scheduled work orders for today for the logged in technician. 
+The list can be filtered by work order status by tapping on the *pills* at the top of the booking list.
+The list can also be sorted by various dimensions (Account, Incident type, Time, Duration) by tapping on the **Sort by** affordance on the top right of the list.
+The menu at the bottom allows for easy access to the bookings home page (**Home**), to the [Embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
 
 > [!div]
 > ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-preview-bookings.png)
 
-Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right.
+Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allow the technician to edit the status of the booking and to launch the map application to get direction directly from the home page, without the need of opening the booking details page.
 
 > [!div]
 > ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-preview-swipe.png)
