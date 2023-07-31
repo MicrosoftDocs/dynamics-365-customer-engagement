@@ -29,10 +29,10 @@ You can choose to enable this feature on any table that allows you to add a time
 1. Select the timeline component on the form.
 1. In the **Properties** > **Notes** section, perform the following steps:
     - Select **Link to Table**.
-    - Select the table you want to link the note to. You can select Account, Case, and Contact. The required tables's pane appears.
+    - Select the table you want to link the note to. You can select Account, Case, and Contact. The required table's pane appears.
     - Select **Enable** on the table’s pane. If you've selected **Case**, you must specify the following:
       - **Create Case using**: the form type that opens when the agent creates a new case from the note.
       - **Configure form**: the form that is displayed when the agent creates a new case from the note.
-      - **Map notes title to**: the field to which the notes title should get copied to. For example, if you select **Case Title**, when you create a new case, the Case title will be auto- populated with the value of the notes title.
-      - **Map notes description to**: The field to which the notes description should get copied to. For example, if you select **Description**, when you create a new case, the case description will be auto populated with the value of the notes description. 
+      - **Map notes title to**: the field to which the notes title should get copied. For example, if you select **Case Title**, when you create a new case, the Case title is auto- populated with the value of the notes title.
+      - **Map notes description to**: The field to which the notes description should get copied to. For example, if you select **Description**, when you create a new case, the case description is auto populated with the value of the notes description. 
 1. Save and publish the customizations.
