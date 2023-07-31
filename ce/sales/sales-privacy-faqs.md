@@ -13,17 +13,17 @@ ms.author: udag
 
 ## Where is the Dynamics 365 Sales data stored?  
 
-Dynamics 365 Sales data is stored in Dataverse and in Azure resources (for certain features). Both Dataverse and the Azure resources are co-located with their respective Power Platform environment locations. For more information about Power Platform environment locations, see [Data Location](/power-platform/admin/wp-compliance-data-privacy#data-location).  
+Dynamics 365 Sales data is stored in Dataverse and in Azure resources (for certain features). Both Dataverse and the Azure resources are colocated with their respective Power Platform environment locations. For more information about Power Platform environment locations, see [Data Location](/power-platform/admin/wp-compliance-data-privacy#data-location).  
 
 ## Can the Dynamics 365 Sales data be protected with Customer Lockbox?
 
 Yes, the Dynamics 365 Sales data is stored in the Power Platform environment and is protected with Power Platform Customer Lockbox. For more information, see [Securely access customer data using Customer Lockbox](/power-platform/admin/about-lockbox).
 
-Most of the Dynamics 365 Sales features fully support customer lockbox, except for the following features:
+Most of the Dynamics 365 Sales features fully support Customer Lockbox, except for the following features:
 
-- Conversation intelligence doesn't support customer lockbox.
+- **Conversation intelligence** doesn't support Customer Lockbox.
 
-- Forecasting partially supports customer lockbox. Customer approval workflow is enabled for forecasting. However, as conversation intelligence and forecasting share the same infrastructure, the forecasting data is not completely restricted for access until conversation intelligence supports lockbox. 
+- **Forecasting** partially supports Customer Lockbox. Customer approval workflow is enabled for forecasting. However, as conversation intelligence and forecasting share the same infrastructure, the forecasting data isn't completely restricted for access until conversation intelligence supports lockbox. 
 
    > [!IMPORTANT]
    > Microsoft support’s access to the forecasting and conversation intelligence data will continue to be managed by our internal customer data access approval process.
@@ -33,7 +33,7 @@ Most of the Dynamics 365 Sales features fully support customer lockbox, except f
 
 Yes, the Dynamics 365 Sales data can be encrypted using CMK. For more information, see [Manage your customer-managed encryption key](/power-platform/admin/customer-managed-key).
 
-Most of the Dynamics 365 Sales features fully support customer lockbox, except for conversation intelligence. 
+Most of the Dynamics 365 Sales features fully support Customer Lockbox, except for conversation intelligence. 
 
 
 ### See also
