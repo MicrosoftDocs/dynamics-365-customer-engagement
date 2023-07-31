@@ -60,7 +60,7 @@ View answers to questions about setting up Teams chat in customer engagement app
 
 ### See also
 
-[Configure Teams chat](configure-teams-chat.md)
+[Configure Teams chat](configure-teams-chat.md)  
 [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  
 [Use Teams chat](use-teams-chat.md)  
   
