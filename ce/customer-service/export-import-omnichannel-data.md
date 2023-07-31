@@ -17,7 +17,7 @@ After you have used Omnichannel for Customer Service in a test environment, you 
 > [!IMPORTANT]
 > Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create them using the Customer Service admin center app.
 
-While you can use the Configuration Migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you've already imported the context variables and then try to import pre-conversation configuration, which also creates context variables, the import might not work. Similarly, you must import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
+While you can use the Configuration Migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you've already imported the context variables and then try to import preconversation configuration, which also creates context variables, the import might not work. Similarly, you must import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
 
 > [!NOTE]
 >
@@ -34,7 +34,7 @@ While you can use the Configuration Migration tool to export and import entity d
 [Migrate configuration data for records based on unified routing](migrate-config-data-for-records-overview.md)                                                   
 [Migrate configuration for live chat](migrate-config-data-for-live-chat.md)  
 [Migrate configuration for voice channel](migrate-config-data-for-voice-channel.md)                                                       
-[Enable third-party co-browse and screen sharing](third-party-co-browse.md)                                                      
+[Enable third-party cobrowse and screen sharing](third-party-co-browse.md)                                                      
 [Overview of channels](channels.md)                                                                                                         
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
