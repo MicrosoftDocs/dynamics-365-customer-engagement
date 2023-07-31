@@ -10,10 +10,9 @@ ms.date: 07/31/2023
 ms.custom: bap-template 
 ---
 
-# Add authentication setting for Nuance Gatekeeper (preview)
+# Add an authentication setting for Nuance Gatekeeper (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Prerequisites
 
@@ -29,18 +28,18 @@ ms.custom: bap-template
 
 ### Check for Azure tenant requirement
 
-The Customer Service instance and the Azure Communication Services resource that's connected to the organization must be in the same Azure tenant. We also recommend that the Azure Communication Services resource used for Customer Service instance that's using Gatekeeper be isolated in their own Azure subscription.
+The Customer Service instance and the Azure Communication Services resource that's connected to the organization must be in the same Azure tenant. We also recommend that the Azure Communication Services resources used for Customer Service instance that's using Gatekeeper be isolated in their own Azure subscription.
 
 To verify, do the following steps:
 
 1. In Customer Service admin center, go to the workstream and voice channel you'll use.
-1. Verify that the Customer Service instance and Azure Communication Services resource with phone numbers are using the same tenant.
+1. Verify that the Customer Service instance and Azure Communication Services resource with phone numbers are in the same tenant.
 
 If your Customer Service instance isn't in the same tenant, you can't register the new service components that share the audio stream between the Digital Contact Center Platform and Nuance Gatekeeper. Instead, you'll see an error message when you try to  create the authentication setting.
 
 ### Create application registration for single sign-on
 
-You'll need to do some of the Gatekeeper actions in the Nuance portals. To simplify access and credentials, the Nuance Gatekeeper team configures single sign-on access to your Azure Active Directory, so that you can use your regular username and password to access the functionality.
+You'll need to do some of the Gatekeeper actions in the Nuance portals. Therefore, to simplify access and credentials, the Nuance Gatekeeper team configures single sign-on access to your Azure Active Directory, so that you can use your regular username and password to access the functionality.
 
 Create a new application registration in your Azure Active Directory and share the OpenID Connect metadata document by following these steps:
 
@@ -99,14 +98,14 @@ Do the following steps:
 1. Configure a [context variable](manage-context-variables.md#add-context-variables) with the name "NuanceGatekeeperEnabled" and of the Number type.
 1. Configure a [work classification rule](configure-work-classification.md) for the workstream through which the conversation will be handled. Ensure that the output value for the context variable is set to zero. When it’s set to zero, the conversation is excluded from the authentication process.
 
-  :::image type="content" source="media/exclude-conversation-from-gatekeeper-authentication.png" alt-text="Configure routing rules to exclude a conversation from biometric authentication by Nuance Gatekeeper.":::
+  :::image type="content" source="media/exclude-conversation-from-gatekeeper-authentication.png" alt-text="Screenshot of configure routing rules to exclude a conversation from biometric authentication by Nuance Gatekeeper.":::
 
 > [!NOTE]
 > The routing rule isn’t evaluated for transferred calls or supervisor-assigned calls.
 
 ### How the conversation is excluded from authentication process
 
-After you configure the setting to exclude the customer call, when the call comes, on the call panel, the agent will see a message that authentication is unavailable for the call or the authentication is not available by design.
+If you have configured the setting to exclude a particular customer call, when the call comes, on the communication panel, the agent will see a message that authentication is unavailable for the call or the authentication is not available by design.
 
 ## Next steps
 

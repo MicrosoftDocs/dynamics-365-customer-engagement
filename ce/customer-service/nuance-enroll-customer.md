@@ -12,8 +12,7 @@ ms.custom: bap-template
 
 # Enroll customers in biometric authentication using Nuance Gatekeeper (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Enroll customers in biometric authentication
 
@@ -37,7 +36,7 @@ If the customer declines to be enrolled in the Nuance Gatekeeper authentication,
 
 Customers who are enrolled in biometric authentication are validated automatically through the Gatekeeper feature when they call.
 
-If the enrolled customer doesn’t pass the biometric authentication, the agent will receive a “no match” response from Nuance Gatekeeper. If the agent suspects a fraud attempt, they flag the conversation as suspicious.
+If the enrolled customer doesn’t pass the biometric authentication, the agent receives a “no match” response from Nuance Gatekeeper. If the agent suspects a fraud attempt, they flag the conversation as suspicious.
 
 If the agent has flagged a conversation as suspicious, the fraud detection analyst analyzes it and adds the caller’s voice to the suspected fraudsters watch list.
 
