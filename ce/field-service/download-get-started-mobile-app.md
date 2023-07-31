@@ -47,6 +47,7 @@ The first screen shows the list of all scheduled work orders for today for the l
 The list can be filtered by work order status by tapping on the *pills* at the top of the booking list.
 The list can also be sorted by various dimensions (Account, Incident type, Time, Duration) by tapping on the **Sort by** affordance on the top right of the list.
 The menu at the bottom allows for easy access to the bookings home page (**Home**), to the [Embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
+Finally the top header allows access to the app left nav (settings, feedback, change app, etc.) via the user icon, and to the global search via the search icon.
 
 > [!div]
 > ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-preview-bookings.png)
