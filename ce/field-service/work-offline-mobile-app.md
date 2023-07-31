@@ -14,7 +14,7 @@ To work in areas without internet access, the app downloads important informatio
 
 An administrator has to configure the offline profile for the app before technicians can download the data. For more information, see [Configure offline capabilities in the Field Service (Dynamics 365) mobile app](mobile-power-app-system-offline.md)
 
-## [Unified Interface app](#tab/vCurrent)
+## [Unified Interface UX](#tab/vCurrent)
 
 Downloading the offline data can take some time. You can check the download progress and status from the header of the app.
 

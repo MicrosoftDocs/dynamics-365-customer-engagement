@@ -32,7 +32,7 @@ After you sign in, the app may download offline data to your device. It can take
 
 ## View scheduled work orders
 
-## [Unified Interface app](#tab/vCurrent)
+## [Unified Interface UX](#tab/vCurrent)
 
 The first screen shows a calendar view of your scheduled work orders.
 
@@ -41,7 +41,7 @@ The first screen shows a calendar view of your scheduled work orders.
 
 In the footer, select **More** > **Show as** > **Read-only Grid** to see the bookings as a list instead.
 
-## [Public Preview app](#tab/vNext)
+## [New mobile UX (preview)](#tab/vNext)
 
 The first screen shows the list of all scheduled work orders for today for the logged in technician. The list can be filtered by work order status and sorted by various dimensions (Account, Incident type, Time, Duration).
 
@@ -57,14 +57,14 @@ Each work order in the list exposes some quick actions in the contextual menu or
 
 ## Navigate the app
 
-## [Unified Interface app](#tab/vCurrent)
+## [Unified Interface UX](#tab/vCurrent)
 
 To get to the sitemap, select the menu icon. The sitemap quickly gets you to important information like accounts, contacts, customer assets, or to submit time entries.
 
 > [!div class="mx-imgBorder"]
 > ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
-## [Public Preview app](#tab/vNext)
+## [New mobile UX (preview)](#tab/vNext)
 
 To access the app navigation in the Public Preview app simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface app.
 
