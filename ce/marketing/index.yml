@@ -69,17 +69,17 @@ additionalContent:
         - url: real-time-marketing-email.md
           text: Email marketing overview
         - url: content-ideas.md
-          text: Use AI for email creation        
+          text: Use AI to create email content        
         - url: real-time-marketing-email-get-started.md
           text: Send a targeted email blast
       - title: Real-time journeys
         links:
         - url: real-time-marketing-trigger-based-journey.md
           text: Trigger-based journeys
+        - url: real-time-marketing-natural-language.md
+          text: Use AI to create segments
         - url: real-time-marketing-build-segments.md
           text: Segment-based journeys
-        - url: real-time-marketing-natural-language.md
-          text: Use AI for segment creation
       - title: Event planning
         links:
         - url: event-management.md
