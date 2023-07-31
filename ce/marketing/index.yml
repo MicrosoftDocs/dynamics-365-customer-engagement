@@ -45,7 +45,7 @@ additionalContent:
         text: Licensing
       - url: marketing-license.md
         text: Purchase
-    - title: Installation and setup guide
+    - title: Provision and set up
       links:
       - url: get-started.md
         text: Marketing app setup
