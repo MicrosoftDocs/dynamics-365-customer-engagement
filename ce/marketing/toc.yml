@@ -268,6 +268,12 @@
     items:
     - name: Optimize Lead management by engaging sellers right away
       href: real-time-marketing-optimize-lead-management.md
+    - name: Create a scoring model
+      href: real-time-marketing-create-lead-scoring-model.md
+    - name: Visualize scoring model
+      href: real-time-marketing-visualize-scoring-model.md
+    - name: Security roles for lead scoring and qualifications
+      href: real-time-marketing-security-roles-lead-scoring.md
   - name: Analytics
     items:
     - name: Access and interpret analytics
