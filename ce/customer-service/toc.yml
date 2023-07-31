@@ -549,7 +549,7 @@
       - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
       - name: FAQ about setting up Teams chat
-      - href: faq-teams-chat.md
+        href: faq-teams-chat.md
       - name: Enable Teams meetings in Customer Service apps
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
