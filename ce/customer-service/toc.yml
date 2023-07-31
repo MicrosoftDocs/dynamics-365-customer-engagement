@@ -447,7 +447,7 @@
     - name: Enable linking of timeline notes to other table records
       href: link-note-to-entity.md  
     - name: Link timeline notes to other table records
-      href: link-not-to-entity-task.md  
+      href: link-note-to-entity-task.md  
     - name: FAQ about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   
