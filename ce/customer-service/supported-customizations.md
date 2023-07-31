@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 06/01/2023
+ms.date: 07/18/2023
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form
@@ -66,7 +66,7 @@ Additionally, if [customize active conversation form](add-customer-summary-setti
 We also recommend that you don't:
 
 - Change the **Conversation** form or the order in which it's displayed, as it's the default form.
-- Modify the out-of-the-box JavaScript handlers used in the **Active Conversation** form.
+- Modify the out-of-the-box JavaScript handlers and web resource used in the **Active Conversation** form.
 
 ### Logical column names
 

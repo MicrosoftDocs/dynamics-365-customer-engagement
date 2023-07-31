@@ -20,7 +20,7 @@ These frequently asked questions (FAQ) describe the AI impact of the Dynamics 36
 
 ## What are summarization's capabilities?
 
-Summarization is available for the following use cases– lead summary, opportunity summary, and meeting preparation.
+Summarization is available for the following use cases&mdash;lead summary, opportunity summary, and meeting preparation.
 
 **Lead summary:** A Lead summary in Dynamics 365 Sales generates a summary using the key fields of the lead view. The default lead summary includes the following information:
 - Lead topic / What is the lead interested in?  

@@ -35,7 +35,7 @@ The crew strategy determines how the crew manages its work. There are three opti
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
 > [!NOTE]
-> The logic associated with crew strategies will only impact work order related bookable resource bookings.
+> The logic associated with crew strategies will only impact work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
 >
 > Crew strategies affect if and how a crew booking is rescheduled. For example, if a crew leader's bookings change, all bookings of the crew are moved.
 
