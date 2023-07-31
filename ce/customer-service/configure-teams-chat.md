@@ -52,7 +52,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - The communication between the applications is secured through TLS.
 
-- Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a connected chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
+- The integration honors policies that apply both to Teams and Dynamics 365. For example, confidential files shared in a connected chat are only accessible to permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
 
 - The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, review [Permissions required](#permissions-required).
 
