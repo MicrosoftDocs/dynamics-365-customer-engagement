@@ -14,7 +14,7 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 > [!NOTE]
 > Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for.
 
-When the feature is enabled for an app, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
+When the feature is enabled for an app, when they work on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
@@ -183,20 +183,20 @@ To add a record type to connect chats to in Dynamics 365 records:
 	
 1. In the **Allow chats to be connected to this record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-1. (Optional): If you want to display content for new connected chats, toggle **Include a note** to **On**, and then use the existing views functionality to define the fields that will represent the context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
+1. (Optional): If you want to display content for new connected chats, toggle **Include a note** to **On**, and then use the existing views functionality to define the fields that represent the context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
             
 1. Select **Save**.
 
 For any view that's selected, keep in mind the following details:
 
  - The first five fields of any view are used as the context card details (in addition to a connection to the record).
- - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
+ - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You are able to see from the configuration experience that the specific field isn't supported.
  
    > [!div class="mx-imgBorder"] 
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
- - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators will also be able to see those fields.
-- If you don't select a view for the Case record type, agents will see the default, out-of-box **Case introduction message** view.
+ - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators can also see those fields.
+- If you don't select a view for the Case record type, agents see the default, out-of-box **Case introduction message** view.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
