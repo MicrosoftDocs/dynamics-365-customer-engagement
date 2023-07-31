@@ -1,7 +1,7 @@
 ---
 title: Create warranties and define coverage (preview)
 description: Create warranties to define coverage for assets, locations, and accounts.
-ms.date: 06/23/2023
+ms.date: 07/31/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -20,7 +20,9 @@ A warranty is a guarantee to repair or replace a product if it develops a failur
 
 Before users can work with warranties, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
 
-In Field Service, change to the **Settings** area. Under **General**, select **Field Service Settings**. On the **Features** tab, set **Warranties** to **On**.
+1. In Field Service, change to the **Settings** area.
+1. Under **General**, select **Field Service Settings**.
+1. On the **Features** tab, set **Warranties** to **On**.
 
 ## Create a warranty
 

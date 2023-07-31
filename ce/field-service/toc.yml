@@ -288,8 +288,8 @@ items:
       href: work-order-entitlements.md
     - name: Warranties
       href: warranties.md
-    - name: Insurances
-      href: insurances.md
+    - name: Insurance
+      href: insurance.md
 
 - name: Inventory and purchasing
   items:
