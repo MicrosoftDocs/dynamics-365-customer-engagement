@@ -31,7 +31,7 @@ When deploying and administering Connected Customer Service (CCS) with IoTHub, t
 
 4. Only organizational Azure accounts can be used to deploy CCS with IoTHub; personal accounts such as Outlook or Gmail cannot be used.
 
-5. Your user must have permission to use the Dynamics API within the Microsoft Entra tenant.
+5. Your user must have permission to use the Dynamics API within the Microsoft Entra ID tenant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access.](./media/cs-iot-azure-api-management.png)
