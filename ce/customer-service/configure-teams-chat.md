@@ -29,7 +29,7 @@ When Teams chat is enabled, the app has the following permissions:
 |Chat.ReadWrite.All |Reads user’s chats and recent messages to display in chat list. |
 |Directory.Read.All	|Reads user’s teams and channels display name. |
 |Presence.Read.All	|Reads presence information of all users to be displayed on the user avatars in chat list. |
-|User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list.|
+|User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This permission is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
 
 In order to use Teams chat in multisession environments, users must have the same permissions as available in the **Productivity tools user** role. 
@@ -312,7 +312,7 @@ As an admin, you can enable users to view and easily join chats that are connect
 
 The ability for users to join existing chats related to cases is especially useful for the following scenarios:
 
-- **Case transfers**: If an agent has onboarded to a case that was previously handled by another agent, they can join existing connected chats to better understand the context of the case and what steps the previous agent had taken, and then continue to collaborate with their relevant colleagues.
+- **Case transfers**: If an agent has onboarded to a case that was previously handled by another agent, they can join existing connected chats to better understand the context of the case and what steps the previous agent took, and then continue to collaborate with their relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
 **To turn on or off the join chat capability for a record type**:
