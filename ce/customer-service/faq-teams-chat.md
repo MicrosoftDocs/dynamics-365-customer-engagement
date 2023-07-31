@@ -56,7 +56,7 @@ View answers to questions about setting up Teams chat in customer engagement app
    > [!NOTE]
    > If you’re using Teams chat for the first time or previously enabled the setting, Customer Service workspace and Customer Service Hub are preselected and appear in the list of selected apps.
 
-4.	Save your changes.
+1. Save your changes.
 
 ### See also
 
