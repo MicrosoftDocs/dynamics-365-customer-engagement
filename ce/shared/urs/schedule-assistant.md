@@ -25,6 +25,9 @@ After launching the schedule assistant, it populates filters based on criteria l
 
 <!-- add details for every filter and merge with advanced filters article? -->
 
+*Note: The maximum search resource availability limit is 1000 entries. For organizations with a large number of resources, it is possible that the search might be incomplete. In such an instance, a customization is available in the Resource Availability Retrieval Limit of Booking Setup Metadata to raise the 1000 entry limit, albeit with a potential impact on search performance.
+
+
 ## Time zone for schedule assistant search results
 
 View and change the time zone in the **Board view settings** after launching the schedule assistant.
