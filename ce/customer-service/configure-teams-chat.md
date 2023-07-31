@@ -97,7 +97,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 1. Select one of the following:
    - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
-    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. Customer Service workspace and Customer Service Hub are already enabled by default.
+    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you haven't yet set up Teams, it's enabled by default for the Customer Service workspace and Customer Service Hub apps.
 
 1. Save the changes.<br>
    Teams settings are now enabled for Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
