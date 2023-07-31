@@ -10,12 +10,12 @@ ms.author: andreo
 
 # Add a custom app module to the Field Service (Dynamics 365) mobile app
 
-We recommend using the standard Field Service Mobile app module, in general. However, sometimes organization wants to give frontline workers access to another custom app module to enable other business use cases and processes.
+We recommend using the standard Field Service Mobile app module. However, sometimes organization wants to give frontline workers access to another custom app module to enable other business use cases and processes.
 
 In this article, you learn:
 
 1. Creating a custom app module based on the Field Service Mobile app module.
-2. Adding the custom app module to the Field Service Mobile app module.
+2. Make the custom app module available to the Field Service Mobile application.
 
 > [!Note]
 > At this time, custom app modules will not include booking travel calculations. Travel calculations must be implemented via customization if not using the standard Field Service mobile app module.
