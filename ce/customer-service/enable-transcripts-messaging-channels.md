@@ -1,7 +1,7 @@
 ---
 title: "Enable transcript for messaging channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service."
-ms.date: 10/03/2022
+ms.date: 07/31/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -65,7 +65,7 @@ To view transcripts in Omnichannel for Customer Service, do the following:
     b. Right-click the three dots to view the transcript.
 
 > [!NOTE]
-> As an administrator, only you have access to view other agents conversations.
+> As an administrator, only you have access to the conversations handled by other agents.
 
 ### See also
 

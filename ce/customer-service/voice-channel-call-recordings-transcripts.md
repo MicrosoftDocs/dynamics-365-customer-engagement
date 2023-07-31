@@ -1,7 +1,7 @@
 ---
 title: "View call recording and transcripts for voice channel | MicrosoftDocs"
 description: "Use this article to learn how to view call recordings and transcripts in Omnichannel for Customer Service."
-ms.date: 01/18/2023
+ms.date: 07/31/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -24,7 +24,7 @@ As an agent, you can access the recordings and transcripts for completed calls b
 - Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation that you want to view, and then select the **Open Record** icon.
 
 > [!NOTE]
-> Only your System Administrator has access to view other agents conversations.
+> Users with the System Administrator role can access conversations handled by other agents.
 
 ## Call recording and transcript controls
 
