@@ -11,7 +11,8 @@ ms.author: mgandham
 
 A Message Block would constitute a block of messages up till an agent responds (including the messages sent by the agent). A follow up message, after an agent responds, will create another message block, this block again ends with the messages from the agent.
 
-You can only use this table to enable change tracking. You can't customize this table.
+> [!NOTE]
+> You can only use this table to enable change tracking. You can't customize this table.
 
 **Added by**: Omnichannel – Base Solution
 
