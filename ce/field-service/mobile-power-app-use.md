@@ -23,5 +23,3 @@ The following articles describe how frontline workers or technicians get the mos
 Currently, there are two versions of the mobile app available. Administrators choose which version their organization uses. By default, it's a model-driven Power Apps application based on the Unified Interface for Dynamics 365. Administrators can opt in to use the new and refreshed version with optimized user experience. The new experience is in preview and not intended for production use. Features in the preview version that don't support the new experience will continue to use the default experience.
 
 The documentation articles let you change between the default and the new experience with tabs in the sections that describe a feature. Switching tabs in one section will automatically switch the content for the other sections too.
-
-

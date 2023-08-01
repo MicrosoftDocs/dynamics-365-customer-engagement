@@ -130,6 +130,11 @@
       "recommendations": true
     },
     "fileMetadata": {
+      "uhfHeaderId": {
+        "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
+        "sales/**.*": "MSDocsHeader-Dynamics365Sales"
+
+      },
       "featureFlags": {
         "**/*.md": [
           "show_learn_banner"
@@ -193,10 +198,6 @@
       "breadcrumb_path": {
         "**.*": "cebc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
-      },
-      "extendBreadcrumb": {
-        "**.*": true,
-        "unified-service-desk/**.*": true
       },
       "searchScope": {
         "**.*": [

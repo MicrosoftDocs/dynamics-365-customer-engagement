@@ -1,13 +1,13 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 12/01/2022
-ms.topic: article
+ms.date: 06/16/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: nenellim
-ms.custom: 
-  - intro-internal
+ms.reviewer: shujoshi
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Integrate a Power Virtual Agents bot
@@ -53,6 +53,9 @@ To do so, perform the following steps:
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
 Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
+
+> [!NOTE]
+> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
 ## Configure your Power Virtual Agents bot in the admin app
 
@@ -118,8 +121,6 @@ This conversation will then appear in the **Closed** state in the Omnichannel fo
 You must configure the Power Virtual Agents web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
 
 After a customer closes the chat window, you must also configure a context variable that explicitly ends the conversation in Omnichannel for Customer Service.
-
-**To end a bot conversation**
 
 1. In Power Virtual Agents, for the selected bot, add a new topic.
 
@@ -211,6 +212,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
+[Manage your bots](manage-your-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Manage context variables](manage-context-variables.md)  
 [Configure context variables for bots](context-variables-for-bot.md)  
