@@ -13,6 +13,8 @@ search.audienceType:
 
 # Build approvals feature using Power Automate
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 By integrating your approvals feature with Power Automate, you can implement features such as these:
 
 - Automatically generate and send request-for-approval emails to approvers.

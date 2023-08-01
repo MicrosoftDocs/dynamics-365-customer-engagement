@@ -14,6 +14,8 @@ search.audienceType:
 
 # Schedule and post messages on social media
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > Due to recent changes to Twitter's APIs, social posts to Twitter are temporarily unavailable in Dynamics 365 Marketing.
 

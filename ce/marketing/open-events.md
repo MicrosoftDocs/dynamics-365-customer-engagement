@@ -16,6 +16,8 @@ search.audienceType:
 
 # Open the event management work area
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The event management features of Dynamics 365 Marketing are collected into their own work area to make it easy to find all the relevant entities and settings while you are focusing on events.
 
 To find the event management work area:

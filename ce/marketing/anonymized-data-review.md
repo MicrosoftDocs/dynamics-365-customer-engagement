@@ -15,6 +15,8 @@ search.audienceType:
 
 # Anonymized customer data human review notice
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Microsoft Corporation ("Microsoft") is pleased to work with you (the "Customer" named below) to develop and/or improve Microsoft online services through use of your anonymized Customer Data identified in Exhibit A of this notice ("Engagement Customer Data"). The project described in this notice and in the attached Exhibit A is referred to as the "Engagement". You may opt out of the Engagement at any time by giving Microsoft 30 days' advance notice at the email address in the signature block below.
 
 This notice and the Engagement are subject to the Microsoft Online Services Terms ("OST") and all other Microsoft volume licensing agreement(s) applicable to your use of Microsoft online services ("VLA"), as well as the Non-Disclosure Agreement executed between you and Microsoft and attached to this notice as Exhibit B ("NDA"). Any capitalized terms not otherwise defined in this notice will have the meaning given to them in the OST, your VLA, or the NDA, as applicable.

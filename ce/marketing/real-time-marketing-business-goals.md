@@ -15,6 +15,8 @@ search.audienceType:
 
 # Set a business goal and measure progress through a journey
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Most journeys are created to drive a specific customer action such as making a purchase, signing up for an event, or renewing a subscription. With the goal-setting feature, you can choose the intended action as the goal of your journey and set a target you want to hit. Using the goal, you can measure a journey’s success on an ongoing basis. Goal settings enable you to make incremental improvements to reach your targets more quickly and effectively.
 
 Using the goal-setting feature, you can:

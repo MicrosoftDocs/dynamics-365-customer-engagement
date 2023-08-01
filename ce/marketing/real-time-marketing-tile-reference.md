@@ -13,6 +13,8 @@ search.audienceType:
 
 # Real-time marketing journey tile reference
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article describes the various capabilities available in real-time marketing customer journeys. For complete examples of creating customer journeys, see [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md) and [Create a segment-based journey](real-time-marketing-segment-based-journey.md).
 
 ## Journey start

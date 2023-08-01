@@ -15,6 +15,8 @@ search.audienceType:
 
 # What's new archive for Dynamics 365 Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article contains archived information about new features, improvements, and bug fixes from previous years. This article is not maintained and is saved for historical reference purposes.
 
 ## 2022 updates
