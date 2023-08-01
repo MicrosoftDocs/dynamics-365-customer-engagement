@@ -1,7 +1,7 @@
 ---
-title: "Push notification setup for application developers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 03/15/2022
+title: Push notification setup for application developers
+description: Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing.
+ms.date: 07/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -15,9 +15,7 @@ search.audienceType:
 
 # Push notification setup for application developers
 
-[Push notification configuration for real-time marketing](real-time-marketing-push-notifications.md) requires some setup that must be completed by an app developer.
-
-The developer process to set up push notifications follows these steps:
+To enable push notifications in real-time marketing, you need to complete the following steps:
 
 1. [App registration](real-time-marketing-push-notifications.md#create-a-mobile-app-configuration)
 1. [Device registration](real-time-marketing-developer-push.md#implement-user-mapping)
@@ -57,7 +55,9 @@ To complete the mobile app configuration, the developer must register devices. T
 
     With this approach, once the configuration is complete, you must also implement the user mapping at runtime. This ensures that the correct person in the Marketing app (represented as a Contact, Lead, or Customer Insights profile) is mapped to the correct person using the mobile app on a particular device.
 
-### Device registration for iOS applications
+Select the tab that corresponds with your device's operating system:
+
+# [iOS - API v.1](#tab/ios-v1)
 
 To register a device running an iOS application, the following request should be issued:
 
@@ -164,8 +164,163 @@ Parameters:
 }
 @end
 ```
+# [iOS - API v.2](#tab/ios-v2)
 
-### Device registration for Android applications
+1. Device Registration (single):
+
+Request URL:
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "ApnsDeviceToken": "%APNS_DEVICE_TOKEN%"
+}
+```
+Returns: 202 on success, 400 if the request is not valid.
+
+2. Device Registration (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if the request is not valid
+
+3. Device Cleanup (single):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN% )"
+}
+```
+Returns: 202 on success, 400 if the request is not valid
+
+4. Device Cleanup (multiple):
+
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if the request is not valid
+
+
+#### Sample code to extract and save the device token
+
+```
+func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) { 
+
+        let tokenComponents = deviceToken.map { data in String(format: "%02.2hhx", data) } 
+
+        let deviceTokenString = tokenComponents.joined() 
+
+        UserDefaults.standard.set(deviceTokenString, forKey: "deviceToken") 
+
+    } 
+
+```
+
+#### Sample code to register the device token with Dynamics 365 
+
+```
+@IBAction func registerDevice(_ sender: Any){ 
+
+        let orgId = organizationid.text; 
+        let endP = endpoint.text; 
+        let apiToken = apitoken.text; 
+        let appId = appid.text; 
+        let profileId = profileid.text; 
+        let url = URL(string: String(format:"https://%@/api/v1.0/orgs/%@/pushdeviceregistration/devices", endP ?? "", orgId ?? ""))!; 
+        let session = URLSession.shared 
+
+        // Create the URLRequest object using the url object 
+
+        var request = URLRequest(url: url) 
+        request.httpMethod = "POST" 
+
+        // Add headers for the request 
+
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type") // change as per server requirements 
+        request.addValue("application/json", forHTTPHeaderField: "Accept") 
+
+        do { 
+
+          // convert parameters to Data and assign dictionary to httpBody of request 
+
+            let deviceToken = UserDefaults.standard.string(forKey: "deviceToken"); 
+            let userUpdate = String(format:"{\"MobileAppId\":\"%@\",\"UserId\":\"%@\",\"ApnsDeviceToken\":\"%@\",\"ApiToken\": \"%@\"}", appId, profileId ,deviceToken, apiToken); 
+
+            //Convert the String to Data 
+
+            let data = (userUpdate as NSString).data(using: NSUTF8StringEncoding); 
+            request.httpBody = data; 
+
+        } catch let error { 
+
+          print(error.localizedDescription) 
+          return 
+
+        } 
+
+        // Create dataTask using the session object to send data to the server 
+
+        let task = session.dataTask(with: request) { data, response, error in 
+
+            if let error = error { 
+
+                print("Post Request Error: \(error.localizedDescription)") 
+            	 return 
+
+            } 
+
+
+            // ensure there is valid response code returned from this HTTP response 
+
+            guard let httpResponse = response as? HTTPURLResponse, 
+
+                (200...299).contains(httpResponse.statusCode) 
+
+            else { 
+
+                let httpRespose = response as? HTTPURLResponse; 
+                print("Invalid Response received from the server. StatusCode: \(httpRespose?.statusCode) Error: \(httpRespose?.description)"); 
+                return 
+
+            } 
+
+             
+
+            print("Device Registration successful.") 
+
+        } 
+
+        // Resume the task 
+
+        task.resume() 
+
+    } 
+```
+
+
+# [Android - API v.1](#tab/android-v1)
 
 To register a device for an Android application, the following request should be issued:
 
@@ -196,7 +351,7 @@ Parameters:
 - **ApiToken**: Access token taken from the "Access Tokens" section of the mobile app configuration entity.
 - **FcmToken**: Device registration token. [Learn more about how to locate the token.](https://firebase.google.com/docs/cloud-messaging/android/client#retrieve-the-current-registration-token)
 
-#### Sample code to register the device token with Dynamics 365
+##### Sample code to register the device token with Dynamics 365
 
 ```
 public class DeviceRegistrationContract { 
@@ -240,5 +395,81 @@ public class DeviceRegistrationContract {
     } 
 }
 ```
+# [Android - API v.2](#tab/android-v2)
+
+1. Device Registration (single):
+
+Request URL:
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "UserId": "%USER_ID%",
+    "ApiToken": "%API_TOKEN",
+    "FcmDeviceToken": "%FCM_DEVICE_TOKEN%",
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+2. Device Registration (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/batch
+```
+
+Body: array of items equal to body from (1), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+3. Device Cleanup (single):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup
+```
+
+Body:
+```
+{
+    "MobileAppId": "%APP_ID%",
+    "ApiToken": "%API_TOKEN%",
+    "UserId": "%USER_ID%",
+    "DeviceToken": "%OPTIONAL_FCM_OR_APNS_DEVICE_TOKEN%)"
+}
+```
+
+Returns: 202 on success, 400 if request is not valid
+
+4. Device Cleanup (multiple):
+```
+POST https://public-eur.mkt.dynamics.com/api/v1.0/orgs/%ORG_ID%/pushdeviceregistration/devices/cleanup/batch
+```
+
+Body: array of items equal to body from (3), up to 100 items
+
+Returns: 202 on success, 400 if request is not valid
+
+#### Sample code to register the device token with Dynamics 365 
+
+```
+public String toJsonString() {  
+        JSONObject jsonObject = new JSONObject();  
+        try {  
+            jsonObject.put("DeviceToken ", mDeviceToken);  
+            jsonObject.put("ApiToken", mApiToken);  
+
+            jsonObject.put("MobileAppId ", mMobileAppId);  
+            jsonObject.put("UserId", mUserId); 
+        } catch (JSONException e) {  
+            Log.d(LOG_TAG, "Json exception while creating device registration contract: " + e.getMessage());  
+        }  
+  
+        return jsonObject.toString();  
+    } 
+```
+
+---
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
