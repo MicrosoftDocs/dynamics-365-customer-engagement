@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 01/09/2023
+ms.date: 08/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -121,7 +121,7 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).  
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Set up Omnichannel for Customer Service](omnichannel-provision-license.md##set-up-omnichannel-for-customer-service).  
 
 ## Step 6: Enable Power BI reporting
 
