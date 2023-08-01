@@ -1,6 +1,6 @@
 ---
-title:  Link timeline notes with other table records
-description: Learn about linking timeline notes to other table records.
+title:  Learn about linking timeline notes with tables
+description: Learn how-to link timeline notes to other table records.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli

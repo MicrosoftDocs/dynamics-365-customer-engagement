@@ -444,13 +444,13 @@
       items:
       - name: Configure timeline
         href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
-      - name: Enable linking of timeline notes to other table records
+      - name: Enable linking of timeline notes with other tables
         href: link-note-to-entity.md  
     - name: Agent experience
       items:
       - name: Use timeline
         href: /powerapps/user/add-activities
-      - name: Link timeline notes to other table records
+      - name: Learn about linking timeline notes with tables
         href: link-note-to-entity-task.md  
   - name: Knowledge management
     items:

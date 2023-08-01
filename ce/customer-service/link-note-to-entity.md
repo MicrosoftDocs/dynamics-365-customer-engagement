@@ -1,6 +1,6 @@
 ---
-title: Enable linking of timeline notes to other table records
-description: Learn how to associate notes with a table.
+title:  Enable linking of timeline notes with other tables
+description: Learn how to onfigure linking of timeline notes with other tables.
 author: gandhamm
 ms.author: mgandham 
 ms.reviewer: neeranelli
@@ -10,7 +10,7 @@ ms.date: 08/01/2023
 ms.custom: bap-template 
 ---
 
-# Enable linking of timeline notes with other table records
+# Enable linking of timeline notes with other tables
 
 You can use **Relate note to a table record** to perform the following actions on case, account, and contact tables, without leaving the page that you're on:
 
