@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When updates from Field Service Mobile, changing to Traveling updates **Start time** of bookable resource booking to current time.
+- When a user changes the status in Field Service Mobile to *Traveling*, the system updates the **Start time** of the bookable resource booking to the current time.
 
 #### In Progress
 
