@@ -23,7 +23,9 @@ The following sections contain scenarios to describe how linking timeline notes 
 
 ## Move note from one table to another table
 
-Consider the following scenario, you have taken a note on the timeline of the account Contoso Coffee during an interaction with the customer about an issue with CX300 coffee machine. After the interaction, you want to link the note to an existing case or create. To link the note on the Contoso Coffee account to the Issue with coffee machine case:
+Consider the following scenario, you have taken a note on the timeline of the account Contoso Coffee during an interaction with the customer about an issue with CX300 coffee machine. After the interaction, you want to link the note to an existing case or create. 
+
+To link the note on the Contoso Coffee account to the Issue with coffee machine case:
 1.	On the Contoso Coffee account timeline, select the note to link.
 2.	Select **Link to record** button. 
 3.	On the window that appears, search for the case to move the note to. The case is Issue with coffee machine.
@@ -33,7 +35,9 @@ Consider the following scenario, you have taken a note on the timeline of the ac
 
 Consider a scenario where you're talking to an customer over a voice call. The customer's account, Contoso Coffee, appears on the Customer Details section of the Active Conversation form. The timeline on the Active Conversation form is either the account or the contact timeline, based on the record you've selected. More information: [Take notes specific to conversation](oc-take-notes.md).
 
- On the communication panel, you select **Notes**. After you've saved the note, it's displayed on the timeline.  If you want to create a new case from the note, perform the following steps:
+ On the communication panel, you select **Notes**. After you've saved the note, it's displayed on the timeline.  
+
+To create a new case from the note, perform the following steps:
 
 1.	Select the note that you took on the timeline for the Contoso Coffee account. 
 2.	Select **Link to record** button. 
