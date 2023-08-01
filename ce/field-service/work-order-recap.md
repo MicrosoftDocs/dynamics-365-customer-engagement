@@ -38,23 +38,18 @@ Go to the Work order form (preview).
 
 When you generate a recap, the system passes the work order ID and its current system status to an API. The system then uses the requesting user's security context to pull relevant data based on the status of the work order to create the recap. If the user has access to the data and the data exists for the given work order, the recap uses contextual information directly from the work order and related records to generate the recap content. The system may use the summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order. It also uses related information like requirement characteristics, asset details, and invoice information.
 
-The recap is tailored to the work order's lifecycle stage, focusing on the most relevant information for each.
+The recap is tailored to the work order's lifecycle stage, focusing on the most relevant information for each. 
 
-- **Unscheduled**: Information relevant to scheduling the work order.
-- **Scheduled**: Details relevant to planning and arrival at the work order site.
-- **In Progress**: Information relevant to completing the work order and the current state of work.
-- **Completed**: Summary of the work done, how it was completed, and a summary of costs and prices.
-- **Posted**: Repeat of the *Completed* state information and relevant invoice details.
-- **Cancelled**: Summary of the proposed scope of work, scheduling details, and any information that might help understand the history of the work order.
+The prompt includes core work order information, including products, services, and tasks. It also includes critical context like booking information, activity details, and notes from the work order and bookings. 
 
-|       Work order system status           |                Included information             |
-|-------------------------------|------------------------|
-|      **Unscheduled**  |     - Work order details  </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details  </br> - Work order service details  </br> - Work order service tasks  </br> - Requirement characteristics  </br> - List of Cancelled bookings (if any)                  |
-|      **Scheduled**  |    - Work order Direct Contextual Summary  </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details  </br> - Work order service details  </br> - Work order service tasks  </br> - Requirement characteristics   </br> - Asset information and work order History  |
-|      **In Progress**  |    - Work order Direct Contextual Summary  </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details  </br> - Work order service details  </br> - Work order service tasks  </br> - Asset information and work order History                                |
-|      **Completed**  |     - Work order Direct Contextual Summary </br>  - Booking information </br> -  Activity details </br> - Notes from the work order and bookings </br> - Work order product details  </br> - Work order service details  </br> - Work order service tasks                                                                          |
-|      **Posted**  |   - Work order Direct Contextual Summary </br> - Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks  </br> - Invoice information (including total amount)                           |
-|      **Cancelled**  |    - Work order Direct Contextual Summary </br> -  Booking information  </br> - Activity details  </br> - Notes from the work order and bookings  </br> - Work order product details   </br> - Work order service details  </br> - Work order service tasks |
+For each lifecycle stage of the work order, we also include additional information that may be particularly relevant to that step.
+
+- **Unscheduled**: Information relevant to scheduling the work order like requirement characteristics.
+- **Scheduled**: Details relevant to planning, arrival at the work order site, and understanding the issue like asset information and work order history for the asset.
+- **In Progress**: Information relevant to completing the work order and the current state of work, which again includes asset information and work order history for the asset.
+- **Completed**: The core information included in all prompts including relevant summary of costs and prices.
+- **Posted**: The same core information shared in all prompts and relevant invoice details.
+- **Cancelled**: The core information included in all prompts.
 
 If there are errors or service limitations, the system returns an error message instead of a recap summary.
 
