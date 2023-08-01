@@ -1,7 +1,7 @@
 ---
 title: Lock or unlock the price for an order or invoice 
 description: Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked.
-ms.date: 07/26/2023
+ms.date: 08/01/2023
 author: lavanyakr01
 ms.author: lavanyakr
 ms.topic: how-to 
@@ -52,7 +52,8 @@ After you've finalized an order or invoice for a specific price, you can lock th
     - The **Prices Locked** field in the order or invoice is set to **No**.
 
     - The **Price Per Unit** field is unlocked for all the products in the order or invoice and becomes editable. You can choose to use the default price or override the price.
-    - The prices of the products are updated based on the price list of the order or invoice. If you'd overridden the price of any product, the overridden price is retained.
+    - When you open or edit the quote or invoice, the price of the line items is automatically updated to reflect any changes in the price list.
+    - If the price of a line item has been overridden in the order or invoice, it’s unaffected by any changes to the price list. 
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

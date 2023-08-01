@@ -1,8 +1,9 @@
 ---
-title: "Create or edit quotes in Dynamics 365 Sales"
-description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
-ms.date: 07/28/2023
-ms.topic: get-started-article
+title: Create or edit quotes in Dynamics 365 Sales
+description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
+ms.date: 08/01/2023
+ms.topic: how-to
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
@@ -92,7 +93,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 9. Select **Save**.
 
-10. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.   
+10. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.  
 
 ## How prices are calculated for a quote
 
@@ -110,7 +111,7 @@ The price calculation for a quote depends on the product catalog, line items, pr
   
     In the draft state, the prices are adjusted to the actual prices on the price list when you open or edit the quote. The overall price is calculated by adding the price of all the products in the quote and deducting any applied discounts.
   
-- **Active State**: The active quote state usually has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
+- **Active State**: The active quote state has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
   
 - **Closed Phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
 
