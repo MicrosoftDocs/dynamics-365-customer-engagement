@@ -73,7 +73,7 @@ You can provision the following channels in Omnichannel for Customer Service:
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
 
-    For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
+    For information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 1. On the **Manage Omnichannel Instances** page, select **Add environment** to add an environment. Omnichannel is set up for the organization environment that you add here.
 
