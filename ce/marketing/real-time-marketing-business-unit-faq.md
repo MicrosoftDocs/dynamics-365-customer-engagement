@@ -15,6 +15,8 @@ search.audienceType:
 
 # Business Units FAQ for real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article contains answers to common questions and solutions to known issues that can sometimes occur during the installation and management of customer journey.
 
 ### What are the key differences between Business Unit scoping support in outbound Marketing and real-time Marketing?

@@ -14,6 +14,8 @@ search.audienceType:
 
 # User authentication using Events API
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The Events API supports user authentication with Azure Active Directory B2C. To link the Events API to your Azure Active Directory B2C, you need to add your `AAD Client ID` and `AAD Metadata Endpoint` to your `web application setting`.  More information: [Creating Azure AD B2C tenant and adding a web application to the tenant](event-management-aad-b2c-setup.md#creating-azure-ad-b2c-tenant-and-adding-a-web-application-to-the-tenant)
 
 To authenticate the user against the API, you need to add the `Authorization` header containing the `token_id` bearer to each API request. 

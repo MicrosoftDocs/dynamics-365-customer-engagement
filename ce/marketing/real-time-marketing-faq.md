@@ -15,6 +15,8 @@ search.audienceType:
 
 # Troubleshoot real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the installation and management of real-time customer journey orchestration.
 
 ## Channel A/B Testing

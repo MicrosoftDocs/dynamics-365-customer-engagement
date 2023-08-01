@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create templates for emails, pages, forms, and journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 As you've seen, each time you create a new email message, customer journey, marketing page, or marketing form, you start by choosing a template. Dynamics 365 Marketing includes sample templates to get you started, but you'll probably want to build your own to match your own organization's requirements and graphical identity.
 
 When you create a template, the process is nearly the same as when you create an actual message, page, journey, or form. Go to one of the following pages to create a template:

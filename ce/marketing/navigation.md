@@ -16,6 +16,8 @@ search.audienceType:
 
 # Find your way around Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This introduction to Dynamics 365 Marketing explains how to find and open the app, and how to work with its common user interface elements including lists, forms, and business processes.
 
 ## A fully responsive app built on the new Unified Interface

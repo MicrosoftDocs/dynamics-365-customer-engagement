@@ -16,6 +16,8 @@ search.audienceType:
 
 # Organize your daily work
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can use common features of Dynamics 365 to organize your daily work, including using dashboards to get an overview of your most important information, planning and recording activities (such as appointments, tasks, and phone calls), creating new records quickly, and assigning records (including activities) to a user or a team.
 
 ## Get the big picture with dashboards

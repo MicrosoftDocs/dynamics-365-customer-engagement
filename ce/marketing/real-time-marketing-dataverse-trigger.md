@@ -16,6 +16,8 @@ search.audienceType:
 
 # Trigger a journey based on a Dataverse record change
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Business transactions, whether they're initiated by a customer, a Dynamics 365 user, or by a system action are significant opportunities to create meaningful engagements with customers. Your customers commonly interact with several departments and functions throughout their lifetime. And many of these departments and functions have their own data associated with them.
 
 Each of these interactions--such as a completed application, a renewed contract, or a service ticket being closed--represents an opportunity to engage more deeply with your customers. However, the data remains siloed within the apps and out of reach of your customer engagement or marketing automation tools.

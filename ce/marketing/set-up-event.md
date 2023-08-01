@@ -15,6 +15,8 @@ search.audienceType:
 
 # Set up an event
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The event planning process in Dynamics 365 Marketing starts with creating an event record. The event record guides you through each step of event planning. The record collects all of your planning details, gives links to related records, and provides a business-process timeline. After you create the event record, you can set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
 ## Create the root event record

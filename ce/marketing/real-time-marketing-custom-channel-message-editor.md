@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define the message editor interface (optional)
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Applicable channels: Custom
 
 With the unlimited variety of custom channels you can create, you may need to provide different message template editors. You can define how a message template editor should look and what attributes it contains to match the needs of a specific channel.
