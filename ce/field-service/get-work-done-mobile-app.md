@@ -30,16 +30,16 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-Change the status of a booking to **Traveling** directly from the booking home page, by swiping the desired booking from left to right or by tapping on the booking's contextual menu to access its quick actions and selecting the desired status. The same thing can be accomplished by tapping on the booking itself and then tapping on the **Edit status** button in the **General** tab.
+Change the status of a booking to **Traveling** directly from the booking home page. Swipe the booking from left to right or by tap on the booking's contextual menu to access its quick actions and set the status. You can also open the booking and tap **Edit status** on the **General** tab.
 
-> [!div]
-> ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-newux-traveling.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of status change to traveling in the Field Service Mobile app.](./media/mobile-newux-traveling.png)
 
-Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. If the booking record contains the geolocation of the address (lat/long), then the control will use that, otherwise it will fallback to the address string. If no address is specified, then the directions icon will not be available. 
-You can decide if you want the booking status to change to **Traveling** when you do so. 
+Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. Directions use the geolocation of the address and fall back to the address string when no geolocation is available. If no address is specified, then the directions icon won't show.
+You can decide if you want the booking status to change to **Traveling** get directions.
 
-> [!div]
-> ![Screenshot of Status change to traveling in the Field Service Mobile app](./media/mobile-newux-traveling-directions.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of traveling directions in the Field Service Mobile app.](./media/mobile-newux-traveling-directions.png)
 
 ---
 
@@ -54,10 +54,10 @@ On the **Service tab**, you see work order details like work order service tasks
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-Once ready to perform the work, simply access the booking details view, by tapping on the booking tile on the booking home page. You will see three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
+When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
 
 > [!div]
-> ![Screenshot of performing work in the Field Service Mobile app. Tasks, products and services.](./media/mobile-newux-work.png)
+> ![Screenshot of performing work in the Field Service Mobile app.](./media/mobile-newux-work.png)
 
 ---
 
@@ -77,13 +77,13 @@ The **Timeline** tab is available for other historical data related to the booki
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-In the new mobile UX (preview) you take notes directly in the **Timeline** tab. Simply tap on the **+* Add note** button and add text and/or images to your note. 
+In the new mobile UX (preview) you take notes directly in the **Timeline** tab. Simply tap on the **+ Add note** button to add text and images to your note.
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
 
 > [!NOTE]
-> Notes in the Timeline are associated with the current booking and cannot currently be viewed at the Work Order level.
+> Notes in the timeline are associated with the booking and currently don't show on the parent work order timeline.
 
 ---
 
@@ -98,7 +98,6 @@ For a guided walkthrough of functional locations on the Field Service mobile app
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
-
 ## Barcode scanning
 
 Select the search icon to find records from any entity. You can also search by scanning a barcode to find records that have a matching barcode field.
@@ -107,7 +106,6 @@ Select the search icon to find records from any entity. You can also search by s
 > ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
 For more information, see the article on [configuring global search](mobile-power-app-system-barcode-scanning.md).
-
 
 ## Time entry
 
@@ -123,7 +121,6 @@ From the main menu, go to **Time Entry** and create a new one.
 For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
-
 
 ## Create follow-up work orders
 

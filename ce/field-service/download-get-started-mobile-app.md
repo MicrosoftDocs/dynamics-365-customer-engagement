@@ -43,20 +43,20 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-The first screen shows the list of all scheduled work orders for today for the logged in technician. 
+The home screen shows today's scheduled work orders for the signed in user.
 
-The list can be filtered by work order status by tapping on the *pills* at the top of the booking list.
+You can filter the list by work order status at the top of the booking list.
 
-The list can also be sorted by various dimensions (Account, Incident type, Time, Duration) by tapping on the **Sort by** affordance on the top right of the list.
+You can also sort the list by various dimensions (Account, Incident type, Time, Duration) by selecting **Sort by** on the top right of the list.
 
-The menu at the bottom allows for easy access to the bookings home page (**Home**), to the [Embedded Guides feature](access-related-apps-mobile-app.md#embedded-guides-in-field-service-mobile-preview) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
+The menu at the bottom allows for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md#embedded-guides-in-field-service-mobile-preview) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
 
-Finally the top header allows access to the app left nav (settings, feedback, change app, etc.) via the user icon, and to the global search via the search icon.
+Select the profile picture in the header to access settings, provide feedback, and change the environment.
 
 > [!div]
 > ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-newux-bookings.png)
 
-Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allow the technician to edit the status of the booking and to launch the map application to get directions directly from the home page, without the need of opening the booking details page.
+Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allows technicians to quickly update the status of the booking and to get directions directly from the home page.
 
 > [!div]
 > ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-newux-swipe.png)
@@ -74,10 +74,10 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-To access the app navigation in the New mobile UX (preview) simply tap on the "More..." button on the bottom right. All items in the resulting menu will open the corresponding screens in the Unified Interface UX.
+To access the app navigation in the new mobile UX (preview), select "More..." in the bottom right. All items in sitemap open the corresponding screens in the Unified Interface UX.
 
 > [!div]
-> ![Screenshot of navigatiom in the Field Service Mobile app home page in preview](./media/mobile-newux-navigation.png)
+> ![Screenshot of navigation in the Field Service Mobile app home page in preview](./media/mobile-newux-navigation.png)
 
 ---
 
@@ -90,7 +90,6 @@ You can also **Pin** important records for quick access.
 > [!div class="mx-imgBorder"]
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the recent and pin icons in the menu.](./media/mobile-2020-menu-pin.png)
 
-
 ## Troubleshoot the app
 
 If you run into issues with the app, you can often solve them by removing all cached data.
@@ -101,6 +100,5 @@ On the sitemap, select your profile icon in the top left and choose **Reconfigur
 > ![Device render showing the Field Service (Dynamics 365) mobile app, showing the reconfigure option.](./media/mobile-2020-offline-reconfigure.png)
 
 Reconfiguring deletes data and metadata for the current organization from the cache.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

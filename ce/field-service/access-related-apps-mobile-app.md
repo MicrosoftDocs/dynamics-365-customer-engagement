@@ -21,7 +21,6 @@ Technicians can view and interact with IoT data and IoT actions like pulling liv
 
 Live charts for IoT data from an IoT device, customer asset, or IoT alert record are available at your fingertips.
 
-
 ## Trigger Dynamics 365 Remote Assist for remote collaboration
 
 Organizations using Dynamics 365 Remote Assist have a deep link from the work order to open the Dynamics 365 Remote Assist mobile app. For more information, see [Using Field Service with Dynamics 365 Remote Assist](remote-assist-hololens.md).
@@ -29,19 +28,11 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 > [!div class="mx-imgBorder"]
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
+## Embedded Guides in Field Service Mobile (preview)
 
-## Embedded Guides in Field Service Mobile (Preview)
+If your organization uses Dynamics 365 Guides, you can use the Field Service Mobile (preview) application to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step. For more information, see [Embed Guides 2D in Field Service Mobile (preview)](embedded-guides.md)
 
-If your organization has enabled your account to access Guides, you will see a **Library** link in the bottom menu of the app. By tapping on it, you can access your organization's Guides library, search for specific Guides, and follow them step by step. [Learn more about Guides](https://aka.ms/fs-guides-mobile)
-
-> [!div]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-newux-related-guides-home.png)
-
-<!-- 
-If a **Service Task** within a **Work Order** has been created with a Guides attached to it, then you will be able to follow the guide step by step directly from the **Service Task**. 
-
-> [!div]
-> ![Screenshot of Guides Service Tasks within the Field Service Mobile app](./media/mobile-newux-related-guides-servicetasks.png)
--->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

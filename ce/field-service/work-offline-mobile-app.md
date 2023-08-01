@@ -31,9 +31,9 @@ To sync specific views, for example, to check for new bookings or work order upd
 > [!div class="mx-imgBorder"]
 > ![Devices showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
-## [Native UX (preview)](#tab/vNext)
+## [New mobile UX (preview)](#tab/vNext)
 
-Working offline is currently not supported in Public Preview.
+Working offline is currently not supported in the new mobile user experience.
 
 ---
 
