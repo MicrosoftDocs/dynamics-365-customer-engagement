@@ -9,7 +9,7 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Field Service in Microsoft 365 apps (preview)
+# Microsoft 365 integrations for Field Service (preview)
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
