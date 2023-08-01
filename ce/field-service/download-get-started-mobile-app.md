@@ -20,7 +20,7 @@ Before technicians can use the mobile app, a system administrator must [set up t
 
 Go to the app store on your iOS, Android, or Windows device and search for **Dynamics 365 Field Service**.
 
-Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot.
+Download the app called **Field Service (Dynamics 365)**.
 
 ## Sign in
 

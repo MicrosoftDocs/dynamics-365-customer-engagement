@@ -16,7 +16,7 @@ With Guides 2D mobile, you can:
 
 - Access guides from anywhere, anytime, using your iOS or Android mobile device (tablet and phone).
 
-- Leverage guides already created in your existing environment.
+- Use guides already created in your existing environment.
 
 - Easily navigate through guide content using sort, filter, and search.
 
@@ -46,7 +46,7 @@ With Guides 2D mobile, you can:
 
 1. On your mobile device, open the Field Service app.
 
-1. Log in using your Guides credentials.
+1. Sign in using your Guides credentials.
 
 1. Enable non-production apps. 
 
@@ -61,7 +61,7 @@ turn on data collection for specific users.
 
 1. Select **Guides**. A new tab for the Guides model-driven app opens.
 
-1. In the left-navigation pane select the up arrow next to **Main** and then select **Settings**.
+1. In the left-navigation pane, select the up arrow next to **Main** and then select **Settings**.
 
    :::image type="content" source="media/powerapps-guides-settings.png" alt-text="Screenshot of the Main Settings for Guides in Power Apps.":::  
 
