@@ -99,21 +99,21 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 The price calculation for a quote depends on the product catalog, line items, pricing rules, discounts, and taxes. It also varies based on the quote phase such as draft, active, or closed. 
   
-- **Draft State**: During the draft phase, pricing calculations are based on the following elements:
+- **Draft state**: During the draft phase, pricing calculations are based on the following elements:
 
-    * **Product Catalog**: Includes a product catalog with products/services available for quoting.  
+    * **Product catalog**: Includes a product catalog with products/services available for quoting.  
     * **Price list**: Defines the price of the products included in the quote. 
 
-    * **Line Items**: Includes the products/services that you've added as line items to the quote, along with the quantity.  
-    * **Pricing Rules**: Determines the price of a product or service based on various factors such as volume discounts, customer-specific pricing, contract terms, or any other configured criteria.  
+    * **Line items**: Includes the products/services that you've added as line items to the quote, along with the quantity.  
+    * **Pricing rules**: Determines the price of a product or service based on various factors such as volume discounts, customer-specific pricing, contract terms, or any other configured criteria.  
     * **Discounts**: Specifies the discounts to be applied to individual line items, or the overall quote based on specific conditions or negotiations with the customer. Discounts can be percentage-based or fixed amounts.  
     * **Taxes**: Specifies the tax rules that are configured to calculate applicable taxes based on the product, customer location, and other relevant factors.  
   
     In the draft state, the prices are adjusted to the actual prices on the price list when you open or edit the quote. The overall price is calculated by adding the price of all the products in the quote and deducting any applied discounts.
   
-- **Active State**: The active quote state has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
+- **Active state**: The active quote state has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
   
-- **Closed Phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
+- **Closed phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
 
     In the active and closed states, the prices are not adjusted to the actual prices on the price list when you open or edit the quote.
   
