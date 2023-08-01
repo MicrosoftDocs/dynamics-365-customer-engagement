@@ -618,6 +618,16 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Integrate Nuance Gatekeeper (preview)
+        items:
+        - name: Overview of Nuance Gatekeeper Integration
+          href: nuance-gatekeeper-introduction.md
+        - name: Configure contact center for Nuance Gatekeeper
+          href: configure-contact-center-nuance-gatekeeper.md
+        - name: Add authentication setting for Nuance Gatekeeper
+          href: configure-gatekeeper-authentication.md
+        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
+          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls

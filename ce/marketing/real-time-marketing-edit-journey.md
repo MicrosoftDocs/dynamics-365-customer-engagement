@@ -1,9 +1,7 @@
 ---
-title: "Edit a live journey in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to edit and update live journeys in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 10/05/2022
-ms.custom: 
-  - dyn365-marketing
+title: Edit a live journey in real-time marketing
+description: Learn how to edit and update live journeys in the real-time marketing area of Dynamics 365 Marketing.
+ms.date: 07/27/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
