@@ -121,7 +121,7 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Set up Omnichannel for Customer Service](omnichannel-provision-license.md##set-up-omnichannel-for-customer-service).  
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Set up Omnichannel for Customer Service](omnichannel-provision-license.md##set-up-omnichannel-for-customer-service-).  
 
 ## Step 6: Enable Power BI reporting
 
