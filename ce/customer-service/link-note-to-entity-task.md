@@ -43,7 +43,7 @@ To create a new case from the note, perform the following steps:
 2.	Select **Link to record** button. 
 3.	On the window that appears, select **Add a new record**. Based on your administrator's configurations, you see **Case**, **Account**, and **Contact**. 
 4. Select **Case**. The case form opens and some of the fields on the case form are populated with the content from note based on your administrator configuration. For example, if your administrator has configured to notes title to be copied as the case title and the notes description to be copied to the case description, **Case Title** and **Description** is automatically populated from the note. 
-6. Add the other fields on the case and select **Save**. The application displays a message to confirm if the note must be unlinked from the account table. Select **Ok**. The note now appears only on the timeline of the new case that you've created.
+6. Add the other fields on the case and select **Save**. The application displays a message to confirm if the note must be unlinked from the table. Select **Ok**. The note now appears only on the timeline of the new case that you've created.
 
  :::image type="content" source="media/link-note-conversation-mini.png" alt-text="runtime experience for the relate conversation timeline note to case " lightbox="media/link-note-conversation.png":::
 
