@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 06/27/2023
+ms.date: 08/01/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan

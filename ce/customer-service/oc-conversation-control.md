@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 04/04/2022
+ms.date: 08/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.author: nenellim
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
-You can also minimize the communication panel. When you select **Minimize**, the communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
+You can also minimize the communication panel. If you want to minimize the communication panel, select **Minimize**. The communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-early-access.md)]
 
