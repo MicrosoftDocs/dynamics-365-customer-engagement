@@ -15,6 +15,8 @@ search.audienceType:
 
 # Manage user compliance settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This article applies to real-time marketing *and* outbound marketing.
 

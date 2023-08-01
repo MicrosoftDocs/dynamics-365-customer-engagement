@@ -15,6 +15,8 @@ search.audienceType:
 
 # Use "Send now" to send emails instantly in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > The "Send now" functionality described in this article, **only** applies to real-time marketing.
 

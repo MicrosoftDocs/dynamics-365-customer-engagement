@@ -13,6 +13,8 @@ search.audienceType:
 
 # Business unit support in outbound marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Admins can use business units to control access to records based on who is using the app and who owns each record.
 
 ## Segment scopes, membership, and member lists

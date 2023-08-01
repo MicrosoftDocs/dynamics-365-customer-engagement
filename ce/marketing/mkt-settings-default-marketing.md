@@ -15,6 +15,8 @@ search.audienceType:
 
 # Configure default settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use the **Settings** > **Email marketing** > **Default settings** page to set up collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active.
 
 Choose an existing configuration to edit or delete it or choose **+ New** from the command bar to create a new one.

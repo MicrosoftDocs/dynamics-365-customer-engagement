@@ -17,6 +17,8 @@ search.audienceType:
 
 # Fix a high email bounce rate
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 If you receive a notification that a past campaigns’ bounce rate surpassed the acceptable bounce limit, your email campaign requires some special attention.
 
 ## What is the email bounce rate?

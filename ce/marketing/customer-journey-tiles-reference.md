@@ -15,6 +15,8 @@ search.audienceType:
 
 # Customer journey tiles reference
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Read this article to find out more about how to work with each type of tile available for constructing your customer journeys. For general information about how to create a customer journey and work with tiles, see [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 
 ### Audience

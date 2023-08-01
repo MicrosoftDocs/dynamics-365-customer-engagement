@@ -14,6 +14,8 @@ search.audienceType:
 
 # Dynamics 365 Marketing solutions
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing adds the following solutions to your instance:
 
 |Name  | Display Name  |Description  |

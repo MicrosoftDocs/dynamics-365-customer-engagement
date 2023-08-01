@@ -15,6 +15,8 @@ search.audienceType:
 
 # Customize the journey designer in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Customization of your customer journeys is now available in Dynamics 365 real-time marketing. Not only can you use out-of-the-box Marketing capabilities to engage customers, but you can also now create personalized, flexible, and efficient solutions through Power Apps to better tailor real-time marketing to meet your specific business needs. 
 
 For example, you can extend the real-time journey canvas, adding custom fields through Dataverse to streamline your business processes for higher efficiency. This allows you to add custom fields such as "Campaign" to your journeys to better manage your assets, collaborate amongst your team members, and give you more flexibility to create customized analytics reports.
