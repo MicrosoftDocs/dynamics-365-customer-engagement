@@ -15,6 +15,8 @@ search.audienceType:
 ---
 # Build segments in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE50Oqt]
 
 To improve marketing return on investment, it's important to target the right audience. You can now build segments directly within the real-time marketing area of Dynamics 365 Marketing using the powerful, easy-to-use logic builder that doesn’t require specialized knowledge of complex data structures and logical operators. You can even preview the estimated segment size and membership before you mark your segment as "Ready to use" in customer journeys.

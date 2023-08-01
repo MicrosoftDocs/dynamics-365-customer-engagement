@@ -16,6 +16,8 @@ search.audienceType:
 
 # Solution uninstall order for removing Dynamics 365 Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!NOTE]
 > If you want to release your Marketing entitlement to use on a different instance, you **do not** need to uninstall any of the Marketing solutions.
 

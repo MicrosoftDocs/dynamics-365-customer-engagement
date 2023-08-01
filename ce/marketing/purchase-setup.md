@@ -16,6 +16,8 @@ search.audienceType:
 
 # Purchase and set up Dynamics 365 Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 This article explains how to purchase and set up a new Dynamics 365 Marketing environment.

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Provide personalized page content
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 As with marketing emails, you can create landing pages, and other types of web pages that display content that's personalized for known contacts. The solution makes use of the following techniques:
 
 - **Known contacts are identified by a cookie set on their browser**  

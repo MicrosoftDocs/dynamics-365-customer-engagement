@@ -15,6 +15,8 @@ search.audienceType:
 
 # BIMI support
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > **This article *only* applies to emails sent from Dynamics 365 Marketing.** Emails sent from other Microsoft products, such as Exchange Online, do not yet support BIMI. Refer to the documentation for other Microsoft email-related products for more information.
 

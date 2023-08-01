@@ -1,0 +1,3 @@
+On September 1, 2023, Dynamics 365 Marketing and Dynamics 365 Customer Insights will be combined into a single product offering called Dynamics 365 Customer Insights. For more information, see [Dynamics 365 Customer Insights FAQs](/dynamics365/marketing/ci-faq)
+
+Additionally, on September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. For more information, see [Real-time marketing transition FAQs](/dynamics365/marketing/real-time-marketing-transition)

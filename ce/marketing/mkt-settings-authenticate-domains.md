@@ -15,6 +15,8 @@ search.audienceType:
 
 # Authenticate your domains (old version)
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This section explains the old domain authentication for outbound marketing; for an updated version based on real-time marketing, see "[new version](domain-authentication.md)".
 

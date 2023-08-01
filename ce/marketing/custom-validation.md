@@ -17,6 +17,8 @@ search.audienceType:
 
 # Add custom validation rules for marketing pages
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A standard feature of Dynamics 365 Marketing
  is its ability to check marketing pages for errors before going live. The validation (**Check for Errors**) feature checks the current record for missing content and technical errors (such as missing required settings, syntax errors, or code that won't compile) and then displays the validation results, including error messages that should help the user solve any issues that were found.
 
