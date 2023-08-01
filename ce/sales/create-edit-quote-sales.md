@@ -1,8 +1,9 @@
 ---
-title: "Create or edit quotes in Dynamics 365 Sales"
-description: "Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it."
-ms.date: 10/25/2021
-ms.topic: get-started-article
+title: Create or edit quotes in Dynamics 365 Sales
+description: Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
+ms.date: 08/01/2023
+ms.topic: how-to
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
@@ -22,6 +23,7 @@ Quotes include the pricing details of products that your potential customer is i
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -50,7 +52,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 5. Enter the billing and shipping addresses in the **Addresses** area of the **Quote** form.
 
-6. To add products from your opportunity to your quote, on the command bar of the **Quote** form, select **Get Products**. Add more products or remove existing ones from the **Products** area.
+6. To add products from your opportunity to your quote, on the command bar of the **Quote** form, select **Get Products**. Add more products or remove existing ones from the **Products** area. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
 
 7. Select **Save** in the lower-right corner of the screen.
 
@@ -70,10 +72,10 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
     -  **Name** 
   
-    -  **Price List** and **Currency**: The price list that will be used to calculate the product prices and currency.
+    -  **Price List** and **Currency**: The price list that will be used to calculate the product prices and currency. [Learn more about how prices are calculated for a quote](#how-prices-are-calculated-for-a-quote).
 
         > [!NOTE]
-        > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional.
+        > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional. More information: [Allow adding products without associated price list](make-price-list-optional.md)
 
 4. In the **Sales Information** section, in **Potential Customer**, enter information about the customer you're creating this quote for.
 
@@ -83,7 +85,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
   
     -OR-
 
-    To manually add other products, in the **Products** section, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and then select **Add New Quote Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    To manually add other products, in the **Products** section, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and then select **Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
 
 7. In the **Shipping Information** area, enter shipping details.
 
@@ -91,13 +93,36 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 9. Select **Save**.
 
-10. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.   
+10. When your quote is ready to send to your customer, on the command bar, select **Activate Quote**.  
 
+## How prices are calculated for a quote
+
+The price calculation for a quote depends on the product catalog, line items, pricing rules, discounts, and taxes. It also varies based on the quote phase such as draft, active, or closed. 
+  
+- **Draft state**: During the draft phase, pricing calculations are based on the following elements:
+
+    * **Product catalog**: Includes a product catalog with products/services available for quoting.  
+    * **Price list**: Defines the price of the products included in the quote. 
+
+    * **Line items**: Includes the products/services that you've added as line items to the quote, along with the quantity.  
+    * **Pricing rules**: Determines the price of a product or service based on various factors such as volume discounts, customer-specific pricing, contract terms, or any other configured criteria.  
+    * **Discounts**: Specifies the discounts to be applied to individual line items, or the overall quote based on specific conditions or negotiations with the customer. Discounts can be percentage-based or fixed amounts.  
+    * **Taxes**: Specifies the tax rules that are configured to calculate applicable taxes based on the product, customer location, and other relevant factors.  
+  
+    In the draft state, the prices are adjusted to the actual prices on the price list when you open or edit the quote. The overall price is calculated by adding the price of all the products in the quote and deducting any applied discounts.
+  
+- **Active state**: The active quote state has the same price as the draft state. However, the overall amount is locked and can't be modified after it's published. 
+  
+- **Closed phase**: In the closed state, the price is typically based on the agreed-upon terms between the seller and the customer. Once the quote is closed, prices are considered fixed and no longer subject to changes unless a new quote or agreement is created.  
+
+    In the active and closed states, the prices are not adjusted to the actual prices on the price list when you open or edit the quote.
+  
 ## Email a quote
 
 When you've added all the details to the quote, you can send it to the customer. To directly send an email to a customer with a quote attached, open the quote, and on the command bar, select **Email as PDF**. [!INCLUDE[proc-more-information-md](../includes/proc-more-information-md.md)] [Email a PDF file](create-quote-pdf.md#export-to-pdf)
 
-## Typical next steps  
+## Typical next steps
+
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an order](create-edit-order-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
