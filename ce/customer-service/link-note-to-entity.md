@@ -1,5 +1,5 @@
 ---
-title:  Enable linking of timeline notes with other tables
+title: Enable linking of timeline notes with other tables
 description: Learn how to onfigure linking of timeline notes with other tables.
 author: gandhamm
 ms.author: mgandham 
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable linking of timeline notes with other tables
 
-You can use **Relate note to a table record** to perform the following actions on case, account, and contact tables, without leaving the page that you're on:
+You can use **Relate note to a table record** to perform the following actions without leaving the page that you're on:
 
 - Move a note on the timeline of an existing table to another table. For example, you can move a note on the timeline of a contact to an existing case. After you move the note, it'll appear only on the timeline to which you've moved and not on both. 
 - Create a new table record from the note. For example, you can create a case from an existing note on a contact's timeline.
@@ -35,3 +35,7 @@ You can enable this feature for any table that allows you to add a timeline comp
       - **Map notes title to**: the field to which the notes title should get copied. For example, if you select **Case Title**, when you create a new case, the Case title is auto- populated with the value of the notes title.
       - **Map notes description to**: The field to which the notes description should get copied to. For example, if you select **Description**, when you create a new case, the case description is auto populated with the value of the notes description. 
 1. Save and publish the customizations.
+
+### See Also
+
+[Learn about linking timeline notes with tables](link-note-to-entity-task.md)  

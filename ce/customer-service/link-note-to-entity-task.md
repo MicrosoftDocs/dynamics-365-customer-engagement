@@ -42,3 +42,7 @@ Consider a scenario where you're talking to an customer over a voice call. The c
 6. Add the other fields on the case and select **Save**. The application displays a message to confirm if the note must be unlinked from the account table. Select **Ok**. The note now appears only on the timeline of the new case that you've created.
 
  :::image type="content" source="media/link-note-conversation-mini.png" alt-text="runtime experience for the relate conversation timeline note to case " lightbox="media/link-note-conversation.png":::
+
+### See Also
+
+[Enable linking of timeline notes with other tables](link-note-to-entity.md)  
