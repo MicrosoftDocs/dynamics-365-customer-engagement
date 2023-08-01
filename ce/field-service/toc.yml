@@ -245,28 +245,28 @@ items:
       - name: Access related applications
         href: access-related-apps-mobile-app.md
       href: mobile-power-app-use.md
-    - name: Administer the mobile app
-      items:
-      - name: Booking maps
-        href: mobile-powerapp-booking-maps.md
-      - name: Offline data and sync filters
-        href: mobile-power-app-system-offline.md
-      - name: Barcode scanning and global search
-        href: mobile-power-app-system-barcode-scanning.md
-      - name: Push notifications
-        href: mobile-power-app-push-notifications.md
-      - name: Location tracking, sharing, and auditing
-        href: mobile-powerapp-location-auditing.md
-      - name: Geofencing
-        href: mobile-powerapp-geofence.md
-      - name: Technician service reports
-        href: mobile-powerapp-reporting.md
-      - name: Intune mobile app management
-        href: mobile-power-app-intune.md
-      - name: Mobile app for Windows 10+
-        href: mobile-powerapp-windows.md
-      - name: Use Microsoft Power Platform
-        href: mobile-power-utilize-platform.md
+    - name: Booking maps
+      href: mobile-powerapp-booking-maps.md
+    - name: Offline data and sync filters
+      href: mobile-power-app-system-offline.md
+    - name: Barcode scanning and global search
+      href: mobile-power-app-system-barcode-scanning.md
+    - name: Push notifications
+      href: mobile-power-app-push-notifications.md
+    - name: Location tracking, sharing, and auditing
+      href: mobile-powerapp-location-auditing.md
+    - name: Geofencing
+      href: mobile-powerapp-geofence.md
+    - name: Technician service reports
+      href: mobile-powerapp-reporting.md
+    - name: Intune mobile app management
+      href: mobile-power-app-intune.md
+    - name: Mobile app for Windows 10+
+      href: mobile-powerapp-windows.md
+    - name: Use Microsoft Power Platform
+      href: mobile-power-utilize-platform.md
+    - name: IoT signals on mobile
+      href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
