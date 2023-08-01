@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 07/31/2023
+ms.date: 08/01/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
