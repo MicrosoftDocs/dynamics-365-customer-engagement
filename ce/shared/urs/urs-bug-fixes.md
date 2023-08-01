@@ -8,13 +8,13 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/18/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 07/21/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 07/28/2023 |
-| | *USG* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | TBD | 07/21/2023 |
-|**Station 4** |*Europe* |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 07/21/2023 |
+| | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
+|**Station 4** |*Europe* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/04/2023 |
 |**Station 5** |  *North America*|[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 07/28/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 07/28/2023 |
-| | *Dedicated Scale Groups* |[3.12.106.7](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121067)  | [3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | 07/21/2023 |
+| | *Dedicated Scale Groups* |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 08/04/2023 |
 
 
 >[!NOTE]
@@ -27,6 +27,9 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.49.231861
 
 **Dataverse:** 4.0.99.2
+
+- Resource Utilization now shows for schedule board tabs beyond the 10th tab.
+- If GPS tracking is enabled for a resource with a "location agnostic" location, a pin will be displayed on the schedule board map for the last known location.
 
 ## 3.12.108.5
 
@@ -169,7 +172,7 @@ This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics3
 
 **Resource Scheduling controls:** 1.2.40.230251
 
-- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
+- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md).
 
 ## 3.12.97.18
 

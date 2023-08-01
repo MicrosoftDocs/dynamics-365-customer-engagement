@@ -1,7 +1,7 @@
 ---
 title: Work with customer assets (contains video)
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 01/23/2023
+ms.date: 06/23/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -42,6 +42,10 @@ You can [create customer assets individually](#manually-create-customer-assets),
     - **Parent Asset**: Field Service supports hierarchical asset structures. For example, a part can be a component of a piece of equipment that is itself a component of a larger device. Use the **Parent Asset** field to specify the direct parent of the asset you're creating.
 
     - **Top-Level Asset**: A read-only field that displays the top-level parent in the relationship automatically. After creating the asset record, add subcomponents or child assets in the **Sub Assets** grid.
+    
+    - **Asset Tag**: Enter a custom asset tag in this text field.
+    
+    - **Manufacturing Date:** Select the date when the asset was manufactured to get another data point in the service history. 
 
 1. Select **Save**.
 

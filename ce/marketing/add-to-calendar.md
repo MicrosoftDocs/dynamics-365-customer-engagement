@@ -1,9 +1,7 @@
 ---
-title: "Generate iCalendar files for events and sessions (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to add a button to emails that generates an iCalendar file for an event or session Dynamics 365 Marketing."
-ms.date: 09/29/2022
-ms.custom: 
-  - dyn365-marketing
+title: Generate iCalendar files for events and sessions
+description: Learn how to add a button to emails that generates an iCalendar file for an event or session Dynamics 365 Marketing.
+ms.date: 07/28/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -22,9 +20,6 @@ The Dynamics 365 Marketing email editor includes the ability to automatically ge
 ## How to create a customized iCalendar file
 
 iCalendar files are generated using the new **Add to Calendar** button option in the email editor.
-
-> [!NOTE]
-> The **Add to calendar** button is only available in the new email editor. To enable the new email editor, an administrator must enable the **Updated email editing experience** [feature switch](admin-feature-switches.md).
 
 To create an **Add to Calendar** button:
 
