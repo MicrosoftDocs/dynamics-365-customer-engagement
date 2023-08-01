@@ -620,7 +620,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier to identify the app to which this conversation belogs to.|
+|Description|Unique identifier to identify the app to which this conversation belongs to.|
 |DisplayName|Channel Instance ID|
 |IsValidForForm|True|
 |IsValidForRead|True|
