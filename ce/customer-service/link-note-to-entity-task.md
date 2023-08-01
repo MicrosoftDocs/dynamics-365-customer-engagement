@@ -46,7 +46,7 @@ To create a new case from the note, perform the following steps:
 6. Add the information on the quick create case form and save the details. The case is created. 
 1. The application then displays a message to confirm if the note must be unlinked from the table. If you select **OK**, the note appears on the timeline of the new case that you've created.
 
- :::image type="content" source="media/link-note-conversation-mini.png" alt-text="runtime experience for the relate conversation timeline note to case " lightbox="media/link-note-conversation.png":::
+    :::image type="content" source="media/link-note-conversation-mini.png" alt-text="runtime experience for the relate conversation timeline note to case " lightbox="media/link-note-conversation.png":::
 
 ### See Also
 
