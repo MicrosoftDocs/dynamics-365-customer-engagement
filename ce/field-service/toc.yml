@@ -33,7 +33,7 @@ items:
         - name: Version history archive
           href: version-history-archive.md
         - name: Microsoft 365 integrations for Field Service (preview)
-          href: flw-what-new.md
+          href: flw-whats-new.md
     - name: Deprecations
       href: deprecations-field-service.md
 
