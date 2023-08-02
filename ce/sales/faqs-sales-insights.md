@@ -35,7 +35,8 @@ When you install Sales Insights, corresponding analytics tables are created for 
 
 ## General
 
-### In which region is Sales Premium available?  
+### In which region is Sales Premium available? 
+ 
 Sales Premium is available in the following countries or regions:
 
 -    Asia Pacific (APJ)
@@ -76,6 +77,9 @@ The following table lists the regions in which Sales Premium features are availa
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
 | Who knows whom | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+
+> [!NOTE]
+> [Basic who knows whom](who-knows-whom.md#basic-who-knows-whom-information) information is available in all regions. However, [enhanced who knows whom](who-knows-whom.md#enhanced-who-knows-whom-information) information is available only in the regions listed in the table. 
 
 ### Which version of Exchange is supported for features in Sales Premium?
 

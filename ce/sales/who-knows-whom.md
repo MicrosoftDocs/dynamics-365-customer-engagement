@@ -25,7 +25,7 @@ As a sales representative, you often interact with leads whom you've never talke
 
 ### Basic who knows whom information
 
-For Sales Enterprise users, the who knows whom information is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box and doesn't require any setup.
+For Sales Enterprise users, the who knows whom information is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box in all regions and doesn't require any setup.  
 
 ### Enhanced who knows whom information
 
