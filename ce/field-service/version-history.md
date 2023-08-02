@@ -19,13 +19,13 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/18/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 07/21/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 07/28/2023 |
-| | *USG* |  [8.8.95.25](/dynamics365/field-service/version-history#889525)  | TBD | 07/21/2023 |
-|**Station 4** |*Europe* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/21/2023 |
+| | *USG* | [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
+|**Station 4** |*Europe* |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 08/04/2023 |
 |**Station 5** | *North America*|[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/28/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 07/28/2023 |
-| | *Dedicated Scale Groups* |[8.8.93.28](/dynamics365/field-service/version-history#889328)  | [8.8.94.28](/dynamics365/field-service/version-history#889428) | 07/21/2023 |
+| | *Dedicated Scale Groups* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 08/04/2023 | |
 
 >[!NOTE]
 >

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Import and email all contacts from a spreadsheet
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This tutorial provides an example of how to send marketing email messages to all of the contacts listed in a Microsoft Excel spreadsheet.
 
 > [!NOTE]

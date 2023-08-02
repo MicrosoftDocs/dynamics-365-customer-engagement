@@ -16,6 +16,8 @@ search.audienceType:
 
 # Manage segment memberships from a contact record
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Instead of working directly with a segment definition, you can add or remove a contact to/from any static segment while viewing their contact record. This enables users such as salespeople, who know their contacts well but don't have access to the segment entity, to manage the segments a contact belongs to while working directly with that contact record.
 
 > [!NOTE]

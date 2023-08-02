@@ -16,6 +16,8 @@ search.audienceType:
 
 # Data management settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This topic describes what you can do when working in the **Advanced Settings** > **Data Management** section of the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page.
 
 <a name="import"></a>

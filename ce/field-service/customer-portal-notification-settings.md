@@ -1,5 +1,5 @@
 ---
-title: Set up notifications for the Field Service Portal
+title: Set up notifications for the Field Service portal
 description: Configure notifications to keep your customers up to date on their bookings and appointments.
 ms.date: 05/03/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Set up notifications for the Field Service Portal
+# Set up notifications for the Field Service portal
 
 The portal uses Power Automate flows to trigger notifications for customers. Before we can send notifications, choose which channels to use and configure the flows accordingly. To send text messages, you'll need an SMS provider with a Power Automate connector. For emails, we recommend an Office 365 Outlook account.
 
@@ -26,18 +26,18 @@ The Customer Portal settings in Field Service link directly to the default Power
 
 To configure email:
 
-   1. Select the *Field Service PowerApps Power Flow Email Notifications* flow, which is turned off by default.
-   1. Open the flow and configure it.
-   1. On the flow, select **Save as** and create a copy of the default flow.
-   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
-    1. Then, select **Turn on** to enable the flow.
+1. Select the *Field Service PowerApps Power Flow Email Notifications* flow, which is turned off by default.
+1. Open the flow and configure it.
+1. On the flow, select **Save as** and create a copy of the default flow.
+1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Select **Turn on** to enable the flow.
 
 To configure SMS:
 
-   1. Select the *Field Service PowerApps Power Flow SMS Notifications* flow, which is turned off by default.
-   1. On the flow, select **Save as** and create a copy of the default flow.
-   1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
-   1. Then, select **Turn on** to enable the flow.
+1. Select the *Field Service PowerApps Power Flow SMS Notifications* flow, which is turned off by default.
+1. On the flow, select **Save as** and create a copy of the default flow.
+1. Open the flow you created and select **Edit**. Authenticate or update the connections and **Save** the flow.
+1. Select **Turn on** to enable the flow.
 
 ## List of notifications
 

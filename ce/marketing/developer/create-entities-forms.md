@@ -14,6 +14,8 @@ search.audienceType:
 
 # Step 1: Create required entities and forms for custom channel
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 You might want to create custom entities and forms to store and display information about your custom channel. You might also want to build a configuration page to help users connect to an external service that your custom channel interacts with. Finally, you could build some dashboards to display some analytics information.
 
 More information:

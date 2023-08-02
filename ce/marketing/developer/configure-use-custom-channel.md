@@ -13,6 +13,8 @@ search.audienceType:
 
 # Configure and use a custom channel
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 This step is typically performed by administrators of your Dynamics 365 Marketing instance.
 
 To configure a custom channel in your instance of Dynamics 365 Marketing, administrators can:
