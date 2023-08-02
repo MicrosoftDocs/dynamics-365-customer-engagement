@@ -40,6 +40,4 @@ export class FormWebResource {
 Nuance Professional Services can extend the **msdyn_ocexternalcontext** to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields. For more information on the msdyn_ocexternalcontext entity, see: msdyn_ocexternalcontext
 Perform the steps in [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
-## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->

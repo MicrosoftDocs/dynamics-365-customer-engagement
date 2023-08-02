@@ -96,4 +96,4 @@ The app displays an error message if there’s no data or  partial customer data
 
 ## Next steps
 
-[Customize Customer Service workspace to view the IVR transcripts](oc-nuance-fos-customizations.md)
+[Customize active conversation to view the IVR transcripts](oc-nuance-fos-customizations.md)
