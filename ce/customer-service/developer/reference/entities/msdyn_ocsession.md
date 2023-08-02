@@ -615,7 +615,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier to identify the app to which this conversation belogs to.|
+|Description|Unique identifier to identify the app to which this conversation belongs to.|
 |DisplayName|Channel Instance ID|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -714,7 +714,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property)|
+|Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property.)|
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -795,7 +795,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for session creation (This is for internal use only. Customers are advised to not use this property)|
+|Description|Reason for session creation (This is for internal use only. Customers are advised to not use this property.)|
 |DisplayName|Created Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
