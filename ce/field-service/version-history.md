@@ -25,7 +25,7 @@ For information about older versions, see [Version history archive](version-hist
 |**Station 4** |*Europe* |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/01/2023 |
 |**Station 5** | *North America*|[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
-| | *Dedicated Scale Groups* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 08/04/2023 | |
+| | *Dedicated Scale Groups* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 08/04/2023 |
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ For information about older versions, see [Version history archive](version-hist
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 8.8.101.48  (2023 Wave 2 early access)
+
 (Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11) and Resource Scheduling controls version 1.2.54.232001).
 
 - **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
@@ -42,7 +43,6 @@ For information about older versions, see [Version history archive](version-hist
 - **Manage frontline worker certifications**: [Organizations can track insurance](insurance.md), licenses, and certifications for frontline workers via the new insurance table, and [enhanced characteristics](set-up-characteristics.md#enhanced-characteristics-preview) to ensure they can complete work at the quality customers expect and in compliance with legislation.
 
 - Booking end times no longer get updated to the current time upon booking completion.
-
 
 ## 8.8.96.23
 (Includes Universal Resource Scheduling version [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) and Resource Scheduling controls version 1.2.49.231861).
