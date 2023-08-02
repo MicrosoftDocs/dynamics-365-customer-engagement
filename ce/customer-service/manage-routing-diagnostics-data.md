@@ -30,7 +30,7 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
 > [!NOTE]
 > We recommend that you do the following actions before you perform the delete operation:
-> - Verify and ensure the data is no longer required, as delete operations are irreversible.
+> - Verify and ensure that the data isn't required because delete operations are irreversible.
 > - Turn off the diagnostic feature.
 
 1. Perform the steps in the [Capacity page details](/power-platform/admin/capacity-storage#capacity-page-details) article to view the storage consumption of the diagnostics records mentioned in step 2.
@@ -39,9 +39,6 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
    1. Routing diagnostics items for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](developer/reference/entities/msdyn_unifiedroutingdiagnostic.md)
    1. Routing diagnostics for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](developer/reference/entities/msdyn_unifiedroutingrun.md)
-
-
-> We recommend you to  before you perform delete operation.
 
 ## Next steps
 
