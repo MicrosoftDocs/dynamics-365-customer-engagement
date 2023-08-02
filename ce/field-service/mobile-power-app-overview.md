@@ -1,7 +1,7 @@
 ---
 title: Field Service (Dynamics 365) mobile app overview (contains video)
 description: Learn about the Field Service (Dynamics 365) mobile app, key features, and system requirements with this general overview.
-ms.date: 02/06/2023
+ms.date: 08/02/2023
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -24,7 +24,7 @@ The mobile app is built on Microsoft Power Platform as a [model-driven app](/pow
 | [Barcode scanning](get-work-done-mobile-app.md#barcode-scanning) | Technician | Yes |  Scan bar code from global search or at a field level. |
 | [Offline data](work-offline-mobile-app.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
 | [Calendar view](download-get-started-mobile-app.md#view-scheduled-work-orders) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
-| [Driving directions](get-work-done-mobile-app.md#travel-to-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
+| [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
 | Speech to text | Technician | Yes | Insert notes with native device speech-to-text capabilities. |
 | [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |
 | [Time entry](get-work-done-mobile-app.md#time-entry)  | Technician | Yes | In-application Time Entry enabled by default. |
@@ -38,7 +38,7 @@ The mobile app is built on Microsoft Power Platform as a [model-driven app](/pow
 | [Location sharing and auditing](mobile-powerapp-location-auditing.md) | Admin | Yes* | Enable real-time sharing of the technician's location with the back office. |
 | [Enhanced offline sync filters](work-offline-mobile-app.md) | Admin | Yes |  Data available offline by default and the data available offline can be customized. For example, offline data available by location or by accounts for scheduled bookings. |
 | [Offline by default](mobile-power-app-system-offline.md#understanding-offline-vs-online-capabilities) | Technician | Yes |  The app is offline by default, so the technician is always ready. |
-| [Allow technician to force data sync](mobile-power-app-use.md#work-offline-and-update-offline-data) | Technician | Yes |  The technician can manually force data sync. |
+| [Allow technician to force data sync](work-offline-mobile-app.md) | Technician | Yes |  The technician can manually force data sync. |
 | Bulk-add users  | Admin | Yes|  Quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
