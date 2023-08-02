@@ -68,10 +68,11 @@ You can provision the following channels in Omnichannel for Customer Service:
 1. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
 1. Select the **Consent on behalf of your organization** checkbox.
-1. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
+
+1. Select **Accept** to grant data access consent.
 
     For information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
