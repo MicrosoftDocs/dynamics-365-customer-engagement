@@ -154,7 +154,7 @@ Perform the following steps to export and import the rulesets:
 
    - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
       
-    `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'``
+    `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
     
      In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.  
 
