@@ -1,6 +1,6 @@
 ---
-title: Configure the telephony layer 
-description: How-to Configure the telephony layer  enclose in quotation marks. Do end with a period.
+title: Setup Nuance cloud IVR bot integration with voice channel
+description: How-to setup Nuance cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: ,gandham
 ms.reviewer: neeranelli
@@ -10,7 +10,7 @@ ms.date: 07/27/2023
 ms.custom: bap-template 
 ---
 
-# Integrate Nuance cloud IVR bot with omnichannel
+# Setup Nuance cloud IVR bot integration with voice channel
 
 Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
 
@@ -21,6 +21,9 @@ The integration has the following three steps:
 - Setup Omnichannel to receive the escalated calls from the Nuance IVR bot.
 
 ## Prerequisites
+
+- Omnichannel for Customer Service with the voice channel is provisioned.
+- Azure Communication Services must be configured on the Customer Service tenant.
 
 ## Connect Azure Communication Services to voice channel
 
@@ -40,7 +43,7 @@ Perform the steps in [Get and manage phone numbers](/azure/communication-service
 
 ### Step 3: Configure Direct Routing
 
-Azure Communication Services direct routing enables you to connect Nuance’s existing telephony infrastructure to Azure Communication Services.
+Azure Communication Services [direct routing](/communication-services/quickstarts/telephony/voice-routing-sdk-config) enables you to connect Nuance’s existing telephony infrastructure to Azure Communication Services.
 
 The following steps list the high-level steps required for connecting a supported Session Border Controller (SBC) to direct routing.
 
