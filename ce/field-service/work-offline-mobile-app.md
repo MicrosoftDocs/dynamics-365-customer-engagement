@@ -1,7 +1,7 @@
 ---
 title: Work offline and update offline data
 description: Learn how to work offline and what you need to keep in mind.
-ms.date: 06/20/2023
+ms.date: 08/02/2023
 ms.topic: article
 ms.subservice: field-service-mobile
 author: josephshum-msft

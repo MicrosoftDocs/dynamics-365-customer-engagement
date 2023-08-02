@@ -1,7 +1,7 @@
 ---
 title: Complete work orders on the mobile app
 description: Learn how to complete the assigned work orders using the Field Service mobile app.
-ms.date: 06/20/2023
+ms.date: 08/02/2023
 ms.topic: article
 ms.subservice: field-service-mobile
 author: josephshum-msft
@@ -35,7 +35,7 @@ Change the status of a booking to **Traveling** directly from the booking home p
 > [!div class="mx-imgBorder"]
 > ![Screenshot of status change to traveling in the Field Service Mobile app.](./media/mobile-newux-traveling.png)
 
-Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. Directions use the geolocation of the address and fall back to the address string when no geolocation is available. If no address is specified, then the directions icon won't show.
+Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. Directions use the geolocation of the address and fall back to the address string when no geolocation is available. If no address is specified, then the directions icon doesn't show.
 You can decide if you want the booking status to change to **Traveling** get directions.
 
 > [!div class="mx-imgBorder"]
@@ -47,14 +47,14 @@ You can decide if you want the booking status to change to **Traveling** get dir
 
 ## [Unified Interface UX](#tab/vCurrent)
 
-On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
+On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div class="mx-imgBorder"]
 > ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Selecting the service task, service, or product name opens the full details form.
+When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div]
 > ![Screenshot of performing work in the Field Service Mobile app.](./media/mobile-newux-work.png)
@@ -77,7 +77,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-In the new mobile UX (preview) you take notes directly in the **Timeline** tab. Simply tap on the **+ Add note** button to add text and images to your note.
+Take notes directly in the **Timeline** tab. Select **+ Add note** to add text and images to your note.
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
