@@ -41,18 +41,18 @@ additionalContent:
       links:
       - url: trial-signup.md
         text: Sign up for a free trial
-      - url: direct-purchase.md
-        text: Licensing
       - url: marketing-license.md
+        text: Get started with licensing
+      - url: purchase-setup.md
         text: Purchase
     - title: Provision and set up
       links:
       - url: get-started.md
         text: Marketing app setup
-      - url: purchase-setup.md
-        text: Set up Marketing
-      - url: power-platform-admin-center.md
-        text: Manage environments
+      - url: admin-users-licenses-roles.md
+        text: Manage user accounts
+      - url: domain-authentication.md
+        text: Authenticate your domains
     - title: Administer
       links:
       - url: organization-settings.md
