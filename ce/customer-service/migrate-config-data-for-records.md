@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 08/02/2023
 ms.custom: bap-template
 ---
 
@@ -101,6 +101,15 @@ The assignment rulesets must be available in the system before the Configutation
 > - For every import of queue records, you must either create new queue records or update existing queue records. You must not mix the actions in the same data import.
 > - When all records in the data.xml of queue entity are for creation, ensure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also have the field for msdyn_queuetype.
 > - When all records in the data.xml of queue entity are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>` and correspondingly data will also not have that field for msdyn_queuetype.
+> - When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first. The migration sequence should look as follows:
+>   - Decision contract
+>   - Decision ruleset
+>   - Queue
+>   - Assignment Configuration
+>   - Assignment Configuration Step without selection criteria
+>   - Operating Hour
+>   - Overflow Action
+> - You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
 
 ### Step 1: Export and import rulesets without selection criteria
 
@@ -133,6 +142,17 @@ Perform the following steps to export and import the rulesets:
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_selectionruleoutput'`
 
      In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+   
+   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
+
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+
+   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
+      
+    `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'``
+    
+     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.  
 
 4. Package the extracted content again.
 
@@ -178,34 +198,6 @@ Perform the following steps to export and import the rulesets:
 
 For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
-### Step 3: Export and import rulesets for overflow conditions
-
-> [!IMPORTANT]
-> When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first.
-
-|S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-|-----|---------|---------|---------|
-|1.|Decision ruleset without selection criteria (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode) </li><li>Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li><li>FetchXML for ruleset (msdyn_fetchxml) </li></ul>|[**Sample 1: Decision Overflow ruleset for a single queue**](#BKMK1-ovc)<br><br> [**Sample 2: Decision Overflow ruleset for multiple queues**](#BKMK2-ovc)|
-|2.|Queue (queue)|<ul><li> Assignment Input Contract Id (msdyn_assignmentinputcontractid) </li><li>Assignment Strategy (msdyn_assignmentstrategy) </li><li>Prequeue Overflow Ruleset (msdyn_prequeueoverflowrulesetid)</li><ul>||
-
-Perform the following steps to export and import the rulesets:
-1. Generate the schema and save it.
-1. Export the data and generate the compressed (zip) file.
-1. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
-   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
-      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetinput'`
-
-     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
-
-   - In the source and target organizations, run the following OData API call and note the GUID of msdyn_decisioncontractid.
-      `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_queueoverflowrulesetoutput'`
-     In data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
-
-1. Package the extracted content again.
-1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
-
-> [!NOTE]
-> You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
 
 ### FetchXML for queues
 
@@ -756,38 +748,6 @@ XMLCopy
   </entity>
 </fetch>
 ```
-
-
-### FetchXML for overflow conditions
-
-**Sample 1: For a single queue record**<a name="BKMK1-ovc"></a>
-
-```xml
-XMLCopy
-<fetch>
-  <entity name="msdyn_decisionruleset">
-    <filter type="and">
-      <condition attribute="msdyn_decisionrulesetid" operator="eq" uiname="queue_prequeue_Test Record Queue 1" uitype="msdyn_decisionruleset" value="{B8E30FC9-4ED8-ED11-A7C7-00224805C003}"/>
-    </filter>
-  </entity>
-</fetch>
-```
-
-**Sample 2: For multiple queue records**<a name="BKMK2-ovc"></a>
-
-```xml
-XMLCopy
-<fetch>
-  <entity name="msdyn_decisionruleset">
-    <filter type="or">
-      <condition attribute="msdyn_decisionrulesetid" operator="eq" uiname="queue_prequeue_Test Record Queue 1" uitype="msdyn_decisionruleset" value="{B8E30FC9-4ED8-ED11-A7C7-00224805C003}"/>
-      <condition attribute="msdyn_decisionrulesetid" operator="eq" uiname="queue_prequeue_Test Record Queue 2" uitype="msdyn_decisionruleset" value="{B8E30FC9-4ED8-ED11-A7C7-00224805C123}"/>
-    </filter>
-  </entity>
-</fetch>
-```
-
-
 
 ## Migrate configuration for intake rules for record routing
 
