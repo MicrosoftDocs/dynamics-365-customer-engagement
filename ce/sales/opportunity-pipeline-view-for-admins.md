@@ -52,13 +52,15 @@ Open the settings page to configure and customize the opportunity pipeline view 
 
 1. In the Sales Hub Change area, select **App Settings**.
 1. Under **General Settings**, select **Opportunity pipeline view**.
+        :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
 
 ## Set the default form for side panel
 
 When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. For example, you can create a custom form specifically for the side panel and set that as default. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
-1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization.  
+1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization. 
+
 
 ## Set the default metrics for sellers
 
