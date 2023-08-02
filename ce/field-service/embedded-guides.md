@@ -76,5 +76,4 @@ Dynamics 365 Guides enables customers to capture usage statistics and detailed t
 ## Next steps
 
 - [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
-- [Access Guides from the Field Service mobile app](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile)
 - [Learn about the steps card in Dynamics 365 Guides](/dynamics365/mixed-reality/guides/operator-step-card-orientation)
