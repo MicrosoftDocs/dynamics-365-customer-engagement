@@ -13,6 +13,12 @@ ms.author: nenellim
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, the communication panel is in hidden mode by default. You can view the communication panel only when you accept an incoming conversation to communicate with the customer.
 
+If you want to minimize the communication panel, select **Minimize**. The communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
+
+> [!NOTE]
+> Minimizing the communication panel is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
+
+
 You can do the following tasks in the communication panel:
 
 - Send quick replies.

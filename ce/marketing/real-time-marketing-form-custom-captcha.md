@@ -15,6 +15,8 @@ search.audienceType:
 
 # Integrate a custom captcha service with real-time marketing forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Real-time marketing forms allow you to use custom captcha bot protection to validate form submissions. This article gives an example of how to integrate [Google reCAPTCHA](https://www.google.com/recaptcha/about/). The flow is similar for other captcha services.
 
 The process consists of these steps:

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Dynamics 365 Marketing sales learning catalog
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Are you responsible for helping your customers buy the right solution? 
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.

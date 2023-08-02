@@ -16,6 +16,8 @@ search.audienceType:
 
 # Marketing segments vs. marketing lists
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Even without Dynamics 365 Marketing installed, some Dynamics 365 apps provide a few basic marketing features, which include the ability to create both static and dynamic _marketing lists_ that you can use with the _quick campaigns_ feature also included with these apps. However, Dynamics 365 Marketing predominantly uses a separate feature called _marketing segments_ to target its full-featured _customer journeys_, both of which are unique to Marketing.
 
 The following table summarizes a few important differences between the various types of marketing lists and segments.
