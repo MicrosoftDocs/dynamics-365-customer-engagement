@@ -15,6 +15,8 @@ search.audienceType:
 
 # Individually manage your customer list
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Adding manual inclusions or exclusions is a powerful way to augment segment building criteria. Manually include or exclude specific people to ensure segments always reach VIP customers, or just as an easy way to build test segments for journeys.
 
 **Example**: In addition to the event registrants for the workshop, you also want to include some of your VIP customers in this list. You can manually search for them by name and decide whether to always include them or not.

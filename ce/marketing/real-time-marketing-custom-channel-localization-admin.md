@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define the localization for the admin interface (optional)
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Applicable channels: SMS, custom
 
 If you want to localize your admin interface for a diverse audience, you need to define a **Channel Definition Locale** entity. When your solution is imported, a new row for every [message part](real-time-marketing-custom-channel-message-parts.md) is created in the **msdyn_channeldefinitionlocale** table.

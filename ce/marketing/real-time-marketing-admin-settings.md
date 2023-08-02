@@ -15,6 +15,8 @@ search.audienceType:
 
 # Real-time marketing administrator settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article describes administrator settings required for real-time marketing features.
 
 ## Journeys

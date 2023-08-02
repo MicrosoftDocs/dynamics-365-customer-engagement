@@ -14,6 +14,8 @@ search.audienceType:
 
 # Add email carbon copy recipients to real-time journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10sVQ]
 
 You can add carbon copy (CC) recipients to your journeys when sending emails. When designing your journey, you can select up to five recipients for your emails from the email tile. You can dynamically choose your CC recipients by mapping them to your marketable contacts.

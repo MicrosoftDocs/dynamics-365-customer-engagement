@@ -16,6 +16,8 @@ search.audienceType:
 
 # Manage Word templates
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Microsoft Word provides powerful ways to present your Dynamics 365 data in a standardized and well-formatted document. With Word templates, you can easily create and share your template with others, so all the documents that go out to your customers have a consistent look that matches your organization's branding.
 
 When the templates are ready, users can generate standardized documents that are automatically populated with Dynamics 365 data with just one click.

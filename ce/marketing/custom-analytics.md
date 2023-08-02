@@ -15,6 +15,8 @@ search.audienceType:
 
 # Prepare for analytic reporting with Power BI
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This documentation refers to the process of creating custom reports for outbound marketing only.
 

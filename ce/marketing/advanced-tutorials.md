@@ -16,6 +16,8 @@ search.audienceType:
 
 # Tutorials for specific scenarios
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The tutorials in this section are more general than the guides in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of Dynamics 365 Marketing, but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
 
 When you have completed the exercises here, you'll be able to:

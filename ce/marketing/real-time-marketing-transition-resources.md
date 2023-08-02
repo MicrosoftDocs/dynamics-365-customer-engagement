@@ -13,6 +13,8 @@ search.audienceType:
 
 # Real-time transition resources
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The following resources were created to help you transition from outbound to real-time marketing as smoothly as possible.
 
 - [Transition from outbound to real-time marketing playbook](https://community.dynamics.com/blogs/post/?postid=1b4394d5-7764-4484-aba9-c7f972292c10). The playbook covers key information, including:

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Adding consent data to real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 When you install real-time marketing, the real-time marketing consent center (**Real-time marketing** > **Audience** > **Consent center**) contains no records, even if you already gathered consent in outbound marketing. You don't need to re-enter contact consent data from outbound marketing if you plan to run real-time journeys for contacts. If you want to reuse contact consent data for leads or profiles, or wish to add new consents, you can use one of three methods:
 
 - Add new consent records for email and text messages manually by selecting the corresponding option from the top ribbon.

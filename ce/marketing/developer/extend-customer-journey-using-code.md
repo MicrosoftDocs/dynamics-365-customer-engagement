@@ -14,6 +14,8 @@ search.audienceType:
 
 # CRUD operations on customer journey using code
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The customer journey SDK sample is a .NET managed-code sample that shows how to use the customer journey APIs. The sample focuses on using the customer journey SDK from a .NET console application. The customer journey SDK can be used from plug-in code.
 
 Download the sample: [customer journey SDK](https://go.microsoft.com/fwlink/?linkid=2086553)
