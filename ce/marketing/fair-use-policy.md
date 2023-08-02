@@ -13,6 +13,8 @@ search.audienceType:
 
 # Service limits and fair use policy
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing relies on shared cloud resources for data and processing. This policy defines the limits for resource usage per org. These limits ensure that other tenants' performance isn't affected and resources are evenly distributed.
 
 The following tables show the current usage limits for Marketing features.

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create real-time marketing forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 To create a new form, go to **Real-time marketing** > **Channels** > **Forms** and select **New** on the command bar.
 
 1. **Select a target audience** that is updated by the form submission. With real-time marketing forms, you can select which audience you want to update (Contact or Lead). Each target audience has a default strategy for duplicate records handling:

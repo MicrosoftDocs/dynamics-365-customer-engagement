@@ -16,6 +16,8 @@ search.audienceType:
 
 # Generate activities from a customer journey
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the if/then condition that creates a phone-call task associated with each contact who submits the registration form.
 
 ![Example customer journey with an activity tile.](media/journey-generate-activities2.png "Example customer journey with an activity tile")  

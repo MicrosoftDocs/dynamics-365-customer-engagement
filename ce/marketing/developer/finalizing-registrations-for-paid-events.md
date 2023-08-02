@@ -13,6 +13,8 @@ search.audienceType:
 
 # Finalizing registration for paid events
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
 In this topic, we use [OAuth](/power-apps/developer/data-platform/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Overview of real-time marketing forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5dqbE]
 
 A marketing form is an inbound communication channel that allows your customers to register for newsletters, ask for quotations, etc. The form is defined by a set of input fields arranged into a form layout.

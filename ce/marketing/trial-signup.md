@@ -15,6 +15,8 @@ search.audienceType:
 
 # Sign up for a free Dynamics 365 Marketing trial
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Marketing offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Marketing features](overview.md)
 
 **To sign up for the trial**:

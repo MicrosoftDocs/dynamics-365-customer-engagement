@@ -16,6 +16,8 @@ search.audienceType:
 
 # Reference guide for real-time marketing interactions
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Most of the data in Dynamics 365 Marketing is saved in Dataverse tables. However, the marketing interaction data needs separate storage to accommodate a higher throughput of changes when customers engage with businesses by opening emails, clicking links, etc. This article defines the marketing interaction data interaction schema. Use this as a reference guide when exporting real-time marketing interaction data for custom reporting.
 
 You can also refer to the [outbound marketing schema](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/solutions/marketing/interactions/overview) to export outbound marketing interaction data alone or with real-time marketing interaction data.

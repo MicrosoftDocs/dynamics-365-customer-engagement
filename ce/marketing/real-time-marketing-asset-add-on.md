@@ -15,6 +15,8 @@ search.audienceType:
 
 # Install the real-time marketing asset library add-on
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Assets are critical for meaningful and successful customer experiences. In outbound marketing and trials, you can use the outbound file library as an out-of-the-box solution for managing image file types such as png, jpeg, and gif. Learn more: [Upload and use images in online content](upload-images-files.md).
 
 In real-time marketing, instead of using the outbound file library, you can install the asset library add-on. This gives you access to a different set of capabilities for managing digital assets such as images, files, and videos. Learn more: [Real-time marketing asset library add-on](real-time-marketing-asset-library.md).

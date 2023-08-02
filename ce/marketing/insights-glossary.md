@@ -15,6 +15,8 @@ search.audienceType:
 
 # Insights glossary
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article provides definitions of terms commonly used to describe marketing results, insights, and KPIs. Many, but not all, of these relate to email results, and the definitions here also include a few technical details about how these results are found and calculated.
 
 More information: [Analyze results to gain insights from your marketing activities](insights.md)

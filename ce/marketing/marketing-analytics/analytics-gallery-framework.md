@@ -17,6 +17,8 @@ search.audienceType:
 
 # The marketing analytics reporting framework (generic template)
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 
 
 Designed for the data analyst who's fluent in Power BI report building, the marketing analytics reporting framework provides an important foundation that includes the M-Code, queries, functions, data connectors, and parameter processing that are at the core of every marketing analytics report.

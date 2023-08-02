@@ -15,6 +15,8 @@ search.audienceType:
 
 # Boost event engagement with real-time journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 When you host in-person or online events, success depends on engaging your audience throughout the event lifecycle. The lifecycle can span two to three months and includes setup, promotion, reminders, inspiration, thanking, and post-event engagement. Here are some of the activities involved in each step of the event lifecycle:
 
 - **Setup**: *Two to three months before the event*. Sign up forms for attendees, speakers, and sponsors. Text messages with short links to social channels. Enrollment confirmation emails.

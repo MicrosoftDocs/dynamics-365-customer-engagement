@@ -17,6 +17,8 @@ search.audienceType:
 
 # Core marketing tutorials
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The tutorials in this section provide exercises that illustrate the core functionality of Dynamics 365 Marketing. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
 
 - [Create marketing segments](create-segment.md) that organize contacts from your database into logical groups that match your marketing strategies.

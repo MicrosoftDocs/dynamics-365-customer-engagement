@@ -15,6 +15,8 @@ search.audienceType:
 
 # Outbound marketing compliance settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article describes how to enable and use GDPR-related features in Dynamics 365 Marketing for Outbound Marketing.
 
 ## Outbound consent
