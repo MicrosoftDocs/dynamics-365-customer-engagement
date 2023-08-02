@@ -1,6 +1,6 @@
 ---
-title: Customize Customer Service workspace to view the IVR transcripts 
-description: Learn how to Customize Customer Service workspace to view the IVR transcripts
+title: Customize Active conversation to view the IVR transcripts 
+description: Learn how to customize Active Conversation form to view the IVR transcripts
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
@@ -10,9 +10,9 @@ ms.date: 07/29/2023
 ms.custom: bap-template 
 ---
 
-# Customize Customer Service workspace to view Nuance IVR transcripts
+# Customize Active Conversation form to view Nuance IVR bot transcripts
 
-You'll need to customize the Conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
+You'll need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
 
 1.	In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 2.	Select **Tables**, select the **Conversation** table, and then select the **Forms** area.

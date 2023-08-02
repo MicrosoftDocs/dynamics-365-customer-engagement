@@ -2,9 +2,9 @@
 title: Setup Nuance cloud IVR bot integration with voice channel
 description: How-to setup Nuance cloud IVR bot integration with voice channel
 author: gandhamm
-ms.author: ,gandham
+ms.author:gandham
 ms.reviewer: neeranelli
-ms.topic: how-to .
+ms.topic: how-to
 ms.collection: get-started 
 ms.date: 07/27/2023
 ms.custom: bap-template 
@@ -83,9 +83,9 @@ Create a new work classification rule to classify the incoming conversation to m
 
 Perform the following steps:
 
-1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](onfigure-work-classification.md)
+1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
 2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
-3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules).
+3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules.md).
 
 ## View IVR transcripts
 
