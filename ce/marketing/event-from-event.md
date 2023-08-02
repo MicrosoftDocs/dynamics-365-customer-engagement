@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create an event from another event
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can copy your existing event by using the **Save as** command on the toolbar.
 
 This operation will copy most of the entities from your existing event to a new one. The copied entities include:

@@ -17,6 +17,8 @@ search.audienceType:
 
 # Segmentation usage report
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 With the marketing segmentation usage report, you can analyze how segments are used across your marketing activities. The marketing segment usage report shows which segments are used in which marketing activities and helps you identify orphaned segments.
 
 Use the following links to download a template for running the report on your own organization and a sample report filled with sample data.
