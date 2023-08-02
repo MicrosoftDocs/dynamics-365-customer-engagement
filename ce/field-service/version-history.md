@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 07/04/2023
+ms.date: 08/02/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -33,15 +33,15 @@ For information about older versions, see [Version history archive](version-hist
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 ## 8.8.101.48  (2023 Wave 2 early access)
-(Includes Universal Resource Scheduling version [3.12.114.11 ](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11) and Resource Scheduling controls version 1.2.54.232001).
+(Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11) and Resource Scheduling controls version 1.2.54.232001).
 
-- **Maintain customer facilities with enhanced capabilities** : New location types allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
+- **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
 
-- **Expedite service delivery with extended customer details** : Capture manufacturer warranties, tag assets, and note location contact information to give frontline workers a comprehensive view of the asset they need to service, including where it is, if it's covered under warranty, and contacts where it's located.
+- **Expedite service delivery with extended customer details**: [Capture manufacturer warranties, tag assets](warranties.md), and note location contact information to give frontline workers a comprehensive view of the asset they need to service, including where it is, if it's covered under warranty, and contacts where it's located.
 
-- **Manage frontline worker certifications** : Organizations can track insurance, licenses, and certifications for frontline workers via the new insurance table, and enhanced characteristics to ensure they can complete work at the quality customers expect and in compliance with legislation.
+- **Manage frontline worker certifications**: [Organizations can track insurance](insurance.md), licenses, and certifications for frontline workers via the new insurance table, and [enhanced characteristics](set-up-characteristics.md#enhanced-characteristics-preview) to ensure they can complete work at the quality customers expect and in compliance with legislation.
 
-- Booking end times will no longer be updated to the current time upon booking completion.
+- Booking end times no longer get updated to the current time upon booking completion.
 
 
 ## 8.8.96.23
