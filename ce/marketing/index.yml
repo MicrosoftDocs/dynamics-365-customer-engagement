@@ -1,0 +1,131 @@
+### YamlMime:Hub
+
+title: Dynamics 365 Marketing documentation
+summary: Learn how to engage customers in real time, launch journeys based on customer interactions, and use AI to personalize customer experiences.
+brand: dynamics
+
+metadata:
+  title: Dynamics 365 Marketing documentation
+  description: Learn how to engage customers in real time, launch journeys based on customer interactions, and use AI to personalize customer experiences.
+  ms.topic: hub-page
+  author: alfergus
+  ms.author: alfergus
+  ms.date: 08/01/2023
+  ms.custom: bap-template
+  hide_bc: true
+
+highlightedContent:
+
+  items:
+    - title: Welcome to Dynamics 365 Marketing
+      itemType: get-started
+      url: real-time-marketing-overview.md
+    
+    - title: What's new
+      itemType: whats-new
+      url: whats-new-marketing.md
+    
+    - title: Training
+      itemType: training
+      url: /training/browse/?expanded=dynamics-365&resource_type=learning%20path&terms=marketing&products=dynamics-marketing
+    
+    - title: Troubleshoot
+      itemType: concept
+      url: /troubleshoot/dynamics-365/marketing/welcome-marketing
+
+additionalContent:
+  sections:
+  - title: Getting started
+    items: 
+    - title: Try or buy
+      links:
+      - url: trial-signup.md
+        text: Sign up for a free trial
+      - url: marketing-license.md
+        text: Get started with licensing
+      - url: purchase-setup.md
+        text: Purchase
+    - title: Provision and set up
+      links:
+      - url: get-started.md
+        text: Marketing app setup
+      - url: admin-users-licenses-roles.md
+        text: Manage user accounts
+      - url: domain-authentication.md
+        text: Authenticate your domains
+    - title: Administer
+      links:
+      - url: organization-settings.md
+        text: Organization settings
+      - url: admin-best-practices.md
+        text: Admin best practices
+      - url: install-manage-faq.yml
+        text: Environment management FAQ 
+
+  - title: Core functionality
+    items:
+      - title: Email marketing and automation
+        links:
+        - url: real-time-marketing-email.md
+          text: Email marketing overview
+        - url: content-ideas.md
+          text: Use AI to create email content        
+        - url: real-time-marketing-email-get-started.md
+          text: Send a targeted email blast
+      - title: Real-time journeys
+        links:
+        - url: real-time-marketing-trigger-based-journey.md
+          text: Trigger-based journeys
+        - url: real-time-marketing-natural-language.md
+          text: Use AI to create segments
+        - url: real-time-marketing-build-segments.md
+          text: Segment-based journeys
+      - title: Event planning
+        links:
+        - url: event-management.md
+          text: Event planning overview
+        - url: set-up-event.md
+          text: Event setup
+        - url: event-management-dashboard.md
+          text: Manage events
+
+  - title: Personalize and analyze results
+    items:
+      - title: Personalization
+        links:
+        - url: real-time-marketing-personalization.md
+          text: Personalize content
+        - url:  dynamic-email-content.md
+          text: Add dynamic content to email messages
+        - url: real-time-marketing-dynamic-content-multiple-languages.md
+          text: Create dynamic content for multiple countries and languages
+      - title: Marketing forms
+        links:
+        - url: real-time-marketing-form-overview.md
+          text: Forms overview
+        - url: real-time-marketing-form-create.md
+          text: Create forms
+        - url: real-time-marketing-manage-forms.md
+          text: Manage forms
+      - title: Analytics
+        links:
+        - url: real-time-marketing-analytics.md
+          text: Access and interpret analytics
+        - url: real-time-marketing-cross-journey-analytics.md
+          text: Cross-journey analytics
+        - url: real-time-marketing-effectiveness.md
+          text: Marketing effectiveness
+
+  - title: Related products
+    items:
+        # Card
+
+        - title: Dynamics 365 Customer Insights
+          summary: Customer Insights can help you build a deeper understanding of your customers. 
+          url: /dynamics365/customer-insights/overview
+        - title: Dynamics 365 Sales
+          summary: Use Dynamics 365 Sales to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. 
+          url: /dynamics365/sales/overview
+        - title: Microsoft Dataverse
+          summary:  Securely store and manage data that's been used by business applications.
+          url: /power-apps/maker/data-platform/
