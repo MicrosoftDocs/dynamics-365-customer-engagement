@@ -15,6 +15,8 @@ search.audienceType:
 
 # Push notification setup for application developers
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 To enable push notifications in real-time marketing, you need to complete the following steps:
 
 1. [App registration](real-time-marketing-push-notifications.md#create-a-mobile-app-configuration)

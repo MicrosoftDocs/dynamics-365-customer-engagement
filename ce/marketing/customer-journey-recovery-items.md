@@ -15,6 +15,8 @@ search.audienceType:
 
 # Troubleshoot customer journey customization errors
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The Recovery items tab allows system administrators to track customization errors, improving the customer journey workflow creation process. If there are items in the Recovery items tab, non-system admin users will receive a notification that says, "There are work items to recover. Check the recovery items tab."
 
 > [!div class="mx-imgBorder"]

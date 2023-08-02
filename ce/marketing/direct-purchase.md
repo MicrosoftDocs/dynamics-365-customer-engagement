@@ -13,6 +13,8 @@ search.audienceType:
 
 # Purchase a license directly from a trial
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE55wwx]
 
 You can now purchase a Marketing license directly from a Marketing trial. Both tenant admin and non-tenant admins (users), like marketing department heads, can now directly purchase the Marketing environment SKUs (Dynamics 365 Marketing App, Dynamics 365 Marketing Attach, Additional Production Environment, and Additional Non-Production Environment) and convert the trial environment to a paid, production environment in one streamlined workflow.

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Set up automatic lead generation and scoring
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
 A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, Dynamics 365 Marketing scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.

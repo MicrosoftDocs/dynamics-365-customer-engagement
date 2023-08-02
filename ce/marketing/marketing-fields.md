@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create and manage input fields for use in forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Each field that appears in a marketing form must map unambiguously to a contact or lead field in your Dynamics 365 database, where values submitted for that field will be stored. When you're designing a form, the **Toolbox** tab of the designer lists a design element for each field that is already set up, so all you need to do to add that field is drag the matching field element to your form (see also [Design your digital content](design-digital-content.md)). The most commonly used fields (such as name, address, and email) are set up by default, but if you want to use additional fields, you must set them up first. Read this topic to learn how to create and manage fields for use in your marketing forms.
 
 > [!IMPORTANT]

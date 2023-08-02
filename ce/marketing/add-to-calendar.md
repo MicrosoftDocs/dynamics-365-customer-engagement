@@ -13,6 +13,8 @@ search.audienceType:
 
 # Generate iCalendar files for events and sessions
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 For many business people, software-based calendars are an essential organizational tool. When attendees register for an event, they want a way to track not only the date of the event, but what sessions they plan to attend.
 
 The Dynamics 365 Marketing email editor includes the ability to automatically generate personalized iCalendar files to track events and sessions. Using the email editor, you can add a iCalendar file button that is personalized to the email contact. When the contact selects the button, the iCalendar file downloads, allowing the contact to add it to the calendar of their choice.

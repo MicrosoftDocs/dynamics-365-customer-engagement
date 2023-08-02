@@ -16,6 +16,8 @@ search.audienceType:
 
 # Tenant to tenant migration for Dynamics 365 Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Migrating a Marketing environment between tenants requires assistance from our technical support team. To request tenant to tenant migration within the same Azure geographic location (geo), [contact technical support](/power-platform/admin/get-help-support) and submit a support request.
 
 > [!NOTE]
