@@ -1,7 +1,7 @@
 ---
 title: "Search for transcripts in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to search for transcripts and view transcript details in Omnichannel for Customer Service."
-ms.date: 07/31/2023
+ms.date: 08/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

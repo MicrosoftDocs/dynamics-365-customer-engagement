@@ -1,7 +1,7 @@
 ---
 title: "View call recording and transcripts for voice channel | MicrosoftDocs"
 description: "Use this article to learn how to view call recordings and transcripts in Omnichannel for Customer Service."
-ms.date: 07/31/2023
+ms.date: 08/02/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
