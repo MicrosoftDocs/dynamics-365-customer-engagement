@@ -41,6 +41,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/use-copilot-email.md",
+      "redirect_url": "/dynamics365/sales/use-sales-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/view-export-kpi-data-gdpr.md",
       "redirect_url": "/dynamics365/sales/view-export-KPI-data",
       "redirect_document_id": "false"
