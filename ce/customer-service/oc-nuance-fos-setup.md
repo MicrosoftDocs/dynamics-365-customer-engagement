@@ -10,29 +10,25 @@ ms.date: 07/27/2023
 ms.custom: bap-template 
 ---
 
-# Configure phone call telephony layer
+# Integrate Nuance cloud IVR bot with omnichannel
 
-When an agent accepts a call that’s been transferred from the Nuance Cloud IVR bot, the [Customer Summary](oc-customer-summary.md) page displays the complete information about the customer, along with the conversation transcript of the steps taken by the IVR to resolve the customer issue. 
+Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
 
-The app displays an error message if there’s no data or  partial customer data.
+The integration has the following three steps:
 
-Azure Communication Services enables this contextual conversation transfer to happen, between the Nuance IVR bot and theDigital Contact Center Platform.
-
-You need to connect and use the Azure Communication Services to perform the following actions:
-
-- Integrate communications into Digital Contact Center Platform
+- Connect Azure Communication Services to the voice channel.
 - Provision an internal phone number to redirect customer's phone call to the Nuance IVR ports.
-- Route the escalated call from the Nuance Cloud IVR bot to an omnichannel agent.
+- Setup Omnichannel to receive the escalated calls from the Nuance IVR bot.
 
 ## Prerequisites
 
-## Connect to Azure Communication Services to voice channel
+## Connect Azure Communication Services to voice channel
 
 Azure Communication Services allows you to provision phone numbers for customers to reach your business. Follow the steps in [Azure resource to provision phone numbers](voice-channel-acs-resource.md) to provision a new phone number. You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
 ## Connect Azure Communication Services to Nuance Cloud IVR bot
 
-Perform the steps in the following section to acquire an Azure Communication Services number, configure Direct Routing, and set up Azure Function to redirect the customer's call to Nuance Shared Session Border Controller.
+Perform the steps in the following section to acquire an Azure Communication Services number, configure Direct Routing, and set up the Azure Function to redirect the customer's call to Nuance Shared Session Border Controller.
 
 ### Step 1:Configure Azure Communication Services
 
