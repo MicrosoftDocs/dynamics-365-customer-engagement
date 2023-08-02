@@ -1,9 +1,8 @@
 ---
-title: "Authenticate your domains (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to authenticate your domains in Dynamics 365 Marketing."
+title: Authenticate your domains
+description: Learn how to authenticate your domains in Dynamics 365 Marketing.
 ms.date: 06/21/2023
-ms.custom: 
-  - dyn365-marketing
+
 ms.topic: article
 author: alfergus
 ms.author: alfergus

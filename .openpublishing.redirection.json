@@ -4054,11 +4054,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/marketing/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/marketing/help-hub",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/marketing/readme-preview.md",
       "redirect_url": "/dynamics365/customer-engagement/marketing/readme",
       "redirect_document_id": "false"
