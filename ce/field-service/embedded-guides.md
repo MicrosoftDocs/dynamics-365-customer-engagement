@@ -49,7 +49,7 @@ This feature lets you:
 
 1. Select the environment with Guides installed. Guides Mobile starts. If Field Service is installed on the same environment, [navigate to the the Library option in the bottom navigation](access-related-apps-mobile-app.md) to see your guides.
 
-## Turn on usage data collection for Embedded Guides 2D in Field Service Mobile
+## Turn on usage data collection for embedded Guides in Field Service Mobile
 
 Dynamics 365 Guides enables customers to capture usage statistics and detailed time-tracking information. This data is turned off by default, but an admin can turn on data collection for specific users.
 
