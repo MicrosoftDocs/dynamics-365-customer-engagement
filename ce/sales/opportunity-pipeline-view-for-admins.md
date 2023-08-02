@@ -54,7 +54,7 @@ Open the settings page to configure and customize the opportunity pipeline view 
 
 1. Under **General Settings**, select **Opportunity pipeline view**.
 
-        :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
+    :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
 
 ## Set the default form for side panel
 
