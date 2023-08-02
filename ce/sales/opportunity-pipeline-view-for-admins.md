@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 07/26/2023
+ms.date: 08/02/2023
 ms.custom: bap-template 
 ---
 
@@ -51,7 +51,9 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 Open the settings page to configure and customize the opportunity pipeline view experience for your sellers. You'll be accessing the settings page in all the procedures explained in this article.
 
 1. In the Sales Hub Change area, select **App Settings**.
+
 1. Under **General Settings**, select **Opportunity pipeline view**.
+
         :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
 
 ## Set the default form for side panel
