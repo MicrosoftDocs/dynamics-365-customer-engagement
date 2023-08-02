@@ -15,6 +15,8 @@ search.audienceType:
 
 # Set up subscription lists and subscription centers
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization. All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center. Marketing email messages will fail the error check if you try to go live with a message that lacks this link.
 
 There are two reasons for requiring a subscription center link in all marketing email messages:

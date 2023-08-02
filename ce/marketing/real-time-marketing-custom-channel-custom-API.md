@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define custom APIs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## Outbound custom API
 
 Applicable channels: SMS, custom

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Install real-time customer journey orchestration
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for data and AI-powered real-time customer journey orchestration capabilities.
 
 > [!NOTE]

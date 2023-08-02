@@ -16,6 +16,8 @@ search.audienceType:
 
 # Manage your Dynamics 365 Marketing environments
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Environment-management operations are a standard feature of model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Dynamics 365 Marketing, however, adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
 > [!IMPORTANT]

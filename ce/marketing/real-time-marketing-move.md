@@ -13,6 +13,8 @@ search.audienceType:
 
 # Move from outbound to real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there's a dependency on a specific feature or limitation that hasn't yet been addressed in real-time marketing.
 
 Read more about the transition to real-time marketing: [Adapting to evolving customer expectations: staying ahead in the new marketing landscape](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/transition-to-real-time-marketing-and-transform-your-customer-experience/)
