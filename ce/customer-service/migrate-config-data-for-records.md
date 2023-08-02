@@ -68,10 +68,11 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
 
-
 1. Use the Configuration Migration tool to create the schema and export data in source organization for capacity profiles configuration.
 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+
+    The following table summarizes the entities and corresponding FetchXML samples.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
@@ -90,9 +91,10 @@ Use the Configuration Migration tool to create the schema and export data from t
 [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
 If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
-    - Decision rule set
-    - Assignment configuration
-    - Assignment configuration step
+
+- Decision rule set
+- Assignment configuration
+- Assignment configuration step
 
 The assignment rulesets must be available in the system before the Configutation Migration tool imports the selection criteria. Hence, you need to perform the following steps in the specified order to migrate configuration for record queues:
 
@@ -112,6 +114,8 @@ The assignment rulesets must be available in the system before the Configutation
 > - You can't migrate the Calendar item associated with the Operating Hour entity. You'll need to set it correctly after you import the Operating Hour entity into the target environment.
 
 ### Step 1: Export and import rulesets without selection criteria
+
+The following table summarizes the entities and corresponding FetchXML samples.
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
@@ -165,7 +169,7 @@ For sample schema to get all the required records, see [Sample schema for record
 
 ### Step 2: Export and import rulesets with selection criteria defined
 
-The following table summarizes the entities and corresponding FetchXML samples:
+The following table summarizes the entities and corresponding FetchXML samples.
 
 |S. No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
 |-----|---------|---------|---------|
@@ -765,7 +769,8 @@ Before you migrate intake rules, check for the following:
 
    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
-
+    The following table summarizes the entities and corresponding FetchXML samples.
+    
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     |1.|Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration)|<ul><li>Entity (msdyn_entitylogicalname)</li><li>Master Entity Routing Configuration (msdyn_masterentityroutingconfigurationid)</li><li>Name (msdyn_name)</li><li>Rule set (msdyn_rulesetid)</li><li>Unique Name (msdyn_uniquename)</li></ul>|[**Sample 1: Master entity routing configuration for a routed records**](#BKMK1mer-rr) <br> <br>  [**Sample 2: Master entity routing configuration for the incident entity**](#BKMK2mer-incident) <br> <br> [**Sample 3: Master entity routing configuration for the incident and task entities**](#BKMK3mer-incident-task)|
@@ -963,9 +968,9 @@ For sample schema to get all the required records, see [Sample schema for intake
     
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)] 
     
-	> [!NOTE]
-	> Ensure that the workstreams that're referred in the intake rules exist in the target organization or are present as part of the current migration.
-
+	Make sure that the workstreams that're referred in the intake rules exist in the target organization or are present as part of the current migration.
+    
+    The following table summarizes the entities and corresponding FetchXML samples.
 
     | S.No. | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
     |-----|---------|---------|---------|
