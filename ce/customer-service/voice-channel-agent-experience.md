@@ -1,7 +1,7 @@
 ---
 title: Use agent dashboard and call controls in the voice channel
 description: Learn how you can use the agent dashboard, call controls, and make and receive customer calls in Omnichannel for Customer Service.
-ms.date: 07/28/2023
+ms.date: 08/02/2023
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
@@ -48,7 +48,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Link to conversation**: You can link another conversation, case, customer, or knowledge article to the conversation.
 
   > [!NOTE]
-  > The **Link to conversation** button is disabled after you end the voice call. Open account or contact in a new tab and select **Link to conversation** to link record (customer or case) to conversation.
+  > The **Link to conversation** button is disabled after you end the voice call. Open account or contact on a new tab and select **Link to conversation** to link record (customer or case) to conversation.
 
 - **Transcription**: When the transcription and recording service is enabled by your administrator, the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in a call transfer) to see the call history.
 - **Sentiment analysis**: The transcript also powers *live* sentiment analysis. This means that you or your supervisor can instantly view and gauge the customer's mood and feeling via the sentiment icons.
