@@ -26,7 +26,7 @@ As an agent, you communicate with customers to resolve issues. All those convers
 You can now view the details in the **Transcript** section.
 
 > [!NOTE]
-> Users with the System Administrator role can access conversations handled by other agents.
+> Users with the System Administrator role can access conversations that are handled by other agents.
 
 ### See also
 

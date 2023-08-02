@@ -24,7 +24,7 @@ As an agent, you can access the recordings and transcripts for completed calls b
 - Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation that you want to view, and then select the **Open Record** icon.
 
 > [!NOTE]
-> Users with the System Administrator role can access conversations handled by other agents.
+> Users with the System Administrator role can access conversations that are handled by other agents.
 
 ## Call recording and transcript controls
 
