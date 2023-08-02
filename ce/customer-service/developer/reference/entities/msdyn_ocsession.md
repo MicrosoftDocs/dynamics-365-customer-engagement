@@ -1,7 +1,7 @@
 ---
-title: "msdyn_ocsession table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocsession table/entity."
-ms.date: 08/01/2023
+title: "msdyn_ocsession table| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_ocsession table."
+ms.date: 08/02/2023
 ms.service: "powerapps"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -13,7 +13,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# msdyn_ocsession table/entity reference
+# msdyn_ocsession table
 
 Session for interacting with a customer
 
@@ -25,25 +25,20 @@ Session for interacting with a customer
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|Microsoft.Crm.Sdk.Messages.BulkRetainRequest|
 |Create|POST [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest|
-|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|Microsoft.Crm.Sdk.Messages.RetainRequest|
 |Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|Microsoft.Crm.Sdk.Messages.RollbackRetainRequest|
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest|
+|UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -620,7 +615,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier to identify the app to which this conversation belongs to.|
+|Description|Unique identifier to identify the app to which this conversation belogs to.|
 |DisplayName|Channel Instance ID|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -717,11 +712,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_msdyn_queueassignedreason"></a> msdyn_queueassignedreason
 
-**Added by**: Omnichannel Conversation Extension Solution
-
 |Property|Value|
 |--------|-----|
-|Description|Reason for Queue Assignment|
+|Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property)|
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -800,19 +793,15 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_msdyn_sessioncreationreason"></a> msdyn_sessioncreationreason
 
-**Added by**: Omnichannel Conversation Extension Solution
-
 |Property|Value|
 |--------|-----|
-|Description|Reason for session creation|
+|Description|Reason for session creation (This is for internal use only. Customers are advised to not use this property)|
 |DisplayName|Created Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_sessioncreationreason|
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
-
-
 
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 
@@ -1012,7 +1001,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_salessuggestion,msdyn_swarm,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,opportunity,quote,salesorder,site|
+|Targets|account,adx_ad,adx_adplacement,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_salessuggestion,msdyn_swarm,opportunity,quote,salesorder,site|
 |Type|Lookup|
 
 
@@ -1381,6 +1370,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [msdyn_liveworkitemidName](#BKMK_msdyn_liveworkitemidName)
 - [msdyn_primarysessionName](#BKMK_msdyn_primarysessionName)
 - [msdyn_queueidName](#BKMK_msdyn_queueidName)
+- [msft_DataState](#BKMK_msft_DataState)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -1812,6 +1802,29 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msft_DataState"></a> msft_DataState
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|msft_DataState|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msft_datastate|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msft_DataState Choices/Options
+
+|Value|Label|
+|-----|-----|
+|0|Default|
+|1|Retain|
+
+
+
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
 **Added by**: Active Solution Solution
@@ -2119,6 +2132,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 Listed by **SchemaName**.
 
+- [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
+- [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
+
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
 
@@ -2134,6 +2150,21 @@ Same as msdyn_ocsession table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysess
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+
+### <a name="BKMK_msdyn_ocsession_sessionevent_nested"></a> msdyn_ocsession_sessionevent_nested
+
+Same as msdyn_sessionevent table [msdyn_ocsession_sessionevent_nested](msdyn_sessionevent.md#BKMK_msdyn_ocsession_sessionevent_nested) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_sessionevent|
+|ReferencingAttribute|msdyn_omnichannelsession|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_ocsession_sessionevent_nested|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -2146,6 +2177,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 **Added by**: Active Solution Solution
 
 See msdyn_ocsession Table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
+
 
 ### See also
 
