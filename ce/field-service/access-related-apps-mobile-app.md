@@ -1,5 +1,5 @@
 ---
-title: Access related apps form the Field Service mobile app
+title: Access related apps form the Field Service (Dynamics 365) Mobile app
 description: Learn about the related applications and how to access them from the mobile app.
 ms.date: 08/02/2023
 ms.topic: article
@@ -8,11 +8,11 @@ author: josephshum-msft
 ms.author: jshum
 ---
 
-# Access related apps form the Field Service mobile app
+# Access related apps form the Field Service (Dynamics 365) Mobile app
 
 ## IoT data from Connected Field Service
 
-Organizations using Connected Field Service to track their IoT devices find a subset of that information readily available in the mobile app. For more information, see [Connected Field Service for the Field Service (Dynamics 365) mobile app](cfs-mobile-powerapp.md).
+Organizations using Connected Field Service to track their IoT devices find a subset of that information readily available in the mobile app. For more information, see [Connected Field Service for the Field Service (Dynamics 365) Mobile app](cfs-mobile-powerapp.md).
 
 Technicians can view and interact with IoT data and IoT actions like pulling live device data or registering new devices in the mobile app.
 
@@ -28,9 +28,9 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 > [!div class="mx-imgBorder"]
 > ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
-## Embedded Guides in Field Service Mobile (preview)
+## Embedded Guides in Field Service (Dynamics 365) Mobile (preview)
 
-If your organization uses Dynamics 365 Guides, you can use the Field Service Mobile (preview) application to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step. For more information, see [Embed Guides 2D in Field Service Mobile (preview)](embedded-guides.md)
+If your organization uses Dynamics 365 Guides, you can use the Field Service (Dynamics 365) Mobile application to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step. For more information, see [Embedded Guides in Field Service (Dynamics 365) Mobile (preview)](embedded-guides.md)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Guides home page within the Field Service Mobile app](./media/mobile-newux-related-guides-home.png)

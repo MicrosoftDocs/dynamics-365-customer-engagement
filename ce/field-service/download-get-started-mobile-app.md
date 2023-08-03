@@ -10,11 +10,11 @@ ms.author: jshum
 
 # Download the mobile app and get started
 
-Available natively for Apple iOS and Google Android phones and tablets, as well as Windows laptops and tablets, the Field Service (Dynamics 365) mobile app offers technicians the capabilities they need for onsite customer service.
+Available natively for Apple iOS and Google Android phones and tablets, as well as Windows laptops and tablets, the Field Service (Dynamics 365) Mobile app offers technicians the capabilities they need for onsite customer service.
 
 ## Prerequisites
 
-Before technicians can use the mobile app, a system administrator must [set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md) along with users and security roles.
+Before technicians can use the mobile app, a system administrator must [set up the Field Service (Dynamics 365) Mobile app](mobile-power-app-get-started.md) along with users and security roles.
 
 ## Download
 

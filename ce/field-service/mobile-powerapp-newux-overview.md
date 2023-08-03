@@ -1,5 +1,5 @@
 ---
-title: New UX for the Field Service mobile app (preview)
+title: New UX for the Field Service (Dynamics 365) Mobile app (preview)
 description: Learn about the redesigned user experience of Field Service (Dynamics 365) mobile app for managing bookings and work orders.
 ms.date: 07/30/2023
 ms.topic: overview
@@ -8,15 +8,15 @@ author: andrea-orimoto
 ms.author: andreo
 ---
 
-# New UX for the Field Service mobile app (preview)
+# New UX for the Field Service (Dynamics 365) Mobile app (preview)
 
 ## Preview availability
 
-This article contains information about the new user experience features in the Dynamics 365 Field Service mobile app. The improved UX aims to help service technicians swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products.
+This article contains information about the new user experience features in the Field Service (Dynamics 365) Mobile app. The improved UX aims to help service technicians swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products.
 
 Technicians save valuable time for daily work by quickly updating the status of a booking or accessing driving directions to a customer site. They can easily select, change, or complete work order details and also add notes with multiple images.
 
-Detailed information for the immediate task is now readily available with Dynamics 365 Guides embedded in Field Service mobile. [Embedded guides in Field Service mobile](embedded-guides.md) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
+Detailed information for the immediate task is now readily available with embedded Dynamics 365 Guides. [Embedded guides in Field Service (Dynamics 365) Mobile](embedded-guides.md) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
 
 <!--
 > [Add link to video]
@@ -24,7 +24,7 @@ Detailed information for the immediate task is now readily available with Dynami
 
 ## Preview content in the documentation
 
-Once [an administrator enables](#enable-the-preview-features) the preview features, they're available directly in the existing Field Service mobile app from the app stores. Technicians don't need to download a new app and organizations don't need to perform any migration. However, make sure you updated the mobile app to the latest version.
+Once [an administrator enables](#enable-the-preview-features) the preview features, they're available directly in the existing Field Service (Dynamics 365) Mobile app from the app stores. Technicians don't need to download a new app and organizations don't need to perform any migration. However, make sure you updated the mobile app to the latest version.
 
 To learn more about these new features, review documentation articles and find content for preview features alongside the current content in dedicated tabs.
 
@@ -33,13 +33,13 @@ Here's a list of documents that contain specific preview content:
 [Download the mobile app and get started](download-get-started-mobile-app.md)
 [Complete work orders on the mobile app](get-work-done-mobile-app.md)
 [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
-[Embedded Guides in Field Service Mobile (preview)](embedded-guides.md)
+[Embedded Guides in Field Service (Dynamics 365) Mobile (preview)](embedded-guides.md)
 
 ## Enable the preview features
 
 To enable the preview features for your organization, sign in as a **Field Service Administrator** to Dynamics 365 in a web browser. Select the **Field Service Mobile** app from the list of all installed apps in your organizations.
 
-In the Field Service Mobile app, select bottom left menu and change the area to **Settings**. Set the toggle to enable or disable the preview features for all users within the organization.
+In the Field Service (Dynamics 365) Mobile app, select bottom left menu and change the area to **Settings**. Set the toggle to enable or disable the preview features for all users within the organization.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the preview features](./media/mobile-newux-enable-toggle.png)
@@ -58,6 +58,6 @@ During the preview period, there's limited support for this feature and we don't
 
 ## Next steps
 
-- [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
+- [Install and set up the Field Service (Dynamics 365) Mobile app](mobile-power-app-get-started.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

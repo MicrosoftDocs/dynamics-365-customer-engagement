@@ -94,7 +94,7 @@ Take notes directly in the **Timeline** tab. Select **+ Add note** to add text a
 
 Technicians can also view and interact with functional locations and customer asset hierarchies on the mobile app when connected to the internet.
 
-For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
+For a guided walkthrough of functional locations on the Field Service (Dynamics 365) Mobile app, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
@@ -124,7 +124,7 @@ For a guided walkthrough, check out the following video.
 
 ## Create follow-up work orders
 
-While working on site, you may want to log work for another time. The Field Service (Dynamics 365) mobile app makes it easy to create follow-up work orders.
+While working on site, you may want to log work for another time. The Field Service (Dynamics 365) Mobile app makes it easy to create follow-up work orders.
 
 For a guided walkthrough, check out the following video.
 
@@ -147,6 +147,5 @@ The following fields are already filled in based on the current work order:
 - Transaction Currency ID
 
 Once the technician saves the work order, it's uploaded and available for booking to the dispatcher.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
