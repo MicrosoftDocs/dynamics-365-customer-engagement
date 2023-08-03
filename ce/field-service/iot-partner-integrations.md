@@ -1,7 +1,7 @@
 ---
 title: IoT partner integrations
 description: Learn how Field Service integrates with IoT-enabled devices from IoT vendors to extend functionality and enhance field service operations.
-ms.date: 07/27/2023
+ms.date: 08/03/2023
 ms.topic: conceptual
 ms.subservice: connected-field-service
 author: MSKeith
@@ -10,20 +10,38 @@ ms.author: keith
 
 # IoT partner integrations
 
-Dynamics 365 Field Service is designed to streamline and optimize field service operations for organizations. One of the key strengths of Field Service is the ability to integrate with partner solutions, enabling organizations to extend functionality and enhance their field service operations. Integrations enable businesses to use specialized tools, technologies, and industry-specific applications to meet their unique needs.
+Dynamics 365 Field Service offers a seamless integration capability with IoT-enabled devices from various IoT vendors with its [IoT provider feature](cfs-custom-iot-provider.md). This article lists partners who have successfully integrated their IoT solutions with Dynamics 365 Field Service. Customers can connect to these partner solutions to their existing Field Service implementation.
 
-Field Service allows seamless integration with IoT-enabled devices from any IoT vendor through [custom IoT providers](cfs-custom-iot-provider.md).
+## Main benefits of integrated solutions
 
-This page highlights partners that have integrated their IoT solutions with Field Service. Customers can connect these partner solutions to their Field Service implementation. Connecting the solutions enables alignment of assets between the two solutions. Configure IoT alerts or receive work orders from the partner solution directly in Field Service.  
+- **Enhanced asset management**: Through the alignment of assets between Field Service and IoT solutions, businesses gain comprehensive visibility and control over their equipment and devices. Real-time asset tracking and monitoring leads to more efficient asset management practices.
 
-Integrations also enable seamless sharing of critical insights like equipment health and faults within Field Service. They empower frontline workers to make informed decisions based on device data when providing services and repairs.
+- **Proactive maintenance and issue resolution**: Receive IoT alerts in Field Service from connected devices to enable proactive maintenance. Potential issues could be identified in advance, which reduces downtime and minimizes costly breakdowns.
 
-The following partners have integrated their IoT solutions with Field Service.
+- **Optimized workflows**: With IoT alerts seamlessly flowing into Field Service, you can automate the dispatch process of cases or work orders to ensure faster response times and better service delivery.
 
-|Partner  |Description |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
+- **Data-driven decision making**: The combination of IoT data and field service information empowers organizations to make data-driven decisions.
+
+- **Customer satisfaction**: Using IoT data to improve service delivery, businesses can enhance customer experiences. Faster response times, proactive maintenance, and reduced downtime lead to higher customer satisfaction and loyalty.
+
+## IoT partners
+
+The following partners offer IoT solutions that integrate seamlessly with Field Service.
+
+### Iconics
+
+Iconics CFSWorX is a powerful solution for facilities management, offering efficient management of building systems, equipment, and assets. When integrated with Dynamics 365 Field Service, it combines field service management with facilities management. This seamless integration streamlines coordination of field service technicians and resources to optimize maintenance processes and improve operational efficiency. The combined solution provides real-time insights, data-driven decision-making, and proactive maintenance strategies, which result in extended asset lifespan, higher customer satisfaction, and improved resource utilization.
+
+<!--
+Learn more about Iconics CFSWorX and its integration with Dynamics 365 Field Service.
+-->
+
+### Willow
+
+Willow offers a cutting-edge solution for the built world through their digital twin platform. By integrating Willow's digital twin platform with Dynamics 365 Field Service, organizations can transform their facilities management and field service operations. The combination of real-time data insights and bidirectional data sync enables efficient building and facilities management, optimized scheduling, and proactive maintenance strategies. This integration promotes collaboration and sustainability, leading to enhanced user experiences, improved asset performance, and overall business success in the built environment.
+
+<!--
+Learn more about Willow's integration with Dynamics 365 Field Service.
+-->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
