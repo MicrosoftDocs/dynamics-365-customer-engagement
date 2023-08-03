@@ -77,7 +77,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 ## [New mobile UX (preview)](#tab/vNext)
 
-Take notes directly in the **Timeline** tab. Select **+ Add note** to add text and images to your note.
+On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this Booking's timeline on both Field Service Mobile app and Field Service on the browser. There are two ways to add images: (1) add a single image by selecting file attachment button, or (2) add multiple images in the message body by selecting the image icon and then select multiple files in the system file picker at same time. Images added here takes advantage of Image optimization to conserve storage space.
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
