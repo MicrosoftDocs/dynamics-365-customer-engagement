@@ -1,9 +1,7 @@
 ---
 title: Migrate consent records to real-time marketing
 description: Learn how to migrate existing consent records to real-time marketing from outbound marketing and other sources.
-ms.date: 07/01/2023
-ms.custom: 
-  - dyn365-marketing
+ms.date: 08/03/2023
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
@@ -97,12 +95,12 @@ If you have set up a subscription list to track individuals who don't wish to be
 > If you restore data in real-time marketing, all consent records will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
 
 > [!TIP]
-> To migrate consent data a user need to have local access permissions to:
-> * Read contact, lead, and subscription list records
-> * Create contact point consent records
-> * Update contact point consent records
+> To migrate consent data, you need to have local access permissions to:
+> - Read contact, lead, and subscription list records
+> - Create contact point consent records
+> - Update contact point consent records
 > 
-> For more information on security roles, visit [Security roles and privileges](https://learn.microsoft.com/dynamics365/customerengagement/on-premises/admin/security-roles-privileges?view=op-9-1#security-roles)
+> For more information on security roles, visit [Security roles and privileges]/dynamics365/customerengagement/on-premises/admin/security-roles-privileges?view=op-9-1#security-roles)
 
 ### See also
 
