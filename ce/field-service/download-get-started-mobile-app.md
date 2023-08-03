@@ -43,13 +43,17 @@ In the footer, select **More** > **Show as** > **Read-only Grid** to see the boo
 
 ## [New mobile UX (preview)](#tab/vNext)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 The home screen shows today's scheduled work orders for the signed in user.
 
 You can filter the list by work order status at the top of the booking list.
 
 You can also sort the list by various dimensions (Account, Incident type, Time, Duration) by selecting **Sort by** on the top right of the list.
 
-The menu at the bottom allows for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md#embedded-guides-in-field-service-mobile-preview) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
+The menu at the bottom allows for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md#embedded-guides-in-field-service-dynamics-365-mobile-preview) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
 
 Select the profile picture in the header to access settings, provide feedback, and change the environment.
 
@@ -73,6 +77,10 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 > ![Two mobile devices showing the Field Service (Dynamics 365) mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
 ## [New mobile UX (preview)](#tab/vNext)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 To access the app navigation in the new mobile UX (preview), select "More..." in the bottom right. All items in sitemap open the corresponding screens in the Unified Interface UX.
 

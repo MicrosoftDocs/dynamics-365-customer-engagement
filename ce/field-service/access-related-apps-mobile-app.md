@@ -30,6 +30,10 @@ Organizations using Dynamics 365 Remote Assist have a deep link from the work or
 
 ## Embedded Guides in Field Service (Dynamics 365) Mobile (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 If your organization uses Dynamics 365 Guides, you can use the Field Service (Dynamics 365) Mobile application to access guides from mobile devices. If Guides uses the same environment as Field Service, users find a **Library** option at the bottom of the app. Select it to access your organization's guides library, search for specific guides, and follow them step by step. For more information, see [Embedded Guides in Field Service (Dynamics 365) Mobile (preview)](embedded-guides.md)
 
 > [!div class="mx-imgBorder"]

@@ -30,6 +30,10 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [New mobile UX (preview)](#tab/vNext)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 Change the status of a booking to **Traveling** directly from the booking home page. Swipe the booking from left to right or by tap on the booking's contextual menu to access its quick actions and set the status. You can also open the booking and tap **Edit status** on the **General** tab.
 
 > [!div class="mx-imgBorder"]
@@ -54,6 +58,10 @@ On the **Service tab**, you see work order details like work order service tasks
 
 ## [New mobile UX (preview)](#tab/vNext)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div]
@@ -76,6 +84,10 @@ The **Timeline** tab is available for other historical data related to the booki
 > Notes taken in the Field Service mobile app are stored in the `msdyn_bookableresourcebookingquicknotes` table. The default **Field Service - Resource** security role includes permissions to this table. If your app users do not have the out-of-the-box **Field Service - Resource** security role, you may have to include access to this table for these users. Follow the best practices described in the [Field Service security roles documentation](view-user-accounts-security-roles.md#q--a) to make sure your app users have access to this table.
 
 ## [New mobile UX (preview)](#tab/vNext)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 Take notes directly in the **Timeline** tab. Select **+ Add note** to add text and images to your note.
 

@@ -11,6 +11,10 @@ ms.custom: bap-template
 
 # Embedded Guides in Field Service (Dynamics 365) Mobile (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 With embedded Guides (preview), you can create and view Dynamics 365 Guides on your mobile device. The application lets users create and manage interactive instructions that help perform tasks in the real world. You can now use your phone or tablet to create, edit, and view guides.
 
 This feature lets you:
