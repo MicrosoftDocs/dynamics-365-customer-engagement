@@ -60,8 +60,6 @@ On the **Service tab**, you see work order details like work order service tasks
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div]
@@ -86,8 +84,6 @@ The **Timeline** tab is available for other historical data related to the booki
 ## [New mobile UX (preview)](#tab/vNext)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 Take notes directly in the **Timeline** tab. Select **+ Add note** to add text and images to your note.
 
