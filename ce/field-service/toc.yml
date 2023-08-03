@@ -239,9 +239,20 @@ items:
   items:
     - name: Overview
       href: mobile-power-app-overview.md
+    - name: New mobile UX (preview)
+      href: mobile-powerapp-newux-overview.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
+      items:
+      - name: Download and get started
+        href: download-get-started-mobile-app.md
+      - name: Get work done
+        href: get-work-done-mobile-app.md
+      - name: Work offline
+        href: work-offline-mobile-app.md
+      - name: Access related applications
+        href: access-related-apps-mobile-app.md
       href: mobile-power-app-use.md
     - name: Booking maps
       href: mobile-powerapp-booking-maps.md
@@ -265,6 +276,8 @@ items:
       href: mobile-power-utilize-platform.md
     - name: IoT signals on mobile
       href: cfs-mobile-powerapp.md
+    - name: Embedded Dynamics 365 Guides
+      href: embedded-guides.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
