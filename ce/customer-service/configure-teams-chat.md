@@ -32,7 +32,7 @@ When Teams chat is enabled, the app has the following permissions:
 |User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This permission is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
 
-In order to use Teams chat in multisession environments, users must have the same permissions as available in the **Productivity tools user** role. 
+In order to use Teams chat in multisession environments, users must have the same permissions as those in the **Productivity tools user** role. 
 
 Users need read permission for the following entities to access the productivity pane for custom roles:
 
@@ -77,7 +77,7 @@ The following data security and privacy considerations apply for Teams chat func
 ### Access the Teams settings
 
 > [!NOTE]
-> For new organizations, the Teams settings are enabled by default for the Customer Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
+> Teams settings are enabled by default for the Customer Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
 
 1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
