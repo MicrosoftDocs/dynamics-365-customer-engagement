@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 07/27/2023
+ms.date: 08/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,9 @@ searchScope:
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
+
+> [!NOTE]
+> Modern **Automatic record creation and update rules** isn't supported on on-premises environments.
 
 ## Set up rules for creating or updating records automatically
 
