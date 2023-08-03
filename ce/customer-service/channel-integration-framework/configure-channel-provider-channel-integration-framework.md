@@ -3,7 +3,7 @@ title: "Configure channel providers for your Dynamics 365 organization | Microso
 description: "Use this topic to understand how to configure channel providers in Dynamics 365 Channel Integration Framework 1.0."
 author: gandhamm
 ms.author: mgandham
-ms.date: 08/02/2023
+ms.date: 08/04/2023
 ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
@@ -40,7 +40,7 @@ searchScope:
   |API Version|The version of the Channel Integration Framework APIs.|
   |Trusted Domain| An additional domain if the initial landing URL and the final domain from which the communication widget is hosted are different. Add the domain (URL) to access the Channel Integration Framework APIs. |
   |Select Unified Interface Apps for the Channel| The list of Unified Interface apps where the channel is displayed for the agents. |
-  |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**Important:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**Note:** <br>  The channel supports individual role assignment only.|
+  |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**IMPORTANT:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**NOTE:** <br>  The channel supports individual role assignment only.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
   
   ![Channel provider configuration.](media/channel-provider-configuration-v1.PNG "Channel provider configuration")
