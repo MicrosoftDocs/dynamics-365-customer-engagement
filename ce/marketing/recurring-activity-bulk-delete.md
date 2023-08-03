@@ -17,6 +17,8 @@ search.audienceType:
 
 # Recurring activity bulk deletion in Dynamics 365 Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## What is msdyncrm_mktactivity?
 
 The **Marketing Activity** entity (msdyncrm_mktactivity) is used by Marketing Services to send system updates. Each activity is processed by the Marketing data plugin (Microsoft.Dynamics.Crm.MarketingPlugins.Plugins.Data), which then executes the designated action.

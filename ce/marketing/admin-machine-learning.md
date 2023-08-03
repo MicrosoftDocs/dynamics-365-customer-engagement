@@ -17,6 +17,8 @@ search.audienceType:
 
 # Enable and configure artificial intelligence features
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing provides several artificial intelligence (AI), which include:
 
 - **[Spam checker](spam-checker.md)**, which analyzes the content of each marketing email message and generates a score that predicts how likely it is to be flagged by content-based spam filters.

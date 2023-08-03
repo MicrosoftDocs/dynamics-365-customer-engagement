@@ -1,9 +1,7 @@
 ---
 title: Create and design a marketing email message
 description: Learn how to create and design a marketing email message in Dynamics 365 Marketing.
-ms.date: 04/18/2023
-ms.custom: 
-  - dyn365-marketing
+ms.date: 07/28/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -15,12 +13,14 @@ search.audienceType:
 
 # Create a new email and design its content
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Read this article to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing.
 
 For a step-by-step tutorial on how to create and send your first marketing email message, see also [Create a marketing email and go live](create-marketing-email.md)
 
 > [!IMPORTANT]
-> As of April 2023, the following fields have been relocated from the right pane to the header area: From Name, From Address, Subject, and Pre-header. This change allows for easier access and editing of these fields.
+> As of April 2023, the following fields have been relocated from the right pane to the canvas: From Name, From Address, Subject, and Pre-header. This change allows for easier access and editing of these fields.
 >
 > If you have customized these fields on the "Email Properties" form, you should copy the customization to the new "Email Header" form (real-time marketing form ID: 08732368-3f74-426e-9f96-595fbd6867e9, outbound form ID: e21ed42d-aa03-40b5-8dd8-57207fea78ba). Customizations may include handlers that control the visibility of these fields or react to changes in these fields.
 >
@@ -102,6 +102,8 @@ The email content designer resembles the other [digital content designers](desig
 - When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in Microsoft Word. It also includes a **Personalization** button ![Personalization button](media/personalization-button.png "Personalization button"), which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#personalization)
 - To resize an image, divider, or button, click to select the element. You will see small circles on the corners and sides of the element. Select a circle and drag to resize.
 - Use the **HTML** button ![HTML button.](media/html-button2.png "HTML button") to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic).
+    > [!TIP]
+    > Microsoft doesn't provide support for custom HTML in emails.
 
 More information: [Design your digital content](design-digital-content.md)
 

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Best practices for administration
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing is a marketing-automation app that helps turn prospects into business relationships. The app is easy to use, works seamlessly with Dynamics 365 Sales, and has built-in business intelligence.
 
 Marketing is built on top of the Dynamics 365 platform. Environment-management operations are a standard feature of model-driven Dynamics 365 apps (Sales, Customer Service, Field Service, Marketing, and Project Service Automation). Marketing, however, has additional considerations to keep in mind.

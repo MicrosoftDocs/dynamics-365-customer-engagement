@@ -1,7 +1,7 @@
 ---
 title: Manage user accounts, user licenses, and security roles
 description: How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing.
-ms.date: 07/06/2023
+ms.date: 07/25/2023
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -15,6 +15,8 @@ search.audienceType:
 ---
 
 # Manage user accounts, user licenses, and security roles
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
@@ -94,12 +96,11 @@ To apply security roles to users, and to customize each role, do the following:
 
 <a name="inspect-roles"></a>
 
-## Inspect and customize security roles
+## Inspect and create customized copies of security roles
 
 All model-driven apps in Dynamics 365 come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific security roles. Each of these roles is given a name that indicates the type of user who should be assigned the role.
 
-> [!IMPORTANT]
-> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
+### Inspect security roles
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
@@ -120,6 +121,21 @@ Here are a few notes for working with the **Security role** settings:
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
 Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+
+### Create a copy of a role
+
+> [!IMPORTANT]
+> Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are updated to the latest versions to ensure that each role receives permissions to access the new features added by the update. You cannot customize the out-of-box roles. If you need custom security roles, start by creating a copy of an existing role that is close to what you want and then customize the copy. If you use custom security roles, you'll need to update your custom roles after each app update to grant access to new entities.
+
+To create a copy of a role:
+
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. The advanced-settings area opens in a new browser tab. This area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. Select the **Security roles** icon.
+1. Enable the check box next to the role you want to copy, then open the **More Actions** dropdown in the Security Roles toolbar and select **Copy Role...**.
+
+> [!div class="mx-imgBorder"]
+> ![Copy security role](media/copy-role.png "Copy security role") 
 
 ## Special permissions for marketing pages and assist edit
 
@@ -149,7 +165,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 In addition to the entity-level security set directly on each security role, you can also control access to specific forms and/or fields. These work as follows:
 
 - *Form-level security* restricts access to specific forms, so even if a user has a security role that grants access to a given entity (such as customer journeys), that user might not be able to access some of the forms of that entity (such as the insights) unless they have one of the additional roles required by that form. Most of the entities added by Dynamics 365 Marketing don't include any form-level security out of the box, so users that can access these entities can also access all the forms that belong to them, though some exceptions exist (including insights forms for some entities).
-- *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that from could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this article.
+- *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that form could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this article.
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 

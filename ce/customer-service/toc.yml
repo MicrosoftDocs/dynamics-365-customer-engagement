@@ -216,7 +216,7 @@
           href: provision-unified-routing.md
         - name: Set up unified routing for records
           href: set-up-record-routing.md
-        - name: Enable entities for queues in unified routing
+        - name: Enable tables for queues in unified routing
           href: enable-entities-for-queues.md
         - name: Automatically route records using custom flow
           href: routing-trigger-automatic.md
@@ -330,8 +330,6 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
-      - name: Enable search control for subjects
-        href: search-control-for-subjects.md
       - name: Remove validation on contact and customer for cases
         href: remove-validation-contact.md
   - name: Automatically create or update records
@@ -440,12 +438,18 @@
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
-    - name: Configure timeline
-      href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
-    - name: Use timeline
-      href: /powerapps/user/add-activities
-    - name: FAQ about Activities and the Timeline Wall
-      href: /powerapps/user/faq-for-timeline-and-activity
+    - name: Administrator experience
+      items:
+      - name: Configure timeline
+        href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
+      - name: Turn on linking of timeline notes with other table records
+        href: link-note-to-entity.md  
+    - name: Agent experience
+      items:
+      - name: Use timeline
+        href: /powerapps/user/add-activities
+      - name: Learn about linking timeline notes with table records
+        href: link-note-to-entity-task.md  
   - name: Knowledge management
     items:
     - name: Overview of knowledge management 
@@ -620,6 +624,16 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Integrate Nuance Gatekeeper (preview)
+        items:
+        - name: Overview of Nuance Gatekeeper Integration
+          href: nuance-gatekeeper-introduction.md
+        - name: Configure contact center for Nuance Gatekeeper
+          href: configure-contact-center-nuance-gatekeeper.md
+        - name: Add authentication setting for Nuance Gatekeeper
+          href: configure-gatekeeper-authentication.md
+        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
+          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
@@ -1865,7 +1879,9 @@
     - name: FAQ about custom time calculation of SLA KPIs
       href: faqs-custom-time-sla-kpis.md
     - name: FAQ about the voice channel
-      href: voice-channel-faqs.md
+      href: voice-channel-faqs.md  
+    - name: FAQ about Activities and the Timeline Wall
+      href: /powerapps/user/faq-for-timeline-and-activity
     - name: FAQ about adding users to agent experience profile
       href: ../app-profile-manager/faq-agent-experience-profile.md
     - name: FAQ about setting up Teams chat

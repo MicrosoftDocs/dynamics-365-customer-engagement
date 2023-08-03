@@ -41,6 +41,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/use-copilot-email.md",
+      "redirect_url": "/dynamics365/sales/use-sales-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/view-export-kpi-data-gdpr.md",
       "redirect_url": "/dynamics365/sales/view-export-KPI-data",
       "redirect_document_id": "false"
@@ -4046,11 +4051,6 @@
     {
       "source_path": "ce/live-assist/index.md",
       "redirect_url": "/dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/marketing/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/marketing/help-hub",
       "redirect_document_id": "false"
     },
     {
@@ -25371,6 +25371,11 @@
     {
       "source_path": "ce/marketing/teams-webinar-follow-up.md",
       "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/search-control-for-subjects.md",
+      "redirect_url": "/dynamics365/customer-service/create-manage-subject-tree",
       "redirect_document_id": "false"
     }
   ]

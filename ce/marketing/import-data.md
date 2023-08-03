@@ -16,6 +16,8 @@ search.audienceType:
 
 # Import data and control how duplicate records are identified
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 
 Dynamics 365 processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).

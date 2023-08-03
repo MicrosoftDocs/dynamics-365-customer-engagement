@@ -15,6 +15,8 @@ search.audienceType:
 
 # Raise triggers from a journey to run another journey or Power Automate flow
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Based on the unique needs of your business, you may want to trigger custom processes or Power Automate flows at certain points in a customer journey. Or, you might want to create multiple journeys that logically function together. Triggering custom actions allows you to accomplish these tasks, working as the glue between journeys, or between journeys and custom processes.
 
 Here are some examples of where you might trigger custom actions:

@@ -1,9 +1,8 @@
 ---
 title: Manually add a custom channel
 description: Learn how to manually add a custom outreach channel in Dynamics 365 Marketing.
-ms.date: 02/06/2023
+ms.date: 07/27/2023
 ms.custom: 
-  - dyn365-marketing
   - bap-template
 ms.topic: overview
 author: alfergus
@@ -15,6 +14,8 @@ search.audienceType:
 ---
 
 # Manually add a custom channel
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Dynamics 365 Marketing supports **Email**, **Push**, and **SMS** channels natively. To use a type of channel or an SMS provider that isn't supported natively, you can [install a custom channel](real-time-marketing-create-custom-channels.md). If the channel isn't already provided in AppSource, you can create and install it manually.
 
@@ -53,7 +54,7 @@ The following table describes the implementation requirements for SMS and custom
 The following samples include unpacked solutions for Dataverse and plugins projects. To pack and import the solutions, first build the plugin project. The project copies the assembly to the solution project. Then, pack the solution using the [Solution Packager tool](/power-platform/alm/solution-packager-tool).
 
 - [SampleSmsChannel.zip](https://download.microsoft.com/download/c/c/6/cc6fed59-f95a-4577-aed5-49daa62b1f66/SampleSmsChannel-2022.12.zip)
-- [SampleCustomChannel.zip](https://download.microsoft.com/download/5/8/6/586e2d47-ac82-48e9-9cc4-066c141e0649/SampleCustomChannel-2022.12.zip)
+- [SampleCustomChannel.zip](https://download.microsoft.com/download/0/e/6/0e669f80-c626-4df9-b181-3c14cb9bc4a7/SampleCustomChannel.zip)
 
 ### How to build the plugins project and pack the solution
 
