@@ -91,8 +91,10 @@ items:
 
 - name: Copilot in Field Service
   items: 
-    - name: Work order recap with Copilot
+    - name: Work order recap with copilot
       href: work-order-recap.md
+    - name: Work order creation in Outlook with copilot
+      href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview
 
 - name: Work orders
   items:
