@@ -1,7 +1,7 @@
 ---
 title: Compliance overview
 description: Learn how to manage compliance settings in Dynamics 365 Marketing.
-ms.date: 05/08/2023
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # Manage user compliance settings
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 > [!IMPORTANT]
 > This article applies to real-time marketing *and* outbound marketing.
@@ -32,7 +34,7 @@ In outbound marketing, consent is captured and stored on the Contact entity in f
 
 Compliance profiles are the hubs to manage consent and compliance in Dynamics 365 Marketing. Compliance profiles govern how consent is captured and enforced. Compliance profiles store information such as company address, the preference management experience, and related configuration. Compliance profile settings vary based on the type of compliance profile you're creating or modifying.  
 
-Learn more: [Compliance profiles](real-time-marketing-compliance-settings-preview.md#compliance-profiles).  
+Learn more: [Compliance profiles](real-time-marketing-compliance-settings.md#compliance-profiles).  
 
 ## User contact preferences
 
@@ -62,8 +64,8 @@ Learn more: [Real-time marketing preference pages](real-time-marketing-complianc
 
 ### See also
 
-[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings-preview.md)
-[Work with data protection and GDPR](gdpr.md)  
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
 [Use GDPR features](gdpr-use-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Deploy pages that contain real-time marketing forms
-description: Learn how real-time marketing forms are deployed on Power Pages and other destinations
+description: Learn how real-time marketing forms are deployed on Power Pages and other destinations.
 ms.date: 07/05/2023
 ms.custom: 
   - dyn365-marketing
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # Deploy pages that contain real-time marketing forms
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Once you've [created a form](real-time-marketing-form-create.md) in real-time marketing, you need to publish it in a place where customers can access it. This article discusses the various hosting options for real-time marketing forms.
 

@@ -1,9 +1,7 @@
 ---
-title: "Edit a live journey in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to edit and update live journeys in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 10/05/2022
-ms.custom: 
-  - dyn365-marketing
+title: Edit a live journey in real-time marketing
+description: Learn how to edit and update live journeys in the real-time marketing area of Dynamics 365 Marketing.
+ms.date: 07/27/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -14,6 +12,8 @@ search.audienceType:
 ---
 
 # Edit a live journey in real-time marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 You can make lightweight edits to journeys, such as renaming elements or adjusting goal percentages, without stopping them. You can also make major changes with real-time marketing's built-in journey version control feature. These features give you the flexibility to make edits on the fly, without concern about breaking or being unable to revert a journey.
 

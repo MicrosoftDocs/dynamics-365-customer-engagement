@@ -15,6 +15,8 @@ search.audienceType:
 
 # Receiving notifications and creating interactions
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Notifications received from Dynamics 365 Marketing have an additional payload containing links and a **trackingId** for interaction event creation.
 
 > [!IMPORTANT]

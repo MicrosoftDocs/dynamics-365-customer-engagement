@@ -1,10 +1,7 @@
 ---
-title: "Test custom triggers before using them (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to test custom triggers before using them in real-time journeys in Dynamics 365 Marketing."
+title: Test custom triggers before using them
+description: Learn how to test custom triggers before using them in real-time journeys in Dynamics 365 Marketing.
 ms.date: 10/06/2022
-ms.custom: 
-  - dyn365-admin
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -15,6 +12,8 @@ search.audienceType:
 ---
 
 # Test custom triggers before using them
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Testing custom triggers before using them in a journey about to be published is the safest way to ensure that your expectations meet your customers' reality. The test-send feature allows you to be confident in the quality and behavior of your custom triggers before you send them out to your audience.
 

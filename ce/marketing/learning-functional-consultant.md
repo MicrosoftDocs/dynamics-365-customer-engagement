@@ -14,6 +14,9 @@ search.audienceType:
 ---
 
 # Dynamics 365 Marketing functional consultants learning catalog
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Are you an implementation expert for a business domain?
 
 The following catalog is organized from core knowledge to specific domains, and from most basic to most advanced. If content exists in multiple formats, we'll let you know, so that you can choose the training format that best meets your needs.

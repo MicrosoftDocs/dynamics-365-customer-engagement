@@ -17,6 +17,8 @@ search.audienceType:
 
 # Best practices for email marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Sending marketing email isn't the same as sending personal email as most people know it. They might seem similar, but there's an important difference: personal emails get delivered to just one or a few people, whereas marketing emails get delivered to many thousands or more every month.
 
 In response to various email abuses, such as widely targeted spam and scams, most companies and email providers now implement filtering and blocking mechanisms to defend their bandwidth and keep their users' inboxes clean. So, when somebody begins sending a large volume of email, the internet takes notice and defensive mechanisms might begin to kick in, which might result in keeping your messages out of your contacts' inboxes. Individual email clients also apply their own filtering algorithms that, among other things, can filter based on each user's personal history of interactions, which can mean that an identical message that gets delivered to one recipient could get blocked by another recipient's email client.

@@ -1,8 +1,7 @@
 ---
-title: "Event invitations, registrations, and hotel bookings (Dynamics 365 Marketing) | Microsoft Docs"
-description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 Marketing."
-ms.date: 12/17/2018
-
+title: Event invitations, registrations, and hotel bookings
+description: After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 Marketing.
+ms.date: 07/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -16,13 +15,15 @@ search.audienceType:
 
 # Invite, register, and house event attendees
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 After your event is fully modeled in Dynamics 365 Marketing, you're ready to start promoting it. The system provides many tools to help you do this.
 
 ## Invite contacts to your events
 
 After your event is planned and set up, it's time to start promoting it! Dynamics 365 Marketing provides several tools to help you do this:
 
-- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event website. More information: [Email marketing overview](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
+- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event website. More information: [Email marketing overview](prepare-marketing-emails.md)
 - Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 - Create banners and social media posts to promote your event. Include a link to your event website in each post, and use the Dynamics 365 Marketing redirect-URL feature to create short URLs that register clicks with Dynamics 365 Marketing and instantly forward contacts to your event website. You could create a different redirect URL for each social-media site, banner, or message, which would enable you to collect separate click results for each URL, so you can evaluate the success of each channel or initiative. More information: [Set up redirect URLs](register-engagement.md#set-up-redirect-urls)
 
@@ -34,7 +35,7 @@ The [event website](set-up-event-portal.md) enables contacts to register themsel
 
 Dynamics 365 Marketing users can also register attendees manually by creating event registrations, session registrations, and pass assignments directly in the app. This lets you provide phone-based registration, for example. Manual registrations also enable users to bypass the [Waitlists](event-waitlist.md) if needed.
 
-Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can embed in a registration-confirmation email sent to each registrant (see also [Event registration QR code elements](content-blocks-reference.md#qr-code)). You'll also find the QR code embedded in each registration record so you can use it in other contexts, such as to print badges to be handed out at the event. 
+Each registration results in an event-registration record, which pulls together a registrant's profile, their passes, the sessions they'll attend, and, eventually, the sessions they did attend. Each registration record has a unique ID, which the system encodes into a QR code that you can embed in a registration-confirmation email sent to each registrant. You'll also find the QR code embedded in each registration record so you can use it in other contexts, such as to print badges to be handed out at the event.
 
 At the event, event organizers can scan the QR code presented by each attendee to capture the registration ID, which can then be used to verify the registration and/or register attendance at each event or session. The QR code provides only a registration ID, so event organizers must do some custom development to implement the verification, check-in, and registration features they need. One way to do this could be by creating a custom smartphone app.
 
@@ -58,11 +59,9 @@ More information: [Manage attendee logistics and accommodation availability](man
 ### See also
 
 [Email marketing overview](prepare-marketing-emails.md)  
-[Event elements](content-blocks-reference.md#event-elements)  
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Set up the event website](set-up-event-portal.md)  
 [Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,6 +14,8 @@ search.audienceType:
 
 # Power Apps portal hosted
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Before you start hosting a custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Power Apps portal hosted web application when you install the Event Management solution.
 
 The frontend part of the application is bundled into two resource files that are stored as Power Apps portal [web files](/dynamics365/customer-engagement/portals/web-files). The main single page application entry-point is stored as Power Apps portal [web template](/dynamics365/customer-engagement/portals/store-content-web-templates).
