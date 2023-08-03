@@ -16,4 +16,7 @@ ms.reviewer: m-hartmann
 
 [!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
 
-- [Work order recap with Copilot in Field Service](work-order-recap.md)
+- [Work order recap with Copilot in Field Service (preview)](work-order-recap.md)
+- [Outlook work order creation (preview)](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
