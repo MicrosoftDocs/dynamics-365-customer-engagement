@@ -32,6 +32,8 @@ items:
           href: field-service-version-history-resource-scheduling-optimization.md
         - name: Version history archive
           href: version-history-archive.md
+        - name: Microsoft 365 integrations for Field Service (preview)
+          href: flw-whats-new.md
     - name: Deprecations
       href: deprecations-field-service.md
 
@@ -87,16 +89,27 @@ items:
     - name: Knowledge articles
       href: field-service-knowledge-management.md
 
+- name: Copilot in Field Service
+  items: 
+    - name: Work order recap with copilot
+      href: work-order-recap.md
+    - name: Work order creation in Outlook with copilot
+      href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview
+
 - name: Work orders
   items:
     - name: Work order process overview
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
+    - name: Work order experience (preview)
+      href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
     - name: Work order customization considerations
       href: work-order-customization.md
+    - name: Send work order completion surveys
+      href: work-order-surveys.md
 
 - name: Inspections
   items:
@@ -154,6 +167,19 @@ items:
       href: field-service-time-entry.md
     - name: Travel charges
       href: travel-charges.md
+
+- name: Microsoft 365 integrations for Field Service (preview)
+  items:
+    - name: Overview
+      href: flw-overview.md
+    - name: Administrators
+      href: flw-admin.md
+    - name: Outlook add-in with Copilot for the Frontline Manager
+      href: flw-outlook.md
+    - name: Teams app for the Frontline Manager
+      href: flw-teams-manager.md
+    - name: Teams app for the Frontline Worker
+      href: flw-teams-worker.md
 
 - name: Scheduling
   items:
@@ -349,7 +375,8 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
-
+  - name: IoT partner integrations
+    href: iot-partner-integrations.md
   - name: Connect your IoT devices
     items:
       - name: Connect IoT data overview
@@ -495,6 +522,22 @@ items:
     href: cfs-troubleshoot.md
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
+  - name: Field Service (Preview) troubleshooting
+    href: flw-troubleshooting.md
+
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for Outlook work order creation
+      href: faqs-wo-flw-copilot.md
+
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQs for work order recap
+      href: faqs-work-order-recap.md
 
 - name: More resources
   items:

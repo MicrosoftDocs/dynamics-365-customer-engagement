@@ -10,6 +10,10 @@ ms.author: andreo
 
 # New UX for the Field Service (Dynamics 365) Mobile app (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 ## Preview availability
 
 This article contains information about the new user experience features in the Field Service (Dynamics 365) Mobile app. The improved UX aims to help service technicians swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products.

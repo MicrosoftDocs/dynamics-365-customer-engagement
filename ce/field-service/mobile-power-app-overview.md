@@ -16,6 +16,8 @@ The Field Service (Dynamics 365) mobile app enables technicians to view and upda
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs. It's included in your Field Service license.
 
+With the 2023 release wave 2, we're releasing a new user experience for mobile users. For more information, see [New UX for the Field Service (Dynamics 365) Mobile app (preview)](mobile-powerapp-newux-overview.md).
+
 ## Feature list
 
 | Feature | Category | Field Service (Dynamics 365) mobile app |  Details |

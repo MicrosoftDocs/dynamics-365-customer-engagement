@@ -1,9 +1,7 @@
 ---
 title: Overview of Field Service integrations
 description: Learn about the various ways to integrate Dynamics 365 Field Service with other business apps.
-ms.date: 10/04/2021
-
-
+ms.date: 06/15/2023
 ms.topic: overview
 applies_to:
 - "Dynamics 365 (online)"
@@ -14,8 +12,11 @@ author: jasonccohen
 
 # Overview of Field Service integrations
 
-Microsoft Dynamics 365 Field Service integrates with various business apps to streamline your field service data and operations. 
+Microsoft Dynamics 365 Field Service integrates with various business apps to streamline your field service data and operations.
 
+## Integrate with Dynamics 365 Field Service (Preview)
+
+With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information, see [Dynamics 365 Field Service (Preview) overview](flw-overview.md).
 
 ## Integrate with Dynamics 365 Supply Chain Management
 
@@ -38,14 +39,5 @@ After enabling the integration (currently in public preview), open a Teams panel
 ## Integrate with SAP
 
 Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order scheduling system to your enterprise resource planning (ERP) system. Microsoft offers guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. Integration is done by connecting SAP to the Dataverse (formerly Common Data Service), which Field Service is built on, along with other Dynamics 365 modules. For more information, see the article: [Integrate Dynamics 365 Field Service and Supply Chain Management](field-service-sap-integration.md).
-
-
-
-
-
-
-
-
-
 
 

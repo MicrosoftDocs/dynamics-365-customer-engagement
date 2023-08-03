@@ -30,6 +30,10 @@ The functional location field on the work order tells the technician exactly whe
 
 ## [New mobile UX (preview)](#tab/vNext)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 Change the status of a booking to **Traveling** directly from the booking home page. Swipe the booking from left to right or by tap on the booking's contextual menu to access its quick actions and set the status. You can also open the booking and tap **Edit status** on the **General** tab.
 
 > [!div class="mx-imgBorder"]
@@ -53,6 +57,8 @@ On the **Service tab**, you see work order details like work order service tasks
 > ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
 ## [New mobile UX (preview)](#tab/vNext)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
