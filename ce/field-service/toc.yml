@@ -345,7 +345,8 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
-
+  - name: IoT partner integrations
+    href: iot-partner-integrations.md
   - name: Connect your IoT devices
     items:
       - name: Connect IoT data overview
