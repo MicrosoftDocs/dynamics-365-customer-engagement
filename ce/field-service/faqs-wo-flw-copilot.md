@@ -28,7 +28,7 @@ The intention is to aid front-line workers in creating work orders at scale in l
 
 ## How was work order creation in Outlook using Copilot evaluated? What metrics are used to measure performance?
 
-{TBD}
+This feature was evaluated using both conventional performance testing and methods specifically targeted to AI features to ensure user safety and security. An extensive set of test cases was used to evaluate against potentially sensitive or harmful content. Standardized internal tooling provided further testing to ensure harm filters and security mitigations functioned as intended, including prevention of attacks such as jailbreak attempts. Additional evaluation takes place with each subsequent update throughout the feature's lifecycle. Learn more about Microsoft's commitment to [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai).
 
 ## What are the limitations of work order creation in Outlook using Copilot? How can users minimize the impact of the Outlook work order creation limitations when using the system?
 
