@@ -74,11 +74,13 @@ Avoid the following actions to prevent call drops:
 
 - Make sure that you have enabled notifications, and audio and video options in the browser.
 - When your shift ends, ensure that you sign out and close your browser through which you access Customer Service workspace. Doing so helps avoid work items being incorrectly assigned to you.
+- When you face network or hardware issues, the application displays error or warning messages on the communication panel. Use the information in the messages to resolve the problems. More information: [Use diagnostic messages to troubleshoot call issues](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues)
 
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
+[Troubleshoot issues in voice calls]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
