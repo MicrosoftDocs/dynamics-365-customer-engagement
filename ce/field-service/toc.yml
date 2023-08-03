@@ -87,6 +87,11 @@ items:
     - name: Knowledge articles
       href: field-service-knowledge-management.md
 
+- name: Copilot in Field Service
+  items: 
+    - name: Work order recap with Copilot
+      href: work-order-recap.md
+
 - name: Work orders
   items:
     - name: Work order process overview
@@ -482,6 +487,13 @@ items:
     href: cfs-troubleshoot.md
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
+
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQs for work order recap
+      href: faqs-work-order-recap.md
 
 - name: More resources
   items:
