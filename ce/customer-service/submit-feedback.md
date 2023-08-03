@@ -25,7 +25,7 @@ To rate or provide your feedback for an article listed on the productivity pane,
 The value beside the **Thumbs up** icon doesn't represent an article's total number of likes. The number that you see might range from 0 to 1 and can include decimals such as 0.75. This is because the value beside the **Thumbs up** icon indicates the average rating of the article based on the feedback and the number of ratings received. The **knowledgearticle.rating** field is a rollup field defined as Aggregate(Average(feedback.normalizedrating)).
 
 > [!NOTE]
-> - Rating and view count numbers are rollup fields that aren't updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md). 
+> - Rating and view count numbers are rollup fields that aren't updated instantly. For more information, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md). 
 > - Customer service agents and customer service managers can create or view feedback based on their role and privileges in the feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
 
 ## Submit ratings and feedback
