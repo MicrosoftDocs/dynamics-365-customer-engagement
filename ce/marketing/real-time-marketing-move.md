@@ -1,7 +1,7 @@
 ---
 title: Move from outbound to real-time marketing
 description: Learn how to deploy real-time marketing functionality in Dynamics 365 Marketing.
-ms.date: 07/19/2023
+ms.date: 07/31/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -12,6 +12,8 @@ search.audienceType:
 ---
 
 # Move from outbound to real-time marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there's a dependency on a specific feature or limitation that hasn't yet been addressed in real-time marketing.
 
@@ -43,4 +45,11 @@ Learn about making the move from outbound to real-time marketing in the free [Tr
 
 ## Default real-time marketing installation
 
-On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. New customers will receive a new version of the Marketing app that will only contains real-time marketing features. Although outbound marketing features will continue to be supported for existing users, outbound marketing features will receive no future updates.
+On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. To support this transition, in early August 2023, provisioning of new instances will change in the following ways:
+- *New customers* will no longer receive the outbound marketing module when they provision the Marketing app. New customers will need to contact support to add outbound marketing features.
+- *Existing customers* will also see the same provisioning change, but will be able to add outbound marketing features themselves using a self-serve interface available on the **Settings** > **Versions** page.
+
+> [!div class="mx-imgBorder"]
+> ![Real-time marketing transition comparison.](media/real-time-marketing-transition-graphic.png "Real-time marketing transition comparison")
+
+These changes only affect provisioning of new instances. Existing customers using outbound marketing will continue to have access to outbound marketing features. All new features and innovations are targeted in real-time marketing only. Learn more: [Real-time marketing transition FAQs](real-time-marketing-transition.md)

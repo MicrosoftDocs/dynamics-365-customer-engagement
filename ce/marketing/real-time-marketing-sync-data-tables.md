@@ -15,6 +15,8 @@ search.audienceType:
 
 # Sync data tables into the segment builder
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The real-time marketing segment builder allows you to sync data tables without relying on the help of administrators. This saves you time when setting up segments, letting you directly add data tables to Dynamics 365 Marketing without using the Dynamics 365 admin center.
 
 **Example**: You want to create a segment using attributes from the Fax table in Dataverse, but you notice that Fax isn’t available in your related data tables.

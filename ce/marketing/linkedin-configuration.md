@@ -16,6 +16,8 @@ search.audienceType:
 
 # Set up the LinkedIn Lead Gen integration and define lead matching
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use the settings pages under the **Settings** > **Lead management** heading to configure the LinkedIn feature. A few LinkedIn security roles are also provided to let administrators control access to these features.
 
 [!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]

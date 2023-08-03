@@ -16,6 +16,8 @@ search.audienceType:
 
 # Known issues and workarounds
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 Marketing. For information about monthly bug fixes, visit the [What's new in Dynamics 365 Marketing](whats-new-marketing.md) article.
 
 ## Configuration, installation, and first-run experience

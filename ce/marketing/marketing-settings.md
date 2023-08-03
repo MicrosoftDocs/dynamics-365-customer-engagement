@@ -16,6 +16,8 @@ search.audienceType:
 
 # Settings overview
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The **Settings** work area contains pages that let you configure the core marketing functionality of Dynamics 365 Marketing. See the following topics for information about how to work with each page in the **Marketing settings** section:
 
 - **[Lead scoring](mkt-settings-lead-score-options.md)**: Configure a few basic options that control how automatic lead scoring works on your instance, including how scores can advance leads can through the marketing business process and how to handle stopped scoring models.
