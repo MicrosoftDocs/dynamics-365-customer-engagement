@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 08/02/2023
+ms.date: 08/03/2023
 ms.custom: bap-template 
 ---
 
@@ -44,7 +44,7 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 1. Save the changes and select **Publish**.
 1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
 
-    :::image type="content" source="media/deal-manager-overview-v1-small.png" alt-text="Screenshot of the opportunity pipeline view." lightbox="media/deal-manager-overview-v1.png":::
+    :::image type="content" source="media/opportunity-pipeline-view-new.png" alt-text="Screenshot of the opportunity pipeline view." lightbox="media/opportunity-pipeline-view-new.png":::
 
 ## Open the opportunity pipeline view settings page
 
