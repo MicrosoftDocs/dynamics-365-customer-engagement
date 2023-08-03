@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: faq
 ms.collection: 
-ms.date: 07/24/2023
+ms.date: 08/03/2023
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -14,7 +14,7 @@ ms.custom:
 
 # FAQ for Copilot in Customer Service
 
-These frequently asked questions (FAQ) describe the AI impact of the copilot features in Customer Service.
+This FAQ article helps answer the questions around the responsible use of AI in copilot features in Customer Service.
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
@@ -27,7 +27,7 @@ Copilot provides the following main features:
 - **Ask a question**: This is the first tab that agents see when they activate the Copilot help pane. This is a conversational interface with Copilot, which helps provide contextual responses to the agents’ questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
 
 - **Write an email**: The second tab on the Copilot help pane helps agents quickly create email responses based on the context of the case, reducing the time users need to spend creating emails. 
-- **Draft a chat response**: This functionality of the Copilot help pane enables agents to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization. 
+- **Draft a chat response**: This functionality of the Copilot help pane enables agents to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
 - **Summarize a case**: Copilot provides agents with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
 
@@ -39,7 +39,7 @@ Copilot in Customer Service is intended to help customer service representatives
 
 ## How was Copilot in Customer Service evaluated? What metrics are used to measure performance?
 
-Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. We’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, agent-trust, and more.
+Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and agent-trust.
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
@@ -71,7 +71,7 @@ For example, "Why is the coffee machine not starting up?" will result in a gener
 
 Adding context in this manner is important because it helps Copilot better understand the user's intent and provide more accurate and relevant responses.
 
-### Avoid technical terms if possible 
+### Avoid technical terms if possible
 
 It is recommended to avoid using extremely technical terms and resource names when interacting with Copilot because the system may not always understand it accurately or appropriately. Using simpler, natural language helps ensure that the system can understand the user's intent correctly and provide clear, useful responses. For example –  
 
@@ -105,4 +105,9 @@ At this time, Copilot cannot read tables and images in knowledge articles.
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 
-Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses its own private instances of LLM.  All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data is not shared and is not fed back into public models.
+Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data is not shared and is not fed back into public models.
+
+### See also
+
+[Use copilot features](use-copilot-features.md)  
+[Region availability of Copilot](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  

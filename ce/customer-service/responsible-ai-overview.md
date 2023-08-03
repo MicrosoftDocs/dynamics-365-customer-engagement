@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: overview 
 ms.collection: 
-ms.date: 07/24/2023
+ms.date: 08/03/2023
 ms.custom: 
 - bap-template
 - responsible-ai-faq
