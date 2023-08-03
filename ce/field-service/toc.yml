@@ -89,16 +89,25 @@ items:
     - name: Knowledge articles
       href: field-service-knowledge-management.md
 
+- name: Copilot in Field Service
+  items: 
+    - name: Work order recap with Copilot
+      href: work-order-recap.md
+
 - name: Work orders
   items:
     - name: Work order process overview
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
+    - name: Work order experience (preview)
+      href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
     - name: Work order customization considerations
       href: work-order-customization.md
+    - name: Send work order completion surveys
+      href: work-order-surveys.md
 
 - name: Inspections
   items:
@@ -245,9 +254,20 @@ items:
   items:
     - name: Overview
       href: mobile-power-app-overview.md
+    - name: New mobile UX (preview)
+      href: mobile-powerapp-newux-overview.md
     - name: Install and setup
       href: mobile-power-app-get-started.md
     - name: Use the mobile app
+      items:
+      - name: Download and get started
+        href: download-get-started-mobile-app.md
+      - name: Get work done
+        href: get-work-done-mobile-app.md
+      - name: Work offline
+        href: work-offline-mobile-app.md
+      - name: Access related applications
+        href: access-related-apps-mobile-app.md
       href: mobile-power-app-use.md
     - name: Booking maps
       href: mobile-powerapp-booking-maps.md
@@ -271,6 +291,8 @@ items:
       href: mobile-power-utilize-platform.md
     - name: IoT signals on mobile
       href: cfs-mobile-powerapp.md
+    - name: Embedded Dynamics 365 Guides
+      href: embedded-guides.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
@@ -351,7 +373,8 @@ items:
   items:
   - name: Overview
     href: connected-field-service.md
-
+  - name: IoT partner integrations
+    href: iot-partner-integrations.md
   - name: Connect your IoT devices
     items:
       - name: Connect IoT data overview
@@ -506,6 +529,13 @@ items:
       href: responsible-ai-overview.md
     - name: FAQ for Outlook work order creation
       href: faqs-wo-flw-copilot.md
+
+- name: Responsible AI
+  items: 
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQs for work order recap
+      href: faqs-work-order-recap.md
 
 - name: More resources
   items:
