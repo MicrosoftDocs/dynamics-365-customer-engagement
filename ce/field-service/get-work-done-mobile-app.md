@@ -85,7 +85,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-Take notes directly in the **Timeline** tab. Select **+ Add note** to add text and images to your note.
+On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline on both Field Service (Dynamics 365) Mobile app and the Field Service web app. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body. Images added to notes use image optimization to save storage space.
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
