@@ -1,24 +1,35 @@
 ---
-title: Set focused view as the default view
+title: Enable focused view and set it as the default view
 description: Set the focused view as the default view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 
-ms.date: 05/05/2023
+ms.date: 08/04/2023
 ms.custom: bap-template 
 ---
 
-# Set focused view as the default view
+# Enable focused view and set it as the default view
 
-In the focused view, sellers can view and manage account, contact, lead, and opportunity records, and their associated activities, on one page.
+In the focused view, sellers can view and manage their CRM records and their associated activities, on one page. 
 
 > [!IMPORTANT]
->- When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
->- Focused view is now available for all entities, including custom entities. However, it's only enabled on request. Please reach out Microsoft Support to enable focused view for all entities.  
+> When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
 
-## Set the focused view as the default view
+## Enable focused view for entities other than contact, account, lead, and opportunity
 
-As an administrator, you can set the focused view as the default view so that sellers don't have to switch to the focused view each time they access their entity list.
+The focused view is enabled by default for contact, account, lead, and opportunity entities. However, you must enable it for all other entities.  
+
+> [!NOTE]
+> Focused view is not available for the Activities entity.
+
+You can enable the view in the following ways:
+
+- To enable the focused view for all entities and to add the **Focused view** button on the command bar, reach out to Microsoft Support.
+- To enable the focused view for specific entities, add the **Focused view** control as explained in the next section and set it as a default if you'd like.
+
+## Set focused view as the default view
+
+As an administrator, you can set the focused view as the default view so that sellers don't have to switch to the focused view each time they access their entity list. The focused view control view is available by default for contact, account, lead, and opportunity entities. You can manually add the control for other entities.
 
 This procedure uses opportunities as an example.  
 

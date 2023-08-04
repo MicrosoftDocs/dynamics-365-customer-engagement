@@ -19,22 +19,26 @@ ms.custom:
 The focused view allows you to view and manage account, contact, lead, and opportunity records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks.
 
 > [!NOTE]
-> Focused view is now available for all entities, including custom entities. However, it's only enabled on request. Please reach out Microsoft Support to enable focused view for all entities. 
+> Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Set focused view as the default view](set-focused-view-as-default.md)
 
 The focused view is similar to the Sales accelerator workspace view. [Learn how to prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md).
 
 You can't customize how work items are shown in the focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in the focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
 
 >[!IMPORTANT]
->- Focused view is available for Account, Contact, Lead, and Opportunity entities.
->- To set focused view as default, contact your administrator. More information: [Set focused view as the default view](set-focused-view-as-default.md)   
+> To set focused view as default, contact your administrator. More information: [Set focused view as the default view](set-focused-view-as-default.md)  
 
 ## Open the focused view  
 
 The focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens.
 
-1.	In the site map, select an entity (Account, Contact, Lead, or Opportunity).
-2.	On the command bar, select **Focused view**.
+1. In the site map, select an entity and do one of the following actions depending the entity:
+    - For Account, Contact, Lead, and Opportunity entities, select **Focused view** on the command bar.
+    - For all other entities, the focused view can be accessed using one of the following options, depending on how your administrator has configured it:
+        - Select **Focused view** on the command bar.
+        - Select **Show as** > **Focused view** on the command bar.
+    > [!NOTE]
+    > Focused view is not available for the Activities entity.
 
 >[!NOTE]
 >The **Focused view** option isn't displayed if a record is selected.
