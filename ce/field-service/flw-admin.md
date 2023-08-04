@@ -87,17 +87,11 @@ If you have not created user groups for your frontline workers and frontline man
 
 Make the Field Service (Preview) app available in Teams.
 
-1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
-
-1. Navigate to **Teams apps** > **Manage apps**.
-
 1. From the Teams App Store, search for **Field Service (Preview)**.
 
    :::image type="content" source="media/fsp-teams-app-admin.png" alt-text="Screenshot showing search for Field Service (Preview)":::
 
-1. Select the **Field Service (Preview)** app.
-
-1. Open **Field Service (Preview)**.
+1. Select the **Field Service (Preview)** app and open it.
 
 1. On the **Settings** tab, select your environment.
 
@@ -105,6 +99,21 @@ Make the Field Service (Preview) app available in Teams.
 
    > [!NOTE]
    > You must select your environment and have it validated before deploying Field Service (Preview) for Viva Connections.
+
+### Install and pin the apps in Teams
+
+1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+
+1. Select **Teams apps** > **Set up policies**.
+
+1. Select **Global (Org-side default)**.
+
+   > [!TIP]
+   > This default policy applies to all users in your organization unless you assign another policy. If you don't want to the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
+
+1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
+
+1. [Pin both the apps and arrange them](/microsoftteams/teams-app-setup-policies#pin-apps).
 
 ### Deploy Field Service (Preview) for Viva Connections
 
@@ -129,21 +138,6 @@ Viva Connections is included as part of Microsoft Teams license. If you do not h
 1. On the **Approve access** dialog box, select **Go to API access page**.
 
 1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
-
-### Install and pin the apps in Teams
-
-1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
-
-1. Select **Teams apps** > **Set up policies**.
-
-1. Select **Global (Org-side default)**.
-
-   > [!TIP]
-   > This default policy applies to all users in your organization unless you assign another policy. If you don't want to the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
-
-1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
-
-1. [Pin both the apps and arrange them](/microsoftteams/teams-app-setup-policies#pin-apps).
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
