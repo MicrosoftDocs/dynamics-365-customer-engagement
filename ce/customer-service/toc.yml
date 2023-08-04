@@ -174,7 +174,7 @@
       href: community-forum-setup.md
     - name: Moderator experience
       href: community-moderator-experience.md
-    - name: Community FAQs
+    - name: Community FAQ
       href: community-faqs.md
     - name: Advanced settings   
       items:                
@@ -552,6 +552,8 @@
       items: 
       - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
+      - name: FAQ about setting up Teams chat
+        href: faq-teams-chat.md
       - name: Enable Teams meetings in Customer Service apps
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
@@ -1887,7 +1889,9 @@
     - name: FAQ about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
     - name: FAQ about adding users to agent experience profile
-      href: ../app-profile-manager/faq-agent-experience-profile.md      
+      href: ../app-profile-manager/faq-agent-experience-profile.md
+    - name: FAQ about setting up Teams chat
+      href: faq-teams-chat.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
