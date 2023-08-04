@@ -77,13 +77,10 @@ The migration progress is indicated on the page as follows; the colored circle i
      
         :::image type="content" source="media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
      
-
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management** in **Change area**.
      1. Under **Data Management**, select **ARC & SLA Migration**.
-     
-     :::image type="content" source="media/migration-tool-access-location.png" alt-text="migration tool location in customer service hub":::
    
 ## Migration Summary
 
