@@ -82,9 +82,8 @@ The migration progress is indicated on the page as follows; the colored circle i
     
      1. In the site map, select **Service Management** in **Change area**.
      1. Under **Data Management**, select **ARC & SLA Migration**.
-     :::image type="content" source="media/migration-tool-access-location.png" alt-text="migration tool location in customer service hub":::
      
-2. The **Summary** page is displayed.
+     :::image type="content" source="media/migration-tool-access-location.png" alt-text="migration tool location in customer service hub":::
    
 ## Migration Summary
 
