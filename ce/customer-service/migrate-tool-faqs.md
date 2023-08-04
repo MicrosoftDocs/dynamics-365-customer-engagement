@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 03/29/2023
+ms.date: 08/04/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -198,6 +198,14 @@ If you've used any channel properties in legacy rules customization, those rules
 - Activity party fields used as source fields aren't supported in flow.
 
 ## Known flow issues
+
+### Migrated rules have an extra @ character for fields with @ string type
+
+If the legacy automatic record creation rule workflow is customized and has a plain text @ character in a string field, you’ll see two @, instead of one on migration. For example, if you add an email address in plain text in the case description field, then the @ character will be treated as a special character and migrated as @@.
+
+This is because @ is identified as a special character for any dynamics expression, such as @triggerOutputs()?[body/_emailsender_value] in the migration flow.
+
+The workaround is to manually remove the extra @ in the migrated flow.
 
 ### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA
 
