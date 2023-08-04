@@ -10,7 +10,7 @@ ms.date: 07/27/2023
 ms.custom: bap-template 
 ---
 
-# Setup Nuance cloud IVR bot integration with voice channel
+# Set up Nuance cloud IVR bot integration with voice channel
 
 Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
 
@@ -21,6 +21,8 @@ The integration has the following three steps:
 - Setup Omnichannel to receive the escalated calls from the Nuance IVR bot.
 
 ## Prerequisites
+
+You must obtain an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
 
 ## Connect Azure Communication Services to voice channel
@@ -47,6 +49,7 @@ The steps in the following section are to configure the telephony layer so the c
    - Run the armclient command below:
 
       `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
+
    - Through the Azure portal:
       - Select **Event** and then select **Create Event Subscription**.
       - Specify the following on the Create Event Subscription page:
@@ -59,14 +62,13 @@ The steps in the following section are to configure the telephony layer so the c
 
 ## Setup Omnichannel to receive the escalated calls from Nuance bot
 
-When the Mix IVR bot transfers the call to Azure Communication Services, a record is created in the **msdyn_ocexternalcontext** table. The record ID is included in the SIP UUI header and is transferred to the Azure resource the Omnichannel for Customer Service is connected to.
+If the Mix IVR bot transfers the call to Azure Communication Services, a record is created in the **msdyn_ocexternalcontext** table. The record ID is included in the SIP UUI header and is transferred to the Azure resource the Omnichannel for Customer Service is connected to.
 
 When the application receives the call, the application creates a new msdyn_ocliveworkitem record and checks the SIP UUI header for the msdyn_ocexternalcontext recordID. If the corresponding ID is found, the application links both the msdyn_ocexternalcontext and msdyn_ocliveworkitem tables.
 
-Perform the following steps to ensure that the escalated call is routed to the appropriate agent and the the transcript is displayed on the agent's Active Conversation form in Omnichannel:
+The steps below ensure that the escalated call is routed to the appropriate agent and the the transcript is displayed on the agent's Active Conversation form in Omnichannel:
 
 1. **Set up routing rules and configure rulesets**
-
 
   Perform the following steps to create a new work classification rule to classify the incoming conversation to match the skills of an agent to the call intent from the escalated bot and then route it to the best-suited queue and agent :
 
@@ -76,7 +78,7 @@ Perform the following steps to ensure that the escalated call is routed to the a
 
 2. **Customize Active Conversation form to view Nuance IVR bot transcripts**
 
-  You'll need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
+   You'll need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
 
    1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
    2.	Select **Tables**, select the **Conversation** table, and then select the **Forms** area.
@@ -90,14 +92,14 @@ Perform the following steps to ensure that the escalated call is routed to the a
 
   Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
-   ```
-     export class FormWebResource {
+    ```
+      export class FormWebResource {
       public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
         var formContext = context.getFormContext();
         formContext.tabs.get("<Your form tab name>").sections.get("<Your section name>").setVisible(false);
+     }
     }
-   }
-   ```
+    ```
 
 3. **Define field requirements for call intent**
 
@@ -110,6 +112,3 @@ When an agent accepts a call that’s been transferred from the Nuance Cloud IVR
 
 The app displays an error message if there’s no data or  partial customer data.
 
-
-
-[Customize Customer Service workspace to view the IVR transcripts](oc-nuance-fos-customizations.md)
