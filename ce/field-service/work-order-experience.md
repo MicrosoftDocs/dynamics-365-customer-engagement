@@ -147,6 +147,7 @@ For more information about work order customizations, see [Customization conside
 ## Next steps
 
 - [Create a work order](create-work-order.md)
+- [Work order recap with Copilot in Field Service (preview)](work-order-recap.md)
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
 

@@ -27,7 +27,7 @@ update your environment to the latest Early Access build for 2023 wave 2 to use 
 
 ## Generate a work order recap
 
-Go to the work order form (preview).
+Go to the [work order form (preview)](work-order-experience.md).
 
 - On a saved work order, select **Generate** in the **Copilot recap** control to generate a recap summary.
 - To refresh a summary, select **Regenerate** in the **Copilot recap** control.
