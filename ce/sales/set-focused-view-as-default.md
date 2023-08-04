@@ -13,14 +13,14 @@ ms.custom: bap-template
 In the focused view, sellers can view and manage account, contact, lead, and opportunity records, and their associated activities, on one page.
 
 > [!IMPORTANT]
-> When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
+>- When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
+>- Focused view is now available for all entities, including custom entities. However, it's only enabled on request. Please reach out Microsoft Support to enable focused view for all entities.  
 
 ## Set the focused view as the default view
 
-By default, **Read-only Grid view** is used for accounts, contacts, leads, and opportunities. However, as an administrator, you can set the focused view as the default view. Then sellers don't have to switch to the focused view each time they access their entity list.
+As an administrator, you can set the focused view as the default view so that sellers don't have to switch to the focused view each time they access their entity list.
 
-> [!NOTE]
-> This procedure uses opportunities as an example. 
+This procedure uses opportunities as an example.  
 
 1. In the Sales Hub app, select **Settings** > **Advanced Settings**.
 1. On the **Settings** menu, select **Customizations** > **Customize the system**.
