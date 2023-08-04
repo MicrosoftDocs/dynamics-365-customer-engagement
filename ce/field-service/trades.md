@@ -1,7 +1,7 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 02/28/2023
+ms.date: 08/04/2023
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
@@ -62,7 +62,7 @@ The validation interprets service accounts and hierarchies in functional locatio
 :::image type="content" source="media/trades-work-order-validated.png" alt-text="Screenshot of a work order record with a callout on the system message about trade coverage validation.":::
 
 > [!NOTE]
-> If no trade coverage is defined for a trade, the system assumes that the trade is covered for all parameters. Work order won’t show any warnings if trade coverage isn’t defined.
+> If no trade coverage is defined for a trade, the system assumes that the trade is not covered for any work orde, and will filter it our from work order lookups.
 
 ### Trade coverage example
 

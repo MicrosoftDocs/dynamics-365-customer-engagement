@@ -1,7 +1,7 @@
 ---
 title: Not-to-exceed values on work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: Manage cost expectations of your service accounts by setting up not-to-exceed values on work orders.
-ms.date: 02/28/2023
+ms.date: 08/04/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -101,6 +101,13 @@ Technicians who use the Field Service Mobile app can see the not-to-exceed value
 However, you can still save work orders when ignoring the warning.
 
 Using the [Field Service Mobile application in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
+
+## Deeper dive on work order NTE
+The work order not-to-exceed’s applied amount represents the actual NTE amount applied on the work order. The Not-to-exceed source lets you know where the applied amount came from (manual entry or system selection). As soon as the applied amount is manually set, ‘user specified’ will be set as the source. While no manual edits have been made, the system will select the most applicable not to exceed record and copy it’s amount into the WO NTE’s applied amount. In this case, the source will be ‘system-specified’, and the work order NTE will have a reference to the selected NTE record!
+
+In addition, if you manually enter an applied amount, then reset the amount by clicking the reset arrow button on the work order form, the source will change from ‘user specified’ back to ‘system selected’, and the applied amount will update to the amount from the system selected NTE.
+
+Note that work order not-to-exceed should be primarily interacted with by the system during NTE selection, and by the user through the controls on the work order form. The out of the box form is mostly locked to read-only on this record to limit interaction. Customization on work order not-to-exceed could interfere with the automated behavior.
 
 ## Next steps
 
