@@ -107,6 +107,8 @@ Make the Field Service (Preview) app available in Teams.
 
 1. On the **Settings** tab, select your environment.
 
+   :::image type="content" source="media/fsp-environment.png" alt-text="Field Service (Preview) Teams Settings tab.":::
+
    > [!NOTE]
    > You must select your environment and have it validated before deploying Field Service (Preview) for Viva Connections.
 
