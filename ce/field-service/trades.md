@@ -62,7 +62,7 @@ The validation interprets service accounts and hierarchies in functional locatio
 :::image type="content" source="media/trades-work-order-validated.png" alt-text="Screenshot of a work order record with a callout on the system message about trade coverage validation.":::
 
 > [!NOTE]
-> If no trade coverage is defined for a trade, the system assumes that the trade is not covered for any work orde, and will filter it our from work order lookups.
+> If no trade coverage is defined for a trade, the system assumes that the trade is not covered for any work order, and will filter it out from work order lookups.
 
 ### Trade coverage example
 
