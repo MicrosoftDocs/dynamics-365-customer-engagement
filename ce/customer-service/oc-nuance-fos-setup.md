@@ -2,9 +2,9 @@
 title: Setup Nuance cloud IVR bot integration with voice channel
 description: How-to setup Nuance cloud IVR bot integration with voice channel
 author: gandhamm
-ms.author: ,gandham
+ms.author: mgandham
 ms.reviewer: neeranelli
-ms.topic: how-to .
+ms.topic: how-to 
 ms.collection: get-started 
 ms.date: 07/27/2023
 ms.custom: bap-template 
