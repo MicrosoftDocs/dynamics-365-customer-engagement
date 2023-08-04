@@ -91,11 +91,11 @@ Make the Field Service (Preview) app available in Teams.
 
 1. Navigate to **Teams apps** > **Manage apps**.
 
-1. From the Teams App Store, search for **Field Service (Preview)**
+1. From the Teams App Store, search for **Field Service (Preview)**.
 
    :::image type="content" source="media/fsp-teams-app-admin.png" alt-text="Screenshot showing search for Field Service (Preview)":::
 
-1. Select **Add**.
+1. Select the **Field Service (Preview)** app.
 
 1. Select the **Permissions** tab and [grant permissions to use the app](/microsoftteams/app-permissions-admin-center#view-resource-specific-consent-permissions-of-an-app).
 
