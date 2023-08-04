@@ -87,17 +87,21 @@ If you have not created user groups for your frontline workers and frontline man
 
 Make the Field Service (Preview) app available in Teams.
 
-1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
+1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
 
-1. Search for **Dynamics 365 Field Service (Preview)**.
+1. Navigate to **Teams apps** > **Manage apps**.
 
-   :::image type="content" source="media/fsp-teams-app-source.png" alt-text="Dynamics 365 Field Service (Preview) tile showing Get it now.":::
+1. From the Teams App Store, search for **Field Service (Preview)**
 
-1. Select **Get it now** and confirm your information. Microsoft Teams is launched.
+   :::image type="content" source="media/fsp-teams-app-admin.png" alt-text="Screenshot showing search for Field Service (Preview)":::
 
-1. In Teams, select **Add**.
+1. Select **Add**.
 
-   :::image type="content" source="media/fsp-teams-app-add.png" alt-text="Dynamics 365 Field Service (Preview) showing Add.":::
+1. Select the **Permissions** tab and [grant permissions to use the app](/microsoftteams/app-permissions-admin-center#view-resource-specific-consent-permissions-of-an-app).
+
+1. Select **Add** to add the application.
+
+1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
 
 1. Open **Field Service (Preview)**.
 
@@ -158,6 +162,8 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 1. On the dashboard, select **Edit**. Set up the dashboard for **Frontline workers** or **Information workers**.
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
+
+   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add":::
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
