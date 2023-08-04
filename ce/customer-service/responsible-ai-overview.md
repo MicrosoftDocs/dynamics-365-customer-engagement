@@ -1,6 +1,6 @@
 ---
 title: Responsible AI for Dynamics 365 Customer Service
-description: Responsible AI FAQ provide information about the AI technology used in Customer Service, with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+description: Responsible AI FAQ provides information about the AI technology used in Customer Service, with key considerations and details about how the AI is used, tested and evaluated, and any specific limitations.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
