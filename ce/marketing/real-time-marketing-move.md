@@ -1,7 +1,7 @@
 ---
 title: Move from outbound to real-time marketing
 description: Learn how to deploy real-time marketing functionality in Dynamics 365 Marketing.
-ms.date: 07/31/2023
+ms.date: 08/04/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -18,7 +18,7 @@ search.audienceType:
 Real-time marketing is the next generation of Dynamics 365 Marketing features. As real-time marketing continues to evolve, almost all the current capabilities and features of outbound marketing will become available in real-time marketing, along with many more modern and enhanced capabilities. You should utilize real-time marketing unless there's a dependency on a specific feature or limitation that hasn't yet been addressed in real-time marketing.
 
 Read more about the transition to real-time marketing: [Adapting to evolving customer expectations: staying ahead in the new marketing landscape](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/transition-to-real-time-marketing-and-transform-your-customer-experience/)
-
+<!---
 ## Advantages of real-time marketing + Customer Insights
 
 The following table summarizes the benefits of using real-time marketing and Customer Insights together.
@@ -32,7 +32,7 @@ The following table summarizes the benefits of using real-time marketing and Cus
 | Branch or suppress a customer journey based on a customer's attributes or segment membership (in Customer Insights)                                                                                                           | Not possible                                                                                                                                                      | Seamless: Customer Insights attributes, segments, and (soon) measures are automatically available for journey logic and suppression criteria, just like any other Dataverse entity |
 | Use marketing interaction data to create segments, measures, and other insights in Customer Insights                                                                                                                          | Requires manual data integration                                                                                                                                  | (Coming soon) Marketing interactions are available in Customer Insights without the need for data integration                                                                     |
 
-Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/blogs/post/?postid=89399977-3ba4-4650-b57d-14ab1654b020).
+Learn more about the differences between real-time and outbound features: [Real-time vs outbound marketing journeys!](https://community.dynamics.com/blogs/post/?postid=89399977-3ba4-4650-b57d-14ab1654b020).-->
 
 ## Real-time marketing transition playbook
 
