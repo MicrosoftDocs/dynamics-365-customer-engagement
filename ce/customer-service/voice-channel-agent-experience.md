@@ -81,6 +81,5 @@ Avoid the following actions to prevent call drops:
 [Overview of the voice channel](voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](voice-consult-microsoft-teams-user.md)  
 [Call a customer](voice-channel-call-customer.md)  
-[Troubleshoot issues in voice calls]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
