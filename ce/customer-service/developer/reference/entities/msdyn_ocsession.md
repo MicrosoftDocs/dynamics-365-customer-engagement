@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: "msdyn_ocsession table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_ocsession table/entity."
-ms.date: 07-26-2023
-=======
 title: "msdyn_ocsession table| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsession table."
 ms.date: 08/02/2023
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 ms.service: "powerapps"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -19,11 +13,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-<<<<<<< HEAD
-# msdyn_ocsession table/entity reference
-=======
 # msdyn_ocsession table
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 
 Session for interacting with a customer
 
@@ -35,39 +25,20 @@ Session for interacting with a customer
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-<<<<<<< HEAD
-|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.BulkRetainRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-=======
 |Create|POST [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-<<<<<<< HEAD
-|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
-|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
-=======
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_ocsessions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-<<<<<<< HEAD
-|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RollbackRetainRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple||<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest>|
-=======
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_ocsessions(*activityid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 
 ## Properties
 
@@ -644,11 +615,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-<<<<<<< HEAD
-|Description|Unique identifier to identify the app to which this conversation belogs to.|
-=======
 |Description|Unique identifier to identify the app to which this conversation belongs to.|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |DisplayName|Channel Instance ID|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -745,17 +712,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_msdyn_queueassignedreason"></a> msdyn_queueassignedreason
 
-<<<<<<< HEAD
-**Added by**: Omnichannel Conversation Extension Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Reason for Queue Assignment|
-=======
 |Property|Value|
 |--------|-----|
 |Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property.)|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -834,17 +793,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 ### <a name="BKMK_msdyn_sessioncreationreason"></a> msdyn_sessioncreationreason
 
-<<<<<<< HEAD
-**Added by**: Omnichannel Conversation Extension Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Reason for session creation|
-=======
 |Property|Value|
 |--------|-----|
 |Description|Reason for session creation (This is for internal use only. Customers are advised to not use this property.)|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |DisplayName|Created Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -852,11 +803,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|ApplicationRequired|
 |Type|Picklist|
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 ### <a name="BKMK_msdyn_sessionid"></a> msdyn_sessionid
 
 |Property|Value|
