@@ -13,6 +13,8 @@ search.audienceType:
 
 # Real-time marketing transition FAQs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 1. **What is Dynamics 365 Customer Insights? Is it a new product?**
 
     Dynamics 365 Customer Insights and Dynamics 365 Marketing are coming together as one offering named Dynamics 365 Customer Insights. This solution offers a range of tier options based on your usage needs and requirements. Dynamics 365 Customer Insights is designed to revolutionize your customer experiences through two independently adoptable apps: 

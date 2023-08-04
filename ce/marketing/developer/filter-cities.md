@@ -13,6 +13,8 @@ search.audienceType:
 
 # Filter cities based on countries using lookup fields and custom entities
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This article applies only to outbound marketing.
 

@@ -17,6 +17,8 @@ search.audienceType:
 
 # Open the Power Platform admin center
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use the Power Platform admin center to review the status of your apps and solutions, apply updates, and manage your Dynamics 365 instances, solutions, and apps.
 
 There are two ways to open the Power Platform admin center: starting from within the Marketing app or starting from the Microsoft 365 admin center. Both methods produce the same result, so the method you choose will depend on where you are when you want to open the Power Platform admin center.

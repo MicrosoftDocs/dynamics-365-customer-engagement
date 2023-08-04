@@ -15,6 +15,8 @@ search.audienceType:
 
 # Real-time marketing preference centers
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Preference centers in real-time marketing allow you to provide customers with branded experiences to sign up for communications and fine-tune their preferences to ensure they receive the right communications.
 
 ## Creating preference centers

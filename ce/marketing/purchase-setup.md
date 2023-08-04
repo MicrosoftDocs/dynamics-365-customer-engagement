@@ -1,10 +1,7 @@
 ---
-title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to run the setup wizard for Dynamics 365 Marketing."
+title: Set up Dynamics 365 Marketing
+description: How to run the setup wizard for Dynamics 365 Marketing.
 ms.date: 12/01/2022
-ms.custom: 
-  - dyn365-admin
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -15,6 +12,8 @@ search.audienceType:
 ---
 
 # Purchase and set up Dynamics 365 Marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Go live with publishable entities and track the go-live status of records
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Many entities within Dynamics 365 Marketing require you to _go live_ with a record before you can incorporate it into your marketing initiatives. The go-live process checks a record for errors, prepares it for use, and then marks it as available. In some cases, the go-live process ends by moving the record to a marketing service, which runs in parallel and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is also referred to as _publishing_.
 
 Some entities require you to stop live records before you edit the entity, while others let you push updates from the Marketing application without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) after you go live with a given record.

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Re-run the Marketing setup wizard
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 In addition to helping you install Dynamics 365 Marketing for the first time, the setup wizard can also help you modify, maintain, or update your installation. You can do all of the following by re-running the setup wizard:
 
 - Check for and apply [updates](apply-updates.md)

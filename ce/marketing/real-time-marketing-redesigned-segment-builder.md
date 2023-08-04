@@ -15,6 +15,8 @@ search.audienceType:
 
 # Improve targeting using interaction data in segments
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Effective targeting and personalized customer experiences depend on well-defined segments. Use real-time marketing’s segment builder to create segments based on customer interactions and engagement across various marketing channels, websites, events, and more. This feature, in combination with the demographic and firmographic attributes already available for segmentation, enables you to reach the right customers at the right time. Use segments for journey branching or content variations, tailoring the experience for each customer. By defining frequency and time windows, you can create complex, interaction-based conditions, expanding your ability to segment and personalize the customer experience based on more customer actions.
 
 ## Some example segment scenarios using interaction data
