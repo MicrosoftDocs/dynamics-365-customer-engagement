@@ -74,7 +74,7 @@ The steps below ensure that the escalated call is routed to the appropriate agen
 
    1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
    2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
-   3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules).
+   3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules.md).
 
 2. **Customize Active Conversation form to view Nuance IVR bot transcripts**
 
@@ -92,14 +92,13 @@ The steps below ensure that the escalated call is routed to the appropriate agen
 
   Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
-    ```
+  ```
       export class FormWebResource {
       public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
         var formContext = context.getFormContext();
         formContext.tabs.get("<Your form tab name>").sections.get("<Your section name>").setVisible(false);
      }
-    }
-    ```
+    }```
 
 3. **Define field requirements for call intent**
 
