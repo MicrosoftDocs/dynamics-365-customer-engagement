@@ -1,7 +1,7 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 description: Learn how to use the migration tool to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
-ms.date: 12/09/2022
+ms.date: 08/04/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -68,19 +68,27 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 ## Access the migration tool
 
-You can access the migration tool using the following steps:
+1. Go to one of the admin apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
+     1. In the site map, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
+     1. In the **ARC and SLA migration** section, select **Manage**.
+     
+        :::image type="content" source="media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
+     
 
-1. In Customer Service Hub, select **Service Management** in **Change area**.
-
-2. Under **Data Management**, select **ARC & SLA Migration Tool**.
-
-> ![Access Migration Tool.](media/migration-tool-access-location.png "Migration tool access locations")
-  
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management** in **Change area**.
+     1. Under **Data Management**, select **ARC & SLA Migration**.
+     :::image type="content" source="media/migration-tool-access-location.png" alt-text="migration tool location in customer service hub":::
+     
+2. The **Summary** page is displayed.
+   
 ## Migration Summary
 
 When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
-
-> ![Migration summary page.](media/migration-summary-page.png  "Migration summary page")
 
 The annotations are explained as follows.
 
