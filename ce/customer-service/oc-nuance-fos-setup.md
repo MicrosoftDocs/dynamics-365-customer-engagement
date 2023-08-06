@@ -1,5 +1,5 @@
 ---
-title: Setup Nuance cloud IVR bot integration with voice channel
+title: Set up Nuance cloud IVR bot integration with voice channel
 description: How-to setup Nuance cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: mgandham
@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
 
-The integration has the following three steps:
+The integration has the following steps:
 
 - Connect Azure Communication Services to the voice channel.
 - Provision an internal phone number to redirect customer's phone call to the Nuance IVR ports.
-- Setup Omnichannel to receive the escalated calls from the Nuance IVR bot.
+- Set up Omnichannel to receive the escalated calls from the Nuance IVR bot.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 ## Connect Azure Communication Services to voice channel
 
-Azure Communication Services allows you to provision phone numbers for customers to reach your business. Follow the steps in [Azure resource to provision phone numbers](voice-channel-acs-resource.md) to provision a new phone number. You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md). If you already have voice channel configured, you can skip this step.
+Azure Communication Services allows you to obtain phone numbers for customers to reach your business. Follow the steps in [Azure resource to provision phone numbers](voice-channel-acs-resource.md) to provision a new phone number. You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md). If you already have voice channel configured, you can skip this step.
 
 ## Connect Azure Communication Services to Nuance Cloud IVR bot
 
@@ -40,19 +40,19 @@ The steps in the following section are to configure the telephony layer so the c
      - If you haven't added a domain, follow the steps in [Add the new domain name](/azure/communication-services/how-tos/telephony/domain-validation#add-new-domain-name). Enter staging.ivr.nuance.com or nuance.com as the domain.
      - Perform the steps in [Verify the domain ownership](/azure/communication-services/how-tos/telephony/domain-validation#verify-domain-ownership). Azure portal generates a value for the TXT record. Authorize the domain for the validation to succeed.
   - Specify the **Fully Qualified Domain Name** of the SBC to be configured in Direct Routing. Follow the steps in [Adding a Session Border controller](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config#adding-a-session-border-controller) to ensure that messages are exchanged between Azure Communication Services and the configured SBC. 
-  - Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to setup the voice routing rules.
-1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC in your Azure Communication Services tenant with the following environment variables:
+  - Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to set up the voice routing rules.
+1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC with the following environment variables:
    - `redirectNumber`: number that you want your incoming calls to be redirected to
    - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number
-   - `dialedNumber`: outbound number that your incoming calls will be routed to
+   - `dialedNumber`: outbound number that your incoming calls are routed to
 1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication. IncomingCall`, to your Azure function. You can perform one of the following steps:
-   - Run the armclient command below:
+   - Run the armclient command:
 
       `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
 
    - Through the Azure portal:
       - Select **Event** and then select **Create Event Subscription**.
-      - Specify the following on the Create Event Subscription page:
+      - Specify the following information on the Create Event Subscription page:
          - Name
          - Event Schema: Event Grid Schema
          - Filter to Event Types: **Incoming Call (Preview)**
@@ -60,17 +60,17 @@ The steps in the following section are to configure the telephony layer so the c
              
 1.  Configure  the session.xml with dynamic parameters such as **dataverse_organization_url**, **dataverse_tenant_id**, **dataverse_client_id**, **dataverse_client_secret_name**, and **dataverse_azure_key_vault_url** in Nuance IVR tools. The bot is then deployed.
 
-## Setup Omnichannel to receive the escalated calls from Nuance bot
+## Set up Omnichannel to receive the escalated calls from Nuance bot
 
 If the Mix IVR bot transfers the call to Azure Communication Services, a record is created in the **msdyn_ocexternalcontext** table. The record ID is included in the SIP UUI header and is transferred to the Azure resource the Omnichannel for Customer Service is connected to.
 
 When the application receives the call, the application creates a new msdyn_ocliveworkitem record and checks the SIP UUI header for the msdyn_ocexternalcontext recordID. If the corresponding ID is found, the application links both the msdyn_ocexternalcontext and msdyn_ocliveworkitem tables.
 
-The steps below ensure that the escalated call is routed to the appropriate agent and the the transcript is displayed on the agent's Active Conversation form in Omnichannel:
+The following steps ensure that the escalated call is routed to the appropriate agent and the transcript is displayed on the agent's Active Conversation form in Omnichannel:
 
 1. **Set up routing rules and configure rulesets**
 
-  Perform the following steps to create a new work classification rule to classify the incoming conversation to match the skills of an agent to the call intent from the escalated bot and then route it to the best-suited queue and agent :
+An Omnichannel administrator must create a new work classification rule to classify the incoming call. The call intent from the escalated bot is matched to the agents skills and then routed it to the best-suited queue and agent. Perform the following actions to create the classification rule:
 
    1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
    2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
@@ -78,7 +78,7 @@ The steps below ensure that the escalated call is routed to the appropriate agen
 
 2. **Customize Active Conversation form to view Nuance IVR bot transcripts**
 
-   You'll need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
+   You need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
 
    1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
    2.	Select **Tables**, select the **Conversation** table, and then select the **Forms** area.
@@ -88,7 +88,7 @@ The steps below ensure that the escalated call is routed to the appropriate agen
    6.	Specify the required **TableName** and **TableColumn** in **CC_IsExternalContext**.
    7.	Save and publish the form.  The form on the application UI displays the transcript from the IVR.
 
-  When there’s no transcript available, you can choose to disable the transcript using a web resource.More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
+  When there’s no transcript available, you can choose to disable the transcript using a web resource. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
 
   Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
