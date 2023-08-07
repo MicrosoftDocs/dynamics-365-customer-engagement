@@ -28,6 +28,7 @@ Use the following steps to enable the focused view or to set it as default.
 1. To add the control for entities other than contact, account, lead, and opportunity, follow these steps:
     1. On the **Controls** tab, select **Add Control**.
     1. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.
+    :::image type="content" source="media/focused-view-control.png" alt-text="Screenshot of the Control tab with the focused view added to the list of control for the Quote entity." lightbox="media/focused-view-control.png":::
 1. To set the focused view as the default view, select **Focused view** for web, phone, and tablet on the **Controls** tab.  
     
     
