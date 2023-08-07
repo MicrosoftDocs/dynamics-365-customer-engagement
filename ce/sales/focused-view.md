@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 05/05/2023
+ms.date: 08/07/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -34,14 +34,11 @@ The focused view is a centralized place to view all your open records that have 
 
 1. In the site map, select an entity and do one of the following actions depending the entity:
     - For Account, Contact, Lead, and Opportunity entities, select **Focused view** on the command bar.
-    - For all other entities, the focused view can be accessed using one of the following options, depending on how your administrator has configured it:
-        - Select **Focused view** on the command bar.
-        - Select **Show as** > **Focused view** on the command bar.
-    > [!NOTE]
-    > Focused view is not available for the Activities entity.
+    - For all other entities, select **Show as** > **Focused view** on the command bar.
 
 >[!NOTE]
->The **Focused view** option isn't displayed if a record is selected.
+>- The **Focused view** option isn't displayed if a record is selected.
+>- Focused view is not available for the Activities entity.
 
 ## Understand the focused view
 
