@@ -293,8 +293,6 @@ items:
       href: mobile-power-utilize-platform.md
     - name: IoT signals on mobile
       href: cfs-mobile-powerapp.md
-    - name: Embedded Dynamics 365 Guides
-      href: embedded-guides.md
     - name: Customize the mobile app
       items:
         - name: Customize the home screen (Site Map)
