@@ -475,6 +475,40 @@
               href: understand-sales-acceleration-reporting.md
             - name: Understand the sequence stats page
               href: understand-sequence-stats.md
+        - name: Work assignment
+          href: work-assignment-intro.md      
+          items:
+            - name: Create and activate a segment
+              href: create-and-activate-a-segment.md
+            - name: Manage assignment rules
+              href: create-manage-assignment-rules.md              
+              items:
+                - name: Create and activate an assignment rule
+                  href: create-and-activate-assignment-rule.md
+                - name: Edit an assignment rule
+                  href: edit-assignment-rule.md
+                - name: Delete or deactivate an assignment rule
+                  href: delete-deactivate-assignment-rule.md
+            - name: Connect a sequence to segment
+              href: connect-a-segment-to-sequence.md
+            - name: View details of a segment
+              href: view-details-segment.md
+            - name: Edit segment properties
+              href: edit-a-segment.md  
+            - name: Manage unassigned records
+              href: manage-unassigned-records.md
+            - name: Delete segment
+              href: delete-deactivate-a-segment.md
+            - name: Manage work assignment
+              items:
+                - name: Configure security roles
+                  href: manage-sales-teams.md
+                - name: Manage seller attributes
+                  href: manage-seller-attributes.md
+                - name: Manage seller availability
+                  href: manage-seller-availability.md
+            - name: Understand lead distributions
+              href: understand-lead-distributions-assignment-rules.md                  
         - name: Manage segments
           href: manage-segments.md
           items:
