@@ -17,18 +17,21 @@ In the focused view, sellers can view and manage their CRM records and their ass
 The focused view is enabled by default for contact, account, lead, and opportunity entities. However, you must enable it manually for all the other entities. You can also set it as the default view for any entity so that sellers don't have to switch to the focused view each time they access their entity list. 
   
 > [!NOTE]
-> Focused view is not available for the Activities entity.
+>- When you set the focused view as the default view, users can't switch to the list view. If users must be able to use both views, set the list view as the default view.
+>- Focused view is not available for the Activities entity.
+
 
 Use the following steps to enable the focused view or to set it as default. This procedure uses quotes as an example.
 
 1. In the Sales Hub app, select **Settings** > **Advanced Settings**.
 1. On the **Settings** menu, select **Customizations** > **Customize the system**.
-1. On the Power Apps Default Solution page, select **Entities** > **Quotes**.
+1. On the Power Apps Default Solution page, select **Entities** > **Quote**.
 1. To add the control for entities other than contact, account, lead, and opportunity, follow these steps:
     1. On the **Controls** tab, select **Add Control**.
     1. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.
 1. On the **Controls** tab, select **Focused view** for web, phone, and tablet to set the focused view as the default view. 
-
+    
+    
 1. Save and publish your changes.
     The focused view is now enabled and set as the default view for quotes.
 
