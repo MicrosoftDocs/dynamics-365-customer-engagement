@@ -91,7 +91,7 @@ On the **Timeline** tab, select **+ Add note** to add text and images to your no
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
 
 > [!NOTE]
-> Notes in the timeline are associated with the booking and currently don't show on the parent work order timeline.
+> Notes in **Timeline** are stored in the `annotation` table, are associated with the booking, and currently don't show on the parent work order timeline. 
 
 ---
 

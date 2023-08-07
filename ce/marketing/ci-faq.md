@@ -14,13 +14,15 @@ search.audienceType:
 
 # Dynamics 365 Customer Insights FAQs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This FAQ answers questions about the new Dynamics 365 Customer Insights combined product offering.
 
 ## General
 
 1. **What is the new Dynamics 365 Customer Insights?**
 
-    The new Dynamics 365 Customer Insights offering combines the standalone Dynamics 365 Customer Insights and Dynamics 365 Marketing apps into a single offering. While the name is unchanged, this new Customer Insights offering is expanded to include both the Dynamics 365 Customer Insights – Journeys (formerly Dynamics 365 Marketing) and Dynamics 365 Customer Insights – Data (formerly the standalone Dynamics 365 Customer Insights) applications.
+    The new Dynamics 365 Customer Insights offering combines the standalone Dynamics 365 Customer Insights and Dynamics 365 Marketing apps into a single offering. While the name is unchanged, the new Customer Insights offering is expanded to include both the Dynamics 365 Customer Insights – Journeys (formerly Dynamics 365 Marketing) and Dynamics 365 Customer Insights – Data (formerly the standalone Dynamics 365 Customer Insights) applications.
 
     > [!div class="mx-imgBorder"]
     > ![SKU and name change diagram.](media/ci-faq-sku-name-change.png "SKU and name change diagram")

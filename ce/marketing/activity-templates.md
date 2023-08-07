@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create activity marketing templates for activity tiles
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The activity tile enables a customer journey to generate an activity record (such as a phone call, task, or appointment), associate the activity with each contact who enters the tile, and assign each activity to a Dynamics 365 user for follow-up. Each activity tile uses an activity marketing template to define the type and details of the activities it generates.
 
 To view, edit, and create an activity marketing template, go to one of the following areas, depending on which type of activity you are setting up:

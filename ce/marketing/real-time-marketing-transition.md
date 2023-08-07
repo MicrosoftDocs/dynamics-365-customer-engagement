@@ -1,7 +1,7 @@
 ---
 title: Real-time marketing transition FAQs
 description: Answers to frequently asked questions about transitioning to real-time marketing.
-ms.date: 07/19/2023
+ms.date: 08/04/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -13,23 +13,24 @@ search.audienceType:
 
 # Real-time marketing transition FAQs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 1. **What is Dynamics 365 Customer Insights? Is it a new product?**
 
-    Dynamics 365 Customer Insights and Dynamics 365 Marketing are coming together as one offering named Dynamics 365 Customer Insights. This solution offers a range of tier options based on your usage needs and requirements. Dynamics 365 Customer Insights is designed to revolutionize your customer experiences through two independently adoptable apps: 
+    The new Dynamics 365 Customer Insights offering combines the standalone Dynamics 365 Customer Insights and Dynamics 365 Marketing apps into a single offering. While the name is unchanged, the new Customer Insights offering is expanded to include both the Dynamics 365 Customer Insights – Journeys (formerly Dynamics 365 Marketing) and Dynamics 365 Customer Insights – Data (formerly the standalone Dynamics 365 Customer Insights) applications.
 
-    **Customer Insights - Data** (currently known as Dynamics 365 Customer Insights) empowers you to effectively build a unified, real-time 360-degree profile of your customers.  
-
-     **Customer Insights - Journeys** (currently known as Dynamics 365 Marketing) allows you to act on this comprehensive understanding to deliver highly personalized experiences.  
+    > [!div class="mx-imgBorder"]
+    > ![SKU and name change diagram.](media/ci-faq-sku-name-change.png "SKU and name change diagram")
 
     Learn more: [Dynamics 365 Customer Insights FAQs](ci-faq.md)
 
 1. **How is Dynamics 365 Marketing impacted by this announcement?**
 
-    Dynamics 365 Marketing is becoming Dynamics 365 Customer Insights - Journeys. In Dynamics 365 Customer Insights - Journeys, the focus will solely be on real-time marketing, ensuring a modernized and efficient approach to customer engagement. This shift highlights the commitment to providing businesses with powerful tools to deliver personalized experiences, ultimately driving growth and fostering stronger customer connections.
+    Dynamics 365 Marketing is becoming Dynamics 365 Customer Insights - Journeys. This is a change in a name, not a merge between or within apps. The current Marketing app functionality remains the same. It will continue to have outbound and real-time modules. For new Dynamics 365 Customer Insights - Journeys customers, the focus will solely be on real-time marketing, ensuring a modernized and efficient approach to customer engagement. This shift highlights the commitment to providing businesses with powerful tools to deliver personalized experiences, ultimately driving growth and fostering stronger customer connections.
 
     Over the next year, we invite all customers to fully transition from outbound to real-time marketing. Real-time marketing has already surpassed traditional outbound marketing in functionality, effectiveness, usability testing results, satisfaction surveys, and our innovations and upcoming AI features are exclusively focused on real-time marketing.
 
-    Starting in August 2023, new customers will access real-time marketing only. Current customers provisioning new environments will also get real-time marketing by default, but if necessary, can add outbound using a self-serve experience.
+    Starting in August 2023, new customers will access real-time marketing only. Current customers provisioning new environments will also get real-time marketing by default, but if necessary, can add outbound using a self-serve experience. More details: [Move from outbound to real-time marketing](real-time-marketing-move.md)
 
 1. **Why should I transition to real-time marketing?**
 

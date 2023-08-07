@@ -20,7 +20,7 @@ This article contains information about the new user experience features in the 
 
 Technicians save valuable time for daily work by quickly updating the status of a booking or accessing driving directions to a customer site. They can easily select, change, or complete work order details and also add notes with multiple images.
 
-Detailed information for the immediate task is now readily available with embedded Dynamics 365 Guides. [Embedded guides in Field Service (Dynamics 365) Mobile](embedded-guides.md) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
+Detailed information for the immediate task is now readily available with embedded Dynamics 365 Guides. [Embedded guides in Field Service (Dynamics 365) Mobile](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
 
 <!--
 > [Add link to video]
@@ -37,7 +37,7 @@ Here's a list of documents that contain specific preview content:
 [Download the mobile app and get started](download-get-started-mobile-app.md)
 [Complete work orders on the mobile app](get-work-done-mobile-app.md)
 [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
-[Embedded Guides in Field Service (Dynamics 365) Mobile (preview)](embedded-guides.md)
+[Embedded Guides in Field Service (Dynamics 365) Mobile (preview)](access-related-apps-mobile-app.md#embedded-guides-in-field-service-dynamics-365-mobile-preview)
 
 ## Enable the preview features
 

@@ -16,6 +16,8 @@ search.audienceType:
 
 # How Dynamics 365 Marketing uses cookies
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing identifies website visitors using a technology called *cookies*. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way, the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
 
 > [!IMPORTANT]

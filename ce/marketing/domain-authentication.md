@@ -1,9 +1,8 @@
 ---
-title: "Authenticate your domains (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to authenticate your domains in Dynamics 365 Marketing."
+title: Authenticate your domains
+description: Learn how to authenticate your domains in Dynamics 365 Marketing.
 ms.date: 06/21/2023
-ms.custom: 
-  - dyn365-marketing
+
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -14,6 +13,8 @@ search.audienceType:
 ---
 
 # Authenticate your domains in real-time marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Domain authentication is important for many reasons:
 - For marketing email messages, domain authentication enables recipient email servers to confirm that the from-address shown on each of your messages belongs to your organization. Authentication also confirms that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.

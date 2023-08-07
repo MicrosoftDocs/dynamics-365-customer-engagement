@@ -4054,11 +4054,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/marketing/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/marketing/help-hub",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/marketing/readme-preview.md",
       "redirect_url": "/dynamics365/customer-engagement/marketing/readme",
       "redirect_document_id": "false"
@@ -25376,6 +25371,11 @@
     {
       "source_path": "ce/marketing/teams-webinar-follow-up.md",
       "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/search-control-for-subjects.md",
+      "redirect_url": "/dynamics365/customer-service/create-manage-subject-tree",
       "redirect_document_id": "false"
     }
   ]

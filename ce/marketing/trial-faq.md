@@ -14,6 +14,8 @@ search.audienceType:
 
 # Dynamics 365 Marketing trial FAQ
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!NOTE]
 > For the Marketing trial, you'll need to use an account that is managed by [Microsoft Azure Active Directory](https://azure.microsoft.com/services/active-directory/). If you cannot sign up for Marketing using a work or school email address, sign up for a [free Office 365 E5 trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5), then use the email address associated with your Office 365 E5 trial to sign up for the Marketing trial.
 
