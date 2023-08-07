@@ -15,6 +15,8 @@ search.audienceType:
 
 # Get started with Dynamics 365 Marketing licensing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Before you purchase, provision, and begin using a Dynamics 365 Marketing environment, you'll need to decide which licensing options suit your needs. Purchasing a Marketing license involves three components: the base license, additional instances, and additional capacity. This article explains the considerations you should make regarding each component when purchasing the Marketing app.
 
 - For information on pricing, visit the [Dynamics 365 Marketing pricing page](https://dynamics.microsoft.com/marketing/pricing/).

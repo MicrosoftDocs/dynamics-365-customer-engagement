@@ -1,7 +1,7 @@
 ---
 title: Business units FAQs for real-time marketing
 description: Business units FAQ for real-time marketing in Dynamics 365 Marketing.
-ms.date: 07/27/2023
+ms.date: 08/01/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -12,6 +12,8 @@ search.audienceType:
 ---
 
 # Business units FAQs for real-time marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 This article contains answers to common questions and solutions to known issues related to business units in real-time marketing.
 
@@ -52,7 +54,7 @@ While there is support for modernized business units across most of the areas in
 
 Areas that support business units but don't yet support modernized business units (that is, allowing users to modify the business unit of a record) include:
 - Consent center
-- Settings > Customer engagement > Compliance
+- Settings > Customer engagement > Compliance profiles
 - Settings > Customer engagement > SMS providers
 - Settings > Customer engagement > Custom channels
 - Settings > Customer engagement > Push notifications

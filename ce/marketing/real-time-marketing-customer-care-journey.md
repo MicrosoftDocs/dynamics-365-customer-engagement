@@ -15,6 +15,8 @@ search.audienceType:
 
 # Identify and resolve errors with real-time customer care journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 As people have more ways to connect with companies, delivering a consistent and smooth customer experience has never been more important. Dynamics 365 Marketing allows you to identify and resolve customer issues seamlessly. 
 
 This article guides you through three stages of a customer care journey: (1) identifying and processing the customer's issues and notifying them through a text message, (2) opening a support ticket to monitor care progress, and (3) updating the customer through a communication channel (email) on the status of their support ticket.

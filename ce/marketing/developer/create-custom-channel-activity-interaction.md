@@ -14,6 +14,8 @@ search.audienceType:
 
 # Custom channel activity create interaction
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The following table describes the input parameters required by the `msdyncrm_CustomChannelActivityCreateInteraction` action: 
 
 |Input parameter|Type|Description|

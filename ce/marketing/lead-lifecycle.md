@@ -16,6 +16,8 @@ search.audienceType:
 
 # The lead lifecycle
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Read this topic to learn how Dynamics 365 Marketing handles leads and uses them to support your marketing and sales processes.
 
 ## Establish your marketing contacts
