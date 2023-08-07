@@ -499,7 +499,7 @@
               href: manage-unassigned-records.md
             - name: Delete segment
               href: delete-deactivate-a-segment.md
-            - name: Manage work assignment
+            - name: Manage work assignment settings
               items:
                 - name: Configure security roles
                   href: manage-sales-teams.md
