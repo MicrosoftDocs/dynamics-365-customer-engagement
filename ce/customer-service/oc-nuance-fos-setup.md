@@ -70,7 +70,7 @@ The following steps ensure that the escalated call is routed to the appropriate 
 
 1. **Set up routing rules and configure rulesets**
 
-An Omnichannel administrator must create a new work classification rule to classify the incoming call. The call intent from the escalated bot is matched to the agents skills and then routed it to the best-suited queue and agent. Perform the following actions to create the classification rule:
+   An Omnichannel administrator must create a new work classification rule to classify the incoming call. The call intent from the escalated bot is matched to the agents skills and then routed it to the best-suited queue and agent. Perform the following actions to create the classification rule:
 
    1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
    2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
@@ -92,17 +92,19 @@ An Omnichannel administrator must create a new work classification rule to class
 
   Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
-  ```
+   ```
       export class FormWebResource {
       public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
         var formContext = context.getFormContext();
         formContext.tabs.get("<Your form tab name>").sections.get("<Your section name>").setVisible(false);
      }
-    }```
+    }
+
+   ```
 
 3. **Define field requirements for call intent**
 
-    Nuance Professional Services can extend the **msdyn_ocexternalcontext** to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields. For more information on the msdyn_ocexternalcontext entity, see: msdyn_ocexternalcontext
+   Nuance Professional Services can extend the **msdyn_ocexternalcontext** to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields. For more information on the msdyn_ocexternalcontext entity, see: [msdyn_ocexternalcontext]
    Perform the steps in [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
 ## View IVR transcripts
