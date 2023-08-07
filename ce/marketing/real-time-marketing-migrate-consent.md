@@ -1,9 +1,7 @@
 ---
 title: Migrate consent records to real-time marketing
 description: Learn how to migrate existing consent records to real-time marketing from outbound marketing and other sources.
-ms.date: 07/01/2023
-ms.custom: 
-  - dyn365-marketing
+ms.date: 08/03/2023
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
@@ -46,7 +44,7 @@ The following message appears:
 To load consent from contacts or leads, the following conditions apply:
 
 1. Only one email address from a contact or lead record is loaded. This field is defined in the [Audience configuration](real-time-marketing-audience-data.md) and an administrator can change it.
-1. For the commercial purpose, the system checks whether the contact has both the **Bulk Email** and **Email** fields set to *Allow*. If either of those fields is set to *Do Not Allow*, the contact point consent record is set to *Opted out*.
+1. For the commercial purpose, the system checks whether the contact has both the **Bulk Email** and **Email** fields set to *Allow*. If either of those fields is set to *Do not Allow*, the contact point consent record is set to *Opted out*.
 1. If you load consent from contacts, new "tracking" consent records are created based on the value in the tracking field on the contact.
 1. If two or more contacts or leads share the same email address, consent for the email is set to *Opted in* **only** when all contacts or leads contain the value *Bulk email=Allow*. In all other cases, consent for the email address is set to *Opted out*.
 1. If consent for the email already exists in real-time marketing, the above-listed rule applies. The email address is only opted in if **both** email consent values are set to *Allow* **and** all consent records from contacts that share the same email address are set to *Allow*.
@@ -97,6 +95,14 @@ If you have set up a subscription list to track individuals who don't wish to be
 
 > [!TIP]
 > If you restore data in real-time marketing, all consent records will be returned to the state they were in at the time backup was made. This may result in consent data being obsolete. To avoid complications, export all consent data into Excel before starting the restore process and use it as a reference after the restore is completed.
+
+> [!TIP]
+> To migrate consent data, you need to have local access permissions to:
+> - Read contact, lead, and subscription list records
+> - Create contact point consent records
+> - Update contact point consent records
+> 
+> For more information on security roles, visit [Security roles and privileges]/dynamics365/customerengagement/on-premises/admin/security-roles-privileges?view=op-9-1#security-roles)
 
 ### See also
 
