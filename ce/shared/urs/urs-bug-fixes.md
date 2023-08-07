@@ -28,11 +28,11 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.104.11
 
-**Legacy Schedule Board Retirement** : Fixed an issue where the legacy schedule board retirement message would appear even if the new schedule board was already in use.
+**Legacy Schedule Board Retirement**: Fixed an issue where the legacy schedule board retirement message appears even if the new schedule board is already in use.
 
-**Booking Status Icon Alignment** : Fixed an issue where the booking status icon would not align properly on short-duration bookings in the schedule board multiday views.
+**Booking Status Icon Alignment**: Fixed an issue where the booking status icon doesn't align properly on short-duration bookings in the schedule board multiday views.
 
-**Schedule Assistant Launch Issues Resolved** : Fixed an issue where the old schedule assistant would launch instead of the new schedule assistant when clicking the “Book” button on the requirement page.
+**Schedule Assistant Launch Issues Resolved**: Fixed an issue where the old schedule assistant launches when selecting **Book** on the requirement page.
 
 ## 3.12.109.2
 
