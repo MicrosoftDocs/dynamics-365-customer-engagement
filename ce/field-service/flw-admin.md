@@ -98,7 +98,7 @@ Make the Field Service (Preview) app available in Teams.
    :::image type="content" source="media/fsp-environment.png" alt-text="Field Service (Preview) Teams Settings tab.":::
 
    > [!NOTE]
-   > You must select your environment and have it validated before deploying Field Service (Preview) for Viva Connections.
+   > You must select your environment and see a validation message before deploying Field Service (Preview) for Viva Connections.
 
 ### Install and pin the apps in Teams
 
@@ -109,7 +109,7 @@ Make the Field Service (Preview) app available in Teams.
 1. Select **Global (Org-side default)**.
 
    > [!TIP]
-   > This default policy applies to all users in your organization unless you assign another policy. If you don't want to the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
+   > This default policy applies to all users in your organization unless you assign another policy. If you don't want the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
 
 1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
 
