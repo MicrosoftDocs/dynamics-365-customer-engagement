@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Set up Nuance cloud IVR bot integration with voice channel
 
-Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
+Azure Communication Services lets you integrate the Nuance Cloud IVR bot with Omnichannel for Customer Service voice channel and perform a contextual call transfer between them.
 
 The integration has the following steps:
 
@@ -42,10 +42,10 @@ The steps in the following section are to configure the telephony layer so the c
   - Specify the **Fully Qualified Domain Name** of the SBC to be configured in Direct Routing. Follow the steps in [Adding a Session Border controller](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config#adding-a-session-border-controller) to ensure that messages are exchanged between Azure Communication Services and the configured SBC. 
   - Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to set up the voice routing rules.
 1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC with the following environment variables:
-   - `redirectNumber`: number that you want your incoming calls to be redirected to
-   - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number
-   - `dialedNumber`: outbound number that your incoming calls are routed to
-1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication. IncomingCall`, to your Azure function. You can perform one of the following steps:
+   - `redirectNumber`: number that you want your incoming calls to be redirected to.
+   - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number.
+   - `dialedNumber`: outbound number that your incoming calls are routed to.
+1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall`, to your Azure function. You can perform one of the following steps:
    - Run the armclient command:
 
       `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
@@ -70,42 +70,42 @@ The following steps ensure that the escalated call is routed to the appropriate 
 
 1. **Set up routing rules and configure rulesets**
 
-   An Omnichannel administrator must create a new work classification rule to classify the incoming call. The call intent from the escalated bot is matched to the agents skills and then routed it to the best-suited queue and agent. Perform the following actions to create the classification rule:
+    An Omnichannel administrator must create a new work classification rule to classify the incoming call. The call intent from the escalated bot is matched to the agents' skills and then routed it to the best-suited queue and agent. Perform the following actions to create the classification rule:
 
-   1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
-   2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
-   3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules.md).
+    1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
+    2.	In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.
+    3. Configure a new rule set for Route to Queues, creating a queue for that skill. More information: [Configure route-to-queue rules](configure-route-to-queue-rules.md).
 
 2. **Customize Active Conversation form to view Nuance IVR bot transcripts**
 
-   You need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
+    You need to customize the conversation form for agents to view the transcripts from Nuance IVR on the Active Conversation form in Customer Service workspace. Perform the following steps to add **CC_Transcript_Control** to the form:
 
-   1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
-   2.	Select **Tables**, select the **Conversation** table, and then select the **Forms** area.
-   3.	Select the required form. 
-   4.	On the left navigation pane, select **Components**.
-   5.	Select **CC_Transcript_Control** in the list of available components. This component is available out-of-the-box.
-   6.	Specify the required **TableName** and **TableColumn** in **CC_IsExternalContext**.
-   7.	Save and publish the form.  The form on the application UI displays the transcript from the IVR.
+    1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
+    2.	Select **Tables**, select the **Conversation** table, and then select the **Forms** area.
+    3.	Select the required form. 
+    4.	On the left navigation pane, select **Components**.
+    5.	Select **CC_Transcript_Control** in the list of available components. This component is available out-of-the-box.
+    6.	Specify the required **TableName** and **TableColumn** in **CC_IsExternalContext**.
+    7.	Save and publish the form.  The form on the application UI displays the transcript from the IVR.
 
-  When there’s no transcript available, you can choose to disable the transcript using a web resource. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
+    When there’s no transcript available, you can choose to disable the transcript using a web resource. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
 
-  Here’s the sample code to disable the transcript coming from the Mix IVR bot:
+    Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
-   ```
-      export class FormWebResource {
-      public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
-        var formContext = context.getFormContext();
-        formContext.tabs.get("<Your form tab name>").sections.get("<Your section name>").setVisible(false);
+     ```
+       export class FormWebResource {
+       public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
+       var formContext = context.getFormContext();
+       formContext.tabs.get("<Your form tab name>").sections.get("<Your section name>").setVisible(false);
+      }
      }
-    }
 
-   ```
+     ```
 
 3. **Define field requirements for call intent**
 
-   Nuance Professional Services can extend the **msdyn_ocexternalcontext** to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields. For more information on the msdyn_ocexternalcontext entity, see: [msdyn_ocexternalcontext]
-   Perform the steps in [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
+    Nuance Professional Services can extend the [**msdyn_ocexternalcontext**]((developer/reference/entities/msdyn_ocexternalcontext.md)) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
+    Perform the steps in [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
 ## View IVR transcripts
 
