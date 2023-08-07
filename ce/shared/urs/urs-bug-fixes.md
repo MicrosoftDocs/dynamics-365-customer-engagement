@@ -11,10 +11,10 @@ For information about older versions, see [Version history archive](../../field-
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/01/2023 |
 | | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
-|**Station 4** |*Europe* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/04/2023 |
+|**Station 4** |*Europe* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/08/2023 |
 |**Station 5** |  *North America*|[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/11/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/11/2023 |
-| | *Dedicated Scale Groups* |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 08/04/2023 |
+| | *Dedicated Scale Groups* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/18/2023 |
 
 
 >[!NOTE]
@@ -27,6 +27,12 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.54.232001
 
 **Dataverse:** 4.0.104.11
+
+**Legacy Schedule Board Retirement** : Fixed an issue where the legacy schedule board retirement message would appear even if the new schedule board was already in use.
+
+**Booking Status Icon Alignment** : Fixed an issue where the booking status icon would not align properly on short-duration bookings in the schedule board multiday views.
+
+**Schedule Assistant Launch Issues Resolved** : Fixed an issue where the old schedule assistant would launch instead of the new schedule assistant when clicking the “Book” button on the requirement page.
 
 ## 3.12.109.2
 
