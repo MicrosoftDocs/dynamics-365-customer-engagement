@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about Sales Premium
 description: Find answers to frequently asked questions about the Sales Insights add-in for Dynamics 365 Sales.
-ms.date: 05/11/2023
+ms.date: 08/07/2023
 ms.custom: bap-template
 ms.topic: faq
 author: udaykirang
