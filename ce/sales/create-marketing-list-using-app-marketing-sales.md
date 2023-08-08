@@ -1,10 +1,11 @@
 ---
-title: "Create a marketing list using in-app marketing | MicrosoftDocs"
-description: "A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.."
+title: Create a marketing list using in-app marketing
+description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
 ms.date: 11/12/2021
-ms.topic: get-started-article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 ms.custom: 
   - "dyn365-sales"
 searchScope: 

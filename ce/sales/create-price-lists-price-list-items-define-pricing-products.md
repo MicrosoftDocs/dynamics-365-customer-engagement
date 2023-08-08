@@ -1,10 +1,11 @@
 ---
-title: "Define product pricing | MicrosoftDocs"
-description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
+title: Define product pricing
+description: Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
 ms.date: 10/26/2021
-ms.topic: get-started-article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -23,6 +24,7 @@ Use price lists and price list items to define price for a product.
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
+
 | Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
