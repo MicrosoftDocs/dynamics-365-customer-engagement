@@ -38,7 +38,7 @@ Price lists tell your sales agents what to charge for your products or services.
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
 
 > [!NOTE]
->- Territories are only supported for Sales Enterprise and Sales Premium customers.
+>- Territories are only supported for Sales Enterprise and Sales Premium licenses.
 >- The Price list table inherits its privileges from the Product table. For example, if a user has read and write privileges on the Product table, they get the same privileges on the Price list table too. 
 >- You must create at least one price list for each of the currencies that your organization does business in.
   
