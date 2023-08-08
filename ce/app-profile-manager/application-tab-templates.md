@@ -68,7 +68,7 @@ The following page types are available.
 - Third-party website
 - Web resource
 - Control (for internal use only)
-- Custom (preview)
+- Custom 
 
 ### Dashboard
 
@@ -161,8 +161,7 @@ This page type is used to display web resources that represent files, which are 
 >[!Note]
 > When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page will be refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
-### Custom (Preview)
-
+### Custom 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]

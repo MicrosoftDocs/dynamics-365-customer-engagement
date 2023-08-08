@@ -85,4 +85,42 @@ var tabInput = {templateName: "msdyn_omnichannel_kbsearch", isFocused: true};
 Microsoft.Apm.createTab(tabInput);
 ```
 
+### Create a tab with Power Aps component framework control page
+
+Creates a new tab in the focused session passing a framework control as a parameter for the app tab template. The control is passed from the API call.
+
+```JavaScript
+var controlDataParams = {};
+controlDataParams["<parameter>"] = "<Value>";
+
+x = new Map();
+x.set("<custom_session_context_params_key>", "<Value>");
+x.set("parametersStr", '[["controlName", "<Control_Name>"], ["data",'+JSON.stringify(controlDataParams)+']]');
+
+Microsoft.Apm.createSession(
+    {
+        templateName: "<template_name>",
+        sessionContext: x
+    });
+
+```
+
+You can also pass the following additional parameters:
+
+```JavaScript
+var controlDataParams = {};
+controlDataParams["<parameter>"] = "<Value>";
+
+x = new Map();
+x.set("<custom_session_context_params_key>", JSON.stringify(controlDataParams));
+x.set("<additional_custom_session_params>", "<Value>");
+
+Microsoft.Apm.createSession(
+    {
+        templateName: "<template_name>",
+        sessionContext: x
+    });
+
+```
+
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
