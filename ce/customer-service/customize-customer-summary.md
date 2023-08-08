@@ -15,8 +15,6 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
 
-## Introduction
-
 You can customize the following for the **Active Conversation** page:
 
 - Add or remove custom controls
