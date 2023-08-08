@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 08/03/2023
+ms.date: 08/08/2023
 ms.custom: bap-template 
 ---
 
@@ -37,7 +37,9 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
 1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet.
 
-    If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.
+    If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
+    > [!NOTE]
+    > If you don't see the **Pipeline view** control in the **Add Control** list, look for the **Deal manager workspace** control.  
 
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
 
