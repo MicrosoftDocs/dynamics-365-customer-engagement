@@ -1001,11 +1001,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-<<<<<<< HEAD
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_resourceterritory,msdyn_salessuggestion,msdyn_swarm,msdyn_systemuserschedulersetting,msdyn_timegroup,msdyn_timegroupdetail,opportunity,quote,salesorder,site|
-=======
 |Targets|account,adx_ad,adx_adplacement,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_salessuggestion,msdyn_swarm,opportunity,quote,salesorder,site|
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 |Type|Lookup|
 
 
@@ -2136,12 +2132,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 Listed by **SchemaName**.
 
-<<<<<<< HEAD
-=======
 - [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession)
 - [msdyn_ocsession_sessionevent_nested](#BKMK_msdyn_ocsession_sessionevent_nested)
 
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
 
@@ -2157,8 +2150,6 @@ Same as msdyn_ocsession table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysess
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-<<<<<<< HEAD
-=======
 
 ### <a name="BKMK_msdyn_ocsession_sessionevent_nested"></a> msdyn_ocsession_sessionevent_nested
 
@@ -2174,7 +2165,6 @@ Same as msdyn_sessionevent table [msdyn_ocsession_sessionevent_nested](msdyn_ses
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -2187,18 +2177,9 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 **Added by**: Active Solution Solution
 
 See msdyn_ocsession Table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
-<<<<<<< HEAD
-
-### See also
-
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_ocsession?text=msdyn_ocsession EntityType" />
-=======
 
 
 ### See also
 
 [ Omnichannel for Customer Service entity reference](overview-entity-ref.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
->>>>>>> 2dce42a147519ae6ba430c40045d71b7557c5f4b
