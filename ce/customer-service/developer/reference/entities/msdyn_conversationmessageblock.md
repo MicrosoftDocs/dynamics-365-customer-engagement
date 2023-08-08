@@ -22,25 +22,25 @@ A Message Block would constitute a block of messages up till an agent responds (
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
 |Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.BulkRetainRequest>|
+|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|Microsoft.Crm.Sdk.Messages.BulkRetainRequest|
 |Create|POST [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
-|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
+|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest|
+|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|Microsoft.Crm.Sdk.Messages.RetainRequest|
 |Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RollbackRetainRequest>|
+|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|Microsoft.Crm.Sdk.Messages.RollbackRetainRequest|
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_conversationmessageblocks(*msdyn_conversationmessageblockid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest>|
+|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest|
 
 ## Properties
 
@@ -987,7 +987,7 @@ Listed by **SchemaName**.
 
 **Added by**: System Solution Solution
 
-Same as syncerror table [msdyn_conversationmessageblock_SyncErrors](syncerror.md#BKMK_msdyn_conversationmessageblock_SyncErrors) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_SyncErrors Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1004,7 +1004,7 @@ Same as syncerror table [msdyn_conversationmessageblock_SyncErrors](syncerror.md
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord table [msdyn_conversationmessageblock_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_conversationmessageblock_DuplicateMatchingRecord) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_DuplicateMatchingRecord Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1021,7 +1021,7 @@ Same as duplicaterecord table [msdyn_conversationmessageblock_DuplicateMatchingR
 
 **Added by**: System Solution Solution
 
-Same as duplicaterecord table [msdyn_conversationmessageblock_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_conversationmessageblock_DuplicateBaseRecord) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_DuplicateBaseRecord Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1038,7 +1038,7 @@ Same as duplicaterecord table [msdyn_conversationmessageblock_DuplicateBaseRecor
 
 **Added by**: System Solution Solution
 
-Same as asyncoperation table [msdyn_conversationmessageblock_AsyncOperations](asyncoperation.md#BKMK_msdyn_conversationmessageblock_AsyncOperations) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_AsyncOperations Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1055,7 +1055,7 @@ Same as asyncoperation table [msdyn_conversationmessageblock_AsyncOperations](as
 
 **Added by**: System Solution Solution
 
-Same as mailboxtrackingfolder table [msdyn_conversationmessageblock_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_conversationmessageblock_MailboxTrackingFolders) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_MailboxTrackingFolders Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1072,7 +1072,7 @@ Same as mailboxtrackingfolder table [msdyn_conversationmessageblock_MailboxTrack
 
 **Added by**: System Solution Solution
 
-Same as userentityinstancedata table [msdyn_conversationmessageblock_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_conversationmessageblock_UserEntityInstanceDatas) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_UserEntityInstanceDatas Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1089,7 +1089,7 @@ Same as userentityinstancedata table [msdyn_conversationmessageblock_UserEntityI
 
 **Added by**: System Solution Solution
 
-Same as processsession table [msdyn_conversationmessageblock_ProcessSession](processsession.md#BKMK_msdyn_conversationmessageblock_ProcessSession) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_ProcessSession Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1106,7 +1106,7 @@ Same as processsession table [msdyn_conversationmessageblock_ProcessSession](pro
 
 **Added by**: System Solution Solution
 
-Same as bulkdeletefailure table [msdyn_conversationmessageblock_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_conversationmessageblock_BulkDeleteFailures) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_BulkDeleteFailures Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1123,7 +1123,7 @@ Same as bulkdeletefailure table [msdyn_conversationmessageblock_BulkDeleteFailur
 
 **Added by**: System Solution Solution
 
-Same as principalobjectattributeaccess table [msdyn_conversationmessageblock_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_conversationmessageblock_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+Same as msdyn_conversationmessageblock_PrincipalObjectAttributeAccesses Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
@@ -1158,67 +1158,67 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: System Solution Solution
 
-See systemuser Table [lk_msdyn_conversationmessageblock_createdby](systemuser.md#BKMK_lk_msdyn_conversationmessageblock_createdby) One-To-Many relationship.
+See lk_msdyn_conversationmessageblock_createdby One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_conversationmessageblock_createdonbehalfby"></a> lk_msdyn_conversationmessageblock_createdonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Table [lk_msdyn_conversationmessageblock_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationmessageblock_createdonbehalfby) One-To-Many relationship.
+See lk_msdyn_conversationmessageblock_createdonbehalfby One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_conversationmessageblock_modifiedby"></a> lk_msdyn_conversationmessageblock_modifiedby
 
 **Added by**: System Solution Solution
 
-See systemuser Table [lk_msdyn_conversationmessageblock_modifiedby](systemuser.md#BKMK_lk_msdyn_conversationmessageblock_modifiedby) One-To-Many relationship.
+See lk_msdyn_conversationmessageblock_modifiedby One-To-Many relationship.
 
 ### <a name="BKMK_lk_msdyn_conversationmessageblock_modifiedonbehalfby"></a> lk_msdyn_conversationmessageblock_modifiedonbehalfby
 
 **Added by**: System Solution Solution
 
-See systemuser Table [lk_msdyn_conversationmessageblock_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_conversationmessageblock_modifiedonbehalfby) One-To-Many relationship.
+See systemuser Table lk_msdyn_conversationmessageblock_modifiedonbehalfby One-To-Many relationship.
 
 ### <a name="BKMK_user_msdyn_conversationmessageblock"></a> user_msdyn_conversationmessageblock
 
 **Added by**: System Solution Solution
 
-See systemuser Table [user_msdyn_conversationmessageblock](systemuser.md#BKMK_user_msdyn_conversationmessageblock) One-To-Many relationship.
+See systemuser Table user_msdyn_conversationmessageblock relationship.
 
 ### <a name="BKMK_team_msdyn_conversationmessageblock"></a> team_msdyn_conversationmessageblock
 
 **Added by**: System Solution Solution
 
-See team Table [team_msdyn_conversationmessageblock](team.md#BKMK_team_msdyn_conversationmessageblock) One-To-Many relationship.
+See team Table team_msdyn_conversationmessageblock One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_msdyn_conversationmessageblock"></a> business_unit_msdyn_conversationmessageblock
 
 **Added by**: System Solution Solution
 
-See businessunit Table [business_unit_msdyn_conversationmessageblock](businessunit.md#BKMK_business_unit_msdyn_conversationmessageblock) One-To-Many relationship.
+See businessunit Table business_unit_msdyn_conversationmessageblock One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_ocliveworkitem_msdyn_conversationmessageblock_msdyn_ocliveworkitemid"></a> msdyn_ocliveworkitem_msdyn_conversationmessageblock_msdyn_ocliveworkitemid
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocliveworkitem Table [msdyn_ocliveworkitem_msdyn_conversationmessageblock_msdyn_ocliveworkitemid](msdyn_ocliveworkitem.md#BKMK_msdyn_ocliveworkitem_msdyn_conversationmessageblock_msdyn_ocliveworkitemid) One-To-Many relationship.
+See msdyn_ocliveworkitem Table msdyn_ocliveworkitem_msdyn_conversationmessageblock_msdyn_ocliveworkitemid One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_ocsession_msdyn_conversationmessageblock_msdyn_agentresponsesessionid"></a> msdyn_ocsession_msdyn_conversationmessageblock_msdyn_agentresponsesessionid
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocsession Table [msdyn_ocsession_msdyn_conversationmessageblock_msdyn_agentresponsesessionid](msdyn_ocsession.md#BKMK_msdyn_ocsession_msdyn_conversationmessageblock_msdyn_agentresponsesessionid) One-To-Many relationship.
+See msdyn_ocsession Table msdyn_ocsession_msdyn_conversationmessageblock_msdyn_agentresponsesessionid One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_ocsession_msdyn_conversationmessageblock_msdyn_customermessagesessionid"></a> msdyn_ocsession_msdyn_conversationmessageblock_msdyn_customermessagesessionid
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocsession Table [msdyn_ocsession_msdyn_conversationmessageblock_msdyn_customermessagesessionid](msdyn_ocsession.md#BKMK_msdyn_ocsession_msdyn_conversationmessageblock_msdyn_customermessagesessionid) One-To-Many relationship.
+See msdyn_ocsession Table msdyn_ocsession_msdyn_conversationmessageblock_msdyn_customermessagesessionid One-To-Many relationship.
 
 ### <a name="BKMK_msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid"></a> msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid
 
 **Added by**: System Solution Solution
 
-See systemuser Table [msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid](systemuser.md#BKMK_msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid) One-To-Many relationship.
+See systemuser Table msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid One-To-Many relationship.
 
 ### See also
 
