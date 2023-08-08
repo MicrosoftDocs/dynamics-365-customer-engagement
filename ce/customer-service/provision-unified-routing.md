@@ -18,7 +18,7 @@ Ensure that the provisioning user has the following permissions:
   - Customer Service Representative or CSR Manager to be able to set up configuration. 
   - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
   - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
-  -  **License required for Unified Routing**
+  -  **License required for Unified Routing**:
    Customers will get unified routing for entities, such as Cases, Leads, and custom entities, as part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
 
 ## Provision unified routing for only Customer Service
