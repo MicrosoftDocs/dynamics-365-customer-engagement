@@ -22,10 +22,10 @@ For information about older versions, see [Version history archive](version-hist
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
 | | *USG* | [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
-|**Station 4** |*Europe* |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/01/2023 |
+|**Station 4** |*Europe* | [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 09/02/2023 |
 |**Station 5** | *North America*|[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
-| | *Dedicated Scale Groups* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 08/04/2023 |
+| | *Dedicated Scale Groups* |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/15/2023 |
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 8.8.101.48  (2023 Wave 2 early access)
 
-(Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11) and Resource Scheduling controls version 1.2.54.232001).
+(Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11---2023-wave-2-Early-Access(EA)--Release) and Resource Scheduling controls version 1.2.54.232001).
 
 - **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
 
