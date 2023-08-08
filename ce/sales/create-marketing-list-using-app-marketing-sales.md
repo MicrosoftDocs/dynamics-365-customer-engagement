@@ -5,9 +5,9 @@ ms.date: 11/12/2021
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: bap-template
 ms.custom: 
   - "dyn365-sales"
+  - bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

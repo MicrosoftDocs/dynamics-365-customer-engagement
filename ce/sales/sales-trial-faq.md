@@ -5,8 +5,9 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.date: 11/11/2022
 ms.topic: conceptual
-ms.custom: bap-template
-ms.custom: template-trial-faq
+ms.custom: 
+  - template-trial-faq
+  - bap-template
 ms.reviewer: shujoshi
 ---
 # Dynamics 365 Sales trial FAQ 

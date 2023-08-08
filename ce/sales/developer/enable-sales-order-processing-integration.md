@@ -3,11 +3,11 @@ title: Enable sales order processing integration
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
 ms.date: 03/29/2023
 ms.topic: conceptual
-ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
+  - bap-template
 ---
 # Enable sales order processing integration 
 
