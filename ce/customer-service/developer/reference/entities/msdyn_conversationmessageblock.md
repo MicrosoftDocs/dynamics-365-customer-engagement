@@ -1,7 +1,7 @@
 ---
 title: "msdyn_conversationmessageblock table (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_conversationmessageblock table."
-ms.date: 03/23/2020
+ms.date: 08/08/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
