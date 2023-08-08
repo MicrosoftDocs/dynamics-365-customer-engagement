@@ -1,7 +1,7 @@
 ---
 title: "Customize the Active Conversation form | MicrosoftDocs"
 description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service."
-ms.date: 07/18/2023
+ms.date: 08/08/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -30,6 +30,7 @@ You can customize the following for the **Active Conversation** page:
 > - We recommend that you don't:
 >   - Change the Conversation form or the order in which it's displayed, as it's the default form.
 >   - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
+>   - Remove the form initiator control from the **Search customer** and **Search issue** lookup controls.
 
 By default, the **Active Conversation** page displays the sections that are listed in this article. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
