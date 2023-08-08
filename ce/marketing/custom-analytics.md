@@ -38,8 +38,7 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
 for a quick overview of all the data that is available for your marketing analytical reports.<br/><br/>
 
-<div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
-
+> [!VIDEO https://www.youtube.com/embed/pBrB1BohUrE]
 <a name="connect-blob"></a>
 
 ## Set up Azure Blob storage and connect it to Marketing
