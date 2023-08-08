@@ -14,11 +14,11 @@ ms.date:     07/27/2023
 # Sales Copilot FAQs
 Here are some frequently asked questions from customers of Sales Copilot in Dynamics 365 Sales.
 
-## Q. How does the data flow between Dynamics and AOAI endpoints?** <br>
+**Q. How does the data flow between Dynamics and AOAI endpoints?** <br>
 When you type a query in copilot, we pass the relevant data to AOAI via our plugins and services. We'll release a high-level architecture document around the GA timeframe.
 
-**Have we opted out of abuse monitoring and human review?**
-Yes. Our AOAI resources have opted out of [this feature](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review).
+**Q. Have we opted out of abuse monitoring and human review?**
+Yes. Our AOAI resources have opted out of [this feature](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure we dont retain any of your data outside the dynamics data boundary. We use other techniques to monitor and filter out abusive content at runtime.
 
 **Q. What data is included in the requests?** <br>
 The data included in the requests varies as per the type of request made. For example, when you attempt to summarize your opportunity the relevant fields of the opportunity and associated metadata is pushed to the AOAI endpoint to generate a summary.
