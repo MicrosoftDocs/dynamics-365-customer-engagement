@@ -63,7 +63,7 @@ Personalize the side panel to view it in different modes, depending on the detai
 1. Open the [opportunities pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view).
 
 1. Select an opportunity from the grid to open the side panel.
-1. Select the wand icon to switch to one of the following modes:
+1. Select the wand icon to switch to one of the following modes:  
         :::image type="content" source="media/side-panel-modes.PNG" alt-text="Screenshot of the side panel modes.":::
     - **Compact header:** This is the default mode. It displays the most important fields in the opportunity table but doesn't include the business process flow.
     - **Show BPF:** While you're in the compact mode, select this option to view the business process flow.
