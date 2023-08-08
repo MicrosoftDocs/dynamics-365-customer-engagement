@@ -40,6 +40,7 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
     If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
     > [!NOTE]
     > If you don't see the **Pipeline view** control in the **Add Control** list, look for the **Deal manager workspace** control.  
+
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
 
 1. Save the changes and select **Publish**.
