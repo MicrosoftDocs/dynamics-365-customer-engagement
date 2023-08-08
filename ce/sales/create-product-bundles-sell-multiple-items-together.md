@@ -35,8 +35,8 @@ A bundle is a collection of products that is sold as single unit. Product bundli
 
 Here are some things to know about bundles:  
   
-- You can mark certain products in a bundle as optional and sell them individually.  
-  
+- You can mark certain products in a bundle as optional and sell them individually. 
+- When your bundle has an optional product, the bundle can be added only to the price list that has this optional product with the same unit.
 - You can't add product families, kits, or other bundles to a bundle.  
 
 ## Create a product bundle (Sales Hub)
