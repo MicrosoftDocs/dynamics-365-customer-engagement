@@ -5,7 +5,7 @@ ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
-ms.topic: concept 
+ms.topic: conceptual 
 ms.collection:
 ms.date: 07/18/2023
 ms.custom: bap-template

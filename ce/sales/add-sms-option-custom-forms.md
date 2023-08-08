@@ -2,7 +2,7 @@
 title: Add text message option to custom forms
 description: "Add the text messages (SMS) option to your custom forms in Dynamics 365 Sales."
 ms.date: 02/23/2023
-ms.topic: how to
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ---
