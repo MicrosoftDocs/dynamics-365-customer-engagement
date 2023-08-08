@@ -1,10 +1,11 @@
 ---
-title: "Set up product bundles to sell multiple items| MicrosoftDocs"
-description: "Encourage customers to buy more products instead of a single product by combining products in a bundle."
+title: Set up product bundles to sell multiple items
+description: Encourage customers to buy more products instead of a single product by combining products in a bundle.
 ms.date: 10/26/2021
-ms.topic: get-started-article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-product
