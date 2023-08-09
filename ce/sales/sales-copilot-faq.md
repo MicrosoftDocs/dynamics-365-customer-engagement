@@ -17,7 +17,7 @@ When you type a question in the Copilot pane, we pass the relevant data to Azure
 
 ## Does Sales Copilot have abuse monitoring and human review?
 
-No. Our Azure Open AI resources have opted out of [abuse monitoring and human review](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. We use other techniques to monitor and filter out abusive content at runtime.
+No. Our Azure Open AI resources have opted out of [abuse monitoring and human review](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. We use other techniques to monitor and filter out abusive content at runtime.
 
 ## What data is included in the requests?
 
@@ -29,11 +29,11 @@ No, we don't save any of your data in any new data store. You can read more abou
 
 ## How Sales Copilot encrypts data?
 
-All data exchanges in Sales Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/en-us/trust-center/privacy/data-management).
+All data exchanges in Sales Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/trust-center/privacy/data-management).
 
 ## What privacy controls apply to the data received by the Azure Open AI service?
 
-All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure Open AI data and privacy commitments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy).
+All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure Open AI data and privacy commitments [here](/azure/ai-services/openai/faq#data-and-privacy).
 
 ## Where are the Azure Open AI endpoints hosted?
 
