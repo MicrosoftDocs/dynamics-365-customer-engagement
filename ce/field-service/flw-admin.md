@@ -62,8 +62,8 @@ The Field Service (Preview) Teams app requires the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
 - [Deploy Field Service (Preview) Teams app](#deploy-field-service-preview-teams-app)
-- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
+- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
 
@@ -153,7 +153,7 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
-   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add":::
+   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add" lightbox="media/fsp-cards.png:::
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
