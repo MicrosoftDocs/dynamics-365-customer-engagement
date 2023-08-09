@@ -105,7 +105,7 @@ Microsoft.Apm.createSession(
 
 ```
 
-You can also pass the following additional parameters:
+You can also pass the following parameters:
 
 ```JavaScript
 var controlDataParams = {};
