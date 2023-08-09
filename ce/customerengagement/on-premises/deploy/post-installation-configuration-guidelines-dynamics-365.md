@@ -173,7 +173,7 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 2.	Select the **Security** tab, select the **Local intranet** zone, select **Sites**, and then select **Advanced**.
 3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
 
-#### Grant application permission when using Windows Server 2016 AD FS 
+#### Grant application permission 
 On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS or later versions.
 
 ```powershell
