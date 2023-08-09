@@ -50,7 +50,7 @@ To see data related to work items and their status, you need to enable routing d
 
 ## Understand routing stages and diagnostics
 
-A diagnostic work item is a log record containing the details of events that occur through the different routing stages for a work item before it's assigned to an agent. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
+A diagnostics work item is a log record containing the details of events that occur through the different routing stages for a work item before it's assigned to an agent. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
 
 - **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
