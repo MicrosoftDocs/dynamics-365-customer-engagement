@@ -33,7 +33,7 @@ All data continues to be handled according to Microsoft data management guidelin
 All data continues to be handled according to Microsoft privacy guidelines. See [here](https://learn.microsoft.com/en-us/compliance/assurance/assurance-privacy). You can read more about the AOAI data and privacy commitments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy)
 
 **Q. Where are the AOAI endpoints hosted?<br>**
-Currently, we have AOAI resources in NAM and EUR. If your Dynamics environment is in NAM or Europe, all requests are routed to your geo's endpoint. For all other geos, your data will be routed to NAM if you enable Sales copilot. See details at [Dynamics 365 Sales Copilot data movement](https://learn.microsoft.com/en-us/dynamics365/sales/sales-copilot-data-movement).
+Currently, we have AOAI resources in NAM and EUR. If your Dynamics environment is in NAM or Europe, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the NAM endpoint, if you enable Sales copilot. See details at [Dynamics 365 Sales Copilot data movement](https://learn.microsoft.com/en-us/dynamics365/sales/sales-copilot-data-movement).
 
 **Q. Is any of my data used to train any AOAI/LLM models?** <br>
 No. We don't use any customer data to train any AOAI or any other LLM models.
