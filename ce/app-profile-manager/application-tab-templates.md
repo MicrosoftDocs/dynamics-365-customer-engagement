@@ -3,7 +3,7 @@ title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
 author: "gandhamm"
 ms.author: mgandham
-ms.date: 09/06/2022
+ms.date: 08/09/2023
 ms.topic: article
 ---
 
