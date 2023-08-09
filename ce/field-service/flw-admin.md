@@ -9,13 +9,13 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Field Service (Preview) for Administrators
+# Microsoft 365 integrations for Field Service for Administrators (preview)
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
-As an administrator for your organization, the set up tasks for the Field Service (Preview) depends on which capabilities your organization chooses to use. You can use one or the other or both.
+As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
-## [Field Service (Preview) Outlook](#tab/outlook)
+## [Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
@@ -56,7 +56,7 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Select **Next** and **Finish deployment**. Then, select **Done**.
 
-## [Field Service (Preview) Teams](#tab/teams)
+## [Field Service (Preview) for Teams](#tab/teams)
 
 The Field Service (Preview) Teams app requires the following setup:
 

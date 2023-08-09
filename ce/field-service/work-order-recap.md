@@ -55,7 +55,8 @@ For each lifecycle stage of the work order, we also include additional informati
 
 If there are errors or service limitations, the system returns an error message instead of a recap summary.
 
-## See also
+## Next steps
 
 - [FAQs for work order recap with copilot (preview)](faqs-work-order-recap.md)
 - [Responsible AI FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
+- [Work order form and component experience (preview)](work-order-experience.md)

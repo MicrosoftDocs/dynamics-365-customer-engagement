@@ -1,5 +1,5 @@
 ---
-title: Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
+title: Field Service Outlook add-in with Copilot for the Frontline Manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
 ms.date: 08/01/2023
 ms.topic: how-to
@@ -9,15 +9,15 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Field Service (Preview) Outlook add-in with Copilot for the Frontline Manager
+# Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
-The Dynamics 365 Field Service (Preview) provides an Outlook add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
+Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
 The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
 
-## Install the Field Service (Preview) Outlook add-in
+## Install the Field Service (Preview) Outlook Add-in
 
 If you don’t already have Outlook and Field Service licenses, contact your organization’s IT administrator. If your admin installed the add-in for your organization, you can skip this step.
 
@@ -37,7 +37,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 > [!NOTE]
 > Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
 
-## Open the Field Service (Preview) Outlook add-in
+## Open the Field Service (Preview) Outlook Add-in
 
 1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
 
