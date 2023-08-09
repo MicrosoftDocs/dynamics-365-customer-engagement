@@ -3,7 +3,7 @@ title: "Get Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 1.0."
 author: gandhamm
 ms.author: mgandham
-ms.date: 08/02/2023
+ms.date: 08/09/2023
 ms.topic: get-started
 ms.custom: 
   - "dyn365-a11y"
