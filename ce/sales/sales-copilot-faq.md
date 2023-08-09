@@ -1,8 +1,4 @@
 ---
-# Required metadata
-# For more information, see https://review.learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata?branch=main
-# For valid values of ms.service, ms.prod, and ms.topic, see https://review.learn.microsoft.com/en-us/help/platform/metadata-taxonomies?branch=main
-
 title:       Sales Copilot FAQ
 description: Includes frequently asked questions on Sales Copilot
 author:      lavanyakr01 # GitHub alias
@@ -12,29 +8,41 @@ ms.date:     07/27/2023
 ---
 
 # Sales Copilot FAQs
-Here are some frequently asked questions from customers of Sales Copilot in Dynamics 365 Sales.
 
-**Q. How does the data flow between Dynamics and AOAI endpoints?** <br>
-When you type a query in copilot, we pass the relevant data to AOAI via our plugins and services. We'll release a high-level architecture document around the GA timeframe.
+This article includes frequently asked questions about Sales Copilot in Dynamics 365 Sales.
 
-**Q. Have we opted out of abuse monitoring and human review?** <br>
-Yes. Our AOAI resources have opted out of [this feature](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure we dont retain any of your data outside the dynamics data boundary. We use other techniques to monitor and filter out abusive content at runtime.
+## How does the data flow between Dynamics 365 and Azure Open AI endpoints?
 
-**Q. What data is included in the requests?** <br>
-The data included in the requests varies as per the type of request made. For example, when you attempt to summarize your opportunity the relevant fields of the opportunity and associated metadata is pushed to the AOAI endpoint to generate a summary.
+When you type a question in the Copilot pane, we pass the relevant data to Azure Open AI through our plugins and services. We'll release a high-level architecture document around the GA timeframe.
 
-**Q. Is any of my data retained outside my CRM?** <br>
-We don't retain any of your data in any new data store. You can read more about the AOAI data and privacy commitments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy)
+## Does Sales Copilot have abuse monitoring and human review?
 
-**Q. How is the data encrypted?** <br>
-All data continues to be handled according to Microsoft data management guidelines. See [here](https://www.microsoft.com/en-us/trust-center/privacy/data-management).
+No. Our Azure Open AI resources have opted out of [abuse monitoring and human review](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. We use other techniques to monitor and filter out abusive content at runtime.
 
-**Q. What privacy controls apply to the data received by the AOAI service?** <br>
-All data continues to be handled according to Microsoft privacy guidelines. See [here](https://learn.microsoft.com/en-us/compliance/assurance/assurance-privacy). You can read more about the AOAI data and privacy commitments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy)
+## What data is included in the requests?
 
-**Q. Where are the AOAI endpoints hosted?<br>**
-Currently, we have AOAI resources in NAM and EUR. If your Dynamics environment is in NAM or Europe, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the NAM endpoint, if you enable Sales copilot. See details at [Dynamics 365 Sales Copilot data movement](https://learn.microsoft.com/en-us/dynamics365/sales/sales-copilot-data-movement).
+The data included in the requests varies based on the type of request made. For example, when you attempt to summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure Open AI endpoint to generate a summary.
 
-**Q. Is any of my data used to train any AOAI/LLM models?** <br>
-No. We don't use any customer data to train any AOAI or any other LLM models.
+## Is any of my data stored outside of Dynamics 365?
 
+No, we don't save any of your data in any new data store. You can read more about the [Azure Open AI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy)
+
+## How Sales Copilot encrypts data?
+
+All data exchanges in Sales Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/en-us/trust-center/privacy/data-management).
+
+## What privacy controls apply to the data received by the Azure Open AI service?
+
+All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure Open AI data and privacy commitments [here](https://learn.microsoft.com/en-us/azure/ai-services/openai/faq#data-and-privacy).
+
+## Where are the Azure Open AI endpoints hosted?
+
+Currently, the Azure Open AI resources are available in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the following endpoints, if you enable Sales Copilot:
+- Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint. 
+- Requests from all the other regions are routed to the North America endpoint.
+
+More information: [Dynamics 365 Sales Copilot data movement](sales-copilot-data-movement.md).
+
+## Do you use my company data to train any of the models?
+
+No. We don't use any customer data to train Azure Open AI or any other Large Language Models.
