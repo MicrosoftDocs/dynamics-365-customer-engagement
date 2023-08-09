@@ -153,7 +153,7 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
 
-   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add" lightbox="media/fsp-cards.png:::
+   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add" lightbox="media/fsp-cards.png":::
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
