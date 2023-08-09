@@ -1,7 +1,7 @@
 ---
 title: View diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 08/04/2023
+ms.date: 08/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -139,7 +139,7 @@ The following stages are available:
   > - The **Assignment Criteria** section in **Agent assignment trace** displays details only if the highest capacity or round robin assignment method has been used.
   > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
-    :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
+    :::image type="content" source="media/agent-assignment-trace.svg" alt-text="Information about assignment trace.":::
 
 ### Known issues
 
