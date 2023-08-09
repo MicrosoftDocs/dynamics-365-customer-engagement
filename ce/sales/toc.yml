@@ -178,6 +178,8 @@
         href: configure-sales-copilot.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -210,16 +212,6 @@
           href: teams-integration/sensitivity-labels.md
     - name: Productivity and document management
       items:
-        - name: Configure Copilot
-          items:
-            - name: Copilot overview (preview)
-              href: copilot-overview.md
-            - name: Enable and setup Copilot
-              href: enable-setup-copilot.md
-            - name: Configure Copilot capabilities
-              href: configure-sales-copilot.md
-            - name: Copilot data movement across geographies
-              href: sales-copilot-data-movement.md
         - name: Activity management
           items:
             - name: Set up the timeline control
@@ -715,6 +707,8 @@
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -1352,8 +1346,6 @@
       href: faq-sales.yml
     - name: Sales premium FAQs
       href: faqs-sales-insights.md
-    - name: Sales Copilot FAQs
-      href: sales-copilot-faq.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
 - name: Known issues
