@@ -1,12 +1,13 @@
 ---
-title: "Create a unit group and add units to that group (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales."
-ms.date: 10/26/2021
-ms.topic: article
+title: Create a unit group and add units to that group
+description: Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
+ms.date: 08/08/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - "dyn365-sales"
+  - bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -26,6 +27,7 @@ searchScope:
 Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 Sales.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -36,7 +38,12 @@ Define the quantities or measurements that you sell your products or services in
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
- In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
+ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. 
+
+> [!NOTE]
+> The Unit group table inherits its privileges from the Product table. For example, if a user has read and write privileges on the Product table, they get the same privileges on the Unit group table too.  
+
+Let's look at both of these tasks, using seeds as our example.  
  
 ## Create a unit group and add units
 
