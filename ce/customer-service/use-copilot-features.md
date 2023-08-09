@@ -147,3 +147,4 @@ You can also take the following actions:
 ### See also
 
 [Manage copilot features in Customer Service](configure-copilot-features.md)  
+[Responsible AI FAQ for copilot features](faq-copilot-for-customer-service.md)  

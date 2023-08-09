@@ -1,7 +1,7 @@
 ---
 title: "Search for transcripts in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to search for transcripts and view transcript details in Omnichannel for Customer Service."
-ms.date: 02/03/2020
+ms.date: 08/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,6 +24,9 @@ As an agent, you communicate with customers to resolve issues. All those convers
 4. Select a result. The **Conversation Form** opens in the application tab panel.
 
 You can now view the details in the **Transcript** section.
+
+> [!NOTE]
+> Users with the System Administrator role can access conversations that are handled by other agents.
 
 ### See also
 
