@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Configure contact center for Nuance Gatekeeper integration (preview)
 
+[This article is prerelease documentation and is subject to change.]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Use the information in this article to configure the following settings:

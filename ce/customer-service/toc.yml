@@ -928,7 +928,7 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service
+    - name: Copilot in Customer Service (preview)
       items:
       - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
