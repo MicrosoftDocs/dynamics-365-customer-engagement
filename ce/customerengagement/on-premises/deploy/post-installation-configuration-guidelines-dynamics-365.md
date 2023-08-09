@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "07/26/2021"
+ms.date: "08/09/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -174,7 +174,7 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
 
 #### Grant application permission when using Windows Server 2016 AD FS 
-On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.
+On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS or later versions.
 
 ```powershell
 Grant-AdfsApplicationPermission -ClientRoleIdentifier "<client_id/org_id>" -ServerRoleIdentifier "<org_auth_url>"
