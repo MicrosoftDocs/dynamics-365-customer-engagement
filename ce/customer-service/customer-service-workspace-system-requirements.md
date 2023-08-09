@@ -25,7 +25,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | Area | Requirements |
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service workspace app 9.2.0000.00000. |
-| Web browsers | Supported browsers: <li> Microsoft Edge; Latest three major releases</li> <li> Google Chrome; Latest three major releases </li> |
+| Web browsers | Supported browsers: <li> Microsoft Edge; latest three major releases</li> <li> Google Chrome; latest three major releases </li> |
 |||
 
 ### Hardware requirements
