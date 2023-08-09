@@ -212,8 +212,6 @@
       items:
         - name: Configure Copilot
           items:
-            - name: Sales Copilot FAQs
-              href: sales-copilot-faq.md
             - name: Copilot overview (preview)
               href: copilot-overview.md
             - name: Enable and setup Copilot
@@ -1354,6 +1352,8 @@
       href: faq-sales.yml
     - name: Sales premium FAQs
       href: faqs-sales-insights.md
+    - name: Sales Copilot FAQs
+      href: sales-copilot-faq.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
 - name: Known issues
