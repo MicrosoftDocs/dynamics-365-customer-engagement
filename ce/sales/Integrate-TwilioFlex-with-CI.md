@@ -1,7 +1,7 @@
 ﻿---
-title: Integrate Twilio Flex with Dynamics 365 conversation intelligence
+title: Integrate Twilio Flex with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure Twilio Flex and Dynamics 365 to get conversation intelligence for calls made or received from Twilio Flex dialers.
-ms.date: 06/20/2023
+ms.date: 08/09/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -9,9 +9,13 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Integrate Twilio Flex with Dynamics 365 conversation intelligence
+# Integrate Twilio Flex with Dynamics 365 conversation intelligence (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This integration lets your sellers make and receive Twilio Flex calls from Dynamics 365 and get real-time transcriptions during the call and AI-generated call insights after the call.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Prerequisites
 
