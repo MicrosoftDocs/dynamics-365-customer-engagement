@@ -80,8 +80,6 @@ To get to the sitemap, select the menu icon. The sitemap quickly gets you to imp
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 To access the app navigation in the new mobile UX (preview), select "More..." in the bottom right. All items in sitemap open the corresponding screens in the Unified Interface UX.
 
 > [!div]
