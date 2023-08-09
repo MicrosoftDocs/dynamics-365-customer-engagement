@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 01/11/2023
+ms.date: 08/09/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -21,7 +21,7 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?
 
-Customers will get unified routing for entities, such as Cases, Leads, and custom entities, as part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
+[See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
 
 ### What will happen to my current workstreams after unified routing is installed?
 

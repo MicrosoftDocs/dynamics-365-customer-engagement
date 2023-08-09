@@ -1,7 +1,7 @@
 ---
 title: "Provision unified routing in Customer Service | MicrosoftDocs"
 description: "Learn how to provision unified routing in Customer Service."
-ms.date: 08/08/2023
+ms.date: 08/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,12 +14,12 @@ Perform the steps mentioned in this topic to provision unified routing in Custom
 ## Prerequisites
 
 - Ensure that the provisioning user has the following permissions:
-  - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
-  - Customer Service Representative or CSR Manager to be able to set up configuration. 
+  - Microsoft 365 Global admin role. More information: [Assign admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
+  - Customer Service Representative or CSR Manager to be able to set up configuration.
   - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
   - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
-- **License required for Unified Routing**:  
-Customers will get unified routing for entities, such as Cases, Leads, and custom entities, as part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
+- **License required for unified routing**:  
+With the Customer Service Enterprise license, you'll get unified routing for tables, such as Cases, Leads, and custom tables. The license for Chat and Digital messaging includes unified routing for chat, SMS, and messaging channels, and the Teams channel.
 
 ## Provision unified routing for only Customer Service
 
