@@ -830,9 +830,13 @@
           href: create-edit-opportunity-sales.md
           items:
             - name: Add products to an opportunity
-              href: add-products-opportunity.md
-            - name: Add products to an opportunity by using the enhanced experience
-              href: add-products-enhanced-experience.md
+              items:
+              - name: Add product using Quick Create form 
+                href: add-products-opportunity.md
+              - name: Add multiple products to an opportunity by using the enhanced experience
+                href: add-products-enhanced-experience.md
+              - name: How the search works on Add Products dialog
+                href: add-products-search.md
             - name: Add stakeholders, sales team, and competitors
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
