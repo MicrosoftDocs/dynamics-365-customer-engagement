@@ -478,12 +478,12 @@
         - name: Work assignment
           href: work-assignment-intro.md      
           items:
-            - name: Create and activate a segment
-              href: create-and-activate-a-segment.md
+            - name: Create and activate segments
+              href: wa-create-and-activate-a-segment.md
             - name: Manage assignment rules
               href: create-manage-assignment-rules.md              
               items:
-                - name: Create and activate an assignment rule
+                - name: Create and activate assignment rules
                   href: create-and-activate-assignment-rule.md
                 - name: Edit an assignment rule
                   href: edit-assignment-rule.md
@@ -509,6 +509,17 @@
                   href: manage-seller-availability.md
             - name: Understand lead distributions
               href: understand-lead-distributions-assignment-rules.md                  
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: Import custom insights model into Dataverse
+              href: import-insights-model-into-dataverse.md
+            - name: Enable seller insights
+              href: enable-seller-insights.md
+            - name: Manage access permissions to view insights
+              href: manage-access-view-insights.md
+            - name: Configure assignment rule to auto assign insights
+              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage segments
           href: manage-segments.md
           items:
@@ -567,17 +578,6 @@
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
-        - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
-          items:
-            - name: Import custom insights model into Dataverse
-              href: import-insights-model-into-dataverse.md
-            - name: Enable seller insights
-              href: enable-seller-insights.md
-            - name: Manage access permissions to view insights
-              href: manage-access-view-insights.md
-            - name: Configure assignment rule to auto assign insights
-              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
