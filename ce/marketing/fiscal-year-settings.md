@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define fiscal year settings
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A fiscal period defines the time reflected in financial reports. It is used for reporting financial data in each period.
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 Marketing.

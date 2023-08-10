@@ -1,7 +1,7 @@
 ---
-title: "How to use aggregate cross-journey analytics (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing."
-ms.date: 02/21/2023
+title: How to use aggregate cross-journey analytics
+description: Learn how to use and interpret real-time marketing aggregate cross-journey analytics in Dynamics 365 Marketing.
+ms.date: 07/17/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # How to use aggregate cross-journey analytics
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Aggregate cross-journey analytics allow you to analyze your orchestrated journeys and evaluate their performance. Cross-journey analytics address your reporting needs by providing a performance dashboard out of the box with beautiful Power BI visuals. Use the dashboard to enhance stakeholder presentations regarding your journey's performance.
 
@@ -28,6 +30,13 @@ The cross-journey analytics dashboard allows you to check in on the performance 
 - Check in on the experiments that have been run in a journey.
 
 The following sections describe the widgets in greater depth.
+
+## KPI summary charts
+
+KPI summary charts summarize the cross-journey key performance indicators for the specified time period. You can further filter the charts by journey name, journey status, or journey goal.
+- **Email engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of emails sent.
+- **Push notification engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of push notifications sent.
+- **Text message engagement rate**: The number of unique users that opened or clicked on the links divided by the total number of text messages sent.
 
 ## Overall effectiveness
 
@@ -65,6 +74,6 @@ Here, you can see an overview of all the experiments that have been run for the 
 
 Here are some advanced resources for this topic:
 
-- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/extracting-marketing-interactions-in-dynamics-365-marketing)
+- [Extracting Marketing Interactions in Dynamics 365 Marketing](https://community.dynamics.com/blogs/post/?postid=4e96ca1e-52ed-4ae4-9887-af8d6e563304)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

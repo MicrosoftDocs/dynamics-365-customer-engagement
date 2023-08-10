@@ -1,8 +1,8 @@
 ---
-title: "Handle Custom plug-in by using shared variable (Dynamics 365 Sales)"
-description: "Use a shared variable in your custom plug-in to prevent it from triggering operations on parent tables."
+title: Handle Custom plug-in by using shared variable
+description: Use a shared variable in your custom plug-in to prevent it from triggering operations on parent tables.
 ms.date: 10/26/2021
-ms.topic: get-started-article
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 

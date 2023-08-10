@@ -168,6 +168,18 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
+    - name: Configure Copilot
+      items:
+      - name: Copilot overview (preview)
+        href: copilot-overview.md
+      - name: Enable and setup Copilot
+        href: enable-setup-copilot.md
+      - name: Configure Copilot capabilities
+        href: configure-sales-copilot.md
+      - name: Copilot data movement across geographies
+        href: sales-copilot-data-movement.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -556,12 +568,6 @@
               href: optimize-ranking-insight-cards.md
             - name: Add the assistant widget to custom forms
               href: add-assistant-widget-custom-forms.md
-        - name: Playbook management
-          items:
-            - name: Define playbook categories
-              href: define-playbook-categories.md
-            - name: Manage playbook templates
-              href: manage-playbook-templates.md
     - name: Relationship intelligence
       items:
         - name: Relationship intelligence overview
@@ -614,6 +620,10 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Integrate third-party dialers (preview) 
+          href: ci-third-party-sp-integration.md
+        - name: Integrate with Twilio Flex (preview)
+          href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -687,6 +697,18 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
+    - name: Use Copilot
+      items:
+      - name: Copilot overview (preview)
+        href: copilot-overview.md
+      - name: Use Copilot capabilities
+        href: use-sales-copilot.md
+      - name: Compose and send email messages using Copilot
+        href: compose-send-email-copilot.md
+      - name: View and copy email summary
+        href: view-copy-email-summary.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -812,9 +834,13 @@
           href: create-edit-opportunity-sales.md
           items:
             - name: Add products to an opportunity
-              href: add-products-opportunity.md
-            - name: Add products to an opportunity by using the enhanced experience
-              href: add-products-enhanced-experience.md
+              items:
+              - name: Add product using Quick Create form 
+                href: add-products-opportunity.md
+              - name: Add multiple products to an opportunity by using the enhanced experience
+                href: add-products-enhanced-experience.md
+              - name: How the search works on Add Products dialog
+                href: add-products-search.md
             - name: Add stakeholders, sales team, and competitors
               href: add-stakeholder.md
             - name: Move the opportunity through different stages
@@ -945,18 +971,6 @@
               href: assistant.md
             - name: Stay updated with cards in assistant
               href: action-cards-reference.md
-        - name: Playbook management
-          items:
-            - name: Associate documents with playbook activities
-              href: associate-documents-playbook-activities.md
-            - name: Enforce best practices with playbooks
-              href: enforce-best-practices-playbooks.md
-            - name: Launch a playbook to carry out activities consistently
-              href: launch-playbook.md
-            - name: Mark playbook as completed
-              href: mark-playbook-completed.md
-            - name: Track playbook activities
-              href: track-playbook-activities.md
     - name: Relationship intelligence
       items:
         - name: Relationship analytics and KPIs overview
@@ -1190,6 +1204,8 @@
           href: developer/entities/list.md
         - name: Metric
           href: developer/entities/metric.md
+        - name: msdyn_callablecontext
+          href: developer/entities/msdyn_callablecontext.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
@@ -1200,23 +1216,6 @@
           href: developer/entities/opportunitysalesprocess.md
         - name: OrderClose
           href: developer/entities/orderclose.md
-        - name: Playbooks
-          items:
-            - name: Table reference
-              href: developer/reference/playbook-entity-reference.md
-              items:
-                - name: msdyn_playbookinstance
-                  href: developer/entities/msdyn_playbookinstance.md
-                - name: msdyn_playbookactivity
-                  href: developer/entities/msdyn_playbookactivity.md
-                - name: msdyn_playbookactivityattribute
-                  href: developer/entities/msdyn_playbookactivityattribute.md
-                - name: msdyn_playbookcategory
-                  href: developer/entities/msdyn_playbookcategory.md
-                - name: msdyn_playbooktemplate
-                  href: developer/entities/msdyn_playbooktemplate.md
-                - name: msdyn_callablecontext
-                  href: developer/entities/msdyn_callablecontext.md
         - name: PriceLevel
           href: developer/entities/pricelevel.md
         - name: Product
@@ -1355,6 +1354,14 @@
   href: deprecations-sales.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
+- name: Responsible AI
+  items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for summarization in Sales Copilot
+      href: faqs-sales-copilot-for-summarization.md
+    - name: FAQ for email in Sales Copilot
+      href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

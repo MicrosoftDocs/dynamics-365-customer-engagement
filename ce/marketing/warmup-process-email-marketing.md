@@ -15,6 +15,8 @@ search.audienceType:
 
 # Warm-up process for marketing senders
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Domain warming is the process of methodically adding email volume to a new domain over several days or weeks. Gradually “warming up" the domain establishes a positive sending reputation with mailbox providers.
 
 Whether you use shared or dedicated IP addresses, the initial warm-up process is important for every sender. Warming up your domain together with your ESP’s IP addresses is crucial, whether you use a brand new domain (with no reputation) or an already in use domain (with good reputation) for your email campaigns. Warm-up is especially critical for senders who plan to use brand new domains and send large volumes of emails in their customer journeys (up to 500,000 emails per day or customer journey).

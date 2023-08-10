@@ -2,7 +2,7 @@
 title: "Omnichannel admin center | MicrosoftDocs"
 description: "Get started with Omnichannel admin center"
 ms.date: 09/30/2022
-ms.topic: get-started-article
+ms.topic: get-started
 author: neeranelli
 ms.collection: get-started
 ms.author: nenellim

@@ -7,5 +7,5 @@
 
      :::image type="content" source="../customer-service/media/migration-entity-to-compare.png" alt-text="Example of an entity to compare on update.":::
 
-  > [!NOTE]
-  > The sample query listed in the following table gets single or multiple records. The query has considered the entity as incident and task. Based on your requirements, ensure that you update the entity logical name in the FetchXML query.
+> [!NOTE]
+> The sample query listed in the following table gets single or multiple records. The query has considered the entity as incident and task. Based on your requirements, ensure that you update the entity logical name in the FetchXML query.

@@ -1,7 +1,7 @@
 ---
-title: Manage user compliance settings in real-time marketing
-description: Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing.
-ms.date: 10/04/2021
+title: Grow your business with multi-brand, custom preference centers
+description: Learn how to manage real-time marketing user compliance settings in Dynamics 365 Marketing.
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -15,115 +15,68 @@ search.audienceType:
 
 # Manage user compliance settings in real-time marketing
 
-Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference page setup, and outbound consent settings.
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
-## Compliance terms and definitions
+Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. For information on outbound marketing compliance, visit [Outbound marketing compliance settings](privacy-use-features.md).
 
-- **Consent center** (**Real-time marketing** > **Audience** > **Consent center**): The area within real-time marketing where you can manage your customers’ consent per contact point, either for email or mobile phone number.
-- **Compliance** (**Settings** > **Customer engagement** > **Compliance**): The area within the Dynamics 365 Marketing settings where an administrator sets up compliance for:
-    - **Real-time marketing**: The administrator can select the consent model, select whether to request tracking consent from your customers, enter the company’s physical address, and define the content of the end user’s preference center page.
-    -	**Outbound marketing**: The administrator can enable use of the minimum consent level attribute for customer journeys and audit the *Consent given* field (formerly called *GDPR configuration*).
-- **Consent model**: The model that is applied throughout the system. There are two options to select from: Restrictive and Non-Restrictive (see details below).
-- **Preference center page**: A web page where your customers can change their consent settings for receiving emails and text messages, as well as for tracking.
-- **Audience data** (**Settings** > **Customer engagement** > **Audience configuration**): The administrator can define which fields from **Profile**, **Lead**, and **Contact** entities contain customers’ email addresses and mobile phone numbers, and which fields can be used by email and SMS channels in real-time marketing.
-- **Contact-based consent**: Customer consent that is stored on a contact level (for example, on a contact record). Consent is applied any time an email or SMS message is sent to the contact on any of the email addresses or phone numbers associated with it. Outbound marketing consent is contact-based.
-- **Contact point-based consent**: In this model, customers give consent for specific contact points—for example, a work email address or a private phone number.
-    - If there are other emails or phone numbers provided by the same customer, consent must be requested separately for each of them.  
-    - If multiple people share the same email address or phone number, then they also share consent. For example, if contact A opted out from email 1, contact B (sharing same email) will be opted out as well.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW137KU]
 
-## Compliance setup
+## Real-time marketing compliance overview
 
-At the time of setup or later, an administrator needs to go to **Settings** > **Customer engagement** > **Compliance** and define the consent model, the company address, and customize the preference center page for your end users.
+To configure real-time marketing compliance, administrators can go to **Settings** > **Customer engagement** > **Compliance profiles** to define the consent model, the company address, and customize the preference center page for your end users.
 
-First, the administrator must select which consent model your system will use. The consent model selection is made once and can’t be changed afterwards.
+### Contact point consent
 
-By default, the **Restrictive** model is selected.
+A contact point is the destination for a message. For example, an email address or phone number is a contact point. Real-time marketing consent is contact point based, which means consent is stored per destination and per channel. For example, the email `somebody@example.com` has consented to receive commercial communications about upcoming events. This is different than outbound marketing's consent model that stored consent on the contact entity. With real-time marketing's contact point consent, customers have more control over where they want to receive marketing messages from your organization.
 
-There are two options to select from. With the **Restrictive** model, your customers will be required to opt in to receive marketing emails and text messages, and allow behavior tracking. Default values for these fields are the following:
+Another benefit of contact point consent is that it allows for real-time marketing to orchestrate journeys across any entity and enforce consent for leads, Customer Insights profiles, contacts, and any other entity.
 
-| Allow Email  | Allow SMS    | Allow Tracking   |
-|--------------|--------------|------------------|
-| FALSE        | FALSE        | FALSE            | 
+### Compliance profiles
 
-> [!NOTE]
-> Double opt-in is not currently supported in real-time customer journeys.
- 
-With the **Non-restrictive** model, your customers’ initial opt-ins will *not* be required to receive marketing emails and allow behavior tracking. However, sending text messages will still require customers to opt in first. Default values for these fields are the following:
+Compliance profiles are the containers of consent settings. In some instances, customers may want to separate consent for brands or lines-of-business (LOBs) by creating separate compliance profiles for each. Compliance profiles give marketers the ability to create specific consent settings for various LOBs. For instance, if there are headquarters in different regions whose physical address should show for recipients in that region, each compliance profile can have its own address.  
 
-| Allow Email  | Allow SMS    | Allow Tracking   |
-|--------------|--------------|------------------|
-| TRUE         | FALSE        | TRUE             | 
+Another reason for having multiple compliance profiles would be to support different compliance requirements across regions. For example, a company that operates in the United States and France may choose to have a separate compliance profile for those two locations. Within the United States version, the commercial purpose could be set to a nonrestrictive enforcement model, because the U.S. isn't subject to GDPR regulations. Within the France version, however, they may set the commercial purpose to the restrictive enforcement model to require explicit consent before sending any commercial or promotional materials.
 
-You can define whether to gather tracking consent from your customers by selecting the **Get tracking consent from customers** toggle. By default, the toggle is set to **Yes**, which adds the consent to the Preference page. If you choose to not gather tracking consent, you'll be requested to enter the default value for the type of consent the system will use.
+When you create a new compliance profile, you can **Use previously captured consent**. This option is intended to facilitate transitioning from a compliance profile with a preference page to one with a preference center. It creates new contact point consent records with the same consent values for the new compliance profile to ensure that any consent previously captured applies to the new compliance profile.
 
-> [!NOTE]
-> If tracking consent is set to **No**, you will not be able to capture customer interactions such as whether the customer has opened an email.
+### Purposes
 
-The administrator will also need to enter a valid physical postal address for your organization. You may change the address at any time, either in the compliance center or directly in the email editor. The address will be included by default in the content of all marketing emails. 
+Data Use Purpose Consent (hereafter called “purpose”) defines the specific reason for which consent is collected. It's often associated with a specific legal basis or reason – for example, consent to be contacted for commercial marketing purposes. In Dynamics 365 Marketing, there are three purposes for consent scopes: (1) Commercial Communication, (2) Transactional Communication, and (3) Tracking Consent. When a compliance profile is created, there are three purposes created by default: a Commercial, Transactional, and Tracking purpose that can be customized to meet your specific needs.
 
-> [!IMPORTANT]
-> If the physical address field is empty, you will see a warning both in the email editor and in the customer journey designer.
+Purpose consent also allows customers to create line-of-business (LOB) separation without using Dataverse business units or separate compliance profiles. Each LOB has a preference center configured for each business, and each LOB has a set of purposes associated with it that's specific to each LOB. Each message (for example, email or text message) is tied to a single preference center and an associated purpose.
 
-## Preference page
+Each organization may need to define separate purposes for each of their LOBs individually – for example, Contoso Northwest may want to manage consent independently from Contoso East. They would create a Commercial Communication Purpose for each LOB so they could manage opt-in or opt-out of Commercial Communication independently for each LOB.
 
-The second step in setting up the compliance center is defining the content for the Preference page. The Preference page is the public web page that your customers can access to review and change their consent settings.
+### Topics
+
+Each Purpose can contain topics to add specific communications types to allow customers to refine their communications preferences. For example, Contoso Northwest may want to add topics such as "Newsletters," "Daily Deals," and "Product Announcements" to the commercial purpose to allow their customers to decide which specific topics interest them. When creating a message to send, marketers must choose a purpose and can optionally choose a topic that has been created. Recipients can then choose to opt in or out of the topics that interest them.
+
+Messages that have a topic chosen respect the enforcement model of the parent purpose. For example, if the parent purpose has a restrictive enforcement model, a contact point must have an opt-in record for both the purpose and the topic associated with the email.
+
+### Enforcement model
+
+There are three enforcement models for purposes that can be chosen depending on compliance regulations:
+
+- **Restrictive**: Only contact points that have opted-in consent records for this purpose receive communications.
+- **Non-restrictive**: Contact points with either opted-in or not set consent records for this purpose receive communications.
+- **Disabled**: The communications for this purpose aren't checked for consent and sent to the entire audience.
 
 > [!NOTE]
-> The following Preference page examples are not recommendations or advice on what you are legally required to have in your compliance Preference page. It is your sole responsibility to ensure that you comply with all applicable laws, including obtaining valid consents from your end users.
+> Currently, all SMS and custom messages are subject to the restrictive enforcement model, even if their designated purpose has a non-restrictive enforcement model set. This behavior will change in a future release.
 
-The Preference page includes the following content:
+### Preference centers
 
-- **Page title**: The title of the page.
-- **Description**: A description that explains the purpose of the page.
-- Names and descriptions of all three consent dimensions.
-    - **Allow email**
-    - **Allow SMS**
-    - **Allow tracking**
-- **Legal text**: Usually contains hyperlinks to your Terms of Service and Privacy Policy, which are displayed at the bottom of the page.
-- **Consent change reason label**: Text for the *Consent change reason* dropdown.
-- **Submit button label**: Text for the *Submit* button.
-- **Thank you page**: Text for the confirmation or thank you page (in case of success).
-- **Error page**: Text for the error page (in case of error in submitting).
+Each compliance profile has its own preference center. When you create a new compliance profile, a default preference center is created that you can customize with your own branding. You can add different topics to its purposes to collect consent from that compliance profile. The unsubscribe links in emails direct recipients to the preference center from the compliance profile chosen on the email they received.
+
+To learn more about preference centers, visit [Real-time marketing preference centers](real-time-marketing-preference-centers.md)
 
 > [!NOTE]
-> You can preview your Preference page by selecting the **Preview the page** link on the bottom of the page. It will open a new window and show an example of the Preference page with the changes you've made.
-
-After configuring the **Compliance** and **Preference page** tabs, select **Save**.
-
-> [!NOTE]
-> Settings for outbound marketing consent will be taken from your Marketing environment (GDPR configuration). These settings are optional, and depend on the approach you’ve selected to manage consent in outbound marketing customer journeys. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md)
-
-## Outbound consent
-
-Outbound marketing has a different consent model than real-time marketing. Real-time marketing's consent model, however, does not affect outbound marketing functionality. In other words, if you install real-time marketing, all of outbound marketing's features and requirements are left intact.
-
-Learn more about outbound marketing's consent model: [Data protection and the GDPR](gdpr.md)
-
-After you install real-time marketing, you will notice a slight change in the settings related to the GDPR configuration. To enable the GDPR configuration, go to **Settings** > **Compliance** > **Outbound consent**.
-
-> [!div class="mx-imgBorder"]
-> ![Configure outbound consent screenshot.](media/real-time-marketing-outbound-consent.png "Configure outbound consent screenshot")
-
-By default, both switches are turned off. If you had a GDPR configuration enabled before, the system will respect your previous settings.
-
-In outbound marketing, you can configure each customer journey (and lead scoring model) to only process contacts that have given a minimum required level of consent. To enable this consent control, activate the **Enable the minimum consent level selection drop down** switch.
-
-The second switch, **Log consent changes for this field**, enables logging of contact attribute *Consent given* changes.
-
-After making changes to the **Outbound consent** settings, select **Save** in the top-left corner of the window.
-
-### Use outbound consent in customer journeys
-
-To use this feature in customer journeys:
-
-1. Gather consent from your end users. Consent should be captured in the *Consent given* field.
-1. Set a minimum consent level for the customer journey.
-
-You can find the audit data for the *Consent given* field in a user's contact record.
+> Currently, you can deactivate a compliance profile or contact point consent record. However, deactivated profiles and contact point consent records will still be used and enforced because existing journeys or messages sent may rely on them. Should you wish to update a user's consent, go to the contact point consent record itself and change the consent value.
 
 ### See also
 
-[Work with data protection and GDPR](gdpr.md)  
-[Use GDPR features](gdpr-use-features.md)  
+[Manage consent for email and text messages in real-time marketing](real-time-marketing-email-text-consent.md)
+[Real-time marketing preference centers](real-time-marketing-preference-centers.md)
+[Outbound marketing compliance settings](gdpr-use-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

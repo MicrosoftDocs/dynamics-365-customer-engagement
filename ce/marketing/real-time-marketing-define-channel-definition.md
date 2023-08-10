@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define the custom channel
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Applicable channels: SMS, custom
 
 Now that you've defined the parts of your custom channel, it's time to define the channel. This step is where you connect all the previous pieces in one metadata file, which is a record of the **Channel Definition** entity (`msdyn_channeldefinition`).

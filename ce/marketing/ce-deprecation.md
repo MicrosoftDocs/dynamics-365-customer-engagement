@@ -15,6 +15,8 @@ search.audienceType:
 
 # Deprecation: Dynamics 365 for Customer Engagement
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 In October 2019, Microsoft deprecated the *Dynamics 365 for Customer Engagement* SKU/license plan. Dynamics 365 for Customer Engagement included the following Dynamics 365 apps and their related services:
 
 - Dynamics 365 Marketing

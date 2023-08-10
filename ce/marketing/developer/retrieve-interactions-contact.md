@@ -13,6 +13,8 @@ search.audienceType:
 
 # Retrieve interactions for a contact using code
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > The method below to retrieve interactions has been deprecated and may not be available in the future.
 >

@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/03/2023
+ms.date: 07/21/2023
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ With integrated search providers in Dynamics 365 Customer Service, you can confi
 
 ## Prerequisites
 
-If you're a first time user, you must provision integrated search providers. Make sure you have the following privileges:
+If you're a first-time user, you must provision integrated search providers. Make sure that you have the following privileges:
 
 - Basic level: **prvReadconnector**
 - Global level:
@@ -41,7 +41,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 ## Enable the Integrated Search API trigger flow
 
 > [!NOTE]
-> To turn on the **Integrated Search API trigger** flow, make sure you have the **prvReadWorkflow** (Global level) privileges.
+> To turn on the **Integrated Search API trigger** flow, you must have the **prvReadWorkflow** (Global-level) privileges.
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Create and configure the Field Service Portal
-description: Set up and configure the Field Service Portal.
+title: Create and configure the Field Service portal
+description: Set up and configure the Field Service portal.
 ms.date: 05/03/2023
 ms.topic: how-to
 author: m-hartmann
@@ -10,7 +10,7 @@ search.app:
   - D365FS
 ---
 
-# Create and configure the Field Service Portal
+# Create and configure the Field Service portal
 
 The following sections guide you through the setup process and provide helpful information to configure the portal template.
 
@@ -25,7 +25,7 @@ The following sections guide you through the setup process and provide helpful i
    > [!div class="mx-imgBorder"]
    > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
 
-1. Enter the name of the portal, the desired subdomain, and choose a display language and select **Create**.
+1. Enter the name of the portal, the desired subdomain, choose a display language, and select **Create**.
 
 The Power Pages portal site gets created in the background. This process can take a few minutes. You'll get an email when it's ready or you can check the notification area for updates.
 
@@ -35,7 +35,7 @@ Admins can configure most customer portal settings directly in Field Service.
 
 In Field Service, open the **Settings** area. Under **Customer Portal**, select **Customer Portal** and open the settings record.
 
-:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the customer portal settings in Dynamics 365 Field Service.":::
+:::image type="content" source="media/customer-portal-settings.svg" alt-text="Screenshot of the Customer Portal settings in Dynamics 365 Field Service.":::
 
 ### Configuration tab
 
@@ -49,7 +49,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Send self-scheduling experience to Account Contacts**: Enables automated notifications with access information for the portal. The information is sent to every contact that isn't part of an excluded account. When enabling this feature, choose if you want to send invites to all contacts or only to new contacts moving forward.
 
-- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service Portal (preview)](customer-portal-notification-settings.md).
+- **Messages**: Messages are sent at specific points of the work order lifecycle. These messages can be enabled or disabled independently. For details on each message, go to [Set up notifications for the Field Service portal (preview)](customer-portal-notification-settings.md).
 
 - **Communication Type**: Define whether you want the system to send your customer email, SMS, or both message types.
 
@@ -63,11 +63,11 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
 
-- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invitations to the portal either.
+- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invites to the portal either.
 
 ### Display tab
 
-Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
+Use this tab to set basic design values for the portal. The Advanced Display Configuration field contains the direct link to open [the Power Pages designer](/power-apps/maker/portals/configure/configure-portal). Use the Portal Management app to configure all the details for your portal.
 
 ### Track my technician tab
 

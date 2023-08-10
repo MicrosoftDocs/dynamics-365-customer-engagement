@@ -1,7 +1,7 @@
 ---
 title: "Configure case forecasting in Customer Service | Microsoft Docs"
 description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/01/2023
+ms.date: 07/06/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -60,12 +60,23 @@ The Forecast report uses an AI-backed forecasting model that predicts case volum
 
 The report can forecast daily trends for a date range up to six months, and intraday (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
-- For daily case volume forecasting, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report will forecast for the next six months.
-- For intraday (15 minutes interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks will be analyzed to generate the forecast.
+- For daily case volume forecasting, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
+- For intraday (15 minutes interval) case volume forecasting, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
 
-The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message will be posted on the admin settings page.  
+The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message is posted on the admin settings page.  
 
 - At least two weeks of historical data is available.
+
+## Key considerations to enhance forecast accuracy
+
+We recommend the following criteria for utilizing users' data to generate accurate forecasts.
+
+- Non-sparse data: The dataset contains information for every day, ensuring that there isn't missing or incomplete data. Each day has a recorded volume, providing a comprehensive set of observations.
+- Clear weekly pattern: The data exhibits a weekly pattern, wherein the volume consistently follows a specific trend. For instance, weekends consistently have low volumes, while workdays show higher volumes, and vice versa. This pattern helps in establishing a reliable basis for forecasting.
+- Volume-based accuracy: If the criteria are met, the forecast quality improves with larger volume inputs. Higher volumes of data contribute to a more accurate and robust forecast.
+- Absence of level shift: Recent days and future periods don't experience any sudden or significant shifts in volume levels. This absence of sudden changes ensures that the historical patterns remain relevant and dependable for forecasting purposes.
+- Longer historical data set: If all the above criteria are met, a longer history of data further improves the forecast accuracy. A greater historical data set provides a broader perspective and a more comprehensive understanding of the patterns and trends over time. With an extended history, the forecast model can capture and incorporate more variations, leading to more accurate predictions.
+- Weighting recent forecast accuracy: When considering future periods, it's important to acknowledge that the accuracy of the forecast tends to be higher for more immediate timeframes. As time progresses into the future, the certainty and precision of the forecast may decrease. Therefore, the most recent forecast should be given more weight and considered to have better accuracy compared to forecasts for distant future periods.
 
 ## Prerequisites
 
@@ -97,7 +108,7 @@ For users in your organization to be able to access the forecast reports, they m
   
 1. If you want to change the time zone to use for forecasting, under **Time zone for daily forecasting**, select time zone you want.
 
-1. If you want to select a particular date that the data starts from, under **Historical data start date (optional)**, choose the **Start date** you want. The latest (closest) date that the start date can be is at least two weeks back from the current date. If nothing is selected, the start date will be decided based on the earliest creation date of all of your historical records, up to two years. If the start date you select is earlier than two years, only last two years of data will be used.
+1. If you want to select a particular date that the data starts from, under **Historical data start date (optional)**, choose the **Start date** you want. The latest (closest) date that the start date can be is at least two weeks back from the current date. If nothing is selected, the start date is decided based on the earliest creation date of all of your historical records, up to two years. If the start date you select is earlier than two years, only last two years of data is used.
 
 1. If you want to specify seasonality, under **Seasonality**, select the **Use schedules from Holiday Calendar** check box. Selecting the **Holiday Calendar** link opens the **All Holiday Schedules** page, where you can create a new schedule or select an existing schedule.
 

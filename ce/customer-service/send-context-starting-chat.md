@@ -1,12 +1,12 @@
 ---
-title: "Send custom context | MicrosoftDocs"
+title: "Send custom context during live chat| MicrosoftDocs"
 description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
 ms.date: 01/20/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ---
-# Send custom context
+# Send custom context during live chat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -53,7 +53,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-For information about how to display the context variables, see [Display custom context](display-custom-context.md).
+For information about how to display the context variables in Conversation summary, see [Display custom context](display-custom-context.md).
 
 
 ### See also

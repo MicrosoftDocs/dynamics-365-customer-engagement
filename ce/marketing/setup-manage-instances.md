@@ -17,6 +17,8 @@ search.audienceType:
 
 # Set up and manage Marketing instances
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Topics in this section describe how to set up marketing for the first time, and how to update, backup, recall, copy, and uninstall marketing instances.
 
 

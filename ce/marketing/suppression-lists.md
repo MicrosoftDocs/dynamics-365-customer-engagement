@@ -15,6 +15,8 @@ search.audienceType:
 
 # How Dynamics 365 Marketing uses suppression lists
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A suppression list is a powerful backend tool that ensures your sending reputation stays healthy. Suppression lists prevent email messages from being sent to harmful recipient addresses.
 
 This article discusses types of harmful address, then details how suppression lists prevent your emails from reaching these addresses.
