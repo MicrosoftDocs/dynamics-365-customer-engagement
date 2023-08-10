@@ -1,5 +1,5 @@
 ---
-title:       Dynamics 365 Sales Copilot FAQ
+title:       FAQs about Sales Copilot in Dynamics 365 Sales
 description: Includes frequently asked questions about Dynamics 365 Sales Copilot, covering various aspects such as privacy, data security, data management, and more.
 author:      lavanyakr01 # GitHub alias
 ms.author:    lavanyakr
@@ -7,7 +7,7 @@ ms.topic:    concept
 ms.date:     07/27/2023
 ---
 
-# Dynamics 365 Sales Copilot FAQs
+# FAQs about Sales Copilot in Dynamics 365 Sales
 
 This article includes frequently asked questions about Sales Copilot in Dynamics 365 Sales.
 
