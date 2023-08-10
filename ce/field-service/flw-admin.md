@@ -62,8 +62,8 @@ The Field Service (Preview) Teams app requires the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
 - [Deploy Field Service (Preview) Teams app](#deploy-field-service-preview-teams-app)
-- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
+- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
 - [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
 
