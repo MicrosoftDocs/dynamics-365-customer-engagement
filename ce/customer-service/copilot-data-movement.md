@@ -11,15 +11,9 @@ ms.custom: bap-template
 
 # Copilot data movement across geographies (preview)
 
-> [!IMPORTANT]
->
-> [!INCLUDE [cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE [cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 The copilot AI features use the Microsoft Azure OpenAI Service, which is available only in the [United States](https://dynamics.microsoft.com/availability-reports/georeport). As a result, copilot AI features are provided only to customers who have selected the United States as their geography for data processing and storage. However, customers outside the United States can use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. Opting in may result in the transfer of data outside their default geography.
 

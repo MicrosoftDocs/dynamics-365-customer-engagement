@@ -1,6 +1,6 @@
 ---
-title: "Find and add multiple products to opportunity | MicrosoftDocs"
-description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
+title: Find and add multiple products to opportunity
+description: Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities.
 ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
@@ -23,6 +23,7 @@ Use the enhanced experience to quickly identify and add multiple products from t
 > Product families are only supported for Sales Enterprise and Sales Premium.  
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -81,7 +82,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 6. Use one of the following options to identify and add products:
 
-   - If you know the product names, simply search for them and add.
+   - If you know the product names, simply search for them and add. [Learn more about how the search works](add-products-search.md).
    - (Applicable for Sales Premium and Sales Enterprise) To choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]

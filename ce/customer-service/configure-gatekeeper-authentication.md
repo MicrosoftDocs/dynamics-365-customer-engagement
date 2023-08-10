@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Add an authentication setting for Nuance Gatekeeper (preview)
 
+[This article is prerelease documentation and is subject to change.]
+
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Prerequisites
