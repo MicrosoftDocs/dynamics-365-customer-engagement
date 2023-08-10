@@ -178,6 +178,8 @@
         href: configure-sales-copilot.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -705,6 +707,8 @@
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
