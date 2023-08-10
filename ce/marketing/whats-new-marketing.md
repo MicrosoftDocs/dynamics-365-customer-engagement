@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 07/10/2023
+ms.date: 07/26/2023
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # What's new in Dynamics 365 Marketing
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
@@ -29,9 +31,12 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.96.2027      |
+| Real-time marketing        |  1.1.26671.175      |
 
 > [!IMPORTANT]
+> With the July 2023 release, customer consent data began migration to utilize the new multi-brand consent features. For some Marketing users, the migration changed the settings that control whether tracking links are included in messages. The changes may prevent tracking in messages if customers have not given explicit consent. After the migration, if you want to enable tracking links in messages for customers who have not provided tracking consent, [update the **Tracking purpose** enforcement model](real-time-marketing-email-text-consent.md#consent-enforcement-diagram) of your **Compliance Profile(s)** to "Non-restrictive." This enables tracking links to be substituted in emails as long as the receiver has not explicitly opted out of tracking.
+
+> [!TIP]
 > Starting in July 2023, custom workflows can no longer *read* from the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities. To ensure continued functionality, you must update custom workflows to read from the latest **msdynmkt_contactpointconsent4** entity.
 >
 > Custom workflows that *write* to the **msdynmkt_contactpointconsent2** and **msdynmkt_contactpointconsent3** consent entities will automatically have data synced to the latest **msdynmkt_contactpointconsent4** entity until January 2024, with some delay (potentially 24 hours or longer). If your workflows depend on data being available sooner than that, you should update your workflows to *write* to the **msdynmkt_contactpointconsent4** entity instead.
@@ -75,7 +80,7 @@ To submit and vote on **feature requests** and **product suggestions**, go to th
     - [Docs](real-time-marketing-email.md#preview-and-test-send-your-email)
 
 - **Easily include QR codes for event registration, link, page, or any custom text**
-    - QR codes are widely used to share information that is easily actionable on mobile devices with just a simple scan. They are an effective tool for promoting and increasing engagement for various purposes like` events, web pages, coupons, and more. The Email designer already includes a feature that allows easy insertion of QR codes for commonly used targets such as events, URLs, surveys, and file downloads. Now, we have added two additional targets. The "Event registration code" target fills a gap in real-time functionality by supporting QR codes for event registration pages along with the registration code needed for check-in. The "Text" option enables you to generate a QR code for any text you type in. Additionally, you can make it dynamic by using personalized data like discount codes or loyalty program membership numbers.
+    - QR codes are widely used to share information that is easily actionable on mobile devices with just a simple scan. They are an effective tool for promoting and increasing engagement for various purposes like events, web pages, coupons, and more. The email designer already includes a feature that allows easy insertion of QR codes for commonly used targets such as events, URLs, surveys, and file downloads. Now, we've added two additional targets. The "Event registration code" target fills a gap in real-time functionality by supporting QR codes for event registration pages along with the registration code needed for check-in. The "Text" option enables you to generate a QR code for any text you type in. Additionally, you can make the QR code dynamic by using personalized data like discount codes or loyalty program membership numbers.
     - [Docs](email-design.md)
 
 ### Public preview
@@ -106,7 +111,7 @@ Public preview features include tailoring communications to improve customer eng
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.95.2014.0    |
+| Real-time marketing        |  1.1.25335.62    |
 
 ### General availability
 
@@ -127,7 +132,7 @@ Public preview features include tailoring communications to improve customer eng
 - **Tailor communications to the topics customers want to receive**
     - Improve customer engagement and reduce unsubscriptions by giving customers granular control over the real-time marketing messages they receive. Target your messages to the audience that wants to engage with your content the most by capturing detailed consent.  Allow customers to subscribe to the topics that matter to them while capturing the consent you need to satisfy legal and regulatory requirements. Avoid embarrassing and costly configuration mistakes by leveraging real-time marketing topic support, preventing the complications of maintaining and enforcing lists of subscribed customers, all while taking advantage of enhanced real-time marketing preference centers that better represent your brand.
     - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/tailor-communications-topics-customers-want-receive)
-    - [Docs](real-time-marketing-compliance-settings-preview.md#topics)
+    - [Docs](real-time-marketing-compliance-settings.md#topics)
 
 ### Monthly enhancements
 
@@ -151,7 +156,7 @@ Public preview features include AI-powered milestone attribution analysis, multi
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.94.2009.0    |
+| Real-time marketing        |  1.1.24040.75    |
 
 ### General availability
 
@@ -238,7 +243,7 @@ Monthly enhancements include tracking of unique opens and clicks, attachment sup
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        |  1.93.2021.0    |
+| Real-time marketing        |  1.1.10512.27    |
 
 ### General availability
 

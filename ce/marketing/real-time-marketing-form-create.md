@@ -1,7 +1,7 @@
 ---
 title: Create real-time marketing forms
 description: Create real-time marketing forms in Dynamics 365 Marketing.
-ms.date: 05/15/2023
+ms.date: 07/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # Create real-time marketing forms
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 To create a new form, go to **Real-time marketing** > **Channels** > **Forms** and select **New** on the command bar.
 
@@ -85,12 +87,10 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     > [!div class="mx-imgBorder"]
     > ![Add consent element to the form.](media/real-time-marketing-form-consent-element.png)
 
-    Adding the Commercial communications and Tracking consent elements creates Contact point consent records for the chosen channels, email, and text. In addition, these fields will update the Contact's Bulk email and Tracking consent values based on the preferences submitted as a part of this form.
-
-    If you have enabled the Multi-brand consent and customizable preference centers (preview) feature switch, you'll be able to add purposes and topics from your compliance profiles onto the form directly to capture consent for any purposes and topics that have been configured.
+    Adding purpose and topics consent elements creates contact point consent records for the chosen channels, email, and text.
 
 > [!NOTE]
-> Customers who adopted the Real-time marketing forms preview may need to remove and re-add consent elements to forms created during the preview due to underlying changes with the consent entities. This has no impact on consent captured by preview forms.
+> Customers may need to remove and re-add consent elements to forms created prior to August 2023 due to underlying changes with the consent entities. This has no impact on consent captured by existing forms and simply updates the form to reflect the revised consent entities.
 
 1. Now it's time to preview your for to check the responsiveness. To open the form preview, select the **Preview and test** tab. You can select various platforms to check how the form renders on a mobile device or a tablet.
 
@@ -123,5 +123,10 @@ Once the form is published, you can still access these options by selecting the 
 > `https://assets-usa.mkt.dynamics.com`
 >
 > If you would like to disable the domain for form hosting, reach out to support.
+
+### See also
+
+[Grow your business with multi-brand, custom preference centers](real-time-marketing-compliance-settings.md)
+[Real-time marketing preference centers](real-time-marketing-preference-centers.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

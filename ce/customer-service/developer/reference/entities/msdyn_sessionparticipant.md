@@ -797,7 +797,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocsession Entity [msdyn_ocsession_sessionparticipant_nested](msdyn_ocsession.md#BKMK_msdyn_ocsession_sessionparticipant_nested) One-To-Many relationship.
+See msdyn_ocsession Entity msdyn_ocsession_sessionparticipant_nested One-To-Many relationship.
 
 ### See also
 

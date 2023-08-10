@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 06/23/2023
+ms.date: 07/13/2023
 author: neeranelli
 ms.author: nenellim
 ---
@@ -95,9 +95,10 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://*.omnichannelengagementhub.com/*`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
-- `https://comms.omnichannelengagementhub.com`
+- `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
+
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
@@ -109,7 +110,7 @@ If your customers are using a URL filter to block a category of websites or URLs
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
-- `https://comms.omnichannelengagementhub.com`
+- `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/*`

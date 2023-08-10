@@ -33,7 +33,7 @@
       topicHref: /dynamics365/sales/index
     - name: Customer Service
       tocHref: /dynamics365/customer-service/
-      topicHref: /customer-service/index
+      topicHref: /dynamics365/customer-service/index
     - name: Universal Resource Scheduling
       tocHref: /dynamics365/common-scheduler/
       topicHref: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Use brand profiles in real-time marketing email
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Brand profiles allow you to create consistently branded content efficiently, even if your organization has multiple brands. You can create multiple brand profiles for your organization or profiles for each of your business units. To learn about creating brand profiles, see [Create consistent branding with brand profiles](brand-profiles.md).
 
 This article describes how to use brand profiles in the real-time marketing email designer.

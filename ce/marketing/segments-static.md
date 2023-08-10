@@ -16,6 +16,8 @@ search.audienceType:
 
 # Design static segments
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Static segments enable you to choose and add segment members manually based on existing lists or search results.
 
 To create a static segment, go to **Customers** > **Segments**. Click the **New** dropdown on the top ribbon. Then, select the **Static Segment** option, as described in [Create and go live with a new segment](segmentation-lists-subscriptions.md#create-segment).

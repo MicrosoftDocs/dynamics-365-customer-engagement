@@ -15,6 +15,8 @@ search.audienceType:
 
 # Customer interactions timeline
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The interactions timeline for a contact or lead provides a unified view of historical interactions based on customer activities in Dynamics 365 Marketing (both real-time  and outbound), Sales, and Customer Service.
 
 You can also view Customer Insights activities in the timeline. Learn more: [Integrate Customer Insights activities with Dynamics 365 timelines](/dynamics365/customer-insights/activities-in-d365-timeline)

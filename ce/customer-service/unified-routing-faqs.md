@@ -2,7 +2,7 @@
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
 ms.date: 01/11/2023
-ms.topic: concept
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -33,14 +33,14 @@ There is no downtime involved when you are migrating the workstreams, but it's r
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
+These workstreams were created either in the Customer Service admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
 
-### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
+### How do I migrate my configurations from the Omnichannel Administration app to the Customer Service admin center app?
 
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 > [!NOTE]
-> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center or Omnichannel admin center app only. We recommend that you familiarize yourself with these apps before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
+> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center app. We recommend that you familiarize yourself with the app before migrating. More information: [Get started with Customer Service admin center](cs-admin-center.md).
 
 ### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
@@ -74,7 +74,7 @@ The existing queues will be automatically migrated to unified routing.
 
 ### Can I route any record type by using basic routing?
 
-No. Basic routing can be used only for cases. To route any record type, use unified routing.
+No. Basic routing can be used for cases only. To route any record type, use unified routing.
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 

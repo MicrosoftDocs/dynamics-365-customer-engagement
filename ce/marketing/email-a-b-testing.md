@@ -16,6 +16,8 @@ search.audienceType:
 
 # Design and run A/B tests on your email designs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use email A/B testing to find out which of two similar designs is likely to be the most successful and then send the winning design to the remaining audience automatically. You start by creating a control design (the "A" version), and then using that as the basis to create a "B" version of the design in which you have modified a small part of it (such as the subject or an image). Finally, run the test as part of a customer journey.
 
 The journey runs the entire test automatically. It starts by sending version A to a small part of your segment (for example 10% of contacts, selected randomly) while also sending version B to another part of the segment (typically also 10%). It waits for a period of time you choose (for example, 24 hours) and then analyzes the interaction results and chooses a winner based on your selected criteria (such as most opened). The journey then sends the winning design to the rest of the segment (the remaining 80%) automatically.

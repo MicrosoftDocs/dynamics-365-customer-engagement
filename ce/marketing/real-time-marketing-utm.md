@@ -15,6 +15,8 @@ search.audienceType:
 
 # Measure marketing effectiveness using UTM codes
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW10UxA]
 
 UTM (Urchin Tracking Module) codes are an essential tool for marketers as they allow them to track the effectiveness of their digital marketing. By adding UTM parameters to URLs, marketers can track the specific source, medium, and journey name that generated website visitors. Using UTM codes makes it easier to understand which journeys are driving the most traffic and conversions. The traffic and conversion information can then be used to optimize marketing strategies and allocate budget more effectively.

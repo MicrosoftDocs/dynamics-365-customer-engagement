@@ -15,6 +15,8 @@ search.audienceType:
 
 # Working with segments
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Segments let you create groups of related contacts that you can target with customer journeys. Segments are created using the segment designer. One way to build segments is by querying across related entities including contacts, leads, accounts, events, marketing lists, and more. You can also query the marketing-insights service to find contacts that have engaged with your marketing initiatives. The marketing-insights service also allows you to query contacts that you aren't reaching because of issues such as email bounces.
 
 The segment designer resembles other querying tools found in Dynamics 365 (such as the advanced-find feature), but is more flexible and powerful. The segment designer is the only tool that lets you query interaction records from the marketing-insights service.
