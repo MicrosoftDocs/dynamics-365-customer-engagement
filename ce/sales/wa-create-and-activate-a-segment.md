@@ -24,36 +24,38 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 <!--markdownlint-disable MD036-->
 ## Create and activate a segment
 <!--markdownlint-enable MD036-->
 
-1. Sign in to your Dynamics 365 Sales Hub app.
-1. In the lower-left corner of the page, go to **Change area**, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Segments**.
-1. On the **Segments** page, in the **Record type** list, select a record type.
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+1. Under **Sales accelerator**, select **work assignment**.
+1. On the **work assignment** page, in the **Record type** list, select a record type.
 
-    By default, the lead and opportunity record types are available. The list also includes all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section of the sales accelerator configuration.
+    By default, the lead, opportunity, suggestion record types are available. The list also includes all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section of the sales accelerator configuration.
 
-1. Select **New segment**.
-1. In the **Create a segment for \<*record type*\>** dialog box, enter a name and description for the segment. In the **Priority** field, enter a priority.
-
-    Set a priority for every segment. Records that meet the criteria for multiple segments are assigned to the segment that has the highest priority. You can change the priority of a segment at any time. By default, the priority is set to the priority of the last segment that was created. The default, out-of-box segment always has the lowest priority.
+1. Select **+ New segment**.
+1. In the **Create a segment for \<*record type*\>** dialog box, enter the following information:
+    - A name and description for the segment.  
+    - In the **Priority** field, enter a priority.  
+        Set a priority for every segment. Records that meet the criteria for multiple segments are assigned to the segment that has the highest priority. You can change the priority of a segment at any time. By default, the priority is set to the priority of the last segment that was created. The default, out-of-box segment always has the lowest priority.
 
 1. Select **Next**.
 
     The segment condition builder page opens.
 
-    :::image type="content" source="media/sa-segment-condition-builder-home-page.png" alt-text="Screenshot of the segment condition builder page.":::
+    :::image type="content" source="media/wa-segment-condition-builder-home-page.png" alt-text="Screenshot of the segment condition builder page.":::
 
-1. <a name="allow-records-move-from-another-segment"></a>(Optional) To allow records from another segment to move to this segment, turn on **Allow records to be moved from other segments to this one**. The application validates the records for conditions that are defined in this segment and moves the records accordingly, although the records are connected to a different segment. When they are moved, the records are connected to the sequence from this segment. However, the assignment rules aren't changed. To apply the current assignment rule to the moved records, select the **Update seller assignment as well** checkbox.
+1. In the condition builder, under **And**, select **Add**. Use the following options to define the conditions that are used to evaluate records:
 
-    :::image type="content" source="media/sa-segment-allow-records-to-move.png" alt-text="Screenshot that shows the option for allowing records to move to this segment and apply the current assignment rules.":::
-
-1. On the **Builder** tab, under **And**, select **Add**. Use the following options to define the conditions that are used to evaluate records:
+    > [!NOTE]
+    >
+    > You can have a maximum of 10 conditions in a segment at any time. This number includes conditions that are defined with groups and related entities. The condition limit is added to optimize the runtime experience for segments and therefore ensure faster execution and improved efficiency. If you exceed the limit, a message informs you that the limit has been reached and the segment can't be saved. [Learn about best practices for adding conditions](#recommendations-for-adding-conditions) section.
+    >
+    > To increase the limit for conditions in segments, contact Microsoft Support for help.
 
     - **Add row**: Add conditions that define when the segment should be applied. In the following example, the row specifies that the segment should be applied to leads that are created by the user John Thomas.
 
@@ -61,8 +63,7 @@ As a sequence manager, you create segments (groups of records) by defining diffe
         1. In the second column, select an operator in the list. (For example, select *Equals*.)
         1. In the third column, enter a value to filter by. (For example, enter *John Thomas*.)
 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.](media/sa-segment-condition-add-row.png "Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas")
+            :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::
 
         You can create more conditions to further filter the leads that the segment should be applied to.
 
@@ -72,13 +73,11 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 
             If you select **And**, the segment is applied only to leads that meet all the conditions in the group. If you select **Or**, the segment is applied to leads that meet any condition in the group. For example, to apply the segment to leads that are created by Kenny Smith *and* that have the company name Contoso, select **And**.
 
-            > [!div class="mx-imgBorder"]
-            > ![Screenshot that shows a condition group being added.](media/sa-segment-condition-add-group.png "Screenshot that shows a condition group being added")
+            :::image type="content" source="media/sa-segment-condition-add-group.png" alt-text="Screenshot that shows a condition group being added.":::
 
         1. Define the conditions to add to the group.
 
-            > [!div class="mx-imgBorder"]
-            > ![Screenshot that shows conditions added to the group.](media/sa-segment-condition-add-group-select-condition.png "Screenshot that shows conditions added to the group")
+            :::image type="content" source="media/sa-segment-condition-add-group-select-condition.png" alt-text="Screenshot that shows conditions added to the group.":::
 
         You can create multiple groups and further filter the leads based on the conditions that are defined in the groups.
 
@@ -88,18 +87,9 @@ As a sequence manager, you create segments (groups of records) by defining diffe
         1. In the list to the right, select either **Contains data** or **Does not contain data**.
         1. Define the condition.
 
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot that shows a condition added for a related entity.](media/sa-segment-condition-add-related-entity.png "Screenshot that shows a condition added for a related entity")
+            :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity":::
 
-    > [!NOTE]
-    > You can have a maximum of 10 conditions in a segment at any time. This number includes conditions that are defined with groups and related entities. The condition limit is added to optimize the runtime experience for segments and therefore ensure faster execution and improved efficiency. If you exceed the limit, a message informs you that the limit has been reached and the segment can't be saved. [Learn about best practices for adding conditions](#recommendations-for-adding-conditions) section.
-    >
-    > To increase the limit for conditions in segments, contact Microsoft Support for help.
-
-1. When you've finished defining the conditions for the segment, select **Simulate results** to verify that they work as intended.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot that shows the Simulate results button.](media/sa-segment-condition-builder-select-simulate-results.png "Screenshot that shows the Simulate results button")
+1. (Optional) When you've finished defining the conditions for the segment, select **Simulate results** to verify that they work as intended.
 
     A list of records that satisfy the conditions that you defined for the segment is shown.
 
@@ -113,17 +103,22 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 
 1. Select **Save** and then **Activate**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot that shows the Save and Activate buttons.](media/sa-segment-condition-builder-select-save-activate.png "Screenshot that shows the Save and Activate buttons")
+    :::image type="content" source="media/wa-segment-condition-builder-select-save-activate.png" alt-text="Screenshot that shows the Save and Activate buttons.":::
 
-    A confirmation message box opens.
-
-1. Select **Activate**.
+1. On the confirmation message, select **Activate**.
 
 The segment is activated. You can now connect it to a sequence or a record.
 
 > [!NOTE]
 > As of the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time that you update the attributes of the primary entity that are added to the conditions.
+
+## Next steps
+
+After you create a segment, you can do the following tasks:
+
+- [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md)
+- [Create an assignment rule for a segment](create-assignment-rule-for-segment.md)    
+- [View and edit properties of a segment](wa-view-details-segment.md)
 
 ## Recommendations for adding conditions
 
@@ -138,6 +133,5 @@ You can have a maximum of 10 conditions in segments at any given time. However, 
 ### See also
 
 [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  
-[View details of a segment](view-details-segment.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Edit a segment](wa-edit-a-segment.md)  
+[View and edit properties of a segment](wa-view-details-segment.md)

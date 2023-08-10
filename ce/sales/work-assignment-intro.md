@@ -32,13 +32,13 @@ Segments helps you to categorize records based on specific criteria such as loca
 You can use the segment builder to:
 
 - [Create and activate segments](wa-create-and-activate-a-segment.md).
-- [Connect a segment to a sequence](connect-a-segment-to-sequence.md).
-- [View details of a segment](view-details-segment.md).
-- [Edit a segment](edit-a-segment.md).
-- [Prioritize segment](prioritize-segment.md).
-- [Delete or deactivate a segment](delete-deactivate-a-segment.md).
 - [Manage assignment rules](#what-are-assignment-rules).
- 
+- [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md).
+- [View and edit properties of a segment](wa-view-details-segment.md).
+- [Edit a segment](wa-edit-a-segment.md)
+- [Prioritize segment](prioritize-segment.md).
+- [Delete or deactivate a segment](wa-delete-deactivate-a-segment.md).
+
 ## What are assignment rules?
 
 Assignment rules enable new leads, opportunities, and suggestions to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
@@ -57,8 +57,6 @@ You can use the assignment rules designer to do the following tasks:
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md).
 - [Edit an assignment rule](edit-assignment-rule.md).
 - [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md). 
-- [Manage sales teams](manage-sales-teams.md).
-- [Manage seller attributes](manage-seller-attributes.md).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 

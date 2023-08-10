@@ -489,24 +489,25 @@
                   href: edit-assignment-rule.md
                 - name: Delete or deactivate an assignment rule
                   href: delete-deactivate-assignment-rule.md
-            - name: Connect a sequence to segment
-              href: connect-a-segment-to-sequence.md
-            - name: View details of a segment
-              href: view-details-segment.md
-            - name: Edit segment properties
-              href: edit-a-segment.md  
-            - name: Manage unassigned records
-              href: manage-unassigned-records.md
+            - name: Connect a sequence to a segment
+              href: wa-connect-a-segment-to-sequence.md
+            - name: View and edit properties of a segment
+              href: wa-view-details-segment.md
+            - name: Edit a segment
+              href: wa-edit-a-segment.md  
             - name: Delete segment
-              href: delete-deactivate-a-segment.md
+              href: wa-delete-deactivate-a-segment.md
+            - name: Manage unassigned records
+              href: wa-manage-unassigned-records.md
             - name: Manage work assignment settings
+              href: wa-work-assignment-manage-settings.md
               items:
-                - name: Configure security roles
-                  href: manage-sales-teams.md
+                - name: Configure security roles to assign records
+                  href: wa-manage-sales-teams.md
                 - name: Manage seller attributes
-                  href: manage-seller-attributes.md
+                  href: wa-manage-seller-attributes.md
                 - name: Manage seller availability
-                  href: manage-seller-availability.md
+                  href: wa-manage-seller-availability.md
             - name: Understand lead distributions
               href: understand-lead-distributions-assignment-rules.md                  
         - name: Get seller insights to improve seller effectiveness
