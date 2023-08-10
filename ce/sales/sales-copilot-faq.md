@@ -38,6 +38,7 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 ## Where are the Azure Open AI endpoints hosted?
 
 Currently, the Azure Open AI resources are available in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the following endpoints, if you enable Sales Copilot:
+
 - Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint. 
 - Requests from all the other regions are routed to the North America endpoint.
 

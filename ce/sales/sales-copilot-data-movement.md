@@ -7,7 +7,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 07/18/2023
+ms.date: 08/10/2023
 ms.custom: bap-template
 ---
 
@@ -23,12 +23,17 @@ ms.custom: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Sales Copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the United States and Europe geography. As a result, the Sales Copilot features are provided to only those customers who have selected the United States or Europe as their chosen geography for data processing and storage. However, customers outside of the United States or Europe can still use these features by opting in to share relevant data with the Azure OpenAI Service in the United States or Europe, whichever is closer to their  geography . This opt-in may result in the transfer of relevant data outside of their default geography.
+Sales Copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the following endpoints, if you enable Sales Copilot:
+
+- Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint.  
+- Requests from all the other regions are routed to the North America endpoint. 
+
+ You'll see the opt-in terms when you enable Sales Copilot for regions other than North America or Europe. The opt-in terms mention about the transfer of relevant data outside of your default geography.
 
 > [!NOTE]
-> The opt-in terms aren't applicable to organizations in the United States or Europe geography and therefore won't be visible to them.
+> The opt-in terms aren't applicable to organizations in the North America or Europe geography and therefore won't be visible to customers in these regions.
 
-When you use any copilot feature in an organization that's outside the United States or Europe geography, your data, including personal data, used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
+When you use any copilot feature in an organization that's outside the North America or Europe geography, your data, including personal data, used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
