@@ -23,7 +23,7 @@ ms.custom: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Sales Copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geo's endpoint. For all other geos, your requests will be routed to the following endpoints, if you enable Sales Copilot:
+Sales Copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geography's endpoint. For all other geographies, your requests will be routed to the following endpoints, if you enable Sales Copilot:
 
 - Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint.  
 - Requests from all the other regions are routed to the North America endpoint. 
