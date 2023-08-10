@@ -1,7 +1,7 @@
 ---
 title: "Visualize results from your scoring model for real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to visualize results from your scoring model for real-time marketing in Dynamics 365 Marketing."
-ms.date: 07/31/2023
+ms.date: 08/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -27,7 +27,7 @@ After your lead scoring model is published and scores are calculated, you can se
 1. Score distribution among all leads
 1. Volume of leads per grade
 
-The data helps you identify high-potential customers based on scores. For example, a lead with 30 points, which is a score higher than 90% of your customers, is ready to move directly to your sales team. This data can also be used as input for other orchestration features. For example, you can create orchestrate a personalized experience for leads who are warm and turn them into Hot leads that can move to your sales team.  There are multiple ways to do this, one is creating a segment for leads with a score between 13 and 19 points, and then use that segment in a journey.
+The data helps you identify high-potential customers based on scores. For example, a lead with 30 points, which is a score higher than 90% of your customers, is ready to move directly to your sales team. This data can also be used as input for other orchestration features. For example, you can create a personalized experience for leads who are warm and turn them into Hot leads that can move to your sales team.  There are multiple ways to do this, one is creating a segment for leads with a score between 13 and 19 points, and then use that segment in a journey.
 
-If you want to review more granular results, you can select the **Lead scores** tab. In the Lead scores tab, you can see all leads scored by the model with their respective scores and grades.  For example, if you want to validate your scoring models results, you can access each lead record and review the scores calculated.
+If you want to review more granular results, you can select the **Leads tab**. In the Lead scores tab, you can see all leads scored by the model with their respective scores and grades.  For example, if you want to validate your scoring models results, you can access each lead record and review the scores calculated.
 
