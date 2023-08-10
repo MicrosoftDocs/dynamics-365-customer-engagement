@@ -30,8 +30,12 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 1. Go to **Resource groups** and select the required resource group. 
 1. Select the required **Resource** from the resource group.
-1. Select **Properties** in **Settings**. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
-  :::image type="content" source="media/acs-resource-property.png" alt-text="resource property" :::
+    :::image type="content" source="media/acs-resource-existing-mini.png" alt-text="runtime experience for the " lightbox="media/acs-existing-resource.png":::
+1.  Select **Properties** in **Settings**. 
+     :::image type="content" source="media/acs-resource-property.png" alt-text="resource property" :::
+1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
+   :::image type="content" source="media/acs-property-records-mini.png" alt-text="runtime experience for the " lightbox="media/acs-resource-property.png":::
+
 
 1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
@@ -39,7 +43,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 #### Get application and tenant IDs from the Azure portal
 
-You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **vent grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
+You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
 
 1. Open the **App registrations** page on the Azure portal.
 
@@ -53,9 +57,9 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then note the value.
+1. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
 
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
 
     :::image type="content" source="media/acs-resource-application.png" alt-text="resource application" :::
 
