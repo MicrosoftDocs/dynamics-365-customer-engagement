@@ -19,7 +19,7 @@ Perform the steps mentioned in this topic to provision unified routing in Custom
   - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
   - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
 - **License required for unified routing**:  
-With the Customer Service Enterprise license, you'll get unified routing for tables, such as Cases, Leads, and custom tables. The license for Chat and Digital messaging includes unified routing for chat, SMS, and messaging channels, and the Teams channel.
+With the Customer Service Enterprise license, you'll get unified routing for tables, such as Cases, Leads, and custom tables. The license for Chat and Digital messaging includes unified routing for chat, SMS, and messaging channels, and the Teams channel. More information: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 ## Provision unified routing for only Customer Service
 
