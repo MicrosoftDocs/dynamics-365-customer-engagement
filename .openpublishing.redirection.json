@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/mobile-public-preview-overview.md",
+      "redirect_url": "/dynamics365/field-service/mobile-powerapp-newux-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/user-guide.md",
       "redirect_url": "/dynamics365/field-service/",
       "redirect_document_id": "false"
@@ -25376,6 +25381,11 @@
     {
       "source_path": "ce/customer-service/search-control-for-subjects.md",
       "redirect_url": "/dynamics365/customer-service/create-manage-subject-tree",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-install.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-overview",
       "redirect_document_id": "false"
     }
   ]

@@ -1,7 +1,7 @@
 ---
-title: "Use Customer Insights profiles and segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to use Customer Insights profiles and segments in real-time marketing."
-ms.date: 03/21/2022
+title: Use Customer Insights profiles and segments in real-time marketing
+description: Learn how to use Customer Insights profiles and segments in real-time marketing.
+ms.date: 08/07/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -43,7 +43,7 @@ To set up your Customer Insights data for real-time marketing customer journeys,
 
 Marketing can automatically discover Customer Insights data and make it available for real-time marketing. To ensure automatic discovery, complete the following steps:
 
-1. If you haven't [enabled real-time marketing](real-time-marketing-install.md) or are yet to install the Dynamics 365 Marketing application in a Dataverse org, complete the steps [in the section above](real-time-marketing-ci-profile.md#set-up-your-customer-insights-environment-for-real-time-marketing) to first set up your Customer Insights environment. If you complete these steps before real-time marketing is installed in the Dataverse org, the Marketing app will automatically discover the Customer Insights environment. You can verify whether Marketing has discovered the Customer Insights environment by going to **Settings** > **Data management** > **Customer Insights connector**.
+1. If you haven't provisioned the Dynamics 365 Marketing application in a Dataverse org, complete the steps [in the section above](real-time-marketing-ci-profile.md#set-up-your-customer-insights-environment-for-real-time-marketing) to first set up your Customer Insights environment. If you complete these steps before real-time marketing is installed in the Dataverse org, the Marketing app will automatically discover the Customer Insights environment. You can verify whether Marketing has discovered the Customer Insights environment by going to **Settings** > **Data management** > **Customer Insights connector**.
 1. If you’ve already enabled real-time marketing in the Marketing app prior to setting up Customer Insights as described above, the automatic discovery won't take place. In this case, **Settings** > **Data management** > **Customer Insights connector** shows the following screen:
 
 > [!div class="mx-imgBorder"]

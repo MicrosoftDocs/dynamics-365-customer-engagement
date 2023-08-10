@@ -1,5 +1,5 @@
 ---
-title: Enable Copilot features in Customer Service
+title: Enable Copilot features in Customer Service (preview)
 description: Learn how to enable the various Copilot features in Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,16 +10,11 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Manage Copilot features in Customer Service (Preview)
+# Manage Copilot features in Customer Service (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 

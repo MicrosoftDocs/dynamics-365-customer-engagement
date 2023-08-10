@@ -46,7 +46,7 @@ Bing Maps is enabled by default for new environments outside the EU. EU customer
 1. Turn on the toggle and save the changes.
 1. Verify the changes by opening a contact, lead, or account form.
     You'll see a new **Address** field and a Bing map after all the address fields. The field suggests addresses as you type and will populate address fields once you select an address, as shown in the following image.  
-    :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
+    :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the Address suggestion field and the Bing map.":::
 
 > [!NOTE]
 > If your organization is using Dynamics 365 Field Service and has [enabled address suggestions](/dynamics365/field-service/field-service-maps-address-locations#enable-address-suggestions), then the address suggestions for the main contact, account forms will be controlled by the Field Service settings.  

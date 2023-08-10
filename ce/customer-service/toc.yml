@@ -928,7 +928,7 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service
+    - name: Copilot in Customer Service (preview)
       items:
       - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
@@ -1438,6 +1438,8 @@
         href: developer/reference/entities/msdyn_conversationaction.md
       - name: msdyn_conversationactionlocale
         href: developer/reference/entities/msdyn_conversationactionlocale.md
+      - name: msdyn_conversationmessageblock
+        href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
       - name: msdyn_customengagementctx
