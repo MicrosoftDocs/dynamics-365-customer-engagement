@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/24/2023
+ms.date: 08/10/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -62,7 +62,7 @@ The following table lists the condition and action pairs available for different
 For overflow to work correctly, the following prerequisites must be met:
 
 - Agents should be configured for the queues.
-- To transfer calls to an external phone number, phone numbers should be available.
+- To transfer calls, make sure that external phone numbers with outbound calling are available.
 
 ## Configure overflow conditions
 
