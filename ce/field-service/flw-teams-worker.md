@@ -68,4 +68,9 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
 
+## Next steps
+
+- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
+- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

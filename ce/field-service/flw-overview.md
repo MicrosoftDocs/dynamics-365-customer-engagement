@@ -35,4 +35,10 @@ Administrators enable these preview features for end users in their organization
 
 Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
 
+## Next steps
+
+- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
+- [Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)](flw-outlook.md)
+- [Field Service (Preview) Teams overview for the Frontline Manager](flw-teams-manager.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
