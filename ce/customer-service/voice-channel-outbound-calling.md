@@ -52,7 +52,7 @@ The phone number will now be displayed to your customers when your agents call t
 
 > [!NOTE]
 > - Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
-> - Outbound calling must be enabled for the external number that you want to configure overflow transfer.
+> - To configure call transfer to an external number to manage overflow, outbound calling must be enabled.
 
 ## Configure capacity profiles and assign users
 
