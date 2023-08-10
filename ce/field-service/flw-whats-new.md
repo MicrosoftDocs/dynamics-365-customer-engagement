@@ -7,6 +7,7 @@ author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: mhart
 ms.custom: bap-template
+ms.subservice: m365-integrations
 ---
 
 # What's new in Microsoft 365 integrations for Field Service (preview)
