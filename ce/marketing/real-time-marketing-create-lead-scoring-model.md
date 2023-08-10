@@ -1,7 +1,7 @@
 ---
 title: "Create scoring models for real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create scoring models for real-time marketing in Dynamics 365 Marketing."
-ms.date: 07/31/2023
+ms.date: 08/10/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -71,7 +71,7 @@ Scores help identify the best customers, however, not everyone in your organizat
 
 The third option of the vertical bar on the right will allow you to access the model settings. Here you can visualize the entities getting scored, modify the conditions initially defined in the entry card, and view the Business Unit the model is scoring (in case it applies). Worth mentioning that if you're working within a Business Unit, then the model will score only leads from that Business Unit. You'll also be able to decide if you want to leverage parent contact interactions or just lead interactions. More information on this in the next section.
 
-Leverage parent contact interactions in your scoring model
+## Leverage parent contact interactions in your scoring model
 
 > [!IMPORTANT]
 > If you have been using Outbound Marketing and want to start using Real Time Scoring Models, please remember that your interactions are likely stored at contact level. Thus, when you start using Real Time Marketing Lead Scoring you will need to consider parent contact interactions. 
