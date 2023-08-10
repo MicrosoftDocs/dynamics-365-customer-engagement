@@ -163,9 +163,4 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    - Open a map to locate the service address
    - [Open the schedule board in Field Service](configure-schedule-board.md#overview-of-the-schedule-board)
 
-## Next steps
-
-- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
-- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,9 +77,4 @@ The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connectio
 
 1. Make the necessary changes and select **Save**.
 
-## Next steps
-
-- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
-- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

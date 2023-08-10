@@ -15,7 +15,7 @@ ms.reviewer: m-hartmann
 
 The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order and suggest appropriate next steps to help get issues resolved quickly. The recap includes the work order's past developments, future actions, arrival times, work criticality, and a summary of required parts.
 
-:::image type="content" source="media/work-order-recap-gif.gif" alt-text="Animated gif showing the copilot capability that generates a work order recap in the Field Service application.":::
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
 
 The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids information that violates certain restrictions.
 

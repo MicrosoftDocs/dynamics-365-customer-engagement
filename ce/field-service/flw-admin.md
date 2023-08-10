@@ -209,8 +209,4 @@ If some of the permissions of a user are inadequate to view or create work order
 
 ---
 
-## Next steps
-
-- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
