@@ -21,6 +21,6 @@ To ensure that only appropriate users can create scoring models, Dynamics 365 Ma
 1. **Lead score viewer**: Provides access to visualize scoring models, yet can't write or modify them.
 1. **Lead score modelers**: Provides comprehensive access, including the ability to create, modify, or delete a scoring model.
 
-By default, not everyone in your organization has access to create or visualize scoring models.  If you want to use scoring models, make sure to set up the right permissions using the documentation below:
+By default, not everyone in your organization has access to create or visualize scoring models.  If you want to use scoring models, make sure to set up the right permissions using the following documentation:
 
 - [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md#inspect-and-customize-security-roles)

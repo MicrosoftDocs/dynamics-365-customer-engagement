@@ -26,7 +26,7 @@ To use scoring models, an administrator needs to enable the feature switch in th
 1. Go to **Settings** > **Overview** > **Feature switches**.
 1. Enable the **Lead Management** feature switch and select **Save** in the upper right corner.
 
-Once the feature switch is enabled, a new feature appears on your Dynamics 365 real-time marketing navigation bar: Scoring Models.
+Once the feature switch is enabled, a new feature appears on your Dynamics 365 real-time marketing navigation bar at **Lead management** > **Scoring models**.
 
 ## Create a new scoring model
 
