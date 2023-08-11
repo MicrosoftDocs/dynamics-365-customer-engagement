@@ -31,7 +31,7 @@ When you have multiple rules with matching conditions, records that meet the cri
 1. Choose the record type as **Leads**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then select **Change rule priority**.  
     The **Change rule priority** dialog opens.
-1. Change the priority as required and then select **Save**.
+1. Change the priority as required and select **Save**.
 
 The priority is updated for the rule and records are assigned to sellers based on the new priority.
 
