@@ -28,7 +28,7 @@ To modify your process for automatically assigning leads, opportunities, or sell
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**. 
-1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
+1. Choose the record type as **Leads**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then select **View and edit**.  
     The **Edit Assignment rule** pane opens.
 1. Edit the information according to your needs, and then select **Save**.

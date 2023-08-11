@@ -43,7 +43,7 @@ Before you start creating assignment rules, make sure that you've added the secu
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**. 
-1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
+1. Choose the record type as **Leads**.
 1. For new segment or and an existing segment, under the **Assignment rule** tab, select **New rule**.  
     The **Add assignment rule** pane opens.
 

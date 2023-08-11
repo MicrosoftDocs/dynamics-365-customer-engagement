@@ -28,7 +28,7 @@ You can deactivate or delete an assignment rule that's no longer required in you
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**. 
-1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
+1. Choose the record type as **Leads**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then one of the following:  
     - **Deactivate**: Turn off the toggle in the **Active** column and on the confirmation message, select **Deactivate**.  
     - **Delete**: Select **Delete** and on the confirmation message, select **Delete permanently**.  

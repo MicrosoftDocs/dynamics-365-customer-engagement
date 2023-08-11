@@ -27,7 +27,7 @@ You can view the unassigned records through the **Work assignment** homepage. Th
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**.
-1. On the **Work assignment** page, in the **Record type** list, select a record type as **Leads** or **Opportunities**.  
+1. On the **Work assignment** page, in the **Record type** list, select a record type as **Leads**, **Opportunities**, or **Insights**.  
     The number of unassigned records that belong to a segment are displayed under the **Unassigned records** column.  
 
     :::image type="content" source="media/wa-home-page-unassigned-records-column.png" alt-text="Screenshot of the work assignment home page with unassigned records.":::

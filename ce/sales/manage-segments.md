@@ -11,7 +11,7 @@ ms.author: udag
 
 >[!IMPORTANT]
 >
->Segments are now available in the Work assignment feature. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
+>Segments and Assignment rules capabilities are combined and available under Work assignment. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
 >For more information on the Work assignment feature, see [Work assignment](work-assignment-intro.md)
 
 A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities. 
