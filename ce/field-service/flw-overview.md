@@ -7,6 +7,7 @@ author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
+ms.subservice: m365-integrations
 ---
 
 # Microsoft 365 integrations for Field Service (preview)
@@ -14,6 +15,8 @@ ms.custom: bap-template
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 Dynamics 365 Field Service integrates with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MMY]
 
 [!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
 
@@ -33,5 +36,11 @@ As an organization, you can use the capabilities in Microsoft Outlook or Microso
 Administrators enable these preview features for end users in their organization. See [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md).
 
 Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
+
+## Next steps
+
+- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
+- [Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)](flw-outlook.md)
+- [Field Service (Preview) Teams overview for the Frontline Manager](flw-teams-manager.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
