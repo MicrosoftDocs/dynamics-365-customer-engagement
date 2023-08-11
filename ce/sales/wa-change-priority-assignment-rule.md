@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Change priority of an assignment rule 
 
-The priority of the rule is determined by its position in the list. When a record matches the conditions of multiple rules, the rule with the highest priority is applied. You can view the priority of the rule in the **Priority** column.
+The priority of a rule is determined by its position in the list. When a record matches the conditions of multiple rules, the rule with the highest priority is applied. You can view the priority of the rule in the **Priority** column.
 
 ## License and role requirements
 
