@@ -10,7 +10,7 @@ ms.author: udag
 
 >[!IMPORTANT]
 >
->Segments and assignment rules are moving under the Work assignment feature. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
+>Assignment rules are now available in the Work assignment feature. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
 >For more information on the Work assignment feature, see [Work assignment](work-assignment-intro.md)
 
 Assignment rules enable new leads and opportunities to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
