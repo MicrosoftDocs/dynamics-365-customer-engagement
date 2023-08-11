@@ -31,7 +31,7 @@ The priority of a rule is determined by its position in the list. When a record 
 1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then select **Change rule priority**.  
     The **Change rule priority** dialog opens.
-1. Change the priority as required and then select **Save**.
+1. Change the priority as required and select **Save**.
 
 The priority is updated for the rule and records are assigned to sellers based on the new priority.
 
