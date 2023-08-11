@@ -1,10 +1,11 @@
 ---
-title: "Define product pricing | MicrosoftDocs"
-description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
-ms.date: 10/26/2021
-ms.topic: get-started-article
+title: Define product pricing
+description: Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory.
+ms.date: 08/08/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -23,6 +24,7 @@ Use price lists and price list items to define price for a product.
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
+
 | Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -33,14 +35,13 @@ Use price lists and price list items to define price for a product.
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
 
-> [!NOTE]
-> Territories are only supported for Sales Enterprise and Sales Premium. 
-  
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
- 
-> [!NOTE]
->  You must create at least one price list for each of the currencies that your organization does business in.  
 
+> [!NOTE]
+>- Territories are only supported for Sales Enterprise and Sales Premium licenses.
+>- The Price list table inherits its privileges from the Product table. For example, if a user has read and write privileges on the Product table, they get the same privileges on the Price list table too. 
+>- You must create at least one price list for each of the currencies that your organization does business in.
+  
 ## Create a price list and price list items
 
 1. Depending on the sales app that you're using, do one of the following:
@@ -72,7 +73,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
  
     b.  In the **Price List Item** form, fill in the information, and select **Save**:
 
-       -  **Product**. Select the product for which you’re creating this price list.
+       -  **Product**. Select the product for which you’re creating this price list. 
 
        -  **Unit**. Select the unit for the product you’re creating this price list for.
 
@@ -142,6 +143,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 
 ## Typical next steps  
+
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  

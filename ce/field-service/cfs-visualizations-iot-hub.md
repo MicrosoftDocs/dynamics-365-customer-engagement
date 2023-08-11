@@ -26,8 +26,6 @@ To enable the device readings chart, deploy [Azure Time Series Insights](https:/
 > [!NOTE]
 > Time Series Insights (TSI) will be deprecated after March 2025. We'll transition Connected Field Service to a new platform and announce it when the deprecation takes place. More information: [Migrate to Azure Data Explorer](/azure/time-series-insights/migration-to-adx).
 
-<!-- what about custom providers?-->
-
 ## Enable the device readings chart
 
 After successfully deploying Time Series Insights, the **Device Readings** tab shows on the IoT alert, work order, case, device, and asset forms.  
@@ -62,8 +60,6 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 Device readings and summary tiles work on the mobile app when connected to the internet. For more information, see [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
-
-<!-- Valerie to validate table land error codes. -->
 
 Use the following table to troubleshoot error codes related to device readings.
 

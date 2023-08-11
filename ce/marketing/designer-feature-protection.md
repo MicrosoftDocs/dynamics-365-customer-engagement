@@ -1,9 +1,7 @@
 ---
-title: "Use designer feature protection (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 Marketing."
+title: Use designer feature protection
+description: How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 Marketing.
 ms.date: 07/19/2022
-ms.custom: 
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -16,6 +14,9 @@ search.audienceType:
 # Control access to designer features
 
 [!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
+> [!IMPORTANT]
+> The designer is only available in the real-time marketing area. It is not available in outbound marketing.
 
 Designer feature protection lets you control which users have access to which features of the content designers, including in the email, marketing page, form, and content-block designers. You can use these settings to block access by any user or group to one or both of the following designer features:
 
@@ -35,6 +36,5 @@ To control access to these designer features:
     - **User**: To apply protection to a specific user, choose a user name from this lookup field. Each rule can apply only to one team _or_ one user.
     - **Blocked features**: Use this lookup field to choose which features you want to hide from the specified user or team: HTML, Litmus, or both.
 1. Save your settings.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

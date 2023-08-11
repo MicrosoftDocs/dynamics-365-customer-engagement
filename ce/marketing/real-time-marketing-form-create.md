@@ -90,7 +90,7 @@ To create a new form, go to **Real-time marketing** > **Channels** > **Forms** a
     Adding purpose and topics consent elements creates contact point consent records for the chosen channels, email, and text.
 
 > [!NOTE]
-> Customers who adopted the real-time marketing forms preview may need to remove and re-add consent elements to forms created during the preview due to underlying changes with the consent entities. This has no impact on consent captured by preview forms.
+> Customers may need to remove and re-add consent elements to forms created prior to August 2023 due to underlying changes with the consent entities. This has no impact on consent captured by existing forms and simply updates the form to reflect the revised consent entities.
 
 1. Now it's time to preview your for to check the responsiveness. To open the form preview, select the **Preview and test** tab. You can select various platforms to check how the form renders on a mobile device or a tablet.
 

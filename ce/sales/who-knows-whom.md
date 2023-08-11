@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Use who knows whom to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 02/14/2023
+ms.date: 08/07/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,14 @@ Use who knows whom to quickly identify colleagues who can introduce you to a lea
 
 As a sales representative, you often interact with leads whom you've never talked to or even met before. If only you knew someone who knew the lead, an introduction could increase the chances of a positive outcome. Who knows whom in Dynamics 365 Sales does exactly that. Who knows whom suggests the names and email addresses of your colleagues who had interacted with the lead through emails or meetings. It even helps you quickly email your colleagues to request an introduction.
 
-For Sales Enterprise users, the who knows whom information is populated based on the emails and meeting data in Dynamics 365. For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
+### Basic who knows whom information
+
+For Sales Enterprise users, the who knows whom information is populated based on emails and meeting data in Dynamics 365. This information is available out-of-the-box in all regions and doesn't require any setup.  
+
+### Enhanced who knows whom information
+
+For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
+
 ## View who knows whom  
 
 The Who knows whom information is available for contacts and leads.
