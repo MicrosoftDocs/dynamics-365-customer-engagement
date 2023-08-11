@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Connect a segment to a sequence 
 
-After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for.
+After you create a segment, you connect the segment to a sequence that matches the entity.
 
 > [!NOTE]
 >  
@@ -32,7 +32,7 @@ After you create and activate a segment, you connect the segment to a sequence d
 >In this procedure, we are using leads as example.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **work assignment**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
 1. From the **Record type** list, choose **Leads** and then open the segment.
 1. On the segment page, go to the **Attached sequence** tab and select **Connect sequence**.  
 
@@ -53,5 +53,5 @@ If you want to connect a different sequence to the segment, you must first disco
 ### See also
 
 [Create and activate a segment](wa-create-and-activate-a-segment.md)  
-[Edit a segment](wa-edit-a-segment.md)
+[Edit a segment](wa-edit-a-segment.md)  
 [View and edit properties of a segment](wa-view-details-segment.md)

@@ -27,7 +27,7 @@ You can deactivate or delete an assignment rule that's no longer required in you
 >In this procedure, we are using lead as an example to delete or deactivate an assignment rule. Similarly, you can use this procedure to delete or deactivate opportunity or insight assignment rule. 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **work assignment**. 
+1. Under **Sales accelerator**, select **Work assignment**. 
 1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then one of the following:  
     - **Deactivate**: Turn off the toggle in the **Active** column and on the confirmation message, select **Deactivate**.  

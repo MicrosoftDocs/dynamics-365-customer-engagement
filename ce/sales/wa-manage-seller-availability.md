@@ -27,8 +27,8 @@ Also, you can manage the availability of your sales team according to the needs 
 Enable the seller availability option to let sellers configure their work hours through Outlook or CRM calendar.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
-1. On the **work assignment** page, select **Settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. On the **Work assignment** page, select **Settings**.  
 1. On the **Work assignment settings** page, select **Settings**.  
     The **Seller availability** dialog box opens.  
 

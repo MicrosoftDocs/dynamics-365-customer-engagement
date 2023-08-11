@@ -24,7 +24,7 @@ You can deactivate or delete a segment that's no longer required in your organiz
 ## To delete or deactivate a segment 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
 1. From the **Record type** list, choose a record type from the **Record type** list.  
     The **Work assignment** page opens with the list of available segments for the selected record type.  
 

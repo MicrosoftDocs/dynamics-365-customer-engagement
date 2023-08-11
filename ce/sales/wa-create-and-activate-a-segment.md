@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Create and activate segments in work assignment
 
-As a sequence manager, you create segments (groups of records) by defining different conditions for each segment. After a segment is activated, any record that satisfies the conditions that are defined for the segment becomes a member of the segment. A sequence that is connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
+You can create segments (groups of records) by defining different conditions for each segment. After a segment is activated, any record that satisfies the conditions that are defined for the segment becomes a member of the segment. A sequence that is connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
 > [!NOTE]
 >
@@ -32,19 +32,19 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 <!--markdownlint-enable MD036-->
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **work assignment**.
-1. On the **work assignment** page, in the **Record type** list, select a record type.
+1. Under **Sales accelerator**, select **Work assignment**.
+1. On the **Work assignment** page, in the **Record type** list, select a record type.
 
-    By default, the lead, opportunity, suggestion record types are available. The list also includes all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section of the sales accelerator configuration.
+    By default, the lead and opportunity record types are available. The list also includes all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section of the sales accelerator configuration.
 
 1. Select **+ New segment**.
 1. In the **Create a segment for \<*record type*\>** dialog box, enter the following information:
     - A name and description for the segment.  
     - In the **Priority** field, enter a priority.  
-        Set a priority for every segment. Records that meet the criteria for multiple segments are assigned to the segment that has the highest priority. You can change the priority of a segment at any time. By default, the priority is set to the priority of the last segment that was created. The default, out-of-box segment always has the lowest priority.
+        Set a priority for every segment. Records that meet the criteria for multiple segments are assigned to the segment that has the highest priority. You can change the priority of a segment at any time. More information: [Change the priority of a segment](wa-view-details-segment.md#change-priority-of-the-segment)
+        By default, the priority is set to the priority of the last segment that was created. The default, out-of-box segment always has the lowest priority. 
 
-1. Select **Next**.
-
+1. Select **Next**.  
     The segment condition builder page opens.
 
     :::image type="content" source="media/wa-segment-condition-builder-home-page.png" alt-text="Screenshot of the segment condition builder page.":::
@@ -110,7 +110,7 @@ As a sequence manager, you create segments (groups of records) by defining diffe
 The segment is activated. You can now connect it to a sequence or a record.
 
 > [!NOTE]
-> As of the 9.3 release, all segments that are related to a primary entity (such as lead or opportunity) run every time that you update the attributes of the primary entity that are added to the conditions.
+> All segments that are related to a primary entity (such as lead or opportunity) run every time that you update the attributes of the primary entity that are added to the conditions.
 
 ## Next steps
 

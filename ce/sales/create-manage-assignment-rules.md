@@ -1,12 +1,17 @@
 ---
 title: "Manage assignment rules for lead and opportunity routing"
 description: "Create, activate, edit and delete assignment rules, and manage sales teams and seller attributes for lead and opportunity routing."
-ms.date: 06/29/2022
+ms.date: 08/11/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
 ---
 # Manage assignment rules for routing 
+
+>[!IMPORTANT]
+>
+>Segments and assignment rules are moving under the Work assignment feature. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
+>For more information on the Work assignment feature, see [Work assignment](work-assignment-intro.md)
 
 Assignment rules enable new leads and opportunities to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
 

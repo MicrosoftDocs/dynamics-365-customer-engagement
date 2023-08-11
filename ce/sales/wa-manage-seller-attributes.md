@@ -34,8 +34,8 @@ You can use the attribute designer to:
 ## Create an attribute
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
-1. On the **work assignment** page, select **Settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. On the **Work assignment** page, select **Settings**.  
 1. On the **Work assignment settings** page, select **Manage attributes**.  
 1. On the **Manage attributes** page, select **New seller attribute**.
 

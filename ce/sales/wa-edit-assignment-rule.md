@@ -27,7 +27,7 @@ To modify your process for automatically assigning leads, opportunities, or sell
 >In this procedure, we are using lead as an example to edit an assignment rule. Similarly, you can use this procedure to edit opportunity or insight assignment rule. 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **work assignment**. 
+1. Under **Sales accelerator**, select **Work assignment**. 
 1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
 1. Open the segment and then under the **Assignment rules** tab, select the rule and then select **View and edit**.  
     The **Edit Assignment rule** pane opens.

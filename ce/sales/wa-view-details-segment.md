@@ -27,7 +27,7 @@ View and edit the details of a segment such as, priority, allow records from oth
 >In this procedure, we are using leads as example.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
 1. From the **Record type** list, choose **Leads** and then open the segment.  
 
     :::image type="content" source="media/sa-segment-edit-list-lead-segments.png" alt-text="Screenshot of segment page with a list of segments for the selected record type.":::  
@@ -41,8 +41,7 @@ View and edit the details of a segment such as, priority, allow records from oth
 
     :::image type="content" source="media/wa-segment-segment-properties-pane.png" alt-text="Screenshot of segment properties pane.":::
 
-    Update or configure the following properties as required and save your changes:
-
+1. Update or configure the following properties as required and save your changes:  
     - If necessary, update the name and description.
     - [Change the priority of the segment](#change-priority-of-the-segment).
     - [Allow records from other segments to move to this segment](#allow-records-from-other-segments-to-move-to-this-segment). 

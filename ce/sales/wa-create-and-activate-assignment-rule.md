@@ -32,13 +32,17 @@ When a lead, opportunity, or seller insight record is created in an organization
 
 By default, rules are listed in the order that they were created in, and the most recently created rule is at the bottom of the list. However, you can drag the rules into any order that you want.
 
+## Prerequisites
+
+Before you start creating assignment rules, make sure that you've added the security roles to assign records. More information: [Configure security roles to assign records](wa-manage-sales-teams.md)
+
 ## Create and activate an assignment rule
 
 > [!NOTE]
 > This procedure provides an example that shows how to create a *lead* assignment rule. However, you use the same basic steps to create an *opportunity* or *insight* assignment rule.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **work assignment**. 
+1. Under **Sales accelerator**, select **Work assignment**. 
 1. Choose the record type as **Leads**, **Opportunities**, or **Insights**.
 1. For new segment or and an existing segment, under the **Assignment rule** tab, select **New rule**.  
     The **Add assignment rule** pane opens.
@@ -59,7 +63,7 @@ By default, rules are listed in the order that they were created in, and the mos
             1. In the second column, select an operator in the list. (For example, select *Equals*.)
             1. In the third column, enter a value to filter by. (For example, enter *John Thomas*.)
 
-            :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::  
+                :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::  
 
             You can create more conditions to further filter the leads that the segment should be applied to.
 
@@ -67,13 +71,13 @@ By default, rules are listed in the order that they were created in, and the mos
 
             1. In the list in the upper-left corner, select **And** or **Or** to group the conditions.
 
-            If you select **And**, the segment is applied only to leads that meet all the conditions in the group. If you select **Or**, the segment is applied to leads that meet any condition in the group. For example, to apply the segment to leads that are created by Kenny Smith *and* that have the company name Contoso, select **And**.
+                If you select **And**, the segment is applied only to leads that meet all the conditions in the group. If you select **Or**, the segment is applied to leads that meet any condition in the group. For example, to apply the segment to leads that are created by Kenny Smith *and* that have the company name Contoso, select **And**.
 
-            :::image type="content" source="media/sa-segment-condition-add-group.png" alt-text="Screenshot that shows a condition group being added.":::
+                :::image type="content" source="media/sa-segment-condition-add-group.png" alt-text="Screenshot that shows a condition group being added.":::
 
             1. Define the conditions to add to the group.
 
-            :::image type="content" source="media/sa-segment-condition-add-group-select-condition.png" alt-text="Screenshot that shows conditions added to the group.":::
+                :::image type="content" source="media/sa-segment-condition-add-group-select-condition.png" alt-text="Screenshot that shows conditions added to the group.":::
 
             You can create multiple groups and further filter the leads based on the conditions that are defined in the groups.
 
@@ -83,7 +87,7 @@ By default, rules are listed in the order that they were created in, and the mos
             1. In the list to the right, select either **Contains data** or **Does not contain data**.
             1. Define the condition.
 
-            :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
+                :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
         > [!NOTE]
         >
@@ -98,10 +102,9 @@ By default, rules are listed in the order that they were created in, and the mos
     | Option | Description |
     |--------|-------------|
     | Any seller | Assign leads to any seller, based on their availability, capacity, or distribution pattern. |
-    | Seller with matching attributes | <p>Assign leads to sellers who satisfy the conditions that are defined through attributes that are selected from Dynamics 365 or assignment rules. The following options are available:</p><ul><li>**Use existing fields from seller records in Dynamics 365**</li><li>**Use seller attributes defined for assignment rules** ([Learn how to define and manage seller attributes.](manage-seller-attributes.md))</li></ul><p>For example, you want to assign leads to sellers who are based in Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** \> **Add row**. Enter the condition as *City* (attribute) *Equals* (condition) *Seattle* (value).</p><p>![Screenshot of the example for assigning leads to sellers who have matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Screenshot of the example for assigning leads to sellers who have matching attributes")</p><p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>[Learn more about conditions in assignment rules.](#conditions-in-assignment-rules)</p> |
-    | Specific sellers | <p>Assign leads to specific sellers. Select the sellers in the **Choose sellers** lookup.</p><p>**Note**: The security roles for the sellers in the list were added by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>![Screenshow that shows specific sellers selected.](media/sa-ar-select-specific-sellers.png "Screenshow that shows specific sellers selected")</p> |
-    | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>If you select this option, the **Distribute leads by** section isn't shown, because leads are assigned to teams. |
-
+    | Seller with matching attributes | <p>Assign leads to sellers who satisfy the conditions that are defined through attributes that are selected from Dynamics 365 or assignment rules. The following options are available:</p><ul><li>**Use existing fields from seller records in Dynamics 365**</li><li>**Use seller attributes defined for assignment rules** ([Learn how to define and manage seller attributes.](wa-manage-seller-attributes.md))</li></ul><p>For example, you want to assign leads to sellers who are based in Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** \> **Add row**. Enter the condition as *City* (attribute) *Equals* (condition) *Seattle* (value).</p><p>![Screenshot of the example for assigning leads to sellers who have matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Screenshot of the example for assigning leads to sellers who have matching attributes")</p><p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>[Learn more about conditions in assignment rules.](#conditions-in-assignment-rules)</p> |
+    | Specific sellers | <p>Assign leads to specific sellers. Select the sellers in the **Choose sellers** lookup.</p><p>**Note**: The security roles for the sellers in the list were added by defining team access. [Learn more about how to grant permissions to use assignment rules.](wa-manage-sales-teams.md#grant-permissions-to-use-assignment-rules)</p><p>![Screenshow that shows specific sellers selected.](media/sa-ar-select-specific-sellers.png "Screenshow that shows specific sellers selected")</p> |
+    | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](wa-manage-sales-teams.md)</p><p>If you select this option, the **Distribute leads by** section isn't shown, because leads are assigned to teams. |
 
 1. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, select one of the following options. [Learn more about lead distributions in assignment rules.](understand-lead-distributions-assignment-rules.md)
 
@@ -117,11 +120,11 @@ By default, rules are listed in the order that they were created in, and the mos
 
     If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application considers them always available and assigns leads to them.
 
-    For example, if you select 10 hours, the application considers sellers who will be available within 10 hours for record assignment. If no seller is available within the 10-hour limit, the record isn't assigned and is marked as overdue. [Learn how to manage overdue records.](manage-unassigned-records.md)
+    For example, if you select 10 hours, the application considers sellers who will be available within 10 hours for record assignment. If no seller is available within the 10-hour limit, the record isn't assigned and is marked as overdue. [Learn how to manage overdue records.](wa-manage-unassigned-records.md)
 
     If you selected the [Consider leads created in the last](#considerLeadsCreated) checkbox in step 7, the rule first checks for the configured timeframe to assign the record. It then considers seller availability.
 
-    1. (Optional) To consider the maximum number of leads that a seller can handle at a time, select the **Assign leads based on seller capacity** checkbox. [Learn more about how to set lead capacity for sellers.](manage-sales-teams.md#set-capacity-for-sellers)
+    1. (Optional) To consider the maximum number of leads that a seller can handle at a time, select the **Assign leads based on seller capacity** checkbox. [Learn more about how to set lead capacity for sellers.](wa-work-assignment-manage-settings#set-capacity-for-sellers)
 
     :::image type="content" source="media/sa-ar-distribute-leads-by.png" alt-text="Screenshot that shows the Assign leads based on seller capacity checkbox selected in the Distribute leads by section.":::
 

@@ -43,8 +43,8 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
 **To add attributes**
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
-1. On the **work assignment** page, select **Settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. On the **Work assignment** page, select **Settings**.  
 1. From the **Sellers for assignment** section, select a team or sellers that you want to apply attributes for and then select **Apply attribute**.  
     
     >[!NOTE]
@@ -77,8 +77,8 @@ The filters you apply are available only for that session and can’t be saved. 
 **To create and apply filters**
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.    
-1. On the **work assignment** page, select **Settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.    
+1. On the **Work assignment** page, select **Settings**.  
 1. On the **Settings** page, select **Advanced filters**.  
     The **Filter by seller properties** pane opens.
     
@@ -107,8 +107,8 @@ For example, Kenny is a seller whose capacity limit is set to 10. A new lead is 
 **To set capacity**
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.    
-1. On the **work assignment** page, select **Settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.    
+1. On the **Work assignment** page, select **Settings**.  
 1. From the **Sellers for assignment** section, select a team or sellers that you want to apply attributes for and then select **Set capacity**.
 
     >[!NOTE]
@@ -120,16 +120,15 @@ For example, Kenny is a seller whose capacity limit is set to 10. A new lead is 
 
     :::image type="content" source="media/sa-ar-sales-team-enter-lead-capacity.png" alt-text="Screenshot to enter the maximum number of leads for a seller.":::
 
-6.	In **Set the maximum capacity of leads and opportunities for these sellers**, enter the value you want.
-
-7.	Select **Apply**.
+1. In **Set the maximum capacity of leads and opportunities for these sellers**, enter the value you want.  
+1. Select **Apply**.
 
     >[!NOTE]
     >
-    >If you're changing the existing maximum capacity, a confirmation message appears. Select **Override settings**.    
-    >![Select override settings](media/sa-ar-sales-team-select-override-settings.png "Select override settings") 
- 
-The maximum capacity limit is set for the seller. 
+    >If you're changing the existing maximum capacity, a confirmation message appears. Select **Override settings**.  
+    >![Select override settings](media/sa-ar-sales-team-select-override-settings.png "Select override settings")  
+  
+The maximum capacity limit is set for the seller.  
 
 ## Turn off record assignment to sellers
 
@@ -137,18 +136,11 @@ When a seller is on vacation or otherwise unavailable, you can disable record as
 
 **To turn off assignment**
 <!--markdownlint-enable MD036-->  
-1.	Sign in to your Dynamics 365 Sales Hub app.    
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Assignment rules**.  
-4.	From the **Team** tab, under the **Assign records** column, turn off the toggle.   
-
-    >[!div class="mx-imgBorder"]
-    >![Turn off the Assign leads toggle](media/sa-ar-sales-team-disable-lead-assignment.png "Turn off the Assign leads toggle")   
-
-6. In the confirmation message, select **Turn off availability**.  
-
-    >[!div class="mx-imgBorder"]
-    >![Confirm turning record assignment off](media/sa-ar-sales-team-turnoff-availability-confirmation-message.png "Confirm turning record assignment off")
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. On the **Work assignment** page, select **Settings**.  
+1. Under the **Assign records** column, turn off the toggle.  
+1. In the confirmation message, select **Turn off availability**.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 

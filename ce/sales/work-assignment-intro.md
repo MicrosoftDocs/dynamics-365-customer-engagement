@@ -25,9 +25,9 @@ Work assignment helps in creating [segments](#what-are-segments) to group record
 
 Before you start, be sure that the sales accelerator is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
 
-## what are segments?
+## What are segments?
 
-Segments helps you to categorize records based on specific criteria such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities.
+Segments help you to categorize records based on specific criteria such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities.
 
 You can use the segment builder to:
 
@@ -36,17 +36,17 @@ You can use the segment builder to:
 - [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md).
 - [View and edit properties of a segment](wa-view-details-segment.md).
 - [Edit a segment](wa-edit-a-segment.md)
-- [Prioritize segment](prioritize-segment.md).
+- [Prioritize a segment](prioritize-segment.md).
 - [Delete or deactivate a segment](wa-delete-deactivate-a-segment.md).
 
 ## What are assignment rules?
 
-Assignment rules enable new leads, opportunities, and suggestions to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
+Assignment rules enable new leads, opportunities, and seller insights to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
 
 Assignment rules are supported for lead, opportunity, and suggestions record types.
 
 >[!NOTE]
->For more information about suggestions, see [Get seller insights to improve seller effectiveness](seller-insights-intro.md)
+>For more information about seller insights, see [Get seller insights to improve seller effectiveness](seller-insights-intro.md)
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
 
