@@ -2,8 +2,6 @@
 title: Create scoring models for real-time marketing
 description: Learn how to create scoring models for real-time marketing in Dynamics 365 Marketing.
 ms.date: 08/10/2023
-ms.custom: 
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
