@@ -139,7 +139,7 @@ The reassignment run history provides information on each run such as the time i
 1. On the **Work assignment** page, open the segment.  
 1. Select **Segment properties**.  
     The **Segment properties** pane opens.  
-1. On the **Run assignment rules for unassigned leads (*number*)** section, under the **Last run** sub-section, select **Show history**.  
+1. On the **Run assignment rules for unassigned leads (*number*)** section, under the **Last run** subsection, select **Show history**.  
     The history pane opens.  
 
     :::image type="content" source="media/sa-ar-run-reassignment-show-history.png" alt-text="Screenshot illustrating the reassignment run history":::

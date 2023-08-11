@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Edit a segment  
 
-To modify your process for choosing the records you want as members of a segment, you can update the conditions that you've defined in the segment.
+To modify your process for choosing the records, you want as members of a segment, you can update the conditions that you've defined in the segment.
 
 ## License and role requirements
 

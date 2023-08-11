@@ -28,7 +28,7 @@ You create an assignment rule for lead, opportunity, and seller insights records
 > [!NOTE]
 > A rule considers only the records that are created or updated after it's activated.
 
-When a lead, opportunity, or seller insight record is created in an organization, assignment rules are applied in the order that they are listed in, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record.
+When a lead, opportunity, or seller insight record is created in an organization, assignment rules are applied in the order that they're listed in, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record.
 
 By default, rules are listed in the order that they were created in, and the most recently created rule is at the bottom of the list. However, you can drag the rules into any order that you want.
 
@@ -47,7 +47,7 @@ By default, rules are listed in the order that they were created in, and the mos
 
 1. Under **Rule name**, enter a name for the rule.
 1. <a name="setSegment"></a>Under the **Eligible leads for this rule** section, select a segment and add condition.  
-    By default, the segment from which you are creating the rule is selected. However, if you wish to change the segment, choose a different segment from the list. The list includes all the active segments that are related to leads.  
+    By default, the segment from which you're creating the rule is selected. However, if you wish to change the segment, choose a different segment from the list. The list includes all the active segments that are related to leads.  
 
     :::image type="content" source="media/wa-select-segment-define-conditions.png" alt-text="Screenshot of the eligible leads for this rule section.":::  
 

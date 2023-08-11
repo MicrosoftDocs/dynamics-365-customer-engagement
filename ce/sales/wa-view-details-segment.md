@@ -43,7 +43,7 @@ View and edit the details of a segment such as, priority, allow records from oth
 
     Update or configure the following properties as required and save your changes:
 
-    - If required, update the name and description.
+    - If necessary, update the name and description.
     - [Change the priority of the segment](#change-priority-of-the-segment).
     - [Allow records from other segments to move to this segment](#allow-records-from-other-segments-to-move-to-this-segment). 
     - [Schedule to run assignment rules](#schedule-to-run-assignment-rules).
@@ -51,13 +51,13 @@ View and edit the details of a segment such as, priority, allow records from oth
 ## Change priority of the segment
 
 In the **Segment priority (Total segments *number*)** option, enter the priority of the segment.  
-The priority of a segment specifies the order in which the segment is applied to the records. If a record matches multiple segments, it's connected to the segment that has the highest priority. Prioritization of inactive segments are not taken into consideration for applying records. 
+The priority of a segment specifies the order in which the segment is applied to the records. If a record matches multiple segments, it's connected to the segment that has the highest priority. Prioritizations of inactive segments are not taken into consideration for applying records. 
 When you change the priority of a segment, the records that are already connected to that segment remain connected. Only new or updated records are connected to the segment based on the new priority.  
 Also, the sequence of segments is readjusted to align with the revised priority order.  
  
 ## Allow records from other segments to move to this segment
 
-To allow records from another segment to move to this segment, turn on **Previously-segmented leads**. The application validates the records for conditions that are defined in this segment and moves the records accordingly, although the records are connected to a different segment. When they are moved, the records are connected to the sequence from this segment. However, the assignment rules aren't changed. To apply the current assignment rule to the moved records, select the **Run assignment rules when a lead moves into this segment** checkbox.
+To allow records from another segment to move to this segment, turn on **Previously-segmented leads**. The application validates the records for conditions that are defined in this segment and moves the records accordingly, although the records are connected to a different segment. When they're moved, the records are connected to the sequence from this segment. However, the assignment rules aren't changed. To apply the current assignment rule to the moved records, select the **Run assignment rules when a lead moves into this segment** checkbox.
 
 ## Schedule to run assignment rules
 

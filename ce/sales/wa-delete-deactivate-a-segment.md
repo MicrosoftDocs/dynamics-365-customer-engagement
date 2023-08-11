@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Delete or deactivate a segment 
 
-You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, the records that were already connected to it remain connected but future records will not be connected to it. When a segment is deleted, segment records that are already connected to a sequence won't be affected. 
+You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, the records that were already connected to it remain connected but future records won't be connected to it. When a segment is deleted, segment records that are already connected to a sequence won't be affected. 
 
 ## License and role requirements
 

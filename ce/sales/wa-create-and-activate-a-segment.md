@@ -117,7 +117,7 @@ The segment is activated. You can now connect it to a sequence or a record.
 After you create a segment, you can do the following tasks:
 
 - [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md)
-- [Create an assignment rule for a segment](create-assignment-rule-for-segment.md)    
+- [Create an assignment rule for a segment](wa-create-and-activate-assignment-rule.md)    
 - [View and edit properties of a segment](wa-view-details-segment.md)
 
 ## Recommendations for adding conditions

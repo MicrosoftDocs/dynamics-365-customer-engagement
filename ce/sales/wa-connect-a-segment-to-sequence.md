@@ -1,6 +1,6 @@
 ---
-title: "Connect a segment to a sequence"
-description: "Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
+title: Connect a segment to a sequence
+description: Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -46,7 +46,7 @@ After you create and activate a segment, you connect the segment to a sequence d
     
     The sequence is connected to the segment. 
 
-If you want to connect a different sequence to the segment, you must first disconnect the current sequence and subsequently connect the new sequence. 
+If you want to connect a different sequence to the segment, you must first disconnect the current sequence and then connect the new sequence. 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
