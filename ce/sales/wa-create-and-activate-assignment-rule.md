@@ -39,7 +39,7 @@ Before you start creating assignment rules, make sure that you've added the secu
 ## Create and activate an assignment rule
 
 > [!NOTE]
-> This procedure provides an example that shows how to create a *lead* assignment rule. You can use the same basic steps to create an *opportunity* or *insight* assignment rule.
+> This procedure provides an example that shows how to create a *lead* assignment rule. You can use the same steps to create an *opportunity* or *insight* assignment rule.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**. 
@@ -95,7 +95,7 @@ Before you start creating assignment rules, make sure that you've added the secu
 
     1. <a name="considerLeadsCreated"></a>To assign records that are created in the application during a specific timeframe to sellers, select the **Consider leads created in the last** checkbox, and then select a timeframe in the list.
 
-        If no seller is available to take the record during the specified timeframe, the record is marked as overdue, and the status reason is *Seller not assigned as record is older than the set timeframe*. [Learn more about unassigned records and status reasons.](manage-unassigned-records.md#view-unassigned-records)
+        If no seller is available to take the record during the specified timeframe, the record is marked as overdue, and the status reason is set to *Seller not assigned as record is older than the set timeframe*. [Learn more about unassigned records and status reasons.](manage-unassigned-records.md#view-unassigned-records)
 
 1. Under the **Assign these leads to sellers or a team** section, select one of the following options in the dropdown list.
 
