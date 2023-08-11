@@ -1,13 +1,13 @@
 ---
 title: Edit a segment in the sales accelerator
-description: Update the conditions in the segment to modify your process for choosing the records you want as members of a segment.
+description: Update the segment conditions to modify your process for choosing the records you want as members of a segment.
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
 ms.topic: how-to
 ms.custom: bap-template
 ---
-# Edit a segment 
+# Edit segments
 
 To modify your process for choosing the records you want as members of a segment, you can update the conditions that you've defined in the segment.
 

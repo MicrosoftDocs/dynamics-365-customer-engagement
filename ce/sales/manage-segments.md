@@ -1,13 +1,18 @@
 ---
 title: Group records based on segments
 description: Manage the segments in the sales accelerator by creating, connecting, editing, deleting, and deactivating.
-ms.date: 03/28/2023
+ms.date: 08/11/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
 
 ---
 # Group records based on segments
+
+>[!IMPORTANT]
+>
+>Segments and Assignment rules capabilities are combined and available under Work assignment. The Work assignment feature is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
+>For more information on the Work assignment feature, see [Work assignment](work-assignment-intro.md)
 
 A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities. 
 
