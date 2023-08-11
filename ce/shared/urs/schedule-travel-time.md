@@ -12,11 +12,12 @@ Learn how the system calculates travel time and distance and how dispatchers see
 
 - Ensure you [configured resources](../../field-service/set-up-bookable-resources.md) with start and end locations. If enabled, the system takes the current location of a technician from the [location of the mobile device](../../field-service/mobile-powerapp-location-auditing.md).
 
-NOTE: Travel time is only calculated when all of the following criteria are met:
-- requirement is onsite AND
-- When the booking falls within the resources working hours AND
-- If it is the first booking of the day, the resource is on site and has a valid lat/long (not location agnostic)
-- If it is not the first booking of the day, the preceding booking is on site and has a valid lat/long OR the resource is on site and has a valid lat/long
+> [!NOTE]
+> Travel time is only calculated when all of the following criteria are met:
+> - Requirement is on site.
+> - Booking falls within the resource's working hours.
+> - If it's the first booking of the day, the resource is on site and has a valid lat/long (not location agnostic).
+> - If it's not the first booking of the day, the preceding booking is on site and has a valid lat/long OR the resource is on site and has a valid lat/long.
 
 ## Visualize travel time on the schedule board
 
