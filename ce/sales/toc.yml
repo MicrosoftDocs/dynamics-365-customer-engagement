@@ -168,15 +168,15 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
-    - name: Configure Copilot
+    - name: Configure Sales Copilot
       items:
-      - name: Copilot overview (preview)
+      - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Enable and setup Copilot
+      - name: Enable and setup Sales Copilot
         href: enable-setup-copilot.md
-      - name: Configure Copilot capabilities
+      - name: Configure Sales Copilot capabilities
         href: configure-sales-copilot.md
-      - name: Copilot data movement across geographies
+      - name: Sales Copilot data movement across geographies
         href: sales-copilot-data-movement.md
       - name: Sales Copilot FAQs
         href: sales-copilot-faq.md
@@ -697,13 +697,13 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    - name: Use Copilot
+    - name: Use Sales Copilot
       items:
-      - name: Copilot overview (preview)
+      - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Use Copilot capabilities
+      - name: Use Sales Copilot capabilities
         href: use-sales-copilot.md
-      - name: Compose and send email messages using Copilot
+      - name: Compose and send email messages using Sales Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md

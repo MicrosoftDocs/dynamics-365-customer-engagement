@@ -22,9 +22,7 @@ Technicians save valuable time for daily work by quickly updating the status of 
 
 Detailed information for the immediate task is now readily available with embedded Dynamics 365 Guides. [Embedded guides in Field Service (Dynamics 365) Mobile](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
 
-<!--
-> [Add link to video]
--->
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18Uzz]
 
 ## Preview content in the documentation
 
