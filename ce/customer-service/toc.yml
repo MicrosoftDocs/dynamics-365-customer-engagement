@@ -666,6 +666,14 @@
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
+      - name: Integrate Nuance Cloud IVR bot
+        items:
+        - name: Introduction to Nuance Cloud IVR bot integration
+          href: oc-nuance-fos-overview.md
+        - name: Setup Nuance cloud IVR bot integration with voice channel
+          href: oc-nuance-fos-setup.md
+        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
+          href: nuance-enroll-customer.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations
