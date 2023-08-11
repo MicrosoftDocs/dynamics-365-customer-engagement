@@ -481,14 +481,13 @@
             - name: Create and activate segments
               href: wa-create-and-activate-a-segment.md
             - name: Manage assignment rules
-              href: create-manage-assignment-rules.md              
               items:
                 - name: Create and activate assignment rules
-                  href: create-and-activate-assignment-rule.md
+                  href: wa-create-and-activate-assignment-rule.md
                 - name: Edit an assignment rule
-                  href: edit-assignment-rule.md
+                  href: wa-edit-assignment-rule.md
                 - name: Delete or deactivate an assignment rule
-                  href: delete-deactivate-assignment-rule.md
+                  href: wa-delete-deactivate-assignment-rule.md
             - name: Connect a sequence to a segment
               href: wa-connect-a-segment-to-sequence.md
             - name: View and edit properties of a segment

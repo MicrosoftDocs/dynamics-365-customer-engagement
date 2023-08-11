@@ -28,7 +28,7 @@ Select security roles to grant permissions to automatically assign records.
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 1. Under **Sales accelerator**, select **work assignment**.
 1. On the **work assignment** page, select **Settings**.
-1. On the **Settings** page, select **Define team access**.
+1. On the **Work assignment settings** page, select **Define team access**.
 
     :::image type="content" source="media/wa-sales-team-select-define-team-access.png" alt-text="Screenshot of work assignment settings page.":::
 

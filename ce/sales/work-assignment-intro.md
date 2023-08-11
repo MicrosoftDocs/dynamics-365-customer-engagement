@@ -54,9 +54,10 @@ You can create rules that match attributes (such as location and language) with 
 
 You can use the assignment rules designer to do the following tasks:
 
-- [Create and activate an assignment rule](create-and-activate-assignment-rule.md).
-- [Edit an assignment rule](edit-assignment-rule.md).
-- [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md). 
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
+- [Edit an assignment rule](wa-edit-assignment-rule.md).
+- [Change priority of an assignment rule](wa-change-priority-assignment-rule.md).
+- [Delete or deactivate an assignment rule](wa-delete-deactivate-assignment-rule.md). 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 

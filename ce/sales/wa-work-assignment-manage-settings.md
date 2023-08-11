@@ -16,6 +16,7 @@ Using the work assignment settings, you can configure the following settings for
 
 - [Add attributes to sellers](#add-attributes-to-sellers)  
 - [Shortlist sellers through advanced filters](#shortlist-sellers-through-advanced-filters)  
+- [Set capacity for sellers](#set-capacity-for-sellers)  
 - [Turn off record assignment to sellers](#turn-off-record-assignment-to-sellers)  
 
 Along with the above settings, you can also manage the following settings for your sales teams:
@@ -71,7 +72,7 @@ You can shortlist sellers from a huge list to apply attributes, set capacity, an
 The filters you apply are available only for that session and can’t be saved. You must create a filter every time you sign in to your organization.
 
 >[!NOTE]
->Before you apply the filters, verify that the sellers with required security roles are granted access to the auto-assignment of rules. [Grant permissions to use assignment rules](#grant-permissions-to-use-assignment-rules) 
+>Before you apply the filters, verify that the sellers with required security roles are granted access to the auto-assignment of rules. More information: [Configure security roles to assign records](wa-manage-sales-teams.md) 
 
 **To create and apply filters**
 
@@ -81,8 +82,7 @@ The filters you apply are available only for that session and can’t be saved. 
 1. On the **Settings** page, select **Advanced filters**.  
     The **Filter by seller properties** pane opens.
     
-    >[!div class="mx-imgBorder"]
-    >![The Filter by seller properties pane](media/sa-ar-sales-team-advanced-filters-pane.png "The Filter by seller properties pane")  
+    :::image type="content" source="media/sa-ar-sales-team-advanced-filters-pane.png" alt-text="Screenshot of the filter by seller properties pane.":::
     
 1. Select **Add** and then choose the filter options as described in the following table:
 
@@ -96,7 +96,40 @@ The filters you apply are available only for that session and can’t be saved. 
     
 1. After you define the filter criterion, select **Apply**.  
     
-    The list is filtered based on the selected criterion 
+    The list is filtered based on the selected criterion.
+
+## Set capacity for sellers
+
+When you set capacity, you set a combined upper limit of leads and opportunities that a seller can be assigned at any given time. When a seller reaches this limit, even though a lead or an opportunity record is created and ready to be automatically assigned to the seller, the record won't be assigned. You can view unassigned records for leads and opportunities in their respective open record views.
+
+For example, Kenny is a seller whose capacity limit is set to 10. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling a maximum of 10, so the newly generated lead won't be assigned to Kenny.
+
+**To set capacity**
+
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
+1. Under **Sales accelerator**, select **work assignment**.    
+1. On the **work assignment** page, select **Settings**.  
+1. From the **Sellers for assignment** section, select a team or sellers that you want to apply attributes for and then select **Set capacity**.
+
+    >[!NOTE]
+    >
+    >- The list consists teams that include sellers whose security roles were configured during the initial setup of the sales accelerator.
+    >- To bulk-apply the attributes, select multiple sellers.
+
+    The **Set maximum capacity** pane opens.
+
+    :::image type="content" source="media/sa-ar-sales-team-enter-lead-capacity.png" alt-text="Screenshot to enter the maximum number of leads for a seller.":::
+
+6.	In **Set the maximum capacity of leads and opportunities for these sellers**, enter the value you want.
+
+7.	Select **Apply**.
+
+    >[!NOTE]
+    >
+    >If you're changing the existing maximum capacity, a confirmation message appears. Select **Override settings**.    
+    >![Select override settings](media/sa-ar-sales-team-select-override-settings.png "Select override settings") 
+ 
+The maximum capacity limit is set for the seller. 
 
 ## Turn off record assignment to sellers
 
