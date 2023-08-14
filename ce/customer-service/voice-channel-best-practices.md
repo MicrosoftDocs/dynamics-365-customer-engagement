@@ -12,15 +12,15 @@ ms.custom: bap-template
 
 # Best practices for setting up the voice channel
 
-Use the information in this article to set up the hardware and software that's required for the optimal performance of the voice channel in Omnichannel for Customer Service. The requirements might vary based on the overall configuration and size of your contact center.
+Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in Omnichannel for Customer Service. The requirements might vary based on the overall configuration and size of your contact center.
 
 ## Hardware configuration
 
-For optimized voice communication, make sure of the following:
+For optimized voice communication, make sure of the following settings:
 
-- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](https://learn.microsoft.com/en-us/dynamics365/customer-service/system-requirements-omnichannel.md).
+- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](system-requirements-omnichannel.md).
 
-- **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you'll experience a lot of background noise in calls and meetings.
+- **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you'll experience much background noise in calls and meetings.
 
 - **Use devices correctly**:
   - Test your microphone and speaker settings.
@@ -32,7 +32,7 @@ For optimized voice communication, make sure of the following:
 
 The software settings to ensure seamless integration are as follows:
 
-**Firewall and security**: [Whitelist the URLs and IP addresses](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers. This prevents any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
+**Firewall and security**: [Add the URLs and IP addresses to the allowlist](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
 
 ### See also
 
