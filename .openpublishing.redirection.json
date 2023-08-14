@@ -25387,6 +25387,11 @@
       "source_path": "ce/marketing/real-time-marketing-install.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-overview",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/help-hub.yml",
+      "redirect_url": "/dynamics365/marketing/index.yml",
+      "redirect_document_id": "false"
     }
   ]
 }
