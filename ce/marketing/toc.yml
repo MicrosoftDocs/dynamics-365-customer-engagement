@@ -1,3 +1,5 @@
+- name: Dynamics 365 Marketing hub page
+  href: index.yml
 - name: Get started
   items:
   - name: Overview
