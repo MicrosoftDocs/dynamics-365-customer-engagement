@@ -64,7 +64,7 @@
       href: system-requirements-omnichannel.md
     - name: Service quotas
       href: service-quotas.md
-    - name: Best practices for voice channel
+    - name: Best practices to set up voice channel
       href: voice-channel-best-practices.md
   - name: Availability
     items: 

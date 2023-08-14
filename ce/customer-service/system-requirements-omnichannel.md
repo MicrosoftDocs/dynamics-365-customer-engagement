@@ -154,6 +154,7 @@ The Government community cloud links that should be made accessible are as follo
 [Get started with Customer Service admin center](cs-admin-center.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service](omnichannel-customer-service-app-agent.md)  
+[Best practices for setting up voice channel](voice-channel-best-practices.md)  
 [System customizer guide](omnichannel-customizer.md)  
 
 
