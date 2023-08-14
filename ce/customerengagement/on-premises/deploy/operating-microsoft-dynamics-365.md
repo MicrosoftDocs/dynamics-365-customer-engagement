@@ -31,23 +31,21 @@ As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], y
   
 ## Known issues operating Dynamics 365 Customer Engagement (on-premises)
 
-### Plugin failure or call to sandbox service failure
+### Plugin failure or Dynamics 365 API call to sandbox service failure
 
-When the plugin failure or call to sandbox service failure occurs, the following exception is logged:
+When the plugin failure or Dynamics 365 API call to sandbox service failure occurs, the following exception is logged:
 
   Exception Message: System.ServiceModel.Security.SecurityNegotiationException: A call to SSPI failed, see inner exception. ---> System.Security.Authentication.AuthenticationException: A call to SSPI failed, see inner exception. ---> System.ComponentModel.Win32Exception: The target principal name is incorrect
 
-Event Viewer might have this even when the issue occurs:
+Event Viewer might record this event when the issue occurs:
 
-  The Kerberos client received a KRB_AP_ERR_MODIFIED error from the server SVC.[REDACTED - Sandbox Service Account]. The target name used was host/[REDACTED Destination Server]. This indicates that the target server failed to decrypt the ticket provided by the client. This can occur when the target server principal name (SPN) is registered on an account other than the account the target service is using. Ensure that the target SPN is only registered on the account used by the server. This error can also happen if the target service account password is different than what is configured on the Kerberos Key Distribution Center for that target service. Ensure that the service on the server and the KDC are both configured to use the same password. If the server name is not fully qualified, and the target domain ([REDACTED CX DOMAIN]) is different from the client domain ([REDACTED CX DOMAIN]), check if there are identically named server accounts in these two domains, or use the fully-qualified name to identify the server
-
-This issue can occur when the deployment has multiple Dynamics 365 servers running the full server role.
+  The Kerberos client received a KRB_AP_ERR_MODIFIED error from the server SVC.[REDACTED - Sandbox Service Account]. The target name used was host/[REDACTED Destination Server]. This indicates that the target server failed to decrypt the ticket provided by the client. This can occur when the target server principal name (SPN) is registered on an account other than the account the target service is using. Ensure that the target SPN is only registered on the account used by the server. This error can also happen if the target service account password is different than what is configured on the Kerberos Key Distribution Center for that target service. Ensure that the service on the server and the KDC are both configured to use the same password. If the server name isn't fully qualified, and the target domain ([REDACTED CX DOMAIN]) is different from the client domain ([REDACTED CX DOMAIN]), check if there are identically named server accounts in these two domains, or use the fully qualified name to identify the server
 
 To work around this issue, do one of the following.
 
 - Split server roles (recommended):
-   - If you have multiple servers in the deployed in a server farm, separate server roles by deploying as servers in the farm as front end or back end. More information: [Install Dynamics 365 Server Front End Server and Back End Server roles](install-dynamics-365-front-back-end-server-roles.md)
-- Configure the following service accounts the use the same password (no recommended):
+   - If you have multiple servers running the full server role deployed in a server farm, separate the roles by deploying as front end or back end. More information: [Install Dynamics 365 Server Front End Server and Back End Server roles](install-dynamics-365-front-back-end-server-roles.md)
+- Configure the following service accounts the use the same password (not recommended):
      - IIS application pool identity account(w3wp)
      - Asynchronous Processing Service account
 
