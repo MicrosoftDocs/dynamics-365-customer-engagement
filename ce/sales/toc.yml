@@ -168,16 +168,18 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
-    - name: Configure Copilot
+    - name: Configure Sales Copilot
       items:
-      - name: Copilot overview (preview)
+      - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Enable and setup Copilot
+      - name: Enable and setup Sales Copilot
         href: enable-setup-copilot.md
-      - name: Configure Copilot capabilities
+      - name: Configure Sales Copilot capabilities
         href: configure-sales-copilot.md
-      - name: Copilot data movement across geographies
+      - name: Sales Copilot data movement across geographies
         href: sales-copilot-data-movement.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -475,6 +477,51 @@
               href: understand-sales-acceleration-reporting.md
             - name: Understand the sequence stats page
               href: understand-sequence-stats.md
+        - name: Work assignment
+          href: work-assignment-intro.md      
+          items:
+            - name: Create and activate segments
+              href: wa-create-and-activate-a-segment.md
+            - name: Manage assignment rules
+              items:
+                - name: Create and activate assignment rules
+                  href: wa-create-and-activate-assignment-rule.md
+                - name: Edit an assignment rule
+                  href: wa-edit-assignment-rule.md
+                - name: Delete or deactivate an assignment rule
+                  href: wa-delete-deactivate-assignment-rule.md
+            - name: Connect a sequence to a segment
+              href: wa-connect-a-segment-to-sequence.md
+            - name: View and edit properties of a segment
+              href: wa-view-details-segment.md
+            - name: Edit a segment
+              href: wa-edit-a-segment.md  
+            - name: Delete segment
+              href: wa-delete-deactivate-a-segment.md
+            - name: Manage unassigned records
+              href: wa-manage-unassigned-records.md
+            - name: Manage work assignment settings
+              href: wa-work-assignment-manage-settings.md
+              items:
+                - name: Configure security roles to assign records
+                  href: wa-manage-sales-teams.md
+                - name: Manage seller attributes
+                  href: wa-manage-seller-attributes.md
+                - name: Manage seller availability
+                  href: wa-manage-seller-availability.md
+            - name: Understand lead distributions
+              href: understand-lead-distributions-assignment-rules.md                  
+        - name: Get seller insights to improve seller effectiveness
+          href: seller-insights-intro.md        
+          items:
+            - name: Import custom insights model into Dataverse
+              href: import-insights-model-into-dataverse.md
+            - name: Enable seller insights
+              href: enable-seller-insights.md
+            - name: Manage access permissions to view insights
+              href: manage-access-view-insights.md
+            - name: Configure assignment rule to auto assign insights
+              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage segments
           href: manage-segments.md
           items:
@@ -533,17 +580,6 @@
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
-        - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
-          items:
-            - name: Import custom insights model into Dataverse
-              href: import-insights-model-into-dataverse.md
-            - name: Enable seller insights
-              href: enable-seller-insights.md
-            - name: Manage access permissions to view insights
-              href: manage-access-view-insights.md
-            - name: Configure assignment rule to auto assign insights
-              href: configure-assignment-rule-auto-assign-insights.md
         - name: Manage Campaigns
           href: configure-inapp-marketing.md
     - name: Guided selling
@@ -618,9 +654,9 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
-        - name: Integrate third-party dialers 
+        - name: Integrate third-party dialers (preview) 
           href: ci-third-party-sp-integration.md
-        - name: Integrate with Twilio Flex
+        - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
     - name: Dashboards and reports
       items:
@@ -695,16 +731,18 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    - name: Use Copilot
+    - name: Use Sales Copilot
       items:
-      - name: Copilot overview (preview)
+      - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Use Copilot capabilities
+      - name: Use Sales Copilot capabilities
         href: use-sales-copilot.md
-      - name: Compose and send email messages using Copilot
+      - name: Compose and send email messages using Sales Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
+      - name: Sales Copilot FAQs
+        href: sales-copilot-faq.md
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
@@ -830,9 +868,13 @@
           href: create-edit-opportunity-sales.md
           items:
             - name: Add products to an opportunity
-              href: add-products-opportunity.md
-            - name: Add products to an opportunity by using the enhanced experience
-              href: add-products-enhanced-experience.md
+              items:
+              - name: Add product using Quick Create form 
+                href: add-products-opportunity.md
+              - name: Add multiple products to an opportunity by using the enhanced experience
+                href: add-products-enhanced-experience.md
+              - name: How the search works on Add Products dialog
+                href: add-products-search.md
             - name: Add stakeholders, sales team, and competitors
               href: add-stakeholder.md
             - name: Move the opportunity through different stages

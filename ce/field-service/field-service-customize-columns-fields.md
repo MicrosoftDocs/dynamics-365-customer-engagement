@@ -9,7 +9,7 @@ ms.author: lmasieri
 
 # Create and edit Field Service columns (fields)
 
-When deploying Field Service, you may need to add new columns (also called fields) to the various tables (sometimes referred to as "entities") that you use, like work orders, bookable resource bookings, customer assets, and more.
+When deploying Field Service, you may need to add new columns (also called fields) to the various tables (sometimes referred to as "entities") that you use, like work orders, bookable resource bookings, customer assets, and more. Mobile views can display up to three columns.
 
 Follow these best practices when creating and editing columns:
 

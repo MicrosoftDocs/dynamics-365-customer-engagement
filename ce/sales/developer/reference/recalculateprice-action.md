@@ -1,7 +1,7 @@
 ---
-title: "RecalculatePrice Action - Developer Guide | MicrosoftDocs"
-description: "Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities."
-ms.date: 04/25/2019
+title: RecalculatePrice Action - Developer Guide
+description: Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities.
+ms.date: 08/09/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -51,31 +51,28 @@ OData-Version: 4.0
 
 ```JavaScript
 function RecalculatePrice(formContext) {
-    var entityName = formContext.data.entity.getEntityName();
-    var parameters = {};
-    var target = {};
-    target[entityName + "id"] = formContext.data.entity.getId();
-    target["@odata.type"] = "Microsoft.Dynamics.CRM." + entityName;
-    parameters.Target = target;
-
     var recalculatePriceRequest = {
+        entityId: formContext.data.entity.getId(),
+        entityLogicalName: formContext.data.entity.getEntityName(),
         Target: parameters.Target,
-
         getMetadata: function () {
             return {
                 boundParameter: null,
                 parameterTypes: {
-                    "Target": {
-                        "typeName": "mscrm.crmbaseentity",
-                        "structuralProperty": 5
-                    }
+                    "entityId": {
+                        "typeName": "Edm.Guid",
+                        "structuralProperty": 5,
+                    },
+                    "entityLogicalName": {
+                        "typeName": "Edm.String",
+                        "structuralProperty": 1,
+                    },
                 },
                 operationType: 0,
-                operationName: "CalculatePrice"
+                operationName: "RecalculatePrice"
             };
         }
     };
-
     Xrm.WebApi.online.execute(recalculatePriceRequest).then(
         function success(result) {
             if (result.ok) {
