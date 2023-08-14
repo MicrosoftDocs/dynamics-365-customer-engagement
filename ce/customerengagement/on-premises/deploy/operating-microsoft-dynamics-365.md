@@ -44,7 +44,7 @@ Event Viewer might record this event when the issue occurs:
 To work around this issue, do one of the following.
 
 - Split server roles (recommended):
-   - If you have multiple servers running the full server role deployed in a server farm, separate the roles by deploying as front end or back end. More information: [Install Dynamics 365 Server Front End Server and Back End Server roles](install-dynamics-365-front-back-end-server-roles.md)
+   - If you have multiple servers running the full server role deployed in a server farm, separate the roles by deploying as front end and back end within the farm. More information: [Install Dynamics 365 Server Front End Server and Back End Server roles](install-dynamics-365-front-back-end-server-roles.md)
 - Configure the following service accounts the use the same password (not recommended):
      - IIS application pool identity account(w3wp)
      - Asynchronous Processing Service account
