@@ -51,7 +51,7 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.459
 
- - Bug fix: RSO incorrectly ignored some resource schedule when there is booking overlapping with optimization range start or end time.
+ - Bug fix: Addressed issue where resource schedules were incorrectly ignored when there is a booking overlapping with optimization range start or end time.
 
 ## 3.4.0.254
 
