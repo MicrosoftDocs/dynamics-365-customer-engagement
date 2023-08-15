@@ -174,8 +174,8 @@
       items:
       - name: Set a business goal and measure progress through a journey
         href: real-time-marketing-business-goals.md
-      - name: Experiment and refine real-time marketing journeys
-        href: real-time-marketing-experimentation.md
+      - name: A/B test in real-time marketing journeys
+        href: real-time-marketing-ab-tests-in-marketing-journeys.md
     - name: Enhance your journeys
       items:
       - name: Edit a live journey
