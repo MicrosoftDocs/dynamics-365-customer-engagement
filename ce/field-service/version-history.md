@@ -33,13 +33,13 @@ For information about older versions, see [Version history archive](version-hist
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
 
-## 8.8.101.57  (2023 Wave 2 early access, update1)
+## 8.8.101.57 (2023 Wave 2 early access, update1)
 
 (Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11---2023-wave-2-early-access-update1) and Resource Scheduling controls version 1.2.54.232001).
 
-**New and improved work order experience** : Our new work order enhancements are designed to make your life easier. With reduced time and effort required to understand the current state of work orders, you can provide quick updates to customers, ensure that frontline workers have the information they need for on-site service, and easily track high-priority work. Plus, our dynamic card feature allows you to take action and move work orders through each stage seamlessly, while our redesigned tasks experience and reference tab streamline the knowledge-sharing process for everyone involved.
+**New and improved work order experience**: Our new work order enhancements are designed to make your life easier. With reduced time and effort required to understand the current state of work orders, you can provide quick updates to customers, ensure that frontline workers have the information they need for on-site service, and easily track high-priority work. The dynamic card feature allows you to take action and move work orders through each stage seamlessly, while our redesigned tasks experience and reference tab streamline the knowledge-sharing process for everyone involved.
 
-**AI-powered work order recap** : Copilot in Field Service helps your workforce save time and work more efficiently by bringing disparate pieces of information together, providing a concise summary of a work order. This feature works across all experiences: desktop application, web, and mobile.
+**AI-powered work order recap**: Copilot in Field Service helps your workforce save time and work more efficiently by bringing disparate pieces of information together, providing a concise summary of a work order. This feature works across all experiences: desktop application, web, and mobile.
 
 
 ## 8.8.101.48  (2023 Wave 2 early access)
