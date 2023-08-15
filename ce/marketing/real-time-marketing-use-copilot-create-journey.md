@@ -17,6 +17,8 @@ ms.custom:
 
 # Use Copilot to create journeys by describing them in their own words
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 With journey copilot, anyone can now use every day conversational language to create marketing journeys without requiring deep knowledge about the product. You can even improve the copilot by giving feedback, helping you achieve more detailed results in the future.
 
 ## Enable journey copilot
