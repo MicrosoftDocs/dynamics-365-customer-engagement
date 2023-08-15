@@ -12,8 +12,8 @@ For information about older versions, see [Version history archive](../../field-
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/01/2023 |
 | | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
 |**Station 4** |*Europe* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/08/2023 |
-|**Station 5** |  *North America*|[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/11/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/11/2023 |
+|**Station 5** |  *North America*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/15/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/15/2023 |
 | | *Dedicated Scale Groups* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/18/2023 |
 
 
@@ -21,6 +21,15 @@ For information about older versions, see [Version history archive](../../field-
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.114.1 - 2023 Wave 2 Early Access update1
+
+**Resource Scheduling Controls:** 1.2.54.232001
+
+**Dataverse:** 4.0.101.1
+
+**Work hours calendar supports multiple recurrences**: Previously, you could only have one work hour recurrence per resource. With the added capability of multiple recurrences, you can now unlock greater flexibility in your resource scheduling to meet business demands further while adjusting to the needs of your workforce for employee retention and job satisfaction.
+
 
 ## 3.12.114.11 - 2023 Wave 2 Early Access (EA) Release
 
