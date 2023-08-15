@@ -58,3 +58,5 @@ As shown in the image below, Copilot automatically detected the **Loyalty member
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing ready to create a journey](media/real-time-marketing-ready-to-create-journey.png "Screenshot showing ready to create a journey")
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
