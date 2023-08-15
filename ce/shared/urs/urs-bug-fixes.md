@@ -28,7 +28,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.101.1
 
-**Work hours calendar supports multiple recurrences**: Previously, you can only have one work hour recurrence per resource. With the added capability of multiple recurrences, you can now unlock greater flexibility in your resource scheduling to meet business demands further while adjusting to the needs of your workforce for employee retention and job satisfaction.
+**Work hours calendar supports multiple recurrences**: Previously, you could only have one work hour recurrence per resource. With the added capability of multiple recurrences, you can now unlock greater flexibility in your resource scheduling to meet business demands further while adjusting to the needs of your workforce for employee retention and job satisfaction.
 
 
 ## 3.12.114.11 - 2023 Wave 2 Early Access (EA) Release
