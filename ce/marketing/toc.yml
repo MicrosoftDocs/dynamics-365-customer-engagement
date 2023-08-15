@@ -132,6 +132,8 @@
       href: real-time-marketing-channel-optimization.md
   - name: Journeys
     items:
+    - name: Use Copilot to create journeys
+      href: real-time-marketing-use-copilot-create-journey.md
     - name: Trigger-based journeys
       items:
       - name: Create a trigger-based journey
