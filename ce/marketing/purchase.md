@@ -30,11 +30,11 @@ Once you have a core license, you can purchase additional production or non-prod
 ### Dynamics 365 Marketing licensing options:
 
 #### Production app
-Production versions of Dynamics 365 Marketing are licensed per tenant. Each tenant is priced according to the number of *Marketing contacts* stored in your database. To identify contacts, Marketing monitors key *interaction* types. Any contact that performs one or more interactions will be flagged as a Marketing contact and count against the allotment.
+Production versions of Dynamics 365 Marketing are licensed per tenant. Each tenant is priced according to the number of *Marketing contacts* stored in your database. To identify contacts, Marketing monitors key *interaction* types. Any contact that performs one or more interactions is flagged as a Marketing contact and count against the allotment.
 
 A Marketing interaction is an outbound message sent to any Marketing contact using Dynamics 365 Marketing.  The message can be sent through out-of-box channels available in Dynamics 365 Marketing (for example, email or push notifications), other Microsoft channels (for example, ACS), or third-party systems integrated with Dynamics 365 Marketing (for example, other SMS providers).
 
-Contacts that are stored, but not marketed to using Dynamics 365 Marketing don't count towards the Marketing contacts quota. After an interaction is logged for a contact, it doesn't matter how many Marketing interactions that contact performs, the contact is still counted just once.
+Contacts that are stored, but not marketed to using Dynamics 365 Marketing don't count towards the Marketing contacts quota. After an interaction is logged for a contact, it doesn't matter how many Marketing interactions that contact performs, the contact is still counted once.
 
 Each license also includes quotas that limit the total number of Litmus inbox previews you can view and marketing email messages you can send each month. With all licenses, a maximum of 100 *free* Litmus email previews can be generated per month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption for Marketing contacts and Marketing interactions on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, be sure to purchase enough Marketing contacts to remain within your quota.
 
@@ -60,7 +60,7 @@ As shown below, the Solution Only app appears as a separate Dynamics 365 Marketi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 Marketing Solution Only app in the Power Platform admin center.](media/purchase-setup-solution-only.png)
 
-As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production or non-production environment, make sure you have an unconfigured production or non-production license and then [run the setup wizard](setup.md#run-wizard) to apply that license to the existing Solution Only environment. This will allow you to preserve your customizations and data from the Solution Only app.
+As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production or non-production environment, make sure you have an unconfigured production or non-production license and then [run the setup wizard](setup.md#run-wizard) to apply that license to the existing Solution Only environment. This allows you to preserve your customizations and data from the Solution Only app.
 
 > [!IMPORTANT]
 > Solution Only apps do not support some functionality that is supported by fully paid Marketing apps, specifically, portals, insights, and their solutions. If you need to use such functionality in a non-production environment, you will need to purchase a non-production license.
