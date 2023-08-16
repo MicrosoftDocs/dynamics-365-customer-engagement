@@ -32,11 +32,11 @@ This article describes the new conversation intelligence pricing model, which wi
 
 The pricing model for conversation intelligence within Dynamics 365 Sales will be a meter-based, pay as you go model. This change means that organizations are only required to pay for their actual monthly consumption of recorded and analyzed hours of conversation intelligence.  
 
-The model uses an Azure subscription and resource for billing, and charges the resource once a month. The charges are based on the number of recorded and analyzed hours in the month.  
+- The model will use an Azure subscription and resource for billing, and charges the resource once a month. The charges are based on the number of recorded and analyzed hours in the month.  
 
-Admins can set up a monthly limit of hours. After this limit is reached, sellers won't be able to record and analyze calls until the end of the month, or until the admin increases or cancels the limit.  
+- Admins can set up a monthly limit of hours. After this limit is reached, sellers won't be able to record and analyze calls until the end of the month, or until the admin increases or cancels the limit.  
 
-The hourly rates will be updated in the licensing guide by October 1, 2023.  
+- The hourly rates will be updated in the licensing guide by October 1, 2023.  
 
 ## What you need to prepare for this change
 
