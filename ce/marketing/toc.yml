@@ -54,7 +54,7 @@
   items:
   - name: Install or uninstall
     items:
-      name: Set up Marketing
+    - name: Set up Marketing
       href: setup.md
     - name: Re-run the Marketing setup wizard
       href: re-run-setup.md
