@@ -1,13 +1,17 @@
 ---
 title: Upcoming changes to conversation intelligence pricing model
-description: 
+description: Prepare for upcoming changes to conversation intelligence pricing model by October 1, 2023.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection: get-started
 ms.date: 08/16/2023
-ms.custom: bap-template 
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:08/16/2023
 ---
 
 # Upcoming changes to conversation intelligence pricing model
