@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 This article describes the new conversation intelligence pricing model which will take effect starting October 1, 2023. Organizations will be able to use the current pricing model until December 1, 2023. After this date, sellers will not be able to record and analyze calls unless the admin configures the new pricing model. The details about the actual configuration will be available on this page on October 1, 2023.  
 
+> [!NOTE]
+> The new pricing model is only applicable to calls recorded and analyzed using embedded dialers within Dynamics 365 Sales. Conversation intelligence will continue to be free and unlimited for calls recorded and analyzed using Sales Copilot within Teams.
+
 ## License and role requirements
 
 | Requirement type | You must have |  
