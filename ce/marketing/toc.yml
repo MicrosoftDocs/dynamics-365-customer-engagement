@@ -54,12 +54,8 @@
   items:
   - name: Install or uninstall
     items:
-    - name: Quickstart setup guide
-      href: get-started.md
-    - name: Integrate with Dynamics 365 Customer Insights
-      href: ci-get-started.md
-    - name: Integrate Marketing with a CMS system or a Power Apps portal
-      href: portal-optional.md
+      name: Set up Marketing
+      href: setup.md
     - name: Re-run the Marketing setup wizard
       href: re-run-setup.md
     - name: Uninstall Marketing
@@ -84,10 +80,14 @@
     href: install-manage-faq.yml
 - name: Set up
   items:
-  - name: Set up Marketing
-    href: setup.md
+  - name: Quickstart setup guide
+    href: get-started.md
   - name: Manage user accounts, licenses, and roles
     href: admin-users-licenses-roles.md
+  - name: Integrate with Dynamics 365 Customer Insights
+    href: ci-get-started.md
+  - name: Integrate Marketing with a CMS system or a Power Apps portal
+    href: portal-optional.md
   - name: Domain Authentication
     items:
     - name: Domain authentication in real-time marketing
