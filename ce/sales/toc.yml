@@ -624,6 +624,8 @@
           href: grant-access-wkw.md
     - name: Conversation intelligence
       items:
+        - name: Upcoming changes to pricing model
+          href: conversation-intelligence-billing.md
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
         - name: Create a call recording repository in Azure

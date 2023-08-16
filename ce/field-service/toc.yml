@@ -527,13 +527,8 @@ items:
   items: 
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ for Outlook work order creation
+    - name: FAQs for Outlook work order creation
       href: faqs-wo-flw-copilot.md
-
-- name: Responsible AI
-  items: 
-    - name: Overview
-      href: responsible-ai-overview.md
     - name: FAQs for work order recap
       href: faqs-work-order-recap.md
 
