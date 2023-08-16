@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/14/2023
+ms.date: 08/16/2023
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ For optimized voice communication, make sure of the following settings:
 
 - **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](system-requirements-omnichannel.md).
 
-- **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you'll experience much background noise in calls and meetings.
+- **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you're likely to experience background noise in calls and meetings.
 
 - **Use devices correctly**:
   - Test your microphone and speaker settings.
