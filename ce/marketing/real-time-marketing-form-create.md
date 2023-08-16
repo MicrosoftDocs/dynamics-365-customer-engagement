@@ -118,7 +118,7 @@ To publish your form, select the **Publish** button in the top right corner. The
 Once the form is published, you can still access these options by selecting the **Publishing** options button in the top right corner. It's possible to use multiple publishing options for a single form.
 
 > [!NOTE]
-> The ontent delivery network (CDN) domain for your geographical area used by the *host form as Standalone page* feature is enabled for form hosting by default.
+> The content delivery network (CDN) domain for your geographical area used by the *host form as Standalone page* feature is enabled for form hosting by default.
 > Example for USA:
 > `https://assets-usa.mkt.dynamics.com`
 >
