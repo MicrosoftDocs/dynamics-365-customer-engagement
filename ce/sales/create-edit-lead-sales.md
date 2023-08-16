@@ -1,7 +1,7 @@
 ---
 title: Create or edit leads in Dynamics 365 Sales
 description: Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before.
-ms.date: 03/31/2023
+ms.date: 06/26/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,7 +40,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 
 3. Follow the process bar to enter data into fields to move the lead to the next stage.  
 
-4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
+4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form. You can [populate the address fields](accounts-contacts.md#populate-address-fields-using-address-suggestions) by using the address suggestion feature.  
 
     -OR-
     
@@ -74,6 +74,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 -   Research leads through social media channels like LinkedIn and Twitter. [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
 
 -   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md) (applies to the Sales app only)
+
   
 
 ## Tips and tricks  

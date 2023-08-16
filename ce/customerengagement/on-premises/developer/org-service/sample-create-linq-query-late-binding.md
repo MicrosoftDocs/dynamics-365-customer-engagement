@@ -46,7 +46,7 @@ This sample shows how to create [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] q
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
 
 ### See also
 

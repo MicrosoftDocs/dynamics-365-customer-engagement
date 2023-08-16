@@ -13,12 +13,14 @@ search.audienceType:
 
 # Retrieve interactions for a contact using code
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > The method below to retrieve interactions has been deprecated and may not be available in the future.
 >
 > To retrieve interaction data, the current recommended method is to set up Azure Blob storage and connect it to the Dynamics 365 Marketing app. Learn more: [Prepare for analytic reporting with Power BI](../custom-analytics.md)
 
-Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr-use-features.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
+Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../privacy-use-features.md#respond-to-get-my-data-requests) to comply with various privacy laws and regulations.
 
 > [!TIP]
 > You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/powerapps/developer/common-data-service/custom-actions#generate-early-bound-types-for-an-action)
@@ -178,7 +180,7 @@ OData-Version: 4.0
 
 ### See also
 
-[Data protection and the GDPR](../gdpr.md)   
+[Data protection and privacy](../privacy.md)   
 [Preview: Prepare for analytic reporting with Power BI](../custom-analytics.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

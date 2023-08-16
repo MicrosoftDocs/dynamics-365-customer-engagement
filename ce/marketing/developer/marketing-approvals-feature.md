@@ -14,12 +14,14 @@ search.audienceType:
 
 # Build an approvals feature
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
+> [!IMPORTANT]
+> This article applies only to outbound marketing.
+
 Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Power Automate.
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is identified as an approver in the system.
-
-> [!IMPORTANT]
-> The process described in this article only applies to outbound marketing features; it does not apply to [real-time marketing](../real-time-marketing-user-guide.yml) functionality.
 
 > [!IMPORTANT]
 > The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. We recommend that you also develop plug-ins that prevent users from going live from any state that isn't approved and also prevent users from editing fields on the records that are in the approval-required, approved, or live state.

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Set form matching
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Form matching defines how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
 
 For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, Dynamics 365 Marketing checks whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.

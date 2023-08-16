@@ -1,7 +1,7 @@
 ---
 title: "Setting up a proof of concept for Resource Scheduling Optimization in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up a proof of concept for Resource Scheduling Optimization in Dynamics 365 Field Service
-ms.date: 07/24/2019
+ms.date: 04/21/2023
 
 ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual
@@ -64,11 +64,11 @@ Any other questions that help determine how the client is currently managing or 
 
 To know if the POC works well for the client, you first need to determine what measurable success looks like. While it's tempting to declare that "improved travel times" or "decreased overtime" are successes, they aren't specific or measurable enough. Work with the client to define *measurable* success criteria, such as *reduce travel time by 10%* or *schedule no overtime for maintenance work*. 
 
-Be sure that what the client asks for is something we can actually measure. For example, reducing the number of trips to a customer’s site is not easily measured, as each requirement will create a related booking when scheduled. Resource scheduling optimization will often schedule work at the same location back-to-back, as long as other criteria like the scheduling window allow for it; to report this as a single trip to the customer site, however, is difficult with multiple booking records. Typically work booked at the same location back-to-back with another work order will have zero travel time or zero miles, so think of ways to present these as success criteria to your client or prospect. 
+Be sure that what the client asks for is something we can actually measure. For example, reducing the number of trips to a customer's site is not easily measured, as each requirement will create a related booking when scheduled. Resource scheduling optimization will often schedule work at the same location back-to-back, as long as other criteria like the scheduling window allow for it; to report this as a single trip to the customer site, however, is difficult with multiple booking records. Typically work booked at the same location back-to-back with another work order will have zero travel time or zero miles, so think of ways to present these as success criteria to your client or prospect. 
 
-Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the customer can compare the Resource Scheduling Optimization results to what really happened. This is difficult because Resource Scheduling Optimization cannot schedule before the current time. If you add days to the dates provided, remember that a weekday in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
+Also, understand the data in terms of dates and timeframes. It's common to receive a data set from prior periods where the expectation is the customer can compare the Resource Scheduling Optimization results to what really happened. This is difficult because Resource Scheduling Optimization cannot schedule before the current time. If you add days to the dates provided, remember that a weekday in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
 
-You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. Resource scheduling optimization can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as **Time From Promised** and **Time To Promised** fields on the work order, or by setting the **Date Window Start** and **Date Window End** work order fields, which translate to the Start and End fields on a requirement (using either is applicable). You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. Consider the capabilities of [Service Level Agreements (SLAs) for Work Orders](sla-work-orders.md).
+You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. Resource scheduling optimization can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as **Time From Promised** and **Time To Promised** fields on the work order, or by setting the **Date Window Start** and **Date Window End** work order fields, which translate to the Start and End fields on a requirement (using either is applicable). You'll often see examples such as "next day before 12:00 PM" or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. Consider the capabilities of [Service Level Agreements (SLAs) for Work Orders](sla-work-orders.md).
 
 Whatever you choose, be sure the result is a date window that can be acted upon by Resource Scheduling Optimization. Resource scheduling optimization will only consider these requirements within that date window. If not scheduled, these requirements will not be considered in future Resource Scheduling Optimization runs targeting dates outside that time frame. Have a plan to address those requirements with small scheduling windows, or have a process to push the scheduling window forward as you do subsequent Resource Scheduling Optimization runs. 
 
@@ -91,7 +91,7 @@ Typical types of data include:
 
 ### Accounts
 
-Account information is helpful when dealing with work orders, since **Service Account** is a required field. The account information can typically be derived from the work order data if an address or longitude and latitude are provided. A generic naming convention can be used for privacy reasons (see GDPR requirements). We frequently see clients who provide data with names removed, and only include an account number so that they can refer to actuals from existing systems.
+Account information is helpful when dealing with work orders, since **Service Account** is a required field. The account information can typically be derived from the work order data if an address or longitude and latitude are provided. A generic naming convention can be used for privacy reasons. We frequently see clients who provide data with names removed, and only include an account number so that they can refer to actuals from existing systems.
 
 ### Addresses
 
@@ -187,7 +187,7 @@ When setting up work hours, you may also set a fixed break time, which Resource 
 
 ### Priorities
 
-Priorities provide additional dimensions to a Resource Scheduling Optimization run. Using high priority requirements as a constraint will provide control over those more urgent requirements. If the data provided doesn’t include levels of priority, you should develop a prioritization logic. For example, perhaps requirements where the scheduling window is small are a higher priority than those with wider scheduling windows. 
+Priorities provide additional dimensions to a Resource Scheduling Optimization run. Using high priority requirements as a constraint will provide control over those more urgent requirements. If the data provided doesn't include levels of priority, you should develop a prioritization logic. For example, perhaps requirements where the scheduling window is small are a higher priority than those with wider scheduling windows. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a priority record with the level of importance set to 10.](./media/rso-poc-priorities1.png) 
@@ -239,7 +239,7 @@ Now that we've had a look at types of data that will make for a useful POC, let'
 
 ### Scheduling initial data
 
-With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run Resource Scheduling Optimization to the first of the month or period you want to schedule. For example, if running for the month of January on December 16, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 through January 31.
+With POCs, it's not unheard of to receive multiple data sets representing information such as a months' worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run Resource Scheduling Optimization to the first of the month or period you want to schedule. For example, if running for the month of January on December 16, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 through January 31.
 
 For more detailed information about setting up optimization schedules, see [this article on on the subject](/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
 
@@ -260,13 +260,13 @@ It's helpful to create views that are used by Resource Scheduling Optimization t
 You can also define how bookings should be optimized. The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route and list of bookings for the resources. Bookings can be considered optimally scheduled if they:
 
 - Meet all company constraints
-- Have the highest possible score for the company’s objectives
+- Have the highest possible score for the company's objectives
 
 Let's take a look at some constraints and objectives.
 
 #### Constraints
 
-- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. Removing this constraint does not mean Resource Scheduling Optimization will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
+- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource's working hours. Removing this constraint does not mean Resource Scheduling Optimization will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
 - **Meets Required Characteristics**: Verifies the resource has all the required characteristics and should have minimum required skill level. 
 - **Scheduling Lock Option**: If checked, this will respect lock options configured on a booking record.
 - **Scheduling Windows**:  Resource scheduling optimization will schedule work to comply within the time window start and end fields on the resource requirement or booking record. 

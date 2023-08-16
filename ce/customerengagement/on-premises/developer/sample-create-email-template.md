@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Sample: Create an email using a template
 
-This sample shows how to instantiate an email record by using [InstantiateTemplateRequest](/dotnet/api/microsoft.crm.sdk.messages.instantiatetemplaterequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/EmailTemplate). 
+This sample shows how to instantiate an email record by using [InstantiateTemplateRequest](/dotnet/api/microsoft.crm.sdk.messages.instantiatetemplaterequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/EmailTemplate). 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

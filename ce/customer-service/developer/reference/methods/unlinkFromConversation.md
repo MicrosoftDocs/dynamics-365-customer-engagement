@@ -15,7 +15,7 @@ This function can be used to unlink an already linked entity record of type cust
 
 ## Syntax
 
-`Microsoft.Omnichannel.unlinkFromConversation(entityLogicalName, recordId);`
+`Microsoft.Omnichannel.unlinkFromConversation(entityLogicalName, recordId, conversationId);`
 
 ## Parameters
 
@@ -23,6 +23,9 @@ This function can be used to unlink an already linked entity record of type cust
 | ----------------- | -----------| ----------- |
 | entityLogicalName | String     | Logical name of the entity (such as account, contact, or incident) | 
 | recordId          | String     | Unique identifier for the entity record to be unlinked |
+| `*`conversationId    | String  | Unique identifier for the conversation to unlink. Also reffered to as liveworkitemId. Without providing this parameter, the entity will unlink from the focused conversation by default. |
+
+`*` Indicates optional parameter.
 
 ## Return value
 
@@ -32,7 +35,7 @@ Returns a resolved or rejected promise based on the outcome of the operation.
 
 ```javascript
 //Unlinking an already linked incident record from the current conversation 
-Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a4-c4056ddd2e07").then((response) => { 
+Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a4-c4056ddd2e07", "b7397aae-ecf8-43a6-aeb0-07d294efb494").then((response) => { 
     // Refreshing the tab UI  
     Microsoft.Apm.refreshTab("tab-id-3"); 
 }, (error) => { 

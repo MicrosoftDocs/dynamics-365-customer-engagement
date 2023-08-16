@@ -8,7 +8,7 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: intro-internal
+ms.collection: get-started
 author: Andrea-Orimoto
 ms.author: andreo
 ---

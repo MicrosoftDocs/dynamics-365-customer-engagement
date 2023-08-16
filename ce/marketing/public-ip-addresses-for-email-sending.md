@@ -14,6 +14,8 @@ search.audienceType:
 
 # Public IP addresses used for sending e-mails
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing uses a set of dedicated IPv4 public network subnets for sending e-mails. All e-mails sent by Marketing depart from an IP address belonging to one of the subnets. The subnets are owned by the Marketing platform; no other product or customer can use an IP address from them.
 
 > [!NOTE]

@@ -5,6 +5,9 @@ ms.date: 03/29/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: 
+  - ai-gen-docs
+  - ai-gen-desc
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

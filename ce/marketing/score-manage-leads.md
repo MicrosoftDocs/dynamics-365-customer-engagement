@@ -1,7 +1,7 @@
 ---
-title: "Create lead scoring models (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing."
-ms.date: 12/14/2020
+title: Create lead scoring models (Dynamics 365 Marketing)
+description: How to set up automatic scoring rules and identify sales-ready leads in Dynamics 365 Marketing.
+ms.date: 04/21/2023
 
 ms.custom: 
   - dyn365-marketing
@@ -16,6 +16,8 @@ search.audienceType:
 
 # Design lead-scoring models
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
 Dynamics 365 Marketing can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
@@ -23,7 +25,7 @@ Dynamics 365 Marketing can calculate a score for each lead based on demographic 
 Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
-> Automatic lead scoring can introduce data-privacy issues that are regulated by laws such as the GDPR. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data-privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and the GDPR](gdpr.md)
+> Automatic lead scoring can introduce data privacy issues. It is your organization's responsibility to ensure that it is operating in full compliance with all relevant data privacy regulations when you use lead scoring and all other features of Dynamics 365 Marketing. More information: [Data protection and privacy](privacy.md)
 
 ## Lead-scoring prerequisites and requirements
 

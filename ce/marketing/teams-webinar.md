@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 01/31/2023
+ms.date: 06/06/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -14,6 +14,8 @@ search.audienceType:
 ---
 
 # Use Microsoft Teams for Dynamics 365 Marketing online events
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -122,6 +124,8 @@ The discrepancies in appearance are styling issues that won't limit the function
 -	The Teams calendar item created for your event is read-only. Synchronization between Teams and Dynamics 365 works in one direction: from Dynamics 365 to Teams. Changes you apply in Teams won't take effect on the Dynamics 365 side and may be overwritten. For this reason, use Dynamics 365 Marketing to manage and edit your event. This includes configuring meeting settings, creating a registration form, and adding speakers or presenters to your event.
 - You may notice that landing pages for Teams meetings and webinars look the same. This is expected. The in-meeting experience is the same for a traditional meeting and a webinar. Your webinar will take place as you structured it with the roles of the attendees.
 - After you add a speaker engagement to your webinar through Dynamics 365, the meeting options in Teams will become visible. The calendar item will still be read-only in Teams. Make sure you edit your webinar only in Dynamics 365 Marketing.
+
+Users [added as a guest](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal) to your Azure Active Directory tenant are not able to leverage any Teams integration options.
 
 ### Teams meetings
 

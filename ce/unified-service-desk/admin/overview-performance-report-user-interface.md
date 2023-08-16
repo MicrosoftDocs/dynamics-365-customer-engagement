@@ -10,7 +10,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Public Preview: Overview of Unified Service Desk performance report user interface

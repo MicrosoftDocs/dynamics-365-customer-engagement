@@ -14,6 +14,8 @@ search.audienceType:
 
 # Basic customer journey API operations
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Potential customers follow a path as they engage with your company. They start by discovering your product, evaluating whether it meets their needs, looking for a good offer, then finally making a purchase. This process is called the *customer journey*.
 
 You can use customer journeys to create a model that guides members of marketing segments through this process using automated messaging, activity generation, interactive decision points, and more. More information: [Create Customer Journey](/dynamics365/customer-engagement/marketing/customer-journeys-create-automated-campaigns).

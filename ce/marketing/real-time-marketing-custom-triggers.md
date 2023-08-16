@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create custom triggers in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Custom triggers are a flexible way to capture important moments and interactions, allowing you to orchestrate uniquely engaging customer interactions.
 
 A custom trigger is a user-defined signal that can contain and transport any type of information that a customer journey can act upon. Real-time marketing users are in full control of what custom triggers represent and what kind of information they convey.

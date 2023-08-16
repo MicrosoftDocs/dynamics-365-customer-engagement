@@ -16,6 +16,8 @@ search.audienceType:
 
 # Transfer data and configurations between environments using the Configuration Migration tool
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can replicate Dynamics 365 Marketing configurations and data across environments using the standard tools provided for Dynamics 365. Common scenarios where this comes in handy include:
 
 - Move validated journeys, emails, and other content from a sandbox to a production environment

@@ -10,7 +10,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Migration of Unified Service Desk configurations from the legacy web client to Unified Interface apps

@@ -1,0 +1,194 @@
+### YamlMime:Hub
+
+title:  Dynamics 365 Field Service documentation
+summary: Discover how to make the most of Dynamics 365 Field Service with training, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and Field Service Mobile to deliver world-class onsite service to customer locations.
+brand: dynamics
+
+metadata:
+  title: Dynamics 365 Field Service documentation
+  description: Discover how to make the most of Dynamics 365 Field Service with training, docs, and videos covering product capabilities and how-to articles. Learn how to use features in Field Service and how to get the most out of the application.
+  ms.topic: hub-page
+  author: m-hartmann
+  ms.author: mhart
+  ms.date: 06/26/2023
+  ms.custom: bap-template
+  hide_bc: true
+
+highlightedContent:
+
+  items:
+    - title: Welcome to Dynamics 365 Field Service
+      itemType: get-started
+      url: overview.md
+    - title: What's new
+      itemType: whats-new
+      url: version-history.md
+    - title: Training
+      itemType: training
+      url: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
+    - title: Troubleshoot
+      itemType: concept
+      url: troubleshoot-field-service-solution-health.md
+      
+additionalContent: 
+  sections:
+  - title: Implement
+    items:
+    - title: Try/buy/install
+      links: 
+      - url: trial-signup.md
+        text: Sign up for a trial
+      - url: buy-fs.md
+        text: Buy a subscription
+      - url: install-field-service.md
+        text: Install Field Service
+      - url: /dynamics365/get-started/release-schedule
+        text: Get preview features
+    - title: Set up 
+      links:
+      - url: view-user-accounts-security-roles.md
+        text: Set up users and security profiles
+      - url: frontline-worker-set-up.md
+        text: Set up frontline workers
+      - url: set-up-bookable-resources.md
+        text: Set up bookable resources
+      - url: configure-default-settings.md
+        text: Configure default settings
+    - title: Customize 
+      links: 
+      - url: field-service-customizations.md
+        text: Customize Field Service
+      - url: field-service-customization-best-practices.md
+        text: Best practices
+      - url: field-service-customize-forms.md
+        text: Customize forms
+      
+  - title: Administer
+    items:
+    - title: Administer
+      links:
+      - url: field-service-maps-address-locations.md
+        text: Set up location and map settings
+      - url: create-price-list.md
+        text: Set up price lists
+      - url: schedule-new-entity.md
+        text: Enable an entity for scheduling
+      - url: set-up-booking-statuses.md
+        text: Set up booking statuses
+    - title: Administer mobile app
+      links:
+      - url: mobile-power-app-get-started.md
+        text: Install Field Service mobile app
+      - url: mobile-powerapp-booking-maps.md
+        text: Enable booking maps
+      - url: mobile-power-app-system-offline.md
+        text: Configure offline capabilities
+      - url: mobile-power-app-push-notifications.md
+        text: Enable push notifications
+    - title: Administer add-ons
+      links:
+      - url: connected-field-service.md
+        text: Connected Field Service overview
+      - url: cfs-security-roles.md
+        text: Configure security roles for Connected Field Service
+      - url: rso-get-install.md
+        text: Get Resource Scheduling Optimization
+      - url: rso-quickstart.md
+        text: Deploy and set up Resource Scheduling Optimization
+  - title: Use
+    items:
+    - title: Work orders
+      links:
+      - url: create-work-order.md
+        text: Create a work order
+      - url: work-order-status-booking-status.md
+        text: Work order life cycle and statuses
+      - url: field-service-architecture.md
+        text: Work order architecture
+    - title: Bookable resources
+      links:
+      - url: set-up-characteristics.md
+        text: Specify resource skills
+      - url: resource-crews.md
+        text: Create a crew
+      - url: resource-pools.md
+        text: Create a resource pool
+    - title: Customer accounts and assets
+      links:
+      - url: accounts.md
+        text: Create customer accounts
+      - url: assets.md
+        text: Work with customer assets
+      - url: properties.md
+        text: Create properties
+    - title: Scheduling
+      links:
+      - url: schedule-assistant.md
+        text: Schedule assistant
+      - url: quick-scheduling.md
+        text: Quick scheduling
+      - url: configure-schedule-board.md
+        text: Use and configure the schedule board
+    - title: Mobile app
+      links:
+      - url: mobile-power-app-overview.md
+        text: Mobile app overview
+      - url: mobile-power-app-use.md
+        text: Use the mobile app
+      - url: mobile-powerapp-booking-maps.md#view-booking-map-on-mobile-app
+        text: View booking map
+    - title: Agreements, inventory, and purchasing
+      links:
+      - url: set-up-customer-agreements.md
+        text: Agreements to automatically generate work orders and invoices
+      - url: sla-work-orders.md
+        text: Service level agreements
+      - url: inventory-purchasing-returns-overview.md
+        text: Inventory, purchasing, and returns
+    - title: Integrations
+      links:
+      - url: field-service-teams-collaboration.md
+        text: Collaborate using Microsoft Teams
+      - url: supply-chain-field-service-integration.md
+        text: Integrate with Dynamics 365 Supply Chain Management
+      - url: mixed-reality-guides-integration.md
+        text: Integrate with Dynamics 365 Guides
+    - title: IoT in Field Service
+      links:
+      - url: connected-field-service.md
+        text: IoT integration overview
+      - url: cfs-custom-iot-provider.md
+        text: Create IoT providers
+      - url: cfs-iot-alerts.md
+        text: Create IoT alerts and convert to work orders
+    - title: Resource Scheduling Optimization Add-in
+      links:
+      - url: rso-overview.md
+        text: Resource Scheduling Optimization overview
+      - url: rso-schedule-optimization.md
+        text: Schedule optimization
+      - url: rso-simulation.md
+        text: Run as a simulation
+
+  - title: Related products
+    items:
+        # Card
+        
+        - title: Dynamics 365 Guides
+          summary: Let Field Service customers attach mixed reality guides to Field Service tasks so frontline workers can view the guides in their HoloLens and get their work done.
+          url: /dynamics365/mixed-reality/guides/overview
+        - title: Dynamics 365 Remote Assist
+          summary: Allow frontline workers to see their Field Service bookings on HoloLens and quickly call remote collaborators.
+          url: /dynamics365/mixed-reality/remote-assist/ra-overview
+        - title: Dynamics 365 Customer Service
+          summary: Help your business deliver the best customer service experience possible to your customers.
+          url: /dynamics365/customer-service/overview
+        - title: Microsoft Dataverse
+          summary: Securely store and manage data that's been used by business applications.
+          url: /power-apps/maker/data-platform/
+        - title: Microsoft Power Platform
+          summary: Lets your business deploy Field Service. 
+          url: /power-platform/
+        - title: Microsoft Power Apps
+          summary: Build low-code apps that modernize processes and solve tough business challenges in your organization.
+          url: /power-apps/

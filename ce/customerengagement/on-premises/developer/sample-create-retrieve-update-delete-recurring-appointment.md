@@ -30,7 +30,7 @@ This sample shows how to create, retrieve, update, and delete a recurring appoin
 - [IOrganizationService.Update](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.update?view=dynamics-general-ce-9&preserve-view=true)
 - [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9&preserve-view=true)
 
-You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CRUDRecurringAppointment).
+You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CRUDRecurringAppointment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

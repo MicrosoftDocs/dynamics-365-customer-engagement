@@ -1,7 +1,7 @@
 ---
 title: "Extend real-time marketing forms using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Extend real-time marketing forms with JavaScript to apply custom business logic in Dynamics 365 Marketing."
-ms.date: 04/05/2023
+ms.date: 06/21/2023
 ms.custom:
 - dyn365-marketing
 ms.topic: article
@@ -12,6 +12,8 @@ search.audienceType:
 ---
 
 # Extend real-time marketing forms using code
+
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
 
 This article explains how to extend real-time marketing forms for advanced customization.
 
@@ -43,9 +45,24 @@ Real-time marketing forms consist of two parts:
 |`d365mkt-formrender`|Triggered after the form content is fetched and right before it is injected into the form placeholder. |
 |`d365mkt-afterformload`|Triggered after the form is injected into the placeholder. |
 |`d365mkt-formsubmit`| Triggered when the form is submitted, cancellable. |
+|`d365mkt-afterformsubmit`| Triggered after form is submitted |
+
+#### Form submit - d365mkt-formsubmit detail object properties
+
+| Name | Type | Desription |
+| ----- | ---- | ---- |
+| Payload | Object | Dictionary with form properties to be sent to the server |
+
+#### After form submit - d365mkt-afterformsubmit detail object properties
+
+| Name | Type | Desription |
+| ----- | ---- | ---- |
+| Success | Boolean | Indicates whether the server accepted the submission or if the submission was rejected |
+| Payload | Object | Dictionary with form properties as they were sent to the server |
   
 You can attach custom events using the standard event attach mechanics:
 
+##### Sample code
   ```HTML
   <script>
 document.addEventListener("d365mkt-beforeformload", function() { console.log("d365mkt-beforeformload") });
@@ -58,7 +75,11 @@ document.addEventListener("d365mkt-formsubmit", function(event) {
       console.log("blocked mkt-formsubmit"); 
       return;
     }
-    console.log("mkt-formsubmit"); 
+    console.log("mkt-formsubmit" + JSON.stringify(event.detail.payload)); 
+});
+document.addEventListener("d365mkt-afterformsubmit", function(event) {
+    console.log("success - " + event.detail.successful);
+    console.log("payload - " + JSON.stringify(event.detail.payload));
 });
 </script>
 ```

@@ -281,7 +281,7 @@ You must wait for an import job to complete before you can repair failures.
 ### See also
 
 
-[Export data to Excel](/powerapps/user/export-data-excel)
+[Export data to Excel](/powerapps/user/export-data-excel)  
 [Export sales records to PDF](create-quote-pdf.md)
 
 

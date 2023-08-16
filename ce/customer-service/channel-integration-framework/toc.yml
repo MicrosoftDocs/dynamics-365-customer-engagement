@@ -84,8 +84,6 @@
             href: reference/microsoft-ciframework/addHandler.md
           - name: "removeHandler"
             href: reference/microsoft-ciframework/removeHandler.md
-          - name: "updateContext"
-            href: reference/microsoft-ciframework/updateContext.md
       - name: Client-side events
         href: reference/client-side-events.md
         items:

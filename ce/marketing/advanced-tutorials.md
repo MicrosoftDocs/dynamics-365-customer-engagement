@@ -2,10 +2,9 @@
 title: "Advanced tutorials (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Step-by-step tutorials for learning how to work with specialist user scenarios in Dynamics 365 Marketing."
 ms.date: 04/01/2018
-
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
@@ -16,6 +15,8 @@ search.audienceType:
 ---
 
 # Tutorials for specific scenarios
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 The tutorials in this section are more general than the guides in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of Dynamics 365 Marketing, but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
 

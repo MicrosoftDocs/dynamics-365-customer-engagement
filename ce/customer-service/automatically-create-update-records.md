@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Dynamics 365 Customer Service | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 04/20/2023
+ms.date: 08/03/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,9 @@ searchScope:
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 You can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
+
+> [!NOTE]
+> Modern automatic record creation and update rules isn't supported on on-premises environments.
 
 ## Set up rules for creating or updating records automatically
 
@@ -159,7 +162,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
     
        The resolved case won't be re-opened automatically when the incoming email is associated with it. However, you can configure flows using Power Automate, to re-open a resolved case when an incoming email is associated with the resolved case.
 
-      If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
+      If set to **No**, no case will be created if a related case exists.
 
       > [!NOTE]
       > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
@@ -208,7 +211,7 @@ The mails from known senders only will be processed.
 
 The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
 
-The option to create the contact is based on the email sender's permission. If the email sender doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
+The option to create the contact is based on the email recipient's permission. If the email recipient doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
 
 To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
 
@@ -234,7 +237,7 @@ To create a contact for unknown senders of mail, configure the following options
 
 ### Create contacts for unknown senders using rule owner context
 
-By default, a contact for unknown email sender is created with the email owner context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
+By default, a contact for unknown email sender is created with the email recipient's context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
@@ -257,9 +260,9 @@ By default, a contact for unknown email sender is created with the email owner c
 
  You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
-## Use activity monitor to review and track rules
+## Manage activity monitor to review and track rules
 
-You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures failed events. You can customize the events that you want to monitor by using the monitor options in the application.
+You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures all the states. You can customize the events that you want to monitor by deselecting the monitor options in the application.
 
 > [!NOTE]
 > - Activity monitor is supported only with online environments, such as cloud applications, and not with on-premises environments.
@@ -291,13 +294,10 @@ Perform the following steps to use the activity monitor for the rules:
     > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
-4. Perform the following steps to turn on or off monitoring for the states:
-   1. Select **Monitor options** on the command bar. The **Monitor options** dialog appears.
-   2. Select any or all the following states:
+4. If you don't want to monitor any of the following states, you can deselect the state on the **Monitor options** dialog.
       - Ready for Power Automate / workflow
       - Failed
       - Skipped
-
 
 ### Troubleshoot cases
 

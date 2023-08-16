@@ -1,10 +1,13 @@
 ---
-title: "Track and manage activities (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments."
+title: Track and manage activities
+description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
 ms.date: 02/28/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: 
+  - ai-gen-docs
+  - ai-gen-desc
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Get started with Community

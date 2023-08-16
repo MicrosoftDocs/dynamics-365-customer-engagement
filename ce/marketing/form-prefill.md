@@ -16,6 +16,8 @@ search.audienceType:
 
 # Enable prefilling for forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The prefill feature for marketing-page forms provides returning contacts with a form that already shows their previously entered information, like their name and email address. Contacts will usually find prefilled forms to be more convenient, which is likely to improve the submission rate. Prefilled forms can also help lower data-entry errors, thereby improving the quality of your data. However, you must also consider your contacts' privacy, so you'll be able to control precisely which fields on which forms will allow prefilling, and each contact can choose for themselves whether or not to allow prefilled landing-page forms. Subscription center forms, however, always support prefilling due to the role they play in the system.
 
 For general information about how to create, design, and work with marketing pages, see [Create and deploy marketing pages](create-deploy-marketing-pages.md).

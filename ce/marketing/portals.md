@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create interactive features with or without portals
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing provides features for creating landing pages, subscription centers, online forms, event websites, and other ways of interacting with your customers online. Each of these features is intended to be used by marketing contacts to view and submit information to and from the Marketing app. There are two ways to provide these interactive features:
 
 - **Run on a Power Apps portal**: With this option, the Marketing app works together with the Power Apps portals solution to provide fully automated publishing and hosting of marketing pages and the event website. You can provide all of these features without changing, or even owning, your own website. However, it requires a portals license and the features aren't fully native on your organization's website.

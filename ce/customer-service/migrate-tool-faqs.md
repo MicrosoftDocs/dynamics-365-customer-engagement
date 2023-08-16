@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 03/28/2023
+ms.date: 03/29/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -195,7 +195,7 @@ If you've used any channel properties in legacy rules customization, those rules
 
 - “First not null” expression can’t be migrated automatically. Customization can be manually applied on the flow for the migration.
 - Mapping a lookup record’s display name to a string field can’t be migrated automatically. Customization can be manually applied on the flow for the migration.
-- Activity party fields used as source fields aren't supported in flow.  
+- Activity party fields used as source fields aren't supported in flow.
 
 ## Known flow issues
 

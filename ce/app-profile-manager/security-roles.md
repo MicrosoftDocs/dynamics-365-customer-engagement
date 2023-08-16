@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.date: 06/09/2022
 ms.topic: article
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Roles and privileges associated with app profile manager

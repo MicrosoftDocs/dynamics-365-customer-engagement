@@ -12,7 +12,7 @@ ms.author: nenellim
 
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
-> [!Important]
+> [!IMPORTANT]
 > - Bots can receive conversations only if they're added to push-based workstreams.
 > - Bot agents are not supported in consult mode.
 
@@ -23,13 +23,13 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Escalate a conversation to a human agent
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream. 
+In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
 When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
 
 After the agent accepts the escalation request, the transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the conversation with the customer.
 
-> [!Note]
+> [!NOTE]
 > The conversation summary won't be visible to the customer.
 
 ## End a conversation
@@ -76,7 +76,7 @@ namespace EchoBot.OmniChannel
         public CommandType Type { get; set; }
 
         /// <summary>
-        /// Dictionary of Workstream Context variable and value pairs to be sent to Omni-Channel 
+        /// Dictionary of Workstream Context variable and value pairs to be sent to Omnichannel for Customer Service
         /// </summary>
         [DataMember(Name = "context")]
         public Dictionary<string, object> Context { get; set; }
@@ -117,7 +117,7 @@ namespace EchoBot.OmniChannel
         /// Adds Omnichannel for Customer Service escalation context to the bot's reply activity.
         /// </summary>
         /// <param name="activity">Bot's reply activity</param>
-        /// <param name="contextVars">Omnichannel for Customer Service Workstream context variable value pairs</param>
+        /// <param name="contextVars">Omnichannel for Customer Service workstream context variable value pairs</param>
         public static void AddEscalationContext(IActivity activity, Dictionary<string, object> contextVars)
         {
             Command command = new Command
@@ -138,7 +138,7 @@ namespace EchoBot.OmniChannel
         }
 
         /// <summary>
-        /// Adds Omni-channel end conversation context to the bot's reply activity.
+        /// Adds Omnichannel end conversation context to the bot's reply activity.
         /// </summary>
         /// <param name="activity">Bot's reply activity</param>
         public static void AddEndConversationContext(IActivity activity)
@@ -214,13 +214,13 @@ namespace Microsoft.Bot.Builder.EchoBot
                 IActivity replyActivity = MessageFactory.Text($"Echo: {turnContext.Activity.Text}");
 
                 // Replace with your own condition for bot escalation
-                if (turnContext.Activity.Text.Equals("escalate", StringCompari-son.InvariantCultureIgnoreCase))
+                if (turnContext.Activity.Text.Equals("escalate", StringComparison.InvariantCultureIgnoreCase))
                 {
                     Dictionary<string, object> contextVars = new Dictionary<string, object>() { { "Bo-tHandoffTopic", "CreditCard" } };
                     OmnichannelBotClient.AddEscalationContext(replyActivity, contextVars);
                 }
                 // Replace with your own condition for bot end conversation
-                else if (turnContext.Activity.Text.Equals("endconversation", StringCompari-son.InvariantCultureIgnoreCase))
+                else if (turnContext.Activity.Text.Equals("endconversation", StringComparison.InvariantCultureIgnoreCase))
                 {
                     OmnichannelBotClient.AddEndConversationContext(replyActivity);
                 }

@@ -19,17 +19,7 @@ summary: |
 sections:
   - name: Ignored
     questions:
-      - question: |
-          Why did I receive an email or Message Center notification about a Field Service update?
-        answer: |
-          Roughly once a month, Field Service pushes a standard update to customers on Field Service version 8.8.6 and higher. A message is sent each month prior to this update highlighting that an update is planned. For more information on this update, see our [documentation](./update-field-service.md) on the different kinds of Field Service updates and [when Field Service updates are planned](./version-history.md).
-          
-          The other type of update messages that some may have received highlights that one or more of your environments are on a version of Field Service lower than 8.8.6. This message advises that you need to upgrade your environment as soon as possible or Microsoft will conduct the update for you. Be sure to take action as soon as possible.
-          
-          As this message states, **we strongly recommend that customers conduct this update on their own, as soon as possible. Updating yourself means that you can take appropriate testing measures and change management steps.** The only validation that we are able to conduct will confirm that the upgrade will succeed based on the environment configuration at the time of our test. Our validation will not validate other potential functional disruptions following an unmanaged update.
-          
-          To get all of our customers to the latest version of Field Service, Microsoft will be conducting these updates between now and December. These Microsoft-applied updates will happen in a phased manner; when your environments are selected to receive this update, you'll receive a message highlighting a specific date that your environment will be updated, with additional language highlighting some additional details about the process.
-          
+ 
       - question: |
           Why is Field Service missing from the sitemap navigation?
         answer: |
@@ -42,12 +32,7 @@ sections:
           
           > [!div class="mx-imgBorder"]
           > ![Screenshot of the former Field Service navigation menu](./media/navigation-fs-sitemap-7.png)
-          
-      - question: |
-          Can I customize out-of-the-box web resources, option sets, security roles, or workflows? 
-        answer: |
-          No. Customizing, taking dependencies, or custom invocation of these components is not supported and could result in unintended system behaviors. Organizations that customize these components may not immediately cause the environment to break; but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes, which will eventually cause the instances that have customized these components to experience unpredictable errors and behavior.  
-
+       
       - question: |
           Why are there work orders with duplicate work order numbers?
         answer: |
@@ -57,11 +42,6 @@ sections:
           Why can't cascade crew changes be disabled for a booking scheduled to a crew or group
         answer: |
           This issue happens when a booking is assigned from a resource (not crew or group) to a crew or group and the value of **msdyn_CascadeCrewChanges** in the booking is set to false. To overcome this issue, open the booking and set the value of **msdyn_CascadeCrewChanges** to **Yes**. Then, reperform the booking assignment to a crew, which will fix the error the user sees when assigning the booking to a crew.
-
-      - question: |
-          Can I modify, edit, or delete Field Service date fields or statuses?
-        answer: |
-          No. Modifying, editing, or deleting date fields and statuses can affect business logic and may disrupt solution upgrades. Examples of work order date fields include date window start, date window end, time from promised, and time to promised. Examples of status fields include work order system status and agreement system status.
 
       - question: |
           Why do I get the error message "This form can only be used on service-maintenance based records. Record is read only"?
@@ -109,32 +89,6 @@ sections:
           > [!div class="mx-imgBorder"]
           > ![Screenshot showing the troubleshooting pathway outlined in the previous steps.](./media/faq-attributemap-upgrade-error-billing-account.png)
           
-      - question: |
-          What is the msdyn_postponegenerationuntil field that is found on many Field Service entities?
-        answer: |
-          The **msdyn_postponegenerationuntil** field is intended for internal use only as it is used for workflow record generation design. Manipulating values in this field or taking dependencies on it is not supported and can lead to unexpected system behavior.
-          
-          This field is found in the following entities:
-          
-          1.	Agreement Booking Setup (msdyn_agreementbookingsetup)
-          2.	Agreement Booking Date (msdyn_agreementbookingdate)
-          3.	Agreement Invoice Setup (msdyn_agreementinvoicesetup)
-          4.	Agreement Invoice Date (msdyn_agreementinvoicedate)
-          5.	Order Invoicing Setup (msdyn_orderinvoicingsetup)
-          6.	Order Invoicing Setup Date (msdyn_orderinvoicingsetupdate)
-          7.	Order Invoicing Date (msdyn_orderinvoicingdate)
-          8.	Incident Types Setup (msdyn_incidenttypessetup)
-          9.	Quote Booking Setup (msdyn_quotebookingsetup)
-          
-      - question: |
-          What about product bundles? I'd like to use them in Field Service scenarios.
-        answer: |
-          Unfortunately, at this time, using product bundles within Field Service is not supported.
-          
-      - question: |
-          Can I create a booking with a duration of 30 seconds? 
-        answer: |
-          No, the minimum duration for a booking is one minute. 
       - question: |
           Why can't I delete a record because of an association?
         answer: |

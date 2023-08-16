@@ -15,6 +15,8 @@ search.audienceType:
 
 # Send a targeted email blast in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A targeted email blast allows you to quickly reach a specific set of contacts that meet the criteria of your choosing. You may want to target parents in the fall for a back-to-school sale. Or, you may want to reach a subset of customers to tell them about a conference they may be interested in. Real-time marketing offers many ways to reach specific contacts, including email, text, and push messages. This article discusses how to reach contacts through a targeted email campaign.
 
 You’ll need three things to send an email blast:

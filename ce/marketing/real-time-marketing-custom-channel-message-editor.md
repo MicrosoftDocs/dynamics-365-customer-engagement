@@ -1,10 +1,11 @@
 ---
-title: "Define your message editor interface (optional) (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to define your message editor interface for real-time marketing custom channels in Dynamics 365 Marketing."
+title: Define the message editor interface (optional)
+description: Learn how to define the message editor interface when you create custom channels in Dynamics 365 Marketing.
 ms.date: 12/12/2022
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+  - bap-template
+ms.topic: how-to
 author: alfergus
 ms.author: alfergus
 search.audienceType: 
@@ -13,27 +14,23 @@ search.audienceType:
   - enduser
 ---
 
-# Define your message editor interface (optional)
+# Define the message editor interface (optional)
 
-## Applicable channels: Custom 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
-### Why you need it:
+Applicable channels: Custom
 
-> [!IMPORTANT]
-> If there is no need to create a customized UI for the custom channel message editing experience, this step can be skipped. 
+With the unlimited variety of custom channels you can create, you may need to provide different message template editors. You can define how a message template editor should look and what attributes it contains to match the needs of a specific channel.
 
-With an unlimited variety of custom channels that can be created, the need to create different message template editors arises. You can define how the message template editor should look and what attributes it will contain, to match the specific needs of your channel.
+If you don't configure a message template editor, Dynamics 365 Marketing uses a generic user interface editor. SMS channels use the native SMS editor.
 
-If the message template isn't configured, Dynamics 365 Marketing supports and will display a generic user interface editor. 
+## Create a custom entity
 
-> [!NOTE]
-> Channels of SMS type use the native SMS editor. 
+First, [create a custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that includes all the [message parts defined in your channel](real-time-marketing-custom-channel-message-parts.md). Use the same names but prefix the publisher; for example, **cr65f_text** for the message part with `msdyn_name` attribute "text." This entity doesn't store anything. It's only used as metadata to define your message contract.
 
-### How to define it:
+The entity must also include the **placeholders** attribute that's used for personalization in Dynamics 365 Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
 
-**First**, you must create your [own custom entity](/dynamics365/customerengagement/on-premises/customize/create-entities) that will include all the message parts defined in your channel ([step 3](real-time-marketing-custom-channel-message-parts.md)) with the exact same names but including the publisher prefix. For example, **cr65f_text** for the message part with msdyn_name attribute equals to “text”.  **This entity will not store anything - it is only used as metadata to define your message contract**. On top of it, the entity must include the **placeholders** attribute that is used for personalization in Marketing. The **placeholders** attribute should also have the publisher prefix. For example:
-
-```
+```xml
 ..
 <attributes>
         ..
@@ -45,9 +42,11 @@ If the message template isn't configured, Dynamics 365 Marketing supports and wi
 ..
 ```
 
-**Second**, you must create a form for this custom entity that will be loaded at Marketing content editor. The form should contain the cr65f_text and cr65f_placeholders attributes. For example:
+## Create a form
 
-```
+Next, create a form for the custom entity that will be loaded in the Marketing content editor. The form should contain the `cr65f_text` and `cr65f_placeholders` attributes. For example:
+
+```xml
 ..
 <formid>{69723cfe-3835-4126-ab9a-a82a5b88c21d}</formid>
 <form>
@@ -92,8 +91,8 @@ If the message template isn't configured, Dynamics 365 Marketing supports and wi
 .. 
 ```
 
-The form ID of this entity will be assigned to **msdyn_messageformid attribute** later at the [channel definition step](real-time-marketing-define-channel-definition.md).
+The form ID of this entity is assigned to **msdyn_messageformid attribute** at the [channel definition step](real-time-marketing-define-channel-definition.md).
 
-You can use custom controls on the form or use the out-of-the-box Marketing controls such as the **MsdynmktControls.RichTextControl.RichTextControl** that support personalization.
+You can use custom controls on the form or out-of-the-box controls like **MsdynmktControls.RichTextControl.RichTextControl** that support personalization.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include] (../includes/footer-banner.md)]

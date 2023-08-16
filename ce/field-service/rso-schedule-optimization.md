@@ -86,6 +86,10 @@ Once a schedule has been published, you can open it and monitor the scheduling o
     > [!div class="mx-imgBorder"]
     > ![Image 8.](media/90184c1cc8f19a3d3bb9aeea31eed69d.png)
 
+> [!TIP]
+> If your schedule has been running for a long time and seems stuck, select **Reset Resource Scheduling Optimization**. This option clears the blocked job and resets the schedules into a good state. When resetting a single optimization schedule doesn't work or gets blocked too, reset all schedules and republish them.
+
+
 ## Leveraging the schedule board to review optimization results 
 
 With schedule board integration, you can:

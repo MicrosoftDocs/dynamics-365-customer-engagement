@@ -40,7 +40,7 @@ To add a case to a queue, perform the following steps:
      :::image type="content" source="media/add-to-queue-display-after.png" alt-text="Screenshot of the lookup displaying only relevant queues" lightbox="media/add-to-queue-display.png":::
 
 
-6.   Select the queue you want to add the case to, and then select **Add**.  
+6. Select the queue you want to add the case to, and then select **Add**.  
 
 To know more about queues, see [Work with queues](work-with-queues.md).
 

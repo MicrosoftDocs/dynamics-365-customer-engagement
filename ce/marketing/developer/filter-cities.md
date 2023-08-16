@@ -13,8 +13,10 @@ search.audienceType:
 
 # Filter cities based on countries using lookup fields and custom entities
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
-> This article refers to outbound marketing forms only.
+> This article applies only to outbound marketing.
 
 To make marketing forms easier to navigate, you may want to filter cities based on the country that a user selects. Out-of-the-box form fields don't support this functionality because City (`address1_country`) and Country (`address1_city`) properties are a "single line of text" type. To implement filtering, you'll need to first customize the Contact entity, then leverage lookup fields.
 

@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/03/2023
+ms.date: 08/07/2023
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -16,34 +16,26 @@ ms.custom:
 
 # View and manage records in focused view
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
-
 The focused view allows you to view and manage account, contact, lead, and opportunity records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks.
+
+> [!NOTE]
+> Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md)
 
 The focused view is similar to the Sales accelerator workspace view. [Learn how to prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md).
 
 You can't customize how work items are shown in the focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in the focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
 
->[!IMPORTANT]
->- Focused view is available for Account, Contact, Lead, and Opportunity entities.
->- To set focused view as default, contact your administrator. More information: [Set focused view as the default view](set-focused-view-as-default.md)   
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Open the focused view  
 
 The focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens.
 
-1.	In the site map, select an entity (Account, Contact, Lead, or Opportunity).
-2.	On the command bar, select **Focused view**.
+1. In the site map, select an entity and do one of the following actions depending the entity:
+    - For Account, Contact, Lead, and Opportunity entities, select **Focused view** on the command bar.
+    - For all other entities, select **Show as** > **Focused view** on the command bar.
 
 >[!NOTE]
->The **Focused view** option isn't displayed if a record is selected.
+>- The **Focused view** option isn't displayed if a record is selected.
+>- Focused view is not available for the Activities entity.
 
 ## Understand the focused view
 
@@ -67,8 +59,6 @@ The focused view consists of three sections.
 The following image is an example of the focused view for the Lead entity:
 
 :::image type="content" source="media/focused-view-lead-entity.png" alt-text="Screenshot of the focused view of the Lead entity.":::
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

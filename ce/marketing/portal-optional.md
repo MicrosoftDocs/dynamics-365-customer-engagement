@@ -15,6 +15,8 @@ search.audienceType:
 
 # Integrate Marketing with a CMS system, Dynamics 365 Portals, or Power Apps portals
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Read this topic to learn how you can run interactive marketing features for Dynamics 365 Marketing by using an integrated Dynamics 365 Portal, Power Apps portals, or by using your own website or CMS system.
 
 > [!NOTE]

@@ -140,7 +140,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastUsedInCampaign](#BKMK_LastUsedInCampaign)
 - [MarketCap](#BKMK_MarketCap)
 - [MarketingOnly](#BKMK_MarketingOnly)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_salesaccelerationinsightid](#BKMK_msdyn_salesaccelerationinsightid)
 - [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [Name](#BKMK_Name)
@@ -1602,33 +1601,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|No||
 
 **DefaultValue**: 0
-
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: Predictive Opportunity Scoring Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether account is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
-
-**DefaultValue**: 0
-
-
 
 ### <a name="BKMK_msdyn_salesaccelerationinsightid"></a> msdyn_salesaccelerationinsightid
 

@@ -18,7 +18,7 @@ This function can be used to link account, contact, or incident records to the c
 
 ## Syntax
 
-`Microsoft.Omnichannel.linkToConversation(entityLogicalName, recordId);`
+`Microsoft.Omnichannel.linkToConversation(entityLogicalName, recordId, conversationId);`
 
 ## Parameters
 
@@ -26,6 +26,9 @@ This function can be used to link account, contact, or incident records to the c
 | ----------------- | ------- | ----------- |
 | entityLogicalName | String  | Logical name of the entity (such as account, contact, or incident) | 
 | recordId          | String  | Unique identifier for the entity record to be linked |
+| `*`conversationId    | String  | Unique identifier for the conversation to link. Also reffered to as liveworkitemId. Without providing this parameter, the entity will link to the focused conversation by default. |
+
+`*` Indicates optional parameter.
 
 ## Return value
 
@@ -35,7 +38,7 @@ Returns a resolved or rejected promise based on the outcome of the operation.
 
 ```javascript
 //Linking an incident record with the current conversation 
-Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4056ddd2e07").then((response) => { 
+Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4056ddd2e07", "b7397aae-ecf8-43a6-aeb0-07d294efb494").then((response) => { 
     // Refreshing the tab UI  
     Microsoft.Apm.refreshTab("tab-id-3"); 
 }, (error) => { 

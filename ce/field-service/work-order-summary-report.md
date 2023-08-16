@@ -24,7 +24,7 @@ A Field Service administrator must enable the report in **Settings** > **Analyti
 ## Filters and slicers
 
 - **Date range**: A [relative date range](/power-bi/visuals/desktop-slicer-filter-date-range).
-- **Customer**: [Customer accounts](work-order-customer-account.md) configured in Field Service.
+- **Customer**: [Customer accounts](accounts.md) configured in Field Service.
 - **System status**: [Booking status of a work order](work-order-status-booking-status.md).
 - **Work order type**: [Work order types](create-work-order-types.md) in Field Service.
 - **Substatus**: Custom substatuses related the booking status of a work order.

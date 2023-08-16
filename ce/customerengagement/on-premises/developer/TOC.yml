@@ -207,18 +207,6 @@
     - name: Asynchronous service
       href: asynchronous-service.md
       items:
-      - name: Asynchronous service architecture
-        href: asynchronous-service-architecture.md
-      - name: AsyncOperation (system job) entity
-        href: asyncoperation-system-job-entity.md
-      - name: Asynchronous operation states
-        href: asynchronous-operation-states.md
-      - name: Dependency and execution order in asynchronous operations
-        href: dependency-execution-order-asynchronous-operations.md
-      - name: Recurrence pattern in asynchronous job execution
-        href: recurrence-pattern-asynchronous-job-execution.md
-      - name: Supported entities for asynchronous operations
-        href: supported-entities-asynchronous-operations.md
       - name: Stop and start the asynchronous service
         href: stop-start-asynchronous-service.md
     - name: Azure integration

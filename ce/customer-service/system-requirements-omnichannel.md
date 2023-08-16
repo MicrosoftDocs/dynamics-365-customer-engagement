@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 02/20/2023
+ms.date: 07/13/2023
 author: neeranelli
 ms.author: nenellim
 ---
@@ -42,7 +42,7 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later.  |
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../includes/cc-cookies-in-omnichannel.md)] |
 | Azure Communication Services |Required for 1st party voice and SMS in the voice channel in production environments. |
-| Hardware | Microphone and speakers for the voice experience. |
+| Hardware | <ul><li>Microphone and speakers for the voice experience.</li><li>**Minimum:** 4 GB of RAM</li><ul> |
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 4 Mbps upload speed; 8 Mbps download speed</li><li>**Recommended:** 8 Mbps upload speed; 16 Mbps download speed</li></ul> |
 |||
 
@@ -95,9 +95,10 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://*.omnichannelengagementhub.com/*`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
-- `https://comms.omnichannelengagementhub.com`
+- `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
+
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
@@ -109,7 +110,7 @@ If your customers are using a URL filter to block a category of websites or URLs
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
-- `https://comms.omnichannelengagementhub.com`
+- `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.asm.skype.com`
 - `https://*.ng.msg.teams.microsoft.com/*`
@@ -125,12 +126,13 @@ Location-specific links that should be made accessible are as follows.
 | South America | `oc-cdn-public-sam.azureedge.net/*`|
 | United Kingdom | `oc-cdn-public-gbr.azureedge.net/*`|
 | Japan | `oc-cdn-public-jpn.azureedge.net/*`|
-| Asia Pacific | `oc-cdn-public-eur.azureedge.net/*`|
+| Asia Pacific | `oc-apj-public-eur.azureedge.net/*`|
 | Canada | `oc-cdn-public.azureedge.net/*`|
 | India | `oc-cdn-public-ind.azureedge.net/*`|
 | Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
+| United Arab Emirates | `oc-cdn-ocuae-uae.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
 

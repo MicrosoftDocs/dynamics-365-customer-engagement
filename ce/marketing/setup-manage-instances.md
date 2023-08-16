@@ -5,7 +5,7 @@ ms.date: 04/01/2018
 
 ms.custom: 
   - dyn365-marketing
-  - intro-internal
+ms.collection: get-started
 ms.topic: overview
 author: alfergus
 ms.author: alfergus
@@ -16,6 +16,8 @@ search.audienceType:
 ---
 
 # Set up and manage Marketing instances
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 Topics in this section describe how to set up marketing for the first time, and how to update, backup, recall, copy, and uninstall marketing instances.
 

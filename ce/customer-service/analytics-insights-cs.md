@@ -5,7 +5,7 @@ ms.date: 10/05/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Preview: Discover insights from your customer service data

@@ -159,7 +159,15 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |192350031|SupervisorTransferToAgent|
 |192350032|AgentEndConsult|
 |192350033|ForceClose|
-
+|192350034|OverflowQueueTransfer|
+|192350035|OverflowEndConversation|
+|192350036|OverflowAssignToQueue|
+|192350037|SessionEndAfterWrapUp|
+|192350038|ConversationExpired|
+|192350039|Consult|
+|192350040|AgentMonitor|
+|192350041|AgentConversationJoin|
+|192350042|Preview|
 
 
 ### <a name="BKMK_msdyn_eventtime"></a> msdyn_eventtime
@@ -786,7 +794,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Active Solution Solution
 
-See msdyn_ocsession Entity [msdyn_ocsession_sessionevent_nested](msdyn_ocsession.md#BKMK_msdyn_ocsession_sessionevent_nested) One-To-Many relationship.
+See msdyn_ocsession Entity msdyn_ocsession_sessionevent_nested One-To-Many relationship.
 
 ### See also
 

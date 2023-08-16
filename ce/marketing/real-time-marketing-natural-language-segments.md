@@ -1,7 +1,7 @@
 ---
-title: "Preview: Use natural language to create segments (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Use natural language assist to create segments in the real-time marketing area of Dynamics 365 Marketing."
-ms.date: 11/09/2022
+title: Target the right customers using the query assist copilot
+description: Target the right customers using the query assist copilot in the real-time marketing area of Dynamics 365 Marketing.
+ms.date: 06/02/2023
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -13,34 +13,32 @@ search.audienceType:
   - enduser
 ---
 
-# Preview: Use natural language to create segments
+# Target the right customers using the query assist copilot
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5csiL]
 
-Segment creation traditionally required extensive knowledge of the complex data structures defined by your business. To simplify creating segments in real-time marketing, you can use natural language to describe the segment definition in simple English. Natural language segment creation lets you add the results query onto the segment builder at any level of the query logic, either as a new group or as an additional condition in your existing logic. You can even improve the natural language engine by giving feedback, helping you achieve more detailed results in the future.
+Segment creation traditionally required extensive knowledge of the complex data structures defined by your business. To simplify creating segments in real-time marketing, you can use the query assist copilot to describe the segment definition in simple English. The query assist copilot lets you add the results query onto the segment builder at any level of the query logic, either as a new group or as an additional condition in your existing logic. You can even improve the copilot by giving feedback, helping you achieve more detailed results in the future.
 
-To create a segment using natural language assist, select the **Segments** tab under the **Audience**. Enter the segment name and select the target audience (Contact or Lead) and enter a description for your segment. The more precise you make your description; the more accurate the natural language assist segment suggestions will be.
+Let’s imagine you want to create a segment that targets people who have attended one of your past events. To create a segment using query assist copilot, select the **Segments** tab under the **Audience**. Enter the segment name and select the target audience (Contact or Lead) and enter a description for your segment. Copilot understands different syntaxes – from conversational language to formal. In this example, we're using “People who attended the Contoso Coffee tasting event and recently opened an email”. Then select **Create**.
 
-> [!div class="mx-imgBorder"]
-> ![create a new segment](media/real-time-marketing-create-a-new-segment.png "create a new segment")
+:::image type="content" source="media/real-time-marketing-create-a-new-segment-using-copilot.png" alt-text="Create a new segment using copilot." lightbox="media/real-time-marketing-create-a-new-segment-using-copilot.png":::
 
-On the right side of the next screen, you'll see a **Query Assist** panel. The Query assist function uses the description you entered when creating your segment to suggest a data structure for the segment. If the suggested segment information is accurate, you can select the **Use** button to apply the suggested result to your new segment.
+On the right side of the next screen, you'll see a **Query Assist** panel. The Query assist copilot uses the description you entered when creating your segment to suggest a data structure for the segment. If the suggested segment information is accurate, you can select the button to apply the suggested result to your new segment.
 
-> [!div class="mx-imgBorder"]
-> ![use a suggested result to a segment](media/real-time-marketing-add-a-suggested-result-to-a-segment.png "add a suggested result to a segment")
+:::image type="content" source="media/real-time-marketing-add-a-suggested-result-using-query-assist.png" alt-text="Query assist helps in building the responses." lightbox="media/real-time-marketing-add-a-suggested-result-using-query-assist.png":::
 
-You can provide feedback on the suggested segment query by selecting the thumbs up or thumbs down button next to the result in the **Query Assist** pane. 
+Once you select **Use**, you see that the copilot has built the relationship for you in the canvas. 
 
-You can add further details to your segment by entering additional natural language searches into the Query assist pane. If you select the dropdown menu on the right side of the **Find contacts who…** search box, you can see previous searches and suggested searches.
+:::image type="content" source="media/real-time-marketing-provide-additional-details-using-query-assist.png" alt-text="Screenshot of additional details." lightbox="media/real-time-marketing-provide-additional-details-using-query-assist.png":::
 
-If you select a new search, you'll notice that the **Use** button now has a dropdown option. If you select the dropdown option on the **Use** button, you can choose to replace a group, add the new query to an existing group, or add the new query as a new group.
+You can provide feedback on the segment query by selecting the thumbs up or thumbs down button next to the result in the **Query Assist** pane.
 
-> [!div class="mx-imgBorder"]
-> ![provide your feedback](media/real-time-marketing-provide-feedback.png "provide your feedback")
+Add further details to your segment by entering additional searches into the query assist pane. If you select **See more examples**, you can find more suggestions to help you get started.
+
+If you select a new search, you notice that by clicking the **Use** button, the copilot will always add the result as a new group at the bottom of what is already on the canvas. 
+
+:::image type="content" source="media/real-time-marketing-use-canvas-built-by-copilot.png" alt-text="Fill in the attributes in the canvas built by copilot." lightbox="media/real-time-marketing-use-canvas-built-by-copilot.png":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

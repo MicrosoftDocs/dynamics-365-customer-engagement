@@ -3,7 +3,7 @@ title: "Facebook channel agent experience in Omnichannel for Customer Service | 
 description: "This article provides information about agent experience in handling conversation requests that come from the Facebook channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Use Facebook channel

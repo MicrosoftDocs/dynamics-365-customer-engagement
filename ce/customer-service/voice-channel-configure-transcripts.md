@@ -55,15 +55,6 @@ You can view the call transcripts in Customer Service admin center or Omnichanne
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
 
-## Delete call recordings
-
-1. In the Dynamics 365 instance, go to the app and select the **Advanced Find** icon displayed on the menu.
-1. On the **Advanced Find** page, select **Recordings** in the **Look for** dropdown list. More information: [Create, edit, or save an Advanced Find](/dynamics365/customerengagement/on-premises/basics/save-advanced-find-search)
-1. Select the required recording.
-1. Select the **Delete** icon.
-
-Alternatively, you can delete the recordings from the [msdyn_ocrecording](developer/reference/entities/msdyn_ocrecording.md) entity by using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
-
 ### Storage location of your recordings and cost
  
 For components within the Microsoft stack, the data doesn’t cross geographical boundaries during transit. The bring-your-own-carrier model has dependencies on third parties with components outside the Microsoft stack, and the data needs to be reviewed end-to-end. 
@@ -94,5 +85,6 @@ The maximum file size of a recording can be 512 MB. The data storage costs with 
 [Agent experience: View call recordings and transcripts](voice-channel-agent-experience.md)  
 [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
+[Delete call recordings](voice-channel-delete-calls.md)
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

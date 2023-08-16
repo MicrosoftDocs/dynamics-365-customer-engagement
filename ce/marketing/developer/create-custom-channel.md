@@ -14,6 +14,8 @@ search.audienceType:
 
 # Create a custom channel for customer journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Creating a custom channel for customer journeys involves using the extensibility infrastructure provided for model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). These include custom entities, workflows, plugins, and web resources that allow developers and partners to use their existing knowledge of Microsoft Dataverse. For detailed information about these concepts, see [Microsoft Dataverse Developer Guide](/powerapps/developer/common-data-service/overview).
 
 Creating a custom channel for customer journeys broadly involves the following steps:

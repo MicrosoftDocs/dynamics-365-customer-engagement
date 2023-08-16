@@ -1,19 +1,18 @@
 ---
-title: "Introduction on how to install and administer Sales Insights | MicrosoftDocs"
-description: "Introduction page showing administration and application configurations for Sales Insights features in Dynamics 365 Sales."
-ms.date: 09/08/2022
-ms.custom: intro-internal
+title: Enable and configure Sales Insights
+description: Learn about how to enable and configure Sales Insights capabilities in your organization.
+ms.date: 06/29/2023
+ms.collection: get-started
 ms.topic: article
 author: udaykirang
 ms.author: udag
-caps.latest.revision: 1
-topic-status: Drafting
 ---
-# Install and administer Sales Insights features 
+# Enable and configure Sales Insights features 
 
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md) 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -25,7 +24,7 @@ As an administrator, you can enable and configure the Sales Insights features as
 
 -    [Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)
 -   [Get started with premium Sales Insights features](#get-started-with-premium-sales-insights-features)
--    [Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)   
+-    [Enable and configure premium Sales Insights features](#enable-and-configure-premium-sales-insights-features)   
 -    [Administer conversation intelligence](#administer-conversation-intelligence)
 
 ## Enable and configure standard Sales Insights features
@@ -35,9 +34,9 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 >[!NOTE]
 >The standard Sales Insights features aren't available with the Sales Professional app. 
 
-1.	[Review requirements and prerequisites](#requirements-and-prerequisites).  
-2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
-3.	[Configure standard features as required](#configure-standard-sales-insights-features).
+1.    [Review requirements and prerequisites](#requirements-and-prerequisites).  
+2.    [Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
+3.    [Configure standard features as required](#configure-standard-sales-insights-features).
 
 ### Requirements and prerequisites
 
@@ -66,7 +65,7 @@ Before you can configure these features, you must accept the privacy notice. To 
 
 1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings"::: 
  
 3. In the **Terms of service** section, select **I agree**.
@@ -90,25 +89,25 @@ After you enable the standard Sales Insights features, you can configure the fea
 
 With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
-## Install and configure premium Sales Insights features
+## Enable and configure premium Sales Insights features
 
 The premium Sales Insights features provide intelligent insights about sales data that help sellers take timely actions to close deals and generate revenue. The premium Sales Insights features include the premium assistant with assistant studio, notes analysis, relationship analytics, who knows whom, predictive lead scoring, predictive opportunity scoring, premium forecasting, and sales accelerator and sequence. You can configure these features as required in your organization.
 
-1.    [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).   
-2.    [Review the prerequisites](#review-the-prerequisites).   
-3.    [Install premium Sales Insights](#install-premium-sales-insights).   
-4.    [Configure premium Sales Insights features](#configure-premium-sales-insights-features).
+1. [Review privacy and personal data requirements](#review-privacy-and-personal-data-requirements).  
+2. [Review the prerequisites](#review-the-prerequisites).  
+3. [Enable premium Sales Insights](#enable-premium-sales-insights).  
+4. [Configure premium Sales Insights features](#configure-premium-sales-insights-features).  
 
 ### Review privacy and personal data requirements
 
-To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/gdpr).
+To learn about requirements related to safeguarding customers' privacy and personal data, go to [Privacy and personal data for Microsoft Dynamics 365](/dynamics365/get-started/privacy).
 
 You can perform the following tasks in the auto capture, relationship analytics, and conversation intelligence features to ensure that you are complying with privacy and personal data requirements.
 
 |Task|Supported Feature|Topic|
 |--|--|--|
-|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
-|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action (GDPR)](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
+|View KPI data stored for a contact, lead, and opportunity by using system views, and export it to Excel.|[Relationship Analytics](relationship-analytics.md)|[View and export KPI data](view-export-KPI-data.md)|
+|Retrieve data for an contact, lead, opportunity, and system user from Azure service that is used to compute and store data by using a custom action.|[Relationship Analytics](relationship-analytics.md) and [Introduction to Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)|[Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)  |
 
 ### Review the prerequisites
 
@@ -123,7 +122,7 @@ Review the following requirements before you install and configure the premium S
 - Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).     
 - Exchange email server is configured, and a mailbox is enabled using **Email Configurations** in **Settings**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 
-### Install premium Sales Insights
+### Enable premium Sales Insights
 
 > [!NOTE]
 > To install and configure three premium features (Sales accelerator, conversation intelligence, and predictive scoring) that are available with the Sales Enterprise license, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
@@ -173,7 +172,7 @@ As an administrator, when you sign in to the application for the first time, you
 You can also update each setting later as required. The following configurations are available:
 
 -    Connect your Sales environment to gather data and display on KPIs. More information: [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)    
--    Connect to call data repository. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)   
+
 -    Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
 -    Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)   
 -    Enable preview features. More information: [Enable preview features](enable-preview-features-sales-insights-app.md)

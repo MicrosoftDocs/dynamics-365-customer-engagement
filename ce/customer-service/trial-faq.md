@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 02/17/2023
+ms.date: 06/13/2023
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -72,6 +72,10 @@ No, you can't call the trial phone number because it's a toll-free US number tha
 ### Can I use the trial phone numbers for inbound or outbound SMS?
 
 No. The trial phone numbers aren't available for inbound or outbound SMS.
+
+### Can I use the trial phone numbers for outbound calls?
+
+No. The trial phone numbers aren't available for outbound calls.
 
 ### Which geographical regions are supported in the trial version?
 
