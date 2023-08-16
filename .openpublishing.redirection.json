@@ -25390,7 +25390,7 @@
     },
     {
       "source_path": "ce/marketing/help-hub.yml",
-      "redirect_url": "/dynamics365/marketing/index.yml",
+      "redirect_url": "/dynamics365/marketing/index",
       "redirect_document_id": "false"
     },
     {
@@ -25398,5 +25398,10 @@
       "redirect_url": "/dynamics365/marketing/real-time-marketing-ab-tests-in-marketing-journeys",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/marketing/purchase-setup.md",
+      "redirect_url": "/dynamics365/marketing/purchase",
+      "redirect_document_id": "false"
+    }
   ]
 }
