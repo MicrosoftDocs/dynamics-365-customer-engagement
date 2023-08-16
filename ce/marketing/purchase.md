@@ -60,7 +60,7 @@ As shown below, the Solution Only app appears as a separate Dynamics 365 Marketi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 Marketing Solution Only app in the Power Platform admin center.](media/purchase-setup-solution-only.png)
 
-As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production or non-production environment, make sure you have an unconfigured production or non-production license and then [run the setup wizard](#run-wizard) to apply that license to the existing Solution Only environment. This will allow you to preserve your customizations and data from the Solution Only app.
+As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production or non-production environment, make sure you have an unconfigured production or non-production license and then [run the setup wizard](setup.md#run-wizard) to apply that license to the existing Solution Only environment. This will allow you to preserve your customizations and data from the Solution Only app.
 
 > [!IMPORTANT]
 > Solution Only apps do not support some functionality that is supported by fully paid Marketing apps, specifically, portals, insights, and their solutions. If you need to use such functionality in a non-production environment, you will need to purchase a non-production license.
