@@ -50,7 +50,7 @@
     href: whats-new-marketing.md
   - name: What's new archive
     href: whats-new-marketing-archive.md
-- name: Installation and environment management
+- name: Install and manage
   items:
   - name: Install or uninstall
     items:
@@ -82,6 +82,36 @@
       href: apply-updates.md
   - name: Installation and management FAQ
     href: install-manage-faq.yml
+- name: Set up
+  items:
+  - name: Manage user accounts, licenses, and roles
+    href: admin-users-licenses-roles.md
+  - name: Domain Authentication
+    items:
+    - name: Domain authentication in real-time marketing
+      href: domain-authentication.md
+    - name: BIMI support
+      href: bimi-support.md
+  - name: Privacy and compliance
+    items:
+    - name: Manage consent for email and text messages in real-time marketing
+      href: real-time-marketing-email-text-consent.md
+    - name: Real-time marketing preference centers
+      href: real-time-marketing-preference-centers.md
+    - name: Migrate consent records to real-time marketing
+      href: real-time-marketing-migrate-consent.md
+    - name: Use outbound subscription centers in real-time journeys
+      href: real-time-marketing-outbound-subscription.md
+  - name: Business units
+    items:
+    - name: Business unit support in real-time marketing
+      href: real-time-marketing-business-units.md
+    - name: Support for modernized business units
+      href: real-time-marketing-modernized-business-units.md
+    - name: Business units and compliance profiles for multi-brand businesses
+      href: real-time-marketing-business-unit-compliance.md
+    - name: Business units FAQ for real-time marketing
+      href: real-time-marketing-business-unit-faq.md
 - name: Use real-time marketing
   items:
   - name: Real-time marketing user guide
@@ -336,36 +366,10 @@
         href: real-time-marketing-audience-data.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
-    - name: Privacy and compliance
-      items:
-      - name: Manage consent for email and text messages in real-time marketing
-        href: real-time-marketing-email-text-consent.md
-      - name: Real-time marketing preference centers
-        href: real-time-marketing-preference-centers.md
-      - name: Migrate consent records to real-time marketing
-        href: real-time-marketing-migrate-consent.md
-      - name: Use outbound subscription centers in real-time journeys
-        href: real-time-marketing-outbound-subscription.md
     - name: Manage SMS (text message) keywords used in customer journeys
       href: manage-sms-keywords.md
     - name: Install add-ons
       href: add-ons.md
-    - name: Business units
-      items:
-      - name: Business unit support in real-time marketing
-        href: real-time-marketing-business-units.md
-      - name: Support for modernized business units
-        href: real-time-marketing-modernized-business-units.md
-      - name: Business units and compliance profiles for multi-brand businesses
-        href: real-time-marketing-business-unit-compliance.md
-      - name: Business units FAQ for real-time marketing
-        href: real-time-marketing-business-unit-faq.md
-  - name: Domain Authentication
-    items:
-    - name: Domain authentication in real-time marketing
-      href: domain-authentication.md
-    - name: BIMI support
-      href: bimi-support.md
   - name: Real-time marketing troubleshoot + FAQ
     href: real-time-marketing-faq.md
 - name: Develop and extend
@@ -410,8 +414,6 @@
     href: admin-best-practices.md
   - name: User administration and permissions
     items:
-    - name: Manage user accounts, licenses, and roles
-      href: admin-users-licenses-roles.md
     - name: Use business units with Marketing
       href: business-units.md
   - name: Administration settings
