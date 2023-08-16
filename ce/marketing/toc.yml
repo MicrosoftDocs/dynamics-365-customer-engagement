@@ -16,8 +16,8 @@
       href: marketing-license.md
     - name: Purchase a license directly from a trial
       href: direct-purchase.md
-    - name: Purchase and set up Marketing
-      href: purchase-setup.md
+    - name: Purchase Marketing
+      href: purchase.md
   - name: Customer Insights - Journeys transition
     items:
     - name: What is Customer Insights - Journeys?
@@ -84,6 +84,8 @@
     href: install-manage-faq.yml
 - name: Set up
   items:
+  - name: Set up Marketing
+    href: setup.md
   - name: Manage user accounts, licenses, and roles
     href: admin-users-licenses-roles.md
   - name: Domain Authentication
