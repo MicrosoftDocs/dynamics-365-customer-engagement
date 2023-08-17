@@ -29,7 +29,7 @@ The following sections walk through the customizations for the Customer Service 
 
 Before migration, open the app designer if you want to identify the differences between the Omnichannel for Customer Service and Customer Service workspace apps.
 1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true) and select **Apps** from site map. 
-2. Select **Customer Service workspace** and then select **Edit** to open the app designer.
+2. Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
 
 The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
@@ -42,9 +42,9 @@ The following table lists the components in Omnichannel for Customer Service tha
 |Business Process Flow   |<li>Phone to Case Process</li><li>Users</li>   |
 |Site map       |<li>Routing diagnostics</li> |
 
-### Add entities, forms, views, and chart in Customer Service workspace
+### Add pages in Customer Service workspace
 
-Perform the steps in [Add pages to your app](/power-apps/maker/model-driven-apps/create-a-model-driven-app#add-pages-to-your-app) to add entites, forms, views, and chart in Customer Service workspace dashboard.
+Perform the steps in [Add pages to your app](/power-apps/maker/model-driven-apps/create-a-model-driven-app#add-pages-to-your-app) to add pages in Customer Service workspace.
 
 >[!NOTE]  
 > Select **Show in navigation** if you want the selected table to appear on site map.
@@ -57,7 +57,7 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 
 ### Add or remove site map entities in Customer Service workspace
 
-1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), select **Customer Service workspace** from **Apps** and then select **Edit**.
+1. From [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu and select **Edit** to open the modern app designer.
 1. Under **Pages**, you'll see two sections:
    - **Navigation** - It has the entities which appear on the site map of Customer Service workspace.
    Hover over the entity you want to remove, select ellipsis (...), and then select **Remove from navigation**.
@@ -67,7 +67,7 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 
 ### Add or remove the dashboard in Customer Service workspace
 
-1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), select **Customer Service workspace** from **Apps** and then select **Edit**.
+1. From [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu and select **Edit** to open the modern app designer.
 1. From **Pages**, select **New** buttton.
 1. Select **Dashboard** and then select **Next**.
 1. Compare the components with the Omnichannel for Customer Service site map, and add or remove components as needed.
