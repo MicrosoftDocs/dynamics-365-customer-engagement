@@ -57,7 +57,7 @@ The conversation panel in the agent dashboard includes the following call contro
 
 You can report a phone number as a spam call while you're on the call by using the call controls on the conversation panel. A notification is then sent to your administrator for review and further action.
 
-To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
+To report a phone number as spam, select **Mark spam**.
 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
