@@ -1,9 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 07/26/2023
-ms.custom:
-  - dyn365-marketing
+ms.date: 08/15/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -24,6 +22,47 @@ We're excited to announce our newest updates! This article summarizes early acce
 Marketing updates are [pushed to customers automatically](https://cloudblogs.microsoft.com/dynamics365/it/2020/04/27/automatic-update-policy-for-dynamics-365-marketing/). Solutions are available for early validations. To manually update your instances, follow the steps in [Keep Marketing up to date](apply-updates.md).
 
 To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=dfa5b83d-9e4c-e811-a956-000d3a1bef07&forumName=Dynamics%20365%20Marketing).
+
+## August 2023 update
+
+### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Real-time marketing        |   1.1.28488.146     |
+
+On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-time marketing features only. To support this transition, in early August 2023, provisioning of new instances will change in the following ways:
+
+- New customers will no longer receive the outbound marketing module. They will need to contact support to add outbound marketing features.
+- Existing customers will also see the same provisioning change but will be able to add outbound marketing features themselves using a self-serve interface available on the **Settings** > **Versions page**.
+
+ > [!div class="mx-imgBorder"]
+ > ![New dynamics 365 customer insights org](media/real-time-marketing-transition-graphic.png "New dynamics 365 customer insights org")
+
+### General availability
+
+- **Prioritize best leads and empower sellers with new lead scoring builder**
+    - To maximize return on investment from marketing activities, it is essential to identify the best prospects at the right moment when they're ready to engage with your sales team. With real-time marketing, you can use a new simple but powerful lead scoring builder to define your scoring criteria and model more efficiently. Prioritize the most engaged leads from companies that match your ideal customer profile using engagement and profile-based scoring. With proper scoring, you can identify the best leads and empower the sales team to spend more time winning deals and less time chasing lukewarm opportunities.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/prioritize-best-leads-empower-sellers-new-lead-scoring-builder)
+    - [Docs](real-time-marketing-create-lead-scoring-model.md)
+
+- **Further personalize journeys using custom events with entity references**
+    - Entity references for custom triggers enable greater personalization of messages sent to customers. Create entity references for custom events instead of adding multiple attributes manually, bypassing the previous limit of 30 attributes. For example, if you want to create a custom trigger that triggers a journey for all customers who purchased a specific product on your website, you can now capture the purchase event and the contents related to the SKU that was purchased. Instead of manually entering all attributes (with a maximum limit of 30) for the custom trigger, you can now add an entity reference to select as part of the custom trigger attribute definition.
+    - [Release plan](/dynamics365/release-plan/2023wave1/marketing/dynamics365-marketing/further-personalize-journeys-using-custom-events-entity-references)
+    - [Docs](real-time-marketing-custom-triggers.md#1-initial-trigger-creation)
+
+### Public preview
+
+- **Use journey Copilot to create customer journeys by describing them in your own words**
+    - With Dynamics 365 Marketing, anybody can now create customer journeys in minutes, even when they may have never done it before. Simply describe, in everyday words, what you want to create and rely on Copilot generative AI to build the journey for you. This empowers you to do more with less. Instead of spending time getting the mechanics of the journey right, you can now ensure that you’re delivering the most personalized experience for your customers by collaborating with your entire team and quickly driving stakeholder alignment. Using journey Copilot together with the content ideas copilot assistant for email creation, you can now get your customer experience ideas to market in no time.
+    - [Release plan](/dynamics365/release-plan/2023wave2/marketing/dynamics365-marketing/create-customer-journeys-describing-them-own-words-using-copilot)
+    - [Docs](real-time-marketing-use-copilot-create-journey.md)
+
+### New blogs and scenario docs
+
+Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
+
+- [Transition to real-time marketing and transform your Customer Experience - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/transition-to-real-time-marketing-and-transform-your-customer-experience/)
 
 ## July 2023 update
 
