@@ -27,9 +27,9 @@ The following sections walk through the customizations for the Customer Service 
 > [!NOTE]
 > If you've customized the Omnichannel for Customer Service app in other ways beyond the customizations discussed in this article, you'll need to manually make those same customizations in Customer Service workspace.
 
-Before migration if you want to identify the differences between the two applications, open the app designer.
+Before migration, open the app designer if you want to identify the differences between the Omnichannel for Customer Service and Customer Service workspace apps.
 1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true) and select **Apps** from site map. 
-2.Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
+2. Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
 
 The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
@@ -44,29 +44,28 @@ The following table lists the components in Omnichannel for Customer Service tha
 
 ### Add entities, forms, views, and chart in Customer Service workspace
 
-Complete the steps in [Add pages to your app](/power-apps/maker/model-driven-apps/create-a-model-driven-app#add-pages-to-your-app).
-1. Select **Show in navigation** if you want the selected table to appear on site map.
+Perform the steps in [Add pages to your app](/power-apps/maker/model-driven-apps/create-a-model-driven-app#add-pages-to-your-app) to add entites, forms, views, and chart in Customer Service workspace dashboard.
+
+>[NOTE!]  
+> Select **Show in navigation** if you want the selected table to appear on site map.
 
 ### Set a form as the default form
 
 You can set a form as the default form using the form order configuration or when a user sets the default form as a personalization setting. The default form order is set at in the table instead of the app. Therefore, there can be one form order per table.
-Check the steps in [Set the form order](/power-apps/maker/model-driven-apps/assign-form-order#set-the-form-order) to set a form as the default form.
+
+Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/assign-form-order#set-the-form-order) to set a form as the default form.
 
 ### Add or remove site map entities in Customer Service workspace
 
-1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true) and select **Apps** from site map.
-1. Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
+1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), select **Customer Service workspace** from **Apps** and then select **Edit**.
 1. Under **Pages**, you'll see two sections:
-   - **Navigation** - Entities which appear on the application sitemap.
-   - **All other pages** - Entities present in the application but not appear on the sitemap.
-1. To add, select an entity in **All other pages** section, select the ellipsis (...), and then select **Add to navigation**
-1. To remove, select an entity in **Navigation** section, select the ellipsis (...), and then select **Remove from navigation**
+   - **Navigation** - To remove an entity, hover over the entity, select ellipsis (...), and then select **Remove from navigation**.
+   - **All other pages** - To add an entity, hover over the entity, select ellipsis (...), and then select **Add to navigation**.
 1. Select **Save and Publish**.
 
 ### Add or remove the dashboard in Customer Service workspace
 
-1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true) and select **Apps** from site map.
-1. Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
+1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), select **Customer Service workspace** from **Apps** and then select **Edit**.
 1. From **Pages**, select **New** buttton.
 1. Select **Dashboard** and then select **Next**.
 1. Compare the components with the Omnichannel for Customer Service site map, and add or remove components as needed.
@@ -75,7 +74,7 @@ Check the steps in [Set the form order](/power-apps/maker/model-driven-apps/assi
 
 ### How to bring customization to other environments
 
-1. To customize your environment, complete the steps in [Add an app to a solution](/power-apps/maker/model-driven-apps/distribute-model-driven-app#add-an-app-to-a-solution)
+1. To customize your environment, perform the steps in [Add an app to a solution](/power-apps/maker/model-driven-apps/distribute-model-driven-app#add-an-app-to-a-solution).
 1. Publish the customization and export the solution.
 
 ### Add the Phone to Case business process flow in Customer Service workspace
