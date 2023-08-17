@@ -1,8 +1,8 @@
 ---
-title: "Developer Guide | MicrosoftDocs"
-description: "This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales"
+title: Developer Guide
+description: This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales.
 ms.date: 10/08/2021
-ms.topic: get-started-article
+ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ---
