@@ -1,7 +1,7 @@
 ---
 title: "Transfer calls and consult with users | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 06/27/2023
+ms.date: 08/18/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
