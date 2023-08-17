@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 07/31/2023
+ms.date: 08/16/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -32,18 +32,11 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/) as a global admin or Exchange admin.
 
-1. In the left pane under the **Admin centers** section, select **Exchange**.
+1. Go to **Settings** > **Integrated apps**. For more information, see [Deploy an Office Add-in using the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
 
-   > [!TIP]
-   > You might need to select **Show all** to view the **Admin centers** section.
+   :::image type="content" source="media/fsp-integrated-apps.png" alt-text="Microsoft admin center with Integrated apps highlighted":::
 
-1. Under the **Organization** section, select **Add-ins**.
-
-   :::image type="content" source="media/exchange-admin.png" alt-text="Microsoft Exchange admin center with Add-ins highlighted":::
-
-1. Select **+ (New)** > **Add from AppSource**.
-
-1. Search for and select **Dynamics 365 Field Service for Outlook (Preview)**.
+1. Select **Get apps** and search for and select **Dynamics 365 Field Service for Outlook (Preview)**.
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) Outlook add-in card":::
 
@@ -55,7 +48,10 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Select **Next** and **Accept permissions**.
 
-1. Select **Next** and **Finish deployment**. Then, select **Done**.
+1. Select **Next** and **Finish deployment**.
+
+   > [!NOTE]
+   >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
 ## [Field Service (Preview) for Teams](#tab/teams)
 
