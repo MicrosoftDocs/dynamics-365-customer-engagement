@@ -8,7 +8,7 @@ metadata:
   ms.topic: hub-page
   author: lavanyakr01
   ms.author: lavanyakr
-  ms.date: 05/18/2023
+  ms.date: 07/28/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -171,7 +171,7 @@ additionalContent:
     items:
         # Card
         
-        - title: Viva Sales
+        - title: Microsoft Sales Copilot
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
         - title: Customer Insights
