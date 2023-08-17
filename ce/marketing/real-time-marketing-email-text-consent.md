@@ -26,6 +26,9 @@ search.audienceType:
 > [!TIP]
 > Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, leads or Customer Insights profiles).
 
+> [!IMPORTANT]
+> While real-time marketing checks the **DoNotEmail** and **DoNotBulkEmail** fields on the contact entity, updates made to consent from messages will not update the **DoNotEmail** and **DoNotBulkEmail** fields on the contact. It will only update the contact point consent records for the email address. This means that outbound marketing messages will not be affected by changes made to consent records based on messages sent by real-time marketing.
+
 Whether consent is checked before sending emails and text messages depends on the consent model that you select for the **Purpose** in a specific **Compliance Profile**. Learn more:[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
 
 ## How consent is respected for emails

@@ -30,6 +30,9 @@ The primary benefit of contact point consent is that it allows real-time marketi
 
 In outbound marketing, consent is captured and stored on the Contact entity in fields like `DoNotEmail` and `DoNotBulkEmail` that apply to the entire Contact record and all its email addresses. This approach doesn't allow for different consent to be captured for a contact’s multiple email addresses, phone numbers, etc.
 
+> [!IMPORTANT]
+> While real-time marketing checks the `DoNotEmail` and `DoNotBulkEmail` fields on the contact entity, updates made to consent from messages will not update the `DoNotEmail` and `DoNotBulkEmail` fields on the contact. It will only update the contact point consent records for the email address. This means that outbound marketing messages will not be affected by changes made to consent records based on messages sent by real-time marketing.
+
 ## Compliance profiles
 
 Compliance profiles are the hubs to manage consent and compliance in Dynamics 365 Marketing. Compliance profiles govern how consent is captured and enforced. Compliance profiles store information such as company address, the preference management experience, and related configuration. Compliance profile settings vary based on the type of compliance profile you're creating or modifying.  
