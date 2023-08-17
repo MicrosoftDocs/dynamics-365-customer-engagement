@@ -1,7 +1,7 @@
 ---
 title: Field Service Outlook add-in with Copilot for the Frontline Manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 08/01/2023
+ms.date: 09/01/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -91,7 +91,9 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot).
+
+<!--- Change screenshot --->
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -119,7 +121,9 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    > [!TIP]
    > Copy relevant information from the email into the **Description** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot).
+
+<!--- Change screenshot --->
 
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
@@ -128,6 +132,23 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
+## Schedule a work order using Copilot
+
+Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
+
+1. After you create a work order or open an unscheduled work order, select the **Scheduling** tab. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list
+
+1. Review the suggested technicians and their availability. You can search for a technician by name, sort the technicians by start time or travel time, or filter by dates.
+
+   :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling":::
+
+   > [!TIP]
+   > If the system doesn't find suggestions or you don't find the right technician, select **schedule board** to open the schedule board in the Field Service app.
+
+1. Select the technician. The technician is booked and the status is changed to **Scheduled**.
+
+1. Select the back arrow to return to the **Copilot** tab or the work order list.
+
 ## View work orders in Outlook
 
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
@@ -135,7 +156,9 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 1. On the **Work orders** tab, a list of up to 50 work orders display. The most recent work order displays first.
 
    > [!TIP]
-   > To view more work orders in the Field Service app, select **View all in Dynamics 365** at the bottom of the list.
+   > To view more work orders, select **Show more** at the bottom of the list.
+
+<!--- Change screenshot --->
 
    :::image type="content" source="media/fsp-work-order-list.png" alt-text="Field Service (Preview) Outlook work order list":::
 
