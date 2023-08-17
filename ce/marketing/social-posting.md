@@ -1,10 +1,8 @@
 ---
-title: "Social media posting with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing."
-ms.date: 08/09/2022
+title: Social media posting with Dynamics 365 Marketing
+description: Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing.
+ms.date: 08/01/2023
 ms.service: dynamics-365-marketing
-ms.custom: 
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -15,6 +13,11 @@ search.audienceType:
 ---
 
 # Schedule and post messages on social media
+
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
+> [!IMPORTANT]
+> Due to recent changes to Twitter's APIs, social posts to Twitter are temporarily unavailable in Dynamics 365 Marketing.
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cQ" frameborder="0" allowfullscreen=""></iframe></div>
 

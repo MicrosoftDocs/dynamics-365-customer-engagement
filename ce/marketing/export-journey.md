@@ -17,6 +17,8 @@ search.audienceType:
 
 # Export customer journey insights into a .CSV file
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can now export all customer journey interactions into a .CSV file for further analysis or reporting. You can easily export interactions from the same category (for example, Delivered emails) with just a click of a button.
 
 ## Export a .CSV file

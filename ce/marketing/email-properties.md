@@ -16,6 +16,8 @@ search.audienceType:
 
 # Set the sender, receiver, language and legal designation for a message
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 When you're designing an email message, use the **Summary** tab to set a few basic options for it, including to:
 
 - Set values or establish an expression for the sender name and sender address

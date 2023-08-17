@@ -13,6 +13,8 @@ search.audienceType:
 
 # Import outbound emails, templates, and content blocks to real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Save time and resources, reuse and adapt your existing outbound assets to create engaging and relevant real-time marketing experiences. Easily import your outbound marketing emails, templates, and content blocks into real-time marketing to plug them into your real-time journeys.
 
 ## Import emails from outbound marketing

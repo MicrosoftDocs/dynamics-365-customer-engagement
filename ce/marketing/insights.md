@@ -15,6 +15,8 @@ search.audienceType:
 
 # Analyze results to gain insights from your marketing activities
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing keeps track of the way your contacts react to your marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. Each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
 - Contacts

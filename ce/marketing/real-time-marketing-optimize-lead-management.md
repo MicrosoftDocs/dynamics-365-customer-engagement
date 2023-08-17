@@ -15,6 +15,8 @@ search.audienceType:
 
 # Optimize lead management by engaging sellers right away
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 When using real-time journeys to nurture Leads and opportunities, it's important to pay attention to signals that may indicate a sense of urgency or interest from the Leads. Signals may include enhanced engagement with your marketing messages or increased activity on your website or social media channels.
 
 With Dynamics 365 Marketing, you can leverage this information to create customized sales activities, such as tasks and phone calls, directly from the real-time journey. This means that you can reach out to Leads with individualized attention when they're most likely to engage and show interest in your product or service. This increases your chances of converting Leads into customers and driving revenue for your business.

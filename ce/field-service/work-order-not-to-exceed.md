@@ -1,7 +1,7 @@
 ---
 title: Not-to-exceed values on work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: Manage cost expectations of your service accounts by setting up not-to-exceed values on work orders.
-ms.date: 02/28/2023
+ms.date: 06/30/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -21,10 +21,6 @@ Different types of not-to-exceed (NTE) values are available. You can automatical
 Service managers and frontline workers can optionally receive a warning when the not-to-exceed value is near or exceeds the limit, notifying the user they need to act.
 
 A high-level work order process is outlined below.
-
-
-<!-- Note from editor: There's a typo in "technician" in the image below. It's in the box that says "Technican Dispatched & Performs Diagnosis" -->
-
 
 :::image type="content" source="media/NTE-flow-chart.png" alt-text="Flow chart of a work order process with cost considerations.":::
 
@@ -82,17 +78,9 @@ NTEs match on the service account first. All other fields have equal priority. I
 
 ## View not-to-exceed on work order forms
 
-NTE values are listed on [work orders](field-service-architecture.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
+NTE values are listed on [work orders](work-order-experience.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
 
 NTE values on work orders are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save a work order as usual if the warnings are shown.
-
-### View NTE values
-
-1. Open the **Service** area.
-1. Go to **Work Orders**.
-1. Open a work order and go to the **Settings** tab.
-
-:::image type="content" source="media/NTE-work-order.png" alt-text="Screenshot of a work order showing NTE values in the Settings tab.":::
 
 ## Not-to-exceed on Field Service mobile
 

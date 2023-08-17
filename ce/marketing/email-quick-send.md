@@ -16,6 +16,8 @@ search.audienceType:
 
 # Quickly design and deliver outbound marketing emails with quick send
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!NOTE]
 > The quick send functionality described in this article, **only** applies to outbound marketing. Real-time marketing has a new "[Send Now](email-without-journey.md)" feature that allows you to choose segments and send emails directly to an unlimited number of contacts.
 

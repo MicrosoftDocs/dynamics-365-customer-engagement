@@ -3,7 +3,7 @@ title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
 author: "gandhamm"
 ms.author: mgandham
-ms.date: 09/06/2022
+ms.date: 08/09/2023
 ms.topic: article
 ---
 
@@ -68,7 +68,7 @@ The following page types are available.
 - Third-party website
 - Web resource
 - Control (for internal use only)
-- Custom (preview)
+- Custom 
 
 ### Dashboard
 
@@ -161,13 +161,7 @@ This page type is used to display web resources that represent files, which are 
 >[!Note]
 > When an agent switches from the web resource type of tab template to another tab, and then switches back to the web resource type of tab template, the page will be refreshed to the initial state. For more information, see the "Third-party application tab refreshes when focus is changed" section in the [Known issues document](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
-### Custom (Preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+### Custom 
 
 This page type is used to display custom pages on the application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about custom pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
 

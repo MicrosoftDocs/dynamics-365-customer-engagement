@@ -16,6 +16,8 @@ search.audienceType:
 
 # Check for errors, go live, and deliver the messages
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 When you're done designing and previewing your email, you're ready to start sending it. First, you need to check it for errors. Then, once it passes the error check, you must go live to activate it and make it available on the marketing services. Finally, set up a customer journey to establish the target segment, delivery schedule, and follow-up actions.
 
 <a name="error-check"></a>

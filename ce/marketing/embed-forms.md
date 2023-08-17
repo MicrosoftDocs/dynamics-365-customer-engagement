@@ -15,6 +15,8 @@ search.audienceType:
 
 # Embed forms on external websites
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 Dynamics 365 Marketing provides a complete solution for designing, publishing, and hosting landing pages on a portal created with the Power Apps portals feature that runs on your Dynamics 365 Marketing instance. However, you can also create or embed forms on your own external website that submit values back to Dynamics 365 Marketing. These external pages function similarly to native Dynamics 365 Marketing landing pages, so they'll generate contacts or leads in your database when they're submitted. However, a few limitations apply, depending on how you implement the external forms.

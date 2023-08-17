@@ -16,6 +16,8 @@ search.audienceType:
 
 # Troubleshoot email issues
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article describes issues related to email administration in Dynamics 365 Marketing, including workarounds and solutions.
 
 ## Internal contacts are not receiving your marketing emails

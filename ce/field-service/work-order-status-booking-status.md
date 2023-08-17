@@ -79,7 +79,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Technicians indicate break time by changing the booking status to *On Break* to ensure accurate billing.
 
-1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled.
+1. When the work is complete, the technician changes the booking status to *Completed*. The duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed. The related work order system status changes to *Completed* when all related bookings are completed or canceled. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value.
 
 1. Finally, a back-office worker reviews the completed work order and starts the billing process. They change the work order system status to *Posted*.
 
@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- Updates **Start time** of bookable resource booking to current time.
+- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
 
 #### In Progress
 

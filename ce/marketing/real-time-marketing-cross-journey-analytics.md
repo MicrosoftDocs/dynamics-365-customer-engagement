@@ -15,6 +15,8 @@ search.audienceType:
 
 # How to use aggregate cross-journey analytics
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Aggregate cross-journey analytics allow you to analyze your orchestrated journeys and evaluate their performance. Cross-journey analytics address your reporting needs by providing a performance dashboard out of the box with beautiful Power BI visuals. Use the dashboard to enhance stakeholder presentations regarding your journey's performance.
 
 :::image type="content" source="media/real-time-marketing-aggregate-analytics.png" alt-text="Screenshot of aggregate cross-journey analytics." lightbox="media/real-time-marketing-aggregate-analytics.png":::

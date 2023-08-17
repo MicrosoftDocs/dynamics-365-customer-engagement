@@ -174,7 +174,7 @@
       href: community-forum-setup.md
     - name: Moderator experience
       href: community-moderator-experience.md
-    - name: Community FAQs
+    - name: Community FAQ
       href: community-faqs.md
     - name: Advanced settings   
       items:                
@@ -330,8 +330,6 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
-      - name: Enable search control for subjects
-        href: search-control-for-subjects.md
       - name: Remove validation on contact and customer for cases
         href: remove-validation-contact.md
   - name: Automatically create or update records
@@ -440,12 +438,18 @@
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
-    - name: Configure timeline
-      href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
-    - name: Use timeline
-      href: /powerapps/user/add-activities
-    - name: FAQ about Activities and the Timeline Wall
-      href: /powerapps/user/faq-for-timeline-and-activity
+    - name: Administrator experience
+      items:
+      - name: Configure timeline
+        href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
+      - name: Turn on linking of timeline notes with other table records
+        href: link-note-to-entity.md  
+    - name: Agent experience
+      items:
+      - name: Use timeline
+        href: /powerapps/user/add-activities
+      - name: Learn about linking timeline notes with table records
+        href: link-note-to-entity-task.md  
   - name: Knowledge management
     items:
     - name: Overview of knowledge management 
@@ -548,6 +552,8 @@
       items: 
       - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
+      - name: FAQ about setting up Teams chat
+        href: faq-teams-chat.md
       - name: Enable Teams meetings in Customer Service apps
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
@@ -618,6 +624,16 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Integrate Nuance Gatekeeper (preview)
+        items:
+        - name: Overview of Nuance Gatekeeper Integration
+          href: nuance-gatekeeper-introduction.md
+        - name: Configure contact center for Nuance Gatekeeper
+          href: configure-contact-center-nuance-gatekeeper.md
+        - name: Add authentication setting for Nuance Gatekeeper
+          href: configure-gatekeeper-authentication.md
+        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
+          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
@@ -912,7 +928,7 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service
+    - name: Copilot in Customer Service (preview)
       items:
       - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
@@ -1422,6 +1438,8 @@
         href: developer/reference/entities/msdyn_conversationaction.md
       - name: msdyn_conversationactionlocale
         href: developer/reference/entities/msdyn_conversationactionlocale.md
+      - name: msdyn_conversationmessageblock
+        href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
       - name: msdyn_customengagementctx
@@ -1826,6 +1844,12 @@
               href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
       - name: Readme
         href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+  - name: Responsible AI
+    items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for copilot
+      href: faq-copilot-for-customer-service.md 
   - name: Troubleshoot issues in Customer Service
     items: 
     - name: Issue converting an email to a case
@@ -1864,8 +1888,12 @@
       href: faqs-custom-time-sla-kpis.md
     - name: FAQ about the voice channel
       href: voice-channel-faqs.md  
+    - name: FAQ about Activities and the Timeline Wall
+      href: /powerapps/user/faq-for-timeline-and-activity
     - name: FAQ about adding users to agent experience profile
-      href: ../app-profile-manager/faq-agent-experience-profile.md      
+      href: ../app-profile-manager/faq-agent-experience-profile.md
+    - name: FAQ about setting up Teams chat
+      href: faq-teams-chat.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide

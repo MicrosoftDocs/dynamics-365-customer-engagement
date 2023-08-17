@@ -14,6 +14,8 @@ search.audienceType:
 
 # Remove custom channel
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 This step is typically performed by administrators of your Dynamics 365 Marketing instance.
 
 To remove a custom channel app from your Dynamics 365 Marketing instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 

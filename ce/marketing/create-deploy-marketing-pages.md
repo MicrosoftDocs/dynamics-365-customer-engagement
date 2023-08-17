@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create and deploy marketing pages
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 A marketing page is a webpage that includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 Marketing and applied immediately to your customer database.

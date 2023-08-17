@@ -15,6 +15,8 @@ search.audienceType:
 
 # Get started with Marketing app setup
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article provides a checklist to get your Dynamics 365 Marketing implementation up and running quickly.
 
 For in-depth information on getting started with the Dynamics 365 platform, see the [Microsoft Dynamics 365 implementation guide](/dynamics365/guidance/).

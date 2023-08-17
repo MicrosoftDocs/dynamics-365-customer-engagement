@@ -15,6 +15,8 @@ search.audienceType:
 
 # Use outbound subscription centers in real-time journeys
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article explains how to use outbound marketing subscription centers in real-time journeys. Outbound subscription centers give you consent management flexibility, enabling you to have multiple subscription centers customized and branded to your needs.
 
 > [!IMPORTANT]
