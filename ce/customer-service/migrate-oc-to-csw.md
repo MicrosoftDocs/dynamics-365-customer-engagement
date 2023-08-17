@@ -29,7 +29,7 @@ The following sections walk through the customizations for the Customer Service 
 
 Before migration, open the app designer if you want to identify the differences between the Omnichannel for Customer Service and Customer Service workspace apps.
 1. Sign in to [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true) and select **Apps** from site map. 
-2. Select **Customer Service workspace** and then select **Edit** to open the modern app designer.
+2. Select **Customer Service workspace** and then select **Edit** to open the app designer.
 
 The following table lists the components in Omnichannel for Customer Service that need to be configured in Customer Service workspace.
 
@@ -46,7 +46,7 @@ The following table lists the components in Omnichannel for Customer Service tha
 
 Perform the steps in [Add pages to your app](/power-apps/maker/model-driven-apps/create-a-model-driven-app#add-pages-to-your-app) to add entites, forms, views, and chart in Customer Service workspace dashboard.
 
->[NOTE!]  
+>[!NOTE]  
 > Select **Show in navigation** if you want the selected table to appear on site map.
 
 ### Set a form as the default form
@@ -59,8 +59,10 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 
 1. Open [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), select **Customer Service workspace** from **Apps** and then select **Edit**.
 1. Under **Pages**, you'll see two sections:
-   - **Navigation** - To remove an entity, hover over the entity, select ellipsis (...), and then select **Remove from navigation**.
-   - **All other pages** - To add an entity, hover over the entity, select ellipsis (...), and then select **Add to navigation**.
+   - **Navigation** - It has the entities which appear on the site map of Customer Service workspace.
+   Hover over the entity you want to remove, select ellipsis (...), and then select **Remove from navigation**.
+   - **All other pages** - It has the entities which are available in the app but don't appear on the site map of Customer Service workspace.
+   Hover over the entity you want to add, select ellipsis (...), and then select **Add to navigation**.
 1. Select **Save and Publish**.
 
 ### Add or remove the dashboard in Customer Service workspace
@@ -72,9 +74,9 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 1. Select **Show in navigation** if you want the selected table to appear on site map.
 1. Select **Save and Publish**.
 
-### How to bring customization to other environments
+### Customize the environment in Customer Service workspace
 
-1. To customize your environment, perform the steps in [Add an app to a solution](/power-apps/maker/model-driven-apps/distribute-model-driven-app#add-an-app-to-a-solution).
+1. To customize the environment, perform the steps in [Add an app to a solution](/power-apps/maker/model-driven-apps/distribute-model-driven-app#add-an-app-to-a-solution).
 1. Publish the customization and export the solution.
 
 ### Add the Phone to Case business process flow in Customer Service workspace
