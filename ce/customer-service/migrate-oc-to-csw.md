@@ -1,16 +1,16 @@
 ---
-title: Migrate from Omnichannel for Customer Service to Customer Service workspace
+title: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
 description: Migration guide for Omnichannel for Dynamics 365 Customer Service to Customer Service workspace.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: how-to
-ms.date: 08/18/2023
+ms.date: 08/17/2023
 ms.custom: bap-template
 ---
 
-# Migrate from Omnichannel for Customer Service to Customer Service workspace
+# Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
 
 This article contains configuration information for migrating from the Omnichannel for Customer Service agent-facing app to Customer Service workspace. The Omnichannel for Customer Service agent-facing app was deprecated on April 1, 2023.
 
@@ -55,9 +55,9 @@ You can set a form as the default form using the form order configuration or whe
 
 Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/assign-form-order#set-the-form-order) to set a form as the default form.
 
-### Add or remove site map entities in Customer Service workspace
+### Add or remove entities in the Customer Service workspace site map
 
-1. From [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu and select **Edit** to open the modern app designer.
+1. In [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu, and select **Edit** to open the modern app designer.
 1. Under **Pages**, you'll see two sections:
    - **Navigation** - It has the entities which appear on the site map of Customer Service workspace.
    Hover over the entity you want to remove, select ellipsis (...), and then select **Remove from navigation**.
@@ -67,9 +67,9 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 
 ### Add or remove the dashboard in Customer Service workspace
 
-1. From [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu and select **Edit** to open the modern app designer.
+1. In [Power Apps](https://make.powerapps.com/?cds-app-module-designer.isCustomPageEnabled=true&oneCdsDesigner.enableCustomCanvasPage=true), open the Customer Service workspace app menu, and select **Edit** to open the modern app designer.
 1. From **Pages**, select **New** buttton.
-1. Select **Dashboard** and then select **Next**.
+1. Select **Dashboard**, and then select **Next**.
 1. Compare the components with the Omnichannel for Customer Service site map, and add or remove components as needed.
 1. Select **Show in navigation** if you want the selected table to appear on site map.
 1. Select **Save and Publish**.
