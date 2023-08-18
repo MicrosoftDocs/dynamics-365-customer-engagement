@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Customize the appearance of work items
 
-The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with.
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with. Want to know how the work items appear by default? See the [Default work item appearance](#default-work-item-appearance) section. 
 
 [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
@@ -72,8 +72,6 @@ For the **Lock customization** settings, choose one of the following options to 
 
 If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)  
 
-The default work item appearance is described in [Default work item appearance](#default-work-item-appearance). 
-
 The procedure to customize work items is the same for both administrators and other primary sales roles.
 
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales**.
@@ -122,7 +120,7 @@ The procedure to customize work items is the same for both administrators and ot
 
 ## Default work item appearance
 
-By default the work item appearance is set to the following values:
+By default, the work item appearance is set to the following values:
 
 | Entity type | Default values |
 |-------------|----------------|
