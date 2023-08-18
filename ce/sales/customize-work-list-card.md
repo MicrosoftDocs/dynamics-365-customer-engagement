@@ -1,10 +1,12 @@
 ---
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
-ms.date: 07/20/2022
-ms.topic: article
+ms.date: 08/18/2023
 author: udaykirang
 ms.author: udag
+ms.topic: how-to 
+ms.collection: 
+ms.custom: bap-template 
 ---
 
 # Customize the appearance of work items
@@ -115,6 +117,17 @@ The procedure to customize work items is the same for both administrators and ot
     - To remove all customizations and restore work items to their original appearance, select **Reset to default**.
 
 1. Select **Save**.
+
+## Default work item appearance
+
+By default the work item appearance is set to the following values:
+
+| Entity name | default values |
+|-------------|----------------|
+| Accounts | Row 1: Account name and flow indicator <br> Row 2: Primary contact full name and job title <br> Row 3: Up next activity |
+| Contacts | Row 1: Full name and flow indicator <br> Row 2: Job title and company name <br> Row 3: Up next activity |
+| Leads | Row 1: Name and flow indicator <br> Row 2: Job title and company name <br> Row 3: Up next activity |
+| Opportunities | Row 1: Contact full name and flow indicator <br> Row 2: Contact Job title and company name <br> Row 3: Topic and estimated revenue <br> Row 4: Up next activity |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

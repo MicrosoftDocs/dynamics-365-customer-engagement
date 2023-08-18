@@ -1,7 +1,7 @@
 ---
-title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 10/26/2021
+title: Work with opportunities in the Kanban view
+description: Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
+ms.date: 08/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -114,6 +114,9 @@ Here are some important things to know about your Kanban view:
     
       > [!div class="mx-imgBorder"]  
       > ![Close opportunity.](media/close-opportunity-in-kanban-view.png "Close opportunity")
+        
+      > [!NOTE]
+      > Even if a customized opportunity close quick create form is configured to appear upon closing an opportunity, only the Opportunity status change dialog box is displayed.  
 
     - You can drag an opportunity card from the Open pane to the Won or Close lanes. 
     
