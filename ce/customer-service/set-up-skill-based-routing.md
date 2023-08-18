@@ -1,15 +1,13 @@
 ---
-title: "Set up skill-based routing | MicrosoftDocs"
-description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 07/07/2022
+title: Set up skill-based routing
+description: Use the information to set up skill-based routing for unified routing in Customer Service.
+ms.date: 08/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ---
 
 # Set up skill-based routing for unified routing
-
-## Introduction
 
 The steps to configure skill-based routing are as follows:
 
@@ -127,15 +125,14 @@ You can set up the intelligent skill finder model rating models in the Customer 
 **To create the skill finder model**
 
 1. In Dynamices 365, go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
+
      - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     
 
 1. In the **Intelligent skill finder** section, select **Manage**.
 
@@ -180,9 +177,9 @@ To use the data from the Excel files, you must make sure of the following:
 
 - Ensure that the input data string is less than or equal to 5000 characters to avoid truncation.
   
-A sample of each file is as follows.
+A sample of each file is as follows. You can select the links to download the sample files.
 
-**msdyn_ocsitrainingdata.csv**
+[**msdyn_ocsitrainingdata.csv**](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-isf-sample-data/msdyn_ocsitrainingdata.csv)
 
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
@@ -191,9 +188,8 @@ A sample of each file is as follows.
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I am unable to start my recently bought espresso machine, looks like the electrical plug provided with it is not functioning.|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. I am looking for replacement of coffee machine purchased 3 months ago. Even after raising complaints earlier about overheating the issue still persists. Please help! |
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, my recently bought Café A-100 machine is not in the color I ordered. Please replace the same. |
-||||
 
-**msdyn_ocsitdskill.csv**
+[**msdyn_ocsitdskill.csv**](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-isf-sample-data/msdyn_ocsitdskill.csv)
 
 |Training record|Characteristic mapping|Characteristic|
 |---------|--------|-----------|
@@ -202,14 +198,13 @@ A sample of each file is as follows.
 |CCSFM01-Contoso Coffee training data A10001|Electrical|Electrical|
 |CCSFM01-Contoso Coffee training data A10002|Café A-100|Café A-100|
 |CCSFM01-Contoso Coffee training data A10002|Heating|Heating|
-||||
 
 Perform the following steps to upload the data for training your model:
 
 1. On the **Skill finder model** page, enter a name for the model, and then save the form.
 2. Select the **Training data** tab, and select **Import Excel**.
 3. Select the .csv files to upload in the import tool.
-   
+
    ![Import data file using Excel.](media/skill-finder-excel.png "Import data file using Excel")
 
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.
