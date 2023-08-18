@@ -1,9 +1,13 @@
 ---
-title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
-description: "This article provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 08/17/2023
+title: Omnichannel for Customer Service system requirements | MicrosoftDocs
+description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
+ms.date: 08/18/2023
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Omnichannel for Customer Service system requirements
@@ -31,7 +35,7 @@ Make sure that Omnichannel for Customer Service is available in your region. Mor
 - For each chat channel user, you must have an active subscription to the **Dynamics 365 Customer Service Digital Messaging add-on** for each Digital Messaging user or **Chat for Dynamics 365 Customer Service**.
 - For each voice channel user, you must have an active subscription to **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For information on purchasing add-ins, see [Buy an add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide#buy-an-add-on&preserve-view=true).
 
-For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). 
+For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## System requirements for Omnichannel for Customer Service
 

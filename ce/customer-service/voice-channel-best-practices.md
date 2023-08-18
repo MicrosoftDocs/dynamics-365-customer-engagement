@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/17/2023
+ms.date: 08/18/2023
 ms.custom: bap-template
 ---
 
@@ -18,7 +18,7 @@ Use the information in this article to set up the hardware and software for an o
 
 For optimized voice communication, make sure of the following settings:
 
-- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](system-requirements-omnichannel.md).
+- **Network configuration**: A stable Internet connection is crucial for uninterrupted calls. Use a wired Ethernet connection or a stable wireless network with sufficient bandwidth. For minimum and recommended bandwidth speeds, see [system requirements](system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
 
 - **Compatible headsets**: For clear communication, use USB headsets with noise-canceling microphones. If you rely on laptop speakers and microphone, you're likely to experience background noise in calls and meetings.
 
