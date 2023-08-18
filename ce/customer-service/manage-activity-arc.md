@@ -32,8 +32,8 @@ The **Activity monitor for record creation and update rules** page displays the 
  - **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
  - **Recommendation**: Displays the steps you can follow to resolve the issue. For example, the **Current state** for a rule is skipped with the **Reason** that an active case is already connected to this record. The application displays the following recommendation: the incoming email is related to a parent email linked to an existing case. You can turn off the **use correlation to track email conversations** if you'd like to change the existing behavior.
 
-   > [!NOTE]
-   > Hyperlinks aren't displayed in the **Recommendation** field. If you'd like to see the hyperlinks in the recommended resolution, double click the rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
+    > [!NOTE]
+    > Hyperlinks aren't displayed in the **Recommendation** field. If you'd like to see the hyperlinks in the recommended resolution, double click the rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
  - **Evaluated on:** Displays the date and time of the issue.
   
 > [!NOTE]
