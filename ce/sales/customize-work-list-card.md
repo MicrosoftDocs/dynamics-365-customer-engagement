@@ -122,10 +122,11 @@ The procedure to customize work items is the same for both administrators and ot
 
 By default the work item appearance is set to the following values:
 
-| Entity name | default values |
+| Entity type | Default values |
 |-------------|----------------|
 | Accounts | Row 1: Account name and follow indicator <br> Row 2: Primary contact full name and job title <br> Row 3: Up next activity |
 | Contacts | Row 1: Full name and follow indicator <br> Row 2: Job title and company name <br> Row 3: Up next activity |
+| Customize | Row 1: Name and follow indicator |
 | Leads | Row 1: Name, follow indicator, and predictive score <br> Row 2: Job title and company name <br> Row 3: Up next activity |
 | Opportunities | Row 1: Contact full name, follow indicator, and predictive score <br> Row 2: Contact Job title and company name <br> Row 3: Topic and estimated revenue <br> Row 4: Up next activity |
 
