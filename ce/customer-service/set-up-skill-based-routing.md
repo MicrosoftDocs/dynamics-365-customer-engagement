@@ -26,9 +26,9 @@ The steps to configure skill-based routing are as follows:
 
 ## How skills are matched
 
-How the default skill match algorithm works when you set the value as exact match or closest match for a workstream is explained in this section. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria chosen.
+This section explains how the default skill match algorithm works when you set the value as exact match or closest match in a workstream. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. Then the system assigns the conversation to an agent based on the chosen skill criteria.
 
-The default skill-matching algorithm will work only with the out-of-the-box assignment method. If you choose to use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
+The default skill-matching algorithm works with the out-of-the-box assignment method only. If you use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
 
 You can achieve the following skill matching based on the business requirements:
 
@@ -110,7 +110,7 @@ You can achieve closest skill match in one of the following ways:
 
 ## Set up intelligent skill finder model
 
-To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that will be used for predicting skills.
+To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that can be used for predicting skills.
 
 You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
@@ -121,9 +121,9 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
 ## Create skill finder models
 
-You can set up the intelligent skill finder model rating models in the Customer Service admin center or Omnichannel admin center app. You can create as many models as your business requires.
+You can set up the intelligent skill finder model rating models in the Customer Service admin center app. You can create as many models as your business requires.
 
-1. In Dynamices 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
