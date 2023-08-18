@@ -15,30 +15,14 @@ You can review and track the health of the automatic record creation rules and r
 
 > [!NOTE]
 > - Activity monitor is supported only with online environments, such as cloud applications, and not with on-premises environments.
-> - The activity monitor tracks the rules only until they're evaluated in Customer Service Hub before the rule is run in Power Automate.
+> - The activity monitor tracks the rules only until they're evaluated in Customer Service before the rule is run in Power Automate.
 
-> ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
+The Customer Service Overview page in Customer Service admin center displays the number of activity monitor events that ran in the past week with their status.
 
-The following details are available for the rules:
+Perform the following steps to view the activity monitor details for the rules:
 
-- **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
-- **Rule name:** Name of the record creation rule.
-- **Monitored activity type:** Activity type, such as email, task, or appointment.
-- **Monitored activity item:** Displays the subject of the activity type.
-- **Condition name:** The name of the condition in which the issue occurred.
-- **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
-- **Recommendation**: Displays the steps you can follow to resolve the issue. For example, if the Current state for a rule is skipped, and the reason an active case is already connected with this record, then a recommendation would be that the incoming email is already related to a parent email linked to an existing case, and that you can turn off the **use correlation to track email conversations** if you'd like to change the existing behaviour.
-- **Evaluated on:** Displays the date and time of the issue.
-
-You can see the status of the automatic record creation rules that ran in the past week along with their status. 
-
-
-
-Perform the following steps to use the activity monitor for the rules:
-
-1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
-
-2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
+- Select **Activity monitor events(past 7 days)** on the Customer Service admin center page to view the email specific activity record rules **Email activity monitor events for last 7 days**. You can also switch to the **Activity record creation and update rules** view from this page.
+- Select **More** for **Automatic record creation and update rules** in **Case Settings** and then select **Record creation and update rules**. The **Activity monitor for record creation and update rules** page displays the list of all the rules with their statuses.
 
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
@@ -53,20 +37,15 @@ Perform the following steps to use the activity monitor for the rules:
       - Failed
       - Skipped
 
-## Next step
+> ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
 
-TODO: Add your next step link(s)
+The following details are available for the rules:
 
-> [!div class="nextstepaction"]
-> [Write concepts](article-concept.md)
-
-<!-- OR -->
-
-## Related content
-
-TODO: Add your next step link(s)
-
-- [Write concepts](article-concept.md)
-
-<!--
-Remove all the comments in this template before you sign-off or merge to the
+- **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
+- **Rule name:** Name of the record creation rule.
+- **Monitored activity type:** Activity type, such as email, task, or appointment.
+- **Monitored activity item:** Displays the subject of the activity type.
+- **Condition name:** The name of the condition in which the issue occurred.
+- **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
+- **Recommendation**: Displays the steps you can follow to resolve the issue. For example, if the Current state for a rule is skipped, and the reason an active case is already connected with this record, then a recommendation would be that the incoming email is already related to a parent email linked to an existing case, and that you can turn off the **use correlation to track email conversations** if you'd like to change the existing behavior. When you 
+- **Evaluated on:** Displays the date and time of the issue.
