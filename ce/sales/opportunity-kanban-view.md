@@ -110,14 +110,11 @@ Here are some important things to know about your Kanban view:
 
     **In the Status-based Kanban view:**
 
-    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box.
+    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box, even if you've configured a customized opportunity close form.
     
       > [!div class="mx-imgBorder"]  
       > ![Close opportunity.](media/close-opportunity-in-kanban-view.png "Close opportunity")
         
-      > [!NOTE]
-      > Even if a customized opportunity close quick create form is configured to appear upon closing an opportunity, only the Opportunity status change dialog box is displayed.  
-
     - You can drag an opportunity card from the Open pane to the Won or Close lanes. 
     
     - When you move the card to the Won or Lost lanes, the opportunity record is closed. A lock icon is shown on the card, which means that the card (opportunity record) is inactive—you can't edit the fields on the card.
