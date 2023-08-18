@@ -3,7 +3,7 @@ title: Manage activity monitor to review and track rules
 description: How to manage activity monitor to review and track rules
 author: gandhamm
 ms.author: mgandham
-ms.service: #Required; use the name-string related to slug in ms.product/ms.service
+ms.service: dynamics-365
 ms.topic: how-to 
 ms.date: 08/25/2023
 ---
@@ -21,6 +21,7 @@ Perform the following steps to view the activity monitor details for the rules:
 
 In Customer Service admin center, the Customer Service Overview page displays the number of activity monitor events that ran in the past week along with their status. To  view the details specific to either the email activity monitor events or for all of the activities, perform the following steps:
    - Select **Activity monitor events(past 7 days)** on the Customer Service Overview page to view the email specific activity record rule details in **Email activity monitor events for last 7 days**. You can also switch to the **Activity record creation and update rules** view from this page.
+     > ![Results of the email activity monitor.](media/email-activity-monitor.png "Results of the email activity monitor")
    - Select **More** for **Automatic record creation and update rules** in **Case Settings** and then select **Record creation and update rules**.
 
 The **Activity monitor for record creation and update rules** page displays the list of all the rules with their statuses. The following details are available for the rules:
