@@ -20,7 +20,7 @@ Dynamics 365 Field Service integrates with Microsoft Outlook, Teams, and Viva Co
 
 [!INCLUDE[public-preview-note](../includes/public-preview-note.md)]
 
-An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to assist with work order creation in Outlook.
+An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to assist with work order creation and scheduling in Outlook.
 
 A Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call from here.
 
