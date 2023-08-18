@@ -19,7 +19,7 @@ You can review and track the health of the automatic record creation rules and r
 
 Perform the following steps to view the activity monitor details for the rules:
 
-In Customer Service admin center, the Customer Service Overview page displays the number of activity monitor events that ran in the past week along with with their status. To  view the details specific to either the email activity monitor events or for all of the activities, perform the following steps:
+In Customer Service admin center, the Customer Service Overview page displays the number of activity monitor events that ran in the past week along with their status. To  view the details specific to either the email activity monitor events or for all of the activities, perform the following steps:
    - Select **Activity monitor events(past 7 days)** on the Customer Service Overview page to view the email specific activity record rule details in **Email activity monitor events for last 7 days**. You can also switch to the **Activity record creation and update rules** view from this page.
    - Select **More** for **Automatic record creation and update rules** in **Case Settings** and then select **Record creation and update rules**.
 
