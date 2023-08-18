@@ -6,7 +6,7 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 ---
-# Connect a segment to a sequence 
+# Connect a segment to sequence 
 
 After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for. You can add segments to existing sequences. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
 

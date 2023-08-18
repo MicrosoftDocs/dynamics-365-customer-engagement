@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.date: 07/18/2023
+ms.date: 08/08/2023
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form
@@ -67,6 +67,7 @@ We also recommend that you don't:
 
 - Change the **Conversation** form or the order in which it's displayed, as it's the default form.
 - Modify the out-of-the-box JavaScript handlers and web resource used in the **Active Conversation** form.
+- Remove the form initiator control from the **Search customer** and **Search issue** lookup controls.
 
 ### Logical column names
 

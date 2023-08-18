@@ -172,7 +172,7 @@ Incident type suggestions help administrators manage work order templates. For m
 
 ## Field Service SLA Configuration settings
 
-Use this tab to manage service level agreements (SLAs) for work orders. For more information, go to [Service level agreements (SLAs) for work orders](sla-work-orders.md).
+Use this tab to manage service level agreements (SLAs) for work orders.
 
 ## Time Entry settings
 

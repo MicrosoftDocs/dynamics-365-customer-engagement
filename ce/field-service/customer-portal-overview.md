@@ -10,8 +10,6 @@ search.app:
   - D365FS
 ---
 
-<!-- editor says please check word addition in line 49 to ensure correctness. -->
-
 # Dynamics 365 Field Service portal overview
 
 > [!IMPORTANT]
