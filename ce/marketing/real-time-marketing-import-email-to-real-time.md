@@ -1,7 +1,7 @@
 ---
 title: Import outbound emails, templates, and content blocks to real-time marketing
 description: Learn how to import outbound emails, templates, and content blocks to real-time marketing in Dynamics 365 Marketing.
-ms.date: 07/26/2023
+ms.date: 08/18/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -32,7 +32,7 @@ To start the email import process, go to **Channels** > **Emails** and select th
 > Emails and templates that include A/B tests can't be imported and are **skipped completely** in the import process. These emails, along with any others that fail to be imported, are gathered in a downloadable file that is displayed when the import is completed.
 
 > [!TIP]
-> Emails and templates that include one or more of the following elements will be imported but these elements need to be reviewed and/or re-added manually in real-time marketing as **they are removed** during the import process:
+> Emails and templates that contain one or more of the following elements will be imported *but need to be reviewed and/or re-added manually in real-time marketing* as **they are removed** during the import process:
 > - Surveys
 > - QR code
 > - Code element
