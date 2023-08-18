@@ -70,7 +70,9 @@ For the **Lock customization** settings, choose one of the following options to 
 
 ## Customize work items
 
-If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)   
+If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)  
+
+The default work item appearance is described in [Default work item appearance](#default-work-item-appearance). 
 
 The procedure to customize work items is the same for both administrators and other primary sales roles.
 
@@ -126,7 +128,7 @@ By default the work item appearance is set to the following values:
 |-------------|----------------|
 | Accounts | Row 1: Account name and follow indicator <br> Row 2: Primary contact full name and job title <br> Row 3: Up next activity |
 | Contacts | Row 1: Full name and follow indicator <br> Row 2: Job title and company name <br> Row 3: Up next activity |
-| Customize | Row 1: Name and follow indicator |
+| Custom entity | Row 1: Name and follow indicator |
 | Leads | Row 1: Name, follow indicator, and predictive score <br> Row 2: Job title and company name <br> Row 3: Up next activity |
 | Opportunities | Row 1: Contact full name, follow indicator, and predictive score <br> Row 2: Contact Job title and company name <br> Row 3: Topic and estimated revenue <br> Row 4: Up next activity |
 
