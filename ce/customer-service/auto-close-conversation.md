@@ -144,7 +144,8 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 ### See also
 
-[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
+[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)
+[Configure automatic closure of conversations using Power Apps](auto-close-conversation-powerapps.md)
 
 
 
