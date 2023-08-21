@@ -42,7 +42,7 @@ One important consideration with Outbound Marketing is that the consent given by
 
 The Real-Time Marketing module follows a different concept from the beginning, allowing marketeers to use channels other than Email, for example SMS or Push notifications. A contact (or lead) potentially can receive messages through those multiple channels and all these different contact points can have different consent preferences, for example contact allows commercial marketing via email, but doesn't want those messages via SMS.
 
-As of today, both modules respect the settings on contact level in the attributes **DoNotBulkEmail** and **DoNotEmail** which reflect a general opt-in or opt-out (see also [Consent Preview](real-time-marketing-email-text-consent-preview.md)).
+As of today, both modules respect the settings on contact level in the attributes **DoNotBulkEmail** and **DoNotEmail** which reflect a general opt-in or opt-out (see also [Consent Preview](real-time-marketing-email-text-consent-preview.md)).While real-time marketing checks the **DoNotEmail** and **DoNotBulkEmail** fields on the contact entity, updates made to consent from real-time messages will not update the **DoNotEmail** and **DoNotBulkEmail** fields on the contact. It will only update the contact point consent records for the email address. This means that outbound marketing messages will not be affected by changes made to consent records based on messages sent by real-time marketing.
 
 ## Double opt-in and GDPR
 
@@ -66,7 +66,7 @@ When global DOI is enabled, a customer always receives an email message to confi
 
 Compliance Profiles summarize and bundle specific consent settings. There is always at least one Compliance Profile in the system. Compliance Profiles for RTM are linked to a Preference Center – a customizable form which provides the ability to change the consent settings. Compliance Profiles allow an organization to define consent settings by using purposes. One compliance profile can contain different consent purposes which represent a reason for which consent is collected, typically **Commercial**, **Transactional** or **Tracking**. These are created by default when a new compliance profile is created.
 
-For each purpose, it is also possible to define topics. Topics allow to further refine the communication preferences. For each commercial purpose it is possible to add general topics such as “Newsletter” or “Daily Deals”. Topics can be seen as a successor of subscription lists.
+For **Transactional** and **Commercial** purpose, it is also possible to define topics. Topics allow to further refine the communication preferences. For each commercial purpose it is possible to add general topics such as “Newsletter” or “Daily Deals”. Topics can be seen as a successor of subscription lists.
 
 The following picture shows the connection between these entities.
 
