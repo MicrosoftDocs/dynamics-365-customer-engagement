@@ -57,6 +57,9 @@ Each compliance profile has its own purpose specifically for tracking user inter
 
 If you would like to collect tracking consent, you can add the tracking purpose to forms and preference centers.  
 
+> [!IMPORTANT]
+> With the July 2023 release, customer consent data began to utilize the new multi-brand consent features. For some Marketing users, the migration changed the settings that control whether tracking links are included in messages. The changes may prevent tracking in messages if the customers have not given explicit consent. After the migration, if you want to enable tracking links in messages for customers who have not provided consent, update the Tracking purpose enforcement model of your Compliance Profile(s) to "Non-restrictive." This enables tracking links to be substituted in emails as long as the receiver has not explicitly opted out of tracking. 
+
 ## Consent enforcement diagram
 
 The following diagram provides a visual representation of how consent is enforced in real-time marketing.
