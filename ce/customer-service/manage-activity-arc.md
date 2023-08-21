@@ -23,6 +23,8 @@ In Customer Service admin center, the Customer Service Overview page displays th
    - Select **Activity monitor events(past 7 days)** on the Customer Service Overview page to view the email specific activity record rule details in **Email activity monitor events for last 7 days**. You can also switch to the **Activity record creation and update rules** view from this page.
      > ![Results of the email activity monitor.](media/email-activity-monitor.png "Results of the email activity monitor")
    - Select **More** for **Automatic record creation and update rules** in **Case Settings** and then select **Record creation and update rules**.
+     > ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
+
 
 The **Activity monitor for record creation and update rules** page displays the list of all the rules with their statuses. The following details are available for the rules:
  - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
@@ -46,5 +48,3 @@ If you don't want to monitor any of the following states, you can deselect the s
  - Ready for Power Automate / workflow
  - Failed
  - Skipped
-
-> ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
