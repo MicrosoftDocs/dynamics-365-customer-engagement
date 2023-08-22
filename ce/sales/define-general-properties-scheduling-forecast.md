@@ -100,12 +100,37 @@ Use general properties and scheduling options to define a forecast model.
 
 ## Schedule the forecast
 
-In the **Scheduling** section, specify the recurrence of the forecast, start date, the number of periods to generate, and so on. It's important to understand the following concepts before you schedule a forecast:
+In the **Scheduling** section, add forecast periods for different fiscal years, quarters, months, or weeks with different calendar template, start dates, and number of recurrences. 
 
-- You can add multiple periods, with different forecast frequency. For example, you can add a monthly forecast for the first six months of the fiscal year and a quarterly forecast for the remaining six months.
-- You can have different forecast recurrences for the same period to track your team's forecast at multiple intervals. For example, towards the end of the quarter, you may want to track your team's forecast on a weekly basis, in addition to the monthly forecast. For example, you can have a monthly forecast for the month of September and a weekly forecast for the same month. 
+### Quick example scenario
+
+Let's say your organization's fiscal year runs from January 1 to December 30. To schedule a monthly forecast for the fiscal year 2023, select the values as follows:
+
+- **Scheduling format**: **Gregorian**
+- **Period start date**: **Jan 1, 2023**
+- **Forecast period**: **Monthly**
+- **Fiscal year**: **FY2023**
+- **Start this forecast**: **January**
+- **Number of periods**: **12**
+  
+:::image type="content" source="media/forecast-general-tab-scheduling-section.svg" alt-text="Screenshot of the Scheduling section of the forecast." lightbox="media/forecast-scheduling-fullscreen.svg":::
+
+When you add the above schedule, 12 forecast periods will be added to the table on the right side. Select the image to see the full screen view. For more information about each of the fields, see [Scheduling options](#scheduling-options).
+
+### Important considerations
+
+Before adding and scheduling forecast periods, review the following pointers:
+
+- You can add multiple periods, with different forecast frequency. For example, you can add a quarterly forecast for the first six months of the fiscal year and a monthly forecast for the remaining six months.
+
+- You can have different forecast recurrences for the same period to track your team's forecast at multiple intervals. For example, towards the end of the quarter, you may want to track your team's forecast on a weekly basis, in addition to the monthly forecast. For example, you can have a monthly forecast for the month of September and a weekly forecast for the same month. However, you can't have multiple forecast recurrences for the same period and same forecast frequency.  
 - You can add up to 17 periods to a forecast configuration.
 - You can add new periods to a forecast configuration at any time. If the forecast is already activated, you need to reactivate the forecast for the new periods to take effect.  
+- You can't edit a forecast period after it's added. You can only delete the period and add a new one.
+
+### Scheduling options
+
+The following table describes the fields in the **Scheduling** section.
 
 | Option | Description |Example scenario |
 | --- | --- | --- |
@@ -115,20 +140,8 @@ In the **Scheduling** section, specify the recurrence of the forecast, start dat
 | **Fiscal year** | Select the fiscal year for the forecast. | Select FY2023 if you're creating a forecast for the fiscal year 2023. |
 | **Start this forecast** | Select the exact week, month, quarter, or year for the forecast period.  | If you've selected **Monthly** as the forecast period, select **July** as the start month. |
 | **Number of periods** | Enter the number of forecast periods to generate. Forecast periods can only span up to one year. | If you've selected monthly forecast and selected **July** as the start month, and number of periods as 6, then 6 forecast periods will be configured for the period from July to December. When you select **Add period**, a forecast for each month will be added to the table on the right side. |
-| **Start this forecast on fiscal start month** | Applicable only for monthly forecasts. When you turn this option on, the period name will be based on the month in the **Period Start Date**. Otherwise, it'll be based on the month in the **Start this forecast** field. | For a period that's set to start on July 15, 2023 and forecast month to August, the period name will be set as **FY2023 July** if this option is turned on. If it's turned off, the period name will be set as **FY2023 August**. |
+| **Start this forecast on fiscal start month** | Applicable only for monthly forecasts. When you turn this option on, the period name will be based on the month in the **Period Start Date**. Otherwise, it'll be based on the month in the **Start this forecast** field. | For a period that's set to start on July 15, 2023 and forecast month set to August, the period name will be set as **FY2023 July** if this option is turned on. If it's turned off, the period name will be set as **FY2023 August**. |
 
-:::image type="content" source="./media/forecast-general-tab-scheduling-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the Scheduling options shown.":::
-
-Scheduling supports fiscal years that span multiple calendar years and fiscal months that span multiple calendar months. Let's say your organization's fiscal year runs from July 1 to June 30. To schedule a monthly forecast for the fiscal year 2022, select the values as follows:
-
-- **Forecast period**: **Monthly**
-- **Fiscal year**: **FY2022**
-- **Start this forecast**: **July**
-- **Number of periods**: **12**
-
-:::image type="content" source="./media/forecast-schedule-org-select-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with scheduling options set to create a monthly forecast for FY2022.":::
-
-When you select a monthly forecast period, another option, **Start this forecast on fiscal start date month**, becomes available. Turn on this setting if you want the forecast’s first month to be the **Valid from** month. If you leave it turned off, the forecast’s first month will be the month following the **Valid from** month.
 
 ### Calendar templates
 
