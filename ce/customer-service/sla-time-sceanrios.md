@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
-ms.collection:.
+ms.collection:
 ms.date: 08/22/2023
 ms.custom: bap-template
 ---
