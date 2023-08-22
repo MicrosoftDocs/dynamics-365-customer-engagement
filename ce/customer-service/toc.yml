@@ -1336,6 +1336,8 @@
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
       href: migrate-config-data-for-voice-channel.md
+    - name: Migrate configuration data for SMS channel
+      href: migrate-config-data-for-sms-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
