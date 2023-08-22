@@ -7,20 +7,26 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/18/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/01/2023 |
-| | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
-|**Station 4** |*Europe* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/08/2023 |
-|**Station 5** |  *North America*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/15/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 09/15/2023 |
-| | *Dedicated Scale Groups* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/18/2023 |
+|**Station 1** |  *First Release*| [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | TBD | 09/01/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 08/25/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/01/2023 |
+| | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 08/25/2023 |
+|**Station 4** |*Europe* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | 09/08/2023 |
+|**Station 5** |  *North America*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/15/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/15/2023 |
+| | *Dedicated Scale Groups* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/22/2023 |
 
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.110.18
+
+**Resource Scheduling Controls:** 1.2.50.232152
+
+**Dataverse:** 4.0.100.18
 
 ## 3.12.114.1 - 2023 Wave 2 Early Access update1
 
