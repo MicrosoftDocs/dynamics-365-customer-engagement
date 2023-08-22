@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 This article demonstrates how you can configure the auto-close duration of a conversation using Power Apps.
 
+## Configure automatic closure of conversations using Power Apps
+
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
 2. Select **Tables**, and then select **Channel State Configuration** table.
