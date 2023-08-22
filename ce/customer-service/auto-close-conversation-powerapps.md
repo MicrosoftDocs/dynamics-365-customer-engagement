@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 This article demonstrates how you can configure the auto-close duration of a conversation using Power Apps.
 
-## Configure automatic closure of conversations using Power Apps
+## How to Configure automatic closure of conversations using Power Apps
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
@@ -22,7 +22,7 @@ This article demonstrates how you can configure the auto-close duration of a con
 
 ### See also
 
-[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)
+[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
 [Configure automatic closure of conversations](auto-close-conversation.md)
 
 
