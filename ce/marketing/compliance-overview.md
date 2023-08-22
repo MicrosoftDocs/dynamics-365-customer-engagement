@@ -1,9 +1,7 @@
 ---
 title: Compliance overview
 description: Learn how to manage compliance settings in Dynamics 365 Marketing.
-ms.date: 07/07/2023
-ms.custom: 
-  - dyn365-marketing
+ms.date: 08/21/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -29,6 +27,9 @@ In real-time marketing, consent is captured and stored at the contact point. A c
 The primary benefit of contact point consent is that it allows real-time marketing to orchestrate journeys across any entity. Orchestrating across journeys means you can enforce consent for Leads, Customer Insights profiles, Contacts, and any other entity. This approach is opposed to outbound marketing journeys, which can only orchestrate journeys for Contact entities.
 
 In outbound marketing, consent is captured and stored on the Contact entity in fields like `DoNotEmail` and `DoNotBulkEmail` that apply to the entire Contact record and all its email addresses. This approach doesn't allow for different consent to be captured for a contact’s multiple email addresses, phone numbers, etc.
+
+> [!IMPORTANT]
+> While real-time marketing checks the **DoNotEmail** and **DoNotBulkEmail** fields on the contact entity, updates made to consent from messages will not update the **DoNotEmail** and **DoNotBulkEmail** fields on the contact. Updates from messages will only update the contact point consent records for the email address. This means that outbound marketing messages will not be affected by changes made to consent records based on messages sent by real-time marketing.
 
 ## Compliance profiles
 
