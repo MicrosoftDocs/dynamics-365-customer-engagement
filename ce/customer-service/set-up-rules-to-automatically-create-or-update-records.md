@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - ai-gen-docs
+  - ai-gen-docs-bap
   - ai-gen-desc
 ---
 
