@@ -9,16 +9,16 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Define a forecast's general properties and scheduling
+# Define forecast properties and scheduling
 
 Use general properties and scheduling options to define a forecast model.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Define the forecast's general properties
 
@@ -94,74 +94,60 @@ Use general properties and scheduling options to define a forecast model.
 
     :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 
-1. [Schedule the forecast](#schedule-the-forecast) using basic or advanced options, as in the following section.
+1. [Schedule the forecast](#schedule-the-forecast), as in the following section.
 
 1. When you've finished scheduling, select **Next**.
 
 ## Schedule the forecast
 
-Basic scheduling uses the Gregorian calendar, with 12 weeks per quarter. Use [advanced scheduling](#advanced-scheduling) if your organization uses a different calendar.
+In the **Scheduling** section, specify the recurrence of the forecast, start date, the number of periods to generate, and so on. It's important to understand the following concepts before you schedule a forecast:
 
-### Basic forecast scheduling
+- You can add multiple periods, with different forecast frequency. For example, you can add a monthly forecast for the first six months of the fiscal year and a quarterly forecast for the remaining six months.
+- You can have different forecast recurrences for the same period to track your team's forecast at multiple intervals. For example, towards the end of the quarter, you may want to track your team's forecast on a weekly basis, in addition to the monthly forecast. For example, you can have a monthly forecast for the month of September and a weekly forecast for the same month. 
+- You can add up to 17 periods to a forecast configuration.
+- You can add new periods to a forecast configuration at any time. If the forecast is already activated, you need to reactivate the forecast for the new periods to take effect.  
 
-1. In the **Scheduling** section, specify the following information.
+| Option | Description |Example scenario |
+| --- | --- | --- |
+| **Scheduling format** | Select a calendar template that corresponds to the number and grouping of accounting periods in your organization's calendar. [Learn more about the available calendar templates](#calendar-templates). | Select **Gregorian** if your organization uses the most-widely used Gregorian calender with 12 weeks per quarter. |
+| **Period start date** | Select the date from when the forecast period starts. This date can be the date when your fiscal year starts. For Broadcast calender template, this value can't be changed as this value is already preset to the first Monday that contains January 1. | If your organization's fiscal year starts on July 1, select **July 1**. You'll then be able to create forecasts for the period from July 1 to June 30 of the following year. If you want to track your team's forecast a few weeks ahead of the organization's fiscal year, set the start date to a few weeks before the fiscal year start date.  |
+| **Forecast period** | Select the frequency of the forecast. Specify whether you want a weekly, monthly, quarterly, or yearly forecast. The forecast period determines the granularity and recurrence of the forecast. For example, if you select **Monthly**, the forecast will be configured for each month. |
+| **Fiscal year** | Select the fiscal year for the forecast. | Select FY2023 if you're creating a forecast for the fiscal year 2023. |
+| **Start this forecast** | Select the exact week, month, quarter, or year for the forecast period.  | If you've selected **Monthly** as the forecast period, select **July** as the start month. |
+| **Number of periods** | Enter the number of forecast periods to generate. Forecast periods can only span up to one year. | If you've selected monthly forecast and selected **July** as the start month, and number of periods as 6, then 6 forecast periods will be configured for the period from July to December. When you select **Add period**, a forecast for each month will be added to the table on the right side. |
+| **Start this forecast on fiscal start month** | Applicable only for monthly forecasts. When you turn this option on, the period name will be based on the month in the **Period Start Date**. Otherwise, it'll be based on the month in the **Start this forecast** field. | For a period that's set to start on July 15, 2023 and forecast month to August, the period name will be set as **FY2023 July** if this option is turned on. If it's turned off, the period name will be set as **FY2023 August**. |
 
-    | Option | Description |
-    | --- | --- |
-    | **Forecast period** | Select whether the forecast is generated monthly or quarterly. By default, **Quarterly** is selected. |
-    | **Fiscal year** | Select the fiscal year for the forecast. The fiscal year list is populated based on your organization's [fiscal year settings](/power-platform/admin/work-fiscal-year-settings). |
-    | **Forecast starts at** | Select the time period to start forecasting. If you select **Monthly**, select the month you want to start forecasting. If you select **Quarterly**, select the quarter you want to start forecasting. |
-    | **Number of periods** | Enter the number of forecast periods to generate. Forecasts can span up to one year. |
-    | **Valid from** and **Valid to** | These settings are read-only. They identify the dates the forecast starts and ends and are taken from your organization's fiscal year settings. |
+:::image type="content" source="./media/forecast-general-tab-scheduling-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the Scheduling options shown.":::
 
-    :::image type="content" source="./media/forecast-general-tab-scheduling-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the Scheduling options shown.":::
+Scheduling supports fiscal years that span multiple calendar years and fiscal months that span multiple calendar months. Let's say your organization's fiscal year runs from July 1 to June 30. To schedule a monthly forecast for the fiscal year 2022, select the values as follows:
 
-    Scheduling supports fiscal years that span multiple calendar years and fiscal months that span multiple calendar months. Let's say your organization's fiscal year runs from July 1 to June 30. To schedule a monthly forecast for the fiscal year 2022, select the values as follows:
+- **Forecast period**: **Monthly**
+- **Fiscal year**: **FY2022**
+- **Start this forecast**: **July**
+- **Number of periods**: **12**
 
-    - **Forecast period**: **Monthly**
-    - **Fiscal year**: **FY2022**
-    - **Start this forecast**: **July**
-    - **Number of periods**: **12**
+:::image type="content" source="./media/forecast-schedule-org-select-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with scheduling options set to create a monthly forecast for FY2022.":::
 
-    :::image type="content" source="./media/forecast-schedule-org-select-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with scheduling options set to create a monthly forecast for FY2022.":::
+When you select a monthly forecast period, another option, **Start this forecast on fiscal start date month**, becomes available. Turn on this setting if you want the forecast’s first month to be the **Valid from** month. If you leave it turned off, the forecast’s first month will be the month following the **Valid from** month.
 
-    When you select a monthly forecast period, another option, **Start this forecast on fiscal start date month**, becomes available. Turn on this setting if you want the forecast’s first month to be the **Valid from** month. If you leave it turned off, the forecast’s first month will be the month following the **Valid from** month.
+### Calendar templates
 
-## Advanced scheduling
+The following table describes the calendar templates available for scheduling forecasts.
 
-Turn on **Enabled advanced scheduling** to create a forecast that's based on the calendar your organization uses.
+| Calendar template | Description |
+| --- | --- |
+| **Gregorian** | This template uses the most-widely used Gregorian calender with 12 weeks per quarter.  |
+| **Broadcast Calendar** | In this pattern, every month has either four or five weeks that all start on Monday and end on Sunday. Broadcast calendar months have either 28 days or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the first day of the month on the Gregorian calendar. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January has five weeks and ends on January 30. The four weeks of broadcast February begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month. The period ends on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
+| **3-3-3-4**, **3-3-4-3**, **3-4-3-3**, and **4-3-3-3**\* | This pattern divides a year into 13 months of 4 weeks each, with three 3-week months and one 4-week month in each quarter. For example, in the 4-3-3-3 and 3-3-3-4 calendars, the 4-week month falls at the start or end of the quarter, respectively. |
+| **4-4-5**, **4-5-4**, and **5-4-4**\* | This pattern divides a year into four quarters of 13 weeks each, with two 4-week months and one 5-week month in each quarter. In the 5-4-4 and 4-4-5 patterns, the 5-week month falls at the start or end of the quarter, respectively. With 13-week quarters, the period always ends on the same day of the week. This pattern is useful for shift or manufacturing planning, because every period is the same length. |
+| **Custom** |  If none of the predefined calendar templates match your organization's calendar, select **Custom** and specify the start date and end date of your forecast. The Period Name field is populated based on the start and end dates. You can edit the period name, but it'll not be localized. So, even your non-English users will see the period name in English. |
 
-:::image type="content" source="./media/forecast-adv-scheduling-enable-preview.png" alt-text="A screenshot of the General step of the Forecast configuration page, with advanced scheduling options shown.":::
-
-More options are available when you turn on advanced scheduling:
-
-- **Fiscal Year Start Date**: Select the date your organization's fiscal year starts.
-- **Calendar Template**: Select the template that corresponds to the number and grouping of accounting periods in your organization's calendar.
-
-    | Calendar template | Description |
-    | --- | --- |
-    | **4-4-5**, **4-5-4**, and **5-4-4**\* | This pattern divides a year into four quarters of 13 weeks each, with two 4-week months and one 5-week month in each quarter. In the 5-4-4 and 4-4-5 patterns, the 5-week month falls at the start or end of the quarter, respectively. With 13-week quarters, the period always ends on the same day of the week. This pattern is useful for shift or manufacturing planning, because every period is the same length. |
-    | **Gregorian** | By default, this pattern is a 12-month period between January 1 and December 31. You can choose a different start and end date. |
-    | **Broadcast Calendar** | In this pattern, every month has either four or five weeks that all start on Monday and end on Sunday. Broadcast calendar months have either 28 days or 35 days.<br>The key link between the broadcast and Gregorian calendars is that the first week of every broadcast month always contains the first day of the month on the Gregorian calendar. For example, if January 1 falls on a Saturday, the broadcast calendar year begins on the preceding Monday, December 27. Broadcast January has five weeks and ends on January 30. The four weeks of broadcast February begin on January 31. The number of weeks in a broadcast month is based on the number of Sundays that fall in that month. The period ends on the last Sunday of the month.<br>When you choose this option, the **Fiscal Year Start Date** is automatically set to the Monday in the week that contains January 1. To remained aligned with the established broadcast calendar logic, the start date can't be changed. |
-    | **3-3-3-4**, **3-3-4-3**, **3-4-3-3**, and **4-3-3-3**\* | This pattern divides a year into 13 months of 4 weeks each, with three 3-week months and one 4-week month in each quarter. For example, in the 4-3-3-3 and 3-3-3-4 calendars, the 4-week month falls at the start or end of the quarter, respectively. |
-
-    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern.png" alt-text="A screenshot of advanced forecast scheduling options, with a 4-4-5 calendar pattern shown.":::
-
-    \*The 4-4-5/4-5-4/5-4-4 and 3-3-3-4/3-3-4-3/3-4-3-3/4-3-3-3 calendars have only 364 days (7 days &times; 52 weeks). You'll need to add a fifty-third week every five or six years, which might make year-on-year comparison difficult.
-
-    To add an extra week to a specific quarter or month, select the period in the preview, and then select **Add Week**.
-
-    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern-add-week.png" alt-text="A screenshot of advanced forecast scheduling options, with the first month in the forecast period selected to receive an extra week.":::
-
-    To remove an extra week, select the period in the preview, and then select **Reset Added Week**.
-
-    :::image type="content" source="./media/forecast-adv-scheduling-445-pattern-add-week-added.png" alt-text="A screenshot of advanced forecast scheduling options, with an extra week added to the first month in the forecast period.":::
+\*The 4-4-5/4-5-4/5-4-4 and 3-3-3-4/3-3-4-3/3-4-3-3/4-3-3-3 calendars have only 364 days (7 days &times; 52 weeks). You'll need to add a fifty-third week every five or six years, which might make year-on-year comparison difficult. Instead, you can add an extra week to a specific quarter or month each year. Select the **Custom** calender template from the **Scheduling format** list. Then, specify the start date and end date of the week.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 <table>
 <tr><td>
-
 > [!div class="nextstepaction"]
 > [Previous step: Select a template](select-template-forecast.md)
 </td><td>
