@@ -41,7 +41,7 @@ Time is calculated as:
 - Skips Saturday and Sunday.
 - Warning time will be 06/19/2023 12:00 noon and failure time will be 06/22/2023 9:00 AM.
 
-### Warning Time- 1 day (1*24= 24 hours)
+### Warning Time: 1 day (1*24= 24 hours)
 
 Here's how the warning time gets calculated:
 
@@ -53,7 +53,7 @@ Here's how the warning time gets calculated:
 - 06/18/2023- Weekend (Non-working day)
 - 06/19/2023- 8:00 AM to 12:00 noon (4 hours) = 4-4= 0 hours
 
-### Failure Time- 2 days (2*24= 48 hours)
+### Failure Time: 2 days (2*24= 48 hours)
 
 Here's how the failure time gets calculated:
 
@@ -85,7 +85,7 @@ Time is calculated as:
 - Skips Saturday and Sunday.
 - Warning time will be 06/19/2023 3:00 PM and failure time will be 06/22/2023 3:00 PM.
 
-### Warning Time- 1 day (1*24= 24 hours)
+### Warning Time: 1 day (1*24= 24 hours)
 
 Here's how the warning time gets calculated:
 
@@ -103,7 +103,7 @@ Here's how the warning time gets calculated:
 - 06/19/2023- - 1:00 AM to 2:00 PM (1 hour) = Break hours
 - 06/19/2023- 2:00 AM to 3:00 PM (1 hour) = 1-1= 0
 
-### Failure Time- 2 days (2*24= 48 hours)
+### Failure Time: 2 days (2*24= 48 hours)
 
 Here's how the failure time gets calculated:
 
@@ -144,10 +144,10 @@ TIme is calculated as:
 - Working hours are calculated as 9 hours daily.
 - Working days are set as Monday to Friday.
 - Skips Saturday and Sunday.
-- Skips holidays as per Holiday calendar.
+- Skips holidays as per holiday calendar.
 - Warning time will be 06/21/2023 12:00 noon and failure time will be 06/26/2023 9:00 AM.
 
-### Warning Time- 1 day (1*24= 24 hours)
+### Warning Time: 1 day (1*24= 24 hours)
 
 Here's how the warning time gets calculated:
 
@@ -161,7 +161,7 @@ Here's how the warning time gets calculated:
 - 06/20/2023- 8:00 AM to 5:00 PM (9 hours) = 13-9= 4 hours
 - 06/21/2023- 8:00 AM to 12:00 noon (4 hours) = 4-4= 0 hours
 
-### Failure Time- 2 days (2*24= 48 hours)
+### Failure Time: 2 days (2*24= 48 hours)
 
 Here's how the failure time gets calculated:
 
@@ -180,29 +180,29 @@ Here's how the failure time gets calculated:
 - 06/25/2023- Weekend (Non-working day)
 - 06/26/2023- 8:00 AM to 9:00 AM (1 hour) = 1-1= 0 hour
 
-So, if a case is created on 06/14/2023 3:00 PM and warning and failure time is set as 1 day and 2 days respectively then warning time will be 06/21/2023 12:00 noon and failure time will be 06/26/2023 9:00 AM.
+So, if a case is created on 06/14/2023 3:00 PM and warning and failure time is set as 1 day and 2 days respectively, then warning time will be 06/21/2023 12:00 noon and failure time will be 06/26/2023 9:00 AM.
 
 ## Pause and hold scenario
 
-When we create an SLA and then we pause that SLA for some hours/days then that pausing hours/days will not be calculated in the SLA failure and warning time.
+When you create an SLA and then pause that SLA for some hours or days, then the paused hours or days aren't taken into account in the SLA failure and warning time.
 
 Time is calculated as:
 
-- Case created on 06/14/2023 3:00 PM
+- Case created on 06/14/2023 3:00 PM.
 - warning and failure time is set as 1 day and 2 days.
 - Working hours are set as 8:00 AM to 5:00 PM.
-- It will calculate 9 hours daily as working hours. 
-- Working days are set as Monday to Friday. 
-- Will skip Saturday and Sunday.
-- Will skip holidays as per Holiday calendar.
-- Will skip paused hours/days.
+- It will calculate 9 hours daily as working hours.
+- Working days are set as Monday to Friday.
+- Skips Saturday and Sunday.
+- Skips holidays as per Holiday calendar.
+- Skips paused hours or days.
 - Warning time will be 06/21/2023 10:00 AM and failure time will be 06/26/2023 4:00 PM.
 
 ### Warning Time- 1 day (1*24= 24 hours)
 
 Here's how the warning time gets calculated:
 
-- Case got created on 06/13/2023 at 1:00 PM
+- Case got created on 06/13/2023 at 1:00 PM.
 - 06/13/2023- 1:00 PM to 5:00 PM (4 hours) = 24-4= 20 hours
 - 06/14/2023- 8:00 AM to 5:00 PM (9 hours)- Paused.
 - 06/15/2023- 8:00 AM to 5:00 PM (9 hours) = 20-9= 11 hours

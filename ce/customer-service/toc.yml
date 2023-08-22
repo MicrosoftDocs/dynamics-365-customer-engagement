@@ -358,6 +358,8 @@
           href: set-up-holiday-schedule.md
         - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
+        - name: SLA time calculation scenarios
+          href: sla-time-scenarios.md
       - name: Configure service-level agreements
         href: define-service-level-agreements.md
       - name: Apply service-level agreements
