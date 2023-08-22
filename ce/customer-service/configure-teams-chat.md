@@ -18,7 +18,7 @@ When the feature is enabled for an app, when they work on customer records, agen
 
 ## Enable or disable Teams chat
 
-If you’re using the Customer Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use it in other customer engagement apps, you must manually enable it, and it requires certain permissions to access Teams data. Review the following sections to learn more.
+If you’re using the Customer Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use it in other customer engagement apps, you must manually enable it and it requires certain permissions to access Teams data. Review the following sections to learn more.
 
 ### Permissions required
 
