@@ -906,6 +906,8 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
+    - name: Configure automatic closure of conversations using Power Apps
+      href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:
       - name: Configure authentication settings for chat  
