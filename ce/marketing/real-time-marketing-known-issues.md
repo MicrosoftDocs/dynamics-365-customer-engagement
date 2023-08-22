@@ -24,6 +24,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 - In the aggregate cross-journey analytics dashboard, an extra step is needed to load the Power BI report in the Android and iPad native apps. To load the report, go to **Analytics**, then select a row, select the **Show as from** sub menu, then select **CC_Analytics_ReportingControl**.
 - Data retention is 12 months for Contact and Lead insights, goal analytics, channel analytics (including delivery and interaction details such as contacts impacted by delivery and interaction issues), and AI optimization analytics.
 - Some strings in the Power BI aggregate analytics dashboard aren’t localized.
+- In the event of an email remote bounce, contact/lead timeline might display 2 "email delivered" interactions for the same message with the same timestamp despite no message has been delivered to the contact/lead email address. This is because the 2nd interaction is intented to "erase" the 1st one. However this is not currently being handled in timeline. 
 
 ## Consent
 
