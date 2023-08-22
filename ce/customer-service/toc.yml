@@ -64,6 +64,8 @@
       href: system-requirements-omnichannel.md
     - name: Service quotas
       href: service-quotas.md
+    - name: Best practices to set up voice channel
+      href: voice-channel-best-practices.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -928,7 +930,7 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service
+    - name: Copilot in Customer Service (preview)
       items:
       - name: Enable Copilot in Customer Service
         href: configure-copilot-features.md
@@ -1438,6 +1440,8 @@
         href: developer/reference/entities/msdyn_conversationaction.md
       - name: msdyn_conversationactionlocale
         href: developer/reference/entities/msdyn_conversationactionlocale.md
+      - name: msdyn_conversationmessageblock
+        href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
       - name: msdyn_customengagementctx
@@ -1842,6 +1846,12 @@
               href: ../app-profile-manager/reference/microsoft-apm/updateContext.md
       - name: Readme
         href: https://go.microsoft.com/fwlink/p/?linkid=2141982
+  - name: Responsible AI
+    items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for copilot
+      href: faq-copilot-for-customer-service.md 
   - name: Troubleshoot issues in Customer Service
     items: 
     - name: Issue converting an email to a case
@@ -1852,6 +1862,8 @@
       href: troubleshoot-delete-managed-solution.md
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
+    - name: Use diagnostic messages to troubleshoot issues in voice calls
+      href: /troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues?context=/dynamics365/context/customer-service-context
     - name: Troubleshoot issues using Solution Health Hub
       href: troubleshoot-using-solution-health-hub.md
     - name: Troubleshoot issues with integrated search providers
