@@ -10,8 +10,6 @@ ms.custom: bap-template
 ---
 # Configure automatic closure of conversations using Power Apps
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
 This article demonstrates how you can configure the auto-close duration of a conversation using Power Apps.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
