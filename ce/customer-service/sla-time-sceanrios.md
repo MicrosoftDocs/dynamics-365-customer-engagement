@@ -144,7 +144,7 @@ TIme is calculated as:
 - Working hours are calculated as 9 hours daily.
 - Working days are set as Monday to Friday.
 - Skips Saturday and Sunday.
-- SkipS holidays as per Holiday calendar.
+- Skips holidays as per Holiday calendar.
 - Warning time will be 06/21/2023 12:00 noon and failure time will be 06/26/2023 9:00 AM.
 
 ### Warning Time- 1 day (1*24= 24 hours)
