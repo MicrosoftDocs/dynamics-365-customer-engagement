@@ -139,9 +139,9 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 
 To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
-### Why do I hear "Sorry! We couldn't serve you" message when called to voice channel?
+### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-A customer might hear this message when the voice channel is unable to add a Power Virtual Agents bot to a call or connect a call to an agent.
+Sometimes, when a Power Virtual Agents bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served.
 
 ### See also
 
