@@ -102,9 +102,7 @@ For exporting and importing queues for the voice channel, perform the steps outl
    |7.|Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)|<ul><li>Capacity Profile (msdyn_capacityprofile_id) </li><li> Name (msdyn_name) </li><li> Workstream (msdyn_workstream_id) </li><li> Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid) </li></ul>|[**Sample 1: Workstream capacity profile for all voice workstreams**](#BKMK1vwwcp)<br><br>[**Sample 2: Workstream capacity profile for a single voice workstream**](#BKMK2vwwcp)<br><br>[**Sample 3: Workstream capacity profile for multiple voice workstreams**](#BKMK3vwwcp) |
 
 3. Generate the schema and save it.
-
 4. Export the data and generate the compressed (zip) file.
-
 5. Use the Configuration Migration tool, and select the option to import data, and select the compressed file.
 
 > [!IMPORTANT]
@@ -157,6 +155,394 @@ XMLCopy
     </filter> 
   </entity> 
 </fetch>  
+```
+### FetchXML for context variables entity
+
+**Sample 1: All voice workstreams context variables** <a name="BKMK1vwcv"></a>
+
+```XML
+XMLCopy
+<fetch>
+    <entity name="msdyn_ocliveworkstreamcontextvariable" >
+        <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa" >
+            <filter type="and" >
+                <condition attribute="msdyn_streamsource" operator="eq" value="192440000" />
+                <condition attribute="msdyn_mode" operator="eq" value="717210001" />
+            </filter>
+        </link-entity> 
+    </entity>
+</fetch> 
+```
+**Sample 2: Single voice workstream context variables** <a name="BKMK2vwcv"></a>
+
+```XML
+XMLCopy
+<fetch>
+    <entity name="msdyn_ocliveworkstreamcontextvariable" >
+        <filter type="and" >
+            <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{D3A1F09D-51A0-A6B7-266D-58E1BDB97B53}" />
+        </filter>
+    </entity>
+</fetch>
+```
+**Sample 3: Multiple voice workstreams context variables** <a name="BKMK3vwcv"></a>
+
+```XML
+XMLCopy
+<fetch>
+    <entity name="msdyn_ocliveworkstreamcontextvariable" ><a name="BKMK3vwcv"></a>
+        <filter type="or" >
+            <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{D3A1F09D-51A0-A6B7-266D-58E1BDB97B53}" />
+            <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Voice Workstream 1" uitype="msdyn_liveworkstream" value="{f9e18e67-d1a8-ed11-aad1-00224805c057}" /> 
+        </filter>
+    </entity>
+</fetch>
+```
+### FetchXML for decision contract entity
+
+**Sample 1: Decision contract for all voice workstreams**<a name="BKMK1vwdc"></a>
+
+```XML
+XMLCopy
+
+<fetch distinct="true" >
+    <entity name="msdyn_decisioncontract" >
+        <filter type="or" >
+            <filter type="and" >
+                <condition attribute="msdyn_mode" entityname="an" operator="eq" value="717210001" />
+                <condition attribute="msdyn_streamsource" entityname="an" operator="eq" value="192440000" />
+            </filter>
+            <filter type="and" >
+                <condition attribute="msdyn_mode" entityname="bd" operator="eq" value="717210001" />
+                <condition attribute="msdyn_streamsource" entityname="bd" operator="eq" value="192440000" />
+            </filter>
+            <filter type="and" >
+                <condition attribute="msdyn_mode" entityname="bk" operator="eq" value="717210001" />
+                <condition attribute="msdyn_streamsource" entityname="bk" operator="eq" value="192440000" />
+            </filter>
+        </filter>
+        <link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an" />
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bh" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bi" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bj" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bk" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+
+**Sample 2: Decision contract for single voice workstream**<a name="BKMK2vwdc"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true" >
+    <entity name="msdyn_decisioncontract" >
+        <filter type="or" >
+            <filter type="and" >
+                <condition attribute="msdyn_liveworkstreamid" entityname="an" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+            </filter>
+            <filter type="and" >
+                <condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+            </filter>
+            <filter type="and" >
+                <condition attribute="msdyn_liveworkstreamid" entityname="bk" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+            </filter>
+        </filter>
+        <link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an" />
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bh" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bi" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bj" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bk" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+**Sample 3: Decision contract for multiple voice workstreams**<a name="BKMK3vwdc"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true" >
+    <entity name="msdyn_decisioncontract" >
+        <filter type="or" >
+            <filter type="and" >
+                <filter type="or" >
+             	       <condition attribute="msdyn_liveworkstreamid" entityname="an" operator="eq" uiname="Voice Workstream 1" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+       	       <condition attribute="msdyn_liveworkstreamid" entityname="an" operator="eq" uiname="Voice Workstream 2" uitype="msdyn_liveworkstream" value="{f9e18e67-d1a8-ed11-aad1-00224805c057}" />
+         </filter>
+            </filter>
+            <filter type="and" >
+                <filter type="or" >
+             	       <condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="Voice Workstream 1" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+       	       <condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="Voice Workstream 2" uitype="msdyn_liveworkstream" value="{f9e18e67-d1a8-ed11-aad1-00224805c057}" />
+         </filter>
+            </filter>
+            <filter type="and" >
+                <filter type="or" >
+             	       <condition attribute="msdyn_liveworkstreamid" entityname="bk" operator="eq" uiname="Voice Workstream 1" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+       	       <condition attribute="msdyn_liveworkstreamid" entityname="bk" operator="eq" uiname="Voice Workstream 2" uitype="msdyn_liveworkstream" value="{f9e18e67-d1a8-ed11-aad1-00224805c057}" />
+         </filter>
+            </filter>
+        </filter>
+        <link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an" />
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+        <link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bh" >
+            <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bi" >
+                <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bj" >
+                    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bk" />
+                </link-entity>
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+### FetchXML for decision ruleset entity
+
+**Sample 1: Decision ruleset for all voice workstreams**<a name="BKMK1vwdrs"></a>
+```XML
+XMLCopy
+<fetch distinct="true" >
+    <entity name="msdyn_decisionruleset" >
+        <filter type="or" >
+            <filter type="and" >
+                <condition attribute="msdyn_mode" entityname="af" operator="eq" value="717210001" />
+                <condition attribute="msdyn_streamsource" entityname="af" operator="eq" value="192440000" />
+            </filter>
+        </filter>
+        <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad" >
+            <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae" >
+                <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af" />
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+
+**Sample 2: Decision ruleset for a single voice workstream**<a name="BKMK2vwdrs"></a>
+
+```XML
+XMLCopy
+
+<fetch distinct="true" >
+    <entity name="msdyn_decisionruleset" >
+        <filter type="or" >
+            <filter type="and" >
+                <condition attribute="msdyn_liveworkstreamid" entityname="af" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+            </filter>
+        </filter>
+        <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad" >
+            <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae" >
+                <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af" />
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+
+**Sample 3: Decision ruleset for multiple voice workstreams**<a name="BKMK3vwdrs"></a>
+
+```XML
+XMLCopy
+<fetch distinct="true" >
+    <entity name="msdyn_decisionruleset" >
+        <filter type="or" >
+            <filter type="or" >
+                <condition attribute="msdyn_liveworkstreamid" entityname="af" operator="eq" uiname="Voice Workstream" uitype="msdyn_liveworkstream" value="{d3a1f09d-51a0-a6b7-266d-58e1bdb97b53}" />
+                <condition attribute="msdyn_liveworkstreamid" entityname="af" operator="eq" uiname="Voice Workstream 1" uitype="msdyn_liveworkstream" value="{f9e18e67-d1a8-ed11-aad1-00224805c057}" />
+            </filter>
+        </filter>
+        <link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad" >
+            <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae" >
+                <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af" />
+            </link-entity>
+        </link-entity>
+    </entity>
+</fetch>
+```
+
+### FetchXML for routing configuration entity
+
+**Sample 1: Routing configuration for all voice workstreams**<a name="BKMK1vwrc"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_routingconfiguration"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_mode" operator="eq" value="717210001" /> 
+        <condition attribute="msdyn_streamsource" operator="eq" value="192440000" /> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+**Sample 2: Routing configuration for a single voice workstream**<a name="BKMK2vwrc"></a>
+
+```XML
+XMLCopy 
+
+<fetch>
+  <entity name="msdyn_routingconfiguration"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" /> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+**Sample 3: Routing configuration for multiple voice workstreams**<a name="BKMK3vwrc"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_routingconfiguration"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_liveworkstreamid" operator="in"> 
+          <value uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value> 
+          <value uiname="Test Voice Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value> 
+        </condition> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+### FetchXML for routing configuration step entity
+
+**Sample 1: Routing configuration step for all voice workstreams**<a name="BKMK1vwrcs"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_routingconfigurationstep"> 
+    <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
+      <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="al"> 
+        <filter type="and"> 
+          <condition attribute="msdyn_mode" operator="eq" value="717210001" /> 
+          <condition attribute="msdyn_streamsource" operator="eq" value="192440000" /> 
+        </filter> 
+      </link-entity> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+
+**Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK1vwrcs"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_routingconfigurationstep"> 
+    <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
+      <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="al"> 
+        <filter type="and"> 
+          <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" /> 
+        </filter> 
+      </link-entity> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+**Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK1vwrcs"></a>
+
+```XML
+XMLCopy
+
+<fetch> 
+  <entity name="msdyn_routingconfigurationstep"> 
+    <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
+      <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="al"> 
+        <filter type="and"> 
+          <condition attribute="msdyn_liveworkstreamid" operator="in"> 
+            <value uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}</value> 
+            <value uiname="Test Voice Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44098}</value> 
+          </condition> 
+        </filter> 
+      </link-entity> 
+    </link-entity>
+  </entity>
+</fetch>
+```
+
+### FetchXML for workstream capacity profile entity
+
+**Sample 1: Routing configuration step for multiple voice workstreams**<a name="BKMK1vwwcp"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_liveworkstreamcapacityprofile"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_mode" operator="eq" value="717210001" /> 
+        <condition attribute="msdyn_streamsource" operator="eq" value="192440000" /> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+
+**Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK2vwwcp"></a>
+
+```XML
+XMLCopy
+
+<fetch>
+  <entity name="msdyn_liveworkstreamcapacityprofile"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" /> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+**Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK3vwwcp"></a>
+
+```XML
+XMLCopy
+<fetch>
+  <entity name="msdyn_liveworkstreamcapacityprofile"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_liveworkstreamid" operator="in"> 
+          <value uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value> 
+          <value uiname="Test Voice Workstream 2" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value> 
+        </condition> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>
 ```
 
 ## Migrate configuration for voice channel settings

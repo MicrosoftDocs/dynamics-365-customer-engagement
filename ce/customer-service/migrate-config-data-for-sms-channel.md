@@ -22,33 +22,32 @@ For information on how to use the Configuration Migration tool, see the followin
 
 The following prerequisites must be met:
 
-- In the source environment, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration: 
-
- - Custom entities
- - Attributes
- - Relationships
- - Option sets
- - Lookup values
+- In the source environment, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+ 	- Custom entities
+ 	- Attributes
+ 	- Relationships
+ 	- Option sets
+ 	- Lookup values
 
 - Ensure that the user who performs the migration has the required privileges on the following unified routing entities in the source and target environments:
- - Workstream (`msdyn_liveworkstream`)
- - Channel configuration (`msdyn_omnichannelconfiguration`)
- - Operating hours (`msdyn_operatinghour`)
- - Characteristic (`characteristic`) 
- - Rating Model (`rating model`)
- - Rating Value (`ratingvalue`)
- - Capacity Profile (`msdyn_capacityprofile`)
- - Queue (`queue`)
- - Decision contract (`msdyn_decisioncontract`)
- - Decision ruleset (`msdyn_decisionruleset`)
- - Assignment configuration (`msdyn_assignmentconfiguration`)
- - Assignment configuration Step (`msdyn_assignmentconfigurationstep`)
- - Routing configuration (`msdyn_routingconfiguration`)
- - Routing configuration step (`msdyn_routingconfigurationstep`)
- - Workstream capacity profile (`msdyn_liveworkstreamcapacityprofile`)
- - Context variable (`msdyn_ocliveworkstreamcontextvariable`)
- - Quick replies (`msdyn_cannedmessages`) 
- - Tags (`msdyn_octags`)
+ 	- Workstream (`msdyn_liveworkstream`)
+ 	- Channel configuration (`msdyn_omnichannelconfiguration`)
+ 	- Operating hours (`msdyn_operatinghour`)
+	- Characteristic (`characteristic`) 
+ 	- Rating Model (`rating model`)
+ 	- Rating Value (`ratingvalue`)
+	- Capacity Profile (`msdyn_capacityprofile`)
+ 	- Queue (`queue`)
+ 	- Decision contract (`msdyn_decisioncontract`)
+ 	- Decision ruleset (`msdyn_decisionruleset`)
+ 	- Assignment configuration (`msdyn_assignmentconfiguration`)
+ 	- Assignment configuration Step (`msdyn_assignmentconfigurationstep`)
+ 	- Routing configuration (`msdyn_routingconfiguration`)
+ 	- Routing configuration step (`msdyn_routingconfigurationstep`)
+ 	- Workstream capacity profile (`msdyn_liveworkstreamcapacityprofile`)
+ 	- Context variable (`msdyn_ocliveworkstreamcontextvariable`)
+ 	- Quick replies (`msdyn_cannedmessages`) 
+ 	- Tags (`msdyn_octags`)
 
 > [!IMPORTANT]  
 > The migration of the account, channel provider, phone number, bot configuration, and AI and analytics settings is not in scope.
@@ -94,7 +93,7 @@ For migrating queues for SMS, perform the steps outlined in [Migrate data for 
 
     |S.No.|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|---------|
-    |1.|Workstream (msdyn_liveworkstream)| <ul><li>API Key (msdyn_apikey) </li><li> API Key Version Number (msdyn_apikeyversionnumber)</li><li>Allow Automated Messages (msdyn_enableautomatedmessages) </li>Allowed Presences (msdyn_allowedpresences) </li><li> Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li><li>Auto-close after inactivity (msdyn_autocloseafterinactivity) </li><li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup) </li><li>Bot queue (msdyn_bot_queue) </li><li>Bot rule (msdyn_bot_rule)</li><li>Bot user (msdyn_bot_user)</li><li>CallbackPreviewDialing (msdyn_notificationtemplate_callback_previewdialing)</li><li>Connectors (msdyn_connectorsurl) </li><li>Consult (msdyn_notificationtemplate_consult) </li><li>Conversation mode of chat channels (msdyn_conversationmode)</li><li>Customer ID (msdyn_customerid)</li><li>Customer Disconnect Hold Duration For Open Conversation (msdyn_customerdisconnectholddurationforopenconversation)</li><li>Capacity (msdyn_capacityrequired)</li><li>Capacity format (msdyn_capacityformat)</li><li>Channel (msdyn_streamsource)</li><li>Contract Id (msdyn_routingcontractid) </li><li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li><li>Direction (msdyn_direction)</li><li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li><li>Entity (msdyn_masterentityroutingconfigurationid)</li><li>FallBack Language (msdyn_fallbacklanguage)</li><li>Follow-up after waiting (msdyn_followupafterwaiting)</li><li>Handling Time Threshold (msdyn_handlingtimethreshold)</li><li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li><li>Incoming unauthenticated (msdyn_notificationtemplate_incoming_unauth)</li><li>Is Default (msdyn_isdefault)</li><li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li><li>Last Validation On (msdyn_lastvalidationon)</li><li>Last Validation Status (msdyn_lastvalidationstatus)</li><li>Matching Logic (msdyn_matchinglogic)</li><li>Max Concurrency (msdyn_maxconcurrentconnection)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Notification (msdyn_notification)</li><li>Notification scenario placeholder (msdyn_notificationscenarioplaceholder)</li><li>Outbound queue (msdyn_outboundqueueid)</li><li>Record Identification Rule (msdyn_recordidentificationrule)</li><li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li><li>Restrict download of recording (msdyn_restrictdownloadrecording)</li><li>Restrict download of transcript (msdyn_restrictdownloadtranscript)</li><li>Screen pop timeout (msdyn_screenpoptimeout)</li><li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li><li>Secure API Key (msdyn_secureapikey)</li><li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li><li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li><li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li><li>Session scenario placeholder (msdyn_sessionscenarioplaceholder)</li><li>SupervisorAssign (msdyn_notificationtemplate_supervisorassign)</li><li>Transfer (msdyn_notificationtemplate_transfer)</li><li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li><li>Work Distribution Mode (msdyn_workdistributionmode)</li><li>Work Stream (msdyn_liveworkstreamid)[**Sample 1: All SMS workstreams**](#BKMK1smsw)<br><br>[**Sample 2: Single SMS workstream**](#BKMK2smsw)<br><br>[**Sample 3: Multiple SMS workstreams**](#BKMK3smsw)|
+    |1.|Workstream (msdyn_liveworkstream)| <ul><li>API Key (msdyn_apikey) </li><li> API Key Version Number (msdyn_apikeyversionnumber)</li><li>Allow Automated Messages (msdyn_enableautomatedmessages) </li>Allowed Presences (msdyn_allowedpresences) </li><li> Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li><li>Auto-close after inactivity (msdyn_autocloseafterinactivity) </li><li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup) </li><li>Bot queue (msdyn_bot_queue) </li><li>Bot rule (msdyn_bot_rule)</li><li>Bot user (msdyn_bot_user)</li><li>CallbackPreviewDialing (msdyn_notificationtemplate_callback_previewdialing)</li><li>Connectors (msdyn_connectorsurl) </li><li>Consult (msdyn_notificationtemplate_consult) </li><li>Conversation mode of chat channels (msdyn_conversationmode)</li><li>Customer ID (msdyn_customerid)</li><li>Customer Disconnect Hold Duration For Open Conversation (msdyn_customerdisconnectholddurationforopenconversation)</li><li>Capacity (msdyn_capacityrequired)</li><li>Capacity format (msdyn_capacityformat)</li><li>Channel (msdyn_streamsource)</li><li>Contract Id (msdyn_routingcontractid) </li><li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li><li>Direction (msdyn_direction)</li><li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li><li>Entity (msdyn_masterentityroutingconfigurationid)</li><li>FallBack Language (msdyn_fallbacklanguage)</li><li>Follow-up after waiting (msdyn_followupafterwaiting)</li><li>Handling Time Threshold (msdyn_handlingtimethreshold)</li><li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li><li>Incoming unauthenticated (msdyn_notificationtemplate_incoming_unauth)</li><li>Is Default (msdyn_isdefault)</li><li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li><li>Last Validation On (msdyn_lastvalidationon)</li><li>Last Validation Status (msdyn_lastvalidationstatus)</li><li>Matching Logic (msdyn_matchinglogic)</li><li>Max Concurrency (msdyn_maxconcurrentconnection)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Notification (msdyn_notification)</li><li>Notification scenario placeholder (msdyn_notificationscenarioplaceholder)</li><li>Outbound queue (msdyn_outboundqueueid)</li><li>Record Identification Rule (msdyn_recordidentificationrule)</li><li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li><li>Restrict download of recording (msdyn_restrictdownloadrecording)</li><li>Restrict download of transcript (msdyn_restrictdownloadtranscript)</li><li>Screen pop timeout (msdyn_screenpoptimeout)</li><li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li><li>Secure API Key (msdyn_secureapikey)</li><li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li><li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li><li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li><li>Session scenario placeholder (msdyn_sessionscenarioplaceholder)</li><li>SupervisorAssign (msdyn_notificationtemplate_supervisorassign)</li><li>Transfer (msdyn_notificationtemplate_transfer)</li><li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li><li>Work Distribution Mode (msdyn_workdistributionmode)</li><li>Work Stream (msdyn_liveworkstreamid)|[**Sample 1: All SMS workstreams**](#BKMK1smsw)<br><br>[**Sample 2: Single SMS workstream**](#BKMK2smsw)<br><br>[**Sample 3: Multiple SMS workstreams**](#BKMK3smsw)|
 	|2.|Context Variable (msdyn_ocliveworkstreamcontextvariable)|<ul><li>Name (msdyn_name) </li><li> Relation Ship Name (msdyn_relationshipname) </li><li> Type (msdyn_datatype) </li><li> Work stream (msdyn_liveworkstreamid) </li><li> IsList (msdyn_islist) </li><li> Modifiable (msdyn_ismodifiable) </li><li> Display Name (msdyn_displayname) </li><li> Displayable (msdyn_isdisplayable) </li><li> Entity Logical Name (msdyn_entitylogicalname) </li><li> Context variable (msdyn_ocliveworkstreamcontextvariableid) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> System Defined (msdyn_issystemdefined) </li></ul>|[**Sample 1: Context Variables for all SMS workstreams**](#BKMK1smswcv)<br><br> [**Sample 2: Context variables for a single SMS workstream**](#BKMK2smswcv) <br><br> [**Sample 3: Context Variables for multiple SMS workstreams**](#BKMK3smswcv) |
 	|3.|Decision contract (msdyn_decisioncontract)|<ul><li>Contract definition (msdyn_contractdefinition) </li><li> Decision contract (msdyn_decisioncontractid) </li><li> Name (msdyn_name) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision contract for all SMS workstreams**](#BKMK1smswdc) <br><br>[**Sample 2: Decision contract for a single SMS workstream**](#BKMK2smswdc)<br><br>[**Sample 3: Decision contract for multiple SMS workstreams**](#BKMK3smswdc) |
 	|4.|Decision rule set (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid) </li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li> Input contract (msdyn_inputcontractid) </li><li> Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li> Rule set definition (msdyn_rulesetdefinition) </li><li> Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision ruleset for all SMS workstreams**](#BKMK1smswdrs)<br><br>[**Sample 2: Decision ruleset for a single SMS workstream**](#BKMK2smswdrs) <br><br>[**Sample 3: Decision ruleset for multiple SMS workstreams**](#BKMK3smswdrs) |
@@ -460,8 +459,9 @@ XMLCopy
 ```
 
 **Sample 2: Routing configuration step for a single SMS workstream**<a name="BKMK2smswrcs"></a>
-XMLCopy
+
 ```XML
+XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -557,7 +557,7 @@ Assume that the workstream must exist whether it was created manually or previou
 	| S.No. | Entity display name (Logical name) | Attribute display name (Logical name) |
    	|--------|---------|---------|
 	|1.|SMS Number Setting (msdyn_ocsmschannelsetting)|[FetchXML to filter records for SMS channel settings](#BKMK1sms) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - You'll need to include Phone Number (msdyn_phonenumberid) column even though data is invalid, as the records in Phone Number table are environment-specific and can’t be migrated. You’ll need to fix phone number manually in destination environment after migration. If you are not allowed to perform this action for any reason, you can manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Don't include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated. <br> - Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") <br> <ul><li> Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li> Enable (msdyn_postconversationsurveyenable)</li><li> Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li> Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li> Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li> Message (msdyn_postconversationsurveymessagetext)</li><li> Name (msdyn_name)</li><li> ocsmschannelsetting (msdyn_ocsmschannelsettingid)</li><li> Operating hours (msdyn_operatinghoursid)</li><li> Phone Number (msdyn_phonenumberid)</li><li> SMS number language (msdyn_language)</li><li> Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li> Survey Mode (msdyn_postconversationsurveymode)</li><li> Work stream (msdyn_liveworkstreamid)</li></ul>|
-	|2.|Localization (msdyn_oclocalizationdata)|[FetchXML to filter records for SMS channel localizations](#BKMK2sms)| <br> <ul> <li> Automated message (msdyn_systemmessageid)</li><li> Default Localized Text (msdyn_defaultlocalizedtext)</li><li> Entity Column Name (msdyn_entitycolumnname)</li><li> Entity Name (msdyn_entityname)</li><li> Entity Record ID (msdyn_entityrecordid)</li><li> Is default (msdyn_isdefault)</li><li> Language code (msdyn_customerlanguageid)</li><li> Language Code (msdyn_languagecode)</li><li> Localization (msdyn_oclocalizationdataid)</li><li> Localized text (msdyn_localizedtext)</li><li> Organization ID (organizationid)</li><li> Status (statecode)</li><li> Status Reason (statuscode)</li></ul>|
+	|2.|Localization (msdyn_oclocalizationdata)|[FetchXML to filter records for SMS channel localizations](#BKMK2sms) <br> <ul> <li> Automated message (msdyn_systemmessageid)</li><li> Default Localized Text (msdyn_defaultlocalizedtext)</li><li> Entity Column Name (msdyn_entitycolumnname)</li><li> Entity Name (msdyn_entityname)</li><li> Entity Record ID (msdyn_entityrecordid)</li><li> Is default (msdyn_isdefault)</li><li> Language code (msdyn_customerlanguageid)</li><li> Language Code (msdyn_languagecode)</li><li> Localization (msdyn_oclocalizationdataid)</li><li> Localized text (msdyn_localizedtext)</li><li> Organization ID (organizationid)</li><li> Status (statecode)</li><li> Status Reason (statuscode)</li></ul>|
 	|3.|Message (msdyn_ocsystemmessage)|<ul> <li> Channel (msdyn_streamsource) </li><li> Default language (msdyn_defaultlanguage) </li><li> Instance ID (msdyn_instanceid) </li><li> Message (msdyn_ocsystemmessageid) </li><li> Message description (msdyn_messagedescription)</li><li> Message recipient (msdyn_messagereceiver) </li><li> Message template trigger (msdyn_messagetemplatetrigger)</li><li> Message Text (msdyn_messagetext) </li><li> Message trigger (msdyn_systemmessageeventtype) </li><li> Message type (msdyn_messagetype) </li><li> Name (msdyn_name) </li><li> Organization ID (organizationid) </li> <li> Status (statecode) </li><li> Status Reason (statuscode) </li></ul>|
 
 2. Generate the schema and save it.
