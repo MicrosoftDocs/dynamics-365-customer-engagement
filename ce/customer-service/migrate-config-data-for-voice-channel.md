@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
 description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 08/23/2023
+ms.date: 08/24/2023
 ms.topic: article
 author: mgandham
 ms.author: nenellim
@@ -560,14 +560,60 @@ The following assumptions are in place:
 
   | S.No. | Entity display name (Logical name) | Attribute display name (Logical name) |
   |--------|---------|---------|
+  |1.|Voice Number Setting (msdyn_ocvoicechannelsetting)|[FetchXML to filter records for voice channel settings](#BKMK1vc) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - Don't include Phone Number (msdyn_phonenumberid) column even though data is invalid, as the records in Phone Number table are environment-specific and can’t be migrated. If you are not allowed to do manual phone number assignment in destination environment for any reason, you can include Phone Number column but, before importing, you can manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") <br> <ul><li> Announce average wait time (msdyn_announceaveragewaittime) </li><li> Announce position in queue (msdyn_announcepositioninqueue) </li><li> Enable agent control of the recording (msdyn_agentrecordingcontrolsenabled) </li><li> Enable agent control of the transcription (msdyn_agenttranscriptioncontrolsenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li> Name (msdyn_name) </li><li> Operating hours (msdyn_operatinghoursid) </li><li> Recording Enabled (msdyn_recordingenabled) </li><li> Recording mode (msdyn_recordingmode) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Transcription Enabled (msdyn_transcriptionenabled) </li><li> Transcription mode (msdyn_transcriptionmode) </li><li> Voice Channel Setting (msdyn_voicechannelsettingid) </li><li> Work stream (msdyn_liveworkstreamid) </li></ul>|
+  |2.|Localization (msdyn_oclocalizationdata) |[FetchXML to filter records for voice channel localizations](#BKMK2vc) <br> <ul> <li> Automated message (msdyn_systemmessageid)</li><li> Default Localized Text (msdyn_defaultlocalizedtext)</li><li> Entity Column Name (msdyn_entitycolumnname)</li><li> Entity Name (msdyn_entityname)</li><li> Entity Record ID (msdyn_entityrecordid)</li><li> Is default (msdyn_isdefault)</li><li> Language code (msdyn_customerlanguageid)</li><li> Language Code (msdyn_languagecode)</li><li> Localization (msdyn_oclocalizationdataid)</li><li> Localized text (msdyn_localizedtext)</li><li> Organization ID (organizationid)</li><li> Status (statecode)</li><li> Status Reason (statuscode)</li></ul>|
+  |3.|Message (msdyn_ocsystemmessage)|<ul> <li> Channel (msdyn_streamsource) </li><li> Default language (msdyn_defaultlanguage) </li><li> Instance ID (msdyn_instanceid) </li><li> Message (msdyn_ocsystemmessageid) </li><li> Message description (msdyn_messagedescription)</li><li> Message recipient (msdyn_messagereceiver) </li><li> Message template trigger (msdyn_messagetemplatetrigger)</li><li> Message Text (msdyn_messagetext) </li><li> Message trigger (msdyn_systemmessageeventtype) </li><li> Message type (msdyn_messagetype) </li><li> Name (msdyn_name) </li><li> Organization ID (organizationid) </li> <li> Status (statecode) </li><li> Status Reason (statuscode) </li></ul>|
+  |4.|Voice (msdyn_ocvoice)|<ul> <li> Language (msdyn_languageid) </li><li> Name (msdyn_name) </li><li> pitch (msdyn_pitch) </li><li> speaking speed (msdyn_speakingspeed) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> voice (msdyn_ocvoiceid) </li><li> voice name (msdyn_voicename) </li><li> voice style (msdyn_voicestyle) </li></ul>|
+  |5.|Voice Channel Language Setting (msdyn_ocvoicechannellanguagesetting) | <br> **Note:** <br> - Before migrating this table, please make sure Survey bot systemuser (msdyn_surveybotsystemuserid) exists in User (systemuser) table, and all music files referenced by Hold music (msdyn_holdmusicid) and Wait music (msdyn_waitmusicid) columns in each record already exist in the Phone Music (msdyn_ocphonemusic) table of destination environment. Unfortunately, Phone Music table has file columns and can’t be migrated. <br><ul> <li> Hold music (msdyn_holdmusicid) </li><li> Is Primary (msdyn_isprimary) </li><li> Language (msdyn_languageid) </li><li> Name (msdyn_name) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey bot systemuser (msdyn_surveybotsystemuserid) </li><li> Voice (msdyn_ocvoiceid) </li><li> Voice Channel Language Setting (msdyn_ocvoicechannellanguagesettingid) </li><li> voice channel setting (msdyn_ocvoicechannelsettingid) </li><li> voice channel setting (msdyn_ocvoicechannelsettingid) </li></ul>|
+  |6.|Provisioning State (msdyn_ocprovisioningstate) |[FetchXML to filter records for voice channel localizations](#BKMK3vc) <br><ul> <li> voicechannelsettingsid (msdyn_ocvoicechannelsettingsid) </li><li> Name (msdyn_name) </li></ul>|
 
-1. Generate the schema and save it.
+2. Generate the schema and save it.
+3. Export the data and generate the compressed (zip) file.
+4. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-2. Export the data and generate the compressed (zip) file.
+### FetchXML for voice channel settings<a name="BKMK1vc"></a>
 
-3. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+```XML
+<fetch>
+  <entity name="msdyn_ocvoicechannelsetting"> 
+    <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" /> 
+      </filter> 
+    </link-entity> 
+  </entity> 
+</fetch>  
+```
 
+### FetchXML for voice provisioning state<a name="BKMK2vc"></a>
 
+```XML
+<fetch>
+  <entity name="msdyn_ocprovisioningstate"> 
+    <link-entity name="msdyn_ocvoicechannelsetting" from="msdyn_ocvoicechannelsettingid" to="msdyn_voicechannelsettingid" link-type="inner" alias="ac"> 
+      <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ad"> 
+        <filter type="and"> 
+          <condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Voice Workstream 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312ABC}" /> 
+        </filter> 
+      </link-entity> 
+    </link-entity> 
+  </entity> 
+</fetch>
+```
+
+### FetchXML or voice channel localizations<a name="BKMK3vc"></a>
+
+```XML
+<fetch>
+  <entity name="msdyn_oclocalizationdata"> 
+    <link-entity name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ah"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_streamsource" operator="eq" uiname="192440000"/> 
+      </filter>
+    </link-entity> 
+  </entity> 
+</fetch>  
+```
 ## Verify your migration
 
 After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
