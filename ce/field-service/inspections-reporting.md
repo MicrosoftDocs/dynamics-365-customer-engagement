@@ -1,6 +1,6 @@
 ---
-title: "Run reports on inspection responses in Field Service in Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to run reports for inspection responses in Dynamics 365 Field Service
+title: Run reports on inspection responses
+description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
 ms.date: 08/22/2023
 ms.topic: article
 author: josephshum-msft
@@ -21,7 +21,7 @@ To enable response parsing, go to **Field Service app** > **Settings** > **Field
 
 Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, consider the following options:
 
-- **Daily**: Use this setting for inspection responses to be parsed into individual question responses once daily. Every day on the **Record generation start time**, out-of-box flows will be triggered to populate individual question responses into a Dataverse table.
+- **Daily**: Use this setting for inspection responses to be parsed into individual question responses once daily. Every day on the **Record generation start time**, out-of-box flows are triggered to populate individual question responses into a Dataverse table.
 - **Immediately**: Use this setting if you need question responses to be available in Dataverse as soon as an inspection is marked complete.
 - **Custom**: Define your own frequency by providing the number of days when parsing should be done. See the following screenshot for an example.
 
@@ -34,17 +34,17 @@ Now that analytics are configured, questions and responses are ready to be saved
 2. **Customer Voice survey response or msfp_surveyresponse**: a response to an inspection.
 3. **Customer Voice survey question response or msfp_questionresponse**: each individual response to each inspection question.
 
-Now we are ready to create and publish an inspection. See the following screenshot for an example.
+Now we're ready to create and publish an inspection. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
 > ![Sample inspection in Field Service.](./media/1-inspections-snapshot-1.jpg)
 
-After publishing an inspection, the questions are stored in Dataverse, and can be found in the **Customer Voice survey question** table in Power Apps. Here, you can see entries for each question on an inspection.
+Questions on inspections are stored in Dataverse, and can be found in the **Customer Voice survey question** table in Power Apps. Here, you can see entries for each question on an inspection.
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps, showing the Customer Voice survey question entity detail page.](./media/5-snapshot-after-publish-inspection.jpg)
 
-Before any inspection is completed, the **Customer Voice survey question response** table will be empty.
+Before any inspection is completed, the **Customer Voice survey question response** table is empty.
 
 > [!div class="mx-imgBorder"]
 > ![Customer Voice survey question responses in Power Apps.](./media/6-response-snapshot-before-completion.jpg)
@@ -54,14 +54,14 @@ Back on our sample inspection, we added some responses for the questions, as see
 > [!div class="mx-imgBorder"]
 > ![An inspection with questions answered.](./media/7-snapshot-after-response-1.jpg)
 
-Checking again in the **Customer Voice survey question response** table, you'll see the values to each submitted response from the inspection.
+Checking again in the **Customer Voice survey question response** table, you see the values to each submitted response from the inspection.
 
 > [!div class="mx-imgBorder"]
 > ![Power Apps, showing the inspection responses in the Customer Voice survey question response entity.](./media/9-CDS-data-upon-completion.jpg)
 
 ## Out-of-box flows
 
-All the logic described in the previous section is driven by Power Automate flows, and is shipped by default with the inspections capability.
+All the logic described in the previous section uses Power Automate flows, and comes with the inspections capability.
 
 The following flows are involved:
 
@@ -69,9 +69,9 @@ The following flows are involved:
 
 2. **Deserialization of Inspection Response – Recurrent Flow**: this flow triggers when frequency is set to **Daily** or **Custom** and updates the parsed inspection response JSON into ```msfp_surveyresponse``` and creates new records for responses and corresponding questions in the ```msfp_questionresponse``` table.
 
-3. **Deserialization of Inspection Response Flow**: this flow takes care of response parsing when frequency is set to **Immediately**. 
+3. **Deserialization of Inspection Response Flow**: this flow takes care of response parsing when frequency is set to **Immediately**.
 
-The status of the flows can be checked as shown in the following screenshot. 
+The status of the flows can be checked as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > ![Inspection deserialization flow in Power Automate.](./media/10-Flow-for-published-questions.jpg)
@@ -118,7 +118,7 @@ Search for "Dynamics 365" in **Connectors** and choose the trigger as **When a r
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of triggers in Power Automate.](./media/inspections-workflow-trigger.png)
  
-This flow will relate to the **Work Order Service Task** entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the **Entity Name**. 
+This flow relates to the **Work Order Service Task** entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the **Entity Name**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the flow for when a record is created or updated.](./media/inspections-workflow-step1.png)
@@ -178,16 +178,16 @@ In our example, we can enter:
 
 ```{"Followup":"Yes"}```
 
-"Followup" comes from the inspection question's name value, as seen in the following screenshot:
+"Follow-up" comes from the inspection question's name value, as seen in the following screenshot:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an inspection in Field Service, showing the name field.](./media/inspections-workflow-schema-name.png)
 
 ### Condition-based action
 
-Next we'll add a condition and action based on the response to the inspection question.
+Next we add a condition and action based on the response to the inspection question.
 
-In this example, we'll create a **Work Order Service Task** with another **Service Task Type** in the same work order when the "Followup" inspection question has "Yes" as the answer.
+In this example, we create a **Work Order Service Task** with another **Service Task Type** in the same work order when the "Follow-up" inspection question has "Yes" as the answer.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Automate flow, showing a condition step where the followup field is equal to yes.](./media/inspections-workflow-if-condition-yes.png)
