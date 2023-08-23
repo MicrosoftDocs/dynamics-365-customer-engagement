@@ -336,6 +336,8 @@
     items: 
     - name: Automatically create or update records
       href: automatically-create-update-records.md
+    - name: Manage activity monitor to review and track rules
+      href: manage-activity-arc.md     
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
