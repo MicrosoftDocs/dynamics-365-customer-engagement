@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
-ms.date: 07/25/2023
+ms.date: 08/23/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,10 +33,11 @@ As an administrator, you must configure Microsoft Teams dialer to enable sellers
 
 Ensure that you meet the following requirements before you configure Microsoft Teams dialer in the Sales Hub app:
 
-- A license for using Microsoft Teams. Any Microsoft Teams license works. [Learn more about Microsoft Teams add-on licenses.](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
-- An installed phone system and a valid license to use it. [Learn more about how to set up a phone system.](/MicrosoftTeams/setting-up-your-phone-system)
-- A valid public switched telephone network (PSTN) connection through a Teams calling plan, your own PSTN carrier, or direct routing. [Learn more about PSTN connectivity options.](/microsoftteams/pstn-connectivity?source=recommendations)
-- An assigned phone number. [Learn more about how to manage telephone numbers for your organization.](/microsoftteams/manage-phone-numbers-landing-page)
+- A license for using Microsoft Teams. Any Microsoft Teams license works. [Learn more about Microsoft Teams add-on licenses.](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)  
+
+- An installed phone system and a valid license to use it. [Learn more about how to set up a phone system.](/MicrosoftTeams/setting-up-your-phone-system)  
+- A valid public switched telephone network (PSTN) connection through a Teams calling plan, your own PSTN carrier, or direct routing. [Learn more about PSTN connectivity options.](/microsoftteams/pstn-connectivity?source=recommendations)  
+- An assigned phone number. [Learn more about how to manage telephone numbers for your organization.](/microsoftteams/manage-phone-numbers-landing-page)  
 
 Additionally, you must grant the following permissions to your users:
 

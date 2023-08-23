@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive Teams calls in Dynamics 365 through the dialer, or from a record or a work item.
-ms.date: 07/25/2023
+ms.date: 08/23/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -106,7 +106,7 @@ If you've missed answering a call, a notification is displayed in the in-app not
 > [!NOTE]
 > Your administrator must have enabled and set up the in-app notifications for you to view the missed calls.
 
-To view the missed call notification, select the bell icon in the upper-right corner of the page.
+To view the missed call notification, select the Notifications icon (bell icon) in the upper-right corner of the page.
 
 ## Transfer a Teams call (preview)
 
