@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 21/08/2023
+ms.date: 08/24/2023
 ms.topic: conceptual
 ms.reviewer: shujoshi
 ms.custom: bap-template
@@ -141,7 +141,7 @@ To understand the pricing calculation of various call scenarios, see [Pricing sc
 
 ### Why do I hear "Sorry! We couldn't serve you" message when called to voice channel?
 
-Once the call is initiated, you might hear this message when the voice channel is unable to add or connect your call to agent due to failure of internal resources. It might also happen when the voice channel fails to add Power Virtual Agents bot.
+A customer might hear this message when the voice channel is unable to add a Power Virtual Agents bot to a call or connect a call to an agent.
 
 ### See also
 
