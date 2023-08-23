@@ -14,8 +14,8 @@ The **Up next** widget displays activities that you can view and perform actions
 ## License and role requirements
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Any primary sales role, such as salesperson or sales manager.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## What is the Up next widget?
 
