@@ -119,6 +119,7 @@ Before adding and scheduling forecast periods, review the following pointers:
 - You can add up to 17 periods to a forecast configuration.
 - You can add new periods to a forecast configuration at any time. If the forecast is already activated, you need to reactivate the forecast for the new periods to take effect.  
 - You can't edit a forecast period after it's added. You can only delete the period and add a new one.
+- You can rearrange the periods by dragging and dropping them in the table. The periods will appear in the same order when you [view the forecast](view-forecasts.md).
 
 ### Scheduling options
 

@@ -1,12 +1,13 @@
 ---
-title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
-description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 03/29/2023
-ms.topic: article
+title: View a forecast 
+description: See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
+ms.date: 08/23/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
+  - bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
@@ -18,13 +19,14 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# View a forecast 
+# View a forecast
 
 Forecasts help you to see the health of your pipeline or to see how your sales team is doing against their quota or target.
 > [!NOTE]
 > The forecasting feature is not supported on mobile devices.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -33,7 +35,7 @@ Forecasts help you to see the health of your pipeline or to see how your sales t
 
 ## Open and view a forecast
 
-Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
+Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or annual). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
 **To view a forecast**
 
@@ -46,7 +48,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
     > [!div class="mx-imgBorder"]
     > ![Icon to change area in the site map.](media/site-map-area.png "Icon to change an area of the site map")
 
-3. Under **Performance**, select **Forecasts**. 
+3. Under **Performance**, select **Forecasts**.
     
 4.	On the grid page, do the following:
     -	Select a forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
@@ -56,7 +58,10 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
     > [!div class="mx-imgBorder"]
     > ![Forecasts view page.](media/forecast-view-page.png "Forecasts view page")
  
-5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
+5. Verify the **Last updated** time stamp to see when the forecast was last recalculated successfully. If you've made changes to the underlying data since the last recalculation, select **Recalculate data** to manually recalculate the forecast and refresh the page. For more information, see [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).  
+    :::image type="content" source="media/forecast-select-recalculate.png" alt-text="Screenshot of the Recalculate data option in the forecast.":::
+
+    The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
     > [!NOTE]
     > The values displayed in the grid are based on the fields configured in your forecast. If these values don't match the values you expected, verify the [fields used for aggregation](choose-layout-and-columns-forecast.md#configure-columns).

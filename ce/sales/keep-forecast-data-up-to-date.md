@@ -17,54 +17,44 @@ searchScope:
 ---
 # Maintain up-to-date forecast data 
 
-Forecast data is automatically recalculated at scheduled intervals to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
+Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
-## When is the forecast data updated?
- 
-Forecast data is automatically recalculated at regular intervals. If you're actively interacting with the forecast, a recalculation is triggered when the data is found to be more than 10 minutes old. After the recalculation, you'll be prompted to refresh the forecast grid to show the latest data.
+## Recalculate and refresh forecast data manually
 
-If you're not actively interacting with the forecast, the data is recalculated every hour. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully.
+Forecast data is automatically recalculated after every 24 hours. The **Last updated** label on the command bar shows the time when the forecast was last recalculated successfully.
 
-## Trigger manual recalculation
+If you know that the underlying data has changed, you can trigger a manual recalculation.
 
-If you know that the underlying data has changed, you can select **Recalculate** to manually recalculate, and then refresh to view the updated values. When you recalculate: 
+1. [Open the forecast](view-forecasts.md).
 
--	The aggregation and roll-ups for the underlying data are recalculated.
+1. Select **Recalculate data**.
+    :::image type="content" source="media/forecast-select-recalculate.png" alt-text="Screenshot of the Recalculate data option in the forecast.":::
 
--	Any target or quota changes are checked and updated.
-
--	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
-
--	Only the current forecast period is recalculated.
-- No changes are made to the forecast values that were manually adjusted.
-- No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
-
-**To recalculate and refresh forecast data manually**
-
-1. Select **Recalculate** on the command bar.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select Recalculate.](media/forecast-select-recalculate.png "Select Recalculate")
-    
     A notification appears at the top of the screen, confirming the recalculation. Recalculation happens in the background, and you can continue to work while recalculation is in progress.
 
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**.
+2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. You'll notice the following updates to the forecast:
 
-    > [!NOTE]
-    > You can cancel the notification and refresh the data later. Select **Update page** on the command bar.
-
-After recalculation, the data in the forecast reflects the latest opportunity and hierarchical changes.
-
+    -	The aggregation and roll-ups for the underlying data are recalculated.
+    
+    -	Any target or quota changes are checked and updated.
+    
+    -	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
+    
+    -	Only the current forecast period is recalculated.
+    - No changes are made to the forecast values that were manually adjusted.
+    - No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
+    
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
