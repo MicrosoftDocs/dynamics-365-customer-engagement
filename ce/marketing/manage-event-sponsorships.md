@@ -16,6 +16,8 @@ search.audienceType:
 
 # Manage event sponsorships
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 *Sponsors* are people or organizations who contribute funds, equipment, or services in return for having their logos and messages placed in your event materials (including the event website) or at the event itself.
 
 [Open the Events work area](open-events.md) and go to **Events** > **Sponsorship Management** > **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in Dynamics 365 Marketing. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.

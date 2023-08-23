@@ -1,7 +1,7 @@
 ---
 title: Set up bookable resources (contains video)
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.date: 01/27/2022
+ms.date: 07/18/2023
 
 ms.topic: article
 author: ryanchen8
@@ -88,7 +88,7 @@ After selecting a resource type, a lookup field will appear prompting you to cho
 13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
 
 > [!NOTE]
-> Drip scheduling is currently only supported with the legacy Field Service Mobile app. Support for the Field Service (Dynamics 365) mobile app is coming soon.
+> The Field Service (Dynamics 365) mobile app currently doesn't support drip scheduling.
 
 **Save** the record.  
   
@@ -101,13 +101,6 @@ After saving the bookable resource, it's time to set the working hours of the re
 - Resource Scheduling Optimization, which automatically books requirements to resources that are working. 
 
 Let's walk through how to set up working hours.
-
-In the web interface (Field Service v7.x or earlier), select the arrow next to the resource name, and choose **Work Hours**.
-
-In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
-
- > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours tab on a bookable resource.](./media/resource-work-hours-new-navigate.png "Screenshot of work hours tab on a bookable resource.")
 
 In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
@@ -151,20 +144,9 @@ You can add breaks or split a resource's work hours into different capacities fo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png "Screenshot of custom work hours on a bookable resource with different capacity on a day.")
 
-In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
-  
-  - **New Weekly Schedule**: Set an ongoing weekly schedule for the resource.  
-  
-  - **Work Schedule for One Day**: Set the hours the resource can be scheduled for on a particular day.  
-  
-  - **Time Off**: Set the dates and times the resources can't work. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of setting working hours and time zone.](media/resource-working-hours-timezone.png "Screenshot of setting working hours and time zone.")
- 
-
 In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
+For more information on editing work hour calendars, see [editing work hours](field-service-work-hours-calendar-api.md)
 
 ## Add characteristics, territories, and categories 
 

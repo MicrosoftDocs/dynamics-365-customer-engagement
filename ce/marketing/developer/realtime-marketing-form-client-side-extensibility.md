@@ -13,6 +13,8 @@ search.audienceType:
 
 # Extend real-time marketing forms using code
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 This article explains how to extend real-time marketing forms for advanced customization.
 
 ## JavaScript API

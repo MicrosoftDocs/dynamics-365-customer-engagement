@@ -2,12 +2,13 @@
 title: How are prices calculated for product bundles?
 description: Calculate prices for bundled products with optional items in the Sales app.
 ms.date: 02/28/2023
-ms.topic: get-started-article
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
-  - ai-gen-docs
+  - ai-gen-docs-bap
   - ai-gen-desc
+  - bap-template
 ---
 # How are prices calculated for product bundles?
 

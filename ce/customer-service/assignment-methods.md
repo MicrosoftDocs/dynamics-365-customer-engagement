@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 07/07/2023
+ms.date: 07/24/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -34,6 +34,11 @@ For digital messaging and voice, the default block size is 100 work items of top
 
 For records channel, each assignment cycle prioritizes up to 2000 work items and processes them in a block size of 500.
 
+> [!NOTE]
+> Queue prioritization isn't available in unified routing.
+
+For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
+
 ## Types of assignment methods
 
 The following assignment methods are available out of the box:
@@ -50,7 +55,7 @@ The following assignment methods are available out of the box:
 
 - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
 
-  The assignment method uses the time since last capacity is released to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses the time since last capacity is released for a voice call to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
 
   Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This strategy provides higher agent satisfaction and improved customer satisfaction.
 

@@ -1,17 +1,13 @@
 ---
 title: "Edit work hour calendars by using APIs in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to edit work order calendars in Field Service by using APIs. 
-ms.date: 10/11/2021
-
+ms.date: 07/26/2023
 ms.topic: article
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: ryanchen8
 ms.author: chenryan
 ---
 
-# Edit work hour calendars by using APIs 
+# Edit work hour calendars by using APIs
 
 Organizations often need to programmatically create, edit, or delete work hours on the calendars of their resources. Calendars show working hours, time off, and breaks that determine the availability of a resource when work is being scheduled. Those resources must be scheduled in specific time zones, might or might not observe business closures, and can have variable capacity. For information about defining work hours in the Field Service app, go to [Add work hours to a bookable resource](/dynamics365/field-service/set-up-bookable-resources#add-work-hours).
 
@@ -19,8 +15,9 @@ In addition to using the Field Service app, you can use the following APIs to mo
 
 - The Save Calendar API (`msdyn_SaveCalendar`) creates or updates calendar records on a selected entity, based on the inputs passed as the request.
 - The Delete Calendar API (`msdyn_DeleteCalendar`) deletes all [inner calendar rules](/dynamics365/customerengagement/on-premises/developer/calendar-entities) of a calendar on a selected entity, based on the inputs passed as the request.
+- The Save/Delete Calendar API V2 (msdyn_SaveCalendar/msdyn_DeleteCalendar, pass flag UseV2) allows multiple work hour recurrences simultaneously by altering the logic for overlapping rules. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).
 
-This topic contains details about each API's input (request) and output (response), and their usage, with examples.
+This article contains details about each API's input (request) and output (response), and their usage, with examples.
 
 ## Prerequisites
 
@@ -33,7 +30,7 @@ This topic contains details about each API's input (request) and output (respons
 
 ## Calendar event types
 
-When you create a calendar, you define how many times a [work hour type](#work-hour-types) will occur&mdash;once, all day, every week, or every day, or you can create a custom recurrence. For more information about these calendar events, go to the [examples later in this topic](#example-scenarios-for-api-usage).
+When you create a calendar, you define how many times a [work hour type](#work-hour-types) occurs&mdash;once, all day, every week, or every day, or you can create a custom recurrence. For more information about these calendar events, go to the [examples later in this article](#example-scenarios-for-api-usage).
 
 ### Occurrence
 
@@ -70,7 +67,7 @@ For example, a resource works from 5:00 AM to 10:00 AM every Monday, and 12:00 P
 These APIs support create, update, and delete operations for the following work hour types:
 
 - [Working hours](#working-hours)
-- [Non-working hours](#non-working-hour)
+- [Nonworking hours](#nonworking-hour)
 - [Breaks](#break)
 - [Time off](#time-off)
 - [Business closure](#business-closure)
@@ -98,19 +95,19 @@ Using this API, you can't do the following:
 - Create an occurrence that spans 24 hours but doesn't start and end at midnight (12:00 AM).
 - Create, edit, or delete an all-day recurrence.
 
-### Non-working hour
+### Nonworking hour
 
 These are times during which the entity is unavailable to work due to an unspecified reason.
 
 Using these APIs, you can do the following:
 
--	Create or edit all-day non-working hours.
--	Create or edit a non-working hour occurrence.
+-	Create or edit all-day nonworking hours.
+-	Create or edit a nonworking hour occurrence.
 -	Change the time zone of the calendar rule.
 
 Using these APIs, you can't do the following:
 
-- Create or edit a non-working hour recurrence.
+- Create or edit a nonworking hour recurrence.
 
 ### Break
 
@@ -140,7 +137,7 @@ Using these APIs, you can't do the following:
 
 ### Business closure
 
-You can [create business closure entities](/dynamics365/customer-service/set-when-business-closed-csh) that define the times the business will be closed. Using the `msdyn_SaveCalendar` API, you can set every entity to observe or ignore the organization's business closure times by using the optional [**ObserveClosure**](#calendareventinfo) key. When they're set to observe these closures, the entities will be unavailable for work.
+You can [create business closure entities](/dynamics365/customer-service/set-when-business-closed-csh) that define the times the business is closed. Using the `msdyn_SaveCalendar` API, you can set every entity to observe or ignore the organization's business closure times by using the optional [**ObserveClosure**](#calendareventinfo) key. When they're set to observe these closures, the entities are unavailable for work.
 
 ## Save Calendar API
 
@@ -160,12 +157,13 @@ The request contains only one attribute&mdash;**CalendarEventInfo**, which is a 
 |RulesAndRecurrences	| RulesAndRecurrences	| Yes | This key is an array, and each element contains multiple attributes as listed in the table in the following section. The size of the array should be at least one.  |
 | IsVaried	|Boolean	|No|	This key should be set to `true` for custom recurrence scenarios.|
 |IsEdit|	Boolean|	No|	This key should be set to `true` for editing existing rules.|
-| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. For the mapping, go to [Time zone codes](#time-zone-codes), later in this topic. The default value is the user's time zone.
+| TimeZoneCode|	Integer|	No|	This key takes an integer value corresponding to the time zone for the calendar rules. For the mapping, go to [Time zone codes](#time-zone-codes), later in this article. The default value is the user's time zone.
 | InnerCalendarDescription|	String|	No|	This key is only needed if the calendar rule is for time off. It should contain the reason for the time off.| 
-| ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it's set to `true`, the entity will observe business closure.|
-|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or earlier, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as-is. The default value for occurrences is null. The default value for recurrences is 30 Dec 9999, 23:59:59 hours, UTC<!--note from editor: Shouldn't this be in ISO 8601 format?-->.|
+| ObserveClosure|	Boolean|	No|	This key is specific to recurrences. If it's set to `true`, the entity observes business closure.|
+|RecurrenceEndDate|	DateTime|	No|	This key is specific to recurrences. It contains the end date for the recurrence. If the timestamp is 08:00:00 or earlier, the recurrence end date is one day before the specified date. If the timestamp is 08:00:01 or later, the date is respected as-is. The default value for occurrences is null. The default value for recurrences is 30 Dec 9999, 23:59:59 hours, UTC.|
 |RecurrenceSplit|	Boolean|	No|	This key is specific to recurrences. It's set to `true` for editing "This and following occurrences" of a recurrence.|
-|ResourceId	| GUID |	No|	This key contains the **SystemUserId** or **ResourceId** and is only to be passed when the entity associated with this call is a bookable resource of type **SystemUser**. This is necessary to check for OwnCalendar privileges on the **Service Management** tab.
+|ResourceId	| GUID |	No|	This key contains the **SystemUserId** or **ResourceId** and is only to be passed when the entity associated with this call is a bookable resource of type **SystemUser**. This is necessary to check for OwnCalendar privileges on the **Service Management** tab.|
+|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
 #### RulesAndRecurrences
 
@@ -182,7 +180,7 @@ The request contains only one attribute&mdash;**CalendarEventInfo**, which is a 
 | :-------- | :--------- | :--------- | :------ |
 |StartTime|	DateTime|	Yes|	This key contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the start time of the work hour in the time zone specified earlier. The date portion determines the start date of the work hour. Here, May 15, 2021 is the date of the occurrence or the starting date of the recurrence. If the pattern was `BYDAY=TU,WE`, but May 15 (a Saturday) is the date, the API will automatically create or edit rules for all Tuesdays and Wednesdays following May 15. This is case where the rule doesn't have to have the date corresponding to the day. | 
 |EndTime|	DateTime|	Yes|	This contains a datetime entry in [ISO format](https://en.wikipedia.org/wiki/ISO_8601). For example, `\"2021-05-15T12:00:00.000Z\"`. The time portion determines the end time of the work hour in the time zone specified earlier. The date portion *must* contain the same date as the date portion of the **StartTime**. The only exceptions are:<ul><li>If it's an all-day occurrence. In this case, the date portion should reflect the end date of the all-day occurrence.</li><li>The occurrence ends at the end of the day, that is, 12:00 AM of the following day. In this case, the date should be `\"2021-05-16T00:00:00.000Z\"`. To specify the end date of the recurrence, modify the **RecurrenceEndDate** attribute.</li></ul> |
-|WorkHourType	|Integer|	Yes	|This key contains a number corresponding to one of the following options:<ul><li>(0) Working</li><li>(1) Break</li><li>(2) Non-working</li><li>(3) Time Off</li></ul>|
+|WorkHourType	|Integer|	Yes	|This key contains a number corresponding to one of the following options:<ul><li>(0) Working</li><li>(1) Break</li><li>(2) Nonworking</li><li>(3) Time Off</li></ul>|
 | Effort |	Integer	| No |	This key determines the capacity of the entity. It must be a whole number. The default value is 1. |
 
 ### Output
@@ -203,6 +201,7 @@ This POST API creates or modifies calendar rule records for the selected entity.
 |InnerCalendarId|	GUID|	Yes|	This field describes the ID of the **InnerCalendarId** that needs to be deleted. If there are multiple **InnerCalendarIds** associated with a single rule, any one ID is sufficient here. More information about inner and outer calendars: [Calendar entities](/dynamics365/customerengagement/on-premises/developer/calendar-entities) |
 |CalendarId	|GUID	|Yes|	This field describes the **CalendarId** of the entity. |
 |IsVaried	|Boolean	|No	|This field is specific to recurrences, and is set to `yes` if a custom recurrence rule is being deleted. |
+|UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
 ### Output
 
@@ -527,11 +526,11 @@ Tim has a 72-hour shift starting May 20, 2021. Debbie uses the `msdyn_SaveCalend
 
 ## FAQs
 
-**I'm getting the error, "StartTime cannot be greater or equal to EndTime."**
+### I'm getting the error, "StartTime can't be greater or equal to EndTime."
 
 Make sure there are no overlaps in the time slots of the different calendar rules. Check the dates to make sure **StartTime** isn't later than **EndTime**. Also, verify that the times follow the 24-hour format. 
 
-**Can the APIs be used to update the "Work Hour Templates" entity?**
+### Can the APIs be used to update the "Work Hour Templates" entity?
 
 Yes, you can use this API to create and update work hour templates in addition to resource work hours.
 
@@ -540,11 +539,12 @@ or<br>**Expecting state 'Element'.. Encountered 'Text' with name '', namespace '
 
 Make sure that the string is parsed correctly. There might be missing brackets, commas, or semicolons.
 
-**I'm getting the error, "Invalid recurrence pattern. Please refer to the documentation for supported patterns."**
+### I'm getting the error, "Invalid recurrence pattern. Refer to the documentation for supported patterns."
 
 We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE,TH,FR,SA`. `BYDAY` can be changed to include fewer days; however, `FREQ` and `INTERVAL` can't be changed. Make sure there are no spaces in the pattern.
 
-**How do we get information of the CalendarId and the InnerCalendarId of the resource?**
+### How do we get information of the CalendarId and the InnerCalendarId of the resource?
+
 The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. 
 
 An example of the previous call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
@@ -553,18 +553,87 @@ The `InnerCalendarId` can be retrieved from calendar attributes. Make this call 
 
 An example of the previous call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
 
-**What happens if there are overlapping rules?** 
+### What happens if there are overlapping rules?
 
 There are a couple different ranks that rules fall under: 
 
 - *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
 - *Rank 0* - weekly recurrence (working/non-working). 
  
-**_It's best to avoid overlapping rules or multiple rules of the same type on the same calendar day, and instead edit existing rules to make changes._** 
+#### V2 overlapping rules (preview)
 
-But if they do exist, this is how it will be handled: 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-- The Rank 1 rules have a higher priority than Rank 0 rules. So if there were two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence will take the priority over the weekly recurrence. 
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+- The Rank 1 rules have a higher priority than Rank 0 rules. if there are two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence take the priority over the weekly recurrence.
+- When there are multiple Rank 0 rules within the same date span:
+  - If the times don't intersect, they'll both remain on the calendar.
+  - If the times intersect, the rule that was most recently created/modified is the one that is considered for the resource’s calendar. All other intersecting rules in the date span are removed. If some rank 0 rules have intersections on some dates but not on others, the rule gets spliced to retain the non-intersecting sections, while the intersecting portions are removed.
+
+Examples of V2 calendar behavior:
+
+##### Example 1 - Repeating work hours: Overlapping dates with no overlapping days/times
+
+For a given date span, a technician works morning, afternoon, or night shifts across different days.
+
+1. Create a first repeating calendar rule for a given date range. For example: *Repeat Mon, Tue; 1.1-4.1; 8am-5pm ET*.
+
+2. Create a second repeating calendar rule for an intersecting date range, while ensuring that the work hours don't intersect with the previous days or times. For example: *Repeat Wed, Thu; 1.1-4.1; 8am-5pm ET* or *Repeat Mon, Tue; 1.1-4.1; 5pm-8pm ET*.
+
+Result: Both calendar rules remain and coexist alongside each other.
+
+##### Example 2 - Repeating Work Hours: Some overlapping dates, with all overlapping days and second rule starts/ends before or after the first rule
+
+A technician gets a new work schedule, which replaces some weeks of their old schedule. By contract they always works the same days every week.
+
+1. Create a first repeating calendar rule for a given date range. For example: *Repeat Mon, Tue; 2.1-4.1; 8am-5pm ET*.
+
+2. Create a second repeating calendar rule for an overlapping date range, where all days have overlapping work hours. Choose start/end dates for this new rule that are before or after the start/end date for the fist rule. For example: *Repeat Mon, Tue; 3.1-5.1; 1pm-8pm ET*.
+
+Result: The first rule gets truncated to accommodate the start/end date of the second rule. For example: *Repeat Mon, Tue; 2.1-2.28; 8am-5pm ET* AND *Repeat Mon, Tue; 3.1-5.1; 1pm-8pm ET*.
+
+##### Example 3 - Repeating Work Hours: All overlapping dates, with some overlapping days/times
+
+The technician is a contract worker for a fixed 2-month period. They have agreed to take on additional work on some days. They want to shift the Tuesday work hours to an earlier/later time.
+
+1. Create some repeating calendar rules for a given date range. For example: *Repeat Mon, Tue; 2.1-4.1; 8am-12pm ET* AND *Repeat Tue, Wed; 2.1-4.1, 1pm-5pm ET*.
+
+2. Create a new repeating calendar rule for the same date range. Choose days/times that partially overlap with the original rules. For example: *Repeat Tue,Thurs ; 2.1-4.1; 10am-2pm ET*.
+
+Result: The new rule overwrites the old where there are overlaps, and leaves the others unchanged. For example: *Repeat Mon; 2.1-4.1; 8am-12pm ET* AND *Repeat Wed; 2.1-4.1; 1pm-5pm ET* AND *Repeat Tue,Thurs ; 2.1-4.1; 10am-2pm ET*.
+
+##### Example 4 - Repeating Work Hours: New rule dates contained within old rule, some overlapping days/times
+
+A technician works 8am-5pm, Mon-Fri every week. Just for two weeks, they'll be handling a special emergency project every Mon-Wed with different work hours 6am-6pm.
+
+1. Create a first repeating calendar rule for a given date range. For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1-No End Date; 8am-5pm ET*.
+
+2. Create a second repeating calendar rule contained within the above date range, choose work hours that overlap on some days. For example: *Repeat Mon,Tue,Wed; 5.1-5.14; 6am-6pm ET*.
+
+Result: The calendar should have four repeating rules by the end of this exercise:
+
+- truncate the first rule to the start date of the second rule
+- the second calendar rule
+- create a new rule similar to the first rule but with the dates of the second rule for the non-overlapping days
+- truncate the first rule to start from the end date of the second rule, with no end date
+
+For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1–4.30; 8am-5pm ET* AND *Repeat Mon,Tue,Wed; 5.1-5.14; 6am-6pm ET* AND *Repeat Thu,Fri, 5.1-5.14; 8am-5pm ET* AND *Repeat Mon,Tue,Wed,Thu,Fri; 5.15–No End Date; 8am-5pm ET*
+
+##### Example 5 - Non-repeating work hours (occurrence, rank 1 rule)
+
+A technician has a number of team cohesion days, which take precedence over all other work hour instances for the day.
+
+1. Create a repeating calendar rule for a given date range. For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1-No End Date; 8am-5pm ET*.
+
+2. Create a non-repeating calendar rule contained within the above date range. Choose work hours that overlap on some days. For example: *Non-repeat; 6.21; 7am-1pm ET*.
+
+Result: The calendar should have 1 non-repeating rule (occurrence) by the end of the exercise. The non-repeating rule overrides the overlapping repeat event for the entire day.
+For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1-No End Date* except *6.21; non-repeat; 6.21; 7am-1pm ET*.
+
+#### V1 overlapping rules
+
+- The Rank 1 rules have a higher priority than Rank 0 rules. So if there were two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence take the priority over the weekly recurrence. 
 - If there are two rules of the same rank, the rule that was most recently created/ modified will be the one that is considered for the resource's calendar. 
 - Keep in mind that all-day occurrences are of Rank 1, so you may want to consider changing it to a weekly recurrence in order to be able to add occurrence work hours and have them be respected. 
 - When a working hour exists and a time off occurrence is created overlapping it, the rules split in a way that ensures the time off is respected, and any remaining time as working hours will stay as is. For example, if there are working hours from 8 AM to 5 PM on September 21, and a time-off occurrence is added from 3 PM to 7 PM on September 21, this would be resolved as working hours as 8 PM to 3 PM and time off from 3 PM to 7 PM. However, if the rules were created in the opposite order (time off created first and then working hours were created) regardless of the timeslots, only the working hour would be reselected. The time off would be overridden. 

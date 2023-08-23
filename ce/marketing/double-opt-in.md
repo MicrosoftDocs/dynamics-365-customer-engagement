@@ -17,6 +17,8 @@ search.audienceType:
 
 # Set up global double opt-in for new subscriptions and consent changes
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The _global double opt-in_ process (also known as _confirmed opt-in_) asks contacts who sign up for a new subscription list, or who choose to increase their level of [data protection consent](privacy.md), to confirm their request by clicking on a link sent to their registered email address. This system helps make sure that the request is intentional, and that the supplied email address is legitimate and functional.
 
 The global double opt-in process works as follows:

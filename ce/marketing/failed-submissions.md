@@ -16,6 +16,8 @@ search.audienceType:
 
 # Edit and resubmit form submissions
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Marketing forms must be designed to submit values for all mandatory fields and fields used in contact matching, lead matching, and duplicate detection. For option-set fields, forms must also provide valid index values that map correctly to available values in the database.
 
 Every now and then, errors in form design or changes to system settings can cause form submissions to fail. When a submission fails, the system will store what it can of the erroneous submission so you can examine it later and possibly recover key information from it. This information can also help you learn how to correct your form designs and/or system settings to prevent failed submissions in the future.

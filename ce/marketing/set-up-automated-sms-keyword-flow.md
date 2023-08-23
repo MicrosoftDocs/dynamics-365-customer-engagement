@@ -15,6 +15,8 @@ search.audienceType:
 
 # Set up an automated text message keyword flow
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Text messages allow you to quickly communicate with your customers. But to continue the conversation effectively, you need to be able to act on customer responses. Keyword flows allow you to branch journeys based on customer replies to text messages.
 
 ## Add SMS keywords to text messages

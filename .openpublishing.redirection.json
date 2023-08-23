@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/mobile-public-preview-overview.md",
+      "redirect_url": "/dynamics365/field-service/mobile-powerapp-newux-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/user-guide.md",
       "redirect_url": "/dynamics365/field-service/",
       "redirect_document_id": "false"
@@ -38,6 +43,11 @@
     {
       "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
       "redirect_url": "connect-gmail-oauth2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/use-copilot-email.md",
+      "redirect_url": "/dynamics365/sales/use-sales-copilot",
       "redirect_document_id": "false"
     },
     {
@@ -630,6 +640,17 @@
     {
       "source_path": "ce/unified-service-desk/oc-usd/conversation-state.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-state",
+      "redirect_document_id": "false"
+    },
+
+    {
+      "source_path": "ce/unified-service-desk/admin/comply-gdpr.md",
+      "redirect_url": "/dynamics365/unified-service-desk/admin/comply-privacy-laws-regs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/comply-unified-service-desk-data-gdpr.md",
+      "redirect_url": "/dynamics365/unified-service-desk/admin/comply-unified-service-desk-data-privacy-laws",
       "redirect_document_id": "false"
     },
     {
@@ -4046,11 +4067,6 @@
     {
       "source_path": "ce/live-assist/index.md",
       "redirect_url": "/dynamics365/customer-engagement/live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/marketing/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/marketing/help-hub",
       "redirect_document_id": "false"
     },
     {
@@ -25309,6 +25325,36 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/troubleshoot-case-email-issue.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-sla-issues.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/welcome-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-delete-managed-solution.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/service-level-agreements/unable-delete-sla-enabled-entity-managed-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-omnichannel-customer-service.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/welcome-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/troubleshoot-using-solution-health-hub.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/customer-service-insights/troubleshoot-cs-oc-solution-health",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/int-search-troubleshoot.md",
+      "redirect_url": "/troubleshoot/dynamics-365/customer-service/knowledge-management/data-not-updated-integrated-search-providers",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-compliance-settings-preview.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-compliance-settings",
       "redirect_document_id": "false"
@@ -25341,6 +25387,31 @@
     {
       "source_path": "ce/marketing/teams-webinar-follow-up.md",
       "redirect_url": "/dynamics365/marketing/teams-webinar",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/search-control-for-subjects.md",
+      "redirect_url": "/dynamics365/customer-service/create-manage-subject-tree",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-install.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/help-hub.yml",
+      "redirect_url": "/dynamics365/marketing/index",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-experimentation.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-ab-tests-in-marketing-journeys",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/purchase-setup.md",
+      "redirect_url": "/dynamics365/marketing/purchase",
       "redirect_document_id": "false"
     }
   ]

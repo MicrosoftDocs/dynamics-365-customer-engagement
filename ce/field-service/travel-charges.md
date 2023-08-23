@@ -14,7 +14,7 @@ Use travel charges to bill customers for the cost of traveling to the worksite.
 
 Field Service adds a travel charge item as a work order product if a [service account](accounts.md), *not* a billing account, has a travel charge type set. It's added after the work order is scheduled and when the status of the generated booking changes.
 
-The *unit amount* of the **Travel Charge Item** work order product is the value of the **Travel Charge** that's set for the service account. The *unit amount price* of the travel charge item is dictated by the price list, list price, and travel charge. However, the *quantity* of the **Travel Charge Item** work order product is based on the **Travel Charge Type** set for the service account.<!-- EDITOR'S NOTE: This is hard to follow. Can you provide an example and a screenshot? -->
+The *unit amount* of the **Travel Charge Item** work order product is the value of the **Travel Charge** that's set for the service account. The *unit amount price* of the travel charge item is dictated by the price list, list price, and travel charge. However, the *quantity* of the **Travel Charge Item** work order product is based on the **Travel Charge Type** set for the service account.
 
 In cases of multiple bookings for a single work order, multiple travel charge items will be added as work order products.
 

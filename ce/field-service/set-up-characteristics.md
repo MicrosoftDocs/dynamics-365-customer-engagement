@@ -1,13 +1,14 @@
 ---
-title: Specify skills for resources
-description: Learn how to set up characteristics in Dynamics 365 Field Service
-ms.date: 09/26/2022
-ms.topic: article
+title: Specify characteristics for resources
+description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
+ms.date: 06/23/2023
+ms.topic: how-to
+ms.custom: bap-template
 author: ryanchen8
 ms.author: chenryan
 ---
 
-# Specify skills for resources
+# Specify characteristics for resources
 
 Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
@@ -60,7 +61,25 @@ You can define rating values in a proficiency model that's used to indicate the 
   
 1. Find and select the required **Characteristics** and add a **Rating Value** for the resource.  
   
-1. Select **Save & Close**.  
+1. Select **Save & Close**.
+
+## Enhanced characteristics (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+Add more details to a resource's characteristics. That's especially useful if you want to document when a certification was issued or when it expires.
+
+Before users can specify enhanced characteristics, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
+
+1. In Field Service, change to the **Settings** area.
+1. Under **General**, select **Field Service Settings**.
+1. On the **Features** tab, set **Enhanced characteristics** to **On**.
+
+With enhanced characteristics enabled, you can append some more information to *Bookable Resource Characteristic* records.
+
+A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date** and a **Description** of a characteristic that related to a specific resource.
   
 ## Assign characteristics to work orders  
   
@@ -73,5 +92,7 @@ You can define rating values in a proficiency model that's used to indicate the 
 1. Choose the **Characteristics**, an optional **Rating Value** and the related **Resource Requirement**.
   
 1. Select **Save & Close**.
+
+
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

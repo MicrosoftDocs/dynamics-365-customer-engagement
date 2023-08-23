@@ -15,6 +15,8 @@ search.audienceType:
 
 # Troubleshoot pages and forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## Forms
 
 ### Form capturing isn't creating leads or contacts

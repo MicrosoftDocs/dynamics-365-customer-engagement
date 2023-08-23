@@ -14,6 +14,8 @@ search.audienceType:
 
 # Segment Query definition
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 
 Dynamic segments are based on segment query (`msdyncrm_segmentquery`). You can define a segment query by combing groups of logical expressions, each of which results in a set of `contacts`. Each group establishes a path through one or more entities that ends at the `Contact` entity (the order matters).
 

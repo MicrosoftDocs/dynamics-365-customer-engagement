@@ -1,36 +1,30 @@
 ---
-title: Copilot data movement across geographies
+title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
+ms.date: 07/24/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.topic: conceptual 
-ms.collection:
-ms.date: 06/06/2023
+ms.topic: conceptual
 ms.custom: bap-template
 ---
 
 # Copilot data movement across geographies (preview)
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+[This article is prerelease documentation and is subject to change.]
 
-The copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only within the [United States geography](https://dynamics.microsoft.com/availability-reports/georeport). As a result, the copilot AI features are provided to only those customers who have selected the United States as their chosen geography for data processing and storage. However, customers outside of the United States can still use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. This opt-in may result in the transfer of relevant data outside of their default geography.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-:::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Copilot opt-in to let data movement outside geographical boundaries.":::
+The copilot AI features use the Microsoft Azure OpenAI Service, which is available only in the [United States](https://dynamics.microsoft.com/availability-reports/georeport). As a result, copilot AI features are provided only to customers who have selected the United States as their geography for data processing and storage. However, customers outside the United States can use these features by opting in to share relevant data with the Azure OpenAI Service in the United States. Opting in may result in the transfer of data outside their default geography.
+
+:::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Screenshot of the Copilot opt-in to let data move outside geographical boundaries.":::
+
+The opt-in terms don't apply to organizations in the United States geography and therefore aren't visible to them.
 
 > [!NOTE]
-> - The opt-in terms aren't applicable to organizations in the United States geography and therefore won't be visible to them.
-> - The opt-in is in limited preview. To turn on the opt-in, send a request to d365_csaipreview@microsoft.com.
+> The copilot AI opt-in is in limited preview. To turn it on, email a request to `d365_csaipreview@microsoft.com`.
 
-When you use any copilot feature in an organization that's outside the United States geography, your data, including personal data, used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
+When you use any copilot feature in an organization that's outside the United States geography, your data, including personal data, that's used in prompts or returned in responses might be transmitted outside the geographic locations that you've selected for your primary data residency.
 
 :::image type="content" source="media/copilot-compliance-boundaries.png" alt-text="Visual view of data movement and compliance boundaries.":::
 

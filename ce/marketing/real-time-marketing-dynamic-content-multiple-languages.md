@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create dynamic content for multiple countries and languages
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Customers that work in multiple countries require email communications that present the same content but with small variations based on the country or perhaps in different languages. An extension of this scenario occurs when reaching customers in countries where multiple languages are accepted. For example, in the United Kingdom, communications could be transmitted in both English and Welsh. The audience profile is used to determine which content to deliver. 
 
 Having different content sent to customers based on their profile is possible in two ways:

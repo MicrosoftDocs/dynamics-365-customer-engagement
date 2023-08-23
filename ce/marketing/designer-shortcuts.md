@@ -17,6 +17,8 @@ search.audienceType:
 
 # Accessibility and keyboard shortcuts for Marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## General accessibility for Dynamics 365 applications
 
 Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other model-driven apps in Dynamics 365. For details, see the following help topics:

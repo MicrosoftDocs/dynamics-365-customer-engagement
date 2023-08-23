@@ -13,6 +13,8 @@ search.audienceType:
 
 # Throughput guidance
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 In Dynamics 365 Marketing, the [Service limits and fair use policy](fair-use-policy.md) article provides guidance on the scale that the service can support. The interaction limits on the document provide a maximum number of monthly interactions supported by the service today.
 
 The maximum number of interactions per month for you may differ from the service limit. This is governed by the total number of contact packs that you purchase. Details on the purchases of contacts packs can be found on the [pricing page](https://dynamics.microsoft.com/marketing/pricing/). Contact license pack purchases determine the maximum number of Marketing contact records and monthly interactions you can send in a month. More details are provided on the [Quota limits](quota-management.md) page. If your service needs are beyond the maximum capabilities of the service, contact your Microsoft sales team and we can work with you to meet your needs.

@@ -1,9 +1,7 @@
 ---
 title: Manage consent for email and text messages in real-time marketing
 description: Learn how to manage consent for messages in Dynamics 365 Marketing.
-ms.date: 07/07/2023
-ms.custom: 
-  - dyn365-marketing
+ms.date: 08/21/2023
 ms.topic: reference
 author: alfergus
 ms.author: alfergus
@@ -15,6 +13,8 @@ search.audienceType:
 
 # Manage consent for email and text messages in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!NOTE]
 > Real-time marketing consent is contact-point based and works for messages sent to contacts, leads, and Customer Insights profiles. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
@@ -23,6 +23,9 @@ search.audienceType:
 
 > [!TIP]
 > Real-time marketing will check the **Allow email** and **Allow bulk email** fields of **contact** records to determine if email is allowed to be sent to the contact's email address. Both fields must be set to allow for an email with a commercial purpose type to be sent to a contact. Only the **Allow email** field must be set to allow emails to be sent with a transactional purpose type selected. These checks are done in addition to the real-time marketing contact point consent opt-in/opt-out checks for emails sent by real-time journeys. These checks are not performed for other entity types (for example, leads or Customer Insights profiles).
+
+> [!IMPORTANT]
+> While real-time marketing checks the **DoNotEmail** and **DoNotBulkEmail** fields on the contact entity, updates made to consent from messages will not update the **DoNotEmail** and **DoNotBulkEmail** fields on the contact. Updates from messages will only update the contact point consent records for the email address. This means that outbound marketing messages will not be affected by changes made to consent records based on messages sent by real-time marketing.
 
 Whether consent is checked before sending emails and text messages depends on the consent model that you select for the **Purpose** in a specific **Compliance Profile**. Learn more:[Manage user compliance settings in real-time marketing](real-time-marketing-compliance-settings.md)
 
@@ -51,6 +54,9 @@ The real-time marketing rules for sending text messages are slightly different t
 Each compliance profile has its own purpose specifically for tracking user interactions, such as message opens and link clicks. Like the commercial and transactional purposes, the enforcement model for tracking consent can be restrictive, non-restrictive, or disabled. If the tracking purpose is set to a disabled enforcement model, no tracking consent checks are made for messages sent as part of that compliance profile, meaning all interactions are tracked.
 
 If you would like to collect tracking consent, you can add the tracking purpose to forms and preference centers.  
+
+> [!IMPORTANT]
+> With the July 2023 release, customer consent data began to utilize the new multi-brand consent features. For some Marketing users, the migration changed the settings that control whether tracking links are included in messages. The changes may prevent tracking in messages if the customers have not given explicit consent. After the migration, if you want to enable tracking links in messages for customers who have not provided consent, update the Tracking purpose enforcement model of your Compliance Profile(s) to "Non-restrictive." This enables tracking links to be substituted in emails as long as the receiver has not explicitly opted out of tracking. 
 
 ## Consent enforcement diagram
 

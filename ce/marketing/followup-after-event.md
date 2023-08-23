@@ -16,6 +16,8 @@ search.audienceType:
 
 # Follow up after the event
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 After an event is over, you'll want to evaluate how it went and start following up.
 
 ## Collect attendee feedback with a survey
