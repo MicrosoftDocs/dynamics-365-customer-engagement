@@ -9,12 +9,7 @@ ms.author: jshum
 
 # Run reports on inspection responses
 
-Reports or dashboards can be created and actions can be taken based on the inspection responses provided by the technicians. 
-
-In the following screenshot is an example of the type of Power BI dashboard you can create with inspection responses.
-
-> [!div class="mx-imgBorder"]
-> ![Power BI showing an inspection response dashboard.](./media/response-dashboard-snapshot.png)
+Create reports or dashboards, for example, in Power BI to analyze and act based on the inspection responses provided by technicians. 
 
 ## Understand, view, and report inspection responses
 
@@ -24,17 +19,11 @@ First, you need to configure how often inspection response should be parsed and 
 
 To enable response parsing, go to **Field Service app** > **Settings** > **Field Service Settings** > **Inspection tab**.
 
-> [!div class="mx-imgBorder"]
-> ![The Field Service settings page.](./media/0-inspection-snapshot-parse-response.png)
-
 Make sure **Analytics enabled** is set to **Yes**. For **Analytics frequency**, consider the following options:
 
 - **Daily**: Use this setting for inspection responses to be parsed into individual question responses once daily. Every day on the **Record generation start time**, out-of-box flows will be triggered to populate individual question responses into a Dataverse table.
 - **Immediately**: Use this setting if you need question responses to be available in Dataverse as soon as an inspection is marked complete.
 - **Custom**: Define your own frequency by providing the number of days when parsing should be done. See the following screenshot for an example.
-
-> [!div class="mx-imgBorder"]
-> ![The analytics section on inspection settings, showing custom configurations.](./media/customFrequency.jpg)
 
 > [!Note]
 > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
