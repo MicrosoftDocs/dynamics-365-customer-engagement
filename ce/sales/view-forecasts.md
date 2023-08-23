@@ -51,15 +51,13 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 3. Under **Performance**, select **Forecasts**.
     
 4.	On the grid page, do the following:
-    -	Select a forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
+    -	Select a forecast from the drop-down list on the left. Any forecasts for which you have permissions will appear here.
 
-    -	Choose the forecast period you want to see. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period.
+    -	Choose the forecast period you want to see from the drop-down list on the right. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period.
     
-    > [!div class="mx-imgBorder"]
-    > ![Forecasts view page.](media/forecast-view-page.png "Forecasts view page")
+    :::image type="content" source="media/forecast-view-drop-down.png" alt-text="Screenshot of the forecast view with the forecast and forecast period drop-down lists highlighted.":::
  
 5. Verify the **Last updated** time stamp to see when the forecast was last recalculated successfully. If you've made changes to the underlying data since the last recalculation, select **Recalculate data** to manually recalculate the forecast and refresh the page. For more information, see [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md).  
-    :::image type="content" source="media/forecast-select-recalculate.png" alt-text="Screenshot of the Recalculate data option in the forecast.":::
 
     The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
