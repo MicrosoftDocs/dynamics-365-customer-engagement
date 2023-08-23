@@ -22,9 +22,7 @@ Use general properties and scheduling options to define a forecast model.
 
 ## Define the forecast's general properties
 
-1. In the **General** step of the **Forecast configuration** page, enter a descriptive name for the forecast. In our example, we'll enter *Kenny's Org FY2022 Forecast*.
-
-    :::image type="content" source="./media/forecast-general-properties-forecast-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the forecast name entered.":::
+1. In the **General** step of the **Forecast configuration** page, enter a descriptive name for the forecast. For example, *Kenny's Org FY2023 Forecast*.
 
 1. Select a **Rollup entity**.
 
@@ -39,8 +37,6 @@ Use general properties and scheduling options to define a forecast model.
     Choose a custom or out-of-the-box entity to support your organization's specific requirements if needed.
 
     Only entities that have **Change Tracking** turned on are listed. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
-
-    :::image type="content" source="./media/forecast-general-properties-rollup-entity.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the rollup entity selected.":::
 
 1. Select a **Hierarchy entity**.
 
@@ -76,11 +72,7 @@ Use general properties and scheduling options to define a forecast model.
 
     What if there is no direct relationship between the rollup entity and the hierarchy entity? In that case, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
 
-    In the following example, we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity. Because there's no direct relationship between them, we must select the **Related** tab.
-
-    :::image type="content" source="./media/forecast-relationship-entity-related-attribute-none.png" alt-text="A screenshot of forecast configuration General settings, showing that there's no direct relationship between the selected rollup and hierarchy entities.":::
-
-    In our example, the **Territory** field in the **Related** list is indirectly related to **Opportunity** through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
+    For example, if we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity, we must select the **Related** tab as there's no direct relationship between opportunity and territory entities. However, they are indirectly related through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
 
     :::image type="content" source="./media/forecast-relationship-entity-related-attribute-account-user.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the related field selected.":::
 
