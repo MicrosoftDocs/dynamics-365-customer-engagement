@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
-  - ai-gen-docs
+  - ai-gen-docs-bap
   - ai-gen-desc
   - bap-template
 ---

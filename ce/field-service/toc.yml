@@ -317,8 +317,6 @@ items:
   items:
     - name: Agreements
       href: set-up-customer-agreements.md
-    - name: Service level agreements
-      href: sla-work-orders.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
