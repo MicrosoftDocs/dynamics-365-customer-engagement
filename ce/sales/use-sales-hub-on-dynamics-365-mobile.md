@@ -271,7 +271,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 ### See also
 
-[User Guide](user-guide.yml)
+[User Guide](user-guide.yml)  
 [Actions supported in online and offline mode](Features-in-mobile-offline.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

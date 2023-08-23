@@ -15,6 +15,8 @@ search.audienceType:
 
 # Troubleshooting real-time marketing forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article explains how troubleshoot forms in real-time marketing.
 
 ## My embedded form isn't visible on my page

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Email security and connection encryption
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Email security and encryption are essential for reliable email sending. There are two major security protocols used for email delivery: SSL and TLS.
 
 - SSL (Secure Socket Layer) is an older protocol that is no longer used by major email service providers (ESPs) because it doesn't provide adequate security for connections. It's being replaced by its successor, TLS.

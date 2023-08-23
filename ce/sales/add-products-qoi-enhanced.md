@@ -1,8 +1,8 @@
 ---
-title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
+title: Enhanced experience for Adding products to quotes, orders, or invoices
+description: Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise.
 ms.date: 05/17/2022
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
@@ -23,9 +23,10 @@ searchScope:
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
 > [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.
+> Product families are only supported for Sales Enterprise and Sales Premium licenses.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -87,7 +88,7 @@ If you've created a quote from an opportunity, the products added to the opportu
     
 4. Use one of the following options to identify and add products:
     
-   - If you know the product names, simply search for them and add.
+   - If you know the product names, simply search for them and add. [Learn more about how the search works](add-products-search.md).
    - (Applicable for Sales Premium and Sales Enterprise) If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
        > [!NOTE]

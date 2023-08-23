@@ -16,6 +16,8 @@ search.audienceType:
 
 # Troubleshoot event management
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## How are contacts created in event management?
 
 - Contacts in event management are created when:

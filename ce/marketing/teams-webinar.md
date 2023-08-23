@@ -15,6 +15,8 @@ search.audienceType:
 
 # Use Microsoft Teams for Dynamics 365 Marketing online events
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
 
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]

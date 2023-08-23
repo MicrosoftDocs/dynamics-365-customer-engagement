@@ -14,6 +14,8 @@ search.audienceType:
 
 # Build an approvals feature
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This article applies only to outbound marketing.
 

@@ -14,6 +14,8 @@ search.audienceType:
 
 # Setting up event management to work with AAD B2C
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 ## Overview
 
 The event portal is capable of integrating the **Azure Active Directory B2C**. To integrate it, you need to implement a couple of steps. 

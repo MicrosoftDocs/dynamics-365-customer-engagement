@@ -15,6 +15,8 @@ search.audienceType:
 
 # Export data to Word or Excel files
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can export Dynamics 365 Marketing data to a Word or Excel template to create standardized documents that you can share with people who don't use Dynamics 365.
 
 > [!TIP]

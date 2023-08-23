@@ -13,6 +13,8 @@ search.audienceType:
 
 # Manually overwriting sample website
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The standard process of updating an event management website is to download a newer version and run the provided script to push the changes to the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup) instance described in [Power Apps portal hosted](portal-hosted.md#deployment). 
 
 There are situations where it is not possible to push the new website definition because of the changes to the underlying portal web pages. Portal web pages, web templates, and web files are used to host the event website when you host the website through [Power Apps portal hosted](portal-hosted.md). You need to update these entities manually if you make any changes to these entities. There is no automatic mechanism to update from version to version as it breaks the customer customizations.

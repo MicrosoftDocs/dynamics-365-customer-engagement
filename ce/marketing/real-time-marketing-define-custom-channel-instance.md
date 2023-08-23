@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define an extended configuration entity for the channel instance
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Applicable channels: SMS, custom
 
 A *channel instance* is the representation of a custom channel in Dynamics 365 Marketing. When you create a custom channel, you need to configure a sender&mdash;for example, the sender of a WhatsApp message. Each instance of a custom channel&mdash;that is, the entity **Channel Instance**&mdash;represents a single sender.

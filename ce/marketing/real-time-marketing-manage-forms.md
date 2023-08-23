@@ -15,6 +15,8 @@ search.audienceType:
 
 # Manage real-time marketing forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article explains how to edit, unpublish, and manage forms in real-time marketing.
 
 ## Edit a live form

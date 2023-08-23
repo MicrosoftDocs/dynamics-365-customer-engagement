@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 06/15/2023
+ms.date: 08/09/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,9 @@ ms.collection: get-started
 
 # Welcome to Dynamics 365 Customer Service
 
-[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+> [!TIP]
+> - If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
+> - Explore [Copilot](use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.
 
 Welcome to Dynamics 365 Customer Service! We're delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life.
 

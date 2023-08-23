@@ -13,6 +13,8 @@ search.audienceType:
 
 # Customize the email designer
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The latest [email editor](../email-design.md) improves the design process by providing more screen real estate for the design canvas. You can further tailor the email designer to suit your needs by implementing your own customizations.
 
 > [!IMPORTANT]

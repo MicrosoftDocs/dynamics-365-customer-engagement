@@ -15,6 +15,8 @@ search.audienceType:
 
 # Manage user compliance settings in real-time marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Managing compliance settings is key to ensuring your business processes conform with privacy laws such as the GDPR. This article gives an overview of administrator compliance setup, preference centers, and real-time marketing concepts. For information on outbound marketing compliance, visit [Outbound marketing compliance settings](privacy-use-features.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW137KU]

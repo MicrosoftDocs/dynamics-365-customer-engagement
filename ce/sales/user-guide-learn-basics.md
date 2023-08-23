@@ -1,8 +1,8 @@
 ---
-title: "Learn the basics of Dynamics 365 Sales | Microsoft Docs"
-description: "Quickly onboard and learn about Dynamics 365 Sales and its user interface."
+title: Learn the basics of Dynamics 365 Sales
+description: Quickly onboard and learn about Dynamics 365 Sales and its user interface.
 ms.date: 11/15/2022
-ms.topic: get-started-article
+ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ---
@@ -11,6 +11,7 @@ ms.author: lavanyakr
 Learn how to access the Sales app, navigate the UI, and understand the data in the app, and some quick tips.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Email accessibility checker
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The accessibility checker helps you make the content easy for people of all abilities to read. With this feature, you can check the accessibility of emails created using the Marketing content designer and receive guidance on suggested fixes.
 
 Once you are done designing your email content, just click the **Accessibility checker** listed under **Email checker** in the **Designer** tab. The checker will run the content against Microsoft Accessibility Standards to find any issues.

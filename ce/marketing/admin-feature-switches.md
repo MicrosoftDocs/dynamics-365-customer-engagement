@@ -16,6 +16,8 @@ search.audienceType:
 
 # Use feature switches to enable or disable optional and preview features
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use the **Feature switches** page to enable or disable optional and preview features in Dynamics 365 Marketing.
 
 To enable or disable a feature, go to **Settings** > **Other settings** > **Feature switches** and set the various feature sliders to **On** or **Off** as needed. After you set the feature sliders, click **Save** in the upper right corner of the window.

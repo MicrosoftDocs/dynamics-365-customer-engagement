@@ -16,6 +16,8 @@ search.audienceType:
 
 # Configure lead scoring options
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use the **Lead scoring** page in the **Settings** work area to configure a few basic options that control how automatic lead scoring works on your instance. Do the following to find and make these settings:
 
 1. Go to **Settings** > **Lead management** > **Scoring configuration**.
