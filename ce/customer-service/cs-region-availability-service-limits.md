@@ -3,8 +3,9 @@ title: "Supported regions and languages, and service limits for analytics and in
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
 ms.date: 06/30/2023
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 

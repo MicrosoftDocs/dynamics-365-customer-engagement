@@ -1,8 +1,9 @@
 ---
 title: Manage bookmarks for reports
 description: Learn how to create bookmarks to save personalized views of your Dynamics 365 Customer Service reports, set a bookmark as your default view, and delete bookmarks you no longer need.
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 03/31/2023
 ms.reviewer: nenellim

@@ -3,8 +3,9 @@ title: Topics Dashboard | Microsoft Docs
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
 ms.date: 06/20/2023
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
 search.audienceType: 
   - admin
   - customizer
