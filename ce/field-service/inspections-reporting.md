@@ -1,13 +1,8 @@
 ---
 title: "Run reports on inspection responses in Field Service in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service
-ms.date: 03/16/2021
-
+ms.date: 08/22/2023
 ms.topic: article
-ms.suite: ""
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: josephshum-msft
 ms.author: jshum
 ---
@@ -94,7 +89,7 @@ The status of the flows can be checked as shown in the following screenshot.
 
 ## Attachments or images within a response 
 
-Attachments like images in the inspection can be retrieved using flows. For more information, see the next section. 
+Each image uploaded in inspections is stored as an annotation in the *Inspection Attachments* table. They can be [retrieved using flows](#create-a-flow).
 
 ## Configuration considerations
 
