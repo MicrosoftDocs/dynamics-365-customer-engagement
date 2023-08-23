@@ -104,7 +104,7 @@ A phone call activity is created and displayed on the timeline of the record. If
 If you've missed answering a call, a notification is displayed in the in-app notification center in Dynamics 365. If you've answered the call from another app, such as Teams desktop, the call isn't considered as missed.
 
 > [!NOTE]
-> Your administrator must have enabled and set up the in-app notifications for you to view the missed calls.
+> Your administrator must have enabled and [set up the in-app notifications](configure-microsoft-teams-dialer.md#configure-the-dialer) for you to view the missed calls.
 
 To view the missed call notification, select the Notifications icon (bell icon) in the upper-right corner of the page.
 

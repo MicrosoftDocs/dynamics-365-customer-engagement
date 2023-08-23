@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
-ms.date: 06/07/2023
+ms.date: 08/23/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -65,8 +65,6 @@ Additionally, you must grant the following permissions to your users:
     >
     > Alternatively, you can add the configuration page to your Sales Professional app's sitemap by [adding a subarea](/power-apps/maker/model-driven-apps/create-site-map-app#add-a-subarea-to-a-group-in-the-site-map).
 
-    :::image type="content" source="media/teams-dialer-configuration-page.svg" alt-text="Microsoft Teams calls configuration page." lightbox="media/teams-dialer-configuration-page.svg":::
-
 1. Turn on **Teams calls**.
 
     By default, the following options are turned on:
@@ -78,6 +76,13 @@ Additionally, you must grant the following permissions to your users:
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
 
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.
+
+    - **Display missed calls in the Dynamics 365 in-app notification center**
+
+        Allows sellers to see missed calls in the in-app notification center in Dynamics 365. Before you enable this feature, complete the following actions:  
+            - [Allow in-app notifications for the app](/power-apps/developer/model-driven-apps/clientapi/send-in-app-notifications?tabs=clientapi#enable-the-in-app-notification-feature).  
+            - For the security roles that need to see the notifications, grant read permissions for the **Notification** entity under the **Custom entity** tab.
+                :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
 
     - **Transfer calls (preview)**
 
