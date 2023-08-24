@@ -18,7 +18,7 @@ For information on how to use the Configuration Migration tool, see the followin
 - [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
 - [How the Configuration Migration tool works](/power-platform/admin/manage-configuration-data)
 
-## Prerquisites
+## Prerequisites
 
 The following prerequisites must be met:
 
@@ -65,7 +65,7 @@ You must perform the steps in the order they're listed to migrate your configura
 7. Verify your migration
 8. Troubleshoot migration of data
 
-## Migrate configurateion using a solution
+## Migrate configuration using a solution
 
 If you use custom session templates and notifications in your SMS routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution)
 
@@ -89,7 +89,7 @@ For migrating queues for SMS, perform the steps outlined in [Migrate data for 
 	- **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the ADVANCED FIND menu item to construct the appropriate FetchXML query.
 	- **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
-2. Ensure that the workstreams that're referred in the configuration of the SMS channels are included in the migration.
+2. Ensure that the workstreams that are referred in the configuration of the SMS channels are included in the migration.
 
     |S.No.|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|---------|
@@ -358,7 +358,7 @@ For sample schema to get all the required records, see [Sample schema for SMS wo
 	</entity>
 </fetch>
 ```
-**Sample 3: Decision ruleset for multiple SMS workstreams****<a name="BKMK3smswdrs"></a>
+**Sample 3: Decision ruleset for multiple SMS workstreams**<a name="BKMK3smswdrs"></a>
 
 ```XML
 <fetch distinct="true" >
@@ -536,7 +536,7 @@ Assume that the workstream must exist whether it was created manually or previou
 
 	| S.No. | Entity display name (Logical name) | Attribute display name (Logical name) |
    	|--------|---------|---------|
-	|1.|SMS Number Setting (msdyn_ocsmschannelsetting)|[FetchXML to filter records for SMS channel settings](#BKMK1sms) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - You'll need to include Phone Number (msdyn_phonenumberid) column even though data is invalid, as the records in Phone Number table are environment-specific and can’t be migrated. You’ll need to fix phone number manually in destination environment after migration. If you are not allowed to perform this action for any reason, you can manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Don't include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated. <br> - Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") <br> <ul><li> Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li> Enable (msdyn_postconversationsurveyenable)</li><li> Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li> Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li> Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li> Message (msdyn_postconversationsurveymessagetext)</li><li> Name (msdyn_name)</li><li> ocsmschannelsetting (msdyn_ocsmschannelsettingid)</li><li> Operating hours (msdyn_operatinghoursid)</li><li> Phone Number (msdyn_phonenumberid)</li><li> SMS number language (msdyn_language)</li><li> Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li> Survey Mode (msdyn_postconversationsurveymode)</li><li> Work stream (msdyn_liveworkstreamid)</li></ul>|
+	|1.|SMS Number Setting (msdyn_ocsmschannelsetting)|[FetchXML to filter records for SMS channel settings](#BKMK1sms) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - You need to include Phone Number (msdyn_phonenumberid) column even though data is invalid, as the records in Phone Number table are environment-specific and can’t be migrated. You need to fix phone number manually in destination environment after migration. If you aren't allowed to perform this action for any reason, you can manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Don't include Survey (msdyn_postconversationsurvey) and Survey (msdyn_postconversationsurveyseparatebotsurvey) columns as survey records are synced with Dynamics 365 Customer Voice in each environment, so they can’t be migrated. <br> - Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") <br> <ul><li> Bot Survey (msdyn_postconversationsurveybotsurvey)</li><li> Enable (msdyn_postconversationsurveyenable)</li><li> Enable file attachments for agents (msdyn_enablefileattachmentforagents)</li><li> Enable file attachments for customers (msdyn_enablefileattachmentforcustomers)</li><li> Message (msdyn_postconversationsurveybotsurveymessagetext)</li><li> Message (msdyn_postconversationsurveymessagetext)</li><li> Name (msdyn_name)</li><li> ocsmschannelsetting (msdyn_ocsmschannelsettingid)</li><li> Operating hours (msdyn_operatinghoursid)</li><li> Phone Number (msdyn_phonenumberid)</li><li> SMS number language (msdyn_language)</li><li> Survey Mode (msdyn_postconversationsurveybotsurveymode)</li><li> Survey Mode (msdyn_postconversationsurveymode)</li><li> Work stream (msdyn_liveworkstreamid)</li></ul>|
 	|2.|Localization (msdyn_oclocalizationdata)|[FetchXML to filter records for SMS channel localizations](#BKMK2sms) <br> <ul> <li> Automated message (msdyn_systemmessageid)</li><li> Default Localized Text (msdyn_defaultlocalizedtext)</li><li> Entity Column Name (msdyn_entitycolumnname)</li><li> Entity Name (msdyn_entityname)</li><li> Entity Record ID (msdyn_entityrecordid)</li><li> Is default (msdyn_isdefault)</li><li> Language code (msdyn_customerlanguageid)</li><li> Language Code (msdyn_languagecode)</li><li> Localization (msdyn_oclocalizationdataid)</li><li> Localized text (msdyn_localizedtext)</li><li> Organization ID (organizationid)</li><li> Status (statecode)</li><li> Status Reason (statuscode)</li></ul>|
 	|3.|Message (msdyn_ocsystemmessage)|<ul> <li> Channel (msdyn_streamsource) </li><li> Default language (msdyn_defaultlanguage) </li><li> Instance ID (msdyn_instanceid) </li><li> Message (msdyn_ocsystemmessageid) </li><li> Message description (msdyn_messagedescription)</li><li> Message recipient (msdyn_messagereceiver) </li><li> Message template trigger (msdyn_messagetemplatetrigger)</li><li> Message Text (msdyn_messagetext) </li><li> Message trigger (msdyn_systemmessageeventtype) </li><li> Message type (msdyn_messagetype) </li><li> Name (msdyn_name) </li><li> Organization ID (organizationid) </li> <li> Status (statecode) </li><li> Status Reason (statuscode) </li></ul>|
 
