@@ -4,7 +4,7 @@ description: Learn about how to add a Power Virtual Agents bot to use in the voi
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 08/24/2023
+ms.date: 06/19/2023
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -83,7 +83,6 @@ More information:
 
 > [!IMPORTANT]
 > - In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
-> - We recommend agents to refresh their browser frequently to avoid calls from being disconnected. If the problem persists, reconnect your Power Virtual Agents bot.
 
 ### See also
 
@@ -92,4 +91,4 @@ More information:
 [Manage your bots](manage-your-bots.md)  
 [Set up a multilingual bot in Power Virtual Agents](set-up-multilingual-pva-bot.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
