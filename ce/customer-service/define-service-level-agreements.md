@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/10/2023
+ms.date: 08/24/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -116,7 +116,10 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 3. Configure actions for the SLA item.
 4. Activate the SLA.
 
-### Create an SLA 
+> [!NOTE]
+> SLAs created in either web client or Unified Interface can be viewed in both web client and Unified Interface, but can be edited only where they were created.
+
+### Create an SLA
 
 You can create an SLA from the Customer Service admin center or Customer Service Hub app.
 
