@@ -23,6 +23,7 @@ You can also configure hold and wait music for each language in each of the work
 >
 > - Music files can be up to 20 MB. For best experience, upload MP3 files.
 > - Music files must have the ID3 tags so that they play successfully when the call is put on hold.
+> - The quality of the audio files that you upload might be reduced because audio file URLS are embedded in Speech Synthesis Markup Language (SSML). The telephony gateway gets Pulse Code Modulation (PCM) 16k audio bytes as part of the speech orchestration. More information: [Add recorded audio](/azure/ai-services/speech-service/speech-synthesis-markup-voice#add-recorded-audio)
 
 ## Edit music files
 
@@ -84,9 +85,6 @@ You can also add new music files to use them in calls as hold and wait music.
    - **Sound file**: Select **Upload** to upload any sound file from your computer with a file size no more than 20 MB. Be sure to choose some music that loops well.
 
 5. Select **Save and close**.
-
-> [!Note]  
-> The quality of the audio files that you upload might be reduced because audio file URLS are embedded in SSML. The telephony gateway gets Pulse Code Modulation (PCM) 16k audio bytes as part of the speech orchestration. More information: [Add recorded audio](/azure/ai-services/speech-service/speech-synthesis-markup-voice#add-recorded-audio)
 
 ## Add hold and wait music to the workstream
 
