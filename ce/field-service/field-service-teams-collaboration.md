@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams (contains video)
 description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 02/27/2023
+ms.date: 08/24/2023
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
@@ -22,20 +22,26 @@ For a guided walkthrough, check out the following video.
 
 An administrator must set up the overall integration between Microsoft Teams and Dynamics 365 apps.
 
-Go to **Advanced Settings** > **Administration** > **System Settings** > **General** > **Microsoft Teams Integration**.
-
-- Enable **Basic** Microsoft Teams Integration (requires system admin permissions)
-- Enable **Enhanced** Microsoft Teams integration (requires tenant admin permissions).
-
 For more information, see [Install and set up Teams Integration](/dynamics365/teams-integration/teams-install-app).
 
-## Configure collaboration settings in Field Service
+## Enable and configure collaboration settings in Field Service
 
-In Field Service, go to **Settings** > **Microsoft Teams Integration** > **Collaboration** and set the toggles to **Yes**.
+1. In Field Service, go to **Settings** > **Microsoft Teams Integration** > **Collaboration**.
 
-:::image type="content" source="media/teams-integration-settings.png" alt-text="Screenshot of the collaboration settings in Field Service.":::
+1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.
+
+1. Select one of the following:
+
+   - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
+   - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you haven't yet set up Teams, it's enabled by default.
+
+1. Save the changes.
 
 In the **Connect chats to Dynamics 365 records** section, add all the tables you'd like to collaborate on.
+
+For more information, see:
+- [Work with Microsoft Teams chat in Dynamics 365](/dynamics365/teams-integration/enable-teams-chat)
+- [Configure Teams chat](/dynamics365/customer-service/configure-teams-chat)
 
 ## Create a new chat
 
@@ -45,7 +51,7 @@ In the **Connect chats to Dynamics 365 records** section, add all the tables you
 
    :::image type="content" source="media/work-order-teams-create.png" alt-text="Field Service work order, showing linked chats in the Teams chats panel.":::
 
-1. Select **New connected chat** to start a new chat that will be linked to the current record. Add the relevant participants. By checking the **Send introduction message**, you'll start the conversation with the relevant details shown between participants of the conversation. 
+1. Select **New connected chat** to start a new chat that will be linked to the current record. Add the relevant participants. By checking the **Send introduction message**, you'll start the conversation with the relevant details shown between participants of the conversation.
 
 1. Select **Start chat** to start the conversation.
 
