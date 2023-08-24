@@ -120,7 +120,6 @@ For sample schema to get all the required records, see [Sample schema for SMS wo
 **Sample 1: All SMS workstreams**<a name="BKMK1smsw"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -134,7 +133,6 @@ XMLCopy
 **Sample 2: Single SMS workstream**<a name="BKMK2smsw"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -147,7 +145,6 @@ XMLCopy
 **Sample 3: Multiple SMS workstreams**<a name="BKMK3smsw"></a>
 
 ```XML
-XMLCopy
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
 	<entity name="msdyn_liveworkstream">
 		<filter type="and">
@@ -164,7 +161,6 @@ XMLCopy
 **Sample 1: All SMS workstreams context variables**<a name="BKMK1smswcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_ocliveworkstreamcontextvariable" >
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa" >
@@ -179,7 +175,6 @@ XMLCopy
 **Sample 2: Single SMS workstream context variables**<a name="BKMK2smswcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_ocliveworkstreamcontextvariable" >
 		<filter type="and" >
@@ -191,7 +186,6 @@ XMLCopy
 **Sample 3: Multiple SMS workstreams context variables**<a name="BKMK3smswcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_ocliveworkstreamcontextvariable" >
 		<filter type="or" >
@@ -206,7 +200,6 @@ XMLCopy
 **Sample 1: Decision contract for all SMS workstreams**<a name="BKMK1smswdc"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisioncontract" >
 		<filter type="or" >
@@ -251,7 +244,6 @@ XMLCopy
 **Sample 2: Decision contract for a single SMS workstream**<a name="BKMK2smswdc"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisioncontract" >
 		<filter type="or" >
@@ -287,7 +279,6 @@ XMLCopy
 **Sample 3: Decision contract for multiple SMS workstreams**<a name="BKMK3smswdc"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisioncontract" >
 		<filter type="or" >
@@ -333,7 +324,6 @@ XMLCopy
 **Sample 1: Decision ruleset for all SMS workstreams**<a name="BKMK1smswdrs"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisionruleset" >
 		<filter type="or" >
@@ -353,7 +343,6 @@ XMLCopy
 **Sample 2: Decision ruleset for a single SMS workstream**<a name="BKMK2smswdrs"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisionruleset" >
 		<filter type="or" >
@@ -372,7 +361,6 @@ XMLCopy
 **Sample 3: Decision ruleset for multiple SMS workstreams****<a name="BKMK3smswdrs"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
 	<entity name="msdyn_decisionruleset" >
 		<filter type="or" >
@@ -394,7 +382,6 @@ XMLCopy
 **Sample 1: Routing configuration for all SMS workstreams**<a name="BKMK1smswrc"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -409,7 +396,6 @@ XMLCopy
 **Sample 2: Routing configuration for a single SMS workstream**<a name="BKMK2smswrc"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -422,8 +408,8 @@ XMLCopy
 ```
 
 **Sample 3: Routing configuration for multiple SMS workstreams**<a name="BKMK3smswrc"></a>
+
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfiguration">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">
@@ -443,7 +429,6 @@ XMLCopy
 **Sample 1: Routing configuration step for all SMS workstreams**<a name="BKMK1smswrcs"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -461,7 +446,6 @@ XMLCopy
 **Sample 2: Routing configuration step for a single SMS workstream**<a name="BKMK2smswrcs"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -478,7 +462,6 @@ XMLCopy
 **Sample 3: Routing configuration step for multiple SMS workstreams**<a name="BKMK3smswrcs"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_routingconfigurationstep">
 		<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak">
@@ -500,7 +483,6 @@ XMLCopy
 **Sample 1: Workstream capacity profile for all SMS workstreams**<a name="BKMK1smswwcp"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -516,7 +498,6 @@ XMLCopy
 **Sample 2: Workstream capacity profile for a single SMS workstream**<a name="BKMK2smswwcp"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -530,7 +511,6 @@ XMLCopy
 **Sample 3: Workstream capacity profile for multiple SMS workstreams**<a name="BKMK3smswwcp"></a>
 
 ```XML
-XMLCopy
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">

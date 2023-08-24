@@ -117,7 +117,6 @@ For sample schema to get all the required records, see [Sample schema for voice 
 **Sample 1: All voice workstreams**<a name="BKMK1vws"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true"> 
   <entity name="msdyn_liveworkstream"> 
     <filter type="and"> 
@@ -130,8 +129,6 @@ XMLCopy
 **Sample 2: Single voice workstreams**<a name="BKMK2vws"></a>
 
 ```XML
-XMLCopy 
-
 <fetch>
   <entity name="msdyn_liveworkstream"> 
     <filter type="and"> 
@@ -143,8 +140,6 @@ XMLCopy
 **Sample 2: Single voice workstreams**<a name="BKMK3vws"></a>
 
 ```XML
-XMLCopy 
-
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"> 
   <entity name="msdyn_liveworkstream"> 
     <filter type="and"> 
@@ -161,7 +156,6 @@ XMLCopy
 **Sample 1: All voice workstreams context variables** <a name="BKMK1vwcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="aa" >
@@ -176,7 +170,6 @@ XMLCopy
 **Sample 2: Single voice workstream context variables** <a name="BKMK2vwcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" >
         <filter type="and" >
@@ -188,7 +181,6 @@ XMLCopy
 **Sample 3: Multiple voice workstreams context variables** <a name="BKMK3vwcv"></a>
 
 ```XML
-XMLCopy
 <fetch>
     <entity name="msdyn_ocliveworkstreamcontextvariable" ><a name="BKMK3vwcv"></a>
         <filter type="or" >
@@ -203,8 +195,6 @@ XMLCopy
 **Sample 1: Decision contract for all voice workstreams**<a name="BKMK1vwdc"></a>
 
 ```XML
-XMLCopy
-
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="or" >
@@ -243,7 +233,6 @@ XMLCopy
 **Sample 2: Decision contract for single voice workstream**<a name="BKMK2vwdc"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="or" >
@@ -278,7 +267,6 @@ XMLCopy
 **Sample 3: Decision contract for multiple voice workstreams**<a name="BKMK3vwdc"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
     <entity name="msdyn_decisioncontract" >
         <filter type="or" >
@@ -323,7 +311,6 @@ XMLCopy
 
 **Sample 1: Decision ruleset for all voice workstreams**<a name="BKMK1vwdrs"></a>
 ```XML
-XMLCopy
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -344,8 +331,6 @@ XMLCopy
 **Sample 2: Decision ruleset for a single voice workstream**<a name="BKMK2vwdrs"></a>
 
 ```XML
-XMLCopy
-
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -365,7 +350,6 @@ XMLCopy
 **Sample 3: Decision ruleset for multiple voice workstreams**<a name="BKMK3vwdrs"></a>
 
 ```XML
-XMLCopy
 <fetch distinct="true" >
     <entity name="msdyn_decisionruleset" >
         <filter type="or" >
@@ -388,8 +372,6 @@ XMLCopy
 **Sample 1: Routing configuration for all voice workstreams**<a name="BKMK1vwrc"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_routingconfiguration"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
@@ -404,8 +386,6 @@ XMLCopy
 **Sample 2: Routing configuration for a single voice workstream**<a name="BKMK2vwrc"></a>
 
 ```XML
-XMLCopy 
-
 <fetch>
   <entity name="msdyn_routingconfiguration"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
@@ -419,8 +399,6 @@ XMLCopy
 **Sample 3: Routing configuration for multiple voice workstreams**<a name="BKMK3vwrc"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_routingconfiguration"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah"> 
@@ -439,8 +417,6 @@ XMLCopy
 **Sample 1: Routing configuration step for all voice workstreams**<a name="BKMK1vwrcs"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_routingconfigurationstep"> 
     <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
@@ -455,11 +431,9 @@ XMLCopy
 </fetch>
 ```
 
-**Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK1vwrcs"></a>
+**Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK2vwrcs"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_routingconfigurationstep"> 
     <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
@@ -472,11 +446,9 @@ XMLCopy
   </entity> 
 </fetch>
 ```
-**Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK1vwrcs"></a>
+**Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK3vwrcs"></a>
 
 ```XML
-XMLCopy
-
 <fetch> 
   <entity name="msdyn_routingconfigurationstep"> 
     <link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="inner" alias="ak"> 
@@ -498,8 +470,6 @@ XMLCopy
 **Sample 1: Routing configuration step for multiple voice workstreams**<a name="BKMK1vwwcp"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_liveworkstreamcapacityprofile"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
@@ -515,8 +485,6 @@ XMLCopy
 **Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK2vwwcp"></a>
 
 ```XML
-XMLCopy
-
 <fetch>
   <entity name="msdyn_liveworkstreamcapacityprofile"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
@@ -530,7 +498,6 @@ XMLCopy
 **Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK3vwwcp"></a>
 
 ```XML
-XMLCopy
 <fetch>
   <entity name="msdyn_liveworkstreamcapacityprofile"> 
     <link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am"> 
