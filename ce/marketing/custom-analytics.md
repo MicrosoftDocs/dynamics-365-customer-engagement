@@ -39,6 +39,8 @@ Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
 for a quick overview of all the data that is available for your marketing analytical reports.<br/><br/>
 
 > [!VIDEO https://www.youtube.com/embed/pBrB1BohUrE]
+-->
+
 <a name="connect-blob"></a>
 
 ## Set up Azure Blob storage and connect it to Marketing
