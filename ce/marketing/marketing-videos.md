@@ -23,16 +23,14 @@ If you are new to Dynamics 365 Marketing, then these videos will help you gain a
 
 ## Get a quick overview
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4FRAO" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FRAO]
 More information: [Overview (Marketing)](overview.md)
 
 For an even more detailed video overview of the features and benefits of Dynamics 365 Marketing, including extended feature demos, see [Dynamics 365 Marketing | Business Applications Spring 2018 Release](https://www.youtube.com/watch?v=LWQ4C0kAPo4)  (36:51).
 
 ## Design marketing emails
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824]
 More information:
 
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
@@ -45,8 +43,7 @@ More information:
 
 ## Use customer journeys to create automated campaigns
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IO58" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IO58]
 More information:
 
 - Tutorial: [Create a simple customer journey](create-simple-customer-journey.md)
@@ -59,8 +56,7 @@ More information:
 
 ## Qualify your hottest leads with automated lead scoring
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398]
 More information:
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
