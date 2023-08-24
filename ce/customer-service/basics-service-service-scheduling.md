@@ -1,7 +1,7 @@
 ---
 title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 08/02/2022
+ms.date: 08/24/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
@@ -15,7 +15,6 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 ## Understand the scheduling experience
 
 Scheduling, which is built on top of **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
-
 
 ### Scheduling scenario
 
@@ -85,7 +84,7 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For a new Power Platform environment, by default, the **Core Service Scheduling** solutions is installed. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
+- For new Power Platform environment install [Service Scheduling from Power Platform admin center](install-service-scheduling-from-power-platform.md). For existing organizations, where **Core Service Scheduling** solutions is already installed, you'll need to install the available updates.
 
 - For an existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
