@@ -26,6 +26,8 @@ For more information, see [Install and set up Teams Integration](/dynamics365/te
 
 ## Enable and configure collaboration settings in Field Service
 
+:::image type="content" source="media/teams-integration-settings.png" alt-text="Screenshot of the Teams integration settings in Field Service.":::
+
 1. In Field Service, go to **Settings** > **Microsoft Teams Integration** > **Collaboration**.
 
 1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.
