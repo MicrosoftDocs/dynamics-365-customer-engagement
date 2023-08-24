@@ -10,24 +10,9 @@
       tocHref: /dynamics365/customerengagement/on-premises/
       topicHref: /dynamics365/customerengagement/on-premises/overview
       items:
-      - name: "Basics Guide"
-        tocHref: /dynamics365/customerengagement/on-premises/basics/
-        topicHref: /dynamics365/customerengagement/on-premises/basics/basics-guide
-      - name: "Administrator Guide"
-        tocHref: /dynamics365/customerengagement/on-premises/admin/
-        topicHref: /dynamics365/customerengagement/on-premises/admin/overview
-      - name: "Customization Guide"
-        tocHref: /dynamics365/customerengagement/on-premises/customize/
-        topicHref: /dynamics365/customerengagement/on-premises/customize/overview
-      - name: "Reporting and Analytics Guide"
-        tocHref: /dynamics365/customerengagement/on-premises/analytics/
-        topicHref: /dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365
-      - name: Developer Guide
-        tocHref: /dynamics365/customerengagement/on-premises/developer/
-        topicHref: /dynamics365/customerengagement/on-premises/developer/overview
-      - name: Deploy and operate
-        tocHref: /dynamics365/customerengagement/on-premises/deploy/
-        topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
+    - name: Dynamics 365 Customer Service
+      tochref: /dynamics365/unified-service-desk/
+      topicHref: /dynamics365/unified-service-desk/unified-service-desk
     - name: Sales
       tocHref: /dynamics365/sales/
       topicHref: /dynamics365/sales/index

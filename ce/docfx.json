@@ -129,10 +129,14 @@
       "search.appverid": "met150",
       "recommendations": true
     },
+    "breadcrumb_path": {
+      "**.*":"/dynamics365/breadcrumb/toc.json"    
+    },
     "fileMetadata": {
       "uhfHeaderId": {
         "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
-        "sales/**.*": "MSDocsHeader-Dynamics365Sales"
+        "sales/**.*": "MSDocsHeader-Dynamics365Sales",
+        "unified-service-desk/**.*": "MSDocsHeader-Dynamics365-CustomerService"
 
       },
       "featureFlags": {
@@ -194,10 +198,6 @@
         "customize/**.*": "https://ideas.powerapps.com",
         "developer/**.*": "https://ideas.powerapps.com",
         "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
-      },
-      "breadcrumb_path": {
-        "**.*": "cebc/toc.yml",
-        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
