@@ -81,8 +81,8 @@ More information:
 
    1. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
-> [!IMPORTANT]
-> - In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+> [!IMPORTANT]  
+> In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
 
 ### See also
 
