@@ -70,7 +70,7 @@ If you use custom session templates and notifications in your voice routing setu
 
 ## Migrate skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets).
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Migrate data for skill-based routing](migrate-config-data-for-records.md#migrate-configuration-for-skill-based-routing-rulesets). Make sure to adjust any filtering fetch xml appropriately for SMS.
 
 ## Migrate configuration capacity profiles
 
@@ -85,26 +85,28 @@ For exporting and importing queues for the voice channel, perform the steps outl
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for voice workstreams.
 	- **Entity display name**: When you create the schema, select the entities in the same sequence as mentioned in the table.
 	- **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes like Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes, if necessary.
-	- **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the ADVANCED FIND menu item to construct the appropriate FetchXML query.
+	- **Use FetchXML to filter records**: For each entity, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
 	- **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
 2. Ensure that the workstreams that are referred in the configuration of the voice channels are included in the migration.
 
   |S.No.|Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |---------|---------|---------|---------|
-    |1.|Workstream (msdyn_liveworkstream)| <ul><li>API Key (msdyn_apikey) </li><li> API Key Version Number (msdyn_apikeyversionnumber)</li><li>Allow Automated Messages (msdyn_enableautomatedmessages) </li>Allowed Presences (msdyn_allowedpresences) </li><li> Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li><li>Auto-close after inactivity (msdyn_autocloseafterinactivity) </li><li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup) </li><li>Bot queue (msdyn_bot_queue) </li><li>Bot rule (msdyn_bot_rule)</li><li>Bot user (msdyn_bot_user)</li><li>CallbackPreviewDialing (msdyn_notificationtemplate_callback_previewdialing)</li><li>Connectors (msdyn_connectorsurl) </li><li>Consult (msdyn_notificationtemplate_consult) </li><li>Conversation mode of chat channels (msdyn_conversationmode)</li><li>Customer ID (msdyn_customerid)</li><li>Customer Disconnect Hold Duration For Open Conversation (msdyn_customerdisconnectholddurationforopenconversation)</li><li>Capacity (msdyn_capacityrequired)</li><li>Capacity format (msdyn_capacityformat)</li><li>Channel (msdyn_streamsource)</li><li>Contract Id (msdyn_routingcontractid) </li><li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li><li>Direction (msdyn_direction)</li><li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li><li>Entity (msdyn_masterentityroutingconfigurationid)</li><li>FallBack Language (msdyn_fallbacklanguage)</li><li>Follow-up after waiting (msdyn_followupafterwaiting)</li><li>Handling Time Threshold (msdyn_handlingtimethreshold)</li><li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li><li>Incoming unauthenticated (msdyn_notificationtemplate_incoming_unauth)</li><li>Is Default (msdyn_isdefault)</li><li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li><li>Last Validation On (msdyn_lastvalidationon)</li><li>Last Validation Status (msdyn_lastvalidationstatus)</li><li>Matching Logic (msdyn_matchinglogic)</li><li>Max Concurrency (msdyn_maxconcurrentconnection)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Notification (msdyn_notification)</li><li>Notification scenario placeholder (msdyn_notificationscenarioplaceholder)</li><li>Outbound queue (msdyn_outboundqueueid)</li><li>Record Identification Rule (msdyn_recordidentificationrule)</li><li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li><li>Restrict download of recording (msdyn_restrictdownloadrecording)</li><li>Restrict download of transcript (msdyn_restrictdownloadtranscript)</li><li>Screen pop timeout (msdyn_screenpoptimeout)</li><li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li><li>Secure API Key (msdyn_secureapikey)</li><li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li><li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li><li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li><li>Session scenario placeholder (msdyn_sessionscenarioplaceholder)</li><li>SupervisorAssign (msdyn_notificationtemplate_supervisorassign)</li><li>Transfer (msdyn_notificationtemplate_transfer)</li><li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li><li>Work Distribution Mode (msdyn_workdistributionmode)</li><li>Work Stream (msdyn_liveworkstreamid)[**Sample 1: All voice workstreams**](#BKMK1vws)<br><br>[**Sample 2: Single voice workstream**](#BKMK2vws)<br><br>[**Sample 3: Multiple voice workstreams**](#BKMK3vws)|
-	|2.|Context Variable (msdyn_ocliveworkstreamcontextvariable)|<ul><li>Name (msdyn_name) </li><li> Relation Ship Name (msdyn_relationshipname) </li><li> Type (msdyn_datatype) </li><li> Work stream (msdyn_liveworkstreamid) </li><li> IsList (msdyn_islist) </li><li> Modifiable (msdyn_ismodifiable) </li><li> Display Name (msdyn_displayname) </li><li> Displayable (msdyn_isdisplayable) </li><li> Entity Logical Name (msdyn_entitylogicalname) </li><li> Context variable (msdyn_ocliveworkstreamcontextvariableid) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> System Defined (msdyn_issystemdefined) </li></ul>|[**Sample 1: Context Variables for all voice workstreams**](#BKMK1vwcv)<br><br> [**Sample 2: Context variables for a single voice workstream**](#BKMK2vwcv) <br><br> [**Sample 3: Context Variables for multiple voice workstreams**](#BKMK3vwcv) |
-	|3.|Decision contract (msdyn_decisioncontract)|<ul><li>Contract definition (msdyn_contractdefinition) </li><li> Decision contract (msdyn_decisioncontractid) </li><li> Name (msdyn_name) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision contract for all voice workstreams**](#BKMK1vwdc) <br><br>[**Sample 2: Decision contract for a single voice workstream**](#BKMK2vwdc)<br><br>[**Sample 3: Decision contract for multiple voice workstreams**](#BKMK3vwdc) |
-	|4.|Decision rule set (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid) </li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li> Input contract (msdyn_inputcontractid) </li><li> Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li> Rule set definition (msdyn_rulesetdefinition) </li><li> Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision ruleset for all voice workstreams**](#BKMK1vwdrs)<br><br>[**Sample 2: Decision ruleset for a single voice workstream**](#BKMK2vwdrs) <br><br>[**Sample 3: Decision ruleset for multiple voice workstreams**](#BKMK3vwdrs) |
+  |---------|---------|---------|---------|
+  |1.|Workstream (msdyn_liveworkstream)| <ul><li>API Key (msdyn_apikey) </li><li> API Key Version Number (msdyn_apikeyversionnumber)</li><li>Allow Automated Messages (msdyn_enableautomatedmessages) </li>Allowed Presences (msdyn_allowedpresences) </li><li> Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li><li>Auto-close after inactivity (msdyn_autocloseafterinactivity) </li><li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup) </li><li>Bot queue (msdyn_bot_queue) </li><li>Bot rule (msdyn_bot_rule)</li><li>Bot user (msdyn_bot_user)</li><li>CallbackPreviewDialing (msdyn_notificationtemplate_callback_previewdialing)</li><li>Connectors (msdyn_connectorsurl) </li><li>Consult (msdyn_notificationtemplate_consult) </li><li>Conversation mode of chat channels (msdyn_conversationmode)</li><li>Customer ID (msdyn_customerid)</li><li>Customer Disconnect Hold Duration For Open Conversation (msdyn_customerdisconnectholddurationforopenconversation)</li><li>Capacity (msdyn_capacityrequired)</li><li>Capacity format (msdyn_capacityformat)</li><li>Channel (msdyn_streamsource)</li><li>Contract Id (msdyn_routingcontractid) </li><li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li><li>Direction (msdyn_direction)</li><li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li><li>Entity (msdyn_masterentityroutingconfigurationid)</li><li>FallBack Language (msdyn_fallbacklanguage)</li><li>Follow-up after waiting (msdyn_followupafterwaiting)</li><li>Handling Time Threshold (msdyn_handlingtimethreshold)</li><li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li><li>Incoming unauthenticated (msdyn_notificationtemplate_incoming_unauth)</li><li>Is Default (msdyn_isdefault)</li><li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li><li>Last Validation On (msdyn_lastvalidationon)</li><li>Last Validation Status (msdyn_lastvalidationstatus)</li><li>Matching Logic (msdyn_matchinglogic)</li><li>Max Concurrency (msdyn_maxconcurrentconnection)</li><li>Mode (msdyn_mode)</li><li>Name (msdyn_name)</li><li>Notification (msdyn_notification)</li><li>Notification scenario placeholder (msdyn_notificationscenarioplaceholder)</li><li>Outbound queue (msdyn_outboundqueueid)</li><li>Record Identification Rule (msdyn_recordidentificationrule)</li><li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li><li>Restrict download of recording (msdyn_restrictdownloadrecording)</li><li>Restrict download of transcript (msdyn_restrictdownloadtranscript)</li><li>Screen pop timeout (msdyn_screenpoptimeout)</li><li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li><li>Secure API Key (msdyn_secureapikey)</li><li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li><li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li><li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li><li>Session scenario placeholder (msdyn_sessionscenarioplaceholder)</li><li>SupervisorAssign (msdyn_notificationtemplate_supervisorassign)</li><li>Transfer (msdyn_notificationtemplate_transfer)</li><li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li><li>Work Distribution Mode (msdyn_workdistributionmode)</li><li>Work Stream (msdyn_liveworkstreamid)|[**Sample 1: All voice workstreams**](#BKMK1vws)<br><br>[**Sample 2: Single voice workstream**](#BKMK2vws)<br><br>[**Sample 3: Multiple voice workstreams**](#BKMK3vws)|
+  |2.|Context Variable (msdyn_ocliveworkstreamcontextvariable)|<ul><li>Name (msdyn_name) </li><li> Relation Ship Name (msdyn_relationshipname) </li><li> Type (msdyn_datatype) </li><li> Work stream (msdyn_liveworkstreamid) </li><li> IsList (msdyn_islist) </li><li> Modifiable (msdyn_ismodifiable) </li><li> Display Name (msdyn_displayname) </li><li> Displayable (msdyn_isdisplayable) </li><li> Entity Logical Name (msdyn_entitylogicalname) </li><li> Context variable (msdyn_ocliveworkstreamcontextvariableid) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> System Defined (msdyn_issystemdefined) </li></ul>|[**Sample 1: Context Variables for all voice workstreams**](#BKMK1vwcv)<br><br> [**Sample 2: Context variables for a single voice workstream**](#BKMK2vwcv) <br><br> [**Sample 3: Context Variables for multiple voice workstreams**](#BKMK3vwcv) |
+  |3.|Decision contract (msdyn_decisioncontract)|<ul><li>Contract definition (msdyn_contractdefinition) </li><li> Decision contract (msdyn_decisioncontractid) </li><li> Name (msdyn_name) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision contract for all voice workstreams**](#BKMK1vwdc) <br><br>[**Sample 2: Decision contract for a single voice workstream**](#BKMK2vwdc)<br><br>[**Sample 3: Decision contract for multiple voice workstreams**](#BKMK3vwdc) |
+  |4.|Decision rule set (msdyn_decisionruleset)|<ul><li>AI builder model (msdyn_aibmodelid) </li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li> Input contract (msdyn_inputcontractid) </li><li> Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li> Rule set definition (msdyn_rulesetdefinition) </li><li> Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Decision ruleset for all voice workstreams**](#BKMK1vwdrs)<br><br>[**Sample 2: Decision ruleset for a single voice workstream**](#BKMK2vwdrs) <br><br>[**Sample 3: Decision ruleset for multiple voice workstreams**](#BKMK3vwdrs) |
    |5.|Routing configuration (msdyn_routingconfiguration)|<ul><li>Is active configuration (msdyn_isactiveconfiguration) </li><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Unique name (msdyn_uniquename) </li><li> Workstream (msdyn_liveworkstreamid) </li></ul>|[**Sample 1: Routing configuration for all voice workstreams**](#BKMK1vwrc)<br><br>[**Sample 2: Routing configuration for a single voice workstream**](#BKMK2vwrc) <br><br>[**Sample 3: Routing configuration for multiple voice workstreams**](#BKMK3vwrc) |
    |6.|Routing configuration step (msdyn_routingconfigurationstep)|<ul><li>Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>|[**Sample 1: Routing configuration step for all voice workstreams**](#BKMK1vwrcs)<br><br>[**Sample 2: Routing configuration step for a single voice workstream**](#BKMK2vwrcs) <br><br>[**Sample 3: Routing configuration step for multiple voice workstreams**](#BKMK3vwrcs)|
    |7.|Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)|<ul><li>Capacity Profile (msdyn_capacityprofile_id) </li><li> Name (msdyn_name) </li><li> Workstream (msdyn_workstream_id) </li><li> Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid) </li></ul>|[**Sample 1: Workstream capacity profile for all voice workstreams**](#BKMK1vwwcp)<br><br>[**Sample 2: Workstream capacity profile for a single voice workstream**](#BKMK2vwwcp)<br><br>[**Sample 3: Workstream capacity profile for multiple voice workstreams**](#BKMK3vwwcp) |
 
 3. Generate the schema and save it.
+
 4. Export the data and generate the compressed (zip) file.
+
 5. Use the Configuration Migration tool, and select the option to import data, and select the compressed file.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > When you fetch decision rulesets (msdyn_decisionrulesets) containing context variables, some decision rulesets are created without the dependency mappings. To work around this, perform the following steps:
 > 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
 > 2. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets are imported.
@@ -125,7 +127,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
   </entity> 
 </fetch>
 ```
-**Sample 2: Single voice workstreams**<a name="BKMK2vws"></a>
+**Sample 2: Single voice workstream**<a name="BKMK2vws"></a>
 
 ```XML
 <fetch>
@@ -136,7 +138,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
   </entity> 
 </fetch> 
 ```
-**Sample 2: Single voice workstreams**<a name="BKMK3vws"></a>
+**Sample 2: Multiple voice workstreams**<a name="BKMK3vws"></a>
 
 ```XML
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"> 
@@ -466,7 +468,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
 
 ### FetchXML for workstream capacity profile entity
 
-**Sample 1: Routing configuration step for multiple voice workstreams**<a name="BKMK1vwwcp"></a>
+**Sample 1: Workstream capacity profile for all voice workstreams**<a name="BKMK1vwwcp"></a>
 
 ```XML
 <fetch>
@@ -481,7 +483,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
 </fetch>
 ```
 
-**Sample 2: Routing configuration step for a single voice workstream**<a name="BKMK2vwwcp"></a>
+**Sample 2: Workstream capacity profile for a single voice workstream**<a name="BKMK2vwwcp"></a>
 
 ```XML
 <fetch>
@@ -494,7 +496,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
   </entity> 
 </fetch>
 ```
-**Sample 3: Routing configuration step for multiple voice workstreams**<a name="BKMK3vwwcp"></a>
+**Sample 3: Workstream capacity profile for multiple voice workstreams**<a name="BKMK3vwwcp"></a>
 
 ```XML
 <fetch>
@@ -524,15 +526,17 @@ Assume that the workstream must already exist; created manually or previously mi
 
   | S.No. | Entity display name (Logical name) | Attribute display name (Logical name) |
   |--------|---------|---------|
-  |1.|Voice Number Setting (msdyn_ocvoicechannelsetting)|[FetchXML to filter records for voice channel settings](#BKMK1vc) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - Don't include Phone Number (msdyn_phonenumberid) column even though data is invalid, as the records in Phone Number table are environment-specific and can’t be migrated. You need to fix phone number manually in destination environment after migration. If you aren't allowed to perform this action for any reason, you can manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") <br> <ul><li> Announce average wait time (msdyn_announceaveragewaittime) </li><li> Announce position in queue (msdyn_announcepositioninqueue) </li><li> Enable agent control of the recording (msdyn_agentrecordingcontrolsenabled) </li><li> Enable agent control of the transcription (msdyn_agenttranscriptioncontrolsenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li> Name (msdyn_name) </li><li> Operating hours (msdyn_operatinghoursid) </li><li> Recording Enabled (msdyn_recordingenabled) </li><li> Recording mode (msdyn_recordingmode) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Transcription Enabled (msdyn_transcriptionenabled) </li><li> Transcription mode (msdyn_transcriptionmode) </li><li> Voice Channel Setting (msdyn_voicechannelsettingid) </li><li> Work stream (msdyn_liveworkstreamid) </li></ul>|
+  |1.|Voice Channel Setting (msdyn_ocvoicechannelsetting)|[FetchXML to filter records for voice channel settings](#BKMK1vc) <br> **Note:** <br> - Replace the value for msdyn_liveworkstream in the condition section. <br> - Don't include Phone Number (msdyn_phonenumberid) column as records in Phone Number table are environment-specific and can’t be migrated. You need to assign phone number manually in destination environment. If you aren't allowed to perform this action for any reason, you can include Phone Number column. But, before you import, you need to manually edit data.xml file inside the exported zip file and replace its value with the correct phone number GUID in the destination environment. <br> - Ensure as part of the entity declaration in the schema that the plugin is enabled. (disableplugins="false") <br> <ul><li> Announce average wait time (msdyn_announceaveragewaittime) </li><li> Announce position in queue (msdyn_announcepositioninqueue) </li><li> Enable agent control of the recording (msdyn_agentrecordingcontrolsenabled) </li><li> Enable agent control of the transcription (msdyn_agenttranscriptioncontrolsenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li> Enable agent control to add an external participant (msdyn_agentexternalparticipantcontrolenabled) </li><li>Enable agent control to add an external participant on Teams (msdyn_agentexternalteamsparticipantcontrolenabled)</li><li> Name (msdyn_name) </li><li> Operating hours (msdyn_operatinghoursid) </li><li> Recording Enabled (msdyn_recordingenabled) </li><li> Recording mode (msdyn_recordingmode) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Transcription Enabled (msdyn_transcriptionenabled) </li><li> Transcription mode (msdyn_transcriptionmode) </li><li> Voice Channel Setting (msdyn_voicechannelsettingid) </li><li> Work stream (msdyn_liveworkstreamid) </li></ul>|
   |2.|Localization (msdyn_oclocalizationdata) |[FetchXML to filter records for voice channel localizations](#BKMK2vc) <br> <ul> <li> Automated message (msdyn_systemmessageid)</li><li> Default Localized Text (msdyn_defaultlocalizedtext)</li><li> Entity Column Name (msdyn_entitycolumnname)</li><li> Entity Name (msdyn_entityname)</li><li> Entity Record ID (msdyn_entityrecordid)</li><li> Is default (msdyn_isdefault)</li><li> Language code (msdyn_customerlanguageid)</li><li> Language Code (msdyn_languagecode)</li><li> Localization (msdyn_oclocalizationdataid)</li><li> Localized text (msdyn_localizedtext)</li><li> Organization ID (organizationid)</li><li> Status (statecode)</li><li> Status Reason (statuscode)</li></ul>|
   |3.|Message (msdyn_ocsystemmessage)|<ul> <li> Channel (msdyn_streamsource) </li><li> Default language (msdyn_defaultlanguage) </li><li> Instance ID (msdyn_instanceid) </li><li> Message (msdyn_ocsystemmessageid) </li><li> Message description (msdyn_messagedescription)</li><li> Message recipient (msdyn_messagereceiver) </li><li> Message template trigger (msdyn_messagetemplatetrigger)</li><li> Message Text (msdyn_messagetext) </li><li> Message trigger (msdyn_systemmessageeventtype) </li><li> Message type (msdyn_messagetype) </li><li> Name (msdyn_name) </li><li> Organization ID (organizationid) </li> <li> Status (statecode) </li><li> Status Reason (statuscode) </li></ul>|
   |4.|Voice (msdyn_ocvoice)|<ul> <li> Language (msdyn_languageid) </li><li> Name (msdyn_name) </li><li> pitch (msdyn_pitch) </li><li> speaking speed (msdyn_speakingspeed) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> voice (msdyn_ocvoiceid) </li><li> voice name (msdyn_voicename) </li><li> voice style (msdyn_voicestyle) </li></ul>|
-  |5.|Voice Channel Language Setting (msdyn_ocvoicechannellanguagesetting) | <br> **Note:** <br> - Before migrating this table, make sure Survey bot systemuser (msdyn_surveybotsystemuserid) exists in User (systemuser) table, and all music files referenced by Hold music (msdyn_holdmusicid) and Wait music (msdyn_waitmusicid) columns in each record already exist in the Phone Music (msdyn_ocphonemusic) table of destination environment. Unfortunately, Phone Music table has file columns and can’t be migrated. <br><ul> <li> Hold music (msdyn_holdmusicid) </li><li> Is Primary (msdyn_isprimary) </li><li> Language (msdyn_languageid) </li><li> Name (msdyn_name) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey bot systemuser (msdyn_surveybotsystemuserid) </li><li> Voice (msdyn_ocvoiceid) </li><li> Voice Channel Language Setting (msdyn_ocvoicechannellanguagesettingid) </li><li> voice channel setting (msdyn_ocvoicechannelsettingid) </li><li> voice channel setting (msdyn_ocvoicechannelsettingid) </li></ul>|
-  |6.|Provisioning State (msdyn_ocprovisioningstate) |[FetchXML to filter records for voice channel localizations](#BKMK3vc) <br><ul> <li> voicechannelsettingsid (msdyn_ocvoicechannelsettingsid) </li><li> Name (msdyn_name) </li></ul>|
+  |5.|Voice Channel Language Setting (msdyn_ocvoicechannellanguagesetting) | <br> **Note:** <br> - Before migrating this table, make sure Survey bot systemuser (msdyn_surveybotsystemuserid) exists in User (systemuser) table, and all music files referenced by Hold music (msdyn_holdmusicid) and Wait music (msdyn_waitmusicid) columns in each record already exist in the Phone Music (msdyn_ocphonemusic) table of destination environment. Unfortunately, Phone Music table has file columns and can’t be migrated. <br><ul> <li> Hold music (msdyn_holdmusicid) </li><li> Is Primary (msdyn_isprimary) </li><li> Language (msdyn_languageid) </li><li> Name (msdyn_name) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Survey bot systemuser (msdyn_surveybotsystemuserid) </li><li> Voice (msdyn_ocvoiceid) </li><li> Voice Channel Language Setting (msdyn_ocvoicechannellanguagesettingid) </li><li> Voice channel setting (msdyn_ocvoicechannelsettingid) </li><li> Wait music (msdyn_waitmusicid) </li></ul>|
+  |6.|Provisioning State (msdyn_ocprovisioningstate) |[FetchXML to filter records for voice provisioning states](#BKMK3vc) <br><ul> <li> voicechannelsettingsid (msdyn_ocvoicechannelsettingsid) </li><li> Name (msdyn_name) </li></ul>|
 
 2. Generate the schema and save it.
+
 3. Export the data and generate the compressed (zip) file.
+
 4. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
 ### FetchXML for voice channel settings<a name="BKMK1vc"></a>
@@ -549,7 +553,21 @@ Assume that the workstream must already exist; created manually or previously mi
 </fetch>  
 ```
 
-### FetchXML for voice provisioning state<a name="BKMK2vc"></a>
+### FetchXML or voice channel localizations<a name="BKMK2vc"></a>
+
+```XML
+<fetch>
+  <entity name="msdyn_oclocalizationdata"> 
+    <link-entity name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ah"> 
+      <filter type="and"> 
+        <condition attribute="msdyn_streamsource" operator="eq" uiname="192440000"/> 
+      </filter>
+    </link-entity> 
+  </entity> 
+</fetch>  
+```
+
+### FetchXML for voice provisioning state<a name="BKMK3vc"></a>
 
 ```XML
 <fetch>
@@ -563,20 +581,6 @@ Assume that the workstream must already exist; created manually or previously mi
     </link-entity> 
   </entity> 
 </fetch>
-```
-
-### FetchXML or voice channel localizations<a name="BKMK3vc"></a>
-
-```XML
-<fetch>
-  <entity name="msdyn_oclocalizationdata"> 
-    <link-entity name="msdyn_ocsystemmessage" from="msdyn_ocsystemmessageid" to="msdyn_systemmessageid" link-type="inner" alias="ah"> 
-      <filter type="and"> 
-        <condition attribute="msdyn_streamsource" operator="eq" uiname="192440000"/> 
-      </filter>
-    </link-entity> 
-  </entity> 
-</fetch>  
 ```
 ## Verify your migration
 
