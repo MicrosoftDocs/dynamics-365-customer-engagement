@@ -6,7 +6,7 @@ ms.author: laalexan
 ms.reviewer: shujoshi
 ms-service: dynamics-365
 ms.topic: how-to
-ms.date: 08/23/2023
+ms.date: 08/25/2023
 ms.custom: bap-template
 ---
 
@@ -37,7 +37,7 @@ The following table lists the components in Omnichannel for Customer Service tha
 | ------------ | ------------- |
 |Entities      |<li>Feedback</li> <li>Goal</li><li>Phone to Case Process</li> <li>Social activity</li>|
 |Views         |<li>Views from the four entities (Feeback, Goal, Phone to Case Process, and Social activity)</li> <li>Omnichannel for Customer Service has all the views selected but Customer Service workspace has selected views only. Include all the views from Account, Case, and Contact entity in the Customer Service workspace app.</li>|
-|Forms         |<li>Forms from the four entities ((Feeback, Goal, Phone to Case Process, and Social activity)</li><li>Account - Account for Interactive experience (default), TimelineWallControl - Case - Main </li><li> Case: Case for Interactive experience (default), TimelineWallControl - Case - Main</li><li>Contact - Contact for Interactive experience</li>|
+|Forms         |<li>Forms from the four entities (Feeback, Goal, Phone to Case Process, and Social activity)</li><li>Account - Account for Interactive experience (default), TimelineWallControl - Case - Main </li><li> Case: Case for Interactive experience (default), TimelineWallControl - Case - Main</li><li>Contact - Contact for Interactive experience</li>|
 |Dashboards    |<li>Omnichannel Agent dashboard</li><li>Omnichannel Ongoing Conversations dashboard</li>|
 |Business Process Flow   |<li>Phone to Case Process</li><li>Users</li>   |
 |Site map       |<li>Routing diagnostics</li> |
