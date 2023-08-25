@@ -141,8 +141,8 @@ additionalContent:
       links:
       - url: set-up-customer-agreements.md
         text: Agreements to automatically generate work orders and invoices
-      - url: sla-work-orders.md
-        text: Service level agreements
+      - url: set-up-agreement-sub-statuses.md
+        text: Agreement sub-statuses
       - url: inventory-purchasing-returns-overview.md
         text: Inventory, purchasing, and returns
     - title: Integrations

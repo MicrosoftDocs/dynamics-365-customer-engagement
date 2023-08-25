@@ -70,7 +70,7 @@ Admins can configure NTE records in the Settings area after activating the capab
    - **Delete** to remove an NTE record.
    - Select an existing NTE record to **edit** its properties.
 
-## Application of NTE configuration/Logic of applying NTE
+## Application of NTE configuration and logic of applying NTE
 
 NTEs of type Price and Cost Margin are always selected before NTEs of type Price or Cost. If any Price and Cost Margin NTE is applicable for a work order, Price and Cost NTEs will never be considered for that work order.
 
@@ -89,6 +89,14 @@ Technicians who use the Field Service Mobile app can see the not-to-exceed value
 However, you can still save work orders when ignoring the warning.
 
 Using the [Field Service Mobile application in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
+
+## Applied amount on work orders
+
+The work order not-to-exceed's applied amount represents the actual NTE amount applied on the work order. The not-to-exceed source informs you where the defined amount came from. If the applied amount is manually set, the source is set as *user specified*. Without manual edits, the system selects the applicable NTE record and copies its amount into the applied amount on the work order. In this case, the source is set to *system specified* and the work order NTE references the selected NTE record.
+
+If you reset a manually entered NTE amount on the work order form, the source changes back to *system specified* and the applied amount updates to the amount from the system selected NTE.
+
+Work order NTE should be primarily interacted with by the system during NTE selection and by users on the work order form. Customization on work order NTE could interfere with the automated behavior.
 
 ## Next steps
 

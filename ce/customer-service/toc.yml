@@ -64,6 +64,8 @@
       href: system-requirements-omnichannel.md
     - name: Service quotas
       href: service-quotas.md
+    - name: Best practices to set up voice channel
+      href: voice-channel-best-practices.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -1860,6 +1862,8 @@
       href: troubleshoot-delete-managed-solution.md
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
+    - name: Use diagnostic messages to troubleshoot issues in voice calls
+      href: /troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues?context=/dynamics365/context/customer-service-context
     - name: Troubleshoot issues using Solution Health Hub
       href: troubleshoot-using-solution-health-hub.md
     - name: Troubleshoot issues with integrated search providers
