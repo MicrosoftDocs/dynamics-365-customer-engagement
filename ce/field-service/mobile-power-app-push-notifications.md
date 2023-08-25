@@ -184,7 +184,4 @@ The push notifications will be shown to the technician using the mobile phone. F
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
 
 
-> [!Note]
-> Push notifications are currently not available on Field Service (Dynamics 365) Windows app.
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
