@@ -2,8 +2,6 @@
 title: "Deprecation: Dynamics 365 for Customer Engagement"
 description: Learn about the Dynamics 365 for Customer Engagement deprecation and next steps.
 ms.date: 06/28/2023
-ms.custom: 
-  - dyn365-marketing
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -25,7 +23,10 @@ In October 2019, Microsoft deprecated the *Dynamics 365 for Customer Engagement*
 - Dynamics 365 Field Service
 - Dynamics 365 Project Service Automation
 
-As of 2022, Dynamics 365 for Customer Engagement licenses purchased prior to the deprecation are now expiring. Licenses for the current customer engagement apps may be purchased individually. Learn more: [Dynamics 365 pricing](/dynamics365/licensing/update).
+> [!NOTE]
+> Under the Dynamics 365 for Customer Engagement SKU/license plan, customers were allowed to use Marketing if they had at least 10 seats of either the CRM or ERP applications.
+
+As of 2022, Dynamics 365 for Customer Engagement licenses purchased prior to the deprecation began expiring. Licenses for the current customer engagement apps may be purchased individually. Learn more: [Dynamics 365 pricing](/dynamics365/licensing/update).
 
 You can learn about migrating your data to a new Marketing instance in the [Tenant to tenant migration for Dynamics 365 Marketing](tenant-to-tenant.md) article.
 
