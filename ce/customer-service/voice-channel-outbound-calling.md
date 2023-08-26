@@ -1,7 +1,7 @@
 ---
 title: "Set up outbound calling in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how you can set up outbound calling for phone numbers in your organization."
-ms.date: 06/16/2023
+ms.date: 08/10/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -51,7 +51,8 @@ To check whether a phone number is enabled for outbound calling, go to **General
 The phone number will now be displayed to your customers when your agents call them.
 
 > [!NOTE]
-> Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
+> - Though you can use the same queue for both inbound and outbound calling, we recommend that you create separate queues for inbound and outbound calling. This will help your supervisors monitor and gauge traffic and customer sentiment, specific to outbound calls.
+> - To configure call transfer to an external number to manage overflow, outbound calling must be enabled.
 
 ## Configure capacity profiles and assign users
 

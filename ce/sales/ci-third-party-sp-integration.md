@@ -1,7 +1,7 @@
 ﻿---
-title: Integrate third-party dialers with Dynamics 365 conversation intelligence
+title: Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
-ms.date: 06/20/2023
+ms.date: 08/09/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -9,9 +9,13 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Integrate third-party dialers with Dynamics 365 conversation intelligence
+# Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 With this integration, Dynamics 365 users can use dialers provided by third-party telephony companies such as Twilio Flex, to make and receive phone calls in Dynamics 365, and get real-time AI-generated insights and rich post-call analysis of their calls. [Learn more about Dynamics 365 conversation intelligence](dynamics365-sales-insights-app.md)  
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 ## How the integration works
 

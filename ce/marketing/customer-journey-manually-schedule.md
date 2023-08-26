@@ -15,6 +15,8 @@ search.audienceType:
 
 # Manually schedule contacts and email delivery
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Customer journeys feature multiple mechanisms that allow you to set schedules so you can target contacts at the right time. You can use these mechanisms to select the days and time window during which an action (such as sending an email or creating a task) should happen. This article discusses how to manually schedule actions in customer journeys.
 
 ## Set specific times for actions to take place

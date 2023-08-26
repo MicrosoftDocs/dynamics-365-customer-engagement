@@ -1,5 +1,5 @@
 ---
-title: Configure Copilot features for custom case forms and custom apps
+title: Configure copilot features for custom case forms and custom apps (preview)
 description: Learn how to enable Copilot features for custom case forms and custom apps.
 author: gandhamm
 ms.author: mgandham
@@ -10,16 +10,11 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Configure Copilot features for custom case forms and custom apps (preview)
+# Configure copilot features for custom case forms and custom apps (preview)
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 You can configure the Copilot case summary on custom case forms and enable the Copilot features for custom apps.
 

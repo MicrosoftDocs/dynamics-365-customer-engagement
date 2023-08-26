@@ -16,6 +16,8 @@ search.audienceType:
 
 # Record and view financial information for events
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 You can record financial information for your events with Dynamics 365 Marketing. For example, you can:
 
 - Record speaker costs (standard cost or for an engagement).

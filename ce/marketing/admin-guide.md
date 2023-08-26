@@ -16,6 +16,8 @@ search.audienceType:
 
 # Administrator guide (Marketing)
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 <table>
 
 <tr><td>

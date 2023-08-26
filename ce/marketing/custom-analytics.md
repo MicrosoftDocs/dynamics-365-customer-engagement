@@ -15,6 +15,8 @@ search.audienceType:
 
 # Prepare for analytic reporting with Power BI
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 > [!IMPORTANT]
 > This documentation refers to the process of creating custom reports for outbound marketing only.
 
@@ -36,7 +38,8 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
 Watch [the following video](https://www.youtube.com/watch?v=pBrB1BohUrE)
 for a quick overview of all the data that is available for your marketing analytical reports.<br/><br/>
 
-<div class="embeddedvideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/pBrB1BohUrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
+> [!VIDEO https://www.youtube.com/embed/pBrB1BohUrE]
+-->
 
 <a name="connect-blob"></a>
 

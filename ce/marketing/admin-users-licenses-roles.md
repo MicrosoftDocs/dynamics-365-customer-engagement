@@ -16,6 +16,8 @@ search.audienceType:
 
 # Manage user accounts, user licenses, and security roles
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 [!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 Read this article to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.

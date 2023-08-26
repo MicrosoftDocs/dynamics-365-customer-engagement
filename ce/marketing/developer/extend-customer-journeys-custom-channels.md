@@ -13,6 +13,8 @@ search.audienceType:
 
 # Extend customer journeys using custom channels
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Customer journey orchestration in Dynamics 365 Marketing lets marketers create multi-step, multi-channel marketing campaigns that target a specific segment, deliver marketing email messages, respond to contact interactions, launch workflows, and more. More information: [Use customer journeys to create automated campaigns](../../marketing/customer-journeys-create-automated-campaigns.md)
 
 Customer journeys are built by adding tiles from the in-place menu on the designer canvas to build the journey execution flow. Beyond the [out-of-the box tiles](../../marketing/customer-journey-tiles-reference.md) provided for customer journeys, partners can create **custom channels** to extend the marketing capabilities in Dynamics 365 Marketing. 

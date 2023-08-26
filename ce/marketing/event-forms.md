@@ -16,6 +16,8 @@ search.audienceType:
 
 # Use marketing forms for event registration
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The event management application now allows you to use marketing forms for event registrations. You can create forms with a variety of fields, embed forms on your website, and use the forms for event registration.
 
 > [!NOTE]

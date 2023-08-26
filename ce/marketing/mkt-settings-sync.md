@@ -16,6 +16,8 @@ search.audienceType:
 
 # Sync entities and track insights using Dataset configuration
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The Dataset configuration settings allow you to choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing. Tracking insights allows you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The Dataset configuration settings also make dynamic field values available for use in marketing email messages as they are processed and sent.
 
 The analytical and data-crunching capabilities of the insights capabilities are powerful, but also resource-intensive, so the solution maximizes performance by synchronizing only the relevant customer and account data. The insights capabilities also collect and manage all interaction data. For optimal performance and functionality, choose only the entities you need.

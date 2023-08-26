@@ -17,6 +17,8 @@ search.audienceType:
 
 # Manage and apply roles to teams
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 ## Create a team

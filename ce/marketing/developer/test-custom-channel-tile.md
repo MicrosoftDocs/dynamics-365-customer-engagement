@@ -13,6 +13,8 @@ search.audienceType:
 
 # Step 4: Test your custom channel tile
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 To make the custom channel tile available in the customer journey designer:
 
 1. Create a solution. More information: [Create a solution](/powerapps/maker/common-data-service/create-solution).

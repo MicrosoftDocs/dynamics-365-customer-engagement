@@ -16,6 +16,8 @@ search.audienceType:
 
 # Email bounce categories
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 To identify the cause of bounced campaign emails, Dynamics 365 Marketing includes a bounce categorization feature. The bounce categorization feature groups typical bounce errors into bounce categories. Each category represents a type and reason for bounced emails. Here is the list of bounce categories we use:
 
 - invalid-mailbox  

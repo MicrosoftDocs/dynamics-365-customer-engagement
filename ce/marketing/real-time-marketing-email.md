@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create real-time marketing emails
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). As with the outbound marketing email editor, the real-time marketing editor allows you to quickly create personalized emails to capture your customers' attention.
 
 Learn more about creating email in Dynamics 365 Marketing: [Create a new email and design its content](email-design.md)
