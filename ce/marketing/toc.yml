@@ -320,6 +320,8 @@
         href: real-time-marketing-email-text-consent.md
       - name: Real-time marketing preference centers
         href: real-time-marketing-preference-centers.md
+      - name: Consent management and double opt-in transition guidance
+        href: real-time-marketing-consent-transition.md
       - name: Migrate consent records to real-time marketing
         href: real-time-marketing-migrate-consent.md
       - name: Use outbound subscription centers in real-time journeys
