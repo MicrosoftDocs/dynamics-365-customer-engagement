@@ -90,7 +90,7 @@ The following picture shows the different settings:
 > [!div class="mx-imgBorder"]
 > ![Comparison of contact versus subscription list settings.](media/real-time-marketing-consent-transition-5.png)
 
-The **Load consent** function loads the data from the **DoNotBulkEmail** and **DoNotEmail** attributes for contact and lead consent. The function should be used when the contact point consent center is populated because real-time marketing relies on those settings. The function can also be used multiple times, for example, if multiple subscription lists should be migrated to different topics in real-time marketing. See also: [Adding consent data to real-time marketing](ce/marketing/real-time-marketing-migrate-consent)
+The **Load consent** function loads the data from the **DoNotBulkEmail** and **DoNotEmail** attributes for contact and lead consent. The function should be used when the contact point consent center is populated because real-time marketing relies on those settings. The function can also be used multiple times, for example, if multiple subscription lists should be migrated to different topics in real-time marketing. See also: [Adding consent data to real-time marketing](real-time-marketing-migrate-consent.md)
 
 Because the contact point consent settings are only updated when using preference centers, outbound marketing forms and pages that update consent shouldn't be used once the migration has been done.
 
