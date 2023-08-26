@@ -18,7 +18,7 @@ More functionality and features are added Dynamics 365 Marketing each month. Cur
 When it comes to consent management and related topics, the two Marketing engines have their own concepts:
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot.](media/real-time-marketing-consent-transition-1.png)
+> ![Comparison of outbound and real-time consent.](media/real-time-marketing-consent-transition-1.png)
 
 To determine if a message was sent out to a contact or lead, the following processing takes place:
 
@@ -27,7 +27,7 @@ In outbound marketing, the journey verifies the information within the indicated
 In real-time marketing, the processing is different. As the journey starts and when a message is to be processed, it checks against the compliance profile selected for the message to be sent. Real-time marketing uses two types of compliance profiles (preference center and subscription center), which are configured by an administrator depending on the type of consent management page to be used in the message. With both types of compliance profiles, processing checks the attributes **DoNotBulkEmail** and **DoNotEmail** on the contact profile and uses the information on the topic and purpose for the compliance profile to finish preparing and eventually send the message.
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot.](media/real-time-marketing-consent-transition-2.png)
+> ![Outbound versus real-time consent processing chart.](media/real-time-marketing-consent-transition-2.png)
 
 One characteristic to note is that the use of the **DoNotBulkEmail** and **DoNotEmail** attributes on the contact profile is common to both outbound and real-time marketing. Additionally, real-time marketing is able to use subscription centers as the page where consent can be captured, making the transition from outbound marketing to real-time marketing easier.
 
@@ -48,7 +48,7 @@ According to [the general data protection regulation (GDPR)](https://gdpr-info.e
 Customers provide their consent typically through a form and a checkbox, which explicitly needs to be checked by the customer to submit the form (single opt-in). In situations where double opt-in is required, the submission of the form alone doesn't satisfy the privacy requirements. Companies are required to send a confirmation email that their customers must open and click on a confirmation link to verify that it was indeed their idea to opt in.
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot.](media/real-time-marketing-consent-transition-3.png)
+> ![Double opt-in process chart.](media/real-time-marketing-consent-transition-3.png)
 
 This process applies too on the update of marketing preferences (opt-in or opt-out).
 
@@ -67,7 +67,7 @@ For **Transactional** and **Commercial** purposes, it's also possible to define 
 The following picture shows the connection between these entities.
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot.](media/real-time-marketing-consent-transition-4.png)
+> ![Compliance profiles flow chart.](media/real-time-marketing-consent-transition-4.png)
 
 It's possible for an organization to have multiple compliance profiles in place, for example, for each subsidiary or country and each with different consent purposes.
 
@@ -88,7 +88,7 @@ This can be used for the following procedures:
 The following picture shows the different settings:
 
 > [!div class="mx-imgBorder"]
-> ![Cart custom event screenshot.](media/real-time-marketing-consent-transition-5.png)
+> ![Comparison of contact versus subscription list settings.](media/real-time-marketing-consent-transition-5.png)
 
 The **Load consent** function loads the data from the **DoNotBulkEmail** and **DoNotEmail** attributes for contact and lead consent. The function should be used when the contact point consent center is populated because real-time marketing relies on those settings. The function can also be used multiple times, for example, if multiple subscription lists should be migrated to different topics in real-time marketing. See also: [Adding consent data to real-time marketing](ce/marketing/real-time-marketing-migrate-consent)
 
