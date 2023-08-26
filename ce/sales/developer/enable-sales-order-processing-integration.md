@@ -2,22 +2,23 @@
 title: Enable sales order processing integration
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
 ms.date: 03/29/2023
-ms.topic: get-started-article
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
+  - bap-template
 ---
 # Enable sales order processing integration 
 
 Connect Dynamics 365 Sales with an external order processing application by enabling this integration.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-
 
 ## How the integration works?
 

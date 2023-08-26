@@ -16,6 +16,8 @@ search.audienceType:
 
 # Export dynamic segment members to Excel
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Export members from a dynamic segment straight to an Excel file, no matter how large the segment is. To export dynamic segment members to Excel:
 
 1. Go to **Marketing** > **Customers** > **Segments**.

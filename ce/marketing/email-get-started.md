@@ -16,6 +16,8 @@ search.audienceType:
 
 # Get started with email
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 This article provides a checklist to get email in Dynamics 365 Marketing up and running quickly.
 
 ## Set up bulk mailings, manage subscriptions and the double opt-in process

@@ -13,6 +13,8 @@ search.audienceType:
 
 # Account-based marketing
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Account-based marketing helps marketers working in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
 
 - **Account-based journeys**, which can generate account leads, trigger decisions at the account level, assign activities related to accounts, provide account-based insights, and more.

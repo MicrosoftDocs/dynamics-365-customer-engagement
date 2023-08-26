@@ -16,6 +16,8 @@ search.audienceType:
 
 # Deliverability recommendations when changing ESPs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Changing your email service provider (ESP) is a complex and sensitive process. Errors during the changeover process can negatively impact deliverability, resulting in reduced engagement.
 
 To mitigate risks, we’ve assembled a list of recommendations to follow when switching ESPs. Following these steps will help safeguard your email deliverability and maintain a good sending reputation.

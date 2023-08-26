@@ -14,6 +14,8 @@ search.audienceType:
 
 # Customer Journey workflow definition
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 The Customer Journey design is persisted in JSON format in the **msdyncrm_workflowdefinition** attribute of the **msdyncrm_customerjourney** entity. The JSON serialized customer journey design is called *Customer Journey workflow definition*.  
  
 The customer journey designer control on the main form of the Customer Journey entity is data bound to the **msdyncrm_workflowdefinition** field. The customer journey designer can present, edit, serialize, and deserialize workflow design.

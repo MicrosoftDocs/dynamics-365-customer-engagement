@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create and manage customer journey templates
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Each time you create a new customer journey, you're asked to select from a gallery of _customer journey templates_ that are available on your instance.
 
 ![The customer journey template gallery.](media/customer-journey-template.png "The customer journey template gallery")

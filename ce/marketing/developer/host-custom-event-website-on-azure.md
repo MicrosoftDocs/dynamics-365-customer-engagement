@@ -14,6 +14,8 @@ search.audienceType:
 
 # Host your custom event website on Azure
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 This topic walks you through the process of hosting your custom event website on **Azure**. More information [Build and host custom event website](event-management-web-application.md).
 
 ## Prerequisites

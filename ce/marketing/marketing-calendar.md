@@ -16,6 +16,8 @@ search.audienceType:
 
 # Work with marketing calendars
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The marketing calendar provides a calendar-style view where you can see and create time-based items like journeys, events, sessions, and appointments. It resembles Microsoft Outlook in both appearance and use.
 
 The calendar is provided as a control that admins and customizers can add to, and optimize for, any form or entity in the system.

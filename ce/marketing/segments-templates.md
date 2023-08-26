@@ -16,6 +16,8 @@ search.audienceType:
 
 # Work with segment templates
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Like many entities in Dynamics 365 Marketing, segments support templates, each of which provides an initial collection of settings that help users get started creating common types of segments more quickly.
 
 ## Create a segment based on a template

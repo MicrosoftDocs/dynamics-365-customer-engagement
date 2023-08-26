@@ -15,6 +15,8 @@ search.audienceType:
 
 # Check your work using previews and test sends
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. Dynamics 365 Marketing provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
 > [!IMPORTANT]

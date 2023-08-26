@@ -3,7 +3,7 @@ title: "createTab method (app profile manager) JavaScript API Reference | Micros
 description: "Learn about the createTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
-ms.date: 02/08/2023
+ms.date: 08/09/2023
 ms.topic: reference
 ---
 
@@ -83,6 +83,44 @@ Creates a new tab in the focused session passing a web resource as parameter for
 ```JavaScript
 var tabInput = {templateName: "msdyn_omnichannel_kbsearch", isFocused: true};
 Microsoft.Apm.createTab(tabInput);
+```
+
+### Create a tab with Power Apps component framework control page
+
+Creates a new tab in the focused session passing a framework control as a parameter for the app tab template. The control is passed from the API call.
+
+```JavaScript
+var controlDataParams = {};
+controlDataParams["<parameter>"] = "<Value>";
+
+x = new Map();
+x.set("<custom_session_context_params_key>", "<Value>");
+x.set("parametersStr", '[["controlName", "<Control_Name>"], ["data",'+JSON.stringify(controlDataParams)+']]');
+
+Microsoft.Apm.createSession(
+    {
+        templateName: "<template_name>",
+        sessionContext: x
+    });
+
+```
+
+You can also pass the following parameters:
+
+```JavaScript
+var controlDataParams = {};
+controlDataParams["<parameter>"] = "<Value>";
+
+x = new Map();
+x.set("<custom_session_context_params_key>", JSON.stringify(controlDataParams));
+x.set("<additional_custom_session_params>", "<Value>");
+
+Microsoft.Apm.createSession(
+    {
+        templateName: "<template_name>",
+        sessionContext: x
+    });
+
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,7 @@
 ---
-title: "Use custom attributes to enable designer features in templates (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing."
-ms.date: 02/01/2019
-
-ms.custom: 
-  - dyn365-marketing
+title: Use custom attributes to enable designer features in templates
+description: How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing.
+ms.date: 08/02/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -16,7 +13,12 @@ search.audienceType:
 
 # Use custom attributes to enable designer features in emails, pages, and forms
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The content designers provide both a graphical editor and an HTML code editor. The HTML that they generate is compatible with any HTML renderer, but they also support a few custom attributes that support the drag-and-drop design elements and general style settings provided by the graphical editor. The default message templates and page templates provided with Dynamics 365 Marketing make use of these custom attributes to make it easier for you to customize them in specific ways. You can also make use of these custom attributes when designing your own templates.
+
+> [!TIP]
+> Microsoft doesn't provide support for custom HTML in emails.
 
 ## Tag and attribute summary
 

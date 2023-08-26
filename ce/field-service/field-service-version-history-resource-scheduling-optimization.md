@@ -20,34 +20,38 @@ For information about older versions, see [Version history archive](version-hist
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|
 |**Station 1** | | |  | |
-| | *First Release* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180 | 3/17/2023
+| | *First Release* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD | TBD
 |**Station 2** | | |  | |
-| | *South America* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180 | 3/31/2023
-| | *Canada* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072)  | 3.4.0.180  | 3/31/2023
-| | *India* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180  | 3/31/2023
-| | *France* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180  | 3/31/2023
-| | *United Arab Emirates* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180  | 3/31/2023
-| | *South Africa* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180  | 3/31/2023
-| | *Germany* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072)  | 3.4.0.180  | 3/31/2023
-| | *Switzerland* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072)  | 3.4.0.180  | 3/31/2023
+| | *South America* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD | TBD
+| | *Canada* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  | TBD  | TBD
+| | *India* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD  | TBD
+| | *France* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD  | TBD
+| | *United Arab Emirates* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD  | TBD
+| | *South Africa* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD  | TBD
+| | *Germany* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  | TBD  | TBD
+| | *Switzerland* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)  | TBD  | TBD
 |**Station 3** | |  |  | |
-| | *Japan* |  [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072)| 3.4.0.180  | 4/7/2023
-| | *Asia Pacific* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180 | 4/7/2023
-| | *United Kingdom* |[3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340728) | 3.4.0.180  | 4/7/2023
-| | *Oceania* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180   | 4/7/2023
+| | *Japan* |  [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)| TBD  | TBD
+| | *Asia Pacific* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD | TBD
+| | *Great Britain* |[3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD  | TBD
+| | *Oceania* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | TBD   | TBD
 |**Station 4** | |  |  | |
-| | *Europe* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180   | 4/7/2023
+| | *Europe* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | TBD   | TBD
 |**Station 5** | |  |  | |
-| | *North America* | [3.4.0.72](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#34072) | 3.4.0.180 | 4/14/2023
+| | *North America* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | TBD | TBD
 |**Station 6** | |  |  | |
-| | *Government Community Cloud* | [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | 3.4.0.180  | 4/21/2023
-| | *China* |  [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408)| 3.4.0.180 | 4/21/2023
-| | *Dedicated Scale Groups* |  [3.4.0.8](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3408) | 3.4.0.180  | 4/21/2023
+| | *Government Community Cloud* | [3.4.0.459](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | TBD  | TBD
+| | *China* |  [TBD](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199)| TBD | TBD
+| | *Dedicated Scale Groups* |  [TBD](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#335199) | TBD  | TBD
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.4.0.459
+
+ - Bug fix: Addressed issue where resource schedules were incorrectly ignored when there is a booking overlapping with optimization range start or end time.
 
 ## 3.4.0.254
 

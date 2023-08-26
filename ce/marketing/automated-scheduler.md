@@ -17,6 +17,8 @@ search.audienceType:
 
 # Automatically select the best time to send an email message
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 By analyzing historical data, the automated scheduler selects the best time to send an email message, within a time window that is unique to each contact.
 
 The time window the automated schedule selects is based on the time that each contact arrives at the email tile. The time window is unique to each contact. The time window is bounded by one of the following (whichever is sooner):

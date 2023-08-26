@@ -15,6 +15,8 @@ search.audienceType:
 
 # Use business units to control access to Marketing records
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Business units are a standard feature of model-driven apps, or a logical grouping of linked business operations (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation). Admins can use business units to control access to records based on who is using the app and who owns each record. Business units are mapped to an organization's departments or divisions, therefore if your organization is structured around departments or divisions with separate products, customers, and segments, you might consider creating business units.
 
 ## How business units affect Dynamics 365 Marketing

@@ -14,6 +14,8 @@ search.audienceType:
 
 # Step 3: Create a workflow or plug-in to implement your custom logic
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 Partners can create a workflow or plug-in to implement their custom logic. For information about creating a workflow or plug-in, see:
 
 - [Workflows overview](../../customerengagement/on-premises/customize/workflow-processes.md) and [Automate your business processes](../../customerengagement/on-premises/developer/automate-business-processes-customer-engagement.md)
