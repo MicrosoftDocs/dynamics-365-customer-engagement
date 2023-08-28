@@ -138,7 +138,7 @@ For sample schema to get all the required records, see [Sample schema for voice 
   </entity> 
 </fetch> 
 ```
-**Sample 2: Multiple voice workstreams**<a name="BKMK3vws"></a>
+**Sample 3: Multiple voice workstreams**<a name="BKMK3vws"></a>
 
 ```XML
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"> 
