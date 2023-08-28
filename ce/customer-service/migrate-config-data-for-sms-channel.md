@@ -544,7 +544,7 @@ Assume that the workstream must exist whether it was created manually or previou
 3. Export the data and generate the compressed (zip) file.
 4. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for SMS channel]().
+For sample schema to get all the required records, see [Sample schema for SMS channel](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/sms-channel-sample-schema/sms-channel-config-sample.xml).
 
 ### FetchXML for SMS channel settings<a name="BKMK1sms"></a>
 
