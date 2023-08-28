@@ -5,7 +5,7 @@ author: venki-ms
 ms.author: v-duddupdiv
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 08/24/2023
+ms.date: 08/28/2023
 ms.custom: bap-template
 ---
 
@@ -113,7 +113,7 @@ For migrating queues for SMS, perform the steps outlined in [Migrate data for 
 > 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
 > 2. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets are imported.
 
-For sample schema to get all the required records, see [Sample schema for SMS workstream]().
+For sample schema to get all the required records, see [Sample schema for SMS workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/sms-channel-sample-schema/sms-workstream-sample-schema.xml).
 
 ### FetchXML for workstream entity
 

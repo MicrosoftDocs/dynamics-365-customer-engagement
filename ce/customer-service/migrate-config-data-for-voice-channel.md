@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
 description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 08/24/2023
+ms.date: 08/28/2023
 ms.topic: article
 author: mgandham
 ms.author: nenellim
@@ -111,7 +111,7 @@ For exporting and importing queues for the voice channel, perform the steps outl
 > 1. Import data for all entities including the decision ruleset entity (msdyn_decisionrulesets).
 > 2. Import data for the decision ruleset entity again. This step ensures that all dependency mappings for the decision rulesets are imported.
 
-For sample schema to get all the required records, see [Sample schema for voice workstream]().
+For sample schema to get all the required records, see [Sample schema for voice workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/voice-channel-sample-schema/voice-workstream-sample-schema.xml).
 
 ### FetchXML for workstream entity
 
