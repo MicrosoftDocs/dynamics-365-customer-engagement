@@ -67,7 +67,7 @@ The bot user is first created as an application user and then assigned the **Omn
     
     b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
-    c. Select **Add an app**. The **Add an app from Azure Active Directory** dialog opens.
+    c. Select **Add an app**. The **Add an app from Microsoft Entra Identity** dialog opens.
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 

@@ -78,7 +78,7 @@ Review the following prerequisites before configuring the supervisor insights:
 
    1. Create a security group in Microsoft Entra ID, and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
 
-      More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+      More information: [Create a basic group and add members using Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
 
    1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Microsoft Entra ID.
