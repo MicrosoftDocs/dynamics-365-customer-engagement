@@ -16,6 +16,8 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 ## Prerequisites
 
 - Nuance Gatekeeper instance is provisioned.
