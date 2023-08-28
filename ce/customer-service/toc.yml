@@ -718,6 +718,8 @@
         href: configure-reconnect-chat.md
       - name: Understand disconnected chats
         href: oc-conv-state-chat-disconnect.md   
+      - name: Understand conversation states
+        href: oc-conversation-state.md 
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -747,9 +749,7 @@
       - name: Search, link, and unlink a record
         href: oc-search-link-unlink-record.md
       - name: Take notes for conversation
-        href: oc-take-notes.md
-      - name: Understand conversation states
-        href: oc-conversation-state.md     
+        href: oc-take-notes.md    
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment

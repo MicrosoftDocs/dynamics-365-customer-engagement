@@ -1,7 +1,7 @@
 ---
 title: Configure automatic closure of conversations using Power Apps
 description: Use this article to understand how to configure the auto-close duration of conversations using Power Apps.
-ms.date: 08/23/2023
+ms.date: 08/29/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
@@ -12,18 +12,67 @@ ms.custom: bap-template
 
 This article demonstrates how you can configure the auto-close duration of a conversation using Power Apps.
 
-## How to Configure automatic closure of conversations using Power Apps
+You must perform the following steps to configure the auto-close duration of a conversation using Power Apps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
 2. Select **Tables**, and then select **Channel State Configuration** table.
 
-3. Select **Edit**, and in **Auto close conversation after** column set duration to 5.
+3. Select **Edit**, and in **Auto close conversation after** column set the auto-close duration.
+
+## Automatically close conversations
+
+Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
+
+The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify those conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
+
+> [!IMPORTANT]
+> - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
+> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
+
+### Default time for automatic closure of conversations
+
+All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
+
+The following table describes the channel, status reason, and default configured time.
+
+ | Channel | Existing status reason | Default configured time | Description |
+ |--------------------|-------|-------------|--------------------------------------|
+ | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
+ | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+ |  |  |  |  |
+ | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
+ | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
+ |  |  |  |  |
+| Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
+ | Voice | Active | 30 days | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Active** to **Closed** state when the scheduler runs after the elapsed time. |
+ | Voice | Wrap-up | 1 day | The conversation is eligible for automatic closure after the default time, 1 day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
+ |  |  |  |  |
+ | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
+ | SMS, Teams, and social | Active | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, or a social channel&mdash;a conversation that has been in the **Active** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Active** to the **Closed** state. |
+ | SMS, Teams, persistent chat, and social | Wrap-up | One day | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Wrap-up** state for more than one day is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
+
+### Conversation in waiting
+
+A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
+
+For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
+
+> [!NOTE]
+> The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
+
+To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
+
+### Set default time using APIs
+
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](../customer-service/auto-close-conversation.md).
 
 ### See also
 
 [Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
 [Configure automatic closure of conversations](auto-close-conversation.md)
+[Understand conversation states](oc-conversation-state.md)
 
 
 
