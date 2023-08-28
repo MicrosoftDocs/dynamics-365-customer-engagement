@@ -5,7 +5,7 @@ ms.date: 08/29/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
-ms.reviewer: nenellim
+ms.reviewer: gandhamm
 ms.custom: bap-template
 ---
 # Configure automatic closure of conversations using Power Apps
@@ -69,8 +69,7 @@ To learn more, see [Create a workstream](../customer-service/create-workstreams.
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](../customer-service/auto-close-conversation.md).
 
 ### See also
-
-[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
+  
 [Configure automatic closure of conversations](auto-close-conversation.md)  
 [Understand conversation states](oc-conversation-state.md)
 
