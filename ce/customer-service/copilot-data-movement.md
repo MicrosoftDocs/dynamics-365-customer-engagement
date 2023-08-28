@@ -15,7 +15,14 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Copilot AI features are provided by default to only those customers with environments that have United States as their geography for data processing and storage. However, customers with environments outside the United States can use these features by opting in to share relevant data with the Azure OpenAI Service in Switzerland for customers with environments in the Europe, Norway, Germany, France, and United Kingdom geographies or the Azure Open AI Service in United States for customers in other geographies. Opting in might result in the transfer of data outside their default geography.
+Copilot AI features are provided by default to only those customers with environments that have United States as their geography for data processing and storage.
+
+Customers with environments outside the United States can use these features by opting in to share relevant data with the Azure OpenAI Service in the following geographies:
+
+- Switzerland for customers with environments in the Europe, Norway, Germany, France, and United Kingdom
+- United States for customers in other geographies.
+
+Opting in might result in the transfer of data outside their default geography.
 
 :::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Screenshot of the Copilot opt-in to let data move outside geographical boundaries.":::
 
