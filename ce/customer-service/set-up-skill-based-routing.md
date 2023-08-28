@@ -1,15 +1,16 @@
 ---
-title: "Set up skill-based routing | MicrosoftDocs"
-description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 07/07/2022
-ms.topic: article
+title: Set up skill-based routing in unified routing
+description: Use the information to set up skill-based routing for unified routing in Customer Service.
+ms.date: 08/18/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: shujoshi
+ms.collection:
+ms.custom: bap-template
 ---
 
-# Set up skill-based routing for unified routing
-
-## Introduction
+# Set up skill-based routing in unified routing
 
 The steps to configure skill-based routing are as follows:
 
@@ -25,9 +26,9 @@ The steps to configure skill-based routing are as follows:
 
 ## How skills are matched
 
-How the default skill match algorithm works when you set the value as exact match or closest match for a workstream is explained in this section. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. The system assigns the conversation to an agent based on the skill criteria chosen.
+This section explains how the default skill match algorithm works when you set the value as exact match or closest match in a workstream. When the work classification skill rules attach skills and proficiency level, the assignment method matches the required skill with the skills of the agent. Then the system assigns the conversation to an agent based on the chosen skill criteria.
 
-The default skill-matching algorithm will work only with the out-of-the-box assignment method. If you choose to use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
+The default skill-matching algorithm works with the out-of-the-box assignment method only. If you use the custom assignment method, then you'll need to write the conditions to achieve skill-based routing. The rules written for custom assignment override the algorithm in the work distribution settings of the workstream.
 
 You can achieve the following skill matching based on the business requirements:
 
@@ -67,7 +68,6 @@ You can configure exact skill match in one of the following ways:
   |----|----|---|----|----|
   |<ul><li> Cafe A-100 (Type: Product); Proficiency required: 2</li><li> Spanish (Type: Language); Proficiency required: 3 </li></ul> |<ul><li> Name: Carlos; Capacity: 100; Cafe A-100 (2); Spanish (3) </li><li> Name: Eric; Capacity: 200; Cafe A-100 (3); Spanish (4) </li></ul>| Exact match all skills | Agent.User skills. Exact match.All skills AND (optional) Agent.PresenceStatus Equals Conversation.Work Stream.Allowed Presences AND Agent.Available capacity >= Conversation.Work Stream.Capacity| Choose from one of the Order by options: <ul><li> **Available capacity**: Eric</li><li> **Nearest Proficient**: Carlos</li><li> **Most Proficient**: Eric </li><ul>|
   |<ul><li> Cafe A-100 (Type: Product); Proficiency required: 2</li><li> Spanish (Type: Language); Proficiency required: 3 </li></ul> |<ul><li> Name: Carlos; Capacity: 100; Cafe A-100 (2); Spanish (3) </li><li> Name: Eric; Capacity: 200; Cafe A-100 (3); Spanish (4) </li></ul>|Exact match language skill only | Agent.User skills.Exact match.Skill type: Language AND (optional) Agent.PresenceStatus Equals Conversation.Work Stream.Allowed Presences AND Agent.Available capacity >= Conversation.Work Stream.Capacity|Choose from one of the order by options: <ul><li> **Available capacity**: Eric</li><li> **Nearest Proficient**: Carlos</li><li> **Most Proficient**: Eric </li><ul>|
-  ||||||
 
 ### Closest Match
 
@@ -104,14 +104,13 @@ You can achieve closest skill match in one of the following ways:
   |<ul><li>Café A-100 (Type: Product); Proficiency required: 2</li><li>Coffee machine (Type: Product); Proficiency required: 3 </li><li>Spanish (Type: Language); Proficiency required: 3</li> |<ul><li>Name: Carlos; Cafe A-100 (2); Coffee machine (3); Spanish (3)</li><li>Name: Eric; Cafe A-100 (5); Coffee machine (4); Spanish (1)</li><li>Name: Jamie; Cafe A-100 (1); Coffee machine (2); Spanish (1)</li>|Closest match product skill only |Agent.PresenceStatus Equals Conversation.Work Stream.Allowed Presences AND Agent.Available capacity >= Conversation.Work Stream.Capacity|Choose from one of the order by options:<ul><li>Nearest Proficient: Carlos > Eric > Jamie </li><li>Most Proficient: Eric > Carlos > Jamie</li></ul>|
   |<ul><li>Café A-100 (Type: Product); Proficiency required: 2</li><li>Coffee machine (Type: Product); Proficiency required: 3 </li><li>Spanish (Type: Language); Proficiency required: 3</li> |<ul><li>Carlos Cafe A-100 (2); Coffee machine (3); Spanish (3)</li><li>Name: Eric; Cafe A-100 (5); Coffee machine (4)</li><li>Name: Jamie; Cafe A-100 (1)</li>|Closest match with all skills using skill count |Agent.PresenceStatus Equals Conversation.Work Stream.Allowed Presences AND Agent.Available capacity >= Conversation.Work Stream.Capacity|Order by option: <br>Skill count: Carlos > Eric > Jamie|
   |<ul><li>Cafe A-100 (Type: Product); Proficiency required: 2</li><li>Coffee machine (Type: Product); Proficiency required: 3</li><li>Spanish (Type: Language); Proficiency required: 3</li></ul> |<ul><li>Name: Carlos; Cafe A-100 (2); Coffee machine (3); Spanish (3)</li><li>Name: Eric; Cafe A-100 (5); Coffee machine (4);</li><li>Name: Jamie; Cafe A-100 (1);</li></ul> |Closest match product skill only using skill count |Agent.PresenceStatus Equals Conversation.Work Stream.Allowed Presences AND Agent.Available capacity >= Conversation.Work Stream.Capacity|Order by:<br> Skill count: System will randomly pick from Carlos or Eric|
-  |||||
 
 > [!NOTE]
 > We recommend that you use the same rating model across skills. However, if skills that belong to different rating models are there, then the system will normalize and calculate the skill scores.
 
 ## Set up intelligent skill finder model
 
-To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that will be used for predicting skills.
+To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that can be used for predicting skills.
 
 You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
@@ -120,22 +119,19 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work only in another test environment and not in a production environment.
 
- ## Create skill finder models
-   
-You can set up the intelligent skill finder model rating models in the Customer Service admin center or Omnichannel admin center app. You can create as many models as your business requires.
+## Create skill finder models
 
-**To create the skill finder model**
+You can set up the intelligent skill finder model rating models in the Customer Service admin center app. You can create as many models as your business requires.
 
-1. In Dynamices 365, go to one of the apps, and perform the following steps.
-   
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
+
      - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     
 
 1. In the **Intelligent skill finder** section, select **Manage**.
 
@@ -180,9 +176,9 @@ To use the data from the Excel files, you must make sure of the following:
 
 - Ensure that the input data string is less than or equal to 5000 characters to avoid truncation.
   
-A sample of each file is as follows.
+A sample of each file is as follows. You can select the links to download the sample files.
 
-**msdyn_ocsitrainingdata.csv**
+[**msdyn_ocsitrainingdata.csv**](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-isf-sample-data/msdyn_ocsitrainingdata.csv)
 
 |Skill finder model|Training record name|Input data|
 |------------------|--------------------|----------|
@@ -191,9 +187,8 @@ A sample of each file is as follows.
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10003|Hi, I am unable to start my recently bought espresso machine, looks like the electrical plug provided with it is not functioning.|
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10004|Hi, I work at Trey Research. I am looking for replacement of coffee machine purchased 3 months ago. Even after raising complaints earlier about overheating the issue still persists. Please help! |
 |CCSFM01-Contoso Coffee skill finder model|CCSFM01-Contoso Coffee training data A10005|Hi, my recently bought Café A-100 machine is not in the color I ordered. Please replace the same. |
-||||
 
-**msdyn_ocsitdskill.csv**
+[**msdyn_ocsitdskill.csv**](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-isf-sample-data/msdyn_ocsitdskill.csv)
 
 |Training record|Characteristic mapping|Characteristic|
 |---------|--------|-----------|
@@ -202,14 +197,13 @@ A sample of each file is as follows.
 |CCSFM01-Contoso Coffee training data A10001|Electrical|Electrical|
 |CCSFM01-Contoso Coffee training data A10002|Café A-100|Café A-100|
 |CCSFM01-Contoso Coffee training data A10002|Heating|Heating|
-||||
 
 Perform the following steps to upload the data for training your model:
 
 1. On the **Skill finder model** page, enter a name for the model, and then save the form.
 2. Select the **Training data** tab, and select **Import Excel**.
 3. Select the .csv files to upload in the import tool.
-   
+
    ![Import data file using Excel.](media/skill-finder-excel.png "Import data file using Excel")
 
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.

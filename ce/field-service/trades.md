@@ -1,7 +1,7 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 06/30/2023
+ms.date: 08/04/2023
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
