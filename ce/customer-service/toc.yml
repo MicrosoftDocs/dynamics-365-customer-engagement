@@ -1317,9 +1317,10 @@
     items: 
     - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
       items:
+      - name: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
+        href: migrate-oc-to-csw.md
       - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
         href: enable-oc-disable-csw.md
-      href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
       - name: Overview of data migration for records

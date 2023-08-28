@@ -17,6 +17,9 @@ Dynamics 365 Sales enables your sellers to send and receive SMS from customers t
 
 In the sequences, SMS can be included as a step to send reminders or updates about key events. 
 
+>[!NOTE]
+>The text message feature is only supported in web browsers.
+
 ## How can I use the text message feature?
 
 Depending on your role, you can use the text message feature as described in the list:
@@ -68,8 +71,8 @@ Verify that the users who need to use the text message feature have the followin
 | Core Records | - Activity<br>- Note | Business Unit | Read | 
 | Core Records | Lead | Business Unit | - Create<br>- Read | 
 | Custom Entities | Channel Instance | User | Append To |
-| Custom Entities | - Channel Instance<br>- Channel Instance Account<br>- Consuming Application<br>- Channel Definition<br>- SalesOmnichannel Message<br>- Transcript | Business Unit | Read |
-| Custom Entities | Environment variable definition | Organization | Read |
+| Custom Entities | - Channel Instance<br>- Channel Instance Account<br>- Channel Definition<br>- SalesOmnichannel Message<br>- Transcript | Business Unit | Read |
+| Custom Entities | - Environment variable definition<br>- Consuming Application | Organization | Read |
 | Custom Entities | Model-driven App User Setting | Organization | - Create<br>- Read<br>- Write<br>- Append |
 | Custom Entities | Notification | User | Read |
 | Custom Entities | SalesOmnichannel Message | User | - Create<br>- Write<br>- Delete<br>- Append<br>- Assign |
