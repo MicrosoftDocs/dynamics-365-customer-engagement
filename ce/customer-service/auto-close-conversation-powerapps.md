@@ -18,7 +18,7 @@ You must perform the following steps to configure the auto-close duration of a c
 
 2. Select **Tables**, and then select **Channel State Configuration** table.
 
-3. Select **Edit**, and in **Auto close conversation after** column set the auto-close duration.
+3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
 
 ## Automatically close conversations
 
@@ -71,7 +71,7 @@ Programmatically, you can change the default time and set it as per your organiz
 ### See also
 
 [Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
-[Configure automatic closure of conversations](auto-close-conversation.md)
+[Configure automatic closure of conversations](auto-close-conversation.md)  
 [Understand conversation states](oc-conversation-state.md)
 
 
