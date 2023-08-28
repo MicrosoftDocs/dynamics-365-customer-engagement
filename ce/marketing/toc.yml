@@ -368,6 +368,18 @@
         href: real-time-marketing-audience-data.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
+    - name: Privacy and compliance
+      items:
+      - name: Manage consent for email and text messages in real-time marketing
+        href: real-time-marketing-email-text-consent.md
+      - name: Real-time marketing preference centers
+        href: real-time-marketing-preference-centers.md
+      - name: Consent management and double opt-in transition guidance
+        href: real-time-marketing-consent-transition.md
+      - name: Migrate consent records to real-time marketing
+        href: real-time-marketing-migrate-consent.md
+      - name: Use outbound subscription centers in real-time journeys
+        href: real-time-marketing-outbound-subscription.md
     - name: Manage SMS (text message) keywords used in customer journeys
       href: manage-sms-keywords.md
     - name: Install add-ons
