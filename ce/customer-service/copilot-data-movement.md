@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 08/16/2023
+ms.date: 08/28/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -15,11 +15,11 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-The copilot AI features use the Microsoft Azure OpenAI Service, which is available only in the [United States and Switzerland](https://dynamics.microsoft.com/availability-reports/georeport). As a result, copilot AI features are provided only to customers who have selected the United States or Switzerland as their geography for data processing and storage. However, customers outside the United States and Switzerland can use these features by opting in to share relevant data with the Azure OpenAI Service in the Switzerland for European Union customers or United States for non-EU customers. Opting in may result in the transfer of data outside their default geography.
+Copilot AI features are provided by default to only those customers with environments that have United States as their geography for data processing and storage. However, customers with environments outside the United States can use these features by opting in to share relevant data with the Azure OpenAI Service in Switzerland for customers with environments in the Europe, Norway, Germany, France, and United Kingdom geographies or the Azure Open AI Service in United States for customers in other geographies. Opting in might result in the transfer of data outside their default geography.
 
 :::image type="content" source="media/copilot-data-boundaries-opt-in.png" alt-text="Screenshot of the Copilot opt-in to let data move outside geographical boundaries.":::
 
-The opt-in terms don't apply to organizations in the United States and Switzerland geographies and therefore aren't visible to them.
+The opt-in terms don't apply to organizations in the United States and therefore aren't visible to them.
 
 > [!NOTE]
 > The copilot AI opt-in is in limited preview. To turn it on, email a request to `d365_csaipreview@microsoft.com`.
