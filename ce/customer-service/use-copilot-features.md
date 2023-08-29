@@ -103,6 +103,23 @@ Select the one-click response generation button at the lower-right corner of the
 > [!NOTE]
 > The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
 
+## Apply filters 
+
+You can use filters for Copilot to generate responses based on a specific set of topics. This allows you to provide immediate context and reduces the chance of getting irrelevant responses.
+
+For example, your organization has several departments and you work on helping customers with credit card related queries. If you apply the credit card filter, Copilot filters the knowledge base for credit card related content and generates responses based on the filtered responses. 
+
+To apply a filter, perform the following steps:
+
+- Select **Filters** on the Copilot (preview) pane, the **Select filters** menu appears.
+- Select the required options and then select **Apply**.
+
+Once you set a filter, the application 
+- displays a message that filters are applied when Copilot generates new responses. 
+- A visual indicator is displayed next to Filters with the count of the options selected.
+- Applies the results from the filter to generate the responses to ask a question or draft chat and email.
+- Retains the filter. You don't have to set the filter each time you log in.
+
 ## Summarize cases
 
 Copilot case summaries help you to quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
