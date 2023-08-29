@@ -60,9 +60,6 @@ The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connectio
 
 1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
 
-   > [!TIP]
-   > The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”.
-
 1. To filter the work orders by status or priority, select **Filter**, make your selection, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 
 1. Select a work order to view or edit the details.

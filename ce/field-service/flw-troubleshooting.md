@@ -76,8 +76,7 @@ I search for a work order by ID using the **Find by ID** box, but no results dis
 
 ### Resolution
 
-- The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”. Enter the full work order ID.
-- If a filter is applied before you search, clear the filters and then try the search again.
+If a filter is applied before you search, clear the filters and then try the search again.
 
 ## I don't know the user ID in an error message
 
