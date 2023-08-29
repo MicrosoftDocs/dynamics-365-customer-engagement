@@ -1,7 +1,7 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements | MicrosoftDocs
 description: Learn how to use the migration tool to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
-ms.date: 08/04/2023
+ms.date: 08/29/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
