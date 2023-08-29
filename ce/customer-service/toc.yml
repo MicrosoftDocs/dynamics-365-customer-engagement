@@ -1009,7 +1009,7 @@
       - name: Summarize conversations
         href: use-copilot-features.md#summarize-conversations
       - name: Ask a question
-        href: use-copilot-features.md#enable-ask-a-question
+        href: use-copilot-features.md#ask-a-question
       - name: Draft a chat response
         href: use-copilot-features.md#draft-a-chat-response
       - name: Draft emails
