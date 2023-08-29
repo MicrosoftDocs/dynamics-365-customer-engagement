@@ -8,9 +8,9 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | TBD | 09/01/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 08/25/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | TBD | 09/08/2023 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/01/2023 |
-| | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 08/25/2023 |
+| | *USG* |[3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | TBD | 09/08/2023 |
 |**Station 4** |*Europe* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | 09/08/2023 |
 |**Station 5** |  *North America*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/15/2023 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/15/2023 |
@@ -27,6 +27,15 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.50.232152
 
 **Dataverse:** 4.0.100.18
+
+- Fixed a bug where the schedule board color was not applied when saving the board setting with a new color.
+- Fixed a bug where the “Find Availability” feature in the new schedule board did not consider custom fields.
+- Improved accessibility for the “New Filter Layout” dialog, the “New Schedule Board Tab” button in portrait mode, and the “New Schedule Board” navigation panel.
+- Fixed a bug where the schedule assistant requirement view was not picked up when the schedule assistant was launched from the book button.
+- Fixed a bug where an incorrect “End Time” was populated on the booking custom entity when the “Default Booking Duration” had a Null value.
+- Fixed a bug where an incorrect “End Time” was populated in the “Create Booking Panel” in Schedule Assistant when creating a booking for a requirement for the second time.
+- Fixed a bug where the schedule board crashed when cold loading or creating a new tab in a small width window.
+- Fixed a bug where the “Book & Exit” button reappeared after booking a requirement group, and it canceled the bookings.
 
 ## 3.12.114.1 - 2023 Wave 2 Early Access update1
 
