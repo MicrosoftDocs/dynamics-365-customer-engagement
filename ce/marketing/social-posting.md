@@ -19,8 +19,7 @@ search.audienceType:
 > [!IMPORTANT]
 > Due to recent changes to Twitter's APIs, social posts to Twitter are temporarily unavailable in Dynamics 365 Marketing.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cQ" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J4cQ]
 Dynamics 365 Marketing can schedule and post messages directly to your organization's accounts on social media sites. Marketing's powerful social post designer allows you to create rich content to engage your audience. Use the **Social posts** settings to author and schedule your posts.
 
 > [!NOTE]

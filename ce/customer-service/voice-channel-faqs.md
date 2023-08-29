@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/13/2023
+ms.date: 08/25/2023
 ms.topic: conceptual
 ms.reviewer: shujoshi
 ms.custom: bap-template
@@ -138,6 +138,10 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 ### What are the applicable pricing scenarios for using the voice channel?
 
 To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
+
+### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
+
+Sometimes, when a Power Virtual Agents bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Power Virtual Agents bot.
 
 ### See also
 

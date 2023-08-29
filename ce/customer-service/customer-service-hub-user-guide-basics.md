@@ -218,8 +218,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708]
 > [!NOTE]
 > You can configure rules that help you view similar cases based on automatic suggestions. For more information, see [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md).
 

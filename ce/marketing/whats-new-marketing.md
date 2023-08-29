@@ -1,7 +1,7 @@
 ---
 title: New and upcoming features
 description: Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases.
-ms.date: 08/15/2023
+ms.date: 08/17/2023
 ms.topic: article
 author: alfergus
 ms.author: alfergus
@@ -63,6 +63,7 @@ On September 1, 2023, Dynamics 365 Marketing will transition to focus on real-ti
 Learn how to make the most of the new Dynamics 365 Marketing features in our latest blogs and scenario docs:
 
 - [Transition to real-time marketing and transform your Customer Experience - Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/it/2023/07/18/transition-to-real-time-marketing-and-transform-your-customer-experience/)
+- [Push notification enhancements - Dynamics FastTrack Blogs](https://community.dynamics.com/blogs/post/?postid=7b7bfa64-e730-ee11-bdf3-000d3a4ef41d)
 
 ## July 2023 update
 
