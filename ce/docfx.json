@@ -133,8 +133,8 @@
       "uhfHeaderId": {
         "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
         "sales/**.*": "MSDocsHeader-Dynamics365Sales",
-        "field-service/**.*": "MSDocsHeader-Dynamics365-Field-Service"
-
+        "field-service/**.*": "MSDocsHeader-Dynamics365-Field-Service",
+        "common-scheduler/**.*": "MSDocsHeader-Dynamics365-Field-Service"
       },
       "featureFlags": {
         "**/*.md": [
