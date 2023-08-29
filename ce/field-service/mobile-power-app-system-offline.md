@@ -231,6 +231,24 @@ The **Offline Status** page in the app, available from the sitemap, shows synchr
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (Dynamics 365) Sync Notifications.](./media/syncnotifications.png)
 
+### Why does some data become unavailable after completing the Offline Sync?
+
+The offline-enabled application will download data as configured in the Mobile Offline Profile. The Mobile Offline Profile is where Makers configure queries and build relationships between tables to limit data that is downloaded.  Often this configuation will include time-based filtering. For example, a FLW may not require access to Bookable Resource Bookings which have status as Complete, or which are greater than _N_ days old.
+
+At certain points following a sync, data which no longer meets the Offline Profile filter criteria may be removed form the mobile application.  This is most common in two instances: 
+
+1. When the user who is part of the Mobile Offline Profile first logs into the application, it will behave as if it is in Online mode until the first sync completes. During this time, data presented to the user is only restricted based on view filters. Following the completion of the first sync, the application will transition to Offline mode and from that point the data will be restricted by both the Mobile Offline Profile as well as the filters applied to the view. 
+Depending on the filters of the Mobile Offline Profile, a Frontline Worker may observe some records being removed from their view following the transition from Online mode to Offline mode. For example, while online they may see all past Bookable Resource Bookings, but after moving to Offline they only see Bookable Resource Bookings with a start date greater than or equal to today.
+
+2. After an incremental sync while the user is already offline, data which does not meet filters of the Mobile Offline Profile may be removed. For example, if the Mobile Offline Profile filters out all Bookable Resource Bookings with Booking Status of "Completed", after setting Booking Status to Complete and a sequesent sync, that Booking will be removed from the Agenda and no longer accessible in the mobile application.
+
+If a user is actively viewing a record which is removed from the Mobile Offline Database, the user may see a "Record Not Found" error. If this is a requent occurance, it is recommended that the Maker review the filters within the Mobile Offline Profile to ensure they are not overly restrictive for key scenarios. 
+
+### What happens when I "reconfigure" the offline-enabled application?
+
+Reconfiguring the mobile application will clear the Offline Database on the device. Following a reconfigure action, the application will initiate a new full offline sync and then transition back into Offline mode. During the time between the user reconfiguring and offline sync completing, the application will behave as if it is in Online mode. 
+
+
 ### Why does the offline enabled application show a message "Network or Service Unavailable"
 
 The message "Network or Service Unavailable" shows when the application detects the network isn't suitable for online activity. While this message shows, the client won't sync new data, and some network-dependent areas of the application won't work. For example, maps or Dataverse search depends on device connectivity.
