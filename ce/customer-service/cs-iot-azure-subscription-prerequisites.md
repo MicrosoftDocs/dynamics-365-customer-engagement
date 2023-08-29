@@ -11,11 +11,11 @@ ms.author: laalexan
 
 [!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
-When you're deploying and administering Connected Customer Service (CCS) with IoTHub, you must make sure of the considerations and prerequisites for your Azure subscription. 
+When you're deploying and administering Connected Customer Service with IoTHub, you must make sure of the considerations and prerequisites for your Azure subscription. 
 
 ## Prerequisites 
 
-1. CCS with IoTHub can be deployed and administered to one Azure tenant only, which should be the home (first) Azure tenant tied to your credentials.
+1. You can deploy and administer Connected Customer Service with IoTHub in one Azure tenant only, which should be the home (first) Azure tenant tied to your credentials.
 
 2. To deploy and administer IotHub, you must have one of the following Azure security roles:
 
@@ -29,7 +29,7 @@ When you're deploying and administering Connected Customer Service (CCS) with Io
 > ![Screenshot of azure security role dropdown.](./media/cs-iot-azure-security-roles.png)
 
 
-3. You will see subscriptions that are tied to your login's **primary active directory** only. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
+3. You'll see subscriptions that are tied to your sign-in **primary active directory** only. For example, david@contoso.com will see subscriptions from the contoso.com directory only. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David won't be able to use the fabrikam subscription on the deployment app.
 
 4. Organizational Azure accounts only can be used to deploy CCS with IoTHub; personal accounts such as Outlook or Gmail can't be used.
 
