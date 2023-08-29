@@ -127,11 +127,9 @@
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
       "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150",
-      "recommendations": true
-    },
-    "breadcrumb_path": {
-      "**.*":"/dynamics365/breadcrumb/toc.json"    
-    },
+      "recommendations": true,
+      "breadcrumb_path": "/dynamics365/breadcrumb/toc.json"
+    },    
     "fileMetadata": {
       "uhfHeaderId": {
         "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
