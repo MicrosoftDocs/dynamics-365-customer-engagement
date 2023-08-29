@@ -86,6 +86,8 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 When you select **ARC & SLA Migration** in the left pane, the **Summary** page is displayed as follows.
 
+> ![Migration summary page.](media/migration-summary-page.png  "Migration summary page")
+
 The annotations are explained as follows.
 
 |label|Description|
