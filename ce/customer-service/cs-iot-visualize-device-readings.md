@@ -9,6 +9,8 @@ ms.author: laalexan
 
 # Visualize device readings
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Customer Service add-in displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.

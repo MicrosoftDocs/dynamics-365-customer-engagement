@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  

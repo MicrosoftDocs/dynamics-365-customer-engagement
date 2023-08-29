@@ -9,6 +9,8 @@ ms.author: laalexan
 
 # Azure subscription prerequisites for Connected Customer Service with IoTHub
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 When deploying and administering Connected Customer Service (CCS) with IoTHub, there are a few considerations and prerequisites for your Azure subscription. 
 
 ## Prerequisites 

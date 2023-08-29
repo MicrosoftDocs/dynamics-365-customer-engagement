@@ -12,6 +12,8 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 > [!NOTE]
 > Intraday insights reports for Omnichannel for Customer Service are deprecated as of May 1, 2023. We recommend that you use [real-time analytics reports](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service are deprecated](deprecations-customer-service.md#intraday-insights-reports-in-omnichannel-for-customer-service-are-deprecated).
 

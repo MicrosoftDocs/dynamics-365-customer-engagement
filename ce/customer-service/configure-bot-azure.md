@@ -12,6 +12,8 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 In Omnichannel for Customer Service, you can integrate Azure bots seamlessly with chat and social channels, and also repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md). This article discusses how you can integrate Azure bots, configure routing rules, and set escalation rules.
 
 ## Prerequisites

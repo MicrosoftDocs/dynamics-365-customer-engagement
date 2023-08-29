@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 # Apply authentication for search providers
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 Apply authentication for your search providers as required by your organization. If you authenticate using OAuth 2.0 with Microsoft Entra ID, you need the resource ID, client ID, and client secret from your configuration of Microsoft Entra ID authentication for your website. OAuth 2.0 only works with cloud mode.
 
 The values of the resource ID, client ID, and client secret depend on your scenario.

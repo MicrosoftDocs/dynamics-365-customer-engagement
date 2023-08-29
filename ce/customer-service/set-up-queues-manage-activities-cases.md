@@ -22,6 +22,8 @@ searchScope:
 
 # Create and manage queues for cases
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 In Dynamics 365 Customer Service, *queues* are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. Queues help you to organize, prioritize, and monitor the progress of your work. 

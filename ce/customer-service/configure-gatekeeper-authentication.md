@@ -1,6 +1,6 @@
 ---
-title: Add an authentication setting for Nuance Gatekeeper (preview)
-description: How-to add authentication settings for Nuance Gatekeeper 
+title: Add authentication setting for Nuance Gatekeeper (preview)
+description: Learn about how to add authentication settings for Nuance Gatekeeper in Customer Service admin center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -12,13 +12,17 @@ ms.custom: bap-template
 
 # Add an authentication setting for Nuance Gatekeeper (preview)
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 [This article is prerelease documentation and is subject to change.]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+Use the information in this article to add an authentication setting for Nuance Gatekeeper in Customer Service.
 
 ## Prerequisites
+
+Make sure that the following prerequisites are met:
 
 - Nuance Gatekeeper instance is provisioned.
 - Omnichannel for Customer Service with the voice channel is provisioned.
@@ -79,7 +83,7 @@ Apart from the default ID, you can optionally configure another ID to uniquely i
 1. On the **Create new authentication setting** page, expand **Gatekeeper integration advanced settings**.
 1. Select **Contact (ContactId)** and **Account (AccountId)** in **Contact** and **Account** fields.
 
-   >[!NOTE]
+   > [!NOTE]
    > You can't edit the contact and account fields after the authentication setting is created.
 
 After you select save and close, the components will be provisioned and your settings tested. Errors at this step means either the settings aren't correct, or the Azure Communication Services resources are running in a different Azure tenant from your Dynamics 365 environment.

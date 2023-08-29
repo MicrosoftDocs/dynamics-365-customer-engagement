@@ -14,6 +14,8 @@ search.audienceType:
 
 # Customize data models of historical and real-time analytics reports
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box Dynamics 365 Customer Service Power BI data model and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs and custom metrics to the reports to view the key metrics that are relevant to your organization. You can also drill down to add your metrics to the report as required.
 
 The key capabilities of model customization include the ability to:

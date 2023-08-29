@@ -12,6 +12,8 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions, *available under any tenant*. If you disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites

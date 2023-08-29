@@ -11,6 +11,8 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 This topic provides information about the consent that is required to access the different components and data during the installation and provision of Omnichannel for Customer Service.
 
 ## Provide consent to access data
