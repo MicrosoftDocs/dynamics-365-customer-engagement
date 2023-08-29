@@ -978,7 +978,7 @@
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
         href: developer/reference/methods/message-object.md
-- name: Copilot in Customer Service (preview)
+  - name: Copilot in Customer Service (preview)
     items: 
     - name: Administrator experience
       items: 
