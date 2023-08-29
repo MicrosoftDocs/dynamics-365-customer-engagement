@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against a SLA in Dynamics 365 Customer Service."
-ms.date: 07/26/2023
+ms.date: 08/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
