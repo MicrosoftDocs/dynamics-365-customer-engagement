@@ -27,7 +27,7 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Basic User in Power Platform <br> More information: [Assign security roles to users in a Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database) <br> [Assign security roles to users in non-Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-no-dataverse-database)  |
 |||
 

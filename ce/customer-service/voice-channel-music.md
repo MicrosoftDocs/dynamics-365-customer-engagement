@@ -1,7 +1,7 @@
 ---
 title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
-ms.date: 11/22/2022
+ms.date: 08/24/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -13,8 +13,6 @@ ms.collection: get-started
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 Omnichannel for Customer Service comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 
 You can also configure hold and wait music for each language in each of the workstreams.
@@ -23,6 +21,7 @@ You can also configure hold and wait music for each language in each of the work
 >
 > - Music files can be up to 20 MB. For best experience, upload MP3 files.
 > - Music files must have the ID3 tags so that they play successfully when the call is put on hold.
+> - The quality of the audio files that you upload might be reduced because audio file URLS are embedded in Speech Synthesis Markup Language (SSML). The telephony gateway gets Pulse Code Modulation (PCM) 16k audio bytes as part of the speech orchestration. More information: [Add recorded audio](/azure/ai-services/speech-service/speech-synthesis-markup-voice#add-recorded-audio).
 
 ## Edit music files
 

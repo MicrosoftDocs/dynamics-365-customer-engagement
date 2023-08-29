@@ -17,8 +17,7 @@ search.audienceType:
 
 [!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IO58" frameborder="0" allowfullscreen=""></iframe></div>
-
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IO58]
 Dynamics 365 Marketing can help you visualize and automate the journey that customers take on their way to making a purchase. A simple customer journey could include a short interaction, such as a single email campaign. A complex journey might include the full process from discovery, through nurturing, and on to identifying qualified leads. Customer journeys can also generate and assign tasks (such as a scheduled follow-up phone call) and trigger business workflows.
 
 Dynamics 365 Marketing provides a graphical journey modeler that works like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
