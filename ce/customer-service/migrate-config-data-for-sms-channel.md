@@ -5,7 +5,7 @@ author: venki-ms
 ms.author: v-duddupdiv
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 08/28/2023
+ms.date: 08/29/2023
 ms.custom: bap-template
 ---
 
@@ -67,7 +67,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration using a solution
 
-If you use custom session templates and notifications in your SMS routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution)
+If you use custom session templates and notifications in your SMS routing setup, perform the steps outlined in [Migrate configuration using a solution](migrate-config-data-for-records.md#migrate-configuration-using-a-solution).
 
 ## Migrate skill-based configuration
 

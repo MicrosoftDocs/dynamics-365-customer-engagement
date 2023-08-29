@@ -1,7 +1,7 @@
 ---
 title: "Migrate unified routing data for the voice channel | MicrosoftDocs"
 description: "Learn to migrate the voice channel data from source to target environments in Omnichannel for Customer Service."
-ms.date: 08/28/2023
+ms.date: 08/29/2023
 ms.topic: article
 author: mgandham
 ms.author: nenellim
@@ -539,7 +539,7 @@ Assume that the workstream must already exist; created manually or previously mi
 
 4. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for voice channel]().
+For sample schema to get all the required records, see [Sample schema for voice channel](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/voice-channel-sample-schema/voice-channel-config-sample.xml).
 
 ### FetchXML for voice channel settings<a name="BKMK1vc"></a>
 
