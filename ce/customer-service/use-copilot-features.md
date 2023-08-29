@@ -105,20 +105,21 @@ Select the one-click response generation button at the lower-right corner of the
 
 ## Apply filters 
 
-You can use filters for Copilot to generate responses based on a specific set of topics. This allows you to provide immediate context and reduces the chance of getting irrelevant responses.
+You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
 
-For example, your organization has several departments and you work on helping customers with credit card related queries. If you apply the credit card filter, Copilot filters the knowledge base for credit card related content and generates responses based on the filtered responses. 
+For example, your organization has several departments and you work on credit card related queries. If you apply the credit card filter, Copilot retreives only the relevant credit card content from the knowledge source and which is then used to generate responses. 
 
 To apply a filter, perform the following steps:
 
-- Select **Filters** on the Copilot (preview) pane, the **Select filters** menu appears.
-- Select the required options and then select **Apply**.
+- Select **Filters** on the Copilot (preview) pane. The **Select filters** menu appears.
+- Select the required options. You can also search for a filter option.
+- Select **Apply**.
 
-Once you set a filter, the application 
-- displays a message that filters are applied when Copilot generates new responses. 
-- A visual indicator is displayed next to Filters with the count of the options selected.
-- Applies the results from the filter to generate the responses to ask a question or draft chat and email.
-- Retains the filter. You don't have to set the filter each time you log in.
+Once you set a filter, the following actions are applicable:
+- A message indicating the filters are applied when Copilot generates new responses appears on the Copilot (preview) pane. This message also appears whenever you modify the filter configuration.
+- A visual indicator with the number of filter options selected is displayed next to **Filters**..
+- The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
+- The filter is saved. You don't have to set the filter each time you log in.
 
 ## Summarize cases
 
