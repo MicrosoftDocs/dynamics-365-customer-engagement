@@ -242,11 +242,11 @@ Depending on the filters of the Mobile Offline Profile, a Frontline Worker may o
 
 2. After an incremental sync while the user is already offline, data which does not meet filters of the Mobile Offline Profile may be removed. For example, if the Mobile Offline Profile filters out all Bookable Resource Bookings with Booking Status of "Completed", after setting Booking Status to Complete and a sequesent sync, that Booking will be removed from the Agenda and no longer accessible in the mobile application.
 
-If a user is actively viewing a record which is removed from the Mobile Offline Database, the user may see a "Record Not Found" error. If this is a requent occurance, it is recommended that the Maker review the filters within the Mobile Offline Profile to ensure they are not overly restrictive for key scenarios. 
+If a user is actively viewing a record which is removed from the Mobile Offline Database, the user may see a "Record Not Found" error. If this is a frequent occurrence, it is recommended that the Maker review the filters within the Mobile Offline Profile to ensure they are not overly restrictive for key scenarios.
 
 ### What happens when I "reconfigure" the offline-enabled application?
 
-Reconfiguring the mobile application will clear the Offline Database on the device. Following a reconfigure action, the application will initiate a new full offline sync and then transition back into Offline mode. During the time between the user reconfiguring and offline sync completing, the application will behave as if it is in Online mode. 
+Reconfiguring the mobile application will clear the Offline Database on the device. Following a reconfigure action, the application will initiate a new full offline sync and then transition back into Offline mode. During the time between the user reconfiguring and offline sync completing, the application will behave as if it is in Online mode
 
 
 ### Why does the offline enabled application show a message "Network or Service Unavailable"
