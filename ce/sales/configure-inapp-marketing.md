@@ -1,10 +1,11 @@
 ---
-title: "Configure in-app marketing settings"
-description: "Configure in-app marketing settings to define various aspects of campaigning."
+title: Configure in-app marketing settings
+description: Configure in-app marketing settings to define various aspects of campaigning.
 ms.date: 01/25/2023
-ms.topic: get-started-article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro

@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a user changes the status in Field Service Mobile to *Traveling*, the system updates the **Start time** of the bookable resource booking to the current time.
+- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
 
 #### In Progress
 

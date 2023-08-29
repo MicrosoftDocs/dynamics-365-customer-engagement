@@ -168,11 +168,15 @@ author: Mattp123
   
 -   Domain Users group membership.  
   
--   Built-in local group Performance Log Users membership.  
+-   Built-in local group Performance Log Users membership.
+
+-   Local administrator group membership on the computer where the Application Service is running.  
   
 -   Folder read and write permission on the `Trace` and `CRMWeb` folders, by default located under \Program Files\Microsoft Dynamics CRM\\, and user account `%AppData%` folder on the local computer.  
   
--   All access permissions except Full Control and Write DAC to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM` and `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSCRMSandboxService` subkeys in the [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)].  
+-   All access permissions except Full Control and Write DAC to the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM` and `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSCRMSandboxService` subkeys in the [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)].
+
+-   PrivUserGroup and SQLAccessGroup membership. By default, these groups are created and appropriate membership is granted during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
   
 -   CRM_WPG group membership. This group is used for IIS worker processes. The group is created and the membership is added during [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)].  
   

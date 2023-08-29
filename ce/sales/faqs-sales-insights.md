@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about Sales Premium
 description: Find answers to frequently asked questions about the Sales Insights add-in for Dynamics 365 Sales.
-ms.date: 05/11/2023
+ms.date: 08/17/2023
 ms.custom: bap-template
 ms.topic: faq
 author: udaykirang
@@ -35,7 +35,8 @@ When you install Sales Insights, corresponding analytics tables are created for 
 
 ## General
 
-### In which region is Sales Premium available?  
+### In which region is Sales Premium available? 
+ 
 Sales Premium is available in the following countries or regions:
 
 -    Asia Pacific (APJ)
@@ -75,7 +76,10 @@ The following table lists the regions in which Sales Premium features are availa
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes|
-| Who knows whom | Yes | Yes | No | Yes | Yes | No | No | No | No | Yes | No | No | No |
+| Who knows whom | Yes | Yes | Yes | Yes | Yes | No | No | No | No | Yes | No | No | No |
+
+> [!NOTE]
+> [Basic who knows whom](who-knows-whom.md#basic-who-knows-whom-information) information is available in all regions. However, [enhanced who knows whom](who-knows-whom.md#enhanced-who-knows-whom-information) information is available only in the regions listed in the table. 
 
 ### Which version of Exchange is supported for features in Sales Premium?
 
@@ -428,13 +432,13 @@ The following administrators can opt out users at different levels:
 
 ## Conversation intelligence
 
-### Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?  
+### Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Sales Copilot?  
 
-|Feature  |Viva Sales  |Sales Enterprise / Sales Premium  |
+|Feature  |Microsoft Sales Copilot  |Sales Enterprise / Sales Premium  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
 |Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes<sup>1</sup><br><sup>1</sup> **Sales Enterprise:** Three hours of conversation intelligence (recording and processing) per user, per month<br> **Sales Premium:** 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). .|
-|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Viva Sales app for Teams <br> <sup>2</sup> Unlimited Viva Sales hours included with Sales Premium / Sales Enterprise license        |
+|Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Sales Copilot app for Teams <br> <sup>2</sup> Unlimited Microsoft Sales Copilot hours included with Sales Premium / Sales Enterprise license        |
 | **During the call**   |    |
 |Real-time conversation intelligence     |    No       |    Yes     |
 |Conversation intelligence for seller-only recordings (When customer is not recorded)     |   No      |   Yes      |
@@ -446,8 +450,8 @@ The following administrators can opt out users at different levels:
 |Manager Coaching tools     |   No      |   Yes      |
 | **Admin configurations**   |    |
 |Storage of call recording and conversation intelligence insights    |   Teams storage only      |   Option of Microsoft provided storage, or your own Azure storage       |
-|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
-|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Viva Sales](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
+|Supported languages for conversation intelligence      |    Conversation intelligence languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   Conversation intelligence languages listed in this section: [What languages are supported for Sales Premium?](faqs-sales-insights.md#what-languages-are-supported)       |
+|Supported languages for UI      |   User interface languages listed in this article: [Supported languages in Microsoft Sales Copilot](/viva/sales/supported-languages)|   All languages supported in Dynamics 365 Sales       |
 
 
 ### How long does it take for data updates to reflect in the app?
@@ -455,9 +459,9 @@ The following administrators can opt out users at different levels:
 Conversation intelligence data is refreshed periodically and could take up to 12 hours to appear in the app. We continue to make improvements to reduce the delay.
 
 
-### How many hours of conversation intelligence are available with Viva Sales?
+### How many hours of conversation intelligence are available with Microsoft Sales Copilot?
 
-You get unlimited call recording and processing hours with Viva Sales. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Viva Sales. For more information, see [Use Viva Sales in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
+You get unlimited call recording and processing hours with Microsoft Sales Copilot. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Sales Copilot. For more information, see [Use Microsoft Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
 ### How do I buy more conversation intelligence hours?
 

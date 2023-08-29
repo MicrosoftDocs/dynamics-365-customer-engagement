@@ -199,7 +199,7 @@ Use the incident type to fill in detail according to its configuration by adding
 
 :::image type="content" source="media/work-order-incident-type-add-to-wo.png" alt-text="[Screenshot of a work order, with the work order type and incident type highlighted.":::
 
-   Related work order products, services, service tasks, and characteristics are added in the background. This addition is the result of a system job called `LongJobs_CopyIncidentItemsToWorkOrder` number 464.
+   Related work order products, services, service tasks, and characteristics are added in the background.
 
    The **Estimate Information** reflects the incident product quantity specified in the incident type.
 

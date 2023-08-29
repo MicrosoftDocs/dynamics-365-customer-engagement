@@ -18,23 +18,40 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/18/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
-| | *USG* | [8.8.96.23](/dynamics365/field-service/version-history#889623)  | TBD | 08/25/2023 |
-|**Station 4** |*Europe* |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/01/2023 |
-|**Station 5** | *North America*|[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.95.25](/dynamics365/field-service/version-history#889525)  | [8.8.96.23](/dynamics365/field-service/version-history#889623) | 09/08/2023 |
-| | *Dedicated Scale Groups* |[8.8.94.28](/dynamics365/field-service/version-history#889428)  | [8.8.95.25](/dynamics365/field-service/version-history#889525) | 08/04/2023 |
+|**Station 1** |  *First Release*| [8.8.97.44](/dynamics365/field-service/version-history#889744)  | TBD | 09/01/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 08/25/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 09/01/2023 |
+| | *USG* |  [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 08/25/2023 |
+|**Station 4** |*Europe* |   [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 09/08/2023 | 
+|**Station 5** | *North America*|[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/15/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/15/2023 |
+| | *Dedicated Scale Groups* |[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/22/2023 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.97.44
+(Includes Universal Resource Scheduling version [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.50.232152).
+
+- Dynamics 365 Field Service Mobile: Fixed a bug to prevent a JavaScript error when accessing a Bookable Resource Booking with Offline Classic mode enabled. 
+- Dynamics 365 Field Service Mobile: Significantly improved reliability of the application when multiple images are uploaded within an Inspection.
+- Dynamics 365 Field Service Mobile: Improved error messages to be more actionable when missing customer voice survey responses in Inspections.
+- Dynamics 365 Field Service Mobile: Fixed a visibility issue that occurs when exporting to PDF the Inspections questions in a survey that contains logic.
+
+## 8.8.101.57 (2023 Wave 2 early access, update1)
+
+(Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11---2023-wave-2-early-access-update1) and Resource Scheduling controls version 1.2.54.232001).
+
+**New and improved work order experience**: Our new work order enhancements are designed to make your life easier. With reduced time and effort required to understand the current state of work orders, you can provide quick updates to customers, ensure that frontline workers have the information they need for on-site service, and easily track high-priority work. The dynamic card feature allows you to take action and move work orders through each stage seamlessly, while our redesigned tasks experience and reference tab streamline the knowledge-sharing process for everyone involved.
+
+**AI-powered work order recap**: Copilot in Field Service helps your workforce save time and work more efficiently by bringing disparate pieces of information together, providing a concise summary of a work order. This feature works across all experiences: desktop application, web, and mobile.
+
+
 ## 8.8.101.48  (2023 Wave 2 early access)
 
-(Includes Universal Resource Scheduling version [3.12.114.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#312114.11) and Resource Scheduling controls version 1.2.54.232001).
+(Includes Universal Resource Scheduling version [3.12.115.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312115.1---2023-wave-2-early-access-ea-release) and Resource Scheduling controls version 1.2.54.232001).
 
 - **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
 
