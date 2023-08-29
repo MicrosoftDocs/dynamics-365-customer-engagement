@@ -15,6 +15,8 @@ search.audienceType:
 
 # Manage information about your current and prospective customers
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most model-driven apps in Dynamics 365, including Dynamics 365 Marketing. Read this topic to learn how these basic entities are used and affected by the Marketing app.
 
 <a name="contacts"></a>

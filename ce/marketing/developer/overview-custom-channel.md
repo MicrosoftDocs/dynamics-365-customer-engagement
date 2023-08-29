@@ -14,6 +14,8 @@ search.audienceType:
 
 # Overview of custom channel
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 A custom channel contains custom entities, workflows or plug-ins containing your custom logic, and a couple of web resources that help surface the custom channel as a “tile” in the customer journey designer. All these components are bundled into a solution that can be imported into a Dynamics 365 Marketing instance to enable a custom channel.
 
 The following illustration provides a high-level overview of the operation flow for a custom channel:  

@@ -14,6 +14,8 @@ search.audienceType:
 
 # Custom Event Portal Localization
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 ## Frontend part
 
 Localization on the frontend part (Angular application) is supported using custom `appTranslate` directive made for event management application. You can see the usage of the directive throughout the application and the directive implementation itself in the `/src/app/components/directives/translate.directive.ts`. To add new localized content, you have to apply the directive to the newly added content. If you added a new paragraph for example:

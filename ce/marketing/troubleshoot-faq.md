@@ -17,6 +17,8 @@ search.audienceType:
 
 # Frequently asked questions for Dynamics 365 Marketing - General
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 ## Where can I find help for errors, unexpected behavior, crashes, or bugs?
 
 The list below details sources and channels for issues that you can find solutions to in the documentation:

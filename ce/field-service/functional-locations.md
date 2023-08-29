@@ -1,7 +1,7 @@
 ---
 title: Create functional locations (contains video)
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 01/24/2023
+ms.date: 06/23/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -36,9 +36,13 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 1. Enter a **Name** and **Service Address**.
 
-1. (Optional) If this location is part of a hierarchy, enter its **Parent Functional Location**.
-
-    You can skip this step and drag the location into its place in an existing hierarchy later.
+1. Optional:
+   - If this location is part of a hierarchy, enter its **Parent Functional Location**. You can skip this step and drag the location into its place in an existing hierarchy later.
+   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types-preview) of the same type. For example, warehouses or office buildings.
+   - Enter a **Cost center** for bills related to a location.
+   - Note an **Email address** for the right contact person of the location.
+   - Set an **Open date** to indicate when a location first opened.
+   - Choose **Primary time zone** for the location.
 
 1. Select **Save**.
 
@@ -48,6 +52,22 @@ The new location appears in the list. You can drag it into an existing hierarchy
 - If you drag a subcomponent under a new parent with a different functional location, the new parent's functional location replaces the asset's original functional location. If you move a display from a computer in Building A to a computer in Building B, the display takes the location of the computer in Building B.
 
 Select a location in the list to view information about it.
+
+## Create and assign functional location types (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+Use functional location types to group locations. Functional location types allow you to quickly [apply property templates](properties.md) to a group of locations.
+
+1. In Field Service, select the **Settings** area, and then select **Functional Location Types**.
+
+1. Select **New**.
+
+1. Enter a **Name** for the functional location type.
+
+1. Select **Save**.
 
 ## Add assets to a functional location
 

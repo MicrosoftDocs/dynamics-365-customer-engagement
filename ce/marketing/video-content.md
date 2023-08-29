@@ -15,6 +15,8 @@ search.audienceType:
 
 # Create a video library and add videos to your designs
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Use Dynamics 365 Marketing to store information about each of the videos that you use in your marketing initiatives and then include those videos in your emails and pages by adding a video design element that references a video from your video library.
 
 For each video you add to your library, you'll specify a name, video URL, embed code, and thumbnail URL. The library won't contain the video itself, just these references to it, so you'll need to host your video somewhere else, such as on one of the major video platforms like YouTube or Vimeo.

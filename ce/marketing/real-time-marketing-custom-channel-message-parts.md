@@ -16,6 +16,8 @@ search.audienceType:
 
 # Define the message parts
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Applicable channels: SMS, custom
 
 When you create a custom channel, you need to define a record in the **Channel Message Part** entity for each message part that the channel operates with (for example, title, subtitle, text). A custom channel requires at least one message part. When your solution is imported, a new row for every message part is created in the **msdyn_channelmessagepart** table.

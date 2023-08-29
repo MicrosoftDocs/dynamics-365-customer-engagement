@@ -57,10 +57,6 @@ A plugin checks the relationships and automatically sets the booking setup metad
   
 Or select **Book** on an entity record that has scheduling enabled, then use the schedule assistant to book the requirement.  
 
-## Enable the legacy schedule board
-
-[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
-
 ## Next steps
 
 - [Configure the schedule board tab settings in Universal Resource Scheduling](schedule-board-tab-settings.md)

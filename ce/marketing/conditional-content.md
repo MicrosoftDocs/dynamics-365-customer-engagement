@@ -15,6 +15,8 @@ search.audienceType:
 
 # How to use conditional content
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Conditional content is an easy way to deliver effective and engaging personalized content. A simple example of conditional content is including different images based on a recipient’s profession, age group, address, interests, or other such factors. Creating this kind of personalized content in Dynamics 365 Marketing is straightforward, requiring no coding or scripting. Here is a short video that shows conditional content in action:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Yb7B]

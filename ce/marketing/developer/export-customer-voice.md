@@ -14,6 +14,8 @@ search.audienceType:
 
 # Export Dynamics 365 Customer Voice survey responses to Microsoft Excel
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 
 
 The export to Excel feature uses Microsoft Dataverse information to join and pull the contact record information for Marketing integration customers, making it available in Excel.

@@ -15,6 +15,8 @@ search.audienceType:
 
 # Work with email, page, and form templates
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There are also blank templates, which provide no sample content or structure.
 
 ## Templates in Dynamics 365 Marketing

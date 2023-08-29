@@ -16,6 +16,8 @@ search.audienceType:
 
 # Create an interactive customer journey with conditions and signup
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created a customer journey that sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and conditions in the design.
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.

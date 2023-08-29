@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 06/23/2023
+ms.date: 08/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -43,23 +43,9 @@ You can provision the following channels in Omnichannel for Customer Service:
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 
 - Ensure that the provisioning user has the following permissions:
-  - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
+  - Microsoft 365 Global admin role. More information: [Assign admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
   - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
   - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
-
-## Provide data access consent
-
-Use the following steps to allow Omnichannel for Customer Service to read and write data on behalf of users:
-
-1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
-2. Sign in using **Global Tenant Admin** credentials.
-3. Select the **Consent on behalf of your organization** checkbox.
-4. Select **Accept** to grant data access consent.
-
-    > [!div class=mx-imgBorder]
-    > ![Grant consent.](media/data-consent.png "Grant consent")
-
-For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
@@ -80,6 +66,15 @@ For more information about app permissions, see [Azure app Power BI API permissi
     :::image type="content" source="media/oc-telephony-only.png" alt-text="Select Omnichannel for Customer Service - Telephony if you're installing voice only.":::
 
 1. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
+
+1. Select the **Consent on behalf of your organization** checkbox.
+
+    > [!div class=mx-imgBorder]
+    > ![Grant consent.](media/data-consent.png "Grant consent")
+
+1. Select **Accept** to grant data access consent.
+
+    For information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 1. On the **Manage Omnichannel Instances** page, select **Add environment** to add an environment. Omnichannel is set up for the organization environment that you add here.
 

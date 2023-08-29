@@ -15,6 +15,8 @@ search.audienceType:
 
 # Real-time marketing overview
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural language input assistance, business users can build trigger-based journeys that reach customers across multiple touch-points, growing relationships from prospects, through sales and support. Dynamics 365 Marketing’s real-time marketing features enable organizations to:
 
 - **Engage customers in real-time**

@@ -16,6 +16,8 @@ search.audienceType:
 
 # Troubleshoot domain authentication errors
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 The domain authentication process can be daunting and confusing. The lack of DNS industry hosting standardization does not make it any easier.
 
 This article is a checklist to help you troubleshoot domains that fail confirmation.

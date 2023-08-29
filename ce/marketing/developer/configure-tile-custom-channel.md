@@ -14,6 +14,8 @@ search.audienceType:
 
 # Step 2: Configure the custom channel tile
 
+[!INCLUDE[consolidated-sku-rtm-only](../../includes/consolidated-sku-rtm-only.md)]
+
 A custom channel is exposed as a “tile” in the customer journey designer. You can define the tile using an XML file.
 
 ## Define the Tile XML file

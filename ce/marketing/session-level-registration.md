@@ -16,6 +16,8 @@ search.audienceType:
 
 # Set up session-level registration and waitlisting
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 Session-level registration enables event organizers to give attendees the ability to assemble their own events from among all available sessions. In most ways, events with session-level registration work the same as those with event-level registration, but there are a few key differences, as outlined in the following table. Keep reading this topic for more information about these differences.
 
 |   | **Event-level registration** | **Session-level registration** |

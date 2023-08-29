@@ -15,6 +15,8 @@ search.audienceType:
 
 # Dynamics 365 Marketing developers learning catalog
 
+[!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
+
 
 
 Do you need to write code to integrate with other data sources, extend core system functionality, or build a complex application? 
