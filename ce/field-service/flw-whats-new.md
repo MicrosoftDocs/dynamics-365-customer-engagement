@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service (preview)
 description: Learn what's new in the Dynamics 365 Field Service (Preview) integration with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 07/31/2023
+ms.date: 09/01/2023
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -13,6 +13,10 @@ ms.subservice: m365-integrations
 # What's new in Microsoft 365 integrations for Field Service (preview)
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
+
+## September 5th, 2023
+
+This public preview release includes [scheduling a work order assistance while in Outlook](flw-outlook.md#schedule-a-work-order-using-copilot). Scheduling suggestions include resources and times based on the work order requirements.
 
 ## August 9th, 2023
 

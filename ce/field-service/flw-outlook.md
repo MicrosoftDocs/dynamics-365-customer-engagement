@@ -134,10 +134,6 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
 ## Schedule a work order using Copilot
 
-This feature adheres to responsible AI guidelines.
-
-<!--- Update FAQ or create a new one --->
-
 Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
 
 1. After you create a work order or open an unscheduled work order, select the **Scheduling** tab. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
