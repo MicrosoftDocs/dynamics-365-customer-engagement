@@ -132,7 +132,8 @@
     "fileMetadata": {
       "uhfHeaderId": {
         "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
-        "sales/**.*": "MSDocsHeader-Dynamics365Sales"
+        "sales/**.*": "MSDocsHeader-Dynamics365Sales",
+        "field-service/**.*": "MSDocsHeader-Dynamics365-Field-Service"
 
       },
       "featureFlags": {
