@@ -1,6 +1,6 @@
 ---
-title: Manage seller availability
-description: Manage sellers' availability to provide a more flexible and accommodating work environment.
+title: Manage a seller availability 
+description: Manage availability of your sellers to provide a more flexible and accommodating work environment.
 author: udaykirang 
 ms.author: udag 
 ms.reviewer: shujoshi
@@ -9,9 +9,9 @@ ms.date: 03/21/2023
 ms.custom: bap-template 
 ---
 
-# Manage seller availability
+# Manage a seller availability
 
-As a sales manager, you can manage the availability of your sales team according to the needs of your business. In this way, you create a more flexible and accommodating work environment, where team members can take time off or switch shifts as needed. By helping your sales team become more productive, you can also help improve customer satisfaction and increase sales.
+As a sales manager, you can manage the availability of your sellers according to the needs of your business. In this way, you create a more flexible and accommodating work environment, where team members can take time off or switch shifts as needed. By helping your sellers become more productive, you can also help improve customer satisfaction and increase sales.
 
 ## License and role requirements
 

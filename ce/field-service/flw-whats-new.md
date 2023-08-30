@@ -7,6 +7,7 @@ author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: mhart
 ms.custom: bap-template
+ms.subservice: m365-integrations
 ---
 
 # What's new in Microsoft 365 integrations for Field Service (preview)
@@ -27,3 +28,10 @@ This public preview release includes the following features:
 
 > [!NOTE]
 > Microsoft 365 integrations for Field Service are currently available only in the United States and United Kingdom and in the English (en-us) language.
+
+## Next steps
+
+- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
+- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

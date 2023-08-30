@@ -1,7 +1,7 @@
 ---
 title: Prerequisites to configure Conversation intelligence app
 description: Verify the prerequisites that are necessary to configure the Conversation intelligence app."
-ms.date: 06/29/2023
+ms.date: 07/28/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -47,7 +47,7 @@ Verify the following requirements before setting up the Conversation intelligenc
 
 - [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 - [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
-- [Which Conversation intelligence features are available in Dynamics 365 Sales versus Viva Sales?](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-viva-sales)  
+- [Which Conversation intelligence features are available in Dynamics 365 Sales versus Microsoft Sales Copilot?](faqs-sales-insights.md#which-conversation-intelligence-features-are-available-in-dynamics-365-sales-versus-microsoft-sales-copilot)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

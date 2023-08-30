@@ -1,9 +1,7 @@
 ---
-title: "Identify and resolve errors with real-time customer care journeys (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to identify and resolve errors with real-time customer care journey in Dynamics 365 Marketing."
+title: Identify and resolve errors with real-time customer care journeys
+description: Learn how to identify and resolve errors with real-time customer care journey in Dynamics 365 Marketing.
 ms.date: 03/22/2023
-ms.custom: 
-  - dyn365-marketing
 ms.topic: get-started
 author: alfergus
 ms.author: alfergus
@@ -17,7 +15,7 @@ search.audienceType:
 
 [!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
-As people have more ways to connect with companies, delivering a consistent and smooth customer experience has never been more important. Dynamics 365 Marketing allows you to identify and resolve customer issues seamlessly. 
+As people have more ways to connect with companies, delivering a consistent and smooth customer experience has never been more important. Dynamics 365 Marketing allows you to identify and resolve customer issues seamlessly.
 
 This article guides you through three stages of a customer care journey: (1) identifying and processing the customer's issues and notifying them through a text message, (2) opening a support ticket to monitor care progress, and (3) updating the customer through a communication channel (email) on the status of their support ticket.
 
@@ -65,7 +63,7 @@ The first thing you need to do is to create a journey. This assists you in ident
 
 1. After adding the condition, select the **Create** button and the journey will begin.
 
-## Step 2. Create a support ticket with error code and device id mapped attributes
+## Step 2. Create a support ticket with error code and device ID mapped attributes
 
 After the customer has started the journey, a case must be created. Real-time marketing enables users to create custom triggers that hold and transfer any sort of information that a customer journey may respond on. Users of real-time marketing have complete control over what custom triggers signify and what information they communicate. To create a case, we create another tile to active a custom trigger:
 
@@ -79,7 +77,7 @@ After the customer has started the journey, a case must be created. Real-time ma
     > [!div class="mx-imgBorder"]
     > ![map attributes](media/real-time-marketing-map-attributes.png "map attributes")
 
-1. When the power flow is triggered, this goes through a priority and assist you in evaluating if a journey **with critical errors** is triggered. Select **Priority**, and then **Value** to define that when a case is created, it has a critical value flag.
+1. When the Power Automate flow is triggered, this goes through a priority and assist you in evaluating if a journey **with critical errors** is triggered. Select **Priority**, and then **Value** to define that when a case is created, it has a critical value flag.
 
     > [!div class="mx-imgBorder"]
     > ![set trigger fields](media/real-time-marketing-set-trigger-fields.png "set trigger fields")

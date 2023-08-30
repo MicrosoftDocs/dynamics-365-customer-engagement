@@ -7,6 +7,7 @@ author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
+ms.subservice: m365-integrations
 ---
 
 # Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)

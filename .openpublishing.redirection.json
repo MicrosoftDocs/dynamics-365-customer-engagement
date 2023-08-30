@@ -642,6 +642,17 @@
       "redirect_url": "/dynamics365/customer-service/oc-conversation-state",
       "redirect_document_id": "false"
     },
+
+    {
+      "source_path": "ce/unified-service-desk/admin/comply-gdpr.md",
+      "redirect_url": "/dynamics365/unified-service-desk/admin/comply-privacy-laws-regs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/unified-service-desk/admin/comply-unified-service-desk-data-gdpr.md",
+      "redirect_url": "/dynamics365/unified-service-desk/admin/comply-unified-service-desk-data-privacy-laws",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/marketing/real-time-marketing-event-based-journey.md",
       "redirect_url": "real-time-marketing-trigger-based-journey",
@@ -25386,6 +25397,21 @@
     {
       "source_path": "ce/marketing/real-time-marketing-install.md",
       "redirect_url": "/dynamics365/marketing/real-time-marketing-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/help-hub.yml",
+      "redirect_url": "/dynamics365/marketing/index",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-experimentation.md",
+      "redirect_url": "/dynamics365/marketing/real-time-marketing-ab-tests-in-marketing-journeys",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/purchase-setup.md",
+      "redirect_url": "/dynamics365/marketing/purchase",
       "redirect_document_id": "false"
     }
   ]
