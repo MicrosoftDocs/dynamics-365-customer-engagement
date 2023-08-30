@@ -1,14 +1,14 @@
 ---
 title: Automatic closure of conversations
 description: Use this article to understand how to configure the auto-close duration of conversations using Power Apps.
-ms.date: 08/30/2023
+ms.date: 08/31/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
 ms.reviewer: gandhamm
 ms.custom: bap-template
 ---
-## Automatically close conversations
+# Automatically close conversations
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 

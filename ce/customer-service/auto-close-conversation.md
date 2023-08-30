@@ -1,7 +1,7 @@
 ---
 title: Configure automatic closure of conversations using web API
 description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
-ms.date: 08/30/2023
+ms.date: 08/31/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
