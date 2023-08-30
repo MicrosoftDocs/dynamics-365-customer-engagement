@@ -1,5 +1,5 @@
 ---
-title: Define forecast properties and schedule
+title: Define and schedule a forecast model
 description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
 ms.date: 03/15/2022
 ms.topic: article
@@ -9,9 +9,9 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Define a forecast's general properties and schedule
+# Define and schedule a forecast model
 
-Use general properties and scheduling options to define a forecast model.
+Use general properties and scheduling options to define and schedule a forecast model.
 
 ## License and role requirements
 
@@ -21,11 +21,13 @@ Use general properties and scheduling options to define a forecast model.
 | **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## Define the forecast's general properties
+## Define a forecast model
+
+Define the entities that must be used to generate the forecast. 
 
 1. In the **General** step of the **Forecast configuration** page, define the fields that should be used for the forecast. The following screenshot is an example of the **General** step for an org chart forecast. Let's walk through the options in the subsequent steps.
 
-    :::image type="content" source="./media/forecast-general-properties-forecast.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown.":::
+    :::image type="content" source="./media/forecast-general-properties-forecast.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown." lightbox="media/forecast-general-properties-forecast.svg":::
    
 1. Enter a descriptive name for the forecast. Example: *Kenny's Org FY2023 Forecast*.
 
@@ -72,12 +74,8 @@ Use general properties and scheduling options to define a forecast model.
 
     Choose different values to support your organization's specific requirements if needed.
 
-    In the example screenshot, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity. Since we 
-
-The **Owner** field is one of the field in the **Opportunity** entity that's related to the **User** entity. Therefore, we selected **Owner** as the relationship.
-
-    Continuing our earlier example, we selected **Owner (User)** as the relationship. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that **Owner** is in the **Opportunity** entity that has a relationship with the **User** entity.
-
+    In the example screenshot, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity. As we want to build a forecast based on sellers who own opportunities, we selected **Owner** as the relationship. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that the forecast values are based on the **Owner** field in the **Opportunity** entity.
+ 
     What if there is no direct relationship between the rollup entity and the hierarchy entity? In that case, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
 
     In the following example, we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity. Because there's no direct relationship between them, we must select the **Related** tab.
@@ -92,7 +90,7 @@ The **Owner** field is one of the field in the **Opportunity** entity that's rel
 
     The list of values depends on the hierarchy entity you selected. For example, if you select **User** as the hierarchy entity, the list displays active users in your organization.
 
-    Let's say that Kenny Smith, a sales director, wants to see a forecast for the team. Kenny builds a forecast based on the **Org chart** template and selects their own name as the top of the hierarchy. The team's hierarchy is previewed to the right of the forecast options.
+    Let's say that Kenny Smith, a sales director, wants to see the forecast for their team. Kenny builds a forecast based on the **Org chart** template and selects their own name as the top of the hierarchy. The team's hierarchy is previewed to the right of the forecast options.
 
     :::image type="content" source="./media/forecast-general-tab-configuration-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 

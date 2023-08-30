@@ -376,6 +376,8 @@
           href: select-template-forecast.md
         - name: Define general properties and scheduling
           href: define-general-properties-scheduling-forecast.md
+        - name: Apply additional filter
+          href: add-additional-filters.md
         - name: Capture forecast category for opportunity
           href: capture-forecast-category-opportunity.md
         - name: Configure forecast using custom rollup table
@@ -386,8 +388,6 @@
           href: choose-layout-and-columns-forecast.md
         - name: Forecast with multiple data types
           href: forecast-different-data-types.md
-        - name: Apply additional filter
-          href: add-additional-filters.md
         - name: Configure and manage drill-down entities
           href: configure-manage-drill-downs.md
         - name: Take snapshots automatically

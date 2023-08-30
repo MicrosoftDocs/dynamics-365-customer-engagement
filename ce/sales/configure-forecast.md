@@ -50,13 +50,13 @@ You can configure forecasts that are based on revenue or quantity. You define th
 
     If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
     
-  1. [Select a template](./select-template-forecast.md).
-  1. [Define general properties and scheduling](./define-general-properties-scheduling-forecast.md).
-  1. [Provide access permissions](./provide-permissions-forecast.md).
-  1. [Configure columns and layouts](./choose-layout-and-columns-forecast.md).
-  1. [Configure and manage drill-down entities](./configure-manage-drill-downs.md).
-  1. [Configure advanced settings](./forecast-configure-advanced-settings.md).
-  1. [Activate the forecast and upload data](./activate-upload-simple-columns-data-forecast.md).
+  1. [Select a template](./select-template-forecast.md).  
+  1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md)
+  1. [Provide access permissions](provide-permissions-forecast.md).
+  1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
+  1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
+  1. [Configure advanced settings](forecast-configure-advanced-settings.md).
+  1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
     
 
 ### Use the sample forecast configuration

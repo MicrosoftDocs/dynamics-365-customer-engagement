@@ -79,17 +79,6 @@ Now the conditions are created for the query. When the forecast is activated, th
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-<table>
-<tr><td>
-
-> [!div class="nextstepaction"] 
-> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
-</td><td>
-
-> [!div class="nextstepaction"] 
-> [Next step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
-</td></tr>
-</table>
 
 ### See also
 
