@@ -140,7 +140,7 @@ You can create an SLA from the Customer Service admin center or Customer Service
       The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
 1. Select **New**.
-    > [!NOTE] 
+    > [!NOTE]
     > If you are using the web client, and select **New**, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in UCI."
 
 1. Select **OK**, if you want to create the new SLA in Unified Interface. The **New SLA** page appears.
