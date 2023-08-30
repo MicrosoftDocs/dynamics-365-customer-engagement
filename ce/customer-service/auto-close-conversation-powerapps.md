@@ -8,7 +8,7 @@ ms.author: v-duddupdiv
 ms.reviewer: gandhamm
 ms.custom: bap-template
 ---
-# Automatically closure of conversations
+# Automatic closure of conversations
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
 
