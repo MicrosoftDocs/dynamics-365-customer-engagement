@@ -16,7 +16,7 @@ search.audienceType:
 
 [!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
-Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs to view the key metrics that are relevant to your organization. You can add custom metrics to the drill-down reports also.
+Use the extensibility feature in Microsoft Power BI to extend the out-of-the-box data models for the analytics reports in Customer Service and integrate with other datasets to create new custom metrics. You can customize the out-of-the-box standard reports and add your own KPIs to view the key metrics that are relevant to your organization. You can add custom metrics to the detail reports also.
 
 The key capabilities of model customization include the ability to:
 
