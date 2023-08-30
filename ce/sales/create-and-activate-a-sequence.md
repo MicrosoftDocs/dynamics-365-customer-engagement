@@ -7,7 +7,6 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview 
 ms.collection: how-to 
-ms.date: 08/25/2023
 ms.custom: bap-template 
 ---
 
