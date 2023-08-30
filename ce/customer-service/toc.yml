@@ -800,7 +800,7 @@
         href: start-proactive-chat.md
       - name: Send authentication token
         href: send-auth-token-starting-chat.md       
-      - name: Configure automatic closure of conversations
+      - name: Configure automatic closure of conversations using web API
         href: auto-close-conversation.md
       - name: Send custom context during live chat
         href: send-context-starting-chat.md
@@ -906,7 +906,7 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: Configure automatic closure of conversations using Power Apps
+    - name: Automatic closure of conversations
       href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:

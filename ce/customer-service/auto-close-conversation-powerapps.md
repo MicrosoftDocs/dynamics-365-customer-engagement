@@ -1,25 +1,13 @@
 ---
-title: Configure automatic closure of conversations using Power Apps
+title: Automatic closure of conversations
 description: Use this article to understand how to configure the auto-close duration of conversations using Power Apps.
-ms.date: 08/29/2023
+ms.date: 08/30/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
 ms.reviewer: gandhamm
 ms.custom: bap-template
 ---
-# Configure automatic closure of conversations using Power Apps
-
-This article demonstrates how you can configure the auto-close duration of a conversation using Power Apps.
-
-You must perform the following steps to configure the auto-close duration of a conversation using Power Apps:
-
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-
-2. Select **Tables**, and then select **Channel State Configuration** table.
-
-3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
-
 ## Automatically close conversations
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
@@ -29,6 +17,7 @@ The Omnichannel for Customer Service scheduler checks conversations every 5 minu
 > [!IMPORTANT]
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 > - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
+
 
 ### Default time for automatic closure of conversations
 
@@ -63,6 +52,16 @@ For example, when you set **Auto-close after inactivity** to 5 minutes, the conv
 > The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
 
 To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
+
+### Configure automatic closure of conversations using Power Apps
+
+You can also configure the auto-close duration of a conversation using Power Apps by performing following steps
+
+1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
+
+2. Select **Tables**, and then select **Channel State Configuration** table.
+
+3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
 
 ### Set default time using APIs
 
