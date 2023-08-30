@@ -1,5 +1,5 @@
 ---
-title: Define forecast properties and scheduling
+title: Define forecast properties and schedule
 description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
 ms.date: 03/15/2022
 ms.topic: article
@@ -9,11 +9,12 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Define a forecast's general properties and scheduling
+# Define a forecast's general properties and schedule
 
 Use general properties and scheduling options to define a forecast model.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -22,9 +23,11 @@ Use general properties and scheduling options to define a forecast model.
 
 ## Define the forecast's general properties
 
-1. In the **General** step of the **Forecast configuration** page, enter a descriptive name for the forecast. In our example, we'll enter *Kenny's Org FY2022 Forecast*.
+1. In the **General** step of the **Forecast configuration** page, define the fields that should be used for the forecast. The following screenshot is an example of the **General** step for an org chart forecast. Let's walk through the options in the subsequent steps.
 
-    :::image type="content" source="./media/forecast-general-properties-forecast-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the forecast name entered.":::
+    :::image type="content" source="./media/forecast-general-properties-forecast.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown.":::
+   
+1. Enter a descriptive name for the forecast. Example: *Kenny's Org FY2023 Forecast*.
 
 1. Select a **Rollup entity**.
 
@@ -40,7 +43,8 @@ Use general properties and scheduling options to define a forecast model.
 
     Only entities that have **Change Tracking** turned on are listed. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
-    :::image type="content" source="./media/forecast-general-properties-rollup-entity.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the rollup entity selected.":::
+
+1. Select the **Funnel** icon next to **Rollup entity** to filter opportunities that participate in calculating the forecast values. [Learn more about roll up filters](add-additional-filters.md#add-additional-filters-on-opportunities-to-calculate-forecast-values).
 
 1. Select a **Hierarchy entity**.
 
@@ -54,6 +58,8 @@ Use general properties and scheduling options to define a forecast model.
     | Product forecast | Product |
     | Territory forecast | Territory |
 
+1. Select the **Funnel** icon next to **Hierarchy entity** to filter your forecast to include only those hierarchies that meet the specified conditions. [Learn more about hierarchy filters](add-additional-filters.md#filter-hierarchy-records-in-the-forecast).
+
 1. Select a **Rollup to hierarchy relationship**.
 
     This step establishes a relationship between the rollup and hierarchy entities. Each forecast template starts with a default rollup to hierarchy relationship:
@@ -66,19 +72,15 @@ Use general properties and scheduling options to define a forecast model.
 
     Choose different values to support your organization's specific requirements if needed.
 
-    In the following example, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity.
+    In the example screenshot, we selected **User** as the hierarchy entity. We can choose from fields in the **Opportunity** entity that are related to the **User** entity. Since we 
 
-    :::image type="content" source="./media/forecast-relationship-entity-attribute.png" alt-text="A screenshot of the General step of the Forecast configuration page, with Hierarchy entity and Rollup to hierarchy relationship shown.":::
+The **Owner** field is one of the field in the **Opportunity** entity that's related to the **User** entity. Therefore, we selected **Owner** as the relationship.
 
     Continuing our earlier example, we selected **Owner (User)** as the relationship. The relationship is mapped as *Opportunity > Owner (User) > User*. The mapping specifies that **Owner** is in the **Opportunity** entity that has a relationship with the **User** entity.
-
-    :::image type="content" source="./media/forecast-relationship-entity-attribute-created-by.png" alt-text="A screenshot of the General step of the Forecast configuration page, with Rollup to hierarchy relationship mapped.":::
 
     What if there is no direct relationship between the rollup entity and the hierarchy entity? In that case, you can choose a field from a related entity to define an indirect relationship. Select the **Related** tab, and then choose a field from the list. Only fields in hierarchical entities are shown in the **Related** list.
 
     In the following example, we selected **Opportunity** as the rollup entity and **Territory** as the hierarchy entity. Because there's no direct relationship between them, we must select the **Related** tab.
-
-    :::image type="content" source="./media/forecast-relationship-entity-related-attribute-none.png" alt-text="A screenshot of forecast configuration General settings, showing that there's no direct relationship between the selected rollup and hierarchy entities.":::
 
     In our example, the **Territory** field in the **Related** list is indirectly related to **Opportunity** through the **Account** entity. In other words, **Account** is an intermediate entity for establishing a relationship between **Opportunity** and **Territory**.
 
@@ -92,7 +94,7 @@ Use general properties and scheduling options to define a forecast model.
 
     Let's say that Kenny Smith, a sales director, wants to see a forecast for the team. Kenny builds a forecast based on the **Org chart** template and selects their own name as the top of the hierarchy. The team's hierarchy is previewed to the right of the forecast options.
 
-    :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+    :::image type="content" source="./media/forecast-general-tab-configuration-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 
 1. [Schedule the forecast](#schedule-the-forecast) using basic or advanced options, as in the following section.
 
@@ -126,6 +128,7 @@ Basic scheduling uses the Gregorian calendar, with 12 weeks per quarter. Use [ad
     :::image type="content" source="./media/forecast-schedule-org-select-name.png" alt-text="A screenshot of the General step of the Forecast configuration page, with scheduling options set to create a monthly forecast for FY2022.":::
 
     When you select a monthly forecast period, another option, **Start this forecast on fiscal start date month**, becomes available. Turn on this setting if you want the forecast’s first month to be the **Valid from** month. If you leave it turned off, the forecast’s first month will be the month following the **Valid from** month.
+
 
 ## Advanced scheduling
 

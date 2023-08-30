@@ -1,16 +1,17 @@
 ---
-title: "Add additional filters to a forecast (Dynamics 365 Sales)"
-description: "Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values."
+title: Add additional filters to a forecast
+description: Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 ms.date: 01/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ---
-# Apply additional filters 
+# Apply additional filters
 
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -27,7 +28,7 @@ The following screenshot illustrates a sample forecast hierarchy:
 
 **To filter hierarchy records in a forecast**
 
-1.  Select the **Filter Data** step of the forecast configuration and go to the **Add hierarchy filters** section.
+1.  In the **General** step of the forecast configuration, select the **Funnel** icon next to **Hierarchy entity** field.
 
     > [!NOTE]
     > To apply the filter on an existing forecast, clone the forecast configuration, apply the filter, and then activate it. You can then deactivate the old forecast configuration.
@@ -39,7 +40,7 @@ The following screenshot illustrates a sample forecast hierarchy:
     > [!NOTE]
     > If a parent record is filtered out of the hierarchy, the rollup value of the child records will show up under the parent record. However, the opportunities that were directly owned by the parent record won't be displayed in the forecast. Let's suppose that Dustin Ochs is a Sales Manager in Kenny's org who manages two sellers. Henry is in Europe, but manages sellers in APAC. When Kenny looks at the forecast for APAC, the opportunities of Dustin's reports will roll up under Henry's name, but the forecast won't show the opportunities owned by Henry. 
 
-3.  Select the **General** step to preview the forecast configuration with the filtered hierarchy.
+3.  Verify the filtered hierarchy in the preview section on the right side.
 
     :::image type="content" source="media/hierarchy-filters-preview.png" alt-text="Screenshot of the forecast hierarchy preview.":::
 
@@ -50,11 +51,11 @@ The following screenshot illustrates a sample forecast hierarchy:
 
 ## Add additional filters on opportunities to calculate forecast values
 
-Using the rollup filters, you can filter opportunities that participate in calculating the forecast values. To filter the opportunities, create the filter conditions based on the opportunity and its related entity attributes.
+Using the rollup filters, you can filter opportunities that participate in calculating the forecast values. To filter opportunities, create filter conditions based on the opportunity and its related entity attributes.
 
 For example, you know that opportunities related to **Adatum Corporation** and the revenue of more than or equal to **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps:
 
-1.	In the **Filter Data** step of the forecast configuration, go to the **Add rollup filters** section.
+1.	In the **General** step of the forecast configuration, select the **Funnel** icon next to **Rollup entity** field.
  
 2.	Select **Add** > **Add row**. 
  
