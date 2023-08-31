@@ -1,18 +1,22 @@
 ---
 title: Forecast periods
-description: 
+description: Learn about the rules and calendar templates to set forecast periods, including duration, number of occurrences and scheduling format.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
-ms.topic: how-to 
+ms.topic: how-to
 ms.collection: get-started
 ms.date: 08/30/2023
-ms.custom: bap-template 
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:08/31/2023
 ---
 
 # Forecast periods
 
-A forecast period is a time period for which you want to forecast sales. A forecast period defines start date, frequency, number of occurrences, and so on. This article describes the rules that you need to follow when you're adding forecast periods and the calendar templates that you can use to schedule forecast periods. 
+A forecast period is a time period for which you want to forecast sales. A forecast period defines start date, frequency, number of occurrences, and so on. This article describes the rules that you need to follow when you're adding forecast periods and the calendar templates that you can use to schedule forecast periods.  
 
 ## Forecast period rules
 

@@ -32,7 +32,7 @@ Before adding and scheduling forecast periods, review the following information:
 
 You can add forecast periods while you're defining the forecast configuration or after you've activated the forecast. If you add a new period after activating the forecast, you need to reactivate the forecast for the new period to take effect.
 
-1. Open the **Forecast configuration** page in **App Settings**. For more information, see [Configure forecasting](configure-forecasting.md).
+1. Open the **Forecast configuration** page in **App Settings**. 
 
 1. Open the forecast configuration record that you want to edit.
 1. In the **General** step of the forecast configuration, scroll down to the **Scheduling** section, 
