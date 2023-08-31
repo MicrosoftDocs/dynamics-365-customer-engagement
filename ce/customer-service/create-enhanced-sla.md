@@ -36,7 +36,7 @@ ms.collection: get-started
 
 4. To create a new SLA, select **New**.
     > [!NOTE]
-    > Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface.
+    > When you select **New**, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface".
 
     -Or-  
 
