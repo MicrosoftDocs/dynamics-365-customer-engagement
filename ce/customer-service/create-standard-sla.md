@@ -37,7 +37,7 @@ ms.collection: get-started
 4. To create a new SLA, select **New** on the command bar.
      
     > [!NOTE]
-    > Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to https://learn.microsoft.com/en-us/dynamics365/customer-service/deprecations-customer-service#slas-in-web-client-are-deprecated. Select **OK** to continue creating the new SLA in Unified Interface.
+    > Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface.
 
     -Or-  
 
