@@ -91,7 +91,7 @@ Now that you've completed the required configurations for the forecast, use the 
 
 7. After the workbook is uploaded, select **Finish**.
 
-You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
+You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed. To verify whether the forecast is ready to view, select the forecast configuration, and see if the forecast periods are in **Completed** status. For more information, see [Forecast period status](define-general-properties-scheduling-forecast.md#forecast-period-status).
 
 > [!NOTE]
 > If you update data (simple columns and adjust fields), the changes may take up to two hours to reflect in the forecast.

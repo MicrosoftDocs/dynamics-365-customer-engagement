@@ -32,7 +32,7 @@ Your administrator must have [enabled snapshots](manage-snapshots-forecast.md)
 3.	Select **See forecast grid history**. 
 
     >[!NOTE]
-    >The **See forecast grid history** option is inactive if there no snapshots available for the forecast.
+    >The **See forecast grid history** option is inactive if there no snapshots available for the forecast. Daily snapshots are available for weekly, monthly, and quarterly forecast periods, and weekly snapshots are available for annual periods.
 
     > [!div class="mx-imgBorder"]
     > ![Select See forecast grid history](media/predictive-forecasting-snapshot-select-forecast-grid-history.png "Select See forecast grid history")

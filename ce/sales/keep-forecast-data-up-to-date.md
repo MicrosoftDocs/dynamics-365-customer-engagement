@@ -29,11 +29,15 @@ Forecast data is automatically recalculated after every 24 hours to keep the dat
 
 ## Recalculate and refresh forecast data manually
 
-Forecast data is automatically recalculated after every 24 hours. The **Last updated** label on the command bar shows the time when the forecast was last recalculated successfully.
+Forecast data is automatically recalculated in the following scenarios:
 
-If you know that the underlying data has changed, you can trigger a manual recalculation.
+- After every 24 hours.
+- After you adjust the forecast values or update the underlying records on the **Forecasts** page.
 
-1. [Open the forecast](view-forecasts.md).
+if you've updated the underlying records on the opportunities page or updated the forecast hierarchy, you can trigger a manual recalculation.
+
+1. [Open the forecast](view-forecasts.md). Verify the **Last updated** timestamp on the command bar to know when the forecast was last recalculated successfully.
+
 
 1. Select **Recalculate data**.
     :::image type="content" source="media/forecast-select-recalculate.png" alt-text="Screenshot of the Recalculate data option in the forecast.":::
