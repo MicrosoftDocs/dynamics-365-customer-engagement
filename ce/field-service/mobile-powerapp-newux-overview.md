@@ -28,7 +28,11 @@ Detailed information for the immediate task is now readily available with embedd
 
 ## Preview content in the documentation
 
-Once [an administrator enables](#enable-the-preview-features) the preview features, they're available directly in the existing Field Service (Dynamics 365) Mobile app from the app stores. Technicians don't need to download a new app and organizations don't need to perform any migration. However, make sure you updated the mobile app to the latest version.
+Once [an administrator enables](#enable-the-preview-features) the preview features, they're available directly in the existing Field Service (Dynamics 365) Mobile app from the app stores. Technicians don't need to download a new app and organizations don't need to perform any migration. However, make sure that the mobile app and the Field Service solution are updated to the latest version.
+
+> [!NOTE]
+> For the preview of the new UX on mobile, the minimum Field Service version required is [889525](version-history#889525).
+> The minimum app version required is 1323072.18 on iOS and 3.23072.18 on android.
 
 To learn more about these new features, review documentation articles and find content for preview features alongside the current content in dedicated tabs.
 
