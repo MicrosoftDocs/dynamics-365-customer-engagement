@@ -10,9 +10,9 @@ ms.custom: bap-template
 ---
 # Automatic closure of conversations
 
-Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve a closure, and agents can focus on important conversation, which ultimately enhances the productivity.
+Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve closure, allowing agents to focus on other tasks, enhancing productivity.
 
-The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify those conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
+The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
@@ -55,7 +55,7 @@ To learn more, see [Create a workstream](../customer-service/create-workstreams.
 
 ### Configure automatic closure of conversations using Power Apps
 
-You can also configure the auto-close duration of a conversation using Power Apps by performing following steps
+You can also configure the auto-close duration of a conversation in Power Apps by performing the following steps
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
