@@ -18,7 +18,7 @@ This article summarizes public preview features, general availability enhancemen
 
 ## September 5, 2023
 
-This public preview release includes [scheduling a work order assistance while in Outlook](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
+This public preview release includes [assistance while scheduling a work order in Outlook](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
 
 ## August 9, 2023
 
