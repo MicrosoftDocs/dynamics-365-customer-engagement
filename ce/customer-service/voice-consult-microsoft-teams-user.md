@@ -4,7 +4,7 @@ description: Learn how to enable the consult experience between a voice channel 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 08/29/2023
+ms.date: 08/31/2023
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
