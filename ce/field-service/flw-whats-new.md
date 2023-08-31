@@ -14,6 +14,8 @@ ms.subservice: m365-integrations
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
+[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+
 ## September 5th, 2023
 
 This public preview release includes [scheduling a work order assistance while in Outlook](flw-outlook.md#schedule-a-work-order-using-copilot). Scheduling suggestions include resources and times based on the work order requirements.
@@ -29,9 +31,6 @@ This public preview release includes the following features:
 - A Viva Connections dashboard in Teams allows frontline managers to view and create work orders.
 - The Viva Connections dashboard in Teams also provides frontline workers with an at-a-glance view of their workday.
 - Workers can also initiate a Dynamics 365 Remote Assist call from their dashboard.
-
-> [!NOTE]
-> Microsoft 365 integrations for Field Service are currently available only in the United States and United Kingdom and in the English (en-us) language.
 
 ## Next steps
 

@@ -16,7 +16,9 @@ ms.subservice: m365-integrations
 
 Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
-The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Use the copilot to see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the Field Service schedule board for scheduling.
+The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](preview-schedule-board.md) for scheduling.
+
+[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
 ## Install the Field Service (Preview) Outlook Add-in
 
@@ -72,14 +74,14 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
-1. On the **Copilot** tab select **Create a work order from email**.
+1. On the Home tab, select **Create a work order from email**.
 
-   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service (Preview) Outlook pane showing Copilot tab":::
+   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service (Preview) Outlook pane showing Home tab":::
 
    A message displays that the work order is being generated.
 
    > [!TIP]
-   > If the email does not meet Microsoft Responsible AI guidelines, an error displays. You can create the work order manually.
+   > If the email does not meet Microsoft Responsible AI guidelines, an error displays. You can [create the work order manually](#create-a-work-order-manually-in-outlook).
 
 1. Review the work order to ensure all AI-generated content is accurate and fill in any additional information.
 
@@ -91,9 +93,7 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot).
-
-<!--- Change screenshot --->
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -119,20 +119,18 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service (Preview) Outlook Create work order pane":::
 
    > [!TIP]
-   > Copy relevant information from the email into the **Description** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
+   > Copy relevant information from the email into the **Summary** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot).
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot) or select the back arrow to return to the **Home** tab.
 
-<!--- Change screenshot --->
+   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
 
-   :::image type="content" source="media/fsp-pop-out-icon.png" alt-text="Field Service (Preview) Outlook Work Orders tab highlighting the pop-out icon":::
-
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
-## Schedule a work order using Copilot
+## Schedule a work order in Outlook
 
 Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
 
@@ -145,9 +143,9 @@ Scheduling is based on resource availability, skills, customer promised time win
    > [!TIP]
    > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
 
-1. Select the technician. The technician is booked and the status is changed to **Scheduled**.
+1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**.
 
-1. Select the back arrow to return to the **Copilot** tab or the work order list.
+1. Select the back arrow to return to the **Home** tab or the work order list.
 
 ## View work orders in Outlook
 
@@ -157,8 +155,6 @@ Scheduling is based on resource availability, skills, customer promised time win
 
    > [!TIP]
    > To view more work orders, select **Show more** at the bottom of the list.
-
-<!--- Change screenshot --->
 
    :::image type="content" source="media/fsp-work-order-list.png" alt-text="Field Service (Preview) Outlook work order list":::
 
