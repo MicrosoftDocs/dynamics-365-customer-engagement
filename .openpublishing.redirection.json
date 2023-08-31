@@ -24571,6 +24571,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/teams-integration/teams-delete-data.md",
+      "redirect_url": "/dynamics365/teams-integration/teams-integration",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/sales/sales-mobile/use-dictation.md",
       "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
       "redirect_document_id": false
