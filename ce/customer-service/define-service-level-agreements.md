@@ -1,7 +1,7 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/30/2023
+ms.date: 08/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -139,11 +139,7 @@ You can create an SLA from the Customer Service admin center or Customer Service
        
       The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
-1. Select **New**.
-    > [!NOTE]
-    > If you are using the web client, and select **New**, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in UCI."
-
-1. Select **OK**, if you want to create the new SLA in Unified Interface. The **New SLA** page appears.
+1. Select **New**. The **New SLA** page appears.
 
 1. Enter the following details on the **General** tab::
 

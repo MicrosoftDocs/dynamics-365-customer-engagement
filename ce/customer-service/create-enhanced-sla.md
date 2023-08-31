@@ -1,7 +1,7 @@
 ---
 title: "Create enhanced service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/16/2022
+ms.date: 08/31/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -34,13 +34,15 @@ ms.collection: get-started
 
 3. Go to **Service Level Agreements**.
 
-4. To create a new SLA, select **New**.  
+4. To create a new SLA, select **New**.
+    > [!NOTE]
+    > Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to https://learn.microsoft.com/en-us/dynamics365/customer-service/deprecations-customer-service#slas-in-web-client-are-deprecated. Select **OK** to continue creating the new SLA in Unified Interface.
 
     -Or-  
 
     To edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
 
-5. If you're creating an SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
+5. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
 
 6. Enter your information as follows:
 
