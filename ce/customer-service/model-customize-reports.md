@@ -55,7 +55,7 @@ Before you begin, you must complete the following prerequisites:
         Permissions within Power BI can be granted to groups only and not individual service principals, and therefore a group needs to be created.
         
     > [!NOTE]
-    > In organizations where **Dynamics 365 Analytics** service account may not be available, you'll need to use the **Dynamics CCA Data Analytics** service account.
+    > In organizations where Dynamics 365 Analytics service account may not be available, you'll need to use the Dynamics CCA Data Analytics service account.
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or the for the security group created earlier:  
 
@@ -67,7 +67,7 @@ Before you begin, you must complete the following prerequisites:
   
     - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring additional data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
     
-    - **Embed content in apps** (**Optional**): You must enable this if you plan to embed customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+    - **Embed content in apps** (**Optional**): Enabling this embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
         
 - If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user login) enabling the model customization is a workspace administrator of that Power BI workspace.
 
