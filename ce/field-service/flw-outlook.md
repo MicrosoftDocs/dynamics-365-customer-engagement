@@ -93,7 +93,7 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot) or select the back arrow to return to the **Home** tab.
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -121,7 +121,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    > [!TIP]
    > Copy relevant information from the email into the **Summary** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-using-copilot) or select the back arrow to return to the **Home** tab.
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
