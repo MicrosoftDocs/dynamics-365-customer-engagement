@@ -18,11 +18,11 @@ This article summarizes public preview features, general availability enhancemen
 
 ## September 5, 2023
 
-This public preview release includes [scheduling a work order assistance while in Outlook](flw-outlook.md#schedule-a-work-order-using-copilot). Scheduling suggestions include resources and times based on the work order requirements.
+This public preview release includes [scheduling a work order assistance while in Outlook](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
 
 ## August 9, 2023
 
-Microsoft 365 integrations for Field Service integrates Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
+Microsoft 365 integrations for Field Service (preview) integrate Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
 
 This public preview release includes the following features:
 
