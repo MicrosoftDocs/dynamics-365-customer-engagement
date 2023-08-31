@@ -84,11 +84,9 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For new Power Platform environments, install [Service Scheduling from Power Platform admin center](install-service-scheduling-from-power-platform.md). For 
+- For new or existing Power Platform environments, install [Service Scheduling from Power Platform admin center](install-service-scheduling-from-power-platform.md). For existing organizations, where **Core Service Scheduling** solutions is already installed, you'll need to install the available updates from [Dynamics 365 Service Scheduling](/power-platform/admin/manage-apps).
 
-For existing organizations, where **Core Service Scheduling** solutions is already installed, you'll need to install the available updates from Dynamics 365 Service Scheduling.
-
-- For new or existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
+- For new or existing Dynamics 365 Customer Service organizations, you must install the service scheduling solutions from the Microsoft 365 admin center. For more information, go to [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
 ### Prerequisites
 
