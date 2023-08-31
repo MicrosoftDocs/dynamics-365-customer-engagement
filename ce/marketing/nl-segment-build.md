@@ -18,7 +18,7 @@ search.audienceType:
 
 [!INCLUDE[consolidated-sku-rtm-only](../includes/consolidated-sku-rtm-only.md)]
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4IQy2" frameborder="0" allowfullscreen=""></iframe></div>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQy2]
 
 > [!NOTE]
 > You will need your administrator to [turn on the feature switch](admin-feature-switches.md) for the **Natural Language queries for Segmentation** functionality under **Segmentation** before you are able to access it.
