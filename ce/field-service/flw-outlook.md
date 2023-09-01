@@ -72,7 +72,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
-1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in). To avoid duplicate work orders, if the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
 1. On the Home tab, select **Create a work order from email**.
 
@@ -93,7 +93,9 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
+1. Select **Save**.
+
+   After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The email is saved in the Field Service timeline. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -143,7 +145,7 @@ Scheduling is based on resource availability, skills, customer promised time win
    > [!TIP]
    > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
 
-1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**.
+1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service (Preview)** pane.
 
 1. Select the back arrow to return to the **Home** tab or the work order list.
 
@@ -154,7 +156,7 @@ Scheduling is based on resource availability, skills, customer promised time win
 1. On the **Work orders** tab, a list of up to 50 work orders display. The most recent work order displays first.
 
    > [!TIP]
-   > To view more work orders, select **Show more** at the bottom of the list.
+   > To view more work orders in the Field Service app, select **See more** at the bottom of the list.
 
    :::image type="content" source="media/fsp-work-order-list.png" alt-text="Field Service (Preview) Outlook work order list":::
 
