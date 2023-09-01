@@ -1,7 +1,7 @@
 ---
 title: View a forecast 
 description: See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target.
-ms.date: 08/23/2023
+ms.date: 09/01/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -55,7 +55,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
     -	Choose the forecast period you want to see from the drop-down list on the right.
         - Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period. 
-        - To rearrange the forecast periods in the drop-down list, contact your administrator. For more information, see [Rearrange forecast periods](rearrange-forecasts.md). 
+        - To rearrange the forecast periods in the drop-down list, contact your administrator. For more information, see [Rearrange forecast periods](manage-forecast-periods.md#rearrange-forecast-periods). 
     
     :::image type="content" source="media/forecast-view-drop-down.png" alt-text="Screenshot of the forecast view with the forecast and forecast period drop-down lists highlighted.":::
  
