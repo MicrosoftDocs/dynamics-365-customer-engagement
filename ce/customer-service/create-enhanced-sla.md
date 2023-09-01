@@ -1,7 +1,7 @@
 ---
 title: "Create enhanced service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
+ms.date: 01/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,21 +30,21 @@ ms.collection: get-started
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**.
+1. Go to **Settings** > **Service Management**.
 
-3. Go to **Service Level Agreements**.
+1. Go to **Service Level Agreements**.
 
-4. To create a new SLA, select **New**.
+1. To create a new SLA, select **New**.
     > [!NOTE]
-    > From the Customer Service admin center app, when you select **New**, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface".
+    > When you select **New** from the web client, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface".
 
-    -Or-  
+    You’ll see the above message if your organization has the Customer Service admin center app. If your org doesn’t have Customer Service admin center, you’ll be creating the new SLA in the web client itself. For online orgs, which will have the Customer Service admin center app, you will see the above message.
 
-    To edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
+1. Optionally, to edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
 
-5. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
+1. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
 
-6. Enter your information as follows:
+1. Enter your information as follows:
 
    - **Applicable From**: Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the record was created.  
 
@@ -59,11 +59,11 @@ ms.collection: get-started
 
    - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
 
-7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. In the **SLA Details** section, select **Add** ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").
+1. In the **SLA Details** section, select **Add** ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").
 
-9. Enter the following information in the SLA Item form:  
+1. Enter the following information in the SLA Item form:  
 
    - **Name**: Type a meaningful name.  
 

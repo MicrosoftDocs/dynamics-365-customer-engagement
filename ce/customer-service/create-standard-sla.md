@@ -1,7 +1,7 @@
 ---
 title: "Create standard service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create standard service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
+ms.date: 09/01/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,24 +30,24 @@ ms.collection: get-started
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**.
+1. Go to **Settings** > **Service Management**.
 
-3. Go to **Service Level Agreements**.  
+1. Go to **Service Level Agreements**.  
 
-4. To create a new SLA, select **New** on the command bar.
+1. To create a new SLA, select **New** on the command bar.
      
     > [!NOTE]
-    > From the Customer Service admin center app, when you select **New**, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface".
+    > When you select **New** from the web client, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface".
 
-    -Or-  
+    You’ll see the above message if your organization has the Customer Service admin center app. If your org doesn’t have Customer Service admin center, you’ll be creating the new SLA in the web client itself. For online orgs, which will have the Customer Service admin center app, you will see the above message.
 
-    To edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
+1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
-5. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  
+1. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  
 
     You do this because you can create a standard SLA only for the Case entity.  
 
-6. Enter your information as follows:
+1. Enter your information as follows:
 
    - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
 
@@ -62,9 +62,9 @@ ms.collection: get-started
 
    - **Allow Pause and Resume**. Select **Do Not Allow**. Because standard SLAs don't support pausing and resuming of SLAs, you can set this field to **Allow** only when you're creating an enhanced SLA.  
 
-7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").  
+1. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
     You add SLA details to define the KPIs or metrics for the SLA. You can define any KPI your organization needs. For example, a KPI might be that all cases for standard customers must be resolved within five days from when the case was created.  
 
@@ -75,7 +75,7 @@ ms.collection: get-started
    > [!NOTE]
    >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
 
-9. Enter the following information in the **New SLA Item** form:  
+1. Enter the following information in the **New SLA Item** form:  
 
    - **Name**: Type a meaningful name.  
 
