@@ -138,7 +138,7 @@ Scheduling is based on resource availability, skills, customer promised time win
 
 1. After you create a work order or open an unscheduled work order, select the **Scheduling** tab. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 
-1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time.
+1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling":::
 
@@ -146,6 +146,8 @@ Scheduling is based on resource availability, skills, customer promised time win
    > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service (Preview)** pane.
+
+1. If needed, update the booking status. A confirmation displays at the top of the pane.
 
 1. Select the back arrow to return to the **Home** tab or the work order list.
 
