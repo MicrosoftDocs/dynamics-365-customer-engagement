@@ -20,11 +20,11 @@ This article summarizes public preview features, general availability enhancemen
 
 This public preview release includes the following changes.
 
-- The number of additional work orders in the system after the first 50 work orders display on the **Work orders** tab in both Outlook and Teams. You can select the link to view the additional work orders in the Field Service app.
-- The find work orders by ID discovers partial matches in both Outlook and Teams.
-- [Assistance while scheduling a work order in Outlook](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
-- In Outlook, if an email was previously used to create a work order using Copilot, a message displays with a link to the work order.
-- In Outlook, if a work order is created from an email using Copilot, the email message is saved in the Field Service app timeline.
+- In both Outlook and Teams, after the first 50 work orders display on the **Work orders** tab, added the number of other work orders in the system. You can select the link to view the work orders in the Field Service app.
+- In both Outlook and Teams, fixed an issue where the work orders **Find by ID** now discovers partial matches.
+- In Outlook, added [assistance while scheduling a work order](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
+- In Outlook, if an email was previously used to create a work order using Copilot, added a message with a link to the work order.
+- In Outlook, if a work order is created from an email using Copilot, the email message is now saved in the Field Service app timeline.
 
 ## August 9, 2023
 
