@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: overview 
 ms.collection:  
-ms.date: 08/11/2023
+ms.date: 09/01/2023
 ms.custom: bap-template 
 ---
 
@@ -22,7 +22,7 @@ The integration for Nuance Cloud IVR uses Azure Communication Services to route 
 
 The call is then escalated to an agent through Azure Communication Services using the  Session Initiation Protocol. The SIP header data is used to route the call to the agent, and display details such as the IVR transcript and call intent, which are captured during the IVR session, to the agent.
 
- :::image type="content" source="media/oc-nuance-fos-ref-arch.png" alt-text="reference architecture for nuance IVR omnichannel integration":::
+ :::image type="content" source="media/oc-nuance-ref-arch.png" alt-text="Architecture diagram of the integration of Nuance Cloud IVR bot with voice channel.":::
 
 ## Next steps
 
