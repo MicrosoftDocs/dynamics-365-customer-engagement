@@ -1,5 +1,5 @@
 ---
-title: Set up Nuance Cloud IVR bot integration with voice channel
+title: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
 description: How-to setup Nuance cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.date: 07/27/2023
 ms.custom: bap-template 
 ---
 
-# Set up Nuance Cloud IVR bot integration with voice channel
+# Integrate Nuance Cloud IVR bot with voice channel in Customer Service
 
 Integrate the Nuance Cloud IVR bot with the voice channel using Azure Communication Services.
 
@@ -49,11 +49,7 @@ Direct routing enables you to connect Nuance’s existing telephony infrastructu
    - `redirectNumber`: number that you want your incoming calls to be redirected to.
    - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number.
    - `dialedNumber`: outbound number that your incoming calls are routed to.
-1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall`, to your Azure function. You can perform one of the following steps:
-   - Run the armclient command:
-
-      `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
-
+1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall` with your Azure function. You can perform one of the following actions:
    - Through the Azure portal:
       - Select **Event** and then select **Create Event Subscription**.
       - Specify the following information on the Create Event Subscription page:
@@ -61,6 +57,10 @@ Direct routing enables you to connect Nuance’s existing telephony infrastructu
          - Event Schema: Event Grid Schema
          - Filter to Event Types: **Incoming Call (Preview)**
          - Endpoint Type: Azure Function and then specify the Azure Function you've created.
+   - Run the following armclient command at the prompt:
+
+      `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
+
 
 ### Deploy the bot
 

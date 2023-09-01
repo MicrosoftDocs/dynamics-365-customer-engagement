@@ -20,9 +20,7 @@ The bot can be integrated with the voice channel in Omnichannel for Customer Ser
 
 The integration for Nuance Cloud IVR uses Azure Communication Services to route the incoming calls to the Nuance Cloud IVR bot and then from the bot to the voice channel. The customer call comes in through Direct Routing or Public Switched Telephone Network (PSTN) and is routed through Nuance’s Session Border Controller (SBC).
 
-The call is escalated to an agent,through the Session Initiation Protocol, and a payload from Nuance Mix IVR is transferred to Dataverse.
-
-The payload data is used to route the call to the agent, and display details such as the IVR transcript and call intent, which are captured during the IVR session, to the agent.
+The call is then escalated to an agent through Azure Communication Services using the  Session Initiation Protocol. The SIP header data is used to route the call to the agent, and display details such as the IVR transcript and call intent, which are captured during the IVR session, to the agent.
 
  :::image type="content" source="media/oc-nuance-fos-ref-arch.png" alt-text="reference architecture for nuance IVR omnichannel integration":::
 
