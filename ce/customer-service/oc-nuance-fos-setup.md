@@ -98,7 +98,7 @@ When there’s no transcript available, you can choose to disable the transcript
 
 Here’s the sample code to disable the transcript coming from the Mix IVR bot:
 
-     ```
+   ```
        export class FormWebResource {
        public static async onFormLoad(context: XrmClientApi.EventContext): Promise<void> {
        var formContext = context.getFormContext();
@@ -106,11 +106,11 @@ Here’s the sample code to disable the transcript coming from the Mix IVR bot:
       }
      }
 
-     ```
+   ```
 
 ## Define field requirements for call intent
 
-Nuance Professional Services can extend the [**msdyn_ocexternalcontext**](/developer/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
+Nuance Professional Services can extend the [**msdyn_ocexternalcontext**](../developer/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
     
 See [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
