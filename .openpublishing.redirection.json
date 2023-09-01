@@ -26945,11 +26945,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/marketing/toc.md",
-      "redirect_url": "/dynamics365/customer-insights/journeys/toc",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/marketing/track-online-behavior.md",
       "redirect_url": "/dynamics365/customer-insights/journeys/track-online-behavior",
       "redirect_document_id": false
