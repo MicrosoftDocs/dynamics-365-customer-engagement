@@ -25,8 +25,8 @@ Before adding and scheduling forecast periods, review the following information:
 - Each forecast configuration can have multiple forecast periods with different period types. For example, you can add a quarterly forecast for the first six months of the fiscal year and a monthly forecast for the remaining six months. For more such rules, see [Forecast period rules](forecast-periods.md#forecast-period-rules)
 
 - You can have different period types for the same period to track your team's forecast at multiple intervals. For example, towards the end of the quarter, you may want to track your team's forecast on a weekly basis, in addition to the monthly forecast. For example, you can have a monthly forecast for the month of September and a weekly forecast for the same month. However, you can't add duplicate periods with the same recurrence and period.  
-- You can't edit a forecast period after it's added. You can only delete the period and add a new one.
-- You can add forecast periods to archived forecasts and reactive the forecast.  
+
+- You can add forecast periods to archived forecasts and reactivate the forecast.  
 
 ## Add forecast periods
 
@@ -37,9 +37,9 @@ You can add forecast periods while you're defining the forecast configuration or
 1. Open the forecast configuration record that you want to edit.
 1. In the **General** step of the forecast configuration, scroll down to the **Scheduling** section, 
 
-    :::image type="content" source="media/forecast-period-status.png" alt-text="Periods for this forecast table in the Scheduling section.":::
+    :::image type="content" source="media/forecast-general-tab-scheduling-section.svg" alt-text="Screenshot of the Scheduling section.":::
 
-1. Select a calendar template that corresponds to the number and grouping of accounting periods in your organization's calendar. [Learn more about the available scheduling formats](forecast-periods.md#scheduling-format). For example, select **Gregorian** if your organization uses the most-widely used Gregorian calender with 12 weeks per quarter.
+1. In the **Scheduling format** drop-down, select a calendar template that corresponds to the number and grouping of accounting periods in your organization's calendar. [Learn more about the available scheduling formats](forecast-periods.md#scheduling-format). For example, select **Gregorian** if your organization uses the most-widely used Gregorian calender with 12 weeks per quarter.
 1. Use the information in the following table to complete the remaining fields in this section:
 
     | Field | Description |Example scenario |
@@ -47,7 +47,7 @@ You can add forecast periods while you're defining the forecast configuration or
     | **Period start date** | Select the date from when the forecast period starts. This date can be the date when your fiscal year starts. For Broadcast calender template, this value can't be changed as this value is already preset to the first Monday that contains January 1. | If your organization's fiscal year starts on July 1, select **July 1**. You'll then be able to create forecasts for the period from July 1 to June 30 of the following year. If you want to track your team's forecast a few weeks ahead of the organization's fiscal year, set the start date to a few weeks before the fiscal year start date.  |
     | **Forecast period** | Select the frequency of the forecast. Specify whether you want a weekly, monthly, quarterly, or yearly forecast. The forecast period determines the granularity and recurrence of the forecast. | Select **Monthly** to generate a forecast for every month. |
     | **Fiscal year** | Select the fiscal year for the forecast. | Select **FY2023** if you're creating a forecast for the fiscal year 2023. |
-    | **Start this forecast** | Select the exact week, month, quarter, or year for the forecast period.  | If you've selected **Monthly** as the forecast period, select **July** as the start month. |
+    | **Start this forecast** | Select the exact week, month, quarter, or year for the forecast period.  | If you've selected **Monthly** as the forecast period and want to start your forecast from July, select **July** as the start month. |
     | **Number of periods** | Enter the number of forecast periods to generate. Forecast periods can only span up to one year. | If you've selected monthly forecast and selected **July** as the start month, and number of periods as 6, then 6 forecast periods will be configured for the period from July to December. When you select **Add period**, a forecast for each month will be added to the table on the right side. |
     | **Start this forecast on fiscal start month** | Applicable only for monthly forecasts. When you turn this option on, the period name will be based on the start date of the period. Otherwise, it'll be based on the end date of the period. | For a monthly period that's set to from July 15, 2023, the period name will be set as **FY2023 July** if this option is turned on. If it's turned off, the period name will be set as **FY2023 August**. |
 
