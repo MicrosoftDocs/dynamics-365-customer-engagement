@@ -674,8 +674,6 @@
           href: oc-nuance-fos-overview.md
         - name: Setup Nuance cloud IVR bot integration with voice channel
           href: oc-nuance-fos-setup.md
-        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-          href: nuance-enroll-customer.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations
