@@ -1,7 +1,7 @@
 ---
 title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
+ms.date: 09/01/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
@@ -84,9 +84,9 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For new or existing Power Platform environments, install [Service Scheduling from Power Platform admin center](install-service-scheduling-from-power-platform.md). For existing organizations, where **Core Service Scheduling** solutions is already installed, you'll need to install the available updates from [Dynamics 365 Service Scheduling](/power-platform/admin/manage-apps).
+- For new or existing organizations, where Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For new or existing Dynamics 365 Customer Service organizations, you must install the service scheduling solutions from the Microsoft 365 admin center. For more information, go to [Install the Scheduling solutions](#install-the-scheduling-solutions).
+- For existing organizations, where Core Service Scheduling solutions is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform Admin Center.
 
 ### Prerequisites
 
