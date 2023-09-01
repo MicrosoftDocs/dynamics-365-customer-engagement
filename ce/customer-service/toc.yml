@@ -234,6 +234,8 @@
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing for unified routing
           href: set-up-skill-based-routing.md
+        - name: Set up intelligent skill finder model for unified routing
+          href: set-up-isf-model.md
         - name: Model data tables as skills
           href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
