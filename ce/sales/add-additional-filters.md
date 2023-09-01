@@ -54,7 +54,7 @@ The following screenshot illustrates a sample forecast hierarchy:
 
 Using the rollup filters, you can filter opportunities that participate in calculating the forecast values. To filter opportunities, create filter conditions based on the opportunity and its related entity attributes.
 
-For example, you know that opportunities related to **ADatum Corporation** and the revenue of more than **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps:
+For example, you know that opportunities related to **ADatum Corporation** and the revenue of more than **$10,000** can't be closed for the current quarter. To filter out such opportunities from the forecast, follow these steps:
 
 1.	In the **General** step of the forecast configuration, select the **Funnel** icon next to **Rollup entity** field.
  

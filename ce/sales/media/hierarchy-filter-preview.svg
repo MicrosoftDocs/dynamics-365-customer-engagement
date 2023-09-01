@@ -26,8 +26,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.4765166"
-     inkscape:cx="510.66137"
-     inkscape:cy="207.24453"
+     inkscape:cx="510.66138"
+     inkscape:cy="207.92181"
      inkscape:window-width="2560"
      inkscape:window-height="1334"
      inkscape:window-x="-11"
@@ -2091,7 +2091,7 @@ src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAADUYAA4AAAAAYewAA4AAAAA
                                 <mask
                                    id="mask-for-hierarchyContents31">
                                 <rect
-                                   width="66.46875"
+                                   width="120.46875"
                                    height="16"
                                    x="836"
                                    y="484.015625"
@@ -2099,9 +2099,9 @@ src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAADUYAA4AAAAAYewAA4AAAAA
                                    id="rect384" />
                                 </mask>
                                 <text
-                                   color="rgb(50, 49, 48)"
+                                   color="#323130"
                                    dominant-baseline="text-after-edge"
-                                   font-family="&quot;Segoe UI&quot;, &quot;Segoe UI Web (West European)&quot;, &quot;Segoe UI&quot;, -apple-system, BlinkMacSystemFont, Roboto, &quot;Helvetica Neue&quot;, sans-serif"
+                                   font-family="'Segoe UI', 'Segoe UI Web (West European)', 'Segoe UI', '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif"
                                    font-size="12px"
                                    font-stretch="100%"
                                    font-style="normal"
@@ -2109,21 +2109,21 @@ src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAADUYAA4AAAAAYewAA4AAAAA
                                    font-weight="400"
                                    direction="ltr"
                                    letter-spacing="0.24px"
-                                   text-decoration="none solid rgb(50, 49, 48)"
+                                   text-decoration="none"
                                    text-anchor="start"
                                    text-rendering="auto"
                                    unicode-bidi="normal"
                                    word-spacing="0px"
-                                   writing-mode="horizontal-tb"
+                                   writing-mode="lr-tb"
                                    user-select="auto"
-                                   fill="rgb(50, 49, 48)"
-                                   id="text389"><tspan
+                                   fill="#323130"
+                                   id="text389"
+                                   style="text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000"><tspan
                                    xml:space="preserve"
                                    x="836"
-                                   y="500.015625"
+                                   y="500.01562"
                                    lengthAdjust="spacingAndGlyphs"
-                                   id="tspan387"
-                                   textLength="66.46875">Dustin Ochs</tspan></text>
+                                   id="tspan387">Dustin Ochs (group)</tspan></text>
                                 </g>
                                 <text
                                    color="rgb(96, 94, 92)"
