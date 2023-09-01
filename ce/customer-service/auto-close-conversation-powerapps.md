@@ -68,8 +68,7 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](../customer-service/auto-close-conversation.md).
 
 ### See also
-  
-[Configure automatic closure of conversations](auto-close-conversation.md)  
+ 
 [Understand conversation states](oc-conversation-state.md)
 
 
