@@ -27268,6 +27268,11 @@
       "source_path": "ce/marketing/marketing-analytics/analytics-gallery-start.md",
       "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-start",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-consent-transition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-consent-transition",
+      "redirect_document_id": false
     }
   ]
 }
