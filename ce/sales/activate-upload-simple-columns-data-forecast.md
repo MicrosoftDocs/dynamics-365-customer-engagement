@@ -1,10 +1,11 @@
 ---
-title: "Activate and upload data for a forecast | MicrosoftDocs"
-description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
-ms.date: 01/25/2022
-ms.topic: article
+title: Activate and upload data for a forecast
+description: Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
+ms.date: 09/01/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-forecast configuration
@@ -19,6 +20,7 @@ Activate a forecast, and download the spreadsheet template to populate quotas an
 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

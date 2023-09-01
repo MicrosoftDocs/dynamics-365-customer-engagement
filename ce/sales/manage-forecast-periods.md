@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 08/30/2023
+ms.date: 09/01/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -72,7 +72,7 @@ The **Status** column in the **Periods for this forecast** table indicates the s
 
 :::image type="content" source="media/forecast-period-status.png" alt-text="Screenshot of the Periods for this forecast table, which includes the Status column.":::
 
-The status can be **New**, **Queued**, **In progress**, or **Completed**. 
+The status can be **New**, **Queued**, **In progress**, **Completed**, or **Failed**. 
 
 - Until you activate the forecast, the status is set as **New**.
 - After you activate the forecast, it changes to **Queued**

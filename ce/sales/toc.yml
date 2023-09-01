@@ -376,6 +376,12 @@
           href: select-template-forecast.md
         - name: Define general properties and scheduling
           href: define-general-properties-scheduling-forecast.md
+          - name: Forecast periods
+            items:
+              - name: Forecast period rules and scheduling formats
+                href: forecast-periods.md
+              - name: Manage forecast periods
+                href: manage-forecast-periods.md
         - name: Capture forecast category for opportunity
           href: capture-forecast-category-opportunity.md
         - name: Configure forecast using custom rollup table

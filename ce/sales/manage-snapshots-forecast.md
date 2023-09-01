@@ -1,7 +1,7 @@
 ---
 title: Manage snapshots for a forecast
 description: Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time.
-ms.date: 03/29/2023
+ms.date: 09/01/2023
 author: lavanyakr01
 ms.author: lavanyakr
 ms.topic: how-to

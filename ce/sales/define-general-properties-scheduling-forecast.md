@@ -1,12 +1,13 @@
 ---
 title: Define forecast properties and scheduling
 description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
-ms.date: 03/15/2022
-ms.topic: article
+ms.date: 09/01/2023
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
   - dyn365-sales
+  - bap-template
 ---
 
 # Define forecast properties and scheduling

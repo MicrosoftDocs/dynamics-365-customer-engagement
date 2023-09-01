@@ -1,13 +1,17 @@
 ---
-title: "Maintain up-to-date forecast data (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Maintain up-to-date forecast data in Dynamics 365 Sales."
-ms.date: 03/29/2023
+title: Maintain up-to-date forecast data
+description: Recalculate and refresh forecast data manually to keep up-to-date with changes.
+ms.date: 09/01/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: 
+ms.custom:
   - dyn365-sales
-searchScope: 
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/01/2023
+  - bap-template
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-msdyn_forecastinstance
   - D365-UI-*
@@ -15,6 +19,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
+
 # Maintain up-to-date forecast data 
 
 Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
