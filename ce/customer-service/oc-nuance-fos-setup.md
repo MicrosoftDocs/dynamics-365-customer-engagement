@@ -64,7 +64,7 @@ Direct routing enables you to connect Nuance’s existing telephony infrastructu
 
 ### Deploy the bot
 
-Configure  the session.xml with dynamic parameters such as **dataverse_organization_url**, **dataverse_tenant_id**, **dataverse_client_id**, **dataverse_client_secret_name**, and **dataverse_azure_key_vault_url** in Nuance IVR tools. The bot is then deployed.
+Configure  the session.xml with dynamic parameters such as **dataverse_organization_url**, **dataverse_tenant_id**, **dataverse_client_id**, **dataverse_client_secret_name**, and **dataverse_azure_key_vault_url** in Nuance IVR tools. The Nuance Cloud IVR bot is then deployed.
 
 ## Set up Omnichannel to receive the escalated calls from Nuance Cloud IVR bot
 
@@ -96,7 +96,7 @@ Customize the conversation form for agents to view the transcripts from Nuance C
 
 When there’s no transcript available, you can choose to disable the transcript using a web resource. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
 
-Here’s the sample code to disable the transcript coming from the Mix IVR bot:
+Here’s the sample code to disable the transcript coming from the Nuance Cloud IVR bot:
 
    ```
        export class FormWebResource {

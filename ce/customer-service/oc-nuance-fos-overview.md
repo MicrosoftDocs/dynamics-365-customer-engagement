@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 Nuance Cloud IVR bot is a part of the Digital Contact Center Platform&#8212;an open, extensible, and collaborative platform for seamless omnichannel customer engagement.
 
-The bot can be integrated with the voice channel in Omnichannel for Customer Service to enable contextual call transfers. Customers can interact with the Nuance IVR bot first and then an Omnichannel agent if the call is escalated.
+The bot can be integrated with the voice channel in Omnichannel for Customer Service to enable contextual call transfers. Customers can interact with the Nuance Cloud IVR bot first and then an Omnichannel agent if the call is escalated.
 
 ## How the integration works
 
@@ -28,4 +28,4 @@ The payload data is used to route the call to the agent, and display details suc
 
 ## Next steps
 
-[Setup Nuance cloud IVR bot integration with voice channel](oc-nuance-fos-setup.md)
+[Setup Nuance Cloud IVR bot integration with voice channel](oc-nuance-fos-setup.md)
