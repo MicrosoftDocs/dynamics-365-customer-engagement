@@ -55,7 +55,7 @@ To learn more, see [Create a workstream](../customer-service/create-workstreams.
 
 ### Configure automatic closure of conversations using Power Apps
 
-You can also configure the auto-close duration of a conversation in Power Apps by performing the following steps
+You can configure the auto-close duration of a conversation in Power Apps by performing the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 
