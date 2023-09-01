@@ -26,4 +26,4 @@ The call is then escalated to an agent through Azure Communication Services usin
 
 ## Next steps
 
-[Setup Nuance Cloud IVR bot integration with voice channel](oc-nuance-fos-setup.md)
+[Setup Nuance Cloud IVR bot integration with voice channel](oc-nuance-setup.md)

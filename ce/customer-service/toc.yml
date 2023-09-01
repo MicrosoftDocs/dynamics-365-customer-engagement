@@ -671,9 +671,9 @@
       - name: Integrate Nuance Cloud IVR bot
         items:
         - name: Introduction to Nuance Cloud IVR bot integration
-          href: oc-nuance-fos-overview.md
+          href: oc-nuance-overview.md
         - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-          href: oc-nuance-fos-setup.md
+          href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations
