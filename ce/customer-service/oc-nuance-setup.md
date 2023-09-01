@@ -66,9 +66,9 @@ Direct routing enables you to connect Nuance’s existing telephony infrastructu
 
 Configure  the session.xml with dynamic parameters such as **dataverse_organization_url**, **dataverse_tenant_id**, **dataverse_client_id**, **dataverse_client_secret_name**, and **dataverse_azure_key_vault_url** in Nuance IVR tools. The Nuance Cloud IVR bot is then deployed.
 
-## Set up Omnichannel to receive the escalated calls from Nuance Cloud IVR bot
+## Set up voice channel to receive escalated calls from Nuance Cloud IVR bot
 
-When the bot escalates a call, a record is created in the **msdyn_ocexternalcontext** table. The SIP UUI header includes the msdyn_ocexternalcontext recordID. This record ID is transferred to the Azure resource that's connected with Omnichannel for Customer Service.
+When the bot escalates a call, a record is created in the **msdyn_ocexternalcontext** table. The SIP UUI header includes the msdyn_ocexternalcontext recordID. This recordID is transferred to the Azure resource that's connected with Omnichannel for Customer Service.
 
 The voice channel in Customer Service receives the call and the system creates a new msdyn_ocliveworkitem record. The system links the msdyn_ocexternalcontext and msdyn_ocliveworkitem tables if it finds the msdyn_ocexternalcontext recordID in the SIP UUI header.
 
@@ -93,10 +93,11 @@ Customize the conversation form for agents to view the transcripts from Nuance C
  1. Select **CC_Transcript_Control** in the list of available components. This component is available out-of-the-box.
  1. Specify the required **TableName** and **TableColumn** in **CC_IsExternalContext**.
  1. Save and publish the form.  The form on the application UI displays the transcript from the IVR.
+ 
 
-When there’s no transcript available, you can choose to disable the transcript using a web resource. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
+You can use a web resource to disable the transcript from being displayed if a transcript of the bot conversation isn't available. More information: [Create a JavaScript web resource](/power-apps/maker/model-driven-apps/configure-event-handlers-legacy#create-a-javascript-web-resource).
 
-Here’s the sample code to disable the transcript coming from the Nuance Cloud IVR bot:
+Use the following sample code to disable the transcript from being displayed:
 
    ```
        export class FormWebResource {
