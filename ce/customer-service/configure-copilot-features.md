@@ -43,7 +43,9 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, agree to the terms and conditions and then select **Opt in** to continue with the setup in one of the following locations:
+      - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
+      - **Operations** > **Insights** > **Copilot help pane (preview)**
 
 ## Enable Copilot features
 
