@@ -1,7 +1,7 @@
 ---
 title: "Data access consent | MicrosoftDocs"
 description: "Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service."
-ms.date: 03/08/2023
+ms.date: 08/31/2023
 author: neeranelli
 ms.author: nenellim
 ms.topic: reference
@@ -11,7 +11,9 @@ ms.topic: reference
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic provides information about the consent that is required to access the different components and data during the installation and provision of Omnichannel for Customer Service.
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
+This article provides information about the consent that's needed to access the different components and data during the installation and provision of Omnichannel for Customer Service.
 
 ## Provide consent to access data
 
@@ -61,7 +63,7 @@ A detailed explanation is as follows:
 
 ## What happens when I provide data access consent and provision Omnichannel for Customer Service?
 
-The following enterprise applications will be created in your Azure Active Directory and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
+The following enterprise applications will be created in your Microsoft Entra ID and corresponding security permissions mentioned during data consent will get propagated to these apps. The Omnichannel Application User created in Dataverse will have reference to these AAD enterprise applications thereby helping it to interact with Dataverse and Omnichannel satellite services.
 
 - Omni-channel Engagement Hub
 - Omni-channel Engagement Hub APIs
@@ -83,13 +85,13 @@ Only the delegated permissions are required. On consent, the following two ser
 
 ### Why is the global admin role required, and not a less powerful one?
 
-We need to add the service principal to the Azure AD for the tenant as a requirement, and therefore, we need global admin permissions.
+We need to add the service principal to Microsoft Entra ID for the tenant as a requirement, and therefore, we need global admin permissions.
 
 ### Which are the Omnichannel principals? We found at least four Omnichannel principals.
 
-“Omnichannel APIs” is the main application id which is leveraged for UI operations such as triggering provisioning of UR and loading the presence for an agent. “Omnichannel for Customer Service” is the app which has Dataverse permissions that is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
+“Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for an agent. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
 
-The following applications were created as third-party applications. They will be moved to be first-party Microsoft applications.
+The following applications were created as third-party applications. They'll be moved to be first-party Microsoft applications.
 
 - “Omnichannel for CS Provisioning App Primary” is the first-party app equivalent of “Omnichannel APIs”.  
 
@@ -97,11 +99,11 @@ The following applications were created as third-party applications. They will b
 
 ### How do all these principals interact with each other?  
 
-These four principals do not interact with each other.  
+These four principals don't interact with each other.  
 
 ### Which principal performs the background automation that unified routing seemingly enables, and what permissions does it have?
 
-The “Omnichannel for Customer Service” application. This app has Dataverse permissions that is used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
+The “Omnichannel for Customer Service” application. This app has Dataverse permissions that are used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
 
 ### See also
 
