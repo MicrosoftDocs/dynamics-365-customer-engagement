@@ -53,7 +53,7 @@ The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connectio
 
 ## View work orders in Teams
 
-1. From your Microsoft Viva dashboard, select **See all** on the **Work orders all in one place** tile. A list of up to 50 work orders display.
+1. From your Microsoft Viva dashboard, select **See all** on the **Work orders all in one place** tile to see up to 50 work orders.
 
    > [!TIP]
    > To view more work orders in the Field Service app, select **See more** at the bottom of the list.
