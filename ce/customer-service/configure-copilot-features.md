@@ -112,6 +112,10 @@ For Copilot to automatically trigger a conversation summary for a live conversat
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
    - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
+## Set up filters
+
+Filters enable Copilot to generate responses based on a specific set of topics. Filters in in limited preview. To set up filters, email a request to  d365_csaipreview@microsoft.com.
+
 ## Record feedback
 
 In the corresponding Copilot configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
@@ -149,8 +153,6 @@ Out of the box, only users with the Customer Service Representative role can use
 - prvIntelligenceUsage
 - prvReadmsdyn_conversationinsight
 
-> [!IMPORTANT]
-> For the Copilot case summary to be displayed, you must add the prvReadmsdyn_conversationinsight privilege to the out-of-the-box Customer Service Representative role.
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 

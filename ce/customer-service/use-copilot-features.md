@@ -107,7 +107,7 @@ Select the one-click response generation button at the lower-right corner of the
 
 You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
 
-For example, your organization has several departments and you work on credit card related queries. If you apply the credit card filter, Copilot retreives only the relevant credit card content from the knowledge source and which is then used to generate responses. 
+For example, your organization has several departments and you work only on credit card related queries. If you apply the credit card filter, Copilot retrieves only the relevant credit card content from the knowledge source and which is then used to generate responses. 
 
 To apply a filter, perform the following steps:
 
