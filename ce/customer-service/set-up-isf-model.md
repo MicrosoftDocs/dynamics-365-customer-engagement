@@ -78,6 +78,8 @@ You should test the model to verify whether the model is working as per expectat
 
 During runtime, if the predicted tags are matched with available skills in the organization, the corresponding skills are attached to the model.
 
+![Test skill finder model.](media/test-skill-model.png "Test skill finder model")
+
 ### Retrain the model iteratively
 
 You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria.
