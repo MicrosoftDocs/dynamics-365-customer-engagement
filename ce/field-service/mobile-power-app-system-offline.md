@@ -182,11 +182,11 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 
 Administrators can view past sync errors by going to **Settings** > **Sync Error**.
 
-## View offline sync status (preview)
+## View offline sync status 
 
 Field Service (Dynamics 365) provides an offline sync icon that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors.
 
-For more information, see [View offline sync status (preview)](/power-apps/mobile/offline-sync-icon).
+For more information, see [View offline sync status ](/power-apps/mobile/offline-sync-icon).
 
 ## Configuration considerations
 

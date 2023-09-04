@@ -1,27 +1,33 @@
 ---
-title: Add an authentication setting for Nuance Gatekeeper (preview)
-description: How-to add authentication settings for Nuance Gatekeeper 
+title: Add authentication setting for Nuance Gatekeeper (preview)
+description: Learn about how to add authentication settings for Nuance Gatekeeper in Customer Service admin center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 07/31/2023
+ms.date: 08/31/2023
 ms.custom: bap-template 
 ---
 
 # Add an authentication setting for Nuance Gatekeeper (preview)
 
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
+
 [This article is prerelease documentation and is subject to change.]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
+Use the information in this article to add an authentication setting for Nuance Gatekeeper in Customer Service.
+
 ## Prerequisites
+
+Make sure that the following prerequisites are met:
 
 - Nuance Gatekeeper instance is provisioned.
 - Omnichannel for Customer Service with the voice channel is provisioned.
 - Azure Communication Services must be configured on the Customer Service tenant.
-- OpenID basic configuration in the Azure Active Directory to allow single sign-on process for the administrator, fraud analyst credentials, and Nuance portals.
+- OpenID basic configuration in the Microsoft Entra ID to allow single sign-on process for the administrator, fraud analyst credentials, and Nuance portals.
 - Azure Service Principal for Conversation Conductor and Omnichannel Event Grid Writer are provisioned.
 - The following information is shared by the Nuance Gatekeeper team:
   - Gatekeeper Client ID and Client Secret.
@@ -41,9 +47,9 @@ If your Customer Service instance isn't in the same tenant, you can't register t
 
 ### Create application registration for single sign-on
 
-You'll need to do some of the Gatekeeper actions in the Nuance portals. Therefore, to simplify access and credentials, the Nuance Gatekeeper team configures single sign-on access to your Azure Active Directory, so that you can use your regular username and password to access the functionality.
+You'll need to do some of the Gatekeeper actions in the Nuance portals. Therefore, to simplify access and credentials, the Nuance Gatekeeper team configures single sign-on access to your Microsoft Entra ID, so that you can use your regular username and password to access the functionality.
 
-Create a new application registration in your Azure Active Directory and share the OpenID Connect metadata document by following these steps:
+Create a new application registration in your Microsoft Entra ID and share the OpenID Connect metadata document by following these steps:
 
 1. Go to [Azure portal](https://portal.azure.com).
 1. Select **Azure Active Directory** in the site map.
@@ -77,7 +83,7 @@ Apart from the default ID, you can optionally configure another ID to uniquely i
 1. On the **Create new authentication setting** page, expand **Gatekeeper integration advanced settings**.
 1. Select **Contact (ContactId)** and **Account (AccountId)** in **Contact** and **Account** fields.
 
-   >[!NOTE]
+   > [!NOTE]
    > You can't edit the contact and account fields after the authentication setting is created.
 
 After you select save and close, the components will be provisioned and your settings tested. Errors at this step means either the settings aren't correct, or the Azure Communication Services resources are running in a different Azure tenant from your Dynamics 365 environment.

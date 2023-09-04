@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 02/20/2023
+ms.date: 08/31/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -11,6 +11,8 @@ ms.author: nenellim
 # Advanced: Connect using an existing Azure resource
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions, *available under any tenant*. If you disconnected a resource and want to use it now, you can do so using this option.
 
