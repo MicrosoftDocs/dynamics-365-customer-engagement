@@ -1,7 +1,7 @@
 ---
 title: Create and configure the Field Service portal
 description: Set up and configure the Field Service portal.
-ms.date: 05/03/2023
+ms.date: 09/03/2023
 ms.topic: how-to
 author: m-hartmann
 ms.author: mhart
@@ -16,14 +16,13 @@ The following sections guide you through the setup process and provide helpful i
 
 ## Create the Field Service customer experiences portal
 
-1. Go to the [Power Apps Maker portal](https://make.powerapps.com).
+1. Determine the [environment and organization ID](https://learn.microsoft.com/power-platform/admin/determine-org-id-name) where you have Field Service installed
+
+1. Navigate to https://make.powerpages.microsoft.com/environments/<ORGID>/portals/home after replacing '<ORGID>' with the ID from the previous step
 
 1. Choose an environment with Dynamics 365 Field Service and select **Create**.
 
-1. Search for Field Service and select **Field Service Portal**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Power Apps, showing the Field Service portal.](./media/C2-Customer-Portal.png)
+1. Go to the "Templates" page, or click the "Create a site" button, and find the template for **Field Service**.
 
 1. Enter the name of the portal, the desired subdomain, choose a display language, and select **Create**.
 
