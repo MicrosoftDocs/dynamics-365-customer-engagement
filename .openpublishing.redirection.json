@@ -25418,6 +25418,11 @@
       "source_path": "ce/marketing/purchase-setup.md",
       "redirect_url": "/dynamics365/marketing/purchase",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
+      "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
+      "redirect_document_id": "false"
     }
   ]
 }
