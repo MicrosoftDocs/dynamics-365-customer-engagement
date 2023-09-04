@@ -50,14 +50,13 @@ You can configure forecasts that are based on revenue or quantity. You define th
 
     If you're getting started with forecasting, play around with the [sample forecast configuration](#use-the-sample-forecast-configuration) before creating a new one.  
     
-  1. [Select a template](./select-template-forecast.md).
-  1. [Define general properties and scheduling](./define-general-properties-scheduling-forecast.md).
-  1. [Provide access permissions](./provide-permissions-forecast.md).
-  1. [Configure columns and layouts](./choose-layout-and-columns-forecast.md).
-  1. [Add filters](./add-additional-filters.md).
-  1. [Configure and manage drill-down entities](./configure-manage-drill-downs.md).
-  1. [Configure advanced settings](./forecast-configure-advanced-settings.md).
-  1. [Activate the forecast and upload data](./activate-upload-simple-columns-data-forecast.md).
+  1. [Select a template](./select-template-forecast.md).  
+  1. [Define and schedule a forecast model](define-general-properties-scheduling-forecast.md)
+  1. [Provide access permissions](provide-permissions-forecast.md).
+  1. [Configure columns and layouts](choose-layout-and-columns-forecast.md).
+  1. [Configure and manage drill-down entities](configure-manage-drill-downs.md).
+  1. [Configure advanced settings](forecast-configure-advanced-settings.md).
+  1. [Activate the forecast and upload data](activate-upload-simple-columns-data-forecast.md).
     
 
 ### Use the sample forecast configuration
@@ -76,7 +75,7 @@ A ready-to-publish sample forecast configuration is available for you to experim
     
 1. In the **General** step, check the **Preview** section to know the users who are part of the forecast. By default, all these users will have access to view the forecast after you activate it. 
  
-    :::image type="content" source="./media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
+    :::image type="content" source="./media/forecast-general-tab-configuration-section.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with a preview of the selected hierarchy shown.":::
 
 1. If you want to limit the access, go to the **Permissions** step and select the appropriate security roles.
 1. Go to the **Activate & add quotas** step and select **Activate forecast** to make the forecast available to users in the hierarchy.
