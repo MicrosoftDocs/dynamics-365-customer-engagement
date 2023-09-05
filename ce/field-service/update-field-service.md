@@ -23,6 +23,9 @@ Multiple updates are released throughout the year.
 > [!TIP]
 > Find information about new features and changes for upcoming releases in the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
+## Early Access update
+Dynamics 365 Releases Major Updates two months prior to the rollout under an Early Access flight available for administrators to evaluate upcoming changes to the product. [Learn more]([url](https://learn.microsoft.com/power-platform/admin/opt-in-early-access-updates)) about how to opt-in and update your org to Early Access.
+
 ## Dynamics 365 Field Service
 
 The Field Service app [updates automatically as part of platform updates](/power-platform/admin/general-availability-deployment).
