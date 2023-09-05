@@ -1,7 +1,7 @@
 ---
 title: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/09/2023
+ms.date: 09/05/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,6 +29,11 @@ The following limitations apply to SLAs created in the Unified Interface apps:
 - You can’t use nested related entities with the **Under** or **Not Under** operator as part of the conditions for SLAs. So, you'll need to change the **Applicable When**, **Success**, and **Pause** conditions to add one level of related entities only with the **Under** or **Not Under** operator.
 - You can’t directly use the **Under** or **Not-Under** operator as conditions when configuring **Applicable When** or **Success** conditions for SLA items, so use related entities when using the **Under** or **Not Under** operator.
 - You need to avoid using the **Modified On** field in the target entity as part of **Applicable When** or **Success** conditions of SLA items or as the **Applicable From** field of SLA KPI instances. Changes to the **Modified On** field in the target entity might not initiate SLAs and might result in incorrect updates to SLA KPI instances.
+- For expired SLAs, you won’t get the SLA success date even if the success criteria defined on the SLA Item is met. This is because there is no field on the SLA KPI Instance that is populated with the date of the action.
+- Out of the box, you can’t retrieve data for SLA related case fields, such as **Active Duration** and **Elapsed Time**.
+- You can't edit or remove an SLA that is already assigned to a case. However, you can pause and customize how SLAs can be assigned to different cases.
+- You can’t manually update SLA time.
+- If you are migrating more than 1000 SLAs, they may not pass the premigration checkup that processes all legacy SLAs. You can use the &flags=FCB.SkipPreMigrationCheckUp=true flag in the URL to skip the premigration checkup. To access the URL, go to **Miscellaneous** **>** **ARC and SLA migration** in the Customer Service admin center site map.
 
 ### See also
 
