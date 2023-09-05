@@ -25420,6 +25420,1866 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/marketing/account-based-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/account-based-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/activity-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/activity-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/add-ons.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/add-ons",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/add-to-calendar.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/add-to-calendar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/admin-best-practices.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/admin-best-practices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/admin-feature-switches.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/admin-feature-switches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/admin-guide.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/admin-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/admin-machine-learning.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/admin-machine-learning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/admin-users-licenses-roles.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/admin-users-licenses-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/advanced-tutorials.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/advanced-tutorials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/anonymized-data-review.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/anonymized-data-review",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/apply-updates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/apply-updates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/automated-scheduler.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/automated-scheduler",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/basic-tutorials.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/basic-tutorials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/bimi-support.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/bimi-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/brand-profiles-email.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/brand-profiles-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/brand-profiles.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/brand-profiles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/browser-requirements.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/browser-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/business-units-support-outbound-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/business-units-support-outbound-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/business-units.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/business-units",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/ce-deprecation.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/ce-deprecation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/ci-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/ci-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/ci-get-started.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/ci-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/ci-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/ci-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/compliance-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/compliance-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/conditional-content.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/conditional-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/content-blocks.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/content-blocks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/content-ideas.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/content-ideas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/cookies.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/cookies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-deploy-marketing-pages.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-deploy-marketing-pages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-inbound-customer-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-inbound-customer-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-interactive-customer-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-interactive-customer-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-landing-page.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-landing-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-marketing-email.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-marketing-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-segment.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-segment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-simple-customer-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-simple-customer-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/create-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/custom-analytics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/custom-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/custom-registration-fields.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/custom-registration-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/custom-template-attributes.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/custom-template-attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/custom-validation.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/create-deploy-marketing-pages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-insights-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-insights-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-journey-manually-schedule.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-journey-manually-schedule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-journey-recovery-items.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-journey-recovery-items",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-journey-tiles-reference.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-journey-tiles-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-journeys-create-automated-campaigns.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-journeys-create-automated-campaigns",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customer-voice.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-voice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customize-marketing-calendars.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customize-marketing-calendars",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customize-open-powerapps.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customize-open-powerapps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customize-template-labels.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customize-template-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/customize.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customize",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/data-management-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/data-management-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/deliverability-change-esp.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/deliverability-change-esp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/designer-feature-protection.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/designer-feature-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/designer-shortcuts.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/designer-shortcuts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/direct-purchase.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/direct-purchase",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/domain-authentication.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/domain-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/double-opt-in.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/double-opt-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/dynamic-email-content.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/dynamic-email-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-a-b-testing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-a-b-testing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-accessibility.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-accessibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-bounce-categories.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-bounce-categories",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-check-golive.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-check-golive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-design.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-design",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-excel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-excel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-expire.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-expire",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-get-started.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-policies.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-policies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-preview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-preview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-properties.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-quick-send.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-quick-send",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-security-encryption.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-security-encryption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-sending-data.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-sending-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-troubleshoot.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-troubleshoot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-troubleshooting.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/email-without-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/email-without-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/embed-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/embed-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/entity-mapping.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/entity-mapping",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-financials.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-financials",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-from-event.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-from-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-management-dashboard.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-management-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-management.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-payment-gateway.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-payment-gateway",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-recurring.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-recurring",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-troubleshoot.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-troubleshoot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/event-waitlist.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/event-waitlist",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/events-change-url.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/events-change-url",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/events-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/events-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/export-data-word-excel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/export-data-word-excel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/export-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/export-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/failed-submissions.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/failed-submissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/fair-use-policy.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/fair-use-policy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/faqs-content-ideas.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/faqs-content-ideas",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/fiscal-year-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/fiscal-year-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/fix-high-bounce-rate.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/fix-high-bounce-rate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/followup-after-event.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/followup-after-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/form-double-opt-in.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/form-double-opt-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/form-prefill.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/form-prefill",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/generate-activities-from-customer-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/generate-activities-from-customer-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/generate-segment-from-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/generate-segment-from-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/get-ready-email-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/get-ready-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/get-started.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/go-live.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/go-live",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/google-postmaster.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/google-postmaster",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/import-data.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/import-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/improve-deliverability-to-china.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/improve-deliverability-to-china",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/index.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/insights-glossary.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/insights-glossary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/insights.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/install-manage-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/install-manage-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/invite-register-house-event-attendees.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/invite-register-house-event-attendees",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/journey-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/journey-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/known-issues.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/known-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/lead-lifecycle.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/lead-lifecycle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-administrator.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-administrator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-bdm.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-bdm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-bus-user.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-bus-user",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-catalog.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-catalog",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-developer.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-developer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-functional-consultant.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-functional-consultant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-project-manager.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-project-manager",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/learning-sales.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/learning-sales",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/linkedin-configuration.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/linkedin-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/linkedin-lead-gen-integration.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/linkedin-lead-gen-integration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/linkedin-matched-audience.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/linkedin-matched-audience",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/linkedin-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/linkedin-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-customer-information.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-customer-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-event-logistic.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-event-logistic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-event-sponsorships.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-event-sponsorships",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-excel-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-excel-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-images.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-images",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-marketing-environments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-marketing-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-segments-from-contacts.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-segments-from-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-sms-keywords.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-sms-keywords",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-teams.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-teams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-users.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-users",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/manage-word-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/manage-word-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/market-to-leads.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/market-to-leads",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-calendar.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-calendar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-execution-section.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-execution-section",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-fields.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-fields",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-license.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-license",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-preview-features.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-preview-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-public-ips.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-public-ips",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-videos.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-videos",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-analytics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-authenticate-domains.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-authenticate-domains",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-data-protection.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-data-protection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-default-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-default-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-landing-pages.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-landing-pages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-lead-score-options.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-lead-score-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-matching.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-matching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-social-media.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-social-media",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/mkt-settings-sync.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/mkt-settings-sync",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/move-triggers-between-environments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/move-triggers-between-environments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/navigation.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/nl-segment-build.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/nl-segment-build",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/open-events.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/open-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/open-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/open-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/optimize-check-in.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/optimize-check-in",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/organization-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/organization-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/organize-daily-work.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/organize-daily-work",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/pages-forms-troubleshoot.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/pages-forms-troubleshoot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/personalized-page-content.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/personalized-page-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/portal-optional.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/portal-optional",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/portals.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/portals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/power-platform-admin-center.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/power-platform-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/prepare-marketing-emails.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/prepare-marketing-emails",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/privacy-use-features.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/privacy-use-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/privacy.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/privacy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/public-ip-addresses-for-email-sending.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/public-ip-addresses-for-email-sending",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/purchase.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/purchase",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/qualify-leads-section.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-optimize-lead-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/quota-management.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/quota-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/re-run-setup.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/re-run-setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-ab-tests-in-marketing-journeys.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-ab-tests-in-marketing-journeys",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-add-cc-recipients.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-add-cc-recipients",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-add-on-migration.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-add-on-migration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-admin-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-admin-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-analytics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-api-segment.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-api-segment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-asset-add-on.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/upload-images-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-asset-library.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/upload-images-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-audience-data.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-audience-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-branches.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-branches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-build-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-build-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-business-goals.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-business-goals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-business-unit-compliance.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-business-unit-compliance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-business-unit-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-business-unit-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-business-units.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-business-units",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-channel-analytics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-channel-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-channel-optimization.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-channel-optimization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-ci-profile.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-ci-profile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-compliance-settings.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-compliance-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-correlate-triggers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-correlate-triggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-create-custom-channels.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-create-custom-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-create-lead-scoring-model.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-create-lead-scoring-model",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-cross-journey-analytics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-cross-journey-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-actions.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-actions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-channel-custom-API.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-channel-custom-API",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-channel-localization-admin.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-channel-localization-admin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-channel-message-editor.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-channel-message-editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-channel-message-parts.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-channel-message-parts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-triggers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-custom-triggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-customer-care-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-customer-care-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-dataverse-trigger.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-dataverse-trigger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-define-channel-definition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-define-channel-definition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-define-channel-instance-account.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-define-channel-instance-account",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-define-custom-channel-instance.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-define-custom-channel-instance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-deploy-pages.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-deploy-pages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-developer-notifications.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-developer-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-developer-push.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-developer-push",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-dynamic-content-multiple-languages.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-dynamic-content-multiple-languages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-edit-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-edit-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-effectiveness.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-effectiveness",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-email-get-started.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-email-get-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-email-text-consent.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-email-text-consent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-email.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-enhanced-journey-reminders.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-enhanced-journey-reminders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-event-registration-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-event-registration-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-extend-outreach-custom-channels.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-extend-outreach-custom-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-form-create.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-form-create",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-form-custom-captcha.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-form-custom-captcha",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-form-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-form-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-frequency-cap.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-frequency-cap",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-import-email-to-real-time.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-import-email-to-real-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-include-exclude.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-include-exclude",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-interactions-reference.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-interactions-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-journey-designer.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-journey-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-known-issues.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-known-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-link-tracking-mechanics.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-link-tracking-mechanics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-manage-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-manage-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-migrate-consent.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-migrate-consent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-modernized-business-units.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-modernized-business-units",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-move.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-move",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-multiple-branches.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-multiple-branches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-natural-language-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-natural-language-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-natural-language.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-natural-language",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-optimize-lead-management.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-optimize-lead-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-outbound-subscription.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-outbound-subscription",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-outbound-text-messaging.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-outbound-text-messaging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-personalization.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-personalization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-personalize-inline-conditions.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-personalize-inline-conditions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-personalize-lists.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-personalize-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-personalize-triggers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-personalize-triggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-predefined-dynamic-text.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-predefined-dynamic-text",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-preference-centers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-preference-centers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-preview-personalized-content.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-preview-personalized-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-push-notifications.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-push-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-redesigned-segment-builder.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-redesigned-segment-builder",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-security-roles-lead-scoring.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-security-roles-lead-scoring",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-segment-based-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-segment-based-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-static-snapshot.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-static-snapshot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-sync-data-tables.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-sync-data-tables",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-test-triggers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-test-triggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-throughput-guidance.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-throughput-guidance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-tile-reference.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-tile-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-transition-resources.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-transition-resources",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-transition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-transition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-trigger-based-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-trigger-based-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-triggers.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-triggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-troubleshooting-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-troubleshooting-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-use-copilot-create-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-use-copilot-create-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-user-guide.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-user-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-utm.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-utm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-visualize-scoring-model.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-visualize-scoring-model",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/recurring-activity-bulk-delete.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/recurring-activity-bulk-delete",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/register-engagement.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/register-engagement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/responsible-ai-overview.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/responsible-ai-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/sales-marketing-integration.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/sales-marketing-integration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/score-manage-leads.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/score-manage-leads",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segmentation-lists-subscriptions.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segmentation-lists-subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-export-members.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-export-members",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-interaction.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-interaction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-profile.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-profile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-static.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-static",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-templates.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/segments-vs-lists.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/segments-vs-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/session-level-registration.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/session-level-registration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-automated-sms-keyword-flow.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-automated-sms-keyword-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-event-portal.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-event-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-event.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-event",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-lead-scoring.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-lead-scoring",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-subscription-center.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-subscription-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/set-up-webinar.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/set-up-webinar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/setup-manage-instances.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/setup-troubleshooting.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/setup-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/setup.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/social-posting.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/social-posting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/solution-uninstall-order.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/solution-uninstall-order",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/spam-checker.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/spam-checker",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/suppression-lists.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/suppression-lists",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/surveys.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/customer-voice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/teams-chat.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/teams-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/teams-webinar.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/teams-webinar",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/tenant-to-tenant.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/tenant-to-tenant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/timeline.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/timeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/track-online-behavior.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/track-online-behavior",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/transfer-data.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/transfer-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/transfer-solution.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/transfer-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/trial-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/trial-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/trial-preview-limits.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/trial-preview-limits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/trial-signup.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/trial-signup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/troubleshoot-domain-authentication.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/troubleshoot-domain-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/troubleshoot-faq.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/troubleshoot-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/troubleshoot-marketing-solution-health.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/troubleshoot-marketing-solution-health",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/uninstall-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/uninstall-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/upload-images-files.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/upload-images-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/user-guide.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/user-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/video-content.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/video-content",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/warmup-process-email-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/warmup-process-email-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/whats-new-marketing-archive.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/whats-new-marketing-archive",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/whats-new-marketing.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/whats-new-marketing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/basic-operations-on-customer-journey.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/basic-operations-on-customer-journey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/build-approval-feature-using-flow.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/build-approval-feature-using-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/configure-tile-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/configure-tile-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/configure-use-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/configure-use-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/create-custom-channel-activity-interaction.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/create-custom-channel-activity-interaction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/create-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/create-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/create-entities-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/create-entities-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/create-workflow-plugin-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/create-workflow-plugin-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/customer-journey-workflow-definition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/customer-journey-workflow-definition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/customize-events-api-response.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/customize-events-api-response",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/email-designer-customization.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/email-designer-customization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/event-management-aad-b2c-setup.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/event-management-aad-b2c-setup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/event-management-web-application.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/event-management-web-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/event-portal-localization.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/event-portal-localization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/export-customer-voice.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/export-customer-voice",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/extend-customer-journey-using-code.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/extend-customer-journey-using-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/extend-customer-journeys-custom-channels.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/extend-customer-journeys-custom-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/extend-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/extend-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/filter-cities.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/filter-cities",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/finalizing-registrations-for-paid-events.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/finalizing-registrations-for-paid-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/host-custom-event-website-on-azure.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/host-custom-event-website-on-azure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/manually-overwriting-sample-website.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/manually-overwriting-sample-website",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-approvals-feature.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-approvals-feature",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-developer-guide.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-developer-guide",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-entity-reference.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-entity-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-form-client-side-extensibility.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-form-client-side-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-organization-metadata.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-organization-metadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/marketing-solutions.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/marketing-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/migrate-files.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/migrate-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/overview-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/overview-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/portal-hosted.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/portal-hosted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/publish-custom-channel-appsource.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/publish-custom-channel-appsource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/realtime-marketing-form-client-side-extensibility.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/realtime-marketing-form-client-side-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/register-web-application-events-api.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/register-web-application-events-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/remove-custom-channel.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/remove-custom-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/retrieve-interactions-contact.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/retrieve-interactions-contact",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/segment-query-definition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/segment-query-definition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/self-hosted.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/self-hosted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/test-custom-channel-tile.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/test-custom-channel-tile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/user-authentication-events-api.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/user-authentication-events-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/using-events-api.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/developer/using-events-api",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-email.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-forms.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-forms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-framework.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-framework",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-leaders.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-leaders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-program.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-program",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-reach.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-reach",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-segments.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-segments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/marketing-analytics/analytics-gallery-start.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/marketing-analytics/analytics-gallery-start",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-consent-transition.md",
+      "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-consent-transition",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
       "redirect_document_id": "false"
