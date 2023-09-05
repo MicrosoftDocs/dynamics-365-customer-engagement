@@ -67,7 +67,7 @@ You should test the model to verify whether the model is working as per expectat
 
     Select the desired model from the list, and then select **Quick test**.
 
-    >[!NOTE:]  
+    >[!NOTE]  
     > To get model related information, select ellipsis (...) beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
     > - F1 scores (weighted, macro)
     > - Accuracy
