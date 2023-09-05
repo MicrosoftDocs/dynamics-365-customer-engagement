@@ -61,17 +61,18 @@ You can set up the intelligent skill finder model rating models in the Customer 
 You should test the model to verify whether the model is working as per expectation. Perform the following steps in Power Apps to test the model.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. Select **AI models** from
-  - **My models** which has the models you created.
-  - **Shared with me** which has the models shared to you.
-1. Select the desired model from the list, and then select **Quick test**.
+1. In **AI models**, you'll see the following sections:
+    - **My models** which has the models you created.
+    - **Shared with me** which has the models shared to you. 
+     
+    Select the desired model from the list, and then select **Quick test**.
 
-[!NOTE:]
-> To get model related information, select ellipsis (...) beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
-> - F1 scores (weighted, macro)
-> - Accuracy
-> - Tag related
->   - Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
+    [!NOTE:]  
+    > To get model related information, select ellipsis (...) beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
+    > - F1 scores (weighted, macro)
+    > - Accuracy
+    > - Tag related
+    >   - Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
 
 1. In **Text** field, enter the desired input and select **Test**. You'll see the predicted tags in **Suggested tags and confidence**.
 
