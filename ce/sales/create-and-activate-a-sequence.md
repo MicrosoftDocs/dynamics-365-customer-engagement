@@ -91,7 +91,7 @@ Now, you can activate the sequence.
 
 Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
-## Assign a sequence to an individual or a team
+## Automatically assign sequence to an individual or a team
 
 You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
 
@@ -105,10 +105,12 @@ Before you assign a sequence to a seller, make sure that the sequence is in the 
 
     | Type | Option | Description |
     |------|--------|-------------|
-    | Record | Record owner | The option automatically assigns the sequence to the owner of the record when connected. |
+    | Record | Record owner | The option automatically assigns the sequence to the owner of the record when connected. By default, this option is selected. |
     || Team member specified in a record field | The option automatically assigns the sequence to an individual based on the selected field name in the record. Choose the field name for which you want to consider assigning the sequence to a specific individual identified within that field. |
     | Teams | Owner team | The option automatically assigns the sequence to the owner team when the record is connected. The owner of the record must be the owner team. Optionally, you can define conditions to assign sequence to specific individuals within the owner team. To define conditions, select **Condition is empty**. |
     || Access team | The option automatically assigns the sequence to the access team when the record is connected. The owner of the record must be the access team. Optionally, you can define conditions to assign sequence to specific individuals within the access team. To define conditions, select **Condition is empty**. |
+
+    :::image type="content" source="media/sequence-assign-sequence-properties-pane.png" alt-text="Screenshot of the properties pane for assigning sequence":::
     
 ## Sequence home page
 
