@@ -26,11 +26,18 @@ Enable the Copilot features for agents to use Copilot to:
 
 ## Region availability and supported languages
 
-For region availability of Copilot, see [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+Copilot AI features are available by default to only those customers with environments that have United States as their geography for data processing and storage. See: [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
 For enabling the Copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+
+### Enable public preview for geographies outside of United States
+
+1. Enable [cross geo support]((cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service) based on your location.
+1. Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select **Environments**.
+1. Select the environment you'd like to enable the Copilot features in and then copy the value of the **Organization ID**.
+1. Email a request to `d365_csaipreview@microsoft.com` with your **Organization Id** to enable the preview. 
 
 ## Prerequisites
 
@@ -41,11 +48,41 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
    - The state is set to Published
    - The locale is set to English
 
+
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries (preview)** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
-## Enable Copilot features
+## Enable Copilot summaries
+
+Copilot case and conversation summaries help you to quickly understand the context of a case and resolve customer issues more efficiently.
+
+### Enable case summaries
+
+Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
+ 
+> [!IMPORTANT]
+> You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
+
+1. In Customer Service admin center, use one of the following navigation options: 
+    - **Agent Experience** > **Productivity** > **Summaries**
+    - **Operations** > **Insights** > **Summaries**
+1. Select **Manage** in **Summaries**.
+1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
+
+Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
+
+### Enable conversation summaries
+
+Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation.
+
+For Copilot to automatically trigger a conversation summary for a live conversation, select the following options in the Summaries page:
+   - **When an agent joins a conversation**: Generates a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
+   - **When a conversation ends**: Generates a summary when the conversation ends. 
+      - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
+   - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
+
+## Enable Copilot help pane
 
 Perform the following steps to enable the Copilot features:
 
@@ -56,6 +93,16 @@ Perform the following steps to enable the Copilot features:
 
 
 :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
+
+### Features supported with different knowledge sources
+
+The following table summarizes the Copilot features supported for a configured knowledge source.
+
+| Feature|Knowledge base | External web resources |
+|-------|----------|---------|--------|
+|Ask a question |✔|X|
+|Write an email | ✔|✔|
+|Draft a response |✔|✔|
 
 ### Enable Ask a Question
 
@@ -77,44 +124,9 @@ You can select **Add web address** in **Web resources** to add trusted domains. 
 > - By default, the knowledge base content is refreshed every week.
 > - Web domains are only used by Copilot to draft emails and chat replies.
 
-### Features supported with different knowledge sources
+### Set up filters
 
-The following table summarizes the Copilot features supported for a configured knowledge source.
-
-| Feature|Knowledge base | External web resources |
-|-------|----------|---------|--------|
-|Ask a question |✔|X|
-|Write an email | ✔|✔|
-|Draft a response |✔|✔|
-
-## Enable case summaries
-
-Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
- 
-> [!IMPORTANT]
-> You must select **Make Copilot available to agents** in **Copilot help pane (preview)**  for Copilot case summaries to be available.
-
-1. In Customer Service admin center, use one of the following navigation options: 
-    - **Agent Experience** > **Productivity** > **Summaries (preview)**
-    - **Operations** > **Insights** > **Summaries (preview)**
-1. Select **Manage** in **Summaries (preview)**.
-1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
-
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
-
-## Enable conversation summaries
-
-Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation.
-
-For Copilot to automatically trigger a conversation summary for a live conversation, select the following options in the Summaries (preview) page:
-   - **When an agent joins a conversation**: Generates a summary when an agent joins the conversation. This is applicable to transferred conversation or when an agent invites a collaborator to join the conversation.
-   - **When a conversation ends**: Generates a summary when the conversation ends. 
-      - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
-
-## Set up filters
-
-Filters enable Copilot to generate responses based on a specific set of topics. Filters in in limited preview. To set up filters, email a request to  d365_csaipreview@microsoft.com.
+Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features by sending an email a request to d365_csaipreview@microsoft.com. See: [Apply filters](use-copilot-features.md#apply-filters).
 
 ## Record feedback
 

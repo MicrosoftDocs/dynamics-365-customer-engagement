@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 08/28/2023
+ms.date: 09/05/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -41,5 +41,6 @@ Examples of customer data, along with personal data that's shared with Azure Ope
 
 ### See also
 
+[Responsible AI FAQ for Dynamics 365 Customer Service](responsible-ai-overview.md)
 [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  
 [Configure copilot capabilities](configure-copilot-features.md)  

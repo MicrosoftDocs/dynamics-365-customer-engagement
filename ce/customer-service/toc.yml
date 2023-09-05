@@ -1001,7 +1001,9 @@
       - name: Enable write an email
         href: configure-copilot-features.md#enable-write-an-email
       - name: View feedback data
-        href: configure-copilot-features.md#enable-write-an-email
+        href: configure-copilot-features.md#enable-write-an-email        
+      - name: Make Copilot available to agents
+        href: configure-copilot-features.md#make-copilot-available-to-agents
       - name: Copilot data movement across geographies
         href: copilot-data-movement.md
     - name: Agent experience
