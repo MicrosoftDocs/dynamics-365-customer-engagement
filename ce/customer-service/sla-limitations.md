@@ -1,7 +1,7 @@
 ---
 title: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn the limitations of service-level agreements in Dynamics 365 Customer Service."
-ms.date: 12/08/2022
+ms.date: 05/09/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
