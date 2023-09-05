@@ -1,7 +1,7 @@
 ---
-title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
-description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
-ms.date: 12/02/2022
+title: What's new in Dynamics 365 Customer Service
+description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service.
+ms.date: 09/05/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,17 +17,17 @@ ms.custom:
 
 Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
-## What's new in October 2022 update
+## What's new in October 2023 update
 
 For information about the features that released in October 2022, see:
 
-[2022 release wave 2 plan - Customer Service](/dynamics365-release-plan/2022wave2/service/dynamics365-customer-service/)
+[2023 release wave 2 plan - Customer Service](/dynamics365/release-plan/2023wave2/service/dynamics365-customer-service/)
 
-## What's new in April 2022 update
+## What's new in April 2023 update
 
 For information about the features that released in April 2022, see:
 
-[2022 release wave 1 plan - Customer Service](/dynamics365-release-plan/2022wave1/service/dynamics365-customer-service/)
+[2023 release wave 1 plan - Customer Service](/dynamics365/release-plan/2023wave1/service/dynamics365-customer-service/)
 
 ### See also
 
