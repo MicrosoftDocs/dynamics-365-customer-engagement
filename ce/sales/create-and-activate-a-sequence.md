@@ -69,7 +69,30 @@ Also, sellers can create and activate sequences for themselves and use the seque
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
 9. Save the sequence.  
 
-Now, you can activate the sequence. 
+Now, you can assign the sequence to users and then activate. 
+
+## Automatically assign sequence to users or a team
+
+You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
+
+Deactivate the sequence before you assign it to users or a team. 
+
+1. In the sequence page, select **Properties**.
+
+    :::image type="content" source="media/sequence-select-properties.png" alt-text="Screenshot of the sequence page with properties option":::
+
+1. In the **Properties** pane, under the **Assign to** section, select the one of the following options.  
+
+    | Type | Option | Description |
+    |------|--------|-------------|
+    | Record | Record owner | The option automatically assigns the sequence to the owner of the record when connected. By default, this option is selected. |
+    || Team member specified in a record field | The option automatically assigns the sequence to an individual based on the selected field name in the record. Choose the field name that you want to consider for assigning the sequence to a specific user, as identified in that field. |
+    | Teams | Owner team | The option automatically assigns the sequence to the owner team when the record is connected. The owner of the record must be the owner team. Optionally, you can define conditions to assign sequence to specific individuals within the owner team. To define conditions, select **Condition is empty**. |
+    || Access team | The option automatically assigns the sequence to the access team when the record is connected. The owner of the record must be the access team. Optionally, you can define conditions to assign sequence to specific individuals within the access team. To define conditions, select **Condition is empty**. |
+
+    The following image is an example of the Properties pane:
+
+    :::image type="content" source="media/sequence-assign-sequence-properties-pane.png" alt-text="Screenshot of the properties pane for assigning sequence":::
 
 ## Activate a sequence
 
@@ -91,27 +114,6 @@ Now, you can activate the sequence.
 
 Next, you connect the active sequence to records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
-## Automatically assign sequence to an individual or a team
-
-You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
-
-Before you assign a sequence to a seller, make sure that the sequence is in the **Inactive** state.  
-
-1. Open the sequence and then select **Properties**.
-
-    :::image type="content" source="media/sequence-select-properties.png" alt-text="Screenshot of the sequence page with properties option":::
-
-1. In the **Properties** pane, under the **Assign to** section, select the one of the following options.  
-
-    | Type | Option | Description |
-    |------|--------|-------------|
-    | Record | Record owner | The option automatically assigns the sequence to the owner of the record when connected. By default, this option is selected. |
-    || Team member specified in a record field | The option automatically assigns the sequence to an individual based on the selected field name in the record. Choose the field name for which you want to consider assigning the sequence to a specific individual identified within that field. |
-    | Teams | Owner team | The option automatically assigns the sequence to the owner team when the record is connected. The owner of the record must be the owner team. Optionally, you can define conditions to assign sequence to specific individuals within the owner team. To define conditions, select **Condition is empty**. |
-    || Access team | The option automatically assigns the sequence to the access team when the record is connected. The owner of the record must be the access team. Optionally, you can define conditions to assign sequence to specific individuals within the access team. To define conditions, select **Condition is empty**. |
-
-    :::image type="content" source="media/sequence-assign-sequence-properties-pane.png" alt-text="Screenshot of the properties pane for assigning sequence":::
-    
 ## Sequence home page
 
 On the sequence home page, you can do the following tasks:
