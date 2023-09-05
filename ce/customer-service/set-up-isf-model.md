@@ -64,10 +64,10 @@ You should test the model to verify whether the model is working as per expectat
 1. In **AI models**, you'll see the following sections:
     - **My models** which has the models you created.
     - **Shared with me** which has the models shared to you. 
-     
+
     Select the desired model from the list, and then select **Quick test**.
 
-    [!NOTE:]  
+    >[!NOTE:]  
     > To get model related information, select ellipsis (...) beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
     > - F1 scores (weighted, macro)
     > - Accuracy
