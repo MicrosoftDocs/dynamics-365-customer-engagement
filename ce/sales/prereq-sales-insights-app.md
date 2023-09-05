@@ -39,7 +39,7 @@ Verify the following requirements before setting up the Conversation intelligenc
 -	You must get access to conversation intelligence. If you don't have access, follow these steps:       
     1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).  
     2.	Enter your work email address.  
-    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).  
+    3.	When the application recognizes the email, you must sign in using Microsoft Entra ID. To learn more, see [Microsoft Entra ID Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).  
 -	If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
 -    You must [set up conversation intelligence](fre-setup-ci-sales-app.md) from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app.  
 

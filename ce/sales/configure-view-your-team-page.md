@@ -57,7 +57,7 @@ As a sales manager, you can:
 
 1.	Choose the hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).  
 
-    A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Azure Active Directory (AD), including those members who don't have access to conversation intelligence.   
+    A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Microsoft Entra ID, including those members who don't have access to conversation intelligence.   
     The application automatically updates the list every 24 hours and displays the current active team members in the manager's hierarchy.  
     > [!div class="mx-imgBorder"]
     > ![Choose the hierarchy level](media/si-app-admin-configure-your-page-settings.png "Choose the hierarchy level")    
@@ -150,7 +150,7 @@ You can delete seller’s data when a seller isn't reporting to you, moved to an
 
 ## View your team   
 
-As a sales manager, when you open the **Your team** page in settings, you can view the list of team members within your hierarchy, regardless of whether they have conversation intelligence licenses or not. Team members in the displayed list are based on Dynamics 365 and Azure AD.     
+As a sales manager, when you open the **Your team** page in settings, you can view the list of team members within your hierarchy, regardless of whether they have conversation intelligence licenses or not. Team members in the displayed list are based on Dynamics 365 and Microsoft Entra ID.     
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
 
 > [!div class="mx-imgBorder"]
