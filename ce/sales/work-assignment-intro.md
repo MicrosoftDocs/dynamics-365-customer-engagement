@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: overview 
 ms.collection: get-started 
-ms.date: 08/11/2023
+ms.date: 08/25/2023
 ms.custom: bap-template 
 ---
 
@@ -58,6 +58,37 @@ You can use the assignment rules designer to do the following tasks:
 - [Edit an assignment rule](wa-edit-assignment-rule.md).
 - [Change priority of an assignment rule](wa-change-priority-assignment-rule.md).
 - [Delete or deactivate an assignment rule](wa-delete-deactivate-assignment-rule.md). 
+
+## Permissions required 
+
+The following permissions are required to perform tasks in the work assignment feature.
+
+| Task | Entity name | Privileges required |
+|------|-------------|---------------------|  
+| Apply seller attributes to sellers | Attribute | Read |
+| | Attribute Value | Read, Append, and Append To |
+| | User | Read, Append, and Append To |
+| Assign unassigned records from monitor tab | Sales routing run, Segment, Team, and User | Read |
+|| | **Note**: To assign record to a seller you must assign privileges on that record. |
+| Create, connect, disconnect sequence to segment | Segment | Read, Write, and Append |
+|| Sequence | Read, Write, Create,  Append, and Append to |
+|| Sequence Stat and Sequence Target Step | Read |
+|| Sequence Template | Append To |
+| Create, modify, or delete assignment rules | Assignment Rule | Read, Create, Write, Delete, and Append |
+|| Attribute, Attribute Value, Team, and User | Read |
+|| Segment | Read and Append To |
+| Create, modify, or delete segments | Segment | Read, Create, Write, and Delete |
+| Create, modify, or delete seller attributes | Attribute | Read, Create, Write, Delete, and Append To |
+|| Attribute Value | Read, Create, Write, Delete, and Append |
+| View assigned or unassigned records in monitor tab | Sales routing run and Segment | Read |
+| View assignment rules | Assignment Rule, Attribute, Attribute Value, Segment, Team, and User | Read |
+| View segments | Segment | Read |
+| View seller attributes | Attribute and Attribute Value | Read |
+| View seller capacity | Assignment Map and User | Read |
+| View sequences connected to segment | Segment, Sequence, Sequence Stat, Sequence Target Step, and Sequence Template | Read |
+| Update seller capacity | Assignment Map | Read and Write |
+| | User | Read |
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 

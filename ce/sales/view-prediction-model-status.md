@@ -1,6 +1,6 @@
 ---
-title: "View the status of prediction column"
-description: "Use the status of prediction column in a forecast to view the details such as, last predicted date and errors."
+title: View the status of prediction column
+description: Use the status of prediction column in a forecast to view the details such as, last predicted date and errors.
 ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
@@ -11,6 +11,7 @@ ms.author: lavanyakr
 Use the status of prediction column in a forecast to view the details such as, last predicted date and errors.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
