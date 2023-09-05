@@ -61,9 +61,9 @@ You can set up the intelligent skill finder model rating models in the Customer 
 You should test the model to verify whether the model is working as per expectation. Perform the following steps in Power Apps to test the model.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. In **AI models**, you'll see the following sections:
-    - **My models** which has the models you created.
-    - **Shared with me** which has the models shared to you. 
+1. In **AI Builder**, you'll see the following sections:
+    - **My models** has the models you created.
+    - **Shared with me** has the models shared to you. 
 
     Select the desired model from the list, and then select **Quick test**.
 
