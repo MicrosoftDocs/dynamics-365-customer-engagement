@@ -35,10 +35,10 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.98.36
 (Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).
 
-- Fixed a bug creating errors when navigating to field service settings.
--	Jobstatus on FS System Jobs is no longer required and will not be set to pending.
-- Dynamics 365 Field Service Mobile: Fixed an accessibility bug to show a string informing the user when a required date field is not filled. 
-- Dynamics 365 Field Service Mobile: Fixed a crash in Inspections control that could happen when user is interacting with Date fields. 
+- Fixed a bug that caused errors when navigating to Field Service settings.
+-	Job status on Field Service System Jobs is no longer required and will not be set to pending.
+- Dynamics 365 Field Service Mobile: Fixed an accessibility bug by showing a string that informs the user when a required date field is not filled. 
+- Dynamics 365 Field Service Mobile: Fixed a crash in the Inspections control that could happen when the user interacts with date fields. 
  
 ## 8.8.97.44
 (Includes Universal Resource Scheduling version [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.50.232152).
