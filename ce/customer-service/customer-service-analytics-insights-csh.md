@@ -3,8 +3,8 @@ title: Customer Service dashboards | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
 ms.date: 03/31/2023
 ms.topic: overview
-author: Soumyasd27
-ms.author: sdas
+author: lalexms
+ms.author: laalexan
 ms.reviewer: shujoshi
 search.audienceType: 
   - admin

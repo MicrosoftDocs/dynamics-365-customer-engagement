@@ -3,8 +3,8 @@ title: Summary Dashboard | Microsoft Docs
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
 ms.date: 12/09/2022
 ms.topic: article
-author: Soumyasd27
-ms.author: sdas
+author: lalexms
+ms.author: laalexan
 ms.reviewer: shujoshi
 search.audienceType: 
   - admin
