@@ -23,7 +23,7 @@
       topicHref: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
     - name: Field Service
       tocHref: /dynamics365/field-service/
-      topicHref: /dynamics365/field-service/overview
+      topicHref: /dynamics365/field-service/index
     - name: Project Service Automation
       tocHref: /dynamics365/project-service/
       topicHref: /dynamics365/project-service/overview
