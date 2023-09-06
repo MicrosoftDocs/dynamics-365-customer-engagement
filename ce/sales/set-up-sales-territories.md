@@ -1,19 +1,23 @@
 ---
 title: Set up Sales territories to organize business markets by geographical area
-description: Manage forecast periods by adding, scheduling, rearranging and viewing calculation status.
+description: Define sales territories to organize customer and market segments, assign salespeople, and simplify business analysis.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 09/05/2023
-searchScope: 
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory
   - D365-UI-*
   - Dynamics 365
   - Sales
   - Customer Engagement
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/06/2023
 ---
 # Set up sales territories to organize business markets by geographical area
 
@@ -27,52 +31,67 @@ Organizations can create a model and visualize their sales territories in a hier
 > - For a new organization that provisions Dynamics 365 Sales, the territory hierarchical relationship will be available and enabled by default.
 > - For existing customers upgrading to the latest release, if the organization doesn't already have a hierarchical relationship created for the Territory table, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
 
-## Create a sales territory
+## License and role requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Sales Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
+## Create a sales territory and add members
 
 Create a sales territory to define a geographical area for your business. For example, you can create a sales territory for a city, state, or country/region. You can also create a sales territory for a specific industry or product line.
 
-1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **App settings**.
 
-2. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **App settings**.
-3. Under **Sales administration**, select **Sales Territories**.
+1. Under **Sales administration**, select **Sales Territories**.
    :::image type="content" source="media/sales-territories.png" alt-text="Screenshot of the Sales Territories menu in App settings along with the list of territories.":::
-3. Select **New** on the command bar.
+1. Select **New** on the command bar.
 
 4. In the sales territory form, fill in your information.
 
    a. **Name**. Enter the geographical name for the territory such as the name of a city, country/region, or state.
 
-   b. **Manager**. Enter the name of the user who is the manager for this territory. This person would typically assign leads to salespeople.
+   b. **Manager**. Select the user who manages the territory. This person would typically assign leads to salespeople.
 
        > [!Important]
        > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
   
-   c.  **Parent**. Select the Lookup icon to select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory. 
+   c.  **Parent**. Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
 
    d. **Description**. Enter any details that you'd like to include for this territory, for example, "Sales territory created for education and training."
 
-5. When you're done, on the command bar, select **Save**.
+5. Save the changes.
 
-6. Select the **Related** tab, and then select **Members**.
+## Add members to a territory
 
-7. On the **Members** tab, select **Add members**.
+Add salespeople as members of a territory to assign them the sales and revenue opportunities for that territory.  
 
-8. In the **Lookup Records** pane, select the search icon, select a user record, and then select **Add**.
+1. Open the territory record that you want to add members to.
 
-9. To add sub-territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**.  
+2. Select the **Related** tab, and then select **Members**.
+
+3. On the **Members** tab, select **Add members**.
+
+4. In the **Lookup Records** pane, search and select users who are members of this territory, and then select **Add**.
+
+5. To add sub-territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**.  
 
     :::image type="content" source="media/sales-add-sub-territory.png" alt-text="Screenshot of the Add New Territory button.":::
 
-10. Enter the necessary information and select **Save**. This territory will be added as a sub-territory in the Sub-territories grid.
+6. Enter the necessary information and select **Save**. This territory will be added as a sub-territory in the Sub-territories grid.
 
-10. Select **Save**. 
+7. Select **Save**. 
 
 > [!TIP]
->  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)  
+>  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](/create-price-lists-price-list-items-define-pricing-products.md)  
   
 ### See also  
- [Administrator and sales manager guide](/dynamics365/sales-enterprise/admin-guide)
- [Nurture sales from lead to order (Sales)](/dynamics365/sales-enterprise/nurture-sales-from-lead-order-sales)
+
+[Configure forecasts in your organization](configure-forecast.md)  
+[Define and track your sales goals](goals-overview.md)  
+
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
