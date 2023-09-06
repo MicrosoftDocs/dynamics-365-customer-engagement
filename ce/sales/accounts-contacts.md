@@ -29,6 +29,7 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 - [Create an account](#create-an-account)
 - [Add contacts to an account](#add-contacts-to-an-account)
 - [View opportunities associated with an account](#view-opportunities-associated-with-an-account)
+- [View invoices associated with an account](#view-invoices-associated-with-an-account)
 - [View relationship analytics and KPIs for an account](relationship-analytics.md)
 
 ### Create an account
@@ -77,7 +78,6 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 - [Create a contact](#create-a-contact)
 - [Add contacts to an account](#add-contacts-to-an-account)
 - [View opportunities associated with a contact](#view-opportunities-associated-with-a-contact)
-- [View invoices associated with a contact](#view-invoices-associated-with-a-contact)
 - [Get introduced to a contact](who-knows-whom.md)
 - [View relationship analytics and KPIs for a contact](relationship-analytics.md)
 
