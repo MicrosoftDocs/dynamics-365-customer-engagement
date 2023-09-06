@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 08/31/2023
+ms.date: 09/06/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -18,16 +18,52 @@ You can connect your voice or SMS channels to Azure Communication Services using
 
 ## Prerequisites
 
-Before you connect an existing Azure resource to Azure Communication Services, you must perform the following steps.
-
-- Confirm the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only when:
+- The organization that you're using isn't a trial version.
+- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
   - You've manually ended the trial.
-  - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md).
-- Get the name and ID of your Azure resource from the Azure portal > **Settings** > **Properties**.
-- [Get the connection string of your Azure resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
-- [Get the application (client) ID and tenant (directory) ID for your registered app](#get-application-and-tenant-ids-from-the-azure-portal).
-- Confirm that you have [permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
+  - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
+- Your active Azure subscription is in the same tenant as your Dynamics 365 account.
+- Your role has **Contributor** privileges.
+
+#### Get Azure resource information
+
+Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
+
+1. Go to **Resource groups** and select the required resource group. 
+1. Select the required **Resource** from the resource group.
+    :::image type="content" source="media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="media/acs-existing-resource.png":::
+1.  Select **Properties** in **Settings**. 
+1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
+   :::image type="content" source="media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="media/acs-property-records.png":::
+
+
+1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
+
+   :::image type="content" source="media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+
+#### Get application and tenant IDs from the Azure portal
+
+You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
+
+1. Open the **App registrations** page on the Azure portal.
+
+    If you're registering your app on the Azure portal for the first time, then perform the following steps:
+
+    1. On the **Register an application** page, enter the following details:
+
+        - **Name**: Enter a name for your application.
+        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+
+    1. Select **Register**.
+       :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
+
+1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
+
+1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
+
+    :::image type="content" source="media/acs-resource-application.png" alt-text="resource application" :::
+
 
 ## Connect using an existing Azure resource
 
@@ -36,23 +72,17 @@ Before you connect an existing Azure resource to Azure Communication Services, y
     - Customer Service admin center:
 
         1. In the site map, under **Customer support**, select **Channels**.
-        2. To the right of **Phone numbers**, select **Manage**.
+        2. Select **Manage** for **Phone numbers**.
 
     - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select **Use existing resource**.
 
-1. Fill in the following fields using the resource information you retrieved from the Azure portal:
-   - **ACS Resource Name**: Enter the resource name.
-   - **ACS Resource ID**: Enter the resource ID.
-   - **Connection string**: Enter the connection string.
-   - **Event grid app id**: Enter the application (client) ID.
-   - **Event grid app tenant id**: Enter the tenant (directory) ID.
+1. Fill in the fields using the resource information you retrieved from the Azure portal.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
 1. Select **Add number**.
-
 1. [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
 Next, [configure voice workstream settings](create-workstreams.md) for the phone number, set up [inbound](voice-channel-route-queues.md) and [outbound](voice-channel-outbound-calling.md) calling, and enable call recording and SMS services.
@@ -91,8 +121,8 @@ To enable call recording and SMS services, you must first configure your applica
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
     - **Endpoint**: Select **Select an endpoint**, and then enter the recording or SMS web hook endpoint:
-        - To enable recording services, [get the **Recording Web Hook Endpoint**](#get-the-subscriber-endpoint-for-recording), paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
-        - To enable SMS services, [get the **SMS Web Hook Endpoint**](#get-the-subscriber-endpoint-for-sms), paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
+        - To enable recording services, [get the **Recording Web Hook Endpoint**](#get-the-subscriber-endpoint-for-recording) from Customer Service admin center, paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
+        - To enable SMS services, [get the **SMS Web Hook Endpoint**](#get-the-subscriber-endpoint-for-sms) from Customer Service admin center, paste the value in **Subscriber Endpoint**, and then select **Confirm Selection**.
 
 1. Select the **Additional Features** tab. Select the **Use AAD authentication** checkbox, and enter the following details:
 
@@ -105,22 +135,6 @@ To enable call recording and SMS services, you must first configure your applica
 
 [Learn more about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
-#### Get application and tenant IDs from the Azure portal
-
-1. Open the **App registrations** page on the Azure portal in a separate window or tab.
-
-    If you're registering your app on the Azure portal for the first time, then perform the following steps:
-
-    1. On the **Register an application** page, enter the following details:
-
-        - **Name**: Enter a name for your application.
-        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
-
-    1. Select **Register**.
-
-1. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then note the value.
-
-1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
 
 #### Get event grid app and tenant IDs from the Power Apps portal
 

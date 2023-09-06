@@ -1,0 +1,2 @@
+> [!NOTE]
+> Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the United States and United Kingdom and in the English (en-us) language. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
