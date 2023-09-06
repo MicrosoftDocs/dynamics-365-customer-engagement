@@ -19,7 +19,7 @@ Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or 
 
 ## What's new in October 2023 update
 
-For information about the features that released in October 2023, see:
+For information about the features that are releasing in October 2023, see:
 
 [2023 release wave 2 plan - Customer Service](/dynamics365/release-plan/2023wave2/service/dynamics365-customer-service/)
 
