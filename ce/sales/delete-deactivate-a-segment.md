@@ -1,6 +1,6 @@
 ---
-title: Delete or deactivate a segment
-description: Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode.
+title: Delete or deactivate segments
+description: Permanently delete a segment that is no longer required, or deactivate to retain the segment in the application in inactive mode.
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Delete or deactivate a segment 
+# Delete or deactivate segments 
 
 You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, the records that were already connected to it remain connected but future records will not be connected to it. When a segment is deleted, segment records that are already connected to a sequence won't be affected. 
 

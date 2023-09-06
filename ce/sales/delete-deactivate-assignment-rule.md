@@ -1,12 +1,12 @@
 ---
-title: "Delete or deactivate an assignment rule"
-description: "Permanently delete an assignment rule that is no longer required in your organization, or deactivate to retain the rule in the application in inactive mode."
+title: Delete or deactivate assignment rules
+description: Permanently delete an assignment rule that is no longer required, or deactivate to retain the rule in the application in inactive mode."
 ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 ---
-# Delete or deactivate an assignment rule 
+# Delete or deactivate assignment rules 
 
 You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected. 
 

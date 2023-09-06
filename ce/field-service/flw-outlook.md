@@ -1,12 +1,13 @@
 ---
 title: Field Service Outlook add-in with Copilot for the Frontline Manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 08/01/2023
+ms.date: 09/01/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
+ms.subservice: m365-integrations
 ---
 
 # Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)
@@ -15,7 +16,9 @@ ms.custom: bap-template
 
 Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
-The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Or, you can create a work order manually.
+The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](preview-schedule-board.md) for scheduling.
+
+[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
 ## Install the Field Service (Preview) Outlook Add-in
 
@@ -69,16 +72,16 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
-1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in). To avoid duplicate work orders, if the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
-1. On the **Copilot** tab select **Create a work order from email**.
+1. On the Home tab, select **Create a work order from email**.
 
-   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service (Preview) Outlook pane showing Copilot tab":::
+   :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service (Preview) Outlook pane showing Home tab":::
 
    A message displays that the work order is being generated.
 
    > [!TIP]
-   > If the email does not meet Microsoft Responsible AI guidelines, an error displays. You can create the work order manually.
+   > If the email does not meet Microsoft Responsible AI guidelines, an error displays. You can [create the work order manually](#create-a-work-order-manually-in-outlook).
 
 1. Review the work order to ensure all AI-generated content is accurate and fill in any additional information.
 
@@ -90,7 +93,9 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
    - [Work Order Type](create-work-order-types.md)
    - [Price List](create-price-list.md)
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
+1. Select **Save**.
+
+   After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The email is saved in the Field Service timeline. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -116,16 +121,35 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
    :::image type="content" source="media/fsp-outlook-fsp-pane.png" alt-text="Field Service (Preview) Outlook Create work order pane":::
 
    > [!TIP]
-   > Copy relevant information from the email into the **Description** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
+   > Copy relevant information from the email into the **Summary** field. For general information about work orders, see [Work order architecture](field-service-architecture.md).
 
-1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**.
+1. Select **Save**. After the work order is created, the work order number displays at the top of the **Field Service (Preview)** pane. The **System Status** default is **Unscheduled**. You can [schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
+
+   :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service (Preview) Outlook pane highlighting the pop-out icon to go to Field Service":::
 
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
 
-   :::image type="content" source="media/fsp-pop-out-icon.png" alt-text="Field Service (Preview) Outlook Work Orders tab highlighting the pop-out icon":::
-
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
+
+## Schedule a work order in Outlook
+
+Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
+
+1. After you create a work order or open an unscheduled work order, select the **Scheduling** tab. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+
+1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+
+   :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling":::
+
+   > [!TIP]
+   > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
+
+1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service (Preview)** pane.
+
+1. If needed, update the booking status. A confirmation displays at the top of the pane.
+
+1. Select the back arrow to return to the **Home** tab or the work order list.
 
 ## View work orders in Outlook
 
@@ -134,14 +158,11 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 1. On the **Work orders** tab, a list of up to 50 work orders display. The most recent work order displays first.
 
    > [!TIP]
-   > To view more work orders in the Field Service app, select **View all in Dynamics 365** at the bottom of the list.
+   > To view more work orders in the Field Service app, select **See more** at the bottom of the list.
 
    :::image type="content" source="media/fsp-work-order-list.png" alt-text="Field Service (Preview) Outlook work order list":::
 
 1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
-
-   > [!TIP]
-   > The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”.
 
 1. To filter the work orders by status or priority, select **Filter**, make your choice, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 

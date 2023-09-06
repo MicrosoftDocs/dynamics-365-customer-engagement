@@ -106,12 +106,12 @@
       href: admin/help-improve-unified-service-desk.md
     - name: Provide feedback about Unified Service Desk
       href: admin/provide-feedback.md
-  - name: Data protection and GDPR
+  - name: Data protection and privacy
     items:       
-    - name: Comply with General Data Protection Regulation (GDPR)
-      href: admin/comply-gdpr.md
+    - name: Comply with privacy laws and regulations
+      href: admin/comply-privacy-laws-regs.md
     - name: Comply Unified Service Desk data
-      href: admin/comply-unified-service-desk-data-gdpr.md
+      href: admin/comply-unified-service-desk-data-privacy-laws.md
   - name: Configure audit and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files

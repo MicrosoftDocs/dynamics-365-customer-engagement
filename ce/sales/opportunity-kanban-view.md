@@ -1,7 +1,7 @@
 ---
-title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 10/26/2021
+title: Work with opportunities in the Kanban view
+description: Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
+ms.date: 08/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -110,11 +110,11 @@ Here are some important things to know about your Kanban view:
 
     **In the Status-based Kanban view:**
 
-    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box.
+    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box, even if you've configured a customized opportunity close form.
     
       > [!div class="mx-imgBorder"]  
       > ![Close opportunity.](media/close-opportunity-in-kanban-view.png "Close opportunity")
-
+        
     - You can drag an opportunity card from the Open pane to the Won or Close lanes. 
     
     - When you move the card to the Won or Lost lanes, the opportunity record is closed. A lock icon is shown on the card, which means that the card (opportunity record) is inactive—you can't edit the fields on the card.
