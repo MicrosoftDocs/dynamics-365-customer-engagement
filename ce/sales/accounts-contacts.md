@@ -1,5 +1,5 @@
 ---
-title: Work with accounts and contacts
+title: Manage your accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
 ms.date: 09/06/2023
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.custom:
 ---
 
 
-# Work with accounts and contacts
+# Manage your accounts and contacts
 
 In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store information about the companies you do business with. Use [contacts](#work-with-contacts) to store information about the people you work with at those companies. You can add multiple contacts to an account, but you can associate only one account with a contact. You can create accounts and contacts manually or import them from a spreadsheet or other supported files.
 
@@ -29,7 +29,6 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 - [Create an account](#create-an-account)
 - [Add contacts to an account](#add-contacts-to-an-account)
 - [View opportunities associated with an account](#view-opportunities-associated-with-an-account)
-- [View invoices associated with an account](#view-invoices-associated-with-an-account)
 - [View relationship analytics and KPIs for an account](relationship-analytics.md)
 
 ### Create an account
