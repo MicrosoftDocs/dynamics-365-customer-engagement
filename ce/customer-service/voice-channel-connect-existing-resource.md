@@ -18,17 +18,17 @@ You can connect your voice or SMS channels to Azure Communication Services using
 
 ## Prerequisites
 
-- The org that you're using is not a trial version. 
-- Confirm the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page of Customer Service Admin Center. The **Get Started** button appears only when:
+- The organization that you're using isn't a trial version.
+- The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
   - You've manually ended the trial.
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
-- Your active Azure subscription must be in the same tenant as your Dynamics 365 account.
+- Your active Azure subscription is in the same tenant as your Dynamics 365 account.
 - Your role has **Contributor** privileges.
 
 #### Get Azure resource information
 
-Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the Azure portal:
+Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
 
 1. Go to **Resource groups** and select the required resource group. 
 1. Select the required **Resource** from the resource group.
@@ -58,7 +58,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. Select **Register**.
        :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
 
-1. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
+1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
 
 1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
 
@@ -72,7 +72,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     - Customer Service admin center:
 
         1. In the site map, under **Customer support**, select **Channels**.
-        2. To the right of **Phone numbers**, select **Manage**.
+        2. Select **Manage** for **Phone numbers**.
 
     - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
