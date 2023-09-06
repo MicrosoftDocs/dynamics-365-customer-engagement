@@ -19,28 +19,20 @@ To see your list of apps, go to:
 
 `https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps`
 
-Find the Field Service Mobile app and go to the **App Designer**.
+Find the Field Service Mobile app and **Open In App Designer**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365, showing the list of apps and showing the option to open Field Service Mobile in the App Designer.](./media/mobile-2020-admin-app-designer.png)
+> ![Screenshot of Dynamics 365, showing the list of apps and showing the option to open Field Service Mobile in the App Designer.](./media/editappmodule.png)
 
-Select the edit icon to edit the site map.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/mobile-2020-admin-sitemap1.png)
-
-The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of the Field Service (Dynamics 365) mobile app and you can rearrange, delete, or edit the display names.
-
-Rearrange the entities displayed within each group with the drag and drop interface, or add new entities by adding new **Subareas**.
-
+From the app designer, you will see the current Sitemap. The out of the box sitemap will contain groups of pages, including "My Work", "Customers" and "Assets". You can modify this to add or remove groups and pages as needed for your business scenario. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing the My Work, Customers, and Other groups on the Field Service Mobile App Designer.](./media/mobile-2020-admin-sitemap2.png)
+> ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/editappmodule_sitemap.png)
 
 You can even create entirely new groups with more subareas to display different entities.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing Field Service Mobile in the App Designer, and showing a simulated mobile device on the right with the corresponding changes.](./media/mobile-2020-admin-sitemap3.png)
+> ![Screenshot of Power Apps, showing Field Service Mobile in the App Designer, and showing add new group or page.](./media/editappmodule_sitemap_new.png)
 
 > [!Note]
 > For every entity you display in the sitemap, you can choose the views available on mobile in the App Designer.
