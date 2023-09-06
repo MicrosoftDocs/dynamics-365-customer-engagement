@@ -1,7 +1,7 @@
 ---
 title: Create or edit leads
 description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
-ms.date: 06/26/2023
+ms.date: 09/06/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,15 +34,17 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
 
 ## Create or edit a lead
 
-1. In the Dynamics 365 Sales left side panel, select **Leads**.
+1. In the sitemap of your sales app, select **Leads**.
 
 1. Select **New**.
+
+1. Enter the information you have about the lead. Only the **Topic** and **Last name** are required. All other details are optional.
 
 1. Select **Qualify** in the process bar and select or [create an account and contact](accounts-contacts.md).
 
     - If you select an account or a contact, the company name and contact address details are filled in for you if they were empty. If that information was already entered, your selection doesn't change the existing values.
     - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has turned on address suggestions. Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
-    - When you create a lead but before you save it, you can select any values for **Existing Contact** and **Existing Account**. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
+    - When you create a lead, you can select any values for **Existing Contact** and **Existing Account** before you save the lead. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
 
 1. Select or enter the remaining details in the **Qualify** step.
 

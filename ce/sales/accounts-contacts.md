@@ -1,7 +1,7 @@
 ---
 title: Work with accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
-ms.date: 06/26/2023
+ms.date: 09/06/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,7 +12,6 @@ ms.custom:
  - bap-template
 ---
 
-<!-- EDITOR'S NOTE: I revised the instructions based on what I saw in my demo tenant, Sales Hub app. If the previous instructions were correct, can you please specify which version of the Sales app is being used here? -->
 
 # Work with accounts and contacts
 
@@ -35,7 +34,7 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 
 ### Create an account
 
-1. In the Dynamics 365 Sales left side panel, select **Accounts**.
+1. In the sitemap of your sales app, select **Accounts**.
 
 1. In the command bar, select **New**.
 
@@ -47,17 +46,20 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 
 ### Fill in the address from suggestions
 
+**(Applicable for Sales Enterprise and Sales Premium only)**
+
 If your administrator has [turned on address suggestions](enable-address-suggestion.md), Bing Maps can fill in the account's address details so that you don't have to. Address suggestion works with contacts, accounts, and leads.
 
 1. Open an account, contact, or lead.
 
 1. On the **Summary** tab, scroll down to the **Address** box and start typing the street address.
+    :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
 
 1. Select an address from the list of suggestions provided by Bing Maps.
 
 ### View opportunities associated with an account
 
-1. In the Dynamics 365 Sales left side panel, select **Accounts**.
+1. In the sitemap of your sales app, select **Accounts**.
 
 1. Select an account in the list.
 
@@ -65,7 +67,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
 ### View invoices associated with an account
 
-1. In the Dynamics 365 Sales left side panel, select **Accounts**.
+1. In the sitemap of your sales app, select **Accounts**.
 
 1. Select an account in the list.
 
@@ -82,7 +84,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
 ### Create a contact
 
-1. In the Dynamics 365 Sales left side panel, select **Contacts**.
+1. In the sitemap of your sales app, select **Contacts**.
 
 1. In the command bar, select **New**.
 
@@ -98,7 +100,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
 ### Add contacts to an account
 
-1. In the Dynamics 365 Sales left side panel, select **Accounts**.
+1. In the sitemap of your sales app, select **Accounts**.
 
 1. Select an account.
 
@@ -115,7 +117,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
 ### View opportunities associated with a contact
 
-1. In the Dynamics 365 Sales left side panel, select **Contacts**.
+1. In the sitemap of your sales app, select **Contacts**.
 
 1. Select a contact in the list.
 
@@ -123,9 +125,6 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
     Or, select the **Related** tab. Scroll down to the **Related - Sales** group, and then select **Opportunities**.
 
-### View invoices associated with a contact
-
-<!-- EDITOR'S NOTE: I couldn't find a way to see invoices from the contact form, not even on the **Related** tab. -->
 
 ## Import accounts or contacts from Excel, CSV, and XML Files
 
