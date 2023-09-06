@@ -33,6 +33,9 @@ The opt-in terms don't apply to organizations in the United States and therefore
 
 When you use any copilot feature in an organization that's outside the United States or Switzerland geography, your data, including personal data, that's used in prompts or returned in responses might be transmitted outside the geographic locations that you've selected for your primary data residency.
 
+> [!NOTE]
+> The regional availability of Azure Open AI Services and Copilot may differ. 
+
 :::image type="content" source="media/copilot-compliance-boundaries.png" alt-text="Visual view of data movement and compliance boundaries.":::
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
