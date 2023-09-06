@@ -44,7 +44,7 @@ Create leads in Dynamics 365 to track potential new customers. A lead can be an 
 
     - If you select an account or a contact, the company name and contact address details are filled in for you if they were empty. If that information was already entered, your selection doesn't change the existing values.
     - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has turned on address suggestions. Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
-    - When you create a lead, you can select any values for **Existing Contact** and **Existing Account** before you save the lead. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
+    - When you create a lead, you can select any values for **Existing Contact** and **Existing Account** until you save the lead. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
 
 1. Select or enter the remaining details in the **Qualify** step.
 
