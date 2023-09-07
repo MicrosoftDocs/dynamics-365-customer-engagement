@@ -62,7 +62,7 @@ Configure the following cloud flow to send frontline workers a push notification
 > [!div class="mx-imgBorder"]
 > ![Power Automate, showing the "Connection References" section on the flow record.](./media/mobile-2020-push-connection4.png)
 
-<!-- Jon: Image outdated, needs CDS connection fixed in my env to update. Also, is the note below required? Seems like an odd tipp. -->
+<!-- Jon: Is the note below required? Seems like an odd tipp. -->
 
 > [!NOTE]
 > If the **Connection References** are not listed, repeat the previous steps in this article in a new private web browser window.
@@ -75,87 +75,51 @@ Within 60 seconds, you should receive a push notification from the Field Service
 
 ## Create a custom push notification
 
-### 1. Go to Power Automate and create a new flow
+You can create push notification with custom triggers to match your business scenarios. The following steps outline an example flow that send a push notification to users of the mobile application when they get a new booking assigned. The notification includes the work order associated to the booking.
 
-Go to Power Automate and select **Create**. Start from blank or a template to create a flow based on your needs.
+1. Sign in to [Power Automate](https://make.powerautomate.com/) and and select **Create**. Power Automate supports hundreds of pre-built connectors that can be used to trigger and provide data to the push notifications. You can use any of these triggers to send targeted push notifications to the desired set of users.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing a list of flows.](./media/mobile-push-notifications-create.png)
+1. Select **Automated cloud flow**, give your flow a Name and choose the Microsoft Dataverse  connector. For this example, we use the Dataverse connector that triggers **When a row is created, updated, or deleted**.
 
-### 2. Use any of the available connector triggers
+   > [!div class="mx-imgBorder"]
+   > ![Power Automate, showing a trigger.](./media/mobile-2020-push-notification-step1.png)
 
-Power Automate supports hundreds of pre-built connectors that can be used to trigger and provide data to the push notifications. You can use any of these triggers to send targeted push notifications to the desired set of users.
+1. Choose the trigger options. In this example, we choose *Added*, *Bookable Resource Booking*, and *Organization*.
 
-For the next example, we use the Common Data Service (current environment) connector with the *When a record is created, updated, or deleted* trigger so that we can notify the relevant user when a new record has been created. 
+1. Add another step and choose the **Get row by ID** option to get the associated resource value. Set the table name to *Bookable Resource* and the Row ID to *Resource (Value)*.
 
-> [!div class="mx-imgBorder"]
-> ![Power Automate, showing a trigger.](./media/mobile-2020-push-notification-step1.png)
+   > [!div class="mx-imgBorder"]
+   > ![Power Apps showing a Power Automate flow for Field Service push notifications.](./media/mobile-2020-push-notification-step2.png)
 
-### 3. Get bookable resources
+1. Add a condition. For our example, we want to send notifications to users, rather than resources that represent equipment, pools, and contractors. Set the condition to *Resource Type* is equal to *User (Type)*.
 
-From the bookable resource booking, get the associated resource value. This value is the resource the booking was scheduled to.
+1. When the condition matches, we need the associated user values. Technicians sign into the mobile app with their Dynamics 365 user credentials. This step ensures that push notifications go to the appropriate users. In the **If yes** box, add a **Get row by ID** option and choose the *User (Value)* row from the *Users* table.
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing a Power Automate flow for Field Service push notifications.](./media/mobile-2020-push-notification-step2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Power Apps showing a Power Automate flow, showing the step in the flow that gets associated user values.](./media/mobile-2020-push-notification-step3.png)
 
+1. To include work order information in the push notification message, configure the flow to get work orders. Add another **Get row by ID** option and choose the *Work Order (Value)* row from the *Work Orders* table.
 
-### 4. Create condition (optional)
+1. With all information available and the flow logic defined, it's time to add the **Send push notification V2** action.
 
-Isolate resources that have **Resource Type** set to *User*. Isolating these resources makes it so push notifications are only sent to resources who are users, rather that resources that represent equipment, pools, and contractors. 
+1. Enter the necessary information to the action:
 
-> [!div class="mx-imgBorder"]
-> ![Push notifications flow in Power Apps, showing the condition that isolates user-type resources.](./media/mobile-2020-push-notification-condition.png)
+   - Mobile app: Field Service
+   - Your app:  Field Service Mobile
 
+   To redirect the technician to the new booking and work order form:
 
-### 5. Get users 
+    - Open app: Yes
+    - Entity: Bookable Resource Booking
+    - Form or view:  Form – Booking and Work Order <!-- Jon: This form doesn't exist. Instead: Form - Booking and Work Order. -->
+    - Record ID: Bookable Resource Booking
 
-From the resources, get the associated user values. Technicians sign into the mobile app with their Dynamics 365 user credentials, so this step is necessary to send push notifications to the appropriate users.
+   To provide a custom message:
 
-> [!div class="mx-imgBorder"]
-> ![Power Apps showing a Power Automate flow, showing the step in the flow that gets associated user values.](./media/mobile-2020-push-notification-step3.png)
+    - Recipients Item: Primary email  <!-- this was generic before, set to email as in screenshot -->
+    - Message: The notification message.
 
-
-### 6. Get work orders (optional)
-
-In order to include work order information in the push notification message, configure the flow to get work orders. 
-
-> [!div class="mx-imgBorder"]
-> ![Push notifications flow in Power Apps, showing the condition that fetches work order information.](./media/mobile-2020-push-notification-step4.png)
-
-
-### 7. Add the push notification action
-
-The **Power Apps Notifications v2** connector includes the *Send a push notification V2* action. Add this action as a step in your flow and enter the necessary information to configure the push notification, using any of the dynamic data provided by earlier steps.
-
-In the following screenshot, we create a push notification to the Field Service technician (bookable resource) when a new booking has been assigned. The push notification, when selected, will open the booking resource booking record on the booking and work order form. 
-
-> [!div class="mx-imgBorder"]
-> ![Power Automate, showing the push notification configurations.](./media/mobile-2020-push-notification-notificaton.png)
-
-To send a message to the Field Service (Dynamics 365) mobile app, make sure the following fields are configured:
-
-- Mobile app: Field Service
-- Your app:  Field Service Mobile
-
-If you want to redirect the technician to the new booking and work order form, configure these fields:
-
-- Open app: Yes
-- Entity: Bookable Resource Booking
-- Form or view:  Form – Booking and Work Order
-- Record ID: Bookable Resource Booking
-
-Use these fields to provide a custom message:
-
-- Recipient Items: The desired set of recipients for the notification
-- Message: The notification message.
-
-### 8. View in the Field Service (Dynamics 365) mobile app
-
-Download the Field Service (Dynamics 365) mobile app from the app store.
-
-When the app launches, accept the prompt to receive notifications. Otherwise, enable notifications in your devices settings. 
-
-The push notifications will be shown to the technician using the mobile phone. Field technicians do not need to be in the app or using their device to receive push notifications.
+1. The push notifications on the technician's mobile phone. They don't need to have the app open or use their device to receive push notifications.
 
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
