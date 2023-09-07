@@ -197,7 +197,7 @@ To learn more about entity relationships, go to [Entity relationships](/powerapp
 <tr><td>
 
 > [!div class="nextstepaction"] 
-> [Previous step: Apply additional filters](add-additional-filters.md)
+> [Previous step: Choose layout and columns](choose-layout-and-columns-forecast.md)
 </td><td>
 
 > [!div class="nextstepaction"] 

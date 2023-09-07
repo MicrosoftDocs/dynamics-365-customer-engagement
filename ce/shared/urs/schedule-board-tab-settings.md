@@ -326,6 +326,9 @@ This controls the fields displayed in the filter pane on the left-hand side of t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Schedule Assistant Filter Layout.](../../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
 
+> [!Note]
+> The Schedule Assistant Filter pane supports layout customizations only for single resource requirements. Any custom fields will not be visible when using Schedule Assistant Filter for resource groups.
+
 ### Schedule Assistant Resource Cell Template
 
 This controls the images, values, and fields displayed in the box that holds the resource's name and utilization in the schedule assistant.

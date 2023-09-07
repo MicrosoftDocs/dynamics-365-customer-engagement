@@ -2,7 +2,7 @@
 title: "Operating Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
 description: Learn how to operate Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 08/14/2023
+ms.date: 08/31/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -55,6 +55,10 @@ To work around this issue, do one of the following.
 - Configure the following service accounts to use the same password (not recommended):
      - IIS application pool identity account(w3wp)
      - Asynchronous Processing Service account
+
+> [!NOTE]
+> After implementing this work around you may continue to receive events in Event Viewer related to this issue. You can identify these events when the call stack includes the keyword **Isandboxhost.ping**. This is a known issue and when this occurs, the events can be ignored.
+
 
 ::: moniker-end
 
