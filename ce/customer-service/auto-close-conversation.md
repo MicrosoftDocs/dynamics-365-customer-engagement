@@ -1,7 +1,7 @@
 ---
 title: Configure automatic closure of conversations using web API
 description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
-ms.date: 08/31/2023
+ms.date: 09/08/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -144,8 +144,7 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 ### See also
 
-[Automatic closure of a conversation](auto-close-conversation-powerapps.md#automatically-close-conversations)
-[Configure automatic closure of conversations using Power Apps](auto-close-conversation-powerapps.md)
+[Automatic closure of conversations](auto-close-conversation-powerapps.md)
 
 
 
