@@ -1,7 +1,7 @@
 ---
 title: Automatic closure of conversations
-description: Use this article to understand how to configure the auto-close duration of conversations using Power Apps.
-ms.date: 08/31/2023
+description: Use this article to understand how to configure the auto-close duration of conversations.
+ms.date: 09/07/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
@@ -53,7 +53,7 @@ For example, when you set **Auto-close after inactivity** to 5 minutes, the conv
 
 To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
 
-### Configure automatic closure of conversations using Power Apps
+### Close conversations using Power Apps
 
 You can configure the auto-close duration of a conversation in Power Apps by performing the following steps:
 
@@ -63,9 +63,9 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 
 3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
 
-### Set default time using APIs
+### Close conversations using API
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](../customer-service/auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations using web API](../customer-service/auto-close-conversation.md).
 
 ### See also
  
