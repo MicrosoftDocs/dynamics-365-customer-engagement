@@ -1,0 +1,1956 @@
+{
+  "redirections": [
+    {
+      "source_path": "acc-selector-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/acc-selector-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "acccontrol-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/acccontrol-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "action-calls.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/action-calls",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "add-action-calls-event.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/add-action-calls-event",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "add-multilanguage-support-agent-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/add-multilanguage-support-agent-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "add-uii-action-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/add-uii-action-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "administration-guide-unified-service-desk-3.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/administration-guide-unified-service-desk-3",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "agent-scripting-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/agent-scripting-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "anchor-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/anchor-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "attribute-match-path.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/attribute-match-path",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "automate-hosted-applications-using-hat-automation-activities.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/automate-hosted-applications-using-hat-automation-activities",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "build-custom-cti-adapter-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/build-custom-cti-adapter-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "button-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/button-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "cca-hosted-application-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/cca-hosted-application-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "composite-dda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/composite-dda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "condition-algorithm.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/condition-algorithm",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-action-hosted-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-action-hosted-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-agent-application-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-agent-application-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-enhanced-diagnostic-logging-custom-hosted-controls.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-enhanced-diagnostic-logging-custom-hosted-controls",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-hosted-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-hosted-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-jaws-screen-reader-support.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-jaws-screen-reader-support",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-manage-agent-scripts.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-manage-agent-scripts",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-notifications-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-notifications-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-session-information.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-session-information",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-toolbars-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-toolbars-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "configure-unified-service-desk-use-dynamics-365-knowledge.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/configure-unified-service-desk-use-dynamics-365-knowledge",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "connection-manager-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/connection-manager-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "consideration-creating-cti-adapter-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/consideration-creating-cti-adapter-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "control-operations-get-set-execute.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/control-operations-get-set-execute",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "core-concepts-for-configuring-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/core-concepts-for-configuring-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-action-call-uii-action.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-action-call-uii-action",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-agent-app-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-agent-app-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-cti-connector.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-cti-connector",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-cti-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-cti-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-cti-desktop-manager.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-cti-desktop-manager",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-custom-listeners-auditing-diagnostics-traces.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-custom-listeners-auditing-diagnostics-traces",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-custom-panel-layout.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-custom-panel-layout",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-custom-panel-type.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-custom-panel-type",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-edit-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-edit-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-hat-automation.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-hat-automation",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-manage-uii-hosted-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-manage-uii-hosted-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "create-user-defined-event.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/create-user-defined-event",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "crm-dialog-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/crm-dialog-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "crm-page-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/crm-page-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "cti-desktop-manager-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/cti-desktop-manager-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "customize-appearance-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/customize-appearance-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "customize-login-and-splash-screens-in-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/customize-login-and-splash-screens-in-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "customize-themes-in-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/customize-themes-in-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "debug-custom-code-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/debug-custom-code-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "debug-issues-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/debug-issues-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "debugger-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/debugger-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "deploy-hosted-application-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/deploy-hosted-application-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "display-hosted-controls-custom-panel-layout.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/display-hosted-controls-custom-panel-layout",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "download-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/download-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "element-match-path.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/element-match-path",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "execute-scripts-using-scriptlets-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/execute-scripts-using-scriptlets-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "extend-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/extend-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "find-control-operation.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/find-control-operation",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "find-ie-frame.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/find-ie-frame",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "find-window-search-path-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/find-window-search-path-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "find-window-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/find-window-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "get-started-configuring-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/get-started-configuring-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "global-manager-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/global-manager-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "guide-customer-interactions-agent-scripts.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/guide-customer-interactions-agent-scripts",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "hosted-application-toolkit-hat-architecture.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/hosted-application-toolkit-hat-architecture",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "hosted-control-types-action-event-reference.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/hosted-control-types-action-event-reference",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "hosted-control-types-actions-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/hosted-control-types-actions-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "html-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/html-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "hyperlink.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/hyperlink",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "ie-process.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/ie-process",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "import-hosted-application-from-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/import-hosted-application-from-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "input-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/input-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "integrate-citrix-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/integrate-citrix-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "integrate-cti-systems-cti-adapters.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/integrate-cti-systems-cti-adapters",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "integrate-external-applications-web-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/integrate-external-applications-web-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "interactive-service-hub-page-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/interactive-service-hub-page-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "internal-wpf.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/internal-wpf",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "jacc-control-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/jacc-control-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "jacc-selector-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/jacc-selector-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "jacc-tree-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/jacc-tree-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "java-dda-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/java-dda-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "javadda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/javadda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "keyboard-shortcuts-panels.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/keyboard-shortcuts-panels",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "km-control-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/km-control-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "learn-to-use-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/learn-to-use-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "listener-hosted-control-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/listener-hosted-control-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "manage-hosted-controls-actions-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/manage-hosted-controls-actions-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "move-hosted-controls-between-panels-runtime.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/move-hosted-controls-between-panels-runtime",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "next-tag-javadda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/next-tag-javadda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "next-tag-windda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/next-tag-windda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "nextrole-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/nextrole-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "panel-layout-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/panel-layout-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "panels-panel-types-panel-layouts.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/panels-panel-types-panel-layouts",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "popup-notification-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/popup-notification-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "programming-reference.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/programming-reference",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "register-and-unregister-action-for-event.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/register-and-unregister-action-for-event",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "release-history.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/release-history",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "replacement-parameters.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/replacement-parameters",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "reuse-entity-search-definition-custom-code.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/reuse-entity-search-definition-custom-code",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "sample-bindings.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/sample-bindings",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "search-data-entity-searches.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/search-data-entity-searches",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "search-path-elements.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/search-path-elements",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "search-path-node-tag.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/search-path-node-tag",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "select-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/select-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "select-hosting-method-controls.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/select-hosting-method-controls",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "session-lines-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/session-lines-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "session-management-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/session-management-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "session-tabs-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/session-tabs-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "session-timer-custom-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/session-timer-custom-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "set-up-use-unified-service-desk-customer-service.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/set-up-use-unified-service-desk-customer-service",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "standard-web-application-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/standard-web-application-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "text-area-element.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/text-area-element",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "toolbar-container-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/toolbar-container-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "toolbars-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/toolbars-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "types-of-hat-automation-activities.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/types-of-hat-automation-activities",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "ui-automation-inspector.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/ui-automation-inspector",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "ui-shell-framework.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/ui-shell-framework",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uia-extensibility.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uia-extensibility",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uia-pattern-list.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uia-pattern-list",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uia-property-list.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uia-property-list",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uiadda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uiadda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-actions.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-actions",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-adapters.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-adapters",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-application-integration-framework.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-application-integration-framework",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-computer-telephony-integration-cti-framework.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-computer-telephony-integration-cti-framework",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-data-driven-adapters.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-data-driven-adapters",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-hosted-application-toolkit-hat.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-hosted-application-toolkit-hat",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "uii-hosted-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/uii-hosted-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "understand-unified-service-desk-concepts.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/understand-unified-service-desk-concepts",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-interface-page-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-interface-page-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-service-desk-configuration-walkthroughs.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-service-desk-configuration-walkthroughs",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-service-desk-hosted-controls.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-service-desk-hosted-controls",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-service-desk-uii-framework.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-service-desk-uii-framework",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-service-desk-unified-interface-configuration-walkthroughs.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-service-desk-unified-interface-configuration-walkthroughs",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "usd-hosted-control-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/usd-hosted-control-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-custom-hosted-control-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-custom-hosted-control-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-custom-panel-types-panel-layouts-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-custom-panel-types-panel-layouts-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-data-driven-adapters-ddas.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-data-driven-adapters-ddas",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-debugger-control-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-debugger-control-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-dynamics-365-knowledge-effective-customer-engagement.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-dynamics-365-knowledge-effective-customer-engagement",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-generic-listener-adapter-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-generic-listener-adapter-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-hat-automation-activities.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-hat-automation-activities",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-hat-software-factory-create-hosted-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-hat-software-factory-create-hosted-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-replacement-parameters-configure-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-replacement-parameters-configure-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-safedispatcher-custom-hosted-controls-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-safedispatcher-custom-hosted-controls-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-uii-adapters-interact-external-web-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-uii-adapters-interact-external-web-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-uii-automation-adapter-interact-external-web-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-uii-automation-adapter-interact-external-web-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-uii-hosted-controls-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-uii-hosted-controls-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-uii-inspector-create-bindings-hosted-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-uii-inspector-create-bindings-hosted-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "use-window-navigation-rules-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/use-window-navigation-rules-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "user-notes-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/user-notes-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "view-embedded-help-for-actions-and-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/view-embedded-help-for-actions-and-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "view-predefined-actions-events-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/view-predefined-actions-events-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-1-build-a-simple-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-1-build-a-simple-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-2-display-an-external-webpage-in-your-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-2-display-an-external-webpage-in-your-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-configure-agent-scripting-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-configure-agent-scripting-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-configure-debugger-hosted-control-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-configure-debugger-hosted-control-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-create-custom-hosted-control-for-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-create-custom-hosted-control-for-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-create-uii-application-adapter.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-create-uii-application-adapter",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-create-uii-web-application-adapter.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-create-uii-web-application-adapter",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-create-uii-windows-forms-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-create-uii-windows-forms-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-create-uii-wpf-hosted-control.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-create-uii-wpf-hosted-control",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-display-dynamics-365-record-session-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-display-dynamics-365-record-session-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough1-unified-interface-build-a-simple-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough1-unified-interface-build-a-simple-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "walkthrough7-unified-interface-configure-agent-scripting-agent-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/walkthrough7-unified-interface-configure-agent-scripting-agent-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "web-dda-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/web-dda-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "web-dda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/web-dda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "web-hosted-application.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/web-hosted-application",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "what-s-new-in-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/what-s-new-in-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "win-dda-events.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/win-dda-events",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "windda.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/windda",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "work-with-hat-software-factory.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/work-with-hat-software-factory",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/accessibility-unified-service-desk-microsoft-dynamics-365.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/accessibility-unified-service-desk-microsoft-dynamics-365",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/administer-manage-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/administer-manage-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/analyze-best-practices-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/analyze-best-practices-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/call-center-challenges-how-unified-service-desk-can-help.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/call-center-challenges-how-unified-service-desk-can-help",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/compliance-categories-parameters-bpa.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/compliance-categories-parameters-bpa",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/comply-gdpr.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/comply-gdpr",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/comply-unified-service-desk-data-gdpr.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/comply-unified-service-desk-data-gdpr",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/configure-auditing-diagnostics-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/configure-auditing-diagnostics-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/configure-client-diagnostic-logging-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/configure-client-diagnostic-logging-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/connect-dynamics-365-instance-using-unified-service-desk-client.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/connect-dynamics-365-instance-using-unified-service-desk-client",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/deploy-sample-unified-service-desk-applications-using-package-deployer",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/distribute-custom-hosted-controls-using-customization-files.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/distribute-custom-hosted-controls-using-customization-files",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/download-install-best-practices-analyzer.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/download-install-best-practices-analyzer",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/download-migration-assistant.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/download-migration-assistant",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/download-performance-analyzer.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/download-performance-analyzer",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/export-unified-service-desk-configuration-data.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/export-unified-service-desk-configuration-data",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/generate-performance-report.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/generate-performance-report",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/help-improve-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/help-improve-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/how-unified-service-desk-handles-application-system-errors.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/how-unified-service-desk-handles-application-system-errors",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/import-unified-service-desk-configuration-data.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/import-unified-service-desk-configuration-data",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/install-upgrade-deploy-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/install-upgrade-deploy-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/install-upgrade-unified-service-desk-client.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/install-upgrade-unified-service-desk-client",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/internet-explorer-settings-bpa.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/internet-explorer-settings-bpa",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/manage-access-using-unified-service-desk-configuration.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/manage-access-using-unified-service-desk-configuration",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/manage-access-using-unified-service-desk-security-roles.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/manage-access-using-unified-service-desk-security-roles",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/manage-options-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/manage-options-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/migrate-to-csw.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/migrate-to-csw",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/migrate-unified-service-desk-configuration-dynamics-365-server.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/migrate-unified-service-desk-configuration-dynamics-365-server",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/migration-steps-web-client-unified-interface-configuration.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/migration-steps-web-client-unified-interface-configuration",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/operations-categories.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/operations-categories",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/overview-migration-assistant.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/overview-migration-assistant",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/overview-performance-analyzer.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/overview-performance-analyzer",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/overview-performance-report-user-interface.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/overview-performance-report-user-interface",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/overview-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/overview-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/performance-data-collection-using-keyboard-shortcut.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/performance-data-collection-using-keyboard-shortcut",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/performance-enhancement-CRM-entity-page-loads.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/performance-enhancement-CRM-entity-page-loads",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/prevent-running-scripts.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/prevent-running-scripts",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/provide-feedback.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/provide-feedback",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/read-best-practices-analyzer-report.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/read-best-practices-analyzer-report",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/recover-internet-explorer-process-instance.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/recover-internet-explorer-process-instance",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/sample-unified-service-desk-applications.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/sample-unified-service-desk-applications",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/security-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/security-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/Support-unified-interfaces-apps-usd.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/Support-unified-interfaces-apps-usd",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/system-configurations-bpa.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/system-configurations-bpa",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/terminologies-performance-report.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/terminologies-performance-report",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/test-migration.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/test-migration",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/troubleshoot-unified-service-desk.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/troubleshoot-unified-service-desk",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-base-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-base-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-configurations-bpa.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-configurations-bpa",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-dynamics-365-unified-interface-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-dynamics-365-unified-interface-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-dynamics-365-web-client-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-dynamics-365-web-client-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-interactive-service-hub-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-interactive-service-hub-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-knowledge-management-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-knowledge-management-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-new-environment-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-new-environment-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-system-requirements.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-system-requirements",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/unified-service-desk-upgrade-package.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/unified-service-desk-upgrade-package",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/update-unified-service-desk-solution.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/update-unified-service-desk-solution",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/upgrade-unified-service-desk-solution.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/upgrade-unified-service-desk-solution",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/view-read-compare-performance-report.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/view-read-compare-performance-report",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/walkthrough-configure-best-practices-analyzer.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/walkthrough-configure-best-practices-analyzer",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    },
+    {
+      "source_path": "admin/whats-new-unified-service-desk-administrators.md",
+      "redirect_url": "/previous-versions/dynamicsusd-3/admin/whats-new-unified-service-desk-administrators",
+      "redirect_document_id": "false",
+      "monikers": [
+        "dynamics-usd-3"
+      ]
+    }
+  ]
+}

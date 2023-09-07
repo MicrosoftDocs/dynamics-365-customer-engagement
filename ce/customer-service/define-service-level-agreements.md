@@ -1,17 +1,18 @@
 ---
 title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 11/18/2022
+ms.date: 08/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Configure service-level agreements
@@ -116,7 +117,10 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 3. Configure actions for the SLA item.
 4. Activate the SLA.
 
-### Create an SLA 
+> [!NOTE]
+> SLAs created in either web client or Unified Interface can be viewed in both web client and Unified Interface, but can be edited only where they were created.
+
+### Create an SLA
 
 You can create an SLA from the Customer Service admin center or Customer Service Hub app.
 
@@ -175,7 +179,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
    - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for the entity when the SLA can be applied. We recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
+4. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
+
+    The SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated frequently because any change to the field value might lead to cancelation of the SLA item.
 
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
@@ -187,7 +193,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level.](media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
-7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed.
+7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
 
   > [!NOTE]
   > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
@@ -253,6 +259,6 @@ To understand how you can apply SLAs, see [Apply service-level agreements](apply
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
-
+[Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

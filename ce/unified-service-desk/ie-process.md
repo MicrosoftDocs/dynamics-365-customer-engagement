@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ms.custom: 
   - dyn365-USD
-monikerRange: '>= dynamics-usd-3'
+
 ---
 
 # Use IE Process to host web applications (discontinued)

@@ -5,8 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.date: 04/04/2022
 ms.topic: article
-ms.custom: intro-internal
-
+ms.collection: get-started
 ---
 
 

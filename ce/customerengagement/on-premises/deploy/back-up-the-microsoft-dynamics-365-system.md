@@ -1,29 +1,20 @@
 ---
 title: "Back up the Dynamics 365 Customer Engagement (on-premises) system | Microsoft Docs"
-description: Learn hos to back up your Dynamics 365 Customer Engagement (on-premises) databases
+description: Learn how to back up your Dynamics 365 Customer Engagement (on-premises) databases
 ms.custom: ""
-ms.date: "10/01/2018"
-
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.date: "04/27/2023"
+ms.reviewer: "matp"
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (on-premises)"
-ms.assetid: 30f8e3fe-972f-4bf8-9f53-e9218ca432be
-caps.latest.revision: 27
 ms.author: matp
 author: Mattp123
 ---
 # Back up the Dynamics 365 Customer Engagement (on-premises) system
 
-
-
-To recover from any scenario, you must back up all needed information and store a copy off site. A backup plan should be created and rehearsed for all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] components and services to make sure that, if a disk or other failure occurs, the maximum amount of data is recoverable.  
+To recover from any scenario, you must back up all needed information and store a copy off site. A backup plan should be created and rehearsed for all Dynamics 365 Customer Engagement (on-premises) components and services to make sure that if a disk or other failure occurs, the maximum amount of data is recoverable.  
   
 <a name="BKMK_Backup"></a>   
 ## Backup requirements summary  
- Backup requirements vary according to the servers involved. The following table is a summary of what to back up for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+ Backup requirements vary according to the servers involved. The following table is a summary of what to back up for Dynamics 365 Customer Engagement (on-premises).  
   
 |Server|What to back up|Comments|  
 |------------|---------------------|--------------|  

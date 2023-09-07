@@ -4,7 +4,7 @@ description: Perform the steps mentioned in the topic to create skills and assig
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 03/08/2023
+ms.date: 06/07/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -38,17 +38,7 @@ As an administrator, to create skills, you need at least one skill type in the s
     > [!div class=mx-imgBorder] 
     > ![Create skill type.](media/create-skill-type.png "Create skill type")
 
-## Manage skill settings in skills hub (preview)
-
-> [!IMPORTANT]
->
-> The skills hub feature is in preview. [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+## Manage skill settings in skills hub
 
 Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
 
@@ -56,7 +46,7 @@ Skills hub in Customer Service admin center helps you seamlessly create and assi
 
 1. In the site map, select **User management** under **Customer Support**.
 
-1. Select **Manage** for **Skills hub (Preview)**. The Skills hub page displays the skills, skill types, proficiency scales, and intelligent skill find models.
+1. Select **Manage** for **Skills hub**. The Skills hub page displays the skills, skill types, proficiency scales, and intelligent skill find models.
 
 ### Manage proficiency scales
 
@@ -97,7 +87,6 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 1. To update the users for a skill, select a skill, and on the **Edit Skill** dialog, perform the steps to add users and attach a proficiency value.
 
-
 ## Create skills using the classic experience
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
@@ -106,7 +95,7 @@ If you'd created proficiency scales in the classic experience, you can update th
    
      - In the site map, select **User management** in **Customer Support**.
      
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
      
@@ -156,7 +145,6 @@ You can create rating models in the Customer Service admin center, Omnichannel a
    | General | Name | Specify a name for the rating model. | Language rating model |
    | General | Min Rating Value | Provide a minimum rating value. | 1 |
    | General | Max Rating Value | Provide a maximum rating value. | 10 |
-   ||||
 
 1. Select **Save**. The **Rating Values** section appears.
 
@@ -168,7 +156,7 @@ You can create rating models in the Customer Service admin center, Omnichannel a
    |-----------------|----------------|--------------------------------------------|
    | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
    | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
-   |||
+
 
 1. Select **Save and Close** to save and add the rating value to the grid.
 
@@ -213,7 +201,7 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the site map.
+1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**.
 
 2. Select a skill from the list for which you want to assign the agents.
 

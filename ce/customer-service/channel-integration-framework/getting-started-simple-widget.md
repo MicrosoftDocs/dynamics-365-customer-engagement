@@ -8,7 +8,7 @@ ms.topic: reference
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-  - "intro-internal"
+ms.collection: get-started
 ---
 # Build a simple communication widget
 

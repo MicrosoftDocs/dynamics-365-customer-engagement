@@ -10,7 +10,7 @@ search.audienceType:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: ">=dynamics-usd-4"
+
 ---
 
 # Administer and manage Unified Service Desk using the Administrator app

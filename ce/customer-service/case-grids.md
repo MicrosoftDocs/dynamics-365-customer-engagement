@@ -1,7 +1,7 @@
 ---
 title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 03/06/2023
+ms.date: 07/03/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -11,26 +11,16 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
-# Manage cases with case grids (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Manage cases with case grids 
 
 The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. More information: [Key features](enable-case-grids.md#key-features)
 
 ## Columns on the Enhanced Active Cases view
 
-To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** view. More information: [Enable case grids (preview)](enable-case-grids.md#enable-case-grids-preview)
+To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** view. More information: [Enable case grids](enable-case-grids.md)
 
 > [!NOTE]
 > Enabling the **Enhanced Active Cases** view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
@@ -85,7 +75,7 @@ You can also add columns to your existing views. For example, if you want to add
 
 ### See also
 
-[Enable case grids (preview)](enable-case-grids.md#enable-case-grids-preview)
+[Enable case grids](enable-case-grids.md)
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
 

@@ -2,7 +2,7 @@
 title: Add text message option to custom forms
 description: "Add the text messages (SMS) option to your custom forms in Dynamics 365 Sales."
 ms.date: 02/23/2023
-ms.topic: how to
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ---
@@ -10,13 +10,6 @@ ms.author: udag
 # Add text message option to custom forms
 
 Add the text messaging to phone number fields in custom forms, allowing sellers to send text messages directly from within the form.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Add text message option
 
@@ -41,8 +34,6 @@ Add the text messaging to phone number fields in custom forms, allowing sellers 
    The customizations are published. The text message option is available for the phone number field you've selected in your custom form. The following image shows an example of including the text message option in the **Business Phone** section of the **Information** form for contacts.
 
     :::image type="content" source="media/sms-add-option-custom-forms.png" alt-text="Screenshot of the text message option added to the business phone in the information form.":::
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

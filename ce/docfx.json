@@ -113,7 +113,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "uhfHeaderID": "MSDocsHeader-Dynamics365",
       "contributors_to_exclude": [
         "buck1ey",
         "bishalgoswami",
@@ -127,9 +127,18 @@
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
       "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150",
-      "recommendations": true
-    },
+      "recommendations": true,
+      "breadcrumb_path": "/dynamics365/breadcrumb/toc.json"
+    },    
     "fileMetadata": {
+      "uhfHeaderId": {
+        "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
+        "sales/**.*": "MSDocsHeader-Dynamics365Sales",
+        "field-service/**.*": "MSDocsHeader-Dynamics365-Field-Service",
+        "common-scheduler/**.*": "MSDocsHeader-Dynamics365-Field-Service",
+        "unified-service-desk/**.*": "MSDocsHeader-Dynamics365-CustomerService"
+
+      },
       "featureFlags": {
         "**/*.md": [
           "show_learn_banner"
@@ -189,14 +198,6 @@
         "customize/**.*": "https://ideas.powerapps.com",
         "developer/**.*": "https://ideas.powerapps.com",
         "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
-      },
-      "breadcrumb_path": {
-        "**.*": "cebc/toc.yml",
-        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
-      },
-      "extendBreadcrumb": {
-        "**.*": true,
-        "unified-service-desk/**.*": true
       },
       "searchScope": {
         "**.*": [
@@ -324,7 +325,7 @@
     "groups": {
       "usd-all": {
         "dest": "usd-all",
-        "moniker_range": ">= dynamics-usd-3"
+        "moniker_range": ">= dynamics-usd-4"
       },
       "op-all": {
         "dest": "op-all",

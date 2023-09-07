@@ -1,16 +1,15 @@
 ---
-title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 11/22/2022
-ms.topic: article
+title: Configure Microsoft Teams channel in Omnichannel for Customer Service
+description: Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service.
+ms.date: 04/26/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.custom: bap-template
 ---
 # Configure Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Microsoft Teams channel
 
 Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service.
 
@@ -30,9 +29,9 @@ Make sure that the following prerequisites are met:
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    
+
     1. In the site map, in **Customer support**, select **Channels**.
-    
+
     1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
@@ -43,9 +42,9 @@ Make sure that the following prerequisites are met:
 
 1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
-   2. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
-   3. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
-   4. Select **Done**. The account is added to the list.
+   1. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
+   1. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
+   1. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
 
@@ -84,15 +83,15 @@ Make sure that the following prerequisites are met:
 
 ## Configure Teams details
 
-1. In the Teams app, go to **App Studio** > **Manifest editor**, and then select the app that you configured for Omnichannel for Customer Service.
+1. In the Teams app, select the ellipses (...) and then select **Developer Portal**. The **Developer Portal** page appears.
 
-2. Select the ellipsis (...), and then select **Edit**.
+1. On the **Apps** tab,  select the app that you configured for Omnichannel for Customer Service.
 
-3. Select **Bots** > **Edit**, and then paste the **Bot ID** value in the box that appears under **Connect to a different Bot id**.
+1. Select **App features** under **Configure**.
 
-4. Make sure that you've configured the options in **App details**.
+1. On the **App features** page, select **Bot**, then select **Enter a bot ID**, and paste the bot ID value.
 
-5. Select **Test and distribute**, and then select **Install** to test your app.
+1. Select the required options, save, preview, and publish.
 
   > [!NOTE]
   > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).

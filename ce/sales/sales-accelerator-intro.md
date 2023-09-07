@@ -2,7 +2,7 @@
 title: "Understand what is sales accelerator"
 description: "Identify the best customer to contact next and prioritize sales activities by using the Sales accelerator in Dynamics 365 Sales Insights."
 ms.date: 04/06/2022
-ms.custom: intro-internal
+ms.collection: get-started
 ms.topic: article
 author: udaykirang
 ms.author: udag

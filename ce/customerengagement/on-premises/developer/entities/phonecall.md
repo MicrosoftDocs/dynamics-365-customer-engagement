@@ -160,7 +160,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Enter the actual start date and time for the phone call. By default, it displays the date and time when the activity was created, but can be edited to capture the actual duration of the phone call.|
+|Description|Enter the actual start date and time for the phone call.|
 |DisplayName|Actual Start|
 |Format|DateOnly|
 |IsValidForForm|True|

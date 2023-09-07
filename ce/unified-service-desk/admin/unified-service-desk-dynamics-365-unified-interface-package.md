@@ -25,11 +25,7 @@ search.audienceType:
   
     - Unified Service Desk Solution
 
-::: moniker range=">=dynamics-usd-4"
-
 - Customizations for the Dataverse Unified Interface package
-
-::: moniker-end 
 
 - Data required for Dataverse and customizations
   

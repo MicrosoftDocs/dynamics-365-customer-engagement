@@ -3,7 +3,7 @@ title: Manage overflow of work items in queues
 description: Learn how to manage overflow of work items in queues enabled for unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/05/2023
+ms.date: 08/10/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -33,6 +33,8 @@ The following factors are considered during the overflow evaluation:
   - The system routes to the queue that's operational and the overflow action is triggered.
   - If none of the queues are operational, the system routes the work item to the queue that will be operational at the earliest and the overflow action is triggered.
 
+- If percentage-based routing is configured, the overflow conditions are evaluated after percentage-based routing identifies the queue.
+
 - If the matched queue is overflowing due to multiple conditions:
 
   The system evaluates the action that's defined for the operating hours condition first, followed by the other conditions in the order they've been defined.
@@ -51,7 +53,7 @@ The following table lists the condition and action pairs available for different
 
 | Channel | Condition | Action|
 |---------|-----------|-------|
-| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Estimated wait time exceeds</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail </li></ul> |
+| Voice | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li><li>Average wait time</li></ul> | <ul><li>Assign to queue anyway</li><li> Direct callback</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail </li></ul> |
 | Live chat and other messaging channels | <ul><li> Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li> Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
 
@@ -60,11 +62,11 @@ The following table lists the condition and action pairs available for different
 For overflow to work correctly, the following prerequisites must be met:
 
 - Agents should be configured for the queues.
-- To transfer calls to an external phone number, phone numbers should be available.
+- To transfer calls, make sure that external phone numbers with outbound calling are available.
 
 ## Configure overflow conditions
 
-Go to the Customer Service admin center app and perform the following steps:
+In the Customer Service admin center app, do the following steps:
 
 1. In the site map, select **Queues** in **Customer support**.
 
@@ -100,7 +102,7 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Transfer to an external number**
         - **Voicemail**
 
-    - **Estimated wait time exceeds**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. At runtime, if the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
+    - **Average wait time**: This condition is available for voice queues only. Enter a value between 30 seconds and 60 minutes to denote the wait time. If the predicted wait time for the queue is more than what you have configured, the system triggers one of the following overflow actions for the work item instead of adding it to the overflowing queue:
 
         - **Direct callback**
         - **End call**
@@ -109,23 +111,23 @@ Go to the Customer Service admin center app and perform the following steps:
         - **Voicemail**
 
         > [!NOTE]
-        > The estimated wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the estimated wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Estimated wait time exceeds" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
+        > The average wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Average wait time" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
         :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
-## Configure overflow override
+## Configure rule-specific overflows
 
-In certain cases, you might not want an overflow action to be run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure override conditions for those queues in the route-to-queue rules at the workstream level.
+Sometimes, you might not want an overflow action to run for specific types of work items or for priority customers. For example, a priority customer raises an issue and the queue to which it's routed could be overflowing as "end call" or "keep waiting in queue". This action might not meet the service-level agreement (SLA) that you have with your customer. To handle such a scenario, you might want to configure rule-specific overflow conditions for those queues in the route-to-queue rules for a workstream.
 
-1. In the Customer Service admin center, go to the required workstream and select the route-to-queue rule in which the queue is configured.
+1. In the Customer Service admin center, go to the workstream and select the route-to-queue rule in which the queue is configured.
 
 1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**.
 
    :::image type="content" source="media/queue-overflow-override.png" alt-text="Configure override conditions for queues in the route-to-queue rule.":::
 
-1. Select **Add queue overflow override**.
+1. Select **Handle rule-specific overflows**.
 
-1. Perform the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
+1. Do the steps to add condition and action pairs and set the action for each condition that you define as listed in the **Configure overflow actions** section in this article.
 
 ## View diagnostics for overflow
 

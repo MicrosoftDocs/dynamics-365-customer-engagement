@@ -33,39 +33,6 @@ The experience of the supportability is that the Unified Interface Page hosted c
 
 To deploy the Unified Interface sample application package, see [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).
 
-::: moniker range="dynamics-usd-3"
-
-## Configure application selection window in Unified Service Desk
-
-> [!IMPORTANT]
-> This section is only applicable to Unified Service Desk 3.3.
-
-An application selection is introduced to ensure that you can select web or Unified Interface app as per your business requirement.
-
-The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
-
-### Add the application selection window key
-
-> [!IMPORTANT]
-> This section is only applicable to Unified Service Desk 3.3.
-
-1. Go to `C:\Program Files\Microsoft Dynamics CRM USD\USD`.
-2. Select **UnifiedServiceDesk.exe.config** file.
-3. Under the **\<appSettings>** section, type the key.<br>
-`<add key="SelectAppModule" value="true"/>`<br>
-  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file.](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
-4. Save the file.
-
-### Sign in to Unified Service Desk client application
-
-> [!IMPORTANT]
-> This section is only applicable to Unified Service Desk 3.3.
-
-After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select a web or Unified Interface app.
-
-![Select App Module.](../media/select-app-module-new.PNG "Select App Module")
-
-::: moniker-end
 
 ### See also
 

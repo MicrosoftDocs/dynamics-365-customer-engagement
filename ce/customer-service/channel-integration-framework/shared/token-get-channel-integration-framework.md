@@ -48,7 +48,7 @@ To get the Dynamics 365 Channel Integration Framework solution from within Dynam
 
 1. Sign in to Dynamics 365.
 
-2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+2.  Select **Channel Integration Framework** from the Dynamics 365 list. 
     
     ![Dynamics 365 drop-down button to find Channel Integration Framework.](../media/cif-app-navigation.png "Dynamics 365 drop-down button to find Channel Integration Framework")
 

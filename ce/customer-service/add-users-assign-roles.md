@@ -3,7 +3,7 @@ title: "Assign roles, enable users for Omnichannel for Customer Service | Micros
 description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 11/16/2022
+ms.date: 05/05/2023
 ---
 
 # Assign roles and enable users for Omnichannel for Customer Service
@@ -104,7 +104,6 @@ Administrator users will need column-level permissions on secure columns when th
 - [Google's Business Messages channel](configure-google-business-messages-channel.md)
 - [Payment profiles for Apple Messages for Business channel](configure-payment-profiles.md)
 - SMS channels through [TeleSign](configure-sms-channel.md) and [Twilio](Configure-sms-channel-twilio.md)
-- [Twitter channel](configure-twitter-channel.md)
 - [WeChat channel](configure-wechat-channel.md)
 - [WhatsApp channel](configure-whatsapp-channel.md)
 

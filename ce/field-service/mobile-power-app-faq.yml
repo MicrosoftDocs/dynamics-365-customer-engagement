@@ -2,7 +2,7 @@
 metadata:
   title: "Frequently asked questions for Field Service (Dynamics 365) mobile app | MicrosoftDocs"
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
-  ms.date: 02/28/2023
+  ms.date: 05/11/2023
   ms.subservice: field-service-mobile
   ms.topic: faq
   author: JonBaker007
@@ -49,42 +49,20 @@ sections:
           Currently, the **Get Directions** map button isn't configurable. It will only trigger the device's default map provider.   
   - name: Offline
     questions:
-      - question: Is there a maximum number of records supported by the offline profile?
-        answer: |
-          For optimal performance we recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
-          
-          In general, there’s no limit to the number of records that can be downloaded in offline mode, outside of the limitations of the physical device. Keep in mind that the sync duration will depend on the number and size of the records being synced, in addition to the quality of the network that the mobile device is connected to. For a good user experience, make sure the offline profile only includes data that's relevant to the user. The configuration of the out-of-the-box offline profile takes into account the common scenarios faced by field service technicians and mobile app users. There's also no limit to the number of entities, custom or otherwise, that you can add to the mobile offline profile. However, we strongly recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
-          
+
       - question: Is there a way to choose the columns ("fields") that are downloaded as part of a mobile offline profile?
         answer: |
           Offline profiles are filtered at the row level, which adjusts the number of records that are downloaded. There's currently no way to filter by column.
       - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
-      - question: Do WebResources work in offline mode?
-        answer: |
-          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities#limitations)
-          For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
-      - question: Where can I find information on mobile app offline security and encryption?
-        answer: |
-          Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
       - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
         answer: |
           Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
-      - question: How can I debug offline JavaScript?
-        answer: |
-          You can use your Android device to [debug JavaScript in mobile apps](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
-
   
   - name: Sign in
     questions:     
-        - question: What do the "Reconfigure" and "Sign out" options do?
-          answer: |
-           - Sign out: The user signs out of the app. After signing out, they can go back to the original sign-in screen where they can either sign in again or use an alternate account to sign in. Signing out and back in will clear Field Service mobile app data that had previously been synced to the device. 
-           - Reconfigure: The user remains signed in to the app, but will be sent back to the app module picker where they can select an alternate app module, if available. "Reconfigure" will clear Field Service mobile app data that had previously been synced to the device.
-          
-           ![Screenshot showing the mobile app sign-in screen, with the "Reconfigure" and "Sign out" options.](./media/mobile_reconfigure-signout.PNG)
-  
+
         - question: Why do I get an "Insufficient Permissions" error when accessing records on the Field Service (Dynamics 365) mobile app?
           answer: |
             ![Screenshot of an error message showing "Insufficient Permissions" in the Field Service (Dynamics 365) mobile app.](./media/fsm-error1.jpg)
@@ -120,24 +98,9 @@ sections:
            ```
            https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
            ```
-        - question: Can I access SharePoint documents in offline mode?
-          answer: |
-           Access to SharePoint documents isn't currently supported in offline mode. 
 
   - name: Entities, forms, views, and fields 
     questions:
-        
-      - question: |
-          How many columns ("fields") can be added to an entity view on the mobile app?
-        answer: |
-          Currently, a maximum of three columns (formerly called "fields") can be displayed in a mobile view. 
-
-      - question: |
-          Can I only view Field Service entities on the Field Service (Dynamics 365) mobile app?
-        answer: |
-
-          Because the Field Service (Dynamics 365) mobile app is a model-driven app on Microsoft Power Platform, any entity can be added; however, users can only see an entity or record that they have the licenses and permissions to access, regardless of whether it's part of the Dynamics 365 Field Service app.
-
           
       - question: |
           Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
@@ -170,26 +133,7 @@ sections:
 
   - name: Other
     questions:       
-     - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
-       answer: |
-          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
-      
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
-          
-          The region settings dialog allows the user to select and connect to the desired end point.
 
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
-
-     - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
-       answer: |
-          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
-          
-     - question: How do I change the time zone for the app?
-       answer: |
-          While signed into the app, select the three vertical lines open the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
-  
      - question: How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
        answer: |
           New capabilities to use the native device date and time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilities are enabled by default for the Field Service Mobile app module, but can be enabled for other App Modules with the following steps:
@@ -208,23 +152,6 @@ sections:
           
           > [!div class="mx-imgBorder"]
           > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
-
-     - question: Can I use drip scheduling with the Field Service mobile app?
-       answer: |
-          Drip scheduling is currently not supported with the Field Service (Dynamics 365) mobile app. 
-         
-     - question: Where can I find the app version and session ID for debugging purposes?
-       answer: |
-        When opening a case with Microsoft Support, you'll often be asked for details about your app, including the app version and session detail. To find the session and app version details:
-        1. After signing into the app, open the main app menu.
-        2. Scroll to the bottom of the menu see **General** settings, and then **Session details**.
-        3. Open session details where you'll see the app version, along with the current session identifier.
-        > [!div class="mx-imgBorder"]
-        > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
-
-     - question: How is data on the device secured and encrypted?
-       answer: |
-        For more information, see [details on security and encryption](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
      - question: How do I enable Wave 2 2022 enhancements for command bar and form tabs for my Field Service Mobile application?
        answer: |

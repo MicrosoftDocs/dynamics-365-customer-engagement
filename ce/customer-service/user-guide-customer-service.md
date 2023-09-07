@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
 ms.date: 04/24/2020
-ms.topic: get-started-article
+ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 ms.custom: 

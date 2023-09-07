@@ -22,7 +22,7 @@ search.audienceType:
 ---
 # Sample: Query connections by a record (early bound)
 
-This sample shows how to query connections for a particular record. It creates connections between a contact and two accounts, and then searches for the contact’s connections. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/QueryByRecord).
+This sample shows how to query connections for a particular record. It creates connections between a contact and two accounts, and then searches for the contact’s connections. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueryByRecord).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

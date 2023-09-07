@@ -1,7 +1,7 @@
 ---
 title: Not-to-exceed values on work orders - Dynamics 365 Field Service | MicrosoftDocs"
 description: Manage cost expectations of your service accounts by setting up not-to-exceed values on work orders.
-ms.date: 02/28/2023
+ms.date: 06/30/2023
 ms.topic: how-to
 ms.custom: bap-template
 author: jshotts
@@ -10,7 +10,7 @@ ms.author: jasonshotts
 
 # Not-to-exceed values on work orders
 
-Setting financial expectations with customers and vendors is critical for managing the company’s bottom line and maintaining successful relationships. The not-to-exceed capability helps service providers stay within the pre-approved price and cost for work orders.
+Setting financial expectations with customers and vendors is critical for managing the company’s bottom line and maintaining successful relationships. The not-to-exceed capability helps service providers stay within the preapproved price and cost for work orders.
 
 Different types of not-to-exceed (NTE) values are available. You can automatically apply them to the work order based on the customer, the incident type, or the location of the work.
 
@@ -70,7 +70,7 @@ Admins can configure NTE records in the Settings area after activating the capab
    - **Delete** to remove an NTE record.
    - Select an existing NTE record to **edit** its properties.
 
-## Application of NTE configuration/Logic of applying NTE
+## Application of NTE configuration and logic of applying NTE
 
 NTEs of type Price and Cost Margin are always selected before NTEs of type Price or Cost. If any Price and Cost Margin NTE is applicable for a work order, Price and Cost NTEs will never be considered for that work order.
 
@@ -78,25 +78,25 @@ NTEs match on the service account first. All other fields have equal priority. I
 
 ## View not-to-exceed on work order forms
 
-NTE values are listed on [work orders](field-service-architecture.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
+NTE values are listed on [work orders](work-order-experience.md) if the configuration of an NTE record matches a property of a work order. For example, if a work order maps to an incident type or a functional location for which an NTE value is configured.
 
-NTE values on work order are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save work order as usual if the warnings are shown.
-
-### View NTE values
-
-1. Open the **Service** area.
-1. Go to **Work Orders**.
-1. Open a work order and go to the **Settings** tab.
-
-:::image type="content" source="media/NTE-work-order.png" alt-text="Screenshot of a work order showing NTE values in the Settings tab.":::
+NTE values on work orders are read-only and they'll show a warning when the actual cost or price approaches the defined NTE value or surpasses them. However, you can still update and save a work order as usual if the warnings are shown.
 
 ## Not-to-exceed on Field Service mobile
 
-Technicians that use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
+Technicians who use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
 
 However, you can still save work orders when ignoring the warning.
 
 Using the [Field Service Mobile application in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
+
+## Applied amount on work orders
+
+The work order not-to-exceed's applied amount represents the actual NTE amount applied on the work order. The not-to-exceed source informs you where the defined amount came from. If the applied amount is manually set, the source is set as *user specified*. Without manual edits, the system selects the applicable NTE record and copies its amount into the applied amount on the work order. In this case, the source is set to *system specified* and the work order NTE references the selected NTE record.
+
+If you reset a manually entered NTE amount on the work order form, the source changes back to *system specified* and the applied amount updates to the amount from the system selected NTE.
+
+Work order NTE should be primarily interacted with by the system during NTE selection and by users on the work order form. Customization on work order NTE could interfere with the automated behavior.
 
 ## Next steps
 

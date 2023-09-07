@@ -1,45 +1,39 @@
 ---
-title: "Connected Field Service - Overview | MicrosoftDocs"
-description: Learn all about Connected Field Service for Dynamics 365 Field Service
-ms.date: 09/30/2019
-
+title: Connected Field Service overview
+description: Transform service with Connected Field Service to diagnose problems, remotely monitor, and dispatch technicians.
+ms.date: 06/23/2023
 ms.subservice: connected-field-service
-
 ms.topic: overview
 ms.author: vhorvath
 author: vhorvathms
 ---
-# Connected Field Service - Overview
 
-Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
+# Enhance Field Service with IoT overview
 
->[!Note]
-> To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
+Harness the power of IoT to revolutionize your organization's service delivery with Field Service. Say goodbye to the expensive and reactive break-fix model and embrace a proactive and predictive approach.
 
-Key benefits of Connected Field Service:
+With the integration of IoT, your organization can address service issues before they turn into major problems. Powered by IoT technology, you can establish connections with devices and collect real-time data on their performance and condition. This invaluable information helps detect potential issues at an early stage so you can take preventive measures to effectively minimize downtime and reduce the risk of costly breakdowns.
 
-- Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
-- Address issues faster by remotely monitoring devices and keeping customers in the loop
-- Device data and service maintenance data help to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
+Check out the [video overview of Connected Field Service](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
 
-There are two ways you can use to connect IoT-enabled devices into the Field Service solution:
+## Key benefits of Connected Field Service
 
-- Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
-- Connected Field Service for non-Azure IoT providers using the extensible IoT provider framework
+**Enhanced predictive maintenance**: Seamlessly connect IoT devices so your organization can implement predictive maintenance strategies. Real-time data collected from these devices enables proactive problem diagnosis and identification of potential issues even before customers become aware of them.  
 
-## Connected Field Service for Azure IoT Hub
+**Improved customer experience**: Remote monitoring of IoT devices enables organizations to enhance their responsiveness to customer needs. With continuous monitoring, you can quickly detect issues and notify customers about service disruptions or necessary actions. Keeping your customers informed throughout the resolution process builds confidence and trust and leads to improved customer satisfaction and loyalty.
 
-Connected Field Service for Azure IoT Hub is an add-on solution that brings Azure IoT platform-as-a-service (PaaS) offering into Dynamics365 for Field Service. With this offering, you can run a deployment app to put all the Azure IoT services and Dynamics puzzles together.
+**Intelligent resource allocation**: With device data and service maintenance information gathered through IoT, organizations can make informed decisions when dispatching technicians. Factors such as device performance data, historical maintenance records, technician expertise, availability, and proximity help to optimize resource allocation. Assigning the right technician with the appropriate skills and proximity to the job ensures efficient service delivery and reduces response and resolution times.
 
-All Azure IoT services run in your own Azure cloud subscription. Additionally, we provide an enterprise-ready template that you can customize for each Azure IoT service.
+**Cost reduction**: IoT-powered Field Service enables organizations to streamline their operations and reduce costs. Proactive problem diagnosis and maintenance prevent major breakdowns and  extensive repairs. Prevented issues lead to cost savings by minimizing downtime, eliminating emergency service calls, and optimizing resource allocation. Additionally, remote monitoring and predictive maintenance reduce the need for frequent physical inspections and unnecessary maintenance visits, resulting in efficient resource utilization and reduced operational expenses.
 
-> [!Note]
-> Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules. 
+**Data-driven insights**: IoT devices generate a vast amount of data that can be utilized to gain valuable insights. By analyzing device performance data, organizations can identify patterns, trends, and potential areas for improvement. This data-driven approach enables organizations to optimize their service delivery processes, identify recurring issues, and make decisions based on data to enhance overall operational efficiency.
 
-## Privacy details for Connected Field Service
+## Next steps
 
-[!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
+Connect your IoT devices with Dynamics 365 Field Service:
 
-- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [IoT integration with Connected Field Service overview](cfs-connect-data-overview.md)
+- [Connected Field Service for custom IoT providers](cfs-custom-iot-provider.md)
+- [Connected Field Service for Azure IoT Hub](installation-setup-iothub.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

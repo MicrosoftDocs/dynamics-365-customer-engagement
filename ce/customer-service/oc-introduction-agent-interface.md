@@ -5,7 +5,7 @@ ms.date: 12/27/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Introduction to the agent interface of Omnichannel for Customer Service

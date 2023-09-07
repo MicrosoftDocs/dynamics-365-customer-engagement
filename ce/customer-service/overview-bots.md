@@ -4,8 +4,7 @@ description: "Get an overview of bots and how you can configure and use them in 
 ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Overview of bots

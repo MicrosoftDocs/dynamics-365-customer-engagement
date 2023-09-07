@@ -160,7 +160,7 @@ The attributes are applied to the sellers.
 
 When you set capacity, you set a combined upper limit of leads and opportunities that a seller can be assigned at any given time. When a seller reaches this limit, even though a lead or an opportunity record is created and ready to be automatically assigned to the seller, the record won't be assigned. You can view unassigned records for leads and opportunities in their respective open record views.
 
-For example, Kenny is a seller, and his capacity limit is set to 10. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling his maximum of 10, so the newly generated lead won't be assigned to him.
+For example, Kenny is a seller whose capacity limit is set to 10. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling a maximum of 10, so the newly generated lead won't be assigned to Kenny.
 
 **To set capacity**
 

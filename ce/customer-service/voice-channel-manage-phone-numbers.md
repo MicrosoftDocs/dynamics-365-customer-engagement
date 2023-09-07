@@ -1,7 +1,7 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service.
-ms.date: 01/23/2023
+ms.date: 07/06/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -51,6 +51,9 @@ You'll see a list of all available phone numbers together with their carrier nam
    > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
 If you don't have any phone numbers set up for your business, see **Acquire new phone numbers** to learn how you can purchase new numbers.
+
+   > [!NOTE]
+   > If your direct routing phone number is in the inactive state, delete the number and add it again.
 
 ## Acquire new phone numbers
 
@@ -104,7 +107,8 @@ You can purchase new phone numbers for your organization after you've checked fo
 1. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
  > [!NOTE]
- > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+ > - To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).  
+ > - You can port your Teams number in regions where Azure Communication Services is available. Use the information in [Create a Special Order for Telephone Numbers](https://github.com/Azure/Communication/blob/master/special-order-numbers.md).
 
 ## Add a phone number to a voice workstream
 

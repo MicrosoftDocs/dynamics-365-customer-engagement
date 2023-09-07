@@ -10,7 +10,6 @@ search.audienceType:
   - developer
 ms.custom: 
   - dyn365-USD
-monikerRange: ">=dynamics-usd-4"
 ---
 
 # Unified Interface KM Control (Hosted Control)

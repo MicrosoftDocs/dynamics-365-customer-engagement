@@ -22,7 +22,7 @@ This topic provides information on how you can enable similar case suggestions i
 
 ## Scenario: Similar case suggestion
 
-This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that he finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
+This scenario enables you to suggest similar cases with open case action button. The customer service agent is presented with a list of similar cases as a recommendation. The agent clicks on the case that they finds most similar and relevant, and then goes to the case note and looks at the resolution in note. The agent suggests the same resolution to the customer over chat.
 
 ### Generate intent to interpret the context of the conversation
 

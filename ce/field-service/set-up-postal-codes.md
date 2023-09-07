@@ -8,7 +8,7 @@ ms.author: chenryan
 ---
 # Create and manage postal codes
 
-Create postal code records to automatically assign accounts to a [service territory](set-up-territories.md). Enter the address on the [account form](work-order-customer-account.md) and the system automatically populates the service territory if the postal code matches.  
+Create postal code records to automatically assign accounts to a [service territory](set-up-territories.md). Enter the address on the [account form](accounts.md) and the system automatically populates the service territory if the postal code matches.  
   
 Postal codes relate to territories. However, they aren't required for the territories feature to work.
 

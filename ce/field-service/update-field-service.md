@@ -14,7 +14,7 @@ Microsoft regularly releases updates to Dynamics 365 Field Service and related s
 
 Multiple updates are released throughout the year.
 
-- **Minor updates** are released each month and include only nondisrupting bug fixes.
+- **Minor updates** are released each month and include only minor bug fixes. Administrators receive a notification when an update is planned.
 
 - **Major updates** are released in April and October and include new features, enhancements, and bug fixes.
 
@@ -22,6 +22,10 @@ Multiple updates are released throughout the year.
 
 > [!TIP]
 > Find information about new features and changes for upcoming releases in the [Dynamics 365 release plans](/dynamics365/release-plans/).
+
+## Early Access update
+
+Dynamics 365 releases major updates two months before the general rollout in an Early Access flight to evaluate upcoming changes. [Learn more about how to opt-in and update your org to Early Access]](/power-platform/admin/opt-in-early-access-updates).
 
 ## Dynamics 365 Field Service
 

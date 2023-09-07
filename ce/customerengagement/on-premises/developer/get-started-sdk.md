@@ -1,7 +1,7 @@
 ---
 title: "Get started (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 3/29/2019
 ms.reviewer: pehecke
 

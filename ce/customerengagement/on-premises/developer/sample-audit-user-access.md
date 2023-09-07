@@ -25,7 +25,7 @@ search.audienceType:
 
 # Sample: Audit user access
 
-This sample code shows how to audit user access. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess).
+This sample code shows how to audit user access. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditUserAccess).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

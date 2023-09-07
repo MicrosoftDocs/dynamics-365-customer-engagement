@@ -1,1 +1,0 @@
-Playbook templates contain the definition of the playbook, which helps to standardize a set of best practices or next best actions. For internal use only.

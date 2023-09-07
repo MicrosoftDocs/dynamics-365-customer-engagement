@@ -140,7 +140,7 @@ This setting decides the default value for the **Search For** field in the sched
 
 - Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for the requirement. 
 
-- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then we recommend **Resources visible on board** because this ensures the scheduler cannot schedule requirements to other resources he or she is not responsible for. 
+- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then we recommend **Resources visible on board** because this ensures the scheduler cannot schedule requirements to other resources they are not responsible for. 
 
   For smaller organizations or organizations with less rigid resource and line of business divisions, the **All resources** setting will allow schedulers to search across all applicable resources across the entire organization. 
 
@@ -325,6 +325,9 @@ This controls the fields displayed in the filter pane on the left-hand side of t
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Schedule Assistant Filter Layout.](../../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
+
+> [!Note]
+> The Schedule Assistant Filter pane supports layout customizations only for single resource requirements. Any custom fields will not be visible when using Schedule Assistant Filter for resource groups.
 
 ### Schedule Assistant Resource Cell Template
 

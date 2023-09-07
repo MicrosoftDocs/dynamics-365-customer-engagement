@@ -3,7 +3,7 @@ title: "Emergency calling in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how emergency calls work in the voice channel of Omnichannel for Customer Service."
 author: gandhamm
 ms.author: mgandham
-ms.date: 10/03/2022
+ms.date: 06/01/2023
 ms.topic: article
 ---
 
@@ -11,7 +11,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This article describes how emergency calling works in Omnichannel for Customer Service when agents dial an emergency number during crisis situations.
+This article describes how emergency calling works in Customer Service when agents dial an emergency number during crisis situations.
 
 > [!NOTE]
 >
@@ -19,6 +19,7 @@ This article describes how emergency calling works in Omnichannel for Customer S
 > - For the emergency call to be handled, one of the following conditions must be fulfilled:
 >   - The number from which it originates must be a Microsoft calling plan number.
 >   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there is no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
+> - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
 
 ## Prerequisites
 

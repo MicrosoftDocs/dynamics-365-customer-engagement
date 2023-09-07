@@ -103,7 +103,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsRevenueSystemCalculated](#BKMK_IsRevenueSystemCalculated)
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [msdyn_forecastcategory](#BKMK_msdyn_forecastcategory)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_OpportunityGrade](#BKMK_msdyn_OpportunityGrade)
 - [msdyn_OpportunityScore](#BKMK_msdyn_OpportunityScore)
 - [msdyn_OpportunityScoreTrend](#BKMK_msdyn_OpportunityScoreTrend)
@@ -825,33 +824,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000004|Omitted||
 |100000005|Won||
 |100000006|Lost||
-
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: Predictive Lead Scoring Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether opportunity is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
-
-**DefaultValue**: 0
-
-
 
 ### <a name="BKMK_msdyn_OpportunityGrade"></a> msdyn_OpportunityGrade
 
