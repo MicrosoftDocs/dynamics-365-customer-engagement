@@ -150,7 +150,7 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
-        - name: Enable address suggestion
+        - name: Enable address suggestions
           href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
@@ -630,8 +630,6 @@
           href: grant-access-wkw.md
     - name: Conversation intelligence
       items:
-        - name: Upcoming changes to pricing model
-          href: conversation-intelligence-billing.md
         - name: Prerequisites to use Conversation Intelligence
           href: prereq-sales-insights-app.md
         - name: Create a call recording repository in Azure
