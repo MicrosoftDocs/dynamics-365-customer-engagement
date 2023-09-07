@@ -696,4 +696,4 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### See also
 
-[Enable Copilot features in Customer Service (preview)](configure-copilot-features.md)
+[Enable Copilot features in Customer Service (preview)](../../../configure-copilot-features.md)
