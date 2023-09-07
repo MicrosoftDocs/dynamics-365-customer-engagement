@@ -29,7 +29,7 @@ We're excited to announce our newest updates!
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
-|Copilot     | Email summary       | Use copilot to summarize lengthy email conversations into a few bullets, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
+|Copilot     | Email summary       | Use copilot to summarize lengthy email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
 
 ## July 2023 release
 
