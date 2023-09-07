@@ -22,7 +22,7 @@ Entity to save interactions.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
+|Message|Web API Operation|SDK Assembly||
 |-|-|-|
 |BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|Microsoft.Crm.Sdk.Messages.BulkRetainRequest|
 |Create|POST [*org URI*]/api/data/v9.0/msdyn_copilotinteractions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br />|Microsoft.Xrm.Sdk.IOrganizationService.Create*|
