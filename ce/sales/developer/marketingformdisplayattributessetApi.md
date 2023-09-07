@@ -12,8 +12,8 @@ As a developer, use this reference documentation for customizing the quick campa
 
 > [!IMPORTANT]
 >
-> - To enable users to view custom attributes on the activity distribution page, provide read permissions to the **Marketing Form Display Attributes** table under the **Custom Entities** tab within their assigned security role..
-> - Out of the box fields in the form can't be removed using this customization.  
+> - To enable users to view custom attributes on the activity distribution page, provide read permissions to the **Marketing Form Display Attributes** table under the **Custom Entities** tab within their assigned security role.
+> - Out-of-the-box fields in the form can't be removed using this customization.  
 
 ## License and role requirements
 | Requirement type | You must have |

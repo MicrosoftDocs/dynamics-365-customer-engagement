@@ -40,9 +40,12 @@ If you need to perform more than one activity for your campaign, such as an emai
 When you create a quick campaign activity, an activity is created for each member in the marketing list that's part of the quick campaign.
  
 > [!NOTE]
+>
 > - The average time for distributing a quick campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
->- When creating the quick campaign activity through the marketing list, the application verifies whether the contacts in the list is eligible to receive bulk email and marketing materials before sending out the campaign. Only the contacts that allow bulk email and marketing materials will receive the campaign. These settings are found under the **Details** tab of a contact in the **CONTACT PREFERENCE** section.
->- When a quick campaign is created through the contacts, accounts, or leads grid, the application verifies whether the records in that grid are eligible to receive marketing materials before sending out the campaign. Only the records in the grid that allow marketing materials will receive the campaign. This setting is found under the **Details** tab of a contact in the **CONTACT PREFERENCE** section.
+> - When creating a quick campaign using the following options, the application verifies the record preferences settings to ensure that the campaign is sent only to the records that allow it. This setting is found under the **Details** tab of a record.  
+>     - Through marketing list, the target record must allow both bulk email and marketing materials.  
+>     - Through accounts, contacts, or leads grid, the target record must allow marketing materials.
+
 
 1. In the site map, select **Marketing Lists**.
   
@@ -78,9 +81,10 @@ When you create a quick campaign activity, an activity is created for each membe
     The campaign activity is added to the **Quick Campaigns** section. 
 1. After the **Status Reason** field is marked as Completed, verify the **No. of Successes** and **No. of Failures** fields to know the number of activities that have succeeded or failed. In the case of email activities, successes and failures don't indicate email delivery status, instead they indicate the status of email activity creation in Dynamics 365.
 1.  To view more details about the activities, open the quick campaign:
-    -  To view more information about the type, owner, and status of the activities created for the campaign, view the **Timeline** section.
+    -  To view more information about the type, owner, and status of the activities created for the campaign, view the **Timeline** section.  
         > [!NOTE]
         > If your campaign has letter or fax activities, they'll not be listed in the timeline by default. To view them, select **Related** > **Activities**.  
+    
     - To view the reasons for failures, select **Related** > **Members** and select the corresponding failure view. For example, if your campaign was targeted to accounts, select **Account Bulk Operations Failures** view.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
