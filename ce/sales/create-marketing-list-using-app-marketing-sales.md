@@ -1,7 +1,7 @@
 ---
 title: Create a marketing list using in-app marketing
 description: A marketing list can include any one type of customer record, such as leads, accounts, or contacts. Add members to the list statically or dynamically.
-ms.date: 11/12/2021
+ms.date: 09/07/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -70,6 +70,7 @@ You can manage members in a static marketing list by using one of the following 
 > [!NOTE]
 > - To add more than 30,000 members to a static marketing list, you must either be a part of the Salesperson security role or higher, or have the **List Operation** permission.
 > :::image type="content" source="media/listoperation.png" alt-text="Listoperation permission in the custom entities tab.":::
+> -  When you add up to 30000 members to the marketing list, the add operation is performed synchronously. However, if the number of members exceeds 30000, the add operation is performed asynchronously in batches of 1000.
 > - You can add up to 120,000 members to a static marketing list through a single Add operation. If you need to add more than 120,000 members to a static marketing list, split those members and perform multiple add operations. One way to do this is by using the [Advanced Find](#add-using-advanced-find) dialog to create queries that return less than 120,000 members. Alternatively, depending on your scenario, you can also consider using a dynamic marketing list instead of static list. More information: [Create a dynamic marketing list](#define-the-member-selection-criteria-for-a-dynamic-marketing-list)
 
 ### Add using Lookup
