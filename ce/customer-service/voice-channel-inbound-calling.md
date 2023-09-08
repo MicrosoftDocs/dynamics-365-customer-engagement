@@ -3,7 +3,7 @@ title: "Set up inbound calling for the voice channel"
 description: "Learn about how to set up workstreams and queues for inbound calling in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/07/2023
+ms.date: 09/11/2023
 ms.topic: article
 
 ---
@@ -76,6 +76,9 @@ To configure the voice channel, you'll need to associate the workstream with a p
 The phone number is associated with the workstream.
 
 :::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
+
+> [NOTE!]  
+> The voice channel supports a maximum call duration of two hours, and the call will be automatically disconnected after this duration. We recommend you to enable callback feature to address this issue.
 
 ## Acquire a phone number
 
