@@ -45,12 +45,12 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 1. Enable [cross geo support](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service) based on your location.
 1. Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select **Environments**.
-1. Select the environment you'd like to enable the copilot features in and then copy the value of the **Organization ID**.
+1. Select the environment in which you'd like to enable the copilot features, and then copy the value of the **Organization ID**.
 1. Email a request to `d365_csaipreview@microsoft.com` with your **Organization ID** to enable the preview. 
 
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to either the **Copilot help pane (preview)** or **Summaries** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the **Copilot help pane (preview)** or **Summaries** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 ## Enable Copilot summaries
 
@@ -73,7 +73,7 @@ Perform the steps in [Display case summary on custom case forms](copilot-powerap
 
 Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation.
 
-For Copilot to automatically trigger a conversation summary for a live conversation, select the following options in the **Summaries** page:
+For Copilot to automatically trigger a conversation summary for a live conversation, in Customer Service admin center, select the following options on the **Summaries** page:
    - **When an agent joins a conversation**: Generates a summary when an agent joins a conversation. A summary is also generated when the primary agent invites a collaborator and a second agent joins the conversation or when the primary agent transfers a conversation.
    - **When a conversation ends**: Generates a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
@@ -81,9 +81,9 @@ For Copilot to automatically trigger a conversation summary for a live conversat
 
 ## Enable Copilot help pane
 
-Perform the following steps to enable the Copilot features:
+Perform the following steps to enable the Copilot features in Customer Service admin center:
 
-1. In Customer Service admin center, use one of the following navigation options: 
+1. Use one of the following navigation options:
       - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
       - **Operations** > **Insights** > **Copilot help pane (preview)**
 1. Select **Manage** in **Copilot help pane (preview)**. The Copilot help pane (preview) page appears. You can select the Copilot features you'd like to enable for agents on this page.
@@ -102,15 +102,15 @@ The following table summarizes the Copilot features supported for a configured k
 
 ### Enable ask a question
 
-Select **Make Copilot available to agents** in the **Copilot help pane (preview)** page. The **Ask a question** tab on the **Copilot help pane (preview)** appears when agents sign in. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+Select **Make Copilot available to agents** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane (preview)** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
 
 ### Enable draft a response
 
-Select **For customer chat** in the **Copilot help pane (preview)** page. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
+Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane on Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
 
 ### Enable write an email
 
-Select **For email** in the **Copilot help pane (preview)** page. The **Write an email** tab appears on **Copilot help pane (preview)**. Copilot helps agents create email responses based on the context of the case.
+Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** on Customer Service workspace. Copilot helps agents create email responses based on the context of the case.
 
 ### Add trusted webpages as sources
 
