@@ -23,7 +23,7 @@ Depending on your role, you can use the text message feature as described in the
 **System administrator or any similar role**:
 
 - Configure the assistant for your organization. More information: [Configure the assistant](configure-assistant.md)
-- Create custom insight cards. More information: [Create custom insight cards](create-insight-cards-flow)
+- Create custom insight cards. More information: [Create custom insight cards](create-insight-cards-flow.md)
 - Edit insight cards. More information: [Edit insight cards](edit-insight-cards.md)
 - Optimize the ranking of insight cards. More information: [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 - Add the assistant widget to custom forms. More information: [Add assistant widget to custom forms](add-assistant-widget-custom-forms.md)
