@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/29/2023
+ms.date: 09/08/2023
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -106,11 +106,11 @@ Select **Make Copilot available to agents** in the **Copilot help pane (preview)
 
 ### Enable draft a response
 
-Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane on Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
+Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
 
 ### Enable write an email
 
-Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** on Customer Service workspace. Copilot helps agents create email responses based on the context of the case.
+Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** in Customer Service. Copilot helps agents create email responses based on the context of the case.
 
 ### Add trusted webpages as sources
 
