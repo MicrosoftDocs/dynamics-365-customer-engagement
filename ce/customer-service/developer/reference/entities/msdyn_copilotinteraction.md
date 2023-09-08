@@ -22,22 +22,22 @@ Entity to save interactions.
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly||
+|Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|Microsoft.Crm.Sdk.Messages.BulkRetainRequest|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_copilotinteractions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br />|Microsoft.Xrm.Sdk.IOrganizationService.Create*|
-|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|BulkRetain|<xref href="Microsoft.Dynamics.CRM.BulkRetain?text=BulkRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.BulkRetainRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_copilotinteractions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref href="Microsoft.Dynamics.CRM.CreateMultiple?text=CreateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
 |Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_copilotinteractions(*msdyn_copilotinteractionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest|
-|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest|
-|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|Microsoft.Crm.Sdk.Messages.RetainRequest|
+|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
+|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
 |Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_copilotinteractions(*msdyn_copilotinteractionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_copilotinteractions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|Microsoft.Crm.Sdk.Messages.RollbackRetainRequest|
+|RollbackRetain|<xref href="Microsoft.Dynamics.CRM.RollbackRetain?text=RollbackRetain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RollbackRetainRequest>|
 |SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_copilotinteractions(*msdyn_copilotinteractionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
 |Update|PATCH [*org URI*]/api/data/v9.0/msdyn_copilotinteractions(*msdyn_copilotinteractionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref href="Microsoft.Dynamics.CRM.UpdateMultiple?text=UpdateMultiple Action" />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
-|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest|
+|ValidateRetentionConfig|<xref href="Microsoft.Dynamics.CRM.ValidateRetentionConfig?text=ValidateRetentionConfig Action" />|<xref:Microsoft.Crm.Sdk.Messages.ValidateRetentionConfigRequest>|
 
 ## Properties
 
