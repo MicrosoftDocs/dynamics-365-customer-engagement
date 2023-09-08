@@ -988,7 +988,7 @@
     items: 
     - name: Administrator experience
       items: 
-      - name: Manage Copilot features in Customer Service (preview)
+      - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md     
       - name: Enable case summaries
         href: configure-copilot-features.md#enable-case-summaries     
@@ -1008,7 +1008,7 @@
         href: copilot-data-movement.md
     - name: Agent experience
       items: 
-      - name: Use Copilot to solve customer issues (preview)
+      - name: Use Copilot to solve customer issues
         href: use-copilot-features.md
       - name: Summarize cases
         href: use-copilot-features.md#summarize-cases
