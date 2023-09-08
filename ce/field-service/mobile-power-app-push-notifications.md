@@ -10,13 +10,13 @@ ms.author: jobaker
 
 # Enable push notifications
 
-In the Field Service (Dynamics 365) mobile app, push notifications send updates to technicians through their mobile phones or tablets. Push notifications use Microsoft Power Automate and can be triggered by many scenarios. For example, to notify about a newly assigned booking or as a reminder to capture and enter important data.
+In the Field Service (Dynamics 365) mobile app, push notifications send updates to technicians through their mobile phones or tablets. Push notifications use Microsoft Power Automate and support many scenarios. For example, to notify about a newly assigned booking or as a reminder to capture and enter important data.
 
 There are two ways to enable push notifications for your organization.
 
 1. Enable the push notification cloud flow included with Dynamics 365 Field Service. The included push notification notifies technicians when they have been assigned a booking.
 
-1. Create a custom push notification based on custom triggers using the **Send Push Notification V2** connector in Power Automate .
+1. Create a custom push notification based on custom triggers using the **Send Push Notification V2** connector in Power Automate.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ There are two ways to enable push notifications for your organization.
 
 Field Service includes a template to enable push notifications for new bookings. You can also [create push notifications based on custom triggers](#create-a-custom-push-notification).
 
-Configure the following cloud flow to send frontline workers a push notification on their mobile device when they are booked for a work order.
+Configure the following cloud flow to send frontline workers a push notification on their mobile device when they're booked for a work order.
 
 1. Sign in to [Power Apps](https://make.powerapps.com) and select the environment with your Field Service installation.
 
@@ -42,7 +42,7 @@ Configure the following cloud flow to send frontline workers a push notification
 1. Edit the **CDS Connection Reference** and make sure it's enabled for your environment.
    <!-- Jon: What connection to choose here? Flows looks like they are enabled by default but the connection field is empty. -->
 
-1. In the **Solutions** area edit the solution with the name `msdyn_FieldService_patch_update`.
+1. In the Solutions area, edit the solution with the name `msdyn_FieldService_patch_update`.
 
    <!-- Jon: Seems here's where the flow breaks because the solution is managed. -->
    <!-- Jon: Does the user have to create a new solution, add connection references to it that we listed above, then import the solution to their environment? -->
@@ -75,9 +75,9 @@ Within 60 seconds, you should receive a push notification from the Field Service
 
 ## Create a custom push notification
 
-You can create push notification with custom triggers to match your business scenarios. The following steps outline an example flow that send a push notification to users of the mobile application when they get a new booking assigned. The notification includes the work order associated to the booking.
+You can create push notification with custom triggers to match your business scenarios. The following steps outline an example flow that sends a push notification to users of the mobile application when they get a new booking assigned. The notification includes the work order associated to the booking.
 
-1. Sign in to [Power Automate](https://make.powerautomate.com/) and and select **Create**. Power Automate supports hundreds of pre-built connectors that can be used to trigger and provide data to the push notifications. You can use any of these triggers to send targeted push notifications to the desired set of users.
+1. Sign in to [Power Automate](https://make.powerautomate.com/) and select **Create**. Power Automate supports hundreds of connectors that can be used to trigger and provide data to the push notifications. You can use any of these triggers to send targeted push notifications to the desired set of users.
 
 1. Select **Automated cloud flow**, give your flow a Name and choose the Microsoft Dataverse  connector. For this example, we use the Dataverse connector that triggers **When a row is created, updated, or deleted**.
 
