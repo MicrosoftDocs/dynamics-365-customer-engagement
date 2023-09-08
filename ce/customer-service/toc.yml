@@ -1024,7 +1024,7 @@
         href: use-copilot-features.md#draft-emails                      
     - name: Supervisor experience
       items: 
-      - name: View analytics for Copilot impact (preview)
+      - name: View analytics for Copilot impact
         href: copilot-analytics-report.md
     - name: Customizer experience
       items: 
