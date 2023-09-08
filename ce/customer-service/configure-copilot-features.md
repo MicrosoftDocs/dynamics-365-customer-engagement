@@ -135,7 +135,7 @@ For agents to be able to use the copilot help pane and copilot summaries in Cust
 1. Go to [**Agent experience profiles**](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) in **Agent experience** > **Workspaces**.
 1. Select the required agent experience profile.
 1. In the **Productivity Pane**, select **Turn On** for **Copilot (preview)**.
-1. In **Copilot AI features**, select the required features such as **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary** depending on the features you want to enable for that profile.  
+1. In **Copilot AI features**, select the required features **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**, you want to enable for that profile.  
 
 ## Assign roles and privileges
 

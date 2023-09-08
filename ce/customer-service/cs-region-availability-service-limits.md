@@ -51,7 +51,7 @@ The following table lists the region availability of analytics and insights.
 ✔: Available  
 ✖: Not available
 
-<sup>**1**</sup> Copilot features are available only in the North America region. Customers with environments outside the United States can use the Copilot features by opting in to cross geo processing to share relevant data outside their region for processing.
+<sup>**1**</sup> Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
