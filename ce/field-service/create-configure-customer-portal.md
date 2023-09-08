@@ -1,13 +1,11 @@
 ---
 title: Create and configure the Field Service portal
 description: Set up and configure the Field Service portal.
-ms.date: 09/03/2023
+ms.date: 09/08/2023
 ms.topic: how-to
-author: m-hartmann
-ms.author: mhart
-search.app:
-  - D365CE
-  - D365FS
+author: anilmur
+ms.author: anilmur
+ms.reviewer: mhart
 ---
 
 # Create and configure the Field Service portal
@@ -16,17 +14,19 @@ The following sections guide you through the setup process and provide helpful i
 
 ## Create the Field Service customer experiences portal
 
-1. Determine the [environment and organization ID](https://learn.microsoft.com/power-platform/admin/determine-org-id-name) where you have Field Service installed
+1. Go to the [Power Pages portal](https://make.powerpages.microsoft.com/) and choose the environment that has Dynamics 365 Field Service installed.
 
-1. Navigate to https://make.powerpages.microsoft.com/environments/<ORGID>/portals/home after replacing '<ORGID>' with the ID from the previous step
+   You can navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and go to `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
 
-1. Choose an environment with Dynamics 365 Field Service and select **Create**.
+1. In the left navigation, select **Templates**.
 
-1. Go to the "Templates" page, or click the "Create a site" button, and find the template for **Field Service**.
+1. Search for the *Field Service* and select **Choose this template** on the **Field Service** template card.
+
+   :::image type="content" source="media/field-service-portal-template.svg" alt-text="Screenshot of the templates in Power Pages showing Field Service.":::
 
 1. Enter the name of the portal, the desired subdomain, choose a display language, and select **Create**.
 
-The Power Pages portal site gets created in the background. This process can take a few minutes. You'll get an email when it's ready or you can check the notification area for updates.
+The Power Pages portal site gets created in the background. This process can take a few minutes. You get an email when it's ready or you can check the notification area for updates.
 
 ## Configure the customer portal settings
 
@@ -38,7 +38,7 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 ### Configuration tab
 
-- **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting will take the first record found with the matching name.
+- **Portal Name**: A label referenced by website code to retrieve the appropriate setting. The name should be unique for the associated website, because the code retrieving the setting takes the first record found with the matching name.
 
 - **Field Service Website**: The associated website. Opening the associated website record takes you to the [Portal Management app](/power-apps/maker/portals/configure/configure-portal).
 
@@ -56,13 +56,13 @@ In Field Service, open the **Settings** area. Under **Customer Portal**, select 
 
 - **Exclusion lists**: These lists allow you to exclude specific service accounts or service types from all messaging.
 
-- **Include Survey (Preview)**: Embed a [Customer Voice survey](/dynamics365/customer-voice/about) in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey will automatically show when the booking is complete.
+- **Include Survey (Preview)**: Embed a [Customer Voice survey](/dynamics365/customer-voice/about) in the portal. When [adding a survey embed code](/dynamics365/customer-voice/embed-web-page), the survey automatically shows when the booking is complete.
 
 - **Configure SMS and Email Connector**: Direct links to the Power Automate flows where you [configure the email and SMS connectors](customer-portal-notification-settings.md).
 
 - **Excluded Work Order Types**: List work order types that you don't want to expose as an option in the portal.
 
-- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts won't receive invites to the portal either.
+- **Excluded Accounts**: List customer accounts for which you don't want to enable the portal. Contacts related to excluded accounts don't receive invites to the portal either.
 
 ### Display tab
 
@@ -122,7 +122,7 @@ You can only [edit elements in the header and footer](/power-pages/getting-start
 
 ## Update the Field Service portal
 
-When we release new features, we won't update your portal automatically. An administrator must apply them to your environment. For more information, see [Update a website package](/power-pages/admin/update-solution#update-a-website-package).
+When we release new features, we don't update your portal automatically. An administrator must apply them to your environment. For more information, see [Update a website package](/power-pages/admin/update-solution#update-a-website-package).
 
 ## Next steps
 
