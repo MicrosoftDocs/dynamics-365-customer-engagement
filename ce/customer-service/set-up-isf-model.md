@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 09/06/2023
+ms.date: 09/08/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 To configure machine learning-based skill classification rulesets, you can configure intelligent skill finder models that can be used for predicting skills.
 
-You can create and train machine-learning models that use AI to determine the necessary skills for new work items. You can create and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
+You can create, test, and train machine-learning models that use AI to determine the necessary skills for new work items. You can create, test, and train the model by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
 Intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. More information: [Availability of AI Builder](/ai-builder/availability-region).
 
@@ -58,23 +58,24 @@ You can set up the intelligent skill finder model rating models in the Customer 
 
 ### Test the model
 
-You should test the model to verify whether the model is working as per expectation. Perform the following steps in Power Apps to test the model.
+You should test your published model to assess the quality of the model and verify if it's working as per expectation. Perform the following steps in Power Apps to test the model.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. In **AI Builder**, you'll see the following sections:
+
     - **My models** has the models you created.
     - **Shared with me** has the models shared to you. 
 
     Select the desired model from the list, and then select **Quick test**.
 
     >[!NOTE]  
-    > To get model related information, select ellipsis (...) beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
+    > To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
     > - F1 scores (weighted, macro)
     > - Accuracy
     > - Tag related
     >   - Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
 
-1. In **Text** field, enter the desired input and select **Test**. You'll see the predicted tags in **Suggested tags and confidence**.
+1. In **Text**, enter the text you want to test and select **Test**. You'll see the predicted tags in **Suggested tags and confidence**.
 
 During runtime, if the predicted tags are matched with available skills in the organization, the corresponding skills are attached to the model.
 
