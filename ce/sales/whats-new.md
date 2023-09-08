@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 09/07/2023
+ms.date: 09/08/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -29,7 +29,7 @@ We're excited to announce our newest updates!
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
-|Copilot     | Email summary       | Use copilot to summarize lengthy email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
+|Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
 
 ## July 2023 release
 
