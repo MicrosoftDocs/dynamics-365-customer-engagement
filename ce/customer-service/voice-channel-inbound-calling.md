@@ -77,7 +77,7 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
-> [NOTE!]  
+> [!NOTE]  
 > The voice channel supports a maximum call duration of two hours, and the call will be automatically disconnected after this duration. We recommend you to enable callback feature to address this issue.
 
 ## Acquire a phone number
