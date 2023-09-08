@@ -27,7 +27,7 @@ Make sure that the following prerequisites are complete so that the emergency ca
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
 - Browser location setting is enabled, and set to United States or Puerto Rico.
-- For the email notification, agent mailbox is enabled.
+- For the email notification, the mailbox for the agents is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
    - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there's no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
