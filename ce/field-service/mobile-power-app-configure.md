@@ -16,13 +16,13 @@ To change things like the navigation, form, or views, [you need permissions to s
 
 ## Edit the navigation
 
-In [Power Apps](https://make.powerapps.com/), open the environment where the app you want to edit is installed. For more information, see [Edit an app](/power-apps/maker/canvas-apps/edit-app#edit-an-app).
+In [Power Apps](https://make.powerapps.com/), open the environment with the app you want to edit. For more information, see [Edit an app](/power-apps/maker/canvas-apps/edit-app#edit-an-app).
 
 In the app designer in Power Apps, you find the current navigation structure with groups of pages. You can [edit the navigation and add or remove groups and pages](/power-apps/maker/model-driven-apps/app-navigation).
 
 ## Edit mobile views
 
-For every table in the navigation, you can choose the views available on mobile app. For more informtion, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
+For every table in the navigation, you can choose the views available on mobile app. For more information, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
 
 You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](mobile-powerapp-customize-booking-calendar.md) that Field Service Mobile.
 
