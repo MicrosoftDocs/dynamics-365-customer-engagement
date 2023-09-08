@@ -16,7 +16,7 @@ The following sections guide you through the setup process and provide helpful i
 
 1. Go to the [Power Pages portal](https://make.powerpages.microsoft.com/) and choose the environment that has Dynamics 365 Field Service installed.
 
-   You can navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and go to `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
+   You can navigate directly to the Power Pages portal for your environment. [Determine the environment ID where you have Field Service installed](/power-platform/admin/determine-org-id-name) and insert it in the following URL: `https://make.powerpages.microsoft.com/environments/<EnvironmentID>/portals/home`.
 
 1. In the left navigation, select **Templates**.
 
