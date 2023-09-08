@@ -58,10 +58,10 @@ You can set up the intelligent skill finder model rating models in the Customer 
 
 ### Test the model
 
-You should test your published model to assess the quality of the model and verify if it's working as per expectation. Perform the following steps in Power Apps to test the model.
+You should test your published model to assess the quality of the model and ensure that it's working as per the expectation. Perform the following steps in Power Apps to test the model.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. In **AI Builder**, you'll see the following sections:
+1. In **AI Builder**, you see the following sections:
 
     - **My models** has the models you created.
     - **Shared with me** has the models shared to you. 
@@ -75,7 +75,7 @@ You should test your published model to assess the quality of the model and veri
     > - Tag related
     >   - Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
 
-1. In **Text**, enter the text you want to test and select **Test**. You'll see the predicted tags in **Suggested tags and confidence**.
+1. In **Text**, enter the text you want to test and select **Test**. You see the predicted tags in **Suggested tags and confidence**.
 
 During runtime, if the predicted tags are matched with available skills in the organization, the corresponding skills are attached to the model.
 
