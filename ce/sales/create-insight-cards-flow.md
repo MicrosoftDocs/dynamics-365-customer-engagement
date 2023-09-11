@@ -1,20 +1,17 @@
 ---
-title: "Create insight cards using Microsoft Power Automate"
-description: "Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales."
-keywords: ""
-ms.date: 02/23/2022
-ms.custom: 
-ms.topic: article
+title: Create insight cards
+description: Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales.
+ms.date: 09/11/2023
+ms.custom: bap-template
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
-caps.latest.revision: 1
+ms.reviewer: shujoshi
 ---
+
 # Create custom insight cards 
 
-As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
-
-> [!div class="mx-imgBorder"]
-> ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
+As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. 
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -22,35 +19,37 @@ As a system administrator or sales manager, you can create your own suggested ac
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
 ## Create a custom insight card 
+
+The following diagram illustrates a high-level flow of insight card creation:
+
+> [!div class="mx-imgBorder"]
+> ![Open assistant tab](media/cc-create-card.png "Open assistant tab")
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
 >[!NOTE]
+>
 >- To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
 >- The custom insight card is displayed in the list of insight cards in **Assistant studio** only after a card is generated based on the defined flow. For example, you defined a flow to display a card when an opportunity is created with an estimated value above $5000. When an opportunity is created for the first time in the organization with the estimated value of $6000, the card is generated and will be available in the list of insight cards in **Assistant studio**.
 
-1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
-
-2.	Go to **Change area** and select **Sales Insights settings**.
+1.	In the Sales Hub app, go to **Change area** in the lower-left corner of the page, select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the site map, under **Assistant**, select **Home** to go to the **Assistant Studio** page.
+1. On the site map, under **Assistant**, select **Home** to go to the **Assistant Studio** page.
 
     > [!TIP]
     > Alternatively, on the **Sales Insights settings** page, select **Manage** from the **Assistant (full capabilities)** section to go to the **Assistant Studio** page.
 
-4. On the Assistant Studio page, select **+ Create a new insight card**.
- 
+1. On the Assistant Studio page, select **+ Create a new insight card**.  
     A template selection page opens. 
     
     > [!NOTE]
     > We recommend you use templates to create insight cards.
 
-5. Select a template to create the card.
+1. Select a template to create the card.
 
     > [!NOTE]
     > If you want to create insight cards from an empty flow, select **Create from blank**. To learn more, see [Create a flow in Power Automate](/power-automate/get-started-logic-flow).
@@ -67,7 +66,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Accounts validation in flow](media/si-admin-flow-account-validation.png "Accounts validation in flow")
 
-6. Select **Continue**.
+1. Select **Continue**.
 
     The predefined flow is displayed. In this example, we are creating an insight when a due date is coming up for an opportunity. There are three steps associated with the predefined flow with the prepopulated data: 
     - **Step 1**: Create schedule
@@ -79,21 +78,21 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]       
     > ![Edit flow template](media/cc-edit-template.png "Edit flow template")
 
-7. In step 1, a schedule for when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
+1. In step 1, a schedule for when you want to display the card is defined. In this example, the frequency is set to daily and you can add other parameters such as time zone. 
 
     > [!div class="mx-imgBorder"]       
     > ![Create card schedule](media/cc-card-schedule-step.png "Create card schedule")
  
     If you want to change the flow, select the plus (+) icon on the connector that is linking to the next step and then select **Add an action** as per your organizational requirements. To learn more, see [Add multiple actions and advanced options to a flow](/power-automate/multi-step-logic-flow).
 
-8. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
+1. In step 2, an operation is defined to get records from an organization to the selected entity. In this example, we have selected the entity as task and the organization. 
 
     Select **Show advanced options** to further update the step by configuring the parameters **Filter Query**, **Order By**, **Top Count**, and **Expand Query**.
 
     > [!div class="mx-imgBorder"]       
     > ![Define card operations](media/cc-card-operation-step.png "Define card operations")
 
-9. In step 3, select an **apply to each** control and enter the necessary information.
+1. In step 3, select an **apply to each** control and enter the necessary information.
 
     a. The **Value** token is added to the **Select an output from previous steps** box. This value is obtained from the previous step where we defined the entity.
     
@@ -123,7 +122,7 @@ In this procedure, we will show as an example how to create an insight to act wh
 
     To learn more about expression conditions, see [Use expressions in conditions to check multiple values](/power-automate/use-expressions-in-conditions).
 
-10. Use **Flow Checker** to verify errors and warnings in the flow. 
+1. Use **Flow Checker** to verify errors and warnings in the flow. 
 
     Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is error and warning free. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.
 
@@ -140,7 +139,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!NOTE]
     > You must resolve all errors and warnings to save the flow.
 
-11. (Optional) Select the **Test** button to test your flow. 
+1. (Optional) Select the **Test** button to test your flow. 
 
     Ensure that all the configured steps are working as required. The test feature runs and validates each step in the flow and highlights if any error occurs on a step. You must resolve the error to proceed.
 
@@ -154,7 +153,7 @@ In this procedure, we will show as an example how to create an insight to act wh
     > [!div class="mx-imgBorder"]
     > ![Test flow of card](media/cc-test-run-flow.png "Test flow of card")
 
-12. Save the flow.
+1. Save the flow.
 
     When the card is saved, the **Manage insight cards** list gets updated and the **Due date coming up** card displays. Now you can edit the card to set priority and assign to different security roles.
 

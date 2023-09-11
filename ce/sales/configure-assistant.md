@@ -27,15 +27,15 @@ Configure the assistant to help sellers track their daily actions and communicat
 
 ## Configure the standard and premium assistant 
 
-The assistant in Dynamics 365 Sales (formerly known as relationship assistant) helps sellers track their daily actions and communications through a collection of actionable insight cards. 
+The assistant in Dynamics 365 Sales helps sellers track their daily actions and communications through a collection of actionable insight cards. 
 
 The assistant is available in two forms:
 
-- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](#configure-and-manage-insight-cards-for-the-standard-assistant).
+- **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Standard assistant](#standard-assistant).
 
-- **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Insights license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](#configure-and-manage-insight-cards-for-the-premium-assistant).
+- **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Insights license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Premium assistant](#premium-assistant).
 
-## Configure and manage insight cards for the standard assistant
+## Standard assistant
 
 ### Prerequisites
 
@@ -78,22 +78,16 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
     Sellers can also set their own personal preferences for their insight cards. They can't add cards that you disable here, but they can disable cards that you've enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. More information: [Manage insight cards](assistant.md#manage-insight-cards)
 
-## Configure and manage insight cards for the premium assistant
+## Premium assistant
 
 The premium assistant that's part of the Sales Insights add-on offers advanced capabilities, including:
 
 - [Creating custom insight cards](create-insight-cards-flow.md).
-
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-for-a-card).
-
 - [Optimizing card ranking](optimize-ranking-insight-cards.md).
-
 - [Assigning cards to users by roles](edit-insight-cards.md#assign-roles-to-or-remove-roles-from-a-card).
-
 - [Turn on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
-
 - [Edit flow of an insight card](edit-insight-cards.md#edit-flow-of-a-card).
-
 - [View card usage metrics](edit-insight-cards.md#view-card-usage-metrics).
 
 > [!NOTE]
@@ -125,12 +119,6 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
     > ![Optimize ranking tab](media/si-admin-assistant-optimize-ranking.png "Optimize ranking tab")
 
     To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-cards.md).
-
-## Assistant studio tutorials
-
-Assistant tutorials are available for you to learn how to create custom insight cards by using minimal or no code through Power Automate. Using the tutorials, you learn from creating a basic custom insight, a "hello world" equivalent, and gradually increase the complexity as you go along.
-
-More information: [Assistant studio tutorials for Dynamics 365 Sales Insights](/training/modules/sales-insights-lab/)
 
 ## Disable teasers
 

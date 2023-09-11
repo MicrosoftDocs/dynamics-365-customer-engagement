@@ -601,7 +601,7 @@
           items:
             - name: Configure the assistant
               href: configure-assistant.md
-            - name: Create insight cards
+            - name: Create custom insight cards
               href: create-insight-cards-flow.md
             - name: Edit insight cards
               href: edit-insight-cards.md

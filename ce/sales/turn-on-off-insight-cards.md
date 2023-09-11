@@ -29,7 +29,7 @@ You can decide which insight cards you'd like to see or hide.
 1. Under **Assistant studio**, select **Insight cards**.  
     The **Manage insight cards** page opens with the list of insight cards ordered by status and priority.
 
-    :::image type="content" source="media/assistant-personal-settings.png" alt-text="Screenshot of the Personal settings for assistant." lightbox="media/assistant-personal-settings.png":::   
+    :::image type="content" source="media/assistant-personal-settings.png" alt-text="Screenshot of the Personal settings for assistant.":::   
 
 **To turn on a card**
 
@@ -37,7 +37,7 @@ Choose a card that's turned off, and then select **Turn on cards**.
 
 Alternatively, you can select the **More options** icon on the card, and then select **Turn on card**. 
 
-:::image type="content" source="media/assistant-personal-settings-card-turn-on.png" alt-text="Screenshot of turning on an insight card." lightbox="media/assistant-personal-settings-card-turn-on.png":::  
+:::image type="content" source="media/assistant-personal-settings-card-turn-on.png" alt-text="Screenshot of turning on an insight card.":::  
 
 >[!NOTE]
 >You can select multiple cards that are turned off, and then turn them on simultaneously. 
@@ -48,7 +48,7 @@ Choose a card that's turned on, and then select **Turn off cards**. The card wil
 
 Alternatively, you can select the **More options** icon on the card, and then select **Turn off card**. 
 
-:::image type="content" source="media/assistant-personal-settings-card-turn-off.png" alt-text="Screenshot of turning off an insight card." lightbox="media/assistant-personal-settings-card-turn-off.png":::
+:::image type="content" source="media/assistant-personal-settings-card-turn-off.png" alt-text="Screenshot of turning off an insight card.":::
 
 > [!NOTE]
 > You can select multiple cards that are turned on, and then turn them off simultaneously. 
