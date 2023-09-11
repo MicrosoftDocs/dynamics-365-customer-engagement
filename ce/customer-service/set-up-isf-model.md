@@ -62,7 +62,7 @@ You must test your model to determine if it's working as expected. Perform the f
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **AI models**. You can view the models you've created in **My models** and the models that are shared to you in **Shared with me**. Select the required model.
-1. Select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains information pertaining to the performance, accuracy, and precision of the model.
+1. Select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains information about model's performance, accuracy, and precision.
 1. In **Text**, enter the required text, and then select **Test**. The predicted tags appear in **Suggested tags and confidence**.
 1. When the model runs, if the predicted tags match with available skills in the organization, the corresponding skills are linked to the model.
 
