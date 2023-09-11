@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 09/08/2023
+ms.date: 09/12/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -58,26 +58,13 @@ You can set up the intelligent skill finder model rating models in the Customer 
 
 ### Test the model
 
-You should test your published model to assess the quality of the model and ensure that it's working as per the expectation. Perform the following steps in Power Apps to test the model.
+You must test your model to determine if it's working as expected. Perform the following steps to view the performance and accuracy of the model.
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. In **AI Builder**, you see the following sections:
-
-    - **My models** has the models you created.
-    - **Shared with me** has the models shared to you. 
-
-    Select the desired model from the list, and then select **Quick test**.
-
-    >[!NOTE]  
-    > To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The downloaded metrics file contains the following information:
-    > - F1 scores (weighted, macro)
-    > - Accuracy
-    > - Tag related
-    >   - Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
-
-1. In **Text**, enter the text you want to test and select **Test**. You see the predicted tags in **Suggested tags and confidence**.
-
-During runtime, if the predicted tags are matched with available skills in the organization, the corresponding skills are attached to the model.
+1. Select **AI models** from **My models** that have models you're created or from **Shared with me** that have models shared with you.
+1. Select the required model, and then select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains the following information:F1 scores (weighted, macro), Accuracy, Tag related, Accuracy, Accuracy baseline, Cohen kappa, F1 score, F1 score baseline, False negative predicted label distribution, False positive true label distribution, Grade, Number of cases test set, Number of cases total, Number of false negatives, Number of false positives, Precision, Recall.
+1. In **Text**, enter the required text and select **Test**. The predicted tags appear in **Suggested tags and confidence**.
+1. When the model runs, if the predicted tags match with available skills in the organization, the corresponding skills are linked to the model.
 
 ![Test skill finder model.](media/test-skill-model.png "Test skill finder model")
 
