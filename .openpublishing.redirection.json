@@ -24371,6 +24371,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/conversation-intelligence-billing.md",
+      "redirect_url": "/dynamics365/sales/dynamics365-sales-insights-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/define-playbook-categories.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
       "redirect_document_id": "false"
@@ -27278,6 +27283,11 @@
       "source_path": "ce/marketing/real-time-marketing-consent-transition.md",
       "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-consent-transition",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
+      "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
+      "redirect_document_id": "false"
     }
   ]
 }

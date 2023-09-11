@@ -295,7 +295,7 @@ items:
       href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
-        - name: Customize the home screen (Site Map)
+        - name: Customize the navigation and views
           href: mobile-power-app-configure.md
         - name: Customize calendar columns
           href: mobile-powerapp-customize-booking-calendar.md
