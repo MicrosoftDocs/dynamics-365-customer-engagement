@@ -17,7 +17,6 @@ ms.collection: get-started
 # Create enhanced SLAs
 
 > [!NOTE]
->
 > Enhanced SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. For more information on deprecation, see [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend migrating the enhanced SLAs created in the web client to Unified Interface. For more information on migrating SLAs, see [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -83,6 +82,14 @@ ms.collection: get-started
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.  
 
      ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
+
+
+
+
+
+
+
+
 
      > [!NOTE]
      > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
