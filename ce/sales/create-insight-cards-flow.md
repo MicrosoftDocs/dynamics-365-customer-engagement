@@ -306,10 +306,8 @@ Use the **REST** option to invoke REST API.
 
 ### See also
 
-[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)
-
-[Edit insight cards](edit-insight-cards.md)
-
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)  
+[Edit insight cards](edit-insight-cards.md)  
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
 

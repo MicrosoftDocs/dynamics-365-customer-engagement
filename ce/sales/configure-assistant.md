@@ -62,7 +62,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
     > [!div class="mx-imgBorder"]
     > ![Select cards to turn on](media/si-admin-assistant-turn-on-cards.png "Select cards to turn on")
     
-    More information: [Manage insight cards](assistant.md#manage-insight-cards)
+    More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
 
 3. To turn off (disable) the insight cards, select the cards that have been turned on, and then select **Turn off cards**.
     
@@ -76,7 +76,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
     > [!div class="mx-imgBorder"]
     > ![View card details](media/si-admin-assistant-view-card-details.png "View card details")
 
-    Sellers can also set their own personal preferences for their insight cards. They can't add cards that you disable here, but they can disable cards that you've enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. More information: [Manage insight cards](assistant.md#manage-insight-cards)
+    Sellers can also set their own personal preferences for their insight cards. They can't add cards that you disable here, but they can disable cards that you've enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
 
 ## Premium assistant
 
