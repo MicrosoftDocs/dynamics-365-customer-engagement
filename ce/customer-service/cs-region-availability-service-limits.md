@@ -32,7 +32,7 @@ The following table lists the region availability of analytics and insights.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Copilot<sup>**1**</sup> | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
+| Copilot<sup>**1**</sup> | ✔ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
@@ -52,7 +52,7 @@ The following table lists the region availability of analytics and insights.
 ✔: Available  
 ✖: Not available
 
-<sup>**1**</sup> The one-click response generation option with Copilot is available in North America, Europe, and United Kingdom only.
+<sup>**1**</sup> Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
