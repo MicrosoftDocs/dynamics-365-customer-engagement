@@ -68,7 +68,7 @@ To enable the work order recap feature on Field Service Mobile, ask an admin to 
 When the feature is enabled, the Copilot control gets added to the *Bookable Resource Booking* form. You can use the control on the *Bookable Resource Booking* or *Work Order* form. You can't add it to the other forms currently.
 
 > [!NOTE]
-> Copilot recap module is requires an active internet connection to the device to generate recap content.
+> Copilot in Field Service requires an active internet connection to the device to generate recap content.
 
 ## Next steps
 
