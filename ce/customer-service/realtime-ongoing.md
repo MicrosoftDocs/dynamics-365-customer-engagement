@@ -21,7 +21,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime_ongoing_conversation.png" alt-text="Screenshot of real-time Ongoing conversation report.":::
+:::image type="content" source="realtime_ongoing conversations.png" alt-text="Screenshot of realtime ongoing converations report":::
 
 The conversation list shows current ongoing conversations from the last 24 hours. Therefore, managers have a real-time view of the interactions between agents and customers. You can also select an agent and then use the following buttons to perform different actions on conversations:
 
