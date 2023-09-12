@@ -60,7 +60,7 @@ ms.collection: get-started
 
 1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-1. In the **SLA Details** section, select **Add** ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").
+1. In the **SLA Details** section, select **Add** (![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button")).
 
 1. Enter the following information in the SLA Item form:  
 
