@@ -32,6 +32,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 - A license to use Teams. [Learn more about Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
 
 - [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
+- If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
 
 ## Prerequisites for third-party dialers
 

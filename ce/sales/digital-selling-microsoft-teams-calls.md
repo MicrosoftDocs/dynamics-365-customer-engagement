@@ -12,6 +12,7 @@ ms.author: shjais
 Set up integrated Teams calls with conversation intelligence so your sellers can call customers directly from Dynamics 365 and get real-time insights, rich call summaries, and more.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -27,7 +28,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ## Licensing options
 
-With the Sales Enterprise license, you get unlimited number of conversation intelligence (call processing and recording hours) and Teams calling hours. 
+With the Sales Enterprise license, you get unlimited number of conversation intelligence hours (call processing and recording) and Teams calling hours.  
 
 ## Set up Microsoft Teams calls with conversation intelligence
 

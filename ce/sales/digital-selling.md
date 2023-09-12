@@ -40,7 +40,7 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Feature  |Sales Enterprise license  |Sales Premium license  |
 |---------|---------|---------|
 |Sales accelerator     | 1,500 sequence-connected records per month        |  No limit       |
-|Conversation intelligence     |Unlimited   | Unlimited        |
+|Conversation intelligence     |No limit   | No limit        |
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
 |Relationship intelligence | Basic [relationship insights](relationship-analytics-overview.md#basic-relationship-insights) and [who knows whom information](who-knows-whom.md#basic-who-knows-whom-information), generated from Dynamics 365 data.| Advanced [relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) and [who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information), generated from Dynamics 365 and Exchange data. | 
 

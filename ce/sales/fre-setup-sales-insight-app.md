@@ -1,5 +1,5 @@
 ---
-title: Set up conversation intelligence from the standalone app
+title: Set up the conversation intelligence app
 description: Configure conversation intelligence to suit your requirements by setting up storage, granting app permissions, and defining tracked keywords and competitors.
 ms.date: 09/08/2023
 ms.topic: article
@@ -11,9 +11,9 @@ ms.custom:
   - ai-seo-date:09/08/2023
 ---
 
-# Set up conversation intelligence from the standalone app
+# Set up the conversation intelligence app
 
-As an administrator, you can set up conversation intelligence to suit your requirements by setting up storage, granting app permissions, and defining tracked keywords and competitors.
+As an administrator, connect the conversation intelligent app to your Dynamics 365 Sales organization to fetch call data and enable sellers to view call insights. 
 
 ## License and role requirements
 
@@ -24,9 +24,7 @@ As an administrator, you can set up conversation intelligence to suit your requi
 
 ## Prerequisites
 
-Verify the following requirements before setting up conversation intelligence for your organization:
-
-- Set up conversation intelligence from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app. For more information, see [Set up conversation intelligence from the Sales Hub app](fre-setup-ci-sales-app.md).
+Before you can set up the Conversation intelligence app, set up conversation intelligence from the Sales Hub app and configure storage, app permissions, and tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app. For more information, see [Set up conversation intelligence from the Sales Hub app](fre-setup-ci-sales-app.md).
 
 ## Configure conversation intelligence
 
