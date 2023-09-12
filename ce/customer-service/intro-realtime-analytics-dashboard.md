@@ -1,12 +1,12 @@
 ---
-title: Overview of the real-time Omnichannel analytics dashboard
-description: Use this article to get an introduction to real-time Omnichannel analytics dashboard in the Omnichannel for Customer Service and Customer Service workspace apps.
+title: Overview of Omnichannel real-time analytics dashboard
+description: Use this article to get an introduction to real-time Omnichannel analytics dashboard in the Omnichannel for Customer Service app.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/11/2023
+ms.date: 09/12/2023
 ms.custom: bap-template
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 
@@ -29,7 +29,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 
 - Monitor key operational metrics in near-real time, and make course corrections at the appropriate time to help keep service levels high.
 - Review the allocation of agents in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
-- Assign or transfer ongoing conversations to improve agent staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the agent.
+- Improve agent staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the agent. You can then assign or transfer ongoing conversations by filtering through queue or agent.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
