@@ -130,7 +130,11 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 
 ## Configure custom limits for capacity profiles<a name="custom-limits"></a>
 
-Senior or proficient agents can handle more cases and conversations compared to the junior agents for the same work type. To use the agents optimally, you can allocate different quotas or concurrent conversation limits to agents depending on their expertise and experience. Use the custom limit option to update the maximum number of work items that the selected users can take until reset. The new limit can be higher (or lower) than the default limit. If you specify a custom limit that's lesser than the used limit, the system doesn't take away the assigned work items from the agents. 
+Senior or proficient agents can handle more cases and conversations compared to the junior agents for the same work type. To use the agents optimally, you can allocate different quotas or concurrent conversation limits to agents depending on their expertise and experience. 
+
+Use the custom limit option to update the maximum number of work items that the selected users can take until reset. The new limit can be higher (or lower) than the default limit. If you specify a custom limit that's lesser than the used limit, the system doesn't take away the assigned work items from the agents.
+
+The supervisor can see the real-time limits for the agents in the [Agents report](realtime-agents-analytics.md).
 
 To set custom limits for agents, do the following steps:
 
