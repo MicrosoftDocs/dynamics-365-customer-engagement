@@ -75,6 +75,12 @@ ms.collection: get-started
    > [!NOTE]
    >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
 
+
+
+
+
+
+
 1. Enter the following information in the **New SLA Item** form:  
 
    - **Name**: Type a meaningful name.  
