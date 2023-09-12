@@ -83,14 +83,6 @@ ms.collection: get-started
 
      ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
 
-
-
-
-
-
-
-
-
      > [!NOTE]
      > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
      > - If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA will be canceled when implemented. 
