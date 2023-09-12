@@ -25,7 +25,7 @@ The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md
 
 The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. Currently, copilot requests for the work order recap are processed within the United States. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot recap**.
 
-This feature requires a paid Field Service environment and isn't available in trial environments. 
+This feature requires a paid Field Service environment and isn't available in trial environments.
 
 [Update your environment](update-field-service.md) to the latest Early Access build for 2023 wave 2 to use work order recap and the improved work order forms.
 
@@ -59,19 +59,16 @@ For each lifecycle stage of the work order, we also include additional informati
 
 If there are errors or service limitations, the system returns an error message instead of a recap summary.
 
+## Work order recap with Copilot for Field Service Mobile
 
-## CoPilot Recap for Field Service Mobile
-Copilot Recap for Frontline Workers provides valuable contextual information about the scheduled work for the mobile app user.  The recap is generated on the mobile device with the press of a button and can be regenerated with refreshed content at different points in the Work Order lifecycle. 
+Work order recap for frontline workers provides valuable contextual information about the scheduled work. Users of the mobile app can generated a recap on the mobile device and regenerate it with refreshed content at different points of the work order lifecycle.
 
-To enable Copilot Recap for Field Service Mobile, it must be enable Settings within the Field Service Mobile app module.
-> [!div class="mx-imgBorder"]
-> ![Field Service (Dynamics 365) mobile app settings to enable CoPilot.](./media/FSM_Copilot_AppSettings.png)
+To enable the work order recap feature on Field Service Mobile, ask an admin to go to **Settings** > **Preview features** in the Field Service Mobile app module and turn on **Copilot Recap for Mobile Preview**.
 
-After enabling, the Copilot control will be added to the Bookable Resource Booking form by default. The module can be repositioned within the Booking or Work Order form as desired for your scenario.
+When the feature is enabled, the Copilot control gets added to the *Bookable Resource Booking* form. You can use the control on the *Bookable Resource Booking* or *Work Order* form. You can't add it to the other forms currently.
 
 > [!NOTE]
->Copilot recap module can only be available on the Bookable Resource Booking or Work Order form(s). It cannot be added on other forms at this time.
->Copilot recap module is requires an active internet connection to the device to generate recap content. 
+> Copilot recap module is requires an active internet connection to the device to generate recap content.
 
 ## Next steps
 
