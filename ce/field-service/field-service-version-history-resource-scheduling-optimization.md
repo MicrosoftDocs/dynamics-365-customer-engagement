@@ -51,7 +51,7 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.495
 
- - This release is the same as 3.4.0.459, only change is that the software update mechanism now uses ZIP files. 
+ - This release is the same as 3.4.0.459, with a more efficient solution delivery mechanism. 
    
 ## 3.4.0.459
 
