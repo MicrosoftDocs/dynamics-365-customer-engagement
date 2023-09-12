@@ -32,6 +32,13 @@ For information about older versions, see [Version history archive](version-hist
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.101.95 (2023 Wave 2 early access, update2)
+
+(Includes Universal Resource Scheduling version [3.12.116.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#312116.5---2023-wave-2-early-access-update2
+) and Resource Scheduling controls version 1.2.55.232482).
+
+- Dynamics 365 Field Service Mobile: [CoPilot Work Order Recap](https://learn.microsoft.com/en-us/dynamics365/field-service/work-order-recap) preview for Bookings and Work Orders on mobile.
+
 ## 8.8.98.36
 (Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).
 
