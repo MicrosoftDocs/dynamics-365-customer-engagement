@@ -37,7 +37,7 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.116.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#312116.5---2023-wave-2-early-access-update2
 ) and Resource Scheduling controls version 1.2.55.232482).
 
-- Dynamics 365 Field Service Mobile: [CoPilot Work Order Recap](https://learn.microsoft.com/en-us/dynamics365/field-service/work-order-recap) preview for Bookings and Work Orders on mobile.
+- Dynamics 365 Field Service Mobile: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
 
 ## 8.8.98.36
 (Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).
