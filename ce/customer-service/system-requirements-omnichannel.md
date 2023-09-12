@@ -101,6 +101,8 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
+- `https://go.trouter.teams.microsoft.com`
+- `https://go-eu.trouter.teams.microsoft.com`
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
