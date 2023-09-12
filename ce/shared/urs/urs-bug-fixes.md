@@ -28,12 +28,12 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.106.5
 
-- **Retirement of the Legacy Schedule Board:** Our new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
-- **Proportional Bookings on Multiday Views:** This enhancement allows you to quickly determine a resource’s availability and utilization.
-- **Multiple Recurrences in Work Hours Calendar:** This feature provides greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs
+- **Retirement of the Legacy Schedule Board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
+- **Proportional Bookings on Multiday Views:** Quickly determine a resource’s availability and utilization.
+- **Multiple Recurrences in Work Hours Calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
 - Fixed an issue where rebooking and substituting on a requirement that got deleted was failing.
 - Fixed an issue where the schedule board color was not being applied when saving the board setting with a new color.
-- Fixed an issue where ‘Find Availability’ in the new schedule board was not considering custom fields.
+- Fixed an issue where "Find Availability" in the new schedule board was not considering custom fields.
 
 ## 3.12.111.36
 
