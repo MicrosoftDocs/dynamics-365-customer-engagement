@@ -8,9 +8,9 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
-# Prerequisites to configure Conversation intelligence app
+# Prerequisites to set up conversation intelligence
 
-Verify the prerequisites that are necessary to configure the Conversation intelligence app.
+Before you set up conversation intelligence, you must verify that you have the required licenses and security roles. You must also complete the setup of conversation intelligence from the Sales Hub app.
 
 ## License and role requirements
 
@@ -29,19 +29,10 @@ Verify the following requirements before setting up the Conversation intelligenc
 
 -	You must have an administrator or similar role.  
 
--	You must have a Dynamics 365 Sales organization.   
--	You must purchase a Dynamics 365 Sales Enterprise, [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Dynamics 365 Sales Premium license.         
-    > [!NOTE]
-    > - The Dynamics 365 Sales Enterprise license provides you access to the conversation intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br>
-    > - The Dynamics 365 Sales Insights or Dynamics 365 Sales Premium license provides you access to the conversation intelligence feature with 10 hours of call processing capacity for all licensed users from your organization.<br> 
-    > - To extend the capacity of processing hours for your organization, you must purchase the conversation intelligence add-on for Sales Insights.<br>
-    > - To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).         
--	You must get access to conversation intelligence. If you don't have access, follow these steps:       
-    1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).  
-    2.	Enter your work email address.  
-    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).  
--	If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
--    You must [set up conversation intelligence](fre-setup-ci-sales-app.md) from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app.  
+- You must have a Dynamics 365 Sales organization.  
+- You must purchase a Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium license to get unlimited access to conversation intelligence.  
+- If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
+- You must [set up conversation intelligence](fre-setup-ci-sales-app.md) from the Sales Hub app to select storage, grant app permissions, and define organization-level tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app.  
 
 ### See also
 

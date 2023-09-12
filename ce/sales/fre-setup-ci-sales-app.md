@@ -1,5 +1,5 @@
 ---
-title: Set up conversation intelligence
+title: Set up conversation intelligence in Sales Hub app
 description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
 ms.date: 07/03/2023
 ms.custom: bap-template
@@ -9,13 +9,13 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Set up conversation intelligence
+# Set up conversation intelligence in Sales Hub app
 
 Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
 As an administrator, configure conversation intelligence for the dialer that your sellers use.  
 
-If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. Your sellers will get three hours of conversation intelligence per month.
+If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. 
 
 [Learn more about conversation intelligence for Sales Enterprise license](digital-selling-microsoft-teams-calls.md).
 

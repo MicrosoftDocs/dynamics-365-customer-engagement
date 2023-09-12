@@ -463,12 +463,6 @@ Conversation intelligence data is refreshed periodically and could take up to 12
 
 You get unlimited call recording and processing hours with Microsoft Sales Copilot. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Sales Copilot. For more information, see [Use Microsoft Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
 
-### How do I buy more conversation intelligence hours?
-
-If you have the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
-
-If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
-
 ### Can sellers (or non-managers) use this app?
 
 The application is available for sellers to view their conversational insights.

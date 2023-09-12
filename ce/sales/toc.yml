@@ -638,7 +638,7 @@
           href: language-support-conversation-intelligence.md
         - name: Configure in conversation intelligence app
           items:
-            - name: First-run set up
+            - name: Set up conversation intelligence
               href: fre-setup-sales-insight-app.md
             - name: Configure and view your team page
               href: configure-view-your-team-page.md
@@ -650,7 +650,7 @@
               href: data-retention-deletion-policy.md
         - name: Configure in Dynamics 365 Sales Hub
           items:
-            - name: First-run set up in sales app
+            - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
