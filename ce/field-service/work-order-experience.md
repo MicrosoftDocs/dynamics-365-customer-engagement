@@ -30,6 +30,9 @@ To change between the legacy read-only grid and the new editable grid, use the *
 
 The new grid shows work orders in a list and lets you update the priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
 
+> [!TIP]
+> Currently, we don't support filters for columns in the new work order experience. However, you select **Show as** > **Read Only Grid** to bring back the classic experience with filtering capabilities.
+
 ### Side pane for quick edits
 
 The side pane for the work order form is a simplified form. It enables quick actions like status updates, booking a work order, or editing instructions without switching to the detailed work order form.
