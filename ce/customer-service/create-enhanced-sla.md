@@ -17,7 +17,6 @@ ms.collection: get-started
 # Create enhanced SLAs
 
 > [!NOTE]
->
 > Enhanced SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. For more information on deprecation, see [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend migrating the enhanced SLAs created in the web client to Unified Interface. For more information on migrating SLAs, see [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -61,7 +60,7 @@ ms.collection: get-started
 
 1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-1. In the **SLA Details** section, select **Add** ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").
+1. In the **SLA Details** section, select **Add** (![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button")).
 
 1. Enter the following information in the SLA Item form:  
 

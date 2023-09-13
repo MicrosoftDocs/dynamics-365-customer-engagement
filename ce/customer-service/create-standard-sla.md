@@ -49,18 +49,18 @@ ms.collection: get-started
 
 1. Enter your information as follows:
 
-   - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
+   - **Applicable From**: Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
-   - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful in the SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.  
+   - **Business Hours**: Select a customer service schedule record that defines your support organization's business hours. This is useful in the SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.  
 
-   - **SLA Type**. Select **Standard**.  
+   - **SLA Type**: Select **Standard**.  
 
         You can select **Standard** only when the **Entity** field is set to **Case**.  
 
-   - **Allow Pause and Resume**. Select **Do Not Allow**. Because standard SLAs don't support pausing and resuming of SLAs, you can set this field to **Allow** only when you're creating an enhanced SLA.  
+   - **Allow Pause and Resume**: Select **Do Not Allow**. Because standard SLAs don't support pausing and resuming of SLAs, you can set this field to **Allow** only when you're creating an enhanced SLA.  
 
 1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
