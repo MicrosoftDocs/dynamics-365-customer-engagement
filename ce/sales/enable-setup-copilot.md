@@ -16,6 +16,9 @@ ms.reviewer: shujoshi
 
 Enable Sales Copilot on apps that your sales team uses and grant them access. After you do, sellers can use Sales Copilot to summarize records, catch up on updates, prepare for meetings, and so on.
 
+> [!NOTE]
+> If you've opted for early access, you need not enable Sales Copilot manually. It is enabled by default in all the sales apps with lead and opportunity entities. You can disable it using the steps described in this article.
+
 ## License and role requirements
 
 | Requirement type | You must have |
@@ -23,7 +26,7 @@ Enable Sales Copilot on apps that your sales team uses and grant them access. Af
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Enable Sales Copilot
+## Enable or disable Sales Copilot
 
 Select the apps and the copilot features that you want to enable on the apps. You can enable copilot only from the Sales Hub app. If you're using a custom sales app, you need to switch to the Sales Hub app to enable Copilot for the custom app.
 
