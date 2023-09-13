@@ -1,7 +1,7 @@
 ---
 title: Automatic closure of conversations
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 09/07/2023
+ms.date: 09/14/2023
 ms.topic: how-to
 author: venki-MS
 ms.author: v-duddupdiv
@@ -35,7 +35,7 @@ The following table describes the channel, status reason, and default configured
  | Records (Case) | Active | None | For a records (case) channel, a conversation that's  **Active** will be closed if the corresponding record is deleted. |
  |  |  |  |  |
 | Voice | Open |  30 days   | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Open** to **Closed** state when the scheduler runs after the elapsed time.|
- | Voice | Active | 30 days | The conversation is eligible for automatic closure after the default time, 30 days, elapses. The conversation is moved from the **Active** to **Closed** state when the scheduler runs after the elapsed time. |
+ | Voice | Active | 2 hours | The conversation is eligible for automatic closure after the default time, 2 hours, elapses. The conversation is moved from the **Active** to **Wrap-up** state when the scheduler runs after the elapsed time. |
  | Voice | Wrap-up | 1 day | The conversation is eligible for automatic closure after the default time, 1 day, elapses. The conversation is moved from the **Wrap-up** to **Closed** state when the scheduler runs after the elapsed time. |
  |  |  |  |  |
  | SMS, Teams, persistent chat, and social | Open | 30 days | In an asynchronous channel&mdash;such as SMS, Teams, persistent chat, or a social channel&mdash;a conversation that has been in the **Open** state for more than 30 days is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
