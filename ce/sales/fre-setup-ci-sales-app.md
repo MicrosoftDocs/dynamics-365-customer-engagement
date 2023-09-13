@@ -141,7 +141,6 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 ### See also
 
 - [Configure sales team-level settings](configure-sales-team-level-settings.md)  
-- [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-- [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)  
+- [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

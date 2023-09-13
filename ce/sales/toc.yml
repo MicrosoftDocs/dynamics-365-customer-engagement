@@ -658,10 +658,10 @@
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-      - name: Create a call recording repository in Azure
-        href: create-azure-repo.md
-      - name: Languages supported
-        href: language-support-conversation-intelligence.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
+        - name: Languages supported
+          href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
