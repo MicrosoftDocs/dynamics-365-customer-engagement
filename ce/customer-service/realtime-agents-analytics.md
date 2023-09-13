@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/21/2023
+ms.date: 09/13/2023
 ms.custom: bap-template
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 
@@ -34,9 +34,10 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 ## Agent details drill-down
 
-From the **Agent list** grid on the dashboard, you can drill down to key metrics about agent details. You can also drill down to view specific insights about the performance of individual agents. Select an agent name in the **Agent list** grid, and then select **Detailed view**.
+> [!NOTE]
+> If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or for custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](./developer/reference/entities/msdyn_agentstatus).
 
-Agent details are shown on a new page.
+From the **Agent list** grid on the dashboard, you can drill down to key metrics about agent details. You can also drill down to view specific insights about the performance of individual agents. Select an agent name in the **Agent list** grid, and then select **Detailed view**. Agent details are shown on a new page.
 
 From the agent details page, you can drill down further through **Conversations**. In this way, you can track how a conversation progressed and the customer sentiment that is associated with it. Through **Agent presence history**, you can view agent presence in real time.
 
