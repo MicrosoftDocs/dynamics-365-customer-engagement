@@ -54,8 +54,8 @@ Create a sales territory to define a geographical area for your business. For ex
 
    b. **Manager**. Select the user who manages the territory. This person would typically assign leads to salespeople.
 
-        > [!Important]
-        > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
+    > [!Important]
+    > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
   
    c.  **Parent**. Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
 
@@ -82,7 +82,7 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 7. Select **Save**. 
 
 > [!TIP]
->  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](/create-price-lists-price-list-items-define-pricing-products.md)  
+>  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
 ### See also  
 
