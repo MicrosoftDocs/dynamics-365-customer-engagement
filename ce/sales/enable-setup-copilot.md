@@ -1,7 +1,7 @@
 ---
 title: Enable and set up Sales Copilot (preview)
 description: Learn about how to enable and set up Sales Copilot (preview) in Dynamics 365 Sales so that sellers can start using it.
-ms.date: 07/18/2023
+ms.date: 09/13/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -17,7 +17,7 @@ ms.reviewer: shujoshi
 Enable Sales Copilot on apps that your sales team uses and grant them access. After you do, sellers can use Sales Copilot to summarize records, catch up on updates, prepare for meetings, and so on.
 
 > [!NOTE]
-> If you've opted for early access, you need not enable Sales Copilot manually. It is enabled by default in all the sales apps with lead and opportunity entities. You can disable it using the steps described in this article.
+> If you've opted for early access, you need not enable Sales Copilot manually for orgs in North America or Europe regions. It is enabled by default for all the sales apps with lead and opportunity entities in these two regions. You can disable it using the steps described in this article.
 
 ## License and role requirements
 
