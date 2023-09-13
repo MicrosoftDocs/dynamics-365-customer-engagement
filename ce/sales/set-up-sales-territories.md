@@ -38,7 +38,7 @@ Organizations can create a model and visualize their sales territories in a hier
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Create a sales territory and add members
+## Create a sales territory
 
 Create a sales territory to define a geographical area for your business. For example, you can create a sales territory for a city, state, or country/region. You can also create a sales territory for a specific industry or product line.
 
@@ -54,8 +54,8 @@ Create a sales territory to define a geographical area for your business. For ex
 
    b. **Manager**. Select the user who manages the territory. This person would typically assign leads to salespeople.
 
-       > [!Important]
-       > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
+        > [!Important]
+        > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
   
    c.  **Parent**. Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
 
@@ -76,8 +76,6 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 4. In the **Lookup Records** pane, search and select users who are members of this territory, and then select **Add**.
 
 5. To add sub-territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**.  
-
-    :::image type="content" source="media/sales-add-sub-territory.png" alt-text="Screenshot of the Add New Territory button.":::
 
 6. Enter the necessary information and select **Save**. This territory will be added as a sub-territory in the Sub-territories grid.
 
