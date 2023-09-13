@@ -15,9 +15,8 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 > [!NOTE]
 > The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
-:::image type="content" source="media/Opps-crop-opt.svg" alt-text="opp form SVG" lightbox="media/Opps-crop-opt.svg":::
-
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

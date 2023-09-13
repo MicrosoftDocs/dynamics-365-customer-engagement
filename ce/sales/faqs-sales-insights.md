@@ -151,7 +151,6 @@ System and application users update certain entities with insights about the rec
 When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
 
 - Access to the workspace and up to 1,500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
-- Three hours of conversation intelligence per user, per month.
 - Predictive scoring for 1,500 lead or opportunity records scored per environment, per month.
 
 ### How can I get the full capacity of digital selling capabilities?

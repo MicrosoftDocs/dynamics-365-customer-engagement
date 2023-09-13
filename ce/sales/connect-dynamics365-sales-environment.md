@@ -27,7 +27,7 @@ will be displayed on the application.
 
 ## To connect to an environment
 
-2.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
+1.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/). 
 
 3.	Select the **Settings** icon on the top-right of the page and then select **Settings**.
 
@@ -59,7 +59,6 @@ The Conversation intelligence app is now connected to the environment.  Managers
 ### See also
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

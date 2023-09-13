@@ -28,7 +28,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 >- As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. <br/>
 >- The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
 
-2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.    
+1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.    
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
     
@@ -51,8 +51,8 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 ### See also
 
-[Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)
-[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)   
+[Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
+[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)  
 
 
 
