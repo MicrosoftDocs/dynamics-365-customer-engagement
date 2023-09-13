@@ -1,12 +1,12 @@
 ---
-title: Set up Sales territories to organize business markets by geographical area
+title: Set up Sales territories
 description: Define sales territories to organize customer and market segments, assign salespeople, and simplify business analysis.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/05/2023
+ms.date: 09/13/2023
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory
@@ -19,7 +19,7 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:09/06/2023
 ---
-# Set up sales territories to organize business markets by geographical area
+# Set up sales territories
 
 Improve sales potential and revenues by creating territories for customer and market segments in Dynamics 365 Sales. Then assign appropriate salespeople to handle the sales and revenue opportunities for those territories.  
   
