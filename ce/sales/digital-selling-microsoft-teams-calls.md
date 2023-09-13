@@ -79,29 +79,6 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 :::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams calls + conversation intelligence.":::
 
-## Monitor usage
-
-As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months.  
-
-The data in the usage panel is refreshed every 24 hours.
-
-**To monitor the usage of conversation intelligence**
-
-- On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Monitor usage**.
-
-  :::image type="content" source="media/ds-ci-monitor-usage.png" alt-text="Monitor usage for conversation intelligence.":::
-
-  The **Conversation intelligence usage** panel is displayed with the following information:
-    
-  - **Recorded calls**: Displays the total recorded hours so far in the current month.
-    
-  - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
-    
-  - **Usage this month**:Displays the usage breakdown by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
-    
-  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those sellers who didn't.
-
-    :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
 ## Turn off Teams calls and conversation intelligence
 
