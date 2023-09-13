@@ -44,7 +44,7 @@ Create a sales territory to define a geographical area for your business. For ex
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **App settings**.
 
-1. Under **Sales administration**, select **Sales Territories**.
+1. Under **Sales Administration**, select **Sales Territories**.
    :::image type="content" source="media/sales-territories.png" alt-text="Screenshot of the Sales Territories menu in App settings along with the list of territories.":::
 1. Select **New** on the command bar.
 
