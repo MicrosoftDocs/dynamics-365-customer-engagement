@@ -28,9 +28,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 
 ## Configure data retention and access
 
-1. Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
-2. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
+1. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
   
 3. Select the **Settings** icon on the top-right of the page and then select **Settings**.  
 
@@ -54,7 +52,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 ### See also
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[Prerequisites to use conversation intelligence](prereq-sales-insights-app.md)  
+[Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Dynamics 365 Sales and privacy laws and regulations](dynamics-365-sales-privacy.md)  
 [Sales Insights and privacy laws](embedded-intelligence-privacy.md)  
 
