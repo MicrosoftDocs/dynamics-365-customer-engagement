@@ -33,8 +33,6 @@ Configure tracked keywords and competitors that are relevant to you and your org
 >- As a sales manager, you can define tracked keywords and competitors that are specific to your team. That is, you want to track these keywords and competitors only for your team member calls. <br/>
 >- The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
 
-1. Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
 1. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
 
 1.	Select the **Settings** icon in the upper-right corner of the page and then select **Settings**.  
@@ -55,8 +53,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 ### See also
 
-[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)   
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
+[Administer conversation intelligence](./intro-admin-guide-sales-insights.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
