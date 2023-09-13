@@ -81,21 +81,20 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://login.windows.net`
 - `https://*.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com/*`
+- `https://*.skype.com`
 - `https://*.trouter.skype.com`
 - `https://*.edge.skype.com`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
 - `https://authsvc.teams.microsoft.com`
-- `https://swc.cdn.skype.com/*`
-- `https://config.edge.skype.com/*`
-- `https://edge.skype.com/* `
-- `https://api.aps.skype.com/*`
+- `https://config.edge.skype.com`
+- `https://edge.skype.com`
+- `https://api.aps.skype.com`
 - `https://*.asm.skype.com`
-- `https://*.ng.msg.teams.microsoft.com/* `
-- `https://*.notifications.teams.microsoft.com/*`
-- `https://*.omnichannelengagementhub.com/*`
+- `https://*.ng.msg.teams.microsoft.com`
+- `https://*.notifications.teams.microsoft.com`
+- `https://*.omnichannelengagementhub.com`
 - `https://cdn.botframework.com/botframework-webchat`
 - `https://webchatic3.blob.core.windows.net`
 - `https://*.omnichannelengagementhub.com`
