@@ -1,7 +1,7 @@
 ---
 title: Enable and set up Sales Copilot (preview)
 description: Learn about how to enable and set up Sales Copilot (preview) in Dynamics 365 Sales so that sellers can start using it.
-ms.date: 07/18/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -37,8 +37,9 @@ Select the apps and the copilot features that you want to enable on the apps. Yo
     The side panel displays the list of apps installed in your organization.  
 1. Select the following copilot feature to enable it:
 
+    - **Compose**: Select this checkbox to enable the copilot features that help sellers to get content suggestions while composing or responding to emails, and in summarizing email conversations. To learn more, see [Compose and send email messages using Copilot](compose-send-email-copilot.md) and [View and copy email summary](view-copy-email-summary.md)  
     - **Chat**: Select this checkbox to enable the copilot features that help sellers chat with copilot to get contextual insights and suggestions. For example, sellers can ask copilot to summarize an opportunity or lead, help them prepare for a meeting, and so on. [Learn more about chat with copilot](use-sales-copilot.md).
-
+    
     After you save the changes, you'll see the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar. Select the icon to open the copilot panel.
 
 ## Grant audit access to users
