@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 09/13/2023
+ms.date: 09/14/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Copilot AI features use Azure Open AI service and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot does not follow the same regional rollout schedule due to limited compute infrastructure. We are actively working to add infrastructure to address this constraint.
+Copilot AI features use Azure Open AI service and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot does not follow the same regional rollout schedule.
 
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland. 
 
@@ -39,7 +39,7 @@ The information in the following table outlines the Azure OpenAI service that's 
 | Yes | Germany | Switzerland |
 | No | Government Community Cloud (GCC) | N/A |
 
-The copilot AI opt-in is in limited preview. Do the following to opt-in to data movement across geographies:
+The copilot AI opt-in is in limited preview. Do the following steps to opt-in to data movement across geographies:
 
 1. Send an email to `d365_csaipreview@microsoft.com` with the Organization ID of the Dynamics 365 instance where you want to use Copilot. In two business days, the copilot setup experience will be visible in your Dynamics 365 instance.
 
