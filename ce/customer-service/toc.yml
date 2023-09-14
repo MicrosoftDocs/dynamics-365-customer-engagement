@@ -1907,6 +1907,8 @@
       href: faq-copilot-for-customer-service.md 
   - name: Troubleshoot issues in Customer Service
     items: 
+    - name: Check contact center health
+      href: check-contact-center-health.md
     - name: Issue converting an email to a case
       href: troubleshoot-case-email-issue.md
     - name: Troubleshoot SLA issues
