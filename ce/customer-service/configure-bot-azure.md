@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 06/16/2023
+ms.date: 08/31/2023
 author: neeranelli
 ms.author: nenellim
 ms.collection: get-started
@@ -11,6 +11,8 @@ ms.topic: article
 # Integrate an Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 In Omnichannel for Customer Service, you can integrate Azure bots seamlessly with chat and social channels, and also repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md). This article discusses how you can integrate Azure bots, configure routing rules, and set escalation rules.
 
@@ -67,7 +69,7 @@ The bot user is first created as an application user and then assigned the **Omn
     
     b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
-    c. Select **Add an app**. The **Add an app from Azure Active Directory** dialog opens.
+    c. Select **Add an app**. The **Add an app from Microsoft Entra Identity** dialog opens.
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
@@ -77,7 +79,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from the Azure AD (Active Directory) that you noted earlier from the **Prerequisites** section.
+    - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
     - **Bot handle**: Enter the bot handle that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.
