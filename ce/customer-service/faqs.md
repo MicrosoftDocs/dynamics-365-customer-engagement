@@ -199,7 +199,7 @@ These controls are in place for exposing the data in reports:
 
 - Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
-- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](enable-sentiment-analysis.md) 
+- Sentiment can be turned on or off in Customer Service admin center. To learn more, see [Enable sentiment analysis](enable-sentiment-analysis.md) 
 
 ## Chat widgets
 
