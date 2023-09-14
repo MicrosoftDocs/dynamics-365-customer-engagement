@@ -2,7 +2,7 @@
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
 ms.date: 09/15/2023
-ms.topic: conceptual
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 search.audienceType: 
@@ -42,11 +42,9 @@ The focused view is a centralized place to view all your open records that have 
 The focused view consists of three sections.
 
 -	**Search, filter, sort, and switch view**: These options are displayed at the top of the work list item view.   
-    You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between the focused view and the list view. 
-
-    Filters and sorting that are available here are similar to the list view. Custom filters and sorting and advanced filter queries aren't supported.
-
-    Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, you will observe the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options. 
+    You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between the focused view and the list view.  
+    Filters and sorting that are available here are similar to the list view. Also, you can add an advanced filter option to the available filters.  
+    Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view.  Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, you will observe the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options. 
 
 -	**Records list**: All records, including records with no associated activities, for the selected entity are displayed in a card format. You can perform and complete the activities, whether manual or automated, on these cards from the current date and from previous dates. Each card displays information such as the name of the record, the primary contact name, and the next best action.
 
@@ -77,7 +75,7 @@ The customization that you make to the work list card is specific to the entity 
     :::image type="content" source="media/focused-view-customize-select-work-item-appearance.png" alt-text="Screenshot of the work item appearance settings page in focused view.":::
 
     The following are the considerations to keep in mind when customizing the work list card in focused view:  
-    - The **Switch to admin mode** and **Lock customization** options are available only for administrators. 
+    - The **Switch to admin mode** and **Lock customization** options are available only for administrators.
     - If the customization is disabled, contact your administrator to turn off customization lock.
     - When admin mode is turned on, you can customize work items for all users within your organization. When turned off, you can customize work items only for yourself. If admin mode is turned off, contact your administrator to turn it on.
     - You can't customize the action items in the work list card. Also, in preview mode, the **More options** icon isn't visible to select action items that are configured in the sales accelerator workspace view.
