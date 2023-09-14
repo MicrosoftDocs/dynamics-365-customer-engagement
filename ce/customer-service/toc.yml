@@ -232,7 +232,7 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing for unified routing
+        - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
         - name: Set up intelligent skill finder model in unified routing
           href: set-up-isf-model.md

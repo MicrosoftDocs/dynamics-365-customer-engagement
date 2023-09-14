@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 09/15/2023
+ms.date: 09/14/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -65,8 +65,6 @@ You can test your model to determine if it's working as expected. Perform the fo
 1. Select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains information about model's performance, accuracy, and precision. For more information see, [Understand category classification model performance](/ai-builder/text-classification-performance)
 1. In **Text**, enter the required text, and then select **Test**. The predicted tags appear in **Suggested tags and confidence**.
 1. When the model runs, if the predicted tags match with available skills in the organization, the corresponding skills are linked to the model.
-
-![Test skill finder model.](media/test-skill-model.png "Test skill finder model")
 
 ### Retrain the model iteratively
 
