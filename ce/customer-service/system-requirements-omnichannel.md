@@ -79,45 +79,42 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://*.teams.microsoft.com`
+- `https://plat.teams.microsoft.com`
+- `https://authsvc.teams.microsoft.com`
+- `https://*.ng.msg.teams.microsoft.com`
+- `https://*.notifications.teams.microsoft.com`
+- `https://*.trouter.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com/*`
+- `https://*.skype.com`
 - `https://*.trouter.skype.com`
 - `https://*.edge.skype.com`
-- `https://browser.pipe.aria.microsoft.com`
-- `https://plat.teams.microsoft.com`
 - `https://aad.skypetoken.skype.com`
-- `https://authsvc.teams.microsoft.com`
-- `https://swc.cdn.skype.com/*`
-- `https://config.edge.skype.com/*`
-- `https://edge.skype.com/* `
-- `https://api.aps.skype.com/*`
+- `https://config.edge.skype.com`
+- `https://edge.skype.com`
+- `https://api.aps.skype.com`
 - `https://*.asm.skype.com`
-- `https://*.ng.msg.teams.microsoft.com/* `
-- `https://*.notifications.teams.microsoft.com/*`
-- `https://*.omnichannelengagementhub.com/*`
-- `https://cdn.botframework.com/botframework-webchat`
-- `https://webchatic3.blob.core.windows.net`
 - `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
-- `https://go.trouter.teams.microsoft.com`
-- `https://go-eu.trouter.teams.microsoft.com`
 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
 - `https://*.communication.azure.com`
 - `https://*.teams.microsoft.com`
+- `https://plat.teams.microsoft.com`
+- `https://*.ng.msg.teams.microsoft.com`
+- `https://*.notifications.teams.microsoft.com`
+- `https://*.trouter.teams.microsoft.com`
 - `https://ecs.office.com`
 - `https://*.skype.com/*`
+- `https://*.asm.skype.com`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
-- `https://webchatic3.blob.core.windows.net`
 - `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
-- `https://*.asm.skype.com`
-- `https://*.ng.msg.teams.microsoft.com/*`
 
 ### Geo-specific links
 
