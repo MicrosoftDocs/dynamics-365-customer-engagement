@@ -4,7 +4,7 @@ description: Learn about how to create and manage advanced queues for unified ro
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 04/26/2023
+ms.date: 09/15/2023
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservice
@@ -123,6 +123,6 @@ For a workstream, you can set any queue as a fallback queue, including a default
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  
-[FAQ about time taken by configuration changes in Omnichannel for Customer Service](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
