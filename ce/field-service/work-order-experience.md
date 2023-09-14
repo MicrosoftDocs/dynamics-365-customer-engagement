@@ -16,7 +16,7 @@ With the Wave 2 2023 release, Dynamics 365 Field Service introduces a refreshed 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
 
-In this article, we'll discuss the work order form and the components that it uses. You also find information about customizing the new controls and forms and potential limitations.
+In this article, ww discuss the work order form and the components that it uses. You also find information about customizing the new controls and forms and potential limitations.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
@@ -31,7 +31,7 @@ To change between the legacy read-only grid and the new editable grid, use the *
 The new grid shows work orders in a list and lets you update the priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
 
 > [!TIP]
-> Currently, we don't support filters for columns in the new work order experience. However, you select **Show as** > **Read Only Grid** to bring back the classic experience with filtering capabilities.
+> Currently, we don't support filters for columns in the new work order experience. However, you can select **Show as** > **Read Only Grid** to bring back the classic experience with filtering capabilities.
 
 ### Side pane for quick edits
 
@@ -66,11 +66,11 @@ The *General* section on the work order form contains the following cards:
 
 #### Details card
 
-The details card contains a high level overview of the work order. Here you can see and change its status, substatus, priority, or committed dates and add a instructions or write a summary of the work order.
+The details card contains a high level overview of the work order. Here you can see and change its status, substatus, priority, or committed dates and add instructions or write a summary of the work order.
 
 #### Functional location card
 
-The location card shows location-related information and a map. The **Service Address** is populated by the address of the selected functional location. If no functional location is selected, it uses to the service address. If no service address is present, it uses the address of the contact that reported the issue which lead to the the work order.
+The location card shows location-related information and a map. The **Service Address** is populated by the address of the selected functional location. If no functional location is selected, it uses to the service address. If no service address is present, it uses the address of the contact that reported the issue that initiated the work order.
 
 #### Financial card
 
@@ -78,11 +78,11 @@ The financial card is your hub for all things finances for a work order. It lets
 
 #### Dynamic bookings card
 
-The dynamic card is the key change in the new work order form. It replaces the previously used business process flow, and it's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). The dynamics card currently supports only work order with a single requirement.
+The dynamic card is the key change in the new work order form. It replaces the previously used business process flow, and it's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). The dynamic card currently supports only work order with a single requirement.
 
 The card has different states, depending on the work order status:
 
-- **Unscheduled work orders**: Get booking suggestions that fit within the time frame (date/time promised) for the work order and meets the required skills to get this work done. The suggestions are based on the work order requirement. For each resource you get the appointment time and information on their travel time from the previous appointment. If no suggestion works, select **Find availability** to open the schedule assistant and choose a resource to book them.
+- **Unscheduled work orders**: Get booking suggestions that fit within the time frame (date/time promised) for the work order and meets the required skills to get this work done. The suggestions are based on the work order requirement. For each resource, you get the appointment time and information on their travel time from the previous appointment. If no suggestion works, select **Find availability** to open the schedule assistant and choose a resource to book them.
 
 - **Scheduled work orders**: See booking details, contact information of the technician, appointment time, duration of the booking, and the expected travel time. You can change the status of a booking and rebook it if needed.
 
@@ -90,9 +90,9 @@ The card has different states, depending on the work order status:
 
 #### Contacts card
 
-Get contact information for the *reported by* contact and the *account contact*. Select the contact name to open the contact page and edit details or see additional details about the contact.
+Get contact information for the *reported by* contact and the *account contact*. Select the contact name to open the contact page and edit details or see details about the contact.
 
-The phone number defaults to the accounts business phone, but if that’s not present we’ll pull in their mobile phone. You can start a phone call or email using the default client set in your browser. The message hyperlink opens Microsoft Teams.  
+The phone number defaults to the account's business phone, but if that’s not present we use their mobile phone. You can start a phone call or email using the default client set in your browser. The message hyperlink opens Microsoft Teams.  
 
 #### Assets card
 
@@ -104,11 +104,11 @@ Expand or collapse the assets in the tree to get sub-asset information. Select a
 
 ### Products and services section
 
-The **Products and services** section on the work order form lets you see and manage [products and services](create-product-or-service.md) for the work order with ease. Products are items that a technician uses to complete the work order. Services refer to work that a technician completes and bills the customer for. Important information, such as estimates and used quantities or duration, shows at a glance and you can change the status from estimated to used, or make updates in the contextual side pane for a product or service. To add products or services to the work order, select the **Add service** or **Add product** buttons.
+The **Products and services** section on the work order form lets you see and manage [products and services](create-product-or-service.md) for the work order with ease. Products are items that a technician uses to complete the work order. Services refers to work that a technician completes and bills the customer for. Important information, such as estimates and used quantities or duration, shows at a glance and you can change the status from estimated to used, or make updates in the contextual side pane for a product or service. To add products or services to the work order, select the **Add service** or **Add product** buttons.
 
 For products, you can see its name, description, whether it’s an inventory or non-inventory product, the estimated and used quantities, the estimated and total price, and the status of whether the product was used or not.
 
-For services, you can see the name of the service name, description, the estimated and total duration, the estimated and total price for the service, and the status of whether the service was performed or not.
+For services, you can see the name of the service name, description, duration, estimated and total price, and the status.
 
 Select the side pane icon to open the product or service on the side pane and make further changes in context. Select the name of a product or service to open the full form.
 
@@ -128,7 +128,7 @@ The knowledge articles card contains important information that helps technician
 
 ### Timeline section
 
-The timeline is the place to see an audit log of activity required to get work done. The timelines lists phone calls, emails, and notes.
+The timeline is the place to see an audit log of activity required to get work done. The timeline lists phone calls, emails, and notes.
 
 ### Related section
 
