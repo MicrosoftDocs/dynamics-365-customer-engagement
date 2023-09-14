@@ -22,8 +22,8 @@ You can also configure hold and wait music for each language in each of the work
 > - Music files can be up to 20 MB. For best experience, upload MP3 files.
 > - Music files must have the ID3 tags so that they play successfully when the call is put on hold.
 > - The quality of the audio files that you upload might be reduced because audio file URLS are embedded in Speech Synthesis Markup Language (SSML). The telephony gateway gets Pulse Code Modulation (PCM) 16k audio bytes as part of the speech orchestration. More information: [Add recorded audio](/azure/ai-services/speech-service/speech-synthesis-markup-voice#add-recorded-audio).
-> - The quality of audio files might also reduce when they pass through public service telphone network (PSTN), often reduced to sample rate of 8kHz (narrowband) when played over few PSTNs. The voices in these audio files are audible but music quality is not acceptable. Reduce the sample rate of the music file to 8kHz and check whether the content sounds good. 
-> - Hold music is not embedded in SSML, it's played directly.
+> - When audio files pass through public service telphone networks (PSTN), their quality might be reduced to a sample rate of 8kHz (narrowband). While voices in these files remain audible, the music quality isn't good. We recommend you to lower the sample rate of the music file to 8kHz and assess whether the sound quality is good.
+> - Hold music files are played directly and aren't embedded in SSML.
 
 ## Edit music files
 
