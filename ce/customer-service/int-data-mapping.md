@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 09/14/2023
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,7 @@ With field mapping, you map a knowledge article received from the search provide
 
 - **Article attributes**: The knowledge article target field values.
 - **Operation types**: The mapping patterns that map the source article to the article attributes of the knowledge article entity. [Learn more about operation type mapping options.](#operation-type-mapping-options)
-- **Source property**: The value that you define for each operation type. For example, if you select the **Direct** operation type, you must select among the previously selected meta tags, or the `HTML-Title` or `HTML-Body` tag.
+- **Source property**: The value that you define for each operation type. For example, if you select the **Direct** operation type, you must select among the previously selected meta tags or the `HTML-Title` tag.
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
 1. In the Customer Service admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
