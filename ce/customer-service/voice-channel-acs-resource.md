@@ -22,7 +22,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 > [!Note]
 >
 > - After you've connected to a resource in a Power Platform environment, the phone numbers purchased via the resource that are linked to the Power Platform environment can't be transferred or migrated to another environment.
-> - You must map one Omnichannel for Customer Service instance only to one Azure Communication Services resource.
+> - You must map only one Omnichannel for Customer Service instance to one Azure Communication Services resource.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before connecting to Azure Communication Services.
 
 ### See also
