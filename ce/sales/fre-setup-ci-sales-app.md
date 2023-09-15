@@ -1,5 +1,5 @@
 ---
-title: Set up conversation intelligence
+title: Set up conversation intelligence in Sales Hub app
 description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
 ms.date: 07/03/2023
 ms.custom: bap-template
@@ -9,13 +9,13 @@ author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Set up conversation intelligence
+# Set up conversation intelligence in Sales Hub app
 
 Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
 As an administrator, configure conversation intelligence for the dialer that your sellers use.  
 
-If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. Your sellers will get three hours of conversation intelligence per month.
+If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. 
 
 [Learn more about conversation intelligence for Sales Enterprise license](digital-selling-microsoft-teams-calls.md).
 
@@ -32,6 +32,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 - A license to use Teams. [Learn more about Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
 
 - [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
+- If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
 
 ## Prerequisites for third-party dialers
 
@@ -93,10 +94,6 @@ Configure the settings to specify where your call recording data is stored, the 
 
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
-1. In the **License usage** section, you can view information about the total call recording processing hours that have been used and how many of your monthly hours remain.
-
-    :::image type="content" source="media/ci-admin-license-usage.png" alt-text="Screenshot of license usage information.":::
-
 1. (Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org. [Learn more about enabling new and upcoming features](#enable-new-and-upcoming-features).
 
 1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
@@ -140,7 +137,6 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 ### See also
 
 - [Configure sales team-level settings](configure-sales-team-level-settings.md)  
-- [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-- [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)  
+- [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
