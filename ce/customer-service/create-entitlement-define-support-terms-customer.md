@@ -1,7 +1,7 @@
 ---
 title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 09/15/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,7 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
 3. To create an entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
-   To create an entitlement from scratch, select **New** > **Blank Entitlement**. 
+   To create an entitlement from scratch, select **New** > **Blank Entitlement**.
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
@@ -61,8 +61,10 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
      - **End Date**: Choose the date after which the customer will no longer be entitled for support.  
   
-     - **Restrict based on entitlement terms**: To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is less than zero OR when the term remaining for a channel is less than zero.  
-  
+     - **Restrict based on entitlement terms**: To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when the **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
+      
+          When you choose **No**, a customer service agent will be able to create a case but **Remaining Terms** will be updated in negative, if the **Remaining Terms** is less than zero.  
+
      - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**: Specify the owner of the entitlement.
      - **Description**: Write a brief description of the entitlement.
