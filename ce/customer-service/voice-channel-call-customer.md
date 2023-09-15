@@ -18,12 +18,14 @@ To be able to call customers, your administrator must configure outbound calling
 
 1. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
 
-The **Dial number** panel appears. On the panel you can perform the following actions:
+ The **Dial number** panel appears. On the panel you can perform the following actions:
 
-- On the dial pad, you can copy or type in a number or select a number from the recently called numbers. The dropdown displays the list of supported countries and regions that you can call. You can also view and call the most recently called numbers. By default, you’ll see the last 20 calls that you’ve received or made.
-- In the **Call** dropdown list, you'll see the phone number that you're using to make the call. This is the outbound calling number that'll be displayed on the customer's phone when they receive your call.
-- You can only call the regions that have been set in their outbound profile by your administrator. If you have multiple outbound profiles set, the profile that has the region assigned is displayed to call the customer.
-- By default, the number pad is hidden. To display the number pad, select the number pad icon.
+ - On the dial pad, you can copy or type in a number or select a number from the recently called numbers. The dropdown displays the list of supported countries and regions that you can call. You can also view and call the most recently called numbers. By default, you’ll see the last 20 calls that you’ve received or made.
+ - In the call dropdown list, you'll see the phone number that you're using to make the call. This is the outbound calling number that'll be displayed on the customer's phone when they receive your call.
+ - You can only call the regions that have been set in their outbound profile by your administrator. If you have multiple outbound profiles set, the profile that has the region assigned is displayed to call the customer. 
+ - By default, the number pad is hidden. To display the number pad, select the number pad icon.
+
+1. Select **Call**.
 
 When the call connects, you'll see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you won't be able to make another call when a call is in progress.
 
