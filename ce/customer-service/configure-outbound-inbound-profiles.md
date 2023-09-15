@@ -69,7 +69,8 @@ You can define the way outbound calls are made and also who can make them.
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
-1. In **Outbound behaviors**, do the following:
+1. In **Outbound behaviors**, do the following: 
+    - **Whitelisted countries**: Select the countries that you want your agents to call. Agents can only call the numbers in countries that are selected here. If agents have multiple outbound profiles, they will see a list of countries that are selected in all the profiles.
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
