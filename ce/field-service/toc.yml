@@ -520,6 +520,14 @@ items:
     href: rso-faq.yml
   - name: Field Service (Preview) troubleshooting
     href: flw-troubleshooting.md
+  - name: Field Service Mobile (Preview) troubleshooting     
+    items:
+    - name: Troubleshooting index
+      href: flw-troubleshooting-mobile.md 
+    - name: App crashes due to Permissions and Privileges Issues
+      href: flw-troubleshooting-mobile-custom-security-role-tsg.md
+    - name: App crashes due to missing files in the solution
+      href: flw-troubleshooting-mobile-missing-files-tsg.md
 
 - name: Responsible AI
   items: 
