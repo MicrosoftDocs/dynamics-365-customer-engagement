@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
+- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** is updated to the current time. When updated from web, the start time isn't automatically updated.
 
 #### In Progress
 
@@ -137,7 +137,7 @@ By default, work orders are set to completed when the associated booking gets co
 - **On** marks a work order *Completed* when the booking changes to that status.
 - **Off** returns the work order to the *Unscheduled* status when the booking changes to that status.
 
-For work order that have multiple bookings associated, the work order status depends on the status of all related bookings.
+For work orders that have multiple bookings associated, the work order status depends on the status of all related bookings.
 
 ## Next steps
 
