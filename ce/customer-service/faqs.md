@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 04/18/2023
+ms.date: 08/31/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -154,7 +154,7 @@ Creation of the IntradayMonitoring report may take up to 15 mins to appear in yo
 
 ### What is the application ID field on the application user form?
 
-The application ID is a mandatory field for creating application users in Dataverse. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
+The application ID is a mandatory field for creating application users in Dataverse. You can copy any application ID for any valid (non-expired) application created in Microsoft Entra ID for the same tenant into this field. 
 
 ## Supervisor experience
 

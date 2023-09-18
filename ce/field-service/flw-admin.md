@@ -16,6 +16,8 @@ ms.subservice: m365-integrations
 
 As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
+[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+
 ## [Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.

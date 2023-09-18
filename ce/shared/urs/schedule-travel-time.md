@@ -70,6 +70,10 @@ If a field technician begins travel to their next work order and sees that the t
 
 The Resource Scheduling Optimization add-in takes [historical traffic information into account to better plan for travel times](../../field-service/rso-predictive-travel.md).
 
+## Estimated travel time's impact on a booking's fulfilled duration
+
+When viewing the **Fulfilled Duration** field on a scheduled requirement, estimated travel time is automatically deducted from the total time allocated to the requirement in any associated bookings. This allows users to quickly see the total duration fulfilled for active work on the requirement regardless of the associated travel time. 
+
 ## Next steps
 
 - [Add travel charges in Field Service](../../field-service/travel-charges.md)
