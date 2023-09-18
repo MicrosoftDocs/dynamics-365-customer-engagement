@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/12/2023
+ms.date: 09/18/2023
 ms.custom: bap-template
 search.audienceType: 
   - admin
@@ -18,11 +18,11 @@ search.audienceType:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The **Voice** report gives you insights into key metrics across the voice channel. You can filter this report by time, queue, time zone, conversation status, and direction. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
+The **Voice** report gives you insights into key metrics across the voice channel. You can filter this report by time, queue, time zone, conversation status, direction, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
 This report is available only if the voice feature is configured for your organization. For more information, go to [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
-The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time, and to increase agent efficiency and customer satisfaction.
+The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time. You can assign the right agents based on skills and increase agent efficiency and customer satisfaction.
 
 You can also monitor voice-specific operational metrics such as conversation direction. This metric indicates whether the conversation was started by the customer or a contact center agent. You can use these operational metrics to manage queue distribution.
 
