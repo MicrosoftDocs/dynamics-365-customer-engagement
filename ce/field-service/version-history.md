@@ -18,11 +18,11 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.97.44](/dynamics365/field-service/version-history#889744)  | TBD | 09/01/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.97.44](/dynamics365/field-service/version-history#889744)  | TBD | 09/08/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 09/01/2023 |
-| | *USG* | [8.8.97.44](/dynamics365/field-service/version-history#889744)  | TBD | 09/08/2023 |
-|**Station 4** |*Europe* |   [8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744) | 09/08/2023 | 
+|**Station 1** |  *First Release*| [8.8.98.36](/dynamics365/field-service/version-history#889836)  | TBD | 09/15/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.98.36](/dynamics365/field-service/version-history#889836)  | TBD | 09/22/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.97.44](/dynamics365/field-service/version-history#889744)  | [8.8.98.36](/dynamics365/field-service/version-history#889836)  | 09/15/2023 |
+| | *USG* | [8.8.98.36](/dynamics365/field-service/version-history#889836)  | TBD | 09/22/2023 |
+|**Station 4** |*Europe* |  [8.8.97.44](/dynamics365/field-service/version-history#889744)  | [8.8.98.36](/dynamics365/field-service/version-history#889836)  | 09/22/2023 |
 |**Station 5** | *North America*|[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/15/2023 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/15/2023 |
 | | *Dedicated Scale Groups* |[8.8.96.23](/dynamics365/field-service/version-history#889623)  | [8.8.97.44](/dynamics365/field-service/version-history#889744)   | 09/22/2023 |
@@ -32,6 +32,21 @@ For information about older versions, see [Version history archive](version-hist
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.101.95 (2023 Wave 2 early access, update2)
+
+(Includes Universal Resource Scheduling version [3.12.116.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#312116.5---2023-wave-2-early-access-update2
+) and Resource Scheduling controls version 1.2.55.232482).
+
+- Dynamics 365 Field Service Mobile: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
+
+## 8.8.98.36
+(Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).
+
+- Fixed a bug that caused errors when navigating to Field Service settings.
+-	Job status on Field Service System Jobs is no longer required and will not be set to pending.
+- Dynamics 365 Field Service Mobile: Fixed an accessibility bug by showing a string that informs the user when a required date field is not filled. 
+- Dynamics 365 Field Service Mobile: Fixed a crash in the Inspections control that could happen when the user interacts with date fields. 
+ 
 ## 8.8.97.44
 (Includes Universal Resource Scheduling version [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.50.232152).
 
