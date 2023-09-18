@@ -40,7 +40,7 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 | ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No | True
 | MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No | False
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
-| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection will represent one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
+| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represenst one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources will be returned for onsite requirements.
 | MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
 
@@ -48,16 +48,16 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 
 | Name | Type | Description | Required | Default
 | --- | --- | --- | --- | --- |
-| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_resourceType`. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
+| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection represents one bookable resource type. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_resourceType`. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
 | PreferredResources | EntityCollection | This attribute specifies the resources preferred for the requirement. Adding resources to this entity collection ensures that they are at the top of the list of available resources. Even resources that are not a part of the entity collection will be on the list, but only after the preferred resources. | No | None
 | RestrictedResources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. All time slots of this resource will be filtered out of the list of results from this API.  | No| None
-| MustChooseFromResources | EntityCollection | This attribute specifies the only resources that can be on the list of available resources. It will filter out all the other results from the output list.
+| MustChooseFromResources | EntityCollection | This attribute specifies the only resources that can be on the list of available resources. It filters out all the other results from the output list.
 | Constraints | Entity | This attribute specifies the additional constraints that should be applied to the retrieval of available resources. | No| None
 | RetrieveResourcesQueryId | Guid | The Id for the Retrieve Resources query. | No| The default Retrieve Resource Query Id.
 | BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement. | No| None
 
 > [!Note] 
-> The **Preferred**/ **Restricted** / **MustChooseFrom** resources attributes can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one **Preferred** / **Restricted** / **MustChooseFrom** resource. This is the attribute required for them: <ol> <li> **Value** (_Guid_): The bookable resource ID of the **Preferred** / **Restricted** / **MustChooseFrom** resource. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_bookableresource`.
+> The **Preferred**/ **Restricted** / **MustChooseFrom** resources attributes can be specified using an entity collection of bookable resource entities. Each entity in the collection represents one **Preferred** / **Restricted** / **MustChooseFrom** resource. This is the attribute required for them: <ol> <li> **Value** (_Guid_): The bookable resource ID of the **Preferred** / **Restricted** / **MustChooseFrom** resource. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_bookableresource`.
   
 #### Constraints
 
@@ -139,6 +139,7 @@ In this example, v3 of schedule assistant API which allows for web API calls is 
         "msdyn_todate": "2021-07-15T23:59:00Z",
         "msdyn_remainingduration": 60,
         "msdyn_duration": 60,
+        "msdyn_TimeGroup@odata.bind": "/msdyn_timegroups(c3dc79ea-d12f-ee11-9cc9-000d3a745a58)",
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
     },
     "Settings": {
