@@ -1,6 +1,6 @@
 ---
 title: Migrate configuration data for SMS channel
-description: Learn to migrate data pertaining to SMS channel from source to target environments in Customer Service workspace.
+description: Learn to migrate data pertaining to SMS channel from source to target environments in Omnichannel for Customer Service.
 author: venki-ms
 ms.author: v-duddupdiv
 ms.reviewer: nenellim
