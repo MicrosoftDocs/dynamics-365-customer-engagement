@@ -1,7 +1,7 @@
 ---
 title: Work order lifecycle and system statuses
 description: Track the status of a work order in its lifecycle with system statuses, substatuses, and booking statuses.
-ms.date: 06/09/2023
+ms.date: 09/18/2023
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -127,6 +127,17 @@ Every booking status change creates a booking timestamp to keep track of the upd
 - Updates **Total Cost**, calculated as the sum total of actual travel duration, total duration in progress, and the total break duration, multiplied by the resource's hourly rate.
 - Updates **Total Billable Duration**, calculated as the sum total of total duration in progress and total break duration.
 - Updates **Completed On (Work Order)** field on the related work order with the end time of the booking. Editing the booking end time updates the **Completed On** value.
+
+### Create follow-up work order for a completed booking
+
+Save time on work orders that require follow-up by returning them to an unscheduled state after completing a booking.
+
+By default, work orders are set to completed when the associated booking gets completed. To change the default logic, [create or edit a booking status](set-up-booking-statuses.md), go to the **Field Service** tab and set the **Status completes work order** toggle accordingly. On existing booking statuses, the setting only impacts future bookings. No changes are made to existing bookings.
+
+- **On** marks a work order *Completed* when the booking changes to that status.
+- **Off** returns the work order to the *Unscheduled* status when the booking changes to that status.
+
+For work order that have multiple bookings associated, the work order status depends on the status of all related bookings.
 
 ## Next steps
 
