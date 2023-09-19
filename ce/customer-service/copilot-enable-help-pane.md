@@ -10,7 +10,11 @@ ms.date: 09/19/2023
 ms.custom: bap-template .
 ---
 
-# Enable features in Copilot pane
+# Enable features in Copilot pane (preview)
+
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 The Copilot help pane allows agents to use Copilot features such as respond to questions, compose an email, and draft a chat response in Customer Service workspace.
 
