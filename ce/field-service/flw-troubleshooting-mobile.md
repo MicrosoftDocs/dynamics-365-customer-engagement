@@ -53,3 +53,18 @@ The new Native Experience app setting toggle is available through a new "Setting
 
 ### Resolution
 Follow [these steps](flw-troubleshooting-mobile-missing-files-tsg.md) to enable the "Settings" sitemap area in your custom app module.
+
+## The new Native expeience does not show up even if the "New experience" toggle in the Settings has been enabled
+
+### Prerequisites
+
+Administrator permissions in Dynamics 365 Field Service (Preview).
+
+### Symptoms
+The Field Service Mobile app does not load the new experience, even if it has been enabled in the App Module Settings according to [this doc](https://learn.microsoft.com/en-us/dynamics365/field-service/mobile-powerapp-newux-overview#enable-the-preview-features).
+
+### Resolution
+The new native expeience (preview) currently does not support users or app modules with offline enabled. Verify and correct the following cases:
+1. The user used to log in into the FSM app should not be part of the Mobile Offline Profile.
+2. The App Module itself should not be setup for offline. Turn of the following setting in the maker experience
+    ![Turn off the "Offline setup from the App Designer" toggle in the App Module Settings in the Maker experience](./media/flw-troubleshooting-mobile-offline-app-module.png)
