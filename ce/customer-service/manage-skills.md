@@ -41,7 +41,7 @@ To add skills, select the **Add skill** field and enter a skill name. As you ent
 
 To remove skills, select **X** next to each skill that you want to delete.
 
-The skill updates you make for your assigned work items can then be used to retrain the machine learning-based skill finder models and help with accurate work assignments. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
+The skill updates you make for your assigned work items can then be used to retrain the machine learning-based skill finder models and help with accurate work assignments. More information: [Retrain skill finder model](set-up-isf-model.md#retrain-the-model-iteratively)
 
 ### See also
 
