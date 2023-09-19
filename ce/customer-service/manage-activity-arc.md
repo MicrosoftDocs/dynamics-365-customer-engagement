@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.service: dynamics-365
 ms.topic: how-to 
-ms.date: 08/25/2023
+ms.date: 09/22/2023
 ---
 
 
@@ -19,11 +19,11 @@ You can review and track the health of the automatic record creation rules and r
 
 Perform the following steps to view the activity monitor details for the rules:
 
-- In Customer Service admin center, the Customer Support Overview page displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details. Navigate to the views as follows:<br>
-  - Select **Activity monitor events(past 7 days)** on the Customer Service Overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
-         ![Results of the email activity monitor.](media/email-activity-monitor.png "Results of the email activity monitor")
+- In Customer Service admin center, the Customer support overview page displays the number of activity monitor events that ran in the past week along with their status. You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details. Navigate to the views as follows:<br>
+  - Select **Activity monitor events(past 7 days)** on Customer support overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
+    :::image type="content" source="media/email-activity-monitor.png" alt-text="This is a screen shot of the Activity monitor events for last 7 days page.":::
   - Select **Case Settings** > **Automatic record creation and update rules** > **Record creation and update rules** and then select **View activity monitor** on the command bar to view the list of all the rules with their statuses on the **All activity monitor events** page.
-        ![Results of the activity monitor.](media/activity-monitor-results.png "Results of the activity monitor")
+    :::image type="content" source="media/activity-monitor-results.png" alt-text="This is a screen shot of the Activity monitor events for last 7 days page.":::
   You can also switch between both these views.
 - The following details are available for the rules in both the email and activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
@@ -34,11 +34,12 @@ Perform the following steps to view the activity monitor details for the rules:
   - **Reason:** Displays information on how the rule was handled. For example, if the value in Current state for a rule is Skipped, no action would have been taken because the rule condition, such as **Allow email from unknown senders** was set to No. Therefore, no further action was required for the rule.
   - **Recommendation**: Displays the steps you can follow to resolve the issue. For example, the **Current state** for a rule is skipped with the **Reason** that an active case is already connected to this record. The application displays the following recommendation: the incoming email is related to a parent email linked to an existing case. You can turn off the **use correlation to track email conversations** if you'd like to change the existing behavior.
     > [!NOTE]
-    > Hyperlinks aren't displayed in the **Recommendation** field. If you'd like to see the hyperlinks in the recommended resolution, double click the record to view the activity monitor event details that are displayed on the **Activity monitor** page.
+    > Hyperlinks aren't displayed in **Recommendation**. If you'd like to see the hyperlinks in the recommended resolution, double click the record to view the activity monitor event details that are displayed on the **Activity monitor** page.
   - **Evaluated on:** Displays the date and time of the issue.
+- You can select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
+:::image type="content" source="media/activity-monitor-page.png" alt-text="This is a screen shot of the Activity monitor events for last 7 days page.":::
   
 > [!NOTE]
->
 > - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
 > - The legacy rules will also be monitored and listed on the activity monitor view.
 - If you don't want to monitor any of the following states, you can deselect the state on the **Monitor options** dialog.
