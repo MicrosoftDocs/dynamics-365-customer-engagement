@@ -18,7 +18,7 @@ This article describes how emergency calling works in Customer Service when agen
 
 > [!NOTE]
 >
-> - Emergency calling is currently supported in the United States and Puerto Rico only where the emergency calling number is 911.
+> - Emergency calling is currently supported in the United States, Canada, and Puerto Rico only where the emergency calling number is 911.
 > - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
 
 ## Prerequisites
@@ -27,7 +27,7 @@ Make sure that the following prerequisites are complete so that the emergency ca
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
 - Browser location setting is enabled, and set to United States or Puerto Rico.
-- For the email notification, the mailbox for the agents is enabled.
+- For the email notification, the [mailbox for the agents](/power-platform/admin/create-forward-mailboxes-edit-mailboxes) is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
    - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there's no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
@@ -52,7 +52,7 @@ Here's how emergency calling works:
 
 ## Set up email recipients
 
-When the agent makes an emergency call, the system can send an automated email to their supervisors or managers. The system uses the **Emergency Call Notification Template** to send the email.
+When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email.
 
 1. In Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
