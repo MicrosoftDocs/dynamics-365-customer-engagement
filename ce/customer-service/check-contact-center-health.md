@@ -23,8 +23,8 @@ You must have the systen administrator role.
 
 Do the following steps to check for configuration errors and incomplete configurations in your Customer Service environment.
 
-1. In Dynamics 365, go to Customer Service admin center. The Home page displays the Contact center health section.
-1. Select Run health check. Depending on the size of your contact center and the various features that you have configured, the check takes a couple of minutes to run and display the results.
+1. In Dynamics 365, go to Customer Service admin center. The **Home** page displays the **Contact center health** section.
+1. Select **Run health** check. Depending on the size of your contact center and the various features that you have configured, the check takes a couple of minutes to run and display the results.
 
 After the check is complete, the page displays the results in three categories with the number of occurrences as follows:
 
@@ -35,7 +35,7 @@ After the check is complete, the page displays the results in three categories w
    :::image type="content" source="media/contact-center-health-check.png" alt-text="A screenshot of  the page after the health check runs.":::
 
 1. Expand a category to see the problems and then select the link to a problematic setting. The setting opens on a new tab for you to take action on it.
-1. Optionally, after you resolve all the issues in the configuration, run the health check again till you see zero occurrences 
+1. Optionally, after you resolve all the issues in the configuration, run the health check again till you see zero occurrences.
 
 ### See also
 
