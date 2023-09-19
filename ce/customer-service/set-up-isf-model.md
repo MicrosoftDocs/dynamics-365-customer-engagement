@@ -117,7 +117,7 @@ Perform the following steps to upload the data for training your model:
 ### See also
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Overview of unified routing](overview-unified-routing.md) 
+[Overview of unified routing](overview-unified-routing.md)  
 [Set up skill-based routing in unified routing](set-up-skill-based-routing.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  
