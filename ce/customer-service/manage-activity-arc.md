@@ -25,7 +25,7 @@ Perform the following steps to view the activity monitor details for the rules:
   - Select **Case Settings** > **Automatic record creation and update rules** > **Record creation and update rules** and then select **View activity monitor** on the command bar to view the list of all the rules with their statuses on the **All activity monitor events** page.
     :::image type="content" source="media/activity-monitor-results.png" alt-text="A screenshot of the Activity monitor events page.":::
   You can also switch between both these views.
-- The following details are available for the rules in both the email and activity views:
+- The following details are available for the rules in the activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
   - **Rule name:** Name of the record creation rule.
   - **Monitored activity type:** Activity type, such as email, task, or appointment.
