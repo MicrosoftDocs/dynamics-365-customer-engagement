@@ -25,7 +25,7 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
 You can create as many intelligent skill finder rating models as your business requires.
 
-1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the Customer Service admin center site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Intelligent skill finder** section, select **Manage**.
 
@@ -113,3 +113,11 @@ Perform the following steps to upload the data for training your model:
 4. Review the upload settings, and select **Finish** after you go through the stages. The data upload starts. The time taken for the data upload depends on the number of records.
 5. Optionally, you can select **Refresh** to see the updated status of the data upload.
 6. Perform steps 5 through 8 in [Create skill finder models](#create-skill-finder-models) to approve, train, and publish your model.
+
+### See also
+
+[Overview of skill-based routing](overview-skill-work-distribution.md)  
+[Overview of unified routing](overview-unified-routing.md) 
+[Set up skill-based routing in unified routing]() 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]  
