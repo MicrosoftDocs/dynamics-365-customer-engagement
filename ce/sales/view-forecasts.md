@@ -38,7 +38,7 @@ You can take advantage of forecasts even if your administrator hasn't configured
 
 ## Difference between the default forecast and a configured forecast
 
-The following table lists the differences between the default forecast and a configured forecast.
+The following table lists the differences between the default forecast and a forecast configured for your organization.
 
 | Default forecast | Configured forecast |
 |-----------------------|---------|
@@ -46,7 +46,7 @@ The following table lists the differences between the default forecast and a con
 | Available to all users. | Available to users who have been granted access by the administrator. |
 | Forecast is available only for the current month | Forecast is available for the number of periods defined in the forecast configuration. |
 | Forecast values are updated in real-time | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
-| Quote value is based on previous month's won amount | Quote value is based on the value defined in the forecast configuration. |
+| Quota value is based on previous month's won amount | Quota value is based on the value defined in the forecast configuration. |
 | Updates to the underlying records are are saved to the opportunity record but the forecast values are not updated immediately.| Updates to the underlying records reflected in the forecast only after the forecast is recalculated. |
 | Can handle upto 50,000 records | No limitation on the number of records |
 | Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
