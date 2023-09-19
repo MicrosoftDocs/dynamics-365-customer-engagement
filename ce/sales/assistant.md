@@ -32,7 +32,7 @@ Depending on your role, you can use the text message feature as described in the
 **Sales manager, seller, or any other similar role**:
 
 - Use the assistant to stay on top of your day. More information: [Use the assistant to guide customer communications](use-assistant-guide-customer-communications.md)
-- Manage your insight cards by turning on or off. More information: [Turn on or off the insight cards](turn-on-off-insight-cards.md)
+- Manage your insight cards by turning on or off. More information: [Turn on or off insight cards](turn-on-off-insight-cards.md)
 - Reference of default insight cards. More information: [Insight cards reference](action-cards-reference.md)
 
 ## Assistant studio tutorials

@@ -1011,9 +1011,9 @@
           items:
             - name: Use the assistant to guide customer communications
               href: use-assistant-guide-customer-communications.md
-            - name: Turn on or off the insight cards
+            - name: Turn on or off insight cards
               href: turn-on-off-insight-cards.md  
-            - name: Reference of default insight cards
+            - name: Default insight cards
               href: action-cards-reference.md
     - name: Relationship intelligence
       items:
