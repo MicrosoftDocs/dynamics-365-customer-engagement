@@ -11,9 +11,9 @@ ms.collection: get-started
 
 # Configure outbound and inbound profiles
 
-Use the information in this article to create profiles that'll be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create will be listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that will be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
 
-Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls won't be tracked in unified routing historical analytics.
+Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
 
 ## Prerequisites
 
@@ -70,7 +70,7 @@ You can define the way outbound calls are made and also who can make them.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
 1. In **Outbound behaviors**, do the following: 
-    - **Whitelisted countries**: Select the countries that you want your agents to call. Agents can only call the numbers in countries that are selected here. If agents have multiple outbound profiles, they will see a list of countries that are selected in all the profiles.
+    - **Supported countries**: Select the countries from the options to limit the countries that your agents can call. The agents can only call numbers in the selected countries. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
@@ -87,14 +87,14 @@ You can define the way outbound calls are made and also who can make them.
 
 The default profiles are available out of the box if you use the first-run experience in the new org. Some of the features are as follows:
 
-- The default profiles are used as fallback profiles when agents are not assigned a profile.
+- The default profiles are used as fallback profiles when agents aren't assigned a profile.
 - You can edit the behavior and templates only but not the profile type for the default profiles.
 - The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
-- The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless specifically configured. When a customer calls, if no other inbound profile exists, the default profile will be used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
+- The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless configured. When a customer calls, if no other inbound profile exists, the default profile is used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
 
 ### Edit profiles
 
-Edit the profiles to update the behavior and advanced settings. You can delete profiles that are not required.
+Edit the profiles to update the behavior and advanced settings. You can delete profiles that aren't required.
 
 1. On the **Outbound and inbound profiles** page, select a profile from the list and select **Edit**. On the **Edit profile settings** dialog, update details in the required sections.
 
