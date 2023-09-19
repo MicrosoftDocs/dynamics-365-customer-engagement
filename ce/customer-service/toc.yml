@@ -232,8 +232,10 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing for unified routing
+        - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
+        - name: Set up intelligent skill finder model in unified routing
+          href: set-up-isf-model.md
         - name: Model data tables as skills
           href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
@@ -936,18 +938,6 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service (preview)
-      items:
-      - name: Enable Copilot in Customer Service
-        href: configure-copilot-features.md
-      - name: Configure copilot settings for custom case forms and custom apps
-        href: copilot-powerapps-settings.md
-      - name: Use copilot features
-        href: use-copilot-features.md
-      - name: View analytics for Copilot impact
-        href: copilot-analytics-report.md  
-      - name: Copilot data movement across geographies
-        href: copilot-data-movement.md
     - name: Administrator experience
       items:
       - name: Productivity pane
@@ -996,6 +986,56 @@
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
         href: developer/reference/methods/message-object.md
+  - name: Copilot in Customer Service (preview)
+    items: 
+    - name: Administrator experience
+      items: 
+      - name: Manage Copilot features in Customer Service
+        href: configure-copilot-features.md     
+      - name: Enable case summaries
+        href: configure-copilot-features.md#enable-case-summaries     
+      - name: Enable conversation summaries
+        href: configure-copilot-features.md#enable-conversation-summaries
+      - name: Enable ask a question
+        href: configure-copilot-features.md#enable-ask-a-question
+      - name: Enable draft a response
+        href: configure-copilot-features.md#enable-draft-a-response
+      - name: Enable write an email
+        href: configure-copilot-features.md#enable-write-an-email
+      - name: View feedback data
+        href: configure-copilot-features.md#enable-write-an-email        
+      - name: Make Copilot available to agents
+        href: configure-copilot-features.md#make-copilot-available-to-agents
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md
+    - name: Agent experience
+      items: 
+      - name: Use Copilot to solve customer issues
+        href: use-copilot-features.md
+      - name: Summarize cases
+        href: use-copilot-features.md#summarize-cases
+      - name: Summarize conversations
+        href: use-copilot-features.md#summarize-conversations
+      - name: Summarize conversations
+        href: use-copilot-features.md#summarize-conversations
+      - name: Ask a question
+        href: use-copilot-features.md#ask-a-question
+      - name: Draft a chat response
+        href: use-copilot-features.md#draft-a-chat-response
+      - name: Draft emails
+        href: use-copilot-features.md#draft-emails                      
+    - name: Supervisor experience
+      items: 
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md
+    - name: Customizer experience
+      items: 
+      - name: Display Copilot case summary on custom case forms
+        href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
+      - name: Modify fields used to generate case summary
+        href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
+      - name: Enable Copilot features for custom apps
+        href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
   - name: Bots
     items:
     - name: Overview of bots
@@ -1031,7 +1071,7 @@
             href: parse-activity-json-to-get-bot-context.md
         - name: Power Virtual Agents
           items:
-          - name: Enable bot context for Power Virtual Agents bots
+          - name: Enable bot context for Power Virtuafl Agents bots
             href: enable-bot-context-pva.md   
         - name: Code samples for parsing activity JSON 
           href: bot-context-json-samples.md
@@ -1343,6 +1383,8 @@
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
       href: migrate-config-data-for-voice-channel.md
+    - name: Migrate configuration data for SMS channel
+      href: migrate-config-data-for-sms-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
@@ -1451,6 +1493,14 @@
         href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
+      - name: msdyn_copilotinteraction
+        href: developer/reference/entities/msdyn_copilotinteraction.md
+      - name: msdyn_copilotinteractiondata
+        href: developer/reference/entities/msdyn_copilotinteractiondata.md
+      - name: msdyn_copilottranscript
+        href: developer/reference/entities/msdyn_copilottranscript.md
+      - name: msdyn_copilottranscriptdata
+        href: developer/reference/entities/msdyn_copilottranscriptdata.md                           
       - name: msdyn_customengagementctx
         href: developer/reference/entities/msdyn_customengagementctx.md
       - name: msdyn_decisioncontract
