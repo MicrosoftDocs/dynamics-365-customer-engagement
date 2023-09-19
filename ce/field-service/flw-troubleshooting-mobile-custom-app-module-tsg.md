@@ -1,7 +1,7 @@
 ---
-title: App shows error on start due to Permissions and Privileges Issues
-description: FSM App (preview) shows error on start due to Permissions and Privileges Issues
-ms.date: 09/14/2023
+title: The Field Service Mobile App Module does not show the Settings area, so I can't enable the new Native experience
+description: The Field Service Mobile App Module does not show the Settings area, so I can't enable the new Native experience
+ms.date: 09/19/2023
 ms.topic: troubleshooting
 author: andrea-orimoto
 ms.author: andreo
