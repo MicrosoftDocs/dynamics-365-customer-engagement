@@ -20,11 +20,11 @@ You can review and track the health of the automatic record creation rules and r
 Perform the following steps to view the activity monitor details for the rules:
 
 - In Customer Service admin center, the Customer support overview page displays the number of activity monitor events that ran in the past week along with their status.
-      :::image type="content" source="media/cs-customer-support-overview.png" alt-text="A screenshot of the customer support overview page.":::
 -  You can use either the **Activity monitor events for last 7 days** or **All activity monitor events** to view the activity monitor details. Navigate to the views as follows:<br>
   - Select **Activity monitor events(past 7 days)** on Customer support overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
     :::image type="content" source="media/email-activity-monitor.png" alt-text="A screenshot of the Activity monitor events for last seven days page.":::
-  - Select **Case Settings** > **Automatic record creation and update rules** > **Record creation and update rules** and then select **View activity monitor** on the command bar to view the list of all the rules with their statuses on the **All activity monitor events** page.
+  - Select **Case Settings** > **Automatic record creation and update rules** > **Record creation and update rules** and then select **View activity monitor** on the command bar to view the list of all the activity events on the **All activity monitor events** page.
+    :::image type="content" source="media/activity-monitor-results.png" alt-text="A screenshot of the all activity monitor.":::
   You can also switch between both these views.
 - The following details are available for the rules in the activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
