@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 05/09/2023
+ms.date: 08/09/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -225,7 +225,7 @@ You need to be a member of the connected team channel to view files. Contact the
 
 ### Embedded Power Apps canvas apps don't work 
 
-You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. 
+You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. This might display a message to sign in to the app, authentication error message, or the **Error loading control** message.
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 

@@ -64,6 +64,8 @@
       href: system-requirements-omnichannel.md
     - name: Service quotas
       href: service-quotas.md
+    - name: Best practices to set up voice channel
+      href: voice-channel-best-practices.md
   - name: Availability
     items: 
     - name: International availability of Omnichannel for Customer Service
@@ -668,6 +670,12 @@
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
+      - name: Integrate Nuance Cloud IVR bot
+        items:
+        - name: Introduction to Nuance Cloud IVR bot integration
+          href: oc-nuance-overview.md
+        - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
+          href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations
@@ -930,18 +938,6 @@
       href: data-masking-settings.md  
   - name: Agent productivity tools
     items: 
-    - name: Copilot in Customer Service (preview)
-      items:
-      - name: Enable Copilot in Customer Service
-        href: configure-copilot-features.md
-      - name: Configure copilot settings for custom case forms and custom apps
-        href: copilot-powerapps-settings.md
-      - name: Use copilot features
-        href: use-copilot-features.md
-      - name: View analytics for Copilot impact
-        href: copilot-analytics-report.md  
-      - name: Copilot data movement across geographies
-        href: copilot-data-movement.md
     - name: Administrator experience
       items:
       - name: Productivity pane
@@ -990,6 +986,56 @@
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
         href: developer/reference/methods/message-object.md
+  - name: Copilot in Customer Service (preview)
+    items: 
+    - name: Administrator experience
+      items: 
+      - name: Manage Copilot features in Customer Service
+        href: configure-copilot-features.md     
+      - name: Enable case summaries
+        href: configure-copilot-features.md#enable-case-summaries     
+      - name: Enable conversation summaries
+        href: configure-copilot-features.md#enable-conversation-summaries
+      - name: Enable ask a question
+        href: configure-copilot-features.md#enable-ask-a-question
+      - name: Enable draft a response
+        href: configure-copilot-features.md#enable-draft-a-response
+      - name: Enable write an email
+        href: configure-copilot-features.md#enable-write-an-email
+      - name: View feedback data
+        href: configure-copilot-features.md#enable-write-an-email        
+      - name: Make Copilot available to agents
+        href: configure-copilot-features.md#make-copilot-available-to-agents
+      - name: Copilot data movement across geographies
+        href: copilot-data-movement.md
+    - name: Agent experience
+      items: 
+      - name: Use Copilot to solve customer issues
+        href: use-copilot-features.md
+      - name: Summarize cases
+        href: use-copilot-features.md#summarize-cases
+      - name: Summarize conversations
+        href: use-copilot-features.md#summarize-conversations
+      - name: Summarize conversations
+        href: use-copilot-features.md#summarize-conversations
+      - name: Ask a question
+        href: use-copilot-features.md#ask-a-question
+      - name: Draft a chat response
+        href: use-copilot-features.md#draft-a-chat-response
+      - name: Draft emails
+        href: use-copilot-features.md#draft-emails                      
+    - name: Supervisor experience
+      items: 
+      - name: View analytics for Copilot impact
+        href: copilot-analytics-report.md
+    - name: Customizer experience
+      items: 
+      - name: Display Copilot case summary on custom case forms
+        href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
+      - name: Modify fields used to generate case summary
+        href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
+      - name: Enable Copilot features for custom apps
+        href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
   - name: Bots
     items:
     - name: Overview of bots
@@ -1025,7 +1071,7 @@
             href: parse-activity-json-to-get-bot-context.md
         - name: Power Virtual Agents
           items:
-          - name: Enable bot context for Power Virtual Agents bots
+          - name: Enable bot context for Power Virtuafl Agents bots
             href: enable-bot-context-pva.md   
         - name: Code samples for parsing activity JSON 
           href: bot-context-json-samples.md
@@ -1317,9 +1363,10 @@
     items: 
     - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
       items:
+      - name: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
+        href: migrate-oc-to-csw.md
       - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
         href: enable-oc-disable-csw.md
-      href: migrate-oc-to-csw.md
     - name: Migrate configuration data for the record channel
       items:
       - name: Overview of data migration for records
@@ -1336,6 +1383,8 @@
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
       href: migrate-config-data-for-voice-channel.md
+    - name: Migrate configuration data for SMS channel
+      href: migrate-config-data-for-sms-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
@@ -1444,6 +1493,14 @@
         href: developer/reference/entities/msdyn_conversationmessageblock.md        
       - name: msdyn_conversationsuggestionrequestpayload
         href: developer/reference/entities/msdyn_conversationsuggestionrequestpayload.md
+      - name: msdyn_copilotinteraction
+        href: developer/reference/entities/msdyn_copilotinteraction.md
+      - name: msdyn_copilotinteractiondata
+        href: developer/reference/entities/msdyn_copilotinteractiondata.md
+      - name: msdyn_copilottranscript
+        href: developer/reference/entities/msdyn_copilottranscript.md
+      - name: msdyn_copilottranscriptdata
+        href: developer/reference/entities/msdyn_copilottranscriptdata.md                           
       - name: msdyn_customengagementctx
         href: developer/reference/entities/msdyn_customengagementctx.md
       - name: msdyn_decisioncontract
@@ -1862,6 +1919,8 @@
       href: troubleshoot-delete-managed-solution.md
     - name: Troubleshoot issues in Omnichannel for Customer Service
       href: troubleshoot-omnichannel-customer-service.md
+    - name: Use diagnostic messages to troubleshoot issues in voice calls
+      href: /troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/use-diagnostic-messages-in-call-issues?context=/dynamics365/context/customer-service-context
     - name: Troubleshoot issues using Solution Health Hub
       href: troubleshoot-using-solution-health-hub.md
     - name: Troubleshoot issues with integrated search providers

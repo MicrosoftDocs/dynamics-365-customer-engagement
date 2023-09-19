@@ -295,7 +295,7 @@ items:
       href: cfs-mobile-powerapp.md
     - name: Customize the mobile app
       items:
-        - name: Customize the home screen (Site Map)
+        - name: Customize the navigation and views
           href: mobile-power-app-configure.md
         - name: Customize calendar columns
           href: mobile-powerapp-customize-booking-calendar.md
@@ -317,8 +317,6 @@ items:
   items:
     - name: Agreements
       href: set-up-customer-agreements.md
-    - name: Service level agreements
-      href: sla-work-orders.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
     - name: Entitlements
@@ -527,13 +525,8 @@ items:
   items: 
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ for Outlook work order creation
+    - name: FAQs for Outlook work order creation
       href: faqs-wo-flw-copilot.md
-
-- name: Responsible AI
-  items: 
-    - name: Overview
-      href: responsible-ai-overview.md
     - name: FAQs for work order recap
       href: faqs-work-order-recap.md
 
