@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for live chat
 description: Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service.
-ms.date: 08/02/2023
+ms.date: 09/18/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -543,6 +543,8 @@ The following assumptions are in place:
 1. Export the data and generate the compressed (zip) file.
 
 1. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
+For sample schema to get all the required records, see [Sample schema for live chat channel](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/live-chat-sample-schema/live-chat-channel-sample-config.xml)
 
 ### FetchXML for live chat<a name="BKMKlive-chat"></a>
 

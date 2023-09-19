@@ -12,6 +12,7 @@ ms.custom:
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+search.app: salescopilot-docs 
 ---
 
 # Use Sales Copilot (preview)
