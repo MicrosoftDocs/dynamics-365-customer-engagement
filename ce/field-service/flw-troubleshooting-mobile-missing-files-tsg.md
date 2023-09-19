@@ -1,6 +1,6 @@
 ---
-title: App crashes due to missing files in the solution
-description: FSM App (preview) crashes due to missing files in the solution
+title: App shows error on start due to missing files in the solution
+description: FSM App (preview) shows error on start due to missing files in the solution
 ms.date: 09/14/2023
 ms.topic: troubleshooting
 author: andrea-orimoto

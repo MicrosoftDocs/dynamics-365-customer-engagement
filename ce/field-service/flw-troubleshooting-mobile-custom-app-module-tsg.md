@@ -9,7 +9,9 @@ ms.reviewer:
 ms.custom: bap-template
 ---
 
-Michael the content for [this page is here](https://dynamicscrm.visualstudio.com/OneCRM/_wiki/wikis/FieldService.NativeExperience/65417/Permissions-and-Privileges-Issue-prvReadmsdyn_Mobile)
+Michael the content for [this page is here](https://eng.ms/docs/cloud-ai-platform/business-applications-and-platform/bap-frontline/field-service/field-service-mobile/troubleshooting-guides/native/configuration/enablesettingsarea)
 
 1. summarize as needed
 2. clean up screenshots (names, etc.)
+
+
