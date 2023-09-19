@@ -19,21 +19,13 @@ You can create, test, and train machine-learning models that use AI to determine
 Intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. More information: [Availability of AI Builder](/ai-builder/availability-region).
 
  > [!IMPORTANT]
- > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work only in another test environment and not in a production environment.
+ > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work in another test environment only and not in a production environment.
 
 ## Create skill finder models
 
-You can set up the intelligent skill finder model rating models in the Customer Service admin center app. You can create as many models as your business requires.
+You can create as many intelligent skill finder rating models as your business requires.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Intelligent skill finder** section, select **Manage**.
 
@@ -76,7 +68,7 @@ You can define the conditions as seen in the following screenshot.
 
   ![Conditions to fetch data for retraining the model.](media/retrain-conditions.png "Conditions to fetch data for retraining the model")
 
-### Use training data imported from Excel file
+### Use training data from the Excel file
 
 If you don't have data to train your model, you can populate skills and attributes data in Excel files and upload them to the application by using the import feature of Microsoft Dataverse.
 
