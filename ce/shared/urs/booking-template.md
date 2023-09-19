@@ -45,9 +45,9 @@ Here's an example that pulls values from the work order that relates to the book
 > Add more relationship hops by connecting them with an additional period.
 
 > [!NOTE]
-> Referencing appointment attributes in the schedule board booking template is not supported, as appointment template data is dependent on having an associated booking.
+> Referencing appointment attributes in the schedule board booking template is not supported because appointment template data is dependent on having an associated booking.
 >
-> To reference these attributes, users can ensure that their appointments have bookings associated with them, and then disable the Include Appointments setting from the Scheduling Parameters. Keep in mind that disabling this setting will hide all appointments which don't have any bookable resource bookings linked to them on the Schedule Board.
+> To reference these attributes, ensure that appointments have bookings associated with them, and then disable the **Include Appointments** setting from the **Scheduling Parameters**. Disabling this setting hides all appointments which don't have a bookable resource bookings linked to them on the schedule board.
 
 ## Advanced booking template styling using CSS
 
