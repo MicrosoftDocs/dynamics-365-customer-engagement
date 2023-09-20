@@ -737,7 +737,7 @@
       items:
       - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Use Sales Copilot capabilities
+      - name: Use Sales Copilot in Sales Hub
         href: use-sales-copilot.md
       - name: Compose and send email messages using Sales Copilot
         href: compose-send-email-copilot.md
@@ -745,6 +745,10 @@
         href: view-copy-email-summary.md
       - name: Sales Copilot FAQs
         href: sales-copilot-faq.md
+      - name: Use Sales Copilot in Outlook
+        href: /microsoft-sales-copilot/use-sales-copilot-outlook
+      - name: Use Sales Copilot in Teams
+        href: /microsoft-sales-copilot/use-sales-copilot-teams
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365
