@@ -745,10 +745,6 @@
         href: view-copy-email-summary.md
       - name: Sales Copilot FAQs
         href: sales-copilot-faq.md
-      - name: Use Sales Copilot in Outlook
-        href: /microsoft-sales-copilot/use-sales-copilot-outlook
-      - name: Use Sales Copilot in Teams
-        href: /microsoft-sales-copilot/use-sales-copilot-teams
     - name: Collaboration
       items:
       - name: Microsoft Teams chat in Dynamics 365

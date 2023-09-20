@@ -48,3 +48,9 @@ More information: [Dynamics 365 Sales Copilot data movement](sales-copilot-data-
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure Open AI or any other Large Language Models.
+
+## What's the difference between Microsoft Sales Copilot and Dynamics 365 Sales Copilot?
+
+Microsoft Sales Copilot is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Sales Copilot can connect with any CRM such as Dynamics 365 Sales, Salesforce, and so on. [Learn more about Microsoft Sales Copilot](/microsoft-sales-copilot/introduction). 
+
+Sales Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Dynamics 365 Sales Copilot](copilot-overview.md).
