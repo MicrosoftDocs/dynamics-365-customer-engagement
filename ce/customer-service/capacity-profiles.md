@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles in Omnichannel for Customer Service.
-ms.date: 09/12/2023
+ms.date: 10/01/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -75,6 +75,46 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 6. Select **Add user**. The capacity profile is assigned to the user.
 
+## Configure custom limits for capacity profiles<a name="custom-limits"></a>
+
+Senior or proficient agents can handle more cases and conversations compared to the junior agents for the same work type. Therefore, depending on the agent expertise and experience, you can allocate different quotas or concurrent conversation limits to agents through capacity profiles.
+
+Use the custom limit option in capacity profiles to define the maximum number of work items that the selected users can take.
+
+To set custom limits for agents, do the following steps:
+
+1. In Customer Service admin center, select **User management** under **Customer support**, and then on the page that appears, select **Manage** for **Enhanced user management**.
+1. In **Contact center users**, select the agents for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
+1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need,
+1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
+1. Repeat the step 3 to update more profiles if you need to.
+1. Save and close. 
+1. Inform the affected agents to refresh their browser to update their presence. The system assigns the work items based on their updated capacity and presence.
+1. Check the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard to see the capacity profile updates for the active agents.
+1. To reset the custom limit, set the custom limit field to empty and save the changes.
+
+The configuration updates take 15 minutes to sync.
+
+### How custom limit in capacity profile works
+
+Typically, the work assignment takes place according to the individual agent's default work item limit of the capacity profiles.
+
+When you configure a custom limit for agents for a capacity profile, then agents are assigned work items according to the custom limit and the following characteristics are applicable:
+
+- The custom limit might be lower or higher than the default limit and is applicable for the selected agents until you reset it to the default limit.
+
+- The custom limit is applied on new work assignments only. If the custom limit is lower than the used limit, the system doesn't reallocate the currently assigned work items for the agents.
+
+- The other agents with the same capacity profile have the default limit.
+
+- When you update the default limit, the custom limit isn't disturbed.
+
+- The custom limit is denoted with arrow icons so that you can visually differentiate between users with default and custom limits. 
+
+An example of the custom limit is as follows:
+
+Consider agent Ana, who is an expert in handling Return queries but beginner in Café A 100 queries. Ana has 2 capacity profiles&mdash;"Return orders" that has the custom limit of 5 and "Café A 100" that has the default limit 3. This means that Ana will be assigned 5 "Return orders" conversations and 3 "Café A 100" conversations. Another agent Eugene has just joined Contoso and has a default limit for both "Return orders" and "Café A 100" profiles. Eugene will receive 3 conversations each for both "Return orders" and "Café A 100" based on the default limits.
+
 ## Set capacity profiles for workstreams
 
 After you create the capacity profiles, configure the following settings to assign work items to agents at runtime:
@@ -120,36 +160,13 @@ Let us take a scenario where you want to route cases as follows:
 
 1. Ensure that the agents have all the three profiles.
 
-**Runtime behavior of multiple capacity profiles in a single workstream**
+### Runtime behavior of multiple capacity profiles in a single workstream
 
 When a work item is labeled with multiple capacity profiles, the assignment strategy considers the agent who matches all the required capacity profiles.
 
 1. When the high priority work item comes, it will be labeled with "Total-capacity profile" and "High-priority profile".
 2. An agent who has capacity in both these profiles only will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
-
-## Configure custom limits for capacity profiles<a name="custom-limits"></a>
-
-Senior or proficient agents can handle more cases and conversations compared to the junior agents for the same work type. To use the agents optimally, you can allocate different quotas or concurrent conversation limits to agents depending on their expertise and experience. 
-
-Use the custom limit option to update the maximum number of work items that the selected users can take until reset. The new limit can be higher (or lower) than the default limit. If you specify a custom limit that's lesser than the used limit, the system doesn't take away the assigned work items from the agents.
-
-The supervisor can see the real-time limits for the agents in the [Agents report](realtime-agents-analytics.md).
-
-To set custom limits for agents, do the following steps:
-
-1. In Customer Service admin center, select **User management** under **Customer support**, and then on the page that appears, select **Manage** for **Enhanced user management**.
-1. In **Contact center users**, select the agents for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
-1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need,
-1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
-1. Repeat the step 3 to update more profiles if you need to.
-1. Save and close. 
-1. Inform the affected agents to refresh their presence so that work items are assigned based on their updated capacity.
-1. Optionally, use the **Active Agent capacity update histories** view to see the capacity profile updates for the active agents.
-
-### How custom limit in capacity profile works
-
-Payas, need a draft or pointers for flow of information for this section.
 
 ### See also
 
