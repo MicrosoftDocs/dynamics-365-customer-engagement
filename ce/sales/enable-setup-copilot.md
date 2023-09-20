@@ -15,7 +15,7 @@ ms.reviewer: shujoshi
 Enable Sales Copilot on apps that your sales team uses and grant them access. After you do, sellers can use Sales Copilot to summarize records, catch up on updates, prepare for meetings, and so on.
 
 > [!NOTE]
-> Sales Copilot is enabled by default for orgs in North America and Europe regions. It's enabled for all the sales apps with lead and opportunity entities in these two regions. If your org is in a different region, you need to enable Sales Copilot manually.  
+> Sales Copilot is enabled by default for orgs in North America region. It's enabled for all the sales apps with lead and opportunity entities in this region. If your org is in a different region, you need to enable Sales Copilot manually.  
 
 ## License and role requirements
 
