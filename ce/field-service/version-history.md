@@ -36,8 +36,8 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) and Resource Scheduling controls version 1.2.52.232511).
 
 - Fixed a problem causing IoT properties to be converted from a string to a date value if a 4 digit number is entered.
-- D365 Field Service Mobile: Fixed a race condition in Field Service Inspections which could result in an error if Work Order Service Task is marked as complete quickly after the Inspection is completed.
-- Updated Field Service Inspections to prevent Inspection response from being created in some unexpected scenarios.
+- Dynamics 365 Field Service Mobile: Fixed a race condition in inspections which could result in an error if work order service task is marked as complete quickly after the inspection is completed.
+- Updated inspections to prevent inspection response from being created in some unexpected scenarios.
 
 
 ## 8.8.101.95 (2023 Wave 2 early access, update2)
@@ -45,12 +45,12 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.116.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#312116.5---2023-wave-2-early-access-update2
 ) and Resource Scheduling controls version 1.2.55.232482).
 
-Fixed 38 bugs across the new work order experience, insurance views on accounts, and locations categories forms. Some of the critical fixes included are:
--	Fixed a problem causing inline edits to quantities to not affect quantities to bill on work order products
--	Fixed problem hiding service account contact details and preventing adding details in the contact sub grid on new work order. 
--	Fixed a problem hiding service tasks from the new work order form related menu
--	Fixed a problem preventing estimated subtotal price from showing when the estimate is $0
--	Fixed a problem where nothing would happen when trying to expand timeline notes from the work order side panel
+Fixed 38 bugs across the new work order experience, insurance views on accounts, and locations categories forms. Some of the critical fixes included:
+-	Fixed a problem causing inline edits to quantities to not affect quantities to bill on work order products.
+-	Fixed a problem hiding service account contact details and preventing adding details in the contact sub grid on new work order. 
+-	Fixed a problem hiding service tasks from the new work order form related menu.
+-	Fixed a problem preventing estimated subtotal price from showing when the estimate is 0.
+-	Fixed a problem where nothing would happen when trying to expand timeline notes from the work order side pane.
 
 - Dynamics 365 Field Service Mobile: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
 
