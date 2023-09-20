@@ -1,7 +1,7 @@
 ---
 title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
 description: "Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-ms.date: 12/27/2022
+ms.date: 09/21/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
