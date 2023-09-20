@@ -1,6 +1,6 @@
 ---
-title: Configure Sales Copilot (preview)
-description: Learn how to configure Sales Copilot (preview) to use fields that are most relevant to your business for generating summaries and catch up information.
+title: Configure Sales Copilot
+description: Learn how to configure Sales Copilot to use fields that are most relevant to your business for generating summaries and catch up information.
 ms.date: 07/18/2023
 ms.custom: bap-template
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Configure Sales Copilot (preview)
+# Configure Sales Copilot
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -31,7 +31,7 @@ By default, Copilot uses the first seven fields in the default lead and opportun
 
 
 1. Go to the Change area and select **App Settings**.  
-1. Under **General Settings**, select **Sales Copilot (preview)**.
+1. Under **General Settings**, select **Sales Copilot**.
 1. Select **Record summary**, and then select the view you'd like to use for generating summaries for leads and opportunities.  
     You'll see the first seven fields listed under the **Fields** column. These fields will be used to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead).  
 
@@ -48,8 +48,8 @@ By default, Copilot uses the first seven fields in the default lead and opportun
 1. Save the changes.
 
 > [!IMPORTANT]
-> If you update or remove fields in any of the selected views, open the **Sales Copilot (preview)** settings page, select a different view, save the changes, and then select the updated view. Ensure that you see the updated fields listed under the **Fields** column. 
+> If you update or remove fields in any of the selected views, open the **Sales Copilot** settings page, select a different view, save the changes, and then select the updated view. Ensure that you see the updated fields listed under the **Fields** column. 
 
 ## See also
 
-[Use Sales Copilot (preview)](use-sales-copilot.md)
+[Use Sales Copilot](use-sales-copilot.md)

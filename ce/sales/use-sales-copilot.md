@@ -1,6 +1,6 @@
 ---
-title: Use Sales Copilot (preview)
-description: Learn about how to use Sales Copilot (preview) capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
+title: Use Sales Copilot
+description: Learn about how to use Sales Copilot capabilities to get a quick summary of your records, catch up on updates, prepare for meetings, and so on.
 ms.date: 08/10/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -14,9 +14,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Use Sales Copilot (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Use Sales Copilot
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Sales Copilot can summarize records, help you catch up on updates, prepare for meetings, and so on.
 
@@ -37,7 +35,7 @@ Sales Copilot launches automatically when you access the Sales Hub app. If it's 
 
 ## Use Sales Copilot chat
 
-In the Sales Copilot (preview) pane, type / to get the list of suggested requests or prompts. 
+In the Sales Copilot pane, type / to get the list of suggested requests or prompts. 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Sales Copilot pane along with the list of suggested requests":::
 
 ### Summarize an opportunity or a lead
@@ -103,4 +101,4 @@ The following card is an example of the list of emails that are not replied:
 ## See also
 
 [Copilot overview](copilot-overview.md)  
-[Configure Sales Copilot (preview)](configure-sales-copilot.md)  
+[Configure Sales Copilot](configure-sales-copilot.md)  

@@ -12,8 +12,6 @@ ms.reviewer: shujoshi
 
 # Enable and set up Sales Copilot (preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Enable Sales Copilot on apps that your sales team uses and grant them access. After you do, sellers can use Sales Copilot to summarize records, catch up on updates, prepare for meetings, and so on.
 
 > [!NOTE]
