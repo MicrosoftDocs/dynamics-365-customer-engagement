@@ -1,7 +1,7 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
 description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
-ms.date: 06/09/2023
+ms.date: 09/21/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -44,7 +44,7 @@ Azure Communication Services direct routing enables you to connect your existing
 
 1. Select **Advanced** on the menu.
 
-1. Select **Add Number** for **Bring your own number via Azure Direct Routing (preview)**.
+1. Select **Add Number** for **Bring your own number via Azure Direct Routing**.
 
 1. In the **Add your own phone number** dialog, enter the following details.
     - **Phone number**: Indicates the phone number that you own and have configured in your SBC.

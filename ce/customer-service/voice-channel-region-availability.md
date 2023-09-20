@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 05/22/2023
+ms.date: 09/21/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -79,7 +79,7 @@ You can also port existing US or toll-free phone numbers. More information: [Por
 
 ### Azure direct routing
 
-You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through Azure direct routing. This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic locations where the voice channel is generally available, Azure direct routing extends general availability support.
 
