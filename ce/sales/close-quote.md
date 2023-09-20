@@ -1,8 +1,8 @@
 ---
-title: "Close a quote | MicrosoftDocs"
-description: "A quote can be closed when it's lost, canceled, or revised."
+title: Close a quote
+description: A quote can be closed when it's lost, canceled, or revised.
 ms.date: 10/25/2021
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
