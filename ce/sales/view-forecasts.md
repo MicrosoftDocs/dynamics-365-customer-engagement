@@ -32,25 +32,6 @@ Forecasts help you to see the health of your pipeline or to see how your sales t
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
-## Default forecast
-
-You can take advantage of forecasts even if your administrator hasn't configured one. The default forecast is based on the org chart template and is available to all users. The default forecast is based on the sales team hierarchy as defined by the **Manager** field on the **User** record. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
-
-## Difference between the default forecast and a configured forecast
-
-The following table lists the differences between the default forecast and a forecast configured for your organization.
-
-| Default forecast | Configured forecast |
-|-----------------------|---------|
-| Based on the org chart template. | Based on the template that your administrator has configured. |
-| Available to all users. | Available to users who have been granted access by the administrator. |
-| Forecast is available only for the current month | Forecast is available for the number of periods defined in the forecast configuration. |
-| Forecast values are updated in real-time | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
-| Quota value is based on previous month's won amount | Quota value is based on the value defined in the forecast configuration. |
-| Updates to the underlying records are are saved to the opportunity record but the forecast values are not updated immediately.| Updates to the underlying records reflected in the forecast only after the forecast is recalculated. |
-| Can handle upto 50,000 records | No limitation on the number of records |
-| Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
-
 ## Open and view a forecast
 
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or year). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
@@ -58,7 +39,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 **To view a forecast**
 
 1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.
-   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you'll see the default forecast for the current month for your direct reports. This forecast is based on the org chart template. [Learn more about the values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
+   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you'll see the [Out-of-the-box forecast](#out-of-the-box-forecast) for the current month for your direct reports. This forecast is based on the org chart template. [Learn more about the values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
 2. If your organization has configured a forecast, follow these steps to view the forecasts that you have access to:
     1. Select a forecast from the drop-down list on the left. Any forecasts for which you have permissions will appear here.
@@ -83,7 +64,7 @@ The following columns are displayed by default in an org chart forecast.
 
 -	**Users**: Shows the hierarchy of users as defined by the **Manager** field. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy). 
 
--	**Quota**: A target amount set for a specific owner over a given time frame. This value is specified in the forecast configuration. The progress bar is calculated against this value. For the default forecast, this value is set to the previous months's won amount.
+-	**Quota**: A target amount set for a specific owner over a given time frame. This value is specified in the forecast configuration. The progress bar is calculated against this value. For the out-of-the-box forecast, this value is set to the previous months's won amount.
 
 -  **Committed**: Shows the aggregated (rolled-up) value of estimated revenue for all open opportunities that have the forecast category set as **Committed** (high confidence). This value can be adjusted during forecast.
 
@@ -97,6 +78,25 @@ The following columns are displayed by default in an org chart forecast.
 
 - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
 
+
+## Out-of-the-box forecast
+
+You can take advantage of forecasts even if your administrator hasn't configured one. The out-of-the-box forecast is based on the org chart template and is available to all users. This forecast is based on the sales team hierarchy as defined by the **Manager** field on the **User** record. To learn more, see [Forecasts and sales hierarchy](#forecasts-and-sales-hierarchy).
+
+## Difference between the out-of-the-box forecast and a configured forecast
+
+The following table lists the differences between the out-of-the-box forecast and a forecast configured for your organization.
+
+| Out-of-the-box forecast | Configured forecast |
+|-----------------------|---------|
+| Based on the org chart template. | Based on the template that your administrator has configured. |
+| Available to all users. | Available to users who have been granted access by the administrator. |
+| Forecast is available only for the current month | Forecast is available for the number of periods defined in the forecast configuration. |
+| Forecast values are updated in real-time | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
+| Quota value is based on previous month's won amount | Quota value is based on the value defined in the forecast configuration. |
+| Updates to the underlying records are are saved to the opportunity record but the forecast values are not updated immediately.| Updates to the underlying records reflected in the forecast only after the forecast is recalculated. |
+| Can handle upto 50,000 records | No limitation on the number of records |
+| Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
 
 ## Forecasts and sales hierarchy
 
