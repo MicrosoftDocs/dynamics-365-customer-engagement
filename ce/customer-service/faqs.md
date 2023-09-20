@@ -138,7 +138,7 @@ When you use the Omnichannel for Customer Service app on Unified Service Desk or
 
 ### How long does a configuration change to the Omnichannel for Customer Service and unified routing settings take to update?
 
-All configuration changes to a feature or setting, such as updating a queue membership or workstream setting by administrators can take up to 15 minutes to reflect.
+All configuration changes to a feature or setting, such as updating a queue membership or workstream setting, can take up to 15 minutes to reflect.
 
 ### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
 
