@@ -9,6 +9,7 @@ content_well_notification:
 ms.custom:
  - ai-gen-docs-bap
  - bap-template
+search.app: salescopilot-docs 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi

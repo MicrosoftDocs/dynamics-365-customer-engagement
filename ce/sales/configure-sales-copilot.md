@@ -5,6 +5,7 @@ ms.date: 07/18/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
+search.app: salescopilot-docs
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -53,3 +54,4 @@ By default, Copilot uses the first seven fields in the default lead and opportun
 ## See also
 
 [Use Sales Copilot](use-sales-copilot.md)
+
