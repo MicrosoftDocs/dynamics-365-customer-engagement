@@ -10,11 +10,7 @@ ms.custom: bap-template
 ms.collection: 
 ---
 
-# Configure copilot features for custom case forms and custom apps (preview)
-
-[This article is prerelease documentation and is subject to change.]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+# Configure copilot features for custom case forms and custom apps 
 
 You can configure the Copilot case summary on custom case forms and enable the Copilot features for custom apps.
 
@@ -42,6 +38,11 @@ You must also configure the following settings to make sure that copilot summary
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.
+
+
+> [!NOTE]
+> resolved/cancelled case.
+
 
 ### Modify fields used to generate case summary
 

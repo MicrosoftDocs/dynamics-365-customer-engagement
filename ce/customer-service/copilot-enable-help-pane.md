@@ -51,10 +51,12 @@ Select **For email** in the **Copilot help pane (preview)** page of Customer Ser
 
 ## Add trusted webpages as sources
 
-You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL.
+You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain.
+
+Copilot uses articles that are two nodes down the configured domain.
 
 > [!NOTE]
-> - By default, the knowledge base content is refreshed every week.
+> - The knowledge base content is refreshed every day.
 > - Web domains are used by Copilot to only draft emails and chat replies.
 
 ## Set up filters

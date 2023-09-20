@@ -71,7 +71,13 @@ Out of the box, users with the Customer Service Representative role only can use
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata 
+- prvCreatemsdyn_copilotinteractiondata  
+- prvReadmsdyn_copilotagentpreference
+- prvCreatemsdyn_copilotagentpreference
+- prvWritemsdyn_copilotagentpreference
+- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_copilotsummarizationsetting 
+- prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendTomsdyn_copilottranscriptdata 
 - prvReadmsdyn_copilottranscript 
@@ -81,12 +87,8 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendmsdyn_copilottranscriptdata 
-- prvReadmsdyn_agentcopilotsetting 
-- prvReadmsdyn_copilotsummarizationsetting 
+- prvAppendmsdyn_copilottranscriptdata
 - prvIntelligenceUsage
-- prvReadmsdyn_conversationinsight
-
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
