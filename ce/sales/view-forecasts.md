@@ -38,8 +38,8 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 
 **To view a forecast**
 
-1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.
-   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you'll see the [Out-of-the-box forecast](#out-of-the-box-forecast) for the current month for your direct reports. This forecast is based on the org chart template. [Learn more about the values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
+1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.  
+   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you'll see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. [Learn more about the values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
 2. If your organization has configured a forecast, follow these steps to view the forecasts that you have access to:
     1. Select a forecast from the drop-down list on the left. Any forecasts for which you have permissions will appear here.
@@ -89,13 +89,13 @@ The following table lists the differences between the out-of-the-box forecast an
 
 | Out-of-the-box forecast | Configured forecast |
 |-----------------------|---------|
-| Based on the org chart template. | Based on the template that your administrator has configured. |
-| Available to all users. | Available to users who have been granted access by the administrator. |
-| Forecast is available only for the current month | Forecast is available for the number of periods defined in the forecast configuration. |
-| Forecast values are updated in real-time | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
-| Quota value is based on previous month's won amount | Quota value is based on the value defined in the forecast configuration. |
+| Forecast based on the org chart template. | Forecast based on the template that your administrator has configured. |
+| Forecast is available to all users. | Forecast is available to users who have been granted access by the administrator. |
+| Forecast is available only for the current month. | Forecast is available for the number of periods defined in the forecast configuration. |
+| Forecast values are updated in real-time. | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
+| Quota value is based on previous month's won amount. | Quota value is based on the value defined in the forecast configuration. |
 | Updates to the underlying records are reflected in the forecast after the forecast page is refreshed.| Updates to the underlying records are reflected in the forecast after the forecast is recalculated. |
-| Can handle upto 50,000 records | No limitation on the number of records |
+| Can handle upto 50,000 records. | No limit on the number of records. |
 | Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
 
 ## Forecasts and sales hierarchy
