@@ -37,9 +37,7 @@ ms.collection: get-started
 1. To create a new SLA, select **New** on the command bar.
      
     > [!NOTE]
-    > When you select **New** from the web client, you'll see a message that says, "Effective October 1, 2020, SLAs are deprecated in the web client. For more information, go to [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). Select **OK** to continue creating the new SLA in Unified Interface."
-
-    You’ll see the above message if your organization has the Customer Service admin center app. If your organization doesn’t have Customer Service admin center, you’ll be creating the new SLA in the web client itself.
+    > If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
 1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
