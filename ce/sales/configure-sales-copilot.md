@@ -13,8 +13,6 @@ ms.reviewer: shujoshi
 
 # Configure Sales Copilot
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can configure Sales Copilot to specify the fields that copilot should use to generate summaries and catch up information.  
 
 ## License and role requirements
