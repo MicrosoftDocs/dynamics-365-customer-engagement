@@ -86,9 +86,7 @@
         - name: Add or manage teams
           href: manage-teams.md
         - name: Set up sales territories
-          href: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area?context=/dynamics365/context/sales-context
-        - name: Add or remove sales territory members
-          href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
+          href: set-up-sales-territories.md
         - name: Hierarchy security to control access
           href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
         - name: Define fiscal and currency settings
@@ -150,7 +148,7 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
-        - name: Enable address suggestion
+        - name: Enable address suggestions
           href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
@@ -170,7 +168,7 @@
           href: set-focused-view-as-default.md
     - name: Configure Sales Copilot
       items:
-      - name: Sales Copilot overview (preview)
+      - name: Sales Copilot overview
         href: copilot-overview.md
       - name: Enable and setup Sales Copilot
         href: enable-setup-copilot.md
@@ -376,6 +374,14 @@
           href: select-template-forecast.md
         - name: Define general properties and scheduling
           href: define-general-properties-scheduling-forecast.md
+        - name: Apply additional filters
+          href: add-additional-filters.md
+        - name: Forecast periods
+          items:
+            - name: Forecast period rules and scheduling formats
+              href: forecast-periods.md
+            - name: Manage forecast periods
+              href: manage-forecast-periods.md
         - name: Capture forecast category for opportunity
           href: capture-forecast-category-opportunity.md
         - name: Configure forecast using custom rollup table
@@ -386,8 +392,6 @@
           href: choose-layout-and-columns-forecast.md
         - name: Forecast with multiple data types
           href: forecast-different-data-types.md
-        - name: Apply additional filter
-          href: add-additional-filters.md
         - name: Configure and manage drill-down entities
           href: configure-manage-drill-downs.md
         - name: Take snapshots automatically
@@ -624,29 +628,9 @@
           href: grant-access-wkw.md
     - name: Conversation intelligence
       items:
-        - name: Upcoming changes to pricing model
-          href: conversation-intelligence-billing.md
-        - name: Prerequisites to use Conversation Intelligence
-          href: prereq-sales-insights-app.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
-        - name: Languages supported
-          href: language-support-conversation-intelligence.md
-        - name: Configure in conversation intelligence app
-          items:
-            - name: First-run set up
-              href: fre-setup-sales-insight-app.md
-            - name: Configure and view your team page
-              href: configure-view-your-team-page.md
-            - name: Configure conversation content
-              href: configure-keywords-competitors.md
-            - name: Connect conversation intelligence to an environment
-              href: connect-dynamics365-sales-environment.md
-            - name: Data retention and deletion through Privacy
-              href: data-retention-deletion-policy.md
         - name: Configure in Dynamics 365 Sales Hub
           items:
-            - name: First-run set up in sales app
+            - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
@@ -656,10 +640,26 @@
               href: configure-keywords-competitors-sales-app.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy-sales-app.md
+        - name: Configure in conversation intelligence app
+          items:
+            - name: Set up conversation intelligence app
+              href: fre-setup-sales-insight-app.md
+            - name: Configure and view your team page
+              href: configure-view-your-team-page.md
+            - name: Configure conversation content
+              href: configure-keywords-competitors.md
+            - name: Connect conversation intelligence to an environment
+              href: connect-dynamics365-sales-environment.md
+            - name: Data retention and deletion through Privacy
+              href: data-retention-deletion-policy.md
         - name: Integrate third-party dialers (preview) 
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
+        - name: Create a call recording repository in Azure
+          href: create-azure-repo.md
+        - name: Languages supported
+          href: language-support-conversation-intelligence.md
     - name: Dashboards and reports
       items:
         - name: Dashboards
@@ -735,7 +735,7 @@
           href: scan-business-cards.md
     - name: Use Sales Copilot
       items:
-      - name: Sales Copilot overview (preview)
+      - name: Sales Copilot overview
         href: copilot-overview.md
       - name: Use Sales Copilot capabilities
         href: use-sales-copilot.md

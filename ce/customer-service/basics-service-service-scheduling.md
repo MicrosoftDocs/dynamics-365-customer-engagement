@@ -1,7 +1,7 @@
 ---
 title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 08/02/2022
+ms.date: 09/18/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
@@ -16,7 +16,6 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 Scheduling, which is built on top of **Universal Resource Scheduling (URS)**, provides an efficient way to schedule resources for service activity. It considers the availability of employees, facilities, and equipment to plan schedules accordingly. It also helps customer service organizations with improved service quality by preventing over-scheduling.
 
-
 ### Scheduling scenario
 
 The following scenario helps to understand how the scheduling capability lets you manage your service activities seamlessly: 
@@ -24,12 +23,12 @@ The following scenario helps to understand how the scheduling capability lets yo
 Contoso bike repair schedules repair services for their customers. To facilitate this process, Contoso needs to bring together the following information:
 
 - Geographical locations where they need to offer their services.
-- The personnel and equipment they need to perform those services. 
-- The types of bike repair services they offer. 
-- Work hours during which they perform their services. 
+- The personnel and equipment they need to perform those services.
+- The types of bike repair services they offer.
+- Work hours during which they perform their services.
 - Capacity and expert level for all personnel.
 
-Contoso can benefit from the scheduling feature by quickly catering to their customers with their repair services. With the various scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment. 
+Contoso can benefit from the scheduling feature by quickly catering to their customers with their repair services. With the various scheduling entities, they can plan service activities for their customers by considering the availability of resources, facilities, and equipment.
 
 Let's see how Contoso accomplishes the task:
 
@@ -37,7 +36,7 @@ Let's see how Contoso accomplishes the task:
    Organizational units are the locations where Contoso provides service to their customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 
    ![organizational units.](media/org-unit-csh.png) 
-   
+
 **Step 2: Create resources**</br>
   Contoso lists the resources required to perform the services. 
 
@@ -85,9 +84,9 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For a new Power Platform environment, by default, the **Core Service Scheduling** solutions is installed. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
+- For new or existing organizations, where Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For an existing Dynamics 365 Customer Service organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
+- For existing organizations, where Core Service Scheduling solutions is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
 
 ### Prerequisites
 
