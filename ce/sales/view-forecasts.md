@@ -94,7 +94,7 @@ The following table lists the differences between the out-of-the-box forecast an
 | Forecast is available only for the current month | Forecast is available for the number of periods defined in the forecast configuration. |
 | Forecast values are updated in real-time | Forecast values are only updated every 24 hours or can be refreshed manually anytime.|
 | Quota value is based on previous month's won amount | Quota value is based on the value defined in the forecast configuration. |
-| Updates to the underlying records are are saved to the opportunity record but the forecast values are not updated immediately.| Updates to the underlying records reflected in the forecast only after the forecast is recalculated. |
+| Updates to the underlying records are reflected in the forecast after the forecast page is refreshed.| Updates to the underlying records are reflected in the forecast after the forecast is recalculated. |
 | Can handle upto 50,000 records | No limitation on the number of records |
 | Forecasts are not saved; at a given time, only the current month's forecast is available. | Forecasts are saved for several forecast periods and can be viewed anytime. |
 
