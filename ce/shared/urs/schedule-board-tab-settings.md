@@ -162,7 +162,7 @@ Though booking an onsite requirement (typically a work order) will always have a
 
 ### Available Color, Partially Available Color, Unavailable Color
 
-The colors selected in the schedule assistant section represent how resource availability (or unavailability) appears when the schedule assistant is triggered from the days, weeks, or months view.  
+The colors selected in the schedule assistant section represent how resource availability (or unavailability) appears when the schedule assistant is triggered from the days, weeks, or months view.  Schedule assistant determines availabilty by taking into account previously scheduled bookings and other factors including work hours, scheduled time off, vactions, holidays, and work closures. Additionally, a resource shows as unavailable in schedule assistant when the the availabilty summary cell's dates fall outside of the requirement detail's from/to date ranges. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant section.](../../field-service/media/schedule-board-tab-settings-schedule-assistant.png)

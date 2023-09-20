@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.collection:
 ms.date: 08/10/2023
 ms.custom: bap-template
+search.app: salescopilot-docs
 ---
 
 # Sales Copilot data movement across geographies

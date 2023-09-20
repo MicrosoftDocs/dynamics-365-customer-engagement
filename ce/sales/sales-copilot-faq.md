@@ -4,6 +4,7 @@ description: Includes frequently asked questions about Dynamics 365 Sales Copilo
 author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: concept
+search.app: salescopilot-docs
 ms.date: 07/27/2023
 ---
 
