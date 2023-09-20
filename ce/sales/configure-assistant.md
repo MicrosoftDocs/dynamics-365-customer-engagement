@@ -33,13 +33,13 @@ The assistant is available in two forms:
 
 - **Assistant (standard)**: This feature is included with Dynamics 365 Sales Enterprise. The assistant comes with a set of out-of-the-box standard cards. As an administrator, you can configure which insight cards to present to users to help them stay on top of their day. Some insight cards are enabled by default; you can enable, disable, or customize the standard cards. To configure the standard assistant, see [Standard assistant](#standard-assistant).
 
-- **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Insights license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Premium assistant](#premium-assistant).
+- **Assistant (premium)**: The premium assistant is available in Sales with the Dynamics 365 Sales Premium license. With premium assistant capabilities, you can use Power Automate directly from the assistant studio to create custom insight cards, tailored to the specific needs of your team. To configure the premium assistant, see [Premium assistant](#premium-assistant).
 
 ## Standard assistant
 
 ### Prerequisites
 
-Assign user privileges to give access to the assistant features. The privileges required to access Sales Insights features are automatically enabled for all out-of-the-box security roles, but they're initially disabled for all custom roles. If you enable any Sales Insights features, you must check the settings listed in the following table to help ensure that your users can access those features, and to help ensure that other features don't stop working because of privilege cascades related to these features.
+Assign user privileges to give access to the assistant features. The privileges required to access Sales Premium features are automatically enabled for all out-of-the-box security roles, but they're initially disabled for all custom roles. If you enable any Sales Premium features, you must check the settings listed in the following table to help ensure that your users can access those features, and to help ensure that other features don't stop working because of privilege cascades related to these features.
 
 |Privilege| Security role tab |Description and requirements|
 |--|--|--|
@@ -80,7 +80,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ## Premium assistant
 
-The premium assistant that's part of the Sales Insights add-on offers advanced capabilities, including:
+The premium assistant that's part of the Sales Premium license that offers advanced capabilities, including:
 
 - [Creating custom insight cards](create-insight-cards-flow.md).
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-for-a-card).
@@ -93,7 +93,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
 > [!NOTE]
 > You can create custom cards not only from the assistant studio but also directly by using the solution. More information: [Create custom cards in the assistant](extend-relationship-assistant-card.md)
 
-1. Verify that you have [enabled and configured premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)
+1. Verify that you have [enabled and configured premium Sales Premium features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

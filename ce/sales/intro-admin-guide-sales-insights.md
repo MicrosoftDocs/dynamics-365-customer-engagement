@@ -80,7 +80,7 @@ Before you can configure these features, you must accept the privacy notice. To 
 
 After you enable the standard Sales Insights features, you can configure the features for your organization.
 
--    To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-standard-assistant).   
+-    To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](configure-assistant.md#standard-assistant).   
 -    To configure standard auto capture, see [Configure and enable auto capture](configure-auto-capture.md).    
 -    To configure standard email engagement, see [Configure and enable email engagement](configure-email-engagement.md).   
 -    To Configure sales accelerator for assignment rules, see [Configure assignment rules in Sales Enterprise](sales-accelerator-assignment-rules.md)
@@ -150,8 +150,7 @@ The premium Sales Insights features aren't available by default. You must instal
 
 After installing the premium Sales Insights features, you can configure the premium features as required:
 
--    To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).   
- 
+-    To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant).   
 -    To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).   
 -    To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).   
 -    To configure who knows whom, see [Configure who knows whom](configure-who-knows-whom.md).   

@@ -69,7 +69,6 @@ You can define up to four rules in the ranking section, based on entities such a
     > [!div class="mx-imgBorder"]
     > ![Optimize ranking tab with example](media/si-admin-optimize-ranking-tab-example.png "Optimize ranking tab with example")
 
-
 5. Save the rule.
 
     The ranking rule is created, processed, and applied to the cards in your organization.
@@ -78,7 +77,7 @@ You can define up to four rules in the ranking section, based on entities such a
 
 ### See also
 
-[Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant)   
+[Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)   
 [Create insight cards](create-insight-cards-flow.md)    
 [Edit insight cards](edit-insight-cards.md)
 
