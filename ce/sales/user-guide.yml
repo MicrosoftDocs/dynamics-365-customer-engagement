@@ -1,30 +1,16 @@
 ### YamlMime:Landing
 
 title: Help resources for seller in Dynamics 365 Sales
-
 summary: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
-
-
 metadata:
-
   title: Help resources for seller in Dynamics 365 Sales
-
   description: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
-
   services: service
-
-  
-
   ms.topic: landing-page
-
   ms.collection: collection
-
   author: udaykirang
-
   ms.author: udag
-
-  ms.date: 11/24/2021
-
+  ms.date: 09/22/2023
 
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -36,7 +22,6 @@ landingContent:
     linkLists:
        - linkListType: quickstart
          links:
-
           - text: Overview of Sales and Sales Hub 
             url: overview.md
           - text: Learn the basics 
@@ -83,10 +68,6 @@ landingContent:
             url: use-sales-copilot.md
        - linkListType: how-to-guide
          links:
-          - text: Enable and set up Sales Copilot
-            url: enable-setup-copilot.md
-          - text: Configure Sales Copilot
-            url: configure-sales-copilot.md
           - text: Compose and send email messages using Copilot
             url: compose-send-email-copilot.md 
           - text: View and copy email summary
@@ -97,7 +78,6 @@ landingContent:
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Work with accounts and contacts 
             url: accounts-contacts.md
           - text: Deactivate or activate an account or contact 
@@ -114,7 +94,6 @@ landingContent:
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Understand the sales process 
             url: nurture-sales-from-lead-order-sales.md
           - text: Create or edit leads 
@@ -128,13 +107,11 @@ landingContent:
           - text: Close opportunities as won or lost 
             url: ../sales-enterprise/close-opportunity-won-lost-sales.md
 
-
 # Card 
   - title: Create and work with collateral
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Create or edit quotes 
             url: create-edit-quote-sales.md
           - text: Create or edit orders  
@@ -147,7 +124,6 @@ landingContent:
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Import data 
             url: /powerapps/user/import-data
           - text: Export data to Excel 
@@ -162,7 +138,6 @@ landingContent:
     linkLists:
        - linkListType: overview
          links:
-
           - text: Work with reports 
             url: /powerapps/user/work-with-reports
           - text: Print quote, invoice, or other records 
@@ -173,8 +148,6 @@ landingContent:
     linkLists:
        - linkListType: how-to-guide
          links:
-
-   
           - text: Create a marketing list using in-app marketing 
             url: ../sales-enterprise/create-marketing-list-using-app-marketing-sales.md
           - text: Create a quick campaign 
@@ -202,7 +175,6 @@ landingContent:
           - text: Learn the basics 
             url: sales-mobile/learn-basics-mobile-app.md
 
-
 # Card 
   - title: Work with Outlook
     linkLists:
@@ -216,7 +188,6 @@ landingContent:
     linkLists:
        - linkListType: concept
          links:
-
           - text: Boost sales with Versium Predict 
             url: ../versium-predict/versium-predict.md
           - text: Get sales Insights, powered by InsideView 
