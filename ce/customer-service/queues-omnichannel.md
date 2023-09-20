@@ -4,7 +4,7 @@ description: Learn about how to create and manage advanced queues for unified ro
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 09/15/2023
+ms.date: 09/20/2023
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservice
