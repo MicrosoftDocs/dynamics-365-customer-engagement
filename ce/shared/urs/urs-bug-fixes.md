@@ -28,10 +28,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.102.5
 
-- **Resource Search Capacity:** Resource search is now supported for organizations with more than 5000 resources. 
-- **Accessibility:** Implemented a variety of accessibility improvements including increased support for screen readers, new visual labels, and additional ARIA attributes. 
-- Fixed an issue in the API where calling  “msdyn_SearchResourceAvailability” would consistently return empty “AvailabilityIntervals” and “Characteristics”  for any desired resource 
-- Fixed an issue that led to the Schedule Assistant returning no available slots when a user filled in the “Time from Promised” field.  
+- **CApacity for resource search**: Resource search is now supported for organizations with more than 5000 resources. 
+- **Accessibility**: Implemented a variety of accessibility improvements including increased support for screen readers, new visual labels, and additional ARIA attributes. 
+- Fixed an issue in the API where calling *msdyn_SearchResourceAvailability* consistently returned empty *AvailabilityIntervals* and *Characteristics*.
+- Fixed an issue that led to the schedule assistant returning no available slots when a user entered information in the *Time from promised* field.  
 - Fixed an issue where service territory filters were being reset when navigating through pages of a resource selection search.  
 
 ## 3.12.116.5 - 2023 Wave 2 Early Access update2
