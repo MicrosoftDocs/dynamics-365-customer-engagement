@@ -20,7 +20,7 @@ To be able to call customers, your administrator must configure outbound calling
      - On the dial pad, you can copy or type in a number or select a number from the recently called numbers. The country code dropdown displays the list of supported countries and regions that you can call. You can also view and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
-     - When you enter a phone number and you have multiple outbound profiles set, based on the country code, the application displays the profile that has the region configured.
+     - When you enter a phone number and you have multiple outbound profiles set, based on the country code, the application displays the profile of the region corresponding to the dialed code.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon. 
 3. Select **Call**.
 
