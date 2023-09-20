@@ -168,7 +168,7 @@
           href: set-focused-view-as-default.md
     - name: Configure Sales Copilot
       items:
-      - name: Sales Copilot overview (preview)
+      - name: Sales Copilot overview
         href: copilot-overview.md
       - name: Enable and setup Sales Copilot
         href: enable-setup-copilot.md
@@ -735,7 +735,7 @@
           href: scan-business-cards.md
     - name: Use Sales Copilot
       items:
-      - name: Sales Copilot overview (preview)
+      - name: Sales Copilot overview
         href: copilot-overview.md
       - name: Use Sales Copilot in Sales Hub
         href: use-sales-copilot.md
