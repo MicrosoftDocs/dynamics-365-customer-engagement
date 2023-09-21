@@ -2,7 +2,7 @@
 title: Customize the quote closure experience
 description: A quote can be closed when it's lost, canceled, or revised. You can customize this experience to suit your organization needs.
 ms.date: 09/20/2023
-ms.topic: how-to
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
@@ -18,19 +18,19 @@ searchScope:
 
 # Customize the quote closure experience
 
-As an administrator, you can customize the quote closure experience to suit your organization needs. You can customize the following aspects:
+As an administrator, you can customize the following aspects of quote closure experience to close quotes quickly and efficiently:
 
 - Ability to quickly close a quote without opening the Quote Close dialog.
 - Ability to change the default value of the **Create a revised quote** field in the Quote Close dialog.
 
 
-## Add Quick Quote Close button to the command bar
+## Add quick quote close button to the command bar
 
-By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. You can add these buttons to the command bar using ribbon customizations. 
+By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. You can add these buttons to the command bar using ribbon customizations.  
 
-Use the `quickQuoteCloseWithoutDialog` javascript method to add a quick quote close button to the command bar. You can add multiple buttons with different behaviors by passing different parameters to this function. For example, you can add a button to close a quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior: 
+Use the `quickQuoteCloseWithoutDialog` javascript method to add a quick quote close button to the command bar. You can add multiple buttons with different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior: 
 
-- **StatusReason**: Specifies the reason for the closure. <br> **Allowed values*:* 5 for Lost, 6 for Cancelled, 7 for Revise
+- **StatusReason**: Specifies the reason for the closure. <br> **Allowed values**: 5 for Lost, 6 for Cancelled, 7 for Revise
 
 - **CreateRevise**: Specifies whether you want to revise the quote. <br> **Allowed values**: true,  false
 - **CloseOpty**: Specifies whether to close the associated opportunity. <br> **Allowed values**: true,  false 

@@ -366,6 +366,10 @@
           href: enable-enhanced-add-product-experience.md
         - name: Customize the Add Products dialog box
           href: customize-add-products-dialog-box.md
+    - name: Quote management
+      items:
+        - name: Customize close quote experience
+          href: customize-quote-closure.md
     - name: Forecast management
       items:
         - name: Configure forecasts in your organization
