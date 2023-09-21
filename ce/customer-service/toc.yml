@@ -1010,14 +1010,12 @@
         href: copilot-data-movement.md
     - name: Agent experience
       items: 
-      - name: Use Copilot to solve customer issues
+      - name: Use Copilot to solve customer issues (preview)
         href: use-copilot-features.md
       - name: Summarize cases
-        href: use-copilot-features.md#summarize-cases
+        href: copilot-use-summary.md#summarize-cases
       - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
-      - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
+        href: copilot-use-summary.md#summarize-conversations
       - name: Ask a question
         href: use-copilot-features.md#ask-a-question
       - name: Draft a chat response
