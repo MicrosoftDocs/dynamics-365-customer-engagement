@@ -48,6 +48,9 @@ Revised.
 case, select **Yes**. If you don't want to revise the quote, set this field to **No**.  
     - **Close the associated opportunity:** This field appears only when you try to close the last quote associated with an opportunity. 
 
+  > [!NOTE]
+  > If you want to be able to close the quote with a click of a button, you can add a quick quote close button to the command bar. For more information, see [Customize the quote closure experience](customize-quote-closure.md).
+
 3. Select **OK**.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
