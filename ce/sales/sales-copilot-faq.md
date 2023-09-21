@@ -5,7 +5,7 @@ author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: concept
 search.app: salescopilot-docs
-ms.date: 09/20/2023
+ms.date: 09/21/2023
 ---
 
 # FAQs about Sales Copilot in Dynamics 365 Sales
@@ -32,16 +32,13 @@ No, we don't save any of your data in any new data store. You can read more abou
 
 All data exchanges in Sales Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/trust-center/privacy/data-management).
 
-## What privacy controls apply to the data received by the Azure Open AI service?
+## What privacy controls apply to the data received by the Azure OpenAI service?
 
 All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure Open AI data and privacy commitments [here](/azure/ai-services/openai/faq#data-and-privacy).
 
-## Where are the Azure Open AI endpoints hosted?
+## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure Open AI resources are available in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geography's endpoint. For all other geographies, your requests will be routed to the following endpoints when you enable Sales Copilot:
-
-- Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint. 
-- Requests from all the other regions are routed to the North America endpoint.
+Currently, the Azure OpenAI resources are only available in the North America region. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests. You'll be prompted to consent to this data movement when you enable Sales Copilot.  
 
 More information: [Sales Copilot data movement](sales-copilot-data-movement.md).
 
