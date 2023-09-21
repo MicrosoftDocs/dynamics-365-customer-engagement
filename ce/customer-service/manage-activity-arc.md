@@ -32,9 +32,8 @@ Perform the following steps to view the activity monitor details for the rules:
   - **Monitored activity item:** Displays the subject of the activity type.
   - **Condition name:** The name of the condition in which the issue occurred.
   - **Reason:** Displays information on how the rule was handled. For example, if the **Current state** for a rule is Skipped because an email is sent from an unknown sender who isn't added to **Contacts**, a case isn't created because the rule condition, **Allow email from unknown senders** is set to No.
-  - **Recommendation**: Displays the steps you can follow to resolve the issue. 
-  For example, if an email was sent from an unknown sender and the **Current state** for a rule is **Skipped** with **Reason**, 'Email is coming from an unknown sender', the application displays the recommendation  to set **Allow email from unknown senders** to Yes.
-  - For example, the **Current state** for a rule is skipped with the **Reason** that an active case is already connected to this record. The application displays the following recommendation: the incoming email is related to a parent email linked to an existing case. You can turn off the **use correlation to track email conversations** if you'd like to change the existing behavior.
+  - **Recommendation**: Displays the steps you can follow to resolve the issue. For example, if an email was sent from an unknown sender and the **Current state** for a rule is **Skipped** with **Reason**, 'Email is coming from an unknown sender', the application displays the recommendation  to set **Allow email from unknown senders** to Yes.
+
     > [!NOTE]
     > Hyperlinks aren't displayed in **Recommendation**. If you'd like to see the hyperlinks in the recommended resolution, double click the record to view the activity monitor event details that are displayed on the **Activity monitor** page.
   - **Evaluated on:** Displays the date and time of the issue.
