@@ -6,7 +6,7 @@ ms.date: 06/24/2019
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4

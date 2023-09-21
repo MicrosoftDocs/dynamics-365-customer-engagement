@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/31/2017
 
 ms.custom: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
