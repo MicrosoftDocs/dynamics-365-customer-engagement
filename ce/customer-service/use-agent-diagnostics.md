@@ -1,16 +1,16 @@
 ---
-title: Use agent diagnostics as self-help tool (preview)
+title: Use agent diagnostics as a self-help tool (preview)
 description: Learn how to use the agent diagnostics in Customer Service workspace as a self-help tool to identify and share issues with your administrator for quick resolutions.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 08/30/2023
+ms.date: 09/21/2023
 ms.custom: bap-template
 ---
 
-# Use agent diagnostics as self-help tool (preview)
+# Use agent diagnostics as a self-help tool (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
@@ -29,16 +29,16 @@ Out of the box, the following rules are available:
 
 One of the following rule result messages appear after you run the rules.
 
-- **No issues found**: When rule runs successfully.
+- **No issues found**: When the rule runs successfully.
 - **Issue found**: When the rule identifies one or more issues.
 - **Not reproduced**: When something unexpected occurs with the rule. You'll need to run the rule after refreshing the app. If the issue persists, contact your support team.
  
 ## Run agent diagnostics
 
-The rules that can be run in the agent app are specific to the agent and their permissions.
+The rules that agents can run in the agent app are specific to the agent and their permissions.
 
 1. Sign in to Customer Service workspace.
-1. After presence loads, select **Ctrl**+**Shift**+**F12**. Optionally, you might need to select the **fn** key. The **Diagnostic center (preview)** page displays a list of tests.
+1. After the presence loads, select **Ctrl**+**Shift**+**F12**. Optionally, you might need to select the **fn** key. The **Diagnostic center (preview)** page displays a list of tests.
 1. Select one or more rules, and then select **Run diagnosis**. The rule results are displayed in the **Diagnostic result** column.
 
    :::image type="content" source="media/screenshot-of-agent-diagnostics.png" alt-text="Screenshot of agent diagnostics rules with results.":::
@@ -49,7 +49,7 @@ The rules that can be run in the agent app are specific to the agent and their p
 
 ### See also
 
-[view the communication panel for conversations](oc-conversation-control.md)  
+[View the communication panel for conversations](oc-conversation-control.md)  
 [Get started with Customer Service workspace](csw-overview.md)  
 
 
