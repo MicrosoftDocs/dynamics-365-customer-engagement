@@ -27,7 +27,8 @@ To be able to call customers, your administrator must configure outbound calling
 > [!NOTE]
 > If you aren't assigned an outbound profile, you won't be able to make a call.
 
- :::image type="content" source="media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
+
+   :::image type="content" source="media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
 When the call connects, you see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you can't make another call when a call is in progress.
 
