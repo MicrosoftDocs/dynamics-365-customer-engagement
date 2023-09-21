@@ -1,7 +1,7 @@
 ---
 title: "Configure outbound and inbound profiles | MicrosoftDocs"
 description: "Use this article to understand how you can configure outbound and inbound profiles in your organization."
-ms.date: 09/03/2022
+ms.date: 09/21/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
