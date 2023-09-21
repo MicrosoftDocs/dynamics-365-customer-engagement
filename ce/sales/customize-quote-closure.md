@@ -20,9 +20,16 @@ searchScope:
 
 As an administrator, you can customize the following aspects of quote closure experience to close quotes quickly and efficiently:
 
-- Ability to quickly close a quote without opening the Quote Close dialog.
 - Ability to change the default value of the **Create a revised quote** field in the Quote Close dialog.
+- Ability to quickly close a quote without opening the Quote Close dialog.
 
+These changes can be done using [ribbon customizations](power-apps/developer/model-driven-apps/customize-commands-ribbon)
+
+## Set the default value for the Create a revised quote field
+
+By default, the **Create a revised quote** field in the Quote Close dialog box is set to **Yes**. This may result in accidental creation of revised quotes, if the seller forgets to change the value. 
+
+You can change this default value to **No** by setting the boolean parameter in the `closeQuote` function of `quoteRibbon` ribbon definition. Download the ribbon definition from [Microsoft Downloads: ExportedRibbonXml.zip](https://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). 
 
 ## Add quick quote close button to the command bar
 
@@ -35,11 +42,4 @@ Use the `quickQuoteCloseWithoutDialog` javascript method to add a quick quote cl
 - **CreateRevise**: Specifies whether you want to revise the quote. <br> **Allowed values**: true,  false
 - **CloseOpty**: Specifies whether to close the associated opportunity. <br> **Allowed values**: true,  false 
 
-[Learn more about ribbon customization](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
-
-## Set the default value for the Create a revised quote field
-
-By default, the **Create a revised quote** field in the Quote Close dialog box is set to **Yes**. This may result in accidental creation of revised quotes, if the seller forgets to change the value. 
-
-You can change this default value to **No** by setting the boolean parameter in the `closeQuote` function of `quoteRibbon` ribbon definition. Download the ribbon definition from [Microsoft Downloads: ExportedRibbonXml.zip](https://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). 
 

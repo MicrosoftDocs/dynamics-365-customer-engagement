@@ -32,7 +32,8 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 
 1. In the sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
     > [!NOTE]
-    > You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
+    >- You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
+    >- If you'd like to customize the quote closure experience, contact your Dynamics 365 Sales administrator. [Learn more about supported customizations](customize-quote-closure.md).
 
 1. Open the quote that you want to close and select **Close Quote** on the command bar. 
 
@@ -47,9 +48,6 @@ Revised.
    - **Create a revised quote:** You may be closing the quote because you need to create a new, revised quote. If this is the
 case, select **Yes**. If you don't want to revise the quote, set this field to **No**.  
     - **Close the associated opportunity:** This field appears only when you try to close the last quote associated with an opportunity. 
-
-  > [!NOTE]
-  > If you want to be able to close the quote with a click of a button, you can add a quick quote close button to the command bar. For more information, see [Customize the quote closure experience](customize-quote-closure.md).
 
 3. Select **OK**.
 

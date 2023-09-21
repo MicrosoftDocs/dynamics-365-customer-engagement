@@ -368,7 +368,7 @@
           href: customize-add-products-dialog-box.md
     - name: Quote management
       items:
-        - name: Customize close quote experience
+        - name: Customize the quote closure experience
           href: customize-quote-closure.md
     - name: Forecast management
       items:
