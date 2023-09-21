@@ -21,7 +21,8 @@ To be able to call customers, your administrator must configure outbound calling
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - When you enter a phone number and you have multiple outbound profiles set, based on the country code, the application displays the profile of the region corresponding to the dialed code.
-     - By default, the number pad is hidden. To display the number pad, select the number pad icon. 
+     - By default, the number pad is hidden. To display the number pad, select the number pad icon.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 3. Select **Call**. 
 
 > [!NOTE]
