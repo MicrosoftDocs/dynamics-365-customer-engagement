@@ -26,6 +26,9 @@ The case summary appears as a card on the case form. When you open a case, the c
 
 You can copy the summary, refresh it, and provide feedback.
 
+> [!NOTE]
+> You can also generate a case summary for cases that are resolved or cancelled.
+
 ## Summarize conversations
 
 Copilot conversation summaries provide context and relay the steps that you've already taken to solve the issue. You can summarize chat and transcribed voice conversations.
