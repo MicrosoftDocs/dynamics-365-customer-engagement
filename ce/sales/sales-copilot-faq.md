@@ -1,6 +1,6 @@
 ---
 title: FAQs about Sales Copilot in Dynamics 365 Sales
-description: Includes frequently asked questions about Dynamics 365 Sales Copilot, covering various aspects such as privacy, data security, data management, and more.
+description: Includes frequently asked questions about Sales Copilot in Dynamics 365 Sales, covering various aspects such as privacy, data security, data management, and more.
 author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: concept
@@ -40,8 +40,14 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 
 Currently, the Azure OpenAI resources are only available in the North America region. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests. You'll be prompted to consent to this data movement when you enable Sales Copilot.  
 
-More information: [Dynamics 365 Sales Copilot data movement](sales-copilot-data-movement.md).
+More information: [Sales Copilot data movement](sales-copilot-data-movement.md).
 
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure Open AI or any other Large Language Models.
+
+## What's the difference between Microsoft Sales Copilot and Sales Copilot in Dynamics 365 Sales?
+
+Microsoft Sales Copilot is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Sales Copilot works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Sales Copilot](/microsoft-sales-copilot/introduction). 
+
+Sales Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Sales Copilot in Dynamics 365 Sales](copilot-overview.md).
