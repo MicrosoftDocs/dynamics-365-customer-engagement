@@ -1,7 +1,7 @@
 ---
 title: "Configure outbound and inbound profiles | MicrosoftDocs"
 description: "Use this article to understand how you can configure outbound and inbound profiles in your organization."
-ms.date: 10/03/2022
+ms.date: 09/03/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -11,7 +11,7 @@ ms.collection: get-started
 
 # Configure outbound and inbound profiles
 
-Use the information in this article to create profiles that will be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings, for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page that can be accessed through **Productivity** in the site map. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that will be used during inbound and outbound calls directly to or from agents. These profiles help you configure settings, such as language, wait music, and transcription settings for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
 Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
 
