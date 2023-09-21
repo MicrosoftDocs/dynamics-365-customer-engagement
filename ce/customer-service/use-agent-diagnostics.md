@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-The agent diagnostics tool helps agents to self-heal their environment. Use the tool to run a set of predefined rules from Microsoft to diagnose frequent issues. Agents can download a report to send to admins or support, and eliminate the need for opening support tickets.
+The agent diagnostics tool helps you fix your environment. Use the tool to run a set of predefined rules from Microsoft to diagnose frequent issues. You can download a report to send to admins or support and reduce support tickets.
 
 Out of the box, the following rules are available:
 
@@ -35,7 +35,7 @@ One of the following rule result messages appear after you run the rules.
  
 ## Run agent diagnostics
 
-The rules that agents can run in the agent app are specific to the agent and their permissions.
+The rules that you can run in the agent app are specific to your permissions.
 
 1. Sign in to Customer Service workspace.
 1. After the presence loads, select **Ctrl**+**Shift**+**F12**. Optionally, you might need to select the **fn** key. The **Diagnostic center (preview)** page displays a list of tests.
