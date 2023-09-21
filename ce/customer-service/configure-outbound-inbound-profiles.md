@@ -70,7 +70,7 @@ You can define the way outbound calls are made and also who can make them.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
 1. In **Outbound behaviors**, do the following: 
-    - **Allow list for countries/regions**: Select the countries from the options to limit the countries that your agents can call. The agents can only call numbers in the selected countries. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
+    - **Allow list for countries/regions**: Select the countries whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
@@ -90,7 +90,7 @@ The default profiles are available out of the box if you use the first-run exper
 - The default profiles are used as fallback profiles when agents aren't assigned a profile.
 - You can edit the behavior and templates only but not the profile type for the default profiles.
 - The locale settings for the default profiles should be same. The locale settings can be edited in one of the default profiles only and the setting will be applicable to both the default profiles.
-- The phone number column for the default inbound profile will always be "undefined" because it's used as a default for all calls to agent phone numbers unless configured. When a customer calls, if no other inbound profile exists, the default profile is used and routed to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
+- The phone number column for the default inbound profile is "undefined" because it's used as a default for all calls to agent phone numbers. When a customer calls, if no other inbound profile exists, the default profile is used to route the call to the agent whose phone number is enabled for inbound calling and their capacity matches the capacity profile condition of the default profile.
 
 ### Edit profiles
 
