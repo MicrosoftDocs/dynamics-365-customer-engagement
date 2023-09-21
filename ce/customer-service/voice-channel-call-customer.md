@@ -22,7 +22,8 @@ To be able to call customers, your administrator must configure outbound calling
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - When you enter a phone number and you have multiple outbound profiles set, based on the country code, the application displays the profile of the region corresponding to the dialed code.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+     [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+If you're administrator hasn't enabled the early access feature, when you call a customer, on the number pad that appears, enter the customer's country code, phone number, and then select Call to make your call. You don't have to add the plus sign (+) to the number.
 3. Select **Call**. 
 
 > [!NOTE]
