@@ -81,7 +81,7 @@ You can define the way outbound calls are made and also who can make them.
 
 1. Select **Save and close**.
 
-:::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
+   :::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
 
 ### Default profiles
 
