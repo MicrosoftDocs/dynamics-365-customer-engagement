@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 08/31/2023
+ms.date: 09/20/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -136,9 +136,9 @@ If you're using multiple fields for automated record identification, they must a
 
 When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
-### How long do configuration changes to Omnichannel for Customer Service settings take to update?
+### How long does a configuration change to the Omnichannel for Customer Service and unified routing settings take to update?
 
-Changes made by administrators within the Omnichannel Administration application can take up to 15 minutes to reflect.
+All configuration changes to a feature or setting, such as updating a queue membership or workstream setting, can take up to 15 minutes to reflect.
 
 ### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
 
@@ -199,7 +199,7 @@ These controls are in place for exposing the data in reports:
 
 - Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
-- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](enable-sentiment-analysis.md) 
+- Sentiment can be turned on or off in Customer Service admin center. To learn more, see [Enable sentiment analysis](enable-sentiment-analysis.md) 
 
 ## Chat widgets
 
