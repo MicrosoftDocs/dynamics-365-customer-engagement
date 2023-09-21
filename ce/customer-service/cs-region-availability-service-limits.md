@@ -111,7 +111,7 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Copilot data movement across geographies](copilot-data-movement.md)  
-[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)  
+[Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
