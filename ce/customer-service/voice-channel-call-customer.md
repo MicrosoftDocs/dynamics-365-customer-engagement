@@ -22,7 +22,12 @@ To be able to call customers, your administrator must configure outbound calling
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - When you enter a phone number and you have multiple outbound profiles set, based on the country code, the application displays the profile of the region corresponding to the dialed code.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon. 
-3. Select **Call**.
+3. Select **Call**. 
+
+> [!NOTE]
+> If you aren't assigned an outbound profile, you won't be able to make a call.
+
+:::image type="content" source="media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
 When the call connects, you see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you can't make another call when a call is in progress.
 
