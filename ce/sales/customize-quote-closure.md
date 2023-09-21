@@ -23,7 +23,7 @@ As an administrator, you can customize the following aspects of quote closure ex
 - Ability to change the default value of the **Create a revised quote** field in the Quote Close dialog.
 - Ability to quickly close a quote without opening the Quote Close dialog.
 
-These changes can be done using [ribbon customizations](power-apps/developer/model-driven-apps/customize-commands-ribbon)
+These changes can be done using [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
 
 ## Set the default value for the Create a revised quote field
 
