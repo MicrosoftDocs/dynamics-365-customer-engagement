@@ -24,8 +24,8 @@ To be able to call customers, your administrator must configure outbound calling
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
        > [!NOTE]
-       > The enhanced outbound dialer is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
-       > Your administrator must also enable the **Enhanced outbound dialer experience** setting definition in Power Apps.
+       > - The enhanced outbound dialer is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
+       > - Your administrator must also enable the **Enhanced outbound dialer experience** setting definition in Power Apps.
 If your administrator hasn't enabled the early access feature, when you call a customer, on the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 3. Select **Call**. 
 
