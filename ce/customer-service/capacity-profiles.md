@@ -75,7 +75,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 6. Select **Add user**. The capacity profile is assigned to the user.
 
-## Configure custom limits for capacity profiles<a name="custom-limits"></a>
+## Configure custom limits in capacity profiles<a name="custom-limits"></a>
 
 Agents in your contact center might need different work limits for the same type of work. You can allocate different quotas or concurrent conversation limits to agents through capacity profiles 
 
