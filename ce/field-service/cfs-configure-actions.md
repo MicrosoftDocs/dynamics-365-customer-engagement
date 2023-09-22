@@ -19,17 +19,17 @@ After [you set up an IoT (Internet of Things) provider](./cfs-custom-iot-provide
 
 The following actions come with Connected Field Service:
 
-- [Pull Device Data](#pull-device-data-action)
-- [Register Device](#register-device-action)
-- [Aggregated Device Readings](#aggregated-device-readings-action)
-- [Query Device Readings](#query-device-readings-action)
-- [Get Device Events](#get-device-events-action)
+- [Pull device data](#pull-device-data)
+- [Register device](#register-device)
+- [Aggregated device readings](#aggregated-device-readings)
+- [Query device readings](#query-device-readings)
+- [Get device events](#get-device-events)
 
-## Pull Device Data action
+## Pull device data
 
-The [Pull Device Data action](cfs-pull-device-data.md) fetches the latest data for one device or a collection of devices from the IoT provider. It appears in the **Device Data History** tab.
+The [Pull device data action](cfs-pull-device-data.md) fetches the latest data for one device or a collection of devices from the IoT provider. It appears in the **Device Data History** tab.
 
-Because data can come from multiple devices, the Pull Device Data action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
+Because data can come from multiple devices, the Pull device data action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
 
 | Parameter | Type | Details |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Sample input:
 
 ```
 
-The Pull Device Data action returns the fetched data in serialized JSON format. The following table describes the parameters of the PullDeviceDataResultsJSON output.
+The Pull device data action returns the fetched data in serialized JSON format. The following table describes the parameters of the PullDeviceDataResultsJSON output.
 
 | JSON property | Type | Details |
 | --- | --- | --- |
@@ -96,11 +96,11 @@ Sample output:
 }
 ```
 
-## Register Device action
+## Register device
 
-The Register Device action creates an association between a device or a collection of devices and the IoT provider. New devices and devices or components that a technician swaps out can be registered. After you register a device, it appears in the **Registration History** tab of the IoT Device record.
+The Register device action creates an association between a device or a collection of devices and the IoT provider. New devices and devices or components that a technician swaps out can be registered. After you register a device, it appears in the **Registration History** tab of the IoT Device record.
 
-Because multiple devices can be registered at one time, the Register Device action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
+Because multiple devices can be registered at one time, the Register device action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
 
 | Parameter | Type | Details |
 | --- | --- | --- |
@@ -127,7 +127,7 @@ Sample input:
 }
 ```
 
-The Register Device action returns the registration results in serialized JSON format. The following table describes the parameters of the RegistrationResultsJSON output.
+The Register device action returns the registration results in serialized JSON format. The following table describes the parameters of the RegistrationResultsJSON output.
 
 | JSON property | Type | Details |
 | --- | --- | --- |
@@ -157,13 +157,13 @@ Sample output:
 }
 ```
 
-## Aggregated Device Readings action
+## Aggregated device readings
 
-The Aggregated Device Readings action fetches aggregated device data from the IoT provider. Aggregate data provides a quick snapshot of the condition of the device on summary tiles in Connected Field Service.
+The Aggregated device readings action fetches aggregated device data from the IoT provider. Aggregate data provides a quick snapshot of the condition of the device on summary tiles in Connected Field Service.
 
 :::image type="content" source="./media/custom-iot-aggregate-readings.png" alt-text="Screenshot of an IoT device in Field Service, showing aggregate readings.":::
 
-The following table describes the input parameters of the Aggregated Device Readings action.
+The following table describes the input parameters of the Aggregated device readings action.
 
 | Parameter | Type | Details |
 | --- | --- | --- |
@@ -189,7 +189,7 @@ Sample input:
 ]
 ```
 
-The Aggregated Device Readings action returns the measurements in serialized JSON format. The following table displays the output parameters.
+The Aggregated device readings action returns the measurements in serialized JSON format. The following table displays the output parameters.
 
 | JSON property | Type | Details |
 | --- | --- | --- |
@@ -220,15 +220,15 @@ Sample output:
 ]
 ```
 
-Aggregated device readings are based on the device data history entity if you aren't using the Aggregated Device Readings action.
+Aggregated device readings are based on the device data history entity if you aren't using the Aggregated device readings action.
 
-## Query Device Readings action
+## Query device readings
 
-The Query Device Readings action fetches historical device data, such as temperature and humidity, from the IoT provider and displays it as a time series chart.
+The Query device readings action fetches historical device data, such as temperature and humidity, from the IoT provider and displays it as a time series chart.
 
 :::image type="content" source="./media/custom-iot-query-device-readings.png" alt-text="Screenshot of device temperature and humidity over time.":::
 
-The following table describes the input parameters of the Query Device Readings action.
+The following table describes the input parameters of the Query device readings action.
 
 | Parameter | Type | Details |
 | --- | --- | --- |
@@ -251,7 +251,7 @@ Sample input:
 } 
 ```
 
-The Query Device Readings action returns the data in serialized JSON format. The following table displays the output parameters.
+The Query device readings action returns the data in serialized JSON format. The following table displays the output parameters.
 
 | JSON property | Type | Details |
 | --- | --- | --- |
@@ -298,16 +298,16 @@ Sample output:
 }    
 ```
 
-## Get Device Events action
+## Get device events
 
-The Get Device Events action fetches events from the device [service history](service-history.md) and displays them as pins at the bottom of the chart that's created by the Query Device Readings action. You can include any custom entities such as the last time you performed an asset upgrade.
+The Get device events action fetches events from the device [service history](service-history.md) and displays them as pins at the bottom of the chart that's created by the Query device readings action. You can include any custom entities such as the last time you performed an asset upgrade.
 
 :::image type="content" source="./media/custom-iot-device-events.png" alt-text="Screenshot of events shown as pins under the device temperature and humidity over time chart.":::
 
 > [!NOTE]
 > You don't need to create a new action. Register a custom plug-in on the `msdyn_IoTGetDeviceEvents` action, like plug-ins for create events.
 
-The following table describes the input parameters of the Get Device Events action.
+The following table describes the input parameters of the Get device events action.
 
 | From | datetime | The starting time of the reading (measurement) in ISO format; for example, "2020-04-10T13:51:55.781Z" |
 | To | datetime | The ending time of the reading (measurement) in ISO format|
@@ -323,7 +323,7 @@ Sample input:
 } 
 ```
 
-The Get Device Events action returns the data in serialized JSON format. The following table displays the output parameters.
+The Get device events action returns the data in serialized JSON format. The following table displays the output parameters.
 
 | JSON property | Type | Details |
 | --- | --- | --- |
