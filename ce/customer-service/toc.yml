@@ -972,8 +972,10 @@
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions
         href: oc-smart-assist.md
-      - name: View the agent calendar 
-        href:  use-agent-calendar.md
+      - name: View the agent calendar
+        href: use-agent-calendar.md
+      - name: Use agent diagnostics as a self-help tool (preview)
+        href: use-agent-diagnostics.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
       - name: Rich messages in conversation control
