@@ -37,6 +37,21 @@ After the check is complete, the page displays the results in three categories w
 1. Expand a category to see the problems and then select the link to a problematic setting. The setting opens on a new tab for you to take action on it.
 1. Optionally, after you resolve all the issues in the configuration, run the health check again till you see zero occurrences.
 
+### Health check rules
+
+The rules used in the health check and their descriptions are as follows. 
+
+| Category | Problem: Description | Solution displayed by the health checker |
+|----------|---------------------|--------------------|
+| Error | Automatic record creation or update didn't work: To review issues with automatic record creation and update rules, visit the activity monitor dashboard. | Link to the activity monitor. |
+| Error | SLA compliance risks and failures aren't being monitored: Agents aren't being informed about SLA compliance failures or risks. To resume compliance monitoring, restart the SLAInstanceMonitoringWarningAndExpiryFlow cloud flow solution within Power Automate.  | Link to Power Automate flow. |
+| Error | Default queue is inactive: Routing rules using this queue won't work. Activate the queue or change the default to an active queue | Link to the inactive queue page to activate the default queue. |
+| Error | No agents in the queue: A queue without agents can't be used for routing. Remove the empty queue from routing definitions, or add agents to the queue. | Link to queue page to add agents or supervisors. |
+| Error | Workstream has no intake rules: Without an intake rule, a workstream's routing definitions won't work. Define an intake rule for the workstream. | Link to workstream page to create intake rules. |
+| Error | No valid assignment definition for the queue: Without an assignment method, agents in the queue can’t be assigned work items. Select an assignment method. If it’s a custom method, ensure that it contains rules. | Link to queue page to add custom assignment rule. |
+| Warning | Unsupported automatic record creation rules in use: Automatic record creation rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and activate the new rule version. | Link to migration tool for automatic record creation. |
+| Warning | Unsupported service level agreement rules in use: Service level agreement rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and delete the old rule version. | Link to the migration tool for service level agreements. |
+
 ### See also
 
 [Create queues in unified routing](queues-omnichannel.md)  
