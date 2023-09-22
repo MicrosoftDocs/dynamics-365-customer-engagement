@@ -44,7 +44,7 @@ Here's how emergency calling works:
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
 1. During the ongoing emergency conversation, the **Communication Panel** displays the device settings and the **End call** button only. An alert appears indicating that an emergency call is in progress.
 1. To ensure confidentiality, the application doesn't record or store the outgoing and incoming emergency calls as activities in call history.
-1. If you configure designated internal contacts, an automated email message goes out to the contacts when the agent dials the emergency number.
+1. If you configure designated contacts for emergency calls, an automated email message goes out to the contacts when the agent dials the emergency number.
 1. When the agent ends the emergency call, the agent presence changes back to the prior status.
 
 > [!NOTE]
@@ -56,7 +56,7 @@ When the agent makes an emergency call, the system can send an automated email t
 
 1. In Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
-1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email IDs of the recipients. Use semicolons to separate the IDs.
+1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email addresses of the recipients separated by a semicolon.
 1. Save the changes.
 
 
