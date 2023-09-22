@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 07/24/2023
+ms.date: 09/22/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,6 +17,12 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
+
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
 
 ## Prerequisites
 

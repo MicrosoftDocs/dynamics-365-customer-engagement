@@ -21,6 +21,12 @@ Enable the Copilot features for agents to use Copilot to:
 - Draft a chat response
 - Summarize a case and conversation
 
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
+
 ## Prerequisites
 
 - You have the System Administrator role.

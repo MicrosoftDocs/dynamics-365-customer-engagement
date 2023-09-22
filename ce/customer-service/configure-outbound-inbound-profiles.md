@@ -19,14 +19,14 @@ Inbound profiles enable direct calls to individual agents and therefore differ f
 
 The following prerequisites must be met:
 
-- To create inbound profiles, a personal number of geographic type and enabled to receive calls must be provisioned and assigned to the agent via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
+- To create inbound profiles, a personal number of geographic type enabled to receive calls must be provisioned and assigned to the agent via the **Omnichannel** tab in user settings. More information: [Manage phone numbers](voice-channel-manage-phone-numbers.md)
 - To create outbound profiles, shared or geographic type numbers enabled for outbound calls must be configured and available in the system. In your calling plan for the number, the **Make calls** checkbox must be selected.
 - Capacity profiles to be used in profiles must be configured. [Manage capacity profiles](capacity-profiles.md)
 - Voice queues must be configured. More information: [Configure voice queues](voice-channel-inbound-calling.md#create-a-queue-for-the-voice-channel)
 
 ## Create inbound profiles
 
-1. In Customer Service admin center, In the site map, select **Productivity** in **Agent experience**.
+1. In Customer Service admin center, in the site map, select **Productivity** in **Agent experience**.
 
 1. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
 
@@ -47,7 +47,7 @@ The following prerequisites must be met:
   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
   - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
     - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to Automatic if the call recording and transcription needs to start immediately.
-      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to automatic. Set to **Yes** to let agents pause and resume the recording and transcription.
+      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to Automatic. Set to **Yes** to let agents pause and resume the recording and transcription.
 
 1. Select **Next**, verify the settings, and select **Save and close**.
 
@@ -71,6 +71,8 @@ You can define the way outbound calls are made and also who can make them.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
+      > [!NOTE]
+      > The **Allow list for countries/regions** is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). 
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
@@ -85,7 +87,7 @@ You can define the way outbound calls are made and also who can make them.
 
 ### Default profiles
 
-The default profiles are available out of the box if you use the first-run experience in the new org. Some of the features are as follows:
+The default profiles are available out of the box if you use the first-run experience in the new organization. Some of the features are as follows:
 
 - The default profiles are used as fallback profiles when agents aren't assigned a profile.
 - You can edit the behavior and templates only but not the profile type for the default profiles.
