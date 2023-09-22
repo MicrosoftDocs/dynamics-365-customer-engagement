@@ -3,12 +3,11 @@ title: Omnichannel Agent Dashboard in Omnichannel for Customer Service
 description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Omnichannel for Customer Service app.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:shujoshi
+ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
 ms.date: 09/22/2023
 ms.custom: bap-template
-
 ---
 
 # View agent dashboard and agent conversations
