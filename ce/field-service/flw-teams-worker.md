@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Worker
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to view and edit current work orders.
-ms.date: 07/31/2023
+ms.date: 09/22/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -34,9 +34,11 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 ## View work orders assigned to me
 
-1. From your mobile device, access the Microsoft Viva dashboard.
+View work orders assigned to you to work today.
 
-1. Under **Work Orders**, select **See all**.
+1. From your mobile device, access the Field Service (Preview) dashboard.
+
+1. Select **My work orders**.
 
    :::image type="content" source="media/fsp-flw-viva-work-orders.png" alt-text="Field Service (Preview) Viva Connections mobile list of work orders":::
 
@@ -44,7 +46,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 ## View and manage your current work order
 
-1. From your mobile device, access the Microsoft Viva dashboard.
+1. From your mobile device, access the Field Service (Preview) dashboard.
 
 1. Under **Current Work Order**, if you only need to update the booking status, select **Update Status**. Otherwise, select **Details**.
 
@@ -69,5 +71,11 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
 
 For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
+
+## View all work orders
+
+1. From your mobile device, access the Field Service (Preview) dashboard.
+
+1. Select **All work orders**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

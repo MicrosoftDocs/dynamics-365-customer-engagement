@@ -87,7 +87,7 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
    :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service (Preview) Outlook pane showing an auto-generated work order for review":::
 
-1. At a minimum, ensure the required information is entered for the work order.
+1. At a minimum, ensure the required information is entered for the work order. If a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -112,7 +112,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
    :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service (Preview) Outlook pane Work Orders tab highlighting the Create button":::
 
-1. At a minimum, enter the required information for the work order.
+1. At a minimum, enter the required information for the work order. If a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
