@@ -18,7 +18,7 @@ This article describes how emergency calling works in Customer Service when agen
 
 > [!NOTE]
 >
-> - Emergency calling is currently supported in the United States, Canada, and Puerto Rico only where the emergency calling number is 911.
+> - Emergency calling is currently supported in the United States, Puerto Rico, and Canada only where the emergency calling number is 911.
 > - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
 
 ## Prerequisites
@@ -52,7 +52,7 @@ Here's how emergency calling works:
 
 ## Set up email recipients
 
-When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email.
+When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email. You can use the **Editor** to modify the template.
 
 1. In Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
