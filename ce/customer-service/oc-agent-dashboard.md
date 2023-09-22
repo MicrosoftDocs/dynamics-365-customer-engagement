@@ -21,7 +21,7 @@ When you sign in to the Customer Service workspace or Omnichannel for Customer S
 - Open work items
 - Closed work items
 
- ![Agent dashboard of Omnichannel for Customer Service app.](media/oceh-oc-mydashboard.png "Agent dashboard of Omnichannel for Customer Service app")
+ ![Agent dashboard of Omnichannel for Customer Service app.](media/oceh-oc-mydashboard.png "Screenshot of Agent dashboard in the Customer Service workspace app")
 
 ## My work items
 
