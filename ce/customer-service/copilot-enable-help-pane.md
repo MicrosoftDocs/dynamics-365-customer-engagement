@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: nerranelli
 ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 09/19/2023
+ms.date: 09/22/2023
 ms.custom: bap-template .
 ---
 
@@ -64,3 +64,6 @@ Copilot uses articles that are two nodes down the configured domain.
 ## Set up filters
 
 Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features by sending an email a request to d365_csaipreview@microsoft.com. See: [Apply filters](use-copilot-features.md#apply-filters).
+
+## Next steps
+[Use Copilot to solve customer issues](use-copilot-features.md)
