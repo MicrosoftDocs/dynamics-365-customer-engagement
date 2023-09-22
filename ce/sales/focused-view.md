@@ -65,7 +65,7 @@ The following image is an example of the focused view for the Lead entity:
 
 ## Customize the work list card
 
-You can customize the work list card to display the information that you want to see. When sales acclerator is enabled, the customizations you make here are also reflected in the sales accelerator worklist itmes. More information: [Customize the appearance of work items in sales accelerator](customize-work-list-card.md)
+You can customize the work list card to display the information that you want to see. When sales accelerator is enabled, the customizations you make here are also reflected in the sales accelerator worklist itmes. More information: [Customize the appearance of work items in sales accelerator](customize-work-list-card.md)
 
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also effects the sales accelerator workspace view. 
 
