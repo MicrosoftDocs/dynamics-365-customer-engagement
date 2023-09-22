@@ -23,7 +23,7 @@ As an administrator, you can customize the following aspects of quote closure ex
 - Ability to change the default value of the **Create a revised quote** field in the Quote Close dialog.
 - Ability to quickly close a quote without opening the Quote Close dialog.
 
-These changes can be done using [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
+Use [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon) to do these changes.
 
 ## Set the default value for the Create a revised quote field
 
@@ -35,7 +35,7 @@ You can change this default value to **No** by setting the boolean parameter in 
 
 By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. You can add these buttons to the command bar using ribbon customizations.  
 
-Use the `quickQuoteCloseWithoutDialog` javascript method to add a quick quote close button to the command bar. You can add multiple buttons with different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior: 
+You can define a new custom action in the quote entity ribbon customizations to add new button for the quick close functionality and use the `quickQuoteCloseWithoutDialog` javascript method as the command action method for it. You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior: 
 
 - **StatusReason**: Specifies the reason for the closure. <br> **Allowed values**: 5 for Lost, 6 for Cancelled, 7 for Revise
 
