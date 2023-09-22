@@ -232,8 +232,10 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing for unified routing
+        - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
+        - name: Set up intelligent skill finder model in unified routing
+          href: set-up-isf-model.md
         - name: Model data tables as skills
           href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
@@ -970,8 +972,10 @@
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions
         href: oc-smart-assist.md
-      - name: View the agent calendar 
-        href:  use-agent-calendar.md
+      - name: View the agent calendar
+        href: use-agent-calendar.md
+      - name: Use agent diagnostics as a self-help tool (preview)
+        href: use-agent-diagnostics.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
       - name: Rich messages in conversation control
@@ -1381,6 +1385,8 @@
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
       href: migrate-config-data-for-voice-channel.md
+    - name: Migrate configuration data for SMS channel
+      href: migrate-config-data-for-sms-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
