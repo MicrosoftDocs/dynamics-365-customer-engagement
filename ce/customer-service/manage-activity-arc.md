@@ -28,14 +28,14 @@ Perform the following steps to view the activity monitor details for the rules:
 - The following details are available for the rules in the activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
   - **Rule name:** Name of the record creation rule.
-  - **Monitored activity type:** Activity type, such as email, task, or appointment.
+  - **Monitored activity type:** Activity type, such as email, task, or appointment. By default this is not available on the **Activity monitor events for last 7 days** page. Use **Edit columns** to add the column to the view.
   - **Monitored activity item:** Displays the subject of the activity type.
   - **Condition name:** The name of the condition in which the issue occurred.
   - **Reason:** Displays information on how the rule was handled. For example, if the **Current state** for a rule is Skipped because an email is sent from an unknown sender who isn't added to **Contacts**, a case isn't created because the rule condition, **Allow email from unknown senders** is set to No.
   - **Recommendation**: Displays the steps you can follow to resolve the issue. For example, if an email was sent from an unknown sender and the **Current state** for a rule is **Skipped** with **Reason**, 'Email is coming from an unknown sender', the application displays the recommendation  to set **Allow email from unknown senders** to Yes.
 
     > [!NOTE]
-    > Hyperlinks aren't displayed in **Recommendation**. If you'd like to see the hyperlinks in the recommended resolution, double click the record to view the activity monitor event details that are displayed on the **Activity monitor** page.
+    > Hyperlinks aren't displayed in **Recommendation** field. If you'd like to see the hyperlinks in the recommended resolution, double click the record to view the activity monitor event details that are displayed on the **Activity monitor** page.
   - **Evaluated on:** Displays the date and time of the issue.
 - You can select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
 :::image type="content" source="media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
