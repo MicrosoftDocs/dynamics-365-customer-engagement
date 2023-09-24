@@ -184,7 +184,7 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 </td><td>
 
 > [!div class="nextstepaction"] 
-> [Next step: Apply additional filter](add-additional-filters.md)
+> [Next step: Configure and manage drill-down entities](configure-manage-drill-downs.md)
 </td></tr>
 </table>
 

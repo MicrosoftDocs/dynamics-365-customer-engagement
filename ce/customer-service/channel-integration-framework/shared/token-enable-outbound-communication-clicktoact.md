@@ -87,4 +87,5 @@ Select the mobile phone icon to trigger the `onclicktoact` event, as shown below
 |![Select mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
 
 > [!Note]
-> Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or configure the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
+> - Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or configure the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
+> - ClickToAct event isn't supported in the focused view of Dynamics 365 Sales.
