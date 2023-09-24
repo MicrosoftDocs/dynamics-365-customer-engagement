@@ -74,49 +74,38 @@ There are three ways to run single resource optimization:
 
 ### One click with defaults
 
-In Field Service version 8.0+, you can right-click a resource (except a [crew](./resource-crews.md), [pools](./resource-pools.md) or [facilities](./facility-scheduling.md)) from any schedule board view and select **Optimize Schedule**. This invokes single optimization with the default optimization goal configured above. 
+In Field Service version 8.0+, you can right-click a resource (except a [crew](./resource-crews.md), [pools](./resource-pools.md) or [facilities](./facility-scheduling.md)) from any schedule board view and select **Optimize Schedule**. This invokes single optimization with:
+- The default optimization goal configured above
+- The default optimization range which is from now to the end of today (12:00 AM)
+- The existing bookings on the resource's schedule in that optimization range
+- Additional requirements from the active view of requirements at the bottom of the schedule board
+   
+The schedule board tab now shows:
 
-You will now see:
-
-1. A gray mask behind the resource on the schedule board that indicates default optimization range, from now to the end of today (12:00 AM).
+1. A gray mask behind the resource on the schedule board that indicates .
 1. A **Schedule Assistant** panel on the right showing the resource's name, and optimization request status. 
 
 When the optimization completes, you will see the new set of bookings on the schedule board, and in the right panel, details about bookings that were updated, deleted, or created.
 
-> There may be a delay before the schedule board get refreshed with the new bookings.
+> There may be a delay before the schedule board gets refreshed with the new bookings.
    
 ### Run after making changes to defaults
 
-You can also change the default goal and time range before running the optimization. For instance, extending the time range to a second day means that single resource optimization might take jobs from the next day and fit them in the first day if the resource has availability. 
+You can also change the default goal and time range before running the optimization. For instance, if you extend the time range to a second day, single resource optimization will consider all existing bookings between now and the end of the 2nd day, as well as additional requirements in order to come up with an optimal schedule that matches the optimization goal.
 
-Select a resource's name and then go to the **Optimizations** panel.
-
+1. Select a resource's name and then go to the **Optimizations** panel, and do the following.
 > [!Note]
 > This capability is **only** available from the schedule board view associated with the optimization scope.
+1. Click on "single resource", and the view should change, and the text label *Resource* should show the name of the selected resource
+1. Set the optimization range to the desired values (default being from now until end of day)
+1. Use the *Requirements* drop down to choose among the different views at the bottom of the schedule board tab. The filters and sort order of the selected view determines which additional requirements are considered for optimization. You can select "None" if you want to optimize only the existing bookings. 
+1. Select the desired optimization goal.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of single resource optimization pane with options.](media/rso-single-resource-4.png)
+In the **Run** drop down, select **Run now** to submit a single resource optimization request. You can see the request in the "Optimazation requests history" section at the bottom ot the **Optimizations** panel, as it progresses through different states until it completes. Upon completion, the schedule board is updated with optimized set of bookings. You can double click on the optimization request to view the details about which bookings were deleted, updated, and created.
 
+### Run as simulation after making changes to defaults
 
-Set the optimization range to the date and time.
-
-Select the optimization goal.
-
-Select **Run Now** to run the optimization and schedule bookings.
-
-  
-### Run as simulation 
-
-By running single resource optimization as a simulation, you can see the resulting optimization before committing to it. Proposed bookings appear on the schedule board in white, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of running single resource optimization with simulation mode.](media/rso-single-resource-5.png)
-
-To run a simulation, right-click a resource and select **Optimize Schedule**. 
-
-This time, instead of selecting **Run**, select **Run as simulation**.
-
-Finally, go to the **Optimization Request** to **Apply** or **Discard** simulation results.
+By running single resource optimization as a simulation, you can see the resulting optimization before committing to it. To run a simulation, follow the same steps above in the **Optimization panel**. This time, instead of selecting **Run now** in the drop down, select **Run as simulation**. After the optimization request completes, bring up the details to **Apply** or **Discard** the results.
 
 > [!Note]
 > Simulated bookings don't show on maps with routes.
@@ -124,7 +113,7 @@ Finally, go to the **Optimization Request** to **Apply** or **Discard** simulati
 ## Additional notes
 
 - A default goal is required for single resource optimization to work. A default goal is automatically created when deploying the optimization.
-- Single resource optimization only reoptimizes current bookings and does not create new bookings.
+- Single resource optimization considers additional requirements as well as existing bookings in coming up with an optimal schedule. As a result, existing bookings can be deleted. You can control the additional requirements via the "Requirements" drop down in the **Optimization panel**.
 - Single resource optimization can reoptimize bookings that were booked manually, through resource availability search, or based on location agnostic requirements.
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
 
