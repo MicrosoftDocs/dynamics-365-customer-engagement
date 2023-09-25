@@ -38,7 +38,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE]
-   > When **Customize active conversation form** is enabled, then:
+   > When **Customize active conversation form** is enabled:
    > - If an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options.
    > - If an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
 
