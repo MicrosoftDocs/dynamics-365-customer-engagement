@@ -23,7 +23,7 @@ The asynchronous channels available in the conversation inbox are as follows:
  - WeChat
  - LINE
  - WhatsApp
- - Microsoft Teams.
+ - Microsoft Teams
 
 ## View the inbox
 
