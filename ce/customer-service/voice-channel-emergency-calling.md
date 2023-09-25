@@ -41,7 +41,7 @@ Here's how emergency calling works:
 1. The agent status automatically changes to "Do not disturb", irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
-1. During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls are not recorded and are not stored as activities in call history.
+1. During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls aren't recorded and aren't stored as activities in call history.
 1. When the agent ends the emergency call, the agent presence is reset to the prior status.
 
 ### See also

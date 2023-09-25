@@ -40,7 +40,7 @@ To enable the enhanced case forms, perform the following steps:
 
 ## View and use default components available on enhanced full case form
 
-The following components are available out-of-the box in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
+The following components are available out of the box in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
 
  :::image type="content" source="media/runtime-exp-mini.png" alt-text="runtime experience for the " lightbox="media/runtime-exp.png":::
 
