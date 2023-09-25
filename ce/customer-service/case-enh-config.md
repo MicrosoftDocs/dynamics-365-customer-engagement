@@ -38,8 +38,8 @@ To enable the enhanced case forms, perform the following steps:
 
 > [!NOTE]
 > When you enable the enhanced case experience, based on the [form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order) you've set for the enhanced full case form the following actions occur: 
-  > - If you've set the enhanced full case form as the default form, the agent sees the enhanced full case form when they create a new case and when they access existing cases.
-  > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form.
+  >  - If you've set the enhanced full case form as the default form, the agent sees the enhanced full case form when they create a new case and when they access existing cases.
+  >  - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form.
 > - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure set the **ShowInFormSelector** is set to **True**.
 
 ## View and use default components available on enhanced full case form
