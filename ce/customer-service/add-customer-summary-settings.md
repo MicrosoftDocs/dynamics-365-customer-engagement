@@ -39,7 +39,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 
    > [!NOTE]
    > If **Customize active conversation form** is enabled, then:
-   > - The options that are available as a part of the customize active form experience aren't applicable if an agent initiates an outbound call to emergency services.
+   > - If an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options.
    > - If an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
 
 

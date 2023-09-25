@@ -19,7 +19,7 @@ This article describes how emergency calling works in Customer Service when agen
 > - For the emergency call to be handled, one of the following conditions must be fulfilled:
 >   - The number from which it originates must be a Microsoft calling plan number.
 >   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there is no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
-> - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
+> - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options.
 
 ## Prerequisites
 
