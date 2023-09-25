@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 05/07/2023
+ms.date: 09/25/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,6 +19,15 @@ As an administrator, you can configure the inbox setting so that when your agent
 You can configure the inbox settings for custom experiences only.
 
 You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?#configure-the-inbox-view).
+
+The following channels are supported in the inbox:
+
+- Asynchronous chat
+- Case
+- Email
+- Voice (preview)
+
+Cards for live chat and voice transcripts are also available in the inbox.
 
 The following asynchronized channels are available in the conversation inbox.
 
@@ -128,4 +137,5 @@ For information about how to configure real-time translation for conversations i
 
 [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md)  
 [Overview of agent experience profiles](../app-profile-manager/overview.md)  
+[Use the inbox](../customer-service/use-inbox.md)  
 [Configure voicemail to manage inbound calls](../customer-service/voice-channel-voicemail.md)  
