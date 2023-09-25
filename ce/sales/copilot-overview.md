@@ -41,9 +41,9 @@ More information:
 - [Summarize an opportunity or a lead](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) 
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
-### Record catch up
+### Recent changes
 
-Catch ups help you stay on top of the changes to your opportunities and leads. You can ask Copilot to summarize the changes to your records since the last seven days or your last login. Copilot generates the catch up information from the audit history of the record. A system administrator can configure the fields that you want to catch up on. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Stay on top of the changes to your opportunities and leads. Copilot summarizes the changes to your records since the last seven days or your last login. Copilot generates this information from the audit history of the record. A system administrator can configure the fields that you want to catch up on. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 More information:
 
@@ -72,4 +72,4 @@ More information: [Show latest news for an account](use-sales-copilot.md#show-la
 
 ## Region availability and languages supported
 
-Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside the United States or Europe, you'll need to opt in to share relevant data with the Azure OpenAI Service in the United States or Europe, whichever is closer to your geography. This opt-in may result in the transfer of relevant data outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service that's outside of your geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
