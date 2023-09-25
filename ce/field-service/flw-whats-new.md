@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service (preview)
 description: Learn what's new in the Dynamics 365 Field Service (Preview) integration with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 09/01/2023
+ms.date: 09/25/2023
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,6 +15,13 @@ ms.subservice: m365-integrations
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
 [!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+
+## October 9, 2023
+
+This public preview release includes the following changes.
+
+- In both Outlook and Teams, new entries can be added to the work order form when creating a work order.
+- In Teams, a streamlined homepage provides quick and easy access for frontline managers and workers to manage work orders.
 
 ## September 5, 2023
 

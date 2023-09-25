@@ -30,11 +30,9 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 1. Once the environment is validated, select **Return to Viva Connections dashboard**.
 
-   :::image type="content" source="media/fsp-viva-mobile-dashboard.png" alt-text="Field Service (Preview) Viva Connections mobile dashboard":::
-
 ## View work orders assigned to me
 
-View work orders assigned to you to work today.
+View work orders assigned to you.
 
 1. From your mobile device, access the Field Service (Preview) dashboard.
 
@@ -48,7 +46,7 @@ View work orders assigned to you to work today.
 
 1. From your mobile device, access the Field Service (Preview) dashboard.
 
-1. Under **Current Work Order**, if you only need to update the booking status, select **Update Status**. Otherwise, select **Details**.
+1. Select **My work orders**. Select your current work order for details.
 
    :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Field Service (Preview) Viva Connections mobile work order details":::
 
@@ -60,11 +58,15 @@ View work orders assigned to you to work today.
    - Change the [Booking status](work-order-status-booking-status.md)
    - Change the Actual arrival or end time
 
+   <!--- Does it still have launch for RA? --->
+
 1. If you made changes, select **Save**.
 
 ## Call for remote collaboration through Remote Assist
 
-1. From the work order details, under **Support contact**, select **Launch Remote Assist**.
+1. From your mobile device, access the Field Service (Preview) dashboard.
+
+1. Under Remote Assist, select **Launch website**.
 
 1. Search for and select the contact you want to call.
 
@@ -77,5 +79,11 @@ For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics
 1. From your mobile device, access the Field Service (Preview) dashboard.
 
 1. Select **All work orders**.
+
+   :::image type="content" source="media/fsp-flw-all-work-orders.png" alt-text="Field Service (Preview) Frontline worker all work orders":::
+
+1. To find a particular work order, enter the work order ID in the **Find by ID** box and select **Search**.
+
+1. To filter the work orders by status or priority, select **Filter**, make your selection, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
