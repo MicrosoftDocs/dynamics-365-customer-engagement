@@ -13,17 +13,13 @@ ms.custom: bap-template
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
-This article lists common issues with the [Field Service Mobile (preview)](mobile-powerapp-newux-overview.md) app and steps to resolve them.
+This article lists common issues with the [Field Service Mobile (preview)](mobile-powerapp-newux-overview.md) app and steps to resolve them. You need administrator permissions in Dynamics 365 Field Service (Preview) for all resolution steps.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## The mobile app shows an error on start due to permission/privilege issues
+## Error on start due to permission/privilege issues
 
 The new user experience for Field Service Mobile (preview) requires a few additional privileges added to the security roles which the user belongs to.
-
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service (Preview).
 
 ### Symptoms
 
@@ -46,11 +42,7 @@ The new experience for Field Service Mobile requires additional privileges for u
 > [!TIP]
 > If you don't know the name of the custom security role, expand **Users + permissions**, select **Users** and look for the user that is reported seeing the error message. Note the of the user's security roles.
 
-## The mobile app shows error on start due to missing files in the solution
-
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service (Preview).
+## Error on start due to missing files in the solution
 
 ### Symptoms
 
@@ -90,10 +82,6 @@ If there's no data in the table, the something went wrong with the solution upda
 After installing the solution, [verify that the table now contains the required data](#step-1-check-if-the-mobilesource-table-contains-data).
 
 ## Settings area is missing in the Field Service Mobile navigation
-
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service (Preview).
 
 ### Symptoms
 
@@ -136,18 +124,13 @@ If the area is present, a customization layer on the sitemap sits on top which r
 
 ## The new experience doesn't show after enabling it in settings
 
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service (Preview).
-
 ### Symptoms
 
 The mobile app doesn't load the new experience, even if it has been [enabled in the settings](mobile-powerapp-newux-overview.md#enable-the-preview-features).
 
 ### Resolution
 
-The new experience (preview) currently doesn't support users or app modules with offline enabled. 
-Verify and update the following cases:
+The new experience (preview) currently doesn't support users or app modules with offline enabled. Verify and update the following cases:
 
 1. The user uof the mobile app must not be part of the Mobile Offline Profile.
-2. The app module itself should not be set up for offline. In the app designer, open the **Field Service Mobile** app. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
+1. The app module itself should not be set up for offline. In the app designer, open the **Field Service Mobile** app. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
