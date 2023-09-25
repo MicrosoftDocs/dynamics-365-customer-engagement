@@ -31,7 +31,10 @@ By default, the **Create a revised quote** field in the Quote Close dialog box i
 
 ```xml
 <Actions>
-    <>
+  <JavaScriptFunction FunctionName="Sales.QuoteRibbonActions.Instance.closeQuote" Library="$webresource:Sales/_static/sfa/quotes/QuoteRibbonActions.js">
+  <BoolParameter Value="true" />
+  </JavaScriptFunction>
+</Actions>
 ```
 
 To download the latest ribbon definition file, see [Access the default ribbon data](/power-apps/developer/model-driven-apps/export-ribbon-definitions#access-the-default-ribbon-data)
