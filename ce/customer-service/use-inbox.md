@@ -32,3 +32,11 @@ The asynchronous channels available in the conversation inbox are as follows:
 1. Select either **Cases** or **Conversations** to view a respective list of assigned items.
    
 1. Select the item to work on. It opens in a new tab. Alternatively, you can open an item in a new tab by selecting the **new session** icon.
+
+### See also
+
+[Configure the inbox](configure-inbox.md)  
+[Get started with Customer Service workspace](csw-overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
