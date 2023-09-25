@@ -1,6 +1,6 @@
 ---
-title: Sales Copilot overview
-description: Learn about Sales Copilot, an AI assistant that helps your sales team be more productive and efficient in their daily work.
+title: Copilot capabilities overview
+description: Learn about the copilot capabilities in Dynamics 365 Sales, an AI assistant that helps your sales team be more productive and efficient in their daily work.
 ms.date: 09/20/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -72,4 +72,5 @@ More information: [Show latest news for an account](use-sales-copilot.md#show-la
 
 ## Region availability and languages supported
 
-Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside the North America, you'll need to opt in to share relevant data with the Azure OpenAI Service outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+Sales Copilot is available in all regions and is supported only in English. However, if you're enabling the feature for orgs outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+
