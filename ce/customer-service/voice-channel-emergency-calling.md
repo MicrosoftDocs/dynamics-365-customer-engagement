@@ -3,7 +3,7 @@ title: "Emergency calling in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how emergency calls work in the voice channel of Omnichannel for Customer Service."
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/01/2023
+ms.date: 09/25/2023
 ms.topic: article
 ---
 
