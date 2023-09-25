@@ -3,7 +3,7 @@ title: "Emergency calling in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how emergency calls work in the voice channel of Omnichannel for Customer Service."
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/01/2023
+ms.date: 09/25/2023
 ms.topic: article
 ---
 
@@ -19,7 +19,7 @@ This article describes how emergency calling works in Customer Service when agen
 > - For the emergency call to be handled, one of the following conditions must be fulfilled:
 >   - The number from which it originates must be a Microsoft calling plan number.
 >   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there is no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
-> - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
+> - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Here's how emergency calling works:
 1. The agent status automatically changes to "Do not disturb", irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
-1. During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls are not recorded and are not stored as activities in call history.
+1. During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls aren't recorded and aren't stored as activities in call history.
 1. When the agent ends the emergency call, the agent presence is reset to the prior status.
 
 ### See also
