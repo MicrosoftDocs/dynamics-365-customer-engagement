@@ -1,0 +1,78 @@
+---
+title: Dynamics 365 license checker
+description: Verify and ensure that you have the appropriate Dynamics 365 license with the Dynamics 365 license checker.
+author: lavanyakr01
+ms.author: lavanyakr
+ms.reviewer: shujoshi
+ms.topic: conceptual
+ms.collection: get-started
+ms.date: 09/26/2023
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/26/2023
+---
+
+# Dynamics 365 license checker
+
+You can now use the Dynamics 365 license checker to verify and ensure that you have the appropriate license for the Dynamics 365 entities, operations, and controls that you are using. This feature provides an added level of clarity and accountability for businesses using Dynamics 365, ensuring that customers are paying for what they are using and avoiding any potential compliance issues.
+
+## How to use the Dynamics 365 license checker
+
+The Dynamics 365 license checker is part of the Power Apps solution checker. As an administrator or customizer (maker), you must run the solution checker before registering a plugin or deploying a solution to ensure that you have the appropriate license for the Dynamics 365 entities, operations, and controls that you are using. 
+
+[Learn more about solution checker and how to run the same](/power-apps/maker/data-platform/use-powerapps-checker)
+
+As the license checker doesn't have access to the licenses in your organization, it checks for the presence of all the entities, operations, and controls that require a Dynamics 365 license, irrespective of whether you have the license or not. The following sections include the list of entities, operations, and controls that the license checker checks for. The list is subject to change as we add more entities, operations, and controls to the licensed usage list.
+
+## Entities that require a license
+
+The following list includes entities that require a Dynamics 365 Sales license. When you run the solution checker, it checks for the presence of these entities in your solution and displays a warning message that you must have the appropriate license to use these entities.
+
+- Lead
+
+- Opportunity
+- Product
+- Quote
+- Invoice
+- Order
+- Forecast
+- Forecast Configuration
+- Sequence
+
+## Operations that require a license
+
+The following list includes operations that require a Dynamics 365 Sales license. When you run the solution checker on your plugins, it checks for the presence of these operations and displays a warning message that you must have the appropriate license to use these entities.
+
+- Create, update, or delete operation on Forecasts and Sequences
+
+- Qualify lead 
+
+- Close opportunity as won or lost
+- Add products
+- Generate quote from an opportunity 
+- Generate invoice from an opportunity 
+- Generate sales order from opportunity 
+- Calculate price
+- Revise quote 
+- Win quote 
+- Convert quote to sales order 
+- Close a quote
+- Cancel sales order 
+- Fulfill a sales order
+- Convert sales order to invoice 
+
+## Controls that require a license
+
+The following list includes controls that that require a Dynamics 365 Sales license. When you run the solution checker on your solutions, it checks for the presence of these controls and displays a warning message that you must have the appropriate license too use these controls.
+
+- Sales accelerator
+
+- Pipeline view  
+- Forecasting grid  
+- Who Knows Who widget  
+- Relationship analytics widget  
+- Predictive lead and opportunity scoring widgets  
+- Focused view  
+- Upnext Widget
