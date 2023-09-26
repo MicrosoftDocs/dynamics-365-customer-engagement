@@ -14,16 +14,15 @@ ms.custom: bap-template
 
 The inbox in Customer Service workspace gives you quick view of your assigned cases and conversations. It's designed to be your central place to locate, manage, and complete your day-to-day work. It can help you efficiently work on high velocity tasks, and promote inbox sessions to regular sessions when you need more time to resolve cases and finish your conversations.
 
-The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](configure-inbox.md).
+The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](configure-inbox.md). 
 
-The asynchronous channels available in the conversation inbox are as follows:
- - SMS
- - Persistent chat
- - Facebook
- - WeChat
- - LINE
- - WhatsApp
- - Microsoft Teams
+Depending on how your inbox configured, you may see any of the following channels:
+
+- Live chat
+- Asynchronous chat
+- Case
+- Email
+- Voice
 
 ## View the inbox
 
