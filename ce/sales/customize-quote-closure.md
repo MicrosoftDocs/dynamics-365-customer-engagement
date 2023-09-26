@@ -18,14 +18,14 @@ searchScope:
 
 # Customize the quote closure experience
 
-As an administrator, you can customize the following aspects of quote closure experience to close quotes quickly and efficiently:
+As an administrator, you can customize the following aspects of quote closure experience to enable your sellers to close quotes quickly and efficiently:
 
-- Ability to change the default value of the **Create a revised quote** field in the Quote Close dialog.
-- Ability to quickly close a quote without opening the Quote Close dialog.
+- Change the default value of the **Create a revised quote** field to **No** in the Quote Close dialog.
+- Add command buttons to quickly close a quote without opening the Quote Close dialog.
 
 Use [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon) to do these changes.
 
-## Change the default value for the Create a revised quote field
+## Change the default value of the Create a revised quote field
 
 By default, the **Create a revised quote** field in the Quote Close dialog box is set to **Yes**. This may result in accidental creation of revised quotes, if the seller forgets to change the value. You can change this default value to **No** by setting the boolean parameter in the `closeQuote` function of `quoteRibbon` ribbon definition. The following code snippet shows the xml code to change the default value to **No**:
 
@@ -41,13 +41,14 @@ To download the latest ribbon definition file, see [Access the default ribbon da
 
 ## Add quick quote close button to the command bar
 
-By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. You can add these buttons to the command bar using ribbon customizations.  
+By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. 
 
-To add a button, define a new command definition in the QuoteRibbonActions.js file and use the `Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog` javascript function as the command action for it. Use the following parameters to customize the button behavior:  
+You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. You can add these buttons to the command bar using ribbon customizations.  
+
+To add a button, define a new command definition in the `QuoteRibbonActions.js` file and use the `Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog` javascript function as the command action for it. Use the following parameters to customize the button behavior:  
 
 > [!IMPORTANT]
-> All these parameters are mandatory and must be passed in the given order. If you don't pass any of these parameters, the button will not work.
-
+> All these parameters are mandatory and must be passed in the given order. If you miss any any of these parameters, the button will not work.
 
 - **IntParameter (Status Reason)**: Use the IntParameter to specify the reason for quote closure. <br> **Allowed values**: 5 for Lost, 6 for Cancelled, 7 for Revise
 
@@ -55,6 +56,8 @@ To add a button, define a new command definition in the QuoteRibbonActions.js fi
 - **BoolParameter (Close Opportunity)**: Use the second BoolParameter to specify whether to close the associated opportunity. <br> **Allowed values**: true,  false  
 
 The following code snippet shows how to add a button to close the quote as lost and create a revision:
+
+The following code snippet includes the XML definition for adding a button to close the quote as lost and create a revision:
 
 ```xml
 <CommandDefinitions>
