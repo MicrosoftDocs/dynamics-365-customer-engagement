@@ -12,6 +12,8 @@ ms.custom: bap-template .
 
 # Enable features in Copilot pane 
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 The Copilot help pane allows agents to use Copilot features such as respond to questions, compose an email, and draft a chat response in Customer Service workspace.
 
 Perform the following steps to enable the Copilot features in Customer Service admin center:
@@ -47,8 +49,6 @@ Select **For customer chat** in the **Copilot help pane (preview)** page of Cust
 
 ## Enable write an email (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
-
 Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** in Customer Service. Copilot helps agents create email responses based on the context of the case.
 
 ## Add trusted webpages as sources
@@ -61,7 +61,7 @@ Copilot uses articles that are two nodes down the configured domain.
 > - The knowledge base content is refreshed every day.
 > - Web domains are used by Copilot to only draft emails and chat replies.
 
-## Set up filters
+## Set up filters (preview)
 
 Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features by sending an email a request to d365_csaipreview@microsoft.com. See: [Apply filters](use-copilot-features.md#apply-filters).
 
