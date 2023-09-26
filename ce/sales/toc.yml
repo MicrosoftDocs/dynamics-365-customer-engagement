@@ -1313,10 +1313,6 @@
           items:
             - name: Extend assistant card type (custom card sample)
               href: sample-extend-relationship-assistant-card-type.md
-    - name: Troubleshooting
-      items:
-        - name: Custom plugin handling through shared variable
-          href: developer/custom-plugin-handling-shared-variable.md
 - name: Privacy laws and regulations
   items:
     - name: Dynamics 365 Sales and privacy laws
