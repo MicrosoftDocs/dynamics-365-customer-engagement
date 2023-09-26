@@ -7,6 +7,7 @@ ms.reviewer: reference
 ms.topic: conceptual
 ms.collection: get-started
 ms.date: 09/26/2023
+---
 
 # Dynamics 365 Sales license checker rules
 
