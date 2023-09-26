@@ -14,9 +14,9 @@ Updating or upgrading to Dynamics 365 Customer Engagement (on-premises), version
 
 # [Version 9.0 deployments](#tab/v90)
 
-1. Ensure that all your computers running Dynamics 365 Customer Engagement (on-premises) version 9.0 have the latest cumulative update. More information: [Microsoft Dynamics 365 On-Premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
+1. Ensure that all your computers running Dynamics 365 Customer Engagement (on-premises) version 9.0 have the latest cumulative update. More information: [Microsoft Dynamics 365 on-premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
 
-1. Apply the latest Dynamics 365 Customer Engagement (on-premises), version 9.1 cumulative update to all computers running Dynamics 365 Server and desktop applications in your deployment. More information: [Microsoft Dynamics 365 On-Premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
+1. Apply the latest Dynamics 365 Customer Engagement (on-premises), version 9.1 cumulative update to all computers running Dynamics 365 Server and desktop applications in your deployment. More information: [Microsoft Dynamics 365 on-premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
 
     > [!IMPORTANT]
     >
@@ -26,21 +26,21 @@ Updating or upgrading to Dynamics 365 Customer Engagement (on-premises), version
 
 3. Choose whether to:
 
-    -   Import each organization into a new Dynamics 365 Customer Engagement (on-premises), version 9.1 server deployment. Each imported organization will be updated to Dynamics 365 Customer Engagement, version 9.1 during the import process.
+    -   Import each organization into a new Dynamics 365 Customer Engagement (on-premises), version 9.1 server deployment. Each imported organization will be updated to Dynamics 365 Customer Engagement (on-premise), version 9.1 during the import process.
 
-    -   Update each organization in-place in the updated Dynamics 365 Customer Engagement, version 9.1 (on-premises) server deployment.
+    -   Update each organization in-place in the updated Dynamics 365 Customer Engagement (on-premise), version 9.1 (on-premises) server deployment.
 
 # [Version 8.2 deployments](#tab/v82)
 
 1.  Upgrade all computers running Dynamics 365 Server and desktop applications in your deployment to Dynamics 365 Customer Engagement (on-premises), version 9.0.
 
-2.  Apply the latest version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment. More information: [Microsoft Dynamics 365 On-Premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
+2.  Apply the latest version 9.1 update to all computers running Dynamics 365 Server and desktop applications in your deployment. More information: [Microsoft Dynamics 365 on-premises Cumulative Updates](https://support.microsoft.com/en-us/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9)
 
 3.  Next, update or import each organization.
 
 ---
 
-For more information, see the following articles:
+For more information, go to the following articles:
 
 -   [Dynamics 365 Customer Engagement (on-premises) application updates](update-microsoft-dynamics-crm.md#microsoft-dynamics-365-customer-engagement-on-premises-application-updates)
 
@@ -74,7 +74,7 @@ For more information, see the following articles:
 
 ::: moniker range="op-9-0"
 
-For information about the available updates for Dynamics 365 Customer Engagement (on-premises), version 9.0, see [Microsoft Dynamics 365 On-Premises Cumulative Updates](https://support.microsoft.com/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9).
+For information about the available updates for Dynamics 365 Customer Engagement (on-premises), version 9.0, see [Microsoft Dynamics 365 on-premises Cumulative Updates](https://support.microsoft.com/topic/microsoft-dynamics-365-on-premises-cumulative-updates-ed51f905-cf4e-3641-dc7c-afe2b868eeb9).
 
 ## See also
 [Update Dynamics 365 Customer Engagement (on-premises)](update-microsoft-dynamics-crm.md)
