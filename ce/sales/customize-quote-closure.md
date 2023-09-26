@@ -43,7 +43,11 @@ To download the latest ribbon definition file, see [Access the default ribbon da
 
 By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. 
 
-You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. You can add these buttons to the command bar using ribbon customizations.  
+You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as canceled and close the opportunity. The following screenshot is an example of how the quick quote close buttons can be implemented:
+
+:::image type="content" source="media/quick-quote-close-example.png" alt-text="Screenshot of the quick quote close buttons on the command bar.":::
+
+You can add these buttons to the command bar using ribbon customizations.  
 
 To add a button, define a new command definition in the `QuoteRibbonActions.js` file and use the `Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog` javascript function as the command action for it. Use the following parameters to customize the button behavior:  
 
@@ -54,8 +58,6 @@ To add a button, define a new command definition in the `QuoteRibbonActions.js` 
 
 - **BoolParameter (Create Revision)**: Use the first BoolParameter to specify whether you want to create a revised quote. <br> **Allowed values**: true,  false  
 - **BoolParameter (Close Opportunity)**: Use the second BoolParameter to specify whether to close the associated opportunity. <br> **Allowed values**: true,  false  
-
-The following code snippet shows how to add a button to close the quote as lost and create a revision:
 
 The following code snippet includes the XML definition for adding a button to close the quote as lost and create a revision:
 
