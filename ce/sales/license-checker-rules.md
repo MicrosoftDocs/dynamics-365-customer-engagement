@@ -33,6 +33,6 @@ Ensure that you have the appropriate Dynamics 365 Sales license to use the restr
 
 This rule runs on your solution and checks for the presence of the controls that require a Dynamics 365 Sales license.
 
-## Recommendation
+### Recommendation
 
 Ensure that you have the appropriate Dynamics 365 Sales license to use the restricted controls or remove them from your solution. For a list of controls that require a Dynamics 365 Sales license, see [Controls that require a license](license-enforcement.md#controls-that-require-a-license).
