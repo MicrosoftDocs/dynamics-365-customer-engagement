@@ -10,11 +10,8 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Manage Copilot features in Customer Service (preview)
+# Manage Copilot features in Customer Service 
 
-[This article is prerelease documentation and is subject to change.]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
@@ -64,6 +61,8 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 ## Make Copilot available to agents
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 For agents to be able to use the copilot help pane and copilot summaries in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](../app-profile-manager/add-profile-default.md). For Customer Service Hub, when you enable the feature, it will be available to all the agents.
 
 1. Go to [**Agent experience profiles**](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) in **Agent experience** > **Workspaces**.
@@ -77,7 +76,13 @@ Out of the box, users with the Customer Service Representative role only can use
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata 
+- prvCreatemsdyn_copilotinteractiondata  
+- prvReadmsdyn_copilotagentpreference
+- prvCreatemsdyn_copilotagentpreference
+- prvWritemsdyn_copilotagentpreference
+- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_copilotsummarizationsetting 
+- prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendTomsdyn_copilottranscriptdata 
 - prvReadmsdyn_copilottranscript 
@@ -87,12 +92,8 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendmsdyn_copilottranscriptdata 
-- prvReadmsdyn_agentcopilotsetting 
-- prvReadmsdyn_copilotsummarizationsetting 
+- prvAppendmsdyn_copilottranscriptdata
 - prvIntelligenceUsage
-- prvReadmsdyn_conversationinsight
-
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
