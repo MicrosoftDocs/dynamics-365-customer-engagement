@@ -5,8 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: nerranelli
 ms.topic: how-to 
-ms.collection: get-started 
-ms.date: 09/22/2023
+ms.collection: 
+ms.date: 09/26/2023
 ms.custom: bap-template .
 ---
 

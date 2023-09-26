@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/22/2023 
+ms.date: 06/26/2023 
 ms.custom: bap-template 
 ms.collection: 
 ---
@@ -38,11 +38,6 @@ You must also configure the following settings to make sure that copilot summary
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.
-
-
-> [!NOTE]
-> resolved/cancelled case.
-
 
 ### Modify fields used to generate case summary
 

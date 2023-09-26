@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: conceptual 
 ms.collection: get-started 
-ms.date: 09/22/2023
+ms.date: 09/26/2023
 ms.custom: bap-template .
 ---
 
@@ -27,7 +27,7 @@ The case summary appears as a card on the case form. When you open a case, the c
 You can copy the summary, refresh it, and provide feedback.
 
 > [!NOTE]
-> You can also generate a case summary for cases that are resolved or cancelled.
+> You can also generate a case summary for cases that are resolved or canceled.
 
 ## Summarize conversations
 
@@ -53,4 +53,6 @@ You can also take the following actions:
 - Close the summary card.
 
 ## Next steps
+
+[Use Copilot to solve customer issues](use-copilot-feature.md)
 
