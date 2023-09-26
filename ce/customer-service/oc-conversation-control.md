@@ -18,6 +18,8 @@ If you want to minimize the communication panel, select **Minimize**. The commun
 > [!NOTE]
 > Minimizing the communication panel is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
+You can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific. For example, if you increase the width of the communication panel for chat, the next time you get a chat conversation, you'll see the resized panel. However, the width remains the same for a voice conversation.
+The communication panel can be resized only when it is in expanded mode.
 
 You can do the following tasks in the communication panel:
 
