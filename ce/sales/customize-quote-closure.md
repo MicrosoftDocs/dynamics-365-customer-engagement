@@ -23,7 +23,7 @@ As an administrator, you can customize the following aspects of quote closure ex
 - Change the default value of the **Create a revised quote** field to **No** in the Quote Close dialog.
 - Add command buttons to quickly close a quote without opening the Quote Close dialog.
 
-Use [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon) to do these changes.
+Use [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon) to customize these quote closure experience.
 
 ## Change the default value of the Create a revised quote field
 
@@ -43,7 +43,7 @@ To download the latest ribbon definition file, see [Access the default ribbon da
 
 By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. 
 
-You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as canceled and close the opportunity. The following screenshot is an example of how the quick quote close buttons can be implemented:
+You can add multiple buttons to enable different behaviors. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as canceled and close the opportunity. The following screenshot is an example of how the quick quote close buttons can be implemented:
 
 :::image type="content" source="media/quick-quote-close-example.png" alt-text="Screenshot of the quick quote close buttons on the command bar.":::
 
