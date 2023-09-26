@@ -737,7 +737,7 @@
       items:
       - name: Sales Copilot overview (preview)
         href: copilot-overview.md
-      - name: Use Sales Copilot capabilities
+      - name: Use Sales Copilot in Dynamics 365
         href: use-sales-copilot.md
       - name: Compose and send email messages using Sales Copilot
         href: compose-send-email-copilot.md
