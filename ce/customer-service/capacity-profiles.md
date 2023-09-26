@@ -105,18 +105,20 @@ When you configure a custom limit for agents in a capacity profile, then agents 
 
 - The custom limit is applied to new work assignments only. If the custom limit is lower than the used limit, the system doesn't reassign the currently assigned work items for the agents.
 
-- The other agents with the same capacity profile for whom custom limit isn't configured have the default limit. Any changes in the default limit will impact these agents. However, the agents with custom limit will remain unaffected.
+- The other agents with the same capacity profile for whom the custom limit isn't configured have the default limit. Any changes in the default limit will impact these agents. However, the agents with custom limit will remain unaffected.
 
 An example of the custom limit is as follows:
 
-Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry who has just joined Contoso is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of 2 conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of 5 to Ana in the “Return orders” profile. This means Ana will receive maximum of 5 conversations per day from this profile while Henry will receive a maximum of 2 conversations only in a day for the same profile.
+Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has just joined Contoso, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of 2 conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of 5 to Ana in the “Return orders” profile. This means Ana will receive maximum of 5 conversations per day from this profile while Henry will receive a maximum of 2 conversations only in a day for the same profile.
 
 ### Update custom limits using OData
 
-Use the following OData call to update the custom limits by modifying the msdyn_bookableresourcecapacityprofile entity and msdyn_maxunits field.
+Use an OData call to update the custom limits by specifying a value for the the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
+
+A sample code block to update the custom limit as 5 is as follows.  
 
 ```
-var data = {msdyn_maxunits: 5}
+var data = {msdyn_maxunits: 5} // the value denotes the custom limit
  Xrm.WebApi.updateRecord("msdyn_bookableresourcecapacityprofile", "<Bookable Resource Capacity Profile ID>", data).then (
     function success(result) {
         console.log("Differentiated units updated");
