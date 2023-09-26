@@ -22,12 +22,12 @@ You can also configure and enable the inbox in [app profile manager](/dynamics36
 
 The following channels are supported in the inbox:
 
+- Live chat
 - Asynchronous chat
 - Case
 - Email
 - Voice (preview)
-
-Cards for live chat and voice transcripts are also available in the inbox.
+- Voice transcripts
 
 The following asynchronized channels are available in the conversation inbox.
 
@@ -38,6 +38,15 @@ The following asynchronized channels are available in the conversation inbox.
 - LINE
 - WhatsApp
 - Teams
+
+## Live chat settings in inbox
+
+The following are things to note about live conversation settings in the inbox:
+
+- When an agent accepts a live work item, that item is then added to the relevant view in the inbox, whether or not the agent is using the inbox at the time of the live work item.
+- Voice calls always open as a new session with the card added to the inbox for awareness.
+- Live work item cards have a "live" visual indicator.
+- Live work item unread counts accrue to the unread count on the view.
 
 ## Configure the inbox setting for agents
 
