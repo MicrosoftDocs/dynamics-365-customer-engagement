@@ -180,6 +180,13 @@ As an agent, when you start a connected chat or connect an existing chat to a re
      > ![Join a Teams chat from the timeline.](media/join-teams-chat-timeline.png "Join a Teams chat from the timeline")
 
 
+## Dynamic links are unfurled in Teams chat
+
+When you paste a Dynamics 365 Customer Service link into a Microsoft Teams chat, meeting, or channel, participants will see an adaptive card with details about the shared link. Links to canvas apps will show the app name and record name. Model-driven app links to records show the entity type. When you paste a dynamic link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+
+> [!NOTE]
+> If you don't have access ot the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
+
 ### See also
 
 [Configure Teams chat in Customer Service](configure-teams-chat.md)<br>
