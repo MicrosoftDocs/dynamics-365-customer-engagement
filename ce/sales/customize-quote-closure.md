@@ -43,11 +43,29 @@ To download the latest ribbon definition file, see [Access the default ribbon da
 
 By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click of a button. You can add these buttons to the command bar using ribbon customizations.  
 
-You can define a new custom action in the quote entity ribbon definition to add a new button for the quick close functionality and use the `quickQuoteCloseWithoutDialog` javascript function as the command action for it. You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior: 
+You can define a new custom action in the quote entity ribbon definition to add a new button for the quick close functionality and use the `quickCloseQuoteWithoutDialog` javascript function as the command action for it. You can add multiple buttons to enable different behaviors by passing different parameters to this function. For example, you can add a button to close the quote as lost and create a revision and another button to close the quote as lost and close the opportunity. Use the following parameters to customize the button behavior:  
 
-- **StatusReason**: Specifies the reason for the closure. <br> **Allowed values**: 5 for Lost, 6 for Cancelled, 7 for Revise
+- **StatusReason(IntParameter)**: Specifies the reason for the closure. <br> **Allowed values**: 5 for Lost, 6 for Cancelled, 7 for Revise
 
-- **CreateRevise**: Specifies whether you want to revise the quote. <br> **Allowed values**: true,  false
-- **CloseOpty**: Specifies whether to close the associated opportunity. <br> **Allowed values**: true,  false 
+- **CreateRevise(BoolParameter)**: Specifies whether you want to revise the quote. <br> **Allowed values**: true,  false  
+- **CloseOpty(BoolParameter)**: Specifies whether to close the associated opportunity. <br> **Allowed values**: true,  false  
 
+The following code snippet shows how to add a button to close the quote as lost and create a revision:
 
+```xml
+<CommandDefinitions>
+<CommandDefinition Id="new.quote.Command0.Command">
+<EnableRules>
+<EnableRule Id="new.quote.EnableRule0.EnableRule" />
+</EnableRules>
+<DisplayRules />
+<Actions>
+<JavaScriptFunction FunctionName="Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog" Library="$webresource:Sales/_static/sfa/quotes/QuoteRibbonActions.js">
+<IntParameter Value="5" />
+<BoolParameter Value="true" />
+<BoolParameter Value="false" />
+</JavaScriptFunction>
+</Actions>
+</CommandDefinition>
+</CommandDefinitions>
+```
