@@ -26,8 +26,7 @@ The following channels are supported in the inbox:
 - Asynchronous chat
 - Case
 - Email
-- Voice (preview)
-- Voice transcripts
+- Voice
 
 The following asynchronized channels are available in the conversation inbox.
 
