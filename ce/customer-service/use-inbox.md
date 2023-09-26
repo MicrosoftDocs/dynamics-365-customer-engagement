@@ -33,6 +33,31 @@ The asynchronous channels available in the conversation inbox are as follows:
    
 1. Select the item to work on. It opens in a new tab. Alternatively, you can open an item in a new tab by selecting the **new session** icon.
 
+## Filter your inbox views
+
+You can use filters to show only the items you want in your inbox.
+
+To filter your inbox view:
+
+1. In the inbox, select the **Filter** icon.
+
+   :::image type="content" source="media/inbox-agent-filter-view.png" alt-text="View of the filter icon in inbox.":::
+
+1. Select the desired filter views. The following options are available:
+
+   - **Filter**
+       - **All** - Displays both read and unread items.
+       - **Unread** - Displays only unopened items.
+       - **Read** - Displays only opened items.
+         
+   - **Sort by**
+       - **Customer** - Displays items based on the customer record.
+       - **Date** - Displays items based on the date they were created.
+    
+   - **Sort order**
+       - **Oldest on top** - Displays oldest items first in the inbox.
+       - **Latest on top** - Displays most recent items first in the inbox.
+
 ### See also
 
 [Configure the inbox](configure-inbox.md)  
