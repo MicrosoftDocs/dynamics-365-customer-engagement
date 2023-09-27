@@ -19,7 +19,7 @@ This article lists common issues with the [Field Service Mobile (preview)](mobil
 
 ## Error on start due to permission/privilege issues
 
-The new user experience for Field Service Mobile (preview) requires a few additional privileges added to the security roles which the user belongs to.
+The new user experience for Field Service Mobile (preview) requires some privileges added to the security roles that the user belongs to.
 
 ### Symptoms
 
@@ -27,7 +27,7 @@ The Field Service Mobile app fails to launch with the following error: `Principa
 
 ### Resolution
 
-The new experience for Field Service Mobile requires additional privileges for users' security roles. The system automatically adds these privileges to all default security roles. If your organization uses custom security roles, you need to [edit the security roles](/power-platform/admin/create-edit-security-role) by adding the following [table privileges](/power-platform/admin/security-roles-privileges#table-privileges):
+The new experience for Field Service Mobile requires privileges for users' security roles. The system automatically adds these privileges to all default security roles. If your organization uses custom security roles, you need to [edit the security roles](/power-platform/admin/create-edit-security-role) by adding the following [table privileges](/power-platform/admin/security-roles-privileges#table-privileges):
 
 - Name=`"msdyn_richtextfile"` Permission="Create" Value="User"
 - Name=`"msdyn_richtextfile"` Permission="Delete" Value="User"
@@ -40,13 +40,13 @@ The new experience for Field Service Mobile requires additional privileges for u
 - Name=`"SettingDefinition"` Permission="Read" Value="Organization"
 
 > [!TIP]
-> If you don't know the name of the custom security role, expand **Users + permissions**, select **Users** and look for the user that is reported seeing the error message. Note the of the user's security roles.
+> If you don't know the name of the custom security role, expand **Users + permissions**, select **Users** and look for the user that is reported seeing the error message. Take note of the user's security role and review the table privileges for that security role.
 
 ## Error on start due to missing files in the solution
 
 ### Symptoms
 
-Some required source records are missing. These records should be created when installing the solution. In rare cases, these records don't get created successfully or corrupted. In some cases, the records were deleted by users.
+Some required source records are missing. These records should be created when installing the solution. In rare cases, these records don't get created successfully or corrupted. In some cases, a user deleted the records.
 
 ### Resolution
 
@@ -63,11 +63,11 @@ Some required source records are missing. These records should be created when i
    - /card/serviceTaskGridItem.yml
    - /sitemaps/mobile.yml
 
-If there's no data in the table, the something went wrong with the solution update.
+If there's no data in the table, something went wrong with the solution update.
 
 #### Step 2: Apply Field Service solution update again
 
-1. In [Power Apps](https://make.powerapps.com/) open your environment and go to **Solutions**.
+1. In [Power Apps](https://make.powerapps.com/), open your environment and go to **Solutions**.
 
 1. Search for `fieldservice_anchor` and delete the `FieldService_Anchor` solution.
 
@@ -89,22 +89,22 @@ The Field Service Mobile app doesn't show the settings area, blocking administra
 
 ### Resolution
 
-The new experience app setting toggle is available through a new navigation area that comes with the default Field Service Mobile app module. Users need *write* permissions for the `FieldServiceSetting` entity to access this area. Default security roles like System Admin or Field Service Admin roles have that permission automatically.
+The new experience app setting toggle is available through a new navigation area that comes with the default Field Service Mobile app. Users need *write* permissions for the `FieldServiceSetting` entity to access this area. Default security roles like System Admin or Field Service Admin roles have that permission automatically.
 
-If any customizations were made on the sitemap of the out-of-box Field Service Mobile app module between release version 6.1 and 6.3 in 2023, there are two options to enable the settings area:
+If any customizations were made on the sitemap of the out-of-box Field Service Mobile app between release version 6.1 and 6.3 in 2023, there are two options to enable the settings area:
 
-- [Remove the sitemap customization layer and then manually customize it again](#customization-layer-on-the-sitemap-of-the-default-app-module).
-- [Manually add the settings area to the sitemap](#manually-add-settings-area-and-toggle-to-sitemap).
+- [Remove the sitemap customization layer and manually customize it again](#remove-the-sitemap-customization-layer-and-manually-customize-it-again).
+- [Manually add the settings area and toggle to the sitemap](#manually-add-settings-area-and-toggle-to-sitemap).
 
-#### Customization layer on the sitemap of the default app module
+#### Remove the sitemap customization layer and manually customize it again
 
-First, check whether the sitemap area exists on the default Field Service Mobile solution layer but was overridden by a customization layer:
+First, check whether the sitemap area exists on the default Field Service Mobile solution layer but a customization layer overrides it:
 
-1. Sign in to [Power Apps](https://make.powerapps.com). 
+1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Change to your environment and open `fieldservice_patch_update` solution.
 1. [View the solution layers](/power-apps/maker/data-platform/solution-layers) for the `msdyn_FSMobileSettingsArea` component in the `fieldservice_patch_update` solution.
 
-If the area is present, a customization layer on the sitemap sits on top which removes the area. In that case, there are two options:
+If the area is present, a customization layer on the sitemap sits on top, which removes the area. In that case, there are two options:
 
 1. Remove the customization layer and then manually customize the sitemap again:
    1. [Remove the unmanaged customization layer](/power-apps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
@@ -113,7 +113,7 @@ If the area is present, a customization layer on the sitemap sits on top which r
 
 #### Manually add settings area and toggle to sitemap
 
-1. Open your customized app module in the App Designer.
+1. Open your customized app in the App Designer.
 1. [Enable areas and create a new area](/power-apps/maker/model-driven-apps/app-navigation#create-an-area) for the Field Service Mobile settings.
 1. [Create a new group](/power-apps/maker/model-driven-apps/app-navigation#create-a-group) for the mobile settings
 1. [Add a new page to the group](/power-apps/maker/model-driven-apps/app-navigation#create-a-page). Select **URL** for content type.
@@ -130,7 +130,7 @@ The mobile app doesn't load the new experience, even if it has been [enabled in 
 
 ### Resolution
 
-The new experience (preview) currently doesn't support users or app modules with offline enabled. Verify and update the following cases:
+The new experience (preview) currently doesn't support users or apps with offline enabled. Verify and update the following cases:
 
-1. The user uof the mobile app must not be part of the Mobile Offline Profile.
-1. The app module itself should not be set up for offline. In the app designer, open the **Field Service Mobile** app. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
+1. The user of the mobile app must not be part of the Mobile Offline Profile.
+1. The app itself shouldn't be set up for offline. In the app designer, open the **Field Service Mobile** app. Go to **Settings** > **Features** and set the **Offline setup from the app designer** toggle to **No**. For more information, see [Set up mobile offline](/power-apps/mobile/setup-mobile-offline#enable-your-app-for-offline-use-preview).
