@@ -35,37 +35,21 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the left pane, select **Solutions**. From the list of solutions, select the **Default Solution**.
 
-1. Edit the **Field Service Push Notification Connection**. In the **Connection** field, create and add the **Power Apps Notification V2** connection.
+1. Create two new connection references:
+   - **Field Service Push Notification Connection**, using the **Power Apps Notification V2** connector.
+   - **Dataverse Connection Reference**, using the **Microsoft Dataverse** connector.
+
+   For both connection references, add a new connection and make sure they are enabled.
 
    :::image type="content" source="media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
 
-1. Edit the **CDS Connection Reference** and make sure it's enabled for your environment.
-   <!-- Jon: What connection to choose here? Flows looks like they are enabled by default but the connection field is empty. -->
-
 1. In the Solutions area, edit the solution with the name `msdyn_FieldService_patch_update`.
-
-   <!-- Jon: Seems here's where the flow breaks because the solution is managed. -->
-   <!-- Jon: Does the user have to create a new solution, add connection references to it that we listed above, then import the solution to their environment? -->
-
-   > [!div class="mx-imgBorder"]
-   > ![Power Apps showing the Field Service solution in the list of solutions.](./media/mobile-2020-push-solution.png)
 
 1. Find the cloud flow called **Field Service – Notify user about booking (UCI app)** and select the **Turn On** option.
 
-   <!-- Jon: I can do that in the managed solution. -->
+   :::image type="content" source="media/mobile-2020-push-turn-on-flow.png" alt-text="Power Apps showing the flow called Field Service – Notify user about booking (UCI app).":::
 
-   > [!div class="mx-imgBorder"]
-   > ![Power Apps showing the flow called "Field Service – Notify user about booking (UCI app)".](./media/mobile-2020-push-turn-on-flow.png)
-
-1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow and make sure the **Connection References** section contains both the **CDS Connection Reference** and the **Field Service Push Notification Connection**.
-
-> [!div class="mx-imgBorder"]
-> ![Power Automate, showing the "Connection References" section on the flow record.](./media/mobile-2020-push-connection4.png)
-
-<!-- Jon: Is the note below required? Seems like an odd tipp. -->
-
-> [!NOTE]
-> If the **Connection References** are not listed, repeat the previous steps in this article in a new private web browser window.
+1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created in step 3.
 
 ## Test push notifications
 
