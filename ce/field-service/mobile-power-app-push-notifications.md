@@ -39,7 +39,7 @@ Configure the following cloud flow to send frontline workers a push notification
    - **Field Service Push Notification Connection**, using the **Power Apps Notification V2** connector.
    - **Dataverse Connection Reference**, using the **Microsoft Dataverse** connector.
 
-   For both connection references, add a new connection and make sure they are enabled.
+   For both connection references, add a new connection and make sure they're enabled.
 
    :::image type="content" source="media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
 
@@ -100,6 +100,5 @@ You can create push notification with custom triggers to match your business sce
 
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
