@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 08/07/2023
+ms.date: 09/08/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -23,9 +23,15 @@ Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.micros
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
-## July 2023 release
+## August 2023 release
 
 We're excited to announce our newest updates! 
+
+| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
+|---------|---------|---------|---------|---------|---------|
+|Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
+
+## July 2023 release
 
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
@@ -50,18 +56,6 @@ We're excited to announce our newest updates!
 | Sales engagement | Segments | The runtime experience of segments is optimized by  introducing a condition limit. A maximum of 10 conditions are allowed in a segment at any given time. | [Documentation](create-and-activate-a-segment.md#create-and-activate-a-segment) | Enabled by default | GA |
 | Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  condition limits are introduced for the **Select eligible entity** and **Seller with matching attributes** options. A limit of 10 and 5 maximum conditions are applicable for these options respectively. | [Documentation](create-and-activate-assignment-rule.md#conditions-in-assignment-rules) | Enabled by default | GA |
 
-## May 2023 release
-
-No new features or enhancements were released in May 2023. We'll be back in June with more updates.
-
-## April 2023 release
-
-| Feature area | Feature | Description | Resources | Enabled by | Availability |
-|--------------|---------|-------------|-----------|------------|--------------|
-| Sales engagement | Up next widget | Shows new suggestions and sequence preview. | [Documentation](understand-the-up-next-widget.md) | Enabled by default | GA |
-| Contact management | Email validation | Identifies invalid email addresses for contact records. | [Documentation](enable-email-validation.md) | Enabled by default | Public preview |
-| Lead management | Duplicate lead detection | Enable the duplicate lead detection feature for the customized main lead form. | [Documentation](enable-duplicate-detection-custom-forms.md) | Enabled by default | GA |
-| Lead management | Email validation | Enable the email validation feature for the customized main lead form. | [Documentation](enable-email-validation-custom-forms.md) | Enabled by default | Public preview |
 
 ## Get the latest version
 

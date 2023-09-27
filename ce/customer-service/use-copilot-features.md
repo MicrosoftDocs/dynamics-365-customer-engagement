@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues (preview)
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 07/24/2023
+ms.date: 09/22/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,6 +20,12 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
+
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
 
 ## Prerequisites
 
@@ -102,6 +108,24 @@ Select the one-click response generation button at the lower-right corner of the
 
 > [!NOTE]
 > The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
+
+## Apply filters 
+
+You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
+
+For example, your organization has several departments and you work only on credit card related queries. If you apply the credit card filter, Copilot retrieves only the relevant credit card content from the knowledge source and which is then used to generate responses. 
+
+To apply a filter, perform the following steps:
+
+- Select **Filters** on the Copilot (preview) pane. The **Select filters** menu appears.
+- Select the required options. You can also search for a filter option.
+- Select **Apply**.
+
+Once you set a filter, the following actions are applicable:
+- A message indicating the filters are applied when Copilot generates new responses appears on the Copilot (preview) pane. This message also appears whenever you modify the filter configuration.
+- A visual indicator with the number of filter options selected is displayed next to **Filters**..
+- The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
+- The filter is saved. You don't have to set the filter each time you log in.
 
 ## Summarize cases
 

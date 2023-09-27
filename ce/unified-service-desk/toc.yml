@@ -617,8 +617,8 @@
       href: oc-usd/search-record.md
     - name: Link and unlink a record 
       href: oc-usd/link-unlink-record.md
-    - name: View communication panel 
-      href: oc-usd/left-control-panel.md
+    - name: View communication panel
+      href: /dynamics365/customer-service/oc-conversation-control?context=/dynamics365/context/unified-service-desk-context&view=dynamics-usd-4.2&preserve-view=true
     - name: Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk
       href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
