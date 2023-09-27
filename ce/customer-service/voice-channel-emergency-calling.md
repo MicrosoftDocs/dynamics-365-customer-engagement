@@ -19,7 +19,7 @@ This article describes how emergency calling works in Customer Service when agen
 > [!NOTE]
 >
 > - Emergency calling is currently supported in the United States, Puerto Rico, and Canada only where the emergency calling number is 911.
-> - Emergency calling isn't supported if [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
+> - Emergency calling isn't supported if the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
 
 ## Prerequisites
 
@@ -38,8 +38,8 @@ In Customer Service workspace or Omnichannel for Customer Service, agents can us
 
 Here's how emergency calling works:
 
-1. The agent calls the emergency number such as 911 in the US or Puerto Rico.
-1. The agent status automatically changes to "Do not disturb", irrespective of the current status.
+1. The agent calls the emergency number such as 911 in the United States or Puerto Rico.
+1. The agent status automatically changes to "Do not disturb," irrespective of the current status.
 1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
 1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
 1. During the ongoing emergency conversation, the **Communication Panel** displays the device settings and the **End call** button only. An alert appears indicating that an emergency call is in progress.
@@ -54,7 +54,7 @@ Here's how emergency calling works:
 
 When the agent makes an emergency call, the system can send an automated email to their supervisors or whoever needs to be informed about the call to ensure efficient emergency responder access. The system uses the **Emergency Call Notification Template** to send the email. You can use the **Editor** to modify the template.
 
-1. In Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
+1. In the Customer Service admin center, go to **User management** under **Customer support**, and for **Users**, select **Manage**.
 1. On the page that appears, select the **Omnichannel Users** view, and then select the user that you want to update.
 1. Select the **Omnichannel** tab, and in **Emergency Call Notifications**, add the email addresses of the recipients separated by a semicolon.
 1. Save the changes.
@@ -64,6 +64,6 @@ When the agent makes an emergency call, the system can send an automated email t
 
 [Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
 [Set up inbound calling in the voice channel](voice-channel-inbound-calling.md)  
-[Customize email tempate using template editor](/power-apps/user/cs-template-options?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context)  
+[Customize email template using template editor](/power-apps/user/cs-template-options?context=%2Fdynamics365%2Fcontext%2Fcustomer-service-context)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
