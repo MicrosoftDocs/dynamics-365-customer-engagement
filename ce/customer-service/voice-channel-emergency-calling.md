@@ -23,7 +23,7 @@ This article describes how emergency calling works in Customer Service when agen
 
 ## Prerequisites
 
-Make sure that the following prerequisites are complete so that the emergency calling works properly.
+Make sure that the following prerequisites are complete so that the emergency calling works properly:
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
 - Browser location setting is enabled, and set to United States or Puerto Rico.
