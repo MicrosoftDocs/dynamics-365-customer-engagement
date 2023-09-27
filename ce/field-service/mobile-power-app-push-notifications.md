@@ -65,24 +65,17 @@ You can create push notification with custom triggers to match your business sce
 
 1. Select **Automated cloud flow**, give your flow a Name and choose the Microsoft Dataverse  connector. For this example, we use the Dataverse connector that triggers **When a row is created, updated, or deleted**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Power Automate, showing a trigger.](./media/mobile-2020-push-notification-step1.png)
-
 1. Choose the trigger options. In this example, we choose *Added*, *Bookable Resource Booking*, and *Organization*.
 
 1. Add another step and choose the **Get row by ID** option to get the associated resource value. Set the table name to *Bookable Resource* and the Row ID to *Resource (Value)*.
-
-   > [!div class="mx-imgBorder"]
-   > ![Power Apps showing a Power Automate flow for Field Service push notifications.](./media/mobile-2020-push-notification-step2.png)
 
 1. Add a condition. For our example, we want to send notifications to users, rather than resources that represent equipment, pools, and contractors. Set the condition to *Resource Type* is equal to *User (Type)*.
 
 1. When the condition matches, we need the associated user values. Technicians sign into the mobile app with their Dynamics 365 user credentials. This step ensures that push notifications go to the appropriate users. In the **If yes** box, add a **Get row by ID** option and choose the *User (Value)* row from the *Users* table.
 
-   > [!div class="mx-imgBorder"]
-   > ![Power Apps showing a Power Automate flow, showing the step in the flow that gets associated user values.](./media/mobile-2020-push-notification-step3.png)
-
 1. To include work order information in the push notification message, configure the flow to get work orders. Add another **Get row by ID** option and choose the *Work Order (Value)* row from the *Work Orders* table.
+
+   :::image type="content" source="media/power-automate-custom-flow.svg" alt-text="Custom flow in Power Automate that triggers a push notification in the Field Service mobile app.":::
 
 1. With all information available and the flow logic defined, it's time to add the **Send push notification V2** action.
 
@@ -95,12 +88,12 @@ You can create push notification with custom triggers to match your business sce
 
     - Open app: Yes
     - Entity: Bookable Resource Booking
-    - Form or view:  Form – Booking and Work Order <!-- Jon: This form doesn't exist. Instead: Form - Booking and Work Order. -->
+    - Form or view:  Form – Booking and Work Order
     - Record ID: Bookable Resource Booking
 
    To provide a custom message:
 
-    - Recipients Item: Primary email  <!-- this was generic before, set to email as in screenshot -->
+    - Recipients Item: Primary email
     - Message: The notification message.
 
 1. The push notifications on the technician's mobile phone. They don't need to have the app open or use their device to receive push notifications.
