@@ -8021,11 +8021,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customerengagement/on-premises/developer/org-service/extend-code-generation-tool.md",
-      "redirect_url": "/powerapps/developer/common-data-service/org-service/extend-code-generation-tool",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/fetchxml-schema.md",
       "redirect_url": "/powerapps/developer/common-data-service/fetchxml-schema",
       "redirect_document_id": "false"
