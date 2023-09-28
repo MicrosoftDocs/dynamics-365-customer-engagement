@@ -999,11 +999,11 @@
       - name: Enable conversation summaries
         href: copilot-enable-summary.md#enable-conversation-summaries
       - name: Enable ask a question 
-        href: copilot-enable-help-pane.md#enable-ask-a-question-preview
+        href: copilot-enable-help-pane.md#enable-ask-a-question
       - name: Enable draft a response
-        href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+        href: copilot-enable-help-pane.md#enable-draft-a-response
       - name: Enable write an email
-        href: copilot-enable-help-pane.md#enable-write-an-email-preview
+        href: copilot-enable-help-pane.md#enable-write-an-email
       - name: View feedback data
         href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
@@ -1019,11 +1019,11 @@
       - name: Summarize conversations
         href: copilot-use-summary.md#summarize-conversations
       - name: Ask a question
-        href: use-copilot-features.md#ask-a-question-preview
+        href: use-copilot-features.md#ask-a-question
       - name: Draft a chat response
-        href: use-copilot-features.md#draft-a-chat-response-preview
+        href: use-copilot-features.md#draft-a-chat-response
       - name: Draft emails 
-        href: use-copilot-features.md#draft-emails-preview                   
+        href: use-copilot-features.md#draft-emails                  
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
