@@ -91,8 +91,8 @@ For the system to efficiently manage agent workload, agent capacity needs to be 
 - **Conversation**: When the agents end the conversation and close their session.
 - **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
 - **All records and activities**: Capacity is not released automatically for activities, such as email, that's configured for record routing. To release the agent capacity, do one of the following steps:
-    - [Deactivate the assigned queue item](deactivate-queue-items.md).
-    - Go to the queue item dialog and remove the agent name from the **Worked By** field. However, the assignment engine will try to reassign the item to an agent in the queue if the work item is still in the open state.
+    - [Deactivate the assigned queue item](deactivate-queue-items.md); the associated work item is closed.
+    - If you need to keep the record open, go to the queue item dialog and remove the agent name from the **Worked By** field. The automatic assignment will try to reassign the item to an agent in the queue.
 
     :::image type="content" source="media/remove-agent-to-release-capacity.png" alt-text="Screenshot of remove agent name from Worked By field to release capacity.":::
 
