@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 08/02/2023
+ms.date: 09/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,16 +15,15 @@ The communication panel is where you, as an agent, interact with your customer. 
 
 If you want to minimize the communication panel, select **Minimize**. The communication panel is collapsed to a window in the left corner of the Active Conversation form, giving you more screen space.
 
-> [!NOTE]
-> Minimizing the communication panel is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
-
+You can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific. For example, if you increase the width of the communication panel for chat, the next time you get a chat conversation, you'll see the resized panel. However, the width remains the same for another channel, such as WhatsApp.
+You can resize the communication panel when it is in the expanded mode only.
 
 You can do the following tasks in the communication panel:
 
 - Send quick replies.
 - Search for and share knowledge articles with the customer with whom you are interacting.
 - Transfer the conversation (work item) to another agent or queue.
-- Use the consult option if you need help to resolve the work item.
+- Use the consult option if you need help with resolving the work item.
 - Generate a summary of the conversation. More information: [View and share auto-summarized conversations](cs-ai-generated-summary.md)
 
  > [!div class=mx-imgBorder]
@@ -69,7 +68,7 @@ The quick replies can be created either by the administrator or by you. You can 
 
 ### Search for quick replies and tags
 
-After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
+After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it's filtered and displayed to you. You can also use the number (#) sign to search for the predefined messages.
 
 You can type any of the following options in the compose box to search for the messages that are available for your use:
 
@@ -83,7 +82,7 @@ You can type any of the following options in the compose box to search for the m
 
 ### Share reconnection link with customers
 
-If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they are disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
+If the reconnection link is configured by your administrator, you can share the link with customers during the session that they can use to connect back to the chat when they're disconnected for some reason, such as loss of connectivity or restart of their computer. The reconnection link information is available as a quick response.
 
 > [!IMPORTANT]
 > You can share the reconnection link only when you don't end the chat session using the **End** button.
@@ -96,15 +95,15 @@ The following events occur when you select the **Consult** button:
 
 1. The agent can search for agents to consult within the same queue or other queues, select and invite an agent, and then start a consultation.
 
-1. The secondary agent will receive a notification for the consult request.
+1. The secondary agent receives a notification for the consult request.
 
 1. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
  
    :::image type="content" source="media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
-1. The secondary agent will see a consultation window on the page with an option to leave. They will also have a read-only view of the messages exchanged between the primary agent and customer.
+1. The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
    
-   :::image type="content" source="media/consultee-agent-view.png" alt-text="View of consult pane for the consultee agent.":::
+   :::image type="content" source="media/consultee-agent-view.png" alt-text="View of consult pane for the agent.":::
 
 2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
@@ -112,7 +111,7 @@ The following events occur when you select the **Consult** button:
 
 Additionally, the following considerations apply:
 
-- You can use the UI buttons to collapse and expand the consult pane. When the primary agent selects the option to take notes, the consult pane will be in collapsed mode.
+- You can use the UI buttons to collapse and expand the consult pane. When the primary agent selects the option to take notes, the consult pane is in collapsed mode.
 - The primary agent can end the consult or the secondary agent can leave, after which, the secondary agent won't be able to view the interaction between the primary agent and customer.
 
 You can also use a keyboard command to see the list of agents and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
@@ -120,18 +119,18 @@ You can also use a keyboard command to see the list of agents and or supervisors
 > [!Note]
 > We recommend that you invite no more than five consulting agents when conversing with the customer.
 
-After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
+After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it's present, the names are filtered and displayed to you.
 
 ## Transfer conversations
 
-In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues will be available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
+In the communication panel, you can transfer the work item either to an agent or a queue. The transfer to the agent can be performed only after consult with the agent has been established. Without bringing agents in to consult, only transfer to queues are available. If operating hours have been configured for the queues, you can successfully transfer the conversation to only those queues that are operational at the transfer time.
 
  > [!div class=mx-imgBorder]
  > ![Use the transfer option to launch the transfer list.](media/oceh-cc-options-ellipsis-tansfer.png "Use the transfer option to launch the transfer list")
 
 After the transfer is complete, the agent who initiated the transfer will no longer be able to participate in the conversation.
 
-Agents whose presence is set to Busy-DND, Away, or Offline do not appear in the agent list of the transfer pane.
+Agents whose presence is set to Busy-DND, Away, or Offline don't appear in the agent list of the transfer pane.
 
 Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
@@ -139,15 +138,15 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 **/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
-When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills is not done by the app and the conversation can be transferred to any agent irrespective of the skill match.
+When skill-based routing is enabled, then during the transfer, the **Transfer** panel shows users sorted in the order of matching skills. A check for agent skills isn't done by the app and the conversation can be transferred to any agent irrespective of the skill match.
 
-When a conversation needs to be transferred from one queue to another, the matching criteria that was used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria will be used to find the agent in the new queue.
+When a conversation needs to be transferred from one queue to another, the matching criteria that were used in the conversation will be reused to find an agent in the new queue. For example, if exact match had been used to attach the skills to the conversation, the same criteria is used to find the agent in the new queue.
 
 ![Transfer queue list.](media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
 ### Search agents or queues for transfer of conversation requests
 
-After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
+After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it's present, the agent or queues names are filtered and displayed to you.
 
 
 ## Take notes specific to conversations

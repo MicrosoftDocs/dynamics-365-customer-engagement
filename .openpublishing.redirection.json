@@ -46,6 +46,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/enable-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/live-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/use-copilot-email.md",
       "redirect_url": "/dynamics365/sales/use-sales-copilot",
       "redirect_document_id": "false"
@@ -24383,6 +24393,11 @@
     {
       "source_path": "ce/sales/prereq-sales-insights-app.md",
       "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/custom-plugin-handling-shared-variable.md",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues",
       "redirect_document_id": "false"
     },
     {

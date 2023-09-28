@@ -1,11 +1,11 @@
 ---
 title: FAQs about Sales Copilot in Dynamics 365 Sales
-description: Includes frequently asked questions about Dynamics 365 Sales Copilot, covering various aspects such as privacy, data security, data management, and more.
+description: Includes frequently asked questions about Sales Copilot in Dynamics 365 Sales, covering various aspects such as privacy, data security, data management, and more.
 author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: concept
 search.app: salescopilot-docs
-ms.date: 07/27/2023
+ms.date: 09/21/2023
 ---
 
 # FAQs about Sales Copilot in Dynamics 365 Sales
@@ -32,19 +32,22 @@ No, we don't save any of your data in any new data store. You can read more abou
 
 All data exchanges in Sales Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/trust-center/privacy/data-management).
 
-## What privacy controls apply to the data received by the Azure Open AI service?
+## What privacy controls apply to the data received by the Azure OpenAI service?
 
 All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure Open AI data and privacy commitments [here](/azure/ai-services/openai/faq#data-and-privacy).
 
-## Where are the Azure Open AI endpoints hosted?
+## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure Open AI resources are available in North America and Europe. If your Dynamics 365 environment is in any of these two regions, all requests are routed to your geography's endpoint. For all other geographies, your requests will be routed to the following endpoints when you enable Sales Copilot:
+Currently, the Azure OpenAI resources are only available in the North America and Europe regions. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests. You'll be prompted to consent to this data movement when you enable Sales Copilot.  
 
-- Requests from the United Kingdom (UK), Norway, Germany, France, and China are routed to the Europe endpoint. 
-- Requests from all the other regions are routed to the North America endpoint.
-
-More information: [Dynamics 365 Sales Copilot data movement](sales-copilot-data-movement.md).
+More information: [Sales Copilot data movement](sales-copilot-data-movement.md).
 
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure Open AI or any other Large Language Models.
+
+## What's the difference between Microsoft Sales Copilot and Sales Copilot in Dynamics 365 Sales?
+
+Microsoft Sales Copilot is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Sales Copilot works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Sales Copilot](/microsoft-sales-copilot/introduction). 
+
+Sales Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Sales Copilot in Dynamics 365 Sales](copilot-overview.md).
