@@ -1,14 +1,19 @@
 ---
-title: "Configure a chat channel | MicrosoftDocs"
-description: "This topic gives an overview on how to configure a chat channel and provides you with related links to perform the configuration steps."
-ms.date: 09/03/2020
-ms.topic: article
+title: Introductiom to the chat channel
+description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
+ms.date: 09/29/2023
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.collection: get-started
+ms.collection:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/28/2023
 ---
 
-# Configure a chat channel
+# Introductiom to the chat channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -18,7 +23,7 @@ Dynamics 365 Customer Service offers full featured, first-party chat capabilitie
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
-In this section, you'll learn how to:
+You'll learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
 - [Configure agent display name](agent-display-name.md)
@@ -33,7 +38,7 @@ In this section, you'll learn how to:
 
 Microsoft automatically collects data to improve the reliability and performance of our products and to understand how the products are being used. This information is used to make improvements to the product capabilities over time. The live chat widget in Chat for Dynamics 365 collects telemetry automatically from end users to serve the same purposes. 
 
-Here are a few examples of data collected by the live chat widget.
+A few examples of data collected by the live chat widget are as follows.
 
 | Data | Example value |
 |---------------|------------------------|
@@ -54,6 +59,10 @@ If your organization is concerned about the data collected by this service, you 
 [Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)  
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
+
+## Next steps
+
+[Add a chat widget](add-chat-widget.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
