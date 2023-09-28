@@ -139,11 +139,6 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
-        - name: Organization charts
-          href: organization-charts.md
-          items:
-            - name: Enable org chart
-              href: enable-org-chart.md
         - name: Enable email validation
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
@@ -725,8 +720,6 @@
           href: focused-view.md
         - name: Work with invalid email addresses
           href: work-invalid-email-addresses.md
-        - name: Organize contacts in live org charts for accounts
-          href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab
           href: understand-lsi-accounts-form.md
         - name: Use ZoomInfo app data
