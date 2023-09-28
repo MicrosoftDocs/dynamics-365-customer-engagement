@@ -46,6 +46,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/enable-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/live-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/use-copilot-email.md",
       "redirect_url": "/dynamics365/sales/use-sales-copilot",
       "redirect_document_id": "false"
