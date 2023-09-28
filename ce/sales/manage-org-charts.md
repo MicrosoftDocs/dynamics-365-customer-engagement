@@ -5,13 +5,11 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/22/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# Manage org charts (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Manage org charts
 
 An organization chart helps sellers and sales managers to visualize an account's hierarchy, understand the roles and responsibilities of each contact in the hierarchy, and view the strength of each contact. You can use an org chart to make sure you're reaching the right contact and develop strategies to improve sales.
 
@@ -31,10 +29,6 @@ As a seller or sales manager, you can perform the following tasks to manage org 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as Salesperson or Sales Manager<br/>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-## Prerequisites
-
-Your administrator has [turned on the enhanced org chart feature](enable-org-chart.md).
 
 ## Create or edit an org chart
 
