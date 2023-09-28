@@ -10,8 +10,9 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Manage Copilot features in Customer Service 
+# Manage Copilot features in Customer Service (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
@@ -60,8 +61,6 @@ Before you enable a Copilot feature, review the terms and conditions, and then p
 In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
 
 ## Make Copilot available to agents
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 For agents to be able to use the copilot help pane and copilot summaries in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](../app-profile-manager/add-profile-default.md). For Customer Service Hub, when you enable the feature, it will be available to all the agents.
 

@@ -1,5 +1,6 @@
 ---
-title: Use Copilot to solve customer issues
+title: Use Copilot to solve customer issues (preview)
+)
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
 ms.date: 09/26/2023
 ms.topic: how-to
@@ -10,7 +11,9 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Use Copilot to solve customer issues
+# Use Copilot to solve customer issues (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 
 Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
@@ -28,10 +31,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 Make sure that your administrator has turned on the copilot features.
 
-## Ask a question (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
-
+## Ask a question 
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
 
@@ -63,9 +63,7 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
-## Draft emails (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Draft emails 
 
 With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
 
@@ -98,10 +96,7 @@ By default, Copilot uses internal knowledge base sources for generating response
 
 To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
-## Draft a chat response (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
-
+## Draft a chat response 
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
