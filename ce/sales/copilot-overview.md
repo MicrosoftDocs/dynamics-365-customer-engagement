@@ -41,7 +41,7 @@ More information:
 - [Summarize an opportunity or a lead](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) 
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
-### Recent changes
+### Record catch up
 
 Stay on top of the changes to your opportunities and leads. Copilot summarizes the changes to your records since the last seven days or your last login. Copilot generates this information from the audit history of the record. A system administrator can configure the fields that you want to catch up on. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
