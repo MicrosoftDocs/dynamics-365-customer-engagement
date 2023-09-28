@@ -1,16 +1,16 @@
 ---
-title: Enable features in Copilot pane.
-description: Learn how to enable features in Copilot pane.
+title: Enable features in Copilot pane (preview)
+description: Learn how to enable features that appear in the Copilot help pane to increase agent productivity in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nerranelli
+ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
 ms.date: 09/26/2023
-ms.custom: bap-template .
+ms.custom: bap-template 
 ---
 
-# Enable features in Copilot pane 
+# Enable features in Copilot pane (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -23,7 +23,7 @@ Perform the following steps to enable the Copilot features in Customer Service a
       - **Operations** > **Insights** > **Copilot help pane (preview)**
 1. Select **Manage** in **Copilot help pane (preview)**. The Copilot help pane (preview) page appears. You can select the Copilot features you'd like to enable for agents on this page.
 
-  :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
+  :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
 ## Features supported with different knowledge sources
 
@@ -37,13 +37,9 @@ The following table summarizes the Copilot features supported for a configured k
 
 ## Enable ask a question (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
-
 Select **Make Copilot available to agents** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane (preview)** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
 
 ## Enable draft a response (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
 
@@ -51,7 +47,7 @@ Select **For customer chat** in the **Copilot help pane (preview)** page of Cust
 
 Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** in Customer Service. Copilot helps agents create email responses based on the context of the case.
 
-## Add trusted webpages as sources
+## Add trusted webpages as sources (preview)
 
 You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain.
 

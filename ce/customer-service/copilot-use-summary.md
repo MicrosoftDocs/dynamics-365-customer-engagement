@@ -1,13 +1,13 @@
 ---
-title: Use Copilot to summarize cases and conversations.
-description: Learn how to use Copilot to summarize cases and conversations.
+title: Use Copilot to summarize cases and conversations
+description: Learn how agents can use Copilot to summarize cases and conversations in Customer Service workspace.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: neeranelli 
 ms.topic: conceptual 
 ms.collection: get-started 
 ms.date: 09/26/2023
-ms.custom: bap-template .
+ms.custom: bap-template 
 ---
 
 # Use Copilot to summarize cases and conversations 
