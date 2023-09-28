@@ -3,9 +3,8 @@ title: "Overview of agent experience profiles | MicrosoftDocs"
 description: "Overview of the agent experience profiles."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/09/2022
+ms.date: 09/28/2023
 ms.topic: overview
-
 
 ---
 
@@ -24,7 +23,7 @@ The system requirements for agent profiles and Customer Service workspace are th
 
 ## How the agent experience profile works
 
-Managing the agent experience profiles is as follows. The tasks in every step will be done by administrators who have different roles. It could be one administrator or a set of administrators.
+Managing the agent experience profiles is as follows. The tasks in every step are done by administrators who have different roles. It could be one administrator or a set of administrators.
 
 1. Create users in Microsoft Dynamics 365 admin center.
 2. Assign security roles, such as Customer Service Representative or Omnichannel agent.
@@ -34,7 +33,7 @@ Managing the agent experience profiles is as follows. The tasks in every step wi
 
 For existing orgs, only steps 4 and 5 are required.
 
-Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are made available through the assigned agent experience profile. If you don't assign an agent experience profile, by default, the out-of-the-box agent experience profile will be assigned.
+Thereafter, users with the required agent or supervisor role can see and use the settings that are made available through the assigned agent experience profile. If you don't assign an agent experience profile, by default, the out-of-the-box agent experience profile is assigned.
 
 You can create and manage agent experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md) or in [Power Apps](create-app-profiles-powerapps.md).
 
