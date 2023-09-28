@@ -29,7 +29,7 @@ Use [ribbon customizations](/power-apps/developer/model-driven-apps/customize-co
 
 When your sellers close a quote in Dynamics 365, they can choose to create a revised quote based on the original one. By default, this option is turned on in the Quote Close dialog box. However, you might want to turn it off to avoid creating unwanted revisions. To do this, you need to edit the code for the ribbon definition of the quote entity.
 
-The ribbon definition is an XML file that controls the appearance and behavior of the ribbon buttons and menus. You can access it by downloading the [default ribbon data]((/power-apps/developer/model-driven-apps/export-ribbon-definitions#access-the-default-ribbon-data)). In the ribbon definition, you need to find the `closeQuote` function, which is triggered when you click the Close Quote button. This function has a boolean parameter that sets the default value for creating a revised quote. To change the default value to **No**, you need to change the value of this parameter from **true** to **false**. The following code snippet shows how to do this:
+The ribbon definition is an XML file that controls the appearance and behavior of the ribbon buttons and menus. You can access it by downloading the [default ribbon data](/power-apps/developer/model-driven-apps/export-ribbon-definitions#access-the-default-ribbon-data). In the ribbon definition, you need to find the `closeQuote` function, which is triggered when you click the Close Quote button. This function has a boolean parameter that sets the default value for creating a revised quote. To change the default value to **No**, you need to change the value of this parameter from **true** to **false**. The following code snippet shows how to do this:
 
 ```xml
 <Actions>
@@ -41,7 +41,7 @@ The ribbon definition is an XML file that controls the appearance and behavior o
 
 After you save and publish the changes, the default value for creating a revised quote in the Quote Close dialog box will be **No**. Sellers can still create a revised quote manually by selecting **Yes** in the dialog box.
 
-## Add quick quote close button to the command bar
+## Add quick close quote button to the command bar
 
 By default, when your sellers close a quote, the Quote Close dialog box opens for them to enter additional information. As an administrator, you can customize this experience by adding quick quote close buttons that will let your sellers close quotes with just a click.  
 
@@ -49,7 +49,7 @@ You can add multiple buttons to enable different behaviors. For example, you can
 
 :::image type="content" source="media/quick-quote-close-example.png" alt-text="Screenshot of the quick quote close buttons on the command bar.":::
 
-You can add these buttons to the command bar using ribbon customizations.  
+You can add these buttons to the command bar using [ribbon customizations](/power-apps/developer/model-driven-apps/customize-commands-ribbon).  
 
 To add a button, define a new custom action in the quote ribbon customization and use the `Sales.QuoteRibbonActions.Instance quickCloseQuoteWithoutDialog` javascript function from the  
 `QuoteRibbonActions.js` file for its command action.
