@@ -58,7 +58,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify conditions for email to case creation  
 
-   1. **Create cases for email from unknown senders**: If you select this checkbox, all email messages from unknown senders (a sender whose email address is not present in Dynamics 365) are converted to cases. A contact record is also created for this unknown sender.  
+   1. **Create cases for email from unknown senders**: If you select this checkbox, all email messages from unknown senders (senders whose email addresses aren't present in Dynamics 365) are converted to cases. A contact record is also created for the unknown senders.  
 
       > [!NOTE]
       >  If this option isn't selected, cases are created only for email messages that have a contact or account as the senders. Email messages from senders that are present as other record types won’t be converted to cases.  
@@ -82,13 +82,13 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    2. **Create case if a valid entitlement exists for the customer**: If you select this checkbox, the application creates a case only if an active entitlement exists for the customer.  
 
-       If the sender of the email is a contact with a parent account, the application creates a case if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
+       If the sender of the email is a contact with a parent account, the application creates a case if the contact’s parent account has a valid entitlement and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).  
 
    3. **Create cases for activities associated with a resolved case**: If you select this checkbox, the application creates a case if the email is related to a resolved case. If the email is related to an active case, a new case won’t be created.  
 
    4. **Create case when the case associated with the activity is resolved since**: If you select the **Create cases for activities associated with a resolved case** checkbox, select the duration here. The application creates a case only if the case is resolved earlier than the duration you specify. If the incoming email is related to a case resolved later than the specified duration, the application only associates the incoming email with the existing resolved case; a new case won’t be created.  
 
-   5. Under **Specify Autoresponse Settings**, select the **Send automatic email response to customer on case creation** checkbox, if you want to automatically send email responses to the sender of the email after a case for the email is created.  
+   5. Under **Specify Autoresponse Settings**, select the **Send automatic email response to customer on case creation** checkbox if you want to automatically send email responses to the sender of the email after a case for the email is created.  
 
    **Select email template to respond to customer**: If you select the **Send automatic email response to customer on case creation** checkbox, select an email template (global email template or email template of case entity type). If you don’t select a template, an automatic response won’t be sent.  
 
@@ -100,7 +100,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
    #### Specify case details  
 
-   1. In the **Specify Case Details** section, select **+**, define the conditions for creating a case, and specify the case properties.  
+   1. In the **Specify Case Details** section, select **+**, define the conditions for creating a case and specify the case properties.  
 
    2. In the **Conditions** section, specify when the case should be created.  
 
@@ -115,15 +115,15 @@ Reduce the need for manually creating cases from incoming emails and increase th
       Once a case is created, the incoming email is removed from the queue.  
 
 > [!NOTE]
->  If there’s no routing rule to route the newly created case to another user or queue, the user who’s the owner of the case creation rule will be set as the owner of the case, too.  
+>  If there isn't a routing rule that routes the newly created case to another user or queue, the user who’s the owner of the case creation rule will be set as the owner of the case, too.  
 
 ## Activate or deactivate a case creation rule  
- Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and on the command bar, select **Activate**.  
+ Cases are created automatically only when the case creation rule is active. To activate a rule, open it, and then on the command bar, select **Activate**.  
 
  Once the rule is active, you can’t change it. To change a rule, open the rule and on the command bar, select **Deactivate**. You can then edit the rule.  
 
 ## Manage automatic case creation from a queue form  
- You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, select **Email to Case Settings**.  
+ You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and then on the command bar, select **Email to Case Settings**.  
 
 ### See also  
 [Automatically route cases using routing rule sets](../customer-service/create-rules-automatically-route-cases.md)    </br>
