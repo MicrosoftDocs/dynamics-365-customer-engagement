@@ -471,6 +471,8 @@ items:
           href: rso-simulation.md
     - name: Lock options for bookings
       href: booking-lock-options.md
+    - name: Multi-day requirements
+      href: rso-multi-day.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
