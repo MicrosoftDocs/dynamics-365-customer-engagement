@@ -1,7 +1,7 @@
 ---
 title: "Enable sentiment analysis | MicrosoftDocs"
 description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 09/29/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -56,7 +56,7 @@ After you enable real-time customer sentiment, you can view scores in the [Omnic
 
 ## Agent settings
 
-Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that is not in focus, the alert is shown on the session panel.
+Agents can view the customer sentiment in the communication panel for a conversation session that is active and in focus. For a session that isn't in focus, the alert is shown on the session panel.
 
 You can show alerts to the agents when a customer's sentiment decreases to or below a particular value. You can set the customer's sentiment to any of the following values:
 
