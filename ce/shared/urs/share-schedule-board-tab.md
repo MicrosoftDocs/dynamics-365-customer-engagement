@@ -16,7 +16,6 @@ Use the schedule board tab settings to share a tab.
 
    > [!TIP]
    >  Every user with a Field Service security role gets access. Admins can also [create custom security roles](/power-platform/admin/security-roles-privileges) with the **Schedule Board Setting** privilege.
-   > :::image type="content" source="../../field-service/media/schedule-board-setting-privilege.png" alt-text="Screenshot of the list of privileges with callout on the schedule board setting.":::
 
 ## Choose users to share the schedule board tab
 

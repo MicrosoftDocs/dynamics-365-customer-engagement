@@ -73,3 +73,4 @@ More information: [Show latest news for an account](use-sales-copilot.md#show-la
 ## Region availability and languages supported
 
 Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service that's outside of your geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+
