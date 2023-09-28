@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection: 
-ms.date: 09/26/2023
+ms.date: 09/28/2023
 ms.custom: 
     - bap-template
     - dyn365-customerservice
