@@ -20,7 +20,9 @@ This article summarizes public preview features, general availability enhancemen
 
 This public preview release includes the following changes.
 
-- In both Outlook and Teams, new entries can be added to the work order form when creating a work order.
+- In both Outlook and Teams, new entries can be added to the fields on the work order form when creating a work order.
+- In Outlook, scheduling assistance includes rescheduling technicians and moving the booked time slot for scheduled work orders.
+- In Outlook, admins can enable or disable the Outlook Add-in Copilot setting through the Field Service app.
 - In Teams, a streamlined homepage provides quick and easy access for frontline managers and workers to manage work orders.
 
 ## September 5, 2023

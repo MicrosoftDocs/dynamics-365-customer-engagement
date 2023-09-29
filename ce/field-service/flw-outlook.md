@@ -1,7 +1,7 @@
 ---
 title: Field Service Outlook add-in with Copilot for the Frontline Manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 09/01/2023
+ms.date: 09/29/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -31,16 +31,15 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ### Install the Outlook Add-in
 
-1. [Install the Outlook Add-in](https://support.microsoft.com/office/get-an-office-add-in-for-outlook-1ee261f9-49bf-4ba6-b3e2-2ba7bcab64c8). In the **Add-Ins for Outlook** dialog box, search for **Dynamics 365 Field Service for Outlook (Preview)** and select it.
+1. Go to [AppSource](https://aka.ms/fieldserviceaddin) and select **Dynamics 365 Field Service for Outlook (Preview)**.
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) add-in card":::
 
-1. Select **Get it now**.
-
-> [!NOTE]
-> Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
+1. Select **Get it now** and confirm your information.
 
 ## Open the Field Service (Preview) Outlook Add-in
+
+Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
 
 1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
 
@@ -70,7 +69,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ## Create a work order in Outlook using Copilot in Field Service (Preview)
 
-This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
+This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
 
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in). To avoid duplicate work orders, if the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
@@ -87,7 +86,7 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md).
 
    :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service (Preview) Outlook pane showing an auto-generated work order for review":::
 
-1. At a minimum, ensure the required information is entered for the work order. If a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
+1. At a minimum, ensure the required information is entered for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -112,7 +111,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
    :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service (Preview) Outlook pane Work Orders tab highlighting the Create button":::
 
-1. At a minimum, enter the required information for the work order. If a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
+1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -132,7 +131,11 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
-## Schedule a work order in Outlook
+## Schedule assistance
+
+In Outlook, schedule assist functionality helps you schedule, reschedule, or move a booking for a work order.
+
+### Schedule a work order in Outlook
 
 Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
 
@@ -150,6 +153,43 @@ Scheduling is based on resource availability, skills, customer promised time win
 1. If needed, update the booking status. A confirmation displays at the top of the pane.
 
 1. Select the back arrow to return to the **Home** tab or the work order list.
+
+### Reschedule a work order in Outlook
+
+Reschedule a scheduled work order to a different resource, date, or time. Use schedule assist to provide schedules based on resource availability, skills, customer promised time windows, customer location proximity, and business unit. Or [manually move the date, time, or technician](#move-a-booking-in-outlook).
+
+1. On the **Copilot** tab of the Field Service (Preview) pane, select **View schedule**.
+
+   > [!TIP]
+   > You can also open a scheduled work order from the **Work orders** tab. Within the work order, select the **Scheduling** tab to view the schedule.
+
+   :::image type="content" source="media/fsp-outlook-reschedule.png" alt-text="Field Service (Preview) Outlook with Rechedule button highlighted":::
+
+1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+
+1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+
+   :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling with Search for technician highlighted":::
+
+   > [!TIP]
+   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
+
+1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the **Field Service (Preview)** pane.
+
+### Move a booking in Outlook
+
+Change the date and time scheduled for the technician.
+
+1. On the **Copilot** tab of the Field Service (Preview) pane, select **View schedule**.
+
+   > [!TIP]
+   > You can also open a scheduled work order from the **Work orders** tab. Within the work order, select the **Scheduling** tab to view the schedule.
+
+   :::image type="content" source="media/fsp-outlook-move-booking.png" alt-text="Field Service (Preview) Outlook Scheduling with Move booking highlighted":::
+
+1. Next to **Reschedule**, select the ellipsis (**&hellip;**) > **Move booking**. The system automatically displays the current resource, but you can change it.
+
+1. Select the date and time and select **Update**. The technician is booked. A confirmation displays at the top of the **Field Service (Preview)** pane.
 
 ## View work orders in Outlook
 
@@ -172,9 +212,10 @@ Scheduling is based on resource availability, skills, customer promised time win
 
 1. While in an email, [open the Field Service (Preview) add-in](#open-the-field-service-preview-outlook-add-in).
 
-1. On the **Work orders** tab, a list of up to 50 work orders display.
+1. Select **Open work order** from the **Copilot** tab.
 
-1. Select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
+   > [!TIP]
+   > You can also open a work order from the **Work orders** tab. Use **Find by ID** or **Filter** to find the work order if necessary.
 
    :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service (Preview) Outlook work order details":::
 

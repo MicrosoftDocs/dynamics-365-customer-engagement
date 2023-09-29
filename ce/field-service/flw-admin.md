@@ -12,17 +12,17 @@ ms.subservice: m365-integrations
 
 # Microsoft 365 integrations for Field Service for Administrators (preview)
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use one or the other or both.
 
-[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
 ## [Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, please fill out the following form: https://go.microsoft.com/fwlink/?linkid=2240475.
+The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, disable the **Outlook Add-in Copilot (Preview)** setting in [Work Order settings.](configure-default-settings#work-order--booking-settings)
 
 ### Prerequisites
 
