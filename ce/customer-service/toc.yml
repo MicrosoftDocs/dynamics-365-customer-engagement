@@ -914,7 +914,7 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
-    - name: How to close conversations automatically
+    - name: Close conversations automatically
       href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:

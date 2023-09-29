@@ -1,5 +1,5 @@
 ---
-title: How to close conversations automatically
+title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
 ms.date: 09/29/2023
 ms.topic: how-to
@@ -8,7 +8,7 @@ ms.author: v-duddupdiv
 ms.reviewer: gandhamm
 ms.custom: bap-template
 ---
-# Automatic closure of conversations
+# Close conversations automatically
 
 Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve closure, allowing agents to focus on other tasks, enhancing productivity.
 
