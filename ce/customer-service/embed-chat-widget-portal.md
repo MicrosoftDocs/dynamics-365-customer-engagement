@@ -57,7 +57,7 @@ After you configure the chat widget, it has the following capabilities:
 
 - **Minimized mode**: By default, the chat widget appears in minimized mode. If any messages come while the widget is in the minimized mode, a count of the messages is shown.
      
-      :::image type="content" source="media/oc-chat-widget-minimized-mode.png" alt-text="Screenshot of chat widget in minimized mode.":::
+     :::image type="content" source="media/oc-chat-widget-minimized-mode.png" alt-text="Screenshot of chat widget in minimized mode.":::
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
