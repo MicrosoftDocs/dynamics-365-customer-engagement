@@ -1,59 +1,35 @@
 ---
-title: "Edit Sitemap entities (tables) on the home screen | MicrosoftDocs"
-description: Learn about how to change the sitemap, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.date: 11/09/2021
-ms.topic: article
+title: Edit the navigation
+description: Change the navigation, forms, and views in the Field Service (Dynamics 365) mobile app.
+ms.date: 09/08/2023
+ms.topic: how-to
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
 ---
 
-# Edit Sitemap entities (tables) on the home screen
+# Edit the navigation and views on the mobile app
 
-Sign in to Dynamics 365 as a system administrator.
+Field Service Mobile is a model-driven app, which you can edit in Power Apps so it matches your business scenario.
 
-To see your list of apps, go to:
+To change things like the navigation, form, or views, [you need permissions to sign in to Power Apps and permissions to edit model-driven apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps). Usually, the environment maker, system administrator, or system customizer security role have the permissions to create or edit apps.
 
-`https://[YOUR-ENVIRONMENT-NAME].crm.dynamics.com/main.aspx?forceUCI=1&pagetype=apps`
+## Edit the navigation
 
-Find the Field Service Mobile app and go to the **App Designer**.
+In [Power Apps](https://make.powerapps.com/), open the environment with the app you want to edit. For more information, see [Edit an app](/power-apps/maker/canvas-apps/edit-app#edit-an-app).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365, showing the list of apps and showing the option to open Field Service Mobile in the App Designer.](./media/mobile-2020-admin-app-designer.png)
-
-Select the edit icon to edit the site map.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the App Designer in Power Apps, showing the Field Service Mobile site map option.](./media/mobile-2020-admin-sitemap1.png)
-
-The groups  **My Work**, **Customers**, and **Other** correspond with the home screen of the Field Service (Dynamics 365) mobile app and you can rearrange, delete, or edit the display names.
-
-Rearrange the entities displayed within each group with the drag and drop interface, or add new entities by adding new **Subareas**.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing the My Work, Customers, and Other groups on the Field Service Mobile App Designer.](./media/mobile-2020-admin-sitemap2.png)
-
-You can even create entirely new groups with more subareas to display different entities.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Apps, showing Field Service Mobile in the App Designer, and showing a simulated mobile device on the right with the corresponding changes.](./media/mobile-2020-admin-sitemap3.png)
-
-> [!Note]
-> For every entity you display in the sitemap, you can choose the views available on mobile in the App Designer.
-
-
-
+In the app designer in Power Apps, you find the current navigation structure with groups of pages. You can [edit the navigation and add or remove groups and pages](/power-apps/maker/model-driven-apps/app-navigation).
 
 ## Edit mobile views
 
-- [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer) 
+For every table in the navigation, you can choose the views available on mobile app. For more information, see [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views).
 
-- [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
+You can also [customize views with code](/power-apps/developer/model-driven-apps/customize-entity-views) or [customize the booking calendar](mobile-powerapp-customize-booking-calendar.md) that Field Service Mobile.
 
-- [Customize Booking Calendar](/dynamics365/field-service/mobile-powerapp-customize-booking-calendar)
+## Next steps
+
+- [Overview of the model-driven app designer](/power-apps/maker/model-driven-apps/app-designer-overview)
+- [Understand model-driven app components](/power-apps/maker/model-driven-apps/model-driven-app-components)
+- [Model-driven apps developer guide](/power-apps/developer/model-driven-apps/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

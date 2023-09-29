@@ -242,10 +242,37 @@ These APIs can be called by using the browser.
        }
 ```
 
-4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call:
+4. After this function is defined, you can call it to create, edit, or delete calendars by using the APIs. Enter the following call to save a calendar:
 
 ```
-       CalendarAction("msdyn_SaveCalendar", {"CalendarEventInfo":"{\"CalendarId\":\"df0857c4-50f5-4576-8e89-f236670ad2d5\",\"EntityLogicalName\":\"bookableresource\", \"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",\"IsVaried\":false,\"RulesAndRecurrences\":[{\"Rules\":[{\"StartTime\":\"2021-04-25T08:00:00.000Z\",\"EndTime\":\"2021-04-25T17:00:00.000Z\",\"Duration\":540,\"Effort\":1}]}]}"})
+       CalendarAction("msdyn_SaveCalendar",{
+           "CalendarEventInfo":"{
+               \"CalendarId\":\"df0857c4-50f5-4576-8e89-f236670ad2d5\",
+               \"EntityLogicalName\":\"bookableresource\",
+               \"TimeZoneCode\":92,\"StartDate\":\"2021-04-25T00:00:00.000Z\",
+               \"IsVaried\":false,
+               \"RulesAndRecurrences\":[{
+                   \"Rules\":[{
+                       \"StartTime\":\"2021-04-25T08:00:00.000Z\",
+                       \"EndTime\":\"2021-04-25T17:00:00.000Z\",
+                       \"Duration\":540,
+                       \"Effort\":1
+                   }]
+               }]
+           }"
+       })
+```
+Enter the following call to delete a calendar:
+
+```
+       CalendarAction("msdyn_DeleteCalendar", {
+           "CalendarEventInfo":"{
+               \"CalendarId\":\"8390358c-77d0-430f-b176-f27adadac8eb\",
+               \"EntityLogicalName\":\"bookableresource\",
+               \"InnerCalendarId\":\"cf508c2c-5c55-485c-be1e-d2ebcb385441\"
+           }"
+       })
+       
 ```
 
 See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3 with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
@@ -727,7 +754,7 @@ For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1-No End Date* except *6.21; non-rep
 185                 | (GMT+05:00) Toshkent
 190                 | (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi
 193                 | (GMT+05:45) Kathmandu
-195                 | (GMT+06:00) Astana
+195                 | (GMT+06:00) Nur-Sultan
 196                 | (GMT+06:00) Dhaka
 197                 | (GMT+06:00) Omsk
 200                 | (GMT+05:30) Sri Jayawardenepura
