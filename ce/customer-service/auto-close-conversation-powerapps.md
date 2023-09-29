@@ -1,5 +1,5 @@
 ---
-title: Automatic closure of conversations
+title: How to close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
 ms.date: 09/29/2023
 ms.topic: how-to
@@ -21,14 +21,14 @@ The Omnichannel for Customer Service scheduler checks conversations every 5 minu
 
 ### Default time for automatic closure of conversations
 
-All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft support.
+All channels have different default configured time after which conversations can be moved to the **Closed** state. However, the exact time at which the scheduler runs is dependent on the Omnichannel for Customer Service deployment time in your region. For more information, contact Microsoft Support.
 
 The following table describes the channel, status reason, and default configured time.
 
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
+ | Chat | Active | None | For a chat channel, a conversation in the Active state won’t be automatically closed. |
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
  | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
