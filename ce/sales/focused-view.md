@@ -105,8 +105,8 @@ The customization that you make to the work list card is specific to the entity 
 
 ### See also
 
-[Set focused view as the default view](set-focused-view-as-default.md)  
-[Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)   
+[Enable focused view and set it as default](set-focused-view-as-default.md)  
+[Prioritize sales pipeline with work lists](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
 [Customize work items](customize-work-list-card.md#customize-work-items)   
 [Focused view FAQs](faq-sales.yml#focused-view)
