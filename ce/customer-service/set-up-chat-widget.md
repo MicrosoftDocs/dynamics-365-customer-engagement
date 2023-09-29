@@ -1,5 +1,5 @@
 ---
-title: Introductiom to the chat channel
+title: Introduction to the chat channel
 description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
 ms.date: 09/29/2023
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:09/28/2023
 ---
 
-# Introductiom to the chat channel
+# Introduction to the chat channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
