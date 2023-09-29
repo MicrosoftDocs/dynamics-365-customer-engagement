@@ -154,7 +154,7 @@ After the Omnichannel for Customer Service application is successfully provision
 
 ### Troubleshoot provisioning
 
-[Instance is not available to select on the provisioning application](/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel.md)
+[Instance is not available to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel)
 
 ### See also
 
