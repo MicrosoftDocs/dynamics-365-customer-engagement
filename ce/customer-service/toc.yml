@@ -726,6 +726,8 @@
         href: configure-reconnect-chat.md
       - name: Understand disconnected chats
         href: oc-conv-state-chat-disconnect.md   
+      - name: Understand conversation states
+        href: oc-conversation-state.md 
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -755,9 +757,7 @@
       - name: Search, link, and unlink a record
         href: oc-search-link-unlink-record.md
       - name: Take notes for conversation
-        href: oc-take-notes.md
-      - name: Understand conversation states
-        href: oc-conversation-state.md     
+        href: oc-take-notes.md    
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -808,7 +808,7 @@
         href: start-proactive-chat.md
       - name: Send authentication token
         href: send-auth-token-starting-chat.md       
-      - name: Configure automatic closure of conversations
+      - name: Configure automatic closure of conversations using web API
         href: auto-close-conversation.md
       - name: Send custom context during live chat
         href: send-context-starting-chat.md
@@ -914,6 +914,8 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
+    - name: Close conversations automatically
+      href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:
       - name: Configure authentication settings for chat  
