@@ -13,14 +13,14 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Join a Teams call is a new feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, co-browse, and connect through video. Customers don’t need to have a Teams license or previous experience using Teams.
+Join a Teams call is a new feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, cobrowse, and connect through video. Customers don’t need to have a Teams license or previous experience using Teams.
 
 ## Prerequisites
 
 Ensure that the following prerequisites are met:
 
 - Agents in your organization must be able to access and use Teams.
-- Agents must be able to access the productivity pane to see the Join a Teams call app. More information: [Assign templates and enable the productivity pane and channels](../app-profile-manager/app-profile-manager#assign-templates-and-enable-productivity-pane-and-channels)
+- Agents must be able to access the productivity pane to see the Join a Teams call app. More information: [Assign templates and enable the productivity pane and channels](../app-profile-manager/app-profile-manager.md#assign-templates-and-enable-productivity-pane-and-channels)
 - If you want agents to be able to invite their customers to Teams meetings via email, their email must be configured for outbound email.
 
 ## Set up Join a Teams call for agents
@@ -29,7 +29,7 @@ Ensure that the following prerequisites are met:
 2.	In Customer Service admin center, go to **Agent experience** > **Collaboration**.
 1.	In **Join a Teams call**, select **Manage**.
 1.	On the **Join a Teams call** page, turn on the toggle for **Join a Teams call**.
-1.	If you want to enable Join a Teams call for non-default agent profiles, you must manually enable them. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](/configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
+1.	If you want to enable the Join a Teams call feature for nondefault agent profiles, you must manually enable them. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 1. Save the changes. The Join a Teams call feature is now enabled for Customer Service workspace.
 
 ### See also
