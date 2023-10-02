@@ -11,7 +11,7 @@ ms.author: anilmur
 # Single resource optimization for Resource Scheduling Optimization
 
 
-Resource scheduling optimization is flexible and can be configured to run optimizations based on your entire organization's scheduling needs. Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources.
+Resource scheduling optimization is flexible and can be configured to run optimizations based on your entire organization's scheduling needs. Sometimes you might need to optimize only a single resource's schedule, rather than that for a set of available resources.
 
 Single resource optimization provides a quick way to optimize a resource's schedule and travel route, after taking into consideration the existing bookings on the resource's schedule as well as additional requirements as discussed below.
 
@@ -19,12 +19,12 @@ This is helpful after schedule changes have occurred during the day, when a reso
 
 - Has a gap in the schedule due to a cancellation.
 - Is double-booked because an emergency work order was assigned.
-- Has a schedule that was put together manually and needs a travel route with minimal travel.
+- Has a schedule that was put together manually and needs a route with minimal travel.
 
 If an individual resource's schedule needs to be reoptimized, a dispatcher can manually run single resource optimization. It can also be triggered by a workflow. 
 
 > [!Note]
-> * If using Dynamics 365 Field Service version 8.8.99.10 or newer along with Resource scheduling optimization version 3.40.0.500 or newer, single optimization runs will take into account existing bookings as well as additional requirements. As a consequence, existing bookings can be deleted in order to produce a schedule that better matches the optimization goal. If using older versions of these products, then single optimization runs will only consider existing bookings on the resource's schedule. The rest of this document assumes that the newer versions have been installed.
+> * If using Dynamics 365 Field Service version 8.8.99.10 or newer along with Resource Scheduling Optimization version 3.40.0.500 or newer, single optimization runs will take into account additional requirements as well as existing bookings. As a consequence, existing bookings can be deleted in order to produce a schedule that better matches the optimization goal. If using older versions of these products, then single optimization runs will only consider existing bookings on the resource's schedule. The rest of this document assumes that the newer versions have been installed.
 > * Unlike other Resource Scheduling Optimization scenarios, single resource optimization runs can't be scheduled.
 
 ## Prerequisites
@@ -78,7 +78,7 @@ In Field Service version 8.0+, you can right-click a resource (except a [crew](.
 - The default optimization goal configured above
 - The default optimization range which is from now to the end of today (12:00 AM)
 - The existing bookings on the resource's schedule in that optimization range
-- Additional requirements from the active view of requirements at the bottom of the schedule board
+- Additional requirements from the active view of requirements at the bottom of the schedule board, ordered according to any sorting or filtering that have been applied to that view
    
 The schedule board tab now shows:
 
@@ -96,12 +96,12 @@ You can also change the default goal and time range before running the optimizat
 1. Select a resource's name and then go to the **Optimizations** panel, and do the following.
 > [!Note]
 > This capability is **only** available from the schedule board view associated with the optimization scope.
-1. Click on "single resource", and the view should change, and the text label *Resource* should show the name of the selected resource
+1. Click on "single resource". The view should change, and the text label *Resource* should show the name of the selected resource
 1. Set the optimization range to the desired values (default being from now until end of day)
-1. Use the *Requirements* drop down to choose among the different views at the bottom of the schedule board tab. The filters and sort order of the selected view determines which additional requirements are considered for optimization. You can select "None" if you want to optimize only the existing bookings. 
+1. Use the *Requirements* drop down to choose among the different views at the bottom of the schedule board tab (default being the active view), from which additional requirements are considered for optimization. If the default/active view is chosen, then the filters and sorting settings of that view determines the order of requirements. For other views, the default order of requirements in that view is used. You can select "None" if you want to optimize only the existing bookings. 
 1. Select the desired optimization goal.
 
-In the **Run** drop down, select **Run now** to submit a single resource optimization request. You can see the request in the "Optimazation requests history" section at the bottom ot the **Optimizations** panel, as it progresses through different states until it completes. Upon completion, the schedule board is updated with optimized set of bookings. You can double click on the optimization request to view the details about which bookings were deleted, updated, and created.
+In the **Run** drop down, select **Run now** to submit a single resource optimization request. You can see the request in the "Optimization requests history" section at the bottom ot the **Optimizations** panel, as it progresses through different states until it completes. Upon completion, the schedule board is updated with optimized set of bookings. You can double click on the optimization request to view the details about which bookings were deleted, updated, and created.
 
 ### Run as simulation after making changes to defaults
 
@@ -116,7 +116,6 @@ By running single resource optimization as a simulation, you can see the resulti
 - Single resource optimization considers additional requirements as well as existing bookings in coming up with an optimal schedule. As a result, existing bookings can be deleted. You can control the additional requirements via the "Requirements" drop down in the **Optimization panel**.
 - Single resource optimization can reoptimize bookings that were booked manually, through resource availability search, or based on location agnostic requirements.
 - This capability appears on the schedule board for all resources as long as optimization is deployed in the environment. However, single resource optimization only works if **Optimize Schedules** is set to **Yes** for the bookable resource. The single resource optimization capability can't be disabled or hidden.
-
 
 
 
