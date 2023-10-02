@@ -58,5 +58,3 @@ To locate or create a customer record
 
 [Set up Join a Teams call](set-up-join-a-teams-call.md) <br>
 [Use Teams chat in Customer Service](use-teams-chat.md)
-
-
