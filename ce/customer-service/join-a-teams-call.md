@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Join a Teams call is a new way for you to have effective conversations with your customers. During an active conversation, you can quickly move your call or chat to Microsoft Teams. On Teams, you can share your screen, connect on video, and cobrowse to offer more personalized support to your customer. 
 
-If you already have Teams, you don't need any other investments to use Join a Teams call. Your customers don’t need a Teams license or previous experience using Teams.
+If you already have Teams, you don't need any other investments to use the Join a Teams call feature. Your customers don’t need a Teams license or previous experience using Teams.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ Ensure that the following prerequisites are met:
 
 ## Use Join a Teams call
 
-You can use Join a Teams call when you’re in an active, ongoing conversation by doing the following steps:
+You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the following steps:
 
 1.	On the productivity pane, select the **Join a Teams call** icon. The option to **Start a Teams meeting** is displayed with the customer’s name.
 2.	Next to the customer's name, select either of the following options:
