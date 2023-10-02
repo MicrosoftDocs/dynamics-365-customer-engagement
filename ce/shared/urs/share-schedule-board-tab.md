@@ -33,3 +33,6 @@ Open the schedule board record you want to share to specific people. On the sche
 > ![Screenshot of the share button for a specific schedule board setting.](../../field-service/media/schedule-board-share.png)
 
 Add users or teams to share the schedule board with. They see the schedule board tab if they have access privileges to schedule boards.
+
+> [!NOTE]
+>  Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, use the instructions in this article, selecting Specific People as the sharing option and the appropriate team in the Manage access panel.
