@@ -29,7 +29,7 @@ To install Dynamics 365 Customer Service Community:
     > ![Microsoft AppSource Dynamics 365 Customer Service Community download page.](media/community-get-started.png)
 3.	Select the environment where you want to install Customer Service Community, accept the terms, and select **Install**.
 
-## Provision Modern Community portal
+## Provision Modern Community website
 
 1.	Confirm that Customer Service Community successfully installed in the previous procedure.
 2.	Go to [Power Pages](https://make.powerpages.microsoft.com/), and then select the environment where you installed Customer Service Community.
