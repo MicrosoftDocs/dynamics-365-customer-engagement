@@ -29,7 +29,7 @@ Ensure that the following prerequisites are met:
 2.	In Customer Service admin center, go to **Agent experience** > **Collaboration**.
 1.	In **Join a Teams call**, select **Manage**.
 1.	On the **Join a Teams call** page, turn on the toggle for **Join a Teams call**.
-1.	If you want to enable the Join a Teams call feature for nondefault agent profiles, you must manually enable them. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
+1.	If you want to enable the Join a Teams call feature for nondefault agent profiles, you must manually enable them. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md##add-the-teams-chat-settings-page-for-specific-multisession-users)
 1. Save the changes. The Join a Teams call feature is now enabled for Customer Service workspace.
 
 ### See also
