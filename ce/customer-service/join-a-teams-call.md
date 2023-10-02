@@ -30,6 +30,7 @@ Ensure that the following prerequisites are met:
 You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the following steps:
 
 1.	On the productivity pane, select the **Join a Teams call** icon. The option to **Start a Teams meeting** is displayed with the customer’s name.
+
 2.	Next to the customer's name, select either of the following options:
     - Link icon: Generates a Teams meeting link and copies it to your clipboard do you can send it to the customer.
     - Email icon: Autosends an email that contains a Teams meeting link to the email address in the customer record.
