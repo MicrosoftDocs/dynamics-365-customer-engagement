@@ -5,9 +5,6 @@ When a requirement is scheduled to a resource, the system creates a booking reco
 
 Each scheduling-enabled entity can have a different booking template. When a work order requirement is scheduled, the booking template shows the *Bookable Resource Booking* record's **Name** and **Duration** values.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Standard booking visualization.](../../field-service/media/standard-booking-visualization.png)
-
 The default value contains the following HTML code snippet.
 
 ```HTML
@@ -95,9 +92,6 @@ Duration: <b>{duration} minutes</b><br/>
 ```
 
 The booking template on the schedule board now contains a visual representation of the customer rating and the type of job.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of final booking template.](../../field-service/media/final-booking-template.png)
   
 > [!NOTE]
 > Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility.

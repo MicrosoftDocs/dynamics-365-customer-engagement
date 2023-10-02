@@ -38,7 +38,7 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 
 ## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure OpenAI resources are only available in the North America region. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests. You'll be prompted to consent to this data movement when you enable Sales Copilot.  
+Currently, the Azure OpenAI resources are only available in the North America and Europe regions. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests. You'll be prompted to consent to this data movement when you enable Sales Copilot.  
 
 More information: [Sales Copilot data movement](sales-copilot-data-movement.md).
 
