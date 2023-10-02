@@ -30,7 +30,7 @@ To install Dynamics 365 Customer Service Community:
 2.	Go to [Power Pages](https://make.powerpages.microsoft.com/), and then select the environment where you installed Customer Service Community.
 3.	Go to **Templates** tab, and then select the **Dynamics 365** tab.
 4.	Select **Modern Community** > **Choose this template**.
-5.	Select **Done**. Site provisioning typically takes a few minutes, and then when it completes, it's displayed under **Active Sites** list under **Home**.
+5.	Select **Done**. Site provisioning typically takes a few minutes, and then when it completes, it's displayed in the **Active Sites** list under **Home**.
 
 When your Modern Community site has been created, you can view the Community home page by going to https://&lt;name&gt;.powerappsportals.com/d365community. 
 
