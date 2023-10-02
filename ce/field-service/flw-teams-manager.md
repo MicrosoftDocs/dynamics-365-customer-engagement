@@ -14,27 +14,30 @@ ms.subservice: m365-integrations
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connection dashboard cards to enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
+The Dynamics 365 Field Service (Preview) for Teams enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
 [!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
 ## Select your environment to open your dashboard the first time
 
-1. In Teams, select **Apps** and select Field Service (Preview). Your dashboard displays.
+1. In Teams, select **Apps** and select **Field Service (Preview)**. Your dashboard displays.
 
-1. On a card that says **Get Started**, select **Settings**. The Team Settings page displays.
+   > [!NOTE]
+   > If your administrator hasn't set up the Field Service (Preview) Teams app, [install the app first](../includes/fsp-deploy-teams.md).
+
+1. Select the **Settings** tab.
 
 1. Select your Field Service environment.
 
    :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
 
-1. Once the environment is validated, select **Open Viva Connections**.
+1. Once the environment is validated, select **Open Viva Connections**. The **Home** page displays.
 
    :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections dashboard":::
 
 ## Create a work order in Teams
 
-1. From your Field Service (Preview) dashboard, select the **Create work order** button.
+1. From your Field Service (Preview) Home page, select the **Create work order** button.
 
    :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of Field Service (Preview) Teams Create a work order button":::
 
@@ -48,8 +51,6 @@ The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connectio
 
 1. Select **Save**. After the work order is created, the work order number displays. The **System Status** default is **Unscheduled**.
 
-   <!--- Where does WO# display? Does pop-out icon display? --->
-
    :::image type="content" source="media/fsp-viva-pop-out-icon.png" alt-text="Screenshot of Field Service (Preview) Teams work orders highlighting pop-out icon":::
 
    > [!TIP]
@@ -59,7 +60,7 @@ The Dynamics 365 Field Service (Preview) for Teams uses Microsoft Viva Connectio
 
 You can view all work orders, overdue work orders, or work orders with a status of **In progress**. An overdue work order is an unscheduled or scheduled work order where the time promised has passed.
 
-1. From your Field Service (Preview) dashboard, select one of the following:
+1. From your Field Service (Preview) Home page, select one of the following:
 
    - **All work orders**
    - **Overdue** work orders
@@ -78,7 +79,7 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
 ## Edit a work order in Teams
 
-1. From your Field Service (Preview) dashboard, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
+1. From your Field Service (Preview) Home page, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams work order to edit":::
 

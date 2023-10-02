@@ -12,13 +12,13 @@ ms.subservice: m365-integrations
 
 # Field Service Outlook Add-in with Copilot for the Frontline Manager (preview)
 
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
 The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](preview-schedule-board.md) for scheduling.
 
-[!INCLUDE[us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
 ## Install the Field Service (Preview) Outlook Add-in
 
@@ -37,9 +37,10 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 1. Select **Get it now** and confirm your information.
 
-## Open the Field Service (Preview) Outlook Add-in
+> [!NOTE]
+> Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
 
-Switching to a different theme in Outlook Web is not supported in Outlook add-ins.
+## Open the Field Service (Preview) Outlook Add-in
 
 1. While in an email, select **More actions (...)**, and then select **Field Service (Preview)**.
 
@@ -131,7 +132,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
 See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#edit-a-work-order-in-outlook) for any work orders created by the Copilot or manually.
 
-## Schedule assistance
+## Get schedule assistance
 
 In Outlook, schedule assist functionality helps you schedule, reschedule, or move a booking for a work order.
 
@@ -175,6 +176,8 @@ Reschedule a scheduled work order to a different resource, date, or time. Use sc
    > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the **Field Service (Preview)** pane.
+
+1. Select the back arrow to return to the **Home** tab or the work order list.
 
 ### Move a booking in Outlook
 

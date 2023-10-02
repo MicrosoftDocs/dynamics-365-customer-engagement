@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Worker
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to view and edit current work orders.
-ms.date: 09/29/2023
+ms.date: 10/02/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -20,7 +20,10 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 ## Select your environment to open your dashboard the first time
 
-1. In Teams, select **Apps** and select Field Service (Preview).
+1. In Teams, select **Apps** and select **Field Service (Preview)**.
+
+   > [!NOTE]
+   > If your administrator hasn't set up the Field Service (Preview) Teams app, [install the app first](../includes/fsp-deploy-teams.md).
 
 1. Select the **Settings** tab.
 

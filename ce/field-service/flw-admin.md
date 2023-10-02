@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 08/16/2023
+ms.date: 10/02/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -14,7 +14,12 @@ ms.subservice: m365-integrations
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use one or the other or both.
+As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use:
+
+- Microsoft Outlook
+- Microsoft Teams without Viva Connections
+- Microsoft Teams with Viva Connections
+- All three
 
 [!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
@@ -34,7 +39,7 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/) as a global admin or Exchange admin.
 
-1. Go to **Settings** > **Integrated apps**. For more information, see [Deploy an Office Add-in using the admin center](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
+1. Go to **Settings** > **Integrated apps**. For more information, see [Deploy an Office Add-in using the admin center.](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
 
    :::image type="content" source="media/fsp-integrated-apps.png" alt-text="Microsoft admin center with Integrated apps highlighted":::
 
@@ -57,7 +62,11 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
 
 ## [Field Service (Preview) for Teams](#tab/teams)
 
-The Field Service (Preview) Teams app requires the following setup:
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
+
+## [Field Service (Preview) for Teams and Viva Connections](#tab/viva)
+
+The Field Service (Preview) for Teams and Viva Connections require the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
 - [Deploy Field Service (Preview) Teams app](#deploy-field-service-preview-teams-app)
@@ -84,17 +93,13 @@ If you have not created user groups for your frontline workers and frontline man
 
 ### Deploy Field Service (Preview) Teams app
 
-Make the Field Service (Preview) app available in Teams.
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
-1. From the Teams App Store, search for **Field Service (Preview)**.
+1. Select the **Settings** tab.
 
-   :::image type="content" source="media/fsp-teams-app-admin.png" alt-text="Screenshot showing search for Field Service (Preview)":::
+1. Select your Field Service environment.
 
-1. Select the **Field Service (Preview)** app and open it.
-
-1. On the **Settings** tab, select your environment.
-
-   :::image type="content" source="media/fsp-environment.png" alt-text="Field Service (Preview) Teams Settings tab.":::
+   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
 
    > [!NOTE]
    > You must select your environment and see a validation message before deploying Field Service (Preview) for Viva Connections.
@@ -137,6 +142,9 @@ Viva Connections is included as part of Microsoft Teams license. If you do not h
 1. On the **Approve access** dialog box, select **Go to API access page**.
 
 1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
+
+   > [!NOTE]
+   > API access is at the tenant-level for your organization. API access is given to all environments within the tenant.
 
 ### Add Field Service (Preview) cards to the Viva Connections dashboard
 
