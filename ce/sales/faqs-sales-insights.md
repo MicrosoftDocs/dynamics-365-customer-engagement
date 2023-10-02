@@ -71,7 +71,7 @@ The following table lists the regions in which Sales Premium features are availa
 | Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No | Yes | Yes | Yes |
+| Premium forecasting | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
 | Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -151,7 +151,6 @@ System and application users update certain entities with insights about the rec
 When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
 
 - Access to the workspace and up to 1,500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
-- Three hours of conversation intelligence per user, per month.
 - Predictive scoring for 1,500 lead or opportunity records scored per environment, per month.
 
 ### How can I get the full capacity of digital selling capabilities?
@@ -437,7 +436,7 @@ The following administrators can opt out users at different levels:
 |Feature  |Microsoft Sales Copilot  |Sales Enterprise / Sales Premium  |
 |---------|---------|---------|
 | **Call processing**   |    |    |
-|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes<sup>1</sup><br><sup>1</sup> **Sales Enterprise:** Three hours of conversation intelligence (recording and processing) per user, per month<br> **Sales Premium:** 10 hours of conversation intelligence (recording and processing) per user, per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). .|
+|Conversation intelligence for phone calls from Teams (Inbound / Outbound)     |  No       | Yes, unlimited access to conversation intelligence  |
 |Conversation intelligence for Teams meetings     | Yes (unlimited)        |  Yes<sup>12</sup> <br><sup>1</sup> Using the Microsoft Sales Copilot app for Teams <br> <sup>2</sup> Unlimited Microsoft Sales Copilot hours included with Sales Premium / Sales Enterprise license        |
 | **During the call**   |    |
 |Real-time conversation intelligence     |    No       |    Yes     |
@@ -462,12 +461,6 @@ Conversation intelligence data is refreshed periodically and could take up to 12
 ### How many hours of conversation intelligence are available with Microsoft Sales Copilot?
 
 You get unlimited call recording and processing hours with Microsoft Sales Copilot. You must create the meeting in Outlook and turn on the **Teams meeting** toggle to get conversation intelligence through Microsoft Sales Copilot. For more information, see [Use Microsoft Sales Copilot in Teams](https://support.microsoft.com/topic/use-viva-sales-in-teams-04286b82-bdf8-4e37-94ce-be1943b2d6ea).  
-
-### How do I buy more conversation intelligence hours?
-
-If you have the Sales Premium license, you get 10 hours of call recording and processing capacity per user, per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
-
-If you have the Sales Enterprise license, upgrade to the Sales Premium license to buy more hours.  
 
 ### Can sellers (or non-managers) use this app?
 

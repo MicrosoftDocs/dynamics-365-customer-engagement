@@ -71,7 +71,7 @@ Optionally, you can configure the following settings.
 
 | Task |Description|
 |-------|------------|
-|Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
+|Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
 |Configure capacity profile to use capacity profile-based classification. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
 
 ### See also
