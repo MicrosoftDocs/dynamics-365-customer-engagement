@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 09/25/2023
+ms.date: 10/03/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -38,7 +38,7 @@ The following asynchronized channels are available in the conversation inbox.
 - WhatsApp
 - Teams
 
-## Live chat settings in inbox
+## Live chat and voice channel in inbox
 
 The following are things to note about live conversation settings in the inbox:
 
