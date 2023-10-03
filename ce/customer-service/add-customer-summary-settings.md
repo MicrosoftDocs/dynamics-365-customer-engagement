@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 07/18/2023
+ms.date: 09/25/2023
 ms.custom: bap-template 
 ---
 
@@ -27,7 +27,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 1. In Customer Service admin center, go to **Workspaces**.
 1. Select **Manage** for **Active conversation form settings** in **Workspaces**.
 1. Select the following options:
-    - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following feaatures are available as a part of the enhanced experience:
+    - **Enhanced active conversation form** to enable the enhanced Active Conversation experience. The following features are available as a part of the enhanced experience:
       - Configurable **Customer 360** and **Case details** card with inline edit capabilities. 
       - **Recent cases** card with color coded priority and status fields.
       - The default form selector to switch between active and closed conversations is hidden.
@@ -38,8 +38,8 @@ To enable the enhanced Active Conversation form and customize the form, perform 
        More information: [Design forms for performance in model-driven apps](/power-apps/maker/model-driven-apps/design-performant-forms)
 
    > [!NOTE]
-   > If **Customize active conversation form** is enabled, then:
-   > - The options that are available as a part of the customize active form experience aren't applicable if an agent initiates an outbound call to emergency services.
+   > When **Customize active conversation form** is enabled:
+   > - If an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options.
    > - If an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
 
 
@@ -47,7 +47,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
 
 ## Display the form selector on Active Conversation form
 
-By default, the enhanced **Active Conversation** form doesn't display the form selector to switch between open and closed conversations. To allow your users to toggle between open and closed conversations, do the following steps:
+By default, the enhanced **Active Conversation** form doesn't display the form selector to switch between open and closed conversations. To allow your users to toggle between open and closed conversations, perform the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), add the **Show Conversation form selector** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition)
 1.  In the **Edit Show Conversation form selector**, set the **Setting environment value** option to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition)
@@ -65,7 +65,7 @@ To add your custom view as the default view and customize the form further, perf
 1. In [Power Apps](https://make.preview.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**, select **Conversation**, and then select the **Active Conversation** form.
 1. Select **Recent cases** on the **Form** area.
-1. Do the following actions in **Properties**: 
+1. Perform the following actions in **Properties**: 
    - Specify the **Table**. The card displays records from this table.
    - Select the **Default view** to your required custom view.
 
