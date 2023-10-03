@@ -9,9 +9,6 @@ ms.date: 09/21/2023
 ---
 
 
-<!-- This article referred to Azure Open AI in several places. I changed those to Azure OpenAI Service based on this entry in the style guide: https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=62132 -->
-
-
 # FAQs about Sales Copilot in Dynamics 365 Sales
 
 This article includes frequently asked questions about Sales Copilot in Dynamics 365 Sales.
@@ -52,4 +49,4 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 Microsoft Sales Copilot is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Sales Copilot works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Sales Copilot](/microsoft-sales-copilot/introduction). 
 
-Sales Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and prepare meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Sales Copilot in Dynamics 365 Sales](copilot-overview.md).
+Sales Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Sales Copilot in Dynamics 365 Sales](copilot-overview.md).
