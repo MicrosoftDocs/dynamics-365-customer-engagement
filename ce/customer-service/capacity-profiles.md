@@ -5,7 +5,7 @@ ms.date: 10/01/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer:
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,8 +18,10 @@ You can create capacity profiles and assign them to agents to define the types a
 - The administrator can block assignment of extra work to the agents when they're working on certain channels, such as phone calls.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
 - In the assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
+- We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
+- The capacity isn't considered when an agent takes part in consult or monitors a conversation.
 
-Configure profile-based capacity if any of the following scenarios are applicable:
+You might find it helpful to configure profile-based capacity in the following scenarios:
 
 - Your agents vary in experience and skill set.
 - Agents need an upper limit on the amount of work assigned to them.
@@ -27,13 +29,11 @@ Configure profile-based capacity if any of the following scenarios are applicabl
 - Assignment in one channel impacts the assignments of another channel. For example, you can't assign another work to agents who are on phone calls.
 
 > [!IMPORTANT]
->
-> - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
-> - The capacity is not considered during consult or monitor.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ## Create a capacity profile and assign to users
 
-Create a capacity profile, and use it in a workstream that's used for routing work items.
+Create a capacity profile, and use it in a workstream for routing work items.
 
 For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
@@ -47,10 +47,6 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
     - In the site map, select **User attributes** under **Advanced settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub) 
-
-    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
-
 2. Select the **Manage** option for **Capacity profile**.
 
 3. On the **Capacity profiles** page, select **Create new**.
@@ -77,13 +73,13 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 ## Configure custom limits in capacity profiles<a name="custom-limits"></a>
 
-Agents in your contact center might need different work limits for the same type of work. You can allocate different quotas or concurrent conversation limits to agents through capacity profiles 
+Agents in your contact center might need different work limits. You can allocate different quotas or concurrent conversation limits to agents through capacity profiles.
 
-To provide selected users work limit and define the maximum number of work items that's different from the default limit, use the custom limit option in capacity profiles.
+For selective agents, you can define work item limit that's different from the default limit by using the custom limit option in the capacity profiles.
 
-To set custom limits for agents, do the following steps:
+To set the custom limits, do the following steps:
 
-1. In Customer Service admin center, select **User management** under **Customer support**, and then on the page that appears, select **Manage** for **Enhanced user management**.
+1. In Customer Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
 1. In **Contact center users**, select the agents for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
 1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need,
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
@@ -99,21 +95,21 @@ The configuration updates take 15 minutes to sync.
 
 Typically, the work assignment takes place according to the individual agent's default work item limit in the capacity profiles.
 
-When you configure a custom limit for agents in a capacity profile, then agents are assigned work items according to the custom limit. Additional details are as follows:
+When you configure a custom limit for agents in a capacity profile, then agents are assigned work items according to the custom limit. More details are as follows:
 
 - The custom limit might be lower or higher than the default limit and remains applicable for the selected agents until you manually reset it to the default limit.
 
-- The custom limit is applied to new work assignments only. If the custom limit is lower than the used limit, the system doesn't reassign the currently assigned work items for the agents.
+- The system applies the custom limit to new work assignments only. If the custom limit is lower than the used limit, the system doesn't reassign the currently assigned work items for the agents.
 
-- The other agents with the same capacity profile for whom the custom limit isn't configured have the default limit. Any changes in the default limit will impact these agents. However, the agents with custom limit will remain unaffected.
+- The other agents with the same capacity profile for whom the custom limit isn't configured have the default limit. Any changes in the default limit will affect these agents. However, the agents with custom limit will remain unaffected.
 
 An example of the custom limit is as follows:
 
-Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has just joined Contoso, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of 2 conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of 5 to Ana in the “Return orders” profile. This means Ana will receive maximum of 5 conversations per day from this profile while Henry will receive a maximum of 2 conversations only in a day for the same profile.
+Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of 5 to Ana in the “Return orders” profile. Ana will receive maximum of five conversations per day from the “Return orders” profile while Henry will receive a maximum of two conversations only in a day for the same profile.
 
 ### Update custom limits using OData
 
-Use an OData call to update the custom limits by specifying a value for the the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
+Use an OData call to update the custom limits by specifying a value for the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
 
 A sample code block to update the custom limit as 5 is as follows.  
 
@@ -134,7 +130,7 @@ var data = {msdyn_maxunits: 5} // the value denotes the custom limit
 
 After you create the capacity profiles, configure the following settings to assign work items to agents at runtime:
 
-- Set the capacity profile in the work distribution settings. The profile is applied to all the work items that are routed by the system through the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
+- Set the capacity profile in the work distribution settings. The system applies the profile to all the work items routed through the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 - Set the capacity profile in a classification ruleset for the workstream as a rule output. Append the new capacity profile to the work item. During assignment, unified routing will look for an agent who has available capacity in both the profiles, the default profile from the workstream and the appended profile from the classification. More information: [Create classification rulesets based on capacity profiles](configure-work-classification.md#create-classification-rulesets-based-on-capacity-profiles)
 
 You need not define assignment rules specific to capacity profiles at queue level to find agents with matching capacity profiles. If capacity profile is attached to a work item, then the system will ensure that the assigned agent has the matching capacity profile.
@@ -145,7 +141,7 @@ For the system to efficiently manage agent workload, you must automatically rele
 
 - **Conversation**: When the agents end the conversation and close their session.
 - **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
-- **All records and activities**: Capacity is not released automatically for activities, such as email, that's configured for record routing. To release the agent capacity, do one of the following steps:
+- **All records and activities**: Capacity isn't released automatically for activities, such as email, that's configured for record routing. To release the agent capacity, do one of the following steps:
     - [Deactivate the assigned queue item](deactivate-queue-items.md); the associated work item is closed.
     - If you need to keep the record open, go to the queue item dialog and remove the agent name from the **Worked By** field. The automatic assignment will try to reassign the item to an agent in the queue.
 
@@ -181,9 +177,9 @@ Let us take a scenario where you want to route cases as follows:
 
 When a work item is labeled with multiple capacity profiles, the assignment strategy considers the agent who matches all the required capacity profiles.
 
-1. When the high priority work item comes, it will be labeled with "Total-capacity profile" and "High-priority profile".
-2. An agent who has capacity in both these profiles only will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
-3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
+1. When the high priority work item comes, it's labeled with "Total-capacity profile" and "High-priority profile".
+2. An agent who has capacity in both these profiles only is selected. When the work item is assigned, capacity is consumed from both the profiles.
+3. Similarly, for normal priority cases, the capacity is consumed from both "Total-capacity profile" and "Normal-priority profile".
 
 ### See also
 
