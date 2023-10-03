@@ -22,7 +22,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 - Canceled
 
 > [!NOTE]
-> Don't add, remove, or edit the option set *values* for **Work Order System Status**. Instead, administrators can edit the option set *labels* to change how statuses show in the user interface.
+> Don't add, remove, or edit the option set *values* for **Work Order System Status**. Instead, administrators can edit the option set *labels* to change how statuses show in the user interface. For more information, see [Don't edit option set (choice) values](field-service-customization-best-practices.md#dont-edit-option-set-choice-values).
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
