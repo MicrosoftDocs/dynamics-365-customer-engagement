@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 05/07/2023
+ms.date: 09/25/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -20,6 +20,14 @@ You can configure the inbox settings for custom experiences only.
 
 You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?#configure-the-inbox-view).
 
+The following channels are supported in the inbox:
+
+- Live chat
+- Asynchronous chat
+- Case
+- Email
+- Voice
+
 The following asynchronized channels are available in the conversation inbox.
 
 - SMS
@@ -29,6 +37,15 @@ The following asynchronized channels are available in the conversation inbox.
 - LINE
 - WhatsApp
 - Teams
+
+## Live chat settings in inbox
+
+The following are things to note about live conversation settings in the inbox:
+
+- When an agent accepts a live work item, that item is then added to the relevant view in the inbox, whether or not the agent is using the inbox at the time of the live work item.
+- Voice calls always open as a new session with the card added to the inbox for awareness.
+- Live work item cards have a "live" visual indicator.
+- Live work item unread counts accrue to the unread count on the view.
 
 ## Configure the inbox setting for agents
 
@@ -128,4 +145,5 @@ For information about how to configure real-time translation for conversations i
 
 [Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md)  
 [Overview of agent experience profiles](../app-profile-manager/overview.md)  
+[Use the inbox](../customer-service/use-inbox.md)  
 [Configure voicemail to manage inbound calls](../customer-service/voice-channel-voicemail.md)  
