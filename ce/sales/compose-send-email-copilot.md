@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Copilot for email suggests content while composing or replying to emails, saving your time  and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
+Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
 > [!NOTE]
 > - The AI-generated content is just a suggestion. It is your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sending your email.
@@ -22,7 +22,7 @@ Copilot for email suggests content while composing or replying to emails, saving
 
 ## Prerequisites
 
-Ensure that the Sales Copilot feature is enabled in your organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
+Ensure that the Copilot feature is enabled for your Dynamics 365 Sales organization. More information: [Enable and set up copilot capabilities](enable-setup-copilot.md)
 
 ## View the Copilot composer
 
@@ -37,7 +37,7 @@ When you're sending an email, you can provide the context for the email in the C
 
 1.	Open a new or an existing email from a lead or an opportunity record.
 
-1. On the **Sales Copilot** pane, go to the **Compose** tab.
+1. On the **Copilot** pane, go to the **Compose** tab.
 
 1. Select **Describe the email you want**.  
 
@@ -46,7 +46,7 @@ When you're sending an email, you can provide the context for the email in the C
 
 1.	In the **Draft with Copilot** section, enter the statement for which you want to generate the draft email. An example statement, Write an email to thank Kenny Smith for showing interest in Contoso 3D printers.
 
-    A draft is generated for the statement. Review the suggested content. 
+    A draft is generated for the statement. Review the suggested content.  
 
     :::image type="content" source="media/copilot-draft-email-suggestion.png" alt-text="Screen shot of copilot pane with draft email suggestion.":::
 

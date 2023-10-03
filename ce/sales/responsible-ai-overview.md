@@ -16,6 +16,6 @@ ms.reviewer: shujoshi
 
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
-- [FAQ for summarization in Sales Copilot](faqs-sales-copilot-for-summarization.md)
-- [FAQ for email in Sales Copilot](faqs-sales-copilot-for-email.md)
+- [FAQ for summarization in Copilot](faqs-sales-copilot-for-summarization.md)
+- [FAQ for email in Copilot](faqs-sales-copilot-for-email.md)
 
