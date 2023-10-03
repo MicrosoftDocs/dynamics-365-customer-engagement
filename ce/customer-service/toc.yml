@@ -232,8 +232,10 @@
           href: setup-skills-assign-agents.md
         - name: Enable agents to update skills
           href: allow-agents-update-skills.md
-        - name: Set up skill-based routing for unified routing
+        - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
+        - name: Set up intelligent skill finder model in unified routing
+          href: set-up-isf-model.md
         - name: Model data tables as skills
           href: model-tables-as-skills-ur.md
       - name: Use sentiment prediction-based routing
@@ -438,6 +440,16 @@
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+  - name: Inbox
+    items:
+    - name: Administrator experience
+      items:
+      - name: Configure the inbox
+        href: configure-inbox.md
+    - name: Agent experience
+      items:
+      - name: Use the inbox
+        href: use-inbox.md
   - name: Timeline
     items: 
     - name: Administrator experience
@@ -564,6 +576,8 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
+      - name: Enable Join a Teams call for agents
+        href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -578,6 +592,8 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use auto-summarization for ongoing conversations
         href: cs-ai-generated-summary.md
+      - name: Use Join a Teams call to enhance customer conversations
+        href: join-a-teams-call.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
@@ -724,6 +740,8 @@
         href: configure-reconnect-chat.md
       - name: Understand disconnected chats
         href: oc-conv-state-chat-disconnect.md   
+      - name: Understand conversation states
+        href: oc-conversation-state.md 
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -753,9 +771,7 @@
       - name: Search, link, and unlink a record
         href: oc-search-link-unlink-record.md
       - name: Take notes for conversation
-        href: oc-take-notes.md
-      - name: Understand conversation states
-        href: oc-conversation-state.md     
+        href: oc-take-notes.md    
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -806,7 +822,7 @@
         href: start-proactive-chat.md
       - name: Send authentication token
         href: send-auth-token-starting-chat.md       
-      - name: Configure automatic closure of conversations
+      - name: Configure automatic closure of conversations using web API
         href: auto-close-conversation.md
       - name: Send custom context during live chat
         href: send-context-starting-chat.md
@@ -912,6 +928,8 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
+    - name: Close conversations automatically
+      href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:
       - name: Configure authentication settings for chat  
@@ -970,8 +988,10 @@
         href: oc-view-ai-suggested-cases-articles.md
       - name: View smart assist suggestions
         href: oc-smart-assist.md
-      - name: View the agent calendar 
-        href:  use-agent-calendar.md
+      - name: View the agent calendar
+        href: use-agent-calendar.md
+      - name: Use agent diagnostics as a self-help tool (preview)
+        href: use-agent-diagnostics.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
       - name: Rich messages in conversation control
@@ -984,44 +1004,42 @@
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
         href: developer/reference/methods/message-object.md
-  - name: Copilot in Customer Service (preview)
+  - name: Copilot in Customer Service 
     items: 
     - name: Administrator experience
       items: 
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md     
       - name: Enable case summaries
-        href: configure-copilot-features.md#enable-case-summaries     
+        href: copilot-enable-summary.md#enable-case-summaries  
       - name: Enable conversation summaries
-        href: configure-copilot-features.md#enable-conversation-summaries
-      - name: Enable ask a question
-        href: configure-copilot-features.md#enable-ask-a-question
-      - name: Enable draft a response
-        href: configure-copilot-features.md#enable-draft-a-response
-      - name: Enable write an email
-        href: configure-copilot-features.md#enable-write-an-email
+        href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Enable ask a question (preview)
+        href: copilot-enable-help-pane.md#enable-ask-a-question
+      - name: Enable draft a response (preview)
+        href: copilot-enable-help-pane.md#enable-draft-a-response
+      - name: Enable write an email (preview)
+        href: copilot-enable-help-pane.md#enable-write-an-email
       - name: View feedback data
-        href: configure-copilot-features.md#enable-write-an-email        
+        href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
         href: configure-copilot-features.md#make-copilot-available-to-agents
       - name: Copilot data movement across geographies
         href: copilot-data-movement.md
     - name: Agent experience
       items: 
-      - name: Use Copilot to solve customer issues
+      - name: Use Copilot to solve customer issues (preview)
         href: use-copilot-features.md
       - name: Summarize cases
-        href: use-copilot-features.md#summarize-cases
+        href: copilot-use-summary.md#summarize-cases
       - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
-      - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
-      - name: Ask a question
+        href: copilot-use-summary.md#summarize-conversations
+      - name: Ask a question (preview)
         href: use-copilot-features.md#ask-a-question
-      - name: Draft a chat response
+      - name: Draft a chat response (preview)
         href: use-copilot-features.md#draft-a-chat-response
-      - name: Draft emails
-        href: use-copilot-features.md#draft-emails                      
+      - name: Draft emails (preview)
+        href: use-copilot-features.md#draft-emails                  
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
@@ -1381,6 +1399,8 @@
       href: migrate-config-data-for-live-chat.md
     - name: Migrate configuration data for the voice channel
       href: migrate-config-data-for-voice-channel.md
+    - name: Migrate configuration data for SMS channel
+      href: migrate-config-data-for-sms-channel.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
