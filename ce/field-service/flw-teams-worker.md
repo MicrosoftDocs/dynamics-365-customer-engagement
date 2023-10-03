@@ -28,9 +28,6 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 1. In Teams, select **Apps** and select **Field Service (Preview)**.
 
-   > [!NOTE]
-   > If your administrator hasn't set up the Field Service (Preview) Teams app, [install the app first](../includes/fsp-deploy-teams.md).
-
 1. Select the **Settings** tab.
 
 1. Select your Field Service environment.
