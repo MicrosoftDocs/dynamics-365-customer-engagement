@@ -28,10 +28,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.107.30
 
-- **Proportional Booking Visualization on Aggregated Schedule Board Views:** On daily, weekly, and monthly Schedule Board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
-- When Schedule Assistant fails to create a booking, an error message is now displayed with more information. 
+- **Proportional booking visualization on aggregated schedule board Vviews:** On daily, weekly, and monthly schedule board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
+- When schedule assistant fails to create a booking, an error message now shows more information. 
 - Fixed an issue that was causing the schedule board to load the wrong date when operating in specific time zones. 
-- Fixed an issue that was causing Selected resources to be displayed as undefined when using client extensions.  
+- Fixed an issue that was causing selected resources to be displayed as undefined when using client extensions.  
 
 
 ## 3.12.112.5
@@ -52,9 +52,9 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.106.5
 
-- **Retirement of the Legacy Schedule Board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
-- **Proportional Bookings on Multiday Views:** Quickly determine a resource’s availability and utilization.
-- **Multiple Recurrences in Work Hours Calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
+- **Retirement of the legacy schedule board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
+- **Proportional bookings on multiday views:** Quickly determine a resource’s availability and utilization.
+- **Multiple recurrences in work hours calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
 - Fixed an issue where rebooking and substituting on a requirement that got deleted was failing.
 - Fixed an issue where the schedule board color was not being applied when saving the board setting with a new color.
 - Fixed an issue where "Find Availability" in the new schedule board was not considering custom fields.
