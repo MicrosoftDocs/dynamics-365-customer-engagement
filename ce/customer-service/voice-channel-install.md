@@ -4,7 +4,7 @@ description: Learn about how to install the voice channel in Omnichannel for Cus
 author: neeranelli
 ms.author: nenellim
 ms.custom: bap-template
-ms.date: 01/23/2023
+ms.date: 10/04/2023
 ms.topic: how-to
 ---
 
@@ -23,6 +23,10 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 1. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
 
 1. Save and close.
+
+> [!NOTE]  
+
+> The voice channel supports a maximum call duration of two hours, and the call will be disconnected once this limit is reached. To avoid disconnection, we recommend that you activate the callback feature.
 
 ## Next steps
 
