@@ -21,7 +21,7 @@ ms.reviewer: shujoshi
 
 Sales Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and read the latest news about their accounts.
 
-Sales Copilot is turned on by default in all sales apps for orgs in the North America region. If your org is in a different region, you need to [turn on Sales Copilot manually](enable-setup-copilot.md).
+Sales Copilot is turned on by default in all sales apps for orgs in North America. If your org is in a different region, you need to [turn on Sales Copilot manually](enable-setup-copilot.md).
 
 Sales Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
@@ -57,4 +57,4 @@ Copilot news updates help you stay current with the [latest news about your acco
 
 ## Region availability and languages supported
 
-Sales Copilot is available in all regions in English only. If you turn on the feature outside the North America region, you need to opt in to share relevant data with the Azure OpenAI Service that's outside of your geography. [Learn more about Copilot data movement across geographies](sales-copilot-data-movement.md).
+Sales Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about how Sales Copilot data moves across geographies](sales-copilot-data-movement.md).
