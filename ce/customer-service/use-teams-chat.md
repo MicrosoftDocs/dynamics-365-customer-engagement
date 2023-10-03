@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/02/2023
+ms.date: 10/03/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
