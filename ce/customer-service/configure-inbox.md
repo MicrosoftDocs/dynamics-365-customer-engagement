@@ -97,7 +97,7 @@ Inbox views are refreshed every five minutes. Agents can manually refresh the vi
 
 ## Configure custom views for the inbox
 
-You can configure the a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
+You can configure a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
 
 To configure multiple views for the inbox, complete the following steps.
 
