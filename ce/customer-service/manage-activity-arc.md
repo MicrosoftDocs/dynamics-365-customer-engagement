@@ -1,12 +1,16 @@
 ---
-title: Review and track rules with activity monitor
+title: Manage activity monitor to review and track rules
 description: Manage activity monitor to review and track rules in Customer Service to view activity events, states, rule names, and more.
 author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
-ms.collection: 
-ms.date: 09/22/2023
+ms.collection:
+ms.date: 10/03/2023
 ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/03/2023
 ---
 
 
@@ -50,4 +54,4 @@ In Customer Service admin center, the Customer support overview page displays th
 
 ## See also
 
-[Automatically create or update records](create-records-automatically-using-conditions.md)
+[Automatically create or update records](automatically-create-update-records.md)
