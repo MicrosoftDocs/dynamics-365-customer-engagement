@@ -49,7 +49,7 @@ Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling
 
 Set **Enable Resource Scheduling Optimization** to **Yes**.
 
-Select a **Default Goal**. Among other uses, a default goal tells Resource Scheduling Optimization what to prioritize by default (such as maximizing working hours) and is important for using [Single Resource Optimization](single-resource-optimization.md). If no default goal is present, select **+New** and create one. See the following screenshot for some recommended settings.
+Select a **Default Goal**. Among other uses, a default goal tells Resource Scheduling Optimization what to prioritize by default (such as maximizing working hours) and is important for using [Single Resource Optimization](rso-single-resource-optimization.md). If no default goal is present, select **+New** and create one. See the following screenshot for some recommended settings.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization.](media/rso-default-goal-2.png)
