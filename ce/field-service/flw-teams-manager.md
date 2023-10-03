@@ -32,13 +32,16 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 1. Select your Field Service environment.
 
-   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
+   :::image type="content" source="media/fsp-environment-flm.png" alt-text="Screenshot of Field Service environment selection for the Frontline Manager":::
 
 1. Once the environment is validated, select **Open Viva Connections**. If you use Viva, your dashboard displays. If you use Teams and not Viva, the **Home** page displays.
 
    :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections Dashboard for the Frontline Manager":::
 
    :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service (Preview) Teams Home page for the Frontline Manager":::
+
+   > [!TIP]
+   > In Teams, if you have multiple environments, you can easily [switch environments](#switch-environments).
 
 ## Create a work order in Teams
 
