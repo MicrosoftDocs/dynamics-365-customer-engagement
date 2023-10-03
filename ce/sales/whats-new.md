@@ -23,9 +23,16 @@ Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.micros
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
+## September 2023 release
+
+We're excited to announce our newest updates!
+
+| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
+|---------|---------|---------|---------|---------|---------|
+|  |  |  |  | | |
+
 ## August 2023 release
 
-We're excited to announce our newest updates! 
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
