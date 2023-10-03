@@ -146,7 +146,7 @@ Regardless of status settings, the system never changes *Resource Requirements*.
 Review the following table to understand how the booking status maps to the work order system status. Work order statuses in bold indicate a change from the default behavior.
 
 | Booking Status   | Work order system status    |
-|---|:---:|
+|---|:---|
 |  none  | Unscheduled  |
 |  Scheduled  |  Scheduled  |
 |  In Progress  |  In Progress  |
