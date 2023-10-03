@@ -37,7 +37,7 @@ The following legend describes the numbered callouts in the above image.
 | 4 | New connected chat | Start a new chat that is connected with the record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 5 | Other chats | Chats that aren't connected to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
-| 7 | Basic Teams functions | Format, use emojis, use gifs, set delivery options, attach files. |
+| 7 | Basic Teams functions | Format, use emojis, use .gifs, set delivery options, attach files. |
 | 8 | Add/remove participants | Select who participates in the chat and who doesn't. |
 
 
@@ -52,7 +52,7 @@ You can open any Dynamics 365 Customer Service record and select the **Teams cha
 
 You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out-of-the-box, or your administrator can add your desired record type.
 
-Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This helps you to share succinct, read-only context with your collaborators on Teams.
+Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
 If you're using Teams for the first time within Customer Service Hub or Customer Service workspace, you can select the blue bubble, and then follow the interface guidance.
 
@@ -70,7 +70,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
      > [!NOTE]
      > You can only connect group chats to records. Direct, one-to-one chats can't be connected, and will instead display an option to start a new connected chat with that contact.
        
-3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat even on Teams, and so that your collaborators on Teams can also easily identify chats that are associated with Dynamics 365 records.<br><br>
+3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat, even on Teams. The name also Fhelps your collaborators on Teams to easily identify chats that are associated with Dynamics 365 records.<br><br>
 4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
     
      > [!div class="mx-imgBorder"] 
@@ -86,7 +86,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
         
 ## Connect or disconnect an existing chat from a record
 
-You can connect a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also connect the chat to the work order. If you decided later that you didn't want the chat connected to the case, you could disconnect it if your administrator has given you the proper rights.
+You can connect a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also connect the chat to the work order. If you decided later that you didn't want the chat to be connected to the case, you could disconnect it if your administrator has given you the proper rights.
 
 - To connect a chat to a record, select ellipses next to the chat, and then select **Connect to this case**.
 
@@ -94,13 +94,13 @@ You can connect a chat to a single record or multiple records. For example, if y
     
 ### Understand how disconnected chat rights are assigned
 
-As an agent, you have the following three options for getting rights to disconnect chats, all of which are controlled by your administrator.
+As an agent, you have the following three options for getting rights to disconnect chats, all of which your administrator controls.
 
 - You're the record owner, and your administrator enables this capability.
 - You're the most recent user to connect the chat to the record, and your administrator enables this capability.
 - Your administrator assigns the right to disconnect chats to you if you need the ability to disconnect chats from records.
 
-If your administrator hasn't assigned any of the above rights to you or your role, you won't be able to disconnect any chat that you or other users have connected to records. If you need the ability to disconnect chats from records, ask your administrator to set assign the rights to you.
+If your administrator hasn't assigned any of the above rights to you or your role, you aren't able to disconnect any chat that you or other users have connected to records. If you need the ability to disconnect chats from records, ask your administrator to assign the rights to you.
 
 ## Use suggested contacts
 
@@ -133,7 +133,7 @@ As an agent, you can view and easily join chats that are connected to a record y
 **To join a connected chat**:
 
 1. Open the record for which you want to join the chat.
-2. In the **Teams chats** page, go to any of the connected chats you want to join. A lock icon is displayed with text that says "Hover and join to participate". When you hover over the lock icon, if you have write access to the associated record, a **Join** button will be displayed.
+2. In the **Teams chats** page, go to any of the connected chats you want to join. A lock icon is displayed with text that says "Hover and join to participate." When you hover over the lock icon, if you have write access to the associated record, a **Join** button is displayed.
 
     > [!div class="mx-imgBorder"] 
     > ![Text that says to hover over it to join the chat.](media/hover-join-chat.png "Display of text that says to hover over it to join a chat")
@@ -146,7 +146,7 @@ As an agent, you can view and easily join chats that are connected to a record y
     > [!div class="mx-imgBorder"] 
     > ![Join button for joining a chat.](media/teams-join-chat.png "Join button for joining a chat")
 
-   The Teams popup chat will show that you’ve been added to the chat, and you'll have access to the entire chat history. Other chat members will also receive the system message that you've been added to the chat.
+   The Teams popup chat shows that you’ve been added to the chat, and you have access to the entire chat history. Other chat members also receive the system message that you've been added to the chat.
  
   > [!NOTE]
   > When a user is added using Join chat, any users who are chatting directly from Dynamics 365 apps will see a system message that says an unknown user added the new user to the chat and shared all of the chat history. This is a known issue that is specific to the embedded chat experience, and we're working to resolve it.<br>
@@ -161,7 +161,7 @@ If you're using the Microsoft Teams app, when joining a chat, the following mess
     
 ## View Teams chats in the timeline for a record (preview)
 
-As an agent, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry will show details about who connected the chat and when they connected it. It will also show the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, agents can also directly join the chat or be added as a chat participant and see the full exchange.
+As an agent, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry shows details about who connected the chat and when they connected it. It also shows the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, agents can also directly join the chat or be added as a chat participant and see the full exchange.
 
  > [!NOTE]
  > Your administrator must enable this feature before you can use it.
@@ -182,7 +182,7 @@ As an agent, when you start a connected chat or connect an existing chat to a re
 
 ## Dynamic links are unfurled in Teams chat
 
-When you paste a Dynamics 365 Customer Service link into a Microsoft Teams chat, meeting, or channel, participants will see an adaptive card with details about the shared link. Links to canvas apps will show the app name and record name. Model-driven app links to records show the entity type. When you paste a dynamic link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+When you paste a Dynamics 365 Customer Service link into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the entity type. When you paste a dynamic link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
 > If you don't have access to the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
