@@ -145,23 +145,23 @@ Regardless of status settings, the system never changes *Resource Requirements*.
 
 Review the following table to understand how the booking status maps to the work order system status. Work order statuses in bold indicate a change from the default behavior.
 
-| Booking Status   |  Current behavior: work order system status  |  New Behavior: work order system status    |
-|---|:---:|:---:|
-|  none  | Unscheduled  | Unscheduled  |
-|  Scheduled  | Scheduled  | Scheduled  |
-|  In Progress  | In Progress  | In Progress  |
-|  Completed  | Completed  | Completed  |
-|  Partially Completed  | Completed  | **Unscheduled**  |
-|  Canceled  | Unscheduled  | Unscheduled  |
-|  Booking1: Scheduled <br>Booking2: Scheduled  | Scheduled  | Scheduled  |
-|  Booking1: Scheduled <br>Booking2: In Progress  | In Progress  | In Progress  |
-|  Booking1: Scheduled <br>Booking2: Completed  | In Progress  | In Progress  |
-|  Booking1: Scheduled <br>Booking2: Partially Completed  | In Progress  | **Scheduled**  |
-|  Booking1: Completed <br>Booking2: Completed  | Completed   | Completed  |
-|  Booking1: Partially Completed <br>Booking2: Partially Completed  | Completed  | **Unscheduled**  |
-|  Booking1: In Progress <br>Booking2: Partially Completed  | In Progress  | In Progress  |
-|  Booking1: Completed <br>Booking2: Partially Completed  | Completed  | Completed  |
-|  Booking1: Canceled <br>Booking2: Partially Completed  | Completed  | **Unscheduled**  |
+| Booking Status   | Work order system status    |
+|---|:---:|
+|  none  | Unscheduled  |
+|  Scheduled  |  Scheduled  |
+|  In Progress  |  In Progress  |
+|  Completed  | Completed  |
+|  Partially Completed  |  **Unscheduled**  |
+|  Canceled  | Unscheduled  |
+|  Booking1: Scheduled <br>Booking2: Scheduled    | Scheduled  |
+|  Booking1: Scheduled <br>Booking2: In Progress   | In Progress  |
+|  Booking1: Scheduled <br>Booking2: Completed   | In Progress  |
+|  Booking1: Scheduled <br>Booking2: Partially Completed   | **Scheduled**  |
+|  Booking1: Completed <br>Booking2: Completed    | Completed  |
+|  Booking1: Partially Completed <br>Booking2: Partially Completed | **Unscheduled**  |
+|  Booking1: In Progress <br>Booking2: Partially Completed   | In Progress  |
+|  Booking1: Completed <br>Booking2: Partially Completed  | Completed  |
+|  Booking1: Canceled <br>Booking2: Partially Completed   | **Unscheduled**  |
 
 ## Next steps
 
