@@ -2,7 +2,7 @@
 title: "Basic navigation in App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to navigate App for Outlook
 ms.custom: 
-ms.date: 05/20/2021
+ms.date: 10/06/2023
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,7 +33,7 @@ Before installing App for Outlook, contact your administrator and make sure all 
 In most cases, your administrator will automatically push the app to you and it should be available in the Outlook ribbon. If you don't see it, then you can install it yourself. For more information, see [Have users install App for Outlook themselves](../deploy-dynamics-365-app-for-outlook.md#have-users-install-app-for-outlook-themselves).
 
 
-## Access the app
+## Access the app and sign in
 
 Once installed it's easy to access the Dynamics 365 App for Outlook pane whether you're using Outlook on your desktop or the web app.
 
@@ -45,7 +45,10 @@ Once installed it's easy to access the Dynamics 365 App for Outlook pane whether
 - In Outlook Web Access, open an email and then select More (...) > **Dynamics 365**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open App for Outlook pane in Outlook Web Access.](../media/outlook-web-app.png)  
+   > ![Open App for Outlook pane in Outlook Web Access.](../media/outlook-web-app.png)
+
+When you first access the Dynamics 365 App for Outlook pane, you'll be prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. Once you sign in, you'll not be prompted to sign in until 90 days have passed. 
+
    
 ## Pin 
 

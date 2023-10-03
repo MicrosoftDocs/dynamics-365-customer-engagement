@@ -2,7 +2,7 @@
 title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
-ms.date: 05/20/2021
+ms.date: 10/06/2023
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -160,6 +160,10 @@ However, when scripts which do not rely on cookie authentication are used, those
 ## User is not able to configure *Follow this email* button on the top pane in Dynamics 365 App for Outlook.
 
 This feature is no longer available for configuration.
+
+## When I open Dynamics 365 App for Outlook, I see a message "Dynamics 365 wants to display a new window.". Why is this happening?
+
+When you first access the Dynamics 365 App for Outlook pane, you'll be prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. Once you sign in, you'll not be prompted to sign in until 90 days have passed. 
 
 
 
