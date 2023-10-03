@@ -36,7 +36,7 @@ In your sales app, select the Copilot icon (:::image type="icon" source="media/c
 
 ## Use Copilot chat
 
-In the Copilot pane, type / to get the list of suggested requests or prompts. 
+In the Copilot pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) or place the cursor in the chat area to get the list of suggested requests or prompts. 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot pane along with the list of suggested requests":::
 
 ### Summarize an opportunity or a lead
