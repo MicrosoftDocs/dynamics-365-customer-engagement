@@ -139,7 +139,7 @@ By default, work orders are set to completed when the associated booking gets co
 
 For work orders that have multiple bookings associated, the work order status depends on the status of all related bookings.
 
-Regardless of status settings, the system never changes *Resource Requirements*.
+Regardless of status settings, the booking status has no impact on the status of *Resource Requirements*.
 
 #### Status mapping table
 
