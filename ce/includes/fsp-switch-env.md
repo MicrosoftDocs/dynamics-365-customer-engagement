@@ -4,7 +4,7 @@ If your have permissions for multiple environments, you can easily switch enviro
 
 1. Select your Field Service environment.
 
-   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
+   :::image type="content" source="../field-service/media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
 
 1. Once the environment is validated, select **Open Viva Connections** to return to the **Home** page.
 
