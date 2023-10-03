@@ -1,6 +1,6 @@
 ---
-title: "Create users and assign security roles| MicrosoftDocs"
-description: "Create user accounts and assign security roles to give your employees access to Dynamics 365 Sales."
+title: Create users and assign security roles
+description: Create user accounts and assign security roles to give your employees access to Dynamics 365 Sales.
 ms.date: 05/17/2020
 ms.topic: article
 author: lavanyakr01
@@ -15,12 +15,11 @@ Create user accounts and assign security roles to give your employees access to 
 
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 
 ## Create and manage users
 
@@ -36,54 +35,44 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Professional](#tab/SP)
 
+When you create a user in the Sales Professional app, you can define a user ID, generate a password, and assign a license and security role in a single step.
 
-When you create a user in the Sales app, you can define a user ID, generate a password, and assign a license and security role in a single step.
-
-After you provide these details and select **Add**, a user is automatically created in Azure Active Directory, and the user account is available in Microsoft 365 and the Sales app.
+After you provide these details and select **Add**, a user is automatically created in Azure Active Directory, and the user account is available in Microsoft 365 and the Sales Professional app.
 
 ### Create a user account
 
-1.  Make sure you have the global administrator role in Microsoft 365 and the System Administrator role in Dynamics 365 Sales Professional.
+1. Make sure you have the global administrator role in Microsoft 365 and the System Administrator role in Dynamics 365 Sales Professional.
 
-2.  In the site map, select **Sales Settings**.
+2. In the Sales Professional app site map, select **Sales Settings**.
 
-3.  Under **Standard Settings** > **Manage Users**.
+3. Under **Standard Settings** > **Manage Users**.
 
     > [!div class="mx-imgBorder"]
     > ![Manage Users in Standard settings.](media/manage-users-standard-settings.png "Manage users in Standard settings")
 
-4.  Select **Add a new user**.
+4. Select **Add a new user**.
 
-5.  Follow the instructions in the **Confirm user account creation** dialog box.
+5. Follow the instructions in the **Confirm user account creation** dialog box.
 
     The **Add New User** pane appears.
 
     > [!div class="mx-imgBorder"]
     > ![Add New User dialog box.](media/add-new-user-dialog.box.png "Add New User dialog box")
 
-6.  Enter the following details:
+6. Enter the user details such as first name, last name, and email address. In the **Username** field, ensure to provide a unique name. A domain name, which is usually the organization name, is appended to the username. For example: xyz\@contoso.com
 
-    -   **First Name**
 
-    -   **Last Name**
-
-    -   **Display Name** (required). This is automatically populated based on the first name and last name, and can be changed.
-
-    -   **Username** (required). This must be a unique name. A domain name, which is usually the organization name, is appended to the username. For example: xyz\@contoso.com
-
-    -   **User email address**
-
-7.  In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see "Assign a security role to the user."
+7. In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role to the user at this time. To assign multiple roles, see "Assign a security role to the user."
 
     >[!IMPORTANT] 
     >Assign a role with only the privileges the user needs.
 
-8.  Under **Password**, select the **User must create a new password when signing in for the first time** check box if you want the user to enter a new
+8. Under **Password**, select the **User must create a new password when signing in for the first time** check box if you want the user to enter a new
     password when they sign in.
 
-9.  Select **Contact information** to provide more details about the user.
+9. Select **Contact information** to provide more details about the user.
 
-10.  Select **Add**.
+10. Select **Add**.
 
 >[!NOTE] 
 >If there’s a single license type for your organization, a license is automatically assigned to users. If there are no licenses left, a user will be created but no license will be assigned. The user will not be able to use Dynamics 365 Sales Professional until a license is assigned.
