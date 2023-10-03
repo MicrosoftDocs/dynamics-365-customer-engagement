@@ -67,7 +67,7 @@ Additionally, the booking form includes a **Travel Time Calculation** field in t
 
 - Predictive travel time can only be applied to optimization scopes with fewer than 500 requirements and bookings in total *and* fewer than 500 shifts. If your optimization scope exceeds this threshold, the optimization will still run but without predictive travel times. If you have more resources or requirements, consider splitting the scope into smaller scopes and apply predictive travel time to each related optimization goal.
 
-- [Single resource optimization](rso-rso-single-resource-optimization.md) doesn't currently support predictive travel times.
+- [Single resource optimization](rso-single-resource-optimization.md) doesn't currently support predictive travel times.
 
 - Predictive travel time is only available for Bing Maps.
 
