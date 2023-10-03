@@ -440,6 +440,16 @@
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+  - name: Inbox
+    items:
+    - name: Administrator experience
+      items:
+      - name: Configure the inbox
+        href: configure-inbox.md
+    - name: Agent experience
+      items:
+      - name: Use the inbox
+        href: use-inbox.md
   - name: Timeline
     items: 
     - name: Administrator experience
@@ -566,6 +576,8 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
+      - name: Enable Join a Teams call for agents
+        href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -580,6 +592,8 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use auto-summarization for ongoing conversations
         href: cs-ai-generated-summary.md
+      - name: Use Join a Teams call to enhance customer conversations
+        href: join-a-teams-call.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
