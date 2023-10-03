@@ -105,7 +105,7 @@ When you configure a custom limit for agents in a capacity profile, then agents 
 
 An example of the custom limit is as follows:
 
-Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of 5 to Ana in the “Return orders” profile. Ana will receive maximum of five conversations per day from the “Return orders” profile while Henry will receive a maximum of two conversations only in a day for the same profile.
+Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the “Return orders” profile. Ana will receive maximum of five conversations per day from the “Return orders” profile while Henry will receive a maximum of two conversations only in a day for the same profile.
 
 ### Update custom limits using OData
 
