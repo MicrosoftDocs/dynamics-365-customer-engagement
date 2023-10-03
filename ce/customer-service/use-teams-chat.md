@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 05/19/2023
+ms.date: 10/02/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -185,7 +185,7 @@ As an agent, when you start a connected chat or connect an existing chat to a re
 When you paste a Dynamics 365 Customer Service link into a Microsoft Teams chat, meeting, or channel, participants will see an adaptive card with details about the shared link. Links to canvas apps will show the app name and record name. Model-driven app links to records show the entity type. When you paste a dynamic link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
-> If you don't have access ot the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
+> If you don't have access to the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
 
 ### See also
 
