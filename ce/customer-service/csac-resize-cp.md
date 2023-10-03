@@ -1,0 +1,29 @@
+---
+title: Enable resizing of communication panel #
+description: Resize communication panel for channels following the steps in Customer Service admin center. 
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: neeranelli
+ms.topic: how-to 
+ms.collection: 
+ms.date: 10/03/2023
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/03/2023
+  - ai-gen-desc
+---
+
+# Enable resizing of communication panel
+
+Agents can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific.
+
+For agents to resize the communication panel, perform the following steps:
+
+1. In Customer Service admin center, select Miscellaneous in Operations.
+1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
+1. Select  **Resizable Communication Panel**  
+
+## Next steps
+[View the communication panel for conversations](oc-conversation-control.md)
