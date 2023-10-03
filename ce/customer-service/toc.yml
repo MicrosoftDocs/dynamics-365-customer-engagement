@@ -440,6 +440,16 @@
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+  - name: Inbox
+    items:
+    - name: Administrator experience
+      items:
+      - name: Configure the inbox
+        href: configure-inbox.md
+    - name: Agent experience
+      items:
+      - name: Use the inbox
+        href: use-inbox.md
   - name: Timeline
     items: 
     - name: Administrator experience
