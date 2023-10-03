@@ -1,7 +1,7 @@
 ---
 title: Field Service Outlook add-in with Copilot for the Frontline Manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 09/29/2023
+ms.date: 10/03/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -87,7 +87,7 @@ This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If 
 
    :::image type="content" source="media/fsp-copilot-review-work-order.png" alt-text="Field Service (Preview) Outlook pane showing an auto-generated work order for review":::
 
-1. At a minimum, ensure the required information is entered for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
+1. At a minimum, ensure the required information is entered for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -112,7 +112,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
    :::image type="content" source="media/fsp-outlook-create-button.png" alt-text="Field Service (Preview) Outlook pane Work Orders tab highlighting the Create button":::
 
-1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
+1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)

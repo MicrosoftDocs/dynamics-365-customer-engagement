@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) Teams app for the Frontline Manager
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 09/29/2023
+ms.date: 10/03/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -18,12 +18,15 @@ The Dynamics 365 Field Service (Preview) for Teams enable frontline managers to 
 
 [!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
+## Install the Field Service (Preview) Teams app
+
+If your admin installed the Field Service (Preview) Teams app for your organization, you can skip this step.
+
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
+
 ## Select your environment to open your dashboard the first time
 
 1. In Teams, select **Apps** and select **Field Service (Preview)**. Your dashboard displays.
-
-   > [!NOTE]
-   > If your administrator hasn't set up the Field Service (Preview) Teams app, [install the app first](../includes/fsp-deploy-teams.md).
 
 1. Select the **Settings** tab.
 
@@ -31,17 +34,19 @@ The Dynamics 365 Field Service (Preview) for Teams enable frontline managers to 
 
    :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
 
-1. Once the environment is validated, select **Open Viva Connections**. The **Home** page displays.
+1. Once the environment is validated, select **Open Viva Connections**. If you use Viva, your dashboard displays. If you use Teams and not Viva, the **Home** page displays.
 
-   :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections dashboard":::
+   :::image type="content" source="media/fsp-viva-dashboard-flm.png" alt-text="Field Service (Preview) Viva Connections Dashboard for the Frontline Manager":::
+
+   :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service (Preview) Teams Home page for the Frontline Manager":::
 
 ## Create a work order in Teams
 
-1. From your Field Service (Preview) Home page, select the **Create work order** button.
+1. From your Viva dashboard, select **Create work order** on the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select the **Create work order** button.
 
    :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of Field Service (Preview) Teams Create a work order button":::
 
-1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+** and enter a new value and its details. The new value is added to the drop-down list.
+1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)
@@ -60,7 +65,7 @@ The Dynamics 365 Field Service (Preview) for Teams enable frontline managers to 
 
 You can view all work orders, overdue work orders, or work orders with a status of **In progress**. An overdue work order is an unscheduled or scheduled work order where the time promised has passed.
 
-1. From your Field Service (Preview) Home page, select one of the following:
+1. In Viva, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select one of the following:
 
    - **All work orders**
    - **Overdue** work orders
@@ -79,10 +84,19 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
 ## Edit a work order in Teams
 
-1. From your Field Service (Preview) Home page, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
+1. In Viva, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams work order to edit":::
 
 1. Make the necessary changes and select **Save**.
+
+## Call for remote collaboration through Remote Assist
+
+[!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
+
+## Switch environments
+
+[!INCLUDE [fsp-switch-env](../includes/fsp-switch-env.md)]
+
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

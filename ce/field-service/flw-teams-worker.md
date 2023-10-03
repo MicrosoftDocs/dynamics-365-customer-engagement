@@ -18,6 +18,12 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 [!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
+## Install the Field Service (Preview) Teams app
+
+If your admin installed the Field Service (Preview) Teams app for your organization, you can skip this step.
+
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
+
 ## Select your environment to open your dashboard the first time
 
 1. In Teams, select **Apps** and select **Field Service (Preview)**.
@@ -31,15 +37,15 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
    :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
 
-1. Once the environment is validated, select **Open Viva Connections**. The **Home** page displays.
+1. Once the environment is validated, select **Open Viva Connections**. If you use Viva, your dashboard displays. If you use Teams and not Viva, the **Home** page displays.
 
-   :::image type="content" source="media/fsp-flw-menu.png" alt-text="Screenshot of Field Service (Preview) Home page.":::
+   :::image type="content" source="media/fsp-viva-mobile-dashboard.png" alt-text="Screenshot of Field Service (Preview) Home page for the Frontline Manager.":::
+
+   :::image type="content" source="media/fsp-flw-menu.png" alt-text="Screenshot of Field Service (Preview) Viva Connections Dashboard for the Frontline Worker.":::
 
 ## View all work orders
 
-1. From your mobile device, access the Field Service (Preview) **Home** page.
-
-1. Select **All work orders**.
+1. In Viva, select **See all** under **Work Orders**. From your Teams Field Service (Preview) Home page, select **All work orders**.
 
    :::image type="content" source="media/fsp-flw-all-work-orders.png" alt-text="Field Service (Preview) Frontline worker all work orders":::
 
@@ -51,9 +57,7 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 View work orders assigned to you.
 
-1. From your mobile device, access the Field Service (Preview) **Home** page.
-
-1. Select **My work orders**.
+1. From the Teams Field Service (Preview) **Home** page, select **My work orders**.
 
    :::image type="content" source="media/fsp-flw-viva-work-orders.png" alt-text="Field Service (Preview) Frontline worker my work orders":::
 
@@ -61,15 +65,15 @@ View work orders assigned to you.
 
 ## View and manage your current work order
 
-1. From your mobile device, access the Field Service (Preview) **Home** page.
-
-1. Select **My work orders**. Select your current work order for details.
+1. From the Teams Field Service (Preview) **Home** page, select **My work orders**. Select your current work order for details.
 
    :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Field Service (Preview) Frontline worker mobile work order details":::
 
+   In Viva, under **Current Work Order**, if you only need to update the booking status, select **Update Status**. Otherwise, select **Details**.
+
 1. Within the details of the work order, you can:
 
-   - Change any fields except Service account and Work order type
+   - In Teams, change any fields except Service account and Work order type
    - Open a map to locate the service address
    - View tasks and products in Field Service
    - [Launch Remote Assist for remote collaboration](#call-for-remote-collaboration-through-remote-assist)
@@ -78,13 +82,11 @@ View work orders assigned to you.
 
 ## Call for remote collaboration through Remote Assist
 
-1. From your mobile device, access the Field Service (Preview) **Home** page and select **Remote Assist support tool**. Or, while in the details of a work order, select **Launch Remote Assist**.
+[!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
 
-1. Search for and select the contact you want to call.
+## Switch environments
 
-1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
-
-For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
+[!INCLUDE [fsp-switch-env](../includes/fsp-switch-env.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

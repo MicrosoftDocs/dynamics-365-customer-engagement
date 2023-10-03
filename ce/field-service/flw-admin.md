@@ -27,7 +27,7 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, disable the **Outlook Add-in Copilot (Preview)** setting in [Work Order settings.](configure-default-settings#work-order--booking-settings)
+The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, disable the **Outlook Add-in Copilot (Preview)** setting in [Work Order settings.](configure-default-settings.md#work-order--booking-settings)
 
 ### Prerequisites
 
