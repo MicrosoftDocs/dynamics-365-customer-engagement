@@ -24,13 +24,14 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 1. Save and close.
 
-> [!NOTE]  
-> The voice channel supports a maximum call duration of two hours, and the call will be disconnected once this limit is reached. To avoid disconnection, we recommend that you activate the callback feature.
-
 ## Next steps
 
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+
+> [!NOTE]  
+> The voice channel supports a maximum call duration of two hours, and the call will be disconnected once this limit is reached. To avoid disconnection, we recommend that you activate the callback feature.
+
 
 ### See also
 
