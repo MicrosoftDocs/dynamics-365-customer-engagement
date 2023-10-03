@@ -32,7 +32,7 @@ To use Copilot, your administrator must have [enabled and set it up](enable-setu
 
 ## Launch Copilot
 
-Copilot launches automatically when you access the Sales Hub app. If it's closed, launch it from the Sales Hub app by selecting the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar.
+In your sales app, select the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar.
 
 ## Use Copilot chat
 
