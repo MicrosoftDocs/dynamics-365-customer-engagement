@@ -37,7 +37,7 @@ The following legend describes the numbered callouts in the above image.
 | 4 | New connected chat | Start a new chat that is connected with the record. These chats can only be viewed in Dynamics 365 by the chat participants. |
 | 5 | Other chats | Chats that aren't connected to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
-| 7 | Basic Teams functions | Format, use emojis, use .gifs, set delivery options, attach files. |
+| 7 | Basic Teams functions | Format, use emojis and .GIFs, set delivery options, attach files. |
 | 8 | Add/remove participants | Select who participates in the chat and who doesn't. |
 
 
@@ -71,7 +71,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
      > You can only connect group chats to records. Direct, one-to-one chats can't be connected, and will instead display an option to start a new connected chat with that contact.
        
 3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat, even on Teams. The name also Fhelps your collaborators on Teams to easily identify chats that are associated with Dynamics 365 records.<br><br>
-4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
+4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This note helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
     
      > [!div class="mx-imgBorder"] 
      > ![Send an introduction note when using the chat.](media/teams-send-intro-message.png "Start a chat with an introduction note")
@@ -122,7 +122,7 @@ You can connect relevant Teams channels to a record so that all the members can 
 
 ## Join a chat
 
-As an agent, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this can be useful include:
+As an agent, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this feature can be useful include:
 
 - **Case transfers**: If you’ve onboarded to a case that another agent previously handled, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
