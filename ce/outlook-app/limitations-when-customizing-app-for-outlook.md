@@ -6,7 +6,7 @@ description: When customizing the app you make run into these limitations.
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
