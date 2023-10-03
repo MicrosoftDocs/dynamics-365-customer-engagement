@@ -6,6 +6,7 @@ ms.topic: how-to
 author: anilmur
 ms.author: anilmur
 ms.custom: bap-template
+ms.subservice: resource-scheduling-optimization
 --- 
 
 # Single resource optimization for Resource Scheduling Optimization
