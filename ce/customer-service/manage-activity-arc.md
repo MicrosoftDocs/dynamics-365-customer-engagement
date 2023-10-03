@@ -1,5 +1,5 @@
 ---
-title: Manage activity monitor to review and track rules
+title: Use activity monitor to review and track rules
 description: Manage activity monitor to review and track rules in Customer Service to view activity events, states, rule names, and more.
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.custom:
 ---
 
 
-# Manage activity monitor to review and track rules
+# Use activity monitor to review and track rules
 
 You can review and track the health of the automatic record creation rules and resolve issues around them. By default, the activity monitor captures all the states. You can customize the events that you want to monitor by deselecting the monitor options in the application.
 
