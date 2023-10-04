@@ -30,7 +30,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 > [!NOTE]  
-> The voice channel supports a maximum call duration of two hours, and the call will be disconnected once this limit is reached. To avoid disconnection, we recommend that you activate the callback feature.
+> The voice channel supports a maximum call duration of two hours, after which the call is disconnected. As a workaround, we recommend that you activate the callback feature.
 
 
 ### See also
