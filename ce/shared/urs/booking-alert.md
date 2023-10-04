@@ -8,7 +8,7 @@ Booking alerts are often created through automation - either a flow, plugin or t
 
 1. Open the schedule board, select the **Booking Alerts** icon and select **New Booking Alert**.
 
-   :::image type="content" source="../../field-service/media/create-booking-alert.png" alt-text="Screenshot with callout on the Booking Alerts icon in the scheduel board actions section.":::
+   :::image type="content" source="../../field-service/media/create-booking-alert.png" alt-text="Screenshot with callout on the Booking Alerts icon in the schedule board actions section.":::
 
 1. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
 
@@ -22,7 +22,7 @@ You can edit the fields inside a booking alert by editing the **Booking Alert Te
 
 ## View the booking alert
 
-Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert. Selecting the snooze option will dismiss the alert for a configurable amount of time.
+Once the due date is reached and the alert appears on the schedule board side pane, assignees can dismiss or snooze the active alert. Selecting the snooze option postpones the alert for a configurable amount of time.
 
 Alerts for **Bookable Resource Bookings** also show in the schedule board alongside a booking time slot.
 
