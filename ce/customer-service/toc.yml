@@ -728,6 +728,8 @@
         href: set-up-chat-widget.md
       - name: Configure a chat widget
         href: add-chat-widget.md
+      - name: Enable resizing of communication panel
+        href: csac-resize-cp.md       
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
       - name: Configure agent display name
