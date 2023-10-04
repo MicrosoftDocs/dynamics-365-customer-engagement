@@ -40,7 +40,7 @@ You can use the Join a Teams call feature when you’re in an active, ongoing co
 3. Select **Join call**. The link opens in a browser window and prompts you to open the Teams app if it's installed or continue your conversation with the customer in the web browser. If you disconnect from the meeting during the scheduled time, you can rejoin it again using the same link in the productivity pane. When the end time passes, you can create a new link and reinvite the customer.
 
     >[!Note]
-    > Once you join the Teams meeting, if you were on a voice call with the customer, you must mannually end your call. Joining the Teams meeting with the customer doesn't automatically end your in-progress voice conversation.
+    > Once you join the Teams meeting, if you were on a voice call with the customer, you must manually end your call. Joining the Teams meeting with the customer doesn't automatically end your in-progress voice conversation.
     
 ## How to use Join a Teams call with unknown customers
 
