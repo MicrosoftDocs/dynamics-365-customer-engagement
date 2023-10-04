@@ -49,7 +49,7 @@ If you're in a conversation with an unknown customer whose record isn't displaye
 To locate or create a customer record
 
 1. Do one of the following options:
-   - Search for the customer record: On the active conversation page go to **Customer** > **Search for a customer** > type the name of the customer, and then select **Enter**. If the customer has a record, it displays and you can select it.
+   - Search for the customer record: On the active conversation page, go to **Customer** > **Search for a customer** > type the name of the customer, and then select **Enter**. If the customer has a record, it displays and you can select it.
    - Create the customer record: If the customer doesn't have an existing record, you can create it: Go to **Customer** > **New record**, and then enter the customer's details.
      
 2. Follow the steps in [Use Join a Teams call](#use-join-a-teams-call) to start the Teams meeting.
