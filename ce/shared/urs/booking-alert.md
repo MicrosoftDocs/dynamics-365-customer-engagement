@@ -6,12 +6,11 @@ Dispatchers need to be aware of important updates and status changes to ensure a
 
 Booking alerts are often created through automation - either a flow, plugin or through an integration with an external system. They can also be manually created from the schedule board.
 
-1. Open the schedule board, select the **Actions** and choose **New Booking Alert**.
+1. Open the schedule board, select the **Booking Alerts** icon and select **New Booking Alert**.
 
-2. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
+   :::image type="content" source="../../field-service/media/create-booking-alert.png" alt-text="Screenshot with callout on the Booking Alerts icon in the scheduel board actions section.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of booking alert.](../../field-service/media/booking-alert.png)
+1. On the **Booking Alert** form, enter **Subject** and **Description** to define the message that appears on the alert.
 
 1. Set the **Due Date** for when the alert shows.
 
