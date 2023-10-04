@@ -1,14 +1,14 @@
 ---
-title: Configure automatic closure of conversations
+title: Configure automatic closure of conversations using web API
 description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
-ms.date: 02/22/2023
+ms.date: 09/29/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.custom: bap-template
 ---
-# Configure automatic closure of conversations
+# Configure automatic closure of conversations using web API
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -144,7 +144,7 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 ### See also
 
-[Automatic closure of a conversation](oc-conversation-state.md#automatically-close-conversations)  
+[Automatic closure of conversations](auto-close-conversation-powerapps.md)
 
 
 
