@@ -56,9 +56,7 @@ If your organization is concerned about the data collected by this service, you 
 
 ### Videos
 
-[Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)  
-
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
+To view videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
 ## Next steps
 
