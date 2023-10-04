@@ -3,7 +3,7 @@ title: Introduction to the voice channel in Omnichannel for Customer Service
 description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 09/28/2023
+ms.date: 10/05/2023
 ms.topic: overview
 ms.custom:
   - ai-gen-docs-bap

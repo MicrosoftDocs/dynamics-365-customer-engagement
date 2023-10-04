@@ -1,10 +1,17 @@
 ---
-title: "Configure a pre-conversation survey | MicrosoftDocs"
-description: "Perform the following steps to configure a pre-conversation survey in Omnichannel for Customer Service."
+title: Configure a pre-conversation survey
+description: Configure a pre-conversation survey in Customer Service admin center to ask customers questions before they start a conversation.
 author: neeranelli
 ms.author: nenellim
-ms.date: 04/04/2022
-ms.topic: article
+ms.date: 10/05/2023
+ms.topic: how-to
+ms.collection:
+ms.reviewer:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/04/2023
 ---
 
 # Configure a pre-conversation survey
@@ -49,8 +56,8 @@ For the chat channel, you can configure a survey that users can respond to when 
 
 1. Repeat the steps pertaining to creating questions. You can add up to five questions only.
 
-    > [!div class=mx-imgBorder]
-    > ![Pre-conversation survey questions.](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
+      :::image type="content" source="media/ocac-pre-conversation-questions.png" alt-text="Screenshot of the pre-conversation survey questions that you can configure.":::
+    
 
 1. Optionally, you can change the order in which the questions are listed.
 

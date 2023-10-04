@@ -1,7 +1,7 @@
 ---
 title: Introduction to the chat channel
 description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
-ms.date: 09/29/2023
+ms.date: 10/05/2023
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -27,7 +27,7 @@ You'll learn how to:
 
 - [Add a chat widget](add-chat-widget.md)
 - [Configure agent display name](agent-display-name.md)
-- [Configure a pre-chat survey](configure-pre-chat-survey.md)
+- [Configure a pre-conversation survey](configure-pre-chat-survey.md)
 - [Configure file attachment capability](configure-file-attachment.md)
 - [Embed chat widget in your website or portal](embed-chat-widget-portal.md)
 
