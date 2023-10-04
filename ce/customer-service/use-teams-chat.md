@@ -86,7 +86,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
         
 ## Connect or disconnect an existing chat from a record
 
-You can connect a chat to a single record or multiple records. For example, if you have a chat about a case that turns into a work order, you can also connect the chat to the work order. If you decide later that you don't want the chat to be connected to the case, you could disconnect it if you administrator grants you permission to do so.
+You can connect a chat to a single record or multiple records. For example, if you have a chat about a case that turns into a work order, you can also connect the chat to the work order. If you decide later that you don't want the chat to be connected to the case, you can disconnect it if your administrator grants you permission to do so.
 
 - To connect a chat to a record, select ellipses next to the chat, and then select **Connect to this case**.
 
