@@ -19,11 +19,11 @@ ms.custom:
 
 Agents can increase or decrease the width of the communication panel for a specific channel by dragging the right edge of the communication panel to the left or right. The resized width of the communication panel is channel specific.
 
-For agents to resize the communication panel, perform the following steps:
+Do the following steps to enable the resizing of the communication panel:
 
 1. In Customer Service admin center, select **Miscellaneous** in **Operations**.
 1. Select **Manage** for **New and upcoming features**. The **New and upcoming features** page appears.
-1. Select  **Resizable Communication Panel**  
+1. Select  **Resizable Communication Panel**.
 
 ## Next steps
 [View the communication panel for conversations](oc-conversation-control.md)
