@@ -1,60 +1,69 @@
 ---
-title: Architecture of Connected Field Service with IoT Hub
-description: Learn about how Connected Field Service uses IoT Hub architecture.
+title: How Connected Field Service with IoT Hub works
+description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service to help you provide proactive and predictive maintenance of your equipment.
 ms.date: 06/21/2023
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
 ms.topic: overview
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/21/2023
 ---
 
-# Architecture of Connected Field Service with IoT Hub
+# How Connected Field Service with IoT Hub works
 
-Connected Field Service with IoT Hub brings together Azure IoT and Dynamics 365 Field Service. Understand how the various components work together by reviewing the architecture.
+Connected Field Service with IoT Hub is a solution that integrates [Azure IoT](/azure/iot) and Dynamics 365 Field Service. It lets you monitor and manage your Internet-connected devices and equipment (the Internet of Things, or IoT) from the cloud. You can also automate the creation of work orders and dispatch technicians when a device needs service.
 
-Connected Field Service is a set of solutions, entities, and processes built on top of Dynamics 365 Field Service.
+In this article, you'll learn how Connected Field Service works. You'll see the main components and how they communicate with each other. You'll also see how the data flows from the devices to the cloud and back.
 
-For this article, *data* refers to information sent from an IoT device to the cloud. *Devices** and *sensors* refer to internet-connected things that take measurements like thermometers, gyroscopes, or pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
+In the sections that follow, *data* refers to information that's sent from an IoT device to the cloud. *Devices** and *sensors* refer to Internet-connected things that take measurements, like thermometers, gyroscopes, and pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
 
-## Architecture
+## Architecture overview
 
-:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the connections between Connected Field Service with IoT Hub architecture, and how each element relates to others.":::
+The following diagram shows the main components of Connected Field Service with IoT Hub and how they connect with each other.
 
-- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. If a location has a collection of assets with multiple sensors, an *Edge device* can be used to organize them and broker data sent to IoT Hub.
-  
-  > [!NOTE]
-  > Currently, the Connected Field Service implementation with IoT Hub doesn't support splitting the telemetry data for IoT Edge modules.
+:::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the components of Connected Field Service with IoT Hub and the connections between them.":::
 
-- **Device Simulator**: Administrators can simulate devices in the cloud setup and how simulated alerts flow to Dynamics 365 to create work orders before the hardware gets installed.
+Here's a summary of what each component does:
 
-- **IoT Hub**: The gateway to the cloud, capable of ingesting data on a large scale. Azure IoT Hub is a collection of applications and processes tailored to connected device scenarios that are also customizable.
+- **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. An *Edge device* can be used to organize and broker data from multiple sensors and assets. However, telemetry data on IoT Edge modules can't be split.
 
-- **Azure Stream Analytics**: Queries device data as it enters IoT Hub. Data only passes through and isn't stored.
+- **Device Simulator**: A tool that lets you simulate devices and alerts in the cloud before installing the hardware.
 
-- **Threshold Rules Store**: Helps decide if device data is abnormal and beyond acceptable boundaries. Abnormal data is characterized as a *fault*.
+- **IoT Hub**: The gateway to the cloud that receives and sends data from and to the devices. It also provides device management and security features.
 
-- **Service Bus**: Takes faults and enters them into a queue to systematically track them. The queue is helpful if faults fail to get transferred to Dynamics 365 and should be attempted again after some time.
+- **Azure Stream Analytics**: A service that queries device data as it enters IoT Hub and detects faults based on threshold rules.
 
-- **Stream Analytics & Azure SQL**: Stores device data to perform data analysis. For example, organizations can analyze large amounts of historical data to predict device failures in the future.
+- **Threshold Rules Store**: A database that stores the acceptable boundaries for device data. If data exceeds these boundaries, it's considered a fault.
 
-- **Logic App Azure to Dynamics**: Connects Azure with Dynamics 365 and other applications and platforms. Serves as a way to apply more logic, map entities, and trigger the appropriate actions in Dynamics 365, such as the creation of an **IoT Alert** record.
+- **Service Bus**: A service that queues faults and transfers them to Dynamics 365. It also handles retries if the transfer fails.
 
-- **IoT Alert**: Faults are passed from IoT Hub to Dynamics 365 in the form of IoT alerts, which is an entity in Field Service. An IoT alert is starts the process in Dynamics 365. It consists of a subset of all device data that requires attention.
+- **Stream Analytics & Azure SQL**: A service and a database that store device data for analysis and reporting. For example, you can use them to predict device failures based on historical data.
 
-- **Connected Field Service Model Driven App**: A set of entities and processes built on Dynamics 365 Field Service. Among other things, Connected Field Service allows you to connect IoT devices (sensors) with Field Service customer assets.
+- **Logic App Azure to Dynamics**: A service that connects Azure with Dynamics 365 and other applications. It also applies logic, maps entities, and triggers actions in Dynamics 365, such as creating an IoT alert record.
 
-- **Field Service Dispatchers & Technicians**: The end users of Connected Field Service who interact with IoT alerts, cases, and work orders on their phones, tablets, and computers.
+- **IoT Alert**: A record in Dynamics 365 that shows the device data that needs attention. It starts the process of creating a case and a work order.
 
-- **Devices and Assets**: Entities in Connected Field Service in Dynamics 365 that help you manage the sensors and equipment that your organization owns.
+- **Connected Field Service Model Driven App**: A set of entities and processes built on Dynamics 365 Field Service. It lets you connect IoT devices with customer assets and manage them from a unified interface.
 
-- **Registration, Commands & Properties**: Processes used in Connected Field Service for bi-directional communication with the IoT Hub, which passes them on to the device. For example, registering new devices, reboot devices, or display a message on them.
+- **Field Service Dispatchers & Technicians**: The end users of Connected Field Service who interact with IoT alerts, cases, and work orders on their devices.
 
-- **Logic App Dynamics to Azure**: The reverse of the previously explained Logic App, adding detail to data and actions that need to be sent to the IoT Hub from Dynamics. IoT Hub then sends the data or action to the connected device.
+- **Devices and Assets**: Entities in Dynamics 365 that help you manage the sensors and equipment that your organization owns.
 
-## Component data flow diagram
+- **Registration, Commands & Properties**: Processes for bi-directional communication with the devices through IoT Hub. For example, you can register new devices, reboot them, or display a message on them.
 
- A data flow between the Azure IoT Hub and Connected Field Services components is detailed in this [downloadable diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg). It details each information flow, its flow direction and relative order for a standard installation of Connected Field Service for Dynamics 365.
+- **Logic App Dynamics to Azure**: A service that connects Dynamics 365 with Azure and sends data and actions to IoT Hub. IoT Hub then sends them to the devices.
+
+## Data flow of Connected Field Service
+
+The following diagram shows how data flows between the Azure IoT Hub and Connected Field Service components. It also shows the direction and order of the data flow for a standard installation of Connected Field Service.
+
+ [Download the data flow diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg).
+
+The data flow diagram helps you understand how Connected Field Service works in different scenarios. For example, you can see how a device sends data to IoT Hub, how IoT Hub detects a fault and sends an IoT alert to Dynamics 365, and how Dynamics 365 creates a case and a work order for the fault.
 
 ## Next steps
 

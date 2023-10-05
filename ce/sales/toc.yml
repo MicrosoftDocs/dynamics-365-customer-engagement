@@ -139,11 +139,6 @@
       items:
         - name: Enable or disable saving of business card image
           href: retain-business-card-image-after-scanning.md
-        - name: Organization charts
-          href: organization-charts.md
-          items:
-            - name: Enable org chart
-              href: enable-org-chart.md
         - name: Enable email validation
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
@@ -366,6 +361,10 @@
           href: enable-enhanced-add-product-experience.md
         - name: Customize the Add Products dialog box
           href: customize-add-products-dialog-box.md
+    - name: Quote management
+      items:
+        - name: Customize the quote closure experience
+          href: customize-quote-closure.md
     - name: Forecast management
       items:
         - name: Configure forecasts in your organization
@@ -725,8 +724,6 @@
           href: focused-view.md
         - name: Work with invalid email addresses
           href: work-invalid-email-addresses.md
-        - name: Organize contacts in live org charts for accounts
-          href: live-org-chart.md
         - name: Use the LinkedIn Sales Insights tab
           href: understand-lsi-accounts-form.md
         - name: Use ZoomInfo app data
@@ -737,7 +734,7 @@
       items:
       - name: Copilot overview
         href: copilot-overview.md
-      - name: Use Copilot in Sales Hub
+      - name: Use Copilot in Dynamics 365
         href: use-sales-copilot.md
       - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
@@ -1313,10 +1310,6 @@
           items:
             - name: Extend assistant card type (custom card sample)
               href: sample-extend-relationship-assistant-card-type.md
-    - name: Troubleshooting
-      items:
-        - name: Custom plugin handling through shared variable
-          href: developer/custom-plugin-handling-shared-variable.md
 - name: Privacy laws and regulations
   items:
     - name: Dynamics 365 Sales and privacy laws
