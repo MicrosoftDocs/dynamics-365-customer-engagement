@@ -4,7 +4,7 @@ description: Learn about how to install the voice channel in Omnichannel for Cus
 author: neeranelli
 ms.author: nenellim
 ms.custom: bap-template
-ms.date: 01/23/2023
+ms.date: 10/04/2023
 ms.topic: how-to
 ---
 
@@ -28,6 +28,10 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+
+> [!NOTE]  
+> The voice channel supports a maximum call duration of two hours, after which the call is disconnected. As a workaround, we recommend that you activate the callback feature.
+
 
 ### See also
 
