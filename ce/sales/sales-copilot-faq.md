@@ -28,7 +28,7 @@ The data included in the requests varies based on the type of request made. For 
 
 No, we don't save any of your data in any new data store. You can read more about the [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy).
 
-## How Copilot encrypts data?
+## How does Copilot encrypt data?
 
 All data exchanges in Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/trust-center/privacy/data-management).
 
