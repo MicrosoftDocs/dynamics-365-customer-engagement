@@ -1,10 +1,10 @@
-Scheduler settings let you define the layout and functions of schedule board tabs.
+Schedule board settings let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
 
-There are two levels of settings for the schedule board. **Board view settings** contains a set of basic settings that mainly define the layout of a schedule board. Board settings contain more detailed settings and enable customizations.
+There are two levels of settings for the schedule board. [Board view settings](#board-view-settings) mainly define the layout of a schedule board. [Board settings](#board-settings) contain more detailed settings and enable customizations.
 
 ## Board view settings
 
-The board view settings show in a pane and apply only to the selected schedule board tab.
+The board view settings show in a side pane and apply only to the selected schedule board tab.
 
 Open the **Schedule Board**, choose the tab to configure and select **Scheduler settings**.
 
@@ -13,34 +13,55 @@ Open the **Schedule Board**, choose the tab to configure and select **Scheduler 
 - **Time Zone**: Sets the time zone that the schedule board uses. The times for bookings in different time zones adapt to the selection.
 - **Time resolution**: Time intervals for the hourly view.
 - **Row height**: Defines the height of resource rows.
+- **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
 - **Show canceled**: Shows or hides canceled bookings.
+- **Apply territory filter to requirements**: Defines whether the resource filter for [territory](../../field-service/set-up-territories.md) also applies to requirements in the bottom pane.
+- **Show travel duration**: Shows or hides the duration of travel time for bookings on the schedule board.
 
-Select **All board settings** to see more settings.
+**All board settings** opens the [board settings](#board-settings).
 
 ## Board settings
 
-Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs. You can get to the board settings in two ways: 
+Board settings are more detailed and let you define settings for a specific board tab and default settings that apply to all tabs. You can get to the board settings in two ways:
 
 - Select the vertical ellipsis &vellip; next to the schedule board tab name and choose **Board settings**.
 - Open the **Scheduler settings** and select **All board settings**.
 
 :::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
 
-When you access the schedule board tab settings, you'll see the following: 
+### Basic settings
 
 - **Name:** This is the name displayed at the top of the schedule board.
 
-- **Shared With:** Decides which users can view the schedule board tab
+- **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
-  - Specific People: after choosing this option, you can select the specific people to share the schedule board with by doing an advanced find of the **Schedule Board Settings** entity and sharing the related schedule board record with the specific users.
+  - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
-> [!Note]
-> Users with **Field Service - Administrator**, **Field Service - Dispatcher**, and **Field Service - Resource** security roles can edit schedule board tab settings of schedule boards they create or are shared with them (meaning the **Shared With** field = **Everyone** or **Specific People** AND the schedule board is shared with their user record).
-
-- **Open Default Settings:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, this means the value is coming from the default tab settings. As seen the following screenshot, when the **Open Default Settings** button is selected, the **< Default View >** values are replaced by the actual values and you are now editing default schedule board tab settings.
+- **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, this means the value is coming from the default tab settings. When you edit defaults, the default values are replaced by the actual values.
 
 - **Reset to Default:** This will reset the current tab setting values to the values outlined in the default settings.
+
+#### Share a schedule board tab with specific people
+
+The schedule board saves tabs as records in the *Schedule Board Settings* entity.
+
+1. Go to **Settings** > **Advanced Settings** and select **Advanced Find**.
+
+1. In the pop-up window, look for the **Schedule Board Settings** table and select **Results**.
+
+   :::image type="content" source="../../field-service/media/advanced-find-legacy-web-client.png" alt-text="Screenshot of the advanced find pop-up in the legacy web client settings.":::
+
+   The list of records shows all schedule board tab records you have access to.
+
+1. Open the schedule board record you want to share to specific people. On the schedule board settings form, select **Share** > **Manage access**.
+
+   :::image type="content" source="../../field-service/media/schedule-board-share.png" alt-text="Screenshot of the share button for a specific schedule board setting.":::
+
+1. Add users or teams to share the schedule board with. They see the schedule board tab and can change it if they have access privileges to schedule boards.
+
+> [!NOTE]
+> Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
 
 ## Map settings
 
