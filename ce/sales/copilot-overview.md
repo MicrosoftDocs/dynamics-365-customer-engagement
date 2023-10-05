@@ -1,7 +1,7 @@
 ---
-title: Sales Copilot overview
-description: Learn about Sales Copilot, an AI assistant that helps your sales team be more productive and efficient in their daily work.
-ms.date: 09/20/2023
+title: Copilot capabilities overview
+description: Learn about the copilot capabilities in Dynamics 365 Sales, an AI assistant that helps your sales team be more productive and efficient in their daily work.
+ms.date: 10/05/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -15,16 +15,16 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Sales Copilot overview
+# Copilot in Dynamics 365 Sales overview
 
-Sales Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. Sales Copilot is enabled by default for orgs in North America region. It's enabled for all the sales apps with lead and opportunity entities in this region. If your org is in a different region, you need to enable Sales Copilot manually. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
+Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. Copilot is enabled by default for orgs in North America region. It's enabled for all the sales apps with lead and opportunity entities in this region. If your org is in a different region, you need to enable Copilot manually. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
 
 > [!NOTE]
-> Sales Copilot is also available as an add-in and an integrated app in Outlook and Teams respectively, allowing you to capture, access, and update your CRM data from the apps you use every day. It also has generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot). 
+> Copilot is also available as an add-in and an integrated app in Outlook and Teams respectively, allowing you to capture, access, and update your CRM data from the apps you use every day. It also has generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot). 
 
-## Sales Copilot capabilities
+## Copilot capabilities
 
-Sales Copilot offers the following capabilities:
+Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Record catch up](#record-catch-up)
@@ -60,7 +60,7 @@ More information: [Prepare for upcoming meetings](use-sales-copilot.md#prepare-f
 
 Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content. Using the email assistance capabilities, you can do the following tasks:  
 
-- [Compose and send email messages using Copilot](compose-send-email-copilot.md)  
+- [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy email summary](view-copy-email-summary.md)  
 - [Show emails that are not replied](use-sales-copilot.md#show-emails-that-are-not-replied)
 
@@ -72,5 +72,6 @@ More information: [Show latest news for an account](use-sales-copilot.md#show-la
 
 ## Region availability and languages supported
 
-Sales Copilot is available in all regions and is supported only in English. If you're enabling the feature outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service that's outside of your geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+Copilot is available in all regions and is supported only in English. However, if you're enabling the feature for orgs outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
+
 
