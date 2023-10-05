@@ -1,5 +1,5 @@
 ---
-title: Emergency calling in the voice channel
+title: Emergency calls in the voice channel
 description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Emergency calling in the voice channel
+# Emergency calls in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -19,11 +19,11 @@ This article describes how emergency calling works in Customer Service when agen
 > [!NOTE]
 >
 > - Emergency calling is currently supported in the United States, Puerto Rico, and Canada only where the emergency calling number is 911.
-> - Emergency calling isn't supported if the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled. 
+> - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and an agent initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options. 
 
 ## Prerequisites
 
-Make sure that the following prerequisites are complete so that the emergency calling works properly:
+Make sure that the following prerequisites are complete so that the emergency calls work properly:
 
 - The omnichannel agent user has a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](configure-outbound-inbound-profiles.md#create-outbound-profiles).
 - Browser location setting is enabled, and set to United States or Puerto Rico.
@@ -32,11 +32,11 @@ Make sure that the following prerequisites are complete so that the emergency ca
    - The number from which it originates must be a Microsoft calling plan number.
    - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there's no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
 
-## How emergency calling works
+## How emergency calls work
 
 In Customer Service workspace or Omnichannel for Customer Service, agents can use the dialer to call the emergency number during a crisis.
 
-Here's how emergency calling works:
+Here's how the emergency calls work:
 
 1. The agent calls the emergency number such as 911 in the United States or Puerto Rico.
 1. The agent status automatically changes to "Do not disturb," irrespective of the current status.

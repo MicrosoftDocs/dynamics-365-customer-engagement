@@ -1,25 +1,27 @@
 ---
-title: Knowledge base search options on portals in Dynamics 365 Customer Service| MicrosoftDocs
-description: Learn how you can search the knowledge base on portals in Microsoft Dynamics 365 Customer Service.
-ms.date: 05/04/2022
-ms.topic: article
+title: Search the knowledge base on portals
+description: Learn how you can search the knowledge base on portals Customer Service.
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
+ms.topic: how-to
+ms.collection: 
+ms.date: 09/28/2023
+ms.custom: 
+    - bap-template
+    - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
   - enduser
-ms.custom: 
-  - dyn365-customerservice
+
 ---
 
 # Search the knowledge base on portals
 
-## Introduction
+Having a knowledge base on the portal makes it a customer self-service portal where you can access and search for knowledge articles through simple queries. This functionality helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
 
-A portal is a platform that brings you information from various sources. Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
-
-You can search for a knowledge article after it has been published to the portal. For more information, go to [Publish knowledge articles](publish-ka.md#publish-knowledge-articles). You can also share knowledge articles as URLs on an external portal. For more information, go to [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
+You can search for a knowledge article after it's published to the portal. For more information, go to [Publish knowledge articles](publish-ka.md#publish-knowledge-articles). You can also share knowledge articles as URLs on an external portal. For more information, go to [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 The following are the search options that you can use to search the knowledge base on the portal:
 
