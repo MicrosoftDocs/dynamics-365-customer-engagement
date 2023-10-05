@@ -1,5 +1,5 @@
 ---
-title: Emergency calls in the voice channel
+title: Support emergency calls made by agents
 description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection:
 ---
 
-# Emergency calls in the voice channel
+# Support emergency calls made by agents
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -30,7 +30,11 @@ Make sure that the following prerequisites are complete so that the emergency ca
 - For the email notification, the [mailbox for the agents](/power-platform/admin/create-forward-mailboxes-edit-mailboxes) is enabled.
 - For the emergency call to be handled, one of the following conditions must be fulfilled:
    - The number from which it originates must be a Microsoft calling plan number.
-   - When the Azure Communication Services resource (tenant) has both direct routing (third-party public switched telephone network (PSTN) carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there's no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
+   
+   > [!NOTE]
+   > If you use a third-party public switched telephone network (PSTN) carrier, discuss the emergency calling behavior with the carrier and then configure it.  
+   
+   - When the Azure Communication Services resource (tenant) has both direct routing (third-party PSTN carrier number) and at least one direct offer (Microsoft calling plan number) enabled and there's no direct routing rule for the emergency number, the call will follow the direct offer path and will be routed to our direct offer emergency calling service. More information: [Voice routing considersations](/azure/communication-services/concepts/telephony/direct-routing-provisioning#voice-routing-considerations)
 
 ## How emergency calls work
 
@@ -46,9 +50,6 @@ Here's how the emergency calls work:
 1. To ensure confidentiality, the application doesn't record or store the outgoing and incoming emergency calls as activities in call history.
 1. If you configure emergency contacts, an automated email message goes out to the contacts when the agent dials the emergency number.
 1. When the agent ends the emergency call, the agent presence changes back to the prior status.
-
-> [!NOTE]
-> If you use a third-party PSTN carrier, discuss the behavior with the carrier and then configure.
 
 ## Set up email recipients
 
