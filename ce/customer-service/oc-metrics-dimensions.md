@@ -399,17 +399,17 @@ This metric represents the time taken by agents on an average to help other agen
 
 #### Related metrics
 
-- **Consult time**:
+- **Consult time**: This metric represents the time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats.
 
 ### Consult requests accepted
 
-This metric represents the total number of consult requests  accepted by the agents the request was sent to.
+This metric represents the total number of consult requests  accepted by the agents.
 
 #### Related metrics
 
-- **Consult acceptance rate**:
-- **Consults requested**:
-- **Consult requested not accepted**: This metric represents the total number of consult requests that were not accepted by the agents the request was sent to. This includes both the request that were rejected and were timed out.
+- **Consult acceptance rate**: This metric is a measure of the rate at which agents accepted consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
+- **Consults requested**: This metric represents the total number of consult requests sent to agents.
+- **Consult requested not accepted**: This metric represents the total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
 
 ## See also
 
