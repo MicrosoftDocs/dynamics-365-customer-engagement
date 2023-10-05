@@ -7,7 +7,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 09/21/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 search.app: salescopilot-docs
 ---

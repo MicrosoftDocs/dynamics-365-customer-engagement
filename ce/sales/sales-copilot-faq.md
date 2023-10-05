@@ -5,7 +5,7 @@ author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: concept-article
 search.app: salescopilot-docs
-ms.date: 09/21/2023
+ms.date: 10/05/2023
 ---
 
 # FAQs about Copilot in Dynamics 365 Sales

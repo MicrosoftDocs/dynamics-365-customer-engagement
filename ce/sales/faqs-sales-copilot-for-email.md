@@ -1,7 +1,7 @@
 ---
 title: FAQ for Copilot for emails
 description: This FAQ provides information about the AI technology that's used in Dynamics 365 Sales for emails. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 07/26/2023
+ms.date: 10/05/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article

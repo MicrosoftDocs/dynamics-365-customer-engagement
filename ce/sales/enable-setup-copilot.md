@@ -1,7 +1,7 @@
 ---
 title: Enable and set up Copilot in Dynamics 365 Sales
 description: Learn about how to enable and set up Copilot in Dynamics 365 Sales so that sellers can start using it.
-ms.date: 09/15/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales

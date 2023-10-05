@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot in Dynamics 365 Sales
 description: Learn how to configure Copilot in Dynamics 365 Sales to use fields that are most relevant to your business for generating summaries and catch up information.
-ms.date: 07/18/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
