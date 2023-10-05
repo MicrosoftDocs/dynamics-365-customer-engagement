@@ -642,6 +642,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Support emergency calls made by agents
+        href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
         items:
         - name: Overview of Nuance Gatekeeper Integration
@@ -714,8 +716,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-    - name: Emergency calling in the voice channel
-      href: voice-channel-emergency-calling.md
     - name: Pricing scenarios for voice calling
       href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
