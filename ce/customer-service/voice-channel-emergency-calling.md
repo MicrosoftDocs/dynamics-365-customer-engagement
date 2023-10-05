@@ -1,10 +1,10 @@
 ---
 title: Emergency calling in the voice channel
-description: Use this article to understand how emergency calls work in the voice channel of Omnichannel for Customer Service.
+description: Use this article to understand how emergency calls work and how you can set up email recipients for emergency calls in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: nenellim
-ms.date: 10/01/2023
+ms.date: 10/05/2023
 ms.topic: how-to
 ms.custom: bap-template
 ms.collection:
