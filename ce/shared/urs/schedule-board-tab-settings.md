@@ -29,7 +29,7 @@ Board settings are more detailed and let you define settings for a specific boar
 
 :::image type="content" source="../../field-service/media/schedule-board-tab-settings-access.png" alt-text="Screenshot of accessing schedule board tab settings.":::
 
-### Basic settings
+### Basic section
 
 - **Name:** This is the name displayed at the top of the schedule board.
 
@@ -63,36 +63,30 @@ The schedule board saves tabs as records in the *Schedule Board Settings* entity
 > [!NOTE]
 > Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
 
-## Map settings
+## Map section
 
-The **Map Settings** section is where you specify the placement of the map and the views displayed when selecting or hovering over map records.
- 
-### Map view tab placement
-
-When set to **Filter Pane**, the map will be placed on the left-hand side. This allows schedulers to see both the map and the details of the selected record at the same time.
- 
-When set to **Details Pane**, the map will be placed on the right-hand side. This allows schedulers to see both the filter pane and the map at the same time. 
- 
-### Requirement map filter view
-
-This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements must have a latitude and longitude to display it on the map. When a requirement with a valid latitude and longitude is selected, the corresponding pin will be shown on the map, provided the requirement selected is included in the selected requirement view for this setting **Requirement map filter view**. We strongly recommend making a copy of the default view and applying your changes to the copy.
+The **Map** lets you specify the a view that pulls details from a record select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
 
 ### Resource tooltips view
 
-This view defines the fields displayed in a tooltip that appears when a scheduler hovers over a resource map pin. The setting lists views that are based on the bookable resource entity; only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy.
+This view defines the fields displayed in a tooltip that appears when you select a resource pin on the map.
 
 ### Resource details view
 
-This view defines the fields displayed in the details pane when a resource map pin is selected. The details pane is on the right-hand side of the schedule board and may need to be expanded. The setting lists public views related to the bookable resource entity for selection. 
+This view defines the fields displayed in the details pane when selecting a resource pin on the map. The details pane open when you select the **Details** icon on the schedule board.
 
 ### Organizational unit tooltips view
 
-This view defines the fields displayed in a tooltip that appears when a scheduler hovers over a organizational unit map pin. The setting lists public views related to the organizational unit entity for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy.
+This view defines the fields displayed in a tooltip that appears when an organizational unit map pin.
 
 ### Organizational unit details view
 
-This view defines the fields displayed in the details pane when an organizational unit map pin is selected. The details pane is on the right-hand side of the schedule board and may have to be expanded. The setting lists public views related to the organizational unit entity for selection.
- 
+This view defines the fields displayed in the details pane when selecting an organizational unit map pin. The details pane open when you select the **Details** icon on the schedule board.
+
+### Requirement map filter view
+
+This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements must have a latitude and longitude to display it on the map.
+
 ## Custom web resource
 
 Web resources represent files that can be used to extend the Microsoft Dynamics 365 web application, such as HTML files, JavaScript, and Silverlight applications. This section allows you to access web resources from the schedule board, which can help dispatchers perform more functions and increase utilization. 
