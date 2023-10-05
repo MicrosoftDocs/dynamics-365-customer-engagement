@@ -108,6 +108,14 @@ This dimension represents the name of the omnichannel workstream where the conve
 
 This dimension represents the name of the channel.
 
+### Skills
+
+Skills that have been assigned to agents.
+
+### Proficiency
+
+Proficiency levels of skills assigned to agents.
+
 ## Metrics
 
 ### Conversation first wait time
@@ -384,6 +392,24 @@ This metric is a measure of the capacity units that are currently occupied.
 ### Status duration
 
 This metric is a measure of the time that an agent spent in a presence status.
+
+### Average consult time
+
+This metric represents the time taken by agents on an average to help other agents on consult requests. This metric is calculated by dividing the total time spent by agents on consult requests by the total number of consult requests accepted by agents. This metric can be viewed in seconds and in *hh:mm:ss* formats.
+
+#### Related metrics
+
+- **Consult time**:
+
+### Consult requests accepted
+
+This metric represents the total number of consult requests  accepted by the agents the request was sent to.
+
+#### Related metrics
+
+- **Consult acceptance rate**:
+- **Consults requested**:
+- **Consult requested not accepted**: This metric represents the total number of consult requests that were not accepted by the agents the request was sent to. This includes both the request that were rejected and were timed out.
 
 ## See also
 
