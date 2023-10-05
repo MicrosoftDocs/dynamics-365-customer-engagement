@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/052023
+ms.date: 10/05/2023
 search.audienceType:
   - admin
   - customizer
