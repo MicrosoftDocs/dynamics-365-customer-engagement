@@ -23,8 +23,6 @@ The focused view allows you to view and manage account, contact, lead, and oppor
 
 The focused view is similar to the Sales accelerator workspace view. [Learn how to prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md).
 
-You can't customize how work items are shown in the focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in the focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
-
 ## Open the focused view  
 
 The focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens.
@@ -65,7 +63,7 @@ The following image is an example of the focused view for the Lead entity:
 
 ## Customize the work list card
 
-You can customize the work list card to display the information that you want to see. The customization that you make to the work list card is also reflected in the sales accelerator workspace view. However, the sales accelerator must be configured to view these customizations. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+You can customize the work list card to display the information that you want to see. When sales accelerator is enabled, the customizations you make here are also reflected in the sales accelerator worklist items. More information: [Customize the appearance of work items in sales accelerator](customize-work-list-card.md)
 
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also effects the sales accelerator workspace view. 
 

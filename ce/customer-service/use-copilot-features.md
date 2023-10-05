@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues (preview)
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 07/24/2023
+ms.date: 09/28/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,20 +12,25 @@ ms.custom: bap-template
 
 # Use Copilot to solve customer issues (preview)
 
-[This article is prerelease documentation and is subject to change.]
-
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
 
 Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
+
 ## Prerequisites
 
 Make sure that your administrator has turned on the copilot features.
 
-## Ask a question
+## Ask a question 
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
 
@@ -57,7 +62,7 @@ After a customer conversation has ended, or if you want Copilot to disregard the
 
 To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
-## Draft emails
+## Draft emails 
 
 With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
 
@@ -90,7 +95,7 @@ By default, Copilot uses internal knowledge base sources for generating response
 
 To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
-## Draft a chat response
+## Draft a chat response 
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
@@ -103,7 +108,7 @@ Select the one-click response generation button at the lower-right corner of the
 > [!NOTE]
 > The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
 
-## Apply filters 
+## Apply filters
 
 You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
 
@@ -120,41 +125,6 @@ Once you set a filter, the following actions are applicable:
 - A visual indicator with the number of filter options selected is displayed next to **Filters**..
 - The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
 - The filter is saved. You don't have to set the filter each time you log in.
-
-## Summarize cases
-
-Copilot case summaries help you to quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
-
-### Get a case summary
-
-The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that that your screen isn't cluttered with information. Select the card to expand the summary.
-
-:::image type="content" source="media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
-
-You can copy the summary, refresh it, and provide feedback.
-
-## Summarize conversations
-
-Copilot conversation summaries provide context and relay the steps that you've already taken to solve the issue. You can summarize chat and transcribed voice conversations.
-
-> [!NOTE]
-> If your administrator has turned on auto-summarization for ongoing conversations, you get an AI-generated summary of the conversation along with the Copilot-generated conversation summary. The two summaries may be slightly different. [Learn more about auto-summarized conversations](cs-ai-generated-summary.md).
-
-### Get a conversation summary
-
-Depending on the triggers your administrator has set up, the Copilot conversation summary is generated like this:
-
-- Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
-- When you select **Summarize conversation** in an ongoing conversation.
-
-:::image type="content" source="media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
-
-You can also take the following actions:
-
-- Copy the summary.
-- Select **Create case** to create a case and populate the description with the summary, if your administrator has turned on this feature.
-- Share feedback about the summary.
-- Close the summary card.
 
 ### See also
 

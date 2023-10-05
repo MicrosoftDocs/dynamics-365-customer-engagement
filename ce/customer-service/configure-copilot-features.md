@@ -5,14 +5,12 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 09/08/2023
+ms.date: 09/28/2023
 ms.custom: bap-template 
 ms.collection:
 ---
 
 # Manage Copilot features in Customer Service (preview)
-
-[This article is prerelease documentation and is subject to change.]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -23,6 +21,12 @@ Enable the Copilot features for agents to use Copilot to:
 - Compose an email
 - Draft a chat response
 - Summarize a case and conversation
+
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
 
 ## Prerequisites
 
@@ -50,79 +54,7 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the **Copilot help pane (preview)** or **Summaries** pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
-
-## Enable Copilot summaries
-
-Copilot case and conversation summaries help you to quickly understand the context of a case and resolve customer issues more efficiently.
-
-### Enable case summaries
-
-Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
- 
-1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane (preview)** for Copilot case summaries to be available.
-1. Use one of the following navigation options: 
-    - **Agent Experience** > **Productivity** > **Summaries**
-    - **Operations** > **Insights** > **Summaries**
-1. Select **Manage** in **Summaries**.
-1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
-
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
-
-### Enable conversation summaries
-
-Conversation summaries enable agents to collaborate effectively with other agents and contacts, by enabling agents to easily recap an ongoing chat or a transcribed voice conversation.
-
-For Copilot to automatically trigger a conversation summary for a live conversation, in Customer Service admin center, select the following options on the **Summaries** page:
-   - **When an agent joins a conversation**: Generates a summary when an agent joins a conversation. A summary is also generated when the primary agent invites a collaborator and a second agent joins the conversation or when the primary agent transfers a conversation.
-   - **When a conversation ends**: Generates a summary when the conversation ends. 
-      - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
-   - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
-
-## Enable Copilot help pane
-
-Perform the following steps to enable the Copilot features in Customer Service admin center:
-
-1. Use one of the following navigation options:
-      - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
-      - **Operations** > **Insights** > **Copilot help pane (preview)**
-1. Select **Manage** in **Copilot help pane (preview)**. The Copilot help pane (preview) page appears. You can select the Copilot features you'd like to enable for agents on this page.
-
-  :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
-
-### Features supported with different knowledge sources
-
-The following table summarizes the Copilot features supported for a configured knowledge source.
-
-| Feature|Knowledge base | External web resources |
-|-------|----------|---------|--------|
-|Ask a question |✔|X|
-|Write an email | ✔|✔|
-|Draft a response |✔|✔|
-
-### Enable ask a question
-
-Select **Make Copilot available to agents** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane (preview)** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
-
-### Enable draft a response
-
-Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
-
-### Enable write an email
-
-Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** in Customer Service. Copilot helps agents create email responses based on the context of the case.
-
-### Add trusted webpages as sources
-
-You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. To limit the content you want Copilot to use, specify up to two levels, represented by forward slash (/) after the .com part of the URL.
-
-> [!NOTE]
-> - By default, the knowledge base content is refreshed every week.
-> - Web domains are used by Copilot to only draft emails and chat replies.
-
-### Set up filters
-
-Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features by sending an email a request to d365_csaipreview@microsoft.com. See: [Apply filters](use-copilot-features.md#apply-filters).
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the [**Copilot help pane (preview)**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 ## Record feedback
 
@@ -143,7 +75,13 @@ Out of the box, users with the Customer Service Representative role only can use
 
 - prvCreatemsdyn_copilotinteraction 
 - prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata 
+- prvCreatemsdyn_copilotinteractiondata  
+- prvReadmsdyn_copilotagentpreference
+- prvCreatemsdyn_copilotagentpreference
+- prvWritemsdyn_copilotagentpreference
+- prvReadmsdyn_agentcopilotsetting 
+- prvReadmsdyn_copilotsummarizationsetting 
+- prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendTomsdyn_copilottranscriptdata 
 - prvReadmsdyn_copilottranscript 
@@ -153,12 +91,8 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilottranscriptdata 
 - prvCreatemsdyn_copilottranscriptdata 
 - prvWritemsdyn_copilottranscriptdata 
-- prvAppendmsdyn_copilottranscriptdata 
-- prvReadmsdyn_agentcopilotsetting 
-- prvReadmsdyn_copilotsummarizationsetting 
+- prvAppendmsdyn_copilottranscriptdata
 - prvIntelligenceUsage
-- prvReadmsdyn_conversationinsight
-
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
