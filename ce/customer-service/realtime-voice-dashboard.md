@@ -1,17 +1,21 @@
 ---
 title: View and understand the Voice report in Omnichannel real-time analytics
-description: Learn about the real-time Voice report to help your organization provide a better customer service experience.
+description: Discover key metrics and interactive charts in the Voice report of Omnichannel real-time analytics to optimize call flow and increase customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/18/2023
-ms.custom: bap-template
-search.audienceType: 
+ms.date: 10/052023
+search.audienceType:
   - admin
   - customizer
   - enduser
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
 ---
 
 # View and understand the Voice report in Omnichannel real-time analytics

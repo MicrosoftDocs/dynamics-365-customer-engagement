@@ -1,20 +1,22 @@
 ---
 title: View and understand the Summary report in Omnichannel real-time analytics
-description: Learn about the real-time Summary report to help your organization provide a better customer service experience.
+description: View and understand the Summary report in Omnichannel real-time analytics to analyze customer conversations, sentiment, and operational metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/12/2023
-ms.custom: 
+ms.date: 10/05/2023
+ms.custom:
   - dyn365-customerservice
   - bap-template
-search.audienceType: 
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
+search.audienceType:
   - admin
   - customizer
   - enduser
-
 ---
 # View and understand the Summary report in Omnichannel real-time analytics
 

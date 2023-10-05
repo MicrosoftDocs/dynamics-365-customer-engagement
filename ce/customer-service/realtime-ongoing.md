@@ -1,14 +1,18 @@
 ---
 title: View and understand the Ongoing conversation report in Omnichannel real-time analytics
-description: Learn how supervisors can use the Ongoing conversation report to view information about the conversations handled by agents in real time.
+description: Understand the Ongoing conversation report in Omnichannel real-time analytics to view conversations, active agents, and customer sentiment.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/12/2023
-ms.custom: bap-template
+ms.date: 10/05/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
 ---
 
 # View and understand the Ongoing conversation report in Omnichannel real-time analytics

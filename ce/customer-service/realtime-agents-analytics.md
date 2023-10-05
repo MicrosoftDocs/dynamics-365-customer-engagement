@@ -1,15 +1,18 @@
 ---
 title: View and understand the Agents report in Omnichannel real-time analytics
-description: Learn about the real-time agent insights report for supervisors in Omnichannel for Customer Service.
+description: Understand agent performance and optimize allocation in real-time with the Omnichannel Agents report.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/18/2023
-ms.custom: bap-template
+ms.date: 10/05/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
 ---
 
 # View and understand the Agents report in Omnichannel real-time analytics
