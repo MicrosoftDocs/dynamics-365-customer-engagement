@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Configure a pre-conversation survey in Omnichannel admin center
+## Configure a pre-conversation survey
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
@@ -106,8 +106,7 @@ You can configure your chat widget to show users a survey that they must respond
 
 The following screenshot is a sample of the pre-conversation survey that will be displayed for customers.
 
-> [!div class=mx-imgBorder]
-> ![Sample pre-chat survey.](media/oc-pre-chat-survey.png "Sample pre-chat survey")
+  :::image type="content" source="media/oc-pre-chat-survey.png" alt-text="Screenshot of the runtime view of pre-conversation survey questions.":::
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 
