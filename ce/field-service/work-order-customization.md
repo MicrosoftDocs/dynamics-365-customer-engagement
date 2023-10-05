@@ -146,7 +146,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-The new work order experience in the 2023 release wave 2 introduces several new components for makers to use on their forms. Unless stated differently, you can't customize the components.
+The new work order experience introduces several new components for makers to use on their forms. The following sections describe options to customize these components.
 
 The following components are added:
 
