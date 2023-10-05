@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 07/06/2023
+ms.date: 10/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -73,6 +73,14 @@ For information on supported browsers, see the following articles:
 No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes the installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
 
 Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
+
+### Does Dynamics 365 Channel Integration Framework use for purposes other than integration with channel providers?
+
+No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers.
+
+### How does Dynamics 365 Channel Integration Framework handle session creation and channel provider integration?
+
+Dynamics 365 Channel Integration Framework don't have the capability to create sessions associated with specific channel providers and can't determine active channel provider automatically. Dynamics 365 Channel Integration Framework API shouldn't be used without an associated channel provider.
 
 ## Dynamics 365 Channel Integration Framework 2.0
 
