@@ -101,6 +101,21 @@ Do the following for the channel in which you want to create custom automated me
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected| When the customer calls and wait time is long.|
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.|
 
+## Automated messages best practices
+
+You can follow the specified best practices for automated messages in the voice channel to ensure clear and effective communication:
+
+- When **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice** are enabled, ensure that you enable **Greeting Message for Async Channels and Voice** to prevent the accumulation of similar messages in one queue.
+
+- When **Agent assigned to a conversation** is enabled, ensure to switch to **Greeting Message for Async Channels and Voice**.
+
+- Unless it's for critical business requirements, ensure that you disable the average wait time including:
+  - **Average wait time for customers: Hours**
+  - **Average wait time for customers: Hours and minutes**
+  - **Average wait time for customers: Minutes**
+ 
+- Ensure that automated and customized messages are concise, as the message length directly affects the time taken for an agent to connect with the customer.
+
 ### Add custom automated messages in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
@@ -124,19 +139,6 @@ To deactivate messages at the channel instance level, select one or more message
 
 > [!div class=mx-imgBorder]
 > ![Deactivate automated messages.](media/automated-messages-deactivate.png "Deactivate automated messages")
-
-## Best practices
-
-- If both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice** are enabled, ensure that you enable **Greeting Message for Async Channels and Voice** only to prevent similar messages from queuing up.
-
-- If the **Agent assigned to a conversation** is enabled, ensure that you switch to **Greeting Message for Async Channels and Voice**.
-
-- Except for critical business needs, ensure that you disable average wait time for automated messages that includes:
-  - **Average wait time for customers: Hours**
-  - **Average wait time for customers: Hours and minutes**
-  - **Average wait time for customers: Minutes**
- 
-- Ensure that automated and customized messages are concise, as the length of the message impacts time taken for an agent to connect with the customer.
 
 ## Next steps
 
