@@ -25,12 +25,7 @@ This article summarizes early access, public preview, and general availability f
 
 ## September 2023 release
 
-We're excited to announce our newest updates!
-
-| Feature area  | Feature  | Description  | Resources  | Enabled by | Availability |
-|---------------|---------|-------------|-----------|-----------|--------------|
-| Sales accelerator | Command bar | The command bar in the Sales Accelerator work area has been updated to remove the back and pop-out options. | -- | -- | GA |
-| Sales accelerator | Grid | The Sales accelerator feature is enhanced to significantly increase the speed at which the grid loads compared to previous versions. | -- | -- | GA |
+No new features or enhancements were released in September 2023. We'll be back in October with more updates.
 
 ## August 2023 release
 
