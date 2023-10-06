@@ -1,4 +1,4 @@
-Schedule board settings let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
+Schedule board settings in Universal Resource Scheduling let you define the layout and functions of schedule board tabs and the schedule board in general. By default, every user with out-of-box security roles can access the schedule board. Admins can [create custom security roles](/power-platform/admin/security-roles-privileges) with the *Schedule Board Setting* privilege to restrict access to certain roles.
 
 There are two levels of settings for the schedule board. [Board view settings](#board-view-settings) mainly define the layout of a schedule board. [Board settings](#board-settings) contain more detailed settings and enable customizations.
 
@@ -31,16 +31,16 @@ Board settings are more detailed and let you define settings for a specific boar
 
 ### Basic section
 
-- **Name:** This is the name displayed at the top of the schedule board.
+- **Name:** The name of the tab that shows on the schedule board.
 
 - **Shared With:** Decides which users can view and edit the schedule board tab.
   - Everyone
   - Specific People: See [Share a schedule board tab with specific people](#share-a-schedule-board-tab-with-specific-people)
   - Just Me
 
-- **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, this means the value is coming from the default tab settings. When you edit defaults, the default values are replaced by the actual values.
+- **Edit defaults:** Lets you choose the default tab settings when new schedule boards are created. When values in a particular schedule board tab setting show **< Default View >**, it means the value is coming from the default tab settings.
 
-- **Reset to Default:** This will reset the current tab setting values to the values outlined in the default settings.
+- **Reset to Default:** Resets the current tab setting values to the values outlined in the default settings.
 
 #### Share a schedule board tab with specific people
 
@@ -65,7 +65,7 @@ The schedule board saves tabs as records in the *Schedule Board Settings* entity
 
 ### Map section
 
-The **Map** section specifies views that pulls details from a record when users select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
+The **Map** section specifies views that pull details from a record when users select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
 
 #### Resource tooltips view
 
@@ -73,7 +73,7 @@ This view defines the fields displayed in a tooltip that appears when you select
 
 #### Resource details view
 
-This view defines the fields displayed in the details pane when selecting a resource pin on the map. The details pane open when you select the **Details** icon on the schedule board.
+This view defines the fields displayed in the details pane when selecting a resource pin on the map. The details pane opens when you select the **Details** icon on the schedule board.
 
 #### Organizational unit tooltips view
 
@@ -81,7 +81,7 @@ This view defines the fields displayed in a tooltip that appears when an organiz
 
 #### Organizational unit details view
 
-This view defines the fields displayed in the details pane when selecting an organizational unit map pin. The details pane open when you select the **Details** icon on the schedule board.
+This view defines the fields displayed in the details pane when selecting an organizational unit map pin. The details pane opens when you select the **Details** icon on the schedule board.
 
 #### Requirement map filter view
 
@@ -89,13 +89,15 @@ This view defines the resource requirement records displayed on the map. The set
 
 ### Custom web resource
 
-Web resources represent files that can be used to extend the Dynamics 365 application, such as HTML or JavaScript files. This section lets you access web resources from the schedule board, which can help dispatchers be more efficient and increase utilization.
+[Web resources](/power-apps/developer/model-driven-apps/web-resources) are files that extend the Dynamics 365 application, such as HTML or JavaScript files. This section lets you access web resources from the schedule board, which can help dispatchers be more efficient and increase utilization.
 
-- **Title:** the chosen web resource will be displayed in the actions area on the schedule board. A new tab with the provided title appears next to the maps icon.
+- **Title:** the selected web resource shows in the actions area on the schedule board. A new tab with the provided title appears next to the maps icon.
 
 - **Web Resource:** select a web resource from your Dynamics 365 organization.
 
 ### Schedule assistant
+
+The [schedule assistant](../../common-scheduler/schedule-assistant.md) helps dispatchers assign requirements to ideal resources.
 
 #### Search for
 
@@ -131,149 +133,107 @@ The icons show along with the colors to represent resource availability
 
 Turn an icon off to hide it in the schedule assistant.
 
-Makers can customize icons by [creating web resources](/power-apps/developer/model-driven-apps/web-resources) and select **Edit** in the icon setting to reference them .
+Makers can customize icons by [creating web resources](/power-apps/developer/model-driven-apps/web-resources) and select **Edit** in the icon setting to reference them.
 
-### Schedule board colors
+### Board colors
 
-The colors that represent a resource's utilization on the days, weeks, and months view of the schedule board are configurable here by entering HTML hex color codes. See an example of colors chosen and the effects in the following screenshot.  
+Board colors represent a resource's utilization on the schedule board. These colors only apply to daily, weekly, and monthly views and on the currently selected schedule board.
 
-To illustrate how these colors affect the schedule board, see the following example. In our example, we have a day view of the schedule board where each resource works 12 hours each day, and the range is 2 days. The colors are configured as follows:
+### Other settings
 
-- **Fully Booked:** Blue because the total booking duration (12 hours) equals the working hours for that particular resource's day.
+#### Requirement page count
 
-- **Partially Booked:** Light Blue diagonal lines because the total booking duration (7 hours) is less than the working hours for that particular resource's day.
+Controls the maximum number of resource requirement records displayed on a single page in the lower pane of the schedule board.
 
-- **Overbooked:** Red because the total booking duration (14 hours) exceeds the working hours for that particular resource's day.
+#### Resource page count
 
-- **Not booked:** White because no bookings exist for that resource for that day.
+Controls the maximum number of resource records displayed on a single page of the schedule board.
 
- 
+#### Number of days displayed in hours view
 
-## Other settings 
+Number of days displayed on hourly view of the schedule board.
 
-### Requirement Page Count
+#### Number of weeks displayed in weeks view
 
-This controls the maximum number of resource requirement records displayed on a single page in the lower pane of the schedule board. See the following screenshot for reference.
+Number of weeks displayed on the weekly view of the schedule board.
 
-### Non-Working Hours Color
+#### Number of days displayed in days view
 
-This controls the color of the shaded area when a resource is not working, as defined by the resource's working hours and time off requests.
+Number of days displayed on the daily view of the schedule board.
 
-### Current Timeline Color
+#### Number of months displayed in months view
 
-This controls the color of the vertical line that runs down the schedule board to indicate the current time of that particular schedule board.
+Number of days displayed on the monthly view of the schedule board.
 
-### Booking Alerts View
+#### Booking alerts template
 
-This is a system view that can filter which booking alerts records are eligible to show up in the Alerts view in the right-hand Details pane of the schedule board. 
-
-For example, consider a scenario where the business has booking alerts being triggered based on events related to work orders, projects, and cases. What if the particular schedule board tab only deals with work order requirements and the dispatcher should only see booking alerts related to work orders? In this case, a booking alert system view can be used to filter to only booking alerts related to work orders to be eligible in the right-hand alerts pane. Note that booking alerts still need to be triggered based on an alarm or workflow, but the view chosen here can further filter. 
-
-### Booking Alerts Template
-
-Given a booking alert shows in the alerts pane, the HTML entered here dictates the fields in the alert box.
+This HTML snippet defines what shows in a [booking alert](../../common-scheduler/booking-alert.md).
 
 For reference, the default HTML is as follows:
 
-```
+```HTML
     <b class="bold">Subject: </b>{msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.subject}<br />
     <b class="bold">Due: </b>{msdyn_nexttimetoshow}<br />
     <b class="bold">Description: </b><br />
     {msdyn_msdyn_bookingalert_msdyn_bookingalertstatus_BookingAlert.description}
 ```
 
-### Filter Layout
+#### Disable default extensions
 
-This controls the fields displayed in the filter pane on the left-hand side of the schedule board. These fields are used to filter which resources are displayed on the board.
+You can modify the CSS, add your own JavaScript files and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
-### Resource Cell Template
+For more information about editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [Extend Universal Resource Scheduling](../../common-scheduler/developer/extending-urs-step-by-step.md).
 
-This controls the images, values, fields displayed in the box that holds the resource's name and utilization on the schedule board.
+#### Filter Layout
 
-### Retrieve Resources Query
+Controls the fields displayed in the filter pane on the schedule board. These fields are used to filter which resources are displayed on the board.
 
-Here you will find XML that defines how resource records are fetched, filtered, and sorted when the schedule board loads. **Retrieve Resources Query** can use filter layout and resource cell templates to perform filtering and sorting in the background. 
+#### Resource cell template
 
-One scenario this enables is filtering resources without having to expose the filter field in the filter layout. Instead, the filtering happens in the background as the schedule board loads, without additional input from the dispatcher. 
+Controls the images, values, fields for resources on the schedule board.
 
+#### Booking alerts view
 
-### Disable Default Extensions
+Choose system view that can filter which booking alerts records show up in the alerts view of the details pane of the schedule board.
 
-Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board. This means that you can change labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
+For example, when a business has booking alerts based on events related to work orders, projects, and cases. If a particular schedule board tab only deals with a certain type of requirements, a booking alert system view helps with filtering.
 
-For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+#### Retrieve resources query
 
-## Schedule types
+View and edit XML that defines how resource records are fetched, filtered, and sorted when the schedule board loads. **Retrieve Resources Query** uses filter layout and resource cell templates to perform filtering and sorting in the background.
 
-The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the schedulable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
+### Schedule types
 
-### Booking Tooltips View
+The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or no entity at all. Select **None** to edit default settings that apply to all boards and the settings for when a requirement is scheduled by itself. To override defaults for a schedule board, [select a schedulable entity](../../common-scheduler/schedule-new-entity.md) to change its settings.
 
-Select the system view that dictates the fields displayed when hovering your mouse over a booking.
+#### Booking tooltips view
 
-### Booking Details View
+Select the system view that dictates the fields displayed when hovering your mouse over a booking. This setting only affects the hourly view of the schedule board.
 
-Select the system view that dictates the fields displayed in the details pane when a booking is selected.
-
-### Schedule Assistant Requirement View
-
-Select the system view that dictates the fields displayed in the lower pane when the schedule assistant is triggered for an individual requirement from the schedule board.
-
-### Requirement Details View
+#### Requirement details view
 
 Select the system view that dictates the fields displayed in the details pane when a requirement is selected in the lower pane of the schedule board.
 
-### Requirement Map Pin Tooltips View
+#### Booking details view
+
+Select the system view that dictates the fields displayed in the details pane when a booking is selected. This setting only affects the hourly view of the schedule board.
+
+#### Requirement map pin tooltips view
 
 Select the system view that dictates the fields displayed when hovering your cursor over a requirement map pin.
 
-### Booking Template
+#### Schedule assistant requirement view
 
-HTML and CSS that controls the fields inside a booking time slot on the schedule board.
+Select the system view that dictates the fields displayed in the lower pane when the schedule assistant is triggered for an individual requirement from the schedule board.
 
-Here is the default work order HTML:
+#### Custom booking template
 
-```
-<div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
-```
+HTML and CSS that controls the fields inside a booking time slot on the schedule board. This setting only affects the hourly view of the schedule board.
 
-This HTML results in the following:
+For more information, see [Edit the schedule board booking template](../../common-scheduler/booking-template.md).
 
-> [!Note]
-> The following schedule types settings can only be edited from the default settings. 
+### Requirement Panels
 
-### Schedule Assistant Filter Layout
+Use this section to configure requirement views at the bottom of the schedule board. You can change the order in which they appear on the schedule board.
 
-This controls the fields displayed in the filter pane on the left-hand side of the schedule assistant. These fields are used to filter which resources are displayed in schedule assistant results. A common example is the default values for **Search Start** and **Search End**.
-
-> [!Note]
-> The Schedule Assistant Filter pane supports layout customizations only for single resource requirements. Any custom fields will not be visible when using Schedule Assistant Filter for resource groups.
-
-### Schedule Assistant Resource Cell Template
-
-This controls the images, values, and fields displayed in the box that holds the resource's name and utilization in the schedule assistant.
-
-### Schedule Assistant Retrieve Resources Query
-
-Here you will find XML that defines how resource records are fetched, filtered, and sorted when the schedule assistant is triggered. **Schedule Assistant Retrieve Resources Query** can use schedule assistant filter layout and schedule assistant resource cell templates to perform filtering and sorting in the background. 
-
-One scenario this enables is performing additional resource filtering when the schedule assistant is triggered without input from the dispatcher.
-
-### Schedule Assistant Retrieve Constraints Query
-
-Here you will find XML that defines how resource records are filtered based on attributes from the requirement. Whereas the **Schedule Assistant Retrieve Resources**  query can filter schedule assistant resources based on **Resource** attributes, the **Schedule Assistant Retrieve Constraints** query can use **Requirement** attributes to further filter resource results.
-
-## Requirement Panels
-
-Use this section to control the requirement views at the bottom of the schedule board. Select a requirement system view, enter a name, select the plus icon (+) to add it, then select Apply. After adding views, you can change the order in which they appear on the schedule board with the up and down arrows.
-
-Field Service and Universal Resource Scheduling come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
-
-## Additional notes
-
-Some of the extensible schedule board settings are only available on the hourly view, and not on the daily, weekly, and monthly views. The following configuration settings are only available in the hourly view: 
-
-- Non-working hours color.
-- Booking details view.
-- Booking tooltips view.
-- Booking template.
+There are default requirement views automatically available. Turn off **Hide default requirement panels** to remove them. Use the **Apply territory filter to requirements** setting to filter requirements in addition to resources with an active a territory filter on the schedule board.
