@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 06/30/2023
+ms.date: 10/06/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,8 +31,8 @@ The following table lists the region availability of analytics and insights.
 > The features listed in the table are not available in South Africa, Korea, and Norway.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
-| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Copilot<sup>**1**</sup> | ✔ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
+| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Copilot<sup>**1**</sup><ul><li>Summarize cases</li><li>Summarize conversations</li><li>Ask a question</li><li>Draft a chat response</li><li>Draft emails</li></ul> | ✔ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
