@@ -1,42 +1,47 @@
-In this article, we'll take a look at what's new, and how to switch to the new schedule board in your environment. 
+This article discusses the main features and concepts of the schedule board for dispatchers and other users.
 
-## Improvements
+:::image type="content" source="../../field-service/media/schedule-board-new.png" alt-text="Screenshot of the new schedule board in Dynamics 365, showing the resources.":::
 
-The new schedule board is faster, with better usability, and it lays the foundation for new capabilities for multi-day scheduling and intelligent interactions.
+## Actions area
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the new schedule board in Dynamics 365, showing the resources.](../../field-service/media/schedule-board-new.png)
+### Filters
 
-### Usability and accessibility
+Apply filters to define which resources show on the schedule board. You can [configure the board settings so filters also apply to requirements](../../common-scheduler/schedule-board-tab-settings.md).
 
-The schedule board is a Power Apps Component Framework (PCF) control built on the Unified Client Interface, making it more flexible, supportable, and accessible. The new schedule board will work better on different screen sizes and across form factors. 
+Filter values are pulled from the *Bookable Resource* entity.
 
-New color schemes and ways of depicting travel time make it easier for dispatchers to see statuses and details.
+Select the three dots (**...**) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
 
-For instance, the previous screenshot shows a new "ghost booking" feature that helps dispatchers know if a booking will fit into a schedule before the booking is even scheduled.
+To make the applied filter configuration the default for all schedule boards, select **...** > **Save as default**.
 
-### Foundation for new capabilities
+Select **Reset to default** to remove all applied filters. The list of selected resources won't reset unless you remove the resources from the selection.
 
-The new schedule board provides the foundation for future releases that will provide dispatchers insights and recommendations to improve schedules.
+You always have to select **Apply** to see the changes on the schedule board.
 
-## Prerequisites
+### Time scale
 
-- The next generation schedule board is generally available. 
-- Dynamics 365 Field Service version 8.8.30.103+
+Switch between hourly, daily, weekly, and monthly view on the board. Choose the weekly or monthly views to see scheduled jobs at a higher level.
 
-## Enable new schedule board for your organization
+### View type
 
-The new schedule board isn't turned on by default, so you'll have to enable it in order to use it in your organization.
+- **Gantt**: A Gantt chart is a type of bar chart that illustrates a schedule. It is commonly used in show activities displayed against time. Each activity is represented by a bar. The position and length of the bar reflects the start date, duration and end date of the activity.
+- **List**: Shows resources in a list. Expanding a resource shows the selected time granularity in the selected time frame. You can change columns in the list.
 
-To enable the new schedule board, go to **Scheduling** > **Administration** > **Scheduling Parameters** and switch on the **Enable new Schedule Board** toggle.
+### Date range
 
-## Select and filter resources
+Set the time frame that shows on the board. Use the arrows to move between time frames.
 
-Choose which resources should display on each schedule board tab.
+### Book
 
-Expand the filter pane and choose **Select Resources**.
+Book a requirement manually. Select a requirement and a resource, start date/time, end date/time, booking status, and booking method.
 
-From the list of available resources on the left, move the ones you want to display on the schedule board to the right. Then **Apply**.
+### Move bookings
+
+Select (**...**) > **Move bookings** to move bookings of a specific status to a different day. Moving bookings preserves times and other parameters.
+
+### Print schedule board
+
+Select (**...**) > **Print schdedule board** to open the print settings where you can set schedule range, pagination, paper format, and orientation. Select **Print** open the system print options.
 
 ## Resource cards
 
@@ -57,40 +62,11 @@ You can drag an unscheduled requirement pin from the map to the resource timelin
 
 You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
 
-## Daily view
-
-The new schedule board supports a daily view of scheduled jobs and supports dragging-and-dropping to the schedule.
-
-Scheduled requirements with a short duration will display across the entire day to make it easier to view details. Hover over the requirement or double-click to see the actual duration. 
-
-## Weekly and monthly views
-
-Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement below to trigger the booking panel.
-
-The booking panel will help you schedule a work order across multiple days and choose how the work should be divided each day.
-
 ## Find availability (schedule assistant)
 
 The schedule assistant is also available in the new schedule board experience. By selecting a booking requirement from the bottom panel, and then **Find availability**, you'll trigger the schedule assistant. 
 
 From the schedule assistant, you'll see available resources and can plan accordingly for the work.
-
-## Find availability (schedule assistant) list view
-
-Select **Gantt** then **List** to change the schedule assistant view to show a list of available resources.
-
-Select column headers to sort results in ascending or descending order.
-
-Select **Group** to group available resources by the column value. 
-
-Grouping resources helps dispatchers make better sense of availability based on different attributes.
-
-## Move a booking
-
-Alternatively, move a booking to the next day by selecting the booking, then select the **Ellipses [...] icon** next to the **Book** button, as seen in the following screenshot. Select **Move bookings**.
-
-> [!div class="mx-imgBorder"]
-> ![Move bookings option in the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-11-support-for-move-bookings-and-print-schedule-board.png)
 
 ## Move bookings to a new resource, a new start date and time, or both
 

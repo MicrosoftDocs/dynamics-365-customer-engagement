@@ -250,7 +250,7 @@ items:
           - name: Schedule board tab settings
             href: schedule-board-tab-settings.md
           - name: Next-generation schedule board experience
-            href: preview-schedule-board.md
+            href: use-schedule-board.md
 
 - name: Mobile app
   items:

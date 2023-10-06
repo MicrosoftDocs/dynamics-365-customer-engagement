@@ -13,7 +13,7 @@ ms.author: anclear
 
 # Experience the new and improved schedule board
 
-[!INCLUDE[preview-schedule-board.md](../shared/urs/preview-schedule-board.md)]
+[!INCLUDE[use-schedule-board.md](../shared/urs/use-schedule-board.md)]
 
 
 
