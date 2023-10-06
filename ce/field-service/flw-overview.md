@@ -24,8 +24,6 @@ An Outlook add-in allows frontline managers to view and create work orders in Ou
 
 A Teams home page or a Viva Connections dashboard in Teams provide frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call from here.
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
-
 As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information about what the integrations provide, see:
 
 - [Field Service (Preview) Outlook Add-in with Copilot for the Frontline Manager](flw-outlook.md)
@@ -35,6 +33,12 @@ As an organization, you can use the capabilities in Microsoft Outlook, Microsoft
 Administrators enable these preview features for end users in their organization. See [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md). End users do have the ability to set up the Outlook add-in or Teams home page on their own. Viva Connections requires an administrator to set up for the organization.
 
 Dynamics 365 Field Service (Preview) allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
+
+## Supported geographies, regions, and languages
+
+Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the following geographies/regions  and in the English (en-us) language. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
+
+:::image type="content" source="../field-service/media/fsp-supported-regions.png" alt-text="Field Service (Preview) supported geographics and regions":::
 
 ## Next steps
 

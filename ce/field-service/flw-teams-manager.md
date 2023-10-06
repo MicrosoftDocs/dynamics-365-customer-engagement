@@ -16,7 +16,9 @@ ms.subservice: m365-integrations
 
 The Dynamics 365 Field Service (Preview) for Teams enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+## Prerequisite
+
+Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ## Install the Field Service (Preview) Teams app
 
@@ -47,7 +49,7 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
    :::image type="content" source="media/fsp-teams-create-button.png" alt-text="Screenshot of Field Service (Preview) Teams Create a work order button":::
 
-1. At a minimum, enter the required information for the work order. For any field on the work order, if a value is not available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
+1. At a minimum, enter the required information for the work order. For any field on the work order, if a value isn't available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
 
    - [Service Account](accounts.md)
    - [Work Order Type](create-work-order-types.md)

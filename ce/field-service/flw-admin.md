@@ -21,8 +21,6 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 - Microsoft Viva Connection and Teams
 - Any combination or all three
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
-
 ## [Set up Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
@@ -32,6 +30,7 @@ The Outlook add-in also includes copilot capabilities to create work orders in O
 ### Prerequisites
 
 - Global admin or Exchange admin permissions in the Microsoft 365 Admin Center
+- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ### Enable the Field Service (Preview) Outlook Add-in (optional)
 
@@ -94,7 +93,7 @@ Admin permissions for the following apps:
 
 The Field Service (Preview) for Viva Connections and Teams requires the following setup:
 
-- [Create user groups](#create-user-groups), if they are not already set up
+- [Create user groups](#create-user-groups), if they aren't already set up
 - [Deploy Field Service (Preview) Teams app](#deploy-the-field-service-preview-teams-app)
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
 - [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
@@ -114,7 +113,7 @@ Admin permissions for the following apps:
 
 ### Create user groups
 
-If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
+If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
 ### Deploy the Field Service (Preview) Teams app
 
@@ -137,7 +136,7 @@ If you have not created user groups for your frontline workers and frontline man
 
 ### Deploy Field Service (Preview) for Viva Connections
 
-Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, [install and set it up](/viva/connections/set-up-admin-center) before continuing. Then, make Field Service (Preview) for Viva Connections available in Teams.
+Viva Connections is included as part of Microsoft Teams license. If you don't have Viva Connections set up for your organization, [install and set it up](/viva/connections/set-up-admin-center) before continuing. Then, make Field Service (Preview) for Viva Connections available in Teams.
 
 > [!NOTE]
 > You must select your environment in Teams and see a validation message before deploying Field Service (Preview) for Viva Connections.
@@ -190,7 +189,7 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 ### Assign security roles and field security profiles
 
-Assign Azure Active Directory (AAD) permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
+Assign Azure Active Directory permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
 
 For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
 
@@ -200,7 +199,7 @@ For Field Service, see the following steps. For Power Platform Admin Center, see
 
 ### Sync Azure Active Directory groups and Dataverse security roles
 
-Synchronize your AAD groups to the Dataverse security roles. Although this step is optional, we recommend you assign AAD permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. To automate the process using the Web API, see [Assign a security role to an AAD group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
+Synchronize your Azure Active Directory groups to the Dataverse security roles. Although this step is optional, we recommend you assign Azure Active Directory permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. To automate the process using the Web API, see [Assign a security role to an Azure Active Directory group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 

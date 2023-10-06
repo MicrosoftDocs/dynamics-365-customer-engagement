@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service (preview)
 description: Learn what's new in the Dynamics 365 Field Service (Preview) integration with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 10/02/2023
+ms.date: 10/06/2023
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,9 +12,9 @@ ms.subservice: m365-integrations
 
 # What's new in Microsoft 365 integrations for Field Service (preview)
 
-This article summarizes public preview features, general availability enhancements, and feature updates.
+See [supported geographies, regions, and languages.](flw-overview.md#supported-geographies-regions-and-languages)
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+This article summarizes public preview features, general availability enhancements, and feature updates.
 
 ## October 9, 2023
 

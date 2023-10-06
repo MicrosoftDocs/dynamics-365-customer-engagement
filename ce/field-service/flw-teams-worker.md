@@ -16,7 +16,9 @@ ms.subservice: m365-integrations
 
 The Dynamics 365 Field Service Teams app enables frontline workers to view upcoming work orders and edit current work orders without disrupting their workflow. As a frontline worker, you can view work orders assigned to you and manage your current work order directly in Microsoft Viva Connections on your mobile device.
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
+## Prerequisite
+
+Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ## Install the Field Service (Preview) Teams app
 

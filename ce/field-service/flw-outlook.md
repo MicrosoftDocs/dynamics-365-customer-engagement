@@ -18,8 +18,6 @@ Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to 
 
 The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](preview-schedule-board.md) for scheduling.
 
-[!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
-
 ## Install the Field Service (Preview) Outlook Add-in
 
 If you don’t already have Outlook and Field Service licenses, contact your organization’s IT administrator. If your admin installed the add-in for your organization, you can skip this step.
@@ -28,6 +26,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 - Outlook on the web
 - Outlook 2013 or later on Windows (or Mac)
+- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ### Install the Outlook Add-in
 
