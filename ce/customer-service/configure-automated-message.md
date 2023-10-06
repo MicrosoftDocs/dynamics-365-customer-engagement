@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 06/27/2023
+ms.date: 10/06/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
+You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
 ## Display a list of all automated messages
@@ -124,6 +124,19 @@ To deactivate messages at the channel instance level, select one or more message
 
 > [!div class=mx-imgBorder]
 > ![Deactivate automated messages.](media/automated-messages-deactivate.png "Deactivate automated messages")
+
+## Best practices
+
+- If both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice** are enabled, ensure that you enable **Greeting Message for Async Channels and Voice** only to prevent similar messages from queuing up.
+
+- If the **Agent assigned to a conversation** is enabled, ensure that you switch to **Greeting Message for Async Channels and Voice**.
+
+- Ensure that you disable average wait time for automated messages except for critical business needs that includes:
+  - **Average wait time for customers: Hours**
+  - **Average wait time for customers: Hours and minutes**
+  - **Average wait time for customers: Minutes**
+ 
+- Ensure that automated and customized messages are concise, as the length of the message impacts time taken for an agent to connect with the customer.
 
 ## Next steps
 
