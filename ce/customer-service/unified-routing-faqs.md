@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 08/11/2023
+ms.date: 10/15/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -121,25 +121,29 @@ The unassigned work item remains in the queue until you manually assign it to an
 
 Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent)
 
-## Route to most-idle agent
+## Route to least-active agent
 
-### For which channels is routing to most-idle agent (preview) available?
+### For which channels is routing to least-active agent available?
 
-In the preview release, the feature is available for the voice channel only.
+The feature is available for the voice channel only.
 
-### Is presence used in determining the most-idle agent?
+### Does the agent sign-in time affect in the calculation of the least active agent? 
+
+The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
+
+### Is presence used in determining the least-active agent?
 
 No, presence isn't used. Only capacity release information is taken into account.
 
-### Does the agent sign-in time affect in the calculation of the most-idle agent?
+### Does the agent sign-in time affect in the calculation of the least-active agent?
 
-The agent’s last capacity release time only affects the idle time used by the most-idle assignment method. The agent sign-in times don't impact the capacity release time.
+The agent’s last capacity release time only affects the time used by the least-active assignment method. The agent sign-in times don't impact the capacity release time.
 
 ### How is a tie-breaker scenario resolved if two or more agents match the idle time?
 
-If the last capacity release time, which is the time since the agent is idle, is the same for two matching agents, then assignment will be done in a round-robin manner.
+If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner. 
 
-### Can I see diagnostics for routing to the most-idle agent?
+### Can I see diagnostics for routing to the least-active agent?
 
 Yes, the assignment method stage displays the assignment method that's used.
 

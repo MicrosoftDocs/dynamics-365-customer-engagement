@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
-ms.date: 04/10/2023
+ms.date: 10/15/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -78,7 +78,7 @@ Follow the steps to create a custom assignment method:
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
 
       - **Ordering Attributes**:
-         - **Most idle (Preview)**: in preview release, this option is available for voice channel queues only. Work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice channel queues only. Work item is routed to the agent who is least active among all the agents who match skills and capacity. For more information, see [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity
