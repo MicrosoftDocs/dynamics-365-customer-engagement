@@ -2,9 +2,6 @@ Dispatchers need to be aware of important updates and status changes to ensure a
 
 **Booking alerts** bring attention to important notifications so that dispatchers can schedule with confidence. Booking alerts display notes and reminders on the schedule board, and can relate to bookings, work orders, users, and other entities. They can be triggered based on timers, set alarms, or workflows.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of full schedule board showing booking alert.](../../field-service/media/scheduling-booking-alert-schedule-board.png)
-
 ## Create a booking alert
 
 Booking alerts are often created through automation - either a flow, plugin or through an integration with an external system. They can also be manually created from the schedule board.

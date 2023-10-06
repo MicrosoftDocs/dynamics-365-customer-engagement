@@ -16,7 +16,6 @@ Use the schedule board tab settings to share a tab.
 
    > [!TIP]
    >  Every user with a Field Service security role gets access. Admins can also [create custom security roles](/power-platform/admin/security-roles-privileges) with the **Schedule Board Setting** privilege.
-   > :::image type="content" source="../../field-service/media/schedule-board-setting-privilege.png" alt-text="Screenshot of the list of privileges with callout on the schedule board setting.":::
 
 ## Choose users to share the schedule board tab
 
@@ -28,9 +27,12 @@ Go to **Settings** > **Advanced Settings** and select **Advanced Find**. In the 
 
 The list of records shows all schedule board tab records you have access to.
 
-Open the schedule board record you want to share to specific people. On the schedule board setting form, select **Share** > **Manage access**.
+Open the schedule board record you want to share to specific people. On the schedule board settings form, select **Share** > **Manage access**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the share button for a specific schedule board setting.](../../field-service/media/schedule-board-share.png)
 
 Add users or teams to share the schedule board with. They see the schedule board tab if they have access privileges to schedule boards.
+
+> [!NOTE]
+>  Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, use the instructions in this article, selecting **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.

@@ -7,14 +7,14 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125)  | TBD | 09/29/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 09/22/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 09/29/2023 |
-| | *USG* |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 09/22/2023 |
-|**Station 4** |*Europe* |[3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136) | 09/22/2023 |
-|**Station 5** |  *North America*|[3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136) | 09/29/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018)  | [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136) | 09/29/2023 |
-| | *Dedicated Scale Groups* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) | 09/22/2023 |
+|**Station 1** |  *First Release*| [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/13/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/27/2023 |
+| | *USG* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
+|**Station 4** |*Europe* |  [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125)   | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)| 10/13/2023 |
+|**Station 5** |  *North America*|[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
+| | *Dedicated Scale Groups* |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/20/2023 |
 
 
 >[!NOTE]
@@ -22,13 +22,25 @@ For information about older versions, see [Version history archive](../../field-
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.12.117.31
+
+**Resource Scheduling Controls:** 1.2.56.232691
+
+**Dataverse:** 4.0.107.30
+
+- **Proportional booking visualization on aggregated schedule board Vviews:** On daily, weekly, and monthly schedule board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
+- When schedule assistant fails to create a booking, an error message now shows more information. 
+- Fixed an issue that was causing the schedule board to load the wrong date when operating in specific time zones. 
+- Fixed an issue that was causing selected resources to be displayed as undefined when using client extensions.  
+
+
 ## 3.12.112.5
 
 **Resource Scheduling Controls:** 1.2.52.232511
 
 **Dataverse:** 4.0.102.5
 
-- **CApacity for resource search**: Resource search is now supported for organizations with more than 5000 resources. 
+- **Capacity for resource search**: Resource search is now supported for organizations with more than 5000 resources. 
 - **Accessibility**: Implemented a variety of accessibility improvements including increased support for screen readers, new visual labels, and additional ARIA attributes. 
 - Fixed an issue in the API where calling *msdyn_SearchResourceAvailability* consistently returned empty *AvailabilityIntervals* and *Characteristics*.
 - Fixed an issue that led to the schedule assistant returning no available slots when a user entered information in the *Time from promised* field.  
@@ -40,9 +52,9 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.106.5
 
-- **Retirement of the Legacy Schedule Board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
-- **Proportional Bookings on Multiday Views:** Quickly determine a resource’s availability and utilization.
-- **Multiple Recurrences in Work Hours Calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
+- **Retirement of the legacy schedule board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
+- **Proportional bookings on multiday views:** Quickly determine a resource’s availability and utilization.
+- **Multiple recurrences in work hours calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
 - Fixed an issue where rebooking and substituting on a requirement that got deleted was failing.
 - Fixed an issue where the schedule board color was not being applied when saving the board setting with a new color.
 - Fixed an issue where "Find Availability" in the new schedule board was not considering custom fields.

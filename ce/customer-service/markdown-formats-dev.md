@@ -26,7 +26,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 | bold                      | \*\*bold\*\*                          | \*\*bold\*\*                              | **text**  |
 | italics                   | \_italics\_                       | \_italics\_                           | *text*    |
 | strikethrough             | ~strikethrough~                   | ~strikethrough~                       | ~~text~~  |
-| blockquote                | > blockquote                      |  > blockquote                         | <blockquote>text</blockquote> |
+| blockquote                | > blockquote                      |  > blockquote                         |  > text|
 | header (levels 1&ndash;4) | ### header3                       | ### header3                           | **Text**  |      
 | hyperlink                 | https://www.microsoft.com         | https://www.microsoft.com             | <https://www.microsoft.com>    |
 | hyperlink with text       |[text]\(https://www.microsoft.com\)| [text]\(https://www.microsoft.com\)   | [Microsoft website](https://www.microsoft.com)  |
