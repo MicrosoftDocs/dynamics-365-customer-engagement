@@ -67,7 +67,7 @@ landingContent:
             url: sales-copilot-data-movement.md 
 
 # Card 
-  - title: Sales Premium
+  - title: Sales premium
     linkLists:
        - linkListType: concept
          links:
@@ -121,7 +121,7 @@ landingContent:
             url: troubleshooting.md
 
 # Card
-  - title: Encryption
+  - title: Security
     linkLists:
       - linkListType: overview
         links:
