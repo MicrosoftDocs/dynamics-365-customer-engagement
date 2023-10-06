@@ -21,6 +21,8 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 - Microsoft Viva Connection and Teams
 - Any combination or all three
 
+<!--- Tab 1 Outlook --->
+
 ## [Set up Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
@@ -60,14 +62,16 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
    >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
 
+<!--- Tab 2 Teams --->
+
 ## [Set up Field Service (Preview) for Teams](#tab/teams)
 
 ### Prerequisites
 
-Admin permissions for the following apps:
-
-- Microsoft Teams Admin Center
-- Microsoft Teams
+- Admin permissions for the following apps:
+  - Microsoft Teams Admin Center
+  - Microsoft Teams
+- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ### Deploy Field Service (Preview) Teams app
 
@@ -89,6 +93,8 @@ Admin permissions for the following apps:
 1. [Pin the app and arrange it](/microsoftteams/teams-app-setup-policies#pin-apps).
 
 
+<!--- Tab 3 Viva Connections and Teams --->
+
 ## [Set up Field Service (Preview) for Viva Connections and Teams](#tab/viva)
 
 The Field Service (Preview) for Viva Connections and Teams requires the following setup:
@@ -105,11 +111,12 @@ The Field Service (Preview) for Viva Connections and Teams requires the followin
 
 ### Prerequisites
 
-Admin permissions for the following apps:
-- Microsoft Teams Admin Center
-- Microsoft Teams
-- Microsoft 365 Admin Center
-- SharePoint Admin Center
+- Admin permissions for the following apps:
+  - Microsoft Teams Admin Center
+  - Microsoft Teams
+  - Microsoft 365 Admin Center
+  - SharePoint Admin Center
+- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
 ### Create user groups
 
