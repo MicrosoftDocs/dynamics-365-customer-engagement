@@ -131,7 +131,7 @@ To deactivate messages at the channel instance level, select one or more message
 
 - If the **Agent assigned to a conversation** is enabled, ensure that you switch to **Greeting Message for Async Channels and Voice**.
 
-- Ensure that you disable average wait time for automated messages except for critical business needs that includes:
+- Except for critical business needs, ensure that you disable average wait time for automated messages that includes:
   - **Average wait time for customers: Hours**
   - **Average wait time for customers: Hours and minutes**
   - **Average wait time for customers: Minutes**
