@@ -63,39 +63,77 @@ The schedule board saves tabs as records in the *Schedule Board Settings* entity
 > [!NOTE]
 > Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
 
-## Map section
+### Map section
 
-The **Map** lets you specify the a view that pulls details from a record select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
+The **Map** section specifies views that pulls details from a record when users select an icon on the map. Only public views are available for selection. Even though you can change existing views, it's better to copy the default view and apply changes to the copy. Views related to resources are based on the *Bookable Resource* entity. Views related to organizational units are based on the *Organizational Unit* entity.
 
-### Resource tooltips view
+#### Resource tooltips view
 
 This view defines the fields displayed in a tooltip that appears when you select a resource pin on the map.
 
-### Resource details view
+#### Resource details view
 
 This view defines the fields displayed in the details pane when selecting a resource pin on the map. The details pane open when you select the **Details** icon on the schedule board.
 
-### Organizational unit tooltips view
+#### Organizational unit tooltips view
 
 This view defines the fields displayed in a tooltip that appears when an organizational unit map pin.
 
-### Organizational unit details view
+#### Organizational unit details view
 
 This view defines the fields displayed in the details pane when selecting an organizational unit map pin. The details pane open when you select the **Details** icon on the schedule board.
 
-### Requirement map filter view
+#### Requirement map filter view
 
 This view defines the resource requirement records displayed on the map. The setting lists public views related to the resource requirement entity for selection. Resource requirements must have a latitude and longitude to display it on the map.
 
-## Custom web resource
+### Custom web resource
 
-Web resources represent files that can be used to extend the Microsoft Dynamics 365 web application, such as HTML files, JavaScript, and Silverlight applications. This section allows you to access web resources from the schedule board, which can help dispatchers perform more functions and increase utilization. 
+Web resources represent files that can be used to extend the Dynamics 365 application, such as HTML or JavaScript files. This section lets you access web resources from the schedule board, which can help dispatchers be more efficient and increase utilization.
 
-- **Tab Name:** the chosen web resource will be displayed in the details pane on the right-hand side of the schedule board. A new tab with the name entered here will appear next to the alerts tab. In the following example screenshot, "Web Resource" was entered for the tab name.
+- **Title:** the chosen web resource will be displayed in the actions area on the schedule board. A new tab with the provided title appears next to the maps icon.
 
 - **Web Resource:** select a web resource from your Dynamics 365 organization.
 
-## Schedule board colors
+### Schedule assistant
+
+#### Search for
+
+This setting decides the default value for the **Search For** field in the schedule assistant filter pane.
+
+- Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for a requirement. For smaller organizations or organizations with less rigid resource and line of business divisions, we recommend the **All resources** setting that searches across all applicable resources across the entire organization.
+
+- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. Users can change this value in the schedule assistant. For organizations that use multiple schedule boards to manage subsets fo all resources, we recommend the **Resources visible on board** setting. It avoids scheduling requirements to resources that aren't part of a defined subset.
+
+#### Unavailable resources
+
+This setting determines how unavailable resources appear when users launch the schedule assistant from the **Find availability** button on the schedule board.
+
+- **Unavailable resources do not appear** temporarily hides resources that don't match the schedule assistant filter criteria from the list of available resources.
+
+- **Unavailable resources appear dimmed (when searching for resources visible on board)** ensures all resources that don't match the schedule assistant filter criteria still show on the schedule board, but appear dimmed. Open the schedule assistant and set the **Search For** filter to **Resources visible on board** to see the unavailable resources, which appear dimmed.
+
+#### Book based on
+
+This setting changes the schedule assistant visualization of the booking slot to make it easier to understand when travel time starts and when a resource is estimated to arrive.
+
+- Set to **Start of Travel** to visualize the booking start as when travel begins.
+  
+- Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site.
+
+#### Colors
+
+The colors selected in the schedule assistant section represent the resource availability in the schedule assistant. The schedule assistant determines availability by taking into account previously scheduled bookings and other factors including work hours, scheduled time off, vacations, holidays, and work closures. Additionally, a resource shows as unavailable in schedule assistant when the the availability summary cell's dates fall outside of the requirement detail's from/to date ranges.
+
+#### Icons
+
+The icons show along with the colors to represent resource availability
+
+Turn an icon off to hide it in the schedule assistant.
+
+Makers can customize icons by [creating web resources](/power-apps/developer/model-driven-apps/web-resources) and select **Edit** in the icon setting to reference them .
+
+### Schedule board colors
 
 The colors that represent a resource's utilization on the days, weeks, and months view of the schedule board are configurable here by entering HTML hex color codes. See an example of colors chosen and the effects in the following screenshot.  
 
@@ -109,45 +147,7 @@ To illustrate how these colors affect the schedule board, see the following exam
 
 - **Not booked:** White because no bookings exist for that resource for that day.
 
-## Schedule assistant
-
-### Search for
-
-This setting decides the default value for the **Search For** field in the schedule assistant filter pane. 
-
-- Set to **All resources** to search for all applicable resources in the system that meet the schedule assistant filters for the requirement. 
-
-- Set to **Resources visible on board** to search for resources that meet the schedule assistant filters for that requirement *and* meet the current schedule board resource filters. This schedule assistant filter value can still be manually changed by the dispatcher at the time of scheduling. If a scheduler is responsible for a specific schedule board and specific resources, then we recommend **Resources visible on board** because this ensures the scheduler cannot schedule requirements to other resources they are not responsible for. 
-
-  For smaller organizations or organizations with less rigid resource and line of business divisions, the **All resources** setting will allow schedulers to search across all applicable resources across the entire organization. 
-
-### Unavailable resources 
-
-This setting determines how unavailable resources appear when the schedule assistant is triggered from the **Find availability** function on the schedule board. 
-
-- Set to **Unavailable resources do not appear** to ensure that resources who do not meet schedule assistant filter criteria are temporarily removed from the view of available resources. 
-
-- Set to **Unavailable resources appear dimmed (when searching for resources visible on board)** to ensure that resources who do not meet schedule assistant filter criteria remain on the schedule board, but appear dimmed. For schedule boards with many resources, using the **Unavailable resources do not appear** setting can reduce the need to scroll and make it easier for scheduler to compare available resources. When the schedule assistant is opened, the **Search For** filter on the filter panel must be changed to **Resources visible on board** to see the unavailable resources, which appear dimmed. 
-
-### Book based on 
-
-Though booking an onsite requirement (typically a work order) will always have a total duration that equals travel time plus requirement duration, this setting changes the schedule assistant visualization to make it easier to understand when travel time starts and when the estimated arrival time is. 
-
-- Set to **Start of Travel** to visualize the booking start as when travel begins. 
-  
-- Set to **Estimated Arrival** to visualize the booking start as when the resource is estimated to arrive on site. Consider whether the scheduler is communicating with the customer in real time; customers are typically more interested in when the resource will arrive at their location, so administrators should make it easier for the scheduler to communicate this time by selecting the **Estimated Arrival**. See this [blog post](https://blogs.msdn.microsoft.com/crm/2018/04/02/whats-new-in-universal-resource-scheduling-for-dynamics-365-april-2018-update/#BookbyETA) for more details.
-
-### Available Color, Partially Available Color, Unavailable Color
-
-The colors selected in the schedule assistant section represent how resource availability (or unavailability) appears when the schedule assistant is triggered from the days, weeks, or months view.  Schedule assistant determines availabilty by taking into account previously scheduled bookings and other factors including work hours, scheduled time off, vactions, holidays, and work closures. Additionally, a resource shows as unavailable in schedule assistant when the the availabilty summary cell's dates fall outside of the requirement detail's from/to date ranges. 
-
-### Available Icon, Partially Available Icon, Unavailable Icon
-
-The icons selected in the Schedule Assistant section also apply when the schedule assistant is triggered from the days, weeks, or months view and are displayed along with the colors chosen in the previous settings to represent if resources are available or unavailable. 
-
-If the **Default Available Icon**, **Default Partially Available Icon**, or **Default Unavailable Icon** boxes are unchecked, then no icons will appear.
-
-The icons can be customized by uploading new image files in **Customizations > Customize the System > Web Resources** and referencing the path in tab settings. 
+ 
 
 ## Other settings 
 
