@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 10/02/2023
+ms.date: 10/06/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -17,13 +17,13 @@ ms.subservice: m365-integrations
 As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use:
 
 - Microsoft Outlook
-- Microsoft Teams without Viva Connections
-- Microsoft Teams with Viva Connections
-- All three
+- Microsoft Teams
+- Microsoft Viva Connection and Teams
+- Any combination or all three
 
 [!INCLUDE [us-uk-only](../includes/fsp-m365-us-uk-only.md)]
 
-## [Field Service (Preview) for Outlook](#tab/outlook)
+## [Set up Field Service (Preview) for Outlook](#tab/outlook)
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
@@ -60,16 +60,42 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
    > [!NOTE]
    >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
-## [Field Service (Preview) for Teams](#tab/teams)
+
+## [Set up Field Service (Preview) for Teams](#tab/teams)
+
+### Prerequisites
+
+Admin permissions for the following apps:
+
+- Microsoft Teams Admin Center
+- Microsoft Teams
+
+### Deploy Field Service (Preview) Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
-## [Field Service (Preview) for Teams and Viva Connections](#tab/viva)
+### Install and pin the app in Teams
 
-The Field Service (Preview) for Teams and Viva Connections require the following setup:
+1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+
+1. Select **Teams apps** > **Set up policies**.
+
+1. Select **Global (Org-side default)**.
+
+   > [!TIP]
+   > This default policy applies to all users in your organization unless you assign another policy. If you don't want the app set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding **Field Service (Preview)**.
+
+1. [Install the app](/microsoftteams/teams-app-setup-policies#install-apps).
+
+1. [Pin the app and arrange it](/microsoftteams/teams-app-setup-policies#pin-apps).
+
+
+## [Set up Field Service (Preview) for Viva Connections and Teams](#tab/viva)
+
+The Field Service (Preview) for Viva Connections and Teams requires the following setup:
 
 - [Create user groups](#create-user-groups), if they are not already set up
-- [Deploy Field Service (Preview) Teams app](#deploy-field-service-preview-teams-app)
+- [Deploy Field Service (Preview) Teams app](#deploy-the-field-service-preview-teams-app)
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
 - [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
@@ -81,7 +107,6 @@ The Field Service (Preview) for Teams and Viva Connections require the following
 ### Prerequisites
 
 Admin permissions for the following apps:
-
 - Microsoft Teams Admin Center
 - Microsoft Teams
 - Microsoft 365 Admin Center
@@ -91,18 +116,9 @@ Admin permissions for the following apps:
 
 If you have not created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-### Deploy Field Service (Preview) Teams app
+### Deploy the Field Service (Preview) Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
-
-1. Select the **Settings** tab.
-
-1. Select your Field Service environment.
-
-   :::image type="content" source="media/fsp-environment-flw.png" alt-text="Screenshot of Field Service environment selection":::
-
-   > [!NOTE]
-   > You must select your environment and see a validation message before deploying Field Service (Preview) for Viva Connections.
 
 ### Install and pin the apps in Teams
 
@@ -122,6 +138,9 @@ If you have not created user groups for your frontline workers and frontline man
 ### Deploy Field Service (Preview) for Viva Connections
 
 Viva Connections is included as part of Microsoft Teams license. If you do not have Viva Connections set up for your organization, [install and set it up](/viva/connections/set-up-admin-center) before continuing. Then, make Field Service (Preview) for Viva Connections available in Teams.
+
+> [!NOTE]
+> You must select your environment in Teams and see a validation message before deploying Field Service (Preview) for Viva Connections.
 
 1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
 
