@@ -47,9 +47,6 @@ The success of social media customer service, like all other customer service, d
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-> [!Note]
-> Twilio has a new security enhancement that blocks the ability to send media files for newly created Twilio accounts. To resolve this issue, you must disable the setting. For details, see [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://www.twilio.com/en-us/changelog/extended-notice-and-update-security-changes-http-auth-for-media).
-
 To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save those safely. These two values are required to create a WhatsApp channel configuration in the Omnichannel Administration app.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
