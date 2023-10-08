@@ -68,7 +68,7 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 You can view all work orders, overdue work orders, or work orders with a status of **In progress**. An overdue work order is an unscheduled or scheduled work order where the time promised has passed.
 
-1. In Viva, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select one of the following:
+1. From your Viva dashboard, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select one of the following:
 
    - **All work orders**
    - **Overdue** work orders
@@ -87,7 +87,7 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
 ## Edit a work order in Teams
 
-1. In Viva, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
+1. From your Viva dashboard, select **See all** from the **Work orders all in one place** tile. From your Teams Field Service (Preview) **Home** page, select the work order you want to edit. Use **Find by ID** or **Filter** to find the work order if necessary.
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service (Preview) Teams work order to edit":::
 

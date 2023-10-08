@@ -45,7 +45,7 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 ## View all work orders
 
-1. In Viva, select **See all** under **Work Orders**. From your Teams Field Service (Preview) Home page, select **All work orders**.
+1. From your Viva dashboard, select **See all** under **Work Orders**. From your Teams Field Service (Preview) Home page, select **All work orders**.
 
    :::image type="content" source="media/fsp-flw-all-work-orders.png" alt-text="Field Service (Preview) Frontline worker all work orders":::
 
