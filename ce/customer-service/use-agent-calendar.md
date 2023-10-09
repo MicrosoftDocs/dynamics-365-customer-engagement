@@ -6,13 +6,13 @@ ms.author: laalexan
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 04/12/2023 
+ms.date: 10/31/2023 
 ms.custom: bap-template 
 ---
  
 # View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
+As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
 
 1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
 
@@ -25,5 +25,5 @@ As an agent, it's helpful to know your work schedule. If your administrator has 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
 ### See also
+[Get started with Customer Service workspace](csw-overview.md)  
 [Configure the agent calendar view (preview)](configure-agent-calendar.md)  
-[Get started with Customer Service workspace](csw-overview.md)
