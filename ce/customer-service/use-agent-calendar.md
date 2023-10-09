@@ -12,7 +12,7 @@ ms.custom: bap-template
  
 # View the agent calendar (preview)
 
-As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, non-work hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
+As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, nonwork hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
 
 1. In Customer Service workspace, select the **Customer Service Agent Dashboard** page from the **System Dashboards** dropdown menu.
 
@@ -20,7 +20,7 @@ As an agent, it's helpful to know your work schedule, breaks, trainings, and oth
 
    :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
 
-   The **My Schedule** page opens with a read-only calendar view of the work hours, non-work hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
+   The **My Schedule** page opens with a read-only calendar view of the work hours, nonwork hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
