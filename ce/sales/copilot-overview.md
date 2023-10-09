@@ -37,24 +37,24 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization helps you [get a quick summary of your opportunity and lead records](use-sales-copilot.md#summarize-an-opportunity-or-a-lead). By default, Copilot generates the summary from your default opportunity and lead views. A system administrator can set up Copilot to [generate the summary from other columns](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields). Your entire sales team should agree on the seven columns that are most relevant for your business and should be included in the summary.
+Record summarization helps you [get a quick summary of your opportunity and lead records](./use-sales-copilot.md#summarize-an-opportunity-or-a-lead). By default, Copilot generates the summary from your default opportunity and lead views. A system administrator can set up Copilot to [generate the summary from other columns](./enable-setup-copilot.md#configure-record-summary-fields). Your entire sales team should agree on the seven columns that are most relevant for your business and should be included in the summary.
 
 ### Record catch up
 
-To [help you stay on top of your opportunities and leads](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead), Copilot summarizes any changes made to your records since your last visit or in the last seven days. Copilot generates the catch-up summary from the records' audit history. A system administrator sets up [the columns that are included in the catch up](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields). Your entire sales team should agree on the 10 fields that are most relevant for your business and should be included in the catch up.
+To [help you stay on top of your opportunities and leads](./use-sales-copilot.md#catch-up-with-an-opportunity-or-lead), Copilot summarizes any changes made to your records since your last visit or in the last seven days. Copilot generates the catch-up summary from the records' audit history. A system administrator sets up [the columns that are included in the catch up](./enable-setup-copilot.md#configure-record-catch-up-fields). Your entire sales team should agree on the 10 fields that are most relevant for your business and should be included in the catch up.
 
 ### Meeting preparation
 
-Copilot helps you [prepare for your upcoming meetings](use-sales-copilot.md#prepare-for-upcoming-meetings) effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the day's meetings.
+Copilot helps you [prepare for your upcoming meetings](./use-sales-copilot.md#prepare-for-upcoming-meetings) effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the day's meetings.
 
 ### Email assistance
 
-Copilot can help you [compose professional-looking emails](compose-send-email-copilot.md), [summarize email conversations to add to your customer notes](view-copy-email-summary.md), and get reminders to [follow up on emails you haven't replied to](use-sales-copilot.md#show-emails-that-are-not-replied).
+Copilot can help you [compose professional-looking emails](compose-send-email-copilot.md), [summarize email conversations to add to your customer notes](view-copy-email-summary.md), and get reminders to [follow up on emails you haven't replied to](./use-sales-copilot.md#show-emails-you-havent-replied-to).
 
 ### News updates
 
-Copilot news updates help you stay current with the [latest news about your accounts](use-sales-copilot.md#show-latest-news-for-an-account). News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get you the latest news related to an account and it returns a list of articles that feature or mention the account, curated by Bing. As with any content that's provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer.
+Copilot news updates help you stay current with the [latest news about your accounts](./use-sales-copilot.md#show-the-latest-news-about-an-account). News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get you the latest news related to an account and it returns a list of articles that feature or mention the account, curated by Bing. As with any content that's provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer.
 
 ## Region availability and languages supported
 
-Sales Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about how Sales Copilot data moves across geographies](sales-copilot-data-movement.md).
+Sales Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about how Sales Copilot data moves across geographies](./sales-copilot-data-movement.md).
