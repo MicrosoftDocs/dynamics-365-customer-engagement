@@ -23,31 +23,42 @@ When a customer replies to an email after removing the content in subject or mod
 
 ## Prerequisites
 
-<!--add your content here-->
+- A new default Boolean field named correlatedsubjectchanged is available for the email entity.  
 
-<!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
+- The field gets populated as true or false for inreplyto correlated emails, that detects subject changes on the email.  
+
+- A default regex is present to ignore the prefix "Re: ", "re: ", "RE: " from the replied email and then compare the subject with the correlated email’s subject. If the subject matches, the boolean value correlatedsubjectchanged will be set to false. However, if the default regex doesn’t ignore the prefix “Fw: “, “FW: “, “FWD: “from the forwarded email", the boolean value correlatedsubjectchanged will be set to true.  
+
+- If the default regex doesn't serve your subject matching needs, the regex can be customized. You can write regex expressions for multiple languages. For more information, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference)
+
+- If you need to edit the regex, use the OrgDbOrgSetting tool using the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
+
+- Make sure to enable [“Skipped” and “Ready for Power automate” monitored options for activity monitor](/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter#manage-activity-monitor-to-review-and-track-rules) in the Customer Service admin center app.
 
 ## Customization steps to create a new case
 
-A new OOB Boolean field named correlatedsubjectchanged is available for the email entity.  
+To define whether automatic record creation and update rules must create a new case or not, you can add a condition to check if the correlatedsubjectchanged field is true and create a case using by performing the customization steps:
 
-The field gets populated as True/false for inreplyto correlated emails, that would detect subject changes on the email.  
+1. Go to https://make.powerautomate.com/ and select the environment in which you have automatic record creation and update rules rules configured. 
+1. Navigate to **My flows** from the site map and select **+New flow** > **Automated Cloud flow**. The owner of the flow must have read/write/delete privileges to activity monitor entity, if using custom roles. The CSR Manager and System administrator roles have the required privileges by default.
 
-An OOB regex is present to ignore the prefix "Re: ", "re: ", "RE: " from the replied email and then compare the subject with the correlated email’s subject. If the subject matches, the boolean value correlatedsubjectchanged will be set to false. However, OOB regex doesn’t ignore the prefix “Fw: “, “FW: “, “FWD: “from the forwarded email and hence the boolean value correlatedsubjectchanged will be set to true.  
+1. Give a meaningful name to the flow and select the trigger: When a row is added, modified or deleted.
+1. Click on **Create**.
+1. Create a custom flow that will be triggered when case creation is skipped for an email and there is an entry in the activity monitor table with **Skipped** state.
+1. Check for email subject change within the flow and execute automatic record creation and update rules child flow to create the case.
+    1. In the trigger step, match the values for ‘Change type’, ‘Table name’, ‘Scope’ and ‘Run as’ to the values shown in the example screenshot below:
+     <screenshot>
 
-The OOB regex should work for majority of your scenarios. However, if the OOB regex doesn't serve your subject matching needs, the regex can be customized. You can write regex expressions for multiple languages. For more information, refer: Regular Expression Language - Quick Reference | Microsoft Learn  
+    > [!NOTE]
+    > Here, currentstate eq 3 refers to the Activity monitor state as Skipped and reason is equivalent to the following:
+    >- An existing entity is already connected with this record.
+    >- An active case is already connected with this record.
+    >- A resolved case is already connected with this record.
+    >- The rule requires a connected case to be resolved for a specific amount of time before creating a new one. This connected case has been resolved for less than the amount of time selected.
 
-If you need to edit the regex, you could use the OrgDbOrgSetting tool using the guidance provided here - https://github.com/seanmcne/OrgDbOrgSettings  
-
-If C2 replies or forwards an old email after changing the subject, you can define whether ARC should create a new case or not. For this, you can add a condition to check if the correlatedsubjectchanged field is true, and create a case using ARC by following the customization steps below:  
-
-As a pre-requisite, make sure to enable “Skipped” and “Ready for Power automate” monitored options for activity monitor in Customer Service admin center. For more information, refer - https://learn.microsoft.com/en-us/dynamics365/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter#manage-activity-monitor-to-review-and-track-rules  
-
-Go to https://make.powerautomate.com/ and select the environment in which you have ARC rules configured. Navigate to My flows from sitemap and select +New flow>Automated Cloud flow. The owner of the flow needs to have read/write/delete privileges to activity monitor entity if using custom roles. OOB roles of CSR Manager and System administrator both have the required privileges.   
-
-Give a meaningful name to the flow and select the trigger – When a row is added, modified or deleted. Click on Create. Create a custom flow that should be triggered when case creation gets skipped for an email and there is an entry in Activity monitor table with Skipped state. Check for email subject change within the flow and execute ARC child flow to create the case. Below are the detailed steps –  
-
-Step 1: In the trigger step, match the values for ‘Change type’, ‘Table name’, ‘Scope’ and ‘Run as’ to the values shown in the example screenshot below: 
-## Next steps
-
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+    1. Retrieve the email record. Enter **RowID** as **Monitored activity item (Value)**.
+    1. Add conditional check to verify if the correlatedsubjectchanged attribute is set to true and proceed only if yes, else terminate. If you have complex conditional logic, we recommend writing your logic in an unbound custom action that gives certain simple structured output such as Boolean, call the custom action in flow and consume the output in a conditional check.
+    1. Update the activity monitor status. If the above step is applied (subject doesn’t match), update the current state of that activity monitor ID to **Ready for Power Automate** and set the **Reason** to **blank**.
+    1. Continue executing automatic record creation and rules and create case.
+    
+    By performing the steps, the automatic record creation and rules rule can be conditionally bypassed (based on email subject change condition) and new case can be created.
