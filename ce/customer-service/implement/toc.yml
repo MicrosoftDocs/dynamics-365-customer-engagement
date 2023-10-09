@@ -1,4 +1,5 @@
-- name: Dynamics 365 Customer Service admin documentation
+items:
+- name: Implement Dynamics 365 Customer Service
   items: 
   - name: Dynamics 365 Customer Service documentation
     href: ../index.yml
