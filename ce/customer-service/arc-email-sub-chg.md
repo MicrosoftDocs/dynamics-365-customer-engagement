@@ -26,7 +26,8 @@ When a customer replies to an email after removing the content in subject or mod
 <!--add your content here-->
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Customize  
+
+## Customization steps to create a new case
 
 A new OOB Boolean field named correlatedsubjectchanged is available for the email entity.  
 
