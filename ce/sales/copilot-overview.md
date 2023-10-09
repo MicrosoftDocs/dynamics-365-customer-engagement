@@ -25,9 +25,9 @@ Sales Copilot is turned on by default in all sales apps for orgs in North Americ
 
 Sales Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
-## Sales Copilot capabilities
+## Copilot capabilities
 
-Sales Copilot offers the following capabilities:
+Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
 - [Record catch up](#record-catch-up)

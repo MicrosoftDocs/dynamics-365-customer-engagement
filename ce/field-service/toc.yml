@@ -518,8 +518,10 @@ items:
     href: cfs-troubleshoot.md
   - name: Resource Scheduling Optimization FAQs
     href: rso-faq.yml
-  - name: Field Service (Preview) troubleshooting
+  - name: Microsoft 365 integrations for Field Service (preview) troubleshooting
     href: flw-troubleshooting.md
+  - name: New Field Service mobile experience (preview) troubleshooting     
+    href: troubleshooting-mobile-newux.md
 
 - name: Responsible AI
   items: 
