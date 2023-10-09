@@ -189,17 +189,15 @@ items:
     items:
       - name: Use the schedule board
         href: work-with-schedule-board.md
-      - name: Schedule board tab settings
+      - name: Configure schedule board settings
         href: schedule-board-tab-settings.md
       - name: Manage booking alerts
         href: booking-alert.md
-      - name: Share schedule board tabs
-        href: share-schedule-board-tab.md
-      - name: Utilization
+      - name: Review resource utilization
         href: schedule-board-utilization.md
       - name: Customize the schedule board
         items:
-        - name: Schedule board custom resource attribute
+        - name: Use custom fields on the schedule board
           href: extend-schedule-board-custom-resource-attribute.md
         - name: Create custom booking templates
           href: booking-template.md
