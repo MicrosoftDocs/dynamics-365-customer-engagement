@@ -20,7 +20,7 @@ The success of social media customer service, like all other customer service, d
 - Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
   > [!NOTE]
   > To enable the Twilio channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md). <br><br>
-  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. For details, see [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://www.twilio.com/en-us/changelog/extended-notice-and-update-security-changes-http-auth-for-media).
+  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, see [Integrate a Twilio sandbox account with Omnichannel for Customer Service](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service)
 
