@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 10/06/2023
+ms.date: 10/09/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -107,7 +107,7 @@ You can follow the specified best practices for automated messages in the voice 
 
 - When **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice** are enabled, ensure that you enable **Greeting Message for Async Channels and Voice** to prevent the accumulation of similar messages in one queue.
 
-- When **Agent assigned to a conversation** is enabled, ensure to switch to **Greeting Message for Async Channels and Voice**.
+- When **Agent assigned to a conversation** is enabled by default, ensure to switch to **Greeting Message for Async Channels and Voice**.
 
 - Unless it's for critical business requirements, ensure that you disable the average wait time including:
   - **Average wait time for customers: Hours**
