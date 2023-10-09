@@ -1,5 +1,5 @@
 ---
-title: Field Service (Preview) Teams app for the Frontline Manager
+title: Field Service (Preview) Teams app for the frontline manager
 description: Learn about the Dynamics 365 Field Service (Preview) Teams and Viva Connections app to create, view, and edit work orders.
 ms.date: 10/06/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Field Service (Preview) Teams app for the Frontline Manager
+# Field Service (Preview) Teams app for the frontline manager
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -34,11 +34,11 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 1. Select your Field Service environment.
 
-   :::image type="content" source="media/fsp-environment-flm.png" alt-text="Screenshot of Field Service environment selection for the Frontline Manager":::
+   :::image type="content" source="media/fsp-environment-flm.png" alt-text="Screenshot of Field Service environment selection for the frontline manager":::
 
 1. Once the environment is validated, select **Open Viva Connections**. The **Home** page displays.
 
-   :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service (Preview) Teams Home page for the Frontline Manager":::
+   :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service (Preview) Teams Home page for the frontline manager":::
 
    > [!TIP]
    > In Teams, if you have multiple environments, you can easily [switch environments](#switch-environments).

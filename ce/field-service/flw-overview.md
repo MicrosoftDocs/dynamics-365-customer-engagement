@@ -26,9 +26,9 @@ A Teams home page or a Viva Connections dashboard in Teams provide frontline wor
 
 As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information about what the integrations provide, see:
 
-- [Field Service (Preview) Outlook Add-in with Copilot for the Frontline Manager](flw-outlook.md)
-- [Field Service (Preview) Teams overview for the Frontline Manager](flw-teams-manager.md)
-- [Field Service (Preview) Teams overview for the Frontline Worker](flw-teams-worker.md)
+- [Field Service (Preview) Outlook Add-in with Copilot for the frontline manager](flw-outlook.md)
+- [Field Service (Preview) Teams overview for the frontline manager](flw-teams-manager.md)
+- [Field Service (Preview) Teams overview for the frontline worker](flw-teams-worker.md)
 
 Administrators enable these preview features for end users in their organization. See [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md). End users do have the ability to set up the Outlook add-in or Teams home page on their own. Viva Connections requires an administrator to set up for the organization.
 
@@ -38,12 +38,23 @@ Dynamics 365 Field Service (Preview) allows administrators and users to access c
 
 Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the following geographies/regions  and in the English (en-us) language. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
 
-:::image type="content" source="../field-service/media/fsp-supported-regions.png" alt-text="Field Service (Preview) supported geographics and regions":::
+|Geography | Region |
+|-|-|
+|Asia Pacific | eastasia, southeastasia|
+|Australia | australiasoutheast, australiaeast|
+|Canada | canadacentral, canadaeast|
+|India | southindia, centralindia|
+|Ireland | westeurope, northeurope|
+|Netherlands | westeurope, northeurope|
+|Sweden | swedencentral|
+|Switzerland | switzerlandnorth|
+|United Kingdom | uksouth, ukwest|
+|United States | eastus, westus|
 
 ## Next steps
 
 - [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
-- [Field Service (Preview) Outlook Add-in with Copilot for the Frontline Manager](flw-outlook.md)
-- [Field Service (Preview) Teams overview for the Frontline Manager](flw-teams-manager.md)
+- [Field Service (Preview) Outlook Add-in with Copilot for the frontline manager](flw-outlook.md)
+- [Field Service (Preview) Teams overview for the frontline manager](flw-teams-manager.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
