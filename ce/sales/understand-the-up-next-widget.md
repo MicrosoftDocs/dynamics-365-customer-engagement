@@ -51,7 +51,7 @@ The following image shows an example of the **Up next** widget.
 
 ## Activity ownership     
 
-Ownership of the activities depends on to whom the record is assigned. However, the current active step remains with the previous owner, while the next step in the sequence will be automatically assigned to the new owner.  
+Ownership of the activities depends on to whom the record is assigned. However, the current active step remains with the previous owner, while the next steps in the sequence will be automatically assigned to the new owner.  
 Also, the owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
 
 ## Add manual activities to records
