@@ -32,7 +32,11 @@ The following table lists the region availability of analytics and insights.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
-| Copilot<sup>**1**</sup><ul><li>Summarize cases</li><li>Summarize conversations</li><li>Ask a question</li><li>Draft a chat response</li><li>Draft emails</li></ul> | ✔ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
+| Copilot&mdash;Summarize cases<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+|Copilot&mdash;Summarize conversations<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+| Copilot&mdash;Ask a question<sup>**1**</sup> | ✔ | ✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+| Copilot&mdash;Draft a chat response |	✔ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |
+|Copilot&mdash;Draft emails<sup>**1**</sup> |	✔ |	✔	| ✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
@@ -52,7 +56,7 @@ The following table lists the region availability of analytics and insights.
 ✔: Available  
 ✖: Not available
 
-<sup>**1**</sup> Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
+<sup>**1**</sup> By default, the copilot features are available in the North America region only. Customers with environments outside the United States can use the copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
