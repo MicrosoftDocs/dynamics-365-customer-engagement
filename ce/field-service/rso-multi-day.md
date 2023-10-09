@@ -14,7 +14,7 @@ ms.subservice: resource-scheduling-optimization
 
 A [service requirement can be scheduled across multiple days and weeks](schedule-multi-day-work.md). For example, a 40-hour work order across an entire work week where the same field technician is expected to perform more detailed work at the same location each day.
 
-With the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service version 3.40.X.Y, you can optimize multi-day service requests to improve scheduling efficiency and accuracy for dispatchers.
+With the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service version 3.4.0.623, you can optimize multi-day service requests to improve scheduling efficiency and accuracy for dispatchers.
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
