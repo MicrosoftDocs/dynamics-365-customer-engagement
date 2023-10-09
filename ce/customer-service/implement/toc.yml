@@ -4,7 +4,7 @@ items:
   - name: Dynamics 365 Customer Service documentation
     href: ../index.yml
   - name: Welcome to Dynamics 365 Customer Service
-    href: overview.md
+    href: ../overview.md
   - name: Get started
     items:
     - name: Use Customer Service workspace
