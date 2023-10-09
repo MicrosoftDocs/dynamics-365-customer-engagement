@@ -14,8 +14,7 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 
 When a sequence contains a customer contact activity, your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) and the [**Up next**](understand-the-up-next-widget.md) widget display the corresponding icon (phone, email, or Teams meeting). After you make the phone call, send the email, or attend the meeting, you'll mark the activity complete and continue with the next activity in the sequence. If an activity doesn't need to be completed or you can't connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity). You can add notes to activities to help you remember important information.
 
-Ownership of the activities depends on to whom the record is assigned. When ownership changes, the activities automatically get reassigned to the new owner. However, the previous owner must complete any pending activities that existed before the record was assigned to the new owner. Also, the owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
-
+Ownership of the activities depends on to whom the record is assigned. Ownership of the activities depends on to whom the record is assigned. However, the current active step remains with the previous owner, while the next step in the sequence will be automatically assigned to the new owner. Also, the owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
 
 ## License and role requirements
 
