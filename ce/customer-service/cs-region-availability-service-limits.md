@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 10/06/2023
+ms.date: 10/09/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,14 +28,14 @@ Geographic support for real-time message translation is dependent on your transl
 The following table lists the region availability of analytics and insights.
 
 > [!NOTE]
-> The features listed in the table are not available in South Africa, Korea, and Norway.
+> The features listed in the table aren't available in South Africa, Korea, and Norway.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
 | Copilot&mdash;Summarize cases<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 |Copilot&mdash;Summarize conversations<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 | Copilot&mdash;Ask a question<sup>**1**</sup> | ✔ | ✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
-| Copilot&mdash;Draft a chat response |	✔ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |
+| Copilot&mdash;Draft a chat response<sup>**1**</sup> |	✔ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |
 |Copilot&mdash;Draft emails<sup>**1**</sup> |	✔ |	✔	| ✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
