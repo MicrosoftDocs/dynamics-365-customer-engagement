@@ -1,7 +1,7 @@
 ---
 title: "Videos for Omnichannel for Customer Service | MicrosoftDocs"
 description: "You can go through the videos listed in this topic to learn about the different features in Omnichannel for Customer Service."
-ms.date: 10/29/2020
+ms.date: 10/05/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

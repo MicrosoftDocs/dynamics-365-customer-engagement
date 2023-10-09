@@ -1,23 +1,22 @@
 ---
-title: Sales Copilot data movement across geographies
-description: Learn how data that's used in Sales Copilot moves across geographies where its features aren't available by default.
+title: Copilot data movement across geographies
+description: Learn how data that's used in Copilot moves across geographies where its features aren't available by default.
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 09/21/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 search.app: salescopilot-docs
 ---
 
-# Sales Copilot data movement across geographies
+# Copilot data movement across geographies
 
+Copilot in Dynamics 365 Sales includes AI features that use the Microsoft Azure OpenAI Service. Azure OpenAI Service is currently available only in the North America region. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle copilot requests.
 
-Sales Copilot AI features use the Microsoft Azure OpenAI Service, which is currently available only in the North America and Europe regions. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle Sales Copilot requests.
-
- You'll see the opt-in terms when you enable Sales Copilot for regions other than North America. The opt-in terms mention about the transfer of relevant data outside of your default geography. You'll see the opt-in terms for Europe as well, but data from Europe will be processed in Europe only.
+You'll see the opt-in terms when you enable the Copilot feature for regions other than North America. The opt-in terms mention about the transfer of relevant data outside of your default geography.
 
 > [!NOTE]
 > The opt-in terms aren't applicable to organizations in the North America geography and therefore won't be visible to customers in this region.
@@ -29,5 +28,5 @@ To learn more about how Azure OpenAI protects your data, read [Data, privacy, an
 
 ### See also
  
-[Enable and set up Sales Copilot](enable-setup-copilot.md)  
-[Configure Sales Copilot](configure-sales-copilot.md)
+- [Enable and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md)  
+- [Configure Copilot in Dynamics 365 Sales](configure-sales-copilot.md)  

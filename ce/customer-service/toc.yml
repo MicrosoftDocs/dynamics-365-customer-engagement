@@ -442,6 +442,16 @@
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+  - name: Inbox
+    items:
+    - name: Administrator experience
+      items:
+      - name: Configure the inbox
+        href: configure-inbox.md
+    - name: Agent experience
+      items:
+      - name: Use the inbox
+        href: use-inbox.md
   - name: Timeline
     items: 
     - name: Administrator experience
@@ -568,6 +578,8 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
+      - name: Enable Join a Teams call for agents
+        href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -582,6 +594,8 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use auto-summarization for ongoing conversations
         href: cs-ai-generated-summary.md
+      - name: Use Join a Teams call to enhance customer conversations
+        href: join-a-teams-call.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
@@ -630,6 +644,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Support emergency calls made by agents
+        href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
         items:
         - name: Overview of Nuance Gatekeeper Integration
@@ -702,8 +718,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-    - name: Emergency calling in the voice channel
-      href: voice-channel-emergency-calling.md
     - name: Pricing scenarios for voice calling
       href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
@@ -716,6 +730,8 @@
         href: set-up-chat-widget.md
       - name: Configure a chat widget
         href: add-chat-widget.md
+      - name: Enable resizing of communication panel
+        href: csac-resize-cp.md       
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
       - name: Configure agent display name
@@ -728,6 +744,8 @@
         href: configure-reconnect-chat.md
       - name: Understand disconnected chats
         href: oc-conv-state-chat-disconnect.md   
+      - name: Understand conversation states
+        href: oc-conversation-state.md 
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -757,9 +775,7 @@
       - name: Search, link, and unlink a record
         href: oc-search-link-unlink-record.md
       - name: Take notes for conversation
-        href: oc-take-notes.md
-      - name: Understand conversation states
-        href: oc-conversation-state.md     
+        href: oc-take-notes.md    
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -810,7 +826,7 @@
         href: start-proactive-chat.md
       - name: Send authentication token
         href: send-auth-token-starting-chat.md       
-      - name: Configure automatic closure of conversations
+      - name: Configure automatic closure of conversations using web API
         href: auto-close-conversation.md
       - name: Send custom context during live chat
         href: send-context-starting-chat.md
@@ -916,6 +932,8 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
+    - name: Close conversations automatically
+      href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:
       - name: Configure authentication settings for chat  
