@@ -13,16 +13,16 @@ ms.author: anclear
 
 ## Automated scheduling with Resource Scheduling Optimization
 
-The following features are only available for organizations using the [Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md).
+The following features are only available for organizations using the [Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](rso-overview.md).
 
-The default optimization goal is the default for optimization requests. You can [change the optimization goal for each schedule board](../../common-scheduler/schedule-board-tab-settings.md).
+The default optimization goal is the default for optimization requests. You can [change the optimization goal for each schedule board](../common-scheduler/schedule-board-tab-settings.md).
 
 ### Get resource suggestions or book them directly
 
 In the requirements pane, select one or more requirements.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
+> ![Screenshot of the suggest resources option.](media/scheduling-new-suggest-resources.png)
 
 Select **Suggest resources (Preview)** to get suggestions from Resource Scheduling Optimization about which resources to book.
 
@@ -30,6 +30,6 @@ Select **Book resources (Preview)** to let the system find the optimal resources
 
 ### Optimization the schedule of a singe resource
 
-After a resource's planned schedule has changed due to cancellations or emergency work, you can use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. For more information, see [Single resource optimization with Resource Scheduling Optimization](../../field-service/rso-single-resource-optimization.md).
+After a resource's planned schedule has changed due to cancellations or emergency work, you can use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. For more information, see [Single resource optimization with Resource Scheduling Optimization](rso-single-resource-optimization.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
