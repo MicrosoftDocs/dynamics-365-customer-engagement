@@ -2,7 +2,6 @@
 title: Understand the up next widget on records
 description: Understand on how to use the up next widget to do activities on your records through sales accelerator.
 ms.date: 10/10/2023
-ms.topic: article
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 

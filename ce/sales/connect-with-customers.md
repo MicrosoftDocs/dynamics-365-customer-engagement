@@ -2,7 +2,6 @@
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
 ms.date: 10/10/2023
-ms.topic: article
 author: udaykirang
 ms.author: udag
 ms.topic: how-to 
