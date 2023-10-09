@@ -40,7 +40,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 > [!IMPORTANT]
-> To use the omnichannel capabilities, you'll need a higher network bandwidth. For more information, see: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> To use the omnichannel capabilities, you'll need a higher network bandwidth. For more information, see: [Omnichannel for Customer Service system requirements](../system-requirements-omnichannel.md)
 
 ### Limitations
 
@@ -48,7 +48,7 @@ For more requirements, see [Model-driven app requirements](/power-platform/admin
 
 ### See also
 
-[Introduction to Customer Service workspace](csw-overview.md)  
+[Introduction to Customer Service workspace](../csw-overview.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
