@@ -1,10 +1,12 @@
 ---
-title: "Understand the up next widget on records"
-description: "Understand on how to use the up next widget to do activities on your records through sales accelerator."
-ms.date: 07/07/2023
+title: Understand the up next widget on records
+description: Understand on how to use the up next widget to do activities on your records through sales accelerator.
+ms.date: 10/10/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.topic: how-to 
+ms.custom: bap-template
 ---
 
 # Understand the Up next widget
@@ -47,6 +49,12 @@ The following image shows an example of the **Up next** widget.
 
      > [!div class="mx-imgBorder"]
      > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
+
+## Activity ownership     
+
+Ownership of the activities depends on to whom the record is assigned. When ownership changes, the activities automatically get reassigned to the new owner. However, the previous owner must complete any pending activities that existed before the record was assigned to the new owner. 
+
+Also, the owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
 
 ## Add manual activities to records
 
