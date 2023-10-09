@@ -83,7 +83,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 > - The custom channels that use Direct Line support different types of file attachments, but it's up to the client to implement them.
 > - For LINE inbound and outbound messages, when a GIF image is sent, the recipient will receive a JPG image.
 > - For WhatsApp messages, when a customer sends an attachment in document format (for example, a DOCX, XLSX, or TXT file), the agent will receive the attachment name as message text. We recommend converting documents to PDF format before sending them as attachments.
-> - For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. For details, see [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://www.twilio.com/en-us/changelog/extended-notice-and-update-security-changes-http-auth-for-media).
+> - For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
 ## Support for emojis
 
