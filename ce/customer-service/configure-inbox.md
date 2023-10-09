@@ -27,6 +27,7 @@ The following channels are supported in the inbox:
 - Case
 - Email
 - Voice
+- Unified routing enabled records
 
 The following asynchronized channels are available in the conversation inbox.
 
@@ -124,6 +125,8 @@ To configure multiple views for the inbox, complete the following steps.
       :::image type="content" source="media/advanced-settings-inbox.png" alt-text="Advanced setting option on the Add a new view page for inbox."::: 
 
 1. Select **Save**.
+
+If you've configured new views or migrated existing views for unified routing enabled records, you might see a message that the read/unread functionality isn't supported. You can open and save the view again to ensure that the read/unread functionality is supported.
 
 ### Simple settings
 

@@ -20,6 +20,7 @@ Depending on how your inbox configured, you may see any of the following channel
 
 - Live chat
 - Asynchronous chat
+- Records
 - Case
 - Email
 - Voice
