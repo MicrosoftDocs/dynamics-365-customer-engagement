@@ -49,11 +49,11 @@ Copilot helps you [prepare for your upcoming meetings](use-sales-copilot.md#prep
 
 ### Email assistance
 
-Copilot can help you [compose professional-looking emails](compose-send-email-copilot.md), [summarize email conversations to add to your customer notes](view-copy-email-summary.md), and get reminders to [follow up on emails you haven't replied to](use-sales-copilot.md#show-emails-that-are-not-replied).
+Copilot can help you [compose professional-looking emails](compose-send-email-copilot.md), [summarize email conversations to add to your customer notes](view-copy-email-summary.md), and get reminders to [follow up on emails you haven't replied to](use-sales-copilot.md#show-emails-you-havent-replied-to).
 
 ### News updates
 
-Copilot news updates help you stay current with the [latest news about your accounts](use-sales-copilot.md#show-latest-news-for-an-account). News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get you the latest news related to an account and it returns a list of articles that feature or mention the account, curated by Bing. As with any content that's provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer.
+Copilot news updates help you stay current with the [latest news about your accounts](use-sales-copilot.md#show-the-latest-news-about-an-account). News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get you the latest news related to an account and it returns a list of articles that feature or mention the account, curated by Bing. As with any content that's provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer.
 
 ## Region availability and languages supported
 
