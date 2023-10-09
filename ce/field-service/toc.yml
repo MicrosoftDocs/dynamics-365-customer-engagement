@@ -187,7 +187,7 @@ items:
     href: universal-resource-scheduling-for-field-service.md
   - name: Schedule board
     items:
-      - name: Next-generation schedule board experience
+      - name: Use the schedule board
         href: work-with-schedule-board.md
       - name: Schedule board tab settings
         href: schedule-board-tab-settings.md
