@@ -126,7 +126,8 @@ To configure multiple views for the inbox, complete the following steps.
 
 1. Select **Save**.
 
-If you've configured new views or migrated existing views for unified routing enabled records, you might see a message that the read/unread functionality isn't supported. You can open and save the view again to ensure that the read/unread functionality is supported.
+> [!IMPORTANT]
+> If you've configured new views or migrated existing views for unified routing enabled records, you might see a message that the read/unread functionality isn't supported. You can open and save the view again to ensure that the read/unread functionality is supported.
 
 ### Simple settings
 
@@ -138,6 +139,7 @@ The following simple settings are available out of the box for the record types.
 | Chat | - Assigned <br> - Unassigned <br> - Resolved|
 | Case | - Cases assigned to me <br> - Cases in my team(s) <br> - Case(s) in my queue(s) |
 | Voicemail | - Assigned <br> - Unassigned <br> - Resolved |
+| Unified Routing enabled records | - Assigned <br> - Open <br> - Closed |
 
 ## Real-time translation
 
