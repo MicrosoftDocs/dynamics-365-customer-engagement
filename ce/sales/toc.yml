@@ -439,7 +439,7 @@
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
               href: add-sales-accelerator-sitemap-entry-custom-app.md
-        - name: Sequences
+        - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
             - name: Create and activate a sequence
@@ -525,22 +525,22 @@
               href: manage-access-view-insights.md
             - name: Configure assignment rule to auto assign insights
               href: configure-assignment-rule-auto-assign-insights.md
-        - name: Manage segments
+        - name: Group records by segment
           href: manage-segments.md
           items:
             - name: Create and activate a segment
               href: create-and-activate-a-segment.md
-            - name: Connect a segment to sequence
+            - name: Connect a segment to a sequence
               href: connect-a-segment-to-sequence.md
             - name: View details of a segment
               href: view-details-segment.md
             - name: Edit a segment
               href: edit-a-segment.md
-            - name: Prioritize segment
+            - name: Prioritize segments
               href: prioritize-segment.md
             - name: Delete or deactivate a segment
               href: delete-deactivate-a-segment.md
-        - name: Manage assignment rules
+        - name: Automatically assign leads and opportunities
           href: create-manage-assignment-rules.md
           items:
             - name: Create and activate an assignment rule
