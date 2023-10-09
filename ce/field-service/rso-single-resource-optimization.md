@@ -27,7 +27,7 @@ To optimize an individual resource's schedule, a dispatcher can manually run sin
 ## Prerequisites
 
 - Dynamics 365 Field Service version 8.8.99.10 or newer.
-- Resource scheduling optimization version 3.40.0.500 or newer.
+- Resource scheduling optimization version 3.4.0.623 or newer.
 - **Optimize Schedules** is set to **Yes** for the bookable resource you want to run single resource optimization for.
 
 ## Step 1: Set up a goal
