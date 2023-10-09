@@ -101,21 +101,18 @@ Do the following for the channel in which you want to create custom automated me
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected| When the customer calls and wait time is long.|
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.|
 
-## Automated messages best practices
+## Best practices for using automated messages 
 
-You can follow the specified best practices for automated messages in the voice channel to ensure clear and effective communication:
+Use the following best practices when you configure automated messages for the voice channel:
 
-- When **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice** are enabled, ensure that you enable **Greeting Message for Async Channels and Voice** to prevent the accumulation of similar messages in one queue.
+- Make sure that you configure concise messages when you use automated and custom messages because lengthy messages might mean more time that an agent takes to connect with your customer.
 
-- When **Agent assigned to a conversation** is enabled by default, make sure to switch to **Greeting Message for Async Channels and Voice**.
+- If you have configured **Agent assigned to a conversation**, then consider configuring **Greeting Message for Async Channels and Voice** instead.
 
-- Unless it's for critical business requirements, ensure that you disable the average wait time including:
-  - **Average wait time for customers: Hours**
-  - **Average wait time for customers: Hours and minutes**
-  - **Average wait time for customers: Minutes**
+- If you have configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** only to avoid accumulating messages in the queue.
+
+- Unless your business requires, consider disabling the messages that announce the average wait times.
  
-- Ensure that automated and customized messages are concise, as the message length directly affects the time taken for an agent to connect with the customer.
-
 ### Add custom automated messages in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
