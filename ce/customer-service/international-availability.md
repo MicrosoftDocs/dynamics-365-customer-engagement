@@ -1,10 +1,17 @@
 ---
-title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
-description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 12/02/2022
-ms.topic: article
+title: International availability of Omnichannel for Customer Service
+description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
+ms.date: 10/09/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
+ms.collection:
+ms.reviewer:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/09/2023
 ---
 # International availability of Omnichannel for Customer Service
 
@@ -23,45 +30,24 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 >
 > In the Europe and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Norway, Sweden, and Singapore.
 
-### October 2022 update
+See the following table for the availability of the channels in the supported geographical regions.
 
-The October 2022 update of Omnichannel for Customer Service is available in the following regions.
-
-|   Geographic location                     |   Date             |
-|-------------------------------------------|--------------------|
-| Asia Pacific                              |  October 14, 2022  |
-| Australia                                 |  October 14, 2022  |
-| Canada                                    |  October 01, 2022  |
-| Europe                                    |  October 17, 2022  |
-| France                                    |  October 10, 2022  |
-| Germany                                   |  October 01, 2022  |
-| India                                     |  October 01, 2022  |
-| Japan                                     |  October 14, 2022  |
-| North America                             |  October 23, 2022  |
-| South America                             |  October 10, 2022  |
-| Switzerland                               |  October 01, 2022  |
-| United Arab Emirates (UAE)                |  October 10, 2022  |
-| United Kingdom                            |  October 14, 2022  |
-
-### April 2022 update
-
-The April 2022 update of Omnichannel for Customer Service is available in the following regions.
-
-|   Geographic location                     |   Date             |
-|-------------------------------------------|--------------------|
-| Asia Pacific                              |   April 09, 2022   |
-| Australia                                 |   April 09, 2022   |
-| Canada                                    |   April 02, 2022   |
-| Europe                                    |    April 16, 2022  |
-| France                                    |   April 02, 2022   |
-| Germany                                   |   April 02, 2022   |
-| India                                     |   April 02, 2022   |
-| Japan                                     |   April 09, 2022   |
-| North America                             |    April 23, 2022  |
-| South America                             |   April 02, 2022   |
-| Switzerland                               |   April 02, 2022   |
-| United Arab Emirates (UAE)                |   April 09, 2022   |
-| United Kingdom                            |   April 09, 2022   |
+| Region| All messaging channels | Microsoft Teams | Apple Messages for Business | Google’s Business Messages |
+|-------|------------------------|-----------------|-----------------------------|----------------------------|
+| Asia Pacific|	✔ |	✔ |	✔ |	✔ |
+| Australia | ✔ | ✔ | ✔ | ✔ |
+| Canada | ✔ | ✔ | ✔ |	✔ |
+| Europe |	✔ | ✔ | ✔ | ✔ |
+| France | ✔ | ✔ | 	✔ | ✔ |
+| Germany |	✔ | ✔ |	✔ |	✔ |
+| Government Community Cloud (GCC) | ✔ | ✖ | ✖ | ✖ |
+| India | ✔ | ✔ | ✔ | ✔ |
+| Japan |	✔ |	✔ | ✔ |	✔ |
+| North America | ✔ | ✔ | ✔ | ✔ |
+| South America | ✔ | ✔ | ✔ | ✔ |
+| Switzerland |	✔ |	✔ |	✔ |	✔ |
+| United Arab Emirates (UAE) | ✔ | ✔	| ✔ | ✔ |
+| United Kingdom | ✔ | 	✔ |	✔ |	✔ |
 
 ## Language availability
 
