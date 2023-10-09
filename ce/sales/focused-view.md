@@ -23,8 +23,6 @@ The focused view allows you to view and manage account, contact, lead, and oppor
 
 The focused view is similar to the Sales accelerator workspace view. [Learn how to prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md).
 
-You can't customize how work items are shown in the focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in the focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
-
 ## Open the focused view  
 
 The focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens.
