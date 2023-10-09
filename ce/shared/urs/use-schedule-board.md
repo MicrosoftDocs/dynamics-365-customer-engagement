@@ -10,11 +10,11 @@ Apply filters to define which resources show on the schedule board. You can [con
 
 Filter values are pulled from the *Bookable Resource* entity.
 
-Select the three dots (**...**) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
+Select the ellipsis (&hellip;) > **Select Resources** to choose a subset of all resources for the schedule board. Applying filters then only filters the selected resources.
 
-To make the applied filter configuration the default for all schedule boards, select **...** > **Save as default**.
+To make the applied filter configuration the default for all schedule boards, select **&hellip;** > **Save as default**.
 
-Select **Reset to default** to remove all applied filters. The list of selected resources won't reset unless you remove the resources from the selection.
+Select **Reset to default** to remove all applied filters. The list of selected resources resets when you remove the resources from the selection.
 
 You always have to select **Apply** to see the changes on the schedule board.
 
@@ -24,7 +24,7 @@ Switch between hourly, daily, weekly, and monthly view on the board. Choose the 
 
 ### View type
 
-- **Gantt**: A Gantt chart is a type of bar chart that illustrates a schedule. It is commonly used in show activities displayed against time. Each activity is represented by a bar. The position and length of the bar reflects the start date, duration and end date of the activity.
+- **Gantt**: A Gantt chart is a type of bar chart that illustrates a schedule. It's commonly used in show activities displayed against time. The position and length of an activity reflects the start date, duration, and end date.
 - **List**: Shows resources in a list. Expanding a resource shows the selected time granularity in the selected time frame. You can change columns in the list.
 
 ### Date range
@@ -37,146 +37,95 @@ Book a requirement manually. Select a requirement and a resource, start date/tim
 
 ### Move bookings
 
-Select (**...**) > **Move bookings** to move bookings of a specific status to a different day. Moving bookings preserves times and other parameters.
+Select **Show more schedule board actions** (&hellip;) > **Move bookings** to move bookings of a specific status to a different day. Moving bookings preserves times and other parameters.
 
 ### Print schedule board
 
-Select (**...**) > **Print schdedule board** to open the print settings where you can set schedule range, pagination, paper format, and orientation. Select **Print** open the system print options.
+Select **Show more schedule board actions** (&hellip;) > **Print schedule board** to open the print settings where you can set schedule range, pagination, paper format, and orientation. Select **Print** open the system print options.
 
-## Resource cards
+### Contextual details
 
-Right-click a resource's name and then choose **View Resource Card** to see more, like the resource's skill set (characteristics) and roles. From here, you can also initiate a message, email, or phone call.
+To see more details about the selected booking, resource, or requirement, open the details pane.
 
-## Map view of requirements and resources
+### Booking alerts
 
-Select the map icon in the upper right of the schedule board to display the resources and requirements on a map.
+To see your active booking alerts or create new alert, select the bell icon. For more information, see [Create and view booking alerts](../../common-scheduler/booking-alert.md)
+
+### Map view
+
+To see resources and requirements on a map, select the **Map view** icon.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board with map view.](../../field-service/media/Schedule-Board-New-Map-02.png)
 
-After expanding the map view, select a resource's name to see their route. The numbers indicate the order the resource is scheduled to arrive at each job (requirement) location.
+On the map view, select a resource to see their planned route. The numbers indicate in which order requirements are scheduled to a resource.
 
-At a zoomed-out view of the map, the requirements and resources are grouped together, and you can see a count of requirements and resources. This count helps you quickly identify a geographical area with more unscheduled jobs, and then start scheduling the jobs to nearest resources. 
+Change the date to see the map for a different day. Zoom out of the map, to see grouped requirements and resources. Quickly identify areas with unscheduled jobs and start scheduling these jobs to the nearest resources. Select **View settings** to set which items show on the map.
 
-You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. 
+You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route.
 
-You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route. 
+### Refresh board
 
-## Find availability (schedule assistant)
+Select **Refresh** to manually refresh the schedule board.
 
-The schedule assistant is also available in the new schedule board experience. By selecting a booking requirement from the bottom panel, and then **Find availability**, you'll trigger the schedule assistant. 
+### Focus mode
 
-From the schedule assistant, you'll see available resources and can plan accordingly for the work.
+Focus on the details of the schedule board and hide all other navigation items.
 
-## Move bookings to a new resource, a new start date and time, or both
+Select the **Focus mode** icon to change to full screen mode.
 
-The new schedule board provides an easy way to reassign and reschedule bookings in the same action. Bookings can be moved to resources on the current schedule board tab or to resources on other schedule board tabs.
+### Legend
 
-### Move a booking to a resource on the current schedule board tab, or change the start date/time, or both
+View all color codes and icons for  status, priority, timeline, and travel time. Select the ellipsis (&hellip;) > **Legend**.
 
-Right-click on a booking and select **Move to**.
+### Board view settings
 
-Then reassign this booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. 
+Select the ellipsis (&hellip;) > **Scheduler settings** to open the board view settings. For more information about board view settings, see [Configure the schedule board tab settings](../../common-scheduler/schedule-board-tab-settings.md).
 
-Select **Update** to apply the changes.
+## Resource list
 
-### Move a booking to a resource on a different schedule board tab, or change the start date or time, or both
+Right-click a resource's name and to show more options about the resource.
 
-Right-click on a booking and select **Move to**. Select the filter icon in the resource field and change the filter from *Resources on this tab* to *All resources*.
+- Choose **View resource card** to see details like the resource's skills and roles. From here, you can also initiate a message, email, or phone call.
+- Choose **Get driving directions** to get the driving directions for a work day.
 
-Now you can reassign this booking to any resource on any tab, and change the start date and start time of the booking. Select **Update** to apply the changes.
+## Requirement pane
 
-## Booking details panel
+Select a single requirement from the requirement pane and select **Find availability** to launch the [schedule assistant](../../common-scheduler/schedule-assistant.md).
 
-To see more details about a booking on the schedule board, open the details panel by selecting the details icon, as seen in the following screenshot. 
+The schedule assistant lists available and matching resources that you can book for the requirement.
 
+## Bookings on the timeline
 
-## Booking alerts panel
+You can move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
-To see a list of active booking alerts, select the **Bell** icon, as seen in the following screenshot.
-
-From the booking alerts panel, you can also create a new booking alert, close an existing booking alert, or dismiss all booking alerts. See the following screenshot for reference.
-
-## Full screen mode
-
-Full screen mode on the new schedule board makes it easier for dispatchers and schedulers to focus on the details and make the most of their screen space.
-
-Select the **Expand** icon in the top-right of the new schedule board to enter into full screen mode.
-
-## Get driving directions
-
-From the new schedule board, you can get driving directions for a frontline worker between their last job site to their next job site.
-
-To get driving directions, right-click on the booking, and select **Get driving directions**.
-
-A map view will open, showing directions between the frontline worker's last job site to the next.
-
-You can also get driving directions for a frontline worker's entire day of bookings. Right-click on the resource in the resource list, and select **Get driving directions**.
-
-Select the day for which you'd like to generate driving directions for the selected resource.
-
-A map view will open showing the day's worth of bookings for the selected resource.
-
-## Edit multi-day bookings
-
-Dispatchers can right-click a multi-day booking, select edit and change how many hours are assigned for each day, week, or month. 
+Right-click the booking on th schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
 
 ## Create a new schedule board tab
 
-To create a new schedule board tab, select the **[+] icon** in the tab list on the schedule board, as seen in the following screenshot.
+To create a new schedule board tab, select **New schedule board tab** (+) in the tab list on the schedule board.
 
-Fill in the relevant details about your new schedule board tab, and then **Add** when done.
+Enter the [relevant details about your new schedule board](../../common-scheduler/schedule-board-tab-settings.md) and select **Add**.
 
-Rearranging schedule board tabs is currently not supported.
+<!-- move to FS topic stub-->
 
-## Custom web resource panel
+## Automated scheduling with Resource Scheduling Optimization
 
-Use the Schedule Board **Client Extension Framework** to add custom web resources to the schedule board, which could be HTML, JavaScript, a custom app built on Power Apps, and so on. 
+The following features are only available for organizations using the [Resource Scheduling Optimization Add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md).
 
-To see a custom web resource, select the web resource icon in the menu, as seen in the following screenshot.
+The default optimization goal is the default for optimization requests. You can [change the optimization goal for each schedule board](../../common-scheduler/schedule-board-tab-settings.md).
 
-## Schedule board settings
+### Get resource suggestions or book them directly
 
-Use the **Gear icon** to open the schedule board settings panel on the new schedule board.
-
-## Automated Scheduling (Resource Scheduling Optimization)
-
-> [!Note]
-> The following features like **suggest resources, book resources, single resource optimization, and optimization goals** are only available for organizations using [Resource Scheduling Optimization](../../field-service/rso-overview.md).
-
-Organizations using [Resource Scheduling Optimization](../../field-service/rso-overview.md) will find more capabilities in the schedule board. 
-
-### Suggest resources
+In the requirements pane, select one or more requirements.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the suggest resources option.](../../field-service/media/scheduling-new-suggest-resources.png)
 
-Selecting **Suggest resources** will display recommended resources in the right panel for the dispatcher to book.
+Select **Suggest resources (Preview)** to get suggestions from Resource Scheduling Optimization about which resources to book.
 
-### Book resources
+Select **Book resources (Preview)** to let the system find the optimal resources and book directly.
 
-Selecting **Book resources** will find the most optimal resources and book them without further actions from the dispatcher.
+### Optimization the schedule of a singe resource
 
-### Single Resource Optimization 
-
-Sometimes you might need to optimize only a single resource's schedule, rather than a set of available resources. Single resource optimization provides a quick way to reoptimize a resource's schedule and travel route after schedule changes have occurred during the day - this functionality is now available on the new schedule board. You can right-click a resource from any schedule board view and select Optimize Schedule.
-
-### Optimization goals
-
-The schedule board supports optimization goals. After selecting suggested resources, dispatchers can edit the optimization goal, which dictates how resources are recommended.
-
-There's a default optimization goal that applies to the entire system and serves as the default for optimization requests. Dispatchers can also edit the default optimization goal for each schedule board. Finally, dispatchers can edit the optimization goal for a single optimization request by selecting **Suggest Resources**. 
-
-### Add new schedule board to custom sitemap area
-
-When using a custom sitemap or an app module, you'll need to update the sitemap to consume the new schedule board preview.
-
-```<SubArea Id="msdyn_ScheduleBoardSubArea" ResourceId="SitemapDesigner.NewSubArea" VectorIcon="$webresource:msdyn_/Icons/SVG/Calendar.svg" Url="/main.aspx?pagetype=entitylist&amp;etn=msdyn_scheduleboardsetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">```
-
-**URL:**
-
-```/main.aspx?pagetype=entitylist&etn=msdyn_scheduleboardsetting```
-
-**ID:**
-
-```msdyn_scheduleboardtoggle```
+After a resource's planned schedule has changed due to cancellations or emergency work, you can use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. For more information, see [Single resource optimization with Resource Scheduling Optimization](../../field-service/rso-single-resource-optimization.md).
