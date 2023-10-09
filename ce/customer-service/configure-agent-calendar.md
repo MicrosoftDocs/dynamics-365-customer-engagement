@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]![image](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/assets/52931214/c96cfd4a-2f8d-4389-9d00-4db8291fe24a)
 
-As an administrator, you can help agents in your organization plan their work hours by viewing their work schedules at a glance. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, non-working hours, breaks, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views. It also has an agenda view that provides a list-type view of the agent's schedule. 
+As an administrator, you can help agents in your organization plan their work hours by viewing their work schedules at a glance. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly, and monthly views. It also has an agenda view that provides a list-type view of the agent's schedule. 
 
 ### Calendar view
 
@@ -21,7 +21,7 @@ As an administrator, you can help agents in your organization plan their work ho
 
 ## Prerequisites
 
-To enable the calendar view for agents, you must meet the following prerequistes:
+To enable the calendar view for agents, you must meet the following prerequisites:
 
 - You must have the System Administrator role.
 - You must have a third-party adapter that can import your calendar bookings.
