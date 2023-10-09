@@ -127,8 +127,8 @@ additionalContent:
         text: Schedule assistant
       - url: quick-scheduling.md
         text: Quick scheduling
-      - url: configure-schedule-board.md
-        text: Use and configure the schedule board
+      - url: work-with-schedule-board.md
+        text: Use the schedule board
     - title: Mobile app
       links:
       - url: mobile-power-app-overview.md

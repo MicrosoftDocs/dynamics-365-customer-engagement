@@ -48,7 +48,7 @@ Before a work order can be scheduled, a [**Bookable Resource**](set-up-bookable-
 
 When it's time to schedule a work order, you assign a requirement to a resource. This creates a **Booking**. You can think of a booking as a scheduled time slot for a specific resource. Requirements can be scheduled in several ways:
 
-- [Manually on the schedule board](schedule-work-order.md)
+- [Manually on the schedule board](work-with-work-order.md)
 - [With the schedule assistant](schedule-assistant.md)
 - [Resource Scheduling Optimization](rso-overview.md)
 

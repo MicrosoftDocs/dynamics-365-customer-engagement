@@ -181,6 +181,6 @@ Scheduling is based on resource availability, skills, customer promised time win
 1. Make the necessary changes and select **Save**. Within the details of the work order, you can also:
 
    - Open a map to locate the service address
-   - [Open the schedule board in Field Service](configure-schedule-board.md#overview-of-the-schedule-board)
+   - [Open the schedule board in Field Service](work-with-schedule-board.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
