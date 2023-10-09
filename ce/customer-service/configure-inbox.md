@@ -126,7 +126,7 @@ To configure multiple views for the inbox, complete the following steps.
 
 1. Select **Save**.
 
-> [!IMPORTANT]
+> [!NOTE]
 > If you've configured new views or migrated existing views for unified routing enabled records, you might see a message that the read/unread functionality isn't supported. You can open and save the view again to ensure that the read/unread functionality is supported.
 
 ### Simple settings
