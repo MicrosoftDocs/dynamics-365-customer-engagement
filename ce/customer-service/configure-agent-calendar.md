@@ -9,7 +9,7 @@ ms.date: 10/31/2023
 ms.custom: bap-template
 ---
 
-# Configure the agent calendar view (preview)
+# Configure the agent calendar view
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
