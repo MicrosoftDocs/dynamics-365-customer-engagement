@@ -1,6 +1,6 @@
 ---
 title: Verify license compliance using the license checker
-description: Verify license compliance by using the Power Apps solution checker to check for Dynamics 365 entities, operations, and controls that require a Dynamics 365 Sales license.
+description: Verify license compliance by using the Power Apps solution checker to check for Dynamics 365 entities, operations, and controls that require a Dynamics 365 license.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -18,7 +18,7 @@ ms.custom:
 
 You can now use the Power Apps solution checker to verify and ensure that you have the appropriate license for the Dynamics 365 entities, operations, and controls that you're using. This feature provides an added level of clarity and accountability for businesses using Dynamics 365. It ensures that customers are paying for what they're using and helps avoid any potential compliance issues.
 
-For more information on the Dynamics 365 sales licenses and entitlements, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
+For more information on the Dynamics 365 licenses and entitlements, see the [Licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).
 
 ## How to use the license checker
 
@@ -53,7 +53,7 @@ The following list includes controls that that require a Dynamics 365 Sales lice
 
 
 
-|Plugin  |Control Name  |
+|Control ID  |Control Name  |
 |---------|---------|
 |MscrmControls.AcceleratedSales.AnchorShellControl     | Sales accelerator         |
 |MscrmControls.Sales.DealManagerWorkspace.DealManagerWorkspace     | Pipeline view        |
