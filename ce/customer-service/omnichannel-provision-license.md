@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 08/01/2023
+ms.date: 10/04/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -154,7 +154,7 @@ After the Omnichannel for Customer Service application is successfully provision
 
 ### Troubleshoot provisioning
 
-[Instance is not available to select on the provisioning application](troubleshoot-omnichannel-customer-service.md#provision)
+[Instance is not available to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel)
 
 ### See also
 
