@@ -183,13 +183,20 @@ Time entries help track the time that technicians spend on various stages of a w
 | Time Entry Generation Strategy | Enable the system to automatically generate time entries based on booking timestamps. If the setting is empty or set to *Manual*, the system expects manual time entries. Regardless of the setting, you can always create time entries manually.|
 |Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
-## Remote Assist settings
+## Mixed Reality settings
 
 Change Field Service settings for Dynamics 365 Remote Assist. For more information, go to [Collaborate in mixed reality](remote-assist-hololens.md).
 
 |  Option  |  Description  |  
 |-------------|-----------------|  
 | Disable Booking Status Changes  |   Specify if users can change a booking status in Dynamics 365 Remote Assist on HoloLens. |
+| Assign Mixed Reality Security roles  |   Adds privileges for Dynamics 365 Guides and Dynamics 365 Remote Assist to the default Field Service security roles. Disabling the setting removes the privileges from default security roles. Refer to the following table to understand how roles map across apps. To [enable custom security roles](/power-platform/admin/security-roles-privileges) to access mixed reality apps, review the default security roles for Guides or Remote Assist to identify privileges that your custom security roles need. |
+
+|Field Service |Guides  |Remote Assist  |
+|---------|---------|---------|
+|Field Service - Resource    |  Restricted Operator, Basic User       |  Remote Assist - App User, Basic User       |
+|Field Service - Dispatcher     | Restricted Operator, Basic User      |  Remote Assist - Administrator, Basic User       |
+|Field Service - Administrator     |  Author, Basic User       | Remote Assist - Administrator, Basic User        |
 
 ## Inspection settings
 
