@@ -1,19 +1,17 @@
 ---
-title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens (contains video) | MicrosoftDocs"
+title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.date: 01/14/2021
-
+ms.date: 10/10/2023
 ms.topic: article
 author: josephshum-msft
 ms.author: jshum
 ---
 
+# Collaborate in mixed reality with Field Service and Remote Assist
 
-# Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens
+If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers can see their Field Service bookings and quickly call a remote collaborator using Dynamics 365 Remote Assist.
 
-If your organization uses Dynamics 365 Field Service to manage field service work orders, your first-line workers using Dynamics 365 Remote Assist on HoloLens can see their Field Service bookings and quickly call the remote collaborator listed in the booking's **Support Contact** field. 
-
-By integrating Field Service and Dynamics 365 Remote Assist, you can: 
+By integrating Field Service and Dynamics 365 Remote Assist, you can:
 
 - Launch Dynamics 365 Remote Assist mobile directly from a Field Service Mobile booking via deep links.
 - See relevant work order information.
@@ -29,21 +27,15 @@ For a guided walkthrough, see the following video.
 
 Before you begin, make sure you have the following set-up:
 
-- A Microsoft Azure tenant with a Dynamics 365 subscription **and** a Dynamics 365 Remote Assist subscription. Both are required—Dynamics 365 Remote Assist is not included in any Dynamics 365 bundle.
-
-  > [!NOTE]  
-  > The tenant can have more than one Dynamics 365 instance. Dynamics 365 Remote Assist has the option to select an instance from within the app.
-
-- You must have admin access to add or update the Dynamics 365 tenant instance.
+- A Microsoft Azure tenant with a Dynamics 365 Field Service subscription.
 
 - The Dynamics 365 instance must have the Dynamics 365 Field Service app installed, and it must include the **My Bookings for Today** view. To make sure this view is installed, we recommend Field Service version 8.2 or later. This article describes how to make sure you have the correct version and view.
     -  Note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of Field Service, you may see either name. The functionality remains the same regardless of the view name.
-- The tenant must have at least two user accounts - one for the technician (front-line worker) and another for the remote collaborator.
+- The tenant must have at least two user accounts - one for the technician (frontline worker) and another for the remote collaborator.
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Dynamics 365 Remote Assist license includes Teams. 
 
 - Field Service Mobile (only applicable if technicians and front line workers are not using HoloLens headsets). 
-
 
 ## Set up technician user
 
@@ -192,6 +184,12 @@ Technicians can:
 1. Create and schedule a work order.
 
      - The booking will not appear in the Dynamics 365 pane in Dynamics 365 Remote Assist unless the booking status is **In progress** and the related bookable resource has a user record that matches the HoloLens user.
+
+## Access the Remote Assist calls dashboard from Field Service
+
+Field Service provides a quick [access to the calls dashboard](/dynamics365/mixed-reality/remote-assist/calls-dashboard).
+
+In the **Service** area, under **Mixed Reality Apps**, select **Calls dashboard** to open the dashboard.
 
 ## Configuration considerations
 
