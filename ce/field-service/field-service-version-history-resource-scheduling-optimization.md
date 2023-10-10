@@ -12,7 +12,7 @@ ms.author: anilmur
 
 ## Release schedule
 
-When a new version of Dynamics 365 Field Service Resource Scheduling Optimization releases, it becomes available in different geographic regions at different times. Use the table below to see when the next release will become available in the region of your environment.
+When a new version of the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service releases, it becomes available in different geographic regions at different times. The following table shows, when the next release will become available in the region of your environment.
 
 For information about other updates to Field Service, visit the [Dynamics 365 release plans](/dynamics365/release-plans/).
 For information about older versions, see [Version history archive](version-history-archive.md#resource-scheduling-optimization-add-in).
@@ -51,22 +51,23 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.623
 
- - This release introduces two new features in Resource Scheduling Optimization:
-   - Support for optimizing [multi-day requirements](rso-multi-day.md)
-   - When optimizing a single resource's schedule, [additional requirements are considered](rso-single-resource-optimization.md) along with their scheduled bookings.
+This release introduces two new features:
+
+- Support for optimizing [multi-day requirements](rso-multi-day.md).
+- When schedulers optimize a single resource's schedule, [the system considers additional requirements](rso-single-resource-optimization.md) and their scheduled bookings.
 
 ## 3.4.0.495
 
- - This release is the same as 3.4.0.459, with a more efficient solution delivery mechanism. 
-   
+This release is the same as 3.4.0.459, with a more efficient solution delivery mechanism.
+
 ## 3.4.0.459
 
- - Bug fix: Addressed issue where resource schedules were incorrectly ignored when there is a booking overlapping with optimization range start or end time.
+Bug fix: Addressed issue where resource schedules were incorrectly ignored when there's a booking overlapping with optimization range start or end time.
 
 ## 3.4.0.254
 
 - Bug fix: Addressed an issue with using the Optimization panel in [Single Resource Optimizations](/dynamics365/field-service/single-resource-optimization#run-after-making-changes-to-defaults)
-- Behavior change: We are changing the behavior of how Resource Scheduling Optimization handles locks on bookings. Currently, if an optimization schedule is running, it may apply a lock to the bookings, which prevents a user from being able to delete the booking via Schedule Board. The user would be required to manually unlock the booking before deleting it. With this release, a request to delete a booking by a Schedule Board user will automatically override any locking by Resource Scheduling Optimization.
+- Behavior change: We're changing the behavior of how Resource Scheduling Optimization handles locks on bookings. Currently, if an optimization schedule is running, it might lock bookings, which prevents a user from being able to delete the booking via Schedule Board. The user would be required to manually unlock the booking before deleting it. With this release, a request to delete a booking by a schedule board user overrides any locking by Resource Scheduling Optimization.
 
 ## 3.4.0.180
 
@@ -82,7 +83,6 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.8
 
-- Resource Scheduling Optimization always honors locked bookings and will no longer overlap them.
-
+- Resource Scheduling Optimization always honors locked bookings and no longer overlaps them.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
