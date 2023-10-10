@@ -1,12 +1,16 @@
 ---
 title: Dynamics 365 Sales license checker rules
-description: Verify and ensure that you have the appropriate Dynamics 365 license with the Dynamics 365 license checker.
+description: Identify Sales license requirements for entities, operations, and UI components/controls with the license checker.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: reference
 ms.topic: conceptual
 ms.collection: get-started
 ms.date: 10/10/2023
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/10/2023
 ---
 
 # Dynamics 365 Sales license checker rules
