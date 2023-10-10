@@ -27,7 +27,7 @@ To enable the calendar view for agents, you must have at least one of the below 
 - CSR Manager.
 - Omnichannel administrator.
 - Omnichannel supervisor.
-- You must have a third-party adapter that can import your calendar bookings.
+You must have a third-party adapter that has been configured to import agent bookings from an external system. Without an adapter in place, external bookings cannot be surfaced in **Agent Calendar** and agents will not be able to view their schedule.
 
 ## Enable the agent calendar
 
