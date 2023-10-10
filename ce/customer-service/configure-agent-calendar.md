@@ -31,7 +31,7 @@ To enable the calendar view for agents, you must have at least one of the below 
 
 ## Enable the agent calendar
 
-1. In the Customer Service admin center sitemap, select **Workforce management (preview)**.
+1. In the Customer Service admin center sitemap, select **Workforce management**.
 
 1. In the **Agent calendar (preview)** section, select **Manage**. The **Agent calendar (preview)** page is displayed.
 
