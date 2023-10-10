@@ -6,14 +6,14 @@ ms.author: lavanyakr
 ms.reviewer: reference
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 09/26/2023
+ms.date: 10/10/2023
 ---
 
 # Dynamics 365 Sales license checker rules
 
 This article describes the rules in the Power Apps solution checker that identifies the entities, operations, and UI components/controls that require a Dynamics 365 Sales license.
 
-## meta-license-sales-premium-sdkmessages
+## meta-license-sales-sdkmessages
 
 This rule runs on your solutions and checks for the plugin registrations with restricted SDK messages/operations that require a Dynamics 365 Sales license. 
 
@@ -21,7 +21,7 @@ This rule runs on your solutions and checks for the plugin registrations with re
 
 Ensure that you have the appropriate Dynamics 365 Sales license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 Sales license, see [Entities and operations that require a license](license-enforcement.md#entities-and-operations-that-require-a-license).
 
-## meta-license-sales-premium-entity-operations
+## meta-license-sales-entity-operations
 
 This rule runs on your solution and checks for the presence of entities with restricted SDK messages/operations that require a Dynamics 365 Sales license.
 
@@ -29,7 +29,7 @@ This rule runs on your solution and checks for the presence of entities with res
 
 Ensure that you have the appropriate Dynamics 365 Sales license to use the restricted operations on the entities or remove them from your solution. For a list of entities and operations that require a Dynamics 365 Sales license, see [Entities and operations that require a license](license-enforcement.md#entities-and-operations-that-require-a-license).
 
-## meta-license-sales-premium-customcontrols
+## meta-license-sales-customcontrols
 
 This rule runs on your solution and checks for the presence of the controls that require a Dynamics 365 Sales license.
 

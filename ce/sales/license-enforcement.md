@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 09/26/2023
+ms.date: 10/10/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -39,13 +39,15 @@ The following table lists entities and the corresponding operations that require
 |---------|---------|
 |lead     | QualifyLead        |
 |opportunity     |  Win, Lose, or CalculatePrice       |
-|product     |   Create      |
+|opportunityproduct     |  Create, Update, or Delete       |
 |quote     |  GenerateQuoteFromOpportunity, Revise, Win, Close, or ConvertQuoteToSalesOrder       |
+|quotedetail     |  Create, Update, or Delete   |
 |invoice     |GenerateInvoiceFromOpportunity         |
 |salesorder    |   GenerateSalesOrderFromOpportunity, Cancel, Fulfill, or  ConvertSalesOrderToInvoice      |
 |msdyn_forecast     |  Create, Update, or Delete       |
 |msdyn_forecastconfiguration     | Create, Update, or Delete        |
 |msdyn_sequence     |  Create, Update, or Delete       |
+|goal     |  Create, Update, or Delete       |
 
 ## Controls that require a license
 
