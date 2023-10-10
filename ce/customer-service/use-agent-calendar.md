@@ -10,7 +10,7 @@ ms.date: 10/31/2023
 ms.custom: bap-template 
 ---
  
-# View the agent calendar (preview)
+# View the agent calendar
 
 As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, nonwork hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
 
