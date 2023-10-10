@@ -17,6 +17,10 @@ ms.custom:
 
 As a sales manager, you can set your sellers' availability in Dynamics 365 Sales Hub to help you and your sales team plan and track time off, swap shifts with other sellers, and adjust working hours during peak seasons or for special events. Setting your sellers' availability also improves customer satisfaction and increases sales, because it lets you assign leads and opportunities to the most available and qualified sellers, avoid scheduling conflicts, and provide consistent and timely service to your customers.
 
+[If you allow them to](./wa-manage-seller-availability.md), your sellers can also [set their own availability in the sales accelerator personal settings](./personalize-sales-accelerator.md).
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+
 ## License and role requirements
 
 | Requirement type | You must have |
