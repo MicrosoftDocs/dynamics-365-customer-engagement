@@ -466,11 +466,13 @@ items:
         - name: Overnight scheduling
           href: rso-overnight-scheduling.md
         - name: Single resource optimization
-          href: single-resource-optimization.md
+          href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
     - name: Lock options for bookings
       href: booking-lock-options.md
+    - name: Multi-day requirements
+      href: rso-multi-day.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
