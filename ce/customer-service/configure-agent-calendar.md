@@ -21,7 +21,7 @@ As an administrator or a supervisor, you can help agents in your organization vi
 
 ## Prerequisites
 
-To enable the calendar view for agents, you must meet the following prerequisites:
+To enable the calendar view for agents, you must have at least one of the below roles:
 
 - You must have the System Administrator role.
 - You must have a third-party adapter that can import your calendar bookings.
