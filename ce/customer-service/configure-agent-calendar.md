@@ -33,7 +33,7 @@ You must have a third-party adapter that has been configured to import agent boo
 
 1. In the Customer Service admin center sitemap, select **Workforce management**.
 
-1. In the **Agent calendar (preview)** section, select **Manage**. The **Agent calendar (preview)** page is displayed.
+1. In the **Agent calendar** section, select **Manage**. The **Agent calendar** page is displayed.
 
    :::image type="content" source="media/agent-calendar-manage-configuration.png" alt-text="Manage option for enabling the agent calendar view.":::
 
