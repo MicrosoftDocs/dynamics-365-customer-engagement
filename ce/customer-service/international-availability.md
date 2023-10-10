@@ -1,7 +1,7 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 10/09/2023
+ms.date: 10/10/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -32,22 +32,24 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 See the following table for the availability of the channels in the supported geographical regions.
 
-| Region| All messaging channels | Microsoft Teams | Apple Messages for Business | Google’s Business Messages |
-|-------|------------------------|-----------------|-----------------------------|----------------------------|
-| Asia Pacific|	✔ |	✔ |	✔ |	✔ |
-| Australia | ✔ | ✔ | ✔ | ✔ |
-| Canada | ✔ | ✔ | ✔ |	✔ |
-| Europe |	✔ | ✔ | ✔ | ✔ |
-| France | ✔ | ✔ | 	✔ | ✔ |
-| Germany |	✔ | ✔ |	✔ |	✔ |
-| Government Community Cloud (GCC) | ✔ | ✖ | ✖ | ✖ |
-| India | ✔ | ✔ | ✔ | ✔ |
-| Japan |	✔ |	✔ | ✔ |	✔ |
-| North America | ✔ | ✔ | ✔ | ✔ |
-| South America | ✔ | ✔ | ✔ | ✔ |
-| Switzerland |	✔ |	✔ |	✔ |	✔ |
-| United Arab Emirates (UAE) | ✔ | ✔	| ✔ | ✔ |
-| United Kingdom | ✔ | 	✔ |	✔ |	✔ |
+| Region| All messaging channels |
+|-------|------------------------|
+| Asia Pacific|	✔ |
+| Australia | ✔ |
+| Canada | ✔ |
+| Europe |	✔ |
+| France | ✔ |
+| Germany |	✔ |
+| Government Community Cloud (GCC)<sup>1</sup> | ✔ |
+| India | ✔ |
+| Japan |	✔ |
+| North America | ✔ |
+| South America | ✔ |
+| Switzerland |	✔ |
+| United Arab Emirates (UAE) | ✔ |
+| United Kingdom | ✔ |
+
+<sup>1</sup> The Apple Messages for Business, Google's Business Messages, and Microsoft Teams channels aren't available in GCC.
 
 ## Language availability
 
@@ -77,7 +79,9 @@ To know the languages that are supported in analytics, see [Multilingual sentime
 
 ### See also
 
-[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
+[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[Introduction to channels in Omnichannel for Customer Service](channels.md)  
+
 
 
 

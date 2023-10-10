@@ -4,7 +4,7 @@ description: "Learn about the different channels that are available in Omnichann
 author: neeranelli
 ms.author: nenellim
 ms.topic: overview
-ms.date: 05/05/2023
+ms.date: 10/10/2023
 ---
 
 # Overview of channels
