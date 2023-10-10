@@ -1,10 +1,17 @@
 ---
-title: "Configure voicemail to manage inbound calls"
-description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
+title: Configure voicemail to manage inbound calls
+description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/07/2023
-ms.topic: article
+ms.date: 10/10/2023
+ms.topic: how-to
+ms.reviewer:
+ms.collection:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/10/2023
 ---
 
 # Configure voicemail to manage inbound calls
@@ -47,7 +54,8 @@ You can configure routing rules to route voicemail that your customer has record
 - The phone number without the country code, if you select the **Contains** operator.
 
 > [!NOTE]
-> We recommend that you avoid defining rule conditions based on skills or sentiment category for the missed conversation attribute to route voicemails because they won't work as expected.
+> - We recommend that you avoid defining rule conditions based on skills or sentiment category for the missed conversation attribute to route voicemails because they won't work as expected.
+> - Voicemails are categorized as "record" type and therefore you can't route them to voice queues.
 
 ## Use voicemail to manage direct calls to agents
 
