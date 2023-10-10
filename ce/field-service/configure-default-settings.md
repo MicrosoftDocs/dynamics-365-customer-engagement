@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 01/14/2023
+ms.date: 10/10/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -190,7 +190,7 @@ Change Field Service settings for Dynamics 365 Remote Assist. For more informati
 |  Option  |  Description  |  
 |-------------|-----------------|  
 | Disable Booking Status Changes  |   Specify if users can change a booking status in Dynamics 365 Remote Assist on HoloLens. |
-| Assign Mixed Reality Security roles  |   Adds privileges for Dynamics 365 Guides and Dynamics 365 Remote Assist to the default Field Service security roles. Disabling the setting removes the privileges from default security roles. Refer to the following table to understand how roles map across apps. To [enable custom security roles](/power-platform/admin/security-roles-privileges) to access mixed reality apps, review the default security roles for Guides or Remote Assist to identify privileges that your custom security roles need. |
+| Assign Mixed Reality Security roles  |   Adds security roles for Dynamics 365 Guides and Dynamics 365 Remote Assist to users that are assigned one of the default Field Service security roles. Refer to the following table to understand which default roles the system assigns. Disabling the setting stops the automatic role assignment for new users moving forward. It doesn't remove security roles that are already assigned. To [enable custom security roles](/power-platform/admin/security-roles-privileges) to access mixed reality apps, review the default security roles for Guides or Remote Assist to identify privileges that your custom security roles need. |
 
 |Field Service |Guides  |Remote Assist  |
 |---------|---------|---------|
