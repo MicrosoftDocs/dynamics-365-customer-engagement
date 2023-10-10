@@ -27,7 +27,7 @@ tags: MigrationHO
 
 > [!NOTE]
 > - Unified Service Desk doesn't support multisession apps like Customer Service workspace.  
-> - In Power Apps, the toggle **Try the new look** is supported in Unified Service Desk 4.2 version only.
+> - In Power Apps, the toggle **Try the new look** is supported in Unified Service Desk 4.2 only.
 
 <a name="UII"></a>   
 
