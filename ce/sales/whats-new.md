@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 09/08/2023
+ms.date: 10/06/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -23,16 +23,17 @@ Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.micros
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
-## August 2023 release
+## September 2023 release
 
-We're excited to announce our newest updates! 
+No new features or enhancements were released in September 2023. We'll be back in October with more updates.
+
+## August 2023 release
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
 |Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
 
 ## July 2023 release
-
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
@@ -45,17 +46,6 @@ We're excited to announce our newest updates!
 |Sales engagement     |   Support for custom SMS channel      |   Bring in your own provider to use the SMS capability.       |    [Documentation](add-custom-sms-provider-intro.md)     |   Enabled for admins      | GA        |
 |Sales engagement     |     Support for SMS from the Activities pane    |  Start SMS conversation from the ribbon within the Activities page, similar to other communication channels such as email and call.         | [Documentation](manage-text-message-communications.md)         |  Enabled by default       |    Public preview     |
 |Sales execution     |  Modern and refreshed user experience       | Experience the new and refreshed UI that's more intuitive, effective, and visually appealing.         |  Not applicable        | Enabled by default        | Public preview        |
-
-
-## June 2023 release
-
-
-| Feature area | Feature | Description | Resources | Enabled by | Availability |
-|--------------|---------|-------------|-----------|------------|--------------|
-| Sales engagement | Sequence preview | Get an overview of sequence activities and easily collaborate with team members. | [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | Enabled for all | Public preview |
-| Sales engagement | Segments | The runtime experience of segments is optimized by  introducing a condition limit. A maximum of 10 conditions are allowed in a segment at any given time. | [Documentation](create-and-activate-a-segment.md#create-and-activate-a-segment) | Enabled by default | GA |
-| Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  condition limits are introduced for the **Select eligible entity** and **Seller with matching attributes** options. A limit of 10 and 5 maximum conditions are applicable for these options respectively. | [Documentation](create-and-activate-assignment-rule.md#conditions-in-assignment-rules) | Enabled by default | GA |
-
 
 ## Get the latest version
 
