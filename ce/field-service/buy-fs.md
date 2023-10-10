@@ -23,7 +23,6 @@ There are two types of licenses for Field Service:
 
 The following table covers key differences between the two license types.
 
-
 |Column1  |Column2  |
 |---------|---------|
 |Row1     |         |
@@ -32,10 +31,9 @@ The following table covers key differences between the two license types.
 |Row4     |         |
 |Row5     |         |
 
-
 For detailed information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/) and the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
 
-With Field Service version XXX in the 2023 release wave 2, the Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. The updated solution introduces a new setting for mixed reality apps that automatically adds permissions to the default security roles for Field Service. Admins can disable that setting to remove the added permissions. For more information, see [TBD](tbd.md).
+With Field Service version XXX in the 2023 release wave 2, the Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. The updated solution introduces a new setting for mixed reality apps that automatically adds permissions to the default security roles for Field Service. Admins can disable that setting to remove the added permissions. For more information, see [Mixed Reality settings](configure-default-settings.md#mixed-reality-settings).
 
 ## Buy a Field Service subscription
 
