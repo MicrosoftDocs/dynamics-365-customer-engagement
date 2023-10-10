@@ -26,8 +26,8 @@ tags: MigrationHO
  ![Video symbol](../../unified-service-desk/media/usd-video-thumbnail.png "Video symbol") [Video: Overview of Unified Service Desk (5:00)](https://go.microsoft.com/fwlink/p/?LinkId=506900)  
 
 > [!NOTE]
-> - Unified Service Desk doesn't support multisession apps like Customer Service workspace.  
-> - The [Try the new look](/power-apps/user/modern-fluent-design#whats-included-with-the-new-look) setting that allows for a modern, refreshed look is available in Unified Service Desk 4.2 only.
+> - Unified Service Desk doesn't support the Customer Service workspace app.  
+> - The [Try the new look](/power-apps/user/modern-fluent-design#whats-included-with-the-new-look) setting that allows for a modern and refreshed look is available in Unified Service Desk 4.2 only.
 
 <a name="UII"></a>   
 
