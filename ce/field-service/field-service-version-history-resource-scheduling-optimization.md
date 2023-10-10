@@ -1,7 +1,7 @@
 ---
-title: "Resource Scheduling Optimization version history | MicrosoftDocs"
-description: Find a list of important updates for Resource Scheduling Optimization in Dynamics 365 Field Service.
-ms.date: 03/24/2023
+title: Resource Scheduling Optimization version history
+description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
+ms.date: 10/10/2023
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 author: AnilMur
@@ -52,8 +52,8 @@ For information about older versions, see [Version history archive](version-hist
 ## 3.4.0.623
 
  - This release introduces two new features in Resource Scheduling Optimization:
-   - Support for optimizing [multi-day requirements](/dynamics365/field-service/rso-multi-day)
-   - When using Single Resource Optimization, [additional requirements are considered](/dynamics365/field-service/rso-single-resource-optimization) along with existing bookings on the resource's schedule
+   - Support for optimizing [multi-day requirements](rso-multi-day.md)
+   - When optimizing a single resource's schedule, [additional requirements are considered](rso-single-resource-optimization.md) along with their scheduled bookings.
 
 ## 3.4.0.495
 
