@@ -60,7 +60,6 @@ The following list includes controls that that require a Dynamics 365 Sales lice
 |ForecastingControls.FieldControls.ForecastGridPage     |  Forecasting grid       |
 |ForecastingControls.FieldControls.CCFForecastConfig     | Forecast configuration        |
 |MsdynControls.WKWControls.ConnectionsWidget     | Who knows whom widget        |
-|MscrmControls.AcceleratedSales.AnchorShellGridControl     |   Focused view      |
 |MscrmControls.AcceleratedSales.CadenceWidgetControl     |  Upnext widget       |
 |MscrmControls.RAContainer.RAControlv2     | Relationship analytics widget        |
 |MscrmControls.Sales.PredictiveScoringWidget.PredictiveScoringWidget     | Predictive lead and opportunity scoring widgets         |
