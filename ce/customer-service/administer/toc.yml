@@ -1,4 +1,4 @@
-- name: Administer Dynamics 365 Customer Service
+- name: Dynamics 365 Customer Service
   items: 
     - name: Administer Dynamics 365 Customer Service
       items:
@@ -1876,13 +1876,13 @@
       - name: Dynamics 365 Customer Service Insights
         href: /dynamics365/ai/customer-service-insights/overview
     - name: Responsible AI
-        items:
+      items:
         - name: Overview
           href: responsible-ai-overview.md
         - name: FAQ for copilot
           href: faq-copilot-for-customer-service.md
     - name: Resources
-        items:
+      items:
         - name: Training
           href: /training/dynamics365/customer-service
         - name: Support
@@ -1892,4 +1892,4 @@
         - name: Community
           href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
     - name: Troubleshoot
-        href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+      href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
