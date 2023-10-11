@@ -69,7 +69,7 @@ You can set up a search provider in the Customer Service admin center or Custome
      
 5. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
 
-    :::image type="content" source="media/search-provider-details.png" alt-text="Search provider details":::
+    :::image type="content" source="../../media/search-provider-details.png" alt-text="Search provider details":::
 
 6. Select **Save**.
 
@@ -79,12 +79,12 @@ After you've configured the search providers, agents can view links in their sea
 
 >[!NOTE]
 >
-> The [configured value for the number of article search results](./add-knowledge-base-search-control-forms.md) won't be applicable, if you configure even a single external search provider. For each configured search provider, the search results will display three articles. Agents can select **Show more** to view additional results.
+> The [configured value for the number of article search results](../add-knowledge-base-search-control-forms.md) won't be applicable, if you configure even a single external search provider. For each configured search provider, the search results will display three articles. Agents can select **Show more** to view additional results.
 
    > [!div class=mx-imgBorder]
-   > ![Agent view of search providers.](media/search-provider-agent.png "Agent view of available search providers")
+   > ![Agent view of search providers.](../../media/search-provider-agent.png "Agent view of available search providers")
    
-For more information about agent search experience, go to [Search across external search providers](search-knowledge-articles-csh.md#search-across-external-search-providers).
+For more information about agent search experience, go to [Search across external search providers](../search-knowledge-articles-csh.md#search-across-external-search-providers).
 
 > [!NOTE]
 >
@@ -103,4 +103,4 @@ For more information about agent search experience, go to [Search across externa
 [Search for knowledge articles in the Customer Service Hub](../search-knowledge-articles-csh.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
