@@ -114,21 +114,21 @@
         href: add-users-assign-roles.md
       - name: Personas and privileges
         href: persona-privilege-mapping.md
-    - name: Responsible AI
-      items:
-      - name: Overview
-        href: responsible-ai-overview.md
-      - name: FAQ for copilot
-        href: faq-copilot-for-customer-service.md
-    - name: Resources
-      items:
-      - name: Training
-        href: /training/dynamics365/customer-service
-      - name: Support
-        href: /dynamics365/get-started/support/
-      - name: Blog
-        href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
-      - name: Community
-        href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
-    - name: Troubleshoot
-      href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+  - name: Responsible AI
+    items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: FAQ for copilot
+      href: faq-copilot-for-customer-service.md
+  - name: Resources
+    items:
+    - name: Training
+      href: /training/dynamics365/customer-service
+    - name: Support
+      href: /dynamics365/get-started/support/
+    - name: Blog
+      href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
+    - name: Community
+      href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
+  - name: Troubleshoot
+    href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
