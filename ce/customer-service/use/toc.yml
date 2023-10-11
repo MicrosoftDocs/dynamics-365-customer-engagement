@@ -1,7 +1,7 @@
 - name: Manage your contact center
   items: 
   - name: Manage your contact center
-  items:
+    items:
     - name: Dynamics 365 Customer Service documentation
       href: ../index.yml
     - name: User management
