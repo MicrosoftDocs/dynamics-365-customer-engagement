@@ -131,9 +131,9 @@ When you've added all the details to the quote, you can send it to the customer.
 
 ### See also  
  [Sales transactions in Dynamics 365 Sales](sales-transactions.md)  
- [Create a PDF file](create-quote-pdf.md)  
+ [Export your quote to a PDF file](create-quote-pdf.md)  
  [Track and manage activities](manage-activities.md)   
- [Print quote, invoice, or other records](print-records.md)  
-
+ [Print quote, invoice, or other records](print-records.md)
+  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
