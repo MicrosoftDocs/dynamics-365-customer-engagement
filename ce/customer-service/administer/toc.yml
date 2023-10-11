@@ -1881,7 +1881,7 @@
         href: responsible-ai-overview.md
       - name: FAQ for copilot
         href: faq-copilot-for-customer-service.md
-    - name: Resources
+  - name: Resources
       items:
       - name: Training
         href: /training/dynamics365/customer-service
@@ -1891,5 +1891,5 @@
         href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
       - name: Community
         href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
-    - name: Troubleshoot
+  - name: Troubleshoot
       href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
