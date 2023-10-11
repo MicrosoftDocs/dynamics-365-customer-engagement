@@ -7,7 +7,7 @@ author: neeranelli
 ms.author: nenellim
 ---
 
-# Overview of user management 
+# Overview of user management
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
