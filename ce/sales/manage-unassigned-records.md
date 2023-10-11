@@ -71,7 +71,7 @@ The reason a lead or opportunity wasn't assigned automatically is shown in the *
 
 - There was an issue with the server: A problem with the server that your tenant is hosted on caused the assignment rules not to run. Run the assignment rules again.
 
-## Run reassignment of unassigned records rhana
+## Run reassignment of unassigned records
 
 The number of unassigned records for a segment is displayed in the **Unassigned records** column in the **Assignment rules** page. Run the rules again in the segment and try to assign the records to the sellers. After the records are assigned, you can view the history of assigned records.
 
