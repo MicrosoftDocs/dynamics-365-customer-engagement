@@ -59,6 +59,7 @@ To go to this setting:
 When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.  
 
 **Fields mapped to opportunity**
+
 | Field name in lead | Field name in opportunity |
 |--------------------|---------------------------|
 | Topic | Topic |
@@ -66,6 +67,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Account | Account |
 
 **Fields mapped to account**
+
 | Field name in lead | Field name in account |
 |--------------------|-----------------------|
 | Company | Account name |
@@ -80,6 +82,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Country/Region | Adress 1: Country/Region |
 
 **Fields mapped to contact**
+
 | Field name in lead | Field name in contact |
 |--------------------|-----------------------|
 | First name | First name |
