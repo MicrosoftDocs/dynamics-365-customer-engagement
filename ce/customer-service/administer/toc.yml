@@ -14,8 +14,6 @@
       href: role-persona-mapping.md
   - name: Agent experience profiles for Customer Service
     items: 
-    - name: Overview of agent experience profiles
-      href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles

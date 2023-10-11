@@ -37,7 +37,7 @@ In Microsoft Cloud for Sovereignty, the external search providers feature is ava
   
 To view search results, your agents must have access to external content.
 
-Use the integrated search provider option to set up third-party knowledge sources, such as enterprise websites that are based on the site map protocol. For more information, see [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
+Use the integrated search provider option to set up third-party knowledge sources, such as enterprise websites that are based on the site map protocol. For more information, see [Manage integrated search providers](../add-search-provider.md#manage-integrated-search-providers).
 
 ## Set up a search provider
 
@@ -94,13 +94,13 @@ For more information about agent search experience, go to [Search across externa
    
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+[Add the Knowledge Base Search control to forms](../add-knowledge-base-search-control-forms.md)
 
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+[Create and manage knowledge articles](../customer-service-hub-user-guide-knowledge-article.md)
 
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+[Understand knowledge base search mechanisms](../knowledge-base-search-methods.md)
 
-[Search for knowledge articles in the Customer Service Hub](search-knowledge-articles-csh.md)
+[Search for knowledge articles in the Customer Service Hub](../search-knowledge-articles-csh.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

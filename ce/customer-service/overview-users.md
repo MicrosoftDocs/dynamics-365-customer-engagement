@@ -9,7 +9,7 @@ ms.author: nenellim
 
 # Overview of user management 
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 To begin using Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, each member of your organization will need a user account.
 
@@ -21,6 +21,6 @@ The topics in this section explain how to use the Microsoft 365 admin center to 
 
 ### See also
 
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Manage capacity profiles](capacity-profiles.md)  
-[Role persona mapping](role-persona-mapping.md)  
+[Manage users in Omnichannel for Customer Service](../users-user-profiles.md)  
+[Manage capacity profiles](../capacity-profiles.md)  
+[Role persona mapping](../role-persona-mapping.md)  
