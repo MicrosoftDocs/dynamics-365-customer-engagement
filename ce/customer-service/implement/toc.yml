@@ -106,6 +106,12 @@
       href: try-channels.md
     - name: Provide consent to access data
       href: data-access-consent.md
+  - name: User Management
+    items:
+    - name: Assign roles and enable users
+      href: add-users-assign-roles.md
+    - name: Personas and privileges
+      href: persona-privilege-mapping.md
   - name: Responsible AI
     items:
     - name: Overview
