@@ -31,13 +31,11 @@ To modify your process for automatically assigning leads or opportunities to sel
 
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-1. Under **Sales accelerator**, select **Work assignment**.
+1. Under **Sales accelerator**, select **Assignment rules**.
 
-1. Select a **Record type**, and then select and open a segment of that type that has the assignment rule you want to edit.
+1. Select an assignment rule, and then select the pencil icon to edit the rule.
 
-1. Hover over the rule and select **More options** (**&vellip;**) > **View and edit**.
-
-1. Change what you need to, and then select **Save**.
+1. Change what you need to, and then select **Update rule**.
 
 Your changes are applied to records that are connected to the segment going forward. Any records that were previously connected to the segment aren't affected.
 

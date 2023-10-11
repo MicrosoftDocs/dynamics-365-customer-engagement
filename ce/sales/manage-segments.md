@@ -1,7 +1,7 @@
 ---
 title: Group records by segments
 description: Learn how to use segments and assignment rules to automatically connect records to sequences and assign sellers to records in Dynamics 365 Sales.
-ms.date: 08/11/2023
+ms.date: 10/11/2023
 ms.topic: overview
 author: udaykirang
 ms.author: udag

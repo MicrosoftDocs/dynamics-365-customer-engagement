@@ -34,11 +34,11 @@ Sometimes, you might want to get rid of segments that are no longer relevant or 
 
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-1. Under **Sales accelerator**, select **Work assignment**.
+1. Under **Sales accelerator**, select **Segments**.
 
 1. Select a **Record type** to view the segments of that type.
 
-1. Hover over the segment and select **More options** (**&vellip;**).
+1. Hover over a segment and select **More options** (**&vellip;**).
 
     - To keep the segment but make it inactive, select **Deactivate**.
 

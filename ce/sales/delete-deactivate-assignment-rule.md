@@ -34,23 +34,23 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-1. Under **Sales accelerator**, select **Work assignment**.
+1. Under **Sales accelerator**, select **Assignment rules**.
 
-1. Select a **Record type**, and then select and open a segment of that type that has at least one assignment rule.
+1. Select an assignment rule.
 
 1. Deactivate or delete the rule:
 
-    - To keep the rule but make it inactive, turn off the **Status** switch.
+    - To keep the rule but make it inactive, turn off the **Active** switch.
 
-    - To remove the rule entirely, hover over it and select **More options** (**&vellip;**) > **Delete**.
+    - To remove the rule entirely, select the **Delete** icon.
 
 1. Confirm the action when you're prompted to do so.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 - [Manage assignment rules](create-manage-assignment-rules.md)
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
