@@ -4,7 +4,7 @@ description: Learn about how to install the voice channel in Omnichannel for Cus
 author: neeranelli
 ms.author: nenellim
 ms.custom: bap-template
-ms.date: 10/10/2023
+ms.date: 10/11/2023
 ms.topic: how-to
 ---
 
