@@ -25,7 +25,6 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 1. Save and close.
 
 ## Next steps
-
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
