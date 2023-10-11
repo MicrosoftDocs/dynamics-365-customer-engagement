@@ -76,26 +76,20 @@
             href: community-create-websites.md 
       - name: Unified routing and assignment
         items:
-        - name: Overview of unified routing
-          items:
-          - name: Overview of unified routing
-            href: overview-unified-routing.md
-          - name: How to set up unified routing
-            href: set-up-routing-process.md
-        - name: Administrator experience
-          items:
-          - name: Create and manage workstreams
-            href: create-workstreams.md
-          - name: Create and manage queues for unified routing
-            href: queues-omnichannel.md
-          - name: Configure work classification
-            items:  
-            - name: Configure work classification rules
-              href: configure-work-classification.md
-            - name: Configure route-to-queue rules
-              href: configure-route-to-queue-rules.md
-          - name: Assignment methods for queues
-            items:  
+        - name: How to set up unified routing
+          href: set-up-routing-process.md
+        - name: Create and manage workstreams
+          href: create-workstreams.md
+        - name: Create and manage queues for unified routing
+          href: queues-omnichannel.md
+        - name: Configure work classification
+          items:  
+          - name: Configure work classification rules
+            href: configure-work-classification.md
+          - name: Configure route-to-queue rules
+            href: configure-route-to-queue-rules.md
+        - name: Assignment methods for queues
+          items:  
             - name: Assignment methods in unified routing
               href: assignment-methods.md
             - name: Configure assignment methods for queues
@@ -104,8 +98,8 @@
               href: configure-preferred-agent.md
             - name: Manage overflow of work items in queues
               href: manage-overflow.md
-          - name: Set up record routing
-            items:
+        - name: Set up record routing
+          items:
             - name: Provision unified routing for Customer Service
               href: provision-unified-routing.md
             - name: Set up unified routing for records
@@ -116,8 +110,8 @@
               href: routing-trigger-automatic.md
             - name: Set up unified routing for email records
               href: configure-routing-for-email-records.md
-          - name: Set up skill-based routing
-            items: 
+        - name: Set up skill-based routing
+          items: 
             - name: Overview of skill-based routing
               href: overview-skill-work-distribution.md
             - name: Set up skills, create rating model, assign skills to agents
@@ -130,54 +124,22 @@
               href: set-up-isf-model.md
             - name: Model data tables as skills
               href: model-tables-as-skills-ur.md
-          - name: Use sentiment prediction-based routing
-            href: use-sentiment-prediction-for-routing.md
-          - name: Use effort estimation model for routing
-            href: use-effort-estimation-for-routing.md
-          - name: Configure basic routing
-            items:
-            - name: Create and manage queues for cases
-              href: set-up-queues-manage-activities-cases.md
-            - name: Route cases using basic rulesets
-              href: create-rules-automatically-route-cases.md
-          - name: View diagnostics for unified routing
-            href: unified-routing-diagnostics.md
-          - name: Manage routing diagnostics data
-            href: manage-routing-diagnostics-data.md
-          - name: Use best practices to set up unified routing
-            href: unified-routing-best-practices.md
-        - name: Supervisor experience
+        - name: Use effort estimation model for routing
+          href: use-effort-estimation-for-routing.md
+        - name: Configure basic routing
           items:
-          - name: View historical analytics reports
-            href: supervisor-historical-analytics.md
-          - name: Access diagnostics for unified routing
-            href: supervisor-access-diagnostics.md
-        - name: Agent experience
-          items:
-          - name: Route records manually using unified routing
-            href: routing-trigger.md
-          - name: Work with queues
-            href: work-with-queues.md
-          - name: Manage case queues and route cases
-            href: customer-service-hub-user-guide-case-queues-and-routing.md
-          - name: Manage skills
-            href: manage-skills.md
-        - name: Developer experience
-          items: 
-          - name: Understand how unified routing affects queue items and live work items for routed records
-            href: unified-routing-impact-on-APIs.md
-          - name: Add a skill control for routed records
-            href: add-skill-control.md
-          - name: Close live work items or deactivate queue items
-            href: deactivate-queue-items.md
-          - name: Route non-case records using a plug-in
-            href: trigger-routing-non-case-records.md
+          - name: Create and manage queues for cases
+            href: set-up-queues-manage-activities-cases.md
+          - name: Route cases using basic rulesets
+            href: create-rules-automatically-route-cases.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+        - name: Use best practices to set up unified routing
+          href: unified-routing-best-practices.md
       - name: Case management
         items: 
-        - name: Overview of case management
-          href: overview-cases.md
-        - name: Administrator experience
-          items: 
           - name: Define status reason transitions for case management
             href: define-status-reason-transitions-case-management.md
           - name: Define parent and child cases
@@ -200,28 +162,6 @@
             href: add-attachment-control.md
           - name: Use the Due open activities control to customize forms
             href: add-due-open-activities.md                            
-        - name: Agent experience
-          items: 
-          - name: Create cases
-            href: customer-service-hub-user-guide-create-a-case.md
-          - name: Use enhanced case forms to manage cases
-            href: enh-casemgmt-csw.md        
-          - name: Resolve, cancel, and reassign cases
-            href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
-          - name: Merge cases
-            href: customer-service-hub-user-guide-merge-cases.md
-          - name: Manage cases with case grids
-            href: case-grids.md
-          - name: View a social profile
-            href: view-social-profile.md
-          - name: Convert a case to a knowledge article
-            href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: View AI-suggested similar cases and knowledge articles
-            href: csw-view-ai-suggested-cases-knowledge-articles.md
-          - name: Manage cases using interactive dashboards
-            href: customer-service-hub-user-guide-dashboard.md
-        - name: Customize case management
-          items: 
           - name: Allow updates for resolved and canceled cases
             href: update-resolved-canceled-cases.md
           - name: Modify case resolution dialog
@@ -230,20 +170,16 @@
             href: remove-validation-contact.md
       - name: Automatically create or update records
         items: 
-        - name: Automatically create or update records
-          href: automatically-create-update-records.md
-        - name: Use activity monitor to review and track rules
-          href: manage-activity-arc.md     
-        - name: Set up rules to create or update records in legacy app
-          href: set-up-rules-to-automatically-create-or-update-records.md
-        - name: Create records from emails in legacy app
-          href: automatically-create-case-from-email.md
+          - name: Automatically create or update records
+            href: automatically-create-update-records.md
+          - name: Use activity monitor to review and track rules
+            href: manage-activity-arc.md     
+          - name: Set up rules to create or update records in legacy app
+            href: set-up-rules-to-automatically-create-or-update-records.md
+          - name: Create records from emails in legacy app
+            href: automatically-create-case-from-email.md
       - name: Service-level agreements
         items:
-        - name: Overview of service-level agreements
-          href: overview-service-level-agreements.md 
-        - name: Administrator experience
-          items: 
           - name: Enable entities for service level agreements
             href: enable-entities-service-level-agreements.md
           - name: Manage customer service schedules
@@ -276,8 +212,6 @@
             href: create-entitlement-define-support-terms-customer.md
           - name: Use entitlement templates to set up entitlements  
             href: set-up-entitlements-templates.md
-          - name: SLA limitations
-            href: sla-limitations.md
           - name: Migrate SLAs
             href: migrate-slas.md
           - name: Create standard SLAs
@@ -286,10 +220,6 @@
             href: create-enhanced-sla.md
           - name: Add a timer in forms to track time against enhanced SLAs
             href: add-timer-forms-track-time-against-enhanced-sla.md
-        - name: Agent experience
-          items: 
-          - name: Understand SLAs
-            href: customer-service-hub-user-guide-case-sla.md
       - name: Email
         items: 
         - name: Administrator experience
