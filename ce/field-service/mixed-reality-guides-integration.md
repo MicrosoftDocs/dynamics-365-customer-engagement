@@ -33,7 +33,7 @@ Integration with Dynamics 365 Guides lets Field Service users attach mixed reali
 
 1. [Schedule the work order](schedule-work-order.md) to a resource.
 
-After signing in to the Dynamics 365 Guides app on HoloLens, technicians see the **Field Service** tab. The tab shows the guides, which relate to service tasks they are assigned to. There's also a short description of the booking and the work order.
+After the technician signs in to the Dynamics 365 Guides app on HoloLens, they see the **Field Service** tab. This tab shows the guides, which relate to service tasks they're assigned to. There's also a short description of the booking and the work order.
 
    > ![Select guide.](media/field-service-guides-integration-over.png "Select guide")
 
