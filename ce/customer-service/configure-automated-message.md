@@ -111,7 +111,7 @@ Use the following best practices when you configure automated messages for the v
 
 - If you've configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
 
-- Disable messages that announce the average wait times, unless your business requires customers know this. 
+- Disable messages that announce the average wait times, unless your business requires that customers know this information. 
  
 ### Add custom automated messages in Omnichannel Administration
 
