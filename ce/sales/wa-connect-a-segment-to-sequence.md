@@ -1,57 +1,62 @@
 ---
-title: Connect a segment to a sequence
-description: Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator.
+title: Connect segments to sequences
+description: Learn how to connect a segment to a sequence in Dynamics 365 Sales Hub to automate your sales workflows.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.collection: 
-ms.date: 08/11/2023
-ms.custom: bap-template 
+ms.date: 10/12/2023
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-gen-desc
+ - ai-seo-date:10/09/2023
+ - bap-template
 ---
 
-# Connect a segment to a sequence 
+# Connect segments to sequences
 
-After you create a segment, you connect the segment to a sequence that matches the entity.
+After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. Leads, opportunities, accounts, contacts, or insights that are in the segment automatically start the sequence.
 
-> [!NOTE]
->  
-> You can also use sequences designer to connect segments to a sequence. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
+You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
+| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-<!--markdownlint-disable MD036-->
-## To connect a segment to a sequence
-<!--markdownlint-enable MD036-->
->[!NOTE]
->In this procedure, we are using leads as example.
+## Prerequisites
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Work assignment**.  
-1. From the **Record type** list, choose **Leads** and then open the segment.
-1. On the segment page, go to the **Attached sequence** tab and select **Connect sequence**.  
+- [Sales accelerator is configured for your organization](./enable-configure-sales-accelerator.md).
+- [The sequence has been created and activated](./create-and-activate-a-sequence.md).
 
-    :::image type="content" source="media/wa-segment-attach-sequence-tab.png" alt-text="Screenshot of the Attached sequence tab.":::
+## Connect a segment to a sequence
 
-1. From the list of sequences, select the sequence that you want to connect and then select **Connect**. 
+This example uses lead records, but the process is the same for opportunity, account, contact, and insight records.
 
-    >[!NOTE]
-    >
-    >If no sequences are available, select **Create new sequence** to create a sequence. More information: [Create and activate a sequence](create-and-activate-a-sequence.md).
-    
-    The sequence is connected to the segment. 
+1. Sign in to Dynamics 365 Sales Hub.
 
-If you want to connect a different sequence to the segment, you must first disconnect the current sequence and then connect the new sequence. 
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+1. Under **Sales accelerator**, select **Work assignment**.
+
+1. Select a **Record type**.
+
+    The **Sequence connected** column shows *None* if no sequence is connected to the segment.
+
+1. Select a segment that isn't connected to a sequence, and then select **Connect sequence**.
+
+1. Select a sequence, and then select **Connect**.
+
+If none of the sequences listed seems appropriate, [create a sequence](create-and-activate-a-sequence.md) to connect to the segment.
+
+If you want to connect a different sequence to the segment, disconnect the current sequence first.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Create and activate a segment](wa-create-and-activate-a-segment.md)  
-[Edit a segment](wa-edit-a-segment.md)  
-[View and edit properties of a segment](wa-view-details-segment.md)
+- [Create and activate a segment](wa-create-and-activate-a-segment.md)  
+- [Edit a segment](wa-edit-a-segment.md)  
+- [View and edit properties of a segment](wa-view-details-segment.md)

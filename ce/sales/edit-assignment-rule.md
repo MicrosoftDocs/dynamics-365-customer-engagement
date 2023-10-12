@@ -14,7 +14,7 @@ ms.custom:
 
 # Edit assignment rules
 
-To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
+To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 

@@ -499,20 +499,20 @@
               href: wa-view-details-segment.md
             - name: Edit a segment
               href: wa-edit-a-segment.md  
-            - name: Delete segment
+            - name: Delete a segment
               href: wa-delete-deactivate-a-segment.md
-            - name: Manage unassigned records
+            - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
             - name: Manage work assignment settings
               href: wa-work-assignment-manage-settings.md
               items:
                 - name: Configure security roles to assign records
                   href: wa-manage-sales-teams.md
-                - name: Manage seller attributes
+                - name: Set seller attributes
                   href: wa-manage-seller-attributes.md
-                - name: Manage seller availability
+                - name: Set seller availability
                   href: wa-manage-seller-availability.md
-            - name: Understand lead distributions
+            - name: Understand lead distribution
               href: understand-lead-distributions-assignment-rules.md                  
         - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md        
