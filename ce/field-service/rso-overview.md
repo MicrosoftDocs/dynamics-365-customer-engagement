@@ -38,7 +38,7 @@ Configure Resource Scheduling Optimization for your business needs based on jobs
 
 - **Overnight scheduling**: Resource Scheduling Optimization runs automatically each night, schedules new jobs and optimizes existing bookings for the next day.
 
-- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
+- **Single Resource Optimization**: A dispatcher gets the schedule [optimized for a single technician](rso-single-resource-optimization.md) for the rest of today to recalculate an optimal travel route after a cancellation.
 
 - **Simulation**: A service manager runs a scheduling simulation to understand how many jobs could be completed with a varying number of resources in a specific geographic territory.
 

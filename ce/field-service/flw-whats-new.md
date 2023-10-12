@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service (preview)
 description: Learn what's new in the Dynamics 365 Field Service (Preview) integration with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 07/31/2023
+ms.date: 10/06/2023
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,11 +12,33 @@ ms.subservice: m365-integrations
 
 # What's new in Microsoft 365 integrations for Field Service (preview)
 
+See [supported geographies, regions, and languages.](flw-overview.md#supported-geographies-regions-and-languages)
+
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
-## August 9th, 2023
+## October 9, 2023
 
-Microsoft 365 integrations for Field Service integrates Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
+This public preview release includes the following changes.
+
+- In both Outlook and Teams, new entries can be added to the fields on the work order form when creating a work order.
+- In Outlook, schedule assistance includes rescheduling technicians and moving the booked time slot for scheduled work orders.
+- In Outlook, admins can enable or disable the Outlook Add-in Copilot setting through the Field Service app.
+- In Teams, a streamlined homepage provides quick and easy access for frontline managers and workers to manage work orders.
+- In Teams, the frontline worker can edit work orders.
+
+## September 5, 2023
+
+This public preview release includes the following changes.
+
+- In both Outlook and Teams, the number of other work orders in the system displays on the **Work orders** tab after the first 50 work orders. You can select the link to view the work orders in the Field Service app.
+- In both Outlook and Teams, the work orders **Find by ID** now discovers partial matches.
+- In Outlook, obtain [assistance while scheduling a work order](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
+- In Outlook, if an email was previously used to create a work order using Copilot, a message displays with a link to the work order.
+- In Outlook, after creating a work order from an email using Copilot, the email message is saved in the Field Service app timeline.
+
+## August 9, 2023
+
+Microsoft 365 integrations for Field Service (preview) integrate Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
 
 This public preview release includes the following features:
 
@@ -25,9 +47,6 @@ This public preview release includes the following features:
 - A Viva Connections dashboard in Teams allows frontline managers to view and create work orders.
 - The Viva Connections dashboard in Teams also provides frontline workers with an at-a-glance view of their workday.
 - Workers can also initiate a Dynamics 365 Remote Assist call from their dashboard.
-
-> [!NOTE]
-> Microsoft 365 integrations for Field Service are currently available only in the United States and United Kingdom and in the English (en-us) language.
 
 ## Next steps
 
