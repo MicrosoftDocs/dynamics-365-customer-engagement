@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 06/30/2023
+ms.date: 10/09/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -28,11 +28,15 @@ Geographic support for real-time message translation is dependent on your transl
 The following table lists the region availability of analytics and insights.
 
 > [!NOTE]
-> The features listed in the table are not available in South Africa, Korea, and Norway.
+> The features listed in the table aren't available in South Africa, Korea, and Norway.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
-| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Copilot<sup>**1**</sup> | ✔ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
+| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+| Copilot&mdash;Summarize cases<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+|Copilot&mdash;Summarize conversations<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+| Copilot&mdash;Ask a question<sup>**1**</sup> | ✔ | ✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
+| Copilot&mdash;Draft a chat response<sup>**1**</sup> |	✔ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |
+|Copilot&mdash;Draft emails<sup>**1**</sup> |	✔ |	✔	| ✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
@@ -52,7 +56,7 @@ The following table lists the region availability of analytics and insights.
 ✔: Available  
 ✖: Not available
 
-<sup>**1**</sup> Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
+<sup>**1**</sup> By default, the copilot features are available in the North America region only. Customers with environments outside the United States can use the copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
@@ -111,7 +115,7 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 
 [Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
 [Copilot data movement across geographies](copilot-data-movement.md)  
-[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)  
+[Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  

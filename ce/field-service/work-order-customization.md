@@ -24,7 +24,7 @@ Check out the following video on simplified work order commands and more updates
 
 ## Custom work order statuses
 
-Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses.
+Work order system statuses should *never* be edited because system jobs and plug-ins rely on these statuses. Instead, administrators can create custom work order substatuses that map to work order system statuses. For more information, see [Don't edit option set (choice) values](field-service-customization-best-practices.md#dont-edit-option-set-choice-values).
 
 ## Add Bing Maps to the work order form
 

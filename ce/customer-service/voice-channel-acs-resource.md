@@ -1,11 +1,15 @@
 ---
-title: "Connect to Azure Communication Services | MicrosoftDocs"
-description: "Get an overview about connecting to Azure Communication Services. The article also includes procedures to sync from Azure and disconnect from Azure Communication Services."
-ms.date: 09/15/2023
+title: Connect to Azure Communication Services
+description: Learn how to connect to Azure Communication Services by using a new or existing resource to configure the voice channel.
+ms.date: 09/19/2023
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/29/2023
 ---
 
 # Connect to Azure Communication Services
@@ -22,7 +26,7 @@ You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect 
 > [!Note]
 >
 > - After you've connected to a resource in a Power Platform environment, the phone numbers purchased via the resource that are linked to the Power Platform environment can't be transferred or migrated to another environment.
-> - You must map one Omnichannel for Customer Service instance only to one Azure Communication Services resource.
+> - While the system allows multiple instances of Omnichannel for Customer Service to connect with one Azure Communication Services resource, we recommend that you must map one Omnichannel for Customer Service instance only with one Azure Communication Services resource for optimal performance and to avoid issues.
 > - We recommend that you [test your network](https://azurecommdiagnostics.net) before connecting to Azure Communication Services.
 
 ### See also

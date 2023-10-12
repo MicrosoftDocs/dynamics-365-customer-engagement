@@ -5,9 +5,6 @@ When a requirement is scheduled to a resource, the system creates a booking reco
 
 Each scheduling-enabled entity can have a different booking template. When a work order requirement is scheduled, the booking template shows the *Bookable Resource Booking* record's **Name** and **Duration** values.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Standard booking visualization.](../../field-service/media/standard-booking-visualization.png)
-
 The default value contains the following HTML code snippet.
 
 ```HTML
@@ -43,6 +40,11 @@ Here's an example that pulls values from the work order that relates to the book
 > If you want to display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. This results in field reference `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`.
 >
 > Add more relationship hops by connecting them with an additional period.
+
+> [!NOTE]
+> Referencing appointment attributes in the schedule board booking template is not supported because appointment template data is dependent on having an associated booking.
+>
+> To reference these attributes, ensure that appointments have bookings associated with them, and then disable the **Include Appointments** setting from the **Scheduling Parameters**. Disabling this setting hides all appointments which don't have a bookable resource bookings linked to them on the schedule board.
 
 ## Advanced booking template styling using CSS
 
@@ -90,9 +92,6 @@ Duration: <b>{duration} minutes</b><br/>
 ```
 
 The booking template on the schedule board now contains a visual representation of the customer rating and the type of job.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of final booking template.](../../field-service/media/final-booking-template.png)
   
 > [!NOTE]
 > Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility.
