@@ -35,7 +35,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 ## Agent details drill-down
 
 > [!NOTE]
-> If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../../../developer/reference/entities/msdyn_agentstatus).
+> If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](developer/reference/entities/msdyn_agentstatus).
 
 From the **Agent list** grid on the dashboard, you can drill down to key metrics about agent details. You can also drill down to view specific insights about the performance of individual agents. Select an agent name in the **Agent list** grid, and then select **Detailed view**. Agent details are shown on a new page.
 
