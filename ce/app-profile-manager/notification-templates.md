@@ -21,9 +21,7 @@ For optimal functioning of desktop notifications, make sure that you are using t
 >
 > The legacy version of Microsoft Edge is not supported for desktop notifications.
 
-### Desktop notifications when the app is in the background
-
-Agents can receive desktop notifications when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
@@ -144,7 +142,7 @@ The out-of-the-box templates are as follows.
    | General|Auto-accept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for an agent to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](../customer-service/enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify whether you want to show notifications to the agents always or only if the Customer Service workspace or is not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../customer-service/media/notification-template-default-entity.png "Create notification template")

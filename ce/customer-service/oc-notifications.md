@@ -28,12 +28,12 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-You'll receive desktop notifications when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. The desktop notification helps ensure that you don't miss any conversation requests. Some scenarios where the app isn't in focus include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
-- You've minimized the app.
-- You're working in another browser window.
-- You're working on another tab of the browser.
-
+- The agent has minimized the app.
+- The agent is working in another browser window.
+- The agent is working on another tab of the browser.
+ 
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](media/desktop-notification.png "Desktop notification")
 
