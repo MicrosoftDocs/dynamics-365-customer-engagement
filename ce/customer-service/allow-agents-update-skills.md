@@ -45,7 +45,7 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
 :::image type="content" source="media/enable-update-skill-control.png" alt-text="Enable update skill control toggle":::
 
-By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
+By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-isf-model.md#retrain-the-model-iteratively)
 
 ### See also
 

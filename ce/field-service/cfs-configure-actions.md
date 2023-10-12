@@ -1,117 +1,112 @@
 ---
-title: Configure IoT provider actions
-description: Specify actions that are sent to the IoT provider to trigger processes or actions on an IoT device.
+title: Set up IoT provider actions
+description: Learn how to set up IoT provider actions to automate various aspects of Dynamics 365 Connected Field Service operations.
 ms.date: 06/21/2023
 ms.subservice: connected-field-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: vhorvath
 author: vhorvathms
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:09/21/2023
 ---
 
-# Configure IoT provider actions
+# Set up IoT provider actions
 
-After setting up an IoT provider, you specify a set of actions associated with that provider. [Custom actions](/power-apps/developer/data-platform/custom-actions) are messages that are used to trigger specific actions or processes within a solution, allowing organizations to automate various aspects of their Connected Field Service operations. By default, Connected Field Services provides five actions surrounding the data that is captured from your organization's IoT devices.  
+After [you set up an IoT (Internet of Things) provider](./cfs-custom-iot-provider.md), you can specify a set of actions to trigger based on the data that's captured from your organization's IoT devices. Along with five predefined actions, you can create [custom actions](/power-apps/developer/data-platform/custom-actions) that are associated with your provider to automate various aspects of your Connected Field Service operations.
 
-## Pull Device Data action
+The following actions come with Connected Field Service:
 
-The [**Pull Device Data** action fetches the latest device data from the IoT provider](cfs-pull-device-data.md) and appears in the **Device Data History** tab with updated properties of an IoT device. This action pulls data for a single device or a collection of devices.
+- [Pull device data](#pull-device-data)
+- [Register device](#register-device)
+- [Aggregated device readings](#aggregated-device-readings)
+- [Query device readings](#query-device-readings)
+- [Get device events](#get-device-events)
 
-The *Pull Devices Data* action requires an input of an *EntityCollection*. The following table displays the parameters for the *EntityCollection* for this action.
+## Pull device data
 
-| Input parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-----------------------|
-| EntityCollection          | EntityCollection |                                                          |
+The [Pull device data action](cfs-pull-device-data.md) fetches the latest data for one device or a collection of devices from the IoT provider. It appears in the **Device Data History** tab.
 
-| Entity collection properties  | Type   | Details |
-|-------------------|--------|-------------------------------------------------------------|
-| msdyn_iotdeviceid | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
-| msdyn_name        | string | Name of the device.                                                                                                                                        |
-| @odata.type    | string | OData type of the entity. For example: "Microsoft.Dynamics.CRM." + entityLogicalName"       |
+Because data can come from multiple devices, the Pull device data action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
+
+| Parameter | Type | Details |
+| --- | --- | --- |
+| msdyn_iotdeviceid | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| msdyn_name | string | The name of the device |
+| @odata.type | string | The entity's OData type |
 
 Sample input:
 
 ```json
-
 {
-	"EntityCollection":[
-	    {
-		"msdyn_iotdeviceid":"B25B5E21-326E-4C36-9296-C195286DGEC9",
-		"msdyn_name":" HVAC 32443",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    },
-	    {
-		"msdyn_iotdeviceid":"B25B5E21-326E-4C36-9296-C195286DGEE9",
-		"msdyn_name":" HVAC 92232",
-		"@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
-	    }
-	]
+  "EntityCollection":[
+      {
+    "msdyn_iotdeviceid":"B25B5E21-326E-4C36-9296-C195286DGEC9",
+    "msdyn_name":" HVAC 32443",
+    "@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
+      },
+      {
+    "msdyn_iotdeviceid":"B25B5E21-326E-4C36-9296-C195286DGEE9",
+    "msdyn_name":" HVAC 92232",
+    "@odata.type":"Microsoft.Dynamics.CRM.msdyn_iotdevice"
+      }
+  ]
 }
 
 ```
 
-| Output parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|PullDeviceDataResultsJSON         | String | 
+The Pull device data action returns the fetched data in serialized JSON format. The following table describes the parameters of the PullDeviceDataResultsJSON output.
 
-Here are the output parameters for this action. The following parameters are returned in serialized JSON format as part of the action results.
-
-| JSON properties        | Type     | Details                                                                                                                                                        |
-|----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID                         | string   | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                              |
-| ConnectionState            | bool   | Indicates whether the device is Disconnected (false) or Connected (true).                                                                                               |
-| ConnectionStateUpdatedTime | datetime | Updated time of the connection state from the IoT provider.                                                                                                     |
-| DeviceReportedProperties   | string   | Various reported properties of the devices formatted in a JSON string. For example: </br> {"temperature":35.6366305680316, </br> "humidity":18.3333366666} |
-| LastActivityTime           | datetime | Last time of reported activity of the device.                                                                                                                  |
+| JSON property | Type | Details |
+| --- | --- | --- |
+| ID | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| ConnectionState | boolean | Whether the device is disconnected (false) or connected (true) |
+| ConnectionStateUpdatedTime | datetime | The timestamp of the last connection state update from the IoT provider |
+| DeviceReportedProperties | string | The device's reported properties, formatted as a JSON string |
+| LastActivityTime | datetime | The timestamp of the device's last reported activity |
 
 Sample output:
 
 ```json
 {
-	"PullDeviceDataResultsJSON":[
-	   {
-		"Id":"B25B5E21-326E-4C36-9296-C195286DGEC9",
-		"ConnectionState":true,
-		"ConnectionStateUpdatedTime":"2019-08-2911:00:00",
-		"DeviceReportedProperties":{
-			"temperature":65.6366305680316,
-			"humidity":21.3333366666
-		  },
-		"LastActivityTime": "2019-08-2011:00:00"
-	  },
-	  {
-		"Id":"B25B5E21-326E-4C36-9296-C195286DGEE9",
-		"ConnectionState":true,
-		"ConnectionStateUpdatedTime":"2019-08-2911:00:00",
-		"DeviceReportedProperties":{
-			"temperature":62.8366305680316,
-			"humidity":19.5333366666
-		},
-		"LastActivityTime": "2019-08-2011:00:00"
-	   }
-	]
+  "PullDeviceDataResultsJSON":[
+     {
+    "Id":"B25B5E21-326E-4C36-9296-C195286DGEC9",
+    "ConnectionState":true,
+    "ConnectionStateUpdatedTime":"2019-08-2911:00:00",
+    "DeviceReportedProperties":{
+      "temperature":65.6366305680316,
+      "humidity":21.3333366666
+      },
+    "LastActivityTime": "2019-08-2011:00:00"
+    },
+    {
+    "Id":"B25B5E21-326E-4C36-9296-C195286DGEE9",
+    "ConnectionState":true,
+    "ConnectionStateUpdatedTime":"2019-08-2911:00:00",
+    "DeviceReportedProperties":{
+      "temperature":62.8366305680316,
+      "humidity":19.5333366666
+    },
+    "LastActivityTime": "2019-08-2011:00:00"
+     }
+  ]
 }
 ```
 
-The result of pulling device data appears in the **Device Data History** tab and updates the property information of the device.
+## Register device
 
-## Register Device action
+The Register device action creates an association between a device or a collection of devices and the IoT provider. New devices and devices or components that a technician swaps out can be registered. After you register a device, it appears in the **Registration History** tab of the IoT Device record.
 
-The *Register Device* action registers a device that is present in Connected Field Service with the IoT provider. This action is commonly used when a technician swaps out an asset or one of its device components and needs the new device to be registered with the IoT provider. The action could be used for registering a single device or a collection of devices.
+Because multiple devices can be registered at one time, the Register device action requires an EntityCollection as input. The following table describes the parameters of the EntityCollection.
 
-Here are the input parameters for this action. Since this action supports multiple devices, the parameters need to be sent as *EntityCollection*.
-
-| Input parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-----------------------|
-| EntityCollection          | EntityCollection |        
-
-Here are the input parameters for this action. Since this action supports multiple devices, the parameters need to be sent as EntityCollection.
-
-| Entity collection properties | 	Type  | Details | 
-|--|--|--|--| 
-| msdyn_iotdeviceid	| string	| Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4”
-| msdyn_name	| string	| Name of the device.| 
-| @odata.type	| 	string	| OData type of the entity </br>For example: "Microsoft.Dynamics.CRM." + entityLogicalName | 
+| Parameter | Type | Details |
+| --- | --- | --- |
+| msdyn_iotdeviceid | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| msdyn_name | string | The name of the device |
+| @odata.type | string | The entity's OData type |
 
 Sample input:
 
@@ -132,18 +127,14 @@ Sample input:
 }
 ```
 
-Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
+The Register device action returns the registration results in serialized JSON format. The following table describes the parameters of the RegistrationResultsJSON output.
 
-| Output parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|RegistrationResultsJSON         | String | 
-
-| JSON properties  | Type      | Details                                                                                                                                                                                                                                                                                                                                                                                                    |
-|----------------------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ID           | string    | Identifier of the device in Connected Field Service.                                                                                                                                                                                                                                                                                                                                                                           |
-| RegistrationStatus   | OptionSetValue | This parameter identifies the status of the registration from the IoT provider back to Connected Field Service. The values and their labels for this option set are: </br> - 192350000: Unknown </br> - 192350001: Unregistered </br> - 192350002: In progress </br> - 192350003: Registered </br> - 192350004: Error </br> Note: OptionSet is a list of defined options with label-value mapping like a drop-down box control.  |
-| DeviceId    | string    | Identifier of the device within the IoT provider system.                                                                                                                                                                                                                                                                                             |
-| Message  | string    | Any detailed message regarding the registration to the Connected Field Service user. |
+| JSON property | Type | Details |
+| --- | --- | --- |
+| ID | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| RegistrationStatus | OptionSetValue | The status of the registration from the IoT provider back to Connected Field Service<br/>Values and labels:<br/>- 192350000: Unknown<br/>- 192350001: Unregistered<br/>- 192350002: In progress<br/>- 192350003: Registered<br/>- 192350004: Error<br/>Note: An OptionSet is a list of options with label-value mapping, like a drop-down list control.  |
+| DeviceId | string | The ID of the device in the IoT provider system |
+| Message  | string | A detailed message to the Connected Field Service user regarding the registration |
 
 Sample output:
 
@@ -166,21 +157,18 @@ Sample output:
 }
 ```
 
-Once you've successfully registered a device, you can see it in the **Registration History** tab of the *IoT Device* record.
+## Aggregated device readings
 
-## Aggregated device readings action
+The Aggregated device readings action fetches aggregated device data from the IoT provider. Aggregate data provides a quick snapshot of the condition of the device on summary tiles in Connected Field Service.
 
-This action retrieves the aggregated readings for devices from the IoT provider. Users can get a quick snapshot of the condition of the device within Connected Field Service through summary tiles. Aggregate device readings are strings.
+:::image type="content" source="./media/custom-iot-aggregate-readings.png" alt-text="Screenshot of an IoT device in Field Service, showing aggregate readings.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT device in Field Service, showing aggregate readings.](./media/custom-iot-aggregate-readings.png)
+The following table describes the input parameters of the Aggregated device readings action.
 
-Here are the input parameters for this action.
-
-| Input parameters  | Type   | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| deviceId            | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                                                                                                                                                                                                                                         |
-| measures            | string | JSON formatted measures config list. See the following code block for an example. |
+| Parameter | Type | Details |
+| --- | --- | --- |
+| deviceId | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| measures | string | A list of measurements in JSON format; see the following code snippet for examples |
 
 Sample input:
 
@@ -201,16 +189,15 @@ Sample input:
 ]
 ```
 
-Here are the output parameters for this action. The following parameters are returned in serialized JSON format as part of the action results.
+The Aggregated device readings action returns the measurements in serialized JSON format. The following table displays the output parameters.
 
-| Output   parameters  | Type   | Details                                                                                                                                                                                                                                                                                                                          |
-|----------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| measuresOutput       | string | JSON formatted measures output collection, where every item additionally contains the property of *value*. See the following code block for an example. |
+| JSON property | Type | Details |
+| --- | --- | --- |
+| measuresOutput | string | The values of the returned measurements in JSON format; see the following code snippet for examples |
 
 Sample output:
 
 ```json
-
 [
     {
         "Name":"Humidity",
@@ -233,24 +220,22 @@ Sample output:
 ]
 ```
 
-> [!NOTE]
-> The aggregated device readings feature works based on the device data history entity if you have not implemented the aggregated device readings action.
+Aggregated device readings are based on the device data history entity if you aren't using the Aggregated device readings action.
 
-## Query Device Readings action
+## Query device readings
 
-The Query Device Readings retrieves the historical device data from the IoT provider to display in a time series format. Query device readings require DateTime and string data types.
+The Query device readings action fetches historical device data, such as temperature and humidity, from the IoT provider and displays it as a time series chart.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of device readings on a work order in Field Service.](./media/custom-iot-query-device-readings.png)
+:::image type="content" source="./media/custom-iot-query-device-readings.png" alt-text="Screenshot of device temperature and humidity over time.":::
 
-Here are the input parameters for this action.
+The following table describes the input parameters of the Query device readings action.
 
-| Input parameters  | Type   | Details                                                                                                                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| From         | DateTime | Starting time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T13:51:55.781Z”                                                                                                                                                          |
-| To         | DateTime | Ending time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T14:51:55.781Z”                                                                                                                                                            |
-| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example:   “6a5457d1-9373-ea11-a811-000d3af70aa4”                                                                                                  |
-| Interval            | string | Interval size of the plotting   point specified in ISO-8601 duration format. For example: 1 minute is "PT1M", 1 millisecond is "PT0.001S".  </br>**Note**: All intervals are the same size. One month is always converted to 30 days, and one year is always 365 days. |
+| Parameter | Type | Details |
+| --- | --- | --- |
+| From | datetime | The starting time of the reading (measurement) in ISO format; for example, "2020-04-10T13:51:55.781Z" |
+| To | datetime | The ending time of the reading (measurement) in ISO format|
+| IoTDeviceId | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
+| Interval | string | The interval size of the plotting point specified in ISO-8601 duration format; for example, 1 minute is "PT1M," 1 millisecond is "PT0.001S"<br/>All intervals are the same size. One month is always converted to 30 days and one year is always 365 days. |
 
 Sample input:
 
@@ -266,16 +251,15 @@ Sample input:
 } 
 ```
 
-Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
+The Query device readings action returns the data in serialized JSON format. The following table displays the output parameters.
 
-| Output parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|AggregatedDeviceReadings         | String |
+| JSON property | Type | Details |
+| --- | --- | --- |
+| AggregatedDeviceReadings | String | The values of the returned measurements in JSON format; see the following code snippet for examples
 
 Sample output:
 
 ```json
-   
 {
   "HVAC Unit 123": {
     "Temperature": {
@@ -314,23 +298,20 @@ Sample output:
 }    
 ```
 
-## Device readings – events
+## Get device events
 
-The device readings control plots events from the [service history](service-history.md). For example, the following screenshot shows the out-of-the-box work order events as "pins" at the bottom of the chart. You can include any custom entities such as the last time you performed an asset upgrade.
+The Get device events action fetches events from the device [service history](service-history.md) and displays them as pins at the bottom of the chart that's created by the Query device readings action. You can include any custom entities such as the last time you performed an asset upgrade.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of device readings showing events.](./media/custom-iot-device-events.png)
+:::image type="content" source="./media/custom-iot-device-events.png" alt-text="Screenshot of events shown as pins under the device temperature and humidity over time chart.":::
 
 > [!NOTE]
-> You don't need to create a new action. Register a custom plug-in on the *msdyn_IoTGetDeviceEvents* action, like plug-ins for create events.
+> You don't need to create a new action. Register a custom plug-in on the `msdyn_IoTGetDeviceEvents` action, like plug-ins for create events.
 
-Here are the input parameters for the msdyn_IoTGetDeviceEvents action.
+The following table describes the input parameters of the Get device events action.
 
-| Input parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| From                | DateTime | Starting time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T13:51:55.781Z”                                                          |
-| To                  | DateTime | Ending time of the reading (measurement) point within the chart in ISO format. For example: “2020-04-10T14:51:55.781Z”                                                       |
-| IoTDeviceId         | string | Identifier of the device (msdyn_iotdevice) within Connected Field Service. A GUID that needs to be converted to string. For example: “6a5457d1-9373-ea11-a811-000d3af70aa4” |
+| From | datetime | The starting time of the reading (measurement) in ISO format; for example, "2020-04-10T13:51:55.781Z" |
+| To | datetime | The ending time of the reading (measurement) in ISO format|
+| IoTDeviceId | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
 
 Sample input:
 
@@ -342,25 +323,18 @@ Sample input:
 } 
 ```
 
-Here are the output parameters for this action. The below parameters are returned in serialized JSON format as part of the action results.
+The Get device events action returns the data in serialized JSON format. The following table displays the output parameters.
 
-| Output parameters  | Type   | Details                                                                                                                                                                             |
-|---------------------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|EventsData         | String |
-
-Here are the output parameters for this event.
-
-
-| JSON properties  | Type   | Details                                                                                                                                                                                |
-|----------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EventsName        | string | Short description for the category of events. This description is displayed in the device readings control allowing users to enable and disable events under that event name. For example, you can categorize events into Asset events and Service events. Users see two rows of pins on the device readings chart and can enable and disable either row.             |
-| Timestamp            | string | Discrete timestamp of the event formatted as a string in ISO format. It's the x-axis timestamp for the event pin. For example: "2019-08-07T19:14:53Z"                      |
-| Color                | string | The color code of the event as a hex-code string for the pin for this event within the chart. For example: "#FF6300"                                        |
-| Description          | string | Short description for the event. This description is displayed when the user hovers over the pin or when the user selects the pin to see the details dialog.                |
-| ID                   | string | The ID value of the event can be a name or user-friendly value. For example, the work order number, booking confirmation code, and so on. |
-| Entity               | string | Dataverse entity name related to the event. For example: "msdyn_workorder"                                                                                                            |
-| URL                  | string | URL for navigating to details of the event. For example, a link to the work order form for more details on the work order. If you pass an entity and GUID, the system automatically generates a hyperlink.                            |
-| GUID                 | string | GUID (converted as a string) that indicates the identifier of the entity record within Dataverse.                                                                                          |
+| JSON property | Type | Details |
+| --- | --- | --- |
+| EventsName | string | Short description of the category of the event; use it to show or hide all events in that category |
+| Timestamp | string | The timestamp of the event formatted as a string in ISO format; the x-axis timestamp for the event pin |
+| Color | string | The color of the event pin, provided as a hex-code string |
+| Description | string | A short description of the event, displayed when the user hovers over the pin or selects the pin to view details |
+| ID | string | The ID of the event; can be a name or another user-friendly value, like the work order number or booking confirmation code |
+| Entity | string | The Dataverse entity name related to the event; for example, "msdyn_workorder" |
+| URL | string | The URL of the details page for the event, like a link to the work order form<br/>If you pass an entity and GUID, the system automatically generates a hyperlink. |
+| GUID | string | The GUID, converted to a string, of the entity record in Dataverse |
 
 Sample output:
 
@@ -411,4 +385,4 @@ Sample output:
 - [IoT provider for custom IoT solutions](cfs-custom-iot-provider.md)
 - [IoT integration with Connected Field Service](cfs-connect-data-overview.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

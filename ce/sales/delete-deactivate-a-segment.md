@@ -1,63 +1,55 @@
 ---
 title: Delete or deactivate segments
-description: Permanently delete a segment that is no longer required, or deactivate to retain the segment in the application in inactive mode.
+description: Learn how to remove segments that you don't need anymore in Dynamics 365 Sales Hub. You can either deactivate them to keep them in the app or delete them completely.
 ms.date: 03/28/2023
 author: udaykirang
 ms.author: udag
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/10/2023
 ---
 
-# Delete or deactivate segments 
+# Delete or deactivate segments
 
-You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, the records that were already connected to it remain connected but future records will not be connected to it. When a segment is deleted, segment records that are already connected to a sequence won't be affected. 
+Sometimes, you might want to get rid of segments that are no longer relevant or useful for your sales team's activities. You have two options to do this in Dynamics 365 Sales Hub:
+
+- **Deactivate a segment.** This keeps the segment in the app, but stops it from connecting to any new records. The records that were already connected to the segment remain connected. You can reactivate the segment later if you need it again.
+- **Delete a segment.** This removes the segment from the app completely. The records that were already connected to the segment in a sequence aren't affected. You can't undo this action.
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [System Administrator or Sequence Manager](security-roles-for-sales.md) |
 
-## To delete or deactivate a segment 
+## Deactivate or delete a segment
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-3.	Under **Sales accelerator**, select **Segments**.
+1. Sign in to your Dynamics 365 Sales Hub app.
 
-4. On the **Segments** page, choose a record type from the **Record type** list.
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-    The **Segments** page opens with the list of available segments for the selected record type.   
+1. Under **Sales accelerator**, select **Work assignment**.
 
-    :::image type="content" source="media/sa-segment-edit-list-lead-segments.png" alt-text="Screenshot of segment page with a list of segments for the selected record type."::: 
+1. Select a **Record type** to view the segments of that type.
 
-4.	Hover over the segment, select **More options**, and then do one of the following:
+1. Hover over the segment and select **More options** (**&vellip;**).
 
-    -	Select **Deactivate**, and in the confirmation message that appears, select **Deactivate**.
+    - To keep the segment but make it inactive, select **Deactivate**.
 
-        >[!NOTE]
-        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
+    - To remove the segment entirely, select **Delete**.
 
-        >[!div class="mx-imgBorder"]
-        >![Deactivate segment](media/sa-segment-deactivate-segment.png "Deactivate segment")
+1. Confirm the action when you're prompted to do so.
 
-        The segment is deactivated in the application.
-
-    -	Select **Delete**, and in the confirmation message that appears, select **Delete permanently**.
-
-        >[!NOTE]
-        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
-
-        >[!div class="mx-imgBorder"]
-        >![Delete segment](media/sa-segment-delete-segment.png "Delete segment")
-
-        The segment is removed permanently from the application.
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Create and activate a segment](create-and-activate-a-segment.md)   
+- [Create and activate a segment](create-and-activate-a-segment.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
