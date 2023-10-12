@@ -1,16 +1,21 @@
 ---
-title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
-ms.date: 10/04/2023
+title: Create entitlements to define support terms
+description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
+ms.date: 10/12/2023
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
-search.audienceType: 
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/12/2023
+  - ai-gen-desc
 ---
 
 # Create entitlements to define support terms
@@ -63,7 +68,7 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
      - **Restrict based on entitlement terms**: To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when the **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
       
-          When you choose **No**, a customer service agent will be able to create a case but **Remaining Terms** will be updated in negative, if the **Remaining Terms** is less than zero.  
+          When you choose **No**, a customer service agent will be able to create a case, but **Remaining Terms** are updated in negative, if less than zero.  
 
      - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**: Specify the owner of the entitlement.
