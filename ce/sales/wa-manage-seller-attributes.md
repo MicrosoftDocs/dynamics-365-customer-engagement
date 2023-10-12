@@ -1,6 +1,6 @@
 ---
 title: Manage seller attributes
-description: Learn how to create and manage seller attributes to define skills of sellers such as languages, location, country, and skills.
+description: Learn how to create and manage seller attributes to define skills of sellers such as languages, location, country/region, and skills.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Manage seller attributes
 
-Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
+Seller attributes help you define skills of sellers such as languages, location, country/region, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
 
 ## License and role requirements
 

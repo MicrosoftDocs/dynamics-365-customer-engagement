@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.service: dynamics-365 
-ms.topic: concept
+ms.topic: concept-article
 ms.date: 04/05/2023 
 ms.custom: bap-template 
 ---

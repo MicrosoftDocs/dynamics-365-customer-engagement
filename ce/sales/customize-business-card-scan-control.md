@@ -1,7 +1,7 @@
 ---
 title: "Customize the business card scan control (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms."
-ms.date: 10/26/2021
+ms.date: 08/30/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -64,10 +64,8 @@ To customize the mappings:
 
 9.  Select the property that you want to change the mapping for, and select the **Edit** icon ![Edit icon.](media/edit-icon.png "Edit icon") to change the value the field maps to.
 10. When done, select **OK**.
+1. Assign the **Basic User** security role in Power Platform to the salespeople who will use the business card scanner control. For more information, see [Assign security roles to users in a Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database) or [Assign security roles to users in non-Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-no-dataverse-database).
 
-
-> [!NOTE]
-> Salespeople must have the Microsoft Dataverse User role assigned to them to use the business card scan control.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
