@@ -68,7 +68,7 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
      - **Restrict based on entitlement terms**: Select **Yes** to make sure that cases aren't created when the entitlement term is over. Agents won’t be able to create cases when **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
       
-         If you select **No**, agents will be able to create cases, but **Remaining Terms** is updated to a negative, if less than zero.  
+         If you select **No**, agents will be able to create cases, but **Remaining Terms** is updated to a negative value.
 
      - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**: Specify the owner of the entitlement.
