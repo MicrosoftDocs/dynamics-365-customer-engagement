@@ -105,13 +105,13 @@ Do the following for the channel in which you want to create custom automated me
 
 Use the following best practices when you configure automated messages for the voice channel:
 
-- Make sure that you configure concise messages when you use automated and custom messages because lengthy messages might mean agent take longer to connect with customers.
+- Make sure that you configure concise messages when you use automated and custom messages because lengthy messages might mean that agents take longer to connect with customers.
 
 - Consider configuring **Greeting Message for Async Channels and Voice** instead of **Agent assigned to a conversation**.
 
 - If you've configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
 
-- Unless your business requires customers know the wait times, consider disabling the messages that announce the average wait times.
+- Disable messages that announce the average wait times, unless your business requires customers know this. 
  
 ### Add custom automated messages in Omnichannel Administration
 
