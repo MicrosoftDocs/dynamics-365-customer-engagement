@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 09/15/2023
+ms.date: 10/13/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -35,6 +35,7 @@ The focused view is a centralized place to view all your open records that have 
 >
 >- The **Focused view** option isn't displayed if a record is selected.
 >- Focused view is not available for the Activities entity.
+>- The records display all active activities that are less than 120 day. 
 
 ## Understand the focused view
 
@@ -43,7 +44,7 @@ The focused view consists of three sections.
 -	**Search, filter, sort, and switch view**: These options are displayed at the top of the work list item view.   
     You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between the focused view and the list view.  
 
-    Filters and sorting that are available here are similar to the list view. Also, you can add an advanced filter option to the available filters.  
+    Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as filter. If you want to add more filters to the view, you can create an advanced filter.
 
     Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view.  Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, you will observe the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options. 
 
