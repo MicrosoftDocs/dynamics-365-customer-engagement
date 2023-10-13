@@ -6,6 +6,7 @@ ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
+ms.collection:
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
@@ -52,6 +53,10 @@ The following assignment methods are available out of the box:
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
 - **Round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+
+  In scenarios when multiple agents match the work item requirement, and there's a tie in the "order by", like, multiple matched agents with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
+
+  For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
 
 - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills and capacity.
 
@@ -124,9 +129,6 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 :::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
 
-In scenarios when more than one agent matches the requirement of the work item, and there's a tie in the order by also, like, more than one matching agent has the same available capacity, the system resolves the assignment using round robin that's based on the earliest time of the last assignment.
-
-For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan, because their available capacities were the same and Alicia had an earlier assignment than Alan at 10:35 AM.
 
 ### Components of an assignment rule
 
@@ -153,7 +155,6 @@ The assignment rules are composed of the following items:
       |User skills|Exact match|Use an operator to find agents who have all the skills which the incoming work item requires.|
       |User skills|Custom match|Use the operator to find agents whose skills match at runtime based on the selected lookup attribute on the work item.|
       |Calendar schedule|Is working|Use this operator to find agents who are working as per their service scheduling calendars.|
-      ||||
   
   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
