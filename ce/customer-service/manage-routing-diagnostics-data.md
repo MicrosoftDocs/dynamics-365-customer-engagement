@@ -37,8 +37,11 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
 1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the following routing diagnostics data in the specified order.
 
-   1. Routing diagnostics items for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](developer/reference/entities/msdyn_unifiedroutingdiagnostic.md)
-   1. Routing diagnostics for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](developer/reference/entities/msdyn_unifiedroutingrun.md)
+   1. Search for "Routing diagnostic items" for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](developer/reference/entities/msdyn_unifiedroutingdiagnostic.md)
+   
+    :::image type="content" source="media/bulk-delete-routing-diagnostics.png" alt-text="Screenshot of bulk delete action for routing diagnostics records.":::   
+ 
+   1. Search for "Routing diagnostics" for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](developer/reference/entities/msdyn_unifiedroutingrun.md)
 
 ## Next steps
 
