@@ -164,7 +164,7 @@ This feature is no longer available for configuration.
 
 ## When I open Dynamics 365 App for Outlook, I see a message "Dynamics 365 wants to display a new window.". Why is this happening?
 
-When you first access the Dynamics 365 App for Outlook pane, you are prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. Once you sign in, you are not prompted to sign in unless you don't use the app for 90 days. 
+When you first access the Dynamics 365 App for Outlook pane, you are prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. After you have signed in, as long as you use the app frequently, you'll remain signed in. If you haven't used the app for 90 days, you will be asked to sign in again.  
 
 
 
