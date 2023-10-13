@@ -1,7 +1,7 @@
 ---
-title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 08/29/2023
+title: Configure service-level agreements in Dynamics 365 Customer Service
+description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
+ms.date: 10/13/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -124,8 +124,8 @@ Perform the following steps to add a new column called **Name (Regarding)** that
 You can also use the following query to add a new column called **Name (Regarding)**.
 
 1. From **Advanced Find**, select **Download Fetch XML**.
-1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api). 
-Here's an example: https:// your org link/api/data/v9.2/entity name?fetchXml=enter the following query.
+1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
+Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [URL encode the fetchxml]
 
 ```
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
