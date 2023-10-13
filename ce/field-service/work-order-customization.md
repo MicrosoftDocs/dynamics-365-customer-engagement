@@ -1,7 +1,7 @@
 ---
 title: Customization considerations for the work order form
 description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
-ms.date: 06/30/2023
+ms.date: 10/13/2023
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -162,7 +162,7 @@ A control that summarizes work orders and associated bookings including timeline
 
 This control works on the default and custom work order forms but it doesn't work on entities other than the work order.
 
-Copilot currently can't summarize custom entities. It only summarizes default fields.
+Copilot currently can't summarize custom fields. It only summarizes default fields.
 
 #### Work order status
 
@@ -229,7 +229,7 @@ A control that summarizes the cost and price for a work order based on the produ
 
 - This control works on custom work order forms.
 
-Make sure [cost and pricing features are enabled](configure-default-settings.md#work-order--booking-settings) to see data in this control. correctly when cost/pricing toggles are on. (Bug filed so that in the future it displays “No pricing information available” instead of blank state)
+Make sure [cost and pricing features are enabled](configure-default-settings.md#work-order--booking-settings) to see data in this control. You can set a different NTE proximity value for this control than the one set for the work order.
 
 #### Products and services subgrid
 
@@ -249,7 +249,7 @@ A control that summarizes the tasks in a work order.
 
 - This control works on custom work order forms.
 
-- Make sure that estimated duration and actual duration fields show on the grid.
+- Make sure that the % completed, estimated duration, and actual duration fields included in the view used by the control.
 
 #### Task subgrid
 
@@ -260,21 +260,21 @@ A control that allows you to manage tasks in a work order using inline actions t
 
 If the % completed field isn't visible in the view, the progress doesn't render and the action to mark as complete or incomplete doesn't work.
 
-#### Knowledge article card
+#### References > Knowledge article card
 
 A control that allows you to see and link Knowledge Articles to a work order. The control also enables you to create new articles right from the work order directly.
 
 - This control works on custom work order forms.
 - It doesn't work on non-work order entities because it has a hard dependency on work order and knowledge articles.
 
-#### References > Guides
+#### References > Guides card
 
 A control that summarizes the linked Dynamics 365 Guides to tasks in the work order. You can't preview the Guides from the web, but you can see their name and their associated Folder.
 
 - This control can be used on custom work order forms.
 - This control can’t be used on non-work order entities as because it has a hard dependency on work order service tasks and the work order entity.
 
-#### Reference > Media card
+#### References > Media card
 
 A control that shows thumbnails of the media that has been attached to timeline notes.
 
@@ -294,6 +294,7 @@ Known issues and limitations:
 - When applying this control to subgrids, the view selector doesn't show. Only the view selected in the Maker portal shows.
 - If you customized the work order grid, the new control doesn't render due to solution layering rules. Remove such customizations first to see the control.
 - The new grid experience doesn't support column filtering. Change to the **Read-Only Grid** to filter columns.
+- If you remove the new grid control from the environment, you can't install it again. Contact support for help.
 
 #### Context menu
 
