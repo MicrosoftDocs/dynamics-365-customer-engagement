@@ -3,7 +3,7 @@ title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for O
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
 ms.date: 10/12/2023
-ms.reviewer: jimholtz
+ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,6 +16,8 @@ search.audienceType:
   - admin
   - customizer
   - enduser
+contriutors:
+- sbmjais
 ---
 # Troubleshoot and FAQs about Dynamics 365 App for Outlook
 
