@@ -1,16 +1,21 @@
 ---
-title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+title: Create entitlements to define support terms
+description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
+ms.date: 10/12/2023
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
-search.audienceType: 
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: shujoshi
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/12/2023
+  - ai-gen-desc
 ---
 
 # Create entitlements to define support terms
@@ -47,7 +52,7 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
 3. To create an entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
-   To create an entitlement from scratch, select **New** > **Blank Entitlement**. 
+   To create an entitlement from scratch, select **New** > **Blank Entitlement**.
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
 
@@ -61,8 +66,10 @@ You can create an entitlement in the Customer Service admin center or Customer S
   
      - **End Date**: Choose the date after which the customer will no longer be entitled for support.  
   
-     - **Restrict based on entitlement terms**: To make sure no cases are created when the entitlement term is over, select **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is less than zero OR when the term remaining for a channel is less than zero.  
-  
+     - **Restrict based on entitlement terms**: Select **Yes** to make sure that cases aren't created when the entitlement term is over. Agents won’t be able to create cases when **Remaining Terms** is less than zero or when the term remaining for a channel is less than zero.
+      
+         If you select **No**, agents will be able to create cases, but **Remaining Terms** is updated to a negative value.
+
      - **SLA**: Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
      - **Owner**: Specify the owner of the entitlement.
      - **Description**: Write a brief description of the entitlement.
