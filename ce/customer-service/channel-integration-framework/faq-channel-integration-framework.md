@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 10/06/2023
+ms.date: 10/16/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -76,7 +76,7 @@ Also, you can add Configuration Experience to the acquired flow that'll allow th
 
 ### Does Dynamics 365 Channel Integration Framework use for purposes other than integration with channel providers?
 
-No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers.
+No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers. Customizations like customization on a form, ribbon control and more can't be used within Dynamics 365 Channel Integration Framework APIs.
 
 ### How does Dynamics 365 Channel Integration Framework handle session creation and channel provider integration?
 
