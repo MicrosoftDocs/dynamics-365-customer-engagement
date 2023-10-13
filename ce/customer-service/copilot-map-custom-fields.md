@@ -1,13 +1,17 @@
 ---
 title: Map custom case fields to default Copilot attributes
-description: How-to description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+description: Map custom case fields to Copilot's default attributes to generate more accurate summaries and emails. 
+author: gandhamm 
+ms.author: mgandham 
+ms.reviewer: shujoshi 
+ms.topic: how-to 
+ms.collection: .
 ms.date: 10/13/2023
-ms.custom: bap-template #Required; don't change.
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/13/2023
 ---
 
 # Map custom case fields to default Copilot attributes
