@@ -42,7 +42,7 @@ Perform the following steps to map the custom fields to fields in Customer Servi
    - Select **Save and Close**.
 3. Select **Save**.
 
-## Map custom case fields to draft emails
+## Map custom case fields to generate summaries
 
 Copilot uses the following fields to generate conversation summaries:
 
@@ -54,10 +54,6 @@ Copilot uses the following fields to generate conversation summaries:
 - Product
 - Priority
 
-Navigate to one of the options in Customer Service admin center and perform the steps in the previous section to map custom fields to the out-of-the box fields for Copilot to generate summaries based on custom fields: 
-    - **Agent Experience** > **Productivity** > **Summaries**
-    - **Operations** > **Insights** > **Summaries**
+In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the box fields for Copilot to generate summaries based on custom fields: 
 
-## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
