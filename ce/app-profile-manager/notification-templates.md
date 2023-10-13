@@ -21,7 +21,7 @@ For optimal functioning of desktop notifications, make sure that you are using t
 >
 > The legacy version of Microsoft Edge is not supported for desktop notifications.
 
-Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive notification alerts on their desktop always or when the Customer Service workspace or Omnichannel for Customer Service apps aren't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
