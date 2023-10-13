@@ -47,7 +47,7 @@ Once installed it's easy to access the Dynamics 365 App for Outlook pane whether
    > [!div class="mx-imgBorder"] 
    > ![Open App for Outlook pane in Outlook Web Access.](../media/outlook-web-app.png)
 
-When you first access the Dynamics 365 App for Outlook pane, you'll be prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. Once you sign in, you'll not be prompted to sign in unless you don't use the app for 90 days. 
+When you first access the Dynamics 365 App for Outlook pane, you are prompted to sign in to your Dynamics 365 account. In the confirmation message, select **Allow** and then follow the steps on screen to sign in to Dynamics 365. Once you sign in, you are not prompted to sign in unless you don't use the app for 90 days. 
 
    
 ## Pin 
