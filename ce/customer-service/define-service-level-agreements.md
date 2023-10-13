@@ -107,7 +107,7 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When agents create an SLA KPI instance for an entity, other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior and is also applicable to custom entities.
+When agents create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior, and is also applicable to custom entities.
 
 If you choose to show the entity name for your agents, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
@@ -115,16 +115,17 @@ If you choose to show the entity name for your agents, perform the steps [provid
 
 Perform the following steps to add a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
 
-1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find** and from the **Look For** list, select **SLA KPI Instances**.
-1. Select the **Field** as **Regarding ID** and then select **Contains Data**.
-1. Go to **Edit Columns** > **Add columns**, select **Record Type** as **Regarding (Entity)**.
-1. Select **Name** and then select **OK**.
+1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find**.
+1. In the **Look For** list, select **SLA KPI Instances**.
+1. Select the **Field** as **Regarding ID**, and then select **Contains Data**.
+1. Go to **Edit Columns** > **Add columns**, and then select **Record Type** as **Regarding (Entity)**.
+1. Select **Name**, and then select **OK**.
 1. Select **Results**. You'll see the **Name (regarding)** column displaying the name of the entity.
 
 You can also use the following query to add a new column called **Name (Regarding)**.
 
 1. From **Advanced Find**, select **Download Fetch XML**.
-1. Paste the following query on the URL to see the full name of target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
+1. Paste the following query on the URL to see the full name of the target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
 Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [ URL encode the fetchxml]
 
 ```
@@ -156,11 +157,11 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 4. Activate the SLA.
 
 > [!NOTE]
-> SLAs created in either web client or Unified Interface can be viewed in both web client and Unified Interface, but can be edited only where they were created.
+> SLAs that are created in either the web client or Unified Interface can be viewed in both the web client and Unified Interface, but can be edited only where they were created.
 
 ### Create an SLA
 
-You can create an SLA from the Customer Service admin center or Customer Service Hub app.
+You can create an SLA from the Customer Service admin center or Customer Service Hub apps.
 
 1. Go to one of the apps, and perform the following steps.
 
