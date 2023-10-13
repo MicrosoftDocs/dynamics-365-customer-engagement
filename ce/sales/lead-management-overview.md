@@ -33,4 +33,4 @@ As a seller, you create leads, use predictive scores to improve the lead convers
 - [Create a lead](create-edit-lead-sales.md): Use leads to keep track of business prospects.
   
 - [Use predictive scores](work-predictive-lead-scoring.md): Use the predictive lead scoring feature to prioritize your leads based on scores.
-- [Quality and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity. 
+- [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity. 

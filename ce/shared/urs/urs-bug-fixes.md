@@ -7,20 +7,106 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/18/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 07/28/2023 |
-| | *USG* |[3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092)  | TBD | 08/24/2023 |
-|**Station 4** |*Europe* |[3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085)  | [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) | 08/04/2023 |
-|**Station 5** |  *North America*|[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 07/28/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 07/28/2023 |
-| | *Dedicated Scale Groups* |[3.12.107.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121072)  | [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) | 08/04/2023 |
+|**Station 1** |  *First Release*| [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/13/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/27/2023 |
+| | *USG* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
+|**Station 4** |*Europe* |  [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125)   | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)| 10/13/2023 |
+|**Station 5** |  *North America*|[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
+| | *Dedicated Scale Groups* |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/20/2023 |
 
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.117.31
+
+**Resource Scheduling Controls:** 1.2.56.232691
+
+**Dataverse:** 4.0.107.30
+
+- **Proportional booking visualization on aggregated schedule board Vviews:** On daily, weekly, and monthly schedule board views, bookings are displayed as a proportion of their duration to the time block instead of filling the whole period.  
+- When schedule assistant fails to create a booking, an error message now shows more information. 
+- Fixed an issue that was causing the schedule board to load the wrong date when operating in specific time zones. 
+- Fixed an issue that was causing selected resources to be displayed as undefined when using client extensions.  
+
+
+## 3.12.112.5
+
+**Resource Scheduling Controls:** 1.2.52.232511
+
+**Dataverse:** 4.0.102.5
+
+- **Capacity for resource search**: Resource search is now supported for organizations with more than 5000 resources. 
+- **Accessibility**: Implemented a variety of accessibility improvements including increased support for screen readers, new visual labels, and additional ARIA attributes. 
+- Fixed an issue in the API where calling *msdyn_SearchResourceAvailability* consistently returned empty *AvailabilityIntervals* and *Characteristics*.
+- Fixed an issue that led to the schedule assistant returning no available slots when a user entered information in the *Time from promised* field.  
+- Fixed an issue where service territory filters were being reset when navigating through pages of a resource selection search.  
+
+## 3.12.116.5 - 2023 Wave 2 Early Access update2
+
+**Resource Scheduling Controls:** 1.2.55.232482
+
+**Dataverse:** 4.0.106.5
+
+- **Retirement of the legacy schedule board:** The new schedule board is faster, more user-friendly, and accessible. It lays the foundation for new capabilities such as multiday scheduling and intelligent interactions.
+- **Proportional bookings on multiday views:** Quickly determine a resource’s availability and utilization.
+- **Multiple recurrences in work hours calendar:** Greater flexibility in resource scheduling, helping you meet business demands while adjusting to your workforce’s needs.
+- Fixed an issue where rebooking and substituting on a requirement that got deleted was failing.
+- Fixed an issue where the schedule board color was not being applied when saving the board setting with a new color.
+- Fixed an issue where "Find Availability" in the new schedule board was not considering custom fields.
+
+## 3.12.111.36
+
+**Resource Scheduling Controls:** 1.2.51.232411
+
+**Dataverse:** 4.0.101.36
+
+- Fixed an issue where filtering resources by name did not handle accented characters correctly.
+- Fixed an issue where the “Time From/To Promised” fields were not displayed during drag and drop operations on the schedule board if custom booking templates were enabled.
+- Fixed an issue where the resource search bar on the schedule board was limited to the client-side records and could not search for all records when there were more than 5000 resources.
+- Fixed an issue where the schedule board did not load completely after creating a new tab and switching back to the “Initial public view” tab. 
+- Fixed an issue where the calendar icons on the “From” and “To” fields in the requirement group form did not open the calendar picker. 
+- Fixed several accessibility issues in the “Edit Booking Alerts Template” dialog, button labels, ARIA attributes and screen reader compatibility.
+
+## 3.12.110.18
+
+**Resource Scheduling Controls:** 1.2.50.232152
+
+**Dataverse:** 4.0.100.18
+
+- Fixed a bug where the schedule board color was not applied when saving the board setting with a new color.
+- Fixed a bug where the “Find Availability” feature in the new schedule board did not consider custom fields.
+- Improved accessibility for the “New Filter Layout” dialog, the “New Schedule Board Tab” button in portrait mode, and the “New Schedule Board” navigation panel.
+- Fixed a bug where the schedule assistant requirement view was not picked up when the schedule assistant was launched from the book button.
+- Fixed a bug where an incorrect “End Time” was populated on the booking custom entity when the “Default Booking Duration” had a Null value.
+- Fixed a bug where an incorrect “End Time” was populated in the “Create Booking Panel” in Schedule Assistant when creating a booking for a requirement for the second time.
+- Fixed a bug where the schedule board crashed when cold loading or creating a new tab in a small width window.
+- Fixed a bug where the “Book & Exit” button reappeared after booking a requirement group, and it canceled the bookings.
+
+## 3.12.114.1 - 2023 Wave 2 Early Access update1
+
+**Resource Scheduling Controls:** 1.2.54.232001
+
+**Dataverse:** 4.0.101.1
+
+**Work hours calendar supports multiple recurrences**: Previously, you could only have one work hour recurrence per resource. With the added capability of multiple recurrences, you can now unlock greater flexibility in your resource scheduling to meet business demands further while adjusting to the needs of your workforce for employee retention and job satisfaction.
+
+
+## 3.12.114.11 - 2023 Wave 2 Early Access (EA) Release
+
+**Resource Scheduling Controls:** 1.2.54.232001
+
+**Dataverse:** 4.0.104.11
+
+**Legacy Schedule Board Retirement**: Fixed an issue where the legacy schedule board retirement message appears even if the new schedule board is already in use.
+
+**Booking Status Icon Alignment**: Fixed an issue where the booking status icon doesn't align properly on short-duration bookings in the schedule board multiday views.
+
+**Schedule Assistant Launch Issues Resolved**: Fixed an issue where the old schedule assistant launches when selecting **Book** on the requirement page.
 
 ## 3.12.109.2
 
@@ -172,7 +258,7 @@ This release is a hotfix on Unified resource scheduling [3.12.102.17](/dynamics3
 
 **Resource Scheduling controls:** 1.2.40.230251
 
-- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md). The setting to enable the new schedule board on the schedule board settings page has been removed, and replaced with a solution setting. You can still manually [enable the legacy schedule board](../../field-service/configure-schedule-board.md#enable-the-legacy-schedule-board) by changing the solution setting.
+- The new schedule board is now the default for all organizations, and the legacy schedule board is [officially deprecated](../../common-scheduler/deprecations.md).
 
 ## 3.12.97.18
 

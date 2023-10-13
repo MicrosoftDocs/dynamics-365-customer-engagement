@@ -700,7 +700,7 @@ Same as msdyn_liveconversation entity [msdyn_msdyn_omnichannelqueue_msdyn_liveco
 
 ### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid
 
-Same as msdyn_ocsession entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid](msdyn_ocsession.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid) Many-To-One relationship.
+Same as msdyn_ocsession entity msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|

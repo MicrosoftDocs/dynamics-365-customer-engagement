@@ -1,65 +1,68 @@
 ---
-title: "Connect segment to sequence in the sales accelerator"
-description: "Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
+title: Connect segments to sequences
+description: Learn how to connect a segment to a sequence in Dynamics 365 Sales Hub to automate your sales workflows.
 ms.date: 10/26/2021
-ms.topic: article
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-gen-desc
+ - ai-seo-date:10/09/2023
+ - bap-template
 ---
-# Connect a segment to a sequence 
 
-After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for. You can add segments to existing sequences. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
+# Connect segments to sequences
+
+After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. Leads, opportunities, accounts, or contacts that are in the segment automatically start the sequence.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [System Administrator or Sequence Manager](security-roles-for-sales.md)|
 
+## Prerequisites
 
-<!--markdownlint-disable MD036-->
-## To connect a segment to a sequence
-<!--markdownlint-enable MD036-->
->[!NOTE]
->In this procedure, we are using leads as example.
+- [Sales accelerator is configured for your organization](./enable-configure-sales-accelerator.md).
+- [The sequence has been created and activated](./create-and-activate-a-sequence.md).
 
-1. Sign in to your Dynamics 365 Sales Hub app.    
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.    
-3. Under **Sales accelerator**, select **Sequences**.    
-4. Select and open a sequence, and then go to the **Connected leads** tab.    
+## Connect a segment to a sequence
 
-   >[!div class="mx-imgBorder"]
-   >![View connected leads](media/sa-segment-connect-lead-tab.png "View connected leads")
+This example uses lead records, but the process is the same for opportunity, account, and contact records.
 
-5. From the **Connected segments** section, select **+ Connect segments**. 
+1. Sign in to Dynamics 365 Sales Hub.
 
-   A list of available segments is displayed in the **Connect segments** window. If there are no segments connected to the sequence, an empty grid is displayed.
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-    1. Select the segments that you want to connect to the sequence.
+1. Under **Sales accelerator**, select **Sequences**.
 
-       In this example, the segments **All incoming leads** is selected.
+1. Select and open a lead sequence.
 
-       >[!div class="mx-imgBorder"]
-       >![Select segments to connect to a sequence](media/sa-segment-connect-select-segments.png "Select segments to connect to a sequence")
+1. Select the **Connected leads** tab.
 
-    2. Select **Connect**. The selected segments are connected to the sequence, and include details such as status, owner, and number of records associated with the segment.
+1. In the **Connected segments** section, select **+ Connect segments**.
 
-       >[!div class="mx-imgBorder"]
-       >![Selected segments connected to the sequence](media/sa-segment-connect-selected-segments-added.png "Selected segments connected to the sequence")      
+    Available segments are listed in the **Connect segments** window.
 
-    3. Open each associated segment, and choose which records you want to connect to this sequence.   
+1. Select the segment or segments you want to connect to the sequence, and then select **Connect**.
 
-    >[!NOTE]
-    >To disassociate a segment from this sequence, select the segment, and then select **Disconnect**. In the confirmation message, select **Disconnect**.
+    :::image type="content" source="./media/sa-segment-connect-selected-segments-added.png" alt-text="Screenshot of a segment connected to a sequence.":::
 
-8. Close the sequence.
+1. Open the segment and select the leads you want to connect to this sequence.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+If the segment doesn't contain any records, you can still connect individual leads. Select **Connect leads** and select the leads you want to connect to this sequence.
+
+## Disconnect a segment from a sequence
+
+On the **Connected leads** tab, select the segment, and then select **Disconnect**.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Create and activate a segment](create-and-activate-a-segment.md)     
-[View details of a segment](view-details-segment.md)
-
+- [View details of a segment](./view-details-segment.md)
+- [Prioritize a segment](./prioritize-segment.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

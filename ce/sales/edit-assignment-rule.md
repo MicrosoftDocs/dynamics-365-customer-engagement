@@ -1,50 +1,51 @@
 ---
-title: "Edit an assignment rule in sales accelerator"
-description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 10/26/2021
-ms.topic: article
+title: Edit assignment rules
+description: Learn how to edit an assignment rule in Dynamics 365 Sales Hub to change the conditions that automatically assign leads and opportunities to sellers.
+ms.date: 10/10/2023
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/10/2023
+  - bap-template
 ---
-# Edit an assignment rule 
+
+# Edit assignment rules
 
 To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
 
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [System Administrator or Sequence Manager](security-roles-for-sales.md)|
 
+## Edit an assignment rule
 
-## To edit an assignment rule 
+1. Sign in to your Dynamics 365 Sales Hub app.
 
->[!NOTE]
->In this procedure, we are using lead as an example to edit an assignment rule. Similarly, you can use this procedure to edit opportunity assignment rule. 
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-1.	Sign in to your Dynamics 365 Sales Hub app.    
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Assignment rules**.    
+1. Under **Sales accelerator**, select **Work assignment**.
 
-4.	On the **Assignment rules** page, from the **Rule** tab, select the rule and then select the pencil icon to edit.   
+1. Select a **Record type**, and then select and open a segment of that type that has the assignment rule you want to edit.
 
-    >[!div class="mx-imgBorder"]
-    >![Select the edit rule option](media/sa-ar-select-edit-rule.png "Select the edit rule option")    
+1. Hover over the rule and select **More options** (**&vellip;**) > **View and edit**.
 
-    The **Create assignment rule** pane opens.
+1. Change what you need to, and then select **Save**.
 
-    >[!div class="mx-imgBorder"]
-    >![Edit assignment rule pane](media/sa-ar-edit-rule-pane.png "Edit assignment rule pane")    
+Your changes are applied to records that are connected to the segment going forward. Any records that were previously connected to the segment aren't affected.
 
-5.	Edit the information according to your needs, and then select **Update rule**.
-
-The changes will be applied to new leads that are created in the future in the application. The leads that were already assigned through the rule won't change.
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Manage assignment rules](create-manage-assignment-rules.md)    
-[Create and activate an assignment rule](create-and-activate-assignment-rule.md)
+- [Manage assignment rules](create-manage-assignment-rules.md)
+- [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

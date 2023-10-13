@@ -19,10 +19,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 > 1. On the General tab, set the **Connect to Maps** field to **Yes**.  
 > 1. Accept terms and **Save** your changes.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
-
-> [!Note]
-> For additional Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
   
 ## View the schedule board  
   
@@ -36,14 +32,12 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line that indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
- ![Schedule board color coding in Dynamics 365 Field Service.](../field-service/media/field-service-schedule-board-color-coding-example.png "Schedule board color coding in Dynamics 365 Field Service")  
   
 <a name="BKMK_ConfigureFilter-MapOver"></a>   
 ## Configure the filter and map view  
  Map view shows the location of resources, organizational units, bookings, and requirements. The screenshot below shows the color legend.  
   
- ![Schedule board filter and map view in Dynamics 365 Field Service.](../field-service/media/field-service-schedule-board-map-view.png "Schedule board filter and map view in Dynamics 365 Field Service")  
-  
+ 
 ### Set filters  
   
 1. From the main menu, select **Resource Scheduling**  > **Schedule Board**.  
@@ -66,7 +60,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 ### Set default filters
 
- ![Schedule Board Default Filters.](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
   
 - If you update a filter and want to save it as your new default filter, select **Options** > **Save Current Filters as Default**.  
   
@@ -87,7 +80,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ## Configuration tabs  
  Configuration tabs let you choose the time unit to be displayed, the view orientation, the time offset, and other actions like getting driving directions, moving bookings to the next day, printing the schedule, or add a booking alert.  
   
- ![Schedule board configuration tabs.](../field-service/media/field-service-schedule-board-configuration-tabs.png "Schedule board configuration tabs")  
   
  **View Options**  
   
@@ -125,7 +117,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 ### Details  
  Select **Details** on the right to see a detailed view of bookings.  
   
- ![Schedule board details option.](../field-service/media/field-service-schedule-board-details-option.png "Schedule board details option")  
   
 <a name="BKMK_ConfigureUnscheduledWorkOrderArea"></a>   
 ## Configure Booking Requirements  
@@ -151,7 +142,6 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   > [!NOTE]
   >  To edit an existing schedule board view, double-click the view name.  
   
-  ![Schedule board view name.](../field-service/media/field-service-schedule-board-view-name.png "Schedule board view name")  
   
 - A window opens showing all the configuration options.  
   
@@ -183,17 +173,10 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
 
 You can use keyboard shortcuts when viewing the schedule board in the list view, shown in the following screenshot and table.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board, highlighting the keyboard icon.](../field-service/media/schedule-board-keyboard.png)
-
 | Command | Keys |
 |  --- | --- | 
 | Expand collapsed row | SHIFT ALT + | 
 | Collapse expanded row | SHIFT ALT - | 
-
-## Enable the legacy schedule board
-
-[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
   
 ## Privacy
 

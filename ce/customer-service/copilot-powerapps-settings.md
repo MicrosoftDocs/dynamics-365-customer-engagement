@@ -1,25 +1,16 @@
 ---
-title: Configure Copilot features for custom case forms and custom apps
+title: Configure copilot features for custom case forms and custom apps (preview)
 description: Learn how to enable Copilot features for custom case forms and custom apps.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 06/22/2023 
+ms.date: 06/26/2023 
 ms.custom: bap-template 
 ms.collection: 
 ---
 
-# Configure Copilot features for custom case forms and custom apps (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# Configure copilot features for custom case forms and custom apps 
 
 You can configure the Copilot case summary on custom case forms and enable the Copilot features for custom apps.
 
@@ -43,7 +34,7 @@ You must also configure the following settings to make sure that copilot summary
 1. In Power Apps, add the event handler function for the On Change event. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui).
 1. Specify the following details in **Configure Event**:
      - Set the **Event Type** to **On load**.
-     - Set the **Library** to **msdyn_CopilptCaseSummaryLibrary.js**
+     - Set the **Library** to **msdyn_CopilotCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
 1. Save and publish the changes.

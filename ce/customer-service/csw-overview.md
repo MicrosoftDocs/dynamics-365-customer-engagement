@@ -1,7 +1,7 @@
 ---
 title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 06/27/2023
+ms.date: 08/01/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -87,13 +87,15 @@ Here are a few things to note when you use Customer Service workspace in your or
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
 - Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
 - You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
+- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
 
 ### Limitations
 
 The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
-  - Sub grid controls don't retain the filter or sort conditions.
+  - Subgrid controls don't retain the filter or sort conditions.
   - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
+  - When changing the status record in a tab, the corresponding record open in a grid or subgrid of another tab doesn't refresh automatically.
 - Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout

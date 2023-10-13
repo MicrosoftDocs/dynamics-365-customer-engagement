@@ -40,7 +40,7 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 | ConsiderTravelTime | Boolean | Set this to _True_ if travel time should be considered when computing potential time slots on the resource's calendar. | No | True
 | MovePastStartDateToCurrentDate | Boolean | Set this to _True_ to move a start date in the past to the current date. | No | False
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
-| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection will represent one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
+| SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represents one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources will be returned for onsite requirements.
 | MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
 
@@ -48,16 +48,16 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 
 | Name | Type | Description | Required | Default
 | --- | --- | --- | --- | --- |
-| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection will represent one bookable resource type. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_resourceType`. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
+| ResourceTypes | EntityCollection | This attribute specifies the resource type required for the requirement. It can be specified using an entity collection. Each entity in the collection represents one bookable resource type. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_resourceType`. This is the attribute required: <ol> <li> **Value** (_Integer_): The option set value that represents the resource type: <ul> <li> 1- Generic <li> 2- Contact <li> 3- User <li> 4- Equipment <li> 5- Account <li> 6- Crew <li> 7- Facility <li> 8- Pools | No | All resource types except crews
 | PreferredResources | EntityCollection | This attribute specifies the resources preferred for the requirement. Adding resources to this entity collection ensures that they are at the top of the list of available resources. Even resources that are not a part of the entity collection will be on the list, but only after the preferred resources. | No | None
 | RestrictedResources | EntityCollection | This attribute specifies the resources that should not be considered for the requirement. All time slots of this resource will be filtered out of the list of results from this API.  | No| None
-| MustChooseFromResources | EntityCollection | This attribute specifies the only resources that can be on the list of available resources. It will filter out all the other results from the output list.
+| MustChooseFromResources | EntityCollection | This attribute specifies the only resources that can be on the list of available resources. It filters out all the other results from the output list.
 | Constraints | Entity | This attribute specifies the additional constraints that should be applied to the retrieval of available resources. | No| None
 | RetrieveResourcesQueryId | Guid | The Id for the Retrieve Resources query. | No| The default Retrieve Resource Query Id.
 | BookedResourceId | Guid | This attribute specifies the resource currently booked for the requirement. | No| None
 
 > [!Note] 
-> The **Preferred**/ **Restricted** / **MustChooseFrom** resources attributes can be specified using an entity collection of bookable resource entities. Each entity in the collection will represent one **Preferred** / **Restricted** / **MustChooseFrom** resource. This is the attribute required for them: <ol> <li> **Value** (_Guid_): The bookable resource ID of the **Preferred** / **Restricted** / **MustChooseFrom** resource. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_bookableresource`.
+> The **Preferred**/ **Restricted** / **MustChooseFrom** resources attributes can be specified using an entity collection of bookable resource entities. Each entity in the collection represents one **Preferred** / **Restricted** / **MustChooseFrom** resource. This is the attribute required for them: <ol> <li> **Value** (_Guid_): The bookable resource ID of the **Preferred** / **Restricted** / **MustChooseFrom** resource. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.msdyn_bookableresource`.
   
 #### Constraints
 
@@ -81,9 +81,9 @@ At the highest level, the output has the following four parameters. The results 
 
 | Name | Type | Description |
 | --- | --- | --- | 
-| TimeSlots | EntityCollection | A collection of time slot results. See (time slot entity)[#time-slots-entity] section for more details. |
+| TimeSlots | EntityCollection | A collection of time slot results. For more information, see (time slot entity)[#time-slots-entity] section. |
 | Resources | EntityCollection | A collection of resource results. Resources are represented as a collection of entities with the following attributes: <ol> <li> **BookableResource** (_Entity_): The bookable resource entity that is available for the requirement. <li> **TotalAvailableTime** (_Double_): The total available time for the resource to perform the requirement. |
-| Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition above. |
+| Related | Entity | Related resources represent resources and time slots of resources that are not directly qualified for the requested requirement but are related. For example, if a crew member qualifies for a requirement, then the other members of that crew would be related results. <ol> <li> **Timeslots** (*EntityCollection*): Time slots of related resources. The definition of time slots is the same as described in the [time slots section](#time-slots-entity). <li> **Resources** (*EntityCollection*): The related resources. The definition of resources is the same as described in the resources attribute definition. |
 | Exceptions | Entity | This attribute contains information about any exception that occurred and information about if and where the resource search was truncated. <ol> <li> **Message** (_String_): Exception message <li> **ResourcesTruncatedAt** (_Integer_): If the number of resources exceeded the retrieval limit; the number where the resources where truncated. |
 
 ### Time slots entity
@@ -100,7 +100,7 @@ At the highest level, the output has the following four parameters. The results 
 | Potential | Boolean | A boolean value indicating if the time slot has potential to fulfill the requested requirement. |
 | IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate. |
 | AllowOverlapping | Boolean | A boolean value indicating if overlapping is allowed. |
-| Resource| Entity | The resource to which the time slot belongs. See [time slot resource](#time-slot-resource) for more information.|
+| Resource| Entity | The resource to which the time slot belongs. For more information, see [time slot resource](#time-slot-resource).|
 | Location| Entity | The location has three attributes: <ol> <li> **Location** (_Entity_): It has two attributes - <ul> <li> Latitude <li> Longitude </ul> <li> **WorkLocation** (_Integer_): It has three attributes - <ul> <li> Onsite <li> Facility <li> Location Agnostic </ul> <li> **LocationSourceSlot** (_Integer_): The source of location information has three attributes - <ul> <li> Common <li> Custom GPS entity <li> Mobile audit </ul> |
 | Travel| Entity | This entity contains details of travel time and distance information for a time slot. The following are the attributes: <ol> <li> **Distance** (_Double_): The travel distance <li> **TravelTime** (_Double_):	The travel time in minutes. <li> **DistanceFromStartLocation** (_Double_): The distance from the resource’s start location. <li> **DistanceFromEndLocation**	(_Double_):	The distance from the resource’s end location. <li> **DistanceMethodSourceSlot**	(_Integer_): The source / calculation type of the distance values <ul> <li> Map Service <li> As the crow flies </ul> |
 | Next| Entity  | This entity contains details about the travel time and distance to the next time slot booking. <ol> <li> **NextScheduleLocation**	(_Entity_): The location of the next booking. The entity has two attributes: <ul> <li>Latitude <li>Longitude </ul> <li> **NextScheduleTravelTime** (_Integer_):	The travel time to the next booking in minutes. |
@@ -128,7 +128,7 @@ At the highest level, the output has the following four parameters. The results 
 
 ## Examples
   
-In this example, v3 of schedule assistant API which allows for web API calls is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results: 1 and 2 (in other words, generic and contact). 
+In this example, v3 of schedule assistant API, which allows for web API calls, is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results: 1 and 2 (in other words, generic and contact). 
 
 ``` json
 {
@@ -139,6 +139,7 @@ In this example, v3 of schedule assistant API which allows for web API calls is 
         "msdyn_todate": "2021-07-15T23:59:00Z",
         "msdyn_remainingduration": 60,
         "msdyn_duration": 60,
+        "msdyn_TimeGroup@odata.bind": "/msdyn_timegroups(c3dc79ea-d12f-ee11-9cc9-000d3a745a58)",
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
     },
     "Settings": {
