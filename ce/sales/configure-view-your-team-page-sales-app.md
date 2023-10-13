@@ -34,9 +34,6 @@ As a sales manger, you can:
 
 ## Open your team settings page
 
-> [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
 1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
@@ -104,7 +101,7 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 ### See also
 
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)      
+[Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
 
 

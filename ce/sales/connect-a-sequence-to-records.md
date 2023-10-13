@@ -1,6 +1,6 @@
 ---
-title: "Connect sequence to records in the sales accelerator"
-description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
+title: Connect sequence to records
+description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
 ms.date: 08/28/2023
 ms.topic: article
 author: udaykirang
@@ -19,6 +19,7 @@ After you create and activate a sequence for the selling process, you connect th
 ## Ways to connect sequence to records
 
 You can connect a sequence to records in the following ways:    
+
 - [Through a sequence](#ContactThroughASequence)
 - [Through the lead or opportunity grid view](#ContactThroughGridView)
 - [Through a record](#ContactThroughARecord)

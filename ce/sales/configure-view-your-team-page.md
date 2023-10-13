@@ -1,6 +1,6 @@
 ---
-title: "Configure and view your team page in conversation intelligence app"
-description: "Configure your team page with information on levels of hierarchy, top performers, and delete sellers data."
+title: Configure and view your team page in conversation intelligence app
+description: Configure your team page with information on levels of hierarchy, top performers, and delete sellers data.
 ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
@@ -37,9 +37,6 @@ As a sales manager, you can:
 - Select the top performers in your hierarchy.
 
 ## Open your team settings page
-
-> [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
 1.	Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/)
   
@@ -163,7 +160,6 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 ### See also
 
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)      
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
 
 

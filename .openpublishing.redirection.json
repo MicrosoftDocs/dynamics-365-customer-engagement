@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/field-service/single-resource-optimization.md",
+      "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/mobile-public-preview-overview.md",
       "redirect_url": "/dynamics365/field-service/mobile-powerapp-newux-overview",
       "redirect_document_id": "false"
@@ -43,6 +48,16 @@
     {
       "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
       "redirect_url": "connect-gmail-oauth2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/enable-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/live-org-chart.md",
+      "redirect_url": "/dynamics365/sales/organization-charts",
       "redirect_document_id": "false"
     },
     {
@@ -8008,11 +8023,6 @@
     {
       "source_path": "ce/customerengagement/on-premises/developer/org-service/entity-attribute-naming-conventions.md",
       "redirect_url": "/powerapps/developer/common-data-service/org-service/early-bound-programming",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customerengagement/on-premises/developer/org-service/extend-code-generation-tool.md",
-      "redirect_url": "/powerapps/developer/common-data-service/org-service/extend-code-generation-tool",
       "redirect_document_id": "false"
     },
     {
@@ -24371,8 +24381,23 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/conversation-intelligence-billing.md",
+      "redirect_url": "/dynamics365/sales/dynamics365-sales-insights-app",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/define-playbook-categories.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/prereq-sales-insights-app.md",
+      "redirect_url": "/dynamics365/sales/fre-setup-ci-sales-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/developer/custom-plugin-handling-shared-variable.md",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues",
       "redirect_document_id": "false"
     },
     {
@@ -27278,6 +27303,11 @@
       "source_path": "ce/marketing/real-time-marketing-consent-transition.md",
       "redirect_url": "/dynamics365/customer-insights/journeys/real-time-marketing-consent-transition",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
+      "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
+      "redirect_document_id": "false"
     }
   ]
 }

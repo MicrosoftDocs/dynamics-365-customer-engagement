@@ -6,7 +6,7 @@ ms.date: 11/02/2022
 ms.reviewer: jimholtz
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
 author: sidhartg

@@ -1,15 +1,18 @@
 ---
 title: Overview of the real-time Omnichannel analytics dashboard
-description: Use this article to get an introduction to real-time Omnichannel analytics dashboard in the Omnichannel for Customer Service and Customer Service workspace apps.
+description: Discover how to use an Omnichannel real-time analytics dashboard to optimize agent staffing, monitor key metrics, and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/21/2023
-ms.custom: bap-template
+ms.date: 10/03/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/03/2023
 ---
 
 # Overview of Omnichannel real-time analytics dashboard
@@ -47,7 +50,7 @@ As a supervisor, you can view the **Omnichannel real-time analytics** dashboard 
 
 ## Access reports
 
-You can view the different reports in the Customer Service workspace app. In the default view of Customer Service workspace, select the plus sign (**+**), and then select the **Omnichannel real-time analytics** dashboard. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
+You can view the different reports in the Customer Service workspace app. In the default view of Customer Service workspace, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
 
 If you can't view the reports, contact your system administrator. For more information, go to [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
