@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/05/2023
+ms.date: 10/13/2023
 ms.custom:
   - dyn365-customerservice
   - bap-template
