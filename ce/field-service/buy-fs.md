@@ -18,18 +18,8 @@ Try out Dynamics 365 Field Service before purchasing a subscription with [a free
 
 There are two types of licenses for Field Service:
 
-- The standard Dynamics 365 Field Service license
-- The subcontractor license for Dynamics 365 Field Service
-
-The following table covers key differences between the two license types.
-
-|Column1  |Column2  |
-|---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
-|Row4     |         |
-|Row5     |         |
+- The standard Dynamics 365 Field Service license that includes all core features and capabilities.
+- The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities at a lower price point.
 
 For detailed information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/) and the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
 
