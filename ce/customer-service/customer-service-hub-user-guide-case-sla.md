@@ -25,7 +25,7 @@ You can see the SLA details on the SLA-enabled entity record.
 
 ### Timer control for SLA-enabled entities
 
-If your administrator has enabled the configurations to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, you'll see the following details:
+If your administrator has enabled the configurations to display the statuses of the configured SLA KPIs by using the SLA Timer control subgrid, you see the following details:
 
 - The different status changes that the KPIs go through.
 - When a KPI nears compliance or noncompliance, the time ticker changes to show the time in hours, minutes, and seconds, as applicable.
@@ -48,13 +48,13 @@ A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed are
 
 ![Runtime view of SLA Timers.](media/sla-timer-runtime.png "Runtime view of SLA Timers")
 
-For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer will display the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time will display the negative countdown time. More information: [Enable elapsed time for SLA Timers in expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
+For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time displays the negative countdown time. More information: [Enable elapsed time for SLA Timers in expired status](add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
 
 :::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
 ## Know the status of an SLA KPI Instance record
 
-Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you'll see 5 days on the timer. If failure time is set to 10 hours, then you'll see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
+Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you see 5 days on the timer. If failure time is set to 10 hours, then you see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
 When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
 
@@ -84,9 +84,9 @@ To learn more about adding a timer control to an SLA-enabled entity, go to [Add 
 
 Track the time taken by SLA KPI Instances to reach their terminal status during business hours to evaluate whether the SLAs are realistic and take decisions about resourcing and efficiency.
 
-The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field will show data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** will show data only when the KPI is in an **In progress** or terminal state. The final value will appear in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
+The **Active Duration (min)** and **Elapsed Time (min)** fields for an SLA KPI Instance help you derive the exact number of business hours that were spent. The **Active Duration (min)** field shows data only when the KPI is in a **Paused** or terminal state. **Elapsed Time (min)** shows data only when the KPI is in an **In progress** or terminal state. The final value appears in the last KPI instance after the terminal state. The active duration and elapsed time data is shown in minutes.
 
-Active duration calculation will be asynchronous by default.
+Active duration calculation is asynchronous by default.
 
 You might need to refresh the views that have an **Active Duration (min)** field after any create or update operation. You may also need to review any customizations associated with the **Active Duration** attribute of the SLA KPI instance.
 
@@ -105,7 +105,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 
 ## Know the SLA KPI instance entity name
 
-For SLA KPI instances, you'll see the **Regarding** column as blank on Unified Interface, and on the web client you'll see it as **(No name)**. This happens for all existing and custom entities other than the case entity.
+For SLA KPI instances, you see the **Regarding** column as blank on Unified Interface, and on the web client you see it as **(No name)**. This happens for all existing and custom entities other than the case entity.
 
 Your administrator must configure the SLA KPI instance name through **Advanced Find**.
 
