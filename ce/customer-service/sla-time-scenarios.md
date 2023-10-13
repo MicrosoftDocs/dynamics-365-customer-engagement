@@ -97,10 +97,10 @@ Here's how the warning time is calculated:
 - 06/16/2023- 8:00 AM to 1:00 PM (5 hours) = 14-5= 9 hours
 - 06/16/2023- 1:00 AM to 2:00 PM (1 hour) = break hours
 - 06/16/2023- 2:00 AM to 5:00 PM (3 hours) = 9-3= 6 hours
-- 06/17/2023- Weekend (non-working day)
-- 06/18/2023- Weekend (non-working day)
+- 06/17/2023- weekend (non-working day)
+- 06/18/2023- weekend (non-working day)
 - 06/19/2023- 8:00 AM to 1:00PM (5 hours) = 6-5= 1 hour
-- 06/19/2023- - 1:00 AM to 2:00 PM (1 hour) = break hours
+- 06/19/2023- 1:00 AM to 2:00 PM (1 hour) = break hours
 - 06/19/2023- 2:00 AM to 3:00 PM (1 hour) = 1-1= 0
 
 ### Failure Time: 2 days (2*24= 48 hours)
@@ -116,7 +116,7 @@ Here's how the failure time is calculated:
 - 06/16/2023- 1:00 AM to 2:00 PM (1 hour) = break hours
 - 06/16/2023- 2:00 AM to 5:00 PM (3 hours) = 33-3= 30 hours
 - 06/17/2023- weekend (non-working day)
-- 06/18/2023- Weekend (non-working day)
+- 06/18/2023- weekend (non-working day)
 - 06/19/2023- 8:00 AM to 1:00 PM (5 hours) = 30-5= 25 hours
 - 06/19/2023- 1:00 AM to 2:00 PM (1 hour) = break hours
 - 06/19/2023- 2:00 AM to 5:00 PM (3 hours) = 25-3= 22 hours
