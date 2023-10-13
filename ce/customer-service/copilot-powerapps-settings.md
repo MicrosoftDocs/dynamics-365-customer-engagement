@@ -41,7 +41,7 @@ You must also configure the following settings to make sure that copilot summary
 
 ### Modify fields used to generate case summary
 
-Out of the box, the following keys are supported to generate the case summary:
+Out of the box, the following attributes are supported to generate the case summary:
 
 - title=title
 - description = description
