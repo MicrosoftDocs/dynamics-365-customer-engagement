@@ -29,7 +29,7 @@ In this example, time is calculated as follows:
 
 ## SLA with calendar
 
-When you create an SLA with a calendar where you set working hours and working days of the week, then the non-working hours and days aren't taken into account by the time calculation.
+When you create an SLA with a calendar with working hours and working days of the week set, then the time calculation doesn't consider the non-working hours and days.
 
 In this example, time is calculated as follows:
 
@@ -68,11 +68,11 @@ Here's how the failure time is calculated:
 - 06/21/2023- 8:00 AM to 5:00 PM (9 hours) = 10-9= 1 hour
 - 06/22/2023- 8:00 AM to 9:00 AM (1 hour) = 1-1= 0 hour
 
-So, if a case is created on 06/14/2023 3:00 PM with warning and failure time as 1 and 2 days respectively, then the warning time is 06/19/2023 12:00 noon, and the failure time is 06/22/2023 9:00 AM.
+So, if you create a case on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/19/2023 12:00 noon, and the failure time is 06/22/2023 9:00 AM.
 
 ## SLA with calendar and break hours
 
-When you create an SLA with a calendar and on that calendar, you set working hours, break hours, and working days of the week, then the non-working hours and break hours aren't taken into account for the time calculation.
+When you create an SLA with a calendar and on that calendar you set working hours, break hours, and working days of the week, then the time calculation doesn't consider the non-working and break hours.
 
 Time is calculated as follows:
 
@@ -130,11 +130,11 @@ Here's how the failure time is calculated:
 - 06/22/2023- 1:00 AM to 2:00 PM (1 hour) = break hours
 - 06/22/2023- 2:00 AM to 3:00 PM (1 hour) = 1-1= 0 hours
 
-So, if a case is created on 06/14/2023 3:00 PM with warning and failure times set as 1 day and 2 days respectively, then the warning time is 06/19/2023 3:00 PM, and the failure time is 06/22/2023 3:00 PM.
+So, if you create a case on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/19/2023 3:00 PM, and the failure time is 06/22/2023 3:00 PM.
 
 ## SLA with calendar and holiday calendar
 
-When you create an SLA with a calendar and set working hours, working days of the week, and some days as holidays, then the non-working hours, working days of the week, and holidays aren't taken into account.
+When you create an SLA with a calendar and set working hours, working days of the week, and some days as holidays, then the non-working hours, working days of the week, and holidays aren't considered.
 
 TIme is calculated as:
 
@@ -180,11 +180,11 @@ Here's how the failure time gets calculated:
 - 06/25/2023- weekend (non-working day)
 - 06/26/2023- 8:00 AM to 9:00 AM (1 hour) = 1-1= 0 hour
 
-So, if a case is created on 06/14/2023 3:00 PM and warning and failure times are set as 1 and 2 days respectively, then the warning time is 06/21/2023 12:00 noon and the failure time is 06/26/2023 9:00 AM.
+So, if you create a case on 06/14/2023 3:00 PM and warning and failure times are set as 1 and 2 days respectively, then the warning time is 06/21/2023 12:00 noon and the failure time is 06/26/2023 9:00 AM.
 
 ## Pause and hold scenario
 
-When you create an SLA and then pause it for some hours or days, the paused hours or days aren't taken into account in the SLA failure and warning times.
+When you create an SLA and then pause it for hours or days, the paused hours or days aren't considered in the SLA failure and warning times.
 
 Time is calculated as follows:
 
@@ -233,7 +233,7 @@ Here's how the failure time is calculated:
 - 06/25/2023- weekend (non-working day)
 - 06/26/2023- 8:00 AM to 4:00 PM (8 hours) = 8-8= 0 hour
 
-So, if a case is created on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/21/2023 10:00 AM and the failure time is 06/26/2023 4:00 PM.
+So, if you create a case is on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/21/2023 10:00 AM and the failure time is 06/26/2023 4:00 PM.
 
 ## See Also
 
