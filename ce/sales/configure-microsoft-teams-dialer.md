@@ -120,6 +120,7 @@ Additionally, you must grant the following permissions to your users:
     > [!NOTE]
     > - You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.
     > - If the dialer doesn't show up in a custom app that you've added it to, remove it from the app, save the changes, and then add the dialer again.
+    > - The dialer isn't supported for custom entities. Hence, sellers won't see the Phone icon for custom entities.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

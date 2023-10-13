@@ -25,13 +25,14 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 > [!NOTE]
 > An administrator must configure the Microsoft Teams dialer in your organization for you to use it. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
-Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** and view the dial pad.
+Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** pane and view the dial pad.
 
 > [!div class="mx-imgBorder"]
 > ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")
 
 > [!IMPORTANT]
-> The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The phone icon (![Phone icon.](media/phone-icon.png "Phone icon")) won't be available for custom entities.  
 
 ## Make calls with Teams
 
