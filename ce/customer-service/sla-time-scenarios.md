@@ -29,7 +29,7 @@ In this example, time is calculated as follows:
 
 ## SLA with calendar
 
-When you create an SLA with a calendar and on that calendar, you set working hours as well as working days of the week, then the non-working hours and days aren't taken into account for the time calculation.
+When you create an SLA with a calendar where you set working hours and working days of the week, then the non-working hours and days aren't taken into account by the time calculation.
 
 In this example, time is calculated as follows:
 
