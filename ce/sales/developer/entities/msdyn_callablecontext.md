@@ -664,7 +664,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10103|PowerfxRule||
 |10104|SupportUserTable||
 |10105|Key Vault Reference|Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources.|
-|10106|Managed Identity|Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources.|
+|10106|Managed Identity|Contains data to represent a Microsoft Entra ID Application used to connect to secure web-hosted resources.|
 |10107|Ms Graph Resource To Subscription|For internal use only. The mapping between Ms Graph Resources and Subscriptions.|
 |10108|Virtual Entity  Metadata|Holds  metadata values for virtual entities|
 |10109|MobileOfflineProfileExtension||

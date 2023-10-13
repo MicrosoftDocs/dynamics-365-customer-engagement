@@ -41,8 +41,6 @@ For information about older versions, see [Version history archive](version-hist
 | | *North America* | [3.4.0.495](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340495) | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | 10/09/2023
 |**Station 6** | |  |  | |
 | | *Government Community Cloud* | [3.4.0.495](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340495) | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | 10/16/2023
-| | *China* |  [TBD](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340495)| [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | 10/16/2023
-| | *Dedicated Scale Groups* |  [TBD](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340495) | [3.4.0.623](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340623) | 10/16/2023
 
 >[!NOTE]
 >

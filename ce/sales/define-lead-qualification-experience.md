@@ -1,7 +1,7 @@
 ---
-title: "Define lead qualification experience in Dynamics 365 Sales"
-description: "Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified."
-ms.date: 05/10/2022
+title: Define lead qualification experience in Dynamics 365 Sales
+description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
+ms.date: 10/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -53,6 +53,51 @@ To go to this setting:
 1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
+
+## Field mappings to other entities 
+
+When a lead is qualified, values of some fields from leads are automatically mapped to the corresponding fields in accounts, contacts, and opportunities.  
+
+**Fields mapped to opportunity**
+
+| Field name in lead | Field name in opportunity |
+|--------------------|---------------------------|
+| Topic | Topic |
+| Contact | Contact |
+| Account | Account |
+
+**Fields mapped to account**
+
+| Field name in lead | Field name in account |
+|--------------------|-----------------------|
+| Company | Account name |
+| Website | Website |
+| Business Phone | Phone |
+| Street 1 | Adress 1: Street 1 |
+| Street 2 | Adress 1: Street 2 |
+| Street 3 | Adress 1: Street 3 |
+| City | Adress 1: City |
+| State/Province | Adress 1: State/Province |
+| ZIP/Postal Code | Adress 1: ZIP/Postal Code |
+| Country/Region | Adress 1: Country/Region |
+
+**Fields mapped to contact**
+
+| Field name in lead | Field name in contact |
+|--------------------|-----------------------|
+| First name | First name |
+| Last name | Last name |
+| Job title | Job title |
+| Business Phone | Phone |
+| Mobile phone | Mobile phone |
+| Email | Email |
+| Street 1 | Adress 1: Street 1 |
+| Street 2 | Adress 1: Street 2 |
+| Street 3 | Adress 1: Street 3 |
+| City | Adress 1: City |
+| State/Province | Adress 1: State/Province |
+| ZIP/Postal Code | Adress 1: ZIP/Postal Code |
+| Country/Region | Adress 1: Country/Region |
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
