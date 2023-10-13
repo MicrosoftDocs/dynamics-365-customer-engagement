@@ -58,7 +58,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 > [!NOTE]
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
-> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
+> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** are no longer be calculated.
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 
@@ -94,12 +94,12 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 
    - **KPI Field**: Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
 
-   - **Applicable From**: Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
+   - **Applicable From**: Select a value based on which the warning and failure time are measured. For example, if you select **Created On**, the warning and failure start time for an SLA are calculated from the date and time when the entity was created.
 
 1. Select **Save**.
 
 1. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they'll be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they're overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings continues to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
@@ -215,7 +215,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
-   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that are considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 4. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
@@ -225,7 +225,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
   > [!IMPORTANT]
-  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message will be displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message are displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
 
 6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
@@ -256,9 +256,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 
    c. Select **Switch**. The following condition steps are displayed for each of which you can configure a required action:
 
-     - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
-     - **Is Succeeded**: Will run when the SLA succeeds.
-     - **Is Non-compliant**: Will run when the SLA fails.
+     - **Is Nearing Non-Compliance**: Runs when the warning time is reached for the SLA.
+     - **Is Succeeded**: Runs when the SLA succeeds.
+     - **Is Non-compliant**: Runs when the SLA fails.
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
 
