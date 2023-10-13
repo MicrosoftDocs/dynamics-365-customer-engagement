@@ -35,11 +35,11 @@ The following diagram illustrates how the integration works:
 
 ## Step 1: Register the provider
 
-1. [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal).
+1. [Create a Microsoft Entra ID application](/azure/active-directory/develop/howto-create-service-principal-portal).
 
 2. Add API permission for media recording:
 
-    1. In the Azure AD application that you've created, go to **API permissions**.
+    1. In the Microsoft Entra ID application that you've created, go to **API permissions**.
 
     2. Select **Add a permission**.
 
@@ -57,7 +57,7 @@ The following diagram illustrates how the integration works:
 
    The `scope` parameter specifies the application ID of the Conversation intelligence app. Do not change this value.
 
-    For more information about the curl command, see [Get Azure AD tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
+    For more information about the curl command, see [Get Microsoft Entra ID tokens for service principals](/azure/databricks/dev-tools/api/latest/aad/service-prin-aad-token).
 
 1. Call the following conversation intelligence API to register the third-party service provider:  
     ```POST /api/v1.0/providers/tenants```  
