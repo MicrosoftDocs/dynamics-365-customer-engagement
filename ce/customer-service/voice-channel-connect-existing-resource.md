@@ -21,7 +21,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 - The organization that you're using isn't a trial version.
 - The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
-  - You've manually [ended the trial](voice-channel-trial-phone-numbers#end-the-trial).
+  - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
 - Your active Azure subscription is in the same tenant as your Dynamics 365 account.
 - Your role has **Contributor** privileges.
