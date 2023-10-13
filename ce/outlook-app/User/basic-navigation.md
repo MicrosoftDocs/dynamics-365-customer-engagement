@@ -3,7 +3,7 @@ title: "Basic navigation in App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to navigate App for Outlook
 ms.custom: 
 ms.date: 10/12/2023
-ms.reviewer: jimholtz
+ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -15,6 +15,8 @@ search.audienceType:
   - admin
   - customizer
   - enduser
+contributors:
+- sbmjais
 ---
 
 # Basic navigation in App for Outlook
