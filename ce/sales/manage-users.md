@@ -39,7 +39,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 When you create a user in the Sales app, you can define a user ID, generate a password, and assign a license and security role in a single step.
 
-After you provide these details and select **Add**, a user is automatically created in Azure Active Directory, and the user account is available in Microsoft 365 and the Sales app.
+After you provide these details and select **Add**, a user is automatically created in Microsoft Entra ID, and the user account is available in Microsoft 365 and the Sales app.
 
 ### Create a user account
 
