@@ -107,7 +107,7 @@ Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based o
 
 For SLA KPI instances, you'll see the **Regarding** column as blank on Unified Interface, and on the web client you'll see it as **(No name)**. This happens for all existing and custom entities, other than the case entity.
 
-Your administrator must [configure the SLA KPI instance name through Advanced Find](define-service-level-agreements.md#configure-sla-kpi-instance-name-through-advanced-find), for you to view the entity name.
+Your administrator must configure the SLA KPI instance name through Advanced Find.
 
 ### See also
 
