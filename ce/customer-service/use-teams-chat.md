@@ -50,7 +50,7 @@ You can open any Dynamics 365 Customer Service record and select the **Teams cha
 
 ## Start a new connected chat
 
-You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out-of-the-box, or your administrator can add your desired record type.
+You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or your administrator can add your desired record type.
 
 Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
@@ -58,7 +58,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
-    - You can access the embedded chat from in Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
+    - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
     - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
        > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
@@ -86,7 +86,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
         
 ## Connect or disconnect an existing chat from a record
 
-You can connect a chat to a single record or multiple records. For example, if you had a chat about a case that turned into a work order, you could also connect the chat to the work order. If you decided later that you didn't want the chat to be connected to the case, you could disconnect it if your administrator has given you the proper rights.
+You can connect a chat to a single record or multiple records. For example, if you have a chat about a case that turns into a work order, you can also connect the chat to the work order. If you decide later that you don't want the chat to be connected to the case, you can disconnect it if your administrator grants you permission to do so.
 
 - To connect a chat to a record, select ellipses next to the chat, and then select **Connect to this case**.
 
@@ -100,7 +100,7 @@ As an agent, you have the following three options for getting rights to disconne
 - You're the most recent user to connect the chat to the record, and your administrator enables this capability.
 - Your administrator assigns the right to disconnect chats to you if you need the ability to disconnect chats from records.
 
-If your administrator hasn't assigned any of the above rights to you or your role, you aren't able to disconnect any chat that you or other users have connected to records. If you need the ability to disconnect chats from records, ask your administrator to assign the rights to you.
+If your administrator hasn't assigned any of the above rights to you or your role, you won't be able to disconnect any chat that you or other users have connected to records. If you need the ability to disconnect chats from records, ask your administrator to assign the rights to you.
 
 ## Use suggested contacts
 
@@ -110,7 +110,7 @@ The suggested contacts list displays users who are connected or have interacted 
 
 The **Channels** tab lists the channels that either you’ve connected to the selected record or someone else has connected a channel where you’re a participant. If you've connected a record to a channel using basic or enhanced collaboration experience, that channel is also listed in this tab. 
 
-You can connect relevant Teams channels to a record so that all the members can easily access the connected channels from the record and follow the conversation. 
+You can connect relevant Teams channels to a record, so that all the members can easily access the connected channels from the record and follow the conversation. 
 
 1. Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
@@ -130,7 +130,7 @@ As an agent, you can view and easily join chats that are connected to a record y
  > [!NOTE]
  > You can only join connected chats, and to do so, you must have write access to the record and your administrator must have turned on the Join Chat capability for the record type for which you want to join an existing connected chat.
 
-**To join a connected chat**:
+To join a connected chat:
 
 1. Open the record for which you want to join the chat.
 2. In the **Teams chats** page, go to any of the connected chats you want to join. A lock icon is displayed with text that says "Hover and join to participate." When you hover over the lock icon, if you have write access to the associated record, a **Join** button is displayed.
@@ -139,7 +139,7 @@ As an agent, you can view and easily join chats that are connected to a record y
     > ![Text that says to hover over it to join the chat.](media/hover-join-chat.png "Display of text that says to hover over it to join a chat")
 
   > [!NOTE]
-  > If you don't see the text that allows you to hover and join a chat, there are three possible reasons for this:<br> 1. Your administrator hasn’t enabled Join chat capability for the entity.<br> 2. You have read-only access to the record.<br> 3. Both scenarios in 1 and 2 apply.<br> In any of these scenarios, you can ask a member of the chat to manually add you, or you can ask your administrator to turn on the Join chat setting for that record type. 
+  > If you don't see the text that allows you to hover and join a chat, there are three possible reasons for this:<br> - Your administrator hasn’t enabled Join chat capability for the entity.<br> - You have read-only access to the record.<br> - Both scenarios in 1 and 2 apply.<br> In any of these scenarios, you can ask a member of the chat to manually add you, or you can ask your administrator to turn on the Join chat setting for that record type. 
 
 3. Select **Join**.<br>
 
@@ -180,9 +180,9 @@ As an agent, when you start a connected chat or connect an existing chat to a re
      > ![Join a Teams chat from the timeline.](media/join-teams-chat-timeline.png "Join a Teams chat from the timeline")
 
 
-## Dynamic links are unfurled in Teams chat
+## Dynamics 365 links are unfurled in Teams chat
 
-When you paste a Dynamics 365 Customer Service link into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the entity type. When you paste a dynamic link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+When you paste a link to a Dynamics 365 Customer Service or Power Apps record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
 > If you don't have access to the app or record for which you paste a link, no app or record details will be shown in the unfurled card.

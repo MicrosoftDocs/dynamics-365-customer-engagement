@@ -340,6 +340,8 @@
     items: 
     - name: Automatically create or update records
       href: automatically-create-update-records.md
+    - name: Use activity monitor to review and track rules
+      href: manage-activity-arc.md     
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
@@ -360,6 +362,8 @@
           href: set-up-holiday-schedule.md
         - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
+        - name: SLA time calculation scenarios
+          href: sla-time-scenarios.md
       - name: Configure service-level agreements
         href: define-service-level-agreements.md
       - name: Apply service-level agreements
@@ -618,6 +622,10 @@
     items:
     - name: Introduction to the voice channel
       href: voice-channel.md
+    - name: Supported cloud locations
+      href: voice-channel-region-availability.md
+    - name: Supported languages and locale codes
+      href: voice-channel-supported-languages.md
     - name: Administrator experience
       items:
       - name: Install the voice channel
@@ -642,6 +650,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Support emergency calls made by agents
+        href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
         items:
         - name: Overview of Nuance Gatekeeper Integration
@@ -692,10 +702,6 @@
           href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations
-        href: voice-channel-region-availability.md
-      - name: Supported languages and locale codes
-        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
@@ -714,8 +720,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-    - name: Emergency calling in the voice channel
-      href: voice-channel-emergency-calling.md
     - name: Pricing scenarios for voice calling
       href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
@@ -728,6 +732,8 @@
         href: set-up-chat-widget.md
       - name: Configure a chat widget
         href: add-chat-widget.md
+      - name: Enable resizing of communication panel
+        href: csac-resize-cp.md       
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
       - name: Configure agent display name
