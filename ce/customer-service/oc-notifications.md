@@ -1,10 +1,14 @@
 ---
-title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 04/05/2022
+title: "View notifications in Customer Service"
+description: "Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps."
+ms.date: 10/16/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/16/2023
 ---
 
 # View notifications
@@ -33,6 +37,10 @@ Agents can receive notification alerts on their desktop always or only when the 
 - The agent has minimized the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Serivce workspace or Omnichannel for Customer Service apps.
+
+> [!Note]
+> The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
  
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](media/desktop-notification.png "Desktop notification")
