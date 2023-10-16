@@ -628,8 +628,6 @@
             href: manage-security-roles.md
           - name: Create and manage organizational units
             href: create-org-units-cs-scheduling.md
-          - name: Schedule business closure
-            href: set-when-business-closed-csh.md
           - name: Schedule entities
             items: 
             - name: Create an entity for scheduling
@@ -642,54 +640,24 @@
               href: resource-categories-service-scheduling.md
             - name: Create or edit services
               href: create-edit-service-csh.md
-            - name: Schedule a service activity
-              href: schedule-service-activity-csh.md
             - name: Manage fulfillment preferences
               href: ../common-scheduler/fulfillment-preferences.md
           - name: Configure service activity using schedule board
             href: use-schedule-board-configure-service-activity.md
-        - name: Service Scheduling in Unified Interface
-          items: 
-          - name: Service Scheduling in Unified Interface
-            href: uci-scheduling-overview.md
-          - name: Create or edit a service
-            href: uci-create-edit-service.md
-          - name: Add facilities and equipment
-            href: uci-add-facilities-equipment.md
-          - name: Schedule a service activity
-            href: uci-schedule-service-activity.md
-          - name: Create resource groups
-            href: uci-create-resource-groups.md
-          - name: Use sites to manage your service locations
-            href: uci-create-sites.md
-          - name: Navigate the service calendar
-            href: uci-navigate-service-calendar.md
         - name: Legacy Service Scheduling
           items: 
           - name: Legacy Service Scheduling
             href: ../customer-service/legacy-scheduling.md
-          - name: Set up business closure
-            href: set-when-business-closed-cs-app.md
-          - name: Set work hours to define availability
-            href: set-work-hours-resource.md
           - name: Create or change a service
             href: create-edit-service-cs-app.md
-          - name: Schedule a service activity
-            href: schedule-service-activity-cs-app.md
           - name: Set up facilities/equipment
             href: add-facilities-equipment-cs-app.md
           - name: Create resource groups
             href: create-edit-resource-group.md
-          - name: Manage sites
-            href: use-sites-manage-service-locations.md
         - name: Service Scheduling FAQ
           items:
           - name: Service Scheduling FAQ
             href: service-scheduling-faq.md
-        - name: Developer experience
-          items: 
-          - name: Search resource availability and create bookings
-            href: universal-resource-scheduling.md
       - name: Connected Customer Service (IoT) add-in
         items: 
         - name: Overview

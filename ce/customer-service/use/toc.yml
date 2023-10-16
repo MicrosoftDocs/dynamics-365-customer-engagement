@@ -374,28 +374,10 @@
         items: 
           - name: Core Service Scheduling
             items: 
-            - name: Overview of Service scheduling
-              href: basics-service-service-scheduling.md
-            - name: Install Service Scheduling from Power Platform admin center
-              href: install-service-scheduling-from-power-platform.md
-            - name: Manage security roles
-              href: manage-security-roles.md
-            - name: Create and manage organizational units
-              href: create-org-units-cs-scheduling.md
             - name: Schedule business closure
               href: set-when-business-closed-csh.md
             - name: Schedule entities
               items: 
-              - name: Create an entity for scheduling
-                href: entity-schedule-enable.md
-              - name: Create bookable resources
-                href: resources-service-scheduling.md
-              - name: Add facilities and equipment
-                href: add-facilities-equipment-ss-csh.md
-              - name: Create and manage resource categories
-                href: resource-categories-service-scheduling.md
-              - name: Create or edit services
-                href: create-edit-service-csh.md
               - name: Schedule a service activity
                 href: schedule-service-activity-csh.md
               - name: Manage fulfillment preferences
@@ -426,14 +408,8 @@
               href: set-when-business-closed-cs-app.md
             - name: Set work hours to define availability
               href: set-work-hours-resource.md
-            - name: Create or change a service
-              href: create-edit-service-cs-app.md
             - name: Schedule a service activity
               href: schedule-service-activity-cs-app.md
-            - name: Set up facilities/equipment
-              href: add-facilities-equipment-cs-app.md
-            - name: Create resource groups
-              href: create-edit-resource-group.md
             - name: Manage sites
               href: use-sites-manage-service-locations.md
           - name: Service Scheduling FAQ
@@ -444,44 +420,6 @@
             items: 
             - name: Search resource availability and create bookings
               href: universal-resource-scheduling.md
-      - name: Connected Customer Service (IoT) add-in
-        items: 
-          - name: Overview
-            href: cs-iot-overview.md
-          - name: Connected Customer Service for Azure IoT Central
-            items: 
-            - name: Overview
-              href: cs-iot-azure-overview.md
-            - name: Tutorials
-              items: 
-              - name: Prerequisites
-                href: cs-iot-prerequisites.md
-              - name: Receive IoT Alerts from Azure IoT Central
-                href: cs-iot-receive-alerts.md
-              - name: Associate devices with customer accounts
-                href: cs-iot-central-associate-devices.md
-          - name: Connected Customer Service for Azure IoT Hub
-            items: 
-            - name: Overview
-              href: cs-iot-create-customized-solutions.md
-            - name: Architecture
-              href: cs-iot-connected-customer-service-architecture.md
-            - name: "Quickstart: Build your own IoT solution"
-              href: cs-iot-build-own-solution.md
-            - name: Prerequisites for Azure subscription
-              href: cs-iot-azure-subscription-prerequisites.md
-            - name: Installation and setup
-              href: cs-iot-installation-setup.md
-            - name: Authorize API app connections
-              href: cs-iot-authorize-api-connection.md
-            - name: Visualize device readings
-              href: cs-iot-visualize-device-readings.md
-            - name: Extend standard components or add Azure services
-              href: cs-iot-extend-connected-customer-service-solutions.md
-            - name: IoT - Parent IoT Alerts workflow
-              href: cs-iot-parent-alerts-workflow.md
-          - name: Security roles for Connected Customer Service
-            href: cs-iot-security-roles.md
       - name: Migration solutions
         items: 
           - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
