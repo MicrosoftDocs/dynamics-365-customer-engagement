@@ -16,28 +16,10 @@
           href: ../app-profile-manager/overview.md
       - name: Community
         items: 
-        - name: Overview of Community
-          href: community-overview.md
-        - name: Get started with Community
-          href: community-get-started.md
-        - name: Create a Community forum
-          href: community-forum-setup.md
-        - name: Moderator experience
-          href: community-moderator-experience.md
         - name: Community FAQ
           href: community-faqs.md
-        - name: Advanced settings   
-          items:                
-          - name: Create new websites
-            href: community-create-websites.md 
       - name: Unified routing and assignment
         items:
-          - name: Overview of unified routing
-            href: overview-unified-routing.md
-          - name: Overview of skill-based routing
-            href: overview-skill-work-distribution.md
-          - name: Use sentiment prediction-based routing
-            href: use-sentiment-prediction-for-routing.md
           - name: View historical analytics reports
             href: supervisor-historical-analytics.md
           - name: Access diagnostics for unified routing
@@ -52,18 +34,12 @@
             href: manage-skills.md
       - name: Case management
         items: 
-          - name: Overview of case management
-            href: overview-cases.md
           - name: Create cases
             href: customer-service-hub-user-guide-create-a-case.md
-          - name: Use enhanced case forms to manage cases
-            href: enh-casemgmt-csw.md        
           - name: Resolve, cancel, and reassign cases
             href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
           - name: Merge cases
             href: customer-service-hub-user-guide-merge-cases.md
-          - name: Manage cases with case grids
-            href: case-grids.md
           - name: View a social profile
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
@@ -82,20 +58,6 @@
           href: customer-service-hub-user-guide-case-sla.md
       - name: Email
         items: 
-        - name: Administrator experience
-          items: 
-          - name: Configure email
-            href: customer-service-hub-user-guide-email-admin.md
-          - name: Customize the email experience
-            href: customer-service-hub-user-guide-email-font-admin.md
-          - name: Configure the enhanced insert email template dialog
-            href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
-          - name: Configure the enhanced email template editor page
-            href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
-          - name: Configure a default signature template for a queue
-            href: add-signature-template-queue.md  
-        - name: Agent experience
-          items:
           - name: Use email
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
@@ -126,24 +88,10 @@
             href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
       - name: Inbox
         items:
-        - name: Administrator experience
-          items:
-          - name: Configure the inbox
-            href: configure-inbox.md
-        - name: Agent experience
-          items:
           - name: Use the inbox
             href: use-inbox.md
       - name: Timeline
         items: 
-        - name: Administrator experience
-          items:
-          - name: Configure timeline
-            href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
-          - name: Turn on linking of timeline notes with other table records
-            href: link-note-to-entity.md  
-        - name: Agent experience
-          items:
           - name: Use timeline
             href: /powerapps/user/add-activities
           - name: Learn about linking timeline notes with table records
@@ -152,134 +100,60 @@
         items:
         - name: Overview of knowledge management 
           href: overview-knowledge-management.md
-        - name: Administrator experience
-          items:
-          - name: Configure knowledge management 
-            href: set-up-knowledge-management-embedded-knowledge-search.md 
-          - name: Work with knowledge articles
-            href: work-knowledge-articles.md
-          - name: Set up external knowledge search providers
-            href: set-up-search-providers.md
-          - name: Add integrated search providers
-            items:
-            - name: Manage integrated search providers
-              href: add-search-provider.md
-            - name: Configure knowledge article schema mapping
-              href: int-data-mapping.md
-            - name: View and use insights for search providers
-              href: view-and-use-insights.md
-            - name: Schema details to build a metadata mapping template
-              href: int-search-metadata-schema.md
-          - name: Customize knowledge article search filters
-            href: enable-knowledge-article-search-filters.md
-          - name: Create and manage knowledge categories
-            href: create-manage-categories.md
-          - name: Create knowledge article templates in Power Apps
-            href: /power-platform/admin/create-templates-articles
-          - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
-            href: integrate-KM-with-PVA.md
-          - name: Configure the origin allowlist for knowledge articles
-            href: configure-knowledge-article-origin-allow-list.md
-          - name: Configure knowledge search control on app side pane for an entity record
-            href: configure-knowledge-search-control-productivity-pane.md
-        - name: Knowledge author experience
-          items:
-          - name: Understand the knowledge article creation process
-            href: ka-process.md
-          - name: Create and manage knowledge articles 
-            href: customer-service-hub-user-guide-knowledge-article.md
-          - name: Configure the knowledge article authoring language
-            href: set-knowledge-article-authoring-language.md
-          - name: Review knowledge articles 
-            href: review-ka.md
-          - name: Publish knowledge articles 
-            href: publish-ka.md
-          - name: Create and manage article versions
-            href: ka-versions.md
-          - name: Translate knowledge articles 
-            href: translate-ka.md
-          - name: Manage feedback for knowledge articles
-            href: feedback-sla.md 
-          - name: Create templates for knowledge articles
-            href: create-templates-knowledge-article.md
-          - name: Prevent duplicate workflows with knowledge article operations
-            href: dup-workflows-ka.md
-          - name: Knowledge article analytics
-            href: dashboards-ka.md
-        - name: Agent experience
-          items:
-          - name: Search knowledge articles
-            href: search-knowledge-articles-csh.md
-          - name: Email a knowledge article
-            href: email-articles.md
-          - name: Link and unlink knowledge articles
-            href: link-articles.md
-          - name: Filter knowledge articles
-            href: filter-articles.md
-          - name: Submit ratings and feedback for knowledge articles
-            href: submit-feedback.md
-          - name: Convert a case to a knowledge article
-            href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-          - name: Understand how search works in knowledge management
-            href: search-operators.md
-        - name: Self-service experience
-          items:
-          - name: Search the knowledge base on portals
-            href: knowledge-base-search-methods.md
-        - name: Customization experience
-          items: 
-          - name: Add the knowledge base search control to forms
-            href: add-knowledge-base-search-control-forms.md
-          - name: Add a knowledge article rich text editor control to a form
-            href: rich-text-editor-ka.md
-          - name: Configure faceted search results web template from your portal 
-            href: configure-faceted-search-results.md
-        - name: Developer experience
-          items:
-          - name: Create a knowledge article using a template
-            href: create-knowledge-article-using-template.md
-          - name: Extend transformer logic on templates
-            href: extend-transformer-logic-template.md
-          - name: Transform, map external source data to knowledge fields
-            href: create-a-conversion-plugin.md        
+        - name: Understand the knowledge article creation process
+          href: ka-process.md
+        - name: Create and manage knowledge articles 
+          href: customer-service-hub-user-guide-knowledge-article.md
+        - name: Configure the knowledge article authoring language
+          href: set-knowledge-article-authoring-language.md
+        - name: Review knowledge articles 
+          href: review-ka.md
+        - name: Publish knowledge articles 
+          href: publish-ka.md
+        - name: Create and manage article versions
+          href: ka-versions.md
+        - name: Translate knowledge articles 
+          href: translate-ka.md
+        - name: Manage feedback for knowledge articles
+          href: feedback-sla.md 
+        - name: Create templates for knowledge articles
+          href: create-templates-knowledge-article.md
+        - name: Prevent duplicate workflows with knowledge article operations
+          href: dup-workflows-ka.md
+        - name: Knowledge article analytics
+          href: dashboards-ka.md
+        - name: Search knowledge articles
+          href: search-knowledge-articles-csh.md
+        - name: Email a knowledge article
+          href: email-articles.md
+        - name: Link and unlink knowledge articles
+          href: link-articles.md
+        - name: Filter knowledge articles
+          href: filter-articles.md
+        - name: Submit ratings and feedback for knowledge articles
+          href: submit-feedback.md
+        - name: Convert a case to a knowledge article
+          href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+        - name: Understand how search works in knowledge management
+          href: search-operators.md
+        - name: Search the knowledge base on portals
+          href: knowledge-base-search-methods.md
       - name: Microsoft Teams for collaboration
         items:
-        - name: Introduction to collaboration
-          href: collaboration.md
-        - name: Administrator experience
-          items: 
-          - name: Configure Microsoft Teams chat
-            href: configure-teams-chat.md
-          - name: FAQ about setting up Teams chat
-            href: faq-teams-chat.md
-          - name: Enable Teams meetings in Customer Service apps
-            href: configure-teams-meetings.md
-          - name: Configure AI suggestions for contacts in Teams
-            href: configure-teams-collaboration.md
-          - name: Configure rules-based suggestions for contacts in Teams
-            href: configure-rules-based-suggested-contacts.md
-          - name: Configure auto-summarization of conversations
-            href: cs-enable-ai-generated-summary.md
-          - name: Enable Join a Teams call for agents
-            href: set-up-join-a-teams-call.md
-          - name: Configure customer support swarming
-            href: configure-customer-support-swarming.md
-        - name: Agent experience
-          items:
-          - name: Use Microsoft Teams chat
-            href: use-teams-chat.md
-          - name: Use suggested contacts to collaborate with coworkers
-            href: teams-use-suggested-contacts.md
-          - name: Use Teams meetings
-            href: use-teams-meetings.md
-          - name: Collaborate with AI-suggested contacts in Microsoft Teams
-            href: use-ai-suggested-contacts-teams.md
-          - name: Use auto-summarization for ongoing conversations
-            href: cs-ai-generated-summary.md
-          - name: Use Join a Teams call to enhance customer conversations
-            href: join-a-teams-call.md
-          - name: Use customer support swarming to resolve issues
-            href: use-customer-support-swarming.md
+        - name: Use Microsoft Teams chat
+          href: use-teams-chat.md
+        - name: Use suggested contacts to collaborate with coworkers
+          href: teams-use-suggested-contacts.md
+        - name: Use Teams meetings
+          href: use-teams-meetings.md
+        - name: Collaborate with AI-suggested contacts in Microsoft Teams
+          href: use-ai-suggested-contacts-teams.md
+        - name: Use auto-summarization for ongoing conversations
+          href: cs-ai-generated-summary.md
+        - name: Use Join a Teams call to enhance customer conversations
+          href: join-a-teams-call.md
+        - name: Use customer support swarming to resolve issues
+          href: use-customer-support-swarming.md
           - name: Share and update Dynamics 365 records within Microsoft Teams conversation
             items:
             - name: Overview
@@ -300,91 +174,7 @@
                 href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
       - name: Voice
         items:
-        - name: Introduction to the voice channel
-          href: voice-channel.md
-        - name: Supported cloud locations
-          href: voice-channel-region-availability.md
-        - name: Supported languages and locale codes
-          href: voice-channel-supported-languages.md
-        - name: Administrator experience
-          items:
-          - name: Install the voice channel
-            href: voice-channel-install.md 
-          - name: Use trial phone numbers
-            href: voice-channel-trial-phone-numbers.md   
-          - name: Connect to Azure Communication Services
-            items: 
-            - name: Connect to Azure Communication Services
-              href: voice-channel-acs-resource.md
-            - name: "Quickstart: Connect using a new Azure resource"
-              href: voice-channel-connect-new-resource.md
-            - name: "Advanced: Connect using an existing Azure resource"
-              href: voice-channel-connect-existing-resource.md 
-            - name: Sync from Azure Communication Services
-              href: voice-channel-sync-from-acs.md
-            - name: Disconnect from Azure Communication Services
-              href: voice-channel-disconnect-from-acs.md 
-          - name: Manage phone numbers
-            href: voice-channel-manage-phone-numbers.md
-          - name: Set up inbound calling
-            href: voice-channel-inbound-calling.md
-          - name: Set up outbound calling
-            href: voice-channel-outbound-calling.md
-          - name: Support emergency calls made by agents
-            href: voice-channel-emergency-calling.md
-          - name: Integrate Nuance Gatekeeper (preview)
-            items:
-            - name: Overview of Nuance Gatekeeper Integration
-              href: nuance-gatekeeper-introduction.md
-            - name: Configure contact center for Nuance Gatekeeper
-              href: configure-contact-center-nuance-gatekeeper.md
-            - name: Add authentication setting for Nuance Gatekeeper
-              href: configure-gatekeeper-authentication.md
-            - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-              href: nuance-enroll-customer.md
-          - name: Forward your Teams calls to digital contact center
-            href: voice-forward-calls.md
-          - name: Configure voicemail to manage inbound calls
-            href: voice-channel-voicemail.md
-          - name: Configure direct callback
-            href: voice-channel-direct-callback.md  
-          - name: Configure outbound and inbound profiles
-            href: configure-outbound-inbound-profiles.md  
-          - name: Configure historical analytics for voice
-            href: cs-voice-historical-analytics.md  
-          - name: Configure Power Virtual Agents bots for voice
-            href: voice-channel-pva-bots.md
-          - name: View voice calls usage
-            href: voice-channel-usage.md
-          - name: Configure post-call survey
-            href: voice-channel-survey.md
-          - name: Block spam numbers
-            href: voice-channel-block-number.md
-          - name: Configure call recording, transcription, and real-time translation
-            href: voice-channel-configure-transcripts.md
-          - name: Delete call recordings
-            href: voice-channel-delete-calls.md
-          - name: Enable voice consult with Microsoft Teams users
-            href: voice-consult-microsoft-teams-user.md
-          - name: Manage phone music
-            href: voice-channel-music.md
-          - name: Set up a multilingual bot in Power Virtual Agents
-            href: set-up-multilingual-pva-bot.md  
-          - name: Set up a multilingual contact center
-            href: voice-channel-multi-language-contact-center.md
-          - name: Bring your own carrier
-            href: voice-channel-bring-your-own-number.md
-          - name: Integrate Nuance Cloud IVR bot
-            items:
-            - name: Introduction to Nuance Cloud IVR bot integration
-              href: oc-nuance-overview.md
-            - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-              href: oc-nuance-setup.md
-          - name: Integrate a third-party IVR system with voice channel
-            href: voice-channel-contextual-transfer-external-ivr.md 
-        - name: Agent experience
-          items:
-          - name: Call a customer
+         - name: Call a customer
             href: voice-channel-call-customer.md
           - name: Use call controls and the agent desktop for voice
             href: voice-channel-agent-experience.md
@@ -396,14 +186,10 @@
             href: voice-channel-transfer-consult.md
           - name: View call recordings and transcripts
             href: voice-channel-call-recordings-transcripts.md
-        - name: Supervisor experience
-          items:
           - name: Monitor voice calls
             href: voice-channel-monitor-calls.md
-        - name: Pricing scenarios for voice calling
-          href: voice-channel-pricing-scenarios.md  
-        - name: FAQ about the voice channel
-          href: voice-channel-faqs.md  
+          - name: FAQ about the voice channel
+            href: voice-channel-faqs.md  
       - name: Chat
         items: 
         - name: Administrator experience
