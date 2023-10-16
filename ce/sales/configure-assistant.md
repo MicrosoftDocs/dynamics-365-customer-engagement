@@ -1,6 +1,6 @@
 ---
-title: "Configure the Assistant"
-description: "Configure Assistant to help sellers track their daily actions and communications through a collection of actionable insight cards."
+title: "Configure the assistant"
+description: "Configure assistant to help sellers track their daily actions and communications through a collection of actionable insight cards."
 keywords: ""
 ms.date: 10/10/2021
 ms.custom: 
@@ -49,6 +49,11 @@ Assign user privileges to give access to the assistant features. The privileges 
 More information: [Security roles and privileges](/dynamics365/customer-engagement/admin/security-roles-privileges)
 
 ### Configure and manage standard insight cards
+
+
+
+
+
 
 1. On the site map under **Assistant**, select **Insight cards**.
 
