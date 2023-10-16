@@ -1,21 +1,18 @@
 ---
-title: "Field Service (Dynamics 365) app for Windows 10+ devices (contains video) | MicrosoftDocs"
-description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
+title: Field Service mobile app for Windows 10+ devices
+description: Learn about the mobile app for Windows 10+ devices.
 ms.date: 09/17/2022
 ms.subservice: field-service-mobile
 ms.topic: article
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Field Service (Dynamics 365) app for Windows 10+ devices
+# Field Service mobile app for Windows 10+ devices
 
-The Field Service (Dynamics 365) Windows app is built on Microsoft Power Platform as a model-driven app. It's intended frontline workers using Windows devices running Windows 10 or Windows 11.
+The Dynamics 365 Field Service Windows app is built on Microsoft Power Platform as a model-driven app. It's intended frontline workers using Windows devices running Windows 10 or Windows 11.
 
-The Field Service (Dynamics 365) Windows app supports most common features as iOS & Android versions, including [offline mode](mobile-power-app-system-offline.md), for a consistent cross-platform experience.
+The Windows app supports most common features as iOS & Android versions, including [offline mode](mobile-power-app-system-offline.md), for a consistent cross-platform experience.
 
 For a guided walkthrough, check out the following video.
 
@@ -35,13 +32,13 @@ Device requirements:
 
 - Windows 10 or 11
 
-Also, be sure to [review installation and set up of the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+Also, be sure to [review installation and set up of the Field Service mobile app](mobile-power-app-get-started.md).
 
 ## Download the app
 
 [Download from Windows store](https://aka.ms/fsmobile-windows10).
 
-The app is called **Field Service (Dynamics 365)**.
+The app is called **Dynamics 365 Field Service**.
 
 Open the app and sign in with your username and password. The user account needs the *Field Service - Resource* security role.
 

@@ -1,6 +1,6 @@
 ---
-title: Configure offline capabilities in the Field Service (Dynamics 365) mobile app (contains video)
-description: Learn how to configure the mobile offline profile to work with the Field Service (Dynamics 365) mobile app when no network is available.
+title: Configure offline capabilities in the mobile app (contains video)
+description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
 ms.date: 02/17/2023
 ms.topic: how-to
 ms.subservice: field-service-mobile
@@ -8,19 +8,19 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Configure offline capabilities in the Field Service (Dynamics 365) mobile app
+# Configure offline capabilities in the mobile app
 
-Often frontline workers need to work in areas without internet access like remote areas or underground. Configure offline capabilities to allow frontline workers to continue using the Field Service (Dynamics 365) mobile app when there's no internet connection.
+Often frontline workers need to work in areas without internet access like remote areas or underground. Configure offline capabilities to allow frontline workers to continue using the Dynamics 365 Field Service mobile app when there's no internet connection.
 
 With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Store the changes on the device and sync them with the server with an active internet connection.
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
+> ![Device render showing offline status mode in the mobile app.](./media/mobile-2020-offline-complete.png)
 
 >[!TIP]
 > Configuring offline capabilities creates a fast and consistent experience and is strongly recommended.
 
-Administrators can control what data the Field Service (Dynamics 365) mobile app downloads with the offline profile.
+Administrators can control what data the Field Service mobile app downloads with the offline profile.
 
 Configure offline capabilities in four steps:
 
@@ -68,7 +68,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 **Avoid using "All records" as an offline filter**. The offline profile is the gate that controls the amount of data downloaded to the frontline workers’ devices. Technically, there's no limit to the number of records the offline profile supports. However, to keep sync times fast and efficient, avoid including "All records" as an entity filter and avoid wide date ranges. For example, rather than downloading all customer asset records, download only the records related to scheduled work orders. It reduces the number of customer asset records without impacting work at hand. For optimal performance we recommend that you follow the [offline profile guidelines](/power-apps/mobile/mobile-offline-guidelines).
 
-**Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has network connection or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service (Dynamics 365) mobile app](mobile-power-app-workflows.md).
+**Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has network connection or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, go to [Workflows and scripts for the Field Service mobile app](mobile-power-app-workflows.md).
 
 For more best practices, go to [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines)
 
@@ -109,23 +109,14 @@ For more information on offline profiles, see [Setting up mobile offline synchro
 
 ## Step 4: Add the offline profile to the app
 
-Go to your Dynamics 365 apps by going to `yourenvironment.crm.dynamics.com/apps`, then go to the app designer for Field Service mobile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer.](./media/mobile-2020-open-app-designer.png)
+Go to your Dynamics 365 apps and open the app designer for the Field Service Mobile app module.
 
 Go to **Properties** and add the offline profile you published if it's not already there. Remember to save and publish your changes if you add an offline profile.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the app designer, on the Field Service mobile properties tab.](./media/mobile-2020-add-offline-profiles.png)
 
 > [!NOTE]
 > Field Service customers can create additional offline profiles to enable scenarios where different user roles have different sync settings or entities available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
 
-Sign into your mobile app, then go to **Settings** > **Offline Setting (globe icon)** to see the status of downloaded data.
-
-> [!div class="mx-imgBorder"]
-> ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
+Sign into your mobile app, then go to **Settings** > **Offline Setting** to see the status of downloaded data.
 
 If data isn't downloading, try signing out and signing back in. If offline data is still not downloading, make sure the user you're signing into the mobile app as uses a **Published** mobile offline profile.
 
@@ -182,11 +173,11 @@ To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Of
 
 Administrators can view past sync errors by going to **Settings** > **Sync Error**.
 
-## View offline sync status 
+## View offline sync status
 
-Field Service (Dynamics 365) provides an offline sync icon that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors.
+The Field Service mobile app provides an offline sync icon that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors.
 
-For more information, see [View offline sync status ](/power-apps/mobile/offline-sync-icon).
+For more information, see [View offline sync status](/power-apps/mobile/offline-sync-icon).
 
 ## Configuration considerations
 
@@ -214,7 +205,7 @@ To control changes and keep your offline profiles in sync, your organization may
 
 ### Are WebResources supported in offline mode?
 
-Due to some current [limitations](/power-apps/mobile/offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
+Due to some current [limitations](/power-apps/mobile/offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in the mobile app and in the browser.
 
 ### How do I know when a sync is in progress?
 
@@ -229,7 +220,7 @@ These notifications show while the sync is in progress. The larger incremental s
 The **Offline Status** page in the app, available from the sitemap, shows synchronized tables and the last date and time of the sync.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) Sync Notifications.](./media/syncnotifications.png)
+> ![Screenshot of the sync notifications.](./media/syncnotifications.png)
 
 ### Why does some data become unavailable after completing the offline sync?
 

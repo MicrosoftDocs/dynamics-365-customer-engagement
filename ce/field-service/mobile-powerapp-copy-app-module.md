@@ -1,6 +1,6 @@
 ---
-title: "Add a custom app module to the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to make a custom app module for the Field Service (Dynamics 365) mobile app.
+title: Add a custom app module to the Field Service mobile app
+description: Learn how to create a custom app module for the Dynamics 365 Field Service mobile app.
 ms.date: 07/26/2023
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -8,17 +8,9 @@ author: Andrea-Orimoto
 ms.author: andreo
 ---
 
-# Add a custom app module to the Field Service (Dynamics 365) mobile app
+# Add a custom app module to the Field Service mobile app
 
 We recommend using the standard Field Service Mobile app module. However, sometimes organization wants to give frontline workers access to another custom app module to enable other business use cases and processes.
-
-In this article, you learn:
-
-1. Creating a custom app module based on the Field Service Mobile app module.
-2. Make the custom app module available to the Field Service Mobile application.
-
-> [!Note]
-> At this time, custom app modules will not include booking travel calculations. Travel calculations must be implemented via customization if not using the standard Field Service mobile app module.
 
 ## Create a custom app module
 
@@ -26,11 +18,7 @@ Create a custom app module based on the Field Service Mobile app module. Reuse c
 
 1. In Dynamics 365, go to the list of your app modules and select **+ Create New App**.
 
-   ![The "Create new App" option in Field Service.](media/image1.png)
-
 1. **Create a New App** opens the app designer. Enter the **Name** and other optional detail. Expand **Advanced** and **Use components from a custom solution**. Set *Field Service* as the solution *Field Service Mobile* as the sitemap. Select **Create**.
-
-   ![The "Create a New App" screen in Power Apps.](media/createappmodule-name-solution.jpg)
 
 1. Your new app module contains all standard Field Service Mobile entities. You can now add items to the sitemap and customize your app module.
 
