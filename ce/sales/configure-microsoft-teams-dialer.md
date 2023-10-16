@@ -1,12 +1,16 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
-description: Learn how to configure Microsoft Teams dialer in Dynamics 365 Sales.
-ms.date: 08/23/2023
+description: Configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
+ms.date: 10/16/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.collection:
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/16/2023
 ---
 # Configure Microsoft Teams dialer
 
@@ -120,7 +124,7 @@ Additionally, you must grant the following permissions to your users:
     > [!NOTE]
     > - You must refresh the configuration page to make the changes available in the application. Users must refresh their page to see the dialer.
     > - If the dialer doesn't show up in a custom app that you've added it to, remove it from the app, save the changes, and then add the dialer again.
-    > - The dialer isn't supported for custom entities. Hence, sellers won't see the Phone icon for custom entities.
+    > - The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
