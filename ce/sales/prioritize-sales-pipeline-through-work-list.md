@@ -52,8 +52,7 @@ The work list displays a list of records that are assigned to you or the securit
 
 >[!NOTE]
 >
->- From version 9.1.23093.10010, the **Back**, **Save & Close**, and **Open in new window** options on the form command bar for records in the work list are removed to optimize the performance of loading forms from the work list.
->- If you want to enable the **Back**, **Save & Close**, and **Open in new window** options on your forms, contact Microsoft Support.  
+>From version 9.1.23093.10010, to optimize the performance of loading forms from the work list, the **Back**, **Save & Close**, and **Open in new window** options on the form command bar are removed. If you want these options on your forms in work list, contact Microsoft Support.  
 
 **To view the work list**
 
