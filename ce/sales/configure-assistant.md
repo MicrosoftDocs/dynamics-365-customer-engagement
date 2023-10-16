@@ -50,17 +50,12 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ### Configure and manage standard insight cards
 
-
-
-
-
-
 1. On the site map under **Assistant**, select **Insight cards**.
 
     > [!div class="mx-imgBorder"]
     > ![List of insight cards](media/si-admin-assistant-card-list.png "List of insight cards")
     
-2.	To turn on (enable) the insight cards, select the cards that are grayed out, and then select **Turn on cards**.
+2.	To turn on (enable) the insight cards, select the cards that are shaded, and then select **Turn on cards**.
 
     In this example, we've selected the cards **Recent Meetings (Exchange)** and **Email Opened**.
 
@@ -85,7 +80,7 @@ More information: [Security roles and privileges](/dynamics365/customer-engageme
 
 ## Premium assistant
 
-The premium assistant that's part of the Sales Premium license that offers advanced capabilities, including:
+The premium assistant that's part of the Sales Premium license offers advanced capabilities, including:
 
 - [Creating custom insight cards](create-insight-cards-flow.md).
 - [Prioritizing individual cards](edit-insight-cards.md#set-priority-for-a-card).
@@ -104,14 +99,14 @@ The premium assistant that's part of the Sales Premium license that offers advan
 
 3. On the site map under **Assistant**, select **Home**.
 
-4. On the **Home** tab (**Assistant Studio** page), you can perform actions as described in the below table.
+4. On the **Home** tab (**Assistant Studio** page), you can perform actions as described in the following table.
     
     > [!div class="mx-imgBorder"]
-    > ![Assistant studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant studio home page")
+    > ![Assistant Studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant Studio home page")
 
     | Number | Description | 
     |--------|---------|
-    | **1** | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
+    | **1** | Create cards that are customized for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
     | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |
     | **3** | Table with card details displays the cards that are available in your organization. More information: [Edit insight cards](edit-insight-cards.md) |
     | **4** | Search for cards that you want to view or manage. |
@@ -127,7 +122,7 @@ The premium assistant that's part of the Sales Premium license that offers advan
 
 ## Disable teasers
 
-The updates in Sales Insights are displayed to sellers as teasers in the assistant. By default, teasers are enabled in your organization. However, you can disable if you don’t wish to display the teasers. To disable, follow these steps:
+The updates in Sales Insights are displayed to sellers as teasers in the assistant. By default, teasers are enabled in your organization. However, you can disable them if you don’t want to display the teasers. To disable, follow these steps:
 
 1. Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
