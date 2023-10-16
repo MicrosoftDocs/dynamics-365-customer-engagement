@@ -555,7 +555,7 @@
           - name: Enable Copilot features for custom apps
             href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
       - name: Bots
-          items:
+        items:
           - name: Overview of bots
             href: overview-bots.md
           - name: Best practices for configuring bots
