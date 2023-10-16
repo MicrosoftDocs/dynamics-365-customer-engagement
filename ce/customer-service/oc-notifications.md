@@ -1,6 +1,6 @@
 ---
-title: "View notifications in Customer Service"
-description: "Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps."
+title: View notifications in Customer Service
+description: Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps.
 ms.date: 10/16/2023
 ms.topic: article
 author: neeranelli
@@ -32,12 +32,12 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
-- The agent is using two screens, and is on the screen that doesn't have either the Customer Serivce workspace or Omnichannel for Customer Service apps.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
 
 > [!Note]
 > The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
