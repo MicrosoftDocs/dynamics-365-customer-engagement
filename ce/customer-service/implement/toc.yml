@@ -40,13 +40,7 @@
           items:
           - name: Deprecations in Customer Service
             href: deprecations-customer-service
-          - name: Intraday 
-            items:
-            - name:
-              href:
-            - name:
-              href:
-          - name: Analytics and Insights
+          - name: Customer Service and Omnichannel Insights
             items:
             - name: Introduction to analytics and insights
               href: introduction-customer-service-analytics.md
