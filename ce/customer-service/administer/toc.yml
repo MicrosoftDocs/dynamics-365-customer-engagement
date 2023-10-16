@@ -338,14 +338,14 @@
           href: voice-channel-emergency-calling.md
         - name: Integrate Nuance Gatekeeper (preview)
           items:
-            - name: Overview of Nuance Gatekeeper Integration
-              href: nuance-gatekeeper-introduction.md
-            - name: Configure contact center for Nuance Gatekeeper
-              href: configure-contact-center-nuance-gatekeeper.md
-            - name: Add authentication setting for Nuance Gatekeeper
-              href: configure-gatekeeper-authentication.md
-            - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-              href: nuance-enroll-customer.md
+          - name: Overview of Nuance Gatekeeper Integration
+            href: nuance-gatekeeper-introduction.md
+          - name: Configure contact center for Nuance Gatekeeper
+            href: configure-contact-center-nuance-gatekeeper.md
+          - name: Add authentication setting for Nuance Gatekeeper
+            href: configure-gatekeeper-authentication.md
+          - name: Enroll customers in biometric authentication using Nuance Gatekeeper
+            href: nuance-enroll-customer.md
           - name: Forward your Teams calls to digital contact center
             href: voice-forward-calls.md
           - name: Configure voicemail to manage inbound calls
@@ -378,206 +378,86 @@
             href: voice-channel-multi-language-contact-center.md
           - name: Bring your own carrier
             href: voice-channel-bring-your-own-number.md
-          - name: Integrate Nuance Cloud IVR bot
-            items:
-            - name: Introduction to Nuance Cloud IVR bot integration
-              href: oc-nuance-overview.md
-            - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-              href: oc-nuance-setup.md
-          - name: Integrate a third-party IVR system with voice channel
-            href: voice-channel-contextual-transfer-external-ivr.md
-          - name: Pricing scenarios for voice calling
-            href: voice-channel-pricing-scenarios.md
+        - name: Integrate Nuance Cloud IVR bot
+          items:
+          - name: Introduction to Nuance Cloud IVR bot integration
+            href: oc-nuance-overview.md
+          - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
+            href: oc-nuance-setup.md
+        - name: Integrate a third-party IVR system with voice channel
+          href: voice-channel-contextual-transfer-external-ivr.md
+        - name: Pricing scenarios for voice calling
+          href: voice-channel-pricing-scenarios.md
       - name: Chat
         items: 
-        - name: Administrator experience
-          items: 
-          - name: Introduction to the chat channel
-            href: set-up-chat-widget.md
-          - name: Configure a chat widget
-            href: add-chat-widget.md
-          - name: Enable resizing of communication panel
-            href: csac-resize-cp.md       
-          - name: Enable download, email of chat transcripts
-            href: download-email-chat-transcripts.md
-          - name: Configure agent display name
-            href: agent-display-name.md
-          - name: Configure proactive chat
-            href: proactive-chat.md
-          - name: Configure persistent chat
-            href: persistent-chat.md
-          - name: Configure reconnection to a previous chat session
-            href: configure-reconnect-chat.md
-          - name: Understand disconnected chats
-            href: oc-conv-state-chat-disconnect.md   
-          - name: Understand conversation states
-            href: oc-conversation-state.md 
-          - name: Show customers their position in a queue
-            href: show-queue.md
-          - name: Show customers their average wait time in a queue
-            href: average-wait-time.md        
-          - name: Delete a channel instance
-            href: delete-channel.md
-          - name: Manage enhanced Active Conversation settings
-            href: add-customer-summary-settings.md
-        - name: Agent experience
-          items: 
-          - name: Omnichannel for Customer Service for agents
-            href: omnichannel-customer-service-app-agent.md
-          - name: Sign into the agent app
-            href: oc-sign-in-omnichannel.md
-          - name: Know the agent interface in Omnichannel for Customer Service
-            href: oc-introduction-agent-interface.md
-          - name: View agent dashboard and work items
-            href: oc-agent-dashboard.md
-          - name: View agent notifications
-            href: oc-notifications.md
-          - name: View communication panel
-            href: oc-conversation-control.md
-          - name: View active conversations
-            href: oc-customer-summary.md
-          - name: Create a record
-            href: oc-create-record.md
-          - name: Search, link, and unlink a record
-            href: oc-search-link-unlink-record.md
-          - name: Take notes for conversation
-            href: oc-take-notes.md    
-          - name: View call options and visual engagement in live chat
-            href: call-options-visual-engagement.md
-          - name: Monitor real-time customer sentiment
-            href: oc-monitor-real-time-customer-sentiment-sessions.md
-          - name: Manage sessions
-            href: oc-manage-sessions.md
-          - name: Manage applications
-            href: oc-manage-applications.md
-          - name: Personalize sound notifications
-            href: oc-personalize-sound-notifications.md
-          - name: Create personal quick replies
-            href: create-personal-quick-replies.md
-          - name: Manage presence status
-            href: oc-manage-presence-status.md
-          - name: Search for transcripts
-            href: oc-search-transcipts.md
-          - name: View conversation and session forms
-            href: oc-view-activity-types.md
-          - name: View active conversation for an incoming conversation request
-            href: oc-view-customer-summary-incoming-conversation-request.md
-          - name: Real-time language translation of conversations
-            href: oc-real-time-translation.md
-          - name: Markdown formats for agents
-            href: markdown-formats-agents.md
-        - name: Developer experience
-          items: 
-          - name: Develop a custom live chat widget
-            href: develop-live-chat-widget.md
-          - name: Customize live chat widgets using data tags
-            href: customize-chat-widget.md
-          - name: Customize live chat widgets for mobile apps
-            href: render-live-chat-widget-mobile.md
-          - name: Download transcripts in bulk
-            href: download-transcripts-bulk.md
-          - name: Add a web resource for real-time translation
-            href: add-web-resource-real-time-translation.md
-          - name: Enable third-party co-browse and screen sharing
-            href: third-party-co-browse.md
-          - name: Live chat widget telemetry
-            href: live-chat-telemetry.md
-          - name: Configure relevance search for transcripts
-            href: relevance-search-chat-transcript.md
-          - name: Configure link to conversation button
-            href: configure-link-to-conversation-model-driven-app-form.md 
-          - name: Start a chat
-            href: initiate-chat-wait-time.md
-          - name: Start chat proactively
-            href: start-proactive-chat.md
-          - name: Send authentication token
-            href: send-auth-token-starting-chat.md       
-          - name: Configure automatic closure of conversations using web API
-            href: auto-close-conversation.md
-          - name: Send custom context during live chat
-            href: send-context-starting-chat.md
-          - name: Display custom context in Conversation summary
-            href: display-custom-context.md
-        - name: Customizer experience
-          items: 
-          - name: Overview
-            href: omnichannel-customizer.md
-          - name: Customize active conversation form
-            href: customize-customer-summary.md
-          - name: Customize quick view forms
-            href: customize-quick-view-form.md
-          - name: Customize session forms
-            href: customize-session-form.md
-          - name: Customizations supported by Conversation form and entity
-            href: supported-customizations.md  
-      - name: Portals
-        items: 
-        - name: Embed a chat widget in a portal
-          href: embed-chat-widget-portal.md
+        - name: Introduction to the chat channel
+          href: set-up-chat-widget.md
+        - name: Configure a chat widget
+          href: add-chat-widget.md
+        - name: Enable resizing of communication panel
+          href: csac-resize-cp.md       
+        - name: Enable download, email of chat transcripts
+          href: download-email-chat-transcripts.md
+        - name: Configure agent display name
+          href: agent-display-name.md
+        - name: Configure proactive chat
+          href: proactive-chat.md
+        - name: Configure persistent chat
+          href: persistent-chat.md
+        - name: Configure reconnection to a previous chat session
+          href: configure-reconnect-chat.md
+        - name: Understand disconnected chats
+          href: oc-conv-state-chat-disconnect.md   
+        - name: Understand conversation states
+          href: oc-conversation-state.md 
+        - name: Show customers their position in a queue
+          href: show-queue.md
+        - name: Show customers their average wait time in a queue
+          href: average-wait-time.md        
+        - name: Delete a channel instance
+          href: delete-channel.md
+        - name: Manage enhanced Active Conversation settings
+          href: add-customer-summary-settings.md
+        - name: Overview
+          href: omnichannel-customizer.md
+        - name: Customize active conversation form
+          href: customize-customer-summary.md
+        - name: Customize quick view forms
+          href: customize-quick-view-form.md
+        - name: Customize session forms
+          href: customize-session-form.md
+        - name: Customizations supported by Conversation form and entity
+          href: supported-customizations.md  
       - name: Channels
         items: 
-        - name: Introduction to channels
-          href: channels.md
-        - name: Administrator experience
+        - name: Set up SMS channels
           items: 
-          - name: Set up SMS channels
-            items: 
-            - name: Overview of SMS channels
-              href: sms-channel-overview.md
-            - name: Configure an SMS channel using Azure Communication Services
-              href: configure-sms-channel-acs.md
-            - name: Configure an SMS channel for TeleSign
-              href: configure-sms-channel.md
-            - name: Configure an SMS channel for Twilio
-              href: configure-sms-channel-twilio.md
-          - name: Set up social channels
-            items: 
-            - name: Configure an Apple Messages for Business channel
-              href: configure-apple-messages-for-business-channel.md
-            - name: Configure a Facebook channel
-              href: configure-facebook-channel.md
-            - name: Configure Google's Business Messages channel
-              href: configure-google-business-messages-channel.md
-            - name: Configure a LINE channel
-              href: configure-line-channel.md
-            - name: Configure a WhatsApp channel
-              href: configure-whatsapp-channel.md
-            - name: Configure a WeChat channel
-              href: configure-wechat-channel.md
-          - name: Configure a Microsoft Teams channel
-            href: configure-microsoft-teams.md
-          - name: Configure a custom messaging channel
-            href: configure-custom-channel.md
-        - name: Agent experience
+          - name: Overview of SMS channels
+            href: sms-channel-overview.md
+          - name: Configure an SMS channel using Azure Communication Services
+            href: configure-sms-channel-acs.md
+          - name: Configure an SMS channel for TeleSign
+            href: configure-sms-channel.md
+          - name: Configure an SMS channel for Twilio
+            href: configure-sms-channel-twilio.md
+        - name: Set up social channels
           items: 
-          - name: Use SMS channel
-            href: sms-telesign-twilio.md
-          - name: Use Facebook channel
-            href: facebook.md
-          - name: Use Google's Business Messages channel
-            href: google-business-messages.md
-          - name: Use WhatsApp channel
-            href: whatsapp.md
-          - name: Use Microsoft Teams channel
-            href: teams-channel.md
-          - name: Use WeChat channel
-            href: wechat-channel.md
-          - name: View social profiles
-            href: supported-channels-social-profiles.md  
-        - name: Developer experience
-          items: 
-          - name: Integrate a custom messaging channel
-            items: 
-            - name: Integrate your own custom channel using Direct Line
-              href: bring-your-own-channel.md
-            - name: Test the custom messaging channel
-              href: test-custom-channel-sample-html.md
-            - name: Markdown formats in custom channels that use Direct Line
-              href: markdown-formats-dev.md
-        - name: Support for live chat and asynchronous channels
-          href: card-support-in-channels.md
-        - name: Preconfigured automated message triggers for asynchronous channels
-          href: preconfig-auto-message-triggers-async-channels.md  
+          - name: Configure an Apple Messages for Business channel
+            href: configure-apple-messages-for-business-channel.md
+          - name: Configure a Facebook channel
+            href: configure-facebook-channel.md
+          - name: Configure Google's Business Messages channel
+            href: configure-google-business-messages-channel.md
+          - name: Configure a LINE channel
+            href: configure-line-channel.md
+          - name: Configure a WhatsApp channel
+            href: configure-whatsapp-channel.md
+          - name: Configure a WeChat channel
+            href: configure-wechat-channel.md
+        - name: Configure a Microsoft Teams channel
+          href: configure-microsoft-teams.md
+        - name: Configure a custom messaging channel
+          href: configure-custom-channel.md
       - name: Advanced settings for chat and channels
         items: 
         - name: Configure operating hours
