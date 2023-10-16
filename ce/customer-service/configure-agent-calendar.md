@@ -3,15 +3,13 @@ title: Configure the agent calendar view
 description: Learn how to enable the agent calendar in Dynamics 365 Customer Service admin center.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: neeranelli
+ms.reviewer: shubjoshi
 ms.topic: how-to
-ms.date: 10/31/2023
+ms.date: 10/18/2023
 ms.custom: bap-template
 ---
 
 # Configure the agent calendar view
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 As an administrator or a supervisor, you can help agents in your organization view their work schedules. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule. 
 
@@ -21,13 +19,14 @@ As an administrator or a supervisor, you can help agents in your organization vi
 
 ## Prerequisites
 
-To enable the calendar view for agents, you must have at least one of the below roles:
+To enable the calendar view for agents, you must have at least one of the following roles:
 
-- System Administrator.
-- CSR Manager.
-- Omnichannel administrator.
-- Omnichannel supervisor.
-You must have a third-party adapter that has been configured to import agent bookings from an external system. Without an adapter in place, external bookings cannot be surfaced in **Agent Calendar** and agents will not be able to view their schedule.
+- System Administrator
+- CSR Manager
+- Omnichannel administrator
+- Omnichannel supervisor
+
+You must also have a third-party adapter configured to import agent bookings from an external system. Without an adapter in place, external bookings can't be surfaced in the agent calendar, and agents won't be able to view their schedules.
 
 ## Enable the agent calendar
 
