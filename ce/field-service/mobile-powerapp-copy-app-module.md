@@ -14,17 +14,17 @@ We recommend using the standard Field Service Mobile app module. However, someti
 
 ## Create a custom app module
 
-Create a custom app module based on the Field Service Mobile app module. Reuse components and sitemap of the Field Service Mobile app, as a starting point from which you can customize your experience.
+Create a custom app module based on the Field Service Mobile app module. Reuse components and sitemap of the Field Service Mobile app module, as a starting point from which you can customize your experience.
 
 1. In Dynamics 365, go to the list of your app modules and select **+ Create New App**.
 
 1. **Create a New App** opens the app designer. Enter the **Name** and other optional detail. Expand **Advanced** and **Use components from a custom solution**. Set *Field Service* as the solution *Field Service Mobile* as the sitemap. Select **Create**.
 
-1. Your new app module contains all standard Field Service Mobile entities. You can now add items to the sitemap and customize your app module.
+1. Your new app module contains all standard Field Service Mobile app module entities. You can now add items to the sitemap and customize your app module.
 
 1. After adding items to the sitemap, **Publish** the app module.
 
-## Make the custom app module available in Field Service Mobile
+## Make the custom app module available in the mobile app
 
 Once the custom app module is created, you need update the mobile app player that can access the app module.
 
@@ -40,7 +40,7 @@ To make the app module available to the Field Service mobile app:
 
 1. Close the settings dialog and **Save and Publish** your app module.
 
-You can now find the custom app module in the app picker screen after signing in to the Field Service Mobile application.
+You can now find the custom app module in the app picker screen after signing in to the Field Service mobile app.
 
 > [!NOTE]
 > If you don't see the app module:

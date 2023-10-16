@@ -86,7 +86,7 @@ Open the following directory on your device to find the logs related to a Window
 
 ## Install from app center
 
-If you don't have access to install Field Service Mobile for Windows from the Microsoft Store, you can install it from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release).
+If you don't have access to install Field Service for Windows from the Microsoft Store, you can install it from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release).
 
 An administrator can also download the package from the [app center](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/field-service-windows-store-signed-builds/distribution_groups/public%20release) and distribute it to users with Intune.
 

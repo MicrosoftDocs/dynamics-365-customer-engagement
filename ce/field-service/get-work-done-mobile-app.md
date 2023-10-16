@@ -37,13 +37,13 @@ The functional location field on the work order tells the technician exactly whe
 Change the status of a booking to **Traveling** directly from the booking home page. Swipe the booking from left to right or by tap on the booking's contextual menu to access its quick actions and set the status. You can also open the booking and tap **Edit status** on the **General** tab.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of status change to traveling in the Field Service Mobile app.](./media/mobile-newux-traveling.png)
+> ![Screenshot of status change to traveling in the Field Service mobile app.](./media/mobile-newux-traveling.png)
 
 Open the default maps app to get directions by tapping on the directions icon on a booking tile in the bookings home page. Directions use the geolocation of the address and fall back to the address string when no geolocation is available. If no address is specified, then the directions icon doesn't show.
 You can decide if you want the booking status to change to **Traveling** get directions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of traveling directions in the Field Service Mobile app.](./media/mobile-newux-traveling-directions.png)
+> ![Screenshot of traveling directions in the Field Service mobile app.](./media/mobile-newux-traveling-directions.png)
 
 ---
 
@@ -63,7 +63,7 @@ On the **Service tab**, you see work order details like work order service tasks
 When you're ready to start the work, access the booking details view by tapping on the booking tile on the booking home page. You find three separate tabs for work order service tasks (**Tasks**), products (**Products**), and services (**Services**). Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div]
-> ![Screenshot of performing work in the Field Service Mobile app.](./media/mobile-newux-work.png)
+> ![Screenshot of performing work in the Field Service mobile app.](./media/mobile-newux-work.png)
 
 ---
 
@@ -88,7 +88,7 @@ The **Timeline** tab is available for other historical data related to the booki
 On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
 
 > [!div]
-> ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
+> ![Screenshot of notes in the timeline in the Field Service mobile app](./media/mobile-newux-notes.png)
 
 > [!NOTE]
 > Notes in **Timeline** are stored in the `annotation` table, are associated with the booking, and currently don't show on the parent work order timeline. 

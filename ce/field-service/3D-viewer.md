@@ -16,8 +16,6 @@ Dynamics 365 Field Service allows organizations to upload 3D models for field te
 
 You can configure 3D models by using an N:N relationship between the 3D model and customer asset entities, which enables 3D models to be associated with customer assets.
 
-In this topic, we'll walk through how to associate a 3D model record with a customer asset and then view the 3D model on Field Service Mobile.
-
 ## Prerequisites
 
 - Dynamics 365 v9.0+ 

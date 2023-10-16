@@ -85,7 +85,7 @@ After selecting a resource type, a lookup field will appear prompting you to cho
 10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It’s used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
 12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
-13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
+13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service mobile app.
 
 > [!NOTE]
 > The Field Service mobile app currently doesn't support drip scheduling.
@@ -144,7 +144,7 @@ You can add breaks or split a resource's work hours into different capacities fo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png "Screenshot of custom work hours on a bookable resource with different capacity on a day.")
 
-In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
+Latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
 For more information on editing work hour calendars, see [editing work hours](field-service-work-hours-calendar-api.md)
 

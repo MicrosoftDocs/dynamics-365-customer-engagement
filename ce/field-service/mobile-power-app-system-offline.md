@@ -252,7 +252,7 @@ The application will check for connectivity whenever you navigate. The following
 
 - Offline sync filters: Creating a record on the device while in offline mode, and that record doesn't meet filter conditions, then the record doesn't get resynchronized from the service until it meets the conditions.
 - Offline sync filters: After setting up commands or capabilities to work with internet connectivity but not in offline mode, review them to confirm they're calling correct APIs: `Xrm.WebApi.online`.
-- Offline Tables: Tables that support offline are part of the default Field Service Mobile Offline Profile. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
+- Offline Tables: Tables that support offline are part of the default *Field Service Mobile - Offline Profile*. Some field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline may result in errors in the mobile application.
 - Inventory Validation doesn't run without network.
 - When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have six relationships: B, C, D, F, G, and H. 
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)

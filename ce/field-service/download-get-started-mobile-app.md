@@ -60,12 +60,12 @@ The menu at the bottom allows for easy access to the bookings home page (**Home*
 Select the profile picture in the header to access settings, provide feedback, and change the environment.
 
 > [!div]
-> ![Screenshot of bookings home page, filter, sort in the Field Service Mobile app in preview](./media/mobile-newux-bookings.png)
+> ![Screenshot of bookings home page, filter, and sort option.](./media/mobile-newux-bookings.png)
 
 Each work order in the list exposes some quick actions in the contextual menu or by swiping from left to right, which allows technicians to quickly update the status of the booking and to get directions directly from the home page.
 
 > [!div]
-> ![Screenshot of quick actions, swiping in the Field Service Mobile app home page in preview](./media/mobile-newux-swipe.png)
+> ![Screenshot of quick actions, swiping on the mobile app home page.](./media/mobile-newux-swipe.png)
 
 ---
 

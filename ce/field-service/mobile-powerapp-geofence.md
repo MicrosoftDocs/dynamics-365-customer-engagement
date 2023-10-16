@@ -105,7 +105,7 @@ Next, go to the bookable resource configuration and enter the following:
 
 ## Step 5. Book a work order
 
-Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. This resource has been designated as a **User** type, and has access to the Field Service Mobile app.
+Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. This resource has been designated as a **User** type, and has access to the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing a dragged bookable resource.](./media/mobile-2020-location-auditing-schedule-board.png)

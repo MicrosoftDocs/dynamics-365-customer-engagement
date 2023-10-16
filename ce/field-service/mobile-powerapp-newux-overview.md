@@ -43,12 +43,9 @@ Here's a list of documents that contain specific preview content:
 
 ## Enable the preview features
 
-To enable the preview features for your organization, sign in as a **Field Service Administrator** to Dynamics 365 in a web browser. Select the **Field Service Mobile** app from the list of all installed apps in your organizations.
+To enable the preview features for your organization, sign in as a **Field Service Administrator** to Dynamics 365 in a web browser. Select the **Field Service Mobile** app module from the list of all installed apps in your organizations.
 
 In the mobile app, open the **Settings** area. Set the toggle to enable or disable the preview features for all users within the organization.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Field Service Mobile app settings page and toggle to enable/disable the preview features](./media/mobile-newux-enable-toggle.png)
 
 ## Limitations of preview features
 

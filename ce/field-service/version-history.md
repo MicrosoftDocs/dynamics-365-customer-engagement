@@ -46,7 +46,7 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) and Resource Scheduling controls version 1.2.52.232511).
 
 - Fixed a problem causing IoT properties to be converted from a string to a date value if a 4 digit number is entered.
-- Dynamics 365 Field Service Mobile: Fixed a race condition in inspections which could result in an error if work order service task is marked as complete quickly after the inspection is completed.
+- Dynamics 365 Field Service mobile: Fixed a race condition in inspections which could result in an error if work order service task is marked as complete quickly after the inspection is completed.
 - Updated inspections to prevent inspection response from being created in some unexpected scenarios.
 
 
@@ -62,23 +62,23 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 -	Fixed a problem preventing estimated subtotal price from showing when the estimate is 0.
 -	Fixed a problem where nothing would happen when trying to expand timeline notes from the work order side pane.
 
-- Dynamics 365 Field Service Mobile: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
+- Dynamics 365 Field Service mobile app: [Work Order Recap](work-order-recap.md) preview for bookings and work orders on mobile.
 
 ## 8.8.98.36
 (Includes Universal Resource Scheduling version [3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.51.232411).
 
 - Fixed a bug that caused errors when navigating to Field Service settings.
 -	Job status on Field Service System Jobs is no longer required and will not be set to pending.
-- Dynamics 365 Field Service Mobile: Fixed an accessibility bug by showing a string that informs the user when a required date field is not filled. 
-- Dynamics 365 Field Service Mobile: Fixed a crash in the Inspections control that could happen when the user interacts with date fields. 
+- Dynamics 365 Field Service mobile app: Fixed an accessibility bug by showing a string that informs the user when a required date field is not filled. 
+- Dynamics 365 Field Service mobile app: Fixed a crash in the Inspections control that could happen when the user interacts with date fields. 
  
 ## 8.8.97.44
 (Includes Universal Resource Scheduling version [3.12.110.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211018) and Resource Scheduling controls version 1.2.50.232152).
 
-- Dynamics 365 Field Service Mobile: Fixed a bug to prevent a JavaScript error when accessing a Bookable Resource Booking with Offline Classic mode enabled. 
-- Dynamics 365 Field Service Mobile: Significantly improved reliability of the application when multiple images are uploaded within an Inspection.
-- Dynamics 365 Field Service Mobile: Improved error messages to be more actionable when missing customer voice survey responses in Inspections.
-- Dynamics 365 Field Service Mobile: Fixed a visibility issue that occurs when exporting to PDF the Inspections questions in a survey that contains logic.
+- Dynamics 365 Field Service mobile app: Fixed a bug to prevent a JavaScript error when accessing a Bookable Resource Booking with Offline Classic mode enabled. 
+- Dynamics 365 Field Service mobile app: Significantly improved reliability of the application when multiple images are uploaded within an Inspection.
+- Dynamics 365 Field Service mobile app: Improved error messages to be more actionable when missing customer voice survey responses in Inspections.
+- Dynamics 365 Field Service mobile app: Fixed a visibility issue that occurs when exporting to PDF the Inspections questions in a survey that contains logic.
 
 ## 8.8.101.57 (2023 Wave 2 early access, update1)
 
@@ -104,13 +104,13 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 ## 8.8.96.23
 (Includes Universal Resource Scheduling version [3.12.109.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121092) and Resource Scheduling controls version 1.2.49.231861).
 
-- Dynamics 365 Field Service Mobile: Fixed an accessibility bug so users can modify product quantity with a keyboard from the Service Tasks sub-grid control.
+- Dynamics 365 Field Service mobile app: Fixed an accessibility bug so users can modify product quantity with a keyboard from the Service Tasks sub-grid control.
   
 ## 8.8.95.25
 (Includes Universal Resource Scheduling version [3.12.108.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121085) and Resource Scheduling controls version 1.2.48.231771).
 
 - Fixed a bug causing IoT Alert statuses to change when no change to the Work Order system status has occurred.
-- Fixed a bug in Dynamics 365 Field Service Mobile that prevented updating status of a work order product when the record is created from within the mobile application.
+- Fixed a bug in Dynamics 365 Field Service mobile app that prevented updating status of a work order product when the record is created from within the mobile application.
 - Fixed an accessibility bug in the inspection designer to correctly reflow the interface under different resolutions.
 - Fixed an accessibility bug in the inspection designer to make “move” and “delete” buttons accessible via keyboard.
 - Fixed an accessibility bug in the inspection designer so Narrator announces when a field is marked as required. 
@@ -128,7 +128,7 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 - Added graceful handling of addresses that are too long to be converted to latitude and longitude values.
 - Fixed a bug preventing time entry approval when a resource has a null hourly rate and the work pay type has a non-zero hourly markup.
 - Inspections: Fixed a bug where the incorrect UTC time offset was applied when writing Date Time inspection response data to Dataverse. Note this may have the side effect of surfacing in the UI the values that were previously incorrectly written.
-- Dynamics 365 Field Service Mobile: Updated the Quick Notes control to have verbose save failures in instances when the control is misconfigured and/or duplicate copies of the control is added to a single form. 
+- Dynamics 365 Field Service mobile app: Updated the Quick Notes control to have verbose save failures in instances when the control is misconfigured and/or duplicate copies of the control is added to a single form. 
 
 ## 8.8.92.27
 (Includes Universal Resource Scheduling version [3.12.105.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210525) and Resource Scheduling controls version 1.2.45.231281).
@@ -144,7 +144,7 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 (Includes Universal Resource Scheduling version [3.12.104.14](/dynamics365/field-service/field-service-version-history-resource-scheduling#31210414) and Resource Scheduling controls version 1.2.44.231111).
 
 - Improved performance of booking creation.
-- Dynamics 365 Field Service Mobile: Updated solution package to ship standard forms for msdyn_bookableresourcebookingquicknote.
+- Dynamics 365 Field Service mobile app: Updated solution package to ship standard forms for msdyn_bookableresourcebookingquicknote.
 
 ## 8.8.89.38
 This release is a hotfix on Field Service version [8.8.89.34](/dynamics365/field-service/version-history#888934).
@@ -179,7 +179,7 @@ This release is a hotfix on Field Service version [8.8.88.54](/dynamics365/field
 -	[Organize your provided services based on trades](/dynamics365/field-service/trades#configure-trade-coverages), and set up trade coverages based on which services you provide to groups of customers.
 - Use global search to quickly search for and navigate to bookings.
 - New price and cost summaries have been added to work orders to track financials. Enable or disable cost tracking in field service settings. Cost information and cost amount cards on work order products and services are now controlled by the Calculate Cost toggle in Field Service settings. Organizations that disabled the Calculate Price toggle will have these sections appear on work order products and services unless they turn off the Calculate Cost toggle.
-- Dynamics 365 Field Service mobile app: [AsyncOnSave](/power-apps/developer/model-driven-apps/clientapi/reference/events/form-onsave#asynchronous-event-handler-support) is enabled for Field Service Mobile.
+- Dynamics 365 Field Service mobile app: [AsyncOnSave](/power-apps/developer/model-driven-apps/clientapi/reference/events/form-onsave#asynchronous-event-handler-support) is enabled for the Field Service Mobile app module.
 - Dynamics 365 Field Service mobile app: Booking agenda has options for week & month view on iOS and Android tablets and the Windows application.
 - Dynamics 365 Field Service mobile app: Updated survey creator control to exclude survey meta data from telemetry.
 
