@@ -1,7 +1,7 @@
 ---
 title: Edit the navigation
-description: Change the navigation, forms, and views in the Field Service (Dynamics 365) mobile app.
-ms.date: 09/08/2023
+description: Change the navigation, forms, and views in the Dynamics 365 Field Service mobile app.
+ms.date: 10/16/2023
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: Andrea-Orimoto

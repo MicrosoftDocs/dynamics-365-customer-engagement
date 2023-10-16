@@ -76,7 +76,7 @@ Each work order in the list exposes some quick actions in the contextual menu or
 To get to the sitemap, select the menu icon. The sitemap quickly gets you to important information like accounts, contacts, customer assets, or to submit time entries.
 
 > [!div class="mx-imgBorder"]
-> ![Two mobile devices showing the Field Service mobile app. The device on the left shows the full menu for Field Service (Dynamics 365). The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
+> ![Two mobile devices showing the Field Service mobile app. The device on the left shows the navigation. The device on the right shows an account detail page.](./media/mobile-2020-sitemap-account.jpg)
 
 ## [New mobile UX (preview)](#tab/vNext)
 

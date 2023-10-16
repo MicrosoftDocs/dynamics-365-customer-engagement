@@ -10,7 +10,7 @@ ms.author: jshum
 
 # Complete work orders on the mobile app
 
-Technicians can use various features in the mobile app to efficiently plan their work day, track their work orders, and see details about customers. Other features include:
+Technicians can use various features in the Dynamics 365 Field Service mobile app to efficiently plan their work day, track their work orders, and see details about customers. Other features include:
 
 - A calendar view of assigned jobs with all details about the jobs
 - Picture, video, and asset barcode scanning
@@ -24,7 +24,7 @@ Technicians can use various features in the mobile app to efficiently plan their
 Select a booking to see more details about the booking time and the work order. Update the status to indicate you're driving to the customer location. On the **Customer** tab, you can see the work order location on a map to launch turn-by-turn driving directions on your preferred maps app.
 
 > [!div class="mx-imgBorder"]
-> ![Two mobile devices side by side, both showing the Field Service (Dynamics 365) mobile app. Device on the left shows a bookable resource booking on the general tab. Device on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
+> ![Two mobile devices side by side, showing mobile app. Device on the left shows a bookable resource booking on the general tab. Device on the right shows a map.](./media/mobile-2020-work-order-navigate-directions-map.jpg)
 
 The functional location field on the work order tells the technician exactly where to go within an address.
 
@@ -54,7 +54,7 @@ You can decide if you want the booking status to change to **Traveling** get dir
 On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include the products used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
 
 > [!div class="mx-imgBorder"]
-> ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
+> ![First screenshot on the left shows the service tab on the bookable resource booking. Middle screenshot shows the service tab. Right screenshot shows the notes tab.](./media/mobile-2020-work-order-service-notes-new.jpg)
 
 ## [New mobile UX (preview)](#tab/vNext)
 
@@ -75,7 +75,7 @@ On the **Notes** tab, capture text, image, audio, and video notes and associate 
 The **Timeline** tab is available for other historical data related to the booking.
 
 > [!div class="mx-imgBorder"]
-> ![Three mobile devices with Field Service (Dynamics 365) open. First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
+> ![First screenshot on the left shows the notes tab with options to attach notes. Middle screenshot shows camera view. Right screenshot shows the notes tab with photo notes added.](./media/mobile-uci-quick-notes.png)
 
 > [!NOTE]
 > Notes are only available when included with the Bookable Resource Booking form. The control doesn't support other entities.
@@ -85,7 +85,7 @@ The **Timeline** tab is available for other historical data related to the booki
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline on both Field Service (Dynamics 365) Mobile app and the Field Service web app. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
+On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
 
 > [!div]
 > ![Screenshot of notes in the timeline in the Field Service Mobile app](./media/mobile-newux-notes.png)
@@ -102,7 +102,7 @@ On the **Timeline** tab, select **+ Add note** to add text and images to your no
 
 Technicians can also view and interact with functional locations and customer asset hierarchies on the mobile app when connected to the internet.
 
-For a guided walkthrough of functional locations on the Field Service (Dynamics 365) Mobile app, check out the following video.
+For a guided walkthrough of functional locations on the Field Service mobile app, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 
@@ -124,7 +124,7 @@ Time entries are useful for reporting and billing purposes.
 From the main menu, go to **Time Entry** and create a new one.  
 
 > [!div class="mx-imgBorder"]
-> ![Time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
+> ![Time entry on the mobile app.](./media/mobile-2020-time-entry-all.png)
 
 For a guided walkthrough, check out the following video.
 
@@ -132,7 +132,7 @@ For a guided walkthrough, check out the following video.
 
 ## Create follow-up work orders
 
-While working on site, you may want to log work for another time. The Field Service (Dynamics 365) Mobile app makes it easy to create follow-up work orders.
+While working on site, you may want to log work for another time. The mobile app makes it easy to create follow-up work orders.
 
 For a guided walkthrough, check out the following video.
 
@@ -141,7 +141,7 @@ For a guided walkthrough, check out the following video.
 To create a follow-up work order, select the **Follow up** option in the bottom app menu. This option is only available the user has **create** permissions for the work order table. For more information on the security roles, see [users and security roles](./view-user-accounts-security-roles.md).
 
 > [!div class="mx-imgBorder"]
-> ![Device render showing the Field Service (Dynamics 365) mobile app, showing the follow up work order option.](./media/mobile-2020-follow-up.png)
+> ![Device render showing the mobile app, showing the follow up work order option.](./media/mobile-2020-follow-up.png)
 
 The following fields are already filled in based on the current work order:
 
