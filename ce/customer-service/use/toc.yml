@@ -154,24 +154,24 @@
           href: join-a-teams-call.md
         - name: Use customer support swarming to resolve issues
           href: use-customer-support-swarming.md
-          - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+        - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+          items:
+          - name: Overview
+            href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
+          - name: Work with the Dynamics 365 app
             items:
-            - name: Overview
-              href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
-            - name: Work with the Dynamics 365 app
-              items:
-              - name: Access the Dynamics 365 app through messaging extensions
-                href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
-              - name: Edit settings of the Dynamics 365 app
-                href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
-              - name: Share feedback
-                href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
-              - name: Share a record in Teams conversation
-                href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
-              - name: View and update record details
-                href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
-              - name: Add chat messages to Dynamics 365 as notes or tasks
-                href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
+            - name: Access the Dynamics 365 app through messaging extensions
+              href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Edit settings of the Dynamics 365 app
+              href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Share feedback
+              href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Share a record in Teams conversation
+              href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
+            - name: View and update record details
+              href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
+            - name: Add chat messages to Dynamics 365 as notes or tasks
+              href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
       - name: Voice
         items:
          - name: Call a customer
