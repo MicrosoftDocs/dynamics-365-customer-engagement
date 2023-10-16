@@ -504,171 +504,88 @@
           href: data-masking-settings.md  
       - name: Agent productivity tools
         items: 
-        - name: Administrator experience
-          items:
-          - name: Productivity pane
-            href: productivity-pane.md
-          - name: Enable productivity pane and smart assist
-            href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
-          - name: Create quick replies
-            href: create-quick-replies.md
-          - name: Manage rich messages
-            href: create-rich-messages.md
-          - name: Enable personal quick replies
-            href: enable-personal-quick-replies.md
-          - name: Enable transcripts
-            href: enable-transcripts-messaging-channels.md
-          - name: Enable sound notifications
-            href: enable-sound-notifications.md
-          - name: Enable missed notifications
-            href: manage-missed-notifications.md
-          - name: Enable automatic update of presence on rejection of work assignment
-            href: enable-agent-reject-notifications.md
-          - name: Enable auto-assignment of conversations
-            href: enable-auto-assign-conversations.md
-          - name: Configure the agent calendar view
-            href: configure-agent-calendar.md
-          - name: Enable sharing of knowledge articles
-            href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
-        - name: Agent experience
-          items:
-          - name: Productivity pane in Customer Service workspace
-            href: csw-productivity-pane.md
-          - name: View smart assist suggestions for knowledge articles and similar cases
-            href: oc-view-ai-suggested-cases-articles.md
-          - name: View smart assist suggestions
-            href: oc-smart-assist.md
-          - name: View the agent calendar
-            href: use-agent-calendar.md
-          - name: Use agent diagnostics as a self-help tool (preview)
-            href: use-agent-diagnostics.md
-          - name: Use agent scripts for customer interactions
-            href: oc-agent-scripts.md
-          - name: Rich messages in conversation control
-            href: rich-messages-conversation-control.md
-        - name: Developer experience
-          items: 
-          - name: Build a smart assist bot
-            href: smart-assist-bot.md
-          - name: Implement custom scenario
-            href: smart-assist-scenario.md
-          - name: Retrieve and format rich messages
-            href: developer/reference/methods/message-object.md
+        - name: Productivity pane
+          href: productivity-pane.md
+        - name: Enable productivity pane and smart assist
+          href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
+        - name: Create quick replies
+          href: create-quick-replies.md
+        - name: Manage rich messages
+          href: create-rich-messages.md
+        - name: Enable personal quick replies
+          href: enable-personal-quick-replies.md
+        - name: Enable transcripts
+          href: enable-transcripts-messaging-channels.md
+        - name: Enable sound notifications
+          href: enable-sound-notifications.md
+        - name: Enable missed notifications
+          href: manage-missed-notifications.md
+        - name: Enable automatic update of presence on rejection of work assignment
+          href: enable-agent-reject-notifications.md
+        - name: Enable auto-assignment of conversations
+          href: enable-auto-assign-conversations.md
+        - name: Configure the agent calendar view
+          href: configure-agent-calendar.md
+        - name: Enable sharing of knowledge articles
+          href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
       - name: Copilot in Customer Service 
         items: 
-        - name: Administrator experience
-          items: 
-          - name: Manage Copilot features in Customer Service
-            href: configure-copilot-features.md     
-          - name: Enable case summaries
-            href: copilot-enable-summary.md#enable-case-summaries  
-          - name: Enable conversation summaries
-            href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable ask a question (preview)
-            href: copilot-enable-help-pane.md#enable-ask-a-question
-          - name: Enable draft a response (preview)
-            href: copilot-enable-help-pane.md#enable-draft-a-response
-          - name: Enable write an email (preview)
-            href: copilot-enable-help-pane.md#enable-write-an-email
-          - name: View feedback data
-            href: configure-copilot-features.md#record-feedback        
-          - name: Make Copilot available to agents
-            href: configure-copilot-features.md#make-copilot-available-to-agents
-          - name: Copilot data movement across geographies
-            href: copilot-data-movement.md
-        - name: Agent experience
-          items: 
-          - name: Use Copilot to solve customer issues (preview)
-            href: use-copilot-features.md
-          - name: Summarize cases
-            href: copilot-use-summary.md#summarize-cases
-          - name: Summarize conversations
-            href: copilot-use-summary.md#summarize-conversations
-          - name: Ask a question (preview)
-            href: use-copilot-features.md#ask-a-question
-          - name: Draft a chat response (preview)
-            href: use-copilot-features.md#draft-a-chat-response
-          - name: Draft emails (preview)
-            href: use-copilot-features.md#draft-emails                  
-        - name: Supervisor experience
-          items: 
-          - name: View analytics for Copilot impact
-            href: copilot-analytics-report.md
-        - name: Customizer experience
-          items: 
-          - name: Display Copilot case summary on custom case forms
-            href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-          - name: Modify fields used to generate case summary
-            href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
-          - name: Enable Copilot features for custom apps
-            href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
+        - name: Manage Copilot features in Customer Service
+          href: configure-copilot-features.md     
+        - name: Enable case summaries
+          href: copilot-enable-summary.md#enable-case-summaries  
+        - name: Enable conversation summaries
+          href: copilot-enable-summary.md#enable-conversation-summaries
+        - name: Enable ask a question (preview)
+          href: copilot-enable-help-pane.md#enable-ask-a-question
+        - name: Enable draft a response (preview)
+          href: copilot-enable-help-pane.md#enable-draft-a-response
+        - name: Enable write an email (preview)
+          href: copilot-enable-help-pane.md#enable-write-an-email
+        - name: View feedback data
+          href: configure-copilot-features.md#record-feedback        
+        - name: Make Copilot available to agents
+          href: configure-copilot-features.md#make-copilot-available-to-agents
+        - name: Copilot data movement across geographies
+          href: copilot-data-movement.md
+        - name: Display Copilot case summary on custom case forms
+          href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
+        - name: Modify fields used to generate case summary
+          href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
+        - name: Enable Copilot features for custom apps
+          href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
       - name: Bots
         items:
         - name: Overview of bots
           href: overview-bots.md
         - name: Best practices for configuring bots
           href: configure-bot-best-practices.md   
-        - name: Administrator experience
+        - name: Manage your bots
+          href: manage-your-bots.md
+        - name: Configure context variables for bots
+          href: context-variables-for-bot.md      
+        - name: Configure Azure bots
           items:
-          - name: Manage your bots
-            href: manage-your-bots.md
-          - name: Configure context variables for bots
-            href: context-variables-for-bot.md      
-          - name: Configure Azure bots
-            items:
-            - name: Bot sessions and licensing
-              href: bot-session-licensing.md
-            - name: Integrate an Azure bot
-              href: configure-bot-azure.md
-            - name: Sample configuration
-              href: sample-config-azure-bot.md
-          - name: Integrate a Power Virtual Agents bot
-            href: configure-bot-virtual-agent.md
-        - name: Developer experience
-          items: 
-          - name: Configure bot context
-            href: enable-bot-context.md
-            items:
-            - name: Azure bots
-              items:
-              - name: Enable bot context for Azure bots
-                href: enable-bot-context-azure.md
-              - name: Parse event activity JSON to get bot context
-                href: parse-activity-json-to-get-bot-context.md
-            - name: Power Virtual Agents
-              items:
-              - name: Enable bot context for Power Virtuafl Agents bots
-                href: enable-bot-context-pva.md   
-            - name: Code samples for parsing activity JSON 
-              href: bot-context-json-samples.md
-          - name: Configure Azure bots to escalate and end conversations
-            href: bot-escalate-end-conversation.md
-          - name: Download file attachments from Azure bot
-            href: download-attachments-bot.md
-          - name: Get Microsoft Teams user details from Azure bot
-            href: user-details-teams-azure-bot.md
-          - name: Display suggested actions in a vertical layout
-            href: suggested-actions.md
-          - name: Pass authentication token to bot during single sign-on in live chat
-            href: pass-auth-token-sso-live-chat.md
+          - name: Bot sessions and licensing
+            href: bot-session-licensing.md
+          - name: Integrate an Azure bot
+            href: configure-bot-azure.md
+          - name: Sample configuration
+            href: sample-config-azure-bot.md
+        - name: Integrate a Power Virtual Agents bot
+          href: configure-bot-virtual-agent.md
       - name: Analytics dashboards and insights
         items: 
-        - name: Introduction to analytics and insights
-          href: introduction-customer-service-analytics.md
         - name: Supported regions and languages, and service limits for analytics and insights
           href: cs-region-availability-service-limits.md
-        - name: Administrator experience
-          items:
-          - name: Configure analytics and insights dashboards
-            href: configure-customer-service-analytics-insights-csh.md 
+        - name: Configure analytics and insights dashboards
+          href: configure-customer-service-analytics-insights-csh.md 
           - name: Manage real-time analytics dashboards
             items:
             - name: Manage Omnichannel real-time analytics reports  
               href: enable-realtime-analytics-dashboard-administrator.md
             - name: Manage access to Ongoing Conversations dashboard
               href: configure-ongoing-conversations-dashbaord.md
-            - name: Configure intraday insights
-              href: configure-intraday-dashboard-supervisor.md
           - name: Enable supervisor access to manage conversations 
             href: enable-monitor-assign-transfer-conv.md
           - name: Manage historical analytics dashboards
@@ -679,10 +596,6 @@
               href: oc-historical-analytics-reports.md
             - name: Manage Knowledge analytics
               href: enable-knowledge-search-insights.md
-            - name: Configure Customer Service analytics dashboards in Power BI
-              href: configure-customer-service-analytics-dashboard.md
-            - name: Configure Omnichannel Insights dashboards
-              href: configure-historical-sentiment-dashboard-supervisor.md
           - name: Customize data models of historical and real-time analytics reports
             href: model-customize-reports.md
           - name: Configure forecasting
@@ -701,116 +614,6 @@
             href: ai-topic-clustering-conversations.md
           - name: Configure real-time customer sentiment
             href: enable-sentiment-analysis.md
-        - name: Supervisor experience
-          items: 
-          - name: Use Omnichannel real-time analytics dashboards
-            items:
-            - name: Overview of Omnichannel real-time analytics reports
-              href: intro-realtime-analytics-dashboard.md
-            - name: Summary report
-              href: realtime-summary-dashboard.md
-            - name: Voice report
-              href: realtime-voice-dashboard.md
-            - name: Agents report
-              href: realtime-agents-analytics.md
-            - name: Ongoing Conversation report
-              href: realtime-ongoing.md
-          - name: Use Customer Service historical analytics dashboards
-            items: 
-            - name: Customer Service historical analytics dashboards
-              href: customer-service-analytics-insights-csh.md
-            - name: Summary dashboard
-              href: summary-dashboard-cs.md
-            - name: Agent dashboard
-              href: agent-dashboard-cs.md
-            - name: Case Topics dashboard
-              href: case-topics-dashboard-cs.md
-            - name: Unified routing dashboard
-              href: cs-historical-analytics-unified-routing.md
-          - name: Use Omnichannel historical analytics dashboards
-            items: 
-            - name: Omnichannel for Customer Service dashboards
-              href: omnichannel-analytics-insights.md
-            - name: Omnichannel Summary dashboard
-              href: omnichannel-summary-dashboard.md
-            - name: Omnichannel Conversation dashboard
-              href: oc-conversation-dashboard.md
-            - name: Omnichannel Queue dashboard
-              href: oc-queue-dashboard.md
-            - name: Omnichannel Voice dashboard
-              href: voice-channel-reports-analytics.md   
-            - name: Omnichannel Agent dashboard
-              href: agent-dashboard.md
-            - name: Omnichannel Bot dashboard
-              href: oc-bot-dashboard.md  
-            - name: Omnichannel Conversation topic dashboard
-              href: oc-conversation-topics-dashboard.md
-            - name: Omnichannel Voicemail dashboard
-              href: oc-voicemail-dashboard.md          
-            - name: Unified routing dashboard
-              href: oc-historical-analytics-unified-routing.md
-          - name: Use knowledge management analytics
-            href: knowledge-search-analytics-cs.md
-          - name: Use Customer Service Analytics dashboards in Power BI
-            href: customer-service-analytics.md
-          - name: Use Omnichannel Insights
-            items: 
-            - name: Introduction to Omnichannel Insights
-              href: intro-dynamics-365-omnichannel-insights-dashboard.md
-            - name: View and understand Omnichannel Insights dashboard
-              href: omnichannel-insights-dashboard.md  
-          - name: Monitor conversations
-            items: 
-              - name: Monitor, assign, transfer, and forcibly end conversations
-                href: monitor-conversations.md
-              - name: Monitor and analyze sentiments
-                href: supervisor-sentiment-monitoring.md
-          - name: Use Intraday analytics reports
-            items: 
-            - name: Introduction to intraday supervisor experience
-              href: intro-intraday-insights-dashboard.md
-            - name: Intraday Monitoring report
-              href: intraday-insights-dashboard.md
-            - name: Agents insights report
-              href: intraday-agents-insights.md
-            - name: Conversation insights report
-              href: intraday-conversation-insights.md
-            - name: Set idle time threshold
-              href: set-idle-time-threshold.md
-          - name: View and understand Omnichannel Ongoing Conversations dashboard
-            href: ongoing-conversations-dashboard.md
-          - name: Use Omnichannel for Customer Service metrics
-            href: oc-metrics-dimensions.md
-          - name: Personalize analytics
-            items: 
-            - name: Manage report filters
-              href: report-filters-groups.md
-            - name: Manage report bookmarks
-              href: manage-bookmarks.md
-          - name: Forecast reports
-            items:
-            - name: Forecast agent, case, and conversation volumes
-              href: use-volume-forecasting.md
-        - name: Report author experience
-          items:
-          - name: Customize visual display
-            href: customize-reports.md
-          - name: Customize data models
-            items:
-            - name: Overview of data model customization
-              href: datamodel-overview.md
-            - name: Use the out-of-the-box data model in your custom reports
-              href: use-datamodel.md
-            - name: Data models and report mappings for historical analytics reports
-              href: oob-data-models.md
-            - name: Data model mapping for real-time analytics reports
-              href: datamapping-realtime.md
-            - name: Dataverse entities used in historical and real-time analytics
-              href: dataverse-entities.md
-        - name: Customize analytics
-          items: 
-          - name: Customize KPIs for intraday insights
-            href: customize-kpis-intraday-insights.md
           - name: Customize interactive dashboards based on Unified Interface
             href: configure-interactive-dashboards-customer-service-hub.md
       - name: Service scheduling
