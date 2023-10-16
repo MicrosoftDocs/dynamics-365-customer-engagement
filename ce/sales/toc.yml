@@ -506,9 +506,9 @@
             - name: Manage work assignment settings
               href: wa-work-assignment-manage-settings.md
               items:
-                - name: Configure security roles to assign records
+                - name: Select security roles to assign records to
                   href: wa-manage-sales-teams.md
-                - name: Set seller attributes
+                - name: Set seller attributes and capacity
                   href: wa-manage-seller-attributes.md
                 - name: Set seller availability
                   href: wa-manage-seller-availability.md

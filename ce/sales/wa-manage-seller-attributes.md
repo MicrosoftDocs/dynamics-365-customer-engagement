@@ -1,27 +1,32 @@
 ---
-title: Manage seller attributes
-description: Learn how to create and manage seller attributes to define skills of sellers such as languages, location, country/region, and skills.
+title: Set seller attributes and capacity
+description: Configure seller attributes and capacity to assign leads automatically based on your sellers' language, location, skills, and workload.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: how-to 
-ms.collection: 
+ms.topic: how-to
 ms.date: 08/11/2023
-ms.custom: bap-template 
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/16/2023
 ---
 
-# Manage seller attributes
+# Set seller attributes and capacity
 
-Seller attributes help you define skills of sellers such as languages, location, country/region, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
+Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, working capacity, and attributes like the languages they speak and special skills they have. This article covers how to define your sales team's attributes and capacity. [If you allow them to](./wa-manage-seller-availability.md), your sellers can [set their own availability](personalize-sales-accelerator.md#configure-your-work-availability).
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
+| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-## Manage seller attributes
+## Set seller attributes
 
 As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.
 
@@ -56,7 +61,7 @@ You can use the attribute designer to:
 
         :::image type="content" source="media/sa-ar-new-attribute-manual-value.png" alt-text="Screenshot to enter attribute value manually.":::
  
-1.	Select **Create seller attribute**.
+1.  Select **Create seller attribute**.
 
 The attribute is created and added to the list.
 
