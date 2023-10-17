@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/13/2023
+ms.date: 10/17/2023
 search.audienceType:
   - admin
   - customizer
@@ -43,8 +43,6 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 ## Drill-down report
 
 Drill down to sections of a report to find the data that interests you the most. To view voice conversation analytics, select the **Show more** link on the **Voice conversations over time** KPI. You can drill through voice conversations analytics and analyze data by queue.
-
-:::image type="content" source="media/realtime_voice-conversation-analytics.png" alt-text="Screenshot of the drill-down report for the Voice conversations over time KPI.":::
 
 ### See also
 

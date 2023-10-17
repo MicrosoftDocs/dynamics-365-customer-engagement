@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/13/2023
+ms.date: 10/17/2023
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -48,13 +48,18 @@ Drill down to sections of a report to find the data that interests you the most.
 
 To view conversation analytics, select the **Show more** link on the **Conversations over time** KPI. You can drill through the conversations over time and analyze data by selecting the **Channel** or **Queue** tab.
 
-:::image type="content" source="media/realtime_summary_drilldown1.png" alt-text="Screenshot of the Channel tab on the drill-down report for the conversations over time KPI":::
-
 ### Agent availability status drill-down report
 
-To view more details about agent analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by selecting the **Availability status** or **Capacity unit** tab. These tabs will help you effectively manage agent activity in real time.
+To view more details about agent analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by:
 
-:::image type="content" source="media/realtime_summary_drilldown2.png" alt-text="Screenshot of the Availability status tab on the drill-down report for the Agent availability status KPI":::
+**Availability status**
+
+:::image type="content" source="media/realtime_summary_queue-drilldown_1.png" alt-text="Drilldown agent analytics by Availability status":::
+
+**Capacity unit**
+:::image type="content" source="media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
+
+These tabs will help you effectively manage agent activity in real time.
 
 ### See also
 
