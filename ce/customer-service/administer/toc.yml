@@ -318,8 +318,8 @@
             href: configure-customer-support-swarming.md
           - name: FAQ about setting up Teams chat
             href: faq-teams-chat.md
-       - name: Voice
-         items:
+      - name: Voice
+        items:
           - name: Introduction to the voice channel
             href: voice-channel.md
           - name: Supported cloud locations
