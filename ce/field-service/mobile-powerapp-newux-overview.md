@@ -39,7 +39,7 @@ Here's a list of documents that contain specific preview content:
 - [Download the mobile app and get started](download-get-started-mobile-app.md)
 - [Complete work orders on the mobile app](get-work-done-mobile-app.md)
 - [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
-- [Embedded Guides in Field Service (preview)](access-related-apps-mobile-app.md#embedded-guides-in-field-service-dynamics-365-mobile-preview)
+- [Embedded Guides in Field Service (preview)](access-related-apps-mobile-app.md)
 
 ## Enable the preview features
 

@@ -335,7 +335,7 @@ No updates were made to the Dynamics 365 Field Service mobile app in this releas
 (Includes Universal Resource Scheduling version [3.12.90.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312902)).
 
 -	Fixed a bug in which the duration field is not copied from a requirement group template associated with an incident type to the work order.
-- Dynamics 365 Field Service mobile app: Tabs will persist on screen while scrolling down within a form, allowing a user to navigate to a new tab without scrolling to the top of the form. This feature is enabled by default for the Field Service Mobile app module and needs to be [enabled via App Settings for custom app modules](mobile-power-app-faq.yml#how-do-i-enable-wave-2-2022-enhancements-for-command-bar-and-form-tabs-for-my-field-service-mobile-application).
+- Dynamics 365 Field Service mobile app: Tabs will persist on screen while scrolling down within a form, allowing a user to navigate to a new tab without scrolling to the top of the form. This feature is enabled by default for the Field Service Mobile app module and needs to be [enabled via App Settings for custom app modules](mobile-power-app-faq.yml).
 - Dynamics 365 Field Service mobile app: When exporting inspections response to PDF, questions marked as not visible will not be exported and visible in the PDF. 
 
 ## 8.8.75.142(2022 Wave 2 early access, update2)

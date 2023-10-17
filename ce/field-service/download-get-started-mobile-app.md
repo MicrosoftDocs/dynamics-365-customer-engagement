@@ -55,7 +55,7 @@ You can filter the list by work order status at the top of the booking list.
 
 You can also sort the list by various dimensions (Account, Incident type, Time, Duration) by selecting **Sort by** on the top right of the list.
 
-The menu at the bottom allows for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md#embedded-guides-in-field-service-dynamics-365-mobile-preview) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
+The menu at the bottom allows for easy access to the bookings home page (**Home**), the [embedded Guides feature](access-related-apps-mobile-app.md) (**Library**), and to the [app navigation menu](#navigate-the-app) (**More**).
 
 Select the profile picture in the header to access settings, provide feedback, and change the environment.
 
