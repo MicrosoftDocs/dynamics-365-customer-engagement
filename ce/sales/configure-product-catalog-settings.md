@@ -1,16 +1,21 @@
 ---
-title: "Configure product catalog settings (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Configure the settings to change the seller experience while selecting products from the catalog."
-ms.date: 10/26/2021
+title: Configure product catalog settings
+description: Configure settings to change seller experience when selecting products from catalog.
+ms.date: 10/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/16/2023
 ---
 # Configure product catalog settings
 
-Configure the settings to change the seller experience while selecting products from the catalog
+Configure the settings to change the seller experience while selecting products from the catalog.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -20,6 +25,9 @@ Configure the settings to change the seller experience while selecting products 
 ## Configure the settings
 
 You can configure the product catalog settings to change the experience sellers have when they select products from the catalog. For example, you can choose whether they must select a price list when creating an opportunity, quote, invoice, or order.
+
+To allow a security role to create products, you must assign the **Create** permission for the **Product** entity to the security role. Products can only be created at the organization-level. Even if you set the security role permissions to user level for the **Product** entity, products will be created at the organization level.
+
 
 **To configure the product catalog settings**
 
