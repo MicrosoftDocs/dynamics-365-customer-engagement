@@ -17,9 +17,11 @@ ms.custom:
 
 # Create a new case when email subject changes
 
-When the email subject on a replied email changes, it doesn’t create new cases in Dynamics 365. Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email which has a related active or resolved case.
+When the email subject on a replied email changes, it doesn’t create new cases in Dynamics 365. Administrators can use regex expressions to define whether a new case should be created, when the email subject changes on a reply or a forwarded email which has a related active or resolved case.
 
-When a customer replies to an email after removing the content in subject or modifying the subject, no new case gets created in Dynamics 365. This is because the InReplyTo value of the replied email matches with the messageID of the previous email that’s already in Dynamics 365. An email correlation is created and so, the case associated with the previous email gets linked with the replied email. As a result, automatic record creation and update rule skips case creation even if the subject changes.
+When a customer replies to an email after modifying or removing the content in the subject, no new case gets created in Dynamics 365. This is because the InReplyTo value of the replied email matches with the messageID of the previous email that’s already in Dynamics 365. An email correlation is created and so, the case associated with the previous email gets linked with the replied email. As a result, automatic record creation and update rule skips case creation even if the subject changes.
+
+This topic describes the customization steps that you can perform to create a new case when email subject changes.
 
 ## Prerequisites
 
@@ -27,7 +29,7 @@ Make sure to enable [“Skipped” and “Ready for Power automate” monitored 
 
 ## How it works
 
-A new default Boolean field named correlatedsubjectchanged is available for the email entity. The field gets populated as true or false for inreplyto correlated emails, that detects subject changes on the email. A default regex is present to ignore the prefix "Re: ", "re: ", "RE: " from the replied email and then compare the subject with the correlated email’s subject. If the subject matches, the boolean value correlatedsubjectchanged will be set to false. However, the default regex doesn’t ignore the prefix “Fw: “, “FW: “, “FWD: from the forwarded email, boolean value correlatedsubjectchanged will be set to true and hence if an email is forwarded, a new case will be created. If the default regex doesn't serve your subject matching needs, the regex can be customized. You can write regex expressions for multiple languages. For more information, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool using the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
+A new default Boolean field named correlatedsubjectchanged is available for the email entity. The field gets populated as true or false for inreplyto correlated emails, that detects subject changes on the email. A default regex is available that ignores the prefix "Re: ", "re: ", "RE: " from the replied email and then compares the subject with the correlated email’s subject. If the subject matches, the boolean value correlatedsubjectchanged will be set to false. However, the default regex doesn’t ignore the prefix “Fw: “, “FW: “, “FWD: from the forwarded email, so the boolean value correlatedsubjectchanged will be set to true and if an email is forwarded, a new case will be created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. For more information, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool using the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
 
 ## Customization steps to create a new case
 
