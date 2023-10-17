@@ -402,8 +402,6 @@
               href: uci-navigate-service-calendar.md
           - name: Legacy Service Scheduling
             items: 
-            - name: Legacy Service Scheduling
-              href: ../customer-service/legacy-scheduling.md
             - name: Set up business closure
               href: set-when-business-closed-cs-app.md
             - name: Set work hours to define availability

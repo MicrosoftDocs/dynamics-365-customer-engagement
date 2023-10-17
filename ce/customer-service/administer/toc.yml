@@ -646,8 +646,6 @@
             href: use-schedule-board-configure-service-activity.md
         - name: Legacy Service Scheduling
           items: 
-          - name: Legacy Service Scheduling
-            href: ../customer-service/legacy-scheduling.md
           - name: Create or change a service
             href: create-edit-service-cs-app.md
           - name: Set up facilities/equipment
