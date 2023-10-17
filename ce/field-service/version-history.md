@@ -18,19 +18,26 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | TBD |10/13/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | TBD |10/20/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | TBD |10/27/2023 |
-| | *USG* |[8.8.102.29](/dynamics365/field-service/version-history#8810229)  | TBD |10/20/2023 |
-|**Station 4** |*Europe* |  [8.8.99.10](/dynamics365/field-service/version-history#889910) |  [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | 10/13/2023 |
-|**Station 5** | *North America*|[8.8.98.36](/dynamics365/field-service/version-history#889836)  | [8.8.99.10](/dynamics365/field-service/version-history#889910)  | 10/13/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.98.36](/dynamics365/field-service/version-history#889836)  | [8.8.99.10](/dynamics365/field-service/version-history#889910)  | 10/13/2023 |
+|**Station 1** |  *First Release*| [8.8.103.20](/dynamics365/field-service/version-history#8810320)  | TBD |10/27/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | [8.8.103.20](/dynamics365/field-service/version-history#8810320)  |10/20/2023 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | [8.8.103.20](/dynamics365/field-service/version-history#8810320)  |10/27/2023 |
+| | *USG* |[8.8.102.29](/dynamics365/field-service/version-history#8810229)  | [8.8.103.20](/dynamics365/field-service/version-history#8810320)  |10/20/2023 |
+|**Station 4** |*Europe* |   [8.8.102.29](/dynamics365/field-service/version-history#8810229)  | [8.8.103.20](/dynamics365/field-service/version-history#8810320)  |11/03/2023 |
+|**Station 5** | *North America*| [8.8.99.11](/dynamics365/field-service/version-history#889911)  |  [8.8.102.29](/dynamics365/field-service/version-history#8810229) | 10/20/2023 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.99.11](/dynamics365/field-service/version-history#889911)  |  [8.8.102.29](/dynamics365/field-service/version-history#8810229) | 10/20/2023 |
 | | *Dedicated Scale Groups* | [8.8.98.36](/dynamics365/field-service/version-history#889836)  | [8.8.99.10](/dynamics365/field-service/version-history#889910)  | 10/20/2023 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.103.20
+(Includes Universal Resource Scheduling version [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) and Resource Scheduling controls version 1.2.57.232831).
+
+-	Fixed a bug sometimes causing IOT Hub setup to fail on Step 7: Set up the Azure Time Series Insights connection, with error message, “Object reference not set to an instance of an object."
+-	Found and removed unnecessary calls to a system job, improving the performance of the FS plugin during WO creation.
+- Dynamics 365 Field Service Mobile: Fixed a bug in Quick Notes control where an uploaded image may displayed the photo URL path instead of the visual photo.
+  
 ## 8.8.102.29
 (Includes Universal Resource Scheduling version [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) and Resource Scheduling controls version 1.2.56.23269).
 
