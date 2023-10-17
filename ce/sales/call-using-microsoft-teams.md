@@ -1,7 +1,7 @@
 ---
-title: "Make and receive Teams calls in Dynamics 365"
-description: "Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights."
-ms.date: 10/16/2023
+title: Make and receive Teams calls in Dynamics 365
+description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
+ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

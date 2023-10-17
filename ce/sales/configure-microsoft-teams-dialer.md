@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
-ms.date: 10/16/2023
+ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

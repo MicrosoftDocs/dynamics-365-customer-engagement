@@ -1,7 +1,7 @@
 ---
 title: Create a product
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
-ms.date: 10/26/2021
+ms.date: 10/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
