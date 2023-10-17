@@ -1,60 +1,57 @@
 ---
-title: "Manage assignment rules for lead and opportunity routing"
-description: "Create, activate, edit and delete assignment rules, and manage sales teams and seller attributes for lead and opportunity routing."
+title: Automatically assign leads and opportunities
+description: Learn how to create and use assignment rules to automatically direct new leads and opportunities to the right sellers or sales teams.
 ms.date: 08/11/2023
-ms.topic: article
+ms.topic: overview
 author: udaykirang
 ms.author: udag
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/09/2023
+  - bap-template
 ---
-# Manage assignment rules for routing 
 
->[!IMPORTANT]
->
->Segments and Assignment rules capabilities are combined and available under Work assignment. Work assignment is available in version 9.1.23074.10021 and is rolled out in a phased manner across different geographic regions.  
->For more information on the Work assignment feature, see [Work assignment](work-assignment-intro.md)
+# Automatically assign leads and opportunities
 
-Assignment rules enable new leads and opportunities to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
+Assignment rules automatically route new leads and opportunities to the right sellers or sales teams. Sales managers spend less time and effort in manual assignment, leads and opportunities don't go overlooked, and assignments are balanced among your salespeople.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
-## Use the assignment rules designer
+The sales accelerator's assignment rules designer makes creating and managing assignment rules quick and easy. Watch this brief video to learn more.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
 
-As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-You can use the assignment rules designer to do the following tasks:
+## License and role requirements
+
+| Requirement type | You must have |
+|-----------------------|---------|
+| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
+
+### Prerequisites
+
+[Sales accelerator is configured for your organization](enable-configure-sales-accelerator.md).
+
+## Use the assignment rules designer
+
+As an administrator or sequence manager, you can create rules that match attributes of leads and opportunities with attributes of your sales team. When a lead is created and satisfies the conditions of a specific rule, the rule assigns the lead to a seller automatically.
+
+Use the assignment rules designer to:
 
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md).
 - [Edit an assignment rule](edit-assignment-rule.md).
-- [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md). 
+- [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md).
 - [Manage sales teams](manage-sales-teams.md).
 - [Manage seller attributes](manage-seller-attributes.md).
 
-## Review the prerequisites
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-Before you start, be sure the sales accelerator feature is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
-  
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
-
-<table>
-<tr><td>
-
-> [!div class="nextstepaction"] 
-> [Next step: Create and activate an assignment rule](create-and-activate-assignment-rule.md)
-</td></tr>
-</table>   
+[!div class="nextstepaction"]
+[Next step: Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 
 ### See also
 
-[Configure the sales accelerator](enable-configure-sales-accelerator.md)  
-[Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+- [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

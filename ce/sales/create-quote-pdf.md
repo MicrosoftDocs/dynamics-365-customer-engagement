@@ -33,13 +33,11 @@ Use the PDF generation capability to create and share read-only, professional-lo
 > [!IMPORTANT]
 > With the 2020 release wave 2, the PDF generation capability is enhanced to support all custom entities. The PDF enhancements are limited to the web experience and aren't available in the mobile app. If you haven't opted in, or you're using Sales Hub on a mobile app, you'll see the old experience. 
 
-Your system administrator can choose the entities for which PDF generation is enabled. If PDF generation isn't enabled, you won't see the option to create a PDF file. 
-
 1. Open the entity record for which you want to create a PDF file—in this example, a record for the Opportunity entity.
 2. On the command bar, select **Export to PDF**.
     
     > [!NOTE]
-    > If you don't see the **Export to PDF** option, contact your administrator to [Enable PDF file generation from sales record](enable-pdf-generation-quote.md).
+    > If you don't see the **Export to PDF** option, contact your administrator to [enable PDF file generation from sales record](enable-pdf-generation-quote.md).
 
     The **Export to PDF** dialog box appears.
 
