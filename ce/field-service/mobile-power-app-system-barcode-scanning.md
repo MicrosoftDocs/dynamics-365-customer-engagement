@@ -44,7 +44,7 @@ In the mobile app, a barcode-enabled field has a barcode icon. Select the barcod
 
 ## Enable search
 
-Field Service uses [Dataverse search](/powerapps/mobile/relevance-search-mobile) and includes a barcode scanner option within the search view.   Dataverse search requires an active internet connection. If the device has no connectivity, the search experience falls back to [categorized search](/powerapps/user/quick-find) experience.
+Field Service uses [Dataverse search](/powerapps/mobile/relevance-search-mobile) and includes a barcode scanner option within the search view. Dataverse search requires an active internet connection. If the device has no connectivity, the search experience falls back to [categorized search](/powerapps/user/quick-find) experience. If you configure the application to offline-first mode, tables that are indexed for search need to be added to categorized search. When using the online-only mode, add them to the Dataverse search index.
 
 By default, Dynamics 365 Field Service is configured to search against activity, contact, user, customer asset, incident type, work order, and IoT alert/device. You can customize search to include more record types, such as products. Expanding search parameters can help technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
@@ -56,8 +56,8 @@ To enable a new barcode field for search within a table:
 
 > [!NOTE]
 >
-> - Custom integration using barcode can be accomplished on mobile devices with [getBarcodeValue API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
+> - Create custom integrations using barcode on mobile devices with [getBarcodeValue API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
 > - Currently, global search with barcode scanning isn't available on tablet and Windows versions of the app.
-> - If the updated fields don't show on the mobile app of a user, ask them to reconfigure the application to get the latest version.
+> - If the updated fields don't show on the mobile app, reconfigure the application to get the latest version.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
