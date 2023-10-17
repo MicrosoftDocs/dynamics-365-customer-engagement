@@ -51,9 +51,6 @@ The assistant works by analyzing the data at its disposal and generating a colle
    > [!NOTE]
    > Meeting cards are special and displayed to users who are either the owner, organizer, or an attendee in the meeting.
 
-
-
-
 - When you open the assistant through an entity record, you'll see the cards that belongs to the record or to related records. The list of related records varies from one entity to  another:
    -	**Account**: Account and its related contacts, opportunities, and incidents.
    -	**Opportunity**: Opportunity and its related contacts.
@@ -112,6 +109,6 @@ When you open the assistant, it displays the name and basic description of each 
 
 ### See also
 
-[Configure the assistant](configure-assistant.md)  
-[Turn on or off the insight cards](turn-on-off-insight-cards.md)  
-[Insight cards reference](action-cards-reference.md)  
+[Configure the assistant](configure-assistant)  
+[Turn on or off the insight cards](turn-on-off-insight-cards)  
+[Insight cards reference](action-cards-reference)  
