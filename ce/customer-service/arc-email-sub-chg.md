@@ -61,9 +61,9 @@ To define whether automatic record creation and update rules must create a new c
 
     1. Retrieve the email record. Enter **RowID** as **Monitored activity item (Value)**.
     
-    1. Add a conditional check to verify if the correlatedsubjectchanged attribute is set to true and proceed only if yes, else terminate. If you have complex conditional logic, we recommend writing your logic in an unbound custom action that gives certain simple structured output such as Boolean, call the custom action in flow, and consume the output in a conditional check.
+    1. Add a conditional check to verify if the correlatedsubjectchanged attribute is set to true and proceed only if yes, else terminate. If you have complex conditional logic, we recommend writing your logic in an unbound custom action that gives certain simple structured output such as Boolean. Check the Boolean value and define case creation based on condition.
     
-    1. Update the activity monitor status. If step 6c is applied (subject doesn’t match), update the current state of that activity monitor ID to **Ready for Power Automate** and set the **Reason** to **blank**.
+    1. Update the activity monitor status. If the correlatedsubjectchanged attribute is set to true from step 6c (subject doesn't match), update the current state of that activity monitor ID to **Ready for Power Automate** and set the **Reason** to **blank**.
     
     1. Continue executing automatic record creation and update rules and create case. Perform an unbound action and add the fields as shown in the screenshot.
     
