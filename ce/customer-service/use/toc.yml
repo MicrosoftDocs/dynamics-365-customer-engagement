@@ -288,8 +288,6 @@
           href: copilot-analytics-report.md
       - name: Analytics dashboards and insights
         items: 
-        - name: Introduction to analytics and insights
-          href: introduction-customer-service-analytics.md
         - name: Use Omnichannel real-time analytics dashboards
           items:
           - name: Overview of Omnichannel real-time analytics reports
@@ -338,14 +336,6 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge management analytics
           href: knowledge-search-analytics-cs.md
-        - name: Use Customer Service Analytics dashboards in Power BI
-          href: customer-service-analytics.md
-        - name: Use Omnichannel Insights
-          items:
-            - name: Introduction to Omnichannel Insights
-              href: intro-dynamics-365-omnichannel-insights-dashboard.md
-            - name: View and understand Omnichannel Insights dashboard
-              href: omnichannel-insights-dashboard.md
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations

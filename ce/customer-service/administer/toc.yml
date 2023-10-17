@@ -319,7 +319,7 @@
           - name: FAQ about setting up Teams chat
             href: faq-teams-chat.md
        - name: Voice
-        items:
+         items:
           - name: Introduction to the voice channel
             href: voice-channel.md
           - name: Supported cloud locations
@@ -612,10 +612,6 @@
               href: oc-historical-analytics-reports.md
             - name: Manage Knowledge analytics
               href: enable-knowledge-search-insights.md
-            - name: Configure Customer Service analytics dashboards in Power BI
-              href: configure-customer-service-analytics-dashboard.md
-            - name: Configure Omnichannel Insights dashboards
-              href: configure-historical-sentiment-dashboard-supervisor.md
           - name: Customize data models of historical and real-time analytics reports
             href: model-customize-reports.md
           - name: Configure forecasting
