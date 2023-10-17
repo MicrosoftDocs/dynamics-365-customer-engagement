@@ -288,6 +288,8 @@
           href: copilot-analytics-report.md
       - name: Analytics dashboards and insights
         items: 
+        - name: Introduction to analytics and insights
+          href: introduction-customer-service-analytics.md
         - name: Use Omnichannel real-time analytics dashboards
           items:
           - name: Overview of Omnichannel real-time analytics reports
@@ -336,6 +338,14 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge management analytics
           href: knowledge-search-analytics-cs.md
+        - name: Use Customer Service Analytics dashboards in Power BI
+          href: customer-service-analytics.md
+        - name: Use Omnichannel Insights
+          items:
+            - name: Introduction to Omnichannel Insights
+              href: intro-dynamics-365-omnichannel-insights-dashboard.md
+            - name: View and understand Omnichannel Insights dashboard
+              href: omnichannel-insights-dashboard.md
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations
@@ -410,38 +420,12 @@
               href: schedule-service-activity-cs-app.md
             - name: Manage sites
               href: use-sites-manage-service-locations.md
-          - name: Service Scheduling FAQ
-            href: service-scheduling-faq.md
       - name: Known issues in Customer Service and Omnichannel for Customer Service
         href: https://go.microsoft.com/fwlink/p/?linkid=2165393
       - name: Report issues in Omnichannel for Customer Service
         href: report-issues.md
       - name: Share feedback in Customer Service
         href: cs-share-feedback.md
-      - name: FAQ about Customer Service
-        items: 
-          - name: FAQ about Customer Service admin center
-            href: faq-customer-service-admin-center.md
-          - name: FAQ about unified routing
-            href: unified-routing-faqs.md
-          - name: FAQ on managing cases
-            href: faq-case-mgmt.md  
-          - name: FAQ about automatic record creation
-            href: arc-faqs.md        
-          - name: FAQ about AI suggestions for cases and knowledge articles
-            href: csw-faqs-ai-suggestions.md
-          - name: FAQ about Omnichannel for Customer Service
-            href: faqs.md
-          - name: FAQ about custom time calculation of SLA KPIs
-            href: faqs-custom-time-sla-kpis.md
-          - name: FAQ about the voice channel
-            href: voice-channel-faqs.md  
-          - name: FAQ about Activities and the Timeline Wall
-            href: /powerapps/user/faq-for-timeline-and-activity
-          - name: FAQ about adding users to agent experience profile
-            href: ../app-profile-manager/faq-agent-experience-profile.md
-          - name: FAQ about setting up Teams chat
-            href: faq-teams-chat.md
     - name: Responsible AI
       items:
       - name: Overview

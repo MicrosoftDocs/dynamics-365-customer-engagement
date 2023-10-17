@@ -38,20 +38,6 @@
           items:
           - name: Deprecations in Customer Service
             href: deprecations-customer-service
-          - name: Customer Service and Omnichannel Insights
-            items:
-            - name: Introduction to analytics and insights
-              href: introduction-customer-service-analytics.md
-            - name: Configure Customer Service analytics dashboards in Power BI
-              href: configure-customer-service-analytics-dashboard.md
-            - name: Configure Omnichannel Insights dashboards
-              href: configure-historical-sentiment-dashboard-supervisor.md
-            - name: Use Customer Service Analytics dashboards in Power BI
-              href: customer-service-analytics.md
-            - name: Introduction to Omnichannel Insights
-              href: intro-dynamics-365-omnichannel-insights-dashboard.md
-            - name: View and understand Omnichannel Insights dashboard
-              href: omnichannel-insights-dashboard.md
           - name: Intraday analytics reports
             items:
             - name: Configure intraday insights

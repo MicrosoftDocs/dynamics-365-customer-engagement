@@ -58,6 +58,8 @@
             href: manage-custom-productivity-tools.md
           - name: Use automation dictionary to pass parameters keys
             href: ../app-profile-manager/automation-dictionary-keys.md
+          - name: FAQ about adding users to agent experience profile
+            href: ../app-profile-manager/faq-agent-experience-profile.md
       - name: Community
         items: 
         - name: Overview of Community
@@ -142,6 +144,8 @@
             href: manage-routing-diagnostics-data.md
           - name: Use best practices to set up unified routing
             href: unified-routing-best-practices.md
+          - name: FAQ about unified routing
+            href: unified-routing-faqs.md
         - name: Case management
           items: 
           - name: Use enhanced case forms to manage cases
@@ -176,6 +180,8 @@
             href: modify-case-resolution-dialog.md
           - name: Remove validation on contact and customer for cases
             href: remove-validation-contact.md
+          - name: FAQ on managing cases
+            href: faq-case-mgmt.md
       - name: Automatically create or update records
         items: 
           - name: Automatically create or update records
@@ -186,6 +192,8 @@
             href: set-up-rules-to-automatically-create-or-update-records.md
           - name: Create records from emails in legacy app
             href: automatically-create-case-from-email.md
+          - name: FAQ about automatic record creation
+            href: arc-faqs.md
       - name: Service-level agreements
         items:
           - name: Enable entities for service level agreements
@@ -215,7 +223,9 @@
             - name: Enable custom time calculation of SLA KPIs
               href: enable-sla-custom-time-calculation.md
             - name: Enable custom recalculation of SLA KPIs
-              href: enable-sla-force-recalculation.md  
+              href: enable-sla-force-recalculation.md
+            - name: FAQ about custom time calculation of SLA KPIs
+              href: faqs-custom-time-sla-kpis.md   
           - name: Create entitlements to define support terms
             href: create-entitlement-define-support-terms-customer.md
           - name: Use entitlement templates to set up entitlements  
@@ -251,7 +261,9 @@
           - name: Configure timeline
             href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
           - name: Turn on linking of timeline notes with other table records
-            href: link-note-to-entity.md  
+            href: link-note-to-entity.md
+          - name: FAQ about Activities and the Timeline Wall
+            href: /powerapps/user/faq-for-timeline-and-activity  
       - name: Knowledge management
         items:
           - name: Configure knowledge management 
@@ -304,7 +316,9 @@
             href: set-up-join-a-teams-call.md
           - name: Configure customer support swarming
             href: configure-customer-support-swarming.md
-      - name: Voice
+          - name: FAQ about setting up Teams chat
+            href: faq-teams-chat.md
+       - name: Voice
         items:
           - name: Introduction to the voice channel
             href: voice-channel.md
@@ -388,6 +402,8 @@
             href: voice-channel-contextual-transfer-external-ivr.md
           - name: Pricing scenarios for voice calling
             href: voice-channel-pricing-scenarios.md
+          - name: FAQ about the voice channel
+            href: voice-channel-faqs.md
       - name: Chat
         items: 
           - name: Introduction to the chat channel
@@ -596,6 +612,10 @@
               href: oc-historical-analytics-reports.md
             - name: Manage Knowledge analytics
               href: enable-knowledge-search-insights.md
+            - name: Configure Customer Service analytics dashboards in Power BI
+              href: configure-customer-service-analytics-dashboard.md
+            - name: Configure Omnichannel Insights dashboards
+              href: configure-historical-sentiment-dashboard-supervisor.md
           - name: Customize data models of historical and real-time analytics reports
             href: model-customize-reports.md
           - name: Configure forecasting
@@ -616,6 +636,8 @@
             href: enable-sentiment-analysis.md
           - name: Customize interactive dashboards based on Unified Interface
             href: configure-interactive-dashboards-customer-service-hub.md
+          - name: FAQ about AI suggestions for cases and knowledge articles
+            href: csw-faqs-ai-suggestions.md
       - name: Service scheduling
         items: 
         - name: Core Service Scheduling
@@ -746,38 +768,10 @@
         href: report-issues.md
       - name: Share feedback in Customer Service
         href: cs-share-feedback.md
-      - name: FAQ about Customer Service
-        items: 
-        - name: FAQ about Customer Service admin center
-          href: faq-customer-service-admin-center.md
-        - name: FAQ about unified routing
-          href: unified-routing-faqs.md
-        - name: FAQ on managing cases
-          href: faq-case-mgmt.md  
-        - name: FAQ about automatic record creation
-          href: arc-faqs.md        
-        - name: FAQ about AI suggestions for cases and knowledge articles
-          href: csw-faqs-ai-suggestions.md
-        - name: FAQ about Omnichannel for Customer Service
-          href: faqs.md
-        - name: FAQ about custom time calculation of SLA KPIs
-          href: faqs-custom-time-sla-kpis.md
-        - name: FAQ about the voice channel
-          href: voice-channel-faqs.md  
-        - name: FAQ about Activities and the Timeline Wall
-          href: /powerapps/user/faq-for-timeline-and-activity
-        - name: FAQ about adding users to agent experience profile
-          href: ../app-profile-manager/faq-agent-experience-profile.md
-        - name: FAQ about setting up Teams chat
-          href: faq-teams-chat.md
-      - name: Omnichannel for Customer Service on Unified Service Desk
-        href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
-      - name: Unified Service Desk Guide
-        href: /dynamics365/unified-service-desk/unified-service-desk
-      - name: Dynamics 365 Channel Integration Framework Guide
-        href: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-      - name: Dynamics 365 Customer Service Insights
-        href: /dynamics365/ai/customer-service-insights/overview
+      - name: FAQ about Customer Service admin center
+        href: faq-customer-service-admin-center.md
+      - name: FAQ about Omnichannel for Customer Service
+        href: faqs.md
     - name: Responsible AI
       items:
         - name: Overview
