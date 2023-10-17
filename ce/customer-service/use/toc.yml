@@ -283,7 +283,7 @@
         - name: Draft a chat response (preview)
           href: use-copilot-features.md#draft-a-chat-response
         - name: Draft emails (preview)
-          href: use-copilot-features.md#draft-emails                  
+          href: use-copilot-features.md#draft-emails
         - name: View analytics for Copilot impact
           href: copilot-analytics-report.md
       - name: Analytics dashboards and insights
