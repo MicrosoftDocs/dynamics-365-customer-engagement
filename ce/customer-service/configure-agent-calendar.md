@@ -15,6 +15,15 @@ As an administrator or a supervisor, you can help agents in your organization vi
 
 ## Prerequisites
 
+You must have **Workforce Management for Customer Service** enabled in your environment. To enable Workforce Management for your environment, follow the steps below:
+
+- Navigate to your environment in [Power Platform admin center (PPAC)](https://admin.powerplatform.microsoft.com/). You must have an administrator role in order to make changes to your environment.
+- On the environment page, click on **Resources** > **Dynamics 365 apps**. The **Resources** button is located on the top menu bar.
+- On the Dynamics 365 apps page, click on **Install app**. The **Install Dynamics 365 apps** flyout will appear.
+- In the flyout, scroll down all the way to the bottom, and select **Workforce Management for Customer Service**. Click on **Next**.
+- Agree to the terms of service and click on **Install**.
+- Wait until the **Workforce Management for Customer Service** is marked as installed on the Dynamics 365 apps page.
+
 To enable the calendar view for agents, you must have at least one of the following roles:
 
 - System Administrator
