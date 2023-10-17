@@ -48,6 +48,12 @@ For information about older versions, see [Version history archive](version-hist
 - **Manage frontline worker certifications:** [Organizations can track insurance](insurance.md), licenses, and certifications for frontline workers via the new insurance table, and [enhanced characteristics](set-up-characteristics.md#enhanced-characteristics-preview) to ensure they can complete work at the quality customers expect and in compliance with legislation.
 - Booking end times no longer get updated to the current time upon booking completion.
 
+## 8.8.99.11
+This release is a hotfix on Field Service version [8.8.99.10](/dynamics365/field-service/version-history#889910).
+
+(Includes Universal Resource Scheduling version [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) and Resource Scheduling controls version 1.2.52.232844).
+
+- No updates were made to Dynamics 365 Field Service in this release.
 
 ## 8.8.99.10
 (Includes Universal Resource Scheduling version [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) and Resource Scheduling controls version 1.2.52.232511).
