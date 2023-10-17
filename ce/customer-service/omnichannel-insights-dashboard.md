@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-ms.date: 07/03/2023
+ms.date: 10/17/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Omnichannel Insights  
+## Omnichannel Insights
+
+> [!NOTE]
+> Customer service analytics dashboards and Omnichannel insights will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+
 
 The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of the support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy. Supervisors can rely on the information to improve the overall customer support experience.  
 
