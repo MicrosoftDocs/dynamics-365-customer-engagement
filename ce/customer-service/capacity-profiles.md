@@ -71,7 +71,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 6. Select **Add user**. The capacity profile is assigned to the user.
 
-## Configure custom limits in capacity profiles<a name="custom-limits"></a>
+## Configure agent-specific work limits in capacity profiles<a name="custom-limits"></a>
 
 Agents in your contact center might need different work limits. You can allocate different quotas or concurrent conversation limits to agents through capacity profiles.
 
@@ -86,10 +86,11 @@ To set the custom limits, do the following steps:
 1. Repeat the step 3 to update more profiles if you need to.
 1. Save and close. The custom limit is denoted with arrow icons so that you can visually differentiate among users with default and custom limits. 
 1. Inform the affected agents to refresh their browser to update their presence. The system assigns the work items based on the agents updated capacity and presence.
-1. Check the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard to see the capacity profile updates for the active agents.
 1. To reset the custom limit, set the custom limit field to empty and save the changes.
 
 The configuration updates take 15 minutes to sync.
+
+You can customize the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard to see the custom limits.
 
 ### How custom limit works for agents
 
