@@ -66,7 +66,7 @@ If your admin installed the Field Service (Preview) Teams app for your organizat
 
 ## Get schedule assistance
 
-In Outlook, schedule assist functionality helps you schedule, reschedule, or move a booking for a work order.
+In Teams, schedule assist functionality helps you schedule, reschedule, or move a booking for a work order.
 
 ### Schedule a work order in Teams
 
@@ -76,49 +76,45 @@ Scheduling is based on resource availability, skills, customer promised time win
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
-   :::image type="content" source="media/fsp-teams-schedule.png" alt-text="Field Service (Preview) Teams scheduling.":::
+   :::image type="content" source="media/fsp-flm-schedule-options.png" alt-text="Field Service (Preview) Teams scheduling.":::
 
    > [!TIP]
    > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
 
-1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service (Preview)** pane.
+1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays.
 
-1. If needed, update the booking status. A confirmation displays at the top of the pane.
+1. Select the back arrow to return to the work order list.
 
-1. Select the back arrow to return to the **Home** tab or the work order list.
+### Reschedule a work order in Teams
 
-### Reschedule a work order in Outlook
-
-Reschedule a scheduled work order to a different resource, date, or time. Use schedule assist to provide schedules based on resource availability, skills, customer promised time windows, customer location proximity, and business unit. Or [manually move the date, time, or technician](#move-a-booking-in-outlook).
+Reschedule a scheduled work order to a different resource, date, or time. Use schedule assist to provide schedules based on resource availability, skills, customer promised time windows, customer location proximity, and business unit. Or [manually move the date, time, or technician](#move-a-booking-in-teams).
 
 1. From a scheduled work order, select **View schedule**.
 
-<!--- Insert screen --->
+   :::image type="content" source="media/fsp-flm-teams-reschedule.png" alt-text="Field Service (Preview) Teams reschedule.":::
 
 1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
-<!--- Insert screen --->
-
    > [!TIP]
    > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
 
-1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the pane.
+1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays.
 
-1. Select the back arrow to return to the **Home** tab or the work order list.
+1. Select the back arrow to return to the work order list.
 
-### Move a booking in Outlook
+### Move a booking in Teams
 
 Change the date and time scheduled for the technician.
 
 1. From a scheduled work order, select **View schedule**.
 
-<!--- Insert screen --->
+   :::image type="content" source="media/fsp-flm-move-booking.png" alt-text="Screenshot of Field Service (Preview) Teams ellipsis button to select Move booking":::
 
 1. Next to **Reschedule**, select the ellipsis (**&hellip;**) > **Move booking**. The system automatically displays the current resource, but you can change it.
 
-1. Select the date and time and select **Update**. The technician is booked. A confirmation displays at the top of the **Home** page.
+1. Select the date and time and select **Update**. The technician is booked. A confirmation displays.
 
 ## View work orders in Teams
 
