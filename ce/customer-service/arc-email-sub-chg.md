@@ -23,7 +23,7 @@ When a customer replies to an email after removing the content in subject or mod
 
 ## Prerequisites
 
-Make sure to enable [“Skipped” and “Ready for Power automate” monitored options for activity monitor](/customer-service/automatically-create-update-records?tabs=customerserviceadmincenter#manage-activity-monitor-to-review-and-track-rules) in the Customer Service admin center app.
+Make sure to enable [“Skipped” and “Ready for Power automate” monitored options for activity monitor](manage-activity-arc.md) in the Customer Service admin center app.
 
 ## How it works
 
