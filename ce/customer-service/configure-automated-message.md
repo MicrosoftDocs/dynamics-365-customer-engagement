@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
-ms.date: 06/27/2023
+ms.date: 10/12/2023
 author: lalexms
 ms.author: laalexan
 ms.reviewer: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You can configure Omnichannel for Customer Service to send automated messages through chat, SMS, Microsoft Teams, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
+You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
 ## Display a list of all automated messages
@@ -101,6 +101,18 @@ Do the following for the channel in which you want to create custom automated me
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected| When the customer calls and wait time is long.|
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.|
 
+## Best practices for using automated messages 
+
+Use the following best practices when you configure automated messages for the voice channel:
+
+- Make sure that you configure concise messages when you use automated and custom messages because lengthy messages might mean that agents take longer to connect with customers.
+
+- Consider configuring **Greeting Message for Async Channels and Voice** instead of **Agent assigned to a conversation**.
+
+- If you've configured both **Agent assigned to a conversation** and **Greeting Message for Async Channels and Voice**, consider configuring **Greeting Message for Async Channels and Voice** to avoid the accumulation of messages in the queue.
+
+- Disable messages that announce the average wait times, unless your business requires that customers know this information. 
+ 
 ### Add custom automated messages in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
