@@ -1,6 +1,6 @@
 ---
 title: Create a new case when email subject changes
-description: Create a custom flow to define when a new case should be created in Dynamics 365 when the email subject changes.
+description: Define whether a new case should be created when the email subject changes on a reply or a forwarded email with regex expressions.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
