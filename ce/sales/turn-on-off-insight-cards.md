@@ -58,6 +58,6 @@ Alternatively, you can select the **More options** icon on the card, and then se
 
 ### See also
 
-[Use the assistant to guide customer communications](/dynamics365/outlook-app/user/assistant)  
+[Use the assistant to guide customer communications](use-assistant-guide-customer-communications)  
 [Insight cards reference](action-cards-reference)
 
