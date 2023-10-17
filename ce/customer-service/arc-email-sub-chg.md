@@ -19,7 +19,7 @@ ms.custom:
 
 When the email subject on a replied email changes, it doesn’t create a new case in Dynamics 365. Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
-When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365. This is because the InReplyTo value of the replied email matches with the messageID of the previous email that’s already in Dynamics 365. An email correlation is created, and the case associated with the previous email is linked with the replied email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
+When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior happens because the InReplyTo value of the replied email matches with the messageID of the previous email that’s already in Dynamics 365. An email correlation is created, and the case associated with the previous email is linked with the replied email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
 
 This topic describes the customization steps that you can perform to create a new case when email subject changes.
 
@@ -69,4 +69,4 @@ To define whether automatic record creation and update rules must create a new c
     
         :::image type="content" source="media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="media/arc_sub_change.png":::
         
-    By performing the steps, the automatic record creation and update rules rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.
+    By performing the steps, the automatic record creation and update rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.
