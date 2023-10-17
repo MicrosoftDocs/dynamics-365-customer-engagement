@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 10/13/2023
+ms.date: 10/17/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -64,5 +64,7 @@ To define whether automatic record creation and update rules must create a new c
     1. Update the activity monitor status. If step 6c is applied (subject doesn’t match), update the current state of that activity monitor ID to **Ready for Power Automate** and set the **Reason** to **blank**.
     
     1. Continue executing automatic record creation and update rules and create case. Perform an unbound action and add the fields as shown in the screenshot.
+    
+        :::image type="content" source="media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="media/arc_sub_change.png":::
         
     By performing the steps, the automatic record creation and update rules rule can be conditionally bypassed (based on email subject change condition) and new case can be created.
