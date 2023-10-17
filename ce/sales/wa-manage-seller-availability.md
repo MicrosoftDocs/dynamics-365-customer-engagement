@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/11/2023
+ms.date: 10/19/2023
 ms.custom: bap-template 
 ---
 
@@ -48,18 +48,17 @@ Enable the seller availability option to let sellers configure their work hours 
 
 As a sales manager, you can manage sellers' availability in the following ways:
 
-- **Advance settings**: Update the sellers' work hours through the advanced settings.
+- **Work assignment settings**: Update the sellers' work hours through the seller's calendar.
  
-    1. Go to **Advanced Settings** > **Settings** > **System** > **Security** > **Users**.
-    1. Open the user record that you want to set work hours for.
-    1. At the top of the page, select the arrow next to the user name, and then select **Work Hours**.
+    1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **settings** .
+    1. In the **Work assignment settings** page, select the seller from the list and then select **Set availability**.
 
-        :::image type="content" source="media/manage-seller-availability-select-chevron.png" alt-text="Screenshot that shows the arrow next to the user name being selected to open the menu that includes the Work Hours button.":::
+        >[!NOTE]
+        >You can select only one seller at a time.
 
-    1. On the **Monthly View** tab, select **Set Up** > **Time Off**.
-    1. In the **Schedule Time Off** dialog box, enter the information for the time off, and then select **OK**.
-
-    The time off for the selected user is added to the calendar.
+    1. In the seller's calendar, select **New** and choose an option to configure the seller's calendar. For more information, see step 4 in [Through work list settings](personalize-sales-accelerator.md#through-work-list-settings-sales-premium).
+    
+    The selected seller's calendar is updated according to your configurations. Also, the **Availability (Next 7 days)** column is updated with the seller's availability for the next seven days.
 
 - **Calendar API**: Use the calendar API, and enter `msdyn_extendedusersetting` as the value of the `EntityLogicalName` string. [Learn how to edit work hour calendars by using APIs.](/dynamics365/field-service/field-service-work-hours-calendar-api)
 - **Assignment rules**: In assignment rules, create a seller attribute that's based on seller availability. Then apply appropriate values to sellers, based on their availability. For example, create an attribute that has the values *Available* and *On vacation*. Then, when a seller goes on vacation, select the attribute, and assign the *On vacation* value to notify other users that the seller isn't available. [Learn how to manage seller attributes in assignment rules.](manage-seller-attributes.md)
