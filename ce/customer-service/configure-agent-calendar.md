@@ -11,27 +11,39 @@ ms.custom: bap-template
 
 # Configure the agent calendar view
 
-As an administrator or a supervisor, you can help agents in your organization view their work schedules. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off. The calendar view is a read-only visual that provides daily, weekly and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule. 
+As an administrator or a supervisor, you can help agents in your organization view their work schedules. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off. 
+
+The calendar view is a read-only visual that provides daily, weekly and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule. 
 
 ## Prerequisites
 
-You must have **Workforce Management for Customer Service** enabled in your environment. To enable Workforce Management for your environment, follow the steps below:
+- You must have **Workforce Management for Customer Service** enabled in your environment.
 
-- Navigate to your environment in [Power Platform admin center (PPAC)](https://admin.powerplatform.microsoft.com/). You must have an administrator role in order to make changes to your environment.
-- On the environment page, click on **Resources** > **Dynamics 365 apps**. The **Resources** button is located on the top menu bar.
-- On the Dynamics 365 apps page, click on **Install app**. The **Install Dynamics 365 apps** flyout will appear.
-- In the flyout, scroll down all the way to the bottom, and select **Workforce Management for Customer Service**. Click on **Next**.
-- Agree to the terms of service and click on **Install**.
-- Wait until the **Workforce Management for Customer Service** is marked as installed on the Dynamics 365 apps page.
+  To enable Workforce Management, complete the following steps:
 
-To enable the calendar view for agents, you must have at least one of the following roles:
+  1. Navigate to your environment in [Power Platform admin center (PPAC)](https://admin.powerplatform.microsoft.com/).
 
-- System Administrator
-- CSR Manager
-- Omnichannel administrator
-- Omnichannel supervisor
+     > [!Note]
+     > You must have the System Administrator role to make changes to your environment.
+   
+  1. On the command bar, select **Resources** > **Dynamics 365 apps**. The Dynamics 365 apps page is displayed.
+   
+  1. Select **Install app**. The **Install Dynamics 365 apps** page is displayed.
+   
+  1. Scroll down to locate and select **Workforce Management for Customer Service**, and then select **Next**.
+   
+  1. You must agree to the terms of service, and then select **Install**.
+   
+  1. Wait until the **Workforce Management for Customer Service** shows as installed on the **Dynamics 365 apps** page.
 
-You must also have a third-party adapter configured to import agent bookings from an external system. Without an adapter in place, external bookings can't be surfaced in the agent calendar, and agents can't view their schedules.
+- To enable the calendar view for agents, you must have at least one of the following roles:
+
+  - System Administrator
+  - CSR Manager
+  - Omnichannel administrator
+  - Omnichannel supervisor
+
+- You must have a third-party adapter configured to import agent bookings from an external system. Without an adapter in place, external bookings can't be surfaced in the agent calendar, and agents can't view their schedules.
 
 ## Enable the agent calendar
 
