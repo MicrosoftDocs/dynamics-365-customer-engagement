@@ -35,7 +35,7 @@ Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales
 
 - [Versium Predict Setup Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWASsk)
 
-- [Versium Predict User Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5aXeLe)
+- [Versium Predict User Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5aXeL)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
