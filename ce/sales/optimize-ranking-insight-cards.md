@@ -1,6 +1,6 @@
 ---
 title: "Optimize insight cards ranking in assistant"
-description: "Use optimize ranking in assistant to modify the ranking of cards that are important and promotes those cards to display at the top."
+description: "Use optimize ranking in assistant to modify the ranking of cards that are important and promote those cards to display at the top."
 keywords: ""
 ms.date: 10/26/2021
 ms.custom: 
@@ -25,9 +25,9 @@ caps.latest.revision: 1
 > [!NOTE]
 > Rank optimization of insight cards will be deprecated starting from Sunday, October 1, 2023. [Learn more](deprecations-sales.md#rank-optimization-of-insight-cards-will-be-deprecated). 
 
-Several cards are defined for your organization and all will be displayed to the users through an externally prioritized list. In this list of cards, users might miss those that are important and need follow-up. The **Optimize ranking** option in Assistant allows you to optimize the ranking of cards that are important and promotes those cards to display at the top.
+Several cards are defined for your organization and all will be displayed to the users through an externally prioritized list. In this list of cards, users might miss those that are important and need follow-up. The **Optimize ranking** option in assistant allows you to optimize the ranking of cards that are important and promotes those cards to display at the top.
 
-You can define up to four rules in the ranking section, based on entities such as Account, Leads, and Opportunity. Also, the cards are given a priority in the order you define. For example, you created two rules—the first is to prioritize cards for which annual revenue is above $100,000 and the second is to prioritize cards for which estimated revenue is above $10,000. The assistant analyzes the cards and displays those with annual revenue of more than $100,000, followed by those with estimated revenue of more than $10,000, and then followed by the cards that are not prioritized. 
+You can define up to four rules in the ranking section, based on entities such as account, leads, and opportunity. Also, the cards are given a priority in the order you define. For example, you created two rules—the first is to prioritize cards for which annual revenue is above $100,000 and the second is to prioritize cards for which estimated revenue is above $10,000. The assistant analyzes the cards and displays those with annual revenue of more than $100,000, followed by those with estimated revenue of more than $10,000, and then followed by the cards that are not prioritized. 
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -38,14 +38,14 @@ You can define up to four rules in the ranking section, based on entities such a
 
 ## To rank the cards
 
-1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub** app.
+1.	Sign in to **Dynamics 365 Sales** and go to **Sales Hub**.
 
 2.	Go to **Change area** and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
 
-3. On the sitemap, select **Optimize ranking** tab under **Assistant**.
+3. On the sitemap, select the **Optimize ranking** tab under **Assistant**.
 
     > [!div class="mx-imgBorder"]
     > ![Optimize ranking tab](media/si-admin-optimize-ranking-tab.png "Optimize ranking tab")
@@ -57,10 +57,13 @@ You can define up to four rules in the ranking section, based on entities such a
 4. There are four properties you can edit for a rule. The rules are set using these four properties. The basic structure of rules displays as: **Cards related to** *'Name of the entity'* **with** *'Attribute type' 'Condition' 'Value'*. 
 
     The four properties are:
+    
     - **Name of the entity**: The entities such as account, leads, and opportunities are used to model and manage business data in Dynamics 365 Sales.
-        After you select the entity, the values in the Attribute type, Condition, and Value drop-down lists change accordingly.
+
+      After you select the entity, the values in the Attribute type, Condition, and Value dropdown lists change accordingly.
     - **Attribute type**: An entity has a set of attributes. For example, the account entity contains attributes such as Name, Address, and OwnerId. 
-        The attribute types displayed in the drop-down list vary depending on the entity selection and are related to the fields defined within CRM.
+
+      The attribute types displayed in the dropdown list vary depending on the entity selection and are related to the fields defined within CRM.
     - **Condition**: The condition specifies that a card is displayed when the set condition is met. For example, some common conditions are above, equal, and below.
     - **Value**: The value specifies the unit of measure for a condition to validate for the attribute type.
 
