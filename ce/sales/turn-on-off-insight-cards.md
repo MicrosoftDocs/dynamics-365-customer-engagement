@@ -27,7 +27,8 @@ You can decide which insight cards you'd like to see or hide.
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Personal settings** > **Insights**.
 
 1. Under **Assistant studio**, select **Insight cards**.  
-    The **Manage insight cards** page opens with the list of insight cards ordered by status and priority.
+
+   The **Manage insight cards** page opens with the list of insight cards ordered by status and priority.
 
     :::image type="content" source="media/assistant-personal-settings.png" alt-text="Screenshot of the Personal settings for assistant.":::   
 
@@ -57,6 +58,6 @@ Alternatively, you can select the **More options** icon on the card, and then se
 
 ### See also
 
-[Use the assistant to guide customer communications](use-assistant-guide-customer-communications.md)  
-[Insight cards reference](action-cards-reference.md)
+[Use the assistant to guide customer communications](use-assistant-guide-customer-communications)  
+[Insight cards reference](action-cards-reference)
 

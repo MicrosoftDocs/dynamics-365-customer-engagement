@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use the assistant to guide customer communications
 
-The assistant helps you to stay on top of your customer communications. By analyzing your interactions and activities with customers, the assistant displays actionable insight cards to ensure you never miss any important activities with your customers. Here are some ways the assistant reminds you of upcoming activities are:  
+The assistant helps you to stay on top of your customer communications. By analyzing your interactions and activities with customers, the assistant displays actionable insight cards to ensure you never miss any important activities with your customers. Here are some ways the assistant reminds you of upcoming activities:  
 
 - Evaluating your communications and notifying you when a contact or account has been inactive for a while.
 - Identifying email messages that might be waiting for a reply.
@@ -25,9 +25,9 @@ The assistant helps you to stay on top of your customer communications. By analy
 
 ## Prerequisites
 
-Your administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
+Your administrator must enable the assistant before you can try it. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
 
-## How and where the assistant helps?
+## How and where the assistant helps
 
 The assistant works by analyzing the data at its disposal and generating a collection of insight cards, each of which includes a message that summarizes the content of the card and presents a set of actions. The assistant sorts the cards by priority and filters them for your current context. You can access the assistant in a variety of ways in the Sales Insights app.
 
@@ -46,10 +46,10 @@ The assistant works by analyzing the data at its disposal and generating a colle
 
 ## What cards do I see?
 
-- When you open the assistant by using the navigation bar or dashboard, you'll see the cards that you are the owner or part of a team that owns the card.
+- When you open the assistant by using the navigation bar or dashboard, you'll see the cards that you own or are part of a team that owns the card.
 
    > [!NOTE]
-   > Meeting cards are special and displayed to users that are either the  owner, organizer, or an attendee in the meeting.
+   > Meeting cards are special and displayed to users who are either the owner, organizer, or an attendee in the meeting.
 
 - When you open the assistant through an entity record, you'll see the cards that belongs to the record or to related records. The list of related records varies from one entity to  another:
    -	**Account**: Account and its related contacts, opportunities, and incidents.
@@ -109,6 +109,6 @@ When you open the assistant, it displays the name and basic description of each 
 
 ### See also
 
-[Configure the assistant](configure-assistant.md)  
-[Turn on or off the insight cards](turn-on-off-insight-cards.md)  
-[Insight cards reference](action-cards-reference.md)  
+[Configure the assistant](configure-assistant)  
+[Turn on or off the insight cards](turn-on-off-insight-cards)  
+[Insight cards reference](action-cards-reference)  
