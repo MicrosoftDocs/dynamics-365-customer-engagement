@@ -2,12 +2,8 @@
 title: "Summary tiles in Connected Field Service | MicrosoftDocs"
 description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service
 ms.date: 01/05/2021
-
 ms.subservice: connected-field-service
 ms.topic: article
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
 ---
@@ -79,7 +75,7 @@ Make sure your IoT devices are related to the device category. You can add all I
 
 ## View summary tiles on the mobile app
 
-Summary tiles and device readings are viewable on the mobile app when connected to the internet. For more information, see the article on [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings). 
+Summary tiles and device readings are viewable on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Work with IoT data on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings).
 
 ## Configuration considerations
 
