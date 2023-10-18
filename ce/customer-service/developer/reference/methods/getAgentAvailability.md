@@ -15,8 +15,7 @@ ms.author: mgandham
 > [!NOTE]
 > - Listen for the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 > - This method can be called multiple times from the client side when customer input changes. The client side cache is refreshed every 2 minutes or when the customer context parameters change.
-> - This method can be called 500 times from per minute per region.
-
+> - This method can be called 100 times per minute per organization.
 
 ## Syntax
 
