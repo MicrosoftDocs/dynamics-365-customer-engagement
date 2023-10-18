@@ -19,6 +19,9 @@ Learn how the system calculates travel time and distance and how dispatchers see
 > - If it's the first booking of the day, the resource is on site and has a valid lat/long (not location agnostic).
 > - If it's not the first booking of the day, the preceding booking is on site and has a valid lat/long OR the resource is on site and has a valid lat/long.
 
+> [!NOTE]
+> Travel time and routes only uses driving routes. Ferries, planes, etc. routes are not supported. 
+
 ## Visualize travel time on the schedule board
 
 After scheduling a requirement to a resource, the booking appears on the schedule board, including the travel time.
