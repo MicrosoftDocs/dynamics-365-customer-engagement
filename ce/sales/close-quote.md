@@ -1,8 +1,8 @@
 ---
-title: "Close a quote | MicrosoftDocs"
-description: "A quote can be closed when it's lost, canceled, or revised."
+title: Close a quote
+description: A quote can be closed when it's lost, canceled, or revised.
 ms.date: 10/25/2021
-ms.topic: article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 searchScope: 
@@ -32,7 +32,8 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 
 1. In the sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
     > [!NOTE]
-    > You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
+    >- You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
+    >- If you'd like to customize the quote closure experience, contact your Dynamics 365 Sales administrator. [Learn more about supported customizations](customize-quote-closure.md).
 
 1. Open the quote that you want to close and select **Close Quote** on the command bar. 
 

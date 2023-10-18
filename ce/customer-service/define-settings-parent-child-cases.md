@@ -1,10 +1,12 @@
 ---
 title: Define settings for parent and child cases (Dynamics 365 Customer Service)
 description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service.
-ms.date: 04/27/2023
+ms.date: 10/10/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
 search.audienceType: 
   - admin
   - customizer
@@ -45,7 +47,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
 2. In the **Case Settings** dialog, enter the following details:
 
-    a. In **Select the attributes**, select the case attribute that the child case will inherit from the parent case.  
+    a. In **Select the attributes**, select the **Case Title** and **Customer** attributes that are mandatory and any other case attribute, which the child case will inherit.
 
       You can view **Available** and **Selected** attributes in two lists; use the arrows **>**, **<**, **>>**, and **<<** to move the attributes from one list to another. 
   
