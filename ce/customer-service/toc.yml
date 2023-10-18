@@ -346,6 +346,8 @@
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
+    - name: Create a new case when email subject changes
+      href: arc-email-sub-chg.md
   - name: Service-level agreements
     items:
     - name: Overview of service-level agreements

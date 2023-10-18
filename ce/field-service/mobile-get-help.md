@@ -1,6 +1,6 @@
 ---
-title: Get help for Field Service Mobile
-description: Learn about the ways you can get help for Field Service Mobile
+title: Get help for the Field Service mobile app
+description: Learn about the ways you can get help for the Field Service mobile app.
 ms.date: 04/19/2023
 ms.subservice: field-service-mobile
 ms.topic: conceptual
@@ -9,7 +9,7 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Get help for Field Service Mobile
+# Get help for the Field Service mobile app
 
 - If you're looking for help with **errors, unexpected behavior, crashes, and bugs**, [create a Dynamics 365 support request](field-service-get-help.md). Make sure you provide the session ID and version number of the mobile app. Sign in to the app, select your account picture, and select **Info** to get the session details and the app version.
 

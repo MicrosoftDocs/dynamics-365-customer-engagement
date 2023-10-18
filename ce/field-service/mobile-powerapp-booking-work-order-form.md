@@ -1,8 +1,7 @@
 ---
-title: "Edit the Booking and Work Order form (Form Component Control) | MicrosoftDocs"
+title: Edit the booking and work order form
 description: Learn how to edit the booking and work order form in Dynamics 365 Field Service.
 ms.date: 12/01/2021
-
 ms.topic: article
 author: Andrea-Orimoto
 ms.author: andreo
@@ -10,13 +9,9 @@ ms.author: andreo
 
 # Edit the booking and work order form
 
-You can add and delete fields displayed on the Field Service (Dynamics 365) mobile app; because the app is built with Power Apps, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
+You can add and delete fields displayed on the Dynamics 365 Field Service mobile app; because the app is built with Power Apps, you can use the Power Apps Control Framework to display different field controls like toggle buttons and sliders.
 
-Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form. In the following screenshot, the **General** section displays **Bookable Resource Booking** ("Booking") fields and the **Customer**, **Service**, and **Notes** sections display work order fields.
-
-
-> [!div class="mx-imgBorder"]
-> ![Simulated image showing a device with the Field Service (Dynamics 365) mobile app, showing a screenshot of a Bookable Resource Booking on the General tab.](./media/mobile-2020-work-order-form-all-sections.png)
+Administrators who want to customize the booking and work order forms must know they are combined in the mobile app where work order forms are displayed within the booking form. That means when a technician views a booking form, they're also viewing the related work order form.
 
 To edit the work order portion of the form, go to **Settings** > **Customizations** > **Customize the System** and find the **Work Order** entity in the Power Apps admin console.
 
@@ -29,7 +24,7 @@ In the **Form** section, there are three forms that correspond to the three sect
 2. Work Order - Service
 3. Work Order - Notes
 
-Edit each form as needed and publish. The changes will display in the Field Service (Dynamics 365) mobile app.
+Edit each form as needed and publish. The changes will display in the Field Service mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Power Apps showing the work order form details.](./media/mobile-2020-admin-work-order-form-tabs.png)
@@ -55,16 +50,14 @@ Another way you can add work order information to the booking form is to add a [
 > The combined _Booking and Work Order_ form is made possible by a PCF control called "Form component control." For more information, see the article on
 [editing related table records directly from another table’s main form](/powerapps/maker/model-driven-apps/form-component-control) for more details.
 
-
->[!NOTE] 
+>[!NOTE]
 > For Work Order Product, Work Order Service Task, and Work Order Service control to respect field mapping from Work Order when selecting **Create New**, the controls must be encapsulated within the Work Order form.
-
 
 ## Using the Form component control
 
 The Booking form and Work Order form are combined using a PCF control called the [Form Component Control](/powerapps/maker/model-driven-apps/form-component-control) that allows you to add information from other entities (tables) into a form; in this case adding Work Order information into the Booking form.
 
->[!TIP] 
+>[!TIP]
 > It is recommended to use the Form Component Control to add information from multiple entities (tables) into a single form. For example, you may add Account information into the Customer Asset form. Doing so improves performance by reducing form load times and it also improves usability by reducing the need for the frontline worker to navigate to different forms.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
