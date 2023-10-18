@@ -28,9 +28,9 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.108.19
 
-- In map view on the Schedule Board, there are now visual indicators to show which record is selected. 
-- Fixed a bug that was preventing some tooltips to not properly function while in List view. 
-- Improved the Schedule Board’s resolution slider to honor the configured working time. 
+- In the map view on the schedule board, there are now visual indicators to show which record is selected. 
+- Fixed a bug that was preventing some tooltips to not properly function while in list view. 
+- Improved the schedule board resolution slider to honor the configured working time. 
 - Fixed a bug that was displaying an error when booking certain full capacity requirements with a “Full Requirement” booking method. 
 - Fixed bugs that were causing errors to be displayed when editing booking lengths in multi-day views.  
 
