@@ -109,6 +109,6 @@ When you open the assistant, it displays the name and basic description of each 
 
 ### See also
 
-[Configure the assistant](configure-assistant)  
-[Turn on or off the insight cards](turn-on-off-insight-cards)  
-[Insight cards reference](action-cards-reference)  
+[Configure the assistant](configure-assistant.md)  
+[Turn on or off the insight cards](turn-on-off-insight-cards.md)  
+[Insight cards reference](action-cards-reference.md)  
