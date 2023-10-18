@@ -754,7 +754,7 @@ For example: *Repeat Mon,Tue,Wed,Thu,Fri; 1.1-No End Date* except *6.21; non-rep
 185                 | (GMT+05:00) Toshkent
 190                 | (GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi
 193                 | (GMT+05:45) Kathmandu
-195                 | (GMT+06:00) Nur-Sultan
+195                 | (GMT+06:00) Astana
 196                 | (GMT+06:00) Dhaka
 197                 | (GMT+06:00) Omsk
 200                 | (GMT+05:30) Sri Jayawardenepura
