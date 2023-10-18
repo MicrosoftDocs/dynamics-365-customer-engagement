@@ -3,27 +3,28 @@ title: Use the agent calendar view | MicrosoftDocs
 description: Navigate the agent calendar in Customer Service workspace.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: neeranelli
+ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 10/31/2023 
+ms.date: 10/18/2023 
 ms.custom: bap-template 
 ---
  
 # View the agent calendar
 
-As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, nonwork hours, and any time-off you've scheduled. The calendar view is read-only and includes daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule. 
+As an agent, it's helpful to know your work schedule, breaks, trainings, and other activities. If your administrator has enabled the calendar view, you can quickly see your work hours, nonwork hours, and any time off that you've scheduled.
 
-1. In Customer Service workspace, click on the **Sitemap** button to reveal the left sitemap menu pane.
-1. Click on **My Schedule**.
+The calendar view is read-only and has daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule.
 
-1. In the site map, select the plus (+) icon, and then select **My Schedule** from the dropdown menu.
+1. In Customer Service workspace, expand the left-side sitemap, and then select **My Schedule**.
 
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the dropdown menu with the calendar option selected.":::
+   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
 
-   The **My Schedule** page opens with a read-only calendar view of the work hours, nonwork hours, and any time off you've scheduled. Use the command bar at the top to change the view to agenda, daily, weekly, or monthly.
+   The **My Schedule** page opens with a read-only calendar view of the work hours, nonwork hours, and any time off you've scheduled. Work hours are displayed in blue, and nonwork hours are displayed in gray.
 
    :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
+
+2. (Optional) Use the top-right menu to change the view to agenda, daily, weekly, or monthly.
 
 ### See also
 [Get started with Customer Service workspace](csw-overview.md)  
