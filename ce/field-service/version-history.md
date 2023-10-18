@@ -34,9 +34,9 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.103.20
 (Includes Universal Resource Scheduling version [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) and Resource Scheduling controls version 1.2.57.232831).
 
--	Fixed a bug sometimes causing IOT Hub setup to fail on Step 7: Set up the Azure Time Series Insights connection, with error message, “Object reference not set to an instance of an object."
--	Found and removed unnecessary calls to a system job, improving the performance of the FS plugin during WO creation.
-- Dynamics 365 Field Service Mobile: Fixed a bug in Quick Notes control where an uploaded image may displayed the photo URL path instead of the visual photo.
+- Fixed a bug in IoT Hub setup that caused the error message “Object reference not set to an instance of an object".
+- Removed unnecessary calls to a system job, improving the performance when creating a work order.
+- Dynamics 365 Field Service mobile app: Fixed a bug in Quick Notes control where an uploaded image might display the image path instead of the actual image.
   
 ## 8.8.102.29
 (Includes Universal Resource Scheduling version [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) and Resource Scheduling controls version 1.2.56.23269).
