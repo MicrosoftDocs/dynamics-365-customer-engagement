@@ -16,7 +16,7 @@ As an agent, it's helpful to know your work schedule, breaks, trainings, and oth
 
 The calendar view is read-only and has daily, weekly, and monthly views. It also has an agenda view where you can see a list-type view of your schedule.
 
-1. In Customer Service workspace, expand the left-side sitemap, and then select **My Schedule**.
+1. In Customer Service workspace, expand the site map, and then select **My Schedule**.
 
    :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
 
