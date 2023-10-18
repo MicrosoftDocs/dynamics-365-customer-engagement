@@ -73,15 +73,15 @@ There are [several ways to schedule a work order](universal-resource-scheduling-
 
 Find your work order in the requirement pane. Drag it to a free time slot in the future for one of your frontline workers.
 
-## View the scheduled work order on the Field Service (Dynamics 365) mobile app
+## View the scheduled work order on the Field Service mobile app
 
-Frontline workers use the Field Service (Dynamics 365) mobile app on their phone or tablet.
+Frontline workers use the mobile experience on their phone or tablet.
 
 Download and install the mobile app and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 
-For more information, see [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+For more information, see [Install and set up the Field Service mobile app](mobile-power-app-get-started.md).
 
 ## Analyze your operations
 
