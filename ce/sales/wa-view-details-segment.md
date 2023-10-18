@@ -1,18 +1,22 @@
 ---
-title: View and edit properties of a segment
-description: View and edit the details of a segment such as, priority, allow records from other segments to move, and schedule to run assignment rules.
+title: View and edit the properties of a segment
+description: Learn how to view and edit the properties of a segment, such as its priority, whether records from other segments can move into it, and when its assignment rules run.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: how-to 
-ms.collection: 
+ms.topic: how-to
+ms.collection:
 ms.date: 08/11/2023
-ms.custom: bap-template 
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/18/2023
 ---
 
-# View and edit properties of a segment
+# View and edit the properties of a segment
 
-View and edit the details of a segment such as, priority, allow records from other segments to move, and schedule to run assignment rules. 
+After you've [created a segment](./wa-create-and-activate-a-segment.md) and used it for a while, you might find you need to change some of its properties.
 
 ## License and role requirements
 

@@ -15,7 +15,9 @@ ms.custom:
 
 # Set seller attributes and capacity
 
-Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, working capacity, and attributes like the languages they speak and special skills they have. This article covers how to define your sales team's attributes and capacity. [If you allow them to](./wa-manage-seller-availability.md), your sellers can [set their own availability](personalize-sales-accelerator.md#configure-your-work-availability).
+Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and attributes like the languages they speak and special skills they have.
+
+This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability).
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -26,74 +28,154 @@ Assignment rules can assign new leads, opportunities, and insights to your selle
 | **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
 | **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-## Set seller attributes
+## Seller attributes
 
-As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.
+Define the attributes that you want your assignment rules to consider when they evaluate sellers to assign to new leads and opportunities. For example, you might want to create an attribute that lets you assign sellers based on the languages they speak.
 
-You can use the attribute designer to:
+### Create an attribute
 
-- [Create an attribute](#create-an-attribute).
-- [Edit an attribute](#edit-an-attribute).
-- [Delete an attribute](#delete-an-attribute).
+You can set the value of an attribute either by getting it from Dynamics 365 or by entering it manually.
 
-## Create an attribute
+1. Sign in to your Sales Hub app.
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **Work assignment**.  
-1. On the **Work assignment** page, select **Settings**.  
-1. On the **Work assignment settings** page, select **Manage attributes**.  
-1. On the **Manage attributes** page, select **New seller attribute**.
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-    :::image type="content" source="media/sa-ar-seller-attributes-select-new-seller-attribute.png" alt-text="Screenshot of manage attribute page to add new seller attribute.":::
+1. Under **Sales accelerator**, select **Work assignment**.
 
-1. In the **Create new seller attribute** dialog, enter the information as follows:
+1. Select **Settings**.
 
-   >[!div class="mx-imgBorder"]
-   >![Create new seller attribute](media/sa-ar-create-new-seller-attribute.png "Create new seller attribute")   
+1. In the **Seller attributes** section, select **Manage**
 
-    - **Seller attribute name**: Enter a name for the attribute. For example, **Language**.   
-    - **Set attribute values**: Select how you want to enter the values for the attribute.      
-        - **Pull from a data field**: The attribute values are fetched from a data field with an option set that is selected from the **Search data field** dropdown list. The list displays fields of type option set that is available lead, opportunity, and mutual. For example, when you select the field as **Budget** from **Mutual fields (same option set)**, the values that are defined for the field in both lead and opportunity form are added to the attribute values. You can remove the values and also add values.
+1. If this attribute is the first one you're creating, select **Add attribute**. If you already have at least one attribute defined, select **+ New seller attribute**.
 
-        :::image type="content" source="media/sa-ar-new-attribute-lead-related.png" alt-text="Screenshot of select the budget field to add values to the attribute.":::
+1. Enter a meaningful **Seller attribute name**.
 
-       - **Do not link with fields**: Enter the attribute values manually.
+1. Under **Set attribute values**, select whether to get the values from Dynamics 365 or enter them manually.
 
-        :::image type="content" source="media/sa-ar-new-attribute-manual-value.png" alt-text="Screenshot to enter attribute value manually.":::
- 
-1.  Select **Create seller attribute**.
+    - To get the values from Dynamics 365, select **Pull from a data field**.
+      - Select a field that's associated with leads, opportunities, or both leads and opportunities (mutual fields).
+      - The possible values of the field are listed under the field name. To remove one from consideration, select the **X** to the right of the value. If you remove one accidentally, select the field again to reset the list.
 
-The attribute is created and added to the list.
+        :::image type="content" source="media/sa-ar-new-attribute-lead-related.png" alt-text="Screenshot of a Budget attribute with values pulled from the Budget field.":::
 
-## Edit an attribute
+    - To enter the attribute values yourself, select **Create manually**.
+      - Type each value separately, pressing Enter after each one.
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
-1. On the **work assignment** page, select **Settings**.  
-1. On the **Work assignment settings** page, select **Manage attributes**.  
-1. On the **Manage attributes** page, select the pencil icon corresponding to the attribute that you want to edit.  
-1. In the edit dialog, edit the values you want, and then select **Update seller attribute**.  
+        :::image type="content" source="media/sa-ar-new-attribute-manual-value.png" alt-text="Screenshot of a Language attribute with manually entered values.":::
 
-    :::image type="content" source="media/sa-ar-attribute-edit-attribute.png" alt-text="Screenshot of edit attribute dialog.":::
- 
-The attribute is updated.
+1. Select **Create seller attribute**.
 
-## Delete an attribute
+### Edit an attribute
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
-1. Under **Sales accelerator**, select **work assignment**.  
-1. On the **work assignment** page, select **Settings**.  
-1. On the **Work assignment settings** page, select **Manage attributes**.  
-1. On the **Manage attributes** page, select the delete icon corresponding to the attribute.  
-1. In the confirmation message, select **Delete permanently**.  
+You can't change where an attribute gets its values. To change an attribute with manually entered values to one that gets its values from Dynamics 365 or vice versa, or to change which field the values are pulled from, you need to delete it and create it again. However, you can change an attribute's values and its name.
 
-    :::image type="content" source="media/sa-ar-delete-attribute-confirmation.png" alt-text="Screenshot of delete attribute confirmation message.":::
+1. Sign in to your Sales Hub app.
 
-The attribute is deleted from the application.
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+1. Under **Sales accelerator**, select **Work assignment**.
+
+1. Select **Settings**.
+
+1. In the **Seller attributes** section, select **Manage**
+
+1. Select the pencil icon next to the attribute you want to edit.
+
+1. Change what you need to. You can always rename an attribute. The changes you can make to its values depend on how the attribute was created.
+
+    - If the **Pull from a data field** option is selected (although you can't change this), you can only remove values or restore the field's original values. You can't select a different field.
+      - To remove a value, select the **X** to the right of it.
+      - To reset the list of values, select the field again.
+
+    - If the **Create manually** option is selected (although you can't change this), you can remove values and enter new ones.
+      - To remove a value, select the **X** to the right of it.
+      - To add a value, type it in the box and press Enter.
+
+1. Select **Update seller attribute**.
+
+### Delete an attribute
+
+1. Sign in to your Sales Hub app.
+
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
+
+1. Under **Sales accelerator**, select **Work assignment**.
+
+1. Select **Settings**.
+
+1. In the **Seller attributes** section, select **Manage**
+
+1. Select the trashcan icon next to the attribute you want to delete, and then select **Delete permanently**.
+
+## Assign attributes and capacity to sellers
+
+After you define the attributes you want your assignment rules to consider, you need to assign them to your sellers and sales teams. You can also instruct assignment rules to consider sellers' workload by setting their capacity.
+
+In Dynamics 365 Sales, *capacity* is the number of leads and opportunities that a seller or a sales team can work on at one time. You can set a *maximum capacity* for each seller or sales team in your organization. Each seller's or sales team's *available capacity* is calculated by subtracting from their maximum capacity the number of leads and opportunity records that are assigned to them.
+
+You can assign attributes and capacity to sellers one at a time or in groups.
+
+1. Sign in to your Sales Hub app.
+
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
+
+1. Under **Sales accelerator**, select **Work assignment**.
+
+1. Select **Settings**.
+
+1. Continue to set attributes and capacity for [individual sellers](#set-attributes-and-capacity-for-individual-sellers) or for [groups of sellers](#set-attributes-and-capacity-for-groups-of-sellers).
+
+### Set attributes and capacity for individual sellers
+
+1. Select the seller's name in the **Sellers for assignment** list.
+
+1. Under **Set maximum capacity of leads and opportunities for this seller**, enter a number.
+
+    Although you can enter any number, you should enter a reasonable number of records the seller can work on at one time.
+
+1. Under **Apply attributes to this seller**, select **+ Add attribute**.
+
+1. Select an attribute and the value or values to assign to the seller.
+
+    :::image type="content" source="./media/sa-ar-assign-attributes-capacity-to-seller.png" alt-text="Screenshot of a seller's maximum capacity and attributes settings.":::
+
+1. Select **Save changes**.
+
+### Set attributes and capacity for groups of sellers
+
+Unlike with individual sellers, you apply attributes and set the maximum capacity for groups of sellers separately.
+
+:::image type="content" source="./media/sa-ar-assign-attributes-capacity-to-group.png" alt-text="Screenshot of a group of sellers selected, with Apply attributes and Set capacity highlighted.":::
+
+#### Apply attributes to a group of sellers
+
+1. Select the sellers in the **Sellers for assignment** list.
+
+1. Select **Apply attributes**.
+
+1. Select **+ Add attribute**, and then select an attribute and the value or values to assign.
+
+1. Repeat for each attribute that applies to the selected sellers.
+
+1. When you're finished, select **Apply**.
+
+#### Set capacity for a group of sellers
+
+1. Select the sellers in the **Sellers for assignment** list.
+
+1. Select **Set capacity**.
+
+1. Under **Set the maximum capacity of leads and opportunities for these sellers**, enter a number.
+
+    Although you can enter any number, you should enter a reasonable number of records the sellers can work on at one time.
+
+1. Select **Apply**.
+
+1. If the sellers previously had a different maximum capacity set, you're prompted to override the previous settings.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Configure security roles to assign records](wa-manage-sales-teams.md)  
-[Manage seller attributes](wa-manage-seller-attributes.md)  
+- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Select security roles to assign records to](wa-manage-sales-teams.md)

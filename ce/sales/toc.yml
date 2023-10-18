@@ -20,7 +20,7 @@
       href: print-records.md
     - name: Export sales records to PDF
       href: create-quote-pdf.md
-    - name: View and manage records in focused view  
+    - name: View and manage records in focused view
       href: focused-view.md
     - name: Set focused view as the default view
       href: set-focused-view-as-default.md
@@ -510,7 +510,7 @@
                   href: wa-manage-sales-teams.md
                 - name: Set seller attributes and capacity
                   href: wa-manage-seller-attributes.md
-                - name: Set seller availability
+                - name: Let sellers set their availability
                   href: wa-manage-seller-availability.md
             - name: Understand lead distribution
               href: understand-lead-distributions-assignment-rules.md                  
