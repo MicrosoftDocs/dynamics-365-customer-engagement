@@ -3,7 +3,7 @@ title: Configure the agent calendar view
 description: Learn how to enable the agent calendar in Dynamics 365 Customer Service admin center.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shubjoshi
+ms.reviewer: shujoshi
 ms.topic: how-to
 ms.date: 10/18/2023
 ms.custom: bap-template
