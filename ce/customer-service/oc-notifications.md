@@ -1,10 +1,14 @@
 ---
-title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 04/05/2022
+title: View notifications in Customer Service
+description: Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps.
+ms.date: 10/16/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/16/2023
 ---
 
 # View notifications
@@ -28,12 +32,16 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-You'll receive desktop notifications when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. The desktop notification helps ensure that you don't miss any conversation requests. Some scenarios where the app isn't in focus include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
-- You've minimized the app.
-- You're working in another browser window.
-- You're working on another tab of the browser.
+- The agent has minimized the app.
+- The agent is working in another browser window.
+- The agent is working on another tab of the browser.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
 
+> [!Note]
+> The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+ 
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](media/desktop-notification.png "Desktop notification")
 

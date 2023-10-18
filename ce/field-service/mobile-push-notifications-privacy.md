@@ -1,5 +1,5 @@
 ---
-title: "Privacy note for Field Service Mobile Push Notifications | MicrosoftDocs"
+title: "Privacy note for Field Service push notifications | MicrosoftDocs"
 description: Learn about the privacy note for Field Service mobile push notifications enabling authorized users to access the online service.
 ms.date: 03/14/2019
 ms.topic: "article"
@@ -7,7 +7,7 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-# Privacy note for Field Service Mobile push notifications
+# Privacy note for Field Service push notifications
 
 Microsoft Corporation (or based on where you live, one of its affiliates) licenses this supplement to you. You may use it with each validly licensed subscription of Microsoft Dynamics 365 services (the “online service”). You may not use the supplement if you don't have a license for the online service. The license terms for the online service apply to your use of this supplement. Microsoft provides support services for the supplement as described at https://support.microsoft.com/common/international.aspx. This supplement enables authorized users to access the online service with the companion Field Service mobile applications for Microsoft Dynamics 365 (the “App”), which users need to install and license separately.
 

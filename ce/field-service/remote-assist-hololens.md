@@ -49,7 +49,7 @@ When a technician signs in to the Field Service mobile app, they see their plann
 Select **More options** (&hellip;) and choose **Remote Assist**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
+> ![Screenshot of four mobile devices and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 ## Make a Dynamics 365 Remote Assist call
 

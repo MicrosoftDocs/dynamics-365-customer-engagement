@@ -1,6 +1,6 @@
 ---
-title: Enable push notifications for the Field Service (Dynamics 365) mobile app
-description: Learn how to enable push notifications for the Field Service (Dynamics 365) mobile app.
+title: Enable push notifications
+description: Learn how to enable push notifications for the Field Service mobile app.
 ms.date: 09/07/2023
 ms.subservice: field-service-mobile
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Enable push notifications
 
-In the Field Service (Dynamics 365) mobile app, push notifications send updates to technicians through their mobile phones or tablets. Push notifications use Microsoft Power Automate and support many scenarios. For example, to notify about a newly assigned booking or as a reminder to capture and enter important data.
+In the Dynamics 365 Field Service mobile app, push notifications send updates to technicians through their mobile phones or tablets. Push notifications use Microsoft Power Automate and support many scenarios. For example, to notify about a newly assigned booking or as a reminder to capture and enter important data.
 
 There are two ways to enable push notifications for your organization.
 
@@ -21,8 +21,8 @@ There are two ways to enable push notifications for your organization.
 ## Prerequisites
 
 - A license and permissions for [Power Automate](https://flow.microsoft.com/).
-- At least Field Service (Dynamics 365) mobile app v13.20101.19+ for iOS or v3.20101.19+ Android devices. Check the version in the **About** section of the app.
-- Enabled notifications in your device settings for the Field Service (Dynamics 365) mobile app.
+- Mobile app v13.20101.19+ for iOS or v3.20101.19+ Android devices. Check the version in the **About** section of the app.
+- Enabled notifications in your device settings for the Field Service mobile app.
 - Review and agree to the [privacy notes for Field Service push notifications](mobile-push-notifications-privacy.md).
 
 ## Turn on push notifications included with Field Service

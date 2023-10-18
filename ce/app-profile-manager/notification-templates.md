@@ -1,10 +1,15 @@
 ---
-title: "Manage notification templates | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel for Customer Service."
+title: Manage notification settings and templates
+description: Manage notification settings and templates for optimal functioning and customizing of notifications for agents.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/09/2022
+ms.date: 10/16/2023
 ms.topic: article
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/16/2023
+  - ai-gen-title
 ---
 
 # Manage notification settings and templates
@@ -17,17 +22,16 @@ As an administrator, system integrator, or partner, you can use the out-of-the-b
 
 For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../customer-service/system-requirements-omnichannel.md).
 
-> [!Note]
->
-> The legacy version of Microsoft Edge is not supported for desktop notifications.
-
-### Desktop notifications when the app is in the background
-
-Agents can receive desktop notifications when the Customer Service workspace or Omnichannel for Customer Service app is not in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Desktop notifications help ensure that agents won't miss any conversation requests. Based on your configuration, agents can receive notification alerts on their desktop always or when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
+
+> [!Note]
+> - The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+> - The legacy version of Microsoft Edge is not supported for desktop notifications.
 
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](../customer-service/media/desktop-notification.png "Desktop notification")
@@ -144,7 +148,7 @@ The out-of-the-box templates are as follows.
    | General|Auto-accept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for an agent to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](../customer-service/enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify whether you want to show notifications to the agents when the Omnichannel for Customer Service app not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notification when app is in background](#desktop-notifications-when-the-app-is-in-the-background) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify **Always(preview)** to show notifications always or **When app is in background** to show notifications only if the Customer Service workspace or Omnichannel for Customer Service is not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../customer-service/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../customer-service/media/notification-template-default-entity.png "Create notification template")
@@ -174,7 +178,7 @@ The out-of-the-box templates are as follows.
 
 11. Select the name of the notification field you created, and then select **Add**. For example, **Name of the customer**.
 
-12. Repeat steps 6 through 12 to add more notification fields.
+12. Repeat steps 6 through 11 to add more notification fields.
 
 13. Select **Save**.
 
