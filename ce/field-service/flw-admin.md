@@ -198,7 +198,7 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 ### Assign security roles and field security profiles
 
-Assign Microsoft Entra permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
+Assign Microsoft Entra ID permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
 
 For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
 
@@ -208,7 +208,7 @@ For Field Service, see the following steps. For Power Platform Admin Center, see
 
 ### Sync Microsoft Entra groups and Dataverse security roles
 
-Synchronize your Microsoft Entra groups to the Dataverse security roles. Although this step is optional, we recommend you assign Microsoft Entra permissions to ensure that adding and removing users is reflected in both Microsoft Entra and Power Platform. To automate the process using the Web API, see [Assign a security role to a Microsoft Entra group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
+Synchronize your Microsoft Entra groups to the Dataverse security roles. Although this step is optional, we recommend you assign Microsoft Entra ID permissions to ensure that adding and removing users is reflected in both Microsoft Entra ID and Power Platform. To automate the process using the Web API, see [Assign a security role to a Microsoft Entra group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
