@@ -1,7 +1,7 @@
 ---
 title: Visualize IoT device readings
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.date: 02/17/2023
+ms.date: 10/05/2023
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -57,7 +57,7 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles work on the mobile app when connected to the internet. For more information, see [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 
