@@ -76,7 +76,9 @@ Assign a single requirement to the crew resource to create a booking for the ent
 
 You can't manually schedule requirement groups to crews, only single requirements.
 
-The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew.
+The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew under the following conditions:
+1. The booking falls within the "FromDate" and the "ToDate" configured for the bookable resource group belonging to the crew member.
+2. There are work hours confiugred for the crew member on the day(s) of the booking and the booking falls within those work hours.
 
 > [!NOTE]
 > When a single requirement is booked to a crew, manually or with the schedule assistant, a requirement group is automatically created and all bookings are related to the requirement group. It ensures that crew bookings are in sync if you change them. The **Auto Group Type** of the requirement group is set to **Crew**.

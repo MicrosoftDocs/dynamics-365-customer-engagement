@@ -174,11 +174,11 @@ items:
       href: flw-overview.md
     - name: Administrators
       href: flw-admin.md
-    - name: Outlook add-in with Copilot for the Frontline Manager
+    - name: Outlook add-in with Copilot for the frontline manager
       href: flw-outlook.md
-    - name: Teams app for the Frontline Manager
+    - name: Teams app for the frontline manager
       href: flw-teams-manager.md
-    - name: Teams app for the Frontline Worker
+    - name: Teams app for the frontline worker
       href: flw-teams-worker.md
 
 - name: Scheduling
@@ -466,11 +466,13 @@ items:
         - name: Overnight scheduling
           href: rso-overnight-scheduling.md
         - name: Single resource optimization
-          href: single-resource-optimization.md
+          href: rso-single-resource-optimization.md
         - name: Simulations
           href: rso-simulation.md
     - name: Lock options for bookings
       href: booking-lock-options.md
+    - name: Multi-day requirements
+      href: rso-multi-day.md
     - name: Resolving conflicts for bookings
       href: rso-handling-resolving-booking-conflicts.md
 
