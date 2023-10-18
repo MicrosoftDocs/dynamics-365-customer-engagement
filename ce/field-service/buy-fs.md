@@ -33,6 +33,9 @@ For detailed information, see [Field Service pricing](https://dynamics.microsoft
 
 ## Field Service and mixed reality apps
 
+> [!IMPORTANT]
+> We're releasing the updates to the Field Service license on December 1, 2023. Familiarize with the information until the changes are available in your region.
+
 With Field Service version [XXX](tbd.md) in the 2023 release wave 2, the Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. No action is required to assign the new licenses to existing users. However, the system doesn't install the applications automatically. For more information about installing the mixed reality apps, see [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
 The update automatically adds security roles for Guides and Remote Assist to users with default Field Service security roles. Admins can disable that setting to stop the automated role assignment for new users. For more information, see [Mixed Reality settings](configure-default-settings.md#mixed-reality-settings).
