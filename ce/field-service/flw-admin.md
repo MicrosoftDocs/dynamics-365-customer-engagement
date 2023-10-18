@@ -104,7 +104,7 @@ The Field Service (Preview) for Viva Connections and Teams requires the followin
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
 - [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
-- [Sync Microsoft Entra groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
+- [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles)
 
 > [!NOTE]
 > Teams Preview is not supported.
