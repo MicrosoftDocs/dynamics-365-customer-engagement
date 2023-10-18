@@ -59,7 +59,7 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 
 ## Shift bookings view for supervisors
 
-The shift booking list view lets supervisors view the bookings that are imported from their third-party workforce management system. Using this view, supervisors can access a consolidated list of bookings for all agents in their system. The shift bookings view offers a comprehensive breakdown of each agent’s individual activities, including work hours, time off, lunch breaks, trainings, and more. 
+The shift booking list view lets supervisors view the bookings that are imported from their third-party workforce management system. Supervisors can use this view to access a consolidated list of bookings for all agents in their system. The shift bookings view offers a comprehensive breakdown of each agent’s individual activities, including work hours, time off, lunch breaks, trainings, and more. 
 
 Administrators can utilize this view to verify the proper functioning of the third-party adapter booking sync process.
 
