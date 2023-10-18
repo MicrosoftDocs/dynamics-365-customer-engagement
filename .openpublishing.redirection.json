@@ -24381,6 +24381,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/manage-users.md",
+      "redirect_url": "/power-platform/admin/create-users",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/define-playbook-categories.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
       "redirect_document_id": "false"
