@@ -1,7 +1,7 @@
 ---
 title: Customize the Opportunity Close form in Dynamics 365 Sales
 description: Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
-ms.date: 09/29/2023
+ms.date: 10/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
