@@ -13,7 +13,7 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-will-be-removed-in-july-2023).
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
 > - You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the Customer Service admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records)
 
 ## Create a record workstream
