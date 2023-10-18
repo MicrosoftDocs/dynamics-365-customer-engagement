@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 As an administrator or a supervisor, you can help agents in your organization view their work schedules. The **My Schedule** view in the Dynamics 365 Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off. 
 
-The calendar view is a read-only visual that provides daily, weekly and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule. 
+The calendar view is a read-only visual that provides daily, weekly, and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule. 
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ The calendar view is a read-only visual that provides daily, weekly and monthly 
 
 ## Enable the agent calendar
 
-1. In the Customer Service admin center sitemap, select **Workforce management**.
+1. In the Customer Service admin center site map, select **Workforce management**.
 
 1. In the **Agent calendar** section, select **Manage**. The **Agent calendar** page is displayed.
 
@@ -56,6 +56,18 @@ The calendar view is a read-only visual that provides daily, weekly and monthly 
 1. Turn on the **Enable agent calendar** toggle.
 
 1. Select **Save and close**.
+
+## Shift bookings view for supervisors
+
+The shift booking list view lets supervisors view the bookings that are imported from their third-party workforce management system. Using this view, supervisors can access a consolidated list of bookings for all agents in their system. The shift bookings view offers a comprehensive breakdown of each agent’s individual activities, including work hours, time off, lunch breaks, trainings, and more. 
+
+Administrators can utilize this view to verify the proper functioning of the third-party adapter booking sync process.
+
+1. In Customer Service workspace, expand the site map, and then select **Shift Bookings**.
+   
+1. Select the **All Shift Bookings** view.
+
+   :::image type="content" source="media/agent-calendar-shift-bookings-view.png" alt-text="Agent calendar shift bookings view for supervisors.":::
 
 
 ## Next Steps
