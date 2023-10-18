@@ -82,7 +82,7 @@
         - name: Predefined security roles for Sales
           href: security-roles-for-sales.md
         - name: Create users and assign security roles
-          href: manage-users.md
+          href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
         - name: Add or manage teams
           href: manage-teams.md
         - name: Set up sales territories
