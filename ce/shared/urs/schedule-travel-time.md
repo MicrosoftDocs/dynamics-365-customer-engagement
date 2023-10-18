@@ -18,9 +18,8 @@ Learn how the system calculates travel time and distance and how dispatchers see
 > - Booking falls within the resource's working hours.
 > - If it's the first booking of the day, the resource is on site and has a valid lat/long (not location agnostic).
 > - If it's not the first booking of the day, the preceding booking is on site and has a valid lat/long OR the resource is on site and has a valid lat/long.
-
-> [!NOTE]
-> Travel time and routes only uses driving routes. Ferries, planes, etc. routes are not supported. 
+> 
+> Travel time and routes only uses driving routes. Routes don't suport other means of transport like walking, ferries, or planes. 
 
 ## Visualize travel time on the schedule board
 
