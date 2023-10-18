@@ -514,7 +514,7 @@ items:
     href: troubleshoot-field-service-solution-health.md
   - name: Field Service FAQs
     href: troubleshoot-faq.yml
-  - name: Field Service Mobile FAQs
+  - name: Mobile app FAQs
     href: mobile-power-app-faq.yml
   - name: Connected Field Service FAQs
     href: cfs-troubleshoot.md

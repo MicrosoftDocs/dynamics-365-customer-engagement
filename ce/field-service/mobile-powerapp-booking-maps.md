@@ -88,13 +88,3 @@ Select **View Details** to open the booking and work order.
 
 - The booking map will work when the mobile app is running offline _with_ internet access. In this case, the device is connected to the internet but is still using downloaded data. 
 - The booking map is only available in the mobile app. 
-
-### Known issues
-
-- Field Service Mobile Boooking Maps uses Azure Maps as the map provider. Currently, Azure Maps has some coverage and localization gaps for some parts of Japan and South East Asia regions.
-- If there are multiple bookings with the same address on the same day (as seen in the "3" icon in the following screenshot), tapping the cluster will bring the user to the info card of the booking with the latest start time. 
-
-> [!div class="mx-imgBorder"]
-> ![Field Service mobile, showing a cluster of work pinned to one location.](./media/bookable-maps-pins3-wf.png)
-
-
