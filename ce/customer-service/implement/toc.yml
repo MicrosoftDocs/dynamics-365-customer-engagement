@@ -29,7 +29,7 @@
         - name: Deprecations
           items:
           - name: Deprecations in Customer Service
-            href: deprecations-customer-service
+            href: deprecations-customer-service.md
           - name: Customer Service Analytics
             items:
             - name: Introduction to analytics and insights

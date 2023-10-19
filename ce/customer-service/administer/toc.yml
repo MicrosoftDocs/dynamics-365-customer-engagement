@@ -122,26 +122,26 @@
             href: set-up-skill-based-routing.md
           - name: Set up intelligent skill finder model in unified routing
             href: set-up-isf-model.md
-          - name: Model data tables as skills
-            href: model-tables-as-skills-ur.md
-          - name: Use sentiment prediction-based routing
-            href: use-sentiment-prediction-for-routing.md
-          - name: Use effort estimation model for routing
-            href: use-effort-estimation-for-routing.md
-          - name: Configure basic routing
-            items:
+        - name: Model data tables as skills
+          href: model-tables-as-skills-ur.md
+        - name: Use sentiment prediction-based routing
+          href: use-sentiment-prediction-for-routing.md
+        - name: Use effort estimation model for routing
+          href: use-effort-estimation-for-routing.md
+        - name: Configure basic routing
+          items:
             - name: Create and manage queues for cases
               href: set-up-queues-manage-activities-cases.md
             - name: Route cases using basic rulesets
               href: create-rules-automatically-route-cases.md
-          - name: View diagnostics for unified routing
-            href: unified-routing-diagnostics.md
-          - name: Manage routing diagnostics data
-            href: manage-routing-diagnostics-data.md
-          - name: Use best practices to set up unified routing
-            href: unified-routing-best-practices.md
-          - name: FAQ about unified routing
-            href: unified-routing-faqs.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+        - name: Use best practices to set up unified routing
+          href: unified-routing-best-practices.md
+        - name: FAQ about unified routing
+          href: unified-routing-faqs.md
       - name: Case management
         items: 
           - name: Define status reason transitions for case management
@@ -432,16 +432,18 @@
             href: delete-channel.md
           - name: Manage enhanced Active Conversation settings
             href: add-customer-summary-settings.md
-          - name: Overview
-            href: omnichannel-customizer.md
-          - name: Customize active conversation form
-            href: customize-customer-summary.md
-          - name: Customize quick view forms
-            href: customize-quick-view-form.md
-          - name: Customize session forms
-            href: customize-session-form.md
-          - name: Customizations supported by Conversation form and entity
-            href: supported-customizations.md  
+          - name: Customize chat forms
+           items:
+            - name: Overview
+              href: omnichannel-customizer.md
+            - name: Customize active conversation form
+              href: customize-customer-summary.md
+            - name: Customize quick view forms
+              href: customize-quick-view-form.md
+            - name: Customize session forms
+              href: customize-session-form.md
+            - name: Customizations supported by Conversation form and entity
+              href: supported-customizations.md  
       - name: Channels
         items: 
           - name: Set up SMS channels
