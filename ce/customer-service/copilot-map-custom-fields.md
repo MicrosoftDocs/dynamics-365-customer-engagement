@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: shujoshi 
 ms.topic: how-to 
-ms.collection: .
+ms.collection: 
 ms.date: 10/13/2023
 ms.custom:
   - bap-template
@@ -16,7 +16,7 @@ ms.custom:
 
 # Map custom case fields to default Copilot attributes
 
-You can map the out-of-the-box case fields to Copilot uses to generate summaries of draft emails to custom fields. Organizations rely on custom fields to complement or replace out-of-the-box case fields. However, Copilot's use of out-of-the-box fields for generating summaries or drafting emails often leads to a lack of context from the custom fields, ultimately impacting the accuracy of results. By mapping custom case fields, you can improve the quality and relevance of email suggestions and summaries Copilot generates.
+You can map the out-of-the-box case fields to Copilot uses to generate summaries of draft emails to custom fields. Organizations rely on custom fields to complement or replace out-of-the-box case fields. However, Copilot's use of out-of-the-box fields for generating summaries or drafting emails often lead to a lack of context from the custom fields, ultimately impacting the accuracy of results. By mapping custom case fields, you can improve the quality and relevance of email suggestions and summaries Copilot generates.
 
 ## Map custom case fields to draft emails
 
@@ -32,8 +32,8 @@ Perform the following steps to map the custom fields to fields in Customer Servi
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Copilot help pane**
     - **Operations** > **Insights** > **Copilot help pane**
-2. In **Make Copilot available to agents**, for **For email**, select the Manage Data Attributes link. On the Data Attributes pane, you'll see the default data attributes that Copilot uses. you can perform the following actions:
-   - Select or clear the attributes that Copilot uses to draft emails. For example, if you clear the **Case Title** check box, Copilot will consider only the case description, customer contact, and the subject of the case when it's drafting an email.
+2. In **Make Copilot available to agents**, for **For email**, select the Manage Data Attributes link. On the Data Attributes pane, you see the default data attributes that Copilot uses. you can perform the following actions:
+   - Select or clear the attributes that Copilot uses to draft emails. For example, if you clear the **Case Title** check box, Copilot considers only the case description, customer contact, and the subject of the case when it's drafting an email.
     > [!NOTE]
     > Copilot will consider case notes and email content to draft emails irrespective of your attribute selection.
    - Map custom fields to the default attributes as follows: 
@@ -54,6 +54,6 @@ Copilot uses the following fields to generate conversation summaries:
 - Product
 - Priority
 
-In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the box fields for Copilot to generate summaries based on custom fields: 
+In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the-box fields for Copilot to generate summaries based on custom fields: 
 
 
