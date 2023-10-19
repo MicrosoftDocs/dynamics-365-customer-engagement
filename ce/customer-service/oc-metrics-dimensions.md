@@ -120,11 +120,11 @@ This dimension represents the name of the channel.
 
 ### Average consult time
 
-This metric represents the time taken by agents on an average to help other agents on consult requests. This metric is calculated by dividing the total time spent by agents on consult requests by the total number of consult requests accepted by agents. This metric can be viewed in seconds and in *hh:mm:ss* formats.
+This metric represents the average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the  hh:mm:ss format.
 
 #### Related metrics
 
-- **Consult time**: This metric represents the time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats.
+- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats.
 
 ### Consult requests accepted
 
@@ -132,9 +132,9 @@ This metric represents the total number of consult requests  accepted by the age
 
 #### Related metrics
 
-- **Consult acceptance rate**: This metric is a measure of the rate at which agents accepted consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
-- **Consults requested**: This metric represents the total number of consult requests sent to agents.
-- **Consult requested not accepted**: This metric represents the total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
+- **Consult acceptance rate**: The rate at which agents accept consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
+- **Consults requested**: The total number of consult requests sent to agents.
+- **Consult requested not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
 
 ### Conversation first wait time
 

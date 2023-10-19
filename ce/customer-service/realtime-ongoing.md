@@ -29,7 +29,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 The conversation list shows current ongoing conversations from the last 24 hours. Therefore, managers have a real-time view of the interactions between agents and customers. You can also select an agent and then use the following buttons to perform different actions on conversations:
 
-- **Assign**: Assign an incoming or unassigned conversation by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
+- **Assign**: Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
 - **Transfer**: Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
 - **Monitor**: Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state.
 - **Force close**: Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
