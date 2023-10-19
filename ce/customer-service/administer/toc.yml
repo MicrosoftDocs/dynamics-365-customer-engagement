@@ -433,7 +433,7 @@
           - name: Manage enhanced Active Conversation settings
             href: add-customer-summary-settings.md
           - name: Customize chat forms
-           items:
+            items:
             - name: Overview
               href: omnichannel-customizer.md
             - name: Customize active conversation form
@@ -444,6 +444,10 @@
               href: customize-session-form.md
             - name: Customizations supported by Conversation form and entity
               href: supported-customizations.md  
+      - name: Portals
+        items: 
+          - name: Embed chat widget in your website or portal
+            href: embed-chat-widget-portal.md
       - name: Channels
         items: 
           - name: Set up SMS channels
