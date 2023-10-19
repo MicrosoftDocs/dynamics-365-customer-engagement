@@ -36,7 +36,7 @@ Enable the seller availability option to let sellers configure their work hours 
 
 1.	On the **Seller availability** dialog box, configure the following options:  
     - Turn on **Seller availability settings** to enable sellers to configure work hours.
-    - From the Select a calendar option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
+    - From the **Select a calendar** option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
         - **CRM calendar**: : Allows sellers to configure work hours and vacation days using the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
         - **Outlook**: Allows sellers to configure work hours and vacation days through the Outlook calendar. Sellers should have an Exchange license to use this option.
 
