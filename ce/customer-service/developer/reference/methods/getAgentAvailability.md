@@ -1,7 +1,7 @@
 ---
-title: "getAgentAvailability (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: "Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
-ms.date: 06/19/2023
+title: getAgentAvailability (JavaScript API reference) for Omnichannel for Customer Service
+description: Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference.
+ms.date: 10/20/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
