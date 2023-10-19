@@ -15,9 +15,9 @@ ms.custom:
 
 # Set seller attributes and capacity
 
-Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and attributes like the languages they speak and special skills they have.
+Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and personal or organizational attributes.
 
-This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability).
+This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability). You can also [set their availability yourself](./wa-manage-seller-availability.md#set-your-sellers-availability-yourself).
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -27,6 +27,10 @@ This article covers how to define your sales team's attributes and capacity. [If
 |-----------------------|---------|
 | **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
 | **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
+
+## Prerequisites
+
+Make sure the sellers whose attributes and capacity you intend to set are in the [security roles that assignment rules can automatically assign records to](./wa-manage-sales-teams.md).
 
 ## Seller attributes
 
@@ -123,6 +127,8 @@ You can assign attributes and capacity to sellers one at a time or in groups.
 
 1. Select **Settings**.
 
+1. (Optional) If the list of sellers is long, [use filters to focus on the ones you want](#shortlist-sellers-using-search-and-advanced-filters).
+
 1. Continue to set attributes and capacity for [individual sellers](#set-attributes-and-capacity-for-individual-sellers) or for [groups of sellers](#set-attributes-and-capacity-for-groups-of-sellers).
 
 ### Set attributes and capacity for individual sellers
@@ -172,6 +178,42 @@ Unlike with individual sellers, you apply attributes and set the maximum capacit
 1. Select **Apply**.
 
 1. If the sellers previously had a different maximum capacity set, you're prompted to override the previous settings.
+
+## Shortlist sellers using search and advanced filters
+
+If your organization has a large sales team, filter the list to make it easier to select the sellers you're interested in. You can perform a quick search to find a specific seller or a group of sellers, or use advanced filters to perform more complex searches.
+
+Your filters last only as long as you're signed in to Sales Hub. You can't save them for reuse later.
+
+1. Sign in to your Sales Hub app.
+
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
+
+1. Under **Sales accelerator**, select **Work assignment**.
+
+1. Select **Settings**.
+
+1. To quickly search for specific sellers, type a name or part of a name in the search box. For instance, *al* finds both Alan Steiner and David Mallory.
+
+1. To further narrow the list or build more complex search criteria, select **Advanced filters**.
+
+    If you started with a quick search, the first row is filled in for you, as in the following example:
+
+    :::image type="content" source="./media/wa-sellers-advanced-filters.png" alt-text="Screenshot of the Filter by seller properties pane with the condition Full Name Contains 'al.'":::
+
+    You can keep, change, or delete this row, as needed.
+
+1. Select **+ Add**, and then use the following options to build the conditions of the filter:
+
+    - **Add row**: Add a condition. Select an attribute, an operator, and a value; for example, *City* *Equals* *Seattle*.
+
+    - **Add group**: Add a group of conditions to filter the seller list using multiple attributes that are combined by **And** or **Or**. If you select **And**, sellers must meet all the conditions in the group. If you select **Or**, they can meet any condition in the group.
+
+    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.
+
+    [Learn more about creating filters with grouped and nested conditions](/powerapps/maker/model-driven-apps/create-edit-view-filters).
+
+1. After you define all the filter criteria, select **Apply**.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

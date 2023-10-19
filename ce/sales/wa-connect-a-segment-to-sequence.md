@@ -19,6 +19,8 @@ After you [create and activate a segment](./create-and-activate-a-segment.md), c
 
 You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
 
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+
 ## License and role requirements
 
 | Requirement type | You must have |

@@ -53,7 +53,7 @@ Your organization can have up to 250 active segments at one time. A segment can 
 
     The priority determines which segment records are assigned to when they meet the criteria for more than one. The segment with the highest priority takes precedence. By default, the priority is initially set to the priority of the last segment that was created. The default, out-of-the-box segment always has the lowest priority.
 
-    Set a priority for every segment. You can [change the priority of a segment](wa-view-details-segment.md#change-priority-of-the-segment) at any time.
+    Set a priority for every segment. You can change the priority of a segment at any time.
 
 1. Select **Next** to open the segment condition builder page.
 
@@ -99,10 +99,8 @@ A segment can have up to 10 conditions at one time. To optimize the performance 
 ## Next steps
 
 - [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md)
-- [Create an assignment rule for a segment](wa-create-and-activate-assignment-rule.md)
-- [View and edit properties of a segment](wa-view-details-segment.md)
+- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
 
 ### See also
 
-- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
-- [Edit a segment](wa-edit-a-segment.md)
+- [Edit segments](wa-edit-a-segment.md)

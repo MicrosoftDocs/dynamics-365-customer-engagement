@@ -45,9 +45,73 @@ Before an assignment rule can assign your sellers and sales teams new opportunit
 
 1. Select **Save**.
 
+## Permissions required
+
+The following permissions are required to perform tasks on work assignment entities. Make sure security roles are configured to grant the required permissions.
+
+- **Task**  
+  - Entity: Permissions
+
+### Seller attributes
+
+- **Create, modify, delete seller attributes**
+  - Attribute: Read, Create, Write, Delete, Append To
+  - Attribute Value: Read, Create, Write, Delete, Append
+- **Apply attributes to sellers**
+  - Attribute: Read
+  - Attribute Value, User: Read, Append, Append To
+- **View seller attributes**
+  - Attribute, Attribute Value: Read
+
+### Seller capacity
+
+- **Update seller capacity**
+  - Assignment Map: Read, Write
+  - User: Read
+- **View seller capacity**
+  - Assignment Map, User: Read
+
+### Records
+
+- **Assign unassigned records in the **Monitor *record type*** tab**
+  - Sales Routing Run, Segment, Team, User: Read  
+    **Note**: To assign a record to a seller, the seller must have privileges on that record.
+
+### Sequences
+
+- **Create sequences**
+  - Segment: Read, Write, Append
+  - Sequence: Read, Write, Create, Append, Append To
+  - Sequence Stat, Sequence Target Step: Read
+  - Sequence Template: Append To
+- **Connect, disconnect sequences and segments**
+  - Segment: Read, Write, Append
+  - Sequence: Read, Write, Create, Append, Append To
+  - Sequence Stat, Sequence Target Step: Read
+  - Sequence Template: Append To
+- **View sequences connected to segments**
+  - Segment, Sequence, Sequence Stat, Sequence Target Step, and Sequence Template: Read
+
+### Segments
+
+- **Create, modify, delete segments**
+  - Segment: Read, Write, Create, Delete
+- **View segments**
+  - Segment: Read
+
+### Assignment rules
+
+- **Create, modify, delete assignment rules**
+  - Assignment Rule: Read, Create, Write, Delete, Append
+  - Attribute, Attribute Value, Team, User: Read
+  - Segment: Read, Append To
+- **View assignment rules**
+  - Assignment Rule, Attribute, Attribute Value, Segment, Team, and User: Read
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-- [Manage seller attributes](manage-seller-attributes.md)
-- [Manage seller availability](manage-seller-availability.md)
+- [Manage seller attributes](./wa-manage-seller-attributes.md)
+- [Manage seller availability](./wa-manage-seller-availability.md)
+- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)

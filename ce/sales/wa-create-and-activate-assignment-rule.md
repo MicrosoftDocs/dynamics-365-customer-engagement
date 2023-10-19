@@ -19,6 +19,10 @@ Assignment rules automatically route new leads and opportunities to the right se
 
 A rule considers only the records that are created or updated after it's activated. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record and no following rules are considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
 
+Watch this brief video to learn more about assignment rules in sales accelerator:
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements

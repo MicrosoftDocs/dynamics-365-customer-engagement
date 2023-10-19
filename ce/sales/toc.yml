@@ -503,7 +503,7 @@
               href: wa-delete-deactivate-a-segment.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
-            - name: Manage work assignment settings
+            - name: Configure work assignment
               href: wa-work-assignment-manage-settings.md
               items:
                 - name: Select security roles to assign records to

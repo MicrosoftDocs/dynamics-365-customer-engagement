@@ -1,6 +1,6 @@
 ---
 title: Edit segments
-description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, and the sequences that are connected to it.
+description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, the sequences that are connected to it, and its priority and other properties.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -15,7 +15,15 @@ ms.custom:
 
 # Edit segments
 
-To change the records that get added to a segment, change the conditions that determine which records to include (its definition). You can also change the segment's priority, the rules that assign the segment to sellers, the order the rules are applied in, and the sequences that are connected to the segment, and view the records that are included in the segment.
+After you've [created a segment](./wa-create-and-activate-a-segment.md) and used it for a while, you might find you need to tweak it to get better results. You can view or change the following characteristics of a segment:
+
+- Definition, or the conditions that determine which records to include: View and edit
+- Assignment rules: Add, edit, delete, change priority, schedule, and run
+- Attached sequences: View and disconnect
+- Segmented records, or the records that have been added to the segment: View
+- Name and description: View and edit
+- Priority, which determines which segment "wins" if a record matches more than one: View and edit
+- Whether previously segmented records are allowed to move to this one and be automatically connected to a sequence or assigned by a rule: View and edit
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -38,16 +46,25 @@ To change the records that get added to a segment, change the conditions that de
 
 1. Select **Edit**, and then confirm that you want to edit the segment.
 
-1. Change what you need to, and then select **Save**.
+1. Change what you need to in the following tabs:
 
-You can view or change the following characteristics of a segment:
+    - **Segment definition**: [Create segments and connect them to sequences](./wa-create-and-activate-a-segment.md#create-and-activate-a-segment)
+    - **Assignment rules**: [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+    - **Attached sequence**: [Connect segments to sequences](wa-connect-a-segment-to-sequence.md)
+    - **Segmented *record type***: You can't change anything here, but you can view the records that have been added to the segment. It's a good way to confirm the segment is defined correctly.
 
-- Segment:
-  - Definition (the conditions that determine which records to include): View and edit
-  - Priority (in case a record matches more than one segment): View and edit
-- Assignment rules: Add, edit, delete, or change priority
-- Attached sequences: View or disconnect
-- Segmented records: View
+1. To change the segment's priority, assignment schedule, and other characteristics, select **Segment properties**.
+
+    - **Priority**:
+      The priority determines which segment new and updated records are assigned to when they meet the criteria for more than one. The segment with the highest priority takes precedence. If you change the segment's priority, the records that are already connected to it remain connected.
+
+    - **Previously-segmented *record type***:
+      To allow records from another segment to move to this one, turn on **Previously-segmented *record type***. This option moves records that match this segment's criteria here. Then, the records follow this segment's sequence. The assignment rules don't change, though. To apply the current assignment rule to the added records, select **Run assignment rules when a lead moves into this segment**.
+
+    - **Run assignment rules for unassigned *record type***:
+      [Run assignment rules](wa-manage-unassigned-records.md#run-assignment-rules)
+
+1. Select **Save changes**.
 
 Your changes are applied to records that are connected to the segment going forward. Any records that were previously connected to the segment aren't affected.
 

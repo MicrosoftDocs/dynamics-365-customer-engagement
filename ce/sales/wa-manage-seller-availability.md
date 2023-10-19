@@ -1,6 +1,6 @@
 ---
 title: Let sellers set their availability
-description: Learn how to allow sellers to configure their work hours and vacation days in Microsoft Outlook or the CRM calendar in Dynamics 365 Sales.
+description: Learn how to allow sellers to set their availability in  Outlook or the CRM calendar in Dynamics 365 Sales. You can also use advanced settings or an API to set their availability yourself.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -19,6 +19,8 @@ ms.custom:
 Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and attributes.
 
 This article covers how to turn on the seller availability feature in Dynamics 365 Sales so that sellers can [set their work hours](./personalize-sales-accelerator.md#configure-your-work-availability) themselves. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
+
+If you prefer to [set your sales team's availability](#set-your-sellers-availability-yourself) yourself, you can.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -75,11 +77,12 @@ Use the calendar API and enter `msdyn_extendedusersetting` as the value of the `
 
 ### Set availability with an assignment rule and seller attributes
 
-In your assignment rules, create a seller attribute that's based on the seller's availability and assign it as needed. For example, you might create an attribute that has the values *Available* and *On vacation*. When a seller goes on vacation, select the attribute and assign the *On vacation* value to indicate the seller isn't available. [Learn how to manage seller attributes in assignment rules](manage-seller-attributes.md).
+In your assignment rules, create a seller attribute that's based on the seller's availability and assign it as needed. For example, you might create an attribute that has the values *Available* and *On vacation*. When a seller goes on vacation, select the attribute and assign the *On vacation* value to indicate the seller isn't available. [Learn how to manage seller attributes in assignment rules](./wa-manage-seller-attributes.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 - [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
-- [Set seller attributes](manage-seller-attributes.md)
+- [Set seller attributes](./wa-manage-seller-attributes.md)
+- [Automatically assign leads and opportunities](./wa-create-and-activate-assignment-rule.md)
