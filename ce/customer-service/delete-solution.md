@@ -1,9 +1,13 @@
 ---
-title: "Uninstall solutions in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to remove solutions in Omnichannel for Customer Service."
-ms.date: 05/13/2022
+title: Uninstall solutions in Omnichannel for Customer Service
+description: Perform the steps mentioned in this article to remove solutions in Omnichannel for Customer Service.
+ms.date: 10/20/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Uninstall solutions in Omnichannel for Customer Service
@@ -12,10 +16,16 @@ ms.author: nenellim
 
 When you uninstall Omnichannel for Customer Service from your organization, the omnichannel solutions are not removed. If you want to remove omnichannel solutions from your organization, you must use the same order as mentioned in the following table.
 
+## Prerequisite
+
+You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
+
 > [!IMPORTANT]
 > Some solutions are shared across apps, and shouldn't be removed unless you intend to uninstall those apps too; skip those solutions.
 >
 > For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. So you must ensure that you don't uninstall or delete the common solutions as it might affect the way unified routing works in Customer Service.
+
+## Uninistall solutions
 
 1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
@@ -33,44 +43,37 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
     |	4	| `msdyn_ProductivityPaneControl_managed`	        |		|
     |	5	| `msdyn_AgentGuidance_managed`	                    |		|
     |	6	| `msdyn_Agentscript_managed`	                    | Required for Customer Service Hub and Customer Service workspace |
-    |	7	| `msdyn_ProductivityMacros_managed`               	|		|
-    |	8	| `OmnichannelPrimeChatAnchor`                    	|		|
-    |	9	| `OmnichannelPrimeSMSAnchor`	                    |		|
-    |	10	| `OmnichannelPrimeFacebookAnchor` 	                |		|
-    |	11	| `OmnichannelPrimeTeams` 	                        |		|
-    |	12	| `OmnichannelPrimeSocialChannelsAnchor`	        |		|
-    |	13	| `OmnichannelPrimeOutboundAnchor`	                |		|
-    |   14  |  `OmnichannelPrimeTelephony`                      |       |
-    |	15	|	 `OmnichannelPrimeAnchor`	                    |		|
-    |	16	|	 `msdyn_CustomerServiceworkspaceChannels`       |		|
-    |	17	|	 `msdyn_OmnichannelEngagementHubPatch`	        |		|
-    |	18	|	 `OmnichannelEngagementHubPreview`	            |		|
-    |	19	|	 `msdyn_OmnichannelPrimePatch`	                |		|
-    |	20	|	 `OmnichannelPrime`	                            |		|
-    |	21	|	 `msdyn_OmnichannelSMSPatch`	                |		|
-    |	22	|	 `msdyn_OmnichannelFacebookPatch`	            |		|
-    |	23	|	 `OmnichannelOutbound`	                        |		|
-    |	24	|	 `OmnichannelSMS`	                            |		|
-    |	25	|	 `OmnichannelTeams`                            	|		|
-    |	26	|	 `OmnichannelSocialChannels`                    |		|
-    |	27	|	 `OmnichannelChat`	                            |		|
-    |	28	|	 `OmnichannelFacebook`	                        |		|
-    |	28	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
-    |	29	|	 `OmnichannelBotEnabler`	                    |		|
-    |	30  |   `OmnichannelTelephony`                          | You must delete all the related workstreams before you delete OmnichannelTelephony |
-    |	31	|	 `ScenariosAndChannels`	                        |		|
-    |	32	|	 `msdyn_CIFrameworkPatch`	                    |		|
-    |	33	|	 `ChannelAPIIntegrationFramework`	            |		|
-    |	34	|	 `OmnichannelIntelligence` 	                    |		|
-    |	35	|	 `OmnichannelConfiguration`                    	|		| 
-    |	36	|	 `msdyn_MacrosDataOmnichannel`	                |		|
+    |	7	| `OmnichannelPrimeChatAnchor`                    	|		|
+    |	8	| `OmnichannelPrimeSMSAnchor`	                    |		|
+    |	9	| `OmnichannelPrimeFacebookAnchor` 	                |		|
+    |	10	| `OmnichannelPrimeTeams` 	                        |		|
+    |	11	| `OmnichannelPrimeSocialChannelsAnchor`	        |		|
+    |	12	| `OmnichannelPrimeOutboundAnchor`	                |		|
+    |   13  |  `OmnichannelPrimeTelephony`                      |       |
+    |	14	|	 `msdyn_CustomerServiceworkspaceChannels`       |		|
+    |	15	|	 `msdyn_OmnichannelEngagementHubPatch`	        |		|
+    |	16	|	 `OmnichannelEngagementHubPreview`	            |		|
+    |	17	|	 `msdyn_OmnichannelPrimePatch`	                |		|
+    |	18	|	 `msdyn_OmnichannelSMSPatch`	                |		|
+    |	19	|	 `msdyn_OmnichannelFacebookPatch`	            |		|
+    |	20	|	 `OmnichannelOutbound`	                        |		|
+    |	21	|	 `OmnichannelSMS`	                            |		|
+    |	22	|	 `OmnichannelTeams`                            	|		|
+    |	23	|	 `OmnichannelSocialChannels`                    |		|
+    |	24	|	 `OmnichannelChat`	                            |		|
+    |	25	|	 `OmnichannelFacebook`	                        |		|
+    |	26	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
+    |	37  |   `OmnichannelTelephony`                          | You must delete all the related workstreams before you delete OmnichannelTelephony |
+    |	28	|	 `ScenariosAndChannels`	                        |		|
+    |	29	|	 `msdyn_CIFrameworkPatch`	                    |		|
+    |	30	|	 `ChannelAPIIntegrationFramework`	            |		|
+    |	31	|	 `OmnichannelIntelligence` 	                    |		|
+    |	32	|	 `OmnichannelConfiguration`                    	|		|
 
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
 
 ## Uninstall Omnichannel historical analytics solutions
-
-**To remove the solutions for Omnichannel historical analytics**
 
 1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports)
 
@@ -81,8 +84,6 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 ## Uninstall OmnichannelCustomerServiceHub solution
 
 When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear on the **Solutions** page of Microsoft Dataverse. After the upgrade is complete, you must uninstall those solutions from the previous release if the upgrade does not remove them. Also, if your organization is using the **Customer Service Hub** app, then you must uninstall the app from the channel configuration in the **Channel Integration Framework** app.
-
-**To uninstall the OmnichannelCustomerServiceHub solution from your organization**
 
 1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
