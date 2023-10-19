@@ -14,6 +14,8 @@
           href: capacity-profiles.md
         - name: Manage personas and custom security roles
           href: role-persona-mapping.md
+        - name: Delete historical data of agent capacity updates
+          href: manage-historical-data-capacity-updates.md
       - name: Agent experience profiles for Customer Service
         items: 
         - name: Roles and permissions
@@ -238,6 +240,8 @@
             href: create-enhanced-sla.md
           - name: Add a timer in forms to track time against enhanced SLAs
             href: add-timer-forms-track-time-against-enhanced-sla.md
+          - name: SLA limitations
+            href: sla-limitations.md
       - name: Email
         items: 
           - name: Configure email

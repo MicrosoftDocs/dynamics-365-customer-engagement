@@ -4,12 +4,6 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
-      - name: User management
-        items: 
-        - name: Overview of user management
-          href: overview-users.md
-        - name: Delete historical data of agent capacity updates
-          href: manage-historical-data-capacity-updates.md
       - name: Agent experience profiles for Customer Service
         items: 
         - name: Overview of agent experience profiles
@@ -52,8 +46,6 @@
         items:
         - name: Overview of service-level agreements
           href: overview-service-level-agreements.md
-        - name: SLA limitations
-          href: sla-limitations.md
         - name: Understand SLAs
           href: customer-service-hub-user-guide-case-sla.md
       - name: Email

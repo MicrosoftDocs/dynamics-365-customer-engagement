@@ -140,6 +140,8 @@
           href: data-access-consent.md
       - name: User Management
         items:
+        - name: Overview of user management
+          href: overview-users.md
         - name: Assign roles and enable users
           href: add-users-assign-roles.md
         - name: Personas and privileges

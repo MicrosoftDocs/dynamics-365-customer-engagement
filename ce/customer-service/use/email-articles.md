@@ -36,11 +36,11 @@ You can perform these actions for only published or expired articles.
 
 ### See also
 
-[Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
+[Link and unlink knowledge articles](../link-articles.md#link-and-unlink-knowledge-articles)
 
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+[Create and manage knowledge articles](../customer-service-hub-user-guide-knowledge-article.md)
 
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+[Understand knowledge base search mechanisms](../knowledge-base-search-methods.md)  
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
