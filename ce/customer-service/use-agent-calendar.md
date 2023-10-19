@@ -28,4 +28,4 @@ The calendar view is read-only and has daily, weekly, and monthly views. It also
 
 ### See also
 [Get started with Customer Service workspace](csw-overview.md)  
-[Configure the agent calendar view (preview)](configure-agent-calendar.md)  
+[Configure the agent calendar view](configure-agent-calendar.md)  
