@@ -176,8 +176,8 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-        - name: FAQ about the voice channel
-          href: voice-channel-faqs.md  
+      - name: Chat and Channels
+        items:
         - name: Omnichannel for Customer Service for agents
           href: omnichannel-customer-service-app-agent.md
         - name: Sign into the agent app
@@ -222,8 +222,6 @@
           href: oc-real-time-translation.md
         - name: Markdown formats for agents
           href: markdown-formats-agents.md
-      - name: Channels
-        items: 
         - name: Introduction to channels
           href: channels.md
         - name: Use SMS channel
