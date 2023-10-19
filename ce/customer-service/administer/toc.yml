@@ -18,6 +18,8 @@
           href: manage-historical-data-capacity-updates.md
       - name: Agent experience profiles for Customer Service
         items: 
+        - name: Overview of agent experience profiles
+          href: ../app-profile-manager/overview.md
         - name: Roles and permissions
           href: ../app-profile-manager/security-roles.md
         - name: Create and use agent experience profiles
@@ -148,12 +150,8 @@
             href: unified-routing-best-practices.md
           - name: FAQ about unified routing
             href: unified-routing-faqs.md
-        - name: Case management
-          items: 
-          - name: Use enhanced case forms to manage cases
-            href: enh-casemgmt-csw.md
-          - name: Manage cases with case grids
-            href: case-grids.md
+      - name: Case management
+        items: 
           - name: Define status reason transitions for case management
             href: define-status-reason-transitions-case-management.md
           - name: Define parent and child cases
@@ -175,7 +173,7 @@
           - name: Use Attachment Control to customize forms
             href: add-attachment-control.md
           - name: Use the Due open activities control to customize forms
-            href: add-due-open-activities.md                            
+            href: add-due-open-activities.md
           - name: Allow updates for resolved and canceled cases
             href: update-resolved-canceled-cases.md
           - name: Modify case resolution dialog
@@ -482,6 +480,10 @@
             href: configure-microsoft-teams.md
           - name: Configure a custom messaging channel
             href: configure-custom-channel.md
+          - name: Support for live chat and asynchronous channels
+            href: card-support-in-channels.md
+          - name: Preconfigured automated message triggers for asynchronous channels
+            href: preconfig-auto-message-triggers-async-channels.md
       - name: Advanced settings for chat and channels
         items: 
           - name: Configure operating hours
@@ -774,8 +776,6 @@
         href: cs-share-feedback.md
       - name: FAQ about Customer Service admin center
         href: faq-customer-service-admin-center.md
-      - name: FAQ about Omnichannel for Customer Service
-        href: faqs.md
     - name: Responsible AI
       items:
         - name: Overview

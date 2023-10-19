@@ -19,7 +19,7 @@ ms.custom:
 
 You can share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
 
-:::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
+:::image type="content" source="../media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
 
 - **Copy URL**: You can copy the URL to share the knowledge article link.
 - **Email URL:** The new email form opens with the link to the article in the mailbox.

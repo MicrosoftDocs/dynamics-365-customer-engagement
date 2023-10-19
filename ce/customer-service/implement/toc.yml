@@ -4,10 +4,10 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
-      - name: Welcome to Dynamics 365 Customer Service
-        href: overview.md
       - name: Get started
         items:
+        - name: Welcome to Dynamics 365 Customer Service
+          href: overview.md
         - name: Use Customer Service workspace
           href: csw-overview.md
         - name: Use Customer Service Team Member
@@ -16,12 +16,12 @@
           href: cs-admin-center.md
         - name: Customer Service Hub
           href: customer-service-hub-user-guide-basics.md
-      - name: Omnichannel for Customer Service
-        items: 
         - name: Omnichannel for Customer Service
           href: introduction-omnichannel.md
         - name: Demo data for Chat for Dynamics 365 Customer Service
           href: chat-dynamics365-customer-service-demo-data.md
+        - name: FAQ about Omnichannel for Customer Service
+          href: faqs.md
       - name: What's new
         items:
         - name: Release plans
