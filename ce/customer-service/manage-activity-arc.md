@@ -44,7 +44,7 @@ In Customer Service admin center, the Customer support overview page displays th
   - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
   - The legacy rules will also be monitored and listed on the activity monitor view.
 :::image type="content" source="media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
-1. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
+4. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
    - Ready for Power Automate / workflow
    - Failed
    - Skipped
