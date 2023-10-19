@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/11/2023
+ms.date: 10/19/2023
 ms.custom: bap-template 
 ---
 
@@ -129,6 +129,10 @@ For example, Kenny is a seller whose capacity limit is set to 10. A new lead is 
     >![Select override settings](media/sa-ar-sales-team-select-override-settings.png "Select override settings")  
   
 The maximum capacity limit is set for the seller.  
+
+## Set a seller availability
+
+To set a seller's availability, select the seller and then select **Set availability**. The seller's calendar opens, where you can configure the seller's work hours and vacation days. For more information, see [How can I manage seller availability?](wa-manage-seller-availability.md#how-can-i-manage-seller-availability).
 
 ## Turn off record assignment to sellers
 
