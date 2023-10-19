@@ -82,7 +82,7 @@
         - name: Predefined security roles for Sales
           href: security-roles-for-sales.md
         - name: Create users and assign security roles
-          href: manage-users.md
+          href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
         - name: Add or manage teams
           href: manage-teams.md
         - name: Set up sales territories
@@ -593,11 +593,12 @@
               href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
             - name: Create or customize a business process flow
               href: customize-business-process-flows.md
-        - name: Configure assistant
+        - name: Assistant
+          href: assistant.md
           items:
             - name: Configure the assistant
               href: configure-assistant.md
-            - name: Create insight cards
+            - name: Create custom insight cards
               href: create-insight-cards-flow.md
             - name: Edit insight cards
               href: edit-insight-cards.md
@@ -999,10 +1000,13 @@
     - name: Guided selling
       items:
         - name: Assistant
+          href: assistant.md
           items:
-            - name: Guide customer communications with assistant
-              href: assistant.md
-            - name: Stay updated with cards in assistant
+            - name: Use the assistant to guide customer communications
+              href: use-assistant-guide-customer-communications.md
+            - name: Turn on or off insight cards
+              href: turn-on-off-insight-cards.md  
+            - name: Default insight cards
               href: action-cards-reference.md
     - name: Relationship intelligence
       items:

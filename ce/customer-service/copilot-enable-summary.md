@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 Copilot case and conversation summaries help you to quickly understand the context of a case and resolve customer issues more efficiently.
 
+> [!NOTE]
+> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+
 ## Enable case summaries
 
 Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.

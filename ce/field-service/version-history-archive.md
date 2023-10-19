@@ -44,21 +44,21 @@ This release is a hotfix on Field Service version 8.8.70.26.
 - Fixed a bug preventing changes to currency exchange rates to be reflected in work order products.
 - Fixed a bug where inactive asset and functional location records showed in the asset tree view.
 - Fixed a bug that allowed service tasks with an inspection to get marked completed when missing responses to mandatory questions.
-- Field Service (Dynamics 365) mobile: Added ability to set an Inspection response as read only when a Work Order Service Task is in an inactive state.
+- Dynamics 365 Field Service mobile app: Added ability to set an Inspection response as read only when a Work Order Service Task is in an inactive state.
 
 #### 8.8.69.53
 
 (Includes Universal Resource Scheduling version 3.12.80.9).
 
-No updates were made to Field Service (Dynamics 365) in this release.
+No updates were made to the Dynamics 365 Field Service mobile app in this release.
 
 #### 8.8.68.25
 
 (Includes Universal Resource Scheduling version 3.12.79.16).
 
-- Field Service (Dynamics 365) mobile: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
-- Field Service (Dynamics 365) mobile: Inspections File Picker will open correctly on the Windows application.
-- Field Service (Dynamics 365) mobile : While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product, which doesn't have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
+- Dynamics 365 Field Service mobile app: Improved accessibility of Booking Status control with Talkback and VoiceOver enabled.
+- Dynamics 365 Field Service mobile app: Inspections File Picker will open correctly on the Windows application.
+- Dynamics 365 Field Service mobile app: While using the application in online mode, the Product View Control will validate inventory and prompt with an error if trying to use a Product, which doesn't have quantity available. Note this prompt may be a confirmation depending on status of [Use of product out of Stock](/dynamics365/field-service/create-product-or-service#configuration-considerations) setting.
 - Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
 
 #### 8.8.67.16
@@ -77,7 +77,7 @@ No updates were made to Field Service (Dynamics 365) in this release.
 
 (Includes Universal Resource Scheduling version 3.12.76.1).
 
-- Field Service (Dynamics 365) mobile offline: Fixed a bug where under some conditions, when multiple bookings are assigned to a work order, the resource wouldn't be able to complete service tasks.
+- Mobile offline: Fixed a bug where under some conditions, when multiple bookings are assigned to a work order, the resource wouldn't be able to complete service tasks.
 
 #### 8.8.64.13
 
@@ -99,11 +99,11 @@ This release is a hotfix on Field Service version 8.8.63.20.
 
 (Includes Universal Resource Scheduling version 3.12.74.1).
 
-- Field Service (Dynamics 365) mobile will now use native mobile device controls when inputting date and time.
-- Field Service (Dynamics 365) mobile  will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
-- Field Service (Dynamics 365) mobile timeline control will now support uploading files from the mobile device in addition to photos.
-- Field Service (Dynamics 365) mobile will no longer show "Start Task Flow" within global commands by default.
-- Field Service (Dynamics 365) mobile Windows app will now include map view within the booking calendar control.
+- Dynamics 365 Field Service mobile app will now use native mobile device controls when inputting date and time.
+- Dynamics 365 Field Service mobile app will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
+- Dynamics 365 Field Service mobile app timeline control will now support uploading files from the mobile device in addition to photos.
+- Dynamics 365 Field Service mobile app will no longer show "Start Task Flow" within global commands by default.
+- Dynamics 365 Field Service mobile Windows app will now include map view within the booking calendar control.
 - The **Customer** tab of the mobile bookable resource booking form will include a phone number field for the primary contact of the work order service account.
 - The **Customer** tab of the mobile bookable resource booking form will support an optional third row of text for street address.
 
@@ -111,16 +111,16 @@ This release is a hotfix on Field Service version 8.8.63.20.
 
 (Includes Universal Resource Scheduling version 3.12.73.25).
 
-- Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
-- Field Service (Dynamics 365) mobile: Enabled the agenda view on the booking calendar control for tablets and Windows devices.
-- Field Service (Dynamics 365) mobile: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms.
+- Dynamics 365 Field Service mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
+- Dynamics 365 Field Service mobile app: Enabled the agenda view on the booking calendar control for tablets and Windows devices.
+- Dynamics 365 Field Service mobile app: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms.
 - Updated privacy messages on landing page for Bing Maps.
 
 #### 8.8.61.21
 
 This release is a hotfix on Field Service version 8.8.61.14.
 
-- Field Service (Dynamics 365) mobile: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
+- Dynamics 365 Field Service mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
 
 #### 8.8.61.14
 
@@ -140,28 +140,28 @@ This release is a hotfix on Field Service version 8.8.60.18.
 
 (Includes Universal Resource Scheduling version 3.12.71.16).
 
-- Field Service (Dynamics 365) mobile will correctly show times adjusted for daylight saving time on the booking calendar control.
+- Dynamics 365 Field Service mobile app will correctly show times adjusted for daylight saving time on the booking calendar control.
 - Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app).
-- Field Service (Dynamics 365) mobile to prevent an intermittent error from displaying after selecting a push notification.
+- Dynamics 365 Field Service mobile app to prevent an intermittent error from displaying after selecting a push notification.
 
 #### 8.8.59.26
 
 This release is a hotfix on Field Service version 8.8.59.22.
 
-- Fixed a bug in Field Service (Dynamics 365) mobile to correctly adjust times shown in the booking calendar control for daylight saving time.
+- Fixed a bug in Dynamics 365 Field Service mobile app to correctly adjust times shown in the booking calendar control for daylight saving time.
 
 #### 8.8.59.22
 
 (Includes Universal Resource Scheduling version 3.12.70.3).
 
-- Field Service (Dynamics 365) mobile where quick notes component will now respect maximum character length as defined in `msdyn_text`.
+- Dynamics 365 Field Service mobile app: quick notes component will now respect maximum character length as defined in `msdyn_text`.
 
 #### 8.8.58.9
 
 (Includes Universal Resource Scheduling version 3.12.69.1).
 
 - Fixed bug: Estimated duration in the incident was incorrectly recalculated to zero even if it was originally set to one hour when work order service tasks with estimated       duration of zero are deleted.
-- Fixed bug: In the Field Service (Dynamics 365) mobile app, introduced a fix to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
+- Fixed bug: In the Dynamics 365 Field Service mobile app, introduced a fix to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
 
 #### 8.8.57.19
 
@@ -170,7 +170,7 @@ This release is a hotfix on Field Service version 8.8.59.22.
 - Fixed bug: **Date Window Start** and **Date Window End** fields aren't visible when field service settings are updated to show.
 - Fixed bug: Customer can't set **Auto Generate Work Order** to *No* with the agreement business process flow.
 - Fixed bug: Case field **Description** wasn't copied to work order instructions fields. 
-- Fixed bug: Field Service (Dynamics 365) mobile--under some circumstances, navigating back from a booking to the booking calendar would display previous month instead of current month. 
+- Fixed bug: Dynamics 365 Field Service mobile app--under some circumstances, navigating back from a booking to the booking calendar would display previous month instead of current month. 
 
 #### 8.8.56.23
 
@@ -203,7 +203,7 @@ This release is a hotfix on Field Service version [8.8.53.27](/dynamics365/field
 (Includes Universal Resource Scheduling version [3.12.65.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#312656)).
 
 - Bug fix to address "Please wait" message not closing for **Convert to WO** on case form.
-- Fixed a bug in Field Service (Dynamics 365) mobile to reset travel calculation variables after successful save.
+- Fixed a bug in Dynamics 365 Field Service mobile app to reset travel calculation variables after successful save.
 
 #### 8.8.52.127
 
@@ -230,7 +230,7 @@ This release is a hotfix on Field Service version [8.8.52.121](/dynamics365/fiel
 - Added a product deletion validation with dialog when the product is associated with purchase orders that must be deleted before the product can be deleted.
 - Better save experience on booking dialog to address save being blocked by pending booking status validations.
 - Fix bug where the **Export Selected Records** command wasn't available when multiple items were selected in the work order list view.
-- Knowledge articles ("Linked Articles") subgrid has been moved below **Resolutions** subgrid on the bookable resource booking services tab in the Field Service (Dynamics 365) mobile app.
+- Knowledge articles ("Linked Articles") subgrid has been moved below **Resolutions** subgrid on the bookable resource booking services tab in the Dynamics 365 Field Service mobile app.
 
 #### 8.8.51.168 (2021 Wave 2 early access, update 2)
 
@@ -241,14 +241,14 @@ This release is an update to Field Service 2021 Wave 2 early access version [8.8
 - When there's only one price list per currency on the billing account, we apply that price list to new agreements, work orders, and return merchandise authorizations (RMA). 
 - Added a tax code quick create form.
 - Fixed issue where estimate duration field on work order incident form isn’t updated correctly when deleting or deactivating child service tasks.
-- Added field **Field Service Product Type** to the product quick create form used in the Field Service (Dynamics 365) mobile app.
+- Added field **Field Service Product Type** to the product quick create form used in the Dynamics 365 Field Service mobile app.
 
 #### 8.8.50.13
 
 (Includes Universal Resource Scheduling version [3.12.52.4](/dynamics365/field-service/field-service-version-history-resource-scheduling#312524)).
 
-- Fixed a bug in Field Service (Dynamics 365) mobile app where bookings weren't always showing in agenda or day view when accessing from work order.
-- Fixed a bug where an error was shown while trying to add a "used" work order product in Field Service (Dynamics 365) mobile app while offline.
+- Fixed a bug in Dynamics 365 Field Service mobile app where bookings weren't always showing in agenda or day view when accessing from work order.
+- Fixed a bug where an error was shown while trying to add a "used" work order product in Dynamics 365 Field Service mobile app while offline.
 - Added new entries in Solution Hub to help flag configuration issues with Field (Dynamics 365) Service mobile app.
 - Improved the Field Service Solution health rules related to agreements to exclude inactive records from evaluation.
 
@@ -269,7 +269,7 @@ This release is an update to Field Service 2021 Wave 2 early access version [8.8
 (Includes Universal Resource Scheduling version [3.12.61.21](/dynamics365/field-service/field-service-version-history-resource-scheduling#3126121---2021-wave-2-early-access-update-1)).
 
 - Improved the logic that updates the **Instructions** field on the work order when the service account is updated.
-- Field Service (Dynamics 365) mobile calendar will show a text informing when a booking is scheduled without work order assigned.
+- Dynamics 365 Field Service mobile app calendar will show a text informing when a booking is scheduled without work order assigned.
 
 #### 8.8.48.30
 
@@ -283,7 +283,7 @@ This release is a hotfix on Field Service version [8.8.48.23](/dynamics365/field
 
 - Resolved a permissions inheritance issue that could impact users who have a role that worked when users belonged to a team with the same role.
 - Fixed an issue related to decimal point number formatting with inspections when using a symbol other than the dot to indicate the decimal place.
-- Field Service (Dynamics 365) mobile added the ability to configure custom fields on the mobile booking calendar control.
+- Dynamics 365 Field Service mobile app added the ability to configure custom fields on the mobile booking calendar control.
 
 #### 8.8.51.75 (2021 Wave 2 early access)
 
@@ -293,10 +293,10 @@ The release is only applied when an environment is opted into Early Access and i
 
 In addition, this release also includes the following changes:
 
-- Multi-line text fields in the Field Service (Dynamics 365) mobile app forms will dynamically expand in height to show all content within the field.
-- Metadata including image and description is added for Field Service (Dynamics 365) mobile controls.
-- Work order in the Field Service (Dynamics 365) mobile app will default to use modern task-completion controls for WOS, WOP, and WOST.
-- Minor text-casing changes within tabs of the Field Service (Dynamics 365) Product form.
+- Multi-line text fields in the Dynamics 365 Field Service mobile app forms will dynamically expand in height to show all content within the field.
+- Metadata including image and description is added for Dynamics 365 Field Service mobile app controls.
+- Work order in the Dynamics 365 Field Service mobile app will default to use modern task-completion controls for WOS, WOP, and WOST.
+- Minor text-casing changes within tabs of the Field Service mobile app product form.
 - Improved views for Incident Type Product, Incident Type Service, and Incident Type Service Task.
 - Improved views for Work Order Incident.
 - Move Product Inventory to the top of the "Inventory" area within the Field Service app.
@@ -329,8 +329,8 @@ This release is a hotfix on Field Service version [8.8.46.26](#884626).
 (Includes Universal Resource Scheduling version [3.12.49.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#3124918)).
 
 - Update Field Service booking form logic to automatically update **Actual Arrival Time** on update of **Start Time** if the pre-change values of **Start Time** and **Actual Arrival Time** were the same.
-- When creating a follow-up work order from Field Service (Dynamics 365) mobile, there will be a link created between the source and new work order.
-- Field Service (Dynamics 365) mobile calendar control will now show date and time format based on personalized settings.
+- When creating a follow-up work order from Dynamics 365 Field Service mobile app, there will be a link created between the source and new work order.
+- Dynamics 365 Field Service mobile app calendar control will now show date and time format based on personalized settings.
 - Fixed an issue where booking status was showing "undefined" in mobile map control.
 - Corrected an issue where, when a work order product was moved from one work order to another, the respective work orders' **Estimated Subtotal Amount** values weren't being recalculated.
 - Resolved an issue with purchase order product records that kept the **Product** field active and editable even when the record's status was inactive.
@@ -493,7 +493,7 @@ This release is a hotfix on Field Service version [8.8.41.28](#884128).
 - Corrected an issue with work order product where estimate total cost wasn't getting updated when quantity was changed.
 - Fixed an issue in Field service settings **Inspections** tab where update of "Analytics enabled" and form save was failing.
 - Updated to throw a form error if the user is trying to create a product bundle and they have set the **Field Service Product Type** value as product bundles can't be used with Field Service.
-- Fixed an issue where notes failed to load in the Field Service (Dynamics 365) mobile app when opened in airplane mode.
+- Fixed an issue where notes failed to load in the Dynamics 365 Field Service mobile app when opened in airplane mode.
 - Fixed an issue where upon opening a work order, an error dialog is shown when "Disable Customer asset validation state" is set to *Yes* under Field Service settings.
 - Fixed an issue to enable users to change line status of work order product from null to some nonnull value without any error.
 - Made performance improvements with system actions invoked during time entry view load.
@@ -572,7 +572,7 @@ Fixes include:
 
 The early access update release is only applied when an environment is opted into early access and applies below fixes and changes to the early access release:
 
-- New note-taking experience in Field Service (Dynamics 365) mobile app allows users to quickly attach text, photo, video, and file notes to bookings.
+- New note-taking experience in Dynamics 365 Field Service mobile app allows users to quickly attach text, photo, video, and file notes to bookings.
 - For inspections:
     -	New capability to enable an inspection to be added to an asset directly for ad hoc inspection scenarios.
     -	New ability to export inspection responses as PDF for a work order service task.
@@ -915,7 +915,7 @@ In addition, this release includes the following changes that have the potential
 
 #### 8.8.22.58
 
-- Includes release of [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps.
+- Includes release of [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md), a new mobile app for technicians built on the Power Platform. As part of this release, administrators will see a new app called "Field Service Mobile" in the list of apps.
 - The following [Field Service 2020 Wave 1](/dynamics365-release-plan/2020wave1/dynamics365-field-service/planned-features) features in GA and Preview planned are included in this release:
   - Incident type AI-based suggestions (preview)
   - IoT alerts AI-based suggestions (preview)
