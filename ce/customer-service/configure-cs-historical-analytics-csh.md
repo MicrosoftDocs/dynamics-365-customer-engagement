@@ -1,12 +1,17 @@
 ---
-title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 06/22/2023
+title: Manage customer service historical analytics reports
+description: Enable and configure Customer Service historical analytics reports to provide service managers with BI and AI insights.
+ms.date: 19/10/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/19/2023
+  - ai-gen-desc
 ---
 
 # Manage historical analytics reports in Customer Service
@@ -99,6 +104,34 @@ Customer Service historical analytics must be enabled and you must opt in to the
 1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot (Preview)** checkbox, and then save the changes.
 
 You'll see a message on the command bar that your reports are being provisioned and it might take up to 24 hours for the process to complete.
+
+## View Customer Service historical analytics reports
+
+If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
+
+1. Go to Customer Service workspace app, and then select the ellipsis to launch App Designer.
+1. Select **New**.
+1. On the **New page** dialog:
+     1. Select **Dataverse Table** for Customer Service historical, Omnichannel historical analytics, and Knowledge analytics.
+     1. Select **URL** for Omnichannel real-time analytics, and customized Reports.
+    
+ 1. To add Dataverse table:
+      1. Select the **Select existing table** option, followed by the required table, and then select **Show in navigation**.
+      - Select **Customer Service historical analytics** for **Customer service historical**.
+      - Select **Omnichannel historical analytics** for **Omnichannel historical analytics**.
+      - Select **Knowledge analytics** for **Knowledge analytics**.
+      1. Select **Add**.
+  1. To add URL:
+      1. Add **URL** and **Title** as provided below and then select **Add**.
+      
+      |Feature Name |URL  |Title |
+      |---------|---------|---------|
+      |Omnichannel real-time analytics   |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}       |     Omnichannel real-time analytics    |
+      |Customized Reports     |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ModernReportingControl&data={"featureIds":"f2266eb4-226f-4cf1-b422-89c5f48b40cb,09c168be-efe2-4f08-a986-3aab7095c863"}       |  Customized Reports       |
+
+
+  
+1. Select **Save**, and then select **Publish**.
 
 ### See also
 
