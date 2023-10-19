@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/03/2023
+ms.date: 10/19/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -32,7 +32,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 
 - Monitor key operational metrics in near-real time, and make course corrections at the appropriate time to help keep service levels high.
 - Review the allocation of agents in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
-- Improve agent staffing, effectiveness, and utilization by reviewing work distribution.
+- Improve agent staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the agent. You can then assign or transfer ongoing conversations by filtering through queue or agent.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
@@ -61,7 +61,7 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 - **Summary**: This report provides an overview of your organization in real time. It provides KPIs across the volume of customer interactions and service levels, together with the available capacity in real time. [Learn more about the Summary report.](realtime-summary-dashboard.md)
 - **Voice**: This report provides an overview of conversations for the Omnichannel for Customer Service voice channel. [Learn more about the Voice report.](realtime-voice-dashboard.md)
 - **Agents**: This report provides an overview of the health and KPIs of agents in your organization. The information that is shown on this report is based on the conversations. [Learn more about the Agents report.](realtime-agents-analytics.md)
-- **Ongoing conversation**: This report provides information about the conversations that agents are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, depending on your requirements. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
+- **Ongoing conversation**: This report provides information about the conversations that agents are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
 
 ## Filter information displayed on dashboard
 
