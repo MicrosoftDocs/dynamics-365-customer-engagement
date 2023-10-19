@@ -50,7 +50,7 @@ Skills that have been assigned to agents.
 
 ### Proficiency
 
-Proficiency levels of skills assigned to agents.
+Agent's proficiency level for assigned skills.
 
 ### Capacity profile name
 
