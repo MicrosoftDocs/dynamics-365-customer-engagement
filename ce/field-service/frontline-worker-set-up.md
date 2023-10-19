@@ -1,10 +1,11 @@
 ---
-title: Set up frontline workers in your Dynamics 365 Field Service organization (contains video)
-description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page
+title: Set up frontline workers in your organization (contains video)
+description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
 ms.author: jacoh
 author: jasonccohen
-ms.date: 04/01/2021
-ms.topic: conceptual
+ms.date: 10/19/2023
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Set up frontline workers in your organization
@@ -36,26 +37,21 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
    - **Field Security Profile** choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
    - **Mobile Offline Profile** sets the [default mobile offline profile](mobile-power-app-system-offline.md) your frontline workers. Only published mobile offline profiles show in the list.
 
-1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. Admins cannot send an email to their frontline workers if they do not have their mailbox approved by the global admin; For more information, [learn to add and approve email addresses](frontline-worker-set-up-email-approval.md).
+1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't sent an email to frontline workers, get your email address approved by the global admin. For  more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
 
-## View a list of all frontline workers 
-
-1. From the **Home** or **Get Started** page, go to the **Set up your frontline workers** section, and select **View All**.
-
-2. View a list of all of their frontline workers, including their name, e-mail address, and home address. 
+1. Select **Save and close** to create the frontline workers as bookable resources.
 
 ## View and update the details of individual frontline workers on the bookable resource form
 
-1. After selecting an individual from the **List View** of all frontline workers, admins can see the details for this worker on the bookable resource form. 
+Frontline workers are stored in the *bookable resource* table. You can view and update the details for each resource.
 
-> ![Screenshot of Selecting a user in Field Service.](./media/bookable_resource_form.PNG)
+1. In Field Service, change to the **Resources** ares and go to **Resource** > **Resources**.
 
-2. On the **General** tab, admins can view and update this worker's e-mail address, home address, and more. 
+1. View or update the resource properties as needed. For more information, see [Set up bookable resources](set-up-bookable-resources.md).
 
-> ![Screenshot of selecting permissions in Field Service.](./media/br_form_permissions.PNG)
+## Next steps
 
-3. After selecting the **Permissions** option on the top of the bookable resource page, admins can view and update this worker's permissions, such as security role, field security role, and mobile offline profile. 
+- [Create a work order](create-work-order.md)
+- [Download the mobile app and get started](download-get-started-mobile-app.md)
 
-> ![Screenshot of view or update permissions in Field Service.](./media/br_form_edit_permissions.PNG)
-
-For more information about setting up the Bookable Resource form, learn more [here](set-up-bookable-resources.md).
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
