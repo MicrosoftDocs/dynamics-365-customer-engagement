@@ -3,7 +3,7 @@ title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
 author: "gandhamm"
 ms.author: mgandham
-ms.date: 08/09/2023
+ms.date: 10/19/2023
 ms.topic: article
 ---
 
@@ -124,7 +124,7 @@ The following parameters are available for the entity search page type.
 
 ### Third-party website
 
-This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
+This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. If your website is not compatible with iframe hosting, an error message that the website refused to connect is displayed.The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|---------|-----------|
