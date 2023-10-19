@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Set up frontline workers to ensure they can immediately engage on work order. Technically, frontline workers are a *bookable resource* record in Field Service.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
+> ![VIDEO.](https://www.microsoft.com/videoplayer/embed/RWN1Bb)
 
 On the [**Get started** page](field-service-get-started.md), admins can use a single form to set up frontline workers in their organizations to quickly get up and running.
 
@@ -29,7 +29,7 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 1. In the **Quick Set Up: Frontline Workers** form fill in the following details:
 
-   - **Users**: Choose one or more frontline worker. When you choose more than one user, they all get the same properties assigned as defined in the following sections.
+   - **Users**: Choose users to create as frontline workers. When you choose more than one user, they all get the same properties assigned as defined in the following sections.
    - **Characteristics**: Choose [skills and qualifications](set-up-characteristics.md) for your frontline workers.
    - **Territories**: Choose which [territories](set-up-territories.md) your frontline workers belong to.
    - **Time Zone**: Select the default time zone for the frontline workers.
@@ -37,11 +37,11 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
    - **Field Security Profile** choose the [column-level security profile to control access](/power-platform/admin/field-level-security) for your frontline workers. You can add multiple field security profiles, including custom field security profiles.
    - **Mobile Offline Profile** sets the [default mobile offline profile](mobile-power-app-system-offline.md) your frontline workers. Only published mobile offline profiles show in the list.
 
-1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't sent an email to frontline workers, get your email address approved by the global admin. For  more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
+1. Select the checkbox to send an email to newly created frontline workers with a link to download the mobile app. If you can't send an email to frontline workers, get your email address approved by the global admin. For  more information, see [Add and approve email addresses](frontline-worker-set-up-email-approval.md).
 
 1. Select **Save and close** to create the frontline workers as bookable resources.
 
-## View and update the details of individual frontline workers on the bookable resource form
+## View and update the details of individual frontline workers
 
 Frontline workers are stored in the *bookable resource* table. You can view and update the details for each resource.
 

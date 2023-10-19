@@ -200,7 +200,7 @@ Assign Azure Active Directory permissions for your frontline managers and frontl
 
 For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
 
-1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md#get-started).
+1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md).
 
 1. Assign a **Security Role** and **Field Security** role. The other fields are optional.
 
