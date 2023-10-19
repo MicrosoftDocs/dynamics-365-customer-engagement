@@ -998,12 +998,12 @@
         href: copilot-enable-summary.md#enable-case-summaries  
       - name: Enable conversation summaries
         href: copilot-enable-summary.md#enable-conversation-summaries
-      - name: Enable ask a question (preview)
+      - name: Enable ask a question 
         href: copilot-enable-help-pane.md#enable-ask-a-question
-      - name: Enable draft a response (preview)
-        href: copilot-enable-help-pane.md#enable-draft-a-response
-      - name: Enable write an email (preview)
+      - name: Enable write an email 
         href: copilot-enable-help-pane.md#enable-write-an-email
+      - name: Enable draft a response (preview)
+        href: copilot-enable-help-pane.md#enable-draft-a-response        
       - name: View feedback data
         href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
@@ -1018,22 +1018,22 @@
         href: copilot-use-summary.md#summarize-cases
       - name: Summarize conversations
         href: copilot-use-summary.md#summarize-conversations
-      - name: Ask a question (preview)
+      - name: Ask a question 
         href: use-copilot-features.md#ask-a-question
+      - name: Draft emails
+        href: use-copilot-features.md#draft-emails        
       - name: Draft a chat response (preview)
-        href: use-copilot-features.md#draft-a-chat-response
-      - name: Draft emails (preview)
-        href: use-copilot-features.md#draft-emails                  
+        href: use-copilot-features.md#draft-a-chat-response                  
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
         href: copilot-analytics-report.md
     - name: Customizer experience
-      items: 
+      items:
+      - name: Map custom case fields to default Copilot attributes
+        href: copilot-map-custom-fields.md 
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-      - name: Modify fields used to generate case summary
-        href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
   - name: Bots

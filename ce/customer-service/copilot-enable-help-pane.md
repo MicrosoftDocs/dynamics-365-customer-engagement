@@ -6,22 +6,23 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 10/20/2023
 ms.custom: bap-template 
 ---
 
-# Enable features in Copilot pane (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+# Enable features in Copilot pane
 
 The Copilot help pane allows agents to use Copilot features such as respond to questions, compose an email, and draft a chat response in Customer Service workspace.
+
+> [!NOTE]
+> Respond to questions and compose an email features are generally available in the North America region only. These features are in preview in the rest of the supported regions.
 
 Perform the following steps to enable the Copilot features in Customer Service admin center:
 
 1. Use one of the following navigation options:
-      - **Agent Experience** > **Productivity** > **Copilot help pane (preview)**
-      - **Operations** > **Insights** > **Copilot help pane (preview)**
-1. Select **Manage** in **Copilot help pane (preview)**. The Copilot help pane (preview) page appears. You can select the Copilot features you'd like to enable for agents on this page.
+      - **Agent Experience** > **Productivity** > **Copilot help pane**
+      - **Operations** > **Insights** > **Copilot help pane**
+1. Select **Manage** in **Copilot help pane**. The Copilot help pane (preview) page appears. You can select the Copilot features you'd like to enable for agents on this page.
 
   :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
@@ -37,15 +38,17 @@ The following table summarizes the Copilot features supported for a configured k
 
 ## Enable ask a question
 
-Select **Make Copilot available to agents** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane (preview)** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
 
-## Enable draft a response 
+## Enable draft a response (Preview)
 
-Select **For customer chat** in the **Copilot help pane (preview)** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+Select **For customer chat** in the **Copilot help pane** page of Customer Service admin center. The one-click response generation button appears on both the conversation panel for a conversation and on the **Ask a question** tab on the Copilot help pane in Customer Service workspace. Copilot understands the context and drafts the response based on the knowledge resources configured for your organization.
 
 ## Enable write an email 
 
-Select **For email** in the **Copilot help pane (preview)** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane (preview)** in Customer Service. Copilot helps agents create email responses based on the context of the case.
+Select **For email** in the **Copilot help pane** page of Customer Service admin center. The **Write an email** tab appears on **Copilot help pane** in Customer Service. Copilot helps agents create email responses based on the context of the case.
 
 ## Add trusted webpages as sources
 
