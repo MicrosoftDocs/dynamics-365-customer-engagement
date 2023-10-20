@@ -525,40 +525,6 @@
               href: manage-access-view-insights.md
             - name: Configure assignment rule to auto assign insights
               href: configure-assignment-rule-auto-assign-insights.md
-        - name: Group records by segment
-          href: manage-segments.md
-          items:
-            - name: Create and activate a segment
-              href: create-and-activate-a-segment.md
-            - name: Connect a segment to a sequence
-              href: connect-a-segment-to-sequence.md
-            - name: View details of a segment
-              href: view-details-segment.md
-            - name: Edit a segment
-              href: edit-a-segment.md
-            - name: Prioritize segments
-              href: prioritize-segment.md
-            - name: Delete or deactivate a segment
-              href: delete-deactivate-a-segment.md
-        - name: Automatically assign leads and opportunities
-          href: create-manage-assignment-rules.md
-          items:
-            - name: Create and activate an assignment rule
-              href: create-and-activate-assignment-rule.md
-            - name: Understand lead distributions
-              href: understand-lead-distributions-assignment-rules.md
-            - name: Edit an assignment rule
-              href: edit-assignment-rule.md
-            - name: Delete or deactivate an assignment rule
-              href: delete-deactivate-assignment-rule.md
-            - name: Manage unassigned records
-              href: manage-unassigned-records.md
-            - name: Manage sales teams
-              href: manage-sales-teams.md
-            - name: Manage seller attributes
-              href: manage-seller-attributes.md
-            - name: Set seller availability
-              href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:

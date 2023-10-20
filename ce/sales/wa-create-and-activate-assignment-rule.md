@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/11/2023
+ms.date: 10/19/2023
 ms.custom: bap-template 
 ---
 
@@ -18,7 +18,7 @@ Create and activate assignment rules for leads, opportunities and seller insight
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Introduction
@@ -97,36 +97,40 @@ Before you start creating assignment rules, make sure that you've added the secu
 
         If no seller is available to take the record during the specified timeframe, the record is marked as overdue, and the status reason is set to *Seller not assigned as record is older than the set timeframe*. [Learn more about unassigned records and status reasons.](manage-unassigned-records.md#view-unassigned-records)
 
-1. Under the **Assign these leads to sellers or a team** section, select one of the following options in the dropdown list.
+1. Under the **Assign these leads to sellers, team, or a queue** section, select one of the following options in the dropdown list.
 
     | Option | Description |
     |--------|-------------|
     | Any seller | Assign leads to any seller, based on their availability, capacity, or distribution pattern. |
-    | Seller with matching attributes | <p>Assign leads to sellers who satisfy the conditions that are defined through attributes that are selected from Dynamics 365 or assignment rules. The following options are available:</p><ul><li>**Use existing fields from seller records in Dynamics 365**</li><li>**Use seller attributes defined for assignment rules** ([Learn how to define and manage seller attributes.](wa-manage-seller-attributes.md))</li></ul><p>For example, you want to assign leads to sellers who are based in Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** \> **Add row**. Enter the condition as *City* (attribute) *Equals* (condition) *Seattle* (value).</p><p>![Screenshot of the example for assigning leads to sellers who have matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Screenshot of the example for assigning leads to sellers who have matching attributes")</p><p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>[Learn more about conditions in assignment rules.](#conditions-in-assignment-rules)</p> |
+    | Sellers with matching attributes | <p>Assign leads to sellers who satisfy the conditions that are defined through attributes that are selected from Dynamics 365 or assignment rules. The following options are available:</p><ul><li>**Use existing fields from seller records in Dynamics 365**</li><li>**Use seller attributes defined for assignment rules** ([Learn how to define and manage seller attributes.](wa-manage-seller-attributes.md))</li></ul><p>For example, you want to assign leads to sellers who are based in Seattle. Select the **Use existing fields from seller records in Dynamics 365** option, and then select **Add** \> **Add row**. Enter the condition as *City* (attribute) *Equals* (condition) *Seattle* (value).</p><p>![Screenshot of the example for assigning leads to sellers who have matching attributes.](media/sa-ar-seller-with-matching-attributes.png "Screenshot of the example for assigning leads to sellers who have matching attributes")</p><p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>[Learn more about conditions in assignment rules.](#conditions-in-assignment-rules)</p> |
     | Specific sellers | <p>Assign leads to specific sellers. Select the sellers in the **Choose sellers** lookup.</p><p>**Note**: The security roles for the sellers in the list were added by defining team access. [Learn more about how to grant permissions to use assignment rules.](wa-manage-sales-teams.md)</p><p>![Screenshow that shows specific sellers selected.](media/sa-ar-select-specific-sellers.png "Screenshow that shows specific sellers selected")</p> |
-    | Specific teams | <p>Assign leads to a specific team. The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](wa-manage-sales-teams.md)</p><p>If you select this option, the **Distribute leads by** section isn't shown, because leads are assigned to teams. |
+    | Teams with matching attributes | Assign leads to teams that satisfy the conditions that are defined through the condition builder.<p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>When you make this selection, the **Distribute leads by section** displays options to either assign them to any seller from the team or not assign them to any team at all.</p>|
+    | Specific team| Assign leads to specific team. Select the teams in the **Choose a team** lookup.</p><p>The lead is available for all members of the team that you select. The teams must be defined in your organization, and you must add them to security roles by defining team access. [Learn more about how to grant permissions to use assignment rules.](wa-manage-sales-teams.md)</p><p>If you select this option, the **Distribute leads by** section isn't shown.</p> |
+    | Queues with matching attributes |  Assign leads to queues that satisfy the conditions that are defined through the condition builder.<p>**Note**: You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition.</p><p>When you make this selection, the **Distribute leads by section** displays options to either assign them to any seller from the queue or not assign them to any queue at all.</p><p>The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/dynamics365/customer-service/enable-entities-for-queues#enable-a-table-for-queues-). |
+    | Specific queue | Assign leads to specific queue. Select a queue from the **Choose queue** list. <p>**Note**: The list only displays queues that are marked as public. Also, the queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/dynamics365/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).</p><p>If you select this option, the **Distribute leads by** section isn't shown.</p> |
 
+    **Dynamic attributes in condition builder**: When creating conditions in the condition builder, you can utilize dynamic attributes to minimize the number of conditions required for a specific attribute. For example, if you wish to assign leads from the United States to sellers from the same country, and likewise for India, Japan, and Brazil, you would need to create four separate conditions for this. However, by using dynamic attributes, you can consolidate this into a single condition as follows: **Country** > **Equals** > **Lead.Country**, where, if a lead's country matches the country of the seller, it will automatically be assigned to the corresponding seller from that country. For more information, see [Route leads with dynamic assignment rules](https://cloudblogs.microsoft.com/dynamics365/it/2021/08/26/route-leads-by-using-assignment-rules-to-dynamically-match-system-user-fields/)  
+
+    
 1. <a name="distributeLeadsBy"></a>Under **Distribute leads by**, select one of the following options. [Learn more about lead distributions in assignment rules.](understand-lead-distributions-assignment-rules.md)
 
     > [!NOTE]
-    > This section is available only if you selected one of the seller options in the **Assign these leads to** section (**Any seller**, **Seller with matching attributes**, or **Specific sellers**). It isn't available for teams.
+    > This section is available only if you selected one of the seller options in the **Assign these leads to** section (**Any seller**, **Seller with matching attributes**, or **Specific sellers**). It isn't available for options **Teams** and **Queues**, and the records are assigned randomly or will be unassigned.
 
     - **Round robin**: Leads are distributed on a cyclical basis to sellers who are qualified to receive the lead based on the conditions of the assignment rule.
     - **Load balancing**: Leads are distributed among sellers based on their current workload. This option helps ensure that all sellers are equally busy.
 
     1. (Optional) To consider the seller's work schedule when leads are assigned, select the **Assign if seller is available within** checkbox. Then, in the list, select the number of hours that a lead record that is created in the application can wait to be assigned to a seller or a team. You can select a maximum of 120 hours. [Learn more how to configure work availability.](personalize-sales-accelerator.md#configure-your-work-availability)
 
-     To assign leads, the application first considers those sellers who are currently available to work on the lead records. If no seller is currently available (because of a day off or because the time is outside of working hours), the application considers sellers who will be available within the specified hours.
+        To assign leads, the application first considers those sellers who are currently available to work on the lead records. If no seller is currently available (because of a day off or because the time is outside of working hours), the application considers sellers who will be available within the specified hours.
 
-    If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application considers them always available and assigns leads to them.
+        If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application considers them always available and assigns leads to them.
 
-    For example, if you select 10 hours, the application considers sellers who will be available within 10 hours for record assignment. If no seller is available within the 10-hour limit, the record isn't assigned and is marked as overdue. [Learn how to manage overdue records.](wa-manage-unassigned-records.md)
+        For example, if you select 10 hours, the application considers sellers who will be available within 10 hours for record assignment. If no seller is available within the 10-hour limit, the record isn't assigned and is marked as overdue. [Learn how to manage overdue records.](wa-manage-unassigned-records.md)
 
-    If you selected the [Consider leads created in the last](#considerLeadsCreated) checkbox in step 7, the rule first checks for the configured timeframe to assign the record. It then considers seller availability.
+        If you selected the [Consider leads created in the last](#considerLeadsCreated) checkbox in step 7, the rule first checks for the configured timeframe to assign the record. It then considers seller availability.
 
     1. (Optional) To consider the maximum number of leads that a seller can handle at a time, select the **Assign leads based on seller capacity** checkbox. [Learn more about how to set lead capacity for sellers.](wa-work-assignment-manage-settings.md#set-capacity-for-sellers)
-
-    :::image type="content" source="media/sa-ar-distribute-leads-by.png" alt-text="Screenshot that shows the Assign leads based on seller capacity checkbox selected in the Distribute leads by section.":::
 
 1. Select **Save**.
 
