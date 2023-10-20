@@ -1,6 +1,6 @@
 This article discusses the main features and concepts of the schedule board for dispatchers and other users.
 
-:::image type="content" source="../../field-service/media/schedule-callouts.png" alt-text="Screenshot of the new schedule board in Dynamics 365.":::
+:::image type="content" source="../../field-service/media/schedule-board-callouts.png" alt-text="Screenshot of the new schedule board in Dynamics 365.":::
 
 |Number  |Area  |
 |---------|---------|
