@@ -8,7 +8,7 @@ ms.topic: article
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:10/16/2023
+  - ai-seo-date:10/20/2023
   - ai-gen-title
 ---
 
@@ -55,6 +55,16 @@ Also, as an administrator, you can set the browser notification permission by us
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notifications.](../customer-service/media/allow-desktop-notification.png "Allow desktop notifications")
+
+To ensure that agents receive the notifications, we recommend you enable the follwing settings:
+
+- [Notification settings in Windows](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) is set to On.
+- [Notifications for your Dynamics 365 instance website](https://support.microsoft.com/en-us/microsoft-edge/manage-website-notifications-in-microsoft-edge-0c555609-5bf2-479d-a59d-fb30a0b80b2b) are set to on.
+- Do Not disturb in your Windows setting is set to Off.
+- Enable the service worker in the developer console.
+    > [!div class=mx-imgBorder]
+ > ![Enable service worker.](media/service-worker-enable.png "Screenshot that indicates how to enable service worker")
+ 
 
 ### Notification fields
 
