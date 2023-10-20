@@ -12,8 +12,6 @@ ms.reviewer: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
 For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as a shopping cart value or a privileged status.
@@ -67,8 +65,8 @@ You can create a chat authentication setting record in the admin app.
 ### Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab. 
-   - In Omnichannel Administration, go to the **Basic details** tab.
+   - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab.
+   
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
 When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that's associated with the chat widget. More information: [Manage context variables](manage-context-variables.md#considerations)
@@ -254,7 +252,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 - Administrators who are configuring authentication settings will need more security permissions. More information: [Set up security permissions for a field](/power-platform/admin/set-up-security-permissions-field)
 
-- Make sure your organization has working knowledge of OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. Steps for both types are outlined below.
+- Make sure your organization has working knowledge of OAuth 2.0 code flow or OAuth 2.0 OpenID connect flow. Steps for both types are outlined in the following sections.
 
 - Confirm that your organization has at least one Apple Messages for Business **Authentication type rich message**. This rich message is required for setup.
 

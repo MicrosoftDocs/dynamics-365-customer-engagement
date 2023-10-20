@@ -82,7 +82,7 @@
         - name: Predefined security roles for Sales
           href: security-roles-for-sales.md
         - name: Create users and assign security roles
-          href: manage-users.md
+          href: /power-platform/admin/create-users?context=/dynamics365/context/sales-context
         - name: Add or manage teams
           href: manage-teams.md
         - name: Set up sales territories
@@ -161,17 +161,17 @@
               href: customize-zoominfo-app.md
         - name: Set focused view as the default view
           href: set-focused-view-as-default.md
-    - name: Configure Sales Copilot
+    - name: Configure Copilot
       items:
-      - name: Sales Copilot overview
+      - name: Copilot overview
         href: copilot-overview.md
-      - name: Enable and setup Sales Copilot
+      - name: Enable and setup Copilot
         href: enable-setup-copilot.md
-      - name: Configure Sales Copilot capabilities
+      - name: Configure Copilot capabilities
         href: configure-sales-copilot.md
-      - name: Sales Copilot data movement across geographies
+      - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
-      - name: Sales Copilot FAQs
+      - name: Copilot FAQs
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -439,7 +439,7 @@
               href: add-upnext-widget-form.md
             - name: Add the sales accelerator site map entry to custom app
               href: add-sales-accelerator-sitemap-entry-custom-app.md
-        - name: Sequences
+        - name: Create conditional workflows with sequences
           href: create-manage-sequences.md
           items:
             - name: Create and activate a sequence
@@ -525,40 +525,6 @@
               href: manage-access-view-insights.md
             - name: Configure assignment rule to auto assign insights
               href: configure-assignment-rule-auto-assign-insights.md
-        - name: Manage segments
-          href: manage-segments.md
-          items:
-            - name: Create and activate a segment
-              href: create-and-activate-a-segment.md
-            - name: Connect a segment to sequence
-              href: connect-a-segment-to-sequence.md
-            - name: View details of a segment
-              href: view-details-segment.md
-            - name: Edit a segment
-              href: edit-a-segment.md
-            - name: Prioritize segment
-              href: prioritize-segment.md
-            - name: Delete or deactivate a segment
-              href: delete-deactivate-a-segment.md
-        - name: Manage assignment rules
-          href: create-manage-assignment-rules.md
-          items:
-            - name: Create and activate an assignment rule
-              href: create-and-activate-assignment-rule.md
-            - name: Understand lead distributions
-              href: understand-lead-distributions-assignment-rules.md
-            - name: Edit an assignment rule
-              href: edit-assignment-rule.md
-            - name: Delete or deactivate an assignment rule
-              href: delete-deactivate-assignment-rule.md
-            - name: Manage unassigned records
-              href: manage-unassigned-records.md
-            - name: Manage sales teams
-              href: manage-sales-teams.md
-            - name: Manage seller attributes
-              href: manage-seller-attributes.md
-            - name: Manage seller availability
-              href: manage-seller-availability.md
         - name: Engage with customers through text messages
           href: sms-intro.md
           items:
@@ -593,11 +559,12 @@
               href: /power-automate/business-process-flows-overview?context=/dynamics365/context/sales-context
             - name: Create or customize a business process flow
               href: customize-business-process-flows.md
-        - name: Configure assistant
+        - name: Assistant
+          href: assistant.md
           items:
             - name: Configure the assistant
               href: configure-assistant.md
-            - name: Create insight cards
+            - name: Create custom insight cards
               href: create-insight-cards-flow.md
             - name: Edit insight cards
               href: edit-insight-cards.md
@@ -730,17 +697,17 @@
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    - name: Use Sales Copilot
+    - name: Use Copilot
       items:
-      - name: Sales Copilot overview
+      - name: Copilot overview
         href: copilot-overview.md
-      - name: Use Sales Copilot in Dynamics 365
+      - name: Use Copilot in Dynamics 365
         href: use-sales-copilot.md
-      - name: Compose and send email messages using Sales Copilot
+      - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
-      - name: Sales Copilot FAQs
+      - name: Copilot FAQs
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -999,10 +966,13 @@
     - name: Guided selling
       items:
         - name: Assistant
+          href: assistant.md
           items:
-            - name: Guide customer communications with assistant
-              href: assistant.md
-            - name: Stay updated with cards in assistant
+            - name: Use the assistant to guide customer communications
+              href: use-assistant-guide-customer-communications.md
+            - name: Turn on or off insight cards
+              href: turn-on-off-insight-cards.md  
+            - name: Default insight cards
               href: action-cards-reference.md
     - name: Relationship intelligence
       items:
@@ -1387,9 +1357,9 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ for summarization in Sales Copilot
+    - name: FAQ for summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
-    - name: FAQ for email in Sales Copilot
+    - name: FAQ for email in Copilot
       href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
