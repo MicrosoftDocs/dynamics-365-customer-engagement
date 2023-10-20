@@ -54,6 +54,4 @@ Copilot uses the following fields to generate conversation summaries:
 - Product
 - Priority
 
-In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the-box fields for Copilot to generate summaries based on custom fields: 
-
-
+In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the-box fields for Copilot to generate summaries based on custom fields.
