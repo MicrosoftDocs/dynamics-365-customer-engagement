@@ -1,6 +1,12 @@
 This article discusses the main features and concepts of the schedule board for dispatchers and other users.
 
-:::image type="content" source="../../field-service/media/schedule-board-new.png" alt-text="Screenshot of the new schedule board in Dynamics 365, showing the resources.":::
+:::image type="content" source="../../field-service/media/schedule-callouts.png" alt-text="Screenshot of the new schedule board in Dynamics 365.":::
+
+|Number  |Area  |
+|---------|---------|
+|1     | [Actions area](#actions-area)        |
+|2     | [Resource list](#resource-list)        |
+|3     | [Requirement pane](#requirement-pane)        |
 
 ## Actions area
 
