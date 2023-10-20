@@ -107,20 +107,23 @@ You'll see a message on the command bar that your reports are being provisioned 
 
 If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
 
-1. Go to Customer Service workspace app, and then select the ellipsis to launch App Designer.
+1. Go to the Customer Service workspace app, and then select the ellipsis to launch App Designer.
 1. Select **New**.
 1. On the **New page** dialog:
+
      1. Select **Dataverse Table** for Customer Service historical, Omnichannel historical analytics, and Knowledge analytics.
-     1. Select **URL** for Omnichannel real-time analytics, and customized Reports.
+     1. Select **URL** for Omnichannel real-time analytics and Customized reports.
 
 1. To add Dataverse table:
+
       1. Select the **Select existing table** option, followed by the required table, and then select **Show in navigation**.
-      - Select **Customer Service historical analytics** for **Customer service historical**.
-      - Select **Omnichannel historical analytics** for **Omnichannel historical analytics**.
-      - Select **Knowledge analytics** for **Knowledge analytics**.
-      1. Select **Add**.
+      - For **Customer service historical**, select **Customer Service historical analytics**.
+      - For **Omnichannel historical analytics**, select **Omnichannel historical analytics**.
+      - For **Knowledge analytics**, select **Knowledge analytics**. 
+      2. Select **Add**.
+      
 1. To add URL:
-      1. Add **URL** and **Title** as provided below and then select **Add**.
+      1. Add the **URL** and **Title** as provided below, and then select **Add**.
 
       |Feature Name |URL  |Title |
       |---------|---------|---------|
@@ -132,35 +135,40 @@ If you've customized the Customer Service workspace, you need to perform the fol
   The following table represents the default settings for historical reports:  
 
 **Customer Service historical**
+
 |Id  |Icon  |Title |Privilege entity | Privilege |
-|---------|---------|---------|---------|-------------|
+|-------|------|------|------|----------|
 |CSHistoricalAnalyticsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg| Customer Service historical analytics| msdyn_dataanalyticsreport_csrmanager| Read |
 
 **Omnichannel historical analytics**
+
 |Id  |Icon  |Title |Privilege entity | Privilege |
 |---------|---------|---------|---------|-------------|
 |OCReportsSubArea|/WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg| Omnichannel historical analytics| msdyn_dataanalyticsreport_oc| Read |
 
 **Knowledge analytics**
+
 |Id  |Icon  |Title |Privilege entity | Privilege |
 |---------|---------|---------|---------|-------------|
 |KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
 
 **Customized Reports**
+
 |Id  |Icon  |Title |Privilege entity | Privilege |
 |---------|---------|---------|---------|-------------|
 |CustomizedReportsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg | Customized Reports| msdyn_dataanalyticsreport_ksinsights| Read |
 
 **Omnichannel real-time analytics**
+
 |Id  |Icon  |Title |Privilege entity | Privilege |
 |---------|---------|---------|---------|-------------|
 |OCRealtimeReportsSubArea|/WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg | Omnichannel real-time analytics| msdyn_dataanalyticsreport_oc_rt| Read |
 
 1. For **Settings**, fill in the following  details:
-    - SKU: All,OnPremise,Live,SPLA
-    - Client: Web
-    - PassParams: Checked (for OC Real-time / Customized Reports)
-    - Offline availability: Checked (for OC Real-time / Customized Reports / OC historical)
+    - **SKU**: All, OnPremise, Live, SPLA
+    - **Client**: Web
+    - **PassParams**: Checked (for OC Real-time / Customized Reports)
+    - **Offline availability**: Selected (for OC Real-time / Customized Reports / OC historical)
 1. Select **Save**, and then select **Publish**.
 
 ### See also
