@@ -70,6 +70,8 @@ Change the date to see the map for a different day. Zoom out of the map, to see 
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route.
 
+On each resource pin associated with a user, there is an indicator icon in the lower-right corner representing how long ago the resource's location has been detected. Green indicates that the user has logged on and been detected since the start of the current day, while a grey question mark indicates that the location was last detected yesterday or earlier. 
+
 ### Refresh board
 
 Select **Refresh** to manually refresh the schedule board.
