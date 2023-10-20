@@ -1,10 +1,11 @@
 {
   "redirections": [
     {
-<<<<<<< HEAD
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
-=======
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
       "redirect_document_id": "false"
@@ -22,7 +23,6 @@
     {
       "source_path": "ce/field-service/cfs-troubleshoot.md",
       "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
->>>>>>> c226aeec818d54ae9ce0c31c73bfffd29ac6920f
       "redirect_document_id": "false"
     },
     {
