@@ -7,7 +7,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 10/05/2023
+ms.date: 10/20/2023
 ms.custom: bap-template
 search.app: salescopilot-docs
 ---
@@ -22,6 +22,11 @@ You'll see the opt-in terms when you enable the Copilot feature for regions othe
 > The opt-in terms aren't applicable to organizations in the North America geography and therefore won't be visible to customers in this region.
 
 When you use any copilot feature in an organization that's outside the North America or Europe regions, your data, including personal data, used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
+
+> [!NOTE]
+> - If your environment is hosted in North America, users will use an Azure OpenAI endpoint in North America.
+> - If your environment is hosted in Europe, users will use an Azure OpenAI endpoint in Europe.
+> - If your environment is hosted anywhere else, users will use an Azure OpenAI endpoint outside of the region in which they are hosted.
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 

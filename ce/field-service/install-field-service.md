@@ -35,7 +35,7 @@ If the installation is complete, the "Field Service" and "Field Service Mobile" 
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
-Set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+Set up the mobile app that frontline workers will use to view and complete work orders in the field. For more information, see [getting started with the Dynamics 365 Field Service mobile app](mobile-power-app-get-started.md).
 
 ## Next steps
 

@@ -26,7 +26,7 @@ Work orders use system statuses, work order substatuses, and booking statuses to
 
 **Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
-**Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service Mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
+**Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
 
 - Scheduled
 - Traveling
@@ -70,7 +70,7 @@ The default work order and booking statuses map to the following stages of the w
 
 1. Once the work order is scheduled, the system creates a booking with a booking status of *Scheduled*. The creation of a booking automatically changes the work order system status to *Scheduled*.
 
-1. Technicians can see scheduled work orders it on the Field Service Mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
+1. Technicians can see scheduled work orders it on the Field Service mobile app. When they're on the way to the work site, they change the booking status to *Traveling*. Changing the booking status to *Traveling* automatically changes the work order system status to *In Progress*.
 
     > [!NOTE]
     > If there are multiple bookings for a single work order and one booking is in progress, the related work order status gets updated.
@@ -110,7 +110,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### Traveling
 
-- When a booking is updated to a *Traveling* booking status from Field Service Mobile, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
+- When a booking is updated to a *Traveling* booking status from the mobile app, the **Start time** will be updated to the current time. When updated from web, the start time is not automatically updated.
 
 #### In Progress
 
