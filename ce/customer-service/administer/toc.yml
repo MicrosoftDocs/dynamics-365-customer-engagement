@@ -4,6 +4,8 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
+      - name: Troubleshooting and FAQs
+        href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: User management
         items: 
         - name: Create users and assign security roles
@@ -792,5 +794,13 @@
           href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
         - name: Community
           href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
-    - name: Troubleshoot
-      href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+    - name: Implement Dynamics 365 Customer Service
+      href: csw-overview.md
+    - name: Manage your contact center
+      href: supervisor-historical-analytics.md
+    - name: Develop Dynamics 365 Customer Service
+      href: unified-routing-impact-on-apis. md
+    - name: Dynamics 365 Channel Integration Framework
+      href: channel-integration-framework.md
+    - name: Unified Service Desk
+      href: unified-service-desk.md

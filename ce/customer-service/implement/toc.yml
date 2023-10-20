@@ -4,15 +4,15 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
+      - name: Welcome to Dynamics 365 Customer Service
+          href: overview.md
       - name: Get started
         items:
-        - name: Welcome to Dynamics 365 Customer Service
-          href: overview.md
-        - name: Use Customer Service workspace
+        - name: Customer Service workspace
           href: csw-overview.md
-        - name: Use Customer Service Team Member
+        - name: Customer Service Team Member
           href: customer-service-team-member.md
-        - name: Use Customer Service admin center
+        - name: Customer Service admin center
           href: cs-admin-center.md
         - name: Customer Service Hub
           href: customer-service-hub-user-guide-basics.md
@@ -22,6 +22,14 @@
           href: chat-dynamics365-customer-service-demo-data.md
         - name: FAQ about Omnichannel for Customer Service
           href: faqs.md
+        - name: Try
+          items:
+          - name: Sign up for a free Customer Service trial
+            href: try-customer-service.md
+          - name: Customer Service trial FAQ
+            href: trial-faq.md
+      - name: Troubleshooting and FAQs
+        href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: What's new
         items:
         - name: Release plans
@@ -60,10 +68,6 @@
               href: intraday-conversation-insights.md
             - name: Customize KPIs for intraday insights
               href: customize-kpis-intraday-insights.md
-      - name: Sign up for a free Customer Service trial
-        href: try-customer-service.md
-      - name: Customer Service trial FAQ
-        href: trial-faq.md  
       - name: Learning Catalog
         items: 
         - name: Learning Catalog
@@ -154,5 +158,13 @@
         href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
       - name: Community
         href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
-    - name: Troubleshoot
-      href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+    - name: Administer Dynamics 365 Customer Service
+      href: users-user-profiles.md
+    - name: Manage your contact center
+      href: supervisor-historical-analytics.md
+    - name: Develop Dynamics 365 Customer Service
+      href: unified-routing-impact-on-apis. md
+    - name: Dynamics 365 Channel Integration Framework
+      href: channel-integration-framework.md
+    - name: Unified Service Desk
+      href: unified-service-desk.md
