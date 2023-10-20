@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: shujoshi 
 ms.topic: how-to 
 ms.collection: 
-ms.date: 10/13/2023
+ms.date: 10/20/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,11 +14,11 @@ ms.custom:
   - ai-seo-date:10/13/2023
 ---
 
-# Map custom case fields to default Copilot attributes
+# Modify fields used to generate case summary and draft emails
 
-You can map the out-of-the-box case fields Copilot uses to generate summaries or draft emails to custom fields. Organizations rely on custom fields to complement or replace out-of-the-box case fields. However, Copilot's use of out-of-the-box fields for generating summaries or drafting emails often lead to a lack of context from the custom fields, ultimately impacting the accuracy of results. By mapping custom case fields, you can improve the quality and relevance of email drafts and summaries Copilot generates.
+Per your business requirement, you can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that the Copilot should use to generate responses.
 
-## Map custom case fields to draft emails
+## Modify the fields used to draft emails
 
 Copilot uses the following out-of-the-box case fields to draft emails:
 
@@ -42,7 +42,7 @@ Perform the following steps to map the custom fields to fields in Customer Servi
    - Select **Save and Close**.
 3. Select **Save**.
 
-## Map custom case fields to generate summaries
+## Modify fields to generate summaries
 
 Copilot uses the following fields to generate conversation summaries:
 
