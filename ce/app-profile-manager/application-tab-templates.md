@@ -124,7 +124,7 @@ The following parameters are available for the entity search page type.
 
 ### Third-party website
 
-This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. If your website is not compatible with iframe hosting, an error message that the website refused to connect is displayed.The application tab template parses the URL and data parameters to format the URL address to be displayed.
+This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. If your website is not compatible with iframe hosting, an error message that the website refused to connect is displayed. The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|---------|-----------|
