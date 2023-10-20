@@ -1027,7 +1027,7 @@
       - name: Enable write an email 
         href: copilot-enable-help-pane.md#enable-write-an-email
       - name: Enable draft a response (preview)
-        href: copilot-enable-help-pane.md#enable-draft-a-response        
+        href: copilot-enable-help-pane.md#enable-draft-a-response-preview     
       - name: View feedback data
         href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
