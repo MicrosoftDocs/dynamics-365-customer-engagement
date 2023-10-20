@@ -6,6 +6,21 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/troubleshoot-faq.yml",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-faq.yml",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-troubleshoot.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/mobile-public-preview-overview.md",
       "redirect_url": "/dynamics365/field-service/mobile-powerapp-newux-overview",
       "redirect_document_id": "false"
