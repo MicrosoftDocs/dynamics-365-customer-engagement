@@ -92,7 +92,7 @@ A segment can have up to 10 conditions at one time. To optimize the performance 
 
 - **Distribute the segments**: Create multiple segments with fewer conditions rather than one segment with many conditions. You can connect multiple segments to the same or different sequences and assignment rules. This helps improve the speed and accuracy of connecting sequences and assignment rules to records.
 
-- **Create rollup attributes**: Use rollup attributes to avoid performance issues when you add conditions that involve related tables. Rollup attributes are calculated fields that aggregate values from related records. For example, you can create a rollup attribute that counts the number of contacts that are associated with a lead. [Learn how to define rollup attributes](https://docs.microsoft.com/en-us/power-apps/maker/data-platform/define-rollup-fields).
+- **Create rollup attributes**: Use rollup attributes to avoid performance issues when you add conditions that involve related tables. Rollup attributes are calculated fields that aggregate values from related records. For example, you can create a rollup attribute that counts the number of contacts that are associated with a lead. [Learn how to define rollup attributes](/power-apps/maker/data-platform/define-rollup-fields).
 
 - **Use the expression builder only**: Always use the expression builder to define or update the segments. Don't update segments through Dataverse, the underlying data platform of Dynamics 365. It might cause unexpected behavior that affects the records that are related to the segment and the subsequent automations, such as connecting sequences and assignment rules.
 
