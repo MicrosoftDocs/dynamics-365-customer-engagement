@@ -615,7 +615,6 @@ Check out more ways to [Improve form load time](/dynamics365/customerengagement/
 
 ## Next steps
 
-- [Frequently asked questions for Dynamics 365 Field Service - General](troubleshoot-faq.yml)
-- [FAQ and troubleshooting tips for Resource Scheduling Optimization in Dynamics 365 Field Service](rso-faq.yml)
+- [Dynamics 365 Field Service troubleshooting](/troubleshoot/dynamics-365/field-service/welcome-field-service)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
