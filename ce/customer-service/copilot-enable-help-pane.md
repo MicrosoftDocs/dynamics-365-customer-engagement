@@ -1,5 +1,5 @@
 ---
-title: Enable features in Copilot pane (preview)
+title: Enable features in Copilot pane
 description: Learn how to enable features that appear in the Copilot help pane to increase agent productivity in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham

@@ -1,16 +1,16 @@
 ---
-title: Enable Copilot features in Customer Service (preview)
+title: Enable Copilot features in Customer Service
 description: Learn how to enable the various Copilot features in Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 10/20/2023
 ms.custom: bap-template 
 ms.collection:
 ---
 
-# Manage Copilot features in Customer Service (preview)
+# Manage Copilot features in Customer Service 
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
@@ -21,7 +21,7 @@ Enable the Copilot features for agents to use Copilot to:
 - Summarize a case and conversation
 
 > [!NOTE]
-> Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions
+> Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 ## License requirements
 
