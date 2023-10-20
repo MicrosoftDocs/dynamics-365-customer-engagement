@@ -16,7 +16,7 @@ ms.custom:
 
 [Assignment rules](./wa-create-and-activate-assignment-rule.md) can miss leads, opportunities, and insights, leaving them unassigned. As an administrator, sales manager, or sequence manager, you can monitor incoming records to catch any that aren't assigned to a seller. You can view the number of unassigned records by segment and record type and get detailed information about them. Then, assign them to a seller or sales team.
 
-- [Run your assignment rules again](#run-assignment-rules) in case the [conditions](#reasons-records-may-be-left-unassigned) that caused the records to be skipped the first time have changed.
+- [Run your assignment rules again](#run-assignment-rules) in case the [conditions](#reasons-records-might-be-left-unassigned) that caused the records to be skipped the first time have changed.
 - [Create an assignment rule](./wa-create-and-activate-assignment-rule.md) to cover conditions you didn't anticipate.
 - [Assign the records](#assign-records-manually) to sellers manually.
 
@@ -76,7 +76,7 @@ The reason a lead or opportunity wasn't assigned automatically is shown in the *
 
 ## Run assignment rules
 
-After you address the [reasons the records were left unassigned](#reasons-records-may-be-left-unassigned), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
+After you address the [reasons the records were left unassigned](#reasons-records-might-be-left-unassigned), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
 
 1. Sign in to your Dynamics 365 Sales Hub app.
 

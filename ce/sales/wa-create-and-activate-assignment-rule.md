@@ -74,7 +74,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider leads created in the last**. Then, select the number of hours a record can remain unassigned after it's created.
 
-    If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reason-for-unassigned-records) is set to *Seller not assigned as record is older than the set timeframe*.
+    If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reasons-records-might-be-left-unassigned) is set to *Seller not assigned as record is older than the set timeframe*.
 
 ### Select sellers or a sales team to assign
 
