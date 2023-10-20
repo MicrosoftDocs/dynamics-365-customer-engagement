@@ -132,37 +132,37 @@ If you've customized the Customer Service workspace, you need to perform the fol
 
 1. Select the area you added from **Navigation**, and then select **Settings**.
 1. Rename the **Title**, **Select Icon**, **Update ID**, and set **Table Privileges**.
-  The following table represents the default settings for historical reports:  
+The following table represents the default settings for historical reports:  
 
-**Customer Service historical**
-
-|Id  |Icon  |Title |Privilege entity | Privilege |
-|-------|------|------|------|----------|
-|CSHistoricalAnalyticsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg| Customer Service historical analytics| msdyn_dataanalyticsreport_csrmanager| Read |
-
-**Omnichannel historical analytics**
-
-|Id  |Icon  |Title |Privilege entity | Privilege |
-|---------|---------|---------|---------|-------------|
-|OCReportsSubArea|/WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg| Omnichannel historical analytics| msdyn_dataanalyticsreport_oc| Read |
-
-**Knowledge analytics**
-
-|Id  |Icon  |Title |Privilege entity | Privilege |
-|---------|---------|---------|---------|-------------|
-|KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
-
-**Customized Reports**
-
-|Id  |Icon  |Title |Privilege entity | Privilege |
-|---------|---------|---------|---------|-------------|
-|CustomizedReportsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg | Customized Reports| msdyn_dataanalyticsreport_ksinsights| Read |
-
-**Omnichannel real-time analytics**
-
-|Id  |Icon  |Title |Privilege entity | Privilege |
-|---------|---------|---------|---------|-------------|
-|OCRealtimeReportsSubArea|/WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg | Omnichannel real-time analytics| msdyn_dataanalyticsreport_oc_rt| Read |
+    **Customer Service historical**
+    
+    |Id  |Icon  |Title |Privilege entity | Privilege |
+    |-------|------|------|------|----------|
+    |CSHistoricalAnalyticsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg| Customer Service historical analytics| msdyn_dataanalyticsreport_csrmanager| Read |
+    
+    **Omnichannel historical analytics**
+    
+    |Id  |Icon  |Title |Privilege entity | Privilege |
+    |---------|---------|---------|---------|-------------|
+    |OCReportsSubArea|/WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg| Omnichannel historical analytics| msdyn_dataanalyticsreport_oc| Read |
+    
+    **Knowledge analytics**
+    
+    |Id  |Icon  |Title |Privilege entity | Privilege |
+    |---------|---------|---------|---------|-------------|
+    |KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
+    
+    **Customized Reports**
+    
+    |Id  |Icon  |Title |Privilege entity | Privilege |
+    |---------|---------|---------|---------|-------------|
+    |CustomizedReportsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg | Customized Reports| msdyn_dataanalyticsreport_ksinsights| Read |
+    
+    **Omnichannel real-time analytics**
+    
+    |Id  |Icon  |Title |Privilege entity | Privilege |
+    |---------|---------|---------|---------|-------------|
+    |OCRealtimeReportsSubArea|/WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg | Omnichannel real-time analytics| msdyn_dataanalyticsreport_oc_rt| Read |
 
 1. For **Settings**, fill in the following  details:
     - **SKU**: All, OnPremise, Live, SPLA
