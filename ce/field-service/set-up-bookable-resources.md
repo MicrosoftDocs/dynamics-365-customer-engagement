@@ -1,8 +1,7 @@
 ---
 title: Set up bookable resources (contains video)
-description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.date: 07/18/2023
-
+description: Learn how to create a bookable resource and add details to distinguish it from other resources.
+ms.date: 10/20/2023
 ms.topic: article
 author: ryanchen8
 ms.author: chenryan
@@ -10,77 +9,45 @@ ms.author: chenryan
 
 # Set up bookable resources
 
-A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
+A bookable resource in Dynamics 365 Field Service is anything that needs to be scheduled. Most often, that's people, equipment, and facilities.
 
-Each resource can have different attributes that distinguish it from others, including but not limited to:
-
-- Characteristics (for example: Accounting)
-- Categories (for example: Manager)
-- Territories (for example: Washington state)
-- Organizational Unit (for example: Seattle service delivery)
-- Location (for example: Location agnostic)
-- Resource Type (for example: User)
-
-In this article, we’ll walk through how to create a bookable resource and add details to distinguish it from other resources. We’ll also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
+Each resource can have properties that distinguish it from others. For example characteristics (skills or certifications), categories, or locations.
 
 ## Prerequisites
 
-- Any version of Dynamics 365 Field Service.
-- You must be signed in as a user with **Field Service - Administrator** or **System Administrator** security roles.
+- You have a **Field Service - Administrator** or **System Administrator** security role assigned.
 
-## Quickly set up frontline workers to get started
+## Create frontline workers
 
-At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders.
+Frontline workers are people in your organization who are primarily scheduled for onsite jobs. They use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. Frontline workers are bookable resources. You can quickly [create frontline workers from the **Get started** page](frontline-worker-set-up.md).
 
-To quickly create frontline workers refer to the article on [setting up frontline workers](frontline-worker-set-up.md).
-
-## Create frontline workers and other bookable resources manually
+## Create other bookable resources
   
-1.  From the Field Service main menu, select **Resources** > **Resources entity**. 
+1. In Field Service, change to the **Resources** area and go to **Resource** > **Resources** and select **New**.
 
-2.  On the **Active Bookable Resources** screen, choose **New**.  
+1. On the **General** tab, choose a **Resource Type**. That's a classification that describes who or what the resource is and how the resource relates to your organization. Depending on the value you choose, there are other related details to define.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of active bookable resources, showing the +New option.](./media/quiickstart-new-bookable-resource.png "Screenshot of active bookable resources, showing the +New option.")
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new bookable resource in Field Service.](./media/quickstart-new-bookable-resource-complete.png "Screenshot of a new bookable resource in Field Service.")
-
-    
-3.  Select a **Resource Type**. 
+   - **User**: A person  in your organization who needs access to the system. For more information, see [Set up frontline workers](frontline-worker-set-up.md).
+   - **Account** or **Contact**: The resource isn’t directly a part of your organization but you want to schedule it. For example, a vendor company that doesn't have access to your system but provides services on your behalf.
+   - **Equipment**: A piece of equipment that you want to schedule. For example, a truck or a machine.
+   - **Crew**: A group of resources that gets scheduled together. For example, two or more people or a person and a vehicle. For more information, see [Group resources in crews](resource-crews.md).
+   - **Facility**: A physical space that needs to be scheduled, such as a building or room. For more information, see [Schedule a facility and associated resources](facility-scheduling.md).
+   - **Pool**: A group of similar resources. Pools are usually scheduled when you want to pick the actual resource at a later stage. For example, a group of cars. For more information, see [Schedule resource pools](resource-pools.md).
   
-Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
+1. Enter the **Name** of the resource how it appears on the schedule board and set the **Time Zone**.  
 
-   - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a frontline worker who needs access to the Field Service mobile app. Note: The related user must have **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, go to [frontline worker setup](frontline-worker-set-up.md).
-   - **Account** or **Contact**: Choose this option if the resource isn’t directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
-  - **Equipment**: Choose this option if the resource is a piece of equipment, tool, or machine that must be scheduled.
-  - **Crew**: Choose this option as the first step to create a crew to assemble a group of resources where scheduling the crew resource will schedule all crew members. A typical example has two or more people or a person and a vehicle. The general process is to create a crew header resource with the resource type of crew, and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information, go to our article on [resource crews](resource-crews.md).
-  - **Facility**: Choose this option if the resource is a physical space that needs to be scheduled, such as a building or room. For more information, go to our article on [facility scheduling](facility-scheduling.md).
-  - **Pool**: Choose this option as the first step to create a pool to assemble a group of similar resources to manage capacity. Among other differences, a pool differs from a crew in that scheduling a pool doesn’t schedule all pool members. For more information, go to our article on [resource pools](resource-pools.md).   
-  
-     
-  
-After selecting a resource type, a lookup field will appear prompting you to choose a related record when applicable. For example, if **User** is selected, you’ll then need to select the related user record.
+1. On the **Scheduling** tab, set the **Start Location** and **End Location** to define where the resource starts and ends their working day. The system uses these values for scheduling and routing.
+   - **Location agnostic**: The location of this resource isn't relevant for the business scenario. If the work location of a requirement is set to *Onsite*, location agnostic resources don't show as a result.
+   - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
+   - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or a warehouse. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
 
+--
 
-4.  **Name**: Enter a name. This can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
-5.  **Time Zone**: Select the time zone in which the resource is located. This is considered in the schedule process.  
+1. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
 
-6. **Start/End Location**: Decide where the resource starts and ends their working day for scheduling and routing purposes. The start and end location can be different as long as neither of them is location agnostic. So, the start location can be resource address and end location can be organizational unit, or vice versa.
-   - **Location agnostic** - select this option if the location of this resource isn’t required for the business need and doesn’t need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources won’t return in results. 
-   - **Resource Address** - select this option as the start and/or end location if the resource starts and/or ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. Go to the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
-   - **Organizational Unit** - select this option as the start and/or end location if the resource starts and/or ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there’s a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
-7. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
-8. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
+1. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
 9. **Enable for Availability Search**: This determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling tab on resource form.](media/resource-scheduling-tab.png "Screenshot of scheduling tab on resource form.")
 
 10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It’s used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
