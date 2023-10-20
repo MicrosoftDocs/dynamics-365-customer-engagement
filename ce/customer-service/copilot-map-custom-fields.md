@@ -1,6 +1,6 @@
 ---
 title: Map custom case fields to default Copilot attributes
-description: Map custom case fields to Copilot's default attributes to generate more accurate summaries and emails. 
+description: Map custom case fields to Copilot's default attributes to generate more accurate summaries and draft emails. 
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: shujoshi 
