@@ -510,14 +510,10 @@ items:
   items:
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-field-service-solution-health.md
-  - name: Field Service FAQs
-    href: troubleshoot-faq.yml
+  - name: Troubleshooting articles
+    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: Mobile app FAQs
     href: mobile-power-app-faq.yml
-  - name: Connected Field Service FAQs
-    href: cfs-troubleshoot.md
-  - name: Resource Scheduling Optimization FAQs
-    href: rso-faq.yml
   - name: Microsoft 365 integrations for Field Service (preview) troubleshooting
     href: flw-troubleshooting.md
   - name: New Field Service mobile experience (preview) troubleshooting     
