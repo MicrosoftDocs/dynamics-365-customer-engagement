@@ -1054,7 +1054,7 @@
         href: copilot-analytics-report.md
     - name: Customizer experience
       items:
-      - name: Map custom case fields to default Copilot attributes
+      - name: Modify fields used to generate case summary and draft emails
         href: copilot-map-custom-fields.md 
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
