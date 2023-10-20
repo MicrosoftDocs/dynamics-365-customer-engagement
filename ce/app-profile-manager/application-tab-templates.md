@@ -3,7 +3,7 @@ title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters."
 author: "gandhamm"
 ms.author: mgandham
-ms.date: 08/09/2023
+ms.date: 10/20/2023
 ms.topic: article
 ---
 
@@ -42,7 +42,7 @@ As an administrator, you can create multiple application tab templates.
 
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
-    | General | Name | Specify the name of the application tab. This name won't be visible for the agents at runtime. | Knowledge article search |
+    | General | Name | Specify the name of the application tab. This name isn't visible for the agents at runtime. | Knowledge article search |
     | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be added between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
     | General | Title | Provide a title for the application that you want the agents to see at runtime. | Knowledge article search |
     | General | Page type | Select a page type from the list. |  Web resource |
@@ -79,7 +79,7 @@ This page type is used to display the dashboard as an application. The following
 | `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
-> If the target dashboard is not included in the app module definition, the default dashboard is displayed instead.
+> If the target dashboard isn't included in the app module definition, the default dashboard is displayed instead.
 
 ### Entity list
 
@@ -91,7 +91,7 @@ This page type is used to display an entity view that defines how a list of reco
 | `viewId` | GUID of the view | No | String | `00000000-0000-0000-00aa-000010001031` |
 
 > [!NOTE]
-> If the target view does not exist or is not included in the app module definition, the default entity view is displayed instead.
+> If the target view doesn't exist or isn't included in the app module definition, the default entity view is displayed instead.
 
 ### Entity record
 
@@ -110,7 +110,7 @@ The following parameters are available for the entity record page type when an e
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
 | `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br>  | contact <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br><br> |
-| `data` | Data to be pre-populated in the form | No  | JSON |  `{"subject":"Task created from {anchor.ticketnumber}","description":"Follow-up needed with customer","prioritycode":"2","scheduledend":"06/12/2023", "regardingobjectid": [{"id": "{anchor.incidentid}", "name": "{anchor.title}", "entityType":"{anchor.entityName}"}]}` |
+| `data` | Data to be prepopulated in the form | No  | JSON |  `{"subject":"Task created from {anchor.ticketnumber}","description":"Follow-up needed with customer","prioritycode":"2","scheduledend":"06/12/2023", "regardingobjectid": [{"id": "{anchor.incidentid}", "name": "{anchor.title}", "entityType":"{anchor.entityName}"}]}` |
 | `formId`| GUID of the form instance | No  | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
@@ -124,7 +124,7 @@ The following parameters are available for the entity search page type.
 
 ### Third-party website
 
-This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
+This page type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. If your website isn't compatible with iframe hosting, an error message that the website refused to connect is displayed. The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|---------|-----------|
