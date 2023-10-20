@@ -63,7 +63,7 @@ To ensure that agents receive the notifications, we recommend you enable the fol
 - Do Not disturb in your Windows setting is set to Off.
 - Enable the service worker in the developer console.
     > [!div class=mx-imgBorder]
- > ![Enable service worker.](../media/service-worker-enable.png "Screenshot that indicates how to enable service worker")
+ > ![Enable service worker.](/media/service-worker-enable.png "Screenshot that indicates how to enable service worker")
  
 
 ### Notification fields
