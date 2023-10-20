@@ -1,18 +1,16 @@
 ---
-title: "Enable the new schedule board in Universal Resource Scheduling"
-description: "The new schedule board is faster, with better usability and additional capabilities. Learn about the updates and how to switch over to the new board."
-ms.date: 10/06/2023
+title: Experience the schedule board in Universal Resource Scheduling
+description: The new schedule board is faster, with better usability and additional capabilities."
+ms.date: 10/20/2023
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
-# Experience the new schedule board in Universal Resource Scheduling
+# Experience the schedule board in Universal Resource Scheduling
 
 [!INCLUDE[use-schedule-board.md](../shared/urs/use-schedule-board.md)]
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
