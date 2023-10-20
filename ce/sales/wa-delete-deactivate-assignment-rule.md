@@ -1,6 +1,6 @@
 ---
 title: Delete or deactivate assignment rules
-description: Learn how to remove assignment rules that you don't need anymore in Dynamics 365 Sales Hub. You can either deactivate them to keep them in the app or delete them completely.
+description: Learn how to remove assignment rules that you don't need anymore in Dynamics 365 Sales. You can either deactivate them to keep them in the app or delete them completely.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -48,10 +48,10 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 1. Confirm the action when you're prompted to do so.
 
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)] 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+[Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

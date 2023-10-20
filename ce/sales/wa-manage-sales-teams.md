@@ -1,6 +1,6 @@
 ---
 title: Select security roles to assign records to
-description: Learn how to select the security roles that can be automatically assigned to leads, opportunities, and insights by assignment rules.
+description: Learn how to select the security roles that determine whether assignment rules can automatically assign your sales team to leads, opportunities, and insights in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -75,7 +75,7 @@ The following permissions are required to perform tasks on work assignment entit
 
 - **Assign unassigned records in the **Monitor *record type*** tab**
   - Sales Routing Run, Segment, Team, User: Read  
-    **Note**: To assign a record to a seller, the seller must have privileges on that record.
+    **Note**: Before a record can be assigned to a seller, the seller must have privileges on it.
 
 ### Sequences
 
@@ -112,6 +112,6 @@ The following permissions are required to perform tasks on work assignment entit
 
 ### See also
 
-- [Manage seller attributes](./wa-manage-seller-attributes.md)
-- [Manage seller availability](./wa-manage-seller-availability.md)
-- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Set seller attributes](./wa-manage-seller-attributes.md)
+- [Set seller availability and capacity](./wa-manage-seller-availability.md)
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)

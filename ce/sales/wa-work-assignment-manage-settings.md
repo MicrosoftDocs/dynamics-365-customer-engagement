@@ -1,6 +1,6 @@
 ---
 title: Configure work assignment
-description: Learn how to configure Dynamics 365 Sales to automatically assign leads and opportunities to your sales teams.
+description: Learn how to configure Dynamics 365 Sales to automatically assign work to your sales teams.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -16,7 +16,9 @@ ms.custom:
 
 # Configure work assignment
 
-Work assignment is a feature of Dynamics 365 Sales that removes the burden of manually assigning leads and opportunities to your sales team. Using assignment rules that can consider sellers' attributes, availability, and capacity, the sales accelerator automatically assigns the right salesperson at the right time to the right leads and opportunities.
+Work assignment is a feature of Dynamics 365 Sales that removes the burden of manually assigning leads, opportunities, and other work to your sales team. Using assignment rules that can consider sellers' attributes, availability, and capacity, the sales accelerator automatically assigns the right salesperson at the right time to the right leads and opportunities.
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements
 
@@ -32,7 +34,7 @@ Configuring work assignment is simple:
 1. [Select the security roles that assignment rules can automatically assign records to](./wa-manage-sales-teams.md).
 1. [Create segments to group incoming leads and opportunities](./wa-create-and-activate-a-segment.md).
 1. [Create sequences to automate the steps of your sales process](./create-and-activate-a-sequence.md).
-1. [Connect sequences to segments](./wa-connect-a-segment-to-sequence.md).
+1. [Connect segments to sequences](./wa-connect-a-segment-to-sequence.md).
 1. [Set sellers' attributes and capacity](./wa-manage-seller-attributes.md).
 1. [Determine how your sellers' availability is set and which calendar to use](./wa-manage-seller-availability.md).
 1. [Create and activate assignment rules](./wa-create-and-activate-assignment-rule.md).
@@ -41,18 +43,16 @@ Configuring work assignment is simple:
 
 After you configure work assignment for your organization, you can make adjustments as needed:
 
-- [Turn off record assignment to sellers](#turn-off-record-assignment-to-sellers) who are on vacation.
+- [Stop assigning work to sellers](#stop-assigning-work-to-sellers) who are on vacation or otherwise unavailable.
 - [Change the priority of your assignment rules](wa-change-priority-assignment-rule.md).
 - [Edit your assignment rules](wa-edit-assignment-rule.md) if you need to more extensive changes.
 - [Delete or deactivate assignment rules](wa-delete-deactivate-assignment-rule.md) you no longer need.
 - [Edit segments](wa-edit-a-segment.md) to fine-tune the records that get connected to them.
 - [Delete or deactivate segments](wa-delete-deactivate-a-segment.md) that are no longer useful.
 
-[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+## Stop assigning work to sellers
 
-## Turn off record assignment to sellers
-
-While sellers are on vacation or are otherwise unavailable, you can stop new leads and opportunities from being assigned to them automatically. Turn on record assignment the same way when they're back at work.
+While sellers are on vacation or are otherwise unavailable, you can stop new records from being assigned to them automatically. Turn assignment on the same way when they're back at work.
 
 1. Sign in to your Sales Hub app.
 

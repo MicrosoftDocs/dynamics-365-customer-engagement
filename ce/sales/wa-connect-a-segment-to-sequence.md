@@ -1,6 +1,6 @@
 ---
 title: Connect segments to sequences
-description: Learn how to connect a segment to a sequence in Dynamics 365 Sales Hub to automate your sales workflows.
+description: Learn how to connect a segment to a sequence in Dynamics 365 Sales to automate your sales workflows.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -15,7 +15,7 @@ ms.custom:
 
 # Connect segments to sequences
 
-After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. Leads, opportunities, accounts, contacts, or insights that are in the segment automatically start the sequence.
+After you [create and activate a segment](./create-and-activate-a-segment.md), connect the segment to a sequence. Leads, opportunities, accounts, contacts, and insights that are connected to the segment automatically start the sequence.
 
 You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
 
@@ -34,8 +34,6 @@ You can connect segments to sequences in your work assignment settings or using 
 - [The sequence has been created and activated](./create-and-activate-a-sequence.md).
 
 ## Connect a segment to a sequence
-
-This example uses lead records, but the process is the same for opportunity, account, contact, and insight records.
 
 1. Sign in to Dynamics 365 Sales Hub.
 
@@ -59,6 +57,5 @@ If you want to connect a different sequence to the segment, disconnect the curre
 
 ### See also
 
-- [Create and activate a segment](wa-create-and-activate-a-segment.md)  
-- [Edit a segment](wa-edit-a-segment.md)  
-- [View and edit properties of a segment](wa-view-details-segment.md)
+- [Create and activate segments](wa-create-and-activate-a-segment.md)
+- [Edit segments](wa-edit-a-segment.md)

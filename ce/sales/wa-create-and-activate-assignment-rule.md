@@ -1,6 +1,6 @@
 ---
-title: Automatically assign leads and opportunities
-description: Learn how to create and use assignment rules to automatically direct new leads and opportunities to the right sellers or sales teams.
+title: Create and activate assignment rules
+description: Learn how to create and use assignment rules in Dynamics 365 Sales to automatically route new leads, opportunities, and insights to the right sellers or sales teams.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -13,7 +13,7 @@ ms.custom:
   - ai-seo-date:10/16/2023
 ---
 
-# Automatically assign leads and opportunities
+# Create and activate assignment rules
 
 Assignment rules automatically route new leads and opportunities to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. Sales managers spend less time and effort in manual assignment, leads and opportunities don't go overlooked, and assignments are balanced among your salespeople.
 
@@ -34,7 +34,7 @@ Watch this brief video to learn more about assignment rules in sales accelerator
 
 ## Prerequisites
 
-Before you start creating assignment rules, make sure you've [added the security roles](wa-manage-sales-teams.md) to assign records.
+Before you start creating assignment rules, make sure you've [identified the security roles](wa-manage-sales-teams.md) that can be automatically assigned records.
 
 ## Create an assignment rule
 
@@ -133,7 +133,7 @@ We limit the number of conditions you can add to your assignment rules to help t
 
 ### See also
 
-- [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
-- [View and manage unassigned records](wa-manage-unassigned-records.md)
-- [Configure security roles to assign records](wa-manage-sales-teams.md)
-- [Manage seller attributes](wa-manage-seller-attributes.md)
+- [Understand record distribution in assignment rules](understand-lead-distributions-assignment-rules.md)
+- [View and assign unassigned records](wa-manage-unassigned-records.md)
+- [Select security roles to assign records to](wa-manage-sales-teams.md)
+- [Set seller attributes and capacity](wa-manage-seller-attributes.md)

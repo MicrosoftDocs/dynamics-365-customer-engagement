@@ -1,6 +1,6 @@
 ---
 title: View and assign unassigned records
-description: Learn how to view unassigned leads and opportunities so that you can assign them to sellers manually or run assignment rules again.
+description: Learn how to view unassigned leads, opportunities, and insights in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
 ms.date: 10/10/2023
 ms.topic: how-to
 author: udaykirang
@@ -14,9 +14,7 @@ ms.custom:
 
 # View and assign unassigned records
 
-[Assignment rules](./wa-create-and-activate-assignment-rule.md) can miss leads and opportunities, leaving them unassigned. As an administrator, sales manager, or sequence manager, you can monitor these records to catch any that aren't assigned. You can view the number of unassigned records by segment and record type, view detailed information about them, and assign them to a seller or sales team.
-
-If you find unassigned records, you can:
+[Assignment rules](./wa-create-and-activate-assignment-rule.md) can miss leads, opportunities, and insights, leaving them unassigned. As an administrator, sales manager, or sequence manager, you can monitor incoming records to catch any that aren't assigned to a seller. You can view the number of unassigned records by segment and record type and get detailed information about them. Then, assign them to a seller or sales team.
 
 - [Run your assignment rules again](#run-assignment-rules) in case the [conditions](#reasons-records-may-be-left-unassigned) that caused the records to be skipped the first time have changed.
 - [Create an assignment rule](./wa-create-and-activate-assignment-rule.md) to cover conditions you didn't anticipate.
@@ -136,6 +134,6 @@ The record is assigned to the seller or team and the list refreshes to remove th
 
 ### See also
 
-- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

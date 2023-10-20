@@ -1,6 +1,6 @@
 ---
 title: Set seller attributes and capacity
-description: Configure seller attributes and capacity to assign leads automatically based on your sellers' language, location, skills, and workload.
+description: Configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -15,7 +15,7 @@ ms.custom:
 
 # Set seller attributes and capacity
 
-Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and personal or organizational attributes.
+Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, capacity, and personal or organizational attributes.
 
 This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability). You can also [set their availability yourself](./wa-manage-seller-availability.md#set-your-sellers-availability-yourself).
 
@@ -219,5 +219,5 @@ Your filters last only as long as you're signed in to Sales Hub. You can't save 
 
 ### See also
 
-- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 - [Select security roles to assign records to](wa-manage-sales-teams.md)

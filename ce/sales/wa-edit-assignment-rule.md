@@ -1,6 +1,6 @@
 ---
 title: Edit assignment rules
-description: Learn how to edit an assignment rule in Dynamics 365 Sales Hub to change the conditions that automatically assign leads and opportunities to sellers.
+description: Learn how to edit an assignment rule in Dynamics 365 Sales to change the conditions that automatically assign leads, opportunities, and insights to sellers.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -15,7 +15,7 @@ ms.custom:
 
 # Edit assignment rules
 
-To modify your process for automatically assigning leads, opportunities, or seller insights to sellers, you can update the conditions that you've defined in the rule.
+To modify your process for automatically assigning leads, opportunities, or insights to sellers, you can update the conditions that you've defined in the rule.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -48,5 +48,5 @@ Your changes are applied to records that are connected to the segment going forw
 
 ### See also
 
-- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 - [Prioritize assignment rules](wa-change-priority-assignment-rule.md)

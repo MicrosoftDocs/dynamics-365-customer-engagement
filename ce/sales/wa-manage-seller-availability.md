@@ -1,6 +1,6 @@
 ---
 title: Let sellers set their availability
-description: Learn how to allow sellers to set their availability in  Outlook or the CRM calendar in Dynamics 365 Sales. You can also use advanced settings or an API to set their availability yourself.
+description: Learn how to allow sellers to set their work schedule in Outlook or the CRM calendar in Dynamics 365 Sales. You can also set their availability yourself.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -16,11 +16,9 @@ ms.custom:
 
 # Let sellers set their availability
 
-Assignment rules can assign new leads and opportunities to your sellers based on their availability, capacity, and attributes.
+Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, attributes, and capacity.
 
-This article covers how to turn on the seller availability feature in Dynamics 365 Sales so that sellers can [set their work hours](./personalize-sales-accelerator.md#configure-your-work-availability) themselves. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
-
-If you prefer to [set your sales team's availability](#set-your-sellers-availability-yourself) yourself, you can.
+This article covers how to set your sales team's availability. Sellers can [set their own availability](#let-your-sellers-set-their-availability) or you can [set their availability](#set-your-sellers-availability-yourself) yourself. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
@@ -49,11 +47,17 @@ If you prefer to [set your sales team's availability](#set-your-sellers-availabi
 
 1. Select **Save**.
 
-Sellers can then [set their availability](./personalize-sales-accelerator.md#configure-your-work-availability) in Outlook, if they have an Exchange license, or in the Dynamics 365 calendar.
+Sellers can then [enter their work schedule](./personalize-sales-accelerator.md#configure-your-work-availability) in Outlook, if they have an Exchange license, or in the Dynamics 365 calendar.
 
 ## Set your sellers' availability yourself
 
-If you choose not to let your sales team enter their working hours and time off, the Sales Hub app offers three ways to set their availability yourself.
+The Sales Hub app offers three ways to set your sales team's work hours yourself:
+
+- [Set their work hours in advanced settings](#set-work-hours-in-advanced-settings).
+- [Set their work hours with the calendar API](#set-work-hours-with-the-calendar-api).
+- [Use an assignment rule and seller attributes](#set-availability-with-an-assignment-rule-and-seller-attributes).
+
+To temporarily stop assigning sellers who are on vacation or otherwise unavailable, [change their availability in work assignment settings](./wa-work-assignment-manage-settings.md#turn-off-record-assignment-to-sellers).
 
 ### Set work hours in advanced settings
 
@@ -85,4 +89,4 @@ In your assignment rules, create a seller attribute that's based on the seller's
 
 - [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
 - [Set seller attributes](./wa-manage-seller-attributes.md)
-- [Automatically assign leads and opportunities](./wa-create-and-activate-assignment-rule.md)
+- [Create and activate assignment rules](./wa-create-and-activate-assignment-rule.md)

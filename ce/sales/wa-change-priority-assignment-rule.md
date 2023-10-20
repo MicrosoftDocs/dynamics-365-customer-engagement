@@ -18,6 +18,8 @@ ms.custom:
 
 When assignment rules run, a lead or an opportunity might meet the criteria of multiple rules. To determine which rule should take precedence, you can set their priority. A record that matches more than one rule is assigned by the rule that has a higher priority.
 
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+
 ## License and role requirements
 
 | Requirement type | You must have |
@@ -37,12 +39,12 @@ When assignment rules run, a lead or an opportunity might meet the criteria of m
 
 1. Open a segment that has at least two assignment rules, and then select the **Assignment rules** tab.
 
-1. Change the priority of the rules using any of these methods:
+1. Change the priority of the rules using either of these methods:
 
     - Hover your pointer over a rule and use the drag handle (**&vellip;&vellip;**) to drag the rule up or down in the list. The change is saved automatically.
     - Select a rule, select **Change rule priority**, type the new priority number, and then select **Save**.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

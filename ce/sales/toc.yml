@@ -480,29 +480,9 @@
               href: understand-sales-acceleration-reporting.md
             - name: Understand the sequence stats page
               href: understand-sequence-stats.md
-        - name: Work assignment
-          href: work-assignment-intro.md      
+        - name: Work assignment overview
+          href: work-assignment-intro.md
           items:
-            - name: Create and activate segments
-              href: wa-create-and-activate-a-segment.md
-            - name: Manage assignment rules
-              items:
-                - name: Create and activate assignment rules
-                  href: wa-create-and-activate-assignment-rule.md
-                - name: Edit an assignment rule
-                  href: wa-edit-assignment-rule.md
-                - name: Delete or deactivate an assignment rule
-                  href: wa-delete-deactivate-assignment-rule.md
-            - name: Connect a sequence to a segment
-              href: wa-connect-a-segment-to-sequence.md
-            - name: View and edit properties of a segment
-              href: wa-view-details-segment.md
-            - name: Edit a segment
-              href: wa-edit-a-segment.md  
-            - name: Delete a segment
-              href: wa-delete-deactivate-a-segment.md
-            - name: View and assign unassigned records
-              href: wa-manage-unassigned-records.md
             - name: Configure work assignment
               href: wa-work-assignment-manage-settings.md
               items:
@@ -512,10 +492,32 @@
                   href: wa-manage-seller-attributes.md
                 - name: Let sellers set their availability
                   href: wa-manage-seller-availability.md
-            - name: Understand lead distribution
-              href: understand-lead-distributions-assignment-rules.md                  
+            - name: Automatically assign records
+              items:
+                - name: Create and activate assignment rules
+                  href: wa-create-and-activate-assignment-rule.md
+                - name: Prioritize assignment rules
+                  href: wa-change-priority-assignment-rule.md
+                - name: Edit assignment rules
+                  href: wa-edit-assignment-rule.md
+                - name: Delete or deactivate assignment rules
+                  href: wa-delete-deactivate-assignment-rule.md
+                - name: Understand record distribution in assignment rules
+                  href: understand-lead-distributions-assignment-rules.md
+            - name: Group related records in segments
+              items:
+                - name: Create and activate segments
+                  href: wa-create-and-activate-a-segment.md
+                - name: Connect segments to sequences
+                  href: wa-connect-a-segment-to-sequence.md
+                - name: Edit segments
+                  href: wa-edit-a-segment.md
+                - name: Delete segments
+                  href: wa-delete-deactivate-a-segment.md
+            - name: View and assign unassigned records
+              href: wa-manage-unassigned-records.md
         - name: Get seller insights to improve seller effectiveness
-          href: seller-insights-intro.md        
+          href: seller-insights-intro.md
           items:
             - name: Import custom insights model into Dataverse
               href: import-insights-model-into-dataverse.md

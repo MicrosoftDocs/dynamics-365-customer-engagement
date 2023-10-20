@@ -1,6 +1,6 @@
 ---
 title: Create segments and connect them to sequences
-description: Learn how to use work assignment in Dynamics 365 Sales to create segments of records based on conditions and connect them to sequences for automated follow-ups.
+description: Learn how to use work assignment in Dynamics 365 Sales to group records based on conditions, and then connect these segments to sequences of automated actions.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -16,11 +16,13 @@ ms.custom:
 
 # Create segments and connect them to sequences
 
-Work assignment is a feature of Dynamics 365 Sales that helps you automate your sales team's activities and follow-ups. You can use work assignment to create segments of records based on conditions and connect them to sequences that run actions on those records.
+Work assignment is a feature of Dynamics 365 Sales that helps you automate your sales team's activities. You can use work assignment to create segments of records based on conditions and connect them to sequences that perform actions on those records.
 
 A *segment* is a group of records that meet criteria that you define. For example, you can create a segment of leads that come from a certain source, such as your website or trade shows. A *sequence* is a set of actions that are performed automatically on the records in a segment, such as sending emails, making calls, or creating tasks. For example, you can create a sequence that sends a welcome email to new leads and then schedules a follow-up call.
 
 In this article, you'll learn how to create and activate segments in work assignment and connect them to sequences.
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements
 
@@ -98,8 +100,8 @@ A segment can have up to 10 conditions at one time. To optimize the performance 
 
 ## Next steps
 
-- [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md)
-- [Automatically assign leads and opportunities](wa-create-and-activate-assignment-rule.md)
+- [Connect segments to sequences](wa-connect-a-segment-to-sequence.md).
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
 
 ### See also
 

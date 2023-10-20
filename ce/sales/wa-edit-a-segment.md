@@ -1,6 +1,6 @@
 ---
 title: Edit segments
-description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, the sequences that are connected to it, and its priority and other properties.
+description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, the sequences that are connected to it, and its priority and other properties in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
