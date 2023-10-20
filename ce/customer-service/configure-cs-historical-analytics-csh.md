@@ -1,7 +1,7 @@
 ---
 title: Manage customer service historical analytics reports
 description: Enable and configure Customer Service historical analytics reports to provide service managers with BI and AI insights.
-ms.date: 19/10/2023
+ms.date: 10/20/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -38,23 +38,23 @@ After you enable the reports, you can access them in one of the following ways:
 Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports.
 
 1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
+
      1. For **Customer Service historical analytics**, select **Manage**.
-     
+
      1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
-   ### [Customer Service Hub (deprecated) ](#tab/customerservicehub)
-    
+### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+
      1. In the site map, select **Service Management**.
-     
+
      1. Select **Settings** in **Insights**. The **Insights** page appears.
-     
+
      1. In the **Customer Service historical analytics** section, select **Manage**.
-     
+
      1. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports.
 
 1. Select **Save** or **Save and Close**.
@@ -70,21 +70,21 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 > Unified routing must be enabled to enable historical analytics for unified routing. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
 
 1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
-     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed. 
+
+     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed.
 
      1. Select the **Add historical analytics for unified routing** check box.  
 
-   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
-    
+### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+
      1. In the site map, select **Service Management**.
-     
+
      1. Select **Settings** in **Insights**. The **Insights** page appears.
-     
+
      1. In the **Historical analytics for unified routing** section, select **Manage**. The **Historical analytics for unified routing** page is displayed.
 
      1. Set the **Status** toggle to enabled.
@@ -114,23 +114,55 @@ If you've customized the Customer Service workspace, you need to perform the fol
 1. On the **New page** dialog:
      1. Select **Dataverse Table** for Customer Service historical, Omnichannel historical analytics, and Knowledge analytics.
      1. Select **URL** for Omnichannel real-time analytics, and customized Reports.
-    
- 1. To add Dataverse table:
+
+1. To add Dataverse table:
       1. Select the **Select existing table** option, followed by the required table, and then select **Show in navigation**.
       - Select **Customer Service historical analytics** for **Customer service historical**.
       - Select **Omnichannel historical analytics** for **Omnichannel historical analytics**.
       - Select **Knowledge analytics** for **Knowledge analytics**.
       1. Select **Add**.
-  1. To add URL:
+1. To add URL:
       1. Add **URL** and **Title** as provided below and then select **Add**.
-      
+
       |Feature Name |URL  |Title |
       |---------|---------|---------|
       |Omnichannel real-time analytics   |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}       |     Omnichannel real-time analytics    |
       |Customized Reports     |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ModernReportingControl&data={"featureIds":"f2266eb4-226f-4cf1-b422-89c5f48b40cb,09c168be-efe2-4f08-a986-3aab7095c863"}       |  Customized Reports       |
 
+1. Select the area you added from **Navigation**, and then select **Settings**.
+1. Rename the **Title**, **Select Icon**, **Update ID**, and set **Table Privileges**.
+  The following table represents the default settings for historical reports:  
 
-  
+**Customer Service historical**
+|Id  |Icon  |Title |Privilege entity | Privilege |
+|---------|---------|---------|---------|-------------|
+|CSHistoricalAnalyticsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg| Customer Service historical analytics| msdyn_dataanalyticsreport_csrmanager| Read |
+
+**Omnichannel historical analytics**
+|Id  |Icon  |Title |Privilege entity | Privilege |
+|---------|---------|---------|---------|-------------|
+|OCReportsSubArea|/WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg| Omnichannel historical analytics| msdyn_dataanalyticsreport_oc| Read |
+
+**Knowledge analytics**
+|Id  |Icon  |Title |Privilege entity | Privilege |
+|---------|---------|---------|---------|-------------|
+|KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
+
+**Customized Reports**
+|Id  |Icon  |Title |Privilege entity | Privilege |
+|---------|---------|---------|---------|-------------|
+|CustomizedReportsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg | Customized Reports| msdyn_dataanalyticsreport_ksinsights| Read |
+
+**Omnichannel real-time analytics**
+|Id  |Icon  |Title |Privilege entity | Privilege |
+|---------|---------|---------|---------|-------------|
+|OCRealtimeReportsSubArea|/WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg | Omnichannel real-time analytics| msdyn_dataanalyticsreport_oc_rt| Read |
+
+1. For **Settings**, fill in the following  details:
+    - SKU: All,OnPremise,Live,SPLA
+    - Client: Web
+    - PassParams: Checked (for OC Real-time / Customized Reports)
+    - Offline availability: Checked (for OC Real-time / Customized Reports / OC historical)
 1. Select **Save**, and then select **Publish**.
 
 ### See also
@@ -142,6 +174,5 @@ If you've customized the Customer Service workspace, you need to perform the fol
 [View analytics for Copilot impact](copilot-analytics-report.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
