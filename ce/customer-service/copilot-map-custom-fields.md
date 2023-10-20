@@ -16,7 +16,7 @@ ms.custom:
 
 # Map custom case fields to default Copilot attributes
 
-You can map the out-of-the-box case fields to Copilot uses to generate summaries of draft emails to custom fields. Organizations rely on custom fields to complement or replace out-of-the-box case fields. However, Copilot's use of out-of-the-box fields for generating summaries or drafting emails often lead to a lack of context from the custom fields, ultimately impacting the accuracy of results. By mapping custom case fields, you can improve the quality and relevance of email suggestions and summaries Copilot generates.
+You can map the out-of-the-box case fields Copilot uses to generate summaries or draft emails to custom fields. Organizations rely on custom fields to complement or replace out-of-the-box case fields. However, Copilot's use of out-of-the-box fields for generating summaries or drafting emails often lead to a lack of context from the custom fields, ultimately impacting the accuracy of results. By mapping custom case fields, you can improve the quality and relevance of email drafts and summaries Copilot generates.
 
 ## Map custom case fields to draft emails
 
