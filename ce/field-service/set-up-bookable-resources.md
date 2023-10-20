@@ -41,13 +41,13 @@ Frontline workers are people in your organization who are primarily scheduled fo
    - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
    - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or a warehouse. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
 
+1. Choose which **Organizational Unit** the resource belongs to.
+
+1. Choose if the resource can **Display On Schedule Board**. For more information about showing resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
+
+1. Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant.md) if it matches the criteria.
+
 --
-
-1. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
-
-1. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
-9. **Enable for Availability Search**: This determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
-
 
 10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It’s used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
