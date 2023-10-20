@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 09/06/2023
+ms.date: 10/18/2023
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -21,7 +21,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 - The organization that you're using isn't a trial version.
 - The **Get started** button that connects to an existing Azure resource is visible on the **Phone numbers** page of Customer Service admin center. The **Get Started** button appears only when:
   - The trial has ended after the free calling time has elapsed.
-  - You've manually ended the trial.
+  - You've manually [ended the trial](voice-channel-trial-phone-numbers.md#end-the-trial).
   - You've [disconnected from the Azure resource](voice-channel-disconnect-from-acs.md). 
 - Your active Azure subscription is in the same tenant as your Dynamics 365 account.
 - Your role has **Contributor** privileges.
@@ -117,7 +117,7 @@ To enable call recording and SMS services, you must first configure your applica
     - **Resource**: Select the resource.
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the list.
     - **Filter to Event Types**: You can filter events for either call recording or SMS services.
-        - To filter event types for recording services, select **Recording File Status Updated (Preview)** in the list.
+        - To filter event types for recording services, select **Recording File Status Updated** in the list.
         - To filter event types for SMS services, select **SMS Received** and **SMS Delivery Report Received** in the list.
     - **Endpoint Type**: Select **Web Hook** in the list.
     - **Endpoint**: Select **Select an endpoint**, and then enter the recording or SMS web hook endpoint:
@@ -152,8 +152,8 @@ To enable call recording and SMS services, you must first configure your applica
 
     - Customer Service admin center:
 
-        1. In the site map, under **Customer support**, select **Channels**.
-        2. To the right of **Phone numbers**, select **Manage**.
+        1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+        2. In **Accounts**, select **Manage** for **Phone numbers**.
 
     - Omnichannel admin center: In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 

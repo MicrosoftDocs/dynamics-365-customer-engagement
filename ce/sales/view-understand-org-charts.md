@@ -5,15 +5,18 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/22/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# View and understand the org charts (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# View and understand the org charts
 
 The org chart is accessible from accounts and contacts. To view the org chart for an account or a contact, select **Open org chart** in the command bar. If an organizational chart exists for the selected record, it's displayed. If not, you can [create one](manage-org-charts.md#create-or-edit-an-org-chart).
+
+>[!NOTE]
+>
+>- Org charts that were previously created using the legacy org chart feature are automatically upgraded to the new org chart format.
+>- Org charts are available only for accounts and contacts.
 
 The following image is an example of an org chart:
 

@@ -17,6 +17,9 @@ You can use Copilot to summarize cases and conversations if your administrator h
 > [!NOTE]
 > Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
+> [!NOTE]
+> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+
 ## Summarize cases
 
 Copilot case summaries help you to quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
