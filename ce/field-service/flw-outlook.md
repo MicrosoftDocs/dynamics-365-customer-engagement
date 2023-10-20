@@ -172,7 +172,7 @@ Reschedule a scheduled work order to a different resource, date, or time. Use sc
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling with Search for technician highlighted":::
 
    > [!TIP]
-   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
+   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](work-with-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the **Field Service (Preview)** pane.
 
