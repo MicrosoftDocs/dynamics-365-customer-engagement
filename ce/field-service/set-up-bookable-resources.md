@@ -25,43 +25,50 @@ Frontline workers are people in your organization who are primarily scheduled fo
   
 1. In Field Service, change to the **Resources** area and go to **Resource** > **Resources** and select **New**.
 
-1. On the **General** tab, choose a **Resource Type**. That's a classification that describes who or what the resource is and how the resource relates to your organization. Depending on the value you choose, there are other related details to define.
+1. On the **General** tab:
 
-   - **User**: A person  in your organization who needs access to the system. For more information, see [Set up frontline workers](frontline-worker-set-up.md).
-   - **Account** or **Contact**: The resource isn’t directly a part of your organization but you want to schedule it. For example, a vendor company that doesn't have access to your system but provides services on your behalf.
-   - **Equipment**: A piece of equipment that you want to schedule. For example, a truck or a machine.
-   - **Crew**: A group of resources that gets scheduled together. For example, two or more people or a person and a vehicle. For more information, see [Group resources in crews](resource-crews.md).
-   - **Facility**: A physical space that needs to be scheduled, such as a building or room. For more information, see [Schedule a facility and associated resources](facility-scheduling.md).
-   - **Pool**: A group of similar resources. Pools are usually scheduled when you want to pick the actual resource at a later stage. For example, a group of cars. For more information, see [Schedule resource pools](resource-pools.md).
-  
-1. Enter the **Name** of the resource how it appears on the schedule board and set the **Time Zone**.  
+   - Choose a **Resource Type**. That's a classification that describes who or what the resource is and how the resource relates to your organization. Depending on the value you choose, there are other related details to define.
 
-1. On the **Scheduling** tab, set the **Start Location** and **End Location** to define where the resource starts and ends their working day. The system uses these values for scheduling and routing.
-   - **Location agnostic**: The location of this resource isn't relevant for the business scenario. If the work location of a requirement is set to *Onsite*, location agnostic resources don't show as a result.
-   - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
-   - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or a warehouse. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
+       - **User**: A person  in your organization who needs access to the system. For more information, see [Set up frontline workers](frontline-worker-set-up.md).
+       - **Account** or **Contact**: The resource isn't directly a part of your organization but you want to schedule it. For example, a vendor company that doesn't have access to your system but provides services on your behalf.
+       - **Equipment**: A piece of equipment that you want to schedule. For example, a truck or a machine.
+       - **Crew**: A group of resources that gets scheduled together. For example, two or more people or a person and a vehicle. For more information, see [Group resources in crews](resource-crews.md).
+       - **Facility**: A physical space that needs to be scheduled, such as a building or room. For more information, see [Schedule a facility and associated resources](facility-scheduling.md).
+       - **Pool**: A group of similar resources. Pools are usually scheduled when you want to pick the actual resource at a later stage. For example, a group of cars. For more information, see [Schedule resource pools](resource-pools.md).
 
-1. Choose which **Organizational Unit** the resource belongs to.
+   - Enter the **Name** of the resource how it appears on the schedule board and set the **Time Zone**.  
 
-1. Choose if the resource can **Display On Schedule Board**. For more information about showing resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
+1. On the **Scheduling** tab:
 
-1. Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant.md) if it matches the criteria.
+   - Set the **Start Location** and **End Location** to define where the resource starts and ends their working day. The system uses these values for scheduling and routing.
+       - **Location agnostic**: The location of this resource isn't relevant for the business scenario. If the work location of a requirement is set to *Onsite*, location agnostic resources don't show as a result.
+       - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
+       - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or an assembly point. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
 
---
+   - Choose which **Organizational Unit** the resource belongs to.
 
-10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It’s used by schedule journals to calculate pay for time worked.
-11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
-12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
-13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service mobile app.
+   - Choose if the resource can **Display On Schedule Board**. For more information about showing resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
 
-> [!NOTE]
-> The Field Service mobile app currently doesn't support drip scheduling.
+   - Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant.md) if it matches the criteria.
 
-**Save** the record.  
+1. On the Field Service tab:
+
+   - Set an **Hourly Rate** to define the cost of the resource. It's used to calculate pay for time worked.
+
+   - Choose a **Warehouse** to set a default from where the resource gets their parts.
+
+   - For **Time Off Approval Required**, choose if someone needs to approve a resource's time off. A *time off request* blocks the configured time frame and you can't book the resource during that time.
+
+   - **Enable Drip Scheduling** controls how many bookings can appear on the Field Service mobile app at one time. Set to **No** to allow all bookings for a resource to display based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service mobile app.
+
+   > [!NOTE]
+   > The Field Service mobile app currently doesn't support drip scheduling.
+
+1. **Save** the record.
   
 ## Add work hours  
 
-After saving the bookable resource, it's time to set the working hours of the resource. Working hours are considered by:
+You can define working hours for each resource. If you don't change them, it uses the default working hours. Working hours are considered by:
 
 - The schedule board by displaying working and nonworking hours as different colors.
 - The schedule assistant by only displaying resources that are working in the results.
