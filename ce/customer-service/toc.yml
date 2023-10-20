@@ -1047,7 +1047,7 @@
       - name: Draft emails
         href: use-copilot-features.md#draft-emails        
       - name: Draft a chat response (preview)
-        href: use-copilot-features.md#draft-a-chat-response                  
+        href: use-copilot-features.md#draft-a-chat-response-preview
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
