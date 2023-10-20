@@ -14,8 +14,6 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Manage historical analytics reports in Customer Service
-
 You can configure Customer Service historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support cases and group related support cases into topics.
 
 By default, the Customer Service historical analytics reports are enabled for the System Administrator and CSR Manager roles. To configure other user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
@@ -38,23 +36,23 @@ After you enable the reports, you can access them in one of the following ways:
 Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports.
 
 1. Go to one of the apps, and perform the following steps.
-
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-
+     
      1. For **Customer Service historical analytics**, select **Manage**.
-
+     
      1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
-### [Customer Service Hub (deprecated)](#tab/customerservicehub)
-
+   ### [Customer Service Hub (deprecated) ](#tab/customerservicehub)
+    
      1. In the site map, select **Service Management**.
-
+     
      1. Select **Settings** in **Insights**. The **Insights** page appears.
-
+     
      1. In the **Customer Service historical analytics** section, select **Manage**.
-
+     
      1. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports.
 
 1. Select **Save** or **Save and Close**.
@@ -70,21 +68,21 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 > Unified routing must be enabled to enable historical analytics for unified routing. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
 
 1. Go to one of the apps, and perform the following steps.
-
-### [Customer Service admin center](#tab/customerserviceadmincenter)
-
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+     
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-
-     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed.
+     
+     1. For **Customer Service historical analytics**, select **Manage**. The **Customer Service historical analytics** page is displayed. 
 
      1. Select the **Add historical analytics for unified routing** check box.  
 
-### [Customer Service Hub (deprecated)](#tab/customerservicehub)
-
+   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+    
      1. In the site map, select **Service Management**.
-
+     
      1. Select **Settings** in **Insights**. The **Insights** page appears.
-
+     
      1. In the **Historical analytics for unified routing** section, select **Manage**. The **Historical analytics for unified routing** page is displayed.
 
      1. Set the **Status** toggle to enabled.
