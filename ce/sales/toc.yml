@@ -480,9 +480,10 @@
               href: understand-sales-acceleration-reporting.md
             - name: Understand the sequence stats page
               href: understand-sequence-stats.md
-        - name: Work assignment overview
-          href: work-assignment-intro.md
+        - name: Work assignment
           items:
+            - name: Work assignment overview
+              href: work-assignment-intro.md
             - name: Configure work assignment
               href: wa-work-assignment-manage-settings.md
               items:
