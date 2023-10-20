@@ -152,7 +152,7 @@ The following table represents the default settings for historical reports:
     |---------|---------|---------|---------|-------------|
     |KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
     
-    **Customized Reports**
+    **Customized reports**
     
     |Id  |Icon  |Title |Privilege entity | Privilege |
     |---------|---------|---------|---------|-------------|
