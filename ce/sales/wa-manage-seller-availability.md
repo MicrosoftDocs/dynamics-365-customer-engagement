@@ -56,7 +56,7 @@ The Sales Hub app offers three ways to set your sales team's work hours yourself
 - [Set their work hours with the calendar API](#set-work-hours-with-the-calendar-api).
 - [Use an assignment rule and seller attributes](#set-availability-with-an-assignment-rule-and-seller-attributes).
 
-To temporarily stop assigning sellers who are on vacation or otherwise unavailable, [change their availability in work assignment settings](./wa-work-assignment-manage-settings.md#turn-off-record-assignment-to-sellers).
+To temporarily stop assigning sellers who are on vacation or otherwise unavailable, [change their availability in work assignment settings](./wa-work-assignment-manage-settings.md#stop-assigning-work-to-sellers).
 
 ### Set work hours in advanced settings
 

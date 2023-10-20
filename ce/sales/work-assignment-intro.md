@@ -45,7 +45,7 @@ Work assignment automation is built around three components: *segments*, *sequen
 
   For instance, you might have a rule that assigns all leads from trade shows in the UK to your London sales team.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## Next step
 

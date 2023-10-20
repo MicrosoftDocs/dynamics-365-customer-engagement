@@ -111,7 +111,7 @@ If you assign the records to a sales team, this section isn't shown because the 
 
     - If no seller is available within that time, the record is [left unassigned and marked overdue](wa-manage-unassigned-records.md).
 
-1. (Optional) To consider the [maximum number of records that a seller can handle](wa-work-assignment-manage-settings.md#set-capacity-for-sellers) at a time, select **Assign leads based on seller capacity**.
+1. (Optional) To consider [a seller's workload](./wa-manage-seller-attributes.md), select **Assign leads based on seller capacity**.
 
 1. Select **Save** to create and activate the rule.
 
