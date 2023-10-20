@@ -1,5 +1,5 @@
 ---
-title: Manage customer service historical analytics reports
+title: Manage historical analytics reports in Customer Service
 description: Enable and configure Customer Service historical analytics reports to provide service managers with BI and AI insights.
 ms.date: 10/20/2023
 ms.topic: article
