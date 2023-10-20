@@ -42,6 +42,8 @@ Perform the following steps to map the custom fields to fields in Customer Servi
    - Select **Save and Close**.
 3. Select **Save**.
 
+ :::image type="content" source="media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="media/copilot-data-attributes.png":::|
+
 ## Modify fields to generate summaries
 
 Copilot uses the following fields to generate conversation summaries:
@@ -54,4 +56,4 @@ Copilot uses the following fields to generate conversation summaries:
 - Product
 - Priority
 
-In Customer Service admin center, navigate to **Summaries** in and perform the steps in the previous section to map custom fields to the out-of-the-box fields for Copilot to generate summaries based on custom fields.
+In Customer Service admin center, navigate to **Summaries** and perform the steps in the Modify the fields used to draft emails section to modify the source fields that Copilot uses to generate summaries.
