@@ -38,10 +38,10 @@ Perform the following steps to map the custom fields to fields in Customer Servi
     > [!NOTE]
     > Copilot considers case notes and email content to draft emails irrespective of your attribute selection.
    1. To modify the default attributes, perform the following steps: 
-       -  Specify the **Source Table**. Set the source table to the case table or any other table that has a relationship with the case table. For example, for **Customer Contact** attribute instead of **Case** and **Contact** you can specify **Account** as the source table and **Account Name** as the column. When Copilot drafts an email, it uses the value in the **Account Name** column of the **Account** table as the customer contact.
+      - Specify the **Source Table**. Set the source table to the case table or any other table that has a relationship with the case table. For example, for **Customer Contact** attribute instead of **Case** and **Contact** you can specify **Account** as the source table and **Account Name** as the column. When Copilot drafts an email, it uses the value in the **Account Name** column of the **Account** table as the customer contact.
       - Specify a column from that you'd like Copilot to use from the **Source Table**.
    1. Select **Save and Close**.
-3. Select **Save**.
+1. Select **Save**.
 
  :::image type="content" source="media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="media/copilot-data-attributes.png":::|
 
