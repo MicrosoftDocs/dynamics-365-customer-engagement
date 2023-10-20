@@ -27,20 +27,19 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
     - Fixed Time: Books the resource regardless of working hours for the time frame you define when creating the booking.
 
     > [!NOTE]
-    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information about Allocation methods see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods)
+    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information, see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 4. Select **Book** and the system creates multiple bookings across multiple days.
 
-## Create and edit requirement details with Specify Pattern
-The **Specify Pattern** control can be used to control how a long-running requirement will be broken down into bookings when it is scheduled. It allows users to customize these requirement details beyond the stock allocation methods. 
+## Create and edit patterns for requirements
+
+Use the **Specify Pattern** control to define how to split a long-running requirement into individual bookings when it's scheduled. It allows users to customize these requirement details beyond the default allocation methods. 
 
 There are two ways to create a new requirement view. The first is to click the **Add detail** button on the top ribbon. This will open the Add detail panel where you will choose which requirement and select a duration and start and end times for the time window. For example, if the time window is from 9am to 5pm for a detail for with a 3-hour duration, when it is time to schedule, a resource will be booked for 3 hours any time between 9am and 5pm. Note that the duration must be shorter than the time window. Alternatively, while in Daily view, you can click and drag directly on the grid to create a new detail and then manually specify the duration. In either method, click **Apply** to save the detail. 
 
 To edit an existing single detail, click it to open the **Edit detail** panel. Here you can change the duration or time window and click **Apply** to save the changes. To edit multiple details at once, select the requirement and then click **Edit all within range** on the right-hand details panel. This will open the **Edit details** panel. Under **Duration summary**, each date range that has at least one detail will be listed, and the duration allocated can be adjusted. The date ranges displayed are based on the time granularity of the current view (i.e. Daily, Weekly, Monthly). Use the settings under **Duration allocation** to control how these changes in durations are distributed across multiple details. You can also right click on a date to edit its component details. 
 
 To delete a detail, select the detail from the calendar and click the **Delete** button or right click on the detail and select Delete. 
-
-
 
 ## Schedule a multi-day requirement with the schedule assistant
 
