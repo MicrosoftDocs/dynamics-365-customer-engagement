@@ -27407,6 +27407,31 @@
       "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/share-schedule-board-tab.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
+      "redirect_document_id": "false"
     }
   ]
 }
