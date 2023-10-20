@@ -1036,7 +1036,7 @@
         href: copilot-data-movement.md
     - name: Agent experience
       items: 
-      - name: Use Copilot to solve customer issues (preview)
+      - name: Use Copilot to solve customer issues
         href: use-copilot-features.md
       - name: Summarize cases
         href: copilot-use-summary.md#summarize-cases
