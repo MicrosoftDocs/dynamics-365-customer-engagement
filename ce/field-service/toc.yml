@@ -185,29 +185,23 @@ items:
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
-  - name: Administration and configuration
+  - name: Schedule board
     items:
-      - name: Enable an entity for scheduling
-        href: schedule-new-entity.md
-      - name: Geocoding for travel time
-        href: turn-on-auto-geocoding.md
-      - name: Booking statuses
-        href: set-up-booking-statuses.md
-      - name: Booking timestamps + journals
-        href: booking-timestamps.md
-      - name: Include appointments in scheduling
-        href: appointment-scheduling.md
-      - name: Fulfillment preferences
-        href: set-up-time-groups.md
-      - name: Booking rules
-        href: set-up-booking-rules.md
-      - name: Edit work hours calendar with APIs
-        href: field-service-work-hours-calendar-api.md
-      - name: Analytics dashboard
-        href: scheduling-analytics-reports.md
-      - name: Scheduling parameters (Settings)
-        href: scheduling-parameters-settings.md
-  - name: Scheduling
+      - name: Use the schedule board
+        href: work-with-schedule-board.md
+      - name: Configure schedule board settings
+        href: schedule-board-tab-settings.md
+      - name: Manage booking alerts
+        href: booking-alert.md
+      - name: Review resource utilization
+        href: schedule-board-utilization.md
+      - name: Customize the schedule board
+        items:
+        - name: Use custom fields on the schedule board
+          href: extend-schedule-board-custom-resource-attribute.md
+        - name: Create custom booking templates
+          href: booking-template.md
+  - name: Scheduling assistant
     items:
       - name: Schedule assistant overview
         href: schedule-assistant.md
@@ -233,24 +227,28 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
-      - name: Schedule board
-        items:
-          - name: Configure the schedule board
-            href: configure-schedule-board.md
-          - name: Share schedule board tabs
-            href: share-schedule-board-tab.md
-          - name: Utilization
-            href: schedule-board-utilization.md
-          - name: Schedule board custom resource attribute
-            href: extend-schedule-board-custom-resource-attribute.md
-          - name: Edit booking templates
-            href: booking-template.md
-          - name: Booking alerts
-            href: booking-alert.md
-          - name: Schedule board tab settings
-            href: schedule-board-tab-settings.md
-          - name: Next-generation schedule board experience
-            href: preview-schedule-board.md
+  - name: Administration and configuration
+    items:
+      - name: Enable an entity for scheduling
+        href: schedule-new-entity.md
+      - name: Geocoding for travel time
+        href: turn-on-auto-geocoding.md
+      - name: Booking statuses
+        href: set-up-booking-statuses.md
+      - name: Booking timestamps + journals
+        href: booking-timestamps.md
+      - name: Include appointments in scheduling
+        href: appointment-scheduling.md
+      - name: Fulfillment preferences
+        href: set-up-time-groups.md
+      - name: Booking rules
+        href: set-up-booking-rules.md
+      - name: Edit work hours calendar with APIs
+        href: field-service-work-hours-calendar-api.md
+      - name: Analytics dashboard
+        href: scheduling-analytics-reports.md
+      - name: Scheduling parameters (Settings)
+        href: scheduling-parameters-settings.md
 
 - name: Mobile app
   items:
