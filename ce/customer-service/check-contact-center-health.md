@@ -12,36 +12,36 @@ ms.custom: bap-template
 
 # Check your contact center health
 
-As administrators, you can use the integrated health checker to identify any errors, warnings, and then recommended best practices in your configuration. You will receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations are maintained at optimal levels. 
+As administrators, you can use the integrated health checker to identify any errors, warnings, and then recommended best practices in your configuration. You'll receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations operate at optimal levels. 
 
 ## Prerequisites
 
-You must have the systen administrator role.
+You must have the System Administrator role.
 
 
 ## Run a check
 
 Do the following steps to check for configuration errors and incomplete configurations in your Customer Service environment.
 
-1. In Dynamics 365, go to Customer Service admin center. The **Home** page displays the **Contact center health** section.
+1. Sign into Customer Service admin center. The **Home** page displays the **Contact center health** section.
 1. Select **Run health** check. Depending on the size of your contact center and the various features that you have configured, the check takes a couple of minutes to run and display the results.
 
-After the check is complete, the page displays the results in three categories with the number of occurrences as follows:
+   After the check is complete, the page displays the results in three categories with the number of occurrences as follows:
 
-- Errors
-- Warnings
-- Suggestions
+    - Errors
+    - Warnings
+    - Suggestions
 
-   :::image type="content" source="media/contact-center-health-check.png" alt-text="A screenshot of  the page after the health check runs.":::
+     :::image type="content" source="media/contact-center-health-check.png" alt-text="A screenshot of  the page after the health check runs.":::
 
 1. Expand a category to see the problems and then select the link to a problematic setting. The setting opens on a new tab for you to take action on it.
-1. Optionally, after you resolve all the issues in the configuration, run the health check again till you see zero occurrences.
+1. Optionally, after you resolve all the issues in the configuration, run the health check again until you see zero occurrences of errors and warnings.
 
 ### Health check rules
 
-The rules used in the health check and their descriptions are as follows. 
+Some of the rules used in the health check and their descriptions are as follows. 
 
-| Category | Problem: Description | Solution displayed by the health checker |
+| Category | Problem: Description | Recommendation displayed by the health checker |
 |----------|---------------------|--------------------|
 | Error | Automatic record creation or update didn't work: To review issues with automatic record creation and update rules, visit the activity monitor dashboard. | Link to the activity monitor. |
 | Error | SLA compliance risks and failures aren't being monitored: Agents aren't being informed about SLA compliance failures or risks. To resume compliance monitoring, restart the SLAInstanceMonitoringWarningAndExpiryFlow cloud flow solution within Power Automate.  | Link to Power Automate flow. |
