@@ -1,6 +1,6 @@
-The schedule assistant is a semi-automated feature that helps dispatchers assign requirements to ideal resources.
+The schedule assistant helps dispatchers assign requirements to ideal resources.
 
-The schedule assistant recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
+It recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
 
 When the dispatcher identifies the right resource for the job, they book the resource.
 
