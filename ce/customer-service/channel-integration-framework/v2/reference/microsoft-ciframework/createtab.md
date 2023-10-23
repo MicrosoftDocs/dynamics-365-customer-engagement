@@ -39,7 +39,7 @@ The structure of the `input` parameter JSON is as follows:
     //additional context for tab creation and tab slugs
     // type = JSON Object
     templateParameters?:<>
-    //should this tab be focused after creation
+    //should this tab be focused after the creation
     // type=boolean
     isFocused?: <true or false>;
 }
