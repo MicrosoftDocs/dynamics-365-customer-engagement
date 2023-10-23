@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
 description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles in Omnichannel for Customer Service.
-ms.date: 10/01/2023
+ms.date: 10/23/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -92,7 +92,7 @@ The configuration updates take 15 minutes to sync.
 
 You can customize the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard to see the custom limits.
 
-### How custom limit works for agents
+### How agent-specific limits work
 
 Typically, the work assignment takes place according to the individual agent's default work item limit in the capacity profiles.
 
@@ -108,7 +108,7 @@ An example of the custom limit is as follows:
 
 Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Café A 100 machine. Henry, who has joined Contoso recently, is learning the nuances of Café A 100 machine. Eugene, the admin at Contoso has configured a capacity profile for “Return orders” with a default limit of two conversations per day. Eugene assigns the “Return orders” profile with the default limit to Henry. Eugene allocates a custom limit of five to Ana in the “Return orders” profile. Ana will receive maximum of five conversations per day from the “Return orders” profile while Henry will receive a maximum of two conversations only in a day for the same profile.
 
-### Update custom limits using OData
+### Update work limits using OData
 
 Use an OData call to update the custom limits by specifying a value for the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
 
