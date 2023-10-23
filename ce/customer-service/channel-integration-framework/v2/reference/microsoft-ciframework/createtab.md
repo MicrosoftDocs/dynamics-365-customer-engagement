@@ -36,9 +36,11 @@ The structure of the `input` parameter JSON is as follows:
     //Unique name of the tab 
     // type = string
     templateName: <unique name of the tab template>;
+
     //additional context for tab creation and tab slugs
     // type = JSON Object
     templateParameters?:<>
+    
     //should this tab be focused after the creation
     // type=boolean
     isFocused?: <true or false>;
