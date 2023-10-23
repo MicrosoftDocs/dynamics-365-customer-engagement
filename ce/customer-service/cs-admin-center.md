@@ -1,12 +1,12 @@
 ---
 title: Customer Service admin center
-description: Get started with Customer Service admin center.
+description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
 ms.date: 06/16/2023
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer:
 ms.custom: bap-template
 ---
 
@@ -131,3 +131,4 @@ See the [FAQ about Customer Service admin center](faq-customer-service-admin-cen
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
 [Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  
+[Check your contact center health](check-contact-center-health.md)  

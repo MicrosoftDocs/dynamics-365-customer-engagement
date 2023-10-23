@@ -6,13 +6,13 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 09/14/2023
+ms.date: 10/23/2023
 ms.custom: bap-template
 ---
 
 # Check your contact center health
 
-As administrators, you can use the integrated health check to identify any errors, warnings, and recommended best practices in your configuration. You will receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations are maintained at optimal levels. 
+As administrators, you can use the integrated health checker to identify any errors, warnings, and then recommended best practices in your configuration. You will receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations are maintained at optimal levels. 
 
 ## Prerequisites
 
@@ -56,5 +56,6 @@ The rules used in the health check and their descriptions are as follows.
 
 [Create queues in unified routing](queues-omnichannel.md)  
 [Create records automatically](automatically-create-update-records.md)  
+[Use Customer Service admin center](cs-admin-center.md)  
 
 
