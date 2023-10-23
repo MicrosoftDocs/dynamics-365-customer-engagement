@@ -15,7 +15,7 @@ ms.collection:
 You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
 - Capacity management helps administrators create various capacity profiles and associate users with matching profiles. You can assign multiple capacity profiles to users.
-- The administrator can block assignment of extra work to the agents when they're working on certain channels, such as phone calls.
+- The administrator can block the assignment of extra work to the agents when they're working on certain channels, such as phone calls.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
 - In the assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
 - We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
@@ -88,7 +88,7 @@ To set the custom limits, do the following steps:
 1. Inform the affected agents to refresh their browser to update their presence. The system assigns the work items based on the agents updated capacity and presence.
 1. To reset the custom limit, set the custom limit field to empty and save the changes.
 
-The configuration updates take 15 minutes to sync.
+The configuration updates can take up to 15 minutes to sync.
 
 You can customize the [Agents report](realtime-agents-analytics.md) in the Omnichannel real-time analytics dashboard to see the custom limits.
 
