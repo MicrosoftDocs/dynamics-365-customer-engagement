@@ -59,11 +59,11 @@ For each lifecycle stage of the work order, we also include additional informati
 
 If there are errors or service limitations, the system returns an error message instead of a recap summary.
 
-## Work order recap with Copilot for Field Service Mobile
+## Work order recap with Copilot on the mobile app
 
 Work order recap for frontline workers provides valuable contextual information about the scheduled work. Users of the mobile app can generated a recap on the mobile device and regenerate it with refreshed content at different points of the work order lifecycle.
 
-To enable the work order recap feature on Field Service Mobile, ask an admin to go to **Settings** > **Preview features** in the Field Service Mobile app module and turn on **Copilot Recap for Mobile Preview**.
+To enable the work order recap feature on the mobile app, ask an admin to go to **Settings** > **Preview features** in the Field Service Mobile app module and turn on **Copilot Recap for Mobile Preview**.
 
 When the feature is enabled, the Copilot control gets added to the *Bookable Resource Booking* form. You can use the control on the *Bookable Resource Booking* or *Work Order* form. You can't add it to the other forms currently.
 
