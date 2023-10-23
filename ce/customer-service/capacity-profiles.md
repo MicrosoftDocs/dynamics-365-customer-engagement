@@ -73,30 +73,30 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 ## Configure agent-specific work limits in capacity profiles<a name="custom-limits"></a>
 
-Agents in your contact center might need different work limits. You can allocate different quotas or concurrent conversation limits to agents through capacity profiles.
+Agents in your contact center might need different work item limits. You can allocate these limits to agents through capacity profiles.
 
-For selective agents, you can define work item limit that's different from the default limit by using the custom limit option in the capacity profiles.
+For selective agents, you can define a work item limit that's different from the default limit by using the custom limit option in the capacity profiles.
 
 To set the custom limits, do the following steps:
 
 1. In Customer Service admin center, select **User management** under **Customer support**, and on the page that appears, select **Manage** for **Enhanced user management**.
 1. In **Contact center users**, select the agents for whom you want to allocate a custom limit, and then select **Update user attributes** > **Update capacity profiles**.
-1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need,
+1. On the **Update Capacity profiles** pane, in **Capacity profiles**, select a profile, and in **Custom limit**, enter a value according to your business need.
 1. Select **Add to all**. The capacity profile with the custom limit is added to the users in the list. 
 1. Repeat the step 3 to update more profiles if you need to.
-1. Save and close. The custom limit is denoted with arrow icons so that you can visually differentiate among users with default and custom limits. 
+1. Save and close. The custom limit is denoted with an arrows icon to help visually differentiate among users with default and custom limits. 
 1. Inform the affected agents to refresh their browser to update their presence. The system assigns the work items based on the agents updated capacity and presence.
 1. To reset the custom limit, set the custom limit field to empty and save the changes.
 
 The configuration updates take 15 minutes to sync.
 
-You can customize the [Agents report](realtime-agents-analytics.md) in Omnichannel real-time analytics dashboard to see the custom limits.
+You can customize the [Agents report](realtime-agents-analytics.md) in the Omnichannel real-time analytics dashboard to see the custom limits.
 
 ### How agent-specific limits work
 
 Typically, the work assignment takes place according to the individual agent's default work item limit in the capacity profiles.
 
-When you configure a custom limit for agents in a capacity profile, then agents are assigned work items according to the custom limit. More details are as follows:
+However, if you configure custom limits through capacity profiles, then agents receive work items according to the custom limit. More details are as follows:
 
 - The custom limit might be lower or higher than the default limit and remains applicable for the selected agents until you manually reset it to the default limit.
 
@@ -110,7 +110,7 @@ Ana, an agent at Contoso Coffee, is an expert in handling Return queries for Caf
 
 ### Update work limits using OData
 
-Use an OData call to update the custom limits by specifying a value for the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
+Alternatively, you can use an OData call to update the custom limits by specifying a value for the msdyn_maxunits field in the msdyn_bookableresourcecapacityprofile entity. To reset the custom limit, specify the value as null for the msdyn_maxunits field.
 
 A sample code block to update the custom limit as 5 is as follows.  
 
