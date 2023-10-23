@@ -1,7 +1,7 @@
 ---
 title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
 description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 10/17/2023
+ms.date: 10/23/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
