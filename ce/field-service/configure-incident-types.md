@@ -315,9 +315,4 @@ When using incidents with **Agreements**, the incidents and related items are ad
 
 Only one work order incident can be the primary incident. It's either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called *Is Primary* that can be used for business logic.
 
-### Advanced scenarios
-
-- By default, work order service tasks have a field called **% Complete** that field technicians can use to record their progress completing each service task. It's common to replace this field or add another yes-or-no field. You can use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all tasks are complete.
-- Correlating incident types with IoT alerts generated from Connected Field Service can streamline issues and resolutions and improve the organization's first-time fix rate.
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
