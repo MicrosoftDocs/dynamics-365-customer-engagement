@@ -1,7 +1,7 @@
 ---
-title: Customer Service admin center
+title: Customer Service admin center (contains video)
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
-ms.date: 06/16/2023
+ms.date: 10/24/2023
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
@@ -32,8 +32,8 @@ The enhancements include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0]
+
 ## Prerequisites
 
 You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
