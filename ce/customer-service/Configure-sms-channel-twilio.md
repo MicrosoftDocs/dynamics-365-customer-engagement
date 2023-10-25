@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
-ms.date: 03/08/2023
+ms.date: 10/25/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -130,7 +130,7 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-The information in this section is not applicable if you are using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
+The information in this section isn't applicable if you are using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
 
@@ -157,7 +157,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
-    - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
+    - **SMS number language**: The preferred language that's used when you configure automated messages on the **Automated messages** tab. 
     - **Type**: Select **Long code**, **Short code**, or **Toll free**.
     - **Description**: Specify a description for the number. (Optional) 
     - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
