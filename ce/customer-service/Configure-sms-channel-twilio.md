@@ -44,7 +44,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 ## Set up the SMS channel for Twilio
 
-To configure the SMS channel, you'll do the following tasks:
+To configure the SMS channel, complete the following tasks:
 - Configure the SMS number
 - Configure the workstream for the SMS channel
 
@@ -73,7 +73,7 @@ To configure the SMS channel, you'll do the following tasks:
       - **Number:** Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
       - **Type**: Select **Long code**, **Short code**, or **Toll free**.
       - **Description**: Specify a description for the number. (Optional)
-   4. In **Callback information**, copy the callback information. You'll use the copied information for the Twilio account.
+   4. In **Callback information**, copy the callback information. The copied information is used for the Twilio account.
    5. Select **Done**. The account is configured.
 
 ### Configure the workstream for the SMS channel
