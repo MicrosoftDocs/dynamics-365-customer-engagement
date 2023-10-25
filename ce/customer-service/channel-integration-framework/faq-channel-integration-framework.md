@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 10/16/2023
+ms.date: 10/25/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -80,7 +80,7 @@ No. Dynamics 365 Channel Integration Framework APIs are specifically designed fo
 
 ### Does Dynamics 365 Channel Integration Framework automatically determine the active channel provider?
 
-Dynamics 365 Channel Integration Framework don't have the capability to create sessions associated with specific channel providers and can't determine active channel provider automatically. Dynamics 365 Channel Integration Framework API shouldn't be used without an associated channel provider.
+Dynamics 365 Channel Integration Framework doesn't have the capability to create sessions associated with specific channel providers and can't determine active channel providers automatically. Dynamics 365 Channel Integration Framework API shouldn't be used without an associated channel provider.
 
 ## Dynamics 365 Channel Integration Framework 2.0
 
