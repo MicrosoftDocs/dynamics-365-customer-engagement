@@ -15,21 +15,27 @@ ms.custom:
   - ai-gen-title
 ---
 
+<!-- In line 58, I'm confused about step 6 telling us to do something in step 3. Can we remove the "In step 3" part of the sentence? Also, in line 64, is "currentstate eq 3" correct? -->
+
+
+
 # Create a new case when email subject changes
 
-When the email subject on a replied email changes, it doesn’t create a new case in Dynamics 365. Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
+When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior happens because the InReplyTo value of the reply email matches the messageID of the previous email that’s already in Dynamics 365. This creates an email correlation, and the case associated with the previous email is linked with the reply email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
 
-When a customer replies to an email after modifying or removing the content in the subject, a new case isn't created in Dynamics 365. This behavior happens because the InReplyTo value of the replied email matches with the messageID of the previous email that’s already in Dynamics 365. An email correlation is created, and the case associated with the previous email is linked with the replied email. As a result, the automatic record creation and update rule skips the case creation, even if the subject changes.
+Administrators can use regex expressions to define whether a new case should be created when the email subject changes on a reply or a forwarded email that has a related active or resolved case.
 
-This topic describes the customization steps that you can perform to create a new case when email subject changes.
+This topic describes the customization steps that you can perform to create a new case when an email subject changes.
 
 ## Prerequisites
 
-Make sure to enable [“Skipped” and “Ready for Power automate” monitored options for activity monitor](manage-activity-arc.md) in the Customer Service admin center app.
+Make sure to enable the **Skipped** and **Ready for Power Automate** monitored options for the activity monitor in the Customer Service admin center app. More information: [Use activity monitor to review and track rules](manage-activity-arc.md)
 
 ## How it works
 
-A new default Boolean field, named correlatedsubjectchanged, is available for the email entity. The field is populated as true or false for inreplyto-correlated emails, and detects changes in the subject field of the email. A default regex is available that ignores the prefixes "Re: ", "re: ", or "RE: " in the replied email, and then compares the subject with the correlated email’s subject. If the subject matches, the boolean value, correlatedsubjectchanged, is set to false. However, the default regex doesn’t ignore the prefixes “Fw: “, “FW: “, or “FWD: in the forwarded email, so the boolean value, correlatedsubjectchanged, is set to true in these cases, and if an email is forwarded, a new case is created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. For more information, go to: [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool and follow the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
+A new default Boolean field, named correlatedsubjectchanged, is available for the email entity. The field is populated as true or false for inreplyto-correlated emails, and detects changes in the subject field of the email. A default regex is available that ignores the prefixes **Re:**, **re:**, or **RE:** in the email response, and then compares the subject with the correlated email’s subject. If the subject matches, the Boolean value, correlatedsubjectchanged, is set to false. 
+
+However, the default regex doesn’t ignore the prefixes **Fw:**, **FW:**, or **FWD:** in the forwarded email, so the Boolean value, correlatedsubjectchanged, is set to true in these cases, and if an email is forwarded, a new case is created. You can customize the default regex if it doesn't match your requirements. You can write regex expressions for multiple languages. For more information, go to [Regular Expression Language - Quick Reference](/dotnet/standard/base-types/regular-expression-language-quick-reference). To edit the regex, use the OrgDbOrgSetting tool and follow the [guidance](https://github.com/seanmcne/OrgDbOrgSettings).
 
 ## Customization steps to create a new case
 
@@ -41,19 +47,22 @@ To define whether automatic record creation and update rules must create a new c
 
     If using custom roles, the owner of the flow must have read/write/delete privileges to the activity monitor entity. The CSR manager and system administrator roles have the required privileges by default.
 
-1. Name to flow, and then select the **When a row is added, modified or deleted** trigger.
+1. Name the flow, and then select the **When a row is added, modified or deleted** trigger.
 
 1. Select **Create**.
 
 1. Create a custom flow that is triggered when case creation is skipped for an email and there's an entry in the activity monitor table with the **Skipped** state.
 
 1. Check for the email subject change within the flow and execute automatic record creation and update rules child flow to create the case.
+    
     1. On step 3, select the following values for the fields:
+        
         - Change type: **Added**
         - Table name: **Activity monitors**
         - Scope: **Organizations**
         - Run as: **Modifying user**
         - Filter rows: The reason can be adjusted according to your business requirements. For example, currentstate eq 3 refers to the **Skipped** activity monitor state, and the reason can be any of the following:
+            
             - An existing entity is already connected with this record.
             - An active case is already connected with this record.
             - A resolved case is already connected with this record.
@@ -61,7 +70,7 @@ To define whether automatic record creation and update rules must create a new c
 
     1. Retrieve the email record. Enter **RowID** as **Monitored activity item (Value)**.
     
-    1. Add a conditional check to verify whether the correlatedsubjectchanged attribute is set to true and proceed only if yes; otherwise, terminate. If you have complex conditional logic, we recommend that you write your logic in an unbound custom action that gives certain simple structured output, such as Boolean. Check the Boolean value and define case creation based on condition.
+    1. Add a conditional check to verify whether the correlatedsubjectchanged attribute is set to true and proceed only if yes; otherwise, cancel. If you have complex conditional logic, we recommend that you write your logic in an unbound custom action that gives certain simple structured output, such as Boolean. Check the Boolean value and define case creation based on condition.
     
     1. Update the activity monitor status. If the correlatedsubjectchanged attribute is set to true from step 6c (subject doesn't match), update the current state of that activity monitor ID to **Ready for Power Automate**, and then set the **Reason** to **blank**.
     
