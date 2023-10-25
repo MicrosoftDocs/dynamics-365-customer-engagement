@@ -116,7 +116,7 @@ Perform the following steps to configure the URL in Twilio for the SMS messages 
 
 ### Incoming text messages
 
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service. Then Twilio pushes it to Omnichannel for Customer Service by using the callback URL. After this, the message is routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service. Then Twilio pushes it to Omnichannel for Customer Service by using the callback URL. The message is then routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
 
 ### Outgoing text messages
 
@@ -130,7 +130,7 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-The information in this section isn't applicable if you are using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
+The information in this section isn't applicable if you're using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
 
