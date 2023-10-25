@@ -116,7 +116,7 @@ Perform the following steps to configure the URL in Twilio for the SMS messages 
 
 ### Incoming text messages
 
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service and then pushed by Twilio to Omnichannel for Customer Service by using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service. Then Twilio pushes it to Omnichannel for Customer Service by using the callback URL. After this, the message is routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
 
 ### Outgoing text messages
 
