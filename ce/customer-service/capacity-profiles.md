@@ -73,7 +73,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 ## Configure agent-specific work limits in capacity profiles<a name="custom-limits"></a>
 
-Agents in your contact center might need different work item limits. You can allocate these limits to agents through capacity profiles.
+Agents in your contact center might need different work item limits for the work associated with the same capacity profile based on their experience and expertise. You can allocate different limits to agents through capacity profiles.
 
 For selective agents, you can define a work item limit that's different from the default limit by using the custom limit option in the capacity profiles.
 
