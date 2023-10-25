@@ -74,11 +74,11 @@ No, the Dynamics 365 Channel Integration Framework solution should not be bundle
 
 Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
 
-### Does Dynamics 365 Channel Integration Framework use for purposes other than integration with channel providers?
+### Can Dynamics 365 Channel Integration Framework APIs be used for customizations other than integration with channel providers?
 
-No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers. Customizations like customization on a form, ribbon control and more can't be used within Dynamics 365 Channel Integration Framework APIs.
+No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers. You can't use the APIs to customize forms, ribbons, and other elements.
 
-### How does Dynamics 365 Channel Integration Framework handle session creation and channel provider integration?
+### Does Dynamics 365 Channel Integration Framework automatically determine the active channel provider?
 
 Dynamics 365 Channel Integration Framework don't have the capability to create sessions associated with specific channel providers and can't determine active channel provider automatically. Dynamics 365 Channel Integration Framework API shouldn't be used without an associated channel provider.
 
