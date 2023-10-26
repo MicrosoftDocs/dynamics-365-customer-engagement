@@ -1,5 +1,5 @@
 ---
-title: Sales Copilot data and geographies
+title: Copilot data movement across geographies
 description: Learn why you need to opt in to allow Sales Copilot data to move outside of your default geography and how Azure OpenAI protects your data in transit.
 ms.service: dynamics-365-sales
 author: lavanyakr01
@@ -7,7 +7,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 09/21/2023
+ms.date: 10/26/2023
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
@@ -21,6 +21,10 @@ ms.custom:
 Although Sales Copilot is available in all geographic regions, it requires the Microsoft Azure OpenAI Service, which is available only in North America and Europe. If your Dynamics 365 environment is located in any other region, your data, including personal data or data that's used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
 
 You need to opt in to allow your data to move outside of your region to an Azure datacenter in North America or Europe. Data in environments that are located in Europe is processed in Europe only.
+> [!NOTE]
+> - If your environment is hosted in North America, users will use an Azure OpenAI endpoint in North America.
+> - If your environment is hosted in Europe, users will use an Azure OpenAI endpoint in Europe.
+> - If your environment is hosted anywhere else, users will use an Azure OpenAI endpoint outside of the region in which they are hosted.
 
 [Learn how Azure OpenAI protects your data](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
