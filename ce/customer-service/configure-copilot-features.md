@@ -1,18 +1,16 @@
 ---
-title: Enable Copilot features in Customer Service (preview)
+title: Enable Copilot features in Customer Service
 description: Learn how to enable the various Copilot features in Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 10/20/2023
 ms.custom: bap-template 
 ms.collection:
 ---
 
-# Manage Copilot features in Customer Service (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+# Manage Copilot features in Customer Service 
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
@@ -21,6 +19,9 @@ Enable the Copilot features for agents to use Copilot to:
 - Compose an email
 - Draft a chat response
 - Summarize a case and conversation
+
+> [!NOTE]
+> Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 ## License requirements
 
@@ -54,7 +55,7 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the [**Copilot help pane (preview)**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
 ## Record feedback
 
@@ -66,7 +67,7 @@ For agents to be able to use the copilot help pane and copilot summaries in Cust
 
 1. Go to [**Agent experience profiles**](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) in **Agent experience** > **Workspaces**.
 1. Select the required agent experience profile.
-1. In the **Productivity Pane**, select **Turn On** for **Copilot (preview)**.
+1. In the **Productivity Pane**, select **Turn On** for **Copilot**. The **Copilot AI features** section appears.
 1. In **Copilot AI features**, select the required features **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**, you want to enable for that profile.  
 
 ## Assign roles and privileges

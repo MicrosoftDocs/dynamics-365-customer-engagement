@@ -35,7 +35,7 @@ The focused view is a centralized place to view all your open records that have 
 >
 >- The **Focused view** option isn't displayed if a record is selected.
 >- Focused view is not available for the Activities entity.
->- The records display all active activities that are less than 120 day. 
+>- The records display all active activities that are created in the last 120 days. 
 
 ## Understand the focused view
 

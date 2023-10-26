@@ -1,24 +1,21 @@
 ---
-title: "Location auditing for the Dynamics 365 Field Service mobile app (contains video) | MicrosoftDocs"
-description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
+title: Location auditing for the mobile app
+description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
 ms.date: 10/18/2021
 ms.topic: article
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Location auditing for the Dynamics 365 Field Service mobile app
+# Location auditing for the mobile app
 
 Field technicians often travel to various locations throughout their work day, and it's helpful for schedulers to know where technicians are at any given time.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board in Field Service, showing a resource on the map.](./media/mobile-2020-location-auditing-schedule-board.png)
 
-Technicians using the Field Service (Dynamics 365) mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
+Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a technician's location history.
 
 In this article, we'll look at how to enable location tracking, and how to access location audits in Field Service.
 
@@ -98,6 +95,6 @@ Here you see a list of locations throughout the day, listed by user.
 > ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
 > [!Note]
-> Location tracking is currently not available on Field Service (Dynamics 365) Windows app.
+> Location tracking is currently not available on the Field Service Windows app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
