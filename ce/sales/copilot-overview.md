@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use copilot to get quick summaries of records, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 09/20/2023
+ms.date: 10/26/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -21,9 +21,9 @@ ms.reviewer: shujoshi
 
 Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and read the latest news about their accounts.
 
-Sales Copilot is turned on by default in all sales apps with lead and opportunity entities, for orgs in North America. If your org is in a different region, you need to [turn on copilot manually](enable-setup-copilot.md).
+Copilot is turned on by default in all sales apps with lead and opportunity entities, for orgs in North America. If your org is in a different region, you need to [turn on copilot manually](enable-setup-copilot.md).
 
-Sales Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
+Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
 ## Copilot capabilities
 
