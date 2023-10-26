@@ -1,26 +1,26 @@
 ---
-title: Field Service (Dynamics 365) mobile app overview (contains video)
-description: Learn about the Field Service (Dynamics 365) mobile app, key features, and system requirements with this general overview.
-ms.date: 08/02/2023
+title: Dynamics 365 Field Service mobile app overview (contains video)
+description: Learn about the Field Service mobile app, key features, and system requirements with this general overview.
+ms.date: 10/16/2023
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Field Service (Dynamics 365) mobile app overview
+# Dynamics 365 Field Service mobile app overview
 
-The Field Service (Dynamics 365) mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
+The Field Service mobile app enables technicians to view and update work orders, customer assets, accounts, and more on the go. The app is available for Windows 10+, Apple iOS, and Google Android devices at no extra charge.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs. It's included in your Field Service license.
 
-With the 2023 release wave 2, we're releasing a new user experience for mobile users. For more information, see [New UX for the Field Service (Dynamics 365) Mobile app (preview)](mobile-powerapp-newux-overview.md).
+With the 2023 release wave 2, we're releasing a new user experience for mobile users. For more information, see [New UX for the mobile app (preview)](mobile-powerapp-newux-overview.md).
 
 ## Feature list
 
-| Feature | Category | Field Service (Dynamics 365) mobile app |  Details |
+| Feature | Category | Available on the mobile app |  Details |
 | --- | --- | --- |  --- |
 | [Camera capture (photo + video)](get-work-done-mobile-app.md#take-notes-with-attachments) | Technician | Yes |  Use the device camera to capture images and video. |
 | [Barcode scanning](get-work-done-mobile-app.md#barcode-scanning) | Technician | Yes |  Scan bar code from global search or at a field level. |
@@ -56,7 +56,7 @@ The mobile app is available after [updating your environment](update-field-servi
 
 ### Supported mobile devices
 
-Field Service (Dynamics 365) mobile app is available for iOS, Android, and Windows platforms.
+The mobile app is available for iOS, Android, and Windows platforms.
 
 To provide the best experience for mobile app users, we recommend using modern devices with high [CPU Benchmark scores on Geekbench](https://browser.geekbench.com/v5/cpu/singlecore).
 
@@ -89,13 +89,10 @@ The required storage size depends on the [mobile offline profile](mobile-power-a
 | Minimum |	10 17763.0 or later |	6 GB |	64 GB	| 
 | Recommended| 10 19042.1348 or later |	8 GB	| 128 GB	|
 
-> [!NOTE]
-> An important consideration before deploying the Field Service (Dynamics 365) mobile app is the hardware specification of the device used, such as memory and processor. Modifying the app with enhancements such as custom configurations and offline JavaScript may place additional requirements on system memory and processor. External factors, like other applications running on the device may also affect app performance.
-
 ## Next steps
 
-- [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md)
+- [Install and set up the mobile app](mobile-power-app-get-started.md)
 - [Set up offline data and sync filters](mobile-power-app-system-offline.md)
-- [Field Service (Dynamics 365) app for Windows 10+ devices](mobile-powerapp-windows.md)
+- [Dynamics 365 Field Service app for Windows 10+ devices](mobile-powerapp-windows.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

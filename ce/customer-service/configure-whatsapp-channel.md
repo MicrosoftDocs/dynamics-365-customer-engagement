@@ -1,7 +1,7 @@
 ---
 title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
 description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 10/09/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,8 @@ The success of social media customer service, like all other customer service, d
 
 - Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
   > [!NOTE]
-  > To enable the Twilio channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+  > To enable the Twilio channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md). <br><br>
+  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
 - Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, see [Integrate a Twilio sandbox account with Omnichannel for Customer Service](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service)
 
@@ -29,7 +30,7 @@ The success of social media customer service, like all other customer service, d
 
 ## WhatsApp message types and 24-hour session rule
 
-- **Template messages:** Are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
+- **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
@@ -46,7 +47,7 @@ The success of social media customer service, like all other customer service, d
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save those safely. These two values are required to create a WhatsApp channel configuration in the Omnichannel Administration app.
+To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values safely because they're required to create a WhatsApp channel configuration in the Omnichannel Administration app.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
@@ -78,7 +79,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
       - **Name:** Specify a name.
       - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
     
-    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
+    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box to use for the Twilio account.
     
     5. Select **Done**. The account is added to the list.
 
@@ -184,7 +185,7 @@ To create a WhatsApp channel, follow these steps:
 2.	Open the out-of-the-box workstream or the one you created.
 3.	On the **Routing rules items** tab, you can create a routing rule to transfer the message to an appropriate agent. Select the entity as **WhatsApp Engagement Context**. For example, you can create a rule to transfer WhatsApp chat from a customer to the default queue.
 
-When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat, which can be used for routing.
+When you create conditions for routing rules, the **WhatsApp Engagement Context (Conversation)** entity enables you to set the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat, which can be used for routing.
 
 #### Modify settings for a specific WhatsApp phone number 
 
@@ -214,9 +215,9 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
 
     Select **New** to create a template and complete the following fields:
 
-    - **Name**: Label the group of messages that will go in this template.
+    - **Name**: Label the group of messages that go in this template.
     
-    - **Message trigger**: Select the event that will trigger the message to be sent.
+    - **Message trigger**: Select the event that triggers the message to be sent.
     
     - **Message description**: Give the message template a description.
     

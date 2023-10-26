@@ -12,7 +12,8 @@ ms.custom:
 ---
 
 # Versium Predict
-<a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict.")](https://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
+
+> [!VIDEO https://www.youtube.com/embed/HHCqtvwV8wA]
 
 Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
 
@@ -29,11 +30,12 @@ Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales
   Predict Versium is a preferred provider solution that your administrator can add from the Dynamics 365 admin center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
 ## Get started
- [Versium Predict home page](https://versium.com/predict)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=328957) [Versium Predict Setup Guide](https://predict-help.versium.com/wp-content/uploads/Versium-Predict-Setup-Guide-Microsoft-Dynamics-365.pdf)
+- [Versium Predict home page](https://versium.com/predict)
 
- [![Reader button](../versium-predict/media/reader-button.png "Reader button.")](https://go.microsoft.com/fwlink/p/?LinkId=328957)[Versium Predict User Guide](https://predict-help.versium.com/predict-for-dynamics-365-user-guide)
+- [Versium Predict Setup Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWASsk)
+
+- [Versium Predict User Guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE5aXeL)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
