@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio in Omnichannel for Customer Service.
-ms.date: 03/08/2023
+ms.date: 10/25/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,8 @@ Make sure that the following prerequisites are met:
     > To enable the SMS channel for Twilio in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 - A Twilio account with a phone number and subscription is available.
+    > [!NOTE]
+    > > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 - Permissions on the secure columns. More information: [Configure permissions to access secure columns](add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ### Get Twilio account details
@@ -42,7 +44,7 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 
 ## Set up the SMS channel for Twilio
 
-To configure the SMS channel, you'll do the following tasks:
+To configure the SMS channel, complete the following tasks:
 - Configure the SMS number
 - Configure the workstream for the SMS channel
 
@@ -71,7 +73,7 @@ To configure the SMS channel, you'll do the following tasks:
       - **Number:** Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
       - **Type**: Select **Long code**, **Short code**, or **Toll free**.
       - **Description**: Specify a description for the number. (Optional)
-   4. In **Callback information**, copy the callback information. You'll use the copied information for the Twilio account.
+   4. In **Callback information**, copy the callback information. The copied information is used for the Twilio account.
    5. Select **Done**. The account is configured.
 
 ### Configure the workstream for the SMS channel
@@ -114,7 +116,7 @@ Perform the following steps to configure the URL in Twilio for the SMS messages 
 
 ### Incoming text messages
 
-For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service and then pushed by Twilio to Omnichannel for Customer Service by using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the Twilio messaging service. Then Twilio pushes it to Omnichannel for Customer Service by using the callback URL. The message is then routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
 
 ### Outgoing text messages
 
@@ -128,7 +130,7 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-The information in this section is not applicable if you are using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
+The information in this section isn't applicable if you're using the new Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
 Perform the following steps to create a work stream for the SMS channel for Twilio:
 
@@ -155,7 +157,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 7. On the **SMS Numbers** tab, select **New SMS Number**, and then enter the following details:
 
     - **Number**: Specify the support phone number that you purchased from Twilio in the *<country_code><phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
-    - **SMS number language**: This is the preferred language that will be used when you configure automated messages on the **Automated messages** tab. 
+    - **SMS number language**: The preferred language that's used when you configure automated messages on the **Automated messages** tab. 
     - **Type**: Select **Long code**, **Short code**, or **Toll free**.
     - **Description**: Specify a description for the number. (Optional) 
     - **Operating Hours**: Specify the business hours when the customer support team is active and available to serve customers.
