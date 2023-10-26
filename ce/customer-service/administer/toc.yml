@@ -7,7 +7,7 @@
       - name: Welcome to Dynamics 365 Customer Service
         href: overview.md
       - name: Use Customer Service admin center
-        href: ../cs-admin-center?context=/dynamics365/context/administer
+        href: ../implement/cs-admin-center?context=/dynamics365/context/administer
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: User management
@@ -782,6 +782,8 @@
         href: cs-share-feedback.md
       - name: FAQ about Customer Service admin center
         href: faq-customer-service-admin-center.md
+      - name: FAQ about Omnichannel for Customer Service
+        href: faqs.md
     - name: Responsible AI
       items:
         - name: Overview

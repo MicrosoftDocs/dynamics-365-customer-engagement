@@ -8,6 +8,12 @@
         href: overview.md
       - name: Get started
         items:
+        - name: Try
+          items:
+          - name: Sign up for a free Customer Service trial
+            href: try-customer-service.md
+          - name: Customer Service trial FAQ
+            href: trial-faq.md
         - name: Customer Service workspace
           href: csw-overview.md
         - name: Customer Service Team Member
@@ -20,14 +26,6 @@
           href: introduction-omnichannel.md
         - name: Demo data for Chat for Dynamics 365 Customer Service
           href: chat-dynamics365-customer-service-demo-data.md
-        - name: FAQ about Omnichannel for Customer Service
-          href: faqs.md
-        - name: Try
-          items:
-          - name: Sign up for a free Customer Service trial
-            href: try-customer-service.md
-          - name: Customer Service trial FAQ
-            href: trial-faq.md
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: What's new
