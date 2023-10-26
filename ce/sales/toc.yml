@@ -165,11 +165,11 @@
       items:
       - name: Copilot overview
         href: copilot-overview.md
-      - name: Enable and configure Sales Copilot
+      - name: Enable and configure Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
-      - name: Sales Copilot data and geographies
+      - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
-      - name: Sales Copilot FAQ
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -738,7 +738,7 @@
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
-      - name: Sales Copilot FAQ
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -1385,9 +1385,9 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ about summarization in Sales Copilot
+    - name: FAQ about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
-    - name: FAQ about email in Sales Copilot
+    - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
