@@ -7,7 +7,7 @@
       - name: Welcome to Dynamics 365 Customer Service
         href: overview.md
       - name: Use Customer Service workspace
-        href: ../implement/csw-overview?context=/dynamics365/context/use
+        href: ../implement/cs-admin-center.md?context=/dynamics365/context/use
       - name: Use Customer Service Team Member
         href: ../implement/customer-service-team-member?context=/dynamics365/context/customer-service-use
       - name: Troubleshooting and FAQs
