@@ -4,6 +4,10 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
+      - name: Welcome to Dynamics 365 Customer Service
+        href: overview.md
+      - name: Use Customer Service workspace
+        href: ../customer-service/csw-overview?context=/dynamics365/context/implement
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: Unified routing and assignment
