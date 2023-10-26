@@ -9,7 +9,7 @@
       - name: Use Customer Service workspace
         href: ../implement/csw-overview?context=/dynamics365/context/use
       - name: Use Customer Service Team Member
-        href: ../implement/customer-service-team-member?context=/dynamics365/context/use
+        href: ../implement/customer-service-team-member?context=/dynamics365/context/customer-service-use
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: Unified routing and assignment
