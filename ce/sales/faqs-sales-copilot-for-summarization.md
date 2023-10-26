@@ -1,7 +1,7 @@
 ---
-title: FAQ about summarization in Sales Copilot
-description: Get answers to frequently asked questions about Sales Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
-ms.date: 07/18/2023
+title: FAQ about summarization in Copilot
+description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
+ms.date: 10/26/2023
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -15,13 +15,13 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# FAQ about summarization in Sales Copilot
+# FAQ about summarization in Copilot
 
-These frequently asked questions (FAQ) are intended to help you understand the impact of AI on the summarization feature in Sales Copilot.
+These frequently asked questions (FAQ) are intended to help you understand the impact of AI on the summarization feature in Copilot in Dynamics 365 Sales.
 
 ## What is summarization in Copilot?
 
- Summarization is an AI-powered feature of Sales Copilot that provides sellers with a quick summary of important information about their leads and opportunities in an easy-to-consume format. It uses large language models and natural language processing to analyze and condense information in Dynamics 365.
+Summarization is an AI-powered feature of Copilot in Dynamics 365 Sales that provides sellers with a quick summary of important information about their leads and opportunities in an easy-to-consume format. It uses large language models and natural language processing to analyze and condense information in Dynamics 365.
 
 ## What can summarization do?
 
