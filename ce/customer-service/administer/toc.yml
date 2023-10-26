@@ -7,7 +7,7 @@
       - name: Welcome to Dynamics 365 Customer Service
         href: overview.md
       - name: Use Customer Service admin center
-        href: ../implement/cs-admin-center?context=/context/administer
+        href: ../implement/cs-admin-center?context=/dynamics365/context/customer-service-administer-context
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: User management
