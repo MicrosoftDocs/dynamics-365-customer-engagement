@@ -19,7 +19,7 @@ ms.custom:
 
 Per your business requirement, you can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that the Copilot should use to generate responses.
 
-## Modify fields to generate case summaries
+## Modify the fields used to generate case summaries
 
 Copilot uses the following fields to generate case summaries:
 
@@ -59,4 +59,4 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 - Customer Contact
 - Subject
 
-In Customer Service admin center, navigate to **Copilot help pane** and perform the steps in the Modify the fields used to generate case summaries section to modify the source fields that Copilot uses to draft emails.
+In Customer Service admin center, navigate to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
