@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales/configure-sales-copilot.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
       "redirect_document_id": "false"
