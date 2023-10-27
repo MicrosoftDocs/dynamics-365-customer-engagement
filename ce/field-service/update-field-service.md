@@ -45,9 +45,9 @@ You can also manually update the app right after release.
 
 To find the version number of your Field Service app, look in the app details under Dynamics 365 apps in the Power Platform admin center.
 
-## Field Service (Dynamics 365) mobile app
+## Field Service mobile app
 
-We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for updates to Field Service (Dynamics 365) and [install the latest version](mobile-power-app-overview.md).
+We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for mobile app updates and [install the latest version](mobile-power-app-overview.md).
 
 ## Universal Resource Scheduling
 
@@ -72,6 +72,6 @@ For more information, see [Manage the Resource Scheduling Optimization instance]
 ## Next steps
 
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
-- [Use the Field Service (Dynamics 365) mobile app](mobile-power-app-use.md)
+- [Use the Field Service mobile app](mobile-power-app-use.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

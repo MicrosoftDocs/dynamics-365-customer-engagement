@@ -91,7 +91,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |  **Crew management section**    |                                                                                    |
 |  Default Crew Strategy  |   Select the crew strategy applied as a default to all [resource crews defined in the system](resource-crews.md). You can override the crew strategy for each resource crew independently.|
 |  **Mobile section**  |    |
-| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile application. Review the terms of use and confirm to enable the booking map. |
+| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile app module. Review the terms of use and confirm to enable the booking map. |
 
 ## RMA settings
 
