@@ -1,6 +1,6 @@
 ---
 title: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-description: How-to setup Nuance cloud IVR bot integration with voice channel
+description: How to set up Nuance Cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
@@ -17,9 +17,9 @@ Integrate the Nuance Cloud IVR bot with the voice channel using Azure Communicat
 ## Prerequisites
 
 - You must obtain an active subscription of **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
-- Nuance Professional Services must perform the steps in [Verify the domain ownership](/azure/communication-services/how-tos/telephony/domain-validation#verify-domain-ownership) to verify that the domain name is valid before connecting a Session Border Controller to Azure Communication Service. The Azure portal generates a value for the TXT record. Authorize the domain for the validation to succeed.<br>
+- Nuance Professional Services must perform the steps in [Verify the domain ownership](/azure/communication-services/how-tos/telephony/domain-validation#verify-domain-ownership) to confirm that the domain name is valid before connecting a Session Border Controller to Azure Communication Services. The Azure portal generates a value for the TXT record. Authorize the domain for the validation to succeed.<br>
 
- If you haven't added a domain, follow the steps in [Add the new domain name](/azure/communication-services/how-tos/telephony/domain-validation#add-new-domain-name). Enter staging.ivr.nuance.com or nuance.com as the domain.
+If you haven't added a domain, follow the steps in [Add a new domain name](/azure/communication-services/how-tos/telephony/domain-validation#add-new-domain-name). Enter staging.ivr.nuance.com or nuance.com as the domain.
 
 ## Connect Azure Communication Services to voice channel
 
@@ -35,28 +35,28 @@ Create an Azure Communication Services resource. See: [Quickstart: Create and ma
 
 ### Obtain a phone number
 
-Provision a phone number. See: [Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number).
+Provision a phone number. See: [Get and manage phone numbers](/azure/communication-services/quickstarts/telephony/get-phone-number)
 
 ### Enable Direct Routing
 
-Direct routing enables you to connect Nuance’s existing telephony infrastructure to Azure Communication Services. Perform the steps in the section below to connect a supported Nuance Session Border Controller (SBC) to Azure Communication Services to enable direct routing.
+Direct Routing lets you to connect Nuance’s existing telephony infrastructure to Azure Communication Services. Perform the steps in the section below to connect a supported Nuance Session Border Controller (SBC) to Azure Communication Services to enable Direct Routing.
 
 ### Configure a Session Border Controller
 
 1. Specify the **Fully Qualified Domain Name** of the SBC to be configured in Direct Routing. Follow the steps in [Adding a Session Border controller](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config#adding-a-session-border-controller) to ensure that messages are exchanged between Azure Communication Services and the configured SBC.
 1. Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to set up the voice routing rules.
 1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC with the following environment variables:
-   - `redirectNumber`: number that you want your incoming calls to be redirected to.
+   - `redirectNumber`: Number that you want your incoming calls to be redirected to.
    - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number.
    - `dialedNumber`: outbound number that your incoming calls are routed to.
-1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall` with your Azure function. You can perform one of the following actions:
+1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall`, with your Azure function. You can perform one of the following actions:
    - Through the Azure portal:
       - Select **Event** and then select **Create Event Subscription**.
       - Specify the following information on the Create Event Subscription page:
          - Name
          - Event Schema: Event Grid Schema
          - Filter to Event Types: **Incoming Call (Preview)**
-         - Endpoint Type: Azure Function and then specify the Azure Function you've created.
+         - Endpoint Type: Azure Function and then specify the function you've created.
    - Run the following armclient command at the prompt:
 
       `armclient put "/subscriptions/[your_azure_subscription_guid]/resourceGroups/[your_resource_group_name]/providers/Microsoft.Communication /CommunicationServices/[your_acs_resource_name]/providers/Microsoft.EventGrid/eventSubscriptions/[subscription_name]?api-version=2022-06-15" "{'properties': {'destination': {'endpointType': 'AzureFunction','properties': {'maxEventsPerBatch': '1','preferredBatchSizeInKilobytes': '64','resourceId': ' /subscriptions/ [your_azure_function_subscription_guid] /resourceGroups/[Your Azure Function RG Name]/providers/Microsoft.Web/sites/[Your AzureFunction name in Portal]/functions/[Your AzureFunction Name in your C# code]'}},'filter': {'includedEventTypes': ['Microsoft.Communication. IncomingCall']}}}" -verbose `
@@ -76,7 +76,7 @@ The Omnichannel administrator must perform the actions in the following sections
 
 ### Set up routing rules and configure rulesets
 
-Create a new work classification rule to classify the incoming call, match the call intent to the agents' skill, and route it to the appropriate queue and agent.
+Create a new work classification rule to classify the incoming call, match the call intent to the agents' skills, and route it to the appropriate queue and agent.
 
 1. In Customer Service admin center, select a workstream,  and follow the steps to [Configure work classification rulesets](configure-work-classification.md)
 1. In the **Conditions** area, select **Add related entity** and then select **External Context** from the **Many to One group**, and then select **Contains Data**. Specify the call intent.

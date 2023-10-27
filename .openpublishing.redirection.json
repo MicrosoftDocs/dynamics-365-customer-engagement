@@ -486,6 +486,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/set-custom-icon-custom-case-origin.md",
+      "redirect_url": "enable-case-grids#add-new-icons-for-origin-and-priority-columns",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
       "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
       "redirect_document_id": false
