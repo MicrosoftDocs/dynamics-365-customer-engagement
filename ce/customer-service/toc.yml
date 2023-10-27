@@ -1058,6 +1058,8 @@
       items:
       - name: Modify fields used to generate case summary and draft emails
         href: copilot-map-custom-fields.md 
+      - name: Configure copilot features for custom case forms and custom apps
+        href: copilot-powerapps-settings.md  
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
       - name: Enable Copilot features for custom apps

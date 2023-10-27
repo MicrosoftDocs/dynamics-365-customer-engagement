@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales/configure-sales-copilot.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/wa-view-details-segment.md",
       "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
       "redirect_document_id": "false"
@@ -484,6 +489,11 @@
       "source_path": "ce/customer-service/cs-email-template-builder.md",
       "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/set-custom-icon-custom-case-origin.md",
+      "redirect_url": "enable-case-grids#add-new-icons-for-origin-and-priority-columns",
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
