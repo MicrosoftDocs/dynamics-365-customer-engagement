@@ -24,7 +24,7 @@ For more information about licensing and system requirements, see [Customer Serv
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](../dynamics365/app-profile-manager/csw-enable-channels.md)
+You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](../../dynamics365/app-profile-manager/csw-enable-channels.md)
 
 :::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
 
@@ -75,7 +75,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](../dynamics365/app-profile-manager/overview.md)
+More information: [Agent experience profiles](../../dynamics365/app-profile-manager/overview.md)
 
 ## Considerations
 
