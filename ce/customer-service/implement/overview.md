@@ -41,7 +41,7 @@ Use Customer Service to:
 
 You can configure and manage the different capabilities in Customer Service by using any of the following apps based on the licensing module that you've purchased. While you can use any of the admin apps to set up the features in Customer Service, we recommend that you use the latest apps and centrally manage the features in a robust framework.
 
-- **Customer Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through the new app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](../cs-admin-center.md)
+- **Customer Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through the new app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](cs-admin-center.md)
 
   [!INCLUDE[cc-oc-admin-csh-deprecation.md](../../includes/cc-oc-admin-csh-deprecation.md)]
 
@@ -52,7 +52,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **Omnichannel Administration** (Deprecated): Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
   
   > [!NOTE]
-  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](../deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
 
 The following table provides the features that can be configured through the admin apps.
 
@@ -81,7 +81,7 @@ The following table provides the features that can be configured through the adm
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-|  Features | [Customer Service workspace](../csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](../introduction-omnichannel.md) | [Customer Service Hub](../user-guide-customer-service-hub.md) | [Customer Service Team Member](../customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](../introduction-omnichannel.md) | [Customer Service Hub](../user-guide-customer-service-hub.md) | [Customer Service Team Member](../customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
@@ -104,7 +104,7 @@ The following capabilities are available in the different app experiences, depen
 ## Available anywhere, on any device
 
 > [!NOTE]
-> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
+> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../ce/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
 
