@@ -68,59 +68,24 @@ Frontline workers are people in your organization who are primarily scheduled fo
   
 ## Add work hours  
 
-You can define working hours for each resource. If you don't change them, it uses the default working hours. Working hours are considered by:
+You can define work hours for each resource. If you don't change them, it uses the default work hours. The schedule board differentiates work hours and non-work hours with colors. The schedule assistant returns only resources that have capacity in their designated work hours.
 
-- The schedule board by displaying working and nonworking hours as different colors.
-- The schedule assistant by only displaying resources that are working in the results.
-- Resource Scheduling Optimization, which automatically books requirements to resources that are working. 
+1. Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **New** > **Working hours**.
 
-Let's walk through how to set up working hours.
+1. Set the start and end time of the resource's work hours and choose a repeat pattern. Use the *Custom* repeat patter for recurring working hours, where resources can have different working hours on different days of the week.
 
-In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the working hours, with emphasis on the repeat feature.](./media/resource-work-hours-new-hours.png "Screenshot of the working hours, with emphasis on the repeat feature.")
 
+1. Enable **Capacity** to define the number of times the resource can be booked during their work hours. For example, setting the capacity to *5* means that when booking a resource with the schedule assistant, the resource shows as available and can be overbooked up to the capacity limit (in this case, five times). It's set to *1* by default. Changing the value to *0* stops showing the resource as available in a resource search.
 
-Select **+New** > **Working hours**.
+1. **Add break** splits each working hours entry and adds a break of 30 minutes. **Add split** splits each working hours entry evenly into two working hours entries, so that each split entry can have a different capacity. The **Add split** option only shows when you enable **Capacity**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the new work hours dropdown.](./media/resource-work-hours-new-working-hours.png "Screenshot of the new work hours dropdown.")
+1. Set the time zone for the resource work hours to make sure the system uses them correctly.
 
-Choosing the beginning and end time of working hours, along with a repeat option such as *every day*.
+1. **Save** the work hours to update the work hours calendar.
 
-**Capacity** is the number of times the resource can be booked during that specific work hour. For example, setting the capacity to *5* means that when booking a resource with the schedule assistant, the resource will show as available and can be overbooked up to the capacity limit (in this case, five times). It's set to *1* by default. If this setting is set to *0*, the resource will never be shown as available in a resource search. 
-
-**Add break** splits each working hours entry and adds a break of 30 minutes. **Add split** splits each working hours entry evenly into two working hours entries, so that each split entry can have a different capacity. The **Add split** option is only shown when the **Capacity** button is enabled. 
-
-Once the working hours are entered as needed, be sure to **Save**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the working hours, with emphasis on the repeat feature.](./media/resource-work-hours-new-hours.png "Screenshot of the working hours, with emphasis on the repeat feature.")
-
-This will update the working hours calendar.
-
-You can edit or delete the working hours by double-clicking the time slot on the calendar. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of work hours on a bookable resource.](./media/resource-work-hours-new-edit.png "Screenshot of work hours on a bookable resource.") 
-
-> [!Note]
-> Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
-
-In Field Service versions **v8.8.40** or later, you can use a new custom input for recurring working hours, where resources can have different working hours on different days of the week, which will recur until a selected end day. You can add breaks or split the resource's work hours into different capacities, as needed.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource.](./media/Resource-Work-Hours-Custom.png "Screenshot of custom work hours on a bookable resource.")
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week.](./media/Resource-Work-Hours-Custom-01.png "Screenshot of custom work hours on a bookable resource with different work hours on different days of a week.")
-
-You can add breaks or split a resource's work hours into different capacities for each day of the week, as needed for your business. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png "Screenshot of custom work hours on a bookable resource with different capacity on a day.")
-
-Latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
-
-For more information on editing work hour calendars, see [editing work hours](field-service-work-hours-calendar-api.md)
+For more information about editing work hour calendars with code, see [Edit work hour calendars by using APIs](field-service-work-hours-calendar-api.md).
 
 ## Add characteristics, territories, and categories 
 
@@ -187,6 +152,9 @@ Setting to yes doesn’t mean requirements will automatically be scheduled to th
 ## Geolocate resources
 
 Work order locations are defined by the latitude and longitude of either the work order form, or the related service account. It's important to also geolocate resources.
+
+
+Latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
 Navigate to **Resource Scheduling** > **Resources**.
 
