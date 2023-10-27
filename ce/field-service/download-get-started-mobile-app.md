@@ -24,7 +24,7 @@ Download the app called **Field Service (Dynamics 365)**.
 
 ## Sign in
 
-Launch the app and sign in with your username and password for Field Service.  
+Launch the app and sign in with your username and password for Field Service. You can choose different **Region settings** if your app is not in the Azure global cloud.
 
 If you can't sign in, contact your organization's administrator. They may need to [set up users and security roles](view-user-accounts-security-roles.md).
 
