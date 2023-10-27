@@ -1,5 +1,5 @@
 ---
-title: Modify fields used to generate case summary and draft emails
+title: Manage fields Copilot uses for case summaries and emails
 
 description: Learn how to modify Copilot's default attributes to generate more accurate summaries and draft emails. 
 author: gandhamm 
@@ -15,7 +15,7 @@ ms.custom:
   - ai-seo-date:10/13/2023
 ---
 
-# Modify fields used to generate case summary and draft emails
+# Manage fields Copilot uses for case summaries and emails
 
 Per your business requirement, you can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that the Copilot should use to generate responses.
 
@@ -31,7 +31,7 @@ Copilot uses the following fields to generate case summaries:
 - Product
 - Priority
 
-Perform the following steps to map the custom fields to fields in Customer Service admin center:
+In Customer Service admin center, perform the following steps to map your preferred fields:
 
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries**
@@ -59,5 +59,3 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 - Subject
 
 In Customer Service admin center, navigate to **Copilot help pane** and perform the steps in the Modify the fields used to generate case summaries section to modify the source fields that Copilot uses to draft emails.
-
-
