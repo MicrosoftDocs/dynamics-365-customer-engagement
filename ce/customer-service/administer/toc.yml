@@ -7,7 +7,7 @@
       - name: Welcome to Dynamics 365 Customer Service
         href: overview.md
       - name: Use Customer Service admin center
-        href: ../implement/cs-admin-center.md?toc=/customer-service/administer/toc.yml&bc=/dynamics365/administer/toc.yml
+        href: ../implement/cs-admin-center.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
       - name: User management
