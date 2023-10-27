@@ -20,11 +20,11 @@ Dynamics 365 Customer Service workspace helps agents increase productivity with 
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see [Customer Service workspace system requirements](../customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see [Customer Service workspace system requirements](../../customer-service-workspace-system-requirements.md)
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](../dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](../../dynamics365/app-profile-manager/csw-enable-channels)
 
 :::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
 
@@ -75,7 +75,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](../dynamics365/app-profile-manager/overview)
+More information: [Agent experience profiles](../../dynamics365/app-profile-manager/overview)
 
 ## Considerations
 
@@ -102,7 +102,7 @@ The following limitations apply to Customer Service workspace:
 
 The legacy layout has been deprecated and will be removed in October 2023.
 
-:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
+:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
 
 ### Turn on legacy layout (deprecated)
 
