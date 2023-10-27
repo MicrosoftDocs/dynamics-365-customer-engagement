@@ -22,7 +22,7 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 
 - Android app: [Dynamics 365 Field Service on Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone.fieldServices)
 - iOS app: [Dynamics 365 Field Service in the Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247)
-- Windows app: [Dynamics 365 FIeld Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
+- Windows app: [Dynamics 365 Field Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
 
 ## Sign in
 
