@@ -4,7 +4,7 @@ description: "Learn how to configure and use direct callback in the voice channe
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 10/26/2023
+ms.date: 10/27/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---

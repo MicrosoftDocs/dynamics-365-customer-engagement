@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/26/2023
+ms.date: 10/27/2023
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -22,7 +22,7 @@ The salient features of voicemail are as follows:
 
 - Callers can record voicemails for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
-- Voicemails are always be transcribed irrespective of whether you've enabled the voice call transcription.
+- Voicemails are always transcribed irrespective of whether you've enabled the voice call transcription.
 - If the customer is unable to record the voicemail, an automated message plays for the customer that informs them that the system couldn't record their voicemail and they should call back again.
 - The bot can't offer to take a voicemail. The call must be escalated to an agent. The system offers the voicemail option if the agent isn't available.
 
