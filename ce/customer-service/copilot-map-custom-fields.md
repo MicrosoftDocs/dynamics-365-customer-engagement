@@ -59,4 +59,4 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 - Customer Contact
 - Subject
 
-In Customer Service admin center, navigate to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
+In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
