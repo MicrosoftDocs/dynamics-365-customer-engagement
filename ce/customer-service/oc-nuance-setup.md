@@ -39,7 +39,7 @@ Provision a phone number. See: [Get and manage phone numbers](/azure/communicati
 
 ### Enable Direct Routing
 
-Direct Routing lets you to connect the existing Nuance telephony infrastructure to Azure Communication Services. Perform the steps in the section below to connect a supported Nuance Session Border Controller (SBC) to Azure Communication Services to enable Direct Routing.
+Direct Routing lets you to connect to the existing Nuance telephony infrastructure. Perform the steps in the section below to connect a supported Nuance Session Border Controller (SBC) to Azure Communication Services to enable Direct Routing.
 
 ### Configure a Session Border Controller
 
