@@ -1,7 +1,7 @@
 ---
 title: "createTab (JavaScript API Reference) for Dynamics Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the createTab method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 07/18/2023
+ms.date: 10/23/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -36,10 +36,12 @@ The structure of the `input` parameter JSON is as follows:
     //Unique name of the tab 
     // type = string
     templateName: <unique name of the tab template>;
+
     //additional context for tab creation and tab slugs
-    // type  Map<string, string>
-    appContext?:  Map<string, string>;
-    //should this tab be focused after creation
+    // type = JSON Object
+    templateParameters?:<>
+    
+    //should this tab be focused after the creation
     // type=boolean
     isFocused?: <true or false>;
 }
@@ -57,11 +59,14 @@ var tabInput = {
     //Unique Name of the Application Tab Template
     // type = string
     templateName: "msdyn_test_entity",
-    appContext: new Map().set("etn", "incident").set("recordId", "768a786f-59e0-ea11-a813-000d3a8b1f3b"),
+    templateParameters: {
+    entityName: "incident",
+    data: "{}",
+    },
     isFocused: true
 };
 Microsoft.CIFramework.createTab(tabInput).then((tabId)=>{
-    console.log("created tab with id " + tabId);
+    console.log("created tab with id" + tabId);
 }, (error)=>{
     console.log(error);
 });

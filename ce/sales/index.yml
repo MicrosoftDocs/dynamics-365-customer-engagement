@@ -52,7 +52,6 @@ additionalContent:
       - url:  install-overview.md
         text: Install Dynamics 365 Sales apps
     - title: Set up 
-
       links: 
       - url: /power-platform/admin/create-environment
         text: Create an environment 
@@ -62,6 +61,7 @@ additionalContent:
         text: Set up sales basics 
       - url: sales-mobile/prereq-sales-mobile.md
         text: Set up the mobile experience
+
   - title: Administer and develop
     items:
     - title: Configure 
@@ -88,7 +88,12 @@ additionalContent:
         text: Integrate with Sharepoint
       - url: install-lsi-solution.md
         text: Install LinkedIn Sales Insights
-
+    - title: Sales Copilot
+      links: 
+      - url: enable-setup-copilot.md
+        text: Enable and set up Sales Copilot
+      - url: configure-sales-copilot.md
+        text: Configure Sales Copilot
     - title: Develop
       links: 
       - url: developer/developer-guide.md
@@ -111,7 +116,14 @@ additionalContent:
         text: Manage opportunities
       - url: sales-transactions.md
         text: Manage quote, order, and invoice
-
+    - title: Sales Copilot
+      links: 
+      - url: use-sales-copilot.md
+        text: Use Sales Copilot
+      - url: compose-send-email-copilot.md
+        text: Compose and send email messages using Copilot
+      - url: view-copy-email-summary.md
+        text: View and copy email summary
     - title: Use predictions and insights
       links:
       - url: work-predictive-lead-scoring.md

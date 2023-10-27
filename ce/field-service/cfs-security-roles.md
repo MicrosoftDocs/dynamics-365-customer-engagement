@@ -84,12 +84,10 @@ Find the resource security role your organization assigns to resources or techni
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the field service resource permissions.](media/cfs-security-role-resource.png)
 
-Because business process flows are not displayed on the Field Service Mobile app, resources don't need access to the **CFS - IoT Alert Process Flow.**
-
+Because business process flows are not displayed on the Field Service mobile app, resources don't need access to the **CFS - IoT Alert Process Flow.**
 
 ## Additional notes
 
 - Any user who needs to work with device registration and device data pulls (IoT Hub operations) should be given the **IoT Administrator** and **IoT Endpoint User** security roles.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

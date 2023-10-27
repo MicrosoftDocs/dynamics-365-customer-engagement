@@ -114,6 +114,8 @@
       href: users-user-profiles.md
     - name: Manage capacity profiles
       href: capacity-profiles.md
+    - name: Configure custom limits for capacity profiles
+      href: capacity-profiles.md#custom-limits
     - name: Delete historical data of agent capacity updates
       href: manage-historical-data-capacity-updates.md
     - name: Manage personas and custom security roles
@@ -346,6 +348,8 @@
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
+    - name: Create a new case when email subject changes
+      href: arc-email-sub-chg.md
   - name: Service-level agreements
     items:
     - name: Overview of service-level agreements
@@ -362,6 +366,8 @@
           href: set-up-holiday-schedule.md
         - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
+        - name: SLA time calculation scenarios
+          href: sla-time-scenarios.md
       - name: Configure service-level agreements
         href: define-service-level-agreements.md
       - name: Apply service-level agreements
@@ -1018,12 +1024,12 @@
         href: copilot-enable-summary.md#enable-case-summaries  
       - name: Enable conversation summaries
         href: copilot-enable-summary.md#enable-conversation-summaries
-      - name: Enable ask a question (preview)
+      - name: Enable ask a question 
         href: copilot-enable-help-pane.md#enable-ask-a-question
-      - name: Enable draft a response (preview)
-        href: copilot-enable-help-pane.md#enable-draft-a-response
-      - name: Enable write an email (preview)
+      - name: Enable write an email 
         href: copilot-enable-help-pane.md#enable-write-an-email
+      - name: Enable draft a response (preview)
+        href: copilot-enable-help-pane.md#enable-draft-a-response-preview     
       - name: View feedback data
         href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
@@ -1032,28 +1038,28 @@
         href: copilot-data-movement.md
     - name: Agent experience
       items: 
-      - name: Use Copilot to solve customer issues (preview)
+      - name: Use Copilot to solve customer issues
         href: use-copilot-features.md
       - name: Summarize cases
         href: copilot-use-summary.md#summarize-cases
       - name: Summarize conversations
         href: copilot-use-summary.md#summarize-conversations
-      - name: Ask a question (preview)
+      - name: Ask a question 
         href: use-copilot-features.md#ask-a-question
+      - name: Draft emails
+        href: use-copilot-features.md#draft-emails        
       - name: Draft a chat response (preview)
-        href: use-copilot-features.md#draft-a-chat-response
-      - name: Draft emails (preview)
-        href: use-copilot-features.md#draft-emails                  
+        href: use-copilot-features.md#draft-a-chat-response-preview
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
         href: copilot-analytics-report.md
     - name: Customizer experience
-      items: 
+      items:
+      - name: Modify fields used to generate case summary and draft emails
+        href: copilot-map-custom-fields.md 
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-      - name: Modify fields used to generate case summary
-        href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
   - name: Bots
@@ -1931,6 +1937,8 @@
       href: faq-copilot-for-customer-service.md 
   - name: Troubleshoot issues in Customer Service
     items: 
+    - name: Check contact center health
+      href: check-contact-center-health.md
     - name: Issue converting an email to a case
       href: troubleshoot-case-email-issue.md
     - name: Troubleshoot SLA issues

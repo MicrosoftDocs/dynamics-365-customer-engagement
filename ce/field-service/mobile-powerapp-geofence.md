@@ -1,17 +1,14 @@
 ---
-title: "Geofencing for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn how to use geofences for the Field Service (Dynamics 365) mobile app.
+title: Geofencing for the Field Service mobile app
+description: Learn how to use geofences for the Dynamics 365 Field Service mobile app.
 ms.date: 01/04/2023
 ms.subservice: field-service-mobile
 ms.topic: article
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Geofencing for the Dynamics 365 Field Service mobile app
+# Geofencing for the Field Service mobile app
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle.
 
@@ -23,15 +20,13 @@ In this article, we look at how to configure and use geofences by:
 - Booking a work order to automatically create a geofence around it.
 - Testing geofence events, as field technicians enter and leave geofenced areas.
 
-
 ## Prerequisites
 
 - [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts to later place geofences around.
-   
+
 - [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
-
 
 ## Step 1. Enable and test location tracking, sharing, and auditing
 
@@ -47,7 +42,6 @@ Go to **Settings** > **Processes** and ensure the following processes are in an 
 - ```DeleteGeofenceWhenBookingIsCompletedOrCanceled```
 - ```GenerateGeofenceWhenBookingIsCreated```
 - ```Update Geofence instance coordinates```
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings, showing a list of processes.](./media/mobile-2020-geofence-processes.png)
@@ -71,7 +65,6 @@ Go to **Field Service** > **Settings** > **Geofencing Settings**.
 
 Enter a **Unit of Measure** and **Minimum Radius**. As demonstrated in the following screenshot, the smallest geofence we can create is a circle around a service account, with a radius of 25.59 feet.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an example geofencing setting in Field Service.](./media/geofence-settings.png)
 
@@ -93,7 +86,7 @@ Enter the following information:
 - **Enabled As:** Select **Geofence** because the account serves as a static location that a geofence will surround.
 
 - **Default Radius:** Enter a number to represent the radius of the geofence around the latitude and longitude of the account location. The unit of measure will be the unit chosen in the geofence settings in the previous step. In this example, the default radius is 328.08399 feet.
-   
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of account geofence configurations.](./media/mobile-geofence-service-account.png)
  
@@ -112,7 +105,7 @@ Next, go to the bookable resource configuration and enter the following:
 
 ## Step 5. Book a work order
 
-Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. This resource has been designated as a **User** type, and has access to the Field Service Mobile app. 
+Next, book a work order using your preferred method. In this example, a work order is manually dragged and dropped to a field technician bookable resource. This resource has been designated as a **User** type, and has access to the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board showing a dragged bookable resource.](./media/mobile-2020-location-auditing-schedule-board.png)
@@ -125,7 +118,6 @@ Go to **Field Service** > **Settings** > **Geofences** to view the newly created
 > ![Screenshot of Field Service showing a list of active geofences.](./media/geofence-created.png)
 
 The **Geo tracked Record Status** is set to **Outside**, meaning the bookable resource is outside of the geofence area.
-
 
 ## Step 6. Enter and exit a geofence
 
@@ -147,11 +139,11 @@ Additionally, this will change the related geofence **Geo tracked Record Status*
 When the technician leaves the geofence, another "exit" event will be created.
 
 > [!Note]
-> If you want to test entering a geofence but cannot physically travel to the location, you can expand the geofence radius to include your current location. 
+> If you want to test entering a geofence but cannot physically travel to the location, you can expand the geofence radius to include your current location.
 
 ## Geofence trigger filters
 
-Geofence trigger filters can be used to define when a geofence event will trigger, relative to time values of the booking.   
+Geofence trigger filters can be used to define when a geofence event will trigger, relative to time values of the booking.
 
 When geofencing is enabled, the geofence will be created for all bookings, which can result in performance issues if there are many pre-created or past bookings. Geofence trigger filters allow you to define a time window within which the geofence will be created and events can be triggered. Along with performance improvements, these filters can help avoid false-positive geofence events. By filtering to only relevant upcoming service appointments, you can avoid a scenario where a frontline worker inadvertently travels through a geofence that isn't currently their active engagement.  
 
@@ -166,17 +158,14 @@ When trigger filters are enabled, you can enable one or two different time-based
 - **Offline Time Stamp** 
 - **Record Created On** 
 
-You can then set a value in days before or after the current date for the filter. 
+You can then set a value in days before or after the current date for the filter.
 
-In the scenario shown in the following screenshot, a geofence will only be created and trigger events for bookings that meet the following condition: 
+In the scenario shown in the following screenshot, a geofence will only be created and trigger events for bookings that meet the following condition:
 
-- **Start Time** of the booking is within the last day or next day. 
-
+- **Start Time** of the booking is within the last day or next day.
 
 > [!div class="mx-imgBorder"]
 > ![Example of configured geofence filters in Field Service.](./media/mobile-geofence-filters.png)
-
-
 
 ## Configuration considerations
 

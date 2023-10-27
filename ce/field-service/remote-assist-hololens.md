@@ -15,7 +15,7 @@ If your organization uses Dynamics 365 Field Service to manage field service wor
 
 By integrating Field Service and Dynamics 365 Remote Assist, you can: 
 
-- Launch Dynamics 365 Remote Assist mobile directly from a Field Service Mobile booking via deep links.
+- Launch Dynamics 365 Remote Assist mobile directly from a booking in the Field Service mobile app via deep links.
 - See relevant work order information.
 - Post the Dynamics 365 Remote Assist call information to the associated work order's timeline.
 
@@ -42,12 +42,11 @@ Before you begin, make sure you have the following set-up:
   - The remote collaborator only needs a Microsoft Teams license.
   - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Dynamics 365 Remote Assist license includes Teams. 
 
-- Field Service Mobile (only applicable if technicians and front line workers are not using HoloLens headsets). 
-
+- Field Service mobile app (only applicable if technicians and frontline workers are not using HoloLens headsets). 
 
 ## Set up technician user
 
-First, create a bookable resource that will serve as the technician or front line worker that will use both Field Service on the Field Service Mobile app and Dynamics 365 Remote Assist on the Dynamics 365 Remote Assist mobile app on their phone or tablet.
+First, create a bookable resource that will serve as the technician or frontline worker that will use both Field Service on the mobile app and Dynamics 365 Remote Assist on the Dynamics 365 Remote Assist mobile app on their phone or tablet.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a bookable resource in Field Service on a desktop.](./media/remote-assist-field-service-resource.png)
@@ -60,15 +59,12 @@ To set up a field technician to use the Field Service mobile app, see the Field 
 2. [Install and setup the mobile app](mobile-power-app-get-started.md)
 
 Verify you can log into the Field Service mobile app successfully as the field technician user.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service Mobile after logging in.](./media/mobile-power-download-signin.png)
  
 Next, verify you can log into the Dynamics 365 Remote Assist mobile app with the same user. Then:
 
 Find and download the Dynamics 365 Remote Assist mobile app in the Apple iOS or Google Android app stores. 
 
-Sign in as the same user that you logged in to Field Service Mobile with. If your technician has a Field Service license and a Teams license, then you can simply start a free trial of Dynamics 365 Dynamics 365 Remote Assist before buying. 
+Sign in as the same user that you logged in to the Field Service mobile app with. If your technician has a Field Service license and a Teams license, then you can simply start a free trial of Dynamics 365 Dynamics 365 Remote Assist before buying. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of three mobile devices, showing the Dynamics 365 Remote Assist app in an app store on the left. The middle device shows a logged in user. The device on the right shows a window prompting to get a free trial of Dynamics 365 Remote Assist.](./media/remote-assist-field-service-start-remote-assist-trial.png)
@@ -108,10 +104,10 @@ Schedule the work order to the bookable resource that represents the technician 
 
 ## View work orders and trigger Dynamics 365 Remote Assist from the Field Service mobile app
 
-Like any typical day, the technician logs in to Field Service Mobile and sees their assigned work orders for that day. If they need guidance from a remote collaborator who better knows the product, service, equipment, or account being serviced, they can launch the Dynamics 365 Remote Assist mobile app from the work order.
+Like any typical day, the technician logs in to the Field Service mobile app and sees their assigned work orders for that day. If they need guidance from a remote collaborator who better knows the product, service, equipment, or account being serviced, they can launch the Dynamics 365 Remote Assist mobile app from the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
+> ![Screenshot of four mobile devices and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 ## Make a Dynamics 365 Remote Assist call
 
@@ -137,7 +133,7 @@ From Teams, the remote collaborator can also make annotations.
 
 After gaining the necessary guidance from the remote collaborator, the technician will end the call and be given the option to post the call as an activity to the work order time line.
 
-Technicians can choose from a list of bookings they are scheduled for on the day of the call, which matches the **Agenda** view in Field Service Mobile.
+Technicians can choose from a list of bookings they are scheduled for on the day of the call, which matches the **Agenda** view in Field Service.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Remote Assist on a mobile device, showing the option to select a booking to post to.](./media/remote-assist-field-service-call-post-to-work-order-choose-BOTH.png)
@@ -197,7 +193,7 @@ Technicians can:
 
 ### Use the Field Service mobile Power App
 
-Technicians can deep link from the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) to the Dynamics 365 Remote Assist mobile app.
+Technicians can deep link from the [Field Service mobile app](mobile-power-app-overview.md) to the Remote Assist mobile app.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

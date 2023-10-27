@@ -12,7 +12,13 @@ ms.custom: bap-template
 
 # Use Copilot to summarize cases and conversations 
 
-You can use Copilot to summarize cases and conversations if your administrator has turned on this feature. 
+You can use Copilot to summarize cases and conversations if your administrator has turned on this feature.
+
+> [!NOTE]
+> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+
+> [!NOTE]
+> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 ## Summarize cases
 
