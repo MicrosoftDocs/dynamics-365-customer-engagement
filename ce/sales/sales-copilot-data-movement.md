@@ -21,17 +21,12 @@ ms.custom:
 
 Although Copilot is available in all geographic regions, it requires the Microsoft Azure OpenAI Service, which is available only in North America and Europe. If your Dynamics 365 environment is located in any other region, your data, including personal data or data that's used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
 
-You need to opt in to allow your data to move outside of your region to an Azure datacenter in North America or Europe. Data in environments that are located in Europe is processed in Europe only. 
+You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in North America or Europe. Though the opt-in terms are shown for Europe, data from Europe region is processed in Europe only.
 
 > [!NOTE]
-> The opt-in terms aren't applicable to organizations in the North America geography and therefore won't be visible to customers in this region.
-
-When you use Copilot in an organization that's outside the North America or Europe regions, your data, including personal data, used in prompts or returned in completions, might be transmitted outside of the geographic locations that you've selected for your primary data residency.
-
-> [!NOTE]
-> - If your environment is hosted in North America, users will use an Azure OpenAI endpoint in North America.
-> - If your environment is hosted in Europe, users will use an Azure OpenAI endpoint in Europe.
-> - If your environment is hosted anywhere else, users will use an Azure OpenAI endpoint outside of the region in which they are hosted.
+> - If your environment is hosted in North America, Copilot will use an Azure OpenAI endpoint in North America to process your data.
+> - If your environment is hosted in Europe, Copilot will use an Azure OpenAI endpoint in Europe to process your data.
+> - If your environment is hosted anywhere else, Copilot will use an Azure OpenAI endpoint outside of the region in which the environment is hosted.
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
