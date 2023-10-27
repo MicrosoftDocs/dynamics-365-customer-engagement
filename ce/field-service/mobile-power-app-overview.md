@@ -32,7 +32,7 @@ With the 2023 release wave 2, we're releasing a new user experience for mobile u
 | [Time entry](get-work-done-mobile-app.md#time-entry)  | Technician | Yes | In-application Time Entry enabled by default. |
 | [Connected Field Service and IoT alerts](get-work-done-mobile-app.md) | Technician | Yes |  Receive IoT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
-| [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes** | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
+| [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes* | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](mobile-powerapp-geofence.md) | Technician | Yes* | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](mobile-powerapp-reporting.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
@@ -44,9 +44,7 @@ With the 2023 release wave 2, we're releasing a new user experience for mobile u
 | Bulk-add users  | Admin | Yes|  Quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
-*coming soon to Windows
-
-**not available on Windows
+*not available on Windows
 
 For information about planned features, refer to [Dynamics 365 Field Service release plans](/dynamics365/release-plans/).
 
