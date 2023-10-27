@@ -16,17 +16,17 @@ ms.collection: get-started
 
 # Get started with Customer Service workspace
 
-Dynamics 365 Customer Service workspace helps agents increase productivity with a browser-like, tabbed experience. Agents can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. 
+Dynamics 365 Customer Service workspace helps agents increase productivity with a browser-like, tabbed experience. Agents can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace.
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see [Customer Service workspace system requirements](../customer-service-workspace-system-requirements.md)
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](../dynamics365/app-profile-manager/csw-enable-channels)
 
-:::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
+:::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
 
 ## Customer Service workspace sessions and tabs
 
@@ -55,13 +55,13 @@ If your administrator has turned on the inbox for your profile, you can select t
 
 The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
-More information: [Configure the inbox view](configure-inbox.md)
+More information: [Configure the inbox view](../configure-inbox.md)
 
 ### Use the productivity pane with Smart Assist
 
 When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-More information: [Productivity pane](csw-productivity-pane.md)
+More information: [Productivity pane](../csw-productivity-pane.md)
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -75,7 +75,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](/dynamics365/app-profile-manager/overview)
+More information: [Agent experience profiles](../dynamics365/app-profile-manager/overview)
 
 ## Considerations
 
@@ -85,8 +85,8 @@ Here are a few things to note when you use Customer Service workspace in your or
 - `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
   - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
-- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../app-profile-manager/reference/microsoft-apm/createTab.md) 
-- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../app-profile-manager/reference/microsoft-apm.md)
+- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../../app-profile-manager/reference/microsoft-apm/createTab.md) 
+- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../../app-profile-manager/reference/microsoft-apm.md)
 - The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
 
 ### Limitations
@@ -102,7 +102,7 @@ The following limitations apply to Customer Service workspace:
 
 The legacy layout has been deprecated and will be removed in October 2023.
 
-:::image type="content" source="media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
+:::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="media/csw-overview.png":::
 
 ### Turn on legacy layout (deprecated)
 
@@ -140,10 +140,10 @@ You can enable the legacy layout in one of the following ways:
 ### See also
 
 [Learn about Customer Service workspace in a day](https://go.microsoft.com/fwlink/?linkid=2241180)  
-[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
-[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
-[Overview of the productivity pane](csw-productivity-pane.md)  
-[View the agent calendar](use-agent-calendar.md)  
-[Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
+[Work with cases in Customer Service Hub](../customer-service-hub-user-guide-create-a-case.md)  
+[Work with activities in Customer Service Hub](../customer-service-hub-user-guide-manage-timeline-activities.md)  
+[Overview of the productivity pane](../csw-productivity-pane.md)  
+[View the agent calendar](../use-agent-calendar.md)  
+[Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md)
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
