@@ -42,8 +42,8 @@ In Customer Service admin center, perform the following steps to map your prefer
       > [!NOTE]
       > The attributes related to case notes and email content aren't available on **Manage Data Attributes** but are considered to generate case summaries.
    1. To modify the default attributes, perform the following steps: 
-      - Specify the **Source Table**. Set the source table to the case table or any other table that has a relationship with the case table. For example, for **Customer** attribute instead of **Case** and **Contact** you can specify **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact.
-      - Specify a column from that you'd like Copilot to use from the **Source Table**.
+      - For the **Source Table** of the attribute, you can specify **Case** or any other related table. For example, for **Customer** attribute instead of **Case** and **Contact** you can specify **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact.
+      - For the column attribute, specify a column from the **Source Table**.
    1. Select **Save and Close**.
 1. Select **Save**.
  
