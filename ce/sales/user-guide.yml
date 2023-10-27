@@ -58,13 +58,13 @@ landingContent:
             url: relationship-analytics.md
 
 # Card 
-  - title: Sales Copilot
+  - title: Copilot
     linkLists:
        - linkListType: concept
          links:
-          - text: Sales Copilot overview 
+          - text: Copilot overview 
             url: copilot-overview.md
-          - text: Use Sales Copilot 
+          - text: Use Copilot 
             url: use-sales-copilot.md
        - linkListType: how-to-guide
          links:
