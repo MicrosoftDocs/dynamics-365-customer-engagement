@@ -8,13 +8,13 @@ ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
 ms.date: 10/26/2023
-ms.custom: bap-template
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/03/2023
+  - bap-template
 ---
 
 # Copilot data movement across geographies

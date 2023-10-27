@@ -69,7 +69,8 @@ Copilot can help you compose professional-looking emails, summarize email conver
 
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy email summary](view-copy-email-summary.md)  
-- [Show emails that are not replied](use-sales-copilot.md#show-emails-that-are-not-replied)
+- [Show emails you haven't replied to](use-sales-copilot.md#show-emails-you-havent-replied-to)
+
 
 ### News updates
 
@@ -77,7 +78,7 @@ Copilot news updates help you stay current with the latest news about your accou
 
 **More information:**
 
-[Show latest news for an account](use-sales-copilot.md#show-latest-news-for-an-account)
+[Show the latest news about an account](use-sales-copilot.md#show-the-latest-news-about-an-account)
 
 ## Region availability and languages supported
 

@@ -19,7 +19,7 @@ ms.custom:
 
 Copilot is enabled by default in all sales apps for orgs in North America. If your org is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article:
 
-- [Enable or disable Copilot features in Dynamics 365 apps](#enable-or-disable-sales-copilot-features-in-dynamics-365-apps)
+- [Enable or disable Copilot features in Dynamics 365 apps](#enable-or-disable-copilot-features-in-dynamics-365-apps)
 - [Configure record summary fields](#configure-record-summary-fields)
 - [Configure record catch up fields](#configure-record-catch-up-fields)
 - [Grant audit access to your sellers](#grant-audit-access-to-your-sellers)
