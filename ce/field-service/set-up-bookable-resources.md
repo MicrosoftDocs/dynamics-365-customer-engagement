@@ -87,29 +87,24 @@ You can define work hours for each resource. If you don't change them, it uses t
 
 For more information about editing work hour calendars with code, see [Edit work hour calendars by using APIs](field-service-work-hours-calendar-api.md).
 
-## Add characteristics, territories, and categories 
+## Add characteristics, territories, and categories
 
 The most common attributes that distinguish resources are characteristics, territories, and categories.
 
+### Add characteristics
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find related entities on the Bookable Resource form.](media/resource-add-related-details.png "Screenshot showing where to find related entities on the Bookable Resource form.")
+Characteristics represent a resource's skills and certifications. This could be concrete, like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building.
 
-
-### Add characteristics 
-
-Characteristics represent a resource's skills and certifications. This could be concrete, like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building or fluency in the Spanish language.
-
-A resource can have multiple characteristics. Once the characteristic record is created, you can add it to a resource. Learn more on the [setting up characteristics article](../field-service/set-up-characteristics.md).
+A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a proficiency rating.
   
-1. From the resource record, go to related entities and choose **Resource Characteristics**.  
+1. Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Characteristics**.  
   
 2. Select **Add New Bookable Resource Characteristics**.  
   
 3. Select a **Characteristic** from the lookup.
 
-4. Select a **Rating Value** that represents the resource's proficiency in that skill. This can be a 1-to-10 rating, or even represent the score on a certification exam. 
-   - Rating value can be left blank. 
+4. Select a **Rating Value** for skill proficiency. This can be a 1-to-10 rating, or even represent the score on a certification exam.
+   - Rating value can be left blank.
    - You can customize or create new rating values by going to Proficiency Models.
    - When dispatchers are searching for resources to fulfill requirements, the dispatcher can choose which rating value is required for particular skills.
 5. **Save & Close**. 
