@@ -203,6 +203,35 @@ This POST API creates or modifies calendar rule records for the selected entity.
 |IsVaried	|Boolean	|No	|This field is specific to recurrences, and is set to `yes` if a custom recurrence rule is being deleted. |
 |UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
+## Load Calendar API
+
+### Input
+
+|**Name** |	**Type**|	**Required**|	**Description**|
+|:--|:--|:--|:--|
+|msdyn_LoadCalendars|	Action|	No	|Returns calendars for given LoadCalendarsInput.|
+|msdyn_LoadCalendars.LoadCalendarsInput|	Parameter|	No	|	
+String in the  following JSON format:
+{
+   StartDate: string,
+   EndDate: string,
+   CalendarIds: string[]
+}|
+|msdyn_LoadCalendarsResponse|	ComplexType|	No	|Contains the response from the msdyn_loadCalendars action.|
+|msdyn_LoadCalendarsResponse.CalendarEvents|	Property|	No	|String in the following JSON format:
+{
+"calendarId": CalendarEventSlot[]
+}
+Where calendarId is a proper guid representing Guid of the Calendar 
+and CalendarEventSlot is an object of following format:
+{
+  CalendarId: string,
+  InnerCalendarId: string,
+  Start: string,
+  End: string,
+  Effort: double
+}|
+
 ### Output
 
 This POST API deletes calendar rule records for the selected entity. Additionally, it gives the following output.
