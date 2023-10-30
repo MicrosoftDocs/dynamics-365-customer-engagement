@@ -16,14 +16,14 @@ As part of [adding an integrated search provider](add-search-provider.md#add-int
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 To start, select an option in the Knowledge article schema section:
-- [Field Mapping](#field-mapping)
-- [JSON Schema](#json-schema)
+- [Field mapping](#field-mapping)
+- [JSON schema](#json-schema)
 
 ## Field mapping
 
 ### Select and upload the file for metadata selection
 
-Before you begin field mapping, you must select the meta tags you want to use in the mapping. You'll need to select and upload the file for metadata selection.
+Before you begin field mapping, you'll need to select and upload the file for metadata selection, and then select the meta tags you want to use in the mapping. 
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
 
@@ -45,7 +45,7 @@ With field mapping, you map a knowledge article received from the search provide
 - **Operation types**: The mapping patterns that map the source article to the article attributes of the knowledge article entity. [Learn more about operation type mapping options.](#operation-type-mapping-options)
 - **Source property**: The value that you define for each operation type. For example, if you select the **Direct** operation type, you must select among the previously selected meta tags or the `HTML-Title` tag.
 
-1. In the **Mapping** section, the mandatory knowledge article attributes are **External Reference Id**, **Title**, and **Content**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
+1. In the Customer Service admin center site map, **Mapping** section, the mandatory knowledge article attributes are **Content**, **External Reference Id**, and **Title**. For each, select an [**Operation Type**](#operation-type-mapping-options) and a **Source Property**.
 
     Make sure the **External Reference Id** value is unique.
 
@@ -169,14 +169,12 @@ Using the metatag ms.keywords from the website, extracts **XML Reader, WS-Trust*
 
 [Learn more about schema details to build a metadata mapping template](int-search-metadata-schema.md).
 
-1. Copy and paste your article properties and schema JSON in the field provided to you
+1. In the Customer Service admin center site map, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
 1. Select **Validate JSON**.
 
     If validation succeeds, you see a confirmation message. If validation fails, you see an error message that identifies the parameter that has an incorrect value.
 
 1. Select **Next** to go the next section. If you want to stop and come back to this point later, select **Save as draft**.
-
-
 
 ## Next steps
 
