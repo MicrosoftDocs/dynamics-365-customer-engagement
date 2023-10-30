@@ -15,15 +15,18 @@ As part of [adding an integrated search provider](add-search-provider.md#add-int
 
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
-To begin:
+To start, select an option in the Knowledge article schema section:
+- [Field Mapping](#field-mapping)
+- [JSON Schema](#json-schema)
 
-- Select and upload the file for [Metadata selection](#metadata-selection)
-- [**Field Mapping**](#field-mapping)
-- [**JSON Schema**](#json-schema)
+## Field mapping
 
-## Metadata selection
+### Select and upload the file for metadata selection
+
+Before you begin field mapping, you must select the meta tags you want to use in the mapping. You'll need to select and upload the file for metadata selection.
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
+
 1. In the Customer Service admin center site map, **Knowledge article schema** > **Field Mapping** section, upload the file by selecting **Choose file**.
 
     All the meta tags found in your HTML file are listed in the **Meta tags settings** section.
@@ -34,7 +37,7 @@ To begin:
 
 1. To go to the **Mapping** section, select **Next**. If you want to stop and come back to this point later, select **Save as draft**.
 
-## Field mapping
+### Map article attributes
 
 With field mapping, you map a knowledge article received from the search provider (the source property) to an attribute of the knowledge article entity (the target), based on an operation type. You need to use an operation type and then select the source property for the mapping.
 
@@ -60,6 +63,8 @@ With field mapping, you map a knowledge article received from the search provide
 
 ## Operation type mapping options
 
+Here are the operation type mapping options that you can select from.
+
 - **Regex**: Uses [regex patterns](/dotnet/standard/base-types/regular-expression-language-quick-reference) to extract values from the source website. The source property is a text field where you can enter the regex pattern. The string from your website's HTML that matches this pattern is mapped to the corresponding knowledge article field.
 
     The regex patterns must have a [capture group](/dotnet/standard/base-types/regular-expression-language-quick-reference#grouping-constructs) enclosed in parentheses that allows you to extract a specific portion of the matched text. The text is extracted from the first nonempty group of the first match.
@@ -79,7 +84,7 @@ With field mapping, you map a knowledge article received from the search provide
 
 - **RegexUrl**: Like Regex, but looks for matches in the URL of the source website only. To map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
 
-Here's an example.
+Here's an example, which explains how to use map the article attributes.
 
 ### Example
 

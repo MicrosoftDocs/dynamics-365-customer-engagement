@@ -178,7 +178,7 @@ If you select a deactivated data search provider, it might appear on the **Filte
 It is necessary to verify whether the search provider website that you want to use has the appropriate site map collection. To do so, you must identify the root and the site map URL.
 
 - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
-- **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. To get the required site map collection from the robots.txt file, make sure that the site map link that you select has **sitemapindex**, for example: "https:/contoso.com/_sitemaps/sitemapindex.xml".
+- **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. To get the required site map collection from the robots.txt file, make sure that the site map link that you select has **sitemapindex**, for example: "https://contoso.com/_sitemaps/sitemapindex.xml".
     
     :::image type="content" source="media/int_sitemap.jpg" alt-text="Screenshot shows an example of the robots.txt file.":::
 
