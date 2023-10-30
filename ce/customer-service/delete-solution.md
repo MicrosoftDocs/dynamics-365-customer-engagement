@@ -65,10 +65,8 @@ You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
     |	26	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
     |	37  |   `OmnichannelTelephony`                          | You must delete all the related workstreams before you delete OmnichannelTelephony |
     |	28	|	 `ScenariosAndChannels`	                        |		|
-    |	29	|	 `msdyn_CIFrameworkPatch`	                    |		|
-    |	30	|	 `ChannelAPIIntegrationFramework`	            |		|
-    |	31	|	 `OmnichannelIntelligence` 	                    |		|
-    |	32	|	 `OmnichannelConfiguration`                    	|		|
+    |	30	|	 `OmnichannelIntelligence` 	                    |		|
+    |	31	|	 `OmnichannelConfiguration`                    	|		|
 
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
