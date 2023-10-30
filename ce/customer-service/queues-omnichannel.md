@@ -1,10 +1,10 @@
 ---
 title: Create and manage queues for unified routing
-description: Learn about how to create and manage advanced queues for unified routing in Customer Service.
+description: Create and manage advanced queues, know how fallback and default queues work in unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 09/20/2023
+ms.date: 10/30/2023
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservice
@@ -109,13 +109,13 @@ If any overflow settings exist, they are overruled and work items are routed to 
 
 ### How default queues work
 
-Default queues are a finite set of queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
+Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. No other settings are available for edit.
+For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available for edit.
 
 ### See also
 
