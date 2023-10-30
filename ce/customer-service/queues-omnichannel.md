@@ -71,7 +71,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those agents who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
+   - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those agents who have the skills that were identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
    - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
    - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
@@ -93,13 +93,13 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
 > [!IMPORTANT]
-> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you aren't able to create a basic queue in Customer Service Hub.
 
 ### How fallback queues work
 
 To efficiently manage the work items, you can configure a fallback queue per workstream that acts as a safety net. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you're creating a workstream.
 
-For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. By default, the assignment method for the fallback queue is highest capacity.
+For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you need to add users. By default, the assignment method for the fallback queue is highest capacity.
 
 If any overflow settings exist, they are overruled and work items are routed to the fallback queues in the following scenarios:
 
