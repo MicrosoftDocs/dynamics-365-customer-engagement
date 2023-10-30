@@ -1,5 +1,5 @@
 ---
-title: Access related apps form the mobile app
+title: Access related apps from the mobile app
 description: Learn about the related applications and how to access them from the mobile app.
 ms.date: 10/05/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ author: josephshum-msft
 ms.author: jshum
 ---
 
-# Access related apps form the mobile app
+# Access related apps from the mobile app
 
 The Dynamics 365 Field Service mobile app provides quick access to related applications if your organization chooses to use them.
 
