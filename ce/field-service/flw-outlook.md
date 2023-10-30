@@ -1,7 +1,7 @@
 ---
 title: Field Service Outlook add-in with Copilot for the frontline manager (preview)
 description: Learn about the Dynamics 365 Field Service (Preview) Outlook add-in to create, view, and edit work orders.
-ms.date: 10/03/2023
+ms.date: 10/20/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -16,7 +16,7 @@ ms.subservice: m365-integrations
 
 Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
-The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](preview-schedule-board.md) for scheduling.
+The Field Service (Preview) Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
 ## Install the Field Service (Preview) Outlook Add-in
 
@@ -146,7 +146,7 @@ Scheduling is based on resource availability, skills, customer promised time win
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling":::
 
    > [!TIP]
-   > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
+   > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](work-with-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays at the top of the **Field Service (Preview)** pane.
 
@@ -172,7 +172,7 @@ Reschedule a scheduled work order to a different resource, date, or time. Use sc
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service (Preview) Outlook Scheduling with Search for technician highlighted":::
 
    > [!TIP]
-   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
+   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](work-with-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the **Field Service (Preview)** pane.
 
@@ -224,6 +224,6 @@ Change the date and time scheduled for the technician.
 1. Make the necessary changes and select **Save**. Within the details of the work order, you can also:
 
    - Open a map to locate the service address
-   - [Open the schedule board in Field Service](configure-schedule-board.md#overview-of-the-schedule-board)
+   - [Open the schedule board in Field Service](work-with-schedule-board.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

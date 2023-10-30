@@ -1,5 +1,5 @@
 ---
-title: Use Copilot to solve customer issues (preview)
+title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
 ms.date: 09/28/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Use Copilot to solve customer issues (preview)
+# Use Copilot to solve customer issues
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -95,7 +95,9 @@ By default, Copilot uses internal knowledge base sources for generating response
 
 To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
-## Draft a chat response 
+## Draft a chat response (Preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 

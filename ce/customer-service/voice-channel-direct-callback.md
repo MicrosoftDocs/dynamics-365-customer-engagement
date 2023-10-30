@@ -4,7 +4,7 @@ description: "Learn how to configure and use direct callback in the voice channe
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 02/02/2023
+ms.date: 10/27/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -41,7 +41,7 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 The direct callback is triggered by the queue overflow conditions where the corresponding action is direct callback.
 
-1. An automated message is presented to the customer that asks if the customer prefers a callback by the agent over waiting in the queue. The automated message repeats after every 30 seconds until one of the following actions takes place:
+1. The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue. The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until one of the following actions takes place:
   
    - The customer selects the option
    - Ends the call

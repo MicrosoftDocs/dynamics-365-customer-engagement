@@ -1,8 +1,33 @@
 {
   "redirections": [
     {
+      "source_path": "ce/sales/configure-sales-copilot.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/wa-view-details-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/troubleshoot-faq.yml",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/rso-faq.yml",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/cfs-troubleshoot.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": "false"
     },
     {
@@ -464,6 +489,11 @@
       "source_path": "ce/customer-service/cs-email-template-builder.md",
       "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/set-custom-icon-custom-case-origin.md",
+      "redirect_url": "enable-case-grids#add-new-icons-for-origin-and-priority-columns",
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
@@ -23274,7 +23304,81 @@
       "redirect_url": "/dynamics365/sales/overview",
       "redirect_document_id": "false"
     },
-
+    {
+      "source_path": "ce/sales/manage-segments.md",
+      "redirect_url": "/dynamics365/sales/work-assignment-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/create-and-activate-a-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-create-and-activate-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/connect-a-segment-to-sequence.md",
+      "redirect_url": "/dynamics365/sales/wa-connect-a-segment-to-sequence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/view-details-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-view-details-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/edit-a-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/prioritize-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-create-and-activate-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/delete-deactivate-a-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-delete-deactivate-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/create-manage-assignment-rules.md",
+      "redirect_url": "/dynamics365/sales/work-assignment-intro",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/create-and-activate-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/wa-create-and-activate-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/edit-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/wa-edit-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/delete-deactivate-assignment-rule.md",
+      "redirect_url": "/dynamics365/sales/wa-delete-deactivate-assignment-rule",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-unassigned-records.md",
+      "redirect_url": "/dynamics365/sales/wa-manage-unassigned-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-sales-teams.md",
+      "redirect_url": "/dynamics365/sales/wa-manage-sales-teams",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-seller-attributes.md",
+      "redirect_url": "/dynamics365/sales/wa-manage-seller-attributes",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-seller-availability.md",
+      "redirect_url": "/dynamics365/sales/wa-manage-seller-availability",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/sales-enterprise/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
@@ -24386,6 +24490,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/manage-users.md",
+      "redirect_url": "/power-platform/admin/create-users",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/define-playbook-categories.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales#playbooks",
       "redirect_document_id": "false"
@@ -25251,6 +25360,11 @@
     },
     {
       "source_path": "ce/field-service/whats-new-field-service-project-service.md",
+      "redirect_url": "/dynamics365/field-service/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/activate-fs-mobile-app-license.md",
       "redirect_url": "/dynamics365/field-service/overview",
       "redirect_document_id": false
     },
@@ -27307,6 +27421,31 @@
     {
       "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/share-schedule-board-tab.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
       "redirect_document_id": "false"
     }
   ]

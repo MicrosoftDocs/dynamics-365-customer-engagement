@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 06/15/2023
+  ms.date: 10/26/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -53,8 +53,6 @@ additionalContent:
         text: Buy Customer Service
       - url: omnichannel-provision-license.md
         text: Provision Omnichannel for Customer Service
-      - url: voice-channel-install.md
-        text: Provision the voice channel
     - title: Set up 
       links:
       - url: add-users-assign-roles.md
@@ -67,12 +65,13 @@ additionalContent:
     items:
     - title: Configure
       links:
-      - url: omnichannel-provision-license.md#set-up-omnichannel-for-customer-service-
-        text: Manage environments for Omnichannel for Customer Service
-      - url: upgrade-omnichannel.md
-        text: Upgrade Omnichannel for Customer Service
       - url: provision-unified-routing.md
         text: Provision unified routing for Customer Service
+      - url: voice-channel-install.md
+        text: Configure the voice channel
+      - url: upgrade-omnichannel.md
+        text: Upgrade Omnichannel for Customer Service
+      
     - title: Develop
       links:
       - url: developer/reference/entities/overview-entity-ref.md
@@ -110,7 +109,7 @@ additionalContent:
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
       - url: channel-integration-framework/channel-integration-framework.md
-        text: Channel Integration Framework 
+        text: Dynamics 365 Channel Integration Framework 
   - title: Manage your contact center
     items:
     - title: Manage cases and solve issues within SLAs
