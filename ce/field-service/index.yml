@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
-  ms.date: 06/26/2023
+  ms.date: 10/20/2023
   ms.custom: bap-template
   hide_bc: true
 
@@ -127,8 +127,8 @@ additionalContent:
         text: Schedule assistant
       - url: quick-scheduling.md
         text: Quick scheduling
-      - url: configure-schedule-board.md
-        text: Use and configure the schedule board
+      - url: work-with-schedule-board.md
+        text: Use the schedule board
     - title: Mobile app
       links:
       - url: mobile-power-app-overview.md

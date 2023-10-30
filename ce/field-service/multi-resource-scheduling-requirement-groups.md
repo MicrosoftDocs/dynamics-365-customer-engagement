@@ -33,9 +33,5 @@ You're now all set to book the work order.
 
 > [!NOTE]
 > When requirement groups perform onsite work, the schedule assistant looks for groups of resources that can arrive at the same time, not resources that can begin traveling at the same time.
-  
-## Next steps
-
-- [Schedule a work order](schedule-work-order.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

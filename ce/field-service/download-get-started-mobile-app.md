@@ -22,11 +22,11 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 
 - Android app: [Dynamics 365 Field Service on Google Play](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone.fieldServices)
 - iOS app: [Dynamics 365 Field Service in the Apple App Store](https://apps.apple.com/us/app/field-service-dynamics-365/id1485579247)
-- Windows app: [Dynamics 365 FIeld Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
+- Windows app: [Dynamics 365 Field Service in the Microsoft Store](https://apps.microsoft.com/detail/9PMX4FNSSF5P)
 
 ## Sign in
 
-Launch the mobile app and sign in with your username and password for Field Service.  
+Launch the mobile app and sign in with your username and password for Field Service. You can choose different **Region settings** if your app is not in the Azure global cloud.
 
 If you can't sign in, contact your organization's administrator. They may need to [set up users and security roles](view-user-accounts-security-roles.md).
 

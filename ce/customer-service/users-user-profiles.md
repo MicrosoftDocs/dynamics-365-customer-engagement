@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 06/07/2023
+ms.date: 10/23/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -141,5 +141,6 @@ For example, if the capacity unit is 1 for a workstream and you want an agent to
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Configure and manage presence status](presence-custom-presence.md)  
 [Role personas for unified routing](role-persona-mapping.md)  
+[Configure custom limits in capacity profiles](capacity-profiles.md#custom-limits)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
