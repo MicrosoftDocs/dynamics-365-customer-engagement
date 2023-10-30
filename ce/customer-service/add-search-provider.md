@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 10/30/2023
 ms.custom: bap-template
 ---
 
@@ -65,8 +65,13 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 1. In the **Authentication and testing** section:
 
-    - **Root URL**: Enter the root URL of the search provider website, including the protocol.
-    - **Site map URL**: Enter the site map URL of the website. To get the site map URL, enter the root URL followed by `/robots.txt` in the address bar, and then search the file for "sitemapindex." For example, type https://www.contoso.com/robots.txt in the address bar.
+    It is necessary to test whether the website that you want to ingest is applicable. To do so, you must identify the root URL and get the site map URL.
+
+    - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
+    - **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. Get the site map collection from the robots.txt file. Make sure that the site map link that you select has **sitemapindex**, for example: "https:/contoso.com/_sitemaps/sitemapindex.xml".
+    
+        :::image type="content" source="media/int_sitemap.jpg" alt-text="Screenshot shows an example of the robots.txt file.":::
+
 
         > [!NOTE]
         >
