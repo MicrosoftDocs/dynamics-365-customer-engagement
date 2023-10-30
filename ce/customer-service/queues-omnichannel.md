@@ -115,7 +115,7 @@ Default queues are a finite set of system-defined queues that help you manage wo
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available for edit.
+For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available to edit.
 
 ### See also
 
