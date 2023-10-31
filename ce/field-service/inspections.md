@@ -163,7 +163,7 @@ An inspection completed by a technician will be visible on the bottom of the wor
 
 ## Perform inspections on mobile
 
-You can view and complete inspections on the [Field Service (Dynamics 365) mobile app](mobile-power-app-overview.md).
+You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md).
 
 Sign in and go to the assigned work order.
 
@@ -172,7 +172,7 @@ Select the **Work Order Service Task** that has the related inspection.
 Find the inspection form and enter answers.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service (Dynamics 365) mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
+> ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
 Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment.
 

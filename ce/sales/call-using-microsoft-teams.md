@@ -1,12 +1,16 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
-description: Make and receive Teams calls in Dynamics 365 through the dialer, or from a record or a work item.
-ms.date: 06/07/2023
+description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
+ms.date: 10/17/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.custom: bap-template 
 ms.collection:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/13/2023
 ---
 
 # Make and receive Teams calls in Dynamics 365
@@ -25,13 +29,14 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 > [!NOTE]
 > An administrator must configure the Microsoft Teams dialer in your organization for you to use it. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
-Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** and view the dial pad.
+Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.png "Phone icon")) icon in the upper-right corner of the page to open the **Calls** pane and view the dial pad.
 
 > [!div class="mx-imgBorder"]
 > ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")
 
 > [!IMPORTANT]
-> The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
+>- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work. 
 
 ## Make calls with Teams
 
@@ -98,6 +103,15 @@ The caller name is automatically displayed when the phone number is associated w
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected.
 
 A phone call activity is created and displayed on the timeline of the record. If the phone number is automatically resolved to a record, the **Call From** and **Regarding** fields of the phone call activity are automatically populated. If the received call isn't associated with any record, only a phone call activity is created. To associate the call with a record during the call, select the **Details** tab, and then select **Connect a record**.
+
+## View missed calls in Dynamics 365
+
+If you've missed a call, a notification is displayed in the in-app notification center in Dynamics 365. To view the missed call notification, select the Notifications icon (bell icon) in the upper-right corner of the page. If you've answered the call from another app, such as Teams desktop, the call isn't considered as missed.
+
+> [!NOTE]
+> Your administrator must have enabled and [set up the in-app notifications](configure-microsoft-teams-dialer.md#configure-the-dialer) for you to view the missed calls.
+
+
 
 ## Transfer a Teams call (preview)
 

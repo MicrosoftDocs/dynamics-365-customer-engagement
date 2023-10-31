@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 01/14/2023
+ms.date: 09/28/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -73,6 +73,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
 |Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
+| Outlook Add-in Copilot (Preview) |Disable the use of copilot capabilities in Outlook for Field Service (Preview). If enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service (Preview).](faqs-wo-flw-copilot.md)|
 |  Work Order Starting Number |  Provide number from which the system starts the count of work orders. |
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
 |  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing will be determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
@@ -90,7 +91,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |  **Crew management section**    |                                                                                    |
 |  Default Crew Strategy  |   Select the crew strategy applied as a default to all [resource crews defined in the system](resource-crews.md). You can override the crew strategy for each resource crew independently.|
 |  **Mobile section**  |    |
-| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile application. Review the terms of use and confirm to enable the booking map. |
+| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile app module. Review the terms of use and confirm to enable the booking map. |
 
 ## RMA settings
 
@@ -208,7 +209,7 @@ The entity number length setting won't show if you use the [new auto-numbering f
 |  Entity Number Length  |   Enter the number of digits for entity numbers. For example, if you enter 5, the first work order number would be 00001.  |
 | Auto Allocate Estimated Products | When products are added to a work order before the work begins, the status of the work order product record defaults to *Estimated*. This setting determines whether the work order product record is set to *Allocated* when the line status is still *Estimated*, as opposed to *Used*. |
 |  Auto Geo Code Addresses |  Specify whether the system should automatically add the appropriate latitude and longitude values based on the account's address. For more information, go to [Turn on auto geocoding](turn-on-auto-geocoding.md).   |
-| Use Enhanced Background Processing (**Preview**) | Field Service includes various workflows that run in the background. Enable this setting to use Power Automate flows instead of some default Field Service workflows. Power Automate lets you connect and run workflows in Dynamics 365 apps and between third-party applications. You can automate actions such as delete records, schedule jobs, or approval flows. For Field Service specifically, using Power Automate in place of background processes related to agreements improves performance for long-waiting agreements and fixes complications if an agreement owner no longer has access to Dynamics 365. |
+| Use Enhanced Background Processing (**Preview**) | Field Service includes various system jobs that run in the background to perform various tasks, especially related to Agreements. Disable this setting to use the existing and established, GA quality workflows feature to handle these background jobs. If you would like to try out the preview Power Automate Flows feature instead, enable this setting. For Field Service, enabling this option may improve some complications if an Agreement owner no longer has access to Dynamics 365. However, this feature is still in Preview mode and is not yet as stable as Workflows. Additionally, there might still be design changes to this feature before it reaches maturity. |
 | Enable Address Suggestions   | Enable this setting to get suggestions when entering the addresses in various forms.  |
 | Product cost order   | Choose the order for product cost.   |
 | Work Order Subgrid Records Open as Popups | Specify if work order subgrid records open as a popup on work order form. Subentities of the work order entity: work order product, work order service, work order service task, work order incident, bookable resource booking, and time entry.   |

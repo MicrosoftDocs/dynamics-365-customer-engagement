@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) troubleshooting
 description: Learn how to troubleshoot issues in Dynamics 365 Field Service (Preview).
-ms.date: 07/31/2023
+ms.date: 09/01/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
 ms.author: jasonxian
@@ -76,8 +76,7 @@ I search for a work order by ID using the **Find by ID** box, but no results dis
 
 ### Resolution
 
-- The **Find by ID** box uses a strict match between what is typed in the box and the work order number. For example, “10” won’t find work order ID “00010”. Enter the full work order ID.
-- If a filter is applied before you search, clear the filters and then try the search again.
+If a filter is applied before you search, clear the filters and then try the search again.
 
 ## I don't know the user ID in an error message
 
@@ -87,7 +86,9 @@ As an admin, a user ID is listed in an error message that I can't identify.
 
 ### Resolution
 
-The user ID in Dataverse-related errors is the Field Service user ID, not the Azure Active Directory ID. The user ID is specific to the environment.
+[!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
+
+The user ID in Dataverse-related errors is the Field Service user ID, not the Microsoft Entra ID. The user ID is specific to the environment.
 
 1. Go to your specific Field Service environment.
 

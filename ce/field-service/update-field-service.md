@@ -23,6 +23,10 @@ Multiple updates are released throughout the year.
 > [!TIP]
 > Find information about new features and changes for upcoming releases in the [Dynamics 365 release plans](/dynamics365/release-plans/).
 
+## Early Access update
+
+Dynamics 365 releases major updates two months before the general rollout in an Early Access flight to evaluate upcoming changes. [Learn more about how to opt-in and update your org to Early Access]](/power-platform/admin/opt-in-early-access-updates).
+
 ## Dynamics 365 Field Service
 
 The Field Service app [updates automatically as part of platform updates](/power-platform/admin/general-availability-deployment).
@@ -41,9 +45,9 @@ You can also manually update the app right after release.
 
 To find the version number of your Field Service app, look in the app details under Dynamics 365 apps in the Power Platform admin center.
 
-## Field Service (Dynamics 365) mobile app
+## Field Service mobile app
 
-We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for updates to Field Service (Dynamics 365) and [install the latest version](mobile-power-app-overview.md).
+We recommend that you turn on automatic app updates on your mobile device. If you don't, you should regularly check your app store for mobile app updates and [install the latest version](mobile-power-app-overview.md).
 
 ## Universal Resource Scheduling
 
@@ -68,6 +72,6 @@ For more information, see [Manage the Resource Scheduling Optimization instance]
 ## Next steps
 
 - [Get started with Dynamics 365 Field Service](field-service-get-started.md)
-- [Use the Field Service (Dynamics 365) mobile app](mobile-power-app-use.md)
+- [Use the Field Service mobile app](mobile-power-app-use.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

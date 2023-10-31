@@ -1,10 +1,11 @@
 ---
-title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/10/2023
+title: Configure service-level agreements in Dynamics 365 Customer Service
+description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
+ms.date: 10/13/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -57,8 +58,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 > [!NOTE]
 > - In Unified Interface, the **Elapsed Time** and **Paused On** attributes of an SLA KPI Instance contain values equivalent to the **Onhold Time** and **Last Onhold Time** attributes respectively, of the target record, such as, case and account in the web client.
-> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** will no longer be calculated.
-
+> - Once the SLA KPI Instance reaches the terminal state (**Succeeded** or **Noncompliant**), the **Paused on** and **Elapsed Time** are no longer be calculated.
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 
@@ -80,11 +80,11 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
     1. In the site map, go to **Service Management**.
     1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
        
-       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item. 
+       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.
 
-2. Select **New**. The **New SLA KPI** page appears.
+1. Select **New**. The **New SLA KPI** page appears.
 
-3. Enter the following details on the **General** tab:
+1. Enter the following details on the **General** tab:
 
    - **Name**: The name of the SLA KPI.
 
@@ -94,18 +94,58 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
 
    - **KPI Field**: Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a first response should be sent to the customer, select **FirstResponseByKPI** in the list.
 
-   - **Applicable From**: Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
+   - **Applicable From**: Select a value based on which the warning and failure time are measured. For example, if you select **Created On**, the warning and failure start time for an SLA are calculated from the date and time when the entity was created.
 
-4. Select **Save**.
+1. Select **Save**.
 
-5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they'll be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
+1. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they're overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings continues to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
     > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
 
-6. Select **Activate**. The SLA KPI is saved and activated.
+1. Select **Activate**. The SLA KPI is saved and activated.
+
+When agents create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior, and is also applicable to custom entities.
+
+If you choose to show the entity name for your agents, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
+
+### Configure SLA KPI instance entity name through Advanced Find
+
+Perform the following steps to add a new column called **Name (Regarding)** that displays the name of the target entity of the SLA KPI Instance.
+
+1. Go to [Power Apps](https://make.powerapps.com/), and then go to **Settings** > **Advanced Find**.
+1. In the **Look For** list, select **SLA KPI Instances**.
+1. Select the **Field** as **Regarding ID**, and then select **Contains Data**.
+1. Go to **Edit Columns** > **Add columns**, and then select **Record Type** as **Regarding (Entity)**.
+1. Select **Name**, and then select **OK**.
+1. Select **Results**. You'll see the **Name (regarding)** column displaying the name of the entity.
+
+You can also use the following query to add a new column called **Name (Regarding)**.
+
+1. From **Advanced Find**, select **Download Fetch XML**.
+1. Paste the following query on the URL to see the full name of the target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
+Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [ URL encode the fetchxml]
+
+```
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+
+  <entity name="slakpiinstance">
+    <attribute name="name" />
+    <attribute name="status" />
+    <attribute name="regarding" />
+    <attribute name="failuretime" />
+    <attribute name="warningtime" />
+    <attribute name="succeededon" />
+    <attribute name="slakpiinstanceid" />
+    <order attribute="name" descending="false" />
+    <link-entity name="lead" from="leadid" to="regarding" link-type="inner" alias="ai">
+      <attribute name="fullname" />
+    </link-entity>
+  </entity>
+</fetch>
+```
 
 ## Create SLAs <a name="create-slas"></a>
 
@@ -116,9 +156,12 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 3. Configure actions for the SLA item.
 4. Activate the SLA.
 
-### Create an SLA 
+> [!NOTE]
+> SLAs that are created in either the web client or Unified Interface can be viewed in both the web client and Unified Interface, but can be edited only where they were created.
 
-You can create an SLA from the Customer Service admin center or Customer Service Hub app.
+### Create an SLA
+
+You can create an SLA from the Customer Service admin center or Customer Service Hub apps.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -136,15 +179,15 @@ You can create an SLA from the Customer Service admin center or Customer Service
        
       The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
-2. Select **New**. The **New SLA** page appears.
+1. Select **New**. The **New SLA** page appears.
 
-3. On the **General** tab, do the following:
+1. Enter the following details on the **General** tab::
 
    - **Name**: Enter a name for the SLA.
    - **Primary Entity**: Select a value in the box.
    - **Description**: Enter a description for the SLA.
 
-4. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as described in the following section.
+1. Select **Save**. The **SLA Items** section appears on the page, and the SLA is saved. You can perform the steps to create SLA items as described in the following section.
 
 ### Create an SLA item
 
@@ -168,11 +211,11 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
-3. On the **General** tab, enter the following details.
+3. Enter the following details on the **General** tab::
 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
-   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that will be considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that are considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 4. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
@@ -182,7 +225,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
   > [!IMPORTANT]
-  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message will be displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
+  > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message are displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
 
 6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
@@ -213,9 +256,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 
    c. Select **Switch**. The following condition steps are displayed for each of which you can configure a required action:
 
-     - **Is Nearing Non-Compliance**: Will run when the warning time is reached for the SLA.
-     - **Is Succeeded**: Will run when the SLA succeeds.
-     - **Is Non-compliant**: Will run when the SLA fails.
+     - **Is Nearing Non-Compliance**: Runs when the warning time is reached for the SLA.
+     - **Is Succeeded**: Runs when the SLA succeeds.
+     - **Is Non-compliant**: Runs when the SLA fails.
 
     d. Select **[Do not delete or update] Is Nearing Non-Compliance** > **Add an action**. The **Choose an action** area appears, in which you can configure the action that must be performed when the warning time has been reached for the SLA.
 
@@ -255,6 +298,6 @@ To understand how you can apply SLAs, see [Apply service-level agreements](apply
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](troubleshoot-sla-issues.md)  
-
+[Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,15 +1,18 @@
 ---
 title: View and understand the Agents report in Omnichannel real-time analytics
-description: Learn about the real-time agent insights report for supervisors in Omnichannel for Customer Service.
+description: Understand agent performance and optimize allocation in real-time with the Omnichannel Agents report.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/21/2023
-ms.custom: bap-template
+ms.date: 10/19/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
 ---
 
 # View and understand the Agents report in Omnichannel real-time analytics
@@ -18,9 +21,11 @@ feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?cat
 
 The **Agents** report consists of metrics that provide an overview of agent performance to help contact center managers optimize agent allocation in real time. This capability is crucial for ensuring that customers receive the best possible support.
 
-The **Agents** report provides information about agent capacity and status for the last 24 hours. By drilling down to view details such as capacity at each agent level, managers can quickly identify and allocate resources to address any staffing shortages. In this way, they help ensure that customers receive support when they need it.
+The **Agents** report provides information about agent capacity and status for the last 24 hours. By drilling down to view details such as capacity at each agent level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
 
-Supervisors can select the **All** filter to view agent performance across all channels. Alternatively, they can select a channel to view channel-specific agent performance. You can also filter areas by time, queue, time zone, and conversation status. For more information, go to [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+You can also sort agents by skills by using the **Skills** filter. In the Agent list section, when you hover over an agent name, the skill set and proficiency of the agent appears. You can review the skills and then assign the best agent required to solve the issue at hand.
+
+You can select the **All** filter to view agent performance across all channels. Alternatively, you can select a channel to view channel-specific agent performance. You can also filter areas by time, queue, time zone, and conversation status. For more information, go to [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 [Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -34,11 +39,14 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 
 ## Agent details drill-down
 
-From the **Agent list** grid on the dashboard, you can drill down to key metrics about agent details. You can also drill down to view specific insights about the performance of individual agents. Select an agent name in the **Agent list** grid, and then select **Detailed view**.
+> [!NOTE]
+> If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](developer/reference/entities/msdyn_agentstatus.md).
 
-Agent details are shown on a new page.
+You can drill down from the **Agent list** section on the dashboard to key metrics about agent details and view specific insights about individual agents' performance. Select an agent name in the **Agent list** grid, and then select **Detailed view**. Agent details are shown on a new page.
 
-From the agent details page, you can drill down further through **Conversations**. In this way, you can track how a conversation progressed and the customer sentiment that is associated with it. Through **Agent presence history**, you can view agent presence in real time.
+On the agent details page, you can view agent skills by proficiency, and agent availability by units and capacity profiles.
+
+You can drill down further through **Conversations** and track how a conversation progressed and the customer sentiment that is associated with it. Through **Agent presence history**, you can view agent presence in real time.
 
 [Learn more about the metrics in the Agent list grid and on the agent details page.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 

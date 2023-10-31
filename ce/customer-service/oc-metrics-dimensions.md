@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/21/2023
+ms.date: 10/19/2023
 ms.custom: bap-template
 ---
 
@@ -43,6 +43,14 @@ For every agent who is identified to work on a conversation and associated with 
 This section describes the different dimensions of the out-of-box omnichannel real-time analytics metrics.
 
 For information about how you can use these metrics to customize the visual display of your reports, go to [Customize visual display](customize-reports.md).
+
+### Skills
+
+Skills that have been assigned to agents.
+
+### Proficiency
+
+Agent's proficiency level for assigned skills.
 
 ### Capacity profile name
 
@@ -109,6 +117,24 @@ This dimension represents the name of the omnichannel workstream where the conve
 This dimension represents the name of the channel.
 
 ## Metrics
+
+### Average consult time
+
+This metric represents the average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the  hh:mm:ss format.
+
+#### Related metrics
+
+- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats.
+
+### Consult requests accepted
+
+This metric represents the total number of consult requests  accepted by the agents.
+
+#### Related metrics
+
+- **Consult acceptance rate**: The rate at which agents accept consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
+- **Consults requested**: The total number of consult requests sent to agents.
+- **Consult requested not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
 
 ### Conversation first wait time
 

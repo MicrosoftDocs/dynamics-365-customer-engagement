@@ -39,6 +39,10 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_conversationactionlocale](msdyn_conversationactionlocale.md)|
 |[msdyn_conversationmessageblock](msdyn_conversationmessageblock.md)|
 |[msdyn_conversationsuggestionrequestpayload](msdyn_conversationsuggestionrequestpayload.md)|
+|[msdyn_copilotinteraction](msdyn_copilotinteraction.md)|
+|[msdyn_copilotinteractiondata](msdyn_copilotinteractiondata.md)|
+|[msdyn_copilottranscript](msdyn_copilottranscript.md)|
+|[msdyn_copilottranscriptdata](msdyn_copilottranscriptdata.md)|
 |[msdyn_customengagementctx](msdyn_customengagementctx.md)|
 |[msdyn_decisioncontract](msdyn_decisioncontract.md)|
 |[msdyn_decisionruleset](msdyn_decisionruleset.md)|
