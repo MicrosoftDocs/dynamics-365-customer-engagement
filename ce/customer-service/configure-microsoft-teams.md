@@ -22,7 +22,35 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **Developer Portal**. More information: [Create and register an app](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal#register-an-app)
+- An app is created and configured in **Teams** > **Developer Portal**:
+
+   1. In **Teams**, open the **Developer Portal** app.
+
+      :::image type="content" source="media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
+   
+   1. In **Developer Portal**, create a new app or import an existing one.
+
+       :::image type="content" source="media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
+
+   1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
+
+   1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
+      > [!NOTE]
+      > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
+
+       :::image type="content" source="media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
+
+   1. Select **App features** under **Configure** section, and then select **bot**.
+
+   1. Enter the bot ID from omnichannel, and then select **Save**.
+
+   1. Select **Publish** in the top-right corner of the screen, and then on the **Publish your app** page, select **Download the app package**.
+
+   1. In the left pane, select **Apps**, and then select **Manage your apps**.
+
+   1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
+
+      The Teams app is installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.  
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
