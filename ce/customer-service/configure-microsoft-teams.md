@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel in Omnichannel for Customer Service
 description: Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service.
-ms.date: 04/26/2023
+ms.date: 10/31/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -50,7 +50,7 @@ Make sure that the following prerequisites are met:
 
    1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
 
-      The Teams app is installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.  
+      The Teams app is installed on your Teams desktop client, which allows you to send and receive messages in the Teams app.  
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
