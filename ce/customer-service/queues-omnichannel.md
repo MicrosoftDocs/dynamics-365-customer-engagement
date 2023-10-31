@@ -71,9 +71,9 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those agents who have the skills that were identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
-   - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
-   - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
+   - **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
+   - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
+   - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
 1. To manage overflow of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
