@@ -69,7 +69,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    -  View color coded **Case Status** fields and **Priority** icons.
    - Select **Save and Resolve** at the top of the form to save the case and initiate the case resolution process.
     
-    :::image type="content" source="media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="media/enh-case-newcase.png":::
+   :::image type="content" source="media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="media/enh-case-newcase.png":::
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
