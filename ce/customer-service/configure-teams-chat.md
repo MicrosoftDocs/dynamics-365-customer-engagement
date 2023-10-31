@@ -312,7 +312,7 @@ As an admin, you can enable users to view and easily join chats that are connect
 
 The ability for users to join existing chats related to cases is especially useful for the following scenarios:
 
-- **Case transfers**: If an agent has onboarded to a case that was previously handled by another agent, they can join existing connected chats to better understand the context of the case. They can see the steps the previous agent took, and then continue to collaborate with their relevant colleagues.
+- **Case transfers**: If an agent has onboarded to a case that another agent previously handled, they can join existing connected chats to better understand the context of the case. They can see the steps the previous agent took, and then continue to collaborate with their relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
 **To turn on or off the join chat capability for a record type**:
