@@ -34,6 +34,8 @@ Your administrator must [turn on and configure Copilot](enable-setup-copilot.md)
 
 ## Open Copilot
 
+You can open Copilot from the side panel or as a standalone page. The standalone page gives you an immersive experience and helps you ask questions without any distractions, in full screen mode. 
+
 From your Dynamics 365 app, select the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar to open the Copilot pane.
 
 ## Chat with Copilot
