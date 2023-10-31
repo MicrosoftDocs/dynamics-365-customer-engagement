@@ -40,7 +40,7 @@
         href: sales-previews-in-trial.md
       - name: Explore features included in the trial
         href: features-in-trial.md
-      - name: Trial FAQs
+      - name: Trial FAQ
         href: sales-trial-faq.md
   - name: Buy
     href: buy-dynamics-365-sales.md 
@@ -165,13 +165,11 @@
       items:
       - name: Copilot overview
         href: copilot-overview.md
-      - name: Enable and setup Copilot
+      - name: Enable and configure Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
-      - name: Configure Copilot capabilities
-        href: configure-sales-copilot.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
-      - name: Copilot FAQs
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -710,7 +708,7 @@
         href: compose-send-email-copilot.md
       - name: View and copy email summary
         href: view-copy-email-summary.md
-      - name: Copilot FAQs
+      - name: Copilot in Dynamics 365 Sales FAQ
         href: sales-copilot-faq.md
     - name: Collaboration
       items:
@@ -1316,7 +1314,7 @@
       href: learning-functional-consultant.md
     - name: Partner Sales and Marketing
       href: learning-sales.md
-- name: Troubleshooting and FAQs
+- name: Troubleshooting and FAQ
   items:
     - name: Dynamics 365 Sales Troubleshooting guide
       href: troubleshooting.md
@@ -1348,9 +1346,9 @@
       href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting Sales Professional
       href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
-    - name: Sales FAQs
+    - name: Sales FAQ
       href: faq-sales.yml
-    - name: Sales premium FAQs
+    - name: Sales premium FAQ
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
@@ -1360,9 +1358,9 @@
   items:
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQ for summarization in Copilot
+    - name: FAQ about summarization in Copilot
       href: faqs-sales-copilot-for-summarization.md
-    - name: FAQ for email in Copilot
+    - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md      
 - name: Resources for other Sales apps
   items:
