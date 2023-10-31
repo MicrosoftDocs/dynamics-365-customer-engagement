@@ -16,38 +16,6 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 
 When the feature is enabled for an app, when they work on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
-## Prerequisites
-
-To use Teams chat in Customer Service, you must first set it up in the Developer Portal.
-
-1. In **Teams**, open the **Developer Portal** app.
-
-   :::image type="content" source="media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
-   
-1. In **Developer Portal**, create a new app or import an existing one.
-
-    :::image type="content" source="media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
-
-1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
-
-1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
-   > [!NOTE]
-   > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
-
-    :::image type="content" source="media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
-
-1. Select **App features** under **Configure** section, and then select **bot**.
-
-1. Enter the bot ID from omnichannel, and then select **Save**.
-
-1. Select **Publish** in the top-right corner of the screen, and then on the **Publish your app** page, select **Download the app package**.
-
-1. In the left pane, select **Apps**, and then select **Manage your apps**.
-
-1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
-
-   The Teams app is installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.
-
 ## Enable or disable Teams chat
 
 If you’re using the Customer Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use it in other customer engagement apps, you must manually enable it and it requires certain permissions to access Teams data. Review the following sections to learn more.
