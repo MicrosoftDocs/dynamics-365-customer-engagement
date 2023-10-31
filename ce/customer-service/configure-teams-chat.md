@@ -1,6 +1,6 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
-description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service."
 ms.date: 10/31/2023
 author: lalexms
 ms.author: laalexan
@@ -22,15 +22,19 @@ To use Teams chat in Customer Service, you must first set it up in the Developer
 
 1. In **Teams**, open the **Developer Portal** app.
 
-  
+   :::image type="content" source="media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
    
 1. In **Developer Portal**, create a new app or import an existing one.
+
+    :::image type="content" source="media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
 
 1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
 
 1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
    > [!NOTE]
    > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
+
+    :::image type="content" source="media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
 
 1. Select **App features** under **Configure** section, and then select **bot**.
 
