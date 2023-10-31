@@ -46,7 +46,7 @@ To use Teams chat in Customer Service, you must first set it up in the Developer
 
 1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
 
-   The Teams app should be installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.
+   The Teams app is installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.
 
 ## Enable or disable Teams chat
 
