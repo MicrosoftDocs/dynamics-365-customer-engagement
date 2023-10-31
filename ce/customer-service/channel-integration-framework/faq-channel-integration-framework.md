@@ -80,7 +80,7 @@ No. Dynamics 365 Channel Integration Framework APIs are specifically designed fo
 
 ### Can Dynamics 365 Channel Integration Framework API be used without an associated channel provider?
 
-No. Dynamics 365 Channel Integration Framework API shouldn't be used without an associated channel provider.
+No. You can't use Dynamics 365 Channel Integration Framework API without an associated channel provider.
 
 ## Dynamics 365 Channel Integration Framework 2.0
 
