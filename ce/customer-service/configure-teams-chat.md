@@ -386,7 +386,7 @@ Automatic event updates can’t fully render inline images in rich text fields.
 
 You can configure the ability to sync data from Teams to Dataverse so that agents can see chat entries in the timeline when they start a connected chat or connect an existing chat to a record. Agents see the chat appear as a new activity on the timeline. It shows details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
 
-Additionally, if the agent assigned to the record changes, the new agent (who may not have been part of the chat originally), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
+Additionally, if the agent assigned to the record changes, the new agent (who might not have been part of the chat originally), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
 
 ### Prerequisites
 
