@@ -1,5 +1,5 @@
 ---
-title: Enable enhanced case forms for multisession apps | MicrosoftDocs 
+title: Enable enhanced case forms for multisession apps 
 description: Learn about enabling the enhanced case forms for multisession apps.
 author: gandhamm 
 ms.author: mgandham
@@ -12,14 +12,14 @@ ms.custom: bap-template
 
 # Enable enhanced case forms for multisession apps
 
-Enable the enhanced **Quick case form** and **Full case form**  options, so that your agents can see the enhanced quick case form and full case form, when they create a new case in Customer Service workspace.
+Enable the enhanced **Quick case form** and **Full case form**  options, so that the enhanced quick case form and full case form open when agents create a new case in the Customer Service workspace.
 
 > [!NOTE]
-> The enhanced case creation experience is available in the Customer Service workspace app only.
+> The enhanced case creation experience is available only in the Customer Service workspace app.
 
 ## Enable enhanced case experience
 
-To enable the enhanced case forms, perform the following steps:
+To enable the enhanced case forms, follow these steps:
 
 1. In Customer Service admin center, go to **Case Settings**.
 1. Select **Manage** for **Enhanced case experience**.
@@ -40,11 +40,13 @@ To enable the enhanced case forms, perform the following steps:
 
 ## View and use default components available on enhanced full case form
 
-The following components are available out of the box in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
+The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
 
- :::image type="content" source="media/runtime-exp-mini.png" alt-text="runtime experience for the " lightbox="media/runtime-exp.png":::
+ :::image type="content" source="media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="media/runtime-exp.png":::
 
-|Legend|Component   | Description   | Entity   |  Additional actions| Additional information|
+Legend:
+
+|Number|Component   | Description   | Entity   |  Additional actions| Additional information|
 |------ |----------|-----------|----------|-----------|
 | 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component.| Available for all entities.| Not Applicable. | [Configure components to display case associations](add-associated-grid-control.md)|
 | 2 | **Attachment Control** | Enables you to upload and display attachments. | You can add this control on a case form to upload attachments to a case and to display attachments uploaded directly,through email, notes, and conversations.<br> For all other entities, add this component to display the attachments uploaded through email and notes. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |[Use Attachment Control to customize forms](add-attachment-control.md)|
@@ -59,5 +61,5 @@ You can add these default components to other forms and customize them. More inf
 
 ### See also
 
-[Case management in multisession apps](enh-casemgmt-csw.md)   
+[Case management in multisession apps](enh-casemgmt-csw.md)<br>
 [Get started with Customer Service workspace](csw-overview.md)
