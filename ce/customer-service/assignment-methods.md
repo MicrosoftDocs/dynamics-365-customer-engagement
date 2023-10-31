@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 10/15/2023
+ms.date: 10/31/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -52,7 +52,7 @@ The following assignment methods are available out of the box:
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
-- **Round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
 
   In scenarios when multiple agents match the work item requirement, and there's a tie in the "order by", like, multiple matched agents with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
 
@@ -63,6 +63,8 @@ The following assignment methods are available out of the box:
   The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. For example, consider two agents who are configured in a queue, and the first one has completed a call five minutes ago while the second one has just completed a call. Now, when a new call comes up, the system assigns it to the first agent, as he has finished his activity first. The wrap-up settings configured in the workstream also account for determining the least active agent.
 
   Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
+
+  You can also build [custom reports](model-customize-reports.md) to track agents "last conversation end time" and understand the assignment distribution across agents.
 
     > [!IMPORTANT]
     >

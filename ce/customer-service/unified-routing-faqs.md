@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 10/15/2023
+ms.date: 10/31/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -131,21 +131,18 @@ The feature is available for the voice channel only.
 
 The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
 
-### Is presence used in determining the least-active agent?
 
-No, presence isn't used. Only capacity release information is taken into account.
-
-### Does the agent sign-in time affect in the calculation of the least-active agent?
-
-The agent’s last capacity release time only affects the time used by the least-active assignment method. The agent sign-in times don't impact the capacity release time.
-
-### How is a tie-breaker scenario resolved if two or more agents match the idle time?
+### How is a tie-breaker scenario resolved if two or more agents have the same capacity release time?
 
 If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner. 
 
 ### Can I see diagnostics for routing to the least-active agent?
 
 Yes, the assignment method stage displays the assignment method that's used.
+
+### How does routing to the least active agent work when a new agent signs in?
+
+When a new agent signs in to the Customer Service workspace app, their "last capacity release time" won't be available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item.
 
 ## Intelligent skill finder
 
