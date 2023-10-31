@@ -1,94 +1,56 @@
 ---
-title: Work assignment
-description: Work assignment helps in creating segments to group records and prioritize them as per your sales strategy. 
+title: Work assignment overview
+description: Learn how work assignment in Dynamics 365 Sales helps prioritize records and assign them to sellers automatically with assignment rules and segments.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: overview 
-ms.collection: get-started 
+ms.topic: overview
+ms.collection: get-started
 ms.date: 08/25/2023
-ms.custom: bap-template 
+ms.custom:
+- bap-template
+- ai-gen-docs-bap
+- ai-gen-desc
+- ai-seo-date:10/19/2023
 ---
 
-# Work assignment
+# Work assignment overview
 
-Work assignment helps in creating [segments](#what-are-segments) to group records and prioritize them as per your sales strategy. Further, you can create a set of rules ([assignment rules](#what-are-assignment-rules)) to automatically assign records to sellers and connect records to sequences to guide sellers with their next steps. 
+Work assignment is a feature of Dynamics 365 Sales that automates the assignment of leads, opportunities, and insights to your sales team. Easily create segments to group and prioritize new or updated leads and opportunities. Connect segments to sequences of activities to guide sellers through your sales process. Finally, create rules to automatically assign records to sellers, freeing your time for more productive work.
+
+Work assignment is available in sales accelerator version 9.1.23074.10021 and is rolling out in phases in different regions.
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
+| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-## Review prerequisites  
+## Prerequisites
 
-Before you start, be sure that the sales accelerator is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+[Sales accelerator is configured in your organization](enable-configure-sales-accelerator.md).
 
-## What are segments?
+## Work assignment components
 
-Segments help you to categorize records based on specific criteria such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences and create assignment rules to automatically assign sellers to records. You can create segments for all entities, including custom entities.
+Work assignment automation is built around three components: *segments*, *sequences*, and *assignment rules*.
 
-You can use the segment builder to:
+- **Segments** categorize records based on specific criteria, such as location and source. For instance, you might have a segment for leads from trade shows in the United Kingdom.
 
-- [Create and activate segments](wa-create-and-activate-a-segment.md).
-- [Manage assignment rules](#what-are-assignment-rules).
-- [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md).
-- [View and edit properties of a segment](wa-view-details-segment.md).
-- [Edit a segment](wa-edit-a-segment.md)
-- [Prioritize a segment](prioritize-segment.md).
-- [Delete or deactivate a segment](wa-delete-deactivate-a-segment.md).
+- **Sequences** are the steps that sellers follow as they progress through the sales journey. Defined sequences help new sellers be more effective faster. They make sure your entire sales team&mdash;from the most junior salesperson to veteran sellers&mdash;is on the same page.
 
-## What are assignment rules?
+  Segments connect records to sequences. For instance, your sales process might be something like this: "If a lead comes from a trade show in the UK" (segment), always "follow up with an email within three business days" (sequence).
 
-Assignment rules enable new leads, opportunities, and seller insights to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
+- **Assignment rules** are sets of conditions that automatically assign matching records to sellers or sales teams. You can create assignment rules for opportunities, leads, and insights.
 
-Assignment rules are supported for lead, opportunity, and suggestions record types.
+  For instance, you might have a rule that assigns all leads from trade shows in the UK to your London sales team.
 
->[!NOTE]
->For more information about seller insights, see [Get seller insights to improve seller effectiveness](seller-insights-intro.md)
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+## Next step
 
-You can create rules that match attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
+[Configure work assignment](wa-work-assignment-manage-settings.md).
 
-You can use the assignment rules designer to do the following tasks:
+### See also
 
-- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
-- [Edit an assignment rule](wa-edit-assignment-rule.md).
-- [Change priority of an assignment rule](wa-change-priority-assignment-rule.md).
-- [Delete or deactivate an assignment rule](wa-delete-deactivate-assignment-rule.md). 
-
-## Permissions required 
-
-The following permissions are required to perform tasks in the work assignment feature.
-
-| Task | Entity name | Privileges required |
-|------|-------------|---------------------|  
-| Apply seller attributes to sellers | Attribute | Read |
-| | Attribute Value | Read, Append, and Append To |
-| | User | Read, Append, and Append To |
-| Assign unassigned records from monitor tab | Sales routing run, Segment, Team, and User | Read |
-|| | **Note**: To assign record to a seller you must assign privileges on that record. |
-| Create, connect, disconnect sequence to segment | Segment | Read, Write, and Append |
-|| Sequence | Read, Write, Create,  Append, and Append to |
-|| Sequence Stat and Sequence Target Step | Read |
-|| Sequence Template | Append To |
-| Create, modify, or delete assignment rules | Assignment Rule | Read, Create, Write, Delete, and Append |
-|| Attribute, Attribute Value, Team, and User | Read |
-|| Segment | Read and Append To |
-| Create, modify, or delete segments | Segment | Read, Create, Write, and Delete |
-| Create, modify, or delete seller attributes | Attribute | Read, Create, Write, Delete, and Append To |
-|| Attribute Value | Read, Create, Write, Delete, and Append |
-| View assigned or unassigned records in monitor tab | Sales routing run and Segment | Read |
-| View assignment rules | Assignment Rule, Attribute, Attribute Value, Segment, Team, and User | Read |
-| View segments | Segment | Read |
-| View seller attributes | Attribute and Attribute Value | Read |
-| View seller capacity | Assignment Map and User | Read |
-| View sequences connected to segment | Segment, Sequence, Sequence Stat, Sequence Target Step, and Sequence Template | Read |
-| Update seller capacity | Assignment Map | Read and Write |
-| | User | Read |
-
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
-
+- [Get seller insights to improve seller effectiveness](seller-insights-intro.md)

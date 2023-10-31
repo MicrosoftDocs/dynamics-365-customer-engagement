@@ -25,7 +25,7 @@ The Dynamics 365 Sales mobile app supports push notifications that can be create
 
 - **Mobile app**: Select **Sales**.
 - **Your app**: Select the app that you want to set up the notification for.
-- **Recipients Item-1**: Enter the user's email or the user's Azure Active Directory object ID.
+- **Recipients Item-1**: Enter the user's email or the user's Microsoft Entra ID object ID.
 - **Message**: Enter the notification message.
 - **Open app**: Select **Yes**.
 - **Entity**:  Select which table the notification is for.

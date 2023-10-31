@@ -3,7 +3,7 @@ title: "createTab method (app profile manager) JavaScript API Reference | Micros
 description: "Learn about the createTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
-ms.date: 08/09/2023
+ms.date: 10/09/2023
 ms.topic: reference
 ---
 
@@ -83,6 +83,32 @@ Creates a new tab in the focused session passing a web resource as parameter for
 ```JavaScript
 var tabInput = {templateName: "msdyn_omnichannel_kbsearch", isFocused: true};
 Microsoft.Apm.createTab(tabInput);
+```
+
+### Create a tab with a web resource passing web resource parameter
+
+Creates a new tab in the focused session passing a tab template and web resource parameter as app tab template parameters.
+
+```
+var tabInput = {
+    templateName:"msdyn_omnichannel_kbsearch",
+    appContext: new Map().set("data", "Contoso"),
+    isFocused: true}; 
+Microsoft.Apm.createTab(tabInput);
+
+```
+
+### Create a tab with a web resource passing web resource name and web resource parameter
+
+Creates a new tab in the focused session passing a tab template, web resource name, and web resource parameter as app tab template parameters.
+ 
+```
+var tabInput = {
+    templateName:" new_tabtemplate_customwebresource",
+     appContext: new Map().set("data", " Contoso ").set("webresourceName","msdyn_kbsearchpagehost.html"),
+    isFocused: true}; 
+Microsoft.Apm.createTab(tabInput);
+
 ```
 
 ### Create a tab with Power Apps component framework control page

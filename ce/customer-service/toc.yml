@@ -114,6 +114,8 @@
       href: users-user-profiles.md
     - name: Manage capacity profiles
       href: capacity-profiles.md
+    - name: Configure custom limits for capacity profiles
+      href: capacity-profiles.md#custom-limits
     - name: Delete historical data of agent capacity updates
       href: manage-historical-data-capacity-updates.md
     - name: Manage personas and custom security roles
@@ -340,10 +342,14 @@
     items: 
     - name: Automatically create or update records
       href: automatically-create-update-records.md
+    - name: Use activity monitor to review and track rules
+      href: manage-activity-arc.md     
     - name: Set up rules to create or update records in legacy app
       href: set-up-rules-to-automatically-create-or-update-records.md
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
+    - name: Create a new case when email subject changes
+      href: arc-email-sub-chg.md
   - name: Service-level agreements
     items:
     - name: Overview of service-level agreements
@@ -360,6 +366,8 @@
           href: set-up-holiday-schedule.md
         - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
+        - name: SLA time calculation scenarios
+          href: sla-time-scenarios.md
       - name: Configure service-level agreements
         href: define-service-level-agreements.md
       - name: Apply service-level agreements
@@ -440,6 +448,16 @@
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
       - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+  - name: Inbox
+    items:
+    - name: Administrator experience
+      items:
+      - name: Configure the inbox
+        href: configure-inbox.md
+    - name: Agent experience
+      items:
+      - name: Use the inbox
+        href: use-inbox.md
   - name: Timeline
     items: 
     - name: Administrator experience
@@ -566,6 +584,8 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
+      - name: Enable Join a Teams call for agents
+        href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -580,6 +600,8 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use auto-summarization for ongoing conversations
         href: cs-ai-generated-summary.md
+      - name: Use Join a Teams call to enhance customer conversations
+        href: join-a-teams-call.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
@@ -604,6 +626,10 @@
     items:
     - name: Introduction to the voice channel
       href: voice-channel.md
+    - name: Supported cloud locations
+      href: voice-channel-region-availability.md
+    - name: Supported languages and locale codes
+      href: voice-channel-supported-languages.md
     - name: Administrator experience
       items:
       - name: Install the voice channel
@@ -628,6 +654,8 @@
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Support emergency calls made by agents
+        href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
         items:
         - name: Overview of Nuance Gatekeeper Integration
@@ -678,10 +706,6 @@
           href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported cloud locations
-        href: voice-channel-region-availability.md
-      - name: Supported languages and locale codes
-        href: voice-channel-supported-languages.md
     - name: Agent experience
       items:
       - name: Call a customer
@@ -700,8 +724,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-    - name: Emergency calling in the voice channel
-      href: voice-channel-emergency-calling.md
     - name: Pricing scenarios for voice calling
       href: voice-channel-pricing-scenarios.md  
     - name: FAQ about the voice channel
@@ -714,6 +736,8 @@
         href: set-up-chat-widget.md
       - name: Configure a chat widget
         href: add-chat-widget.md
+      - name: Enable resizing of communication panel
+        href: csac-resize-cp.md       
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
       - name: Configure agent display name
@@ -726,6 +750,8 @@
         href: configure-reconnect-chat.md
       - name: Understand disconnected chats
         href: oc-conv-state-chat-disconnect.md   
+      - name: Understand conversation states
+        href: oc-conversation-state.md 
       - name: Show customers their position in a queue
         href: show-queue.md
       - name: Show customers their average wait time in a queue
@@ -755,9 +781,7 @@
       - name: Search, link, and unlink a record
         href: oc-search-link-unlink-record.md
       - name: Take notes for conversation
-        href: oc-take-notes.md
-      - name: Understand conversation states
-        href: oc-conversation-state.md     
+        href: oc-take-notes.md    
       - name: View call options and visual engagement in live chat
         href: call-options-visual-engagement.md
       - name: Monitor real-time customer sentiment
@@ -808,7 +832,7 @@
         href: start-proactive-chat.md
       - name: Send authentication token
         href: send-auth-token-starting-chat.md       
-      - name: Configure automatic closure of conversations
+      - name: Configure automatic closure of conversations using web API
         href: auto-close-conversation.md
       - name: Send custom context during live chat
         href: send-context-starting-chat.md
@@ -914,6 +938,8 @@
       href: configure-post-conversation-survey.md
     - name: Identify customers automatically
       href: record-identification-rule.md
+    - name: Close conversations automatically
+      href: auto-close-conversation-powerapps.md
     - name: Manage authentication settings
       items:
       - name: Configure authentication settings for chat  
@@ -988,24 +1014,24 @@
         href: smart-assist-scenario.md
       - name: Retrieve and format rich messages
         href: developer/reference/methods/message-object.md
-  - name: Copilot in Customer Service (preview)
+  - name: Copilot in Customer Service 
     items: 
     - name: Administrator experience
       items: 
       - name: Manage Copilot features in Customer Service
         href: configure-copilot-features.md     
       - name: Enable case summaries
-        href: configure-copilot-features.md#enable-case-summaries     
+        href: copilot-enable-summary.md#enable-case-summaries  
       - name: Enable conversation summaries
-        href: configure-copilot-features.md#enable-conversation-summaries
-      - name: Enable ask a question
-        href: configure-copilot-features.md#enable-ask-a-question
-      - name: Enable draft a response
-        href: configure-copilot-features.md#enable-draft-a-response
-      - name: Enable write an email
-        href: configure-copilot-features.md#enable-write-an-email
+        href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Enable ask a question 
+        href: copilot-enable-help-pane.md#enable-ask-a-question
+      - name: Enable write an email 
+        href: copilot-enable-help-pane.md#enable-write-an-email
+      - name: Enable draft a response (preview)
+        href: copilot-enable-help-pane.md#enable-draft-a-response-preview     
       - name: View feedback data
-        href: configure-copilot-features.md#enable-write-an-email        
+        href: configure-copilot-features.md#record-feedback        
       - name: Make Copilot available to agents
         href: configure-copilot-features.md#make-copilot-available-to-agents
       - name: Copilot data movement across geographies
@@ -1015,27 +1041,27 @@
       - name: Use Copilot to solve customer issues
         href: use-copilot-features.md
       - name: Summarize cases
-        href: use-copilot-features.md#summarize-cases
+        href: copilot-use-summary.md#summarize-cases
       - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
-      - name: Summarize conversations
-        href: use-copilot-features.md#summarize-conversations
-      - name: Ask a question
+        href: copilot-use-summary.md#summarize-conversations
+      - name: Ask a question 
         href: use-copilot-features.md#ask-a-question
-      - name: Draft a chat response
-        href: use-copilot-features.md#draft-a-chat-response
       - name: Draft emails
-        href: use-copilot-features.md#draft-emails                      
+        href: use-copilot-features.md#draft-emails        
+      - name: Draft a chat response (preview)
+        href: use-copilot-features.md#draft-a-chat-response-preview
     - name: Supervisor experience
       items: 
       - name: View analytics for Copilot impact
         href: copilot-analytics-report.md
     - name: Customizer experience
-      items: 
+      items:
+      - name: Modify fields used to generate case summary and draft emails
+        href: copilot-map-custom-fields.md 
+      - name: Configure copilot features for custom case forms and custom apps
+        href: copilot-powerapps-settings.md  
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-      - name: Modify fields used to generate case summary
-        href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps       
   - name: Bots
@@ -1913,6 +1939,8 @@
       href: faq-copilot-for-customer-service.md 
   - name: Troubleshoot issues in Customer Service
     items: 
+    - name: Check contact center health
+      href: check-contact-center-health.md
     - name: Issue converting an email to a case
       href: troubleshoot-case-email-issue.md
     - name: Troubleshoot SLA issues

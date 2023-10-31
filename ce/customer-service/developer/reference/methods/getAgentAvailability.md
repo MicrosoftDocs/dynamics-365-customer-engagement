@@ -1,7 +1,7 @@
 ---
-title: "getAgentAvailability (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: "Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
-ms.date: 06/19/2023
+title: getAgentAvailability (JavaScript API reference) for Omnichannel for Customer Service
+description: Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference.
+ms.date: 10/20/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -15,7 +15,7 @@ ms.author: mgandham
 > [!NOTE]
 > - Listen for the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 > - This method can be called multiple times from the client side when customer input changes. The client side cache is refreshed every 2 minutes or when the customer context parameters change.
-> - This method is supported for authenticated chat only.
+> - This method can be called 100 times per minute per organization only. If you've exceeded the limit, you'll see the http 429 response status code that indicates that you've sent too many requests in a specified amount of time.
 
 ## Syntax
 
@@ -30,11 +30,12 @@ None
 | Name                     |   Type      |     Description            |
 |----                      |----         |----------------------------|
 |`queueId`                 | String      |  The target queue where the request will be routed​ based on routing rule configuration and input data (value of entity and context which are part of routing rule are provided).   |
-|`isWithinOperatingHours`  | Boolean     | Indicates whether the queue is within operating hours.  |
-|`availableNext`           | DateTime    | The time (UTC) when the queue will be available next if it is outside operating hours​.|
-|`availableUntil`          | DateTime    | The time (UTC) until when the queue will be available.  |
+|`isQueueAvailable`  | Boolean     | Displays:<br> - TRUE if the queue is within operating hours.<br> - FALSE if the queue is outside operating hours.   |
+|`StartTimeOfNextOperatingHour`           | DateTime    | The start time (UTC) of operating hours for the queue if it's outside operating hours​. During operating hours, a value of 01-01-0001 is returned.|
+|`EndTimeOfNextOperatingHour`          | DateTime    | The time (UTC) when operating hours end for the queue if it's outside operating hours. During operating hours, a value of 01-01-0001 is returned.|
+| `nexttransitiontime`        | DateTime      | The time (UTC) when the queue is operational again if it's outside operating hours. The time when the queue is not operational is displayed during operating hours.|
 |`positionInQueue`         | Number      | The position in queue for a customer waiting behind other customers in the same queue​. |
-| `isAgentAvailable`       | Boolean     | Indicates whether agents in the queue are currently available to take requests based on configured routing and assignment rules for workstream​. |
+| `isAgentAvailable`       | Boolean     | Displays: <br> - TRUE if agents in the queue are currently available to take requests based on configured routing and assignment rules for workstream​.<br> - FALSE if agents aren't available to take requests. |
 | `averageWaitTime`        | Number      | Average wait time in minutes for customers in the target queue based on past 48-hour data.|
 
 ## Example
