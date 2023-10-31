@@ -86,7 +86,9 @@ As an admin, a user ID is listed in an error message that I can't identify.
 
 ### Resolution
 
-The user ID in Dataverse-related errors is the Field Service user ID, not the Azure Active Directory ID. The user ID is specific to the environment.
+[!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
+
+The user ID in Dataverse-related errors is the Field Service user ID, not the Microsoft Entra ID. The user ID is specific to the environment.
 
 1. Go to your specific Field Service environment.
 

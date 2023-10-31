@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 01/14/2023
+ms.date: 09/28/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -73,6 +73,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
 | Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
 |Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
+| Outlook Add-in Copilot (Preview) |Disable the use of copilot capabilities in Outlook for Field Service (Preview). If enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service (Preview).](faqs-wo-flw-copilot.md)|
 |  Work Order Starting Number |  Provide number from which the system starts the count of work orders. |
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
 |  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing will be determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
@@ -90,7 +91,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |  **Crew management section**    |                                                                                    |
 |  Default Crew Strategy  |   Select the crew strategy applied as a default to all [resource crews defined in the system](resource-crews.md). You can override the crew strategy for each resource crew independently.|
 |  **Mobile section**  |    |
-| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile application. Review the terms of use and confirm to enable the booking map. |
+| Enable Booking Map for Field Service Mobile | Turn on an external service to enable the booking map in the Field Service Mobile app module. Review the terms of use and confirm to enable the booking map. |
 
 ## RMA settings
 

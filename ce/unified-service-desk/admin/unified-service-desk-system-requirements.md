@@ -2,7 +2,7 @@
 title: "Unified Service Desk system requirements | MicrosoftDocs"
 description: "This topic lists the software and hardware requirements you need to install and use Unified Service Desk."
 ms.date: 05/30/2023
-ms.topic: get-started-article
+ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.custom: 

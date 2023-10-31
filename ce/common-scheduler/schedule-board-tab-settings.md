@@ -1,14 +1,11 @@
 ---
-title: "Define schedule board tab settings in Universal Resource Scheduling"
+title: Configure the schedule board tab settings in Universal Resource Scheduling
 description: "Edit the layout and functions of schedule board tabs to meet your business needs. Learn how to configure settings related to maps, colors, icons, and more."
-ms.date: 07/15/2019
+ms.date: 10/20/2023
 ms.subservice: common-scheduler
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: m-hartmann
-ms.author: mhart
+ms.topic: conceptual
+author: mkelleher-msft
+ms.author: mkelleher
 ms.reviewer: mhart
 ---
 

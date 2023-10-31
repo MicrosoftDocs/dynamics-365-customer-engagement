@@ -309,8 +309,10 @@ The Get device events action fetches events from the device [service history](se
 
 The following table describes the input parameters of the Get device events action.
 
+| JSON property | Type | Details |
+| --- | --- | --- |
 | From | datetime | The starting time of the reading (measurement) in ISO format; for example, "2020-04-10T13:51:55.781Z" |
-| To | datetime | The ending time of the reading (measurement) in ISO format|
+| To | datetime | The ending time of the reading (measurement) in ISO format |
 | IoTDeviceId | string | The GUID device ID (msdyn_iotdevice) in Connected Field Service, converted to a string |
 
 Sample input:

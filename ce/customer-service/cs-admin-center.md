@@ -1,12 +1,12 @@
 ---
-title: Customer Service admin center
-description: Get started with Customer Service admin center.
-ms.date: 06/16/2023
+title: Customer Service admin center (contains video)
+description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
+ms.date: 10/24/2023
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer:
 ms.custom: bap-template
 ---
 
@@ -32,8 +32,8 @@ The enhancements include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0]
+
 ## Prerequisites
 
 You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
@@ -131,3 +131,4 @@ See the [FAQ about Customer Service admin center](faq-customer-service-admin-cen
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
 [Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  
+[Check your contact center health](check-contact-center-health.md)  

@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 09/15/2023
+ms.date: 10/13/2023
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -23,8 +23,6 @@ Focused view allows you to view and manage account, contact, lead, and opportuni
 
 Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
 
-You can't customize how work items are shown in focused view. You can customize the appearance of work items in sales accelerator, however. Work items are displayed in focused view according to that customization. [Learn how to customize work items](customize-work-list-card.md#customize-work-items).
-
 ## Open the focused view  
 
 Focused view is a centralized place to view all your open records that have activities that are due or pending, without having to navigate through multiple screens.
@@ -36,6 +34,7 @@ Focused view is a centralized place to view all your open records that have acti
 >[!NOTE]
 >- The **Focused view** option isn't displayed if a record is selected.
 >- Focused view is not available for the Activities entity.
+>- The records display all active activities that are created in the last 120 days. 
 
 ## Understand the focused view
 
@@ -45,7 +44,7 @@ Focused view consists of three sections.
 
  	  You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view.  
 
-    Filters and sorting that are available here are similar to the list view. Also, you can add an advanced filter option to the available filters.  
+    Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as filter. If you want to add more filters to the view, you can create an advanced filter.
 
     Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options. 
 
