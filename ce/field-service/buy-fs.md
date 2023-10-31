@@ -21,7 +21,25 @@ There are two types of licenses for Field Service:
 - The standard Dynamics 365 Field Service license that includes all core features and capabilities.
 - The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities at a lower price point.
 
-For detailed information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/) and the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
+
+|Feature area |Dynamics 365 Field Service  |Dynamics 365 Field Service Contractor  |
+|---------|---------|---------|
+|Access the app from the web, mobile, and through Microsoft 365 integrations   |  Yes       | Yes        |
+|AI assistance from Copilot in Field Service for work order creation, scheduling, summarization, and work order updates    |  Yes       |  No       |
+|Access to Dynamics 365 Guides and Remote Assist    | Yes        | 2D Guides in the Field Service mobile app       |
+|Technician performance analysis     | Yes        | No        |
+|Vendor and contractor management   | Yes        | Limited ~        |
+|Planned maintenance agreements    | Yes        | No        |
+|Returns processing    | Yes        | No        |
+|Capture leads and opportunities      | Yes        |  No       |
+|Manage quotes    | Yes        | No        |
+|Scheduling and resource dispatching    | Yes        | Limited ~~        |
+
+~ Contractors are limited to managing their own staff.
+
+~~ Contractors can create bookings manually but don't have access to schedule optimization with the schedule board.
+
+For pricing information, see [Field Service pricing](https://dynamics.microsoft.com/field-service/pricing/). For detailed licensing information, see [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/?LinkId=2090495).
 
 ## Buy a Field Service license
 
