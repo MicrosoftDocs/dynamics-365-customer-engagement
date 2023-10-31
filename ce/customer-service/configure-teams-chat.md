@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 08/21/2023
+ms.date: 10/31/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: article
@@ -15,6 +15,34 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 > Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for.
 
 When the feature is enabled for an app, when they work on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
+
+## Prerequisites
+
+To use Teams chat in Customer Service, you must first set it up in the Developer Portal.
+
+1. In **Teams**, open the **Developer Portal** app.
+
+  
+   
+1. In **Developer Portal**, create a new app or import an existing one.
+
+1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
+
+1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
+   > [!NOTE]
+   > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
+
+1. Select **App features** under **Configure** section, and then select **bot**.
+
+1. Enter the bot ID from omnichannel, and then select **Save**.
+
+1. Select **Publish** in the top-right corner of the screen, and then on the **Publish your app** page, select **Download the app package**.
+
+1. In the left pane, select **Apps**, and then select **Manage your apps**.
+
+1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
+
+   The Teams app should be installed to your Teams desktop client, which allows you to send and receive messages in the Teams app.
 
 ## Enable or disable Teams chat
 
