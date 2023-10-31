@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
 
-You can create the custom assignment methods in the Omnichannel admin center and Customer Service Hub apps.
+You can create the custom assignment methods in the Customer Service admin center app.
 
 In unified routing, the process of creating assignment rulesets involves the following steps:
 
@@ -25,22 +25,9 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 Follow the steps to create a custom assignment method:
 
-1. In Dynamics 365, go to one of the admin apps, and do the following steps.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Queues** in **Customer support**.
-
-    2. On the **Queues** page, select **Manage** for **Advanced queues**.
-
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Queues** in **General settings**.
-
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
+1. On the **Queues** page, select **Manage** for **Advanced queues**.
 
 1. Select a queue, and on the **Assignment method** page, select **Create New**.
 

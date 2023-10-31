@@ -127,7 +127,7 @@ Yes, you can update the limit. More information: [How the limit on offering a wo
 
 The feature is available for the voice channel only.
 
-### Does the agent sign-in time affect in the calculation of the least active agent? 
+### Does the agent sign-in time affect the calculation of the least active agent? 
 
 The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
 
@@ -142,7 +142,7 @@ Yes, the assignment method stage displays the assignment method that's used.
 
 ### How does routing to the least active agent work when a new agent signs in?
 
-When a new agent signs in to the Customer Service workspace app, their "last capacity release time" won't be available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item.
+When a new agent signs in to the Customer Service workspace app, their "last capacity release time" won't be available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item to them.
 
 ## Intelligent skill finder
 

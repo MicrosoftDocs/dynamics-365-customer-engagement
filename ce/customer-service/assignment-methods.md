@@ -44,11 +44,13 @@ For more information, see [best practices to manage queues](unified-routing-best
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest available capacity. This agent is from among those agents who have the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
+- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
-  If you want to use skill-based routing and set the default skill-matching algorithm for the workstream as exact match and choose highest capacity as the assignment method, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
+  If you want to use skill-based routing and,
 
-  If **Default skill matching algorithm** in the workstream is **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  - Set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
+
+  - Set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
@@ -58,9 +60,9 @@ The following assignment methods are available out of the box:
 
   For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
 
-- **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
+- **Least active**: Assigns a work item to the agent who has been least active among all the agents who match the required skills, presence, and capacity.
 
-  The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. For example, consider two agents who are configured in a queue, and the first one has completed a call five minutes ago while the second one has just completed a call. Now, when a new call comes up, the system assigns it to the first agent, as he has finished his activity first. The wrap-up settings configured in the workstream also account for determining the least active agent.
+  The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. The wrap-up settings configured in the workstream also account for identifying the least-active agent. For example, consider two agents in a queue. The first agent completes a call five minutes ago while the second one has just completed a call. When a new call comes up, the system assigns it to the first agent who has finished their activity first.
 
   Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
 
@@ -86,7 +88,7 @@ You can also create a custom assignment method to suit your business needs.
 
 ### Assignment cycle
 
-Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+Assignment cycle is the prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
 
 The assignment cycle starts with one of the following triggers:
 
@@ -98,9 +100,9 @@ The assignment cycle starts with one of the following triggers:
 
 ## How prioritization rulesets work
 
-A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions is put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sort that bucket by the order by attribute until all rules are evaluated.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
 
-You can create only one prioritization ruleset per queue.
+You can create one prioritization ruleset only per queue.
 
 As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
