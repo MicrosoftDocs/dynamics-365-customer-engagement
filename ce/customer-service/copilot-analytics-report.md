@@ -66,4 +66,4 @@ The Copilot report displays the following metrics.
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](configure-copilot-features.md)  
-[Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot-preview)
+[Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot)
