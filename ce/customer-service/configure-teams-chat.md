@@ -14,7 +14,7 @@ You can configure the ability for agents to chat in Microsoft Teams from within 
 > [!NOTE]
 > Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for.
 
-When the feature is enabled for an app, when they work on customer records, agents can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
+When the feature is enabled for an app, agents who work on customer records can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
