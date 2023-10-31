@@ -64,7 +64,7 @@ The following assignment methods are available out of the box:
 
   Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
 
-  You can also build [custom reports](model-customize-reports.md) to track agents "last conversation end time" and understand the assignment distribution across agents.
+  You can also build a [custom report](model-customize-reports.md) to track an agent's "last capacity release time" and understand the assignment distribution across agents.
 
     > [!IMPORTANT]
     >
@@ -170,7 +170,7 @@ The assignment rules are composed of the following items:
 
   - **Ordering Attributes**:
 
-    - **Least active**: Is available for voice queues only. The work item is routed to the agent who is least active among all the agents who match skills and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice queues only. The work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity
