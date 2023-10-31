@@ -71,7 +71,7 @@ Make sure that the following prerequisites are met:
 1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
    1. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
-   1. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
+   1. On the **Callback information** page, copy the value in the **Bot ID** box. It's used in the Teams app to update the value for the bot ID.
    1. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
