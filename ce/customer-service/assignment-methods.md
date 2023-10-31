@@ -58,11 +58,11 @@ The following assignment methods are available out of the box:
 
   For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
 
-- **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills and capacity.
+- **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
 
-  The assignment method uses the time since last capacity is released for a voice call to determine the least-active agent and route the next incoming call to them. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the least-active agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. For example, consider two agents who are configured in a queue, and the first one has completed a call five minutes ago while the second one has just completed a call. Now, when a new call comes up, the system assigns it to the first agent, as he has finished his activity first. The wrap-up settings configured in the workstream also account for determining the least active agent.
 
-  Routing to the least-active agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This strategy provides higher agent satisfaction and improved customer satisfaction.
+  Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
 
     > [!IMPORTANT]
     >
