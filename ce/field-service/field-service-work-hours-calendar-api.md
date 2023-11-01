@@ -211,26 +211,38 @@ This POST API creates or modifies calendar rule records for the selected entity.
 |:--|:--|:--|:--|
 |msdyn_LoadCalendars|	Action|	No	|Returns calendars for given LoadCalendarsInput.|
 |msdyn_LoadCalendars.LoadCalendarsInput|	Parameter|	No	|	
-String in the  following JSON format:
+String in the following JSON format:
+
+```JSON
 {
    StartDate: string,
    EndDate: string,
    CalendarIds: string[]
-}|
+}
+```
+
+|
 |msdyn_LoadCalendarsResponse|	ComplexType|	No	|Contains the response from the msdyn_loadCalendars action.|
 |msdyn_LoadCalendarsResponse.CalendarEvents|	Property|	No	|String in the following JSON format:
+
+```JSON
 {
 "calendarId": CalendarEventSlot[]
 }
-Where calendarId is a proper guid representing Guid of the Calendar 
-and CalendarEventSlot is an object of following format:
+```
+
+Where calendarId is a proper guid representing the calendar and CalendarEventSlot is an object of following format:
+
+```JSON
 {
   CalendarId: string,
   InnerCalendarId: string,
   Start: string,
   End: string,
   Effort: double
-}|
+}
+```
+|
 
 ### Output
 
