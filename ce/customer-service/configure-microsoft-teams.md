@@ -44,11 +44,13 @@ Make sure that the following prerequisites are met:
 
    1. Enter the bot ID from omnichannel, and then select **Save**.
 
-   1. Select **Publish** in the top-right corner of the screen, and then on the **Publish your app** page, select **Download the app package**.
+   1. Select **Publish**.
 
-   1. In the left pane, select **Apps**, and then select **Manage your apps**.
+   1. On the **Publish your app** page, select **Download the app package**
 
-   1. Select **Upload your app**, and then browse to the app you downloaded in step 7.
+   1. In the site map, select **Apps**, and then select **Manage your apps**.
+
+   1. Select **Upload your app**, and then browse to the app you downloaded in step 7 and select it.
 
       The Teams app is installed on your Teams desktop client, which allows you to send and receive messages in the Teams app.  
 
