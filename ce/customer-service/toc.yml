@@ -1052,7 +1052,7 @@
         href: use-copilot-features.md#draft-a-chat-response-preview
     - name: Supervisor experience
       items: 
-      - name: View analytics for Copilot impact
+      - name: View copilot analytics report
         href: copilot-analytics-report.md
     - name: Customizer experience
       items:

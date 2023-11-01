@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 06/22/2023
+ms.date: 10/31/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -86,17 +86,13 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 1. Select **Save and Close**.
 
-## Enable historical analytics for Copilot (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Enable historical analytics for Copilot
 
 Customer Service historical analytics must be enabled and you must opt in to the Copilot help pane and Copilot summaries to turn on analytics for Copilot.
 
 1. In the Customer Service admin center, go to Insights, and on the page that appears, select **Manage** for **Customer Service historical analytics**.
 
-1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot (Preview)** checkbox, and then save the changes.
+1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
 
 You'll see a message on the command bar that your reports are being provisioned and it might take up to 24 hours for the process to complete.
 
@@ -106,7 +102,7 @@ You'll see a message on the command bar that your reports are being provisioned 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](knowledge-search-analytics-cs.md)  
 [Historical analytics for unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
-[View analytics for Copilot impact](copilot-analytics-report.md)  
+[View copilot analytics report](copilot-analytics-report.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 

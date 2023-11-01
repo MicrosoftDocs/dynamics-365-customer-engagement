@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 10/09/2023
+ms.date: 10/31/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -44,37 +44,33 @@ For more information, see [best practices to manage queues](unified-routing-best
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns work item to the agent with the highest available capacity. This agent is from among those agents who have the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
+- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
-  If you want to use skill-based routing and set the default skill-matching algorithm for the workstream as exact match and choose highest capacity as the assignment method, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and order the filtered agents by available capacity.
+  If you want to use skill-based routing and,
 
-  If **Default skill matching algorithm** in the workstream is **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  - Set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
+
+  - Set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
-- **Round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
 
-   In scenarios when multiple agents match the work item requirement, and there's a tie in the "order by", like, multiple matched agents with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
+  In scenarios when multiple agents match the work item requirement, and there's a tie in the "order by", like, multiple matched agents with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
 
-   For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
+  For example, three agents, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the agents at 10:40 AM have the same available capacity of 2 each. To break the tie between the agents, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
 
-- **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
+- **Least active**: Assigns a work item to the agent who has been least active among all the agents who match the required skills, presence, and capacity.
 
-  The assignment method uses the time since last capacity is released for a voice call to determine the agent to whom the next incoming call should be routed. For example, if two agents are configured in a queue, and both receive calls one after the other, the agent who finishes their current call first and is available is assigned the next call. The wrap-up settings that are configured for the workstream are accounted for in determining the most-idle agent. The agent presence statuses aren't used in determining the most-idle agent.
+  The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. The wrap-up settings configured in the workstream also account for identifying the agent. For example, consider two agents in a queue. The first agent completes a call five minutes ago while the second agent has just completed their call. When a new call comes in, the system assigns it to the first agent who has finished their activity first.
 
-  Routing to the most-idle agent assignment strategy helps in better use of agents with a more fair distribution of work items across agents. This strategy provides higher agent satisfaction and improved customer satisfaction.
+  Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
+
+  You can also build a [custom report](model-customize-reports.md) to track an agent's "last capacity release time" and understand the assignment distribution across agents.
 
     > [!IMPORTANT]
     >
-    > The route to the most-idle agent feature is in preview and is available for the voice channel only.
-    >
-    > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
-    >
-    > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-    >
-    > [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-    >
-    > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+    > The least-active assignment method is available for the voice channel only and is the default selection when you create a voice queue.
     >
     > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
@@ -92,7 +88,7 @@ You can also create a custom assignment method to suit your business needs.
 
 ### Assignment cycle
 
-Assignment cycle is prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
+Assignment cycle is the prioritization of work items, their selection, and their assignment to the best-suited agent based on the assignment rules. Unified routing optimizes the assignment cycles across the multiple queues in the organization for best performance.
 
 The assignment cycle starts with one of the following triggers:
 
@@ -104,13 +100,13 @@ The assignment cycle starts with one of the following triggers:
 
 ## How prioritization rulesets work
 
-A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions is put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sort that bucket by the order by attribute until all rules are evaluated.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
 
-You can create only one prioritization ruleset per queue.
+You can create one prioritization ruleset only per queue.
 
 As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
-:::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Prioritization scenario.":::
+:::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Screenshot of a prioritization scenario.":::
 
 - During any assignment cycle, this prioritization ruleset runs, and the rules within the ruleset run in the order they're listed.
 
@@ -135,7 +131,7 @@ The assignment ruleset is an ordered list of assignment rules. Each assignment r
 
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
-:::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
+:::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Screenshot of an assignment rule with dynamic match and static match conditions.":::
 
 
 ### Components of an assignment rule
@@ -166,7 +162,7 @@ The assignment rules are composed of the following items:
   
   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
-     :::image type="content" source="media/dynamic-value-match.png" alt-text="Sample dynamic match.":::
+     :::image type="content" source="media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
@@ -176,7 +172,7 @@ The assignment rules are composed of the following items:
 
   - **Ordering Attributes**:
 
-    - **Most idle (preview)**: In preview release, this option is available for voice channel queues only. The work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice queues only. The work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity
