@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
 description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
-ms.date: 10/26/2023
+ms.date: 11/01/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -31,6 +31,12 @@ Copilot is enabled by default in all sales apps for orgs in North America. If yo
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Prerequisite
+
+Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
+Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully and then follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot).
+
+
 ## Enable or disable Copilot features in Dynamics 365 apps
 
 Select the Copilot features that you want your sales teams to use in each of your organization's Dynamics 365 apps and custom apps, if any. You can enable Copilot only from the Sales Hub app.
@@ -41,11 +47,13 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 1. If you're setting up Copilot for the first time, select **Set up Copilot**. If you've already set up Copilot, select **Manage apps**.
 
-   The side panel displays the list of apps installed in your organization.  
+   The side panel displays the list of apps installed in your organization.   
 
    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
 
-1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each app:
+    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.
+ 
+1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each Sales app:
 
     - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
     - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
