@@ -25,13 +25,12 @@ There are two types of licenses for Field Service:
 |---------|---------|---------|
 |Access the app from the web, mobile, and through Microsoft 365 integrations   |  Yes       | Yes        |
 |AI assistance from Copilot in Field Service for work order creation, scheduling, summarization, and work order updates    |  Yes       |  No       |
-|Access to Dynamics 365 Guides and Remote Assist    | Yes        | 2D Guides in the Field Service mobile app       |
+|Access to Dynamics 365 Guides and Remote Assist    | Yes        | Guides in the Field Service mobile app       |
 |Technician performance analysis     | Yes        | No        |
 |Vendor and contractor management   | Yes        | Limited ~        |
 |Planned maintenance agreements    | Yes        | No        |
 |Returns processing    | Yes        | No        |
 |Capture leads and opportunities      | Yes        |  No       |
-|Manage quotes    | Yes        | No        |
 |Scheduling and resource dispatching    | Yes        | Limited ~~        |
 
 ~ Contractors are limited to managing their own staff.
