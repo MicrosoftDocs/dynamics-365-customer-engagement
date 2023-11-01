@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 10/17/2023
+ms.date: 11/01/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,10 +14,6 @@ ms.custom:
   - ai-seo-date:10/09/2023
   - ai-gen-title
 ---
-
-<!-- In line 58, I'm confused about step 6 telling us to do something in step 3. Can we remove the "In step 3" part of the sentence? Also, in line 64, is "currentstate eq 3" correct? -->
-
-
 
 # Create a new case when email subject changes
 
@@ -55,7 +51,7 @@ To define whether automatic record creation and update rules must create a new c
 
 1. Check for the email subject change within the flow and execute automatic record creation and update rules child flow to create the case.
     
-    1. On step 3, select the following values for the fields:
+    1. Select the following values for the fields:
         
         - Change type: **Added**
         - Table name: **Activity monitors**
