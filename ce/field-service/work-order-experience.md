@@ -59,8 +59,6 @@ To switch between the classic work order form and the new form, use the form swi
 
 ### General tab
 
-:::image type="content" source="media/work-order-record-general.png" alt-text="Screenshot of the General tab in a work order.":::<!-- EDITOR'S NOTE: Please replace this screenshot with one that shows all the cards on the General tab. This one has lots of empty fields and some cards aren't shown. -->
-
 The **General** tab on the work order form contains the following cards:
 
 - [Details](#details-card)
