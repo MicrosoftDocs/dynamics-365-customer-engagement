@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel Insights dashboards | MicrosoftDocs"
 description: "How to configure the Intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 10/17/2023
+ms.date: 11/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
-> Customer service analytics dashboards and Omnichannel insights will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md).
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md).
 > For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 
 Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels. They need to know key operational metrics to ensure that their agents are providing quality support. Omnichannel Insights consists of channels and sentiment analysis dashboards that can help with this.

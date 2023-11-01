@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 10/17/2023
+ms.date: 11/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure Customer Service Analytics dashboards in Power BI
 
 > [!NOTE]
-> Customer service analytics dashboards and Omnichannel insights will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
