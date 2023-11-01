@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred agents
 description: Learn how to configure settings to route work items to preferred agents in Customer Service.
-ms.date: 03/13/2023
+ms.date: 11/02/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -55,7 +55,9 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
 ## How routing to preferred agent works
 
-If a preferred agent exists for a contact, the system will try to directly assign the conversation to an available preferred agent whose presence matches with one of the allowed presence configured in the workstream. The check for capacity, skills, and assignment rules will be skipped. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is selected as the fallback option, then the system will try to find a matching agent according to the configured assignment strategy.
+If a preferred agent exists for a contact, the system will try to automatically assign the conversation to an available preferred agent whose presence matches with one of the allowed presence configured in the workstream. The check for capacity, skills, and assignment rules is skipped. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is selected as the fallback option, then the system will try to find a matching agent according to the configured assignment strategy.
+
+Routing to preferred agents works with conversations that are routed through push-based workstreams only.
 
 ### Check diagnostics for routing to preferred agents
 
