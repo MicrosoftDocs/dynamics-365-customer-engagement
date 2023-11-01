@@ -203,15 +203,25 @@ This POST API creates or modifies calendar rule records for the selected entity.
 |IsVaried	|Boolean	|No	|This field is specific to recurrences, and is set to `yes` if a custom recurrence rule is being deleted. |
 |UseV2	| Flag |	No|	Passing this flag enables the V2 version of the work hour calendar, with an enhanced overlapping rules logic allowing for multiple recurrences. For more information, see [What happens if there are overlapping rules?](#what-happens-if-there-are-overlapping-rules).|
 
+### Output
+
+This POST API deletes calendar rule records for the selected entity. Additionally, it gives the following output.
+
+|Name |	Type|	Description|
+|:--|:--|:--|
+|InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation.|
+
 ## Load Calendar API
 
 ### Input
 
-|**Name** |	**Type**|	**Required**|	**Description**|
-|:--|:--|:--|:--|
-|msdyn_LoadCalendars|	Action|	No	|Returns calendars for given LoadCalendarsInput.|
-|msdyn_LoadCalendars.LoadCalendarsInput|	Parameter|	No	|	
-String in the following JSON format:
+Name: msdyn_LoadCalendars
+Type: Action
+Description: Returns calendars for given LoadCalendarsInput.
+
+Name: msdyn_LoadCalendars.LoadCalendarsInput
+Type: Parameter
+Description: String in the following JSON format:
 
 ```JSON
 {
@@ -221,9 +231,13 @@ String in the following JSON format:
 }
 ```
 
-|
-|msdyn_LoadCalendarsResponse|	ComplexType|	No	|Contains the response from the msdyn_loadCalendars action.|
-|msdyn_LoadCalendarsResponse.CalendarEvents|	Property|	No	|String in the following JSON format:
+Name: msdyn_LoadCalendarsResponse
+Type: ComplexType
+Description: Contains the response from the msdyn_loadCalendars action.
+
+Name: msdyn_LoadCalendarsResponse.CalendarEvents
+Type: Property
+Description: String in the following JSON format:
 
 ```JSON
 {
@@ -231,7 +245,7 @@ String in the following JSON format:
 }
 ```
 
-Where calendarId is a proper guid representing the calendar and CalendarEventSlot is an object of following format:
+Where calendarId is a proper guid representing Guid of the Calendar and CalendarEventSlot is an object of following format:
 
 ```JSON
 {
@@ -242,15 +256,6 @@ Where calendarId is a proper guid representing the calendar and CalendarEventSlo
   Effort: double
 }
 ```
-|
-
-### Output
-
-This POST API deletes calendar rule records for the selected entity. Additionally, it gives the following output.
-
-|Name |	Type|	Description|
-|:--|:--|:--|
-|InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation.|
 
 ## How to call the APIs
 
