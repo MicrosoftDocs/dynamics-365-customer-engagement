@@ -15,8 +15,6 @@ ms.custom:
 
 # Download the mobile app and get started
 
-<!-- EDITOR'S NOTE: This note applies to all articles. It looks like you want the device renderings to carry most of the instructional weight. This violates Microsoft accessibility standards. Alt text is too short to document a process. You also need to put the steps in the article to make the content fully accessible. -->
-
 The Dynamics 365 Field Service mobile app works on iOS and Android devices and on Windows laptops and tablets. It gives technicians the tools they need to serve customers onsite.
 
 Sample screens show both the classic user experience ("Unified Interface UX") and the new mobile app user experience (preview) in separate tabs.
