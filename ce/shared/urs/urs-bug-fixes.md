@@ -28,12 +28,12 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.109.27
 
-- Performance improvements for API calls
-- Performance improvements when using the Schedule Assistant with high numbers of Bookable Resource Associations.  
-- Fixed a bug where bookings made with the Schedule Assistant are made that are longer than resource availability when search availability is manually set.  
-- Fixed a bug that was causing an error message when opening Specify Pattern 
-- Fixed bugs surrounding the use of apostrophes in Requirement names and Booking Templates 
-- PowerApps improvements with Specify Pattern 
+- Performance improvements for API calls.
+- Performance improvements when using the schedule assistant with lots of bookable resources.  
+- Fixed a bug where bookings made with the schedule assistant are longer than resource's availability when search availability is manually set.  
+- Fixed a bug that was causing an error message when opening the specify pattern control.
+- Fixed bugs with apostrophes in requirement names and booking templates.
+- PowerApps improvements with the specify pattern control.
 
 ## 3.12.118.19
 
