@@ -1,7 +1,7 @@
 ---
 title: Buy a Dynamics 365 Field Service license
 description: Learn how to purchase licenses for Dynamics 365 Field Service.
-ms.date: 10/10/2023
+ms.date: 11/01/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -19,8 +19,7 @@ Try out Dynamics 365 Field Service before purchasing a subscription with [a free
 There are two types of licenses for Field Service:
 
 - The standard Dynamics 365 Field Service license that includes all core features and capabilities.
-- The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities at a lower price point.
-
+- The Dynamics 365 Field Service Contractor license that includes a subset of the core features and capabilities for third-party technicians (available beginning December 1, 2023).
 
 |Feature area |Dynamics 365 Field Service  |Dynamics 365 Field Service Contractor  |
 |---------|---------|---------|
@@ -52,7 +51,7 @@ For pricing information, see [Field Service pricing](https://dynamics.microsoft.
 ## Field Service and mixed reality apps
 
 > [!IMPORTANT]
-> We're releasing the updates to the Field Service license on December 1, 2023. Familiarize with the information until the changes are available in your region.
+> We're releasing the updates to the Dynamics 365 Field Service licenses beginning December 1, 2023. Familiarize with the information until the changes are available in your region.
 
 With Field Service version [XXX](tbd.md) in the 2023 release wave 2, the Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. No action is required to assign the new licenses to existing users. However, the system doesn't install the applications automatically. For more information about installing the mixed reality apps, see [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
