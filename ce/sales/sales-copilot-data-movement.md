@@ -23,10 +23,29 @@ Although Copilot is available in all geographic regions, it requires the Microso
 
 You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in North America or Europe. Though the opt-in terms are shown for Europe, data from Europe region is processed in Europe only.
 
-> [!NOTE]
-> - If your environment is hosted in North America, Copilot will use an Azure OpenAI endpoint in North America to process your data.
-> - If your environment is hosted in Europe, Copilot will use an Azure OpenAI endpoint in Europe to process your data.
-> - If your environment is hosted anywhere else, Copilot will use an Azure OpenAI endpoint outside of the region in which the environment is hosted.
+The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.
+
+|Copilot availability|Dynamics 365 geography|Azure OpenAI geography|
+|----------|-------------|-----------------|
+| Yes | Asia Pacific | United States |
+| Yes | Australia | United States |
+| Yes | Canada | United States |
+| Yes | China | N/A|
+| Yes | Europe | Europe |
+| Yes | France | Europe |
+| Yes | Germany | Europe |
+| No | Government Community Cloud (GCC) | N/A |
+| Yes | India | United States |
+| Yes | Japan | United States |
+| Yes | Korea | United States |
+| Yes | Norway | Europe |
+| Yes | Singapore | United States |
+| Yes | South Africa | United States|
+| Yes | South America | United States |
+| Yes | Switzerland | Europe |
+| Yes | United Arab Emirates | United States |
+| Yes | United Kingdom | Europe |
+| Yes | United States | United States |
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
