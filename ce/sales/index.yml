@@ -88,12 +88,12 @@ additionalContent:
         text: Integrate with Sharepoint
       - url: install-lsi-solution.md
         text: Install LinkedIn Sales Insights
-    - title: Sales Copilot
+    - title: Copilot
       links: 
       - url: enable-setup-copilot.md
-        text: Enable and set up Sales Copilot
-      - url: configure-sales-copilot.md
-        text: Configure Sales Copilot
+        text: Enable and configure Copilot
+      - url: sales-copilot-data-movement.md
+        text: Copilot data movement across geographies
     - title: Develop
       links: 
       - url: developer/developer-guide.md
@@ -116,10 +116,10 @@ additionalContent:
         text: Manage opportunities
       - url: sales-transactions.md
         text: Manage quote, order, and invoice
-    - title: Sales Copilot
+    - title: Copilot
       links: 
       - url: use-sales-copilot.md
-        text: Use Sales Copilot
+        text: Use Copilot
       - url: compose-send-email-copilot.md
         text: Compose and send email messages using Copilot
       - url: view-copy-email-summary.md

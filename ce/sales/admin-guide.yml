@@ -51,19 +51,17 @@ landingContent:
             url: /power-platform/admin/system-settings-dialog-box-sales-tab
 
 # Card 
-  - title: Sales Copilot
+  - title: Copilot
     linkLists:
        - linkListType: concept
          links:
-          - text: Sales Copilot overview 
+          - text: Copilot overview 
             url: copilot-overview.md
        - linkListType: how-to-guide
          links:
-          - text: Enable and set up Sales Copilot
+          - text: Enable and configure Copilot
             url: enable-setup-copilot.md
-          - text: Configure Sales Copilot
-            url: configure-sales-copilot.md
-          - text: Sales Copilot data movement across geographies
+          - text: Copilot data movement across geographies
             url: sales-copilot-data-movement.md 
 
 # Card 
