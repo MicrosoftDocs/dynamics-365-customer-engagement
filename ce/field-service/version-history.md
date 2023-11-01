@@ -35,11 +35,11 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) and Resource Scheduling controls version 1.2.58.232961).
 
 - Fixed a security vulnerability related to dual write.
-- Functional location types will now allow duplicate records with the same name. The intent is to support F&O integrations that use the same functional location types across companies.
+- Functional location types will now allow duplicate records with the same name to support scenarios that use the same functional location types across companies.
 - Fixed a bug causing estimated revenue on quote booking setup to be calculated for one day less than the recurrence pattern used for services.
 - Various UI enhancements on the ‘Get Started’ page.
-- Field service mobile: Accessibility improvements
-- Field service mobile: Fixed a bug so PDF export of inspection responses will render correctly in Spanish language. 
+- Field Service Mobile: Accessibility improvements.
+- Field Service Mobile: Fixed a bug in PDF export of inspection and responses now render correctly in Spanish language. 
 
 ## 8.8.103.22
 This release is a hotfix on Field Service version [8.8.103.20](/dynamics365/field-service/version-history#8810320).
