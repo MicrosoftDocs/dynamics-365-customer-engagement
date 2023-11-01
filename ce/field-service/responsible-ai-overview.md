@@ -21,6 +21,6 @@ ms.reviewer: m-hartmann
 [!INCLUDE[faqs-feature](../includes/faqs-feature.md)]
 
 - [FAQ about work order recap with Copilot (preview)](faqs-work-order-recap.md)
-- [FAQ about work order creation in Outlook using Copilot (preview)](faqs-wo-flw-copilot)
+- [FAQ about work order creation in Outlook using Copilot (preview)](faqs-wo-flw-copilot.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
