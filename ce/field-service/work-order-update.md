@@ -10,28 +10,52 @@ ms.custom:
   - bap-template
 ---
 
-# AI-powered work order update
+# AI-powered work order update (preview)
 
-Work Order Update is a new Copilot powered feature for the new User Interface of Field Service Mobile.  This feature allows Frontline Workers in the application to describe work performed in natural language using standard text entry or speech-to-text capabilities – with this Input, Copilot will recommend updates to fields within the user interface which are then updated after confirmation.  
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-Work Order Update (preview) can update the following fields in the new user interface:
+With the help of Copilot in Dynamics 365 Field Service, technicians can update work orders in the new user experience of the Field Service mobile app. This AI-powered feature allows frontline workers describe work performed in natural language using standard text or speech-to-text capabilities. Based on their input, Copilot recommends updates to fields on the work order, and updates them after confirmation.  
 
-- Booking Status
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-- Booking Times
+The work order update feature adheres to [responsible AI guidelines](faqs-work-order-update.md) and avoids information that violates certain restrictions.
 
-- Work Order Service Task Completion
+## Prerequisites
 
-- Work Order Products Quantity
+- Your environment must be in the United States or the United Kingdom.
 
-- Work Order Products Line Status
+- The feature is disabled by default for environments in the United Kingdom. An administrator must [enable it](#enable-copilot-to-update-work-order).
 
-- Work Order Service Duration
+- You must have a paid Field Service environment. Copilot isn't available in trial environments.
 
-- Work Order Service Line Status
+- You must [update your environment](update-field-service.md) to the latest 2023 wave 2 build and [enable the new mobile experience](mobile-powerapp-newux-overview.md).
 
-This feature is accessed from an entry point on the Booking form within the new mobile user experience.
+## Enable Copilot to update work order
 
-This feature is available in North American and GBR environments only at this time.  
+A user with administrator permissions can enable this feature. Open the **Field Service Mobile** app module and change to the **Settings** area. Go to **Mobile settings** > **Features** and enable the **Copilot for New Mobile Experience** toggle.
 
-This feature is enabled via Admin toggle within the Field Service Mobile app module Settings and is only available when the new Field Service Mobile user experience is toggled on.
+## Work order fields that the feature updates
+
+Copilot can update the following fields on a work order from teh new user experience in the mobile app:
+
+- Booking status
+
+- Booking times
+
+- Work order service task completion
+
+- Work order product quantity
+
+- Work order product line status
+
+- Work order service duration
+
+- Work order service line status
+
+## Open Copilot from the mobile app
+
+Open a booking in the new mobile user experience and select the Copilot icon. Select the Update option to start describing your update.
+
+<!--screnshot with copilot icon and the two options -->
+
+Review the suggest updates and confirm them as you see fit.
