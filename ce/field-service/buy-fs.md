@@ -30,7 +30,6 @@ There are two types of licenses for Field Service:
 |Vendor and contractor management   | Yes        | Limited ~        |
 |Planned maintenance agreements    | Yes        | No        |
 |Returns processing    | Yes        | No        |
-|Capture leads and opportunities      | Yes        |  No       |
 |Scheduling and resource dispatching    | Yes        | Limited ~~        |
 
 ~ Contractors are limited to managing their own staff.
