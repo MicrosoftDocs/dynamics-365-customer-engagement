@@ -37,7 +37,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 - You must [update your environment](update-field-service.md) to the latest Early Access build for 2023 wave 2 to use work order recap and the new work order experience.
 
-## Generate a work order recap
+## Generate a work order recap in the web app
 
 Open a [work order form (preview)](work-order-experience.md).
 
@@ -46,6 +46,10 @@ Open a [work order form (preview)](work-order-experience.md).
 - To refresh the recap, select **Regenerate recap** in the **Copilot recap** control.
 
 Use the like/dislike buttons in the **Copilot recap** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
+
+## Generate a work order recap in the mobile app
+
+The recap feature is available for the new user experience in the Field Service mobile application. It provides frontline workers with a summary of the active booking. Open a booking form in the new mobile user experience and select the Copilot icon. Select **Summarize** to get a recap of the work order to which the booking relates.
 
 ## How recaps are generated
 
