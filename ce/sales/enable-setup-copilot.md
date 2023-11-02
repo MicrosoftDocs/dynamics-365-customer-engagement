@@ -1,22 +1,28 @@
 ---
-title: Enable and set up Copilot in Dynamics 365 Sales
-description: Learn about how to enable and set up Copilot in Dynamics 365 Sales so that sellers can start using it.
-ms.date: 10/05/2023
-ms.custom: bap-template
+title: Enable and configure Copilot in Dynamics 365 Sales
+description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
+ms.date: 11/01/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/03/2023
 ---
 
-# Enable and set up Copilot in Dynamics 365 Sales
+# Enable and configure Copilot in Dynamics 365 Sales
 
-Enable Copilot on apps that your sales team uses and grant them access. After you do, sellers can use Copilot to summarize records, catch up on updates, prepare for meetings, and so on.
+Copilot is enabled by default in all sales apps for orgs in North America. If your org is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article:
 
-> [!NOTE]
-> Copilot is enabled by default for orgs in North America region. It's enabled for all the sales apps with lead and opportunity entities in this region. If your org is in a different region, you need to enable Copilot manually.  
+- [Enable or disable Copilot features in Dynamics 365 apps](#enable-or-disable-copilot-features-in-dynamics-365-apps)
+- [Configure record summary fields](#configure-record-summary-fields)
+- [Configure record catch up fields](#configure-record-catch-up-fields)
+- [Grant audit access to your sellers](#grant-audit-access-to-your-sellers)
 
 ## License and role requirements
 
@@ -25,53 +31,89 @@ Enable Copilot on apps that your sales team uses and grant them access. After yo
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-## Enable or disable Copilot in Dynamics 365 Sales
+## Prerequisite
 
-Select the apps and the copilot features that you want to enable on the apps. You can enable copilot only from the Sales Hub app. If you're using a custom sales app, you need to switch to the Sales Hub app to enable Copilot for the custom app.
+Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
+Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully and then follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot).
 
-1. From the Change area in the Sales Hub app, select **App Settings**.  
+
+## Enable or disable Copilot features in Dynamics 365 apps
+
+Select the Copilot features that you want your sales teams to use in each of your organization's Dynamics 365 apps and custom apps, if any. You can enable Copilot only from the Sales Hub app.
+
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
-    If this is the first time you're setting up copilot, you'll see **Set up Copilot**. If you've already set up copilot, you can enable or disable apps or copilot features by selecting **Manage apps**.
 
-1. Select **Set up Copilot** or **Manage apps** depending on what you see.
+1. If you're setting up Copilot for the first time, select **Set up Copilot**. If you've already set up Copilot, select **Manage apps**.
 
-    The side panel displays the list of apps installed in your organization.  
-    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
-1. Select the following copilot feature to enable it:
+   The side panel displays the list of apps installed in your organization.   
 
-    - **Compose**: Select this checkbox to enable the copilot features that help sellers get content suggestions while composing or responding to emails, and get email summaries. To learn more, see [Compose and send email messages using Copilot](compose-send-email-copilot.md) and [View and copy email summary](view-copy-email-summary.md)  
-    - **Chat**: Select this checkbox to enable the copilot features that help sellers chat with copilot to get contextual insights and suggestions. For example, sellers can ask copilot to summarize an opportunity or lead, help them prepare for a meeting, and so on. [Learn more about chat with copilot](use-sales-copilot.md).
-    
-    After you save the changes, you'll see the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right most bar. Select the icon to open the copilot panel.
+   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
 
-## Grant audit access to users
+    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.
+ 
+1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each Sales app:
 
-Catch up information in Copilot is generated from the audit history. Hence, users need to have access to view audit history and audit summary to be able to view lead and opportunity catch ups.
+    - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
+    - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
 
-1. Allow users to access the audit:
+1. Select **Confirm**.
 
-    1. In the Sales Hub app, select **Settings** > **Advanced Settings**.
+The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
 
-    1. Select **Settings** > **Administration** > **System Settings**
+## Configure record summary fields
 
-    1. Select the **Auditing** tab and select **Audit user access**.
+By default, Copilot uses the first seven fields in the default lead and opportunity view to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead). To have it generate summaries and catch ups from the fields that are most relevant for your business, create a view. You can create different views for summaries and catch ups.
 
-    > [!NOTE]
-    > Alternatively, you can turn on audit access from the [Copilot settings page](configure-sales-copilot.md).
+1. In the Sales Hub app, [create a system view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view) that contains the fields you want Copilot to use for summaries and catch up.
 
-1. Grant users access to view audit history and audit summary:
+1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
-    1. In the Sales Hub app, select **Settings** > **Security** > **Security Roles**.
+1. Under **General Settings**, select **Copilot**.
 
-    1. Select the security role that you want to edit and select the **Core Records** tab.
+1. In the **Record summary** settings, select a view for each record type.
 
-    1. Under **Miscellaneous Privileges** and select the following privileges:
-        - **View Audit History**
-        - **View Audit Summary**
+    The first seven fields in the view are listed in the **Fields** column. Copilot [generates summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) from these fields.
 
-    1. Save the changes.
+    :::image type="content" source="media/copilot-record-summary-settings.svg" alt-text="Screenshot of the Record summary settings in Copilot.":::
 
-## Next step
+1. Save the changes.
 
-[Configure Copilot in Dynamics 365 Sales](configure-sales-copilot.md)
+> [!IMPORTANT]
+> If you later update or remove fields in a selected view, you need to force Copilot to recognize your changes. In the **Copilot** settings, select a different view. Save, and then select the updated view. Make sure the updated fields are listed in the **Fields** column, and then save again.
+
+## Configure record catch up fields
+
+Copilot uses the 10 most recent updates in the record's audit history to generate catch ups. You can configure a view with fields that you want to catch up on and have Copilot use it for generating catch up summary. Make sure auditing is turned on, and give your sellers access to view the audit history and audit summary.
+
+1. In the **Copilot** settings, select **Record catch up**.
+
+1. Select **Turn audit on**.
+
+1. Select a view for each record type.
+
+    :::image type="content" source="media/copilot-record-catchup-settings.svg" alt-text="Screenshot of the Record catch up settings in Copilot.":::
+
+1. Save the changes.
+
+## Grant audit access to your sellers
+
+Copilot generates lead and opportunity catch-up information from the audit history, so your sellers need access to the audit history and audit summary to view catch ups.
+
+1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com), select your environment > **Settings** > **Users + permissions** > **Security roles**.
+
+1. Select the security role that's assigned to your sellers, and then select the **Miscellaneous Privileges** tab.
+
+1. In the list below the tab, select **Show only unassigned privileges**.
+
+1. Select **Organization** as the **Privilege Level** for the following privileges:
+
+    - **View Audit History**
+    - **View Audit Summary**
+
+1. Select **Save + close**.
+
+## See also
+
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)

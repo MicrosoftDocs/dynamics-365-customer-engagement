@@ -1,15 +1,17 @@
 ---
-title: Copilot capabilities overview
-description: Learn about the copilot capabilities in Dynamics 365 Sales, an AI assistant that helps your sales team be more productive and efficient in their daily work.
-ms.date: 10/05/2023
+title: Copilot in Dynamics 365 Sales overview
+description: Learn how to use copilot to get quick summaries of records, prepare for meetings, compose emails, and stay up-to-date with news.
+ms.date: 10/26/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
--	AI-contribution
+  - AI-contribution
 ms.custom:
- - ai-gen-docs-bap
- - bap-template
-search.app: salescopilot-docs 
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/02/2023
+search.app: salescopilot-docs
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
@@ -17,10 +19,11 @@ ms.reviewer: shujoshi
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and so on. Copilot is enabled by default for orgs in North America region. It's enabled for all the sales apps with lead and opportunity entities in this region. If your org is in a different region, you need to enable Copilot manually. [Learn more about enabling and setting up Copilot](enable-setup-copilot.md).
+Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and read the latest news about their accounts.
 
-> [!NOTE]
-> Copilot is also available as an add-in and an integrated app in Outlook and Teams respectively, allowing you to capture, access, and update your CRM data from the apps you use every day. It also has generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot). 
+Copilot is turned on by default in all sales apps with lead and opportunity entities, for orgs in North America. If your org is in a different region, you need to [turn on copilot manually](enable-setup-copilot.md).
+
+Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
 ## Copilot capabilities
 
@@ -30,48 +33,53 @@ Copilot offers the following capabilities:
 - [Record catch up](#record-catch-up)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
-- [News updates](#news-updates) 
+- [News updates](#news-updates)
 
 ### Record summarization
 
-Record summarization helps you get a quick summary of your opportunity and lead records. By default, the summary is generated from your default opportunity and lead views. However, a system administrator can configure the fields that are used to generate the summary. Ensure that your entire sales team agrees on the top seven fields that are most relevant for your business. 
+Record summarization helps you get a quick summary of your opportunity and lead records. By default, Copilot generates the summary from your default opportunity and lead views. A system administrator can configure Copilot to generate the summary from other fields. Ensure that your entire sales team agrees on the top seven fields that are most relevant for your business.
 
-More information:
+**More information:**
 
 - [Summarize an opportunity or a lead](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) 
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
-### Record catch up
+### Record catch-up
 
-Stay on top of the changes to your opportunities and leads. Copilot summarizes the changes to your records since the last seven days or your last login. Copilot generates this information from the audit history of the record. A system administrator can configure the fields that you want to catch up on. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+To help you stay on top of your opportunities and leads, Copilot summarizes any changes made to your records since your last visit or in the last seven days. Copilot generates the catch-up summary from the records' audit history. A system administrator configures the columns that are included in the catch up. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
-More information:
+**More information:**
 
 - [Catch up with an opportunity or lead](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead)  
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
 ### Meeting preparation
 
-Meeting preparation helps you prepare for your upcoming meetings effortlessly using Copilot. Copilot identifies your upcoming meetings for the day and summarizes the relevant information from the opportunity or lead records that are associated with the meeting. 
+Copilot helps you prepare for your upcoming meetings effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the upcoming meeting.
 
-More information: [Prepare for upcoming meetings](use-sales-copilot.md#prepare-for-upcoming-meetings)
+**More information:**
+
+[Prepare for upcoming meetings](use-sales-copilot.md#prepare-for-upcoming-meetings)
 
 ### Email assistance
 
-Use Copilot to compose professional-looking emails, respond to emails, and get email follow up reminders. Copilot uses natural language processing (NLP) algorithms to help creating emails messages. Trained on vast text data, Copilot generates personalized, high-quality emails tailored to specific needs. Dynamics 365 Sales uses Copilot capabilities to help sellers in creating emails that effectively engage customers, ensuring clarity, conciseness, and compelling content. Using the email assistance capabilities, you can do the following tasks:  
+Copilot can help you compose professional-looking emails, summarize email conversations to add to your customer notes, and get reminders to follow up on emails you haven't replied to. 
+
+**More information:**
 
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy email summary](view-copy-email-summary.md)  
-- [Show emails that are not replied](use-sales-copilot.md#show-emails-that-are-not-replied)
+- [Show emails you haven't replied to](use-sales-copilot.md#show-emails-you-havent-replied-to)
+
 
 ### News updates
 
-News updates help you stay current with the latest news about your account. These news updates can be great conversation starters and help you understand the current dynamics in your customers' organization. Ask Copilot to get you the latest news related to an account and get a list of articles featuring or mentioning the account, curated from Bing. Ensure to read through the news article thoroughly to confirm that it's from an authentic source and it's indeed about the customer.
+Copilot news updates help you stay current with the latest news about your accounts. News updates can be great conversation starters and help you understand the dynamics of your customers' organizations. Ask Copilot to get you the latest news related to an account and it returns a list of articles that feature or mention the account, curated by Bing. As with any content that's provided by AI, make sure you read the news articles thoroughly and confirm that they're from an authentic source and are indeed about the customer.
 
-More information: [Show latest news for an account](use-sales-copilot.md#show-latest-news-for-an-account)
+**More information:**
+
+[Show the latest news about an account](use-sales-copilot.md#show-the-latest-news-about-an-account)
 
 ## Region availability and languages supported
 
-Copilot is available in all regions and is supported only in English. However, if you're enabling the feature for orgs outside of North America, you'll need to opt in to share relevant data with the Azure OpenAI Service outside of your default geography. To learn more, see [Copilot data movement across geographies](sales-copilot-data-movement.md).
-
-
+Copilot is available in all regions in English only. If you turn on the feature outside of North America, you need to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about how Copilot data moves across geographies](./sales-copilot-data-movement.md).

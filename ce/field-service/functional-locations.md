@@ -122,11 +122,11 @@ For example, a technician needs to go to two different buildings to perform main
 
 ## Functional locations in the mobile app
 
-Technicians can view the functional location of a work order in the Dynamics 365 Field Service Mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
+Technicians can view the functional location of a work order in the Dynamics 365 Field Service mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
 
-:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service Mobile app, showing asset hierarchies and functional locations.":::
+:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service mobile app, showing asset hierarchies and functional locations.":::
 
-The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
+The following video offers a guided walk-through of using functional locations in the Field Service mobile app.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 

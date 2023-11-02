@@ -1,7 +1,7 @@
 ---
 title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.date: 06/20/2023
+ms.date: 10/05/2023
 ms.topic: how-to
 author: clearab
 ms.author: anclear
@@ -45,7 +45,7 @@ Each booking timestamp includes the following information:
 - **System Status**: The related Field Service Status for the work order process.
 - **Booking Status**: Booking status of the bookable resource booking.
 - **Timestamp Time**: The date and time of status change.
-- **Timestamp Source**: The device type originating the status change. When updating from the Field Service (Dynamics 365) mobile app, the timestamp source is *Desktop* if the changes occurred while the app is running in online mode, and *Mobile* when the app is running in offline mode.
+- **Timestamp Source**: The device type originating the status change. When updating from the Dynamics 365 Field Service mobile app, the timestamp source is *Desktop* if the changes occurred while the app is running in online mode, and *Mobile* when the app is running in offline mode.
 
 ## Generate booking journals
 

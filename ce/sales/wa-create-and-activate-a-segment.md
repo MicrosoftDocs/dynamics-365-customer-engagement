@@ -1,137 +1,108 @@
 ---
-title: Create and activate segments in work assignment
-description: Learn how to create and activate segments, so that records that satisfy defined conditions in Dynamics 365 Sales are automatically added.
+title: Create segments and connect them to sequences
+description: Learn how to use work assignment in Dynamics 365 Sales to group records based on conditions, and then connect these segments to sequences of automated actions.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: how-to 
-ms.collection: 
+ms.topic: how-to
+ms.collection:
 ms.date: 08/11/2023
-ms.custom: bap-template 
+ms.custom:
+- bap-template
+- ai-gen-docs-bap
+- ai-gen-desc
+- ai-seo-date:10/12/2023
 ---
 
-# Create and activate segments in work assignment
+# Create segments and connect them to sequences
 
-You can create segments (groups of records) by defining different conditions for each segment. After a segment is activated, any record that satisfies the conditions that are defined for the segment becomes a member of the segment. A sequence that is connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
+Work assignment is a feature of Dynamics 365 Sales that helps you automate your sales team's activities. You can use work assignment to create segments of records based on conditions and connect them to sequences that perform actions on those records.
 
-> [!NOTE]
->
-> - Only active records are assigned to segments. For example, when a lead is qualified, it becomes a read-only record and creates a new opportunity record. This lead isn't considered for segmentation, because it's now read-only and is no longer active.
-> - You can have a maximum of 250 active segments in an organization at any time. To increase the limit for active segments, contact Microsoft Support for help.
-> - You can have a maximum of 10 active assignment rules in a segment at any time. Although you can create additional assignment rules within the segment, only 10 can be active at any time. To increase the limit, contact Microsoft Support for assistance. 
+A *segment* is a group of records that meet criteria that you define. For example, you can create a segment of leads that come from a certain source, such as your website or trade shows. A *sequence* is a set of actions that are performed automatically on the records in a segment, such as sending emails, making calls, or creating tasks. For example, you can create a sequence that sends a welcome email to new leads and then schedules a follow-up call.
+
+In this article, you'll learn how to create and activate segments in work assignment and connect them to sequences.
+
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
+| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-<!--markdownlint-disable MD036-->
 ## Create and activate a segment
-<!--markdownlint-enable MD036-->
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+You can assign only active records to segments. For example, when a lead is qualified, it becomes a read-only record and creates an opportunity record. Since the lead is no longer active, it can't be connected to a segment.
+
+Your organization can have up to 250 active segments at one time. A segment can have any number of assignment rules, but only 10 rules can be active at one time. If you need more, contact Microsoft Support.
+
+1. Sign in to your Sales Hub app.
+
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
+
 1. Under **Sales accelerator**, select **Work assignment**.
-1. On the **Work assignment** page, in the **Record type** list, select a record type.
 
-    By default, the lead and opportunity record types are available. The list also includes all the record types that you've selected in the [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout) section of the sales accelerator configuration.
+1. Select a **Record type**.
+
+    The lead and opportunity record types are available by default. The list also includes other record types that are selected in the [sales accelerator configuration](enable-configure-sales-accelerator.md#choose-content-and-layout).
 
 1. Select **+ New segment**.
-1. In the **Create a segment for \<*record type*\>** dialog box, enter the following information:
-    - A name and description for the segment.  
-    - In the **Priority** field, enter a priority.  
-        Set a priority for every segment. Records that meet the criteria for multiple segments are assigned to the segment that has the highest priority. You can change the priority of a segment at any time. More information: [Change the priority of a segment](wa-view-details-segment.md#change-priority-of-the-segment)
-        By default, the priority is set to the priority of the last segment that was created. The default, out-of-box segment always has the lowest priority. 
 
-1. Select **Next**.  
-    The segment condition builder page opens.
+1. Enter a **Name** and, optionally, a **Description** of the segment.
+
+1. Enter the segment's **Priority**.
+
+    The priority determines which segment records are assigned to when they meet the criteria for more than one. The segment with the highest priority takes precedence. By default, the priority is initially set to the priority of the last segment that was created. The default, out-of-the-box segment always has the lowest priority.
+
+    Set a priority for every segment. You can change the priority of a segment at any time.
+
+1. Select **Next** to open the segment condition builder page.
 
     :::image type="content" source="media/wa-segment-condition-builder-home-page.png" alt-text="Screenshot of the segment condition builder page.":::
 
-1. In the condition builder, under **And**, select **Add**. Use the following options to define the conditions that are used to evaluate records:
+    On this page, define the conditions that are used to evaluate records for assignment to the segment. You can add up to 10 conditions in a segment, including conditions that are based on groups and related entities. If you need more, contact Microsoft Support. [Read our recommendations for adding conditions](#recommendations-for-adding-conditions).
 
-    > [!NOTE]
-    >
-    > You can have a maximum of 10 conditions in a segment at any time. This number includes conditions that are defined with groups and related entities. The condition limit is added to optimize the runtime experience for segments and therefore ensure faster execution and improved efficiency. If you exceed the limit, a message informs you that the limit has been reached and the segment can't be saved. [Learn about best practices for adding conditions](#recommendations-for-adding-conditions) section.
-    >
-    > To increase the limit for conditions in segments, contact Microsoft Support for help.
+1. Select **Add**, and then use the following options to build the conditions of the segment:
 
-    - **Add row**: Add conditions that define when the segment should be applied. In the following example, the row specifies that the segment should be applied to leads that are created by the user John Thomas.
+    - **Add row**: Add a condition. Select an attribute, an operator, and a value; for example, *Created by* *Equals* *John Thomas*.
 
-        1. In the first column, select an attribute in the list. (For example, select *Created by*.)
-        1. In the second column, select an operator in the list. (For example, select *Equals*.)
-        1. In the third column, enter a value to filter by. (For example, enter *John Thomas*.)
+      :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::
 
-            :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::
+        Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.
 
-        You can create more conditions to further filter the leads that the segment should be applied to.
+    - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
 
-    - **Add group**: Add multiple conditions as a group if you want to filter leads by using more than one field.
+    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.
 
-        1. In the list in the upper-left corner, select **And** or **Or** to group the conditions.
+      :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
-            If you select **And**, the segment is applied only to leads that meet all the conditions in the group. If you select **Or**, the segment is applied to leads that meet any condition in the group. For example, to apply the segment to leads that are created by Kenny Smith *and* that have the company name Contoso, select **And**.
+1. (Optional) When you've finished defining the conditions, select **Simulate results** to view a list of records that satisfy the conditions.
 
-            :::image type="content" source="media/sa-segment-condition-add-group.png" alt-text="Screenshot that shows a condition group being added.":::
+    These results are simulated. They might not reflect the actual records that the segment can be applied to.
 
-        1. Define the conditions to add to the group.
-
-            :::image type="content" source="media/sa-segment-condition-add-group-select-condition.png" alt-text="Screenshot that shows conditions added to the group.":::
-
-        You can create multiple groups and further filter the leads based on the conditions that are defined in the groups.
-
-    - **Add related entity**: Add a condition that is based on the attributes of related entities.
-
-        1. In the **Related Entity** list in the upper left, select an attribute. 
-        1. In the list to the right, select either **Contains data** or **Does not contain data**.
-        1. Define the condition.
-
-            :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity":::
-
-1. (Optional) When you've finished defining the conditions for the segment, select **Simulate results** to verify that they work as intended.
-
-    A list of records that satisfy the conditions that you defined for the segment is shown.
-
-    > [!NOTE]
-    >
-    > - The records in the list are only simulated results. They might not be records that the segment can actually be applied to.
-    > - To activate the segment, select **Activate**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot that shows the simulated results for the defined conditions.](media/sa-segment-condition-builder-simulated-results.png "Screenshot that shows the simulated results for the defined conditions")
-
-1. Select **Save** and then **Activate**.
-
-    :::image type="content" source="media/wa-segment-condition-builder-select-save-activate.png" alt-text="Screenshot that shows the Save and Activate buttons.":::
-
-1. On the confirmation message, select **Activate**.
-
-The segment is activated. You can now connect it to a sequence or a record.
+1. Select **Save**, and then select **Activate**.
 
 > [!NOTE]
-> All segments that are related to a primary entity (such as lead or opportunity) run every time that you update the attributes of the primary entity that are added to the conditions.
-
-## Next steps
-
-After you create a segment, you can do the following tasks:
-
-- [Connect a segment to a sequence](wa-connect-a-segment-to-sequence.md)
-- [Create an assignment rule for a segment](wa-create-and-activate-assignment-rule.md)    
-- [View and edit properties of a segment](wa-view-details-segment.md)
+> As of the 9.3 release, if you change the attributes of a lead, opportunity, account, contact, or insight, all segments of that record type update automatically.
 
 ## Recommendations for adding conditions
 
-You can have a maximum of 10 conditions in segments at any given time. However, you can optimize the conditions by following these recommendations, which help improve the runtime efficiency of segments.
+A segment can have up to 10 conditions at one time. To optimize the performance and efficiency of segments, follow these recommendations when you add conditions:
 
-- **Distribute the segments**: Create multiple segments that have proper distribution of conditions. You can then connect those segments to the same sequence or a different sequence and similar or different assignment rules. This approach helps improve the performance of connecting sequences and assignment rules.
-- **Create rollup attributes**: Use rollup attributes to prevent performance issues when you use conditions that involve related entities. This approach helps avoid the performance overhead of conditions that involve related entities that have many-to-many relationships, one-to-many relationships, or nested related entities. [Learn more about how to define rollup columns that aggregate values.](/power-apps/maker/data-platform/define-rollup-fields)
-- **Use expression builder only**: Always use the expression builder in the user interface (UI) to define or update the segments. Don't update segments through Dataverse. Otherwise, unexpected behavior can occur that affects the records that are related to the segment and the subsequent automations, such as connecting sequences and assignment rules.
+- **Distribute the segments**: Create multiple segments with fewer conditions rather than one segment with many conditions. You can connect multiple segments to the same or different sequences and assignment rules. This helps improve the speed and accuracy of connecting sequences and assignment rules to records.
 
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+- **Create rollup attributes**: Use rollup attributes to avoid performance issues when you add conditions that involve related tables. Rollup attributes are calculated fields that aggregate values from related records. For example, you can create a rollup attribute that counts the number of contacts that are associated with a lead. [Learn how to define rollup attributes](/power-apps/maker/data-platform/define-rollup-fields).
+
+- **Use the expression builder only**: Always use the expression builder to define or update the segments. Don't update segments through Dataverse, the underlying data platform of Dynamics 365. It might cause unexpected behavior that affects the records that are related to the segment and the subsequent automations, such as connecting sequences and assignment rules.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
+## Next steps
+
+- [Connect segments to sequences](wa-connect-a-segment-to-sequence.md).
+- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
 
 ### See also
 
-[Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  
-[Edit a segment](wa-edit-a-segment.md)  
-[View and edit properties of a segment](wa-view-details-segment.md)
+- [Edit segments](wa-edit-a-segment.md)

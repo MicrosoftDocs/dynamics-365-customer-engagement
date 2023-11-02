@@ -1,7 +1,7 @@
 ---
 title: Visualize IoT device readings
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.date: 02/17/2023
+ms.date: 10/05/2023
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.custom: bap-template
@@ -57,9 +57,11 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles work on the mobile app when connected to the internet. For more information, see [Connected Field Service on Field Service (Dynamics 365) mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
+
+[!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
 
 Use the following table to troubleshoot error codes related to device readings.
 
@@ -73,8 +75,8 @@ Use the following table to troubleshoot error codes related to device readings.
 | 4010202 |		The user doesn't have permission to query Device Entity (*msdyn_iotdevice*)	 |	Ensure the user can query Device entity (*msdyn_iotdevice*) |
 | 5000203 |		Unable to get msdyn_DeviceId for the given *msdyn_iotdeviceid* in the Device Entity (*msdyn_iotdevice*) |		Make sure device has the attribute *msdyn_DeviceId* |
 | 5000204	 |	Unable to get Time Series Insights Url for the given *msdyn_iotdeviceid* |		Make sure that Connected Field Service Deployment App has deployed Time Series Insights for this CRM Org and the device is linked to the correct IoT Provider |
-| 5000205 |		Client ID used to get Azure AD token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that the system uses a valid Client ID  in the Connected Field Service Deployment App |
-| 5000206 |		Client Secret used to get Azure AD token for TSI Authorization has expired |		Update the Client Secret in Azure AD and rerun Connected Field Service Deployment App to update the new Client ID and Client Secret |
+| 5000205 |		Client ID used to get Microsoft Entra token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that the system uses a valid Client ID  in the Connected Field Service Deployment App |
+| 5000206 |		Client Secret used to get Microsoft Entra token for TSI Authorization has expired |		Update the Client Secret in Microsoft Entra and rerun Connected Field Service Deployment App to update the new Client ID and Client Secret |
 | 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by rerunning the Connected Field Service Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 | 5000604	 |	Response from Time Series Insights API isn't in an expected format	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
