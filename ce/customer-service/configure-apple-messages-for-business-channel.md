@@ -1,7 +1,7 @@
 ---
 title: "Configure an Apple Messages for Business channel | MicrosoftDocs"
 description: "This article provides steps to configure an Apple Messages for Business channel and corresponding Apple pages in Omnichannel for Customer Service."
-ms.date: 05/26/2023
+ms.date: 10/23/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -87,6 +87,10 @@ To add the Apple Messages for Business channel instance, complete the following 
       - [Quick replies](create-quick-replies.md)<br>
       - [Rich messages](create-rich-messages.md)<br>
 
+Watch this video to learn how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1djXE]
+
 ## Configure authentication settings
 
 Perform the steps in [Create Apple Messages for Business authentication settings](create-chat-auth-settings.md#create-authentication-settings-for-apple-messages-for-business) to configure authentication settings.
@@ -102,6 +106,10 @@ Perform the steps in [Create rich messages](create-rich-messages.md) to create r
 ## Use rich messages in conversation control
 
 Perform the steps in [Rich messages in the conversation control](rich-messages-conversation-control.md) to use the rich messages.
+
+Watch this video to learn how to view a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dmCE]
 
 ### See also
 
