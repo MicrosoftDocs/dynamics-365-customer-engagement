@@ -87,7 +87,7 @@ Make sure that the following prerequisites are met:
        - [Custom automated messages](configure-automated-message.md)
        - [Post-conversation survey](configure-post-conversation-survey.md)
 
-    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
+    1. On the **User features** page, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
        - Customers can send file attachments
        - Agents can send file attachments
 
