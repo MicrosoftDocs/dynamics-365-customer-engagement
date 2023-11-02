@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 09/28/2023
+ms.date: 11/02/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -24,7 +24,7 @@ The information in the following table outlines the Azure OpenAI service that's 
 |Copilot availability|Dynamics 365 geography|Azure OpenAI geography|
 |----------|-------------|-----------------|
 | Yes | Asia Pacific | United States |
-| Yes | Australia | United States |
+| Yes | Australia | Australia |
 | Yes | Canada | United States |
 | No | China | N/A|
 | Yes | Europe | Switzerland |
@@ -40,7 +40,7 @@ The information in the following table outlines the Azure OpenAI service that's 
 | Yes | South America | United States |
 | Yes | Switzerland | Switzerland |
 | Yes | United Arab Emirates | United States |
-| Yes | United Kingdom | Switzerland |
+| Yes | United Kingdom | United Kingdom |
 | Yes | United States | United States |
 
 The copilot AI opt-in is in limited preview. Do the following steps to opt-in to data movement across geographies:
