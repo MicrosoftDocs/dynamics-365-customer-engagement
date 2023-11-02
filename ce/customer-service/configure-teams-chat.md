@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service."
-ms.date: 10/31/2023
+ms.date: 11/01/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: article
@@ -139,7 +139,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 ## Configure the ability to connect chats to Dynamics 365 records
 
-Once you’ve enabled Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
+After you enable Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
 
 **To configure the ability to connect a chat to a record type:**
 
