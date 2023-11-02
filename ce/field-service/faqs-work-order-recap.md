@@ -1,63 +1,79 @@
 ---
-title: FAQs for work order recap with copilot (preview)
-description: This FAQ provides information about the AI technology used in the work order recap feature.
+title: FAQ about work order recap with Copilot (preview)
+description: Get answers to common questions about how the AI-powered work order recap feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
 ms.date: 08/02/2023
-ms.custom: 
+ms.custom:
   - responsible-ai-faqs
-ms.topic: article
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/26/2023
+  - bap-template
+ms.topic: faq
 author: m-hartmann
 ms.author: mhart
 ms.reviewer: jacohen
 ---
 
-# FAQs for work order recap with copilot (preview)
+# FAQ about work order recap with Copilot (preview)
 
-These FAQs describe the AI impact of the Dynamics 365 Field Service work order recap (preview) feature.
+The work order recap is an AI-powered tool that gives you a quick and smart summary of your work orders and their related data. In this article, get answers to common questions about how the feature works and what its limitations are.
 
-## What is work order recap with copilot?
+## What is the work order recap feature?
 
-The AI-Powered work order recap feature provides a succinct, status-relevant summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order. The recap includes aspects of its past developments, future actions, arrival times, work criticality, and parts used or to be used.
+The work order recap feature in Dynamics 365 Field Service uses AI to give service managers, dispatchers, and frontline workers a concise and relevant summary of a work order and its related data. The recap is a snapshot of the work order's status, history, progress, and next steps. It also includes important information such as arrival times, work criticality, and parts usage.
 
-## What are the feature’s capabilities?
+## What are the feature's capabilities?
 
-The feature pulls relevant data using the requesting user's security context to ensure the prompt respects their security role. It summarizes the work order and surrounding details based on the record's current status. If the data is available, the recap includes a summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order. Additional information, such as requirement characteristics, asset details, and invoice information, may be included based on the work order's current system status. Since it uses the user's context to pull relevant data and the content it generates isn't saved, it doesn't expose sensitive data that the user has no permissions to see.
+The work order recap uses your security role to access the data that you can see and summarizes it based on the work order's status. The recap might include:
 
-## What is the feature’s intended use?
+- A summary of the work order's problem, resolution, and customer feedback
+- Booking details such as start and end time, travel time, and resource
+- Activities such as phone calls, emails, and appointments
+- Notes from the technician or other users
+- Products, services, and service tasks that are required or completed for the work order
+- Additional information such as requirement characteristics, asset details, and invoice information, depending on the work order's status
 
-As a work order progresses through its lifecycle, the work order recap provides a contextually relevant summary tailored to the status of the work order. It aims to provide a high-level recap for users. The recap may help them determine what about the given record requires deeper investigation. This feature uses AI to generate a brief summary and isn't intended to be a replacement for thorough investigation of each work order and relevant related information.
+The feature doesn't save the summary, and it doesn't expose any sensitive data that you don't have permission to see.
 
-## How was work order recap with copilot evaluated? What metrics are used to measure performance?
+## What is the feature's intended use?
 
-- This feature was evaluated using English. It's currently available only in English (en-us).
-- The recap was tested to evaluate prompt accuracy and performance. Responses are limited to the context provided from the work order.
-  - During testing, the quality of the data in the system heavily influences the quality of the content.
-  - No content fabrication was observed during testing. However, there were some instances of inaccurate summarization of the data shared within the prompt.
+You can use work order recap to quickly understand the state of a work order at any stage of its lifecycle. The feature provides a context-specific summary that helps you decide what actions to take or what details to investigate further. It's not a substitute for a thorough review of the work order and its related information.
 
-## What are the limitations of work order recap with copilot? How can users minimize the impact of the limitations when using the system?
+## How was the feature tested and what metrics are used to measure its performance?
 
-- This feature is currently in preview.
-  - Users are encouraged to provide feedback on the quality of the content using the like/dislike icons within the feature's control. We use this data to evaluate and improve the quality of the capability.
-- This feature is intended for use online. It's not available while users are offline.
-- This feature was evaluated using English. If used in environments where languages other than English are used, the quality of the responses hasn't yet been evaluated. Inaccurate responses may be returned when users converse with the system in languages other than English.
-- The system generates a summary based on the data the user who invoked the summary can see and based on the data that exists within the system. If the user is missing critical permissions, the summary may be of low value. Similarly, if the data in the system is of poor quality, the summary may be of low value. The output of the summary is based on the value of the inputs.
+We tested the feature using English (en-us), which is the only language it supports right now.
+
+We checked the accuracy and performance of the recap based on the data from the work order. The recap quality depends on the quality of the data in the system. If the data is incomplete or incorrect, the recap might reflect that.
+
+We didn't find any cases where the recap made up information that wasn't in the data. However, we did find some cases where the recap didn't summarize the data correctly.
+
+## What are the limitations of the feature and how can I minimize their impact?
+
+The work order recap feature is still in preview, and we're working on improving it. You can help us by giving us feedback using the like/dislike buttons on the recap. We use this data to evaluate and improve the quality of the content.
+
+The feature only works online. You can't use it when you're offline.
+
+The feature only works in English. If you use it in other languages, you might get inaccurate recaps.
+
+The feature summarizes the data that you can see and that exists in the system. If you don't have the right permissions or if the data is poor, the recap might not be useful. The quality of the recap matches the quality of the inputs.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-- While this feature is in preview and only available for environments within the NAM and GBR regions, the feature can be enabled or disabled for a given environment by an administrator through the Field Service **Settings**, **Copilot recap** toggle. When disabled, the **Copilot recap** control is hidden from the Work order form (preview). This feature is only available, out of the box, on the Work order form.
-- While the prompt and contextual data provided within the prompt can't be customized at this time, the feature respects:
-  - Personalization settings for date/time format and time zone to ensure time related outputs reflect the date/time and time zone settings of a given user.
-  - Environment specific table and field labels for the contextual information passed in as part of the prompt for a given work order. The response should reflect the labels of the data within a given environment rather than the display labels defined in the default solution.
+The feature is currently in preview and only available in English (en-us) and for environments in North America and the United Kingdom. In those regions, administrators can enable or disable the feature for your environment by going to Field Service settings and toggling the **Copilot recap** option.
+
+The prompt and contextual data provided within the prompt can't be customized at this time. However, the feature respects your personalization settings for date/time format and time zone, as well as your environment-specific table and field labels.
 
 ## Can I add the recap to other forms or records?
 
-- The form component is called *Copilot recap*. It's available on the new work order experience (preview) form.
-  - The control can be added on other work order forms using the [form designer documentation](/power-apps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets#using-controls-in-the-form-designer).
-  - Since the content that the control generates isn't saved in the system and uses the system status of the work order to generate a more contextually relevant summary, it's bound to the *System Status* column.
-- At this time, the control is built for the work order. It can't be used to summarize other records.
+The form component is called **Copilot recap**. By default, it's initially available only on the new work order experience form. An administrator can [add the control to other work order forms](/power-apps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets#using-controls-in-the-form-designer).
 
-## See also
+Since the content that the control generates isn't saved in the system and uses the system status of the work order to generate a more contextually relevant summary, it's bound to the **System Status** column.
 
-- [Work order recap with copilot](work-order-recap.md)
-- [Responsible AI FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
+At this time, the control is built for the work order. It can't be used to summarize other records.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+### See also
+
+- [Work order recap with Copilot in Field Service](work-order-recap.md)
+- [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)
+
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

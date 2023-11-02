@@ -44,13 +44,9 @@ In the Copilot pane, select the sparkle icon (:::image type="icon" source="media
 
 ### Summarize an opportunity or a lead
 
-1. In the Copilot chat pane, type **/** and select **Summarize opportunity** or **Summarize lead** from the **Suggested requests** list.
+1. In the Copilot chat pane, select **Summarize opportunity** or **Summarize lead** from the **Suggested requests** list.
 
-    You can also type the prompt.
-
-1. Start typing the name of the opportunity or lead after the **@** symbol.
-
-    If you type the prompt, follow it with **@**.
+1. Start typing the name of the opportunity or lead after the **/** symbol.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
@@ -88,13 +84,9 @@ Copilot can help you catch up on any updates to your opportunity or lead records
 
 The catch up information is taken from the audit history. If you don't see any catch up information, ask your administrator to [turn on auditing](./enable-setup-copilot.md#configure-record-catch-up-fields) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. In the Copilot chat pane, type **/** and select **Catch up on opportunity** or **Catch up on lead** from the **Suggested requests** list.
+1. In the Copilot chat pane, select **Catch up on opportunity** or **Catch up on lead** from the **Suggested requests** list.
 
-    You can also type the prompt.
-
-1. Start typing the name of the opportunity or lead after the **@** symbol.
-
-    If you type the prompt, follow it with **@**.
+1. Start typing the name of the opportunity or lead after the **/** symbol.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
