@@ -1,66 +1,62 @@
 ---
-title: New UX for the mobile app (preview)
-description: Learn about the redesigned user experience of the Dynamics 365 Field Service mobile app for managing bookings and work orders.
+title: New mobile user experience (preview)
+description: Learn how to enable and find out more about the new user experience features in the Dynamics 365 Field Service mobile app.
 ms.date: 07/30/2023
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: andrea-orimoto
 ms.author: andreo
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/30/2023
 ---
 
-# New UX for the mobile app (preview)
+# New mobile user experience (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## Preview availability
+The new user experience (UX) features in the Dynamics 365 Field Service mobile app help service technicians swiftly access all the information they need. The modern UX offers familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products. Technicians save valuable time by quickly updating the status of a booking and getting driving directions to a customer site, changing or completing work order details, and adding notes with photos. They can even get detailed information about tasks with [embedded Dynamics 365 Guides](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile), which provide step-by-step instructions, pictures, and videos.
 
-This article contains information about the new user experience features in the Dynamics 365 Field Service mobile app. The improved UX aims to help service technicians swiftly access all the information they need on the go. This modern user experience supports familiar mobile navigation, gestures, and controls to manage work orders, tasks, services, and products.
-
-Technicians save valuable time for daily work by quickly updating the status of a booking or accessing driving directions to a customer site. They can easily select, change, or complete work order details and also add notes with multiple images.
-
-Detailed information for the immediate task is now readily available with embedded Dynamics 365 Guides. [Embedded guides in the Field Service mobile app](/dynamics365/mixed-reality/guides/admin-connect-field-service-mobile) provide technicians with step-by-step guided instructions, pictures, and videos that provide more details.
+Watch this brief video to learn more about the new user experience in the Field Service mobile app:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18Uzz]
 
 ## Preview content in the documentation
 
-Once [an administrator enables](#enable-the-preview-features) the preview features, they're available directly in the existing Field Service mobile app. Technicians don't need to download a new app and organizations don't need to perform any migration. However, make sure that the mobile app and the Field Service solution are updated to the latest version.
+After an administrator [enables the preview features](#enable-the-preview-features), they're available directly in the Field Service mobile app. Technicians don't need to download a new app and organizations don't need to migrate anything.
 
-> [!NOTE]
-> For the preview of the new UX on mobile, the minimum Field Service version required is [8.8.95.25](version-history.md#889525).
-> The minimum app version required is 13.23072.18 on iOS and 3.23072.18 on Android.
+Make sure the mobile app and the Field Service solution are updated to the latest version. For the preview of the new UX, the minimum Field Service version required is [8.8.95.25](version-history.md#889525). The minimum app version required is 13.23072.18 (iOS) and 3.23072.18 (Android).
 
-To learn more about these new features, review documentation articles and find content for preview features alongside the current content in dedicated tabs.
-
-Here's a list of documents that contain specific preview content:
+The following articles contain preview content alongside the current content in dedicated tabs:
 
 - [Download the mobile app and get started](download-get-started-mobile-app.md)
-- [Complete work orders on the mobile app](get-work-done-mobile-app.md)
-- [Access related apps form the Field Service mobile app](access-related-apps-mobile-app.md)
+- [Complete work orders in the mobile app](get-work-done-mobile-app.md)
+- [Access related apps from the mobile app](access-related-apps-mobile-app.md)
 - [Embedded Guides in Field Service (preview)](access-related-apps-mobile-app.md)
 
 ## Enable the preview features
 
-To enable the preview features for your organization, sign in as a **Field Service Administrator** to Dynamics 365 in a web browser. Select the **Field Service Mobile** app module from the list of all installed apps in your organizations.
-
-In the mobile app, open the **Settings** area. Set the toggle to enable or disable the preview features for all users within the organization.
+To enable the preview features, sign in as a Field Service Administrator to Dynamics 365 in a web browser. Select the Field Service Mobile app module. In the app settings, select the toggle to enable the preview features for all users in your organization.
 
 ## Limitations of preview features
 
-The preview features currently have the following limitations:
+The preview features have the following limitations:
 
-- Offline mode isn't supported. Users enabled for offline don't see the new features and see the existing Unified Interface experiences. To properly experience the new preview features, disable the offline profile.
-- In preview, the new UX is currently not customizable. [Field Service Mobile app module customizations](field-service-customizations.md) aren't supported and don't work in the new UX. However, the customized model-driven app experiences (such as custom forms and business logic) continue to be accessible through an icon on the top right of the new UX, allowing users to switch back and forth.
-- The new preview features respect the mobile device language settings, while the current app respects the language settings in the user profile. You might see a mixed language experience if the two settings are out of sync.
+- Offline mode isn't supported. Users who are enabled for offline use don't see the new experience. To properly experience the new preview features, disable the offline profile.
 
-## Preview Support
+- While it's in preview, the new UX can't be customized. [Field Service Mobile app module customizations](field-service-customizations.md) aren't supported and don't work in the new UX. However, an icon in the upper-right corner allows users to switch between the classic and modern UX to access customized model-driven app experiences, like custom forms and business logic.
 
-During the preview period, there's limited support for this feature and we don't recommend it for production usage. If you run into issues with this preview, select **Send feedback** in the left navigation menu of the mobile app to send an email to our team with logs attached to it.
+- The new mobile experience uses the display language that's set in the device's language settings. The classic experience uses the language that's set in the app's user profile. Users might see a mixed language experience if the two settings are out of sync.
+
+## Preview support
+
+During the preview period, support for the new mobile experience features is limited and we don't recommend it for production use. If you run into issues with the preview, select **Send feedback** in the app's left navigation menu to send an email and system logs to our team.
 
 ## Next steps
 
-- [Install and set up the mobile app](mobile-power-app-get-started.md)
+[Install and set up the mobile app](mobile-power-app-get-started.md).
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
