@@ -73,12 +73,12 @@ Make sure that the following prerequisites are met:
 1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
    1. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
-   1. On the **Callback information** page, copy the value in the **Bot ID** box. It's used in the Teams app to update the value for the bot ID.
+   1. On the **Callback information** page, copy the value in the **Bot ID** box. The Teams app uses it to update the value for the bot ID.
    1. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
 
-1. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
+1. Select the workstream that you created for the Microsoft Teams channel, and then on the workstream page, select **Set up Microsoft Teams** to configure the following options:
     1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
 
     1. On the **Language** page, select the language.
@@ -141,7 +141,7 @@ Make sure that the following prerequisites are met:
 
 4. Select **Save**. The Teams channel is saved.
 
-5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
+5. In **Step 3: Callback information**, copy the value as displayed in **Bot ID**.
 
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
