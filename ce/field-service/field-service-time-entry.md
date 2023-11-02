@@ -46,7 +46,7 @@ Time entries are automatically created during the work order process. As a work 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of booking timestamps.](./media/work-order-time-entry-booking-statuses.png)
 
-When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps.
+When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a list of time entries for one person.](./media/work-order-time-entry-work-order.png)
@@ -68,17 +68,16 @@ Add a start time, end time or duration, and the bookable resource to which the t
 
 You can relate the time entry to other records - like work orders and bookings - as needed.
 
-You can also view and create time entries on the [Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md). 
+You can also view and create time entries on the [Field Service mobile app](mobile-power-app-get-started.md). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on the Field Service (Dynamics 365) mobile app.](./media/mobile-2020-time-entry-all.png)
-
+> ![Screenshot of time entry on the mobile app.](./media/mobile-2020-time-entry-all.png)
 
 ## Time off
 
 Time-off requests are automatically recorded as time entries as well.
 
-First, submit a time-off request. Submission can be done in the desktop browser or from Field Service Mobile.
+First, submit a time-off request. Submission can be done in the desktop browser or from the mobile app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new time-off request.](./media/time-entry-new-time-off.png)
@@ -99,10 +98,6 @@ The time entry **Entry Status** will be updated as approved.
 > ![Screenshot of a list of time entries, highlighting an approved time-off time entry.](./media/time-entry-time-off-approve-time-entry.png)
 
 Making changes to the date or duration of the time entry will update the time-off request and vice versa.
-
-> [!Note]
-> You can create time-off requests from Field Service Mobile in online and offline modes; the time entries will be created upon sync. 
-
 
 ## Configuration considerations
 

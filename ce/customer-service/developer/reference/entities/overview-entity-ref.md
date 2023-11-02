@@ -37,7 +37,12 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_consoleapplicationsessiontemplate](msdyn_consoleapplicationsessiontemplate.md)|
 |[msdyn_conversationaction](msdyn_conversationaction.md)|
 |[msdyn_conversationactionlocale](msdyn_conversationactionlocale.md)|
+|[msdyn_conversationmessageblock](msdyn_conversationmessageblock.md)|
 |[msdyn_conversationsuggestionrequestpayload](msdyn_conversationsuggestionrequestpayload.md)|
+|[msdyn_copilotinteraction](msdyn_copilotinteraction.md)|
+|[msdyn_copilotinteractiondata](msdyn_copilotinteractiondata.md)|
+|[msdyn_copilottranscript](msdyn_copilottranscript.md)|
+|[msdyn_copilottranscriptdata](msdyn_copilottranscriptdata.md)|
 |[msdyn_customengagementctx](msdyn_customengagementctx.md)|
 |[msdyn_decisioncontract](msdyn_decisioncontract.md)|
 |[msdyn_decisionruleset](msdyn_decisionruleset.md)|
@@ -104,9 +109,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_ocsystemmessage](msdyn_ocsystemmessage.md)|
 |[msdyn_octag](msdyn_octag.md)|
 |[msdyn_octeamschannelconfig](msdyn_octeamschannelconfig.md)|
-|[msdyn_octwitterapplication](msdyn_octwitterapplication.md)|
-|[msdyn_octwitterhandle](msdyn_octwitterhandle.md)|
-|[msdyn_octwitterhandlesecret](msdyn_octwitterhandlesecret.md)|
 |[msdyn_ocvoice](msdyn_ocvoice.md)|
 |[msdyn_ocvoicechannellanguagesetting](msdyn_ocvoicechannellanguagesetting.md)|
 |[msdyn_ocvoicechannelsetting](msdyn_ocvoicechannelsetting.md)|
@@ -152,7 +154,6 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_systemuser_msdyn_omnichannelqueue](msdyn_systemuser_msdyn_omnichannelqueue.md)|
 |[msdyn_teamsengagementctx](msdyn_teamsengagementctx.md)|
 |[msdyn_transcript](msdyn_transcript.md)|
-|[msdyn_twitterengagementctx](msdyn_twitterengagementctx.md)|
 |[msdyn_unifiedroutingdiagnostic](msdyn_unifiedroutingdiagnostic.md)|
 |[msdyn_unifiedroutingrun](msdyn_unifiedroutingrun.md)|
 |[msdyn_unifiedroutingsetuptracker](msdyn_unifiedroutingsetuptracker.md)|

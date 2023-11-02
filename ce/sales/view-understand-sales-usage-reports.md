@@ -1,5 +1,5 @@
 ---
-title: View and understand sales usage reports
+title: View operational metrics and KPIs in Sales usage reports
 description: View and understand sales usage reports in Microsoft Dynamics 365 Sales to analyze operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.
 ms.date: 03/31/2023
 ms.topic: conceptual
@@ -8,7 +8,7 @@ ms.author: udag
 ms.custom: bap-template
 ---
 
-# View and understand sales usage reports
+# View operational metrics and KPIs in sales usage reports
 
 The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
 

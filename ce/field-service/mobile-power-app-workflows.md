@@ -1,19 +1,16 @@
 ---
-title: "Create workflows and scripts for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
-description: Learn about workflows and scripts for the Field Service (Dynamics 365) mobile app.
+title: Create workflows and scripts for the mobile app
+description: Learn about workflows and scripts for the Field Service mobile app.
 ms.date: 12/21/2022
 ms.topic: article
 ms.subservice: field-service-mobile
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: Andrea-Orimoto
 ms.author: andreo
 ---
 
-# Workflows and scripts for the Field Service (Dynamics 365) mobile app
+# Create workflows and scripts for the mobile app
 
-Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes will work when the mobile app is running in [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
+Administrators can use processes like Dynamics 365 workflows, Power Automate flows, JavaScript, and business rules and actions to help frontline workers and automate business processes. Some processes work when the Dynamics 365 Field Service mobile app runs [offline first](mobile-power-app-system-offline.md) and others require internet connectivity. For more information, see this article: [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
 
 ## Dynamics 365 workflows and Power Automate flows
 
@@ -50,7 +47,7 @@ An organization may want to run validation on certain field values after a techn
 
 Validation can be done with the help of some JavaScript which works online and offline.
 
-See the video on![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service (Dynamics 365) mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
+See the video about ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Field Service mobile app: Offline JavaScript](https://youtu.be/tUdL5YZA29A) for more details.
 
 1. In Dynamics 365 Field Service, select **Advanced Settings**.
 
@@ -96,12 +93,8 @@ See the video on![Video symbol](../field-service/media/video-icon.png "Video sym
 ## Debugging the mobile app
 
 You can debug custom code using the Windows or Android application:
+
 - Debug JavaScript with the [Windows application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-the-windows-desktop-app).
 - Debug JavaScript with the [Android application](/power-apps/developer/model-driven-apps/clientapi/debug-javascript-code#debug-javascript-in-mobile-apps).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
-
-

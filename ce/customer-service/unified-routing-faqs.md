@@ -1,8 +1,8 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing in Customer Service and Omnichannel for Customer Service.
-ms.date: 01/11/2023
-ms.topic: concept
+ms.date: 10/31/2023
+ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -21,7 +21,7 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?
 
-Customers will get unified routing for entities, such as Cases, Leads, and custom entities, as part of the Customer Service Enterprise license. When you purchase channels (Chat and Digital messaging), you'll get unified routing for chat and messaging channels automatically.
+[See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
 
 ### What will happen to my current workstreams after unified routing is installed?
 
@@ -33,14 +33,14 @@ There is no downtime involved when you are migrating the workstreams, but it's r
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-These workstreams were created either in the Omnichannel admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
+These workstreams were created either in the Customer Service admin center or Customer Service Hub app. In the Omnichannel Administration app, you'll see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
 
-### How do I migrate my configurations from the Omnichannel Administration app to the Omnichannel admin center app?
+### How do I migrate my configurations from the Omnichannel Administration app to the Customer Service admin center app?
 
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 > [!NOTE]
-> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center or Omnichannel admin center app only. We recommend that you familiarize yourself with these apps before migrating. More information: [Get started with Omnichannel admin center](oc-admin-center.md).
+> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center app. We recommend that you familiarize yourself with the app before migrating. More information: [Get started with Customer Service admin center](cs-admin-center.md).
 
 ### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
@@ -74,7 +74,7 @@ The existing queues will be automatically migrated to unified routing.
 
 ### Can I route any record type by using basic routing?
 
-No. Basic routing can be used only for cases. To route any record type, use unified routing.
+No. Basic routing can be used for cases only. To route any record type, use unified routing.
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
@@ -121,27 +121,28 @@ The unassigned work item remains in the queue until you manually assign it to an
 
 Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent)
 
-## Route to most-idle agent
+## Route to least-active agent
 
-### For which channels is routing to most-idle agent (preview) available?
+### For which channels is routing to least-active agent available?
 
-In the preview release, the feature is available for the voice channel only.
+The feature is available for the voice channel only.
 
-### Is presence used in determining the most-idle agent?
+### Does the agent sign-in time affect the calculation of the least active agent? 
 
-No, presence isn't used. Only capacity release information is taken into account.
+The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
 
-### Does the agent sign-in time affect in the calculation of the most-idle agent?
 
-The agent’s last capacity release time only affects the idle time used by the most-idle assignment method. The agent sign-in times don't impact the capacity release time.
+### How is a tie-breaker scenario resolved if two or more agents have the same capacity release time?
 
-### How is a tie-breaker scenario resolved if two or more agents match the idle time?
+If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner. 
 
-If the last capacity release time, which is the time since the agent is idle, is the same for two matching agents, then assignment will be done in a round-robin manner.
-
-### Can I see diagnostics for routing to the most-idle agent?
+### Can I see diagnostics for routing to the least-active agent?
 
 Yes, the assignment method stage displays the assignment method that's used.
+
+### How does routing to the least active agent work when a new agent signs in?
+
+When a new agent signs in to the Customer Service workspace app, their "last capacity release time" won't be available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item to them.
 
 ## Intelligent skill finder
 

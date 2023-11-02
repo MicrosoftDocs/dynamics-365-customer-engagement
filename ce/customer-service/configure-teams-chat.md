@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
-description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 05/19/2023
+description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service."
+ms.date: 11/01/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: article
@@ -12,27 +12,27 @@ ms.topic: article
 You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
-> Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
+> Teams chat is already enabled for Customer Service workspace and Customer Service Hub, and you can select other apps that you want to enable it for.
 
-When the feature is enabled, while working on customer records, agents can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
+When the feature is enabled for an app, agents who work on customer records can start a new chat or connect an existing chat to a record. They can collaborate efficiently without switching context or leaving the application. Connecting the associated chats to a record can help agents maintain all the chats related to the record in one place. You can also configure an optional introduction note that agents can use to provide further context when collaborating in Teams.
 
 ## Enable or disable Teams chat
 
-The Teams chat feature must be enabled in customer engagement apps and custom apps. It requires certain permissions to access Teams data. Review the following permissions required section to learn more.
+If you’re using the Customer Service workspace or Customer Service Hub apps, Teams chat is automatically enabled. If you want to use Teams chat in other customer engagement apps, you must manually enable it. Teams chat also requires certain permissions to access Teams data.
 
 ### Permissions required
 
-As a tenant administrator, when you enable the Teams chat feature, the app has the following permissions:
+When Teams chat is enabled, the app has the following permissions:
 
 |Permission | What the app does with the permission |
 |-------------|-----------------------|
 |Chat.ReadWrite.All |Reads user’s chats and recent messages to display in chat list. |
 |Directory.Read.All	|Reads user’s teams and channels display name. |
 |Presence.Read.All	|Reads presence information of all users to be displayed on the user avatars in chat list. |
-|User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This is used by the suggested section in the chat list.|
+|User.Read.All	|Reads users’ display name and licenses to validate if the suggested participants have a Teams license assigned. This permission is used by the suggested section in the chat list.|
 |User.ReadBasic.All	|Reads users’ photos. |
 
-In order to use Teams chat in multisession environments, users must have the same permissions as available in the **Productivity tools user** role. 
+In order to use Teams chat in multisession environments, users must have the same permissions as the **Productivity tools user** role. 
 
 Users need read permission for the following entities to access the productivity pane for custom roles:
 
@@ -52,7 +52,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - The communication between the applications is secured through TLS.
 
-- Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a connected chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
+- The integration honors policies that apply both to Teams and Dynamics 365. For example, confidential files shared in a connected chat are only accessible to permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
 
 - The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, review [Permissions required](#permissions-required).
 
@@ -76,6 +76,9 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### Access the Teams settings
 
+> [!NOTE]
+> Teams settings are enabled by default for the Customer Service workspace and Customer Service Hub apps. If you’re using either of these apps, you can skip this section. If you want to enable Teams chat for other apps, follow these steps.
+
 1. In Dynamics 365, go to one of the apps, and then perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -89,8 +92,13 @@ The following data security and privacy considerations apply for Teams chat func
     1. In the site map, select **Service Management**.
     
     1. In **Collaboration**, select **Embedded chat using Teams**.
-    
+
 1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.   
+
+1. Select one of the following options:
+   - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
+    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you didn't previously set up Teams, it's on by default for the Customer Service workspace and Customer Service Hub apps.
+
 1. Save the changes.<br>
    Teams settings are now enabled for Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
@@ -118,11 +126,11 @@ To enable Teams chat settings for a custom multisession user, complete the follo
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.
     
-1. Ensure that toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
+1. Ensure that the toggle for **Turn on Microsoft Teams chats inside Dynamics 365** is set to **Yes**, and then in **Turn on for specific multisession users**, select **Manage**. The **Agent experiences profiles** page is displayed.
 
 1. Select the profile to open it.
 
-1. On the profile page, you can do the following:
+1. On the profile page, you can take the following actions:
    - **Add users** More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
    - **Add an entity session template** More information: [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
    - **Enable the inbox** More information: [Configure the inbox for agents](configure-inbox.md)
@@ -131,7 +139,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
 ## Configure the ability to connect chats to Dynamics 365 records
 
-Once you’ve enabled Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
+After you enable Teams chats, you can connect the chats to different record types. Standard record types, including case, account, contacts, knowledge article, and email, are available out-of-the-box, or you can add your desired record type.
 
 **To configure the ability to connect a chat to a record type:**
 
@@ -175,20 +183,20 @@ To add a record type to connect chats to in Dynamics 365 records:
 	
 1. In the **Allow chats to be connected to this record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
-1. (Optional): If you want to display content for new connected chats, toggle **Include a note** to **On**, and then use the existing views functionality to define the fields that will represent the context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
+1. (Optional): If you want to display content for new connected chats, toggle **Include a note** to **On**, and then use the existing views functionality to define the fields that represent the context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
             
 1. Select **Save**.
 
-For any view that's selected, keep in mind the following details:
+For any view selected, keep in mind the following details:
 
  - The first five fields of any view are used as the context card details (in addition to a connection to the record).
- - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
+ - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You're able to see from the configuration experience that the specific field isn't supported.
  
    > [!div class="mx-imgBorder"] 
    > ![View for supported fields and message for an unsupported field.](media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
- - Because the data fields are static, field-level permissions aren't checked for collaborators. This means if the agent has the field-level permissions to view data fields, collaborators will also be able to see those fields.
-- If you don't select a view for the Case record type, agents will see the default, out-of-box **Case introduction message** view.
+ - Because the data fields are static, field-level permissions aren't checked for collaborators. Therefore, if the agent has the field-level permissions to view data fields, collaborators can also see those fields.
+- If you don't select a view for the Case record type, agents see the default, out-of-box **Case introduction message** view.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](media/teams-chat-case-intro-message-view.png "Default case introduction message view")
@@ -212,9 +220,9 @@ You can choose from the following options for assigning permissions to agents:
 
 ### Assign disconnect chat rights to specific users
 
-You can assign the ability to disconnect chats to record owners or users who connected a chat to a record.
-   - **Record owner**: When enabled, record owners can disconnect any chats that are connected to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
-   - **Chat connector**: When enabled, users who connected a chat to the Dynamics 365 record can disconnect that connected chat. This permission can also be assigned at the record level.
+You can assign the ability to disconnect chats to record owners or users who connected a chat to a record. For new organizations, by default, these settings are enabled.
+   - **Record owner can disconnect chats**: When enabled, record owners can disconnect any chats that are connected to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
+   - **Chat connector can disconnect chat**: When enabled, users who connected a chat to the Dynamics 365 record can disconnect that connected chat. This permission can also be assigned at the record level.
 
 **To enable or disable user-specific rights to disconnect chats:**
 
@@ -304,7 +312,7 @@ As an admin, you can enable users to view and easily join chats that are connect
 
 The ability for users to join existing chats related to cases is especially useful for the following scenarios:
 
-- **Case transfers**: If an agent has onboarded to a case that was previously handled by another agent, they can join existing connected chats to better understand the context of the case and what steps the previous agent had taken, and then continue to collaborate with their relevant colleagues.
+- **Case transfers**: If an agent onboards to a case that another agent previously handled, they can join existing connected chats to better understand the context of the case. They can see the steps the previous agent took, and then continue to collaborate with their relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
 **To turn on or off the join chat capability for a record type**:
@@ -356,13 +364,13 @@ Automatic event updates can’t fully render inline images in rich text fields.
 
 1. In **Customer Service admin center**, select **Collaboration**, and then set the toggle to **On** for **Turn on Microsoft Teams chats inside Dynamics 365**. 
 1. Next to **Embed chat using Teams**, select **Manage**.
-1. On the **Microsoft Teams collaboration and chat** page under **Connect chats to Dynamics 365 records**, select the entity for which you want to enable automatic event updates, or create a new one if the one you want isn’t listed. The record settings pane for that entity is opened on the right side of the page.
+1. On the **Microsoft Teams collaboration and chat** page under **Connect chats to Dynamics 365 records**, select the entity for which you want to enable automatic event updates, or create a new one if needed. The record settings pane for that entity is opened on the right side of the page.
 
    > [!div class="mx-imgBorder"] 
    > ![View of record settings pane.](media/auto-event-updates.png "View of record settings pane")
    
 1. Set the **Receive notification on key updates** toggle to **On**.
-1. View the Suggested attributes list by placing your cursor in the field below the toggle, and then select up to five attributes for which you want notifications to be sent.
+1. View the Suggested attributes list by placing your cursor in the field below the toggle, and then select up to five attributes for which you want to send notifications.
    > [!NOTE]
    > For the Case entity, the following settings are preconfigured:
    > - Priority
@@ -372,13 +380,13 @@ Automatic event updates can’t fully render inline images in rich text fields.
    > [!div class="mx-imgBorder"] 
    > ![Suggested attributes for configuring chat updates when a field is changed.](media/suggested-attributes.png "Suggested attributes for configuring chat updates when a field is changed")
    
-1. Save your changes. Automatic notifications will now be sent whenever the attributes you defined for the entities are updated.
+1. Save your changes. Now, automatic notifications are sent whenever the attributes you defined for the entities are updated.
 
 ## Configure the ability for agents to view Teams chats on a connected record’s timeline (preview)
 
-You can configure the ability to sync data from Teams to Dataverse so that agents can see chat entries in the timeline when they start a connected chat or connect an existing chat to a record. Agents will see the chat appear as a new activity on the timeline. It will show details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
+You can configure the ability to sync data from Teams to Dataverse so that agents can see chat entries in the timeline when they start a connected chat or connect an existing chat to a record. Agents see the chat appear as a new activity on the timeline. It shows details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
 
-Additionally, if the agent assigned to the record changes, the new agent (who may not have been part of the chat originally), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
+Additionally, if the agent assigned to the record changes, the new agent (who might not have participated in the original chat), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
 
 ### Prerequisites
 
@@ -406,6 +414,7 @@ Additionally, if the agent assigned to the record changes, the new agent (who ma
 ### See also
 
 [Use Teams chat](use-teams-chat.md)  
+[FAQ about Teams chat](faq-teams-chat.md)  
 [Install and set up Microsoft Teams integration](/dynamics365/teams-integration/teams-install-app)  
 [Microsoft Teams integration FAQ](/dynamics365/teams-integration/teams-in-dynamics-faq)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  

@@ -1,13 +1,13 @@
 ---
-title: "Enable or disable Teams chat in Sales Hub | MicrosoftDocs"
-description: "Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application."
-ms.date: 03/31/2023
+title: Configure Microsoft Teams chat in Dynamics 365 Sales 
+description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
+ms.date: 09/06/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 ---
 
-# Configure Microsoft Teams chat in Sales Hub
+# Configure Microsoft Teams chat in Dynamics 365 Sales
 
 Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
 
@@ -45,16 +45,21 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 
 2. Under **General Settings**, select **Chat and collaborate**.
 
-3. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365** toggle.
-    
-    > [!IMPORTANT]
-    > You must be a global administrator (tenant administrator) to enable Teams chat. After that, system administrators can configure other settings or disable Teams chat.
+3. Turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.
+
+4. Select one of the following:
+
+    - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
+    - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains.
 
     :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing toggle set to Yes.":::
 
-4. Save the changes.
+5. Save the changes.
 
-The feature is now enabled for all the customer engagement apps. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
+Teams chat is now enabled for all Dynamics 365 apps of the apps you selected. You can open a record and verify whether you're able to view the chats and channels related to the record. More information: [Open Teams chats and channels related to a record](using-teams-chat-in-dynamics.md#open-teams-chats-and-channels-related-to-a-record)
+
+> [!NOTE]
+> Teams chat is enabled by default for the Customer Service workspace and Customer Service Hub apps.
 
 
 ## Add the Teams settings page to the sitemap of a custom app

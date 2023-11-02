@@ -664,7 +664,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10103|PowerfxRule||
 |10104|SupportUserTable||
 |10105|Key Vault Reference|Contains data that refers to an Azure Key Vault containing credentials used to connect to secure web-hosted resources.|
-|10106|Managed Identity|Contains data to represent an Azure Active Directory Application used to connect to secure web-hosted resources.|
+|10106|Managed Identity|Contains data to represent a Microsoft Entra ID Application used to connect to secure web-hosted resources.|
 |10107|Ms Graph Resource To Subscription|For internal use only. The mapping between Ms Graph Resources and Subscriptions.|
 |10108|Virtual Entity  Metadata|Holds  metadata values for virtual entities|
 |10109|MobileOfflineProfileExtension||
@@ -774,11 +774,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |10225|admin_settings_entity||
 |10226|Collab Space Team Association|Collab Space Team Association|
 |10227|CRM Connection||
-|10228|Tagged Record|Tagged Record - Viva Sales|
-|10229|Viva Sales customer list||
-|10230|msdyn_vivaentitysetting|Entity level settings for Viva Sales|
+|10228|Tagged Record|Tagged Record - Microsoft Sales Copilot|
+|10229|Microsoft Sales Copilot customer list||
+|10230|msdyn_vivaentitysetting|Entity level settings for Microsoft Sales Copilot|
 |10231|msdyn_vivaorgsetting|Org level settings for Viva apps|
-|10232|msdyn_vivausersetting|User level settings for Viva Sales|
+|10232|msdyn_vivausersetting|User level settings for Microsoft Sales Copilot|
 |10233|App profile||
 |10234|Application Extension||
 |10235|Application Tab Template||

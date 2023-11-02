@@ -18,7 +18,10 @@ With the product entity, you can create products and services to add to work ord
 
 - **Service** is work that a field technician performs and may bill the client for. Service is measured in time duration.
 
-If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service Mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
+If a field technician uses a product or performs a service while on the job, they can then enter the work into the Field Service mobile app. Used products and performed services can be invoiced to customers based on the applicable price list or entitlement. Used products can be deducted from inventory levels either in the Field Service inventory module, Dynamics 365 Finance & Operations, or an external ERP system.
+
+> [!NOTE]
+> Field Service doesn't support product bundles.
 
 In this article, we'll explain how to create products and services, add them to work orders, and discuss invoicing and inventory considerations.
 
@@ -113,11 +116,9 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 ## Use products and services
 
-Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in Field Service Mobile.
-
+Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in the mobile app.
 
 Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](view-user-accounts-security-roles.md) to specify what users can edit, create, and delete.
-
 
 On a work order product record, field technicians will set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 

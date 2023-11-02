@@ -1,7 +1,7 @@
 ---
-title: "Predefined security roles for Sales (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system."
-ms.date: 09/12/2022
+title: Predefined security roles for Sales
+description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
+ms.date: 10/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -48,14 +48,12 @@ The following table lists the roles that you can assign to users who need to per
 
 ## Functional roles
 
-The following table lists the roles that you can assign to users who need to perform specific functions such as forecasting and playbook management: 
+The following table lists the roles that you can assign to users who need to perform specific functions such as forecasting and sequence management: 
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access includes but not limited to** |
 | --- | --- | --- | --- |
 | Forecast Manager | Sales manager or an equivalent role who's responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast User | Any user in the organization who needs access to the forecast data for tracking and analysis | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
-| Playbook Manager | Sales manager or an equivalent role who creates playbooks for the organization. | Sales Enterprise and Sales Premium | Create playbook categories and playbook templates, and add documents to the playbook template. |
-| Playbook User | Sales representative who uses playbooks while working on a record | Sales Enterprise and Sales Premium | Launch playbooks in the context of an entity, mark a playbook as completed, and track playbook activities. |
 | Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
 
 ## App access roles
@@ -83,8 +81,7 @@ The following roles are examples of internal roles:
 
 ## Assign security roles to users
 
-Associate one or more security roles to a user depending on their roles and responsibilities. For example, if a Sales Manager is also
-responsible for enforcing best practices for Playbooks, assign the Sales Manager and Playbook Manager security roles to that user.
+Associate one or more security roles to a user depending on their roles and responsibilities. For example, if a Sales Manager is also responsible for enforcing best practices using sequences, assign the Sales Manager and Sequence Manager security roles to that user.
 
 Follow these steps:
 

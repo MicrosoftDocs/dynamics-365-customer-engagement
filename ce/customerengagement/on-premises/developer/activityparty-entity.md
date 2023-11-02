@@ -29,9 +29,10 @@ search.audienceType:
 
 An activity party represents a person or group associated with an activity. An activity can have multiple activity parties.  
   
-<a name="ActivityPartyTypes"></a>   
-## Activity Party Types  
- There are 11 activity party types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The activity party type is stored as an integer value in the `ActivityParty.ParticipationTypeMask` attribute. The following table lists the different activity party types, the corresponding integer value for the `ActivityParty.ParticipationTypeMask` attribute, and the description.  
+<a name="ActivityPartyTypes"></a>
+## Activity Party Types
+
+There are 11 activity party types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The activity party type is stored as an integer value in the `ActivityParty.ParticipationTypeMask` attribute. The following table lists the different activity party types, the corresponding integer value for the `ActivityParty.ParticipationTypeMask` attribute, and the description.  
   
 |Activity party type|Value|Description|  
 |-------------------------|-----------|-----------------|  
@@ -47,7 +48,8 @@ An activity party represents a person or group associated with an activity. An a
 |Resource|10|Specifies a resource.|  
 |Customer|11|Specifies a customer.|  
   
-<a name="SupportedActivityPartyTypes"></a>   
+<a name="SupportedActivityPartyTypes"></a>
+
 ## Activity Party Types available for each activity  
  Not all activity party types are available for each activity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], except for a custom activity. A custom activity supports all activity party types. You can associate an activity party type for an activity by using the respective attribute of an activity. For example, to associate an `Organizer` activity party type with an appointment activity, you must specify a value or an array of values of the `ActivityParty` type in the `Appointment.Organizer` attribute.  
   
@@ -73,8 +75,8 @@ An activity party represents a person or group associated with an activity. An a
  [ActivityParty Entity](entities/activityparty.md)   
  [Sample: Book an Appointment](sample-book-appointment.md)
  [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)   
- [Sample: Override Goal Total Count and Close the Goal]((../../../sales/developer/sample-override-goal-total-count-close-goal.md)   
- [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count]((../../../sales/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
+ [Sample: Override Goal Total Count and Close the Goal](/dynamics365/sales/developer/sample-override-goal-total-count-close-goal)   
+ [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](/dynamics365/sales/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count)   
  [Sample: Send an E-mail Using a Template](sample-send-email-template.md)   
  [Sample: Validate an Appointment](sample-validate-appointment.md)
 

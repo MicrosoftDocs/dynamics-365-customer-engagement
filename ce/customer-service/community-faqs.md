@@ -1,7 +1,7 @@
 ---
 title: FAQs about Community | MicrosoftDocs
 description: View answers to frequently asked questions about Community in Dynamics 365 Customer Service.
-ms.date: 10/03/2021
+ms.date: 06/22/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,15 +25,16 @@ No. Community is currently only available in the public cloud.
 It takes up to 15 minutes for these updates to reflect in the portal.
 
 ### How do I contact Dynamics Customer Service for support on Community?
-To post questions for our team, use the [Dynamics Customer Service Community forum](https://go.microsoft.com/fwlink/?linkid=2173735). 
-To share feedback and ideas for how we can improve Community, use the [Dynamics Customer Service Ideas forum](https://go.microsoft.com/fwlink/?linkid=2173736). Make sure to select “Community” in the category when posting your questions and ideas.
+To post questions for our team, use the [Dynamics 365 Customer Service Community forum](https://go.microsoft.com/fwlink/?linkid=2240513).
+
+To share feedback and ideas for how we can improve Customer Service, go to the [Dynamics 365 Customer Service ideas forum](https://go.microsoft.com/fwlink/?linkid=2240512) and select the relevant category.
 
 ### See also
 
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>
-[Content moderation and management](community-moderator-experience.md)
+[Content moderation and management](community-moderator-experience.md)<br>
 [Create new websites in Community](community-create-websites.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

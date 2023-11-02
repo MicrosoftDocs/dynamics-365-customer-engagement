@@ -1,13 +1,13 @@
 ---
-title: "Analyze your sales data by using Power BI template apps | MicrosoftDocs"
-description: "Learn about analyzing your sales data by using Power BI template apps."
+title: Analyze your sales data with Power BI
+description: Learn about analyzing your sales data by using Power BI template apps.
 ms.date: 03/31/2023
-ms.custom: intro-internal
+ms.collection: get-started
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 ---
-# Analyze your sales data by using Power BI template apps 
+# Analyze your sales data with Power BI
 
 [Power BI template apps](/power-bi/service-template-apps-overview) are integrated packages of pre-built Power BI dashboards and reports. Using Power BI template apps with Dynamics 365 Sales provides a convenient, powerful, and quick way to access and analyze your sales data.
 

@@ -1,17 +1,18 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 12/02/2022
+ms.date: 08/31/2023
 author: neeranelli
 ms.author: nenellim
-ms.custom: 
-  - intro-internal
+ms.collection: get-started
 ms.topic: article
 ---
 
 # Integrate an Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 In Omnichannel for Customer Service, you can integrate Azure bots seamlessly with chat and social channels, and also repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md). This article discusses how you can integrate Azure bots, configure routing rules, and set escalation rules.
 
@@ -22,6 +23,10 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - Set the messaging endpoint in your bot configuration. More information: [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned)
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
+
+> [!NOTE]
+> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
+
 - To use the bot over messaging channels:
     - Add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel, if you're using public cloud services.
     - Add both [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels, if you're using GCC (Government Community Cloud) services.
@@ -60,11 +65,11 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
 
-    a. Select a **Business unit** from the dropdown list.
+    a. Select a **Business unit** in the list. Make sure that you select the top-level business unit.
     
     b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
-    c. Select **Add an app**. The **Add an app from Azure Active Directory** dialog opens.
+    c. Select **Add an app**. The **Add an app from Microsoft Entra Identity** dialog opens.
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
@@ -74,7 +79,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
-    - **Bot application ID**: Enter the Microsoft App ID from the Azure AD (Active Directory) that you noted earlier from the **Prerequisites** section.
+    - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
     - **Bot handle**: Enter the bot handle that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 05/12/2023
+ms.date: 06/26/2023
 ms.custom: bap-template
 ---
 
@@ -100,11 +100,12 @@ You can model as a skill any attribute or category you like and match agents wit
 
 ## Things to consider
 
-- [Intelligent skill finder](set-up-skill-based-routing.md#create-skill-finder-models) doesn't predict custom attributes that are modeled as skills.
+- [Intelligent skill finder](set-up-isf-model.md#create-skill-finder-models) doesn't predict custom attributes that are modeled as skills.
 - Modeled skills aren't included in skill analysis reports and they don't appear as skills in the [agent skill control](manage-skills.md).
 - [Out-of-the-box assignment methods](assignment-methods.md#types-of-assignment-methods) don't support skill match for modeled skills.
 - [Routing diagnostics](unified-routing-diagnostics.md) don't display modeled skills that were matched during assignment.
 - Modeled skills must be of the "lookup" data type.
+- Order by proficiency isn't supported for modeled skills.
 
 ## Next steps
 

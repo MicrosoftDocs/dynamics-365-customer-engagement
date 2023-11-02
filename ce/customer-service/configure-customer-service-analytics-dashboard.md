@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service Analytics dashboard for Dynamics 365 | MicrosoftDocs"
 description: "Learn about Customer Service Analytics"
-ms.date: 01/09/2023
+ms.date: 11/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure Customer Service Analytics dashboards in Power BI
 
 > [!NOTE]
-> We recommend that you try out the latest analytics capabilities from Dynamics 365 Customer Service. The out-of-the-box reporting capabilities include [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md). The reports can be [visually customized](customize-reports.md) and extended to add your additional data sources and metrics through [data model customization](model-customize-reports.md).
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 
@@ -121,7 +121,7 @@ You must share the configured application with your entire organization for supe
     The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).  
+> Verify your administrator has allowed users in your organization to have read/write data permissions in Omnichannel Engagement Hub. To learn more, see [Set up Omnichannel for Customer Service](omnichannel-provision-license.md#set-up-omnichannel-for-customer-service-).  
 
 ## Step 6: Enable Power BI reporting
 

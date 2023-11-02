@@ -1,12 +1,12 @@
 ---
-title: Entity reference for Sales Insights
+title: Table/entity reference for Sales Insights
 description: Understand the operations you can perform for specific entities in predictive scoring in Microsoft Dynamics 365 Sales.
 ms.date: 08/19/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 ---
-# Entity reference for Sales Insights 
+# Sales insights table/entity reference 
 
 Understand the operations you can perform for specific entities, each entity's default attributes, and the relationships between entities.
 

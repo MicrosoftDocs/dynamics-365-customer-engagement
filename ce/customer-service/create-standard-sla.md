@@ -1,7 +1,7 @@
 ---
 title: "Create standard service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create standard service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/16/2022
+ms.date: 09/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -11,7 +11,7 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Create standard SLAs
@@ -30,38 +30,39 @@ ms.custom:
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Service Management**.
+1. Go to **Settings** > **Service Management**.
 
-3. Go to **Service Level Agreements**.  
+1. Go to **Service Level Agreements**.  
 
-4. To create a new SLA, select **New** on the command bar.  
+1. To create a new SLA, select **New** on the command bar.
+     
+    > [!NOTE]
+    > If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
-    -Or-  
+1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
-    To edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
-
-5. If you're creating a new SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  
+1. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  
 
     You do this because you can create a standard SLA only for the Case entity.  
 
-6. Enter your information as follows:
+1. Enter your information as follows:
 
-   - **Applicable From**. Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
+   - **Applicable From**: Select the case field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the case was created.  
 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
-   - **Business Hours**. Select a customer service schedule record that defines your support organization's business hours. This is useful in the SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.  
+   - **Business Hours**: Select a customer service schedule record that defines your support organization's business hours. This is useful in the SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day.  
 
-   - **SLA Type**. Select **Standard**.  
+   - **SLA Type**: Select **Standard**.  
 
         You can select **Standard** only when the **Entity** field is set to **Case**.  
 
-   - **Allow Pause and Resume**. Select **Do Not Allow**. Because standard SLAs don't support pausing and resuming of SLAs, you can set this field to **Allow** only when you're creating an enhanced SLA.  
+   - **Allow Pause and Resume**: Select **Do Not Allow**. Because standard SLAs don't support pausing and resuming of SLAs, you can set this field to **Allow** only when you're creating an enhanced SLA.  
 
-7. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+1. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
 
-8. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").  
+1. To add SLA details, in the **SLA Details** section, select the **Add** button ![Add button.](media/crm-itpro-cust-subgridadd.PNG "Add button").  
 
     You add SLA details to define the KPIs or metrics for the SLA. You can define any KPI your organization needs. For example, a KPI might be that all cases for standard customers must be resolved within five days from when the case was created.  
 
@@ -72,7 +73,7 @@ ms.custom:
    > [!NOTE]
    >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
 
-9. Enter the following information in the **New SLA Item** form:  
+1. Enter the following information in the **New SLA Item** form:  
 
    - **Name**: Type a meaningful name.  
 

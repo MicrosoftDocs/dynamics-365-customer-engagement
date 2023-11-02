@@ -1,127 +1,134 @@
 ---
-title: Use Copilot features in Customer Service
-description: Learn about how you as agents can use the Copilot features to enhance productivity when working on service requests.
+title: Use Copilot to solve customer issues
+description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
+ms.date: 09/28/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.topic: how-to
 ms.collection: 
-ms.date: 05/22/2023
 ms.custom: bap-template
 ---
 
-# Use Copilot to solve customer issues (preview)
+# Use Copilot to solve customer issues
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+
+Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time assistance to resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so you can focus on delivering high-quality service to your customers.
 
 > [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
-Copilot is an AI-powered tool that revolutionizes the agent experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks so that they can focus on delivering high-quality service to their customers.
+## License requirements
 
-> [!IMPORTANT]
-> The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it’s accurate and appropriate before sharing the responses.
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
 
 ## Prerequisites
 
-Make sure that your administrator has enabled the Copilot features.
+Make sure that your administrator has turned on the copilot features.
 
-## Ask a question
+## Ask a question 
 
-When you sign into any of the Customer Service agent apps, Copilot becomes activated on the right pane with the **Ask a question** tab in focus. Copilot acts as your partner that can help answer questions without you having to search knowledge sources or other articles for information.
+When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
 
 ### Draft questions
 
-You can ask free form questions just as you'd ask your colleague or supervisor who might know the answer to it.
+You can ask free-form questions just as you'd ask your colleague or supervisor who might know the answers.
 
-:::image type="content" source="media/copilot-ask-question.png" alt-text="Ask a question in Copilot pane.":::
+:::image type="content" source="media/copilot-ask-question.png" alt-text="Screenshot of the Ask a question tab in Copilot.":::
 
-With Copilot, you can do the following:
+With Copilot, you can take the following actions:
 
-- **Ask a direct question**: Copilot will show the relevant answer from the trove of knowledge sources configured by your organization.
-- **Ask follow-up turn by turn questions**: If Copilot isn't able to generate the right answer immediately, you can engage in a conversation and guide Copilot to provide the correct answer in a natural conversational manner.
-- **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on additional guidance such as “Can you summarize your response?” or “Can you attempt a response providing details for each of the steps you mentioned?”
-
-If you are satisfied with the response that Copilot provides, you can use the whole or a part of it to answer the customer question.
+- **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources your organization has made available.
+- **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
+- **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
 
 ### Use the responses
 
-You can use the Copilot responses in multiple ways, such as:
+If you're satisfied with the response Copilot provides, you can use the whole thing or a part of it to answer the customer's question:
 
-- Copy manually the parts that you find useful into your chat or read out from it during a voice conversation. You can select the copy icon also to directly copy to clipboard.  
-- The **Send to customer** option is available when there is an active digital messaging conversation. When you select **Send to customer**, an editing window opens within which you can make any modifications to the response provided by Copilot and send the response to the customer directly without having to copy it. You can also change customer keywords based on which Copilot has generated the response to create a more accurate response.
-- Select **Check sources** to see the relevant knowledge or website links from which Copilot has drawn the response. This can help as supplemental information when you want to refer to or share with the customer.
+- Copy part of Copilot's reply into your chat or read from it during a voice conversation. Select the copy icon to copy the entire response to the clipboard.  
+- When you're in an active digital messaging conversation, select **Send to customer** to open an editing window where you can revise the response and send it to the customer. You can also change customer keywords to prompt Copilot to generate a more accurate response.
+- Select **Check sources** to see the knowledge base or website links from which Copilot drew the response. You can use this supplemental information as a resource or share it with the customer.
 
 ### Clear chat to start over
 
-After a customer conversation has ended, or if you want Copilot to disregard the conversation so far, you can select **Clear chat** at the bottom of the Copilot pane.
+After a customer conversation has ended, or if you want Copilot to disregard the conversation so far, select **Clear chat** at the bottom of the Copilot pane.
 
 ### Provide feedback
 
-You can rate the usefulness of the Copilot responses by selecting the thumbs-up or thumbs-down icons.
+To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-down icon.
 
-## Draft emails
+## Draft emails 
 
-With Copilot, you can craft email replies to customers quickly and be more effective in solving customer issues.
+With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
 
-:::image type="content" source="media/copilot-email-draft.png" alt-text="Copilot draft emails to select from.":::
+:::image type="content" source="media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
 
 ### Write an email with Copilot
 
-When you start drafting an email, Copilot automatically opens in the right pane and presents five predefined prompts and one custom prompt as follows:
+When you start to draft an email, Copilot opens in the right side panel and presents five predefined prompts and one custom prompt:
 
-- **Suggest a call**: Writes a reply suggesting a call with the customer today or tomorrow.
-- **Request more information**: Writes a reply to request additional details from the customer to help resolve their problem.
-- **Empathize with feedback**: Writes a reply to provide an empathetic response to a customer voicing a complaint about a situation.
-- **Provide product/service details**: Writes a reply to offer details or answer customer questions about a particular product or service.
-- **Resolve the customer's problem**: Writes a reply to provide a resolution and resolution steps if applicable to the customer problem.
-- **Custom**: Allows you to provide your own prompt for the email reply.
+- **Suggest a call**: Drafts a reply that suggests a call with the customer today or tomorrow.
+- **Request more information**: Drafts a reply that requests more details from the customer to help resolve the problem.
+- **Empathize with feedback**: Drafts a reply that provides an empathetic response to a customer who expresses a complaint.
+- **Provide product/service details**: Drafts a reply that offers details or answers customer questions about a particular product or service.
+- **Resolve the customer's problem**: Drafts a reply that provides a resolution&mdash;and resolution steps, if applicable&mdash;to the customer's problem.
+- **Custom**: Allows you to provide your own prompt for the reply.
 
 ### Review and copy suggested replies
 
-After you select one of the predefined prompts, Copilot will generate a suggested email reply. You can review the response, make necessary changes, and then copy it to your email draft by selecting **Copy to email**  or select the total response or parts of it and use the right-click menu.
+When you select one of the predefined prompts, Copilot generates a suggested reply. *Always review the response.* Make any necessary changes, and then select **Copy to email** to copy the entire response to your draft. Or, select part of the response and use the right-click menu to copy and paste the selection.
 
 ### Use the custom prompt
 
-Use the custom prompt to include talking points, determine the length and tone of the email, and your objectives for the email. After entering the necessary information, select the **Create response** arrow to generate the response. You can make changes to the custom prompt above the reply and use **Refresh** to update the response.
+Use the custom prompt to include talking points, provide your objectives for the email, and determine its length and tone. Then select the **Create response** arrow to generate the response. *Always review the response* before sharing it with your customer. You can revise the custom prompt, if needed, above the reply and select **Refresh** to update the response.
 
-### How knowledge base and web sources are used
+### How Copilot uses knowledge base and web sources
 
-By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has configured trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
+By default, Copilot uses internal knowledge base sources for generating responses. If your administrator has set up trusted domains, Copilot searches the internal knowledge base and up to five trusted domains to produce the result.
 
 ### Start over
 
-To return to the choice of six prompts, you can select **Start over** at the bottom of the pane.
+To return to the choice of six prompts, select **Start over** at the bottom of the Copilot pane.
 
-## Draft a chat response
+## Draft a chat response (Preview)
 
-Use Copilot to draft chat responses when you are in a conversation with a customer.
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-:::image type="content" source="media/copilot-suggested-responses.png" alt-text="Copilot suggested responses for conversations.":::
+Use Copilot to draft chat responses when you're in a conversation with a customer.
+
+:::image type="content" source="media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
 
 ### Generate a chat response
 
-Use the one-click response generation option that's available on the bottom right of the Conversation control panel and on the bottom left of the Copilot pane. When you select this button, Copilot understands the context of the ongoing conversation and the latest customer question or message and drafts a response to send directly to the customer. You don't need to type in the question manually.
+Select the one-click response generation button at the lower-right corner of the Conversation control panel and at the lower-left corner of the Copilot pane. Copilot analyzes the context of the conversation and the latest customer question or message, and drafts a response to send directly to the customer. You don't need to manually type the question.
 
-## Summarize cases
+> [!NOTE]
+> The one-click response generation feature is available in North America, Europe, and the United Kingdom only.
 
-Copilot case summaries are designed to help support agents quickly understand the context of a case, enabling them to resolve customer issues more efficiently. You get a concise summary of the case, which includes key information such as the case title, customer, case subject, product, priority, case type, and case description.
+## Apply filters
 
-### How to get a Copilot case summary
+You can setup filters for Copilot to generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of getting irrelevant responses.
 
-The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default, ensuring that your screen is not cluttered with information.
+For example, your organization has several departments and you work only on credit card related queries. If you apply the credit card filter, Copilot retrieves only the relevant credit card content from the knowledge source and which is then used to generate responses. 
 
-Select the card to expand the case summary. This action triggers the loading of the case summary, which is generated based on the key information in the case.
+To apply a filter, perform the following steps:
 
-:::image type="content" source="media/copilot-case-summary.png" alt-text="View of the Copilot case summary.":::
+- Select **Filters** on the Copilot (preview) pane. The **Select filters** menu appears.
+- Select the required options. You can also search for a filter option.
+- Select **Apply**.
 
-You can copy the summary, provide feedback, and refresh the summary.
+Once you set a filter, the following actions are applicable:
+- A message indicating the filters are applied when Copilot generates new responses appears on the Copilot (preview) pane. This message also appears whenever you modify the filter configuration.
+- A visual indicator with the number of filter options selected is displayed next to **Filters**..
+- The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
+- The filter is saved. You don't have to set the filter each time you log in.
 
 ### See also
 
-[Manage Copilot features in Customer Service](configure-copilot-features.md)  
+[Manage copilot features in Customer Service](configure-copilot-features.md)  
+[Responsible AI FAQ for copilot features](faq-copilot-for-customer-service.md)  

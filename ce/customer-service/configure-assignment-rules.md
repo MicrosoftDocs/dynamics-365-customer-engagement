@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
-ms.date: 04/10/2023
+ms.date: 10/31/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
 
-You can create the custom assignment methods in the Omnichannel admin center and Customer Service Hub apps.
+You can create the custom assignment methods in the Customer Service admin center app.
 
 In unified routing, the process of creating assignment rulesets involves the following steps:
 
@@ -25,22 +25,9 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 Follow the steps to create a custom assignment method:
 
-1. In Dynamics 365, go to one of the admin apps, and do the following steps.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Queues** in **Customer support**.
-
-    2. On the **Queues** page, select **Manage** for **Advanced queues**.
-
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Queues** in **General settings**.
-
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
+1. On the **Queues** page, select **Manage** for **Advanced queues**.
 
 1. Select a queue, and on the **Assignment method** page, select **Create New**.
 
@@ -78,7 +65,7 @@ Follow the steps to create a custom assignment method:
    c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
 
       - **Ordering Attributes**:
-         - **Most idle (Preview)**: in preview release, this option is available for voice channel queues only. Work item is routed to the agent who is idle the most among all the agents who match skills and capacity. For more information, see [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice channel queues only. Work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. For more information, see [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity

@@ -48,8 +48,6 @@ Follow these steps to embed your chat widget into a Power Apps portal. For steps
     > ![Go to Chat Widget Code content snippet in portal.](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
 4.	On the **General** tab, scroll down to the **Value (HTML)** section.
 5.	Paste the chat widget snippet code in the **HTML** tab.
-    > [!div class=mx-imgBorder]
-    > ![Paste code snippet of a chat widget.](media/paste-snippet.png "Paste code snippet of a chat widget")
 6.	Save the changes. The chat widget is now embedded into the portal. By default, the chat widget is displayed in minimized mode as follows:
 
     > [!div class=mx-imgBorder]

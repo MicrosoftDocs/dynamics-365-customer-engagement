@@ -1,18 +1,20 @@
 ---
-title: Customer Service Overview (Dynamics 365 Customer Service)
+title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 05/16/2023
+ms.date: 08/09/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
-# Overview of Dynamics 365 Customer Service
+# Welcome to Dynamics 365 Customer Service
 
-[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+> [!TIP]
+> - If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
+> - Explore [Copilot](use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.
 
 Welcome to Dynamics 365 Customer Service! We're delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life.
 
@@ -50,7 +52,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **Omnichannel Administration** (Deprecated): Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
   
   > [!NOTE]
-  > Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-will-be-removed-in-july-2023).
+  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
 
 The following table provides the features that can be configured through the admin apps.
 

@@ -1,6 +1,6 @@
-The schedule assistant is a semi-automated feature that helps dispatchers assign requirements to ideal resources.
+The schedule assistant helps dispatchers assign requirements to ideal resources.
 
-The schedule assistant recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
+It recommends resources that match criteria, like availability or skills, for requirements. The system also estimates travel time for the recommended resources, which helps dispatchers plan work accordingly.
 
 When the dispatcher identifies the right resource for the job, they book the resource.
 
@@ -23,7 +23,7 @@ Select the **Book** option:
 
 After launching the schedule assistant, it populates filters based on criteria like work location, characteristics, territory, resource types, and more. Dispatchers can refine results by adjusting filters to meet their scheduling needs and find the right resource.
 
-<!-- add details for every filter and merge with advanced filters article? -->
+The maximum search resource availability limit is 1000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
 
 ## Time zone for schedule assistant search results
 

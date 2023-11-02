@@ -2,7 +2,7 @@
 title: Configure Dynamics 365 Customer Service | MicrosoftDocs
 description: Configure Dynamics 365 Customer Service.
 ms.date: 09/30/2022
-ms.topic: get-started-article
+ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 search.audienceType: 

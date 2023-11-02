@@ -4,7 +4,7 @@ description: "This topic provides information about agent experience for convers
 ms.date: 07/09/2021
 author: neeranelli
 ms.author: nenellim
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Use WhatsApp channel

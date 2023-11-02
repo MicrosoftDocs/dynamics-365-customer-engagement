@@ -1,12 +1,12 @@
 ---
 title: "Omnichannel Intraday insights: Agents insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Agents insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 05/11/2023
+ms.date: 07/10/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # View and understand the Agents insights report in Omnichannel intraday insights
@@ -80,6 +80,11 @@ You can use the filters pane on the right to see only the signed-in agents in th
 1. Select the agent table.
 2. Select the filter pane, and set **IsLoggedIn** field to **True**.
     >![Set filters to view signed-in agents.](media/filters-signed-in.png "Set filters to view signed-in agents")
+
+To get agent capacity information and monitor it, use the following entities to create a custom report or customize an existing report according to your business requirements.
+
+- The [agent status](./developer/reference/entities/msdyn_agentstatus.md) entity for the latest capacity profile and presence status of an agent. 
+- The [status history](./developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity for the history or audit trail of the presence and capacity profile changes for an agent.
 
 ### Agent details
 

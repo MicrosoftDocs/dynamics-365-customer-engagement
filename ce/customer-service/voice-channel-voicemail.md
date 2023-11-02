@@ -1,38 +1,45 @@
 ---
-title: "Configure voicemail to manage inbound calls"
-description: "Learn how to configure and use voicemails in the voice channel in Omnichannel for Customer Service."
+title: Configure voicemail to manage inbound calls
+description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/02/2023
-ms.topic: article
+ms.date: 10/27/2023
+ms.topic: how-to
+ms.reviewer:
+ms.collection:
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/26/2023
 ---
 
 # Configure voicemail to manage inbound calls
 
-Voicemails help your customers leave messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers  communicate their concerns promptly through voicemails and call back later for a status check.
+Voicemails help your customers record messages for agents when they come across long wait times or their direct calls to agents are unanswered. You can reduce on-hold calls when customers communicate their concerns promptly through voicemails and call back later for a status check.
 
 The salient features of voicemail are as follows:
 
-- Voicemails can be recorded for up to five minutes only.
-- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the automated message or workstream settings.
-- Voicemails will always be transcribed irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording will include voicemail only.
-- If the customer is unable to record the voicemail, an automated message is played for the customer that informs the voicemail couldn't be recorded and they should call back again.
-- The bot can't offer to take a voicemail. The call must be escalated to an agent. The voicemail will be offered if the agent isn't available.
+- Callers can record voicemails for up to five minutes only.
+- If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
+- Voicemails are always transcribed irrespective of whether you've enabled the voice call transcription.
+- If the customer is unable to record the voicemail, an automated message plays for the customer that informs them that the system couldn't record their voicemail and they should call back again.
+- The bot can't offer to take a voicemail. The call must be escalated to an agent. The system offers the voicemail option if the agent isn't available.
 
 ## Prerequisites for voicemail
 
-The following prerequisites must be met:
+The prerequisites are as follows:
 
 - You must be on the latest version of the product to use voicemail.
-- Unified routing must be enabled. More information: [Provision unified routing](provision-unified-routing.md)
+- Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - To open a voicemail, agent presence must load. More information: [Manage presence status](oc-manage-presence-status.md)
 
 ## Configure voicemail to manage overflow of voice calls
 
-You can redirect the caller to leave a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
+You can redirect the caller to record a voicemail for the agent when an incoming call reaches the voice queue and the queue is in one of the following conditions:
 
 - Exceeds a defined number of calls that are waiting in the queue
-- Is received during the after hours of the call center operations
+- The call comes during the after hours of the call center operations
 - Exceeds the estimated wait time
 
 For information on how to configure the conditions and actions, go to [Manage overflow of work items in queues](manage-overflow.md).
@@ -41,19 +48,30 @@ You can also configure overflow override in the route-to-queue rule of a workstr
 
 Out of the box, **Default Group Voicemail Workstream** is available to route the group voicemails to the default group voicemail queue.
 
+You can configure routing rules to route voicemail that your customer has recorded on your organization's phone number. In the rule condition, select **Organization phone number** in **Work classification** or **Create Intake rule** and add the required phone number to route the voicemail. When you define the intake or classification conditions, specify the following settings:
+
+- The phone number with the country/region code, if you select the **Equals** operator.
+- The phone number without the country/region code, if you select the **Contains** operator.
+
+The following considerations apply:
+
+* To route voicemails, avoid defining rules based on skills or sentiment category for the missed conversation attribute because the rules might not work as expected.
+* You can't route voicemails to voice queues because the system categorizes them as records.
+
+
 ## Use voicemail to manage direct calls to agents
 
-If a direct call to an agent is missed and voicemail is configured, the option to record a voicemail is presented to the customer. The call might not be answered because of one of the following reasons:
+If an agent misses a direct call and voicemail is configured, the system presents an option to the customer to record a voicemail. The agent might not answer the call because of one of the following reasons:
 
-- Call rejected by the agent
-- Call times out
-- Agent presence is set as offline or don't disturb 
+- Agent has rejected the call
+- Call timed out
+- Agent presence shows as "offline" or "do not disturb"
 
 Out of the box, **Default Individual Voicemail Workstream** is available to route the individual voicemails to the default individual voicemail queue.
 
 ## Configure voicemail views in inbox for agents
 
-1. In Customer Service admin center, in the sitemap, select **Workspaces** under **Agent experience**.
+1. In Customer Service admin center, in the site map, select **Workspaces** under **Agent experience**.
 
 1. Select **Manage** for **Agent experience profiles** and select the profile that you want to edit.
 
@@ -67,7 +85,7 @@ Out of the box, **Default Individual Voicemail Workstream** is available to rout
      - **Agent visibility**: Select Show.
      - **Record type**: Select **Voicemail**.
 
-1. In the **Settings** dropdown list, select one or all of the following:
+1. In the **Settings** dropdown list, select one or all of the following options:
      - Assigned
      - Unassigned
      - Resolved
@@ -89,24 +107,24 @@ Individual voicemails are triggered through direct inward dialing and are routed
 - By default, the individual voicemail queue has no agents.
 - The custom assignment rule assigns the voicemail to an agent based on their direct inward call number.
 - The assignment method is round robin.
-- You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers will be automatically assigned to the agents.
+- You can add all your agents who are configured for direct inward dialing to the individual voicemail queue. The voicemails left for their numbers are automatically assigned to the agents.
 
 ### Group voicemails
 
-If the voicemail is triggered by the overflow condition of a queue, it's routed to the default group voicemail workstream, which is a pick workstream.
+If an overflow condition of a queue triggers the voicemail, it's routed to the default group voicemail workstream, which is a pick workstream.
 
 - The workstream routes the voicemail to the default group voicemail queue.
 - By default, the queue has no agents. Add those agents to the queue who triage voicemails.
 - The assignment method is highest capacity.
-- Voicemails left for every voice queue will be routed to the group voicemail queue.
+- Voicemails left for every voice queue are routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
-- The operating hours at the workstream level will override the queue-level overflow setup. The operating hours message at the workstream level will be played and the system will disconnect the call.
+- The operating hours at the workstream level override the queue-level overflow setup. The operating hours message at the workstream level is played and the system disconnects the call.
 
 ### Manage voicemail capacity
 
 By default, the voicemail workstream capacity is set to zero.
 
-However, if you let voicemails take up capacity, the capacity restriction will apply for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item will still be assigned to them even if all their capacity is consumed.
+However, if you let voicemails take up capacity, the capacity restriction applies for group voicemail workstreams of push type only and not the default pick workstreams. In all cases, if an agent is at nil capacity and picks a work item, the work item is still assigned to them even if all their capacity is consumed.
 
 Because the individual voicemail workstream has a custom assignment rule, capacity isn't taken into account, and voicemails are always pushed to the agent corresponding to the direct inward dialing number.
 

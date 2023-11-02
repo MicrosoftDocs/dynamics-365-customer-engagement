@@ -17,7 +17,7 @@ ms.author: jobaker
 Field Service technicians often create service reports summarizing work done during a customer visit. These reports can carry details such as tasks completed, and products or parts used during the service. Service reports must often be delivered to the customer in the form of a PDF.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile application reporting experience.](./media/mobile-2020-reporting-app.png)
+> ![Screenshot of Field Service mobile app reporting experience.](./media/mobile-2020-reporting-app.png)
 
 This article outlines how to use the Power Apps Component Framework (PCF) to build a service report for the Field Service mobile application. This article also provides a sample report and PCF control that will serve as a guide for developers to design and import the control for their environments.
 
@@ -37,18 +37,13 @@ For a guided walkthrough, check out the following video.
 
 ## Import the reporting solution
 
-1. Download the [reporting solution](https://aka.ms/fsmreporting-solution). 
-2. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment. We recommend that the solution is imported as a managed solution.
+1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
 
-> [!div class="mx-imgBorder"]
-> ![List of solutions in Dynamics 365.](./media/mobile-2020-service-reports-import.png)
+1. Import the reporting solution into your environment. The import will install a reporting form, ribbon command, and includes a sample report so you can execute functionality within your environment. We recommend that the solution is imported as a managed solution.
 
-3. After importing the reporting solution, open your Field Service mobile app module in the app designer and enable the reporting form for the bookable resource booking entity. Save and publish your changes. 
+1. After importing the reporting solution, open your Field Service Mobile app module in the app designer and enable the reporting form for the bookable resource booking entity. Save and publish your changes.
 
-> [!div class="mx-imgBorder"]
-> ![The app designer showing Field Service Mobile.](./media/AppDesigner-Report-arrows.png)
-
-4. At this point you'll be able to view functionality of the report in your mobile app and evaluate changes necessary for your organization.
+1. At this point you'll be able to view functionality of the report in your mobile app and evaluate changes necessary for your organization.
 
 ## Create your custom report
 
@@ -60,14 +55,11 @@ For a guided walkthrough, check out the following video.
 > [!NOTE]
 > The PCF Report control includes resource files for multiple languages but only declares English (1033). For other languages, update the ControlManifest to declare the desired language for localization.
 
-## Generate reports from mobile
+## Generate reports from the mobile app
 
 Launch the Field Service mobile app and go to the bookable resource booking.
 
 Go to **More** > **Report**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile application reporting experience.](./media/mobile-2020-reporting-app.png)
 
 ## Generate reports from web
 

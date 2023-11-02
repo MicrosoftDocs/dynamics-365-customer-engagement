@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 02/20/2023
+ms.date: 07/10/2023
 ms.custom: bap-template
 ---
 
@@ -58,6 +58,13 @@ Based on our recommendation of 500 requests per 15 minutes, you'll need to make 
 
 For information on using the API, see [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
 
+### Monitor agent capacity
+
+You can view details such as the agent's presence, current conversations, and the sentiments of those conversations, and an agent's available capacity across different capacity profiles. You can use the **Agents insights** report to monitor the agent capacity.
+You can also create a custom report per your business requirements to monitor the agent capacity using the following entities:
+- The [agent status](./developer/reference/entities/msdyn_agentstatus.md) entity for the latest capacity profile and presence status of an agent. 
+- The [status history](./developer/reference/entities/msdyn_agentcapacityupdatehistory.md) entity for the history or audit trail of the presence and capacity profile changes for an agent.
+
 ## Manage queues
 
 - Manage automatic assignment if the top 100 work items have extended wait times.
@@ -87,6 +94,7 @@ For example, to address the following scenario in your contact center, we recomm
 - During peak load, certain users can handle work items from both types.
 
 Skill-based routing helps reduce the number of queues to be managed in your organization.
+
 
 ## Next steps
 

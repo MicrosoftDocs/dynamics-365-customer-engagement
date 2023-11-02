@@ -1,8 +1,8 @@
 ---
-title: "Developer Guide | MicrosoftDocs"
-description: "This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales"
+title: Developer Guide
+description: This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales.
 ms.date: 10/08/2021
-ms.topic: get-started-article
+ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
 ---
@@ -37,7 +37,6 @@ Welcome to the Dynamics 365 Sales Developer Guide.
   <li><a href="../developer/entities/opportunity.md" data-raw-source="[Opportunity](../developer/entities/opportunity.md)">Opportunity</a></li>
   <li><a href="../developer/entities/product.md" data-raw-source="[Product](../developer/entities/product.md)">Product</a></li>
   <li><a href="../developer/entities/quote.md" data-raw-source="[Quote](../developer/entities/quote.md)">Quote</a></li>
-  <li><a href="../developer/reference/playbook-entity-reference.md" data-raw-source="[Playbooks](../reference/playbook-entity-reference.md)">Playbooks</a></li>
   <li><a href="../developer/entities/salesorder.md" data-raw-source="[SalesOrder](../developer/entities/salesorder.md)">SalesOrder</a></li>
 
 </td>
@@ -60,7 +59,7 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 ### Related resources
 
 [Overview of Sales and Sales Hub](../overview.md)<br />
-[Help resources for seller in Dynamics 365 Sales](../user-guide.yml)
+[Help resources for seller in Dynamics 365 Sales](../user-guide.yml)  
 [Administrator and Sales Manager Guide](../admin-guide.yml)<br />
 
 

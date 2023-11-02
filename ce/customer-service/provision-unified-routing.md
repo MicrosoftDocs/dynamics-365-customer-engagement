@@ -1,7 +1,7 @@
 ---
 title: "Provision unified routing in Customer Service | MicrosoftDocs"
 description: "Learn how to provision unified routing in Customer Service."
-ms.date: 10/17/2022
+ms.date: 08/11/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,6 +10,16 @@ ms.author: nenellim
 # Provision unified routing for Customer Service
 
 Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled.
+
+## Prerequisites
+
+- Ensure that the provisioning user has the following permissions:
+  - Microsoft 365 Global admin role. More information: [Assign admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
+  - Customer Service Representative or CSR Manager to be able to set up configuration.
+  - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
+  - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
+- **License required for unified routing**:  
+With the Customer Service Enterprise license, you'll get unified routing for tables, such as Cases, Leads, and custom tables. The license for Chat and Digital messaging includes unified routing for chat, SMS, and messaging channels, and the Teams channel. More information: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
 
 ## Provision unified routing for only Customer Service
 
@@ -46,9 +56,7 @@ To provision unified routing in Customer Service, do the following:
 
 1. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
 
-After unified routing is provisioned, **Unified Routing** appears in the site map.
-
-> ![Site map view for unified routing.](media/unified-routing-site-map.png)
+After unified routing is provisioned, **Unified routing successfully provisioned** message appears on top of the toggle key.
 
 ### Provision unified routing in Customer Service with Omnichannel for Customer Service
 

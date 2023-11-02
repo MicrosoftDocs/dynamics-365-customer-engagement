@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-ms.date: 06/27/2022
+ms.date: 11/01/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,15 +12,19 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Omnichannel Insights  
+## Omnichannel Insights
+
+> [!NOTE]
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+
 
 The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of the support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy. Supervisors can rely on the information to improve the overall customer support experience.  
 
 The overview dashboard is divided into two sections:
 
-- [Omnichannel Insights dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
+- Omnichannel Insights dashboard
 
-- [Omnichannel Sentiment Analysis dashboard](omnichannel-insights-dashboard.md#omnichannelsentiment-analysisdashboard)
+- Omnichannel Sentiment Analysis dashboard
 
 ## Omnichannel Insights dashboard
 
@@ -29,7 +33,7 @@ The following illustration is an example of the Omnichannel Insights for Dynamic
    > [!div class=mx-imgBorder]
    > ![Omnichannel for Customer Service dashboard.](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
-This section consists of the following conversation KPIs.
+The following table describes the conversation KPIs.
 
 | KPI                  | Description              |
 |----------------------|--------------------------|
@@ -150,21 +154,13 @@ The KPIs for bots are listed in the following table.
 | Bot escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
 | Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
 
-## Omnichannel Sentiment Analysis dashboard
+## Omnichannel Sentiment Analysis dashboard
 
-This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
-
-   > [!div class=mx-imgBorder]
-   > ![Sentiment analysis overview.](media/oc-overview.png "Sentiment analysis overview")  
+The Omnichannel Sentiment Analysis dashboard provides an overview of important KPIs and trends related to the sentiment analysis of conversations.
 
 ## Omnichannel Insights – Sentiment Analysis report
 
-The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report.
-
-   > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis detailed report.](media/oc-detailed.png "Sentiment Analysis detailed report")
-
-   Explanation of Sentiment Analysis KPIs
+The following table provides a detailed view of the Omnichannel Sentiment Analysis report.
 
 |KPI             |Description                |
 |-----------------|---------------------------|
@@ -193,9 +189,6 @@ Neutral sentiment is represented when a customer's sentiment was neither positiv
 ### View and filter reports
 
 You can filter the information presented in the reports by selecting **Duration**, **Channel**, **Queue,** and **Agent**.
-
-   > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis filtered report.](media/supervisor-historical-filter-reports.png "Sentiment Analysis filtered report")
 
 ### See also
 

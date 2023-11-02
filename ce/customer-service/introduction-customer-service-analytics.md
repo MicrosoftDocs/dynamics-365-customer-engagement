@@ -1,15 +1,19 @@
 ---
 title: "Customer Service Insights | MicrosoftDocs"
 description: "Learn about Customer Service Insights"
-ms.date: 04/05/2022
+ms.date: 11/01/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.custom: intro-internal
+ms.collection: get-started
 ---
 
 # Customer Service Insights
+
+> [!NOTE]
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+
 
 Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customer service managers can use AI and analytics capabilities for Customer Service Insights and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 

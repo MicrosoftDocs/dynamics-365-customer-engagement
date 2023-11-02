@@ -5,8 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.date: 03/25/2022
 ms.topic: article
-ms.custom: intro-internal
-
+ms.collection: get-started
 ---
 
 

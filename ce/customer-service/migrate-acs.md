@@ -20,7 +20,7 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 
   If you're using a Power Virtual Agents bot or Azure Health Bot, there's nothing you need to do. The necessary changes are applied automatically.
 
-- If you're a bot author or developer, [download the latest middleware NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project).
+- If you're a bot author or developer, download the latest middleware NuGet package.
 
 - If you've enabled downloading file attachments in chats, you must program your Azure bot to [download file attachments properly](download-attachments-bot.md#manage-file-attachments-during-migration) in the omnichannel messaging channel.
 

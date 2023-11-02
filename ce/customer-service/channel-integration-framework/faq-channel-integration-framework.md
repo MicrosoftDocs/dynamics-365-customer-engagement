@@ -1,7 +1,7 @@
 ---
 title: "FAQ about Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 02/18/2023
+ms.date: 10/31/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -57,6 +57,10 @@ No, Dynamics 365 Channel Integration Framework does not manage call or chat sess
 
 No, Dynamics 365 Channel Integration Framework is agnostic to operating systems and web browsers; you can integrate cloud-based channels of your choice that are best suited for your organization's requirements.
 
+### How can I get updates to Dynamics 365 Channel Integration Framework?
+
+Updates to the Dynamics 365 Channel Integration Framework 1.0 are pushed to all customers automatically. 
+
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
 For information on supported browsers, see the following articles:
@@ -69,6 +73,14 @@ For information on supported browsers, see the following articles:
 No, the Dynamics 365 Channel Integration Framework solution should not be bundled with another solution. Partners can create solutions that add a check to their package looking for the Dynamics 365 Channel Integration Framework solution (also mentioning the minimum supported version), which causes the installation to fail in case the Dynamics 365 Channel Integration Framework solution is not present.
 
 Also, you can add Configuration Experience to the acquired flow that'll allow the solution to detect the state of the target instance, and decide how to install. This will also let the solution perform any additional setup or license acquisition remotely, before installation.
+
+### Can Dynamics 365 Channel Integration Framework APIs be used for customizations other than integration with channel providers?
+
+No. Dynamics 365 Channel Integration Framework APIs are specifically designed for integration with channel providers. You can't use the APIs to customize forms, ribbons, and other elements.
+
+### Can Dynamics 365 Channel Integration Framework API be used without an associated channel provider?
+
+No. You can't use Dynamics 365 Channel Integration Framework API without an associated channel provider.
 
 ## Dynamics 365 Channel Integration Framework 2.0
 
@@ -97,7 +109,7 @@ You don't need to choose the Unified Interface apps. The telephony channel provi
 	
 ### How do I select roles for the voice channel provider record?
 
-Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](/ce/app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+Telephony channel providers are associated with agent profiles, which in turn are assigned to users in your organization. You must assign the agent profiles to users who need access to the telephony channel provider. More information: [Assign users, templates, configure productivity pane, channels](../../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 
 ### Will my existing communication widget, built using Dynamics 365 Channel Integration Framework 1.0 APIs, continue to work with the Dynamics 365 Channel Integration Framework 2.0 app?
 

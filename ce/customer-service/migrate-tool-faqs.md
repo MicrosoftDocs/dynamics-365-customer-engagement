@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
-description: This article is the migration tool FAQ for automatic record creation rules and service-level agreement (SLA) items.
-ms.date: 03/29/2023
+description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
+ms.date: 08/22/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -215,7 +215,15 @@ If you've used any channel properties in the customization of legacy rules, the 
 
 ## Known flow issues
 
-### Migration doesn't support multiple items or conditions that have the same "applicable when" condition in the same SLA.
+### Migrated rules have an extra @ character for fields with @ string type
+
+If the legacy automatic record creation rule workflow is customized and has a plain text @ character in a string field, you’ll see two @, instead of one on migration. For example, if you add an email address in plain text in the case description field, then the @ character will be treated as a special character and migrated as @@.
+
+This is because @ is identified as a special character for any dynamics expression, such as @triggerOutputs()?[body/_emailsender_value] in the migration flow.
+
+The workaround is to manually remove the extra @ in the migrated flow.
+
+### Migration doesn't support multiple items or conditions having the same "applicable when" within same SLA
 
 In the web client, multiple items can be defined that have the same "applicable when" condition and different success criteria for an SLA. However, the same capability isn't supported in Unified Interface. Therefore, during migration, no subsequent SLA items of this type that have the same "applicable when" condition are created.
 

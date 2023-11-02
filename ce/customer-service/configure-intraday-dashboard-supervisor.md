@@ -1,7 +1,7 @@
 ---
 title: "Configure intraday insights for supervisors | MicrosoftDocs"
 description: "How to configure intraday insights for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 05/18/2023
+ms.date: 08/31/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,6 +11,8 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Configure intraday insights for supervisors
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 > [!NOTE]
 > Intraday insights reports for Omnichannel for Customer Service are deprecated as of May 1, 2023. We recommend that you use [real-time analytics reports](enable-realtime-analytics-dashboard-administrator.md), our latest analytics capability, which provide real-time information about the health and key performance indicators of your organization. For more information on the deprecation, go to [Intraday insights for Omnichannel for customer service are deprecated](deprecations-customer-service.md#intraday-insights-reports-in-omnichannel-for-customer-service-are-deprecated).
@@ -76,12 +78,12 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
+   1. Create a security group in Microsoft Entra ID, and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
 
-      More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+      More information: [Create a basic group and add members using Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
 
-   1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+   1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Microsoft Entra ID.
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
 

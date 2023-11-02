@@ -16,7 +16,7 @@ author: vhorvathms
 
 Within Dynamics 365 Field Service, IoT alerts are a subset of IoT messages that may require attention. For instance, maybe a configured sensor in a refrigerator you service has alerted that humidity has risen above an acceptable threshold. To help with proactive service delivery, you can convert that incoming IoT alert directly to a work order, which can then be scheduled and assigned to a service technician. 
 
-In this aritlce, we will review:
+In this article, we will review:
 
 - How IoT alerts are triggered 
 - How to see IoT alerts in Field Service 

@@ -1,10 +1,11 @@
 ---
-title: "Create or edit sales orders in Dynamics 365 Sales"
-description: "Use orders to track details of the products or services that your customers want to place an order for."
+title: Create or edit sales orders in Dynamics 365 Sales
+description: Use orders to track details of the products or services that your customers want to place an order for.
 ms.date: 07/06/2022
-ms.topic: get-started-article
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.custom: bap-template
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -16,11 +17,12 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Create or edit sales orders 
+# Create or edit sales orders
 
 Use orders to track details of the products or services that your customers want to place an order for.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -69,6 +71,7 @@ Create an order when the customer is ready to buy your products or services. In 
 
 
 ## Create an order  
+
  You can create an order that is based on your communication with a customer instead of an accepted quote.  
   
 1. Select the Site map icon![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 

@@ -1,10 +1,10 @@
 ---
 title: Create and manage queues for unified routing
-description: Learn about how to create and manage advanced queues for unified routing in Customer Service.
+description: Create and manage advanced queues, know how fallback and default queues work in unified routing in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 04/26/2023
+ms.date: 10/30/2023
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservice
@@ -33,9 +33,9 @@ To simplify the routing experience for administrators and supervisors, queues ar
 - **Records**: To route work items pertaining to records, such as cases and emails.
 - **Voice**: To route calls made to support phone numbers listed on the customer portal.
 
-The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
+The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection are based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues are shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
 
-Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
+Assign a group number that helps you organize your queues in the list view. The group number doesn't affect the priority of the queue or incoming conversations.
 
 ## Create a queue for unified routing
 
@@ -71,9 +71,9 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns work item to the agent with the highest capacity, among those agents who have the skills identified during the classification stage, and have the presence as specified in the allowed presence option of the workstream; selected by default.
-   - **Round robin**: Assigns work item to the agent in the list order who matches the criteria for skills and presence.
-   - **Most idle (preview)**: Assigns a work item to the agent who has been idle the most among all the agents who match skills and capacity.
+   - **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
+   - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
+   - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
 1. To manage overflow of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
@@ -93,13 +93,13 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
 > [!IMPORTANT]
-> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
+> If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you aren't able to create a basic queue in Customer Service Hub.
 
 ### How fallback queues work
 
 To efficiently manage the work items, you can configure a fallback queue per workstream that acts as a safety net. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you're creating a workstream.
 
-For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. By default, the assignment method for the fallback queue is highest capacity.
+For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you need to add users. By default, the assignment method for the fallback queue is highest capacity.
 
 If any overflow settings exist, they are overruled and work items are routed to the fallback queues in the following scenarios:
 
@@ -109,13 +109,13 @@ If any overflow settings exist, they are overruled and work items are routed to 
 
 ### How default queues work
 
-Default queues are a finite set of queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
+Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. No other settings are available for edit.
+For a workstream, you can set any queue as a fallback queue, including a default queue but vice versa isn't possible. You can update the assignment method only for the default queues. However, we recommend that you always create advanced queues and define the assignment strategy instead of using the default queues. No other settings are available to edit.
 
 ### See also
 
@@ -123,5 +123,6 @@ For a workstream, you can set any queue as a fallback queue, including a default
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](voice-channel-route-queues.md)  
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

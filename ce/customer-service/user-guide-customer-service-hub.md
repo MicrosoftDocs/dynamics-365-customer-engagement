@@ -2,12 +2,12 @@
 title: Introduction to Customer Service
 description: Learn about the Customer Service Hub in Microsoft Dynamics 365.
 ms.date: 04/21/2023
-ms.topic: get-started-article
+ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
 ms.custom: 
   - dyn365-customerservice
-  - intro-internal
+ms.collection: get-started
 ---
 
 # Introduction to Customer Service Hub
@@ -24,8 +24,7 @@ Customer Service Hub is based on the Unified Interface framework. Some of the ke
 
 Watch this video to learn more about the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
-  
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077]  
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 
 

@@ -42,6 +42,8 @@ When Resource Scheduling Optimization is deployed, the system automatically crea
 
 The default goal is used when single resource optimization is selected from the schedule board.
 
+Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** to set the default goal.
+
 ## Understand constraints
 
 Resource Scheduling Optimization works with a set of constraints that you can use to define an optimization goal.
