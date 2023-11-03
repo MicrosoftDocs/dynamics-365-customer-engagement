@@ -14,18 +14,17 @@ ms.collection:
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-Enable the Copilot features for agents to use Copilot to:
+In Customer Service admin center, enable the Copilot features for agents to use Copilot in Customer Service workspace to:
 - Respond to questions
 - Compose an email
 - Draft a chat response
 - Summarize a case and conversation
 
-To make these Copilot features available for agents in the Customer Service workspace, you can enable them in Customer Service admin center.
-
-Agents can use the ask a question, compose an email, draft a chat response, and summarize a case features in Customer Service Hub and custom apps. Perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps) to enable the features in Customer Service Hub and custom apps.
+However, for agents to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
 > [!NOTE]
-> Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+> - Summarize conversations is available for use in the Customer Service workspace only.
+> - Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 ## License requirements
 
