@@ -22,7 +22,7 @@ Enable the Copilot features for agents to use Copilot to:
 
 To make these Copilot features available for agents in the Customer Service workspace, you can enable them in Customer Service admin center.
 
-Agents can use the respond to questions, compose an email, draft a chat response, and summarize a case features in Customer Service Hub and custom apps. Perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps) to enable the features in Customer Service Hub and custom apps.
+Agents can use the ask a question, compose an email, draft a chat response, and summarize a case features in Customer Service Hub and custom apps. Perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps) to enable the features in Customer Service Hub and custom apps.
 
 > [!NOTE]
 > Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
