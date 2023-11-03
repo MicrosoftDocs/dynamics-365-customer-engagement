@@ -27,7 +27,7 @@ When you apply an SLA to a case but don't attach a calendar to the SLA, the time
 
 In this example, time is calculated as follows:
 
-- Case created on 06/14/2023 3:00 PM.
+- Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
 - So, the warning time is 06/15/2023 3:00 PM and the failure time is 06/16/2023 3:00 PM.
 
@@ -37,7 +37,7 @@ When you create an SLA with a calendar with working hours and working days of th
 
 In this example, time is calculated as follows:
 
-- Case created on 06/14/2023 3:00 PM.
+- Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
 - Working hours are set as 8:00 AM to 5:00 PM.
 - Working hours are calculated as 9 hours.
@@ -80,7 +80,7 @@ When you create an SLA with a calendar and on that calendar you set working hour
 
 Time is calculated as follows:
 
-- Case created on 06/14/2023 3:00 PM.
+- Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
 - Working hours are set as 8:00 AM to 5:00 PM.
 - Break is 1 hour between 1:00 PM to 2:00 PM.
@@ -142,7 +142,7 @@ When you create an SLA with a calendar and set working hours, working days of th
 
 Time is calculated as follows:
 
-- Case created on 06/14/2023 3:00 PM.
+- Case created on 06/14/2023 at 3:00 PM.
 - Warning and failure times are set as 1 and 2 days, respectively.
 - Working hours are set as 8:00 AM to 5:00 PM.
 - Working hours are calculated as 9 hours daily.
