@@ -62,7 +62,7 @@ The following assignment methods are available out of the box:
 
 - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match the required skills, presence, and capacity.
 
-  The assignment method uses "the time since last capacity is released for a voice call" to determine the least-active agent and route the next incoming call to them. The wrap-up settings configured in the workstream also account for identifying the agent. For example, consider two agents in a queue. The first agent completes a call five minutes ago while the second agent has just completed their call. When a new call comes in, the system assigns it to the first agent who has finished their activity first.
+  The assignment method uses "the time since last capacity is released for a voice call" and the wrap-up settings configured in the workstream to determine the least-active agent and route the next incoming call to them. For example, consider two agents in a queue. The first agent completes a call five minutes ago while the second agent has just completed their call. When a new call comes in, the system assigns it to the first agent who has finished their activity first.
 
   Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across agents, and results in higher agent efficiency and improved customer satisfaction.
 
