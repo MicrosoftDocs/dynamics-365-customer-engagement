@@ -92,3 +92,7 @@ You can follow the steps in [Troubleshooting ribbon issues in Power Apps](/troub
 ### How can I identify and resolve form issues effectively?
 
 Form issues occur because of business rules, JavaScript, form events, or client API that administrators and makers have set. Monitor is a tool that can help you debug and diagnose problems, and can also help identify whether the issue experienced is designed out-of-the-box or due to a customization. More information: [Use Monitor to troubleshoot model-driven app form behavior](/power-apps/maker/model-driven-apps/monitor-form-checker).
+
+### Why does the Responsible Contact Id field show null/blank when I refresh the browser or open the record in a new tab?
+
+Responsible Contact Id is a deprecated field. With the recent platform enhancements, deprecated attributes will no longer be  populated when a form loads in a new tab. More information: [ResponsibleContactId lookup attribute is deprecated](deprecations_customer_service.md#esponsiblecontactid_lookup_attribute_is_deprecated)
