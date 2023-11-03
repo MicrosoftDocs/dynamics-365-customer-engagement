@@ -70,7 +70,7 @@ You can define the way outbound calls are made and also who can make them. To di
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
-    - **Caller ID number**: Select a number from the list. The "<number> (Profile Number)" label indicates that the caller ID displays the same number as the profile number. It's also the default setting.
+    - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
       > [!NOTE]
