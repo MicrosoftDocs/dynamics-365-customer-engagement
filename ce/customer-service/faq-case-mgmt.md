@@ -95,4 +95,4 @@ Form issues occur because of business rules, JavaScript, form events, or client 
 
 ### Why does the Responsible Contact Id field show null/blank when I refresh the browser or open the record in a new tab?
 
-Responsible Contact Id is a deprecated field. With the recent platform enhancements, deprecated attributes will no longer be  populated when a form loads in a new tab. More information: [ResponsibleContactId lookup attribute is deprecated](deprecations_customer_service.md#esponsiblecontactid_lookup_attribute_is_deprecated)
+Responsible Contact Id is a deprecated field. With the recent platform enhancements, deprecated attributes will no longer be  populated when a form loads in a new tab. More information: [ResponsibleContactId lookup attribute is deprecated](deprecations-customer-service.md#esponsiblecontactid_lookup_attribute_is_deprecated)
