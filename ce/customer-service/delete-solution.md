@@ -25,7 +25,7 @@ You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
 >
 > For example, if you plan to remove omnichannel solutions from your organization, you must remember that the unified routing part of Omnichannel for Customer Service solutions might be used in unified routing for Customer Service. Therefore, you must ensure that you don't uninstall or delete the common solutions because it might affect the way unified routing works in Customer Service.
 
-## Uninistall solutions
+## Uninstall solutions
 
 1. Sign in to your `https://<org>.dynamics.com/apps` environment.
 
@@ -100,7 +100,7 @@ You have deleted the **OmnichannelCustomerServiceHub** solution from your organi
 
 ## Remove Customer Service Hub from channel provider configuration
 
-The following steps describe how to remove Customer Service Hub solution from your organization.
+Do the following steps to remove the Customer Service Hub solution from your organization.
 
 1. Sign in to the Dynamics 365 instance.
 
