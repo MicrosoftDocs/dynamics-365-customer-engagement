@@ -20,6 +20,9 @@ The Dynamics 365 Field Service Teams app enables frontline workers to view upcom
 
 Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
+> [!NOTE]
+> The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
+
 ## Install the Field Service (Preview) Teams app
 
 If your admin installed the Field Service (Preview) Teams app for your organization, you can skip this step.

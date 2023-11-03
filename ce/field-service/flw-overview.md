@@ -1,7 +1,7 @@
 ---
 title: Field Service in Microsoft 365 apps (preview)
 description: Learn about integrations for Dynamics 365 Field Service with Microsoft Outlook and Teams.
-ms.date: 10/01/2023
+ms.date: 11/03/2023
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -38,18 +38,77 @@ Dynamics 365 Field Service (Preview) allows administrators and users to access c
 
 Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the following geographies/regions  and in the English (en-us) language. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
 
-|Geography | Region |
-|-|-|
-|Asia Pacific | eastasia, southeastasia|
-|Australia | australiasoutheast, australiaeast|
-|Canada | canadacentral, canadaeast|
-|India | southindia, centralindia|
-|Ireland | westeurope, northeurope|
-|Netherlands | westeurope, northeurope|
-|Sweden | swedencentral|
-|Switzerland | switzerlandnorth|
-|United Kingdom | uksouth, ukwest|
-|United States | eastus, westus|
+### Supported geographies and regions
+
+| Geography               | Region                           |
+| ----------------------- | -------------------------------- |
+| Africa                  | southafricanorth                 |
+| Asia Pacific            | eastasia,southeastasia           |
+| Australia               | australiasoutheast,australiaeast |
+| Brazil                  | brazilsouth                      |
+| Canada                  | canadacentral,canadaeast         |
+| France                  | francecentral,francesouth        |
+| Germany                 | germanynorth,germanywestcentral  |
+| India                   | southindia,centralindia          |
+| Ireland                 | westeurope,northeurope           |
+| Japan                   | japaneast,japanwest              |
+| Korea                   | koreasouth                       |
+| Netherland              | westeurope,northeurope           |
+| Norway                  | norwayeast                       |
+| Switzerland             | switzerlandnorth                 |
+| UK (South UK / West UK) | uksouth,ukwest                   |
+| United Arab Emirates    | uaecentral,uaenorth              |
+| United States           | eastus,westus                    |
+
+### Supported languages
+
+| Language                               | Locale     |
+| -------------------------------------- | ---------- |
+| Arabic (Saudi Arabia)                  | ar-SA      |
+| Basque (Basque)                        | eu-ES      |
+| Bulgarian (Bulgaria)                   | bg-BG      |
+| Catalan (Catalan)                      | ca-ES      |
+| Chinese (Simplified, PRC)              | zh-CN      |
+| Chinese (Taiwan)                       | zh-TW      |
+| Chinese (Hong Kong)                    | zh-HK      |
+| Croatian (Croatia)                     | hr-HR      |
+| Czech (Czech Republic)                 | cs-CZ      |
+| Danish (Denmark)                       | da-DK      |
+| Dutch (Netherlands)                    | nl-NL      |
+| English (United States)                | en-US      |
+| Estonian (Estonia)                     | et-EE      |
+| Finnish (Finland)                      | fi-FI      |
+| French (France)                        | fr-FR      |
+| Galician (Galician)                    | gl-ES      |
+| German (Germany)                       | de-DE      |
+| Greek (Greece)                         | el-GR      |
+| Hebrew (Israel)                        | he-IL      |
+| Hindi (India)                          | hi-IN      |
+| Hungarian (Hungary)                    | hu-HU      |
+| Indonesian (Indonesia)                 | id-ID      |
+| Italian (Italy)                        | it-IT      |
+| Japanese (Japan)                       | ja-JP      |
+| Kazakh (Kazakhstan)                    | kk-KZ      |
+| Korean (Korea)                         | ko-KR      |
+| Latvian (Latvia)                       | lv-LV      |
+| Lithuanian (Lithuania)                 | lt-LT      |
+| Malay (Malaysia)                       | ms-MY      |
+| Norwegian (Bokmal)                     | nb-NO      |
+| Polish (Poland)                        | pl-PL      |
+| Portuguese (Brazil)                    | pt-BR      |
+| Portuguese (Portugal)                  | pt-PT      |
+| Romanian (Romania)                     | ro-RO      |
+| Russian (Russia)                       | ru-RU      |
+| Serbian (Cyrillic, Serbian)            | sr-Cyrl-RS |
+| Serbian (Latin, Serbia and Montenegro) | sr-Latn-RS |
+| Slovak (Slovakia)                      | sk-SK      |
+| Slovenian (Slovenia)                   | sl-SI      |
+| Spanish (Spain)                        | es-ES      |
+| Swedish (Sweden)                       | sv-SE      |
+| Thai (Thailand)                        | th-TH      |
+| Turkish (Turkey)                       | tr-TR      |
+| Ukrainian (Ukraine)                    | uk-UA      |
+| Vietnamese (Vietnam)                   | vi-VN      |
 
 ## Next steps
 
