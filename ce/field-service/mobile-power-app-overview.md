@@ -22,14 +22,14 @@ With the 2023 release wave 2, we're releasing a new user experience for mobile u
 
 | Feature | Category | Available on the mobile app |  Details |
 | --- | --- | --- |  --- |
-| [Camera capture (photo + video)](get-work-done-mobile-app.md#take-notes-with-attachments) | Technician | Yes |  Use the device camera to capture images and video. |
-| [Barcode scanning](get-work-done-mobile-app.md#barcode-scanning) | Technician | Yes |  Scan bar code from global search or at a field level. |
+| [Camera capture (photo + video)](get-work-done-mobile-app.md) | Technician | Yes |  Use the device camera to capture images and video. |
+| [Barcode scanning](get-work-done-mobile-app.md) | Technician | Yes |  Scan bar code from global search or at a field level. |
 | [Offline data](work-offline-mobile-app.md) | Technician | Yes |  Offline-enabled application allows you to access your data regardless of internet connectivity. |
 | [Calendar view](download-get-started-mobile-app.md#view-scheduled-work-orders) | Technician | Yes |   Customize your calendar with data relevant for your organization. |
 | [Driving directions](get-work-done-mobile-app.md#travel-to-a-job-location) | Technician | Yes | Use your favorite in-app map application for turn-by-turn directions. |
 | Speech to text | Technician | Yes | Insert notes with native device speech-to-text capabilities. |
 | [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |
-| [Time entry](get-work-done-mobile-app.md#time-entry)  | Technician | Yes | In-application Time Entry enabled by default. |
+| [Time entry](get-work-done-mobile-app.md)  | Technician | Yes | In-application Time Entry enabled by default. |
 | [Connected Field Service and IoT alerts](get-work-done-mobile-app.md) | Technician | Yes |  Receive IoT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes* | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |

@@ -30,8 +30,6 @@ You need to opt in to allow your data to move outside of your region to an Azure
 
 To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
-[Learn how Azure OpenAI protects your data](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
-
 ### See also
 
 - [Enable and configure Copilot in Dynamics 365 Sales](enable-setup-copilot.md)
