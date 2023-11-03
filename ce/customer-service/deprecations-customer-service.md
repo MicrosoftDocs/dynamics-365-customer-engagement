@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 11/01/2023
+ms.date: 11/03/2023
 ms.custom: bap-template
 ---
 
@@ -107,6 +107,12 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 ## Customer Service workspace legacy layout is deprecated
 
 The Customer Service workspace legacy layout is deprecated as of April 2023, and won't be supported after October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md#deprecated-customer-service-workspace-layout)
+
+## ResponsibleContactId lookup attribute is deprecated
+
+The incident entity **ResponsibleContactId** lookup attribute should be considered deprecated and the **PrimaryContactId** lookup attribute introduced with the Microsoft Dynamics CRM 2013 Service Pack 1 (SP1) release should be considered the primary system lookup attribute to associate incidents with a contact record.
+
+There are no plans to remove the **ResponsibleContactId** lookup attribute, but if you plan to create new customizations you should use **PrimaryContactId** rather than **ResponsibleContactId**. If you have existing customizations that currently use ResponsibleContactId, you should consider migrating them to use **PrimaryContactId** instead.
 
 ### See also
 
