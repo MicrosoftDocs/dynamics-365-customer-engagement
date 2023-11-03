@@ -23,7 +23,7 @@ In Customer Service admin center, enable the Copilot features for agents to use 
 However, for agents to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
 > [!NOTE]
-> - Summarize conversations is available for use in the Customer Service workspace only.
+> - Summarize conversations is available for use in Customer Service workspace only.
 > - Respond to questions, Compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 ## License requirements
