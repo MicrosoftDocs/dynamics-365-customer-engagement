@@ -101,15 +101,15 @@ Legend:
 
 **2b.** The same standard placeholder, **Created On Equals 2200-01-01**, is added to the condition.
 
-### Why do my rule items or conditions with a DateType field that uses a not-on operator fail during the premigration checkup and actual migration?
+### Why do my rule items or conditions with a DateType field that uses a Not-On operator fail during the premigration checkup and actual migration?
 
-The **not-on** operator for the *Date* data type isn't supported in Unified Interface. Therefore, it isn't supported as part of migration. To fix this issue, you can change the legacy items or conditions from **\{not-on selecteddate\}** to **\{selecteddate less than and selecteddate greater than\}** in the web client before you rerun the migration tool for the corresponding rule.
+The **Not-On** operator for the *Date* data type isn't supported in Unified Interface. Therefore, it isn't supported as part of migration. To fix this issue, you can change the legacy items or conditions from **\{not-on selecteddate\}** to **\{selecteddate less than and selecteddate greater than\}** in the web client before you rerun the migration tool for the corresponding rule.
 
-#### Example: DateType field that uses a not-on operator
+#### Example: DateType field that uses a Not-On operator
 
 **Premigration web client view**
 
-![Screenshot of the premigration web client view of an item with a not-on operator for a DateType field.](media/migration-tool-12-a.png "Screenshot of the premigration web client view of an item with a not-on operator for a DateType field")
+![Screenshot of the premigration web client view of an item with a Not-On operator for a DateType field.](media/migration-tool-12-a.png "Screenshot of the premigration web client view of an item with a Not-on operator for a DateType field")
 
 Legend:
 
@@ -179,7 +179,7 @@ Legend:
 > - The Date & Time picker control is no longer available in the conditions. However, you can still edit the date and time in the text field.
 > - Only one level of the related entity hierarchy is supported. However, you can select nested, related entities in the application.
 > - The related entity inside a group of the and/or clause isn't supported.
-> - The **not-on** operator for the *Date* data type isn't supported.
+> - The **Not-on** operator for the *Date* data type isn't supported.
 > - For the *Lookups* data type, only the **equal**, **not equal**, **null**, and **not null** operators are supported. The **under** and **not-under** operators aren't supported.
 
 ### Can I migrate a rule again after it has been activated?
@@ -257,7 +257,7 @@ Legend:
 
 **b.** **To** field.
 
-### "First Not Null" checks in expressions in legacy workflows aren't supported during workflow-to-flow conversion.
+### "First Not Null" checks in expressions in legacy workflows aren't supported during workflow-to-flow conversion
 
 In legacy workflows, a lookup field can be mapped with multiple expressions where you check and assign the "First Not Null" expression, as shown in the web client example that follows. Because of a known limitation in the legacy workflow designer, this approach isn't supported as part of workflow-to-flow conversion. Therefore, the workflow converter assigns the first expression without performing the null check. It then removes all the remaining expressions, regardless of whether they have non-null values. In the example that follows, the flow will have only **Regarding(Email)** in the **Customer** field in this step.
 
@@ -269,9 +269,9 @@ In legacy workflows, a lookup field can be mapped with multiple expressions wher
 
 Legend:
 
-**a.** **Unified Interface view:** In Power Automate, the **Customer** field has only **Regarding(Email)**, regardless of whether it's null.
+**a.** **Web client view:** In the workflow, the **Customer** field has **\{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))\}**.
 
-**b.** **Web client view:** In the workflow, the **Customer** field has **\{Regarding(Email); Contact(Create (Case)); Customer(Create (Case))\}**.
+In Unified Interface, the **Customer** field has only **Regarding(Email)**, regardless of whether it's null.
 
 > [!IMPORTANT]
 > If you're still experiencing issues with the migration tool, contact your administrator or Microsoft Support.
