@@ -3,7 +3,7 @@ title: Markdown formats for agents
 description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 11/01/2023
+ms.date: 11/03/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: nenellim
