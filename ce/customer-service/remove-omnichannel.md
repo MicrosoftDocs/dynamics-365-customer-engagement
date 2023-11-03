@@ -4,7 +4,7 @@ description: Perform the steps mentioned in the topic to remove Omnichannel for 
 author: neeranelli
 ms.author: nenellim
 ms.topic: how-to
-ms.date: 10/20/2023
+ms.date: 11/03/2023
 ms.reviewer:
 ms.collection:
 ms.custom: bap-template
@@ -44,9 +44,9 @@ To remove the Omnichannel for Customer Service from the organization,
     > ![Remove confirmation dialog box.](media/removal-confirmation-dialog-box.png "Remove confirmation dialog box")
 
 > [!IMPORTANT]
-> Removing Omnichannel for Customer Service will disable all channels in the selected organization.
+> When you remove Omnichannel for Customer Service, all channels in the selected organization are disabled.
 
-After Omnichannel is removed, you can enable it again from the **Manage environments** view.
+If you need Omnichannel for Customer Service again, you can enable it from the **Manage environments** view.
 
 ## Next steps
 
