@@ -27,7 +27,7 @@ You can remove Omnichannel for Customer Service and disable all channels for a D
 
 To remove the Omnichannel for Customer Service from the organization,
 
-1. In **Power Platform admin center**, on the **Environments** page, select the environment in which you wan tto remove Omnichannel for Customer Service.
+1. In **Power Platform admin center**, on the **Environments** page, select the environment in which you want to remove Omnichannel for Customer Service.
 
     > [!div class=mx-imgBorder]
     > ![Manage omnichannel.](media/OC-provisioning-ppadmin.png)
