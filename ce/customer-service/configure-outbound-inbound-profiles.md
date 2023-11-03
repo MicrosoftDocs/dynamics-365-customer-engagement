@@ -1,12 +1,13 @@
 ---
-title: "Configure outbound and inbound profiles | MicrosoftDocs"
-description: "Use this article to understand how you can configure outbound and inbound profiles in your organization."
-ms.date: 09/21/2023
+title: Configure outbound and inbound profiles
+description: Use this article to understand how you can configure outbound and inbound profiles in your organization.
+ms.date: 11/06/2023
 ms.service: dynamics-365-customerservice
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Configure outbound and inbound profiles
@@ -53,7 +54,7 @@ The following prerequisites must be met:
 
 ## Create outbound profiles
 
-You can define the way outbound calls are made and also who can make them.
+You can define the way outbound calls are made and also who can make them. To distinguish agent calls from fraudulent ones, you can set a caller ID number to display on the caller screen when the agent makes an outbound call to a customer in a callback scenario or when the agent transfers the call to an external number.
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
@@ -69,6 +70,7 @@ You can define the way outbound calls are made and also who can make them.
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
+    - **Caller ID number**: Select a number from the list. The "<number> (Profile Number)" label indicates that the caller ID displays the same number as the profile number. It's also the default setting.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries that have been selected in all profiles.
       > [!NOTE]
