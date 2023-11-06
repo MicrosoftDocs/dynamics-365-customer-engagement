@@ -9,7 +9,7 @@ author: jasonccohen
 
 # Set up users, licenses, and security roles
 
-Field service management requires several individuals with different roles to complete a work order. Every individual that needs access to the Dynamics 365 Field Service application needs a user account, a Field Service license, and and the right level of permissions. This article helps you set up users, assign licenses, and define permissions for licensed users.
+Field service management requires several individuals with different roles to complete a work order. Every individual that needs access to the Dynamics 365 Field Service application needs a user account, a Field Service license, and the right level of permissions. This article helps you set up users, assign licenses, and define permissions for licensed users.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ There are several user roles that the Field Service application introduces.
 
 - **Field Service - Dispatcher**: Enables users who are responsible for scheduling jobs and assigning work orders to frontline workers.
 
-- **Field Service - Administrator**: Provides a broad set of permissions to all tables and settings in Field Service. It's designed for IT administrators and service managers who configure the system for the rest of the organization.
+- **Field Service - Administrator**: Provides a broad set of permissions to all tables and settings in Field Service. Intended for IT administrators and service managers who configure the system for the rest of the organization.
 
 - **Field Service - Inventory Purchase**: Designed for inventory managers who oversee inventory on service vehicles,  purchase and reorder inventory, and process product returns. This role has permissions for inventory-related entities within their business unit and expands permissions for resources or dispatchers.
 
@@ -32,7 +32,7 @@ There are several user roles that the Field Service application introduces.
 
 - **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information, see [setting up security roles for Connected Field Service](cfs-security-roles.md).
 
-Most organizations have several resources, some dispatchers, and very few administrators. For example, a plumbing company may have 20 plumbers with vehicles and equipment, three dispatchers who assign work to the plumbers, and an administrator who maintains the system so everyone is productive.
+Most organizations have several resources, some dispatchers, and few administrators. For example, a plumbing company has 20 plumbers with vehicles and equipment. There are three dispatchers who assign work to the plumbers, and one administrator who maintains the system so everyone is productive.
 
 ## Create user accounts
 
@@ -72,7 +72,7 @@ Alternatively, you can [use security groups to manage access to environments](/p
 
 ## Assign security roles and field security profiles
 
-Now that users have a license and access to the environment, they need a security role to get the right privileges for the application.  [Security roles control the types of data tables a user can access and edit](/power-platform/admin/security-roles-privileges). For example, a user may have permission to see accounts, but not to see revenue fields for an account.
+Now that users have a license and access to the environment, they need a security role to get the right privileges for the application.  [Security roles control the types of data tables a user can access and edit](/power-platform/admin/security-roles-privileges). For example, a user can have permission to see accounts, but not to see revenue fields for an account.
 
 For more information, see [Assign security roles to a user](/power-platform/admin/assign-security-roles). To assign a security role to multiple users, consider managing them as a [team in Dataverse](/power-platform/admin/manage-teams).
 
