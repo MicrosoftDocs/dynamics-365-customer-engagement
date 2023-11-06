@@ -14,15 +14,11 @@ ms.custom: bap-template
 
 ## Troubleshooting articles
 
-For Customer Service troubleshooting articles, see [Microsoft Dynamics 365 Customer Service troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service).
-
-These articles explain how to determine, diagnose, and fix issues that you might encounter when you use Microsoft Dynamics 365 Customer Service.
+These articles explain how to determine, diagnose, and fix issues that you might encounter when you use Microsoft Dynamics 365 Customer Service. See [Microsoft Dynamics 365 Customer Service troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) for details.
 
 ## Frequently asked questions
 
-Collection of frequently asked questions (FAQs) are integrated into the Customer Service documentation. Each of these articles include multiple FAQs for a specific feature area.
-
-The following FAQ articles discuss issues specific to Customer Service:
+The following FAQ articles discuss issues specific to Customer Service. Each of these articles include multiple FAQs for a specific feature area or app.
 
 - [FAQ about Customer Service admin center](../faq-customer-service-admin-center.md)
 - [FAQ about unified routing](../unified-routing-faqs.md)
