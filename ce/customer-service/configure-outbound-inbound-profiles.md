@@ -55,7 +55,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create outbound profiles
 
-You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative numbers other than the default number in the workstream.
+You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative numbers other than the default number in the workstream.
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
@@ -73,7 +73,7 @@ You can define how agents use the outbound calls and which agents can make those
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
     - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.
 1. In **Outbound behaviors**, do the following: 
-    - **Allow list for countries/regions**: Select the countries/regions whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries/regions that are selected in all profiles.
+    - **Allow list for countries/regions**: Select the countries or regions whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries or regions that are selected in all profiles.
       > [!NOTE]
       > - The **Allow list for countries/regions** is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
       > - In [Power Apps](https://make.powerapps.com/), add the **Enhanced outbound dialer experience** setting definition to enable the enhanced outbound dialer, and then set the **Setting environment value** to **Yes**. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-or-updating-a-setting-app-value-using-the-solution-explorer).
