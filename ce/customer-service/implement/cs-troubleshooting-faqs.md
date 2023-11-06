@@ -33,5 +33,5 @@ The following FAQ articles discuss issues specific to Customer Service:
 - [FAQ about custom time calculation of SLA KPIs](../faqs-custom-time-sla-kpis.md)
 - [FAQ about the voice channel](../voice-channel-faqs.md)
 - [FAQ about Activities and the Timeline Wall](/powerapps/user/faq-for-timeline-and-activity)
-- [FAQs about adding users to agent experience profile](../faq-agent-experience-profile.md)
+- [FAQs about adding users to agent experience profile](../../app-profile-manager/faq-agent-experience-profile.md)
 - [FAQ about setting up Teams chat](../faq-teams-chat.md)
