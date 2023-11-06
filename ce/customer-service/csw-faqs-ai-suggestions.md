@@ -15,6 +15,8 @@ ms.custom:
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
 
+## What languages are supported for la
+
 ## I’ve enabled suggestions, but smart assist keeps showing me "No suggestions found" message
 
 This might be caused by one of the following reasons:
