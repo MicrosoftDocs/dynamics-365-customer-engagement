@@ -1,7 +1,7 @@
 ---
 title: FAQ for AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 05/27/2022
+ms.date: 11/06/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,13 @@ ms.custom:
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
 
-## What languages are supported for la
+## Does Copilot support knowledge articles published in all languages?
+
+No, Copilot supports knowledge articles published only in English. Copilot processes 100,000 of your latest published knowledge articles. We recommend that the articles are high-quality sources that your agents would normally use when they’re helping customers. If you wouldn’t want an agent to use the source document, don’t expose it to Copilot.  
+
+## How many knowledge articles can Copilot process?
+
+Copilot processes 100,000 of your latest published knowledge articles.
 
 ## I’ve enabled suggestions, but smart assist keeps showing me "No suggestions found" message
 
