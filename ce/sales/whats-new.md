@@ -40,8 +40,6 @@ This article summarizes early access, public preview, and general availability f
 |Sales execution     |  Visualize key stakeholders with  smart organization charts       | Build organization charts with with simple drag-and-drop actions. Understand the decision-making process and identify the individuals who hold the most influence over purchasing decisions.          |  [Documentation](organization-charts.md)        | Enabled by default        | GA        |
 |Sales execution     |  Quote closure customization       | Customize the quote close experience as per your business needs and help sellers close quotes quickly and efficiently.          |  [Documentation](customize-quote-closure.md)        | Enabled by default        | GA        |
 
-
-
 ## September 2023 release
 
 No new features or enhancements were released in September 2023. We'll be back in October with more updates.
@@ -51,20 +49,6 @@ No new features or enhancements were released in September 2023. We'll be back i
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
 |Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
-
-## July 2023 release
-
-| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
-|---------|---------|---------|---------|---------|---------|
-|Copilot     | Opportunity summary       | Use the AI-generated opportunity summaries to get a quick and comprehensive view of the opportunity and catch up on updates, without reading through the history of the opportunity.        |  [Documentation](use-sales-copilot.md#summarize-an-opportunity-or-a-lead)       |Enabled by admins         |  Public preview       |
-|Copilot     | Lead summary        | Get AI-generated lead summaries that are enriched with data from CRM, Bing news and LinkedIn. Catch up on updates without reading through the history of the lead.        | [Documentation](use-sales-copilot.md#enrich-leads-with-related-information)         | Enabled by admins         | Public preview         |
-|Copilot     | Meeting preparation notes        | Prepare better for customer meetings with AI-generated preparation notes and avoid the need to search through multiple sources for up-to-date information prior to each meeting.         | [Documentation](use-sales-copilot.md#prepare-for-upcoming-meetings)        |  Enabled by admins       |   Public preview      |
-|Copilot     | Contextual news        | Get the latest news about an account or company contextually within Dynamics 365 Sales.        |  [Documentation](use-sales-copilot.md#show-the-latest-news-about-an-account)       | Enabled by admin         | Public preview        |
-|Copilot     | Email compose and reply        | Use Copilot to generate email drafts based on your input, recent emails, and related information.              | [Documentation](compose-send-email-copilot.md)   | Enabled by admins         | Public preview         |
-|Copilot     | Email follow ups        | Let Copilot identify action items from your incoming emails and suggests those that need a follow-up but aren't replied to yet.              | [Documentation](use-sales-copilot.md#show-emails-you-havent-replied-to)   | Enabled by admins         | Public preview         |
-|Sales engagement     |   Support for custom SMS channel      |   Bring in your own provider to use the SMS capability.       |    [Documentation](add-custom-sms-provider-intro.md)     |   Enabled for admins      | GA        |
-|Sales engagement     |     Support for SMS from the Activities pane    |  Start SMS conversation from the ribbon within the Activities page, similar to other communication channels such as email and call.         | [Documentation](manage-text-message-communications.md)         |  Enabled by default       |    Public preview     |
-|Sales execution     |  Modern and refreshed user experience       | Experience the new and refreshed UI that's more intuitive, effective, and visually appealing.         |  Not applicable        | Enabled by default        | Public preview        |
 
 ## Get the latest version
 
