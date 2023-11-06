@@ -44,7 +44,7 @@ To create user accounts for users within your organizations, add them individual
 
 For more information, see [Add users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
 
-## B2B collaboration users
+### B2B collaboration users
 
 For scenarios, where you want to add a contractor or vendor to your Field Service applications, create a B2B collaboration user. Collaboration users are managed in the Microsoft Entra admin center.
 
