@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 11/03/2023
 ms.custom: bap-template 
 ---
 
@@ -19,16 +19,16 @@ Copilot case and conversation summaries help you to quickly understand the conte
 
 ## Enable case summaries
 
-Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
+Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description. Email activity records and notes linked to a case are also used to generate the case summary.
  
-1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane (preview)** for Copilot case summaries to be available.
+1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane** for Copilot case summaries to be available.
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
 1. Select **Manage** in **Summaries**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
 
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
+Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. You can also [modify the source case fields that Copilot uses to generate summaries or draft emails](copilot-map-custom-fields.md). 
 
 ## Enable conversation summaries
 
