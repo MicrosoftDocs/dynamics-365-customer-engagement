@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 10/06/2023
+ms.date: 11/06/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -27,7 +27,7 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, disable the **Outlook Add-in Copilot (Preview)** setting in [Work Order settings.](configure-default-settings.md#work-order--booking-settings)
+The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To enable or disable consent, see [Give consent to use Copilot in Field Service for Outlook.](#give-consent-to-use-copilot-in-field-service-for-outlook)
 
 ### Prerequisites
 
@@ -61,6 +61,28 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
    > [!NOTE]
    >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
+### Give consent to use Copilot in Field Service for Outlook
+
+As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform envrionment is inside or outside of the United States.
+
+#### For customers with Power Platform environments outside the US
+
+- To opt-in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
+- To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
+
+#### For customer with Power Platform environments in the US
+
+1. In the Field Service app, change to the **Settings** area.
+
+1. In the **General** section, select **Field Service** Settings.
+
+1. Select the **Features** tab.
+
+   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with OUtlook Add-in Copilot highlighted.":::
+
+1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
+
+1. Select **Save**.
 
 <!--- Tab 2 Teams --->
 
