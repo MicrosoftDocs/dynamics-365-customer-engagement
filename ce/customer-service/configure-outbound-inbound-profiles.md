@@ -55,7 +55,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create outbound profiles
 
-You can define the way agents can use the outbound calls and which agents can make the calls. If you want a caller ID number that's displayed to customers be different from the outbound profile number, configure an alternative number. It's useful if some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative numbers other than the default number in the workstream.
+You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative numbers other than the default number in the workstream.
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
