@@ -28,7 +28,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create inbound profiles
 
-1. In Customer Service admin center, in the site map, select **Productivity** in **Agent experience**.
+1. In the Customer Service admin center site map, select **Productivity** in **Agent experience**.
 
 1. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
 
