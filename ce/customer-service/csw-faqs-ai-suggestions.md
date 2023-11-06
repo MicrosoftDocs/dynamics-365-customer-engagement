@@ -17,7 +17,11 @@ A few answers to common questions about the AI-suggested similar cases and knowl
 
 ## Does Copilot support knowledge articles published in all languages?
 
-No, Copilot supports knowledge articles published only in English. Copilot processes 100,000 of your latest published knowledge articles. We recommend that the articles are high-quality sources that your agents would normally use when they’re helping customers. If you wouldn’t want an agent to use the source document, don’t expose it to Copilot.  
+No, Copilot supports knowledge articles published only in English. 
+
+## What best practices should I follow for knowledge sources? 
+ 
+Make sure that your knowledge sources contain high-quality content that your agents normally refer when they are helping customers. In your implementation plan, verify that you expose the required sources only.  
 
 ## How many knowledge articles can Copilot process?
 
