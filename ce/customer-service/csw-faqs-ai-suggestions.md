@@ -17,7 +17,7 @@ A few answers to common questions about the AI-suggested similar cases and knowl
 
 ## Does Copilot support knowledge articles published in all languages?
 
-No, Copilot supports knowledge articles published only in English. 
+No. Copilot supports knowledge articles published in the [English language](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service) only. 
 
 ## What best practices should I follow for knowledge sources? 
  
@@ -64,6 +64,8 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 
 ### See also
 
+[Manage Copilot features in Customer Service](configure-copilot-features.md)
+[Use Copilot to solve customer issues](use-copilot-features.md)
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 
