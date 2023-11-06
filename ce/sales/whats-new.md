@@ -23,6 +23,25 @@ Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.micros
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
+## October 2023 release
+
+| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
+|---------|---------|---------|---------|---------|---------|
+|Copilot     | Opportunity summary       | Use the AI-generated opportunity summaries to get a quick and comprehensive view of the opportunity and catch up on updates, without reading through the history of the opportunity.        |  [Documentation](use-sales-copilot.md#summarize-an-opportunity-or-a-lead)       |Enabled by admins         |  GA       |
+|Copilot     | Lead summary        | Get AI-generated lead summaries that are enriched with data from CRM, Bing news and LinkedIn. Catch up on updates without reading through the history of the lead.        | [Documentation](use-sales-copilot.md#enrich-leads-with-related-information)         | Enabled by admins         | GA         |
+|Copilot     | Meeting preparation notes        | Prepare better for customer meetings with AI-generated preparation notes and avoid the need to search through multiple sources for up-to-date information prior to each meeting.         | [Documentation](use-sales-copilot.md#prepare-for-upcoming-meetings)        |  Enabled by admins       |   GA      |
+|Copilot     | Contextual news        | Get the latest news about an account or company contextually within Dynamics 365 Sales.        |  [Documentation](use-sales-copilot.md#show-the-latest-news-about-an-account)       | Enabled by admin         | GA        |
+|Copilot     | Email compose and reply        | Use Copilot to generate email drafts based on your input, recent emails, and related information.              | [Documentation](compose-send-email-copilot.md)   | Enabled by admins         | GA         |
+|Copilot     | Email follow ups        | Let Copilot identify action items from your incoming emails and suggests those that need a follow-up but aren't replied to yet.              | [Documentation](use-sales-copilot.md#show-emails-you-havent-replied-to)   | Enabled by admins         | GA         |
+|Copilot     | Email summary        | Use Copilot to summarize long and complex email discussions into concise and easily understandable summaries and list action items quickly.              | [Documentation](view-copy-email-summary.md)   | Enabled by admins         | GA         |
+|Sales execution     |  Modern and refreshed user experience       | Experience the new and refreshed UI that's more intuitive, effective, and visually appealing.         |  Not applicable        | Enabled by default        | GA        |
+|Sales engagement     |     Support for SMS from the Activities pane    |  Start SMS conversation from the ribbon within the Activities page, similar to other communication channels such as email and call.         | [Documentation](manage-text-message-communications.md)         |  Enabled by default       |    GA     |
+|Sales engagement     |  Faster sales accelerator form load       | To optimize the performance of loading forms from the work list, the Back, Save & Close, and Open in new window options on the form command bar are removed.       |  [Documentation](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-lista-nameview-my-records-through-work-lista)        | Enabled by default        | GA        |
+|Sales execution     |  Visualize key stakeholders with  smart organization charts       | Build organization charts with with simple drag-and-drop actions. Understand the decision-making process and identify the individuals who hold the most influence over purchasing decisions.          |  [Documentation](organization-charts.md)        | Enabled by default        | GA        |
+|Sales execution     |  Quote closure customization       | Customize the quote close experience as per your business needs and help sellers close quotes quickly and efficiently.          |  [Documentation](customize-quote-closure.md)        | Enabled by default        | GA        |
+
+
+
 ## September 2023 release
 
 No new features or enhancements were released in September 2023. We'll be back in October with more updates.
