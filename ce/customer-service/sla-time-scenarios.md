@@ -6,13 +6,9 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 10/12/2023
+ms.date: 11/06/2023
 ms.custom: bap-template
 ---
-
-
-<!-- In line 141, is it correct to say that the working days of the week are not considered? -->
-
 
 # SLA time calculation scenarios
 
@@ -138,7 +134,7 @@ So, if you create a case on 06/14/2023 3:00 PM with warning and failure times se
 
 ## SLA with calendar and holiday calendar
 
-When you create an SLA with a calendar and set working hours, working days of the week, and some days as holidays, then the non-working hours, working days of the week, and holidays aren't considered.
+When you create an SLA with a calendar and set working hours, working days of the week, and some days as holidays, then the non-working hours, non-working days, and holidays aren't considered.
 
 Time is calculated as follows:
 
