@@ -27,10 +27,10 @@ Copilot processes 100,000 of your latest published knowledge articles.
 
 This might be caused by one of the following reasons:
 
-- If it’s the first time you've enabled suggestions, it might take up to 24 hours to complete the pre-processing from your existing published knowledge articles and resolved cases before suggestions will be displayed.
-- The first time pre-process operation handles up to 1,500 published knowledge articles and 10,000 resolved cases from the most recent ones. Older articles and resolved cases aren't picked up from the first time pre-processing, so they won’t be surfaced as suggestions.
+- If it’s the first time you've enabled suggestions, it might take up to 24 hours to complete the preprocessing from your existing published knowledge articles and resolved cases before suggestions is displayed.
+- The first time preprocess operation handles up to 1,500 published knowledge articles and 10,000 resolved cases from the most recent ones. Older articles and resolved cases aren't picked up from the first time preprocessing, so they won’t be surfaced as suggestions.
 - Suggestions are displayed only for active cases. Suggestions are updated when an active case is created or updated.
-- The case title or description isn't clear enough to describe the problem, therefore, the model can't find articles or similar cases that match what's described.
+- The case title or description isn't clear enough to describe the problem. Therefore, the model can't find articles or similar cases that match what is described.
 
 ## I get an error message that the selected language isn't supported
 
@@ -38,11 +38,11 @@ You need to make sure that your language setting matches one of the languages su
 
 ## I get an error message that detected language doesn't match the language settings.
 
-The AI model is used to detect the language of the cases and conversations. If the language detected doesn't match the language in the settings or if the language isn't supported, suggestions aren't displayed. If the case or conversation doesn’t contain enough information or contains mixed languages, the AI model may not be able to detect the language correctly. More information on how language support works, see  [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions).
+The AI model is used to detect the language of the cases and conversations. If the language detected doesn't match the language in the settings or if the language isn't supported, suggestions aren't displayed. If the case or conversation doesn’t contain enough information or contains mixed languages, the AI model might not be able to detect the language correctly. More information on how language support works, see  [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions).
 
-## I get an error message in Suggestions settings page, “We couldn’t pre-process the case records or knowledge articles”. What should I do?
+## I get an error message in Suggestions settings page, “We couldn’t preprocess the case records or knowledge articles”. What should I do?
 
-Check whether all the [prerequisites](csw-enable-ai-suggested-cases-knowledge-articles.md#prerequisites) have been met for generating the models. 
+Check whether all the [prerequisites](csw-enable-ai-suggested-cases-knowledge-articles.md#prerequisites) are met for generating the models. 
 Particularly:
 
 - Make sure all required [workflow processes](csw-enable-ai-suggested-cases-knowledge-articles.md#workflow-processes) installed with the feature are activated.
