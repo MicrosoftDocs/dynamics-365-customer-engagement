@@ -34,9 +34,11 @@ Your administrator must [turn on and configure Copilot](enable-setup-copilot.md)
 
 ## Open Copilot
 
-You can open Copilot from the side panel or as a standalone page. The standalone page gives you an immersive experience and helps you ask questions without any distractions, in full screen mode. 
+You can open Copilot from the side pane or as an immersive, full page. 
 
-From your Dynamics 365 app, select the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar to open the Copilot pane.
+To open the Copilot side pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar of your Dynamics 365 Sales app. Use the side pane when you want to get quick insights about a record or ask Copilot to summarize other records, catch up on updates, prepare for meetings, without navigating away from the current page.
+
+To open the Copilot page, select **Copilot** from your sitemap. Use the Copilot page for a full-screen view of the Copilot experience, and ask questions without any distractions in a bigger and better chat window.
 
 ## Chat with Copilot
 
@@ -44,15 +46,21 @@ In the Copilot pane, select the sparkle icon (:::image type="icon" source="media
 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot pane along with the list of suggested requests":::
 
-### Summarize an opportunity or a lead
+You'll see a list of suggested requests that Copilot can help you with. You can also select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts*, that Copilot can help you with.
 
-1. In the Copilot chat pane, type **/** and select **Summarize opportunity** or **Summarize lead** from the **Suggested requests** list.
+You can use Copilot to get information, ask questions, or stay ahead of your work. 
+
+## Get information
+
+You can ask Copilot to get you information about your accounts, opportunities, and leads. 
+
+## Summarize an opportunity or lead
+
+1. In the Copilot chat pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** from the Prompt Guide, and then select **Summarize opportunity** or **Summarize lead**.
 
     You can also type the prompt.
 
-1. Start typing the name of the opportunity or lead after the **@** symbol.
-
-    If you type the prompt, follow it with **@**.
+1. Type **/** and then start typing the name of the opportunity or lead.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 

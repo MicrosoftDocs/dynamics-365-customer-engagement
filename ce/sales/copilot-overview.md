@@ -19,11 +19,19 @@ ms.reviewer: shujoshi
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and read the latest news about their accounts.
+Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, read the latest news about their accounts, and so on.
 
 Copilot is turned on by default in all sales apps with lead and opportunity entities, for orgs in North America. If your org is in a different region, you need to [turn on copilot manually](enable-setup-copilot.md).
 
 Copilot is also available as an add-in in Outlook and an integrated app in Teams, allowing you to capture, access, and update your customer account data in the apps you use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Sales Copilot](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
+
+## Copilot views
+
+You can open Copilot in Dynamics 365 Sales in two views:
+
+- **Side pane view:** The side pane view helps you get contextual insights about your sales records. When you open a record, Copilot automatically shows you a summary of the record. You can also ask Copilot to summarize other records, catch up on updates, prepare for meetings, and so on.
+- **Immersive, full page view:** The immersive view helps you get a full-screen view of the Copilot experience, allowing you to ask questions without any distractions in a bigger and better chat window.  
+
 
 ## Copilot capabilities
 
@@ -34,6 +42,7 @@ Copilot offers the following capabilities:
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
+
 
 ### Record summarization
 
