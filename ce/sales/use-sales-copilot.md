@@ -19,7 +19,7 @@ search.app: salescopilot-docs
 
 # Use Copilot in Dynamics 365 apps
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 apps. Copilot can summarize information about your leads and opportunities, help you catch up on updates and prepare for meetings, and enrich your leads with information from other sources.
+Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Copilot can summarize information about your leads and opportunities, help you catch up on updates and prepare for meetings, and enrich your leads with information from other sources.
 
 ## License and role requirements
 
@@ -34,21 +34,19 @@ Your administrator must [turn on and configure Copilot](enable-setup-copilot.md)
 
 ## Open Copilot
 
-You can open Copilot from the side pane or as an immersive, full page. 
+You can open Copilot as a side pane, in the context of a record, such as an opportunity or lead, or in a full-screen view.
 
-To open the Copilot side pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar of your Dynamics 365 Sales app. Use the side pane when you want to get quick insights about a record or ask Copilot to summarize other records, catch up on updates, prepare for meetings, without navigating away from the current page.
+To open the **Copilot** side pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar of your Dynamics 365 Sales app. Use the side pane when you want to get quick insights about a record or ask Copilot to summarize other records, catch up on updates, prepare for meetings, without navigating away from the current page. You can open the **Copilot** side pane from any page in your Dynamics 365 Sales app, except the **Copilot** page.
 
-To open the Copilot page, select **Copilot** from your sitemap. Use the Copilot page for a full-screen view of the Copilot experience, and ask questions without any distractions in a bigger and better chat window.
+To open the **Copilot** page, select **Copilot** from your sitemap. Use the Copilot page for a full-screen view of the Copilot experience, and ask questions without any distractions in a bigger and better chat window.
 
 ## Chat with Copilot
 
-In the Copilot pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) or place the cursor in the chat area to get the list of suggested requests or *prompts*, that Copilot can help you with. 
+In the **Copilot** side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts* that Copilot can help you with. 
 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot pane along with the list of suggested requests":::
 
-You'll see a list of suggested requests that Copilot can help you with. You can also select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts*, that Copilot can help you with.
-
-You can use Copilot to get information, ask questions, or stay ahead of your work. 
+You can use Copilot to get information, ask questions, or stay ahead of your work.
 
 ## Get information
 
@@ -56,11 +54,9 @@ You can ask Copilot to get you information about your accounts, opportunities, a
 
 ## Summarize an opportunity or lead
 
-1. In the Copilot chat pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** from the Prompt Guide, and then select **Summarize opportunity** or **Summarize lead**.
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** from the Prompt Guide, and then select **Summarize opportunity** or **Summarize lead**. 
 
-    You can also type the prompt.
-
-1. Type **/** and then start typing the name of the opportunity or lead.
+1. Type **/** and then start typing the name of the opportunity or lead. If you're already on the record, 
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
