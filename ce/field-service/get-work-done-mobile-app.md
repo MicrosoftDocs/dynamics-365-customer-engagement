@@ -155,6 +155,6 @@ Watch this video to learn more about follow-up work orders in the Field Service 
 
 The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders.
 
-For more information, see [AI-powered work order update][work-order-update.md].
+For more information, see [AI-powered work order update](work-order-update.md).
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
