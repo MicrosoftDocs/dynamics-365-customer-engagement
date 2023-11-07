@@ -515,6 +515,8 @@
                   href: wa-delete-deactivate-a-segment.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
+            - name: Examples for assignment rules and segments
+              href: wa-examples.md  
         - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md
           items:
