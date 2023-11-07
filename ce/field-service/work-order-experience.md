@@ -12,11 +12,7 @@ ms.custom:
   - ai-seo-date:10/30/2023
 ---
 
-# New work order experience (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+# New work order experience
 
 The 2023 release wave 2 of Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md), provides more information at a glance, and features more visually appealing forms with fields that you can update quickly. This article contains information about the new work order form, the components that it uses, and considerations for customizing the form.
 
@@ -28,7 +24,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 The new work order list saves you time and effort. Make quick updates right in the list, and easily access common actions in the new side pane so that you don't have to open the work order details.
 
-A new view called **Work Orders (preview)** displays columns you often need to update quickly. Use the view switcher to get to other views. The view you used most recently is set as the default view.
+The view called **Work Orders** displays columns you often need to update quickly. Use the view switcher to get to other views. The view you used most recently is set as the default view.
 
 ### Editable work order grid
 
@@ -139,8 +135,6 @@ The **Related** tab lists tables that have a relationship with the work order ta
 Depending on how your administrator has [set up trade coverage](trades.md), work orders might check whether the selected account or functional location is covered. Trade coverage defines which trades are covered for an account or a location to make sure the right level of service is provided. For example, if a location doesn't have air conditioning, it shouldn't be possible to create an incident related to an air conditioning system at that location. Similarly, if an account's service contract doesn't include HVAC (heating, ventilation, and air conditioning) maintenance, it shouldn't be possible to create a work order for HVAC maintenance.
 
 If trade coverage is set to not cover a trade, a warning is displayed in the work order. You can still save the work order, however. If no trade coverage is set for a trade, the system assumes that the trade is covered for all parameters. If no trade coverage is defined at all, the work order doesn't display any warnings.
-
-Validation interprets service accounts and hierarchies in functional locations.<!-- EDITOR'S NOTE: Can you explain a bit more what this means? -->
 
 ## Customization considerations
 
