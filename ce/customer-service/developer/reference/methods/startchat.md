@@ -10,20 +10,24 @@ ms.author: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[startchat-description](../includes/startChat-description.md)]
+[!INCLUDE[startchat-description](../includes/startChat-description.md)].
 
 > [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+> - Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+> - The value you pass in this method will override values set in `setContextProvider`.
+
+With the new implementation, there is no need to invoke setcontextprovider as the context items are directly passed to startChat method.
 
 ## Syntax
 
-`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({inNewWindow: inNewWindowValue});`
+`Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({inNewWindow: inNewWindowValue,customContext: customContextObject});`
 
 ## Parameters
 
 |Parameter|Type|Required|Description|
 |----|----|----|----|
 |`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window.|
+|`customContext`|Object|No|Set the custom context provider synchronously.|
 
 ## Return value
 
@@ -32,10 +36,13 @@ None
 ## Example
 
 ```JavaScript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Opens an existing chat, if any. Else initiates a new chat
-               Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({inNewWindow: true});
+ Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({
+    inNewWindow: true,
+   customContext: {
+        'contextKey1': {'value': 'contextValue1', 'isDisplayable': true}
+    }
 });
+
 ```
 
 ### See also
