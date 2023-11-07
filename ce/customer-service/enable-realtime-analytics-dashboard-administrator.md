@@ -23,7 +23,14 @@ ms.custom:
 > [!NOTE]
 >  Any visual customizations that you might have made on the preview version will be overwritten when your organization gets upgraded to the latest generally available version. Future updates to the data model will be backward compatible and visual customizations will be retained. More information: [Future data model updates](customize-reports.md#future-data-model-updates)
 
-## View Omnichannel real-time analytics reports
+Real-time analytics in Omnichannel for Customer Service give your supervisors access to real-time metrics and KPIs that reflect the situation in the contact center as they oversee agents who handle customer conversations that come through multiple channels.
+
+Real-time analytics reports include the following:
+
+- Summary
+- Voice
+- Agents
+- Ongoing conversation
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
