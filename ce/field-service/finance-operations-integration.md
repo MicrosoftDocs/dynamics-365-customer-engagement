@@ -40,6 +40,8 @@ To be able to complete the following enablement steps, an organization will need
 
 -   Dynamics 365 Field Service version number ???
 
+<!--need version number-->
+
 ## Enablement from F&O
 
 Within Dynamics 365 Finance & Operations, please follow the below enablement steps.
