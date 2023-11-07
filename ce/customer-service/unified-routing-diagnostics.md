@@ -1,15 +1,18 @@
 ---
-title: View diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 08/09/2023
-ms.topic: article
+title: View diagnostics for unified routing (Dynamics 365 Customer Service)
+description: Learn how to set up routing diagnostics and understand the different stages of routing work items using unified routing.
+ms.date: 11/08/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
 search.audienceType: 
   - admin
   - enduser
-ms.custom: 
+ms.collection:
+ms.custom:
   - dyn365-customerservice
+  - bap-template
 ---
 
 # View diagnostics for unified routing
@@ -17,6 +20,8 @@ ms.custom:
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
 The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage routing diagnostics data](manage-routing-diagnostics-data.md)
+
+When the system routes a work item, the diagnostics information for the routed item is available after five minutes.
 
 > [!IMPORTANT]
 > Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
@@ -50,7 +55,7 @@ To see data related to work items and their status, you need to enable routing d
 
 ## Understand routing stages and diagnostics
 
-A diagnostics work item is a log record containing the details of events that occur through the different routing stages for a work item before it's assigned to an agent. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
+A diagnostics work item is a log record containing the details of events that occur through the different routing stages for a work item before the system assigns it to an agent. The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows:
 
 - **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
@@ -96,9 +101,9 @@ A work item passes through three stages.
 
 If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item runs a particular rule set, the **Run status** check mark is displayed in green. A work item runs all rule sets, but it doesn't run all rule items within the rule set.
 
-If machine learning-based skills identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed in the **Classification** section.
+If machine learning-based skill identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed in the **Classification** section.
 
-:::image type="content" source="media/routing-diagnostics-classification.png" alt-text="View of classification ruleset and machine learning model.":::
+:::image type="content" source="media/routing-diagnostics-classification.png" alt-text="Screenshot of the view of classification ruleset and machine learning model.":::
 
 ### Route to queue
 
@@ -106,7 +111,7 @@ Queue routing rules are formulated to send the work item to the correct queue. M
 
 The queue name to which the work item is routed is displayed on the route to queue page.
 
-:::image type="content" source="media/routing-diagnostics-selected-queue.png" alt-text="Queue to which work item is assigned.":::
+:::image type="content" source="media/routing-diagnostics-selected-queue.png" alt-text="Screenshot of the queue to which work item is assigned.":::
 
 If no queue matches the requirement, the work item is assigned to the default queue.
 
@@ -139,7 +144,7 @@ The following stages are available:
   > - The **Assignment Criteria** section in **Agent assignment trace** displays details only if the highest capacity or round robin assignment method has been used.
   > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
-    :::image type="content" source="media/agent-assignment-trace.svg" alt-text="Information about assignment trace.":::
+    :::image type="content" source="media/agent-assignment-trace.svg" alt-text="Screenshot of the information about assignment trace.":::
 
 ### Known issues
 
