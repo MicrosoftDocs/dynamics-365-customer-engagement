@@ -1,1 +1,1 @@
-Opens an existing chat, if any. Otherwise, it initiates a new chat. You can directly pass the context to be used for initializing the chat session through the customContext parameter in the method.
+Opens an existing chat, if any. Otherwise, it initiates a new chat. You can use the `customContext` parameter in the method to  directly pass the context to initialize the chat session.
