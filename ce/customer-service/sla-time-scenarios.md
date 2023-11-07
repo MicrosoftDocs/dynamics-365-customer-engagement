@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 11/06/2023
+ms.date: 11/07/2023
 ms.custom: bap-template
 ---
 
@@ -233,7 +233,7 @@ Here's how the failure time is calculated:
 - 06/25/2023- weekend (non-working day)
 - 06/26/2023- 8:00 AM to 4:00 PM (8 hours) = 8-8 = 0 hours
 
-So, if you create a case is on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/21/2023 10:00 AM and the failure time is 06/26/2023 4:00 PM.
+So, if you create a case on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/21/2023 10:00 AM and the failure time is 06/26/2023 4:00 PM.
 
 ## See Also
 
