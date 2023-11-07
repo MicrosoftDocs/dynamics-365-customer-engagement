@@ -1,7 +1,7 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: "Includes reference information such as syntax and parameters for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
-ms.date: 01/21/2022
+ms.date: 11/07/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -17,6 +17,7 @@ ms.author: mgandham
 > - The setContextProvider method is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
 > - You can pass only 100 custom context variables during each chat session.
 > - The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
+> - You don't have to use the `setContextProvider` method if you are using the `startChat` SDK API to pass the context to initialize the chat session.
 
 ## Syntax
 
