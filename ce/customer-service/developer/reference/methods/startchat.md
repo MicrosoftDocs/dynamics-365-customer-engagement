@@ -14,7 +14,6 @@ ms.author: mgandham
 
 > [!NOTE]
 > - Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-> - The value you pass in this method will override values set in `setContextProvider`.
 
 With the new implementation, there is no need to invoke setcontextprovider as the context items are directly passed to startChat method.
 
@@ -27,7 +26,7 @@ With the new implementation, there is no need to invoke setcontextprovider as th
 |Parameter|Type|Required|Description|
 |----|----|----|----|
 |`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window.|
-|`customContext`|Object|No|Set the custom context provider synchronously.|
+|`customContext`|Object|No|Set the custom context provider synchronously. The value you pass in this parameter will override values set in `setContextProvider`.|
 
 ## Return value
 
