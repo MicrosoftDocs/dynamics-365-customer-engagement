@@ -92,7 +92,7 @@ No, the voice channel isn't supported in the other apps of Dynamics 365. It's su
 ### How can I set up an IVR bot in the voice channel?
 
 See the following articles to set up the interactive voice response (IVR) bot in the voice channel:
-- [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
+- [Configure Copilot Studio bots for voice](voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
@@ -141,7 +141,7 @@ To understand the pricing calculation of various call scenarios, see [Pricing sc
 
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-Sometimes, when a Power Virtual Agents bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Power Virtual Agents bot.
+Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
 
 ### See also
 

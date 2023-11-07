@@ -15,9 +15,9 @@ A bot is a program that provides automated responses in a conversational manner 
 
 A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time so they can work on more complex issues. You can configure your bots to escalate a query to a human agent as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required.
+In Omnichannel for Customer Service, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required.
 
-## Integrate Azure and Power Virtual Agents bots
+## Integrate Azure and Copilot Studio bots
 
 When you integrate bots with Omnichannel for Customer Service, you get the following capabilities:
 
@@ -33,7 +33,7 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 
 [Bot sessions and licensing](bot-session-licensing.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Power Virtual Agents bot for voice](voice-channel-pva-bots.md)  
+[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
+[Configure Copilot Studio bot for voice](voice-channel-pva-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

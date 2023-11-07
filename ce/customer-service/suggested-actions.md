@@ -1,5 +1,5 @@
 ---
-title: "Suggested actions for a Power Virtual Agents bot | MicrosoftDocs"
+title: "Suggested actions for a Copilot Studio bot | MicrosoftDocs"
 description: "Suggested actions are displayed vertically"
 ms.date: 03/04/2021
 ms.topic: article

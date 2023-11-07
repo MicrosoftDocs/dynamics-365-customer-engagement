@@ -1,6 +1,6 @@
 ---
-title: Set up a multilingual bot in Power Virtual Agents
-description: Use this article to learn how to set up a multilingual bot in Power Virtual Agents to use in Omnichannel for Customer Service.
+title: Set up a multilingual bot in Copilot Studio
+description: Use this article to learn how to set up a multilingual bot in Copilot Studio to use in Omnichannel for Customer Service.
 ms.date: 05/22/2023
 ms.topic: how-to
 author: neeranelli
@@ -9,19 +9,19 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# Set up a multilingual bot in Power Virtual Agents
+# Set up a multilingual bot in Copilot Studio
 
 You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up bots as the first contact who can handle such requests.
 
-Use Bot Framework Composer in Power Virtual Agents to set up a bot for a multilingual contact center.
+Use Bot Framework Composer in Copilot Studio to set up a bot for a multilingual contact center.
 
-The process for setting up the multilingual bot in Power Virtual Agents is as follows:
+The process for setting up the multilingual bot in Copilot Studio is as follows:
 
-1. Create a bot in Power Virtual Agents.
+1. Create a bot in Copilot Studio.
 
 2. Create a topic in Bot Framework Composer.
 
-3. Configure the greeting topic in Power Virtual Agents.
+3. Configure the greeting topic in Copilot Studio.
 
 4. Configure the transfer to agent node by using the escalate topic.
 
@@ -34,9 +34,9 @@ The process for setting up the multilingual bot in Power Virtual Agents is as fo
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
 - Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
 
-## Create a bot in Power Virtual Agents
+## Create a bot in Copilot Studio
 
-You'll create a bot in Power Virtual Agents by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create a bot](/power-virtual-agents/authoring-first-bot).
+You'll create a bot in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create a bot](/power-virtual-agents/authoring-first-bot).
 
 For example, you can create a bot with the following details:
 
@@ -46,7 +46,7 @@ For example, you can create a bot with the following details:
 
 ## Create a topic in Bot Framework Composer
 
-1. In Power Virtual Agents, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. For more information on how to navigate the Bot Framework Composer, see: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
+1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. For more information on how to navigate the Bot Framework Composer, see: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
 
 1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
@@ -121,13 +121,13 @@ For example, you can create a bot with the following details:
 
    1. Select **Okay** .
 
-1. In Power Virtual Agents, refresh **Topics**. You'll see the topic listed.
+1. In Copilot Studio, refresh **Topics**. You'll see the topic listed.
 
 1. Select **Publish**.
 
-## Configure the greeting topic in Power Virtual Agents
+## Configure the greeting topic in Copilot Studio
 
-1. In Power Virtual Agents, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
+1. In Copilot Studio, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
 1. Select **Add node** (+), and then select **Redirect to another topic**.
 
@@ -139,7 +139,7 @@ For example, you can create a bot with the following details:
 
 ## Configure the transfer to agent node by using the escalate topic
 
-1. In Power Virtual Agents, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
+1. In Copilot Studio, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
 1. Select **Add node** (+), select **End the conversation**, and then select **Transfer to agent**.
 
@@ -187,7 +187,7 @@ For example, ensure the following settings:
 
     :::image type="content" source="media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
 
-1. In the **Bot** area of the workstream, edit to add the Power Virtual Agents bot that you configured.
+1. In the **Bot** area of the workstream, edit to add the Copilot Studio bot that you configured.
 
 ## Verify the multilingual bot
 
@@ -198,4 +198,4 @@ For example, ensure the following settings:
 ### See also
 
 [Set up a multilingual contact center](voice-channel-multi-language-contact-center.md)  
-[Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  

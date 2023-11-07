@@ -19,12 +19,12 @@ This article provides information about the supported languages and locale codes
 Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!NOTE]
-> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
+> - End-to-end voice and IVR support is available only if a language is supported in Copilot Studio and Omnichannel for Customer Service. 
 > - Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
+| Language | Locale code | Voice channel | Copilot Studio | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
@@ -201,7 +201,7 @@ Use the information in the following table to find out more about language suppo
 | Feature |	List of supported languages |
 | ---- | ---- |
 | Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
-| Power Virtual Agents (IVR) | [Languages supported by Power Virtual Agents](/power-virtual-agents/authoring-language-support)|
+| Copilot Studio (IVR) | [Languages supported by Copilot Studio](/power-virtual-agents/authoring-language-support)|
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |

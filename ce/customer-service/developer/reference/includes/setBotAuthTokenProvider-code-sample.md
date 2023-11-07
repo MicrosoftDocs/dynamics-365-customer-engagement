@@ -1,4 +1,4 @@
-Here's a code sample that illustrates how you can pass an authentication token to an Azure or Power Virtual Agents bot during single sign-on.
+Here's a code sample that illustrates how you can pass an authentication token to an Azure or Copilot Studio bot during single sign-on.
 
 ```JavaScript
 const signInIds = [];

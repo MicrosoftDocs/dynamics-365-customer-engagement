@@ -37,7 +37,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Power Virtual Agents bots. However, they don't include conversations that were resolved by Power Virtual Agents bots.
+> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
 
 ## Security roles and permissions
 

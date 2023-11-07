@@ -1,6 +1,6 @@
 ---
 title: Code samples for parsing activity JSON
-description: Learn how to parse the activity JSON object to retrieve the bot context for Azure or Power Virtual Agents bots.
+description: Learn how to parse the activity JSON object to retrieve the bot context for Azure or Copilot Studio bots.
 ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ---
 # Code samples for parsing activity JSON
 
-This article includes some samples for parsing the activity JSON object in various channels. The following sample code retrieves the context sent from Omnichannel for Customer Service so that it can be passed on to an Azure or Power Virtual Agents bot.
+This article includes some samples for parsing the activity JSON object in various channels. The following sample code retrieves the context sent from Omnichannel for Customer Service so that it can be passed on to an Azure or Copilot Studio bot.
 
 ## Live Chat
 
@@ -128,4 +128,4 @@ This article includes some samples for parsing the activity JSON object in vario
 [Send custom context](send-context-starting-chat.md)  
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  

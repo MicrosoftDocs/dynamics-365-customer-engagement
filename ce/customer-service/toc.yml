@@ -500,7 +500,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+      - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -676,7 +676,7 @@
         href: configure-outbound-inbound-profiles.md  
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md  
-      - name: Configure Power Virtual Agents bots for voice
+      - name: Configure Copilot Studio bots for voice
         href: voice-channel-pva-bots.md
       - name: View voice calls usage
         href: voice-channel-usage.md
@@ -692,7 +692,7 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilingual bot in Power Virtual Agents
+      - name: Set up a multilingual bot in Copilot Studio
         href: set-up-multilingual-pva-bot.md  
       - name: Set up a multilingual contact center
         href: voice-channel-multi-language-contact-center.md
@@ -1088,7 +1088,7 @@
           href: configure-bot-azure.md
         - name: Sample configuration
           href: sample-config-azure-bot.md
-      - name: Integrate a Power Virtual Agents bot
+      - name: Integrate a Copilot Studio bot
         href: configure-bot-virtual-agent.md
     - name: Developer experience
       items: 
@@ -1101,7 +1101,7 @@
             href: enable-bot-context-azure.md
           - name: Parse event activity JSON to get bot context
             href: parse-activity-json-to-get-bot-context.md
-        - name: Power Virtual Agents
+        - name: Copilot Studio
           items:
           - name: Enable bot context for Power Virtuafl Agents bots
             href: enable-bot-context-pva.md   

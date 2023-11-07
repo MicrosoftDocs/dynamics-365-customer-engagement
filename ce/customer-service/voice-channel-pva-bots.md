@@ -1,6 +1,6 @@
 ---
-title: Configure Power Virtual Agents bots for voice
-description: Learn about how to add a Power Virtual Agents bot to use in the voice channel in Omnichannel for Customer Service.
+title: Configure Copilot Studio bots for voice
+description: Learn about how to add a Copilot Studio bot to use in the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -10,21 +10,21 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Configure Power Virtual Agents bots for voice
+# Configure Copilot Studio bots for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Power Virtual Agents makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
+To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Copilot Studio makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
-Some of the features of the Power Virtual Agents bots for voice are as follows:
+Some of the features of the Copilot Studio bots for voice are as follows:
 
 - Customizable voices in the Omnichannel for Customer Service configuration experience.
-- Questions in Power Virtual Agents using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
+- Questions in Copilot Studio using "Boolean" types do not prompt users with "Options are _Yes_ or _No_".
 - All bot messages can be interrupted by the caller.
 
 ## Prerequisites
 
-The following prerequisites must be met for the Power Virtual Agents bot:
+The following prerequisites must be met for the Copilot Studio bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
@@ -43,13 +43,13 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 More information:
 
-- [Author template topics in Power Virtual Agents](/power-virtual-agents/authoring-template-topics)
+- [Author template topics in Copilot Studio](/power-virtual-agents/authoring-template-topics)
 
 - [Create topics and test your bot](https://go.microsoft.com/fwlink/?linkid=2062988)
 
-### Configure handoff from Power Virtual Agents to Omnichannel for Customer Service
+### Configure handoff from Copilot Studio to Omnichannel for Customer Service
 
-1. In Power Virtual Agents, open the bot that you've configured to integrate with Omnichannel for Customer Service.
+1. In Copilot Studio, open the bot that you've configured to integrate with Omnichannel for Customer Service.
 
 1. Go to **Manage** and select **Agent transfers**.
 
@@ -75,9 +75,9 @@ More information:
 
         ![Copy the application ID.](media/copy-app-id.png)
 
-   1. Return to Power Virtual Agents, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
+   1. Return to Copilot Studio, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
-    :::image type="content" source="media/pva-omnichannel-bot-configuration.png" alt-text="Power Virtual Agents bot for Omnichannel for Customer Service":::
+    :::image type="content" source="media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
 
    1. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
@@ -89,6 +89,6 @@ More information:
 [Overview of the voice channel](voice-channel.md)  
 [Configure context variables](context-variables-for-bot.md)  
 [Manage your bots](manage-your-bots.md)  
-[Set up a multilingual bot in Power Virtual Agents](set-up-multilingual-pva-bot.md)  
+[Set up a multilingual bot in Copilot Studio](set-up-multilingual-pva-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

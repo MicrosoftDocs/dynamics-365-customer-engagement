@@ -55,13 +55,13 @@ To link the customer or case, set the values for the associated attributes, such
 |Case|CaseNumber|ticketnumber|
 ||||
 
-For information about creating context variables for Azure and Power Virtual Agents bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-power-virtual-agents-bot).
+For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-power-virtual-agents-bot).
 
 
 ### See also
 
 [Create and manage workstreams](create-workstreams.md)  
-[Configure a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Configure a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Configure Azure bot](configure-bot-azure.md)  
 [Context variables for bots](context-variables-for-bot.md)  
 

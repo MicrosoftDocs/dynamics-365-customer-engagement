@@ -55,7 +55,7 @@ If you need your data to stay within a region, the following table lists the loc
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 >
-> **<sup> 2</sup>** The geographic location won't have Power Virtual Agents support.
+> **<sup> 2</sup>** The geographic location won't have Copilot Studio support.
 
 ## Sovereign cloud deployments
 

@@ -45,10 +45,10 @@ The environment you receive in trial is a fully functional, Power Platform envir
   - Chat, voice, and other digital messaging channels
 - Power Apps
   - To create app profiles, configure templates, customize the solution
-- Dynamics 365 Power Virtual Agents
-  - To add Power Virtual Agents bot to chat and channels
+- Copilot Studio
+  - To add Copilot Studio bot to chat and channels
   > [!NOTE]
-  > If you use a personal email ID for the Customer Service trial, you can't customize the Power Virtual Agents bot. The default Power Virtual Agents bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Power Virtual Agents designer.
+  > If you use a personal email ID for the Customer Service trial, you can't customize the Copilot Studio bot. The default Copilot Studio bot that's used in scenarios like voice and chat tour will work with the personal email address. However, you can't access the links to customize the bot using the Copilot Studio designer.
 
 - Dynamics 365 Customer Voice
   - To add pre and post-conversation surveys in messaging

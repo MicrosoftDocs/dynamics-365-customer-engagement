@@ -1,19 +1,19 @@
 ---
-title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
-description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
+title: Integrate knowledge management in Dynamics 365 with a Copilot Studio bot | MicrosoftDocs
+description: Learn about the integration of knowledge management in Dynamics 365 with a Copilot Studio bot.
 ms.date: 11/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 ---
 
-# Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+# Integrate knowledge management in Dynamics 365 with Copilot Studio bots
 
-Integrate knowledge management with a Power Virtual Agents bot to use customized conversations. Bots help answer questions, perform actions, and solve simple problems. This frees up your agent's time to deal with complex issues that need human intervention.
+Integrate knowledge management with a Copilot Studio bot to use customized conversations. Bots help answer questions, perform actions, and solve simple problems. This frees up your agent's time to deal with complex issues that need human intervention.
 
-Power Virtual Agents lets you configure bots with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents)
+Copilot Studio lets you configure bots with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. More information: [Copilot Studio overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents)
 
-You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
+You can integrate knowledge management with a Copilot Studio bot by using either of the following ways:
 
 - Search Dynamics 365 knowledge articles
 - Power Automate flow template
@@ -26,25 +26,25 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
 
   1. Create and publish knowledge articles to a portal created in Power Apps.
   
-     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
+     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Copilot Studio bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
 
      You can create and manage knowledge articles by setting the **Internal** field to **No** in the Microsoft Datverse Web API. More information: [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle)
 
-  2. Create a Power Virtual Agents bot and a topic in it.
+  2. Create a Copilot Studio bot and a topic in it.
 
-     - For more information on creating a bot, go to [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot).
-     - For more information on creating a topic, go to [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics).
+     - For more information on creating a bot, go to [Create and delete Copilot Studio bots](/power-virtual-agents/authoring-first-bot).
+     - For more information on creating a topic, go to [Create and edit topics in your Copilot Studio bot](/power-virtual-agents/authoring-create-edit-topics).
    
 ## Use the Search Dynamics 365 knowledge article flow action
 
-Perform the following steps if you want to integrate a Power Virtual Agents bot with knowledge management using the **Search Dynamics 365 knowledge articles** action:
+Perform the following steps if you want to integrate a Copilot Studio bot with knowledge management using the **Search Dynamics 365 knowledge articles** action:
  
    1. Set connection references.
-   1. Add the action to the Power Virtual Agents topic.
+   1. Add the action to the Copilot Studio topic.
 
 ### Set connection references
 
-Knowledge management integrated with Power Virtual Agents solution uses the flow with connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow** action on.
+Knowledge management integrated with Copilot Studio solution uses the flow with connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow** action on.
 
 > [!NOTE]
 > - If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
@@ -66,18 +66,18 @@ To set connection references:
 
      :::image type="content" source="media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
 
-### Add the action to the Power Virtual Agents topic
+### Add the action to the Copilot Studio topic
 
-After you configure the connection references in [make.powerapps.com](https://make.powerapps.com), go to **Chatbots** > **List** and select the required chatbot. This will take you to the Power Virtual Agents portal where you can create a topic.
+After you configure the connection references in [make.powerapps.com](https://make.powerapps.com), go to **Chatbots** > **List** and select the required chatbot. This will take you to the Copilot Studio portal where you can create a topic.
 If you need to create a chatbot, see [Create chatbots from Power Apps](/power-apps/chatbots).
 
-You can create a topic with two question nodes for search text and filter, or you can configure the search integration to set up a fallback topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
+You can create a topic with two question nodes for search text and filter, or you can configure the search integration to set up a fallback topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Copilot Studio](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you're creating a topic with two question nodes, for the filter question node, the Power Virtual Agents author can provide a sample filter value; for example, **statecode eq 3**.
+If you're creating a topic with two question nodes, for the filter question node, the Copilot Studio author can provide a sample filter value; for example, **statecode eq 3**.
 
 Perform the following steps to ensure that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles** action.
   
-1. On the Power Virtual Agents portal, select **Topics** > **New Topic**.
+1. On the Copilot Studio portal, select **Topics** > **New Topic**.
 1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
@@ -105,7 +105,7 @@ Perform the following steps to ensure that flow is properly configured and can n
   
 1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action. You can now configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
 
-    :::image type="content" source="media/search-dialog.png" alt-text="Add action to Power Virtual Agents topic":::
+    :::image type="content" source="media/search-dialog.png" alt-text="Add action to Copilot Studio topic":::
 
 2. Remove the filter question node. More information: [Work with filters](#work-with-filters).
 
@@ -123,10 +123,10 @@ For details on publishing the bot, see [Publish the latest bot content](/power-v
  
 ## Use the Power Automate flow template
 
-Perform the following steps if you want to integrate a Power Virtual Agents bot with knowledge management by using the Power Automate flow template:
+Perform the following steps if you want to integrate a Copilot Studio bot with knowledge management by using the Power Automate flow template:
 
 1. Create a flow using the template.
-1. Add the solution's flow to the Power Virtual Agents topic.
+1. Add the solution's flow to the Copilot Studio topic.
    
 ### Create a flow using the template
 
@@ -160,9 +160,9 @@ Perform the following steps if you want to integrate a Power Virtual Agents bot 
     
 12. In the **Outside solutions** list, select your flow, and then select **Add** to complete the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
-For more information on managing Power Virtual Agents solutions, go to [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
+For more information on managing Copilot Studio solutions, go to [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
 
-### Add the solution's flow to the Power Virtual Agents topic
+### Add the solution's flow to the Copilot Studio topic
 
 1. Open the browser with the authoring canvas.
     
@@ -173,7 +173,7 @@ For more information on managing Power Virtual Agents solutions, go to [Export a
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
     
    > [!div class="mx-imgBorder"]
-   > ![Add flow to Power Virtual Agents.](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
+   > ![Add flow to Copilot Studio.](media/bot-KM-PVA.png "Add flow to Copilot Studio")
     
 5. To return the knowledge article search results to the bot, go to [Render results](#render-results).
 
@@ -305,11 +305,11 @@ To return the knowledge article search results to the bot, follow either of thes
 
 ## Troubleshoot
 
-- If a dialog is cross-linked and is modified, you'll see a validation error on publish and Power Virtual Agents will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
+- If a dialog is cross-linked and is modified, you'll see a validation error on publish and Copilot Studio will block the publish. More information: [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content)
 
 - If errors exist while saving a topic, the **Topic checker** shows the impacted topics. Errors will prevent the bot from working and must be fixed before you can publish your bot. More information: [Topic errors](/power-virtual-agents/teams/authoring-topic-management-teams#topic-errors)
 
-- For more information on flow error codes, go to [Error codes: Power Virtual Agents](/power-virtual-agents/error-codes)
+- For more information on flow error codes, go to [Error codes: Copilot Studio](/power-virtual-agents/error-codes)
 
 ### See also
 

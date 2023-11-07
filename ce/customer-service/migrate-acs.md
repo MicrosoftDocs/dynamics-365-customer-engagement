@@ -18,7 +18,7 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 
 - If you're [integrating an Azure bot](configure-bot.md), connect and register your bot with the omnichannel messaging channel.
 
-  If you're using a Power Virtual Agents bot or Azure Health Bot, there's nothing you need to do. The necessary changes are applied automatically.
+  If you're using a Copilot Studio bot or Azure Health Bot, there's nothing you need to do. The necessary changes are applied automatically.
 
 - If you're a bot author or developer, download the latest middleware NuGet package.
 

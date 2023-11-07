@@ -78,17 +78,17 @@ The Unified routing historical analytics report will be available as a tab in th
 
 ## Enable historical analytics for bots in Omnichannel for Customer Service
 
-In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Power Virtual Agents bots and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Copilot Studio bots and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Copilot Studio bots are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Power Virtual Agents bot.
+- If you select this option, the Omnichannel Summary and Bot dashboards will be available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio bot.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Power Virtual Agents bot dashboard.":::
+ :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
-- If no Power Virtual Agents bots are integrated with the application or you haven't selected this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
+- If no Copilot Studio bots are integrated with the application or you haven't selected this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
  :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 

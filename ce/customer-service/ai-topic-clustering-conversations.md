@@ -31,14 +31,14 @@ The Summary and Model Run Summary views provide key information about how the to
 | Last successful run | Time stamp of the last time new cases were processed. |
 | Run frequency | The cadence in which cases are processed and tagged with topics. |
 
-## Automate topics to Power Virtual Agents bots
+## Automate topics to Copilot Studio bots
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by switching the **Disabled** toggle to **Enabled**.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, the feature can be enabled by switching the **Disabled** toggle to **Enabled**.
 
-:::image type="content" source="media/pva-topics-conversations.png" alt-text="Automate topics to Power Virtual Agents bots":::
+:::image type="content" source="media/pva-topics-conversations.png" alt-text="Automate topics to Copilot Studio bots":::
 
 > [!NOTE]
-> Topic automation to Power Virtual Agents bot isn't available in Government Community Cloud.
+> Topic automation to Copilot Studio bot isn't available in Government Community Cloud.
 
 ## Language availability for topics
 

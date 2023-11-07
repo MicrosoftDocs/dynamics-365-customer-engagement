@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-Because the Power Virtual Agents and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
+Because the Copilot Studio and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
 
 This articles describes how you can programmatically retrieve and format rich messages that can then be passed using the `MessageObject` type to the `sendMessageToConversation` method.
 

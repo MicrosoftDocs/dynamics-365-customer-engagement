@@ -31,7 +31,7 @@ The following dashboard reports are available for Omnichannel historical analyti
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Power Virtual Agents bot and Omnichannel metrics. More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
+The Summary dashboard gives you an integrated view of the Copilot Studio bot and Omnichannel metrics. More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
 
 ### Conversation
 
