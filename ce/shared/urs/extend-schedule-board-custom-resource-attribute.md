@@ -72,6 +72,10 @@ Insert the following code snippet into the custom resource cell template. Replac
     {{/if}}
     </div>
 ```
+> [!NOTE]
+> Javascript is not supported in the resource cell template.
+
+
 
 ## Step 4: Modify the filter layout
 
