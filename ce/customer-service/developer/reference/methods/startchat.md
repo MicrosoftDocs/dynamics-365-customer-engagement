@@ -14,7 +14,7 @@ ms.author: mgandham
 
 > [!NOTE]
 > - Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-> - You don't have to use the `setContextProvider` method if you are using the `startChat` SDK API to pass the context. 
+> - You don't need to use the `setContextProvider` method if you are using the `startChat` SDK API to pass the context. 
 
 ## Syntax
 
