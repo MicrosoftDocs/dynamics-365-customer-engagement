@@ -142,11 +142,11 @@ You can enable the legacy layout in one of the following ways:
 ![Next step.](media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
 ![Next step.](media/right-arrow.png "Next step") Migrate from Unified Service Desk to Customer Service workspace. The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the [transition from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md).
 
-[Learn about Customer Service workspace in a day](https://go.microsoft.com/fwlink/?linkid=2241180)  
+### See also
+
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](csw-productivity-pane.md)  
 [View the agent calendar](use-agent-calendar.md)  
-[Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
