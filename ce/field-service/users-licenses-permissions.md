@@ -70,9 +70,9 @@ Before licensed users can access the application, you need to add them to the en
 For more information, see [Add users to an environment](/power-platform/admin/add-users-to-environment).
 Alternatively, you can [use security groups to manage access to environments](/power-platform/admin/control-user-access).
 
-## Assign security roles and field security profiles
+## Assign security roles
 
-Now that users have a license and access to the environment, they need a security role to get the right privileges for the application.  [Security roles control the types of data tables a user can access and edit](/power-platform/admin/security-roles-privileges). For example, a user can have permission to see accounts, but not to see revenue fields for an account.
+Now that users have a license and access to the environment, they need a security role to get the right privileges for the application. [Security roles control the types of data tables a user can access and edit](/power-platform/admin/security-roles-privileges). For example, a user can have permission to see accounts, but not to see revenue fields for an account.
 
 For more information, see [Assign security roles to a user](/power-platform/admin/assign-security-roles). To assign a security role to multiple users, consider managing them as a [team in Dataverse](/power-platform/admin/manage-teams).
 
@@ -80,7 +80,7 @@ Choose one of the [predefined Field Service security roles](#field-service-secur
 
 ## Next steps
 
-[Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md)
-[Configure offline capabilities in the mobile app](mobile-power-app-system-offline.md)
+- [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md)
+- [Configure offline capabilities in the mobile app](mobile-power-app-system-offline.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
