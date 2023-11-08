@@ -86,7 +86,9 @@ You can select a work item on the **Routing diagnostics** page to view the detai
 > [!NOTE]
 > The intake stage is applicable for record routing only.
 
-When a work item comes in, it goes to the first workstream in the intake table, and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams to handle work items based on their priority. This is called the **Intake** stage of the workflow.
+You can create multiple workstreams to handle work items and use intake rules to route the work items to appropriate workstreams.
+ 
+When a work item comes in, it undergoes an initial assessment based on the intake rules table to determine if it satisfies any of the existing rules. When a match is found, the work item is directed to the workstream corresponding to the intake rule. You can also use intake rules to route work items to basic routing rulesets, if you don't want to use unified routing for it. This is called the intake stage of the workflow.
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 
