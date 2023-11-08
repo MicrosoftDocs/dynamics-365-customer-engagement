@@ -117,7 +117,7 @@ You want to route leads to sellers who share the same postal code. Here, we use 
 
 ## Skip rules for self-created leads
 
-In your organization, leads come from different sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules which includes leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
+In your organization, leads come from different sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that includes leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
 
 1. Customize lead form to add a field to route to another seller.  
     Create and add a custom field to the lead from to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
@@ -129,9 +129,9 @@ In your organization, leads come from different sources, such as marketing campa
 1. Categorize all leads containing the custom file to route to another seller as **No** into the **Do not route leads** segment.  
     Create the **Do not route leads** segment and then define the condition as **Route to another seller** > **Equals** > **No**. This condition filters out leads that shouldn't be routed to another seller.
     
-    :::image type="content" source="media/wa-example-segment-filter-leads-routing-no.png" alt-text="Screenshot that shows adding the condition to segment leads that are not routed to another sellers.":::
+    :::image type="content" source="media/wa-example-segment-filter-leads-routing-no.png" alt-text="Screenshot that shows adding the condition to segment leads that aren't routed to another sellers.":::
 
-    New or updated leads will fall into their respective segments.
+    New or updated leads fall into their respective segments.
 
 1. Set highest priority to the segment with no assignment rules.  
     If a lead satisfies conditions for multiple segments, then the segment with highest priority takes precedence. To ensure that leads remain with the seller who created the lead, set highest priority the **Do not route leads** segment.   
