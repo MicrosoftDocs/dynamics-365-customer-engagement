@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 11/08/2023
+ms.date: 11/09/2023
 ms.custom: bap-template
 ---
 
@@ -139,6 +139,9 @@ In your organization, leads come from different sources, such as marketing campa
     :::image type="content" source="media/wa-example-segment-set-highest-priority.png" alt-text="Screenshot that shows setting highest priority to the Do not route leads segment.":::
 
 ## Assign leads generated from a campaign to product specific sales teams.
+
+
+
 
 
 
