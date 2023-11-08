@@ -21,7 +21,7 @@ Unified routing helps you assign a work item to the best suited agent or queue t
 
 The diagnostics data is stored in Microsoft Dataverse and this data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. More information: [Manage routing diagnostics data](manage-routing-diagnostics-data.md)
 
-When the system routes a work item, the diagnostics information for the routed item is available after five minutes.
+The system can take up to five minutes to generate the diagnostic information related to the routing and assignment of any conversation, call, or record. 
 
 > [!IMPORTANT]
 > Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
@@ -86,7 +86,7 @@ You can select a work item on the **Routing diagnostics** page to view the detai
 > [!NOTE]
 > The intake stage is applicable for record routing only.
 
-When a work item comes in, it goes to the first workstream in the Intake table, and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams to handle work items based on their priority. This is called the **Intake** stage of the workflow.
+When a work item comes in, it goes to the first workstream in the intake table, and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams to handle work items based on their priority. This is called the **Intake** stage of the workflow.
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 
