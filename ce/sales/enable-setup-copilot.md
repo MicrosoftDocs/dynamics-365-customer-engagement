@@ -39,18 +39,13 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 1. Under **General Settings**, select **Copilot**.
 
-1. If you're setting up Copilot for the first time, select **Set up Copilot**. If you've already set up Copilot, select **Manage apps**.
+1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 
-   The side panel displays the list of apps installed in your organization.  
+1. In the **Enable Copilot for** section, select **All Dynamics 365 Sales apps** to enable Copilot for all apps in your organization. Or, select **Manage apps** to enable Copilot for specific apps.
 
-   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
+   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::  
 
-1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each app:
-
-    - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
-    - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
-
-1. Select **Confirm**.
+1. Select **Publish**.
 
 The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
 

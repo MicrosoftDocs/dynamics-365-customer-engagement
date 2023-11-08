@@ -36,31 +36,39 @@ Your administrator must [turn on and configure Copilot](enable-setup-copilot.md)
 
 You can open Copilot as a side pane, in the context of a record, such as an opportunity or lead, or in a full-screen view.
 
-To open the **Copilot** side pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) in the right navigation bar of your Dynamics 365 Sales app. Use the side pane when you want to get quick insights about a record or ask Copilot to summarize other records, catch up on updates, prepare for meetings, without navigating away from the current page. You can open the **Copilot** side pane from any page in your Dynamics 365 Sales app, except the **Copilot** page.
+To open **Copilot** as a side pane, select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. Use the side pane when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings, without leaving from the current page. You can open the **Copilot** side pane from any page in your app, except the **Copilot** page.
 
-To open the **Copilot** page, select **Copilot** from your sitemap. Use the Copilot page for a full-screen view of the Copilot experience, and ask questions without any distractions in a bigger and better chat window.
+To open Copilot in a full-screen view, select **Copilot** from your sitemap. The full-screen view gives you more space and focus to chat with Copilot and ask questions. If you don't see **Copilot** in your sitemap, ask your administrator to turn on the Copilot preview feature flag. 
 
-## Chat with Copilot
+:::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page along with the list of suggested requests.":::
 
 In the **Copilot** side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts* that Copilot can help you with. 
-
-:::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot pane along with the list of suggested requests":::
 
 You can use Copilot to get information, ask questions, or stay ahead of your work.
 
 ## Get information
 
-You can ask Copilot to get you information about your accounts, opportunities, and leads. 
+Use Copilot to view your pipeline, summarize opportunities and leads, and get the latest news about your accounts.
 
-## Summarize an opportunity or lead
+### Show my pipeline
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** from the Prompt Guide, and then select **Summarize opportunity** or **Summarize lead**. 
+Copilot can get you the list of the open opportunities that you own, sorted by the estimated close date. 
 
-1. Type **/** and then start typing the name of the opportunity or lead. If you're already on the record, 
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Show my pipeline** and press **Enter** to view your pipeline.
 
-1. Select an opportunity or lead from the list of suggested records that match your search.
+
+### Summarize a lead or opportunity 
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
+    
+    - If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
+    
+    - If you're in the grid view or have opened the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
+    
+    To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
 
     :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+
 
 #### Would you like to see a different set of fields summarized?
 
@@ -68,7 +76,8 @@ Copilot generates the summary from the first seven fields in the default opportu
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top seven** fields that are most relevant for your business.
 
-### Enrich leads with related information
+
+#### Enrich leads with related information
 
 Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
 
@@ -86,47 +95,9 @@ After you select a lead, Copilot suggests other records that might be associated
 
     :::image type="content" source="media/copilot-lead-enrichment.png" alt-text="Screenshot of a lead card in the Copilot chat pane, with a matching account highlighted.":::
 
-1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record.
+1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record. Copilot also lists the fields such as the city, state, phone numbers, and zip/postal code, that can be updated from the connected record.  
+1. Select **Update all** to update the lead record with the given values.
 
-### Catch up with an opportunity or lead
-
-Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
-
-The catch up information is taken from the audit history. If you don't see any catch up information, ask your administrator to [turn on auditing](./enable-setup-copilot.md#configure-record-catch-up-fields) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
-
-1. In the Copilot chat pane, type **/** and select **Catch up on opportunity** or **Catch up on lead** from the **Suggested requests** list.
-
-    You can also type the prompt.
-
-1. Start typing the name of the opportunity or lead after the **@** symbol.
-
-    If you type the prompt, follow it with **@**.
-
-1. Select an opportunity or lead from the list of suggested records that match your search.
-
-    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of a lead catch up in the Copilot chat pane.":::
-
-1. To learn more about the updated information or activity, select **Know more in audit history**.
-
-    :::image type="content" source="media/copilot-lead-catchup-audit-history.png" alt-text="Screenshot of a lead's audit history.":::
-
-#### Would you like to define the fields that you want to catch up on?
-
-Copilot summarizes the last 10 updates to the record from the audit history, based on the fields in the default opportunity or lead view. You may want to stay updated on changes to other columns that matter more to you, however. Your administrator can create a view that contains those columns and tell Copilot to [generate catch up information based on that view](./enable-setup-copilot.md#configure-record-catch-up-fields) instead.
-
-Keep in mind that the catch up fields are configured at the organization level. Make sure that your entire sales team agrees on the **top ten** fields that are most relevant for your business.
-
-### Prepare for upcoming meetings
-
-If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes recorded in the last three months and the most recent email thread on the timeline of the related record.
-
-1. In the Copilot chat pane, type **/** and select the **Prepare for upcoming meetings** prompt.
-
-1. Select the meeting that you'd like to prepare for.
-
-    If you only have one meeting coming up in the next 24 hours, it's summarized automatically.
-
-    :::image type="content" source="media/copilot-prepare-for-meetings.png" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
 ### Show the latest news about an account
 
@@ -134,14 +105,82 @@ Copilot can get the latest news that features or mentions your accounts, curated
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm that they're from authentic sources and are indeed about your customer.
 
-1. In the Copilot chat pane, type **/** and select the **Show latest news for account** prompt.
-  
-1. Type the account name to view the latest news articles associated with that account. 
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** and press **Enter**. One of the following happens:
+    
+    - If you're in the context of an account record, you'll see the list of news articles related to that account.  
+    
+    - If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
+    
+    To get the news articles for a specific account, type **/** and then start typing the name of the account.
+
+## Ask questions
+
+Ask Copilot to update you on the latest changes to your sales records, get a list of records that have been assigned to you, or list the changes to your leads and opportunities.
+
+### What's new with my sales records
+
+With Copilot, quickly get up to speed with all the updates to your sales records, such as leads, opportunities, and accounts. Copilot lists the records that have been updated in the last seven days.
+
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **What's new with my sales records** and press **Enter**. 
+
+Copilot displays a quick summary of the records that you own, grouped by the type of record. 
+
+:::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records."::: 
+
+### What's newly assigned to me
+
+Copilot can help you stay on top your pipeline by getting you the list of leads and opportunities that have been assigned to you in the last 15 days.
+
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **What's newly assigned to me** and press **Enter**. 
+
+### Get recent changes to a lead or opportunity
+
+Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
+
+The list of recent changes is taken from the audit history of the record. If you don't see the list of changes, ask your administrator to [turn on auditing](./enable-setup-copilot.md#configure-record-catch-up-fields) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **What's changed for opportunity** or **What's changed for lead** and press **Enter**. One of the following happens:
+    
+    - - If you have a related record open, you'll see the list of recent changes to the record. For example, if you've opened an opportunity and selected **What's changed for opportunity**, you'll see the list of recent changes to the opportunity.
+    
+    - If you're in the grid view or have opened the Copilot page, you'll see a list of records that you own. Hover over the record and select **Get updates** to get the list of recent changes to the record.  
+    
+    To get the list of changes for a specific lead or opportunity, type **/** and then start typing the name of the opportunity or lead.
+    
+    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of a lead catch up in the Copilot chat pane.":::
+
+1. To learn more about the updated information or activity, select **Know more in audit history**.
+
+    :::image type="content" source="media/copilot-lead-catchup-audit-history.png" alt-text="Screenshot of a lead's audit history.":::
+
+#### Would you like to see the recent changes for a different set of fields?
+
+Copilot summarizes the last 10 updates to the record from the audit history, based on the fields in the default opportunity or lead view. You may want to stay updated on changes to other columns that matter more to you, however. Your administrator can create a view that contains those columns and tell Copilot to [generate catch up information based on that view](./enable-setup-copilot.md#configure-record-catch-up-fields) instead.
+
+Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the **top ten** fields that are most relevant for your business.
+
+## Stay ahead
+
+Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention.
+
+### Prepare for upcoming sales appointments
+
+If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes recorded in the last three months and the most recent email thread on the timeline of the related record.
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.  
+
+1. From the list of sales appointments listed, hover over the meeting that you'd like to prepare for and select **Prepare**.
+
+    If you only have one meeting coming up in the next 24 hours, it's summarized automatically.
+
+    :::image type="content" source="media/copilot-prepare-for-meetings.png" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
 
 ### Show emails you haven't replied to
 
-Copilot can help you make sure you don't miss important emails. If you have email that you haven't responded to yet, the Copilot chat pane includes an option to **Show my unanswered email**. Select it to view a list of emails you might want to reply to, and then select **Reply** to compose your response.
+Copilot can help ensure that you don't miss important emails by reminding you of emails that you haven't replied to.
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**. 
 
 To be included in the list, emails must meet the following criteria:
 
