@@ -28,7 +28,7 @@ This section explains how to create assignment rules and segments for a specific
 
 ## Assign lead to the account owner
 
-There are two ways to automate this:
+There are two ways to automate:
 
 1. [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner).
 1. [Filter leads from existing account and assign the lead to account](#filter-leads-from-existing-account-and-assign-the-lead-to-account).
@@ -49,38 +49,39 @@ Segment all leads from existing accounts and then create an assignment rule to f
 
 1. Save and activate the **Segment leads from existing accounts** segment.
 
-    Any new lead that is from an existing account will automatically come into this segment and assignment rules configured to this segment will be executed.
+    Any new lead that is from an existing account automatically comes into this segment and assignment rules configured to this segment will be executed.
 
 ### Filter leads from existing account and assign the lead to account
 
-Create an assignment rules to filter leads from existing account and than assign the lead to an account.
+Create an assignment rule to filter leads from existing account and then assign the lead to an account.
 
-1. Select the segment for which you want to assign leads to account owners. Here, we are using the default segment.
+1. Select the segment for which you want to assign leads to account owners. Here, we're using the default segment.
 
 1. Create an assignment rule as follows:
 
-    1. In **Eligible leads for this rule** section, select **Parent account for lead** > **Contains data**. This condition will consider leads with a parent account and ignores leads without account.  
+    1. In **Eligible leads for this rule** section, select **Parent account for lead** > **Contains data**. This condition considers leads with a parent account and ignores leads without account.  
 
         :::image type="content" source="media/wa-example-ar-eligible-leads-parent-account-contains.png" alt-text="Screenshot that shows adding a condition for parent account for leads that contains data.":::
 
-    1. In the **Assign these leads to a seller, team, or queue** section, add the condition through the related entity **Account (Owning User)** where the **Account** equals to **Lead.Parent Account for lead**. This condition identifies the owner of the account and assign the lead to account owner.
+    1. In the **Assign these leads to a seller, team, or queue** section, add the condition through the related entity **Account (Owning User)** where the **Account** equals to **Lead.Parent Account for lead**. This condition identifies the owner of the account and assigns the lead to account owner.
     
         :::image type="content" source="media/wa-example-ar-assign-leads-account-lead-parent-account.png" alt-text="Screenshot that shows adding a condition for choosing the account owning user related entity with account equals to lead's parent account.":::
 
-    By using this option, the segment may become overloaded, causing delays in execution. We recommended to use the [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner) option when dealing with a large number of leads. This approach can enhance performance, especially when conditions are distributed between segments and assignment rules.
+> [!NOTE]
+> We recommended to use the [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner) option when dealing with a large number of leads. This approach can enhance performance, especially when conditions are distributed between segments and assignment rules.
 
 ## Assign lead to sellers with relevant skills or qualifications
 
-Let's consider that you are a sales manager from an financial institution, responsible for selling insurance plans, credit cards, and other financial products to customers. When leads comes in for insurance policy, you want to automatically assign the leads to qualified sellers who possess a minimum of an **Insurance Level 1 certification** and hold a **Diploma or degree in finance**. 
+Let's consider that you're a sales manager from a financial institution, responsible for selling insurance plans, credit cards, and other financial products to customers. When leads come in for insurance policy, you want to automatically assign the leads to qualified sellers who possess a minimum of an **Insurance Level 1 certification** and hold a **Diploma or degree in finance**. 
 
 > [!NOTE]
-> Here we are considering the segment &mdash;All leads - default segment.
+> Here we are considering the default segment while creating the assignment rule.
 
-1. Create seller attributes for **Insurance Level 1 certification** and **Diploma or degree in finance**. Here we have created **Insurance Certificate** and **Academic qualification**, and added values as per the business requirement. More information: [Set seller attributes and capacity](wa-manage-seller-attributes.md)
+1. Create seller attributes for **Insurance Level 1 certification** and **Diploma or degree in finance**. Here we've created **Insurance Certificate** and **Academic qualification**, and added values as per the business requirement. More information: [Set seller attributes and capacity](wa-manage-seller-attributes.md)
 
 1. Apply the created attributes to the respective sellers. More information: [Assign attributes and capacity to sellers](wa-manage-seller-attributes.md#assign-attributes-and-capacity-to-sellers)
 
-1. Create an assignment rule to assign leads related to insurance to sellers with the require certificate and qualification.
+1. Create an assignment rule to assign leads related to insurance to sellers with the required certificate and qualification.
     
     1. In the **Eligible leads for this rule** section, create a condition where **Lead category** equals to **Insurance** to filter leads with insurance.
 
@@ -89,20 +90,30 @@ Let's consider that you are a sales manager from an financial institution, respo
     1. In the **Assign these leads to a seller, team, or queue** section, select **Sellers with matching criteria** from the dropdown list and then select the **Use seller attributes defined for assignment rules** option.
     
     1. Create the following conditions as per the business rule: 
-        - **Insurance Certificate** > **Equals** > **Level 1** 
+        - **Insurance Certificate** > **Equals** > **Level 1**, **Level 2**, and **Level 3**. 
             >[!NOTE]
-            >If the other certificate levels are greater than **Level 1**, you can include those levels as per the business requirement, which specifies a minimum **Level 1** insurance certificate.  
+            >If the other certificate levels are more than **Level 1**, you can include those levels as the **Level 1** insurance certificate is a minimum requirement.  
         - **Academic qualification** > **Equals** > **Diploma - Finance**, **Graduate - Finance**, and **PG - Finance**.
 
         :::image type="content" source="media/wa-example-ar-assign-leads-account-rsq-select-attributes.png" alt-text="Screenshot that shows adding a condition for insurance and academic qualification.":::
 
-1. Save and activate the segment.
-
-    Any new lead that is related to insurance will automatically come into this segment and assignment rules configured to this segment will be executed. 
+    Any new lead that is related to insurance automatically comes into this assignment rule. 
 
 ## Assign a seller who lives in the same postal code as the lead
 
+You want to route leads to sellers who share the same postal code. Here, we use the dynamic matching criteria to assign leads to sellers who live in the same postal code as the lead. For example, if your organization is serving 150 regions, and creating assignment rule for each region is difficult to manage. With dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead though the value *Lead.Country* (the **Country** value is defined in [global option set](/powerapps/maker/data-platform/custom-picklists) for both lead and [system user](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9) entities).
 
+> [!NOTE]
+> Here we are considering the default segment while creating the assignment rule.
+
+1. Create the assignment rule and in the **Assign these leads to a seller, team, or queue** section, configure the conditions as described:
+
+    - Select **Sellers with matching criteria** from the dropdown list.  
+    - Select the **Use seller attributes defined for assignment rules** option.  
+    - Add the condition through the add row option, **ZIP/Postal Code** > **Equals** > **$(address_1_postalcode)**.  
+        Here, we're using the string type field (a single line of text) and is the logical name on the selected attribute. The **ZIP/Postal Code** attribute is a system user field that needs to match with the lead field called **address_1_postalcode**, which is the logical name for the field **ZIP/Postal Code** in lead entity. 
+
+    :::image type="content" source="media/wa-example-ar-assign-leads-same-postalcode.png" alt-text="Screenshot that shows adding a condition for postal code.":::
 
 ## Skip rules for self-created leads
 
