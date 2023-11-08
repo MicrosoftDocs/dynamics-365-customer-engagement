@@ -1,7 +1,7 @@
 ---
-title: "Customize the Active Conversation form | MicrosoftDocs"
-description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service."
-ms.date: 08/08/2023
+title: Customize the Active Conversation form
+description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
+ms.date: 11/08/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -58,8 +58,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to your business needs. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
 
-   > [!div class="mx-imgBorder"]
-   > ![Customize labels on the conversation form.](media/customize-entity-labels.png "Customize labels on the conversation form")
+    :::image type="content" source="media/customize-entity-labels-mini.png" alt-text="Screenshot of the active conversation form" lightbox="media/customize-entity-labels.png":::
 
 For example, you could change **Search customer** to **Search client** or **Search issue** to **Search ticket** using the following procedure.
 
@@ -98,7 +97,7 @@ To customize labels on the conversation form:
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. To view the published changes, in the Customer Service workspace or Omnichannel for Customer Service app, manually refresh the page containing the conversation summary form.
+1. To view the published changes, in the Customer Service workspace, manually refresh the page containing the conversation summary form.
 
 ## Timeline
 

@@ -1,7 +1,7 @@
 ---
-title: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
-ms.date: 08/01/2023
+title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
+description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
+ms.date: 11/08/2023
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -137,7 +137,7 @@ You can enable the legacy layout in one of the following ways:
 1. In the console window, type the following command and press **Enter**: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
 1. Refresh the app page.
 
-### Next steps
+### Training resources
 
 ![Next step.](media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
 ![Next step.](media/right-arrow.png "Next step") [Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
