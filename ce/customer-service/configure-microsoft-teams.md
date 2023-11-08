@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel in Omnichannel for Customer Service
 description: Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service.
-ms.date: 04/26/2023
+ms.date: 11/01/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,37 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **Developer Portal**. More information: [Create and register an app](/microsoftteams/platform/concepts/build-and-test/teams-developer-portal#register-an-app)
+- An app is created and configured in **Teams** > **Developer Portal**:
+
+   1. In **Teams**, open the **Developer Portal** app.
+
+      :::image type="content" source="media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
+   
+   1. In **Developer Portal**, create a new app or import an existing one.
+
+       :::image type="content" source="media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
+
+   1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
+
+   1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
+      > [!NOTE]
+      > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
+
+       :::image type="content" source="media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
+
+   1. Select **App features** under **Configure** section, and then select **bot**.
+
+   1. Enter the bot ID from omnichannel, and then select **Save**.
+
+   1. Select **Publish**.
+
+   1. On the **Publish your app** page, select **Download the app package**
+
+   1. In the site map, select **Apps**, and then select **Manage your apps**.
+
+   1. Select **Upload your app**, and then browse to the app you downloaded in step 7 and select it.
+
+      The Teams app is installed on your Teams desktop client, which allows you to send and receive messages in the Teams app.  
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
@@ -43,12 +73,12 @@ Make sure that the following prerequisites are met:
 1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
    1. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
-   1. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
+   1. On the **Callback information** page, copy the value in the **Bot ID** box. The Teams app uses it to update the value for the bot ID.
    1. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
 
-1. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
+1. Select the workstream that you created for the Microsoft Teams channel, and then on the workstream page, select **Set up Microsoft Teams** to configure the following options:
     1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
 
     1. On the **Language** page, select the language.
@@ -57,7 +87,7 @@ Make sure that the following prerequisites are met:
        - [Custom automated messages](configure-automated-message.md)
        - [Post-conversation survey](configure-post-conversation-survey.md)
 
-    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
+    1. On the **User features** page, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
        - Customers can send file attachments
        - Agents can send file attachments
 
@@ -111,7 +141,7 @@ Make sure that the following prerequisites are met:
 
 4. Select **Save**. The Teams channel is saved.
 
-5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
+5. In **Step 3: Callback information**, copy the value as displayed in **Bot ID**.
 
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 

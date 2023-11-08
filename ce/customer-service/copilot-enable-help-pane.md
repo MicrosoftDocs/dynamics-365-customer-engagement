@@ -26,15 +26,9 @@ Perform the following steps to enable the Copilot features in Customer Service a
 
   :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
 
-## Features supported with different knowledge sources
+## Prerequisites
 
-The following table summarizes the Copilot features supported for a configured knowledge source.
-
-| Feature|Knowledge base | External web resources |
-|-------|----------|---------|--------|
-|Ask a question |✔|X|
-|Write an email | ✔|✔|
-|Draft a response |✔|✔|
+See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
 
 ## Enable ask a question
 
@@ -64,5 +58,16 @@ Copilot uses articles that are two nodes down the configured domain.
 
 Filters enable Copilot to generate responses based on a specific set of topics. You can set up filters for ask a question and draft a response features by sending an email a request to d365_csaipreview@microsoft.com. See: [Apply filters](use-copilot-features.md#apply-filters).
 
-## Next steps
+### Features supported with different knowledge sources
+
+The following table summarizes the Copilot features supported for a configured knowledge source.
+
+| Feature|Knowledge base | External web resources |
+|-------|----------|---------|--------|
+|Ask a question |✔|X|
+|Write an email | ✔|✔|
+|Draft a response |✔|✔|
+
+### See also
+
 [Use Copilot to solve customer issues](use-copilot-features.md)

@@ -11,7 +11,7 @@ items:
     items:
       - name: Sign up for free trial
         href: trial-signup.md
-      - name: Trial FAQs
+      - name: Field Service trial FAQ
         href: trial-faq.md
   - name: Buy a subscription
     href: buy-fs.md
@@ -102,7 +102,7 @@ items:
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
-    - name: Work order experience (preview)
+    - name: New work order experience (preview)
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
@@ -506,26 +506,26 @@ items:
     - name: Write complex business logic (plugins + JavaScript)
       href: field-service-customize-scripts.md
 
-- name: Troubleshooting and FAQs
+- name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-field-service-solution-health.md
   - name: Troubleshooting articles
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
-  - name: Mobile app FAQs
+  - name: FAQ about the Field Service mobile app
     href: mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service (preview) troubleshooting
     href: flw-troubleshooting.md
-  - name: New Field Service mobile experience (preview) troubleshooting     
+  - name: New Field Service mobile experience (preview) troubleshooting
     href: troubleshooting-mobile-newux.md
 
 - name: Responsible AI
   items: 
     - name: Overview
       href: responsible-ai-overview.md
-    - name: FAQs for Outlook work order creation
+    - name: FAQ about Outlook work order creation
       href: faqs-wo-flw-copilot.md
-    - name: FAQs for work order recap
+    - name: FAQ about work order recap
       href: faqs-work-order-recap.md
 
 - name: More resources
