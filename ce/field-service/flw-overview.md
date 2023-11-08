@@ -36,7 +36,9 @@ Dynamics 365 Field Service (Preview) allows administrators and users to access c
 
 ## Supported geographies, regions, and languages
 
-Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the following geographies/regions. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center.](/power-platform/admin/regions-overview) For a list of supported languages, see [Language availability.](https://dynamics.microsoft.com/availability-reports/languagereport/) French Canadian is not supported.
+Microsoft 365 integrations for Field Service (Preview) are currently available in environments located in the following geographies/regions. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center.](/power-platform/admin/regions-overview)
+
+### Supported geographies and regions
 
 | Geography               | Region                           |
 | ----------------------- | -------------------------------- |
@@ -58,6 +60,55 @@ Microsoft 365 integrations for Field Service (Preview) are currently available i
 | United Arab Emirates    | uaecentral,uaenorth              |
 | United States           | eastus,westus                    |
 
+
+<!--- Doesn't support Arabic or Hebrew yet. When it does, point to product languages https://dynamics.microsoft.com/en-us/availability-reports/languagereport/ --->
+### Supported languages
+
+| Language                               | Locale     |
+| -------------------------------------- | ---------- |
+| Basque (Basque)                        | eu-ES      |
+| Bulgarian (Bulgaria)                   | bg-BG      |
+| Catalan (Catalan)                      | ca-ES      |
+| Chinese (Simplified, PRC)              | zh-CN      |
+| Chinese (Taiwan)                       | zh-TW      |
+| Chinese (Hong Kong)                    | zh-HK      |
+| Croatian (Croatia)                     | hr-HR      |
+| Czech (Czech Republic)                 | cs-CZ      |
+| Danish (Denmark)                       | da-DK      |
+| Dutch (Netherlands)                    | nl-NL      |
+| English (United States)                | en-US      |
+| Estonian (Estonia)                     | et-EE      |
+| Finnish (Finland)                      | fi-FI      |
+| French (France)                        | fr-FR      |
+| Galician (Galician)                    | gl-ES      |
+| German (Germany)                       | de-DE      |
+| Greek (Greece)                         | el-GR      |
+| Hindi (India)                          | hi-IN      |
+| Hungarian (Hungary)                    | hu-HU      |
+| Indonesian (Indonesia)                 | id-ID      |
+| Italian (Italy)                        | it-IT      |
+| Japanese (Japan)                       | ja-JP      |
+| Kazakh (Kazakhstan)                    | kk-KZ      |
+| Korean (Korea)                         | ko-KR      |
+| Latvian (Latvia)                       | lv-LV      |
+| Lithuanian (Lithuania)                 | lt-LT      |
+| Malay (Malaysia)                       | ms-MY      |
+| Norwegian (Bokmal)                     | nb-NO      |
+| Polish (Poland)                        | pl-PL      |
+| Portuguese (Brazil)                    | pt-BR      |
+| Portuguese (Portugal)                  | pt-PT      |
+| Romanian (Romania)                     | ro-RO      |
+| Russian (Russia)                       | ru-RU      |
+| Serbian (Cyrillic, Serbian)            | sr-Cyrl-RS |
+| Serbian (Latin, Serbia and Montenegro) | sr-Latn-RS |
+| Slovak (Slovakia)                      | sk-SK      |
+| Slovenian (Slovenia)                   | sl-SI      |
+| Spanish (Spain)                        | es-ES      |
+| Swedish (Sweden)                       | sv-SE      |
+| Thai (Thailand)                        | th-TH      |
+| Turkish (Turkey)                       | tr-TR      |
+| Ukrainian (Ukraine)                    | uk-UA      |
+| Vietnamese (Vietnam)                   | vi-VN      |
 
 ## Next steps
 
