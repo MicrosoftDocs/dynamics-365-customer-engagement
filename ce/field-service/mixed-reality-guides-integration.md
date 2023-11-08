@@ -11,7 +11,10 @@ ms.author: jshum
 
 Integration with Dynamics 365 Guides lets Field Service users attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated Field Service tab in the Dynamics 365 Guides HoloLens app to launch the guide and get their work done.
 
-<!-- How to add a guide to service task? FS and Guides on same env only prereq?-->
+## Prerequisites
+
+- Guides and Field Service are installed on the same environment.
+- Guides users have access to the Field Service application.
 
 ## Using Dynamics 365 Guides with work orders
 
@@ -27,9 +30,7 @@ Integration with Dynamics 365 Guides lets Field Service users attach mixed reali
 
    1. In the **Service Tasks** view, select the **More Commands** button (...), and then select **Add New Work Order Service Task**.
 
-   1. In the **New Work Order Service Task** view, select a task type, provide an optional description, and then select a guide to associate with the service task. Select **Save** when you're done.
-
-      ![Select task type and associate guide.](media/new-work-order-options.PNG "Select task type and associate guide")
+   1. In the **New Work Order Service Task** view, select a task type, provide an optional description, and in the **Guides** field, select a guide to associate with the service task.
 
 1. [Schedule the work order](schedule-work-order.md) to a resource.
 
@@ -41,8 +42,8 @@ The Guides HoloLens app shows work orders for the current day and the following 
 
 ## Known issues
 
-- Service task names that are longer than approximately 50 characters are cut off in the HoloLens user interface.
+- Long service task names are cut off in the HoloLens user interface.
 
-- When assigning a guide to a Field Service service task, you can also create a new guide. Don't use this option to create a new guide. Guides must be created using the Dynamics 365 Guides PC app or HoloLens app.
+- When assigning a guide to a Field Service service task, the system allows you to create a new guide. Don't use this option to create a new guide. Guides must be created using the Dynamics 365 Guides PC app or HoloLens app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

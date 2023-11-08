@@ -57,7 +57,7 @@ By default, the app suggests calling the support contact listed on the work orde
 
 The remote collaborator receives the call, like any other Teams call.
 
-The technician can share what they see through their mobile device's camera, making annotations as needed. The remote collaborator can make annotations in Teams. For more information, see [Annotate the technician's shared environment](/mixed-reality/remote-assist/mobile-app/annotate-shared-environment).
+The technician can share what they see through their mobile device's camera, making annotations as needed. The remote collaborator can make annotations in Teams. For more information, see [Annotate the technician's shared environment](/dynamics365/mixed-reality/remote-assist/mobile-app/annotate-shared-environment).
 
 For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls)
 
