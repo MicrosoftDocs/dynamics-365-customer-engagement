@@ -36,24 +36,6 @@
     href: try-customer-service.md
   - name: Customer Service trial FAQ
     href: trial-faq.md  
-  - name: Learning Catalog
-    items: 
-    - name: Learning Catalog
-      href: learning-catalog.md
-    - name: Business Decision Maker 
-      href: learning-bdm.md
-    - name: Business User
-      href: learning-bus-user.md
-    - name: Implementation Project Manager
-      href: learning-project-manager.md
-    - name: Administrator
-      href: learning-administrator.md
-    - name: Developer
-      href: learning-developer.md
-    - name: Functional Consultant
-      href: learning-functional-consultant.md
-    - name: Partner Sales and Marketing
-      href: learning-sales.md
   - name: System requirements
     items: 
     - name: System requirements for Customer Service
