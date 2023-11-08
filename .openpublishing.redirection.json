@@ -16,6 +16,46 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/learning-catalog.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-bdm.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-bus-user.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-project-manager.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-administrator.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-developer.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-functional-consultant.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-sales.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
       "redirect_document_id": "false"
