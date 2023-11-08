@@ -20,18 +20,22 @@ Dynamics 365 Customer Service workspace helps agents increase productivity with 
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md)
+For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
 
 **Set up Omnichannel in Customer Service workspace** 
 
-You can set up your Customer Service workspace environment so that agents who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the app, by using the  Dynamics 365 Customer Service Digital Messaging add-on. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+With the Dynamics 365 Customer Service Digital Messaging add-on, the agent who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 :::image type="content" source="media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace"::: 
 
 ## Customer Service workspace sessions and tabs
 
 Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-Agents can work on up to nine sessions and within a session, they can open up to 10 tabs. A new session is launched when an agent opens a case from the **Home** session or accepts an incoming conversation. If the agent opens the customer record from a session, a new tab opens in the same session. Agents can select the hamburger icon to access the site map. When an agent opens a page from the site map, the page loads in the current focused session.
+- Agents can work on up to nine sessions and within a session, they can open up to 10 tabs.
+-  A new session starts when an agent opens a case from the **Home** session or accepts an incoming conversation.
+-  If the agent opens the customer record from a session, a new tab opens in the same session. 
+- Agents can select the hamburger icon to access the site map. 
+- When an agent opens a page from the site map, the page loads in the current focused session.
 
 ### Navigate sessions and tabs
 
@@ -53,13 +57,20 @@ Agents can work on up to nine sessions and within a session, they can open up to
 
 If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The asynchronous channels available in the conversation inbox are: SMS, persistent chat, Facebook, WeChat, LINE, WhatsApp, and Microsoft Teams.
+The asynchronous channels available in the conversation inbox are: 
+- SMS
+- persistent chat
+- Facebook
+- WeChat
+- LINE
+- WhatsApp
+- Microsoft Teams
 
 More information: [Configure the inbox view](configure-inbox.md)
 
 ### Use the productivity pane with Smart Assist
 
-When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
+When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you are working on. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
 More information: [Productivity pane](csw-productivity-pane.md)
 
