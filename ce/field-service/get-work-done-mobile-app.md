@@ -80,7 +80,7 @@ The **Timeline** tab shows you other historical data related to the booking.
 
 Notes are available only when they're included with the Bookable Resource Booking form. You can't use notes with other forms.
 
-If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](users-licenses-permissions.md#q--a) to the `msdyn_bookableresourcebookingquicknotes` table.
+If you can't save a note, you might not have the right permissions to the table that notes are stored in. Ask your administrator to make sure that your [security role has access](users-licenses-permissions.md) to the `msdyn_bookableresourcebookingquicknotes` table.
 
 ## [New mobile UX (preview)](#tab/vNext)
 

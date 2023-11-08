@@ -42,7 +42,7 @@ You use the Microsoft 365 admin center to [create user accounts](/power-platform
 
 To create user accounts for users within your organizations, add them individually or in bulk.
 
-For more information, see [Add users](/microsoft-365/admin/add-users/add-users?view=o365-worldwide).
+For more information, see [Add users](/microsoft-365/admin/add-users/add-users).
 
 ### B2B collaboration users
 
