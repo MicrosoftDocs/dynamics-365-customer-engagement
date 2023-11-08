@@ -32,13 +32,13 @@ The voice channel is compliant with Payment Card Industry Data Security Standard
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-To register as a calling provider is a legally complex and country-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries where PSTN services are available, check the [country availability](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) page.
+To register as a calling provider is a legally complex and country- or region-specific process. Azure Communication Services has a multiyear road map to provide calling plans in different countries and regions. To see all the countries and regions where PSTN services are available, check the [Country/regional availability of telephone numbers and subscription eligibility](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) page.
 
 An alternative to Microsoft calling plans is Azure direct routing that allows you to bring your own phone numbers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
-### What about countries where Azure Communication Services doesn't provide native PSTN services?
+### What about countries or regions where Azure Communication Services doesn't provide native PSTN services?
 
-Azure Communication Services is available worldwide, even if it isn't acting as the calling provider in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
+Azure Communication Services is available worldwide, even if it isn't acting as the calling provider in certain countries or regions. For these countries or regions, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, you'll still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
 ### What codecs are implemented in the voice channel?
 

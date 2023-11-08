@@ -110,9 +110,9 @@ The Customer Service workspace legacy layout is deprecated as of April 2023, and
 
 ## ResponsibleContactId lookup attribute is deprecated
 
-The incident entity **ResponsibleContactId** lookup attribute should be considered deprecated and the **PrimaryContactId** lookup attribute introduced with the Microsoft Dynamics CRM 2013 Service Pack 1 (SP1) release should be considered the primary system lookup attribute to associate incidents with a contact record.
+The incident entity **ResponsibleContactId** lookup attribute is deprecated. Consider the **PrimaryContactId** lookup attribute that was introduced with Service Pack 1 for Microsoft Dynamics CRM 2013 as the primary system lookup attribute to associate incidents with a contact record.
 
-There are no plans to remove the **ResponsibleContactId** lookup attribute, but if you plan to create new customizations you should use **PrimaryContactId** rather than **ResponsibleContactId**. If you have existing customizations that currently use ResponsibleContactId, you should consider migrating them to use **PrimaryContactId** instead.
+There are no plans to remove the **ResponsibleContactId** lookup attribute. Use the **PrimaryContactId** for new customizations or if you're migrating existing customizations that currently use **ResponsibleContactId**.
 
 ### See also
 

@@ -40,7 +40,7 @@ For Copilot to automatically trigger a conversation summary for a live conversat
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
    - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
-## Next steps
+### See also
 
-[Use Copilot to summarize cases and conversations](copilot-use-summary.md)
+[Use Copilot to summarize cases and conversations](copilot-use-summary.md)<br>
 [Enable features in Copilot pane](copilot-enable-help-pane.md)

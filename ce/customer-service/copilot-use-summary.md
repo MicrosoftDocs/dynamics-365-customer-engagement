@@ -6,16 +6,13 @@ ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: conceptual 
 ms.collection: get-started 
-ms.date: 09/28/2023
+ms.date: 11/07/2023
 ms.custom: bap-template 
 ---
 
 # Use Copilot to summarize cases and conversations 
 
 You can use Copilot to summarize cases and conversations if your administrator has turned on this feature.
-
-> [!NOTE]
-> Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
 
 > [!NOTE]
 > Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
