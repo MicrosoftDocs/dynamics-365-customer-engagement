@@ -21,7 +21,7 @@ This topic contains the FAQs that you as an administrator, supervisor, or agent 
 
 ### What SKUs must I have to get unified routing?
 
-[See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
+You must have the Customer Service Enterprise license. [See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
 
 ### What will happen to my current workstreams after unified routing is installed?
 
