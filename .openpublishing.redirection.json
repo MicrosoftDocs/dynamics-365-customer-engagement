@@ -516,6 +516,46 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/learning-catalog.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-bdm.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-bus-user.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-project-manager.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-administrator.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-developer.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-functional-consultant.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-sales.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/voice-channel-call-overflow.md",
       "redirect_url": "manage-overflow",
       "redirect_document_id": "false"
