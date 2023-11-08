@@ -1,77 +1,76 @@
 ---
 title: Work order recap with Copilot in Field Service (preview)
-description: Learn how to use AI to generate a work order recap in Dynamics 365 Field Service.
+description: Learn how to use an AI-generated work order recap in Dynamics 365 Field Service to quickly understand the state of a work order and get appropriate next steps.
 ms.date: 08/02/2023
 ms.topic: how-to
-ms.custom: bap-template
 author: jasonccohen
 ms.author: jacoh
 ms.reviewer: m-hartmann
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/30/2023
 ---
 
 # Work order recap with Copilot in Field Service (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The AI-Powered work order recap feature provides a succinct summary of a work order and its related contextual data. This feature is designed to help service managers, dispatchers, and frontline workers quickly understand the current state of a work order and suggest appropriate next steps to help get issues resolved quickly. The recap includes the work order's past developments, future actions, arrival times, work criticality, and a summary of required parts.
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+The AI-generated work order recap in Dynamics 365 Field Service provides a summary of a work order and its related data. Designed to help service managers, dispatchers, and frontline workers quickly understand the state of a work order and the next steps to take, the recap summarizes the work order's history, future actions, arrival times, work criticality, required parts, and other contextual information.
+
+The work order recap feature adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids information that violates certain restrictions. The content of a recap isn't saved. It's only available to the user who generated it. Users must generate their own recaps, and the content is based on their permissions.
+
+Watch this brief video to learn more about the new work order experience in Field Service, including work order recaps:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
 
-The feature also adheres to [responsible AI guidelines](faqs-work-order-recap.md) and avoids information that violates certain restrictions.
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 ## Prerequisites
 
-The AI-powered recap feature is currently available in preview for environments deployed in the United States and United Kingdom. Currently, copilot requests for the work order recap are processed within the United States. For United Kingdom environments, the feature is disabled by default. To enable it, ask an admin to go to Field Service **Settings** and turn on **Copilot recap**.
+- Your environment must be in the United States or the United Kingdom.
 
-This feature requires a paid Field Service environment and isn't available in trial environments.
+- The feature is disabled by default for environments in the United Kingdom. An administrator must enable **Copilot recap** in Field Service settings.
 
-[Update your environment](update-field-service.md) to the latest Early Access build for 2023 wave 2 to use work order recap and the improved work order forms.
+- You must have a paid Field Service environment. The work order recap feature isn't available in trial environments.
+
+- You must [update your environment](update-field-service.md) to the latest Early Access build for 2023 wave 2 to use work order recap and the new work order experience.
 
 ## Generate a work order recap
 
-Go to the [work order form (preview)](work-order-experience.md).
+Open a [work order form (preview)](work-order-experience.md).
 
-- On a saved work order, select **Generate** in the **Copilot recap** control to generate a recap summary.
-- To refresh a summary, select **Regenerate** in the **Copilot recap** control.
-- Use the **Copilot recap** control to provide feedback on the recap and help us understand if it's useful or not, and optionally provide more context about your preferences.
+- To generate a recap, select **Generate recap** in the **Copilot recap** control.
 
-> [!NOTE]
-> When a recap is generated, the content is not saved and is only available to the user who generated it. Each user must generate their own recap, which is generated based on the user's permissions.
+- To refresh the recap, select **Regenerate recap** in the **Copilot recap** control.
 
-## Recap generation and content
+Use the like/dislike buttons in the **Copilot recap** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the recap is useful or not and why.
 
-When you generate a recap, the system passes the work order ID and its current system status to an API. The system then uses the requesting user's security context to pull relevant data based on the status of the work order to create the recap. If the user has access to the data and the data exists for the given work order, the recap uses contextual information directly from the work order and related records to generate the recap content. The system may use the summary of the work order, booking details, activities, notes, products, services, and service tasks involved in the work order. It also uses related information like requirement characteristics, asset details, and invoice information.
+## How recaps are generated
 
-The recap is tailored to the work order's lifecycle stage, focusing on the most relevant information for each.
+When you generate a recap, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the recap content. The summary might include booking details, activities, notes, products, services, and service tasks involved in the work order, and related information like requirements, asset details, and invoice data.
 
-The prompt includes core work order information, including products, services, and tasks. It also includes critical context like booking information, activity details, and notes from the work order and bookings.
+The recap focuses on the most relevant information based on the work order's lifecycle stage.
 
-For each lifecycle stage of the work order, we also include additional information that may be relevant to that step.
+- **Unscheduled**: Information that's relevant to scheduling the work order, like requirements.
 
-- **Unscheduled**: Information relevant to scheduling the work order like requirement characteristics.
-- **Scheduled**: Details relevant to planning, arrival at the work order site, and understanding the issue like asset information and work order history for the asset.
-- **In Progress**: Information relevant to completing the work order and the current state of work, which again includes asset information and work order history for the asset.
-- **Completed**: The core information included in all prompts including relevant summary of costs and prices.
-- **Posted**: The same core information shared in all prompts and relevant invoice details.
-- **Canceled**: The core information included in all prompts.
+- **Scheduled**: Information that's relevant to planning, arrival at the work order site, and understanding the issue, like asset information and the asset's work order history.
 
-If there are errors or service limitations, the system returns an error message instead of a recap summary.
+- **In Progress**: Information that's relevant to completing the work order and the current state of work, like asset information and the asset's work order history.
 
-## Work order recap with Copilot on the mobile app
+- **Completed**, **Posted**, and **Canceled**: The core information that's included in all recaps, including a summary of costs and prices and, for completed and posted work orders, invoice details.
 
-Work order recap for frontline workers provides valuable contextual information about the scheduled work. Users of the mobile app can generated a recap on the mobile device and regenerate it with refreshed content at different points of the work order lifecycle.
+## Work order recaps in the mobile app
 
-To enable the work order recap feature on the mobile app, ask an admin to go to **Settings** > **Preview features** in the Field Service Mobile app module and turn on **Copilot Recap for Mobile Preview**.
+Frontline workers can get valuable contextual information about their scheduled work using work order recaps in the Field Service mobile app. You can generate a recap on your mobile device and refresh it as you progress through the work order lifecycle. Your device must be connected to the Internet for the recap feature to work.
 
-When the feature is enabled, the Copilot control gets added to the *Bookable Resource Booking* form. You can use the control on the *Bookable Resource Booking* or *Work Order* form. You can't add it to the other forms currently.
+To enable work order recaps in the mobile app, an administrator must turn on **Copilot Recap for Mobile Preview** in the Field Service mobile app settings > **Preview features**.
 
-> [!NOTE]
-> Copilot in Field Service requires an active internet connection to the device to generate recap content.
+When the feature is enabled, the Copilot control is added to the **Bookable Resource Booking** form. You can use the control only on the **Bookable Resource Booking** and **Work Order** forms.
 
-## Next steps
+### See also
 
-- [FAQs for work order recap with copilot (preview)](faqs-work-order-recap.md)
-- [Responsible AI FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
-- [Work order form and component experience (preview)](work-order-experience.md)
+- [FAQ about work order recap with Copilot (preview)](faqs-work-order-recap.md)
+- [New work order experience (preview)](work-order-experience.md)
+- [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)

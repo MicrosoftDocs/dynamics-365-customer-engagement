@@ -1,14 +1,18 @@
 ---
 title: View and understand the Ongoing conversation report in Omnichannel real-time analytics
-description: Learn how supervisors can use the Ongoing conversation report to view information about the conversations handled by agents in real time.
+description: Understand the Ongoing conversation report in Omnichannel real-time analytics to view conversations, active agents, and customer sentiment.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/21/2023
-ms.custom: bap-template
+ms.date: 10/19/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/05/2023
 ---
 
 # View and understand the Ongoing conversation report in Omnichannel real-time analytics
@@ -21,12 +25,12 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime_ongoing_conversation.png" alt-text="Screenshot of real-time Ongoing conversation report.":::
+:::image type="content" source="realtime_ongoing conversations.png" alt-text="Screenshot of realtime ongoing converations report":::
 
 The conversation list shows current ongoing conversations from the last 24 hours. Therefore, managers have a real-time view of the interactions between agents and customers. You can also select an agent and then use the following buttons to perform different actions on conversations:
 
-- **Assign**: Assign an incoming, unassigned conversation to either a queue or an agent.
-- **Transfer**: Transfer an ongoing conversation from one agent to another.
+- **Assign**: Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
+- **Transfer**: Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
 - **Monitor**: Listen to an ongoing conversation. When you select **Monitor**, you receive a message that states that monitoring has begun. This action is applicable only to active conversations with agent acceptance, conversations that are in a wrap-up state, and conversations that are in a waiting state.
 - **Force close**: Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message box appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. We recommend that you use this action with caution.
 

@@ -7,20 +7,50 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/13/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/27/2023 |
-| | *USG* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | TBD | 10/20/2023 |
-|**Station 4** |*Europe* |  [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125)   | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)| 10/13/2023 |
-|**Station 5** |  *North America*|[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/13/2023 |
-| | *Dedicated Scale Groups* |[3.12.111.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211136)  | [3.12.112.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121125) | 10/20/2023 |
+|**Station 1** |  *First Release*| [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 11/17/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) | 11/03/2023  |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) | 11/10/2023  |
+| | *USG* | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) |11/03/2023  
+|**Station 4** |*Europe* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/03/2023 |
+|**Station 5** |  *North America*|   [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/10/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/10/2023 |
+| | *Dedicated Scale Groups* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/17/2023 |
 
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.119.27
+
+**Resource Scheduling Controls:** 1.2.58.232961
+
+**Dataverse:** 4.0.109.27
+
+- Performance improvements for API calls.
+- Performance improvements when using the schedule assistant with lots of bookable resources.  
+- Fixed a bug where bookings made with the schedule assistant are longer than resource's availability when search availability is manually set.  
+- Fixed a bug that was causing an error message when opening the specify pattern control.
+- Fixed bugs with apostrophes in requirement names and booking templates.
+- PowerApps improvements with the specify pattern control.
+
+## 3.12.118.19
+
+**Resource Scheduling Controls:** 1.2.57.232831
+
+**Dataverse:** 4.0.108.19
+
+- In the map view on the schedule board, there are now visual indicators to show which record is selected. 
+- Fixed a bug that was preventing some tooltips to not properly function while in list view. 
+- Improved the schedule board resolution slider to honor the configured working time. 
+- Fixed a bug that was displaying an error when booking certain full capacity requirements with a “Full Requirement” booking method. 
+- Fixed bugs that were causing errors to be displayed when editing booking lengths in multi-day views.  
+
+**Resource Scheduling Controls:** 1.2.57.232963
+
+- Fixed a bug where apostrophes were shown as undefined when part of a book template name
+- Fixed a bug where the Schedule Board requirements grid was not showing data. 
 
 ## 3.12.117.31
 
@@ -33,6 +63,10 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed an issue that was causing the schedule board to load the wrong date when operating in specific time zones. 
 - Fixed an issue that was causing selected resources to be displayed as undefined when using client extensions.  
 
+**Resource Scheduling Controls:** 1.2.56.232963
+
+- Fixed a bug where apostrophes were shown as undefined when part of a book template name
+- Fixed a bug where the Schedule Board requirements grid was not showing data.  
 
 ## 3.12.112.5
 
@@ -45,6 +79,9 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed an issue in the API where calling *msdyn_SearchResourceAvailability* consistently returned empty *AvailabilityIntervals* and *Characteristics*.
 - Fixed an issue that led to the schedule assistant returning no available slots when a user entered information in the *Time from promised* field.  
 - Fixed an issue where service territory filters were being reset when navigating through pages of a resource selection search.  
+
+**Resource Scheduling Controls:** 1.2.52.232844
+ - Various security enhancements  
 
 ## 3.12.116.5 - 2023 Wave 2 Early Access update2
 

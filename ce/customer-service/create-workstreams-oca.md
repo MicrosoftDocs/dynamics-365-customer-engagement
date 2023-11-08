@@ -11,8 +11,8 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
-> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Customer Service admin center app. You'll need to migrate the existing workstreams and then manage them in the Customer Service admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Introduction
 

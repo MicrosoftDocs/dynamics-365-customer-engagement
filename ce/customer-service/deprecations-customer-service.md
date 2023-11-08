@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 06/21/2023
+ms.date: 11/03/2023
 ms.custom: bap-template
 ---
 
@@ -17,6 +17,12 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
+
+Effective November 6, 2023, Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated. We recommend that you start using the out-of-box [Omnichannel historical analytics](omnichannel-analytics-insights.md) and [Customer Service historical analytics](customer-service-analytics-insights-csh.md).  
+
+The deprecated features will be supported and there will be no change in product availability until Feb 28, 2024. Starting April 30, 2024, deprecated features won’t be available to download.  
 
 ## Intraday insights reports in Omnichannel for Customer Service are deprecated
 
@@ -34,9 +40,9 @@ With the release of the Customer Service admin center app that consolidates admi
 
 Also, as of October 2022, the Omnichannel admin center and the service management area in Customer Service Hub are hidden by default in newly created organizations and environments. You can bring them back, but we recommend that you start using the Customer Service admin center app to perform tasks like manage cases, and configure unified routing, channels, and agent experience profiles. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel Administration app is deprecated and will be removed in July 2023
+## Omnichannel Administration app is deprecated and removed in July 2023
 
-Support for the Omnichannel Administration app ended on April 30, 2022. The app will be removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
+Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
 ## Omnichannel for Customer Service agent-facing app is deprecated and will be removed in June 2024
 
@@ -101,6 +107,12 @@ The Customer Service Insights standalone app is deprecated. We recommend that yo
 ## Customer Service workspace legacy layout is deprecated
 
 The Customer Service workspace legacy layout is deprecated as of April 2023, and won't be supported after October 2023. For more information, see [Deprecated Customer Service workspace layout](csw-overview.md#deprecated-customer-service-workspace-layout)
+
+## ResponsibleContactId lookup attribute is deprecated
+
+The incident entity **ResponsibleContactId** lookup attribute is deprecated. Consider the **PrimaryContactId** lookup attribute that was introduced with Service Pack 1 for Microsoft Dynamics CRM 2013 as the primary system lookup attribute to associate incidents with a contact record.
+
+There are no plans to remove the **ResponsibleContactId** lookup attribute. Use the **PrimaryContactId** for new customizations or if you're migrating existing customizations that currently use **ResponsibleContactId**.
 
 ### See also
 

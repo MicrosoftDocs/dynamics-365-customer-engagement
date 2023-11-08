@@ -92,12 +92,30 @@ sections:
             If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
         - question: Can external guest users access the Field Service mobile app?  
           answer: |
-           Yes, frontline workers [enabled as Azure AD B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
+           Yes, frontline workers [enabled as Microsoft Entra B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
            
+           [!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
+
            If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
            ```
            https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
            ```
+
+        - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
+          answer: |
+              Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
+          
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
+
+              The region settings dialog allows the user to select and connect to the desired end point.
+
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
+
+        - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
+          answer: |
+              Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
 
   - name: Entities, forms, views, and fields 
     questions:

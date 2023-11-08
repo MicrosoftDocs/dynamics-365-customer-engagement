@@ -1,7 +1,7 @@
 ---
 title: Field Service (Preview) for Administrators
 description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 10/06/2023
+ms.date: 11/06/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -27,7 +27,7 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 
 As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you want to opt out of using Copilot, disable the **Outlook Add-in Copilot (Preview)** setting in [Work Order settings.](configure-default-settings.md#work-order--booking-settings)
+The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To enable or disable consent, see [Give consent to use Copilot in Field Service for Outlook.](#give-consent-to-use-copilot-in-field-service-for-outlook)
 
 ### Prerequisites
 
@@ -61,6 +61,28 @@ To set up the Field Service (Preview) Outlook capability for your organization, 
    > [!NOTE]
    >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
+### Give consent to use Copilot in Field Service for Outlook
+
+As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform envrionment is inside or outside of the United States.
+
+#### For customers with Power Platform environments outside the US
+
+- To opt-in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
+- To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
+
+#### For customer with Power Platform environments in the US
+
+1. In the Field Service app, change to the **Settings** area.
+
+1. In the **General** section, select **Field Service** Settings.
+
+1. Select the **Features** tab.
+
+   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with OUtlook Add-in Copilot highlighted.":::
+
+1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
+
+1. Select **Save**.
 
 <!--- Tab 2 Teams --->
 
@@ -104,7 +126,7 @@ The Field Service (Preview) for Viva Connections and Teams requires the followin
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
 - [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
 - [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
-- [Sync Azure Active Directory groups and Dataverse security roles](#sync-azure-active-directory-groups-and-dataverse-security-roles)
+- [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles)
 
 > [!NOTE]
 > Teams Preview is not supported.
@@ -120,7 +142,9 @@ The Field Service (Preview) for Viva Connections and Teams requires the followin
 
 ### Create user groups
 
-If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create an Azure Active Directory group](/azure/active-directory/fundamentals/how-to-manage-groups).
+[!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
+
+If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create a Microsoft Entra group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
 ### Deploy the Field Service (Preview) Teams app
 
@@ -196,17 +220,17 @@ There are four cards available for the Field Service (Preview) for Teams. For fr
 
 ### Assign security roles and field security profiles
 
-Assign Azure Active Directory permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
+Assign Microsoft Entra ID permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
 
 For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
 
-1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md#get-started).
+1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md).
 
 1. Assign a **Security Role** and **Field Security** role. The other fields are optional.
 
-### Sync Azure Active Directory groups and Dataverse security roles
+### Sync Microsoft Entra groups and Dataverse security roles
 
-Synchronize your Azure Active Directory groups to the Dataverse security roles. Although this step is optional, we recommend you assign Azure Active Directory permissions to ensure that adding and removing users is reflected in both Azure Active Directory and Power Platform. To automate the process using the Web API, see [Assign a security role to an Azure Active Directory group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
+Synchronize your Microsoft Entra groups to the Dataverse security roles. Although this step is optional, we recommend you assign Microsoft Entra ID permissions to ensure that adding and removing users is reflected in both Microsoft Entra ID and Power Platform. To automate the process using the Web API, see [Assign a security role to a Microsoft Entra group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
