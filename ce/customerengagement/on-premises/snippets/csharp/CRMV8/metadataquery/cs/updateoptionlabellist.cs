@@ -15,7 +15,7 @@
   catch (FaultException<Microsoft.Xrm.Sdk.OrganizationServiceFault> ex)
   {
    // Check for ErrorCodes.ExpiredVersionStamp (0x80044352)
-   // Will occur when the timestamp exceeds the Organization.ExpireSubscriptionsInDays value, which is 90 by default.
+   // Will occur when the timestamp exceeds the Organization.ExpireSubscriptionsInDays value, which is 7 by default.
    if (ex.Detail.ErrorCode == unchecked((int)0x80044352))
    {
     //reinitialize cache
