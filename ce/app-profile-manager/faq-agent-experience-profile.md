@@ -4,7 +4,6 @@ description: Frequently Asked Questions about adding users to agent experience p
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: conceptual
 ms.date: 04/05/2023 
 ms.custom: bap-template 
