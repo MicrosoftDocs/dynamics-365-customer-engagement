@@ -15,7 +15,7 @@ This section explains how to create assignment rules and segments for a specific
 
 - [Assign lead to the account owner](#assign-lead-to-the-account-owner)
 - [Assign lead to sellers with relevant skills or qualifications](#assign-lead-to-sellers-with-relevant-skills-or-qualifications)
-- [Assign a seller who lives in the same postal code as the lead](#assign-a-seller-who-lives-in-the-same-postal-code-as-the-lead)
+- [Assign a lead to seller with matching business unit and lives in the same postal code](#assign-a-lead-to-seller-with-matching-business-unit-and-lives-in-the-same-postal-code)
 - [Skip rules for self-created leads](#skip-rules-for-self-created-leads)
 - [Assign leads generated from a campaign to product specific sales teams](#assign-leads-generated-from-a-campaign-to-product-specific-sales-teams)
 
@@ -31,7 +31,7 @@ This section explains how to create assignment rules and segments for a specific
 There are two ways to automate:
 
 1. [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner).
-1. [Filter leads from existing account and assign the lead to account](#filter-leads-from-existing-account-and-assign-the-lead-to-account).
+1. [Filter leads from existing account and assign the lead to account owner](#filter-leads-from-existing-account-and-assign-the-lead-to-account-owner).
 
 Let's look at each option in detail.
 
@@ -51,9 +51,9 @@ Segment all leads from existing accounts and then create an assignment rule to f
 
     Any new lead that is from an existing account automatically comes into this segment and assignment rules configured to this segment will be executed.
 
-### Filter leads from existing account and assign the lead to account
+### Filter leads from existing account and assign the lead to account owner
 
-Create an assignment rule to filter leads from existing account and then assign the lead to an account.
+Create an assignment rule to filter leads from existing account and then assign the lead to an account owner.
 
 1. Select the segment for which you want to assign leads to account owners. Here, we're using the default segment.
 
@@ -68,7 +68,7 @@ Create an assignment rule to filter leads from existing account and then assign 
         :::image type="content" source="media/wa-example-ar-assign-leads-account-lead-parent-account.png" alt-text="Screenshot that shows adding a condition for choosing the account owning user related entity with account equals to lead's parent account.":::
 
 > [!NOTE]
-> We recommended to use the [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner) option when dealing with a large number of leads. This approach can enhance performance, especially when conditions are distributed between segments and assignment rules.
+> We recommended to use the [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner) option when dealing with a large number of leads. This approach can enhance performance as conditions are distributed between segments and assignment rules.
 
 ## Assign lead to sellers with relevant skills or qualifications
 
@@ -83,7 +83,7 @@ Let's consider that you're a sales manager from a financial institution, respons
 
 1. Create an assignment rule to assign leads related to insurance to sellers with the required certificate and qualification.
     
-    1. In the **Eligible leads for this rule** section, create a condition where **Lead category** equals to **Insurance** to filter leads with insurance.
+    1. In the **Eligible leads for this rule** section, create a condition where **Lead category** equals to **Insurance** to filter leads with insurance. Here, we've customized the lead entity by adding **Insurance** as a category. 
 
         :::image type="content" source="media/wa-example-ar-assign-leads-account-rsq.png" alt-text="Screenshot that shows adding a condition with lead category equals to insurance.":::
 
@@ -99,9 +99,12 @@ Let's consider that you're a sales manager from a financial institution, respons
 
     Any new lead that is related to insurance automatically comes into this assignment rule. 
 
-## Assign a seller who lives in the same postal code as the lead
+## Assign a lead to seller with matching business unit and lives in the same postal code  
 
-You want to route leads to sellers who share the same postal code. Here, we use the dynamic matching criteria to assign leads to sellers who live in the same postal code as the lead. For example, if your organization is serving 150 regions, and creating assignment rule for each region is difficult to manage. With dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead though the value *Lead.Country* (the **Country** value is defined in [global option set](/powerapps/maker/data-platform/custom-picklists) for both lead and [system user](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9) entities).
+You want to route leads to sellers who share the same postal code and matches the business unit. If you have a large number of regions, creating assignment rules for each region is difficult to manage. By using the dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead and matches business unit.  
+
+>[!NOTE]
+>An example to understand the dynamic matching criteria&mdash;If your organization is serving 150 regions, and creating assignment rule for each region is difficult to manage. With dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead through the value **Lead.Country** (the **Country** field is defined in [global option set](/powerapps/maker/data-platform/custom-picklists) for both lead and [system user](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9) entities).
 
 > [!NOTE]
 > Here we are considering the default segment while creating the assignment rule.
@@ -110,8 +113,12 @@ You want to route leads to sellers who share the same postal code. Here, we use 
 
     - Select **Sellers with matching criteria** from the dropdown list.  
     - Select the **Use seller attributes defined for assignment rules** option.  
-    - Add the condition through the add row option, **ZIP/Postal Code** > **Equals** > **$(address_1_postalcode)**.  
-        Here, we're using the string type field (a single line of text) and is the logical name on the selected attribute. The **ZIP/Postal Code** attribute is a system user field that needs to match with the lead field called **address_1_postalcode**, which is the logical name for the field **ZIP/Postal Code** in lead entity. 
+    - Add the following conditions:
+        - **ZIP/Postal Code** > **Equals** > **$(address_1_postalcode)**.  
+            The **ZIP/Postal Code** field is a system user field that needs to match with the **ZIP/Postal Code** in lead entity. As the **ZIP/Postal Code** field is of type string (a single line of text), use the logical name of the **ZIP/Postal Code** field (**address_1_postalcode**) from the lead entity to match system users. The syntax to add a string value is *$(<logical name of the field>)*.  
+
+        - **Business Unit** > **Equals** > **Leads.Owning Business Unit**.  
+            The **Business unit** field is an option set that is available in both lead and system user. Select the **Leads.Owning Business Unit** value from the dropdown list. 
 
     :::image type="content" source="media/wa-example-ar-assign-leads-same-postalcode.png" alt-text="Screenshot that shows adding a condition for postal code.":::
 
