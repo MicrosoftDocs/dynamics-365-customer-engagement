@@ -52,9 +52,9 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When an agent selects the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel <br><br> Chat|
-| Active        | Open             | When an agent disconnects the conversation and don't reconnect within a specified timeout period. <br><br> When an agent releases the conversation to the queue. <br><br> When an agent transfers the conversation to another queue. <br><br> When an agent closes the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
+| Active        | Open             | When an agent disconnects the conversation and doesn't reconnect within a specified timeout period. <br><br> When an agent releases the conversation to the queue. <br><br> When an agent transfers the conversation to another queue. <br><br> When an agent closes the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
 | Active        | Waiting          | When an agent closes the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
-| Active | Closed | When an agent resolves the case (or get a record to non-active state) and closes the session. | Record |
+| Active | Closed | When an agent resolves the case (or get a record to nonactive state) and closes the session. | Record |
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](media/oc-conversation-active.png "Active state")
 
@@ -78,7 +78,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 > [!NOTE]
 > Waiting state applies only to asynchronous and persistent chats, and not live chats.
 
-A conversation in waiting doesn't block their capacity. The conversation gets transitioned to waiting when the agent closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, the agent is waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
+A conversation in waiting doesn't block their capacity. The conversation gets transitioned to waiting when the agent closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, the agent waits for some information from customer and doesn't want to end the conversation, or the customer's browser closes unexpectedly.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
