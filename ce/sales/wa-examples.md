@@ -1,12 +1,11 @@
 ---
 title: Example for assignment rules and segments
-description:   
+description: This section explains how to create assignment rules and segments for a specific scenario with examples. 
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: how-to 
+ms.topic: how-to
 ms.date: 11/09/2023
-ms.custom: bap-template
 ---
 
 # Examples for assignment rules and segments
