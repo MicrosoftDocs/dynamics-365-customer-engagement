@@ -198,12 +198,12 @@ For hours journals, evaluate which project categories to use in Field Service wo
 
 ### Configure posting behaviors with Field Service Settings
 
-Depending on the nature of your organization's Field Service work, organizations may benefit from two potential posting behaviors of journals and lines in Finance and Operations.
+Depending on the nature of your organization's Field Service work, benefit from two potential posting behaviors of journals and lines in Finance and Operations.
 
 In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
 
 - **When work order is posted**: For work orders of short duration, posting transactions to journals in Finance and Operations can wait until the work is completed. Inventory changes or financial updates show on the general ledger or inventory when the work order is posted. There's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
-- **When product or service is used**: For long-running work orders, posting transactions in Finance and Operations as soon as they occur, helps track inventory consumption in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they have been posted in Finance and Operations reverts the previously posted transaction generates new transaction.
+- **When product or service is used**: For long-running work orders, posting transactions in Finance and Operations as soon as they occur, helps track inventory consumption in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted in Finance and Operations reverts the previously posted transaction generates new transaction.
 
 #### Company alignment
 
@@ -223,9 +223,7 @@ Field Service highlights failed company alignment in multiple places:
 
 ## Create a work order in Field Service
 
-Follow the process to create a work order in Field Service. With the Finance and Operations integration, some additional fields are required.
-
-<!-- Michael, which wo experience? New or old? Jason just said follow the create a work order in FS process.-->
+Follow the process to create a work order in Field Service. With the Finance and Operations integration, more fields are required.
 
 1. [Create a work order](create-work-order.md) in Field Service and fill in the required fields.
 
@@ -243,7 +241,7 @@ Follow the process to create a work order in Field Service. With the Finance and
 
 1. Select **Save**. A corresponding subproject project is created in Finance and Operations under the selected **Finance and Operations project**. This subproject is the record against which all transactional journals are created.
 
- Any time products or services are added, journals and journal lines on the subproject for the work order are automatically created.
+ When products or services are added, journals and journal lines on the subproject for the work order are automatically created.
 
 ### Alignment of work order to projects
 
@@ -251,19 +249,19 @@ The **Finance and Operations project** field defines what project the work order
 
 ## Transaction synchronization
 
-The integration uses a reliable asynchronous transaction framework to make sure that Field Service updates are accurate and reliable. 
+The integration uses a reliable asynchronous transaction framework to make sure that Field Service updates are accurate and reliable.
 
 - The integration relies on the [enabled dual-write framework and the mappings](#enable-and-map-dual-write) to ensure that transactions use a common understanding of critical core concepts.
 
 - Each transaction on a work order is committed within Field Service before creating an update in the Finance Supply Chain Management.
 
-  - When the transaction is finalized within the Customer Engagement platform, it creates a record in the Finance and Operations Transactions table that shows the status of each transaction.
+  - When the transaction is finalized within in Field Service, it creates a record in the Finance and Operations Transactions table that shows the status of each transaction.
 
   - The integration monitors the transaction statuses of the work orders and projects in Field Service and Finance and Operations. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
-  - If the transaction fails to complete in Finance and Operations, the transaction is backed out in Finance and Operations and the status of the Finance and Operations transaction in Customer Engagement will indicate the failure. It retries the transaction three times to ensure it wasn't blocked by a transient issue.
+  - If the transaction fails to complete in Finance and Operations, the transaction is backed out and the status in Field Service indicates the failure. It retries the transaction three times.
 
-  - If the transaction still fails to synchronize, the error and transaction details are preserved in the Finance and Operations transaction record, allowing a user to troubleshoot the issue and retrigger the transaction, when appropriate.
+  - If the transaction still fails to synchronize, the error and transaction details are preserved in the Finance and Operations transaction record You can use these details troubleshoot the issue.
 
     - With correct system configuration, this level of intervention is the exception to making sure that transactional consistency can be maintained between these two platforms.
 
@@ -277,7 +275,7 @@ The integration creates hierarchical projects in Finance and Operations, which c
 
 - A project type of **Time and material**, which allows it to track product and service transactions.
 
-- A project group of **Field Service Integration**, which indicates that it's created by the integration.
+- A project group of **Field Service Integration**.
 
 - A project stage of **In progress**, which means that it's active and can be updated.
 
@@ -303,7 +301,7 @@ Depending on the inventory product selected when creating a work order product, 
 
   - The warehouse and location fields are populated with the values from Finance and Operations, based on the legal entity to which the work order's service account belongs.
 
-    - Depending on the configuration of the product in Finance and Operations and it's tracking dimensions configuration, the Work Order Product's location field may be required when the product is marked as Used.
+    - Depending on the configuration of the product in Finance and Operations and its tracking dimensions configuration, the Work Order Product's location field may be required when the product is marked as Used.
 
 - When a user modifies or deletes the corresponding transaction in Field Service, the integration updates or deletes the journal and journal line in Finance and Operations, accordingly.
 
@@ -343,20 +341,12 @@ For organizations using product variants, there are relevant views that show all
 
 ## Processes and functionality in Finance and Operations not currently supported
 
-<!--- is more info needed on the bulleted items with no info? --->
+The following processes or features available within the finance and operation apps aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
 
-The following processes or features available within the Finance Supply Chain Management aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
+- [Reserving inventory feature](dynamics365/supply-chain/inventory/reserve-inventory-quantities) to reserve  inventory quantities for certain orders.
 
-- [Reserving inventory feature](dynamics365/supply-chain/inventory/reserve-inventory-quantities) in Microsoft's Finance and Operations reserves specific inventory quantities for certain orders.
+- Tracking dimensions to define the granularity of an item's tracking in subsequent transactions. This feature is useful for tracking items by batch or serial number.
 
-- Tracking dimensions in Microsoft's Finance and Operations define the granularity of an item's tracking in subsequent transactions. This feature is useful for tracking items by batch or serial number.
-
-- Bookable resource to worker alignment
+- Aligned mapping of bookable resource to worker.
 
 - Finance and Operations to Field Service alignment of project journals on the work order's sub-project. When a Field Service user creates or updates a work order product or work order service, those updates are reflected in Finance and Operations against their respective journal. However, if a user within Finance and Operations creates or updates an expense journal, hours journal, or item journal, that won't be reflected on the respective Field Service transaction record.
-
-- Parts planning
-
-- Fee Journals
-
-- Using integrated project operations on the same company
