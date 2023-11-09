@@ -58,6 +58,6 @@ Here are a few things to consider when you configure your bots for multilingual 
 
 [Introduction to the voice channel](voice-channel.md)  
 [Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)  
-[Set up a multilingual bot in Power Virtual Agents](set-up-multilingual-pva-bot.md)  
+[Set up a multilingual bot in Power Virtual Agents](/power-virtual-agents/multilingual)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
