@@ -124,7 +124,7 @@ You want to route leads to sellers who share the same postal code and matches th
 
 ## Skip rules for self-created leads
 
-In your organization, leads come from different sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that include leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
+In your organization, leads come from various sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that include leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
 
 1. Customize lead form to add a field to route to another seller.  
     Create and add a custom field to the lead from to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
