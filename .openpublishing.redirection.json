@@ -516,6 +516,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/set-up-multilingual-pva-bot.md",
+      "redirect_url": "/power-virtual-agents/multilingual",
+      "redirect_document_id": "false"
+    },   
+    {
       "source_path": "ce/customer-service/learning-catalog.md",
       "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
       "redirect_document_id": "false"
