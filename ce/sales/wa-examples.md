@@ -149,10 +149,13 @@ Your organization conducts an annual festive campaign that generates leads for t
    When the eligible leads are already filtered in the segment definition, then you may ignore this step. Otherwise, create an assignment rule for the segment and under the eligible leads section, define conditions as described:
 
     - In **Eligible leads for this rule** section, add the conditions.  
+
         -  **Interested Product** > **Contains data**.
             This condition considers leads with a product of interest.  
+
         - Source Campaign > Equals > **Annual Festive Campaign**.  
             This condition considers leads that are generated from the annual festive campaign.
+
     - In **Assign these leads to a seller, team, or queue** section, select **Teams with matching attributes** from the dropdown list and add the condition **Product Owned** > **Equals** > **Lead.Interested Product**.  
         This condition identifies the product owned by the team and assigns the lead to the team.
 
