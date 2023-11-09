@@ -148,7 +148,7 @@ Your organization conducts an annual festive campaign that generates leads for t
 1. Filter leads with information about the product of interest that are coming from campaign and assigning them to the specialized sales team.  
    When the eligible leads are already filtered in the segment definition, then you may ignore this step. Otherwise, create an assignment rule for the segment and under the eligible leads section, define conditions as described:
 
-    - In **Eligible leads for this rule** section, add the conditions.
+    - In **Eligible leads for this rule** section, add the conditions.  
         -  **Interested Product** > **Contains data**.
             This condition considers leads with a product of interest.  
         - Source Campaign > Equals > **Annual Festive Campaign**.  
