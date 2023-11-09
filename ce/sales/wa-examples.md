@@ -1,6 +1,6 @@
 ---
 title: Example for assignment rules and segments
-description: Learn how to create assignment rules and segments for a specific scenario with examples.  
+description:   
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -117,7 +117,7 @@ You want to route leads to sellers who share the same postal code. Here, we use 
 
 ## Skip rules for self-created leads
 
-In your organization, leads come from different sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that includes leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
+In your organization, leads come from different sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that include leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
 
 1. Customize lead form to add a field to route to another seller.  
     Create and add a custom field to the lead from to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
@@ -136,14 +136,29 @@ In your organization, leads come from different sources, such as marketing campa
 1. Set highest priority to the segment with no assignment rules.  
     If a lead satisfies conditions for multiple segments, then the segment with highest priority takes precedence. To ensure that leads remain with the seller who created the lead, set highest priority the **Do not route leads** segment.   
 
-    :::image type="content" source="media/wa-example-segment-set-highest-priority.png" alt-text="Screenshot that shows setting highest priority to the Do not route leads segment.":::
+    :::image type="content" source="media/wa-example-segment-set-highest-priority.png" alt-text="Screenshot that shows setting highest priority to the Don't route leads segment.":::
 
 ## Assign leads generated from a campaign to product specific sales teams.
 
+Your organization conducts an annual festive campaign that generates leads for the range of products offered by the organization. You've dedicated sales teams specializing in each product, and your objective is to ensure that the leads generated from the campaign are routed to the corresponding product specialist sales teams. You can achieve this through the following process.
 
+1. Identify attributes between leads and team to match the products.  
+    Every specialized sales team has the **Product Owned** attribute that has information about product that the sales team owns, and lead has the **Interested Product** attribute that has information about the potential customer’s interest. 
 
+1. Filter leads with information about the product of interest that are coming from campaign and assigning them to the specialized sales team.  
+   When the eligible leads are already filtered in the segment definition, then you may ignore this step. Otherwise, create an assignment rule for the segment and under the eligible leads section, define conditions as described:
 
+    - In **Eligible leads for this rule** section, add the conditions.
+        -  **Interested Product** > **Contains data**.
+            This condition considers leads with a product of interest.  
+        - Source Campaign > Equals > **Annual Festive Campaign**.  
+            This condition considers leads that are generated from the annual festive campaign.
+    - In **Assign these leads to a seller, team, or queue** section, select **Teams with matching attributes** from the dropdown list and add the condition **Product Owned** > **Equals** > **Lead.Interested Product**.  
+        This condition identifies the product owned by the team and assigns the lead to the team.
 
+    :::image type="content" source="media/wa-example-ar-assign-leads-product-teams.png" alt-text="Screenshot that shows defining conditions to assign leads generated through annual festive campaign to product teams.":::
+
+    This ensures that all leads coming from the campaign are automatically assigned to the most appropriate sales team and the sellers within the team can nurture them to closure.
 
 ### See also
 
