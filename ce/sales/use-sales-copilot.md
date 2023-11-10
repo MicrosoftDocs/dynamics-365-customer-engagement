@@ -36,7 +36,7 @@ Your administrator must [turn on and configure Copilot](enable-setup-copilot.md)
 
 You can open Copilot as a side pane, in the context of a record, such as an opportunity or lead, or in a full-screen view.
 
-### Open Copilot in the side pane
+### Open Copilot as a side pane
 
 Open the Copilot side pane when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings, without leaving the current page. 
 
@@ -48,7 +48,7 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 Open the Copilot page in full-screen view when you want more space and focus to chat with Copilot and ask questions.
 
-1. Select **Copilot** from your sitemap.  If you don't see **Copilot** in your sitemap, ask your administrator to turn on the Copilot preview feature flag. 
+1. Select **Copilot** from your sitemap.  If you don't see **Copilot** in your sitemap, ask your administrator to [turn on the Copilot preview feature flag](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps). 
 
     :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page along with the list of suggested requests.":::
 
@@ -56,7 +56,7 @@ Open the Copilot page in full-screen view when you want more space and focus to 
 
 ## Chat with Copilot 
 
-You can use the predefined prompts in Copilot to get information, ask questions, and stay ahead of your work.
+You can use the predefined prompts in Copilot to get the most out of Copilot. 
 
 - [Get information from Copilot](copilot-get-information.md)  
 - [Ask questions to Copilot](copilot-ask-questions.md)  

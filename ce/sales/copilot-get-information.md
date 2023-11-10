@@ -4,8 +4,6 @@ description: Discover how to use Copilot to get information about your pipeline,
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -23,22 +21,27 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 ## Show my pipeline
 
-Copilot can get you the list of the open opportunities that you own, sorted by the estimated close date. 
+Copilot can get you the list of opportunities that you own, sorted by the estimated close date. 
 
-In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Show my pipeline** and press **Enter** to view your opportunity pipeline. 
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Show my pipeline** and press **Enter** to view your opportunity pipeline. 
 
 
 ## Summarize a lead or opportunity
 
-In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
-    
-- If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-- If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
-    
-To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**. 
+1. Press **Enter**. One of the following happens:
 
-:::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+    - If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
+
+    - If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
+    
+    To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
+
+    :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
 
 
 ### Would you like to see a different set of fields summarized?
@@ -76,12 +79,16 @@ Copilot can get the latest news that features or mentions your accounts, curated
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm that they're from authentic sources and are indeed about your customer.
 
-In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** and press **Enter**. One of the following happens:
-- If you're in the context of an account record, you'll see the list of news articles related to that account.  
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-- If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** 
+
+1. Press **Enter**. One of the following happens:
+    - If you're in the context of an account record, you'll see the list of news articles related to that account.  
+
+    - If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
     
-To get the news articles for a specific account, type **/** and then start typing the name of the account.
+    To get the news articles for a specific account, type **/** and then start typing the name of the account.
 
 
 ### See also
