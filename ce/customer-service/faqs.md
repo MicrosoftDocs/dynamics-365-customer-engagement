@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 09/20/2023
+ms.date: 11/10/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -114,13 +114,9 @@ This section helps answer some of the questions on how presence works.
 
 The system clears your manual override when you become inactive or sign out from the application.
 
-### If the agent is inactive for less than 2.5 minutes, what does the system do?
+### If the agent is disconnected for less than 2.5 minutes, what does the system do?
 
-If the agent is inactive for less than 2.5 minutes, the system will retain the manually overridden presence.
-
-### What happens to the agent presence when they resume work after showing as inactive?
-
-When agents resume work after 2.5 minutes or more of inactivity, the system clears the earlier presence and calculates the presence afresh. We recommend that you refresh the browser after inactivity.
+If the agent is disconnected and signs in within 2.5 minutes, the system will retain the presence that the agent had at the time of disconnection. After 2.5 minutes, the agent's presence is calculated afresh.
 
 ### What factors are considered in presence refresh?
 
