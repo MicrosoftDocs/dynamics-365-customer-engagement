@@ -53,7 +53,7 @@ items:
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Set up users and security roles
-      href: view-user-accounts-security-roles.md
+      href: users-licenses-permissions.md
     - name: Territories
       href: set-up-territories.md
     - name: Location and map settings

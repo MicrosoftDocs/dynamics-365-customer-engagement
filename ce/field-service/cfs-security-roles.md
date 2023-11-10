@@ -24,7 +24,7 @@ In general, access to IoT entities should mimic access to the customer asset ent
 
 - Dynamics 365 system administrator access
 
-- General knowledge of Field Service security roles. For more information, see the topic on [setting up field service users and security roles](view-user-accounts-security-roles.md).
+- General knowledge of Field Service security roles. For more information, see the topic on [setting up field service users and security roles](users-licenses-permissions.md).
 
 > [!Note]
 > We strongly recommended making copies of the Field Service security roles and assigning the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to **Settings > Security > Security Roles**, then select a security role record and choose **Actions > Copy Role**. See the following screenshot for reference.
