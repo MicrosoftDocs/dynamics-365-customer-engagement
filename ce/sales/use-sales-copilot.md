@@ -106,10 +106,9 @@ Copilot can get the latest news that features or mentions your accounts, curated
 As always when you're working with AI-sourced content, read articles thoroughly to confirm that they're from authentic sources and are indeed about your customer.
 
 In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** and press **Enter**. One of the following happens:
-    
-    - If you're in the context of an account record, you'll see the list of news articles related to that account.  
-    
-    - If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
+- If you're in the context of an account record, you'll see the list of news articles related to that account.  
+
+- If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
     
 To get the news articles for a specific account, type **/** and then start typing the name of the account.
 
