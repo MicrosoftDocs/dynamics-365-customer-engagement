@@ -50,7 +50,7 @@ Record summarization helps you get a quick summary of your opportunity and lead 
 
 **More information:**
 
-- [Summarize a lead or opportunity](use-sales-copilot.md#summarize-a-lead-or-opportunity)
+- [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity)
 - [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
 ### Record catch-up
@@ -59,9 +59,9 @@ To help you stay on top of your opportunities and leads, Copilot summarizes any 
 
 **More information:**
 
-- [Get recent changes to a lead or opportunity](use-sales-copilot.md#get-recent-changes-to-a-lead-or-opportunity)
-- [Get recent changes to all your records](use-sales-copilot.md#whats-new-with-my-sales-records)
-- [Get your recent assignments](use-sales-copilot.md#whats-newly-assigned-to-me)
+- [Get recent changes to a lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
+- [Get recent changes to all your records](copilot-ask-questions.md#whats-new-with-my-sales-records)
+- [Get your recent assignments](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Configure fields that you want to catch up on](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
 
 ### Meeting preparation
@@ -70,7 +70,7 @@ Copilot helps you prepare for your upcoming meetings effortlessly, summarizing r
 
 **More information:**
 
-[Prepare for upcoming meetings](use-sales-copilot.md#prepare-for-upcoming-meetings)
+[Prepare for upcoming sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments)
 
 ### Email assistance
 
@@ -80,7 +80,7 @@ Copilot can help you compose professional-looking emails, summarize email conver
 
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy email summary](view-copy-email-summary.md)  
-- [Show emails you haven't replied to](use-sales-copilot.md#show-emails-you-havent-replied-to)
+- [View emails you haven't replied to](copilot-stay-ahead.md#show-emails-you-havent-replied-to)
 
 
 ### News updates
