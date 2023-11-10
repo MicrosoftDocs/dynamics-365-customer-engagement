@@ -72,7 +72,7 @@ Your presence status pertains to the following conditions:
 
 - If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
 
-- If you are disconnected, the system stores your current presence data and immediately marks your presence as "Offline". It stores the presence data for 2.5 minutes to set the same if you sign back in within the duration. After 2.5 minutes, the system recalculates the presence that it needs to set for you. The following agent actions are considered for disconnection: 
+- If you are disconnected, the system stores your current presence data and immediately marks your presence as "Offline". It stores the presence data for 2.5 minutes to set the same presence if you sign back in within the duration. If you don't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set for you. The following agent actions are considered for disconnection: 
 
    - Closes the Customer Service workspace browser tab 
    - Signs out of Customer Service workspace
