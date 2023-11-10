@@ -59,15 +59,15 @@ In the Copilot side pane or page, select the sparkle icon (:::image type="icon" 
 
 ### Summarize a lead or opportunity
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
     
     - If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
     
     - If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
     
-    To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
+To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
 
-    :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+:::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
 
 
 #### Would you like to see a different set of fields summarized?
@@ -105,13 +105,13 @@ Copilot can get the latest news that features or mentions your accounts, curated
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm that they're from authentic sources and are indeed about your customer.
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** and press **Enter**. One of the following happens:
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Get latest news for account** and press **Enter**. One of the following happens:
     
     - If you're in the context of an account record, you'll see the list of news articles related to that account.  
     
     - If you aren't, you'll see a list of news articles for the top 10 accounts that you work with, sorted by the revenue associated with the accounts.
     
-    To get the news articles for a specific account, type **/** and then start typing the name of the account.
+To get the news articles for a specific account, type **/** and then start typing the name of the account.
 
 ## Ask questions
 
