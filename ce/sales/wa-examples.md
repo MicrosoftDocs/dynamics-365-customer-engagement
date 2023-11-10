@@ -1,6 +1,6 @@
 ---
 title: Example for assignment rules and segments
-description: This section explains how to create assignment rules and segments for a specific scenario with examples. 
+description: Learn how to create assignment rules and segments for different scenarios through examples.  
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
@@ -10,7 +10,7 @@ ms.date: 11/10/2023
 
 # Examples for assignment rules and segments
 
-This section we've used few example on how to create assignment rules and segments for a specific scenario. 
+In this section, we've used a few examples to explain how to create assignment rules and segments for different scenarios. 
 
 ## License and role requirements
 
