@@ -54,16 +54,16 @@ Use Copilot to view your pipeline, summarize opportunities and leads, and get th
 
 Copilot can get you the list of the open opportunities that you own, sorted by the estimated close date. 
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Show my pipeline** and press **Enter** to view your pipeline.
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Get info** > **Show my pipeline** and press **Enter** to view your opportunity pipeline. 
 
 
-### Summarize a lead or opportunity 
+### Summarize a lead or opportunity
 
 1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
     
     - If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
     
-    - If you're in the grid view or have opened the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
+    - If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
     
     To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
 
@@ -139,11 +139,11 @@ Copilot can help you catch up on any updates to your opportunity or lead records
 
 The list of recent changes is taken from the audit history of the record. If you don't see the list of changes, ask your administrator to [turn on auditing](./enable-setup-copilot.md#configure-record-catch-up-fields) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **What's changed for opportunity** or **What's changed for lead** and press **Enter**. One of the following happens:
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **What's changed for opportunity** or **What's changed for lead    ** and press **Enter**. One of the following happens:
     
     - - If you have a related record open, you'll see the list of recent changes to the record. For example, if you've opened an opportunity and selected **What's changed for opportunity**, you'll see the list of recent changes to the opportunity.
     
-    - If you're in the grid view or have opened the Copilot page, you'll see a list of records that you own. Hover over the record and select **Get updates** to get the list of recent changes to the record.  
+    - If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Get updates** to get the list of recent changes to the record.  
     
     To get the list of changes for a specific lead or opportunity, type **/** and then start typing the name of the opportunity or lead.
     
@@ -167,9 +167,13 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes recorded in the last three months and the most recent email thread on the timeline of the related record.
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.  
+1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments** to view the list of meetings scheduled on your calendar for the next 24 hours. One of the following happens: 
 
-1. From the list of sales appointments listed, hover over the meeting that you'd like to prepare for and select **Prepare**.
+    - If you are in the context of a record, you'll see the list of sales appointments related to that record. 
+    
+    - If you're in the grid view or the Copilot page, you'll see all your sales appointments. 
+    
+1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.
 
     If you only have one meeting coming up in the next 24 hours, it's summarized automatically.
 
@@ -180,7 +184,11 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
 
 Copilot can help ensure that you don't miss important emails by reminding you of emails that you haven't replied to.
 
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**. 
+In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**. One of the following happens: 
+
+    - If you are in the context of a record, you'll see the list of unanswered emails related to that record. 
+    
+    - If you're in the grid view or the Copilot page, you'll see all your unanswered emails. 
 
 To be included in the list, emails must meet the following criteria:
 
@@ -193,3 +201,4 @@ To be included in the list, emails must meet the following criteria:
 ### See also
 
 - [Copilot overview](copilot-overview.md)
+- [How Copilot responds when in context and out of context](use-copilot-new.md)
