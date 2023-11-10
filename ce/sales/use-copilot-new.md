@@ -1,16 +1,16 @@
 ---
 title: How Copilot responds when in context and out of context
-description: Learn how to use Copilot to summarize your leads and opportunities records, catch up on updates, prepare for meetings, and enrich your leads with data from different sources.
+description: Discover how Copilot responds to questions in context and out of context.
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
- - AI-contribution
+  - AI-contribution
 ms.custom:
- - ai-gen-docs-bap
- - ai-gen-desc
- - ai-seo-date:10/04/2023
- - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/04/2023
+  - bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi

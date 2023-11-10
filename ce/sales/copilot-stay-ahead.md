@@ -1,6 +1,6 @@
 ---
 title: Stay ahead with Copilot
-description: Use Copilot to summarize leads, enrich them with related information, and get the latest news about accounts.
+description: Prepare for upcoming meetings and catch up on emails with Copilot.
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -16,11 +16,12 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
 ---
-## Stay ahead with Copilot
+
+# Stay ahead with Copilot
 
 Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention.
 
-### Prepare for upcoming sales appointments
+## Prepare for upcoming sales appointments
 
 If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes recorded in the last three months and the most recent email thread on the timeline of the related record.
 
@@ -37,15 +38,15 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
     :::image type="content" source="media/copilot-prepare-for-meetings.png" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
 
-### Show emails you haven't replied to
+## Show emails you haven't replied to
 
 Copilot can help ensure that you don't miss important emails by reminding you of emails that you haven't replied to.
 
 In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**. One of the following happens: 
 
-    - If you are in the context of a record, you'll see the list of unanswered emails related to that record. 
-    
-    - If you're in the grid view or the Copilot page, you'll see all your unanswered emails. 
+- If you are in the context of a record, you'll see the list of unanswered emails related to that record. 
+
+- If you're in the grid view or the Copilot page, you'll see all your unanswered emails. 
 
 To be included in the list, emails must meet the following criteria:
 

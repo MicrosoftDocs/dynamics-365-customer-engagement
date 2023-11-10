@@ -1,6 +1,6 @@
 ---
 title: Get information from Copilot
-description: Use Copilot to summarize leads, enrich them with related information, and get the latest news about accounts.
+description: Discover how to use Copilot to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -32,9 +32,9 @@ In the Copilot side pane or page, select the sparkle icon (:::image type="icon" 
 
 In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Ask questions** > **Summarize lead** or **Summarize opportunity**, and then press **Enter**. One of the following happens:
     
-    - If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
-    
-    - If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
+- If you have a related record open, Copilot summarizes that record. For example, if you've opened an opportunity and selected **Summarize opportunity**, you'll see the summary of that opportunity.
+
+- If you're in the grid view or the Copilot page, you'll see a list of records that you own. Hover over the record and select **Summarize** to get a summary of the record.
     
 To get the list of changes for a specific lead or opportunity, type **/** after the prompt, and then start typing the name of the opportunity or lead.
 
@@ -58,7 +58,7 @@ Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
 
-1. [Ask Copilot to summarize a lead](#summarize-an-opportunity-or-a-lead).
+1. [Ask Copilot to summarize a lead](#summarize-a-lead-or-opportunity).
 
     If Copilot finds possible matching records, it lists them after the summary.
 

@@ -89,7 +89,7 @@ Copilot news updates help you stay current with the latest news about your accou
 
 **More information:**
 
-[Show the latest news about an account](use-sales-copilot.md#show-the-latest-news-about-an-account)
+[Show the latest news about an account](copilot-get-information.md#show-the-latest-news-about-an-account)
 
 ## Region availability and languages supported
 

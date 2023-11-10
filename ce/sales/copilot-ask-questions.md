@@ -1,6 +1,6 @@
 ---
 title: Ask questions to Copilot
-description: Use Copilot to summarize leads, enrich them with related information, and get the latest news about accounts.
+description: Get up to speed with Copilot and quickly find out what's changed to your sales records, leads, opportunities, and accounts.
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
