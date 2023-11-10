@@ -675,7 +675,7 @@
       - name: Manage phone music
         href: voice-channel-music.md
       - name: Set up a multilingual bot in Power Virtual Agents
-        href: /power-virtual-agents/multilingual 
+        href: set-up-multilingual-pva-bot.md  
       - name: Set up a multilingual contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
