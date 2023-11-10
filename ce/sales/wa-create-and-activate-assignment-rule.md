@@ -80,7 +80,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 1. In section 3, **Assign these *record type* to sellers or a team**, select one of the following options in the list:
 
-    - **Any seller**: Assign the records to any seller who is available and has the capacity.
+    - **Any seller**: Assign records to any seller who is available and has the capacity.
 
     - **Sellers with matching attributes**: Assign the records to sellers who satisfy the conditions you set using either information about them in Dynamics 365 or [seller attributes that you define](wa-manage-seller-attributes.md) for assignment rules.
 
@@ -88,23 +88,22 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
         You can have up to five conditions. Only one row can be defined as a related entity condition. If you need more, contact Microsoft Support.
 
-    - **Specific sellers**: Assign the records to the sellers you select. The sellers must have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
+    - **Specific sellers**: Assign records to the sellers you select. The sellers must have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
 
-    - **Teams with matching attributes**: Assign record to teams that satisfy the conditions that are defined through the condition builder. You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
-        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to teams. 
+    - **Teams with matching attributes**: Assign records to teams that satisfy the conditions that are defined in the condition builder. You can have a maximum of five conditions, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
 
-    - **Specific teams**: Assign the records to the sales team you select. Any member of the team can pick up the records. The teams must be defined in your organization and have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
-        If you select this option, the **Distribute *record type* by** section isn't shown, because reocrds are assigned to teams. 
+    - **Specific teams**: Assign records to the sales team that you select. Any member of the team can pick up the records. The teams must be defined in your organization and have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
 
-    - **Queues with matching attributes**: Assign records to queues that satisfy the conditions that are defined through the condition builder. You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
-        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to queues.
+    - **Queues with matching attributes**: Assign records to queues that satisfy the conditions that are defined in the condition builder. You can have a maximum of five conditions, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
 
-    - **Specific queue**: Assign records to a specific queue you select. Any member in the queue can pick up the record. The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).  
-        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to queues.
+    - **Specific queue**: Assign records to a specific queue that you select. Any member in the queue can pick up the record. The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).  
 
 ### Select how records should be distributed
 
 If you assign the records to a sales team, this section isn't shown because the rule doesn't distribute them to individual sellers. Instead, the team members effectively distribute the records among themselves.
+
+>[!NOTE]
+>The **Distribute *record type* by** section is available only for seller-related assignments.  
 
 1. In section 4, **Distribute *record type* by**, select how the rule should distribute the records to your sellers. [Learn more about record distribution in assignment rules](understand-lead-distributions-assignment-rules.md).
 

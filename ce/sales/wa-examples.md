@@ -5,18 +5,12 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 11/09/2023
+ms.date: 11/10/2023
 ---
 
 # Examples for assignment rules and segments
 
-This section explains how to create assignment rules and segments for a specific scenario with examples. The following examples are explained in this section:
-
-- [Assign lead to the account owner](#assign-lead-to-the-account-owner)
-- [Assign lead to sellers with relevant skills or qualifications](#assign-lead-to-sellers-with-relevant-skills-or-qualifications)
-- [Assign a lead to seller with matching business unit and lives in the same postal code](#assign-a-lead-to-seller-with-matching-business-unit-and-lives-in-the-same-postal-code)
-- [Skip rules for self-created leads](#skip-rules-for-self-created-leads)
-- [Assign leads generated from a campaign to product specific sales teams](#assign-leads-generated-from-a-campaign-to-product-specific-sales-teams)
+This section we've used few example on how to create assignment rules and segments for a specific scenario. 
 
 ## License and role requirements
 
@@ -25,40 +19,40 @@ This section explains how to create assignment rules and segments for a specific
 | **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
 | **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
-## Assign lead to the account owner
+## Assign a lead to the account owner
 
 There are two ways to automate:
 
-1. [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner).
-1. [Filter leads from existing account and assign the lead to account owner](#filter-leads-from-existing-account-and-assign-the-lead-to-account-owner).
+1. [Create a segment for leads with accounts and assign them to account owner](#create-a-segment-for-leads-with-accounts-and-assign-them-to-account-owner).
+1. [Use assignment rules to filter leads with accounts and assign them to account owner](#use-assignment-rules-to-filter-leads-with-accounts-and-assign-them-to-account-owner).
 
 Let's look at each option in detail.
 
-### Segment leads from accounts and create an assignment rule to owner
+### Create a segment for leads with accounts and assign them to account owner
 
-Segment all leads from existing accounts and then create an assignment rule to find the account owner.
+In this approach, we'll filter the leads with accounts using segment and then assign these leads to the respective account owner using assignment rules. We recommend that you use this option when you're dealing with a large number of leads. It can enhance performance as conditions are distributed between segments and assignment rules.
 
-1. Create the **Segment leads from existing accounts** segment, which takes in all leads with a parent account associated with them. More information: 
+1. Create the **Segment leads from existing accounts** segment, which only takes in leads with an associated parent account.  
 
     :::image type="content" source="media/wa-example-segment-parent-account-lead-row-added.png" alt-text="Screenshot that shows a row added for parent account for lead.":::
 
-1. Create an assignment rule to identify the owner of the account and assign the lead to account owner. While choosing sellers, add the condition through the related entity **Account (Owning User)** where the **Account** equals to **Lead.Parent Account for lead**.
- 
+1. In the **Assignment rules** tab of the segment, create an assignment rule to identify the owner of the account and assign the lead to account owner. While choosing sellers, add the condition through the related entity **Account (Owning User)** where the **Account** equals to **Lead.Parent Account for lead**.
+
     :::image type="content" source="media/wa-example-ar-assign-account-owner.png" alt-text="Screenshot that shows creating an assignment to assign to an account owner.":::
 
 1. Save and activate the **Segment leads from existing accounts** segment.
 
-    Any new lead that is from an existing account automatically comes into this segment and assignment rules configured to this segment will be executed.
+    All new leads from existing accounts automatically come into this segment and are assigned based on the configured assignment rule for this segment.
 
-### Filter leads from existing account and assign the lead to account owner
+### Use assignment rules to filter leads with accounts and assign them to account owner
 
-Create an assignment rule to filter leads from existing account and then assign the lead to an account owner.
+In this approach, we'll use the assignment rules for both filtering the leads with accounts and assigning them to account owners. 
 
 1. Select the segment for which you want to assign leads to account owners. Here, we're using the default segment.
 
 1. Create an assignment rule as follows:
 
-    1. In **Eligible leads for this rule** section, select **Parent account for lead** > **Contains data**. This condition considers leads with a parent account and ignores leads without account.  
+    1. In the **Eligible leads for this rule** section, select **Parent account for lead** > **Contains data**. This condition considers leads with a parent account and ignores leads without account.  
 
         :::image type="content" source="media/wa-example-ar-eligible-leads-parent-account-contains.png" alt-text="Screenshot that shows adding a condition for parent account for leads that contains data.":::
 
@@ -66,10 +60,7 @@ Create an assignment rule to filter leads from existing account and then assign 
     
         :::image type="content" source="media/wa-example-ar-assign-leads-account-lead-parent-account.png" alt-text="Screenshot that shows adding a condition for choosing the account owning user related entity with account equals to lead's parent account.":::
 
-> [!NOTE]
-> We recommended to use the [Segment leads from accounts and create an assignment rule to owner](#segment-leads-from-accounts-and-create-an-assignment-rule-to-owner) option when dealing with a large number of leads. This approach can enhance performance as conditions are distributed between segments and assignment rules.
-
-## Assign lead to sellers with relevant skills or qualifications
+## Assign a lead to sellers with relevant skills or qualifications
 
 Let's consider that you're a sales manager from a financial institution, responsible for selling insurance plans, credit cards, and other financial products to customers. When leads come in for insurance policy, you want to automatically assign the leads to qualified sellers who possess a minimum of an **Insurance Level 1 certification** and hold a **Diploma or degree in finance**. 
 
@@ -98,12 +89,9 @@ Let's consider that you're a sales manager from a financial institution, respons
 
     Any new lead that is related to insurance automatically comes into this assignment rule. 
 
-## Assign a lead to seller with matching business unit and lives in the same postal code  
+## Assign a lead to the seller with matching business unit and lives in the same postal code  
 
-You want to route leads to sellers who share the same postal code and matches the business unit. If you have a large number of regions, creating assignment rules for each region is difficult to manage. By using the dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead and matches business unit.  
-
->[!NOTE]
->An example to understand the dynamic matching criteria&mdash;If your organization is serving 150 regions, and creating assignment rule for each region is difficult to manage. With dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead through the value **Lead.Country** (the **Country** field is defined in [global option set](/powerapps/maker/data-platform/custom-picklists) for both lead and [system user](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9) entities).
+You want to route leads to sellers who share the same postal code and match the business unit. If you have a large number of regions, creating assignment rules for each region is difficult to manage. By using the dynamic matching criteria, you can create a single rule to assign leads to sellers who live in the same postal code as the lead and matches business unit.  
 
 > [!NOTE]
 > Here we are considering the default segment while creating the assignment rule.
@@ -114,42 +102,44 @@ You want to route leads to sellers who share the same postal code and matches th
     - Select the **Use seller attributes defined for assignment rules** option.  
     - Add the following conditions:
         - **ZIP/Postal Code** > **Equals** > **$(address_1_postalcode)**.  
-            The **ZIP/Postal Code** field is a system user field that needs to match with the **ZIP/Postal Code** in lead entity. As the **ZIP/Postal Code** field is of type string (a single line of text), use the logical name of the **ZIP/Postal Code** field (**address_1_postalcode**) from the lead entity to match system users. The syntax to add a string value is **$(_Logical name of the field_)**.  
+            The **ZIP/Postal Code** field is a system user field that needs to match with the **ZIP/Postal Code** in lead entity. As the **ZIP/Postal Code** field is of type string (a single line of text), use the logical name of the **ZIP/Postal Code** field (**address_1_postalcode**) from the lead entity to match [system users](/power-apps/developer/data-platform/webapi/reference/systemuser?view=dataverse-latest&viewFallbackFrom=dynamics-ce-odata-9). The syntax to add a string value is **$(_Logical name of the field_)**.  
 
         - **Business Unit** > **Equals** > **Leads.Owning Business Unit**.  
-            The **Business unit** field is an option set that is available in both lead and system user. Select the **Leads.Owning Business Unit** value from the dropdown list. 
+            The **Business unit** field is an [option set](/powerapps/maker/data-platform/custom-picklists) that is available in both lead and system user. Select the **Leads.Owning Business Unit** value from the dropdown list. 
 
     :::image type="content" source="media/wa-example-ar-assign-leads-same-postalcode.png" alt-text="Screenshot that shows adding a condition for postal code.":::
+
+    The created single rule automatically route every lead to the right seller in the right region.
 
 ## Skip rules for self-created leads
 
 In your organization, leads come from various sources, such as marketing campaigns, visitors from website, partners, and your sales people. The Work assignment feature automatically distribute leads to eligible sellers based on the rules that include leads that were created by sellers. Most often, the leads created by your sellers are routed to another seller based on the assignment rules. However, if you prefer the leads to be assigned to the sellers who actually generate them, you can implement rules to filter out leads created by other sellers. You can achieve this through the following process.
 
-1. Customize lead form to add a field to route to another seller.  
-    Create and add a custom field to the lead from to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
+1. Customize the lead form to add a field to route to another seller.  
+    Create and add a custom field to the lead form to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
     
     :::image type="content" source="media/wa-example-ar-skip-rules-custom-field-leads-form.png" alt-text="Screenshot that shows adding the custom field added to lead form.":::
     
     Set the value for the field to **No** for leads that shouldn't be routed to another seller.
 
-1. Categorize all leads containing the custom file to route to another seller as **No** into the **Do not route leads** segment.  
-    Create the **Do not route leads** segment and then define the condition as **Route to another seller** > **Equals** > **No**. This condition filters out leads that shouldn't be routed to another seller.
+1. Categorize all leads containing the custom field to route to another seller as **No** into the **Do not route leads** segment.  
+    Create a segment called **Do not route leads** and then define the condition as **Route to another seller** > **Equals** > **No**. This condition filters out leads that shouldn't be routed to another seller.
     
     :::image type="content" source="media/wa-example-segment-filter-leads-routing-no.png" alt-text="Screenshot that shows adding the condition to segment leads that aren't routed to another sellers.":::
 
     New or updated leads fall into their respective segments.
 
 1. Set highest priority to the segment with no assignment rules.  
-    If a lead satisfies conditions for multiple segments, then the segment with highest priority takes precedence. To ensure that leads remain with the seller who created the lead, set highest priority the **Do not route leads** segment.   
+    If a lead satisfies conditions for multiple segments, then the segment with highest priority takes precedence. To ensure that leads remain with the seller who created the lead, set highest priority the **Do not route leads** segment. More information: [Prioritize assignment rules](wa-change-priority-assignment-rule.md)
 
     :::image type="content" source="media/wa-example-segment-set-highest-priority.png" alt-text="Screenshot that shows setting highest priority to the Don't route leads segment.":::
 
-## Assign leads generated from a campaign to product specific sales teams.
+## Assign leads generated from a campaign to product-specific sales teams
 
 Your organization conducts an annual festive campaign that generates leads for the range of products offered by the organization. You've dedicated sales teams specializing in each product, and your objective is to ensure that the leads generated from the campaign are routed to the corresponding product specialist sales teams. You can achieve this through the following process.
 
 1. Identify attributes between leads and team to match the products.  
-    Every specialized sales team has the **Product Owned** attribute that has information about product that the sales team owns, and lead has the **Interested Product** attribute that has information about the potential customer’s interest. 
+    Every specialized sales team has the **Product Owned** attribute that has information about product that the sales team owns, and lead has the **Interested Product** attribute that has information about the potential customer’s interest. More information: [Set seller attributes and capacity](wa-manage-seller-attributes.md)
 
 1. Filter leads with information about the product of interest that are coming from campaign and assigning them to the specialized sales team.  
    When the eligible leads are already filtered in the segment definition, then you may ignore this step. Otherwise, create an assignment rule for the segment and under the eligible leads section, define conditions as described:
