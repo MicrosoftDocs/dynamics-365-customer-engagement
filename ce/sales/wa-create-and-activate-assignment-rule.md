@@ -96,7 +96,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
     - **Queues with matching attributes**: Assign records to queues that satisfy the conditions that are defined in the condition builder. You can have a maximum of five conditions, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
 
-    - **Specific queue**: Assign records to a specific queue that you select. Any member in the queue can pick up the record. The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).  
+    - **Specific queue**: Assign records to a specific queue that you select. Any member in the queue can pick up the record. The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/dynamics365/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).  
 
 ### Select how records should be distributed
 
