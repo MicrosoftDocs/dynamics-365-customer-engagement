@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 11/03/2023
 ms.custom: bap-template 
 ---
 
@@ -19,16 +19,16 @@ Copilot case and conversation summaries help you to quickly understand the conte
 
 ## Enable case summaries
 
-Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description.
+Case summaries help agents understand the context of a case, enabling them to resolve customer issues efficiently. Agents get a concise summary of the case with the case title, customer, case subject, product, priority, case type, and case description. Email activity records and notes linked to a case are also used to generate the case summary.
  
-1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane (preview)** for Copilot case summaries to be available.
+1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane** for Copilot case summaries to be available.
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
 1. Select **Manage** in **Summaries**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
 
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms.
+Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. You can also [modify the source case fields that Copilot uses to generate summaries or draft emails](copilot-map-custom-fields.md). 
 
 ## Enable conversation summaries
 
@@ -40,7 +40,7 @@ For Copilot to automatically trigger a conversation summary for a live conversat
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
    - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
 
-## Next steps
+### See also
 
-[Use Copilot to summarize cases and conversations](copilot-use-summary.md)
+[Use Copilot to summarize cases and conversations](copilot-use-summary.md)<br>
 [Enable features in Copilot pane](copilot-enable-help-pane.md)

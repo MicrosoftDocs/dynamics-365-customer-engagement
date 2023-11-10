@@ -3,7 +3,7 @@ title: Markdown formats for agents
 description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/05/2023
+ms.date: 11/03/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: nenellim
@@ -28,7 +28,7 @@ The following table lists the Markdown formats that you can use for your chat me
 | italics                   | \_italic text\_                          | *italic text*                   |
 | strikethrough             | ~strikethrough text~                      | ~~strikethrough text~~                 |
 | blockquote                | > blockquote text                        |  text |
-| header (levels 1&ndash;4) | ### Header3 text                         | **Header 3 text** <br>                  |
+| header (levels 2&ndash;4) | ### Header3 text                         | **Header 3 text** <br>                  |
 | hyperlink                 | `https://www.microsoft.com`         | <https://www.microsoft.com>    |
 | hyperlink with text       | [Hyperlink with text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br>monospace text<br>\`\`\`           | ```monospace text```                     |

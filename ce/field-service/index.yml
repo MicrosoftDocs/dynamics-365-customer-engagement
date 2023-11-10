@@ -28,7 +28,7 @@ highlightedContent:
       url: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
     - title: Troubleshoot
       itemType: concept
-      url: troubleshoot-field-service-solution-health.md
+      url: /troubleshoot/dynamics-365/field-service/welcome-field-service
       
 additionalContent: 
   sections:

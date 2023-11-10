@@ -231,7 +231,7 @@ ProductAssociation newAssociation2 = new ProductAssociation
 };  
 _product2AssociationId = _serviceProxy.Create(newAssociation2);  
   
-if ((_product1AssociationId != null) && (_product1AssociationId != null))  
+if ((_product1AssociationId != null) && (_product2AssociationId != null))  
 Console.WriteLine("\nAdded both the products to the bundle");  
 ```  
   

@@ -1,159 +1,156 @@
 ---
-title: Work order form and component experience
-description: The new work order experience simplifies work order creation, management, and scheduling.
+title: New work order experience
+description: Learn about the new work order experience in Dynamics 365 Field Service, including how to manage work orders and customize forms.
 ms.date: 07/14/2023
 ms.topic: how-to
 author: lmasieri
 ms.author: lmasieri
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:10/30/2023
 ---
 
-# Work order form and component experience (preview)
+# New work order experience (preview)
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-With the Wave 2 2023 release, Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md). It also provides more information at a glance and uses more visually appealing forms that let you quickly update fields on the form.
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+The 2023 release wave 2 of Dynamics 365 Field Service introduces a refreshed user experience to manage work orders. The new experience simplifies how you [create, manage, and schedule work orders](create-work-order.md), provides more information at a glance, and features more visually appealing forms with fields that you can update quickly. This article contains information about the new work order form, the components that it uses, and considerations for customizing the form.
+
+Watch this brief video to learn more about the new work order experience in Field Service:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
 
-In this article, ww discuss the work order form and the components that it uses. You also find information about customizing the new controls and forms and potential limitations.
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
-
 ## Work order list
 
-### Work order list grid
+The new work order list saves you time and effort. Make quick updates right in the list, and easily access common actions in the new side pane so that you don't have to open the work order details.
 
-To change between the legacy read-only grid and the new editable grid, use the **Show as** control in the command bar. There's also a new default view, which is called **Work Orders (preview)**. Use the view switcher to get to other views that you created. The application sets the view you used most recently as the default view.
+A new view called **Work Orders (preview)** displays columns you often need to update quickly. Use the view switcher to get to other views. The view you used most recently is set as the default view.
 
-:::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of a list grid for work orders.":::
+### Editable work order grid
 
-The new grid shows work orders in a list and lets you update the priority of items inline and [update several other fields in a side pane](#side-pane-for-quick-edits).
+The new editable grid lets you update the status and priority of work orders inline. You can [quickly update other fields in a side pane](#side-pane). To switch between the legacy read-only grid and the new editable grid, select **Show As** in the command bar.
+
+:::image type="content" source="media/work-order-list-grid.png" alt-text="Screenshot of the new Work Orders view in the refreshed Field Service user experience, with the Show As button highlighted.":::
 
 > [!TIP]
-> Currently, we don't support filters for columns in the new work order experience. However, you can select **Show as** > **Read Only Grid** to bring back the classic experience with filtering capabilities.
+> The new work order experience doesn't support filters. However, you can select **Show as** and switch to the read-only grid to bring back the classic experience with filtering capabilities.
 
-### Side pane for quick edits
+### Side pane
 
-The side pane for the work order form is a simplified form. It enables quick actions like status updates, booking a work order, or editing instructions without switching to the detailed work order form.
+The work order side pane is a simplified version of the work order details form. It provides easy access to quick actions like status updates, booking a work order, and editing instructions.
 
-:::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of a work order list with the Work Order Side Pane icon highlighted.":::
+:::image type="content" source="media/work-order-side-pane.png" alt-text="Screenshot of the new Work Orders view, with the side pane icon highlighted in the item list and the side pane open.":::
 
 To open a work order in the side pane, hover over a work order in the list and select the **Work Order Side Pane** icon.
 
-You can open multiple work orders in the side pane and switch between them in the right border or the side pane.
+You can open multiple work orders in the side pane. To switch between them, select the icons in the right border.
 
 ## Work order form
 
-The form for a work order record shows all the available details that relate to the work order. It consists of a *form header* and multiple *sections* that show *cards* with contextual information in the main form. The form header shows the [price not-to-exceed](work-order-not-to-exceed.md), the creation date of the work order, and the [service account](accounts.md).
+The work order form shows all the available details about a work order. It consists of a header and multiple sections, or tabs, that contain contextual information displayed as cards. The form header contains the [price and cost not-to-exceed](work-order-not-to-exceed.md), the work order's creation date, and the [service account](accounts.md).
 
-To change between the old form Work Order and the new form, use the form switcher under the record name.
+To switch between the classic work order form and the new form, use the form switcher under the work order name.
 
-:::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the form switcher to change the work order form type.":::
+:::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the work order form, with the form switcher highlighted.":::
 
-### General section
+### General tab
 
-:::image type="content" source="media/work-order-record-general.png" alt-text="Screenshot of a work order record on the General tab.":::
-
-The *General* section on the work order form contains the following cards:
+The **General** tab on the work order form contains the following cards:
 
 - [Details](#details-card)
-- [Functional location](#functional-location-card)
+- [Functional location](#location-or-functional-location-card)
 - [Financial](#financial-card)
-- [Dynamic bookings](#dynamic-bookings-card)
+- [Dynamic bookings](#dynamic-booking-card)
 - [Contacts](#contacts-card)
 - [Assets](#assets-card)
 
 #### Details card
 
-The details card contains a high level overview of the work order. Here you can see and change its status, substatus, priority, or committed dates and add instructions or write a summary of the work order.
+The **Details** card contains a high-level overview of the work order. Here you can see and change its status, substatus, priority, and committed dates, and add instructions for the technician and a summary of the work order.
 
-#### Functional location card
+#### Location or Functional location card
 
-The location card shows location-related information and a map. The **Service Address** is populated by the address of the selected functional location. If no functional location is selected, it uses to the service address. If no service address is present, it uses the address of the contact that reported the issue that initiated the work order.
+The **Location** or **Functional location** card contains the service address, information about where to find the asset at the address (the functional location), and a map. If no functional location is available, the card shows only the service address. If no service address is available, the card shows the address of the contact who reported the issue that initiated the work order.
 
 #### Financial card
 
-The financial card is your hub for all things finances for a work order. It lets you set the [billing account](accounts.md), configure if the [work order is taxable](set-up-tax-codes.md), select the [price list](create-price-list.md), and [define NTE](work-order-not-to-exceed.md) information.  
+The **Financial** card contains all the financial information for a work order, such as the [billing account](accounts.md), whether the [work order is taxable](set-up-tax-codes.md), the [price list](create-price-list.md) to apply, and the [not-to-exceed amount](work-order-not-to-exceed.md), if applicable.
 
-#### Dynamic bookings card
+#### Dynamic Booking card
 
-The dynamic card is the key change in the new work order form. It replaces the previously used business process flow, and it's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). The dynamic card currently supports only work order with a single requirement.
+The new, dynamic card for bookings is the key change in the new work order form. It replaces the business process flow in the classic form. It's designed to help you take the next action to [move a work order through its lifecycle](work-order-status-booking-status.md). For now, the dynamic card supports only work orders with a single requirement.
 
-The card has different states, depending on the work order status:
+The **Booking** card contains different information, depending on the work order's status.
 
-- **Unscheduled work orders**: Get booking suggestions that fit within the time frame (date/time promised) for the work order and meets the required skills to get this work done. The suggestions are based on the work order requirement. For each resource, you get the appointment time and information on their travel time from the previous appointment. If no suggestion works, select **Find availability** to open the schedule assistant and choose a resource to book them.
+- **Unscheduled**: Get booking suggestions that fit the required or promised timeframe and the required skills. For each resource, the card shows the suggested appointment time and the travel time from the technician's previous appointment. If no suggestion works, select **Find more availability** to open the schedule assistant and choose a resource to book.
 
-- **Scheduled work orders**: See booking details, contact information of the technician, appointment time, duration of the booking, and the expected travel time. You can change the status of a booking and rebook it if needed.
+- **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time.  You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
 
-- **Completed work orders**: Find a summary of the completed work completed, including the resolution for the work order and number of products and services used. If the work order isn't posted, you can review this information and  post it or [print a service report if configured](mobile-powerapp-reporting.md). For posted work orders, you can print the service report, view the invoice, or print the invoice.  
+- **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile-powerapp-reporting.md). If the work order has been posted, you can print the service report and view or print the invoice.
 
 #### Contacts card
 
-Get contact information for the *reported by* contact and the *account contact*. Select the contact name to open the contact page and edit details or see details about the contact.
+The **Contacts** card contains the name and address book information for the account contact and the person who reported the issue. Select a name to open the contact details page to view or edit the contact's information.
 
-The phone number defaults to the account's business phone, but if that’s not present we use their mobile phone. You can start a phone call or email using the default client set in your browser. The message hyperlink opens Microsoft Teams.  
+The phone number defaults to the account's business phone. If a business phone number isn't available, the card shows the contact's mobile phone number. You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams.
 
 #### Assets card
 
-The asset card is the unified place to see all assets associated with the work order across products, services, and tasks.  
+The **Assets** card shows a tree view of all the assets that are associated with the work order across products, services, and tasks.
 
-In its empty state, the assets card asks for the primary asset for this work order. You can create new assets in the side pane, directly from the work order form. If the work order has products and services associated, the primary asset establishes a relationship with each of the products and services. When you add more products and services, you can associate them with different assets.  
+If the **Assets** card is empty, you can select the primary asset for the work order. You can also create an asset in the side pane and assign it as the primary asset. The primary asset establishes a relationship with each of the products and services that are associated with the work order. If you add products and services, you can associate them with different assets.
 
-Expand or collapse the assets in the tree to get sub-asset information. Select an asset in the tree to open the side pane and make changes to the asset.
+Expand or collapse the assets in the tree to get information about their subassets. Select an asset in the tree to make changes to it in the side pane.
 
-### Products and services section
+### Products and services tab
 
-The **Products and services** section on the work order form lets you see and manage [products and services](create-product-or-service.md) for the work order with ease. Products are items that a technician uses to complete the work order. Services refers to work that a technician completes and bills the customer for. Important information, such as estimates and used quantities or duration, shows at a glance and you can change the status from estimated to used, or make updates in the contextual side pane for a product or service. To add products or services to the work order, select the **Add service** or **Add product** buttons.
+The **Products and services** tab contains information about the [products and services](create-product-or-service.md) that are associated with the work order. *Products* are items that a technician uses to complete the work order. *Services* refers to work that a technician completes and bills the customer for.
 
-For products, you can see its name, description, whether it’s an inventory or non-inventory product, the estimated and used quantities, the estimated and total price, and the status of whether the product was used or not.
+For products, you can view the name, description, whether it's an inventory or noninventory product, estimated and used quantities, estimated and total price, and whether the product was used or not.
 
-For services, you can see the name of the service name, description, duration, estimated and total price, and the status.
+For services, you can view the name, description, duration, estimated and total price, and status.
 
-Select the side pane icon to open the product or service on the side pane and make further changes in context. Select the name of a product or service to open the full form.
+You can update the status and change the quantity of an item inline or make more extensive updates in the side pane. To add products or services to the work order, select **+ Add service** or **+ Add product**.
 
-The summary card aggregates the financial details for the products and services used on the work order.
+A summary above the item list aggregates the financial details for the products and services used in the work order.
 
-### Tasks section
+### Tasks tab
 
-The tasks summary includes a summary of how many tasks are on the work order, how many are completed, and the estimated and actual durations – giving you at a glance information about work completed and remaining.
+The **Tasks** tab contains an at-a-glance overview of how many tasks are in the work order, how many are completed, and the estimated and actual duration of the work. Below this summary, individual tasks are listed with their estimated duration, progress, and result. Tasks that have an associated [inspection](inspections.md) or a [Dynamics 365 Guide](mixed-reality-guides-integration.md) include a link to the inspection or embedded guide.
 
-Manage your tasks right here and set their completion status quickly. For tasks with associated [inspections](inspections.md), you get a reference to the name of the inspection. A dropdown on the results column lets you choose whether the inspection passed, failed, or partially passed. Tasks that [map to Dynamics 365 Guides](mixed-reality-guides-integration.md) show a reference with the name of the guide.  
+### Reference tab
 
-### Reference section
+The **Reference** tab is the hub for information that's associated with either how to do the work or what work was completed. It contains cards for guides, media such as asset or procedure photos, and knowledge articles. You can link [existing knowledge articles](field-service-knowledge-management.md), create an article, and review or edit attached articles.
 
-The reference section is the hub for all reference information, media and text, that highlights either how to get work done, or what work was completed.
+### Timeline tab
 
-The knowledge articles card contains important information that helps technicians to complete a task or troubleshoot an issue. You can link [existing knowledge articles](field-service-knowledge-management.md), create a new article, and review or edit attached articles.
+The **Timeline** tab contains a log of the activity that's associated with the work order, such as phone calls, emails, and notes.
 
-### Timeline section
+### Related tab
 
-The timeline is the place to see an audit log of activity required to get work done. The timeline lists phone calls, emails, and notes.
+The **Related** tab lists tables that have a relationship with the work order table.
 
-### Related section
+## Trade coverage validation
 
-In the related section, you find references to entities that have a relationship to the work order entity.
+Depending on how your administrator has [set up trade coverage](trades.md), work orders might check whether the selected account or functional location is covered. Trade coverage defines which trades are covered for an account or a location to make sure the right level of service is provided. For example, if a location doesn't have air conditioning, it shouldn't be possible to create an incident related to an air conditioning system at that location. Similarly, if an account's service contract doesn't include HVAC (heating, ventilation, and air conditioning) maintenance, it shouldn't be possible to create a work order for HVAC maintenance.
 
-## Trade coverage validation for work orders
+If trade coverage is set to not cover a trade, a warning is displayed in the work order. You can still save the work order, however. If no trade coverage is set for a trade, the system assumes that the trade is covered for all parameters. If no trade coverage is defined at all, the work order doesn't display any warnings.
 
-Depending on the [configuration of trade coverages](trades.md), work orders check if the selected account or functional location are covered.
-
-If trade coverage is set to not cover a trade, a warning shows on the work order. However, you can still save the work order.
-
-The validation interprets service accounts and hierarchies in functional locations.
-
-> [!NOTE]
-> If no trade coverage is defined for a trade, the system assumes that the trade is covered for all parameters. Work order won’t show any warnings if trade coverage isn’t defined.
+Validation interprets service accounts and hierarchies in functional locations.<!-- EDITOR'S NOTE: Can you explain a bit more what this means? -->
 
 ## Customization considerations
 
-For more information about work order customizations, see [Customization considerations for the work order form](work-order-customization.md).
+For more information about customizing work orders, see [Customization considerations for the work order form](work-order-customization.md).
 
-## Next steps
+### See also
 
-- [Create a work order](create-work-order.md)
 - [Work order recap with Copilot in Field Service (preview)](work-order-recap.md)
 - [Create work order types](create-work-order-types.md)
 - [Set up booking statuses](set-up-booking-statuses.md)
+- [Create a work order](create-work-order.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
