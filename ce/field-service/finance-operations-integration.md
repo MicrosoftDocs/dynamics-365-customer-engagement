@@ -172,9 +172,9 @@ Across the many journal types on a project, only item journal lines have a relat
 
 In Field Service, the concept of category transaction doesn't exist. Even the services and non-inventory products relate to an item.
 
-In finance and operations applications, all journal types that aren't item journals are category-based transactions. This includes expense journal lines, hours journal lines, and fee journal lines. These journal lines don't relate to an item and require a category.
+In finance and operations applications, all journal types that aren't item journals are category-based transactions. For example, expense journal lines, hours journal lines, and fee journal lines. These journal lines don't relate to an item and require a category.
 
-To bridge this conceptual gap, capture the *Project Category* value product records that Field Service uses for work order transactions. This is a lookup to the *Project Category* table in the finance and operations database. Dual-write doesn't automatically populate this value. Updating the products in Field Service with the project categories from finance and operations applications helps the integration map to the correct journal lines.
+To bridge this conceptual gap, capture the *Project Category* value that Field Service uses for work order transactions. It's a lookup to the *Project Category* table in the finance and operations database. Dual-write doesn't automatically populate this value. Updating the products in Field Service with the project categories from finance and operations applications helps the integration map to the correct journal lines.
 
 #### Create products with project categories
 
@@ -244,7 +244,7 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
   - The integration monitors the transaction statuses of the work orders and projects. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
-  - If the transaction fails to complete, it's backed out and the status in Field Service indicates the failure. The system retries the transaction three times.
+  - If the transaction fails to complete, the status in Field Service indicates the failure. The system retries the transaction three times.
 
   - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record You can use these details troubleshoot the issue.
 
@@ -276,15 +276,11 @@ The subprojects have the following characteristics:
 
 ## Storage dimensions, warehouse, and location selection
 
-The integration supports storage dimensions when correctly configured. Storage dimensions define the levels of detail used for an item's storage in inventory. Some items may need to be tracked precisely by site, warehouse, and location while others may only be tracked at the site or site and warehouse level.
+The integration supports storage dimensions when correctly configured. Storage dimensions define the levels of detail used for an item's storage in inventory. Some items are tracked site, warehouse, and location. Others only at the site or site and warehouse level.
 
 Depending on the inventory product selected when creating a work order product, the defined storage dimensions determines whether location is required within the work order product.
 
-- When you add a product inventory transaction in Field Service, you can select a warehouse and a location from the lookup fields on the transaction form.
-
-  - The warehouse and location fields are populated with the values from finance and operations applications, based on the legal entity to which the work order's service account belongs.
-
-    - Depending on the configuration of the finance and operations product and its tracking dimensions configuration, the work order product location field is required when the product is marked as used.
+- When you add a product inventory transaction in Field Service, you can select a warehouse and a location from the lookup fields on the transaction form. The warehouse and location fields are populated with the values from finance and operations applications, based on the legal entity to which the work order's service account belongs. The configuration of the finance and operations product and its tracking dimensions determine if the work order product location field is required when marking a product as used.
 
 - When a user modifies or deletes the corresponding transaction in Field Service, the integration updates or deletes the journal and journal line.
 
@@ -295,7 +291,7 @@ The warehouse and location fields in Field Service are related to the warehouse 
 
 ## Inventory
 
-When the finance and operations integration is [enabled from the Field Service Settings](#enable-the-integration-from-field-service) the system of record for inventory is Dynamics 365 Supply Chain Management. Field Service's native inventory functionality is suppressed.
+When the finance and operations integration is [enabled from the Field Service Settings](#enable-the-integration-from-field-service), the system of record for inventory is Dynamics 365 Supply Chain Management. Field Service's native inventory functionality is suppressed.
 
 Field Service hides the following navigation items:
 
@@ -311,7 +307,7 @@ Field Service shows the following items:
 - Inventory By Site
 - Inventory By Warehouse
 
-These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview) to expose inventory data directly from Supply Chain Management inside Field Service. This means that the true inventory levels from the system of record are available to users once the integration is enabled.
+These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itpro/power-platform/virtual-entities-overview) to expose inventory data directly from Supply Chain Management inside Field Service. The true inventory levels from the system of record are available to users once the integration is enabled.
 
 ### Inventory views with and without variant details
 
@@ -332,4 +328,4 @@ The following processes or features available within the finance and operation a
 
 - Aligned mapping of bookable resource to worker.
 
-- Alignment of project journals on the work order's sub-project. When a Field Service user creates or updates a work order product or work order service, those updates are synced to their respective journal. However, if a user creates or updates an expense journal, hours journal, or item journal, these changes don't sync to the respective Field Service transaction record.
+- Alignment of project journals on the work order's subproject. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal, hours journal, or item journal don't sync changes to the respective Field Service transaction record.
