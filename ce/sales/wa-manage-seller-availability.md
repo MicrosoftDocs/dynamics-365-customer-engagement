@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 11/10/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -52,27 +52,26 @@ Sellers can then [enter their work schedule](./personalize-sales-accelerator.md#
 
 The Sales Hub app offers three ways to set your sales team's work hours yourself:
 
-- [Set their work hours in advanced settings](#set-work-hours-in-advanced-settings).
+- [Set work hours in work assignment settings](#set-work-hours-in-work-assignment-settings).
 - [Set their work hours with the calendar API](#set-work-hours-with-the-calendar-api).
 - [Use an assignment rule and seller attributes](#set-availability-with-an-assignment-rule-and-seller-attributes).
 
 To temporarily stop assigning sellers who are on vacation or otherwise unavailable, [change their availability in work assignment settings](./wa-work-assignment-manage-settings.md#stop-assigning-work-to-sellers).
 
-### Set work hours in advanced settings
+### Set work hours in work assignment settings
 
-1. Sign in to your Sales Hub app and select **Settings** (the gear icon) > **Advanced Settings**.
+Use the Work assignment settings to configure the sellers' work hours.
 
-1. On the **Advanced Settings** page, select **Settings** > **System** > **Security** > **Users**.
+1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **settings** .
 
-1. Open the record of the seller whose work hours you want to set.
+1. In the **Work assignment settings** page, select the seller from the list and then select **Set availability**.
 
-1. At the top of the page, select the arrow next to the user name, and then select **Work Hours**.
+    >[!NOTE]
+    >You can select only one seller at a time.
 
-    :::image type="content" source="media/manage-seller-availability-select-chevron.png" alt-text="Screenshot of the user settings page, with the arrow next to the user name and the Work Hours button highlighted.":::
+1. In the seller's calendar, select **New** and choose an option to configure the seller's calendar. For more information, see step 4 in [Through work list settings](personalize-sales-accelerator.md#through-work-list-settings).
 
-1. On the **Monthly View** tab, select **Set Up** > **Time Off**.
-
-1. Enter the seller's time off information, and then select **OK**.
+The selected seller's calendar is updated according to your configurations. Also, the **Availability (Next 7 days)** column is updated with the seller's availability for the next seven days.
 
 ### Set work hours with the calendar API
 
@@ -80,7 +79,7 @@ Use the calendar API and enter `msdyn_extendedusersetting` as the value of the `
 
 ### Set availability with an assignment rule and seller attributes
 
-In your assignment rules, create a seller attribute that's based on the seller's availability and assign it as needed. For example, you might create an attribute that has the values *Available* and *On vacation*. When a seller goes on vacation, select the attribute and assign the *On vacation* value to indicate the seller isn't available. [Learn how to manage seller attributes in assignment rules](./wa-manage-seller-attributes.md).
+In your assignment rules, create a seller attribute that's based on the seller's availability and assign it as needed. For example, you might create an attribute that has the values *Available* and *On vacation*. When a seller goes on vacation, select the attribute and assign the *On vacation* value to indicate the seller isn't available. [Learn how to set seller attributes and capacity](./wa-manage-seller-attributes.md).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

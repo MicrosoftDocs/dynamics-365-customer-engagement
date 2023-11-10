@@ -1,7 +1,7 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 10/10/2023
+ms.date: 11/10/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -25,10 +25,6 @@ The purpose of this document is to provide information about the geographic loca
 ## Geographic location availability
 
 Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Power Platform environment or org instance resides.
-
-> [!NOTE]
->
-> In the Europe and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Norway, Sweden, and Singapore.
 
 See the following table for the availability of the channels in the supported geographical regions.
 

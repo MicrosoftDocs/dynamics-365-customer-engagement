@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service
 description: Use this article to learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 07/12/2023
+ms.date: 11/10/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -72,16 +72,13 @@ Your presence status pertains to the following conditions:
 
 - If you change your presence to **Do not disturb**, then Omnichannel for Customer Service doesn't update the presence. But, you can manually change it.
 
-- If you are inactive or signed out due to any reason, the system will clear your presence status and recalculate a fresh status when you resume your work or sign in again.
+- If you are disconnected, the system stores your current presence data and immediately marks your presence as "Offline". It stores the presence data for 2.5 minutes to set the same presence if you sign back in within the duration. If you don't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set for you. The following agent actions are considered for disconnection: 
 
-The system waits for 2.5 minutes, after which the agent is considered as inactive and is marked as offline when the agent does any of the following actions:
-
-- Closes the browser
-- Signs out of Customer Service workspace
-- Closes or signs out of the device
-- Experiences disruption to internet
-- Leaves the browser open without any activity
-
+   - Closes the Customer Service workspace browser tab 
+   - Signs out of Customer Service workspace
+   - Closes or signs out of the device
+   - Experiences disruption to internet
+   
 More information: [FAQ on agent presence](faqs.md#faq-on-agent-presence)
 
 ## Presence status scenarios
