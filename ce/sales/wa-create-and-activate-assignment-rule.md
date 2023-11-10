@@ -15,7 +15,7 @@ ms.custom:
 
 # Create and activate assignment rules
 
-Assignment rules automatically route new leads and opportunities to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. Sales managers spend less time and effort in manual assignment, leads and opportunities don't go overlooked, and assignments are balanced among your salespeople.
+Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. Sales managers spend less time and effort in manual assignment, leads, opportunities, and insights don't go overlooked, and assignments are balanced among your salespeople.
 
 A rule considers only the records that are created or updated after it's activated. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record and no following rules are considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
 
@@ -72,7 +72,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
       :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
-1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider leads created in the last**. Then, select the number of hours a record can remain unassigned after it's created.
+1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Then, select the number of hours a record can remain unassigned after it's created.
 
     If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reasons-records-might-be-left-unassigned) is set to *Seller not assigned as record is older than the set timeframe*.
 
@@ -90,7 +90,17 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
     - **Specific sellers**: Assign the records to the sellers you select. The sellers must have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
 
+    - **Teams with matching attributes**: Assign record to teams that satisfy the conditions that are defined through the condition builder. You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
+        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to teams. 
+
     - **Specific teams**: Assign the records to the sales team you select. Any member of the team can pick up the records. The teams must be defined in your organization and have a [security role that grants them permissions](wa-manage-sales-teams.md) to be assigned by a rule.
+        If you select this option, the **Distribute *record type* by** section isn't shown, because reocrds are assigned to teams. 
+
+    - **Queues with matching attributes**: Assign records to queues that satisfy the conditions that are defined through the condition builder. You can have a maximum of five conditions at any time, and only one row can be defined under a related entity condition. [Recommendations for adding conditions to assignment rules.](#recommendations-for-adding-conditions-to-assignment-rules).  
+        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to queues.
+
+    - **Specific queue**: Assign records to a specific queue you select. Any member in the queue can pick up the record. The queue must be enabled and defined in your organization. [Learn more about how to enable queue for an entity.](/customer-service/enable-entities-for-queues#enable-a-table-for-queues-).  
+        If you select this option, the **Distribute *record type* by** section isn't shown, because records are assigned to queues.
 
 ### Select how records should be distributed
 
@@ -111,7 +121,7 @@ If you assign the records to a sales team, this section isn't shown because the 
 
     - If no seller is available within that time, the record is [left unassigned and marked overdue](wa-manage-unassigned-records.md).
 
-1. (Optional) To consider [a seller's workload](./wa-manage-seller-attributes.md), select **Assign leads based on seller capacity**.
+1. (Optional) To consider [a seller's workload](./wa-manage-seller-attributes.md), select **Assign *record type* based on seller capacity**.
 
 1. Select **Save** to create and activate the rule.
 
@@ -120,6 +130,8 @@ Assignment rules run in the order they're listed. By default, they're listed in 
 ### Recommendations for adding conditions to assignment rules
 
 We limit the number of conditions you can add to your assignment rules to help the rules run faster and more efficiently. Here are some suggestions for when you need more conditions than the limit allows.
+
+- **Dynamic attributes in condition builder**: When creating conditions in the condition builder, you can utilize dynamic attributes to minimize the number of conditions required for a specific attribute. For example, if you wish to assign leads from the United States to sellers from the same country, and likewise for India, Japan, and Brazil, you would need to create four separate conditions for this. However, by using dynamic attributes, you can consolidate this into a single condition as follows: **Country** > **Equals** > **Lead.Country**, where, if a lead's country matches the country of the seller, it will automatically be assigned to the corresponding seller from that country. For more information, see [Route leads with dynamic assignment rules](https://cloudblogs.microsoft.com/dynamics365/it/2021/08/26/route-leads-by-using-assignment-rules-to-dynamically-match-system-user-fields/)
 
 - **Split conditions between assignment rules and segments.** Move some conditions to the segment. For example, if you have 15 conditions in the **Eligible *record type* for this rule** section, move five of them to the associated segment.
 
