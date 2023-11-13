@@ -19,7 +19,7 @@ The integration is designed with the following principles:
 
 - Align transactional data with existing finance and operations functionality. Organizations get a consistent and accurate understanding of sales price and costs associated with work order transactions.
 
-- The integration uses [dual-write infrastructure](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to establish a common understanding of core primary tables, which write core transactions in multiple systems.
+- The integration uses [dual-write infrastructure](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to establish a common understanding of core primary tables, which keeps data consistent between systems. The work order transactional integration, however, uses virtual tables and logic within FS and finance and opertations applications to ensure transactional level alignment and transactional consistency.
 
 - The integration supports new environments or an existing environment with in-flight work orders. After you enable the integration, Field Service pushes data into finance and operations applications based on key data alignment triggers.
 
@@ -39,8 +39,7 @@ The following steps are only required while the feature is in preview.
 
 - Dynamics 365 finance and operations applications preview build number 7.0.6592.16
 
-- Dynamics 365 Field Service version number ???
-<!--need version number-->
+- Dynamics 365 Field Service version number 8.8.116+
 
 1. Access **Modules** and select the **System Administration** module.
 
@@ -110,15 +109,15 @@ The integration depends on dual-write to create a common understanding for prima
 
 ### Security in finance and operations applications
 
-The integration relies on virtual tables and process execution in each user's context. Each user that creates or updates work orders, which sync data with finance and operations applications, needs extra permissions. Assign them the *Field Service Integration User Role* security role.
+The integration relies on virtual tables and process execution in each user's context. Each user that creates or updates work orders, which sync data with finance and operations applications, needs extra permissions. Assign them the *Field Service Integration User* security role.
 
-Users with this role can only interact with finance and operations data through the integration. They can't access the finance and operations applications unless they have a full license.
+Users with this role can only interact with finance and operations data through the integration. They are not entitled to access the finance and operations applications unless they have a full license.
 
-Add the *Maintain Field Service Parameters* permission to administrators who manage the Field Service integration settings in finance and operations applications.
+Administrators that will need to manage the “Dynamics 365 Field Service integration parameters” tab, please assign them the *Field Service Integration Admin* role.
 
 ### Configure default order settings
 
-To ensure that the integration can successfully create item journals, we strongly advice that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can successfully post.
+To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
 
 ## Enable the integration from Field Service
 
@@ -170,7 +169,7 @@ Across the many journal types on a project, only item journal lines have a relat
 
 #### Category-based transactions
 
-In Field Service, the concept of category transaction doesn't exist. Even the services and non-inventory products relate to an item.
+In Field Service, the concept of category transactions don't exist. Even the services and non-inventory products relate to an item.
 
 In finance and operations applications, all journal types that aren't item journals are category-based transactions. For example, expense journal lines, hours journal lines, and fee journal lines. These journal lines don't relate to an item and require a category.
 
@@ -189,24 +188,24 @@ Depending on the nature of your organization's Field Service work, benefit from 
 
 In **Field Service Settings**, on the **Work Order/Booking** tab, choose a value for **Post used for Finance and Operations**:
 
-- **When work order is posted**: For work orders of short duration, posting transactions to journals can wait until the work is completed. Inventory changes or financial updates show on the general ledger or inventory when the work order is posted. There's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
-- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction generates new transaction.
+- **When work order is posted**: For work orders of short duration, posting transactions to journals can likely wait until the work is completed. Inventory changes and financial updates will only post to the general ledger or inventory when the work order is posted. In this scenario, there's a smaller chance of posting a reversal for a given transaction. It only happens if a transaction changes after posting the work order is posted.
+- **When product or service is used**: For long-running work orders, posting transactions as soon as they occur helps track inventory consumption and financial impacts in real-time. It also enables invoicing without delays that can cause inventory and financial discrepancies. Changes to transactions after they were posted reverts the previously posted transaction and generates a new transaction.
 
 ### Company alignment
 
-Field Service and finance and operations applications don't share the same concept of a company. Dual-write solutions add company-related data is to relevant tables like account, product, or warehouse. Field Service introduces guard-rails to help users select the right records across their work orders and work order transactions.
+Field Service and finance and operations applications don't share the same concept of a company. Dual-write solutions add company-related data to relevant tables like account, product, or warehouse. Field Service introduces guard-rails to help users select the right records across their work orders and work order transactions.
 
-Work orders in Field Service require service account. *Service account* is a critical Field Service concept and dual-write introduces the *company* field on the account table. Service account relates to a company and defines that value for rest of the work order and work order transactions.
+Work orders in Field Service require service account. *Service account* is a critical Field Service concept and dual-write introduces the *company* field on the account table. Service account relates to a company and defines that value for the work order and its work order transactions.
 
 If the service account and the company don't match on a work order and the work order transactional records, transactions fail to synchronize until the discrepancy is resolved.
 
-Field Service highlights failed company alignment in multiple places:
+Field Service highlights company misalignment in multiple places:
 
 - On the work order
 
 - On the work order product or work order service
 
-- On the finance and operations transaction level
+- On the finance and operations transaction
 
 ## Create a work order in Field Service
 
@@ -238,45 +237,25 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
 - The integration relies on the [enabled dual-write framework and the mappings](#enable-and-map-dual-write) to ensure that transactions use a common understanding of critical core concepts.
 
-- Each transaction on a work order is committed within Field Service before creating an update in the Finance Supply Chain Management.
+- Each transaction on a work order is committed within Field Service before creating an update in finance and operations applications.
 
   - When the transaction is finalized in Field Service, it creates a record in the transactions table that shows the status of each transaction.
 
   - The integration monitors the transaction statuses of the work orders and projects. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
-  - If the transaction fails to complete, the status in Field Service indicates the failure. The system retries the transaction three times.
+  - If the transaction fails to complete, the status in Field Service indicates the failure. The system (retries the transaction several times)[https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/retryable-batch#retry-the-batch-job-task-regardless-of-the-error-type].
 
-  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record You can use these details troubleshoot the issue.
+  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record, allowing users to troubleshoot the issue and re-sync the transaction, when appropriate.
 
-    - With correct system configuration, this level of intervention is the exception to making sure that transactional consistency can be maintained between the two platforms.
+    - While important, with correct system configuration, this level of intervention into specific transactions will be the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
 
 ## Hierarchical finance and operations projects
 
-The integration creates hierarchical projects, which consist of a main project and one or more subprojects. The main project acts as a container for the subprojects, which represent the individual work orders in Field Service. The main project has the following characteristics:
-
-- The same company, customer, and summary as the first work order that is created in Field Service for that company and customer.
-
-- A project type of **Time and material**, which allows it to track product and service transactions.
-
-- A project group of **Field Service Integration**.
-
-- A project stage of **In progress**, which means that it's active and can be updated.
-
-The subprojects have the following characteristics:
-
-- The same company, customer, and summary as the corresponding work orders in Field Service.
-
-- A project type of **Time and material**, which allows them to track product and service transactions.
-
-- A project group of **Field Service Integration**, which indicates that they're created by the integration.
-
-- A project stage of **Proposal**, which means that they aren't invoiced yet.
-
-- A parent project that is the main project that contains them.
+The integration creates hierarchical projects, which consist of a main project and one or more subprojects. The main project acts as a container for the subprojects, which represent the individual work orders in Field Service. 
 
 ## Storage dimensions, warehouse, and location selection
 
-The integration supports storage dimensions when correctly configured. Storage dimensions define the levels of detail used for an item's storage in inventory. Some items are tracked site, warehouse, and location. Others only at the site or site and warehouse level.
+The integration supports storage dimensions when correctly configured. Storage dimensions define the levels of detail used for an item's storage in inventory. Some items are tracked by site, warehouse, and location. Other items are tracked only at the site or site and warehouse level.
 
 Depending on the inventory product selected when creating a work order product, the defined storage dimensions determines whether location is required within the work order product.
 
@@ -287,11 +266,11 @@ Depending on the inventory product selected when creating a work order product, 
 The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical and logical locations of the inventory items.
 
 > [!NOTE]
-> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site.
+> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. As noted above, it is advisable to configure default order settings, to minimize errors when a work order product with an inventory product is created.
 
 ## Inventory
 
-When the finance and operations integration is [enabled from the Field Service Settings](#enable-the-integration-from-field-service), the system of record for inventory is Dynamics 365 Supply Chain Management. Field Service's native inventory functionality is suppressed.
+When the finance and operations integration is [enabled from the Field Service Settings](#enable-the-integration-from-field-service), the system of record for inventory is Dynamics 365 Supply Chain Management. When enabled, Field Service's native inventory functionality is suppressed.
 
 Field Service hides the following navigation items:
 
@@ -311,7 +290,7 @@ These new inventory items use [virtual tables](/dynamics365/fin-ops-core/dev-itp
 
 ### Inventory views with and without variant details
 
-When the integration is enabled, the inventory views have a variation for organizations that don't use product variants. This inventory view removes severals columns and simplifies inventory visibility.
+When the integration is enabled, the inventory views have a version for organizations that don't use product variants. This inventory view removes several columns and simplifies inventory visibility.
 
 For organizations using product variants, there are relevant views that show all of the details of the inventory levels including columns for size, color, style, and configuration. If necessary, organizations are able to modify the default views as they can with any table.
 
@@ -328,4 +307,4 @@ The following processes or features available within the finance and operation a
 
 - Aligned mapping of bookable resource to worker.
 
-- Alignment of project journals on the work order's subproject. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal, hours journal, or item journal don't sync changes to the respective Field Service transaction record.
+- Alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal, hours journal, or item journal don't sync changes to the respective Field Service transaction record.
