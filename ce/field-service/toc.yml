@@ -531,6 +531,8 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
+    - name: FAQ about Microsoft 365 Chat
+      href: faqs-m365-chat.md
 
 - name: More resources
   items:
