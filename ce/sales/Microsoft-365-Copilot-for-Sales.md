@@ -77,9 +77,9 @@ Microsoft 365 Copilot is available only for en-us language settings.
 
 ## Best practices
 
-When you use Microsoft 365 Copilot to chat with finance and operations data, follow these best practices. These will be revised as we continuously improve the product experience. 
+When you use Microsoft 365 Copilot to chat with Dynamics 365 Sales data, follow these best practices. These will be revised as we continuously improve the product experience. 
 
-- Be specific with what you you ask copilot and avoid ambiguity. If your question is about an account, then use the keyword "account" in your question. For example, don't ask, "Who is the primary contact for Adventure Works?" Instead, ask, "Who is the primary contact for account Adventure Works?".
+- Be specific with what you ask copilot and avoid ambiguity. If your question is about an account, then use the keyword "account" in your question. For example, don't ask, "Who is the primary contact for Adventure Works?" Instead, ask, "Who is the primary contact for account Adventure Works?".
 
 - Be specific about the expected outcomes. If you want results in table format, then use the key phrase "in table format". If you want a consolidated result or a summary, make sure you call it out explicitly. For example, you can ask, "List all accounts in table format."
 
@@ -87,4 +87,4 @@ When you use Microsoft 365 Copilot to chat with finance and operations data, fol
 
 - Use letter casing correctly:
     - Use lower case for field or attribute names, like 'primary contact', 'record owner'. Capital cased words are more likely to be treated as literals. 
-    - If you are unsure about the spelling about a string literals, try using lower case letters so that spelling correction is more likely to kick in. Capital-lettered words are more likely treated as special names and may not be spell checked. 
+    - If you're unsure about the spelling about a string literals, try using lower case letters so that spelling correction is more likely to kick in. Capital-lettered words are more likely treated as special names and may not be spell checked. 
