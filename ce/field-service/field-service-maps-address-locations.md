@@ -29,6 +29,7 @@ Bing Maps is enabled by default for new environments outside the EU. EU customer
 
 For more information, go to [Manage Bing Maps for your organization](/power-platform/admin/manage-bing-maps-organization).
 
+
 ## Connect to maps
 
 Connecting to maps is enabled by default for new environments. To validate or change the setting, review the following steps.
@@ -42,6 +43,12 @@ Connecting to maps is enabled by default for new environments. To validate or ch
    :::image type="content" source="media/settings-connect-maps.png" alt-text="Screenshot of connect maps set to yes.":::  
 
 1. Select **Save & Close**.
+
+
+>[!NOTE]
+> By setting "Connect to Maps" to "Yes", users benefit from service enhancements including location information for work orders and resources/technicians. When the Map API field is left blank, our service will make calls to the Bing API on your behalf for location and travel time information. Alternatively, users can specify their own API key to benefit from customizations [detailed here](https://learn.microsoft.com/en-us/bingmaps/spatial-data-services/data-source-management-api/?toc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fbingmaps%2Fspatial-data-services%2Ftoc.json&bc=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2FBingMaps%2Fbreadcrumb%2Ftoc.json).
+>
+>Note that using a custom API key will incur the costs of usage on the Azure service.
 
 ## Enable auto geocoding for addresses
 
@@ -74,5 +81,12 @@ Frontline workers often travel to various locations throughout their work day, a
 ## Geofencing
 
 A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. For more information, see [Geofencing](mobile-powerapp-geofence.md).
+
+## Use custom Bing Maps API key
+
+You can set "Connect to Maps" to "Yes" in order to benefit from location information of work orders and resources/technicians. You can leave the Map API key blank, and our service will make calls to bing API<link> on your behalf for location and travel time information. Alternatively, you can specify your own API key to benefit from <link>.
+
+Note: if using your own API key, you will incur the costs of usage on the Azure service <link>.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
