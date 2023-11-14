@@ -95,6 +95,8 @@ items:
       href: work-order-recap.md
     - name: Work order creation in Outlook with copilot
       href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview
+    - name: Microsoft 365 Chat for Field Service (Preview)
+      href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -180,6 +182,8 @@ items:
       href: flw-teams-manager.md
     - name: Teams app for the frontline worker
       href: flw-teams-worker.md
+    - name: Microsoft 365 Chat for Field Service (Preview)
+      href: flw-m365-chat.md
 
 - name: Scheduling
   items:
@@ -529,6 +533,8 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
+    - name: FAQ about Microsoft 365 Chat
+      href: faqs-m365-chat.md
 
 - name: More resources
   items:
