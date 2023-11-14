@@ -1346,6 +1346,8 @@
       href: faqs-sales-copilot-for-summarization.md
     - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md      
+    - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
+      href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)
