@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
-description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 11/10/2023
+description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
+ms.date: 11/14/2023
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -19,7 +19,7 @@ The integration is designed with the following principles:
 
 - Align transactional data with existing finance and operations functionality. Organizations get a consistent and accurate understanding of sales price and costs associated with work order transactions.
 
-- The integration uses [dual-write infrastructure](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to establish a common understanding of core primary tables, which keeps data consistent between systems. The work order transactional integration, however, uses virtual tables and logic within FS and finance and opertations applications to ensure transactional level alignment and transactional consistency.
+- The integration uses [dual-write infrastructure](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) to establish a common understanding of core primary tables, which keeps data consistent between systems. The work order transactional integration, uses virtual tables and logic within Field Service and finance and operations applications to ensure transactional level alignment and transactional consistency.
 
 - The integration supports new environments or an existing environment with in-flight work orders. After you enable the integration, Field Service pushes data into finance and operations applications based on key data alignment triggers.
 
@@ -27,7 +27,7 @@ The integration is designed with the following principles:
 
 The following steps are only required while the feature is in preview.
 
-1. Register for the public preview using the [opt-in form.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8xE-5aPFVRJrXk3uy7cyY1UQzRDSUw1RFZWMktHNVRNNTNMVDhCSlNFNy4u&embed=true\)
+1. Register for the public preview using the [opt-in form.](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR8xE-5aPFVRJrXk3uy7cyY1UQzRDSUw1RFZWMktHNVRNNTNMVDhCSlNFNy4u&embed=true)
 
    An email is sent to the contact provided during registration, once enabled. Allow up to two business days for the enablement process.
 
@@ -111,9 +111,9 @@ The integration depends on dual-write to create a common understanding for prima
 
 The integration relies on virtual tables and process execution in each user's context. Each user that creates or updates work orders, which sync data with finance and operations applications, needs extra permissions. Assign them the *Field Service Integration User* security role.
 
-Users with this role can only interact with finance and operations data through the integration. They are not entitled to access the finance and operations applications unless they have a full license.
+Users with this role can only interact with finance and operations data through the integration. They aren't entitled to access the finance and operations applications unless they have a full license.
 
-Administrators that will need to manage the “Dynamics 365 Field Service integration parameters” tab, please assign them the *Field Service Integration Admin* role.
+Administrators who manage the **Dynamics 365 Field Service integration parameters** settings tab need the *Field Service Integration Admin* role.
 
 ### Configure default order settings
 
@@ -169,7 +169,7 @@ Across the many journal types on a project, only item journal lines have a relat
 
 #### Category-based transactions
 
-In Field Service, the concept of category transactions don't exist. Even the services and non-inventory products relate to an item.
+In Field Service, the concept of category transactions doesn't exist. Even the services and non-inventory products relate to an item.
 
 In finance and operations applications, all journal types that aren't item journals are category-based transactions. For example, expense journal lines, hours journal lines, and fee journal lines. These journal lines don't relate to an item and require a category.
 
@@ -243,15 +243,15 @@ The integration uses a reliable asynchronous transaction framework to make sure 
 
   - The integration monitors the transaction statuses of the work orders and projects. The transaction statuses indicate the synchronization state of the data, such as unsynchronized, processing, synchronizing, and failed. The integration also provides error handling and retry mechanisms to resolve any synchronization issues.
 
-  - If the transaction fails to complete, the status in Field Service indicates the failure. The system (retries the transaction several times)[https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/retryable-batch#retry-the-batch-job-task-regardless-of-the-error-type].
+  - If the transaction fails to complete, the status in Field Service indicates the failure. The system [retries the transaction several times](/dynamics365/fin-ops-core/dev-itpro/sysadmin/retryable-batch#retry-the-batch-job-task-regardless-of-the-error-type).
 
-  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record, allowing users to troubleshoot the issue and re-sync the transaction, when appropriate.
+  - If the transaction still fails to synchronize, the error and transaction details are preserved in the finance and operations transaction record, allowing users to troubleshoot the issue and re-sync the transaction.
 
-    - While important, with correct system configuration, this level of intervention into specific transactions will be the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
+    - While important, with correct system configuration, this level of intervention into specific transactions are the exception; however, enabling this type of issue resolution is critical to making sure that transactional consistency can be maintained between the two platforms.
 
 ## Hierarchical finance and operations projects
 
-The integration creates hierarchical projects, which consist of a main project and one or more subprojects. The main project acts as a container for the subprojects, which represent the individual work orders in Field Service. 
+The integration creates hierarchical projects, which consist of a main project and one or more subprojects. The main project acts as a container for the subprojects, which represent the individual work orders in Field Service.
 
 ## Storage dimensions, warehouse, and location selection
 
@@ -266,7 +266,7 @@ Depending on the inventory product selected when creating a work order product, 
 The warehouse and location fields in Field Service are related to the warehouse and location concepts in finance and operations applications, which are used to track the physical and logical locations of the inventory items.
 
 > [!NOTE]
-> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. As noted above, it is advisable to configure default order settings, to minimize errors when a work order product with an inventory product is created.
+> The solution doesn't require population of the **Site** value and will instead populate site based on the selected warehouse, which has a hierarchical relationship with site. We recommend to configure default order settings to minimize errors when a work order product with an inventory product is created.
 
 ## Inventory
 
@@ -308,3 +308,5 @@ The following processes or features available within the finance and operation a
 - Aligned mapping of bookable resource to worker.
 
 - Alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal, hours journal, or item journal don't sync changes to the respective Field Service transaction record.
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
