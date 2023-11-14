@@ -12,9 +12,16 @@ ms.subservice: m365-integrations
 
 # Microsoft 365 Chat for Dynamics 365 Field Service (preview)
 
-With Microsoft 365 Chat, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. Microsoft 365 Chat for work orders in Field Service is available for public preview in December 2023.
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+With Microsoft 365 Chat, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. 
+
+> [!IMPORTANT]
+> Microsoft 365 Chat for work orders in Field Service will be available for public preview in December 2023.
 
 This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Scenarios that are available out-of-the-box
 
