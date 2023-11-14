@@ -80,7 +80,7 @@ As an admin, set up Microsoft 365 Chat for Field Service work orders for your us
 
 1. Obtain the appropriate number of [Microsoft 365 Copilot licenses.](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot)
 
-1. [Set up the plug-in](/power-virtual-agents/copilot-plugins-overview).
+1. Set up the plug-in.
 
 ## Enable the Microsoft 365 Chat for Field Service work orders
 
