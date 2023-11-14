@@ -50,10 +50,10 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 To view device readings, the following data must be in place:
 
-|Form |Required data
---|--|
-|Device  |Device ID isn't empty.  
- Work order|The work order has a related IoT alert and the IoT alert has a related IoT device. The device ID in the IoT device isn't empty.
+|Form |Required data|
+|--|--|
+|Device  |Device ID isn't empty.|
+ Work order|The work order has a related IoT alert and the IoT alert has a related IoT device. The device ID in the IoT device isn't empty.|
 | Case| The case has a related IoT alert and the IoT alert has a related IoT device. The Device ID in the IoT device isn't empty. |
 | Asset|The device ID isn't empty. The device readings chart is for the device ID set in Connected Device Attributes section of the asset form. |
 |IoT alert|The alert has a related IoT device. The device ID in the IoT device isn't empty. |
