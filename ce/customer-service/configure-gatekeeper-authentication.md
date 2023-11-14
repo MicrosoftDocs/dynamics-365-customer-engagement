@@ -52,8 +52,8 @@ You'll need to do some of the Gatekeeper actions in the Nuance portals. Therefor
 Create a new application registration in your Microsoft Entra ID and share the OpenID Connect metadata document by following these steps:
 
 1. Go to [Azure portal](https://portal.azure.com).
-1. Select **Azure Active Directory** in the site map.
-1. On the **Azure Active Directory** page, select **App registrations** in the site map.
+1. Select **Microsoft Entra ID** in the site map.
+1. On the **Microsoft Entra ID** page, select **App registrations** in the site map.
 1. If you're an existing Nuance Gatekeeper customer, you probably have a registered app for Nuance Gatekeeper. Search in the **All applications** tab for Nuance Gatekeeper. If you don’t have it registered, do the following steps:
    1. Select **New registration**.
    1. Type the name **Nuance Gatekeeper** for your app registration, and select **Register** at the bottom of the page. After the app is registered, the **App Registration Details** page appears.

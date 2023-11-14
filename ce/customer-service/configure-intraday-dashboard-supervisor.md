@@ -87,15 +87,9 @@ Review the following prerequisites before configuring the supervisor insights:
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
 
-        > [!div class=mx-imgBorder]
-        > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal")
-
       b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
-      c. Enable **Allow service principals to use Power BI APIs** and specify the security group to which you want to give access.
-
-        > [!div class=mx-imgBorder]
-        > ![Enable service principals for security group.](media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+      c. Enable **Allow service principals to use Power BI APIs**, select **Specific security groups (Recommended)**, and then specify the security groups to which you want to give access.
 
       d. Select **Apply**.
 

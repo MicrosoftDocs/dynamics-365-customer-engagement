@@ -27,7 +27,7 @@ The following prerequisites must be set for the Microsoft Teams users:
 - **Assign phone numbers to SMEs in Microsoft Teams**: Must have a phone number assigned to them in Microsoft Teams to participate in the voice call as an SME consult. More information: [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 To update the Teams phone number in the user profile, perform the following steps: 
-  1. Sign in to the Azure portal and go to **Azure Active Directory**.
+  1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
   1. Select **Manage** > **Users**
   1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
      > [!NOTE]
@@ -35,7 +35,7 @@ To update the Teams phone number in the user profile, perform the following step
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
 
-     1. Add a guest user in the Azure portal. More information: [Add a new guest user](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal#add-a-new-guest-user-in-azure-ad)
+     1. Add a guest user in the Azure portal. More information: [Add a new guest user](/entra/external-id/b2b-quickstart-add-guest-users-portal)
      2. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
 
   Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Agents can then search for the guest user in the Teams tab of transfer or consult.
