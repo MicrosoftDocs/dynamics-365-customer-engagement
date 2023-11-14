@@ -15,9 +15,12 @@ ms.reviewer: shujoshi
 
 # Using Microsoft 365 Copilot to chat with Dynamics 365 Sales data
 
+[!include[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-banner.md)]
+
 This article explains how to use Microsoft 365 Copilot to chat with Dynamics 365 Sales data.
 
-A Microsoft 365 Copilot license enables authorized users to engage in a natural-language conversation with Dynamics 365 Sales data. For example, a user can ask the following questions:
+A Microsoft 365 Copilot license enables authorized users to engage in a natural-language conversation with Dynamics 365 Sales data. For example, they can ask the following questions:
 
 - Who is the primary contact for Adventure Works?
 
@@ -27,40 +30,38 @@ Microsoft 365 Copilot summarizes the information that's spread across emails, ch
 
 ## What types of data are supported?
 
-Data that resides inside tables is referred to as structured data. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as unstructured data. Microsoft 365 Copilot supports data inquiries against both structured and unstructured data. 
+Data that resides inside tables is referred to as *structured data*. Data that's present in static documents, such as Word files, PDF files, and publicly available content, is referred to as *unstructured data*. Microsoft 365 Copilot supports data inquiries against both structured and unstructured data. 
 
 ## What are the scenarios available out-of-the-box?
 
 A user can inquire about Account, Contact, Lead, Opportunity, Quote, Order and Case tables. 
-
-:::image type="content" source="media/m365-copilot-chat.png" alt-text="Screenshot of the Microsoft 365 Copilot chat with sales data" lightbox="media/m365-copilot-chat.png":::
 
 Example questions: 
 
 - List all accounts
 
 - Who is the primary contact for Adventure Works? 
-- what are the opportunities for account adventure works?
+- what are the opportunities for account Adventure Works?
 - What accounts are in address Redmond WA?
 - How many opportunities were closed? 
-- Give me all the details about adventure works account
+- Give me all the details about Adventure Works account
 - Show all opportunities with an estimated value of more than $20,000
 - Show top 10 leads 
-- Give me the status of lidman Anna lead
-- When was the lidman Anna lead created?
-- Who is the record owner of lidman anna lead
+- Give me the status of Lidman Anna lead?
+- When was the Lidman Anna lead created?
+- Who is the record owner of Lidman Anna lead?
 - What is the company name for contact Nancy Anderson?
 - What is the email address of Contact Nancy Anderson?
 - Show all leads owned by Amanda Donnelly
-- Show all leads owned by Amanda Donnelly. display as a table, including the record owner and the email address of the lead
+- Show all leads owned by Amanda Donnelly. Display as a table, including the record owner and the email address of the lead
 - Find all Dynamics 365 Sales contacts named Nancy
 - What is the business phone for Nancy Anderson?
 - What is the status of contact Nancy Anderson?
-- What is the email for account adventure works?
-- What is the phone number for account adventure works?
-- What is the address for account adventure works?
+- What is the email for account Adventure Works?
+- What is the phone number for account Adventure Works?
+- What is the address for account Adventure Works?
 - What is the opportunity for Jim Glynn?
-- Show me the opportunity for coho winery?
+- Show me the opportunity for Coho Winery?
 - Show me all opportunities owned by Amanda Donnelly
 
 ## What is happening behind the scenes?
@@ -83,7 +84,7 @@ When you use Microsoft 365 Copilot to chat with Dynamics 365 Sales data, follow 
 
 - Be specific about the expected outcomes. If you want results in table format, then use the key phrase "in table format". If you want a consolidated result or a summary, make sure you call it out explicitly. For example, you can ask, "List all accounts in table format."
 
-- If you know the name or label that's associated with the required data in Sales app, use that name when you search, to make the search easier. For example, you can ask, "What is the primary contact for account Adventure Works?". 
+- If you know the name or label that's associated with the required data in Sales app, use that name when you search, to make the search easier. For example, you can ask, "Who is the primary contact for account Adventure Works?". 
 
 - Use letter casing correctly:
     - Use lower case for field or attribute names, like 'primary contact', 'record owner'. Capital cased words are more likely to be treated as literals. 
