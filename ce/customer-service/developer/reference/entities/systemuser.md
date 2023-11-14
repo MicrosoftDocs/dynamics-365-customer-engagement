@@ -2,7 +2,6 @@
 title: "SystemUser table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUser table/entity."
 ms.date: 12/19/2022
-ms.service: "dynamics-365"
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"

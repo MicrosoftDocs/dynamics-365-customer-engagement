@@ -4,7 +4,6 @@ description: Learn about adding Due open activities control to forms
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 05/03/2023 
 ms.custom: bap-template 
