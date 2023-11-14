@@ -9,9 +9,13 @@ author: jasonccohen
 
 # Field Service integration with finance and operations applications (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
 The Field Service integration with [finance and operations applications](/dynamics365/fin-ops-core/fin-ops/) allows organizations to enable out-of-the-box alignment. Field Service work order transactions land correctly in finance and operations journals. For organizations that use Field Service and finance and operations applications, service delivery automatically updates budget and inventory systems. The integration allows you to create and manage work orders in Field Service and have them automatically synchronize with finance and operations apps.
 
 This article provides an overview of the integration, its design principles, the steps to enable and use it, and the mechanisms that ensure data accuracy and reliability.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Integration objectives
 
