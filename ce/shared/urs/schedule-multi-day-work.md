@@ -27,9 +27,19 @@ Manually scheduling a multi-day requirement on the schedule board allows you to 
     - Fixed Time: Books the resource regardless of working hours for the time frame you define when creating the booking.
 
     > [!NOTE]
-    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking.
+    > Full Capacity, Percentage Capacity, Evenly Distribute Hours, and Fixed time can lead to overbooking. For more information, see [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 4. Select **Book** and the system creates multiple bookings across multiple days.
+
+## Create and edit patterns for requirements
+
+Use the **Specify Pattern** control to define how to split a long-running requirement into individual bookings when it's scheduled. It allows users to customize these requirement details beyond the default allocation methods.
+
+To create a requirement detail, select **Add detail** to open a side pane where you choose the requirement and set the duration, start time, and end times for the time window. For example, the time window is from 9am to 5pm with a three hour duration. When you schedule that requirement detail, the system books a resource for three hours between 9am and 5pm. Note that the duration must be shorter than the time window. Alternatively, in daily view, drag requirement on the grid to create a new detail. In either method, select **Apply** to save the requirement detail.
+
+To edit an existing requirement detail, select it to open the **Edit detail** pane. Change the duration or time window and save the changes. To edit multiple details at once, select the requirement and select **Edit all within range** on the details pane. Under **Duration summary**, each date range that has at least one detail shows. Adjust the allocated duration where needed. Use the settings under **Duration allocation** to control how to distribute the changed durations across multiple details.
+
+To delete a detail, select the detail from the calendar and select the **Delete**.
 
 ## Schedule a multi-day requirement with the schedule assistant
 

@@ -4,7 +4,6 @@ description: Learn about adding attachment control to forms
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 10/31/2023 
 ms.custom: bap-template 
