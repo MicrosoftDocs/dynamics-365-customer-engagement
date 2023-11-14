@@ -43,4 +43,4 @@ You can extend the trial for another trial period in the admin center. For instr
 
 ### How do I cancel the trial?
 
-If you have signed up for the trial using a managed Azure Active Directory account, you can request your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you have signed up using your personal account, you cannot cancel the trial manually. The trial will expire after the 30-day trial period and the trial environment will be automatically deleted.  
+If you have signed up for the trial using a managed Microsoft Entra ID account, you can request your Power Platform admin to [delete the trial environment](/power-platform/admin/delete-environment). If you have signed up using your personal account, you cannot cancel the trial manually. The trial will expire after the 30-day trial period and the trial environment will be automatically deleted.  

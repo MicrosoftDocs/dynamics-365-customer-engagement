@@ -49,7 +49,7 @@ Before you begin, you must complete the following prerequisites:
 
 - Create a Microsoft Entra ID security group:
 
-    - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+    - Your Microsoft Entra ID administrator must create a security group with your preferred name in Microsoft Entra ID and add **Dynamics 365 Analytics** service account as a member of this security group. More information: [Create a basic group and add members using Microsoft Entra ID](/entra/fundamentals/how-to-manage-groups)
 
         The out-of-the-box **Service Principal Dynamics 365 Analytics** is used to deploy the data model and make changes to the Power BI workspace on behalf of Customer Service.
 
