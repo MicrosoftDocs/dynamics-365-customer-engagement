@@ -55,7 +55,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Open             | An agent disconnects the conversation and doesn't reconnect within a specified timeout period. <br><br> When an agent releases the conversation to the queue. <br><br> When an agent transfers the conversation to another queue. <br><br> When an agent closes the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
 | Active        | Waiting          | An agent closes the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
 | Active | Closed | An agent resolves the case (or get a record to nonactive state) and closes the session. | Record |
-| Active | Closed | The customer disconnects or ends the chat before the conversation is assigned to or accepted by the agent. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md) | Chat |
+| Active | Closed | The customer disconnects or ends the chat before the conversation is accepted by the agent. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md) | Chat |
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](media/oc-conversation-active.png "Active state")
 
