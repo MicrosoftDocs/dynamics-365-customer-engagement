@@ -51,7 +51,7 @@ The work order form shows all the available details about a work order. It consi
 
 To switch between the classic work order form and the new form, use the form switcher under the work order name.
 
-:::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the work order form, with the form switcher highlighted.":::
+<!-- :::image type="content" source="media/work-order-change-form.png" alt-text="Screenshot of the work order form, with the form switcher highlighted."::: -->
 
 ### General tab
 
