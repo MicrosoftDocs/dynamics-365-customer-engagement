@@ -1,7 +1,7 @@
 ---
-title: "Dynamics 365 Field Service version history | MicrosoftDocs"
-description: Version history for Dynamics 365 Field Service
-ms.date: 08/02/2023
+title: Dynamics 365 Field Service version history
+description: Release scheudle and version history for Dynamics 365 Field Service.
+ms.date: 11/14/2023
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -34,8 +34,8 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.104.44
 This release is a hotfix on Field Service version [8.8.104.29](/dynamics365/field-service/version-history#8810429).
 
-- Fixed a problem that hid the ‘Flow’ command from command ribbons.
-- Field Service Mobile: Fixed a bug which resulted the error "Validations are still being executed in the background" error when saving Work Order Service Task which contained an inspection.
+- Fixed a problem that hides the Flow option from the commands ribbon.
+- Field Service Mobile: Fixed a bug which caused the error "Validations are still being executed in the background" when saving a work order service task which contains an inspection.
 
 ## 8.8.104.29
 (Includes Universal Resource Scheduling version [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) and Resource Scheduling controls version 1.2.58.232961).
