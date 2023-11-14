@@ -1,5 +1,5 @@
 ---
-title: Using Microsoft 365 Copilot to chat with Dynamics 365 Sales data
+title: FAQ for chat with Sales data on Microsoft 365 Copilot (Preview)
 description: Discover how to use Microsoft 365 Copilot to chat with Sales data and ask questions in natural language."
 ms.date: 11/13/2023
 ms.custom:
@@ -13,7 +13,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ---
 
-# Using Microsoft 365 Copilot to chat with Dynamics 365 Sales data
+# FAQ for chat with Sales data on Microsoft 365 Copilot (Preview)
 
 This article explains how to use Microsoft 365 Copilot to chat with Dynamics 365 Sales data.
 
