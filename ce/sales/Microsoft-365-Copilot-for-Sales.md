@@ -15,9 +15,6 @@ ms.reviewer: shujoshi
 
 # Using Microsoft 365 Copilot to chat with Dynamics 365 Sales data
 
-[!include[banner](../includes/banner.md)]
-[!INCLUDE[banner](../includes/preview-banner.md)]
-
 This article explains how to use Microsoft 365 Copilot to chat with Dynamics 365 Sales data.
 
 A Microsoft 365 Copilot license enables authorized users to engage in a natural-language conversation with Dynamics 365 Sales data. For example, they can ask the following questions:
