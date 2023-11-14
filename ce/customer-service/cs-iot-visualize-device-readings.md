@@ -36,13 +36,8 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 > ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/cs-iot-device-measurements-deployment.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights Preview deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
-).
-- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
-). 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing fields on the Time Series Insights Preview screen.](./media/cs-iot-device-measurements-deployment-2.png)
+- Create the application (client) ID: Follow the steps in [Create a Microsoft Entra ID application](/entra/identity-platform/howto-create-service-principal-portal).
+- Create the client secret: Follow the steps in [Create a new application secret](/entra/identity-platform/howto-create-service-principal-portal#option-3-create-a-new-client-secret). 
 
 > [!Note]
 > - Storage account selection is only available when you're upgrading an existing deployment.
@@ -101,8 +96,8 @@ Use the following table to troubleshoot error codes related to device readings.
 | 4010202 |		The user doesn't have permission to query Device Entity (msdyn_iotdevice)	 |	Ensure the user can query Device entity (msdyn_iotdevice) |
 | 5000203 |		Unable to get msdyn_DeviceId for the given msdyn_iotdeviceid in the Device Entity (msdyn_iotdevice) |		Make sure the attribute msdyn_DeviceId is populated for the device |
 | 5000204	 |	Unable to get Time Series Insights Url for the given msdyn_iotdeviceid |		Make sure that CFS Deployment App has deployed Time Series Insights for this CRM Org and the device is linked to the correct IoT Provider |
-| 5000205 |		Client Id used to get Azure AD token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that valid Client ID is provided in the CFS Deployment App when it was executed |
-| 5000206 |		Client Secret used to get Azure AD token for TSI Authorization has expired |		Update the Client Secret in Azure AD and re-run CFS Deployment App to update the new Client ID and Client Secret |
+| 5000205 |		Client Id used to get Microsoft Entra ID token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Make sure that valid Client ID is provided in the CFS Deployment App when it was executed |
+| 5000206 |		Client Secret used to get Microsoft Entra ID token for TSI Authorization has expired |		Update the Client Secret in Microsoft Entra ID and re-run CFS Deployment App to update the new Client ID and Client Secret |
 | 5000207 |		Unable to get the access token to query Time Series Insights |		Retry your request, and if the problem persists, try updating new Client ID and Client Secret by re-running the CFS Deployment App |
 | 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
 | 5000604	 |	Response from Time Series Insights API isn't in an expected format	 |	Retry your request. If the problem persists, contact Microsoft Support to investigate |
