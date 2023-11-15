@@ -411,9 +411,9 @@
     - name: Responsible AI
       items:
       - name: Overview
-        href: responsible-ai-overview.md
+        href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: FAQ for copilot
-        href: faq-copilot-for-customer-service.md
+        href: ../implement/faq-copilot-for-customer-service.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Resources
       items:
       - name: Training

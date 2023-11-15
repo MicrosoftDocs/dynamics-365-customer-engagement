@@ -10,6 +10,8 @@
         href: ../implement/cs-admin-center.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Troubleshooting and FAQs
         href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+        - name: Check your contact center health
+          href: check-contact-center-health.md
       - name: User management
         items: 
         - name: Create users and assign security roles
@@ -787,9 +789,9 @@
     - name: Responsible AI
       items:
         - name: Overview
-          href: responsible-ai-overview.md
+          href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: FAQ for copilot
-          href: faq-copilot-for-customer-service.md
+          href: ../implement/faq-copilot-for-customer-service.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Resources
       items:
         - name: Training
