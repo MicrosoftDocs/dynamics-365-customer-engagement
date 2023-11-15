@@ -140,11 +140,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 > [!TIP]
 > If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
-## Components for the new work order experience (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+## Components for the new work order experience
 
 The new work order experience introduces several new code components for makers to use on their forms and views. The following sections list options and limitations for these code controls. For more information about working with code controls, see [Code controls in the Power Apps developer documentation](/power-apps/developer/component-framework/custom-controls-overview).
 
