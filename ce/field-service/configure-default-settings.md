@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 09/28/2023
+ms.date: 10/10/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -184,13 +184,22 @@ Time entries help track the time that technicians spend on various stages of a w
 | Time Entry Generation Strategy | Enable the system to automatically generate time entries based on booking timestamps. If the setting is empty or set to *Manual*, the system expects manual time entries. Regardless of the setting, you can always create time entries manually.|
 |Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
-## Remote Assist settings
+## Mixed Reality settings
 
-Change Field Service settings for Dynamics 365 Remote Assist. For more information, go to [Collaborate in mixed reality](remote-assist-hololens.md).
+Change Field Service settings for mixed reality apps. For more information about the integrations with mixed reality apps, go to [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
 |  Option  |  Description  |  
 |-------------|-----------------|  
 | Disable Booking Status Changes  |   Specify if users can change a booking status in Dynamics 365 Remote Assist on HoloLens. |
+| Assign Mixed Reality Security roles  |   Adds security roles for Dynamics 365 Guides and Dynamics 365 Remote Assist to users that are assigned one of the predefined Field Service security roles. Refer to the [Mixed reality role mapping](#mixed-reality-role-mapping) table to understand which default roles the system assigns. Disabling the setting stops the automatic role assignment for new users moving forward. It doesn't remove security roles that are already assigned. To [enable custom security roles](/power-platform/admin/security-roles-privileges) to access mixed reality apps, review the default security roles for Guides or Remote Assist to identify privileges that your custom security roles need. |
+
+### Mixed reality role mapping
+
+|Field Service |Guides  |Remote Assist  |
+|---------|---------|---------|
+|Field Service - Resource    |  Restricted Operator, Basic User       |  Remote Assist - App User, Basic User       |
+|Field Service - Dispatcher     | Restricted Operator, Basic User      |  Remote Assist - Administrator, Basic User       |
+|Field Service - Administrator     |  Author, Basic User       | Remote Assist - Administrator, Basic User        |
 
 ## Inspection settings
 
