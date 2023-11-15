@@ -1,7 +1,7 @@
 ---
 title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
-ms.date: 11/09/2023
+ms.date: 11/10/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
@@ -1205,7 +1205,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Choose an additional customer contact who can also help resolve the case.|
-|DisplayName|Responsible Contact|
+|DisplayName|Responsible Contact (Deprecated)|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|responsiblecontactid|

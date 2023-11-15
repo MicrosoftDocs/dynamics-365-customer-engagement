@@ -26,7 +26,7 @@ You can connect your voice or SMS channels to Azure Communication Services using
 - Your active Azure subscription is in the same tenant as your Dynamics 365 account.
 - Your role has **Contributor** privileges.
 
-#### Get Azure resource information
+### Get Azure resource information
 
 Before you connect an existing Azure resource to Azure Communication Services, you must retrieve the following information from the [Azure portal](https://ms.portal.azure.com/):
 
@@ -42,7 +42,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
    :::image type="content" source="media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
-#### Get application and tenant IDs from the Azure portal
+### Get application and tenant IDs from the Azure portal
 
 You'll need to specify the values of **Application (client) ID** and **Directory (tenant) ID** in **Event grid app id** and **Event grid app tenant id** in Customer Service admin center. Perform the following steps to get these values:
 
@@ -53,7 +53,7 @@ You'll need to specify the values of **Application (client) ID** and **Directory
     1. On the **Register an application** page, enter the following details:
 
         - **Name**: Enter a name for your application.
-        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+        - **Supported account types**: Select **Accounts in any organizational directory (Any Microsoft Entra ID - Multitenant)**.
 
     1. Select **Register**.
        :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::

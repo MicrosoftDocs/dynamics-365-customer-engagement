@@ -45,10 +45,8 @@ When you turn on enhanced Microsoft Teams Integration, there are two dialog boxe
 To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 1. Go to, [https://portal.azure.com](https://portal.azure.com).
-2. Select **Azure Active Directory** > **Enterprise**.
+2. Select **Microsoft Entra ID** > **Enterprise applications**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
-    > [!div class="mx-imgBorder"] 
-    > ![Dynamics 365 Microsoft Teams collaboration integration ](media/error2.png "Go toDynamics 365 Microsoft Teams collaboration integration")
 4. Delete the app.
     > [!div class="mx-imgBorder"] 
     > ![Teams error.](media/error3.png "Teams error")
@@ -91,7 +89,7 @@ If the Dynamics 365 organization has two-factor authentication enabled, but Micr
 
 To solve this problem, you must perform one of the following actions:
 
-- Enable two-factor authentication in [Dynamics 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide&preserve-view=true). This is the preferred action. 
+- Enable two-factor authentication in [Dynamics 365](/entra/identity/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide&preserve-view=true). This is the preferred action. 
 - Disable two-factor authentication in Dynamics 365 and Teams.
 
 ### Dynamics 365 app doesn't populate environment list in settings

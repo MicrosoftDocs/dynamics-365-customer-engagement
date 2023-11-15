@@ -89,6 +89,6 @@ More information:
 [Overview of the voice channel](voice-channel.md)  
 [Configure context variables](context-variables-for-bot.md)  
 [Manage your bots](manage-your-bots.md)  
-[Set up a multilingual bot in Power Virtual Agents](/power-virtual-agents/multilingual)  
+[Set up a multilingual bot in Power Virtual Agents](set-up-multilingual-pva-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
