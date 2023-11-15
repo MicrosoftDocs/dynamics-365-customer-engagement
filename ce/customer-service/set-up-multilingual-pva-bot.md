@@ -29,6 +29,9 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 
 6. Verify the multilingual bot.
 
+> [!NOTE]
+> The [new multilingual chatbots](/power-virtual-agents/multilingual) (preview) aren't currently supported in Omnichannel for Customer Service.
+
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.

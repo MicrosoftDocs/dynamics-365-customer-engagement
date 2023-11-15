@@ -1,25 +1,24 @@
 ---
-title: Enable enhanced case forms for multisession apps | MicrosoftDocs 
+title: Enable enhanced case forms for multisession apps 
 description: Learn about enabling the enhanced case forms for multisession apps.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
-ms.service: dynamics-365 
+ms.reviewer: neeranelli 
 ms.topic: how-to 
-ms.date: 09/25/2023 
+ms.date: 10/31/2023 
 ms.custom: bap-template 
 ---
 
 # Enable enhanced case forms for multisession apps
 
-Enable the enhanced **Quick case form** and **Full case form**  options, so that your agents can see the enhanced quick case form and full case form, when they create a new case in Customer Service workspace.
+Enable the enhanced **Quick case form** and **Full case form**  options so that the enhanced quick case form and full case form open when agents create a new case in Customer Service workspace.
 
 > [!NOTE]
-> The enhanced case creation experience is available in the Customer Service workspace app only.
+> The enhanced case creation experience is available only in the Customer Service workspace app.
 
 ## Enable enhanced case experience
 
-To enable the enhanced case forms, perform the following steps:
+To enable the enhanced case forms, follow these steps:
 
 1. In Customer Service admin center, go to **Case Settings**.
 1. Select **Manage** for **Enhanced case experience**.
@@ -36,15 +35,17 @@ To enable the enhanced case forms, perform the following steps:
 
 > [!NOTE]
 > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
-> - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure set the **ShowInFormSelector** is set to **True**.
+> - Agents can use the form selector to navigate from **Enhanced case form** to other forms. For agents to go back to the enhanced case form, ensure that the **ShowInFormSelector** is set to **True**.
 
 ## View and use default components available on enhanced full case form
 
-The following components are available out of the box in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
+The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
 
- :::image type="content" source="media/runtime-exp-mini.png" alt-text="runtime experience for the " lightbox="media/runtime-exp.png":::
+ :::image type="content" source="media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="media/runtime-exp.png":::
 
-|Legend|Component   | Description   | Entity   |  Additional actions| Additional information|
+Legend:
+
+|Number|Component   | Description   | Entity   |  Additional actions| Additional information|
 |------ |----------|-----------|----------|-----------|
 | 1 |**Associated Grid Control** | Displays the relevant records linked to the current record as subgrids. You can configure up to four subgrids using this component.| Available for all entities.| Not Applicable. | [Configure components to display case associations](add-associated-grid-control.md)|
 | 2 | **Attachment Control** | Enables you to upload and display attachments. | You can add this control on a case form to upload attachments to a case and to display attachments uploaded directly,through email, notes, and conversations.<br> For all other entities, add this component to display the attachments uploaded through email and notes. | For a case entity, set the **Table Column** in the component to **Pre Create Entity Attachment Id**. |[Use Attachment Control to customize forms](add-attachment-control.md)|
@@ -59,5 +60,5 @@ You can add these default components to other forms and customize them. More inf
 
 ### See also
 
-[Case management in multisession apps](enh-casemgmt-csw.md)   
+[Case management in multisession apps](enh-casemgmt-csw.md)<br>
 [Get started with Customer Service workspace](csw-overview.md)

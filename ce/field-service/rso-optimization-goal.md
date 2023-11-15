@@ -102,7 +102,7 @@ Respect the [Territory field](set-up-territories.md) values on the requirement a
 
 ### Matches Resource Type
 
-Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md#create-frontline-workers-and-other-bookable-resources-manually) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
+Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
 
 The following resource types are considered for optimization:
 

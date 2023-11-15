@@ -4,7 +4,6 @@ description: Learn about adding a default profile and mapping agent profiles to 
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to
 ms.date: 07/13/2023 
 ms.custom: bap-template 

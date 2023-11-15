@@ -880,7 +880,7 @@ Listed by **SchemaName**.
 
 **Added by**: Service Solution
 
-Same as incident entity [socialprofile_cases](incident.md#BKMK_socialprofile_cases) Many-To-One relationship.
+Same as incident entity [socialprofile_cases](incident.md) Many-To-One relationship.
 
 |Property|Value|
 |--------|-----|
