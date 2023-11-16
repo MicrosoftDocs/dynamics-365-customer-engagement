@@ -1,7 +1,7 @@
 ---
 title: "Manage real-time analytics for supervisors | MicrosoftDocs"
 description: "Learn how to configure real-time analytics for Omnichannel for Customer Service."
-ms.date: 05/04/2023
+ms.date: 11/16/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -50,18 +50,26 @@ Use the Customer Service admin center app to enable or disable Omnichannel real-
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
-If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
+If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
 
-1. Go to [make.powerapps.com](https://make.powerapps.com).
-1. Select **Apps**.
-1. Select **Customer Service workspace** and then select **Edit**.
-1. On **Pages**, select **New**.
-1. On the **New page** dialog, select **URL** and then select **Next**. Fill in the following information:
-    1. **URL**: **/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}**
-    2. **Title**: Omnichannel real-time analytics (or any other sub area title you would want to add).
-1. Select **Add**.
-1. Optionally, on the **Omnichannel real-time analytics** pane, on the **Icon** dropdown list, select **Use web resource**.
-1. On the **Select web resource image** dialog, search and select the **msdyn_/Analytics/imgs/RealtimeReportIcon.svg** display name, and then select **Apply**. The **Omnichannel real-time analytics** page gets displayed on Customer Service workspace.
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **URL**, and then select **Next**.
+1. Enter the following information, and then select **Add**
+      - **URL**: [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}
+      - **Title** Omnichannel real-time analytics
+1. From **Navigation**, select **Omnichannel real-time analytics**.
+1. Enter the following information for **Display options**.
+    - **Title**: **Omnichannel real-time analytics**
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg
+    - **ID**: OCRealtimeReportsSubArea
+1. Select **Advanced Settings** and set the **Table Privileges**.
+    - **Privilege entity**: mmsdyn_dataanalyticsreport_oc_rt
+    - **Privilege**: Read
+1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
+1. For **Client**, select **Web**.
+1. For **Outlook shortcut**, select the **Pass parameters** and **Offline availability** checkboxes.
 1. Select **Save**, and then select **Publish**.
 
 ### See also

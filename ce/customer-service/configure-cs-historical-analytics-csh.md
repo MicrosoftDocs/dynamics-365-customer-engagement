@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 10/31/2023
+ms.date: 11/16/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -103,70 +103,24 @@ You'll see a message on the command bar that your reports are being provisioned 
 
 ## View Customer Service historical analytics reports
 
-If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
+If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
 
-1. Go to the Customer Service workspace app, and then select the ellipsis to launch App Designer.
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
-1. On the **New page** dialog:
-
-     1. Select **Dataverse Table** for Customer Service historical, Omnichannel historical analytics, and Knowledge analytics.
-     1. Select **URL** for Omnichannel real-time analytics and Customized reports.
-
-1. To add Dataverse table:
-
-      1. Select the **Select existing table** option, followed by the required table, and then select **Show in navigation**.
-      - For **Customer service historical**, select **Customer Service historical analytics**.
-      - For **Omnichannel historical analytics**, select **Omnichannel historical analytics**.
-      - For **Knowledge analytics**, select **Knowledge analytics**. 
-      2. Select **Add**.
-      
-1. To add URL:
-      1. Add the **URL** and **Title** as provided below, and then select **Add**.
-
-      |Feature Name |URL  |Title |
-      |---------|---------|---------|
-      |Omnichannel real-time analytics   |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}       |     Omnichannel real-time analytics    |
-      |Customized Reports     |  [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ModernReportingControl&data={"featureIds":"f2266eb4-226f-4cf1-b422-89c5f48b40cb,09c168be-efe2-4f08-a986-3aab7095c863"}       |  Customized Reports       |
-
-1. Select the area you added from **Navigation**, and then select **Settings**.
-1. Rename the **Title**, **Select Icon**, **Update ID**, and set **Table Privileges**.
-The following table represents the default settings for historical reports:  
-
-    **Customer Service historical**
-    
-    |Id  |Icon  |Title |Privilege entity | Privilege |
-    |-------|------|------|------|----------|
-    |CSHistoricalAnalyticsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg| Customer Service historical analytics| msdyn_dataanalyticsreport_csrmanager| Read |
-    
-    **Omnichannel historical analytics**
-    
-    |Id  |Icon  |Title |Privilege entity | Privilege |
-    |---------|---------|---------|---------|-------------|
-    |OCReportsSubArea|/WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg| Omnichannel historical analytics| msdyn_dataanalyticsreport_oc| Read |
-    
-    **Knowledge analytics**
-    
-    |Id  |Icon  |Title |Privilege entity | Privilege |
-    |---------|---------|---------|---------|-------------|
-    |KSIReportsSubArea|/WebResources/msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg | Knowledge analytics| msdyn_dataanalyticsreport_ksinsights| Read |
-    
-    **Customized reports**
-    
-    |Id  |Icon  |Title |Privilege entity | Privilege |
-    |---------|---------|---------|---------|-------------|
-    |CustomizedReportsSubArea|/WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg | Customized Reports| msdyn_dataanalyticsreport_ksinsights| Read |
-    
-    **Omnichannel real-time analytics**
-    
-    |Id  |Icon  |Title |Privilege entity | Privilege |
-    |---------|---------|---------|---------|-------------|
-    |OCRealtimeReportsSubArea|/WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg | Omnichannel real-time analytics| msdyn_dataanalyticsreport_oc_rt| Read |
-
-1. For **Settings**, fill in the following  details:
-    - **SKU**: All, OnPremise, Live, SPLA
-    - **Client**: Web
-    - **PassParams**: Checked (for OC Real-time / Customized Reports)
-    - **Offline availability**: Selected (for OC Real-time / Customized Reports / OC historical)
+1. On the **New page** dialog, select **Dataverse Table** for Customer Service historical analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Customer Service historical analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Customer Service historical analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Customer Service historical analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg
+    - **ID**: CSHistoricalAnalyticsSubArea
+1. Select **Advanced Settings**  and set the **Table Privileges**.
+    - **Privilege entity**: msdyn_dataanalyticsreport_csrmanager
+    - **Privilege**: Read
+1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
+1. For **Client**, select **Web**.
 1. Select **Save**, and then select **Publish**.
 
 ### See also

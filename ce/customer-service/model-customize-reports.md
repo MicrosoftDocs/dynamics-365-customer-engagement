@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 08/31/2023
+ms.date: 11/16/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -147,6 +147,27 @@ After your report authors have created and published the customized reports, you
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name will appear for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You'll be able to reorder the reports on both historical and real time admin pages. For both historical and real time, you'll be able to modify or delete reports added from the respective historical and real-time data model customization pages only.
+
+## View customized reports
+
+If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
+
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **URL**, and then select **Next**.
+1. Enter the following information, and then select **Add**
+      - **URL**: [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ModernReportingControl&data={"featureIds":"f2266eb4-226f-4cf1-b422-89c5f48b40cb,09c168be-efe2-4f08-a986-3aab7095c863"}
+      - **Title** Customized Reports
+1. From **Navigation**, select **Customized Reports**.
+1. Enter the following information for **Display options**.
+    - **Title**: **Customized Reports**
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg
+    - **ID**: CustomizedReportsSubArea
+1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
+1. For **Client**, select **Web**.
+1. For **Outlook shortcut**, select the **Pass parameters** and **Offline availability** checkboxes.
+1. Select **Save**, and then select **Publish**.
 
 ### See also
 
