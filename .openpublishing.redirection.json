@@ -131,6 +131,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/field-service/view-user-accounts-security-roles.md",
+      "redirect_url": "/dynamics365/field-service/users-licenses-permissions",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/sales/use-copilot-email.md",
       "redirect_url": "/dynamics365/sales/use-sales-copilot",
       "redirect_document_id": "false"
