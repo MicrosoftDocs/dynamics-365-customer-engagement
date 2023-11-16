@@ -13,13 +13,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Presence is an indication of your availability or status in the application.
+Presence is an indication of your agent's availability or status in the application.
 
 :::image type="content" source="media/oceh-presence-icon.png" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
-For the presence status or presence icon to display correctly, enable in your browser for all modes.
+For the presence status or presence icon to display correctly, enable in your browser for all modes. Sai, something is missing this sentence. Should cookies be enabled?
 
 ## View your presence status
 
