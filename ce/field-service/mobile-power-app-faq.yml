@@ -101,6 +101,22 @@ sections:
            https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
            ```
 
+        - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
+          answer: |
+              Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
+          
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
+
+              The region settings dialog allows the user to select and connect to the desired end point.
+
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
+
+        - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
+          answer: |
+              Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
+
   - name: Entities, forms, views, and fields 
     questions:
           

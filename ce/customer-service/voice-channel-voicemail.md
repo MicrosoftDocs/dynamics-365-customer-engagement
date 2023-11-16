@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/10/2023
+ms.date: 10/27/2023
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -11,7 +11,7 @@ ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:10/10/2023
+  - ai-seo-date:10/26/2023
 ---
 
 # Configure voicemail to manage inbound calls
@@ -22,7 +22,7 @@ The salient features of voicemail are as follows:
 
 - Callers can record voicemails for up to five minutes only.
 - If you don't want to use the out-of-the-box prompt for the voicemail, you can customize it in the [automated message](configure-automated-message.md#customize-automated-messages-at-the-channel-level) or [workstream settings](voice-channel-inbound-calling.md).
-- The system always transcribes the voicemails irrespective of whether you've enabled the voice call transcription. The transcript includes any conversation, such as conversation with the bot that occurs before the voicemail. However, the recording includes voicemail only.
+- Voicemails are always transcribed irrespective of whether you've enabled the voice call transcription.
 - If the customer is unable to record the voicemail, an automated message plays for the customer that informs them that the system couldn't record their voicemail and they should call back again.
 - The bot can't offer to take a voicemail. The call must be escalated to an agent. The system offers the voicemail option if the agent isn't available.
 
@@ -33,6 +33,7 @@ The prerequisites are as follows:
 - You must be on the latest version of the product to use voicemail.
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - To open a voicemail, agent presence must load. More information: [Manage presence status](oc-manage-presence-status.md)
+- For the voicemail feature to work, make sure that the operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup. If you set the operating hours message at the voice workstream level, the system plays the message and disconnects the call.
 
 ## Configure voicemail to manage overflow of voice calls
 
@@ -118,7 +119,7 @@ If an overflow condition of a queue triggers the voicemail, it's routed to the d
 - The assignment method is highest capacity.
 - Voicemails left for every voice queue are routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
-- The operating hours at the workstream level override the queue-level overflow setup. The operating hours message at the workstream level is played and the system disconnects the call.
+
 
 ### Manage voicemail capacity
 

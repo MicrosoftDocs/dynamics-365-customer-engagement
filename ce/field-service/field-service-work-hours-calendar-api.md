@@ -574,11 +574,11 @@ We currently only support this pattern: `FREQ=DAILY;INTERVAL=1;BYDAY=SU,MO,TU,WE
 
 The `CalendarId` can be retrieved from resource attributes. Make this call to get this information: `[org-url]/api/data/v9.1/bookableresources([bookableresourceGUID])`. 
 
-An example of the previous call would be `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
+An example of the previous call would be `[org-url]/api/data/v9.1/bookableresources(7bb0224b-6712-ec11-94f9-000d3a6d888e)`.
 
 The `InnerCalendarId` can be retrieved from calendar attributes. Make this call to get this information: `[org-url]/api/data/v9.1/calendars([calendar-id-from-above-call])?$expand=calendar_calendar_rules`. 
 
-An example of the previous call is `http://aurorav69662.aurorav69662dom.extest.microsoft.com/CITTest/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
+An example of the previous call is `[org-url]/api/data/v9.1/calendars(02481736-1b6a-4d49-9ebd-a5bd041c1c99)?$expand=calendar_calendar_rules`.
 
 ### What happens if there are overlapping rules?
 
@@ -586,12 +586,8 @@ There are a couple different ranks that rules fall under:
 
 - *Rank 1* - daily occurrence (working/non-working), and time off occurrence. 
 - *Rank 0* - weekly recurrence (working/non-working). 
- 
-#### V2 overlapping rules (preview)
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+#### V2 overlapping rules
 
 - The Rank 1 rules have a higher priority than Rank 0 rules. if there are two rules (one of each rank) on the same day, the daily occurrence or time-off occurrence take the priority over the weekly recurrence.
 - When there are multiple Rank 0 rules within the same date span:

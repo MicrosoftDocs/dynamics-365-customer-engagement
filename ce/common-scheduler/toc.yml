@@ -38,16 +38,14 @@
     href: share-schedule-board-tab.md
   - name: Utilization
     href: schedule-board-utilization.md
-  - name: Schedule board custom resource attribute
-    href: extend-schedule-board-custom-resource-attribute.md
-  - name: Edit booking template
-    href: booking-template.md
+
+
   - name: Booking alerts
     href: booking-alert.md
   - name: Schedule board tab settings
     href: schedule-board-tab-settings.md
-  - name: Next-generation schedule board experience
-    href: preview-schedule-board.md
+  - name: Work with the schedule board
+    href: use-schedule-board.md
 - name: Extensibility
   items: 
   - name: Extensibility updates
@@ -72,4 +70,7 @@
       href: developer/universal-fetchxml.md
   - name: Consider Outlook free/busy in search resource availability API
     href: developer/outlook-free-busy-in-search-resource-availability-API.md
-
+  - name: Schedule board custom resource attribute
+    href: extend-schedule-board-custom-resource-attribute.md
+  - name: Edit booking template
+    href: booking-template.md

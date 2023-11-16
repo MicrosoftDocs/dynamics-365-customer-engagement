@@ -1,7 +1,7 @@
 ---
-title: View analytics for Copilot impact (preview)
+title: View copilot analytics report
 description: Learn how to view and understand Copilot metrics in Microsoft Dynamics 365 Customer Service.
-ms.date: 07/24/2023
+ms.date: 11/06/2023
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -9,15 +9,15 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# View analytics for Copilot impact (preview)
+# View copilot analytics report
 
-[This article is prerelease documentation and is subject to change.]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Copilot in Dynamics 365 Customer Service helps agents to complete tasks related to conversations, cases, and email more easily. With the Copilot report in Customer Service historical analytics, supervisors and customer service managers can identify the impact that Copilot is having across their customer service operation.
 
-To view the Copilot report, open Customer Service historical analytics and select the **Copilot (preview)** tab.
+
+The system stores the copilot interaction data in the [msdyn_copilotinteraction](./developer/reference/entities/msdyn_copilotinteraction.md), [msdyn_copilotinteractiondata](./developer/reference/entities/msdyn_copilotinteractiondata.md),[msdyn_copilottranscript](./developer/reference/entities/msdyn_copilottranscript.md), and [msdyn_copilottranscriptdata](./developer/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
+
+To view the Copilot report, open Customer Service historical analytics and select the **Copilot** tab.
 
 ## Copilot report
 
@@ -69,4 +69,4 @@ The Copilot report displays the following metrics.
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](configure-copilot-features.md)  
-[Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot-preview)
+[Enable historical analytics for Copilot](configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot)

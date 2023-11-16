@@ -2239,7 +2239,7 @@ For release notes and version history of the current release wave, see [Resource
 
 #### 3.2.1.71
 
-- Resource scheduling optimization intelligence used to help dispatcher schedule multiple requirements in the schedule board. [Read about this update.](/dynamics365/field-service/preview-schedule-board)
+- Resource scheduling optimization intelligence used to help dispatcher schedule multiple requirements in the schedule board. [Read about this update](work-with-schedule-board.md).
 - Increased end-to-end overall optimization performance by 3-5%.  
 
 #### 3.2.1.6

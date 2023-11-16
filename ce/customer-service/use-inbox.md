@@ -4,7 +4,6 @@ description: Learn how to use the inbox in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 09/25/2023
 ms.custom: bap-template 

@@ -1,6 +1,61 @@
 {
   "redirections": [
     {
+      "source_path": "ce/social-engagement/eol/discontinuation-faq.yml",
+      "redirect_url": "/dynamics365/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/configure-sales-copilot.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/wa-view-details-segment.md",
+      "redirect_url": "/dynamics365/sales/wa-edit-a-segment",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-catalog.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-bdm.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-bus-user.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-project-manager.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-administrator.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-developer.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-functional-consultant.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/learning-sales.md",
+      "redirect_url": "/training/dynamics365/sales",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
       "redirect_document_id": "false"
@@ -75,6 +130,11 @@
       "redirect_url": "/dynamics365/sales/organization-charts",
       "redirect_document_id": "false"
     },
+    {
+      "source_path": "ce/field-service/view-user-accounts-security-roles.md",
+      "redirect_url": "/dynamics365/field-service/users-licenses-permissions",
+      "redirect_document_id": "false"
+    },    
     {
       "source_path": "ce/sales/use-copilot-email.md",
       "redirect_url": "/dynamics365/sales/use-sales-copilot",
@@ -461,6 +521,46 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/learning-catalog.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-bdm.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-bus-user.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-project-manager.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-administrator.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-developer.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-functional-consultant.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/learning-sales.md",
+      "redirect_url": "/training/modules/get-started-with-dynamics-365-for-customer-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/voice-channel-call-overflow.md",
       "redirect_url": "manage-overflow",
       "redirect_document_id": "false"
@@ -479,6 +579,11 @@
       "source_path": "ce/customer-service/cs-email-template-builder.md",
       "redirect_url": "/power-apps/user/cs-email-template-builder",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/set-custom-icon-custom-case-origin.md",
+      "redirect_url": "enable-case-grids#add-new-icons-for-origin-and-priority-columns",
+      "redirect_document_id": "false"
     },
     {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
@@ -27406,6 +27511,31 @@
     {
       "source_path": "ce/unified-service-desk/oc-usd/left-control-panel.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-control",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/common-scheduler/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/common-scheduler/use-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/schedule-work-order.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/preview-schedule-board.md",
+      "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/share-schedule-board-tab.md",
+      "redirect_url": "/dynamics365/field-service/schedule-board-tab-settings",
       "redirect_document_id": "false"
     }
   ]
