@@ -10,6 +10,8 @@ ms.author: laalexan
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 The data type of the context variables is a JSON object with two properties&mdash;`isDisplayable` and `Value`. The JSON object has the following schema.
 
 ```JavaScript

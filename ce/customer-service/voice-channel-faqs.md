@@ -5,12 +5,16 @@ author: neeranelli
 ms.author: nenellim
 ms.date: 08/25/2023
 ms.topic: conceptual
-ms.reviewer: shujoshi
+ms.reviewer:
+ms.collection:
 ms.custom: bap-template
-
 ---
 
 # FAQ about the voice channel in Omnichannel for Customer Service
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 

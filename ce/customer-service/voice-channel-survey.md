@@ -1,11 +1,13 @@
 ---
-title: "Configure a post-call survey in the voice channel | MicrosoftDocs"
-description: "Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service."
+title: Configure a post-call survey in the voice channel
+description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
 ms.date: 03/25/2022
-ms.topic: article
-ms.collection: get-started
+ms.topic: how-to
+ms.collection:
+ms.reviewer:
+ms.custom: bap-template
 ---
 
 
@@ -13,7 +15,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
@@ -24,7 +26,6 @@ You can obtain customer consent for post-call surveys as follows:
 - **Automatic - explicit**: The IVR bot asks the customer if they want to participate in a post-call survey. The consent is saved in a `va_SurveyConsent` Boolean variable. If the customer consents, the call is automatically transferred to the post-call survey bot at the end of the agent call. If the customer says no, the call ends when the bot hangs up.
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
     If the customer says yes, the agent manually transfers the call to the survey bot.
-
 
 > [!NOTE]
 > We recommend that you have two bots if your organization wants to use Copilot Studio for both IVR and survey scenarios.

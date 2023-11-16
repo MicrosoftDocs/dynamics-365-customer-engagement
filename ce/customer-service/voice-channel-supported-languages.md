@@ -12,6 +12,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 This article provides information about the supported languages and locale codes for the voice channel.
 
 ## Supported languages and locale codes

@@ -1,15 +1,20 @@
 ---
-title: Pricing scenarios for voice calling | MicrosoftDocs
+title: Pricing scenarios for voice calling
 description: Use this article to understand how pricing works in the voice channel.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer:
+ms.collection:
 ms.topic: conceptual
 ms.date: 06/27/2023 
 ms.custom: bap-template 
 ---
 
 # Pricing scenarios for voice calling
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 The Dynamics 365 Customer Service voice channel is built on Azure Communication Services. Billing for Azure Communication Services uses a pay-as-you-go model and varies per [country](https://github.com/Azure/Communication/blob/master/pricing/communication-services-pstn-rates.csv). Calling and screen-sharing services are billed per minute per participant. More information: [Pricing Scenarios](/azure/communication-services/concepts/pricing).
 

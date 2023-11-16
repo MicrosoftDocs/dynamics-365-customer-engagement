@@ -12,6 +12,10 @@ ms.custom:
 
 # Dynamics 365 Customer Service trial FAQ
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
 [!INCLUDE [trial-platform-faqs](../shared/trials/trial-faq-platform.md)]

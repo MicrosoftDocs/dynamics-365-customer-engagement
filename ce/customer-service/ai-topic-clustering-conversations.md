@@ -9,6 +9,8 @@ ms.author: mgandham
 
 # Configure AI topic clustering for conversations
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic will be automatically added to the topic group. This can help you identify areas for improvement that can have the greatest impact on system performance.
 
 The AI-driven technology empowers informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
@@ -33,9 +35,10 @@ The Summary and Model run summary views provide key information about how the to
 
 ## Automate topics to Copilot Studio bots
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, the feature can be enabled by switching the **Disabled** toggle to **Enabled**.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-:::image type="content" source="media/pva-topics-conversations.png" alt-text="Automate topics to Copilot Studio bots":::
+1. In Customer Service admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
+1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]
 > Topic automation to Copilot Studio bot isn't available in Government Community Cloud.

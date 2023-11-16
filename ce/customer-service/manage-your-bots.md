@@ -12,6 +12,10 @@ ms.custom: bap-template
 
 # Manage your bots in Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 In Omnichannel for Customer Service, you can seamlessly add a bot and get it up and running within a few minutes while the integration is taken care of in the background.
 
 You can manage your Copilot Studio bots on the **Bots** page.

@@ -22,6 +22,10 @@ searchScope:
 
 # Omnichannel Summary dashboard
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Copilot Studio and Omnichannel for Customer Service.
 
  With the Summary dashboard, Customer Service Managers or Supervisors can:
@@ -85,7 +89,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is enabled and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery is enabled and still possible in languages that are not listed in this section, there might be differences in experience for users who uaw topics in unsupported languages.
 
 ### See also
 

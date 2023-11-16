@@ -10,6 +10,8 @@ ms.custom: bap-template
 ---
 # Code samples for parsing activity JSON
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 This article includes some samples for parsing the activity JSON object in various channels. The following sample code retrieves the context sent from Omnichannel for Customer Service so that it can be passed on to an Azure or Copilot Studio bot.
 
 ## Live Chat

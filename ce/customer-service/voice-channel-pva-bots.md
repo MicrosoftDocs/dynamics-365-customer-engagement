@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 To route customers call to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call in. Copilot Studio makes it easy to author IVR bots and you can use the same bots for other channels, like chat and voice.
 
 Some of the features of the Copilot Studio bots for voice are as follows:

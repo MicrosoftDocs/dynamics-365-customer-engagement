@@ -14,6 +14,8 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
@@ -48,8 +50,8 @@ Copilot Studio lets you seamlessly hand off voice and text-based conversations t
 
 To do so, perform the following steps:
 
-1. [Ensure the prerequisites are met](/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+1. [Ensure the prerequisites are met](/microsoft-copilot-studio/configuration-hand-off-omnichannel#prerequisites).
+2. [Install the extension solutions](/microsoft-copilot-studio/configuration-hand-off-omnichannel#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Copilot Studio.
 
 ## Connect your Copilot Studio bot to omnichannel instance

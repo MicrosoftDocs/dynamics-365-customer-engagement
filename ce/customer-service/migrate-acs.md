@@ -10,6 +10,8 @@ ms.custom: bap-template
 
 # Migration changes for the omnichannel messaging platform
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 As part of the migration to the omnichannel messaging platform, we released a new bot service channel and chat SDK version to extend our messaging capabilities. To successfully migrate to the omnichannel messaging platform, you need to make the following changes to your omnichannel implementations:
 
 - If you have network policies in your organization, be sure to update your [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md) to include the domains that the omnichannel platform uses.

@@ -13,15 +13,17 @@ ms.collection:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 As a bot author, you can enable your Copilot Studio bots to understand context while authoring a bot flow.
 
 ## Install extensions
 
-Follow the steps mentioned in this article: [Install Copilot Studio extensions](configure-bot-virtual-agent.md#install-power-virtual-agents-extensions).
+Follow the steps mentioned in this article: [Install Copilot Studio extensions](configure-bot-virtual-agent.md#install-copilot-studio-extensions).
 
 ## Connect to omnichannel instance
 
-Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](configure-bot-virtual-agent.md#connect-your-power-virtual-agents-bot-to-omnichannel-instance).
+Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](configure-bot-virtual-agent.md#connect-your-copilot-studio-bot-to-omnichannel-instance).
 
 ## Next steps
 

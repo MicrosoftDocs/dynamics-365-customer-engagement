@@ -11,6 +11,8 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 You can assist customers better if you can automatically identify them and view their account and case details on the **Active Conversation** page. One of the ways is by setting up pre-conversation questions in the relevant chat widgets. Customer responses can be used to search for details in the records and display the results. For an account or contact, the search is performed on the **Name**, **Email**, or **Phone Number** fields. For an account, the **Phone Number** pertains to the **Phone** field of the **Account Summary** page; for a contact, the **Phone Number** pertains to the **Mobile Number** field of the **Contact Summary** page. For cases, the search is performed on the **Case Number** field.
 
 > [!NOTE]

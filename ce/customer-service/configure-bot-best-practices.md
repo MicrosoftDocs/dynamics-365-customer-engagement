@@ -9,6 +9,8 @@ ms.topic: article
 
 # Best practices for configuring bots
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[cc-context-variable-considerations](../includes/cc-context-variable-considerations.md)]
 
 When you configure Azure and Copilot Studio bots in Omnichannel for Customer Service, use the following best practices:

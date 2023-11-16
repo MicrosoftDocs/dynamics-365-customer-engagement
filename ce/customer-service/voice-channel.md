@@ -15,6 +15,8 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost agent productivity. Omnichannel for Customer Service also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.

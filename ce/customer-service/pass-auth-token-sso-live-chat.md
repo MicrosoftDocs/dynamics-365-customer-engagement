@@ -12,6 +12,8 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 With single sign-on (SSO) in Omnichannel for Customer Service, your bots can perform secure actions on behalf of the customer during an ongoing customer conversation.​ This provides a seamless, personalized, and secure experience for the customer, thereby improving customer satisfaction.
 
 In the live chat channel, you can set up authentication in Azure or Copilot Studio bots. You can request authentication during a customer conversation before seeking or processing any confidential information such as bill payment, order returns, and any other sensitive data. As a bot author or developer, you can choose to show the OAuth card if the customer hasn't signed in or if the customer sign-in couldn't be validated. You can choose to hide the card if the customer has already signed in.

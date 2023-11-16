@@ -9,6 +9,10 @@ ms.author: mgandham
 
 # Conversation Topics dashboard
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
 > [!div class="mx-imgBorder"]
@@ -82,7 +86,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery is not prevented and still possible in languages that are not listed in this section, there might be differences in experience for users who use topics in unsupported languages.
 
 
 ### See Also

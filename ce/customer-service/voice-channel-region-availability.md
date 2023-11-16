@@ -8,9 +8,12 @@ ms.date: 09/28/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
+
 # Supported cloud locations for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 This article provides information about the supported cloud locations for the voice channel.
 
