@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 08/11/2023
+ms.date: 11/10/2023
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

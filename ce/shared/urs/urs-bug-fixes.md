@@ -7,14 +7,14 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 11/17/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) | 11/03/2023  |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) | 11/10/2023  |
-| | *USG* | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927) |11/03/2023  
-|**Station 4** |*Europe* |  [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731)  | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/03/2023 |
-|**Station 5** |  *North America*|   [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/10/2023 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/10/2023 |
-| | *Dedicated Scale Groups* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 11/17/2023 |
+|**Station 1** |  *First Release*| [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 12/08/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 12/15/2023  |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 01/12/2023  |
+| | *USG* | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | TBD | 12/15/2023  |
+|**Station 4** |*Europe* |  [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | 12/01/2023 |
+|**Station 5** |  *North America*|  [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | 12/08/2023 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [ [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819)  |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | 12/08/2023 |
+| | *Dedicated Scale Groups* | [3.12.117.31](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211731) | [3.12.118.19](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211819) | 12/01/2023 |
 
 
 >[!NOTE]

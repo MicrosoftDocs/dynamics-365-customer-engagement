@@ -4,7 +4,6 @@ description: Use this article to learn about the best practices to set up unifie
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.service: dynamics-365
 ms.topic: how-to
 ms.date: 07/10/2023
 ms.custom: bap-template

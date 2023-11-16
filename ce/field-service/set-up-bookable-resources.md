@@ -41,7 +41,7 @@ Frontline workers are people in your organization who are primarily scheduled fo
 1. On the **Scheduling** tab:
 
    - Set the **Start Location** and **End Location** to define where the resource starts and ends their working day. The system uses these values for scheduling and routing.
-       - **Location agnostic**: The location of this resource isn't relevant for the business scenario. If the work location of a requirement is set to *Onsite*, location agnostic resources don't show as a result.
+       - **Location agnostic**: The home location of this resource isn't relevant for the business scenario. Travel time will not be calculated or taken in to account to get to their first booking or from their last booking.
        - **Resource Address**: The resource starts and/or ends their day at a unique location. The system derives the exact location from the [latitude and longitude values on the related user, account, or contact record](turn-on-auto-geocoding.md).
        - **Organizational Unit**: The resource starts and/or ends the day at an organizational unit. Typically, that's a company location like a branch office or an assembly point. The exact location is derived from the [latitude and longitude values on the selected organizational unit](turn-on-auto-geocoding.md). If the resource type is *facility*, the organizational unit acts as the location of the facility.
 
