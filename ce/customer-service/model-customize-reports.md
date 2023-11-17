@@ -58,7 +58,7 @@ Before you begin, you must complete the following prerequisites:
     > [!NOTE]
     > In organizations where Dynamics 365 Analytics service account may not be available, you'll need to use the Dynamics CCA Data Analytics service account.
 
-- Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or the for the security group created earlier:  
+- Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or for the security group created earlier:
 
      - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
@@ -113,17 +113,17 @@ You need to:
 
 - Provide report authors with **Allow recipients to build content with the data associated with this dataset** access.
 
-- For report viewers like supervisors, you may choose to share the dataset without providing any additional permissions.
+- For report viewers like supervisors, you may choose to share the dataset without providing any extra permissions.
 
 ### Grant permissions to the customized Power BI report (optional)
 
-When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You'll have to provide access to the workspace only if your organization plans on using these copies to develop reports.
+When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You'll have to provide these permissions only if you plan to use these reports.  
+From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You must to provide these permissions only if you plan to use these reports.  
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
-After your report authors have created and published the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace.
+After your report authors create and publish the customized reports, you can allow Dynamics users to access these reports from the Customer service workspace.
 
 1. Select the data model reports.
 
@@ -146,11 +146,11 @@ After your report authors have created and published the customized reports, you
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
-The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You'll be able to reorder the reports on both historical and real time admin pages. For both historical and real time, you'll be able to modify or delete reports added from the respective historical and real-time data model customization pages only.
+The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can able to modify or delete reports added from the respective historical and real-time data model customization pages only.
 
 ## View customized reports
 
-If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
+If you've customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
