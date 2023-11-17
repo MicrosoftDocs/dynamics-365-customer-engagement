@@ -4,7 +4,6 @@ description: Enable the Dynamics 365 Omnichannel for Customer Service app and di
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to
 ms.date: 06/27/2023
 ms.custom: bap-template

@@ -27,7 +27,7 @@ The following videos help you get started with Omnichannel for Customer Service:
 
 - [Outbound messaging in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2147614)
 
-- [Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
+- [Copilot Studio integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
 - [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)
 

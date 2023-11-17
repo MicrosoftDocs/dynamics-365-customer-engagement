@@ -1,16 +1,20 @@
 ---
-title: "Set up a multilingual contact center in the voice channel | MicrosoftDocs"
-description: "Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service."
+title: Set up a multilingual contact center in the voice channel
+description: Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
 ms.date: 11/22/2022
-ms.topic: article
-
+ms.topic: how-to
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Set up a multilingual contact center
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 Agents are increasingly serving global and diverse customers who speak multiple languages, so it's important that the communication tools they use be able to work across languages.
 
@@ -58,6 +62,6 @@ Here are a few things to consider when you configure your bots for multilingual 
 
 [Introduction to the voice channel](voice-channel.md)  
 [Azure cognitive services - speech to text](https://azure.microsoft.com/services/cognitive-services/text-to-speech/#features)  
-[Set up a multilingual bot in Power Virtual Agents](set-up-multilingual-pva-bot.md)  
+[Set up a multilingual bot in Copilot Studio](set-up-multilingual-pva-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

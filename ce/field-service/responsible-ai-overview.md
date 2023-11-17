@@ -22,6 +22,5 @@ ms.reviewer: m-hartmann
 
 - [FAQ about work order recap with Copilot (preview)](faqs-work-order-recap.md)
 - [FAQ about work order creation in Outlook using Copilot (preview)](faqs-wo-flw-copilot.md)
-- [FAQ about Microsoft 365 Chat for Field Service (Preview)](faqs-m365-chat.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

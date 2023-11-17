@@ -4,7 +4,6 @@ description: Navigate the agent calendar in Customer Service workspace.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 10/18/2023 
 ms.custom: bap-template 
