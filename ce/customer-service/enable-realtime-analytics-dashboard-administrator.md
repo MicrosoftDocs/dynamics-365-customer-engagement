@@ -32,7 +32,7 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-Omnichannel real-time analytics reports are turned on by default for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+Omnichannel real-time analytics reports are on by default for the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel real-time analytics reports
 
@@ -54,7 +54,7 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
-If you've customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
@@ -81,7 +81,7 @@ If you've customized the Customer Service workspace app, you must complete the f
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)  
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)  
 [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)  
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
