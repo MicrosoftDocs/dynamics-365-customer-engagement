@@ -1,11 +1,11 @@
 ---
-title: "Understand the sales pipeline chart and its phases | MicrosoftDocs"
-description: "Learn about the the sales pipeline chart in Dynamics 365 Sales and its phases."
-ms.date: 10/25/2021
-ms.topic: article
+title: Understand the sales pipeline chart and its phases
+description: Understand how sales reps or managers use the Sales Pipeline chart to visualize revenue for an opportunity.
+ms.date: 11/17/2023
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
-searchScope: 
+searchScope:
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
   - D365-Entity-*
@@ -13,6 +13,11 @@ searchScope:
   - Dynamics 365
   - Sales
   - Customer Engagement
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/17/2023
+  - bap-template
 ---
 # Understand the sales pipeline chart and its phases 
 
