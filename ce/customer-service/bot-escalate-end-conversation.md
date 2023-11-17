@@ -277,6 +277,6 @@ The bot can also send an escalation summary that'll be visible only to the agent
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
+[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

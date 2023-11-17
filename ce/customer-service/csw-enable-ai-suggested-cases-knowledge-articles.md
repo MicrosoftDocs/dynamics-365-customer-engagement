@@ -1,12 +1,13 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 05/18/2023
+ms.date: 11/17/2023
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
-search.audienceType: 
+ms.reviewer:
+ms.collection:
+search.audienceType:
   - admin
 ms.custom: 
   - dyn365-customerservice
@@ -21,31 +22,29 @@ With the use of AI, suggestions about similar cases that were previously resolve
 The key highlights of the feature are as follows:
 
 - AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
-- Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
+- Secondary actions that agents can take, such as collaborating with an expert, after a similar case is found.
 - Capability of the AI model to process up to 1 million of the most recent cases for listing them at runtime.
 
 > [!NOTE]
-> The AI suggestions feature is currently available in a few geographical locations. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> - The AI suggestions feature is currently available in a few geographical locations only. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
+> - After you enable AI suggestions, if agents don't interact with the AI-suggested content for 21 days, the feature is deactivated. The administrator can enable it again.
 
 ## How AI suggestions for similar cases and knowledge articles work
 
-The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to agents to help them take action during their interactions with customers. After the productivity pane is enabled in Customer Service workspace or Omnichannel for Customer Service, the smart assist cards with suggestions appear on the productivity pane.
+The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to agents to help them take action during their interactions with customers. After you enable the productivity pane in Customer Service workspace, the smart assist cards with suggestions appear on the productivity pane.
 
 The AI suggestions use a set of pre-trained natural language understanding models. These models are designed to help agents find relevant knowledge articles or similar cases quickly, based on the context of active cases or ongoing conversations. 
 
 The AI models work as follows:
 
-- Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
-- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time preprocessing, up to 1,500 published articles and 15,000 recently resolved cases will be processed. After, newly published articles and resolved cases will be processed up to the daily limit. Over time, accumulatively, up to 1 million of the latest resolved cases will be processed to serve suggestions.
+- Knowledge articles and similar cases are suggested based on the semantic meaning in case context and knowledge article content.
+- After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup. 
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time preprocessing, up to 1,500 published articles and 15,000 recently resolved cases are processed. After, newly published articles and resolved cases are processed up to the daily limit. Over time, accumulatively, up to 1 million of the latest resolved cases are processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When the system suggests a knowledge article, both the article title and auto-generated summary are surfaced to agents. This data can help agents get a better idea about an article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation in addition to the confidence score (a percentage number that indicates the degree to which an article or similar case matches with the active case).
 - During an ongoing conversation, for the first three messages sent by the customer, the AI suggestions are triggered for each message. After these first three customer messages, AI suggestions are triggered for every third customer message. The AI suggestions are based on the context described in the last 18 messages.
-
-> [!NOTE]
->
-> - After you enable the settings, it might take up to 24 hours for the models to process data and complete the first time setup.
-> - After you enable or disable the settings, they'll be in place only after agents refresh or reopen their browser; they won't appear in the currently active sessions or on session switch.
+- After you enable the settings, the suggestions will be in place only after agents refresh or reopen their browser; they won't appear in the currently active sessions or on a session switch.
 
 ## Language support for AI suggestions
 
@@ -85,9 +84,6 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-> [!NOTE]
-> AI suggestions for similar cases is enabled out of the box.
-
 You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 1. Go to one of the apps, and then perform the following steps.
@@ -126,9 +122,6 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 4. Select **Save**.
 
 ## Enable AI suggestions for knowledge articles
-
-> [!NOTE]
-> AI suggestions for knowledge articles is enabled out of the box.
 
 You can enable AI suggestions for knowledge articles in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
