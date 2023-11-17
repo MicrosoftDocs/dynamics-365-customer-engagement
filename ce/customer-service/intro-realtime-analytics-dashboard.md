@@ -43,7 +43,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 
 Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization has set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
 
-As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Customer Service workspace. However, your administrator must enable the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
+As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Customer Service workspace. However, your administrator must provide the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
