@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/19/2023
+ms.date: 11/08/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -18,6 +18,8 @@ ms.custom:
 # Overview of Omnichannel real-time analytics dashboard
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and should **not** be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
@@ -37,13 +39,13 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Power Virtual Agents bots. However, they don't include conversations that were resolved by Power Virtual Agents bots.
+> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
 
 ## Security roles and permissions
 
-Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization has set business unit–level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
+Real-time analytics takes advantage of the security permissions that are defined in Dataverse. For example, if your organization has set business unit-level permissions for you, only metrics that are computed based on business unit–level data are shown to you.
 
-As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Customer Service workspace. However, your administrator must enable the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
+As a supervisor, you can view the **Omnichannel real-time analytics** dashboard in Customer Service workspace. However, your administrator must provide the required permissions for you. [Learn how to configure user roles to access analytics and dashboards.](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards)
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
@@ -52,7 +54,7 @@ As a supervisor, you can view the **Omnichannel real-time analytics** dashboard 
 
 You can view the different reports in the Customer Service workspace app. In the default view of Customer Service workspace, select **Omnichannel real-time analytics** in **Service**. By default, the **Summary** report is shown. To view the **Ongoing conversation**, **Agents**, and **Voice** reports, select the appropriate tabs.
 
-If you can't view the reports, contact your system administrator. For more information, go to [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
+If you can't view the reports, contact your system administrator. For more information, go to [Manage real-time analytics reports in Omnichannel for Customer Service](enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
 ## Dashboard details
 

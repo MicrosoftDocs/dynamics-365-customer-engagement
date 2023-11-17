@@ -1,6 +1,6 @@
 ---
 title: Summary dashboard in Omnichannel historical analytics | Microsoft Docs
-description: Integrate Power Virtual Agents and Omnichannel analytics to better understand your organization's customer service experience
+description: Integrate Copilot Studio and Omnichannel analytics to better understand your organization's customer service experience
 ms.date: 11/18/2022
 ms.topic: article
 author: gandhamm
@@ -22,10 +22,14 @@ searchScope:
 
 # Omnichannel Summary dashboard
 
-The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Power Virtual Agents and Omnichannel for Customer Service.
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
+The **Summary** dashboard provides a seamless end-to-end reporting of metrics across the customer service journey. This integrated analytics report aligns key metrics in Copilot Studio and Omnichannel for Customer Service.
 
  With the Summary dashboard, Customer Service Managers or Supervisors can:
-- Use the Power Virtual Agents bot metrics, such as escalation and deflection rate and agent metrics like engagement rate and abandon rate to get an overview of how customers interact with bots and bot performance.
+- Use the Copilot Studio bot metrics, such as escalation and deflection rate and agent metrics like engagement rate and abandon rate to get an overview of how customers interact with bots and bot performance.
 - Evaluate how different bot topic areas and their corresponding agent conversation topics impact your organization’s support performance.
 - Get actionable insights to handle bot escalations and customer requests effectively, thereby improving customer satisfaction and decreasing costs.
 
@@ -46,7 +50,7 @@ The report summarizes the KPIs for the specified time period and the percentage 
 | Total conversations | The number of conversations that were initiated by customers. |
 | Bot deflection rate | The percentage of conversations engaged by bots that were resolved.|
 | Bot escalation rate | The percentage of conversations engaged by bots that were escalated to a human agent.  |
-| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. Conversation escalated by the Power Virtual Agents bots is also included.|
+| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a human agent. Conversation escalated by the Copilot Studio bots is also included.|
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication begins at this point.|
 | Abandon rate | The percentage of conversations that are in a human agent's queue but aren't engaged by agents. |
 |Average time to answer | The average time customers waited in the queue before being connected to an agent. |
@@ -59,7 +63,7 @@ The following charts are displayed in the Summary dashboard.
 
 | Title | Description |
 | ------- | ------------------ |
-| Total conversations | A graphical view of the conversations that were initiated by the customer and were connected to a human agent directly, resolved by the Power Virtual Agents bot, or escalated by a bot to the human agent.|
+| Total conversations | A graphical view of the conversations that were initiated by the customer and were connected to a human agent directly, resolved by the Copilot Studio bot, or escalated by a bot to the human agent.|
 | Agent engagement rate over time | A graphical view of the daily incoming conversations, conversations engaged by an agent, and abandoned conversations over time. |
 | Bot conversations| A graphical view of the daily deflection and escalation rate and abandon rate over the specified time period. |
 
@@ -85,7 +89,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is enabled and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery is enabled and still possible in languages that are not listed in this section, there might be differences in experience for users who uaw topics in unsupported languages.
 
 ### See also
 
