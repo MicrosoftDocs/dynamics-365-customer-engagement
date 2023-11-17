@@ -1,7 +1,7 @@
 ---
 title: "Manage knowledge analytics | MicrosoftDocs"
 description: "Learn how to configure Knowledge analytics dashboards."
-ms.date: 11/15/2022
+ms.date: 11/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -65,13 +65,27 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 ## View Knowledge analytics dashboards
 
-To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**. 
+- To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**.
 
-To view the reports in Customer Service workspace, select the **plus (+)** icon, and then select **Knowledge analytics** from the dropdown list.
+- To view the reports in Customer Service workspace, select the hamburger menu, and then select **Knowledge analytics** in the site map. The **Article insights** dashboard is displayed. The **Search term insights** are displayed if you previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
-The **Article insights** dashboard is displayed. The **Search term insights dashboard** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
-
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **Dataverse Table** for Knowledge analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Knowledge analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Knowledge analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Knowledge analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/KnowledgeSearchIcon.svg
+    - **ID**: KSIReportsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+      - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+      - **Client**: **Web**.
+1. Select **Save**, and then select **Publish**.
 
 ### See also
 

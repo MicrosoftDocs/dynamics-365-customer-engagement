@@ -32,11 +32,11 @@ The following real-time analytics reports are available:
 - Agents
 - Ongoing conversation
 
-Omnichannel real-time analytics reports are turned on by default for the System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+Omnichannel real-time analytics reports are on by default for the following roles: System Administrator, Omnichannel Administrator, Omnichannel Supervisor, Analytics Reports author, and CSR manager. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 ## Manage Omnichannel real-time analytics reports
 
-Omnichannel real-time analytics reports are turned on by default. You can use the Customer Service admin center app to turn off the Omnichannel real-time analytics reports.
+Omnichannel real-time analytics reports are on by default. You can use the Customer Service admin center app to turn off the Omnichannel real-time analytics reports.
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
     > [!Note]
@@ -54,18 +54,24 @@ Omnichannel real-time analytics reports are turned on by default. You can use th
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
-If you've customized the Customer Service workspace, you need to perform the following steps to be able to view the reports.
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
-1. Go to [make.powerapps.com](https://make.powerapps.com).
-1. Select **Apps**.
-1. Select **Customer Service workspace** and then select **Edit**.
-1. On **Pages**, select **New**.
-1. On the **New page** dialog, select **URL** and then select **Next**. Fill in the following information:
-    1. **URL**: **/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}**
-    2. **Title**: Omnichannel real-time analytics (or any other sub area title you would want to add).
-1. Select **Add**.
-1. Optionally, on the **Omnichannel real-time analytics** pane, on the **Icon** dropdown list, select **Use web resource**.
-1. On the **Select web resource image** dialog, search and select the **msdyn_/Analytics/imgs/RealtimeReportIcon.svg** display name, and then select **Apply**. The **Omnichannel real-time analytics** page gets displayed on Customer Service workspace.
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **URL**, and then select **Next**.
+1. Enter the following information, and then select **Add**
+      - **URL**: [Organization Url]/main.aspx?pagetype=control&controlName=MscrmControls.Analytics.ReportingControl&data={"featureIds":"e67a1ada-6c62-4b45-b758-0b246f32c1a5"}
+      - **Title** Omnichannel real-time analytics
+1. From **Navigation**, select **Omnichannel real-time analytics**.
+1. Enter the following information for **Display options**.
+    - **Title**: Omnichannel real-time analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/RealtimeReportIcon.svg
+    - **ID**: OCRealtimeReportsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
 ### See also
@@ -75,7 +81,7 @@ If you've customized the Customer Service workspace, you need to perform the fol
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)  
 [View and understand the Agents report in Omnichannel real-time analytics](realtime-agents-analytics.md)  
 [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](realtime-ongoing.md)  
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
