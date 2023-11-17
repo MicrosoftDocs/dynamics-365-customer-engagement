@@ -150,7 +150,7 @@ The customized reports site map in the Customer service workspace is shared betw
 
 ## View customized reports
 
-If you've customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
