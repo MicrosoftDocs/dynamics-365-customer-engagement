@@ -119,7 +119,7 @@ You need to:
 
 When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You must provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You must to provide these permissions only if you plan to use these reports.  
+From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You must provide these permissions only if you plan to use these reports.  
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
