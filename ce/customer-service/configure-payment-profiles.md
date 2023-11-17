@@ -64,7 +64,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 
 1. Open the workstream containing the channel instance for which you want to enable Apple Pay.
 
-1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. More information: Configure an Apple Messages for Business channel instance in Omnichannel admin center
+1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. More information: [Configure an Apple Messages for Business channel instance in Omnichannel admin center](/configure-apple-messages-for-business-channel.md#configure-an-apple-messages-for-business-channel-instance-in-omnichannel-admin-center)
 
 1. Save your changes.
 
@@ -75,7 +75,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 |Description | Limitation |
 |-----------|---------------|
 | **Country code**: The two-letter ISO 3166-1 alpha-2 code that denotes which country payments are processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
-| **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio]() <br><br> - Adaptive card styling isn't supported. |
+| **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio](../microsoft-copilot-studio/advanced-use-skills.md) <br><br> - Adaptive card styling isn't supported. |
 | **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
 
