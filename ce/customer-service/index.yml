@@ -93,9 +93,9 @@ additionalContent:
       - url: voice-channel-contextual-transfer-external-ivr.md
         text: Integrate a third-party IVR system with voice channel
       - url: configure-bot-virtual-agent.md
-        text: Integrate a Power Virtual Agents bot
+        text: Integrate a Copilot Studio bot
       - url: integrate-km-with-pva.md
-        text: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
+        text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
     - title: Configure AI features
       links:
       - url: configure-copilot-features.md
@@ -187,16 +187,16 @@ additionalContent:
           summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
           url: /power-apps/
         - title: Microsoft Power Platform
-          summary: Learn how to quickly and easily build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, analyze data for insights using Power BI, rapidly design, configure, and publish modern websites using Power Pages, and build intelligent bots with a no-code interface using Power Virtual Agents.
+          summary: Learn how to quickly and easily build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, analyze data for insights using Power BI, rapidly design, configure, and publish modern websites using Power Pages, and build intelligent bots with a no-code interface using Copilot Studio.
           url: /power-platform/
         - title: Azure Communication Services
           summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
           url: /azure/communication-services/
-        - title: Microsoft Power Virtual Agents
-          summary: Build chatbots easily with Power Virtual Agents.
+        - title: Microsoft Copilot Studio
+          summary: Build chatbots easily with Copilot Studio.
           url: /power-virtual-agents/
         - title: Digital Contact Center Platform
-          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Power Virtual Agents, Azure Communication Services, and Teams to enhance and support your digital contact center.
+          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Copilot Studio, Azure Communication Services, and Teams to enhance and support your digital contact center.
           url: /digital-contact-center-platform/
 
 

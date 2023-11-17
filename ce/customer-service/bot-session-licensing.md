@@ -9,6 +9,8 @@ ms.collection: get-started
 
 # Bot sessions and licensing
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the start, middle, or end of a conversation.
 
 - If two different bots are invoked in the same conversation, it is considered a single conversation.
@@ -24,7 +26,7 @@ To know about the required subscriptions to use the chat and voice channels, see
 
 [Overview of bots](overview-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Power Virtual Agents bot for voice](voice-channel-pva-bots.md)  
+[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
+[Configure Copilot Studio bot for voice](voice-channel-pva-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

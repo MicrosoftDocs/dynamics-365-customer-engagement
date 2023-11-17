@@ -1,15 +1,20 @@
 ---
-title: Pricing scenarios for voice calling | MicrosoftDocs
+title: Pricing scenarios for voice calling
 description: Use this article to understand how pricing works in the voice channel.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer:
+ms.collection:
 ms.topic: conceptual
 ms.date: 06/27/2023 
 ms.custom: bap-template 
 ---
 
 # Pricing scenarios for voice calling
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 The Dynamics 365 Customer Service voice channel is built on Azure Communication Services. Billing for Azure Communication Services uses a pay-as-you-go model and varies per [country](https://github.com/Azure/Communication/blob/master/pricing/communication-services-pstn-rates.csv). Calling and screen-sharing services are billed per minute per participant. More information: [Pricing Scenarios](/azure/communication-services/concepts/pricing).
 
@@ -41,16 +46,16 @@ The following table summarizes the pricing for each scenario. The prices in the 
  
 ## Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
 
-Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Power Virtual Agents interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
+Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
 
 :::image type="content" source="media/Customer-call-escalated-human-agent-IVR.png" alt-text="Inbound call from customer through Teams":::
 
 Cost calculation:
 
 - One participant on PSTN (inbound from Mae) x 10 minutes x 0.022 per participant per minute = $0.22.
-- One participant on Voice over Internet Protocol (VOIP) (inbound to Power Virtual Agents bot) X 2 x $0.004 per minute = $0.008.
+- One participant on Voice over Internet Protocol (VOIP) (inbound to Copilot Studio bot) X 2 x $0.004 per minute = $0.008.
   > [!NOTE]
-  > The VOIP call to the Power Virtual Agents bot isn't covered by the intelligent voice bot minutes included in the Voice Channel Add-in license.
+  > The VOIP call to the Copilot Studio bot isn't covered by the intelligent voice bot minutes included in the Voice Channel Add-in license.
 - One participant on VOIP (inbound to Matias) x 8 x $0.004 per participant per minute= $0.032.
 
 **Total cost for the call**: $0.22 + $0.008 + $0.032 = $0.26.
