@@ -1,13 +1,13 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 05/18/2023
+ms.date: 11/17/2023
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
 ms.reviewer:
 ms.collection:
-search.audienceType: 
+search.audienceType:
   - admin
 ms.custom: 
   - dyn365-customerservice
@@ -27,7 +27,7 @@ The key highlights of the feature are as follows:
 
 > [!NOTE]
 > - The AI suggestions feature is currently available in a few geographical locations only. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
-> - After you enable AI suggestions, if agents don't interact with the AI-suggested content for a prolonged time, the feature is deactivated.
+> - After you enable AI suggestions, if agents don't interact with the AI-suggested content for 21 days or more, the feature is deactivated. The administrator can enable it again.
 
 ## How AI suggestions for similar cases and knowledge articles work
 
