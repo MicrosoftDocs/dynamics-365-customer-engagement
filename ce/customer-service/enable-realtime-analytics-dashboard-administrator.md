@@ -36,7 +36,7 @@ Omnichannel real-time analytics reports are turned on by default for the System 
 
 ## Manage Omnichannel real-time analytics reports
 
-Omnichannel real-time analytics reports are turned on by default. You can use the Customer Service admin center app to turn off the Omnichannel real-time analytics reports.
+Omnichannel real-time analytics reports are on by default. You can use the Customer Service admin center app to turn off the Omnichannel real-time analytics reports.
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
     > [!Note]
@@ -54,7 +54,7 @@ Omnichannel real-time analytics reports are turned on by default. You can use th
 
 To view the reports in Customer Service workspace, see [Access reports](intro-realtime-analytics-dashboard.md#access-reports).
 
-If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
+If you've customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
