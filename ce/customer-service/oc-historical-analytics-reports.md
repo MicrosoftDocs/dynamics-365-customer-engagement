@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 11/16/2023
+ms.date: 11/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -152,14 +152,12 @@ If you've customized the Customer Service workspace app, you'll need to perform 
 1. Enter the following information:
     - **Title**: Omnichannel historical analytics
     - **Icon**: Select **Use web resource**.
-    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/OmnichannelReportIcon.svg
+    - **Select icon**: msdyn_/Analytics/imgs/OmnichannelReportIcon.svg
     - **ID**: OCReportsSubArea
-1. Select **Advanced Settings** and set the **Table Privileges**.
-    - **Privilege entity**: msdyn_dataanalyticsreport_oc
-    - **Privilege**: Read
-1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
-1. For **Client**, select **Web**.
-1. For **Outlook shortcut**, select the **Offline availability** checkboxes.
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
 ### See also

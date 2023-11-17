@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 11/16/2023
+ms.date: 11/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -114,13 +114,11 @@ If you've customized the Customer Service workspace app, you'll need to perform 
 1. Enter the following information:
     - **Title**: Customer Service historical analytics
     - **Icon**: Select **Use web resource**.
-    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/CustomerServiceInsights.svg
+    - **Select icon**: msdyn_/Analytics/imgs/CustomerServiceInsights.svg
     - **ID**: CSHistoricalAnalyticsSubArea
-1. Select **Advanced Settings**  and set the **Table Privileges**.
-    - **Privilege entity**: msdyn_dataanalyticsreport_csrmanager
-    - **Privilege**: Read
-1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
-1. For **Client**, select **Web**.
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
 1. Select **Save**, and then select **Publish**.
 
 ### See also

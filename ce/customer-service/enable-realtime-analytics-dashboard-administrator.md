@@ -64,16 +64,14 @@ If you've customized the Customer Service workspace app, you'll need to perform 
       - **Title** Omnichannel real-time analytics
 1. From **Navigation**, select **Omnichannel real-time analytics**.
 1. Enter the following information for **Display options**.
-    - **Title**: **Omnichannel real-time analytics**
+    - **Title**: Omnichannel real-time analytics
     - **Icon**: Select **Use web resource**.
-    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/RealtimeReportIcon.svg
+    - **Select icon**: msdyn_/Analytics/imgs/RealtimeReportIcon.svg
     - **ID**: OCRealtimeReportsSubArea
-1. Select **Advanced Settings** and set the **Table Privileges**.
-    - **Privilege entity**: mmsdyn_dataanalyticsreport_oc_rt
-    - **Privilege**: Read
-1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
-1. For **Client**, select **Web**.
-1. For **Outlook shortcut**, select the **Pass parameters** and **Offline availability** checkboxes.
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save**, and then select **Publish**.
 
 ### See also

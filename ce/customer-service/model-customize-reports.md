@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 11/16/2023
+ms.date: 11/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -160,13 +160,14 @@ If you've customized the Customer Service workspace app, you'll need to perform 
       - **Title** Customized Reports
 1. From **Navigation**, select **Customized Reports**.
 1. Enter the following information for **Display options**.
-    - **Title**: **Customized Reports**
+    - **Title**: Customized Reports
     - **Icon**: Select **Use web resource**.
-    - **Select icon**: /WebResources/msdyn_/Analytics/imgs/CustomizedReportsIcon.svg
+    - **Select icon**: msdyn_/Analytics/imgs/CustomizedReportsIcon.svg
     - **ID**: CustomizedReportsSubArea
-1. For **SKU**, select **All**, **On premise**, **Live**, and **SPLA**.
-1. For **Client**, select **Web**.
-1. For **Outlook shortcut**, select the **Pass parameters** and **Offline availability** checkboxes.
+1. Select **Advanced Settings**, and then select the following checkboxes:
+   - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+   - **Client**: **Web**.
+   - **Outlook shortcut**: **Pass parameters** and **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
 ### See also
