@@ -67,9 +67,9 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 - To view the reports in Customer Service Hub, go to **Service** > **Insights** > **Knowledge analytics**.
 
-- To view the reports in Customer Service workspace, select the hamburger menu, and then select **Knowledge analytics** in the site map. The **Article insights** dashboard is displayed. The **Search term insights** will be displayed if you have previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
+- To view the reports in Customer Service workspace, select the hamburger menu, and then select **Knowledge analytics** in the site map. The **Article insights** dashboard is displayed. The **Search term insights** are displayed if you previously configured the steps in [Configure Search term insights dashboard](#configure-search-term-insights-dashboard).
 
-If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
