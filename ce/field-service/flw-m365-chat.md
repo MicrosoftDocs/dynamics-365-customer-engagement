@@ -56,14 +56,14 @@ Be specific about the expected outcomes. For example, if you want results in tab
 
 ### More sample questions
 
-- What is the work order assigned to technician <email address>?
-- What type of work order is work order <work order number>, so I can assign the right technician?
+- What is the work order assigned to technician \<email address\>?
+- What type of work order is work order \<work order number\>, so I can assign the right technician?
 - Show me bookings for next week in a table format
 - Show work orders that are scheduled for next week in a table format
 - Show me a table of work orders created in the last three days
-- Show me work orders created in October for customer <name>
+- Show me work orders created in October for customer \<name\>
 - Show me high priority work orders created in October
-- Does customer <name> have any emergency priority work orders?
+- Does customer \<name\> have any emergency priority work orders?
 
 ## Set up Microsoft 365 Chat for Field Service work orders (admin)
 
