@@ -30,13 +30,13 @@ Sales reps or managers use the out-of-the-box Sales Pipeline chart to visualize 
 
 The pipeline phase of an opportunity is based on the stage of the business process flow that it's currently in. When an opportunity moves through the stages of its business process flow, the pipeline phase is set to a value in the form of _{StageCategoryIndex} - {CategoryName}_.
 
-To understand how each of the pipeline phases are named, go to the **Settings** area for the opportunity and open the business process flow definition associated with the opportunity record. 
+To understand how each of the pipeline phases is named, go to the **Settings** area for the opportunity and open the business process flow definition associated with the opportunity record. 
  
-There are four stages in the out-of-the-box Opportunity Sales Process flow. Each stage is mapped to a unique category, as highlighted in the **Properties** section of the image below. You can customize the business process flow definition by adding or removing stages, and you can also change the name that's displayed for each stage. The value of the pipeline phase attribute is based on the category of the stage and isn't affected by any change you make to the display name. 
+There are four stages in the out-of-the-box Opportunity Sales Process flow. Each stage is mapped to a unique category, as highlighted in the **Properties** section of the following image. You can customize the business process flow definition by adding or removing stages, and you can also change the name displayed for each stage. The value of the pipeline phase attribute is based on the category of the stage and isn't affected by any change you make to the display name. 
 
 ![Opportunity Sales Process definition.](media/opportunity-sales-process-definition.png "Opportunity Sales Process definition")
  
-The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example is **2**, the pipeline phase of the opportunity will be set to **2-Develop**.
+The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example is **2**, the pipeline phase of the opportunity is set to **2-Develop**.
 
 ![Stage Category option set.](media/stage-category.png "Stage Category option set")
 
