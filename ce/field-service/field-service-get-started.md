@@ -46,7 +46,7 @@ Field Service needs latitude and longitude values for service account records to
 
 ## Assign Field Service licenses to users
 
-Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](view-user-accounts-security-roles.md).
+Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](users-licenses-permissions.md).
 
 Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who will then complete the work for the customer.
 

@@ -118,7 +118,7 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 Whether work order products and services are created individually or in bulk as part of a work order incident type template, they'll appear on work order forms in the mobile app.
 
-Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](view-user-accounts-security-roles.md) to specify what users can edit, create, and delete.
+Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](users-licenses-permissions.md) to specify what users can edit, create, and delete.
 
 On a work order product record, field technicians will set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 

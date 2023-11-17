@@ -53,7 +53,7 @@ items:
     - name: Field Service settings
       href: configure-default-settings.md
     - name: Set up users and security roles
-      href: view-user-accounts-security-roles.md
+      href: users-licenses-permissions.md
     - name: Territories
       href: set-up-territories.md
     - name: Location and map settings
@@ -102,7 +102,7 @@ items:
       href: field-service-architecture.md
     - name: Lifecycle and system statuses
       href: work-order-status-booking-status.md
-    - name: New work order experience (preview)
+    - name: New work order experience
       href: work-order-experience.md
     - name: Create a new work order
       href: create-work-order.md
@@ -478,6 +478,8 @@ items:
   items:
     - name: Overview of integrations
       href: field-service-integration-overview.md
+    - name: Sync with finance and operations applications (preview)
+      href: finance-operations-integration.md
     - name: Collaborate with Microsoft Teams
       href: field-service-teams-collaboration.md
     - name: Dynamics 365 Supply Chain Management

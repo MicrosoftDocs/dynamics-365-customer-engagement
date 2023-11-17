@@ -1,18 +1,14 @@
 ---
-title: Create insurance policies (preview)
+title: Create insurance policies
 description: Create an insurance in Field Service to protect from financial loss.
-ms.date: 07/31/2023
+ms.date: 11/07/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Create insurance policies (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+# Create insurance policies
 
 An insurance policy protects from financial loss in exchange for a fee. An insurance provider agrees to compensate the insurance holder in the event of a certain loss or damage. Insurance is a contract, represented by a policy, in which a policy holder gets protection for a fee from an insurance company.
 
