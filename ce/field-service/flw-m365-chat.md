@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Chat for Field Service (preview)
 description: Learn about Microsoft 365 Chat in Dynamics 365 Field Service (Preview).
-ms.date: 11/13/2023
+ms.date: 11/14/2023
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
