@@ -18,7 +18,10 @@ searchScope:
 
 Sales reps or managers use the out-of-the-box Sales Pipeline chart to visualize the revenue for an opportunity based on each pipeline phase. The following image shows a sample Sales Pipeline chart with pipeline phases such as 1-Qualify, 2-Develop, and so on. 
 
-![Sales Pipeline chart.](media/sales-pipeline-chart.png "Sales Pipeline chart")
+:::image type="content" source="media/sales-pipeline-chart.png" alt-text="Screenshot of the sales pipeline chart.":::
+
+> [!NOTE]
+> If you've attached the business process flow to multiple entities, the pipeline phases shown in the chart will be based on the stages of the business process flow that's associated with the opportunity entity. For example, if you've associated only the qualify and develop stages with the opportunity entity, the chart displays data only for these two stages.
 
 The pipeline phase of an opportunity is based on the stage of the business process flow that it's currently in. When an opportunity moves through the stages of its business process flow, the pipeline phase is set to a value in the form of _{StageCategoryIndex} - {CategoryName}_.
 
@@ -37,7 +40,8 @@ The label for the pipeline phase of an opportunity consists of the category orde
 
 ### See also
 
-[Gain insights with dashboards in Dynamics 365 Sales](dashboards.md)  
-[Troubleshooting sales pipeline chart and its phases](/troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues)
+- [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
+- [Gain insights with dashboards in Dynamics 365 Sales](dashboards.md)  
+- [Troubleshooting sales pipeline chart and its phases](/troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
