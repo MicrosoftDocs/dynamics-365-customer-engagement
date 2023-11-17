@@ -44,8 +44,8 @@ Before you begin, you must complete the following prerequisites:
 
 - Enable insights features in Customer Service:
 
-    - If you are enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
-    - If you are enabling real-time data model customization, you must enable real-time analytics for Omnichannel. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
+    - If you're enabling historical data model customization, you must enable at least one of the historical reports, such as Customer Service historical analytics, Omnichannel historical analytics, or knowledge analytics. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
+    - If you're enabling real-time data model customization, you must enable real-time analytics for Omnichannel. More information: [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md)
 
 - Create a Microsoft Entra ID security group:
 
@@ -60,15 +60,15 @@ Before you begin, you must complete the following prerequisites:
 
 - Enable Power BI service features from the Power BI admin portal. The Power BI administrator must enable the following, either for the entire organization or the for the security group created earlier:  
 
-     - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
+     - [**Create workspace (new workspace experience)**](/power-bi/admin/service-admin-portal-workspace#create-workspaces-new-workspace-experience): Enabling this feature creates two workspaces, a managed workspace and a customer workspace to deploy Dynamics data model and reports.
 
-    - [**Allow service principals to use Power BI APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This uses the Power BI APIs for creating workspaces, deploying reports and models.
+    - [**Allow service principals to use Power BI APIs**](/power-bi/enterprise/service-premium-service-principal#enable-service-principals): This feature uses the Power BI APIs for creating workspaces, deploying reports and models.
 
-    - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring additional data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+    - **Allow DirectQuery connections to Power BI datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so DirectQuery needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
   
-    - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring additional data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
+    - **Allow XMLA endpoints and Analyze in Excel with on-premise datasets**: When report authors build new metrics or bring more data sources, they create [composite models](/power-bi/transform-model/desktop-composite-models#managing-composite-models-on-power-bi-datasets), so this feature needs to be enabled. Users who view reports built on top of data model in Dynamics 365 require this permission.
     
-    - **Embed content in apps** (**Optional**): Enabling this embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
+    - **Embed content in apps** (**Optional**): Enabling this feature embeds customized reports in Dynamics 365 ([Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)). Users who view the custom reports from Dynamics 365 Customer Service require this permission. Work with your Microsoft Entra ID administrator to identify a security group that has all the required Dynamics users.
         
 - If you plan to use an existing Power BI workspace to host the copy of the out-of-the-box reports (customer workspace), make sure that the Dynamics Administrator (user login) enabling the model customization is a workspace administrator of that Power BI workspace.
 
@@ -82,16 +82,16 @@ Before you begin, you must complete the following prerequisites:
 
 ## Step 1: Select a Power BI workspace
 
-Specify the Power BI workspace where the Dynamics data model and reports will be provisioned.
+Specify the Power BI workspace where the Dynamics data model and reports are provisioned.
 
 1. From the Insights page, go to the data model for which you want to select a Power BI workspace.
 
 1. Select **Create new workspace** or to use an existing workspace, select a workspace from the dropdown list.
 
-1. Select **Save**. This initiates the provisioning of the reports.
+1. Select **Save**. This action initiates the provisioning of the reports.
 
 > [!NOTE]
-> The specified workspace applies only to the customer's workspace. A new managed workspace will be created by Microsoft for historical and real-time reports each, when configured. For more information, go to: [How data model customization works](datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
+> The specified workspace applies only to the customer's workspace. A new managed workspace is created by Microsoft for historical and real-time reports each, when configured. For more information, go to: [How data model customization works](datamodel-overview.md#how-data-model-customization-works). You can also specify the same workspace for both historical and real-time analytics reports.
 
 ## Step 2: Provision the data models
 
@@ -99,15 +99,15 @@ It could take up to 24 hours for the provisioning to complete. You can leave the
 
 ## Step 3: Grant permissions for dataset and reports
 
-After the report is provisioned, you must provide **Write** permissions for users who will be authoring reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
+After the report is provisioned, you must provide **Write** permissions for users who author reports in Power BI and **Read** permissions for supervisors and other consumers of the reports.
 
-You'll need to be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) will have the necessary permissions added.
+You must be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) has the necessary permissions added.
 
 :::image type="content" source="media/step3-grant-permissions.png" alt-text="Image for step 3 grant read and write permissions":::
 
 ### Grant access to the Power BI data model
 
-Report authors will connect to the specified data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. More information: [Share access to a dataset](/power-bi/connect-data/service-datasets-share).
+Report authors connect to the specified data model to build custom reports. When you select the **Power BI Data model** link, the managed workspace opens up and the details of the data model are displayed. Use the **Share** dialog to provide access to users by entering their email address. More information: [Share access to a dataset](/power-bi/connect-data/service-datasets-share).
 
 You need to:
 
@@ -117,9 +117,9 @@ You need to:
 
 ### Grant permissions to the customized Power BI report (optional)
 
-When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports will be provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You'll have to provide access to the workspace only if your organization plans on using these copies to develop reports.
+When you select the **Customized Power BI Report** link, the Power BI workspace where the sample reports are provided appears in a lineage view. These reports are the copy of your out-of-the-box reports and can be edited and modified. You'll have to provide access to the workspace only if your organization plans on using these copies to develop reports.
 
-From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who will be viewing these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You'll have to provide these permissions only if you plan to use these reports.  
+From the lineage view, select **Access**, and provide **Contributor** access to your report authors and **Viewer** access to users who view these or any other reports built in this workspace. For more information on data permissions, go to: [Manage dataset access permissions (preview)](/power-bi/connect-data/service-datasets-manage-access-permissions). You'll have to provide these permissions only if you plan to use these reports.  
 
 ## Step 4: Embed customized reports back to Dynamics 365
 
@@ -144,7 +144,7 @@ After your report authors have created and published the customized reports, you
 4. From the **Select Power BI report** dropdown list, select the Power BI report in the workspace.
 5. Select **Add** and **Save**.
 
-The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name will appear for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
+The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You'll be able to reorder the reports on both historical and real time admin pages. For both historical and real time, you'll be able to modify or delete reports added from the respective historical and real-time data model customization pages only.
 
