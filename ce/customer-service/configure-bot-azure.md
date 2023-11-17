@@ -114,8 +114,8 @@ You understand that your data may be transmitted and shared with external system
 
 [Overview of bots](overview-bots.md)  
 [Sample configuration to integrate Azure bots](sample-config-azure-bot.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
-[Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
+[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Create workstreams for unified routing](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  

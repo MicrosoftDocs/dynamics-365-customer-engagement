@@ -1,6 +1,6 @@
 ---
 title: "Best practices for configuring bots | MicrosoftDocs"
-description: "This article lists the best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service."
+description: "This article lists the best practices that you can follow when you configure Azure and Copilot Studio bots in Omnichannel for Customer Service."
 ms.date: 08/30/2022
 author: neeranelli
 ms.author: nenellim
@@ -9,9 +9,11 @@ ms.topic: article
 
 # Best practices for configuring bots
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[cc-context-variable-considerations](../includes/cc-context-variable-considerations.md)]
 
-When you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service, use the following best practices:
+When you configure Azure and Copilot Studio bots in Omnichannel for Customer Service, use the following best practices:
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity isn't reduced even after a work item is assigned to it. This ensures that any conversation routed to the queue is first picked up by the bot.
 
@@ -27,7 +29,7 @@ When you configure Azure and Power Virtual Agents bots in Omnichannel for Custom
 ### See also
 
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Manage context variables](manage-context-variables.md)  
 [Context variables for a bot](context-variables-for-bot.md)  

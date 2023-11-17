@@ -9,6 +9,10 @@ ms.author: mgandham
 
 # Conversation Topics dashboard
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your conversations to help you better understand how different topic areas are impacting your organization’s support performance. 
 
 > [!div class="mx-imgBorder"]
@@ -45,7 +49,7 @@ The topics metrics chart displays the following metrics.
 | CSAT impact | The impact (downward or upward) that the conversations in the selected topic group are driving the overall organization CSAT. |
 | Avg. sentiment | The average of customer sentiment based on verbatim provided in survey responses. Only available if Customer Voice has been configured as a post conversation survey tool. |
 | Sentiment impact | The impact (downward or upward) that the conversations in the selected topic group are driving the overall organization sentiment.  |
-| Power Virtual Agents icon | Supervisors can use this icon to select the topic for automation to Power Virtual Agents. |
+| Copilot Studio icon | Supervisors can use this icon to select the topic for automation to Copilot Studio. |
 
 ## Conversation Topics drill-down view
 
@@ -56,13 +60,13 @@ To access the drill-down, select any metric value for the topic you're intereste
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation topic drill down view.](media/oc-conversation-topics-drill-down.png "Omnichannel Conversation topic drill down view")
 
-## Topic automation to Power Virtual Agents
+## Topic automation to Copilot Studio
 
-AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by your organization's administrator.  
+AI-discovered topics in Omnichannel Historical Analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, the feature can be enabled by your organization's administrator.  
 
-After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Power Virtual Agents on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will open the topic editing form.
+After a topic is identified as a good automation candidate, the automation workflow can be triggered by selecting Copilot Studio on the **Topics** metrics grid or by selecting **Details** and then **Automate to Bot** in the drill -down view. This will open the topic editing form.
 
-Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Power Virtual Agents bot that's ideal for adding the topic to. If no bot exists, select **Create Bot**. You'll be redirected to the Power Virtual Agents application for bot creation. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones. After this step is complete, select **Automate Continue** . The Power Virtual Agents topic will redirect to Power Virtual Agents for completion of authoring.
+Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot Studio bot that's ideal for adding the topic to. If no bot exists, select **Create Bot**. You'll be redirected to the Copilot Studio application for bot creation. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones. After this step is complete, select **Automate Continue** . The Copilot Studio topic will redirect to Copilot Studio for completion of authoring.
 
 > [!NOTE]
 > Bots created through the Microsoft Teams channel won't be listed in the bot selection list.
@@ -82,7 +86,7 @@ The topics capability in the Customer Service historical analytics reports comes
 - Spanish 
 
 > [!NOTE]
-> While topic discovery is not prevented and still possible in languages that are not listed above, there may be differences in experience for users who leverage topics in unsupported languages.
+> While topic discovery is not prevented and still possible in languages that are not listed in this section, there might be differences in experience for users who use topics in unsupported languages.
 
 
 ### See Also
