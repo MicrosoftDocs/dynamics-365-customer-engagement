@@ -17,6 +17,10 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Omnichannel for Customer Service dashboards
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
 You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
@@ -31,7 +35,7 @@ The following dashboard reports are available for Omnichannel historical analyti
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Power Virtual Agents bot and Omnichannel metrics. More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
+The Summary dashboard gives you an integrated view of the Copilot Studio bot and Omnichannel metrics. More information: [Conversation dashboard](omnichannel-summary-dashboard.md)
 
 ### Conversation
 

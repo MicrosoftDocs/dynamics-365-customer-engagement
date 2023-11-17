@@ -10,6 +10,8 @@ ms.collection: get-started
 
 # Create and manage workstreams
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 A workstream is a container to enrich, route, and assign work items, and can be associated with a channel, such as live chat, voice, or case.
@@ -132,7 +134,7 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 To add a bot to a workstream, the bot must be configured and available for selection.
 
-For Power Virtual Agents bots, see [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
+For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
 For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service](configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
 **To add the bot to the workstream**
