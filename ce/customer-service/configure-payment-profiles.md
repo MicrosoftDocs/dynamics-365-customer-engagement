@@ -35,7 +35,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 1. On the **Details** page, provide the following information:<br>
 
-     - **Merchant friendly name**: Your business's customer-facing name. This will be the name your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
+     - **Merchant friendly name**: The ustomer-facing name of your business. This name is what your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
      
      - **Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
      
@@ -47,7 +47,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
      
      - **Merchant domain URL**: The website domain associated with your Apple Pay Merchant Account. <br>
      
-     - **Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments will be processed. <br>
+     - **Merchant two-letter country code**: Country codes are formatted by their ISO 3166-1 alpha-2 code. Use the country code for where payments are processed. <br>
      
 1. On the **Payment options** page, provide the following information:<br>
     
@@ -56,7 +56,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
      - **Supported Networks**: The networks that support transactions between your Apple Pay merchant account and card issuers.<br>
 
 1. On the **Rich messages** page, select **Add**, and then select one or more Apple Pay rich messages to associate with this authentication setting. <br>
-An Apple Pay type rich message may be associated to more than one payment profile. This is because each channel instance may only support one payment profile. <br>
+An Apple Pay-type rich message may be associated to more than one payment profile. This association is because each channel instance may only support one payment profile. <br>
 
 1. Review the **Summary** page, and then select **Finish**. The authentication setting is configured. 
 
@@ -74,7 +74,7 @@ An Apple Pay type rich message may be associated to more than one payment profil
 
 |Description | Limitation |
 |-----------|---------------|
-| **Country code**: This is the two-letter ISO 3166-1 alpha-2 code that denotes which country payments will be processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
+| **Country code**: The two-letter ISO 3166-1 alpha-2 code that denotes which country payments are processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
 | **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio]() <br><br> - Adaptive card styling isn't supported. |
 | **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
