@@ -59,11 +59,11 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 1. Select **Save** or **Save and Close**.
 
-   This configuration will also enable AI-discovered topics from cases with default settings.
+   This configuration also enables AI-discovered topics from cases with default settings.
 
 ## Enable historical analytics for unified routing
 
-Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics will be available in the report after 24 hours.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
@@ -99,11 +99,11 @@ Customer Service historical analytics must be enabled and you must opt in to the
 
 1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
 
-You'll see a message on the command bar that your reports are being provisioned and it might take up to 24 hours for the process to complete.
+The command bar displays a message that your reports are being provisioned and it might take up to 24 hours for the process to complete.
 
 ## View Customer Service historical analytics reports
 
-If you've customized the Customer Service workspace app, you'll need to perform the following steps to be able to view the reports.
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
 
 1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
 1. Select **New**.
