@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 10/24/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
@@ -51,6 +51,10 @@ Some of the rules used in the health check and their descriptions are as follows
 | Error | No valid assignment definition for the queue: Without an assignment method, agents in the queue can’t be assigned work items. Select an assignment method. If it’s a custom method, ensure that it contains rules. | Link to queue page to add custom assignment rule. |
 | Warning | Unsupported automatic record creation rules in use: Automatic record creation rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and activate the new rule version. | Link to migration tool for automatic record creation. |
 | Warning | Unsupported service level agreement rules in use: Service level agreement rules defined in the web client aren't supported. Use the migration tool to update the rules in the Unified Interface experience, and delete the old rule version. | Link to the migration tool for service level agreements. |
+
+### Known issues
+
+[Contact Center health checker doesn’t appear in the admin center](https://go.microsoft.com/fwlink/p/?linkid=2165393)
 
 ### See also
 
