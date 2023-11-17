@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: conceptual 
 ms.collection: get-started 
-ms.date: 11/07/2023
+ms.date: 11/17/2023
 ms.custom: bap-template 
 ---
 
