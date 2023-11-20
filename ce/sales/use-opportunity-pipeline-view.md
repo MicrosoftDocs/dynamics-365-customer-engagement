@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 11/17/2023
+ms.date: 11/20/2023
 ms.custom: bap-template 
 ---
 
@@ -57,7 +57,7 @@ You can [personalize the opportunity pipeline view](personalize-pipeline-view.md
   The funnel chart can display up to 50,000 records. You can apply filters to reduce the number of records in the chart.
 
 > [!NOTE]
-> If you've attached the business process flow to multiple entities, the pipeline phases shown in the bubble and funnel charts will be based on the stages of the business process flow that's associated with the opportunity entity. For example, if you've associated only the qualify and develop stages with the opportunity entity, the charts display data only for these two stages, when the chart is segmented by pipeline phases.
+> If you've associated different stages of the business process flow to multiple entities, the pipeline phases shown in the bubble and funnel charts will only be based on the stages associated with the opportunity entity. For example, if you've associated only the qualify and develop stages with the opportunity entity, the charts display data only for these two stages, when the chart is segmented by pipeline phases.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
