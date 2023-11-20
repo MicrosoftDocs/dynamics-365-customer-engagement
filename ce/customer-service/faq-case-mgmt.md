@@ -45,7 +45,7 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
 ### Can I update cases after they're resolved or canceled?
 
-Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
+Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](manage-resolved-canceled-cases.md).
 
 ### Why isn't the billable time isn't automatically updated on the case resolution dialog? 
 
