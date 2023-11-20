@@ -586,6 +586,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/update-resolved-canceled-cases.md",
+      "redirect_url": "link-note-to-entity-task",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterapplication.md",
       "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
       "redirect_document_id": false
