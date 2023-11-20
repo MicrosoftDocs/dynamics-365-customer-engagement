@@ -123,6 +123,19 @@ Administrators who manage the **Dynamics 365 Field Service integration parameter
 
 To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
 
+### Grant Dataverse consent for user impersonation
+
+You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
+
+1. In Power Platform admin center, select the Microsoft Power Platform environment where you installed the Copilot solution.
+1. Select **Settings** at the top of the page.
+1. Expand **Product**, and select **Features**.
+1. Find **Finance and Operations in Dataverse**.
+1. Set the **Enable finance and operations user impersonation in Dataverse** option to **On**.
+
+> [!NOTE]
+> For more information, see [Managed feature settings](/power-platform/admin/settings-features#finance-and-operations-in-dataverse).
+
 ## Enable the integration from Field Service
 
 Modify the environment to align with the integration scenarios.

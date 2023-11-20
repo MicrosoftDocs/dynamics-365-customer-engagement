@@ -1,12 +1,17 @@
 ---
 title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service."
-ms.date: 10/31/2023
+ms.date: 11/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:10/19/2023
+  - ai-gen-desc
 ---
 
 # Manage historical analytics reports in Customer Service
@@ -54,11 +59,11 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
 1. Select **Save** or **Save and Close**.
 
-   This configuration will also enable AI-discovered topics from cases with default settings.
+   This configuration also enables AI-discovered topics from cases with default settings.
 
 ## Enable historical analytics for unified routing
 
-Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics will be available in the report after 24 hours.
+Use the Customer Service admin center or Customer Service Hub app to enable or disable the reports. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
@@ -94,7 +99,27 @@ Customer Service historical analytics must be enabled and you must opt in to the
 
 1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
 
-You'll see a message on the command bar that your reports are being provisioned and it might take up to 24 hours for the process to complete.
+The command bar displays a message that your reports are being provisioned and it might take up to 24 hours for the process to complete.
+
+## View Customer Service historical analytics reports
+
+If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
+
+1. On the Customer Service workspace app tile, select the ellipsis for **More Options**, and then select **Open in App Designer**.
+1. Select **New**.
+1. On the **New page** dialog, select **Dataverse Table** for Customer Service historical analytics, and then select **Next**.
+1. To add a Dataverse table, select the **Select existing table** option, and then select **Customer Service historical analytics**.
+1. Select **Show in navigation**, and then select **Add**.
+1. From **Navigation**, select **Customer Service historical analytics**, and then select **Settings**.
+1. Enter the following information:
+    - **Title**: Customer Service historical analytics
+    - **Icon**: Select **Use web resource**.
+    - **Select icon**: msdyn_/Analytics/imgs/CustomerServiceInsights.svg
+    - **ID**: CSHistoricalAnalyticsSubArea
+1. Select **Advanced Settings**, and then select the following checkboxes:
+    - **SKU**: **All**, **On premise**, **Live**, and **SPLA**.
+    - **Client**: **Web**.
+1. Select **Save**, and then select **Publish**.
 
 ### See also
 
@@ -105,6 +130,5 @@ You'll see a message on the command bar that your reports are being provisioned 
 [View copilot analytics report](copilot-analytics-report.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

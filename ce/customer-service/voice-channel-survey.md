@@ -1,11 +1,13 @@
 ---
-title: "Configure a post-call survey in the voice channel | MicrosoftDocs"
-description: "Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service."
+title: Configure a post-call survey in the voice channel
+description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
 ms.date: 03/25/2022
-ms.topic: article
-ms.collection: get-started
+ms.topic: how-to
+ms.collection:
+ms.reviewer:
+ms.custom: bap-template
 ---
 
 
@@ -13,7 +15,7 @@ ms.collection: get-started
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
@@ -25,42 +27,41 @@ You can obtain customer consent for post-call surveys as follows:
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
     If the customer says yes, the agent manually transfers the call to the survey bot.
 
-
 > [!NOTE]
-> We recommend that you have two bots if your organization wants to use Power Virtual Agents for both IVR and survey scenarios.
+> We recommend that you have two bots if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
-## Create a survey bot in Power Virtual Agents
+## Create a survey bot in Copilot Studio
 
-Use either Power Virtual Agents (no-code or low-code experience) or Azure bot Service (pro-developer experience).
+Use either Copilot Studio (no-code or low-code experience) or Azure bot Service (pro-developer experience).
 
 You can add messages or questions in the **Escalation** topic to obtain a customer consent for a post-call survey. Examples of the messages are as follows:
 
 ### Implicit survey
 
 > [!div class="mx-imgBorder"]
-> ![Implicit survey in Power Virtual Agents.](./media/voice-survey-pva-implicit.png)
+> ![Implicit survey in Copilot Studio.](./media/voice-survey-pva-implicit.png)
 
 ### Explicit survey
 
 > [!div class="mx-imgBorder"]
-> ![Explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit1.png)
+> ![Explicit survey in Copilot Studio.](./media/voice-survey-pva-explicit1.png)
 
 > [!div class="mx-imgBorder"]
-> ![Configure explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit2.png)
+> ![Configure explicit survey in Copilot Studio.](./media/voice-survey-pva-explicit2.png)
 
 ### Configure a survey bot
 
-You can add messages or questions to a Power Virtual Agents IVR bot to create a post-call survey. A bot greets the customer when the call routed to the survey queue is answered. Examples of messages or questions configured in the **Greetings** topic for the bot to greet the customer are as follows:
+You can add messages or questions to a Copilot Studio IVR bot to create a post-call survey. A bot greets the customer when the call routed to the survey queue is answered. Examples of messages or questions configured in the **Greetings** topic for the bot to greet the customer are as follows:
 
 > [!NOTE]
-> We recommend that you have two bots if your organization wants to use Power Virtual Agents for both IVR and survey scenarios.
+> We recommend that you have two bots if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
 > [!div class="mx-imgBorder"]
 > ![Greetings in PVA.](./media/configure-survey-bot.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Configure greeting in Power Virtual Agents.](./media/pva-configure-greeting.png)
+> ![Configure greeting in Copilot Studio.](./media/pva-configure-greeting.png)
 
 
 > [!TIP]
@@ -68,7 +69,7 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 
 ## Connect your bot to Omnichannel for Customer Service
 
-- Configure your Power Virtual Agents bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
+- Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
 ## Enable post-call survey in phone number settings
@@ -99,7 +100,7 @@ Transfer the call to the survey queue.
 When answered, this sends the user to the bot's greeting topic.
 
    > [!div class="mx-imgBorder"]
-   > ![Configure agent initiated survey in Power Virtual Agents.](./media/voice-survey-pva-agent-initiated-greeting.png)
+   > ![Configure agent initiated survey in Copilot Studio.](./media/voice-survey-pva-agent-initiated-greeting.png)
 
 ## View Survey Results
 

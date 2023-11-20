@@ -19,6 +19,8 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and should **not** be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
 >
@@ -37,7 +39,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Power Virtual Agents bots. However, they don't include conversations that were resolved by Power Virtual Agents bots.
+> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
 
 ## Security roles and permissions
 
