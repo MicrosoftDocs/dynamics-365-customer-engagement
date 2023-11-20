@@ -23,7 +23,7 @@ ms.custom:
 
 Sales reps or managers use the out-of-the-box Sales Pipeline chart to visualize the revenue for an opportunity based on each pipeline phase. The following image shows a sample Sales Pipeline chart with pipeline phases such as 1-Qualify, 2-Develop, and so on. 
 
-:::image type="content" source="media/sales-pipeline-chart.png" alt-text="Screenshot of the sales pipeline chart." lightbox="media/sales-pipeline-chart.png":::
+:::image type="content" source="media/sales-pipeline-chart.png" alt-text="Screenshot of the sales pipeline chart.":::
 
 > [!NOTE]
 > If you've associated different stages of the business process flow to multiple entities, the pipeline phases shown in the chart will only be based on the stages associated with the opportunity entity. For example, if you've associated only the qualify and develop stages with the opportunity entity, the chart displays data only for these two stages.
