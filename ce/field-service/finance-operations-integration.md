@@ -41,7 +41,7 @@ The following steps are only required while the feature is in preview.
 
 ### Prerequisites
 
-- Dynamics 365 finance and operations applications preview build number 7.0.6592.16
+- Finance and operations apps that have build version 10.0.36 (10.0.1777.28) and platform update 62 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
