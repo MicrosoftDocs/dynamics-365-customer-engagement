@@ -44,8 +44,8 @@ When increasing duration, there are four options:
 
 * Proportionally Distributed: The increase in duration is split among all contained details in proportion to their respective durations, so that all are increased by the same percentage.
 * Front loaded: The increase in duration is added to the first contained detail until it hits capacity. It is then added to the next detail and so on. 
-* Distributed Evenly: The increase is split evenly among all contained details
-* Added to total: The increase is added to the total length of all contained details. This new total is then evenly distributed among contained details. 
+* Distributed Evenly: The increase is split evenly among all contained details.
+* Added to total: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details. 
 
 To delete a detail, select the detail from the calendar and select the **Delete**.
 
