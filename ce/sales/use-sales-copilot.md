@@ -44,11 +44,15 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts* that Copilot can help you with.
 
-### Open Copilot in full-screen view
+### Open Copilot in full-screen view (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
 
 Open the Copilot page in full-screen view when you want more space and focus to chat with Copilot and ask questions.
 
-1. Select **Copilot** from your sitemap.  If you don't see **Copilot** in your sitemap, ask your administrator to [turn on the Copilot preview feature flag](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps). 
+1. Select **Copilot** from your sitemap.  If you don't see **Copilot** in your sitemap, ask your administrator to turn on the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot).  
 
     :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page along with the list of suggested requests.":::
 
@@ -56,7 +60,7 @@ Open the Copilot page in full-screen view when you want more space and focus to 
 
 ## Chat with Copilot 
 
-You can use the predefined prompts in Copilot to get the most out of Copilot. 
+You can use the predefined prompts to get the most out of Copilot. 
 
 - [Get information from Copilot](copilot-get-information.md)  
 - [Ask questions to Copilot](copilot-ask-questions.md)  
