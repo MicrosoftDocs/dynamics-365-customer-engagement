@@ -17,7 +17,7 @@ A few answers to common questions on the various scenarios in managing cases are
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contact.md) and allow unrelated contacts be linked with the case. 
+Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 
@@ -45,7 +45,7 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
 ### Can I update cases after they're resolved or canceled?
 
-Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](manage-resolved-canceled-cases.md).
+Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 
 ### Why isn't the billable time isn't automatically updated on the case resolution dialog? 
 
