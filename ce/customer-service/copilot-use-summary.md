@@ -42,7 +42,7 @@ Copilot conversation summaries provide context and relay the steps that you took
 
 ### Get a conversation summary
 
-Depending on the triggers your administrator setup, the Copilot conversation summary is generated like this:
+Depending on the triggers your administrator set up, the Copilot conversation summary is generated like this:
 
 - Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
 - When you select **Summarize conversation** in an ongoing conversation.
