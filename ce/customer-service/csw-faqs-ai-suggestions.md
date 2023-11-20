@@ -23,10 +23,6 @@ No. Copilot supports knowledge articles published in the [English language](cs-r
  
 Make sure that your knowledge sources contain high-quality content that your agents normally refer when they are helping customers. In your implementation plan, verify that you expose the required sources only.  
 
-## How many knowledge articles can Copilot process?
-
-Copilot processes 100,000 of your latest published knowledge articles.
-
 ## I’ve enabled suggestions, but smart assist keeps showing me "No suggestions found" message
 
 This might be caused by one of the following reasons:
