@@ -145,8 +145,8 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 3.  To register the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], in [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], go to **Settings** > **Dynamics 365 App for Outlook** and register the app there.  
   
-### Additional steps for clients unable to connect to the Dynamics 365 Server via IFD
-If clients experience issues connecting through the IFD after you have registered them, follow each step here to resolve the issue. 
+### Mandatory steps after enabling OAuth for Dynamics 365 Server
+When OAuth is enabled, and you have registered your applications, it is required to implement following steps.
 
 #### Remove site authentication providers
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
