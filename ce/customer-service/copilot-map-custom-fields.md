@@ -17,7 +17,7 @@ ms.custom:
 
 # Manage fields Copilot uses for case summaries and emails
 
-Per your business requirement, you can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that the Copilot should use to generate responses.
+You can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that Copilot should use to generate responses.
 
 ## Modify the fields used to generate case summaries
 
@@ -36,14 +36,12 @@ In Customer Service admin center, perform the following steps to map your prefer
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
-2. In **Summaries**, for **Case summaries**, select the **Manage Data Attributes** link. On the **Data Attributes** pane, you see the default data attributes that Copilot uses. 
+2. In **Summaries**, for **Case summaries**, select the **Manage Data Attributes** link. The **Data Attributes** pane shows the attributes that Copilot uses to generate a summary. 
 1. Do the following actions:
    1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
       > [!NOTE]
       > The attributes related to case notes and email content aren't available on **Manage Data Attributes** but are considered to generate case summaries.
-   1. To modify the default attributes, perform the following steps: 
-      - For the **Source Table** of the attribute, you can specify **Case** or any other related table. For example, for **Customer** attribute instead of **Case** and **Contact** you can specify **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact.
-      - For the column attribute, specify a column from the **Source Table**.
+   1. To change the default attributes, select a different source table and column. For the **Customer** attribute, for example, you might select **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact instead of **Case** and **Contact**.
    1. Select **Save and Close**.
 1. Select **Save**.
  
