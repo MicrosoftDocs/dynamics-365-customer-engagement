@@ -55,6 +55,9 @@ Open the Copilot page in full-screen view when you want more space and focus to 
 1. Select **Copilot** from your sitemap.  If you don't see **Copilot** in your sitemap, ask your administrator to turn on the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot).  
 
     :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page along with the list of suggested requests.":::
+    Can't find Copilot in your sitemap? 
+    - Ask your administrator turn on the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot).
+    - If you're using a custom app, ask your administrator to [add the Copilot page](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview) to your app's sitemap.
 
 2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts* that Copilot can help you with.
 
