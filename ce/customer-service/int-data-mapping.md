@@ -15,15 +15,16 @@ As part of [adding an integrated search provider](add-search-provider.md#add-int
 
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
-To start, select an option in the Knowledge article schema section:
+Select an option in the Knowledge article schema section:
+
 - [Field mapping](#field-mapping)
 - [JSON schema](#json-schema)
 
 ## Field mapping
 
-### Select and upload the file for metadata selection
+Select and upload the file for metadata selection, and then select the meta tags you want to use in the mapping. With field mapping, you map a knowledge article received from the search provider (the source property) to an attribute of the knowledge article entity (the target), based on an operation type.
 
-Before you begin field mapping, you'll need to select and upload the file for metadata selection, and then select the meta tags you want to use in the mapping. 
+### Select and upload the file for metadata selection
 
 1. Save the article locally as a **Web Page, HTML Only** file. Make sure the file name is fewer than 99 characters.
 
@@ -39,7 +40,7 @@ Before you begin field mapping, you'll need to select and upload the file for me
 
 ### Map article attributes
 
-With field mapping, you map a knowledge article received from the search provider (the source property) to an attribute of the knowledge article entity (the target), based on an operation type. You need to use an operation type and then select the source property for the mapping.
+Use an operation type to map the source property to the target.
 
 - **Article attributes**: The knowledge article target field values.
 - **Operation types**: The mapping patterns that map the source article to the article attributes of the knowledge article entity. [Learn more about operation type mapping options.](#operation-type-mapping-options)
@@ -63,7 +64,7 @@ With field mapping, you map a knowledge article received from the search provide
 
 ## Operation type mapping options
 
-Here are the operation type mapping options that you can select from.
+Select from the following operation type mapping options:
 
 - **Regex**: Uses [regex patterns](/dotnet/standard/base-types/regular-expression-language-quick-reference) to extract values from the source website. The source property is a text field where you can enter the regex pattern. The string from your website's HTML that matches this pattern is mapped to the corresponding knowledge article field.
 
@@ -129,7 +130,7 @@ Sample HTML:
 </html>
 ```
 
-Here's the mapping that you can do:
+Use the following operation types to map the source property to the target in the sample html file:
 
 :::image type="content" source="media/int-html-example.png" alt-text="Screenshot explains the mapping from the selected html file.":::
 
@@ -139,31 +140,31 @@ where,
 - **Operation type**: **Regex**
 - **Source Property**: <body[^>]*>([\s\S]*)<\/body>
 
-Using the [sample regex](#operation-type-mapping-options) extracts the entire content inside the body tag of the HTML file.
+[Sample regex](#operation-type-mapping-options) extracts the entire content inside the body tag of the HTML file.
 
 - **Article Attribute**: **External Ref Id**
 - **Operation type**: **RegexUrl**
 - **Source Property**: **^https:\/\/.*?\/id\/(.*?)\/.*$**
 
-Using the above **RegexUrl** extracts the id - **2911cacd-efa5-4593-ae22-e09ae14c6698** from the HTML file.
+**RegexUrl** extracts the id - **2911cacd-efa5-4593-ae22-e09ae14c6698** from the HTML file.
 
 - **Article Attribute**: **Title**
 - **Operation type**: **Direct**
 - **Source Property**: **HTML-Title**
 
-Using the **Direct** operation type, maps the content within the <title> field of the HTML file, for example, **WSTrustRequestSerializer.CanRead Method (Microsoft.IdentityModel.Protocols.WSTrust) | Microsoft Learn**
+**Direct** extracts the content within the **Title** field of the HTML file, for example, **WSTrustRequestSerializer.CanRead Method (Microsoft.IdentityModel.Protocols.WSTrust) | Microsoft Learn**
 
 - **Article Attribute**: **Description**
 - **Operation type**: **Regex**
 - **Source Property**: **<div\b[^>]*id=\"ms-descriptionArticle\"[^>]*>([\s\S]*?)<\/div>**
 
-Using the [sample regex](#operation-type-mapping-options) extracts content from a specific div tag based on ID. Here, **ms-desciptionArticle** is the id of the div tag in the html.
+[Sample regex](#operation-type-mapping-options) extracts content from a specific div tag based on ID. Here, **ms-desciptionArticle** is the id of the div tag in the html.
 
 - **Article Attribute**: **Keywords**
 - **Operation type**: **Direct**
 - **Source Property**: **ms.keywords**
 
-Using the metatag ms.keywords from the website, extracts **XML Reader, WS-Trust** as the keywords.
+**Direct** extracts the content within the **ms.keywords** field of the HTML file, for example **XML Reader, WS-Trust**.
 
 ## JSON schema
 
