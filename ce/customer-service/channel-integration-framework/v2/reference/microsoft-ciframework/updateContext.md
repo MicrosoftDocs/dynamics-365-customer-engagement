@@ -1,7 +1,7 @@
 ---
 title: "updateContext (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Learn about updateContext (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/20/2023
+ms.date: 11/11/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -12,17 +12,17 @@ ms.custom:
 # updateContext (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 
-This method allows you to set the automation dictionary. It enables providers to add, modify, and remove values of slugs. The updated values are then available for invoking macros in the future.
+This method allows you to set the automation dictionary. It enables providers to add, modify, and remove values of slugs. The updated values are then available for future macro invocations.
 
 ## Syntax
 
-`Microsoft.Apm.getFocusedSession().updateContext(input);`
+`Microsoft.CIFramework.updateContext(input, sessionId, isDelete, correlationId);`
 
 ## Parameters
 
 | Parameter | Type | Required| Description |
 | ------- |-------|-------|-------|
-|input| JSON | Yes | JSON input properties of the session context to be updated.|
+|input| JSON Object | Yes | JSON string |
 |sessionId| String| Yes | Unique identifier of the current session. |
 |isDelete| Boolean | No | Set `isDelete` to `true` if the list of parameters in `input` JSON are to be deleted.<br />If `isDelete` is set to `true`, the slug values will be deleted and will no longer be available for subsequent macro invocations.|
 |correlationId| GUID| No |Used to group all related API calls together for diagnostic telemetry|
@@ -35,12 +35,11 @@ Returns a promise with string value.
 
 
 ```javascript
-
-Microsoft.Apm.getFocusedSession().updateContext({"customerName":"Contoso"});
-Microsoft.Apm.getFocusedSession().getContext().then((context)=> context.get("customerName")).then(
+var sessionId = await Microsoft.CIFramework.getFocusedSession().then(successCallback, errorCallback);
+var input = { "customerName" : "Contoso" };
+Microsoft.CIFramework.updateContext(input, sessionId).then(
     function success(result) {
         console.log(result);
-        // should expected "Contoso"
         // Perform operations upon record retrieval and opening
     },
     function (error) {
@@ -48,7 +47,3 @@ Microsoft.Apm.getFocusedSession().getContext().then((context)=> context.get("cus
         // Handle error conditions
     }
 );
-```
-
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
