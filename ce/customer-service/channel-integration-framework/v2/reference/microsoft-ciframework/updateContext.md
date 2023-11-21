@@ -47,3 +47,4 @@ Microsoft.CIFramework.updateContext(input, sessionId).then(
         // Handle error conditions
     }
 );
+```
