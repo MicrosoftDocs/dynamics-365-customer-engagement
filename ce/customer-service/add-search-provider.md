@@ -63,7 +63,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 1. Select **Next**.
 
-1. In the **Authentication and testing** section, [verify](#verify-the-search-provider-website) and enter the following:
+1. In the **Authentication and testing** section, [verify](#verify-search-provider-website) and enter the following:
 
     - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
     - **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. 

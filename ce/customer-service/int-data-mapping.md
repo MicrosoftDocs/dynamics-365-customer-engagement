@@ -15,7 +15,7 @@ As part of [adding an integrated search provider](add-search-provider.md#add-int
 
 If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
-Select an option in the Knowledge article schema section:
+Select an option in the **Knowledge article schema** section:
 
 - [Field mapping](#field-mapping)
 - [JSON schema](#json-schema)
