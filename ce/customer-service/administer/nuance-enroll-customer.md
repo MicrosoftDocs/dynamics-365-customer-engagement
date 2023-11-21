@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enroll customers in biometric authentication using Nuance Gatekeeper (preview)
 
-[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Enroll customers in biometric authentication
 

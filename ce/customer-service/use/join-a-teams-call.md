@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use Join a Teams call to enhance your conversations with customer (preview)
 
-[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 Join a Teams call is a new way for you to have effective conversations with your customers. During an active conversation, you can quickly move your call or chat to Microsoft Teams. On Teams, you can share your screen, connect on video, and cobrowse to offer more personalized support to your customer. 
 

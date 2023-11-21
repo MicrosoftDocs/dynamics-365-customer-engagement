@@ -95,7 +95,7 @@ To return to the choice of six prompts, select **Start over** at the bottom of t
 
 ## Draft a chat response (Preview)
 
-[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 

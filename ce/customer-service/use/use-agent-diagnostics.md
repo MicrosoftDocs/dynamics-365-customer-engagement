@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 The agent diagnostics tool helps you identify and address issues in your environment. Use the tool to run a set of predefined rules from Microsoft to diagnose frequent issues. You can download a report to send to admins or support and reduce support tickets.
 

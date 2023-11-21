@@ -23,7 +23,7 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to applicable s
 
 ## Create bookmarks
 
-[!INCLUDE [Lightbox tip](../../shared-content/shared/lightbox-tip.md)]
+[!INCLUDE [Lightbox tip](../../../shared-content/shared/lightbox-tip.md)]
 
 1. In Customer Service workspace, open one of the following reports, **Customer Service historical analytics**, **Omnichannel historical analytics**, **Omnichannel real-time analytics**, or **Knowledge analytics**.
 
