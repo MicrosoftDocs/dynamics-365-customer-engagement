@@ -1,6 +1,6 @@
 ---
-title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
-description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
+title: "Integrate a Copilot Studio bot | MicrosoftDocs"
+description: "Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service."
 ms.date: 08/31/2023
 ms.topic: how-to
 author: neeranelli
@@ -10,17 +10,19 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Integrate a Power Virtual Agents bot
+# Integrate a Copilot Studio bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 [!INCLUDE[azure-ad-rename](../includes/cc-azure-ad-rename.md)]
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
-Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
+Microsoft Copilot Studio allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 
-When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
+When you integrate a Copilot Studio bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
 - Seamlessly integrate your bot with all channels without needing to add channel-specific code in the bot.
 - Transfer bot conversations to human agents, and include the full context of the conversation.
@@ -31,44 +33,44 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 ## Prerequisites
 
-Before you integrate Power Virtual Agents bots in Omnichannel for Customer Service, check the following:
+Before you integrate Copilot Studio bots in Omnichannel for Customer Service, check the following:
 
 1. You must have:
 
-    - A product license for Power Virtual Agents. More information: [Licensing for Power Virtual Agents](/power-virtual-agents/requirements-licensing-subscriptions)
+    - A product license for Copilot Studio. More information: [Licensing for Copilot Studio](/power-virtual-agents/requirements-licensing-subscriptions)
 
     - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements. More information: [Licensing](system-requirements-omnichannel.md#licensing)
 1. You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
-1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#register-an-application-with-azure-ad-and-create-a-service-principal)
+1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Microsoft Entra ID](/entra/identity-platform/howto-create-service-principal-portal)
 1. You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 
-## Install Power Virtual Agents extensions
+## Install Copilot Studio extensions
 
-Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the chat, digital messaging, and voice channels in Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
+Copilot Studio lets you seamlessly hand off voice and text-based conversations to human agents using the chat, digital messaging, and voice channels in Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Copilot Studio extension solutions for Dynamics 365 Customer Service.
 
 To do so, perform the following steps:
 
-1. [Ensure the prerequisites are met](/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
-3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
+1. [Ensure the prerequisites are met](/microsoft-copilot-studio/configuration-hand-off-omnichannel#prerequisites).
+2. [Install the extension solutions](/microsoft-copilot-studio/configuration-hand-off-omnichannel#install-extension-solutions).
+3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Copilot Studio.
 
-## Connect your Power Virtual Agents bot to omnichannel instance
+## Connect your Copilot Studio bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
+Follow the procedure in the section [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Copilot Studio bot to the omnichannel instance.
 
 > [!NOTE]
 > If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
-## Configure your Power Virtual Agents bot in the admin app
+## Configure your Copilot Studio bot in the admin app
 
-In Customer Service admin center or Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
+In Customer Service admin center or Omnichannel admin center, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
 > Bots can receive conversations only if they're added to push-based workstreams.
 
 ## Enable a human agent to transfer a conversation back to a bot
 
-Some support scenarios may require a human agent to transfer a conversation back to a Power Virtual Agents bot after delivering personalized support. This transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
+Some support scenarios may require a human agent to transfer a conversation back to a Copilot Studio bot after delivering personalized support. This transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
 
 You can facilitate the transfer of a conversation from a human agent back to a bot in the following ways:
 
@@ -108,23 +110,23 @@ In this scenario, after a bot has transferred a conversation to a human agent, t
 9. The system triggers Bot B to send a greeting message.
 10. The customer now chats with Bot B.
 
-## Configure context variables for the Power Virtual Agents bot
+## Configure context variables for the Copilot Studio bot
 
-After you've configured your bot and added it to a workstream, you can configure context variables to route work items. You can also share context from Omnichannel with your Power Virtual Agents bot to create a rich and personalized experience. For information about creating context variables, see [Manage context variables](manage-context-variables.md). For information about configuring context variables for Power Virtual Agents bots, see [Configure context variables for Power Virtual Agents bot](context-variables-for-bot.md#context-variables-for-power-virtual-agents-bots).
+After you've configured your bot and added it to a workstream, you can configure context variables to route work items. You can also share context from Omnichannel with your Copilot Studio bot to create a rich and personalized experience. For information about creating context variables, see [Manage context variables](manage-context-variables.md). For information about configuring context variables for Copilot Studio bots, see [Configure context variables for Copilot Studio bot](context-variables-for-bot.md#context-variables-for-copilot-studio-bots).
 
 ## Automatically close a conversation
 
 When a bot receives a conversation that's subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
-This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in the **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
+This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in the **Resolved/abandoned** state in the Copilot Studio dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
 ## End bot conversation
 
-You must configure the Power Virtual Agents web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
+You must configure the Copilot Studio web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
 
 After a customer closes the chat window, you must also configure a context variable that explicitly ends the conversation in Omnichannel for Customer Service.
 
-1. In Power Virtual Agents, for the selected bot, add a new topic.
+1. In Copilot Studio, for the selected bot, add a new topic.
 
 1. Select **Go to authoring canvas**, and in **Add node**, select **Call an action**, and then select **Create a flow**.
 
@@ -138,7 +140,7 @@ After a customer closes the chat window, you must also configure a context varia
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
-    :::image type="content" source="media/end-bot-conversation.png" alt-text="Configure end conversation topic in Power Virtual Agents.":::
+    :::image type="content" source="media/end-bot-conversation.png" alt-text="Configure end conversation topic in Copilot Studio.":::
 
 1. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
 
@@ -150,10 +152,10 @@ After a customer closes the chat window, you must also configure a context varia
 
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Power Virtual Agents. More information: [Use Microsoft Bot Framework Skills in Power Virtual Agents](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
+| **Adaptive cards** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
 | **Typing** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators won't appear. |
-| **Format bot messages** You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Power Virtual Agents does not support Markdown with images and text. </li><li>When Power Virtual Agents sends Markdown text, there's an extra space between lines. </li></ul>|
-| **OAuth card in Microsoft Teams** Using a chat bot and presenting an OAuth card in the Microsoft Teams channel. | In Power Virtual Agents, the sign-in node presents an OAuth card and it doesn't work properly. |
+| **Format bot messages** You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio does not support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
+| **OAuth card in Microsoft Teams** Using a chat bot and presenting an OAuth card in the Microsoft Teams channel. | In Copilot Studio, the sign-in node presents an OAuth card and it doesn't work properly. |
 
 ## Privacy notice
 
@@ -196,19 +198,19 @@ Bots are developed to receive customer queries first, gain information of the qu
 Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
 > [!NOTE]
-> When you run a report on Power Virtual Agents activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
+> When you run a report on Copilot Studio activity, the number of bot sessions may differ from the number of sessions in Omnichannel for Customer Service.
 
 #### Set escalation rules
 
 You can set escalation rules in one of the following ways so the bot can route the queries to the appropriate agent:
 
-- **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Power Virtual Agents bot. When a handoff is triggered, customers will be transferred from the Power Virtual Agents bot to the human agent according to the escalation routing rules.
+- **Add the bot to an existing human agent queue**: If you add the bot to an existing human agent queue, you don’t need to change your existing routing rule. Existing routing rules will send incoming messages to the Copilot Studio bot. When a handoff is triggered, customers will be transferred from the Copilot Studio bot to the human agent according to the escalation routing rules.
 
 - **Create a bot queue and a human agent queue**: If you create two queues, you must create workstreams that contain context variables and appropriate routing rules to route the customer queries. More information: [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
 
 ### Videos
 
-[Power Virtual Agents integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
+[Copilot Studio integration with Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114716)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
 
@@ -220,10 +222,10 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure context variables for bots](context-variables-for-bot.md)  
 [Identify customers automatically](record-identification-rule.md)  
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md)  
+[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  
+[Create and edit topics in Copilot Studio bot](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](suggested-actions.md)  
 [Add a chat widget](add-chat-widget.md)  
 

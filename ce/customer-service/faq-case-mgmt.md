@@ -1,7 +1,7 @@
 ---
 title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 06/06/2023
+ms.date: 11/03/2023
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -17,7 +17,7 @@ A few answers to common questions on the various scenarios in managing cases are
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contact.md) and allow unrelated contacts be linked with the case. 
+Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 
@@ -92,3 +92,7 @@ You can follow the steps in [Troubleshooting ribbon issues in Power Apps](/troub
 ### How can I identify and resolve form issues effectively?
 
 Form issues occur because of business rules, JavaScript, form events, or client API that administrators and makers have set. Monitor is a tool that can help you debug and diagnose problems, and can also help identify whether the issue experienced is designed out-of-the-box or due to a customization. More information: [Use Monitor to troubleshoot model-driven app form behavior](/power-apps/maker/model-driven-apps/monitor-form-checker).
+
+### Why does the Responsible Contact Id field show null/blank when I refresh the browser or open the record in a new tab?
+
+Responsible Contact Id is a deprecated field. With the recent platform enhancements, deprecated attributes aren't populated when a form loads in a new tab. More information: [ResponsibleContactId lookup attribute is deprecated](deprecations-customer-service.md#responsiblecontactid-lookup-attribute-is-deprecated)

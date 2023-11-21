@@ -4,7 +4,6 @@ description: Learn how to customize out-of-the-box reports in Dynamics 365 Custo
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.service: dynamics-365
 ms.topic: how-to
 ms.date: 04/06/2023
 ms.custom: 

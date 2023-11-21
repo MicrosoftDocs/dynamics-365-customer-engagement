@@ -26,7 +26,7 @@ A high-level work order process is outlined below.
 
 ## Prerequisites
 
-- [Security roles](view-user-accounts-security-roles.md):
+- [Security roles](users-licenses-permissions.md):
   - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
 - [Enable cost calculation or price calculation](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.

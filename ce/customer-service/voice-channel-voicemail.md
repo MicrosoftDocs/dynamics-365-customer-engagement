@@ -33,6 +33,7 @@ The prerequisites are as follows:
 - You must be on the latest version of the product to use voicemail.
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - To open a voicemail, agent presence must load. More information: [Manage presence status](oc-manage-presence-status.md)
+- For the voicemail feature to work, make sure that the operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup. If you set the operating hours message at the voice workstream level, the system plays the message and disconnects the call.
 
 ## Configure voicemail to manage overflow of voice calls
 
@@ -118,7 +119,7 @@ If an overflow condition of a queue triggers the voicemail, it's routed to the d
 - The assignment method is highest capacity.
 - Voicemails left for every voice queue are routed to the group voicemail queue.
 - For a more elaborate routing set up for voicemails, configure the required voicemail queues and route-to-queues rules to route to these queues.
-- The operating hours at the workstream level override the queue-level overflow setup. The operating hours message at the workstream level is played and the system disconnects the call.
+
 
 ### Manage voicemail capacity
 

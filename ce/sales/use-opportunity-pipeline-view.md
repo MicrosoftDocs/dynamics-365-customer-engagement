@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 06/23/2023
+ms.date: 11/20/2023
 ms.custom: bap-template 
 ---
 
@@ -41,7 +41,7 @@ Legend:
 1. **Editable grid**: View a list of opportunities and edit them inline. Select any linked column to view and edit details in the side panel. Select the three-dot menu against an opportunity to perform common actions, such as closing the opportunity as won or lost, or reopening the opportunity.
 1. **Side panel**: View and quickly edit details of the linked record. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity.  
 
-You can [personalize the opportunity pipeline view](personalize-pipeline-view.md) to add, remove, resize, hide, rearrange, and sort the columns in the editable grid, customize the side panel, and select the metrics you want to track.
+You can [personalize the opportunity pipeline view](personalize-pipeline-view.md) to add, remove, resize, hide, rearrange, and sort the columns in the editable grid. You can also customize the side panel and select the metrics you want to track.
 
 ## Understand the opportunity pipeline charts
 
@@ -55,6 +55,9 @@ You can [personalize the opportunity pipeline view](personalize-pipeline-view.md
 - **Sales funnel chart:** Displays a funnel based on the sum of estimated revenues across different pipeline phases. Ask your administrator to [customize the funnel chart](opportunity-pipeline-view-for-admins.md#customize-the-funnel-chart) if you want to change the data you see.
 
   The funnel chart can display up to 50,000 records. You can apply filters to reduce the number of records in the chart.
+
+> [!NOTE]
+> If you've associated different stages of the business process flow to multiple entities, the pipeline phases shown in the bubble and funnel charts will only be based on the stages associated with the opportunity entity. For example, if you've associated only the qualify and develop stages with the opportunity entity, the charts display data only for these two stages, when the chart is segmented by pipeline phases.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

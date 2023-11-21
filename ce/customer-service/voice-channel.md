@@ -15,6 +15,8 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost agent productivity. Omnichannel for Customer Service also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
@@ -29,7 +31,7 @@ The voice channel is built, owned, and operated completely by Microsoft. It's an
 
 ### Built alongside existing omnichannel capabilities with a common data framework
 
-The voice channel in Dynamics 365 Customer Service is another channel to engage customers with Chat, SMS, and social media, ensuring consistent, personalized, and connected support across all channels of engagement. As an example, agents can escalate web chat conversations to voice and video calls. As another example, routing a voice call to an agent is completed with unified routing, the same way an incoming chat message is assigned to an agent. By using the same platform, the voice channel works well with other features like a Power Virtual Agents bot. The process to create and deploy a conversational interactive voice response (IVR) bot is the same as the process to create and deploy a chat bot.
+The voice channel in Dynamics 365 Customer Service is another channel to engage customers with Chat, SMS, and social media, ensuring consistent, personalized, and connected support across all channels of engagement. As an example, agents can escalate web chat conversations to voice and video calls. As another example, routing a voice call to an agent is completed with unified routing, the same way an incoming chat message is assigned to an agent. By using the same platform, the voice channel works well with other features like a Copilot Studio bot. The process to create and deploy a conversational interactive voice response (IVR) bot is the same as the process to create and deploy a chat bot.
 
 Beyond workflows and processes, the voice channel benefits from a common data framework with the other channels, allowing organizations to better understand each customer's journey whether the customer sent a chat, made a phone call, or used social channels. This means the solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike.
 

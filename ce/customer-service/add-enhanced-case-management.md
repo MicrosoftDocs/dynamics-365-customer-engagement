@@ -4,7 +4,6 @@ description: Use this article to learn how to configure enhanced case management
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 04/05/2023 
 ms.custom: bap-template 

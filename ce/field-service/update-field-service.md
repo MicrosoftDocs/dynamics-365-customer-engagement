@@ -25,7 +25,7 @@ Multiple updates are released throughout the year.
 
 ## Early Access update
 
-Dynamics 365 releases major updates two months before the general rollout in an Early Access flight to evaluate upcoming changes. [Learn more about how to opt-in and update your org to Early Access]](/power-platform/admin/opt-in-early-access-updates).
+Dynamics 365 releases major updates two months before the general rollout in an Early Access flight to evaluate upcoming changes. [Learn more about how to opt-in and update your org to Early Access](/power-platform/admin/opt-in-early-access-updates).
 
 ## Dynamics 365 Field Service
 

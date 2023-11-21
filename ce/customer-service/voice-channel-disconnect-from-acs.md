@@ -1,7 +1,7 @@
 ---
 title: Disconnect from Azure Communication Services resources
 description: Learn how you can disconnect an Azure Communication Services resource.
-ms.date: 07/12/2023
+ms.date: 11/03/2023
 ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: neeranelli
@@ -18,7 +18,8 @@ If you're no longer using an Azure Communication Services resource or want to co
 To permanently release or remove one or more phone numbers from your organization, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
 > [!IMPORTANT]
-> When you disconnect a resource, all phone numbers associated with it are also released from Dynamics 365; therefore, disconnect a resource only when you no longer need it.
+> - When you disconnect a resource, all phone numbers associated with it are also released from Dynamics 365; therefore, disconnect a resource only when you no longer need it.
+> - To reconnect a phone number to the voice channel, you must trigger the voice channel creation. This can either be editing a voice channel setting and reverting  to the original value or creating a new voice channel for the phone number.
 
 ## Disconnect from an Azure Communication Services resource
 
