@@ -28,7 +28,7 @@ highlightedContent:
       url: /training/browse/?expanded=dynamics-365&products=dynamics-field-service&resource_type=learning%20path
     - title: Troubleshoot
       itemType: concept
-      url: troubleshoot-field-service-solution-health.md
+      url: /troubleshoot/dynamics-365/field-service/welcome-field-service
       
 additionalContent: 
   sections:
@@ -46,8 +46,8 @@ additionalContent:
         text: Get preview features
     - title: Set up 
       links:
-      - url: view-user-accounts-security-roles.md
-        text: Set up users and security profiles
+      - url: users-licenses-permissions.md
+        text: Set up users
       - url: frontline-worker-set-up.md
         text: Set up frontline workers
       - url: set-up-bookable-resources.md

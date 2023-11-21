@@ -4,7 +4,6 @@ description: Learn about adding Customer360 and Recent Records cards to forms
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to 
 ms.date: 03/01/2023 
 ms.custom: bap-template 

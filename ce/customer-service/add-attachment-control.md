@@ -4,9 +4,8 @@ description: Learn about adding attachment control to forms
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 05/04/2023 
+ms.date: 10/31/2023 
 ms.custom: bap-template 
 ---
 
@@ -25,7 +24,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
     
    :::image type="content" source="media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="media/enh-case-attach.png":::
 
-- After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-using-enhanced-full-case-form).
+- After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
    :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
 

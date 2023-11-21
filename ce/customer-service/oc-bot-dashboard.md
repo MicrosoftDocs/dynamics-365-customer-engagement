@@ -9,7 +9,11 @@ ms.author: mgandham
 
 # Bot dashboard
 
-In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+
+In Omnichannel for Customer Service, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts that you can use to understand how bots are performing in a support organization. 
 
 If your administrator has enabled **Add historical analytics for bots** in Customer Service admin center, then the dashboard displays the metrics, KPIs, and charts specific to the type of bots integrated with the application.
 
@@ -17,17 +21,17 @@ If your administrator has enabled **Add historical analytics for bots** in Custo
 
 [!INCLUDE[cc-navigation](../includes/cc-navigation.md)]
 
-## Power Virtual Agents bot dashboard
+## Copilot Studio bot dashboard
 
-The bot dashboard displays metrics specific to Power Virtual Agents bots only if Power Virtual Agents bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
+The bot dashboard displays metrics specific to Copilot Studio bots only if Copilot Studio bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
  :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
  ### Report details
 
-The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Power Virtual Agents bots. You can filter these areas by duration, channel, queue, or agent.
+The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot Studio bots. You can filter these areas by duration, channel, queue, or agent.
 
- :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot showing the Power Virtual Agents bot dashboard KPIs.":::
+ :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -41,7 +45,7 @@ The report summarizes KPIs for the specified time period and the percentage chan
 
 The following table shows the bot KPI chart metrics.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Power Virtual Agents bot chart description.":::
+ :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Copilot Studio bot chart description.":::
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -83,13 +87,13 @@ KPIs for the following areas are displayed.
 | Bot sessions engaged | The number of sessions the bot is engaged in within the specified time period. |
 | Bot sessions resolved| The number of engaged sessions that are resolved by the bot. |
 | Bot sessions abandoned|The number of engaged sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
-| Bot sessions per conversation | The average number of Power Virtual Agents bot sessions per conversation. | 
+| Bot sessions per conversation | The average number of Copilot Studio bot sessions per conversation. | 
 | Session resolved rate | The percentage of total sessions that were resolved by the bot within the specified time period. | 
 | Sessions escalated rate | The percentage of total sessions that were escalated by the bot to a human agent within the specified time period.| 
 
 ## Bot drill-down view
 
-In the **Metrics by bot** section, you can select a Power Virtual Agents bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
+In the **Metrics by bot** section, you can select a Copilot Studio bot to view the individual bot's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
 
 To access the drill-down view, select the bot that you're interested in, and then select **Detailed view**.
 
@@ -128,17 +132,17 @@ The **Bot conversation metrics** section provides the topic transcripts, allowin
 
 ### View and improve bot topics
 
-You can view and improve the performance of individual topics associated with a Power Virtual Agents bot by performing the following steps:
+You can view and improve the performance of individual topics associated with a Copilot Studio bot by performing the following steps:
 
 1. On the bot drill-down page, for a bot, select the topic to view the topic-specific metrics. 
    You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](media/oc-transcripts.png "Bot transcript") 
 
-1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Power Virtual Agents bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
+1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Copilot Studio bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of Power Virtual Agents bot edit page.](media/oc-pva-edit.png "Edit page") 
+  > ![Screenshot of Copilot Studio bot edit page.](media/oc-pva-edit.png "Edit page") 
 
 ## Dashboard for all bots 
 

@@ -39,7 +39,7 @@ When a chat is started by a customer, the query is routed to the bot through the
 ### See also
 
 [Integrate an Azure bot ](configure-bot.md)  
-[Best practices for configuring Azure and Power Virtual Agents bots](configure-azure-bot-best-practices.md)  
+[Best practices for configuring Azure and Copilot Studio bots](configure-azure-bot-best-practices.md)  
 [Configure Azure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  

@@ -8,9 +8,12 @@ ms.date: 09/28/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
+
 # Supported cloud locations for voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
 
 This article provides information about the supported cloud locations for the voice channel.
 
@@ -55,7 +58,7 @@ If you need your data to stay within a region, the following table lists the loc
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 >
-> **<sup> 2</sup>** The geographic location won't have Power Virtual Agents support.
+> **<sup> 2</sup>** The geographic location won't have Copilot Studio support.
 
 ## Sovereign cloud deployments
 
