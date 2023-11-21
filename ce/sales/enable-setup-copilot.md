@@ -56,7 +56,7 @@ Select the Copilot features that you want your sales teams to use in each of you
     - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
     - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
 
-1. Select **Confirm**.
+1. Select **Publish**.
 
 The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
 
