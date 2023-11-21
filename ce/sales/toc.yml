@@ -167,6 +167,8 @@
         href: copilot-overview.md
       - name: Enable and configure Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
+      - name: Enable Copilot preview features
+        href: copilot-preview-features.md 
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
@@ -704,6 +706,15 @@
         href: copilot-overview.md
       - name: Use Copilot in Dynamics 365
         href: use-sales-copilot.md
+        items:
+          - name: Get information
+            href: copilot-get-information
+          - name: Stay ahead
+            href: copilot-stay-ahead.md
+          - name: Ask questions
+            href: copilot-ask-questions.md
+      - name: How Copilot responds to questions
+        href: use-copilot-new.md
       - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
