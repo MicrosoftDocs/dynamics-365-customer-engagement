@@ -151,7 +151,7 @@ Using the above **RegexUrl** extracts the id - **2911cacd-efa5-4593-ae22-e09ae14
 - **Operation type**: **Direct**
 - **Source Property**: **HTML-Title**
 
-Using the **Direct** operation type, maps the content within the  <title></title> field of the HTML file, for example, **WSTrustRequestSerializer.CanRead Method (Microsoft.IdentityModel.Protocols.WSTrust) | Microsoft Learn**
+Using the **Direct** operation type, maps the content within the <title> field of the HTML file, for example, **WSTrustRequestSerializer.CanRead Method (Microsoft.IdentityModel.Protocols.WSTrust) | Microsoft Learn**
 
 - **Article Attribute**: **Description**
 - **Operation type**: **Regex**
