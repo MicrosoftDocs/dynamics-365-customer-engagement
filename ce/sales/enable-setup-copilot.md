@@ -60,7 +60,7 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 ## Configure fields for opportunity summary and catch up
 
-By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and catchups. To have it generate summaries and catch ups from the fields that are most relevant for your business, add them to your configuration. You can add different set of fields for summaries and catch ups.
+By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and [catchups](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead). To have it generate summaries and catch ups from the fields that are most relevant for your business, add the fields to your configuration. You can add different set of fields for summaries and catch ups.
 
 
 1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -79,7 +79,7 @@ By default, Copilot uses a set of predefined fields to [generate summaries](use-
 
 ## Configure fields for lead summary and catch up
 
-By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and catchups. To have it generate summaries and catch ups from the fields that are most relevant for your business, add them to your configuration. You can add different set of fields for summaries and catch ups.
+By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and [catchups](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead). To have it generate summaries and catch ups from the fields that are most relevant for your business, add the fields to your configuration. You can add different set of fields for summaries and catch ups.
 
 
 1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
