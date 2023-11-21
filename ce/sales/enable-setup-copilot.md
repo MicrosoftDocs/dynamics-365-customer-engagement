@@ -45,11 +45,9 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 1. Under **General Settings**, select **Copilot**.
 
-1. If you're setting up Copilot for the first time, select **Set up Copilot**. If you've already set up Copilot, select **Manage apps**.
+1. In the Set up Copilot in Dynamics 365 Sales page, select **All Dynamics 365 Sales apps** to enable it for all the Dynamics 365 apps in your organization. Or, select **Manage apps** to select the individual apps that you want to enable it for.  
 
-   The side panel displays the list of apps installed in your organization.   
-
-   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
+   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page with the apps listed. ":::
 
     If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.
  
