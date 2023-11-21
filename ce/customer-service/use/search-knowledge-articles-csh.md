@@ -178,7 +178,7 @@ In Customer Service Hub:
 
 In Customer Service workspace:
 
-For more information on setting up search providers, see [Set up external search providers](../set-up-search-providers.md#set-up-external-search-providers).
+For more information on setting up search providers, see [Set up external search providers](../administer/set-up-search-providers.md#set-up-external-search-providers).
 
 ## Search across integrated providers in Customer Service Hub and Customer Service workspace
 
@@ -214,7 +214,7 @@ If you see an error like this when you open an article: "Update your origins all
 You can perform the following actions on knowledge articles you view inline:
 
 - Link it to a record, or, if it's already linked, unlink it.
-- [Email it to a customer](../email-articles.md#email-a-knowledge-article).
+- [Email it to a customer](email-articles.md#email-a-knowledge-article).
 
     :::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
 
@@ -234,7 +234,7 @@ In Customer Service Hub, in the **Knowledge Search** reference pane, select the 
 
 [Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
 
-[Email a knowledge article](../email-articles.md#email-a-knowledge-article)
+[Email a knowledge article](email-articles.md#email-a-knowledge-article)
 
 [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
 

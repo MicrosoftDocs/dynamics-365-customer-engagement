@@ -47,7 +47,7 @@ No, Chat and related capabilities in Omnichannel for Customer Service require a 
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](try-../use/channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
 
 ## Agent experience
 

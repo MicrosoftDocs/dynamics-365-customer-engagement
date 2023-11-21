@@ -176,7 +176,7 @@ Make sure that the following prerequisites are met:
 [Configure automated messages](configure-automated-message.md)  
 [Use Microsoft Teams channel](../use/teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-../use/channels.md)  
+[Support for live chat and asynchronous channels](../use/channels.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,7 +39,7 @@ Perform the following steps to upload the web resource file for real-time transl
    2. In the **Content** section, select Script (JScript) for **Type**.
    3. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
    4. Save the form, select the option to publish all customizations.
-   5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app for configuring real-time translation.
+   5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](implement/cs-admin-center.md) or Omnichannel admin center app for configuring real-time translation.
    6. Select the option to publish all customizations on the **Solution** page, and close the form.
 
 6. In the site map of Customer Service admin center app, select **Productivity** under Agent experience, then select **Manage** next to **Real-time translation**.

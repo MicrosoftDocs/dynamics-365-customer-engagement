@@ -38,7 +38,7 @@ You can use Dynamics 365 Channel Integration Framework 2.0 to integrate telephon
 Using Dynamics 365 Channel Integration Framework 2.0 with multisession apps, such as Omnichannel for Customer Service and Customer Service workspace, enables you to use cross-channel analytics.
 
 More information: [Channel Analytics](v2/administer/channel-analytics.md)  
-More information: [Dynamics 365 Channel Integration Framework 2.0](v2/v1/administer/overview-channel-integration-framework.md)
+More information: [Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)
 
 To learn more about multisession app, see [Omnichannel for Customer Service](../customer-service/implement/introduction-omnichannel.md).
 
@@ -58,12 +58,12 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../customer-service/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
-> ![Differences between versions 1.0 and 2.0.](../customer-service/channel-integration-framework/media/choose-between-version.png "Differences between versions 1.0 and 2.0")
+> ![Differences between versions 1.0 and 2.0.](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
 
 ### See also
 
 [Dynamics 365 Channel Integration Framework 1.0](v1/administer/overview-channel-integration-framework.md)  
-[Dynamics 365 Channel Integration Framework 2.0](v2/v1/administer/overview-channel-integration-framework.md)  
+[Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)  
 [Integrate Dynamics 365 Channel Integration Framework 2.0 with Omnichannel for Customer Service](v2/administer/integration-multi-session-experiences.md)  
 [Multisession agent experiences](/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
 [Bring your own channel](../customer-service/bring-your-own-channel.md)  

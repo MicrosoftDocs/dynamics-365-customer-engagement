@@ -81,7 +81,7 @@ The following table provides the features that can be configured through the adm
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](../customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
@@ -104,7 +104,7 @@ The following capabilities are available in the different app experiences, depen
 ## Available anywhere, on any device
 
 > [!NOTE]
-> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../ce/mobile-app/install-dynamics-365-for-phones-and-tablets).
+> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
 

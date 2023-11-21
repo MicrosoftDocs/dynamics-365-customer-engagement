@@ -63,7 +63,7 @@ Users with the system administrator or supervisor role can access the analytics 
 ### See also
 
 [Create or edit a security role to manage user access](/power-platform/admin/create-edit-security-role#create-a-security-role.md)  
-[Introduction to Customer Service analytics and insights](../implement/introduction-../implement/customer-service-analytics.md)  
+[Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics](../implement/customer-service-analytics.md)  
 [Manage report bookmarks](../use/manage-bookmarks.md)  

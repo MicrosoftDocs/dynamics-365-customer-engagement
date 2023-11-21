@@ -72,7 +72,7 @@ More information: [Configure the inbox view](../administer/configure-inbox.md)
 
 When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you are working on. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-More information: [Productivity pane](../use/csw-productivity-pane.md)
+More information: [Productivity pane](../use/../use/csw-productivity-pane.md)
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -86,7 +86,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](../../dynamics365/app-profile-manager/overview)
+More information: [Agent experience profiles](/dynamics365/customer-service/administer/overview)
 
 ## Considerations
 
@@ -150,14 +150,14 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-![Next step.](media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
-![Next step.](media/right-arrow.png "Next step") [Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
+![Next step.]((../media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
+![Next step.]((../media/right-arrow.png "Next step") [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
 ### See also
 
-[Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
+[Work with cases in Customer Service Hub](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
-[Overview of the productivity pane](csw-productivity-pane.md)  
-[View the agent calendar](use-agent-calendar.md)  
+[Overview of the productivity pane](../use/csw-productivity-pane.md)  
+[View the agent calendar](../use/use-agent-calendar.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,7 +29,7 @@ The trial will take a few moments to load, then you can start using Customer Ser
 
 The trial environment includes many of the same features as the paid version. The following links will guide you through using some of the key features.
 
-- [Understand how agents manage their cases and work on them](../csw-overview.md).
+- [Understand how agents manage their cases and work on them](csw-overview.md).
 - [View AI-suggested cases and knowledge articles for a case](../use/csw-view-ai-suggested-cases-knowledge-articles.md).
 - [Explore the agent dashboard](../use/oc-agent-dashboard.md).
 - [Understand the agent communication pane for conversations](../use/oc-conversation-control.md).

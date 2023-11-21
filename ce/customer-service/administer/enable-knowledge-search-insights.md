@@ -12,7 +12,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
-By default, the Knowledge analytics dashboard is enabled for the System Administrator, Knowledge Manager, and CSR Manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](configure-../use/customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+By default, the Knowledge analytics dashboard is enabled for the System Administrator, Knowledge Manager, and CSR Manager roles. To configure user roles to access analytics and dashboards, see [Configure user access to analytics and dashboards](../use/customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
 
 > [!NOTE]
@@ -89,7 +89,7 @@ If you customized the Customer Service workspace app, you must complete the foll
 
 ### See also
 
-[Introduction to Customer Service analytics and insights](../implement/introduction-../implement/customer-service-analytics.md)  
+[Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  
 [View and understand Customer Service analytics](../implement/customer-service-analytics.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  

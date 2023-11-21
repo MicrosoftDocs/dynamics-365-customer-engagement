@@ -41,6 +41,6 @@ The following table lists the automated messages that are displayed to customers
 ### See also
 
 [Overview of channels](../use/channels.md)  
-[Support for live chat and asynchronous channels](card-support-in-../use/channels.md)  
+[Support for live chat and asynchronous channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,7 +59,7 @@ To filter your inbox view:
 ### See also
 
 [Configure the inbox](../administer/configure-inbox.md)  
-[Get started with Customer Service workspace](../csw-overview.md)  
+[Get started with Customer Service workspace](../implement/csw-overview.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

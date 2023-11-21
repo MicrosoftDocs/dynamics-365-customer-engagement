@@ -12,7 +12,7 @@ ms.collection: get-started
 # Customer Service Insights
 
 > [!NOTE]
-> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](../use/customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](model-../use/customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
+> Microsoft Power BI template reports for [Customer Service Analytics dashboards](configure-customer-service-analytics-dashboard.md) and [Omnichannel Insights](configure-historical-sentiment-dashboard-supervisor.md) will be deprecated as of November 6, 2023. We recommend that you start using the out-of-box [Omnichannel historical analytics](../use/omnichannel-analytics-insights.md) and [Customer Service historical analytics](../use/customer-service-analytics-insights-csh.md), which don’t need additional Microsoft Power BI licenses. You can [visually customize](../use/customize-reports.md) and extend these reports to add additional data sources and metrics through [data model customization](../use/customize-reports.md). For details on the deprecation, go to [Deprecations in Customer Service](deprecations-customer-service.md).
 
 
 Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and improve customer satisfaction. Agents and customer service managers can use AI and analytics capabilities for Customer Service Insights and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
@@ -62,7 +62,7 @@ If you're a customer who uses the Customer Service Insights standalone web appli
 
 ### See also
 
-[Configure Customer Service analytics and insights](configure-../use/customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service analytics and insights](../use/customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
 [Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819) <br>
 [Configure Omnichannel historical analytics](../administer/oc-historical-analytics-reports.md) <br>

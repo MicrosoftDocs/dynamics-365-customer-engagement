@@ -61,6 +61,6 @@ Service quotas are the limits on resources, configurations, and items that are p
 ## Next steps
 
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
-[System requirements for Customer Service workspace](../customer-service-workspace-system-requirements.md)  
+[System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)  
 [Provision Omnichannel for Customer Service](../administer/omnichannel-provision-license.md)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)

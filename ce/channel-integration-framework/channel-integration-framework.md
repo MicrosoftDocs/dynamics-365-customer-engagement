@@ -32,7 +32,7 @@ ms.custom:
 <td>
 <h3> Get started </h3>
 <li><a href="v1/administer/overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](v1/administer/overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
-<li><a href="architecture-v1/administer/overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](architecture-v1/administer/overview-channel-integration-framework.md)">Architecture overview</a></li>
+<li><a href="v1/administer/overview-channel-integration-framework.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](v1/administer/overview-channel-integration-framework.md)">Architecture overview</a></li>
 <li><a href="v1/administer/system-requirements-channel-integration-framework.md" data-raw-source="[System requirements](v1/administer/system-requirements-channel-integration-framework.md)">System requirements</a></li>
 </td>
 
@@ -50,7 +50,7 @@ ms.custom:
 
 <h3> How to </h3>
 
-<li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](../customer-service/channel-integration-framework/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
+<li><a href="v1/administer/configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](../customer-service/channel-integration-framework/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
 <li><a href="v1/administer/getting-started-simple-widget.md" data-raw-source="[Build a simple communication widget](v1/administer/getting-started-simple-widget.md)">Build a simple communication widget</a></li>
 <li><a href="v1/administer/search-open-records-incoming-conversations.md" data-raw-source="[Search and open records on an incoming conversation](v1/administer/search-open-records-incoming-conversations.md)">Search and open records on an incoming conversation</a></li>
 <li><a href="v1/administer/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v1/administer/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
@@ -84,7 +84,7 @@ ms.custom:
 
 <td>
 <h3> Get started </h3>
-<li><a href="v2/v1/administer/overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](v2/v1/administer/overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
+<li><a href="v2/administer/overview-channel-integration-framework.md" data-raw-source="[Dynamics 365 Channel Integration Framework overview](v2/administer/overview-channel-integration-framework.md)">Dynamics 365 Channel Integration Framework overview</a></li>
 <li><a href="v2/administer/architecture-overview-channel-integration-framework-v2.md" data-raw-source="[Architecture overview of Dynamics 365 Channel Integration Framework](v2/administer/architecture-overview-channel-integration-framework-v2.md)">Architecture overview</a></li>
 <li><a href="v2/administer/system-requirements-channel-integration-framework-v2.md" data-raw-source="[System requirements](v2/administer/system-requirements-channel-integration-framework-v2.md)">System requirements</a></li>
 </td>
@@ -93,7 +93,7 @@ ms.custom:
 
 <h3> Download </h3>
 
-<li><a href="v1/administer/get-channel-integration-framework.md" data-raw-source="[Get Dynamics 365 Channel Integration Framework](v2/v1/administer/get-channel-integration-framework.md)">Get Dynamics 365 Channel Integration Framework</a></li>
+<li><a href="v1/administer/get-channel-integration-framework.md" data-raw-source="[Get Dynamics 365 Channel Integration Framework](v2/administer/get-channel-integration-framework.md)">Get Dynamics 365 Channel Integration Framework</a></li>
 <li><a href="v2/administer/sample-softphone-integration-v2.md" data-raw-source="[Download sample code for softphone integration (version 2.0)](v2/administer/sample-softphone-integration-v2.md)">Download sample code for softphone integration (version 2.0)</a></li>
 </td>
 </tr>
@@ -104,10 +104,10 @@ ms.custom:
 <h3> How to </h3>
 
 <li><a href="v2/administer/configure-channel-provider-app-profile-manager.md" data-raw-source="[Configure channel provider using app profile manager](v2/administer/configure-channel-provider-app-profile-manager.md)">Configure channel provider using app profile manager</a></li>
-<li><a href="v2/v1/administer/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/v1/administer/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
-<li><a href="v2/v1/administer/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/v1/administer/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
-<li><a href="v2/v1/administer/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/v1/administer/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
-<li><a href="v2/v1/administer/pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](v2/v1/administer/pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
+<li><a href="v2/administer/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/administer/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
+<li><a href="v2/administer/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/administer/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
+<li><a href="v2/administer/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/administer/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
+<li><a href="v2/administer/pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](v2/administer/pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 <li><a href="v2/administer/session-templates-cif.md" data-raw-source="[Manage session templates](v2/administer/session-templates-cif.md)">Manage session templates</a></li>
 <li><a href="v2/administer/application-tab-templates-cif.md" data-raw-source="[Manage application tab templates](v2/administer/application-tab-templates-cif.md)">Manage application tab templates</a></li>
 <li><a href="v2/administer/notification-templates-cif.md" data-raw-source="[Manage notification templates](v2/administer/notification-templates-cif.md)">Manage notification templates</a></li>

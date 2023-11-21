@@ -66,7 +66,7 @@ The knowledge base search lets you search for relevant knowledge articles to res
 
 ### See also
 
-[Customer Service workspace - overview](../csw-overview.md) <br>
+[Customer Service workspace - overview](../implement/csw-overview.md) <br>
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>
 [Guide customer interaction with agent scripts](oc-agent-scripts.md) <br>
 [Automate tasks with macros](../administer/macros.md) <br>

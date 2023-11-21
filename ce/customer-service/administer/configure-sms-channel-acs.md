@@ -62,6 +62,6 @@ This article discusses how you can configure an SMS channel using Azure Communic
 [Configure SMS channel for TeleSign](configure-sms-channel.md)  
 [Delete a configured channel](delete-channel.md)  
 [SMS FAQ](../implement/faqs.md#sms)  
-[Support for live chat and asynchronous channels](card-support-in-../use/channels.md)  
+[Support for live chat and asynchronous channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

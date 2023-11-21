@@ -168,6 +168,6 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 [Channels in Omnichannel for Customer Service](../use/channels.md)  
 [Use a WeChat channel](../use/wechat-channel.md)  
 [Delete a configured channel](delete-channel.md)  
-[Support for live chat and asynchronous channels](card-support-in-../use/channels.md)  
+[Support for live chat and asynchronous channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

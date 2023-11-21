@@ -22,7 +22,7 @@ You can share product feedback in Customer Service Hub and Customer Service work
 ### See also
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)                                                                                                    
-[Get started with Customer Service workspace](csw-../administer/overview.md)                                                                                                                
+[Get started with Customer Service workspace](../administer/overview.md)                                                                                                                
 [Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)                                                                                   
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

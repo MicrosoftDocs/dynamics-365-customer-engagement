@@ -78,7 +78,7 @@ Use double quotation marks around a keyword to search for an exact match. For ex
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
-[Set up a search provider in Customer Service Hub](../set-up-search-providers.md)
+[Set up a search provider in Customer Service Hub](../administer/set-up-search-providers.md)
 [Add a knowledge article subgrid to a form](../administer/add-knowledge-base-search-control-forms.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

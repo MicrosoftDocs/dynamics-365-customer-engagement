@@ -30,7 +30,7 @@ You can share the knowledge article link or knowledge article content through ma
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
   > [!div class=mx-imgBorder]
-  > ![Email knowledge article.](media/km-email.png "Email knowledge article")
+  > ![Email knowledge article.](../media/km-email.png "Email knowledge article")
 
 You can perform these actions for only published or expired articles.
 

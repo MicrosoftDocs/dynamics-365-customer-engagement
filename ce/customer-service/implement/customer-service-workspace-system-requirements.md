@@ -48,7 +48,7 @@ For more requirements, see [Model-driven app requirements](/power-platform/admin
 
 ### See also
 
-[Introduction to Customer Service workspace](../csw-overview.md)  
+[Introduction to Customer Service workspace](csw-overview.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

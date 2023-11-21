@@ -82,8 +82,8 @@ When a supervisor signs in to Customer Service workspace, they can select a dash
 
 [App profile manager overview](../customer-service/administer/overview.md)  
 [Roles and privileges associated with app profile manager](../customer-service/administer/security-roles.md)  
-[Customer Service workspace overview](../customer-service/csw-../customer-service/administer/overview.md)  
-[Omnichannel agent overview](../customer-service/omnichannel-agent-../customer-service/administer/overview.md)  
+[Customer Service workspace overview](../customer-service/administer/overview.md)  
+[Omnichannel agent overview](../customer-service/administer/overview.md)  
 [Introduction to intraday supervisor experiences](../customer-service/implement/intro-intraday-insights-dashboard.md)  
 
 

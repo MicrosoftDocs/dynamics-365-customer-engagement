@@ -50,7 +50,7 @@ The rules that you can run in the agent app are specific to your permissions.
 ### See also
 
 [View the communication panel for conversations](oc-conversation-control.md)  
-[Get started with Customer Service workspace](../csw-overview.md)  
+[Get started with Customer Service workspace](../implement/csw-overview.md)  
 
 
  

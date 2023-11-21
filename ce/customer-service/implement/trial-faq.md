@@ -94,5 +94,5 @@ For the list of languages supported in Omnichannel for Customer Service, see [La
 ### See also
 
 [Try Customer Service](try-customer-service.md)  
-[Overview of Customer Service workspace](../csw-overview.md)  
+[Overview of Customer Service workspace](csw-overview.md)  
 [Try channels in Omnichannel for Customer Service](try-channels.md)  

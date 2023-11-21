@@ -128,7 +128,7 @@ Select the Dynamics 365 app icon in the meeting toolbar at the upper-right area 
 > [!NOTE] 
 > The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
  
-:::image type="content" source="./media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
+:::image type="content" source="../media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 
 While in Teams, if you want to access a record directly in your Dynamics 365 app, you can open the record by selecting the popout icon on the side panel. 
 
@@ -164,11 +164,11 @@ Prerequisites:
   
 The latest note is displayed under the **Notes** section in the side panel. You can view all notes in a standalone panel by selecting **Show more notes**. If you add, edit, or delete notes from the side panel, the changes are synced with the linked Dynamics 365 record.
 
-:::image type="content" source="./media/teams-meeting-notes.png" alt-text="Notes in the record side panel in a Teams meeting.":::
+:::image type="content" source="../media/teams-meeting-notes.png" alt-text="Notes in the record side panel in a Teams meeting.":::
 
 **Add a note** 
 
-1.	In the **Notes** section, select :::image type="icon" source="./media/teams-meeting-add-icon.png" border="false":::.
+1.	In the **Notes** section, select :::image type="icon" source="../media/teams-meeting-add-icon.png" border="false":::.
 
 1.	In the **Add note** form, enter a title and description of the note. 
 
@@ -178,7 +178,7 @@ The latest note is displayed under the **Notes** section in the side panel. You 
 
 **Edit a note**
 
-1.	In the **Notes** section, hover over the note, and then select the **Edit** icon :::image type="icon" source="./media/teams-meeting-edit-icon.png" border="false":::.
+1.	In the **Notes** section, hover over the note, and then select the **Edit** icon :::image type="icon" source="../media/teams-meeting-edit-icon.png" border="false":::.
 
 1.	In the **Edit note** form, update the title and description of the note as desired. 
 
@@ -186,7 +186,7 @@ The latest note is displayed under the **Notes** section in the side panel. You 
 
 **Delete a note** 
 
-1.	In the **Notes** section, hover over the note, and then select the **Delete** icon :::image type="icon" source="./media/teams-meeting-delete-icon.png" border="false":::. 
+1.	In the **Notes** section, hover over the note, and then select the **Delete** icon :::image type="icon" source="../media/teams-meeting-delete-icon.png" border="false":::. 
 
 1.	In the confirmation message, select **Delete**. 
 
@@ -198,11 +198,11 @@ Prerequisites:
 
 The open tasks are displayed under the **Tasks** section in the side panel. You can view all tasks in a standalone panel by selecting **Show more tasks**. If you add, edit, or delete tasks from the side panel, the changes are synced with the linked Dynamics 365 record. The tasks are sorted by their due date, prioritizing the tasks that are due soon or overdue.
 
-:::image type="content" source="./media/teams-meeting-tasks.png" alt-text="Tasks in the record side panel in a Teams meeting":::
+:::image type="content" source="../media/teams-meeting-tasks.png" alt-text="Tasks in the record side panel in a Teams meeting":::
 
 **Add a task** 
 
-1.	In the **Tasks** section, select the **Add** icon :::image type="icon" source="./media/teams-meeting-add-icon.png" border="false":::. 
+1.	In the **Tasks** section, select the **Add** icon :::image type="icon" source="../media/teams-meeting-add-icon.png" border="false":::. 
 
 1.	Add the task details.
 
@@ -216,17 +216,17 @@ In the **Tasks** section, select the option button for a task to mark it as comp
  
 1. In the **Completed tasks** section, select the task to reopen it.
 
-   :::image type="content" source="./media/teams-meeting-tasks-panel.png" alt-text="Completed tasks in the record side panel in a Teams meeting.":::
+   :::image type="content" source="../media/teams-meeting-tasks-panel.png" alt-text="Completed tasks in the record side panel in a Teams meeting.":::
  
 **Edit a task** 
 
-1.	In the **Tasks** section, hover over the task, and then select the **Edit** icon :::image type="icon" source="./media/teams-meeting-edit-icon.png" border="false":::. 
+1.	In the **Tasks** section, hover over the task, and then select the **Edit** icon :::image type="icon" source="../media/teams-meeting-edit-icon.png" border="false":::. 
 
 1.	Edit the task details as desired.
    
 **Delete a task** 
 
-1.	In the **Tasks** section, hover over the task, and then select the **Delete** icon :::image type="icon" source="./media/teams-meeting-delete-icon.png" border="false":::. 
+1.	In the **Tasks** section, hover over the task, and then select the **Delete** icon :::image type="icon" source="../media/teams-meeting-delete-icon.png" border="false":::. 
 
 1.	In the confirmation message, select **Delete**.
 
@@ -238,7 +238,7 @@ Prerequisites:
 
 Recent activities are displayed under the **Activity** section in the side panel. To view all activities, select **Show more activities**.
 
-:::image type="content" source="./media/teams-meeting-activities.png" alt-text="Activities in the record side panel in a Teams meeting":::
+:::image type="content" source="../media/teams-meeting-activities.png" alt-text="Activities in the record side panel in a Teams meeting":::
 
 You can view only appointment, email, and phone call activities that are associated with the record. To view other associated activities, go to the customer engagement app. If you want to view details of an activity, in the **Activities** section, select an activity. The activity record opens in your web browser.
 

@@ -24,7 +24,7 @@ For more information on knowledge articles, see:
 
 - [Create and manage knowledge articles](../customer-service/use/customer-service-hub-user-guide-knowledge-article.md)
 - [Create templates for knowledge articles](../customer-service/use/create-templates-knowledge-article.md)
-- [Set up a search provider](../customer-service/set-up-search-providers.md)
+- [Set up a search provider](../customer-service/administer/set-up-search-providers.md)
 
 :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
 

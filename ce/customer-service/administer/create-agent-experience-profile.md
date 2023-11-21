@@ -62,7 +62,7 @@ For the profile that you created, you can add users and configure option such as
   - Turn on the **All active channels** toggle
   - Select a channel provider or create channel providers in the **Third party voice channel providers** section.
   
-:::image type="content" source="../customer-service/media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
+:::image type="content" source="../media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
 
 ### See also
 

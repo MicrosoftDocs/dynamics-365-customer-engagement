@@ -104,11 +104,11 @@ When you're viewing a record:
 
 1. Select and expand **Open Record Set** to navigate to other records.
 
-    ![open record set behavior in top nav.](../channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
+    ![open record set behavior in top nav.](../../channel-integration-framework/media/Nav-fly-out-1.png "open record set in top nav") 
 
 2. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
 
-    ![record set list.](../channel-integration-framework/media/Nav-fly-out-2.png "Record set list") 
+    ![record set list.](../../channel-integration-framework/media/Nav-fly-out-2.png "Record set list") 
  
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
@@ -117,7 +117,7 @@ More information: [Create and manage queues](../administer/../administer/set-up-
 
 ## Quickly create new records
   
-- To create records quickly by filling in only the most basic information, select the **New** button ![Create button.](../../media/quick-create-button.png "Create button") given on the nav bar.
+- To create records quickly by filling in only the most basic information, select the **New** button ![Create button.](../media/quick-create-button.png "Create button") given on the nav bar.
 
   > [!TIP]
   > On a mobile device, from the nav bar, tap ![Tap the ellipsis.](../media/ellipsis.png "Tap the ellipsis") and then tap **Quick Create Menu**.
