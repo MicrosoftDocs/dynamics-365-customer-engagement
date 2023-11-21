@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
 
 Copilot AI features use Azure OpenAI Service and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot does not follow the same regional rollout schedule.
 

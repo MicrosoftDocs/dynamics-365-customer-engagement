@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-[!INCLUDE [preview-banner](../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
 
 Use the information in this article to add an authentication setting for Nuance Gatekeeper in Customer Service.
 

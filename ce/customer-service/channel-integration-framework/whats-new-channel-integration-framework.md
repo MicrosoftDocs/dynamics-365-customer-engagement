@@ -64,8 +64,8 @@ This section provides a list of new features introduced for Dynamics 365 Channel
 
 | JavaScript API | Description |
 |-----|-----|
-| [Microsoft.CIFramework.getEntityMetadata](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/getEntityMetadata.md) | [!INCLUDE[getEntityMetadata-description](reference/microsoft-ciframework/includes/getEntityMetadata-description.md)] |
-| [Microsoft.CIFramework.renderSearchPage](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/renderSearchPage.md) | [!INCLUDE[renderSearchPage-description](reference/microsoft-ciframework/includes/renderSearchPage-description.md)] |
+| [Microsoft.CIFramework.getEntityMetadata](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/getEntityMetadata.md) | [!INCLUDE[getEntityMetadata-description](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/getEntityMetadata.md)] |
+| [Microsoft.CIFramework.renderSearchPage](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/renderSearchPage.md) | [!INCLUDE[renderSearchPage-description](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/renderSearchPage.md)] |
 
 ### Ability to pass Dynamics 365 URL to widget library
 

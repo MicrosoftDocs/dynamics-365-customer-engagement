@@ -17,7 +17,7 @@ ms.custom:
 
 
 
-The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
+The Interactive Service hub was introduced with [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
 
 The Interactive Service hub's intuitive interface combined vital information in one place and allowed customer service representatives to prioritize work and be more productive, but there were certain limits to extending it. The new Customer Service Hub offers greater flexibility and improved controls and extensibility.
 
@@ -29,7 +29,7 @@ Unified Interface eliminates the prolonged initial metadata download and brings 
 
 ## Versions eligible for upgrade
 
-Organizations using Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service and Customer Engagement (on-premises) platform Update 2.1 are eligible to upgrade to latest version during the [customer-driven update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Customer Service Update 2.1.
+Organizations using Dynamics CRM 2016, [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service and Customer Engagement (on-premises) platform Update 2.1 are eligible to upgrade to latest version during the [customer-driven update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) schedule. Upgrading from a version earlier than CRM 2016 is not supported. Support for the Interactive Service hub client is limited to Dynamics 365 Customer Service Update 2.1.
 
 ## Prepare for upgrade
 
@@ -109,7 +109,7 @@ As Main forms are supported in Unified Interface as well as in web client, activ
 
 ## Work with solutions
 
-- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../../customerengagement/on-premises/customize/create-edit-app.md) documentation.
+- Importing a solution with Interactive Service hub components from the versions Dynamics CRM 2016, [!INCLUDE[](../../includes/pn-crm-8-1-0-online.md)], and Dynamics 365 Customer Service, and Customer Engagement (on-premises) platform Update 2.1 into the latest version would not reflect changes to Customer Service Hub, since it is an app module and doesn’t show every component in the system. The import would proceed in the usual manner, and the components added in the system would need to be added to Customer Service Hub. System administrators can edit the hub's app definition in App Designer and include the solution components. This gives System Administrators greater control over the hub's app definition. Read more about editing app definition in [App Designer](../../customerengagement/on-premises/customize/create-edit-app.md) documentation.
 
 
 - Uninstalling older solutions after upgrading to the latest version might require manual updates to the Customer Service Hub app in some cases. This typically occurs when the solution contains business process flows. While upgrading, all business process flows in the system (and their relevant entities) get added to Customer Service Hub, which creates dependencies on the solution. A solution framework dependency error will appear whenever such solutions are uninstalled.

@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Set up Join a Teams call for agent conversations with customers (preview)
 
-[!INCLUDE [preview-banner](../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../shared-content/shared/preview-includes/preview-note.md)]
 
 Join a Teams call is a new feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, cobrowse, and connect through video. Customers don’t need to have a Teams license or previous experience using Teams.
 
