@@ -23,7 +23,8 @@ Although Copilot is available in all geographic regions, it requires the Microso
 
 You need to opt in to allow your data to move outside of your region to an Azure OpenAI endpoint in North America or Europe. Though the opt-in terms are shown for Europe, data from Europe region is processed in Europe only.
 
-The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.
+
+The following table lists the geography of the Azure OpenAI service that Copilot uses for the different Dynamics 365 geographies, when you opt in.
 
 |Copilot availability|Dynamics 365 geography|Azure OpenAI geography|
 |----------|-------------|-----------------|
