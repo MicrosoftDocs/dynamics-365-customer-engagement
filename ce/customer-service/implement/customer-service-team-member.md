@@ -70,11 +70,11 @@ In the Customer Service Team Member app, you can perform the following tasks:
 8. Select **Save**. The **Timeline section is enabled where you can add notes and upload files pertaining to the problem.**
   
     > [!div class="mx-imgBorder"]
-    > ![New comment.](media/cstm-new-comment.png "New comment")
+    > ![New comment.](../media/cstm-new-comment.png "New comment")
 
 9. (Optional.) Select **Enter a note** to add notes and attach files.
 10. Select **Save & Close**. The **Active Cases created by me** page appears.
-11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Use the direct knowledge base search in Customer Service Hub](search-knowledge-articles-csh.md#search-the-knowledge-base-directly-in-customer-service-hub)
+11. Select **Knowledge Search** to search for articles pertaining to your problem area that may help in addressing the issue. To learn more, see [Use the direct knowledge base search in Customer Service Hub](../search-knowledge-articles-csh.md#search-the-knowledge-base-directly-in-customer-service-hub)
 
     > [!NOTE]
     > "Send article URLs" is not supported in the Customer Service Team Member app.
@@ -86,4 +86,4 @@ In the Customer Service Team Member app, you can perform the following tasks:
 [Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

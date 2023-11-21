@@ -52,7 +52,7 @@ Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privil
 
 If you use custom roles, you must make sure that you have the appropriate permissions corresponding to the feature you want to configure.
 
-More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
+More information: [Assign roles and enable users for Omnichannel for Customer Service](../add-users-assign-roles.md)
 
 ## Access the app
 
@@ -62,7 +62,7 @@ The app is automatically installed in all the Customer Service organizations. Yo
 
 On the **Home** page, use the **Create your contact center** wizard to set up a new contact center with one click. When you select **Create**, the wizard automatically sets up the live chat and voice channels, a default agent experience profile, and the recommended AI features and reports. After the setup is complete, the summary page displays the channels and features that you can try. You can also customize the settings by following the bubble tour, which requires the Omnichannel administrator and Omnichannel agent roles.
 
-:::image type="content" source="media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
+:::image type="content" source="../media/create-contact-center.png" alt-text="Use create contact center to set up a contact center in one click.":::
 
 > [!NOTE]
 > The create your contact center feature is available for new organizations only.
@@ -71,7 +71,7 @@ On the **Home** page, use the **Create your contact center** wizard to set up a 
 
 You can use the guided channel setup wizard to configure channels, such as a channel for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
-:::image type="content" source="media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
+:::image type="content" source="../media/guided-channel-setup.png" alt-text="A screenshot of guided channel setup showing the channel types that can be set using guided setup.":::
 
 > [!IMPORTANT]
 > To successfully create a guided setup for each channel, you must have full privileges to all the tables used in the setup.
@@ -95,7 +95,7 @@ You can manage the following features in **Customer support**:
 - **Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and case resolution dialog.
 - **Customer settings**: Blocked numbers, authentication settings, geo location, phone music, outbound messaging and automate messages.
 
-  :::image type="content" source="media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
+  :::image type="content" source="../media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
 
 You can manage the following features in **Agent experience**:
   
@@ -103,7 +103,7 @@ You can manage the following features in **Agent experience**:
 - **Productivity**: Transcripts, outbound profiles, templates for emails and messages, macros, and custom presence.
 - **Knowledge**: Record types for which knowledge management needs to be enabled, filters, external portal, article templates, and search providers.
 
-  :::image type="content" source="media/agent-experience-overview.png" alt-text="Overview page of Agent experience in Customer Service admin center.":::
+  :::image type="content" source="../media/agent-experience-overview.png" alt-text="Overview page of Agent experience in Customer Service admin center.":::
 
 You can manage the following features in **Operations**:
 
@@ -113,22 +113,22 @@ You can manage the following features in **Operations**:
 - **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
-  :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
+  :::image type="content" source="../media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
 ## Search admin settings
 
 Use the search option on the **Search admin settings** page to quickly list the admin setting that you want to manage. Along with the top matches, the page also lists settings for the new features.
 
-:::image type="content" source="media/search-admin-settings.png" alt-text="Screenshot of the search admin settings page that lists the new features settings and settings that match the search string.":::
+:::image type="content" source="../media/search-admin-settings.png" alt-text="Screenshot of the search admin settings page that lists the new features settings and settings that match the search string.":::
 
 ### FAQ
 
-See the [FAQ about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Customer Service admin center](../faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### See also
 
-[Help resources for Customer Service](help-hub.md)  
-[Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
-[Overview of user management](overview-users.md)  
-[Manage your bots in Omnichannel for Customer Service](manage-your-bots.md)  
-[Check your contact center health](check-contact-center-health.md)  
+[Help resources for Customer Service](../help-hub.md)  
+[Sign up for a free Dynamics 365 Customer Service trial](../try-customer-service.md)  
+[Overview of user management](../overview-users.md)  
+[Manage your bots in Omnichannel for Customer Service](../manage-your-bots.md)  
+[Check your contact center health](../check-contact-center-health.md)  
