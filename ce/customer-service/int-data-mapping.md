@@ -85,7 +85,7 @@ Select from the following operation type mapping options:
 
 - **RegexUrl**: Like Regex, but looks for matches in the URL of the source website only. To map the entire source website URL to a knowledge attribute field, select **Regexurl** in the operation type, and use the (. *) pattern in the source property.
 
-Here's an example, which explains how to map the article attributes.
+Here's an example which explains how to map the article attributes.
 
 ### Example
 
