@@ -63,7 +63,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 1. Select **Next**.
 
-1. In the **Authentication and testing** section, [verify](#verify-the-search-provider-website) and enter the:
+1. In the **Authentication and testing** section, [verify](#verify-the-search-provider-website) and enter the following:
 
     - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
     - **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. 
@@ -173,7 +173,7 @@ Configure search providers as filters to search knowledge articles only from sel
 
 If you select a deactivated data search provider, it might appear on the **Filter by** list, but no search results from the selected provider are returned.
 
-## Verify the search provider website
+## Verify search provider website
 
 It is necessary to verify whether the search provider website that you want to use has the appropriate site map collection. To do so, you must identify the root and the site map URL.
 
