@@ -705,10 +705,11 @@
       - name: Copilot overview
         href: copilot-overview.md
       - name: Use Copilot in Dynamics 365
-        href: use-sales-copilot.md
         items:
+          - name: Open Copilot
+            href: use-sales-copilot.md
           - name: Get information
-            href: copilot-get-information
+            href: copilot-get-information.md
           - name: Stay ahead
             href: copilot-stay-ahead.md
           - name: Ask questions
