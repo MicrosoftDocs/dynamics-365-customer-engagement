@@ -29,7 +29,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
     
-      :::image type="content" source="media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
+      :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
 
    ### [Customer Service Hub](#tab/customerservicehub)
     
@@ -37,7 +37,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      2. Select **Settings** in **Insights**. The **Insights** page appears.
      3. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
-    :::image type="content" source="media/cs-enable-analyticsinsights.png" alt-text="Screenshot of Knowledge analytics in Customer Service Hub":::
+    :::image type="content" source="../media/cs-enable-analyticsinsights.png" alt-text="Screenshot of Knowledge analytics in Customer Service Hub":::
 
 2. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 

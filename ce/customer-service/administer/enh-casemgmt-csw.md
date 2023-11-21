@@ -44,13 +44,13 @@ Depending on the settings that are enabled for you, the form that opens is eithe
       - **Attachments**: Select **Add Attachment** to upload multiple attachments at once.
    - If you’d like to provide additional information, you can switch to the main case form.  All the details you've added to the case are added automatically when you switch to the main form.
     
-   :::image type="content" source="media/quick-case-contact-mini.png" alt-text="Enhanced quick case form" lightbox="media/quick-case-contact.png":::
+   :::image type="content" source="../media/quick-case-contact-mini.png" alt-text="Enhanced quick case form" lightbox="../media/quick-case-contact.png":::
 
    ### [Default Quick create form: case](#tab/quickcreateform)
     
    The default **Quick Create: Case** form appears when you create a case using the quick create option.
 
-   :::image type="content" source="media/quick-case-default-mini.png" alt-text="Screenshot of the Default Quick Create: Case form." lightbox="media/quick-case-default.png":::
+   :::image type="content" source="../media/quick-case-default-mini.png" alt-text="Screenshot of the Default Quick Create: Case form." lightbox="../media/quick-case-default.png":::
 
    ---
 
@@ -69,13 +69,13 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    -  View color coded **Case Status** fields and **Priority** icons.
    - Select **Save and Resolve** at the top of the form to save the case and initiate the case resolution process.
     
-     :::image type="content" source="media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="media/enh-case-newcase.png":::
+     :::image type="content" source="../media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="../media/enh-case-newcase.png":::
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
    The default main case form appears when you create a new case from the **Case** page.
 
-   :::image type="content" source="media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="media/def-case-maincase.png":::
+   :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
 
    ---
 
@@ -101,7 +101,7 @@ If you save the case by using the enhanced full case form, the application displ
    > - Attachments shared over a conversation are displayed only if a case is linked to the conversation and the conversation has ended. The **Uploaded By** is set to **Omnichannel User** and **Uploaded on** is the time when the conversation ended.
    > - The enhanced full case form opens when you open an existing case only if your administrator has set the enhanced full case form as the default form.
 
-:::image type="content" source="media/edit-enh-fullcase.png" alt-text="Screenshot that shows the enhanced main case form for a saved case." lightbox="media/edit-enh-fullcase.png":::
+:::image type="content" source="../media/edit-enh-fullcase.png" alt-text="Screenshot that shows the enhanced main case form for a saved case." lightbox="../media/edit-enh-fullcase.png":::
 
 
 ## View customer details and recent cases

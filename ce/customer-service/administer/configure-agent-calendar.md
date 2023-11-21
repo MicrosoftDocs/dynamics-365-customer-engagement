@@ -51,7 +51,7 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 
 1. In the **Agent calendar** section, select **Manage**. The **Agent calendar** page is displayed.
 
-   :::image type="content" source="media/agent-calendar-manage-configuration.png" alt-text="Manage option for enabling the agent calendar view.":::
+   :::image type="content" source="../media/agent-calendar-manage-configuration.png" alt-text="Manage option for enabling the agent calendar view.":::
 
 1. Turn on the **Enable agent calendar** toggle.
 
@@ -67,7 +67,7 @@ Administrators can utilize this view to verify the proper functioning of the thi
    
 1. Select the **All Shift Bookings** view.
 
-   :::image type="content" source="media/agent-calendar-shift-bookings-view.png" alt-text="Agent calendar shift bookings view for supervisors.":::
+   :::image type="content" source="../media/agent-calendar-shift-bookings-view.png" alt-text="Agent calendar shift bookings view for supervisors.":::
 
 
 ## Next Steps

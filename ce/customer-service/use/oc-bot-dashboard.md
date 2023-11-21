@@ -25,13 +25,13 @@ If your administrator has enabled **Add historical analytics for bots** in Custo
 
 The bot dashboard displays metrics specific to Copilot Studio bots only if Copilot Studio bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
+ :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
  ### Report details
 
 The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot Studio bots. You can filter these areas by duration, channel, queue, or agent.
 
- :::image type="content" source="media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
+ :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -45,7 +45,7 @@ The report summarizes KPIs for the specified time period and the percentage chan
 
 The following table shows the bot KPI chart metrics.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Copilot Studio bot chart description.":::
+ :::image type="content" source="../media/oc-bot-summary-charts.png" alt-text="Copilot Studio bot chart description.":::
 
 | Title | Description |
 | --------------- | ----------------- |
@@ -61,7 +61,7 @@ The **Metrics by bot** section displays a comprehensive set of analytics that sh
 
 The **Summary** tab gives you a broad overview of your bot's performance.
 
- :::image type="content" source="media/oc-metrics-summary.png" alt-text="Screenshot that shows the bot summary.":::
+ :::image type="content" source="../media/oc-metrics-summary.png" alt-text="Screenshot that shows the bot summary.":::
 
 KPIs for the following areas are displayed.
 
@@ -77,7 +77,7 @@ KPIs for the following areas are displayed.
 
 The **Details** tab gives you an insight into the bot sessions.
 
- :::image type="content" source="media/oc-summary-details.png" alt-text="Screenshot that shows the bot details.":::
+ :::image type="content" source="../media/oc-summary-details.png" alt-text="Screenshot that shows the bot details.":::
 
 KPIs for the following areas are displayed.
 

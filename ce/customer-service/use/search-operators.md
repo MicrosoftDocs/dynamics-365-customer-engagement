@@ -36,7 +36,7 @@ However, irrespective of your search settings, you can use the following search 
 
 Use the AND operator when you need to search with a combination of words. The search results will only include articles that contain all the individual terms separated by (+). For example, **Delivery + order** returns the article **Delivery Never Arrived** which has **Delivery** and **order** in the article content.
 
-:::image type="content" source="media/and-operator.png" alt-text="AND operator":::
+:::image type="content" source="../media/and-operator.png" alt-text="AND operator":::
 
 - Query: AND operator; denoted by +
 
@@ -44,7 +44,7 @@ Use the AND operator when you need to search with a combination of words. The se
 
 Use the OR operator to search for either of terms. Search terms separated by a vertical bar ( | ). For example, searching for **delivery | order** returns records with reference to either term.
 
-:::image type="content" source="media/or-operator.png" alt-text="OR operator":::
+:::image type="content" source="../media/or-operator.png" alt-text="OR operator":::
 
 Query syntax: OR operator; denoted by |
 
@@ -53,7 +53,7 @@ Query syntax: OR operator; denoted by |
 Use the NOT operator with a hyphen (-) before a keyword to indicate that it should be excluded from the search results.
 For example, when you search for **product**, all rows matching the term product will appear in the search results. However, searching for **product -order** will match all rows that contain the term **product** but not the term **order**.
 
-:::image type="content" source="media/not-operator.png" alt-text="NOT operator":::
+:::image type="content" source="../media/not-operator.png" alt-text="NOT operator":::
 
 - Query syntax: NOT operator; denoted by -
 
@@ -61,7 +61,7 @@ For example, when you search for **product**, all rows matching the term product
 
 Use wildcards as placeholders for one or more text characters. Use an asterisk at the beginning or end of a keyword. For example, searching on **pro**\* will show results for all records associated with a keyword that starts with **pro**. **Pro**\* searches for **product**, **products**, and **procedure**.
 
-:::image type="content" source="media/wildcard-search.png" alt-text="Wildcard search":::
+:::image type="content" source="../media/wildcard-search.png" alt-text="Wildcard search":::
 
 - Query syntax: Search term with asterisk at the beginning or end of a keyword.
 
@@ -69,7 +69,7 @@ Use wildcards as placeholders for one or more text characters. Use an asterisk a
 
 Use double quotation marks around a keyword to search for an exact match. For example, searching on "order shipping time" will match those exact keywords in an knowledge article. This type of search ignores commonly used words such as a, an, and the.
 
-:::image type="content" source="media/exact matches.png" alt-text="Exact matches search query":::
+:::image type="content" source="../media/exact matches.png" alt-text="Exact matches search query":::
 
 - Query syntax: Search term with double quotation marks around it.
 

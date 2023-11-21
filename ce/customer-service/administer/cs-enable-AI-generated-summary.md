@@ -46,7 +46,7 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
    - **When the conversation ends**: To display the summary when the conversation ends.
    - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the agent starts a linked Teams chat. Alternatively, you can select the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
-        :::image type="content" source="media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
+        :::image type="content" source="../media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
 ### Turn on the auto-summarization of Microsoft Teams conversations
 
@@ -58,7 +58,7 @@ You can also enable this feature from the Customer Service Hub app. Perform the 
 
 1.  In **Conversation settings**, in **New connected chats**, turn on **AI-generated intro note**.
 
-:::image type="content" source="media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings for Teams conversations.":::
+:::image type="content" source="../media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings for Teams conversations.":::
 
 
 ### See also

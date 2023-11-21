@@ -39,7 +39,7 @@ To filter your inbox view:
 
 1. In the inbox, select the **Filter** icon.
 
-   :::image type="content" source="media/inbox-agent-filter-view.png" alt-text="View of the filter icon in inbox.":::
+   :::image type="content" source="../media/inbox-agent-filter-view.png" alt-text="View of the filter icon in inbox.":::
 
 1. Select the desired filter views. The following options are available:
 

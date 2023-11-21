@@ -74,11 +74,11 @@ Depending on the features you've enabled, you may see up to three different repo
 
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 
-:::image type="content" source="media/custom-hist.png" alt-text="Customer workspace for historical data model":::
+:::image type="content" source="../media/custom-hist.png" alt-text="Customer workspace for historical data model":::
 
 ### [Real-time data model customization](#tab/realtimedatamodelcustomization)
 
-:::image type="content" source="media/custom-realtime.png" alt-text="Customer workspace for real-time data model":::
+:::image type="content" source="../media/custom-realtime.png" alt-text="Customer workspace for real-time data model":::
 
 ---
 

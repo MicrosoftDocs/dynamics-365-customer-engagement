@@ -19,7 +19,7 @@ ms.custom:
 
 With the help of text and visual filters, you can filter knowledge articles.
 
-:::image type="content" source="media/csw-article-filter.png" alt-text="Filter knowledge articles":::
+:::image type="content" source="../media/csw-article-filter.png" alt-text="Filter knowledge articles":::
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
@@ -58,7 +58,7 @@ If you deactivate a filter, it will appear as deactivated. If you reactivate the
 
 The knowledge base search control also enables you to sort the knowledge articles. 
 
-:::image type="content" source="media/csw-sort-km.png" alt-text="Sort knowledge article":::
+:::image type="content" source="../media/csw-sort-km.png" alt-text="Sort knowledge article":::
 
 Select the up-arrow icon to view the sorting options and select an option from the following: 
 

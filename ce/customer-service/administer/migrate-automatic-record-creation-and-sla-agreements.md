@@ -75,7 +75,7 @@ The migration progress is indicated on the page as follows; the colored circle i
      1. In the site map, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
      1. In the **ARC and SLA migration** section, select **Manage**.
      
-        :::image type="content" source="media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
+        :::image type="content" source="../media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
      
    ### [Customer Service Hub](#tab/customerservicehub)
     

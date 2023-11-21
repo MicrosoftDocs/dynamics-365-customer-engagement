@@ -106,7 +106,7 @@ You can create one prioritization ruleset only per queue.
 
 As an example, consider the prioritization ruleset as seen in the following screenshot with four rules.
 
-:::image type="content" source="media/ur-prioritization-scenario.png" alt-text="Screenshot of a prioritization scenario.":::
+:::image type="content" source="../media/ur-prioritization-scenario.png" alt-text="Screenshot of a prioritization scenario.":::
 
 - During any assignment cycle, this prioritization ruleset runs, and the rules within the ruleset run in the order they're listed.
 
@@ -131,7 +131,7 @@ The assignment ruleset is an ordered list of assignment rules. Each assignment r
 
 In the assignment rule, the system user attributes are matched with the requirement of the work item. When you select static match, the condition is formed on the System User entity attribute and static values. When you select dynamic match, the conditions on the left are based on the system user root entity and the conditions on the right are based on the conversation root entity. You can drill down to two levels on the conversation root entity to form the rule conditions. An assignment rule with the dynamic match and static match is as follows.
 
-:::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Screenshot of an assignment rule with dynamic match and static match conditions.":::
+:::image type="content" source="../media/assignment-rule-root-entity.png" alt-text="Screenshot of an assignment rule with dynamic match and static match conditions.":::
 
 
 ### Components of an assignment rule
@@ -162,7 +162,7 @@ The assignment rules are composed of the following items:
   
   - **Value**: The user attributes are compared against this value to find the right agent. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
-     :::image type="content" source="media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
+     :::image type="content" source="../media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
@@ -183,7 +183,7 @@ The assignment rules are composed of the following items:
 
 A sample assignment rule is explained in the following scenario with a screenshot.
 
-:::image type="content" source="media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
+:::image type="content" source="../media/ur-sample-assign-scenario.png" alt-text="Sample assignment method.":::
 
 The first condition specifies the "user skills" on which the operator is an exact match. Then the user attributes are evaluated. The different user attributes are specified with operators, and values for each attribute, such as the **Presence status** attribute, should be equal to "Available" or "Busy". On the right of the operator, you can specify the value that you want the attribute to be matched against. The values can be "static," such as "presence status equals Available or Busy". If you specify "dynamic," the condition is matched at runtime based on the expression you specify. For example, if you specify "Preferred Customer Type Equals Conversation.Contact.Membership Level," the "preferred customer type" of every agent is matched against the dynamically calculated membership level of the customer associated with the chat.
 

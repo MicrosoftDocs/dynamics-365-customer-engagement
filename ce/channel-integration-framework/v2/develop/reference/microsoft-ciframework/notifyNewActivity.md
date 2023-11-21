@@ -14,7 +14,7 @@ ms.custom:
 
 This method is used to indicate the number of new activities in a session that is currently not in focus. The indicator is automatically removed when the user switches to the session. 
 
-![Notify new activity.](../../../../../customer-service/channel-integration-framework/media/notifyNewActivity.PNG "Notify new activity")
+![Notify new activity.](../../../media/notifyNewActivity.PNG "Notify new activity")
 <br>
 
 > [!NOTE]

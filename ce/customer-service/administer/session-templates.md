@@ -84,7 +84,7 @@ You can associate application tabs that need to open when a session is started. 
 
 1. Select **Save**.
 
-  :::image type="content" source="media/session-template1.PNG" alt-text="Session template":::
+  :::image type="content" source="../media/session-template1.PNG" alt-text="Session template":::
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 

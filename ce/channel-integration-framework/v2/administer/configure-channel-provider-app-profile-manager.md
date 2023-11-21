@@ -47,11 +47,11 @@ More information:
 
     5. Select the **Channels** tab.
 
-      > ![Select app profiles.](../../../customer-service/channel-integration-framework/media/channel-app-profile-manager.PNG "Select app profiles")
+      > ![Select app profiles.](../../media/channel-app-profile-manager.PNG "Select app profiles")
 
     6. Select **Add channel providers**, and then select **Create a new channel provider in Unified Interface**. The **New Channel Provider** page opens in a new tab.
 
-      > ![Create new channel provider.](../../../customer-service/channel-integration-framework/media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
+      > ![Create new channel provider.](../../media/create-new-channel-provider-app-profile-manager.PNG "Create new channel provider")
 
 2. Enter or update the following details:
 
@@ -68,7 +68,7 @@ More information:
 |Custom Parameters|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
 |Enable Analytics|Select `Yes` if you'd like to enable analytics for your channel provider.|
 
-  > ![Configure channel provider.](../../../customer-service/channel-integration-framework/media/channel-provider-app-profile.png "Configure channel provider")
+  > ![Configure channel provider.](../../media/channel-provider-app-profile.png "Configure channel provider")
 
   > [!NOTE]
   > - The **Restore** button is available only for forms with the **Unique Name** set to **msdyn_omnichannel**.

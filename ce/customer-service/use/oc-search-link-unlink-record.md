@@ -47,7 +47,7 @@ Active views only are displayed for the search results. You can customize the Qu
 
 During an inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Active Conversation** page is updated with the details.
 
-   :::image type="content" source="media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
+   :::image type="content" source="../media/agent-inline-search-link.png" alt-text="The active conversation page is updated with details from the linked record" :::
 
 You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
@@ -86,7 +86,7 @@ You can link and unlink one contact or account only in the customer (**Contact**
 
 You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
- :::image type="content" source="media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
+ :::image type="content" source="../media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
 
 
 To unlink a record, select **Close** next to the customer name in the customer (**Contact** or **Account**) section. After the record is removed, the customer (**Contact** or **Account**) section is blank.

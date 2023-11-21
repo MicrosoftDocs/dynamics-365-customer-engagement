@@ -62,7 +62,7 @@ You can search the knowledge base directly, without viewing a case or conversati
 1. In Customer Service Hub, under **Knowledge**, select **Knowledge Search**.
 1. Enter a keyword in the search box.
 
-:::image type="content" source="media/search-kb-article.png" alt-text="Screenshot that shows a direct search for a knowledge article in Knowledge Search in Customer Service Hub.":::
+:::image type="content" source="../media/search-kb-article.png" alt-text="Screenshot that shows a direct search for a knowledge article in Knowledge Search in Customer Service Hub.":::
 
 Legend:
 1. The search box
@@ -84,7 +84,7 @@ You can search the knowledge base for related articles when you view a case or c
 
 1. The case title is used as the search term by default, but you can enter your own keywords to get more relevant results.
 
-    :::image type="content" source="media/knowledge-search-csh.png" alt-text="Screenshot of knowledge search in the reference pane.":::
+    :::image type="content" source="../media/knowledge-search-csh.png" alt-text="Screenshot of knowledge search in the reference pane.":::
 
 Legend:
 
@@ -114,7 +114,7 @@ You can search the knowledge base for related articles in the app side pane when
 
 3. The case title is used as the search term by default, but you can enter your own keywords to get more relevant results.
 
-    :::image type="content" source="media/csw-knowledge-tab.png" alt-text="Screenshot of knowledge search in the app side pane.":::
+    :::image type="content" source="../media/csw-knowledge-tab.png" alt-text="Screenshot of knowledge search in the app side pane.":::
 
 Legend:
 
@@ -148,7 +148,7 @@ Your search term is matched against article titles, and the matching results app
 
 Suggest-as-you-type suggests up to six knowledge articles. Text that matches your keyword is highlighted in yellow. When you select the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the direct knowledge base search.
 
-:::image type="content" source="media/autosuggest-ka-csw.png" alt-text="Screenshot of the suggest-as-you-type feature in action.":::
+:::image type="content" source="../media/autosuggest-ka-csw.png" alt-text="Screenshot of the suggest-as-you-type feature in action.":::
 
 ## Search using favorites
 
@@ -196,7 +196,7 @@ When you select an article in the search results, where it opens depends on wher
 
 In Customer Service workspace and Omnichannel for Customer Service, the article opens in an application tab. You can open up to 10 articles in app tabs.
 
-:::image type="content" source="media/csw-article-app-tab.png" alt-text="Screenshot of a knowledge article viewed in an app tab.":::
+:::image type="content" source="../media/csw-article-app-tab.png" alt-text="Screenshot of a knowledge article viewed in an app tab.":::
 
 You can perform the following actions on knowledge articles you view in an app tab:
 
@@ -216,7 +216,7 @@ You can perform the following actions on knowledge articles you view inline:
 - Link it to a record, or, if it's already linked, unlink it.
 - [Email it to a customer](../email-articles.md#email-a-knowledge-article).
 
-    :::image type="content" source="media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
+    :::image type="content" source="../media/km-inline-article-view.png" alt-text="Screenshot of a knowledge article viewed inline in the search control.":::
 
 - Select the **Copy Link** icon ![Copy knowledge article link button Dynamics 365 Customer Service](../media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Service") to copy the external URL of the article to share with your customer in channels like chat or email.
 
@@ -226,7 +226,7 @@ The copy and email options are available only if the knowledge article is [publi
 
 In Customer Service Hub, in the **Knowledge Search** reference pane, select the pop-out option to view the article on a new window.
 
-:::image type="content" source="media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
+:::image type="content" source="../media/knowledge-search-pop-out-csh.png" alt-text="View knowledge article in a new window":::
 
 ### See also
 

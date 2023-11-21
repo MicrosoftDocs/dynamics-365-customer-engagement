@@ -33,7 +33,7 @@ To create a record from the **Active Conversation** page:
     | New Contact | Customer | Select this option to create a new contact record |
     | New Case | Case | Select this option to create a new case record |
 
-   :::image type="content" source="media/customer-summary-create-record.PNG" alt-text="Create account, contact, and case" :::
+   :::image type="content" source="../media/customer-summary-create-record.PNG" alt-text="Create account, contact, and case" :::
 
 2. Specify the details in the form fields.
 

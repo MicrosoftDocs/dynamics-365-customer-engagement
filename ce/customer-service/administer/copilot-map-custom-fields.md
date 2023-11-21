@@ -45,7 +45,7 @@ In Customer Service admin center, perform the following steps to map your prefer
    1. Select **Save and Close**.
 1. Select **Save**.
  
-:::image type="content" source="media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="media/copilot-data-attributes.png":::|
+:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
 
 
 ## Modify the fields used to draft emails

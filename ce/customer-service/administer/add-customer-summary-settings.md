@@ -42,7 +42,7 @@ To enable the enhanced Active Conversation form and customize the form, perform 
    > - If an agent initiates a consult with other agents who are from a different business unit and don't have the read permissions at the organization level for the conversation entity, they won't have access to the conversation.
 
 
-    :::image type="content" source="media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="media/enh-active-conv-config-max.png"::: 
+    :::image type="content" source="../media/enh-active-conv-config.png" alt-text="Configuration settings" lightbox="../media/enh-active-conv-config-max.png"::: 
 
 ## Display the form selector on Active Conversation form
 
@@ -53,7 +53,7 @@ By default, the enhanced **Active Conversation** form doesn't display the form s
 1. Optionally, in the **Setting app values** section, for a required app, you can set the value to **Yes** in the **New app value**. The tab set at the application level overrides the environment level setting.
 1. Save and publish your customizations.
      
-    :::image type="content" source="media/powerapps-unhide-selector-mini.png" alt-text="View the show selector" lightbox="media/powerapps-unhide-selector.png"::: 
+    :::image type="content" source="../media/powerapps-unhide-selector-mini.png" alt-text="View the show selector" lightbox="../media/powerapps-unhide-selector.png"::: 
 
 ## Customize recent cases
 

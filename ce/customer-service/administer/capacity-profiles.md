@@ -62,7 +62,7 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
    - **Assignment blocking**: Set the toggle to **Yes**. When the work item limit is met, the agent isn't assigned a new work item automatically.
 
-   :::image type="content" source="media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
+   :::image type="content" source="../media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
 5. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
 
@@ -146,13 +146,13 @@ For the system to efficiently manage agent workload, you must automatically rele
     - [Deactivate the assigned queue item](../develop/deactivate-queue-items.md); the associated work item is closed.
     - If you need to keep the record open, go to the queue item dialog and remove the agent name from the **Worked By** field. The automatic assignment tries to reassign the item to an agent in the queue.
 
-    :::image type="content" source="media/remove-agent-to-release-capacity.png" alt-text="Screenshot of remove agent name from Worked By field to release capacity.":::
+    :::image type="content" source="../media/remove-agent-to-release-capacity.png" alt-text="Screenshot of remove agent name from Worked By field to release capacity.":::
 
 ### Escalation profiles
 
 The escalation profile is used when a chat conversation is escalated to a voice or video call. This profile is available out of the box and can't be edited. When an agent escalates a chat to a voice or video call, a new session starts and an escalation profile is attached to the work item, so that the agent doesn’t receive a new chat or voice call until the current call with the customer is over. If the agent transfers the video or voice call to another agent, the escalation profile becomes applicable to the new agent.
 
-   :::image type="content" source="media/escalation-profile.png" alt-text="Escalation profile settings.":::
+   :::image type="content" source="../media/escalation-profile.png" alt-text="Escalation profile settings.":::
 
 ### How to set multiple capacity profiles in a single workstream
 

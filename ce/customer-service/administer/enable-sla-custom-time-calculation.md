@@ -39,11 +39,11 @@ To enable your own custom time calculation, define an API interface that has a f
     1. Select the **SLACustomTimeCalculationTemplate** template from the list.
     1. Select **OK**.
 
-    :::image type="content" source="media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
+    :::image type="content" source="../media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
 
 1. On the template, add the required parameters (if any) and select **Activate**.
 
-    :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
+    :::image type="content" source="../media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
 1. [Write the plug-in](/powerapps/developer/data-platform/write-plug-in).
 
@@ -52,7 +52,7 @@ To enable your own custom time calculation, define an API interface that has a f
 
     For information on registering a plug-in, go to [Register a plug-in](/power-apps/developer/data-platform/tutorial-write-plug-in#register-plug-in).
 
-    :::image type="content" source="media/register-plug-in.png" alt-text="Register and link the plug-in":::
+    :::image type="content" source="../media/register-plug-in.png" alt-text="Register and link the plug-in":::
 
 1. In Customer Service admin center, add or edit the previously created custom action with the SLA Item:
     1. Set the **Allow Custom Time Calculation** toggle to **Yes**.

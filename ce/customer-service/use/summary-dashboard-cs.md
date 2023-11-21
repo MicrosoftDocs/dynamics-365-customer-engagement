@@ -28,7 +28,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
 
-:::image type="content" source="media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
+:::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
 
@@ -49,7 +49,7 @@ The Key Insights discovered section has two areas:
 
 - **Topics to watch**: Topics that rank high across the three key areas to make it easier for customer service managers to discover top issues.
   
-:::image type="content" source="media/key-insights-card.png" alt-text="Key insights card":::
+:::image type="content" source="../media/key-insights-card.png" alt-text="Key insights card":::
 
 ## Report details
 
@@ -57,7 +57,7 @@ The KPI summary charts summarize the key performance indicators for the specifie
 
 The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
 
-:::image type="content" source="media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="media/case-lifecycle-metrics-diagram-large.png":::
+:::image type="content" source="../media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="../media/case-lifecycle-metrics-diagram-large.png":::
 
 The following table shows the key performance indicators that are displayed in the report.
 
@@ -70,7 +70,7 @@ The following table shows the key performance indicators that are displayed in t
 | Avg. CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 
-:::image type="content" source="media/cs-summary-kpi.png" alt-text="Key perfomance indicators on the Summary dashboard":::
+:::image type="content" source="../media/cs-summary-kpi.png" alt-text="Key perfomance indicators on the Summary dashboard":::
 
 
 The following metrics are displayed in the charts.
@@ -84,21 +84,21 @@ The following metrics are displayed in the charts.
 | Avg. CSAT trend      | The year-over-year trend of case volume.   |
 | Avg. survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
 
-:::image type="content" source="media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
+:::image type="content" source="../media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
 
 A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 On the **Top 10 volume topics** tab, you can view the top 10 AI-discovered topics by case volume.
 
-:::image type="content" source="media/cs-summary-topvol.png" alt-text="View the top 10 AI-discovered topics by case volume":::
+:::image type="content" source="../media/cs-summary-topvol.png" alt-text="View the top 10 AI-discovered topics by case volume":::
 
 On the **Emerging case volume by topic** tab, you can view the the top emerging AI discovered topics based on increase in case volume.
 
-:::image type="content" source="media/cs-summary-casevol.png" alt-text="View the top emerging AI discovered topics based on increase in case volume":::
+:::image type="content" source="../media/cs-summary-casevol.png" alt-text="View the top emerging AI discovered topics based on increase in case volume":::
 
 You can view the core case metrics by channel or core case metrics in relation to other metrics and date.
 
-:::image type="content" source="media/case-metrics.png" alt-text="View case metrics by channel or in relation to other metrics and date":::
+:::image type="content" source="../media/case-metrics.png" alt-text="View case metrics by channel or in relation to other metrics and date":::
 
 ### See also
 

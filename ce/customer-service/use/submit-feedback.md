@@ -36,7 +36,7 @@ The value beside the **Thumbs up** icon doesn't represent an article's total num
 
 1. Select **Thumbs up** if the article was helpful to you, or select **Thumbs down** if it wasn't. Optionally, you can submit your feedback in the **Comments** box.
 
-    :::image type="content" source="media/ratings_and _feedback.png" alt-text="Submit ratings and provide your feedback if you don't like an article.":::
+    :::image type="content" source="../media/ratings_and _feedback.png" alt-text="Submit ratings and provide your feedback if you don't like an article.":::
 
 
 ### See also

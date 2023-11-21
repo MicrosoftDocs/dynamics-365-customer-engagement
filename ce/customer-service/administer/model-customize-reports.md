@@ -103,7 +103,7 @@ After the report is provisioned, you must provide **Write** permissions for user
 
 You must be a **Workspace Administrator** on both managed and customer workspaces (configured on Step 1) in Power BI to complete this step. By default, the user who starts the provisioning (Step 2) has the necessary permissions added.
 
-:::image type="content" source="media/step3-grant-permissions.png" alt-text="Image for step 3 grant read and write permissions":::
+:::image type="content" source="../media/step3-grant-permissions.png" alt-text="Image for step 3 grant read and write permissions":::
 
 ### Grant access to the Power BI data model
 
@@ -130,12 +130,12 @@ After your report authors create and publish the customized reports, you can all
 ### [Historical data model customization](#tab/historicaldatamodelcustomization)
 
   - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
-    :::image type="content" source="media/embed-historical.png" alt-text="Select the historical reports you want to view on the site map.":::
+    :::image type="content" source="../media/embed-historical.png" alt-text="Select the historical reports you want to view on the site map.":::
 
 ### [Real-time data model customization](#tab/realtimedatamodelcustomization)
 
   - From the **Embedded Power BI extensibility - Real-time data model customization** page, go to Step 4.
-    :::image type="content" source="media/embed-realtime.png" alt-text="Select the real-time reports you want to view on the site map.":::
+    :::image type="content" source="../media/embed-realtime.png" alt-text="Select the real-time reports you want to view on the site map.":::
 
 ---
 

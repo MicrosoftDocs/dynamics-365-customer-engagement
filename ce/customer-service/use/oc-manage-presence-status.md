@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 Presence is an indication of your availability or status in the application.
 
-:::image type="content" source="media/oceh-presence-icon.png" alt-text="Agent presence status.":::
+:::image type="content" source="../media/oceh-presence-icon.png" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ You can update the presence status in the following two ways:
   
    You might also see other presence statuses that your administrator configured for you.
 
-  :::image type="content" source="media/oceh-presence.png" alt-text="Set your presence status.":::
+  :::image type="content" source="../media/oceh-presence.png" alt-text="Set your presence status.":::
 
 - **Automatically**: When a conversation (work item) is assigned to you, Omnichannel for Customer Service sets your presence status based on your capacity as follows:
 

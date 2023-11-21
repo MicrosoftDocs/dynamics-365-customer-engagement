@@ -84,7 +84,7 @@ The knowledge Search term insights dashboard represents the following metrics.
 
 Use the Timezone option available in the reports to view the  time information according to the time zone that you specify. You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. More information: [Manage bookmarks for reports](manage-bookmarks.md#manage-bookmarks-for-reports)
 
-:::image type="content" source="media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
+:::image type="content" source="../media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
 
 ### See also
 

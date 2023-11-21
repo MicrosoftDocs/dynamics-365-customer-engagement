@@ -78,7 +78,7 @@ For example, you can create a bot with the following details:
 
    1. Select the **Add** (+) node in **BeginDialog**, point to **Ask a question**, and then select **Multi-choice**.
 
-      :::image type="content" source="media/pva-ask-question.png" alt-text="Select the multiple-choice option for asking a question.":::
+      :::image type="content" source="../media/pva-ask-question.png" alt-text="Select the multiple-choice option for asking a question.":::
 
    1. Repeat steps a and b to add the following text.
 
@@ -91,7 +91,7 @@ For example, you can create a bot with the following details:
        
       In **Array of choices**, specify one choice per expression.
 
-     :::image type="content" source="media/pva-framework-setup.png" alt-text="Set calues for an Array of choices.":::
+     :::image type="content" source="../media/pva-framework-setup.png" alt-text="Set calues for an Array of choices.":::
      
    f. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
@@ -107,7 +107,7 @@ For example, you can create a bot with the following details:
       
      Repeat the steps to **Set a property** for fr-FR, pt-PT, hi-IN.
 
-     :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
+     :::image type="content" source="../media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
 
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
@@ -188,11 +188,11 @@ For example, ensure the following settings:
 
 1. Configure a voice workstream with English as the primary language, and French and Portuguese as additional languages.
 
-    :::image type="content" source="media/multilingual-workstream.png" alt-text="Workstream with multiple language options set.":::
+    :::image type="content" source="../media/multilingual-workstream.png" alt-text="Workstream with multiple language options set.":::
 
 1. In the route to queues rule set of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
 
-    :::image type="content" source="media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
+    :::image type="content" source="../media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
 
 1. In the **Bot** area of the workstream, edit to add the Copilot Studio bot that you configured.
 

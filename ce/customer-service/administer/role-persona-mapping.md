@@ -122,7 +122,7 @@ You can customize the roles to persona mapping in the Customer Service admin cen
 
 The updated set of roles are listed for the persona.
 
-   :::image type="content" source="media/role-persona-mapping-view.png" alt-text="A view of the roles mapped to the admin, supervisor, and agent personas.":::
+   :::image type="content" source="../media/role-persona-mapping-view.png" alt-text="A view of the roles mapped to the admin, supervisor, and agent personas.":::
 
 To assign a persona to the "seasonal service rep" role mentioned in the example, select the **Agent** persona. In the **Edit roles** pane, locate the "seasonal service rep" security role and select the checkbox. After you select **Save and Close**, the custom security role will be listed under the agent persona. With role to persona mapping completed, you can now grant access to any applications and forms they would use.
 

@@ -137,7 +137,7 @@ To create a custom channel, follow these steps:
 
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
-   :::image type="content" source="media/custom-channel-1.png" alt-text="Account details in custom channel.":::
+   :::image type="content" source="../media/custom-channel-1.png" alt-text="Account details in custom channel.":::
    
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
@@ -163,7 +163,7 @@ To create a custom channel, follow these steps:
     > [!Note]
     > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Telegram** Channel IDs.
 
-    :::image type="content" source="media/custom-channel-3.png" alt-text="General tab page for custom channels.":::
+    :::image type="content" source="../media/custom-channel-3.png" alt-text="General tab page for custom channels.":::
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -173,7 +173,7 @@ To create a custom channel, follow these steps:
 
 13. Select **Save** to save the configurations.
 
-    :::image type="content" source="media/custom-channel-4.png" alt-text="Summary page for custom channel.":::
+    :::image type="content" source="../media/custom-channel-4.png" alt-text="Summary page for custom channel.":::
 
 To configure other options in the workstream, see the following:
 

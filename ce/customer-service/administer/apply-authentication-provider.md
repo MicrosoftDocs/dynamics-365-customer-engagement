@@ -33,12 +33,12 @@ The values of the resource ID, client ID, and client secret depend on your scena
 1. From the site map, go to **All services** > **App registrations** > **Owned applications** and select yours.
 1. In the **Branding & properties** tab, enter the **Home page URL**.
 
-    :::image type="content" source="media/homepageurl.png" alt-text="Screenshot of the Branding & properties tab, with the Home page URL highlighted.":::
+    :::image type="content" source="../media/homepageurl.png" alt-text="Screenshot of the Branding & properties tab, with the Home page URL highlighted.":::
 
 1. In the **Authentication** tab, select **Add a platform**.
 1. Select **Web**.
 
-    :::image type="content" source="media/configure-web_new.png" alt-text="Screenshot of web platform settings.":::
+    :::image type="content" source="../media/configure-web_new.png" alt-text="Screenshot of web platform settings.":::
 
 1. If you use the user token that's sent by Azure for authentication, enter the **Redirect URIs**. Otherwise, this field is optional.
 

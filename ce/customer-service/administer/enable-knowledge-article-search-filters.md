@@ -40,7 +40,7 @@ If you choose to retain the **Enable search filters** option as **Yes**, then th
 
 The settings that you've previously configured for your organization, including the default language configured for your organization in the Power Apps filter configurations, will no longer be applicable. You'll need to configure the language as default using the filter configurations.
 
-:::image type="content" source="media/default-search-filters.png" alt-text="Search filters are enabled by default.":::
+:::image type="content" source="../media/default-search-filters.png" alt-text="Search filters are enabled by default.":::
 
 ## Customize search filters
 

@@ -67,7 +67,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 8. Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
 
-    :::image type="content" source="media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
+    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
 
 9. Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. More information: [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
@@ -75,7 +75,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 The phone number is associated with the workstream.
 
-:::image type="content" source="media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
+:::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
 ## Acquire a phone number
 

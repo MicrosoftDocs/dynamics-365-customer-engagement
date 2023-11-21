@@ -96,7 +96,7 @@ Perform the following steps:
 
 3. In the **Create intake rule** dialog, enter a name and define the conditions for the rule. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule. You can define conditions for up to two levels of the related records and attributes.
 
-   :::image type="content" source="media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
+   :::image type="content" source="../media/ur-intake-rule.png" alt-text="Define conditions for an intake rule.":::
 
 4. Select **Create**.
 
@@ -106,7 +106,7 @@ Perform the following steps:
 
    You can reorder the rules and create copies to meet your business requirements.
 
-    :::image type="content" source="media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
+    :::image type="content" source="../media/manage-intake-rules.png" alt-text="Manage your intake rules.":::
 
 ### Configure routing rules
 

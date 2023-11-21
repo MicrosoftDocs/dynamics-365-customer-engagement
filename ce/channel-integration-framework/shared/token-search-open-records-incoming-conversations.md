@@ -24,7 +24,7 @@ The sample given below covers four scenarios:
 
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
 
-   ![Open Index.cshtml file from Solution Explorer.](../../customer-service/channel-integration-framework/media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from Solution Explorer")<br />
+   ![Open Index.cshtml file from Solution Explorer.](../media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from Solution Explorer")<br />
 
 ```html
 <!DOCTYPE html>
@@ -189,4 +189,4 @@ The sample given below covers four scenarios:
 
 Follow the steps in [Publish and configure the widget](../v1/administer/getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
 
-  ![Published sample widget in Unified Interface apps.](../../customer-service/channel-integration-framework/media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
+  ![Published sample widget in Unified Interface apps.](../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />

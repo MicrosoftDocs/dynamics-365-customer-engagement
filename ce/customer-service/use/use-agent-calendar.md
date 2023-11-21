@@ -17,11 +17,11 @@ The calendar view is read-only and has daily, weekly, and monthly views. It also
 
 1. In Customer Service workspace, expand the site map, and then select **My Schedule**.
 
-   :::image type="content" source="media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
+   :::image type="content" source="../media/my-schedule-calendar.png" alt-text="Screenshot of the sitemap with the calendar option selected.":::
 
    The **My Schedule** page opens with a read-only calendar view of your work hours, nonwork hours, and any scheduled time off. Work hours are displayed in blue, and nonwork hours are displayed in gray.
 
-   :::image type="content" source="media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
+   :::image type="content" source="../media/my-schedule-calendar-view.png" alt-text="Calendar view of an agent's schedule.":::
 
 2. (Optional) Use the top-right menu to change the view to agenda, daily, weekly, or monthly.
 

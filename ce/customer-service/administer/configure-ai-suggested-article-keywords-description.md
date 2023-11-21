@@ -82,7 +82,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 5. Select **Save**.
 
-   :::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI-suggested article keywords and description.":::
+   :::image type="content" source="../media/configure_suggest-article-keywords-description.png" alt-text="Configure AI-suggested article keywords and description.":::
 
 ### Enable AI suggestions for article keywords and description in a custom form
 

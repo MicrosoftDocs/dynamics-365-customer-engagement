@@ -46,8 +46,8 @@ A maximum of 10 rules are supported per record type.
 1. In the **Update rules for suggesting contacts** section, reorder or disable the rules for suggesting contacts. Users see the suggestions in the order you choose.
 
     - To reorder the rules, hover over a rule, and then select the up or down arrow to move the rules up or down, respectively.
-    - To disable a rule, hover over a rule, and then select :::image type="icon" source="media/suggested-contacts-rule-disable.png" border="false":::. When the rule is disabled, a check mark is displayed when you hover over the disabled rule.
-     - To delete a rule, hover over the rule, and then select :::image type="icon" source="media/suggested-contacts-rule-delete.png" border="false":::. Deleting a rule removes it entirely so it won't influence suggested contacts in the future.
+    - To disable a rule, hover over a rule, and then select :::image type="icon" source="../media/suggested-contacts-rule-disable.png" border="false":::. When the rule is disabled, a check mark is displayed when you hover over the disabled rule.
+     - To delete a rule, hover over the rule, and then select :::image type="icon" source="../media/suggested-contacts-rule-delete.png" border="false":::. Deleting a rule removes it entirely so it won't influence suggested contacts in the future.
 
 1. Select **Save**.
 
@@ -77,7 +77,7 @@ To use the custom rule type, you must have an existing custom action that has th
 |CustomActionSuggestedUsers |String |Required | Output |
 |CustomActionInputs |String |Optional |Input |
 
-:::image type="content" source="media/rules-based-custom-arguments.png" alt-text="Required arguments for an existing custom action to use the custom rule type.":::
+:::image type="content" source="../media/rules-based-custom-arguments.png" alt-text="Required arguments for an existing custom action to use the custom rule type.":::
 
 The output, CustomActionSuggestedUsers, is a list of objects that follow this contract:
 ```

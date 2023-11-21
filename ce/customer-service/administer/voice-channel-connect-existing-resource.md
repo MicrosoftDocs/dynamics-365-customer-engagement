@@ -32,15 +32,15 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 1. Go to **Resource groups** and select the required resource group. 
 1. Select the required **Resource** from the resource group.
-    :::image type="content" source="media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="media/acs-existing-resource.png":::
+    :::image type="content" source="../media/acs-resource-existing-mini.png" alt-text="image showing how to add a resource" lightbox="../media/acs-existing-resource.png":::
 1.  Select **Properties** in **Settings**. 
 1. On the **Properties** page,  copy the **Name** and **Resource ID** field values, which you must specify as **ACS Resource Name** and **ACS Resource ID** values in Customer Service admin center.
-   :::image type="content" source="media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="media/acs-property-records.png":::
+   :::image type="content" source="../media/acs-property-records-mini.png" alt-text="image showing the resource id values " lightbox="../media/acs-property-records.png":::
 
 
 1. Select **Tools** in **Keys**. On the **Keys**, copy **Connection string** in **Primary key**, which you'll use as the value of **Connection string**  in Customer Service admin center. 
 
-   :::image type="content" source="media/acs-resource-keys.png" alt-text="image showing resource keys" :::
+   :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys" :::
 
 ### Get application and tenant IDs from the Azure portal
 
@@ -56,13 +56,13 @@ You'll need to specify the values of **Application (client) ID** and **Directory
         - **Supported account types**: Select **Accounts in any organizational directory (Any Microsoft Entra ID - Multitenant)**.
 
     1. Select **Register**.
-       :::image type="content" source="media/acs-resource-register.png" alt-text="resource keys" :::
+       :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
 
 1. Select the value of the **Application (client) ID** field, and then select the **Copy to clipboard** button. You'll need to enter this as the value of **Event grid app id** in Customer Service admin center.
 
 1. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value. You'll need to enter this as the value of **Event grid app tenant id** in Customer Service admin center.
 
-    :::image type="content" source="media/acs-resource-application.png" alt-text="resource application" :::
+    :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
 
 ## Connect using an existing Azure resource

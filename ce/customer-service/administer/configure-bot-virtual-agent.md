@@ -140,7 +140,7 @@ After a customer closes the chat window, you must also configure a context varia
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
-    :::image type="content" source="media/end-bot-conversation.png" alt-text="Configure end conversation topic in Copilot Studio.":::
+    :::image type="content" source="../media/end-bot-conversation.png" alt-text="Configure end conversation topic in Copilot Studio.":::
 
 1. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
 

@@ -44,7 +44,7 @@ The following section describes how the search results are rendered:
 - If the number of search results exceeds 100, a plus sign (+) appears against the product facet.
 - If you go to the next page, the next 100 search results with the associated product facets are displayed.
 
-:::image type="content" source="media/km-portals.png" alt-text="Search knowledge articles on portals":::
+:::image type="content" source="../media/km-portals.png" alt-text="Search knowledge articles on portals":::
 
 ### Enable content access levels for knowledge articles from a portal
 

@@ -72,6 +72,6 @@ To define whether automatic record creation and update rules must create a new c
     
     1. Continue executing automatic record creation and update rules and create case. Perform an unbound action and add the fields as shown in the screenshot.
     
-        :::image type="content" source="media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="media/arc_sub_change.png":::
+        :::image type="content" source="../media/arc_sub_change.png" alt-text="Screenshot describes the email subject change flow."lightbox="../media/arc_sub_change.png":::
         
     By performing the steps, the automatic record creation and update rule can be conditionally bypassed (based on email subject change condition) and a new case can be created.

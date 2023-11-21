@@ -367,7 +367,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file to edit the Voice mail report.
 
 ### Data model
-:::image type="content" source="media/voice-mail-data-model.png" alt-text="Diagram of the vocie mail data model":::
+:::image type="content" source="../media/voice-mail-data-model.png" alt-text="Diagram of the vocie mail data model":::
 
 ### Data dictionary 
 
@@ -392,7 +392,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 ### Data model
 
-:::image type="content" source="media/bot-data-model.png" alt-text="Diagram of the bot data model":::
+:::image type="content" source="../media/bot-data-model.png" alt-text="Diagram of the bot data model":::
 
 ### Data dictionary 
 

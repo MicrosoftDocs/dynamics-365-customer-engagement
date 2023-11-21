@@ -27,7 +27,7 @@ In Customer Service admin center, the Customer support overview page displays th
 
 1. Navigate to the views as follows:<br>
     - Select **Activity monitor events(past 7 days)** on Customer support overview to view the activity events for the last 7 days on the **Activity monitor events for last 7 days** page.
-     :::image type="content" source="media/email-activity-monitor.png" alt-text="A screenshot of the Activity monitor events for last seven days page.":::
+     :::image type="content" source="../media/email-activity-monitor.png" alt-text="A screenshot of the Activity monitor events for last seven days page.":::
     - Select **Case Settings** > **Automatic record creation and update rules** > **Record creation and update rules** and then select **View activity monitor** on the command bar to view the list of all the activity events on the **All activity monitor events** page.
 2. The following details are available for the rules in the activity views:
    - **Current state:** Displays the state, such as, Failed, Skipped, or Ready for Power Automate.
@@ -43,7 +43,7 @@ In Customer Service admin center, the Customer support overview page displays th
 3. Select a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** <rule_name> page.
   - If you navigate to an active rule from the activity monitor page, a message appears stating that the rule is active and therefore is read-only.
   - The legacy rules will also be monitored and listed on the activity monitor view.
-:::image type="content" source="media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
+:::image type="content" source="../media/activity-monitor-page.png" alt-text="A screenshot of the Activity monitor rule_name page.":::
 4. If you don't want to monitor any of the following states, you can clear the selection on the **Monitor options** dialog.
    - Ready for Power Automate / workflow
    - Failed

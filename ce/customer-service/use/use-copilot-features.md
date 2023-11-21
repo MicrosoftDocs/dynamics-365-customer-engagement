@@ -36,7 +36,7 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 
 You can ask free-form questions just as you'd ask your colleague or supervisor who might know the answers.
 
-:::image type="content" source="media/copilot-ask-question.png" alt-text="Screenshot of the Ask a question tab in Copilot.":::
+:::image type="content" source="../media/copilot-ask-question.png" alt-text="Screenshot of the Ask a question tab in Copilot.":::
 
 With Copilot, you can take the following actions:
 
@@ -64,7 +64,7 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 
 With Copilot, you can draft email replies to customers quickly and be more effective in solving customer issues.
 
-:::image type="content" source="media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
+:::image type="content" source="../media/copilot-email-draft.png" alt-text="Screenshot of the Copilot Write an email tab.":::
 
 ### Write an email with Copilot
 
@@ -99,7 +99,7 @@ To return to the choice of six prompts, select **Start over** at the bottom of t
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
-:::image type="content" source="media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
+:::image type="content" source="../media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
 
 ### Generate a chat response
 

@@ -48,7 +48,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 1. Sign in to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Solutions** > **Default Solution** > **Cloud flows** and turn on **Integrated Search API trigger flow**.
 
-    :::image type="content" source="media/int-search-turn-on.jpg" alt-text="Screenshot of enabling the Integrated Search API trigger flow." lightbox="media/int-search-turn-on.jpg":::
+    :::image type="content" source="../media/int-search-turn-on.jpg" alt-text="Screenshot of enabling the Integrated Search API trigger flow." lightbox="../media/int-search-turn-on.jpg":::
 
 ## Add integrated search providers
 

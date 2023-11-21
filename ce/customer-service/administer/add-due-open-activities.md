@@ -33,7 +33,7 @@ Configure the tab that the agents must be redirected to when they select the ope
    - Select the tab, and then copy the value in **Name** in **Display options**.
 1. Save and publish the customizations.
 
-   :::image type="content" source="media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="media/set-open-activities.png":::
+   :::image type="content" source="../media/set-open-activities.png" alt-text="Open activities in a new tab" lightbox="../media/set-open-activities.png":::
 
 ### See also
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).

@@ -24,7 +24,7 @@ applies_to:
 
 The Voice analytics report provides comprehensive information on the overall performance of customer support across the voice channel. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, agents, and date ranges to help better understand performance and troubleshoot problem areas.
 
-:::image type="content" source="media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
+:::image type="content" source="../media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
 
 **Access the Voice dashboard**
 
@@ -50,7 +50,7 @@ The following KPIs are displayed in the Voice dashboard.
 
 The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
-:::image type="content" source="media/voice-channel-agent-drill-down.png" alt-text="Voice agent drill-down report.":::
+:::image type="content" source="../media/voice-channel-agent-drill-down.png" alt-text="Voice agent drill-down report.":::
 
 The following metrics are available for the agent conversation style.
 
@@ -68,7 +68,7 @@ Supervisors can look into each topic, and view the CSAT and sentiment to see coa
 
 Supervisors can also see entire transcripts to understand the conversation style and get precise verbatim used so that they can make informed decisions about training requirements for the agent.
 
-:::image type="content" source="media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
+:::image type="content" source="../media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
 
 ### See also
 

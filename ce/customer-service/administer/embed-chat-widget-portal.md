@@ -37,7 +37,7 @@ Do the following steps to embed the chat widget in a website or Power Apps porta
         1. [Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
         1. Go to **Portal** > **Content Snippets**.
         1. Find the **Chat Widget Code** content snippet and open it.
-           :::image type="content" source="media/portal-content-snippet.png" alt-text="Screenshot of the chat code snippet in portal.":::
+           :::image type="content" source="../media/portal-content-snippet.png" alt-text="Screenshot of the chat code snippet in portal.":::
         1. On the **General** tab, scroll down to the **Value (HTML)** field, and paste the chat widget snippet code.         
         1. Save the changes. The chat widget is now embedded into the portal.
 
@@ -57,17 +57,17 @@ After you configure the chat widget, it has the following capabilities:
 
 - **Minimized mode**: By default, the chat widget appears in minimized mode. If any messages come while the widget is in the minimized mode, a count of the messages is shown.
      
-     :::image type="content" source="media/oc-chat-widget-minimized-mode.png" alt-text="Screenshot of chat widget in minimized mode.":::
+     :::image type="content" source="../media/oc-chat-widget-minimized-mode.png" alt-text="Screenshot of chat widget in minimized mode.":::
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
 
 - **System events**: System-generated messages appear for events, such as when an agent joins a conversation, or a conversation is transferred by the agent or supervisor to another agent.
-      :::image type="content" source="media/chat-widget-system-events.png" alt-text="Screenshot of chat widget with system event messages displayed on the widget for customer."::: 
+      :::image type="content" source="../media/chat-widget-system-events.png" alt-text="Screenshot of chat widget with system event messages displayed on the widget for customer."::: 
     
 - **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page.
 
 - **Pre-conversation survey**: If a survey is configured by an admin, it appears for the user before the conversation starts. This survey also helps the user connect to an appropriate agent.
-      :::image type="content" source="media/oc-chat-widget-pre-chat.png" alt-text="Screenshot of pre-conversation survey questions that are displayed to the customer.":::
+      :::image type="content" source="../media/oc-chat-widget-pre-chat.png" alt-text="Screenshot of pre-conversation survey questions that are displayed to the customer.":::
     
 - **End chat**: A customer can end the conversation by selecting the **Close chat** button. A confirmation message appears before the conversation ends.
 

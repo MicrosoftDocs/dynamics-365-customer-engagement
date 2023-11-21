@@ -32,7 +32,7 @@ Do the following steps to check for configuration errors and incomplete configur
     - Warnings
     - Suggestions
 
-     :::image type="content" source="media/contact-center-health-check.png" alt-text="A screenshot of  the page after the health check runs.":::
+     :::image type="content" source="../media/contact-center-health-check.png" alt-text="A screenshot of  the page after the health check runs.":::
 
 1. Expand a category to see the problems and then select the link to a problematic setting. The setting opens on a new tab for you to take action on it.
 1. Optionally, after you resolve all the issues in the configuration, run the health check again until you see zero occurrences of errors and warnings.

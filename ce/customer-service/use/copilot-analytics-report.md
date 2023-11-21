@@ -28,7 +28,7 @@ You can use filters to focus on the information that's important to you:
 
 The Copilot report displays the following metrics.
 
-:::image type="content" source="media/copilot-analytics-report.png" alt-text="A screenshot of the Copilot report for cases.":::
+:::image type="content" source="../media/copilot-analytics-report.png" alt-text="A screenshot of the Copilot report for cases.":::
 
 ### Usage
 

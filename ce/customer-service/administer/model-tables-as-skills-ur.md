@@ -61,7 +61,7 @@ In this example, we model a skill on data in the **Products** table.
 1. In the **Data type** list, select **Lookup** > **Lookup**.
 1. In the **Related table** list, select the table that contains the column you use to model the new skill.
 
-    :::image type="content" source="media/custom-skill-new-column.png" alt-text="Screenshot of creating a column to model a skill on products." lightbox="media/custom-skill-new-column.png":::
+    :::image type="content" source="../media/custom-skill-new-column.png" alt-text="Screenshot of creating a column to model a skill on products." lightbox="../media/custom-skill-new-column.png":::
 
 1. Save the new column.
 1. Return to the **Solutions** page and select **Publish all customizations**.
@@ -72,7 +72,7 @@ In this example, we model a skill on data in the **Products** table.
 1. Under **Data experiences**, select **Forms**, and then select the **Skill Main Form**.
 1. Drag the new column from the list of table columns in the left panel to the form.
 
-    :::image type="content" source="media/custom-skill-add-column-to-form.png" alt-text="Screenshot of a skill column added to the skills form." lightbox="media/custom-skill-add-column-to-form.png":::
+    :::image type="content" source="../media/custom-skill-add-column-to-form.png" alt-text="Screenshot of a skill column added to the skills form." lightbox="../media/custom-skill-add-column-to-form.png":::
 
 1. Save and publish the form.
 
@@ -85,14 +85,14 @@ In this example, we model a skill on data in the **Products** table.
 1. In the **Type** list, select **Skill**.
 1. In the skill column lookup, search for and select a value. In our example, we've selected the product **AssemblyMaestro 100**.
 
-    :::image type="content" source="media/custom-skill-added.png" alt-text="Screenshot of a product assigned to the new skill column." lightbox="media/custom-skill-added.png":::
+    :::image type="content" source="../media/custom-skill-added.png" alt-text="Screenshot of a product assigned to the new skill column." lightbox="../media/custom-skill-added.png":::
 
 1. Select **Save**.
 1. [Assign the skill to agents](setup-skills-assign-agents.md#assign-agents-to-skill) as needed.
 
 Finally, add a condition based on the new skill to an [assignment rule](configure-assignment-rules.md).
 
-:::image type="content" source="media/custom-skill-assignment-condition.png" alt-text="Screenshot of a custom skill used as an assignment condition." lightbox="media/custom-skill-assignment-condition.png":::
+:::image type="content" source="../media/custom-skill-assignment-condition.png" alt-text="Screenshot of a custom skill used as an assignment condition." lightbox="../media/custom-skill-assignment-condition.png":::
 
 ## Model other data as skills
 

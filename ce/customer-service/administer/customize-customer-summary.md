@@ -58,7 +58,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to your business needs. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
 
-:::image type="content" source="media/customize-entity-labels-mini.png" alt-text="Screenshot of the active conversation form" lightbox="media/customize-entity-labels.png":::
+:::image type="content" source="../media/customize-entity-labels-mini.png" alt-text="Screenshot of the active conversation form" lightbox="../media/customize-entity-labels.png":::
 
 For example, you could change **Search customer** to **Search client** or **Search issue** to **Search ticket** using the following procedure.
 

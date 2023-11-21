@@ -56,7 +56,7 @@ For the chat channel, you can configure a survey that users can respond to when 
 
 1. Repeat the steps pertaining to creating questions. You can add up to five questions only.
 
-      :::image type="content" source="media/ocac-pre-conversation-questions.png" alt-text="Screenshot of the pre-conversation survey questions that you can configure.":::
+      :::image type="content" source="../media/ocac-pre-conversation-questions.png" alt-text="Screenshot of the pre-conversation survey questions that you can configure.":::
     
 
 1. Optionally, you can change the order in which the questions are listed.
@@ -106,7 +106,7 @@ You can configure your chat widget to show users a survey that they must respond
 
 The following screenshot is a sample of the pre-conversation survey that will be displayed for customers.
 
-  :::image type="content" source="media/oc-pre-chat-survey.png" alt-text="Screenshot of the runtime view of pre-conversation survey questions.":::
+  :::image type="content" source="../media/oc-pre-chat-survey.png" alt-text="Screenshot of the runtime view of pre-conversation survey questions.":::
 
 More information: [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 

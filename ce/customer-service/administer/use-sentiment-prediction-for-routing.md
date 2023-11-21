@@ -83,11 +83,11 @@ After you enable sentiment prediction, you can create a classification rule base
 
 3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Sentiment prediction**.
 
-    :::image type="content" source="media/sentiment-prediction-based-ruleset.png" alt-text="Sentiment prediction as machine learning model.":::
+    :::image type="content" source="../media/sentiment-prediction-based-ruleset.png" alt-text="Sentiment prediction as machine learning model.":::
 
 4. Select the input attribute in which the customer sentiment is most likely to be found. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Description** that might typically contain keywords indicating the sentiment.
 
-    :::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
+    :::image type="content" source="../media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
     For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question such as "How has been your experience with the product?" or "How can we help you?".
 
@@ -111,11 +111,11 @@ Create route-to-queue rules to route the work items based on the sentiment predi
    
    > [!NOTE]
    > If you've defined a condition on a routed record, make sure that you use the **Add row** option that's independent of the **Routed record** group.
-   > :::image type="content" source="media/choose-add-row-sentiment-category.png" alt-text="Choose add row option for sentiment category.":::
+   > :::image type="content" source="../media/choose-add-row-sentiment-category.png" alt-text="Choose add row option for sentiment category.":::
 
 3. Select the queue to which the work items need to be assigned when the conditions are met.
 
-    :::image type="content" source="media/route-to-queue-sentiment.png" alt-text="Rules to categorize on sentiment and route to queue.":::
+    :::image type="content" source="../media/route-to-queue-sentiment.png" alt-text="Rules to categorize on sentiment and route to queue.":::
 
 ## Use diagnostics to analyze the efficacy of sentiment prediction
 
@@ -123,7 +123,7 @@ Routing diagnostics help you see how the work items have been classified and rou
 
 You can view how the sentiment prediction model was used to route a work item.
 
-:::image type="content" source="media/diagnostics-sentiment-prediction.png" alt-text="Diagnostics for sentiment prediction model.":::
+:::image type="content" source="../media/diagnostics-sentiment-prediction.png" alt-text="Diagnostics for sentiment prediction model.":::
 
 ### Language support for sentiment prediction models
 

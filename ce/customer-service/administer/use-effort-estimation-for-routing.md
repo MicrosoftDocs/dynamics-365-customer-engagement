@@ -78,7 +78,7 @@ You can create the effort estimation models for any record that is enabled for u
 
 6. Select **Train AI Model**. The **Training** tab displays the status of the training, which could take a couple of hours and depends on the conditions used. After the model is trained, the **Model published successfully** message appears on the page.
 
-    :::image type="content" source="media/effort-model-trained-published.png" alt-text="Trained and published model for effort estimation.":::
+    :::image type="content" source="../media/effort-model-trained-published.png" alt-text="Trained and published model for effort estimation.":::
 
 7. Optionally, use **Dry run** and select an input value to test the model. The following details are available:
 
@@ -105,7 +105,7 @@ After you train the effort estimation models, you can create classification rule
    
     For the messaging channels, the bot context variables should be set or a pre-conversation survey must be set up to be able to use the input attributes.
    
-   :::image type="content" source="media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
+   :::image type="content" source="../media/effort-model-input-attributes.png" alt-text="Choose input attributes for effort estimation.":::
 
    > [!NOTE]
    > You can have only one effort estimation rule per workstream.
@@ -118,7 +118,7 @@ Create the route-to-queue rules based on the effort estimation.
 
 2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
    
-   :::image type="content" source="media/effort-model-route-queue-rule.png" alt-text="Rules based on effort estimation model.":::
+   :::image type="content" source="../media/effort-model-route-queue-rule.png" alt-text="Rules based on effort estimation model.":::
 
 ## Use diagnostics to analyze the efficacy of effort estimation models
 
@@ -126,7 +126,7 @@ Routing diagnostics help you see how the work items have been classified and rou
 
 You can view how the effort estimation model was used to route a work item.
 
-:::image type="content" source="media/diagnostics-effort-estimation.png" alt-text="Diagnostics of effort estimation model.":::
+:::image type="content" source="../media/diagnostics-effort-estimation.png" alt-text="Diagnostics of effort estimation model.":::
 
 ### Language support for effort estimation models
 

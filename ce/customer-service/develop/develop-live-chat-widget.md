@@ -48,11 +48,11 @@ To use the live chat widget 2.0 and script-based customization, modify the code 
 
 The updated code snippet will look as follows.
 
-:::image type="content" source="media/customized-lcw.png" alt-text="A screenshot of the customized live chat widget code.":::
+:::image type="content" source="../media/customized-lcw.png" alt-text="A screenshot of the customized live chat widget code.":::
 
 An example screenshot of a chat widget 2.0 that's customized to increase its size is as follows.
 
-:::image type="content" source="media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0.":::
+:::image type="content" source="../media/live-chat-widget-2.0.png" alt-text="A sample screenshot of live chat widget 2.0.":::
 
 Watch the [walkthrough video](https://www.youtube.com/watch?v=Mzw96Zz_epI) of the live chat widget set up.
 

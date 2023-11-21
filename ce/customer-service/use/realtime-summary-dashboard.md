@@ -32,7 +32,7 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 [Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime_summary_page.png" alt-text="Screenshot of the real-time summary report":::
+:::image type="content" source="../media/realtime_summary_page.png" alt-text="Screenshot of the real-time summary report":::
 
 ## Interactive charts
 
@@ -54,10 +54,10 @@ To view more details about agent analytics by queue, select the **Show more** li
 
 **Availability status**
 
-:::image type="content" source="media/realtime_summary_queue-drilldown_1.png" alt-text="Drilldown agent analytics by Availability status":::
+:::image type="content" source="../media/realtime_summary_queue-drilldown_1.png" alt-text="Drilldown agent analytics by Availability status":::
 
 **Capacity unit**
-:::image type="content" source="media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
+:::image type="content" source="../media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
 
 These tabs will help you effectively manage agent activity in real time.
 

@@ -36,7 +36,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 1. Open the Configuration Migration tool and in the **Tools** menu, select **Configure Import Settings**.
 
 1. Select **Edit FetchXML**. 
-   :::image type="content" source="media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
+   :::image type="content" source="../media/edit-fetchxml.png" alt-text="Screenshot of the Edit FetchXML button.":::
 
 1. Enter your FetchXML query in the text box, and select **OK**.
 

@@ -13,7 +13,7 @@ With unified routing, you can route any activity in Dynamics 365 Customer Servic
 
 A high-level overview of unified routing with email records is as follows.
 
-:::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
+:::image type="content" source="../media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
 
 ## Route email as a case
 

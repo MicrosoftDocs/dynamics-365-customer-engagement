@@ -32,7 +32,7 @@ You can also monitor voice-specific operational metrics such as conversation dir
 
 [Learn more about the metrics that are shown in the charts on the Voice report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime_voice.png" alt-text="Screenshot of the real-time Voice report.":::
+:::image type="content" source="../media/realtime_voice.png" alt-text="Screenshot of the real-time Voice report.":::
 
 ## Interactive charts
 

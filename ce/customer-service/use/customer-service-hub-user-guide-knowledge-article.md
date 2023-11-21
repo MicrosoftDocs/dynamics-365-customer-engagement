@@ -51,7 +51,7 @@ Ensure that you have Create and Read permissions on the Knowledge Article entity
 
    - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
    
-       :::image type="content" source="media/v9-add-cont_article.png" alt-text="Add article content":::
+       :::image type="content" source="../media/v9-add-cont_article.png" alt-text="Add article content":::
  
 4. In the **Content** section, add the content for your knowledge article.  
   
@@ -89,14 +89,14 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
 1. Select the **View suggested keywords and description** link.
 
-      :::image type="content" source="media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
+      :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
 1. In the **Suggested keywords and description** dialog, do the following:
 
    - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keywords field to add to existing list.
    - Select **Insert suggested description** to add the description to the **Description** field.
 
-     :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
+     :::image type="content" source="../media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
 
 1. Select **Apply Changes**.
 

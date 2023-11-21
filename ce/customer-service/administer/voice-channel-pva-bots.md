@@ -37,11 +37,11 @@ The following prerequisites must be met for the Copilot Studio bot:
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   :::image type="content" source="media/add-bot.png" alt-text="Select a bot.":::
+   :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   :::image type="content" source="media/bot-in-workstream.png" alt-text="Sample bot details.":::
+   :::image type="content" source="../media/bot-in-workstream.png" alt-text="Sample bot details.":::
 
 More information:
 
@@ -79,7 +79,7 @@ More information:
 
    1. Return to Copilot Studio, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
-    :::image type="content" source="media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
+    :::image type="content" source="../media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
 
    1. Optionally, you can view the bot details in Omnichannel for Customer Service.
 

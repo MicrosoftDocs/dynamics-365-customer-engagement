@@ -25,7 +25,7 @@ Copilot case summaries help you to quickly understand the context of a case and 
 
 The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary.
 
-:::image type="content" source="media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
+:::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
 
 You can copy the summary, refresh it, and provide feedback.
 
@@ -47,7 +47,7 @@ Depending on the triggers your administrator set up, the Copilot conversation su
 - Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
 - When you select **Summarize conversation** in an ongoing conversation.
 
-:::image type="content" source="media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
+:::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
 
 You can also take the following actions:
 

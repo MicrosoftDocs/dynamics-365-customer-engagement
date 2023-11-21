@@ -79,7 +79,7 @@ Intake ➡ Classification ➡ Route to queue ➡ Assignment
 
 You can select a work item on the **Routing diagnostics** page to view the detailed information, such as when the work item was created, its current stage, and the duration of each stage. You can also select and open the work item to see the associated case. If the work item isn't assigned or no rule item meets the criteria of the work item, error messages are displayed. You can select any of the stages to see further details and diagnose the issues.
 
-:::image type="content" source="media/routing-diagnostics-summary.png" alt-text="Summary view of a routed work item.":::
+:::image type="content" source="../media/routing-diagnostics-summary.png" alt-text="Summary view of a routed work item.":::
 
 ### Intake
 
@@ -105,7 +105,7 @@ If a work item doesn't run through a particular rule set in the **Classification
 
 If machine learning-based skill identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed in the **Classification** section.
 
-:::image type="content" source="media/routing-diagnostics-classification.png" alt-text="Screenshot of the view of classification ruleset and machine learning model.":::
+:::image type="content" source="../media/routing-diagnostics-classification.png" alt-text="Screenshot of the view of classification ruleset and machine learning model.":::
 
 ### Route to queue
 
@@ -113,7 +113,7 @@ Queue routing rules are formulated to send the work item to the correct queue. M
 
 The queue name to which the work item is routed is displayed on the route to queue page.
 
-:::image type="content" source="media/routing-diagnostics-selected-queue.png" alt-text="Screenshot of the queue to which work item is assigned.":::
+:::image type="content" source="../media/routing-diagnostics-selected-queue.png" alt-text="Screenshot of the queue to which work item is assigned.":::
 
 If no queue matches the requirement, the work item is assigned to the default queue.
 
@@ -146,7 +146,7 @@ The following stages are available:
   > - The **Assignment Criteria** section in **Agent assignment trace** displays details only if the highest capacity or round robin assignment method has been used.
   > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
-    :::image type="content" source="media/agent-assignment-trace.svg" alt-text="Screenshot of the information about assignment trace.":::
+    :::image type="content" source="../media/agent-assignment-trace.svg" alt-text="Screenshot of the information about assignment trace.":::
 
 ### Known issues
 

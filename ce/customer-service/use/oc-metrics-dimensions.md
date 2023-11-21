@@ -34,7 +34,7 @@ A conversation can end during a single session, or it can extend to multiple ses
 
 The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to a bot. When the bot escalates the conversation to a human agent, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best agent to work on the customer request. If that agent rejects the request, a new session is created, and the process of identifying another agent begins.
 
-:::image type="content" source="media/customer-workflow.png" alt-text="Diagram that shows the customer conversation journey." lightbox="media/customer-workflow.png":::
+:::image type="content" source="../media/customer-workflow.png" alt-text="Diagram that shows the customer conversation journey." lightbox="../media/customer-workflow.png":::
 
 For every agent who is identified to work on a conversation and associated with the latest session, a session participant entry is created. A single session can have multiple participants. Every session has one primary participant: the agent who has the assigned work item. A session might then have many other participants who monitor the conversation or help with the consultation. Alternatively, the session might have no other participants. From this entity, you can get KPIs and metrics about consultations that agents provide and monitored conversations.
 
@@ -186,7 +186,7 @@ A long average handle time might indicate that agents are taking too long to res
 
 This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
-:::image type="content" source="media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
+:::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
 #### Related metric
 
@@ -200,7 +200,7 @@ This metric is a measure of the average time, in seconds, that the human agents 
 
 There are several reasons why an agent might put a customer on hold. For example, the agent might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
 
-:::image type="content" source="media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
+:::image type="content" source="../media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
 
 ### Average conversation talk time
 
@@ -234,7 +234,7 @@ If the customer reaches a human agent queue directly, this metric is calculated 
 
 The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
 
-:::image type="content" source="media/abandoned-conversation.png" alt-text="Diagram that illustrates abandoned conversations.":::
+:::image type="content" source="../media/abandoned-conversation.png" alt-text="Diagram that illustrates abandoned conversations.":::
 
 #### Related metric
 

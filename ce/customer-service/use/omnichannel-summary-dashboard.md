@@ -33,7 +33,7 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 - Evaluate how different bot topic areas and their corresponding agent conversation topics impact your organization’s support performance.
 - Get actionable insights to handle bot escalations and customer requests effectively, thereby improving customer satisfaction and decreasing costs.
 
- :::image type="content" source="media/oc-summary-dashboard.png" alt-text="Screenshot showing the Omnichannel Historical Summary dashboard.":::
+ :::image type="content" source="../media/oc-summary-dashboard.png" alt-text="Screenshot showing the Omnichannel Historical Summary dashboard.":::
 
 ### Access the Summary dashboard
 
@@ -43,7 +43,7 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 
 The report summarizes the KPIs for the specified time period and the percentage change over that period. You can filter these areas by duration, channel, queue, or conversation status.
 
- :::image type="content" source="media/oc-summary-bot-metrics.png" alt-text="Screenshot showing the bot metrics with respect to conversations.":::
+ :::image type="content" source="../media/oc-summary-bot-metrics.png" alt-text="Screenshot showing the bot metrics with respect to conversations.":::
 
 | KPI | Description |
 | ------- | ------------------ |
@@ -59,7 +59,7 @@ An up-and-down indicator below the value indicates the percent change in either 
 
 The following charts are displayed in the Summary dashboard.
 
- :::image type="content" source="media/oc-bot-summary-charts.png" alt-text="Screenshot showing the charts for integrated conversations.":::
+ :::image type="content" source="../media/oc-bot-summary-charts.png" alt-text="Screenshot showing the charts for integrated conversations.":::
 
 | Title | Description |
 | ------- | ------------------ |
@@ -71,7 +71,7 @@ The following charts are displayed in the Summary dashboard.
 
 The **Bot escalation topic metrics** section provides insights into the performance of individual bot topics and their key business metrics. Supervisors can drill down into a topic to view the corresponding agent conversation topics and analyze how a bot is resolving a topic versus how an agent is resolving an escalated conversation topic. This helps them better understand how different topic areas impact your organization’s support performance.
 
- :::image type="content" source="media/oc-summary-topics.png" alt-text="Screenshot showing the bot conversation topics and customer journey.":::
+ :::image type="content" source="../media/oc-summary-topics.png" alt-text="Screenshot showing the bot conversation topics and customer journey.":::
  
 To view further bot topics and their related metrics, go to [Bot dashboard](oc-bot-dashboard.md).   
 

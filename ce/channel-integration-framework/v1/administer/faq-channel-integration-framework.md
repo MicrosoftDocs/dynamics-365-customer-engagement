@@ -176,7 +176,7 @@ No, that is not supported.
 ### See also
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
-[What's new in Dynamics 365 Channel Integration Framework](../../../customer-service/channel-integration-framework/whats-new-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
 [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)  
 [Known issues in Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)  
 

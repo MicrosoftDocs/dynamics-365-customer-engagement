@@ -24,7 +24,7 @@ Perform the following steps to enable the Copilot features in Customer Service a
       - **Operations** > **Insights** > **Copilot help pane**
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. You can select the Copilot features you'd like to enable for agents on this page.
 
-  :::image type="content" source="media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="media/copilot-admin-email.png":::
+  :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
 
 ## Prerequisites
 

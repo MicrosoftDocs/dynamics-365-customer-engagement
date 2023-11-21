@@ -19,7 +19,7 @@ ms.custom:
 
 You can associate and dissociate a knowledge article with a record. By default, the articles aren't linked to the case. When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
 
-:::image type="content" source="media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
+:::image type="content" source="../media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
 
 
 

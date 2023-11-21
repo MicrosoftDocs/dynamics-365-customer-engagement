@@ -115,7 +115,7 @@ The agent presence status drill-down view shows the start time and end time of a
 
 Select the **Availability** tab. In **Aggregated view**, the duration of the presence status is displayed for each hour. In **Detailed view**, the start and end times of the presence status are displayed for each agent, over a month.
 
-:::image type="content" source="media/agent-presence-drill-down.png" alt-text="Screenshot shows the Detailed view for agent presence statuses":::
+:::image type="content" source="../media/agent-presence-drill-down.png" alt-text="Screenshot shows the Detailed view for agent presence statuses":::
 
 ## Drill down view of agent custom presence
 
@@ -123,7 +123,7 @@ The agent custom presence drill-down view provides insight into the out-of-the-b
 
 Select the **Availability** tab and then select **Aggregated view** to view the hourly details of the various statuses. The **Presence status** column shows metrics for both out-of-the-box and custom-state metrics. For example, on April 5, 2022, the specific agent spent 0.7h in the custom state of **Inactive** and 0.6h in the out-of-the-box status of **Busy - DND**.
 
-:::image type="content" source="media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
+:::image type="content" source="../media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
 
 ### See also
 

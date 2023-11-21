@@ -87,7 +87,7 @@ You can define how agents use the outbound calls and which agents can make those
 
 1. Select **Save and close**.
 
-   :::image type="content" source="media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
+   :::image type="content" source="../media/outbound-inbound-voice-call-profiles.png" alt-text="Outbound and inbound profiles for voice calls.":::
 
 ### Default profiles
 

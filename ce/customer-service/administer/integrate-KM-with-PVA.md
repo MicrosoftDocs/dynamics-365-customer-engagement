@@ -57,16 +57,16 @@ To set connection references:
 1. Go to [make.powerapps.com](https://make.powerapps.com).
 1. Go to **Solutions**. The **Solutions** page displays a notification with a link to configure connection references.
 
-    :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+    :::image type="content" source="../media/con-ref-notification.png" alt-text="Connection reference notification":::
 1. Select the link. If you don't see the notification on the **Solutions** page, go to **Default Solutions** > **Connection references**.
 
-    :::image type="content" source="media/con-ref.png" alt-text="Connection References page":::
+    :::image type="content" source="../media/con-ref.png" alt-text="Connection References page":::
 
 1. Select the connections for **Microsoft Dataverse** and **Content Conversion** on the **Connection references** page.
 1. Select **Save and Close**.  
 1. Go to **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow** flow.
 
-     :::image type="content" source="media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
+     :::image type="content" source="../media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
 
 ### Add the action to the Copilot Studio topic
 
@@ -82,7 +82,7 @@ Perform the following steps to ensure that flow is properly configured and can n
 1. On the Copilot Studio portal, select **Topics** > **New Topic**.
 1. Within the topic, create a question node to ask the user to search for the input text.
 
-    :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
+    :::image type="content" source="../media/question_node.png" alt-text="Create a question node":::
     
 1. Create a question node for the filter and provide the sample filter value after you trigger the topic.
     
@@ -90,11 +90,11 @@ Perform the following steps to ensure that flow is properly configured and can n
      
 1. Provide the input to the flow. An error might appear if the filter isn't provided to the flow.
     
-    :::image type="content" source="media/search-flow.png" alt-text="Describes the search flow":::
+    :::image type="content" source="../media/search-flow.png" alt-text="Describes the search flow":::
     
 1. Add a message node to show the results returned by the flow. More information: [Render results](#render-results)
 
-   :::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
+   :::image type="content" source="../media/mesg_node.png" alt-text="Add message node.":::
     
 1. Select **Save**.
     
@@ -103,11 +103,11 @@ Perform the following steps to ensure that flow is properly configured and can n
    > [!TIP]
    > If your search doesn’t return any results, modify the search terms or filter conditions. You can also add a filter condition if required.
 
-   :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
+   :::image type="content" source="../media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
 1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow** with the **Search Dynamics 365 knowledge articles** action. You can now configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles** action.
 
-    :::image type="content" source="media/search-dialog.png" alt-text="Add action to Copilot Studio topic":::
+    :::image type="content" source="../media/search-dialog.png" alt-text="Add action to Copilot Studio topic":::
 
 2. Remove the filter question node. More information: [Work with filters](#work-with-filters).
 

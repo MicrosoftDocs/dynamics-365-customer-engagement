@@ -26,11 +26,11 @@ Make sure that the following prerequisites are met:
 
    1. In **Teams**, open the **Developer Portal** app.
 
-      :::image type="content" source="media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
+      :::image type="content" source="../media/configure-teams-developer-portal.png" alt-text="Developer Portal app in Teams.":::
    
    1. In **Developer Portal**, create a new app or import an existing one.
 
-       :::image type="content" source="media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
+       :::image type="content" source="../media/configure-teams-developer-portal-apps.png" alt-text="Create a new app or import one in Developer Portal.":::
 
    1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
 
@@ -38,7 +38,7 @@ Make sure that the following prerequisites are met:
       > [!NOTE]
       > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
 
-       :::image type="content" source="media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
+       :::image type="content" source="../media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
 
    1. Select **App features** under **Configure** section, and then select **bot**.
 

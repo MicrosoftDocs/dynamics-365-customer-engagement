@@ -24,7 +24,7 @@ searchScope:
 
 2. Search for and select **Channel Integration Framework**.
 
-  ![Dynamics 365 dropdown button to find Channel Integration Framework.](../../../customer-service/channel-integration-framework/media/cif-app-navigation.png "Dynamics 365 dropdown button to find Channel Integration Framework")
+  ![Dynamics 365 dropdown button to find Channel Integration Framework.](../../media/cif-app-navigation.png "Dynamics 365 dropdown button to find Channel Integration Framework")
 
 3.	Select **New** to add a new provider.
 
@@ -43,7 +43,7 @@ searchScope:
   |Select the Roles for the Channel|The security roles that are present in Dynamics 365.<br>**IMPORTANT:** <br> To ensure that the user is able to access the channel provider, you must assign the same security role that's defined at the channel provider level, to the user.<br>**NOTE:** <br>  The channel supports individual role assignment only.|
   |Custom Parameter|This takes a text blob as input and `Microsoft.CIFramework.getEnvironment` will return this as value of key `customParams`.|
   
-  ![Channel provider configuration.](../../../customer-service/channel-integration-framework/media/channel-provider-configuration-v1.PNG "Channel provider configuration")
+  ![Channel provider configuration.](../../media/channel-provider-configuration-v1.PNG "Channel provider configuration")
 
   > [!NOTE]
   > The msdyn_ciprovider entity is accessible only for the administrator roles and hence the panel won't load for non-administrator roles. To load the panel for non-administrator roles, create a new role and provide read access to the msdyn_ciprovider entity. Then, add the role to the users who'll be accessing Dynamics 365 Channel Integration Framework.
@@ -51,11 +51,11 @@ searchScope:
 5. Launch the Unified Interface app to see the communication widget on the right side.<br><br>
 
 **The communication widget in the minimized mode**<br><br>
-![Communication widget in the minimized mode.](../../../customer-service/channel-integration-framework/media/widget-minimized-mode.PNG "Communication widget in the minimized mode")
+![Communication widget in the minimized mode.](../../media/widget-minimized-mode.PNG "Communication widget in the minimized mode")
 <br><br>
 
 **The communication widget in the expanded mode**<br><br>
-![Communication widget in the expanded mode.](../../../customer-service/channel-integration-framework/media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
+![Communication widget in the expanded mode.](../../media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
 
 
 ### See also

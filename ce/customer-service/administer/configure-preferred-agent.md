@@ -51,7 +51,7 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
 1. Save and close.
 
-  :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
+  :::image type="content" source="../media/preferred-agents-mapped-view.png" alt-text="Screenshot of the Preferred agent routing settings page, showing contacts and their preferred agents.":::
 
 ## How routing to preferred agent works
 

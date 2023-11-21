@@ -25,7 +25,7 @@ Knowledge management plays a vital role in delivering world-class customer care.
 * With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, agents can resolve issues faster, reducing their average call handling time.
 * Customers can use knowledge management search capabilities across channels to solve issues themselves, reducing support tickets and driving customer satisfaction.
 
-    :::image type="content" source="media/km-benefits.png" alt-text="Diagram that illustrates the benefits of knowledge management":::
+    :::image type="content" source="../media/km-benefits.png" alt-text="Diagram that illustrates the benefits of knowledge management":::
 
 ## Features of knowledge management
 
@@ -46,7 +46,7 @@ As a knowledge author, you can:
   - Create a translation for a knowledge article record in multiple languages. More information: [Create a knowledge article translation](../administer/work-knowledge-articles.md#create-a-knowledge-article-translation)
   - Publish articles as soon as they're approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Publish knowledge articles](publish-ka.md#publish-knowledge-articles)
   
-    :::image type="content" source="media/create- knowledge.png" alt-text="Create and manage knowledge articles life cycle":::
+    :::image type="content" source="../media/create- knowledge.png" alt-text="Create and manage knowledge articles life cycle":::
 
 ### Create and manage categories for your knowledge articles
 As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](../administer/create-manage-categories.md#create-and-manage-categories).
@@ -82,7 +82,7 @@ As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
   - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information: [Manage Knowledge analytics](../administer/enable-knowledge-search-insights.md#manage-knowledge-analytics)
 
-    :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
+    :::image type="content" source="../media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   
 As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
   

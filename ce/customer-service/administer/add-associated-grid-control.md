@@ -15,7 +15,7 @@ The **Associated Grid Control** component helps you display details related to a
 
 The following screenshot is an example of how you can display knowledge articles, similar, merged, and child cases related to a case using **Associated Grid Control** :
 
-   :::image type="content" source="media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="media/associated-grid-control-img.png":::
+   :::image type="content" source="../media/associated-grid-control-img-mini.png" alt-text="Image of card during runtime" lightbox="../media/associated-grid-control-img.png":::
 
 ## Add the component and configure the subgrid
 
@@ -33,7 +33,7 @@ The following screenshot is an example of how you can display knowledge articles
 1. To configure subgrids 2 to 4, specify the values for **Table**, **Default View**, **Customizer control**, and **Customizer control** for the corresponding subgrids in the **Edit Associated Grid Control** pane.
 1. You'll also have to specify the table relationship in [**Relationship Name**](#configure-related-records-for-multiple-subgrids) to display the related records in **Subgrid 2** to **Subrgid 4**. 
 
-    :::image type="content" source="media/assoc-case-grid-mini.png" alt-text="associated grid control" lightbox="media/assoc-case-grid.png":::
+    :::image type="content" source="../media/assoc-case-grid-mini.png" alt-text="associated grid control" lightbox="../media/assoc-case-grid.png":::
 
      
 ## Configure related records for multiple subgrids
@@ -66,7 +66,7 @@ Perform the following steps:
 1. Optionally, select **New app value** for the app. For a specified app, the tab set at the application level overrides the environment level setting.
 1. Select **Publish All Customizations**.
 
-   :::image type="content" source="media/edit-grid-type-assoc-mini.png" alt-text="Add an alternate grid control" lightbox="media/edit-grid-type-assoc.png":::
+   :::image type="content" source="../media/edit-grid-type-assoc-mini.png" alt-text="Add an alternate grid control" lightbox="../media/edit-grid-type-assoc.png":::
 
 ## See also
 

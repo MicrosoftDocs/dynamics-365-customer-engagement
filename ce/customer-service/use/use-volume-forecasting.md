@@ -69,7 +69,7 @@ You can view the forecast reports in the Customer Service workspace or Omnichann
 - In the default view, select the plus (**+**) icon, and then select **Forecast (preview)**.
 - If the enhanced multisession workspace view is enabled, select **Forecast (preview)** on the site map.
 
-   :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
+   :::image type="content" source="../media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
 ### Switch report mode
 
@@ -101,7 +101,7 @@ The forecasting section on each tab of the report displays a visual trend from h
 
 The **Confidence level** for the forecasted data is displayed on the right-hand side in blue, indicating the level of confidence in the predicted volume. The narrowest part of the blue area indicates higher confidence. You can hover on the report to display the forecast based on data for specific dates.
 
-:::image type="content" source="media/case-forecast-actuals.png" alt-text="View of confidence level in Forecast report.":::
+:::image type="content" source="../media/case-forecast-actuals.png" alt-text="View of confidence level in Forecast report.":::
 
 Hover on the future side (dash line) of the report to show a range that includes an upper- and lower-bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
 
@@ -121,7 +121,7 @@ You can filter the data by selecting from the following options:
 
 You can drill into the report data table by using the up or down arrows at the top-right side of the number grid to display data by day, week, month, or year for **Daily**, and by minute, hour, day, week, month, or year for **Intraday**.
 
-:::image type="content" source="media/volume-forecasting-drill-month.png" alt-text="View of the Forecast report data filters.":::
+:::image type="content" source="../media/volume-forecasting-drill-month.png" alt-text="View of the Forecast report data filters.":::
 
 You can drill down the hierarchy by selecting the drill down hierarchy button. Each time you select the drill down button, the data will drill down one level in the hierarchy. To drill up to the previous level, select the drill up button.
 
@@ -147,7 +147,7 @@ The Agents for conversations report allows you to select the rollup method that 
 
 You can export the report data by selecting **Export** on the command bar.
 
-:::image type="content" source="media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
+:::image type="content" source="../media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
 
 ### See also
 

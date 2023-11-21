@@ -63,7 +63,7 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 1. If you're installing the voice channel only, select **More commands** for **Omnichannel for Customer Service - Telephony**.
 
-    :::image type="content" source="media/oc-telephony-only.png" alt-text="Select Omnichannel for Customer Service - Telephony if you're installing voice only.":::
+    :::image type="content" source="../media/oc-telephony-only.png" alt-text="Select Omnichannel for Customer Service - Telephony if you're installing voice only.":::
 
 1. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 

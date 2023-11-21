@@ -64,7 +64,7 @@ You can configure the negative countdown property for the SLA timer so that the 
 
 1. After you add the SLA Timer control, set the **Turn on negative countdown** property as **Yes**.
 
-   :::image type="content" source="media/sla-negative-countdown.png" alt-text="Configure negative countdown in SLA timer.":::
+   :::image type="content" source="../media/sla-negative-countdown.png" alt-text="Configure negative countdown in SLA timer.":::
 
 2. Save and publish the solution.
 
@@ -74,11 +74,11 @@ After you've added the SLA timer control for a SLA-enabled entity, you can custo
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 
-   :::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
+   :::image type="content" source="../media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
 
 1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
 
-    :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
+    :::image type="content" source="../media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
    - The language code value must be of the following format:
 
      `(language code1)=(KPI instance status value):(KPI instance custom label)`<br>For example, 1033=1:Custom Noncompliant

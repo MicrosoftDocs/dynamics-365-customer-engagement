@@ -35,7 +35,7 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to applicable s
 
 1. Enter a name for the bookmark, and then save it.
 
-    :::image type="content" source="media/manage-bookmarks.png" alt-text="Screenshot of creating a report bookmark to save personalized filters." lightbox="media/manage-bookmarks.png":::
+    :::image type="content" source="../media/manage-bookmarks.png" alt-text="Screenshot of creating a report bookmark to save personalized filters." lightbox="../media/manage-bookmarks.png":::
 
 ## Manage bookmarks
 

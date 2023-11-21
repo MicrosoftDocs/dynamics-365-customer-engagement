@@ -58,11 +58,11 @@ As an agent, when you open Customer Service workspace or Omnichannel for Custome
 
 The following image shows the inbox conversation view:
 
-:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+:::image type="content" source="../media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
 
 The following image shows the inbox case view:
 
-:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+:::image type="content" source="../media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
 
 For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
 

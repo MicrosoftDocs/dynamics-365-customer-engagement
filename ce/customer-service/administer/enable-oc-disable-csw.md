@@ -40,7 +40,7 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 1. On the **Manage Roles - Customer Service workspace** right-side pane, deselect the roles you don't want the Customer Service workspace app to be visible to.
 
-   :::image type="content" source="media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Custmoer Service app from roles":::
+   :::image type="content" source="../media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Custmoer Service app from roles":::
 
 1. Select **Save**.
 

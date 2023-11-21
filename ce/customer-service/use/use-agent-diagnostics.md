@@ -41,7 +41,7 @@ The rules that you can run in the agent app are specific to your permissions.
 1. After the presence loads, select **Ctrl**+**Shift**+**F12**. Optionally, you might need to select the **fn** key. The **Diagnostic center (preview)** page displays a list of tests.
 1. Select one or more rules, and then select **Run diagnosis**. The rule results are displayed in the **Diagnostic result** column.
 
-   :::image type="content" source="media/screenshot-of-agent-diagnostics.png" alt-text="Screenshot of agent diagnostics rules with results.":::
+   :::image type="content" source="../media/screenshot-of-agent-diagnostics.png" alt-text="Screenshot of agent diagnostics rules with results.":::
 
 1. If you see a result as **Issue found**, select its link. The **Diagnostic Report** pane displays the issue details.
 1. Select **Download Report**. The report details are available in a text file that you can share with the administrator.

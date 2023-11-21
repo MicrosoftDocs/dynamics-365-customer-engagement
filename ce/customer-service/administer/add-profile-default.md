@@ -75,7 +75,7 @@ Select the required agent experience profile and then select **Remove rank and r
 
 The application lets you set a default agent experience profile and assign security roles to a profile. However, if a profile is assigned a security role, the default agent experience profile isn't applicable to the users with the specific security role.
 
-:::image type="content" source="media/agent-exp-profiles-mini.png" alt-text="agent experience profiles" lightbox="media/agent-exp-profiles.png":::
+:::image type="content" source="../media/agent-exp-profiles-mini.png" alt-text="agent experience profiles" lightbox="../media/agent-exp-profiles.png":::
 
 For example, you've set up your agent experience profiles and mapped users as summarized in the table:
 

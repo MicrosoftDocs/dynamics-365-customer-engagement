@@ -25,13 +25,13 @@ To use suggested contacts, your administrator must enable the feature. For the c
 
 1. Open the collaboration pane, and then select **New connected chat**.
    
-   :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New connected chat option in Teams.":::
+   :::image type="content" source="../media/teams-new-linked-chat.png" alt-text="New connected chat option in Teams.":::
 
 2. A dropdown list of suggested contacts is automatically displayed in the **Participants** section. The list has two sections: Suggested contacts who've resolved similar cases, and contacts that are related to the record. Note the following details about the suggestions that are displayed:
   - The rules-based suggestions will show only contacts that have been enabled by your administrator. Additionally, the list is displayed in the order defined by your administrator.
   - A maximum of three suggestions per section are displayed. If you want to see more, select **View more**.
 
-   :::image type="content" source="media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
+   :::image type="content" source="../media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
    
 
 ### See also

@@ -20,7 +20,7 @@ You can view the voicemails in one of the following ways:
 - On the **Omnichannel Agent Dashboard**, in **Open work items**, select the vertical ellipses for your number, and then select **Assign to me**.
 - If an inbox is configured for you, you can view the assigned and unassigned voicemails. Go to your inbox, and select **Assigned voicemails**, and then select the voicemail that you want to hear. If you access an unassigned voicemail and then close it, you won't be able to access it again.
 
-:::image type="content" source="media/open-voicemail.png" alt-text="View and listen to voicemails":::
+:::image type="content" source="../media/open-voicemail.png" alt-text="View and listen to voicemails":::
 
 You can do the following tasks for the voicemail that you open:
 

@@ -22,7 +22,7 @@ The AI-suggested contacts in Microsoft Teams functionality is applicable for cas
 
 For a case or a support conversation, **Teams chat** appears in the app side pane on the right. 
 
-:::image type="content" source="media/teams-new-linked-chat.png" alt-text="New connected chat option in Teams.":::
+:::image type="content" source="../media/teams-new-linked-chat.png" alt-text="New connected chat option in Teams.":::
 
 You can do the following:
 
@@ -31,7 +31,7 @@ You can do the following:
    - A dropdown list of suggested contacts who have worked on similar and related cases. AI and rules-based suggested contacts are listed if admins have enabled both of these options.
    - If the AI-suggested contacts functionality is enabled, a **Resolved similar cases** section is displayed in the dropdown list.
    
-        :::image type="content" source="media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
+        :::image type="content" source="../media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
         
         > - If no similar cases exist, a message is displayed that no suggested contacts can be found.
         > - If the administrator hasn't enabled **Join chat** feature, a message is displayed that only chat participants can see this conversation. More information: [Configure the ability for users to join chats](../administer/configure-teams-chat.md#configure-the-ability-for-users-to-join-chats)
@@ -50,7 +50,7 @@ You can do the following:
    
    - Agents can hover over the confidence score to view the details.
    
-        :::image type="content" source="media/confidence-score-with-explanation.png" alt-text="Explanation of the confidence score of similar cases.":::
+        :::image type="content" source="../media/confidence-score-with-explanation.png" alt-text="Explanation of the confidence score of similar cases.":::
    
    - The default AI-suggested contacts list shows the top three suggestions. If more contacts are suggested, agents can select **View more** in the dropdown list.
    

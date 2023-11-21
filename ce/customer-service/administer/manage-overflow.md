@@ -113,7 +113,7 @@ In the Customer Service admin center app, do the following steps:
         > [!NOTE]
         > The average wait time is calculated for a queue by taking the average of the wait times for the previous 48 hours and a minimum of 50 conversations in the queue. <br>For example, if a customer calls on a Thursday at 5:00 PM, the wait time is calculated by taking the average wait time of all the calls from 5:00 PM, Tuesday that denotes the previous 48 hours, provided 50 or more calls are in queue. If the number of calls is less than 50, the "Average wait time" overflow condition isn't evaluated because it doesn't meet the criteria to calculate the wait time.
 
-        :::image type="content" source="media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
+        :::image type="content" source="../media/overflow-condition-action.png" alt-text="A screenshot of the condition and action pairs configured for the queue.":::
 
 ## Configure rule-specific overflows
 
@@ -123,7 +123,7 @@ Sometimes, you might not want an overflow action to run for specific types of wo
 
 1. In the **Route to queues** area, select the **More commands** ellipses next to **Add queue**.
 
-   :::image type="content" source="media/queue-overflow-override.png" alt-text="Configure override conditions for queues in the route-to-queue rule.":::
+   :::image type="content" source="../media/queue-overflow-override.png" alt-text="Configure override conditions for queues in the route-to-queue rule.":::
 
 1. Select **Handle rule-specific overflows**.
 
@@ -133,7 +133,7 @@ Sometimes, you might not want an overflow action to run for specific types of wo
 
 Whenever a work item is handled by the overflow action instead of being assigned to an agent, you can view its status in the **Route to queue** stage of the diagnostic page.
 
-:::image type="content" source="media/overflow-diagnostics.png" alt-text="View the diagnostic status of the overflow action triggered for the work item.":::
+:::image type="content" source="../media/overflow-diagnostics.png" alt-text="View the diagnostic status of the overflow action triggered for the work item.":::
 
 ### Edit automated messages for end call overflow action
 

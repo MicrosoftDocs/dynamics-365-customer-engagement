@@ -17,7 +17,7 @@ Use the **Customer 360** and **Recent records** components to display the custom
 
 After you add the **Customer 360** control to a case form, when an agent selects a customer in the Customer field, the customer details are displayed as follows:
  
- :::image type="content" source="media/customer360-control.png" alt-text="sample image of the customized card" lightbox="media/customer360-control.png":::
+ :::image type="content" source="../media/customer360-control.png" alt-text="sample image of the customized card" lightbox="../media/customer360-control.png":::
 
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
@@ -45,12 +45,12 @@ You can add the **Customer 360** card to a custom form in Customer Service works
 
     - If you'd like to add advanced configuration for the rich text editor control, specify the **Custom Rich Text Editor Configuration URL**. More information: [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)
     
-      :::image type="content" source="media/powerapps-360-static-mini.png" alt-text="Static value and header" lightbox="media/powerapps-360-static-mini.png":::
+      :::image type="content" source="../media/powerapps-360-static-mini.png" alt-text="Static value and header" lightbox="../media/powerapps-360-static-mini.png":::
       
     - Save and publish the form.
 1. Repeat steps 3 to 6 for the **Contact** table.
 
-   :::image type="content" source="media/powerapps-customer360.png" alt-text="Customer details" lightbox="media/powerapps-customer360.png":::
+   :::image type="content" source="../media/powerapps-customer360.png" alt-text="Customer details" lightbox="../media/powerapps-customer360.png":::
 
 ### Step 2: Add the Customer or Account form with the Customer 360 component to the Case form
 
@@ -95,12 +95,12 @@ If agents should see the customer details in an app side pane when they open an 
     - Select the **Default view** and **Default chart**. The views and charts available in the table are displayed.
     - Specify the maximum number of rows the card must display when it loads. The default number of rows displayed is four.
 
-     :::image type="content" source="media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="media/powerapps-recent-records.png":::
+     :::image type="content" source="../media/powerapps-recent-records.png" alt-text="Default minimal resolve case" lightbox="../media/powerapps-recent-records.png":::
 1. Save and publish the changes.
  
  The Recent records control displays the related records as follows, if you select **Case** in the **Table** field.
 
-   :::image type="content" source="media/recent-record-control.png" alt-text="sample image of the recent cases card":::
+   :::image type="content" source="../media/recent-record-control.png" alt-text="sample image of the recent cases card":::
 
 ### See also
 

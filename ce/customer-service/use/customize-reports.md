@@ -35,17 +35,17 @@ To edit analytics reports, users must have the **Analytics Report Author** role.
 
 1. Select **Edit report** to open the embedded Power BI editor.
 
-    :::image type="content" source="media/visual-edit-report.png" alt-text="Screenshot of the Omnichannel real-time analytics report page, with Edit report highlighted.":::
+    :::image type="content" source="../media/visual-edit-report.png" alt-text="Screenshot of the Omnichannel real-time analytics report page, with Edit report highlighted.":::
 
 1. Use the following panes to customize the report:
 
    - **Visualizations**: Select the visualizations you want in your report. You can delete a currently displayed visualization and add the one you prefer. For example, you can show **Incoming conversations over time** as a table instead of the default bar chart.
 
-      :::image type="content" source="media/visual-incoming-conversations.png" alt-text="Screenshot of adding a table visualization to a report in the embedded Power BI editor.":::
+      :::image type="content" source="../media/visual-incoming-conversations.png" alt-text="Screenshot of adding a table visualization to a report in the embedded Power BI editor.":::
 
    - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
 
-      :::image type="content" source="media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
+      :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 

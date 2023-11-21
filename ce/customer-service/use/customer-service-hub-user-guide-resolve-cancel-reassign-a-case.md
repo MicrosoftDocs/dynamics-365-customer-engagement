@@ -34,7 +34,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
   - A link with the number of open activities. You can select the link to view the open activities associated with the case on a tab your administrator has configured. More information: [Enable the redirection link for Customer Service apps](../administer/add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)
   - **Confirm**: If you select **Confirm** on the warning, the system automatically cancels the open activities when the case is resolved.
   
-      :::image type="content" source="media/resolve-case-after.png" alt-text="Open activity warning" lightbox="media/resolve-case.png":::
+      :::image type="content" source="../media/resolve-case-after.png" alt-text="Open activity warning" lightbox="../media/resolve-case.png":::
   
 3. Depending on the settings enabled for you, you'll see the minimal case resolution dialog or legacy case resolution dialog that are explained as follows:
 
@@ -42,7 +42,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
  By default, you will see the **Resolution Type** and **Resolution** fields only on the **Resolve Case** dialog.
 
-  :::image type="content" source="media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="media/minimal-resolve-case.png"::: 
+  :::image type="content" source="../media/minimal-resolve-case-after.png" alt-text="Default minimal resolve case" lightbox="../media/minimal-resolve-case.png"::: 
 
  ### [Legacy case resolution dialog](#tab/lagacycaseresolutiondialog)
     
@@ -52,7 +52,7 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
    - **Billable Time**: The amount of time spent on the case to be billed to the customer. Your billable time is automatically populated only if the **Total Time** field is displayed on the **Resolve Case** dialog. Else, you'll have to manually add your billable time.
    - If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.
          
-   :::image type="content" source="media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
+   :::image type="content" source="../media/resolve-case-legacy.png" alt-text="Legacy resolve case" :::
 
    ---
 6.  Select **Resolve**.

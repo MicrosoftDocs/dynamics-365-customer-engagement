@@ -81,7 +81,7 @@ The AI suggestions feature is supported in the following languages:
 
     It takes 24 hours for the data to be preprocessed for the first time use.
 
-    :::image type="content" source="media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI-suggested contacts.":::
+    :::image type="content" source="../media/enable-ai-suggested-contacts.png" alt-text="Enable the settings for AI-suggested contacts.":::
 
 1. Optionally, set the toggle for **Turn on Enhanced Microsoft Teams Integration** to **Yes**. This setting lets agents pin records and views to a Teams channel directly from Dynamics 365 and also suggests agents who worked on similar cases.
 

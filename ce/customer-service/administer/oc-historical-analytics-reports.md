@@ -90,11 +90,11 @@ In Customer Service admin center, you can enable the historical analytics for bo
 
 - If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio bot.
 
- :::image type="content" source="media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
+ :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
 - If no Copilot Studio bots are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
 
- :::image type="content" source="media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
+ :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
 **Enable historical analytics for bots in Omnichannel for Customer Service**
 

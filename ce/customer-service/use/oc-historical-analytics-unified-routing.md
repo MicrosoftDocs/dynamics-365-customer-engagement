@@ -22,7 +22,7 @@ The Unified routing report provides routing-specific KPIs and metrics that can b
 
 The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center.
 
-:::image type="content" source="media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
+:::image type="content" source="../media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 
 The report can be filtered on the following:
 
@@ -49,7 +49,7 @@ The unified routing report displays the following metrics for the selected filte
 
 On the **Unified routing** report page, in the **Routing metrics by queue** table, select a queue, and then select **Details** to view the detailed KPIs for it. You can view data on incoming conversations, incoming sessions, and session transfer rate for the queue.
 
-:::image type="content" source="media/ur-oc-hist-drill-down-view.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
+:::image type="content" source="../media/ur-oc-hist-drill-down-view.png" alt-text="Routing metrics by queue in unified routing for Omnichannel for Customer Service.":::
 
 The queue drill-down view displays the following KPIs.
 
@@ -62,7 +62,7 @@ The queue drill-down view displays the following KPIs.
 
 On the **Unified routing** report page, the **Routing metrics by date** table displays the day wise data for the KPIs for the selected period in the **Duration** filter.
 
-:::image type="content" source="media/oc-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Omnichannel for Customer Service.":::
+:::image type="content" source="../media/oc-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Omnichannel for Customer Service.":::
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 

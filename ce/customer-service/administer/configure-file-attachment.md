@@ -35,7 +35,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
     - **Customers can send file attachments**: Allows your customers to send a file to the customer service agent during a conversation.
     - **Agents can send file attachments**: Allows your customer service agents to send a file to a customer during a conversation.
 
-    :::image type="content" source="media/file-attachment.png" alt-text="Enable file attachment settings.":::
+    :::image type="content" source="../media/file-attachment.png" alt-text="Enable file attachment settings.":::
 
 ## Set size limit, supported file types for file attachments
 
@@ -47,7 +47,7 @@ You can define the file size limit for attachments and unsupported file types in
 
 3. In the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
 
-    :::image type="content" source="media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
+    :::image type="content" source="../media/file-size-limit.png" alt-text="Set file size limit for attachment.":::
 
    > [!NOTE]
    > By default, the size is set to 5 MB. You can specify up to 128 MB for all attachments. However, the maximum size for image files in live chat can be 20 MB only.

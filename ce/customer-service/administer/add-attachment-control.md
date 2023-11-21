@@ -22,11 +22,11 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
 
 - When agents create a new case, and before the case is saved, they can upload attachments to the case. 
     
-   :::image type="content" source="media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="media/enh-case-attach.png":::
+   :::image type="content" source="../media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="../media/enh-case-attach.png":::
 
 - After agents save a new case or if they open an existing case, the attachments grid is displayed. For more information on the actions agents can perform, see: [View an existing case using enhanced Full case form](enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
-   :::image type="content" source="media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="media/case-enh-save.png":::
+   :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 
 If agents need to upload attachments, follow the steps in [Create or edit a security role to manage access](/power-platform/admin/security-roles-privileges#security-roles-and-the-new-modern-ui-preview) to
 grant permissions on the **Entity attachment** custom table to the applicable security role that's assigned to the agent. 
@@ -37,11 +37,11 @@ When you add the **Attachment Control** component to other entity forms such as 
 
 - Agents can only view attachments for an entity record that's saved. When agents create a new entity record, before they save the record, attachments aren't displayed. The application displays the following message when agents create a new entity record, and haven't saved the record.
     
-   :::image type="content" source="media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="media/new-entity-create.png":::
+   :::image type="content" source="../media/new-entity-create-mini.png" alt-text=" create record for an entity form" lightbox="../media/new-entity-create.png":::
 
  - After agents save a new record or open an existing record, the attachments grid is displayed as follows:
 
-   :::image type="content" source="media/entity-rec-save.png" alt-text=" edit record for an entity form" lightbox="media/entity-rec-save-mini.png":::
+   :::image type="content" source="../media/entity-rec-save.png" alt-text=" edit record for an entity form" lightbox="../media/entity-rec-save-mini.png":::
 
 ## Customize forms with Attachment Control
 

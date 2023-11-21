@@ -31,7 +31,7 @@ To enable the enhanced case forms, follow these steps:
       1. Select the option in the **Choose Form** dropdown. The selected main form appears as the side pane when the agent creates a new case. By default, this is set to **Enhanced quick case form**. 
       1. Select **Configure** to [customize the form in Power Apps](/power-apps/maker/model-driven-apps/create-and-edit-forms). The Power Apps form page opens on a new tab.
 
-   :::image type="content" source="media/settings-enh-case-channel.png" alt-text="Default main case form" lightbox="media/settings-enh-case-channel.png":::
+   :::image type="content" source="../media/settings-enh-case-channel.png" alt-text="Default main case form" lightbox="../media/settings-enh-case-channel.png":::
 
 > [!NOTE]
 > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
@@ -41,7 +41,7 @@ To enable the enhanced case forms, follow these steps:
 
 The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
 
- :::image type="content" source="media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="media/runtime-exp.png":::
+ :::image type="content" source="../media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="../media/runtime-exp.png":::
 
 Legend:
 

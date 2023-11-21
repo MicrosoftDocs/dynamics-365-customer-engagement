@@ -59,7 +59,7 @@ The attributes that you want to add must be configured in the system. You can up
 
 The users and their updated attributes will be displayed in the **Contact center users** view.
 
-:::image type="content" source="media/enhanced-user-management.png" alt-text="View of the contact center users managed through the enhanced user management experience.":::
+:::image type="content" source="../media/enhanced-user-management.png" alt-text="View of the contact center users managed through the enhanced user management experience.":::
 
 ## Manage users using the classic experience
 

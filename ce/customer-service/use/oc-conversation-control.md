@@ -56,7 +56,7 @@ Use the following options to use quick replies in your conversation:
 
 - Select **View all**. The quick replies are displayed in the right pane. You can select a quick reply in the list to send to the customer. You can also choose a language of your choice and search for the quick replies.
 
-   :::image type="content" source="media/view-all-quick-replies.png" alt-text="Vew all quick replies option that lets you see quick replies in the right pane.":::
+   :::image type="content" source="../media/view-all-quick-replies.png" alt-text="Vew all quick replies option that lets you see quick replies in the right pane.":::
 
 The quick replies can be created either by the administrator or by you. You can create personal quick replies if the administrator has enabled the option. The quick replies you created are available on the **Personal** tab of the **Quick replies** panel, and those created by the administrator are available on the **All** tab. Use the personal quick replies when you're in a conversation with a customer by doing the following:
 
@@ -99,15 +99,15 @@ The following events occur when you select the **Consult** button:
 
 1. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
  
-   :::image type="content" source="media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
+   :::image type="content" source="../media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
 
 1. The secondary agent sees a consultation window on the page with an option to leave. They'll also have a read-only view of the messages exchanged between the primary agent and customer.
    
-   :::image type="content" source="media/consultee-agent-view.png" alt-text="View of consult pane for the agent.":::
+   :::image type="content" source="../media/consultee-agent-view.png" alt-text="View of consult pane for the agent.":::
 
 2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
-   :::image type="content" source="media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
+   :::image type="content" source="../media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
 Additionally, the following considerations apply:
 

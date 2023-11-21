@@ -36,12 +36,12 @@ The statuses and their corresponding symbols are as follows.
 
 | Symbol | Status |
 |------|----------|
-| :::image type="icon" source="media/slakpi-in-progress.ico"::: | In progress |
-|:::image type="icon" source="media/slakpi-noncompliant.ico":::| Noncompliant |
-|:::image type="icon" source="media/slakpi-nearing-noncompliance.ico":::| Nearing noncompliance |
-|:::image type="icon" source="media/slakpi-paused.ico":::| Paused |
-| :::image type="icon" source="media/slakpi-succeeded.ico":::| Succeeded |
-| :::image type="icon" source="media/slakpi-canceled.ico":::| Canceled |
+| :::image type="icon" source="../media/slakpi-in-progress.ico"::: | In progress |
+|:::image type="icon" source="../media/slakpi-noncompliant.ico":::| Noncompliant |
+|:::image type="icon" source="../media/slakpi-nearing-noncompliance.ico":::| Nearing noncompliance |
+|:::image type="icon" source="../media/slakpi-paused.ico":::| Paused |
+| :::image type="icon" source="../media/slakpi-succeeded.ico":::| Succeeded |
+| :::image type="icon" source="../media/slakpi-canceled.ico":::| Canceled |
 |||
 
 A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed aren't in any particular order.
@@ -50,7 +50,7 @@ A sample runtime view of the SLA Timer is as follows. The SLA KPIs displayed are
 
 For SLAs that are in the expired status, your administrator can configure the SLA Timer to display the elapsed time. The timer displays the countdown using a negative value in the red color. Only those SLA Timers that have been configured to show the negative time displays the negative countdown time. More information: [Enable elapsed time for SLA Timers in expired status](../administer/add-timer-control-case-form-track-time-against-sla.md#enable-elapsed-time-for-sla-timers-in-expired-status)
 
-:::image type="content" source="media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
+:::image type="content" source="../media/sla-negative-countdown-timer.png" alt-text="Display negative countdown for SLAs in expired or terminal status.":::
 
 ## Know the status of an SLA KPI Instance record
 
@@ -98,7 +98,7 @@ You can view the active duration and elapsed time on the **SLA** tab of the cust
 
 Both **Active Duration (min)** and **Elapsed Time (min)** are calculated based on the current value of the business hours and calendars, similar to warning and failure time calculation. So, changing the calendar working hours might affect the calculation.
 
-:::image type="content" source="media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
+:::image type="content" source="../media/active-elapsed-time.png" alt-text="View Active and Elapsed Time duration":::
 
 > [!NOTE]
 > The **Active Duration (min)** and **Elapsed Time (min)** data aren't applicable for legacy SLAs.

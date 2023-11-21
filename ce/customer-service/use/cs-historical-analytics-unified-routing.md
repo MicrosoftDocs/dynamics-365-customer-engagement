@@ -25,7 +25,7 @@ The report appears as a tab in the Customer Service historical analytics report 
 [!INCLUDE[cc-navigation-cs](../../includes/cc-navigation-cs.md)]
 
 
-:::image type="content" source="media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
+:::image type="content" source="../media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
 The report can be filtered on the following:
 
@@ -53,13 +53,13 @@ On the **Unified routing** report page, in **Routing metrics by queue**, select 
 
 The **Incoming sessions transferred by queue** metric displays the incoming sessions that were transferred from the selected queue to other queues.
 
-:::image type="content" source="media/ur-cs-hist-queue-drill-down-view.png" alt-text="Queue drill-down view for unified routing historical analytics.":::
+:::image type="content" source="../media/ur-cs-hist-queue-drill-down-view.png" alt-text="Queue drill-down view for unified routing historical analytics.":::
 
 ### Hourly drill-down view
 
 On the **Unified routing** report page, the **Routing metrics by date** table displays the day wise data for the KPIs and the selected period in the **Duration** filter.
 
-:::image type="content" source="media/cs-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Customer Service.":::
+:::image type="content" source="../media/cs-routing-metrics-date.png" alt-text="Routing metrics by date in unified routing for Customer Service.":::
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 

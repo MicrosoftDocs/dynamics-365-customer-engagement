@@ -48,7 +48,7 @@ The following table summarizes the pricing for each scenario. The prices in the 
 
 Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
 
-:::image type="content" source="media/Customer-call-escalated-human-agent-IVR.png" alt-text="Inbound call from customer through Teams":::
+:::image type="content" source="../media/Customer-call-escalated-human-agent-IVR.png" alt-text="Inbound call from customer through Teams":::
 
 Cost calculation:
 
@@ -64,7 +64,7 @@ Cost calculation:
 
 Mae calls your Azure Communication Services US toll-free number from Microsoft Teams. The call is routed to Matias and lasts 20 minutes.
 
-:::image type="content" source="media/customer-calls-from-teams.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams.":::
+:::image type="content" source="../media/customer-calls-from-teams.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams.":::
 
 Cost calculation:
 
@@ -78,7 +78,7 @@ Cost calculation:
 
 Mae calls your Azure Communication Services US toll-free number from Teams. The call is routed to Matias, who starts recording it. Gaby, Matias's supervisor, joins to monitor the conversation. The call lasts 10 minutes. The recording stops when the call ends.
 
-:::image type="content" source="media/Customer-calls-Teams-supervisor-joins.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams with a supervisor monitoring.":::
+:::image type="content" source="../media/Customer-calls-Teams-supervisor-joins.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams with a supervisor monitoring.":::
 
 Cost calculation:
 
@@ -95,7 +95,7 @@ Cost calculation:
 
 Mae calls your Azure Communication Services US toll-free number from Teams. The call is routed to Matias, who starts recording it. Matias invites supervisor Gaby to join in to consult. The call lasts 20 minutes. The recording stops when the call ends.
 
-:::image type="content" source="media/customer-calls-supervisor-consults.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams with a supervisor participating.":::
+:::image type="content" source="../media/customer-calls-supervisor-consults.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams with a supervisor participating.":::
 
 Cost calculation:
 
@@ -111,7 +111,7 @@ Cost calculation:
 
 Mae calls your Azure Communication Services US toll-free number from Microsoft Teams. The call is routed to Matias, who starts recording it. Matias talks to Mae for five minutes and then transfers the call to a product expert, Cole, on Cole's Teams PSTN number. Cole speaks to Mae for another five minutes and ends the call. The recording stops when the call ends.
 
-:::image type="content" source="media/customer-calls-through-pstn.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams, routed to another agent through Teams.":::
+:::image type="content" source="../media/customer-calls-through-pstn.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams, routed to another agent through Teams.":::
 
 Cost calculation:
 
@@ -129,7 +129,7 @@ Cost calculation:
 
 Matias, the contact center agent, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
 
-:::image type="content" source="media/agent-calls-customer.png" alt-text="Diagram illustrating an outbound agent call to a customer.":::
+:::image type="content" source="../media/agent-calls-customer.png" alt-text="Diagram illustrating an outbound agent call to a customer.":::
 
 Cost calculation:
 
@@ -147,7 +147,7 @@ Mae calls your [Azure direct routing](/azure/communication-services/concepts/tel
 - The call goes to a Session Border Controller (SBC) connected through Azure Communication Services direct routing.
 - An Omnichannel for Customer Service bot adds Matias to the call by escalating the direct routing call to a group call.
 
-:::image type="content" source="media/direct-routing-outbound.png" alt-text="Diagram illustrating an Azure direct routing inbound call from a customer.":::
+:::image type="content" source="../media/direct-routing-outbound.png" alt-text="Diagram illustrating an Azure direct routing inbound call from a customer.":::
 
 Cost calculation
 
@@ -167,7 +167,7 @@ Matias makes an outbound call from Omnichannel for Customer Service to Mae throu
 - The call goes to an SBC connected through Azure Communication Services direct routing.
 - The bot in Omnichannel for Customer Service adds Mae to a call by escalating the direct routing call to a group call.
 
-:::image type="content" source="media/direct-routing-inbound.png" alt-text="Diagram illustrating an Azure direct routing outbound call to a customer.":::
+:::image type="content" source="../media/direct-routing-inbound.png" alt-text="Diagram illustrating an Azure direct routing outbound call to a customer.":::
 
 Cost calculation:
 

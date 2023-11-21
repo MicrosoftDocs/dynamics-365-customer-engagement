@@ -67,7 +67,7 @@ You can enable the reconnection options in the chat widget either while setting 
 
 1. Select **Save and Close**.
      
-   :::image type="content" source="media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
+   :::image type="content" source="../media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
     
 
 ### See also

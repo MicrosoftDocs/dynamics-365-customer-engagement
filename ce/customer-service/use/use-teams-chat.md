@@ -58,7 +58,7 @@ If you're using Teams for the first time within Customer Service Hub or Customer
 
 1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
-    - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
+    - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
     - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
        > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
@@ -112,7 +112,7 @@ The **Channels** tab lists the channels that either you’ve connected to the se
 
 You can connect relevant Teams channels to a record, so that all the members can easily access the connected channels from the record and follow the conversation. 
 
-1. Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="media/teams-icon.png" border="false"::: icon.<br>
+1. Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
 2. Select the **Channel** tab. The tab lists the channels that are already connected to a record.
 3. Select the **Connect a channel** icon in the upper-right corner of the Teams chats pane.<br>

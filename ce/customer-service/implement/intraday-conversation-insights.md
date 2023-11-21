@@ -134,7 +134,7 @@ In a BI workspace that's custom configured, you can update the thresholds for th
 
     A sample change of threshold is as follows.
 
-    :::image type="content" source="media/modify-thresholds.png" alt-text="Modify threshold value.":::
+    :::image type="content" source="../media/modify-thresholds.png" alt-text="Modify threshold value.":::
 
 5. Save the changes.
 

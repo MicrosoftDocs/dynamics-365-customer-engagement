@@ -23,7 +23,7 @@ Topic clustering is enabled by default when you enable historical analytics. To 
 
 The Summary and Model run summary views provide key information about how the topic model is operating.
 
-:::image type="content" source="media/summary-model-run-conversations.png" alt-text="Summary and Model run summary":::
+:::image type="content" source="../media/summary-model-run-conversations.png" alt-text="Summary and Model run summary":::
 
 | View | Description |
 | -------- | ----------------------- |

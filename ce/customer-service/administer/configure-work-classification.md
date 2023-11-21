@@ -58,7 +58,7 @@ To create a logical work classification ruleset, do the following steps:
 
 5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
 
-   :::image type="content" source="media/create-work-classification-rule.png" alt-text="Create work classification rule with conditions.":::
+   :::image type="content" source="../media/create-work-classification-rule.png" alt-text="Create work classification rule with conditions.":::
 
 6. Repeat steps 3 through 5 to create the demand rules.
 
@@ -98,7 +98,7 @@ Create work classification rulesets that are based on capacity profiles to route
 
 1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
-   :::image type="content" source="media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
+   :::image type="content" source="../media/capacity-profile-based-rule.png" alt-text="Capacity profile-based work classification rule.":::
 
 ## Create machine learning-based skill classification rulesets
 
@@ -141,7 +141,7 @@ You can create rules that are based on the effort estimation model to classify w
 
 After you create the rules, you can change the order in which the rules should be evaluated, search for rules, and view the condition that's been used for each rule by hovering the mouse over the condition. You can also create copies of the rules and update only the necessary information to avoid writing the conditions from scratch. You can hover the mouse over a condition to view it without having to navigate to each condition.
 
-:::image type="content" source="media/work-classification-rules-list.png" alt-text=" Work classification rules list":::
+:::image type="content" source="../media/work-classification-rules-list.png" alt-text=" Work classification rules list":::
 
 ### See also
 

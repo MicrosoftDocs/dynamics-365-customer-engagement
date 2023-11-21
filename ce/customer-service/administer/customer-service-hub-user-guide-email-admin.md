@@ -76,7 +76,7 @@ You can manage file size limits for email file attachments by doing the followin
 
 When an agent selects **New Email** from the Timeline, you can to choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, agents see the following experience:
 
-   :::image type="content" source="media/email-popup-mini.png" alt-text="Enhanced quick case form" lightbox="media/email-popup.png":::
+   :::image type="content" source="../media/email-popup-mini.png" alt-text="Enhanced quick case form" lightbox="../media/email-popup.png":::
 
 Perform the following steps to display the email editor as a pop-up window:
 

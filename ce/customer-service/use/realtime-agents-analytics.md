@@ -29,7 +29,7 @@ You can select the **All** filter to view agent performance across all channels.
 
 [Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime-agent insights.png" alt-text="Screenshot of real-time Agents report.":::
+:::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agents report.":::
 
 ## Interactive charts
 
@@ -50,7 +50,7 @@ You can drill down further through **Conversations** and track how a conversatio
 
 [Learn more about the metrics in the Agent list grid and on the agent details page.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
-:::image type="content" source="media/realtime-agent-detailed-view.png" alt-text="Screenshot of the drill-down to agent details.":::
+:::image type="content" source="../media/realtime-agent-detailed-view.png" alt-text="Screenshot of the drill-down to agent details.":::
 
 ### See also
 

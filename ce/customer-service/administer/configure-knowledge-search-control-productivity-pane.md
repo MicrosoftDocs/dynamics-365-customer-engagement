@@ -76,7 +76,7 @@ To edit an entity record:
     The **Email recipient** option is available only to the Customer or Lookup attribute type, and to the Account or Contact lookup entity.
 8.	Select **Save and Close**.
   
-    :::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
+    :::image type="content" source="../media/edit-ent-record.png" alt-text="edit an existing entity record":::
 
 
 ### See also  

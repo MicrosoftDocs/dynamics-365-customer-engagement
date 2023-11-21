@@ -22,7 +22,7 @@ The integration for Nuance Cloud IVR uses Azure Communication Services to route 
 
 The call is then escalated to an agent through Azure Communication Services using the  Session Initiation Protocol. The SIP header data is used to route the call and display details to the agent such as the IVR transcript and call intent, which are captured during the IVR session.
 
- :::image type="content" source="media/oc-nuance-ref-arch.png" alt-text="Architecture diagram of the integration of Nuance Cloud IVR bot with voice channel.":::
+ :::image type="content" source="../media/oc-nuance-ref-arch.png" alt-text="Architecture diagram of the integration of Nuance Cloud IVR bot with voice channel.":::
 
 ## Next steps
 
