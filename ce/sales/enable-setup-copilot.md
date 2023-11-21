@@ -51,53 +51,54 @@ Select the Copilot features that you want your sales teams to use in each of you
 
     If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.
  
-1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each Sales app:
-
-    - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
-    - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
-
+1. Select **Turn audit on** to enable Copilot to use the audit history to generate recent changes.
 1. Select **Publish**.
 
-The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
+    The Welcome to Copilot pane opens in the right side with a quick tour. 
 
-## Configure record summary fields
+1. Go to **Change area** in the lower-left corner of the page and select **Sales** to verify that the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
 
-By default, Copilot uses the first seven fields in the default lead and opportunity view to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead). To have it generate summaries and catch ups from the fields that are most relevant for your business, create a view. You can create different views for summaries and catch ups.
+## Configure fields for opportunity summary and catch up
 
-1. In the Sales Hub app, [create a system view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view) that contains the fields you want Copilot to use for summaries and catch up.
+By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and catchups. To have it generate summaries and catch ups from the fields that are most relevant for your business, add them to your configuration. You can add different set of fields for summaries and catch ups.
+
 
 1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
-1. In the **Record summary** settings, select a view for each record type.
+1. Select **Opportunities**.
 
-    The first seven fields in the view are listed in the **Fields** column. Copilot [generates summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) from these fields.
+    :::image type="content" source="media/copilot-summary-settings.png" alt-text="Screenshot of the Opportunity settings page for record summarization in Copilot.":::
 
-    :::image type="content" source="media/copilot-record-summary-settings.svg" alt-text="Screenshot of the Record summary settings in Copilot.":::
+1. Select the **Summary** tab to configure fields for generating summaries. Select the **Catchup** tab to configure fields for generating catch ups or recent changes.  
 
+1. Select **Add fields** to add fields from either the Opportunity table or related tables. You can add up to 10 fields.  
+    If you've added more than 10 fields, clear the checkbox for fields that you don't need. If you've selected more than 10 fields, the top 10 fields are used for generating summaries.
 1. Save the changes.
 
-> [!IMPORTANT]
-> If you later update or remove fields in a selected view, you need to force Copilot to recognize your changes. In the **Copilot** settings, select a different view. Save, and then select the updated view. Make sure the updated fields are listed in the **Fields** column, and then save again.
+## Configure fields for lead summary and catch up
 
-## Configure record catch up fields
+By default, Copilot uses a set of predefined fields to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and catchups. To have it generate summaries and catch ups from the fields that are most relevant for your business, add them to your configuration. You can add different set of fields for summaries and catch ups.
 
-Copilot uses the 10 most recent updates in the record's audit history to generate catch ups. You can configure a view with fields that you want to catch up on and have Copilot use it for generating catch up summary. Make sure auditing is turned on, and give your sellers access to view the audit history and audit summary.
 
-1. In the **Copilot** settings, select **Record catch up**.
+1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
-1. Select **Turn audit on**.
+1. Under **General Settings**, select **Copilot**.
 
-1. Select a view for each record type.
+1. Select **Leads**.
 
-    :::image type="content" source="media/copilot-record-catchup-settings.svg" alt-text="Screenshot of the Record catch up settings in Copilot.":::
+    :::image type="content" source="media/copilot-summary-settings.png" alt-text="Screenshot of the Opportunity settings page for record summarization in Copilot.":::
 
+1. Select the **Summary** tab to configure fields for generating summaries. Select the **Catchup** tab to configure fields for generating catch ups or recent changes.  
+
+1. Select **Add fields** to add fields from either the Lead table or related tables. You can add up to 10 fields.  
+    If you've added more than 10 fields, clear the checkbox for fields that you don't need. If you've selected more than 10 fields, the top 10 fields are used for generating summaries.
 1. Save the changes.
 
 ## Grant audit access to your sellers
 
-Copilot generates lead and opportunity catch-up information from the audit history, so your sellers need access to the audit history and audit summary to view catch ups.
+Copilot compiles the list of recent changes for leads and opportunities from the audit history. So, your sellers need access to the audit history and audit summary to view the recent changes.
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com), select your environment > **Settings** > **Users + permissions** > **Security roles**.
 
