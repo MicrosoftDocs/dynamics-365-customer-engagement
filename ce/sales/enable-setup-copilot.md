@@ -55,6 +55,7 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
 
+
 ## Configure record summary fields
 
 By default, Copilot uses the first seven fields in the default lead and opportunity view to [generate summaries](copilot-get-information.md#summarize-a-lead-or-opportunity). To have it generate summaries and catch ups from the fields that are most relevant for your business, create a view. You can create different views for summaries and catch ups.
@@ -67,7 +68,7 @@ By default, Copilot uses the first seven fields in the default lead and opportun
 
 1. In the **Record summary** settings, select a view for each record type.
 
-    The first seven fields in the view are listed in the **Fields** column. Copilot [generates summaries](use-sales-copilot.md#summarize-a-lead-or-opportunity) from these fields.
+    The first seven fields in the view are listed in the **Fields** column. Copilot [generates summaries](copilot-get-information.md#summarize-a-lead-or-opportunity) from these fields.
 
     :::image type="content" source="media/copilot-record-summary-settings.svg" alt-text="Screenshot of the Record summary settings in Copilot.":::
 
