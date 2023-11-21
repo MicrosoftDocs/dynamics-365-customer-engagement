@@ -87,7 +87,7 @@ This action sends the data raised from the client-side event to the hosted contr
 |Parameter|Description|  
 |---------------|-----------------|  
 |event| The client-side events from where you want to raise the data. |
-|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li>  <li> [onpagenavigate event (CIF JavaScript API reference)](../customer-service/channel-integration-framework/reference/events/onpagenavigate.md) </li></ul>|
+|data| The data parameter takes eventData values.<br><br>Pass the data as a string that was received from the event by using replacement parameters. <br>`data = [[data]+]`.<br><br> Supported client-side events are as follows:<br> <ul> <li>[OnClickToAct](unified-interface-page-hosted-control.md#onclicktoact)</li> <li>[SendKbArticleEvent](unified-interface-page-hosted-control.md#onsendkbarticle)</li>  <li> [onpagenavigate event (CIF JavaScript API reference)](../channel-integration-framework/v1/develop/reference/events/onpagenavigate.md) </li></ul>|
 
 ### UpdateCifContext
 

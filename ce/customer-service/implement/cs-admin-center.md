@@ -52,7 +52,7 @@ Also, to create a shared mailbox, you need the Microsoft 365 tenant admin privil
 
 If you use custom roles, you must make sure that you have the appropriate permissions corresponding to the feature you want to configure.
 
-More information: [Assign roles and enable users for Omnichannel for Customer Service](../add-users-assign-roles.md)
+More information: [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
 ## Access the app
 
@@ -123,12 +123,12 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 ### FAQ
 
-See the [FAQ about Customer Service admin center](../faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### See also
 
 [Help resources for Customer Service](../help-hub.md)  
-[Sign up for a free Dynamics 365 Customer Service trial](../try-customer-service.md)  
-[Overview of user management](../overview-users.md)  
-[Manage your bots in Omnichannel for Customer Service](../manage-your-bots.md)  
-[Check your contact center health](../check-contact-center-health.md)  
+[Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
+[Overview of user management](overview-users.md)  
+[Manage your bots in Omnichannel for Customer Service](../administer/manage-your-bots.md)  
+[Check your contact center health](../administer/check-contact-center-health.md)  

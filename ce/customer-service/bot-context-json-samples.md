@@ -127,7 +127,7 @@ This article includes some samples for parsing the activity JSON object in vario
 
 ### See also
 
-[Send custom context](send-context-starting-chat.md)  
-[setContextProvider](developer/reference/methods/setContextProvider.md)  
-[Integrate an Azure bot](configure-bot-azure.md)  
-[Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
+[Send custom context](develop/send-context-starting-chat.md)  
+[setContextProvider](develop/reference/methods/setContextProvider.md)  
+[Integrate an Azure bot](administer/configure-bot-azure.md)  
+[Integrate Copilot Studio bot](administer/configure-bot-virtual-agent.md)  

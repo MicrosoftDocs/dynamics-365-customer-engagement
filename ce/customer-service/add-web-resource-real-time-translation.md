@@ -16,7 +16,7 @@ To add a web resource:
 
 1. Download the [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) (webResourceV2.js) file that you can use to implement the logic for enabling real-time translation of the conversation message, which are exchanged between the customer and the agent. More information: [Web resources in model-driven apps](/powerapps/developer/model-driven-apps/web-resources).
 
-2. Customize the settings, such as define the translation provider, language of the agent, when to turn on translation, and when to turn it off. More information: [initializeNewConversation](developer/reference/methods/initializeNewConversation.md) method and [translateMessage](developer/reference/methods/translateMessage.md) method.
+2. Customize the settings, such as define the translation provider, language of the agent, when to turn on translation, and when to turn it off. More information: [initializeNewConversation](develop/reference/methods/initializeNewConversation.md) method and [translateMessage](develop/reference/methods/translateMessage.md) method.
 
 3. Upload the web resource file in your environment.
 
@@ -53,8 +53,8 @@ Perform the following steps to upload the web resource file for real-time transl
 
 ### See also
 
-[Enable real-time translation of conversations](enable-real-time-translation.md)  
-[Real-time translation of conversations](oc-real-time-translation.md)  
+[Enable real-time translation of conversations](administer/enable-real-time-translation.md)  
+[Real-time translation of conversations](administer/oc-real-time-translation.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1222,8 +1222,8 @@ See systemuser Table msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agent
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
+[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../../develop/omnichannel-developer.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

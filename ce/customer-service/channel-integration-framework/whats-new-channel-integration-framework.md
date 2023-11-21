@@ -23,23 +23,23 @@ Dynamics 365 Channel Integration Framework 2.0 provides multiple enhancements ov
 
 ### Integration with multisession experiences
 
-Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](./v2/integration-multi-session-experiences.md).
+Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate with the multisession experiences in the Omnichannel for Dynamics 365 Customer Service app. These APIs allow providers to show notifications on incoming conversations with relevant information, start new sessions for conversations, and open application tabs as needed. For more information, see [Integration with multisession experiences](../../channel-integration-framework/v2/administer/integration-multi-session-experiences.md).
 
-More information: [Microsoft.CIFramework methods](reference/microsoft-ciframework.md)
+More information: [Microsoft.CIFramework methods](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework.md)
 
 ### New modes and locations for the communication widget
 
 Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
 
 More information: 
-- [Modes and locations for the communication widget](v2/modes-communication-widget.md) 
-- [setMode API](v2/reference/microsoft-ciframework/setMode.md)
+- [Modes and locations for the communication widget](../../channel-integration-framework/v2/administer/modes-communication-widget.md) 
+- [setMode API](../../channel-integration-framework/v2/develop/reference/microsoft-ciframework/setMode.md)
 
 ### Support for multiple providers
 
 With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to a different provider.  
 
-More information: [Support for multiple providers](./v2/support-multiple-providers.md)
+More information: [Support for multiple providers](../../channel-integration-framework/v2/administer/support-multiple-providers.md)
 
 ### Channel Analytics
 
@@ -51,7 +51,7 @@ The contact center analytics need operational and conversational data to provide
 
 Channel Analytics in the Dynamics 365 Channel Integration Framework, provides a model to build a consistent, seamless, and unified experience when it comes to channel-related analytics and insights.
 
-More information: [Channel Analytics](./v2/channel-analytics.md)
+More information: [Channel Analytics](../../channel-integration-framework/v2/administer/channel-analytics.md)
 
 > [!IMPORTANT]
 > For the complete list of features introduced in Dynamics 365 Channel Integration Framework 2.0, see the 2019 release wave 2 plan here: [Dynamics 365 Channel Integration Framework](/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
@@ -64,8 +64,8 @@ This section provides a list of new features introduced for Dynamics 365 Channel
 
 | JavaScript API | Description |
 |-----|-----|
-| [Microsoft.CIFramework.getEntityMetadata](reference/microsoft-ciframework/getEntityMetadata.md) | [!INCLUDE[getEntityMetadata-description](reference/microsoft-ciframework/includes/getEntityMetadata-description.md)] |
-| [Microsoft.CIFramework.renderSearchPage](reference/microsoft-ciframework/renderSearchPage.md) | [!INCLUDE[renderSearchPage-description](reference/microsoft-ciframework/includes/renderSearchPage-description.md)] |
+| [Microsoft.CIFramework.getEntityMetadata](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/getEntityMetadata.md) | [!INCLUDE[getEntityMetadata-description](reference/microsoft-ciframework/includes/getEntityMetadata-description.md)] |
+| [Microsoft.CIFramework.renderSearchPage](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/renderSearchPage.md) | [!INCLUDE[renderSearchPage-description](reference/microsoft-ciframework/includes/renderSearchPage-description.md)] |
 
 ### Ability to pass Dynamics 365 URL to widget library
 
@@ -76,19 +76,19 @@ There are two ways to pass the URL to the widget library:
 1. By adding attributes to a script tag.
 2. By adding a parameter `ucilib` in the URL.
 
-More information: [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)
+More information: [Pass a Dynamics 365 URL to a widget library](../../channel-integration-framework/v1/administer/pass-url-widget-library.md)
 
 ### Ability to add another trusted domain
 
 Dynamics 365 Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. 
 
-More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](configure-channel-provider-channel-integration-framework.md)
+More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](../../channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework.md)
 
 ### Custom Parameters field in the Channel provider configuration
 
-Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md) returns this as a value of key `customParams`. 
+Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.getEnvironment](../../channel-integration-framework/v1/develop/reference/microsoft-ciframework/getEnvironment.md) returns this as a value of key `customParams`. 
 
-More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](configure-channel-provider-channel-integration-framework.md)
+More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](../../channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework.md)
 
 ### See also
 

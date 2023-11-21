@@ -13,8 +13,8 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](administer/overview-unified-routing.md).
 
 Routing and work assignment ensures that conversations from all the channels are routed to agents efficiently.
 
@@ -41,7 +41,7 @@ When the conversation reaches to the queues, the work assignment system assigns 
 
 > [!IMPORTANT]
 >
-> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work assignment. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
+> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work assignment. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](administer/assignment-methods.md).
 
 The work assignment system assigns the conversation (work item) to an agent based on the following triggers:
 
@@ -93,7 +93,7 @@ As **Bert** has the required capacity and presence, the system  assigns the conv
 
 ### Adjusting an agent's capacity based on conversation allocation
 
-Agent capacity is specified by the administrator in the User settings. See [Manage users](users-user-profiles.md) to learn how to set agent capacity.
+Agent capacity is specified by the administrator in the User settings. See [Manage users](administer/users-user-profiles.md) to learn how to set agent capacity.
 An agent's capacity is adjusted by the system when a conversation is allocated, and the following actions occur:
 
 - The conversation is added to the agent's **My Items** list.
@@ -114,15 +114,15 @@ If conversations are waiting to be assigned, they are allocated as soon as the a
 
 To effectively route and distribute work to agents, admins can set up the following items in Omnichannel for Customer Service:
 
-- [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage users in Omnichannel for Customer Service](users-user-profiles.md)
+- [Assign roles and enable users for Omnichannel for Customer Service](implement/add-users-assign-roles.md)
+- [Manage users in Omnichannel for Customer Service](administer/users-user-profiles.md)
 - [Understand and create work streams](create-workstreams-oca.md)
-- [Configure a chat channel](set-up-chat-widget.md)
-- [Configure an SMS channel](configure-sms-channel.md)
-- [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
-- [Automatically identify customers using pre-chat responses](record-identification-rule.md)
+- [Configure a chat channel](administer/set-up-chat-widget.md)
+- [Configure an SMS channel](administer/configure-sms-channel.md)
+- [Work with queues in Omnichannel for Customer Service](administer/queues-omnichannel.md)
+- [Automatically identify customers using pre-chat responses](administer/record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
-- [Configure and manage custom presence](presence-custom-presence.md)
+- [Configure and manage custom presence](administer/presence-custom-presence.md)
 
 ### See also
 

@@ -66,13 +66,13 @@ The asynchronous channels available in the conversation inbox are:
 - WhatsApp
 - Microsoft Teams
 
-More information: [Configure the inbox view](../configure-inbox.md)
+More information: [Configure the inbox view](../administer/configure-inbox.md)
 
 ### Use the productivity pane with Smart Assist
 
 When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you are working on. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-More information: [Productivity pane](../csw-productivity-pane.md)
+More information: [Productivity pane](../use/csw-productivity-pane.md)
 
 ## Work with cases, activities, knowledge articles, and email templates
 

@@ -531,9 +531,9 @@
     - name: Responsible AI
       items:
       - name: Overview
-        href: ../responsible-ai-overview.md
+        href: ../implement/responsible-ai-overview.md
       - name: FAQ for copilot
-        href: ../faq-copilot-for-customer-service.md
+        href: ../implement/faq-copilot-for-customer-service.md
     - name: Resources
       items:
       - name: Training

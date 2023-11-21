@@ -19,7 +19,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 ## Prerequisites
 
 - To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
-- To ensure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](system-requirements-omnichannel.md#allow-access-to-websites).  
+- To ensure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](implement/system-requirements-omnichannel.md#allow-access-to-websites).  
 
 ## Add skill control
 
@@ -54,9 +54,9 @@ Though we don't recommend setting up parameters for the skill control, if you wa
 
 ### See also
 
-[Overview of unified routing](overview-unified-routing.md)  
-[Set up record routing](set-up-record-routing.md)  
-[Set up unified routing](set-up-routing-process.md)  
+[Overview of unified routing](administer/overview-unified-routing.md)  
+[Set up record routing](administer/set-up-record-routing.md)  
+[Set up unified routing](administer/set-up-routing-process.md)  
 [Query table definitions using the Web API](/powerapps/developer/data-platform/webapi/query-metadata-web-api)  
 [Add, configure, move, or delete components on a form](/powerapps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)  
 

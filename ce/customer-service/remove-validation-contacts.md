@@ -35,6 +35,6 @@ Now, when agents are creating or updating a case, they can select contacts who a
 ### See also
 
 [Overview of Customer Service workspace](csw-overview.md)  
-[Create a case](customer-service-hub-user-guide-create-a-case.md)  
+[Create a case](use/customer-service-hub-user-guide-create-a-case.md)  
 [Environment variables in Power Apps](/powerapps/maker/data-platform/environmentvariables)  
 

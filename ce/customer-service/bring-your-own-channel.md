@@ -418,14 +418,14 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 
 ## Next steps
 
-[Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Markdown formats in custom channels that use Direct Line](markdown-formats-dev.md)   
+[Support for live chat and asynchronous channels](administer/card-support-in-channels.md)  
+[Markdown formats in custom channels that use Direct Line](develop/markdown-formats-dev.md)   
 
 ### See also
 
-[Configure custom messaging channel](configure-custom-channel.md)  
+[Configure custom messaging channel](administer/configure-custom-channel.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
-[Best practices for configuring bots](configure-bot-best-practices.md) 
+[Best practices for configuring bots](administer/configure-bot-best-practices.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

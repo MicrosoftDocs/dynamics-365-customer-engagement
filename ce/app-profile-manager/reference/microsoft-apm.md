@@ -13,7 +13,7 @@ The app profile manager JavaScript API Reference includes methods and properties
 
 ## Prerequisite
 
-You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](../security-roles.md)
+You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](../../customer-service/administer/security-roles.md)
 
 ## Session management
 
@@ -73,6 +73,6 @@ The following method allows you to manage the session context in Customer Servic
 |||
 ### See also
 
-[App profile manager](../app-profile-manager.md)  
+[App profile manager](../../customer-service/administer/app-profile-manager.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

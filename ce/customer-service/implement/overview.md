@@ -14,7 +14,7 @@ ms.collection: get-started
 
 > [!TIP]
 > - If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
-> - Explore [Copilot](../use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.
+> - Explore [Copilot](../use/use-copilot-features.md), a feature that significantly enhances agent productivity in Customer Service.
 
 Welcome to Dynamics 365 Customer Service! We're delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life.
 
@@ -52,7 +52,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **Omnichannel Administration** (Deprecated): Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service.
   
   > [!NOTE]
-  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](../deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
 
 The following table provides the features that can be configured through the admin apps.
 
@@ -81,7 +81,7 @@ The following table provides the features that can be configured through the adm
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](../introduction-omnichannel.md) | [Customer Service Hub](../user-guide-customer-service-hub.md) | [Customer Service Team Member](../customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
+|  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service (Deprecated)](introduction-omnichannel.md) | [Customer Service Hub](../use/user-guide-customer-service-hub.md) | [Customer Service Team Member](../customer-service-team-member.md) | [Customer Service app (Deprecated)](../user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
@@ -115,7 +115,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 ![csh-mobile.](../media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Workspace or Customer Service Hub app? See [Upgrade to Customer Service Hub](../upgrade-ish-csh.md)
+> Looking forward to upgrade to the Customer Service Workspace or Customer Service Hub app? See [Upgrade to Customer Service Hub](../administer/upgrade-ish-csh.md)
 
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
@@ -124,12 +124,12 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 
 Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be effortlessly productive.
 
-For more details about app accessibility and privacy compliance, see [Accessibility and privacy](../user-guide-customer-service-hub.md#accessibility-and-privacy).
+For more details about app accessibility and privacy compliance, see [Accessibility and privacy](../use/user-guide-customer-service-hub.md#accessibility-and-privacy).
 
 ## Get Started with Customer Service
 
 - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
-- [Omnichannel for Customer Service](../introduction-omnichannel.md)
-- [Customer Service Hub](../user-guide-customer-service-hub.md)
+- [Omnichannel for Customer Service](introduction-omnichannel.md)
+- [Customer Service Hub](../use/user-guide-customer-service-hub.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

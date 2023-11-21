@@ -12,8 +12,8 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](administer/overview-unified-routing.md).
 
 ## Understand skill-based routing
 
@@ -132,9 +132,9 @@ To attach skills, you need a workstream record. You can either create or use an 
 
 ### See also
 
-[Overview of skill-based routing](overview-skill-work-distribution.md)  
-[Allow agents to update skills](allow-agents-update-skills.md)  
-[Set up skills and assign agents](setup-skills-assign-agents.md)  
+[Overview of skill-based routing](administer/overview-skill-work-distribution.md)  
+[Allow agents to update skills](administer/allow-agents-update-skills.md)  
+[Set up skills and assign agents](administer/setup-skills-assign-agents.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

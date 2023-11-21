@@ -13,8 +13,8 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and the voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and the voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](administer/overview-unified-routing.md).
 
 ## Introduction
 
@@ -70,13 +70,13 @@ Perform the following steps to create a queue in Omnichannel for Customer Servic
 
 > [!IMPORTANT]
 >
-> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work distribution. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](assignment-methods.md).
+> If you've upgraded your Omnichannel for Customer Service environment to 2021 release wave 1, your queues will start using unified routing services for assignment. By default, all existing queues will use the "highest capacity" assignment method for work distribution. You can change the assignment method to round robin or a custom assignment method according to your need. More information: [Set up assignment methods in Customer Service](administer/assignment-methods.md).
 
 ### See also
 
 [Create workstreams in Omnichannel Administration](create-workstreams-oca.md)  
 [Understand routing and work distribution](unified-routing-work-distribution.md)  
-[Create and manage operating hours](create-operating-hours.md)  
+[Create and manage operating hours](administer/create-operating-hours.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
