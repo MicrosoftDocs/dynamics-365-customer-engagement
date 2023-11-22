@@ -27,4 +27,4 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onsendkbarticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onsizechanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
