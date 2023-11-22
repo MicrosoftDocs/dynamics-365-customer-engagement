@@ -37,7 +37,7 @@ protected override async Task OnEventActivityAsync(ITurnContext<IEventActivity> 
 
 ## Next steps
 
-[Code samples for parsing activity JSON](../bot-context-json-samples.md)  
+[Code samples for parsing activity JSON](bot-context-json-samples.md)  
 
 ### See also
 

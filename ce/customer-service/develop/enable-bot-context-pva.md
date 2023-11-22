@@ -19,24 +19,24 @@ As a bot author, you can enable your Copilot Studio bots to understand context w
 
 ## Install extensions
 
-Follow the steps mentioned in this article: [Install Copilot Studio extensions](configure-bot-virtual-agent.md#install-copilot-studio-extensions).
+Follow the steps mentioned in this article: [Install Copilot Studio extensions](../administer/configure-bot-virtual-agent.md#install-copilot-studio-extensions).
 
 ## Connect to omnichannel instance
 
-Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](configure-bot-virtual-agent.md#connect-your-copilot-studio-bot-to-omnichannel-instance).
+Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](../administer/configure-bot-virtual-agent.md#connect-your-copilot-studio-bot-to-omnichannel-instance).
 
 ## Next steps
 
 Use the information in one of the following articles to configure context variables:
 
-- [Configure context variables for bots](context-variables-for-bot.md)  
+- [Configure context variables for bots](../administer/context-variables-for-bot.md)  
 - [Getting started with Bot Framework Composer](/power-virtual-agents/advanced-bot-framework-composer-fundamentals)
 - [Create expressions using Power Fx](/power-virtual-agents/advanced-power-fx)
 
 ### See also
 
-[Send custom context](send-context-starting-chat.md)  
-[setContextProvider](developer/reference/methods/setContextProvider.md)  
-[Integrate an Azure bot](configure-bot-azure.md)  
+[Send custom context](../develop/send-context-starting-chat.md)  
+[setContextProvider](../develop/reference/methods/setContextProvider.md)  
+[Integrate an Azure bot](../administer/configure-bot-azure.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
