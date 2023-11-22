@@ -132,7 +132,7 @@ Sample HTML:
 
 Use the following operation types to map the source property to the target in the sample html file:
 
-:::image type="content" source="media/int-html-example.png" alt-text="Screenshot explains the mapping from the selected html file.":::
+:::image type="content" source="../media/int-html-example.png" alt-text="Screenshot explains the mapping from the selected html file.":::
 
 where,
 
@@ -168,7 +168,7 @@ where,
 
 ## JSON schema
 
-[Learn more about schema details to build a metadata mapping template](int-search-metadata-schema.md).
+[Learn more about schema details to build a metadata mapping template](../develop/int-search-metadata-schema.md).
 
 1. In the Customer Service admin center site map, **Knowledge article schema** > **JSON Schema** section, copy and paste your article properties and schema JSON in the field provided to you.
 1. Select **Validate JSON**.

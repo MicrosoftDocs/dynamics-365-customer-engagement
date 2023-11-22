@@ -35,7 +35,7 @@ Your agents can send and receive messages formatted using Markdown.
 
 ## Next steps
 
-[Markdown formats for agents](markdown-formats-agents.md)  
+[Markdown formats for agents](../use/markdown-formats-agents.md)  
 
 ### See also
 

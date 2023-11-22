@@ -21,11 +21,11 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](../implem
 
 You can provision the following channels in Omnichannel for Customer Service:
 
-- [Chat](set-up-chat-widget.md)
-- [Voice](voice-channel.md)
-- [SMS](../use/sms-channel-overview.md)
+- [Chat](../administer/set-up-chat-widget.md)
+- [Voice](../administer/voice-channel.md)
+- [SMS](../administer/configure-sms-channel.md)
 - [Social](../use/channels.md)
-- [Microsoft Teams](configure-teams-chat.md)
+- [Microsoft Teams](../administer/configure-microsoft-teams.md)
 
 > [!IMPORTANT]
 > The channels that you want to provision might require a license. More information: [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
@@ -159,8 +159,8 @@ After the Omnichannel for Customer Service application is successfully provision
 ### See also
 
 [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)  
-[Create workstreams](create-workstreams.md)  
-[Manage users](users-user-profiles.md)  
+[Create workstreams](../administer/create-workstreams.md)  
+[Manage users](../administer/users-user-profiles.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

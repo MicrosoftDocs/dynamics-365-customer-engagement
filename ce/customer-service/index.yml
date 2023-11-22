@@ -51,7 +51,7 @@ additionalContent:
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/customer-service/pricing/
         text: Buy Customer Service
-      - url: administer/omnichannel-provision-license.md
+      - url: implement/omnichannel-provision-license.md
         text: Provision Omnichannel for Customer Service
     - title: Set up 
       links:

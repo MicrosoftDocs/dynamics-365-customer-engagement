@@ -123,6 +123,6 @@ For a workstream, you can set any queue as a fallback queue, including a default
 [Create and manage assignment methods](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)  
 [Create and manage operating hours](create-operating-hours.md)  
 [Configure the voice queues](../voice-channel-route-queues.md)  
-[FAQ about time taken by configuration changes in unified routing](../implement/faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
+[FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

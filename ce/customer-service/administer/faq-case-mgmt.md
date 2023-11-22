@@ -17,7 +17,7 @@ A few answers to common questions on the various scenarios in managing cases are
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](../remove-validation-contacts.md) and allow unrelated contacts be linked with the case. 
+Out of the box, agents can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 

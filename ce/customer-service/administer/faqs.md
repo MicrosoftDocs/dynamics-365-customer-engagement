@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 ### What regions are supported?
 
-See the list of supported regions at [International availability of Microsoft Dynamics 365](international-availability.md). 
+See the list of supported regions at [International availability of Microsoft Dynamics 365](../implement/international-availability.md). 
 
 ### What platforms are supported?
 
-You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md).
+You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md).
 
 ### Where can I submit an idea for a new feature or enhancement?
 
@@ -47,7 +47,7 @@ No, Chat and related capabilities in Omnichannel for Customer Service require a 
 
 ### How do I get started?
 
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](../use/channels.md). Find [Get started](../implement/introduction-omnichannel.md) and [Prerequisites](../implement/system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel for Customer Service in your organization.
 
 ## Agent experience
 
@@ -146,7 +146,7 @@ Yes. For a list of supported customizations, see [Customizations supported by th
 
 ### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](../implement/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -165,7 +165,7 @@ Check the following:
 - Make sure that the Omnichannel supervisor role is assigned to the user.
 - For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service and in the Omnichannel app.
 
-For more information, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md). 
+For more information, see [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
@@ -183,7 +183,7 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 
 The dataset for the Live Monitoring report is real time; if a report is refreshed or filters are changed, the data will be updated as per the current state of the system.
 
-The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
+The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
 ### Why am I not able to see more than 100 agents while using filters in Omnichannel Ongoing Conversations dashboard?
 
@@ -193,7 +193,7 @@ By default, the application only displays 100 agents at any given time while fil
 
 These controls are in place for exposing the data in reports:
 
-- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](configure-intraday-dashboard-supervisor.md)
+- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role.
 - Sentiment can be turned on or off in Customer Service admin center. To learn more, see [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) 
 
@@ -270,6 +270,6 @@ Only bots created through [Microsoft Bot Framework](https://dev.botframework.com
 ### See also
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)  
-[Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
+[Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

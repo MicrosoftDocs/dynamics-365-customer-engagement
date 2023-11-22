@@ -18,7 +18,7 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 ## Prerequisite
 
-You must have removed [Omnichannel for Customer Service](../administer/remove-omnichannel.md).
+You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
 
 > [!IMPORTANT]
 > Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.

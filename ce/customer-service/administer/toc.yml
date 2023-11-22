@@ -150,8 +150,6 @@
           href: manage-routing-diagnostics-data.md
         - name: Use best practices to set up unified routing
           href: unified-routing-best-practices.md
-        - name: Understand how unified routing affects queue items and live work items for routed records
-          href: unified-routing-impact-on-apis.md
         - name: FAQ about unified routing
           href: unified-routing-faqs.md
       - name: Case management
