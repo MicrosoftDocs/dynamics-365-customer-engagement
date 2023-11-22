@@ -104,7 +104,7 @@ The following capabilities are available in the different app experiences, depen
 ## Available anywhere, on any device
 
 > [!NOTE]
-> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../../mobile-app/install-dynamics-365-for-phones-and-tablets).
+> For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
 
