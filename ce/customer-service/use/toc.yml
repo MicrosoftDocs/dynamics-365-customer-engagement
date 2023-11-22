@@ -281,7 +281,7 @@
         - name: Ask a question (preview)
           href: use-copilot-features.md#ask-a-question
         - name: Draft a chat response (preview)
-          href: use-copilot-features.md#draft-a-chat-response
+          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
         - name: Draft emails (preview)
           href: use-copilot-features.md#draft-emails
         - name: View analytics for Copilot impact

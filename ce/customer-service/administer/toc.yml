@@ -563,16 +563,16 @@
       - name: Copilot in Customer Service 
         items: 
           - name: Manage Copilot features in Customer Service
-            href: configure-copilot-features.md     
+            href: configure-copilot-features.md
           - name: Enable case summaries
             href: copilot-enable-summary.md#enable-case-summaries  
           - name: Enable conversation summaries
             href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable ask a question (preview)
+          - name: Enable ask a question
             href: copilot-enable-help-pane.md#enable-ask-a-question
           - name: Enable draft a response (preview)
-            href: copilot-enable-help-pane.md#enable-draft-a-response
-          - name: Enable write an email (preview)
+            href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+          - name: Enable write an email
             href: copilot-enable-help-pane.md#enable-write-an-email
           - name: View feedback data
             href: configure-copilot-features.md#record-feedback        
@@ -580,12 +580,12 @@
             href: configure-copilot-features.md#make-copilot-available-to-agents
           - name: Copilot data movement across geographies
             href: copilot-data-movement.md
+          - name: Manage fields Copilot uses for case summaries and emails
+            href: copilot-map-custom-fields.md
+          - name: Configure copilot features for custom case forms and custom apps
+            href: copilot-powerapps-settings.md
           - name: Display Copilot case summary on custom case forms
             href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-          - name: Modify fields used to generate case summary
-            href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
-          - name: Manage fields Copilot uses for case summaries and emails
-            href: copilot-map-custom-fields.md 
           - name: Enable Copilot features for custom apps
             href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
       - name: Bots
@@ -799,7 +799,7 @@
     - name: Implement Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Manage your contact center
-      href: ../use/toc.yml
+      href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Develop Dynamics 365 Customer Service
       href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
