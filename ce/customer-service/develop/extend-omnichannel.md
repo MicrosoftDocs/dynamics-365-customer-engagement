@@ -49,7 +49,7 @@ Direct Line allows custom channels to be brought into Omnichannel for Customer S
 
 ### See also
 
-[Bring your own custom messaging channel: Direct Line bot](../bring-your-own-channel.md)  
+[Bring your own custom messaging channel: Direct Line bot](../develop/bring-your-own-channel.md)  
 [Connect a bot to Direct Line](/azure/bot-service/bot-service-channel-connect-directline)  
 [Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/overview-channel-integration-framework.md)  
 

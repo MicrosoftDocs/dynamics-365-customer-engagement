@@ -21,7 +21,7 @@ More information:
 - [Introduction to the agent interface of Omnichannel for Customer Service](../../../customer-service/use/oc-introduction-agent-interface.md)  
 - [Manage sessions in Omnichannel for Customer Service](../../../customer-service/use/oc-manage-sessions.md)  
 - [Agents using Omnichannel for Customer Service app](../../../customer-service/use/omnichannel-customer-service-app-agent.md)  
-- [Customer Service workspace](../../../customer-service/csw-overview.md)
+- [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
 
 ### See also
 

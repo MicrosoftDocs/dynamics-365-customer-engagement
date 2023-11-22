@@ -55,7 +55,7 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 |Communication panel modes | <li>Minimized <br> <li>Expanded | <li>Docked <br> <li>Minimized <br> <li>Hidden |
 |Features| <li> Support for one channel provider at any time <br> <li> Communication panel management |<li> Support for multiple telephony channel providers <br> <li> Communication panel management <br> <li> Channel analytics <br> <li> Notification management templates<br> <li> Application tab management templates<br> <li> Session management templates |
 
-For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../customer-service/bring-your-own-channel.md).
+For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../customer-service/develop/bring-your-own-channel.md).
 
 > [!div class="mx-imgBorder"]
 > ![Differences between versions 1.0 and 2.0.](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
@@ -66,7 +66,7 @@ For information about how to integrate custom messaging channel providers with O
 [Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)  
 [Integrate Dynamics 365 Channel Integration Framework 2.0 with Omnichannel for Customer Service](v2/administer/integration-multi-session-experiences.md)  
 [Multisession agent experiences](/business-applications-release-notes/april19/service/omnichannel-for-customer-service/multi-session-agent-experiences-web-usd)  
-[Bring your own channel](../customer-service/bring-your-own-channel.md)  
+[Bring your own channel](../customer-service/develop/bring-your-own-channel.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

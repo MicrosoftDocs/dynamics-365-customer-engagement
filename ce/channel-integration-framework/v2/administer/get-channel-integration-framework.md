@@ -14,7 +14,7 @@ Dynamics 365 Channel Integration Framework 2.0 is available with Customer Servic
 
 More information:
 
-- [Customer Service workspace](../../../customer-service/csw-overview.md)
+- [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
 - [Provision Omnichannel for Customer Service](../../../customer-service/administer/omnichannel-provision-license.md).
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Identify the Dynamics 365 instance for which you want to use the Customer Servic
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 2.0](sample-softphone-integration-v2.md)  
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/implement/system-requirements-omnichannel.md)  
-[FAQ about Dynamics 365 Channel Integration Framework](../../v1/administer/faq-channel-integration-framework.md)  
+[FAQ about Dynamics 365 Channel Integration Framework](../../faq-channel-integration-framework.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

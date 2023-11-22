@@ -86,7 +86,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](/dynamics365/customer-service/administer/overview)
+More information: [Agent experience profiles](../administer/overview.md)
 
 ## Considerations
 
@@ -96,8 +96,8 @@ Here are a few things to note when you use Customer Service workspace in your or
 - `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
   - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
-- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../../app-profile-manager/reference/microsoft-apm/createTab.md) 
-- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../../app-profile-manager/reference/microsoft-apm.md)
+- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../develop/reference/methods/createTab.md) 
+- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../develop/microsoft-apm.md)
 - The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
 
 ### Limitations
@@ -156,7 +156,6 @@ You can enable the legacy layout in one of the following ways:
 ### See also
 
 [Work with cases in Customer Service Hub](../use/customer-service-hub-user-guide-create-a-case.md)  
-[Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](../use/csw-productivity-pane.md)  
 [View the agent calendar](../use/use-agent-calendar.md)  
 

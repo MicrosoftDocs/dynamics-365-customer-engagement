@@ -40,8 +40,6 @@
           href: third-party-co-browse.md
         - name: Live chat widget telemetry
           href: live-chat-telemetry.md
-        - name: Configure relevance search for transcripts
-          href: relevance-search-chat-transcript.md
         - name: Configure link to conversation button
           href: configure-link-to-conversation-model-driven-app-form.md 
         - name: Start a chat
@@ -463,7 +461,7 @@
         - name: App profile manager JavaScript API reference
           items:
           - name: Overview       
-            href: reference/microsoft-apm.md
+            href: microsoft-apm.md
           - name: Session management
             items:
             - name: Methods   
@@ -525,7 +523,7 @@
               - name: Context management    
                 items:                
                 - name: updateContext
-                  href: reference/properties/updateContext.md                     
+                  href: reference/properties/updateContext.md                  
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI

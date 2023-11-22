@@ -1852,7 +1852,7 @@
     - name: App profile manager JavaScript API reference
       items:
       - name: Overview       
-        href: ../app-profile-manager/reference/microsoft-apm.md
+        href: develop/microsoft-apm.md
       - name: Session management
         items:
         - name: Methods

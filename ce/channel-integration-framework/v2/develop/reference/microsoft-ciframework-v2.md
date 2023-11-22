@@ -120,12 +120,12 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 | [addHandler](../../../v1/develop/reference/microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](../../../v1/develop/reference/microsoft-ciframework/Includes/addHandler-description.md)] |
 | [removeHandler](../../../v1/develop/reference/microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](../../../v1/develop/reference/microsoft-ciframework/Includes/removeHandler-description.md)] |
 | [raiseEvent](../../../v1/develop/reference/microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](../../../v1/develop/reference/microsoft-ciframework/Includes/raiseEvent-description.md)] |
-| [updateContext](../../../../customer-service/channel-integration-framework/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
+| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 | [updateConversation](microsoft-ciframework/updateConversation.md) | This method allows you to update a conversation record. |
 
 ### See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../../../../customer-service/channel-integration-framework/whats-new-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](../../../whats-new-channel-integration-framework.md)  
 [System requirements for Dynamics 365 Channel Integration Framework 2.0](../../administer/system-requirements-channel-integration-framework-v2.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

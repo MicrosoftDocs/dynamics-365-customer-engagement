@@ -69,7 +69,7 @@ For information about how you can modify the sample code to suit your environmen
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up unified routing](../administer/set-up-routing-process.md)  
-[How unified routing affects queue items and the corresponding APIs](../administer/unified-routing-impact-on-APIs.md) 
+[How unified routing affects queue items and the corresponding APIs](unified-routing-impact-on-APIs.md) 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

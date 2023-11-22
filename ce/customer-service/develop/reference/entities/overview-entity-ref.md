@@ -37,12 +37,12 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_consoleapplicationsessiontemplate](msdyn_consoleapplicationsessiontemplate.md)|
 |[msdyn_conversationaction](msdyn_conversationaction.md)|
 |[msdyn_conversationactionlocale](msdyn_conversationactionlocale.md)|
-|[msdyn_conversationmessageblock](../../../developer/reference/entities/msdyn_conversationmessageblock.md)|
+|[msdyn_conversationmessageblock](msdyn_conversationmessageblock.md)|
 |[msdyn_conversationsuggestionrequestpayload](msdyn_conversationsuggestionrequestpayload.md)|
-|[msdyn_copilotinteraction](../../../developer/reference/entities/msdyn_copilotinteraction.md)|
-|[msdyn_copilotinteractiondata](../../../developer/reference/entities/msdyn_copilotinteractiondata.md)|
-|[msdyn_copilottranscript](../../../developer/reference/entities/msdyn_copilottranscript.md)|
-|[msdyn_copilottranscriptdata](../../../developer/reference/entities/msdyn_copilottranscriptdata.md)|
+|[msdyn_copilotinteraction](msdyn_copilotinteraction.md)|
+|[msdyn_copilotinteractiondata](msdyn_copilotinteractiondata.md)|
+|[msdyn_copilottranscript](msdyn_copilottranscript.md)|
+|[msdyn_copilottranscriptdata](msdyn_copilottranscriptdata.md)|
 |[msdyn_customengagementctx](msdyn_customengagementctx.md)|
 |[msdyn_decisioncontract](msdyn_decisioncontract.md)|
 |[msdyn_decisionruleset](msdyn_decisionruleset.md)|
