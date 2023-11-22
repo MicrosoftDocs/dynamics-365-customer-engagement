@@ -56,7 +56,7 @@ To learn about using and sending custom context in a conversation, see [Send cus
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Configure context variables for bots](context-variables-for-bot.md)  
-[Configure bots to escalate and end conversations](../bot-escalate-end-conversation.md)  
+[Configure bots to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
 [Best practices for configuring bots](configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

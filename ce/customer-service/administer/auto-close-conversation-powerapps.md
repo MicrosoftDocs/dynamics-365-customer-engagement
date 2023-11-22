@@ -3,10 +3,11 @@ title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
 ms.date: 10/04/2023
 ms.topic: how-to
-author: venki-MS
-ms.author: v-duddupdiv
-ms.reviewer: gandhamm
+author: neeranelli
+ms.author: nenellim
+ms.reviewer:
 ms.custom: bap-template
+ms.collection:
 ---
 # Close conversations automatically
 
@@ -65,7 +66,7 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 
 ### Close conversations using API
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations using web API](auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations using web API](../develop/auto-close-conversation.md).
 
 ### See also
  
