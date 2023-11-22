@@ -132,7 +132,7 @@ User presence might not load in the following scenarios:
 - The agent capacity and default presence are not set
 - The required channels aren't activated in the agent profile. 
 
-More information: [User presence isn’t loading or user is shown as unknown](troubleshoot/dynamics-365/customer-service/welcome-customer-service#user-presence-isnt-loading-or-user-is-shown-as-unknown)
+More information: [User presence isn’t loading or user is shown as unknown](/troubleshoot/dynamics-365/customer-service/welcome-customer-service#user-presence-isnt-loading-or-user-is-shown-as-unknown)
 
 ### Why should I check or update channel URLs in Dynamics 365 Channel Integration Framework 2.0?
 

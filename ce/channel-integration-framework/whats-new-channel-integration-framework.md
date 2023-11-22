@@ -32,7 +32,7 @@ More information: [Microsoft.CIFramework methods](v1/develop/reference/microsoft
 Providers can now define experiences for the minimized mode of the communication widgets they build. Agents can manually change the mode of the control from docked to minimized. The same can be achieved programmatically as well. 
 
 More information: 
-- [Modes and locations for the communication widget](v2/modes-communication-widget.md) 
+- [Modes and locations for the communication widget](v2/administer/modes-communication-widget.md) 
 - [setMode API](v2/develop/reference/microsoft-ciframework/setMode.md)
 
 ### Support for multiple providers

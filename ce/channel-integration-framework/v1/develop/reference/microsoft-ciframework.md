@@ -58,11 +58,11 @@ Use the following APIs to perform CRUD operations on entity records.
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/Includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/Includes/removeHandler-description.md)] |
 | [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/Includes/raiseEvent-description.md)] |
-| [updateContext](../../../../customer-service/channel-integration-framework/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
+| [updateContext](v1/develop/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
 ### See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../../../../customer-service/channel-integration-framework/whats-new-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  
 [System requirements of Dynamics 365 Channel Integration Framework 1.0](../../administer/system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
