@@ -69,7 +69,7 @@ The following method allows you to manage the session context in Customer Servic
 
 | Method | Description |
 |--------|-------------|
-| [updateContext](../develop/reference/methods/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
+| [updateContext](../develop/reference/properties/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
 |||
 ### See also
 

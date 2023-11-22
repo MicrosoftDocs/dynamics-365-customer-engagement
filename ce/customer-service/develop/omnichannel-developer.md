@@ -54,7 +54,7 @@ Omnichannel for Customer Service allows you to route a conversation to a human a
 
 Learn how you can automatically close a conversation using Web API.
 
-[Configure automatic closure of conversations](../administer/auto-close-conversation.md)
+[Configure automatic closure of conversations](auto-close-conversation.md)
 
 ## runMacro API
 

@@ -58,7 +58,7 @@ Use the following APIs to perform CRUD operations on entity records.
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/Includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/Includes/removeHandler-description.md)] |
 | [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/Includes/raiseEvent-description.md)] |
-| [updateContext](../../../v1/develop/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
+| [updateContext](../../../v2/develop/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
 ### See also
 
