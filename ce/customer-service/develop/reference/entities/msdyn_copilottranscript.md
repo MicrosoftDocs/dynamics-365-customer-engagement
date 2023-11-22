@@ -1730,5 +1730,5 @@ Same as msdyn_copilottranscriptdata table [msdyn_msdyn_copilottranscript_msdyn_c
 
 ### See also
 
-[Enable Copilot features in Customer Service (preview)](../../../configure-copilot-features.md)<br />
+[Enable Copilot features in Customer Service (preview)](../../../administer/configure-copilot-features.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

@@ -48,7 +48,7 @@ Learn how you can pass an authentication token to Omnichannel for Customer Servi
 
 Omnichannel for Customer Service allows you to route a conversation to a human agent when you think human intervention is required to successfully help the customer.
 
-[Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)<br />
+[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
 
 ## Close conversations automatically
 
@@ -78,7 +78,7 @@ Enable your Azure bot to understand context while authoring a bot flow.
 
 Read how you can implement a connector to integrate custom messaging channels using Direct Line Bot.
 
-[Integrate your own custom channel: Direct Line](../bring-your-own-channel.md) 
+[Integrate your own custom channel: Direct Line](bring-your-own-channel.md) 
 
 
 ### See also

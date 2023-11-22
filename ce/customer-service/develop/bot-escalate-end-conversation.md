@@ -18,14 +18,14 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Prerequisites
 
-- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](administer/configure-bot-azure.md)
+- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](../administer/configure-bot-azure.md)
 - Skill-based routing should be enabled.
 
 ## Escalate a conversation to a human agent
 
 In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
-When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](administer/record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
+When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
 
 After the agent accepts the escalation request, the transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the conversation with the customer.
 
@@ -272,11 +272,11 @@ The bot can also send an escalation summary that'll be visible only to the agent
 
 ### See also
 
-[Integrate an Azure bot](administer/configure-bot-azure.md)  
-[Add context variables](administer/manage-context-variables.md#add-context-variables)  
+[Integrate an Azure bot](../administer/configure-bot-azure.md)  
+[Add context variables](../administer/manage-context-variables.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
-[Best practices for configuring Azure and Copilot Studio bots](administer/configure-bot-best-practices.md)  
+[Best practices for configuring Azure and Copilot Studio bots](../administer/configure-bot-best-practices.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
