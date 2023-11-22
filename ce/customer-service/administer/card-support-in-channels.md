@@ -147,7 +147,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 
 ## Next steps
 
-[Bring your own custom messaging channel using Direct Line](../bring-your-own-channel.md)  
+[Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
 ### See also

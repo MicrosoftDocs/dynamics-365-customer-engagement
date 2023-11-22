@@ -190,7 +190,7 @@ The following out-of-the-box application tab templates are available.
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  

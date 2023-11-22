@@ -60,4 +60,4 @@ On the required form, add the **Attachment Control** component.  More informatio
 ### See also
 
 [Case management in multisession apps](enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../csw-overview.md) 
+[Get started with Customer Service workspace](../implement/csw-overview.md) 

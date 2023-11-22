@@ -64,5 +64,5 @@ You can also enable this feature from the Customer Service Hub app. Perform the 
 ### See also
 
 [View and share an AI-generated conversation summary in Teams](../use/cs-ai-generated-summary.md)<br>
-[Overview of Customer Service workspace](../csw-overview.md)  
+[Overview of Customer Service workspace](../implement/csw-overview.md)  
 [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)

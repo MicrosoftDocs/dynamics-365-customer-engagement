@@ -38,4 +38,4 @@ Configure the tab that the agents must be redirected to when they select the ope
 ### See also
 [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 [Case management in multisession apps](enh-casemgmt-csw.md)   
-[Get started with Customer Service workspace](../csw-overview.md) 
+[Get started with Customer Service workspace](../implement/csw-overview.md) 
