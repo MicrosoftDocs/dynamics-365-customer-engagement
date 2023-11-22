@@ -17,7 +17,7 @@ ms.custom: bap-template
 By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center or Omnichannel admin center app.
 
 > [!NOTE]
-> By default, the skill control is available only for messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](../add-skill-control.md)
+> By default, the skill control is available only for messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](../develop/add-skill-control.md)
 
 ## Prerequisite
 

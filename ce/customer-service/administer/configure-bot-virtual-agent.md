@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Microsoft Copilot Studio allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)  
+Microsoft Copilot Studio allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 
 When you integrate a Copilot Studio bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -221,7 +221,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](../use/vid
 [Manage context variables](manage-context-variables.md)  
 [Configure context variables for bots](context-variables-for-bot.md)  
 [Identify customers automatically](record-identification-rule.md)  
-[Enable a bot to escalate and end conversation](../bot-escalate-end-conversation.md)  
+[Enable a bot to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 [Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Understand and create workstreams](create-workstreams.md)  

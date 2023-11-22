@@ -213,7 +213,7 @@ To configure other options in the workstream, see the following:
 
 ### See also
 
-[Bring your own custom messaging channel using Direct Line](../bring-your-own-channel.md)  
+[Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
