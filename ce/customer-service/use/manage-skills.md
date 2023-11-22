@@ -21,7 +21,7 @@ search.audienceType:
 Dynamics 365 comes with an out-of-the box skill control for messaging channels. When added to the case or conversation forms, the skill control enables you to view and update skills. Your administrator can enable the setting that allows you to update skills at runtime.
 
 > [!NOTE]
-> For the record type entity, you'll need to customize the case form to add the skill control. More information: [Add a skill control for routed records](../add-skill-control.md)
+> For the record type entity, you'll need to customize the case form to add the skill control. More information: [Add a skill control for routed records](../develop/add-skill-control.md)
 
 When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been attached by the manual skill classification rules and those that were identified by the machine-learning skill finder models.
 

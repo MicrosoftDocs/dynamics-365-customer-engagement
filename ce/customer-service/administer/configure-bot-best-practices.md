@@ -30,7 +30,7 @@ When you configure Azure and Copilot Studio bots in Omnichannel for Customer Ser
 
 [Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
-[Configure bots to escalate and end conversations](../bot-escalate-end-conversation.md)  
+[Configure bots to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
 [Manage context variables](manage-context-variables.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 
