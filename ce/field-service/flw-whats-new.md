@@ -1,6 +1,6 @@
 ---
-title: What's new in Microsoft 365 integrations for Field Service (preview)
-description: Learn what's new in the Dynamics 365 Field Service (Preview) integration with Microsoft Outlook, Teams, and Viva Connections.
+title: What's new in Microsoft 365 integrations for Field Service
+description: Learn what's new in the Dynamics 365 Field Service integration with Microsoft Outlook, Teams, and Viva Connections.
 ms.date: 10/06/2023
 ms.topic: conceptual
 author: jasonxian-msft
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# What's new in Microsoft 365 integrations for Field Service (preview)
+# What's new in Microsoft 365 integrations for Field Service
 
 See [supported geographies, regions, and languages.](flw-overview.md#supported-geographies-regions-and-languages)
 
@@ -38,7 +38,7 @@ This public preview release includes the following changes.
 
 ## August 9, 2023
 
-Microsoft 365 integrations for Field Service (preview) integrate Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
+Microsoft 365 integrations for Field Service integrate Field Service with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams.
 
 This public preview release includes the following features:
 
@@ -50,7 +50,7 @@ This public preview release includes the following features:
 
 ## Next steps
 
-- [Microsoft 365 integrations for Field Service (preview)](flw-overview.md)
+- [Microsoft 365 integrations for Field Service](flw-overview.md)
 - [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

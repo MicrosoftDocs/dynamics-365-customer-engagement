@@ -1,6 +1,6 @@
 ---
-title: Field Service (Preview) troubleshooting
-description: Learn how to troubleshoot issues in Dynamics 365 Field Service (Preview).
+title: Field Service troubleshooting
+description: Learn how to troubleshoot issues in Dynamics 365 Field Service.
 ms.date: 09/01/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Field Service (Preview) troubleshooting
+# Field Service troubleshooting
 
 [!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
@@ -18,7 +18,7 @@ ms.subservice: m365-integrations
 
 ### Prerequisites
 
-Administrator permissions in Dynamics 365 Field Service (Preview)
+Administrator permissions in Dynamics 365 Field Service
 
 ### Symptoms
 
@@ -38,7 +38,7 @@ As an admin, when using a new Field Service environment and trying to [assign se
 
 ### Prerequisites
 
-Administrator permissions in Dynamics 365 Field Service (Preview)
+Administrator permissions in Dynamics 365 Field Service
 
 ### Symptom
 
@@ -48,7 +48,7 @@ As a Field Service dispatcher, I can't create work orders.
 
 An admin must update the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the dispatcher role and provide **Create** permission for - **Time Promised (from)** and **Time Promised (to)**.
 
-## I can't change my Outlook Web theme in the Field Service (Preview) Outlook Add-in
+## I can't change my Outlook Web theme in the Field Service Outlook Add-in
 
 ### Symptom
 
@@ -58,7 +58,7 @@ Outlook add-ins on the Outlook Web don't support themes.
 
 If you want to use themes, use the Outlook Desktop.
 
-## My Viva Connections dashboard doesn't have the correct Field Service (Preview) tiles
+## My Viva Connections dashboard doesn't have the correct Field Service tiles
 
 ### Symptom
 
@@ -120,7 +120,7 @@ Change the currency on the work order to match the price list. Or contact your a
 
 ### Prerequisites
 
-Administrator permissions in Dynamics 365 Field Service (Preview)
+Administrator permissions in Dynamics 365 Field Service
 
 ### Symptoms
 
