@@ -20,11 +20,11 @@ highlightedContent:
     # Card
     - title: Welcome to Dynamics 365 Customer Service
       itemType: get-started
-      url: overview.md
+      url: administer/overview.md
     # Card
     - title: What's new
       itemType: whats-new
-      url: whats-new-customer-service.md
+      url: implement/whats-new-customer-service.md
     # Card
     - title: Training
       itemType: training
@@ -47,138 +47,138 @@ additionalContent:
         text: Adoption guide
     - title: Try/Buy/Provision
       links: 
-      - url: try-customer-service.md
+      - url: implement/try-customer-service.md
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/customer-service/pricing/
         text: Buy Customer Service
-      - url: omnichannel-provision-license.md
+      - url: administer/omnichannel-provision-license.md
         text: Provision Omnichannel for Customer Service
     - title: Set up 
       links:
-      - url: add-users-assign-roles.md
+      - url: implement/add-users-assign-roles.md
         text: Set up roles and enable users in Omnichannel for Customer Service
-      - url: persona-privilege-mapping.md
+      - url: implement/persona-privilege-mapping.md
         text: Set up personas and privileges in Customer Service and Omnichannel for Customer Service
-      - url: customer-service-workspace-system-requirements.md
+      - url: implement/customer-service-workspace-system-requirements.md
         text: System requirements for Customer Service workspace  
   - title: Administer and develop
     items:
     - title: Configure
       links:
-      - url: provision-unified-routing.md
+      - url: administer/provision-unified-routing.md
         text: Provision unified routing for Customer Service
-      - url: voice-channel-install.md
+      - url: administer/voice-channel-install.md
         text: Configure the voice channel
-      - url: upgrade-omnichannel.md
-        text: Upgrade Omnichannel for Customer Service
+      - url: administer/define-service-level-agreements.md
+        text: Configure service-level agreements
       
     - title: Develop
       links:
-      - url: developer/reference/entities/overview-entity-ref.md
+      - url: develop/reference/entities/overview-entity-ref.md
         text: Omnichannel for Customer Service entity reference
-      - url: developer/omnichannel-reference.md
+      - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference
-      - url: develop-live-chat-widget.md
+      - url: develop/develop-live-chat-widget.md
         text: Develop a custom live chat widget
     - title: Customize
       links:
-      - url: add-enhanced-case-management.md
+      - url: administer/add-enhanced-case-management.md
         text: Customize the case resolution experience
-      - url: omnichannel-customizer.md
+      - url: administer/omnichannel-customizer.md
         text: Customize forms for your agents and supervisors
-      - url: model-customize-reports.md
+      - url: administer/model-customize-reports.md
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
       links: 
-      - url: voice-channel-contextual-transfer-external-ivr.md
+      - url: administer/voice-channel-contextual-transfer-external-ivr.md
         text: Integrate a third-party IVR system with voice channel
-      - url: configure-bot-virtual-agent.md
+      - url: administer/configure-bot-virtual-agent.md
         text: Integrate a Copilot Studio bot
-      - url: integrate-km-with-pva.md
+      - url: administer/integrate-KM-with-PVA.md
         text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
     - title: Configure AI features
       links:
-      - url: configure-copilot-features.md
+      - url: administer/configure-copilot-features.md
         text: Manage copilot features in Customer Service
-      - url: copilot-powerapps-settings.md
+      - url: administer/copilot-powerapps-settings.md
         text: Configure copilot features for custom case forms and custom apps
-      - url: csw-enable-ai-suggested-cases-knowledge-articles.md
+      - url: administer/csw-enable-ai-suggested-cases-knowledge-articles.md
         text: Enable AI suggestions for similar cases and knowledge articles
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
-      - url: channel-integration-framework/channel-integration-framework.md
+      - url: ../channel-integration-framework/channel-integration-framework.md
         text: Dynamics 365 Channel Integration Framework 
   - title: Manage your contact center
     items:
     - title: Manage cases and solve issues within SLAs
       links:
-      - url: customer-service-hub-user-guide-create-a-case.md
+      - url: use/customer-service-hub-user-guide-create-a-case.md
         text: Create cases
-      - url: case-grids.md
+      - url: use/case-grids.md
         text: Manage cases with case grids
-      - url: customer-service-hub-user-guide-dashboard.md
+      - url: use/customer-service-hub-user-guide-dashboard.md
         text: Manage cases using interactive dashboards
-      - url: customer-service-hub-user-guide-case-sla.md
+      - url: use/customer-service-hub-user-guide-case-sla.md
         text: Work with SLAs
     - title: Communicate over channels that customers prefer
       links:
-      - url: channels.md
+      - url: use/channels.md
         text: Communicate over multiple channels
-      - url: voice-channel.md
+      - url: administer/voice-channel.md
         text: Communicate over the voice channel
-      - url: voice-channel-transfer-consult.md
+      - url: use/voice-channel-transfer-consult.md
         text: Transfer calls and consult with users in the voice channel
-      - url: oc-conversation-control.md
+      - url: use/oc-conversation-control.md
         text: View the communication panel 
     - title: Increase productivity and customer satisfaction 
       links:
-      - url: csw-productivity-pane.md
+      - url: use/csw-productivity-pane.md
         text: Use the productivity pane to resolve customer issues
-      - url: create-personal-quick-replies.md
+      - url: use/create-personal-quick-replies.md
         text: Use email to interact consistently with customers
       - url: /power-apps/user/add-activities
         text: Manage conversations and activities on the timeline
-      - url: search-knowledge-articles-csh.md
+      - url: use/search-knowledge-articles-csh.md
         text: Search and use knowledge articles
     - title: Use AI capabilities
       links:
-      - url: csw-view-ai-suggested-cases-knowledge-articles.md
+      - url: use/csw-view-ai-suggested-cases-knowledge-articles.md
         text: View AI-suggested similar cases and knowledge articles 
-      - url: teams-use-suggested-contacts.md
+      - url: use/teams-use-suggested-contacts.md
         text: Use suggested contacts
-      - url: cs-ai-generated-summary.md
+      - url: use/cs-ai-generated-summary.md
         text: Use auto-summarization for ongoing conversations
-      - url: use-ai-suggested-contacts-teams.md
+      - url: use/use-ai-suggested-contacts-teams.md
         text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Get insights and analyze service operations 
       links:
       - url: customer-service-analytics-insights-csh.md
         text: Use Customer Service dashboards
-      - url: omnichannel-analytics-insights.md
+      - url: use/omnichannel-analytics-insights.md
         text: Use Omnichannel for Customer Service dashboards
-      - url: intro-realtime-analytics-dashboard.md
+      - url: use/intro-realtime-analytics-dashboard.md
         text: Use Omnichannel real-time analytics dashboards 
-      - url: manage-bookmarks.md
+      - url: use/manage-bookmarks.md
         text: Use bookmarks for reports 
-      - url: customize-reports.md
+      - url: use/customize-reports.md
         text: Customize visual display
     - title: Collaborate using Microsoft Teams
       links:      
-      - url: use-teams-chat.md
+      - url: use/use-teams-chat.md
         text: Collaborate without switching context
-      - url: use-teams-meetings.md
+      - url: use/use-teams-meetings.md
         text: Use Teams meetings 
-      - url: use-customer-support-swarming.md
+      - url: use/use-customer-support-swarming.md
         text: Use customer support swarming to resolve issues 
     - title: Explore your apps
       links:
-      - url: cs-admin-center.md
+      - url: implement/cs-admin-center.md
         text: Admins, use Customer Service admin center
-      - url: csw-overview.md
+      - url: implement/csw-overview.md
         text: Agents, use Customer Service workspace
-      - url: customer-service-team-member.md
+      - url: implement/customer-service-team-member.md
         text: Team members, use Customer Service Team Member  
   - title: Related products
     items:
