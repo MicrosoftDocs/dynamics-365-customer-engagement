@@ -33,8 +33,11 @@ Copilot is enabled by default in all sales apps for orgs in North America. If yo
 
 ## Prerequisite
 
-Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
-Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully and then follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot).
+Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. Ensure to complete the following actions:
+ 
+- Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully.
+
+- Follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to enable data movement across regions.
 
 
 ## Enable or disable Copilot features in Dynamics 365 apps
@@ -93,7 +96,8 @@ By default, Copilot uses a set of predefined fields to [generate summaries](use-
 1. Select the **Summary** tab to configure fields for generating summaries. Select the **Catchup** tab to configure fields for generating catch ups or recent changes.  
 
 1. Select **Add fields** to add fields from either the Lead table or related tables. You can add up to 10 fields.  
-    If you've added more than 10 fields, clear the checkbox for fields that you don't need. If you've selected more than 10 fields, the top 10 fields are used for generating summaries.
+    If you've added more than 10 fields, clear the checkbox for fields that you don't need or select the field and select **Delete**. If you've selected more than 10 fields, an error prevents you from saving the changes.
+
 1. Save the changes.
 
 ## Grant audit access to your sellers
