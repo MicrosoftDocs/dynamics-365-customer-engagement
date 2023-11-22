@@ -89,5 +89,5 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 ### See also
 
 [Omnichannel for Customer Service app deprecation and migration FAQ](migrate-oc-faq.md)<br>
-[Get started with Customer Service workspace](../csw-overview.md)<br>
+[Get started with Customer Service workspace](../implement/csw-overview.md)<br>
 [Overview of the productivity pane](../use/csw-productivity-pane.md)
