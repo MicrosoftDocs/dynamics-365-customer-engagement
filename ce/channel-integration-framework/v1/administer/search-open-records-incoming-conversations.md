@@ -207,6 +207,6 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
 [Build a simple communication widget](getting-started-simple-widget.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  
-[Frequently asked questions](faq-channel-integration-framework.md)  
+[Frequently asked questions](../../faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

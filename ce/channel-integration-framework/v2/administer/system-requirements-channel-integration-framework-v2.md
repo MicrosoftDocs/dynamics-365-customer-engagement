@@ -40,7 +40,7 @@ The domain of the channel URL should use HTTPS protocol.
 [Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
 [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  
 [Overview of Dynamics 365 Channel Integration Framework 2.0](overview-channel-integration-framework.md)  
-[FAQs](../../v1/administer/faq-channel-integration-framework.md)  
+[FAQs](../../faq-channel-integration-framework.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

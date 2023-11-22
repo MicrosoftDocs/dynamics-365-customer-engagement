@@ -17,7 +17,7 @@ ms.custom:
 <h2> General </h2>
 <li><a href="choose-between-versions.md" data-raw-source="[Choose between Channel Integration Framework version 1.0 and 2.0](choose-between-versions.md)">Choose between Channel Integration Framework version 1.0 and 2.0</a></li>
 
-<li><a href="v1/administer/faq-channel-integration-framework.md" data-raw-source="[Frequently asked questions](v1/administer/faq-channel-integration-framework.md)">Frequently asked questions</a></li>
+<li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently asked questions](faq-channel-integration-framework.md)">Frequently asked questions</a></li>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ ms.custom:
  
 <li><a href="v2/develop/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
  methods](v2/develop/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
-<li><a href="v2/v1/develop/reference/client-side-events.md" data-raw-source="[Client-side events](v2/v1/develop/reference/client-side-events.md)">Client-side events</a>
+<li><a href="v2/develop/reference/client-side-events.md" data-raw-source="[Client-side events](v2/develop/reference/client-side-events.md)">Client-side events</a>
 <li><a href="/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_channelprovider" data-raw-source="[Entity reference](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/msdyn_channelprovider)">Entity reference</a></li>
 </td>
 </tr>

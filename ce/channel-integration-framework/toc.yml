@@ -308,6 +308,6 @@
 - name: Dynamics 365 Customer Service Guide
   href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: ../customer-service/introduction-omnichannel.md
+  href: ../customer-service/implement/introduction-omnichannel.md
 - name: Unified Service Desk Guide
-  href: ../unified-service-desk/unified-service-desk-guide.md
+  href: ../unified-service-desk/unified-service-desk.md

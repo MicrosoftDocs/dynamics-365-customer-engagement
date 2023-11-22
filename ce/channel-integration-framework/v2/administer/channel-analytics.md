@@ -165,7 +165,7 @@ More information: [Sample code for softphone integration using Dynamics 365 Chan
 
 [Agent experience profiles](../../../customer-service/administer/overview.md)
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
-[Frequently asked questions](../../v1/administer/faq-channel-integration-framework.md)  
+[Frequently asked questions](../../faq-channel-integration-framework.md)  
 
 
 

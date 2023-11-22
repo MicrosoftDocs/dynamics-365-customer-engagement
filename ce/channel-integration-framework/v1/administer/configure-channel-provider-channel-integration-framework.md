@@ -63,7 +63,7 @@ searchScope:
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
 [Microsoft.CIFramework.getEnvironment](../develop/reference/microsoft-ciframework/getEnvironment.md)  
 [Configure single and multiple channel providers in Dynamics 365 Channel Integration Framework 2.0](../../v2/administer/configure-channel-provider-app-profile-manager.md)  
-[FAQ about Dynamics 365 Channel Integration Framework](faq-channel-integration-framework.md)  
+[FAQ about Dynamics 365 Channel Integration Framework](../../faq-channel-integration-framework.md)  
 [Bring your own channel](../../../customer-service/bring-your-own-channel.md)  
 
 
