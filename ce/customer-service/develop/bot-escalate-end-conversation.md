@@ -8,7 +8,7 @@ ms.author: nenellim
 ---
 # Configure Azure bots to escalate and end conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
@@ -279,4 +279,4 @@ The bot can also send an escalation summary that'll be visible only to the agent
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 [Best practices for configuring Azure and Copilot Studio bots](administer/configure-bot-best-practices.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

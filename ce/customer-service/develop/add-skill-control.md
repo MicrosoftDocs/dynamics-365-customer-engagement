@@ -60,4 +60,4 @@ Though we don't recommend setting up parameters for the skill control, if you wa
 [Query table definitions using the Web API](/powerapps/developer/data-platform/webapi/query-metadata-web-api)  
 [Add, configure, move, or delete components on a form](/powerapps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
