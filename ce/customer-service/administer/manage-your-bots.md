@@ -50,5 +50,5 @@ On the **Bots** page, you can review the bot details and also perform the follow
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Configure Copilot Studio bots for voice channel](voice-channel-pva-bots.md)  
