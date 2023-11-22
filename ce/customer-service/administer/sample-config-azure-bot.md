@@ -32,7 +32,7 @@ In this sample configuration, three queues and three routing rules are created. 
     - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](../media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
-5. [Configure the Azure bot to escalate and end conversations](../bot-escalate-end-conversation.md).
+5. [Configure the Azure bot to escalate and end conversations](../develop/bot-escalate-end-conversation.md).
 
 When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately.
 
@@ -40,7 +40,7 @@ When a chat is started by a customer, the query is routed to the bot through the
 
 [Integrate an Azure bot ](../configure-bot.md)  
 [Best practices for configuring Azure and Copilot Studio bots](../configure-azure-bot-best-practices.md)  
-[Configure Azure bots to escalate and end conversation](../bot-escalate-end-conversation.md)  
+[Configure Azure bots to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [View bot insights](../implement/omnichannel-insights-dashboard.md#botinsights)  
 

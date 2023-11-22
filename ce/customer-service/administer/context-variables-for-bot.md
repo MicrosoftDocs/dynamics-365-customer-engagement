@@ -130,7 +130,7 @@ Here's a sample context record.
 
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
-[Configure bots to escalate and end conversations](../bot-escalate-end-conversation.md)  
+[Configure bots to escalate and end conversations](../develop/bot-escalate-end-conversation.md)  
 [Live chat SDK reference](../develop/omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
