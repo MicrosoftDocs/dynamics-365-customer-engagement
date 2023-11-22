@@ -253,7 +253,7 @@
       - name: Manage case queues and route cases
         href: use/customer-service-hub-user-guide-case-queues-and-routing.md
       - name: Manage skills
-        href: administer/manage-skills.md
+        href: manage-skills.md
     - name: Developer experience
       items: 
       - name: Understand how unified routing affects queue items and live work items for routed records
