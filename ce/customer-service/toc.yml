@@ -319,7 +319,7 @@
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
       - name: Remove validation on contact and customer for cases
-        href: remove-validation-contact.md
+        href: remove-validation-contacts.md
   - name: Automatically create or update records
     items: 
     - name: Automatically create or update records

@@ -32,8 +32,10 @@ With the **Auto Geo Code Addresses** setting, the system attempts to automatical
   
 1. Select **Save**.  
 
-> [!NOTE]
-> When geocoding an address, the only street field used is **Street1**. Additional information like apartment number in **Street2** and **Street3** will be ignored.
+When geocoding an address, the only street field used is **Street1**. Additional information like apartment number in **Street2** and **Street3** will be ignored. Don't add the extended information to **Street1**. The string length could be too long to process.
+
+> [!TIP]
+> When the system finds no geocode match, it returns the value (0,0). Any custom logic that uses geocoding should ignore these results to avoid incorrect locations and travel routes.
 
 ## Geocode the address on a record  
   
