@@ -61,7 +61,7 @@ The following browsers are supported by the customer-facing live chat widget tha
 
 ## Provision Omnichannel for Customer Service
 
-To enable the Omnichannel for Customer Service app in your org, see [Provision Omnichannel for Customer Service](../administer/omnichannel-provision-license.md).
+To enable the Omnichannel for Customer Service app in your org, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
 
 To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 

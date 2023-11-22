@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 07/21/2023
+ms.date: 11/21/2023
 ms.custom: bap-template
 ---
 
@@ -63,10 +63,10 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 
 1. Select **Next**.
 
-1. In the **Authentication and testing** section:
+1. In the **Authentication and testing** section, [verify](#verify-search-provider-website) and enter the following:
 
-    - **Root URL**: Enter the root URL of the search provider website, including the protocol.
-    - **Site map URL**: Enter the site map URL of the website. To get the site map URL, enter the root URL followed by `/robots.txt` in the address bar, and then search the file for "sitemapindex." For example, type https://www.contoso.com/robots.txt in the address bar.
+    - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
+    - **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. 
 
         > [!NOTE]
         >
@@ -172,6 +172,16 @@ Configure search providers as filters to search knowledge articles only from sel
 1. Optionally, to set predetermined search providers to appear for agents by default, switch **Set as preselected filter** to **Yes**.
 
 If you select a deactivated data search provider, it might appear on the **Filter by** list, but no search results from the selected provider are returned.
+
+## Verify search provider website
+
+It is necessary to verify whether the search provider website that you want to use has the appropriate site map collection. To do so, you must identify the root and the site map URL.
+
+- **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
+- **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. To get the required site map collection from the robots.txt file, make sure that the site map link that you select has **sitemapindex**, for example: "https://contoso.com/_sitemaps/sitemapindex.xml".
+    
+    :::image type="content" source="../media/int_sitemap.jpg" alt-text="Screenshot shows an example of the robots.txt file.":::
+
 
 ## Next steps
 

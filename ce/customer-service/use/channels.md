@@ -58,7 +58,7 @@ If you want to help your customers using social media, you can use the following
 
 If you want to help your customers using social channels that are not supported as standard channels, such as Telegram, you can use the custom channels. To learn more, see [Configure custom messaging application](../administer/configure-custom-channel.md).
 
-If you want to help your customers using your line-of-business messaging channels, you can use the [Direct Line](../bring-your-own-channel.md) Bot Framework method.
+If you want to help your customers using your line-of-business messaging channels, you can use the [Direct Line](../develop/bring-your-own-channel.md) Bot Framework method.
 
 ## Microsoft Teams
 

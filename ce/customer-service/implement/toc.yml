@@ -99,7 +99,7 @@
         - name: Move from Customer Service Enterprise to Professional
           href: move-cs-enterprise-cs-professional.md
         - name: Install Omnichannel for Customer Service
-          items: 
+          items:
           - name: Provision Omnichannel for Customer Service
             href: omnichannel-provision-license.md
           - name: Export and import app configuration data
@@ -139,12 +139,12 @@
       - name: Community
         href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
     - name: Administer Dynamics 365 Customer Service
-      href: ../../users-user-profiles.md
+      href: overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Manage your contact center
-      href: ../../supervisor-historical-analytics.md
+      href: overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Develop Dynamics 365 Customer Service
-      href: ../../unified-routing-impact-on-apis. md
+      href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
-      href: ../../channel-integration-framework.md
+      href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
-      href: ../../unified-service-desk.md
+      href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml

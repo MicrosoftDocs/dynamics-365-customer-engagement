@@ -53,7 +53,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Enable formatted messages](../administer/enable-formatted-messages.md)  
-[Markdown formats for agents](../administer/markdown-formats-agents.md)  
+[Markdown formats for agents](../use/markdown-formats-agents.md)  
 [Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

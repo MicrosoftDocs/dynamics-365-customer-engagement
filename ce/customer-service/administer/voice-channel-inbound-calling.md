@@ -18,7 +18,7 @@ Configure inbound calling to set up the voice channel in Customer Service. You c
 
 Ensure that the following prerequisites are met:
 
-- Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Set up a voice workstream

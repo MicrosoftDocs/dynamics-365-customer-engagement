@@ -54,7 +54,7 @@ Perform the following steps to upload the web resource file for real-time transl
 ### See also
 
 [Enable real-time translation of conversations](../administer/enable-real-time-translation.md)  
-[Real-time translation of conversations](../administer/oc-real-time-translation.md)  
+[Real-time translation of conversations](../use/oc-real-time-translation.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

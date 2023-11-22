@@ -40,7 +40,7 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
     > [!Note]
-    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](../cs-admin-center.md)
+    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](../implement/cs-admin-center.md#get-started-with-customer-service-admin-center)
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 

@@ -83,7 +83,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ## View case details
 
-Use the **Case** section to search for an existing case, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](../administer/enh-casemgmt-csw.md)
+Use the **Case** section to search for an existing case, and select the case to link it to the conversation. If the record doesn't exist, you can create a new case by using the **Add Case** button. After you create it, search for the record and then select it to link it to the conversation. More information: [Case management in multisession apps](enh-casemgmt-csw.md)
 
 Depending on the settings that are enabled for you, you'll see one of the following layouts:
 

@@ -24,7 +24,7 @@ As an administrator, you can do the following tasks:
 
 The following prerequisites must be met.
 
-- The channel that you want to use must be provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- The channel that you want to use must be provisioned in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
 - To send outbound messages through SMS, you must configure the SMS channel using Twilio, TeleSign, or Azure Communication Services. More information: [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md), [Configure an SMS channel for TeleSign](configure-sms-channel.md), and [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md)
 - To send outbound messages through WhatsApp, you must [configure the WhatsApp channel](configure-whatsapp-channel.md) by using a Twilio account.
 - You must have a Power Automate account.
@@ -171,6 +171,6 @@ To view more videos about Omnichannel for Customer Service, go to [Videos](../us
 [Channels in Omnichannel for Customer Service](../use/channels.md) <br> 
 [Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
 [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md)<br>
-[SMS FAQ](../implement/faqs.md#sms)
+[SMS FAQ](faqs.md#sms)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

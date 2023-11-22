@@ -15,7 +15,7 @@ When your agents are working on cases, there may be times when you want them to 
 
 To enable agents to be able to have conversations in Customer Service workspace, do the following: 
 
-1. Obtain Omnichannel for Customer Service add-on [licenses](https://dynamics.microsoft.com/pricing/customer-service/#plans) and set up your Omnichannel environment. More information: [Provision Omnichannel](../customer-service/administer/omnichannel-provision-license.md). 
+1. Obtain Omnichannel for Customer Service add-on [licenses](https://dynamics.microsoft.com/pricing/customer-service/#plans) and set up your Omnichannel environment. More information: [Provision Omnichannel](../customer-service/implement/omnichannel-provision-license.md). 
 
 2. Configure the following in the Omnichannel administrator app: 
 

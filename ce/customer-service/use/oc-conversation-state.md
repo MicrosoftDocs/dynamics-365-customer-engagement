@@ -98,7 +98,7 @@ The conversations that are completed by ending them or closing the session are c
 ### See also
 
 [View communication panel](oc-conversation-control.md)  
-[Configure automatic closure of conversations](../administer/auto-close-conversation.md)  
+[Configure automatic closure of conversations](../develop/auto-close-conversation.md)  
 [Configure automatic closure of conversations using Power Apps](../administer/auto-close-conversation-powerapps.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,6 +40,6 @@ In Omnichannel for Customer Service, you can configure the SMS channel as follow
 ### See also
 
 [Channels in Omnichannel for Customer Service](channels.md)  
-[SMS FAQ](../implement/faqs.md#sms)  
+[SMS FAQ](../administer/faqs.md#sms)  
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 

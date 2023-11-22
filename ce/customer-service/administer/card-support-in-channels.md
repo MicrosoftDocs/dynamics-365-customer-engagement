@@ -156,6 +156,6 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 [Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
 [Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  
-[Markdown formats for agents](markdown-formats-agents.md)  
+[Markdown formats for agents](../use/markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

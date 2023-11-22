@@ -83,7 +83,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
 If you save the case by using the enhanced full case form, the application displays the following elements:
    - A service level agreement (SLA) timer that displays the time within which the agents must first respond to a customer and the time by which they must resolve the case.
-   - Links to the activities that are associated with the case, and that are either due on the current date or past their due date. Select a link to view the open activities associated with the case on a tab that your administrator has configured. By default, the application displays open activities on the **Activities** tab. [Learn how to specify a tab to redirect users to view the open activities for a case.](case-enh-config.md)
+   - Links to the activities that are associated with the case, and that are either due on the current date or past their due date. Select a link to view the open activities associated with the case on a tab that your administrator has configured. By default, the application displays open activities on the **Activities** tab. [Learn how to specify a tab to redirect users to view the open activities for a case.](../administer/case-enh-config.md)
    - A **Customer Details** side pane that displays related customer information and recent case information.
    - **Queue item details**, which displays the current queue the case belongs to and the **Worked by** field.
    - **Case associations**, which displays details of the relevant records that are associated with a case. 
@@ -109,11 +109,11 @@ If you save the case by using the enhanced full case form, the application displ
 When you create a new case and specify a customer or an account, or open a case after you save it, the application displays the following details, based on your administrator's configurations:
 
 - **Customer Details**: Displays the customer details configured by your administrator. You can edit the information inline, copy the information and initiate activities such as email or a phone call. The activities open as a new quick create form on the main page.
-- **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
+- **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](../administer/add-display-components-to-case-form.md).
 
 
 ### See also
 
-[Enable enhanced case forms for multisession apps](case-enh-config.md)<br>
+[Enable enhanced case forms for multisession apps](../administer/case-enh-config.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)<br>
 [View Active conversation to get available information about customers](../use/oc-customer-summary.md)

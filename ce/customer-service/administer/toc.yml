@@ -11,7 +11,7 @@
       - name: Troubleshooting and FAQs
         items:
         - name: Troubleshooting and FAQs
-          href: /troubleshoot/dynamics-365/customer-service/welcome-customer-service
+          href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Check your contact center health
           href: check-contact-center-health.md
       - name: User management
@@ -29,13 +29,13 @@
       - name: Agent experience profiles for Customer Service
         items: 
         - name: Overview of agent experience profiles
-          href: ../app-profile-manager/overview.md
+          href: overview.md
         - name: Roles and permissions
-          href: ../app-profile-manager/security-roles.md
+          href: security-roles.md
         - name: Create and use agent experience profiles
-          href: ../app-profile-manager/create-agent-experience-profile.md
+          href: create-agent-experience-profile.md
         - name: Add users to agent experience profiles
-          href: ../app-profile-manager/add-profile-default.md
+          href: add-profile-default.md
         - name: Configure the inbox for agents
           href: configure-inbox.md     
         - name: Configure the agent calendar view
@@ -43,29 +43,29 @@
         - name: Templates
           items: 
           - name: Manage session templates
-            href: ../app-profile-manager/session-templates.md
+            href: session-templates.md
           - name: Manage application tab templates
-            href: ../app-profile-manager/application-tab-templates.md
+            href: application-tab-templates.md
           - name: Manage notification templates
-            href: ../app-profile-manager/notification-templates.md
+            href: notification-templates.md
           - name: Associate templates with workstreams
-            href: ../app-profile-manager/associate-templates.md
+            href: associate-templates.md
         - name: Productivity tools
           items: 
           - name: Overview of productivity tools
-            href: ../app-profile-manager/productivity-tools.md
+            href: productivity-tools.md
           - name: Manage smart assist
-            href: ../app-profile-manager/smart-assist.md
+            href: smart-assist.md
           - name: Manage agent scripts
-            href: ../app-profile-manager/agent-scripts.md
+            href: agent-scripts.md
           - name: Manage macros
-            href: ../app-profile-manager/macros.md
+            href: macros.md
           - name: Manage custom productivity tools
             href: manage-custom-productivity-tools.md
           - name: Use automation dictionary to pass parameters keys
-            href: ../app-profile-manager/automation-dictionary-keys.md
+            href: automation-dictionary-keys.md
           - name: FAQ about adding users to agent experience profile
-            href: ../app-profile-manager/faq-agent-experience-profile.md
+            href: faq-agent-experience-profile.md
       - name: Community
         items: 
         - name: Overview of Community
@@ -150,8 +150,6 @@
           href: manage-routing-diagnostics-data.md
         - name: Use best practices to set up unified routing
           href: unified-routing-best-practices.md
-        - name: Understand how unified routing affects queue items and live work items for routed records
-          href: unified-routing-impact-on-apis.md
         - name: FAQ about unified routing
           href: unified-routing-faqs.md
       - name: Case management
@@ -185,7 +183,7 @@
           - name: Modify case resolution dialog
             href: modify-case-resolution-dialog.md
           - name: Remove validation on contact and customer for cases
-            href: remove-validation-contact.md
+            href: remove-validation-contacts.md
           - name: FAQ on managing cases
             href: faq-case-mgmt.md
       - name: Automatically create or update records
@@ -225,7 +223,7 @@
           - name: Export and import a solution with SLAs
             href: export-import-solution.md
           - name: Manage service configuration settings
-            href: ../admin/system-settings-dialog-box-service-tab.md
+            href: ../../admin/system-settings-dialog-box-service-tab.md
           - name: Calculate SLA KPIs
             items:
             - name: Recalculate SLAs in terminal status
@@ -293,7 +291,7 @@
               - name: View and use insights for search providers
                 href: view-and-use-insights.md
               - name: Schema details to build a metadata mapping template
-                href: int-search-metadata-schema.md
+                href: ../develop/int-search-metadata-schema.md
           - name: Customize knowledge article search filters
             href: enable-knowledge-article-search-filters.md
           - name: Create and manage knowledge categories
@@ -434,10 +432,6 @@
             href: persistent-chat.md
           - name: Configure reconnection to a previous chat session
             href: configure-reconnect-chat.md
-          - name: Understand disconnected chats
-            href: oc-conv-state-chat-disconnect.md   
-          - name: Understand conversation states
-            href: oc-conversation-state.md 
           - name: Show customers their position in a queue
             href: show-queue.md
           - name: Show customers their average wait time in a queue
@@ -466,8 +460,6 @@
         items: 
           - name: Set up SMS channels
             items: 
-            - name: Overview of SMS channels
-              href: sms-channel-overview.md
             - name: Configure an SMS channel using Azure Communication Services
               href: configure-sms-channel-acs.md
             - name: Configure an SMS channel for TeleSign
@@ -545,7 +537,7 @@
           - name: Productivity pane
             href: productivity-pane.md
           - name: Enable productivity pane and smart assist
-            href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
+            href: app-profile-manager.md#enable-prod-pane
           - name: Create quick replies
             href: create-quick-replies.md
           - name: Manage rich messages
@@ -569,16 +561,16 @@
       - name: Copilot in Customer Service 
         items: 
           - name: Manage Copilot features in Customer Service
-            href: configure-copilot-features.md     
+            href: configure-copilot-features.md
           - name: Enable case summaries
             href: copilot-enable-summary.md#enable-case-summaries  
           - name: Enable conversation summaries
             href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable ask a question (preview)
+          - name: Enable ask a question
             href: copilot-enable-help-pane.md#enable-ask-a-question
           - name: Enable draft a response (preview)
-            href: copilot-enable-help-pane.md#enable-draft-a-response
-          - name: Enable write an email (preview)
+            href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+          - name: Enable write an email
             href: copilot-enable-help-pane.md#enable-write-an-email
           - name: View feedback data
             href: configure-copilot-features.md#record-feedback        
@@ -586,12 +578,12 @@
             href: configure-copilot-features.md#make-copilot-available-to-agents
           - name: Copilot data movement across geographies
             href: copilot-data-movement.md
+          - name: Manage fields Copilot uses for case summaries and emails
+            href: copilot-map-custom-fields.md
+          - name: Configure copilot features for custom case forms and custom apps
+            href: copilot-powerapps-settings.md
           - name: Display Copilot case summary on custom case forms
             href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
-          - name: Modify fields used to generate case summary
-            href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
-          - name: Manage fields Copilot uses for case summaries and emails
-            href: copilot-map-custom-fields 
           - name: Enable Copilot features for custom apps
             href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
       - name: Bots
@@ -683,9 +675,7 @@
             - name: Create or edit services
               href: create-edit-service-csh.md
             - name: Manage fulfillment preferences
-              href: ../common-scheduler/fulfillment-preferences.md
-          - name: Configure service activity using schedule board
-            href: use-schedule-board-configure-service-activity.md
+              href: /dynamics365/common-scheduler/fulfillment-preferences
         - name: Legacy Service Scheduling
           items: 
           - name: Create or change a service
@@ -784,10 +774,6 @@
             href: migrate-tool-faqs.md
       - name: Known issues in Customer Service and Omnichannel for Customer Service
         href: https://go.microsoft.com/fwlink/p/?linkid=2165393
-      - name: Report issues in Omnichannel for Customer Service
-        href: report-issues.md
-      - name: Share feedback in Customer Service
-        href: cs-share-feedback.md
       - name: FAQ about Customer Service admin center
         href: faq-customer-service-admin-center.md
       - name: FAQ about Omnichannel for Customer Service
@@ -809,12 +795,12 @@
         - name: Community
           href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
     - name: Implement Dynamics 365 Customer Service
-      href: ../../csw-overview.md
+      href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Manage your contact center
-      href: ../../supervisor-historical-analytics.md
+      href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Develop Dynamics 365 Customer Service
-      href: ../../unified-routing-impact-on-apis. md
+      href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
-      href: ../../channel-integration-framework.md
+      href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
-      href: ../../unified-service-desk.md
+      href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml

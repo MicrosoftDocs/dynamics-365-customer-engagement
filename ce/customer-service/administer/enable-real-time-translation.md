@@ -57,7 +57,7 @@ You can enable real-time translation in the Customer Service admin center or Omn
 ### See also
 
 [Add a web resource for real-time translation](../develop/add-web-resource-real-time-translation.md)  
-[Real-time language translation of conversations for agents and customers](oc-real-time-translation.md)  
+[Real-time language translation of conversations for agents and customers](../use/oc-real-time-translation.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

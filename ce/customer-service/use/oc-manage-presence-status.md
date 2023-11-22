@@ -79,7 +79,7 @@ Your presence status pertains to the following conditions:
    - Closes or signs out of the device
    - Experiences disruption to internet
    
-More information: [FAQ on agent presence](../implement/faqs.md#faq-on-agent-presence)
+More information: [FAQ on agent presence](../administer/faqs.md#faq-on-agent-presence)
 
 ## Presence status scenarios
 

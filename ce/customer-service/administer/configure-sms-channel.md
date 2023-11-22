@@ -35,7 +35,7 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md).
 
 
 ## Sign up for TeleSign account
@@ -187,9 +187,9 @@ When you validate the API key while setting up the SMS channel, a call is made t
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
 [Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
-[Create and manage routing rules](../routing-rules.md)  
+[Create and manage workstreams](create-workstreams.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Delete a configured channel](delete-channel.md)  
-[SMS FAQ](../implement/faqs.md#sms)  
+[SMS FAQ](faqs.md#sms)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

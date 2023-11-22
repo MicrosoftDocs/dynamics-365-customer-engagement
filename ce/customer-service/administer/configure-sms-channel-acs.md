@@ -17,7 +17,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
 ## Prerequisites
 
-- Purchase and install the voice channel for Dynamics 365 Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) and [Install voice channel](voice-channel-install.md)
+- Purchase and install the voice channel for Dynamics 365 Customer Service. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md) and [Install voice channel](voice-channel-install.md)
 - Connect to Azure Communication Services. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   
    If you’ve connected your existing Azure resource, ensure that you’ve enabled SMS services. More information: [Enable call recording and SMS services](voice-channel-connect-existing-resource.md#enable-call-recording-and-sms-services)
@@ -61,7 +61,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 [Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
 [Configure SMS channel for TeleSign](configure-sms-channel.md)  
 [Delete a configured channel](delete-channel.md)  
-[SMS FAQ](../implement/faqs.md#sms)  
+[SMS FAQ](faqs.md#sms)  
 [Support for live chat and asynchronous channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

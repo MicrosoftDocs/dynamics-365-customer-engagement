@@ -25,7 +25,7 @@ The following FAQ articles discuss issues specific to Customer Service. Each of 
 - [FAQ about managing cases](../administer/faq-case-mgmt.md)
 - [FAQ about automatic record creation](../administer/arc-faqs.md)
 - [FAQ about AI suggestions for cases and knowledge articles](../administer/csw-faqs-ai-suggestions.md)
-- [FAQ about Omnichannel for Customer Service](faqs.md)
+- [FAQ about Omnichannel for Customer Service](../administer/faqs.md)
 - [FAQ about custom time calculation of SLA KPIs](../administer/faqs-custom-time-sla-kpis.md)
 - [FAQ about the voice channel](../administer/voice-channel-faqs.md)
 - [FAQ about Activities and the Timeline Wall](/powerapps/user/faq-for-timeline-and-activity)

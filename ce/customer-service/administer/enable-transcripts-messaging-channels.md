@@ -70,4 +70,4 @@ To view transcripts in Omnichannel for Customer Service, do the following:
 ### See also
 
 [Configure chat](../administer/add-chat-widget.md)  
-[View communication panel](oc-conversation-control.md)
+[View communication panel](../use/oc-conversation-control.md)

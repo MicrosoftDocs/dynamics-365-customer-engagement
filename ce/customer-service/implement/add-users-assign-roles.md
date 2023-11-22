@@ -134,7 +134,7 @@ The entities and their secret attributes are as follows. For more information on
 
 ### See also
 
-[Provision Omnichannel for Customer Service](../administer/omnichannel-provision-license.md)  
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Roles and privileges associated with app profile manager](../administer/security-roles.md)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  

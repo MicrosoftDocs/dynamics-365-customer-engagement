@@ -45,7 +45,7 @@ The following image shows a sample screenshot of the customer experience.
 ### See also
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md)  
-[View communication panel](../use/oc-conversation-control.md)  
+[View communication panel](oc-conversation-control.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
