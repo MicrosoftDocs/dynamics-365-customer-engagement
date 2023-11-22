@@ -25,7 +25,7 @@ Following are the prerequisites before configuring the LINE channel in Omnichann
 > [!NOTE]
 > To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).
 
-1.	Create a LINE handle. More information: [Create and Manage a LINE profile](https://account.line.biz/signup)
+1.	Create a [LINE](https://line.me/en/) handle.
 2.	Create a LINE channel in the LINE Developers console. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
 
 After completing the prerequisites, you can add the LINE channel for your organization by following these steps:
