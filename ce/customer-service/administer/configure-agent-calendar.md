@@ -72,6 +72,6 @@ Administrators can utilize this view to verify the proper functioning of the thi
 
 ## Next Steps
 
-[Get started with Customer Service workspace](../csw-overview.md)  
+[Get started with Customer Service workspace](../implement/csw-overview.md)  
 [Use the agent calendar view](../use/use-agent-calendar.md)
 
