@@ -52,7 +52,7 @@ After upgrading Omnichannel for Customer Service, we recommend that you use the 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [FAQ on unified routing](unified-routing-faqs.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

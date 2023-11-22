@@ -40,7 +40,7 @@ These workstreams were created either in the Customer Service admin center or Cu
 To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
 > [!NOTE]
-> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center app. We recommend that you familiarize yourself with the app before migrating. More information: [Get started with Customer Service admin center](../cs-admin-center.md).
+> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center app. We recommend that you familiarize yourself with the app before migrating. More information: [Get started with Customer Service admin center](../implement/cs-admin-center.md).
 
 ### Can I manage my workstreams in the Omnichannel Administration app post migration?
 

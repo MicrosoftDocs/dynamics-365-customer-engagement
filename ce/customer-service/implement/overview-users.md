@@ -21,6 +21,6 @@ The topics in this section explain how to use the Microsoft 365 admin center to 
 
 ### See also
 
-[Manage users in Omnichannel for Customer Service](/users-user-profiles.md)  
-[Manage capacity profiles](/capacity-profiles.md)  
-[Role persona mapping](/role-persona-mapping.md)  
+[Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
+[Manage capacity profiles](../administer/capacity-profiles.md)  
+[Role persona mapping](../administer/role-persona-mapping.md)  

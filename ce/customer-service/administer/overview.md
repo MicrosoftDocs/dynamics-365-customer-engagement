@@ -20,7 +20,7 @@ Agent productivity tools use intelligence and automation to enable agents to fin
 
 The profiles are available for agents and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
-The system requirements for agent profiles and Customer Service workspace are the same. More information: [System requirements for Customer Service workspace](../customer-service-workspace-system-requirements.md)
+The system requirements for agent profiles and Customer Service workspace are the same. More information: [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md)
 
 ## How the agent experience profile works
 
@@ -41,6 +41,6 @@ You can create and manage agent experience profiles in the [Customer Service adm
 ### See also
 [Create and use agent experience profiles](create-agent-experience-profile.md)    
 [Create app profiles](../../app-profile-manager/create-app-profiles-powerapps.md)  
-[System requirements](../customer-service-workspace-system-requirements.md)  
+[System requirements](../implement/customer-service-workspace-system-requirements.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

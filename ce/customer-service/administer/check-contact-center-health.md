@@ -60,6 +60,6 @@ Some of the rules used in the health check and their descriptions are as follows
 
 [Create queues in unified routing](queues-omnichannel.md)  
 [Create records automatically](automatically-create-update-records.md)  
-[Use Customer Service admin center](../cs-admin-center.md)  
+[Use Customer Service admin center](../implement/cs-admin-center.md)  
 
 
