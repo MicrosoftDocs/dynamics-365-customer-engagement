@@ -30,4 +30,4 @@ const session = Microsoft.Apm.getFocusedSession();
 console.log(session.canCreateTab());
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

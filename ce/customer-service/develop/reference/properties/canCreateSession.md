@@ -35,4 +35,4 @@ Microsoft.Apm.createSession({templateName: "case_entity_session_default_template
 }
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -18,4 +18,4 @@ const session = Microsoft.Apm.getFocusedSession();
 console.log(session.isDefault);
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

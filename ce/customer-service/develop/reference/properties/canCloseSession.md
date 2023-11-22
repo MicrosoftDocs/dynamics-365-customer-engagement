@@ -25,4 +25,4 @@ const session = Microsoft.Apm.getFocusedSession();
 session.canClose = false;
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

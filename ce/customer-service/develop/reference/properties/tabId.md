@@ -19,4 +19,4 @@ const tabId = session.getFocusedTab().tabId;
 console.log(tabId);
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

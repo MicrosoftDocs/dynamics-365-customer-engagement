@@ -10,7 +10,7 @@ ms.author: nenellim
 
 
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 
 In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Omnichannel for Customer Service.
@@ -62,4 +62,4 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 [Search for transcripts](oc-search-transcipts.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -27,4 +27,4 @@ if (tab.canClose) {
 }
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

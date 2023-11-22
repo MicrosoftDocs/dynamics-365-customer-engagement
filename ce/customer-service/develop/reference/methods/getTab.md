@@ -26,4 +26,4 @@ const session = Microsoft.Apm.getFocusedSession();
 session.getTab("tab-id-1").refresh();
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

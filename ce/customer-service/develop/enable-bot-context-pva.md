@@ -11,9 +11,9 @@ ms.collection:
 ---
 # Configure bot context in Copilot Studio bots  
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[pva-rebrand](../includes/cc-pva-rebrand.md)]
+[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 As a bot author, you can enable your Copilot Studio bots to understand context while authoring a bot flow.
 
@@ -39,4 +39,4 @@ Use the information in one of the following articles to configure context variab
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

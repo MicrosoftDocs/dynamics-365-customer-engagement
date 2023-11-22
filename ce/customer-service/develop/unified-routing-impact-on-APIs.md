@@ -78,4 +78,4 @@ This section describes how queue items and live work items are updated when you 
 [Set up unified routing](set-up-routing-process.md)   
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

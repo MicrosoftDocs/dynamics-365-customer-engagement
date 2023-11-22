@@ -18,4 +18,4 @@ const tab= Microsoft.Apm.getFocusedSession().getFocusedTab();
 tab.title = "New Tab Title";
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

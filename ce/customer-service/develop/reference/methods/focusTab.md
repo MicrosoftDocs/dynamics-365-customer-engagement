@@ -43,4 +43,4 @@ Microsoft.Apm.getFocusedSession().getTab("tab-id-5").focus();
 
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
