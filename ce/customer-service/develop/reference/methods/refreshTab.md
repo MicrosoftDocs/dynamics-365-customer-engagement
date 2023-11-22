@@ -42,4 +42,4 @@ Microsoft.Apm.refreshTab("tab-id-2")
 Microsoft.Apm.getFocusedSession().getFocusedTab().refresh();
 ```
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
