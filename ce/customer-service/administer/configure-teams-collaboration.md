@@ -91,5 +91,5 @@ The AI suggestions feature is supported in the following languages:
 ### See also
 
 [Collaborate with AI-suggested contacts in Microsoft Teams chat](../use/use-ai-suggested-contacts-teams.md)  
-[Overview of Customer Service workspace](../csw-overview.md)  
+[Overview of Customer Service workspace](../implement/csw-overview.md)  
 

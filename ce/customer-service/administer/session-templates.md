@@ -90,7 +90,7 @@ The session template is configured. Now, you must associate the session template
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  

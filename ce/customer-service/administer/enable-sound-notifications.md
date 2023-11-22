@@ -57,7 +57,7 @@ When you enable sound settings, the options to personalize settings are availabl
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Personalize notifications](../use/oc-personalize-sound-notifications.md)  
 
 

@@ -35,5 +35,5 @@ The Omnichannel Administration and Omnichannel admin center apps have been depre
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Overview of Customer Service](overview.md)  
