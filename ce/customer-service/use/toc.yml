@@ -13,7 +13,7 @@
       - name: Use Customer Service Hub
         href: ../implement/customer-service-hub-user-guide-basics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Troubleshooting and FAQs
-        href: cs-troubleshooting-faqs.md
+        href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Unified routing and assignment
         items:
           - name: View historical analytics reports
@@ -281,7 +281,7 @@
         - name: Ask a question (preview)
           href: use-copilot-features.md#ask-a-question
         - name: Draft a chat response (preview)
-          href: ../copilot-enable-help-pane.md#enable-draft-a-response-preview
+          href: ../admin/copilot-enable-help-pane.md#enable-draft-a-response-preview
         - name: Draft emails (preview)
           href: use-copilot-features.md#draft-emails
         - name: View analytics for Copilot impact
