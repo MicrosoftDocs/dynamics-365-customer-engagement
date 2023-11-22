@@ -1,7 +1,7 @@
 ---
-title: Field Service (Preview) for Administrators
-description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 11/06/2023
+title: Set up Microsoft 365 integration for Field Service
+description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections.
+ms.date: 11/22/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -10,9 +10,7 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Microsoft 365 integrations for Field Service for Administrators (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+# Set up Microsoft 365 integration for Field Service
 
 As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use:
 

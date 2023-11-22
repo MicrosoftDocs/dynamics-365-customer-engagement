@@ -1,5 +1,5 @@
 ---
-title: Customize the Microsoft 365 integration for Field Service (preview)
+title: Customize the Microsoft 365 integration for Field Service
 description: Learn how to tailor the Micorosoft 365 integrations for Dynamics 365 Field Service to your business
 ms.date: 11/21/2023
 ms.topic: how-to

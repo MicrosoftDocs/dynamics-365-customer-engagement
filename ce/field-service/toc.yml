@@ -173,7 +173,11 @@ items:
     - name: Overview
       href: flw-overview.md
     - name: Administrators
-      href: flw-admin.md
+      items:
+        - name: Set up
+          href: flw-admin.md
+        - name: Customize
+          href: flw-customization.md
     - name: Outlook add-in with Copilot for the frontline manager
       href: flw-outlook.md
     - name: Teams app for the frontline manager
