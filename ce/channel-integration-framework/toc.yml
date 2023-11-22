@@ -87,10 +87,20 @@
             href: v2/develop/reference/microsoft-ciframework/cancelevent.md
         - name: Session management APIs
           items:
-          - name: "notifyEvent"
-            href: v2/develop/reference/microsoft-ciframework/notifyevent.md
-          - name: "cancelEvent"
-            href: v2/develop/reference/microsoft-ciframework/cancelevent.md
+          - name: "canCreateSession"
+            href: v2/develop/reference/microsoft-ciframework/cancreatesession.md
+          - name: "createSession"
+            href: v2/develop/reference/microsoft-ciframework/createsession.md
+          - name: "getSession"
+            href: v2/develop/reference/microsoft-ciframework/getsession.md
+          - name: "getFocusedSession"
+            href: v2/develop/reference/microsoft-ciframework/getfocusedsession.md
+          - name: "getAllSessions"
+            href: v2/develop/reference/microsoft-ciframework/getallsessions.md
+          - name: "setSessionTitle"
+            href: v2/develop/reference/microsoft-ciframework/setsessiontitle.md
+          - name: "requestFocusSession"
+            href: v2/develop/reference/microsoft-ciframework/requestfocussession.md            
         - name: Application tab management APIs
           items:
           - name: "createTab"
@@ -239,16 +249,16 @@
             href: v1/develop/reference/microsoft-ciframework/setMode.md
           - name: "getMode"
             href: v1/develop/reference/microsoft-ciframework/getMode.md               
-        - name: CRUD operations APIs  
+        - name: CRUD operations APIs
           items:
           - name: "createRecord"
-            href: v1/develop/reference/microsoft-ciframework/createRecord.md
+            href: v2/develop/reference/microsoft-ciframework/createRecord.md
           - name: "retrieveRecord"
-            href: v1/develop/reference/microsoft-ciframework/retrieveRecord.md
+            href: v2/develop/reference/microsoft-ciframework/retrieveRecord.md
           - name: "updateRecord"
-            href: v1/develop/reference/microsoft-ciframework/updateRecord.md
+            href: v2/develop/reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
-            href: v1/develop/reference/microsoft-ciframework/deleteRecord.md
+            href: v2/develop/reference/microsoft-ciframework/deleteRecord.md          
         - name: Miscellaneous APIs
           items:
           - name: "getEntityMetadata"
@@ -273,7 +283,7 @@
             href: v1/develop/reference/microsoft-ciframework/removeHandler.md           
       - name: Client-side events
         items:
-        - name: Client-side events"
+        - name: Client-side events
           href: v1/develop/reference/client-side-events.md
         - name: "CIFInitDone"
           href: v1/develop/reference/events/cifinitdone.md
