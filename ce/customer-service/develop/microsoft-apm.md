@@ -13,7 +13,7 @@ The app profile manager JavaScript API Reference includes methods and properties
 
 ## Prerequisite
 
-You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](../../customer-service/administer/security-roles.md)
+You must have App Profile user or Productivity tools user security roles to use the app profile manager APIs. More information: [Security roles](../administer/security-roles.md)
 
 ## Session management
 
@@ -21,22 +21,22 @@ The following methods and properties allow you to manage sessions in Customer Se
 
 | Method | Description |
 |--------|-------------|
-| [getFocusedSession](microsoft-apm/getFocusedSession.md) | Returns the session object of the session that is in focus. |
-| [getAllSessions](microsoft-apm/getAllSessions.md) | Returns the unique identifier of all sessions. |
-| [getSession](microsoft-apm/getSession.md) | Returns the session object for the specified session ID.  |
-| [createSession](microsoft-apm/createSession.md) | Creates a session based on a session template and returns the unique identifier of the session. |
-| [canCreateSession](microsoft-apm/canCreateSession.md) | Returns a Boolean value indicating whether a new session can be created.|
-| [close](microsoft-apm/close.md) | Closes a session.|
-| [focus](microsoft-apm/focus.md) | Sets the focus on a session. |
-| [requestFocus](microsoft-apm/requestFocus.md) | Shows a notification indicator on a given session if the session is not in focus.|
+| [getFocusedSession](../develop/reference/methods/getFocusedSession.md) | Returns the session object of the session that is in focus. |
+| [getAllSessions](../develop/reference/methods/getAllSessions.md) | Returns the unique identifier of all sessions. |
+| [getSession](../develop/reference/methods/getSession.md) | Returns the session object for the specified session ID.  |
+| [createSession](../develop/reference/methods/createSession.md) | Creates a session based on a session template and returns the unique identifier of the session. |
+| [canCreateSession](../develop/reference/methods/canCreateSession.md) | Returns a Boolean value indicating whether a new session can be created.|
+| [close](../develop/reference/methods/close.md) | Closes a session.|
+| [focus](../develop/reference/methods/focus.md) | Sets the focus on a session. |
+| [requestFocus](../develop/reference/methods/requestFocus.md) | Shows a notification indicator on a given session if the session is not in focus.|
 |||
 
 | Property | Description |
 |----------|-------------|
-| [sessionId](microsoft-apm/sessionId.md) | The ID of a given session. |
-| [isDefault](microsoft-apm/isDefault.md) | Boolean value indicating if a session is the Home session.|
-| [canClose](microsoft-apm/canCloseSession.md) | Boolean value indicating whether a session can be closed. |
-| [title](microsoft-apm/sessiontitle.md) | The text label of a session. |
+| [sessionId](../develop/reference/properties/sessionId.md) | The ID of a given session. |
+| [isDefault](../develop/reference/properties/isDefault.md) | Boolean value indicating if a session is the Home session.|
+| [canClose]( ../develop/reference/properties/canCloseSession.md) | Boolean value indicating whether a session can be closed. |
+| [title](../develop/reference/properties/sessiontitle.md) | The text label of a session. |
 |||
 
 ## Tab management
@@ -45,21 +45,21 @@ The following methods and properties allow you to manage tabs in Customer Servic
 
 | Method | Description |
 |--------|-------------|
-| [getFocusedTab](microsoft-apm/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
-| [getAllTabs](microsoft-apm/getAllTabs.md) | Returns the unique identifier of all tabs for a session. |
-| [getTab](microsoft-apm/getTab.md) | Returns the tab object of the specified tab ID.  |
-| [createTab](microsoft-apm/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the tab. |
-| [canCreateTab](microsoft-apm/canCreateTab.md) | Returns a Boolean value indicating whether a new tab can be created for a session. |
-| [closeTab](microsoft-apm/closeTab.md) | Closes the tab object for a tab ID. |
-| [focusTab](microsoft-apm/focusTab.md) | Sets the focus on the tab object for a tab ID. |
-| [refreshTab](microsoft-apm/refreshTab.md) | Refreshes the tab object for a tab ID.   |
+| [getFocusedTab](../develop/reference/methods/getFocusedTab.md) | Returns the tab object of the tab that is in focus. |
+| [getAllTabs](../develop/reference/methods/getAllTabs.md) | Returns the unique identifier of all tabs for a session. |
+| [getTab](../develop/reference/methods/getTab.md) | Returns the tab object of the specified tab ID.  |
+| [createTab](../develop/reference/methods/createTab.md) | Creates a tab in a focused session and returns the unique identifier of the tab. |
+| [canCreateTab](../develop/reference/methods/canCreateTab.md) | Returns a Boolean value indicating whether a new tab can be created for a session. |
+| [closeTab](../develop/reference/methods/closeTab.md) | Closes the tab object for a tab ID. |
+| [focusTab](../develop/reference/methods/focusTab.md) | Sets the focus on the tab object for a tab ID. |
+| [refreshTab](../develop/reference/methods/refreshTab.md) | Refreshes the tab object for a tab ID.   |
 |||
 
 | Property | Description |
 |----------|-------------|
-| [tabId](microsoft-apm/tabId.md) | The ID of a tab. |
-| [canClose](microsoft-apm/canCloseTab.md) | Boolean value indicating whether a tab can be closed. |
-| [title](microsoft-apm/tabtitle.md) | The text label of a tab. |
+| [tabId](../develop/reference/properties/tabId.md) | The ID of a tab. |
+| [canClose](../develop/reference/properties/canCloseTab.md) | Boolean value indicating whether a tab can be closed. |
+| [title](../develop/reference/properties/tabtitle.md) | The text label of a tab. |
 |||
 
 
@@ -69,10 +69,10 @@ The following method allows you to manage the session context in Customer Servic
 
 | Method | Description |
 |--------|-------------|
-| [updateContext](microsoft-apm/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
+| [updateContext](../develop/reference/methods/updateContext.md) | Sets the automation dictionary and enables providers to add, modify, and remove values of slugs; the updated values are then available for invoking macros in the future. |
 |||
 ### See also
 
-[App profile manager](../../customer-service/administer/app-profile-manager.md)  
+[App profile manager](../administer/app-profile-manager.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
