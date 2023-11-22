@@ -14,7 +14,7 @@ ms.custom:
 
 # addHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-[!INCLUDE[addHandler-description](../../../../v1/administer/v2/develop/reference/microsoft-ciframework/Includes/addHandler-description.md)]
+[!INCLUDE[addHandler-description](Includes/addHandler-description.md)]
 
 ## Syntax
 

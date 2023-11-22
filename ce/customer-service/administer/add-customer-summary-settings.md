@@ -97,4 +97,4 @@ Perform the following steps to revert to the required default experience:
 ### See also
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md) <br>
-[Get started with Customer Service workspace](../csw-overview.md)
+[Get started with Customer Service workspace](../implement/csw-overview.md)

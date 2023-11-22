@@ -115,5 +115,5 @@ When you create a new case and specify a customer or an account, or open a case 
 ### See also
 
 [Enable enhanced case forms for multisession apps](case-enh-config.md)<br>
-[Get started with Customer Service workspace](../csw-overview.md)<br>
+[Get started with Customer Service workspace](../implement/csw-overview.md)<br>
 [View Active conversation to get available information about customers](../use/oc-customer-summary.md)

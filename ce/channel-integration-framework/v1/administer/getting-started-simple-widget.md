@@ -87,6 +87,6 @@ You can check if Channel Integration Framework 1.0 is ready by invoking CIFInitD
 [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  
 [Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework)  
-[Frequently asked questions](faq-channel-integration-framework.md)  
+[Frequently asked questions](../../faq-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -138,7 +138,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 
 ### See also
 
-[Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)
+[Add a web resource for real-time translation](../../../develop/add-web-resource-real-time-translation.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

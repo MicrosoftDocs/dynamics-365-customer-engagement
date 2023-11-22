@@ -50,7 +50,7 @@ To create a default session, do the following:
 
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
 [Configure channel providers in Dynamics 365 Channel Integration Framework 1.0](../../v1/administer/configure-channel-provider-channel-integration-framework.md)  
-[Bring your own custom messaging channel](../../../customer-service/bring-your-own-channel.md)  
+[Bring your own custom messaging channel](../../../customer-service/develop/bring-your-own-channel.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
