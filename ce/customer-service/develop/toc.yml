@@ -39,9 +39,7 @@
         - name: Enable third-party co-browse and screen sharing
           href: third-party-co-browse.md
         - name: Live chat widget telemetry
-          href: live-chat-telemetry.md
-        - name: Configure relevance search for transcripts
-          href: relevance-search-chat-transcript.md  
+          href: live-chat-telemetry.md 
         - name: Configure link to conversation button
           href: configure-link-to-conversation-model-driven-app-form.md 
         - name: Start a chat
@@ -425,7 +423,7 @@
         - name: Live chat SDK Reference  
           items: 
           - name: Overview
-            href: developer/omnichannel-reference.md
+            href: omnichannel-reference.md
           - name: Methods
             items: 
             - name: setContextProvider
