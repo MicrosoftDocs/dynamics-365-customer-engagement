@@ -37,5 +37,4 @@ window.addEventListener("lcw:closeChat", function handleLivechatClosedEvent(){
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

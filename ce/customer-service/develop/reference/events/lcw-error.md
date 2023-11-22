@@ -41,5 +41,4 @@ window.addEventListener("lcw:error", function (errorEvent) {
 [JavaScript API reference for Live chat SDK](../../omnichannel-reference.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

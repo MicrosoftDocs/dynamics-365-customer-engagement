@@ -857,5 +857,4 @@ See msdyn_panetoolconfiguration Entity [msdyn_msdyn_toolconfig_msdyn_tabconfig](
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

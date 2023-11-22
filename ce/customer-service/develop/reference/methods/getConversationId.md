@@ -39,5 +39,4 @@ Returns a promise resolved with currently ongoing conversation ID.
 [openConversation](openConversation.md)  
 [sendMessageToConversation](sendMessageToConversation.md)  
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

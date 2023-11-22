@@ -738,5 +738,4 @@ See msdyn_ocsentimentdailytopic Entity [msdyn_msdyn_ocsentimentdailytopic_msdyn_
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

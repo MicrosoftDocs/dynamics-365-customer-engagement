@@ -756,5 +756,4 @@ Same as msdyn_conversationactionlocale entity [msdyn_msdyn_conversationaction_ms
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

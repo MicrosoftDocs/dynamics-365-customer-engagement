@@ -43,5 +43,4 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 [Automate tasks with macros](../../../administer/macros.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

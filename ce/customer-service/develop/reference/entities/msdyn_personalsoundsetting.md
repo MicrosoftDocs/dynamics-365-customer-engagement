@@ -801,5 +801,4 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 [Web API reference](/dynamics365/customer-engagement/web-api/about)<br />
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

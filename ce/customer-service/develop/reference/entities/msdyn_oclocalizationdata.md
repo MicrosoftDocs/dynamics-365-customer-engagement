@@ -666,5 +666,4 @@ See msdyn_ocsystemmessage Entity [msdyn_ocsystemmessage_msdyn_oclocalizationdata
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

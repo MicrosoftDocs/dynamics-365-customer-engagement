@@ -162,5 +162,4 @@ The `c1Language` parameter in resolved JavaScript object represents a Locale ID 
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

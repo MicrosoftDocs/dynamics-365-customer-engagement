@@ -750,5 +750,4 @@ IntersectEntityName: msdyn_msdyn_paramdef_msdyn_actioninputparam<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

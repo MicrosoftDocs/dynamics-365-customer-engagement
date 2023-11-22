@@ -51,5 +51,4 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 [Start a chat](../../initiate-chat-wait-time.md)  
 [Start a chat proactively](../../start-proactive-chat.md)  
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

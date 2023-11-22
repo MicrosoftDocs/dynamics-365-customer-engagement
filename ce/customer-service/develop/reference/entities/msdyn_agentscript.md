@@ -712,5 +712,4 @@ IntersectEntityName: msdyn_msdyn_agentscript_msdyn_sessiontemplate<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

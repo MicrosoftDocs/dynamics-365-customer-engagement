@@ -104,5 +104,4 @@ The following error can occur for this method.
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Display custom context](../../display-custom-context.md)  
 
-[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
