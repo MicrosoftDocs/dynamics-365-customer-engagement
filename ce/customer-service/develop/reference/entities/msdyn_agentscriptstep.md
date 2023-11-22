@@ -797,4 +797,5 @@ See msdyn_agentscript Entity [msdyn_msdyn_agentscript_routeaction](msdyn_agentsc
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

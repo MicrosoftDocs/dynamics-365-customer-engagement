@@ -771,4 +771,5 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_occommunicationprovide
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+)]

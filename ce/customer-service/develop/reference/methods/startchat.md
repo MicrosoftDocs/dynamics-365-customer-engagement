@@ -50,4 +50,5 @@ None
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+)]

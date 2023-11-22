@@ -63,4 +63,5 @@ window.Microsoft.Omnichannel.TranslationFramework.getTranslationProvider = funct
 [Add a web resource for real-time translation](../../../add-web-resource-real-time-translation.md)  
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+)]

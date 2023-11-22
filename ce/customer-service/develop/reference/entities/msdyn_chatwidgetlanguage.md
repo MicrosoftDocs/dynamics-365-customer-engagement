@@ -646,4 +646,5 @@ Same as msdyn_livechatconfig entity [msdyn_msdyn_chatwidgetlanguage_msdyn_livech
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

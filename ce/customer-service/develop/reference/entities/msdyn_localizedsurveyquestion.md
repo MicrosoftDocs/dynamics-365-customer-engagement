@@ -616,4 +616,5 @@ See msdyn_surveyquestion Entity [msdyn__surveyquestion_msdyn_localizedsurveyques
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+)]

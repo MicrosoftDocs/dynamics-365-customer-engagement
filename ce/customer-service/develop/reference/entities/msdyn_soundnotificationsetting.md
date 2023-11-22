@@ -978,4 +978,5 @@ See msdyn_soundfile Entity [msdyn_soundnotificationsetting_linksoundf](msdyn_sou
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include]([!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+)]
