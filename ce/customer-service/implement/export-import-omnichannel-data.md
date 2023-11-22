@@ -23,13 +23,13 @@ While you can use the Configuration Migration tool to export and import entity d
 >
 > - To export and import record type of channel across environments, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 > - Environment lifecycle operations, such as copy and restore of environment, aren't supported.
-> - However, if you do copy an environment, Omnichannel for Customer Service in the target environment must be [uninstalled](../administer/remove-omnichannel.md) and [provisioned](../administer/omnichannel-provision-license.md) again.
+> - However, if you do copy an environment, Omnichannel for Customer Service in the target environment must be [uninstalled](../implement/remove-omnichannel.md) and [provisioned](../implement/omnichannel-provision-license.md) again.
 > - We recommend that you don't export the msdyn_analytics entity. Because the entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service, exporting it might lead to an incorrect configuration of your intraday insights data.
 
 
 ### See also
 
-[Provision Omnichannel for Customer Service](../administer/omnichannel-provision-license.md)                                                         
+[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)                                                         
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)                                                                              
 [Migrate configuration data for records based on unified routing](../administer/migrate-config-data-for-records-overview.md)                                                   
 [Migrate configuration for live chat](../administer/migrate-config-data-for-live-chat.md)  

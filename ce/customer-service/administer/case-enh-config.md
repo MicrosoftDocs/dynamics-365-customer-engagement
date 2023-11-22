@@ -60,5 +60,5 @@ You can add these default components to other forms and customize them. More inf
 
 ### See also
 
-[Case management in multisession apps](enh-casemgmt-csw.md)<br>
+[Case management in multisession apps](../use/enh-casemgmt-csw.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)

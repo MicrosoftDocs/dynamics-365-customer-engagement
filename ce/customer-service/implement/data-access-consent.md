@@ -107,5 +107,5 @@ The “Omnichannel for Customer Service” application. This app has Dataverse p
 
 ### See also
 
-[Provision Omnichannel for Customer Service](../administer/omnichannel-provision-license.md)  
+[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)  

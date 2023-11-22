@@ -19,7 +19,7 @@ The SMS channel through Twilio in Omnichannel for Customer Service allows your o
 
 Make sure that the following prerequisites are met:
 
-- SMS for Twilio is provisioned in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- SMS for Twilio is provisioned in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
     > [!NOTE]
     >
     > To enable the SMS channel for Twilio in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)
@@ -189,7 +189,7 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
 [Configure SMS channel using TeleSign](configure-sms-channel.md)	
-[SMS FAQ](../implement/faqs.md#sms)  
+[SMS FAQ](faqs.md#sms)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,7 +17,7 @@ Use Microsoft Teams as an engagement channel for support of internal functions&m
 
 Make sure that the following prerequisites are met:
 
-- Microsoft Teams is installed in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- Microsoft Teams is installed in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
 
   > [!NOTE]
   > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)

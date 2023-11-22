@@ -21,7 +21,7 @@ organizations enhance business efficiencies in certain geographical areas by int
 
 Make sure that the following prerequisites are met:
 
-- WeChat is provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+- WeChat is provisioned in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
  
   > [!NOTE]
   > To enable the WeChat channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).

@@ -72,7 +72,7 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - You have a **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators.
 
-- As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. More information: [Provide data access consent](../administer/omnichannel-provision-license.md)
+- As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. More information: [Provide data access consent](../implement/omnichannel-provision-license.md)
 
 - The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. More information: [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
