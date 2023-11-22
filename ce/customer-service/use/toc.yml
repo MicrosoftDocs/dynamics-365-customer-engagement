@@ -381,7 +381,7 @@
               - name: Schedule a service activity
                 href: schedule-service-activity-csh.md
               - name: Manage fulfillment preferences
-                href: ../common-scheduler/fulfillment-preferences.md
+                href: ../../common-scheduler/fulfillment-preferences.md
             - name: Configure service activity using schedule board
               href: use-schedule-board-configure-service-activity.md
           - name: Service Scheduling in Unified Interface
@@ -431,11 +431,11 @@
       - name: Community
         href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
     - name: Administer Dynamics 365 Customer Service
-      href: ../../users-user-profiles.md
+      href: ../administer/toc.yml
     - name: Implement Dynamics 365 Customer Service
-      href: ../../csw-overview.md
+      href: ../implement/toc.yml
     - name: Develop Dynamics 365 Customer Service
-      href: ../../unified-routing-impact-on-apis. md
+      href: ../develop/toc.yml
     - name: Dynamics 365 Channel Integration Framework
       href: ../../channel-integration-framework.md
     - name: Unified Service Desk

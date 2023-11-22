@@ -185,7 +185,7 @@
           - name: Modify case resolution dialog
             href: modify-case-resolution-dialog.md
           - name: Remove validation on contact and customer for cases
-            href: remove-validation-contact.md
+            href: remove-validation-contacts.md
           - name: FAQ on managing cases
             href: faq-case-mgmt.md
       - name: Automatically create or update records
@@ -225,7 +225,7 @@
           - name: Export and import a solution with SLAs
             href: export-import-solution.md
           - name: Manage service configuration settings
-            href: ../power-platform/admin/system-settings-dialog-box-service-tab
+            href: ../../admin/system-settings-dialog-box-service-tab.md
           - name: Calculate SLA KPIs
             items:
             - name: Recalculate SLAs in terminal status
@@ -293,7 +293,7 @@
               - name: View and use insights for search providers
                 href: view-and-use-insights.md
               - name: Schema details to build a metadata mapping template
-                href: ../int-search-metadata-schema.md
+                href: ../develop/int-search-metadata-schema.md
           - name: Customize knowledge article search filters
             href: enable-knowledge-article-search-filters.md
           - name: Create and manage knowledge categories
