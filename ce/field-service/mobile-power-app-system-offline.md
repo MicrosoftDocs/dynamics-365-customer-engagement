@@ -83,6 +83,8 @@ You can only add a user or a team to one offline profile one at a time. Adding t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
+The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+
 ## Step 3: Edit and publish the offline profile
 
 For each record type, you can choose a data download filter:
