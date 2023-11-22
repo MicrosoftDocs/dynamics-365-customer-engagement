@@ -29,13 +29,13 @@
       - name: Agent experience profiles for Customer Service
         items: 
         - name: Overview of agent experience profiles
-          href: ../app-profile-manager/overview.md
+          href: overview.md
         - name: Roles and permissions
-          href: ../app-profile-manager/security-roles.md
+          href: security-roles.md
         - name: Create and use agent experience profiles
-          href: ../app-profile-manager/create-agent-experience-profile.md
+          href: create-agent-experience-profile.md
         - name: Add users to agent experience profiles
-          href: ../app-profile-manager/add-profile-default.md
+          href: add-profile-default.md
         - name: Configure the inbox for agents
           href: configure-inbox.md     
         - name: Configure the agent calendar view
@@ -43,29 +43,29 @@
         - name: Templates
           items: 
           - name: Manage session templates
-            href: ../app-profile-manager/session-templates.md
+            href: session-templates.md
           - name: Manage application tab templates
-            href: ../app-profile-manager/application-tab-templates.md
+            href: application-tab-templates.md
           - name: Manage notification templates
-            href: ../app-profile-manager/notification-templates.md
+            href: notification-templates.md
           - name: Associate templates with workstreams
-            href: ../app-profile-manager/associate-templates.md
+            href: associate-templates.md
         - name: Productivity tools
           items: 
           - name: Overview of productivity tools
-            href: ../app-profile-manager/productivity-tools.md
+            href: productivity-tools.md
           - name: Manage smart assist
-            href: ../app-profile-manager/smart-assist.md
+            href: smart-assist.md
           - name: Manage agent scripts
-            href: ../app-profile-manager/agent-scripts.md
+            href: agent-scripts.md
           - name: Manage macros
-            href: ../app-profile-manager/macros.md
+            href: macros.md
           - name: Manage custom productivity tools
             href: manage-custom-productivity-tools.md
           - name: Use automation dictionary to pass parameters keys
-            href: ../app-profile-manager/automation-dictionary-keys.md
+            href: automation-dictionary-keys.md
           - name: FAQ about adding users to agent experience profile
-            href: ../app-profile-manager/faq-agent-experience-profile.md
+            href: faq-agent-experience-profile.md
       - name: Community
         items: 
         - name: Overview of Community
@@ -225,7 +225,7 @@
           - name: Export and import a solution with SLAs
             href: export-import-solution.md
           - name: Manage service configuration settings
-            href: ../admin/system-settings-dialog-box-service-tab.md
+            href: ../power-platform/admin/system-settings-dialog-box-service-tab
           - name: Calculate SLA KPIs
             items:
             - name: Recalculate SLAs in terminal status
@@ -293,7 +293,7 @@
               - name: View and use insights for search providers
                 href: view-and-use-insights.md
               - name: Schema details to build a metadata mapping template
-                href: int-search-metadata-schema.md
+                href: ../int-search-metadata-schema.md
           - name: Customize knowledge article search filters
             href: enable-knowledge-article-search-filters.md
           - name: Create and manage knowledge categories
@@ -434,10 +434,6 @@
             href: persistent-chat.md
           - name: Configure reconnection to a previous chat session
             href: configure-reconnect-chat.md
-          - name: Understand disconnected chats
-            href: oc-conv-state-chat-disconnect.md   
-          - name: Understand conversation states
-            href: oc-conversation-state.md 
           - name: Show customers their position in a queue
             href: show-queue.md
           - name: Show customers their average wait time in a queue
@@ -466,8 +462,6 @@
         items: 
           - name: Set up SMS channels
             items: 
-            - name: Overview of SMS channels
-              href: sms-channel-overview.md
             - name: Configure an SMS channel using Azure Communication Services
               href: configure-sms-channel-acs.md
             - name: Configure an SMS channel for TeleSign
@@ -545,7 +539,7 @@
           - name: Productivity pane
             href: productivity-pane.md
           - name: Enable productivity pane and smart assist
-            href: ../app-profile-manager/app-profile-manager.md#enable-prod-pane
+            href: app-profile-manager.md#enable-prod-pane
           - name: Create quick replies
             href: create-quick-replies.md
           - name: Manage rich messages
@@ -591,7 +585,7 @@
           - name: Modify fields used to generate case summary
             href: copilot-powerapps-settings.md#modify-fields-used-to-generate-case-summary
           - name: Manage fields Copilot uses for case summaries and emails
-            href: copilot-map-custom-fields 
+            href: copilot-map-custom-fields.md 
           - name: Enable Copilot features for custom apps
             href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
       - name: Bots
@@ -683,7 +677,7 @@
             - name: Create or edit services
               href: create-edit-service-csh.md
             - name: Manage fulfillment preferences
-              href: ../common-scheduler/fulfillment-preferences.md
+              href: /dynamics365/common-scheduler/fulfillment-preferences
           - name: Configure service activity using schedule board
             href: use-schedule-board-configure-service-activity.md
         - name: Legacy Service Scheduling
