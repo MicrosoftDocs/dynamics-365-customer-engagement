@@ -22,7 +22,7 @@ Dynamics 365 Channel Integration Framework 2.0 is intended for multisession appl
 
 More information: 
 - [Agent experience profiles](../../../customer-service/administer/overview.md)
-- [Customer Service admin center](../../../customer-service/cs-admin-center.md)
+- [Customer Service admin center](../../../customer-service/implement/cs-admin-center.md)
 
 ## Configure a third-party channel provider
 

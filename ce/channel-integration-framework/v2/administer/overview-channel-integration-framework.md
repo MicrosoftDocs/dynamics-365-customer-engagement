@@ -105,7 +105,7 @@ Additional capabilities offered by Dynamics 365 Channel Integration Framework in
 [FAQ about Dynamics 365 Channel Integration Framework](../../faq-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 2.0](../../v1/administer/get-channel-integration-framework.md)  
 [Support multiple channel providers](support-multiple-providers.md)  
-[Bring your own channel](../../../customer-service/bring-your-own-channel.md)  
+[Bring your own channel](../../../customer-service/develop/bring-your-own-channel.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
