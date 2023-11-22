@@ -234,7 +234,7 @@ You can set up the knowledge search logic in the Customer Service admin center o
 
 3. Select **Save**.
 
-More information: [Search across table data using Dataverse search](/powerapps/developer/data-platform/webapi/relevance-search#searchmode-any--all-optional)
+More information: [Search across table data using Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
 ## Enable the suggest-as-you-type option
 
