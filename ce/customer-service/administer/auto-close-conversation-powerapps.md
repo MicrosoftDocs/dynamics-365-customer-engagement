@@ -3,8 +3,8 @@ title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
 ms.date: 10/04/2023
 ms.topic: how-to
-author: neeranelli
-ms.author: nenellim
+author: gandhamm
+ms.author: mgandham
 ms.reviewer:
 ms.custom: bap-template
 ms.collection:
