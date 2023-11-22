@@ -421,7 +421,9 @@
           - name: Configure a chat widget
             href: add-chat-widget.md
           - name: Enable resizing of communication panel
-            href: csac-resize-cp.md       
+            href: csac-resize-cp.md
+          - name: Configure relevance search for transcripts
+            href: relevance-search-chat-transcript.md         
           - name: Enable download, email of chat transcripts
             href: download-email-chat-transcripts.md
           - name: Configure agent display name
