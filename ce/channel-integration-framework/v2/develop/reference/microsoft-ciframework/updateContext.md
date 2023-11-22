@@ -48,6 +48,3 @@ Microsoft.CIFramework.updateContext(input, sessionId).then(
     }
 );
 ```
-
-
-[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
