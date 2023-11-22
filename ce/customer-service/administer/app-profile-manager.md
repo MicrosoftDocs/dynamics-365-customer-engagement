@@ -95,7 +95,7 @@ More information: [Roles and privileges associated with app profile manager](sec
 
 ### See also
 
-[Get started with Customer Service admin center](../cs-admin-center.md)  
+[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Configure agent experience profiles](create-agent-experience-profile.md)  
 [Manage session templates](session-templates.md)  
 [Configure channels](../use/channels.md)  

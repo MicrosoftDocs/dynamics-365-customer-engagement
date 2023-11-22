@@ -5,8 +5,9 @@ ms.date: 10/04/2023
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer:
 ms.custom: bap-template
+ms.collection:
 ---
 # Close conversations automatically
 
