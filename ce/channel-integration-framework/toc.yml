@@ -73,6 +73,15 @@
           - name: "getMode"
             href: v2/develop/reference/microsoft-ciframework/getMode.md               
         - name: CRUD operations APIs
+          items:
+          - name: "createRecord"
+            href: v2/develop/reference/microsoft-ciframework/createRecord.md
+          - name: "retrieveRecord"
+            href: v2/develop/reference/microsoft-ciframework/retrieveRecord.md
+          - name: "updateRecord"
+            href: v2/develop/reference/microsoft-ciframework/updateRecord.md
+          - name: "deleteRecord"
+            href: v2/develop/reference/microsoft-ciframework/deleteRecord.md  
         - name: Presence APIs
           items:
           - name: "getPresence"
@@ -249,16 +258,16 @@
             href: v1/develop/reference/microsoft-ciframework/setMode.md
           - name: "getMode"
             href: v1/develop/reference/microsoft-ciframework/getMode.md               
-        - name: CRUD operations APIs
+        - name: CRUD operations APIs      
           items:
           - name: "createRecord"
-            href: v2/develop/reference/microsoft-ciframework/createRecord.md
+            href: v1/develop/reference/microsoft-ciframework/createRecord.md
           - name: "retrieveRecord"
-            href: v2/develop/reference/microsoft-ciframework/retrieveRecord.md
+            href: v1/develop/reference/microsoft-ciframework/retrieveRecord.md
           - name: "updateRecord"
-            href: v2/develop/reference/microsoft-ciframework/updateRecord.md
+            href: v1/develop/reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
-            href: v2/develop/reference/microsoft-ciframework/deleteRecord.md          
+            href: v1/develop/reference/microsoft-ciframework/deleteRecord.md          
         - name: Miscellaneous APIs
           items:
           - name: "getEntityMetadata"
