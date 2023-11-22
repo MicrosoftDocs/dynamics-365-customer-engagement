@@ -86,7 +86,7 @@ If-None-Match: null
 }
 ```
 
-The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](oc-conversation-state.md).
+The `msdyn_name` attribute in the `msdyn_occhannelstateconfiguration` entity mentions the channel and state of the conversation. For more information about conversation states, see [Understand conversation states in Omnichannel for Customer Service](../use/oc-conversation-state.md).
 
 You can make a `GET` request to the `msdyn_occhannelconfiguration` entity to fetch all the existing channel records. For each of these channels, you can see its state when you query the `msdyn_occhannelstateconfiguration` entity.
 
@@ -144,7 +144,7 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 ### See also
 
-[Automatic closure of conversations](auto-close-conversation-powerapps.md)
+[Automatic closure of conversations](../administer/auto-close-conversation-powerapps.md)
 
 
 
