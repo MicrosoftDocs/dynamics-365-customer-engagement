@@ -40,6 +40,8 @@
           href: third-party-co-browse.md
         - name: Live chat widget telemetry
           href: live-chat-telemetry.md
+        - name: Configure relevance search for transcripts
+          href: relevance-search-chat-transcript.md  
         - name: Configure link to conversation button
           href: configure-link-to-conversation-model-driven-app-form.md 
         - name: Start a chat
@@ -63,7 +65,7 @@
           - name: Test the custom messaging channel
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
-            href: markdown-formats-dev.md
+            href: markdown-formats-dev.md        
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot
@@ -75,19 +77,21 @@
       - name: Bots
         items:
         - name: Configure bot context
-          href: enable-bot-context.md
-        - name: Azure bots
           items:
-          - name: Enable bot context for Azure bots
-            href: enable-bot-context-azure.md
-          - name: Parse event activity JSON to get bot context
-            href: parse-activity-json-to-get-bot-context.md
-        - name: Power Virtual Agents
-          items:
-          - name: Enable bot context for Power Virtual Agents bots
-            href: enable-bot-context-pva.md   
-        - name: Code samples for parsing activity JSON 
-          href: bot-context-json-samples.md
+          - name: Configure bot context
+            href: enable-bot-context.md
+          - name: Azure bots
+            items:
+            - name: Enable bot context for Azure bots
+              href: enable-bot-context-azure.md
+            - name: Parse event activity JSON to get bot context
+              href: parse-activity-json-to-get-bot-context.md
+          - name: Copilot Studio
+            items:
+            - name: Enable bot context for Power Virtual Agents bots
+              href: enable-bot-context-pva.md   
+          - name: Code samples for parsing activity JSON 
+            href: bot-context-json-samples.md
         - name: Configure Azure bots to escalate and end conversations
           href: bot-escalate-end-conversation.md
         - name: Download file attachments from Azure bot
@@ -420,12 +424,62 @@
             href: reference/entities/systemuser.md        
         - name: Live chat SDK Reference  
           items: 
-          - name: translationprovider
-            href: reference/properties/getTranslationProvider.md
-          - name: initializeNewConversation
-            href: reference/methods/initializeNewConversation.md
-          - name: translateMessage
-            href: reference/methods/translateMessage.md               
+      - name: Overview
+        href: developer/omnichannel-reference.md
+      - name: Methods
+        items: 
+        - name: setContextProvider
+          href: reference/methods/setContextProvider.md
+        - name: getContextProvider
+          href: reference/methods/getContextProvider.md
+        - name: removeContextProvider
+          href: reference/methods/removeContextProvider.md
+        - name: setAuthTokenProvider
+          href: reference/methods/setAuthTokenProvider.md
+        - name: getAuthTokenProvider
+          href: reference/methods/getAuthTokenProvider.md
+        - name: removeAuthTokenProvider
+          href: reference/methods/removeAuthTokenProvider.md
+        - name: setBotAuthTokenProvider
+          href: reference/methods/setBotAuthTokenProvider.md
+        - name: startChat
+          href: reference/methods/startChat.md
+        - name: startProactiveChat
+          href: reference/methods/startProactiveChat.md
+        - name: closeChat
+          href: reference/methods/closeChat.md
+        - name: getAgentAvailability
+          href: reference/methods/getAgentAvailability.md
+      - name: Events
+        items: 
+        - name: "lcw:ready"
+          href: reference/events/lcw-ready.md
+        - name: "lcw:startChat"
+          href: reference/events/lcw-startchat.md          
+        - name: "lcw:closeChat"
+          href: reference/events/lcw-closeChat.md
+        - name: "lcw:onClose"
+          href: reference/events/lcw-onClose.md          
+        - name: "lcw:threadUpdate"
+          href: reference/events/lcw-threadUpdate.md        
+        - name: "lcw:chatQueued"
+          href: reference/events/lcw-chatQueued.md
+        - name: "lcw:chatRetrieved"
+          href: reference/events/lcw-chatRetrieved.md            
+        - name: "lcw:onMinimize"
+          href: reference/events/lcw-onMinimize.md
+        - name: "lcw:onMaximize"
+          href: reference/events/lcw-onMaximize.md
+        - name: "lcw:onMessageReceived"
+          href: reference/events/lcw-onMessageReceived.md
+        - name: "lcw:onMessageSent"
+          href: reference/events/lcw-onMessageSent.md
+        - name: "lcw:getAgentAvailability"
+          href: reference/events/lcw-getAgentAvailability.md  
+        - name: "lcw:error"
+          href: reference/events/lcw-error.md                    
+      - name: Error code reference
+        href: reference/error-code-reference.md               
         - name: Real-time translation JavaScript API Reference
           items: 
           - name: translationprovider
