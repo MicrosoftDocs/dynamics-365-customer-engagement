@@ -1,9 +1,9 @@
 ---
 title: Delete call recordings
 description: Learn how to delete call recordings in the voice channel in Omnichannel for Customer Service.
-author: venki-ms
-ms.author: v-duddupdiv
-ms.reviewer: nenellim
+author: neeranelli
+ms.author: nenellim
+ms.reviewer:
 ms.date: 06/07/2023
 ms.custom: bap-template
 ms.topic: how-to
