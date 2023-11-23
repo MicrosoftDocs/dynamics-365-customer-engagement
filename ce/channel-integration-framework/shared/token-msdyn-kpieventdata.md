@@ -94,8 +94,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Additional data related to the kpi event|
-|DisplayName|Additional Data|
+|Description|Other data related to the kpi event|
+|DisplayName|Other Data|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -111,7 +111,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for Channel Integration Framework session|
-|DisplayName|User Session Id|
+|DisplayName|User Session ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -127,7 +127,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Client session identifier|
-|DisplayName|Client Session Id|
+|DisplayName|Client Session ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -143,7 +143,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Conversation Identifier|
-|DisplayName|Conversation Id|
+|DisplayName|Conversation ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -253,8 +253,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|External System Correlation Id|
-|DisplayName|External Correlation Id|
+|Description|External System Correlation ID|
+|DisplayName|External Correlation ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -270,7 +270,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for entity instances|
-|DisplayName|KPI Event Data Id|
+|DisplayName|KPI Event Data ID|
 |IsValidForForm|False|
 |IsValidForRead|True|
 |IsValidForUpdate|False|
@@ -284,7 +284,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for the KPI Event|
-|DisplayName|KPI Event Id|
+|DisplayName|KPI Event ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -348,7 +348,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Identifier of the agent for whom the event was fired|
-|DisplayName|Participant Id|
+|DisplayName|Participant ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -364,7 +364,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the Provider that triggered this event|
-|DisplayName|Provider Id|
+|DisplayName|Provider ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -380,7 +380,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier of the provider session|
-|DisplayName|Provider Session Id|
+|DisplayName|Provider Session ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -396,7 +396,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Unique identifier for session|
-|DisplayName|Session Id|
+|DisplayName|Session ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -429,7 +429,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Owner Id|
+|Description|Owner ID|
 |DisplayName|Owner|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -888,7 +888,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DisplayName|Version Number|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|versionnumber|
+|LogicalName|version number|
 |MaxValue|9223372036854775807|
 |MinValue|-9223372036854775808|
 |RequiredLevel|None|
