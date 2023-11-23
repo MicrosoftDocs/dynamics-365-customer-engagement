@@ -69,7 +69,8 @@ After you've [created a segment](./wa-create-and-activate-a-segment.md) and used
 Your changes are applied to records that are connected to the segment going forward. Any records that were previously connected to the segment aren't affected.
 
 > [!NOTE]
-> All segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
+> When you update the primary entity's attributes (such as lead or opportunity) that are added to conditions, all the segments related to that primary entity will run again.
+ 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
