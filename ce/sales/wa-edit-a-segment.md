@@ -69,7 +69,7 @@ After you've [created a segment](./wa-create-and-activate-a-segment.md) and used
 Your changes are applied to records that are connected to the segment going forward. Any records that were previously connected to the segment aren't affected.
 
 > [!NOTE]
-> As of the 9.3 release, if you change the attributes of a lead, opportunity, account, or contact, all segments of that record type update automatically.
+> All segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
