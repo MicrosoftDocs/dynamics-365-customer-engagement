@@ -32347,6 +32347,226 @@
       "source_path": "ce/customer-service/user-details-teams-azure-bot.md",
       "redirect_url": "develop/user-details-teams-azure-bot",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm.md",
+      "redirect_url": "/dynamics365/customer-service/develop/microsoft-apm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/channel-integration-framework/whats-new-channel-integration-framework.md",
+      "redirect_url": "/dynamics365/channel-integration-framework/whats-new-channel-integration-framework",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/canCloseSession.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/canCloseSession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/canCloseTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/canCloseTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/canCreateSession.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/canCreateSession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/canCreateTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/canCreateTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/close.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/close",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/closeTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/closeTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/createSession.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/createSession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/createTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/createTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/focus.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/focus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/focusTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/focusTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getAllSessions.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getAllSessions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getAllTabs.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getAllTabs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getFocusedSession.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getFocusedSession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getFocusedTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getFocusedTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getSession.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getSession",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/getTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/getTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/isDefault.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/isDefault",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/refreshTab.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/refreshTab",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/requestFocus.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/methods/requestFocus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/sessionId.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/sessionId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/sessiontitle.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/sessiontitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/tabId.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/tabId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/tabtitle.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/tabtitle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/app-profile-manager/reference/microsoft-apm/updateContext.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/properties/updateContext",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/add-skill-control.md",
+      "redirect_url": "/dynamics365/customer-service/develop/add-skill-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/add-web-resource-real-time-translation.md",
+      "redirect_url": "/dynamics365/customer-service/develop/add-web-resource-real-time-translation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/bot-context-json-samples.md",
+      "redirect_url": "/dynamics365/customer-service/develop/bot-context-json-samples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/bot-escalate-end-conversation.md",
+      "redirect_url": "/dynamics365/customer-service/develop/bot-escalate-end-conversation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/bring-your-own-channel.md",
+      "redirect_url": "/dynamics365/customer-service/develop/bring-your-own-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/cs-admin-center.md",
+      "redirect_url": "/dynamics365/customer-service/implement/cs-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/csw-overview.md",
+      "redirect_url": "/dynamics365/customer-service/implement/csw-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-team-member.md",
+      "redirect_url": "/dynamics365/customer-service/implement/customer-service-team-member",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-workspace-system-requirements.md",
+      "redirect_url": "/dynamics365/customer-service/implement/customer-service-workspace-system-requirements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_conversationmessageblock.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/msdyn_conversationmessageblock",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_copilotinteraction.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/msdyn_copilotinteraction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_copilotinteractiondata.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/msdyn_copilotinteractiondata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_copilottranscript.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/msdyn_copilottranscript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/developer/reference/entities/msdyn_copilottranscriptdata.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/msdyn_copilottranscriptdata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/email-articles.md",
+      "redirect_url": "/dynamics365/customer-service/use/email-articles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/overview.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/remove-validation-contacts.md",
+      "redirect_url": "/dynamics365/customer-service/administer/remove-validation-contacts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/set-up-search-providers.md",
+      "redirect_url": "/dynamics365/customer-service/administer/set-up-search-providers",
+      "redirect_document_id": false
     }
   ]
 }
