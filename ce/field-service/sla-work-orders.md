@@ -18,14 +18,14 @@ SLAs help organizations ensure work orders get the right level of attention in a
 
 For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 3 hours from the time a work order is created. The organization wants a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
 
-For more information on SLAs, go to [Define SLAs](../customer-service/define-service-level-agreements.md).
+For more information on SLAs, go to [Define SLAs](../customer-service/administer/define-service-level-agreements.md).
 
 In this article, you'll learn how to associate SLAs to Field Service work orders.
 
 ## Prerequisites
 
 - Field Service v8.3+
-- Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/define-service-level-agreements.md)
+- Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md)
 
 ## Enable SLA functionality for Field Service
 
