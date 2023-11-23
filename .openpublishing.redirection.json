@@ -32567,6 +32567,11 @@
       "source_path": "ce/customer-service/set-up-search-providers.md",
       "redirect_url": "/dynamics365/customer-service/administer/set-up-search-providers",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/context/customer-service-context.yml",
+      "redirect_url": "/dynamics365/customer-service/administer/toc.json",
+      "redirect_document_id": false
     }
   ]
 }
