@@ -84,7 +84,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |Trade Coverages|Enables [trade coverages to specify logic how trades are covered](trades.md#configure-trade-coverages) for customer accounts and locations. |
 | **Resource pay type section** |  |
 | Work Pay Type   |  Choose the [resource pay type](set-up-resource-pay-types.md) for work performed during regular work hours.   |
-| Business Closure Pay Type  |  Choose the pay type for days marked as *Business Closures*. For more information, go to [Set when your business is closed](../customer-service/set-when-business-closed-csh.md). |
+| Business Closure Pay Type  |  Choose the pay type for days marked as *Business Closures*. For more information, go to [Set when your business is closed](../customer-service/use/set-when-business-closed-csh.md). |
 |  Travel Pay Type |    Choose the pay type for time that a resource is traveling to a service location.  |
 |  Overtime Pay Type |   Choose the pay type for time outside of the scheduled work hours.  |
 |  Break Pay Type  |  Choose the pay type for time that the resource is taking a break while performing service work.  |
