@@ -601,7 +601,7 @@
     - name: Implement Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Manage your contact center
-      href: overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
