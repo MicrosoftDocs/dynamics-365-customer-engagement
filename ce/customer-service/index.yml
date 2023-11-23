@@ -20,7 +20,7 @@ highlightedContent:
     # Card
     - title: Welcome to Dynamics 365 Customer Service
       itemType: get-started
-      url: administer/overview.md
+      url: implement/overview.md
     # Card
     - title: What's new
       itemType: whats-new
