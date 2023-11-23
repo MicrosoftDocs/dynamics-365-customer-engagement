@@ -26,7 +26,7 @@
           href: introduction-omnichannel.md
         - name: Demo data for Chat for Dynamics 365 Customer Service
           href: chat-dynamics365-customer-service-demo-data.md
-      - name: Troubleshooting and FAQs
+      - name: Troubleshoot and FAQs
         href: cs-troubleshooting-faqs.md
       - name: What's new
         items:

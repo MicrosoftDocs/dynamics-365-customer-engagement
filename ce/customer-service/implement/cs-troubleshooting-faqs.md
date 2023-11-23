@@ -1,20 +1,24 @@
 ---
-title: Customer Service troubleshooting and FAQs  
-description: Customer Service troubleshooting and FAQs
+title: Troubleshoot issues in Customer Service and FAQ about Customer Service
+description: Diagnose and fix Customer Service issues with troubleshooting articles and FAQs.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.topic: conceptual 
+ms.topic: conceptual
 ms.collection:
 ms.date: 11/06/2023
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:11/23/2023
 ---
 
-# Customer Service troubleshooting and FAQs
+# Troubleshoot issues in Customer Service and FAQ about Customer Service
 
 ## Troubleshooting articles
 
-These articles explain how to determine, diagnose, and fix issues that you might encounter when you use Microsoft Dynamics 365 Customer Service. See [Microsoft Dynamics 365 Customer Service troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) for details.
+The troubleshooting articles explain how to diagnose and fix issues that you might encounter when you use Microsoft Dynamics 365 Customer Service. For more information, see [Microsoft Dynamics 365 Customer Service troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service).
 
 ## Frequently asked questions
 

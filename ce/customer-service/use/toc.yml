@@ -12,7 +12,7 @@
         href: ../implement/customer-service-team-member.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Use Customer Service Hub
         href: ../implement/customer-service-hub-user-guide-basics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Troubleshooting and FAQs
+      - name: Troubleshoot and FAQs
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Unified routing and assignment
         items:
