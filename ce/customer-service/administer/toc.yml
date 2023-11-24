@@ -795,9 +795,9 @@
         - name: Community
           href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
     - name: Implement Dynamics 365 Customer Service
-      href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+      href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
     - name: Manage your contact center
-      href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Develop Dynamics 365 Customer Service
       href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
