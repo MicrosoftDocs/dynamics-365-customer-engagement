@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Create and send an email message <a name="CreateAndSend"></a>
 
-When your organization turns on email engagement, more choices are available when you compose an email, such as follow or unfollow the eamil.
+When your organization turns on email engagement, more choices are available, such as follow or unfollow, when you compose an email.
 
 ## License and role requirements
 
