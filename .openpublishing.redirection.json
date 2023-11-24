@@ -30054,7 +30054,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "implement/faq-copilot-for-customer-service.md",
+      "source_path": "ce/customer-service/implement/faq-copilot-for-customer-service.md",
       "redirect_url": "faq-responsible-ai-copilot",
       "redirect_document_id": false
     },    
