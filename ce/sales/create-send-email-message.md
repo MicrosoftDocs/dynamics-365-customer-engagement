@@ -25,7 +25,7 @@ When your organization turns on email engagement, more choices are available whe
 Email engagement featurs applies to any email you send from Dynamics 365 Sales. When you send an email, it adds an email activity to the record you're looking at, and that record is set as the message's **Regarding** value. The To, From, and Copy-to addresses affect where in sales you can view the message and where its key performance indicators (KPIs) may apply. 
 
 >[!NOTE]
->- Emails can't be tracked is a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
+>- Emails can't be tracked if a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
 >- Email engagement isn't supported when you send bulk email.
 
 The following legend expains the different options that are available:  
