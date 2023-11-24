@@ -14,7 +14,7 @@
           href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Check your contact center health
           href: check-contact-center-health.md
-      - name: User management
+      - name: Manage roles and personas
         items: 
         - name: Manage users
           href: users-user-profiles.md
