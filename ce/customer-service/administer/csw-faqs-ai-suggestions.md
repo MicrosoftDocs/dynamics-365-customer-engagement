@@ -53,9 +53,9 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 ### See also
 
 [Manage Copilot features in Customer Service](configure-copilot-features.md)
-[Use Copilot to solve customer issues](use-copilot-features.md)
-[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
+[Use Copilot to solve customer issues](../use/use-copilot-features.md)
+[Enable AI suggestions for similar cases and knowledge articles](../use/csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
