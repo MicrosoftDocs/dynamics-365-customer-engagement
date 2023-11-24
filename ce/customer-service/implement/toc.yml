@@ -127,7 +127,9 @@
       - name: Overview
         href: responsible-ai-overview.md
       - name: FAQ for copilot
-        href: faq-copilot-for-customer-service.md
+        href: faq-responsible-ai-copilot.md
+      - name: FAQ for Copilot in Customer Service
+        href: faq-copilot-features.md                 
     - name: Resources
       items:
       - name: Training

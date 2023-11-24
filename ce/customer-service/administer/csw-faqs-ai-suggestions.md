@@ -1,7 +1,7 @@
 ---
 title: FAQ for AI suggestions for cases, knowledge articles | MicrosoftDocs
 description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/06/2022
+ms.date: 11/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,15 +14,7 @@ ms.custom:
 # FAQ on AI suggestions for cases and knowledge articles
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
-
-## Does Copilot support knowledge articles published in all languages?
-
-No. Copilot supports knowledge articles published in the [English language](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service) only. 
-
-## What best practices should I follow for knowledge sources? 
  
-Make sure that your knowledge sources contain high-quality content that your agents normally refer when they are helping customers. In your implementation plan, verify that you expose the required sources only.  
-
 ## I’ve enabled suggestions, but smart assist keeps showing me "No suggestions found" message
 
 This might be caused by one of the following reasons:
@@ -61,9 +53,9 @@ Make sure that the case is opened in a session tab. To open it in a session tab,
 ### See also
 
 [Manage Copilot features in Customer Service](configure-copilot-features.md)
-[Use Copilot to solve customer issues](../use/use-copilot-features.md)
+[Use Copilot to solve customer issues](use-copilot-features.md)
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
-[View AI-suggested similar cases and knowledge articles](../use/csw-view-ai-suggested-cases-knowledge-articles.md)  
+[View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md)  
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

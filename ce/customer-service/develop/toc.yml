@@ -7,7 +7,7 @@
       - name: Overview
         href: omnichannel-developer.md 
       - name: Troubleshoot and FAQs
-        href: ../implement/cs-troubleshooting-faqs.md                   
+        href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml                  
       - name: Unified routing and assignment
         items: 
         - name: Understand how unified routing affects queue items and live work items for routed records
