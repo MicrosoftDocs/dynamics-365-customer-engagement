@@ -110,4 +110,4 @@ More information: [Tenant settings](/power-platform/admin/tenant-settings) and [
 
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 [Use Copilot features](../use/use-copilot-features.md)  
-[Responsible AI FAQ for copilot features](../implement/faq-copilot-for-customer-service.md)  
+[Responsible AI FAQ for copilot features](faq-copilot-for-customer-service.md)  

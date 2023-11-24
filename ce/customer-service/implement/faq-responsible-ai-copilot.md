@@ -102,5 +102,5 @@ Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in
 
 ### See also
 
-[Use copilot features](use-copilot-features.md)  
-[Region availability of Copilot](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  
+[Use copilot features](../use/use-copilot-features.md)  
+[Region availability of Copilot](../administer/cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)  
