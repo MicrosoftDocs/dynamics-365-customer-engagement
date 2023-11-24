@@ -14,10 +14,8 @@
           href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Check your contact center health
           href: check-contact-center-health.md
-      - name: User management
+      - name: Manage roles and personas
         items: 
-        - name: Create users and assign security roles
-          href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/customer-service-context
         - name: Manage users
           href: users-user-profiles.md
         - name: Manage capacity profiles
