@@ -29,6 +29,9 @@ Legend:
 
 When your organization turns on email engagement, it applies by default to all messages you create in Dynamics 365 Sales, as long as none of the recipients are set up to [block followed messages](configure-individuals-privacy-preferences.md).
 
+>[!NOTE]
+>The Email engagement feature is not supported for emails that are sent to multiple recipients as a bulk email.
+
 ## License and role requirements
 
 | Requirement type | You must have |
