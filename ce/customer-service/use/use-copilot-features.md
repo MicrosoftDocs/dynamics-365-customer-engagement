@@ -129,4 +129,5 @@ Once you set a filter, the following actions are applicable:
 ### See also
 
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+[FAQ for Copilot in Customer Service](faq-copilot-features.md) 

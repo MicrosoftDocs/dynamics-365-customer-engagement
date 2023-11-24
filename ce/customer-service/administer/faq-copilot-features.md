@@ -1,6 +1,6 @@
 ---
-title: FAQ for Copilot features
-description: FAQ for Copilot features in Dynamics 365 Customer Service.
+title: FAQ for copilot features
+description: FAQ for copilot features in Dynamics 365 Customer Service.
 ms.date: 11/21/2023
 ms.topic: article
 author: gandhamm
@@ -20,7 +20,7 @@ This FAQ article helps answer the questions around the Copilot features in Custo
 
 Copilot is available in Customer Service workspace, Customer Service Hub, and [custom apps](../administer/copilot-powerapps-settings.md). 
 
-## Which are the Copilot features available across apps?
+## Which are the copilot features available across apps?
 
 The following table describes the availability of Copilot features across apps.
 
