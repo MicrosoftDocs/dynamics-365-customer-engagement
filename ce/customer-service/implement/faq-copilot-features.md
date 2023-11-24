@@ -18,7 +18,7 @@ This FAQ article helps answer the questions around the Copilot features in Custo
 
 ## In which Customer Service apps is Copilot available?  
 
-Copilot is available in Customer Service workspace, Customer Service Hub, and [custom apps](copilot-powerapps-settings.md). 
+Copilot is available in Customer Service workspace, Customer Service Hub, and [custom apps](../administer/copilot-powerapps-settings.md). 
 
 ## Which are the Copilot features available across apps?
 
