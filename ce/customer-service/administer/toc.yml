@@ -16,8 +16,6 @@
           href: check-contact-center-health.md
       - name: User management
         items: 
-        - name: Create users and assign security roles
-          href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/customer-service-context
         - name: Manage users
           href: users-user-profiles.md
         - name: Manage capacity profiles
