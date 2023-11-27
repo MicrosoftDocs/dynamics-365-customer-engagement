@@ -1,5 +1,5 @@
 ---
-title: Customer Service for developers
+title: Developer tools for Customer Service
 description: Developer guide for Customer Service provides developers the information they need to get started with using the extensibility features.
 ms.date: 11/27/2023
 ms.topic: article
@@ -7,11 +7,9 @@ author: gandhamm
 ms.author: mgandham
 ---
 
-# Customer Service for developers
+# Developer tools for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-Dynamics 365 Customer Service lets you extend the core functionalities to customize them to suit your business needs. Developers can use the information in the various articles to develop and implement the solutions and features.
+Dynamics 365 Customer Service lets you extend and customize the core functionalities to suit your business needs.
 
 Some of the features that you can customize are listed in this article.
 

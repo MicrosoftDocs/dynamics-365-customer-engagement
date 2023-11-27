@@ -4,10 +4,10 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
-      - name: Overview
+      - name: Developer tools for Customer Service
         href: omnichannel-developer.md 
       - name: Troubleshoot and FAQs
-        href: ../implement/cs-troubleshooting-faqs.md                   
+        href: ../implement/cs-troubleshooting-faqs.md
       - name: Unified routing and assignment
         items: 
         - name: Understand how unified routing affects queue items and live work items for routed records
