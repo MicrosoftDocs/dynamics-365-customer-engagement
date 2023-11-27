@@ -33,20 +33,19 @@ Copilot uses the following fields to generate case summaries:
 
 In Customer Service admin center, perform the following steps to map your preferred fields:
 
-1. Use one of the following navigation options: 
+1. Use one of the following navigation options:
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
-2. In **Summaries**, for **Case summaries**, select the **Manage Data Attributes** link. The **Data Attributes** pane shows the attributes that Copilot uses to generate a summary. 
-1. Do the following actions:
-   1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
+1. In **Summaries**, for **Case summaries**, select **Manage Data Attributes**. The **Data Attributes** pane shows the attributes that Copilot uses to generate a summary.
+1. Complete the following steps.
+    1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
       > [!NOTE]
       > The attributes related to case notes and email content aren't available on **Manage Data Attributes** but are considered to generate case summaries.
    1. To change the default attributes, select a different source table and column. For the **Customer** attribute, for example, you might select **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact instead of **Case** and **Contact**.
    1. Select **Save and Close**.
 1. Select **Save**.
- 
-:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
 
+:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
 
 ## Modify the fields used to draft emails
 
