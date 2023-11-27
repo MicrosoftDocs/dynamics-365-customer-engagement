@@ -4,7 +4,7 @@
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
-      - name: Overview
+      - name: Developer tools for Customer Service
         href: omnichannel-developer.md 
       - name: Troubleshoot and FAQs
         href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml                  
