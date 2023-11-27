@@ -7,7 +7,7 @@
       - name: Developer tools for Customer Service
         href: omnichannel-developer.md 
       - name: Troubleshoot and FAQs
-        href: ../implement/cs-troubleshooting-faqs.md
+        href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml                  
       - name: Unified routing and assignment
         items: 
         - name: Understand how unified routing affects queue items and live work items for routed records
@@ -574,18 +574,18 @@
                 href: reference/properties/canCloseTab.md
               - name: title
                 href: reference/properties/tabtitle.md   
-              - name: Context management    
-                items:                
-                - name: updateContext
-                  href: reference/properties/updateContext.md                  
+          - name: Context management    
+            items:                
+            - name: updateContext
+              href: reference/properties/updateContext.md                  
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI
       items:
       - name: Overview
         href: ../implement/responsible-ai-overview.md
-      - name: FAQ for copilot
-        href: ../implement/faq-copilot-for-customer-service.md
+      - name: Responsible AI FAQ for Copilot in Customer Service
+        href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
     - name: Resources        
       items:
       - name: Training
