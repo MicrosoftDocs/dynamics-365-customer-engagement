@@ -29,7 +29,7 @@ We currently support customization of the **Work Orders** and **Bookable Resourc
 
 ## Create or edit a custom view
 
-The following steps use work order as an example. You can use these steps to create or edit a custom view for bookable resources by searching for bookings.
+The following steps use work order as an example. You can use these steps to create or edit a custom view for bookable resources by searching for bookable resource booking.
 
 1. From your Teams Field Service **Home** page, select **Settings**, then **Customize views**.
 
@@ -39,7 +39,7 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Select **Edit views in Power Apps**. Power Apps automatically opens to the **Tables** page for the specified environment.
 
-1. Select **All** and then search for **work order**.
+1. Select **All** and then search for **work order**. For bookings, search for **bookable resource booking**.
 
    :::image type="content" source="media/fsp-power-apps-tables.png" alt-text="Power Apps Tables page with work order search highlighted.":::
 
@@ -76,6 +76,8 @@ The following steps use work order as an example. You can use these steps to cre
 ## Add or edit columns
 
 You can [modify the Field Service columns](field-service-customize-columns-fields.md) that come with Dynamics 365 Field Service.
+
+<!---Is there anything else we need to say about this?--->
 
 ## Next steps
 
