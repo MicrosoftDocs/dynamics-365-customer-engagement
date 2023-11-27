@@ -16,7 +16,8 @@ Open the **Schedule Board**, choose the tab to configure and select **Scheduler 
 - **Optimization goal**: Applicable when using the [Resource Scheduling Optimization add-in for Dynamics 365 Field Service](../../field-service/rso-overview.md). Defines which [optimization goal](../../field-service/rso-optimization-goal.md) the system uses to recommend resources.
 - **Show canceled**: Shows or hides canceled bookings.
 - **Apply territory filter to requirements**: Defines whether the resource filter for [territory](../../field-service/set-up-territories.md) also applies to requirements in the bottom pane.
-- **Show travel duration**: Shows or hides the duration of travel time for bookings on the schedule board.
+- **Show booked percentage**: Shows or hides the percentage of total work time booked on the schedule board.
+- **Show bookings proportional to duration**: Bookings on the daily, weekly, and monthly views show proportional to their duration instead of stacked.
 
 **All board settings** opens the [board settings](#board-settings).
 
