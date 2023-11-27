@@ -1,14 +1,28 @@
 ---
-title: "Omnichannel for Customer Service for developers | MicrosoftDocs"
-description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features."
-ms.date: 10/03/2022
+title: Customer Service for developers
+description: Developer guide for Customer Service provides developers the information they need to get started with using the extensibility features.
+ms.date: 11/27/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 ---
-# Omnichannel for Customer Service for developers
+
+# Customer Service for developers
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+Dynamics 365 Customer Service lets you extend the core functionalities to customize them to suit your business needs. Developers can use the information in the various articles to develop and implement the solutions and features.
+
+Some of the features that you can customize are listed in this article.
+
+## Use a plug-in to route records other than cases
+
+Use the IPlugin Interface plug-in to [route records other than cases](trigger-routing-non-case-records.md).
+
+## Create a knowledge article using a template
+
+Use the msdyn_GetKAObjectFromTemplate action to [create a knowledge article](create-knowledge-article-using-template.md) from an existing knowledge article template programmatically.
+
 
 ## Live chat widget SDK 
 
@@ -17,7 +31,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that lets
 - Open an existing chat or start a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
-[Start a chat](initiate-chat-wait-time.md)<br />
+[Start a chat](initiate-chat-wait-time.md)  
 [Live chat SDK reference](omnichannel-reference.md)
 
 ## Start proactive chat 
