@@ -12,8 +12,6 @@ ms.subservice: m365-integrations
 
 # Field Service Teams app for the frontline manager
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
 The Dynamics 365 Field Service for Teams enable frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly in Teams. You can quickly respond to requests for service or questions about existing requests.
 
 ## Prerequisite

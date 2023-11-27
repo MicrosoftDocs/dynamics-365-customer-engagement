@@ -12,8 +12,6 @@ ms.subservice: m365-integrations
 
 # Field Service Outlook Add-in with Copilot for the frontline manager 
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
 Dynamics 365 Field Service provides an Outlook Add-in for frontline managers to manage work orders without disrupting their workflow. As a frontline manager, you can create, view, and edit work orders directly from your email without leaving Outlook. You can quickly respond to requests for service or questions about existing requests.
 
 The Field Service Outlook Add-in provides copilot capabilities where you can use the copilot to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select a technician and schedule the work order. Or, you can create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
@@ -30,7 +28,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 ### Install the Outlook Add-in
 
-1. Go to [AppSource](https://aka.ms/fieldserviceaddin) and select **Dynamics 365 Field Service for Outlook (Preview)**.
+1. Go to [AppSource](https://aka.ms/fieldserviceaddin) and select **Dynamics 365 Field Service for Outlook**.
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service add-in card":::
 
