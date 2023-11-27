@@ -1,6 +1,6 @@
 ---
 title: Customize the Microsoft 365 integration for Field Service
-description: Learn how to tailor the Micorosoft 365 integrations for Dynamics 365 Field Service to your business
+description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
 ms.date: 11/21/2023
 ms.topic: how-to
 author: matthidinger
@@ -12,7 +12,7 @@ ms.subservice: m365-integrations
 
 # Customize the Microsoft 365 integration for Field Service
 
-Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot will also attempt to populate those fields if there is relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
+Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
 We currently support customization of the **Work Orders** and **Bookable Resource Booking** experiences.
 
@@ -25,7 +25,7 @@ We currently support customization of the **Work Orders** and **Bookable Resourc
 
 - Global admin or Exchange admin permissions in the Microsoft 365 Admin Center.
 - Environment is in a [supported geography, region, and language.](flw-overview.md#supported-geographies-regions-and-languages)
-- One of more of the [Microsoft 365 integrations for Field Service have been deployed.](flw-admin.md)
+- One of more of the [Microsoft 365 integrations for Field Service is deployed.](flw-admin.md)
 
 ## Create or edit a custom view
 
