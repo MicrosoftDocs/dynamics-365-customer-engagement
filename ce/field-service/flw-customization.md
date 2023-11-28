@@ -40,7 +40,8 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Select **Edit views in Power Apps**. Power Apps automatically opens to the **Tables** page for the specified environment.
 
-   > [!TIP] You can also access [Power Apps](https://make.powerapps.com/), select your environment, and then select **Tables**.
+   > [!TIP]
+   > You can also access [Power Apps](https://make.powerapps.com/), select your environment, and then select **Tables**.
 
 1. Select **All** and then search for **work order**. For bookings, search for **booking**.
 
