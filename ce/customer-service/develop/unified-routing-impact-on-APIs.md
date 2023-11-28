@@ -12,7 +12,7 @@ ms.collection:
 
 # Understand how unified routing affects queue items and live work items for routed records
 
-Whenever you route a record using unified routing, a live work item entity record ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence, matched skills, and available capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence, skills, and capacity.
+When you route a record using unified routing, a live work item entity record ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence, matched skills, and available capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence, skills, and capacity.
 
 After the record is routed to the queue, a queue item ([`queueitem`](reference/entities/queueitem.md)) is created. The following three fields are updated in the queue item:
 - the queue to which the queue item belongs
@@ -26,11 +26,12 @@ Unified routing updates the following details when a record is automatically ass
 
 Unified routing automatically synchronizes these updates from the queue item to the live work item, but not vice-versa. So, any updates from the live work item aren't automatically reflected in the queue item. If you'd like to make these updates manually, we recommend that you update only the queue item so that the live work item gets updated automatically by the unified routing engine. 
 
-You can update only one field of the queue item at a time. For example, if you need to update both the queue and the worker ID fields of the queue item, then ensure that you either update the queue or the worker ID field at a time, but not both.
+At a time, you can update one field only of the queue item. For example, if you need to update both the queue and the worker ID fields of the queue item, then make sure that you update the queue or the worker ID field, but not both in the same update operation.
 
 > [!NOTE]
-> - Unified routing automatically sets the record's owner to a user. We recommend that you don't overwrite or update the ownership.
-> - We recommend that you don't add any custom logic on live work items as Microsoft uses the live work items in unified routing services.
+> We recommend the following:
+> - Don't overwrite or update the ownership. Unified routing automatically sets the record's owner to a user.
+> - Don't add any custom logic on live work items because Microsoft uses the live work items in unified routing services.
 
 ## How unified routing affects queue items, live work items for routed records
 
@@ -68,7 +69,7 @@ This section describes how queue items and live work items are updated when you 
 
 
 > [!Note]
-> - Unified routing works upon the underlying entity record for the owner field also. Therefore, ensure that you provide Read privileges to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/power-platform/admin/security-roles-privileges).
+> - Unified routing works upon the underlying entity record for the owner field also. Therefore, make sure that you provide Read privileges to the agents for that entity and any other dependent entity. For information on how to provide the accesses to different roles for the entities, see [Manage user accounts, user licenses, and security roles](/power-platform/admin/security-roles-privileges).
 > - To get the capacity released for the agents for entities other than incident (via incident resolution or cancellation), add a custom logic to deactivate the corresponding queue item. More information: [Create and manage capacity profiles](../administer/capacity-profiles.md).
 > - For non-case records, we recommend that you deactivate the associated queue item before deleting it.
 
