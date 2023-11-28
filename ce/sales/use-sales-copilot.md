@@ -78,13 +78,13 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. After Copilot connects the records, select **Get updated lead summary** to generate a new summary that includes information from the connected record.
 
-### Catch up with an opportunity or lead
+### View recent changes to an opportunity or lead
 
-Copilot can help you catch up on any updates to your opportunity or lead records in the last seven days or since you last signed in.
+Copilot can help you catch up on the recent updates to your opportunity or lead records in the last seven days or since you last signed in, whichever is more recent. It summarizes the last 10 updates to the record from the audit history, based on the fields configured by your administrator.
 
-The catch up information is taken from the audit history. If you don't see any catch up information, ask your administrator to [turn on auditing](./enable-setup-copilot.md#configure-record-catch-up-fields) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+The recent changes list is generated from the audit history. If you don't see the recent changes list, ask your administrator to [turn on auditing](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. In the Copilot chat pane, select **Catch up on opportunity** or **Catch up on lead** from the **Suggested requests** list.
+1. In the Copilot chat pane, select **Recent changes to opportunity** or **Recent changes to lead**.
 
 1. Start typing the name of the opportunity or lead after the **/** symbol.
 
