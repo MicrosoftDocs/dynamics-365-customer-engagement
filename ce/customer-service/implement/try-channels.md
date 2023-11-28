@@ -1,10 +1,13 @@
 ---
-title: "Try channels in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time."
-ms.date: 01/11/2023
-ms.topic: article
+title: Try channels in Omnichannel for Customer Service
+description: Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time.
+ms.date: 11/28/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Try channels in Omnichannel for Customer Service
@@ -31,6 +34,7 @@ You must have obtained one of the following subscriptions through the Microsoft 
 - Paid or trial subscription of Dynamics 365 Customer Service Enterprise
 - Paid or trial subscription of Dynamics 365 Customer Engagement
 - For voice channel, subscription of Dynamics 365 Customer Engagement Applications Trial
+- For voice channel, make sure that trial is supported in the [cloud location](voice-channel-region-availability.md)
 
 > [!IMPORTANT]
 > If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
