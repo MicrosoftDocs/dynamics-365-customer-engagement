@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
 description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
-ms.date: 11/01/2023
+ms.date: 11/21/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -47,7 +47,10 @@ Select the Copilot features that you want your sales teams to use in each of you
 
    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page with the apps listed. ":::
 
-    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.
+    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent. 
+
+    > [!NOTE]
+    > For some regions, you may see the consent terms in the **Set up Copilot** pane. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, consent in the Power Platform admin center isn't required.  
  
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. Audit history is required for Copilot to generate recent changes for leads and opportunities. If you [configure Copilot](#configure-fields-for-generating-summaries-and-recent-changes-list) to generate recent changes from fields other than the lead and opportunity tables, this setting turns on audit history for those tables as well. However, if you remove the fields later on from the configuration, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
