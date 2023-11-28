@@ -34,7 +34,7 @@ You must have obtained one of the following subscriptions through the Microsoft 
 - Paid or trial subscription of Dynamics 365 Customer Service Enterprise
 - Paid or trial subscription of Dynamics 365 Customer Engagement
 - For voice channel, subscription of Dynamics 365 Customer Engagement Applications Trial
-- For voice channel, make sure that trial is supported in the [cloud location](voice-channel-region-availability.md)
+- For voice channel, make sure that trial is supported in the [cloud location](../administer/voice-channel-region-availability.md)
 
 > [!IMPORTANT]
 > If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels will not be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
