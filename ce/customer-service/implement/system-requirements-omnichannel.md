@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service system requirements | MicrosoftDocs
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
-ms.date: 08/18/2023
+ms.date: 11/28/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -53,7 +53,7 @@ For other hardware and software requirements, see [Model-driven app requirements
 
 ### Supported web browsers for voice and video in live chat widget<a name="browsers-for-chat"></a>
 
-The following browsers are supported by the customer-facing live chat widget that you'll display on your portal:
+The latest three major releases of the following browsers are supported by the customer-facing live chat widget that you'll display on your portal. See the browser-specific documentation for the version information.
 
 - **Windows:** Chromium-based browser such as Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
