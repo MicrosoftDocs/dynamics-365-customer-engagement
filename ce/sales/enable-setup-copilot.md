@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
 description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
-ms.date: 11/21/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -43,14 +43,14 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 1. Under **General Settings**, select **Copilot**.
 
-1. In the Set up Copilot in Dynamics 365 Sales page, select **All Dynamics 365 Sales apps** to enable it for all the Dynamics 365 apps in your organization. Or, select **Manage apps** to select the individual apps that you want to enable it for.  
+1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.  
 
    :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page with the apps listed. ":::
 
-    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent. 
+    If you haven't provided the consent for data movement, select **Go to Power Platform admin center** and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.  
 
     > [!NOTE]
-    > For some regions, you may see the consent terms in the **Set up Copilot** pane. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, consent in the Power Platform admin center isn't required.  
+    > For some regions, you may see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, consent in the Power Platform admin center isn't required.  
  
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. Audit history is required for Copilot to generate recent changes for leads and opportunities. If you [configure Copilot](#configure-fields-for-generating-summaries-and-recent-changes-list) to generate recent changes from fields other than the lead and opportunity tables, this setting turns on audit history for those tables as well. However, if you remove the fields later on from the configuration, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
@@ -74,9 +74,13 @@ By default, Copilot uses a set of predefined fields to generate [summaries](use-
     :::image type="content" source="media/copilot-summary-settings.png" alt-text="Screenshot of the Opportunity settings page for record summarization in Copilot.":::
 
 1. Select the **Summary** tab to configure fields for generating summaries. Select the **Recent changes** tab to configure fields for generating the recent changes list.  
+    
+    > [!NOTE]
+    > If you haven't turned on audit history in the Set up Copilot page, the fields in the **Recent changes** tab are disabled. Select **Turn audit on** in the notification bar to turn on audit history.  
 
-1. Select **Add fields** to add fields from the tables. You can add a minimum of 4 fields and a maximum of 10 fields.  
-    If you've added more than 10 fields, clear the checkbox for fields or select the fields that you don't need and then select **Delete**. If you've selected more than 10 fields, an error message is displayed at the top of the page and the Save button is disabled.  
+1. Select **Add fields** to add fields from the opportunity/lead table or other related tables. You can add a minimum of 4 fields and a maximum of 10 fields. The **Save** button is disabled if this requirement isn't met.
+
+    If you've added more than 10 fields, clear the checkbox for fields or select the fields that you don't need and then select **Delete**. 
 
     > [!NOTE]
     > When you add a field from the related table, the audit history for the related table is turned on automatically. If you remove the field later on, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the related table manually.
