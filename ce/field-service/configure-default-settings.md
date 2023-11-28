@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 09/28/2023
+ms.date: 11/27/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -71,7 +71,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 | Timestamp Frequency | Choose when the system updates the timestamp for a booking. |
 | Calculate Price | Work orders contain pricing-related fields and functions. By default, this field is set to *Yes*, which enables pricing-related fields and logic. Changing the setting to *No* removes all pricing-related fields and disables the pricing logic, so work orders won't generate invoices after completion.|
 |Calculate Cost| Enabling work order costs adds cost fields on work order products, work order service, and summary fields on work orders. It lets you track estimated and actual costs per work order. Track costs to establish cost trends over time and review them based on work order categorizations such as trade and work order type to understand your business and where to optimize service delivery. If [Not-to-exceed is enabled](work-order-not-to-exceed.md), it's automatically added to the work orders based on not-to-exceed values in the system. Cost summaries on work orders appear in a summary card and are the sum of the costs of all work order products and services, including taxes. |
-| Show Simplified Work Order Commands | This setting influences the command bar on work order records and lists. By default, this field is set to *Yes*, which shows only the most relevant commands for work orders. The following commands will be hidden from the form: deactivate, check access, process, add to queue, queue item details, assign, share, email a link, flow, Word templates. The following commands will be hidden from the list view when no records are selected: email a link, flow, import from Excel. The following commands will be hidden from the list view when a record is selected: activate, deactivate, email a link, add to queue, flow, Word templates, Excel templates. When set to *No*, all commands are shown. |
+| Show Simplified Work Order Commands | This setting simplifies the command bar on work order records and lists. By default, the setting is **turned on**. Turn the simplified commands setting off to see all available options on the command bar. You can [customize the command bar](/power-apps/maker/model-driven-apps/use-command-designer) to manage which commands to show. |
 |Not-to-Exceed |Enables [not-to-exceed values to set an optional cost or price limit](work-order-not-to-exceed.md) for a work order.|
 | Outlook Add-in Copilot (Preview) |Disable the use of copilot capabilities in Outlook for Field Service (Preview). If enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service (Preview).](faqs-wo-flw-copilot.md)|
 |  Work Order Starting Number |  Provide number from which the system starts the count of work orders. |
@@ -84,7 +84,7 @@ The prefix and starting number setting won't show if you use the [new auto-numbe
 |Trade Coverages|Enables [trade coverages to specify logic how trades are covered](trades.md#configure-trade-coverages) for customer accounts and locations. |
 | **Resource pay type section** |  |
 | Work Pay Type   |  Choose the [resource pay type](set-up-resource-pay-types.md) for work performed during regular work hours.   |
-| Business Closure Pay Type  |  Choose the pay type for days marked as *Business Closures*. For more information, go to [Set when your business is closed](../customer-service/set-when-business-closed-csh.md). |
+| Business Closure Pay Type  |  Choose the pay type for days marked as *Business Closures*. For more information, go to [Set when your business is closed](../customer-service/use/set-when-business-closed-csh.md). |
 |  Travel Pay Type |    Choose the pay type for time that a resource is traveling to a service location.  |
 |  Overtime Pay Type |   Choose the pay type for time outside of the scheduled work hours.  |
 |  Break Pay Type  |  Choose the pay type for time that the resource is taking a break while performing service work.  |
@@ -184,13 +184,22 @@ Time entries help track the time that technicians spend on various stages of a w
 | Time Entry Generation Strategy | Enable the system to automatically generate time entries based on booking timestamps. If the setting is empty or set to *Manual*, the system expects manual time entries. Regardless of the setting, you can always create time entries manually.|
 |Time Cost Actuals Source| Choose if cost actuals generate based on booking journals or time entries when the time entry is marked as approved. If this setting is empty, the system generates time and cost-focused actuals from booking journals. Actuals are generated when a work order is set to *Closed - Posted*.  |
 
-## Remote Assist settings
+## Mixed Reality settings
 
-Change Field Service settings for Dynamics 365 Remote Assist. For more information, go to [Collaborate in mixed reality](remote-assist-hololens.md).
+Change Field Service settings for mixed reality apps. For more information about the integrations with mixed reality apps, go to [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
 |  Option  |  Description  |  
 |-------------|-----------------|  
 | Disable Booking Status Changes  |   Specify if users can change a booking status in Dynamics 365 Remote Assist on HoloLens. |
+| Assign Mixed Reality Security roles  |   Adds security roles for Dynamics 365 Guides and Dynamics 365 Remote Assist to users that are assigned one of the predefined Field Service security roles. Refer to the [Mixed reality role mapping](#mixed-reality-role-mapping) table to understand which default roles the system assigns. Disabling the setting stops the automatic role assignment for new users moving forward. It doesn't remove security roles that are already assigned. To [enable custom security roles](/power-platform/admin/security-roles-privileges) to access mixed reality apps, review the default security roles for Guides or Remote Assist to identify privileges that your custom security roles need. |
+
+### Mixed reality role mapping
+
+|Field Service |Guides  |Remote Assist  |
+|---------|---------|---------|
+|Field Service - Resource    |  Restricted Operator, Basic User       |  Remote Assist - App User, Basic User       |
+|Field Service - Dispatcher     | Restricted Operator, Basic User      |  Remote Assist - Administrator, Basic User       |
+|Field Service - Administrator     |  Author, Basic User       | Remote Assist - Administrator, Basic User        |
 
 ## Inspection settings
 

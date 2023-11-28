@@ -491,6 +491,16 @@
                   href: wa-manage-seller-attributes.md
                 - name: Let sellers set their availability
                   href: wa-manage-seller-availability.md
+            - name: Group related records in segments
+              items:
+                - name: Create and activate segments
+                  href: wa-create-and-activate-a-segment.md
+                - name: Connect segments to sequences
+                  href: wa-connect-a-segment-to-sequence.md
+                - name: Edit segments
+                  href: wa-edit-a-segment.md
+                - name: Delete segments
+                  href: wa-delete-deactivate-a-segment.md
             - name: Automatically assign records
               items:
                 - name: Create and activate assignment rules
@@ -503,18 +513,10 @@
                   href: wa-delete-deactivate-assignment-rule.md
                 - name: Understand record distribution in assignment rules
                   href: understand-lead-distributions-assignment-rules.md
-            - name: Group related records in segments
-              items:
-                - name: Create and activate segments
-                  href: wa-create-and-activate-a-segment.md
-                - name: Connect segments to sequences
-                  href: wa-connect-a-segment-to-sequence.md
-                - name: Edit segments
-                  href: wa-edit-a-segment.md
-                - name: Delete segments
-                  href: wa-delete-deactivate-a-segment.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
+            - name: Examples for assignment rules and segments
+              href: wa-examples.md  
         - name: Get seller insights to improve seller effectiveness
           href: seller-insights-intro.md
           items:
@@ -1296,24 +1298,6 @@
       href: sales-privacy-faqs.md
     - name: Privacy notice
       href: privacy-notice.md
-- name: Learning Catalog
-  items:
-    - name: Learning Catalog
-      href: learning-catalog.md
-    - name: Business Decision Maker
-      href: learning-bdm.md
-    - name: Business User
-      href: learning-bus-user.md
-    - name: Implementation Project Manager
-      href: learning-project-manager.md
-    - name: Administrator
-      href: learning-administrator.md
-    - name: Developer
-      href: learning-developer.md
-    - name: Functional Consultant
-      href: learning-functional-consultant.md
-    - name: Partner Sales and Marketing
-      href: learning-sales.md
 - name: Troubleshooting and FAQ
   items:
     - name: Dynamics 365 Sales Troubleshooting guide
@@ -1352,6 +1336,12 @@
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
+- name: License compliance
+  items:
+    - name: Verify license compliance
+      href: license-enforcement.md
+    - name: License checker rules
+      href: license-checker-rules.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Responsible AI
@@ -1362,6 +1352,8 @@
       href: faqs-sales-copilot-for-summarization.md
     - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md      
+    - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
+      href: Microsoft-365-Copilot-for-Sales.md
 - name: Resources for other Sales apps
   items:
     - name: Help resources for Dynamics 365 Sales (Professional)

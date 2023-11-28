@@ -32,14 +32,14 @@ Use the Omnichannel admin center app to quickly configure and add a chat widget 
 ## Step 2: Configure a chat widget
 
 1. On the workstream page that you created, select **Set up chat**.
-2. On the **Live chat setup** wizard that appears, enter the details. More information: [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget).
+2. On the **Live chat setup** wizard that appears, enter the details. More information: [Configure a chat widget](administer/add-chat-widget.md#configure-a-chat-widget).
 
 ## Step 3: Embed chat widget in portal
 
 > [!NOTE]
 > The chat widget requires session storage and local storage to be functional in your customers’ browsers. Make sure to notify your customers to enable cookies in their browsers so these services can work properly.
 
-Follow these steps to embed your chat widget into a Power Apps portal. For steps to embed your chat widget into your website, see [Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md).
+Follow these steps to embed your chat widget into a Power Apps portal. For steps to embed your chat widget into your website, see [Embed chat widget in your website or Power Apps portal](administer/embed-chat-widget-portal.md). For steps to embed your chat widget into mobile experiences, see [Render a live chat widget on the mobile app](develop/render-live-chat-widget-mobile.md).
 
 1.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
 2.	Go to **Portal** > **Content Snippets**.
@@ -60,12 +60,12 @@ You can maximize the chat widget by selecting it.
 
 ### See also
 
-[create workstreams for unified routing](create-workstreams.md)  
-[Configure work classification](configure-work-classification.md)  
-[Configure a chat widget](set-up-chat-widget.md)  
-[Embed chat widget in your website or Power Apps portal](embed-chat-widget-portal.md)  
-[Supported browsers for live chat widget](system-requirements-omnichannel.md#browsers-for-chat)  
-[Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md)  
+[create workstreams for unified routing](administer/create-workstreams.md)  
+[Configure work classification](administer/configure-work-classification.md)  
+[Configure a chat widget](administer/set-up-chat-widget.md)  
+[Embed chat widget in your website or Power Apps portal](administer/embed-chat-widget-portal.md)  
+[Supported browsers for live chat widget](implement/system-requirements-omnichannel.md#browsers-for-chat)  
+[Render a live chat widget on the mobile app](develop/render-live-chat-widget-mobile.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,7 +56,10 @@ The settings described in this section apply to all optimization scopes.
 
 1. Go to **Resource Scheduling Optimization** > **Resources**. Open the **Scheduling Summary** view. Select one or more resource records and select **Edit**.
 
-1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records.
+1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optmization to consider the resource during schedule optimization runs.
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of enabling Resource Scheduling Optimization for a resource.](media/resource-enable-rso.png "Screenshot of enabling Resource Scheduling Optimization for a resource.")
 
 1. After enabling the resources for schedule optimization, specify the address for the organizational unit or resource address, depending on their start and end location.
   

@@ -13,13 +13,13 @@ The legacy Service Scheduling experience is currently being deprecated in alignm
 
 The following topics contain information about legacy Service Scheduling features:
 
- [Set up business closure](../customer-service/set-when-business-closed-cs-app.md)<br>
- [Set work hours to define availability](../customer-service/set-work-hours-resource.md)<br>
- [Create or change a service](../customer-service/create-edit-service-cs-app.md)<br>
- [Schedule a service activity](../customer-service/schedule-service-activity-cs-app.md)<br>
- [Add facilities and equipment for Service Scheduling](../customer-service/add-facilities-equipment-cs-app.md)<br>
- [Create resource groups](../customer-service/create-edit-resource-group.md)<br>
- [Use sites to manage your service locations](../customer-service/use-sites-manage-service-locations.md)
+ [Set up business closure](use/set-when-business-closed-cs-app.md)<br>
+ [Set work hours to define availability](use/set-work-hours-resource.md)<br>
+ [Create or change a service](administer/create-edit-service-cs-app.md)<br>
+ [Schedule a service activity](use/schedule-service-activity-cs-app.md)<br>
+ [Add facilities and equipment for Service Scheduling](administer/add-facilities-equipment-cs-app.md)<br>
+ [Create resource groups](administer/create-edit-resource-group.md)<br>
+ [Use sites to manage your service locations](use/use-sites-manage-service-locations.md)
  
  
 

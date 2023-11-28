@@ -11,12 +11,12 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md).
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the [Customer Service admin center](implement/cs-admin-center.md) app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated and will be removed in July 2023](implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](administer/overview-unified-routing.md).
 
 ## Overview
 
-In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other records to agents based on the agent's skill, capacity, and presence. To learn more about skill-based routing, see [Skill-based routing overview](overview-skill-work-distribution.md).
+In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other records to agents based on the agent's skill, capacity, and presence. To learn more about skill-based routing, see [Skill-based routing overview](administer/overview-skill-work-distribution.md).
 
 ### Automatic distribution of cases and other records
 
@@ -35,17 +35,17 @@ To setup the **Entity Record** channel for cases, follow the steps:
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
 | [Step 1: Create queues and add agents](#create-queues-and-add-agents) | Define queues for your organization and add agents (users) to the queues. |
-| [Step 2: Enable entity for queues](enable-entities-for-queues.md)| Enable the entity for queues. |
+| [Step 2: Enable entity for queues](administer/enable-entities-for-queues.md)| Enable the entity for queues. |
 | [Step 3: Enable entity for routing channel](#enable-record-for-routing) | Create entity record configuration to enable an entity for routing. |
 | [Step 4: Create routing rules](#create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
 
 ## Create queues and add agents
 
-Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](queues-omnichannel.md).
+Create an omnichannel queue or use an existing omnichannel queue, and then add agents to these queues. To learn more, see [Create a queue](administer/queues-omnichannel.md).
 
 ## Enable entities for queues
 
-Perform the steps mentioned in [Enable entities for queues for unified routing](enable-entities-for-queues.md).
+Perform the steps mentioned in [Enable entities for queues for unified routing](administer/enable-entities-for-queues.md).
 
 ## Enable record for routing
 
@@ -163,7 +163,7 @@ If you are upgrading from preview release to the latest version, then earlier co
 
 ## See also
 
-[Route trigger for entity records](routing-trigger.md)
+[Route trigger for entity records](use/routing-trigger.md)
 
 [Create workstream for entity record routing](set-up-entity-workstream.md)
 
