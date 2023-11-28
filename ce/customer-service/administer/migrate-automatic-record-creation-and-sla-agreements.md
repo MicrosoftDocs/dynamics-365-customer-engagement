@@ -93,7 +93,7 @@ The annotations are explained as follows.
 |1|**Category**: An overview of the automatic record creation rules and SLAs.|
 |2|**Total**: Displays the number of rules available overall in the web client.|
 |3|**Migrated**: Displays the number of rules you have migrated.|
-|4|**Pending**: Displays the number of rules in the web client that are pending migration that includes failed rules, partially or incomplete migrated rules, and rules that haven't been attempted.|
+|4|**Pending**: Displays the number of rules in the web client that are pending migration, and includes failed rules, partially or incomplete migrated rules, and rules that haven't been attempted.|
 |5|**Migration status**: Displays whether migration has started.|
 |6|**Refresh**: Allows you to update migration status.|
 |7|**Start migration**: Allows you to begin the migration process.|
@@ -112,9 +112,9 @@ The annotations are explained as follows.
 
 |Label|Description|
 |------|------|
-|1 |A tracker in the left pane shows you where you are in the migration process at any time.|
-|2| You can migrate the automatic record creation rules and SLAs separately or both at the same time. |
-|3|	You must select a category for migration before you can proceed. select **Next** to go to the next stage.|
+|1| A tracker that shows you where you are in the migration process at any time.|
+|2| You can migrate the automatic record creation rules and SLAs separately or both at the same time. You must select a category for migration before you can proceed.|
+|3|	You can select **Next** to go to the next stage.|
 
 ### Premigration checkup
 
@@ -219,7 +219,7 @@ To view ARC or SLA rules that did not successfully complete migration, you can s
 |1|	**Name**: Displays each individual rule that failed.|
 |2|	**Migration status**: Displays the status as incomplete.|
 |3|	**Problem details**: Displays why the rule failed and has a **Download log** option that provides more details.
-|4|	**Download all logs**: Let you download the logs of the rules that you can use for reviewing and troubleshooting.|
+|4|	**Download all logs**: Lets you download the logs of the rules that you can use for reviewing and troubleshooting.|
 
 ### Finish
 

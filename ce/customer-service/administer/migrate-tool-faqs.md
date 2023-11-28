@@ -22,7 +22,7 @@ No. You must manually activate the migrated rules after the migration is complet
 
 ### Can I still use my legacy rules after the deprecation deadline?
 
-Yes. Active legacy rules continue to run after the deprecation deadline, until they are deactivated. However, supportability and the editing experience will stop after deprecation.
+Yes. Active legacy rules continue to run after the deprecation deadline, until they are deactivated. However, the editing experience and supportability stop after deprecation.
 
 ### Can I activate a rule that has an "incomplete" migration status?
 
