@@ -84,9 +84,9 @@ Copilot can help you catch up on the recent updates to your opportunity or lead 
 
 The recent changes list is generated from the audit history. If you don't see the recent changes list, ask your administrator to [turn on auditing](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
-1. In the Copilot chat pane, select **Recent changes to opportunity** or **Recent changes to lead**.
+1. In the Copilot chat pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and then select **Show recent changes for opportunity** or **Show recent changes for lead**.
 
-1. Start typing the name of the opportunity or lead after the **/** symbol.
+1. If you've a lead or opportunity record open, press *Enter* to view the recent changes to that record. If not, type **/** and then start typing the name of the opportunity or lead.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
