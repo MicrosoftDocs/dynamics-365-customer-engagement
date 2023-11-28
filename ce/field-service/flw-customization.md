@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integration for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 11/21/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -14,7 +14,7 @@ ms.subservice: m365-integrations
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
-We currently support customization of the **Work Orders** and **Bookable Resource Booking** experiences.
+We currently support customization of the **Work Orders** and **Booking** experiences.
 
 <!--- Michael recommends removing image as it won't localize 
 :::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook"::: --->
@@ -40,7 +40,9 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Select **Edit views in Power Apps**. Power Apps automatically opens to the **Tables** page for the specified environment.
 
-1. Select **All** and then search for **work order**. For bookings, search for **bookable resource booking**.
+   > [!TIP] You can also access [Power Apps](https://make.powerapps.com/), select your environment, and then select **Tables**.
+
+1. Select **All** and then search for **work order**. For bookings, search for **booking**.
 
    :::image type="content" source="media/fsp-power-apps-tables.png" alt-text="Power Apps Tables page with work order search highlighted.":::
 
@@ -81,6 +83,7 @@ You can [modify the Field Service columns](field-service-customize-columns-field
 ## Next steps
 
 - [General customization best practices](field-service-customization-best-practices.md)
+- [Creating and editing views in Power Apps](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
