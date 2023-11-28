@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 11/03/2023
+ms.date: 11/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,16 +22,13 @@ No. You must manually activate the migrated rules after the migration is complet
 
 ### Can I still use my legacy rules after the deprecation deadline?
 
-Yes. Active legacy rules will continue to run after the deprecation deadline, until they are deactivated. However, supportability and the editing experience will stop after deprecation.
+Yes. Active legacy rules continue to run after the deprecation deadline, until they are deactivated. However, supportability and the editing experience will stop after deprecation.
 
 ### Can I activate a rule that has an "incomplete" migration status?
 
-No. A migrated rule can be activated only when the **Mark as complete** toggle is switched to **Yes** (that is, when the rule is considered successfully migrated).
+No. A migrated rule is activated only when you switch the **Mark as complete** toggle to **Yes** after you review an incomplete rule and fix any issues that are present. That's when the rule is considered successfully migrated.
 
-> [!NOTE] 
-> Before you switch the **Mark as complete** toggle to **Yes**, review the incomplete rule to fix any issues. Then activate the rule.
-
-### Will the legacy rule be deactivated?
+### Is the legacy rule deactivated after I migrate?
 
 - **For automatic record creation, yes.** When you activate a migrated automatic record creation rule in Unified Interface, the corresponding legacy rule is deactivated.
 - **For SLAs, no.** When you activate a migrated SLA rule in Unified Interface, the corresponding legacy rule remains active, because the two rules can coexist.
