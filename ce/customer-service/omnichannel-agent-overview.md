@@ -30,12 +30,12 @@ Omnichannel for Customer Service is available on the following:
 
 [Overview of agent experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097512)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).
+To view more videos on Omnichannel for Customer Service, see [Videos](use/videos.md).
 
 ### See also
 
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
-[Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)
+[Agents using Omnichannel for Customer Service app](use/omnichannel-customer-service-app-agent.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
