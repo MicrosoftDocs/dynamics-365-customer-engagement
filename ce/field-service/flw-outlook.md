@@ -25,6 +25,8 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 - Outlook on the web
 - Outlook 2013 or later on Windows (or Mac)
 - Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
+  > [!NOTE]
+  > The supported language is based on your Outlook language. If you access Outlook from the web, the language is based on the web browser. If you access Outlook from Outlook Desktop, the language is based on Outlook Desktop's language.
 
 ### Install the Outlook Add-in
 
