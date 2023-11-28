@@ -1,7 +1,7 @@
 ---
 title: FAQs for work order update (preview)
 description: Get answers to common questions about how the AI-powered work order update feature in the Dynamics 365 Field Service mobile app helps you quickly update details of a work order.
-ms.date: 11/02/2023
+ms.date: 11/28/2023
 ms.custom:
   - responsible-ai-faqs
   - bap-template
@@ -17,11 +17,11 @@ These FAQs describe the AI impact of the Dynamics 365 Field Service work order u
 
 ## What is work order update with Copilot?
 
-Work order update allows a frontline workers to describe work performed in natural language on their mobile device. This description of work is used by Copilot to recommend updates to fields in the new Field Service Mobile user experience. This feature reduces the effort of manually going through forms and fields to update them and saves the frontline worker time within the app experience.
+Work order update allows frontline workers to describe work performed in natural language on their mobile device. This description of work is used by Copilot to recommend updates to fields in the new Field Service Mobile user experience. This feature reduces the effort of manually going through forms and fields to update them and saves the frontline worker time within the app experience.
 
 ## What are the feature's capabilities?
 
-Based on user input, the feature recommends fields to update in the mobile application. The frontline worker get suggestions for all recommended updates, which they review and confirm before updates are made to the record.
+Based on user input, the feature recommends fields to update in the mobile application. The frontline worker gets suggestions for all recommended updates, which they review and confirm before updates are made to the record.
 
 ## What is the feature's intended use?
 
@@ -33,7 +33,7 @@ A typical workflow for the frontline worker involves updating data fields within
 - It's available only in the new field service mobile user experience.
 - Copilot can only update the fields of a predefined schema.
 - This feature requires an active internet connection. It's not available while users are offline.
-- We evaluated the feature in English only. You may get inaccurate responses with other languages.
+- We evaluated the feature in English only. You can get inaccurate responses with other languages.
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
@@ -41,7 +41,7 @@ While this feature is in preview and only available for environments within the 
 
 ## Can I add update fields and forms outside of the new Field Service mobile user experience?
 
-Work order update is limited to fields within the new mobile user interface. Work order update can modify the following fields. The feature will not update any fields outside of this experience and will not recommend updates for any fields outside of this experience.
+Work order update is limited to fields within the new mobile user interface. Work order update can modify the following fields. The feature doesn't update any fields outside of this experience and doesn't recommend updates for any fields outside of this experience.
 
 - Booking status
 - Booking times
