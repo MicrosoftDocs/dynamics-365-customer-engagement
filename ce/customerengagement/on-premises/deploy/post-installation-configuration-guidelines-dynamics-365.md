@@ -248,7 +248,7 @@ Your provider will provide a signed version of the certificate including the pri
 
 ### Import and then export the received certificate
 
-Import the certificate into the local certificate store (Personal) and the request will automatically be completed. Doing so merges the private and public key.
+Import the certificate into the local certificate store (Personal) and the request will automatically be completed. Doing so merges the private and public key. From the Certificates MMC snap-in right-click the **Certificates** folder in the **Personal** folder, point to **All Tasks**, and then select **Import**. **Browse** to and select the certificate and follow the steps in the **Certificate Import Wizard** to import it.
 
 Finally, you export the certificate.
 
