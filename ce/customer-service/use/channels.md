@@ -14,20 +14,20 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels has become not only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
+As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels is not only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
 
 Adding channels to your business support offering is a powerful way to provide personalized service to customers on the channels of their choice. It's helpful to recognize a common pattern across all channels that are enabled through Omnichannel for Customer Service before diving into the implementation of a single channel.
 
 The implementation pattern for the out-of-the-box channels is as follows:
 
-- Establish your account and respective requirements, such as a page and app, with the channel provider. This ensures that you have an entry point with the channel provider through which customers will engage.
+- Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers will engage.
 - Configure the workstream in [Customer Service admin center](../implement/cs-admin-center.md).
 - Configure the channel in Customer Service admin center and attach it to the workstream.
-- Populate the exchange of handshake data, such as token and secrets required between omnichannel and the channel provider. This is usually done in both places: the Customer Service admin center app and the channel provider experience. 
+- Populate the exchange of handshake data, such as token and secrets required between omnichannel and the channel provider. The data exchange is usually done in both places: the Customer Service admin center app and the channel provider experience. 
 
 ## License requirements
 
-An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you'll need to acquire subscriptions from those providers as well.
+An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you need to acquire subscriptions from those providers as well.
 
 You can get Chat for Dynamics 365 Customer Service with either of the following add-on licenses:
 
