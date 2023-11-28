@@ -16,7 +16,8 @@ Customize the work order and booking experiences to help frontline managers and 
 
 We currently support customization of the **Work Orders** and **Bookable Resource Booking** experiences.
 
-:::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook":::
+<!--- Michael recommends removing image as it won't localize 
+:::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook"::: --->
 
 <!--- TODO: Documentation image showing Outlook with customized fields, and maybe arrows showing which pieces of content are extracted from the email into the form 
 <Screenshot of Teams> --->
@@ -47,8 +48,6 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Under **Data experiences**, select **Views**. A list of all public and customized views displays.
 
-   :::image type="content" source="media/fsp-power-apps-views.png" alt-text="Power Apps Work Order table page with Views highlighted.":::
-
 1. To create a new view, select **New view**. Enter a name and optional description and select **Create**. The **Work Order Number** column automatically displays.
 
    To edit a view, open the view.
@@ -64,8 +63,8 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Continue to customize your view:
 
-   - To change the column filtering select the header of the column where the filter is required, and then in the dropdown list select **Filter by**.
-   - To change the column sorting select the header of the column where sorting is needed then select **Sort A-Z**, **Sort Z-A**, **Sort descending**, or **Sort ascending**.
+   - To change the column filtering, select the header of the column where the filter is required, and then in the dropdown list, select **Filter by**.
+   - To change the column sorting, select the header of the column where sorting is needed, and then select **Sort A-Z**, **Sort Z-A**, **Sort descending**, or **Sort ascending**.
    - Configure column width by selecting and dragging the column to the desired position.
    - Reorder columns by dragging a column to the desired position.
 
