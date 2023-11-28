@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "08/09/2023"
+ms.date: "11/28/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -145,27 +145,21 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
   
 3.  To register the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], in [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], go to **Settings** > **Dynamics 365 App for Outlook** and register the app there.  
   
-### Additional steps for clients unable to connect to the Dynamics 365 Server via IFD
-If clients experience issues connecting through the IFD after you have registered them, follow each step here to resolve the issue. 
+### Required steps after enabling OAuth for Dynamics 365 Server
+
+When OAuth is enabled, and you have registered your applications, it's required to complete the following steps:
 
 #### Remove site authentication providers
+
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
 2. In the left pane, under the organization name, expand **Sites**, and then select **Microsoft Dynamics CRM**. 
 3. Double-click **Authentication** in the middle pane.
 4. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, select **Remove**, and then select **OK**. 
-7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
+5. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
    ![Remove site provider.](media/remove-site-provider.png)
 
-Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
-
-<!-- #### Disable integrated windows authentication to prevent client authentication prompts 
-1. On the AD FS server, open AD FS Management. 
-2. Select **Authentication Policies** on the left pane.
-3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
-4. Clear **Windows Authentication** if it is checked, and then select **OK**.
-
-   ![Disable integrated windows authentication.](media/disable-windows-auth.png) -->
+6. Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders.
 
 #### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
 
