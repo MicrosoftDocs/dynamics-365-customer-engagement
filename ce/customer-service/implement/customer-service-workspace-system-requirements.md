@@ -1,7 +1,7 @@
 ---
-title: "Customer Service workspace system requirements | MicrosoftDocs"
-description: "Learn about the system requirements and prerequisites for Customer Service workspace."
-ms.date: 04/05/2023
+title: Customer Service workspace system requirements
+description: Learn about the system requirements and prerequisites for using Customer Service workspace.
+ms.date: 11/28/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,22 +11,20 @@ ms.author: nenellim
 
 This article provides information about the prerequisites and system requirements for using Customer Service workspace in your organization.
 
-
 ## Prerequisites
 
 This section lists the prerequisites for using Customer Service workspace.
 
 ### Licensing
 
-An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user.
+An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Software requirements
 
 | Area | Requirements |
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service workspace app 9.2.0000.00000. |
-| Web browsers | Supported browsers: <li> Microsoft Edge; latest three major releases</li> <li> Google Chrome; latest three major releases </li> |
-|||
+| Web browsers | Latest three major releases of the supported browsers: <li> Microsoft Edge</li> <li> Google Chrome</li> |
 
 ### Hardware requirements
 
@@ -35,7 +33,6 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | RAM | A minimum of 4 GB |
 | Latency  | Not more than 150 milliseconds  |
 | Throughput | A minimum of 4 Mbps|
-|||
 
 For more requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
@@ -44,7 +41,7 @@ For more requirements, see [Model-driven app requirements](/power-platform/admin
 
 ### Limitations
 
-- Customer Service workspace isn't supported in mobile devices, Unified Service Desk, and with Dynamics 365 Customer Engagement (on-premises).
+- Customer Service workspace isn't supported on mobile devices, Unified Service Desk, and Dynamics 365 Customer Engagement (on-premises).
 
 ### See also
 
