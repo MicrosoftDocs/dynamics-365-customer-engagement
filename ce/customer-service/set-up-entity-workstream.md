@@ -13,8 +13,8 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-> - You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the Customer Service admin center app. More information: [Migrate workstreams for routing records](migrate-workstreams.md#migrate-workstreams-for-routing-records)
+> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
+> - You can no longer configure record routing in the Omnichannel Administration app because it will not work as expected. If you have existing workstreams for routing records, you'll need to recreate them in the Customer Service admin center app. More information: [Migrate workstreams for routing records](administer/migrate-workstreams.md#migrate-workstreams-for-routing-records)
 
 ## Create a record workstream
 
@@ -34,7 +34,7 @@ This topic describes how to create a work stream for an entity that has been ena
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
     | Work Distribution | Name | Case Work stream | Provide a name to the work stream. <br> **Note:** The value provided is an example.  |
     | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list.|
-    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](enable-entities-for-queues.md). |
+    | Work Distribution | Entity | Case | Select an entity from the drop-down menu. <br> If you want to create a entity, select **+ New**. To learn more, see [Enable entity for routing](administer/enable-entities-for-queues.md). |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
