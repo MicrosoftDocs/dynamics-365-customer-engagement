@@ -1,6 +1,6 @@
 If your have permissions for multiple environments, you can easily switch environments without having to sign out and sign in.
 
-1. From the Teams Field Service (Preview) **Home** page, select **Switch environments**. You can also select the **Settings** tab.
+1. From the Teams Field Service **Home** page, select **Switch environments**. You can also select the **Settings** tab.
 
 1. Select your Field Service environment.
 

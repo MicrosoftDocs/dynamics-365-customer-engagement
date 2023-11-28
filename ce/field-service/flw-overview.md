@@ -1,7 +1,7 @@
 ---
 title: Field Service in Microsoft 365 apps 
 description: Learn about integrations for Dynamics 365 Field Service with Microsoft Outlook and Teams.
-ms.date: 10/01/2023
+ms.date: 11/28/2023
 ms.topic: overview
 author: jasonxian-msft
 ms.author: jasonxian
@@ -26,7 +26,7 @@ As an organization, you can use the capabilities in Microsoft Outlook, Microsoft
 - [Field Service Teams overview for the frontline manager](flw-teams-manager.md)
 - [Field Service Teams overview for the frontline worker](flw-teams-worker.md)
 
-Administrators enable these preview features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md). End users do have the ability to set up the Outlook add-in or Teams home page on their own. Viva Connections requires an administrator to set up for the organization.
+Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md). End users do have the ability to set up the Outlook add-in or Teams home page on their own. Viva Connections requires an administrator to set up for the organization.
 
 Dynamics 365 Field Service allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
 

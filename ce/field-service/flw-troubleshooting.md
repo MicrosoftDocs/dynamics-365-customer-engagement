@@ -1,7 +1,7 @@
 ---
 title: Field Service troubleshooting
 description: Learn how to troubleshoot issues in Dynamics 365 Field Service.
-ms.date: 09/01/2023
+ms.date: 11/28/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
 ms.author: jasonxian
@@ -11,8 +11,6 @@ ms.subservice: m365-integrations
 ---
 
 # Field Service troubleshooting
-
-[!INCLUDE[public-preview-banner](../includes/public-preview-banner.md)]
 
 ## As an admin, I can't find users when setting up frontline workers in the Field Service web app
 

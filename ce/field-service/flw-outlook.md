@@ -69,7 +69,7 @@ If you don’t already have Outlook and Field Service licenses, contact your org
 
 This feature adheres to [responsible AI guidelines](faqs-wo-flw-copilot.md). If you don't see the Copilot icon, your admin might have disabled this feature.
 
-1. While in an email, [open the Field Service add-in](#open-the-field-service-preview-outlook-add-in). To avoid duplicate work orders, if the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
+1. While in an email, [open the Field Service add-in](#open-the-field-service-outlook-add-in). To avoid duplicate work orders, if the email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 
 1. On the Home tab, select **Create a work order from email**.
 
@@ -103,7 +103,7 @@ See [View work orders](#view-work-orders-in-outlook) and [Edit a work order](#ed
 
 ## Create a work order manually in Outlook
 
-1. While in an email, [open the Field Service add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service add-in](#open-the-field-service-outlook-add-in).
 
 1. On the **Work orders** tab, select the **Create work order (+)** button.
 
@@ -193,7 +193,7 @@ Change the date and time scheduled for the technician.
 
 ## View work orders in Outlook
 
-1. While in an email, [open the Field Service add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service add-in](#open-the-field-service-outlook-add-in).
 
 1. On the **Work orders** tab, a list of up to 50 work orders display. The most recent work order displays first.
 
@@ -210,7 +210,7 @@ Change the date and time scheduled for the technician.
 
 ## Edit a work order in Outlook
 
-1. While in an email, [open the Field Service add-in](#open-the-field-service-preview-outlook-add-in).
+1. While in an email, [open the Field Service add-in](#open-the-field-service-outlook-add-in).
 
 1. Select **Open work order** from the **Copilot** tab.
 

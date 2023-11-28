@@ -61,11 +61,11 @@ To set up the Field Service Outlook capability for your organization, enable it 
 
 ### Give consent to use Copilot in Field Service for Outlook
 
-As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform envrionment is inside or outside of the United States.
+As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform environment is inside or outside of the United States.
 
 #### For customers with Power Platform environments outside the US
 
-- To opt-in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
+- To opt in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
 - To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
 
 #### For customer with Power Platform environments in the US
@@ -76,7 +76,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 
 1. Select the **Features** tab.
 
-   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with OUtlook Add-in Copilot highlighted.":::
+   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with Outlook Add-in Copilot highlighted.":::
 
 1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
 
@@ -120,10 +120,10 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 Field Service for Viva Connections and Teams requires the following setup:
 
 - [Create user groups](#create-user-groups), if they aren't already set up
-- [Deploy Field Service Teams app](#deploy-the-field-service-preview-teams-app)
+- [Deploy Field Service Teams app](#deploy-the-field-service-teams-app)
 - [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
-- [Deploy Field Service for Viva Connections](#deploy-field-service-preview-for-viva-connections)
-- [Add Field Service cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
+- [Deploy Field Service for Viva Connections](#deploy-field-service-for-viva-connections)
+- [Add Field Service cards to the dashboard](#add-field-service-cards-to-the-viva-connections-dashboard)
 - [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles)
 
 > [!NOTE]
@@ -195,7 +195,7 @@ Viva Connections is included as part of Microsoft Teams license. If you don't ha
 
 ### Add Field Service cards to the Viva Connections dashboard
 
-There are four cards available for the Field Service for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
+There are four cards available for the Field Service for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers, we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
 1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
 
@@ -244,7 +244,7 @@ If some of the permissions of a user are inadequate to view or create work order
 
    - For Prod, go to [make.powerapps.com](https://make.powerapps.com/)
    - For Test, go to [make.test.powerapps.com](https://make.test.powerapps.com).
-   - For PreProd, go to [make.preprod.powerapps.com](https://make.preprod.powerapps.com).
+   - For Pre-Prod, go to [make.preprod.powerapps.com](https://make.preprod.powerapps.com).
 
 1. Select your environment in the top bar.
 

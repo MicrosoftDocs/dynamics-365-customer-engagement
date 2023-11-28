@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service
 description: Learn what's new in the Dynamics 365 Field Service integration with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 10/06/2023
+ms.date: 11/28/2023
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,6 +15,15 @@ ms.subservice: m365-integrations
 See [supported geographies, regions, and languages.](flw-overview.md#supported-geographies-regions-and-languages)
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
+
+## December 5, 2023
+
+This release includes the following changes.
+
+- General availability of Microsoft 365 integrations for Field Service. Frontline workers and managers can use Teams, Outlook, and Viva Connections to manage work orders. These work orders sync to Field Service as the system of record.
+- In Teams, assistance while scheduling a work order. Scheduling suggestions include resources and times based on the work order requirements.
+- Admins can customize the work order experience in Teams and Outlook.
+- In public preview, frontline managers and workers can access key work order information by asking Copilot questions within Teams.
 
 ## October 9, 2023
 
