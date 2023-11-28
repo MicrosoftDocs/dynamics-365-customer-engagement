@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/versium-predict/versium-predict.md",
+      "redirect_url": "/dynamics365/sales/work-predictive-opportunity-scoring",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/configure-sales-copilot.md",
       "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
