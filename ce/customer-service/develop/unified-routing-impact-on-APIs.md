@@ -1,13 +1,15 @@
 ---
 title: Understand how unified routing affects queue items and live work items for routed records
 description: Use this article to understand how unified routing affects queue items, live work items, and the corresponding APIs.
-ms.date: 05/26/2023
-ms.topic: article
+ms.date: 11/28/2023
+ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer:
+ms.collection:
 ---
+
 # Understand how unified routing affects queue items and live work items for routed records
 
 Whenever you route a record using unified routing, a live work item entity record ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) is created to track the workstream settings for allowed presence, matched skills, and available capacity. The unified routing engine uses these settings to route records to the appropriate queues based on route-to-queue rules, and to the available agent based on presence, skills, and capacity.
@@ -28,7 +30,7 @@ You can update only one field of the queue item at a time. For example, if you n
 
 > [!NOTE]
 > - Unified routing automatically sets the record's owner to a user. We recommend that you don't overwrite or update the ownership.
-> - We recommend that you don't add any custom logic on live work items as Microsoft uses them in unified routing services.
+> - We recommend that you don't add any custom logic on live work items as Microsoft uses the live work items in unified routing services.
 
 ## How unified routing affects queue items, live work items for routed records
 
@@ -36,26 +38,29 @@ This section describes how queue items and live work items are updated when you 
 
 ### What happens when you change the Queue field
 
-- When you change the **Queue** field from an advanced queue to another advanced queue&mdash;by selecting **Add to Queue** on the record (via the [AddToQueue action](/power-apps/developer/data-platform/webapi/reference/addtoqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)) or by selecting **Route To** on the queue item (via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)), then the associated queue for the live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) also gets updated to the same destination queue. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you change the **Queue** field from an advanced queue to another advanced queue&mdash;by selecting **Add to Queue** on the record via the [AddToQueue action](/power-apps/developer/data-platform/webapi/reference/addtoqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9) or by selecting **Route To** on the queue item via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9), then the associated queue for the live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) also gets updated to the same destination queue. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-- When you change the **Queue** field from an advanced queue to a basic queue by selecting **Add to Queue** on the record (via the [AddToQueue Action](/power-apps/developer/data-platform/webapi/reference/addtoqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)) or by selecting **Route To** on the queue item (via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)), then the associated live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) and the entity record are closed, and the queue item is no longer considered or picked by the unified routing engine. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you change the **Queue** field from an advanced queue to a basic queue by selecting **Add to Queue** on the record via the [AddToQueue Action](/power-apps/developer/data-platform/webapi/reference/addtoqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9) or by selecting **Route To** on the queue item via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9), then the associated live work item ([msdyn_ocliveworkitem](reference/entities/msdyn_ocliveworkitem.md)) and the entity record are closed, and the queue item is no longer considered or picked by the unified routing engine. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
 - When you change the **Queue** field of a queue item from a basic queue to an advanced queue, then you must reroute the queue items using **Save & Route** so that the corresponding live work item can be picked up by the unified routing services. If you change a basic queue to an advanced type of queue while the queue item is still assigned to the basic queue, then the queue item won't be considered for routing by the unified routing engine. 
 
 ### What happens when you update the Worked By field 
 
-- When you update the **Worked By** field of queue items by selecting **Route To** on the queue items list (via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)) or by manually updating the **Worked By** field on the QueueItem details form, then the live work item ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) also gets assigned to the same agent.
+- When you update the **Worked By** field of queue items by selecting **Route To**/**Pick From Queue** on the queue items list via the [RouteTo action](/power-apps/developer/data-platform/webapi/reference/routeto?view=dataverse-latest)/[PickFromQueue Action](/power-apps/developer/data-platform/webapi/reference/pickfromqueue?view=dataverse-latest) or by manually updating the **Worked By** field on the QueueItem details form, then the live work item ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) also gets assigned to the same agent. With **Route To**/**Pick From Queue**, the owner of the record is also updated to the same agent whereas manual update of **Worked by** doesn't update the owner field in the record.
 
-- When automatic assignment routes the record and the record is assigned to the agent, then the **Worked By** field is set to the agent that's assigned in the queue item, the agent field in the live work item, and the owner field in the record. 
+- When automatic assignment routes and assigns the record to an agent, then the following fields are updated with the agent name:
+  - Worked By
+  - Agent in the live work item
+  - Owner in the record
 
 > [!CAUTION]
-> If you run a custom script, flow, or action that updates the queue item, live work item, or record at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run any custom scripts or flows before or after the automatic assignment.
+> If you run a custom script, flow, or action that updates the queue item, live work item, or record at the same time as the automatic assignment, then you might experience assignment errors. We recommend that you run custom scripts or flows before or after the automatic assignment is complete.
 
 ## What happens when you delete or deactivate a queue item
 
-- When you delete a queue item by selecting **Remove** (via the [RemoveFromQueue action](/power-apps/developer/data-platform/webapi/reference/removefromqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)), or by deleting or closing the underlying record, the associated live work item ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
+- When you delete a queue item by selecting **Remove** via the [RemoveFromQueue action](/power-apps/developer/data-platform/webapi/reference/removefromqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9), or by deleting or closing the underlying record, the associated live work item [`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes.
 
-- When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item ([`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md)) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes. If the record needs to be reopened, then you must reroute it using **Save & Route**, and not reactivate the queue item. The rerouting creates a new live work item and a new queue item, ensuring all the information needed for routing is available again.
+- When you [deactivate a queue item](deactivate-queue-items.md), the associated live work item [`msdyn_ocliveworkitem`](reference/entities/msdyn_ocliveworkitem.md) is also closed. This action then updates the unified routing services that maintain agent presence and capacity with the corresponding changes. If the record needs to be reopened, then you must reroute it using **Save & Route**, and not reactivate the queue item. The rerouting creates a new live work item and a new queue item, ensuring all the information needed for routing is available again.
 
 - When you update a queue item using unified routing, you can't remove it from the queue by selecting **Pick** ([PickFromQueue action](/power-apps/developer/data-platform/webapi/reference/pickfromqueue?view=dataverse-latest&preserve-view=true&viewFallbackFrom=dynamics-ce-odata-9)) or **RouteTo action** on the queue item.
 
