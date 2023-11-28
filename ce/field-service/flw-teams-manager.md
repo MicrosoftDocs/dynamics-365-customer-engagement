@@ -1,7 +1,7 @@
 ---
 title: Field Service Teams app for the frontline manager
 description: Learn about the Dynamics 365 Field Service Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 10/06/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -21,7 +21,7 @@ Environment is in a [supported geography, region, and language](flw-overview.md#
 > [!NOTE]
 > The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
 
-## Install the Field Service (Preview) Teams app
+## Install the Field Service Teams app
 
 If your admin installed the Field Service Teams app for your organization, you can skip this step.
 
@@ -29,7 +29,7 @@ If your admin installed the Field Service Teams app for your organization, you c
 
 ## Select your environment to open your dashboard the first time
 
-1. In Teams, select **Apps** and select **Field Service**. Your dashboard displays.
+1. In Teams, select **Apps** and select **Field Service (Preview)**. The **Home** page displays.
 
 1. Select the **Settings** tab.
 
@@ -37,12 +37,12 @@ If your admin installed the Field Service Teams app for your organization, you c
 
    :::image type="content" source="media/fsp-environment-flm.png" alt-text="Screenshot of Field Service environment selection for the frontline manager":::
 
-1. Once the environment is validated, select **Open Viva Connections**. The **Home** page displays.
+1. Once the environment is validated, select the **Home** tab to go to the Teams **Home** page or select **Open Viva Connections** to go to your Viva Connections dashboard.
 
    :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager":::
 
    > [!TIP]
-   > In Teams, if you have multiple environments, you can easily [switch environments](#switch-environments).
+   > In Teams, if you have multiple environments, you can easily [**Switch environments**](#switch-environments).
 
 ## Create a work order in Teams
 
@@ -52,18 +52,72 @@ If your admin installed the Field Service Teams app for your organization, you c
 
 1. At a minimum, enter the required information for the work order. For any field on the work order, if a value isn't available in the drop-down list, select **+**. The Field Service app opens so you can enter a new value and its details. Save and close the Field Service app. Type the new value or select **Refresh** to add the new value to the drop-down list.
 
-   - [Service Account](accounts.md)
-   - [Work Order Type](create-work-order-types.md)
-   - [Price List](create-price-list.md)
+   - [Service account](accounts.md)
+   - [Work order type](create-work-order-types.md)
+   - [Price list](create-price-list.md)
 
    :::image type="content" source="media/fsp-viva-create-work-order.png" alt-text="Screenshot of Field Service Teams Create a work order":::
 
-1. Select **Save**. After the work order is created, the work order number displays. The **System Status** default is **Unscheduled**.
+1. Select **Save**. After the work order is created, the work order number displays. The **Status** default is **Unscheduled**.
 
    :::image type="content" source="media/fsp-viva-pop-out-icon.png" alt-text="Screenshot of Field Service Teams work orders highlighting pop-out icon":::
 
    > [!TIP]
    > If you want to open the work order in Field Service, select the pop-out icon.
+
+## Get schedule assistance
+
+In Teams, schedule assist functionality helps you schedule, reschedule, or move a booking for a work order.
+
+### Schedule a work order in Teams
+
+Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
+
+1. After you create a work order or open an unscheduled work order, select **Schedule** under **Suggested actions**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+
+1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+
+   :::image type="content" source="media/fsp-flm-schedule-options.png" alt-text="Field Service (Preview) Teams scheduling.":::
+
+   > [!TIP]
+   > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
+
+1. Select the **Book resource** icon for the technician. The technician is booked and the status is changed to **Scheduled**. A confirmation displays.
+
+1. Select the back arrow to return to the work order.
+
+### Reschedule a work order in Teams
+
+Reschedule a scheduled work order to a different resource, date, or time. Use schedule assist to provide schedules based on resource availability, skills, customer promised time windows, customer location proximity, and business unit. Or [manually move the date, time, or technician](#move-a-booking-in-teams).
+
+1. From a scheduled work order, select **View schedule** under **Suggested actions**.
+
+   :::image type="content" source="media/fsp-flm-teams-reschedule.png" alt-text="Field Service (Preview) Teams reschedule.":::
+
+1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+
+1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
+
+   > [!TIP]
+   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](preview-schedule-board.md) instead.
+
+1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays.
+
+1. Select the back arrow to return to the work order.
+
+### Move a booking in Teams
+
+Change the date and time scheduled for the technician.
+
+1. From a scheduled work order, select **View schedule**.
+
+   :::image type="content" source="media/fsp-flm-move-booking.png" alt-text="Screenshot of Field Service (Preview) Teams ellipsis button to select Move booking":::
+
+1. Next to **Reschedule**, select the ellipsis (**&hellip;**) > **Move booking**. The system automatically displays the current resource, but you can change it.
+
+1. Select the date and time and select **Update**. The technician is booked. A confirmation displays.
+
+1. Select the back arrow to return to the work order.
 
 ## View work orders in Teams
 
@@ -84,7 +138,7 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
 1. To filter the work orders by status or priority, select **Filter**, make your selection, and then select **Apply**. To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
 
-1. Select a work order to view or edit the details.
+1. Select a work order to view or edit the details.  
 
 ## Edit a work order in Teams
 
