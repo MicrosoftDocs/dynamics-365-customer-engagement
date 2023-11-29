@@ -1,5 +1,5 @@
 ---
-title: Omnichannel for Customer Service system requirements | MicrosoftDocs
+title: Omnichannel for Customer Service system requirements
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
 ms.date: 11/28/2023
 author: neeranelli
@@ -127,12 +127,12 @@ Location-specific links that should be made accessible are as follows.
 | South America | `oc-cdn-public-sam.azureedge.net/*`|
 | United Kingdom | `oc-cdn-public-gbr.azureedge.net/*`|
 | Japan | `oc-cdn-public-jpn.azureedge.net/*`|
-| Asia Pacific | `oc-apj-public-eur.azureedge.net/*`|
+| Asia-Pacific | `oc-cdn-public-apj.azureedge.net*`|
 | Canada | `oc-cdn-public.azureedge.net/*`|
 | India | `oc-cdn-public-ind.azureedge.net/*`|
-| Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
+| Switzerland | `oc-cdn-public-che.azureedge.net/*` |
 | United Arab Emirates | `oc-cdn-ocuae-uae.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
