@@ -59,13 +59,15 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 1. Obtain the appropriate number of [Microsoft 365 Copilot licenses.](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot)
 
-1. [Set up the plugin](/power-virtual-agents/copilot-plugins-overview).
+1. [Set up the plugin](/power-virtual-agents/copilot-plugins-overview#use-plugins-in-microsoft-copilot).
+
+1. [Consent to moving data across regions.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) For more information, see [How data movement across regions works.](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works)
 
 ## Enable the Microsoft Copilot for Field Service work orders
 
-Once an admin sets up the Microsoft Copilot for Field Service work orders, you can quickly enable the plug-in in Teams.
+Once an admin sets up the Microsoft Copilot for Field Service work orders, any user can quickly enable the plugin in Teams.
 
-1. At the bottom of your Teams window, select the **Plug-in** :::image type="icon" source="media/fsp-plugin-icon.png"::: icon.
+1. At the bottom of your Teams window, select the **Plugin** :::image type="icon" source="media/fsp-plugin-icon.png"::: icon.
 
 1. Enable the Field Service Plugin for Microsoft Copilot.
 

@@ -63,7 +63,7 @@ This feature is available in the following countries, regions, and languages:
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-The feature is currently in preview.
+The feature is currently in preview. Administrators in Field Service can choose to disable all Copilot functionality.
 
 ## See also
 
