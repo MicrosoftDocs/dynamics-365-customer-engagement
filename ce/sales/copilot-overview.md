@@ -19,7 +19,7 @@ ms.reviewer: shujoshi
 
 # Copilot in Dynamics 365 Sales overview
 
-Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on updates, prepare for meetings, and read the latest news about their accounts.
+Copilot is an AI assistant that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts.
 
 Copilot is turned on by default in all sales apps with lead and opportunity entities, for orgs in North America. If your org is in a different region, you need to [turn on copilot manually](enable-setup-copilot.md).
 
@@ -30,28 +30,28 @@ Copilot is also available as an add-in in Outlook and an integrated app in Teams
 Copilot offers the following capabilities:
 
 - [Record summarization](#record-summarization)
-- [Record catch up](#record-catch-up)
+- [Recent changes](#recent-changes)
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
 
 ### Record summarization
 
-Record summarization helps you get a quick summary of your opportunity and lead records. By default, Copilot generates the summary from your default opportunity and lead views. A system administrator can configure Copilot to generate the summary from other fields. Ensure that your entire sales team agrees on the top seven fields that are most relevant for your business.
+Record summarization helps you get a quick summary of your opportunity and lead records. By default, Copilot generates the summary from a set of predefined fields. A system administrator can configure Copilot to generate the summary from other fields. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 **More information:**
 
 - [Summarize an opportunity or a lead](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) 
-- [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
-### Record catch-up
+### Recent changes
 
-To help you stay on top of your opportunities and leads, Copilot summarizes any changes made to your records since your last visit or in the last seven days. Copilot generates the catch-up summary from the records' audit history. A system administrator configures the columns that are included in the catch up. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+To help you stay on top of your opportunities and leads, Copilot summarizes any changes made to your records since your last visit or in the last seven days, whichever is more recent. Copilot generates the recent changes list from the records' audit history. A system administrator configures the columns that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 **More information:**
 
-- [Catch up with an opportunity or lead](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead)  
-- [Configure fields for summarization](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [View recent changes to an opportunity or a lead](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-a-lead)
+- [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 ### Meeting preparation
 

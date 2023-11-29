@@ -1,6 +1,6 @@
 ---
 title: Use Copilot in Dynamics 365 apps
-description: Learn how to use Copilot to summarize your leads and opportunities records, catch up on updates, prepare for meetings, and enrich your leads with data from different sources.
+description: Learn how to use Copilot to summarize your leads and opportunities records, catch up on recent changes to your records, prepare for meetings, and enrich your leads with data from different sources.
 ms.date: 10/23/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -19,7 +19,7 @@ search.app: salescopilot-docs
 
 # Use Copilot in Dynamics 365 apps
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 apps. Copilot can summarize information about your leads and opportunities, help you catch up on updates and prepare for meetings, and enrich your leads with information from other sources.
+Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
 ## License and role requirements
 
@@ -38,15 +38,15 @@ From your Dynamics 365 app, select the Copilot icon (:::image type="icon" source
 
 ## Chat with Copilot
 
-In the Copilot pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) or place the cursor in the chat area to get the list of suggested requests or *prompts*, that Copilot can help you with. 
+In the Copilot pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) or place the cursor in the chat area to get the list of suggested requests or *prompts*, that Copilot can help you with.  
 
 :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot pane along with the list of suggested requests":::
 
 ### Summarize an opportunity or a lead
 
-1. In the Copilot chat pane, select **Summarize opportunity** or **Summarize lead** from the **Suggested requests** list.
+1. In the Copilot chat pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and then select **Summarize opportunity** or **Summarize lead** from the **Suggested requests** list.
 
-1. Start typing the name of the opportunity or lead after the **/** symbol.
+1. If you've a lead or opportunity record open, press **Enter** to view the summary of that record. If not, type **/** and then start typing the name of the opportunity or lead.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
@@ -54,9 +54,9 @@ In the Copilot pane, select the sparkle icon (:::image type="icon" source="media
 
 #### Would you like to see a different set of fields summarized?
 
-Copilot generates the summary from the first seven fields in the default opportunity or lead view. Other fields may be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution may be the first things you look for in an opportunity. Your administrator can create a view that contains those fields and tell Copilot to [generate the summary based on that view](./enable-setup-copilot.md#configure-record-summary-fields) instead.
-
-Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top seven** fields that are most relevant for your business.
+ Copilot generates the summary from a set of predefined fields. Other fields may be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution may be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
+ 
+Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
 
 ### Enrich leads with related information
 
@@ -80,27 +80,27 @@ After you select a lead, Copilot suggests other records that might be associated
 
 ### View recent changes to an opportunity or lead
 
-Copilot can help you catch up on the recent updates to your opportunity or lead records in the last seven days or since you last signed in, whichever is more recent. It summarizes the last 10 updates to the record from the audit history, based on the fields configured by your administrator.
+Copilot can help you catch up on the recent changes to your opportunity or lead records in the last seven days or since you last signed in, whichever is more recent. It lists the last 10 updates to the record from the audit history, for the fields configured by your administrator.
 
-The recent changes list is generated from the audit history. If you don't see the recent changes list, ask your administrator to [turn on auditing](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
+As the recent changes list is generated from the audit history, your administrator must [turn on auditing](enable-setup-copilot.md#enable-or-disable-copilot-features-in-dynamics-365-apps) and [grant you access to the audit history](enable-setup-copilot.md#grant-audit-access-to-your-sellers).
 
 1. In the Copilot chat pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and then select **Show recent changes for opportunity** or **Show recent changes for lead**.
 
-1. If you've a lead or opportunity record open, press *Enter* to view the recent changes to that record. If not, type **/** and then start typing the name of the opportunity or lead.
+1. If you've a lead or opportunity record open, press **Enter** to view the recent changes to that record. If not, type **/** and then start typing the name of the opportunity or lead.
 
 1. Select an opportunity or lead from the list of suggested records that match your search.
 
-    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of a lead catch up in the Copilot chat pane.":::
+    :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of the recent changes to a lead record in the Copilot chat pane.":::
 
 1. To learn more about the updated information or activity, select **Know more in audit history**.
 
     :::image type="content" source="media/copilot-lead-catchup-audit-history.png" alt-text="Screenshot of a lead's audit history.":::
 
-#### Would you like to define the fields that you want to catch up on?
+#### Would you like to view the recent changes to other fields?
 
-Copilot summarizes the last 10 updates to the record from the audit history, based on the fields in the default opportunity or lead view. You may want to stay updated on changes to other columns that matter more to you, however. Your administrator can create a view that contains those columns and tell Copilot to [generate catch up information based on that view](./enable-setup-copilot.md#configure-record-catch-up-fields) instead.
+Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you may want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
-Keep in mind that the catch up fields are configured at the organization level. Make sure that your entire sales team agrees on the **top ten** fields that are most relevant for your business.
+Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the **top ten** fields that are most relevant for your business.
 
 ### Prepare for upcoming meetings
 

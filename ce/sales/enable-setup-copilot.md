@@ -1,6 +1,6 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
-description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
+description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
 ms.date: 11/28/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
