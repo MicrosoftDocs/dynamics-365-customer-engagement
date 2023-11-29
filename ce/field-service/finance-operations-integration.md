@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 11/14/2023
+ms.date: 11/29/2023
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -41,7 +41,7 @@ The following steps are only required while the feature is in preview.
 
 ### Prerequisites
 
-- Dynamics 365 finance and operations applications preview build number 7.0.6592.16
+- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
@@ -122,6 +122,19 @@ Administrators who manage the **Dynamics 365 Field Service integration parameter
 ### Configure default order settings
 
 To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
+
+### Grant Dataverse consent for user impersonation
+
+You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
+
+1. In Power Platform admin center, select the Microsoft Power Platform environment where you installed the Copilot solution.
+1. Select **Settings** at the top of the page.
+1. Expand **Product**, and select **Features**.
+1. Find **Finance and Operations in Dataverse**.
+1. Set the **Enable finance and operations user impersonation in Dataverse** option to **On**.
+
+> [!NOTE]
+> For more information, see [Managed feature settings](/power-platform/admin/settings-features#finance-and-operations-in-dataverse).
 
 ## Enable the integration from Field Service
 

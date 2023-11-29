@@ -18,7 +18,7 @@ Refer to the Microsoft Dynamics 365 [Cloud services compliance](https://aka.ms/d
 
 ### See also
 
-[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
+[Prerequisites and system requirements of Omnichannel for Customer Service](implement/system-requirements-omnichannel.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1336,6 +1336,12 @@
       href: faqs-sales-insights.md
 - name: Removed or deprecated features
   href: deprecations-sales.md
+- name: License compliance
+  items:
+    - name: Verify license compliance
+      href: license-enforcement.md
+    - name: License checker rules
+      href: license-checker-rules.md
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Responsible AI
