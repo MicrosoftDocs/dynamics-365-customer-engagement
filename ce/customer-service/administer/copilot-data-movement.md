@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 11/02/2023
+ms.date: 11/29/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -45,11 +45,11 @@ The information in the following table outlines the Azure OpenAI service that's 
 
 The copilot AI opt-in is in limited preview. Do the following steps to opt-in to data movement across geographies:
 
-1. Send an email to `d365_csaipreview@microsoft.com` with the Organization ID of the Dynamics 365 instance where you want to use Copilot. In two business days, the copilot setup experience will be visible in your Dynamics 365 instance.
+1. Send an email to `d365_csaipreview@microsoft.com` with the Organization ID of the Dynamics 365 instance where you want to use Copilot. In two business days, the copilot setup experience will be visible in your Dynamics 365 instance. This step isn't applicable to organizations in the United States.
 
    :::image type="content" source="../media/copilot-data-boundaries-opt-in.png" alt-text="Screenshot of the Copilot opt-in to let data move outside geographical boundaries.":::
 
-2. Opt-in and set up Copilot using [Enable copilot features in Customer Service](configure-copilot-features.md). The opt-in terms don't apply to organizations in the United States and therefore aren't visible to them.
+2. Opt-in to data movement across geographies and set up Copilot using [Enable copilot features in Customer Service](configure-copilot-features.md). The opt-in terms don't apply to organizations in the United States, Australia, and United Kingdom and therefore aren't visible to them.
 
 When you use any copilot feature in an organization where the Dynamics 365 geography and Azure Open AI geography are different, your data, including personal data, that's used in prompts or returned in responses might be transmitted outside the geographic locations that you've selected for your primary data residency.
 
