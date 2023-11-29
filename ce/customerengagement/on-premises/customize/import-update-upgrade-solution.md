@@ -47,7 +47,7 @@ You can import solutions manually using the steps below. Only import solutions t
    When you download the log file, you will find an XML file that you can open using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] and view the contents.  
 
 > [!NOTE]
->  You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](../../../customer-service/create-rules-automatically-route-cases.md)  
+>  You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](../../../customer-service/administer/create-rules-automatically-route-cases.md)  
 
 <a name="BKMK_UpdateSolutions"></a>   
 

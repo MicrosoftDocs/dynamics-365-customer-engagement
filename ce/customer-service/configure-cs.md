@@ -25,7 +25,7 @@ Use the Service Management to set up various admin tasks for customer service.
 
 In the bottom left pane, select the change area, and select Service Management. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the site map navigation](customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand the site map navigation](implement/customer-service-hub-user-guide-basics.md#understand-the-site-map-navigation)
 
 
 ## Customer Service app
@@ -34,35 +34,35 @@ In the Customer Service app, navigate to **Settings > Service Management**.
 
 ## Case settings
 
-- [Queues](set-up-queues-manage-activities-cases.md)
-- [Parent Child Case Settings](define-settings-parent-child-cases.md)
-- [Routing Rule Sets](create-rules-automatically-route-cases.md)
-- [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
+- [Queues](administer/set-up-queues-manage-activities-cases.md)
+- [Parent Child Case Settings](administer/define-settings-parent-child-cases.md)
+- [Routing Rule Sets](administer/create-rules-automatically-route-cases.md)
+- [Automatic Record Creation](administer/set-up-rules-to-automatically-create-or-update-records.md)
 - [Subjects](/power-platform/admin/define-subjects-categorize-cases-products-articles)
   
 ## Service terms  
 
-- [Service Level Agreements](define-service-level-agreements.md)
-- [Entitlements](create-entitlement-define-support-terms-customer.md)
-- [Holiday Schedule](set-up-holiday-schedule.md)
-- [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
+- [Service Level Agreements](administer/define-service-level-agreements.md)
+- [Entitlements](administer/create-entitlement-define-support-terms-customer.md)
+- [Holiday Schedule](administer/set-up-holiday-schedule.md)
+- [Customer Service Schedule](administer/create-customer-service-schedule-define-work-hours.md)
 - [Service Configuration Settings](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 ## Templates
 
-[Entitlement Templates](set-up-entitlements-templates.md)
+[Entitlement Templates](administer/set-up-entitlements-templates.md)
 
 ## Knowledge Base Management 
 
-- [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
-- [Categories](create-manage-categories.md)
+- [Embedded Knowledge Search](administer/set-up-knowledge-management-embedded-knowledge-search.md)
+- [Categories](administer/create-manage-categories.md)
 
 ## Similar Record Suggestions
 
-[Suggest similar cases using advanced similarity rules](suggest-similar-cases-for-a-case.md)
+[Suggest similar cases using advanced similarity rules](administer/suggest-similar-cases-for-a-case.md)
 
 ### See also
 
-[What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
+[What's new in Dynamics 365 Customer Service](implement/whats-new-customer-service.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

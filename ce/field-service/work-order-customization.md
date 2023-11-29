@@ -1,7 +1,7 @@
 ---
 title: Customization considerations for the work order form
 description: Commonly mentioned considerations for customizations of the work order form in Dynamics 365 Field Service.
-ms.date: 10/13/2023
+ms.date: 11/27/2023
 ms.topic: conceptual
 author: lmasieri
 ms.author: lmasieri
@@ -14,13 +14,13 @@ This article lists common considerations when customizing the work order form in
 
 ## Open work order subgrids as popups
 
-Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers keep the work order context. Administrators can enable the **Work Order Subgrid Records Open as Popups** setting in the settings area. For more information, go to [Other settings](configure-default-settings.md#other-settings).
+Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers keep the work order context. Administrators can enable the **Work Order Subgrid Records Open as Popups** setting in the settings area. For more information, see [Other settings](configure-default-settings.md#other-settings).
 
 ## Show simplified work order commands
 
-The work order ribbon uses the simplified view by default. It shows only the most relevant commands. An administrator can disable the **Show Simplified Work Order Commands** setting to show all commands. For more information, go to [Work Order / Booking settings](configure-default-settings.md#work-order--booking-settings).
+The work order command bar uses the simplified view by default and shows only the most relevant commands. An administrator can disable the **Show Simplified Work Order Commands** setting to show all commands. For more information, see [Work Order / Booking settings](configure-default-settings.md#work-order--booking-settings).
 
-Check out the following video on simplified work order commands and more updates to work orders.
+You can [customize the command bar](/power-apps/maker/model-driven-apps/use-command-designer) to show the commands that are relevant in your context.
 
 ## Custom work order statuses
 
@@ -140,11 +140,7 @@ To enable Bing Maps button in form designer, at least one of the attributes of t
 > [!TIP]
 > If the map control is still not visible on the form after following these steps, try removing the active form customizations.
 
-## Components for the new work order experience (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+## Components for the new work order experience
 
 The new work order experience introduces several new code components for makers to use on their forms and views. The following sections list options and limitations for these code controls. For more information about working with code controls, see [Code controls in the Power Apps developer documentation](/power-apps/developer/component-framework/custom-controls-overview).
 

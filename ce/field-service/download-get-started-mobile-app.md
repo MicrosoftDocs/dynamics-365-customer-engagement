@@ -35,7 +35,7 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 
 Launch the mobile app and sign in with your Field Service username and password.
 
-If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](view-user-accounts-security-roles.md) to use the app.
+If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](users-licenses-permissions.md) to use the app.
 
 After you sign in, the app might download data to your device so that you can use it when your device is offline. It can take some time to complete. The data that's downloaded depends on your administrator's settings for the app's offline profile.
 

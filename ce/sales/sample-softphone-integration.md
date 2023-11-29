@@ -36,16 +36,16 @@ This topic describes how to install a *sample* app and test the calling capabili
 
 To configure the sample:
 
-1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md).
+1. Get Dynamics 365 Channel Integration Framework from Microsoft AppSource. For information on prerequisites and how to get Dynamics 365 Channel Integration Framework, see [Get Dynamics 365 Channel Integration Framework](../channel-integration-framework/v1/administer/get-channel-integration-framework.md).
 
 2. Import the **msdyn_CIFramework_managed.zip** managed solution from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590). To learn more about importing a solution, see [Import solutions](/powerapps/maker/data-platform/import-update-export-solutions)
 
-3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. To learn more about integrating a sample app, see [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md).
+3. Integrate the sample app available on the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) using Dynamics 365 Channel Integration Framework. To learn more about integrating a sample app, see [Sample softphone integration using Channel Integration Framework](../channel-integration-framework/v1/administer/sample-softphone-integration.md).
 
     > [!IMPORTANT]
-    > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) link, and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md) topic.
+    > You must use the sample app from the [Download Center](https://go.microsoft.com/fwlink/p/?linkid=2104590) link, and not the one that's mentioned in the [Sample softphone integration using Channel Integration Framework](../channel-integration-framework/v1/administer/sample-softphone-integration.md) topic.
 
-4. Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
+4. Configure the channel provider for your Dynamics 365 Sales organization. More information: [How to configure a channel provider for your Dynamics 365 organization](../channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework.md)
  
 After you complete the configuration, you'll see a phone icon next to any contact on an opportunity record who has a defined cell phone number.
 
@@ -69,9 +69,9 @@ All details regarding the call such as duration, phone number, and notes are aut
 
 ### See also
 
-[Get Dynamics 365 Channel Integration Framework](../customer-service/channel-integration-framework/get-channel-integration-framework.md)  
-[Sample softphone integration using Channel Integration Framework](../customer-service/channel-integration-framework/sample-softphone-integration.md)  
-[How to configure a channel provider for your Dynamics 365 organization](../customer-service/channel-integration-framework/configure-channel-provider-channel-integration-framework.md)
+[Get Dynamics 365 Channel Integration Framework](../channel-integration-framework/v1/administer/get-channel-integration-framework.md)  
+[Sample softphone integration using Channel Integration Framework](../channel-integration-framework/v1/administer/sample-softphone-integration.md)  
+[How to configure a channel provider for your Dynamics 365 organization](../channel-integration-framework/v1/administer/configure-channel-provider-channel-integration-framework.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

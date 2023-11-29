@@ -46,7 +46,7 @@ Go to the app store on your iOS, Android or Windows device, and search for **Dyn
 
 Download the app named **Dynamics 365 Field Service**, the mobile app built on Microsoft Power Platform.
 
-Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the **Field Service - Resource** security role. View the articles on [setting up users and security roles](../field-service/view-user-accounts-security-roles.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
+Open the app and sign in with your username and password, which should be the user credentials of the technician user who has the **Field Service - Resource** security role. View the articles on [setting up users and security roles](../field-service/users-licenses-permissions.md) and [creating a Bookable Resource](set-up-bookable-resources.md) for help.
 
 ## Next steps
 
