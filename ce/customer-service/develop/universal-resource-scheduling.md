@@ -98,7 +98,7 @@ Use the following input and output parameters for the Search Resource Availabili
   "Parameters": [
     {
       "Key": "Version",
-      "Value": "1.0.0"
+      "Value": "1"
     },
     {
       "Key": "RequirementGroup",
@@ -316,7 +316,7 @@ The following sample code shows how to implement `msdyn_SearchResourceAvailabili
             }; 
 
             //Version  
-            req["Version"] = "1.0.0"; 
+            req["Version"] = "1"; 
             req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", Guid.Parse("e5e4f033-150d-eb11-a822-000d3aaf102a")); 
 
             Entity requirementSpecification = new Entity(); 
@@ -343,7 +343,7 @@ The following sample code shows how to implement `msdyn_SearchResourceAvailabili
                 RequestName = "msdyn_createRequirementGroupBookings" 
             }; 
 
-            req["Version"] = "1.0.0"; 
+            req["Version"] = "1"; 
             req["RequirementGroup"] = new EntityReference("msdyn_requirementgroup", 
             Guid.Parse("d74260ee-180d-eb11-a822-000d3aaf102a")); 
             req["Start"] = DateTime.Today.AddDays(1); 
@@ -437,7 +437,7 @@ var req = new Microsoft.Xrm.Sdk.OrganizationRequest()
 RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 };
 
-  req["Version"] = "1.0.0"; 
+  req["Version"] = "1"; 
   Entity requirementSpecification = new Entity();
 
   //Setting from date 
@@ -492,7 +492,7 @@ void searchRequirementgroup(Microsoft.Pfe.Xrm.OrganizationServiceManager osm)
   {
   RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
   };
-req["Version"] = "1.0.0"; 
+req["Version"] = "1"; 
 Entity requirementSpecification = new Entity();
 
 //Setting from date
@@ -538,7 +538,7 @@ var req = new Microsoft.Xrm.Sdk.OrganizationRequest()
 {
 RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 };
-req["Version"] = "1.0.0"; 
+req["Version"] = "1"; 
 Entity requirementSpecification = new Entity();
 
 //Setting start date          
