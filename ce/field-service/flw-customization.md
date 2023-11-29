@@ -14,13 +14,12 @@ ms.subservice: m365-integrations
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
-We currently support customization of the **Work Orders** and **Booking** experiences.
+The Microsoft 365 integrations for Field Service utilize Power Platform views to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition.
+
+We currently support customization of the **Work Orders** and **Bookable resource booking** experiences.
 
 <!--- Michael recommends removing image as it won't localize 
 :::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook"::: --->
-
-<!--- TODO: Documentation image showing Outlook with customized fields, and maybe arrows showing which pieces of content are extracted from the email into the form 
-<Screenshot of Teams> --->
 
 ## Prerequisites
 
@@ -30,7 +29,7 @@ We currently support customization of the **Work Orders** and **Booking** experi
 
 ## Create or edit a custom view
 
-The following steps use work order as an example. You can use these steps to create or edit a custom view for bookable resources by searching for bookable resource booking.
+The following steps use work order as an example. You can use these steps to create or edit a custom view for bookings by searching for bookable resource booking.
 
 1. From your Teams Field Service **Home** page, select **Settings**, then **Customize views**.
 
@@ -43,7 +42,7 @@ The following steps use work order as an example. You can use these steps to cre
    > [!TIP]
    > You can also access [Power Apps](https://make.powerapps.com/), select your environment, and then select **Tables**.
 
-1. Select **All** and then search for **work order**. For bookings, search for **booking**.
+1. Select **All** and then search for **work order**. For bookings, search for **bookable resource booking**.
 
    :::image type="content" source="media/fsp-power-apps-tables.png" alt-text="Power Apps Tables page with work order search highlighted.":::
 
@@ -55,14 +54,27 @@ The following steps use work order as an example. You can use these steps to cre
 
    To edit a view, open the view.
 
-1. To add columns, select **View column**. Make sure you have the following required columns and optionally add other columns. Or select **Table columns** in the left navigation and drag the table columns into your view.
+1. To add columns, select **View column**. Or select **Table columns** in the left navigation and drag the table columns into your view.
+
+   :::image type="content" source="media/fsp-power-apps-view-columns-to-add.png" alt-text="First four columns displayed on a work order in the work order list.":::
+
+1. Make sure you have the following required columns and optionally add other columns. All columns added to the view can be used to filter the list of work orders.
+
+   | Work order        | Bookable resource booking |
+   | ----------------- | ------------------------- |
+   | Work Order Number | Start Time                |
+   | Work Order Type   | End Time                  |
+   | Service Account   | Resource                  |
+   |                   | Booking Status            |
 
    - **Service Account**
    - **System Status**
    - **Work Order Type**
    - **Work Order Summary**
 
-   :::image type="content" source="media/fsp-power-apps-view-columns-to-add.png" alt-text="Power Apps Work Order Table columns page.":::
+   > [!NOTE]
+   > The first four columns you select are the key fields shown in the list of work orders.
+   > :::image type="content" source="media/fsp-first-four.png" alt-text="Power Apps Work Order Table columns page.":::
 
 1. Continue to customize your view:
 
@@ -77,9 +89,9 @@ The following steps use work order as an example. You can use these steps to cre
 
 ## Add or edit columns
 
-You can [modify the Field Service columns](field-service-customize-columns-fields.md) that come with Dynamics 365 Field Service.
+You can [modify the Field Service columns](field-service-customize-columns-fields.md) that come with Dynamics 365 Field Service. Related table columns are read-only and can't be filtered in the work order list. *File* type isn't supported and multi-select lookup fields aren't supported.
 
-<!---Is there anything else we need to say about this?--->
+If a column is required but has a default that will be provided after the table is created, you might not want to include the field in the view. For example, if **Price List** is based on the selected **Service Account**, don't include **Price List** in the view.
 
 ## Next steps
 
