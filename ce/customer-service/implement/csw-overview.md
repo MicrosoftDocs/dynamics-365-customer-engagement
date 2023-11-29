@@ -150,8 +150,8 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-![Next step.]((../media/right-arrow.png "Next step") Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180)  
-![Next step.]((../media/right-arrow.png "Next step") [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
+- Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180) 
+- [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
 ### See also
 
