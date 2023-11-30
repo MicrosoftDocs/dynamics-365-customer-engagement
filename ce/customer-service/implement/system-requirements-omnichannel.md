@@ -47,13 +47,13 @@ The system requirements to use Omnichannel for Customer Service are as follows. 
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)] |
 | Azure Communication Services |Required for 1st party voice and SMS in the voice channel in production environments. For requirements specific to Azure Communication Services, see [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements). |
 | Hardware | <ul><li>Microphone and speakers for the voice experience.</li><li>**Minimum:** 4 GB of RAM</li><ul> |
-| Internet bandwidth for voice and video |<ul><li>**Minimum:** 4 Mbps upload speed; 8 Mbps download speed</li><li>**Recommended:** 8 Mbps upload speed; 16 Mbps download speed</li></ul> |
+| Internet bandwidth for voice and video |<ul><li>**Minimum:** 4-Mbps upload speed; 8-Mbps download speed</li><li>**Recommended:** 8-Mbps upload speed; 16-Mbps download speed</li></ul> |
 
 For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
 ### Supported web browsers for live chat widget<a name="browsers-for-chat"></a>
 
-The latest three major releases of the following browsers are supported by the customer-facing live chat widget that you'll display on your portal.
+The customer-facing live chat widget that you display on your portal supports the latest three major releases of the following browsers:
 
 - **Windows:** Chromium-based browser such as Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
