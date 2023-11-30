@@ -1,7 +1,7 @@
 ---
 title: Copilot data movement across geographies (preview)
 description: Learn how data that's used in copilot features in Dynamics 365 Customer Service moves across geographies where its features aren't available by default.
-ms.date: 11/02/2023
+ms.date: 11/29/2023
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -15,11 +15,11 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Copilot AI features use Azure OpenAI Service and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot does not follow the same regional rollout schedule.
+Copilot AI features use Azure OpenAI Service and are provided by default to only those customers with environments that have United States as their geography for data processing and storage. While the Azure OpenAI Service is available in multiple geographies including Australia, Canada, United States, France, Japan and UK, Copilot doesn't follow the same regional rollout schedule.
 
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service outside their geography. 
 
-The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.
+The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt in to share data.
 
 |Copilot availability|Dynamics 365 geography|Azure OpenAI geography|
 |----------|-------------|-----------------|
@@ -43,15 +43,15 @@ The information in the following table outlines the Azure OpenAI service that's 
 | Yes | United Kingdom | United Kingdom |
 | Yes | United States | United States |
 
-The copilot AI opt-in is in limited preview. Do the following steps to opt-in to data movement across geographies:
+The copilot AI opt-in is in limited preview. Do the following steps to opt in to data movement across geographies:
 
-1. Send an email to `d365_csaipreview@microsoft.com` with the Organization ID of the Dynamics 365 instance where you want to use Copilot. In two business days, the copilot setup experience will be visible in your Dynamics 365 instance.
+1. Send an email to `d365_csaipreview@microsoft.com` with the Organization ID of the Dynamics 365 instance where you want to use Copilot. In two business days, the copilot setup experience will be visible in your Dynamics 365 instance. This step isn't applicable to organizations in the United States.
 
    :::image type="content" source="../media/copilot-data-boundaries-opt-in.png" alt-text="Screenshot of the Copilot opt-in to let data move outside geographical boundaries.":::
 
-2. Opt-in and set up Copilot using [Enable copilot features in Customer Service](configure-copilot-features.md). The opt-in terms don't apply to organizations in the United States and therefore aren't visible to them.
+2. Opt in to data movement across geographies and set up Copilot using [Enable copilot features in Customer Service](configure-copilot-features.md). The opt-in terms don't apply to organizations in the United States, Australia, and United Kingdom and therefore aren't visible to them.
 
-When you use any copilot feature in an organization where the Dynamics 365 geography and Azure Open AI geography are different, your data, including personal data, that's used in prompts or returned in responses might be transmitted outside the geographic locations that you've selected for your primary data residency.
+When you use any copilot feature in an organization where the Dynamics 365 geography and Azure Open AI geography are different, your data, including personal data, that's used in prompts or returned in responses might be transmitted outside the geographic locations that you selected for your primary data residency.
 
 :::image type="content" source="../media/copilot-compliance-boundaries.png" alt-text="Visual view of data movement and compliance boundaries.":::
 

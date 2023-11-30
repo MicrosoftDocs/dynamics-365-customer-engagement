@@ -1,5 +1,5 @@
 ---
-title: Omnichannel for Customer Service system requirements | MicrosoftDocs
+title: Omnichannel for Customer Service system requirements
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
 ms.date: 11/28/2023
 author: neeranelli
@@ -45,15 +45,15 @@ The system requirements to use Omnichannel for Customer Service are as follows. 
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later.  |
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)] |
-| Azure Communication Services |Required for 1st party voice and SMS in the voice channel in production environments. For requirements specific to Azure Communication Services, see [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements). |
+| Azure Communication Services |Required for first-party voice and SMS in the voice channel in production environments. For requirements specific to Azure Communication Services, see [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements). |
 | Hardware | <ul><li>Microphone and speakers for the voice experience.</li><li>**Minimum:** 4 GB of RAM</li><ul> |
-| Internet bandwidth for voice and video |<ul><li>**Minimum:** 4 Mbps upload speed; 8 Mbps download speed</li><li>**Recommended:** 8 Mbps upload speed; 16 Mbps download speed</li></ul> |
+| Internet bandwidth for voice and video |<ul><li>**Minimum:** 4-Mbps upload speed; 8-Mbps download speed</li><li>**Recommended:** 8-Mbps upload speed; 16-Mbps download speed</li></ul> |
 
 For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
-### Supported web browsers for voice and video in live chat widget<a name="browsers-for-chat"></a>
+### Supported web browsers for live chat widget<a name="browsers-for-chat"></a>
 
-The latest three major releases of the following browsers are supported by the customer-facing live chat widget that you'll display on your portal. See the browser-specific documentation for the version information.
+The customer-facing live chat widget that you display on your portal supports the latest three major releases of the following browsers:
 
 - **Windows:** Chromium-based browser such as Microsoft Edge, Google Chrome, and Mozilla Firefox
 - **macOS and iOS:** Safari
@@ -127,12 +127,12 @@ Location-specific links that should be made accessible are as follows.
 | South America | `oc-cdn-public-sam.azureedge.net/*`|
 | United Kingdom | `oc-cdn-public-gbr.azureedge.net/*`|
 | Japan | `oc-cdn-public-jpn.azureedge.net/*`|
-| Asia Pacific | `oc-apj-public-eur.azureedge.net/*`|
+| Asia-Pacific | `oc-cdn-public-apj.azureedge.net*`|
 | Canada | `oc-cdn-public.azureedge.net/*`|
 | India | `oc-cdn-public-ind.azureedge.net/*`|
-| Asia-Pacific and Japan | `oc-cdn-public-apj.azureedge.net/*`|
 | Australia | `oc-cdn-public-oce.azureedge.net/*`|
 | France | `oc-cdn-public-fra.azureedge.net/*`|
+| Switzerland | `oc-cdn-public-che.azureedge.net/*` |
 | United Arab Emirates | `oc-cdn-ocuae-uae.azureedge.net/*`|
 
 ### Government Community Cloud (GCC)
