@@ -170,7 +170,7 @@ items:
     - name: Travel charges
       href: travel-charges.md
 
-- name: Microsoft 365 integrations for Field Service (preview)
+- name: Microsoft 365 integrations for Field Service
   items:
     - name: Overview
       href: flw-overview.md
@@ -182,7 +182,7 @@ items:
       href: flw-teams-manager.md
     - name: Teams app for the frontline worker
       href: flw-teams-worker.md
-    - name: Microsoft 365 Chat for Field Service (Preview)
+    - name: Field Service Plugin for Microsoft Copilot (preview)
       href: flw-m365-chat.md
 
 - name: Scheduling

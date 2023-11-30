@@ -63,7 +63,9 @@ This feature is available in the following countries, regions, and languages:
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
-The feature is currently in preview. Administrators in Field Service can choose to disable all Copilot functionality.
+Admins can choose to [disable the Microsoft Copilot setting.](/microsoft-copilot-studio/copilot-plugins-overview#enable-the-microsoft-365-copilot-setting-admin)
+
+Feedback you provide on your satisfaction with generated topics will be used to improve system quality. You can provide feedback by selecting thumbs up or thumbs down icon for responses generated through Copilot.
 
 ## See also
 

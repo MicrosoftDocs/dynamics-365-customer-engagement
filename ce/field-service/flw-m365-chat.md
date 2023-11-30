@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 11/28/2023
+ms.date: 11/30/2023
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
@@ -26,19 +26,28 @@ Ask any straight-forward question about Field Service work orders. Ambiguous que
 
 Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
-### Example questions
+### Example questions for frontline managers
 
-- What are the details for a particular work order? Can you summarize?
-- Can you give me details on several work orders in a table format?
-- What is the incident type and service account of several work orders in table format?
-- What is the status of a particular work order?
-- Who is the technician for a work order? or What is the work order assigned to technician {email_address}?
+- What are the details for work order {work order number}? Can you summarize?
+- Can you give me details on {comma-separated list of several work order numbers} in a table format?
+- What is the incident type and service account of {comma-separated list of several work order numbers} in table format?
+- What is the status of {work order number}?
+- Who is the technician for {work order number}? or What is the {work order number} assigned to technician {email_address}?
 - Show me work orders created in October for customer {name}.
-- What is the progress of a work order?
-- What type of work order is work order {work order number}, so I can assign the right technician?
+- What is the progress of {work order number}?
+- What type of work order is {work order number}, so I can assign the right technician?
 - Show me bookings for next week in a table format.
 - Show me high priority work orders created in November.
 - Does customer {name} have any emergency priority work orders?
+
+### Example questions for frontline workers
+
+- What are the details for {work order number}? Can you summarize?
+- Give me the full details for my most recent work orders.
+- Are there any work orders with priority set to high?
+- Tell me more about the primary incident type of {work order number}.
+- Show my work orders that are scheduled for next week in a table format.
+- What type of work order is {work order number}?
 
 <!--- Additional questions 
 - what are the 3 most recently created work orders
@@ -46,8 +55,7 @@ Be specific about the expected outcomes. For example, if you want results in tab
 - what are the most recently created work orders?
 - Show me a table of the most recent high priority work orders
 - Are there any work orders with priority set to high?
-- Tell me more about the primary incident type of work order 00003.What is the work order assigned to this account?
-- Show work orders that are scheduled for next week in a table format
+- What is the work order assigned to this account?
 - Show me a table of work orders created in the last three days
 --->
 
@@ -59,7 +67,7 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 1. Obtain the appropriate number of [Microsoft 365 Copilot licenses.](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot)
 
-1. [Set up the plugin](/power-virtual-agents/copilot-plugins-overview#use-plugins-in-microsoft-copilot).
+1. [Set up the plugin](/microsoft-copilot-studio/copilot-plugins-overview#use-plugins-in-microsoft-copilot), including deploying the app and enabling the Microsoft Copilot setting.
 
 1. [Consent to moving data across regions.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) For more information, see [How data movement across regions works.](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works)
 
