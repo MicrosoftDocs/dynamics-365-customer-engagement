@@ -342,9 +342,9 @@ A family emergency comes up, and Bob needs to cancel an entire day of work. Debb
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
