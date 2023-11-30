@@ -20,27 +20,42 @@ This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## Scenarios that are available out-of-the-box
+## What do you want to know about work orders?
 
-Ask any straight-forward question about Field Service work orders. Ambiguous questions such as “What are the most important work orders” might not return results.
+Ask any straight-forward question about Field Service work orders. Ambiguous questions such as “What are the most important work orders” might not return results as "most important" is not a defined status. Instead, ask "What work orders have priority set to high?"
 
 Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
-### Example questions for frontline managers
+## Frontline managers and dispatchers
 
-- What are the details for work order {work order number}? Can you summarize?
-- Can you give me details on {comma-separated list of several work order numbers} in a table format?
-- What is the incident type and service account of {comma-separated list of several work order numbers} in table format?
-- What is the status of {work order number}?
-- Who is the technician for {work order number}? or What is the {work order number} assigned to technician {email_address}?
+### Get summarized information about key work orders that are important to you
+
+   :::image type="content" source="media/fsp-m365-chat-flm1.png" alt-text="Microsoft Copilot chat showing work orders in progress in a table format":::
+
+### Ask for detailed work order information
+
+   :::image type="content" source="media/fsp-m365-chat-flm2.png" alt-text="Microsoft Copilot chat showing the status of a work order and details of another work order":::
+
+### More sample questions
+
 - Show me work orders created in October for customer {name}.
+- Can you give me details on {several work order numbers} in a table format?
+- What is the incident type and service account of {several work order numbers} in table format?
 - What is the progress of {work order number}?
 - What type of work order is {work order number}, so I can assign the right technician?
+- Who is the technician for {work order number}? or What is the {work order number} assigned to technician {email_address}?
+- What are the details for work order {work order number}? Can you summarize?
 - Show me bookings for next week in a table format.
 - Show me high priority work orders created in November.
 - Does customer {name} have any emergency priority work orders?
 
-### Example questions for frontline workers
+## Frontline workers
+
+### Get information about your work orders
+
+   :::image type="content" source="media/fsp-m365-chat-flw.png" alt-text="Microsoft Copilot chat showing the address of a work order and the type of another work order":::
+
+### More sample questions
 
 - What are the details for {work order number}? Can you summarize?
 - Give me the full details for my most recent work orders.
@@ -59,26 +74,7 @@ Be specific about the expected outcomes. For example, if you want results in tab
 - Show me a table of work orders created in the last three days
 --->
 
-## Set up Microsoft Copilot for Field Service work orders (admin)
+## Next steps
 
-As an admin, set up Microsoft Copilot for Field Service work orders for your users.
-
-1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
-1. Obtain the appropriate number of [Microsoft 365 Copilot licenses.](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot)
-
-1. [Set up the plugin](/microsoft-copilot-studio/copilot-plugins-overview#use-plugins-in-microsoft-copilot), including deploying the app and enabling the Microsoft Copilot setting.
-
-1. [Consent to moving data across regions.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) For more information, see [How data movement across regions works.](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works)
-
-## Enable the Microsoft Copilot for Field Service work orders
-
-Once an admin sets up the Microsoft Copilot for Field Service work orders, any user can quickly enable the plugin in Teams.
-
-1. At the bottom of your Teams window, select the **Plugin** :::image type="icon" source="media/fsp-plugin-icon.png"::: icon.
-
-1. Enable the Field Service Plugin for Microsoft Copilot.
-
-The Microsoft Copilot for Field Service work orders is available.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+- [Set up Microsoft Copilot for Field Service work orders (admin)](flw-copilot-setup.md)
+- [FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](faqs-m365-chat.md)

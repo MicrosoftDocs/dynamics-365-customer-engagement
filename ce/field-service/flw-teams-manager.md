@@ -97,6 +97,10 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
 [!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
 
+## Enable the Microsoft Copilot for Field Service work orders
+
+[!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
+
 ## Switch environments
 
 [!INCLUDE [fsp-switch-env](../includes/fsp-switch-env.md)]
