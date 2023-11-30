@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications (preview)
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 11/14/2023
+ms.date: 11/29/2023
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -41,7 +41,7 @@ The following steps are only required while the feature is in preview.
 
 ### Prerequisites
 
-- Finance and operations apps that have build version 10.0.36 (10.0.1777.28) and platform update 62 or later
+- Finance and operations apps that have build version 10.0.38 (10.0.1777.28) and platform update 62 or later
 
 - Dynamics 365 Field Service version number 8.8.116+
 
