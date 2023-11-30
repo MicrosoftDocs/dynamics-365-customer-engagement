@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 11/29/2023
+ms.date: 11/30/2023
 ms.custom: bap-template
 ---
 
@@ -246,7 +246,7 @@ Here's how the active duration is calculated in the following scenarios:
 - 12:20 AM- case reopened
 - 12:30 AM- SLA expired
 
-Here, active duration is 20 min, and SLA expires at 12:30 AM, even if the agent works on the case for 20 min.
+The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA is set as 30 min and isn't impacted when case is reopened or closed.
 
 ### Pause or resume scenario
 
@@ -255,7 +255,7 @@ Here, active duration is 20 min, and SLA expires at 12:30 AM, even if the agent 
 - 12:20 AM- case resumed
 - 12:40 AM- SLA expired
 
-Here, active duration is 30 min, and SLA expires at 12:40 AM. Agent worked on the case for 30 min as expected.
+The active duration is 30 min and SLA expires at 12:40 AM as the case was paused for 10 min. Though SLA is set as 30 min, it gets impacted when case is paused or resumed.
 
 > [!NOTE]
 > Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
