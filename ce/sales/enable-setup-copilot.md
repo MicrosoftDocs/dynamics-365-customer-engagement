@@ -79,14 +79,16 @@ By default, Copilot uses a set of predefined fields to generate [summaries](use-
 1. Select the **Summary** tab to configure fields for generating summaries. Select the **Recent changes** tab to configure fields for generating the recent changes list.  
     
     > [!NOTE]
-    > If you haven't turned on audit history in the Set up Copilot page, the fields in the **Recent changes** tab are disabled. Select **Turn audit on** in the notification bar to turn on audit history.  
+    > The recent changes list is generated from the audit history. If auditing is turned off globally or for any of the tables that you've selected, the **Recent changes** tab is disabled. Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
+
+    :::image type="content" source="media/turn-audit-on.svg" alt-text="Screenshot of the recent changes tab when audit is not turned on for any of the tables in the Recent changes tab.":::
 
 1. Select **Add fields** to add fields from the opportunity/lead table or other related tables. You can add a minimum of 4 fields and a maximum of 10 fields. The **Save** button is disabled if this requirement isn't met.
 
     If you've added more than 10 fields, clear the checkbox for fields or select the fields that you don't need and then select **Delete**. 
 
     > [!NOTE]
-    > When you add a field from the related table, the audit history for the related table is turned on automatically. If you remove the field later on, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the related table manually.
+    > In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, you'll see **Turn audit on** in the notification bar. Select it to turn on audit for the table. If you remove the field later on, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the related table manually.
 
 1. Save the changes.
 
