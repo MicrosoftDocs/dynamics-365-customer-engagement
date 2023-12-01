@@ -20,7 +20,7 @@ Use the Search Resource Availability for Requirement Group API and the Create Re
 - The [Search Resource Availability for Requirement Group](#bkmk_sra_rg) API returns available time slots for resources when you search by using requirement groups.
 - The [Create Requirement Group Bookings](#bkmk_crgb) API uses the available time slots for resources to generate booking records for your requirement groups.
 
-You pass the details of a requirement group in your API calls and retrieve a list of available resources and their open time slots. This is helpful for self-scheduling scenarios, where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
+You pass the details of a requirement group in your API calls and retrieve a list of available resources and their open time slots. This list is helpful for self-scheduling scenarios where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
 
 ### Prerequisites
 
@@ -55,8 +55,8 @@ Use the following input and output parameters for the Search Resource Availabili
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
 | MustChooseFromResources |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
 | RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFromResources instead for improved performance. |
-| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true list of time slots returned will be empty. It is false by default. |
-| ConsiderAppointments | Boolean | Set this to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings have been set. Appointments with Busy or Completed statuses will be considered as unavailable for scheduling operations. |
+| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true, list of time slots returned is empty. It is false by default. |
+| ConsiderAppointments | Boolean | Set to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings have been set. Appointments with busy or completed statuses are considered as unavailable for scheduling operations. |
 
 ### Output
 
@@ -65,7 +65,7 @@ Use the following input and output parameters for the Search Resource Availabili
 |TimeSlots (List&#60;OutputTimeSlot&#62;)   |StartTime (DateTime) | The start time.|
 |         |EndTime (DateTime)                    |The end time.|
 |         |ArrivalTime (DateTime)                |The arrival time.|
-|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information. Will only be present if the resource requirement contains values for latitude and longitude.|
+|         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information. Is only present if the resource requirement contains values for latitude and longitude.|
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
 |         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |
@@ -192,7 +192,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
   7. For **Service**, select **Test Requirement Group**.
 
 > [!NOTE]
-> This automatically creates a resource requirement group that has the same name as the service activity. 
+> This configuation automatically creates a resource requirement group that has the same name as the service activity. 
 
 Now you have a requirement group automatically created that has one technician (resource) to be scheduled to perform service at your customer's location. 
 
@@ -274,7 +274,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Handler executed value set to True.](../media/ur-scheduling-13.png)
 
-  We can also verify this by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
+  We can also verify this value by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
 
 ![Check the associated bookings.](../media/ur-scheduling-14-new.png)
 
