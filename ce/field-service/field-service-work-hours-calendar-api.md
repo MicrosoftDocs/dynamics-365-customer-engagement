@@ -277,6 +277,9 @@ Enter the following call to delete a calendar:
 
 See the following section for examples of how to make different calls based on your needs. Replace the `action` of the function call in step 3 with `msdyn_SaveCalendar` or `msdyn_DeleteCalendar`, and replace `data` with the relevant `CalendarEventInfo`.
 
+Also see the following screenshot for a Power Automate call for `msdyn_SaveCalendar` action:
+![Power Automate call for msdyn_SaveCalendar action.](media/msdyn_SaveCalendarPowerAutomateSample.png)
+
 ## Example scenarios for API usage
 
 Let's walk through some scenarios that you can use these APIs for.
@@ -339,9 +342,9 @@ A family emergency comes up, and Bob needs to cancel an entire day of work. Debb
 **Response**
 
 ```
-> ` {
+{
   "InnerCalendarIds": "[\"f76cc333-cbbe-eb11-a81d-000d3a6e4359\"]"
-} `
+}
 ```
 
 
