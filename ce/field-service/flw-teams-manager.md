@@ -146,7 +146,7 @@ You can view all work orders, overdue work orders, or work orders with a status 
 
    :::image type="content" source="media/fsp-viva-edit-work-order.png" alt-text="Screenshot of Field Service Teams work order to edit":::
 
-1. Make the necessary changes and select **Save**.
+1. Make the necessary changes and select **Save**. If the work order is unscheduled and you want to [schedule it](#schedule-a-work-order-in-teams), select **Schedule**.
 
 ## Call for remote collaboration through Remote Assist
 
