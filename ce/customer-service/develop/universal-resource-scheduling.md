@@ -281,7 +281,7 @@ To execute this search against your organization, you need to download the [samp
 ![Verify bookings were created successfully.](../media/ur-scheduling-15-new.png)
 
 Other possible scenarios that might use these APIs are:   
-- Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
+- Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app shows available time slots for the service or product being offered by using multiresource requirements (requirement groups).
 - Build a Power Apps canvas app to support self-scheduling scenarios for line-of-business apps.    
 
 See the [Additional resources](#bkmk_seealso) section for links to more help resources.
@@ -425,7 +425,7 @@ The scenario-based examples in this section add more details about mapping from 
 
 4. Go to the homepage and schedule a service activity and then, select **Service1**, and then select **Schedule** > **Find available slots**. 
 
-5. Verify that two resources are returned for each proposal in accordance with the criteria you set.  
+5. Verify that each proposal returns the two resources in accordance with the criteria you set.  
 
 #### Universal Resource Scheduling API code for scenario 1 
 
@@ -468,7 +468,7 @@ RequestName = "msdyn_SearchResourceAvailabilityForRequirementGroup"
 
 ![Legacy setup screenshot for reference for scenario 2.](../media/ur-scheduling-18-new.png "Legacy setup screenshot for reference for scenario 2")
 
-1. Create the following: 
+1. Create the following sites and users: 
   - Two sites: Micr0s0ftSite1 and Site2
   - Two users: User1 and User2 (Site2)
   - Go to **Settings**> **Service management** tab and create a site(with the name `Site1`), two resources on the **Facility/Equipment** tab (namely, Eq1 and Eq2) and go to setting> Security and create a user(User1). Two equipment resources on the **Facility/Equipment** tab<!--Is this correct for the UI string? --> (Eq1, Eq2), where Eq1 belongs to Site1 and Eq2 belongs to Site2
@@ -562,7 +562,7 @@ response.Dump();
 ```
 
 <a name="bkmk_seealso"></a>
-### Additional resources
+### More resources
 
 | Resource | Description |
 |----|---|
