@@ -36,7 +36,7 @@ Use the following input and output parameters for the Search Resource Availabili
 
 | Name  | Type | Required  | Description  |
 |-----------------|---|---|---|
-|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
+|Version | String | Yes |The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request doesn't have to contain the complete version number.|
 |RequirementGroup | | Yes | An entity reference to the requirement group entity.|
 |RequirementSpecification |Integer| No | If left null, respects the targeting requirement group duration by default.|
 |Settings |`Entity<InputSettings>` |No | Sets the settings for the request.|
