@@ -16,9 +16,9 @@ Collaboration features make it easy for agents to find the help they need in Mic
 - Dynamics 365 Customer Service workspace
 - Your custom apps
 
-Using collaboration features, agents can find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center.
+Agents can use collaboration features to find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center.
 
-[!VIDEO https://www.microsoft.com/videoplayer/embed/RW11WJC]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11WJC]
 
 ## Embedded chat using Teams
 
