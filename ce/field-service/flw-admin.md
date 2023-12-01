@@ -262,4 +262,8 @@ If some of the permissions of a user are inadequate to view or create work order
 
 ---
 
+## Next steps
+
+- [Customize the experience](flw-customization.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
