@@ -15,7 +15,7 @@ ms.reviewer: shujoshi
 search.app: salescopilot-docs
 ---
 
-# Preview features for Copilot in Dynamics 365 Sales
+# Enable preview features for Copilot in Dynamics 365 Sales
 
 Instead of enabling each preview feature individually, you can enable all the Copilot features in Dynamics 365 Sales at once. This article lists the Copilot preview features and provides instructions to sign up for all the Copilot preview features in Dynamics 365 Sales.
 
