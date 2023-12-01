@@ -202,6 +202,8 @@
         items:
           - name: Enable entities for service level agreements
             href: enable-entities-service-level-agreements.md
+          - name: Enable custom entities for service level agreements
+            href: enable-custom-entities-sla.md
           - name: Manage customer service schedules
             items: 
             - name: Create customer service schedules
