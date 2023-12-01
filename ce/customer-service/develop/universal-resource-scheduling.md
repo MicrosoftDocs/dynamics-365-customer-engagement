@@ -253,11 +253,11 @@ To execute this search against your organization, you need to download the [samp
 
 ![Open the browser developer tools.](../media/ur-scheduling-9.PNG)
 
-  We can see there are multiple sets of time slots that are returned with each Set corresponding to a matching available Resource mapped to the underlying Requirement of the Requirement Group.   
+  We can see that there are multiple sets of time slots that are returned with each set, corresponding to a matching available resource that's mapped to the underlying requirement of the requirement group.   
 
   After the time slot Sets are returned by the API, you can display them on your custom web portal, app, or a Power App (model/canvas).    
 
-5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the following example.    
+5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the resource assignments (Requirement guid, Resource guid) and the Requirement Group, as shown in the following example.    
 
 ![Update web resource to pass resource assignments.](../media/ur-scheduling-10-new.PNG)
 
@@ -270,11 +270,11 @@ To execute this search against your organization, you need to download the [samp
 
 ![Invoke a call to the Booking API.](../media/ur-scheduling-12.png)
 
-7. Open the browser's developer tools by using the F12 function key. Here, you see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
+7. Open the browser's developer tools by using the F12 function key. Here, you see that the handler executed value is set to true, indicating that the bookings were created successfully.    
 
 ![Handler executed value set to True.](../media/ur-scheduling-13.png)
 
-  We can also verify this value by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following illustrations.    
+  We can also verify this value by going back into the organization and checking the associated bookings of the Service/Requirement group we created, as shown in the following images.    
 
 ![Check the associated bookings.](../media/ur-scheduling-14-new.png)
 
