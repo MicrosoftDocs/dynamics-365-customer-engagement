@@ -7,7 +7,7 @@ ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/10/2023
+ms.date: 12/01/2023
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
@@ -31,7 +31,7 @@ The following table lists the geography of the Azure OpenAI service that Copilot
 | Yes | Asia Pacific | United States |
 | Yes | Australia | United States |
 | Yes | Canada | United States |
-| Yes | China | N/A|
+| No | China | N/A|
 | Yes | Europe | Europe |
 | Yes | France | Europe |
 | Yes | Germany | Europe |
