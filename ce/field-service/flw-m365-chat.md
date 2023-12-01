@@ -22,7 +22,7 @@ This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 
 ## What do you want to know about work orders?
 
-Ask any straight-forward question about Field Service work orders. Ambiguous questions such as “What are the most important work orders” might not return results as "most important" is not a defined status. Instead, ask "What work orders have priority set to high?"
+Ask any straight-forward question about Field Service work orders. Ambiguous questions such as “What are the most important work orders” might not return results as "most important" is not a defined status. Instead, ask "What are the high priority work orders?"
 
 Be specific about the expected outcomes. For example, if you want results in table format, then use the phrase "in table format." If you want a consolidated result or summary, be specific. For example, "What is the incident type and service account for work order 00041?"
 
