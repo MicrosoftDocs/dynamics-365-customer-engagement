@@ -62,6 +62,8 @@
             href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context               
           - name: Attach a file to email
             href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
+          - name: Use enhanced email attachment experience across forms
+            href: enhanced-email-attachment-control.md            
           - name: Use the rich text editor toolbar in email
             href: /power-apps/user/email-rich-text-editor?context=/dynamics365/context/customer-service-context
           - name: Send email to multiple recipients

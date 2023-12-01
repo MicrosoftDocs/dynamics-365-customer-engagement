@@ -256,6 +256,8 @@
             href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
           - name: Configure the enhanced email template editor page
             href: /power-apps/user/cs-email-template-builder/?context=/dynamics365/context/customer-service-context
+          - name: Enable enhanced email attachment control for forms
+            href: add-enhanced-attachment-control.md               
           - name: Configure a default signature template for a queue
             href: add-signature-template-queue.md  
           - name: Email FAQ and known issues
