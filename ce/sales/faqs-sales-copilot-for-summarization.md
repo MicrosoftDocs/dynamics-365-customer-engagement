@@ -1,7 +1,7 @@
 ---
 title: FAQ about summarization in Copilot
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
-ms.date: 11/29/2023
+ms.date: 12/01/2023
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap

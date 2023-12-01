@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use copilot to get quick summaries of records, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 10/26/2023
+ms.date: 12/01/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
