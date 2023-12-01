@@ -1,10 +1,10 @@
 ---
-title: Use enhanced email attachment experience for forms
+title: Use enhanced experience to attach files to emails
 description: View and manage attachments with ease using the enhanced email attachment experience for forms. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
-ms.topic: conceptual 
+ms.topic: how-to 
 ms.collection: 
 ms.date: 12/01/2023
 ms.custom:
@@ -15,9 +15,17 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Use enhanced email attachment experience for forms
+# Use enhanced experience to attach files to emails
 
-You can drag files to be added as email attachments or copy attachments from one email to another, if your administrator has enabled the [enhanced attachment control](../administer/add-enhanced-attachment-control.md), allowing you to efficiently manage email attachments. You can perform the following actions when the enhanced email attachment control is enabled:
+You can drag files to be added as email attachments or copy attachments from one email to another, allowing you to efficiently manage email attachments. 
+
+## Prerequisites
+
+Your administrator must enable **Attachments control** in Power Apps.
+
+## Use the enhanced email attachment experience
+ 
+You can perform the following actions when the enhanced email attachment control is enabled:
 
 - Add files.
 - Drag files to the attachment control, email body, or rich text editor to be added as attachments. When you drag image files to rich text editor, they are added as inline images.
@@ -30,3 +38,6 @@ You can drag files to be added as email attachments or copy attachments from one
 
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
+## Next steps
+
+[Enable enhanced experience for email attachments](../administer/add-enhanced-attachment-control.md)
