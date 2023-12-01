@@ -76,8 +76,8 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
 |         |OrganizationalUnit (EntityReference) |An entity reference to the organizational unit.|
 |         |ResourceType (Int)                 |The resource type. See the resourcetype attribute on the BookableResource entity for possible values.|
-|         |PoolId (Guid)                      |The Id of the pool that the resource is a member of during the time slot.|
-|         |CrewId (Guid)                      |The Id of the crew that the resource is a member of during the time slot.|
+|         |PoolId (Guid)                      |The ID of the pool that the resource is a member of during the time slot.|
+|         |CrewId (Guid)                      |The ID of the crew that the resource is a member of during the time slot.|
 |         |Email (String)                     |The resource’s email address.|
 |         |Phone (String)                     |The resource’s phone number.|
 |         |ImagePath (String)                 |The path to the resource’s image.|
@@ -160,9 +160,9 @@ Use the following input and output parameters for the Create Requirement Group B
 
 |  Name   | Type  | Required | Description   |
 |---------------------|-------------|---|---------|
-|RequirementId | 	Guid|	Yes|	The resource requirement Id of the Requirement for which the booking record is to be created. |
-|ResourceId  | Guid    | Yes | The bookable resource Id of the Resource for which you want to create the booking. |
-| BookingStatusId  | Guid  | Yes | The booking status Id of the booking to be created. |
+|RequirementId | 	Guid|	Yes|	The resource requirement ID of the Requirement for which the booking record is to be created. |
+|ResourceId  | Guid    | Yes | The bookable resource ID of the Resource for which you want to create the booking. |
+| BookingStatusId  | Guid  | Yes | The booking status ID of the booking to be created. |
 | Effort | Integer  |  No| The capacity of the Bookable Resource that this booking consumes.|
 | TravelTime | Integer  | No| The travel time in minutes.|
 
