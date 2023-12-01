@@ -17,7 +17,7 @@ ms.custom:
 
 # Use enhanced email attachment experience across forms
 
-If your administrator has enabled the [enhanced attachment control](add-enhanced-attachment-control.md), you will see a consistent email attachment experience across forms. You can perform the following actions when the enhanced email attachment control is enabled:
+If your administrator has enabled the [enhanced attachment control](../administer/add-enhanced-attachment-control.md), you will see a consistent email attachment experience across forms. You can perform the following actions when the enhanced email attachment control is enabled:
 
 - Select **Add** to add files.
 - Drag and drop files to the attachment control, email body, or rich text editor to be added as attachments.

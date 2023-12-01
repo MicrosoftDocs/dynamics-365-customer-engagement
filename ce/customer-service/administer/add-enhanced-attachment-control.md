@@ -21,7 +21,7 @@ You can enable the enhanced attachment control for forms. If you enable this con
 
 1. In Power Apps, select the environment that contains your solution.
 1. Select **Tables**, select **Email**, and then select **Forms**.
-1. Select the required form and the **Attachments control** to **Components** in the **Attachment** subgrid properties. See: [Add components to a form](../maker/model-driven-apps/add-move-configure-or-delete-components-on-form.md#add-components-for-a-column-on-the-form).
+1. Select the required form and the **Attachments control** to **Components** in the **Attachment** subgrid properties. See: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).
 1. Save and publish the form.
 
 ## Enable drag and drop for attachments in the rich text editor
@@ -52,4 +52,4 @@ You can enable the Drag and drop feature for files to be added as attachments fo
 
 ## Next steps
 
-[Use the enhanced email attachment experience across email forms](enhanced-email-attachment-control.md)
+[Use the enhanced email attachment experience across email forms](../use/enhanced-email-attachment-control.md)
