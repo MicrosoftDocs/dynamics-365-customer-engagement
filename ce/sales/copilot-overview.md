@@ -50,7 +50,7 @@ To help you stay on top of your opportunities and leads, Copilot summarizes any 
 
 **More information:**
 
-- [View recent changes to an opportunity or a lead](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-a-lead)
+- [View recent changes to an opportunity or a lead](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-lead)
 - [Configure fields for generating summaries and recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 ### Meeting preparation

@@ -65,7 +65,7 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 ## Configure fields for generating summaries and recent changes list
 
-By default, Copilot uses a set of predefined fields to generate [summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and [recent changes list](use-sales-copilot.md#catch-up-with-an-opportunity-or-lead) for your opportunities and leads. To have it generate summaries and recent changes from the fields that are most relevant for your business, add the fields to your configuration. You can add a different set of fields for summaries and recent changes list from the lead and opportunity tables and other related tables.
+By default, Copilot uses a set of predefined fields to generate [summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and [recent changes list](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-lead) for your opportunities and leads. To have it generate summaries and recent changes from the fields that are most relevant for your business, add the fields to your configuration. You can add a different set of fields for summaries and recent changes list from the lead and opportunity tables and other related tables.
 
 
 1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
