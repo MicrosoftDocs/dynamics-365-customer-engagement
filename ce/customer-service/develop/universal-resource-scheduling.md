@@ -45,18 +45,18 @@ Use the following input and output parameters for the Search Resource Availabili
 
 | Name  | Type | Required  | Description  |
 |-------|---|---|---|
-| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots. It is false by default. |
-| ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It is false by default. 
-| ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots. It is false by default. |
+| ConsiderSlotsWithLessThanRequiredDuration | Boolean | No | Specifies if a time slot with less than the required remaining duration should be considered when computing potential time slots. It's false by default. |
+| ConsiderSlotsWithOverlappingBooking | Boolean | No | Specifies if time slots with overlapping bookings should be considered when computing potential time slots. It's false by default. 
+| ConsiderSlotsWithProposedBooking | Boolean | No | Specifies if time slots with proposed bookings should be considered when computing potential time slots. It's false by default. |
 | MaxResourceTravelRadius | Distance | No | Specifies the maximum travel radius for resources when computing available time slots. |
 | SortOrder | Integer | No | Specifies the requirement group order for the response. |
-| PageSize |Integer | No | Numbers of item returned in a page. It is 20 by default. |
+| PageSize |Integer | No | Numbers of item returned in a page. It's 20 by default. |
 | PagingCookie | String | No | Paging cookie retrieved from previous searching result.|
 | OrganizationUnits |List&#60;Guid&#62; | No | A collection of organization unit IDs. A qualified resource must be a member of one of the specified organization units. |
 | MustChooseFromResources |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
 | RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFromResources instead for improved performance. |
-| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true, list of time slots returned is empty. It is false by default. |
-| ConsiderAppointments | Boolean | Set to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings have been set. Appointments with busy or completed statuses are considered as unavailable for scheduling operations. |
+| IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true, list of time slots returned is empty. It's false by default. |
+| ConsiderAppointments | Boolean | Set to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings are set. Appointments with busy or completed statuses are considered as unavailable for scheduling operations. |
 
 ### Output
 
@@ -68,16 +68,16 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |Travel(OutputTimeSlotTravel)<br><br>OutputTimeSlotTravel<br><ul><li>Distance (Double)<br><li>TravelTime (Double)<br><li>DistanceFromStartLocation (Double)<br><li>TravelTimeToEndLocation (Double)<br></ul>    |The time slot travel information. Is only present if the resource requirement contains values for latitude and longitude.|
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
-|         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained below. |
-|         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more details, see TimeSlotLocation below. |
-|         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more details, see TimeSlotTimeGroup below. |
+|         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained in this article. |
+|         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more information, see TimeSlotLocation in this article. |
+|         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more information, see TimeSlotTimeGroup in this article. |
 |         |AvailableIntervals (`List<<Guide>OutputTimeSlot>`)|A collection of available intervals.|
 |Resources (List&#60;OutputResource&#62;)  |Resource (EntityReference)|An entity reference to the bookable resource.|
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
 |         |OrganizationalUnit (EntityReference) |An entity reference to the organizational unit.|
 |         |ResourceType (Int)                 |The resource type. See the resourcetype attribute on the BookableResource entity for possible values.|
-|         |PoolId (Guid)                      |The Id of the pool that the resource is a member of for the duration of the time slot.|
-|         |CrewId (Guid)                      |The Id of the crew that the resource is a member of for the duration of the time slot.|
+|         |PoolId (Guid)                      |The Id of the pool that the resource is a member of during the time slot.|
+|         |CrewId (Guid)                      |The Id of the crew that the resource is a member of during the time slot.|
 |         |Email (String)                     |The resource’s email address.|
 |         |Phone (String)                     |The resource’s phone number.|
 |         |ImagePath (String)                 |The path to the resource’s image.|
@@ -150,11 +150,11 @@ Use the following input and output parameters for the Create Requirement Group B
 
 |  Name   | Type  | Required | Description   |
 |-----------------|-----------------|---|---------|
-|Version | String | Yes | The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request does not have to contain the complete version number.|
-|RequirementGroup | EntityReference  |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the below sample.|
+|Version | String | Yes | The version number of the API. The version number identifies the version of the API that should be invoked. The version number is a semantic version number of the format major.minor.patch. The request doesn't have to contain the complete version number.|
+|RequirementGroup | EntityReference  |Yes | An entity reference to the requirement group entity, usually is a GUID, as shown in the following sample.|
 |Start |DateTime | Yes | Start time of the Timeslot. |
 |Duration | Integer | Yes  | The Duration of the Booking to be created.|
-|ResourceAssignments | EntityCollection | Yes| It is an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
+|ResourceAssignments | EntityCollection | Yes| It's an entity collection of the Resource Assignments that are to be made for the Bookings to be created. Look at the Resource Assignment entity table for more details |
 
 **Resource Assignments**
 
@@ -163,16 +163,16 @@ Use the following input and output parameters for the Create Requirement Group B
 |RequirementId | 	Guid|	Yes|	The resource requirement Id of the Requirement for which the booking record is to be created. |
 |ResourceId  | Guid    | Yes | The bookable resource Id of the Resource for which you want to create the booking. |
 | BookingStatusId  | Guid  | Yes | The booking status Id of the booking to be created. |
-| Effort | Integer  |  No| The capacity of the Bookable Resource that is consumed by this booking.|
+| Effort | Integer  |  No| The capacity of the Bookable Resource that this booking consumes.|
 | TravelTime | Integer  | No| The travel time in minutes.|
 
 ### Output 
 
-Returns `HandlerExecuted` value which is of Boolean type.
+Returns `HandlerExecuted` that is of Boolean type.
 
 ## Using the Requirement Group API
 
-In the following scenario, you schedule a requirement group via API. You'll need a service created with resources before you can schedule a booking. Follow these steps to create a service activity.
+In the following scenario, you schedule a requirement group via API. You need a service created with resources before you can schedule a booking. Follow these steps to create a service activity.
 
 ### Service configuration 
 
@@ -180,7 +180,7 @@ In the following scenario, you schedule a requirement group via API. You'll need
 
   1. In the site map, under **Scheduling**, select **Service**.
   2. Go to **Resource Requirements**.
-  3. Create a service activity. For this example, we've created **Test Requirement Group**.
+  3. Create a service activity. For this example, we created **Test Requirement Group**.
 
 ### Service Activity configuration  
 
@@ -228,10 +228,10 @@ In this next scenario, we show how to pass values for a specific requirement gro
 >   - Organizational unit (which can be retrieved by using the [Web API](/powerapps/developer/common-data-service/webapi/query-metadata-web-api))
 > - If the API is called from a client (browser or canvas app) based on JavaScript, you need to have the extended SOAP SDK. The extended SOAP SDK is not an official Microsoft release, but you can is provided in the downloadable sample files for guidance. 
 > - We recommend that you test this search in your development or test environments to validate your scenarios and results before running it in your production environment.
-> - This API uses the complex object type in the input and output, so it only supports the SOAP endpoint. It does not support the OData endpoint. 
+> - This API uses the complex object type in the input and output, so it only supports the SOAP endpoint. It doesn't support the OData endpoint. 
 
 
-To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then follow the steps below:   
+To execute this search against your organization, you need to download the [sample files](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings), and then complete the following steps.   
 
 1. Modify the hard-coded input parameters in the msdyn_SearchResourceAvailabilityForRequirementGroupSample.js file to reflect the GUIDs of records in your org. (Example: requirement group, resources, organizational unit).    
 
@@ -257,7 +257,7 @@ To execute this search against your organization, you need to download the [samp
 
   After the time slot Sets are returned by the API, you can display them on your custom web portal, app, or a Power App (model/canvas).    
 
-5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the example below:    
+5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the Resource Assignments (Requirement guid, Resource guid) and the Requirement Group as shown in the following example.    
 
 ![Update web resource to pass resource assignments.](../media/ur-scheduling-10-new.PNG)
 
@@ -270,7 +270,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Invoke a call to the Booking API.](../media/ur-scheduling-12.png)
 
-7. Open the browser's developer tools by using the F12 function key. Here you'll see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
+7. Open the browser's developer tools by using the F12 function key. Here, you see that the Handler executed value is set to True, indicating that the bookings were created successfully.    
 
 ![Handler executed value set to True.](../media/ur-scheduling-13.png)
 
@@ -280,11 +280,11 @@ To execute this search against your organization, you need to download the [samp
 
 ![Verify bookings were created successfully.](../media/ur-scheduling-15-new.png)
 
-Other possible scenarios that might leverage these APIs are:   
+Other possible scenarios that might use these APIs are:   
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app will show available time slots for the service or product being offered by using multiresource requirements (requirement groups).
 - Build a Power Apps canvas app to support self-scheduling scenarios for line-of-business apps.    
 
-See the [Additional resources](#bkmk_seealso) section for links to additional help resources.
+See the [Additional resources](#bkmk_seealso) section for links to more help resources.
 
 ### Sample code
 
@@ -389,8 +389,8 @@ To migrate from the legacy Search API and Book API to the Universal Resource Sch
 |RecurrenceTimeZoneCode |                     |Time zone for a recurring request        |
 |SearchDirection        |                     |Forward or backward search for slots, based on the dates given |
 |AnchorOffSet           |                     |Offset in hours from midnight             |
-|UserTimeZoneCode       |                     |Time zone that's been set for the user    | 
-|SearchRecurrenceRule   |                     |Frequency, interval, count and so on      | 
+|UserTimeZoneCode       |                     |Time zone set for the user    | 
+|SearchRecurrenceRule   |                     |Frequency, interval, count, and so on      | 
 |                       |Resource Types       |Type of resource                          |
 |                       |Restricted Resources |Restricted for scheduling the appointment |
 
