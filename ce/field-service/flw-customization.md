@@ -64,9 +64,9 @@ The following steps use work order as an example. You can use these steps to cre
    | ----------------- | ------------------------- |
    | Work Order Number | Start Time                |
    | Service Account   | End Time                  |
-   | Work Order Type   | Resource                  |
-   | Work Order Summary| Booking Status            |
-   | System Status     |                           |
+   | System Status     | Resource                  |
+   | Work Order Type   | Booking Status            |
+   | Work Order Summary|                           |
 
    > [!NOTE]
    > The first four columns you select are the key fields shown in the list of work orders.
