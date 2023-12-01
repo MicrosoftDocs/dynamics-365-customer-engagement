@@ -40,11 +40,11 @@ Be specific about the expected outcomes. For example, if you want results in tab
 
 - Show me work orders created in October for customer {name}.
 - Can you give me details on {several work order numbers} in a table format?
+- What are the details for work order {work order number}? Can you summarize?
 - What is the incident type and service account of {several work order numbers} in table format?
 - What is the progress of {work order number}?
 - What type of work order is {work order number}, so I can assign the right technician?
 - Who is the technician for {work order number}? or What is the {work order number} assigned to technician {email_address}?
-- What are the details for work order {work order number}? Can you summarize?
 - Show me bookings for next week in a table format.
 - Show me high priority work orders created in November.
 - Does customer {name} have any emergency priority work orders?
@@ -58,11 +58,11 @@ Be specific about the expected outcomes. For example, if you want results in tab
 ### More sample questions
 
 - What are the details for {work order number}? Can you summarize?
-- Give me the full details for my most recent work orders.
+- Give me the full details for my most recent work order.
 - Are there any work orders with priority set to high?
 - Tell me more about the primary incident type of {work order number}.
 - Show my work orders that are scheduled for next week in a table format.
-- What type of work order is {work order number}?
+- What is the price list for {work order number}?
 
 <!--- Additional questions 
 - what are the 3 most recently created work orders
