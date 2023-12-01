@@ -18,7 +18,7 @@ Dynamics 365 Field Service integrates with Microsoft Outlook, Teams, and Viva Co
 
 An Outlook add-in allows frontline managers to view and create work orders in Outlook, so they can quickly respond to service requests and questions. The Outlook add-in also provides copilot capabilities to assist with work order creation and scheduling in Outlook.
 
-A Teams home page or a Viva Connections dashboard in Teams provide frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call from here.
+A Teams home page or a Viva Connections dashboard in Teams provides frontline workers with an at-a-glance view of their workday and frontline managers with the ability to view and create work orders. Users can also initiate a Dynamics 365 Remote Assist call from here.
 
 As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information about what the integrations provide, see:
 
@@ -39,22 +39,22 @@ Microsoft 365 integrations for Field Service are currently available in environm
 | Geography               | Region                           |
 | ----------------------- | -------------------------------- |
 | Africa                  | southafricanorth                 |
-| Asia Pacific            | eastasia,southeastasia           |
-| Australia               | australiasoutheast,australiaeast |
+| Asia Pacific            | eastasia, southeastasia           |
+| Australia               | australiasoutheast, australiaeast |
 | Brazil                  | brazilsouth                      |
-| Canada                  | canadacentral,canadaeast         |
-| France                  | francecentral,francesouth        |
-| Germany                 | germanynorth,germanywestcentral  |
-| India                   | southindia,centralindia          |
-| Ireland                 | westeurope,northeurope           |
-| Japan                   | japaneast,japanwest              |
+| Canada                  | canadacentral, canadaeast         |
+| France                  | francecentral, francesouth        |
+| Germany                 | germanynorth, germanywestcentral  |
+| India                   | southindia, centralindia          |
+| Ireland                 | westeurope, northeurope           |
+| Japan                   | japaneast, japanwest              |
 | Korea                   | koreasouth                       |
-| Netherland              | westeurope,northeurope           |
+| Netherland              | westeurope, northeurope           |
 | Norway                  | norwayeast                       |
 | Switzerland             | switzerlandnorth                 |
-| UK (South UK / West UK) | uksouth,ukwest                   |
-| United Arab Emirates    | uaecentral,uaenorth              |
-| United States           | eastus,westus                    |
+| UK (South UK / West UK) | uksouth, ukwest                   |
+| United Arab Emirates    | uaecentral, uaenorth              |
+| United States           | eastus, westus                    |
 
 
 <!--- Doesn't support Arabic or Hebrew yet. When it does, point to product languages https://dynamics.microsoft.com/en-us/availability-reports/languagereport/ --->
