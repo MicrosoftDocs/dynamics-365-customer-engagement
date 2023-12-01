@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
 description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
-ms.date: 11/28/2023
+ms.date: 12/01/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -54,11 +54,14 @@ Select the Copilot features that you want your sales teams to use in each of you
  
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. Audit history is required for Copilot to generate recent changes for leads and opportunities. If you [configure Copilot](#configure-fields-for-generating-summaries-and-recent-changes-list) to generate recent changes from fields other than the lead and opportunity tables, this setting turns on audit history for those tables as well. However, if you remove the fields later on from the configuration, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
+    > [!NOTE]
+    > If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.  
+
 1. Select **Publish**.
 
     The Welcome to Copilot pane opens in the right side with a quick tour. 
 
-1. Go to **Change area** in the lower-left corner of the page and select **Sales** to verify that the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
+1. Go to **Change area** in the lower-left corner of the page and select **Sales**. Refresh the page and verify that the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar. 
 
 ## Configure fields for generating summaries and recent changes list
 
