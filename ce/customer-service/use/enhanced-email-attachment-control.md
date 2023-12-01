@@ -21,9 +21,9 @@ You can drag files to be added as email attachments or copy attachments from one
 
 ## Prerequisites
 
-Your administrator must enable **Attachments control** in Power Apps.
+Your administrator has enabled the enhanced attachment control.
 
-## Use the enhanced email attachment experience
+## Use the enhanced experience to attach files
  
 You can perform the following actions when the enhanced email attachment control is enabled:
 
