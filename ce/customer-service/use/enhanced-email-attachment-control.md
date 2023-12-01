@@ -25,7 +25,7 @@ Your administrator has enabled the enhanced attachment control.
 
 ## Use the enhanced experience to attach files
  
-You can perform the following actions when the enhanced email attachment control is enabled:
+Perform the following actions using the enhanced email attachment control:
 
 - Add files.
 - Drag files to the attachment control, email body, or rich text editor to be added as attachments. When you drag image files to rich text editor, they are added as inline images.
