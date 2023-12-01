@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integration for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 11/28/2023
+ms.date: 12/01/2023
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -18,7 +18,7 @@ The Microsoft 365 integrations for Field Service utilize Power Platform views to
 
 We currently support customization of the **Work Orders** and **Bookable resource booking** experiences.
 
-<!--- Michael recommends removing image as it won't localize 
+<!---  
 :::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook"::: --->
 
 ## Prerequisites
@@ -29,7 +29,7 @@ We currently support customization of the **Work Orders** and **Bookable resourc
 
 ## Create or edit a custom view
 
-The following steps use work order as an example. You can use these steps to create or edit a custom view for bookings by searching for bookable resource booking.
+The following steps use work order as an example. You can use these steps to create or edit a custom view for bookings by searching for bookable resource booking. To select from existing views, see [Select a public or custom view.](#select-a-public-or-custom-view)
 
 1. From your Teams Field Service **Home** page, select **Settings**, then **Customize views**.
 
@@ -46,13 +46,13 @@ The following steps use work order as an example. You can use these steps to cre
 
    :::image type="content" source="media/fsp-power-apps-tables.png" alt-text="Power Apps Tables page with work order search highlighted.":::
 
-1. Open the Work Order table.
+1. Open the Work Order table. For bookings, open the Bookable Resource Booking table.
 
 1. Under **Data experiences**, select **Views**. A list of all public and customized views displays.
 
-1. To create a new view, select **New view**. Enter a name and optional description and select **Create**. The **Work Order Number** column automatically displays.
+1. To edit a view, open the view.
 
-   To edit a view, open the view.
+   To create a new view, select **New view**. Enter a name and optional description and select **Create**. The **Work Order Number** column automatically displays.
 
 1. To add columns, select **View column**. Or select **Table columns** in the left navigation and drag the table columns into your view.
 
@@ -63,14 +63,10 @@ The following steps use work order as an example. You can use these steps to cre
    | Work order        | Bookable resource booking |
    | ----------------- | ------------------------- |
    | Work Order Number | Start Time                |
-   | Work Order Type   | End Time                  |
-   | Service Account   | Resource                  |
-   |                   | Booking Status            |
-
-   - **Service Account**
-   - **System Status**
-   - **Work Order Type**
-   - **Work Order Summary**
+   | Service Account   | End Time                  |
+   | Work Order Type   | Resource                  |
+   | Work Order Summary| Booking Status            |
+   | System Status     |                           |
 
    > [!NOTE]
    > The first four columns you select are the key fields shown in the list of work orders.
@@ -85,7 +81,23 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Select **Save and publish**.
 
-1. Return to Teams and select **Refresh data**. Select the new view and select **Publish**. Users now can go to Outlook or Teams and see the new view for their work order creation and management. Filtering is now dynamic based on the columns you added to the view.
+1. Return to Teams and select **Refresh data**. Select the new view under **Work orders** or **Bookings** and select **Publish**. Users now can go to Outlook or Teams and see the new view for their work order creation and management. Filtering is now dynamic based on the columns you added to the view.
+
+## Select a public or custom view
+
+Choose the view you want to appear for your frontline managers and workers. You can select a **Work orders** view and a **Booking** view. If you don't find a view you want, [create a custom view](#create-or-edit-a-custom-view).
+
+1. From your Teams Field Service **Home** page, select **Settings**, then **Customize views**.
+
+1. Select the environment you want to customize.
+
+   :::image type="content" source="media/fsp-customize-views-select.png" alt-text="Field Service Settings page with Customize views.":::
+
+1. To choose a work order view, select from the drop-down list under **Work orders**.
+
+1. To choose a booking view, select from the drop-down list under **Bookings**.
+
+1. Select **Publish**. Users now can go to Outlook or Teams and see the new view for their work order creation and management.
 
 ## Add or edit columns
 
