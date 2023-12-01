@@ -17,7 +17,7 @@ ms.custom:
 
 # Use enhanced experience to attach files to emails
 
-You can drag files to be added as email attachments or copy attachments from one email to another, allowing you to efficiently manage email attachments. 
+When you are composing an email, you can drag files and add them as attachments and copy attachments from one email to another.
 
 ## Prerequisites
 
