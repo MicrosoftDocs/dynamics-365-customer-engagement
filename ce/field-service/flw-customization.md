@@ -35,7 +35,7 @@ The following steps use work order as an example. You can use these steps to cre
 
 1. Select the environment you want to customize.
 
-   :::image type="content" source="media/fsp-customize-views.png" alt-text="Field Service Settings page with Customize views.":::
+   :::image type="content" source="media/fsp-customize-views.png" alt-text="Field Service Settings page with Customize views with environment and Edit views in Power Apps highlighted.":::
 
 1. Select **Edit views in Power Apps**. Power Apps automatically opens to the **Tables** page for the specified environment.
 
@@ -91,7 +91,7 @@ Choose the view you want to appear for your frontline managers and workers. You 
 
 1. Select the environment you want to customize.
 
-   :::image type="content" source="media/fsp-customize-views-select.png" alt-text="Field Service Settings page with Customize views.":::
+   :::image type="content" source="media/fsp-customize-views-select.png" alt-text="Field Service Settings page with Customize views and environment highlighted.":::
 
 1. To choose a work order view, select from the drop-down list under **Work orders**.
 
