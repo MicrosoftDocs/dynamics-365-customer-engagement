@@ -1,5 +1,5 @@
 ---
-title: Enable enhanced email attachment control for forms
+title: Enable enhanced email attachment experience for forms
 description: Enable enhanced email attachment control for agents to have a consistent experience across all forms. 
 author: gandhamm
 ms.author: mgandham
@@ -15,9 +15,9 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Enable the enhanced email attachment control for forms
+# Enable the enhanced email attachment experience for forms
 
-You can enable the enhanced attachment control for forms. If you enable this control, the agents will see a consistent email attachment experience. Do the following steps to enable the attachment:
+You can enable the enhanced attachment experience for forms. If you enable the enhanced attachment control, the agents will see a consistent email attachment experience. Do the following steps to enable the attachment:
 
 1. In Power Apps, select the environment that contains your solution.
 1. Select **Tables**, select **Email**, and then select **Forms**.
