@@ -1,7 +1,7 @@
 ---
 title: FAQ about summarization in Copilot
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
-ms.date: 10/26/2023
+ms.date: 12/01/2023
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -27,25 +27,26 @@ Summarization is an AI-powered feature of Copilot in Dynamics 365 Sales that pro
 
 Summarization helps sellers stay on top of their leads and opportunities and efficiently prepare for meetings in a way that makes them more productive.
 
-A **lead summary** summarizes the key fields of a lead view. By default, the lead summary includes the following information:
+A **lead summary** is generated from a set of predefined fields in the lead table. By default, the lead summary includes the following information:
 
-- The lead subject, or what the lead is interested in
+- The lead topic, or what the lead is interested in
 - The lead source
+- The lead rating
 - The date the lead was created
+- The source campaign
 - The lead's preferred method of contact
-- Insights from the lead's parent account
-- Insights from the lead's parent contact
+- Insights from the lead's parent account&mdash;primary contact and annual revenue
+- Insights about the competitor for the lead&mdash;competitor's name and strength 
 
 An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
 
-An **opportunity summary** summarizes the key fields of an opportunity view. By default, the opportunity summary includes the following information:
+An **opportunity summary** is generated from a set of predefined fields in the opportunity table. By default, the opportunity summary includes the following information:
 
-- The account name and contact information
-- The size of the account, budget, and estimated revenue
-- The customer's requirements and value proposition
-- The stage and status of the opportunity and the estimated close date and revenue
-- Products involved in the opportunity
-- Key stakeholders
+- The estimated revenue and estimated close date of the opportunity
+- The customer's requirements and proposed solution
+- Products added to the opportunity
+- Insights from the related account and contact&mdash;annual revenue, primary contact and their job title
+- Insights about the competitor for the lead&mdash;competitor's name and strength
 
 An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
 
