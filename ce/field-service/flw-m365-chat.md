@@ -14,7 +14,7 @@ ms.subservice: m365-integrations
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. To set up the plugin, see [Set up Microsoft Copilot for Field Service work orders (admin).](flw-copilot-setup.md)
+With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. To access this chat feature, [Set up Microsoft Copilot for Field Service work orders (admin).](flw-copilot-setup.md)
 
 This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 

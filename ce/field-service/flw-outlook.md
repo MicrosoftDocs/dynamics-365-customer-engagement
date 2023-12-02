@@ -139,7 +139,7 @@ In Outlook, schedule assist functionality helps you schedule, reschedule, or mov
 
 Scheduling is based on resource availability, skills, customer promised time windows, customer location proximity, and business unit.
 
-1. After you create a work order or open an unscheduled work order, select the **Scheduling** tab. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+1. After you create a work order or open an unscheduled work order, select **Schedule**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
@@ -158,21 +158,18 @@ Scheduling is based on resource availability, skills, customer promised time win
 
 Reschedule a scheduled work order to a different resource, date, or time. Use schedule assist to provide schedules based on resource availability, skills, customer promised time windows, customer location proximity, and business unit. Or [manually move the date, time, or technician](#move-a-booking-in-outlook).
 
-1. On the **Copilot** tab of the Field Service pane, select **View schedule**.
-
-   > [!TIP]
-   > You can also open a scheduled work order from the **Work orders** tab. Within the work order, select the **Scheduling** tab to view the schedule.
+1. Open a scheduled work order and select **View schedule**.
 
    :::image type="content" source="media/fsp-outlook-reschedule.png" alt-text="Field Service Outlook with Rechedule button highlighted":::
 
-1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
+1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions.
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
    :::image type="content" source="media/fsp-outlook-scheduling.png" alt-text="Field Service Outlook Scheduling with Search for technician highlighted":::
 
    > [!TIP]
-   > If the system doesn't find suggestions or you don't find the right technician, select [**Go to schedule board** in Field Service](work-with-schedule-board.md) instead.
+   > If the system doesn't find suggestions or you don't find the right technician, select [Go to **schedule board** in Field Service](work-with-schedule-board.md) instead.
 
 1. Select the **Book resource** icon for the technician. The technician is booked. A confirmation displays at the top of the **Field Service** pane.
 
@@ -182,10 +179,7 @@ Reschedule a scheduled work order to a different resource, date, or time. Use sc
 
 Change the date and time scheduled for the technician.
 
-1. On the **Copilot** tab of the Field Service pane, select **View schedule**.
-
-   > [!TIP]
-   > You can also open a scheduled work order from the **Work orders** tab. Within the work order, select the **Scheduling** tab to view the schedule.
+1. Open a scheduled work order and select **View schedule**.
 
    :::image type="content" source="media/fsp-outlook-move-booking.png" alt-text="Field Service Outlook Scheduling with Move booking highlighted":::
 
