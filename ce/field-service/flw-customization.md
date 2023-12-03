@@ -16,10 +16,14 @@ Customize the work order and booking experiences to help frontline managers and 
 
 The Microsoft 365 integrations for Field Service utilize Power Platform views to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition.
 
-We currently support customization of the **Work Orders** and **Bookable resource booking** experiences.
+Use views to:
+1. Reorder and remove fields
+1. Toggle required fields
+1. Add custom fields
 
-<!---  
-:::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service using Outlook"::: --->
+:::image type="content" source="media/fsp-flw-customize-overview.png" alt-text="Example of a customized work order form in Field Service Outlook and Teams":::
+
+We currently support customization of the **Work Orders** and **Bookable resource booking** experiences.
 
 ## Prerequisites
 

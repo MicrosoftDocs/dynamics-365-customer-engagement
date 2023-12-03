@@ -1,7 +1,7 @@
 ---
 title: Field Service Teams app for the frontline manager
 description: Learn about the Dynamics 365 Field Service Teams and Viva Connections app to create, view, and edit work orders.
-ms.date: 11/28/2023
+ms.date: 12/03/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian

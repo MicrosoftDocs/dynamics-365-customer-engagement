@@ -1,7 +1,7 @@
 ---
 title: Field Service Outlook add-in with Copilot for the frontline manager 
 description: Learn about the Dynamics 365 Field Service Outlook add-in to create, view, and edit work orders.
-ms.date: 11/28/2023
+ms.date: 12/03/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -160,9 +160,9 @@ Reschedule a scheduled work order to a different resource, date, or time. Use sc
 
 1. Open a scheduled work order and select **View schedule**.
 
-   :::image type="content" source="media/fsp-outlook-reschedule.png" alt-text="Field Service Outlook with Rechedule button highlighted":::
-
 1. Select **Reschedule**. The system searches for available technicians based on the work order requirements and then displays suggestions.
+
+   :::image type="content" source="media/fsp-outlook-reschedule.png" alt-text="Field Service Outlook with Rechedule button highlighted":::
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
@@ -181,9 +181,9 @@ Change the date and time scheduled for the technician.
 
 1. Open a scheduled work order and select **View schedule**.
 
-   :::image type="content" source="media/fsp-outlook-move-booking.png" alt-text="Field Service Outlook Scheduling with Move booking highlighted":::
+1. Select **Move booking**. The system automatically displays the current resource, but you can change it.
 
-1. Next to **Reschedule**, select the ellipsis (**&hellip;**) > **Move booking**. The system automatically displays the current resource, but you can change it.
+   :::image type="content" source="media/fsp-outlook-move-booking.png" alt-text="Field Service Outlook Scheduling with Move booking highlighted":::
 
 1. Select the date and time and select **Update**. The technician is booked. A confirmation displays at the top of the **Field Service** pane.
 
