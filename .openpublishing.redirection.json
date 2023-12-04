@@ -899,6 +899,16 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/use/enhanced-email-attachment-control.md",
+      "redirect_url": "/power-apps/user/attach-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/add-enhanced-attachment-control.md",
+      "redirect_url": "/power-apps/user/attach-email",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md",
       "redirect_url": "/powerapps/user/view-create-email",
       "redirect_document_id": "false"
