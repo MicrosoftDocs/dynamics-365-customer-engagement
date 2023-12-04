@@ -144,7 +144,7 @@ Field Service for Viva Connections and Teams requires the following setup:
 
 If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create a Microsoft Entra group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-### Deploy the Field Service for Teams app
+### Deploy the Field Service Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
