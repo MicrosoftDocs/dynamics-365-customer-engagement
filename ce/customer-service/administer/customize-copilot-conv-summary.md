@@ -35,11 +35,11 @@ In Customer Service admin center, perform the following steps:
  You can also arrange the order of the information in the summary by dragging the information to the required location.
 1. Select the **Remove information from the summary that can't be found** to not display the information that can't be found in the conversation. For example, if the customer doesn't provide an error code, the error code won't be included in the summary. 
 
-    :::image type="content" source="../media/conv-manage-format-mini.png" alt-text="Screenshot of the structured settings for conversation summary" lightbox="../media/conv-manage-format.png":::|
+   :::image type="content" source="../media/conv-manage-format-mini.png" alt-text="Screenshot of the structured settings for conversation summary" lightbox="../media/conv-manage-format.png":::|
 
 If you've selected all the available options, here's how the agent will see the Copilot conversation summary:
 
-    :::image type="content" source="../media/conv-summary-format-mini.png" alt-text="Screenshot of the structured data format for conversation summary" lightbox="../media/conv-summary-format.png":::|
+   :::image type="content" source="../media/conv-summary-format-mini.png" alt-text="Screenshot of the structured data format for conversation summary" lightbox="../media/conv-summary-format.png":::|
 
 
 ## Next steps
