@@ -4,9 +4,9 @@ description: Learn how agents can use Copilot to summarize cases and conversatio
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: neeranelli 
-ms.topic: conceptual 
+ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 11/17/2023
+ms.date: 12/08/2023
 ms.custom: bap-template 
 ---
 
@@ -16,6 +16,10 @@ You can use Copilot to summarize cases and conversations if your administrator h
 
 > [!NOTE]
 > Copilot conversation and case summaries are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+
+## Prerequisites
+
+Your administrator has enabled the Copilot conversation summary feature.
 
 ## Summarize cases
 
@@ -42,13 +46,15 @@ Copilot conversation summaries provide context and relay the steps that you took
 
 ### Get a conversation summary
 
-Depending on the triggers your administrator set up, the Copilot conversation summary is generated like this:
+Based on your administrator's configuration, you'll see the following:
 
-- Automatically when you request a consultation with another agent, transfer the conversation, or end the conversation.
-- When you select **Summarize conversation** in an ongoing conversation.
-
-:::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
-
+- The Copilot conversation summary generated automatically when you request a consultation with another agent, transfer the conversation, or end the conversation. You can select **Summarize conversation** to generate the summary for an ongoing conversation.
+- The summary displayed in a paragraph format or a structured format.
+  - The paragraph format summarizes the conversation in a single paragraph.
+     :::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
+  - The structured format summarizes and organizes the information in the conversation based on the options you're administrator has selected. 
+     :::image type="content" source="../media/structured-conv-summary.png" alt-text="Screenshot of a structured Copilot conversation summary.":::
+       
 You can also take the following actions:
 
 - Copy the summary.

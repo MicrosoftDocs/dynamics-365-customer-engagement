@@ -30,8 +30,9 @@ Case summaries help agents understand the context of a case, enabling them to re
     - **Operations** > **Insights** > **Summaries**
 1. Select **Manage** in **Summaries**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
-
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. You can also [modify the source case fields that Copilot uses to generate summaries or draft emails](copilot-map-custom-fields.md). 
+1. Select **Manage data** to [modify the source case fields that Copilot uses to generate case summaries](copilot-map-custom-fields.md). 
+1. You can specify up to ten email addresses. Copilot excludes emails from those addresses when generating the case summary. For example, you might not want to include automatic notification emails in your case summary. You can add the email address and Copilot won't use those emails to generate case summaries.
+Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. 
 
 ## Enable conversation summaries
 
@@ -42,6 +43,7 @@ For Copilot to automatically trigger a conversation summary for a live conversat
    - **When a conversation ends**: Generates a summary when the conversation ends. 
       - Select **Allow agents to create case with a button in the summary** to allow agents to see the **Create case** button in the conversation summary. A new case is created when the agent selects **Create case**.
    - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation**.
+   - Select [**Manage format**](customize-copilot-conv-summary.md) to  the change the format in which the conversation summary is displayed to agents.
 
 > [!IMPORTANT]
 > Bot conversations aren't automatically included in the conversation summary. 
