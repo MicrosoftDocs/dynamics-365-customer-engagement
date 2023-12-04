@@ -41,7 +41,7 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
   - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot using Azure Bot Service](../develop/smart-assist-bot.md).
 
   > [!NOTE]
-  > Power Virtual Agents bots aren't supported as smart assist bots.
+  > Microsoft Copilot Studio bots aren't supported as smart assist bots.
 
 ## Enable AI suggestions for similar cases and knowledge articles
 
