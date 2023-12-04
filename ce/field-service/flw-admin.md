@@ -23,9 +23,9 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 
 ## [Set up Field Service for Outlook](#tab/outlook)
 
-As an admin, you can quickly enable the Field Service Outlook Add-in for your organization and the frontline employees are ready to go.
+As an admin, you can quickly enable Field Service for Outlook for your organization and the frontline employees are ready to go.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To enable or disable consent, see [Give consent to use Copilot in Field Service for Outlook.](#give-consent-to-use-copilot-in-field-service-for-outlook)
+Field Service for Outlook also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To enable or disable consent, see [Give consent to use Copilot in Field Service for Outlook.](#give-consent-to-use-copilot-in-field-service-for-outlook)
 
 ### Prerequisites
 
@@ -34,7 +34,7 @@ The Outlook add-in also includes copilot capabilities to create work orders in O
 
 ### Enable the Field Service Outlook Add-in
 
-To set up the Field Service Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help). If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
+To set up Field Service for Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help). If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
 
 1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/) as a global admin or Exchange admin.
 
@@ -68,7 +68,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 - To opt in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
 - To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
 
-#### For customer with Power Platform environments in the US
+#### For customers with Power Platform environments in the US
 
 1. In the Field Service app, change to the **Settings** area.
 
@@ -93,7 +93,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
   - Microsoft Teams
 - Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
-### Deploy Field Service Teams app
+### Deploy Field Service for Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
@@ -144,7 +144,7 @@ Field Service for Viva Connections and Teams requires the following setup:
 
 If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create a Microsoft Entra group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-### Deploy the Field Service Teams app
+### Deploy the Field Service for Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
@@ -240,11 +240,7 @@ Synchronize your Microsoft Entra groups to the Dataverse security roles. Althoug
 
 If some of the permissions of a user are inadequate to view or create work orders, you can grant the user an elevated security role or change the column-level security of the user’s security role. For more information, see [Set up users and security profiles](users-licenses-permissions.md) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-1. Depending on your environment go to Power Apps.
-
-   - For Prod, go to [make.powerapps.com](https://make.powerapps.com/)
-   - For Test, go to [make.test.powerapps.com](https://make.test.powerapps.com).
-   - For Pre-Prod, go to [make.preprod.powerapps.com](https://make.preprod.powerapps.com).
+1. Go to [Power Apps](https://make.powerapps.com/).
 
 1. Select your environment in the top bar.
 

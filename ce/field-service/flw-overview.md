@@ -34,7 +34,7 @@ Dynamics 365 Field Service allows administrators and users to access content and
 
 ## Supported geographies, regions, and languages
 
-Microsoft 365 integrations for Field Service are currently available in environments located in the following geographies and regions and in the English (en-us) language. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
+Microsoft 365 integrations for Field Service are currently available in environments located in the following geographies, regions, and languages. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
 
 ### Supported geographies and regions
 

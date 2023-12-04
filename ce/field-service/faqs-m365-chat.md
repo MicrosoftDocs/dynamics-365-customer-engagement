@@ -16,7 +16,7 @@ This FAQ describes the AI impact of the Dynamics 365 Field Service Plugin for Mi
 
 ## What is Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)?
 
-Dynamics 365 Field Service Plugin for Microsoft Copilot (preview) utilizes the power of Microsoft 365 Copilot as your AI assistant. A [Microsoft 365 Copilot license](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot) enables authorized users to engage in a natural-language conversation about work orders with Field Service (Preview) in Teams.  
+Dynamics 365 Field Service Plugin for Microsoft Copilot (preview) utilizes the power of Microsoft 365 Copilot as your AI assistant. A [Microsoft 365 Copilot license](/microsoft-365-copilot/microsoft-365-copilot-setup#manage-licenses-for-copilot) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
 
 ## What are the feature’s capabilities?
 

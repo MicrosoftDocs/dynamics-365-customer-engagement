@@ -14,7 +14,7 @@ ms.subservice: m365-integrations
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
-The Microsoft 365 integrations for Field Service utilize Power Platform views to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition.
+The Microsoft 365 integrations for Field Service utilize views in Power Apps to customize the forms for users creating and editing work orders and bookings. Any fields added to the view show on the forms, in the order specified in the view. Required field indicators show which fields are required in the table definition.
 
 Use views to:
 1. Reorder and remove fields

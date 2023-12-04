@@ -77,7 +77,7 @@ Scheduling is based on resource availability, skills, customer promised time win
 
 1. Review the suggested technicians and their availability. You can search for a technician by name, filter by dates, or sort the technicians by start time or travel time. If the **Estimated Duration** hasn't been set up in the resource requirements, 30 minutes is used as a default.
 
-   :::image type="content" source="media/fsp-flm-schedule-options.png" alt-text="Field Service (Preview) Teams scheduling.":::
+   :::image type="content" source="media/fsp-flm-schedule-options.png" alt-text="Field Service Teams scheduling.":::
 
    > [!TIP]
    > If the system doesn't find suggestions or you don't find the right technician, use the [schedule board in Field Service](preview-schedule-board.md) instead.
