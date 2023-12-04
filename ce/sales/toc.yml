@@ -167,6 +167,8 @@
         href: copilot-overview.md
       - name: Enable and configure Copilot in Dynamics 365 Sales
         href: enable-setup-copilot.md
+      - name: Enable preview features for Copilot
+        href: copilot-preview-features.md
       - name: Copilot data movement across geographies
         href: sales-copilot-data-movement.md
       - name: Copilot in Dynamics 365 Sales FAQ
