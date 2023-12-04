@@ -88,7 +88,7 @@
               href: parse-activity-json-to-get-bot-context.md
           - name: Copilot Studio
             items:
-            - name: Enable bot context for Power Virtual Agents bots
+            - name: Enable bot context for Copilot Studio bots
               href: enable-bot-context-pva.md   
           - name: Code samples for parsing activity JSON 
             href: bot-context-json-samples.md
