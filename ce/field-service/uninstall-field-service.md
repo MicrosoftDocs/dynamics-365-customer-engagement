@@ -27,7 +27,7 @@ To uninstall Field Service, administrators can go to **Advanced Settings** > **S
 | 6    | msdyn_OneFSSCM                        | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
 | 7     | msdyn_InsightsAnalyticsFSConfiguration|                                                           |
 | 8     | msdyn_DataInsightsAndAnalyticsForFS  |                                                           |
-| 9     | msdyn_DataInsightsAndAnalytics       |                                                           |
+| 9     | msdyn_DataInsightsAndAnalytics       |     Required for Sales or Customer Service.                                                       |
 | 10     | msdyn_FieldServiceAdminExp           |                                                           |
 | 11     | msdyn_FieldServiceGuides             |                                                           |
 | 12    | msdyn_GeofenceAlerts                  |                                                           |
@@ -60,7 +60,7 @@ To uninstall Field Service, administrators can go to **Advanced Settings** > **S
 | 39    | ResourceSchedulingControls           | Required for Project Service Automation                   |
 | 40    | msdyn_FieldServiceSurveys            |                                                           |
 | 41    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
-| 42    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
+| 42    | MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
 | 43    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
 | 44    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
 | 45   | msdynce_3DViewer                     |                                                           |
