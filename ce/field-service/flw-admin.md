@@ -1,7 +1,7 @@
 ---
 title: Set up Microsoft 365 integration for Field Service
 description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections.
-ms.date: 11/22/2023
+ms.date: 12/04/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -265,5 +265,6 @@ If some of the permissions of a user are inadequate to view or create work order
 ## Next steps
 
 - [Customize the experience](flw-customization.md)
+- [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

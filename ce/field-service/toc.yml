@@ -176,10 +176,12 @@ items:
       href: flw-overview.md
     - name: Administrators
       items:
-        - name: Set up
+        - name: Set up integrations for Field Service
           href: flw-admin.md
         - name: Customize views
           href: flw-customization.md
+        - name: Set up the Field Service Plugin for Microsoft Copilot (preview)
+          href: flw-copilot-setup.md
     - name: Outlook add-in with Copilot for the frontline manager
       href: flw-outlook.md
     - name: Teams app for the frontline manager
