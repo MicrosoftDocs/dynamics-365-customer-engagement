@@ -119,7 +119,7 @@
         - name: Overview of user management
           href: overview-users.md
         - name: Create users and assign security roles
-          href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/customer-service-context
+          href: /power-platform/admin/create-users-assign-online-security-roles??toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
         - name: Assign roles and enable users
           href: add-users-assign-roles.md
         - name: Personas and privileges
