@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent.
 
-Customers must use the **Attach** icon to send files. The drag-and-drop operation is not supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
+Customers must use the **Attach** icon to send files. The drag-and-drop operation isn't supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
 
 If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation.
 
@@ -80,7 +80,7 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 
 [Enable file attachments](enable-file-attachments.md) </br>
 [Add a chat widget](add-chat-widget.md) <br>
-[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure a prechat survey](configure-pre-chat-survey.md) <br>
 [Configure agent display name](agent-display-name.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
