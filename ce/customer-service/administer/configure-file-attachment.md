@@ -72,7 +72,7 @@ When the conversation is going on, the file attachment is scanned and then uploa
 
 ### Validations on attachments
 
-If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file isn't uploaded and a corresponding error message displays. Files that are detected with malicious content aren't included in the post-conversation transcript either.
+If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file won't upload and a corresponding error message displays. Files that are detected with malicious content aren't included in the post-conversation transcript either.
 
 :::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when customers upload malicious files using chat.":::
 
