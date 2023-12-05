@@ -1,10 +1,12 @@
 ---
-title: "Configure a Facebook channel | MicrosoftDocs"
-description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
+title: Configure a Facebook channel
+description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
 ms.date: 12/04/2023
-ms.topic: article
+ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 
 # Configure Facebook channel
