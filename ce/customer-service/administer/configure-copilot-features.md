@@ -35,7 +35,7 @@ However, for agents to use these features in Customer Service Hub and custom app
 ## Prerequisites
 
 - You have the System Administrator role.
-- [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform Admin Center.
+- [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform admin center.
 - [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
 - Your knowledge article parameters are as follows:
    - Updated with the latest version
@@ -44,18 +44,9 @@ However, for agents to use these features in Customer Service Hub and custom app
 
 ## Region availability and supported languages
 
-Copilot AI features are available by default to only those customers with environments that have United States as their geography for data processing and storage. See: [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
-
-For enabling the Copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
+Copilot AI features are available by default to only those customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. See: [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
 Language support for Copilot features such as case and conversation Summary, email assist, and ask a question is available in seven languages. To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
-
-### Enable public preview for geographies outside of United States
-
-1. Enable [cross geo support](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service) based on your location.
-1. Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com/) and select **Environments**.
-1. Select the environment in which you'd like to enable the copilot features, and then copy the value of the **Organization ID**.
-1. Email a request to `d365_csaipreview@microsoft.com` with your **Organization ID** to enable the preview. 
 
 ## Opt in to continue with Copilot setup
 
