@@ -1,7 +1,7 @@
 ---
 title: "Uninstall Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to uninstall Dynamics 365 Field Service 
-ms.date: 11/22/2022
+ms.date: 12/05/2022
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -23,31 +23,31 @@ To uninstall Field Service, administrators can go to **Advanced Settings** > **S
 | 2     | FieldService_Anchor                   |                                                           |
 | 3     | msdyn_FieldServiceMobileNative                   |                                                           |
 | 4     | msdyn_FieldServiceCopilot               |                                                           |
-| 5     | msdyn_FieldServiceCollabSolution      |                                                           |
-| 6    | msdyn_OneFSSCM                        | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 7     | msdyn_InsightsAnalyticsFSConfiguration|                                                           |
-| 8     | msdyn_DataInsightsAndAnalyticsForFS  |                                                           |
-| 9     | msdyn_DataInsightsAndAnalytics       |     Required for Sales or Customer Service.                                                       |
-| 10     | msdyn_FieldServiceAdminExp           |                                                           |
-| 11     | msdyn_FieldServiceGuides             |                                                           |
-| 12    | msdyn_GeofenceAlerts                  |                                                           |
-| 13   | msdyn_FSMNotifications_Patch_xx       |    Patch name or number may vary                                                       |
-| 14    | msdyn_FSMNotifications               |                                                           |
-| 15    | msdyn_FieldServiceGeofencing         |                                                           |
-| 16    | msdyn_Geofencing_Patch_xx            |     Patch name or number may vary                                                          |
-| 17    | msdyn_Geofencing                     |                                                           |
-| 18    | msdyn_CFS_Patch_xx                    |   Patch name or number may vary                                                            |
-| 19    | msdyn_FieldServiceGeolocation        |                                                           |
-| 20   | msdyn_Geolocation                    |                                                           |
-| 21   | msdyn_IoTConfigurationData                   |                                                           |
-| 22    | msdyn_IoTHealth                   |                                                           |
-| 23   | IoTProviders                    |                                                           |
-| 24   | msdyn_FieldServiceDisablePricingComponents                    |                                                           |
-| 25    | IoTConnector                    |                                                           |
-| 26    | ConnectedFieldService                |                                                           |
-| 27    | msdynce_FieldServiceHealth_Patch     |                                                           |
-| 28    | msdynce_FieldServiceHealth           |                                                           |
-| 29    | msdyn_FieldServiceExperienceComponents         |                                                           |
+| 5    | msdyn_FieldServiceExperienceComponents         |                                                           |
+| 6     | msdyn_FieldServiceCollabSolution      |                                                           |
+| 7    | msdyn_OneFSSCM                        | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 8     | msdyn_InsightsAnalyticsFSConfiguration|                                                           |
+| 9     | msdyn_DataInsightsAndAnalyticsForFS  |                                                           |
+| 10     | msdyn_DataInsightsAndAnalytics       |     Required for Sales or Customer Service if analytics feature is enabled.                                                       |
+| 11     | msdyn_FieldServiceAdminExp           |                                                           |
+| 12     | msdyn_FieldServiceGuides             |                                                           |
+| 13    | msdyn_GeofenceAlerts                  |                                                           |
+| 14   | msdyn_FSMNotifications_Patch_xx       |    Patch name or number may vary                                                       |
+| 15    | msdyn_FSMNotifications               |                                                           |
+| 16    | msdyn_FieldServiceGeofencing         |                                                           |
+| 17    | msdyn_Geofencing_Patch_xx            |     Patch name or number may vary                                                          |
+| 18    | msdyn_Geofencing                     |                                                           |
+| 19    | msdyn_CFS_Patch_xx                    |   Patch name or number may vary                                                            |
+| 20    | msdyn_FieldServiceGeolocation        |                                                           |
+| 21   | msdyn_Geolocation                    |                                                           |
+| 22   | msdyn_IoTConfigurationData                   |                                                           |
+| 23    | msdyn_IoTHealth                   |                                                           |
+| 24   | IoTProviders                    |                                                           |
+| 25   | msdyn_FieldServiceDisablePricingComponents                    |                                                           |
+| 26    | IoTConnector                    |                                                           |
+| 27    | ConnectedFieldService                |                                                           |
+| 28    | msdynce_FieldServiceHealth_Patch     |                                                           |
+| 29    | msdynce_FieldServiceHealth           |                                                           |
 | 30    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
 | 31    | FieldService                         |                                                           |
 | 32   | msdyn_FieldServiceExperienceControls                        |                                                           |
