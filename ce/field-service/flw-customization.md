@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integration for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 12/04/2023
+ms.date: 12/05/2023
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -62,7 +62,7 @@ The following steps use work order as an example. You can use these steps to cre
 
    :::image type="content" source="media/fsp-power-apps-view-columns-to-add.png" alt-text="First four columns displayed on a work order in the work order list.":::
 
-1. Make sure you have the following required columns and optionally add other columns. All columns added to the view can be used to filter the list of work orders.
+1. Make sure you have the following required columns and optionally add other columns. All columns added to the view can be used to filter the list of work orders. For Bookable resource booking, the **Crew** column isn't supported and shouldn't be used.
 
    | Work order        | Bookable resource booking |
    | ----------------- | ------------------------- |
