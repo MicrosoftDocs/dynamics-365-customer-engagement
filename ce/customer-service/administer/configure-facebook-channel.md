@@ -126,7 +126,7 @@ If a customer starts a conversation from the Facebook page and then later switch
 
 The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../use/facebook.md)
 
-After the Facebook social profile is linked to a customer or contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
+After the Facebook social profile is linked to a customer or contact record by the agent, subsequent Facebook conversations are linked to the customer records, and the customer summary is populated.
 
 If the customer isn't identified based on name, a new contact record can be created.
 
@@ -137,7 +137,7 @@ The customer can send attachments only if you enable them. When the option isn't
 
 ## Privacy notice
 
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). For more information, see the [feature technical documentation](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
@@ -221,9 +221,9 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
-  - **Customer name**: The customer name is shown in the format "first name, last name".
+  - **Customer name**: The customer name is shown in the "first name, last name" format.
   - **Locale**: For a list of locales, see Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+  - **Timezone**: Timezone is shown as a number relative to GMT. For example, “5.5”.
   - **User Page Scoped Id**: This attribute is shown as a number string.
 
 #### Modify settings for a specific Facebook page
