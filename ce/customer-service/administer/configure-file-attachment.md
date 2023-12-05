@@ -1,7 +1,7 @@
 ---
 title: Configure file attachment capability for a chat widget
 description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
-ms.date: 07/24/2023
+ms.date: 12/05/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -73,7 +73,9 @@ When the conversation is going on, the file attachment is scanned and then uploa
 > [!div class=mx-imgBorder]
 > ![File attachment icon.](../media/file-attach-icon.png "File attachment icon")
 
-If a customer tries to attach an unsupported file type or a file larger than the allowed size limit, the file won't be uploaded and a corresponding error message is displayed.
+### Validations on attachments
+
+If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file won't be uploaded and a corresponding error message is displayed.
 
 > [!div class=mx-imgBorder]
 > ![File attachment error.](../media/file-attach-error.png "File attachment error")
