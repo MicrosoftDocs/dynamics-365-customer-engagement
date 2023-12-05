@@ -20,7 +20,7 @@ Many customers use social messaging channels like LINE for their personal commun
 
 ## Prerequisites
 
-The following prerequisites must be met before you configure the Facebook channel in Omnichannel for Customer Service.
+Make sure that the following prerequisites are met:
 
 - Create a Facebook page. More information: [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
 - Enable Messenger. More information: [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
@@ -45,7 +45,7 @@ To configure a Facebook channel, the following steps are required:
 
 1. Create a Facebook channel account.
 
-1. Configure a Facebook workstream and work distribution settings
+1. Configure a Facebook workstream and work distribution settings.
 
 ### Create the Facebook channel account
 
