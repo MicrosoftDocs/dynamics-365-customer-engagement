@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Many customers use social messaging channels for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
+Many customers use social messaging channels for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of resolving their issues as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
 > [!NOTE]
 > If you use access tokens in Facebook, refresh them on a 60-day schedule or as required because the tokens might randomly expire. More information: [Facebook access tokens](https://developers.facebook.com/docs/pages/access-tokens)
