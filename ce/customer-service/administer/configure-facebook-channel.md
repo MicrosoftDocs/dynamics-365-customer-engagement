@@ -97,7 +97,7 @@ To configure a Facebook channel, the following steps are required:
 
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. More information: [Facebook Developer Tools](https://developers.facebook.com/tools/).  
    1. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
@@ -137,7 +137,7 @@ The customer can send attachments only if you enable them. When the option isn't
 
 ## Privacy notice
 
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). For more information, see the [feature technical documentation](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
@@ -162,7 +162,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
 4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
-5. Specify other details as required. To learn more, see [Understand and create workstreams](../work-streams-introduction.md).
+5. Specify other details as required. More information: [Understand and create workstreams](../work-streams-introduction.md).
 
 6. Select **Save**.
 
@@ -222,7 +222,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 When you create conditions for routing rules, the **Facebook Engagement Context (Conversation)** entity enables you to set the following attributes:
 
   - **Customer name**: The customer name is shown in the "first name, last name" format.
-  - **Locale**: For a list of locales, see Facebook developer documentation.
+  - **Locale**: For a list of locales, see the Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT. For example, “5.5”.
   - **User Page Scoped Id**: This attribute is shown as a number string.
 
@@ -249,7 +249,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
     
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. More information: [Facebook Developer Tools](https://developers.facebook.com/tools/).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
