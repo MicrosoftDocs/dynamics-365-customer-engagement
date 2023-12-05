@@ -66,15 +66,15 @@ You can define the file size limit for attachments and unsupported file types in
 
 ## Customer experience of attaching a file
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation isn't supported.
+When the file attachment capability is enabled for customers, the attachment icon displays in the chat widget. A customer can then use the **Attach** icon to send files. The drag-and-drop operation isn't supported.
 
 When the conversation is going on, the file attachment is scanned and then uploaded. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
 
 ### Validations on attachments
 
-If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file isn't uploaded and a corresponding error message is displayed. Files that are detected with malicious content aren't included in the post-conversation transcript either.
+If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file isn't uploaded and a corresponding error message displays. Files that are detected with malicious content aren't included in the post-conversation transcript either.
 
-:::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when malicious files are uploaded by customers using chat.":::
+:::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when customers upload malicious files using chat.":::
 
 ### See also
 
