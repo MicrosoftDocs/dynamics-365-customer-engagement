@@ -35,6 +35,7 @@ However, for agents to use these features in Customer Service Hub and custom app
 ## Prerequisites
 
 - You have the System Administrator role.
+- [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform Admin Center.
 - [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
 - Your knowledge article parameters are as follows:
    - Updated with the latest version
@@ -47,7 +48,7 @@ Copilot AI features are available by default to only those customers with enviro
 
 For enabling the Copilot features outside the United States, see [Copilot data movement across geographies](copilot-data-movement.md).
 
-To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+Language support for Copilot features such as case and conversation Summary, email assist, and ask a question is available in seven languages. To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ### Enable public preview for geographies outside of United States
 
@@ -60,7 +61,7 @@ To learn about supported languages for Copilot, see [Language support for AI-bas
 
 Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
 
-## Record feedback
+## Record agents interactions with Copilot
 
 In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
 
@@ -83,6 +84,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilotagentpreference
 - prvCreatemsdyn_copilotagentpreference
 - prvWritemsdyn_copilotagentpreference
+- prvReadmsdyn_appcopilotconfiguration
 - prvReadmsdyn_agentcopilotsetting 
 - prvReadmsdyn_copilotsummarizationsetting 
 - prvReadmsdyn_conversationinsight
@@ -97,6 +99,7 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendmsdyn_copilottranscriptdata
 - prvIntelligenceUsage
+
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
