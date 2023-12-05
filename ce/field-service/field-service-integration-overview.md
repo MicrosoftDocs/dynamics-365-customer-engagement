@@ -11,9 +11,9 @@ author: jasonccohen
 
 Microsoft Dynamics 365 Field Service integrates with various business apps to streamline your field service data and operations.
 
-## Integrate with Outlook and Teams (preview)
+## Integrate with Outlook and Teams 
 
-With Dynamics 365 Field Service (Preview), frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. As an organization, you can use the capabilities of the Field Service (Preview) using Microsoft Outlook or Microsoft Teams or both. For more information, see [Dynamics 365 Field Service (Preview) overview](flw-overview.md).
+With Dynamics 365 Field Service, frontline workers and managers can create, view, and manage work orders within Microsoft Outlook and Teams. As an organization, you can use the capabilities of Field Service using Microsoft Outlook or Microsoft Teams or both. For more information, see [Microsoft 365 integrations for Field Service overview](flw-overview.md).
 
 ## Integrate with finance and operations applications (preview)
 
@@ -35,7 +35,7 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
 Integrate with Microsoft Teams to chat with team members in the context of work orders. Teams integration makes it easy to find answers and fix issues the first time. It also makes it easy to understand which team members may have previously worked on a work order.
 
-After enabling the integration (currently in public preview), open a Teams panel from the work order form in Dynamics 365 and initiate chats with other team members. For more information, see the articles: [Collaborate on work orders with Microsoft Teams](field-service-teams-collaboration.md) and [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration).
+After enabling the integration, open a Teams panel from the work order form in Dynamics 365 and initiate chats with other team members. For more information, see the articles: [Collaborate on work orders with Microsoft Teams](field-service-teams-collaboration.md) and [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration).
 
 ## Integrate with SAP
 
