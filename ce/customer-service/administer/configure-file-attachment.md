@@ -70,15 +70,11 @@ When the file attachment capability is enabled for customers, the attachment ico
 
 When the conversation is going on, the file attachment is scanned and then uploaded. After the conversation ends, the attachment will be stored in the Annotations collection in Dataverse, which is an Azure BLOB-based entity. Customers can access attachments in transcripts by selecting the attachments, which are retrieved from the Dataverse entity.
 
-> [!div class=mx-imgBorder]
-> ![File attachment icon.](../media/file-attach-icon.png "File attachment icon")
-
 ### Validations on attachments
 
 If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file won't be uploaded and a corresponding error message is displayed. Files that are detected with malicious content aren't included in the post-conversation transcript either.
 
-> [!div class=mx-imgBorder]
-> ![File attachment error.](../media/file-attach-error.png "File attachment error")
+:::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when malicious files are uploaded by customers using chat.":::
 
 ### See also
 
