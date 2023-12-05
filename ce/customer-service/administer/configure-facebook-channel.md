@@ -128,7 +128,7 @@ The agent receives the notification of the incoming conversation request. More i
 
 After the Facebook social profile is linked to a customer or contact record by the agent, subsequent Facebook conversations are linked to the customer records and the customer summary is populated.
 
-If the customer is not identified based on name, a new contact record can be created.
+If the customer isn't identified based on name, a new contact record can be created.
 
 The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents don't receive the file and see an error.
 
@@ -224,7 +224,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, see Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-  - **User Page Scoped Id**: This is shown as a number string.
+  - **User Page Scoped Id**: This attribute is shown as a number string.
 
 #### Modify settings for a specific Facebook page
 
@@ -245,9 +245,9 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     > - To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
     > - To learn about uploading media in Facebook, see the Facebook developer documentation. The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
 
-    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours have passed. When set to **No**, agents will be unable to respond to customers after 24 hours unless the customer sends another message. 
+    - **Turn on your Facebook human agent message tag**: Set to **Yes** to enable your agents to message customers after 24 hours pass. When set to **No**, agents aren't able to respond to customers after 24 hours unless the customer sends another message. 
     
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
+      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
     
       To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).
 
@@ -262,7 +262,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 [Understand and create workstreams](create-workstreams.md)  
 [Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
-[Configure a pre-chat survey](configure-pre-chat-survey.md)  
+[Configure a prechat survey](configure-pre-chat-survey.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
