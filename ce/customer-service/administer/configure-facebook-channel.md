@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 07/25/2022
+ms.date: 12/04/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -20,7 +20,8 @@ Many customers use social messaging channels like LINE for their personal commun
 
 The following prerequisites must be met before you configure the Facebook channel in Omnichannel for Customer Service.
 
-- Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
+- Create a Facebook page. More information: [Create and Manage a Page](https://www.facebook.com/help/135275340210354/?helpref=hc_fnav)
+- Enable Messenger. More information: [Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
 - Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
 - Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
 - If you'll use a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service.
