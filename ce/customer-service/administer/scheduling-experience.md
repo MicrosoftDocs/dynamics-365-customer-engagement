@@ -39,19 +39,19 @@ How you set up service scheduling differs, based on the following scenarios:
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
    > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in Microsoft 365 admin center.](media/microsoft-365-admin-center-dynamics-csh.png)
+   > ![Go to Dynamics 365 in Microsoft 365 admin center.](../media/microsoft-365-admin-center-dynamics-csh.png)
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
 
 4. select the edit icon next to solutions. Manage your solutions page appears.
 
    > [!div class=mx-imgBorder]
-   > ![Edit the solutions.](media/dynamics-365-admin-instance-edit-csh.png)
+   > ![Edit the solutions.](../media/dynamics-365-admin-instance-edit-csh.png)
 5. In the **Manage your solutions** page, select **Core Service Scheduling**. The status column shows **Not installed**.
 
 6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
 
    > [!div class=mx-imgBorder]
-   > ![Install the solutions.](media/core-service-scheduling-install-csh.png)
+   > ![Install the solutions.](../media/core-service-scheduling-install-csh.png)
 7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
 
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
