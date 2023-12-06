@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/05/2023
+ms.date: 12/06/2023
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -30,10 +30,10 @@ The salient features of voicemail are as follows:
 
 The prerequisites are as follows:
 
-- You have provisioned the [voice channel](voice-channel-install.md).
-- Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
-- To open a voicemail, agent presence must load. More information: [Manage presence status](../use/oc-manage-presence-status.md)
-- For the voicemail feature to work, make sure that the operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup. If you set the operating hours message at the voice workstream level, the system plays the message and disconnects the call.
+- The [voice channel](voice-channel-install.md) is enabled.
+- [Unified routing](provision-unified-routing.md) is enabled.
+- [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
+- The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that’s needed for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
 
 ## Configure voicemail to manage overflow of voice calls
 
