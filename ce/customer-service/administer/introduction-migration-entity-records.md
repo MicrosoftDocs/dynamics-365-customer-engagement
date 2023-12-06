@@ -31,7 +31,7 @@ Consider the following scenarios before you begin migration:
 
 ## Install Scheduling solution
 
-1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
+1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home).
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
