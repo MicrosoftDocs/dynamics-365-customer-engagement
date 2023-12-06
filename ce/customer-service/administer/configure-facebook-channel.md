@@ -262,7 +262,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
 [Understand and create workstreams](create-workstreams.md)  
 [Create and manage routing rules](../routing-rules.md)  
 [Configure automated messages](configure-automated-message.md)  
-[Configure a prechat survey](configure-pre-chat-survey.md)  
+[Configure a pre-conversation survey](configure-pre-chat-survey.md)  
 [Configure a post-conversation survey](configure-post-conversation-survey.md)  
 [Delete a configured channel](delete-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
