@@ -1,6 +1,6 @@
 ---
 title: Set up the Service Scheduling experience
-description: Learn about Service Scheduling experience in Dynamics 365 Customer Service
+description: Learn about how to set up the Service Scheduling experience in Dynamics 365 Customer Service
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -12,11 +12,11 @@ ms.custom: bap-template
 
 # Set up the Service Scheduling experience
 
-The set up experience is different based on the following scenarios:
+How you set up service scheduling differs, based on the following scenarios:
 
-- For new or existing organizations, where Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
+- For new or existing organizations, where the Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For existing organizations, where Core Service Scheduling solutions is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
+- For existing organizations, where the Core Service Scheduling solution is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
 
 ### Prerequisites
 
@@ -34,12 +34,12 @@ The set up experience is different based on the following scenarios:
 
 ### Install the Scheduling solutions
 
-1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
+1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home).
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
    > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in the Microsoft 365 admin center.](media/microsoft-365-admin-center-dynamics-csh.png)
+   > ![Go to Dynamics 365 in Microsoft 365 admin center.](media/microsoft-365-admin-center-dynamics-csh.png)
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
 
 4. select the edit icon next to solutions. Manage your solutions page appears.
