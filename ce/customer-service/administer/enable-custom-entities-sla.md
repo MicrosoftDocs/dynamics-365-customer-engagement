@@ -16,7 +16,7 @@ ms.custom:
 
 # Enable custom entities for service-level agreements
 
-You can enable custom entities for service-level agreements, so that users can use their own custom entities based on their requirements. You can enable custom entities either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
+You can enable custom entities for service-level agreements so that users can use their own custom entities based on their requirements. You can enable custom entities either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
 
 ## Prerequisites
 
@@ -47,15 +47,15 @@ Make sure that you have the System Administrator or System Customizer security r
 1. Select **Entities**.
 1. Find the custom entity from the list and open it.
 1. In the **General** tab, **Communication & Collaboration** section, select the **Enable for SLA (Fields will be created)** checkbox.
-1. Select **Save and close**. SLA is enabled SLA for the custom entity.
+1. Select **Save and close**. SLA is enabled for the custom entity.
 1. To create **SLA KPI Instance** fields for the custom entity, from **Entities**, search for the custom entity **Widget**.
 1. From **Widget**, select **Fields**, and then select **New**.
-1. In the **New for Widget** dialog, **General** tab, **Type** section,
+1. In the **New for Widget** dialog, **General** tab, **Type** section, do the following steps:
     1. For **Data Type**, select **Lookup**.
     1. For **Target Record Type**, select **SLA KPI Instance**.
     
     **Relationship Name** automatically appears in the format: (Target Record Type)_ (Entity Name)_ (Field Name). For example, slakpiinstance_new_widget_Custom_Field_KPI.
-1.	Select **Save and close** and then select **Publish All Customizations**.
+1.	Select **Save and close**, and then select **Publish All Customizations**.
 
 ## See Also
 
