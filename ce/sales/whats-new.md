@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 10/06/2023
+ms.date: 12/05/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -22,6 +22,12 @@ Keep track of changes on the [Dynamics 365 Sales release planner](https://experi
 Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
+
+## November 2023 release
+
+| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
+|---------|---------|---------|---------|---------|---------|
+|Sales execution     | Enhancements to assignment rules        |  Use assignment rules to automatically assign leads and opportunities to sales teams and to let sellers manage their availability.         |  [Documentation](wa-manage-seller-attributes.md)       | Enabled by admins         |  GA       |
 
 ## October 2023 release
 
@@ -41,13 +47,7 @@ This article summarizes early access, public preview, and general availability f
 
 ## September 2023 release
 
-No new features or enhancements were released in September 2023. We'll be back in October with more updates.
-
-## August 2023 release
-
-| Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
-|---------|---------|---------|---------|---------|---------|
-|Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
+No new features or enhancements were released in September 2023. 
 
 ## Get the latest version
 
