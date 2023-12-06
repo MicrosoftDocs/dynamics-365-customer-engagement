@@ -20,11 +20,11 @@ How you set up service scheduling differs, based on the following scenarios:
 
 ### Prerequisites
 
-- Make sure that you have the required security role or equivalent permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+- Make sure that you have the required security role or equivalent permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 - Ensure your organization has Universal Resource Scheduling 3.2.0.405 or a later version. If your organization has a version prior to 3.2.0.405, then Universal Resource Scheduling installation fails. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
    > [!NOTE]
    > - If your organization doesn't have Universal Resource Scheduling, the **Core Service Scheduling** solution installs the latest version of Universal Resource Scheduling.
@@ -63,4 +63,4 @@ After successful installation, you can access scheduling in the Customer Service
 [Service Scheduling FAQ](service-scheduling-faq.md) 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
