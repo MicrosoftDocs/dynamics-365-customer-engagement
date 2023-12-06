@@ -660,6 +660,12 @@
           items: 
           - name: Overview of Service scheduling
             href: basics-service-service-scheduling.md
+          - name: Set up the Service Scheduling experience
+            href: scheduling-experience.md
+          - name: Access scheduling in the Customer Service Hub and Customer Service workspace
+            href: access-scheduling.md
+          - name: Understand scheduling entities
+            href: scheduling-entities.md
           - name: Install Service Scheduling from Power Platform admin center
             href: install-service-scheduling-from-power-platform.md
           - name: Manage security roles
