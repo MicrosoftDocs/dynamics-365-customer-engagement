@@ -685,7 +685,7 @@
             - name: Create or edit services
               href: create-edit-service-csh.md
             - name: Manage fulfillment preferences
-              href: /dynamics365/common-scheduler/fulfillment-preferences
+              href: ../common-scheduler/fulfillment-preferences
         - name: Legacy Service Scheduling
           items: 
           - name: Create or change a service
