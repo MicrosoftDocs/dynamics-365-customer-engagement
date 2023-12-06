@@ -39,19 +39,19 @@ Scheduling entities are grouped under the following logical groups:
 - **Service Activities** </br>
    Create a service activity by finding the next time resources are available for a service. 
 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule a service activity](schedule-service-activity-csh.md)
+   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule a service activity](../use/schedule-service-activity-csh.md)
 
 - **Fulfillment Preferences** </br>
     Choose and customize how to display schedule assistant results, like with neat hourly appointments or morning and afternoon time windows.
 
-    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
+    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Fulfillment preferences](../../common-scheduler/fulfillment-preferences.md)
 
 **Tools**
 
 - **Schedule Board** </br>
    The Dynamics 365 Customer Service schedule board provides an overview of resource availability and bookings you can make. 
 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)
+   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the schedule board to configure service activity](../use/use-schedule-board-configure-service-activity.md)
 
 **Settings**
 
@@ -63,7 +63,7 @@ Scheduling entities are grouped under the following logical groups:
 - **Business Closure** </br>
    Prevent scheduling resources on holidays and other nonworking days by defining business closures. 
 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
+   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set when your business is closed](../use/set-when-business-closed-csh.md)
 
 
 ### See also    
