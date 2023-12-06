@@ -18,8 +18,10 @@ Creates a new session based on the session template name and returns the unique 
 
 If your organization uses single or multiple channel providers, then you can use this method to start a default session. More information: [Configure support for single and multiple channel providers](../../../administer/support-multiple-providers.md)
 
+Before you call this method, you must call [canCreateSession](cancreatesession.md) to verify if a new session can be created.
+
 > [!Important]
-> This method supports session templates of type **Generic** only.  
+> This method supports session templates of type **Generic** only and a maximum of 10 sessions simultaneously.
 
 ## Syntax
 
@@ -58,18 +60,27 @@ Promise with a value as String.
 
 ```javascript
 var input = {
-   // unique name of the configured template   
+   // unique name of the configured template  
     templateName: "msdyn_chat_session",
  
     templateParameters: {
         customer: "Contoso",
     }
     // Global and application tab template parameters, these values will override configured values
-   };
-Microsoft.CIFramework.createSession(input).then(function success(sessionId) {
-    console.log(sessionId);
-    // perform operations on session Id retrieved
-}, function(error) {
+};
+Microsoft.CIFramework.canCreateSession().then(function successCallback(result) {
+    if (result === true) {
+        Microsoft.CIFramework.createSession(input).then(function success(sessionId) {
+            console.log(sessionId);
+            // perform operations on session Id retrieved
+        }, function(error) {
+            console.log(error.message);
+            // handle error conditions
+        });
+    } else {
+        // cannot create new sessions
+    }
+}, function errorCallback(error) {
     console.log(error.message);
     // handle error conditions
 });
