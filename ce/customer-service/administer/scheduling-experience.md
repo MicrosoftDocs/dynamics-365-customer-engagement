@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 How you set up service scheduling differs, based on the following scenarios:
 
-- For new or existing organizations, where the Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
+- For new or existing organizations, where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
 - For existing organizations, where the Core Service Scheduling solution is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
 
@@ -32,7 +32,7 @@ How you set up service scheduling differs, based on the following scenarios:
    > - The latest version of Universal Resource Scheduling might not be compatible with the older versions of Field Service or Project Service.
 - Ensure your organization has Customer Service Hub application.
 
-### Install the Scheduling solutions
+### Install the scheduling solutions
 
 1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home).
 
