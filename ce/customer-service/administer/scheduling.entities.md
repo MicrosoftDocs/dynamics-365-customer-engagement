@@ -17,7 +17,7 @@ Scheduling entities are grouped under the following logical groups:
 **Scheduling**
 
 - **Resources** </br>
-   Anything that needs to be scheduled can be termed as **Resources**. This can be personnel, crews, service centers, company assets (equipment), accounts, or contacts. 
+   Anything that needs to be scheduled can be termed as **Resources**. These resources can be personnel, crews, service centers, company assets (equipment), accounts, or contacts. 
 
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
@@ -61,7 +61,7 @@ Scheduling entities are grouped under the following logical groups:
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 
 - **Business Closure** </br>
-   Prevent scheduling resources on holidays and other non-working days by defining business closures. 
+   Prevent scheduling resources on holidays and other nonworking days by defining business closures. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](set-when-business-closed-csh.md)
 
