@@ -210,7 +210,7 @@
           href: v2/develop/reference/entities-attributes/msdyn_templateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/develop/reference/entities-attributes/msdyn_sessionparticipantdata.md
-  - name: Dynamics 356 Channel Integration Framework 1.0  
+  - name: Dynamics 365 Channel Integration Framework 1.0  
     items:
     - name: Administer
       items:
