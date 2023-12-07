@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 11/17/2023
+ms.date: 11/28/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -146,7 +146,10 @@ After your report authors create and publish the customized reports, you can all
 
 The dropdown list is populated with the reports in the workspace configured on Step 1. The preferred report name appears for your Dynamics users when they access the reports. You can add a maximum of 40 reports.
 
-The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can able to modify or delete reports added from the respective historical and real-time data model customization pages only.
+The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
+
+> [!NOTE]
+> Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
 ## View customized reports
 

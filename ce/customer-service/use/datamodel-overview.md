@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/19/2023
+ms.date: 11/28/2023
 ms.custom: bap-template
 ---
 
@@ -85,8 +85,11 @@ Depending on the features you've enabled, you may see up to three different repo
 Each report is connected to its own composite dataset, which in turn connects to the data model in the managed workspace.
  
 These report copies can be edited and updated to suit your needs, and are provided as a base for you to build on instead of having to build entire reports from scratch. These reports are created only when the feature is configured, and are never updated. These reports won't be overwritten when out-of-the-box reports are updated.  
- 
+
 You can choose to specify the same workspace for both historical and real-time analytics.
+
+> [!NOTE]
+> Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
 ## See also
 [Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics)  

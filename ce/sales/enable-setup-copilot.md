@@ -1,7 +1,7 @@
 ---
 title: Enable and configure Copilot in Dynamics 365 Sales
-description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on updates, and prepare for meetings.
-ms.date: 11/21/2023
+description: Learn how to turn on and configure Copilot so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
+ms.date: 12/01/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -17,12 +17,7 @@ ms.custom:
 
 # Enable and configure Copilot in Dynamics 365 Sales
 
-Copilot is enabled by default in all sales apps for orgs in North America. If your org is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article:
-
-- [Enable or disable Copilot features in Dynamics 365 apps](#enable-or-disable-copilot-features-in-dynamics-365-apps)
-- [Configure record summary fields](#configure-record-summary-fields)
-- [Configure record catch up fields](#configure-record-catch-up-fields)
-- [Grant audit access to your sellers](#grant-audit-access-to-your-sellers)
+Copilot is enabled by default in all sales apps for orgs in North America. If your org is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article.
 
 ## License and role requirements
 
@@ -33,9 +28,11 @@ Copilot is enabled by default in all sales apps for orgs in North America. If yo
 
 ## Prerequisite
 
-Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. 
+Before you enable Copilot in Dynamics 365 Sales, you must provide consent for Copilot to process your data outside of your geographic region, compliance boundary, or national cloud instance. Ensure to complete the following actions:
+ 
+- Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully.
 
-Read the information in the [copilot data movement article](sales-copilot-data-movement.md) carefully and then follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot).
+- Follow the steps in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) to enable data movement across regions.
 
 
 ## Enable or disable Copilot features in Dynamics 365 apps
@@ -46,64 +43,58 @@ Select the Copilot features that you want your sales teams to use in each of you
 
 1. Under **General Settings**, select **Copilot**.
 
-1. If you're setting up Copilot for the first time, select **Set up Copilot**. If you've already set up Copilot, select **Manage apps**.
+1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.  
 
-   The side panel displays the list of apps installed in your organization.  
+   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page with the apps listed. ":::
 
-   :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the Set up copilot pane with the apps listed. ":::
-
-    If you haven't provided the consent for data movement, you'll see the **Go to Power Platform admin center** button. Select the button and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent. 
+    If you haven't provided the consent for data movement, select **Go to Power Platform admin center** and follow the instructions in the [Power Platform documentation](/power-platform/admin/geographical-availability-copilot) to provide consent.  
 
     > [!NOTE]
-    > For some regions, you may see the consent terms in the **Set up Copilot** pane. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, consent in the Power Platform admin center isn't required.  
+    > For some regions, you may see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, consent in the Power Platform admin center isn't required.  
  
-1. Use the **Compose** and **Chat** checkboxes to enable or disable the following Copilot features in each Sales app:
+1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. Audit history is required for Copilot to generate recent changes for leads and opportunities. If you [configure Copilot](#configure-fields-for-generating-summaries-and-recent-changes-list) to generate recent changes from fields other than the lead and opportunity tables, this setting turns on audit history for those tables as well. However, if you remove the fields later on from the configuration, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
-    - **Compose**: These features help sellers get [email summaries](view-copy-email-summary.md) and [content suggestions when they compose or respond to emails](compose-send-email-copilot.md).
-    - **Chat**: These features allow sellers to [chat with Copilot](use-sales-copilot.md) to get contextual insights and suggestions like summarizing an opportunity or lead or helping them prepare for a meeting.
+    > [!NOTE]
+    > If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.  
 
 1. Select **Publish**.
 
-The Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar.
+    The Welcome to Copilot pane opens in the right side with a quick tour. 
 
-## Configure record summary fields
+1. Go to **Change area** in the lower-left corner of the page and select **Sales**. Refresh the page and verify that the Copilot icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) appears in the right navigation bar. 
 
-By default, Copilot uses the first seven fields in the default lead and opportunity view to [generate summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead). To have it generate summaries and catch ups from the fields that are most relevant for your business, create a view. You can create different views for summaries and catch ups.
+## Configure fields for generating summaries and recent changes list
 
-1. In the Sales Hub app, [create a system view](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view) that contains the fields you want Copilot to use for summaries and catch up.
+By default, Copilot uses a set of predefined fields to generate [summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and [recent changes list](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-lead) for your opportunities and leads. To have it generate summaries and recent changes from the fields that are most relevant for your business, add the fields to your configuration. You can add a different set of fields for summaries and recent changes list from the lead and opportunity tables and other related tables.
+
 
 1. Go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
 
-1. In the **Record summary** settings, select a view for each record type.
+1. Select **Opportunities** or **Leads**. The following screenshot shows the Opportunity settings page. The Lead settings page is similar.
 
-    The first seven fields in the view are listed in the **Fields** column. Copilot [generates summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) from these fields.
+    :::image type="content" source="media/copilot-summary-settings.svg" alt-text="Screenshot of the Opportunity settings page for record summarization in Copilot.":::
 
-    :::image type="content" source="media/copilot-record-summary-settings.svg" alt-text="Screenshot of the Record summary settings in Copilot.":::
+1. Select the **Summary** tab to configure fields for generating summaries. Select the **Recent changes** tab to configure fields for generating the recent changes list.  
+    
+    > [!NOTE]
+    > The recent changes list is generated from the audit history. If auditing is turned off globally or for any of the tables that you've selected, the **Recent changes** tab is disabled. Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
 
-1. Save the changes.
+    :::image type="content" source="media/turn-audit-on.svg" alt-text="Screenshot of the recent changes tab when audit is not turned on for any of the tables in the Recent changes tab.":::
 
-> [!IMPORTANT]
-> If you later update or remove fields in a selected view, you need to force Copilot to recognize your changes. In the **Copilot** settings, select a different view. Save, and then select the updated view. Make sure the updated fields are listed in the **Fields** column, and then save again.
+1. Select **Add fields** to add fields from the opportunity/lead table or other related tables. You can add a minimum of 4 fields and a maximum of 10 fields. The **Save** button is disabled if this requirement isn't met.
 
-## Configure record catch up fields
+    If you've added more than 10 fields, clear the checkbox for fields or select the fields that you don't need and then select **Delete**. 
 
-Copilot uses the 10 most recent updates in the record's audit history to generate catch ups. You can configure a view with fields that you want to catch up on and have Copilot use it for generating catch up summary. Make sure auditing is turned on, and give your sellers access to view the audit history and audit summary.
-
-1. In the **Copilot** settings, select **Record catch up**.
-
-1. Select **Turn audit on**.
-
-1. Select a view for each record type.
-
-    :::image type="content" source="media/copilot-record-catchup-settings.svg" alt-text="Screenshot of the Record catch up settings in Copilot.":::
+    > [!NOTE]
+    > In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, you'll see **Turn audit on** in the notification bar. Select it to turn on audit for the table. If you remove the field later on, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the related table manually.
 
 1. Save the changes.
 
 ## Grant audit access to your sellers
 
-Copilot generates lead and opportunity catch-up information from the audit history, so your sellers need access to the audit history and audit summary to view catch ups.
+Copilot generates the list of recent changes for leads and opportunities from the audit history. So, your sellers need access to the audit history and audit summary to view the recent changes.
 
 1. Open the [Power Platform admin center](https://admin.powerplatform.microsoft.com), select your environment > **Settings** > **Users + permissions** > **Security roles**.
 

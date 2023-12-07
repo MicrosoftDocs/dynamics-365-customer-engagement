@@ -6,6 +6,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/versium-predict/versium-predict.md",
+      "redirect_url": "/dynamics365/sales/work-predictive-opportunity-scoring",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/configure-sales-copilot.md",
       "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
@@ -891,6 +896,16 @@
     {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-overview.md",
       "redirect_url": "/powerapps/user/add-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/use/enhanced-email-attachment-control.md",
+      "redirect_url": "/power-apps/user/attach-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/add-enhanced-attachment-control.md",
+      "redirect_url": "/power-apps/user/attach-email",
       "redirect_document_id": "false"
     },
     {
@@ -29660,7 +29675,7 @@
     },
     {
       "source_path": "ce/customer-service/unified-routing-impact-on-APIs.md",
-      "redirect_url": "administer/unified-routing-impact-on-APIs",
+      "redirect_url": "develop/unified-routing-impact-on-APIs",
       "redirect_document_id": false
     },
     {
@@ -30000,7 +30015,7 @@
     },
     {
       "source_path": "ce/customer-service/sla-time-scenarios.md",
-      "redirect_url": "use/sla-time-scenarios",
+      "redirect_url": "administer/sla-time-scenarios",
       "redirect_document_id": false
     },
     {
