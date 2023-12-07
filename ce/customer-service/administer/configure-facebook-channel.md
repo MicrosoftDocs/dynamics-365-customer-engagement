@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 12/04/2023
+ms.date: 12/06/2023
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -67,14 +67,13 @@ To configure a Facebook channel, the following steps are required:
 
    1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
 
-   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you'd copied from the Facebook application.
+   1. On the **Account details** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
 
-   1. On **Add Facebook Pages to this account**, do the following steps:
-
-   1. Select **Add**, and in the **Add Facebook Page** pane, enter the following details:
-      - **Page name:** Name of the Facebook page.
-      - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
-      - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
+   1. On the **Facebook pages** page, complete the following steps:
+      - Select **Add**, and then in the **Add Facebook Page** pane, enter the following details:
+        - **Page name:** Name of the Facebook page.
+        - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
+        - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
 
    1. On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields aren't generated if the Facebook page is reused across multiple instances of the channel.
 
@@ -84,7 +83,7 @@ To configure a Facebook channel, the following steps are required:
 
 1. Select the workstream that you created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
    
-   1. In the **Available Facebook Pages** area, select a page from the list.
+   1. In the **Facebook Page** area, select a page from the list.
    
    1. On the **Language** page, select the language to use.
    
