@@ -22,7 +22,7 @@ To learn more, see [Understand the new scheduling experience](basics-service-ser
 
 Consider the following scenarios before you begin migration:
 
-- If you haven’t been using the legacy scheduling experience and you are setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-service-scheduling-experience).
+- If you haven’t been using the legacy scheduling experience and you're setting it up for the first time in the Customer Service Hub app, see [Set up the new scheduling experience](scheduling-experience.md).
 
     > [!Note]
     > As an admin, you should configure all your entity records in the new experience manually from the user interface. You must follow the order as given in the [Scheduling scenario](basics-service-service-scheduling.md#scheduling-scenario) while configuring entity records in the new scheduling experience.
@@ -31,7 +31,7 @@ Consider the following scenarios before you begin migration:
 
 ## Install Scheduling solution
 
-1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
+1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home).
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
