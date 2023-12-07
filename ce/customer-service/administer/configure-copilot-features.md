@@ -35,7 +35,6 @@ However, for agents to use these features in Customer Service Hub and custom app
 ## Prerequisites
 
 - You have the System Administrator role.
-- [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform admin center.
 - [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
 - Your knowledge article parameters are as follows:
    - Updated with the latest version
@@ -46,11 +45,22 @@ However, for agents to use these features in Customer Service Hub and custom app
 
 Copilot AI features are available by default to only those customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. See: [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
-Language support for Copilot features such as case and conversation Summary, email assist, and ask a question is available in seven languages. To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+Language support for Copilot features such as case and conversation summary, email assist, and ask a question is available in English, Danish, German, Spanish, French, Italian, Japanese, and Dutch. To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ## Opt in to continue with Copilot setup
 
-Before you enable a Copilot feature, review the terms and conditions, and then provide your consent to use Copilot. To opt in, go to  the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, and then select **Opt in** to continue with the setup.
+If you're in a region where Copilot features are not available, you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform admin center before you can opt in to use Copilot.
+
+In the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, the application displays the following:
+
+- An error message to enable data movement across regions if you're in a region where Copilot features are not available or if you'd like to opt out of using Copilot.
+- A link to Power Platform admin center to enable the data movement across regions.
+- The data movement status.
+- A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
+
+If you're in a region where Copilot features are available, you can select **Opt in** to continue with the setup. You don't have to enable data movement in Power Platform admin center.
+
+  :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-enable-opt-in.png":::
 
 ## Record agents interactions with Copilot
 
@@ -58,12 +68,22 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 ## Make Copilot available to agents
 
-For agents to be able to use the copilot help pane and copilot summaries in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](add-profile-default.md). For Customer Service Hub, when you enable the feature, it will be available to all the agents.
+For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](add-profile-default.md). By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features.
 
-1. Go to [**Agent experience profiles**](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) in **Agent experience** > **Workspaces**.
+If you'd like to limit the features that agents can use, you can create a custom agent experience profile and enable the required features. You can then [assign the custom profile to the agents](add-profile-default.md).
+For Customer Service Hub, when you enable the feature, it will be available to all the agents.
+
+Perform the following steps to add the Copilot features to an agent experience profile:
+
+1. Go to [**Agent experience profiles**](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) using one of the following navigation options:
+  - **Agent experience** > **Workspaces**
+  - **Copilot help pane** > **Agent access** > **agent experience profiles**
 1. Select the required agent experience profile.
-1. In the **Productivity Pane**, select **Turn On** for **Copilot**. The **Copilot AI features** section appears.
-1. In **Copilot AI features**, select the required features **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**, you want to enable for that profile.  
+1. In the **Productivity Pane**, select **Turn On** for **Copilot** to enable the Copilot help pane features such suggest a response, ask a question, and write an email to be available on the productivity pane.
+  :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-help-pane-enable.png"::
+1.  In the **Copilot AI features** section, select edit and then select  the required features **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**, you want to enable for that profile.  
+
+  :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-agent-experience.png"::
 
 ## Assign roles and privileges
 
