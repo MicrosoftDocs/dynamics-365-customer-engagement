@@ -79,8 +79,19 @@ search.audienceType:
   
     Click **Next**.  
   
-7. Verify the fields that will be included in the report, and then click **Next**.  
-  
+7. Verify the fields that will be included in the report, and then click **Next**.    
+    - The Report Authoring Extension adds extra fields depending on the data type. Numbers, dates, lookups and optionsets will have an extra _fieldName_**Value** field. For example, if the FetchXML includes the *createdon* attribute, there will be 2 fields available: *createdon* and *createdonValue*.
+      - *fieldName* (example: *createdon*)
+        - This field is a string formatted according to the user's format settings. It's intended for display only. Converting the value to its original data type may result in an error. For example, an expression such as `=CDate(Fields!createdon.Value)` may fail or give an incorrect date if the date format doesn't match the locale settings on the report server.
+        - For optionset fields the value will be the display text of the optionset value.
+        - For lookup fields the value will be the primary name field of the linked record.
+      - *fieldName***Value** (example: *createdonValue*)
+        - This field is the raw unformatted value of the field according to the data type. The fields can be adjusted and formatted for user-specific display using the [hidden CRM_ format parameters](../analytics/use-parameters-in-reports.md).
+        - For datetime fields, it will be the UTC value. 
+        - For number or currency fields, it will be the unformatted numeric value.
+        - For optionset fields it will be the option number value.
+        - For lookup fields it will be the Guid of the lookup field.
+
 8. Select a style to apply to the report, and then click **Next**.  
   
 9. Verify the fields that will be included in the report and enter a name for the report, such as *Accounts With More Than 5,000 Employees*. Click **Finish**.  
