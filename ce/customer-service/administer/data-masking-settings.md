@@ -1,10 +1,12 @@
 ---
-title: "Create and manage data masking rules | MicrosoftDocs"
-description: "Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service."
-ms.date: 06/09/2022
+title: Create and manage data masking rules
+description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
+ms.date: 12/06/2023
 author: lalexms
 ms.author: laalexan
-ms.topic: article
+ms.reviewer: shujoshi
+ms.custom: bap-template
+ms.topic: how-to
 ---
 
 # Create and manage data masking rules
@@ -42,9 +44,9 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps and complete the following steps.
 
-   ### [Customer Service admin center)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
