@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
-description: Learn how to use Copilot to summarize your leads and opportunities records, catch up on updates, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 10/23/2023
+description: Learn how to use Copilot to summarize your leads and opportunities records, catch up on recent changes to your records, prepare for meetings, and enrich your leads with data from different sources.
+ms.date: 12/01/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -19,7 +19,7 @@ search.app: salescopilot-docs
 
 # Use Copilot in Dynamics 365 apps
 
-Copilot is an AI assistant that helps you be more productive and efficient in your daily work. Copilot can summarize information about your leads and opportunities, help you catch up on updates and prepare for meetings, and enrich your leads with information from other sources.
+Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
 ## License and role requirements
 
@@ -60,6 +60,7 @@ Open the Copilot page in full-screen view when you want more space and focus to 
     - If you're using a custom app, ask your administrator to [add the Copilot page](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview) to your app's sitemap.
 
 2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get the list of suggested requests or *prompts* that Copilot can help you with.
+
 
 ## Chat with Copilot 
 

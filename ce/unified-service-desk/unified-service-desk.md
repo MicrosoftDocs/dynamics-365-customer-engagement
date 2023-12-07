@@ -95,8 +95,8 @@ ms.custom:
 <td>
 <h2>Related apps & framework</h2>
 <li><a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a></li>
-<li><a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a></li>
-<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../customer-service/channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
+<li><a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/implement/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/channel-integration-framework" data-raw-source="[Dynamics 365 Channel Integration Framework Guide](../channel-integration-framework/channel-integration-framework.md)">Dynamics 365 Channel Integration Framework Guide</a></li>
 </td>
 
 </tr>

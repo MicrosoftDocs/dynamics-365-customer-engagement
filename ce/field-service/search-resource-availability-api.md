@@ -128,7 +128,7 @@ At the highest level, the output has the following four parameters. The results 
 
 ## Examples
   
-In this example, v3 of schedule assistant API, which allows for web API calls, is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results: 1 and 2 (in other words, generic and contact). 
+In this example, v3 of schedule assistant API, which allows for web API calls, is being used for a requirement of duration 60 minutes. Using the settings attribute, the results are being filtered down. Two resource types are being considered for the final results: 1 and 2 (in other words, generic and contact).
 
 ``` json
 {
@@ -170,6 +170,13 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
                         "@odata.type": "Microsoft.Dynamics.CRM.expando",
                         "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
                     }
+                }
+            ],
+            "Territories@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+            "Territories": [
+                {
+                    "@odata.type": "Microsoft.Dynamics.CRM.expando",
+                    "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
                 }
             ]
         }
