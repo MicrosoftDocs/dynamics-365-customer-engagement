@@ -1,12 +1,12 @@
 ---
 title: Understand scheduling entities
-description: Learn about scheduling entities in Dynamics 365 Customer Service
+description: Learn about scheduling entities in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.service: dynamics-365 
 ms.topic: how-to 
-ms.date: 12/05/2023
+ms.date: 12/07/2023
 ms.custom: bap-template 
 ---
 
@@ -61,7 +61,7 @@ Scheduling entities are grouped under the following logical groups:
    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
 
 - **Business Closure** </br>
-   Prevent scheduling resources on holidays and other nonworking days by defining business closures. 
+   Prevent scheduling resources on holidays and other non-working days by defining business closures. 
 
    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set when your business is closed](../use/set-when-business-closed-csh.md)
 
