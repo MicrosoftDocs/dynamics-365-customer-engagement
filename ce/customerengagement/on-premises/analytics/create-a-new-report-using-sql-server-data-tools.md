@@ -101,9 +101,8 @@ search.audienceType:
   
     This generates an .rdl file with the specified report name. You can use this file to publish your custom report in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps using the Report Wizard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish reports](../analytics/publish-reports.md)  
   
-### See also  
- [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   <br />
- [Blog: Getting Started With Custom Reports In The Cloud](https://community.dynamics.com/product/crm/crmtechnical/b/crmteamblog/archive/2010/10/19/getting-started-with-custom-reports-in-the-cloud.aspx)
+### See also
 
+ [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   <br />
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
