@@ -1,47 +1,46 @@
 ---
-title: FAQ about work order creation in Outlook using Copilot for Field Service
-description: This FAQ provides information about the AI technology used in the Outlook add-in for Dynamics 365 Field Service, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 11/28/2023
+title: FAQ about work order creation using Copilot in Field Service for Outlook
+description:  Get answers to common questions about the AI technology used in the Dynamics 365 Field Service for Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 12/07/2023
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: KishorIoT
 ms.author: nandab
 ms.reviewer: v-wendysmith@microsoft.com
 ---
 
-# FAQ about work order creation in Outlook using Copilot for Field Service
+# FAQ about work order creation using Copilot in Field Service for Outlook 
 
-This FAQ describes the AI impact of the Outlook add-in for Dynamics 365 Field Service using copilot to create work orders feature.
+This article answers common questions about the AI technology used in the Dynamics 365 Field Service for Outlook (Preview) add-in to create work orders from emails with Copilot. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
-## What is work order creation in Outlook using Copilot?
+## What is work order creation using Copilot in Outlook?
 
-This AI-powered feature is designed to accelerate the creation of work orders based on the emails received by frontline managers from their customers. The manager can then review, revise, and save the new work order, helping them to quickly create and move to the next steps in assisting their customers.
+This AI-powered feature allows frontline managers to easily create work orders from emails they receive from customers. Managers can review, revise, and schedule work orders in Outlook without disrupting their workflow.
 
-## What are the system's capabilities?
+## What are the feature's capabilities?
 
-The system parses the contents of an email thread and uses that information to populate fields in the work order form, including generating a summary for the work order description field.
+The feature parses the contents of an email thread and uses that information to populate fields in the work order form, including generating a summary for the work order description field.
 
-## What is the system's intended use?
+## What is the feature's intended use?
 
-The intention is to aid front-line workers in creating work orders at scale in less time and with less manual effort. This capability completes many fields and details required to create work orders based on the email content and service account details.
+The intention is to aid frontline managers in creating work orders at scale in less time and with less manual effort. This capability completes many fields and details required to create work orders based on the email content and service account details.
 
-## How was work order creation in Outlook using Copilot evaluated? What metrics are used to measure performance?
+## How was the feature evaluated? What metrics are used to measure performance?
 
-This feature was evaluated using both conventional performance testing and methods specifically targeted to AI features to ensure user safety and security. An extensive set of test cases was used to evaluate against potentially sensitive or harmful content. Standardized internal tooling provided further testing to ensure harm filters and security mitigations functioned as intended, including prevention of attacks such as jailbreak attempts. Additional evaluation takes place with each subsequent update throughout the feature's lifecycle. Learn more about Microsoft's commitment to [Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai).
+This feature was evaluated using both conventional performance testing and methods specifically targeted to AI features to ensure user safety and security. An extensive set of test cases was used to evaluate the risk of generating potentially sensitive or harmful content. Standardized internal tooling provided further testing to ensure harm filters and security mitigations functioned as intended, including prevention of attacks such as jailbreak attempts. More evaluation takes place with each subsequent update throughout the feature's lifecycle. [Learn more about Microsoft Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai).
 
-## What are the limitations of work order creation in Outlook using Copilot? How can users minimize the impact of the Outlook work order creation limitations when using the system?
+## What are the limitations of the feature? How can users minimize the impact of the Outlook work order creation limitations when using the feature?
 
-- The email body length can't exceed 15788 characters.
-- Customized work order create forms aren't supported.
-- Non-English summaries during work order creation aren't supported.
-- Autofill of all relevant fields in the work order creation might not occur.
+- The email body can't exceed 15,788 characters.
+- Customized work order creation forms aren't supported.
+- Summaries that are generated during work order creation are provided only in English (en-us).
+- Some fields in the work order form might not be populated automatically.
 
-## What operational factors and settings allow for effective and responsible use of the system?
+## What operational factors and settings allow for effective and responsible use of the feature?
 
-1. Users are reminded that AI-generated content can be inaccurate both above the form and within the description box.
-
-1. Users are prompted to review the AI-generated content before saving.
+- Users are reminded that AI-generated content can be inaccurate, both above the form and within the description box.
+- Users are prompted to review the AI-generated content before saving.
 
 ## See also
 
