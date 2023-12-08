@@ -30,8 +30,8 @@ In Customer Service admin center, perform the following steps:
    - **Troubleshooting steps**
    - **Outcome**
    - **Error codes**
-     > [!NOTE]
-     > The error codes you specify are samples for Copilot to find in the conversation. Copilot finds similar error codes in the conversation and include them in the summary.
+   > [!NOTE]
+   > The error codes you specify are samples for Copilot to find in the conversation. Copilot finds similar error codes in the conversation and include them in the summary.
    You can also arrange the order of the information in the summary by dragging the information to the required location.
 1. Select the **Remove information from the summary that can't be found** toggle to not display the information that can't be found in the conversation. For example, if the customer doesn't provide an error code, the error code won't be included in the summary. 
 

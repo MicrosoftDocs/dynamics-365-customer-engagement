@@ -72,7 +72,7 @@ Perform the following steps to add the Copilot features to an agent experience p
    - **Agent experience** > **Workspaces**
    - **Copilot help pane** > **Agent access** > **agent experience profiles**
 1. Select the required agent experience profile.
-1. On the **Productivity Pane**, turn on the **Copilot help pane** toggle so that agents can use the Copilot features such suggest a response, ask a question, and write an email to be available on the productivity pane.
+1. On the **Productivity Pane**, turn on the **Copilot help pane** toggle so that agents can use the Copilot features such suggest a response, ask a question, and write an email on the productivity pane.
 
    :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of the Productivity panel in agent experience profile." lightbox="../media/copilot-help-pane-enable.png":::|
 
