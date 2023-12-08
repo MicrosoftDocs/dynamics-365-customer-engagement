@@ -211,6 +211,53 @@ This POST API deletes calendar rule records for the selected entity. Additionall
 |:--|:--|:--|
 |InnerCalendarIds|	String|	An array of **InnerCalendarIds** GUIDs that are a result of the POST operation.|
 
+## Load Calendar API
+
+### Input
+
+Name: msdyn_LoadCalendars    
+Type: Action    
+Description: Returns calendars for given LoadCalendarsInput.
+
+Name: msdyn_LoadCalendars.LoadCalendarsInput    
+Type: Parameter    
+Description: String in the following JSON format:
+
+```JSON
+{
+   StartDate: string,
+   EndDate: string,
+   CalendarIds: string[]
+}
+```
+
+Name: msdyn_LoadCalendarsResponse   
+Type: ComplexType   
+Description: Contains the response from the msdyn_loadCalendars action.
+
+
+Name: msdyn_LoadCalendarsResponse.CalendarEvents   
+Type: Property   
+Description: String in the following JSON format:
+
+```JSON
+{
+"calendarId": CalendarEventSlot[]
+}
+```
+
+Where calendarId is a proper guid representing Guid of the Calendar and CalendarEventSlot is an object of following format:
+
+```JSON
+{
+  CalendarId: string,
+  InnerCalendarId: string,
+  Start: string,
+  End: string,
+  Effort: double
+}
+```
+
 ## How to call the APIs
 
 These APIs can be called by using the browser.
