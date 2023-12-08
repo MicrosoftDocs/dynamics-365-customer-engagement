@@ -566,26 +566,34 @@
         items: 
           - name: Manage Copilot features in Customer Service
             href: configure-copilot-features.md
-          - name: Enable case summaries
-            href: copilot-enable-summary.md#enable-case-summaries  
-          - name: Enable conversation summaries
-            href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable ask a question
-            href: copilot-enable-help-pane.md#enable-ask-a-question
-          - name: Enable draft a response (preview)
-            href: copilot-enable-help-pane.md#enable-draft-a-response-preview
-          - name: Enable write an email
-            href: copilot-enable-help-pane.md#enable-write-an-email
-          - name: View feedback data
-            href: configure-copilot-features.md#record-feedback
           - name: Make Copilot available to agents
-            href: configure-copilot-features.md#make-copilot-available-to-agents
+            href: configure-copilot-features.md#make-copilot-available-to-agents            
+          - name: Case and conversation summaries
+            items:
+            - name: Enable summarization of cases and conversations
+              href: copilot-enable-summary.md
+            - name: Enable case summaries
+              href: copilot-enable-summary.md#enable-case-summaries  
+            - name: Enable conversation summaries
+              href: copilot-enable-summary.md#enable-conversation-summaries
+          - name: Enable Copilot help pane features
+            items:
+            - name: Enable features in Copilot pane
+              href: copilot-enable-help-pane.md            
+            - name: Enable ask a question
+              href: copilot-enable-help-pane.md#enable-ask-a-question
+            - name: Enable draft a response (preview)
+              href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+            - name: Enable write an email
+              href: copilot-enable-help-pane.md#enable-write-an-email
+          - name: View feedback data
+            href: configure-copilot-features.md#record-agent-interactions-with-copilot
           - name: Copilot architecture diagram
             href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-          - name: Copilot data movement across geographies
-            href: copilot-data-movement.md
           - name: Manage fields Copilot uses for case summaries and emails
             href: copilot-map-custom-fields.md
+          - name: Customize Copilot conversation summaries
+            href: customize-copilot-conv-summary.md           
           - name: Configure copilot features for custom case forms and custom apps
             href: copilot-powerapps-settings.md
           - name: Display Copilot case summary on custom case forms

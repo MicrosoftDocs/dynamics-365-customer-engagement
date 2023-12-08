@@ -904,6 +904,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/administer/copilot-data-movement.md",
+      "redirect_url": "/power-platform/admin/geographical-availability-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/timeline-faqs.md",
       "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
       "redirect_document_id": "false"
