@@ -179,6 +179,8 @@ The Field Service mobile app provides an offline sync icon that indicates the sy
 
 For more information, see [View offline sync status](/power-apps/mobile/offline-sync-icon).
 
+Additionally, you can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
+
 ## Configuration considerations
 
 ### Should I make a copy of the offline profile?

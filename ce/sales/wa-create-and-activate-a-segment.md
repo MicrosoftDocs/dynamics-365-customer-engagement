@@ -84,7 +84,7 @@ Your organization can have up to 250 active segments at one time. A segment can 
 1. Select **Save**, and then select **Activate**.
 
 > [!NOTE]
-> As of the 9.3 release, if you change the attributes of a lead, opportunity, account, contact, or insight, all segments of that record type update automatically.
+> All segments that are related to a primary entity (such as lead or opportunity) run every time you update the attributes of the primary entity that are added to the conditions.
 
 ## Recommendations for adding conditions
 
