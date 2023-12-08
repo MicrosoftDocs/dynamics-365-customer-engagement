@@ -34,6 +34,7 @@ The prerequisites are as follows:
 - [Unified routing](provision-unified-routing.md) is enabled.
 - [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
 - The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that’s needed for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
+- The [call recording and SMS services](voice-channel-connect-existing-resourc.mde#enable-call-recording-and-sms-services) are enabled.
 
 ## Configure voicemail to manage overflow of voice calls
 
