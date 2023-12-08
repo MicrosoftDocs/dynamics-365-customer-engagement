@@ -80,8 +80,8 @@ Perform the following steps to add the Copilot features to an agent experience p
 
     :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of Copilot AI features section in Copilot." lightbox="../media/copilot-agent-experience.png":::|
 
-   > [!NOTE]
-   > You must turn on the **Copilot help pane** toggle to enable the **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email** features.
+    > [!NOTE]
+    > You must turn on the **Copilot help pane** toggle to enable the **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email** features.
 ## Record agent interactions with Copilot
 
 In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
