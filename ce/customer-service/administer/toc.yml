@@ -564,14 +564,14 @@
         items: 
           - name: Manage Copilot features in Customer Service
             href: configure-copilot-features.md
-            - name: Case and conversation summaries
-              items:
-              - name: Enable summarization of cases and conversations
-                href: copilot-enable-help-pane.md
-              - name: Enable case summaries
-                href: copilot-enable-summary.md#enable-case-summaries  
-              - name: Enable conversation summaries
-                href: copilot-enable-summary.md#enable-conversation-summaries
+          - name: Case and conversation summaries
+            items:
+            - name: Enable summarization of cases and conversations
+              href: copilot-enable-help-pane.md
+            - name: Enable case summaries
+              href: copilot-enable-summary.md#enable-case-summaries  
+            - name: Enable conversation summaries
+              href: copilot-enable-summary.md#enable-conversation-summaries
           - name: Enable Copilot features in Customer Service
             items:  
             - name: Manage Copilot features in Customer Service
