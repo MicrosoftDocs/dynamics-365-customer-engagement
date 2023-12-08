@@ -28,6 +28,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 Make sure that your administrator has turned on the copilot features.
 
+
 ## Ask a question 
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
@@ -126,6 +127,14 @@ Once you set a filter, the following actions are applicable:
 - The filters set apply to the following Copilot features: ask a question, draft a chat, and email.
 - The filter is saved. You don't have to set the filter each time you log in.
 
+## Understand Copilot language support
+
+Copilot detects your UI language and generates responses in that language. For example, if a case has notes in Spanish, and your UI language is set to Spanish, Copilot generates responses in Spanish.
+Even When the input is mixed, that is there are multiple languages, Copilot generates responses based on the language set for your UI. For example, if a case has a description in French, the email thread is in Spanish, and the UI language is set to Spanish, Copilot's response will be in Spanish.
+
+> [!NOTE]
+> Copilot will try to generate responses in the your preferred UI language even if that isn't an officially supported language.
+ 
 ### See also
 
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  

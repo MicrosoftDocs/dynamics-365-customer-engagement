@@ -580,10 +580,10 @@
             href: configure-copilot-features.md#make-copilot-available-to-agents
           - name: Copilot architecture diagram
             href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-          - name: Copilot data movement across geographies
-            href: copilot-data-movement.md
           - name: Manage fields Copilot uses for case summaries and emails
             href: copilot-map-custom-fields.md
+          - name: Customize Copilot conversation summaries
+            href: customize-copilot-conv-summary.md           
           - name: Configure copilot features for custom case forms and custom apps
             href: copilot-powerapps-settings.md
           - name: Display Copilot case summary on custom case forms

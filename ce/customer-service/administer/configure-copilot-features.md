@@ -35,30 +35,22 @@ However, for agents to use these features in Customer Service Hub and custom app
 ## Prerequisites
 
 - You have the System Administrator role.
-- [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) is configured in your environment. 
-- Your knowledge article parameters are as follows:
-   - Updated with the latest version
-   - The state is set to Published
-   - The locale is set to English
 
 ## Region availability and supported languages
 
-Copilot AI features are available by default to only those customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. See: [Region availability of analytics and insights](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
+The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform admin center before you can opt in to use Copilot.
 
-Language support for Copilot features such as case and conversation summary, email assist, and ask a question is available in English, Danish, German, Spanish, French, Italian, Japanese, and Dutch. To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+[Language support for Copilot features](../use/use-copilot-features.md#understand-copilot-language-support) is available in English, Danish, German, Spanish, French, Italian, Japanese, and Dutch, and is applicable only to features that are generally available.
+ To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
 ## Opt in to continue with Copilot setup
 
-If you're in a region where Copilot features are not available, you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in Power Platform admin center before you can opt in to use Copilot.
-
 In the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, the application displays the following:
 
-- An error message to enable data movement across regions if you're in a region where Copilot features are not available or if you'd like to opt out of using Copilot.
+- An error message to enable data movement across regions if you're in a region where Copilot features are not available by default or if you'd like to opt out of using Copilot.
 - A link to Power Platform admin center to enable the data movement across regions.
 - The data movement status.
 - A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
-
-If you're in a region where Copilot features are available, you can select **Opt in** to continue with the setup. You don't have to enable data movement in Power Platform admin center.
 
   :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-enable-opt-in.png":::
 
