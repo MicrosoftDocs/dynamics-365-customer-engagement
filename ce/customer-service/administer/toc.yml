@@ -575,6 +575,7 @@
             - name: Enable conversation summaries
               href: copilot-enable-summary.md#enable-conversation-summaries
           - name: Enable Copilot help pane features
+            items:
             - name: Enable features in Copilot pane
               href: copilot-enable-help-pane.md            
             - name: Enable ask a question
