@@ -23,7 +23,7 @@ Your administrator has enabled the Copilot conversation summary feature.
 
 ## Summarize cases
 
-Copilot case summaries help you to quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
+Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
 ### Get a case summary
 
@@ -49,10 +49,10 @@ Copilot conversation summaries provide context and relay the steps that you took
 Based on your administrator's configuration, you'll see the following:
 
 - The Copilot conversation summary generated automatically when you request a consultation with another agent, transfer the conversation, or end the conversation. You can select **Summarize conversation** to generate the summary for an ongoing conversation.
-- The summary displayed in a paragraph format or a structured format.
+- The summary is displayed in a paragraph format or a structured format.
   - The paragraph format summarizes the conversation in a single paragraph.
      :::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
-  - The structured format summarizes and organizes the information in the conversation based on the options you're administrator has selected. 
+  - The structured format summarizes and organizes the information in the conversation based on the options your administrator has selected. 
      :::image type="content" source="../media/structured-conv-summary.png" alt-text="Screenshot of a structured Copilot conversation summary.":::
        
 You can also take the following actions:

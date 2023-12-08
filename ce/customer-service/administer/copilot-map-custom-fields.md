@@ -68,4 +68,4 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 > [!NOTE]
 > You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.
 
-:::image type="content" source="../media/copilot-email-conv-mini.png" alt-text="Screenshot of the data attributes that copilot email  uses" lightbox="../media/copilot-email-conv.png":::
+   :::image type="content" source="../media/copilot-email-conv-mini.png" alt-text="Screenshot of the data attributes that copilot email  uses" lightbox="../media/copilot-email-conv.png":::

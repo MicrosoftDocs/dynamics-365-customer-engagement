@@ -564,17 +564,18 @@
         items: 
           - name: Manage Copilot features in Customer Service
             href: configure-copilot-features.md
+          - name: Make Copilot available to agents
+            href: configure-copilot-features.md#make-copilot-available-to-agents            
           - name: Case and conversation summaries
             items:
             - name: Enable summarization of cases and conversations
-              href: copilot-enable-help-pane.md
+              href: copilot-enable-summary.md
             - name: Enable case summaries
               href: copilot-enable-summary.md#enable-case-summaries  
             - name: Enable conversation summaries
               href: copilot-enable-summary.md#enable-conversation-summaries
-          - name: Enable Copilot features in Customer Service
-            items:  
-            - name: Manage Copilot features in Customer Service
+          - name: Enable Copilot help pane features
+            - name: Enable features in Copilot pane
               href: copilot-enable-help-pane.md            
             - name: Enable ask a question
               href: copilot-enable-help-pane.md#enable-ask-a-question
@@ -583,9 +584,7 @@
             - name: Enable write an email
               href: copilot-enable-help-pane.md#enable-write-an-email
           - name: View feedback data
-            href: configure-copilot-features.md#record-agents-interactions-with-copilot
-          - name: Make Copilot available to agents
-            href: configure-copilot-features.md#make-copilot-available-to-agents
+            href: configure-copilot-features.md#record-agent-interactions-with-copilot
           - name: Copilot architecture diagram
             href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
           - name: Manage fields Copilot uses for case summaries and emails

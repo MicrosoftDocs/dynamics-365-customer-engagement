@@ -22,8 +22,8 @@ In Customer Service admin center, perform the following steps:
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
 1. In **Summaries**, for **Live conversation summaries**, select the **Manage format** link. The **Manage format** pane shows the formats that the conversation summary is generated. You can select one of the following options: 
-  - **Paragraph**:  generates the summary in a single paragraph.
-  - **Structured**: generates the summary based on the information you've selected.
+   - **Paragraph**:  Generates the summary in a single paragraph.
+   - **Structured**: Generates the summary based on the information you've selected.
 1. If you select **Structured**, Copilot organizes conversation summary based on the options you've specified. You can select the following options:
    - **Root Cause**
    - **Customer Issue**
@@ -32,12 +32,12 @@ In Customer Service admin center, perform the following steps:
    - **Error codes**
      > [!NOTE]
      > The error codes you specify are samples for Copilot to find in the conversation. Copilot finds similar error codes in the conversation and include them in the summary.
- You can also arrange the order of the information in the summary by dragging the information to the required location.
-1. Select the **Remove information from the summary that can't be found** to not display the information that can't be found in the conversation. For example, if the customer doesn't provide an error code, the error code won't be included in the summary. 
+   You can also arrange the order of the information in the summary by dragging the information to the required location.
+1. Select the **Remove information from the summary that can't be found** toggle to not display the information that can't be found in the conversation. For example, if the customer doesn't provide an error code, the error code won't be included in the summary. 
 
-   :::image type="content" source="../media/conv-manage-format-mini.png" alt-text="Screenshot of the structured settings for conversation summary" lightbox="../media/conv-manage-format.png":::|
+     :::image type="content" source="../media/conv-manage-format-mini.png" alt-text="Screenshot of the structured settings for conversation summary" lightbox="../media/conv-manage-format.png":::|
 
-If you've selected all the available options, here's how the agent will see the Copilot conversation summary:
+ If you've selected all the available options, here's how the agent will see the Copilot conversation summary:
 
    :::image type="content" source="../media/conv-summary-format-mini.png" alt-text="Screenshot of the structured data format for conversation summary" lightbox="../media/conv-summary-format.png":::|
 
