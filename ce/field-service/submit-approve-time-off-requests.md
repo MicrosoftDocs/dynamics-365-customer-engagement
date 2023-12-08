@@ -85,7 +85,7 @@ To **delete**, select and highlight the time-off and select the delete icon.
 
 ## Additional notes
 
-- Users with the predefined security role **Field Service - Administrator** or **Field Service - Dispatcher** can approve time-off requests. If you use custom security roles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field). To approve a time-off request, users need **Update** permissions for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table.
-- [Disabling colum-level security](/power-platform/admin/enable-disable-security-field) for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table won't allow users to approve time-off requests. Setting the column-level security permission is required to approve time-off requests.
+- Users with the predefined column security profiles **Field Service - Administrator** or **Field Service - Dispatcher** can approve time-off requests. If you use custom column security profiles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field). To approve a time-off request, users need **Update** permissions for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table.
+- [Disabling column-level security](/power-platform/admin/enable-disable-security-field) for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table won't allow users to approve time-off requests. Setting the column-level security permission is required to approve time-off requests.
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
