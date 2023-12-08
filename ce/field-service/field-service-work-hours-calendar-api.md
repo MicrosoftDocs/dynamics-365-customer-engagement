@@ -215,12 +215,12 @@ This POST API deletes calendar rule records for the selected entity. Additionall
 
 ### Input
 
-Name: msdyn_LoadCalendars
-Type: Action
+Name: msdyn_LoadCalendars    
+Type: Action    
 Description: Returns calendars for given LoadCalendarsInput.
 
-Name: msdyn_LoadCalendars.LoadCalendarsInput
-Type: Parameter
+Name: msdyn_LoadCalendars.LoadCalendarsInput    
+Type: Parameter    
 Description: String in the following JSON format:
 
 ```JSON
@@ -231,12 +231,13 @@ Description: String in the following JSON format:
 }
 ```
 
-Name: msdyn_LoadCalendarsResponse
-Type: ComplexType
+Name: msdyn_LoadCalendarsResponse   
+Type: ComplexType   
 Description: Contains the response from the msdyn_loadCalendars action.
 
-Name: msdyn_LoadCalendarsResponse.CalendarEvents
-Type: Property
+
+Name: msdyn_LoadCalendarsResponse.CalendarEvents   
+Type: Property   
 Description: String in the following JSON format:
 
 ```JSON
