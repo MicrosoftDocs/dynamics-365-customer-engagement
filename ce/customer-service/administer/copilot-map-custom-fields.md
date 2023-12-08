@@ -30,6 +30,9 @@ Copilot uses the following fields to generate case summaries:
 - Case Description
 - Product
 - Priority
+- Case Notes
+- Email Content
+- Conversation Summary
 
 In Customer Service admin center, perform the following steps to map your preferred fields:
 
@@ -40,12 +43,13 @@ In Customer Service admin center, perform the following steps to map your prefer
 1. Do the following actions:
    1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
       > [!NOTE]
-      > The attributes related to case notes and email content aren't available on **Manage Data Attributes** but are considered to generate case summaries.
+      > - You can set **Case Notes** to a custom entity that is related to the **Case** table.
+      > - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries.
    1. To change the default attributes, select a different source table and column. For the **Customer** attribute, for example, you might select **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact instead of **Case** and **Contact**.
    1. Select **Save and Close**.
 1. Select **Save**.
  
-:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot uses" lightbox="../media/copilot-data-attributes.png":::|
+:::image type="content" source="../media/copilot-data-attributes-mini.png" alt-text="Screenshot of the data attributes that copilot case summary uses" lightbox="../media/copilot-data-attributes.png":::|
 
 
 ## Modify the fields used to draft emails
@@ -56,5 +60,12 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 - Case Description
 - Customer Contact
 - Subject
+- Case Notes
+- Email Content
 
 In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
+
+> [!NOTE]
+> You can't modify the Case Notes and Email Content field values that Copilot uses to draft emails.
+
+   :::image type="content" source="../media/copilot-email-conv-mini.png" alt-text="Screenshot of the data attributes that copilot email  uses" lightbox="../media/copilot-email-conv.png":::
