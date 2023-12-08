@@ -575,7 +575,7 @@
           - name: Enable write an email
             href: copilot-enable-help-pane.md#enable-write-an-email
           - name: View feedback data
-            href: configure-copilot-features.md#record-feedback
+            href: configure-copilot-features.md#record-agents-interactions-with-copilot
           - name: Make Copilot available to agents
             href: configure-copilot-features.md#make-copilot-available-to-agents
           - name: Copilot architecture diagram

@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to
-ms.date: 11/03/2023
+ms.date: 12/08/2023
 ms.custom: bap-template 
 ms.collection:
 ---
@@ -52,7 +52,7 @@ In the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](c
 - The data movement status.
 - A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
 
-  :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-enable-opt-in.png":::
+  :::image type="content" source="../media/copilot-enable-opt-in-mini.png" alt-text="Screenshot of the Copilot Help Pane page." lightbox="../media/copilot-enable-opt-in.png":::
 
 ## Record agents interactions with Copilot
 
@@ -72,10 +72,10 @@ Perform the following steps to add the Copilot features to an agent experience p
   - **Copilot help pane** > **Agent access** > **agent experience profiles**
 1. Select the required agent experience profile.
 1. In the **Productivity Pane**, select **Turn On** for **Copilot** to enable the Copilot help pane features such suggest a response, ask a question, and write an email to be available on the productivity pane.
-  :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-help-pane-enable.png":::|
+  :::image type="content" source="../media/copilot-help-pane-enable-mini.png" alt-text="Screenshot of the Productivity panel in agent experience profile." lightbox="../media/copilot-help-pane-enable.png":::|
 1.  In the **Copilot AI features** section, select edit and then select  the required features **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email**, **Case summary**, **Live conversation summary**, you want to enable for that profile.  
 
-  :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-agent-experience.png":::|
+  :::image type="content" source="../media/copilot-agent-experience-mini.png" alt-text="Screenshot of Copilot AI features section in Copilot." lightbox="../media/copilot-agent-experience.png":::|
 
 ## Assign roles and privileges
 
