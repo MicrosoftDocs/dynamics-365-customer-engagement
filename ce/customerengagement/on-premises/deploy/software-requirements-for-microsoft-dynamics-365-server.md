@@ -74,7 +74,16 @@ This topic lists the software and application requirements for this version of [
 > [!IMPORTANT]
 >  -   The computer that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Server is running on shouldn’t function as an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controller.  
 > -   When you use the Add Users Wizard, only users from trusted domains in the current forest will be displayed. Users from trusted external forests aren’t supported and don’t appear in the wizard.  
-  
+
+## Federation with Microsoft Entra ID
+
+To integrate Dynamics 365 Customer Engagement On-Premises with Microsoft Entra ID (AAD), an Active Directory Federation Service is required. Direct federation is not supported. An Active Directory Federation Service offers several benefits, such as
+-	Simplified and secured identity federation.
+-	Compatibility with a large set of authentication protocols.
+-	Ability to federate with external partners.
+-	Adding various claims provider such as Microsoft Entra ID (AAD)
+
+
 <a name="sql_server_editions"></a>   
 ## SQL Server editions  
  Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions is required, running, and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
@@ -105,15 +114,14 @@ This topic lists the software and application requirements for this version of [
 >  In order for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] to successfully connect to a new deployment of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must run a Repair of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] on the server running [!INCLUDE[pn_iis](../includes/pn-iis.md)] where the [!INCLUDE[pn_Web_Application_Server](../includes/pn-web-application-server.md)] role is installed *after* the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)] is successfully completed. <!-- For repair instructions, see [Uninstall, change, or repair Microsoft Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md).  -->
 
 
--   The computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed must have access to a [!INCLUDE[pn_security_token_service](../includes/pn-security-token-service.md)] service, such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] federation server. [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] supports the following [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] versions: 
-    - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.1 ([!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)])  
+-   The computer where [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] is installed must have access to [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] federation server. [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] supports the following [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] versions: 
     - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)]  Windows Server 2012 R2 AD FS ([!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)])
     - [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] Windows Server 2016 AD FS.
     - Active Directory Federation Services for Windows Server 2019 (Windows Server 2019 AD FS).
   
 -   Note the following conditions for the web components before you configure [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)]:  
   
-    -   If you are installing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a single server configuration, be aware that [!INCLUDE[pn_Active_Directory_Fed_Svc2](../includes/pn-active-directory-fed-svc2.md)] installs on the default website. Therefore, you must create a new website for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+    -   If you are installing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in a single server configuration, be aware that [!INCLUDE[pn_Active_Directory_Fed_Svc2](../includes/pn-active-directory-fed-svc2.md)] installs on the default website and default port 443(HTTPS). Therefore, you must create a new website for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on a new port other than port 443(HTTPS). We recommend to deploy ADFS on a separate server.  
   
     -   When you run the [!INCLUDE[pn_Internet_Facing_Deployment_Configuration_Wizard](../includes/pn-internet-facing-deployment-configuration-wizard.md)], [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] must be running on a website that is configured to use [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)]. [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] will not configure the website for [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)].  
   
@@ -128,7 +136,7 @@ This topic lists the software and application requirements for this version of [
     -   Encryption certificates. The following encryption certificates are required. You can use the same encryption certificate for both purposes, such as when you use a wildcard certificate:  
   
         > [!IMPORTANT]
-        >  If you use a certificate that is created by using a custom certificate request, the template that was used must be the **Legacy key** template. Custom certificate requests created by using the **CNG key** template are incompatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about custom certificate request templates, see [Create a Custom Certificate Request](https://technet.microsoft.com/library/cc730929.aspx).  
+        >  If you use a certificate that is created by using a custom certificate request, the template that was used must be the **Legacy key** template. Custom certificate requests created by using the **CNG key** template are incompatible with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For more information about custom certificate request templates, see [Create a Custom Certificate Request for Microsoft Dynamics](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/deploy/post-installation-configuration-guidelines-dynamics-365?view=op-9-1#request-custom-certificates-using-the-certificates-mmc-snap-in).  
   
         -   Claims encryption. Claims-based authentication requires identities to provide an encryption certificate for authentication. This certificate should be trusted by the computer where you are installing [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] so it must be located in the local Personal store where the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] is running.  
   
