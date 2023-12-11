@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 10/23/2023
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -23,12 +23,10 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
-
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
 
     - If you have a record open, Copilot lists sales appointments in the next 24 hours that are related to that record.
-    - If you're in the grid view or the Copilot page, Copilot lists all your sales appointments in the next 24 hours.
+    - If you're in the grid view, Copilot lists all your sales appointments in the next 24 hours.
 
 1. From the list of sales appointments, hover over the meeting that you'd like to prepare for and select **Prepare**.
 
@@ -40,12 +38,10 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
 
 Copilot can help make sure that you don't miss important emails by reminding you of any that you haven't replied to.
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot).
-
-1. In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
+In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
 
     - If you have a record open, Copilot lists unanswered emails that are related to that record.
-    - If you're in the grid view or the Copilot page, Copilot lists all your unanswered emails.
+    - If you're in the grid view, Copilot lists all your unanswered emails.
 
 To be included in the list, emails must meet the following criteria:
 

@@ -1,7 +1,7 @@
 ---
 title: How Copilot responds when in context and out of context
 description: Learn how Copilot responds to questions in context, or when you have a record open, and out of context, when you're viewing Copilot full-screen or in a table.
-ms.date: 10/23/2023
+ms.date: 12/15/2023
 ms.topic: conceptual
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -17,17 +17,15 @@ ms.reviewer: shujoshi
 search.app: salescopilot-docs
 ---
 
-<!-- EDITOR'S NOTE: I know customers probably aren't looking at the filenames in the address bar, but this one is named very confusingly. I thought it referred to an article about what's new in using Copilot. -->
-
 # How Copilot responds when in context and out of context
 
-You can open Copilot in the side pane when you have a record like an opportunity or a lead open. We refer to this view as using Copilot *in context*, because Copilot knows the specific record you're interested in. That is, when you open Copilot and a record side-by-side, Copilot has the context of the record. When you ask a question that's specific to that record type, Copilot gets the answer that's related to the record in context.
+You can open Copilot in the side pane when you have a record like an opportunity or a lead open. We refer to this as using Copilot *in context*, because Copilot knows the specific record you're interested in. That is, when you open Copilot and a record side-by-side, Copilot has the context of the record. When you ask a question that's specific to that record type, Copilot gets the answer that's related to the record in context.
 
-If you have a grid view open or if you open Copilot in full-screen, Copilot doesn't have the exact context. We refer to this view as using Copilot *out of context*, because Copilot doesn't know which record you're interested in. When you ask a question that's specific to that record type, Copilot lists the records that are relevant for your question and you can choose the record you want information about.
+If your request is not about the record in context or you're in the grid view, Copilot doesn't have the exact context. For example, you have a lead record open but you're sending a request to summarize an opportunity. We refer to this as using Copilot *out of context*, because Copilot doesn't know which record you're interested in. In this case, Copilot lists the records that are relevant for your question and you can choose the record you want information about.
 
-The following table lists the prompts that Copilot can help you with in each context.
+The following table lists the responses depending on whether you're using Copilot in context or out of context.
 
-| Prompt | Copilot page or grid | Copilot side pane, in context |
+| Prompt | Out of context | In context |
 |------------|------------------------------------|-----------------------------------|
 | Get info > Show my pipeline | Lists all your open opportunities, sorted by the estimated close date. | Lists all your open opportunities, sorted by the estimated close date. |
 | Get info > Summarize lead | Lists all your open leads, sorted by estimated revenue. | Summarizes the lead in context. |

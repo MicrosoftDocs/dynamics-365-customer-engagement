@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
-ms.date: 12/01/2023
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -15,12 +15,6 @@ ms.custom:
   - ai-seo-date:10/03/2023
 ---
 
-<!-- EDITOR'S NOTES: 
-- Line 53: Can you please change the screenshot to include all the settings you describe in this section? It cuts off without showing some of them.
-- Line 127: The screenshot is really blurry. Can you please replace it with a clearer one? And please highlight the ellipsis button, too.
-- Line 131: The screenshot is really blurry. Can you please replace it with a clearer one?
-- sure
--->
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
@@ -68,7 +62,7 @@ In the Sales Hub app, you can select the Copilot features that you want your sal
 
 ## Configure fields for generating summaries and recent changes list
 
-By default, Copilot uses a set of predefined fields to generate [summaries](use-sales-copilot.md#summarize-an-opportunity-or-a-lead) and a list of [recent changes](use-sales-copilot.md#view-recent-changes-to-an-opportunity-or-lead) for opportunities and leads. You can add other lead and opportunity fields and fields from related tables to make the summaries and recent changes list more relevant for your business.
+By default, Copilot uses a set of predefined fields to generate [summaries](copilot-get-information.md#summarize-a-lead-or-opportunity) and a list of [recent changes](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity) for opportunities and leads. You can add other lead and opportunity fields and fields from related tables to make the summaries and recent changes list more relevant for your business.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
@@ -88,7 +82,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](use-
 
 1. Select at least 4 fields, up to a maximum of 10.
 
-    The **Save** button is unavailable if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
+    The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
@@ -113,37 +107,6 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
-## Add the Copilot page to custom apps (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
-
-The Copilot page is available in the Sales Hub app by default. If you have a custom app and would like to use Copilot in the full-screen view, add the Copilot page to the sitemap in your custom app. The following example uses the Sales Sandbox custom app.
-
-1. Make sure that the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot) is turned on.
-
-1. On the Dynamics 365 Apps page, select the ellipses on your custom app tile and select **OPEN IN APP DESIGNER**.
-
-    :::image type="content" source="media/faq-sa-open-app-designer.png" alt-text="Screenshot of the Sales Sandbox custom app on the App page and in App Designer.":::
-
-1. Open the site map designer. Select the pencil icon for the Site Map section.
-
-    :::image type="content" source="media/faq-sa-open-site-map-designer.png" alt-text="Screenshot of the Sales Sandbox custom app in Sitemap Designer.":::
-
-1. Select the area in which you want to add the work list entry, and then select **Add** > **Subarea**.
-
-1. Select the new subarea, go to the **Properties** tab, and enter the following values:
-
-   - Select **Type** as **URL**.
-   - Enter the **URL value** as */main.aspx?&pagetype=control&controlName=PowerApps.Copilot*.
-   - Enter the **Title (1033)** as *Copilot*.
-   - Select the default **Icon** to use the default Copilot icon.
-   - Enter a unique ID; for example, *copilotpage*.
-
-1. Save and publish the sitemap.
-
-Sellers can now access the Copilot page in your custom app.
 
 ### See also
 
