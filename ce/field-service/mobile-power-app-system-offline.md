@@ -83,6 +83,8 @@ You can only add a user or a team to one offline profile one at a time. Adding t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
+The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+
 ## Step 3: Edit and publish the offline profile
 
 For each record type, you can choose a data download filter:
@@ -178,6 +180,8 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 The Field Service mobile app provides an offline sync icon that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors.
 
 For more information, see [View offline sync status](/power-apps/mobile/offline-sync-icon).
+
+Additionally, you can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
 
 ## Configuration considerations
 

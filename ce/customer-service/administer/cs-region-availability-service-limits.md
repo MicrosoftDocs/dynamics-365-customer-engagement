@@ -73,7 +73,7 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
-| Copilot | ✔ | ✖ | ✖ |✖ | ✖ |✖ | ✖ | ✖ | ✖ | ✖ |
+| Copilot | ✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
