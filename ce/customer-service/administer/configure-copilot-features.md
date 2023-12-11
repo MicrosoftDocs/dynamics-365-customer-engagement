@@ -23,8 +23,8 @@ When you enable the Copilot features, agents can do the following in the Custome
 However, for agents to use these features in Customer Service Hub and custom apps, you must perform the steps in [Enable Copilot features](copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps). 
 
 > [!NOTE]
-> - Summarize conversations is available for use in Customer Service workspace only.
-> - Respond to questions, compose an email, and summarize case and conversations are generally available in the North America region only. This feature is in preview in the rest of the supported regions.
+> Summarize conversations is available for use in Customer Service workspace only.
+
 
 ## License requirements
 
@@ -39,18 +39,20 @@ You have the System Administrator role.
 
 The option to enable Copilot AI features is available by default to customers with environments that have United States, Australia, and United Kingdom as their geography for data processing and storage. For all other regions, [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
 
-[Language support for Copilot features](../use/use-copilot-features.md#understand-copilot-language-support) is available in English, Danish, German, Spanish, French, Italian, Japanese, and Dutch, and is applicable only to features that are generally available.
- To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+
+To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
+
+The respond to questions, compose an email, and summarize cases and conversations are generally available in the North America region only. These features are in preview in the rest of the supported regions. More information: [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights)
 
 ## Data sharing for copilot features
 
-You can enable data sharing for Dynamics 365 copilot features in the Power Platform admin center app. This allows Microsoft to capture and manually review customer data including, but not limited to, users’ natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft’s features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models. 
+You can enable data sharing for Dynamics 365 copilot features in the Power Platform admin center app. This allows Microsoft to capture and manually review customer data including, but not limited to, users’ natural language inputs, outputs, and related telemetry to build, improve, and/or validate Microsoft’s features, services, machine learning models, and related systems for Dynamics 365 and Power Platform Copilot AI features. We don't use customer data to train Azure OpenAI Service foundation models.
 
 More information: [Tenant settings](/power-platform/admin/tenant-settings) and [FAQ for optional data sharing for Copilot AI features in Dynamics 365 and Power Platform](/power-platform/faqs-copilot-data-sharing)
 
 ## Opt in to continue with Copilot setup
 
-In the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) pages in Customer Service admin center, the application displays the following:
+In Customer Service admin center, the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following:
 
 - An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you'd like to opt out of using Copilot.
 - A link to the Power Platform admin center app to enable data movement across regions.
@@ -82,6 +84,7 @@ Perform the following steps to add the Copilot features to an agent experience p
 
     > [!NOTE]
     > You must turn on the **Copilot help pane** toggle to enable the **Ask a question**, **Scan customer conversation and suggest a response**, **Write an email** features.
+
 ## Record agent interactions with Copilot
 
 In the **Summaries** and **Copilot help pane** configuration pages, you can select **Record transcripts of agent interaction with Copilot, agent actions, and agent feedback on AI suggestions** to record and understand how agents are interacting with Copilot and how Copilot is performing in a support organization. Agents can also share feedback about Copilot actions, which helps Copilot perform better. You can use the data to analyze knowledge sources, and also build usage reports.
@@ -117,9 +120,14 @@ Out of the box, users with the Customer Service Representative role only can use
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
 
-### Next steps
+## Next steps
 
+[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
+[Enable Copilot help pane](copilot-enable-help-pane.md)  
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
-[Use Copilot features](../use/use-copilot-features.md)
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
-[FAQ for Copilot in Customer Service](faq-copilot-features.md)
+
+### See also
+ 
+[Use Copilot features](../use/use-copilot-features.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
+[FAQ for Copilot in Customer Service](faq-copilot-features.md)  

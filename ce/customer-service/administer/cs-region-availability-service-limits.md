@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 10/09/2023
+ms.date: 12/11/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -71,19 +71,25 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of the other Customer Service Insights features.
 
-| Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
-| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
-| Copilot | ✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
-| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Danish |
+| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
+| Copilot&mdash;Summarize cases<sup>**2**</sup>  |✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  | ✔  |
+|Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  | ✔  |
+| Copilot&mdash;Ask a question |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
+| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
+|Copilot&mdash;Draft emails |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
+| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+| AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✖ |
+| AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
 ✖ : Not available
+
+<sup>**2**</sup> Copilot generates summaries in the users' User Interface Language.
 
 ## Service limits for analytics and insights
 
@@ -115,11 +121,11 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Copilot data movement across geographies](copilot-data-movement.md)  
+[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
+[Enable Copilot help pane](copilot-enable-help-pane.md)  
 [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
 [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  
 [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)  
-
-
