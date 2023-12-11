@@ -40,8 +40,8 @@ Copilot can help make sure that you don't miss important emails by reminding you
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
 
-    - If you have a record open, Copilot lists unanswered emails that are related to that record.
-    - If you're in the grid view, Copilot lists all your unanswered emails.
+- If you have a record open, Copilot lists unanswered emails that are related to that record.
+- If you're in the grid view, Copilot lists all your unanswered emails.
 
 To be included in the list, emails must meet the following criteria:
 
@@ -54,4 +54,4 @@ To be included in the list, emails must meet the following criteria:
 ### See also
 
 - [Copilot overview](copilot-overview.md)
-- [How Copilot responds when in context and out of context](use-copilot-new.md)
+- [How Copilot responds when in context and out of context](copilot-responses-based-on-context.md)
