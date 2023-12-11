@@ -75,8 +75,8 @@ The following table lists the language availability of the other Customer Servic
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
 | Copilot&mdash;Summarize cases<sup>**2**</sup>  |✔ | ✖ |  ✔  |✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
 |Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
-| Copilot&mdash;Ask a question |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
-| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
+| Copilot&mdash;Ask a question |✔ | ✖ | ✖   | ✖   |✖  | ✖  | ✖   | ✖   | ✖ | ✖ | ✖  |
+| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖  |
 |Copilot&mdash;Draft emails |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
