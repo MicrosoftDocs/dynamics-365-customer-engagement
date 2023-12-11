@@ -77,7 +77,7 @@ The following table lists the language availability of the other Customer Servic
 |Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
 | Copilot&mdash;Ask a question |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
 | Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
-|Copilot&mdash;Draft emails |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
+|Copilot&mdash;Draft emails |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
 | Intelligent skill finder for unified routing | ✔ | ✖ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
