@@ -1,6 +1,6 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service
-description: Learn what's new in the Dynamics 365 Field Service integration with Microsoft Outlook, Teams, and Viva Connections.
+description: Learn what's new in the Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections.
 ms.date: 11/28/2023
 ms.topic: conceptual
 author: jasonxian-msft
@@ -12,13 +12,13 @@ ms.subservice: m365-integrations
 
 # What's new in Microsoft 365 integrations for Field Service
 
-See [supported geographies, regions, and languages.](flw-overview.md#supported-geographies-regions-and-languages)
+See [supported geographies, regions, and languages](flw-overview.md#supported-geographies-regions-and-languages).
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
 
 ## December 5, 2023
 
-This release includes the following changes.
+This release includes the following changes:
 
 - General availability of Microsoft 365 integrations for Field Service. Frontline workers and managers can use Teams, Outlook, and Viva Connections to manage work orders. These work orders sync to Field Service as the system of record.
 - In Teams, [assistance while scheduling a work order](flw-teams-manager.md#get-schedule-assistance). Scheduling suggestions include resources and times based on the work order requirements.
@@ -27,17 +27,17 @@ This release includes the following changes.
 
 ## October 9, 2023
 
-This public preview release includes the following changes.
+This public preview release includes the following changes:
 
 - In both Outlook and Teams, new entries can be added to the fields on the work order form when creating a work order.
 - In Outlook, schedule assistance includes rescheduling technicians and moving the booked time slot for scheduled work orders.
-- In Outlook, admins can enable or disable the Outlook Add-in Copilot setting through the Field Service app.
-- In Teams, a streamlined homepage provides quick and easy access for frontline managers and workers to manage work orders.
+- In Outlook, admins can enable or disable the Outlook add-in Copilot setting through the Field Service app.
+- In Teams, a streamlined home page provides quick and easy access for frontline managers and workers to manage work orders.
 - In Teams, the frontline worker can edit work orders.
 
 ## September 5, 2023
 
-This public preview release includes the following changes.
+This public preview release includes the following changes:
 
 - In both Outlook and Teams, the number of other work orders in the system displays on the **Work orders** tab after the first 50 work orders. You can select the link to view the work orders in the Field Service app.
 - In both Outlook and Teams, the work orders **Find by ID** now discovers partial matches.
@@ -60,6 +60,6 @@ This public preview release includes the following features:
 ## Next steps
 
 - [Microsoft 365 integrations for Field Service](flw-overview.md)
-- [Microsoft 365 integrations for Field Service for Administrators (preview)](flw-admin.md)
+- [Set up Microsoft 365 integrations for Field Service (administrators) ](flw-admin.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

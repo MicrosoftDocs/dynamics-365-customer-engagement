@@ -162,7 +162,7 @@ The Field Service add-in helps you schedule work orders in Outlook. Scheduling s
 
 1. Select the back arrow to return to the **Home** tab or the work order list.
 
-## Move a booking in Outlook
+## Move a booking
 
 If you don't need to change the assigned technician, just the date or time of the service appointment, you can move the booking. If needed, you can also assign the work order to a different resource.
 
@@ -182,7 +182,7 @@ If you don't need to change the assigned technician, just the date or time of th
 
 1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in), and then select the **Work orders** tab.
 
-   A list of up to 50 work orders display. The most recent work order displays first.
+   The list shows up to 50 work orders, with the most recent one listed first.
 
 1. To view more work orders in the Field Service app, select **See more** at the bottom of the list.
 
@@ -198,26 +198,24 @@ If you don't need to change the assigned technician, just the date or time of th
 
 1. Select the work order to view or edit it.
 
+   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
+
 While you're viewing a work order, you can also:
 
-- Open a map to locate the service address.
+- Open a map to locate the service address. Select the **Open in Bing Maps** icon.
+
+   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
 
 - [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
 
+- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
+
+  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+
 ## Edit a work order in Outlook
 
-1. While in an email, [open the Field Service add-in](#open-the-field-service-outlook-add-in).
+1. [View the work order](#view-a-work-order) you want to edit.
 
-1. Select **Open work order** from the **Copilot** tab.
-
-   > [!TIP]
-   > You can also open a work order from the **Work orders** tab. Use **Find by ID** or **Filter** to find the work order if necessary.
-
-   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
-
-1. Make the necessary changes and select **Save**. Within the details of the work order, you can also:
-
-   - Open a map to locate the service address
-   - [Open the schedule board in Field Service](work-with-schedule-board.md)
+1. Make the necessary changes and select **Save**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

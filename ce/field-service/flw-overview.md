@@ -10,9 +10,9 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Microsoft 365 integrations for Field Service
+# Microsoft 365 integrations for Field Service overview
 
-Dynamics 365 Field Service integrates with Microsoft Outlook, Teams, and Viva Connections so that frontline workers and managers can create, view, and manage work orders within Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
+Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections let frontline workers and managers create, view, and manage work orders in Outlook and Teams. A frontline manager is typically a service manager and dispatcher. A frontline worker is a technician, the one performing the repair or maintenance.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MMY]
 
@@ -22,19 +22,19 @@ A Teams home page or a Viva Connections dashboard in Teams provides frontline wo
 
 A [Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-m365-chat.md) provides a chat where frontline managers and workers can ask questions about their work orders.
 
-As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information about what the integrations provide, see:
+As an organization, you can use the capabilities in Microsoft Outlook, Microsoft Teams, Microsoft Teams and Viva Connections, or a combination. For more information, see:
 
-- [Field Service Outlook Add-in with Copilot for the frontline manager](flw-outlook.md)
-- [Field Service Teams overview for the frontline manager](flw-teams-manager.md)
-- [Field Service Teams overview for the frontline worker](flw-teams-worker.md)
+- [Work with Field Service in Outlook (frontline managers)](flw-outlook.md)
+- [Work with Field Service in Teams (frontline managers)](flw-teams-manager.md)
+- [Work with Field Service in Teams (frontline workers)](flw-teams-worker.md)
 
-Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md) and [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md). End users do have the ability to set up the Outlook add-in or Teams home page on their own. Viva Connections requires an administrator to set up for the organization.
+Administrators enable these features for end users in their organization. See [Set up Microsoft 365 integrations for Field Service](flw-admin.md) and [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md). Frontline managers and workers can set up the Outlook add-in or Teams home page on their own.
 
-Dynamics 365 Field Service allows administrators and users to access content and share data outside of Microsoft 365 once consent is given to link their Microsoft work or school account with their Dynamics 365 account.
+Administrators and users can access and share content outside of Microsoft 365 after they give consent to link their Microsoft work or school account with their Dynamics 365 account.
 
 ## Supported geographies, regions, and languages
 
-Microsoft 365 integrations for Field Service are currently available in environments located in the following geographies, regions, and languages. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
+Microsoft 365 integrations for Field Service are available in environments that are located in the following geographies and regions, and languages. If you don't know where your environment is geographically located, ask your administrator to check in the [Power Platform Admin Center](/power-platform/admin/regions-overview).
 
 ### Supported geographies and regions
 
