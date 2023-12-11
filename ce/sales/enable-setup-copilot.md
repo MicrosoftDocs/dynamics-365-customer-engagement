@@ -19,6 +19,7 @@ ms.custom:
 - Line 53: Can you please change the screenshot to include all the settings you describe in this section? It cuts off without showing some of them.
 - Line 127: The screenshot is really blurry. Can you please replace it with a clearer one? And please highlight the ellipsis button, too.
 - Line 131: The screenshot is really blurry. Can you please replace it with a clearer one?
+- sure
 -->
 
 # Turn on and set up Copilot in Dynamics 365 Sales
