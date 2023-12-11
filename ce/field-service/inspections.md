@@ -174,7 +174,7 @@ Find the inspection form and enter answers.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of mobile app showing a sample inspection.](./media/inspections-fsm-new2.png)
 
-Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment.
+Technicians can upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file. Administrators can increase this limit.
 
 When finished, select **Mark Complete** or set **Complete %** to 100.
 
