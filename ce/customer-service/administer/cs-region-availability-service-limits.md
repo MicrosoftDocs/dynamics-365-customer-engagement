@@ -122,7 +122,7 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
 [Enable Copilot help pane](copilot-enable-help-pane.md)  
-[Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) 
+[Enable data movement across regions](/power-platform/admin/geographical-availability-copilot)  
 [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
