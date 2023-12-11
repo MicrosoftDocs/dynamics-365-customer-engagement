@@ -71,19 +71,19 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of the other Customer Service Insights features.
 
-| Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Danish |
+| Feature name | English | Arabic |  Danish |Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
-| Copilot&mdash;Summarize cases<sup>**2**</sup>  |✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  | ✔  |
-|Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  | ✔  |
-| Copilot&mdash;Ask a question |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
-| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
-|Copilot&mdash;Draft emails |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
-| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
-| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
-| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
-| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
-| AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✖ |
-| AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ | ✖ |
+| Copilot&mdash;Summarize cases<sup>**2**</sup>  |✔ | ✖ |  ✔  |✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
+|Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
+| Copilot&mdash;Ask a question |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
+| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
+|Copilot&mdash;Draft emails |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖   |
+| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Effort estimation model for routing | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description |  ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 |AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
