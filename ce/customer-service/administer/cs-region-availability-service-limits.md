@@ -89,7 +89,7 @@ The following table lists the language availability of the other Customer Servic
 ✔ : Available  
 ✖ : Not available
 
-<sup>**2**</sup> Copilot generates summaries in the users' User Interface Language.
+<sup>**2**</sup> Copilot generates summaries in the agents' UI language.
 
 ## Service limits for analytics and insights
 
@@ -104,7 +104,7 @@ The following table lists the built-in limits for the embedded version of insigh
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. More information: [Dashboard overview](../use/customer-service-analytics-insights-csh.md). |
-| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. |
+| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. ||
 | AI suggestions for conversations | 150 conversations per month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time. |
 
 ## Service protection limits for AI suggestions
@@ -120,9 +120,9 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 ### See also
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
-[Copilot data movement across geographies](copilot-data-movement.md)  
 [Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
 [Enable Copilot help pane](copilot-enable-help-pane.md)  
+[Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) 
 [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
