@@ -1,7 +1,7 @@
 ---
 title: "Supported regions and languages, and service limits for analytics and insights | MicrosoftDocs"
 description: "Learn about region availability, languages supported, and service limits for analytics and insights."
-ms.date: 10/09/2023
+ms.date: 12/11/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -71,19 +71,25 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of the other Customer Service Insights features.
 
-| Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
-| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
-| Copilot | ✔ | ✖ | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
-| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+| Feature name | English | Arabic |  Danish |Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
+| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
+| Copilot&mdash;Summarize cases<sup>**2**</sup>  |✔ | ✖ |  ✔  |✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
+|Copilot&mdash;Summarize conversations<sup>**2**</sup>  |✔ | ✖ | ✔  | ✔  |✔  | ✔  |✔  | ✔  | ✖ | ✖ | ✔  |
+| Copilot&mdash;Ask a question |✔ | ✖ | ✖   | ✖   |✖  | ✖  | ✖   | ✖   | ✖ | ✖ | ✖  |
+| Copilot&mdash;Draft a chat response |✔ | ✖ | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  | ✖  |
+|Copilot&mdash;Draft emails |✔ | ✖ | ✖   | ✖   |✖  | ✖  |✖   | ✖   | ✖ | ✖ | ✖  |
+| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Effort estimation model for routing | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description |  ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
 ✖ : Not available
+
+<sup>**2**</sup> Copilot generates summaries in the agents' UI language.
 
 ## Service limits for analytics and insights
 
@@ -98,12 +104,12 @@ The following table lists the built-in limits for the embedded version of insigh
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. More information: [Dashboard overview](../use/customer-service-analytics-insights-csh.md). |
-| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. |
+| AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. ||
 | AI suggestions for conversations | 150 conversations per month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time. |
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase more capacity in a manner that's minimally disruptive.
+The AI suggestions for case and knowledge feature was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers. However, there aren't penalties if customers exceed predefined limits. Over time, Microsoft might adjust these limits in keeping with customer usage patterns. Microsoft provides options for customers with high usage scenarios and patterns to purchase more capacity in a manner that's minimally disruptive.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
@@ -114,12 +120,12 @@ Enabling the insights feature affects Dataverse entitlements. For more informati
 ### See also
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
-[Copilot data movement across geographies](copilot-data-movement.md)  
+[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
+[Enable Copilot help pane](copilot-enable-help-pane.md)  
+[Enable data movement across regions](/power-platform/admin/geographical-availability-copilot)  
 [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)  
 [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)  
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)  
 [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)  
 [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)  
-
-
