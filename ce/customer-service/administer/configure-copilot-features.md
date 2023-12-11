@@ -54,7 +54,7 @@ More information: [Tenant settings](/power-platform/admin/tenant-settings) and [
 
 In Customer Service admin center, the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following:
 
-- An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you'd like to opt out of using Copilot.
+- An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to enable data movement across regions.
 - The data movement status.
 - A link to review the terms and conditions. You can select **Opt in** to continue with the setup.  
@@ -66,7 +66,7 @@ In Customer Service admin center, the [**Copilot help pane**](copilot-enable-hel
 For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in [agent experience profiles](add-profile-default.md). By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features.
 
 If you'd like to limit the features that agents can use, you can create a custom agent experience profile and enable the required features. You can then [assign the custom profile to the agents](add-profile-default.md).
-For Customer Service Hub, when you enable the feature, it will be available to all the agents.
+For Customer Service Hub, when you enable the feature, it's available to all the agents.
 
 Perform the following steps to add the Copilot features to an agent experience profile:
 
