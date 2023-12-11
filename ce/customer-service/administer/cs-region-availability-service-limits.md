@@ -52,6 +52,7 @@ The following table lists the region availability of analytics and insights.
 | Forecast report for agents, cases, and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
 | Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ |
 | Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| Omnichannel real time analytics | | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
 
 ✔: Available  
 ✖: Not available
