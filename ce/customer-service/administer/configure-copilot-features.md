@@ -14,7 +14,7 @@ ms.collection:
 
 Copilot in Customer Service provides real-time AI assistance that helps agents automate time-consuming tasks to handle cases efficiently and resolve issues faster so that they can deliver value to customers.
 
-When you enable the Copilot features, agents can do the following in the Customer Service workspace app: 
+When you enable the Copilot features, agents can do the following actions in the Customer Service workspace app: 
 - Respond to questions
 - Compose an email
 - Draft a chat response
@@ -52,7 +52,7 @@ More information: [Tenant settings](/power-platform/admin/tenant-settings) and [
 
 ## Opt in to continue with Copilot setup
 
-In Customer Service admin center, the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following:
+In Customer Service admin center, the [**Copilot help pane**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following message and links:
 
 - An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to enable data movement across regions.
