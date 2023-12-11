@@ -21,7 +21,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 ## Show my pipeline
 
-Copilot can get you the list of opportunities that you own, sorted by the estimated close date.
+Copilot can get you the list of open opportunities that are assigned to you, sorted by the estimated close date.
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select Enter.
 

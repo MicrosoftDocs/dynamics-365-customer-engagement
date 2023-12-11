@@ -21,7 +21,7 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 
 ## What's new with my sales records
 
-With Copilot, quickly get up to speed on all the updates to your sales records, such as leads, opportunities, and accounts. Copilot lists the records that were updated in the last seven days.
+With Copilot, quickly get up to speed on all the updates to your sales records, such as leads, opportunities, and accounts. Copilot lists the changes that happened in the last seven days to the records you own. The changes are fetched from the audit history of the respective records. 
 
 In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and select Enter.
 
