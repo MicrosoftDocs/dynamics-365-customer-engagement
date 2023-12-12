@@ -32,30 +32,30 @@ The following table lists the region availability of analytics and insights.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
-| Copilot&mdash;Summarize cases<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
-|Copilot&mdash;Summarize conversations<sup>**1**</sup>  | ✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
-| Copilot&mdash;Ask a question<sup>**1**</sup> | ✔ | ✔ |	✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
-| Copilot&mdash;Draft a chat response<sup>**1**</sup> |	✔ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✖ |	✔ |	✖ |	✖ |	✖ |	✖ |	✖ |
-|Copilot&mdash;Draft emails<sup>**1**</sup> |	✔ |	✔	| ✔ |	✔ |	✔ |	✔ |	✖ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✔ |	✖ |
-| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Case topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Conversation topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Omnichannel historical analytics - Voice| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| Intelligent skill finder for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
-| Effort estimation model for unified routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |  ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
-| AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ |
-| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖| ✖ | ✖ | ✖ |
-| Forecast report for agents, cases, and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
-| Knowledge Base keywords suggestion| ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔  | ✔ |
-| Unified routing analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| Omnichannel real time analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ |
+| Copilot&mdash;Summarize cases<sup>**1**</sup>  | Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
+|Copilot&mdash;Summarize conversations<sup>**1**</sup>  | Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
+| Copilot&mdash;Ask a question<sup>**1**</sup> | Yes | Yes | Yes | Yes | Yes | Yes | No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
+| Copilot&mdash;Draft a chat response<sup>**1**</sup> |	Yes |	Yes |	No | No |	No | No |	No | No |	No |	Yes |	No | No |	No | No |	No |
+|Copilot&mdash;Draft emails<sup>**1**</sup> |	Yes |	Yes	| Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
+| Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Case topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Conversation topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Sentiment analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| AI suggestions for cases and knowledge articles | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
+| Intelligent skill finder for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Sentiment prediction-based routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Effort estimation model for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| AI suggestions for contacts in Microsoft Teams | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| AI generated summary for contacts in Microsoft Teams | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No |
+| Forecast report for agents, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Knowledge Base keywords suggestion| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Unified routing analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
+| Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
-✔: Available  
-✖: Not available
+Yes: Available  
+No: Not available
 
 <sup>**1**</sup> By default, the copilot features are available in the North America region only. Customers with environments outside the United States can use the copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
