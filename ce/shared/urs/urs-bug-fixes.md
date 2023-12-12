@@ -29,15 +29,15 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.110.19
 
 - Introduced new version of the **Specify Pattern** control to break down multi-day requirements.
-- Fixed a bug where users without delete permissions were shown a delete button on right click on bookings.  
-- Enabled the writing of free text in the Service Territory filter field.  
-- Booking rules now support HTML tags on the new Schedule Board 
-- When closing Schedule Assistant to the Schedule Board, users will be shown their last open requirement tab.  
-- The Schedule Board is now supported in Internet Explorer mode of Edge 
-- Resource Additional Capacity is now displayed on the Schedule Board when appropriate 
-- Fixed a bug that was causing an incorrect number of child resources to be displayed on the schedule board for Crew and Pool resources.  
-- The “Move To” function on the Schedule Board now respects resources marked as not to be displayed on the Schedule Board 
-- Users can now set specific times in the booking panel beyond the existing 15 minute granularity 
+- Fixed a bug where users without delete permissions were shown a delete button on bookings.  
+- Enabled free text in the service territory filter field.  
+- Booking rules now support HTML tags on the new schedule board.
+- When closing schedule assistant on the schedule board, users see their last open requirement tab.  
+- The schedule board supports Internet Explorer mode of the Edge browser. 
+- Resource Additional Capacity now shows on the Schedule Board when appropriate.
+- Fixed a bug that caused an incorrect number of child resources to show on the schedule board for Crew and Pool resources.  
+- The move option on the schedule board now respects the resource selection of the schedule board.
+- Users can set specific times in the booking panel beyond the existing 15 minute granularity.
 
 ## 3.12.119.27
 
