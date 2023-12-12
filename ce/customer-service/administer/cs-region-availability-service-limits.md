@@ -74,18 +74,18 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
-| Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | No | Yes | No | Yes | No | Yes | No | Yes |
+| Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 |Copilot&mdash;Summarize conversations<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | Copilot&mdash;Ask a question | Yes | No | No | No | No | No  | No | No | No | No | No |
 | Copilot&mdash;Draft a chat response | Yes | No | No | No | No | No | No | No | No | No | No |
 |Copilot&mdash;Draft emails | Yes | No | No | No | No | No | No | No | No | No | No  |
 | Intelligent skill finder for unified routing | Yes | No | No | No | Yes | Yes | Yes | Yes | No | No | Yes |
-| Effort estimation model for routing | No | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
+| Effort estimation model for routing | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | AI suggestions for cases and knowledge articles | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | AI suggestions for contacts in Microsoft Teams | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 | AI topic discovery | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | No | Yes |
-| AI suggestions for article keywords and description |  Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
-|AI generated summary for contacts in Microsoft Teams|  Yes | No | No | No | No | No | No | No | No | No | No |
+| AI suggestions for article keywords and description | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
+|AI generated summary for contacts in Microsoft Teams| Yes | No | No | No | No | No | No | No | No | No | No |
 
 Yes : Available  
 No : Not available
