@@ -27,7 +27,7 @@ Ensure that the following prerequisites are met:
 
 ## Use Join a Teams call
 
-You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the following steps:
+You can use the Join a Teams call feature when you’re in an active, ongoing conversation by doing the  steps:
 
 1.	On the productivity pane, select the **Join a Teams call** icon. The option to **Start a Teams meeting** is displayed with the customer’s name.
 
@@ -48,7 +48,7 @@ If you're in a conversation with an unknown customer whose record isn't displaye
 
 To locate or create a customer record:
 
-1. Do one of the following:
+1. Do one of the following steps:
    - Search for the customer record: On the active conversation page, go to **Customer** > **Search for a customer** > type the name of the customer, and then select **Enter**. If the customer has a record, it appears and you can select it.
    - Create the customer record: If the customer doesn't have an existing record, you can create it: Go to **Customer** > **New record**, and then enter the customer's details.
      
