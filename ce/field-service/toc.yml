@@ -94,7 +94,7 @@ items:
     - name: Work order recap with copilot
       href: work-order-recap.md
     - name: Work order creation in Outlook with copilot
-      href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service
+      href: flw-outlook.md#create-a-work-order-with-copilot
     - name: Microsoft Copilot for Field Service work orders (preview)
       href: flw-m365-chat.md
 
@@ -182,13 +182,13 @@ items:
           href: flw-customization.md
         - name: Set up the Field Service Plugin for Microsoft Copilot (preview)
           href: flw-copilot-setup.md
-    - name: Outlook add-in with Copilot for the frontline manager
+    - name: Work with Field Service in Outlook (frontline managers)
       href: flw-outlook.md
-    - name: Teams app for the frontline manager
+    - name: Work with Field Service in Teams (frontline managers)
       href: flw-teams-manager.md
-    - name: Teams app for the frontline worker
+    - name: Work with Field Service in Teams (frontline workers)
       href: flw-teams-worker.md
-    - name: Microsoft Copilot for Field Service work orders (preview)
+    - name: Field Service Plugin for Microsoft Copilot (preview)
       href: flw-m365-chat.md
 
 - name: Scheduling

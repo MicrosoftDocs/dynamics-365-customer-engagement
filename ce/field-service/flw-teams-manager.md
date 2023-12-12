@@ -23,9 +23,11 @@ Your environment is in a [supported geography, region, and language](flw-overvie
 
 ## Install the Field Service Teams app
 
-Your admin might have installed the app for your organization. If you see the Field Service icon in the Teams side rail or **Field Service** in the app list, you can skip this step.
+Your admin might have installed the app for your organization. If you see the Field Service or Viva Connections icon in the Teams side rail or **Field Service** in the app list, you can skip this step.
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
+
+## Select your environment
 
 1. In Teams, select **Apps** and select **Field Service**.
 
@@ -37,19 +39,15 @@ Your admin might have installed the app for your organization. If you see the Fi
 
    [Look up your environment](/power-platform/admin/determine-org-id-name) if you're not sure which one to choose.
 
-## Work in the Field Service Teams app
+1. Once the environment is validated, select one of the following:
 
-You can manage work orders either directly in the Field Service Teams app or in your Viva Connections dashboard.
+   - The **Home** tab to go to the Teams **Home** page.
 
-- To work in the Viva Connections dashboard, select **Viva Connections** in the Teams side rail or app list.
+     :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager":::
 
-  :::image type="content" source="media/fsp-flm-teams-viva-dashboard.png" alt-text="Screenshot of the Field Service dashboard in Viva Connections in Teams.":::
+   - **Open Viva Connections** to go to your Viva Connections dashboard.
 
-- To work in the Teams app, select **Field Service** in the Teams side rail or app list.
-
-  :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager":::
-
-To make the Field Service Teams and Viva Connections apps easier to get to, pin them to the side rail. Right-click the app icon in your app list, and then select **Pin**.
+     :::image type="content" source="media/fsp-flm-teams-viva-dashboard.png" alt-text="Screenshot of the Field Service dashboard in Viva Connections in Teams.":::
 
 ## Create a work order in Teams
 
@@ -151,7 +149,7 @@ While you're viewing a work order, you can also:
 
 - Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
 
-  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service.":::
 
 - For unscheduled work orders, open a map to locate the service address. Select the **Open in Bing Maps** icon.
 

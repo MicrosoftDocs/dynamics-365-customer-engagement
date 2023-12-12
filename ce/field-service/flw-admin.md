@@ -90,15 +90,11 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 
 ### Deploy the Field Service for Teams app
 
-1. In the Teams App Store or [Microsoft AppSource](https://appsource.microsoft.com/), search for and select **Field Service**.
+[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
-   :::image type="content" source="../field-service/media/fsp-teams-app-admin.png" alt-text="Dynamics 365 Field Service for Teams tile showing Get it now.":::
+### Install and pin the app
 
-1. Select **Add**, **Get it now**, or **Update**. Confirm your information.
-
-### Install and pin the app in Teams
-
-1. Sing in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 1. Select **Teams apps** > **Set up policies**, and then select **Global (Org-wide default)**.
 
@@ -117,7 +113,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 To integrate Field Service for Viva Connections (Preview) and Teams, you need to complete the following tasks:
 
 - [Create user groups](#create-user-groups), if they aren't already set up.
-- [Set up the Field Service (Preview) Teams app](#set-up-the-field-service-preview-teams-app).
+- [Set up the Field Service for Teams app](#set-up-the-field-service-for-teams-app).
 - [Set up the Field Service for Viva Connections (Preview) SharePoint app](#set-up-the-field-service-for-viva-connections-sharepoint-app).
 - [Add Field Service cards to the Viva Connections dashboard](#add-field-service-cards-to-the-viva-connections-dashboard).
 - [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles).
@@ -147,7 +143,7 @@ If you haven't created user groups for your frontline workers and frontline mana
 
 1. [Deploy the Field Service (Preview) Teams app](#deploy-the-field-service-for-teams-app).
 
-1. [Install and pin the app](#install-and-pin-the-app).
+1. [Install and pin the app](##install-and-pin-the-app).
 
 1. Open the Field Service app in Teams and select your environment.
 
@@ -190,7 +186,7 @@ The Field Service app provides four cards that you can add to the Viva Connectio
 
 1. Select **Add a card**. Select and add each of the four Field Service cards.
 
-   :::image type="content" source="media/fsp-cards.png" alt-text=""Screenshot of the four Field Service cards to add to the Viva Connections dashboard.":::
+   :::image type="content" source="media/fsp-cards.png" alt-text="Screenshot of the four Field Service cards to add to the Viva Connections dashboard.":::
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 

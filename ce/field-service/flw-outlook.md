@@ -99,7 +99,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
-1. [Schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
+1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
 
@@ -131,7 +131,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
-1. [Schedule the work order](#schedule-a-work-order-in-outlook) or select the back arrow to return to the **Home** tab.
+1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
 
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
 

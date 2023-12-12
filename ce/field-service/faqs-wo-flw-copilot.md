@@ -44,5 +44,5 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## See also
 
-- [Create a work order in Outlook using Copilot in Field Service](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service)
+- [Create a work order in Outlook with Copilot in Field Service](flw-outlook.md#create-a-work-order-with-copilot)
 - [FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)

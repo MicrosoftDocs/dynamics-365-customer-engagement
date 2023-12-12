@@ -21,7 +21,7 @@ This article summarizes public preview features, general availability enhancemen
 This release includes the following changes:
 
 - General availability of Microsoft 365 integrations for Field Service. Frontline workers and managers can use Teams, Outlook, and Viva Connections to manage work orders. These work orders sync to Field Service as the system of record.
-- In Teams, [assistance while scheduling a work order](flw-teams-manager.md#get-schedule-assistance). Scheduling suggestions include resources and times based on the work order requirements.
+- In Teams, [assistance while scheduling a work order](flw-teams-manager.md#schedule-or-reschedule-a-work-order). Scheduling suggestions include resources and times based on the work order requirements.
 - Admins can customize the work order experience in Teams and Outlook.
 - In public preview, frontline managers and workers can access key work order information by asking Copilot questions within Teams.
 
@@ -41,7 +41,7 @@ This public preview release includes the following changes:
 
 - In both Outlook and Teams, the number of other work orders in the system displays on the **Work orders** tab after the first 50 work orders. You can select the link to view the work orders in the Field Service app.
 - In both Outlook and Teams, the work orders **Find by ID** now discovers partial matches.
-- In Outlook, obtain [assistance while scheduling a work order](flw-outlook.md#schedule-a-work-order-in-outlook). Scheduling suggestions include resources and times based on the work order requirements.
+- In Outlook, obtain [assistance while scheduling a work order](flw-outlook.md#schedule-or-reschedule-a-work-order). Scheduling suggestions include resources and times based on the work order requirements.
 - In Outlook, if an email was previously used to create a work order using Copilot, a message displays with a link to the work order.
 - In Outlook, after creating a work order from an email using Copilot, the email message is saved in the Field Service app timeline.
 

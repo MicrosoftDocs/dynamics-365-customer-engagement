@@ -1,7 +1,7 @@
 ---
 title: Field Service troubleshooting
 description: Learn how to troubleshoot issues in Dynamics 365 Field Service.
-ms.date: 11/28/2023
+ms.date: 12/12/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,83 +12,81 @@ ms.subservice: m365-integrations
 
 # Field Service troubleshooting
 
-## As an admin, I can't find users when setting up frontline workers in the Field Service web app
+## As an administrator, I can't find users when setting up frontline workers in the Field Service web app
 
 ### Prerequisites
 
-Administrator permissions in Dynamics 365 Field Service
+You have administrator permissions in Dynamics 365 Field Service.
 
 ### Symptoms
 
-As an admin, when using a new Field Service environment and trying to [assign security roles for my users](flw-admin.md#assign-security-roles-and-field-security-profiles), I can't find a user in the **Users** field.
+I'm trying to [assign security roles to my users](flw-admin.md#assign-security-roles-and-field-security-profiles) in a new Field Service environment. I can't find one of my users in the **Users** lookup field.
 
-   :::image type="content" source="media/fsp-assign-roles.png" alt-text="Screenshot of adding frontline workers in Field Service.":::
+   :::image type="content" source="media/fsp-assign-roles.png" alt-text="Screenshot of adding frontline workers in Dynamics 365 Field Service.":::
 
 ### Resolution
 
-1. Ask the user to log into the Field Service environment. Even if the user can't access the environment, continue to the next step.
+1. Ask the user to sign in to the environment. Continue to the next step whether or not the user succeeds.
 
-1. As an admin, refresh your screen and try searching for the user again.
+1. Reload the page and search for the user again.
 
-1. If you still can't find the user, check if the user is set up in the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
+1. If the user still doesn't appear in the list, make sure the user is set up and active in the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-## As a dispatcher, I can't create work orders
+## As a dispatcher, I'm getting a "does not have Create permissions" error when I try to create work orders
 
 ### Prerequisites
 
-Administrator permissions in Dynamics 365 Field Service
+You must have administrator permissions in Dynamics 365 Field Service.
 
 ### Symptom
 
-As a Field Service dispatcher, I can't create work orders.
+When I try to create work orders, I get the following error:
+
+`An error occurred: Caller user with ID {ID number} does not have Create permissions for the msdyn_timefrompromised attribute in the msdyn_workorder entity. Count secured attributes in entity 11. user has 0 secured attribute privileges.`
 
 ### Resolution
 
 An admin must update the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the dispatcher role and provide **Create** permission for - **Time Promised (from)** and **Time Promised (to)**.
 
-## I can't change my Outlook Web theme in the Field Service Outlook Add-in
+## As a user, I can't change my theme in Outlook on the web after installing the Field Service for Outlook add-in
 
 ### Symptom
 
-Outlook add-ins on the Outlook Web don't support themes.
+Outlook on the web doesn't support themes with add-ins. If you want to use themes, use Outlook on the desktop.
 
-### Resolution
-
-If you want to use themes, use the Outlook Desktop.
-
-## My Viva Connections dashboard doesn't have the correct Field Service tiles
+## As a frontline manager or worker, my Viva Connections dashboard doesn't have the correct Field Service tiles
 
 ### Symptom
 
-If you signed into Teams as one user and switched to another user, your dashboard tiles may display incorrectly.
+When I open Viva Connections, I don't see the Field Service tiles I expect to see.
 
 ### Resolution
 
-Sign out of the original account and close the Teams app or browser completely. Then open Teams and sign in as the other user.
+If you signed in to Teams with one account and then switched to another one, your dashboard tiles might not display correctly. Sign out of both accounts and close the Teams desktop app or browser completely. Then open Teams and sign in with the other account.
 
-## I can't find a work order with the work order ID
+## As a frontline manager or worker, I can't find a work order using the work order ID
 
 ### Symptoms
 
-I search for a work order by ID using the **Find by ID** box, but no results display.
+When I search for a work order by ID using the **Find by ID** box, it's not found. I'm sure the ID I'm entering is correct.
 
 ### Resolution
 
-If a filter is applied before you search, clear the filters and then try the search again.
+You might have applied one or more filters that are narrowing the results too much. Clear any filters and then try the search again.
 
-## I don't know the user ID in an error message
+## As an administrator, I can't identify the user ID in an error message
 
 ### Symptoms
 
-As an admin, a user ID is listed in an error message that I can't identify.
+A user ID is listed in an error message and I can't identify the user.
 
 ### Resolution
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
 
-The user ID in Dataverse-related errors is the Field Service user ID, not the Microsoft Entra ID. The user ID is specific to the environment.
+In errors that are related to Dataverse, and thus to Dynamics 365, the user ID refers to the Field Service user ID, not the Microsoft Entra ID. The Dataverse user ID is specific to the environment.
 
-1. Go to your specific Field Service environment.
+1. Go to your Field Service environment.
 
 1. On the bottom left, select **Settings** > **Users**.
 
