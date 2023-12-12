@@ -34,20 +34,17 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.105.46
 (Includes Universal Resource Scheduling version [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) and Resource Scheduling controls version 1.2.59.233402).
 
-- The new work order experiences are officially GA. In product labels have been updated to reflect the GA status.
-- Customers can now configure a booking status in Field Service to indicate if further work is needed to complete a work order. This feature is GA!
-- An announcement modal no longer appears when marking work order service tasks complete via side panel.
-- Text tooltips, more resources, and hyperlink buttons on the ‘Get Started Page’ now translate to the org’s set language.
-- The ‘confirm settings change’ modal when enabling ‘Assign Mixed Reality Security roles’ toggle will now display a description of what will be enabled.
-- The ‘Status Completes Work Order’ toggle will now translate to the org’s set language.
-- The ‘Try the new Experience’ popup for work order form will no longer appear on the asset form.
-- Ribbon buttons will be correctly enabled when the ‘Show Simplified Commands’ in FS Settings is disabled.
-- Removing the Resource field from the Bookable Resource Booking information form will no longer cause a script error.
-- Field Service mobile: Enabled [image compression](https://learn.microsoft.com/en-us/dynamics365/release-plan/2023wave2/service/dynamics365-field-service/compress-image-uploads-mobile-devices) feature for iOS.
+- The new work order experiences are generally available.
+- Users can configure a booking status to indicate if further work is needed to complete a work order.
+- Removed a notification when marking work order service tasks complete in the side pane.
+- The confirmation message when enabling Mixed Reality security roles shows a description of what will be enabled.
+- Command bar options show correctly when the simplified commands option is disabled.
+- Removing the *Resource* field from the *Bookable Resource Booking* information form no longer causes a script error.
+- Field Service mobile: Enabled [image compression](/dynamics365/release-plan/2023wave2/service/dynamics365-field-service/compress-image-uploads-mobile-devices) feature for iOS.
 - Field Service mobile: When multiple images are uploaded to an inspection, they will be processed and uploaded sequentially to reduce device memory consumption and improve upload success rate.
-- Field Service mobile: Accessibility improvements for Inspections designer, Quick Notes, and Booking status control.
-- Field Service mobile: Fixed a bug with Inspections export to PDF command.
-- Field Service mobile: Fixed a bug with Inspections which prevented PDF export when inspection response contained Number-type questions.
+- Field Service mobile: Accessibility improvements for inspections designer, quick notes, and booking status control.
+- Field Service mobile: Fixed a bug with inspections export to PDF command.
+- Field Service mobile: Fixed a bug with inspections which prevented PDF export when inspection response contained number-type questions.
 
 
 **Note:** This release fixes an error in implementing the relationship type on the account entity in FS. This changes some of the option set values for Accounts’ relationship type field (the customertypecode field), and we encourage customers with FS installed to check their Account records’ relationship types, and verify that these match their expectations. Orgs at risk of an incorrect relationship type will receive additional direct communications about this change.
