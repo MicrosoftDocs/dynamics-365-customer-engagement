@@ -87,8 +87,8 @@ The following table lists the language availability of the other Customer Servic
 | AI suggestions for article keywords and description | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes |
 |AI generated summary for contacts in Microsoft Teams| Yes | No | No | No | No | No | No | No | No | No | No |
 
-Yes : Available  
-No : Not available
+Yes: Available  
+No: Not available
 
 <sup>**2**</sup> Copilot generates summaries in the agents' UI language.
 

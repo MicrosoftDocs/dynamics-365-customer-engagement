@@ -1,11 +1,10 @@
 ---
 title: "Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service."
-ms.date: 09/18/2023
+ms.date: 12/11/2023
 author: lalexms
 ms.author: laalexan
 ms.topic: overview
-
 ---
 
 # Overview of Service Scheduling
@@ -80,97 +79,6 @@ Let's see how Contoso accomplishes the task:
 
    ![schedule-board.](../media/schedule-board-csh.png)  
 
-## Set up the Service Scheduling experience
-
-The set up experience is different based on the following scenarios:
-
-- For new or existing organizations, where Core Service Scheduling solutions isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
-
-- For existing organizations, where Core Service Scheduling solutions is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
-
-### Prerequisites
-
-- Make sure that you have the required security role or equivalent permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
-
-- Ensure your organization has Universal Resource Scheduling 3.2.0.405 or a later version. If your organization has a version prior to 3.2.0.405, then Universal Resource Scheduling installation fails. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
-
-   > [!NOTE]
-   > - If your organization doesn't have Universal Resource Scheduling, the **Core Service Scheduling** solution installs the latest version of Universal Resource Scheduling.
-   > - If Field Service or Project Service is already installed on your organization with Universal Resource Scheduling 3.2.0.405 or later version, then Universal Resource Scheduling will also be upgraded to the latest version. Otherwise, the installation fails.
-   > - The latest version of Universal Resource Scheduling might not be compatible with the older versions of Field Service or Project Service.
-
-- Ensure your organization has Customer Service Hub application.
-
-### Install the Scheduling solutions
-
-1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
-
-2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
-
-   > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in the Microsoft 365 admin center.](../media/microsoft-365-admin-center-dynamics-csh.png)
-
-3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
-
-4. select the edit icon next to solutions. Manage your solutions page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Edit the solutions.](../media/dynamics-365-admin-instance-edit-csh.png)
-
-5. In the **Manage your solutions** page, select **Core Service Scheduling**. The status column shows **Not installed**.
-
-6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Install the solutions.](../media/core-service-scheduling-install-csh.png)
-
-7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
-
-After successful installation, you can access scheduling in the Customer Service Hub sitemap.
-
-## Access scheduling in the Customer Service Hub
-
-With the latest release of Dynamics 365 Customer Service, Scheduling is powered by Universal Resource Scheduling, and is available from the Customer Service Hub sitemap.
-
-- Select ![change area.](../media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
-
-  > [!div class=mx-imgBorder]
-  > ![access-service-scheduling.](../media/access-service-scheduling-csh.png)
-
-## Access scheduling in Customer Service workspace
-
-You can also access Scheduling in the Customer Service workspace app.
-
-- Select the + icon to expand the menu to view a list of forms, views, and activities, and then select either **Service Activities** or **Scheduling** to open the feature in a new tab.
-
-  > [!div class=mx-imgBorder]
-  > ![Access Scheduling from Customer Service workspace.](../media/csw-service-scheduling.png)
-
-   - **Service Activities**
-
-     > [!div class=mx-imgBorder]
-     > ![View service activities in Customer Service workspace.](../media/csw-service-activities.png)
-
-   - **Scheduling**
-
-     > [!div class=mx-imgBorder]
-     > ![View the schedule board in Customer Service workspace.](../media/csw-schedule-board.png)
-
-
-## Configure entity records in the new scheduling experience
-
-Configure all your entity records in the new experience manually from the user interface. 
-
-Make sure that you have the correct security role or equivalent permissions. Know more about security roles: [Manage security roles in service scheduling](manage-security-roles.md).
-
-> [!IMPORTANT]
-> The admin must follow the order as given in the [Scheduling scenario](#scheduling-scenario) while configuring entity records in the new scheduling experience.
-
-> [!NOTE]
-> All entity records can be configured from the user interface except Service Activity.
-
 ## Understand scheduling entities
 
 Scheduling entities are grouped under the following logical groups:
@@ -229,6 +137,9 @@ Scheduling entities are grouped under the following logical groups:
 
 ### See also    
     
+[Set up the Service Scheduling experience](scheduling-experience.md)  
+[Access scheduling in the Customer Service Hub and Customer Service workspace](access-scheduling.md)  
+[Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md)  
 [Service Scheduling FAQ](service-scheduling-faq.md) 
 
 
