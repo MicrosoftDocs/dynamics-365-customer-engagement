@@ -1,6 +1,6 @@
 ---
-title: Enable auditing for tables
-description: Enable auditing for tables in Dynamics 365 Customer Service. 
+title: Enable admin activity auditing
+description: Enable admin activity auditing in Dynamics 365 Customer Service. 
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -10,9 +10,9 @@ ms.date: 12/15/2023
 ms.custom: bap-template
 ---
 
-# Enable enhanced experience for email attachments
+# Enable admin activity auditing
 
-You can enable auditing for tables. Do the following steps:
+You can enable admin activity auditing. Do the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables** > **Properties**.
