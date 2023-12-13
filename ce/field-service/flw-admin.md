@@ -143,7 +143,7 @@ If you haven't created user groups for your frontline workers and frontline mana
 
 1. [Deploy the Field Service (Preview) Teams app](#deploy-the-field-service-for-teams-app).
 
-1. [Install and pin the app](##install-and-pin-the-app).
+1. [Install and pin the app](#install-and-pin-the-app).
 
 1. Open the Field Service app in Teams and select your environment.
 

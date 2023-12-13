@@ -73,7 +73,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. From the Teams Field Service **Home** page, select **My work orders**. Select your current work order for details.
 
-   In Viva, under **Current Work Order**, if you only need to update the [booking status]((work-order-status-booking-status.md)), select **Update Status** and then select the new status. Otherwise, select **Details**.
+   In Viva, under **Current Work Order**, if you only need to update the [booking status](work-order-status-booking-status.md), select **Update Status** and then select the new status. Otherwise, select **Details**.
 
    :::image type="content" source="media/fsp-flw-work-order-details.png" alt-text="Rendering of a mobile device, showing the details of a work order in the Field Service app for Teams.":::
 
