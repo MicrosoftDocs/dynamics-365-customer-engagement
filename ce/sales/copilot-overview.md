@@ -25,12 +25,6 @@ Copilot is also available as an add-in in Outlook and an integrated app in Teams
 
 Copilot is turned on by default for tenants in North America, in all Sales apps that have lead and opportunity entities. If your tenant is in a different region, an admin needs to [turn on Copilot manually](enable-setup-copilot.md).
 
-## Copilot views
-
-You can open Copilot in Dynamics 365 Sales in two views:
-
-- **Side pane view:** The side pane view provides contextual insights about your sales records. When you open a record, Copilot automatically shows you a summary of the record. You can ask Copilot to summarize other records, catch up on updates, prepare for meetings, and so on.
-- **Immersive, full page view:** The immersive view is a bigger and better chat window where you can ask Copilot questions without distractions.
 
 ## Copilot capabilities
 
