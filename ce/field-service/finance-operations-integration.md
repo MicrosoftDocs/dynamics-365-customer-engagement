@@ -123,6 +123,10 @@ Administrators who manage the **Dynamics 365 Field Service integration parameter
 
 To ensure that the integration can successfully create item journals, we strongly advise that all items you plan to use in Field Service use default order settings that automatically apply a site. Otherwise, all work order products where the product is a Field Service product type inventory require a warehouse value before the item journal can be created.
 
+### Configure Inventory and warehouse management within warehouses
+
+To ensure that the integration can successfully integration journals related to items which require location, we advise that all warehouses you plan to use with Field Service have **inventory and warehouse management** configured to define default locations. This will allow all work order products where the product's storage dimensions are configured to require location to successfully synchronize, even when created offline.
+
 ### Grant Dataverse consent for user impersonation
 
 You must grant explicit consent for Dynamics 365 finance and operations apps to impersonate Dataverse users.
@@ -315,6 +319,12 @@ For organizations using product variants, there are relevant views that show all
 > Different than normal tables, currently individual rows within these inventory tables (*mserp_inventorysiteonhandv2entity* and *mserp_inventwarehouseonhandv2entity*) don't receive a persistent GUID and don't support being opened within a form. The view control used in these views suppresses the ability for these records to be opened in a form.
 
 ## Unsupported processes and functionality
+
+This integration supports the use of [Microsoft-managed](/dynamics365/fin-ops-core/dev-itpro/deployment/cloud-deployment-overview#customer-lifecycle-subscriptions-and-environment-types) environments; use of customer-managed environments are unsupported with this integration.
+
+At this time, [Project Operations resource/non-stocked integration](/dynamics365/project-operations/environment/resource-dual-write-overview) does not allow the Field Service integration to work within the same legal entities with have been enabled for the resource/non-stocked integrated scenario; however, it can work within the same environments for other legal entities.
+
+Offline virtual tables are not currently supported, which is why it is critical to set up the defaulting logic for locations (as defined above) so that transactions will not be blocked.
 
 The following processes or features available within the finance and operation apps aren't supported or aren't reflected within Field Service out-of-the-box for this integration:
 
