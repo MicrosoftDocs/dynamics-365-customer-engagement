@@ -1,5 +1,5 @@
 ---
-title: Create a call recording repository in Azure
+title: Set up own storage for call recordings
 description: This article describes how to create a call recording repository in Azure storage for storing your Teams recordings.
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,7 +9,11 @@ ms.date: 06/29/2023
 ms.custom: bap-template
 ---
 
-# Create a call recording repository in Azure
+# Set up own storage for call recordings
+
+This article describes how to create a call recording repository in Azure storage for storing your Teams recordings. 
+
+## Create a call recording repository in Azure
 
 Create a call recording repository (blob container) in an Azure storage account to help you store call recordings in the repository for conversation intelligence to assess.  
 
@@ -32,3 +36,12 @@ Create a call recording repository (blob container) in an Azure storage account 
     > ![Note connection string](media/azure-connectionstring.png "Note the connection string")  
 
 Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
+
+## Configure the service principal to access the resources in Azure
+
+**Prerequisites:**
+
+- [An Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal) 
+- [A container in the Azure storage account](/azure/storage/blobs/blob-containers-portal) 
+
+Work with your Microsoft Entra administrator to [create a service principal](/entra/identity-platform/howto-create-service-principal-portal) for Dynamics 365 Sales conversation intelligence and add **SalesInsightsWebApp** as a member of the **Storage Blob Data Owner** and **Storage Account Contributor** roles.
