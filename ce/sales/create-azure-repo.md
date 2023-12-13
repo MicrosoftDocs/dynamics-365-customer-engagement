@@ -13,35 +13,13 @@ ms.custom: bap-template
 
 This article describes how to create a call recording repository in Azure storage for storing your Teams recordings. 
 
-## Create a call recording repository in Azure
-
-Create a call recording repository (blob container) in an Azure storage account to help you store call recordings in the repository for conversation intelligence to assess.  
-
-> [!NOTE] 
-> While creating the repository, ensure that the repository is created in the same region as your tenant to store the call recordings. For example, if your tenant is in NAM (North America), ensure that you create the repository in the NAM region only.
-
-1. Sign in to the Azure dashboard.
-  
-1. On the navigation pane, select **All resources**, and open the desired storage account.  
-    > [!div class="mx-imgBorder"]
-    > ![Azure All resources option](media/azure_allresources.png "Azure all resources option")  
-1. From **Blob service**, select **Blobs** then **+ Container**.  
-    > [!div class="mx-imgBorder"]
-    > ![Add container in Azure](media/azure-addcontainer.png "Add container in Azure")  
-1. Specify the container information, such as name and public access level.  
-1. Select **OK**.  
-   The container is created. To learn more, see [Create a container](/azure/storage/blobs/storage-quickstart-blobs-portal#create-a-container)  
-1. From **Settings**, go to **Access keys** and note the **Connection string** of the storage account. This connection string is used to connect conversation intelligence to your Azure storage account.  
-    > [!div class="mx-imgBorder"]
-    > ![Note connection string](media/azure-connectionstring.png "Note the connection string")  
-
-Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
-
-## Configure the service principal to access the resources in Azure
-
-**Prerequisites:**
+## Prerequisites
 
 - [An Azure storage account](/azure/storage/common/storage-account-create?tabs=azure-portal) 
 - [A container in the Azure storage account](/azure/storage/blobs/blob-containers-portal) 
 
-Work with your Microsoft Entra administrator to [create a service principal](/entra/identity-platform/howto-create-service-principal-portal) for Dynamics 365 Sales conversation intelligence and add **SalesInsightsWebApp** as a member of the **Storage Blob Data Owner** and **Storage Account Contributor** roles.
+##  Configure the service principal to access the resources in Azure
+
+Work with your Microsoft Entra administrator to [configure the service principal](/entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application) for **SalesInsightsWebApp** and add **Storage Blob Data Owner** and **Storage Account Contributor** roles as a member of the app. This step helps ensure that conversation intelligence can store and process call recordings in your Azure storage account.
+
+Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
