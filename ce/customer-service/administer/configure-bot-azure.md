@@ -1,11 +1,12 @@
 ---
-title: "Integrate an Azure bot | MicrosoftDocs"
-description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
-ms.date: 08/31/2023
+title: Integrate an Azure bot
+description: Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service.
+ms.date: 12/14/2023
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
-ms.topic: article
+ms.collection:
+ms.topic: how-to
+ms.custom: bap-template
 ---
 
 # Integrate an Azure bot
@@ -20,7 +21,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 
 - Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Ensure that you register the bot resource as a multitenant app.
 
-    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the Bot Application ID.
 - Set the messaging endpoint in your bot configuration. More information: [Configure bot settings](/azure/bot-service/bot-service-manage-settings?view=azure-bot-service-4.0&preserve-view=true&tabs=userassigned)
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
 
@@ -80,7 +81,7 @@ The bot user is first created as an application user and then assigned the **Omn
 1. In the **User Information** section, do the following:
     - **User type**: Select **Bot application user** from the dropdown list.
     - **Bot application ID**: Enter the Microsoft App ID from Microsoft Entra ID that you noted earlier from the **Prerequisites** section.
-    - **Bot handle**: Enter the bot handle that you noted earlier from the **Prerequisites** section.
+    - **Bot Application ID**: Enter the bot application ID that you noted earlier from the **Prerequisites** section.
 
 1. Select the save icon at the bottom of the page.
 
