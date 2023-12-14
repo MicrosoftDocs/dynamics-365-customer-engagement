@@ -78,6 +78,8 @@ Users should be configured as a bookable resource so that they can be assigned w
     - In the site map, select **Users** in **General settings**.
 
    ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+        
+      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - Go to the **Service Management** site map, and in **Unified Routing**, select **Users**.
 
