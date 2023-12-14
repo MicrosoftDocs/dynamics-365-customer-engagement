@@ -26,7 +26,7 @@ A high-level work order process is outlined below.
 
 ## Prerequisites
 
-- [Security roles](view-user-accounts-security-roles.md):
+- [Security roles](users-licenses-permissions.md):
   - Field Service – Administrator: All permissions to set up, configure, and edit NTE.
   - Other Field Service roles: Read and use permissions for NTE records.
 - [Enable cost calculation or price calculation](configure-default-settings.md#work-order--booking-settings), depending on the NTE type you plan to use.
@@ -84,11 +84,11 @@ NTE values on work orders are read-only and they'll show a warning when the actu
 
 ## Not-to-exceed on Field Service mobile
 
-Technicians who use the Field Service Mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
+Technicians who use the Field Service mobile app can see the not-to-exceed value on the work order. The system shows warning icons to users when they get close to the specified NTE value or if they surpass it.
 
 However, you can still save work orders when ignoring the warning.
 
-Using the [Field Service Mobile application in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
+Using the [Field Service mobile app in offline mode](mobile-power-app-system-offline.md) takes the NTE values from the most recent synchronization into account.
 
 ## Applied amount on work orders
 

@@ -11,8 +11,8 @@ ms.author: nenellim
 
 > [!IMPORTANT]
 >
-> - Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
-> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> - Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Customer Service admin center app. You'll need to migrate the existing workstreams and then manage them in the Customer Service admin center app. More information: [Migrate workstreams created in Omnichannel Administration](administer/migrate-workstreams.md)
 
 ## Introduction
 
@@ -20,7 +20,7 @@ A workstream is a collection of routing rules. Routing settings define how conve
 
 A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
 
-If you want to create workstreams to configure unified routing, see [Create workstreams in Omnichannel admin center](create-workstreams.md).
+If you want to create workstreams to configure unified routing, see [Create workstreams in Omnichannel admin center](administer/create-workstreams.md).
 
 Perform the following steps:
 
@@ -51,7 +51,7 @@ Perform the following steps:
         - Custom
         - Twitter
 
-      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the workstream in the text box. For information on how to determine capacity units, see [Capacity](users-user-profiles.md#capacity).
+      - **Capacity**: Specify the units of capacity that are required to process a single conversation for the workstream in the text box. For information on how to determine capacity units, see [Capacity](administer/users-user-profiles.md#capacity).
 
       - **Auto-close after inactivity**: Enter the unit of time after which a conversation is moved from **Waiting** to **Closed** state because of inactivity.
       
@@ -60,13 +60,13 @@ Perform the following steps:
    3. In the **Work distribution settings** section, perform the following steps:
 
       1. Select whether the **Work distribution mode** should be **Push** or **Pick** for agents to take up a conversation.      
-      1. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the dropdown. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](presence-custom-presence.md).
+      1. In **Allowed Presences**, select a base presence, such as **Available** and **Busy**, from the dropdown. You can select all options also. Agents will be allocated work items if the agent presence is set to one of the statuses specified here. If you have enabled [missed notifications](administer/manage-missed-notifications.md), do not select **Away** as an allowed presence. For information, see [Configure and manage custom presence](administer/presence-custom-presence.md).
       1. If you have selected **Push** in **Work distribution mode**, set the toggle to **Yes** for **Enable selecting from push-based work streams**. The agents can assign work items to themselves irrespective of constraints, such as capacity and presence.
       1. If you want an ongoing conversation to be assigned to the same agent when the conversation status changes from waiting to active, make sure the **Enable Agent Affinity** is set to yes. By default, the toggle is enabled for SMS and social channels.
       
     
     > [!NOTE]
-    > The **Enable Agent Affinity** option is available only when the work distribution mode is push. More information: [Agent affinity](create-workstreams.md#agent-affinity)
+    > The **Enable Agent Affinity** option is available only when the work distribution mode is push. More information: [Agent affinity](administer/create-workstreams.md#agent-affinity)
 
 4. View and create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues.
 
@@ -88,10 +88,10 @@ You can associate work streams with channel artifacts so that the conversations 
 
 ### See also
 
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
+[Manage users in Omnichannel for Customer Service](administer/users-user-profiles.md)  
 [Create workstream for entity record routing in Omnichannel Administration](set-up-entity-workstream.md)  
-[Work with queues](queues-omnichannel.md)  
-[Automatically identify customers using pre-chat responses](record-identification-rule.md)  
+[Work with queues](administer/queues-omnichannel.md)  
+[Automatically identify customers using pre-chat responses](administer/record-identification-rule.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

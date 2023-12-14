@@ -4,7 +4,7 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 09/08/2023
+ms.date: 12/05/2023
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
@@ -23,39 +23,31 @@ Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.micros
 
 This article summarizes early access, public preview, and general availability features that were released in the last three months.
 
-## August 2023 release
-
-We're excited to announce our newest updates! 
+## November 2023 release
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
-|Copilot     | Email summary       | Use copilot to summarize email conversations into concise and easily understandable summaries, which you can then copy as a note to a record.       |  [Documentation](view-copy-email-summary.md)       |Enabled by admins         |  Public preview       |
+|Sales execution     | Enhancements to assignment rules        |  Use assignment rules to automatically assign leads and opportunities to sales teams and to let sellers manage their availability.         |  [Documentation](wa-manage-seller-attributes.md)       | Enabled by admins         |  GA       |
 
-## July 2023 release
-
+## October 2023 release
 
 | Feature area  |Feature  |Description  |Resources  |Enabled by | Availability |
 |---------|---------|---------|---------|---------|---------|
-|Copilot     | Opportunity summary       | Use the AI-generated opportunity summaries to get a quick and comprehensive view of the opportunity and catch up on updates, without reading through the history of the opportunity.        |  [Documentation](use-sales-copilot.md#summarize-an-opportunity-or-a-lead)       |Enabled by admins         |  Public preview       |
-|Copilot     | Lead summary        | Get AI-generated lead summaries that are enriched with data from CRM, Bing news and LinkedIn. Catch up on updates without reading through the history of the lead.        | [Documentation](use-sales-copilot.md#lead-enrichment-with-sales-copilot)         | Enabled by admins         | Public preview         |
-|Copilot     | Meeting preparation notes        | Prepare better for customer meetings with AI-generated preparation notes and avoid the need to search through multiple sources for up-to-date information prior to each meeting.         | [Documentation](use-sales-copilot.md#prepare-for-upcoming-meetings)        |  Enabled by admins       |   Public preview      |
-|Copilot     | Contextual news        | Get the latest news about an account or company contextually within Dynamics 365 Sales.        |  [Documentation](use-sales-copilot.md#show-latest-news-for-an-account)       | Enabled by admin         | Public preview        |
-|Copilot     | Email compose and reply        | Use Copilot to generate email drafts based on your input, recent emails, and related information.              | [Documentation](compose-send-email-copilot.md)   | Enabled by admins         | Public preview         |
-|Copilot     | Email follow ups        | Let Copilot identify action items from your incoming emails and suggests those that need a follow-up but aren't replied to yet.              | [Documentation](use-sales-copilot.md#show-emails-that-are-not-replied)   | Enabled by admins         | Public preview         |
-|Sales engagement     |   Support for custom SMS channel      |   Bring in your own provider to use the SMS capability.       |    [Documentation](add-custom-sms-provider-intro.md)     |   Enabled for admins      | GA        |
-|Sales engagement     |     Support for SMS from the Activities pane    |  Start SMS conversation from the ribbon within the Activities page, similar to other communication channels such as email and call.         | [Documentation](manage-text-message-communications.md)         |  Enabled by default       |    Public preview     |
-|Sales execution     |  Modern and refreshed user experience       | Experience the new and refreshed UI that's more intuitive, effective, and visually appealing.         |  Not applicable        | Enabled by default        | Public preview        |
+|Copilot     | Opportunity summary       | Use the AI-generated opportunity summaries to get a quick and comprehensive view of the opportunity and catch up on updates, without reading through the history of the opportunity.        |  [Documentation](use-sales-copilot.md#summarize-an-opportunity-or-a-lead)       |Enabled by admins         |  GA       |
+|Copilot     | Lead summary        | Get AI-generated lead summaries that are enriched with data from CRM, Bing news and LinkedIn. Catch up on updates without reading through the history of the lead.        | [Documentation](use-sales-copilot.md#enrich-leads-with-related-information)         | Enabled by admins         | GA         |
+|Copilot     | Meeting preparation notes        | Prepare better for customer meetings with AI-generated preparation notes and avoid the need to search through multiple sources for up-to-date information prior to each meeting.         | [Documentation](use-sales-copilot.md#prepare-for-upcoming-meetings)        |  Enabled by admins       |   GA      |
+|Copilot     | Contextual news        | Get the latest news about an account or company contextually within Dynamics 365 Sales.        |  [Documentation](use-sales-copilot.md#show-the-latest-news-about-an-account)       | Enabled by admin         | GA        |
+|Copilot     | Email follow ups        | Let Copilot identify action items from your incoming emails and suggests those that need a follow-up but aren't replied to yet.              | [Documentation](use-sales-copilot.md#show-emails-you-havent-replied-to)   | Enabled by admins         | GA         |
+|Sales execution     |  Modern and refreshed user experience       | Experience the new and refreshed UI that's more intuitive, effective, and visually appealing.         |  Not applicable        | Enabled by default        | GA        |
+|Sales execution     |  Visualize key stakeholders with  smart organization charts       | Build organization charts with with simple drag-and-drop actions. Understand the decision-making process and identify the individuals who hold the most influence over purchasing decisions.          |  [Documentation](organization-charts.md)        | Enabled by default        | GA        |
+|Sales execution     |  Quote closure customization       | Customize the quote close experience as per your business needs and help sellers close quotes quickly and efficiently.          |  [Documentation](customize-quote-closure.md)        | Enabled by default        | GA        |
+|Sales engagement     |     Support for SMS from the Activities pane    |  Start SMS conversation from the ribbon within the Activities page, similar to other communication channels such as email and call.         | [Documentation](manage-text-message-communications.md)         |  Enabled by default       |    GA     |
+|Sales engagement     |  Faster sales accelerator form load       | To optimize the performance of loading forms from the work list, the Back, Save & Close, and Open in new window options on the form command bar are removed.       |  [Documentation](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list)        | Enabled by default        | GA        |
 
 
-## June 2023 release
+## September 2023 release
 
-
-| Feature area | Feature | Description | Resources | Enabled by | Availability |
-|--------------|---------|-------------|-----------|------------|--------------|
-| Sales engagement | Sequence preview | Get an overview of sequence activities and easily collaborate with team members. | [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | Enabled for all | Public preview |
-| Sales engagement | Segments | The runtime experience of segments is optimized by  introducing a condition limit. A maximum of 10 conditions are allowed in a segment at any given time. | [Documentation](create-and-activate-a-segment.md#create-and-activate-a-segment) | Enabled by default | GA |
-| Sales engagement | Assignment rules | To improve the runtime experience of assignment rules and to ensure faster execution,  condition limits are introduced for the **Select eligible entity** and **Seller with matching attributes** options. A limit of 10 and 5 maximum conditions are applicable for these options respectively. | [Documentation](create-and-activate-assignment-rule.md#conditions-in-assignment-rules) | Enabled by default | GA |
-
+No new features or enhancements were released in September 2023. 
 
 ## Get the latest version
 

@@ -46,7 +46,7 @@ Field Service needs latitude and longitude values for service account records to
 
 ## Assign Field Service licenses to users
 
-Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](view-user-accounts-security-roles.md).
+Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](users-licenses-permissions.md).
 
 Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who will then complete the work for the customer.
 
@@ -73,15 +73,15 @@ There are [several ways to schedule a work order](universal-resource-scheduling-
 
 Find your work order in the requirement pane. Drag it to a free time slot in the future for one of your frontline workers.
 
-## View the scheduled work order on the Field Service (Dynamics 365) mobile app
+## View the scheduled work order on the Field Service mobile app
 
-Frontline workers use the Field Service (Dynamics 365) mobile app on their phone or tablet.
+Frontline workers use the mobile experience on their phone or tablet.
 
 Download and install the mobile app and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 
-For more information, see [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+For more information, see [Install and set up the Field Service mobile app](mobile-power-app-get-started.md).
 
 ## Analyze your operations
 

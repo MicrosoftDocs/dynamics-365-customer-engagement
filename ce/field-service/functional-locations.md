@@ -1,7 +1,7 @@
 ---
 title: Create functional locations (contains video)
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 06/23/2023
+ms.date: 11/07/2023
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -21,7 +21,6 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 ## Prerequisites
 
-- Field Service v8.8.x or later
 - [Service accounts are created](accounts.md)
 
 ## Create a functional location
@@ -38,7 +37,7 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 1. Optional:
    - If this location is part of a hierarchy, enter its **Parent Functional Location**. You can skip this step and drag the location into its place in an existing hierarchy later.
-   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types-preview) of the same type. For example, warehouses or office buildings.
+   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types) of the same type. For example, warehouses or office buildings.
    - Enter a **Cost center** for bills related to a location.
    - Note an **Email address** for the right contact person of the location.
    - Set an **Open date** to indicate when a location first opened.
@@ -53,11 +52,7 @@ The new location appears in the list. You can drag it into an existing hierarchy
 
 Select a location in the list to view information about it.
 
-## Create and assign functional location types (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+## Create and assign functional location types
 
 Use functional location types to group locations. Functional location types allow you to quickly [apply property templates](properties.md) to a group of locations.
 
@@ -122,11 +117,11 @@ For example, a technician needs to go to two different buildings to perform main
 
 ## Functional locations in the mobile app
 
-Technicians can view the functional location of a work order in the Dynamics 365 Field Service Mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
+Technicians can view the functional location of a work order in the Dynamics 365 Field Service mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
 
-:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service Mobile app, showing asset hierarchies and functional locations.":::
+:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service mobile app, showing asset hierarchies and functional locations.":::
 
-The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
+The following video offers a guided walk-through of using functional locations in the Field Service mobile app.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
 

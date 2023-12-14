@@ -1,7 +1,7 @@
 ---
-title: FAQ for work order creation in Outlook using Copilot in Field Service (Preview)
-description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service (Preview) Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 08/01/2023
+title: FAQ about work order creation in Outlook using Copilot for Field Service
+description: This FAQ provides information about the AI technology used in the Outlook add-in for Dynamics 365 Field Service, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 11/28/2023
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: article
@@ -10,19 +10,19 @@ ms.author: nandab
 ms.reviewer: v-wendysmith@microsoft.com
 ---
 
-# FAQ for work order creation in Outlook using Copilot in Field Service (Preview)
+# FAQ about work order creation in Outlook using Copilot for Field Service
 
-This FAQ describes the AI impact of the Dynamics 365 Field Service (Preview) Outlook add-in using copilot to create work orders feature.
+This FAQ describes the AI impact of the Outlook add-in for Dynamics 365 Field Service using copilot to create work orders feature.
 
 ## What is work order creation in Outlook using Copilot?
 
 This AI-powered feature is designed to accelerate the creation of work orders based on the emails received by frontline managers from their customers. The manager can then review, revise, and save the new work order, helping them to quickly create and move to the next steps in assisting their customers.
 
-## What are the system’s capabilities?
+## What are the system's capabilities?
 
 The system parses the contents of an email thread and uses that information to populate fields in the work order form, including generating a summary for the work order description field.
 
-## What is the system’s intended use?
+## What is the system's intended use?
 
 The intention is to aid front-line workers in creating work orders at scale in less time and with less manual effort. This capability completes many fields and details required to create work orders based on the email content and service account details.
 
@@ -45,5 +45,5 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## See also
 
-- [Create a work order in Outlook using Copilot in Field Service (Preview)](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview)
+- [Create a work order in Outlook using Copilot in Field Service](flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service)
 - [FAQs for Dynamics 365 Field Service](responsible-ai-overview.md)
