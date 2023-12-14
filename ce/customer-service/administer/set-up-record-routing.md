@@ -40,7 +40,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
     1. Select **Manage** for **Record routing**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **Record routing** in **General settings**.
 
@@ -68,11 +68,13 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
    
    1. Select **New workstream**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
 
