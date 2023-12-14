@@ -25,13 +25,6 @@ Copilot is also available as an add-in in Outlook and an integrated app in Teams
 
 Copilot is turned on by default for tenants in North America, in all Sales apps that have lead and opportunity entities. If your tenant is in a different region, an admin needs to [turn on Copilot manually](enable-setup-copilot.md).
 
-## Copilot views
-
-You can open Copilot in Dynamics 365 Sales in two views:
-
-- **Side pane view:** The side pane view provides contextual insights about your sales records. When you open a record, Copilot automatically shows you a summary of the record. You can ask Copilot to summarize other records, catch up on updates, prepare for meetings, and so on.
-- **Immersive, full page view:** The immersive view is a bigger and better chat window where you can ask Copilot questions without distractions.
-
 ## Copilot capabilities
 
 Copilot offers the following capabilities:
@@ -53,7 +46,7 @@ Learn more:
 
 ### Recent changes
 
-To help you stay on top of your opportunities and leads, Copilot summarizes any changes that were made to your records since your last visit or in the last seven days, whichever is more recent. Copilot generates the list of recent changes from the records' audit history. An admin can change the columns that are included in the list. Your entire sales team should agree on the top 10 fields that are most relevant for your business.
+You can stay on top of your work by catching up on recent changes to your sales records and assignments. Copilot summarizes any changes that were made to your sales records since your last visit or in the last seven days, whichever is more recent. Copilot generates the list of recent changes from the records' audit history. An admin can change the columns that are included in the list. Your entire sales team should agree on the top 10 fields that are most relevant for your business. For recent assignments, Copilot lists the records that were assigned to you in the last 15 days.
 
 Learn more:
 
