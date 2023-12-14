@@ -1,7 +1,7 @@
 ---
 title: Field Service troubleshooting
 description: Learn how to troubleshoot issues in Dynamics 365 Field Service.
-ms.date: 12/12/2023
+ms.date: 12/14/2023
 ms.topic: troubleshooting
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,7 +12,93 @@ ms.subservice: m365-integrations
 
 # Field Service troubleshooting
 
-## As an administrator, I can't find users when setting up frontline workers in the Field Service web app
+## As a user, I can't change my theme in Outlook on the web after installing the Field Service for Outlook add-in
+
+### Resolution
+
+Certain versions of Outlook on the web don't support themes with add-ins. If you want to use themes, use Outlook on the desktop.
+
+## As a frontline manager or worker, my Viva Connections dashboard doesn't have the correct Field Service tiles
+
+### Symptom
+
+When I open Viva Connections, I don't see the Field Service tiles I expect to see.
+
+### Resolution
+
+If you signed in to Teams with one account and then switched to another one, your dashboard tiles might not display correctly. Sign out of both accounts and close the Teams desktop app or browser completely. Then open Teams and sign in with the other account.
+
+## As a frontline manager or worker, I can't find a work order using the work order ID
+
+### Symptoms
+
+When I search for a work order by ID using the **Find by ID** box, no results appear. I'm sure the ID I'm entering is correct.
+
+### Resolution
+
+If you applied one or more filters, they might be narrowing the results too much. Clear any filters and then try the search again.
+
+## As a frontline manager, I'm getting a "length exceeded maximum length" error when I try to create a work order
+
+### Symptoms
+
+When I try to create a work order, I get an error that says the **Work order summary** field exceeded the maximum length of 8,000 characters.
+
+### Resolution
+
+The **Work order summary** field has a limit on the number of characters you can enter. Make your summary shorter.
+
+## As a frontline manager, I'm getting a "currency isn't the same as the price list" error when I try to create a work order
+
+### Symptoms
+
+When I try to create a work order, I get an error that says the currency entered in the work order doesn't match the currency in the price list.
+
+### Resolution
+
+Change the currency in the work order to match the price list, or ask your admin to make sure the currency is set properly in [the price list settings](create-price-list.md) in Dynamics 365 Field Service.
+
+## As a frontline manager or worker, I'm getting a "user hasn't been assigned any roles" error when I try to access work orders
+
+### Prerequisites
+
+Administrator permissions in Dynamics 365 Field Service
+
+### Symptoms
+
+An error message displays indicating the user doesn't have the correct privileges.
+
+### Resolution
+
+[Assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles) to the user.
+
+## As a dispatcher, I'm getting a "doesn't have Create permissions" error when I try to create work orders
+
+### Prerequisites
+
+You must have administrator permissions in Dynamics 365 Field Service.
+
+### Symptom
+
+When I try to create work orders, I get the following error:
+
+`An error occurred: Caller user with ID {ID number} does not have Create permissions for the msdyn_timefrompromised attribute in the msdyn_workorder entity. Count secured attributes in entity 11. user has 0 secured attribute privileges.`
+
+### Resolution
+
+Edit the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the Field Service - Dispatcher role and allow Create permission to the `Time To Promised`(`msdyn_timetopromised`) and `Time From Promised`(`msdyn_timefrompromised`). If the error persists, check the security role:
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+1. Find the environment the dispatcher is trying to use in Outlook.
+
+1. Select **Settings** > **Users + permissions** > **Security roles**.
+
+1. Select the Field Service - Dispatcher role.
+
+1. Scroll to the **Work Order** table. Change the **Create** permission so that it isn't set to **None**.
+
+## As an administrator, I can't find a user when I'm setting up frontline workers in the Field Service web app
 
 ### Prerequisites
 
@@ -32,48 +118,6 @@ I'm trying to [assign security roles to my users](flw-admin.md#assign-security-r
 
 1. If the user still doesn't appear in the list, make sure the user is set up and active in the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-## As a dispatcher, I'm getting a "does not have Create permissions" error when I try to create work orders
-
-### Prerequisites
-
-You must have administrator permissions in Dynamics 365 Field Service.
-
-### Symptom
-
-When I try to create work orders, I get the following error:
-
-`An error occurred: Caller user with ID {ID number} does not have Create permissions for the msdyn_timefrompromised attribute in the msdyn_workorder entity. Count secured attributes in entity 11. user has 0 secured attribute privileges.`
-
-### Resolution
-
-An admin must update the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the dispatcher role and provide **Create** permission for - **Time Promised (from)** and **Time Promised (to)**.
-
-## As a user, I can't change my theme in Outlook on the web after installing the Field Service for Outlook add-in
-
-### Symptom
-
-Outlook on the web doesn't support themes with add-ins. If you want to use themes, use Outlook on the desktop.
-
-## As a frontline manager or worker, my Viva Connections dashboard doesn't have the correct Field Service tiles
-
-### Symptom
-
-When I open Viva Connections, I don't see the Field Service tiles I expect to see.
-
-### Resolution
-
-If you signed in to Teams with one account and then switched to another one, your dashboard tiles might not display correctly. Sign out of both accounts and close the Teams desktop app or browser completely. Then open Teams and sign in with the other account.
-
-## As a frontline manager or worker, I can't find a work order using the work order ID
-
-### Symptoms
-
-When I search for a work order by ID using the **Find by ID** box, it's not found. I'm sure the ID I'm entering is correct.
-
-### Resolution
-
-You might have applied one or more filters that are narrowing the results too much. Clear any filters and then try the search again.
-
 ## As an administrator, I can't identify the user ID in an error message
 
 ### Symptoms
@@ -92,38 +136,4 @@ In errors that are related to Dataverse, and thus to Dynamics 365, the user ID r
 
 1. Look at the end of the URL. For example, id=########-####-####-####-############.
 
-## Length of the work order summary exceeded the maximum length error
-
-### Symptoms
-
-An error message displays indicating the **Work order summary** field exceeded the maximum length of 8000 characters.
-
-### Resolution
-
-Rewrite the summary so that it is less than 8000 characters.
-
-## Currency isn't the same as the price list error
-
-### Symptoms
-
-An error message displays indicating the currency entered on the work order doesn't match the currency on the price list.
-
-### Resolution
-
-Change the currency on the work order to match the price list. Or contact your admin to check the [settings on the specific price list](create-price-list.md) on the Field Service Web.
-
-## User has not been assigned any roles error
-
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service
-
-### Symptoms
-
-An error message displays indicating the user has not been granted the correct privileges.
-
-### Resolution
-
-An admin must [assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles).
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]
