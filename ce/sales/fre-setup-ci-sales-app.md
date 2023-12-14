@@ -1,7 +1,7 @@
 ---
 title: Set up conversation intelligence in Sales Hub app
 description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
-ms.date: 07/03/2023
+ms.date: 12/14/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
