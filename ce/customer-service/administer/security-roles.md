@@ -62,31 +62,31 @@ The App Profile User has the following privileges.
 
 |Action|Privileges|
 |-------|-----|
-|Read application module|prvReadAppModule|
-|Read channel provider| prvReadmsdyn_channelprovider|
-|Read application configuration|prvReadmsdyn_appconfiguration |
-|Read application extension| prvReadmsdyn_applicationextension |
-|Read application tab template|prvReadmsdyn_applicationtabtemplate|
-|Read notification field| prvReadmsdyn_notificationfield |
-|Read notification template| prvReadmsdyn_notificationtemplate |
-|Read session template|prvReadmsdyn_sessiontemplate|
-|Read template parameter|prvReadmsdyn_templateparameter|
-|Read user|prvReadUser |
-|Read role|prvReadRole |
-|| prvReadWorkflow |
-|| prvReadmsdyn_productivityactioninputparameter |
-|| prvReadmsdyn_productivityactionoutputparameter |
-|| prvReadmsdyn_inputparameters |
-|| prvReadmsdyn_productivitymacroconnector |
-|| prvReadmsdyn_productivityparameterdefinition |
-|| prvReadmsdyn_designeroptions |
-|| prvReadmsdyn_productivitymacroactiontemplate |
-|| prvReadmsdyn_productivitymacrosolutionconfiguration |
-|| prvCreatemsdyn_macrosession |
-|| prvReadmsdyn_macrosession |
-|| prvWritemsdyn_macrosession |
-|| prvAppendTomsdyn_macrosession |
-|| prvAppendmsdyn_macrosession |
+| Read application module|prvReadAppModule|
+| Read channel provider| prvReadmsdyn_channelprovider|
+| Read application configuration|prvReadmsdyn_appconfiguration |
+| Read application extension| prvReadmsdyn_applicationextension |
+| Read application tab template|prvReadmsdyn_applicationtabtemplate|
+| Read notification field| prvReadmsdyn_notificationfield |
+| Read notification template| prvReadmsdyn_notificationtemplate |
+| Read session template|prvReadmsdyn_sessiontemplate|
+| Read template parameter|prvReadmsdyn_templateparameter|
+| Read user|prvReadUser |
+| Read role|prvReadRole |
+| Read workflow | prvReadWorkflow |
+| Read productivity input parameter | prvReadmsdyn_productivityactioninputparameter |
+| Read productivity action output parameter| prvReadmsdyn_productivityactionoutputparameter |
+| Read input parameters| prvReadmsdyn_inputparameters |
+| Read productivity macro connector | prvReadmsdyn_productivitymacroconnector |
+| Read productivity parameter definition | prvReadmsdyn_productivityparameterdefinition |
+| Read designer options | prvReadmsdyn_designeroptions |
+| Read productivity macro action template | prvReadmsdyn_productivitymacroactiontemplate |
+| Read productivity macro solution configuration | prvReadmsdyn_productivitymacrosolutionconfiguration |
+| Create macro session | prvCreatemsdyn_macrosession |
+| Read macro session | prvReadmsdyn_macrosession |
+| Write macro session | prvWritemsdyn_macrosession |
+| Append to macro session | prvAppendTomsdyn_macrosession |
+| Append macro session | prvAppendmsdyn_macrosession |
 
 ### See also
 
