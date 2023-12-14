@@ -1,19 +1,20 @@
 ---
-title: "Overview of the security roles for app profile manager | MicrosoftDocs"
-description: "Overview of the security roles for app profile manager."
+title: Security roles for agent experience profiles
+description: Overview of the security roles for agent experience profiles.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/09/2022
-ms.topic: article
-ms.collection: get-started
+ms.date: 12/14/2023
+ms.topic: conceptual
+ms.collection:
+ms.custom: bap-template
 ---
 
-# Roles and privileges associated with app profile manager
+# Roles and privileges associated with experience profiles
 
-The following roles are available with the app profile manager:
+The following roles are available:
 
 - App Profile Manager Administrator
-- App profile user
+- App Profile User
 
 If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the App Profile Manager Administrator role or manually add the privileges pertaining to the App Profile Manager Administrator role to the custom role.
 
@@ -54,7 +55,6 @@ The App Profile Manager Administrator has the following privileges.
 |Write attribute|prvWriteAttribute|
 |Write relationship|prvWriteRelationship|
 |Write/Read application module|prvWriteAppModule<br>prvReadAppModule  |
-|| |
 
 ### Role: App Profile User
 
@@ -73,7 +73,20 @@ The App Profile User has the following privileges.
 |Read template parameter|prvReadmsdyn_templateparameter|
 |Read user|prvReadUser |
 |Read role|prvReadRole |
-|| |
+|| prvReadWorkflow |
+|| prvReadmsdyn_productivityactioninputparameter |
+|| prvReadmsdyn_productivityactionoutputparameter |
+|| prvReadmsdyn_inputparameters |
+|| prvReadmsdyn_productivitymacroconnector |
+|| prvReadmsdyn_productivityparameterdefinition |
+|| prvReadmsdyn_designeroptions |
+|| prvReadmsdyn_productivitymacroactiontemplate |
+|| prvReadmsdyn_productivitymacrosolutionconfiguration |
+|| prvCreatemsdyn_macrosession |
+|| prvReadmsdyn_macrosession |
+|| prvWritemsdyn_macrosession |
+|| prvAppendTomsdyn_macrosession |
+|| prvAppendmsdyn_macrosession |
 
 ### See also
 
