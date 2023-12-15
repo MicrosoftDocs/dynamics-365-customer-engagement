@@ -32,10 +32,10 @@ Your admin might have installed the add-in for your organization. If you see the
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service add-in card":::
 
-1. Select **Get it now** and confirm your information.
+1. Select **Add**, **Get it now**, or **Update** and confirm your information.
 
 > [!NOTE]
-> Changing themes (colors, fonts, or effects) in Outlook Web is not supported in Outlook add-ins.
+> Changing themes (colors, fonts, or effects) in some versions of Outlook Web aren't supported in Outlook add-ins.
 
 ## Get started with the add-in
 
@@ -108,7 +108,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 ## Create a work order manually in Outlook
 
-1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in), and then select the **Work orders** tab/
+1. While you're viewing an email, [open the Field Service add-in](#open-the-field-service-add-in), and then select the **Work orders** tab.
 
 1. Select the **Create work order (+)** button.
 

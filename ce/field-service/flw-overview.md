@@ -111,7 +111,8 @@ Microsoft 365 integrations for Field Service are available in environments that 
 ## Next steps
 
 - [Set up Microsoft 365 integrations for Field Service (admins)](flw-admin.md)
-- [Field Service Outlook Add-in with Copilot for the frontline manager](flw-outlook.md)
+- [Field Service Outlook add-in with Copilot for the frontline manager](flw-outlook.md)
 - [Field Service Teams overview for the frontline manager](flw-teams-manager.md)
+- [Field Service Teams overview for the frontline worker](flw-teams-worker.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

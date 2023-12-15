@@ -77,7 +77,7 @@ The Field Service app helps you schedule work orders. Scheduling suggestions are
 
 1. Open the work order you need to schedule or reschedule.
 
-1. To schedule, select **Schedule** under **Suggested actions**. To reschedule, select **View schedule** under **Suggested actions**.
+1. To schedule, select **Schedule** under **Suggested actions**. To reschedule, select **View schedule** under **Suggested actions** and then **Reschedule**.
 
    The system searches for available technicians based on the work order requirements and then displays suggestions. To view more suggestions, select **Show more** at the bottom of the list.
 

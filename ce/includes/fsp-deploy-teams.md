@@ -1,4 +1,4 @@
-1. In the Teams App Store or [Microsoft AppSource](https://appsource.microsoft.com/), search for and select **Field Service (Preview)**.
+1. In the Teams App Store or [Microsoft AppSource](https://appsource.microsoft.com/), search for and select **Field Service**.
 
 1. Select **Add**, **Get it now**, or **Update**. Confirm your information.
 

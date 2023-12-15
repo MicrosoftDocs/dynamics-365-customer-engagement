@@ -46,7 +46,7 @@ To set up Field Service for Outlook capability for your organization, enable it 
 
    :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service Outlook add-in card":::
 
-1. Select **Get it now** and confirm your information. Or, if updates are available, select **Update**.
+1. Select **Add**, **Get it now**, or **Update**. Confirm your information.
 
 1. On the **Add users** page, under **Assign users**, select **Entire organization**.
 
@@ -58,7 +58,7 @@ Users might need to relaunch Microsoft 365 to view the add-in icon on the app ri
 
 ### Give consent to use Copilot in Field Service for Outlook
 
-As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform environment is inside or outside of the United States.
+As an admin, you can enable or disable the use of copilot capabilities in Field Service for Outlook. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform environment is inside or outside of the United States.
 
 #### For customers with Power Platform environments outside the US
 
@@ -114,7 +114,7 @@ To integrate Field Service for Viva Connections (Preview) and Teams, you need to
 
 - [Create user groups](#create-user-groups), if they aren't already set up.
 - [Set up the Field Service for Teams app](#set-up-the-field-service-for-teams-app).
-- [Set up the Field Service for Viva Connections (Preview) SharePoint app](#set-up-the-field-service-for-viva-connections-sharepoint-app).
+- [Set up the Field Service for Viva Connections SharePoint app](#set-up-the-field-service-for-viva-connections-sharepoint-app).
 - [Add Field Service cards to the Viva Connections dashboard](#add-field-service-cards-to-the-viva-connections-dashboard).
 - [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles).
 
@@ -135,13 +135,9 @@ To integrate Field Service for Viva Connections (Preview) and Teams, you need to
 
 If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create a Microsoft Entra group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
-
-1. [Pin both the apps and arrange them](/microsoftteams/teams-app-setup-policies#pin-apps).
-
 ### Set up the Field Service for Teams app
 
-1. [Deploy the Field Service (Preview) Teams app](#deploy-the-field-service-for-teams-app).
+1. [Deploy the Field Service Teams app](#deploy-the-field-service-for-teams-app).
 
 1. [Install and pin the app](#install-and-pin-the-app).
 
@@ -158,7 +154,7 @@ Viva Connections is included in your Microsoft Teams license. Field Service for 
 
    :::image type="content" source="media/fsp-viva-connections-appsource.png" alt-text="Dynamics 365 Field Service for Viva Connections tile showing Get it now.":::
 
-1. Select **Get it now** or **Update** and confirm your information.
+1. Select **Add**, **Get it now** or **Update** and confirm your information.
 
 1. On the **SharePoint apps** page, **SharePoint Store** tab, select **Add to Apps site**.
 

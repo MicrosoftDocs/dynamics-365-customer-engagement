@@ -58,20 +58,6 @@ When I try to create a work order, I get an error that says the currency entered
 
 Change the currency in the work order to match the price list, or ask your admin to make sure the currency is set properly in [the price list settings](create-price-list.md) in Dynamics 365 Field Service.
 
-## As a frontline manager or worker, I'm getting a "user hasn't been assigned any roles" error when I try to access work orders
-
-### Prerequisites
-
-Administrator permissions in Dynamics 365 Field Service
-
-### Symptoms
-
-An error message displays indicating the user doesn't have the correct privileges.
-
-### Resolution
-
-[Assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles) to the user.
-
 ## As a dispatcher, I'm getting a "doesn't have Create permissions" error when I try to create work orders
 
 ### Prerequisites
@@ -98,6 +84,20 @@ Edit the [Column level security](flw-admin.md#set-up-column-level-security-optio
 
 1. Scroll to the **Work Order** table. Change the **Create** permission so that it isn't set to **None**.
 
+## As a frontline manager or administrator, I'm getting a "user hasn't been assigned any roles" error when I try to access work orders
+
+### Prerequisites
+
+Administrator permissions in Dynamics 365 Field Service
+
+### Symptoms
+
+An error message displays indicating the user doesn't have the correct privileges.
+
+### Resolution
+
+[Assign the correct security role and field security profile](flw-admin.md#assign-security-roles-and-field-security-profiles) to the user.
+
 ## As an administrator, I can't find a user when I'm setting up frontline workers in the Field Service web app
 
 ### Prerequisites
@@ -120,20 +120,28 @@ I'm trying to [assign security roles to my users](flw-admin.md#assign-security-r
 
 ## As an administrator, I can't identify the user ID in an error message
 
+### Prerequisites
+
+You have administrator permissions in Dynamics 365 Field Service.
+
 ### Symptoms
 
-A user ID is listed in an error message and I can't identify the user.
+A user ID is listed in an error message from Dataverse and I can't identify the user.
 
 ### Resolution
 
 [!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
 
-In errors that are related to Dataverse, and thus to Dynamics 365, the user ID refers to the Field Service user ID, not the Microsoft Entra ID. The Dataverse user ID is specific to the environment.
+Dataverse errors relating to a user show the Field Service user ID, not the Microsoft Entra ID. The Dataverse user ID is specific to the environment. To identify the user:
 
-1. Go to your Field Service environment.
+1. In the Field Service app, select your Field Service environment.
 
 1. On the bottom left, select **Settings** > **Users**.
 
-1. Look at the end of the URL. For example, id=########-####-####-####-############.
+1. Select any user so that the `systemuser&id` appears at the end of the URL.
+
+   :::image type="content" source="media/fs-user-id.png" alt-text="Screenshot of Field Service Settings Users page with the systemuser&id highlighted.":::
+
+1. Replace the ID number with the ID in the error message and press **Enter**. The user's account tied to this ID appears.
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
