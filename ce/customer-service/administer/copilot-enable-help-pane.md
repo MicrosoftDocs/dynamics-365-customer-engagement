@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 10/20/2023
+ms.date: 12/08/2023
 ms.custom: bap-template 
 ---
 
@@ -17,6 +17,18 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
 > [!NOTE]
 > Respond to questions and compose an email features are generally available in the North America region only. These features are in preview in the rest of the supported regions.
 
+## Prerequisites
+
+- See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
+- You must have the [Knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#setup-overview) configured in your environment for write an email and ask a question features. 
+- Your knowledge article parameters are as follows:
+   - Updated with the latest version
+   - The state is set to Published
+   - The locale is set to English
+- If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
+
+## Enable Copilot assist features
+
 Perform the following steps to enable the Copilot features in Customer Service admin center:
 
 1. Use one of the following navigation options:
@@ -24,11 +36,8 @@ Perform the following steps to enable the Copilot features in Customer Service a
       - **Operations** > **Insights** > **Copilot help pane**
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. You can select the Copilot features you'd like to enable for agents on this page.
 
-  :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
+     :::image type="content" source="../media/copilot-admin-email-mini.png" alt-text="Screenshot of ask a question in Copilot pane." lightbox="../media/copilot-admin-email.png":::
 
-## Prerequisites
-
-See [Prerequisites](configure-copilot-features.md#prerequisites) for the list of prerequisites to enable and use the features in the Copilot pane.
 
 ## Enable ask a question
 

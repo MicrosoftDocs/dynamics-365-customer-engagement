@@ -55,6 +55,7 @@ For the profile that you created, you can add users and configure option such as
   - Agent scripts
   - Microsoft Teams
   - Knowledge search
+  - Copilot help pane
 
   Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
 - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple tasks.
@@ -63,6 +64,11 @@ For the profile that you created, you can add users and configure option such as
   - Select a channel provider or create channel providers in the **Third party voice channel providers** section.
   
 :::image type="content" source="../media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
+
+### Enable Copilot features for agent experience profiles
+
+For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in agent experience profiles. By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features. For more information, See: [Make Copilot available to agents](configure-copilot-features.md#make-copilot-available-to-agents)
+
 
 ### See also
 
