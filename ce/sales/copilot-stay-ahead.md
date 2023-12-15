@@ -54,4 +54,4 @@ To be included in the list, emails must meet the following criteria:
 ### See also
 
 - [Copilot overview](copilot-overview.md)
-- [How Copilot responds when in context and out of context](copilot-responses-based-on-context.md)
+- [Enable and set up Copilot](enable-setup-copilot.md)

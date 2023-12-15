@@ -83,5 +83,6 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 ### See also
 
-- [Copilot overview](copilot-overview.md)  
-- [How Copilot responds when in context and out of context](copilot-responses-based-on-context.md)
+- [Copilot overview](copilot-overview.md)
+- [Enable and set up Copilot](enable-setup-copilot.md)
+

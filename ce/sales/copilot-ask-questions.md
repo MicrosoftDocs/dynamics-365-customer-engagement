@@ -63,4 +63,4 @@ Keep in mind that these fields are configured at the organization level. Make su
 ### See also
 
 - [Copilot overview](copilot-overview.md)
-- [How Copilot responds when in context and out of context](copilot-responses-based-on-context.md)
+- [Enable and set up Copilot](enable-setup-copilot.md)

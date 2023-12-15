@@ -716,8 +716,6 @@
             href: copilot-stay-ahead.md
           - name: Ask questions
             href: copilot-ask-questions.md
-      - name: How context affects Copilot's responses
-        href: copilot-responses-based-on-context.md
       - name: Compose and send email messages using Copilot
         href: compose-send-email-copilot.md
       - name: View and copy email summary
