@@ -18,7 +18,7 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot is turned by default in all Sales apps for tenants in North America. If your tenant is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article.
+Copilot is turned on by default in all Sales apps for tenants in North America. If your tenant is in a different region, or you want to configure the Copilot features, follow the instructions in this article.
 
 ## License and role requirements
 
@@ -50,6 +50,9 @@ In the Sales Hub app, you can select the Copilot features that you want your sal
 1. If you haven't provided consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot).
 
     In some regions, you might see the consent terms in the **Set up Copilot in Dynamics 365 Sales** page. By selecting **Publish**, you provide consent for Copilot to process your data outside of your region. For these regions, separate consent in the Power Platform admin center isn't required.
+
+1. Under **Enable Copilot for**, select the apps in which you want to turn on or off Copilot features. The **Default** option is selected by default. The **Default** option turns on Copilot for all sales apps in the North America region and turns off Copilot for other regions and apps. You can turn on or off Copilot for each app individually.
+
 
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
 
