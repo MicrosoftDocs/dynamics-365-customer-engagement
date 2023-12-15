@@ -74,7 +74,7 @@ Streamlined lists in the new mobile UX views remove unnecessary icons and suppor
 
 ## [Unified Interface UX](#tab/vCurrent)
 
-On the **Notes** tab, you can add text, image, audio, and video notes and link them to the booking. You can also attach files and capture signatures. These notes help you record and build a work history.
+On the **Notes** tab, you can add text, image, audio, and video notes and link them to the booking. You can also attach files and capture signatures. These notes help you record and build a work history. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
 
 The **Timeline** tab shows you other historical data related to the booking.
 
@@ -88,7 +88,7 @@ If you can't save a note, you might not have the right permissions to the table 
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body. Images added to notes [use image optimization](/power-apps/mobile/optimize-images-upload) to save storage space.
+On the **Timeline** tab, select **+ Add note** to add text and images to your note. Notes taken here are visible on this booking's timeline. You can attach a single image by selecting the file attachment icon or select the image icon to choose multiple files and add them to the message body.
 
 :::image type="content" source="./media/mobile-newux-notes.png" alt-text="Renderings of four mobile devices showing the process of adding a note with a photo in the Field Service mobile app.":::
 
