@@ -1,29 +1,30 @@
 ---
-title: "Overview of the security roles for app profile manager | MicrosoftDocs"
-description: "Overview of the security roles for app profile manager."
+title: Security roles for agent experience profiles
+description: Overview of the security roles for agent experience profiles.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/09/2022
-ms.topic: article
-ms.collection: get-started
+ms.date: 12/14/2023
+ms.topic: conceptual
+ms.collection:
+ms.custom: bap-template
 ---
 
-# Roles and privileges associated with app profile manager
+# Roles and privileges associated with experience profiles
 
-The following roles are available with the app profile manager:
+The following roles are available:
 
 - App Profile Manager Administrator
-- App profile user
+- App Profile User
 
-If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the App Profile Manager Administrator role or manually add the privileges pertaining to the App Profile Manager Administrator role to the custom role.
+If your organization uses custom roles, and you want a user with the custom role to manage app profiles, then you can either assign the App Profile Manager Administrator role or manually add the privileges that pertain to the App Profile Manager Administrator role to the custom role.
 
 ## Roles for Customer Service workspace
 
-By default, the privileges pertaining to the App Profile User role have been added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who will create app profiles, templates, productivity tools, and channel provider configurations.
+By default, the privileges that pertain to the App Profile User role are added to the Customer Service Representative and CSR Manager roles out of the box. You need to manually provide the App Profile Manager Administrator role to the user who creates app profiles, templates, productivity tools, and channel provider configurations.
 
 ## Roles for Omnichannel for Customer Service
 
-Out of the box, for the Omnichannel administrator role, the privileges pertaining to the App Profile Manager Administrator role have been added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges pertaining to the App Profile User role have been added.
+Out of the box, for the Omnichannel administrator role, the privileges that pertain to the App Profile Manager Administrator role are added. Out of the box, for the Omnichannel agent and Omnichannel supervisor roles, the privileges that pertain to the App Profile User role are added.
 
 ## Roles and their privileges
 
@@ -54,7 +55,6 @@ The App Profile Manager Administrator has the following privileges.
 |Write attribute|prvWriteAttribute|
 |Write relationship|prvWriteRelationship|
 |Write/Read application module|prvWriteAppModule<br>prvReadAppModule  |
-|| |
 
 ### Role: App Profile User
 
@@ -62,18 +62,31 @@ The App Profile User has the following privileges.
 
 |Action|Privileges|
 |-------|-----|
-|Read application module|prvReadAppModule|
-|Read channel provider| prvReadmsdyn_channelprovider|
-|Read application configuration|prvReadmsdyn_appconfiguration |
-|Read application extension| prvReadmsdyn_applicationextension |
-|Read application tab template|prvReadmsdyn_applicationtabtemplate|
-|Read notification field| prvReadmsdyn_notificationfield |
-|Read notification template| prvReadmsdyn_notificationtemplate |
-|Read session template|prvReadmsdyn_sessiontemplate|
-|Read template parameter|prvReadmsdyn_templateparameter|
-|Read user|prvReadUser |
-|Read role|prvReadRole |
-|| |
+| Read application module|prvReadAppModule|
+| Read channel provider| prvReadmsdyn_channelprovider|
+| Read application configuration|prvReadmsdyn_appconfiguration |
+| Read application extension| prvReadmsdyn_applicationextension |
+| Read application tab template|prvReadmsdyn_applicationtabtemplate|
+| Read notification field| prvReadmsdyn_notificationfield |
+| Read notification template| prvReadmsdyn_notificationtemplate |
+| Read session template|prvReadmsdyn_sessiontemplate|
+| Read template parameter|prvReadmsdyn_templateparameter|
+| Read user|prvReadUser |
+| Read role|prvReadRole |
+| Read workflow | prvReadWorkflow |
+| Read productivity input parameter | prvReadmsdyn_productivityactioninputparameter |
+| Read productivity action output parameter| prvReadmsdyn_productivityactionoutputparameter |
+| Read input parameters| prvReadmsdyn_inputparameters |
+| Read productivity macro connector | prvReadmsdyn_productivitymacroconnector |
+| Read productivity parameter definition | prvReadmsdyn_productivityparameterdefinition |
+| Read designer options | prvReadmsdyn_designeroptions |
+| Read productivity macro action template | prvReadmsdyn_productivitymacroactiontemplate |
+| Read productivity macro solution configuration | prvReadmsdyn_productivitymacrosolutionconfiguration |
+| Create macro session | prvCreatemsdyn_macrosession |
+| Read macro session | prvReadmsdyn_macrosession |
+| Write macro session | prvWritemsdyn_macrosession |
+| Append to macro session | prvAppendTomsdyn_macrosession |
+| Append macro session | prvAppendmsdyn_macrosession |
 
 ### See also
 

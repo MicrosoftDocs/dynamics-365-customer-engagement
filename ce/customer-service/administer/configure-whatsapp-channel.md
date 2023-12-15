@@ -1,10 +1,12 @@
 ---
-title: "Configure a WhatsApp channel through Twilio | MicrosoftDocs"
-description: "Use this topic to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service."
-ms.date: 10/09/2023
-ms.topic: article
+title: Configure a WhatsApp channel through Twilio
+description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
+ms.date: 12/14/2023
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Configure a WhatsApp channel through Twilio
@@ -104,9 +106,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, [add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 
-1. In **Advanced settings**, configure the following options based on your business needs:
+1. Based on your business needs, in **Advanced settings**, configure the following options:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](manage-context-variables.md#add-context-variables))
