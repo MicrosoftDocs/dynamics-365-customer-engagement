@@ -105,11 +105,11 @@ Bots can be developed to receive customer queries first, gain information about 
 
 ### Set escalation rules
 
-Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the bot escalates a customer query, it's routed to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another agent in the queue picks the conversation as per the capacity.
+Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the bot escalates a customer query, it routes to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another agent in the queue picks the conversation as per the capacity.
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems, and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the bot, which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+You understand that your data may be transmitted and shared with external systems, and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the bot, which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
 
