@@ -24,7 +24,7 @@ By default, the privileges that pertain to the App Profile User role are added t
 
 ## Roles for Omnichannel for Customer Service
 
-Out of the box, for the Omnichannel administrator role, the privileges pertaining to the App Profile Manager Administrator role have been added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges pertaining to the App Profile User role have been added.
+Out of the box, for the Omnichannel administrator role, the privileges that pertain to the App Profile Manager Administrator role are added, and for the Omnichannel agent and Omnichannel supervisor roles, the privileges that pertain to the App Profile User role are added.
 
 ## Roles and their privileges
 
