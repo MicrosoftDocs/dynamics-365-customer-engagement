@@ -47,135 +47,38 @@ The following table shows the activities that an admin can audit.
 | Organization | Configure search control for knowledge searches. |
 | TThe entity with knowledge management enabled | Enable record types for knowledge management. |
 | Organization | Configure record types for agents and authors. |
-
-
-Categorie 
-
-Categorize knowledge articles 
-
-Organization,  msdyn_knowledgesearchfilter 
-
-Setup standard/custom filters 
-
-Organization 
-
-Share knowledge articles as URLs 
-
-Organization, msdyn_UpdatePaneTabConfigForTeam 
-
-Manage agent chat experience 
-
-msdyn_csadminconfig 
-
-Manage swarming settings 
-
-msdyn_datainsightsandanalyticsfeature 
-
-Helps managers understand teams' metrics 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting 
-
-Get insights on customer service performance 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsreport_ksinsight 
-
-Helps authors understand content 
-
-msdyn_omnichannelconfiguration 
-
-Manage supervisor settings for conversations 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_agentresourceforecasting 
-
-Get forecasts of case volume 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_occhannelconfiguration, msdyn_agentresourceforecasting 
-
-Forecast agents needed for conversations 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace 
-
-Add new metrics for historical business needs 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace 
-
-Add new metrics for real-time business needs 
-
-msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting, msdyn_dataanalyticsreport_oc_rt 
-
-Get real-time anaytics for agent productivity 
-
-msdyn_agentcopilotsetting 
-
-Use AI to find answers for customers 
-
-msdyn_copilotsummarizationsetting 
-
-Review cases with AI-generated summaries 
-
-msdyn_casetopicsetting 
-
-Manage AI topics from cases 
-
-msdyn_conversationtopicsetting 
-
-Manage AI topics from conversations 
-
-msdyn_datainsightsandanalyticsfeature 
-
-Manage AI summaries from conversations 
-
-msdyn_suggestionssetting 
-
-Help agents solve cases through AI suggestions 
-
-msdyn_kbkeywordsdescsuggestionsetting, msdyn_datainsightsandanalyticsfeature 
-
-Help authors add metadata through AI suggestions 
-
-msdyn_omnichannelconfiguration 
-
-Set up real-time translation for agents 
-
-msdyn_sentimentanalysise 
-
-Track real-time customer sentiment with AI 
-
-msdyn_ocskillidentmlmodel 
-
-Manage  models that identify skills 
-
-msdyn_omnichannelconfiguration 
-
-Manage skill-based routing settings 
-
-msdyn_iermlmodel 
-
-Create models that use AI to measure effort 
-
-msdyn_sentimentanalysis 
-
-Set up machine learning to predict sentiment 
-
-msdyn_panetoolconfiguration 
-
-help agents resolve issues quickly  
-
-msdyn_omnichannelconfiguration 
-
-Enable transcript 
-
-msdyn_ocvoicechannelsetting,msdyn_liveworkstream, msdyn_ocprovisioningstate 
-
-Create configurations for agents to make/receive calls 
-
-msdyn_omnichannelconfiguration 
-
- Try sending and receiving formatted messages 
-
-msdyn_cannedmessage, msdyn_octag 
-
-Enable agents to create quick replies 
+| Category | Categorize knowledge articles. |
+| Organization,  msdyn_knowledgesearchfilter | Set up standard and custom filters. |
+| Organization | Share knowledge articles as URLs. |
+| Organization, msdyn_UpdatePaneTabConfigForTeam | Manage agent chat experience. |
+| msdyn_csadminconfig |Manage swarming settings. |
+| msdyn_datainsightsandanalyticsfeature | Help managers understand teams' metrics. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting | Get insights on customer service performance. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsreport_ksinsight | Help authors understand content. |
+| msdyn_omnichannelconfiguration | Manage supervisor settings for conversations. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_agentresourceforecasting | Get forecasts of case volume. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_occhannelconfiguration, msdyn_agentresourceforecasting | Forecast agents needed for conversations. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace | Add new metrics for historical business needs. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace | Add new metrics for real-time business needs. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting, msdyn_dataanalyticsreport_oc_rt | Get real-time anaytics for agent productivity. |
+| msdyn_agentcopilotsetting | Use AI to find answers for customers. |
+| msdyn_copilotsummarizationsetting | Review cases with AI-generated summaries. |
+| msdyn_casetopicsetting | Manage AI topics from cases. |
+| msdyn_conversationtopicsetting | Manage AI topics from conversations. |
+| msdyn_datainsightsandanalyticsfeature | Manage AI summaries from conversations. |
+| msdyn_suggestionssetting | Help agents solve cases through AI suggestions. |
+| msdyn_kbkeywordsdescsuggestionsetting, msdyn_datainsightsandanalyticsfeature | Help authors add metadata through AI suggestions. |
+| msdyn_omnichannelconfiguration | Set up real-time translation for agents. |
+| msdyn_sentimentanalysise | Track real-time customer sentiment with AI. |
+| msdyn_ocskillidentmlmodel | Manage  models that identify skills. |
+| msdyn_omnichannelconfiguration | Manage skill-based routing settings. |
+| msdyn_iermlmodel | Create models that use AI to measure effort. |
+| msdyn_sentimentanalysis | Set up machine learning to predict sentiment. |
+| msdyn_panetoolconfiguration | Help agents resolve issues quickly. |
+| msdyn_omnichannelconfiguration | Enable transcript. |
+| msdyn_ocvoicechannelsetting,msdyn_liveworkstream, msdyn_ocprovisioningstate | Create configurations for agents to make/receive calls. |
+| msdyn_omnichannelconfiguration | Try sending and receiving formatted messages. |
+| msdyn_cannedmessage, msdyn_octag | Enable agents to create quick replies. | 
 
 msdyn_ocrichobject, msdyn_octag 
 
