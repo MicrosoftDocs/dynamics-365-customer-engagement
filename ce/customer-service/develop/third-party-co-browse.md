@@ -152,7 +152,7 @@ The data input requirements for third-party providers are as follows: 
 
 - Channel Capability record. (If you have both co-browse and screen sharing options, you can create two records, one for each.) 
 
-These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.   
+These records (Conversation Action records, Conversation Action Locale records, Channel Capability records, Provider record, and Application Tab Template records) should be included as part of the solution you create as a third-party provider so that the end user doesn't need to create them manually.
 
 ## Omnichannel administration experience for third-party co-browse and screen sharing  
 

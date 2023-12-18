@@ -31,8 +31,6 @@ In Customer Service admin center and Omnichannel admin center, after you've crea
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
 
-In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour record will be available for selection on the **General** and **Summary** tabs respectively.
-
 ## How work items are routed when operating hours are set
 
 When operating hours are in effect, work items during non-business hours are handled based on the channel they come through.
@@ -60,9 +58,6 @@ You can define operating hours in the Customer Service admin center or Customer 
     1. In the **Operating Hours** section, select **Manage**.
 
        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.
-
-    > [!Note]
-    > If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
 
 1. Select **New**. The **New Operating Hour** page is displayed.
 

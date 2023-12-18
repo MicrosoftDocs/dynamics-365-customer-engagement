@@ -38,33 +38,6 @@ In Customer Service admin center or Omnichannel admin center, select the **Make 
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-
-#### Set up persistent chat in Omnichannel Administration
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-You can enable persistent chat in the chat widget settings for a chat channel.
-<!-- >
-
-1. Go to Omnichannel Administration.
-
-2. Go to **Channels** > **Chat**.
-
-3. Select **New chat widget**. For more information, see [Add a chat widget](add-chat-widget.md).
-
-4. In the **Conversation Mode** area, for **Select mode**, select  **Persistent Chat**.
-
-5. Select **Save**.
-
-6. Go to **Work Distribution Management** > **Work Streams**.
-
-7. Change the **auto-close after inactivity** field from the default value to a value of your choice, that will allow conversations to stay open longer.
-
-8. Set **agent affinity** to true. When a customer returns to the chat, this setting ensures the system connects them to the same agent. The conversation stays with the agent regardless of capacity or presence until a supervisor manually reassigns it to another agent or moves it back to a queue.
-
-9. Select **Save and close**.
--->
-
 ### See also
 
 [Configure a chat widget](add-chat-widget.md)  

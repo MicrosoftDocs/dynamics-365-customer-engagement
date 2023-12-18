@@ -12,9 +12,9 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The productivity pane in Customer Service workspace and Omnichannel for Customer Service enables you to display knowledge search, agent scripts, and smart-assist cards in a unified view. Configure knowledge search, agent scripts, and smart-assist cards so these agent guidance tools will appear in Customer Service workspace and Omnichannel for Customer Service.
+The productivity pane in Customer Service workspace and Omnichannel for Customer Service enables you to display knowledge search, agent scripts, and smart-assist cards in a unified view. Configure knowledge search, agent scripts, and smart-assist cards, so these agent guidance tools will appear in Customer Service workspace and Omnichannel for Customer Service.
 
-If you have recently updated the Omnichannel Administration app, you will no longer enable or disable the productivity pane in the app. On upgrade, an app profile would have been created for your environment through Power Apps. The app profile contains your existing settings and the ability to toggle each of the agent guidance components that are available in the productivity pane:
+If you have recently updated the Customer Service workspace and Omnichannel for Customer Service apps, you will no longer enable or disable the productivity pane in the app. On upgrade, an app profile would have been created for your environment through Power Apps. The app profile contains your existing settings and the ability to toggle each of the agent guidance components that are available in the productivity pane:
 
 - [Knowledge search](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
 - [Smart assist](smart-assist.md)
