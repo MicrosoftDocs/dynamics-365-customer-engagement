@@ -4,7 +4,7 @@ description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 04/05/2023
+ms.date: 12/18/2023
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -25,6 +25,7 @@ You can create session templates in Customer Service admin center or use the out
 
   > [!NOTE]
   > You can't customize the out-of-the-box session templates; instead, you'll need to create your own custom templates.
+  > Channel Integration Framework must be enabled to load generic session templates with the [createsession](../../../customer-service/develop/reference/methods/createSession.md) API.
 
 The out-of-the-box session template for using in Customer Service workspace is Case entity session - default template.
 
