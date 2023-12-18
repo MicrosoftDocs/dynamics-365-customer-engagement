@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 12/15/2023
+ms.date: 12/18/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
