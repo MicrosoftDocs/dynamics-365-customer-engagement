@@ -93,6 +93,8 @@ items:
   items: 
     - name: Work order recap with copilot
       href: work-order-recap.md
+    - name: Work order update
+      href: work-order-update.md
     - name: Work order creation in Outlook with copilot
       href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service
     - name: Microsoft Copilot for Field Service work orders (preview)
@@ -539,6 +541,8 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
+    - name: FAQ about work order update
+      href: faqs-work-order-update.md
 
 - name: More resources
   items:
