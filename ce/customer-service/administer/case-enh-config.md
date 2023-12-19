@@ -16,7 +16,9 @@ Enable the enhanced **Quick case form** and **Full case form**  options so that 
 > [!NOTE]
 > The enhanced case creation experience is available only in the Customer Service workspace app.
 
-[!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA?si=1k1R5ZsZh0mm47s9]
+Watch this video to understand about the enhanced case form and how to set it up:
+
+> [!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA?si=1k1R5ZsZh0mm47s9]
 
 ## Enable enhanced case experience
 
