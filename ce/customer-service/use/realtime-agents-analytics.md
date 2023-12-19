@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/19/2023
+ms.date: 12/19/2023
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -42,7 +42,17 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 > [!NOTE]
 > If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../develop/reference/entities/msdyn_agentstatus.md).
 
-You can drill down from the **Agent list** section on the dashboard to key metrics about agent details and view specific insights about individual agents' performance. Select an agent name in the **Agent list** grid, and then select **Detailed view**. Agent details are shown on a new page.
+You can drill down from the **Agent list** section on the dashboard to view key metrics about agent details and view specific insights about individual agents' performance.
+
+You'll see the following tabs:
+
+- **Agent online**: Shows agents who are online at the moment.
+
+- **Agent offline**: Shows agents who logged in earlier but are offline at the moment.
+
+- **Agents with sessions**: Shows agents who worked on a session today, or in the last 24hrs, or has open conversations, depending on the Time filter.
+
+Depending on the information that you want to see, select the tab, and then select an agent name from the **Agent list** grid. Select **Detailed view**. Agent details are shown on a new page.
 
 On the agent details page, you can view agent skills by proficiency, and agent availability by units and capacity profiles.
 
