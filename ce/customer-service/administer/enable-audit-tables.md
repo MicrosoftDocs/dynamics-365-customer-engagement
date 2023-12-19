@@ -6,18 +6,37 @@ ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection:
-ms.date: 12/15/2023
+ms.date: 12/19/2023
 ms.custom: bap-template
 ---
 
-# Enable admin activity auditing
+# Enable the ability to audit activites and user experiences
 
-You can enable admin activity auditing. Do the following steps:
+As an administrator, you can audit activities and access user experiences and programmable interface logs using the Microsoft Purview compliance portal.
+
+## Set up admin activity auditing
+
+To enable admin activity auditing, complete the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables** > **Properties**.
 1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
 1. Select **Save**.
+
+
+## Search audited events
+
+When the audit log search is turned on in the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/auditlogsearch?viewid=Async%20Search), the Microsoft Purview audit log records the admin activity in your organization. 
+
+You can use any of the following methods to search events in Microsoft Purview.
+
+- (list of components in screen shot)
+
+- Wild card search: Search for contextual information in the Microsoft Purview user experience. You can narrow the search constructs that are specific to individual events. 
+
+As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type. 
+
+For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](). 
 
 ## Activities an admin can audit
 
@@ -47,7 +66,7 @@ The following table shows the activities that an admin can audit.
 | Organization | Configure search control for knowledge searches. |
 | TThe entity with knowledge management enabled | Enable record types for knowledge management. |
 | Organization | Configure record types for agents and authors. |
-| Category | Categorize knowledge articles. |
+| Categorie | Categorize knowledge articles. |
 | Organization,  msdyn_knowledgesearchfilter | Set up standard and custom filters. |
 | Organization | Share knowledge articles as URLs. |
 | Organization, msdyn_UpdatePaneTabConfigForTeam | Manage agent chat experience. |
@@ -121,5 +140,9 @@ The following table shows the activities that an admin can audit.
 | Organization | Upgrade omnichannel solutions in an organization. |
 | Organization | Disable Omnichannel in an organization. |
 | Organization | Enable omnichannel in a trial organization. | 
+
+
+## See also
+
 
  
