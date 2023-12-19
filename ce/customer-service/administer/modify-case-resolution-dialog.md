@@ -62,7 +62,7 @@ As an example, let's see how to add the **Billable Time** field.
 
 > [!NOTE]
 > - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
-> - Case resolution isn't supported if **Regarding** is added to **Case resolution dialog**.
+> - Case resolution isn't supported if **Regarding** field is added to **Case resolution dialog**.
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
 1. Select **Tables**> **Forms** > **Case Resolution**.
