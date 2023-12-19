@@ -35,7 +35,7 @@ You can use any of the following methods to search events in Microsoft Purview.
 
 As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type. 
 
-For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](). 
+For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](../purview/audit-solutions-overview). 
 
 ## Activities an admin can audit
 
