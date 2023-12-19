@@ -43,18 +43,19 @@ Record summarization gives you a quick summary of your opportunity and lead reco
 Learn more:
 
 - [Summarize a lead or opportunity](copilot-get-information.md#summarize-a-lead-or-opportunity)
-- [Change the fields in the record summary](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [Change the fields in the record summary](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 ### Recent changes
 
-To help you stay on top of your opportunities and leads, Copilot summarizes any changes that were made to your records since your last visit or in the last seven days, whichever is more recent. Copilot generates the list of recent changes from the records' audit history. An admin can change the columns that are included in the list. Your entire sales team should agree on the top 10 fields that are most relevant for your business.
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. 
 
 Learn more:
 
-- [Get recent changes to a lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
-- [Get recent changes to all your records](copilot-ask-questions.md#whats-new-with-my-sales-records)
-- [Get your recent assignments](copilot-ask-questions.md#whats-newly-assigned-to-me)
-- [Change the fields you want to catch up on](configure-sales-copilot.md#configure-record-summary-and-catch-up-fields)
+- [View recent changes to your lead or opportunity in the last seven days or since the last login](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
+- [View recent changes to your lead, opportunity, and account records in the last seven days](copilot-ask-questions.md#whats-new-with-my-sales-records)
+- [View the leads and opportunities assigned to you in the last 15 days](copilot-ask-questions.md#whats-newly-assigned-to-me)
+- [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+
 
 ### Meeting preparation
 
