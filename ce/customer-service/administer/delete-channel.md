@@ -35,6 +35,7 @@ If you no longer want to receive messages on a Facebook page that you've configu
 1. From the **Accounts and channels** page, select the channel that you want to delete.
 1. On the **Account settings** dialog, go to the **Facebook Pages** tab, and select the workstream for the channel.
 1. From the **Workstreams** page, delete the required channel.
+1. Go to the **Accounts and channels** page, select and delete the required channel.
 
 ### See also
 
