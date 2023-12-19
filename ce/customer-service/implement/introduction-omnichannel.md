@@ -36,6 +36,10 @@ You can enable the following channels in your organization with Omnichannel for 
 
 Chat is an engagement channel that enables your agents to connect with customers in real-time. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](../administer/set-up-chat-widget.md)
 
+> [!NOTE]
+>
+> The cookies used for live chat widget authentication aren't utilized for profiling or collecting personally identifiable information (PII). 
+
 ### SMS
 
 SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure an SMS channel](../administer/configure-sms-channel.md)
