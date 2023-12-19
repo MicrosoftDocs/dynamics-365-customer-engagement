@@ -10,7 +10,7 @@ ms.date: 12/19/2023
 ms.custom: bap-template
 ---
 
-# Enable the ability to audit activites and user experiences
+# Enable the ability to audit activities and user experiences
 
 As an administrator, you can audit activities and access user experiences and programmable interface logs using the Microsoft Purview compliance portal.
 
@@ -22,7 +22,6 @@ To enable admin activity auditing, complete the following steps:
 1. Select **Tables** > **Properties**.
 1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
 1. Select **Save**.
-
 
 ## Search audited events
 
@@ -42,7 +41,7 @@ For more information about the Microsoft Purview audit log, data retention polic
 
 The following table shows the activities that an admin can audit.
 
-| Actitvity scope (object) | Description |
+| Activity scope (object) | Description |
 | --------- | -------------- |
 | queue | Create queues to distribute work to agents. |
 | routingrule | Create rules to route work items to agents. |
@@ -64,7 +63,7 @@ The following table shows the activities that an admin can audit.
 | msdyn_kmfederatedsearchconfig | Find and share knowledge from multiple resources. |
 | msdyn_knowledgearticletemplate | Simplify creating knowledge articles. |
 | Organization | Configure search control for knowledge searches. |
-| TThe entity with knowledge management enabled | Enable record types for knowledge management. |
+| The entity with knowledge management enabled | Enable record types for knowledge management. |
 | Organization | Configure record types for agents and authors. |
 | Categorie | Categorize knowledge articles. |
 | Organization,  msdyn_knowledgesearchfilter | Set up standard and custom filters. |
@@ -79,7 +78,7 @@ The following table shows the activities that an admin can audit.
 | msdyn_datainsightsandanalyticsfeature, msdyn_occhannelconfiguration, msdyn_agentresourceforecasting | Forecast agents needed for conversations. |
 | msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace | Add new metrics for historical business needs. |
 | msdyn_datainsightsandanalyticsfeature, msdyn_dataanalyticsworkspace | Add new metrics for real-time business needs. |
-| msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting, msdyn_dataanalyticsreport_oc_rt | Get real-time anaytics for agent productivity. |
+| msdyn_datainsightsandanalyticsfeature, msdyn_ocvoicechannelsetting, msdyn_dataanalyticsreport_oc_rt | Get real-time analytics for agent productivity. |
 | msdyn_agentcopilotsetting | Use AI to find answers for customers. |
 | msdyn_copilotsummarizationsetting | Review cases with AI-generated summaries. |
 | msdyn_casetopicsetting | Manage AI topics from cases. |
@@ -104,9 +103,9 @@ The following table shows the activities that an admin can audit.
 | workflow, msdyn_productivitymacrosolutionconfiguration | Create automated actions for efficiency. |
 | msdyn_presence | Set presences to auto update for agents. |
 | msdyn_omnichannelconfiguration | Create rules to mask sensitive data. |
-| template, msfp_emailtemplate | Create resuable email content. |
+| template, msfp_emailtemplate | Create reusable email content. |
 | emailsignature | Create email signatures for outgoing emails. |
-| msdyn_appconfiguration | Create targeted app exeperiences for agents. |
+| msdyn_appconfiguration | Create targeted app experiences for agents. |
 | msdyn_sessiontemplate | Choose which templates open for new sessions. |
 | msdyn_applicationtabtemplate | Choose which tabs open for new sessions. |
 | msdyn_omnichannelconfiguration | Choose information to show for notifications. |
