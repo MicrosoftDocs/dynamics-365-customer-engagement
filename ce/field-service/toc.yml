@@ -283,8 +283,14 @@ items:
       href: mobile-power-app-use.md
     - name: Booking maps
       href: mobile-powerapp-booking-maps.md
-    - name: Offline data and sync filters
-      href: mobile-power-app-system-offline.md
+    - name: Offline capabilities
+      items:
+      - name: Mobile offline profile
+        href: mobile-power-app-system-offline.md
+      - name: Offline data synchronization
+        href: mobile-power-app-system-offline-sync.md
+      - name: Configure the mobile offline profile (admin)
+        href: mobile-power-app-system-offline-setup.md
     - name: Barcode scanning and global search
       href: mobile-power-app-system-barcode-scanning.md
     - name: Push notifications
