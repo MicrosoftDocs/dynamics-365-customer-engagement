@@ -79,173 +79,47 @@ The following table shows the activities that an admin can audit.
 | msdyn_ocvoicechannelsetting,msdyn_liveworkstream, msdyn_ocprovisioningstate | Create configurations for agents to make/receive calls. |
 | msdyn_omnichannelconfiguration | Try sending and receiving formatted messages. |
 | msdyn_cannedmessage, msdyn_octag | Enable agents to create quick replies. | 
-
-msdyn_ocrichobject, msdyn_octag 
-
-Create rich messaging experience for customers 
-
-msdyn_ocsystemmessage 
-
-Create reusable messages for customers 
-
-msdyn_productivityagentscript 
-
-Create scripts for agents 
-
-workflow, msdyn_productivitymacrosolutionconfiguration 
-
-Create automated actions for efficiency 
-
-msdyn_presence 
-
-Set presences to auto update for agents 
-
-msdyn_omnichannelconfiguration 
-
-create rules to mask sensitive data 
-
-template, msfp_emailtemplate 
-
-Create resuable email content 
-
-emailsignature 
-
-Create email signatures for outgoing emails 
-
-msdyn_appconfiguration 
-
-Create targeted app exeperiences for agents 
-
-msdyn_sessiontemplate 
-
-Choose which templates open for new sessions 
-
-msdyn_applicationtabtemplate 
-
-Choose which tabs open for new sessions 
-
-msdyn_omnichannelconfiguration 
-
-Choose information to show for notifications 
-
-msdyn_channelprovider 
-
-Setup a third party voice channel 
-
-SaveSettingValue 
-
-Customize conversation forms for agents 
-
-msdyn_appconfiguration, msdyn_appprofilerolemapping 
-
-Enable productivity tools in custom model apps 
-
-msdyn_occarrier, msdyn_ocphonenumber, msdyn_ocprovisioningstate 
-
-Define types and amount of work for agents 
-
-msdyn_capacityprofile, systemuser 
-
-Create and assign skills to agents 
-
-characteristic 
-
-Map roles to personas for multiple services 
-
-msdyn_personasecurityrolemapping, role 
-
-Manage key attributes for users in bulk 
-
-msdyn_ocautoblockrule, msdyn_ocflaggedspam 
-
-Review and manage blocked numbers 
-
-msdyn_authenticationsettings 
-
-Validate signed-in customers from a domain 
-
-msdyn_ocapplepay, msdyn_ocpaymentprofile 
-
-Setup payment profiles to support commerce 
-
-msdyn_oc_geolocationprovider 
-
-Detect customer location via coordinates 
-
-msdyn_ocphonemusic 
-
-Manage music files for hold or wait music 
-
-msdyn_omnichannelconfiguration 
-
-View previous customer actions 
-
-msdyn_ocoutboundconfiguration 
-
-Send messages to targeted customers 
-
-msdyn_oclocalizationdata 
-
-Customize messages for agents in sessions 
-
-msdyn_iotsettings 
-
-Setup settings for IoT 
-
-msdyn_operatinghour 
-
-Define hours agents interact with customers 
-
-calendar 
-
-Create a holiday schedule for your calendar 
-
-calendar 
-
-Define availability for customer support 
-
-msdyn_organizationalunit 
-
-Create org units that reflect your business 
-
-equipment 
-
-Create sites to define locations for customer service 
-
-bookableresource 
-
-Schedule anything termed a resource 
-
-service 
-
-Define specifics of services for customers 
-
-msdyn_businessclosure 
-
-Prevent scheduling resources on holidays 
-
-msdyn_timegroup 
-
-Customize how to show assistant results 
-
-bookableresourcecategory 
-
-Group bookable resources by type 
-
-Organization 
-
-Provision Omnichannel on an organization 
-
-Organization 
-
-Upgrade Omnichannel Solutions in an org 
-
-Organization 
-
-Disable Omnichannel on an org 
-
-Organization 
-
-Enable Omnichannel on a trial org 
+| msdyn_ocrichobject, msdyn_octag | Create rich messaging experience for customers. "
+| msdyn_ocsystemmessage | Create reusable messages for customers. |
+| msdyn_productivityagentscript | Create scripts for agents, |
+| workflow, msdyn_productivitymacrosolutionconfiguration | Create automated actions for efficiency. |
+| msdyn_presence | Set presences to auto update for agents. |
+| msdyn_omnichannelconfiguration | Create rules to mask sensitive data. |
+| template, msfp_emailtemplate | Create resuable email content. |
+| emailsignature | Create email signatures for outgoing emails. |
+| msdyn_appconfiguration | Create targeted app exeperiences for agents. |
+| msdyn_sessiontemplate | Choose which templates open for new sessions. |
+| msdyn_applicationtabtemplate | Choose which tabs open for new sessions. |
+| msdyn_omnichannelconfiguration | Choose information to show for notifications. |
+| msdyn_channelprovider | Set up a third-party voice channel. |
+| SaveSettingValue | Customize conversation forms for agents. |
+| msdyn_appconfiguration, msdyn_appprofilerolemapping | Enable productivity tools in custom model apps. |
+| msdyn_occarrier, msdyn_ocphonenumber, msdyn_ocprovisioningstate | Define types and amount of work for agents. |
+| msdyn_capacityprofile, systemuser | Create and assign skills to agents. |
+| characteristic | Map roles to personas for multiple services. |
+| msdyn_personasecurityrolemapping, role | Manage key attributes for users in bulk. |
+| msdyn_ocautoblockrule, msdyn_ocflaggedspam | Review and manage blocked numbers. |
+| msdyn_authenticationsettings | Validate signed-in customers from a domain, |
+| msdyn_ocapplepay, msdyn_ocpaymentprofile | Set up payment profiles to support commerce. |
+| msdyn_oc_geolocationprovider | Detect customer location via coordinates. |
+| msdyn_ocphonemusic | Manage music files for hold or wait music. |
+| msdyn_omnichannelconfiguration | View previous customer actions. |
+| msdyn_ocoutboundconfiguration | Send messages to targeted customers. |
+| msdyn_oclocalizationdata | Customize messages for agents in sessions. |
+| msdyn_iotsettings | Setup settings for IoT. |
+| msdyn_operatinghour | Define hours agents interact with customers. |
+| calendar | Create a holiday schedule for your calendar. |
+| calendar | Define availability for customer support. |
+| msdyn_organizationalunit | Create org units that reflect your business. |
+| equipment | Create sites to define locations for customer service. |
+| bookableresource | Schedule anything termed a resource. |
+| service | Define specifics of services for customers. |
+| msdyn_businessclosure | Prevent scheduling resources on holidays. |
+| msdyn_timegroup | Customize how to show assistant results. 
+| bookableresourcecategory | Group bookable resources by type. |
+| Organization | Provision omnichannel in an organization. | 
+| Organization | Upgrade omnichannel solutions in an organization. |
+| Organization | Disable Omnichannel in an organization. |
+| Organization | Enable omnichannel in a trial organization. | 
 
  
