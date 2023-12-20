@@ -161,7 +161,7 @@
           - name: Define parent and child cases
             href: define-settings-parent-child-cases.md
           - name: Enable AI suggestions for similar cases
-            href: csw-enable-ai-suggested-cases-knowledge-articles#enable-ai-suggestions-for-similar-cases  
+            href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases  
           - name: Customize the case resolution experience
             href: add-enhanced-case-management.md
           - name: Use the Due open activities control to customize forms
