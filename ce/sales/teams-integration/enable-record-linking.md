@@ -113,7 +113,7 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 
 **1. Does the tenant admin need to do anything to set up Microsoft Teams Integration?**
 
-The tenant admin must provide consent for the enterprise application to be created in Azure AD and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
+The tenant admin must provide consent for the enterprise application to be created in Microsoft Entra ID and add delegate permissions for Teams. This happens automatically when the Enhanced Collaboration Experience is enabled in the system settings of your customer engagement app.
 
 **2. The documentation refers to _Microsoft 365 tenant admin permissions_. What does this mean?**
 

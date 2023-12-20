@@ -96,7 +96,7 @@ Enable the sales accelerator by quickly providing access to security roles and s
     3. Repeat steps a and b to add more record types.
         
        >[!NOTE]
-       >- You can remove the record types that you no longer need to associate automated activities with. Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+       >- You can remove the record types that you no longer need to associate automated activities with. Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.  
        >- To know how records are populated in the work list, go to [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
 
 7.	Select **Update**.
@@ -124,8 +124,7 @@ To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faqs-sales-insights.md#sales-accelerator)
 
->[!NOTE]
->To know how to add the work list site map to your custom app, go to [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-site-map-to-your-custom-app).
+[Learn more about how to add sales accelerator to the site map in your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

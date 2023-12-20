@@ -353,10 +353,9 @@ If set to **No**, they won't.
 
 1. Items are copied to the agreement when they're added to the agreement, even if the agreement has an estimate status.
 
-### See also  
+### Next steps
 
 - [Create work order templates with incident types](configure-incident-types.md)
-
-- [Add account details to work orders](work-order-customer-account.md)
+- [Create and manage customer accounts](accounts.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

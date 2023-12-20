@@ -1,10 +1,11 @@
 ---
-title: Share information through knowledge articles (contains video)
+title: Share information through knowledge articles
 description: Learn about knowledge management and knowledge articles in Dynamics 365 Field Service.
-ms.date: 03/18/2023
+ms.date: 06/09/2023
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
+ms.custom: bap-template
 ---
 
 # Share information through knowledge articles
@@ -15,17 +16,15 @@ Knowledge management in Dynamics 365 Field Service associates relevant knowledge
 
 Access to knowledge articles help improve the fix rate and guide technicians through procedures.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWxBzW]
-
 ## Create knowledge articles
 
 Write a knowledge article to share information with technicians.
 
 For more information on knowledge articles, see:
 
-- [Create and manage knowledge articles](../customer-service/customer-service-hub-user-guide-knowledge-article.md)
-- [Create templates for knowledge articles](../customer-service/create-templates-knowledge-article.md)
-- [Set up a search provider](../customer-service/set-up-search-providers.md)
+- [Create and manage knowledge articles](../customer-service/use/customer-service-hub-user-guide-knowledge-article.md)
+- [Create templates for knowledge articles](../customer-service/use/create-templates-knowledge-article.md)
+- [Set up a search provider](../customer-service/administer/set-up-search-providers.md)
 
 :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
 
@@ -54,11 +53,9 @@ Create relationships between knowledge articles and other records, like incident
 > [!TIP]
 > You can also link knowledge articles without configured relationship to incidents, assets, or products. On a target record, go to the **Linked Articles** tab and select **New Linked Article**.
 
-## View work order and knowledge articles on the mobile app
+## Next steps
 
-Technicians find the knowledge articles on work orders in the Field Service mobile app.  Knowledge articles are available while the device has internet connectivity. They aren't available while in the [offline mode](mobile-power-app-system-offline.md).
-
-> [!div class="mx-imgBorder"]
-> ![Device renders of the Field Service mobile app, showing the relevant knowledge articles being viewable from a work order.](./media/mobile-2020-knowledge-mgmt.png)
+- [Create a work order](create-work-order.md)
+- [Create work order templates with incident types](configure-incident-types.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

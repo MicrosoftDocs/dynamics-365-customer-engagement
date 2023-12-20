@@ -69,7 +69,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsKit](#BKMK_IsKit)
 - [IsReparented](#BKMK_IsReparented)
 - [IsStockItem](#BKMK_IsStockItem)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [Name](#BKMK_Name)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentProductId](#BKMK_ParentProductId)
@@ -283,33 +282,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |0|No||
 
 **DefaultValue**: 0
-
-
-
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
-
-**Added by**: Predictive Opportunity Scoring Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Describes whether product is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msdyn_gdproptout Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Yes||
-|0|No||
-
-**DefaultValue**: 0
-
-
 
 ### <a name="BKMK_Name"></a> Name
 

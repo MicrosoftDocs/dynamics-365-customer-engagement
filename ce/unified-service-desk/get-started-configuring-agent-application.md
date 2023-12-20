@@ -10,7 +10,7 @@ search.audienceType:
   - developer
 ms.custom: 
   - dyn365-USD
-  - intro-internal
+ms.collection: get-started
 ---
 # Get started with configuring your agent application
 

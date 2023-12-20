@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 01/30/2023
+ms.date: 08/09/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -11,6 +11,7 @@ ms.author: shjais
 search.audienceType: 
   - enduser
 ---
+
 # Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 
 This article provides information about the error messages you might face with possible resolutions and some known issues.
@@ -44,10 +45,8 @@ When you turn on enhanced Microsoft Teams Integration, there are two dialog boxe
 To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 1. Go to, [https://portal.azure.com](https://portal.azure.com).
-2. Select **Azure Active Directory** > **Enterprise**.
+2. Select **Microsoft Entra ID** > **Enterprise applications**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
-    > [!div class="mx-imgBorder"] 
-    > ![Dynamics 365 Microsoft Teams collaboration integration ](media/error2.png "Go toDynamics 365 Microsoft Teams collaboration integration")
 4. Delete the app.
     > [!div class="mx-imgBorder"] 
     > ![Teams error.](media/error3.png "Teams error")
@@ -90,7 +89,7 @@ If the Dynamics 365 organization has two-factor authentication enabled, but Micr
 
 To solve this problem, you must perform one of the following actions:
 
-- Enable two-factor authentication in [Dynamics 365](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide). This is the preferred action. 
+- Enable two-factor authentication in [Dynamics 365](/entra/identity/conditional-access/concept-conditional-access-cloud-apps#microsoft-cloud-applications) and [Teams](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide&preserve-view=true). This is the preferred action. 
 - Disable two-factor authentication in Dynamics 365 and Teams.
 
 ### Dynamics 365 app doesn't populate environment list in settings
@@ -100,7 +99,21 @@ This issue might occur if two-factor authentication is enabled in either Dynamic
 > [!div class="mx-imgBorder"] 
 > ![Environment not getting populated.](media/teams-env-troubleshoot.png "Environment not getting populated")
 
+### Disconnected Teams channel keeps showing as a connected channel in Dynamics 365
 
+This behavior is by design where deleting a tab from Teams does not unlink the channel from Dynamics 365 record.
+
+To resolve the issue, manually delete the association row.
+
+1. Sign in to [https://make.powerapps.com](https://make.powerapps.com).
+2. Select the environment that has the association row.
+3. On the left navigation pane, select **Tables**.
+4. Enter **teams collab** in the search box.
+5. In the search result, select **Microsoft Teams Collaboration entity**.
+6. On the **Microsoft Teams Collaboration entity** page, select **Edit**.
+7. Find the name of team and channel you want to disconnect from Dynamics 365.
+8. Select the record, and then select **Delete**.
+9. Go to Dynamics 365 and refres the page. The team and channel will not be listed as connected channels.
 
 ## Troubleshoot errors in Microsoft Teams
 
@@ -210,7 +223,7 @@ You need to be a member of the connected team channel to view files. Contact the
 
 ### Embedded Power Apps canvas apps don't work 
 
-You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. 
+You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app-in-form) in customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) as they have the same design and underlying architecture of a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). However, when you embed a customer engagement app in Microsoft Teams, the embedded canvas app won't work. This might display a message to sign in to the app, authentication error message, or the **Error loading control** message.
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 

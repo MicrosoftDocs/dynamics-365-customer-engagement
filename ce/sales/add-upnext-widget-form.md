@@ -46,7 +46,7 @@ By default, the **Up next** widget is available only in the out-of-the-box Sales
 6. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.      
     >[!div class="mx-imgBorder"]
     >![Add new column as place holder](media/sa-powerapps-add-new-column.png "Add new column as place holder")   
-7. From the site map, select **Related data** > **Sequence (Up next)**.   
+7. From the site map, select **Display** > **Sequence (Up next)**.   
     >[!NOTE]
     >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.   
 8. In the **Edit sequence (Up next)** pop-up window, select **Done**.  

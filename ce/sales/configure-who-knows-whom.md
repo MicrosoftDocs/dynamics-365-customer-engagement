@@ -1,22 +1,24 @@
 ---
-title: "Configure who knows whom"
-description: "Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts."
-ms.date: 02/07/2023
+title: Configure who knows whom
+description: Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts.
+ms.date: 08/07/2023
 ms.custom: 
 ms.topic: article
+ms.reviewer: shujoshi
 author: lavanyakr01
 ms.author: lavanyakr
 ---
 
 # Configure who knows whom
 
-The Who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
+The who knows whom feature helps your sales organization quickly identify colleagues who can introduce them to leads or contacts, based on their interactions through emails and meetings. Configure the feature to select an email template to use for introductions.  
 
 
 >[!NOTE]
->- Who knows whom isn't available in all regions. [Learn whether who knows whom is available in your region](faqs-sales-insights.md#in-which-region-are-the-features-available).
+>- [Basic who knows whom information](who-knows-whom.md#basic-who-knows-whom-information) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
+>- [Enhanced who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) is available for Sales Premium users and is available only in [specific regions](faqs-sales-insights.md#in-which-region-are-the-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
->    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
+>    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
@@ -30,7 +32,7 @@ The Who knows whom feature helps your sales organization quickly identify collea
 
 ## Prerequisite
 
-- [Turn on premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Enable premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 - [Turn on who knows whom in relationship intelligence](enable-ri.md).  
 - [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
    
@@ -68,7 +70,6 @@ After you enable who knows whom, you must complete the [next steps](#next-steps)
 ### See also
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
 [Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 

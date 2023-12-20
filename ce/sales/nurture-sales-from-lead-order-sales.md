@@ -1,5 +1,5 @@
 ---
-title: Nurture sales from lead to order
+title: Understand the sales process
 description: Use the out-of-the-box sales process to close more deals and improve customer satisfaction.
 ms.date: 03/31/2023
 ms.topic: overview

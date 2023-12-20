@@ -80,7 +80,7 @@ For any customer service team, it’s important to give customers the right info
   
 ### See also  
 
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
+[Understand knowledge base search mechanisms](use/knowledge-base-search-methods.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

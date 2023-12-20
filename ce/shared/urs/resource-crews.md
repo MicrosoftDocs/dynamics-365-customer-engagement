@@ -35,7 +35,7 @@ The crew strategy determines how the crew manages its work. There are three opti
 - **Cascade and Accept Cascade Completely**: All resources on a crew can manage all the work. It's the ideal option when a crew consists of one individual and the rest of the crew is equipment.
 
 > [!NOTE]
-> The logic associated with crew strategies will only impact work order related bookable resource bookings.
+> The logic associated with crew strategies will only impact work order related bookable resource bookings. If an assigned resource updates their own booking to *Completed*, the end-time value is updated to the current time stamp. If another user or crew member updates a booking status to *Completed* on behalf of an assigned resource, the booking end time preserves the previous end time value.
 >
 > Crew strategies affect if and how a crew booking is rescheduled. For example, if a crew leader's bookings change, all bookings of the crew are moved.
 
@@ -76,7 +76,9 @@ Assign a single requirement to the crew resource to create a booking for the ent
 
 You can't manually schedule requirement groups to crews, only single requirements.
 
-The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew.
+The [schedule assistant](../../field-service/schedule-assistant.md) shows each crew member as individual resources. If booked, only that single resource gets a booking. The crew resource can also return in the results if the working hours and other constraints match. Booking a crew books all crew members and the crew under the following conditions:
+1. The booking falls within the "FromDate" and the "ToDate" configured for the bookable resource group belonging to the crew member.
+2. There are work hours confiugred for the crew member on the day(s) of the booking and the booking falls within those work hours.
 
 > [!NOTE]
 > When a single requirement is booked to a crew, manually or with the schedule assistant, a requirement group is automatically created and all bookings are related to the requirement group. It ensures that crew bookings are in sync if you change them. The **Auto Group Type** of the requirement group is set to **Crew**.

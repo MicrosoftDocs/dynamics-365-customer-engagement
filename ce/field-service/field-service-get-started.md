@@ -18,17 +18,17 @@ This article helps organizations to get started. It guides you through the first
 
 ## Install Dynamics 365 Field Service
 
-A system administrator needs to install the Field Service application installed for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
+A system administrator needs to install the Field Service application for your organization. For more information, see [How to install Dynamics 365 Field Service](install-field-service.md).
 
 ## Configure Field Service settings
 
 Review default settings for the Field Service app.
 
-1. In the **Field Service** app, open the **Settings** area.
+1. In the **Field Service** app, open **Settings**.
 
 1. Go to **General** > **Field Service Settings** > **Work Order / Booking**.
 
-1. Review the all mandatory values and set optional values for your organization. For more information, go to [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md)
+1. Review the all mandatory values and set optional values for your organization. For more information, go to [Set defaults for work orders, bookings, the schedule board, and agreements](configure-default-settings.md).
 
 ## Set up resource scheduling
 
@@ -40,13 +40,13 @@ Field Service needs latitude and longitude values for service account records to
 
 1. Enable map and location settings on work orders and other relevant records. For more information, see [Location and map settings](field-service-maps-address-locations.md).
 
-1. Enable resource scheduling for entities. Go to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**. Verify that work orders are enabled for resource scheduling. For more information, go to [Enable an entity for scheduling in Dynamics 365 Field Service](schedule-new-entity.md).
+1. Enable resource scheduling for entities. Go to **Resource Scheduling** > **Administration** > **Enable Resource Scheduling for Entities**. Verify that work orders are enabled for resource scheduling. For more information, go to [Enable an entity for scheduling in Dynamics 365 Field Service](schedule-new-entity.md).
 
    Administrators decide which entities can be scheduled to resources. A solution called [Universal Resource Scheduling](universal-resource-scheduling-for-field-service.md) adds scheduling capabilities to entities and provides the schedule board. Any entity (including custom entities) can be enabled for scheduling; typical examples include cases, opportunities, and orders.
 
 ## Assign Field Service licenses to users
 
-Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](view-user-accounts-security-roles.md).
+Create users or select existing users and assign them a license for Field Service. Users with a license can access the Field Service application, according to their user role. For more information, see [Set up Dynamics 365 Field Service users and security profiles](users-licenses-permissions.md).
 
 Set up at least a dispatcher and a frontline worker. Dispatchers manage work orders for your organization. They schedule the work and assign it to a frontline worker, who will then complete the work for the customer.
 
@@ -73,15 +73,15 @@ There are [several ways to schedule a work order](universal-resource-scheduling-
 
 Find your work order in the requirement pane. Drag it to a free time slot in the future for one of your frontline workers.
 
-## View the scheduled work order on the Field Service (Dynamics 365) mobile app
+## View the scheduled work order on the Field Service mobile app
 
-Frontline workers use the Field Service (Dynamics 365) mobile app on their phone or tablet.
+Frontline workers use the mobile experience on their phone or tablet.
 
-Download and install the mobile app and sign in as the technician to who the work order is assigned.
+Download and install the mobile app and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 
-For more information, see [Install and set up the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
+For more information, see [Install and set up the Field Service mobile app](mobile-power-app-get-started.md).
 
 ## Analyze your operations
 

@@ -16,7 +16,7 @@ Omnichannel for Customer Service is a customizable application you can effective
 
 ## Access Omnichannel for Customer Service for administrators
 
-1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your instance.
+1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](implement/omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your instance.
 
 2. After the app is enabled, go to the apps page, navigate to the app switcher and then select **Omnichannel Administration**.
 
@@ -31,27 +31,27 @@ You can view the entities in the **Omnichannel Administration** site map.
 ## In this section
 
 - [Understand routing and work distribution](unified-routing-work-distribution.md)
-- [Understand and create work streams](create-workstreams.md)
-- [Create a chat widget](set-up-chat-widget.md)
+- [Understand and create work streams](administer/create-workstreams.md)
+- [Create a chat widget](administer/set-up-chat-widget.md)
 
 ## How-to topics
 
-- [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage a user in Omnichannel](users-user-profiles.md)<br>
-- [Configure a chat channel](set-up-chat-widget.md) </br>
-- [Configure an SMS channel](configure-sms-channel.md) </br>
-- [Configure a Facebook channel](configure-facebook-channel.md)</br>
-- [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
-- [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
-- [Create a new Omnichannel queue](queues-omnichannel.md)<br>
+- [Assign roles and enable users for Omnichannel for Customer Service](implement/add-users-assign-roles.md)
+- [Manage a user in Omnichannel](administer/users-user-profiles.md)<br>
+- [Configure a chat channel](administer/set-up-chat-widget.md) </br>
+- [Configure an SMS channel](administer/configure-sms-channel.md) </br>
+- [Configure a Facebook channel](administer/configure-facebook-channel.md)</br>
+- [Automatically identify customers using pre-chat responses](administer/record-identification-rule.md)<br>
+- [Create custom presence status](administer/presence-custom-presence.md#create-custom-presence-status)<br>
+- [Create a new Omnichannel queue](administer/queues-omnichannel.md)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
-- [Enable knowledge articles in the Omnichannel for Customer Service](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management) </br>
-- [Add a chat widget](add-chat-widget.md)<br>
-- [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-- [Create quick replies](create-quick-replies.md)<br>
-- [Create and manage operating hours](create-operating-hours.md)<br>
-- [Create chat authentication settings](create-chat-auth-settings.md)<br>
-- [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)
+- [Enable knowledge articles in the Omnichannel for Customer Service](administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management) </br>
+- [Add a chat widget](administer/add-chat-widget.md)<br>
+- [Configure a pre-chat survey](administer/configure-pre-chat-survey.md)<br>
+- [Create quick replies](administer/create-quick-replies.md)<br>
+- [Create and manage operating hours](administer/create-operating-hours.md)<br>
+- [Create chat authentication settings](administer/create-chat-auth-settings.md)<br>
+- [Embed chat widget in Power Apps portals](administer/embed-chat-widget-portal.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

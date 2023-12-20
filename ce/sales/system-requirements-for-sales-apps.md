@@ -39,5 +39,5 @@ For a list of regions supported for product availability and data location, see 
 For a list of languages supported by the Sales Hub and Sales Professional apps, see the [Language availability report](https://dynamics.microsoft.com/en-us/availability-reports/languagereport/) for Dynamics 365 Sales.
 
 > [!NOTE]
-> Sales Premium features are supported only in specific languages. For more information, see [What languages are supported now?](faqs-sales-insights.md#what-languages-are-supported-now).  
+> Sales Premium features are supported only in specific languages. For more information, see [What languages are supported now?](faqs-sales-insights.md#what-languages-are-supported).  
 

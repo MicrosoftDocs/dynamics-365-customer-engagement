@@ -2,9 +2,9 @@
 title: "Omnichannel admin center | MicrosoftDocs"
 description: "Get started with Omnichannel admin center"
 ms.date: 09/30/2022
-ms.topic: get-started-article
+ms.topic: get-started
 author: neeranelli
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: nenellim
 ---
 
@@ -23,12 +23,12 @@ If you are an upgrading user of Omnichannel for Customer Service, you can perfor
 
 ### See also
 
-[Unified routing](overview-unified-routing.md)  
-[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
-[Create workstreams](create-workstreams.md)  
-[Create queues for conversations](queues-omnichannel.md)  
-[Set up record routing](set-up-record-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[Unified routing](administer/overview-unified-routing.md)  
+[Manage users in Omnichannel for Customer Service](administer/users-user-profiles.md)  
+[Create workstreams](administer/create-workstreams.md)  
+[Create queues for conversations](administer/queues-omnichannel.md)  
+[Set up record routing](administer/set-up-record-routing.md)  
+[FAQs on unified routing](administer/unified-routing-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

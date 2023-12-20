@@ -1,14 +1,14 @@
 ---
-title: "Improve seller coaching and sales potential"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
-ms.date: 10/31/2022
+title: Coach sellers with conversation intelligence
+description: Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence.
+ms.date: 06/29/2023
 ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: lavanyakr01
 ms.author: lavanyakr
 ---
 
-# Improve seller coaching and sales potential with conversation intelligence
+# Coach sellers with conversation intelligence
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
@@ -58,8 +58,8 @@ Conversation intelligence is designed to help sales managers and sellers in thei
     > [!NOTE]
     > Sales managers can also define tracked keywords and competitors. These tracked keywords and competitors apply only to their team.  
 
-- Configure how long you want to retain a team's or individual seller's data from your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).  
-- Manage environments and configure call data. To learn more, see [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md) and [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md).  
+- Configure how long you want to retain a team's or individual seller's data in your organization. To learn more, see [Data retention and deletion through Privacy](data-retention-deletion-policy.md).  
+- [Connect conversation intelligence to a Dynamics 365 environment](connect-dynamics365-sales-environment.md) 
 - Monitor call and insight processing data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).   
 -	Configure the levels of hierarchy for which sales managers can view the call data. To learn more, see [Monitor call and insight processing](../sales/monitor-call-insight-processing.md).  
 
@@ -94,8 +94,6 @@ Conversation intelligence for your Teams calls is available from the following a
 - [Sales Hub app](view-and-understand-call-summary-sales-app.md)
 - [Standalone conversation intelligence app](dynamics365-sales-insights-app-home-page.md)
 
-
-[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

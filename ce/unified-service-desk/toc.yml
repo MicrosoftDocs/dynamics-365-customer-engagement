@@ -106,12 +106,12 @@
       href: admin/help-improve-unified-service-desk.md
     - name: Provide feedback about Unified Service Desk
       href: admin/provide-feedback.md
-  - name: Data protection and GDPR
+  - name: Data protection and privacy
     items:       
-    - name: Comply with General Data Protection Regulation (GDPR)
-      href: admin/comply-gdpr.md
+    - name: Comply with privacy laws and regulations
+      href: admin/comply-privacy-laws-regs.md
     - name: Comply Unified Service Desk data
-      href: admin/comply-unified-service-desk-data-gdpr.md
+      href: admin/comply-unified-service-desk-data-privacy-laws.md
   - name: Configure audit and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files
@@ -617,8 +617,8 @@
       href: oc-usd/search-record.md
     - name: Link and unlink a record 
       href: oc-usd/link-unlink-record.md
-    - name: View communication panel 
-      href: oc-usd/left-control-panel.md
+    - name: View communication panel
+      href: /dynamics365/customer-service/oc-conversation-control?context=/dynamics365/context/unified-service-desk-context&view=dynamics-usd-4.2&preserve-view=true
     - name: Create personal quick replies in Omnichannel for Customer Service in Unified Service Desk
       href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
@@ -734,9 +734,9 @@
 - name: Dynamics 365 Customer Service
   href: ../customer-service/help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: ../customer-service/introduction-omnichannel.md
+  href: ../customer-service/implement/introduction-omnichannel.md
 - name: Dynamics 365 Channel Integration Framework Guide
-  href: ../customer-service/channel-integration-framework/channel-integration-framework.md
+  href: ../channel-integration-framework/channel-integration-framework.md
 - name: Known issues in Unified Service Desk
   href: https://go.microsoft.com/fwlink/p/?linkid=2167273  
   

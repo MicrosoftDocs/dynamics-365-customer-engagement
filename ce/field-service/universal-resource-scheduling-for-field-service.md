@@ -97,13 +97,13 @@ There are a few things you'll need to configure to enable Universal Resource Sch
 
 Take a staggered approach to implement scheduling processes in your organization.
 
-1. Start with [manual scheduling using the schedule board](preview-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize with the system logic and establish business processes.
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
-1. Consider using the R[esource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
+1. Consider using the [Resource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 ## Next steps
 
-- [Use and configure the schedule board in Dynamics 365 Field Service](configure-schedule-board.md)
+- [Use schedule board in Field Service](work-with-schedule-board.md)
 - [Overview of the schedule assistant](schedule-assistant.md)
 - [Get Resource Scheduling Optimization](rso-get-install.md)
 

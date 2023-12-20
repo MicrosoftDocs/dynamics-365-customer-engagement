@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
 ms.date: 04/24/2020
-ms.topic: get-started-article
+ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 ms.custom: 
@@ -16,7 +16,7 @@ Dynamics 365 Customer Service unifies the way people experience your business, m
 This User's Guide shows customer service agents how to use the application. 
   
 > [!IMPORTANT]
-> This User Guide covers instructions for the the Customer Service app (legacy web client). To learn about the  Customer Service Hub app built on the Unified Interface framework, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). To learn more, see[Basics Guide](../customerengagement/on-premises/basics/basics-guide.md).
+> This User Guide covers instructions for the the Customer Service app (legacy web client). To learn about the  Customer Service Hub app built on the Unified Interface framework, see [User Guide (Customer Service Hub)](use/user-guide-customer-service-hub.md). To learn more, see[Basics Guide](../customerengagement/on-premises/basics/basics-guide.md).
 
 ## Create and manage a case
 
