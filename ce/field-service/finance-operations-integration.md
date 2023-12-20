@@ -36,7 +36,7 @@ The following steps are only required while the feature is in preview.
    An email is sent to the contact provided during registration, once enabled. Allow up to two business days for the enablement process.
 
 > [!NOTE]
-> At this time, the preview is not enabled for trial versions of Field Service.
+> The integration isn't available in Field Service trials.
 
 1. After enablement, have a system administrator open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), navigate to the registered environment, open the Dynamics 365 apps, and [apply the update for Dynamics 365 Field Service](update-field-service.md).
 
