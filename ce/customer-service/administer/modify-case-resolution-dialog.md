@@ -52,9 +52,9 @@ You can set the case resolution dialog that agents see when they resolve the cas
 
 1. Select **Save**.
 
-### Add or remove fields from the case resolution dialog
+### Add or remove fields from the custom case resolution dialog
 
-You can modify the case resolution dialog to add and remove a field.
+You can modify the custom case resolution dialog to add and remove a field.
 
 For example, you must add the **Billable Time** field to the case resolution dialog.
 
@@ -63,7 +63,7 @@ For example, you must add the **Billable Time** field to the case resolution dia
 > - Case resolution isn't supported if **Regarding** field is added to **Case resolution dialog**.
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
-1. Select **Tables**> **Forms** > **Case Resolution**.
+1. Select **Tables** > **Case Resolution** > **Forms** and select the required form.
 1. [Add the **Billable Time**](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form) field to the form.
 1. Select **Save and publish**.
 
@@ -72,9 +72,9 @@ For example, you must add the **Billable Time** field to the case resolution dia
 
 To remove the **Billable Time** field, perform the steps in the [delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#delete-columns-on-a-form).
 
-## Add custom values to the case resolution dialog
+## Add custom values to the custom case resolution dialog
 
-You can add a custom value to the case resolution dialog. You must perform the following steps to add a custom value to the case resolution dialog:
+You can add a custom value to the custom case resolution dialog. You must perform the following steps to add a custom value to the case resolution dialog:
 
  1. Add a custom value to the required field in the **Case** table.
  1. Update the required field in the **Case Resolution** table with the same custom value.
@@ -84,25 +84,28 @@ For example, your organization receives similar cases. You can add a case resolu
 ### Update the case table
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
-1. Select **Tables**> **Forms** > **Case**.
-1. In **Table Columns**, select the required column. For our example, select **Status Reason**.
-1. On the **Properties** pane for **Status Reason**, select **Edit table column**.
-1. For the required status add a new choice. For this example, let's select **Resolved** and then specify **Duplicate** in the choice. Copy the value in the **Value** field. 
+1. Select **Tables** > **Case** > **Columns** and then select the required column. For our example, select **Status Reason**.
+1. Select **Edit**.
+1. On the **Edit column** pane for **Status Reason**, select the required status and then add a new choice. For this example, you can select **Resolved** and then specify **Duplicate** in the choice. Copy the value in the **Value** field. 
 1. Select **Save** and then publish the changes.
+
+   :::image type="content" source="../media/powerapps-case-add-value.png" alt-text="Screenshot displaying the case status column":::
 
 ### Update the case resolution table
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
-1. Select **Tables**> **Forms** > **Case Resolution**.
-1. In **Table Columns**, select the required column. For example, select **Resolution Type**.
-1. On the **Properties** pane for **Resolution Type**, select **Edit table column**.
-1. In **Choices** add a new choice. In this example, let's specify **Duplicate** as the label and paste the copied value from the section above to the **Value** field. 
+1. Select **Tables** > **Case Resolution** > **Columns** and then select the required column. For example, select **Resolution Type**.
+1. Select **Edit**.
+1. On the **Edit column** pane for **Resolution Type**, in **Choices** add a new choice. In this example, you can specify **Duplicate** as the label and paste the copied value from the section above to the **Value** field. 
 1. Select **Save** and then publish the changes.
+
+   :::image type="content" source="../media/powerapps-case-resol-add-value.png" alt-text="Screenshot displaying the resolution type column":::
 
 > [!Important] 
 > If you change the value in **Case**, be sure to update the value in **Case Resolution** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you've specified won't be displayed.
 
-When resolving a duplicate case, agents can specify **Duplicate** in the **Resolution Type** field of the **New Case Resolution** dialog and the case is then marked as a duplicate.
+In our example, once you've added the custom value, **Duplicate**, agents will see this option when they [resolve a case](../use/customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case) in the **Resolution Type** dropdown of the **New Case Resolution** dialog. Agents can select this value and mark the case as duplicate.
+
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 

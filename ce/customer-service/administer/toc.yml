@@ -161,29 +161,27 @@
           - name: Define parent and child cases
             href: define-settings-parent-child-cases.md
           - name: Enable AI suggestions for similar cases
-            href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases  
+            href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases
+          - name: View similar case suggestions
+            href: suggest-similar-cases-for-a-case.md                
           - name: Allow updates for resolved and canceled cases
             href: update-resolved-canceled-cases.md
           - name: Modify case resolution dialog
             href: modify-case-resolution-dialog.md
           - name: Customize the case resolution experience
-            href: add-enhanced-case-management.md
+            href: add-enhanced-case-management.md          
+          - name: Enable enhanced case forms for multisession apps
+            href: case-enh-config.md    
+          - name: Configure components to display customer details and recent records
+            href: add-display-components-to-case-form.md
+          - name: Configure components to display case associations
+            href: add-associated-grid-control.md             
+          - name: Use Attachment Control to customize forms
+            href: add-attachment-control.md
           - name: Use the Due open activities control to customize forms
-            href: add-due-open-activities.md
-          - name: Enhanced case forms for multisession apps
-            items:              
-            - name: Enable enhanced case forms for multisession apps
-              href: case-enh-config.md    
-            - name: Configure components to display customer details and recent records
-              href: add-display-components-to-case-form.md
-            - name: Configure components to display case associations
-              href: add-associated-grid-control.md             
-            - name: Use Attachment Control to customize forms
-              href: add-attachment-control.md
+            href: add-due-open-activities.md               
           - name: Enable case grids
             href: enable-case-grids.md     
-          - name: View similar case suggestions
-            href: suggest-similar-cases-for-a-case.md  
           - name: Remove validation on contact and customer for cases
             href: remove-validation-contacts.md                  
           - name: FAQ on managing cases

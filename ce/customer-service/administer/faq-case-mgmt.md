@@ -1,7 +1,7 @@
 ---
 title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 11/03/2023
+ms.date: 12/22/2023
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -50,7 +50,7 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
 Yes, agents can update the case description or other information after the case has been resolved or canceled. You must configure and run flows in Power Automate or an API to update the case without having to reopen the case records. More information: [Allow updates for resolved and canceled cases](update-resolved-canceled-cases.md).
 
-### Why isn't the billable time isn't automatically updated on the case resolution dialog? 
+### Why isn't the billable time automatically updated on the case resolution dialog? 
 
 Billable time is the amount of time the agent spent on the case and can be billed to the customer. The application automatically calculates and displays the **Billable Time** value on the case resolution dialog, only if the **Total Time** field is also available on the dialog. If **Total Time** isn't displayed, agents have to manually add the billable time. More information: [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-case-resolution-dialog).
 
@@ -68,7 +68,7 @@ A case is resolved only when you select **Resolve case** on the command bar. You
 
 ### Why do I see errors when I try to resolve a case?
 
- Resolve a case isn't supported if **Regarding** is configured in **Case resolution dialog**, and agents will see errors if they try to resolve the case.
+ Resolve a case isn't supported if **Regarding** field is configured in **Case resolution dialog**, and agents will see errors if they try to resolve the case.
 
 ## Enhanced case experience
 
