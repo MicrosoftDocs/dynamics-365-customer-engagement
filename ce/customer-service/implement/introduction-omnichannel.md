@@ -38,7 +38,7 @@ Chat is an engagement channel that enables your agents to connect with customers
 
 > [!NOTE]
 >
-> The cookies used for live chat widget authentication aren't utilized for profiling or collecting Personally Identifiable Information (PII). 
+>  The live chat widget uses browser cookies for maintaining conversation states and improved performance, these cookies aren't utilized for profiling or collecting personally identifiable information (PII). 
 
 ### SMS
 
