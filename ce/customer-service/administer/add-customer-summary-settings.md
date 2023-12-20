@@ -19,6 +19,10 @@ The enhanced Active Conversation experience displays the customer and case detai
 
  More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
 
+Watch this video to understand about the enhanced active conversation form settings and how to set it up:
+
+> [!VIDEO https://www.youtube.com/embed/sLVOTt1-pgo]
+
 ## Manage Active Conversation form settings
 
 To enable the enhanced Active Conversation form and customize the form, perform the following steps:

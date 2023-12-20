@@ -1,27 +1,27 @@
 ---
-title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
-description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
-ms.date: 06/12/2023
+title: Customize the case resolution dialog
+description: Add custom fields and values to the case resolution dialog to improve case management and organization.
+ms.date: 12/20/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-searchScope: 
+searchScope:
   - D365-App-customerservicehub
   - D365-Entity-incident
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365
   - Customer Service
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-title
+  - ai-seo-date:12/20/2023
+  - ai-gen-desc
 ---
 
 # Modify the case resolution dialog
 
-You can customize the case resolution dialog to suit your business needs. You can modify the dialog to add fields like **Resolution type** or remove fields like **Billable Time**, if they don't apply to your business scenarios. You can also create case resolution rules by adding custom status values.
-The following sections discuss the permissions you'll need to modify the case resolution dialog and how to enable the option to customize dialogs in Customer Service Hub. You'll also learn to customize the case resolution dialog and add custom case resolution rules using examples.
-
-> [!Note]
-> The option to customize the case resolution dialog is also available in Dynamics 365 Customer Engagement (on-premises) 9.1.
-> More information: [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#configurable-case-resolution-page)
+You can customize the case resolution dialog to suit your business needs. You can also create case resolution rules by adding custom status values.
 
 ## Prerequisites
 
@@ -34,11 +34,9 @@ If you've created custom security roles, you'll need to update the roles to use 
 
 ## Customize dialogs
 
-By default, the style of the **Resolve case** dialog is set to standard dialog. You can, however, change the style to **Customizable dialog** so that you can add custom fields and values.
+Perform the following steps to set the Resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
-**To enable the Customizable dialog option**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. Navigate to one of the following apps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
@@ -54,11 +52,11 @@ By default, the style of the **Resolve case** dialog is set to standard dialog. 
 
 1. Select **Save**.
 
-## Add or remove fields from the case resolution dialog
+### Add or remove fields from the case resolution dialog
 
 You can modify the case resolution dialog to add and remove a field.
 
-As an example, let's see how to add the **Billable Time** field.
+For example, you must add the **Billable Time** field to the case resolution dialog.
 
 > [!NOTE]
 > - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
@@ -69,25 +67,25 @@ As an example, let's see how to add the **Billable Time** field.
 1. [Add the **Billable Time**](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form) field to the form.
 1. Select **Save and publish**
 
-To remove the field, perform the steps in the [delete columns on a form](add-move-or-delete-fields-on-form#delete-columns-on-a-form).
+   :::image type="content" source="../media/case-enh-resolution-mini.png" alt-text="Screenshot displaying the customized case resolution dialog" lightbox="../media/case-enh-resolution.png":::
 
-When the customer service representatives try to resolve a case, the case resolution dialog won't display the field that you've removed.
 
-## Add custom values to the case resolution dialog
+To remove the **Billable Time** field, perform the steps in the [delete columns on a form](add-move-or-delete-fields-on-form#delete-columns-on-a-form).
 
-You can add a custom value to the case resolution dialog. For example, you can add a custom value to the **Resolution Type** field to mark a case as a duplicate. You must perform the following steps to add a custom value to the case resolution dialog:
+### Add custom values to the case resolution dialog
 
- 1. Update the Case table to add a custom value to the table column.
- 1. Update the the Case Resolution table with the same custom value.
+You can add a custom value to the case resolution dialog. You must perform the following steps to add a custom value to the case resolution dialog:
 
-> [!Important] 
-> If you change the value in **Case**, be sure to update the value in **Case Resolution** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you specified won't be displayed.
+ 1. Add a custom value to the required field in the **Case** table.
+ 1. Update the required field in the **Case Resolution** table with the same custom value.
+
+For example, your organization receives similar cases. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a duplicate case by performing the steps in the following sections.
 
 ### Update the case table
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
 1. Select **Tables**> **Forms** > **Case**.
-1. In **Table Columns**, select the required column. For example, select **Status Reason**.
+1. In **Table Columns**, select the required column. For our example, select **Status Reason**.
 1. On the **Properties** pane for **Status Reason**, select **Edit table column**.
 1. For the required status add a new choice. For this example, let's select **Resolved** and then specify **Duplicate** in the choice. Copy the value in the **Value** field. 
 1. Select **Save** and then publish the changes.
@@ -101,7 +99,12 @@ You can add a custom value to the case resolution dialog. For example, you can a
 1. In **Choices** add a new choice. In this example, let's specify **Duplicate** as the label and paste the copied value from the section above to the **Value** field. 
 1. Select **Save** and then publish the changes.
 
-For the example in the sections above, when the customer service representatives try to resolve a case, the case resolution dialog displays the **Duplicate** value in the **Resolution Type** field and the case is then marked as a duplicate.
+> [!Important] 
+> If you change the value in **Case**, be sure to update the value in **Case Resolution** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you've specified won't be displayed.
+
+When resolving a duplicate case, agents can specify **Duplicate** in the **Resolution Type** field of the **New Case Resolution** dialog and the case is then marked as a duplicate.
+
+   :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 
 ### See also
 

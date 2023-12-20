@@ -31,6 +31,9 @@ Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode
 
 To resolve the error, ensure that role assigned to the agent has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box Customer Service Representative role before you create custom roles or modify permissions of roles assigned to agents. More information: [Roles and personas](role-persona-mapping.md)
 
+### Why do I see a warning when I try to select case attributes that a child case has to inherit from the parent case?
+
+If you see a warning when you select case attributes that a child case has to inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
 
 ## FAQ on resolving cases
 

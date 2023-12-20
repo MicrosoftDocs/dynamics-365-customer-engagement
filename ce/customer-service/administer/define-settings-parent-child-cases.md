@@ -47,7 +47,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
 2. In the **Case Settings** dialog, enter the following details:
 
-    a. In **Select the attributes**, select the **Case Title** and **Customer** attributes that are mandatory and any other case attribute, which the child case will inherit.
+    a. In **Select the attributes**, you must select the mandatory case attributes such as **Case Title** and **Customer**. The child case will inherit these attributes.
 
       You can view **Available** and **Selected** attributes in two lists; use the arrows **>**, **<**, **>>**, and **<<** to move the attributes from one list to another. 
   

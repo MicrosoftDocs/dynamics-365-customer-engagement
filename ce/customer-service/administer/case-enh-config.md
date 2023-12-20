@@ -18,7 +18,7 @@ Enable the enhanced **Quick case form** and **Full case form**  options so that 
 
 Watch this video to understand about the enhanced case form and how to set it up:
 
-> [!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA?si=1k1R5ZsZh0mm47s9]
+> [!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA]
 
 ## Enable enhanced case experience
 
