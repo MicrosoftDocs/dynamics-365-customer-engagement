@@ -34,14 +34,12 @@ Sync conflicts happen if there's a mismatch between data on the device and data 
 
 You can resolve conflict errors based on the settings set by the administrator. Conflicts happen at the table level and not per field.
 
-<!--- How do you get to this screen? --->
+<!--- Is this still accurate? See https://learn.microsoft.com/en-us/power-platform/admin/system-settings-dialog-box-mobile-client-tab --->
 
 To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Offline Settings** and the **Mobile Client** tab.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service settings showing the mobile offline menu option.](./media/mobile-powerapp-sync-conflict-navigate.png)
-
-### Set conflict detection for mobile offline synchronization
 
 - **No**: Data on the client device (mobile app) wins and there will be no sync errors. This setting is the default.
 
@@ -54,8 +52,18 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 ## View offline sync status
 
-The Field Service mobile app provides an offline sync icon that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors.
+The Field Service mobile app provides an [offline sync icon](/power-apps/mobile/offline-sync-icon) that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors. When you select the offline sync icon, the [**Device Status** page](/power-apps/mobile/offline-sync-icon#device-status-page) opens providing more details.
 
-For more information, see [View offline sync status](/power-apps/mobile/offline-sync-icon).
+You can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
 
-Additionally, you can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
+## Data removal from the mobile device
+
+At certain points following a sync, data which no longer meets the offline profile filter criteria might be removed form the mobile device. Data removal is most common in two instances:
+
+<!--- Do we need all this info? --->
+
+1. When the user of the mobile offline profile first signs in to the mobile application, it behaves as if it is in online mode until the first sync completes. During this time, data presented to the user is only restricted based on view filters. Following the completion of the first sync, the application changes to offline mode and shows only data that matches the mobile offline profile and the filters applied to the view.   Depending on the filters of the mobile offline profile, a frontline worker may find some records removed from their view when the application changes from online to offline mode. For example, while online they may see all past *Bookable Resource Bookings*, but after moving to offline mode bookings that start today or in the future.
+
+2. After an incremental sync while the user is already offline, data which does not meet filters of the mobile offline profile might be removed. For example, if the mobile offline profile filters all completed *Bookable Resource Bookings*, a newly completed booking gets removed from the agenda following a sync and is no longer accessible in the mobile application.
+
+If a user is actively viewing a record which is removed from the mobile offline database, they see a **Record Not Found** error. If this is a frequent occurrence, we recommend to review the filters to ensure they are not overly restrictive for key scenarios.
