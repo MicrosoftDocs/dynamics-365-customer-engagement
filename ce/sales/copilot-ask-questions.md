@@ -29,7 +29,7 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 Copilot fetches the list based on the following conditions:
 
-- The records are of the following types: leads, opportunities, and accounts.
+- The records are of the following types: Opportunity, Lead, and Account.
 - The records were updated in the last seven days.
 - The records are owned by you. For account records, the records are owned by you or your team.
 - The fields that were updated are [configured by your administrator](enable-setup-copilot.md#configure-fields-for-generating-whats-new-with-my-sales-records-list). If you've updated fields other than the configured fields, those records aren't listed in the response.
