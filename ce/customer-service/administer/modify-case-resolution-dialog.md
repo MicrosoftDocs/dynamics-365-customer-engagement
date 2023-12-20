@@ -52,7 +52,7 @@ You can set the case resolution dialog that agents see when they resolve the cas
 
 1. Select **Save**.
 
-### Add or remove fields from the custom case resolution dialog
+## Add or remove fields from the custom case resolution dialog
 
 You can modify the custom case resolution dialog to add and remove a field.
 
