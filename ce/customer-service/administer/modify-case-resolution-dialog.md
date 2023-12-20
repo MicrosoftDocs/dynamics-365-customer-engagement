@@ -32,9 +32,9 @@ Make sure that the CSR Manager and Customer Service Representative security role
 
 If you've created custom security roles, you'll need to update the roles to use the modified case resolution dialog.
 
-## Customize dialogs
+## Manage case resolution dialog settings
 
-Perform the following steps to set the Resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
+You can set the case resolution dialog that agents see when they resolve the case. By default, this is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
 1. Navigate to one of the following apps:
    
@@ -65,14 +65,14 @@ For example, you must add the **Billable Time** field to the case resolution dia
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
 1. Select **Tables**> **Forms** > **Case Resolution**.
 1. [Add the **Billable Time**](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#add-columns-to-a-form) field to the form.
-1. Select **Save and publish**
+1. Select **Save and publish**.
 
    :::image type="content" source="../media/case-enh-resolution-mini.png" alt-text="Screenshot displaying the customized case resolution dialog" lightbox="../media/case-enh-resolution.png":::
 
 
-To remove the **Billable Time** field, perform the steps in the [delete columns on a form](add-move-or-delete-fields-on-form#delete-columns-on-a-form).
+To remove the **Billable Time** field, perform the steps in the [delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form#delete-columns-on-a-form).
 
-### Add custom values to the case resolution dialog
+## Add custom values to the case resolution dialog
 
 You can add a custom value to the case resolution dialog. You must perform the following steps to add a custom value to the case resolution dialog:
 

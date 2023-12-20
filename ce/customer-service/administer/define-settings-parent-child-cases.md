@@ -23,7 +23,7 @@ searchScope:
 
 # Define parent and child case settings
 
-In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to **Service Management** and set up a few rules about how information is inherited. 
+In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. 
 
 ## Prerequisites
 
@@ -47,16 +47,16 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
 2. In the **Case Settings** dialog, enter the following details:
 
-    a. In **Select the attributes**, you must select the mandatory case attributes such as **Case Title** and **Customer**. The child case will inherit these attributes.
+    a. **Select the case attributes**: Select the mandatory case attributes whose values the child case will inherit. **Case Title** and **Customer** are mandatory attributes.
 
       You can view **Available** and **Selected** attributes in two lists; use the arrows **>**, **<**, **>>**, and **<<** to move the attributes from one list to another. 
   
-    b. In **Specify closure preference**, select a case closure setting that defines how parent and child cases are closed. Select one of the case closure options for parent and child cases:  
+    b. **Specify closure preference**: Select a case closure setting that defines how parent and child cases are closed. Select one of the case closure options for parent and child cases:  
   
-   - **Close all child cases when parent case is closed**: As soon as the parent case is closed, all the child cases are also closed.
-   - **Don't allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.
+     - **Close all child cases when parent case is closed**: As soon as the parent case is closed, all the child cases are also closed.
+     - **Don't allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.
 
-    c. In **Maximum number of child cases**, specify a number that denotes the number of child cases a parent case can have.
+    c. **Maximum number of child cases**: Specify a number that denotes the number of child cases a parent case can have.
 
       > [!Note]
       > We recommend that you specify a smaller value for **Maximum number of child cases** to avoid performance issues when cases are resolved or merged.
