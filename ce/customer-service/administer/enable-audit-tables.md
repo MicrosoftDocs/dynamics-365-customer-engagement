@@ -1,13 +1,17 @@
 ---
-title: Enable admin activity auditing
-description: Enable admin activity auditing in Dynamics 365 Customer Service. 
+title: Enable the ability to audit activities and user experiences
+description: Enable admins to audit activities, access user experiences, and programmable interface logs using the Microsoft Purview compliance portal.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
-ms.topic: how-to 
+ms.topic: how-to
 ms.collection:
-ms.date: 12/19/2023
-ms.custom: bap-template
+ms.date: 12/20/2023
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/20/2023
 ---
 
 # Enable the ability to audit activities and user experiences
@@ -16,26 +20,15 @@ As an administrator, you can audit activities and access user experiences and pr
 
 ## Set up admin activity auditing
 
-To enable admin activity auditing, complete the following steps:
+To enable admin activity auditing, perform the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables** > **Properties**.
 1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
 1. Select **Save**.
 
-## Search audited events
+:::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
 
-When the audit log search is turned on in the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/auditlogsearch?viewid=Async%20Search), the Microsoft Purview audit log records the admin activity in your organization. 
-
-You can use any of the following methods to search events in Microsoft Purview.
-
-- (list of components in screen shot)
-
-- Wild card search: Search for contextual information in the Microsoft Purview user experience. You can narrow the search constructs that are specific to individual events. 
-
-As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type. 
-
-For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](../purview/audit-solutions-overview). 
 
 ## Activities an admin can audit
 
@@ -140,8 +133,20 @@ The following table shows the activities that an admin can audit.
 | Organization | Disable Omnichannel in an organization. |
 | Organization | Enable omnichannel in a trial organization. | 
 
+## Search audited events
+
+When the audit log search is turned on in the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/auditlogsearch?viewid=Async%20Search), the Microsoft Purview audit log records the admin activity in your organization.
+
+You can use any of the following methods to search events in Microsoft Purview.
+
+- (list of components in screen shot)
+
+- Wild card search: Search for contextual information in the Microsoft Purview user experience. You can narrow the search constructs that are specific to individual events.
+
+As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type.
+
+For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](../purview/audit-solutions-overview).
+
 
 ## See also
 
-
- 
