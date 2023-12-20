@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Learn how to create and manage knowledge articles.
-ms.date: 12/14/2022
+ms.date: 12/20/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -35,15 +35,13 @@ Knowledge articles can address any number of issues your customers encounter whi
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](../administer/work-knowledge-articles.md)
 
-Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
+Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+1. In the Customer Service Hub site map, go to **Service** > **Knowledge Articles**.  
   
-2. On the command bar, select **New**.  
+1. Select **New**.  The **New Knowledge Article** page appears.
   
-   You’ll be on the **Content** tab of the knowledge article.
-  
-3. In the **Article Content** section, fill in the following details:  
+1. On the **Content** tab, **Article Content** section, fill in the following details:  
   
    - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
@@ -53,26 +51,26 @@ Ensure that you have Create and Read permissions on the Knowledge Article entity
    
        :::image type="content" source="../media/v9-add-cont_article.png" alt-text="Add article content":::
  
-4. In the **Content** section, add the content for your knowledge article.  
+1. In the **CONTENT** section, add the content for your knowledge article.  
   
    > [!NOTE]
-   > As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, your editing space is too small. If this is the case, you'll need to resize to a larger space. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
+   > As soon as you click within the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, it means that your editing space is too small. You'll need to resize to a larger space. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
-5. Select **Save**.
+1. Select **Save**.
    
-   As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+   After the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
-6. On the Business Process flow bar, select **Author**.  
+1. On the Business Process flow bar, select **Author**.  
 
-7. In the **Set Keywords** text box, add keywords for your article.
+1. In the **Set Keywords** text box, add keywords for your article.
   
-8. In the **Article Subject** dropdown list, choose the subject of the article to help with article searches.  
+1. In the **Article Subject** dropdown list, choose the subject of the article to help with article searches.  
   
-9. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
+1. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
 
     Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
     
-    You can mark the article complete by selecting the checkbox at this stage.
+    You can mark the article complete by selecting **Mark Complete** from the **Mark for Review** dropdown list at this stage.
 
 > [!TIP]
 > Select the icon ![Flyout icon.](../media/flyout.png) to pin the stage flyout vertically.
@@ -106,11 +104,11 @@ The selected keywords and description appear in the **Keywords** and **Descripti
 
 Authors can use the templates to create knowledge articles quickly because the fields for the knowledge article are prepopulated according to the selected template. To create knowledge articles using templates:
  
-Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.
+Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.
   
-1. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+1. In the Customer Service Hub site map, go to **Service** > **Knowledge Articles**.  
 
-    A list of available articles is displayed. 
+    A list of available articles appear.
 
 2.	To create an article from a template, select **+ New From Template**.
   
@@ -199,10 +197,10 @@ You can choose a specific format or style for the content you’re writing. The 
 
 You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. 
 
-Before using inline images, keep in mind the following: 
+Before using inline images, make sure that you use: 
 
-- These are the supported formats: PNG, JPG, or GIF
-- These are the supported browsers: Microsoft Edge, Chrome, Firefox, Safari
+- Supported formats: PNG, JPG, or GIF
+- Supported browsers: Microsoft Edge, Chrome, Firefox, Safari
 
 **Drag and drop an image**
 
@@ -221,7 +219,6 @@ Before using inline images, keep in mind the following:
 1. Open the image file that you want to copy to the editor.
 
 2. Right-click the image, then select **Copy**.
-
 
 3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select **Ctrl+V**.
 
@@ -277,7 +274,7 @@ To attach a file to a knowledge article:
 
 The **Attached files** section displays all your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
 
-For your attached files, use these commands to do the following:
+For your attached files, use the following commands:
 
 - **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
 - **Sort**: Allows you to sort records by a specific filter, such as file name or size.
