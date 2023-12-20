@@ -35,13 +35,14 @@ You want the forecast data to be up-to-date so that you can make informed decisi
 
 ## Understand forecast recalculation
 
-Forecast data is automatically recalculated in the following scenarios:
+The forecast data is automatically recalculated in the following scenarios:
 
 - After every 24 hours for the current forecast period.
 - At the end of each month for annual forecasts.
 - Immediately after you adjust the forecast values or update the underlying records on the **Forecasts** page. If you update the underlying records on the **Opportunities** page, the forecast data is recalculated only for the current forecast period at the next scheduled recalculation time.
+- Automatic recalculation happens only for active forecasts. 
 
-The following changes are not considered for automatic recalculation and hence you need to recalculate the forecast data manually:
+The following changes are not considered for automatic recalculation and hence you need to recalculate manually:
 
 - Changes to the forecast hierarchy.
 - Changes to the underlying records on the **Opportunities** page aren't reflected in the forecast data for past or future periods.
