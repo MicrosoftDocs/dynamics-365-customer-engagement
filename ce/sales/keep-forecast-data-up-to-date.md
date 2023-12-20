@@ -34,10 +34,10 @@ Forecast data is automatically recalculated after every 24 hours to keep the dat
 
 ## Recalculate and refresh forecast data manually
 
-Forecast data is automatically recalculated in the following scenarios:
+Forecast data is automatically recalculated for the current forecast period in the following scenarios:
 
 - After every 24 hours.
-- After you adjust the forecast values or update the underlying records on the **Forecasts** page for the current forecast period.
+- After you adjust the forecast values or update the underlying records on the **Forecasts** page.
 
 Automatic recalculation doesn't happen in the following scenarios, hence you need to recalculate the forecast data manually:
 
