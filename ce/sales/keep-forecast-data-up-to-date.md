@@ -22,7 +22,7 @@ searchScope:
 
 # Maintain up-to-date forecast data
 
-Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
+You want the forecast data to be up-to-date so that you can make informed decisions. Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
 
 ## License and role requirements
 
@@ -32,18 +32,34 @@ Forecast data is automatically recalculated after every 24 hours to keep the dat
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
+
+## Understand forecast recalculation
+
+Forecast data is automatically recalculated in the following scenarios:
+
+- After every 24 hours for the current forecast period.
+- At the end of each month for annual forecasts.
+- Immediately after you adjust the forecast values or update the underlying records on the **Forecasts** page. If you update the underlying records on the **Opportunities** page, the forecast data is recalculated only for the current forecast period at the next scheduled recalculation time.
+
+The following changes are not considered for automatic recalculation and hence you need to recalculate the forecast data manually:
+
+- Changes to the forecast hierarchy.
+- Changes to the underlying records on the **Opportunities** page aren't reflected in the forecast data for past or future periods.
+
+Let's understand this with an example. Consider a scenario where you have a forecast with 4 quarterly periods and an annual period. Assume that you're currently in Q4 and your recalculation task runs at 1 AM everyday. The following table shows when the forecast data is updated for different scenarios and periods.
+
+| Scenario | Q4 | Past Quarters | Annual | 
+|----------|----|---------------|--------|
+| You updated the estimated revenue of an underlying record from 10,000 to 20,000 on the **Forecasts** page. | Updated immediately | Updated immediately. | Updated at the end of the month. |
+|You updated the estimated revenue of an underlying record from 10,000 to 20,000 on the **Opportunities** page. | Updated at 1 AM | Updated only after a manual recalculation | Updated at the end of the month. | 
+| You updated the forecast hierarchy. | Updated only after a manual recalculation | Updated only after a manual recalculation | Updated only after a manual recalculation |
+| You adjusted the forecast value for Q4 | Updated immediately | Updated immediately | Updated at the end of the month. |
+
+
+
 ## Recalculate and refresh forecast data manually
 
-Forecast data is automatically recalculated for the current forecast period in the following scenarios:
-
-- After every 24 hours.
-- After you adjust the forecast values or update the underlying records on the **Forecasts** page.
-
-Automatic recalculation doesn't happen in the following scenarios, hence you need to recalculate the forecast data manually:
-
-- After you update the forecast hierarchy.
-- After you update the underlying records on the **Opportunities** page.
-- After you update the forecast data for past or future periods.
+Trigger a manual recalculation for scenarios where the forecast data isn't automatically recalculated. For example, there's a change in the forecast hierarchy.
 
 1. [Open the forecast](view-forecasts.md). Verify the **Last updated** timestamp on the command bar to know when the forecast was last recalculated successfully.
 
