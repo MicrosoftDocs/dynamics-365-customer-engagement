@@ -10,6 +10,9 @@ ms.author: jobaker
 
 # Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app
 
+## [Unified Interface UX](#tab/vCurrent)
+
+
 By default, the booking calendar control shows the following details associated with the booking:
 
 - **Account**
@@ -74,3 +77,27 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 
 > [!Note]
 > If you have configured multiple views for the mobile app, it is recommended you include the new fields into each view that can be accessed from the mobile app.
+
+
+## [New mobile UX (preview)](#tab/vNext)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+The agenda view is the default view in the [new user experience of the Field Service mobile app](mobile-powerapp-newux-overview.md). It shows a list of bookings currently assigned to the signed in user, arranged in chronological order. Select **Home** in the bottom navigation to return to the home page. By default, the booking calendar shows the following details associated with each booking:
+
+- Account
+- Incident type
+- Address
+- Booking status
+- Start time and duration
+
+The agenda view shows data from the *Bookable Resource Booking* table and its related tables. Booking status, start time and duration always show. You can customize which data to show by adding, removing, or changing the order of the data columns. [Consider using a solution to apply your customizations.](/power-apps/maker/data-platform/solutions-overview)
+
+Go to Power Apps and navigate to **Tables** > **Bookable Resource Booking** > **Views** and customize **Bookings – Agenda View**.
+
+All columns in this view will be shown. However, we recommend to keep the number of columns below 10 to maintain readability and performance. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
+
+> [!NOTE]
+> You can't set other views as default in the new mobile user experience at the moment.
+
+---
