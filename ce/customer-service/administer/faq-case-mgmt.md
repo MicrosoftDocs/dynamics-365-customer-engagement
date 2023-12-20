@@ -43,7 +43,7 @@ As part of April 2023 wave, by default, agents see the minimal case resolution d
 
    > [!NOTE]
    > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
-   > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable Time**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md##add-or-remove-fields-from-the-custom-case-resolution-dialog).
+   > - If **Resolve case dialog**  is set to **Customizable dialog** or **Quick create dialog**, to add **Duration**, **Billable Time**, **Total Time** and other customizations, perform the steps in [Add or remove fields from the case resolution dialog](modify-case-resolution-dialog.md#add-or-remove-fields-from-the-custom-case-resolution-dialog).
 
 
 ### Can I update cases after they're resolved or canceled?
