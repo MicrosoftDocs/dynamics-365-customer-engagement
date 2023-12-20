@@ -70,7 +70,7 @@ Custom fields are also shown on the calendar's day view when the booking duratio
 
 [!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
-The agenda view is the default view in the [new user experience of the Field Service mobile app](mobile-powerapp-newux-overview.md). It shows a list of bookings currently assigned to the signed in user, arranged in chronological order. Select **Home** in the bottom navigation to return to the home page. By default, the booking calendar shows the following details associated with each booking:
+The agenda view is the default view in the [new user experience of the Field Service mobile app](mobile-powerapp-newux-overview.md). It shows the list of bookings in chronological order that are assigned to the user who's signed in to the app. Select **Home** in the bottom navigation to return to the home page. By default, the agenda view shows the following details associated with each booking:
 
 - Account
 - Incident type
@@ -80,13 +80,13 @@ The agenda view is the default view in the [new user experience of the Field Ser
 
 :::image type="content" source="media/agenda-view.png" alt-text="Device render of a mobile device showing bookings on the home page in the agenda view.":::
 
-The agenda view shows data from the *Bookable Resource Booking* table and its related tables. Booking status, start time and duration always show. You can customize which data to show by adding, removing, or changing the order of the data columns. [Consider using a solution to apply your customizations.](/power-apps/maker/data-platform/solutions-overview)
+The agenda view shows data from the *Bookable Resource Booking* table and related tables. Booking status, start time and duration always show. You can customize which data to show by adding, removing, or changing the order of the data columns. [Consider using a solution to apply your customizations.](/power-apps/maker/data-platform/solutions-overview)
 
 Go to Power Apps and navigate to **Tables** > **Bookable Resource Booking** > **Views** and customize **Bookings – Agenda View**.
 
 :::image type="content" source="media/agenda-view-power-apps.png" alt-text="Agenda view in the list of views in the Power Apps maker experience.":::
 
-All columns in this view show on a booking card. However, we recommend keeping the number of columns below 10 to maintain readability and performance. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
+All columns in this view can show on a booking card. However, we recommend keeping the number of columns below 10 to maintain readability and performance. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
 
 > [!NOTE]
 > You can't set other views as default in the new mobile user experience at the moment.
