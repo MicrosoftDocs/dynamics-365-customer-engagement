@@ -1,7 +1,7 @@
 ---
 title: Maintain up-to-date forecast data
-description: Recalculate and refresh forecast data manually to keep up-to-date with changes.
-ms.date: 09/01/2023
+description: Understand when the forecast data is recalculated automatically and when and how to trigger a manual recalculation.
+ms.date: 12/20/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,7 @@ searchScope:
   - Customer Engagement
 ---
 
-# Maintain up-to-date forecast data 
+# Maintain up-to-date forecast data
 
 Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
 
