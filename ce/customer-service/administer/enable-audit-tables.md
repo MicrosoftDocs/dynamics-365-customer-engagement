@@ -32,7 +32,7 @@ To enable admin activity auditing, perform the following steps:
 1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
 1. Select **Save**.
 
-:::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
+  :::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
 
 ## Activities an admin can audit
 
