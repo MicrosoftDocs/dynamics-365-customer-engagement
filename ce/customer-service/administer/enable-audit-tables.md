@@ -1,6 +1,6 @@
 ---
-title: Enable the ability to audit activities and user experiences
-description: Enable admins to audit activities, access user experiences, and programmable interface logs using the Microsoft Purview compliance portal.
+title: Enable the ability to audit activities and user logins
+description: Audit activities and access user logins using the Microsoft Purview compliance portal with the ability to search audited events.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -14,9 +14,14 @@ ms.custom:
   - ai-seo-date:12/20/2023
 ---
 
-# Enable the ability to audit activities and user experiences
+# Audit activities and access user logins
 
-As an administrator, you can audit activities and access user experiences and programmable interface logs using the Microsoft Purview compliance portal.
+As an administrator, you can audit activities and access user logins and programmable interface logs using the Microsoft Purview compliance portal.
+
+## Prerequisites
+
+- You have administrator permissions.
+- To view audit results, you have access to the Purview tool. More information: [Permissions in the Microsoft Purview portal (preview)](/purview/purview-permissions)
 
 ## Set up admin activity auditing
 
@@ -28,7 +33,6 @@ To enable admin activity auditing, perform the following steps:
 1. Select **Save**.
 
 :::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
-
 
 ## Activities an admin can audit
 
@@ -50,15 +54,15 @@ The following table shows the activities that an admin can audit.
 | subject | Categorize cases for quick service to customers. |
 | convertrule | Automatically create or update records. |
 | incident | Track multiple issues for customers. |
-| advancedsimilarityrule | View similar cases in customer service hub. |
-| SaveSettingValue | Simplified case experience for productivity. |
+| advancedsimilarityrule | View similar cases in Customer Service Hub. |
+| SaveSettingValue | Simplify case experience for productivity. |
 | msdyn_integratedsearchprovider | Ingest knowledge search data into an organization. | 
 | msdyn_kmfederatedsearchconfig | Find and share knowledge from multiple resources. |
 | msdyn_knowledgearticletemplate | Simplify creating knowledge articles. |
 | Organization | Configure search control for knowledge searches. |
-| The entity with knowledge management enabled | Enable record types for knowledge management. |
+| knowledge management settings | Enable record types for knowledge management. |
 | Organization | Configure record types for agents and authors. |
-| Categorie | Categorize knowledge articles. |
+| Categories | Categorize knowledge articles. |
 | Organization,  msdyn_knowledgesearchfilter | Set up standard and custom filters. |
 | Organization | Share knowledge articles as URLs. |
 | Organization, msdyn_UpdatePaneTabConfigForTeam | Manage agent chat experience. |
@@ -87,12 +91,12 @@ The following table shows the activities that an admin can audit.
 | msdyn_sentimentanalysis | Set up machine learning to predict sentiment. |
 | msdyn_panetoolconfiguration | Help agents resolve issues quickly. |
 | msdyn_omnichannelconfiguration | Enable transcript. |
-| msdyn_ocvoicechannelsetting,msdyn_liveworkstream, msdyn_ocprovisioningstate | Create configurations for agents to make/receive calls. |
-| msdyn_omnichannelconfiguration | Try sending and receiving formatted messages. |
-| msdyn_cannedmessage, msdyn_octag | Enable agents to create quick replies. | 
-| msdyn_ocrichobject, msdyn_octag | Create rich messaging experience for customers. "
+| msdyn_ocvoicechannelsetting,msdyn_liveworkstream, msdyn_ocprovisioningstate | Create configurations for agents to make or receive calls. |
+| msdyn_omnichannelconfiguration | Send and receive formatted messages. |
+| msdyn_cannedmessage, msdyn_octag | Enable agents to create quick replies. |
+| msdyn_ocrichobject, msdyn_octag | Create rich messaging experience for customers.
 | msdyn_ocsystemmessage | Create reusable messages for customers. |
-| msdyn_productivityagentscript | Create scripts for agents, |
+| msdyn_productivityagentscript | Create scripts for agents. |
 | workflow, msdyn_productivitymacrosolutionconfiguration | Create automated actions for efficiency. |
 | msdyn_presence | Set presences to auto update for agents. |
 | msdyn_omnichannelconfiguration | Create rules to mask sensitive data. |
@@ -110,7 +114,7 @@ The following table shows the activities that an admin can audit.
 | characteristic | Map roles to personas for multiple services. |
 | msdyn_personasecurityrolemapping, role | Manage key attributes for users in bulk. |
 | msdyn_ocautoblockrule, msdyn_ocflaggedspam | Review and manage blocked numbers. |
-| msdyn_authenticationsettings | Validate signed-in customers from a domain, |
+| msdyn_authenticationsettings | Validate signed-in customers from a domain. |
 | msdyn_ocapplepay, msdyn_ocpaymentprofile | Set up payment profiles to support commerce. |
 | msdyn_oc_geolocationprovider | Detect customer location via coordinates. |
 | msdyn_ocphonemusic | Manage music files for hold or wait music. |
@@ -118,20 +122,20 @@ The following table shows the activities that an admin can audit.
 | msdyn_ocoutboundconfiguration | Send messages to targeted customers. |
 | msdyn_oclocalizationdata | Customize messages for agents in sessions. |
 | msdyn_iotsettings | Setup settings for IoT. |
-| msdyn_operatinghour | Define hours agents interact with customers. |
+| msdyn_operatinghour | Define the hours agents interact with customers. |
 | calendar | Create a holiday schedule for your calendar. |
 | calendar | Define availability for customer support. |
-| msdyn_organizationalunit | Create org units that reflect your business. |
+| msdyn_organizationalunit | Create organizational units that reflect your business. |
 | equipment | Create sites to define locations for customer service. |
-| bookableresource | Schedule anything termed a resource. |
+| bookableresource | Schedule anything termed as a resource. |
 | service | Define specifics of services for customers. |
 | msdyn_businessclosure | Prevent scheduling resources on holidays. |
 | msdyn_timegroup | Customize how to show assistant results. 
 | bookableresourcecategory | Group bookable resources by type. |
-| Organization | Provision omnichannel in an organization. | 
-| Organization | Upgrade omnichannel solutions in an organization. |
-| Organization | Disable Omnichannel in an organization. |
-| Organization | Enable omnichannel in a trial organization. | 
+| organization | Provision Omnichannel in an organization. | 
+| organization | Upgrade Omnichannel solutions in an organization. |
+| organization | Disable Omnichannel in an organization. |
+| organization | Enable Omnichannel in a trial organization. | 
 
 ## Search audited events
 
@@ -139,7 +143,7 @@ When the audit log search is turned on in the [Microsoft Purview compliance port
 
 You can use any of the following methods to search events in Microsoft Purview.
 
-- (list of components in screen shot)
+- [Searches](/purview/audit-new-search#get-started-with-audit-new-search)
 
 - Wild card search: Search for contextual information in the Microsoft Purview user experience. You can narrow the search constructs that are specific to individual events.
 
@@ -147,6 +151,8 @@ As you search, individual activities are shown. A common schema is enforced to e
 
 For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](../purview/audit-solutions-overview).
 
-
 ## See also
 
+- [Microsoft Purview compliance portal](/purview/microsoft-365-compliance-center)
+- [Set up Microsoft Purview auditing solutions](/purview/audit-solutions-overview#set-up-microsoft-purview-auditing-solutions)
+- [Audit New Search](/purview/audit-new-search)
