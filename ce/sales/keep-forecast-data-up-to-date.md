@@ -42,19 +42,19 @@ The forecast data is automatically recalculated in the following scenarios:
 - Immediately after you adjust the forecast values or update the underlying records on the **Forecasts** page. If you update the underlying records on the **Opportunities** page, the forecast data is recalculated only for the current forecast period at the next scheduled recalculation time.
 - Automatic recalculation happens only for active forecasts. 
 
-The following changes are not considered for automatic recalculation and hence you need to recalculate manually:
+The following changes are not considered during automatic recalculation and hence you need to recalculate manually:
 
 - Changes to the forecast hierarchy.
 - Changes to the underlying records on the **Opportunities** page aren't reflected in the forecast data for past or future periods.
 
 Let's understand this with an example. Consider a scenario where you have a forecast with 4 quarterly periods and an annual period. Assume that you're currently in Q4 and your recalculation task runs at 1 AM everyday. The following table shows when the forecast data is updated for different scenarios and periods.
 
-| Scenario | Q4 | Past Quarters | Annual | 
+| Scenario | Current quarter (Q4) | Past quarters | Annual | 
 |----------|----|---------------|--------|
-| You updated the estimated revenue of an underlying record from 10,000 to 20,000 on the **Forecasts** page. | Updated immediately | Updated immediately. | Updated at the end of the month. |
+| You updated the estimated revenue of an underlying record from 10,000 to 20,000 on the **Forecasts** page. | Updated immediately | Updated immediately | Updated at the end of the month |
 |You updated the estimated revenue of an underlying record from 10,000 to 20,000 on the **Opportunities** page. | Updated at 1 AM | Updated only after a manual recalculation | Updated at the end of the month. | 
 | You updated the forecast hierarchy. | Updated only after a manual recalculation | Updated only after a manual recalculation | Updated only after a manual recalculation |
-| You adjusted the forecast value for Q4 | Updated immediately | Updated immediately | Updated at the end of the month. |
+| You adjusted the forecast value for Q4 | Updated immediately | Updated immediately | Updated at the end of the month |
 
 
 
