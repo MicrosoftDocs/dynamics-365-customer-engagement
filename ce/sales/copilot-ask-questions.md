@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot questions in Dynamics 365 Sales to know what's new with your leads, opportunities, and accounts and new records are assigned to you.
-ms.date: 10/23/2023
+ms.date: 12/20/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -29,9 +29,9 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 
 Copilot fetches the list based on the following conditions:
 
-- The records are owned by you.
-- The records were updated in the last seven days.
 - The records are of the following types: leads, opportunities, and accounts.
+- The records were updated in the last seven days.
+- The records are owned by you. For account records, the records are owned by you or your team.
 - The fields that were updated are [configured by your administrator](enable-setup-copilot.md#configure-fields-for-generating-whats-new-with-my-sales-records-list). If you've updated fields other than the configured fields, those records aren't listed in the response.
 - If there are more than five records of a record type, Copilot picks the top five records that were most recently updated.
 

@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 12/18/2023
+ms.date: 12/20/2023
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -38,7 +38,7 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. An admin can change the fields that Copilot uses to generate the summary. Your entire sales team should agree on the top 10 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
@@ -47,13 +47,13 @@ Learn more:
 
 ### Recent changes
 
-To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. 
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
-- [View recent changes to your lead or opportunity in the last seven days or since the last login](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
-- [View recent changes to your lead, opportunity, and account records in the last seven days](copilot-ask-questions.md#whats-new-with-my-sales-records)
-- [View the leads and opportunities assigned to you in the last 15 days](copilot-ask-questions.md#whats-newly-assigned-to-me)
+- [View recent changes to your lead or opportunity](copilot-ask-questions.md#get-recent-changes-to-a-lead-or-opportunity)
+- [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
+- [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
 - [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
 
 
