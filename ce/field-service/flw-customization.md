@@ -1,5 +1,5 @@
 ---
-title: Customize the Microsoft 365 integration for Field Service
+title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
 ms.date: 12/05/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Customize the Microsoft 365 integration for Field Service
+# Customize the Microsoft 365 integrations for Field Service
 
 Customize the work order and booking experiences to help frontline managers and workers accomplish their tasks faster by filling in and retrieving the specific pieces of information they need, when they need it. As an admin, customize the work order form with the most important information for your organization. Any fields you add to the form are readily available to your users when creating and updating a work order in Outlook or Teams. In Outlook, Copilot also attempts to populate those fields if there's relevant information provided in the email. Customize the booking experience with the key details for your organization so workers fill out that information when updating their bookings.
 
