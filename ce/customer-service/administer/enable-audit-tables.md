@@ -20,7 +20,7 @@ As an administrator, you can audit activities and access user logins and program
 
 ## Prerequisites
 
-- You have administrator permissions.
+- You are an administrator.
 - To view audit results, you have access to the Purview tool. More information: [Permissions in the Microsoft Purview portal (preview)](/purview/purview-permissions)
 
 ## Set up admin activity auditing
