@@ -32,7 +32,7 @@ To enable admin activity auditing, perform the following steps:
 1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
 1. Select **Save**.
 
-  :::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
+      :::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
 
 ## Activities an admin can audit
 
@@ -149,7 +149,7 @@ You can use any of the following methods to search events in Microsoft Purview.
 
 As you search, individual activities are shown. A common schema is enforced to enable search constructs across activities. The value in the PropertyCollection field is specific to each activity type.
 
-For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](../purview/audit-solutions-overview).
+For more information about the Microsoft Purview audit log, data retention policies, and capabilities, see [Auditing solutions in Microsoft Purview](/purview/audit-solutions-overview).
 
 ## See also
 
