@@ -18,7 +18,7 @@ ms.custom:
 
 When you update the underlying records, adjust the forecast values, or update the forecast hierarchy, the forecast data should be recalculated to reflect the changes. Forecasts are recalculated using the methods described in this article.
 
-## Delta recalculation
+## Automatic delta recalculation
 
 Delta recalculation happens immediately in the following scenarios:
 
@@ -26,7 +26,7 @@ Delta recalculation happens immediately in the following scenarios:
 
 - After you adjust the forecast values.
 
-## Full recalculation
+## Automatic full recalculation
 
 Full recalculation happens at the end of every month for annual periods and at the end of every day for all other periods. The forecast must be in active state. This method takes into account the following changes:
 
@@ -34,7 +34,7 @@ Full recalculation happens at the end of every month for annual periods and at t
 
 - Updates to the forecast hierarchy.  
 
-## Manual recalculation
+## Manual full recalculation
 
 You can [trigger a manual recalculation](keep-forecast-data-up-to-date.md) at any time. This is useful in the following scenarios:
 
@@ -52,3 +52,17 @@ Let's understand the different methods with an example. Consider a scenario wher
 |You updated the estimated revenue of an underlying record from 100,000 to 200,000 on the **Opportunities** page. | Updated at the end of the day | Updated only after a manual recalculation | Updated at the end of the month. | 
 | You updated the forecast hierarchy. | Updated at the end of the day | Updated only after a manual recalculation | Updated at the end of the month |
 | You adjusted the forecast value for Q4 | Updated immediately | Updated immediately | Updated immediately |
+
+## What's calculated when full recalculation happens?
+
+When full recalculation happens, either automatic or manual, the following updates are made to the forecast data:
+
+    -	The aggregation and roll-ups for the underlying data are recalculated.
+    
+    -	Any target or quota changes are checked and updated.
+    
+    -	Any other changes affecting the forecast values (including hierarchy changes) are refreshed.
+    
+    -	Only the current forecast period is recalculated.
+    - No changes are made to the forecast values that were manually adjusted.
+    - No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.

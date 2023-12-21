@@ -47,18 +47,9 @@ Trigger a manual recalculation for scenarios where the forecast data isn't autom
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. You'll notice the following updates to the forecast:
+2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. [Learn more about what's calculated when full recalculation happens?](forecast-recalculation-methods.md#whats-calculated-when-full-recalculation-happens)
 
-    -	The aggregation and roll-ups for the underlying data are recalculated.
-    
-    -	Any target or quota changes are checked and updated.
-    
-    -	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
-    
-    -	Only the current forecast period is recalculated.
-    - No changes are made to the forecast values that were manually adjusted.
-    - No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
-    
+  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
