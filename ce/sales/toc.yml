@@ -912,7 +912,7 @@
           href: view-and-manage-underlying-opportunities.md
         - name: Adjust values in a forecast
           href: adjust-values-in-forecast.md
-        - name: Maintain up to date forecast data
+        - name: Recalculate forecasts manually
           href: keep-forecast-data-up-to-date.md
         - name: Forecast recalculation methods
           href: forecast-recalculation-methods.md
