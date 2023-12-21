@@ -30,12 +30,12 @@ The new scheduling experience is available to you if you have one of the followi
 
 Scheduling in the Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. 
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up the scheduling experience](basics-service-service-scheduling.md#set-up-the-service-scheduling-experience)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up the scheduling experience](scheduling-experience.md)
 
 
 ## Is manual selection of resources supported in a service activity in the new scheduling experience?
 
-While creating a service activity, manual selection of resources is not supported in the new scheduling experience in Customer Service Hub.
+When you create a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service Hub.
 
 
 ## How do I install Core Service Scheduling from the Power Platform admin center?
@@ -44,7 +44,10 @@ For steps on how to install Core Service Scheduling from the Power Platform admi
 
 ### See also
 
-[Service Scheduling Guide](basics-service-service-scheduling.md)
+[Overview of service scheduling](basics-service-service-scheduling.md
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 
 

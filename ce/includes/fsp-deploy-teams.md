@@ -1,10 +1,5 @@
-Make the Field Service (Preview) app available in Teams.
+1. In the Teams App Store or [Microsoft AppSource](https://appsource.microsoft.com/), search for and select **Field Service**.
 
-1. From the Teams App Store, search for **Field Service (Preview)**.
+1. Select **Add**, **Get it now**, or **Update**. Confirm your information.
 
-   > [!NOTE]
-   > You can also go to [Microsoft AppSource](https://appsource.microsoft.com/).
-
-   :::image type="content" source="../field-service/media/fsp-teams-app-admin.png" alt-text="Dynamics 365 Field Service (Preview) for Teams tile showing Get it now.":::
-
-1. Select the **Field Service (Preview)** for Teams app and select **Add** or **Get it now**. Confirm your information.
+1. Right-click the app icon in your app list, and then select **Pin**.

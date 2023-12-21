@@ -904,6 +904,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/administer/copilot-data-movement.md",
+      "redirect_url": "/power-platform/admin/geographical-availability-copilot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/timeline-faqs.md",
       "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
       "redirect_document_id": "false"
@@ -28660,7 +28665,7 @@
     },
     {
       "source_path": "ce/customer-service/enh-casemgmt-csw.md",
-      "redirect_url": "administer/enh-casemgmt-csw",
+      "redirect_url": "use/enh-casemgmt-csw",
       "redirect_document_id": false
     },
     {
@@ -30005,7 +30010,7 @@
     },
     {
       "source_path": "ce/customer-service/sla-time-scenarios.md",
-      "redirect_url": "use/sla-time-scenarios",
+      "redirect_url": "administer/sla-time-scenarios",
       "redirect_document_id": false
     },
     {

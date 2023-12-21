@@ -32,7 +32,7 @@ items:
           href: field-service-version-history-resource-scheduling-optimization.md
         - name: Version history archive
           href: version-history-archive.md
-        - name: Microsoft 365 integrations for Field Service (preview)
+        - name: Microsoft 365 integrations for Field Service
           href: flw-whats-new.md
     - name: Deprecations
       href: deprecations-field-service.md
@@ -93,8 +93,12 @@ items:
   items: 
     - name: Work order recap with copilot
       href: work-order-recap.md
+    - name: Work order update
+      href: work-order-update.md
     - name: Work order creation in Outlook with copilot
-      href: flw-outlook.md#create-a-work-order-in-outlook-using-copilot-in-field-service-preview
+      href: flw-outlook.md#create-a-work-order-with-copilot
+    - name: Microsoft Copilot for Field Service work orders (preview)
+      href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -168,18 +172,26 @@ items:
     - name: Travel charges
       href: travel-charges.md
 
-- name: Microsoft 365 integrations for Field Service (preview)
+- name: Microsoft 365 integrations for Field Service
   items:
     - name: Overview
       href: flw-overview.md
     - name: Administrators
-      href: flw-admin.md
-    - name: Outlook add-in with Copilot for the frontline manager
+      items:
+        - name: Set up integrations for Field Service
+          href: flw-admin.md
+        - name: Customize views
+          href: flw-customization.md
+        - name: Set up the Field Service Plugin for Microsoft Copilot (preview)
+          href: flw-copilot-setup.md
+    - name: Work with Field Service in Outlook (frontline managers)
       href: flw-outlook.md
-    - name: Teams app for the frontline manager
+    - name: Work with Field Service in Teams (frontline managers)
       href: flw-teams-manager.md
-    - name: Teams app for the frontline worker
+    - name: Work with Field Service in Teams (frontline workers)
       href: flw-teams-worker.md
+    - name: Field Service Plugin for Microsoft Copilot (preview)
+      href: flw-m365-chat.md
 
 - name: Scheduling
   items:
@@ -516,7 +528,7 @@ items:
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: FAQ about the Field Service mobile app
     href: mobile-power-app-faq.yml
-  - name: Microsoft 365 integrations for Field Service (preview) troubleshooting
+  - name: Microsoft 365 integrations for Field Service troubleshooting
     href: flw-troubleshooting.md
   - name: New Field Service mobile experience (preview) troubleshooting
     href: troubleshooting-mobile-newux.md
@@ -529,6 +541,8 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about work order recap
       href: faqs-work-order-recap.md
+    - name: FAQ about work order update
+      href: faqs-work-order-update.md
 
 - name: More resources
   items:
