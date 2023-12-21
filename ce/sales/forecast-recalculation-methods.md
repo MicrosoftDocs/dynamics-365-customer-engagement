@@ -1,8 +1,8 @@
 ---
 title: Forecast recalculation methods
 description: Learn about different forecast recalculation methods and when and how the forecast data is updated with an example.
-author: lavanyakr
-ms.author: lavanyakr01
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection: get-started
@@ -16,9 +16,9 @@ ms.custom:
 
 # Forecast recalculation methods
 
-When you update the underlying records, adjust the forecast values, or update the forecast hierarchy, the forecast data should be recalculated to reflect the changes. Forecasts are recalculated using the following methods:
+When you update the underlying records, adjust the forecast values, or update the forecast hierarchy, the forecast data should be recalculated to reflect the changes. Forecasts are recalculated using the methods described in this article.
 
-**Delta recalculation**
+## Delta recalculation
 
 Delta recalculation happens immediately in the following scenarios:
 
@@ -26,21 +26,23 @@ Delta recalculation happens immediately in the following scenarios:
 
 - After you adjust the forecast values.
 
-**Full recalculation**
+## Full recalculation
 
-Full recalculation happens at the end of every month for annual periods and at the end of every day for all other periods. It takes into account the following changes:
+Full recalculation happens at the end of every month for annual periods and at the end of every day for all other periods. The forecast must be in active state. This method takes into account the following changes:
 
 - Updates to the underlying records on the **Opportunities** page.
 
 - Updates to the forecast hierarchy.  
 
-**Manual recalculation**
+## Manual recalculation
 
 You can [trigger a manual recalculation](keep-forecast-data-up-to-date.md) at any time. This is useful in the following scenarios:
 
 - You want to recalculate the forecast data for past or future periods.
 
 - You want the full recalculation to happen immediately instead of waiting for the end of the day.
+
+## Example of forecast recalculation methods
 
 Let's understand the different methods with an example. Consider a scenario where you have a forecast with 4 quarterly periods and an annual period. Assume that you're currently in Q4. The following table shows when and how the forecast data is updated for different scenarios and periods.
 
