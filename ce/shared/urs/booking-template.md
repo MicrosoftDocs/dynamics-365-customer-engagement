@@ -22,6 +22,9 @@ In the **Booking Template** field, override the booking template by entering HTM
 >
 > To display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. This results in field reference `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`. Add more relationship hops by connecting them with an additional period.
 
+> [!NOTE]
+> Javascript is not supported in the booking template.
+
 ## Custom booking template example
 
 For this example, we create a custom booking template for the work order entity. The following code snippet pulls values from the work order that relate to the booking.
