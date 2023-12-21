@@ -84,8 +84,9 @@ After you configure the agent script and add the field to a form, you need to as
 
      In the site map, select **Session templates** in **Workspaces**.
 
-   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
    
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
       In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
@@ -119,7 +120,7 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
      In the site map, select **Session templates** in **Workspaces**.
 
-   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
    
 
       In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.

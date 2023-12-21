@@ -44,6 +44,8 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
 
 ## Configure an Apple Messages for Business channel instance in Omnichannel admin center
 
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+
 To add the Apple Messages for Business channel instance, complete the following steps:
 
 1. In the Omnichannel site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.

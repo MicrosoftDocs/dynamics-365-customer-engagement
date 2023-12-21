@@ -43,7 +43,9 @@ For a capacity profile, you can add or remove users and edit any setting except 
    
     - In the site map, select **User management** in **Customer support**. The **User management** page appears.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     - In the site map, select **User attributes** under **Advanced settings**.
     

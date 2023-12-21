@@ -29,7 +29,9 @@ You can view a list of all agent and customer-facing automated messages in your 
 
      The **Automated messages** page is displayed.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Automated messages** section, select **Manage**.

@@ -15,6 +15,8 @@ After an agent accepts the conversation request, a session starts for which the 
 
 ## Associate templates with workstreams in Omnichannel admin center
 
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
 After you create a workstream, you can modify the default templates that are attached to the workstream.
 
 Perform the following steps:

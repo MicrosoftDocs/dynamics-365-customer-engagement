@@ -31,7 +31,9 @@ To ensure that the skill control is loaded and displayed properly for the routed
    
     - In the site map, select **User management** in **Customer support**. The **User management** page appears.
        
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **User attributes** under **Advanced settings**.
     

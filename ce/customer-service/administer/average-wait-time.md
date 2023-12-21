@@ -25,7 +25,9 @@ The average wait time is calculated based on wait times from the previous 48 hou
 
 ## Enable average wait time
 
-If you're using Customer Service admin center or Omnichannel admin center, follow these steps:
+If you're using the Customer Service admin center or Omnichannel admin center (deorecated) app, follow these steps:
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
 1. Go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat channel Settings** page, go to the **Behaviors** tab.
 

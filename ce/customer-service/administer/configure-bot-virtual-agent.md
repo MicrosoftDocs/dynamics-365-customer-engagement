@@ -63,7 +63,9 @@ Follow the procedure in the section [Connect omnichannel to your Copilot Studio 
 
 ## Configure your Copilot Studio bot in the admin app
 
-In Customer Service admin center or Omnichannel admin center, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+
+In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
 > Bots can receive conversations only if they're added to push-based workstreams.
