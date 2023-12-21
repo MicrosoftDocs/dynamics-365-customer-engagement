@@ -1,7 +1,7 @@
 ---
 title: FAQ on managing cases
 description: Learn about the frequently asked questions (FAQ) on the different features in case management.
-ms.date: 12/22/2023
+ms.date: 12/21/2023
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham

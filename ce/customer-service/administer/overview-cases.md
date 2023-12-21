@@ -1,7 +1,7 @@
 ---
 title: "Overview of case management | MicrosoftDocs"
 description: "This topic provides information on how to manage cases in Dynamics 365 Customer Service apps."
-ms.date: 12/22/2023
+ms.date: 12/21/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
