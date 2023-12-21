@@ -1,5 +1,5 @@
 ---
-title: Maintain up-to-date forecast data
+title: Recalculate forecasts manually
 description: Understand when the forecast data is recalculated automatically and when and how to trigger a manual recalculation.
 ms.date: 12/20/2023
 ms.topic: article
@@ -20,9 +20,9 @@ searchScope:
   - Customer Engagement
 ---
 
-# Maintain up-to-date forecast data
+# Recalculate forecasts manually
 
-You want the forecast data to be up-to-date so that you can make informed decisions. Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast. [Learn more about when and how forecast recalculation happens](forecast-recalculation-methods.md).
+You want the forecast data to be up-to-date so that you can make informed decisions. Forecast data is automatically recalculated after regular intervals to keep the data current. You can trigger a manual calculation if you want a change to be immediately reflected in the forecast. [Learn more about when and how forecast recalculation happens](forecast-recalculation-methods.md).
 
 ## License and role requirements
 
@@ -34,7 +34,7 @@ You want the forecast data to be up-to-date so that you can make informed decisi
 
 ## Recalculate and refresh forecast data manually
 
-Trigger a manual recalculation for scenarios where the forecast data isn't automatically recalculated. For example, there's a change in the forecast hierarchy.
+Trigger a manual recalculation when you want to recalculate the forecast data immediately instead of waiting for the automatic recalculation to happen. You can also trigger a manual recalculation for past and future periods as they aren't automatically recalculated.
 
 1. [Open the forecast](view-forecasts.md). Verify the **Last updated** timestamp on the command bar to know when the forecast was last recalculated successfully.
 
