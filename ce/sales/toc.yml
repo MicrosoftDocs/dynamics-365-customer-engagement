@@ -914,6 +914,8 @@
           href: adjust-values-in-forecast.md
         - name: Maintain up to date forecast data
           href: keep-forecast-data-up-to-date.md
+        - name: Forecast recalculation methods
+          href: forecast-recalculation-methods.md
         - name: Analyze revenue outcome using predictive forecasting
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
