@@ -1,7 +1,7 @@
 ---
 title: Recalculate forecasts manually
 description: Trigger a manual recalculation to refresh forecast data immediately instead of waiting for automatic recalculation.
-ms.date: 12/20/2023
+ms.date: 12/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -47,20 +47,20 @@ Trigger a manual recalculation when you want to recalculate the forecast data im
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. [Learn more about what's calculated when full recalculation happens?](forecast-recalculation-methods.md#whats-calculated-when-the-recalculation-happens)
+2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. [Learn more about what happens during  recalculation](forecast-recalculation-methods.md#what-happens-during-recalculation).
 
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
+- [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 
-[View a forecast](view-forecasts.md)<br>
+- [View a forecast](view-forecasts.md)<br>
 
-[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
+- [Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
 
-[Troubleshooting forecasts](ts-forecasts.md)
+- [Troubleshooting forecasts](ts-forecasts.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
