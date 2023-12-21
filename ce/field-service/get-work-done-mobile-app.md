@@ -68,6 +68,8 @@ When you're ready to start work, select the booking tile on the booking home pag
 
 Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity.
 
+:::image type="content" source="media/mobile-list-configurable.png" alt-text="List of accounts showing the new list type with removed icons and custom columns.":::
+
 ---
 
 ## Add notes and attachments
