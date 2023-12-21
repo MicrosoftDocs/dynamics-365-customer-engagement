@@ -1,7 +1,7 @@
 ---
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
-ms.date: 12/20/2023
+ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,11 +30,11 @@ Make sure that the CSR Manager and Customer Service Representative security role
 - **Customer Service Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
 
-If you've created custom security roles, you'll need to update the roles to use the modified case resolution dialog.
+If you have custom security roles, you must update the roles to use the modified case resolution dialog.
 
 ## Manage case resolution dialog settings
 
-You can set the case resolution dialog that agents see when they resolve the case. By default, this is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
+You can set the case resolution dialog that agents see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
 1. Navigate to one of the following apps:
    
@@ -79,7 +79,7 @@ You can add a custom value to the custom case resolution dialog. You must perfor
  1. Add a custom value to the required field in the **Case** table.
  1. Update the required field in the **Case Resolution** table with the same custom value.
 
-For example, your organization receives similar cases. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a duplicate case by performing the steps in the following sections.
+For example, your organization receives similar cases. You can add a case resolution rule for cases that are similar to a previously resolved case. Agents can then resolve them by marking them as duplicate cases. To add a case resolution rule, perform the steps in the following sections.
 
 ### Update the case table
 
@@ -96,7 +96,7 @@ For example, your organization receives similar cases. You can add a case resolu
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
 1. Select **Tables** > **Case Resolution** > **Columns** and then select the required column. For example, select **Resolution Type**.
 1. Select **Edit**.
-1. On the **Edit column** pane for **Resolution Type**, in **Choices** add a new choice. In this example, you can specify **Duplicate** as the label and paste the copied value from the section above to the **Value** field. 
+1. On the **Edit column** pane for **Resolution Type**, in **Choices** add a new choice. In this example, you can specify **Duplicate** as the label and paste the copied value from the update the case table section to the **Value** field. 
 1. Select **Save** and then publish the changes.
 
    :::image type="content" source="../media/powerapps-case-resol-add-value.png" alt-text="Screenshot displaying the resolution type column":::
@@ -104,7 +104,7 @@ For example, your organization receives similar cases. You can add a case resolu
 > [!Important] 
 > If you change the value in **Case**, be sure to update the value in **Case Resolution** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you've specified won't be displayed.
 
-In our example, once you've added the custom value, **Duplicate**, agents will see this option when they [resolve a case](../use/customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case) in the **Resolution Type** dropdown of the **New Case Resolution** dialog. Agents can select this value and mark the case as duplicate.
+In our example, once you've added the custom value, agents see the **Duplicate** option in the **Resolution Type** dropdown of the **New Case Resolution** dialog when they [resolve a case](../use/customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case). Agents can select this value and mark the case as a duplicate.
 
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::

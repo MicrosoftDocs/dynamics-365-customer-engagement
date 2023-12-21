@@ -1,5 +1,5 @@
 ---
-title: Define settings for parent and child cases (Dynamics 365 Customer Service)
+title: Define settings for parent and child cases
 description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service.
 ms.date: 12/22/2023
 ms.topic: how-to
@@ -23,7 +23,7 @@ searchScope:
 
 # Define parent and child case settings
 
-In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. 
+You can track multiple issues for a customer or the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. 
 
 ## Prerequisites
 

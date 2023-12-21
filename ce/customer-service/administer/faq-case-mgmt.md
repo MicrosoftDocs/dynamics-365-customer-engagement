@@ -33,7 +33,7 @@ To resolve the error, ensure that role assigned to the agent has read access to 
 
 ### Why do I see a warning when I add and save case attributes that a child case must inherit from the parent case?
 
-If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
+If you see a warning once you select the case attributes that a child case must inherit from the parent case, it means that you haven't selected any of the mandatory attributes. You must select all of the mandatory fields whose values the child case will inherit. Select the mandatory case attributes whose values the child case will inherit. **Case Title** and **Customer** are mandatory attributes. More information: [Define settings for parent and child cases](define-settings-parent-child-cases.md).
 
 ## FAQ on resolving cases
 
@@ -78,7 +78,7 @@ The **ShowInFormSelector** option in Enhanced full case form is set to **False**
 
 ### Why are agents seeing the Enhanced case form when they create a case even if I haven't enabled Enhanced case experience?
 
-If the **Enhanced full case form** has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
+If the **Enhanced full case form** has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than the default form. More information: [Control access to model-driven app forms](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
 
 ### Why do my existing cases open in the default case form when I've enabled the enhanced case experience?
 
@@ -86,15 +86,15 @@ You must set the **Enhanced full case form** as the default form for your agents
 
 ## Resolve form issues
 
-### How can resolve the discrepancies in the number of buttons displayed on the command bar and ribbon issues in my case form?
+### How can I resolve the discrepancies in the number of buttons displayed on the command bar and ribbon issues in my case form?
 
-If agents see buttons being hidden or extra buttons displayed on the form, you can use the [**Command Checker**](https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/) tool to troubleshoot the issue and also see what command will run when a button is clicked.
+If agents see buttons being hidden or extra buttons displayed on the form, you can use the [**Command Checker**](https://powerapps.microsoft.com/blog/introducing-command-checker-for-model-app-ribbons/) tool to troubleshoot the issue and also see what command runs when a button is clicked.
 
 You can follow the steps in [Troubleshooting ribbon issues in Power Apps](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues) to resolve ribbon issues.
 
 ### How can I identify and resolve form issues effectively?
 
-Form issues occur because of business rules, JavaScript, form events, or client API that administrators and makers have set. Monitor is a tool that can help you debug and diagnose problems, and can also help identify whether the issue experienced is designed out-of-the-box or due to a customization. More information: [Use Monitor to troubleshoot model-driven app form behavior](/power-apps/maker/model-driven-apps/monitor-form-checker).
+Form issues occur because of business rules, JavaScript, form events, or client APIs. Monitor is a tool that can help you debug and diagnose problems, and can also help identify whether the issue experienced is designed out-of-the-box or due to a customization. More information: [Use Monitor to troubleshoot model-driven app form behavior](/power-apps/maker/model-driven-apps/monitor-form-checker).
 
 ### Why does the Responsible Contact Id field show null/blank when I refresh the browser or open the record in a new tab?
 
