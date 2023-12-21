@@ -1,7 +1,7 @@
 ---
-title: "Configure AI topic clustering for cases | MicrosoftDocs"
-description: "Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace"
-ms.date: 06/01/2022
+title: Configure AI topic clustering for cases
+description: Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace
+ms.date: 12/21/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
