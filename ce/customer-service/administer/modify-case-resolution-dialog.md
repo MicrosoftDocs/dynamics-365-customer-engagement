@@ -27,7 +27,7 @@ You can customize the case resolution dialog to suit your business needs. You ca
 
 Make sure that the CSR Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
 
-- **Customer Service Manager**: Create, Read, and Write
+- **CSR Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
 
 If you have custom security roles, you must update the roles to use the modified case resolution dialog.

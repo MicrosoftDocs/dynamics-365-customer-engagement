@@ -157,7 +157,7 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 
 ## Model preprocessing rules
 
-You can use model preprocessing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from various conditions, such as sentiment value, associated with the resolved case, and so forth.
+You can use model preprocessing rules to limit the pre-processed cases that the AI model will suggest to your agents. You can choose from various conditions, such as, sentiment value and associated with the resolved case.
 
 You can also apply model preprocessing rules to knowledge articles to limit the suggestions to knowledge articles based on things such as keywords, language, the number of views on the knowledge article, and so forth.
 

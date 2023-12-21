@@ -1,6 +1,6 @@
 ---
 title: Manage the enhanced Active Conversation settings | MicrosoftDocs 
-description: Manage the enhanced Active Conversation settings
+description: Manage the enhanced Active Conversation settings.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
@@ -19,7 +19,7 @@ The enhanced Active Conversation experience displays the customer and case detai
 
  More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
 
-Watch this video to understand about the enhanced active conversation form settings and how to set it up:
+Watch this video to understand enhanced active conversation form settings and how to set it up:
 
 > [!VIDEO https://www.youtube.com/embed/sLVOTt1-pgo]
 
