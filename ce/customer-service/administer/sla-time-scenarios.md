@@ -237,11 +237,11 @@ So, if you create a case on 06/14/2023 3:00 PM with warning and failure times se
 
 ## Active duration
 
-Here's how the active duration is calculated in the following scenarios:
+Here's how the [active duration](../use/customer-service-hub-user-guide-case-sla.md#know-active-duration-and-elapsed-time-for-sla-kpi-instances) is calculated in the following scenarios:
 
 ### Reopen or close scenario
 
-- 12 AM- case created
+- 12 AM- case created and SLA is set for 30 min
 - 12:10 AM- case closed
 - 12:20 AM- case reopened
 - 12:30 AM- SLA expired
@@ -250,7 +250,7 @@ The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA i
 
 ### Pause or resume scenario
 
-- 12 AM- case created
+- 12 AM- case created and SLA is set for 30 min
 - 12:10 AM- case paused
 - 12:20 AM- case resumed
 - 12:40 AM- SLA expired
