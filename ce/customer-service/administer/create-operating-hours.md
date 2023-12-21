@@ -25,7 +25,9 @@ The operating hour schedules cater to the following scenarios:
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
 
-In Customer Service admin center and Omnichannel admin center, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+In Customer Service admin center and Omnichannel admin center (deprecated), after you've created an operating hour record, you can do the following steps, depending on your requirement:
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -54,7 +56,9 @@ You can define operating hours in the Customer Service admin center or Customer 
 
        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Omnichannel admin center](#tab/Omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)]
+
+     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)](#tab/Omnichanneladmincenter)
 
     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
     1. In the **Operating Hours** section, select **Manage**.
@@ -143,7 +147,9 @@ Do the following to specify operating hours for a queue:
 
        The **Queues** view is displayed.
 
-   ### [Omnichannel admin center](#tab/Omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
+
+     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Queues** in **General settings**. The **Queues** page appears.
 
