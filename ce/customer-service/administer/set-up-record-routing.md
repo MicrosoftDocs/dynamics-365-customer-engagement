@@ -44,11 +44,11 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
     - In the site map, select **Record routing** in **General settings**.
 
-   ### [Customer Service Hub (deprecated)](#tab/customerservicehub) 
+   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
 
       [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
-    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
+    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**.
 
 1. On the **Record routing** page, select **Add**.
 
