@@ -41,7 +41,7 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
     
       2. Select **Manage** for **Phone numbers**.
 
-      ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+      ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
       - In the site map, select **Phone numbers** in **General settings**.
 
@@ -67,7 +67,7 @@ You can purchase new phone numbers for your organization after you've checked fo
     
    2. Select **Manage** for **Phone numbers**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
    - In the site map, select **Phone numbers** in **General settings**.
     

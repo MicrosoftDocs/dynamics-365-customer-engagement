@@ -28,7 +28,7 @@ This articles describes how you can programmatically retrieve and format rich me
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Rich messages**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
 

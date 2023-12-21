@@ -39,7 +39,9 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Customer Service admin center or Omnichannel admin center app.
+1. Sign in to the Customer Service admin center or Omnichannel admin center (deprecated) app.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 2. Create a template for your outbound message.
 
@@ -59,7 +61,9 @@ You can set up the outbound configuration in the Customer Service admin center o
 
      The **Active Outbound Configurations** page is displayed.      
 
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated) (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Outbound** section, select **Manage**.
@@ -104,7 +108,9 @@ Power Automate provides a low-code platform for workflow and process automation.
 
      The **Message template view** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
      2. In **Message templates** section, select **Manage**.

@@ -40,7 +40,9 @@ You can enable the sentiment analysis feature in the Customer Service admin cent
 
      The **Sentiment analysis** page is displayed.       
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
      2. In the **Sentiment analysis** section, select **Manage**.

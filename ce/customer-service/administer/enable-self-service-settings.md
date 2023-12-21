@@ -36,7 +36,9 @@ You can enable the self service feature in the Customer Service admin center or 
 
      The **Omnichannel Configuration . Self service settings** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Self service** section, select **Manage**.

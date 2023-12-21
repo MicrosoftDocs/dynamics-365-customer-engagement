@@ -13,7 +13,11 @@ ms.author: nenellim
 
 You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
-You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping can be found in the Omnichannel admin center or Customer Service Hub in the **User attributes** section. For the custom security roles to be functional, perform the following steps:
+You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping can be found in the Omnichannel admin center (deprecated) or Customer Service Hub in the **User attributes** section. 
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
+For the custom security roles to be functional, perform the following steps:
 
 1. Create custom security roles.
 2. Map roles to personas.
@@ -104,7 +108,9 @@ You can customize the roles to persona mapping in the Customer Service admin cen
    
     - In the site map, select **User management** in **Customer support**. The **User management** page appears.    
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **User attributes** under **Advanced settings**.
     

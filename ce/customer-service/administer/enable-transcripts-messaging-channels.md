@@ -33,7 +33,9 @@ As an administrator, you can enable live transcription and recording of conversa
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Transcript**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Transcript**.
 

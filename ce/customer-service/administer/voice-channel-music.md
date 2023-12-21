@@ -40,7 +40,7 @@ You can update existing music files and replace them with your own music files i
 
      The **Phone music** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Phone music** section, select **Manage**.
@@ -71,7 +71,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
      The **Phone music** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Phone music** section, select **Manage**.

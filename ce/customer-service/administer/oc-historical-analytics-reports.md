@@ -41,7 +41,9 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed.
      1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to disable the reports.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
@@ -68,7 +70,9 @@ You can enable historical analytics for unified routing in the Customer Service 
 
      The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** checkbox.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
@@ -121,7 +125,9 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 
      The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.

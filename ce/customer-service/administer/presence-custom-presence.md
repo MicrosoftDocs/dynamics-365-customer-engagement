@@ -57,7 +57,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
 
      - In the site map, in **Advanced settings**, select **Agent experience**.
     
