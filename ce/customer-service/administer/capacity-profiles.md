@@ -30,7 +30,7 @@ You might find it helpful to configure profile-based capacity in the following s
 
 > [!IMPORTANT]
 > - This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
-> - An agent's available capacity can be negative, if the agent manually picks work or is assigned a conversation that exceeds the available capacity. This is applicable for both capacity profiles and unit based capacity.
+> - An agent's available capacity can be negative, if the agent manually picks a work item or is force assigned a conversation that exceeds the available capacity. This is applicable for both capacity profiles and unit based capacity.
 
 ## Create a capacity profile and assign to users
 
