@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Configure the mobile offline profile
 
-Field Service provides an out-of-the-box offline profile called Field Service Mobile - Offline Profile with recommended default settings for Field Service record types. Learn more about Offline profile guidance.
+Field Service provides an out-of-the-box offline profile called Field Service Mobile - Offline Profile with recommended default settings for Field Service record types. Learn more about [offline profile guidance](/power-apps/mobile/mobile-offline-guidelines).
 
 Administrators control what data the Field Service mobile app downloads with the offline profile. Within the offline profile, you can:
 
@@ -25,7 +25,7 @@ Administrators control what data the Field Service mobile app downloads with the
 
 ## Customize the default mobile offline profile
 
-1. Review the [guidance for the offline profile](mobile-power-app-system-offline.md#implementation-guidance-for-the-offline-profile).
+1. Review the [implementation guidance for the offline profile](mobile-power-app-system-offline.md#implementation-guidance-for-the-offline-profile).
 
 1. Go to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
 

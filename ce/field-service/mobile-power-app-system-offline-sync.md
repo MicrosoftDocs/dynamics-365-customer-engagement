@@ -58,7 +58,7 @@ You can [control when synchronizations are triggered](/power-apps/mobile/offline
 
 ## Data removal from the mobile device
 
-At certain points following a sync, data which no longer meets the offline profile filter criteria might be removed form the mobile device. Data removal is most common in two instances:
+At certain points following a sync, data which no longer meets the offline profile filter criteria might be removed from the mobile device. Data removal is most common in two instances:
 
 <!--- Do we need all this info? --->
 

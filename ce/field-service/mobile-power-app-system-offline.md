@@ -10,13 +10,9 @@ ms.author: jobaker
 
 # Mobile offline capabilities
 
-Often frontline workers need to work in areas without internet access like remote areas or underground. The Dynamics 365 Field Service mobile app offers offline capabilities through a mobile offline profile. When an admin [configures the offline profile](mobile-power-app-system-offline-setup.md), frontline workers can continue using the Field Service mobile app when there's no internet connection.  With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Changes on the device are stored locally and then they sync with the server when an active internet connection becomes available.
+Often frontline workers need to work in areas without internet access like remote areas or underground. The Dynamics 365 Field Service mobile app offers offline capabilities through a mobile offline profile. When an admin [configures an offline profile](mobile-power-app-system-offline-setup.md), frontline workers can continue using the Field Service mobile app when there's no internet connection. With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Changes on the device are stored locally and then they sync with the server when an active internet connection becomes available.
 
-If the offline profile is not configured, the mobile app can't be used without network connectivity.
-
-The offline profile manages offline record types, relationships, and user assignments.
-
-For a guided walkthrough, check out the following video.
+The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
@@ -24,9 +20,7 @@ Field Service mobile follows the same architecture and security as the Power App
 
 ## Implementation guidance for the offline profile
 
-**Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend using the default offline profile included with Field Service. The  **Field Service Mobile - Offline Profile** provides an ideal starting point for offline configuration, with defaults for out-of-the-box record types and sync intervals.
-
-Use this profile and build upon it by including your custom record types. By working within the provided profile, default tables can still receive updates over time. With offline data, in-app performance such as displaying forms increase. Limiting the amount of data in the offline profile increases sync performance.
+**Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend using the default offline profile included with Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline configuration, with defaults for out-of-the-box record types and sync intervals. Use this profile and build upon it by including your custom record types. By working within the provided profile, default tables can still receive updates over time. With offline data, in-app performance such as displaying forms increase. Limiting the amount of data in the offline profile increases sync performance.
 
 Using the default offline profile allows your offline profile to receive updates to unchanged table sync filters. You can copy the default profile and make changes to the copy, but the system considers the copy unmanaged. The copy won't receive any updates. If you make changes to the default offline profile and want to see the latest offline profile, create a new trial of Field Service to view it.
 
