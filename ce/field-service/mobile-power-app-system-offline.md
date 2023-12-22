@@ -83,6 +83,8 @@ You can only add a user or a team to one offline profile one at a time. Adding t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
+The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+
 ## Step 3: Edit and publish the offline profile
 
 For each record type, you can choose a data download filter:
@@ -179,6 +181,8 @@ The Field Service mobile app provides an offline sync icon that indicates the sy
 
 For more information, see [View offline sync status](/power-apps/mobile/offline-sync-icon).
 
+Additionally, you can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
+
 ## Configuration considerations
 
 ### Should I make a copy of the offline profile?
@@ -257,6 +261,7 @@ The application will check for connectivity whenever you navigate. The following
 - When configuring the Mobile Offline Profile, there can be a maximum of 15 linked Tables. This 15-link limit includes downstream Tables. For example, if Table A has relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A will have six relationships: B, C, D, F, G, and H. 
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 - Access to SharePoint documents isn't supported in offline mode.
+- While offline, commands without the `Mscrm.IsEntityAvailableForUserInMocaOffline` [enable rule](/power-apps/developer/model-driven-apps/define-ribbon-enable-rules) don't show. Learn more: [Customize commands and the ribbon](/powerapps/developer/model-driven-apps/customize-commands-ribbon) and [Fix hidden buttons on the command bar](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden?tabs=fix)
 
 > [!NOTE]
 > As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from [https://make.powerapps.com](https://make.powerapps.com), improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.

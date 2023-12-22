@@ -4,7 +4,7 @@ description: Use this article to know about the supported languages and locale c
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 05/22/2023
+ms.date: 12/11/2023
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -43,7 +43,7 @@ See the information in the following table to know about the supported languages
 | Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
 | Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
 | Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
-| Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|x|✔|✔|
+| Arabic - Saudi Arabia| `ar-SA` |✔|✔|✔|✔|x|✔|✔|
 | Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
 | Arabic - Tunisia| `ar-TN` |x|x|✔|✔|x|x|x|
 | Arabic - United Arab Emirates| `ar-AE` |x|x|✔|✔|x|x|x|

@@ -46,8 +46,7 @@ Copilot's response to the same question can vary due to multiple factors. Copilo
 
 ## What are the limitations for webpages as sources? 
 
-You can add up to five trusted domains as web sources, and the domains must be publicly indexed by Bing search. Copilot uses 
-sources that are two levels in a domain's URL hierarchy. 
+You can add up to five trusted domains as web sources, and the domains must be publicly indexed by Bing search. 
 
 ## Does Copilot support knowledge articles published in all languages? 
 
@@ -58,3 +57,8 @@ No. Copilot supports knowledge articles published in the English language only.
 - Make sure that you use high-quality knowledge sources for copilot to generate responses from.
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
+
+### See also
+
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)
+[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)

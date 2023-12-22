@@ -899,18 +899,13 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/use/enhanced-email-attachment-control.md",
-      "redirect_url": "/power-apps/user/attach-email",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-service/administer/add-enhanced-attachment-control.md",
-      "redirect_url": "/power-apps/user/attach-email",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-service/customer-service-hub-user-guide-email-overview.md",
       "redirect_url": "/powerapps/user/view-create-email",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/copilot-data-movement.md",
+      "redirect_url": "/power-platform/admin/geographical-availability-copilot",
       "redirect_document_id": "false"
     },
     {
@@ -28670,7 +28665,7 @@
     },
     {
       "source_path": "ce/customer-service/enh-casemgmt-csw.md",
-      "redirect_url": "administer/enh-casemgmt-csw",
+      "redirect_url": "use/enh-casemgmt-csw",
       "redirect_document_id": false
     },
     {
