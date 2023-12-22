@@ -11,7 +11,9 @@ ms.author: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-You can configure routing for records in Customer Service admin center, Customer Service Hub, or Omnichannel admin center. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure routing for records in the Customer Service admin center, Customer Service Hub, or Omnichannel admin center (deprecated) app. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 If you only have Dynamics 365 Customer Service, then the options to configure unified routing will be available only after you enable unified routing in the service configuration settings.
 
@@ -42,6 +44,8 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **Record routing** in **General settings**.
 
    ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
@@ -69,6 +73,8 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
    1. Select **New workstream**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 

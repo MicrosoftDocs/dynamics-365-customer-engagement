@@ -43,6 +43,8 @@ As an administrator, you can purchase phone numbers and calling plans, decide wh
 
       ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
       - In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
@@ -68,6 +70,8 @@ You can purchase new phone numbers for your organization after you've checked fo
    2. Select **Manage** for **Phone numbers**.
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
    - In the site map, select **Phone numbers** in **General settings**.
     

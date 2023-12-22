@@ -96,6 +96,8 @@ If you'd created proficiency scales in the classic experience, you can update th
      - In the site map, select **User management** in **Customer Support**.
      
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
      

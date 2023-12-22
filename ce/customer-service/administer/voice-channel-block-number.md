@@ -18,7 +18,7 @@ In Omnichannel for Customer Service, as an administrator, you can block spam pho
 
 ## Review phone numbers marked as spam
 
-You can review phone numbers marked as spam in the Customer Service admin center or Omnichannel admin center app.
+You can review phone numbers marked as spam in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -30,6 +30,9 @@ You can review phone numbers marked as spam in the Customer Service admin center
      The **Blocked numbers** page is displayed.      
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Blocked numbers** section, select **Manage**.

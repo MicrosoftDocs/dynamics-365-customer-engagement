@@ -64,7 +64,6 @@ You'll need to specify the values of **Application (client) ID** and **Directory
 
     :::image type="content" source="../media/acs-resource-application.png" alt-text="resource application" :::
 
-
 ## Connect using an existing Azure resource
 
 1. In Dynamics 365 Customer Service admin center or Omnichannel admin center, open the phone number settings.
@@ -74,7 +73,10 @@ You'll need to specify the values of **Application (client) ID** and **Directory
         1. In the site map, under **Customer support**, select **Channels**.
         2. Select **Manage** for **Phone numbers**.
 
-    - Omnichannel admin center (deprecated): In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
+    - Omnichannel admin center (deprecated): 
+    
+        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    - In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**.
 
 1. Select **Use existing resource**.
 

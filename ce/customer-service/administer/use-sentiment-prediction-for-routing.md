@@ -50,6 +50,8 @@ The sentiment model is configured to look for and use the messages provided by t
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **User attributes** in **Advanced settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)

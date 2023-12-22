@@ -38,7 +38,9 @@ Azure Communication Services direct routing enables you to connect your existing
     
     2. Select **Manage** for **Phone numbers**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     In the site map, select **Phone numbers** in **General settings**.
 

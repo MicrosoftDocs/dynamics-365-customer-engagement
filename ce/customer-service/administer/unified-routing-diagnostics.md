@@ -39,6 +39,8 @@ To see data related to work items and their status, you need to enable routing d
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **Diagnostics** in **Advanced settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)

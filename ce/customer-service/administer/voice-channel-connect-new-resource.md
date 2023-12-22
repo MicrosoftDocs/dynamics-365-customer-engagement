@@ -33,6 +33,8 @@ Before you connect an Azure resource to Azure Communication Services, you must p
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
    In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
 1. Select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 1. Select **Create new resource** and enter the following details.

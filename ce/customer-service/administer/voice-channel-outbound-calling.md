@@ -40,6 +40,8 @@ To check whether a phone number is enabled for outbound calling, go to **General
     1. Select **Manage** for **Phone numbers**.
    
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
     1. In the site map, select **Phone numbers** in **General settings**.
     
@@ -84,6 +86,8 @@ You can assign personal phone numbers to agents to make outbound calls to custom
     1. On the **Channels** page, select **Manage** for **Phone numbers**.
    
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
     - In the site map, select **Phone numbers** in **General settings**.
 

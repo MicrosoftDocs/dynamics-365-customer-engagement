@@ -46,6 +46,8 @@ You can create the effort estimation models for any record that is enabled for u
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **User attributes** in **Advanced settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)

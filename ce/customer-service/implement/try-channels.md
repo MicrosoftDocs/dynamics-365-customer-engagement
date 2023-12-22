@@ -77,7 +77,11 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, social, and voice channels in your organization.
 
-After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization and select the Customer Service admin center or Omnichannel admin center app to start configuring the channel. See the following articles to configure channels in Omnichannel for Customer Service:
+After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization and select the Customer Service admin center or Omnichannel admin center (deprecated) app to start configuring the channel. 
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
+See the following articles to configure channels in Omnichannel for Customer Service:
 
 - [Configure the chat channel](../administer/set-up-chat-widget.md)
 - [Configure the SMS channel](../administer/configure-sms-channel.md)

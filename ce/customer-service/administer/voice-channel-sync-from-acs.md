@@ -18,7 +18,10 @@ You can import phone numbers that you purchased or acquired earlier via Azure Co
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-    In the site map, select **Phone numbers** in **General settings**.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
+    - In the site map, select **Phone numbers** in **General settings**.
 2. Select **Advanced** on the menu.
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
 4. Select **Sync**.
