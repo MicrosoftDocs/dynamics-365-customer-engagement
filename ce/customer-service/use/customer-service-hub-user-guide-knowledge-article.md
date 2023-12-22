@@ -1,24 +1,27 @@
 ---
 title: Create and manage knowledge articles
-description: Learn how to create and manage knowledge articles.
-ms.date: 12/20/2023
+description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
+ms.date: 12/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
-searchScope: 
- - D365-App-customerservicehub 
- - D365-Entity-knowledgearticle
- - D365-Entity-msdyn_knowledgearticletemplate 
- - D365-UI-*
- - Dynamics 365 
- - Customer Service 
- - Customer Engagement
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/22/2023
+searchScope:
+  - D365-App-customerservicehub
+  - D365-Entity-knowledgearticle
+  - D365-Entity-msdyn_knowledgearticletemplate
+  - D365-UI-*
+  - Dynamics 365
+  - Customer Service
+  - Customer Engagement
 ---
 
 # Create and manage knowledge articles

@@ -1,28 +1,29 @@
 ---
-title: "Overview of service-level agreements | MicrosoftDocs"
-description: "Learn about service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/24/2022
+title: Overview of service-level agreements
+description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
+ms.date: 12/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/22/2023
 ms.collection: get-started
 ---
 
 # Overview of service-level agreements
 
-Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. What SLAs include are policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.
+Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details, such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.
 
 You can define the level of service or support that your organization agrees to offer to a customer by using SLAs in Dynamics 365 Customer Service. Providing support based on service levels ensures that you're delivering measured and predictable service.
 
-You can associate an SLA with an entitlement, so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. More information: [Create entitlements to define support terms](../administer/create-entitlement-define-support-terms-customer.md#create-entitlements-to-define-support-terms) 
-
-You can also enable SLAs for entities other than case. More information: [Enable entities for service level agreements](../administer/enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements)
+You can associate an SLA with an entitlement, so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. For more information, go to: [Create entitlements to define support terms](../administer/create-entitlement-define-support-terms-customer.md#create-entitlements-to-define-support-terms). You can also enable SLAs for entities other than case. More information: [Enable entities for service level agreements](../administer/enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements).
 
 Alternatively, you can set up a default SLA for the organization. More information: [Set a default SLA](../administer/apply-slas.md#set-a-default-sla)
 
@@ -30,7 +31,7 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Tracking
 
-- After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. More information: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities) This helps agents monitor their service level performance and meet their service level goals.
+- After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This helps agents monitor their service-level performance and meet their service-level goals.
 - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
 - You can also enable recalculation of SLAs, providing agents with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status)
 
