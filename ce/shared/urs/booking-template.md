@@ -13,7 +13,7 @@ The default value is the following code snippet:
 
 To edit the HTML that controls the booking template, go to the **Schedule Types** section in the schedule board settings. Select the entity for which you want to change the booking template. If you open the settings from a schedule board tab, you change the settings for that tab only. To make changes to all tabs, select **Edit defaults** and apply your changes there. Set the **Custom booking template** to **On** and change the HTML code.
 
-In the **Booking Template** field, override the booking template by entering HTML and CSS that can reference fields from the *Bookable Resource Booking* entity and linked entities. Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility.
+In the **Booking Template** field, override the booking template by entering HTML and CSS that can reference fields from the *Bookable Resource Booking* entity and linked entities. Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility. JavaScript isn't supported in the booking template.
 
 > [!TIP]
 > Use system entities only. Pulling values from custom entities isn't supported.
@@ -21,9 +21,6 @@ In the **Booking Template** field, override the booking template by entering HTM
 > Fields from the *Bookable Resource Booking* entity can be referenced directly using the field name in curly brackets. Example: `{duration}`.
 >
 > To display a field from a linked entity, find the name of the N:1 relationship and add a period (.) followed by the field name of the target entity. For example, the work order relationship path is *msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder* and the primary incident type field is *msdyn_primaryincidenttype*. This results in field reference `{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}`. Add more relationship hops by connecting them with an additional period.
-
-> [!NOTE]
-> Javascript is not supported in the booking template.
 
 ## Custom booking template example
 
