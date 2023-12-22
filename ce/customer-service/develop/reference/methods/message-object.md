@@ -30,7 +30,7 @@ This articles describes how you can programmatically retrieve and format rich me
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    [!INCLUDE[oac-deprecation](../../../includes/oac-deprecation.md)]
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
 
