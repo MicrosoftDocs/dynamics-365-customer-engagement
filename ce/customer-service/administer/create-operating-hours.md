@@ -139,7 +139,7 @@ You can add operating hours to a queue that can later be configured for a social
 Do the following to specify operating hours for a queue:
 
 1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-
+   
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
