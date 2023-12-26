@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales so that your sales team can get summaries of their contact and lead records, catch up on recent changes, and prepare for meetings.
-ms.date: 12/15/2023
+ms.date: 12/26/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -18,7 +18,7 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot is turned by default in all Sales apps for tenants in North America. If your tenant is in a different region, or to change the Copilot features that your sellers can use in their apps, follow the instructions in this article.
+Copilot is turned on by default in all Sales apps for tenants in North America. If your tenant is in a different region, or you want to configure the Copilot features, follow the instructions in this article.
 
 ## License and role requirements
 
