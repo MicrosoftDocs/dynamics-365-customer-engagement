@@ -18,7 +18,7 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
-Copilot is turned on by default in all Sales apps for orgs in North America. If your org is in a different region, or you want to configure the Copilot features, follow the instructions in this article.
+Copilot is turned on by default in all Sales apps for orgs in North America. If your org is in a different region, or you want to configure the Copilot features, follow the instructions in this arti
 
 ## License and role requirements
 
@@ -105,6 +105,17 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
 1. Save your changes.
+
+## Configure fields for generating what's new with my sales records list
+
+The **What's new with my sales records** prompt lists the sales records that were updated in the last seven days. The list is generated from the audit history of the lead, opportunity, and account tables. Depending on the record type, Copilot uses different fields to get the list of records updated: 
+
+- For the lead and opportunity records, Copilot uses the fields in the primary table (lead or opportunity) that you've [configured for generating the recent changes list](#configure-fields-for-generating-summaries-and-recent-changes-list). For example, if you've configured 4 fields from the lead table and 6 fields from related tables, Copilot monitors changes to only those 4 fields from the lead table to identify the lead records that have been updated.
+
+- For the account records, Copilot lists the following changes:
+  - Contacts, leads, and opportunities created for the account in the last seven days.
+  - Changes to the fields in the **Quick Find** view of the account table. If you'd like to see changes to other fields, add them to the **Quick Find** view of your account table. [Learn how to add fields to the Quick Find view](/power-apps/maker/model-driven-apps/create-edit-views#how-to-access-the-view-editor-to-create-or-edit-views).
+
 
 ## Grant audit access to your sellers
 

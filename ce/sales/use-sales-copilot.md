@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in Dynamics 365 apps
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, and enrich your leads with data from different sources.
-ms.date: 12/15/2023
+ms.date: 12/18/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:

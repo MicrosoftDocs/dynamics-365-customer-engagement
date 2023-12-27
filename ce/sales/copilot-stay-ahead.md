@@ -1,7 +1,7 @@
 ---
 title: Stay ahead with Copilot
 description: Learn how to prepare for upcoming meetings and catch up on emails with Copilot in Dynamics 365 Sales.
-ms.date: 12/15/2023
+ms.date: 12/18/2023
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -54,4 +54,4 @@ To be included in the list, emails must meet the following criteria:
 ### See also
 
 - [Copilot overview](copilot-overview.md)
-- [How Copilot responds when in context and out of context](copilot-responses-based-on-context.md)
+- [Enable and set up Copilot](enable-setup-copilot.md)
