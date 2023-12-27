@@ -1,7 +1,7 @@
 ---
 title: "Customize the Add Products dialog | MicrosoftDocs"
 description: "Customize the Add Products dialog so that salespeople can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 12/27/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -50,7 +50,7 @@ By default, the **Add products** dialog displays the following columns in the gr
 - Price per unit
 - Quantity
 
-Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+You can add other columns that are relevant to your business by customizing the add products view. Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:  
 
 # [Sales Premium and Sales Enterprise](#tab/SEAddColumns)
 
@@ -72,6 +72,8 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 5. Select **View Column** and then select the columns you want to add to the grid. Or, simply drag-and-drop the columns into the grid.
 
 6. To remove a column, select the column in the grid and select **Remove**.
+    > [!NOTE]
+    > Though you can add filters to the view, they won't be applied to the Add products dialog. The dialog will always display all products.
 
 7. Select **Publish** to save and publish the customizations.
     The changes are applicable to the Add products dialog of the selected entity.
@@ -93,6 +95,10 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
     |Invoice Product     |Invoice products Add Products          |
 
 2. Add or remove columns as per your requirement. For step-by-step instructions, see [Choose and configure columns in views](/powerapps/maker/model-driven-apps/choose-and-configure-columns#add-columns-to-views).
+    
+    > [!NOTE]
+    > Though you can add filters to the view, they won't be applied to the Add products dialog. The dialog will always display all products.
+
 1. Publish the customization.  
      The changes should now be visible in the Add products dialog of the corresponding entity. See, [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)
    
