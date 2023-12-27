@@ -57,7 +57,9 @@ Rollup fields are designed to help users obtain insights into data by monitoring
   
 - Earliest created time of all high priority open cases for an account  
   
-Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. The _state field has the following values:  
+Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fieldname>`_state suffix pattern. The _date field is of the Datetime data type and _state field is of the integer data type. 
+The _date field is a system created field which is used to store the last date and time when a rollup field's value was calculated.
+The _state field is also a system created field has the following values:  
   
 |State|Description|  
 |-|-|  
