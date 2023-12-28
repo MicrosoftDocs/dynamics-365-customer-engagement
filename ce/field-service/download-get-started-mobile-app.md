@@ -35,9 +35,23 @@ Go to the app store on your iOS, Android, or Windows device and search for **Dyn
 
 Launch the mobile app and sign in with your Field Service username and password.
 
-If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](view-user-accounts-security-roles.md) to use the app.
+If you can't sign in, it might be because you haven't been given the right permissions. Ask your organization's administrator to confirm you have [access and permissions](users-licenses-permissions.md) to use the app.
 
 After you sign in, the app might download data to your device so that you can use it when your device is offline. It can take some time to complete. The data that's downloaded depends on your administrator's settings for the app's offline profile.
+
+## Access the mobile app as a guest user
+
+[B2B guest users](users-licenses-permissions.md#b2b-collaboration-users) need a special deep link that identifies the guest tenant to access the environment and open the mobile app.
+
+1. Download and install the Field Service mobile app.
+1. Get the deep link from the Field Service administrator.
+    1. The link has to follow this format: `https://apps.powerapps.com/mobile/redirect?appid=<AppModuleID>&tenantid=<TenantID>&playerchannel=FieldServiceMobile&sourceurl=<OrgURL>/main.aspx?appid=<AppModuleID>`.
+    1. Sign in to Power Platform admin center to get the placeholder values for TenantID and OrgURL.
+    1. TenantID is the Organization ID of the environment that contains Field Service Mobile app module.
+    1. OrgURL is the Environment URL of the environment.
+    1. Sign in to Field Service and switch to the Field Service Mobile app module. AppModuleID is the appid GUID that shows in the URL.
+1. Save the link as a shortcut on your mobile device. Whenever you need to sign in to the guest tenant, use this deep link.
+1. Sign in with you guest user credentials after opening the deep link.
 
 ## View scheduled work orders
 

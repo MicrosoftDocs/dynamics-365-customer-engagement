@@ -18,18 +18,37 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.104.29](/dynamics365/field-service/version-history#8810429)  | TBD |12/08/2023 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.104.29](/dynamics365/field-service/version-history#8810429)  | TBD |12/15/2023 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | TBD |01/12/2023 |
-| | *USG* |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  | TBD |12/15/2023 |
-|**Station 4** |*Europe* |  [8.8.103.22](/dynamics365/field-service/version-history#8810322)  | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  |12/01/2023 |
-|**Station 5** | *North America*| [8.8.103.22](/dynamics365/field-service/version-history#8810322)  | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  |12/08/2023 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.103.22](/dynamics365/field-service/version-history#8810322)  | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  |12/08/2023 |
-| | *Dedicated Scale Groups* | [8.8.102.36](/dynamics365/field-service/version-history#8810236)  |  [8.8.103.22](/dynamics365/field-service/version-history#8810322)  |12/01/2023 |
+|**Station 1** |  *First Release*| [8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/12/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/12/2024 |
+| | *USG* |[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
+|**Station 4** |*Europe* |  [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/19/2024 |
+|**Station 5** | *North America*| [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
+| | *Dedicated Scale Groups* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |02/02/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.105.46
+(Includes Universal Resource Scheduling version [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) and Resource Scheduling controls version 1.2.59.233402).
+
+- The new work order experiences are generally available.
+- Users can configure a booking status to indicate if further work is needed to complete a work order.
+- Removed a notification when marking work order service tasks complete in the side pane.
+- The confirmation message when enabling Mixed Reality security roles shows a description of what will be enabled.
+- Command bar options show correctly when the simplified commands option is disabled.
+- Removing the *Resource* field from the *Bookable Resource Booking* information form no longer causes a script error.
+- Field Service mobile: Enabled [image compression](/dynamics365/release-plan/2023wave2/service/dynamics365-field-service/compress-image-uploads-mobile-devices) feature for iOS.
+- Field Service mobile: When multiple images are uploaded to an inspection, they will be processed and uploaded sequentially to reduce device memory consumption and improve upload success rate.
+- Field Service mobile: Accessibility improvements for inspections designer, quick notes, and booking status control.
+- Field Service mobile: Fixed a bug with inspections export to PDF command.
+- Field Service mobile: Fixed a bug with inspections which prevented PDF export when inspection response contained number-type questions.
+
+
+**Note:** This release fixes an error in implementing the relationship type on the account entity in FS. This changes some of the option set values for Accounts’ relationship type field (the customertypecode field), and we encourage customers with FS installed to check their Account records’ relationship types, and verify that these match their expectations. Orgs at risk of an incorrect relationship type will receive additional direct communications about this change.
+
 
 ## 8.8.104.44
 This release is a hotfix on Field Service version [8.8.104.29](/dynamics365/field-service/version-history#8810429).
@@ -69,7 +88,7 @@ This release is a hotfix on Field Service version [8.8.102.29](/dynamics365/fiel
 
 - **New and improved work order experience:** Our new work order enhancements are designed to make your life easier. With reduced time and effort required to understand the current state of work orders, you can provide quick updates to customers, ensure that frontline workers have the information they need for on-site service, and easily track high-priority work. The dynamic card feature allows you to take action and move work orders through each stage seamlessly, while our redesigned tasks experience and reference tab streamline the knowledge-sharing process for everyone involved.
 - **AI-powered work order recap:** Copilot in Field Service helps your workforce save time and work more efficiently by bringing disparate pieces of information together, providing a concise summary of a work order. This feature works across all experiences: desktop application, web, and mobile.
-- **Maintain customer facilities with enhanced capabilities:** [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
+- **Maintain customer facilities with enhanced capabilities:** [New location types](functional-locations.md#create-and-assign-functional-location-types) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
 - **Expedite service delivery with extended customer details:** [Capture manufacturer warranties, tag assets](warranties.md), and note location contact information to give frontline workers a comprehensive view of the asset they need to service, including where it is, if it's covered under warranty, and contacts where it's located.
 - **Manage frontline worker certifications:** [Organizations can track insurance](insurance.md), licenses, and certifications for frontline workers via the new insurance table, and [enhanced characteristics](set-up-characteristics.md#enhanced-characteristics-preview) to ensure they can complete work at the quality customers expect and in compliance with legislation.
 - Booking end times no longer get updated to the current time upon booking completion.
@@ -132,7 +151,7 @@ Fixed 38 bugs across the new work order experience, insurance views on accounts,
 
 (Includes Universal Resource Scheduling version [3.12.115.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312115.1---2023-wave-2-early-access-ea-release) and Resource Scheduling controls version 1.2.54.232001).
 
-- **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types-preview) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
+- **Maintain customer facilities with enhanced capabilities**: [New location types](functional-locations.md#create-and-assign-functional-location-types) allow organizations to better manage complex buildings, campuses, and factories and location properties enable service providers to capture and organize critical location information.
 
 - **Expedite service delivery with extended customer details**: [Capture manufacturer warranties, tag assets](warranties.md), and note location contact information to give frontline workers a comprehensive view of the asset they need to service, including where it is, if it's covered under warranty, and contacts where it's located.
 

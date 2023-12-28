@@ -22,9 +22,9 @@ In this article, we look at how to configure and use geofences by:
 
 ## Prerequisites
 
-- [Connect to Bing Maps](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in order to locate service accounts to later place geofences around.
+- [Connect to Bing Maps](field-service-maps-address-locations.md#connect-to-maps) to locate service accounts.
 
-- [Set auto geocode addresses to **yes**](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings) in order to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required in order to place geofences.
+- [Set up auto geocode addresses](turn-on-auto-geocoding.md) to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required to place geofences.
 
 - [Enable location tracking, sharing, and auditing](mobile-powerapp-location-auditing.md) and test location tracking.
 

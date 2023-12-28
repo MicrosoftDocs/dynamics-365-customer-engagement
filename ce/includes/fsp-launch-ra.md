@@ -1,7 +1,13 @@
-1. From your Viva dashboard, select **Open** under **Remote Assist**. From the Teams Field Service (Preview) **Home** page, select **Launch website** under **Remote Assist support tool**. Or, while in the details of a work order, select **Launch Remote Assist**.
+1. You can quickly get assistance from a remote expert in three places in Teams:
+
+    - In your Viva Connections dashboard, select **Open** on the **Remote Assist** tile.
+
+    - In the Field Service app **Home** tab, select **Launch website** on the **Remote Assist support tool** tile.
+
+    - When you have a work order in progress, select **Launch Remote Assist** in the work order details.
 
 1. Search for and select the contact you want to call.
 
-1. Select **OK** for Remote Assist to access your camera and select **Launch call**.
+1. Select **OK** to allow Remote Assist to access your camera, and then select **Launch call**.
 
-For more information about Dynamics 365 Remote Assist, see [Overview of Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).
+[Learn more about Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/ra-overview).

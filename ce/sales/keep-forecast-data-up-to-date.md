@@ -1,7 +1,7 @@
 ---
-title: Maintain up-to-date forecast data
-description: Recalculate and refresh forecast data manually to keep up-to-date with changes.
-ms.date: 09/01/2023
+title: Recalculate forecasts manually
+description: Trigger a manual recalculation to refresh forecast data immediately instead of waiting for automatic recalculation.
+ms.date: 12/26/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,9 +20,9 @@ searchScope:
   - Customer Engagement
 ---
 
-# Maintain up-to-date forecast data 
+# Recalculate forecasts manually
 
-Forecast data is automatically recalculated after every 24 hours to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
+You want the forecast data to be up-to-date to make informed decisions. Forecast data is automatically recalculated at regular intervals. However, you can trigger a manual recalculation when you want to recalculate the forecast data immediately. You can also trigger a manual recalculation for past and future periods as they aren't automatically recalculated. [Learn more about when and how forecast recalculation happens](forecast-recalculation-methods.md).
 
 ## License and role requirements
 
@@ -33,13 +33,6 @@ Forecast data is automatically recalculated after every 24 hours to keep the dat
 
 
 ## Recalculate and refresh forecast data manually
-
-Forecast data is automatically recalculated in the following scenarios:
-
-- After every 24 hours.
-- After you adjust the forecast values or update the underlying records on the **Forecasts** page.
-
-if you've updated the underlying records on the opportunities page or updated the forecast hierarchy, you can trigger a manual recalculation.
 
 1. [Open the forecast](view-forecasts.md). Verify the **Last updated** timestamp on the command bar to know when the forecast was last recalculated successfully.
 
@@ -52,29 +45,20 @@ if you've updated the underlying records on the opportunities page or updated th
     > [!div class="mx-imgBorder"]
     > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
 
-2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. You'll notice the following updates to the forecast:
+2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. [Learn more about what happens during  recalculation](forecast-recalculation-methods.md#what-happens-during-recalculation).
 
-    -	The aggregation and roll-ups for the underlying data are recalculated.
-    
-    -	Any target or quota changes are checked and updated.
-    
-    -	Any other changes affecting the forecast values (excluding hierarchy changes) are refreshed.
-    
-    -	Only the current forecast period is recalculated.
-    - No changes are made to the forecast values that were manually adjusted.
-    - No changes are made to the **Prediction** column. Predictions are only recalculated after every seven days. Hover over the information icon on the column header to view the last recalculation date.
-    
+  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
+- [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 
-[View a forecast](view-forecasts.md)<br>
+- [View a forecast](view-forecasts.md)<br>
 
-[Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
+- [Analyze revenue outcome by using predictive forecasting](/dynamics365/ai/sales/analyze-revenue-outcome-using-predictive-forecasting)
 
-[Troubleshooting forecasts](ts-forecasts.md)
+- [Troubleshooting forecasts](ts-forecasts.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

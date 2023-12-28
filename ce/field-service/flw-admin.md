@@ -1,7 +1,7 @@
 ---
-title: Field Service (Preview) for Administrators
-description: Learn about the Dynamics 365 Field Service (Preview) from an Administrator perspective.
-ms.date: 11/06/2023
+title: Set up Microsoft 365 integration for Field Service
+description: Learn how to integrate Dynamics 365 Field Service with Outlook, Teams, and Viva Connections for your organization, including setting up user groups, deploying apps, and assigning security roles.
+ms.date: 12/08/2023
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -10,11 +10,9 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Microsoft 365 integrations for Field Service for Administrators (preview)
+# Set up Microsoft 365 integration for Field Service
 
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-As an administrator for your organization, the set up tasks for the Microsoft 365 integrations for Field Service depends on which capabilities your organization chooses to use. You can use:
+As an administrator, your tasks to set up Microsoft 365 integrations for Dynamics 365 Field Service depend on which capabilities your organization decides to use:
 
 - Microsoft Outlook
 - Microsoft Teams
@@ -23,54 +21,51 @@ As an administrator for your organization, the set up tasks for the Microsoft 36
 
 <!--- Tab 1 Outlook --->
 
-## [Set up Field Service (Preview) for Outlook](#tab/outlook)
+## [Set up Field Service for Outlook](#tab/outlook)
 
-As an admin, you can quickly enable the Field Service (Preview) Outlook Add-in for your organization and the frontline employees are ready to go.
+As an admin, you can enable the Field Service for Outlook add-in for your organization or for specific users and groups.
 
-The Outlook add-in also includes copilot capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To enable or disable consent, see [Give consent to use Copilot in Field Service for Outlook.](#give-consent-to-use-copilot-in-field-service-for-outlook)
+Field Service for Outlook includes copilot AI capabilities to create work orders in Outlook. Copilot adheres to [responsible AI guidelines.](faqs-wo-flw-copilot.md) To opt out of using Copilot, see [Give consent to use Copilot in Field Service for Outlook](#give-consent-to-use-copilot-in-field-service-for-outlook).
 
 ### Prerequisites
 
-- Global admin or Exchange admin permissions in the Microsoft 365 Admin Center
-- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
+- You have global admin or Exchange admin permissions in the Microsoft 365 admin center
+- Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
 
-### Enable the Field Service (Preview) Outlook Add-in (optional)
+### Deploy the Field Service for Outlook add-in
 
-To set up the Field Service (Preview) Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help). If you choose not to enable the Outlook Add-in for your organization, each user can enable it.
+To set up Field Service for Outlook capability for your organization, enable it as an Outlook Add-in. For more information, see [Install or remove add-ins for Outlook for your Exchange 2013 organization](/exchange/install-or-remove-outlook-add-ins-2013-help).
 
-1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/) as a global admin or Exchange admin.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) as a global admin or Exchange admin.
 
-1. Go to **Settings** > **Integrated apps**. For more information, see [Deploy an Office Add-in using the admin center.](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
+1. Select **Settings** > **Integrated apps**, and then select **Get apps**. For more information, see [Deploy an Office Add-in using the admin center.](/microsoft-365/admin/manage/manage-deployment-of-add-ins?#deploy-an-office-add-in-using-the-admin-center)
 
    :::image type="content" source="media/fsp-integrated-apps.png" alt-text="Microsoft admin center with Integrated apps highlighted":::
 
-1. Select **Get apps** and search for and select **Dynamics 365 Field Service for Outlook (Preview)**.
+1. Search for and select **Dynamics 365 Field Service for Outlook**.
 
-   :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service (Preview) Outlook add-in card":::
+   :::image type="content" source="media/fsp-outlook-add-in.png" alt-text="Field Service Outlook add-in card":::
 
-1. Select **Get it now** and confirm your information.
+1. Select **Add**, **Get it now**, or **Update**. Confirm your information.
 
-1. On the **Add users** page, select **Entire organization** to enable the add-in for your organization.
+1. On the **Add users** page, under **Assign users**, select **Entire organization**.
 
-   :::image type="content" source="media/fsp-outlook-add-users.png" alt-text="Field Service (Preview) Outlook Add users screenshot":::
+   :::image type="content" source="media/fsp-outlook-add-users.png" alt-text="Field Service Outlook Add users screenshot":::
 
-1. Select **Next** and **Accept permissions**.
+1. Select **Next**, **Accept permissions**, **Next**, and **Finish deployment**.
 
-1. Select **Next** and **Finish deployment**.
-
-   > [!NOTE]
-   >  Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
+Users might need to relaunch Microsoft 365 to view the add-in icon on the app ribbon. Outlook add-ins can take up to 24 hours to appear on app ribbons.
 
 ### Give consent to use Copilot in Field Service for Outlook
 
-As an admin, you can enable or disable the use of copilot capabilities in Outlook for Field Service. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform envrionment is inside or outside of the United States.
+As an admin, you can enable or disable the use of copilot capabilities in Field Service for Outlook. When enabled, you agree that data may be stored and processed outside of your tenant's geographic region or compliance boundary. The process for giving consent depends on whether your Power Platform environment is inside or outside of the United States.
 
 #### For customers with Power Platform environments outside the US
 
-- To opt-in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
+- To opt in: fill out the Opt In Form at https://go.microsoft.com/fwlink/?linkid=2250794.
 - To opt out: fill out the Opt Out form at https://go.microsoft.com/fwlink/?linkid=2240475.
 
-#### For customer with Power Platform environments in the US
+#### For customers with Power Platform environments in the US
 
 1. In the Field Service app, change to the **Settings** area.
 
@@ -78,7 +73,7 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 
 1. Select the **Features** tab.
 
-   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with OUtlook Add-in Copilot highlighted.":::
+   :::image type="content" source="media/fsp-fs-copilot-consent.png" alt-text="Field Service Settings page with Outlook Add-in Copilot highlighted.":::
 
 1. For **Copilot in Microsoft Outlook**, enable or disable the setting.
 
@@ -86,59 +81,53 @@ As an admin, you can enable or disable the use of copilot capabilities in Outloo
 
 <!--- Tab 2 Teams --->
 
-## [Set up Field Service (Preview) for Teams](#tab/teams)
+## [Set up Field Service for Teams](#tab/teams)
 
 ### Prerequisites
 
-- Admin permissions for the following apps:
-  - Microsoft Teams Admin Center
-  - Microsoft Teams
-- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
+- You have admin permissions for the Microsoft Teams admin center and Microsoft Teams.
+- Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages).
 
-### Deploy Field Service (Preview) Teams app
+### Deploy the Field Service for Teams app
 
 [!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
 
-### Install and pin the app in Teams
+### Install and pin the app
 
-1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
-1. Select **Teams apps** > **Set up policies**.
-
-1. Select **Global (Org-side default)**.
+1. Select **Teams apps** > **Set up policies**, and then select **Global (Org-wide default)**.
 
    > [!TIP]
-   > This default policy applies to all users in your organization unless you assign another policy. If you don't want the app set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding **Field Service (Preview)**.
+   > The **Global (Org-wide default)** applies to all users in your organization unless you assign another one. If you don't want the app set up the app for all users, [create a policy](/microsoftteams/teams-app-setup-policies) that installs the app only for the users who should have it.
 
 1. [Install the app](/microsoftteams/teams-app-setup-policies#install-apps).
 
-1. [Pin the app and arrange it](/microsoftteams/teams-app-setup-policies#pin-apps).
+1. [Pin the app](/microsoftteams/teams-app-setup-policies#pin-apps).
 
 
 <!--- Tab 3 Viva Connections and Teams --->
 
-## [Set up Field Service (Preview) for Viva Connections and Teams](#tab/viva)
+## [Set up Field Service for Viva Connections and Teams](#tab/viva)
 
-The Field Service (Preview) for Viva Connections and Teams requires the following setup:
+To integrate Field Service for Viva Connections (Preview) and Teams, you need to complete the following tasks:
 
-- [Create user groups](#create-user-groups), if they aren't already set up
-- [Deploy Field Service (Preview) Teams app](#deploy-the-field-service-preview-teams-app)
-- [Install and pin the apps in Teams](#install-and-pin-the-apps-in-teams)
-- [Deploy Field Service (Preview) for Viva Connections](#deploy-field-service-preview-for-viva-connections)
-- [Add Field Service (Preview) cards to the dashboard](#add-field-service-preview-cards-to-the-viva-connections-dashboard)
-- [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles)
-
-> [!NOTE]
-> Teams Preview is not supported.
+- [Create user groups](#create-user-groups), if they aren't already set up.
+- [Set up the Field Service for Teams app](#set-up-the-field-service-for-teams-app).
+- [Set up the Field Service for Viva Connections SharePoint app](#set-up-the-field-service-for-viva-connections-sharepoint-app).
+- [Add Field Service cards to the Viva Connections dashboard](#add-field-service-cards-to-the-viva-connections-dashboard).
+- [Sync Microsoft Entra groups and Dataverse security roles](#sync-microsoft-entra-groups-and-dataverse-security-roles).
 
 ### Prerequisites
 
-- Admin permissions for the following apps:
+- You have admin permissions for the following apps:
   - Microsoft Teams Admin Center
   - Microsoft Teams
   - Microsoft 365 Admin Center
   - SharePoint Admin Center
-- Environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages)
+- Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages).
+- Viva Connections is [installed and set up for your organization](/viva/connections/set-up-admin-center).
+- Preview versions of Teams aren't supported.
 
 ### Create user groups
 
@@ -146,113 +135,86 @@ The Field Service (Preview) for Viva Connections and Teams requires the followin
 
 If you haven't created user groups for your frontline workers and frontline managers, [create a group in the Microsoft 365 Admin Center](/microsoft-365/admin/create-groups/create-groups) or [create a Microsoft Entra group](/azure/active-directory/fundamentals/how-to-manage-groups).
 
-### Deploy the Field Service (Preview) Teams app
+### Set up the Field Service for Teams app
 
-[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
+1. [Deploy the Field Service Teams app](#deploy-the-field-service-for-teams-app).
 
-### Install and pin the apps in Teams
+1. [Install and pin the app](#install-and-pin-the-app).
 
-1. Log into [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/).
+1. Open the Field Service app in Teams and select your environment.
 
-1. Select **Teams apps** > **Set up policies**.
+### Set up the Field Service for Viva Connections SharePoint app
 
-1. Select **Global (Org-side default)**.
-
-   > [!TIP]
-   > This default policy applies to all users in your organization unless you assign another policy. If you don't want the apps set up globally, [set up a new policy](/microsoftteams/teams-app-setup-policies) adding both **Field Service (Preview)** and **Viva Connections**.
-
-1. [Install both apps](/microsoftteams/teams-app-setup-policies#install-apps).
-
-1. [Pin both the apps and arrange them](/microsoftteams/teams-app-setup-policies#pin-apps).
-
-### Deploy Field Service (Preview) for Viva Connections
-
-Viva Connections is included as part of Microsoft Teams license. If you don't have Viva Connections set up for your organization, [install and set it up](/viva/connections/set-up-admin-center) before continuing. Then, make Field Service (Preview) for Viva Connections available in Teams.
+Viva Connections is included in your Microsoft Teams license. Field Service for Viva Connections is a SharePoint app that runs in Teams.
 
 > [!NOTE]
-> You must select your environment in Teams and see a validation message before deploying Field Service (Preview) for Viva Connections.
+> You must select your environment in Teams and see a validation message before deploying Field Service for Viva Connections.
 
-1. Log into [Microsoft AppSource](https://appsource.microsoft.com/).
+1. In [Microsoft AppSource](https://appsource.microsoft.com/), search for and select **Dynamics 365 Field Service for Viva Connections**.
 
-1. Search for **Dynamics 365 Field Service for Viva Connections**.
+   :::image type="content" source="media/fsp-viva-connections-appsource.png" alt-text="Dynamics 365 Field Service for Viva Connections tile showing Get it now.":::
 
-   :::image type="content" source="media/fsp-viva-connections-appsource.png" alt-text="Dynamics 365 Field Service (Preview) for Viva Connections tile showing Get it now.":::
+1. Select **Add**, **Get it now** or **Update** and confirm your information.
 
-1. Select **Get it now** and confirm your information. Microsoft SharePoint is launched.
+1. On the **SharePoint apps** page, **SharePoint Store** tab, select **Add to Apps site**.
 
-1. In SharePoint, select **Add to Apps site**.
+   :::image type="content" source="media/fsp-viva-connections-add.png" alt-text="Screenshot of the SharePoint Store tab showing the Dynamics 365 Field Service for Viva Connections app, with the Add to Apps site button highlighted.":::
 
-   :::image type="content" source="media/fsp-viva-connections-add.png" alt-text="Dynamics 365 Field Service (Preview) for Viva Connections showing Add.":::
+1. In the data access confirmation, select **Enable this app and add it to all sites**, and then select **Add**.
 
-1. On **Confirm data access**, select **Enable this app and add it to all sites**, and then select **Add**.
+1. In the access approval confirmation, select **Go to API access page**.
 
-   :::image type="content" source="media/fsp-viva-confirm-access.png" alt-text="Confirm data access dialog box to enable the app to all sites.":::
+1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval.
 
-1. On the **Approve access** dialog box, select **Go to API access page**.
+   API access is at the tenant level and is given to all environments in the tenant. [Learn more about managing API access](/sharepoint/api-access#approve-a-pending-request).
 
-1. On the **API access** page, select the pending request for **Dynamics 365 Field Service for Viva Connections**, and then select **Approve**. Confirm your approval. For more information, see [Manage API access](/sharepoint/api-access#approve-a-pending-request).
+### Add Field Service cards to the Viva Connections dashboard
 
-   > [!NOTE]
-   > API access is at the tenant-level for your organization. API access is given to all environments within the tenant.
+The Field Service app provides four cards that you can add to the Viva Connections dashboard. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers, we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
 
-### Add Field Service (Preview) cards to the Viva Connections dashboard
+1. Sign in to [Microsoft Teams](https://teams.microsoft.com) as an admin and open the Viva Connections app.
 
-There are four cards available for the Field Service (Preview) for Teams. For frontline managers, we recommend the **Work orders all in one place** and **Remote Assist** cards. For frontline workers we recommend the **Upcoming work order**, **Work orders assigned**, and **Remote Assist** cards.
+1. On the dashboard, select **Edit**.
 
-1. Log into [Microsoft Teams](https://teams.microsoft.com) as an admin.
+   :::image type="content" source="media/fsp-viva-connections-dashboard.png" alt-text="Screenshot of the Viva Connections dashboard, with the Edit button highlighted.":::
 
-1. Open the Viva Connections app in Teams.
+1. Set up the dashboard for **Frontline workers**, and then select **Continue**.
 
-   :::image type="content" source="media/fsp-viva-connections-dashboard.png" alt-text="Viva Connections dashboard":::
+1. Select **Add a card**. Select and add each of the four Field Service cards.
 
-1. On the dashboard, select **Edit**. Set up the dashboard for **Frontline workers** or **Information workers**.
-
-1. Select **Add a card**. Select and add each of the four Field Service (Preview) cards.
-
-   :::image type="content" source="media/fsp-cards.png" alt-text="Set of cards to add":::
+   :::image type="content" source="media/fsp-cards.png" alt-text="Screenshot of the four Field Service cards to add to the Viva Connections dashboard.":::
 
 1. [Set the target audience](/viva/connections/use-audience-targeting-in-viva-connections) for each card.
 
-   > [!NOTE]
-   > If you don't set up the target audience for each card, the card will be available to all workers.
+   If you don't set up the target audience for each card, the card will be available to all workers.
 
 1. Preview the experience and then select **Publish** or **Republish**.
 
 ### Assign security roles and field security profiles
 
-Assign Microsoft Entra ID permissions for your frontline managers and frontline workers in Field Service or Power Platform Admin Center. For the frontline manager, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For the frontline worker, we recommend the default **Field Service - Resource** role.
+Assign Microsoft Entra ID permissions for your frontline managers and frontline workers in Field Service or Power Platform admin center. For frontline managers, we recommend the default **Field Service - Dispatcher** or the **Field Service - Administrator** role. For frontline workers, we recommend the default **Field Service - Resource** role.
 
-For Field Service, see the following steps. For Power Platform Admin Center, see [Assign security roles and field security profiles](view-user-accounts-security-roles.md#step-2-assign-security-roles-and-field-security-profiles). For more information about users and security roles, see [Set up users and security profiles](view-user-accounts-security-roles.md).
-
-1. Go to Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md).
-
-1. Assign a **Security Role** and **Field Security** role. The other fields are optional.
+To assign security roles in Field Service, go to the Field Service **Get Started** page and [set up your frontline workers](frontline-worker-set-up.md). Assign a **Security Role** and **Field Security** role. The other fields are optional. [Learn more about users and security roles and profiles](view-user-accounts-security-roles.md).
 
 ### Sync Microsoft Entra groups and Dataverse security roles
 
-Synchronize your Microsoft Entra groups to the Dataverse security roles. Although this step is optional, we recommend you assign Microsoft Entra ID permissions to ensure that adding and removing users is reflected in both Microsoft Entra ID and Power Platform. To automate the process using the Web API, see [Assign a security role to a Microsoft Entra group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
+Synchronize your Microsoft Entra groups to the Dataverse security roles. Although this step is optional, we recommend that you assign Microsoft Entra ID permissions to ensure that adding and removing users is reflected in both Microsoft Entra ID and Power Platform. To automate the process using the Web API, see [Assign a security role to a Microsoft Entra group team](/power-apps/developer/data-platform/aad-group-team#assign-a-security-role-to-an-aad-group-team).
 
-1. Log into the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-1. [Create a security group and add members to the security group](/power-platform/admin/control-user-access#create-a-security-group-and-add-members-to-the-security-group).
+1. [Create a security group and add members to it](/power-platform/admin/control-user-access#create-a-security-group-and-add-members-to-the-security-group).
 
-1. Associate a group with a security role using Field Service or the Power Platform Admin Center. For more information, see [Assign security roles and field security profiles](#assign-security-roles-and-field-security-profiles).
+1. [Assign a security role to the group](#assign-security-roles-and-field-security-profiles).
 
 ### Set up column level security (optional)
 
-If some of the permissions of a user are inadequate to view or create work orders, you can grant the user an elevated security role or change the column-level security of the user’s security role. For more information, see [Set up users and security profiles](view-user-accounts-security-roles.md) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+If some of the user's permissions are inadequate to view or create work orders, you can grant the user an elevated security role or change the column-level security of the user’s security role. For more information, see [Set up users and security profiles](users-licenses-permissions.md) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
-1. Depending on your environment go to Power Apps.
-
-   - For Prod, go to [make.powerapps.com](https://make.powerapps.com/)
-   - For Test, go to [make.test.powerapps.com](https://make.test.powerapps.com).
-   - For PreProd, go to [make.preprod.powerapps.com](https://make.preprod.powerapps.com).
+1. Go to [Power Apps](https://make.powerapps.com/).
 
 1. Select your environment in the top bar.
 
-1. In the left navigation pane, select **Solutions**.
-
-1. Find and select the **Default Solution**.
+1. In the left navigation pane, select **Solutions**, and then find and select the **Default Solution**.
 
    :::image type="content" source="media/fsp-powerapps-default-solution.png" alt-text="PowerApps screenshot showing Default Solution":::
 
@@ -263,5 +225,10 @@ If some of the permissions of a user are inadequate to view or create work order
 1. Edit the desired column level profiles.
 
 ---
+
+## Next steps
+
+- [Customize the experience](flw-customization.md)
+- [Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)](flw-copilot-setup.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
