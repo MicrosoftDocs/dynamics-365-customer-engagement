@@ -19,6 +19,10 @@ Select the **Book** option:
 - On the *[requirement group](../../field-service/multi-resource-scheduling-requirement-groups.md)* form.
 - From list view of a [scheduling-enabled entity](../../field-service/schedule-new-entity.md), after selecting a record.
 
+>[!NOTE]
+>When launching the schedule assistant from a scheduling-enabled entity's **Book** button, the tool will use that entity's associated time zone. This can be found and/or modified by opening the entity and navigating to the **Modify Calendar** panel from the top ribbon. 
+
+
 ## Schedule assistant filters
 
 After launching the schedule assistant, it populates filters based on criteria like work location, characteristics, territory, resource types, and more. Dispatchers can refine results by adjusting filters to meet their scheduling needs and find the right resource.
