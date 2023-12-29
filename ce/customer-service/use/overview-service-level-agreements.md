@@ -19,7 +19,7 @@ ms.collection: get-started
 
 # Overview of service-level agreements
 
-Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details, such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.
+Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they're entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details, such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.
 
 You can define the level of service or support that your organization agrees to offer to a customer by using SLAs in Dynamics 365 Customer Service. Providing support based on service levels ensures that you're delivering measured and predictable service.
 
@@ -31,13 +31,13 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Tracking
 
-- After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This helps agents monitor their service-level performance and meet their service-level goals.
+- After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This functionality helps agents monitor their service-level performance and meet their service-level goals.
 - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
 - You can also enable recalculation of SLAs, providing agents with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status)
 
 ### Prioritization
 
-You can define the set of conditions based on which KPIs are applied to a case, or the set of actions to take as a warning or in case of an SLA breach. More information: [Manage service configuration settings](/power-platform/admin/system-settings-dialog-box-service-tab)
+You can define the set of conditions that are based on which KPIs are applied to a case, or the set of actions to take as a warning or in an SLA breach. More information: [Manage service configuration settings](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 ### Reminders
 
@@ -47,15 +47,15 @@ You can include detailed items to define metrics or key performance indicators (
 
 ### Configure SLAs
 
-Configuring SLAs includes the process of creating SLA KPIs, SLAs, and then applying the SLAs that you have created.
+Configuring SLAs includes the process of creating SLA KPIs, SLAs, and then applying the SLAs you created.
 
 #### Create SLA KPIs
 
-Creating KPIs for your SLAs helps define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time, which help define whether the scope of services to be covered was met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](../administer/define-service-level-agreements.md)
+Creating KPIs for your SLAs helps define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics, such as the response and resolution time, which help define whether the scope of services to be covered was met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](../administer/define-service-level-agreements.md)
 
 #### Create SLAs
 
-After you have created the SLA KPIs, you can create SLAs from the Customer Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA and SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](../administer/define-service-level-agreements.md)
+After you create the SLA KPIs, you can create SLAs from the Customer Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA and SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](../administer/define-service-level-agreements.md)
 
 #### Apply SLAs
 
@@ -63,12 +63,12 @@ As a final step, you can apply SLAs automatically, manually, through entitlement
 
 ### Implement and manage SLAs
 
-After you have configured and applied your SLAs, you can manage the various aspects of your SLA.
+After you configure and apply your SLAs, you can manage the various aspects of your SLA.
 
 #### Export and import a solution with SLAs
 
 - You can export and import a solution with SLAs to another environment without having to create SLAs in the new environment all over again. More information: [Export and import a solution with SLAs](../administer/export-import-solution.md#export-and-import-a-solution-with-slas) 
-- Additionally, you can export or import a calendar with SLAs. SLA items will automatically be linked to the corresponding imported calendars on import. More information: [Export or import a calendar with SLAs](../administer/export-import-solution.md#export-or-import-a-calendar-with-slas)
+- Additionally, you can export or import a calendar with SLAs. SLA items are automatically inked to the corresponding imported calendars on import. More information: [Export or import a calendar with SLAs](../administer/export-import-solution.md#export-or-import-a-calendar-with-slas)
 
 #### Calculate SLA KPIs
 
