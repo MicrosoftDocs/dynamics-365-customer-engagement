@@ -30,8 +30,6 @@ This articles describes how you can programmatically retrieve and format rich me
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../../includes/oac-deprecation.md)]
-
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
 
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.

@@ -56,9 +56,9 @@ You can define operating hours in the Customer Service admin center or Customer 
 
        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Omnichannel admin center (deprecated)]
+   ### [Omnichannel admin center (deprecated)](#tab/Omnichanneladmincenter)
 
-     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)](#tab/Omnichanneladmincenter)
+     [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
     1. In the **Operating Hours** section, select **Manage**.
