@@ -66,7 +66,7 @@ To enable your own custom time calculation, define an API interface that has a f
 
     For information on how to apply SLAs, go to [Apply SLAs](apply-slas.md#apply-slas)
 
-1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA will also export the custom action workflow process. Next, include the SDK message in the solution, which will export the plug-in you created earlier.
+1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA also exports the custom action workflow process. Next, include the SDK message in the solution, which exports the plug-in you created earlier.
 
 ## Scenarios and plug-ins
 
@@ -76,7 +76,7 @@ Scenario 1:
 
 If you don't have a pause or resume scenario, only the `WarningTime` and `FailureTime` are to be calculated. Whenever any new KPI instances get created, SLA initiates the custom time calculation API to calculate only `WarningTime` and `FailureTime` in a single call.
 
-In such a case, `requestType` will be `getEndTime`, and other attributes can be fetched as defined in the following example:
+In such a case, `requestType` is `getEndTime`, and other attributes can be fetched as defined in the following example:
 
 ```
 public void Execute(IServiceProvider serviceProvider)
@@ -203,8 +203,8 @@ Scenario 2:
 If there's a pause or resume scenario, the following calculations are to be made:
 
 - Calculation of `elapsedTime` between paused and resumed states.
-For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
-- Calculation of new `WarningTime` and `FailureTime` computation for resumed instances. In this case, `requestType` will be `getEndTime` and other attributes can be fetched as defined in the following example:
+For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType is `getElapsedTime`, and other attributes can be fetched as defined in the plug-in code example.
+- Calculation of new `WarningTime` and `FailureTime` computation for resumed instances. In this case, `requestType` is `getEndTime`, and other attributes can be fetched as defined in the following example:
 
 ```
 private double CalculateElapsedTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime casePausedTime, DateTime caseResumedTime, int existingElapsedTime)
@@ -253,7 +253,7 @@ The error occurs if the Custom Time Calculation Workflow is disabled.
 
 ### Resolution
 
-When opening the SLA, you see a form notification along with an **Activate** button if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it has completed. Make sure that you don't delete or deactivate the workflow process manually or through customization.
+When opening the SLA, you see a form notification along with an **Activate** button if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it completes. Make sure that you don't delete or deactivate the workflow process manually or through customization.
 
 ### Error code: 10000005
 
