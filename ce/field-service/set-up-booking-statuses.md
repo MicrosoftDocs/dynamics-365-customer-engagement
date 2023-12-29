@@ -24,6 +24,9 @@ Booking statuses allow you to create multiple substatuses mapped to each of your
    - Map the new status to a parent status in the **Field Service** tab by choosing a value in the **Field Service Status** field.  
   
 > [!TIP]
-> You can also set a default status for scheduled and canceled bookings. Go to **Resources** > **Administration** > **Booking Setup Metadata Wizard**. Select **msdyn_workorder** and configure the default settings. For more information: [Configure default settings](../field-service/configure-default-settings.md)  
+> You can also set a default status for scheduled and canceled bookings. Go to **Resources** > **Administration** > **Booking Setup Metadata Wizard**. Select **msdyn_workorder** and configure the default settings. For more information: [Configure default settings](../field-service/configure-default-settings.md)
+
+> [!TIP]
+> On the schedule board, booking statuses will be displayed in alphabetical order grouped by their parent status. To customize this ordering, adjust the name field of the relevant records accordingly.  
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
