@@ -19,13 +19,13 @@ For information about older versions, see [Version history archive](version-hist
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.104.29](/dynamics365/field-service/version-history#8810429)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546)  |12/15/2023 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/12/2024 |
-| | *USG* |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546)  |12/15/2023 |
+| | *USG* |[8.8.105.46](/dynamics365/field-service/version-history#8810546)  | TBD |01/19/2024 |
 |**Station 4** |*Europe* |  [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/19/2024 |
 |**Station 5** | *North America*| [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
 |**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |01/26/2024 |
-| | *Dedicated Scale Groups* | [8.8.103.22](/dynamics365/field-service/version-history#8810322)   | [8.8.104.44](/dynamics365/field-service/version-history#8810444)    |12/15/2023 |
+| | *Dedicated Scale Groups* | [8.8.104.44](/dynamics365/field-service/version-history#8810444)  | [8.8.105.46](/dynamics365/field-service/version-history#8810546) |02/02/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
