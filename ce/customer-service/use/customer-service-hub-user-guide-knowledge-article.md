@@ -33,7 +33,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so t
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
 > [!IMPORTANT]
-> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
+> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub are available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](../administer/work-knowledge-articles.md)
@@ -50,14 +50,14 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
   
    - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
 
-   - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
+   - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
    
        :::image type="content" source="../media/v9-add-cont_article.png" alt-text="Add article content":::
  
 1. In the **CONTENT** section, add the content for your knowledge article.  
   
    > [!NOTE]
-   > As soon as you click within the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, it means that your editing space is too small. You'll need to resize to a larger space. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
+   > As soon as you click within the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, it means that your editing space is too small. You need to resize to a larger space. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
 1. Select **Save**.
    
@@ -71,20 +71,20 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
   
 1. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
 
-    Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
+    Once a new article is created, the author value is replicated to Primary author if it's a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
     
     You can mark the article complete by selecting **Mark Complete** from the **Mark for Review** dropdown list at this stage.
 
 > [!TIP]
 > Select the icon ![Flyout icon.](../media/flyout.png) to pin the stage flyout vertically.
   
-Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
+Posts about knowledge article-related activities begin to appear in the **Timeline** section.  
 
 ## Use AI-suggested article keywords and descriptions
 
-If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
+If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
 
-However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description".
+However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description."
 
 1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
@@ -92,7 +92,7 @@ However, either the **Title** or **Content** fields&mdash;or any other correspon
 
       :::image type="content" source="../media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
-1. In the **Suggested keywords and description** dialog, do the following:
+1. In the **Suggested keywords and description** dialog, perform the following steps:
 
    - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keywords field to add to existing list.
    - Select **Insert suggested description** to add the description to the **Description** field.
@@ -155,8 +155,8 @@ You can choose a specific format or style for the content you’re writing. The 
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter.](../media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section.<br /><br /> **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
-|![Styles.](../media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like.<br /><br /> **Note**: This option is available in the expanded mode only.
+|![Format Painter.](../media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section.<br /><br /> **Note**: Copy formatting only works with inline styles, and doesn't copy or apply block-level styles. |
+|![Styles.](../media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text looks like.<br /><br /> **Note**: This option is available in the expanded mode only.
 |![Paragraph Format.](../media/paragraph-format.PNG "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element.<br /><br /> **Note**: This option is available in the expanded mode only. |
 |![Font.](../media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
 |![Font Size.](../media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font size of your selection is displayed.|
@@ -173,10 +173,10 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Align Left.](../media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center.](../media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right.](../media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link.](../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** will become <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you'd like to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />The type of links that you can add are defined by your administrator. If you add links whose origin link doesn't match any of the links specified in the origins list, an error will be displayed when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear. More information: [Configure origins allow list for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Link.](../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** becomes <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you want to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />Your administrator defines the type of links that you can add. If you add links whose origin link doesn't match any of the links that are specified in the origins list, an error displays when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" appears. More information: [Configure origins allow list for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link opens after you select it. |
 |![Remove Link.](../media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript.](../media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript.](../media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
+|![Superscript.](../media/format-superscript.png "Superscript")| Superscript |  | Type small letters just above the line of text. |
+|![Subscript.](../media/format-subscript.png "Subscript")| Subscript |  | Type small letters just below the line of text. |
 |![Strikethrough.](../media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
 |![Image](../media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: PNG, JPG, or GIF. For details on using inline images, see [Use inline images](#use-inline-images).|
 |![Left to Right.](../media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
@@ -184,17 +184,17 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Undo Typing.](../media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
 |![Redo Typing.](../media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting.](../media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table.](../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
+|![Add a Table.](../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following steps:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
+|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with much information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
 |![Embed Media.](../media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button. The **Embed Video** dialog opens.<br /><br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
 |![Create Div Container.](../media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties.<br /><br />**Note**: This option is available in the expanded mode only. |
-|![Create Anchor](../media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you are viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
+|![Create Anchor](../media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you're viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
   
 > [!IMPORTANT]
 >  You can’t use client-side code (script tags or [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]) in articles or emails. If you want to associate CSS or [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)], use web resources. 
 > 
 > [!NOTE]
-> In mobile devices, where you have comparatively smaller screen sizes, a limited set of formatting options will be displayed.
+> In mobile devices, where you have comparatively smaller screen sizes, a limited set of formatting options is displayed.
 
 #### Use inline images
 
@@ -231,7 +231,7 @@ To insert an image by using a URL or navigating to the local image:
 
 1. In the editor, choose **Insert Image**.
 2. In the **Image** property dialog, choose from the following options:
-   - Specify the web address of the image, and also specify properties to define how the image will appear in the email or article.
+   - Specify the web address of the image, and also specify properties to define how the image appears in the email or article.
     
      **Note:** If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path. If you want the image to be a selectable link, add a URL for the image. You can also specify if you want the targeted page to open in a new window, top-most window, same window, or parent window.
 
@@ -257,9 +257,9 @@ This is an indicative preview. Content rendered can be different in the actual d
 
 ## Add a file attachment to a knowledge article
 
-When you're creating a knowledge article, you can attach one or more files to it to help provide comprehensive information for your customers. Keep in mind the following when attaching files:
+When you're creating a knowledge article, you can attach one or more files to it to help provide comprehensive information for your customers. Keep in mind the following rules when attaching files:
 
-- There is no limit to the number of articles that can be attached to a knowledge article, but the file size mustn't exceed 32 MB.
+- There's no limit to the number of articles that can be attached to a knowledge article, but the file size mustn't exceed 32 MB.
 - Your administrator may limit the file size for knowledge articles.
 - You must save your knowledge article before attaching files to it.
 
@@ -287,11 +287,11 @@ For your attached files, use the following commands:
 > - Dynamics 365 Customer Engagement (on-premise)
 > - Customer Managed Key-enabled organizations
 
-When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+When you publish your knowledge article, if you attached files to it, knowledge consumers can access the attachments through Knowledge Search.
 
 #### User permissions to view and download file attachments
 
-For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
+For users to be able to view and download file attachments, you need to grant the following permissions to the Knowledge Article table:
 
 |Task|Access needed |  
 |--------|-------------|  
@@ -305,9 +305,9 @@ To sync knowledge article attachments to the portal, your administrator must fir
 
 On syncing knowledge article attachments to the portal:
 
-- Dataverse search will be able to search through knowledge article attachments. More information: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template from your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template from your portal](../develop/configure-faceted-search-results.md) 
+- Dataverse search can search through knowledge article attachments. More information: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template from your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template from your portal](../develop/configure-faceted-search-results.md) 
   
-- There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. Only the notes attachments used in the portal will be migrated to new attachments.
+- There's a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. Only the notes attachments used in the portal are migrated to new attachments.
 
 For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
