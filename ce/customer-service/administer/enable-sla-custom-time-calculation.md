@@ -253,7 +253,7 @@ The error occurs if the Custom Time Calculation Workflow is disabled.
 
 ### Resolution
 
-When opening the SLA, you see a form notification along with an **Activate** button, if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it has completed. Make sure that you don't delete or deactivate the workflow process manually or through customization.
+When opening the SLA, you see a form notification along with an **Activate** button if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it has completed. Make sure that you don't delete or deactivate the workflow process manually or through customization.
 
 ### Error code: 10000005
 
