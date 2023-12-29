@@ -1,7 +1,7 @@
 ---
 title: Enable custom time calculation of SLA KPIs
 description: Enable custom time calculation of SLA KPIs by defining an API interface and adding a custom logic to calculate the time.
-ms.date: 12/22/2023
+ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

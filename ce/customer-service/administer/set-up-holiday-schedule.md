@@ -1,7 +1,7 @@
 ---
 title: Create and manage holiday schedules
 description: Create a holiday schedule in the Customer Service app and configure service-level agreements to ensure your SLAs are not affected.
-ms.date: 12/22/2023
+ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

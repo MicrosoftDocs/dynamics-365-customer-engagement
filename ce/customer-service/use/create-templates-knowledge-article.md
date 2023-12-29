@@ -1,7 +1,7 @@
 ---
 title: Create templates for knowledge articles
 description: Create a knowledge article template to simplify the process of creating knowledge articles and maintain consistency in branding, language, and structure.
-ms.date: 12/22/2023
+ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

@@ -1,7 +1,7 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 12/22/2023
+ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
