@@ -21,7 +21,7 @@ ms.custom:
 
 Prevent your service-level agreements (SLAs) from being affected when your service organization is closed, by creating a holiday schedule and adding it to your service calendar.  
   
-For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and isn't affected by the holiday closure.  
+For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and the holiday closure doesn't affect it.  
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, holiday schedule in service management is available in the Customer Service Hub. We recommend that you create and manage holiday schedules using the new experience.
@@ -81,9 +81,9 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
   
 7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then select **OK**.  
   
-   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure service-level agreements](define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours isn't affected. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure service-level agreements](define-service-level-agreements.md)  
 
-## Additional actions
+## More actions
 
 - To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
     - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
