@@ -19,7 +19,7 @@ ms.custom:
 
 # Create and manage holiday schedules
 
-Prevent your service-level agreements (SLAs) from getting affected when your service organization is closed, by creating a holiday schedule and adding it to your service calendar.  
+Prevent your service-level agreements (SLAs) from being affected when your service organization is closed, by creating a holiday schedule and adding it to your service calendar.  
   
 For example, if your service organization has an SLA to reply to email cases within two business days, you can create a holiday schedule and add it to your service calendar. Then, if a customer submits an email case on that holiday, your SLA is clear and isn't affected by the holiday closure.  
 
