@@ -1,7 +1,7 @@
 ---
 title: Mobile offline capabilities (contains video)
 description: Learn about the mobile offline profile for the Dynamics 365 Field Service mobile app including guidance and limitations for its use.
-ms.date: 12/18/2023
+ms.date: 01/02/2024
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -42,6 +42,8 @@ For more best practices, go to [Power Apps Mobile Offline Guidelines](/power-app
 - [Details on other platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 - Access to SharePoint documents isn't supported in offline mode.
 - Due to some current [limitations](/power-apps/mobile/offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in the mobile app and in the browser.
+
+<!--- Do we need all this info? --->
 
 ### What happens when I reconfigure the offline-enabled application?
 

@@ -1,7 +1,7 @@
 ---
 title: Configure the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 12/18/2023
+ms.date: 01/02/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Configure the mobile offline profile
 
-Field Service provides an out-of-the-box offline profile called Field Service Mobile - Offline Profile with recommended default settings for Field Service record types. Learn more about [offline profile guidance](/power-apps/mobile/mobile-offline-guidelines).
+Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service record types. Learn more about [offline profile guidance](/power-apps/mobile/mobile-offline-guidelines).
 
 Administrators control what data the Field Service mobile app downloads with the offline profile. Within the offline profile, you can:
 
@@ -35,11 +35,12 @@ Administrators control what data the Field Service mobile app downloads with the
 
 1. Scroll to **Select offline mode and profile**.
 
-1. [Add users and teams](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). You can only add a user or a team to one offline profile one at a time.
+1. Choose which users should have access to the mobile app offline:
 
-   When you add a team to the profile, the users within that team show under the team, while individual users show directly in the offline profile. Organizations with many users should use teams to help ease maintenance of user access.
+   - **Default (recommended)**: All your users who have access to the app can also use it in offline mode.
+   - **Restricted to selected users**: Restrict access to the app in offline mode to certain users. [Add users and teams](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). You can only add a user or a team to one offline profile one at a time.
 
-   The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+     The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
 
 1. Select the ellipsis next to the **Field Service Mobile - Offline Profile**, and then select **Edit selected profile**.
 
@@ -68,14 +69,6 @@ Administrators control what data the Field Service mobile app downloads with the
 
 You can create additional [offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile) to enable scenarios where different user roles have different sync settings or tables available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
 
-<!--- There is no Publish in Power Apps. Leave in?
-
-Sign into your mobile app, then go to **Settings** > **Offline Setting** to see the status of downloaded data.
-
-If data isn't downloading, try signing out and signing back in. If offline data is still not downloading, make sure the user you're signing into the mobile app as uses a **Published** mobile offline profile.
-
---->
-
 ## Move a mobile offline profile between environments
 
 To control changes and keep your offline profiles in sync, your organization might require making changes to your mobile offline profile in one environment and then moving that profile into other environments.
@@ -91,9 +84,6 @@ To control changes and keep your offline profiles in sync, your organization mig
 1. Select the ellipsis next to the **Field Service Mobile - Offline Profile**, and then select **Copy selected profile**.
 
 1. Modify your copied profile as needed.
-
-<!--- Where do you do the next steps? --->
-
 
 1. Create a managed solution that includes the mobile offline profile.  
    - In Dynamics 365, go to **Settings** > **Solutions** > **Create a new solution**.
