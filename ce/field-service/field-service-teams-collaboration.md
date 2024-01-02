@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams (contains video)
 description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 08/24/2023
+ms.date: 01/02/2024
 ms.topic: article
 ms.author: jacoh
 author: jasonccohen
@@ -9,7 +9,7 @@ author: jasonccohen
 
 # Collaborate on work orders with Microsoft Teams
 
-Integrate with Microsoft Teams to chat with team members in the context of work orders. The Teams integration helps finding answers and fix issues the first time. It also lists team members that have previously worked on a work order.
+Integrate with Microsoft Teams to chat with team members in the context of work orders. The Teams integration helps finding answers and fix issues the first time. It also lists team members that have previously worked on a work order. [Learn more about integrating with Teams](/dynamics365/teams-integration/teams-integration).
 
 > [!div class="mx-imgBorder"]
 > ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
@@ -45,34 +45,27 @@ For more information, see:
 - [Work with Microsoft Teams chat in Dynamics 365](/dynamics365/teams-integration/enable-teams-chat)
 - [Configure Teams chat](/dynamics365/customer-service/configure-teams-chat)
 
+## Customize welcome message
+
+When you start a new chat, some predefined information creates a welcome message in the chat panel. You can customize the welcome message.
+
+1. Go to **Settings** > **Microsoft Teams Integration** > **Collaboration**.
+
+1. Select the record type, such as Work Order.
+
+1. Select **Message view**, and then select **Save**.
+
+The first five columns in the view you choose appears in the welcome message when you invite someone to collaborate on a record.
+
 ## Create a new chat
 
-1. To start a new chat, open a record for a table that is connected to the Teams integration.
+To [start a new chat](/dynamics365/customer-service/use/use-teams-chat#start-a-new-connected-chat), open a record for a table that is connected to the Teams integration.
 
-1. In the top-right corner of your screen, select the chat box icon to open the Teams chats panel. In the Teams chats panel, you'll see a list of chats that are contextually linked to the current work order, along with other chats in your Teams history.
-
-   :::image type="content" source="media/work-order-teams-create.png" alt-text="Field Service work order, showing linked chats in the Teams chats panel.":::
-
-1. Select **New connected chat** to start a new chat that will be linked to the current record. Add the relevant participants. By checking the **Send introduction message**, you'll start the conversation with the relevant details shown between participants of the conversation.
-
-1. Select **Start chat** to start the conversation.
+<!--- Can we use this link instead? https://learn.microsoft.com/en-us/dynamics365/sales/teams-integration/using-teams-chat-in-dynamics#start-a-connected-teams-chat-in-dynamics-365 --->
 
 ## Connect and disconnect existing chats
 
-To connect an existing chat to a record, select the ellipses icon next to the chat in the Teams panel, and select **Connect to this record**. That chat will now appear in the top section of the Teams panel, where other chats linked to this work order appear.
+[Connect or disconnect and existing chat from a record](/dynamics365/customer-service/use/use-teams-chat#connect-or-disconnect-an-existing-chat-from-a-record).
 
-:::image type="content" source="media/work-order-teams-link-to-work-order.png" alt-text="Teams chat panel on the work order, showing the option to link chat to the work order.":::
-
-To unlink the chat from a record, select the ellipses icon next to the connected chat, and then **Disconnect from this record**.
-
-## Customize welcome message
-
-When you start a new chat, some predefined information creates a welcome message in the chat panel.
-
-To customize the information in the welcome message, go to **Settings** > **Microsoft Teams Integration** > **Collaboration**.
-
-Select the record type, then choose a view from the system. **Save** when done.
-
-The first five columns in the view you choose will be shown in the welcome message when you invite someone to collaborate on a record.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
