@@ -12,6 +12,21 @@ ms.author: jobaker
 
 After configuring the offline profile and the initial sync of downloading data, the mobile app always runs [offline-first](/power-apps/mobile/mobile-offline-overview). This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
 
+## Understanding offline vs. online capabilities
+
+Once you assigned users to a configured offline profile, following the initial sync to download data, the mobile app will always run offline-first. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
+
+1. **Offline not configured**: Occurs when there's internet but no offline profile. The mobile app functions like using a Dynamics 365 app with internet on your PC. Without network, the mobile app is unusable. Not recommended.
+2. **Offline First without internet connection**: Data downloads to the device and it stores all changes locally. When restoring the network connection, changes sync with the server.
+3. **Offline First with internet connection**: Data downloads to the device and it stores all changes locally.  Because there's internet connection, the user can manually sync to receive the latest data from the server. The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
+
+In summary, an offline-first application always reads from the local device database and only uses an active internet connection for sync. Ensure your offline profile syncs all data to the device that the frontline worker requires during their working hours.
+
+> [!NOTE]
+> After the offline-enabled user configures and signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database. During the time period of subsequent sync cycles, the app will not run as though in online mode.
+>
+> When an offline-enabled mobile application has network access, internal business logic fetches data from the server if a required record isn't found in the mobile offline profile. If no network access is available, a more specific error message will show, informing users of the missing table.
+
 ## Sync intervals
 
 Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records don't need to sync as often. With variable sync intervals, administrators have greater control over data and can help improve sync performance.
@@ -56,6 +71,11 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 The Field Service mobile app provides an [offline sync icon](/power-apps/mobile/offline-sync-icon) that indicates the synchronization status of the mobile app. It's always visible in the main app navigation on Windows, iOS, and Android devices. Find out at a glance whether your app connects to the network, a sync is in progress, or if there are sync errors. When you select the offline sync icon, the [**Device Status** page](/power-apps/mobile/offline-sync-icon#device-status-page) opens providing more details.
 
+If the application detects the network isn't suitable for online activity, the message "Network or Service Unavailable" sappears. The client won't sync new data and some network-dependent areas of the application won't work. For example, maps or Dataverse searches which depend on device connectivity. The following events determine network detection, which may result in the error message:
+
+- Application boots into offline mode prior to detecting network availability.
+- Application network check fails with no response or a response that takes too long.
+
 You can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
 
 ## Data removal from the mobile device
@@ -68,4 +88,8 @@ At certain points following a sync, data which no longer meets the offline profi
 
 - After an incremental sync while the user is already offline, data which does not meet filters of the mobile offline profile might be removed. For example, if the mobile offline profile filters all completed *Bookable Resource Bookings*, a newly completed booking gets removed from the agenda following a sync and is no longer accessible in the mobile application.
 
-If a user is actively viewing a record which is removed from the mobile offline database, they see a **Record Not Found** error. If this is a frequent occurrence, we recommend to review the filters to ensure they are not overly restrictive for key scenarios.
+If a user is actively viewing a record which is removed from the mobile offline database, they see a **Record Not Found** error. If this is a frequent occurrence, we recommend you review the filters to ensure they are not overly restrictive for key scenarios.
+
+If the mobile application is reconfigured, the offline database on the device is cleared.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
