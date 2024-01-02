@@ -1,16 +1,19 @@
 ---
-title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
-ms.date: 01/17/2023
+title: Enable custom time calculation of SLA KPIs
+description: Enable custom time calculation of SLA KPIs by defining an API interface and adding a custom logic to calculate the time.
+ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-search.audienceType: 
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:12/22/2023
 ms.collection: get-started
 ---
 
@@ -63,7 +66,7 @@ To enable your own custom time calculation, define an API interface that has a f
 
     For information on how to apply SLAs, go to [Apply SLAs](apply-slas.md#apply-slas)
 
-1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA will also export the custom action workflow process. Next, include the SDK message in the solution, which will export the plug-in you created earlier.
+1. To export the solution to another environment, first add the SLA (whose item has the custom action reference) to the custom solution. Adding the SLA also exports the custom action workflow process. Next, include the SDK message in the solution, which exports the plug-in you created earlier.
 
 ## Scenarios and plug-ins
 
@@ -73,7 +76,7 @@ Scenario 1:
 
 If you don't have a pause or resume scenario, only the `WarningTime` and `FailureTime` are to be calculated. Whenever any new KPI instances get created, SLA initiates the custom time calculation API to calculate only `WarningTime` and `FailureTime` in a single call.
 
-In such a case, `requestType` will be `getEndTime`, and other attributes can be fetched as defined in the following example:
+In such a case, `requestType` is `getEndTime`, and other attributes can be fetched as defined in the following example:
 
 ```
 public void Execute(IServiceProvider serviceProvider)
@@ -200,8 +203,8 @@ Scenario 2:
 If there's a pause or resume scenario, the following calculations are to be made:
 
 - Calculation of `elapsedTime` between paused and resumed states.
-For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
-- Calculation of new `WarningTime` and `FailureTime` computation for resumed instances. In this case, `requestType` will be `getEndTime` and other attributes can be fetched as defined in the following example:
+For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType is `getElapsedTime`, and other attributes can be fetched as defined in the plug-in code example.
+- Calculation of new `WarningTime` and `FailureTime` computation for resumed instances. In this case, `requestType` is `getEndTime`, and other attributes can be fetched as defined in the following example:
 
 ```
 private double CalculateElapsedTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime casePausedTime, DateTime caseResumedTime, int existingElapsedTime)
@@ -250,7 +253,7 @@ The error occurs if the Custom Time Calculation Workflow is disabled.
 
 ### Resolution
 
-When opening the SLA, you'll see a form notification along with an **Activate** button if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it has completed. Make sure that you don't delete or deactivate the workflow process manually or through customization.
+When opening the SLA, you see a form notification along with an **Activate** button if the SLA is active but the Custom Time Calculation Workflow is disabled. To avoid this issue, make sure that the Custom Time Calculation Workflow process is always in **Active** state. Perform the SLA deployment, and then verify only after it completes. Make sure that you don't delete or deactivate the workflow process manually or through customization.
 
 ### Error code: 10000005
 
@@ -291,7 +294,7 @@ Error message: "Warning or the failure time returned by Custom Time Calculation 
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Failure Time** for **requestType getEndTime**.
 
 ### Resolution
-You'll need to debug to find out why the custom workflow process isn't returning proper values. To avoid this issue, make sure that you add and test all the scenarios before deploying the scenarios to production. For example, this includes various SLA item applications and Pause or Resume scenarios.
+You need to debug to find out why the custom workflow process isn't returning proper values. To avoid this issue, make sure that you add and test all the scenarios before deploying the scenarios to production. For example, this includes various SLA item applications and Pause or Resume scenarios.
 
 ### Error code: 10000009
 
@@ -302,7 +305,7 @@ Error message: "Elapsed Time returned by Custom Time Calculation Process for the
 The error occurs if the Custom Time Calculation Workflow action returns an invalid **Elapsed Time** for **requestType getElapsedTime**.
 
 ### Resolution
-You'll need to debug to find out why the custom workflow process isn't returning proper values when the case was paused and resumed. To avoid this issue, make sure you add and test all the scenarios before deploying the scenarios to production. For example, this includes Pause or Resume scenarios.
+You need to debug to find out why the custom workflow process isn't returning proper values when the case was paused and resumed. To avoid this issue, make sure you add and test all the scenarios before deploying the scenarios to production. For example, this includes Pause or Resume scenarios.
 
 ### Error code: 10000010
 
@@ -313,7 +316,7 @@ The error occurs if the custom action for custom time calculation isn't found in
 
 ### Resolution
 
-You'll need to debug and find out if the custom action is present in the system with the same name as shown in the error. To avoid this issue, make sure that you create the same custom action name prefix as shown in the error message. You need to change the prefix of your solution or avoid exporting it as an unmanaged solution. You can also avoid creating the workflow interface directly in the managed solution, and instead create the managed solution in default customization and then add it to the solution.
+You need to debug and find out if the custom action is present in the system with the same name as shown in the error. To avoid this issue, make sure that you create the same custom action name prefix as shown in the error message. You need to change the prefix of your solution or avoid exporting it as an unmanaged solution. You can also avoid creating the workflow interface directly in the managed solution, and instead create the managed solution in default customization and then add it to the solution.
 
 ## FAQ
 For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).

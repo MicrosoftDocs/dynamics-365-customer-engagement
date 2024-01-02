@@ -13,7 +13,7 @@ The default value is the following code snippet:
 
 To edit the HTML that controls the booking template, go to the **Schedule Types** section in the schedule board settings. Select the entity for which you want to change the booking template. If you open the settings from a schedule board tab, you change the settings for that tab only. To make changes to all tabs, select **Edit defaults** and apply your changes there. Set the **Custom booking template** to **On** and change the HTML code.
 
-In the **Booking Template** field, override the booking template by entering HTML and CSS that can reference fields from the *Bookable Resource Booking* entity and linked entities. Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility.
+In the **Booking Template** field, override the booking template by entering HTML and CSS that can reference fields from the *Bookable Resource Booking* entity and linked entities. Make sure to test customized booking templates on multiple browsers and consider best practices for accessibility. JavaScript isn't supported in the booking template.
 
 > [!TIP]
 > Use system entities only. Pulling values from custom entities isn't supported.

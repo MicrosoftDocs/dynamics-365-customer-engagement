@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection:
-ms.date: 11/07/2023
+ms.date: 12/21/2023
 ms.custom: bap-template
 ---
 
@@ -234,6 +234,31 @@ Here's how the failure time is calculated:
 - 06/26/2023- 8:00 AM to 4:00 PM (8 hours) = 8-8 = 0 hours
 
 So, if you create a case on 06/14/2023 3:00 PM with warning and failure times set as 1 and 2 days respectively, then the warning time is 06/21/2023 10:00 AM and the failure time is 06/26/2023 4:00 PM.
+
+## Active duration
+
+Here's how the [active duration](../use/customer-service-hub-user-guide-case-sla.md#know-active-duration-and-elapsed-time-for-sla-kpi-instances) is calculated in the following scenarios, where SLA is set for 30 min.
+
+### Reopen or close scenario
+
+- 12 AM- case created
+- 12:10 AM- case closed
+- 12:20 AM- case reopened
+- 12:30 AM- SLA expired
+
+The active duration is 20 min and SLA expires at 12:30 AM. This is because SLA is set as 30 min and isn't impacted when case is reopened or closed.
+
+### Pause or resume scenario
+
+- 12 AM- case created
+- 12:10 AM- case paused
+- 12:20 AM- case resumed
+- 12:40 AM- SLA expired
+
+The active duration is 30 min and SLA expires at 12:40 AM as the case was paused for 10 min. Though SLA is set as 30 min, it gets impacted when case is paused or resumed.
+
+> [!NOTE]
+> Active duration won't show any value when the SLA Instance is created in **Succeeded** or **Expired** state.
 
 ## See Also
 
