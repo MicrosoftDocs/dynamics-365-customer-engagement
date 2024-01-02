@@ -48,7 +48,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
     - In the site map, select **Record routing** in **General settings**.
 
-   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+   ### [Customer Service Hub](#tab/customerservicehub)
 
     - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**.
 
@@ -76,7 +76,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 
-   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+   ### [Customer Service Hub](#tab/customerservicehub)
 
     - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
 

@@ -283,7 +283,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
      
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the Customer Service admin center or  (deprecated) app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center (deprecated) site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
