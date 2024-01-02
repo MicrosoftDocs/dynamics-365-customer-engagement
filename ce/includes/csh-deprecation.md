@@ -1,2 +1,0 @@
-> [!IMPORTANT]
-> The service management area in Customer Service Hub isn't available in new organizations and environments. We recommend that you start using the [Customer Service admin center](../customer-service/implement/cs-admin-center.md) app that consolidates admin experiences across the Customer Service suite.
