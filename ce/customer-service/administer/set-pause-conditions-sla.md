@@ -1,12 +1,12 @@
 ---
-title: View and understand the Agents report in Omnichannel real-time analytics
-description: Understand agent performance and optimize allocation in real-time with the Omnichannel Agents report.
+title: How to set pause conditions in SLA
+description: Learn how to set pause conditions for SLA enabled entities, SLA KPI Instances, and SLA Items.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 01/02/2024
+ms.date: 01/03/2024
 ms.custom: bap-template
 ---
 
