@@ -12,9 +12,7 @@ ms.custom: bap-template
 
 # How to set pause conditions in SLA
 
-In modern SLA, pause conditions can be configured at global level for SLA-enabled entities and for SLA KPI Instances.​ Pause and resume SLAs at the SLA-enabled entity and at the SLA KPI level to track SLA items for different work hours based on priority and criteria.
-
-## Prerequisites
+You can configure pause conditions at a global level for SLA-enabled entities.​ You can also pause and resume SLAs at the SLA KPI  and SLA Item level, that helps you track SLA items for different work hours based on priority and criteria.
 
 ## Set the SLA pause criteria for entities
 
@@ -25,30 +23,26 @@ In modern SLA, pause conditions can be configured at global level for SLA-enable
 
 ## Set the SLA pause criteria for SLA KPI Instances
 
-You can override SLA pause criteria set at the entity level in the following way:
+You can set SLA pause criteria for SLA KPI Instances, which overrides SLA pause criteria set at the entity level.
 
-1. From the Customer Service admin center site map, go to **Service terms** > **Service-level agreements** > **Manage**.
-    The **All Service Level Agreements in Unified Interface** view is displayed. Select the SLA for which you want to add an SLA item.
-1. On the page that appears, select **New SLA Item**. The New SLA Item dialog appears.
-1. In the **Pause Configurations** section, do the following:
-    1. Set the **Override Criteria** toggle to **Yes** to pause the SLA item. This setting overrides the pause settings defined at the entity level.
-    1. Select the **Add** dropdown to define the conditions for pausing the SLA item by adding either a field, group, or a related entity.
+1. From the Customer Service admin center site map, go to **Service terms** > **SLA KPIs** > **Manage**.
+    The **Active SLAKPIs** view is displayed. Select the SLA KPI for which you want to the pause conditions.
+1. In the **Pause Conditions** section, set the **Override Criteria** toggle to **Yes** to pause the SLA KPI Instance. This setting overrides the pause settings defined at the entity level.
+    1. Select the **Add** dropdown to define the conditions for pausing the SLA KPI Instance by adding either a field, group, or a related entity.
     
 > [!NOTE]
-> You can override pause configurations only when the **Allow Pause and Resume** option is enabled in the **General** tab. 
+> You can override pause configurations only when the **Allow Pause and Resume** option is enabled in the **General** tab.
 
  For the other KPIs, the entity-level pause settings continues to function if no pause criteria is defined at the KPI level.
 
 ## Set the SLA pause criteria for SLA Items
 
-select the status on which the slakpiinstances needs to be paused. If Pause conditions are set on SLAItem, the slaitem level pause conditions will take precedence over slakpi and global settings pause conditions. ​ 
+If pause conditions are set on the SLA Item, the SLA Item level pause conditions override pause conditions set at the SLA KPI and entity-level. Select the status on which the SLA KPI Instances needs to be paused.
 
+1. From the Customer Service admin center site map, go to **Service terms** > **SLA KPIs** > **Manage**.
+    The **Active SLAKPIs** view is displayed. Select the SLA and then the SLA Item for which you want to set pause conditions.
+1. In the **Pause Configurations** section, do the following:
+    1. Set the **Override Criteria** toggle to **Yes** to pause the SLA Item. This setting overrides the pause settings defined at the SLA KPI Instance and the entity level.
 
-The level of pause conditions can be selected as per Cx requirements​. 
- 
-
-Pause conditions hierarchy: SLAITEM => SLAKPI => Global ​ 
-
- 
-
-Note- SLA Warning and failure time will always be calculated from the value in Applicable from field. 
+> [!NOTE]
+> Warning and failure duration of an SLA will always be calculated from the value in **Applicable When** field.
