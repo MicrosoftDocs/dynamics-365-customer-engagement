@@ -64,7 +64,9 @@ Make sure that the following prerequisites are met:
 
     1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     - In the site map, in **General settings**, select **Channels**.
 

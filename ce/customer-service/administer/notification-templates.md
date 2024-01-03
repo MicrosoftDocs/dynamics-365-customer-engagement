@@ -139,7 +139,9 @@ The out-of-the-box templates are as follows.
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 
