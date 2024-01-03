@@ -1,7 +1,7 @@
 ---
-title: Set up a multilingual bot in Copilot Studio
-description: Use this article to learn how to set up a multilingual bot in Copilot Studio to use in Omnichannel for Customer Service.
-ms.date: 05/22/2023
+title: Set up a multilingual bot to use in voice channel
+description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Omnichannel for Customer Service.
+ms.date: 01/03/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# Set up a multilingual bot in Copilot Studio
+# Set up a multilingual bot to use in voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
