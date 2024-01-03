@@ -71,7 +71,7 @@ You can purchase new phone numbers for your organization after you've checked fo
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+   
 
    - In the site map, select **Phone numbers** in **General settings**.
     

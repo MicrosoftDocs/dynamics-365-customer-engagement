@@ -72,9 +72,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
+    1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 
       The **Historical analytics for unified routing** page appears. Toggle the **Status** to **Enabled**.    
@@ -127,8 +125,6 @@ You can enable the historical analytics dashboard for voice in the Customer Serv
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Historical analytics for unified routing** section, select **Manage**.
 

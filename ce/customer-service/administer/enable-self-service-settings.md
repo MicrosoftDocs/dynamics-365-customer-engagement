@@ -23,7 +23,7 @@ Enabling the self-service feature is a two-step process as follows:
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center or Omnichannel admin center app.
+You can enable the self service feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Add the code snippet in the customer self-service portal.
 

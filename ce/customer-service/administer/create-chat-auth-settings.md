@@ -67,7 +67,7 @@ You can create a chat authentication setting record in the admin app.
 ### Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Customer Service admin center or Omnichannel admin center (deprecated), go to the **Behaviors** tab.
+   - In Customer Service admin center or Omnichannel admin center app, go to the **Behaviors** tab.
    
 2. In the **Authentication settings** box, browse and select the chat authentication record.
 
@@ -260,7 +260,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 code flow
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center app site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 
@@ -283,7 +283,7 @@ If you need to use multiple public keys, your public key endpoint can return a s
      
 ### Create an authentication setting record for Apple Messages for Business using OAuth 2.0 OpenID connect flow
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
+1. In the Customer Service admin center or Omnichannel admin center site map, select **Customer settings**, and then select **Manage for Authentication settings**. A list of existing authentication settings is shown.
 
 1. Select **New authentication setting**, and on the **Add authentication setting** page, provide the following details:
 

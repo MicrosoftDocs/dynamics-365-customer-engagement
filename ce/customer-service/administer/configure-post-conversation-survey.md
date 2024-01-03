@@ -50,7 +50,7 @@ The post-conversation survey uses Dynamics 365 Customer Voice to create surveys.
 
 ## Configure the post-conversation survey
 
-In the Customer Service admin center or Omnichannel admin center app, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
+In the Customer Service admin center or Omnichannel admin center (deprecated) app, you can set up surveys when configuring a channel or update an existing channel instance that is already configured.
 
 1. Go to one of the apps, and perform the following steps.
    

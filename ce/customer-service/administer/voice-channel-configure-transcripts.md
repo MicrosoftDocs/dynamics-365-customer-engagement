@@ -21,9 +21,9 @@ As an administrator, you can enable live translation, transcription and recordin
 
 ## Enable call recording and transcription for voice
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the workstream for which you want to enable recording and transcription.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 

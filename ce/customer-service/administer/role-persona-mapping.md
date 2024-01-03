@@ -110,8 +110,6 @@ You can customize the roles to persona mapping in the Customer Service admin cen
    
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
     - In the site map, select **User attributes** under **Advanced settings**.
     
    ### [Customer Service Hub](#tab/customerservicehub) 

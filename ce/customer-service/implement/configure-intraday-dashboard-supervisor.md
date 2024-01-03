@@ -106,7 +106,7 @@ Follow these steps to configure intraday insights for the Omnichannel for Custom
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-You must configure the Power BI workspace using the Omnichannel admin center (deprecated) to create datasets and reports in Power BI. When configured, the supervisor users in your organization can see the Intraday insights reports as an app tab. Follow these steps to configure the Power BI workspace to display Intraday insights reports as an app tab in the **Omnichannel for Customer Service** app on the web.
+You must configure the Power BI workspace using the Omnichannel admin center app to create datasets and reports in Power BI. When configured, the supervisor users in your organization can see the Intraday insights reports as an app tab. Follow these steps to configure the Power BI workspace to display Intraday insights reports as an app tab in the **Omnichannel for Customer Service** app on the web.
 
 1. In the site map of Omnichannel admin center, select **Supervisor settings** under **Advanced settings**, and then select **Manage** for **Intraday insights**. If you're using the Omnichannel Administration app, from the **Site Map** ![Site map icon.](../../unified-service-desk/media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 

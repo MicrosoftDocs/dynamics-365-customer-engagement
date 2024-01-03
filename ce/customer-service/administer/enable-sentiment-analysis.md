@@ -34,7 +34,7 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 ### Enable sentiment analysis
 
-You can enable the sentiment analysis feature in the Customer Service admin center or Omnichannel admin center app.
+You can enable the sentiment analysis feature in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Go to one of the apps, and perform the following steps.
    

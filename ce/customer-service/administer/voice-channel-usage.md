@@ -15,9 +15,9 @@ ms.collection: get-started
 
 ## Introduction
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+The Voice minutes report lets Omnichannel administrators view a Power BI report in Omnichannel admin center (deprecated) app that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
 
-The Voice minutes report lets Omnichannel administrators view a Power BI report in Omnichannel admin center that helps them to get insights about how many call intelligence minutes and intelligent voicebot minutes from the voice quota have been consumed.
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 ## Prerequisites
 

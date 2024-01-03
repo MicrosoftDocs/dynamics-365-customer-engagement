@@ -44,7 +44,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    
 
     - In the site map, select **Record routing** in **General settings**.
 
@@ -72,7 +72,7 @@ If you only have Dynamics 365 Customer Service, then the options to configure un
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+   
 
     - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
 

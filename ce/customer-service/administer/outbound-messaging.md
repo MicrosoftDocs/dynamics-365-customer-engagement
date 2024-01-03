@@ -61,16 +61,12 @@ You can set up the outbound configuration in the Customer Service admin center o
 
      The **Active Outbound Configurations** page is displayed.      
 
-   ### [Omnichannel admin center (deprecated) (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+   
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Outbound** section, select **Manage**.
 
       The **Active Outbound Configurations** page is displayed.
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.
 
@@ -109,8 +105,6 @@ Power Automate provides a low-code platform for workflow and process automation.
      The **Message template view** page is displayed.      
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
      2. In **Message templates** section, select **Manage**.

@@ -87,9 +87,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
    
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-    - In the site map, select **Phone numbers** in **General settings**.
+   - In the site map, select **Phone numbers** in **General settings**.
 
 1. On the **Phone numbers** page, select **Setup** in **Ready for setup**, and in the dialog that appears, select **Assign to user**. The **Omnichannel Users** page displays a list of all agents.
 

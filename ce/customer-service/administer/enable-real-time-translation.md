@@ -29,7 +29,7 @@ All the languages that are supported in Omnichannel for Customer Service are sup
 
 ## Enable real-time translation for agent and customer conversations
 
-You can enable real-time translation in the Customer Service admin center or Omnichannel admin center app.
+You can enable real-time translation in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Go to one of the apps, and perform the following steps.
    
