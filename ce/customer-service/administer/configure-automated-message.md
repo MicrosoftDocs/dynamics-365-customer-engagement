@@ -66,7 +66,7 @@ You can customize automated messages at the channel instance level. For example,
 
 ### Add custom automated messages
 
-Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
+Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center (deprecated) app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.

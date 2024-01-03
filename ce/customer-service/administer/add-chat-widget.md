@@ -88,8 +88,6 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
 1. In Customer Service admin center or Omnichannel admin center app (deprecated), edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**

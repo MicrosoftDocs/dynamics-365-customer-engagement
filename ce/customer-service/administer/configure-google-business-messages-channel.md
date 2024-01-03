@@ -89,8 +89,6 @@ Complete the following steps before configuring Google's Business Messages chann
    
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-
     - In the site map, select **Workstreams** under **General settings**. The **All workstreams** page appears.
     
 1. Select **New workstream**, and then enter a name.
