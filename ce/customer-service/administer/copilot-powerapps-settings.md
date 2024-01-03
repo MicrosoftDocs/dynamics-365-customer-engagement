@@ -26,10 +26,8 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Set the values of the following fields as:
    - **CC_CaseSummary**: Any unused string column. Copy the unique name of the specified column.
    - **CC_IncidentId**: **Case (Text)**
-1. Set the **Show hidden** toggle to **On**.
-1. Save and publish the customizations.
-
   :::image type="content" source="../media/powerapps-copilot-case-summary.png" alt-text="Screenshot of the Power Apps copilotcasesummarycontrol component." :::
+1. Save and publish the customizations.
 
 You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have **Copilot** option enabled:
 
@@ -38,10 +36,9 @@ You must also configure the following settings to make sure that copilot summary
      - Set the **Event Type** to **On load**.
      - Set the **Library** to **msdyn_CopilotCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
-     - Select **Pass execution context as first parameter** and specify the unique name of the table column value specified in **CC_CaseSummary**.
+     - Select **Pass execution context as first parameter** and specify the unique name of the table column value that you provided in **CC_CaseSummary**.
+     :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
 1. Save and publish the changes.
-
-  :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
 
 ## Enable Copilot features for custom apps
 
