@@ -1,5 +1,5 @@
 ---
-title: Manage presence status in Omnichannel for Customer Service
+title: Manage presence in Omnichannel for Customer Service
 description: Use this article to learn how to view and update your presence status in Omnichannel for Customer Service.
 ms.date: 11/10/2023
 ms.topic: how-to
@@ -9,17 +9,17 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# Manage presence status
+# Manage presence in Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Presence is an indication of your agent's availability or status in the application.
+Presence is an indication of your agent's availability or status in the Dynamics 365 application.
 
 :::image type="content" source="../media/oceh-presence-icon.png" alt-text="Agent presence status.":::
 
 ## Prerequisites
 
-For the presence status or presence icon to display correctly, enable in your browser for all modes. Sai, something is missing this sentence. Should cookies be enabled?
+For the presence status or presence icon to display correctly, enable cookies in your browser for all modes.
 
 ## View your presence status
 
