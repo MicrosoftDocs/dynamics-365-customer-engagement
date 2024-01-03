@@ -1,7 +1,7 @@
 ---
 title: Offline data synchronization
 description: Learn how offline data is synchronized to the server for the Dynamics 365 Field Service mobile app.
-ms.date: 12/18/2023
+ms.date: 01/03/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -12,29 +12,14 @@ ms.author: jobaker
 
 After configuring the offline profile and the initial sync of downloading data, the mobile app always runs [offline-first](/power-apps/mobile/mobile-offline-overview). This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
 
-## Understanding offline vs. online capabilities
-
-Once you assigned users to a configured offline profile, following the initial sync to download data, the mobile app will always run offline-first. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection.
-
-1. **Offline not configured**: Occurs when there's internet but no offline profile. The mobile app functions like using a Dynamics 365 app with internet on your PC. Without network, the mobile app is unusable. Not recommended.
-2. **Offline First without internet connection**: Data downloads to the device and it stores all changes locally. When restoring the network connection, changes sync with the server.
-3. **Offline First with internet connection**: Data downloads to the device and it stores all changes locally.  Because there's internet connection, the user can manually sync to receive the latest data from the server. The app will also automatically attempt to sync every few minutes. For more information, see [sync filters](#sync-intervals) in this article.
-
-In summary, an offline-first application always reads from the local device database and only uses an active internet connection for sync. Ensure your offline profile syncs all data to the device that the frontline worker requires during their working hours.
-
-> [!NOTE]
-> After the offline-enabled user configures and signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database. During the time period of subsequent sync cycles, the app will not run as though in online mode.
->
-> When an offline-enabled mobile application has network access, internal business logic fetches data from the server if a required record isn't found in the mobile offline profile. If no network access is available, a more specific error message will show, informing users of the missing table.
-
 ## Sync intervals
 
-Sync intervals define how often record type data will automatically sync down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records don't need to sync as often. With variable sync intervals, administrators have greater control over data and can help improve sync performance.
+Sync intervals define how often record type data automatically syncs down to the users' devices. Sync intervals can be a minimum of five minutes or as long as one day. Records that change frequently can have a short duration sync interval, while infrequently changed records don't need to sync as often. With variable sync intervals, administrators have greater control over data and can help improve sync performance.
 
 The default **Field Service Mobile - Offline Profile** has predetermined sync intervals for each record type, based on typical usage patterns of those record types.
 
 A synch is only initiated when there is connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background.
-Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table may not be respected if there is a related table with a lower sync interval.
+Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table might not be respected if there is a related table with a lower sync interval.
 
 <!--- Can we take this note out?
 
@@ -91,5 +76,10 @@ At certain points following a sync, data which no longer meets the offline profi
 If a user is actively viewing a record which is removed from the mobile offline database, they see a **Record Not Found** error. If this is a frequent occurrence, we recommend you review the filters to ensure they are not overly restrictive for key scenarios.
 
 If the mobile application is reconfigured, the offline database on the device is cleared.
+
+## Next steps
+
+- [Configure the mobile offline profile](mobile-power-app-system-offline-setup.md)
+- [Mobile offline capabilities](mobile-power-app-system-offline.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

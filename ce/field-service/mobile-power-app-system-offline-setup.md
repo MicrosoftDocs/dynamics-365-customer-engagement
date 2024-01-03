@@ -10,9 +10,7 @@ ms.author: jobaker
 
 # Configure the mobile offline profile
 
-Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service record types. Learn more about [offline profile guidance](/power-apps/mobile/mobile-offline-guidelines).
-
-Administrators control what data the Field Service mobile app downloads with the offline profile. Within the offline profile, you can:
+Field Service provides an out-of-the-box offline profile called **Field Service Mobile - Offline Profile** with recommended default settings for Field Service record types. Administrators control what data the Field Service mobile app downloads with the offline profile. Within the offline profile, you can:
 
 - Define record types that are available offline and their sync interval.
 - Define filters for each record type. For example, by default the offline profile downloads bookings that start within the next seven days to the device.
@@ -23,13 +21,13 @@ Administrators control what data the Field Service mobile app downloads with the
 - You have admin privileges in Dynamics 365 Field Service.
 - You have access to Power Apps.
 
-## Customize the default mobile offline profile
+## Configure the default mobile offline profile
 
 1. Review the [implementation guidance for the offline profile](mobile-power-app-system-offline.md#implementation-guidance-for-the-offline-profile).
 
 1. Go to Power Apps at [https://make.powerapps.com/](https://make.powerapps.com/), and select your environment.
 
-1. Select **Apps** > **Field Service Mobile**.
+1. Select **Apps** and open **Field Service Mobile**.
 
 1. Select **Settings** and the **General** tab.
 
@@ -38,13 +36,16 @@ Administrators control what data the Field Service mobile app downloads with the
 1. Choose which users should have access to the mobile app offline:
 
    - **Default (recommended)**: All your users who have access to the app can also use it in offline mode.
-   - **Restricted to selected users**: Restrict access to the app in offline mode to certain users. [Add users and teams](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). You can only add a user or a team to one offline profile one at a time.
-
-     The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+   - **Restricted to selected users (requires admin privileges)**: Restrict access to the app in offline mode to certain users.
 
 1. Select the ellipsis next to the **Field Service Mobile - Offline Profile**, and then select **Edit selected profile**.
 
    :::image type="content" source="media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Power Apps screenshot showing Settings for the Field Service Mobile app and edit the offline profile":::
+
+1. If you selected to restrict access to selected users, [add those users](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
+
+   <!--- Is this still true? If so, where add them? --->
+     The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
 
 1. Review the **Data for offline use**. For each table:
 
