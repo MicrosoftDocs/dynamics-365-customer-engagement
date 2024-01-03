@@ -220,6 +220,8 @@
             href: define-service-level-agreements.md
           - name: Apply service-level agreements
             href: apply-slas.md
+          - name: How to set pause conditions for SLA-enabled entities
+            href: set-pause-conditions-sla.md
           - name: Add timer control for SLA-enabled entities
             href: add-timer-control-case-form-track-time-against-sla.md
           - name: Export and import a solution with SLAs
