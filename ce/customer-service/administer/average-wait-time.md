@@ -25,7 +25,7 @@ The average wait time is calculated based on wait times from the previous 48 hou
 
 ## Enable average wait time
 
-If you're using the Customer Service admin center or Omnichannel admin center app, follow these steps:
+If you're using the Customer Service admin center or Omnichannel admin center (deprecated) app, follow these steps:
 
 [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 

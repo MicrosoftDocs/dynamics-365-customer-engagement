@@ -42,15 +42,24 @@ Before you configure the Apple Messages for Business channel in Dynamics 365 Omn
    | United Kingdom | ```https://dynamics365-omnichannel-uk.omnichannelengagementhub.com/applemessagesforbusiness``` | 
 
 
-## Configure an Apple Messages for Business channel instance in Omnichannel admin center
+## Configure an Apple Messages for Business channel instance
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+You can configure an Apple Messages for Business channel instance from the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
-To add the Apple Messages for Business channel instance, complete the following steps:
+1. Select one of the following apps, and perform the steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-1. In the Omnichannel site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
+     1. In the site map, select **Channels** in **Customer Support**.
+     1. Go to **Accounts** > **Messaging accounts** > **Manage**, and then on the **Accounts and channels** page, select **Add account**.
 
-1. On the **Channel details** page, enter a name and select **Apple Messages for Business** in **Channels**.
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+   
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
+      - In the site map, select **Channels** under **General settings**, and then on the **Accounts and channels** page, select **Add account**.
+
+1. On the **Add account** page, **Channel details** section, enter a name and select **Apple Messages for Business** in **Channels**.
 
 1. On the **Add account** page, specify the Apple Messages for Business account ID. To get the account ID, go to your organization's Apple Business Register, open the Messages for Business account, navigate to the Messaging Service Provider configuration and select **Test your Messaging Service Provider connection**, and copy the account ID by selecting **Copy ID**.
    > [!Note]

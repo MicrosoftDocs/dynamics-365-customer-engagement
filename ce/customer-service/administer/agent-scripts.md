@@ -122,9 +122,6 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-   
-
     - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
     
 2. Go to the **Agent scripts** tab.
