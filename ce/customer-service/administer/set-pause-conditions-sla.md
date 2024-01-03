@@ -25,7 +25,7 @@ If SLA is enabled for the entity, you can set pause conditions for all out-of-th
 
 ## Set pause conditions for SLA KPI Instances
 
-You can set SLA pause conditions for SLA KPI Instances, which overrides SLA pause conditions set at the entity level.
+You can set SLA pause conditions for SLA KPI Instances, which override SLA pause conditions set at the entity level.
 
 1. From the Customer Service admin center site map, go to **Service terms** > **SLA KPIs** > **Manage**.
     The **Active SLAKPIs** view is displayed. Select the SLA KPI for which you want to set the pause conditions.
