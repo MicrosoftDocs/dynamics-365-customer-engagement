@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Set up own storage for call recordings
 
-This article describes how to create a call recording repository in Azure storage for storing your Teams recordings and configure conversation intelligence to use your own Azure storage.
+This article describes how to set up your own Azure storage account to store call recordings and configure conversation intelligence to use it.
 
 ## Prerequisites
 
@@ -20,13 +20,13 @@ This article describes how to create a call recording repository in Azure storag
 
 ##  Configure the conversation intelligence service principal to access resources in Azure
 
-The conversation intelligence service principal needs access to your Azure storage account to store and process call recordings. To grant access, work with your Microsoft Entra administrator to assign the following roles to the **SalesInsightsWebApp** application in the Azure Portal:
+The conversation intelligence service principal needs access to your Azure storage account to store and process call recordings. To grant access, work with your Microsoft Entra administrator to assign the following roles to the **SalesInsightsWebApp** application in the Azure portal:
 
 - **Storage Blob Data Owner**
 - **Storage Account Contributor**
 
 :::image type="content" source="media/SIwebapp-roles.png" alt-text="Screenshot of the role assignment tab with the roles assigned for the SalesInsightsWebApp in the Azure portal":::
 
-[Learn more about assigning a role in the Azure Portal](entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application).
+[Learn more about assigning a role in the Azure portal](/entra/identity-platform/howto-create-service-principal-portal#assign-a-role-to-the-application).
 
-Now you are ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
+Now you're ready to configure conversation intelligence to use your [own Azure storage](fre-setup-ci-sales-app.md#configure-conversation-intelligence-settings).  
