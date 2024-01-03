@@ -26,7 +26,9 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Set the values of the following fields as:
    - **CC_CaseSummary**: Any unused string column. Copy the unique name of the specified column.
    - **CC_IncidentId**: **Case (Text)**
-  :::image type="content" source="../media/powerapps-copilot-case-summary.png" alt-text="Screenshot of the Power Apps copilotcasesummarycontrol component." :::
+ 
+ :::image type="content" source="../media/powerapps-copilot-case-summary.png" alt-text="Screenshot of the Power Apps copilotcasesummarycontrol component." :::
+
 1. Save and publish the customizations.
 
 You must also configure the following settings to make sure that copilot summary doesn't load on the custom case form when the Copilot case summary feature isn't enabled or the agent experience profile linked to the agent doesn't have **Copilot** option enabled:
@@ -37,7 +39,9 @@ You must also configure the following settings to make sure that copilot summary
      - Set the **Library** to **msdyn_CopilotCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
      - Select **Pass execution context as first parameter** and specify the unique name of the table column value that you provided in **CC_CaseSummary**.
-     :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
+     
+   :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
+
 1. Save and publish the changes.
 
 ## Enable Copilot features for custom apps
@@ -47,8 +51,7 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 1. In [Power Apps](https://make.powerapps.com/), add the **Customer Service Copilot Enabled** setting definition. More information: [Add an existing setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-definition).
 1. In the **Edit Customer Service Copilot Enabled** pane, in set the **Setting app values** section, for a required app, set the  **New app value** to **Yes**. More information: [Update a setting definition](/power-apps/maker/data-platform/create-edit-configure-settings#updating-a-setting-definition).
 
-
-  :::image type="content" source="../media/powerapps-setting-definition-copilot.png" alt-text="Screenshot of the Power Apps setting defintiion." :::
+ :::image type="content" source="../media/powerapps-setting-definition-copilot.png" alt-text="Screenshot of the Power Apps setting defintiion." :::
 
 ### Next steps
 
