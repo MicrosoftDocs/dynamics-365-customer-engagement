@@ -19,7 +19,8 @@ You can configure the Copilot case summary on custom case forms and enable the C
 When you enable the Copilot case summary feature, agents can see the case summary by default on out-of-the-box case forms. You can perform the following steps for the application to display the Copilot case summary on your custom case forms:
 
 1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, see: [Add a web resource to a solution](/power-apps/maker/model-driven-apps/create-edit-web-resources#add-a-web-resource-to-a-solution).
-1. Select **Add existing** > **More** > **Developer** > **Custom Control**. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
+1. Select **Add existing** > **More** > **Developer** > **Custom Control**.
+1. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control.
 1. Select **Tables**, select **Case**, and then select **Forms**.
 1. Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 1. In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
@@ -55,4 +56,4 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 
 ### Next steps
 
-[Use Copilot to solve customer issues (preview)](../use/use-copilot-features.md)
+[Use Copilot to solve customer issues](../use/use-copilot-features.md)
