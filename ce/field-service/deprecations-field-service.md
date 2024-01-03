@@ -23,12 +23,12 @@ For more information about this deprecation, [see this blog post](https://cloudb
 
 For more information about this deprecation, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/).
 
-Solution components related to the Field Service Mobile (Xamarin) application are also depricated:
+Solution components related to the Field Service Mobile (Xamarin) application are also deprecated:
 - msdyn_GeofenceAlerts
 - msdyn_FSMNotifications
 - Woodford | Resco MobileCRM Woodford
 
-These solutions can be removed from an organization which is no longer using Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
+These solutions can be removed from an organization which is no longer using the Field Service Mobile - Xamarin application. While removing solutions, you may encounter dependencies. The system will inform you of these dependencies. You'll need to either delete the component or modify it to remove references to the solution you're trying to remove. For more information, see [Removing dependencies](/power-platform/alm/removing-dependencies).
 
 
 ## Deprecations in the scheduling solution
