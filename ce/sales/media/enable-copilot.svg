@@ -142,8 +142,8 @@ src: local("Verdana");
      <rect width="1370" height="942" fill="#fff"/>
      <rect x="-1e3" width="164.3" height="48.016" fill="#fff"/>
     </mask>
-    <g id="jg" class="pa-a pa-b pa-c pa-d pa-e pa-f pa-g forceNewStackContextInert flexbox" mask="url(#je)" aria-owns="div1 barnotificationlistAccessibility_id-1806 ConversationManagerContainer pa-a3 navigationcontextprovider" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
-     <mask id="je">
+    <g id="jg" class="pa-a pa-b pa-c pa-d pa-e pa-f pa-g forceNewStackContextInert flexbox" mask="url(#kb)" aria-owns="div1 barnotificationlistAccessibility_id-1806 ConversationManagerContainer pa-a3 navigationcontextprovider" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
+     <mask id="kb">
       <rect width="1370" height="942" fill="#fff"/>
       <rect x="-1e3" width="164.3" height="48.016" fill="#fff"/>
      </mask>
@@ -217,7 +217,7 @@ src: local("Verdana");
             <mask id="gs">
              <rect x="445.66" y="253.02" width="504.2" height="207" fill="#fff"/>
             </mask>
-            <g class="fui-Link ___1lkj8k5 f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fkhj508 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f f1p9o1ba f1sil6mw f1o700av f1iuv45f f1cmlufx f9n3di6 f1ids18y fbnuktb f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1ern45e f1n71otn f1h8hb77 f1deefiw" fill="rgb(17, 94, 163)" font-size="14px" font-stretch="100%" font-weight="400" mask="url(#gg)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" aria-labelledby="" aria-owns="root-2591" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+            <g class="fui-Link ___1lkj8k5 f2hkw1w f3rmtva f1ewtqcl fyind8e f1k6fduh f1w7gpdv fk6fouc fkhj508 figsok6 f1hu3pq6 f11qmguv f19f4twv f1tyq0we f1g0x7ka fhxju0i f1qch9an f1cnd47f f1p9o1ba f1sil6mw f1o700av f1iuv45f f1cmlufx f9n3di6 f1ids18y fbnuktb f1deo86v f1eh06m1 f1iescvh fhgqx19 f1olyrje f1p93eir f1nev41a f1ern45e f1n71otn f1h8hb77 f1deefiw" fill="#115ea3" font-size="14px" font-stretch="100%" font-weight="400" mask="url(#gg)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" aria-labelledby="" aria-owns="root-2591" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
              <mask id="gg">
               <rect x="445.66" y="305.02" width="101.67" height="19" fill="#fff"/>
              </mask>
@@ -303,7 +303,7 @@ src: local("Verdana");
               <line x1="760.31" x2="760.31" y1="421.02" y2="453.02" stroke="#d1d1d1"/>
              </g>
             </g>
-            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="773.3125" y="446.015625" lengthAdjust="spacingAndGlyphs" textLength="44.703125" xml:space="preserve">Default</tspan></text>
+            <text color="#242424" dominant-baseline="text-after-edge" fill="#242424" font-family="'Segoe UI', 'Segoe UI Web (West European)', '-apple-system', BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif" font-size="14px" font-stretch="100%" font-weight="400" text-rendering="auto" word-spacing="0px" style="text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid" user-select="auto"><tspan x="773.3125" y="446.01562" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Off</tspan></text>
             <g class="___12fm75w f1w7gpdv fez10in fg4l7m0" mask="url(#iq)" aria-hidden="true" data-stacking-context="true" data-tag="svg" data-z-index="auto">
              <mask id="iq">
               <rect x="829.31" y="427.02" width="20" height="20" fill="#fff"/>
@@ -318,46 +318,46 @@ src: local("Verdana");
            </g>
            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"><tspan x="445.65625" y="252.015625" lengthAdjust="spacingAndGlyphs" textLength="112.4375" xml:space="preserve">Enable copilot for</tspan></text>
           </g>
-          <g mask="url(#i)" aria-label="Copilot-icon" data-stacking-context="true" data-tag="svg" data-z-index="auto">
-           <mask id="i">
+          <g mask="url(#kk)" aria-label="Copilot-icon" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+           <mask id="kk">
             <rect x="445.66" y="74.016" width="24" height="24" fill="#fff"/>
            </mask>
            <g class="svg-content" transform="translate(445.66 74.016)" data-height="24" data-view-box="0 0 24 24" data-width="24">
-            <path d="m10.125 1.9609 1.875 0.19069v5.4012l-3 0.69695-0.99999 1.3721v2.1569c0 1.4494 0.78403 2.7854 2.0494 3.4922l2.8279 1.5796-4.8773 2.5795-2.0276 0.289-1.9231-1.0742c-1.2654-0.7068-2.0494-2.0427-2.0494-3.4921v-6.3044c0-1.4498 0.78445-2.786 2.0504-3.4927l5.648-3.1528-0.00331 0.00233 0.42995-0.24429z" color="rgb(36, 36, 36)" fill="url(#f)"/>
-            <path d="m10.125 1.9609 1.875 0.19069v5.4012l-3 0.69695-0.99999 1.3721v2.1569c0 1.4494 0.78403 2.7854 2.0494 3.4922l2.8279 1.5796-4.8773 2.5795-2.0276 0.289-1.9231-1.0742c-1.2654-0.7068-2.0494-2.0427-2.0494-3.4921v-6.3044c0-1.4498 0.78445-2.786 2.0504-3.4927l5.648-3.1528-0.00331 0.00233 0.42995-0.24429z" color="rgb(36, 36, 36)" fill="url(#e)"/>
-            <path d="m16 8.9999 5 3 1 1v2.1526c0 1.4494-0.784 2.7854-2.0494 3.4922l-6 3.3514c-1.2122 0.6771-2.689 0.6771-3.9012 0l-6-3.3514c-0.11662-0.0652-0.22915-0.1356-0.33735-0.2111l0.33732 0.1885c1.2123 0.6771 2.689 0.6771 3.9012 0l6-3.3515c1.2653-0.7068 2.0494-2.0427 2.0494-3.4921v-2.7786z" color="rgb(36, 36, 36)" fill="url(#d)"/>
-            <path d="m16 8.9999 5 3 1 1v2.1526c0 1.4494-0.784 2.7854-2.0494 3.4922l-6 3.3514c-1.2122 0.6771-2.689 0.6771-3.9012 0l-6-3.3514c-0.11662-0.0652-0.22915-0.1356-0.33735-0.2111l0.33732 0.1885c1.2123 0.6771 2.689 0.6771 3.9012 0l6-3.3515c1.2653-0.7068 2.0494-2.0427 2.0494-3.4921v-2.7786z" color="rgb(36, 36, 36)" fill="url(#c)"/>
-            <path d="m19.95 5.3556-6-3.3493c-1.2117-0.67642-2.6875-0.67642-3.8993 0l-0.35309 0.19712c-1.057 0.74392-1.6972 1.961-1.6972 3.2707v4.1787l2.0503-1.1445c1.2118-0.67642 2.6876-0.67642 3.8993 0l6 3.3493c1.2371 0.6905 2.0144 1.9824 2.0492 3.3939 8e-4 -0.0329 0.0012-0.0658 0.0012-0.0988v-6.3044c0-1.4498-0.7845-2.786-2.0504-3.4927z" color="rgb(36, 36, 36)" fill="url(#b)"/>
-            <path d="m19.95 5.3556-6-3.3493c-1.2117-0.67642-2.6875-0.67642-3.8993 0l-0.35309 0.19712c-1.057 0.74392-1.6972 1.961-1.6972 3.2707v4.1787l2.0503-1.1445c1.2118-0.67642 2.6876-0.67642 3.8993 0l6 3.3493c1.2371 0.6905 2.0144 1.9824 2.0492 3.3939 8e-4 -0.0329 0.0012-0.0658 0.0012-0.0988v-6.3044c0-1.4498-0.7845-2.786-2.0504-3.4927z" color="rgb(36, 36, 36)" fill="url(#a)"/>
+            <path d="m10.125 1.9609 1.875 0.19069v5.4012l-3 0.69695-0.99999 1.3721v2.1569c0 1.4494 0.78403 2.7854 2.0494 3.4922l2.8279 1.5796-4.8773 2.5795-2.0276 0.289-1.9231-1.0742c-1.2654-0.7068-2.0494-2.0427-2.0494-3.4921v-6.3044c0-1.4498 0.78445-2.786 2.0504-3.4927l5.648-3.1528-0.00331 0.00233 0.42995-0.24429z" color="rgb(36, 36, 36)" fill="url(#kn)"/>
+            <path d="m10.125 1.9609 1.875 0.19069v5.4012l-3 0.69695-0.99999 1.3721v2.1569c0 1.4494 0.78403 2.7854 2.0494 3.4922l2.8279 1.5796-4.8773 2.5795-2.0276 0.289-1.9231-1.0742c-1.2654-0.7068-2.0494-2.0427-2.0494-3.4921v-6.3044c0-1.4498 0.78445-2.786 2.0504-3.4927l5.648-3.1528-0.00331 0.00233 0.42995-0.24429z" color="rgb(36, 36, 36)" fill="url(#ko)"/>
+            <path d="m16 8.9999 5 3 1 1v2.1526c0 1.4494-0.784 2.7854-2.0494 3.4922l-6 3.3514c-1.2122 0.6771-2.689 0.6771-3.9012 0l-6-3.3514c-0.11662-0.0652-0.22915-0.1356-0.33735-0.2111l0.33732 0.1885c1.2123 0.6771 2.689 0.6771 3.9012 0l6-3.3515c1.2653-0.7068 2.0494-2.0427 2.0494-3.4921v-2.7786z" color="rgb(36, 36, 36)" fill="url(#kp)"/>
+            <path d="m16 8.9999 5 3 1 1v2.1526c0 1.4494-0.784 2.7854-2.0494 3.4922l-6 3.3514c-1.2122 0.6771-2.689 0.6771-3.9012 0l-6-3.3514c-0.11662-0.0652-0.22915-0.1356-0.33735-0.2111l0.33732 0.1885c1.2123 0.6771 2.689 0.6771 3.9012 0l6-3.3515c1.2653-0.7068 2.0494-2.0427 2.0494-3.4921v-2.7786z" color="rgb(36, 36, 36)" fill="url(#kq)"/>
+            <path d="m19.95 5.3556-6-3.3493c-1.2117-0.67642-2.6875-0.67642-3.8993 0l-0.35309 0.19712c-1.057 0.74392-1.6972 1.961-1.6972 3.2707v4.1787l2.0503-1.1445c1.2118-0.67642 2.6876-0.67642 3.8993 0l6 3.3493c1.2371 0.6905 2.0144 1.9824 2.0492 3.3939 8e-4 -0.0329 0.0012-0.0658 0.0012-0.0988v-6.3044c0-1.4498-0.7845-2.786-2.0504-3.4927z" color="rgb(36, 36, 36)" fill="url(#kr)"/>
+            <path d="m19.95 5.3556-6-3.3493c-1.2117-0.67642-2.6875-0.67642-3.8993 0l-0.35309 0.19712c-1.057 0.74392-1.6972 1.961-1.6972 3.2707v4.1787l2.0503-1.1445c1.2118-0.67642 2.6876-0.67642 3.8993 0l6 3.3493c1.2371 0.6905 2.0144 1.9824 2.0492 3.3939 8e-4 -0.0329 0.0012-0.0658 0.0012-0.0988v-6.3044c0-1.4498-0.7845-2.786-2.0504-3.4927z" color="rgb(36, 36, 36)" fill="url(#ks)"/>
             <defs color="rgb(36, 36, 36)" fill="none">
-             <radialGradient id="f" cx="0" cy="0" r="1" gradientTransform="translate(7.4386 5.5319) rotate(107.38) scale(16.828)" gradientUnits="userSpaceOnUse">
+             <radialGradient id="kn" cx="0" cy="0" r="1" gradientTransform="translate(7.4386 5.5319) rotate(107.38) scale(16.828)" gradientUnits="userSpaceOnUse">
               <stop stop-color="#AE7FE2" offset=".059849"/>
               <stop stop-color="#0078D4" offset="1"/>
              </radialGradient>
-             <linearGradient id="e" x1="8.914" x2="8.1168" y1="18.135" y2="16.651" gradientUnits="userSpaceOnUse">
+             <linearGradient id="ko" x1="8.914" x2="8.1168" y1="18.135" y2="16.651" gradientUnits="userSpaceOnUse">
               <stop stop-color="#114A8B" offset=".9999"/>
               <stop stop-color="#0078D4" stop-opacity="0" offset="1"/>
              </linearGradient>
-             <radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="translate(6.0625 18.741) rotate(-18.985) scale(15.08 10.771)" gradientUnits="userSpaceOnUse">
+             <radialGradient id="kp" cx="0" cy="0" r="1" gradientTransform="translate(6.0625 18.741) rotate(-18.985) scale(15.08 10.771)" gradientUnits="userSpaceOnUse">
               <stop stop-color="#D59DFF" offset=".11065"/>
               <stop stop-color="#5E438F" offset="1"/>
              </radialGradient>
-             <linearGradient id="c" x1="18.809" x2="17.969" y1="11.218" y2="12.682" gradientUnits="userSpaceOnUse">
+             <linearGradient id="kq" x1="18.809" x2="17.969" y1="11.218" y2="12.682" gradientUnits="userSpaceOnUse">
               <stop stop-color="#493474" offset=".9999"/>
               <stop stop-color="#8C66BA" stop-opacity="0" offset="1"/>
              </linearGradient>
-             <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(20.388 11.35) rotate(194.77) scale(14.882)" gradientUnits="userSpaceOnUse">
+             <radialGradient id="kr" cx="0" cy="0" r="1" gradientTransform="translate(20.388 11.35) rotate(194.77) scale(14.882)" gradientUnits="userSpaceOnUse">
               <stop stop-color="#50E6FF" offset="0"/>
               <stop stop-color="#436DCD" offset="1"/>
              </radialGradient>
-             <linearGradient id="a" x1="8" x2="9.6334" y1="6.9449" y2="6.9449" gradientUnits="userSpaceOnUse">
+             <linearGradient id="ks" x1="8" x2="9.6334" y1="6.9449" y2="6.9449" gradientUnits="userSpaceOnUse">
               <stop stop-color="#2D3F80" offset=".9999"/>
               <stop stop-color="#436DCD" stop-opacity="0" offset="1"/>
              </linearGradient>
             </defs>
            </g>
           </g>
-          <g fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-stretch="100%" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb">
+          <g fill="#242424" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-stretch="100%" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb">
            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="20px" font-weight="600" user-select="auto"><tspan x="477.65625" y="99.015625" lengthAdjust="spacingAndGlyphs" textLength="335.140625" xml:space="preserve">Set up Copilot in Dynamics 365 Sales</tspan></text>
            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"><tspan x="445.65625" y="131.015625" lengthAdjust="spacingAndGlyphs" textLength="427.015625" xml:space="preserve">Help your sellers stay ahead with an AI-powered copilot by their side.</tspan></text>
            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"><tspan x="872.671875" y="131.015625" lengthAdjust="spacingAndGlyphs" textLength="3.84375" xml:space="preserve"> </tspan></text>
@@ -424,7 +424,7 @@ src: local("Verdana");
            </mask>
            <text color="rgb(189, 189, 189)" dominant-baseline="text-after-edge" fill="rgb(189, 189, 189)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="600" text-decoration="none solid rgb(189, 189, 189)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
           </g>
-          <g class="fui-Button r1alrhcs ___11s5674 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f ft1hn21 fuxngvv fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m f1dfjoow f1j98vj9 f1tme0vf f4xjyn1 f18onu3q f9ddjv3 fjgzulp" fill="rgb(66, 66, 66)" font-stretch="100%" mask="url(#gz)" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" aria-labelledby="" aria-owns="fui-Button__icon1" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
+          <g class="fui-Button r1alrhcs ___11s5674 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f ft1hn21 fuxngvv fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m f1dfjoow f1j98vj9 f1tme0vf f4xjyn1 f18onu3q f9ddjv3 fjgzulp" fill="#424242" font-stretch="100%" mask="url(#gz)" text-decoration="none solid rgb(66, 66, 66)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" aria-labelledby="" aria-owns="fui-Button__icon1" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
            <mask id="gz">
             <rect x="1015.9" y="422.02" width="159.33" height="32" fill="#fff"/>
            </mask>
@@ -436,13 +436,15 @@ src: local("Verdana");
             <rect x="1097.4" y="100.02" width="128" height="128" fill="#fff"/>
            </mask>
           </g>
-          <g fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-stretch="100%" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb">
-           <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="16px" font-weight="700" user-select="auto"/>
-           <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"/>
-           <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"/>
+          <g font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-stretch="100%" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb">
+           <g fill="#242424" text-decoration="none solid rgb(36, 36, 36)">
+            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="16px" font-weight="700" user-select="auto"/>
+            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"/>
+            <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" font-size="14px" font-weight="400" user-select="auto"/>
+           </g>
+           <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-size="14px" font-weight="400" text-decoration="none 1px solid rgb(34, 102, 227)" user-select="text"/>
+           <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-size="14px" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" user-select="auto"/>
           </g>
-          <text color="rgb(34, 102, 227)" dominant-baseline="text-after-edge" fill="rgb(34, 102, 227)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none 1px solid rgb(34, 102, 227)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="text"/>
-          <text color="rgb(36, 36, 36)" dominant-baseline="text-after-edge" fill="rgb(36, 36, 36)" font-family='"Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(36, 36, 36)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
           <g class="fui-Button r1alrhcs ___1akj6hk ffp7eso f1p3nwhy f11589ue f1q5o8ev f1pdflbu f1phragk f15wkkf3 f1s2uweq fr80ssc f1ukrpxl fecsdlb f1rq72xc fnp9lpt f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1d6v5y2 f1rirnrt f1uu00uk fkvaka8 f1ux7til f9a0qzu f1lkg8j3 fkc42ay fq7113v ff1wgvm fiob0tu f1j6scgf f1x4h75k f4xjyn1 fbgcvur f1ks1yx8 f1o6qegi fcnxywj fmxjhhp f9ddjv3 f17t0x8g f194v5ow f1qgg65p fk7jm04 fhgccpy f32wu9k fu5nqqq f13prjl2 f1czftr5 f1nl83rv f12k37oa fr96u23" mask="url(#ha)" aria-labelledby="" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button">
            <mask id="ha">
             <rect x="1191" y="370.02" width="96" height="32" fill="#fff"/>
@@ -461,8 +463,8 @@ src: local("Verdana");
           </g>
          </g>
         </g>
-        <g id="jj" class="pa-f pa-an pa-ao pa-ap pa-ai pa-b pa-e " mask="url(#iw)" aria-label="Copilot" aria-owns="pa-aq1" data-stacking-context="true" data-tag="div" data-z-index="auto" role="tabpanel" tabindex="-1">
-         <mask id="iw">
+        <g id="jj" class="pa-f pa-an pa-ao pa-ap pa-ai pa-b pa-e " mask="url(#kj)" aria-label="Copilot" aria-owns="pa-aq1" data-stacking-context="true" data-tag="div" data-z-index="auto" role="tabpanel" tabindex="-1">
+         <mask id="kj">
           <rect width="0" height="0" fill="#fff"/>
          </mask>
          <g class="pa-e pa-f pa-av pa-v pa-aw flexbox" mask="url(#az)" aria-owns="browsing-context-id-0-root" data-stacking-context="true" data-tag="div" data-z-index="auto" role="presentation">
@@ -713,8 +715,8 @@ src: local("Verdana");
                </mask>
               </g>
              </g>
-             <g class="fui-Button r1alrhcs ___d3xkgg0 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f ft1hn21 fuxngvv fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m f1dfjoow f1j98vj9 f1tme0vf f4xjyn1 f18onu3q f9ddjv3 f1sbtcvk fwiuce9 fdghr9 f15vdbe4 fwbmr0d f44c6la" mask="url(#iz)" aria-haspopup="menu" aria-labelledby="" aria-owns="fui-Button__icon5" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
-              <mask id="iz">
+             <g class="fui-Button r1alrhcs ___d3xkgg0 f1c21dwh f1p3nwhy f11589ue f1q5o8ev f1pdflbu fkfq4zb fjxutwb f1s2uweq fr80ssc f1ukrpxl fecsdlb f139oj5f ft1hn21 fuxngvv fwiml72 f1h0usnq fs4ktlq f16h9ulv fx2bmrt f1fg1p5m f1dfjoow f1j98vj9 f1tme0vf f4xjyn1 f18onu3q f9ddjv3 f1sbtcvk fwiuce9 fdghr9 f15vdbe4 fwbmr0d f44c6la" mask="url(#kg)" aria-haspopup="menu" aria-labelledby="" aria-owns="fui-Button__icon5" data-stacking-context="true" data-tag="button" data-z-index="auto" role="button" tabindex="0">
+              <mask id="kg">
                <rect width="0" height="0" fill="#fff"/>
               </mask>
               <g class="fui-Icon-filled ___1vjqft9 fjseox fez10in fg4l7m0" mask="url(#gn)" aria-hidden="true" aria-owns="path13" data-stacking-context="true" data-tag="svg" data-z-index="auto">
@@ -753,8 +755,8 @@ src: local("Verdana");
                <rect width="0" height="0" fill="#fff"/>
               </mask>
              </g>
-             <g mask="url(#h)" aria-owns="path1 path2 path3 path4 path5 path6 defs1" data-stacking-context="true" data-tag="svg" data-z-index="auto">
-              <mask id="h">
+             <g mask="url(#kl)" aria-owns="path1 path2 path3 path4 path5 path6 defs1" data-stacking-context="true" data-tag="svg" data-z-index="auto">
+              <mask id="kl">
                <rect width="0" height="0" fill="#fff"/>
               </mask>
              </g>
@@ -792,8 +794,8 @@ src: local("Verdana");
          <mask id="p">
           <rect x="1323" y="48.016" width="47" height="893.98" fill="#fff"/>
          </mask>
-         <g mask="url(#g)" data-stacking-context="true" data-tag="div" data-z-index="auto">
-          <mask id="g">
+         <g mask="url(#km)" data-stacking-context="true" data-tag="div" data-z-index="auto">
+          <mask id="km">
            <rect width="0" height="0" fill="#fff"/>
           </mask>
          </g>
@@ -1656,9 +1658,9 @@ src: local("Verdana");
        <rect x="276.31" width="584.2" height="48.016" fill="#fff"/>
        <rect x="334.41" y="24" width="0" height="0" fill="#fff"/>
       </mask>
-      <g id="jo" class="ms-SearchBox-field field-291" mask="url(#iy)" aria-labelledby="" aria-placeholder="Search" data-stacking-context="true" data-tag="input" data-z-index="auto" role="searchbox">
+      <g id="jo" class="ms-SearchBox-field field-291" mask="url(#kh)" aria-labelledby="" aria-placeholder="Search" data-stacking-context="true" data-tag="input" data-z-index="auto" role="searchbox">
        <title>Search</title>
-       <mask id="iy">
+       <mask id="kh">
         <rect x="369.41" y="10" width="432" height="28" fill="#fff"/>
        </mask>
       </g>
@@ -1789,18 +1791,18 @@ Find help and training.</title>
      <text color="rgb(51, 51, 51)" dominant-baseline="text-after-edge" fill="rgb(51, 51, 51)" font-family='"Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif' font-size="13px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(51, 51, 51)" text-rendering="auto" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
     </g>
    </g>
-   <g id="jx" mask="url(#jb)" aria-hidden="true" aria-owns="html2" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jb">
+   <g id="jx" mask="url(#ke)" aria-hidden="true" aria-owns="html2" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="ke">
      <rect y="15" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#jd)" aria-hidden="true" aria-owns="html3" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jd">
+   <g mask="url(#kc)" aria-hidden="true" aria-owns="html3" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="kc">
      <rect y="34" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g mask="url(#jc)" aria-hidden="true" aria-owns="html4" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="jc">
+   <g mask="url(#kd)" aria-hidden="true" aria-owns="html4" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="kd">
      <rect y="34" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
@@ -1815,13 +1817,13 @@ Find help and training.</title>
     </mask>
    </g>
    <text color="rgb(102, 102, 102)" dominant-baseline="text-after-edge" fill="rgb(102, 102, 102)" font-family='SegoeUI, "Segoe UI"' font-size="14px" font-stretch="100%" font-weight="400" text-decoration="none solid rgb(102, 102, 102)" text-rendering="auto" unicode-bidi="isolate" word-spacing="0px" writing-mode="horizontal-tb" user-select="auto"/>
-   <g mask="url(#ja)" aria-hidden="true" aria-owns="html5" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
-    <mask id="ja">
+   <g mask="url(#kf)" aria-hidden="true" aria-owns="html5" data-stacking-context="true" data-tag="iframe" data-z-index="auto" tabindex="-1">
+    <mask id="kf">
      <rect y="53" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
-   <g id="ka" mask="url(#ix)" aria-hidden="true" aria-owns="ms-Fabric1" data-stacking-context="true" data-tag="div" data-z-index="auto">
-    <mask id="ix">
+   <g id="ka" mask="url(#ki)" aria-hidden="true" aria-owns="ms-Fabric1" data-stacking-context="true" data-tag="div" data-z-index="auto">
+    <mask id="ki">
      <rect y="-100" width="0" height="0" fill="#fff"/>
     </mask>
    </g>
