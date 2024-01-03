@@ -99,7 +99,9 @@ See the following articles to set up the interactive voice response (IVR) bot in
 - [Configure Copilot Studio bots for voice](../voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
-### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center app?
+### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center (deprecated) app?
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the bot; the bot will speak in English-UK as the workstream locale setting takes precedence.
 
