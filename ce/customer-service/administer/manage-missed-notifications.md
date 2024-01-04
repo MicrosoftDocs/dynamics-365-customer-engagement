@@ -26,7 +26,9 @@ With the missed notifications feature, you can choose to automatically set agent
      
      - In the site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
 
      - In the site map, select **Notification templates** in **Agent Experience**.
 
