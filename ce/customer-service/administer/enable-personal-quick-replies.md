@@ -28,7 +28,9 @@ As an administrator, you can use a Power Automate utility to delete unused tags.
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 

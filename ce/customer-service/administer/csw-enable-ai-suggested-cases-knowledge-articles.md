@@ -84,7 +84,7 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
+You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center (deprecated), or Customer Service Hub app.
 
 1. Go to one of the apps, and then perform the following steps.
    
@@ -95,7 +95,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
      The **Suggestions** page is displayed.       
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      1. In the **Suggestions for agents** section, select **Manage**.
@@ -134,8 +136,8 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 
      The **Suggestions** page is displayed.       
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Suggestions for agents** section, select **Manage**.
 

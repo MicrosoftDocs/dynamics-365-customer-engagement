@@ -18,7 +18,9 @@ Use the Customer Service admin center app to set up the features in Customer Ser
 
 The enhancements include:  
 
-- Consolidated administration experiences that're currently distributed in three different apps: Customer Service Hub, Omnichannel admin center, and app profile manager.
+- Consolidated administration experiences that're currently distributed in the Customer Service Hub and Omnichannel admin center (deprecated) app.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 - Step-by-step guided experience for setting up a channel.
 

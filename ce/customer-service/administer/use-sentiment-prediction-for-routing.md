@@ -48,7 +48,9 @@ The sentiment model is configured to look for and use the messages provided by t
 
     - In the site map, select **Routing**. The **Routing** page appears.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **User attributes** in **Advanced settings**.
 
