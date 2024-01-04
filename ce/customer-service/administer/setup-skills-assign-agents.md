@@ -126,15 +126,13 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub apps.
+You can create rating models in the Customer Service admin center or Omnichannel admin center app.
 
 1. Perform the steps by using one of the following apps.
 
    - In the site map of Customer Service admin center, select **Insights** in **Operations**.
 
    - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**.
-
-   - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
 1. In the **Skill-based routing** section, select **Manage**.
 
@@ -203,7 +201,10 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**.
+1. Do one of the following:
+
+    - In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
+    - In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**.
 
 2. Select a skill from the list for which you want to assign the agents.
 

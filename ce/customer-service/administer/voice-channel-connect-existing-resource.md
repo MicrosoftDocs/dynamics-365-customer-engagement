@@ -98,7 +98,7 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You can only set one web hook endpoint at a time using the following procedure. To enable both SMS and call recording services, you must perform the procedure two times to set a web hook endpoint for each service.
+> - You can set one web hook endpoint only at a time using the following procedure. To enable both SMS and call recording services, you must perform the procedure twice to set a web hook endpoint for each service.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs from the Power Apps portal, see [Get event grid app and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 1. Open the **Event Grid System Topics** service on the Azure portal.
@@ -136,7 +136,7 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
-[Learn more about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
+[Learn about configuring call recording and transcription for a voice workstream in Omnichannel for Customer Service](voice-channel-configure-transcripts.md).
 
 
 #### Get event grid app and tenant IDs from the Power Apps portal
