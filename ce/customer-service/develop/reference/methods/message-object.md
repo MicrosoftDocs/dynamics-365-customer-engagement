@@ -1,7 +1,7 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 12/29/2023
+ms.date: 01/04/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
