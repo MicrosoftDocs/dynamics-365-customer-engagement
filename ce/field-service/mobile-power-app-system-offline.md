@@ -12,11 +12,14 @@ ms.author: jobaker
 
 Often frontline workers need to work in areas without internet access like remote areas or underground. The Dynamics 365 Field Service mobile app offers offline capabilities through a mobile offline profile. When an admin [configures an offline profile](mobile-power-app-system-offline-setup.md), frontline workers can continue using the Field Service mobile app when there's no internet connection. With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Changes on the device are stored locally and then they sync with the server when an active internet connection becomes available.
 
+> [!TIP]
+> Configuring offline capabilities creates a fast and consistent experience and is strongly recommended.
+
 The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
 
-Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
 ## Implementation guidance for the offline profile
 
@@ -37,9 +40,9 @@ For more best practices, see [Power Apps Mobile Offline Guidelines](/power-apps/
 ## Limitations of the offline profile
 
 - Records created on the device in offline mode that don't meet filter conditions won't get resynchronized until the records meet the conditions.
-- Commands or capabilities set up for internet connectivity must be reviewed and confirmed they're calling correct APIs: `Xrm.WebApi.online`. <!--- What does this mean --->
+- Commands or capabilities set up for internet connectivity must be reviewed and confirmed they're calling correct APIs: `Xrm.WebApi.online`.
 - Tables that support offline are part of the default **Field Service Mobile - Offline Profile**. Some Field service tables such as Purchase Order, Agreements, RTV, and RMA don't support offline profiles. Adding these tables and running the application while offline might result in errors in the mobile application.
-- The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables. This 15-link limit includes downstream tables. For example, if Table A has a relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A has six relationships: B, C, D, F, G, and H. 
+- The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables. This 15-link limit includes downstream tables. For example, if Table A has a relationship with Table B, C, D and Table B has a relationship with Table F, G, H. Table A has six relationships: B, C, D, F, G, and H.
 - Inventory validation doesn't run without network connectivity.
 - [Other platform supported capabilities and limitations](../mobile-app/mobile-offline-capabilities.md)
 - Access to SharePoint documents isn't supported.
