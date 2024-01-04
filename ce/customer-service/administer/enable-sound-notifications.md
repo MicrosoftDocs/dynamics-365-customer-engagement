@@ -32,6 +32,8 @@ When you enable sound settings, the options to personalize settings are availabl
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 
 2. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
