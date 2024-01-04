@@ -22,8 +22,10 @@ Message templates enable the one-time creation of reusable messages that can be 
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+     
      - In the site map, in **Advanced settings**, select **Agent experience**.
 
 1. Select **Manage** for **Message templates**.

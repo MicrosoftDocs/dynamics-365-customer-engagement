@@ -50,8 +50,10 @@ You can enable the reconnection options in the chat widget either while setting 
 
     - In the site map, select **Workstreams** in **Customer support**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
     
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
+     
      - In the site map, select **Workstreams** in **General settings**.
 
 1. On the **Workstreams** page, select the workstream.

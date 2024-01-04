@@ -75,6 +75,8 @@ Users should be configured as a bookable resource so that they can be assigned w
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **Users** in **General settings**.
 
    ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
