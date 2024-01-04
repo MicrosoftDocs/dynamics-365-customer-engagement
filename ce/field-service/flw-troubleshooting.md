@@ -12,12 +12,6 @@ ms.subservice: m365-integrations
 
 # Field Service troubleshooting
 
-## As a user, I can't change my theme in Outlook on the web after installing the Field Service for Outlook add-in
-
-### Resolution
-
-Certain versions of Outlook on the web don't support themes with add-ins. If you want to use themes, use Outlook on the desktop.
-
 ## As a frontline manager or worker, my Viva Connections dashboard doesn't have the correct Field Service tiles
 
 ### Symptom
@@ -58,31 +52,7 @@ When I try to create a work order, I get an error that says the currency entered
 
 Change the currency in the work order to match the price list, or ask your admin to make sure the currency is set properly in [the price list settings](create-price-list.md) in Dynamics 365 Field Service.
 
-## As a dispatcher, I'm getting a "doesn't have Create permissions" error when I try to create work orders
 
-### Prerequisites
-
-You must have administrator permissions in Dynamics 365 Field Service.
-
-### Symptom
-
-When I try to create work orders, I get the following error:
-
-`An error occurred: Caller user with ID {ID number} does not have Create permissions for the msdyn_timefrompromised attribute in the msdyn_workorder entity. Count secured attributes in entity 11. user has 0 secured attribute privileges.`
-
-### Resolution
-
-Edit the [Column level security](flw-admin.md#set-up-column-level-security-optional) for the Field Service - Dispatcher role and allow Create permission to the `Time To Promised`(`msdyn_timetopromised`) and `Time From Promised`(`msdyn_timefrompromised`). If the error persists, check the security role:
-
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
-
-1. Find the environment the dispatcher is trying to use in Outlook.
-
-1. Select **Settings** > **Users + permissions** > **Security roles**.
-
-1. Select the Field Service - Dispatcher role.
-
-1. Scroll to the **Work Order** table. Change the **Create** permission so that it isn't set to **None**.
 
 ## As a frontline manager or administrator, I'm getting a "user hasn't been assigned any roles" error when I try to access work orders
 
@@ -118,30 +88,6 @@ I'm trying to [assign security roles to my users](flw-admin.md#assign-security-r
 
 1. If the user still doesn't appear in the list, make sure the user is set up and active in the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
-## As an administrator, I can't identify the user ID in an error message
 
-### Prerequisites
-
-You have administrator permissions in Dynamics 365 Field Service.
-
-### Symptoms
-
-A user ID is listed in an error message from Dataverse and I can't identify the user.
-
-### Resolution
-
-[!INCLUDE [azure-ad-to-microsoft-entra-id](../includes/azure-ad-to-microsoft-entra-id.md)]
-
-Dataverse errors relating to a user show the Field Service user ID, not the Microsoft Entra ID. The Dataverse user ID is specific to the environment. To identify the user:
-
-1. In the Field Service app, select your Field Service environment.
-
-1. On the bottom left, select **Settings** > **Users**.
-
-1. Select any user so that the `systemuser&id` appears at the end of the URL.
-
-   :::image type="content" source="media/fs-user-id.png" alt-text="Screenshot of Field Service Settings Users page with the systemuser&id highlighted.":::
-
-1. Replace the ID number with the ID in the error message and press **Enter**. The user's account tied to this ID appears.
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
