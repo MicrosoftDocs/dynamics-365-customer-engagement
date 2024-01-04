@@ -23,15 +23,15 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 
 1. Create a bot in Copilot Studio.
 
-2. Create a topic in Bot Framework Composer.
+1. Create a topic in Bot Framework Composer.
 
-3. Configure the greeting topic in Copilot Studio.
+1. Configure the greeting topic in Copilot Studio.
 
-4. Configure the transfer to agent node by using the escalate topic.
+1. Configure the transfer to agent node by using the escalate topic.
 
-5. Configure workstreams and queues.
+1. Configure workstreams and queues.
 
-6. Verify the multilingual bot.
+1. Verify the multilingual bot.
 
 > [!NOTE]
 > The [new multilingual chatbots](/power-virtual-agents/multilingual) (preview) aren't currently supported in Omnichannel for Customer Service.
@@ -74,7 +74,7 @@ For example, you can create a bot with the following details:
       `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="en-US-AriaNeural"><lang xml:lang="en-US">Hello ${virtualagent.msdyn_CustomerName}. Welcome to contoso customer support.</lang></voice></speak>`
 
       > [!NOTE]
-      > The ${virtualagent.msdyn_CustomerName} variable will provide the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
+      > The ${virtualagent.msdyn_CustomerName} variable provides the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
 
    1. Select the **Add** (+) node in **BeginDialog**, point to **Ask a question**, and then select **Multi-choice**.
 
@@ -93,14 +93,14 @@ For example, you can create a bot with the following details:
 
      :::image type="content" source="../media/pva-framework-setup.png" alt-text="Set calues for an Array of choices.":::
      
-   f. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
+   1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:
 
       - **Condition**: conversation.language_choice
       - **Value**: 1, 2, 3, One, Two, Three, Un, deux, trois, Um, dois, três   
        
         Enter one choice per value.
      
-   g. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
+   1. Select the **Add** (+) node and then select **Manage properties** > **Set a property** and enter the following details:
 
       - **Condition**: virtualagent.va_CustomerLocale
       - **Value**: en-US   
@@ -114,9 +114,9 @@ For example, you can create a bot with the following details:
       > [!NOTE]
       > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
 
-   h. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
+   1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
-   i. In **Dialog name**, select **Escalate**.
+   1. In **Dialog name**, select **Escalate**.
 
 1. In the site map, select **Publish**, and then select **Publishing profile**.
 
@@ -132,7 +132,7 @@ For example, you can create a bot with the following details:
 
 1. Select **Publish**.
 
-## Configure the greeting topic in Copilot Studio
+## Configure the greeting topic
 
 1. In Copilot Studio, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
