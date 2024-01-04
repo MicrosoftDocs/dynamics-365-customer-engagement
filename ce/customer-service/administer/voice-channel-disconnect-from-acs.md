@@ -30,6 +30,9 @@ To permanently release or remove one or more phone numbers from your organizatio
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     In the site map, select **Phone numbers** in **General settings**.
 1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
 1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection is displayed.

@@ -21,6 +21,7 @@ Set up booking rules to validate a booking when it's created or modified.
 > - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views of the schedule board and schedule assistant. They are also available when a booking is created or updated via bookable resource booking form.
 > - Booking rules are not available on the bookable resource booking form, if it has business process flow enabled on the form.  
 > - Booking rules are not available on the reassign functionality on the schedule board.
+> - Each custom booking rule can return only one error/warning. To return multiple messages, set up individual booking rules for each validation. 
 
 ## Create a solution
 
