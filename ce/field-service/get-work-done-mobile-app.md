@@ -66,7 +66,9 @@ When you're ready to start work, select the booking tile on the booking home pag
 
 :::image type="content" source="./media/mobile-newux-work.png" alt-text="Renderings of four mobile devices showing the General, Tasks, Services, and Products screens in the Field Service mobile app.":::
 
-Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity.
+Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the *default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity.
+
+>Note: The Booking list is handled differently from other views configured in the application. Bookings view is currently always looking its view configuration from "Bookings - Agenda View"
 
 :::image type="content" source="media/mobile-list-configurable.png" alt-text="List of accounts showing the new list type with removed icons and custom columns.":::
 
