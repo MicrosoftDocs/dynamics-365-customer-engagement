@@ -134,11 +134,11 @@ However, if agent has manually set one of the following presence statuses, the s
 
 ### Define allowed presence in workstream settings
 
-[Allowed presence](administer/create-worksteams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if the agent presence matches one of the specified statuses.
+[Allowed presence](../administer/create-worksteams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if the agent presence matches one of the specified statuses.
 
 ### Use presence in assignment rules
 
-You can define conditions on presence in the assignment rules of assignment methods to route to the most suitable agent for an incoming work item. More information: [Configure assignment rules](administer/configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)
+You can define conditions on presence in the assignment rules of assignment methods to route to the most suitable agent for an incoming work item. More information: [Configure assignment rules](../administer/configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)
 
 ## Troubleshoot display of presence
 

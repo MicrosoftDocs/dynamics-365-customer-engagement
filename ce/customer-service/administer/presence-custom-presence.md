@@ -1,5 +1,5 @@
 ---
-title: Configure custom presence 
+title: Configure custom presence
 description: Learn to configure custom presence in Omnichannel for Customer Service.
 ms.date: 01/05/2024
 ms.topic: how-to
@@ -25,7 +25,7 @@ The presence status indicates an agent's availabilityn to take up work items. A 
 
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
-You must specify a [default presence](administer/users-user-profiles.md#manage-users-using-the-classic-experience) to agents that will be set when they sign in for work. If no default presence is defined, the application will set "Available" as the default.
+You must specify a [default presence](users-user-profiles.md#manage-users-using-the-classic-experience) to agents that will be set when they sign in for work. If no default presence is defined, the application will set "Available" as the default.
 
 ## Out-of-the-box presence statuses
 
