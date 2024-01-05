@@ -50,7 +50,9 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 

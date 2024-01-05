@@ -103,6 +103,8 @@ Watch the following video to learn more about searching functional locations and
 
 Associate a functional location with a [work order](create-work-order.md) to make it easier for field technicians to find a customer asset to work on.
 
+If you don't set a functional location, the system uses the service address on the work order. If no service address exists, the system uses the address of the contact that reported the issue.
+
 :::image type="content" source="media/assets-functional-location-work-order.png" alt-text="Screenshot of the functional location field on a work order.":::
 
 If you select a functional location, the work order's **Location** tab displays the location's address and latitude and longitude coordinates.

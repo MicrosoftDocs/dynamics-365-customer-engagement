@@ -29,6 +29,8 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 
    ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 
 2. On the **Omnichannel Configuration** page, select the **Agent Reject** tab.  
