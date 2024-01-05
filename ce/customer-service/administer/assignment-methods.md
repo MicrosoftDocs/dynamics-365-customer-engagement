@@ -55,7 +55,7 @@ The following assignment methods are available out of the box:
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
 > [!NOTE]
-> If you modify an existing rating model, any ongoing conversations or active work items that were assigned the rating from the original model will retain their existing rating and not reflect the updated rating. This might result in scenarios where there are no agents who meet the updated assignment criteria.
+> When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
 
 - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
 
