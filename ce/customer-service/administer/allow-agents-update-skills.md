@@ -37,7 +37,9 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
     - In the site map, select **User attributes** under **Advanced settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - Go to the **Service Management** site map, and select **User attributes** in **Unified routing**.
 

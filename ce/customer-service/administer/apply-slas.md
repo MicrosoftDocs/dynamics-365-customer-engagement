@@ -70,9 +70,11 @@ You can apply a default SLA in the Customer Service admin center or Customer Ser
      1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
      2. In the **Service-level agreements (SLAs)** section, select **Manage**.
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-      * In the site map, go to **Service Management** and select **Service Level Agreements** in **Service Terms**.
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+      
+    * In the site map, go to **Service Management** and select **Service Level Agreements** in **Service Terms**.
 
 ---
 
