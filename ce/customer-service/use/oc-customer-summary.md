@@ -1,11 +1,11 @@
 ---
-title: "View Active Conversation in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service."
+title: View Active Conversation in Omnichannel for Customer Service 
+description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 07/18/2023
+ms.date: 01/05/2024
 ms.custom: bap-template
 ---
 
@@ -172,7 +172,7 @@ To learn more, see [Create chat authentication settings](../administer/create-ch
 
 ### View Additional details
 
-If your administrator or developer has configured the **Additional details** tab and if any other context variables exist, they're displayed on the **Additional details** tab.
+If your administrator or developer has configured the **Additional details** tab and if any other context variables exist, they're displayed on the **Additional details** tab for live chat channels.
 
 To learn more, see [setContextProvider](../develop/reference/methods/setContextProvider.md).
 

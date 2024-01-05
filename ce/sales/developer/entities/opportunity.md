@@ -1223,7 +1223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Value|Label|Description|
 |-----|-----|--------|
 |0|None||
-|1|Detail Error||
+|1|Detail Error|Line item price can't be calculated as one or more mandatory out-of-the-box fields such as quantity, productid, defaultuomid, defaultuomscheduleid, or others are missing.|
 |2|Missing Price Level||
 |3|Inactive Price Level||
 |4|Missing Quantity||
