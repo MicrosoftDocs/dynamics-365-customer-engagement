@@ -49,6 +49,8 @@ Your admin might have installed the app for your organization. If you see the Fi
 
      :::image type="content" source="media/fsp-flm-teams-viva-dashboard.png" alt-text="Screenshot of the Field Service dashboard in Viva Connections in Teams.":::
 
+     [!INCLUDE [fsp-viva-tiles](../includes/fsp-viva-tiles.md)]
+
 ## Create a work order in Teams
 
 1. From your Viva Connections dashboard, select **Create work order** on the **Work orders all in one place** tile.
@@ -131,7 +133,7 @@ You can view all work orders, overdue work orders, or work orders in progress. A
 
 1. Find the work order you want to view:
 
-   - Type the work order ID in the **Find by ID** box and select **Search**.
+   - Type the work order ID in the **Find by ID** box and select **Search**. Clear any filters first.
 
    - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
 
