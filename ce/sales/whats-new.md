@@ -10,20 +10,9 @@ ms.topic: whats-new
 
 # What's new or changed in Dynamics 365 Sales
 
-Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). We've captured all the details, end to end, top to bottom, that you can use for planning.
+Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). 
 
-View the release plans to find out what's coming. Choose the following links to learn about the latest versions of Dynamics 365 Sales.
-
-- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)
-- [2022 release wave 2](/dynamics365-release-plan/2022wave2/sales/dynamics365-sales/planned-features)
-
-Keep track of changes on the [Dynamics 365 Sales release planner](https://experience.dynamics.com/releaseplans/?app=sales) site, or download the release plan as a single PDF.
-
-Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
-
-This article lists only those features that have been deployed in all regions. 
-
-This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed for all regions. For example, if your org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
+This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
 
 ## December 2023 release
@@ -57,5 +46,12 @@ No new features or enhancements were released in December 2023.
 New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
 
 For the latest available version in your region, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
+
+## See also
+
+- [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)
+
+- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
