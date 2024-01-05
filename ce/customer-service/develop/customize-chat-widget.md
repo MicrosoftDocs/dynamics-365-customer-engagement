@@ -18,6 +18,7 @@ You can customize live chat widgets by using data tags in the widget script. You
 |Attribute name|Description|Example|
 |----|-----|-----|
 |`data-hide-chat-button`| When you implement your chat widget, you can add a chat button that aligns with your mobile app experience instead of using the default chat button. In such cases, use this data tag to hide the default open chat button that's available in the live chat widget. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`|
+|`data-hide-minimize-button`| When you implement your chat widget, you can disable the minimize button inside the default chat. Use this data tag to hide the default minimize chat button that's available in the live chat widget. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-minimize-button="true"></script>`|
 |`data-disable-telemetry`| By default, telemetry data collection is turned on for all widgets. Set the value of this data tag to `true` if you want to disable telemetry data collection. More information: [Live chat widget telemetry](live-chat-telemetry.md)| `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-disable-telemetry="true"></script>` |
 |`data-render-mobile`| Open the chat widget in mobile mode. The chat widget doesn't have a header when used on a mobile device. More information: [Customize live chat widget for mobile apps](render-live-chat-widget-mobile.md#render-the-live-chat-widget-using-embedded-code)| `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-render-mobile="true" ></script>` |
 |`data-color-override`| Use this data tag to override the default chat widget theme color. This override takes priority over any color theme settings on the admin app. | Here's an example, where the widget theme color is changed to blue.`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-color-override="#0000FF"></script>` |
@@ -41,3 +42,7 @@ You can customize live chat widgets by using data tags in the widget script. You
 [Live chat SDK reference](omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+
+Alta de consulta --> Id de consulta
+Detalle de asegurado --> numPers
