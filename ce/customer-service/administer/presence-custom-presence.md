@@ -1,17 +1,18 @@
 ---
-title: Configure and manage presence and custom presence | MicrosoftDocs
-description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
-ms.date: 02/18/2023
-ms.topic: article
+title: Configure custom presence 
+description: Learn to configure custom presence in Omnichannel for Customer Service.
+ms.date: 01/05/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.collection: get-started
+ms.collection:
+ms.custom: bap-template
 ---
 # Configure and manage custom presence
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The presence status indicates an agent's availability. A presence status consists of two elements:
+The presence status indicates an agent's availabilityn to take up work items. A presence status consists of two elements:
 
 - **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
   - Available
@@ -20,11 +21,11 @@ The presence status indicates an agent's availability. A presence status consist
   - Away
   - Offline
 
-  Only the base statuses are available for selection in **Allowed Presences** while creating a [work stream](create-workstreams.md).
+  You can select base statuses only in **Allowed Presences** when you are [creating a workstream](create-workstreams.md).
 
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
 
-A default presence should be assigned to the agents that will be set when they sign in for work. If no default presence is assigned, the application will set "Available" as the default.
+You must specify a [default presence](administer/users-user-profiles.md#manage-users-using-the-classic-experience) to agents that will be set when they sign in for work. If no default presence is defined, the application will set "Available" as the default.
 
 ## Out-of-the-box presence statuses
 
@@ -43,13 +44,11 @@ The inactive presence is not available for manual selection by the agents; if th
 > ![Presence view.](../media/oc-presence-view.png)
 
 > [!NOTE]
-> You cannot edit or delete these out-of-the-box base and presence statuses.
+> You can't edit or delete these out-of-the-box base presence statuses.
 
 ## Create custom presence status
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application will treat it as offline while the visual effect would be available.
-
-**To create a presence record**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
@@ -81,6 +80,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 ### See also
 
+[Manage presence in Omnichannel for Customer Service](../use/oc-manage-presence-status.md)  
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  

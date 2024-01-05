@@ -118,7 +118,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presences in which agents will be assigned.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
