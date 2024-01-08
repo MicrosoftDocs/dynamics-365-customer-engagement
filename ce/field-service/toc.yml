@@ -196,13 +196,13 @@ items:
 - name: Collaborate with Microsoft Teams
   items:
     - name: Overview of Microsoft Teams integration
-      href: /dynamics365/teams-integration/teams-integration
+      href: /dynamics365/teams-integration/teams-integration?context=/dynamics365/context/field-service-context
     - name: Collaborate on work orders with Microsoft Teams
       href: field-service-teams-collaboration.md
     - name: Use the personal dashboard in Teams
-      href: /dynamics365/teams-integration/teams-personal-use
+      href: /dynamics365/teams-integration/teams-personal-use?context=/dynamics365/context/field-service-context
     - name: Manage documents in Teams
-      href: /dynamics365/teams-integration/teams-doc-management
+      href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
 
 - name: Scheduling
   items:
