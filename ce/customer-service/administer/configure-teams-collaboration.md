@@ -65,7 +65,9 @@ The AI suggestions feature is supported in the following languages:
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.

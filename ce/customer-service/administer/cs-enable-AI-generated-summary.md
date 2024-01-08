@@ -52,6 +52,8 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable aut-generated summary for Microsoft Teams chats:
 
+[!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
 1. In the site map, select **Service Management**.
 2. In **Collaboration**, select **Embedded chat using Teams**.
 1. In **Connect chats to Dynamics 365 records**, select **Conversation**.

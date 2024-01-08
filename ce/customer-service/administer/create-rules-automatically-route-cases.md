@@ -36,6 +36,8 @@ In custom apps, you might not have routing rulesets in your site map. To add rou
 
 4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**. The **SUB AREA** section appears in the right pane.
 
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
 5. On the **Properties** tab, in **General** section, do the following:
 
     - **Type:** Select **Entity**.
@@ -78,7 +80,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
    1. Select **Manage** for **Routing rule sets (basic)**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
    
    - In the site map, go to **Service Management**, and select **Routing Rule Sets** in **Case Settings**.
 
