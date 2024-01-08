@@ -1,10 +1,12 @@
 ---
-title: "Close opportunities as won or lost | MicrosoftDocs"
-description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
-ms.date: 05/10/2022
-ms.topic: article
+title: Close opportunities as won or lost
+description: Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity.
+ms.date: 01/08/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: shujoshi
+ms.custom: bap-template
 ---
 # Close opportunities as won or lost 
 
@@ -39,13 +41,15 @@ If your customer has accepted your proposal, congratulations! Whether your custo
     - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
     
     - In **Description**, enter details about what contributed to winning this opportunity. 
+    
+    - In **Competitor**, select the competitor you won this opportunity from.
 
       > [!div class="mx-imgBorder"]  
       > ![Close Opportunity dialog box when the opportunity is won.](media/close-as-won.png "Close Opportunity dialog box when the opportunity is won")
 
     When you close the opportunity as **Lost**, in the **Close Opportunity** dialog box, do the following, and select **OK**:
   
-    -  In **Competitor**, select a competitor you lost this opportunity to.
+    -  In **Competitor**, select the competitor you lost this opportunity to.
     
     -  In **Description**, add more details around why the opportunity was lost.
 
