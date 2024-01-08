@@ -10,8 +10,6 @@ ms.author: laalexan
 
 # Learn the basics of the Customer Service Hub
 
-
-
 ## Open the Customer Service Hub
 
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
@@ -82,6 +80,8 @@ Here's what each entity record type is used for:
 2. Select **...** to go to **Training**, and access the documentation site to view the **Help Center**. 
 
 3. You can also access **Service Management** from the site map. Service Management lets you define all the customer service admin settings from the Customer Service Hub site map.  Select **...** to go to **Service Management**.
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Customer Service](../configure-cs.md).
 4. Select **Favorites and Recent** button ![recent-button.](../media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.

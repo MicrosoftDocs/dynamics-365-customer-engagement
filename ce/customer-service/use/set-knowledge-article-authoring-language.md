@@ -42,16 +42,18 @@ You can set a default knowledge article authoring language for your organization
 
 1. Go to the **Authoring language** section.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. In the **General settings** section, select **Manage**. The **General settings** page appears.
-  1. On the **General settings** page, go to the **Authoring language** section.
+      1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+      1. In the **General settings** section, select **Manage**. The **General settings** page appears.
+      1. On the **General settings** page, go to the **Authoring language** section.
 
-### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-   1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-   1. On the **Settings** page, go to the **Knowledge articles authoring language** section.
+      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+      1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+      1. On the **Settings** page, go to the **Knowledge articles authoring language** section.
 
 ---
 

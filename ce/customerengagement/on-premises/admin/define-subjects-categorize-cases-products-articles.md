@@ -28,7 +28,7 @@ Dynamics 365 Customer Engagement (on-premises) includes a subject organizational
 > [!NOTE]
 > With the Customer Engagement (on-premises) 9.1 release, subjects in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you manage subjects using the new experience.
   
-## Create or edit a subject  (Customer Service Hub) 
+## Create or edit a subject (Customer Service Hub)
 
 1. In the Customer Service Hub app, go to **Service Management** and select **Case Settings** > **Subjects** in the sitemap to access subjects. 
 
