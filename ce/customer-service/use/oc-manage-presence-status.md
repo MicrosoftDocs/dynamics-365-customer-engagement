@@ -13,21 +13,20 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Presence is an indication of your agent’s availability or status to take up work in Omnichannel for Customer Service.
+Presence is an indication of your agent’s availability or status to take up work in Customer Service.
 
-:::image type="content" source="../media/oceh-presence-icon.png" alt-text="Agent presence status.":::
+:::image type="content" source="../media/oceh-presence-icon.png" alt-text="Screenshot of agent presence status.":::
 
 ## Prerequisites
 
 For presence status to load correctly, the following prerequisites must be met:
 
-- The [omnichannel provider URL](use-agent-diagnostics.md) is correct.
+- The omnichannel provider URL is correct. Check using the [agent diagnostics tool](use-agent-diagnostics.md) in Customer Service workspace.
 - The agent is assigned the [Omnichannel agent or Omnichannel supervisor role](../implement/add-users-assign-roles.md).
 - The agent is assigned an [experience profile](../administer/add-profile-default.md).
 - The ["All active channels"](../administer/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels) setting is enabled in the agent’s experience profile.
-- The agent is assigned the [default presence](../administer/users-user-profiles.md#manage-users-using-the-classic-experience).
 - [Unified routing is provisioned](../administer/provision-unified-routing.md).
-- [Cookies are enabled in agent's browser](../implement/system-requirements-omnichannel.md).
+- [Cookies are enabled in agent's browser](../implement/system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
 - The following URL is allowlisted: https://*.service.signalr.net
 
 
@@ -43,7 +42,7 @@ You can view your presence status on the navigation bar. You can select the pres
 - ![Inactive presence status.](../media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
  
 > [!NOTE]
-> - Inactive is a special status that isn’t available for the agent to select; it’s set by the system automatically in certain scenarios
+> - Inactive is a special status that isn’t available for the agent to select; it’s set by the system automatically when agents miss notifications.
 > - You can’t modify or delete the out-of-the-box presence statuses.
 
 ## Presence elements
@@ -73,7 +72,7 @@ When the agent signs into Customer Service workspace, the system sets the agent�
 - Default presence configuration
 - Agent capacity
 
-If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on available capacity.
+If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on available capacity and sets it automatically.
 
 If you have set the default presence to a custom status, the base presence status for the custom presence is considered for calculating the presence.
 
@@ -82,7 +81,7 @@ If you have set the default presence to a custom status, the base presence statu
 
 The agent presence status is updated in the following two ways:
 
-- **Manually**: To view and set the presence manually, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
+- **Manually**: The agent can view and set the presence manually by selecting the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
 
   - Offline
   - Appear away
@@ -113,19 +112,17 @@ The agent presence status is updated in the following two ways:
 
 ##  How capacity affects presence
 
-Presence changes automatically based on capacity use. The following scenarios are applicable:
+As mentioned in the preceding section, presence changes automatically based on capacity utilization. The following scenarios are applicable:
 
 - If available capacity is negative presence is set to "Do not disturb".
 - If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This would not bother if the capacity units are being used or not. If the capacity units are configured, this check would happen.
-- If agent has multiple capacity profiles and both are non-blocking, the system waits for both to exhaust to mark the agent as "Do not disturb".
-- If agent has multiple capacity profiles only and one of them only is blocking, then the system waits for the blocking profile to be exhausted to mark the agent as "Do not disturb". 
--	In all other scenarios, when agent is in an active session, the presence is "Busy".
+- If agent has multiple capacity profiles and all are non-blocking, the system waits for them to be consumed to mark the agent as "Do not disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Do not disturb".
 
 ## How do manual and automatic presence updates work together
 
-When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity use.
+When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization.
 
-However, if agent has manually set one of the following presence statuses, the status persists until agent logs out or changes it manually.
+However, if the agent has manually set one of the following presence statuses, the status persists until the agent logs out or changes it manually.
 - Offline
 - Away
 - Do not disturb
@@ -134,7 +131,7 @@ However, if agent has manually set one of the following presence statuses, the s
 
 ### Define allowed presence in workstream settings
 
-[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if the agent presence matches one of the specified statuses.
+[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if the agents' presence matches one of the specified statuses.
 
 ### Use presence in assignment rules
 
@@ -146,12 +143,12 @@ You can define conditions on presence in the assignment rules of assignment meth
 
 ### See also
 
-[View notifications](oc-notifications.md)
-[Introduction to the agent interface](oc-introduction-agent-interface.md)
-[Manage sessions](oc-manage-sessions.md)
-[Manage applications](oc-manage-applications.md)
-[View the communication panel for conversations](oc-conversation-control.md)
-[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+[View notifications](oc-notifications.md)  
+[Introduction to the agent interface](oc-introduction-agent-interface.md)  
+[Manage sessions](oc-manage-sessions.md)  
+[Manage applications](oc-manage-applications.md)  
+[View the communication panel for conversations](oc-conversation-control.md)  
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

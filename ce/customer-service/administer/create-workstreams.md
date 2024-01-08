@@ -1,7 +1,7 @@
 ---
 title: "Create and manage workstreams | MicrosoftDocs"
 description: "Use this article to understand how to create and manage workstreams in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 05/05/2023
+ms.date: 01/06/2024
 author: neeranelli
 ms.author: nenellim
 ms.topic: article
@@ -118,7 +118,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
   > [!NOTE]
   > If you've selected **End of Day mode** in capacity profile, agent capacity won't be reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presence statuses in which agents can be assigned work.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the "inactive" and "Do not disturb" statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
 
