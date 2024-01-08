@@ -29,7 +29,9 @@ ms.collection: get-started
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-1. Go to **Settings** > **Service Management**.
+1. In Customer Service Hub, go to **Settings** > **Service Management**.
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
 1. Go to **Service Level Agreements**.
 
