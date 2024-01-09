@@ -44,8 +44,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 1. If you selected to restrict access to selected users, [add those users](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
 
-   <!--- Is this still true? If so, where add them? --->
-     The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
+   The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
 
 1. Review the **Data for offline use**. For each table:
 
@@ -68,7 +67,7 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
 
 1. Save the offline profile.
 
-You can create additional [offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile) to enable scenarios where different user roles have different sync settings or tables available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
+You can [create additional offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile) to enable scenarios where different user roles have different sync settings or tables available to them. For example, a Field Service manager may require seeing a broader scope of work orders that may not be assigned to the current operator of the mobile app. If you create a new offline profile, you'll need to add it to the Field Service mobile app in the app designer as well.
 
 ## Move a mobile offline profile between environments
 
@@ -86,16 +85,11 @@ To control changes and keep your offline profiles in sync, your organization mig
 
 1. Modify your copied profile as needed.
 
-1. Create a managed solution that includes the mobile offline profile.  
-   - In Dynamics 365, go to **Settings** > **Solutions** > **Create a new solution**.
-   - Within the new solution, **Add Existing** > **Mobile Offline Profile**.
+1. Create a [managed solution](/power-platform/alm/solution-concepts-alm) that includes the mobile offline profile.  
 
 1. Export the managed solution containing the mobile offline profile from the original environment.
 
 1. Import the managed solution into the new environment.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the adding Mobile Offline Profile to a solution.](./media/Solution_AddMOP.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

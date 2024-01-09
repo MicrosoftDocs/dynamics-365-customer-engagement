@@ -18,12 +18,9 @@ Sync intervals define how often record type data automatically syncs down to the
 
 The default **Field Service Mobile - Offline Profile** contains predetermined sync intervals for each record type, based on typical usage patterns of those record types.
 
-A synch is only initiated when there's connectivity and when the app is actively running on the user’s mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background. Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table might not be respected if there's a related table with a lower sync interval.
+A sync is only initiated when there's connectivity and when the app is actively running on the user's mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background. Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table might not be respected if there's a related table with a lower sync interval.
 
-<!--- Can we take this note out?
-> [!NOTE]
-> Sync intervals are defined per record type with Field Service v8.8.40+. In earlier versions, all record types will have a five-minute sync interval.
---->
+In addition, users can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings) from the mobile app.
 
 ## Sync conflicts
 
@@ -31,19 +28,11 @@ Sync conflicts happen if there's a mismatch between data on the device and data 
 
 You can resolve conflict errors based on the settings set by the administrator. Conflicts happen at the table level and not per field.
 
-<!---Is this still accurate? If so, point to https://learn.microsoft.com/en-us/power-platform/admin/system-settings-dialog-box-mobile-client-tab --->
-
-To set conflict detection, go to **Settings** > **Mobile Offline** > **Mobile Offline Settings** and the **Mobile Client** tab.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service settings showing the mobile offline menu option.](./media/mobile-powerapp-sync-conflict-navigate.png)
+To set conflict detection, see [Open the System Settings dialog box](/power-platform/admin/system-settings-dialog-box-mobile-client-tab).
 
 - **No**: Data on the client device (mobile app) wins resulting in no sync errors. This setting is the default.
 
 - **Yes**: Data on the server wins. The technician using the app might see errors informing them of conflict. In this case, while syncing changes to the server, you might see that resolved automatically. Server values can overwrite client changes. In this case, while syncing changes to the server, the technician using the application might see errors informing them of conflict.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of system settings for Dynamics 365 showing the conflict detection setting.](./media/mobile-powerapp-sync-conflict.png)
 
 Administrators can view past sync errors by going to **Settings** > **Sync Error**.
 
@@ -71,19 +60,15 @@ If the application detects the network isn't suitable for online activity, the m
 - Application boots into offline mode prior to detecting network availability.
 - Application network check fails with no response or a response that takes too long.
 
-You can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings).
-
 ## Data removal from the mobile device
 
 At certain points following a sync, data that no longer meets the offline profile filter criteria might be removed from the mobile device. Data removal is most common in two instances:
 
-<!--- Do we need this info or can we summarize? --->
-
-- When the user of the mobile offline profile first signs in to the mobile application, it behaves as if it is in online mode until the first sync completes. During this time, data presented to the user is only restricted based on view filters. Following the completion of the first sync, the application changes to offline mode and shows only data that matches the mobile offline profile and the filters applied to the view. Depending on the filters of the mobile offline profile, a frontline worker might find some records removed from their view when the application changes from online to offline mode. For example, while online they might see all past *Bookable Resource Bookings*, but after moving to offline mode bookings that start today or in the future.
+- Following the completion of the first sync, the application changes to offline mode and shows only data that matches the mobile offline profile and the filters applied to the view. Depending on the filters of the mobile offline profile, a frontline worker might find some records removed from their view when the application changes from online to offline mode. For example, while online they might see all past *Bookable Resource Bookings*, but after moving to offline mode, they see only bookings that start today or in the future.
 
 - After an incremental sync while the user is already offline, data that doesn't meet filters of the mobile offline profile might be removed. For example, if the mobile offline profile filters all completed *Bookable Resource Bookings*, a newly completed booking gets removed from the agenda following a sync and is no longer accessible in the mobile application.
 
-If a user is actively viewing a record that is removed from the mobile offline database, they see a **Record Not Found** error. If this is a frequent occurrence, we recommend you review the filters to ensure they aren't overly restrictive for key scenarios.
+If a user is actively viewing a record that is removed from the mobile offline database, they see a **Record Not Found** error. If this error appears frequently, we recommend you review the filters to ensure they aren't overly restrictive for key scenarios.
 
 If the mobile application is reconfigured, the offline database on the device is cleared.
 
