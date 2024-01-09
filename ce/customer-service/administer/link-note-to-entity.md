@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 08/01/2023
+ms.date: 01/09/2024
 ms.custom: bap-template 
 ---
 
@@ -18,6 +18,10 @@ You can use **Relate note to a table record** to perform the following actions w
 - Create a new table record from the note. For example, you can create a case from an existing note on a contact's timeline.
 
 You can enable this feature for any table that allows you to add a timeline component. However, the tables that a note can be linked to are only account, contact, and case.
+
+Watch this video to understand linking of timeline notes with other table records and how to set it up:
+
+> [!VIDEO https://www.youtube.com/embed/U8fjWc1CT9o]
 
 ## Configure linking of timeline notes
 

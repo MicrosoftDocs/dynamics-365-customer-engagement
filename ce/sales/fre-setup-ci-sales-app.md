@@ -1,7 +1,7 @@
 ---
 title: Set up conversation intelligence in Sales Hub app
 description: Learn how to set up conversation intelligence with Microsoft Teams or third-party dialers in Dynamics 365 Sales.
-ms.date: 07/03/2023
+ms.date: 12/14/2023
 ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -32,7 +32,7 @@ If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call
 - A license to use Teams. [Learn more about Microsoft Teams add-on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business).
 
 - [Teams dialer enabled and configured for your organization](configure-microsoft-teams-dialer.md)
-- If you want to use your own storage for conversation intelligence, create a v2 storage account with an Azure subscription. The account will include a blob container to configure call data. To learn more, see [Create a call recording repository in Azure](create-azure-repo.md).
+- (Optional) [Set up own storage for call recordings](create-azure-repo.md) if you want to use your own Azure storage for storing call recordings and transcripts, and the call insights. Otherwise, the application uses Microsoft-provided storage.
 
 ## Prerequisites for third-party dialers
 
@@ -79,8 +79,11 @@ Configure the settings to specify where your call recording data is stored, the 
 
     | Option | Description |
     |--------|-------------|
-    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your [custom Azure storage](create-azure-repo.md). You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage connection string** and **Container name** of your Azure storage. <br> </li></ul>|
+    | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option to use storage provided by Microsoft. This option is selected by default, and we recommend that you don't change it unless you need to retain call recording data for longer than 90 days.</li><li>**Your own Azure storage**: Select this option to use your own Azure storage. You must select this option to retain call recording data for longer than 90 days. After you select this option, enter the **Storage name** and **Container name** that you've created for conversation intelligence in your Azure portal. [Learn more about configuring your own storage](create-azure-repo.md). <br></li></ul>|
     | Retention policy | Select how long to retain call recording data. The application deletes the data when it reaches the time limit. [Learn more about data retention and access](data-retention-deletion-policy.md).<br>For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires a longer retention period, you'll need to use your own storage. |
+
+
+    :::image type="content" source="media/conversation-intelligence-own-storage-setting.svg" alt-text="Screenshot of the own storage settings.":::
 
 1. Under **Business settings**, configure the following settings:
 
