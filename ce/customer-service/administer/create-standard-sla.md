@@ -41,7 +41,7 @@ ms.collection: get-started
 
     ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
     > [!NOTE]
-    > - The **Service Management** area in Customer Service Hub is [deprecated](../customer-service/implement/deprecations-customer-service.md#some-admin-apps-are-deprecated). Use the [Customer Service admin center](../customer-service/implement/cs-admin-center.md) app for admin tasks across Customer Service.
+    > - The **Service Management** area in Customer Service Hub is [deprecated](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated). Use the [Customer Service admin center](../implement/cs-admin-center.md#get-started-with-customer-service-admin-center) app for admin tasks across Customer Service.
     > - If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
     - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
