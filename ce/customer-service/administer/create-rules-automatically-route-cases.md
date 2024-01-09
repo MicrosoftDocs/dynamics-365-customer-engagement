@@ -78,7 +78,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
    1. In the site map, select **Routing**. The **Routing** page appears.
 
-   1. Select **Manage** for **Routing rule sets (basic)**.
+   1. Select **Manage** for **Basic routing rule sets**.
 
    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
    
@@ -147,21 +147,29 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-2. [!INCLUDE[proc_settings_service_management](../../includes/proc-settings-service-management.md)]  
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-3. Select **Routing Rule Sets**.  
+   1. In the site map, select **Routing**. The **Routing** page appears.
 
-4. To create a new routing ruleset, select **New**.  
+   1. Select **Manage** for **Basic routing rule sets**.
+
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+   
+   - In the site map, go to **Service Management**, and select **Routing Rule Sets** in **Case Settings**.  
+
+1. To create a new routing ruleset, select **New**.  
 
     -OR-  
 
     To edit a routing ruleset that you already have, in the list of records, select the rule that’s in the Draft state, and then on the command bar, select **Edit**.  
 
-5. [!INCLUDE[proc_handy_infotips](../../includes/proc-handy-infotips.md)]  
+1. [!INCLUDE[proc_handy_infotips](../../includes/proc-handy-infotips.md)]  
 
-6. After you enter information in all the required fields, select **Save**.  
+1. After you enter information in all the required fields, select **Save**.  
 
-7. In the **Rule Items** section, select the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
+1. In the **Rule Items** section, select the **Add Rule Item** button **+** to specify conditions for routing cases to a queue.  
 
     You can add multiple conditions here and arrange them in the desired order. The rule items are run in the same order. As soon as an applicable rule item (based on the If Conditions) is applied on the case, the other rule items are not run on the case.  
 
@@ -181,9 +189,9 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 > To group conditions in the criteria, use the **Group And** or **Group Or** options.  
 
 
-8. [!INCLUDE[proc_click_or_tap_save_and_close](../../includes/proc-click-or-tap-save-and-close.md)]  
+1. [!INCLUDE[proc_click_or_tap_save_and_close](../../includes/proc-click-or-tap-save-and-close.md)]  
 
-9. In the routing ruleset record, select **Activate** so that the ruleset is applied to the cases matching the conditions in the rule.  
+1. In the routing ruleset record, select **Activate** so that the ruleset is applied to the cases matching the conditions in the rule.  
 
 > [!NOTE]
 >
