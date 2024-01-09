@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 11/07/2023
+ms.date: 01/08/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -129,8 +129,7 @@ Once you set a filter, the following actions are applicable:
 
 ## Understand Copilot language support
 
-Copilot detects your UI language and generates responses in that language. For example, if a case has notes in Spanish, and your UI language is set to Spanish, Copilot generates responses in Spanish.
-When the input contains mixed languages, Copilot generates responses based on the language  that is set for your UI. For example, if a case has a description in French, the email thread is in Spanish, and the UI language is set to Spanish, Copilot's response will be in Spanish.
+Copilot detects your UI language and generates responses from cases and conversations in that language. For example, if a case has notes in Spanish, and your UI language is set to Spanish, Copilot generates responses in Spanish. When the input contains mixed languages, Copilot generates responses based on the language  that is set for your UI. For example, if a case has a description in French, the email thread is in Spanish, and the UI language is set to Spanish, Copilot's response will be in Spanish. For Copilot to generate responses from knowledge articles, the knowledge article must be tagged with the same language as the UI language.
 
 > [!NOTE]
 > Copilot tries to generate responses in your preferred UI language even if that isn't an officially supported language.
