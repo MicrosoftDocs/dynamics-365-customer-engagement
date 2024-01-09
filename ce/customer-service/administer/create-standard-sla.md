@@ -48,7 +48,7 @@ ms.collection: get-started
 1. To create a new SLA, select **New** on the command bar.
 
     > [!NOTE]
-    > If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
+    > If Customer Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Customer Service admin center isn't available.
      
 1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
