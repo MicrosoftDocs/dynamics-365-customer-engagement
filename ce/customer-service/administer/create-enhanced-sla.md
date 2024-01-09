@@ -39,13 +39,15 @@ ms.collection: get-started
     1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
 
     ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-    > [!NOTE]
-    > - The **Service Management** area in Customer Service Hub is [deprecated](../implement/deprecations-customer-service.md#some-admin-apps-are-deprecated). Use the [Customer Service admin center](../implement/cs-admin-center.md#get-started-with-customer-service-admin-center) app for admin tasks across Customer Service.
-    > - If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+   
     - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
 
 1. To create a new SLA, select **New**.
+
+    > [!NOTE]
+    > If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
 1. Optionally, to edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
 
