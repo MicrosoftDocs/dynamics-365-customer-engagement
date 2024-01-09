@@ -30,6 +30,8 @@ Having this information ready can help support agents reduce the hold time that 
 - Recent cases
 - Timeline
 
+For active conversations, you can view the **Active Conversation** form on the agent dashboard of the Customer Service workspace or Omnichannel for Customer Service apps. The **Active Conversation** form, however, doesn't display details of closed conversations. To view closed conversations, use the **Closed work items** section of the agent dashboard. More information: [View agent dashboard and conversations](oc-agent-dashboard.md).
+
 If your administrator has enabled the **Customise active conversation form**  in Customer Service admin center, you'll see the following options on the **Active Conversation** page:  
 
 - **Save**: You can edit and save standard and custom field values added to the **Active Conversation** form by your administrator. However, the following [Logical column names](../administer/supported-customizations.md#logical-column-names) aren't supported. If a default value is already set for a field, the value appears on the form automatically.
@@ -45,7 +47,8 @@ Depending on the settings that are enabled for you, you'll see one of the follow
   If your administrator has enabled the **Enhanced Active conversation form**  in Customer Service admin center, you see the enhanced **Active Conversation** page. The application displays the customer or account, and case details cards with inline edit capabilities. You can also view the Recent cases card with color coded priority and status fields.  
    > [!NOTE]
    > - The form selector to switch between **Active Conversation** and **Closed Conversation** is hidden. You can't switch to closed conversation form from the **Active Conversation** form while the conversation is still active or vice versa.
-   > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](../administer/add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form)
+   > - You can see the form selector on the enhanced Active Conversation form if your administrator has enabled it for you. More information: [Display the form selector on Active Conversation form](../administer/add-customer-summary-settings.md#display-the-form-selector-on-active-conversation-form). 
+   > - You can't access closed conversations from the active conversation form. If you use the form selector to switch to the closed conversation form, you'll see errors.
 
    :::image type="content" source="../media/enh-custsummary-overall-mini.png" alt-text="Enhanced quick case form" lightbox="../media/enh-custsummary-overall.png":::
 
@@ -80,6 +83,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
    :::image type="content" source="../media/customer-summary-customer-form.png" alt-text="View enhanced CustomerContact or Account" :::
 
 ---
+
 
 ## View case details
 
