@@ -57,7 +57,7 @@ If your customer has accepted your proposal, congratulations! Whether your custo
         > ![Close Opportunity dialog box when the opportunity is lost.](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
     > [!IMPORTANT]
-    > If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. 
+    > If your administrator has added custom fields to the Opportunity Close form, you are required to fill in data in other fields as defined by your organization. 
 
 When you close an opportunity record, all the information that you enter is available in the associated Opportunity Close record. To see the associated Opportunity Close records, on the **Related** tab, select **Activities**. Then, on the **Activities** tab, open the **Closed Activity Associated View**. 
 

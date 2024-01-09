@@ -29,7 +29,7 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 ## Prerequisites
 
 - Enable the customization of Opportunity Close form. More information: [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
-- If you're using a custom app, ensure that it's built on Unified Interface. 
+- If you're using a custom app, ensure that it's built on Unified Interface.  
 
 ## What customizations are possible?
 
@@ -46,7 +46,7 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 - Customization of Opportunity Close Information form to view details of the closed opportunity
 
 - Customization of views
-- Prepopulating values in the Opportunity Close form from the corresponding opportunity.
+- Pre-populating values in the Opportunity Close form from the corresponding opportunity.
 
 To capture any additional custom information during opportunity close, custom attributes (fields) must be added to Opportunity Close entity and their forms. If this additional information is to be made available on other entities, then the data must be maintained in both entities. After an **Opportunity Close** record is created, the data for custom attributes that must be available in other entity records must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities, and the data between the two entities must be synchronized. You can write a client-side code (form scripting or web resources) or server-side plugin to keep the data in sync between the two entities. 
 
@@ -57,7 +57,7 @@ To capture any additional custom information during opportunity close, custom at
 
 To enable sales representatives to capture relevant data about an opportunity close, create fields as required by your organization for the **Opportunity Close** entity. For example, if your organization would like to know the profit margin for all the won opportunities, create a new field called **Profit Margin**.
 
-To create fields,
+If this additional information is to be made available on other entities, then the data must be maintained in both entities. After an **Opportunity Close** record is created, the data for custom attributes that must be available in other entity records must be updated in the other entity records. Example: If **Opportunity Close** form needs to capture the ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both **Opportunity Close** and **Opportunity** entities, and the data between the two entities must be synchronized. You can write a client-side code (form scripting or web resources) or server-side plugin to keep the data in sync between the two entities. 
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -124,7 +124,7 @@ To enhance and expedite the opportunity closure process, you can pre-populate va
 1. In the **Relationship** window, Select **Mappings**.
 1. Select **New** to create field mapping between the Opportunity and Opportunity Close fields.
 1. Save and publish the changes.
-1. Verify the changes by closing an opportunity.
+1. Verify the changes by opening an opportunity and selecting **Close as Won** or **Close as Lost**. The **Opportunity Close** form should open with the pre-populated values.
 
 ## Add Opportunity Close entity to the custom app module <a name="add-entity-to-app"> </a>
 
