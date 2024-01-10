@@ -54,7 +54,9 @@ The sentiment model is configured to look for and use the messages provided by t
 
     - In the site map, select **User attributes** in **Advanced settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
    
     - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
 
