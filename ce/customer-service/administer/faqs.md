@@ -69,13 +69,13 @@ We recommend that you don't open Omnichannel for Customer Service in multiple br
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
 
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you've entered some data on the model-driven forms where autosave has been enabled, they'll be saved into model-driven apps.
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where autosave is enabled, they are saved into model-driven apps.
 
-Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](../use/voice-channel-agent-experience.md#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The chat or voice call conversation is preserved, and you will be able to see the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, see [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](../use/voice-channel-agent-experience.md#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The chat or voice call conversation is preserved, and you're able to see the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, see [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
 
 ### Does consult only work for managers and supervisors?
 
-No. You can consult with any available agent in the queue from which the chat originated. The consult list shows you agents in the queue who can take additional chat requests.
+No. You can consult with any available agent in the queue from which the chat originated. The consult list shows you agents in the queue who can take more chat requests.
 
 ### Can an agent who receives a consult also initiate a consult or transfer?
 
@@ -116,11 +116,11 @@ The system clears your manual override when you become inactive or sign out from
 
 ### If the agent is disconnected for less than 2.5 minutes, what does the system do?
 
-If the agent is disconnected and signs in within 2.5 minutes, the system will retain the presence that the agent had at the time of disconnection. After 2.5 minutes, the agent's presence is calculated afresh.
+If the agent is disconnected and signs in within 2.5 minutes, the system retains the presence that the agent had at the time of disconnection. After 2.5 minutes, the agent's presence is calculated afresh.
 
 ### What factors are considered in presence refresh?
 
-If the default presence set by the administrator is "Away" or "Offline", then the system will set the agent presence to the default setting. Otherwise, the system will calculate the presence based on the agent's used or released capacity.
+If the default presence set by the administrator is "Away" or "Offline", then the system sets the agent presence to the default setting. Otherwise, the system calculates the presence based on the agent's used or released capacity.
 
 ## Administrator experience
 
@@ -154,7 +154,7 @@ Yes. For a list of supported customizations, see [Customizations supported by th
 
 ### Why am I not able to see the Intraday Monitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors?
 
-Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you have saved the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](../implement/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in admin app, ensure that you save the configurations before you exit the configuration form. When you select **Save**, the creation of the report and dataset is initiated. If you missed saving the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Intraday insights for Omnichannel for Customer Service app on web](../implement/configure-intraday-dashboard-supervisor.md#configure-intraday-insights-for-omnichannel-for-customer-service).
 
 ### What is the application ID field on the application user form?
 
@@ -177,7 +177,7 @@ For more information, see [Configure Intraday Insights dashboard](../implement/c
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 
-By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you'll see data come through.
+By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you see data come through.
 
 ### How far can I go back in the historical report?
 
@@ -189,7 +189,7 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 
 ### How frequently does the data refresh?
 
-The dataset for the Live Monitoring report is real time; if a report is refreshed or filters are changed, the data will be updated as per the current state of the system.
+The dataset for the Live Monitoring report is real time. If a report is refreshed or filters are changed, the data is updated as per the current state of the system.
 
 The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](../implement/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
@@ -213,7 +213,7 @@ The widget can show on any portal you want. You can copy the HTML script tag any
 
 ### If I have the widget on multiple pages or websites, what happens when I navigate across the pages with an ongoing chat?
 
-The same widget will persist the chat as you cross different pages or websites.
+The same widget persists the chat as you cross different pages or websites.
 
 ## Routing and work distribution
 
@@ -237,11 +237,11 @@ You'll need the customer ID, API key, and the phone number from your TeleSign ac
 
 ### Why am I unable to validate the TeleSign account information using the Validate API key option in the admin app?
 
-The Validate API Key functionality validates the customer ID and API key by trying to send a test message to one of the numbers provided in the **SMS phone numbers** tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the **SMS phone numbers** tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this would be correct: 14251234567.
+The Validate API Key functionality validates the customer ID and API key by trying to send a test message to one of the numbers provided in the **SMS phone numbers** tab. Ensure that the customer ID and API key are entered correctly, and the numbers provided in the **SMS phone numbers** tab can receive the text messages that are sent for validation. The phone number should have the country code with no plus sign (+), spaces or special characters. For example, this format would be correct: 14251234567.
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 
-See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com). For any additional queries, we recommend that you send an email request to support@telesign.com.
+See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com). For any more queries, we recommend that you send an email request to support@telesign.com.
 
 ### Which phone number types are supported?
 
@@ -259,7 +259,7 @@ More information: [Configure an SMS channel for Twilio](../administer/Configure-
 
 ### Does the SMS channel automatically identify the customer?
 
-Yes, Omnichannel system will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, this would be correct: +14251234567.
+Yes, Omnichannel system automatically identifies the customer based on the incoming phone number. It looks for phone numbers in the **Mobile Phone** field of Contact records or the **Phone field** of Account records. Ensure that the phone number in these fields has the country code along with the plus sign (+) without any spaces or special characters. For example, this format would be correct: +14251234567.
 
 ### Can I send automated SMS responses?
 
