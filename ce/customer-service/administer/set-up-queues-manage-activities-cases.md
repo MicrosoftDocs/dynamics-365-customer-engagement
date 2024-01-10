@@ -79,7 +79,9 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
     
     1. On the **Queues** page, select **Manage** for **Basic queues**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
   

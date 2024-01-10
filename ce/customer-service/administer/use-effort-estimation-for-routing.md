@@ -50,8 +50,10 @@ You can create the effort estimation models for any record that is enabled for u
 
     - In the site map, select **User attributes** in **Advanced settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
    
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
     - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
 
 2. Select **Manage** for **Effort-based routing**.

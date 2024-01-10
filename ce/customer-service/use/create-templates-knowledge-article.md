@@ -47,7 +47,9 @@ You can create a knowledge article template in the Customer Service admin center
       1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
       1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
 
