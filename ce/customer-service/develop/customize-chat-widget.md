@@ -42,7 +42,3 @@ You can customize live chat widgets by using data tags in the widget script. You
 [Live chat SDK reference](omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
-
-Alta de consulta --> Id de consulta
-Detalle de asegurado --> numPers
