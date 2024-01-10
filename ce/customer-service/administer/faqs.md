@@ -96,7 +96,7 @@ Only agents and supervisors can see internal messages.
 
 ### What does the timer in the communication panel represent?
 
-The timer in the communication panel represents how long the current session tab has been open. If the chat has moved into a wrap-up state, the timer is reset and incremented accordingly to show the wrap-up time. If the conversation is closed and reopened later, the timer is reset.
+The timer in the communication panel represents how long the current session tab has been open. If the chat moves into a wrap-up state, the timer is reset and incremented accordingly to show the wrap-up time. If the conversation is closed and reopened later, the timer is reset.
 
 ### How do I open chats on my dashboard?
 
@@ -233,7 +233,7 @@ Yes. In Omnichannel for Customer Service, routing can be used to route chat, SMS
 
 ### What information from a TeleSign account do I need to enter while configuring the channel?
 
-You'll need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](../administer/configure-sms-channel.md#sign-up-for-telesign-account)
+You need the customer ID, API key, and the phone number from your TeleSign account. More information: [Sign up for TeleSign account](../administer/configure-sms-channel.md#sign-up-for-telesign-account)
 
 ### Why am I unable to validate the TeleSign account information using the Validate API key option in the admin app?
 
