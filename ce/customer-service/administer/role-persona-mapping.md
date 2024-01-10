@@ -112,8 +112,10 @@ You can customize the roles to persona mapping in the Customer Service admin cen
 
     - In the site map, select **User attributes** under **Advanced settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+    
     - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
 
 2. Select **Manage** for **Role persona mapping**.

@@ -47,7 +47,9 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      
      1. On the **Customer Service historical analytics** page, set the **Enable Customer Service historical analytics report** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
-   ### [Customer Service Hub (deprecated) ](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated) ](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      
@@ -79,7 +81,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
 
      1. Select the **Add historical analytics for unified routing** check box.  
 
-   ### [Customer Service Hub (deprecated)](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      

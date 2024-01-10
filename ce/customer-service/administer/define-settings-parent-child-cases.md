@@ -41,7 +41,9 @@ You can track multiple issues for a customer or the same issue that's affecting 
      
      1. Select **Manage** for **Parent child case settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
    
      - In the **Service Management** site map, select **Case Settings** in **Parent Child Case Settings**.  
   

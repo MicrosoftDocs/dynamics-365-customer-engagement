@@ -55,7 +55,9 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
      The **All Advanced Similarity Rules** page is displayed.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
