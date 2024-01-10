@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: reference
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 10/10/2023
+ms.date: 01/10/2024
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -23,7 +23,7 @@ This rule runs on your solutions and checks for the plugin registrations with re
 
 ### Recommendation
 
-Ensure that you have the appropriate Dynamics 365 license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 license, see [Entities and operations that require a license](license-enforcement.md#entities-and-operations-that-require-a-license).
+Ensure that you have the appropriate Dynamics 365 license to use the restricted SDK messages or remove them from your solution. For a list of SDK messages that require a Dynamics 365 license, see [Entities and operations that require a license](license-enforcement.md#tables-and-operations-that-require-a-license).
 
 ## meta-license-sales-entity-operations
 
@@ -31,7 +31,7 @@ This rule runs on your solution and checks for the presence of entities with res
 
 ### Recommendation
 
-Ensure that you have the appropriate Dynamics 365 license to use the restricted operations on the entities or remove them from your solution. For a list of entities and operations that require a Dynamics 365 license, see [Entities and operations that require a license](license-enforcement.md#entities-and-operations-that-require-a-license).
+Ensure that you have the appropriate Dynamics 365 license to use the restricted operations on the entities or remove them from your solution. For a list of entities and operations that require a Dynamics 365 license, see [Entities and operations that require a license](license-enforcement.md#tables-and-operations-that-require-a-license).
 
 ## meta-license-sales-customcontrols
 
