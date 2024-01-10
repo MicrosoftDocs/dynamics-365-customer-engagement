@@ -130,11 +130,11 @@ If you're using multiple fields for automated record identification, they must a
 
 ### What do I do if the instance I want isn't available when I provision Omnichannel for Customer Service?
 
-if you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not see the instance you're looking for. To learn more, see [Instance unavailable to select on the provisioning application](../troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
+if you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not see the instance you're looking for. To learn more, see [Instance unavailable to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
 
 ### What do I do if I get an error when provisioning Omnichannel for Customer Service?
 
-If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you are missing read permissions. To learn more, see ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](..troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors)
+If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you are missing read permissions. To learn more, see ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors)
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
