@@ -296,6 +296,8 @@ Every default or custom activity has an **Additional Parameters** attribute. Thi
 
 #### To activate a record creation and update rule  
 
+   [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
 1.  Go to **Settings** > **Service Management**. 
 
 2.  Select **Automatic Record Creation and Update Rules**.  

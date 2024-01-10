@@ -37,7 +37,9 @@ You can enable the recalculation of SLAs that reach the terminal status in the C
     1. In the **Other SLA Settings** section, select **Manage**.
         The **Service Configuration Settings** view is displayed.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, Go to **Service Management**.
     1. From the list of entity records, select **Service Configuration Settings** in **Service Terms**.

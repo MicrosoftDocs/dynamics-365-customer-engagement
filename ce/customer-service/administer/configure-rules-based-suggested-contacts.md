@@ -30,7 +30,9 @@ A maximum of 10 rules are supported per record type.
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, select **Service Management**.
     2. In **Collaboration**, select **Embedded chat using Teams**.

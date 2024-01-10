@@ -75,7 +75,9 @@ You can create SLA KPIs from the Customer Service admin center or Customer Servi
         
       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, go to **Service Management**.
     1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
@@ -172,7 +174,7 @@ You can create an SLA from the Customer Service admin center or Customer Service
         
    The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
    1. In the site map, go to **Service Management**.
    1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              
@@ -202,7 +204,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
         
         The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
    1. In the site map, go to **Service Management**.
    1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              

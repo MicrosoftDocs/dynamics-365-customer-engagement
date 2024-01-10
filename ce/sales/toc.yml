@@ -603,6 +603,8 @@
           items:
             - name: Set up conversation intelligence in Sales Hub app
               href: fre-setup-ci-sales-app.md
+            - name: Set up own storage for call recordings
+              href: create-azure-repo.md
             - name: Configure sales team level settings
               href: configure-sales-team-level-settings.md
             - name: Configure and view your team page in sales app
@@ -627,8 +629,6 @@
           href: ci-third-party-sp-integration.md
         - name: Integrate with Twilio Flex (preview)
           href: Integrate-TwilioFlex-with-CI.md
-        - name: Create a call recording repository in Azure
-          href: create-azure-repo.md
         - name: Languages supported
           href: language-support-conversation-intelligence.md
     - name: Dashboards and reports

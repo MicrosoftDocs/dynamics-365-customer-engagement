@@ -3,25 +3,21 @@ title: What's new or changed in Dynamics 365 Sales
 description: This article points to articles that describe the new and changed features in each release of Dynamics 365 Sales.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 12/05/2023
+ms.date: 01/05/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
 
 # What's new or changed in Dynamics 365 Sales
 
-Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). We've captured all the details, end to end, top to bottom, that you can use for planning.
+Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). 
 
-View the release plans to find out what's coming. Choose the following links to learn about the latest versions of Dynamics 365 Sales.
+This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
 
-- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)
-- [2022 release wave 2](/dynamics365-release-plan/2022wave2/sales/dynamics365-sales/planned-features)
 
-Keep track of changes on the [Dynamics 365 Sales release planner](https://experience.dynamics.com/releaseplans/?app=sales) site, or download the release plan as a single PDF.
+## December 2023 release
 
-Explore the app at the [Dynamics 365 Sales Capabilities](https://dynamics.microsoft.com/sales/overview/) site.
-
-This article summarizes early access, public preview, and general availability features that were released in the last three months.
+No new features or enhancements were released in December 2023.
 
 ## November 2023 release
 
@@ -44,14 +40,18 @@ This article summarizes early access, public preview, and general availability f
 | Sales engagement | Support for SMS from the Activities pane | Start SMS conversations from the ribbon in the Activities page, similar to other communication channels such as email and call. | [Documentation](manage-text-message-communications.md) | Turned on by default | GA |
 | Sales engagement | Faster sales accelerator form load | To optimize the performance of loading forms from the work list, the Back, Save & Close, and Open in new window options on the form command bar are removed. | [Documentation](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list) | Turned on by default | GA |
 
-## September 2023 release
-
-No new features or enhancements were released in September 2023.
 
 ## Get the latest version
 
 New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
 
 For the latest available version in your region, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
+
+## See also
+
+- [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)
+
+- [2023 release wave 1](/dynamics365/release-plan/2023wave1/sales/dynamics365-sales/planned-features)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

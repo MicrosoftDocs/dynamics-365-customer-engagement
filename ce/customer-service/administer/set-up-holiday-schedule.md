@@ -43,7 +43,9 @@ You can create a holiday schedule in the Customer Service admin center or Custom
         
          The **All Holiday Schedules** view is displayed. You can switch between various system views using the dropdown list.  
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
      1. In the site map, go to **Service Management**.
      1. From the list of entity records, select **Holiday Schedule** in **Service Terms**.                                                              
