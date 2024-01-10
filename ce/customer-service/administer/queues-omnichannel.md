@@ -54,7 +54,9 @@ Assign a group number that helps you organize your queues in the list view. The 
 
     - In the site map, select **Queues** in **General settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 

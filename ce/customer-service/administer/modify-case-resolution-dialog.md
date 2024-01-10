@@ -44,8 +44,10 @@ You can set the case resolution dialog that agents see when they resolve the cas
      
     1. Select **Manage** for **Other Settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
    
+     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
      - In the **Service Management** site map, select **Service Configuration Settings** in **Service Terms**.
 
 1. On the **Service Configuration Settings** page, scroll to the **Resolve case dialog** section, and then select **Customizable dialog** from the dropdown list.
