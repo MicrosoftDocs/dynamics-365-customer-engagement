@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 11/10/2023
+ms.date: 01/09/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -128,6 +128,14 @@ If the default presence set by the administrator is "Away" or "Offline", then th
 
 If you're using multiple fields for automated record identification, they must all be an exact match. To learn more, see [Automatically identify customers using pre-chat responses](../administer/record-identification-rule.md).
 
+### What do I do if the instance I want isn't available when I provision Omnichannel for Customer Service?
+
+if you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not see the instance you're looking for. To learn more, see [Instance unavailable to select on the provisioning application](../troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
+
+### What do I do if I get an error when provisioning Omnichannel for Customer Service?
+
+If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you are missing read permissions. To learn more, see ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](..troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors)
+
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
 When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](../troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
@@ -150,7 +158,7 @@ Creation of the IntradayMonitoring report may take up to 15 mins to appear in yo
 
 ### What is the application ID field on the application user form?
 
-The application ID is a mandatory field for creating application users in Dataverse. You can copy any application ID for any valid (non-expired) application created in Microsoft Entra ID for the same tenant into this field. 
+The application ID is a mandatory field for creating application users in Dataverse. You can copy any application ID for any valid (non-expired) application created in Microsoft Entra ID for the same tenant into this field.
 
 ## Supervisor experience
 
