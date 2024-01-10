@@ -34,7 +34,6 @@ The solution explorer page is where you can create and manage customizations.
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option in Sales Hub.":::
 
 2. On the navigation bar of the **Business Management** page, select **Settings** > **Customizations**.
-   :::image type="content" source="media/customization-in-sitemap.png" alt-text="Screenshot of the Customizations page."::: 
 
 3. On the **Customization** page, select **Customize the System**.
 
@@ -46,7 +45,10 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
 > If your organization is using a custom app, ensure that the Opportunity Close entity is added to the custom app module. [Learn more about adding an entity to a custom app module](/power-apps/maker/model-driven-apps/add-edit-app-components)
 
 1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **Opportunity Close** > **Fields**.
-1. On the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [How to create and edit columns)](/powerapps/maker/data-platform/create-edit-fields)
+   The out-of-the-box fields are displayed.
+
+1. On the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. [Learn more about how to create and edit columns)](/powerapps/maker/data-platform/create-edit-fields).
+
 1. Save the changes.
 
 ## Step 3: Add the field to the Opportunity Close form
@@ -58,7 +60,7 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
     > [!NOTE]
     > - You can’t delete or customize the out-of-the-box fields or entity relationships.
     > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.
-1. To add the same fields to the **Opportunity Close Information** form, open the **Information** form of type **Main**, and make the same changes that you did in Step 2. The **Opportunity Close Information** form is used to view the details of the closed opportunity later on.
+1. To add the same fields to the **Opportunity Close Information** form, open the **Information** form of type **Main**, and make the same changes that you did in Step 2. The **Opportunity Close Information** form is used to [view details of the closed opportunity](close-opportunity-won-lost-sales.md#view-details-entered-while-closing-an-opportunity) later on.
 1. Save the changes.
 
 ## Step 4: Pre-populate values in the Opportunity Close form from the corresponding opportunity
