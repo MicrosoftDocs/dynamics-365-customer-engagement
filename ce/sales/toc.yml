@@ -611,6 +611,8 @@
               href: configure-view-your-team-page-sales-app.md
             - name: Configure conversation content
               href: configure-keywords-competitors-sales-app.md
+            - name: Prepare for the migration to Dataverse
+              href: prepare-for-ci-migration-to-dataverse.md
             - name: Manage conversation intelligence data in Dataverse
               href: conversation-intelligence-data-storage.md
             - name: Data retention and deletion through Privacy

@@ -1,119 +1,578 @@
-<svg width="804.14" height="615.67" overflow="hidden" version="1.1" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(-263.8 -53.439)">
-  <rect x="263.8" y="53.439" width="804.14" height="615.67" fill="#fff"/>
-  <path d="m476.5 79c0-5.7991 4.701-10.5 10.5-10.5h95c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-95c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <text transform="translate(493.58 95)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="15px" font-weight="400">Conversation</text>
-  <text transform="translate(492.91,115)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="8px" font-weight="400">msdyn_SCIConversation</text>
-  <path d="m289.5 79c0-5.7991 4.701-10.5 10.5-10.5h83c5.799 0 10.5 4.7011 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-83c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(318.03 86)" font-size="15px">Activity</text>
-   <g font-size="8px">
-    <text transform="translate(315.79 106)">Appointment /</text>
-    <text transform="translate(323.03 124)">phone</text>
-    <text transform="translate(344.7,124)">-</text>
-    <text transform="translate(347.2,124)">call</text>
-   </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="877.28809"
+   height="720"
+   overflow="hidden"
+   version="1.1"
+   id="svg150"
+   sodipodi:docname="conversation-intelligence-data-structure-in-dataverse.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs154" />
+  <sodipodi:namedview
+     id="namedview152"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.32777778"
+     inkscape:cx="292.88136"
+     inkscape:cy="352.37288"
+     inkscape:window-width="1080"
+     inkscape:window-height="650"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg150" />
+  <g
+     id="g148"
+     transform="translate(-146.44067,-9.1525421)">
+    <rect
+       x="146.44067"
+       y="9.1525421"
+       width="877.28809"
+       height="720"
+       fill="#ffffff"
+       id="rect2" />
+    <rect
+       x="310"
+       y="23"
+       width="518"
+       height="51"
+       stroke="#434343"
+       stroke-width="4"
+       stroke-miterlimit="8"
+       fill="#a5a5a5"
+       id="rect4" />
+    <path
+       d="m 360.5,115.167 c 0,-5.891 4.776,-10.667 10.667,-10.667 h 93.666 c 5.891,0 10.667,4.776 10.667,10.667 v 42.666 c 0,5.891 -4.776,10.667 -10.667,10.667 h -93.666 c -5.891,0 -10.667,-4.776 -10.667,-10.667 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path6" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(376.982,132)"
+       id="text8">Conversation</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(376.315,152)"
+       id="text10">msdyn_SCIConversation</text>
+    <path
+       d="m 172.5,115.167 c 0,-5.891 4.776,-10.667 10.667,-10.667 h 82.666 c 5.891,0 10.667,4.776 10.667,10.667 v 42.666 c 0,5.891 -4.776,10.667 -10.667,10.667 h -82.666 c -5.891,0 -10.667,-4.776 -10.667,-10.667 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path12" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(201.438,123)"
+       id="text14">Activity</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(199.192,143)"
+       id="text16">Appointment /</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(206.438,161)"
+       id="text18">phone</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(228.105,161)"
+       id="text20">-</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(230.605,161)"
+       id="text22">call</text>
+    <path
+       d="m 276.5,136.5 h 83.756"
+       stroke="#4472c4"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       stroke-dasharray="5.33333, 4"
+       fill="none"
+       fill-rule="evenodd"
+       id="path24" />
+    <path
+       d="m 229.5,254 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 82 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -82 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path26" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(249.32,270)"
+       id="text28">Recording</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(246.487,290)"
+       id="text30">Link to file in Teams</text>
+    <path
+       d="m 366.5,254 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 82 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -82 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path32" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(386.652,270)"
+       id="text34">Transcript</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(383.732,290)"
+       id="text36">Link to file in Teams</text>
+    <path
+       d="m 503.5,254 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 83 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -83 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path38" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(519.473,256)"
+       id="text40">Aggregated</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(531.393,274)"
+       id="text42">insights</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(516.893,294)"
+       id="text44">msdyn_conversationA</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(526.393,304)"
+       id="text46">gregatedInsights</text>
+    <path
+       d="m 354.5,394.834 c 0,-5.707 4.627,-10.334 10.334,-10.334 h 94.333 c 5.707,0 10.333,4.627 10.333,10.334 v 41.333 c 0,5.707 -4.626,10.333 -10.333,10.333 h -94.333 c -5.707,0 -10.334,-4.626 -10.334,-10.333 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path48" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(379.967,406)"
+       id="text50">Sentiment</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(367.633,426)"
+       id="text52">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(390.133,426)"
+       id="text54">_conversationSenti</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(402.72,436)"
+       id="text56">ment</text>
+    <path
+       d="m 502.5,394 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 83 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -83 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path58" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(530.965,406)"
+       id="text60">Subject</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(516.298,426)"
+       id="text62">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(538.798,426)"
+       id="text64">_conversationS</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(543.132,436)"
+       id="text66">ubject</text>
+    <path
+       d="m 417.745,168.5 v 37.658 H 280.5 v 37.659"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path68" />
+    <path
+       d="m 418.5,168.5 v 37.658 0 37.659"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path70" />
+    <path
+       d="M 0,0 H 37.6584 V 137.245 H 75.3166"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,1,1,0,418.5,168.5)"
+       id="path72" />
+    <path
+       d="m 640.5,394 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 83 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -83 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path74" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(655.819,406)"
+       id="text76">Participants</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(654.486,426)"
+       id="text78">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(676.986,426)"
+       id="text80">_conversationP</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(662.572,436)"
+       id="text82">articipantInsights</text>
+    <path
+       d="M 412.5,384.137 V 345.318 H 555.594 V 306.5"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path84" />
+    <path
+       d="m 555.5,383.857 v -38.679 h 1.095 V 306.5"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       id="path86" />
+    <path
+       d="M 0,0 H 38.6785 V 137.342 H 77.357"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,-1,-1,0,692.842,383.857)"
+       id="path88" />
+    <path
+       d="m 465.5,502.712 c 0,-5.088 4.124,-9.212 9.212,-9.212 h 435.576 c 5.088,0 9.212,4.124 9.212,9.212 v 177.576 c 0,5.088 -4.124,9.212 -9.212,9.212 H 474.712 c -5.088,0 -9.212,-4.124 -9.212,-9.212 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#9dc3e6"
+       fill-rule="evenodd"
+       id="path90" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(628.319,514)"
+       id="text92">Per each participant:</text>
+    <path
+       d="m 502.5,539 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 83 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -83 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path94" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(523.632,550)"
+       id="text96">Keywords</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(515.298,570)"
+       id="text98">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(537.798,570)"
+       id="text100">_conversationSi</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(546.545,580)"
+       id="text102">gnal</text>
+    <path
+       d="m 640.5,539 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 89 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -89 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path104" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(663.363,550)"
+       id="text106">Sentiment</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(653.95,570)"
+       id="text108">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(676.45,570)"
+       id="text110">_conversationPar</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(664.617,580)"
+       id="text112">ticipantSentiment</text>
+    <path
+       d="m 789.5,539 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 102 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 H 800 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path114" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(812.103,550)"
+       id="text116">Action items</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(801.516,570)"
+       id="text118">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(824.016,570)"
+       id="text120">_conversationActionIt</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(845.103,580)"
+       id="text122">em</text>
+    <path
+       d="m 536.5,627 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 120 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 H 547 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path124" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(561.434,639)"
+       id="text126">Summary note</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(548.854,659)"
+       id="text128">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(571.354,659)"
+       id="text130">_conversationSummarySug</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(594.021,669)"
+       id="text132">gestion</text>
+    <path
+       d="m 737.5,627 c 0,-5.799 4.701,-10.5 10.5,-10.5 h 82 c 5.799,0 10.5,4.701 10.5,10.5 v 42 c 0,5.799 -4.701,10.5 -10.5,10.5 h -82 c -5.799,0 -10.5,-4.701 -10.5,-10.5 z"
+       stroke="#2f528f"
+       stroke-width="1.33333"
+       stroke-miterlimit="8"
+       fill="#4472c4"
+       fill-rule="evenodd"
+       id="path134" />
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="15px"
+       transform="translate(757.633,639)"
+       id="text136">Questions</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(750.213,659)"
+       id="text138">msdyn</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(772.713,659)"
+       id="text140">_conversationQ</text>
+    <text
+       fill="#ffffff"
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="8px"
+       transform="translate(775.8,669)"
+       id="text142">uestion</text>
+    <path
+       d="M 0,0 H 23.3065 V 1.04987e-4 H 46.6128"
+       stroke="#4472c4"
+       stroke-width="0.666667"
+       stroke-miterlimit="8"
+       fill="none"
+       fill-rule="evenodd"
+       transform="matrix(0,-1,-1,0,692.5,493.113)"
+       id="path144" />
+    <text
+       font-family="Calibri, Calibri_MSFontService, sans-serif"
+       font-weight="400"
+       font-size="24px"
+       transform="translate(326.441,53)"
+       id="text146">Conversation intelligence tables and relationships</text>
   </g>
-  <path d="m393.5 99.5 83.756 1e-4" fill="none" fill-rule="evenodd" stroke="#4472c4" stroke-dasharray="5.33333, 4" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <path d="m345.5 217c0-5.799 4.701-10.5 10.5-10.5h83c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-83c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <text transform="translate(365.91 233)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="15px" font-weight="400">Recording</text>
-  <text transform="translate(363.08 253)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="8px" font-weight="400">Link to file in Teams</text>
-  <path d="m482.5 217c0-5.799 4.701-10.5 10.5-10.5h83c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-83c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <text transform="translate(503.25 233)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="15px" font-weight="400">Transcript</text>
-  <text transform="translate(500.33 253)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="8px" font-weight="400">Link to file in Teams</text>
-  <path d="m620.5 217c0-5.799 4.701-10.5 10.5-10.5h82c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-82c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(636.07 219)" font-size="15px">Aggregated</text>
-   <text transform="translate(647.99 237)" font-size="15px">insights</text>
-   <text transform="translate(633.49 257)" font-size="8px">msdyn_conversationA</text>
-   <text transform="translate(642.99 267)" font-size="8px">gregatedInsights</text>
-  </g>
-  <path d="m471.5 357.83c0-5.707 4.627-10.334 10.334-10.334h94.333c5.707 0 10.333 4.627 10.333 10.334v41.333c0 5.707-4.626 10.333-10.333 10.333h-94.333c-5.707 0-10.334-4.626-10.334-10.333z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(496.56 365)" font-size="15px">Sentiment</text>
-   <g font-size="8px">
-    <text transform="translate(514.98 385)">msdyn</text>
-    <text transform="translate(537.48 385)">_</text>
-    <text transform="translate(488.56 403)">conversationSentiment</text>
-   </g>
-  </g>
-  <path d="m619.5 357c0-5.799 4.701-10.5 10.5-10.5h82c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-82c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(647.56 365)" font-size="15px">Subject</text>
-   <g font-size="8px">
-    <text transform="translate(656.98 385)">msdyn</text>
-    <text transform="translate(679.48 385)">_</text>
-    <text transform="translate(635.64 403)">conversationSubject</text>
-   </g>
-  </g>
-  <g fill="none" fill-rule="evenodd" stroke="#4472c4" stroke-miterlimit="8" stroke-width=".66667">
-   <path d="m534.74 131.5v37.658h-137.24v37.659"/>
-   <path d="m534.5 131.5v75.317"/>
-   <path transform="matrix(0,1,1,0,534.5,131.5)" d="m0 0h37.658v137.24h37.658"/>
-  </g>
-  <path d="m757.5 357c0-5.799 4.701-10.5 10.5-10.5h83c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-83c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(772.41 360)" font-size="15px">Participants</text>
-   <g font-size="8px">
-    <text transform="translate(795.41 380)">msdyn</text>
-    <text transform="translate(817.91 380)">_</text>
-    <text transform="translate(771.58,398)">conversationParticipa</text>
-    <text transform="translate(792,408)">ntInsights</text>
-   </g>
-  </g>
-  <g fill="none" fill-rule="evenodd" stroke="#4472c4" stroke-miterlimit="8" stroke-width=".66667">
-   <path d="m528.5 347.14v-38.819h143.09v-38.818"/>
-   <path d="m670.5 346.86v-38.679h1.095v-38.678"/>
-   <path transform="matrix(0 -1 -1 0 808.84 346.86)" d="m0 0h38.678v137.34h38.678"/>
-  </g>
-  <path d="m582.5 465.71c0-5.088 4.124-9.212 9.212-9.212h435.58c5.09 0 9.21 4.124 9.21 9.212v177.58c0 5.088-4.12 9.212-9.21 9.212h-435.58c-5.088 0-9.212-4.124-9.212-9.212z" fill="#9dc3e6" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <text transform="translate(744.91 478)" fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-size="15px" font-weight="400">Per each participant:</text>
-  <path d="m619.5 502c0-5.799 4.701-10.5 10.5-10.5h82c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-82c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(640.23 510)" font-size="15px">Keywords</text>
-   <g font-size="8px">
-    <text transform="translate(656.97 530)">msdyn</text>
-    <text transform="translate(679.47 530)">_</text>
-    <text transform="translate(638.06,548)">conversationSignal</text>
-   </g>
-  </g>
-  <path d="m757.5 502c0-5.799 4.701-10.5 10.5-10.5h88c5.799 0 10.5 4.701 10.5 10.5v42c0 5.799-4.701 10.5-10.5 10.5h-88c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(779.96 505)" font-size="15px">Sentiment</text>
-   <g font-size="8px">
-    <text transform="translate(798.38 525)">msdyn</text>
-    <text transform="translate(820.88 525)">_</text>
-    <text transform="translate(770.96 543)">conversationParticipant</text>
-    <text transform="translate(794.13 553)">Sentiment</text>
-   </g>
-  </g>
-  <path d="m905.5 502c0-5.799 4.701-10.5 10.5-10.5h103c5.8 0 10.5 4.701 10.5 10.5v42c0 5.799-4.7 10.5-10.5 10.5h-103c-5.799 0-10.5-4.701-10.5-10.5z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(928.69 509)" font-size="15px">Action items</text>
-   <g font-size="8px">
-    <text transform="translate(953.77 529)">msdyn</text>
-    <text transform="translate(976.27 529)">_</text>
-    <text transform="translate(926.03 547)">conversationActionItem</text>
-   </g>
-  </g>
-  <path d="m652.5 590.17c0-5.891 4.776-10.667 10.667-10.667h120.67c5.891 0 10.667 4.776 10.667 10.667v42.666c0 5.891-4.776 10.667-10.667 10.667h-120.67c-5.891 0-10.667-4.776-10.667-10.667z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(678.03 598)" font-size="15px">Summary note</text>
-   <g font-size="8px">
-    <text transform="translate(709.87 618)">msdyn</text>
-    <text transform="translate(732.37 618)">_</text>
-    <text transform="translate(666.2 636)">conversationSummarySuggestion</text>
-   </g>
-  </g>
-  <path d="m853.5 590.17c0-5.891 4.776-10.667 10.667-10.667h82.666c5.891 0 10.667 4.776 10.667 10.667v42.666c0 5.891-4.776 10.667-10.667 10.667h-82.666c-5.891 0-10.667-4.776-10.667-10.667z" fill="#4472c4" fill-rule="evenodd" stroke="#2f528f" stroke-miterlimit="8" stroke-width="1.3333"/>
-  <g fill="#ffffff" font-family="Calibri, Calibri_MSFontService, sans-serif" font-weight="400">
-   <text transform="translate(874.22 598)" font-size="15px">Questions</text>
-   <g font-size="8px">
-    <text transform="translate(891.8 618)">msdyn</text>
-    <text transform="translate(914.3 618)">_</text>
-    <text transform="translate(867.39 636)">conversationQuestion</text>
-   </g>
-  </g>
-  <path transform="matrix(0 -1 -1 0 809.5 456.11)" d="m0 0h23.306v1.0499e-4h23.306" fill="none" fill-rule="evenodd" stroke="#4472c4" stroke-miterlimit="8" stroke-width=".66667"/>
- </g>
 </svg>

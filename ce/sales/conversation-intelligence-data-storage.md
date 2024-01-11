@@ -59,9 +59,13 @@ The following table describes the tables and their purpose.
 | `msdyn_conversationSummarySuggestion` | Contains suggestions for the call summary which involves the participant or were a result of the participant’s communication. |
 | `msdyn_conversationQuestion` | Contains questions asked by the participant. |
 
+For more information about the tables, see [Dataverse table/entity reference documentation](/power-apps/developer/data-platform/reference/about-entity-reference)
+
 ## Grant access to conversation intelligence tables
 
-By default, all out-of-the-box security roles have permission to access the conversation intelligence tables in Dataverse. If you have custom security roles, work with your Dataverse administrator to grant access to [these tables](#how-the-data-is-structured-in-dataverse).
+By default, all out-of-the-box sales security roles have permission to access the conversation intelligence tables in Dataverse. The access is granted based on the current permission model in Dynamics 365. For example, sellers will have access to their own conversations, managers will have access to their team’s conversations, and so on.
+
+If you have custom security roles, work with your Dataverse administrator to grant access to [the conversation intelligence tables](#how-the-data-is-structured-in-dataverse).
 
 > [!NOTE]
 > **Read** permission is sufficient for users who only need to view the call summary page. **Edit/write** permissions are required to edit the call summary such as tagging a call, leaving a comment on the transcript etc.
@@ -75,17 +79,17 @@ The following table provides an estimate of the space required for a conversatio
 > [!NOTE]
 > Actual size may vary depending on the actual number of tables created or updated during the conversation. 
 
-| Duration (minutes) | Size in MB (2 participants) |
-|-------------------|----------------------------|
-| 10                 | 0.15                         |
-| 20                 | 0.30                         |
-| 30                 | 0.45                         |
-| 40                 | 0.60                         |
-| 50                 | 0.75                         |
-| 60                 | 0.90                         |
-| 70                 | 1.05                         |
-| 80                 | 1.20                         |
-| 90                 | 1.35                         |
+| Duration (minutes) | Size in MB (2 participants) | File Storage (MB) |
+|:-------------------|:----------------------------|:------------------|
+| 10                 | 0.15                         |                   |
+| 20                 | 0.30                         |                   |
+| 30                 | 0.45                         |                   |
+| 40                 | 0.60                         |                   |
+| 50                 | 0.75                         |                   |
+| 60                 | 0.90                         |                   |
+| 70                 | 1.05                         |                   |
+| 80                 | 1.20                         |                   |
+| 90                 | 1.35                         |                   |
 
 ## Data retention and deletion
 
