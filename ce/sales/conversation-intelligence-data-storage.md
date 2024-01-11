@@ -91,7 +91,7 @@ By default, there is no expiry date for the data stored in Dataverse. However, y
 
 The [conversation intelligence tables](#how-data-is-structured-in-dataverse) are organized in a tree structure with parent-child relationships. When you delete a record, the following rules apply:
 
-- Deleting a record from any of the tables in the tree will cascade-delete all its sub-nodes. For example, deleting a record from the `msdyn_conversationParticipantInsights` table will delete all the records from the `msdyn_conversationSignal`, `msdyn_conversationParticipantSentiment`, `msdyn_conversationActionItem`, `msdyn_conversationSummarySuggestion`, and `msdyn_conversationQuestion` tables. 
+- Deleting a record from any of the tables in the tree will cascade-delete corresponding data in all its sub-nodes. For example, deleting a record from the `msdyn_conversationParticipantInsights` table will delete corresponding records from the `msdyn_conversationSignal`, `msdyn_conversationParticipantSentiment`, `msdyn_conversationActionItem`, `msdyn_conversationSummarySuggestion`, and `msdyn_conversationQuestion` tables. 
 
 - If you've partially deleted the data from Dataverse, the call summary page will continue to display the available insights, provided that the recording and transcripts of the call are available. For example, if you delete a participant's row in the `msdyn_conversationParticipantInsights` table, the call summary page will display all the insights, including the participant's insights for the other participants. 
 
