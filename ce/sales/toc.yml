@@ -517,6 +517,8 @@
                   href: understand-lead-distributions-assignment-rules.md
             - name: View and assign unassigned records
               href: wa-manage-unassigned-records.md
+            - name: Migrate assignment rules and segments
+              href: wa-migrate-assignment-rules-segments.md  
             - name: Examples for assignment rules and segments
               href: wa-examples.md
         - name: Get seller insights to improve seller effectiveness
