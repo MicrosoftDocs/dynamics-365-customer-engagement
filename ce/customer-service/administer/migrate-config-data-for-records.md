@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 08/02/2023
+ms.date: 01/11/2024
 ms.custom: bap-template
 ---
 
@@ -759,9 +759,9 @@ XMLCopy
 
 Before you migrate intake rules, check for the following:
 
-- If the target organization doesn't have the intake rules for the record type that you want to import, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-- If the target organization has intake rules for the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
-- If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you import.
+- If the target organization doesn't have the record type that you want to import, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+- If the target organization has the record type with the same GUID, then remove the msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you import.
+- If the target organization has the record type with a different GUID, then delete the record type in the target organization before you import.
 
 ### Migrate configuration of intake rules
 
