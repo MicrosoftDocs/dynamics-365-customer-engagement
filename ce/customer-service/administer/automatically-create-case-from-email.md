@@ -35,6 +35,8 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 1. Go to **Settings** > **Service Management**.
 
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
 1. Select **Automatic Case Creation Rules**.  
 
 1. To create a new case creation rule, select **New**.  

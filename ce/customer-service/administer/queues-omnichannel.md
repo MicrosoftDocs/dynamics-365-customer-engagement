@@ -48,11 +48,15 @@ Assign a group number that helps you organize your queues in the list view. The 
     2. On the **Queues** page, select **Manage** for **Advanced queues**.
     
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Queues** in **General settings**.
     
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 

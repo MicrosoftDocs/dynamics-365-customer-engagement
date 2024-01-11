@@ -1,7 +1,7 @@
 ---
 title: Complete work orders in the mobile app
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
-ms.date: 08/02/2023
+ms.date: 11/28/2023
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: josephshum-msft
@@ -54,7 +54,7 @@ To automatically change the booking status to **Traveling** every time you get d
 
 ## [Unified Interface UX](#tab/vCurrent)
 
-On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details form.
+On the **Service tab**, you see work order details like work order service tasks, products, and services. Mark a service or service task as complete and include any products you used. Adjust the product units and the service hours as needed. Select the service task, service, or product name to open the full details.
 
 :::image type="content" source="./media/mobile-2020-work-order-service-notes-new.jpg" alt-text="Renderings of three mobile devices showing service tasks, parts used, and the Notes screen in the Field Service mobile app.":::
 
@@ -66,7 +66,9 @@ When you're ready to start work, select the booking tile on the booking home pag
 
 :::image type="content" source="./media/mobile-newux-work.png" alt-text="Renderings of four mobile devices showing the General, Tasks, Services, and Products screens in the Field Service mobile app.":::
 
-Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity.
+Streamlined lists in the new mobile UX views remove unnecessary icons and support up to five columns of data. Currently, users can change the view of a list. It always shows the default view, which is enabled for the app module. If there's no default view defined, a list renders the first view configured for the selected entity. The Booking view is handled differently from other views configured in the application. The Bookings view uses the view configuration of *Bookings - Agenda View*.
+
+:::image type="content" source="media/mobile-list-configurable.png" alt-text="List of accounts showing the new list type with removed icons and custom columns.":::
 
 ---
 
@@ -112,7 +114,7 @@ Select the search icon to find records from any table. You can also scan a barco
 
 :::image type="content" source="./media/mobile-2020-global-search-use.png" alt-text="Renderings of four mobile devices showing the process of scanning a barcode in the Field Service mobile app.":::
 
-If you don't have the option to scan a barcode, ask your administrator to [set up global search](mobile-power-app-system-barcode-scanning.md) for your organization.
+If you can't scan a barcode, ask your administrator to [set up global search](mobile-power-app-system-barcode-scanning.md) for your organization.
 
 ## Enter time
 
@@ -141,7 +143,7 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 - Taxable
 - Transaction Currency ID
 
-When you save the work order, it's uploaded and available for booking by the dispatcher.
+Save the work order so a dispatcher can book it.
 
 If you don't see the **Follow up** option, you might not have the right permissions. Ask your administrator to make sure you have [**create** permissions](./users-licenses-permissions.md) to the work order table.
 
@@ -150,5 +152,11 @@ If you don't see the **Follow up** option, you might not have the right permissi
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
+
+## Update work orders with Copilot (preview)
+
+The new mobile UX uses Copilot in Field Service to enable technicians with a quick and easy way of updating work orders.
+
+For more information, see [AI-powered work order update](work-order-update.md).
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

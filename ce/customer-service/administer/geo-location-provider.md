@@ -24,7 +24,7 @@ Make sure you have permissions on the secure columns. More information: [Configu
 
 ## Create a geo location provider record
 
-You can create a geo location provider record in the Customer Service admin center or Omnichannel admin center app.
+You can create a geo location provider record in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -35,7 +35,9 @@ You can create a geo location provider record in the Customer Service admin cent
 
      The **Active Geo Location Providers** page is displayed.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Geo location** section, select **Manage**.

@@ -40,7 +40,9 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Select **Save and Close**.
 
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
 1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 

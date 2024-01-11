@@ -13,6 +13,8 @@ ms.custom: bap-template
 
 You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Customer Service admin center or Omnichannel admin center (deprecated). More information: [Embed chat widget in your website or portal](../administer/embed-chat-widget-portal.md)
 
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+
 |Attribute name|Description|Example|
 |----|-----|-----|
 |`data-hide-chat-button`| When you implement your chat widget, you can add a chat button that aligns with your mobile app experience instead of using the default chat button. In such cases, use this data tag to hide the default open chat button that's available in the live chat widget. | `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`|

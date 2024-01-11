@@ -1,7 +1,7 @@
 ---
 title: Create a case in Customer Service Hub | MicrosoftDocs
 description: Understand cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 11/27/2019
+ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,21 +21,23 @@ searchScope:
 ---
 # Work with cases
 
-Track your cases efficiently and act on them quickly in the Customer Service Hub application.
+Track your cases efficiently and act on them quickly in the Customer Service Hub or Customer Service workspace application.
 
-Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
+Creating and managing a case can’t be any simpler. With the intuitive case form, you can do all your important tasks and actions without navigating to different parts of the application.  
 
 You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
 Watch this video to learn more about case management in the Customer Service Hub:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9]
+
+## Prerequisites
+
+Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
+
 ## Create a case
 
-You can create a case in Customer Service workspace or Customer Service Hub.
-
-1. Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
-2. In Customer Service workspace, go to the **Customer Service Agent Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+1. In Customer Service workspace, go to the **Customer Service Agent Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
    - The **My Active Cases** view is displayed. You can switch between the different case views by selecting the current view.
    - Select **Show Chart** on the command bar to see the chart view.
@@ -47,27 +49,27 @@ You can create a case in Customer Service workspace or Customer Service Hub.
    - Select **Assign** to assign a case to another owner.
    - Select **Add to Queue** to add a case to a queue.  
 
-   ![active-case-view.](../media/active-case-view.png "Active case view")
+     :::image type="content" source="../media/enh-case-newcase-mini.png" alt-text="Screenshot of the enhanced full case form." lightbox="../media/enh-case-newcase.png":::
 
-3. On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case.](../media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
+1. On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case.](../media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
 
    View and update the **Priority**, **Status**, and **Owner** of the case. The **Created On** date is picked up as soon as you save the case. 
 
-4. Go to **Summary** and in the **Case Title** field, type a descriptive title to identify the case.  
+1. Go to **Summary** and in the **Case Title** field, type a descriptive title to identify the case.  
 
-5. In the **Subject** field, select a subject. When you associate cases with subjects, you can search for cases with similar issues and find related articles. If you don't see the subject that you want in the list, ask your administrator to add it.
+1. In the **Subject** field, select a subject. When you associate cases with subjects, you can search for cases with similar issues and find related articles. If you don't see the subject that you want in the list, ask your administrator to add it.
 
-6. Find the customer:  
+1. Find the customer:  
 
    1.  Select the **Customer** lookup button. By default, this field shows all customer records, accounts, and contact records. Or, type a few letters and select **Enter** to search for records that contain the letters. After you select an existing customer, the **General Information** section  will show the contact card for the customer, along with recent cases in the Related section.  
 
    2.  If a customer record doesn’t exist, you can a add new customer record using the entity tab.
 
 
-7. In the **Origin** field, select the channel through which this case was initiated.  
+1. In the **Origin** field, select the channel through which this case was initiated.  
 
-8. In the **Product** field, select the product this case is for. You can’t select a product family, a draft product, or a draft product bundle.  
-9. To see what kind of support you should provide the customer, select the **Entitlements** lookup button and select an active entitlement. The **Entitlements** section in the case record lists all the active entitlements for the customer.
+1. In the **Product** field, select the product this case is for. You can’t select a product family, a draft product, or a draft product bundle.  
+1. To see what kind of support you should provide the customer, select the **Entitlements** lookup button and select an active entitlement. The **Entitlements** section in the case record lists all the active entitlements for the customer.
 
     > [!IMPORTANT]
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
