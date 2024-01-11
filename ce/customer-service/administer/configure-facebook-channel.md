@@ -34,6 +34,12 @@ Make sure that the following prerequisites are met:
 - If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
+## Privacy notice
+
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
+
 ## Roles and permissions
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
@@ -150,12 +156,6 @@ The customer can send attachments only if you enable them. When the option isn't
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
-
-## Privacy notice
-
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to Facebook]/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
-
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
 ### Configure a Facebook channel in Omnichannel Administration
 
