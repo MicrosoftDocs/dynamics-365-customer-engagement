@@ -72,7 +72,7 @@ To configure a Facebook channel, the following steps are required:
 
    1. On the **Channel details** page, enter a name and select Facebook in **Channels**.
 
-   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you'd copied from the Facebook application.
+   1. On the **Add account** page, in the **Application ID** and **Application secret** fields, specify the Facebook App ID and App secret that you copied from the Facebook application.
 
    1. On **Add Facebook Pages to this account**, do the following steps:
 
