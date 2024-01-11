@@ -1,7 +1,7 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 01/10/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.author: nenellim
 
 ## WeChat channel
 
-organizations enhance business efficiencies in certain geographical areas by integrating social messaging channels such as WeChat, which has a large user base in Asia, into Omnichannel for Customer Service.
+Organizations enhance business efficiencies in certain geographical areas by integrating social messaging channels such as WeChat, which has a large user base in Asia, into Omnichannel for Customer Service.
 
   > [!NOTE]
   > The WeChat channel isn't available in the Government Community Cloud (GCC) region.
@@ -26,7 +26,7 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the WeChat channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).
 
-- An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You'll initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
+- An active subscription to the WeChat service account or sandbox account (if using sandbox for testing) exists and is stored as a contact on your phone. You initiate WeChat conversations by contacting the subscription account. More information: [WeChat documentation](https://go.microsoft.com/fwlink/p/?linkid=2124569)
 
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
@@ -71,7 +71,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
-1. Select the workstream that you've created for the WeChat channel and on the workstream page, select **Set up WeChat**, and do the following steps:
+1. Select the workstream that you created for the WeChat channel and on the workstream page, select **Set up WeChat**, and do the following steps:
    
    1. On the **WeChat setup** dialog box, on the **WeChat** page, select the account that you created.
    
@@ -104,7 +104,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 If you're using the service account of WeChat, perform the following steps:
 
-1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Omnichannel admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Omnichannel admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application isn't blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 
@@ -132,7 +132,7 @@ If you're using the service account of WeChat, perform the following steps:
 
 5. Select **Save**. The details are saved, and data is populated in the **Step 3: Callback information** section.
 
-6. Copy the information that's displayed in the boxes. This step is required for only WeChat service account.
+6. Copy the information displayed in the boxes. This step is required for only WeChat service account.
 
 
 #### Modify settings for a specific WeChat account
@@ -159,9 +159,9 @@ If you're using the service account of WeChat, perform the following steps:
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with WeChat and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-wechat).
+If you enable this feature, your data is shared with WeChat and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud Community region). More information: [Connect a bot to WeChat](/azure/bot-service/bot-service-channel-connect-wechat).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws. This responsibility includes laws that relate to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users might be monitored, recorded, or stored.
 
 ### See also
 
