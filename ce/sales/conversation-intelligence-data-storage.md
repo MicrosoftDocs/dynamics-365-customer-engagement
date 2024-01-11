@@ -18,7 +18,7 @@ content_well_notification: AI-contribution
 
 # How to manage conversation intelligence data in Dataverse
 
-This article describes how your call data travels from Microsoft Teams to Microsoft Dataverse to generate insights. It also describes the structure of conversation intelligence data in Dataverse. Understanding this data flow and structure can help you manage your data and storage efficiently.
+This article describes how your call data flows to Microsoft Dataverse to generate insights and how this data is structured. It also describes how to manage the storage, access, and deletion of conversation intelligence insights in Dataverse.
 
 ## How data flows
 
@@ -31,8 +31,10 @@ As depicted in the diagram, the flow works as follows:
 1. A call comes in to the Teams dialer in Dynamics 365 Sales. The call is accepted and the recording is started.
 
 1. After the call ends, the recording is saved in the Azure blob storage or Dataverse, based on the [storage configuration in conversation intelligence settings](fre-setup-ci-sales-app.md). The transcript is saved in Dataverse.
-1. Conversation intelligence uses advanced AI models to generate insights from the recording and transcript. The conversation intelligence app user updates [the tables](#how-the-data-is-structured-in-dataverse) in Dataverse with the insights. The tables are then assigned to the conversation’s owner.
-1. The insights are saved in Dataverse and then displayed in the call summary page. 
+1. Conversation intelligence uses advanced AI models to generate insights from the recording and transcript. 
+1. The conversation intelligence app user updates [the tables](#how-the-data-is-structured-in-dataverse) in Dataverse with the insights. The tables are then assigned to the conversation’s owner.
+1. The insights are then displayed in the call summary page. 
+1. (Optional) The insights are deleted from Dataverse based on the [data retention policy](#data-retention-and-deletion) set by the Dataverse administrator.
 
 ## How data is structured in Dataverse
 
