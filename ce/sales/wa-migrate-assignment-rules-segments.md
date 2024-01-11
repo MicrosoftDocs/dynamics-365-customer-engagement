@@ -33,7 +33,7 @@ Before you migrate assignment rules and segments, ensure that the following requ
     - [Select security roles to assign records to in work assignment](wa-manage-sales-teams.md).
   - Calendar settings:
     - [Seller availability in sequences](customize-sales-accelerator-sellers.md#seller-availability).
-    - [Let sellers set their availability](wa-manage-seller-availability).
+    - [Let sellers set their availability](wa-manage-seller-availability.md).
 
 ## Prepare the Schema File
 
