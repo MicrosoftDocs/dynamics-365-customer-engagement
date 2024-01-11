@@ -66,14 +66,16 @@ You can configure the rules in the Customer Service admin center or Customer Ser
 
 1. Go to one of the admin apps, and perform the following steps.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Automatic record creation and update rules** section, select **Manage**.
 
      The **All Record Creation and Update Rules** page is displayed.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      2. Select **Automatic record creation and update rules** in **Case Settings**. 

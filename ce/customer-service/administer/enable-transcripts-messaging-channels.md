@@ -33,7 +33,9 @@ As an administrator, you can enable live transcription and recording of conversa
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Transcript**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Transcript**.
 
@@ -44,8 +46,6 @@ As an administrator, you can enable live transcription and recording of conversa
 ## View the transcripts
 
 You can view the conversation transcriptions in the Customer Service admin center, Omnichannel admin center, and Omnichannel for Customer Service apps.
-
-To view transcripts in Omnichannel admin center, do the following:
 
 1. In the Customer Service admin center site map, select **User management**, and then select **Manage** for **Users**. If you're using Omnichannel admin center, in the site map, select **Users**.
 2. Select the user whose conversations you want to view.

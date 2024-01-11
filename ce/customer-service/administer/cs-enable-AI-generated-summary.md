@@ -7,9 +7,9 @@ author: gandhamm
 ms.author: mgandham
 ---
 
-# Set up auto-summarization for conversations 
+# Set up auto-summarization for conversations
 
-Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps they've already taken.
+Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps taken.
 
 ## Components of an auto-summarize conversations
 
@@ -50,7 +50,9 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 ### Turn on the auto-summarization of Microsoft Teams conversations
 
-You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable aut-generated summary for Microsoft Teams chats:
+You can also enable this feature from the Customer Service Hub app. Perform the following steps to enable auto-generated summary for Microsoft Teams chats:
+
+[!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
 1. In the site map, select **Service Management**.
 2. In **Collaboration**, select **Embedded chat using Teams**.

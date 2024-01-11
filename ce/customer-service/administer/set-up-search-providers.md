@@ -49,17 +49,19 @@ You can set up a search provider in the Customer Service admin center or Custome
 
 1. Go to **External search providers**.
   
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-> [!NOTE]
-  > **Search Providers** on the **Knowledge** page has been renamed as **External search providers**.
+    > [!NOTE]
+      > **Search Providers** on the **Knowledge** page has been renamed as **External search providers**.
 
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  2. In the **External search providers** section, select **Manage**.
+      1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+      2. In the **External search providers** section, select **Manage**.
 
-### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-* In the site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
+     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+    * In the site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
 
 ---
 

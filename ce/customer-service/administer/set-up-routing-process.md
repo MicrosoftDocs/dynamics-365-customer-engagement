@@ -11,7 +11,9 @@ ms.author: nenellim
 
 ## Introduction
 
-You can set up unified routing in Customer Service Hub or Omnichannel admin center.
+You can set up unified routing in the Customer Service Hub or Omnichannel admin center (deprecated) app.
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 Typically, you'll use Customer Service Hub to set up routing of records, such as case.
 
