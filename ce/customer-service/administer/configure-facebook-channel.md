@@ -28,7 +28,7 @@ Make sure that the following prerequisites are met:
 - Sign in to the [developer site on Facebook](https://developers.facebook.com/) or create an account, and then complete the following steps:
    1. Select **My Apps**, and then select **Create app**.
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
-   1. On the **Select an app type** page, **Business**, and then type your app's name and contact email address.
+   1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, you see the Page ID and the option to generate a token.
 - If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
