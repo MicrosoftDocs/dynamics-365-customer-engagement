@@ -44,10 +44,14 @@ Keep in mind that the summary fields are configured at the organization level. M
 
 ### Enrich leads with related information
 
-Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
+Copilot can enrich your leads with information from Dynamics 365 Sales, Dynamics 365 Customer Insights, LinkedIn, and Bing, such as:
 
 - Possible contacts, based on the lead name, phone number, email address, and company name
+
+- Insights about customer sentiment, behavior, and interest generated based on unified activity data in Dynamics 365 Customer Insights, if configured. [Learn more](/dynamics365/customer-insights/data/faqs-profile-summary)  
+
 - The latest news about the account, curated by Bing
+
 - Suggested LinkedIn profiles for the contact, if you have the LinkedIn Sales Navigator license
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
