@@ -32,7 +32,7 @@ Perform the following actions using the enhanced email attachment control:
   - Select the required attachments.  
   - Click the attachment link to preview it in the Attachment preview popup. 
   - Search for attachments by attachment name.  
-     ![Select enhanced attachment control.](../media/select-attachment-email.png "Screenshot of the enhanced email with the select attachment window")
+  ![Select enhanced attachment control.](../media/select-attachment-email.png "Screenshot of the enhanced email with the select attachment window")
 - Drag files to the attachment control, email body, or rich text editor to be added as attachments. When you drag image files to rich text editor, they are added as inline images.
 - Select **Flows** to create and select your existing flows. 
 - Export attachments that you’ve uploaded. The .csv file contains the name and size of the attachments. 
