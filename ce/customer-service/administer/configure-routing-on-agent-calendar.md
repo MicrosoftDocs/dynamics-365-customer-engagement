@@ -20,7 +20,7 @@ Configure assignment rules to route and assign cases and conversations based on 
 
 ## Prerequisites
 
-- Workforce Management for Customer Service is enabled in your environment.
+- [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment.
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
