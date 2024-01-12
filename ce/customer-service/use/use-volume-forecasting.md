@@ -59,7 +59,7 @@ Before you can use the forecast reports, ensure that your administrator has assi
 
 You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
 
-- In the default view, select the plus (**+**) icon, and then select **Forecast**.
+- In the default view, go to the hamburger menu, and then select **Forecast**.
 - If the enhanced multisession workspace view is enabled, select **Forecast** on the site map.
 
    :::image type="content" source="../media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
