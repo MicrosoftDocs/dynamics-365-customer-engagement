@@ -22,7 +22,7 @@ This article describes how to navigate the forecast reports in Customer Service 
 
 ## Overview
 
-Customer service supervisors need to be able to ensure they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
+Customer service supervisors need to be able to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
 
 As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business based on the predicted volume of cases and conversations, along with the predicted agent demand for conversations.
 
