@@ -1,6 +1,6 @@
 ---
 title: "Forecast agent, case, and conversation volumes in Customer Service | Microsoft Docs"
-description: "Learn how to use the Forecast report for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
+description: "Learn how to use the forecast reports for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
 ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
@@ -15,8 +15,12 @@ ms.custom:
 
 # Forecast case and conversation volumes, and agents for conversations
 
+This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
+
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
+## Overview
 
 Customer service supervisors need to be able to ensure they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively impact customer satisfaction.
 
@@ -49,7 +53,7 @@ For details about how the forecast models work for this feature, see [How agent 
 
 Before you can use the forecast reports, ensure that your administrator has assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting](../administer/configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting](../administer/configure-agent-forecasting-conversation.md#prerequisites).
 
-## View the Forecast reports in Customer Service
+## View the forecast reports in Customer Service
 
 ### Navigation
 
