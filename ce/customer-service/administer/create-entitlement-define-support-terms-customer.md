@@ -40,9 +40,11 @@ You can create an entitlement in the Customer Service admin center or Customer S
         
         The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-    1. In the Customer Service Hub site map, go to **Service Management**.
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+    1. In the site map, go to **Service Management**.
     1. From the list of entity records, select **Entitlements** in **Service Terms**.                                                              
        
        The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.
