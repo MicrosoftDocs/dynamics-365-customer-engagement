@@ -38,7 +38,7 @@ Configure assignment rules to route and assign cases and conversations based on 
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
-       :::image type="content" source="../media/screenshot-of-agent-diagnostics.png" alt-text=""::::::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
+       :::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
 
 ## View routing diagnostics records
 
@@ -47,4 +47,4 @@ View the [routing diagnostics record](unified-routing-diagnostics.md) to underst
 ## Next steps
 
 [Use Customer Service workspace](../implement/csw-overview.md)  
-[View the agent calendar](use/use-agent-calendar.md)  
+[View the agent calendar](../use/use-agent-calendar.md)  
