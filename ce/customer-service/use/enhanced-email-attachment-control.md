@@ -42,8 +42,8 @@ Perform the following actions using the enhanced email attachment control:
 - Select all the attachments.
 - Copy multiple attachments from various emails and paste them into a single email. When you copy multiple attachments, the application displays a notification with the following: 
    - The total number of attachments that you copied across multiple emails and pasted to the target email. 
-   - **Clear All** to remove all of the copied attachments. 
-   - **Undo** to remove the most recently copied attachment. 
+   - **Clear All** option to remove all the copied attachments. 
+   - **Undo** option to remove the most recently copied attachment. 
 
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
