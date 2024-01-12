@@ -794,7 +794,7 @@ Before you migrate intake rules, check for the following:
 
       `https://<OrgURL>/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'`
 
-     If there's no output when you run the call, skip to step 4. If there's an output, then in the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     If there's no output when you run the call, skip to step 5. If there's an output, then in the data.xml file, replace all occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 4. Package the extracted content again.
 
