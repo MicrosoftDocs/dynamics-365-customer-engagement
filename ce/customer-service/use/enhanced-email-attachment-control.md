@@ -40,7 +40,7 @@ Perform the following actions using the enhanced email attachment control:
 - Select the file to launch the preview. Preview is available only for image and pdf attachments.
 - Switch between the grid and list views.
 - Select all the attachments.
-- Copy multiple attachments from various emails and paste them into a single email. The application displays a notification with the following when you copy multiple attachments: 
+- Copy multiple attachments from various emails and paste them into a single email. When you copy multiple attachments, the application displays a notification with the following: 
    - The total number of attachments that you copied across multiple emails and pasted to the target email. 
    - **Clear All** to remove all of the copied attachments. 
    - **Undo** to remove the most recently copied attachment. 
