@@ -38,7 +38,7 @@ Supervisors can use the Case forecasting report in the following ways:
 
 - View a rollup of actual and forecasted volume by hourly, daily, weekly, monthly, and yearly basis.
 
-- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This helps the forecasting model to accurately predict case volume during special, seasonal events.
+- Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This detection helps the forecasting model to accurately predict case volume during special, seasonal events.
 
 > [!NOTE]
 > Be aware of the following when using the Case forecasting report:
