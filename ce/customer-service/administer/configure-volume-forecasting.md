@@ -1,7 +1,7 @@
 ---
 title: "Configure case forecasting in Customer Service | Microsoft Docs"
 description: "Learn how to configure the Forecast report for cases in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 07/06/2023
+ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,18 +13,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure case volume forecasting (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+# Configure case volume forecasting
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -88,11 +77,11 @@ For users in your organization to be able to access the forecast reports, they m
 - Omnichannel administrator
 - Omnichannel supervisor
 
-## Enable the case forecasting (preview) report
+## Enable the case forecasting report
 
 1. In the Customer Service admin center app, under **Operations**, select **Insights**. The **Insights** page is displayed.
 
-1. Under the **Report settings** section, next to **Case forecasting (preview)**, select **Manage**. The **Case forecasting (preview)** page is displayed.
+1. Under the **Report settings** section, next to **Case forecasting**, select **Manage**. The **Case forecasting** page is displayed.
 
 1. Toggle **Enable case forecasting** to **On**.
 
@@ -116,7 +105,7 @@ For users in your organization to be able to access the forecast reports, they m
 
 ### See also
 
-[Forecast case and conversation volumes, and agents for conversations (preview)](../use/use-volume-forecasting.md)<br>
-[Configure agents for conversations forecasting (preview)](configure-agent-forecasting-conversation.md)<br>
+[Forecast case and conversation volumes, and agents for conversations](../use/use-volume-forecasting.md)<br>
+[Configure agents for conversations forecasting](configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
