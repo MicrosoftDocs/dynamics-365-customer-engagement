@@ -86,7 +86,7 @@ Go to Power Apps and navigate to **Tables** > **Bookable Resource Booking** > **
 
 :::image type="content" source="media/agenda-view-power-apps.png" alt-text="Agenda view in the list of views in the Power Apps maker experience.":::
 
-All columns in this view can show on a booking card. However, we recommend keeping the number of columns below 10 to maintain readability and performance. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
+Columns in this view show on a booking card within the Agenda.  No more than 25 columns should be added to the view. We recommend keeping the number of columns below 10 to maintain readability and performance and no more than 25 columns should be added. To learn how to configure a view, see [Choose and configure columns in model-driven app views in Power Apps](/power-apps/maker/model-driven-apps/choose-and-configure-columns).  
 
 > [!NOTE]
 > You can't set other views as default in the new mobile user experience.
