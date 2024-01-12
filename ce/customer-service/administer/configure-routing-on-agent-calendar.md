@@ -24,8 +24,9 @@ Configure assignment rules to route and assign cases and conversations based on 
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
+- Create a shift activity type with the available assignment status.
 
-## Enable shift-based routing setting
+## Enable shift-based routing
 
 1. In the Customer Service admin center site map, select **Workforce management** under **Operations**.
 1. In the **Shift based routing (preview)** section, select **Manage**.
