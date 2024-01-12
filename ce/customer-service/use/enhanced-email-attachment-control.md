@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/08/2023
+ms.date: 01/12/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -28,13 +28,23 @@ Your administrator has enabled the enhanced attachment control.
 Perform the following actions using the enhanced email attachment control:
 
 - Add files.
+- Select the dropdown to add existing attachments from previous emails. In the **Select attachment** window, you can perform the following actions: 
+  - Select the required attachments.  
+  - Click the attachment link to preview it in the Attachment preview popup. 
+  - Search for attachments by attachment name.  
+     ![Select enhanced attachment control.](../media/select-attachment-email.png "Screenshot of the enhanced email with the select attachment window")
 - Drag files to the attachment control, email body, or rich text editor to be added as attachments. When you drag image files to rich text editor, they are added as inline images.
+- Select **Flows** to create and select your existing flows. 
+- Export attachments that you’ve uploaded. The .csv file contains the name and size of the attachments. 
 - View the size of the uploaded attachment in the nearest unit of its size.
 - Hover over the attachment to download, delete, or select an attachment.
 - Select the file to launch the preview. Preview is available only for image and pdf attachments.
 - Switch between the grid and list views.
 - Select all the attachments.
-- Copy multiple attachments from various emails and paste them into a single email. The application displays the total number of attachments that you copied across multiple emails and pasted to the target email.
+- Copy multiple attachments from various emails and paste them into a single email. The application displays the following when you’ve copied multiple attachments: 
+   - total number of attachments that you copied across multiple emails and pasted to the target email. 
+   - **Clear All** to remove all of the copied attachments. 
+   - **Undo** to remove the most recently copied attachment. 
 
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
