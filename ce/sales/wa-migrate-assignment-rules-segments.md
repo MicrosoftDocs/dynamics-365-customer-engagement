@@ -1,12 +1,16 @@
 ---
 title: Migrate assignment rules and segments
-description: 
+description: Migrate assignment rules and segments using the Configuration Migration tool.
 author: udaykirang
 ms.author: udag
 ms.reviewer: shujoshi
-ms.topic: how-to 
+ms.topic: how-to
 ms.date: 01/12/2024
-ms.custom: bap-template 
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:01/12/2024
 ---
 
 # Migrate Assignment Rules and Segments
@@ -61,7 +65,7 @@ After exporting the required data from the source environment, you're now ready 
 - Rules that are associated with specific users, teams, or queues must be resolved manually after the migration.
 - During the migration process, if a new segment is created from the application, the priority order might change. 
 
-## Priority of migrated segments
+## How prioritization works for migrated segments
 
 The current segment order in the target environment remains the same. However, the priority of incoming segments from the source is determined based on the source segment's priority, following the existing priorities in the target environment. 
 

@@ -98,7 +98,7 @@ The following permissions are required to perform tasks on work assignment entit
   - Segment: Read, Write, Create, Delete
 - **View segments**
   - Segment: Read
-- Copy segment 
+- **Copy segment**
   - Segment: Read, Write, Create
   - Assignment Rule: Read, write, and Create
     >[!NOTE]
