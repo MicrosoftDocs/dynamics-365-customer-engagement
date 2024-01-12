@@ -1,7 +1,7 @@
 ---
 title: "Forecast agent, case, and conversation volumes in Customer Service | Microsoft Docs"
 description: "Learn how to use the Forecast report for agent, case, and conversation volumes in Dynamics 365 Customer Service, Omnichannel for Customer Service, and Customer Service workspace."
-ms.date: 04/01/2023
+ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,18 +13,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and agents for conversations (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+# Forecast case and conversation volumes, and agents for conversations
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -58,16 +47,16 @@ For details about how the forecast models work for this feature, see [How agent 
 
 ## Prerequisites
 
-Before you can use the forecast reports, ensure that your administrator has assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting (preview)](../administer/configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting (preview)](../administer/configure-agent-forecasting-conversation.md#prerequisites).
+Before you can use the forecast reports, ensure that your administrator has assigned a role to you that has **Read** privileges on the **msdyn_dataanalyticsreport_forecast** table. More information: [Configure case volume forecasting](../administer/configure-volume-forecasting.md#prerequisites) and [Configure agents for conversations forecasting](../administer/configure-agent-forecasting-conversation.md#prerequisites).
 
 ## View the Forecast reports in Customer Service
 
 ### Navigation
 
-You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast (preview)** dashboard as follows:
+You can view the forecast reports in the Customer Service workspace or Omnichannel for Customer Service apps. You can navigate to the **Forecast** dashboard as follows:
 
-- In the default view, select the plus (**+**) icon, and then select **Forecast (preview)**.
-- If the enhanced multisession workspace view is enabled, select **Forecast (preview)** on the site map.
+- In the default view, select the plus (**+**) icon, and then select **Forecast**.
+- If the enhanced multisession workspace view is enabled, select **Forecast** on the site map.
 
    :::image type="content" source="../media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
 
@@ -85,7 +74,7 @@ To change the report mode, select the **Daily** or **Intraday** toggle button on
 
 The **Case volumes**, **Conversation volumes** and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting (preview)](../administer/configure-volume-forecasting.md#enable-the-case-forecasting-preview-report) and [Configure agents for conversations forecasting (preview)](../administer/configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-preview-reports).
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case volume forecasting](../administer/configure-volume-forecasting.md#enable-the-case-forecasting-report) and [Configure agents for conversations forecasting](../administer/configure-agent-forecasting-conversation.md#enable-the-agent-forecasting-for-conversation-reports).
 
 You can filter the data on each of the tabs by using any of the following options:
 
@@ -151,8 +140,8 @@ You can export the report data by selecting **Export** on the command bar.
 
 ### See also
 
-[Configure case forecasting (preview)](../administer/configure-volume-forecasting.md)<br>
-[Configure agent forecasting for conversation (preview)](../administer/configure-agent-forecasting-conversation.md)<br>
+[Configure case forecasting](../administer/configure-volume-forecasting.md)<br>
+[Configure agent forecasting for conversation](../administer/configure-agent-forecasting-conversation.md)<br>
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](../administer/cs-region-availability-service-limits.md)<br>
 [Manage report bookmarks](manage-bookmarks.md)  
