@@ -1,8 +1,8 @@
 ---
 title: How to manage conversation intelligence data in Dataverse
 description: Learn about the data structure, storage, access, and deletion of conversation intelligence insights in Dataverse.
-author: lavanyakr
-ms.author: lavanyakr01
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection: 
@@ -33,7 +33,7 @@ As depicted in the diagram, the flow works as follows:
 1. After the call ends, the recording is saved in the Azure blob storage or Dataverse, based on the [storage configuration in conversation intelligence settings](fre-setup-ci-sales-app.md). The transcript is saved in Dataverse.
 
 1. Conversation intelligence uses advanced AI models to generate insights from the recording and transcript.  
-1. The conversation intelligence app user updates [the tables](#how-the-data-is-structured-in-dataverse) in Dataverse with the insights. The tables are then assigned to the conversation’s owner.
+1. The conversation intelligence app user updates [the tables](#how-data-is-structured-in-dataverse) in Dataverse with the insights. The tables are then assigned to the conversation’s owner.
 1. The insights are then displayed in the call summary page. 
 
 > [!NOTE]
@@ -43,7 +43,7 @@ As depicted in the diagram, the flow works as follows:
 
 The conversation intelligence data is stored in Dataverse in the form of tables. The following diagram depicts the conversation intelligence tables and their relationships in Dataverse.
 
-:::image type="content" source="media/conversation-intelligence-data-structure-in-dataverse.svg" alt-text="Diagram depicting the conversation intelligence tables and their relationships in Dataverse." lightbox="media/conversation-intelligence-data-structure.svg":::
+:::image type="content" source="media/conversation-intelligence-data-structure-in-dataverse.svg" alt-text="Diagram depicting the conversation intelligence tables and their relationships in Dataverse." lightbox="media/conversation-intelligence-data-structure-in-dataverse.svg":::
 
 The following table describes the tables and their purpose.
 
@@ -69,7 +69,7 @@ The following table describes the tables and their purpose.
 
 By default, all out-of-the-box sales security roles have permission to access the conversation intelligence tables in Dataverse. The access is granted based on the current permission model in Dynamics 365. For example, sellers will have access to their own conversations, managers will have access to their team’s conversations, and so on.
 
-If you have custom security roles, work with your Dataverse administrator to grant access to [the conversation intelligence tables](#how-the-data-is-structured-in-dataverse).
+If you have custom security roles, work with your Dataverse administrator to grant access to [the conversation intelligence tables](#how-data-is-structured-in-dataverse).
 
 > [!NOTE]
 > **Read** permission is sufficient for users who only need to view the call summary page. **Edit/write** permissions are required to edit the call summary such as tagging a call, leaving a comment on the transcript etc.
@@ -110,4 +110,3 @@ The [conversation intelligence tables](#how-data-is-structured-in-dataverse) are
 
 - [Set up conversation intelligence for Dynamics 365 Sales](fre-setup-ci-sales-app.md)
 - [Manage data retention policies in Microsoft Dataverse](/power-apps/maker/data-platform/data-retention-manage)
-- [Manage storage in Microsoft Dataverse](/powerapps/maker/data-platform/manage-storage)
