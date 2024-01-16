@@ -1,6 +1,6 @@
 ---
 title: Prepare your organization to store conversation intelligence data in Dataverse 
-description: Learn about the data structure, storage, access, and deletion of conversation intelligence insights in Dataverse.
+description: Learn how to prepare your organization to store conversation intelligence data in Dataverse.
 author: lavanyakr
 ms.author: lavanyakr01
 ms.reviewer: shujoshi
