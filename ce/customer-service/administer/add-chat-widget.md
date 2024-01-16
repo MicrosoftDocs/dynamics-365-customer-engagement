@@ -80,7 +80,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
       > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
       > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
 
-1. Select **Save and close**.
+1. On the **Review and finish** page, review the channel settings, and select **Create channel**.
 
 ### Configure customer notifications
 
