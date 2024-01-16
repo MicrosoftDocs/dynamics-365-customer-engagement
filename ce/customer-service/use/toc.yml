@@ -228,6 +228,8 @@
           href: create-personal-quick-replies.md
         - name: Manage presence status
           href: oc-manage-presence-status.md
+        - name: FAQ on agent presence in Customer Service
+          href: presence-faq.md  
         - name: Search for transcripts
           href: oc-search-transcipts.md
         - name: View conversation and session forms
