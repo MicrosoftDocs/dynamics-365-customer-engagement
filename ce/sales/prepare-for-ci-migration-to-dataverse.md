@@ -1,12 +1,12 @@
 ---
 title: Prepare your organization to store conversation intelligence data in Dataverse 
 description: Learn how to prepare your organization to store conversation intelligence data in Dataverse.
-author: lavanyakr
-ms.author: lavanyakr01
+author: lavanyakr01
+ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 01/11/2024
+ms.date: 01/16/2024
 ms.custom: 
   - bap-template
   - ai-seo-date: 01/11/2024
