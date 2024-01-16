@@ -72,7 +72,7 @@ When the agent signs into Customer Service workspace, the system sets the agent�
 - Default presence configuration
 - Agent capacity
 
-If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on available capacity and sets it automatically.
+If you have set the default presence for the agent as “Offline” or “Away”, the agent signs in with the same presence. Otherwise, the system calculates the agent’s presence based on capacity utilization and sets it automatically.
 
 If you have set the default presence to a custom status, the base presence status for the custom presence is considered for calculating the presence.
 
@@ -112,15 +112,15 @@ The agent presence status is updated in the following two ways:
 
 ##  How capacity affects presence
 
-As mentioned in the preceding section, presence changes automatically based on capacity utilization. The following scenarios are applicable:
+Presence changes automatically based on capacity utilization. The following scenarios are applicable:
 
-- If available capacity is negative presence is set to "Do not disturb".
+- If available capacity is negative, presence is set to "Do not disturb".
 - If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This would not bother if the capacity units are being used or not. If the capacity units are configured, this check would happen.
 - If agent has multiple capacity profiles and all are non-blocking, the system waits for them to be consumed to mark the agent as "Do not disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Do not disturb".
 
 ## How do manual and automatic presence updates work together
 
-When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The system recalculates the new presence based on capacity utilization.
+When agents manually set their presence to "Available" or "Busy", the status persists until they accept a new conversation or close an in-progress conversation. The currently assigned work items remain assigned. The system recalculates the new presence based on capacity utilization.
 
 However, if the agent has manually set one of the following presence statuses, the status persists until the agent logs out or changes it manually.
 - Offline
@@ -131,11 +131,11 @@ However, if the agent has manually set one of the following presence statuses, t
 
 ### Define allowed presence in workstream settings
 
-[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if their presence matches one of the specified statuses.
+[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the presence statuses. Agents are assigned work items if their presence matches one of the specified statuses.
 
 ### Use presence in assignment rules
 
-The default assignment methods use the presence that's configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
+The default assignment methods use the presence that's configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of custom assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
 
 ### See also
 

@@ -2,8 +2,8 @@
 title: FAQ on agent presence in Customer Service
 description: Find answers to the most commonly asked questions on agent presence and how presence is calculated.
 author: neeranelli
-ms.author: rhcassid
-ms.reviewer: nenellim
+ms.author: nenellim
+ms.reviewer:
 ms.topic: concept
 ms.collection:
 ms.date: 01/16/2024
@@ -42,6 +42,10 @@ Agent status remains the same when they refresh their browser.
 ## How is presence affected when agents experience network issues
 
 See [how presence status is updated](oc-manage-presence-status.md#how-presence-status-is-updated) to understand the behavior during network issues.
+
+## Does presence load when agents have custom roles
+
+See the [prerequisites](oc-manage-presence.md#prerequisites) that are required for the presence status to load correctly.
 
 ## Next steps
 
