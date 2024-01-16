@@ -33,7 +33,9 @@ To provision unified routing in Customer Service, do the following:
    
    1. Select **Manage** for **Turn on Unified Routing for Records**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]  
 
    - Go to the **Service Management** site map, and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
 

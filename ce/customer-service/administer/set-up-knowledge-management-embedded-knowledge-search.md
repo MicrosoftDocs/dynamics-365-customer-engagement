@@ -86,7 +86,9 @@ After you have configured knowledge management on your app, you must also set up
   7. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).
   8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers)
 
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
 1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
@@ -158,7 +160,7 @@ You can configure a knowledge base article URL in the Customer Service admin cen
   1. On the **Knowledge** page, go to the **Portal** section and select **Manage**. The **Portal** page appears.
   1. On the **Portal** page, go to the **Support portal connection** section.
 
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
   1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
   1. On the **Settings** page, go to the **Support portal connection** section.
@@ -185,7 +187,7 @@ With the knowledge article attachments option, you can stop using notes attachme
   2. In the **Portals** section, select **Manage**. The **Portal** page appears.
   3. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
 
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
    1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
    2. On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
@@ -224,7 +226,7 @@ You can set up the knowledge search logic in the Customer Service admin center o
   1. In the site map, select **Knowledge** in **Agent experience**.
   1. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
   * In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 

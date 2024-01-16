@@ -66,11 +66,13 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-* In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+  - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
   
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-* In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
+  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+  - In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
 
 ---
 

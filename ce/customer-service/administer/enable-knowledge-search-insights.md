@@ -31,7 +31,9 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
     
       :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
     
      1. In the site map, select **Service Management**.
      2. Select **Settings** in **Insights**. The **Insights** page appears.
@@ -52,7 +54,7 @@ Use the Customer Service admin center or Customer Service Hub app to enable or d
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
-      ### [Customer Service Hub](#tab/customerservicehub)
+      ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      2. Select **Settings** in **Insights**. The **Insights** page appears.

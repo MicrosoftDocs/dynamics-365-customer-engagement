@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Installation and setup - Connected Customer Service for IoT Hub
 
-This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
+This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set-up.
 
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following:  
@@ -26,7 +26,7 @@ This guide provides the steps required for getting up and running with Connected
 
 ## Install Connected Customer Service  
  
-Connected Customer Service is included with Dynamics 365 Customer Service. Creating a new Customer Service environment or upgrading an existing one to v9.0.20034.20XX+ will automatically include the following Connected Customer Service entities and related processes:
+Connected Customer Service is included with Dynamics 365 Customer Service. Creating a new Customer Service environment or upgrading an existing one to v9.0.20034.20XX+ automatically includes the following Connected Customer Service entities and related processes:
 
  - Devices
  - IoT alerts
@@ -45,7 +45,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 ### Set up the sample simulator (optional)  
 
-To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
+To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly- created resource group. You see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -165,7 +165,9 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
        
           The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
 
-     ### [Customer Service Hub](#tab/customerservicehub)
+     ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
      1. In the site map, go to **Service Management**.
      1. From the list of entity records, select **Device Categories** IN **IoT**.
