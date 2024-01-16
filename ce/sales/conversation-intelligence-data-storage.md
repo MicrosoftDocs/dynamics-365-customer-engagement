@@ -28,13 +28,16 @@ The following diagram depicts the flow of events starting from the time a call c
 
 As depicted in the diagram, the flow works as follows:
 
-1. A call comes in to the Teams dialer in Dynamics 365 Sales. The call is accepted and the recording is started.
+1. A salesperson receives an incoming call or makes an outgoing call from the Teams dialer in Dynamics 365 Sales and starts the recording.
 
 1. After the call ends, the recording is saved in the Azure blob storage or Dataverse, based on the [storage configuration in conversation intelligence settings](fre-setup-ci-sales-app.md). The transcript is saved in Dataverse.
-1. Conversation intelligence uses advanced AI models to generate insights from the recording and transcript. 
+
+1. Conversation intelligence uses advanced AI models to generate insights from the recording and transcript.  
 1. The conversation intelligence app user updates [the tables](#how-the-data-is-structured-in-dataverse) in Dataverse with the insights. The tables are then assigned to the conversation’s owner.
 1. The insights are then displayed in the call summary page. 
-1. (Optional) The insights are deleted from Dataverse based on the [data retention policy](#data-retention-and-deletion) set by the Dataverse administrator.
+
+> [!NOTE]
+> The insights are stored in Dataverse until the data retention period expires. For more information, see [Data retention and deletion](#data-retention-and-deletion).
 
 ## How data is structured in Dataverse
 
@@ -47,8 +50,6 @@ The following table describes the tables and their purpose.
 | Table Name | Description |
 |-------------|-------------|
 | `msdyn_SCIConversation` | Contains data required to correlate between the conversation intelligence data, phone call activity, and audio recording files. |
-| `Recording` | Contains a link to the recording file in the Azure blob storage, or stores the recording itself, based on the storage configuration in conversation intelligence settings. |
-| `Transcript` |  Contains the transcript data. |
 | `msdyn_conversationAggregatedInsights` | Contains Key Performance Indicators (KPIs) such as longest monologue, switch count throughout the conversation, meeting duration, and more. It also contains IDs to correlate the lower level insights. |
 | `msdyn_conversationSentiment` | Contains sentiment data for the conversation such as overall percent of positive, negative, and neutral customer sentiments during the conversation. |
 | `msdyn_conversationSubject` | Contains the automatic categorization of segments of the conversation such as introduction, negotiation, closure, and more. |
@@ -58,6 +59,8 @@ The following table describes the tables and their purpose.
 | `msdyn_conversationActionItem` | Contains suggested action items for the participant. |
 | `msdyn_conversationSummarySuggestion` | Contains suggestions for the call summary which involves the participant or were a result of the participant’s communication. |
 | `msdyn_conversationQuestion` | Contains questions asked by the participant. |
+| `msdyn_ConversationActivityTag` | Contains tags that users have manually added to a conversation. |
+| `msdyn_ConversationSystemTag` | Contains the automatic categorizations by the system, such as voicemail, wrong number, rain-check. |
 
 For more information about the tables, see [Dataverse table/entity reference documentation](/power-apps/developer/data-platform/reference/about-entity-reference)
 
@@ -81,15 +84,15 @@ The following table provides an estimate of the space required for a conversatio
 
 | Duration (minutes) | Size in MB (2 participants) | File Storage (MB) |
 |:-------------------|:----------------------------|:------------------|
-| 10                 | 0.15                         |                   |
-| 20                 | 0.30                         |                   |
-| 30                 | 0.45                         |                   |
-| 40                 | 0.60                         |                   |
-| 50                 | 0.75                         |                   |
-| 60                 | 0.90                         |                   |
-| 70                 | 1.05                         |                   |
-| 80                 | 1.20                         |                   |
-| 90                 | 1.35                         |                   |
+| 10                 | 0.15                         | 4                 |
+| 20                 | 0.30                         | 8                 |
+| 30                 | 0.45                         | 12                |
+| 40                 | 0.60                         | 16                |
+| 50                 | 0.75                         | 20                |
+| 60                 | 0.90                         | 24                |
+| 70                 | 1.05                         | 28                |
+| 80                 | 1.20                         | 32                |
+| 90                 | 1.35                         | 36                |
 
 ## Data retention and deletion
 

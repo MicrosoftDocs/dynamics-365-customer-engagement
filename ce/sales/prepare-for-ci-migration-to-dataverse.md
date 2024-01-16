@@ -51,16 +51,17 @@ Sales conversation intelligence data is the general term used for any outputs ge
 
 The following table describes the storage location of conversation intelligence data before and after the change: 
 
-| Current Storage | Type of Data | Before the Change | After the Migration |
+| Current configuration | Type of data | Before migration | After migration |
 |:----------------|:-------------|:------------------|:--------------------|
-| Microsoft-provided storage | Files (recording, transcript) | Microsoft-provided storage | Organization’s Dataverse 1,3 |
-| Microsoft-provided storage | Conversation intelligence insights | Microsoftprovided storage | Organization’s Dataverse 1,3 |
-| Your own Azure blob storage | Files (recording, transcript) | Your own Azure blob storage | Your own Azure blob storage 2 |
-| Microsoft-provided storage | Conversation intelligence insights | Microsoft-provided storage | Organization’s Dataverse 1 |
+| Microsoft-provided storage | Files (recording, transcript) | Microsoft-provided storage | Organization’s Dataverse <sup>1,3</sup> |
+| Microsoft-provided storage | Conversation intelligence insights | Microsoft-provided storage | Organization’s Dataverse <sup>1,3</sup> |
+| Your own Azure blob storage | Files (recording, transcript) | Your own Azure blob storage | Your own Azure blob storage <sup>2</sup> |
+| Microsoft-provided storage | Conversation intelligence insights | Microsoft-provided storage | Organization’s Dataverse <sup>1</sup> |
 
-1 After the data is successfully migrated, it will be deleted from the Microsoft-provided storage. 
-2 No change. This data is not migrated. 
-3 Data of calls older than 90 days will not be migrated. 
+<sup>1</sup> After the data is successfully migrated, it will be deleted from the Microsoft-provided storage.  
+<sup>2</sup> No change. This data is not migrated.  
+<sup>3</sup> Data of calls older than 90 days will not be migrated. 
+
 
 After the successful migration of existing data, data from new calls will be automatically saved to Dataverse. 
 
@@ -77,7 +78,7 @@ For all organizations:
 
     1. Find the number of calls currently in storage: 
 
-        1. Log in to the Conversation intelligence app as an administrator. 
+        1. Log in to the [Conversation intelligence app](https://sales.ai.dynamics.com/) as an administrator. 
 
         1. Navigate to the System monitoring page. 
 
