@@ -1,10 +1,13 @@
 ---
-title: "Deploy Omnichannel for Customer Service package | MicrosoftDocs"
-description: "Learn how to deploy Unified Service Desk - Omnichannel for Customer Service package on a model-driven app."
+title: Deploy Omnichannel for Customer Service package
+description: Learn how to deploy Unified Service Desk - Omnichannel for Customer Service package on a model-driven app.
 ms.date: 01/16/2024
-ms.topic: article
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer:
+ms.custom: bap-template
+ms.collection:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
