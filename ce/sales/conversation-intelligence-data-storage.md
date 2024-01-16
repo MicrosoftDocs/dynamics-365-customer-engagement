@@ -60,7 +60,7 @@ The following table describes the tables and their purpose.
 | `msdyn_conversationSummarySuggestion` | Contains suggestions for the call summary which involves the participant or were a result of the participant’s communication. |
 | `msdyn_conversationQuestion` | Contains questions asked by the participant. |
 | `msdyn_ConversationActivityTag` | Contains tags that users have manually added to a conversation. |
-| `msdyn_ConversationSystemTag` | Contains the automatic categorizations by the system, such as voicemail, wrong number, rain-check. |
+| `msdyn_ConversationTag` | Contains the automatic categorizations by the system, such as voicemail, wrong number, rain-check. |
 
 For more information about the tables, see [Dataverse table/entity reference documentation](/power-apps/developer/data-platform/reference/about-entity-reference)
 
