@@ -139,6 +139,7 @@ The default assignment methods use the presence that's configured in the allowed
 
 ### See also
 
+[FAQ on presence](presence-faq.md)  
 [View notifications](oc-notifications.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  
 [Manage sessions](oc-manage-sessions.md)  
