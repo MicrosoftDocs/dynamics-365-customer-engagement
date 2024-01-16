@@ -9,11 +9,11 @@ ms.reviewer: shujoshi
 ms.custom: bap-template
 ---
 
-# Manage presence in Omnichannel for Customer Service
+# Manage presence in Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Presence is an indication of your agent’s availability or status to take up work in Customer Service.
+Presence is an indication of your agent’s availability or status to take up work in Dynamics 365 Customer Service.
 
 :::image type="content" source="../media/oceh-presence-icon.png" alt-text="Screenshot of agent presence status.":::
 
@@ -131,15 +131,11 @@ However, if the agent has manually set one of the following presence statuses, t
 
 ### Define allowed presence in workstream settings
 
-[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if the agents' presence matches one of the specified statuses.
+[Allowed presence](../administer/create-workstreams.md#configure-work-distribution) is a workstream setting that indicates to the system to assign work items to agents who match one of the base presence statuses. You can select the base presence statuses, such as "Available" and "Busy", or all the options. Agents are assigned work items if their presence matches one of the specified statuses.
 
 ### Use presence in assignment rules
 
-You can define conditions on presence in the assignment rules of assignment methods to route to the most suitable agent for an incoming work item. More information: [Configure assignment rules](../administer/configure-assignment-rules.md#create-an-assignment-method-and-configure-rules)
-
-## Troubleshoot display of presence
-
-[Why doesn't my presence load?](../troubleshoot-omnichannel-customer-service.md#user-presence-isnt-loading-or-user-is-shown-as-unknown)
+The default assignment methods use the presence that's configured in the allowed presence setting of the workstreams to route to the most suitable agent for an incoming work item. You can also define conditions on presence in the assignment rules of assignment methods. More information: [Assignment methods in unified routing](../administer/assignment-methods.md)
 
 ### See also
 
