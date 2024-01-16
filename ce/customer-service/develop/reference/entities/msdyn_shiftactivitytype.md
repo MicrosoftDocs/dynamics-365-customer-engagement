@@ -16,9 +16,6 @@ search.app:
 ---
 # msdyn_shiftactivitytype table/entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
-
 
 **Added by**: Workforce Engagement Management for Customer Service Solution
 
