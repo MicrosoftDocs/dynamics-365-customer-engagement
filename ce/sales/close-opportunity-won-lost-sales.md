@@ -49,12 +49,13 @@ Close the opportunity when you've won or lost the deal. Closing the opportunity 
 
 ## View details entered while closing an opportunity
 
-As a sales manager, you would want to view the details entered by your salespeople while closing an opportunity.
+As a sales manager, you might want to view the details entered by your salespeople while closing an opportunity to understand the reason for winning or losing the opportunity.
 
-1. Open the opportunity you want to view.
+1. In the Sales Hub sitemap, select **Opportunities** and select the **Closed Opportunities** view.
+1. Open the opportunity you want to view the details for.
 1. Select **Related** > **Activities**. 
 1. In the view selector, select **Closed Activity Associated View**.
-1. Open for the **Opportunity Close** activity type to view the details entered while closing the opportunity.
+1. Double-click the **Opportunity Close** activity type to view the details entered while closing the opportunity.
 
     :::image type="content" source="media/view-closed-activity.png" alt-text="Screenshot of the Closed Activity Associated View."::: 
 
@@ -65,7 +66,7 @@ For information on how to resolve the common errors that you may see while closi
 
 You can reopen a closed opportunity if the customer is interested in pursuing the opportunity. 
 
-1. Select **Opportunities** in the Sales Hub sitemap. 
+1. In the Sales Hub sitemap, select **Opportunities**.
    
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
