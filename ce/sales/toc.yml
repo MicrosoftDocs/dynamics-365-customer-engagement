@@ -1228,6 +1228,30 @@
           href: developer/entities/metric.md
         - name: msdyn_callablecontext
           href: developer/entities/msdyn_callablecontext.md
+        - name: msdyn_SCIConversation
+          href: developer/entities/msdyn_SCIConversation.md
+        - name: msdyn_Transcript
+          href: developer/entities/msdyn_Transcript.md
+        - name: msdyn_Recording
+          href: developer/entities/msdyn_Recording.md
+        - name: msdyn_conversationActionItem
+          href: developer/entities/msdyn_conversationActionItem.md
+        - name: msdyn_conversationAggregatedInsights
+          href: developer/entities/msdyn_conversationAggregatedInsights.md
+        - name: msdyn_conversationParticipantInsights
+          href: developer/entities/msdyn_conversationParticipantInsights.md
+        - name: msdyn_conversationParticipantSentiment
+          href: developer/entities/msdyn_conversationParticipantSentiment.md
+        - name: msdyn_conversationQuestion
+          href: developer/entities/msdyn_conversationQuestion.md
+        - name: msdyn_conversationSentiment
+          href: developer/entities/msdyn_conversationSentiment.md
+        - name: msdyn_conversationSignal
+          href: developer/entities/msdyn_conversationSignal.md
+        - name: msdyn_conversationSubject
+          href: developer/entities/msdyn_conversationSubject.md
+        - name: msdyn_conversationSummarySuggestion
+          href: developer/entities/msdyn_conversationSummarySuggestion.md
         - name: Opportunity
           href: developer/entities/opportunity.md
         - name: OpportunityClose
