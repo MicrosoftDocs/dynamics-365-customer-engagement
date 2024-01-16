@@ -55,9 +55,9 @@ The following table describes the tables and their purpose.
 `msdyn_recording` | Contains a link to the recording file in the Azure blob storage, or stores the recording file itself, according to the storage settings.
 `msdyn_transcript` | Contains the transcript of the conversation.
 `msdyn_conversationAggregatedInsights` | Contains Key Performance Indicators (KPIs) such as longest monologue, switch count throughout the conversation, meeting duration, and more. It also contains IDs to correlate the lower level insights.
-`msdyn_conversationSentiment` | Contains sentiment data for the conversation such as overall percent of positive, negative, and neutral customer sentiments during the conversation.
-msdyn_conversationSubject | Contains the automatic categorization of segments of the conversation such as introduction, negotiation, closure, and more.
-`msdyn_conversationParticipantInsights` | Contains identifiers for each participant, as well as their personal KPIs such as, average talking speed, own longest monologue, average pause before speaking, talk-to-listen ratio, and switch count. Each participant in a conversation, whether a seller or a customer, has their own instance of the participant table. This table also contains child nodes listed in the following rows.
+`msdyn_conversationSentiment` | Contains sentiment data for the conversation, such as overall percent of positive, negative, and neutral customer sentiments during the conversation.
+msdyn_conversationSubject | Contains the automatic categorization of segments of the conversation, such as introduction, negotiation, closure, and more.
+`msdyn_conversationParticipantInsights` | Contains identifiers for each participant, as well as their personal KPIs, such as average talking speed, own longest monologue, average pause before speaking, talk-to-listen ratio, and switch count. Each participant in a conversation, whether a seller or a customer, has their own instance of the participant table. This table also contains child nodes listed in the following rows.
 `msdyn_conversationSignal` | Contains all the tracked keywords such as brands, times, competitors, and names that were mentioned by participants during the conversation.
 `msdyn_conversationParticipantSentiment` | Contains the sentiment per each fragment of the participant’s speech.
 `msdyn_conversationActionItem` | Contains suggested action items for the participant.
@@ -67,12 +67,12 @@ msdyn_conversationSubject | Contains the automatic categorization of segments of
 
 ## Grant access to conversation intelligence tables
 
-By default, all out-of-the-box sales security roles have permission to access the conversation intelligence tables in Dataverse. The access is granted based on the current permission model in Dynamics 365. For example, sellers will have access to their own conversations, managers will have access to their team’s conversations, and so on.
+By default, all out-of-the-box sales security roles have permission to access the conversation intelligence tables in Dataverse. The access is granted based on the current permission model in Dynamics 365. For example, sellers have access to their own conversations, managers have access to their team’s conversations, and so on.
 
 If you have custom security roles, work with your Dataverse administrator to grant access to [the conversation intelligence tables](#how-data-is-structured-in-dataverse).
 
 > [!NOTE]
-> **Read** permission is sufficient for users who only need to view the call summary page. **Edit/write** permissions are required to edit the call summary such as tagging a call, leaving a comment on the transcript etc.
+> **Read** permission is sufficient for users who only need to view the call summary page. **Edit/write** permissions are required to edit the call summary, such as tagging a call, leaving a comment on the transcript, etc.
 
 ### Estimate storage space required for a conversation
 
