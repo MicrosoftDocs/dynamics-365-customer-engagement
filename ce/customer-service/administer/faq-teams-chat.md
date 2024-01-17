@@ -23,7 +23,9 @@ View answers to questions about setting up Teams chat in customer engagement app
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     1. In the site map, select **Service Management**.
     
@@ -43,7 +45,7 @@ View answers to questions about setting up Teams chat in customer engagement app
     
     1. In **Embedded chat using Teams**, select **Manage**.
    
-   ### [Customer Service Hub](#tab/customerservicehub) 
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub) 
 
     1. In the site map, select **Service Management**.
     

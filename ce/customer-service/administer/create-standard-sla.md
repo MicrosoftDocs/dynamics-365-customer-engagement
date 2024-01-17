@@ -22,23 +22,34 @@ ms.collection: get-started
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
-     When you activate an SLA, a corresponding workflow is also created. For every action you perform on the SLA, you must have permissions to perform the same action on workflows. The SLA is applied in the context of the permissions that the owner of the SLA has.  
+    When you activate an SLA, a corresponding workflow is also created. For every action you perform on the SLA, you must have permissions to perform the same action on workflows. The SLA is applied in the context of the permissions that the owner of the SLA has.  
 
     **Check your security role**  
 
-   - [!INCLUDE[proc_follow_steps_in_link](../../includes/proc-follow-steps-in-link.md)]  
+      - [!INCLUDE[proc_follow_steps_in_link](../../includes/proc-follow-steps-in-link.md)]  
 
-   - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
+      - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)] 
+   
+    You can create standard SLAs in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
-1. Go to **Settings** > **Service Management**.
+1.  Go to **Service-level agreements (SLAs)**.
 
-1. Go to **Service Level Agreements**.  
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+    1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
+
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+   
+    - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
 
 1. To create a new SLA, select **New** on the command bar.
-     
-    > [!NOTE]
-    > If your organization has the Customer Service admin center app and you try to create a new SLA from the web client, you'll see a deprecation message and an option to create the SLA in Unified Interface. There's no message displayed if you don't have the Customer Service admin center app in your organization.
 
+    > [!NOTE]
+    > If Customer Service admin center is available in your organization and you try to create an SLA in the web client, a deprecation message appears with an option to create the SLA in Unified Interface. No message is displayed if Customer Service admin center isn't available.
+     
 1. Optionally, to edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
 1. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  

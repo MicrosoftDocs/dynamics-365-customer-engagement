@@ -30,7 +30,7 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center, Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
@@ -82,12 +82,13 @@ After you configure the agent script and add the field to a form, you need to as
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-     In the site map, select **Session templates** in **Workspaces**.
+     - In the site map, select **Session templates** in **Workspaces**.
 
-   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
    
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
-      In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+      - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -117,12 +118,11 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-     In the site map, select **Session templates** in **Workspaces**.
+     - In the site map, select **Session templates** in **Workspaces**.
 
-   ### [Omnichannel Admin Center](#tab/omnichanneladmincenter)
-   
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
 
-      In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+    - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
     
 2. Go to the **Agent scripts** tab.
 

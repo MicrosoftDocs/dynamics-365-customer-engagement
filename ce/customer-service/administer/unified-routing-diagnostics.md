@@ -37,11 +37,15 @@ To see data related to work items and their status, you need to enable routing d
     1. In the site map, select **Routing**. The **Routing** page appears.
     2. Select **Manage** for **Routing diagnostics**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     - In the site map, select **Diagnostics** in **Advanced settings**.
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - Go to the **Service Management** site map, and in **Unified Routing** select **Diagnostics**.
 

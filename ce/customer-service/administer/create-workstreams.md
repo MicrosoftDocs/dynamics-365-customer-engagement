@@ -27,7 +27,7 @@ The workstream can be one of the following types:
 > [!IMPORTANT]
 >
 > - Unified routing must be enabled in the service configuration settings in Customer Service Hub for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
-> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+> - Workstreams that you created in the Omnichannel Administration app can't be modified in the Omnichannel admin center (deprecated) app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Create a workstream
 
@@ -39,7 +39,9 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
     - In the site map, select **Workstreams** in **Customer support**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      - In the site map, select **Workstreams** in **General settings**.
     
@@ -139,7 +141,7 @@ For Azure bots, see [Integrate Azure bots with Omnichannel for Customer Service]
 
 **To add the bot to the workstream**
 
-1. In Customer Service admin center or Omnichannel admin center, go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center or Omnichannel admin center (deprecated), go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 

@@ -29,7 +29,9 @@ You can view a list of all agent and customer-facing automated messages in your 
 
      The **Automated messages** page is displayed.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Automated messages** section, select **Manage**.
@@ -64,7 +66,7 @@ You can customize automated messages at the channel instance level. For example,
 
 ### Add custom automated messages
 
-Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
+Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center (deprecated) app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.

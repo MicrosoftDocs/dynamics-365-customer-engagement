@@ -35,6 +35,9 @@ The following steps are only required while the feature is in preview.
 
    An email is sent to the contact provided during registration, once enabled. Allow up to two business days for the enablement process.
 
+> [!NOTE]
+> The integration isn't available in Field Service trials.
+
 1. After enablement, have a system administrator open the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), navigate to the registered environment, open the Dynamics 365 apps, and [apply the update for Dynamics 365 Field Service](update-field-service.md).
 
 ## Enable the integration from finance and operations applications
@@ -50,8 +53,6 @@ The following steps are only required while the feature is in preview.
 1. Open **Feature Management**.
 
 1. Find and enable the **(Preview) Enable Field Service Integration** feature.
-
-1. Enable the dual-write feature from the **Feature management** workspace.
 
 1. For each legal entity that uses Field Service:
 

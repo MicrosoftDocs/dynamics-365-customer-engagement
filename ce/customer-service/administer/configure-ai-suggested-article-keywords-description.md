@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 04/04/2022
+ms.date: 12/21/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -66,11 +66,13 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-* In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+  - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
   
-### [Customer Service Hub](#tab/customerservicehub)
+### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-* In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
+  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+
+  - In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
 
 ---
 
@@ -78,7 +80,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 3. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
 
-4. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model will use the data that corresponds to the values you select.
+4. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
 
 5. Select **Save**.
 

@@ -25,7 +25,9 @@ As an administrator, you can enable your supervisors to take specific actions on
 
      The **Omnichannel Configuration.Supervisor Settings** page is displayed.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Supervisor Settings** in **Advanced settings**. The **Supervisor settings** page appears.
      2. In the **Ongoing conversation insights** section, select **Manage**.

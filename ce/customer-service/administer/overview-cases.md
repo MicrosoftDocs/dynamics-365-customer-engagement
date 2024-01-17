@@ -1,7 +1,7 @@
 ---
-title: "Overview of case management | MicrosoftDocs"
-description: "This topic provides information on how to manage cases in Dynamics 365 Customer Service apps."
-ms.date: 07/09/2021
+title: Overview of case management
+description: This topic provides information on how to manage cases in Dynamics 365 Customer Service apps.
+ms.date: 12/21/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -31,6 +31,8 @@ A case typically represents a situation or incident that's reported by a custome
 * **Knowledge articles:** The knowledge base is a repository of informational articles that help customer service representatives resolve cases.
 
 * **Queues:** A queue is a place to organize and store activities and cases that are waiting to be processed.
+
+* **Copilot generated case summaries**: Copilot case summaries help customer service representatives to quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
 * **Service-level agreements (SLAs):** SLAs are a way to track and define what should happen when a case is opened, like how long it should take to respond to a customer.
 
