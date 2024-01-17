@@ -4,7 +4,7 @@ description: Find answers to the most commonly asked questions on agent presence
 author: neeranelli
 ms.author: nenellim
 ms.reviewer:
-ms.topic: concept
+ms.topic: faq
 ms.collection:
 ms.date: 01/16/2024
 ms.custom: bap-template
@@ -13,7 +13,6 @@ ms.custom: bap-template
 # FAQ on agent presence in Customer Service
 
 This article tries to answer the questions that you might have on agent presence to help you understand the feature better.
-
 
 ## What happens when agent changes presence manually during a conversation
 
