@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot
 description: Learn how to ask Copilot questions in Dynamics 365 Sales to know what's new with your leads, opportunities, and accounts and new records are assigned to you.
-ms.date: 12/20/2023
+ms.date: 01/17/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -42,7 +42,7 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 Copilot can help you stay on top of your pipeline by showing you a list of leads and opportunities that were assigned to you in the last 15 days.
 
-In the Copilot side pane or page, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select Enter.
+In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select Enter.
 
 ## Get recent changes to a lead or opportunity
 
