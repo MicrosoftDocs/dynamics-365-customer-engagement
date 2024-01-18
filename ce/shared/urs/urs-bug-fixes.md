@@ -27,13 +27,13 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.111.21
 
-- Released new **Specify Pattern** to break down long-duration or complex requirements.
-- Bookings made in the Booking Panel can now be set to any time granularity with a combo box. 
-- Fixed a bug where resources marked as not to be displayed on the Schedule Board were listed in the Move To dropdown.
-- The number of child resources for Pool and Crew resources is now displayed on the Schedule Board.
-- A resource's additional capacity is now displayed on the schedule board when present. 
+- Released new **Specify Pattern** version to break down long-duration or complex requirements.
+- Bookings made in the Booking pane can now be set to any time granularity. 
+- Fixed a bug where resources marked to not show on the schedule board were listed in the *Move to* dropdown.
+- The number of child resources for pools and crews now show on the schedule board.
+- Additional capacity of a resource now shows on the schedule board when available. 
 - Booking rules now support HTML tags.
-- The  Service Territory Field on the Select Resource filter now supports free text.
+- The *Service territory* field on the *Select resource* filter now supports free text.
 
 ## 3.12.120.16
 
