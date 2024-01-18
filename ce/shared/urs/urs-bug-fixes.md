@@ -7,10 +7,10 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | TBD | 01/12/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | TBD | 01/26/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/12/2024  |
-| | *USG* | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | TBD | 01/26/2024 |
+|**Station 1** |  *First Release*| [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118)  | TBD | 01/24/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |[3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/19/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/26/2024 |
+| | *USG* | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016)  | [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) | 01/19/2024 |
 |**Station 4** |*Europe* |  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/19/2024  |
 |**Station 5** |  *North America*|  [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
 |**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.119.27](/dynamics365/field-service/field-service-version-history-resource-scheduling#31211927)  | [3.12.120.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212016) | 01/26/2024  |
@@ -20,6 +20,20 @@ For information about older versions, see [Version history archive](../../field-
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.121.18
+
+**Resource Scheduling Controls:** 1.2.60.240112
+
+**Dataverse:** 4.0.111.21
+
+- Released new **Specify Pattern** to break down long-duration or complex requirements.
+- Bookings made in the Booking Panel can now be set to any time granularity with a combo box. 
+- Fixed a bug where resources marked as not to be displayed on the Schedule Board were listed in the Move To dropdown.
+- The number of child resources for Pool and Crew resources is now displayed on the Schedule Board.
+- A resource's additional capacity is now displayed on the schedule board when present. 
+- Booking rules now support HTML tags.
+- The  Service Territory Field on the Select Resource filter now supports free text.
 
 ## 3.12.120.16
 
