@@ -24,7 +24,8 @@ Configure assignment rules to route and assign cases and conversations based on 
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
-- Create a shift activity type with the available assignment status.
+- Shift-based routing is enabled.
+- Each agent (bookableresource) is opted into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to "True". You need to set this column value when you are importing the external schedules.
 
 ## Enable shift-based routing
 
@@ -53,7 +54,7 @@ View the [routing diagnostics record](unified-routing-diagnostics.md) to underst
 
 The imported schedules from external systems are represented in Dynamics 365 as bookings. The bookableresourcebooking entity stores this information. Each booking is assigned to an agent. The agent is represented as a bookable resource. Every agent with one or more bookings has a corresponding entry in the bookableresource entity.
 
-An agent must be opted into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the agent's bookableresource entry to "True". An automated process keeps the agent's imported schedule bookings in sync with the agent's work hour calendar. The following schedules and rules apply for the automated synchronization:
+An automated process synchronizes the agent's imported schedule bookings with the agent's work hour calendar. The following schedules and rules apply for the automatic synchronization:
 
 - After you opt in the agent for shift-based routing, the first automated sync occurs after 180 minutes to allow the external schedules to be imported for the agent.
 - After the first automated sync, the agent's bookings are synchronized with their work hour calendar every 180 minutes.
