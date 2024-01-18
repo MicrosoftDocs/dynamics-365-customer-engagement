@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 01/11/2024
+ms.date: 01/31/2024
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Configure assignment rules to route and assign cases and conversations based on agent's shift schedules.
+Configure assignment rules to route and assign cases and conversations based on agent's shift schedules. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster  employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
 ## Prerequisites
 
@@ -32,7 +32,11 @@ Configure assignment rules to route and assign cases and conversations based on 
 1. In the **Shift based routing (preview)** section, select **Manage**.
 1. On the **Shift based routing (preview)** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
 
-## Configure assignment rule
+## Import external schedule data
+
+Use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import the agent schedule data from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
+
+## Configure an assignment rule
 
 1. In the Customer Service admin center site map, select **Queues**, and then select Manage in the **Advanced queues** area.
 1. Select the queue that you want to configure the assignment rule, select the custom assignment method, and select **Edit**.
@@ -44,6 +48,19 @@ Configure assignment rules to route and assign cases and conversations based on 
 ## View routing diagnostics records
 
 View the [routing diagnostics record](unified-routing-diagnostics.md) to understand how a work item is routed when routing is configured based on agent calendar attribute.
+
+## How shift-based routing works
+
+The imported schedules from external systems are represented in Dynamics 365 as bookings. The bookableresourcebooking entity stores this information. Each booking is assigned to an agent. The agent is represented as a bookable resource. Every agent with one or more bookings has a corresponding entry in the bookableresource entity.
+
+An agent must be opted into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the agent's bookableresource entry to "True". An automated process keeps the agent's imported schedule bookings in sync with the agent's work hour calendar. The following schedules and rules apply for the automated synchronization:
+
+- After you opt in the agent for shift-based routing, the first automated sync occurs after 180 minutes to allow the external schedules to be imported for the agent.
+- After the first automated sync, the agent's bookings are synchronized with their work hour calendar every 180 minutes.
+- Each automated run synchronizes the agent's bookings for the next 28 days, starting from the time of the automated sync. Bookings beyond 28 days aren't synchronized.
+- Any updates to the booking, including deletion of the booking, is immediately reflected in the corresponding work hour entry for the booking. For example, if the end time for a synchronized booking is updated, then the end time of the corresponding work hour calendar entry is also updated immediately. Similarly, if a synchronized booking is deleted, then the corresponding work hour calendar entry is also removed.
+
+After the agent's bookings are synchronized with their work hour calendar, unified routing routes work items based on the work hour calendar entries.
 
 ## Next steps
 
