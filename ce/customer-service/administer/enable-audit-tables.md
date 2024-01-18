@@ -1,12 +1,12 @@
 ---
 title: Enable the ability to audit activities and user logins
-description: Audit activities and access user logins using the Microsoft Purview compliance portal with the ability to search audited events.
+description: Search audited events in Microsoft Purview compliance portal using wild card search to find contextual information and individual activities.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 12/20/2023
+ms.date: 01/18/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -23,16 +23,12 @@ As an administrator, you can audit activities and access user logins and program
 - You are an administrator.
 - To view audit results, you have access to the Purview tool. More information: [Permissions in the Microsoft Purview portal (preview)](/purview/purview-permissions)
 
-## Set up admin activity auditing
+## Enable admin activity auditing
 
-To enable admin activity auditing, perform the following steps:
+There are three levels where auditing can be configured: an environment, table, and column.
 
-1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
-1. Select **Tables** > **Properties**.
-1. On the **Edit table** pane, select the checkbox for **Audit changes to its data**.
-1. Select **Save**.
-
-      :::image type="content" source="../media/audit-changes.png" alt-text="Option to enable audit changes to data":::
+1. For table auditing to take place, auditing must be first enabled at the environment level. To enable auditing at the environment level, go to [Configure auditing for an environment](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-an-environment).
+2. To enable auditing at the table level, go to [Configure auditing for one or more tables and columns in Power Apps](/power-platform/admin/manage-dataverse-auditing#configure-auditing-for-one-or-more-tables-and-columns-in-power-apps).
 
 ## Activities an admin can audit
 
@@ -139,7 +135,7 @@ The following table shows the activities that an admin can audit.
 
 ## Search audited events
 
-When the audit log search is turned on in the [Microsoft Purview compliance portal](https://sip.compliance.microsoft.com/auditlogsearch?viewid=Async%20Search), the Microsoft Purview audit log records the admin activity in your organization.
+When the audit log search is turned on in the [Microsoft Purview compliance portal](/power-platform/admin/logging-powerapps), the Microsoft Purview audit log records the admin activity in your organization.
 
 You can use any of the following methods to search events in Microsoft Purview.
 
