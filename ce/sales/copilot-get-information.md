@@ -54,17 +54,14 @@ As a salesperson, you need to be aware of the latest product information, such a
     After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
 
 2. Select **Get product-related files (preview)**. 
-    > [!NOTE]
-    > Natural language processing is not supported for this prompt at this time. 
-    
+   > [!NOTE]
+   > At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
+
     If the opportunity has multiple products, Copilot lists the products.
 
 3. Hover over a product and select **Get files**.
 
-    Copilot lists the files that meet the following criteria:
-    
-    - Microsoft Word, Excel, PowerPoint, and PDF files.
-    - User has access to the files in SharePoint. 
+    Copilot displays related Microsoft Word, Excel, PowerPoint, and PDF files for the product. Copilot lists only those files that the user has access to in SharePoint.
 
     The documents are listed in the ranking order of SharePoint search results.
 
