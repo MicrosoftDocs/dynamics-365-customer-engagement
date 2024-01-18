@@ -30,6 +30,7 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
+| Content recommendations from SharePoint | [Get content recommendations from SharePoint (preview)](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) |
 
 ## Turn on all Copilot preview features
 
