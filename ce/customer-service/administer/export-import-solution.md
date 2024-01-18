@@ -31,7 +31,9 @@ You can enable the export or import of a calendar either from the Customer Servi
     1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 
-    ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
     - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
    

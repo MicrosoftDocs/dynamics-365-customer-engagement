@@ -161,11 +161,11 @@
         "insights-insideview/**.*": "dynamics-365-sales",
         "sales/**.*": "dynamics-365-sales",
         "versium-predict/**.*": "dynamics-365-sales",
-        "teams-integration/**.*": "dynamics-365"
-      },
-      "ms.prod": {
+        "teams-integration/**.*": "dynamics-365",
         "admin/**.*": "d365ce-op",
         "customerengagement/**.*": "d365ce-op"
+      },
+      "ms.prod": {
       },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",

@@ -21,7 +21,9 @@ As an administrator, you can enable live translation, transcription and recordin
 
 ## Enable call recording and transcription for voice
 
-1. In Customer Service admin center or Omnichannel admin center, select the workstream for which you want to enable recording and transcription.
+1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select the workstream for which you want to enable recording and transcription.
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -45,7 +47,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 You can view the call transcripts in Customer Service admin center or Omnichannel admin center.
 
-1. In Customer Service admin center or Omnichannel admin center, go to manage **Users**, and then select the user whose conversations you want to view.
+1. In the Customer Service admin center or Omnichannel admin center app, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 

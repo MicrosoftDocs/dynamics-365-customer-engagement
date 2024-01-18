@@ -28,7 +28,9 @@ To add a chat widget, you need to have configured a workstream that defines how 
     
     1. Select **Add chat channel**.
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
     1. In the site map, select **Workstreams**.
     
@@ -78,7 +80,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
       > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
       > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
 
-1. Select **Save and close**.
+1. On the **Review and finish** page, review the channel settings, and select **Create channel**.
 
 ### Configure customer notifications
 
@@ -86,7 +88,7 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Customer Service admin center or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Customer Service admin center or Omnichannel admin center app (deprecated), edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
@@ -106,7 +108,7 @@ The information in this section is not applicable if you are using the Omnichann
 
 3. Select **New**. The **New Chat Widget** page is displayed.
 
-4. On the **General settings** tab, specify the information for the following fields, depending on the type of chat you want to configure. The **Customer waiting** and **Chat Reconnect** options are available only for live chat. 
+4. On the **General settings** tab, specify the information for the following fields, depending on the type of chat you want to configure. The **Customer waiting** and **Chat Reconnect** options are available only for live chat.
 
     | Section | Field | Description | Example value |
     |---------------|------------------------|-----------------------------------|---------------------|
