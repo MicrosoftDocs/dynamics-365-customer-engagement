@@ -51,15 +51,19 @@ As a salesperson, you need to be aware of the latest product information, such a
 >- The documents are only fetched from the SharePoint site associated with your tenant.  
 
 1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
-    After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. Typing this prompt manually doesn't give you any results. 
+    After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
 
-2. Select **Get product-related files (preview)**.
+2. Select **Get product-related files (preview)**. 
+    > [!NOTE]
+    > Natural language processing is not supported for this prompt at this time. 
+    
     If the opportunity has multiple products, Copilot lists the products.
 
 3. Hover over a product and select **Get files**.
 
     Copilot lists the files that meet the following criteria:
-    - Files are of type DOC, XLS, PPT, or PDF.
+    
+    - Microsoft Word, Excel, PowerPoint, and PDF files.
     - User has access to the files in SharePoint. 
 
     The documents are listed in the ranking order of SharePoint search results.
