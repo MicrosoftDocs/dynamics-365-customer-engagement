@@ -1,23 +1,16 @@
 ---
-title: "BookableResourceBooking table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the BookableResourceBooking table/entity."
-ms.date: 01-18-2024
-ms.service: "powerapps"
+title: BookableResourceBooking table (Microsoft Dataverse)| MicrosoftDocs
+description: Includes schema information and supported messages for the BookableResourceBooking table.
+ms.date: 01/20/2024
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
 ---
-# BookableResourceBooking table/entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
+# BookableResourceBooking table
+
 Represents the line details of a resource booking.
 
 **Added by**: Scheduling Solution
@@ -1580,5 +1573,4 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.bookableresourcebooking?text=bookableresourcebooking EntityType" />
+[Web API EntityType Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
