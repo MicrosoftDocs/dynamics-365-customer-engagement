@@ -25,7 +25,7 @@ The **Agents** report provides information about agent capacity and status for t
 
 You can also sort agents by skills by using the **Skills** filter. In the Agent list section, when you hover over an agent name, the skill set and proficiency of the agent appears. You can review the skills and then assign the best agent required to solve the issue at hand.
 
-You can select the **All** filter to view agent performance across all channels. Alternatively, you can select a channel to view channel-specific agent performance. You can also filter areas by time, queue, time zone, and conversation status. For more information, go to [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+You can select the **All** filter to view agent performance across all channels. Alternatively, you can select a channel to view channel-specific agent performance. You can also filter areas by time, queue, time zone, and conversation status. For more information, see [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 [Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -33,16 +33,16 @@ You can select the **All** filter to view agent performance across all channels.
 
 ## Interactive charts
 
-You can view different types of charts on the report, such as donut charts. The visual display helps you discern changes and patterns in the data, so that you can act quickly to address the most important issues.
+You can view different types of charts on the report, such as donut charts. The visual display helps you discern changes and patterns in the data so that you can act quickly to address the most important issues.
 
 When you select a component in a chart, the data is filtered accordingly. In this way, you can view only data that is related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard is refreshed and shows only the agents who are currently in the **Busy** state.
 
 ## Agent details drill-down
 
 > [!NOTE]
-> If you don't see all the listed agents from the report as logged in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../develop/reference/entities/msdyn_agentstatus.md).
+> If you don't see all the listed agents from the report as signed in, work with your administrator to make sure your agents have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../develop/reference/entities/msdyn_agentstatus.md).
 
-You can drill down from the **Agent list** section on the dashboard to view key metrics about agent details and view specific insights about individual agents' performance.
+You can drill down from the **Agent list** section on the dashboard to view key metrics about agent details and specific insights about individual agents' performance.
 
 You'll see the following tabs:
 
@@ -50,7 +50,7 @@ You'll see the following tabs:
 
 - **Agent offline**: Shows agents who logged in earlier but are offline at the moment.
 
-- **Agents with sessions**: Shows agents who worked on a session today, or in the last 24hrs, or has open conversations, depending on the Time filter.
+- **Agents with sessions**: Shows agents who worked on a session today, or in the last 24 hours, or have open conversations, depending on the Time filter.
 
 Depending on the information that you want to see, select the tab, and then select an agent name from the **Agent list** grid. Select **Detailed view**. Agent details are shown on a new page.
 
