@@ -499,7 +499,7 @@
                   href: wa-create-and-activate-a-segment.md
                 - name: Connect segments to sequences
                   href: wa-connect-a-segment-to-sequence.md
-                - name: Edit segments
+                - name: Copy and edit segments
                   href: wa-edit-a-segment.md
                 - name: Delete segments
                   href: wa-delete-deactivate-a-segment.md

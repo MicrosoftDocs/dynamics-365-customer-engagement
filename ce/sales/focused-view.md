@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 10/13/2023
+ms.date: 01/19/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -16,12 +16,13 @@ ms.custom:
 
 # View and manage records in focused view
 
-Focused view allows you to view and manage account, contact, lead, and opportunity records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks.
+Focused view allows you to view and manage account, contact, lead, opportunity, and other records and their associated activities on one page. This view makes it easier for you to stay focused on your tasks and reduces the need to navigate between multiple screens. It also allows you to better organize and prioritize your tasks thus saving time and effort.
+
+Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md).
 
 > [!NOTE]
-> Focused view is now available for all entities, including custom entities. However, your administrator must enable it for you to access it. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md)
-
-Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
+>
+> Focused view is similar to the sales accelerator workspace view. [Learn how to prioritize your sales pipeline through work lists](prioritize-sales-pipeline-through-work-list.md).
 
 ## Open the focused view  
 
@@ -31,32 +32,50 @@ Focused view is a centralized place to view all your open records that have acti
     - For Account, Contact, Lead, and Opportunity entities, select **Focused view** on the command bar.
     - For all other entities, select **Show as** > **Focused view** on the command bar.
 
->[!NOTE]
->- The **Focused view** option isn't displayed if a record is selected.
->- Focused view is not available for the Activities entity.
->- The records display all active activities that are created in the last 120 days. 
+## Key Points about Focused View
+
+- Focused view is enabled by default for **Lead** entities. However, an administrator can enable other entities such as Account, Contact, Opportunity, and custom as default. More information: [Enable focused view and set it as the default view](set-focused-view-as-default.md)
+- The **Focused view** option isn't displayed if a record is selected.
+- Focused view is not available for the Activities entity.
+- The records display all active activities that are created in the last 120 days.
 
 ## Understand the focused view
 
-Focused view consists of three sections.
+Focused view is categorized into the sections.
 
--	**Search, filter, sort, and switch view**: These options are displayed at the top of the work list item view.   
+- **View type**: If you want to switch from focused view to list view, select **Read Only Grid**. The **Read Only Grid** option is available only if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed. Select **Show As** and then choose an option to change to the required view.
+    **More options** helps you to perform bulk actions on multiple records. You can choose the records that you want to work with and then perform the required actions.
+- **Worklist actions**:
+    - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as filter. If you want to add more filters to the view, you can create an advanced filter.
+        - Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.
+    - **Select multiple records**: To perform bulk actions on multiple records, select the **Select multiple records** option. You can choose the records that you want to work with and then perform the required actions. On the command bar, select **More options** to perform the bulk actions.  
+    - **More options**: Select More options to perform list refresh and configure the work list card.  
+        - **Refresh**: Select **Refresh** to refresh the list of records.  
+        - **Configure work list card**: Select **Settings** to customize the work list card. More information: [Customize the work list card](#customize-the-work-list-card)
+- **Records list**: All records for the selected entity, including records with no associated activities, are displayed in a card format. You can perform and complete the activities, whether manual or automated, on these cards from the current date and from previous dates. Each card displays information such as the name of the record, the primary contact name, and the next best action.
+    - Next best actions include the top two activities with the latest due date. To complete the next best action, hover over the action and then select the action icon.
+    - When no action items are available for the record, the record displays information such as the name and contact details.
+    - When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the top-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
+- **Record details**: Select a record in the work list to open a detailed view of the record on the same page.
 
- 	  You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view.  
+- **Switch view and more options**: 
+  - **Switching a view** helps to change from focused view to list view, select **Read Only Grid**. The **Read Only Grid** option is available only if you have one control for the entity. If you have multiple controls, the **Show As** option is displayed. Select **Show As** and then choose an option to change to the required view.
+  - **More options** helps you to perform bulk actions on multiple records. You can choose the records that you want to work with and then perform the required actions.
 
-    Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as filter. If you want to add more filters to the view, you can create an advanced filter.
+- **Worklist actions**:
+  - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as filter. If you want to add more filters to the view, you can create an advanced filter.
+    - Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.
+  - **Select multiple records**: To perform bulk actions on multiple records, select the **Select multiple records** option. You can choose the records that you want to work with and then perform the required actions. On the command bar, select **More options** to perform the bulk actions.
+  - **More options**: Select More options to perform list refresh and configure the work list card.
+    - **Refresh**: Select **Refresh** to refresh the list of records.
+    - **Configure work list card**: Select **Settings** to customize the work list card. More information: [Customize the work list card](#customize-the-work-list-card)
 
-    Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options. 
+- **Records list**: All records for the selected entity, including records with no associated activities, are displayed in a card format. You can perform and complete the activities, whether manual or automated, on these cards from the current date and from previous dates. Each card displays information such as the name of the record, the primary contact name, and the next best action.
+  - Next best actions include the top two activities with the latest due date. To complete the next best action, hover over the action and then select the action icon.
+  - When no action items are available for the record, the record displays information such as the name and contact details.
+  - When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the top-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
 
--	**Records list**: All records for the selected entity, including records with no associated activities, are displayed in a card format. You can perform and complete the activities, whether manual or automated, on these cards from the current date and from previous dates. Each card displays information such as the name of the record, the primary contact name, and the next best action.
-
-    Next best actions include the top two activities with the latest due date. To complete the next best action, hover over the action and then select the action icon.
-
-    When no action items are available for the record, the record displays information such as the name and contact details.
-
-    When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the top-right corner of the card. [Learn more about prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
-
--	**Record details**: Select a record in the work list to open a detailed view of the record on the same page.  
+- **Record details**: Select a record in the work list to open a detailed view of the record on the same page.
 
 The following image is an example of focused view for the Lead entity:
 
