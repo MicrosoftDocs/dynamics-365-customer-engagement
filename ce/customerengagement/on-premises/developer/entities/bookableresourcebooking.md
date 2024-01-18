@@ -1390,8 +1390,6 @@ See the [TransactionCurrency_bookableresourcebooking](transactioncurrency.md#BKM
 
 ### See also
 
-[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
-[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
-
+[Introduction to Omnichannel for Customer Service](../../../../customer-service/implement/introduction-omnichannel.md)<br />
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

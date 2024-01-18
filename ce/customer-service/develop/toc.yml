@@ -427,7 +427,7 @@
           - name: BookableResourceBooking
             href: reference/entities/bookableresourcebooking.md
           - name: BookingStatus
-            href: reference/entities/bookingstaus.md
+            href: reference/entities/bookingstatus.md
           - name: queue
             href: reference/entities/queue.md
           - name: queue

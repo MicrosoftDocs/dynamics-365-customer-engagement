@@ -29,8 +29,8 @@ search.app:
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|<xref:Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest>|
-|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|<xref:Microsoft.Crm.Sdk.Messages.RetainRequest>|
+|PurgeRetainedContent|<xref href="Microsoft.Dynamics.CRM.PurgeRetainedContent?text=PurgeRetainedContent Action" />|Microsoft.Crm.Sdk.Messages.PurgeRetainedContentRequest|
+|Retain|<xref href="Microsoft.Dynamics.CRM.Retain?text=Retain Action" />|Microsoft.Crm.Sdk.Messages.RetainRequest|
 |Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_shiftactivitytypes(*msdyn_shiftactivitytypeid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
 |RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_shiftactivitytypes<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
@@ -436,8 +436,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName||
+|Description|
+|DisplayName|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
