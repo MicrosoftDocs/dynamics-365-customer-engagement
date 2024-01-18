@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release scheudle and version history for Dynamics 365 Field Service.
-ms.date: 11/14/2023
+ms.date: 01/18/2024
 ms.topic: article
 author: jshotts
 ms.author: jasonshotts
@@ -34,13 +34,13 @@ For information about older versions, see [Version history archive](version-hist
 ## 8.8.106.22
 (Includes Universal Resource Scheduling version [3.12.121.18](/dynamics365/field-service/field-service-version-history-resource-scheduling#31212118) and Resource Scheduling controls version 1.2.60.240112).
 
-- Fixed an issue causing bookings to lose their relationship with work order during bulk imports.
-- Fixed cropping of images on the full screen “what’s new” announcement modal.
--Get started announcement modal will no longer show on separate browsers if user selects “Don’t show next time” checkbox.
--Corrected Arabic header positioning on Get Started page.
--Fixed “Ask questions in the support community” link on the Get Started page.
-- Field Service mobile: Improved accessibility of the Pen Input (Signature) control to support text-based signatures.
-- Field Service mobile: Fixed a bug on Pen Input (Signature) control which impacted ability to draw signatures on iOS.
+- Fixed an issue that caused bookings to lose their relationship with a work order during bulk imports.
+- Fixed cropping of images on the full screen "what's new" announcement.
+- Get started dialog stops showing on other browsers if the user selects the “Don’t show next time” checkbox.
+- Corrected the Arabic header positioning on Get Started page.
+- Fixed the community link on the Get Started page.
+- Field Service mobile: Improved accessibility of the pen input (signature) control to support text-based signatures.
+- Field Service mobile: Fixed a bug on the pen input (signature) control which impaired signatures on iOS devices.
 
 
 ## 8.8.105.55
