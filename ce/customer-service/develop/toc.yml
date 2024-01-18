@@ -360,6 +360,8 @@
             href: reference/entities/msdyn_provider.md
           - name: msdyn_questionsequence
             href: reference/entities/msdyn_questionsequence.md
+          - name: msdyn_resourcerequirement
+            href: reference/entities/msdyn_resourcerequirement.md
           - name: msdyn_routingconfiguration
             href: reference/entities/msdyn_routingconfiguration.md
           - name: msdyn_routingconfigurationstep
@@ -380,6 +382,10 @@
             href: reference/entities/msdyn_sessionevent.md
           - name: msdyn_sessionparticipant
             href: reference/entities/msdyn_sessionparticipant.md
+          - name: msdyn_shiftactivitytype
+            href: reference/entities/msdyn_shiftactivitytype.md   
+          - name: msdyn_shiftplan
+            href: reference/entities/msdyn_shiftplan.md            
           - name: msdyn_skillattachmentruleitem
             href: reference/entities/msdyn_skillattachmentruleitem.md
           - name: msdyn_skillattachmenttarget
@@ -412,8 +418,18 @@
             href: reference/entities/msdyn_visitorjourney.md
           - name: msdyn_wechatengagementctx
             href: reference/entities/msdyn_wechatengagementctx.md
+          - name: msdyn_wemaccess
+            href: reference/entities/msdyn_wemaccess.md            
           - name: msdyn_whatsappengagementctx
             href: reference/entities/msdyn_whatsappengagementctx.md
+          - name: BookableResource
+            href: reference/entities/bookableresource.md
+          - name: BookableResourceBooking
+            href: reference/entities/bookableresourcebooking.md
+          - name: BookingStatus
+            href: reference/entities/bookingstaus.md
+          - name: queue
+            href: reference/entities/queue.md
           - name: queue
             href: reference/entities/queue.md
           - name: queueitem
