@@ -1,7 +1,7 @@
 ---
 title: Offline data synchronization
 description: Learn how offline data is synchronized to the server for the Dynamics 365 Field Service mobile app.
-ms.date: 01/03/2024
+ms.date: 01/18/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007

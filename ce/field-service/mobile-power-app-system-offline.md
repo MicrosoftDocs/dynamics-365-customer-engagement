@@ -1,7 +1,7 @@
 ---
 title: Mobile offline capabilities (contains video)
 description: Learn about the mobile offline profile for the Dynamics 365 Field Service mobile app including guidance and limitations for its use.
-ms.date: 01/02/2024
+ms.date: 01/18/2024
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007

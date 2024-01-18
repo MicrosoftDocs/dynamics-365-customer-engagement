@@ -1,7 +1,7 @@
 ---
 title: Configure the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 01/02/2024
+ms.date: 01/18/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -43,8 +43,6 @@ Field Service provides an out-of-the-box offline profile called **Field Service 
    :::image type="content" source="media/fs-mobile-power-apps-edit-offline-profile.png" alt-text="Power Apps screenshot showing Settings for the Field Service Mobile app and edit the offline profile":::
 
 1. If you selected to restrict access to selected users, [add those users](/power-apps/mobile/setup-mobile-offline#add-users-to-an-offline-profile). Otherwise, go to the next step.
-
-   The security role for users and teams needs read permission for the *UserMobileOfflineProfileMembership* and *TeamMobileOfflineProfileMembership* privileges.
 
 1. Review the **Data for offline use**. For each table:
 
