@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 12/18/2023
+ms.date: 01/19/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
