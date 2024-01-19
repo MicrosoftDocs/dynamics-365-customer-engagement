@@ -69,6 +69,13 @@ Copilot summarizes the last 10 updates to the record from the audit history, for
 
 Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top ten fields that are most relevant for your business.
 
+## Get answers from Sharepoint documents
+
+As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. These documents are typically stored in Sharepoint. Copilot can help you find answers from these documents and summarize the answers for you.
+
+In the Copilot side pane, type in your question and select Enter.  
+
+
 ### See also
 
 - [Copilot overview](copilot-overview.md)
