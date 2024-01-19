@@ -1,7 +1,7 @@
 ---
 title: Customize the Microsoft 365 integrations for Field Service
 description: Learn how to tailor the Microsoft 365 integrations for Dynamics 365 Field Service to your business
-ms.date: 12/20/2023
+ms.date: 01/18/2024
 ms.topic: how-to
 author: matthidinger
 ms.author: mahiding
@@ -72,7 +72,7 @@ The following steps use work order as an example. You can use these steps to cre
    | System Status     | Resource                  |
    | Work Order Type   | Booking Status            |
    | Work Order Summary| Start Time                |
-   | Duration          | End Time                  |
+   |                   | End Time                  |
    |                   | Duration                  |
    |                   | Actual Arrival Time       |
 
