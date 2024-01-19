@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 01/17/2024
+ms.date: 01/19/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -41,6 +41,31 @@ In the Copilot side pane, select the sparkle icon (:::image type="icon" source="
 Copilot generates the summary from a set of predefined fields. Other fields may be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution may be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list).
 
 Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
+
+### Get content recommendations from SharePoint (preview)
+ 
+As a salesperson, you need to be aware of the latest product information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to get you the list of SharePoint documents related to products in an opportunity.
+
+> [!NOTE]
+>- This feature is available only if your administrator has opted in to the [Copilot preview features](copilot-preview-features.md).
+>- The documents are only fetched from the SharePoint site associated with your tenant.  
+
+1. [Summarize an opportunity](#summarize-a-lead-or-opportunity).
+    After the summary, Copilot displays a follow-up prompt **Get product-related files (preview)**. The prompt is displayed only if the opportunity has products associated with it. 
+
+2. Select **Get product-related files (preview)**. 
+   > [!NOTE]
+   > At the moment, this feature can be invoked only by selecting the prompt and not by typing in the Copilot chat. 
+
+    If the opportunity has multiple products, Copilot lists the products.
+
+3. Hover over a product and select **Get files**.
+
+    Copilot displays related Microsoft Word, Excel, PowerPoint, and PDF files for the product. Copilot lists only those files that the user has access to in SharePoint.
+
+    The documents are listed in the ranking order of SharePoint search results.
+
+    :::image type="content" source="media/get-files-from-sharepoint.svg" alt-text="Screenshot of the list of files fetched from SharePoint.":::
 
 ### Enrich leads with related information
 
