@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Copilot Studio bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Copilot Studio bot.
-ms.date: 11/17/2022
+ms.date: 01/19/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -82,8 +82,7 @@ Perform the following steps to ensure that flow is properly configured and can n
 1. On the Copilot Studio portal, select **Topics** > **New Topic**.
 1. Within the topic, create a question node to ask the user to search for the input text.
 
-    :::image type="content" source="../media/question_node.png" alt-text="Create a question node":::
-    
+ 
 1. Create a question node for the filter and provide the sample filter value after you trigger the topic.
     
 1. Select **Add node** (**+**) and select **Call an action**. Select **Search Dynamics 365 knowledge article flow** action.
@@ -122,14 +121,14 @@ Perform the following steps to ensure that flow is properly configured and can n
 
 ### Publish the changes
 For details on publishing the bot, see [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). If you get errors during publishing, see [Troubleshoot](#troubleshoot).
- 
+
 ## Use the Power Automate flow template
 
 Perform the following steps if you want to integrate a Copilot Studio bot with knowledge management by using the Power Automate flow template:
 
 1. Create a flow using the template.
 1. Add the solution's flow to the Copilot Studio topic.
-   
+
 ### Create a flow using the template
 
 1. Go to [powerautomate.microsoft.com](https://powerautomate.microsoft.com).
@@ -142,24 +141,24 @@ Perform the following steps if you want to integrate a Copilot Studio bot with k
 3. Select **Continue**. You'll be redirected to the Power Automate flow template.
 
 4. Save the template, and then select **Solutions**. You might be prompted with a message on which you can select **OK**.
-    
+
 5. Select **New solution**.
 
 6. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solution. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
-    
+
 7. Select your publisher from the list of choices.
-    
+
 8. Accept the default values for name and version.
-    
+
 9. Select **Create** to complete the process.
-     
+
     > [!div class="mx-imgBorder"]
     > ![Add a solution.](../media/add-solution-KM-PVA.png "Add a solution")
-    
+
 10. In the list of solutions, select the solution you just created. It should appear at the top of the list. If it doesn't, search by the convention you used in step 6 to name the solution.
-    
+
 11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
-    
+
 12. In the **Outside solutions** list, select your flow, and then select **Add** to complete the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
 For more information on managing Copilot Studio solutions, go to [Export and import bots using solutions](/power-virtual-agents/authoring-export-import-bots).
@@ -167,15 +166,12 @@ For more information on managing Copilot Studio solutions, go to [Export and imp
 ### Add the solution's flow to the Copilot Studio topic
 
 1. Open the browser with the authoring canvas.
-    
+
 2. Above the **Message** action box, select the connector, and select **Call an action**.
-    
+
 3. From the pop-up flow window, select the new flow named **Generate answer from Dataverse knowledge articles for Power Virtual Agent**. The new action appears in the flow.
     
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
-    
-   > [!div class="mx-imgBorder"]
-   > ![Add flow to Copilot Studio.](../media/bot-KM-PVA.png "Add flow to Copilot Studio")
     
 5. To return the knowledge article search results to the bot, go to [Render results](#render-results).
 
