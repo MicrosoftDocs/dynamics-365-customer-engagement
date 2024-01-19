@@ -14,17 +14,6 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
-
 Configure assignment rules to route and assign cases and conversations based on agent's shift schedules imported from external workforce management (WFM) systems. By verifying agents' schedules in advance, organizations can avoid routing tasks to off-duty agents, and reduce the risk of delays. You can incorporate shift assignments and time-off considerations into the routing process to foster  employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
 ## Prerequisites
@@ -51,8 +40,8 @@ Alternatively, you may also use [Organization Service](/power-apps/developer/dat
 
 ## Configure an assignment rule
 
-1. In the Customer Service admin center site map, select **Queues**, and then select Manage in the **Advanced queues** area.
-1. Select the queue that you want to configure the assignment rule, select the custom assignment method, and select **Edit**.
+1. In the Customer Service admin center site map, select **Queues**, and then select **Manage** in the **Advanced queues** area.
+1. Select the queue that you want to configure the assignment rule, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
 1. Create a rule or modify an existing rule and do the following:
     1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
     1. Save and close.
