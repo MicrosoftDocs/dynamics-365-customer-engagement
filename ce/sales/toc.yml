@@ -159,8 +159,13 @@
               href: match-fields-between-dynamics365-zoominfo.md
             - name: Customize the ZoomInfo app
               href: customize-zoominfo-app.md
-        - name: Enable focused view and set it as default
-          href: set-focused-view-as-default.md
+        - name: Configure focused view
+          href: configure-focused-view.md
+          items:
+          - name: Enable focused view in your organization
+            href: enable-focused-view.md
+          - name: Configure focused view as default
+            href: set-focused-view-as-default.md
     - name: Set up Copilot
       items:
       - name: Copilot overview

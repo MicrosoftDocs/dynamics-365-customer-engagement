@@ -43,8 +43,8 @@ Before you migrate assignment rules and segments, ensure that the following requ
 
 The schema file (.xml) contains information about the data that you want to export such as the entities, attributes, relationships, segments, and assignment rules.
 
-1. Download the schema file [sample-schema-for-work-assignment-migration.xml](https://dev.azure.com/dynamicscrm/OneCRM/_git/D365.Solutions.SalesRouting/pullrequest/1045209?_a=files).
-1. Open the Configuration Migration tool. Navigate to the folder where you downloaded the tool: `[your folder]\Tools\ConfigurationMigration\`, and double-click **DataMigrationUtility.exe**.
+1. Download the schema file [sample-schema-for-work-assignment-migration.xml](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/sales/WorkAssignment/sample-schema-for-work-assignment-migration.xml).
+1. Open the Configuration Migration tool. Navigate to the folder where you downloaded the tool: `*[your folder]*\Tools\ConfigurationMigration\`, and double-click **DataMigrationUtility.exe**.
    > [!NOTE]
    > Set the 'numberofinputthreads' parameter value to 1 in the **DataMigrationUtility.exe.config** file. If not set correctly, segment import may fail due to concurrency control on the segment attribute record.
 1. Define the schema of the source data to be exported into a .zip file. More information: [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data).
