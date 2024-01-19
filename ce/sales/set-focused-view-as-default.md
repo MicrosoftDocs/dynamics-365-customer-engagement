@@ -1,5 +1,5 @@
 ---
-title: Configure focused view and set it as the default view
+title: Configure focused view as the default view
 description: Configure focused view manually for entities other than contact, account, lead, and opportunity and set it as the default view for any entity in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
@@ -8,7 +8,7 @@ ms.date: 01/12/2024
 ms.custom: bap-template 
 ---
 
-# Configure focused view and set it as default
+# Configure focused view as default
 
 In focused view, sellers can view and manage their CRM records and their associated activities on one page. This view makes it easier for sellers to stay focused on their tasks, saving time by eliminating the need to navigate through multiple screens. It also allows sellers to better organize and prioritize their tasks.
 
