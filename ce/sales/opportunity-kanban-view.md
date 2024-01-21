@@ -66,16 +66,16 @@ In the status-based Kanban view, each swim lane represents a default opportunity
 > [!div class="mx-imgBorder"]  
 > ![Status-based opportunity Kanban view.](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
-In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Opportunity sales process** business process flow. 
+In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Sales Process** business process flow. 
 
-Currently, the Kanban view is only available for the **Opportunity sales process** business process flow.
+Currently, the Kanban view is only available for the **Sales Process** business process flow.
 
 > [!div class="mx-imgBorder"]  
 > ![Business process flow-based opportunity Kanban view.](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
 
 
 > [!NOTE]
-> If your system administrator or customizer has customized the **Opportunity sales process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
+> If your system administrator or customizer has customized the **Sales Process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
  
 ## Know your Kanban views
 
