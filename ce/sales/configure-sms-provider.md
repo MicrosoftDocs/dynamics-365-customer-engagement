@@ -37,7 +37,7 @@ Currently, the following providers are supported:
 
 2. [Set up the SMS provider in Dynamics 365 Sales](#set-up-the-sms-provider-in-dynamics-365-sales). 
 
-## Sign up for and configure Azure Communication Services subscription 
+### Sign up for and configure Azure Communication Services subscription 
 
 Azure Communication Services (ACS) integration uses its API to send and receive text messages. You need to sign up for an Azure Communication Services account to enable the SMS integration. To create an Azure Communication Services account:dl
 
@@ -47,7 +47,7 @@ Azure Communication Services (ACS) integration uses its API to send and receive 
 1. Go to **Keys** under **Settings** and note down the Primary and Secondary Connection String values. These values are required to create the integration between Dynamics 365 Sales and Azure Communication Services.
 1. Under **Telephony & SMS**, go to **Phone Numbers** to find the toll-free number you want to use as a sender. Go to **Alphanumeric Sender ID** and to **Short Codes** for the respective types of numbers.
 
-## Sign up for and configure an Infobip account
+### Sign up for and configure an Infobip account
 
 Infobip integration uses its public APIs to send and receive text messages. You need to sign up for an Infobip account to enable the real-time SMS integration. To create an Infobip account:
 
@@ -57,7 +57,7 @@ Infobip integration uses its public APIs to send and receive text messages. You 
 
 1. [Purchase SMS phone numbers](https://portal.infobip.com/apps/sms) through your Infobip account.
 
-## Sign up for and configure a LINK Mobility account
+### Sign up for and configure a LINK Mobility account
 
 Like Infobip, LINK Mobility integration uses its public APIs to send and receive text messages. You need to sign up for a LINK Mobility account to enable the real-time SMS integration. To create a LINK Mobility account:
 
@@ -65,7 +65,7 @@ Like Infobip, LINK Mobility integration uses its public APIs to send and receive
 
 1. [Contact the link mobility team](https://www.linkmobility.com/contact-us) to purchase numbers and get all the account integration details required to create the integration between Dynamics 365 Sales and LINK Mobility.
 
-## Sign up for and configure a Telesign account
+### Sign up for and configure a Telesign account
 
 Telesign integration uses Telesign's public APIs to send and receive text messages. You need to sign up for a Telesign account to enable Telesign as an SMS provider in Dynamics 365 Sales. To create a Telesign account:
 
@@ -79,7 +79,7 @@ Telesign integration uses Telesign's public APIs to send and receive text messag
 
 5.	You're provided with a callback URL that must be sent to [Telesign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization.
 
-## Sign up for and configure a Twilio account
+### Sign up for and configure a Twilio account
 
 Twilio integration uses Twilio's public APIs to send and receive text messages. You need to sign up for a Twilio account to enable Twilio as an SMS provider in Dynamics 365 Sales. To create a Twilio account:
 
@@ -89,7 +89,7 @@ Twilio integration uses Twilio's public APIs to send and receive text messages. 
 
 3.	[Purchase SMS phone numbers](https://console.twilio.com/us1/develop/phone-numbers/manage/search?frameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3Fx-target-region%3Dus1&currentFrameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3FisoCountry%3DUS%26types%255B%255D%3DLocal%26types%255B%255D%3DTollfree%26capabilities%255B%255D%3DSms%26capabilities%255B%255D%3DMms%26capabilities%255B%255D%3DVoice%26capabilities%255B%255D%3DFax%26searchTerm%3D%26searchFilter%3Dleft%26searchType%3Dnumber%26x-target-region%3Dus1%26__override_layout__%3Dembed%26bifrost%3Dtrue) through your Twilio account.
 
-## Sign up for and configure a Vibes account (US and Canada only)
+### Sign up for and configure a Vibes account (US and Canada only)
 
 Vibes integration uses Vibes's public APIs to send and receive text messages. You need to sign up for a Vibes account to enable Vibes SMS integration. To create a Vibes account:  
   
