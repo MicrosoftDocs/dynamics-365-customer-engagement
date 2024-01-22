@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 12/08/2023
+ms.date: 01/22/20024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -12,7 +12,7 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. The add-in provides copilot AI assistance to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](flw-outlook-get-started.md#work-with-schedule-board.md) for scheduling.
+Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. The add-in provides copilot AI assistance to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    :::image type="content" source="media/fsp-copilot-tab.png" alt-text="Field Service Outlook pane showing Home tab":::
 
-   If the email doesn't meet Microsoft Responsible AI guidelines, Copilot display an error. [Create the work order manually](#create-a-work-order-manually-in-outlook).
+   If the email doesn't meet Microsoft Responsible AI guidelines, Copilot display an error. [Create the work order manually](#create-a-work-order-manually).
 
 1. Review the work order to ensure all AI-generated content is accurate.
 
