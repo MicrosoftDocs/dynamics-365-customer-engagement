@@ -112,15 +112,15 @@ To set up the SMS provider number in Dynamics 365 Sales:
 4.	On the **Set up provider** page, enter the values depending on the provider you’ve selected. Then select **Next**.
 
     - **For Azure Communication Services**:
-    
-    | Parameter | Description |
-    |-----------|-------------|
-    | Name | Enter a name for the provider.|
-    | Description | (Optional) Specify a description for the number. |
-    | Primary connection string | Enter the primary key connection string that is assigned to you when creating the Azure communication services account. |
-    | Secondary connection string | Enter the secondary key connection string that is assigned to you when creating the Azure communication services account. |
-    | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. |
-    | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and add this URL to your Azure Communication Services received subscription webhook for receiving SMS replies. To know more about adding sender numbers, see [Add a sender number using the Azure Communication Services free trial preview (US only)](#add-a-sender-number-using-the-azure-communication-services-free-trial-preview-us-only). |
+        
+        | Parameter | Description |
+        |-----------|-------------|
+        | Name | Enter a name for the provider.|
+        | Description | (Optional) Specify a description for the number. |
+        | Primary connection string | Enter the primary key connection string that is assigned to you when creating the Azure communication services account. |
+        | Secondary connection string | Enter the secondary key connection string that is assigned to you when creating the Azure communication services account. |
+        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. |
+        | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and add this URL to your Azure Communication Services received subscription webhook for receiving SMS replies. To know more about adding sender numbers, see [Add a sender number using the Azure Communication Services free trial preview (US only)](#add-a-sender-number-using-the-azure-communication-services-free-trial-preview-us-only). |
       
     - **For Infobip**:
         
