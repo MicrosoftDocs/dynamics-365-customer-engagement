@@ -44,7 +44,7 @@ Azure Communication Services (ACS) integration uses its API to send and receive 
 1. Go to [Azure](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) and sign up for a "Pay as you go" account.
 1. [Create a Communication Services resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) and get a [toll-free number](/azure/communication-services/quickstarts/telephony/get-phone-number?tabs=windows&pivots=platform-azcli), a [short code](/azure/communication-services/quickstarts/sms/apply-for-short-code), or an [Alphanumeric Sender ID](/azure/communication-services/quickstarts/sms/enable-alphanumeric-sender-id).
 1. Go to your [Azure account homepage](https://ms.portal.azure.com/#home) and navigate to your resource through **Subscriptions** > **Resource groups** > **Resource name**.
-1. Go to **Keys** under **Settings** and jot down the Primary and Secondary Connection String values. These values are required to create the integration between Customer Insights - Journeys and Azure Communication Services.
+1. Go to **Keys** under **Settings** and jot down the Primary and Secondary Connection String values. These values are required to create the integration between Dynamics 365 Sales and Azure Communication Services.
 1. Under **Telephony & SMS**, go to **Phone Numbers** to find the toll-free number you want to use as a sender. Go to **Alphanumeric Sender ID** and to **Short Codes** for the respective types of numbers.
 
 ## Sign up for and configure an Infobip account
@@ -94,7 +94,7 @@ Twilio integration uses Twilio's public APIs to send and receive text messages. 
 Vibes integration uses Vibes's public APIs to send and receive text messages. You need to sign up for a Vibes account to enable Vibes SMS integration. To create a Vibes account:  
   
 1. Send an email to [dynamics@vibes.com](mailto:dynamics@vibes.com). You'll get a response within a business day.
-1. After your account is set up or if you're already a Vibes customer, contact the Vibes customer care team ([live@vibes.com](mailto:live@vibes.com)) or your dedicated customer success manager to request the account integration details required to create the integration between Customer Insights - Journeys and Vibes.
+1. After your account is set up or if you're already a Vibes customer, contact the Vibes customer care team ([live@vibes.com](mailto:live@vibes.com)) or your dedicated seller to request the account integration details required to create the integration between Dynamics 365 Sales and Vibes.
 
 ## Set up the SMS provider in Dynamics 365 Sales
 
@@ -221,7 +221,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
 > 
 > If you want to integrate an already active Azure Communication Services subscription, refer to the section above instead.
 
-To generate an Azure Communication Services free trial preview phone number to use in Customer Insights - Journeys, go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **Azure SMS preview** and select **+New text message sender** on the top ribbon.
+To generate an Azure Communication Services free trial preview phone number to use in Dynamics 365 Sales, go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **Azure SMS preview** and select **+New text message sender** on the top ribbon.
 
 Once you agree to the *Voice and text message terms* and select your country or region, you’ll be provided with a toll-free United States phone number.
 
