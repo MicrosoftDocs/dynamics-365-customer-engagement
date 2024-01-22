@@ -1,7 +1,7 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 03/21/2023
+ms.date: 01/22/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -13,23 +13,39 @@ ms.custom: bap-template
 This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales. 
 
 Currently, the following providers are supported:
+
+- [Azure Communication Services](#sign-up-for-and-configure-azure-communication-services-subscription)
 - [Infobip](#sign-up-for-and-configure-an-infobip-account)
 - [LINK Mobility](#sign-up-for-and-configure-a-link-mobility-account) 
 - [Telesign](#sign-up-for-and-configure-a-telesign-account) 
 - [Twilio](#sign-up-for-and-configure-a-twilio-account) 
+- [Vibes](#sign-up-for-and-configure-a-vibes-account-us-and-canada-only)
 
 ## Prerequisites
 
-Before you configure the SMS provider, do the following:   
--	Verify whether the SMS channel is enabled in your organization. If it's not enabled, you’ll see a message while configuring the SMS provider. Select **Activate**. 
--	Get a subscription with phone number for either Twilio or Telesign to send and receive text messages. 
-    -	To get the Infobip account, see [Sign up for and configure an Infobip account](#sign-up-for-and-configure-an-infobip-account).
-    -	To get the LINK Mobility account, see [Sign up for and configure a LINK Mobility account](#sign-up-for-and-configure-a-link-mobility-account).
-    -   To get the Telesign account, see [Sign up for and configure a Telesign account](#sign-up-for-and-configure-a-telesign-account).
-    -   To get the Twilio account, see [Sign up for and configure a Twilio account](#sign-up-for-and-configure-a-twilio-account).   
+Before you configure the SMS provider, do the following:
 
-    >[!NOTE]
-    >You can purchase or reuse an existing SMS account to send text messages. **The integration works for all countries** in which a phone number can be purchased through Infobip, LINK Mobility, Telesign, or Twilio.
+- Verify whether the SMS channel is enabled in your organization. If it's not enabled, you’ll see a message while configuring the SMS provider. Select **Activate**.
+- Get a subscription with phone number for either Twilio or Telesign to send and receive text messages. 
+    - To get the Azure Communication Services subscription, see [Sign up for and configure Azure Communication Services subscription](#sign-up-for-and-configure-azure-communication-services-subscription).
+    - To get the Infobip account, see [Sign up for and configure an Infobip account](#sign-up-for-and-configure-an-infobip-account).
+    - To get the LINK Mobility account, see [Sign up for and configure a LINK Mobility account](#sign-up-for-and-configure-a-link-mobility-account).
+    - To get the Telesign account, see [Sign up for and configure a Telesign account](#sign-up-for-and-configure-a-telesign-account).
+    - To get the Twilio account, see [Sign up for and configure a Twilio account](#sign-up-for-and-configure-a-twilio-account).
+    - To get the Vibes account, see [Sign up for and configure a Vibes account (US and Canada only)](#sign-up-for-and-configure-a-vibes-account-us-and-canada-only).
+
+    > [!NOTE]
+    > You can purchase or reuse an existing SMS account to send text messages. **The integration works for all countries** in which a phone number can be purchased through Azure Communication Services, Infobip, LINK Mobility, Telesign, Twilio, or Vibes.
+
+## Sign up for and configure Azure Communication Services subscription 
+
+Azure Communication Services (ACS) integration uses its API to send and receive text messages. You need to sign up for an Azure Communication Services account to enable the SMS integration. To create an Azure Communication Services account:
+
+1. Go to [Azure](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) and sign up for a "Pay as you go" account.
+1. [Create a Communication Services resource](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp) and get a [toll-free number](/azure/communication-services/quickstarts/telephony/get-phone-number?tabs=windows&pivots=platform-azcli), a [short code](/azure/communication-services/quickstarts/sms/apply-for-short-code), or an [Alphanumeric Sender ID](/azure/communication-services/quickstarts/sms/enable-alphanumeric-sender-id).
+1. Go to your [Azure account homepage](https://ms.portal.azure.com/#home) and navigate to your resource through **Subscriptions** > **Resource groups** > **Resource name**.
+1. Go to **Keys** under **Settings** and jot down the Primary and Secondary Connection String values. These values are required to create the integration between Customer Insights - Journeys and Azure Communication Services.
+1. Under **Telephony & SMS**, go to **Phone Numbers** to find the toll-free number you want to use as a sender. Go to **Alphanumeric Sender ID** and to **Short Codes** for the respective types of numbers.
 
 ## Sign up for and configure an Infobip account
 
@@ -73,6 +89,13 @@ Twilio integration uses Twilio's public APIs to send and receive text messages. 
 
 3.	[Purchase SMS phone numbers](https://console.twilio.com/us1/develop/phone-numbers/manage/search?frameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3Fx-target-region%3Dus1&currentFrameUrl=%2Fconsole%2Fphone-numbers%2Fsearch%3FisoCountry%3DUS%26types%255B%255D%3DLocal%26types%255B%255D%3DTollfree%26capabilities%255B%255D%3DSms%26capabilities%255B%255D%3DMms%26capabilities%255B%255D%3DVoice%26capabilities%255B%255D%3DFax%26searchTerm%3D%26searchFilter%3Dleft%26searchType%3Dnumber%26x-target-region%3Dus1%26__override_layout__%3Dembed%26bifrost%3Dtrue) through your Twilio account.
 
+## Sign up for and configure a Vibes account (US and Canada only)
+
+Vibes integration uses Vibes's public APIs to send and receive text messages. You need to sign up for a Vibes account to enable Vibes SMS integration. To create a Vibes account:  
+  
+1. Send an email to [dynamics@vibes.com](mailto:dynamics@vibes.com). You'll get a response within a business day.
+1. After your account is set up or if you're already a Vibes customer, contact the Vibes customer care team ([live@vibes.com](mailto:live@vibes.com)) or your dedicated customer success manager to request the account integration details required to create the integration between Customer Insights - Journeys and Vibes.
+
 ## Set up the SMS provider in Dynamics 365 Sales
 
 To set up the SMS provider number in Dynamics 365 Sales:
@@ -88,6 +111,17 @@ To set up the SMS provider number in Dynamics 365 Sales:
 
 4.	On the **Set up provider** page, enter the values depending on the provider you’ve selected. Then select **Next**.
 
+    - **For Azure Communication Services**:
+    
+        | Parameter | Description |
+        |-----------|-------------|
+        | Name | Enter a name for the provider. |
+        | Description | (Optional) Specify a description for the number. |
+        | Primary connection string | Enter the primary key connection string that is assigned to you when creating the Azure communication services account. |
+        | Secondry connection string | Enter the secoendry key connection string that is assigned to you when creating the Azure communication services account. |
+        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. |
+        | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and add this URL to your Azure Communication Services received subscription webhook for receiving SMS replies. To know more about adding sender numbers, see [Add a sender number using the Azure Communication Services free trial preview (US only)](#add-a-sender-number-using-the-azure-communication-services-free-trial-preview-us-only). |    
+      
     - **For Infobip**:
         
         | Parameter | Description |
@@ -133,22 +167,29 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Auth token | Auth token generated from the Twilio account.|
         | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. Paste the URL in the [numbers' configuration page](https://console.twilio.com/us1/develop/phone-numbers/manage/incoming) in the **A MESSAGE COMES IN** field to receive SMS replies. |
 
+    - **For Vibes**:
+        
+        | Parameter | Description |
+        |-----------|-------------|
+        | Name | Enter a name for the provider. |
+        | Description | (Optional) Specify a description for the number. |
+        | Username | Enter the username that is used to sign in to the Vibes messaging platform. |
+        | Password | Enter the password that is used to sign in to the Vibes messaging platform. |
+        | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. |
+
+
 5.	On the **Add phone numbers** page, select **New phone number**.  
 
     A pane opens on the right to enter the phone number details.
 
 6.	On the **Add phone number** pane, enter the following details:
 
-    -	**Phone number**: Specify the SMS number that you purchased from the provider in the <*country_code*><*phone_number*> format; for example, +12345678910. Make sure not to enter blank spaces or special characters.
-    
-        >[!NOTE]
-        >The phone number should be unique for Dynamics 365 Sales. Don’t include numbers that were used to configure message features in other Dynamics 365 apps. 
-    
-    -	**Name**: Enter a unique name for the number.
-
-    -	**Owner**: Use the lookup to add teams or users who will use this number to send SMS. Only the teams or users added here will have access to this number.
-
-    -	**Type**: (Optional) Select the type of phone number, such as Geo, Short code, or Toll free.
+    - **Phone number**: Specify the SMS number that you purchased from the provider in the <*country_code*><*phone_number*> format; for example, +12345678910. Make sure not to enter blank spaces or special characters.
+        > [!NOTE]
+        > The phone number should be unique for Dynamics 365 Sales. Don’t include numbers that were used to configure message features in other Dynamics 365 apps.
+    - **Name**: Enter a unique name for the number.
+    - **Owner**: Use the lookup to add teams or users who will use this number to send SMS. Only the teams or users added here will have access to this number.
+    - **Type**: (Optional) Select the type of phone number, such as Geo, Short code, or Toll free.
 
 7.	Select **Add**. 
 
@@ -163,8 +204,36 @@ To set up the SMS provider number in Dynamics 365 Sales:
     
     The provider is added to your SMS provider list.
 
+## Add a sender number using the Azure Communication Services free trial preview (US only)
+
+> [!IMPORTANT]
+> Effective November 8, 2023, unverified toll-free numbers sending messages to US phone numbers will have its traffic blocked. Due to this new restriction, the Azure SMS Preview feature is temporarily unavailable. Numbers that were previously verified will continue to send text messages.
+
+> [!NOTE]
+> Text messaging using a toll-free number generated in the Azure Communication Services preview is only supported in the countries/regions listed below.
+>
+>| Supported countries/regions | Supported type | Legal designation | Range    |
+>|---------------------|----------------|-------------------|----------|
+>| United States                 | Toll-free      | Transactional     | Domestic |
+
+> > [!NOTE]
+> During the Azure Communication Services free trial preview, the text message service is limited to a single toll-free phone number with a limited number of outbound messages per month (1,000 per organization). The phone number you receive will be your dedicated number for the duration of the preview.
+> 
+> If you want to integrate an already active Azure Communication Services subscription, refer to the section above instead.
+
+To generate an Azure Communication Services free trial preview phone number to use in Customer Insights - Journeys, go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **Azure SMS preview** and select **+New text message sender** on the top ribbon.
+
+Once you agree to the *Voice and text message terms* and select your country or region, you’ll be provided with a toll-free United States phone number.
+
+> [!div class="mx-imgBorder"]
+> ![Generate phone number screenshot.](media/real-time-marketing-text-number.png "Generate phone number screenshot")
+
+> [!TIP]
+> Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
+
+
+
 ### See also
 
 [Engage with customers through text messages](sms-intro.md)   
 [Edit phone numbers](edit-phone-numbers.md)
-
