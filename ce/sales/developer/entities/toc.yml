@@ -76,16 +76,6 @@
   href: msdyn_forecastinstance.md
 - name: msdyn_forecastrecurrence
   href: msdyn_forecastrecurrence.md
-- name: msdyn_playbookactivity
-  href: msdyn_playbookactivity.md
-- name: msdyn_playbookactivityattribute
-  href: msdyn_playbookactivityattribute.md
-- name: msdyn_playbookcategory
-  href: msdyn_playbookcategory.md
-- name: msdyn_playbookinstance
-  href: msdyn_playbookinstance.md
-- name: msdyn_playbooktemplate
-  href: msdyn_playbooktemplate.md
 - name: Opportunity
   href: opportunity.md
 - name: OpportunityClose
