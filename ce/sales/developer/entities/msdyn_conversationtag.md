@@ -2,11 +2,11 @@
 title: "msdyn_ConversationTag table/entity reference (Microsoft Dataverse) | Microsoft Docs"
 description: "Includes schema information and supported messages for the msdyn_ConversationTag table/entity."
 ms.date: 01/22/2024
-ms.service: "powerapps"
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "phecke"
-ms.author: "pehecke"
+author: "lavanyakr01"
+ms.author: "lavanyakr"
 search.audienceType: 
   - developer
 ---
@@ -679,5 +679,4 @@ See the [msdyn_msdyn_conversationtag_TagTarget_m](msdyn_sciconversation.md#BKMK_
 ### See also
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)  
-<xref href="Microsoft.Dynamics.CRM.msdyn_conversationtag?text=msdyn_conversationtag EntityType" />
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
