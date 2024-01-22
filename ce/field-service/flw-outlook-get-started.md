@@ -69,4 +69,8 @@ Open an email or view it in the Reading Pane, and then select the Field Service 
 > [!TIP]
 > By default, the **Field Service** pane closes when you switch to a different email. To keep the pane open across all emails, select the **Pin** icon.
 
+## Next steps
+
+- [Manage work orders with Field Service in Outlook](flw-outlook.md)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Manage work orders with Field Service in Outlook (frontline managers) 
 description:  Learn how service managers and dispatchers can use the Dynamics 365 Field Service for Outlook add-in to create, view, update, and schedule work orders with AI assistance in Outlook.
-ms.date: 01/22/20024
+ms.date: 01/22/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -80,18 +80,14 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
    The work order number displays at the top of the **Field Service** pane and the email is saved in the Field Service timeline.
 
-1. [Schedule the work order](#schedule-or-reschedule-a-work-order) or select the back arrow to return to the **Home** tab.
-
    :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
 
    > [!TIP]
    > If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon.
 
-## Draft an email with Copilot
+## Draft an email with Copilot to propose schedules
 
-With Copilot, you can create an email response for any unscheduled or scheduled work order. Use Copilot to share proposed schedules or provide schedule confirmation with your customers.
-
-### Draft an email with Copilot to propose schedules
+Use Copilot to share proposed schedules for any unscheduled work orders.
 
 1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in)
 
@@ -106,8 +102,43 @@ With Copilot, you can create an email response for any unscheduled or scheduled 
    - Adjust the length of the email or tone
    - Regenerate a different email response
 
+## View a work order
 
-## Draft an email with Copilot to confirm schedules
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in), and then select the **Work orders** tab.
+
+   The list shows up to 50 work orders, with the most recent one listed first.
+
+1. To view more work orders in the Field Service app, select **See more** at the bottom of the list.
+
+   :::image type="content" source="media/fsp-work-order-list.png" alt-text="Screenshot of the Field Service pane in Outlook, with four work orders listed":::
+
+1. Find the work order you want to view:
+
+   - Type the work order ID in the **Find by ID** box and select **Search**.
+
+   - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
+
+   - To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
+
+1. Select the work order to view or edit it.
+
+   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
+
+While you're viewing a work order, you can also:
+
+- [Draft an email with Copilot to propose schedules](#draft-an-email-with-copilot-to-propose-schedules)
+
+- [Schedule the work order](#schedule-or-reschedule-a-work-order)
+
+- Open a map to locate the service address. Select the **Open in Bing Maps** icon.
+
+   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
+
+- [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
+
+- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
+
+  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
 
 ## Schedule or reschedule a work order
 
@@ -149,39 +180,20 @@ If you don't need to change the assigned technician, just the date or time of th
 
    The technician is booked. A confirmation displays at the top of the **Field Service** pane.
 
-## View a work order
+## Draft an email with Copilot to confirm schedules
 
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in), and then select the **Work orders** tab.
+Use Copilot to confirm schedules for any scheduled work orders.
 
-   The list shows up to 50 work orders, with the most recent one listed first.
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in)
 
-1. To view more work orders in the Field Service app, select **See more** at the bottom of the list.
+1. On the Home tab, select **Draft email based on work order**, and then select **Confirm schedule**.
 
-   :::image type="content" source="media/fsp-work-order-list.png" alt-text="Screenshot of the Field Service pane in Outlook, with four work orders listed":::
+1. After reviewing the generated email, select one of the following:
 
-1. Find the work order you want to view:
-
-   - Type the work order ID in the **Find by ID** box and select **Search**.
-
-   - To filter the list by status or priority, select **Filter**, make your choice, and then select **Apply**.
-
-   - To remove a filter, select **Filter**, clear each selection, and then select **Apply**.
-
-1. Select the work order to view or edit it.
-
-   :::image type="content" source="media/fsp-work-order-details.png" alt-text="Field Service Outlook work order details":::
-
-While you're viewing a work order, you can also:
-
-- Open a map to locate the service address. Select the **Open in Bing Maps** icon.
-
-   :::image type="content" source="media/fsp-map-icon.png" alt-text="Screenshot of a work order in Outlook, with the Open in Bing Maps icon highlighted.":::
-
-- [Open the schedule board in Field Service](work-with-schedule-board.md). Select the **Schedule board** link.
-
-- Open the work order in Dynamics 365 Field Service. Select the pop-out icon.
-
-  :::image type="content" source="media/fsp-copilot-pop-out-icon.png" alt-text="Field Service Outlook pane highlighting the pop-out icon to go to Field Service":::
+   - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
+   - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
+   - Adjust the length of the email or tone
+   - Regenerate a different email response
 
 ## Edit a work order
 
