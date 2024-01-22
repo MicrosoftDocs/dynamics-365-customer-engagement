@@ -36,7 +36,7 @@ In addition, it's evaluated with embedded monitoring for Responsible AI. Specifi
 
 ## What are the limitations of the feature? How can users minimize the impact of the limitations when using the system?
 
-- Only questions related to Field Service work orders are supported.  
+- Only questions related to Field Service work orders are supported. Questions about information contained in documents, PDF files, or other sources other than the Field Service app aren't supported.
 
 - You can’t create, schedule, or close work orders.
 
