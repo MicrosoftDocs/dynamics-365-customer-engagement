@@ -226,7 +226,7 @@ To generate an Azure Communication Services free trial preview phone number to u
 Once you agree to the *Voice and text message terms* and select your country or region, you’ll be provided with a toll-free United States phone number.
 
 > [!div class="mx-imgBorder"]
-> ![Generate phone number screenshot.](media/real-time-marketing-text-number.png "Generate phone number screenshot")
+> ![Generate phone number screenshot.](media/sms-acs-generate-text-number.png "Generate phone number screenshot")
 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
