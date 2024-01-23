@@ -58,8 +58,6 @@ With Sales Enterprise, your sales organization can automate the sales process fr
 
 - **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas to proactively identify pipeline risks and provide coaching. [Learn how to project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
 
-- **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that affect sales. [Learn how to enforce best practices with playbooks](enforce-best-practices-playbooks.md).
-
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. [Get started with in-app marketing](get-started-app-marketing-sales.md).
 
 With your Dynamics 365 Sales Enterprise license, you can take advantage of Sales Premium features like sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. [Learn more about digital selling capabilities in Sales Enterprise](digital-selling.md).

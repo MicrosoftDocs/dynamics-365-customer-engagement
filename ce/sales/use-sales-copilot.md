@@ -15,6 +15,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ---
 
 # Use Copilot in Dynamics 365 apps
