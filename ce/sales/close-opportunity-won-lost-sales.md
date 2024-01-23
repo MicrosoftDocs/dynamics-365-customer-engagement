@@ -26,7 +26,8 @@ Close the opportunity when you've won or lost the deal. Closing the opportunity 
 1. In the Sales Hub sitemap, select **Opportunities**.  
 
 2. Open the opportunity you want to close.  
-1. Select the **Quotes** tab and ensure that all the quotes are in **Closed** state. For instructions on how to close a quote, see [Close a quote](close-quote.md).
+
+1. Select the **Quotes** tab and ensure that all the quotes are in a **Closed** state. For instructions on how to close a quote, see [Close a quote](close-quote.md).
   
 3. At the top of the **Opportunity** form, do one of the following:  
 
@@ -39,7 +40,7 @@ Close the opportunity when you've won or lost the deal. Closing the opportunity 
 4. Verify and update the details such as actual revenue, competitor, close date, and description.  
 
    > [!NOTE]
-   > If your administrator has added custom fields to the Opportunity Close form, you'll see additional fields on the form. 
+   > If your administrator has added custom fields to the Close Opportunity form, you'll see additional fields on the form. 
 
     :::image type="content" source="media/close-as-won.png" alt-text="Screenshot of the Close Opportunity form that appears when you select Close as Won"::: 
 
@@ -76,8 +77,8 @@ You can reopen a closed opportunity if the customer is interested in pursuing th
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
- [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)    
- [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
+[Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)    
+[Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
 
 
