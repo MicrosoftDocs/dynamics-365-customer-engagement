@@ -1,7 +1,7 @@
 ---
 title: "Model customization of historical and real-time analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI."
-ms.date: 01/22/2024
+ms.date: 01/23/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -160,7 +160,7 @@ The customized reports site map in the Customer service workspace is shared betw
 
 You can enable automatic page refresh for your reports at fixed intervals, so that you always see the latest data. More information: [Authoring reports with automatic page refresh in Power BI Desktop](/power-bi/create-reports/desktop-automatic-page-refresh#authoring-reports-with-automatic-page-refresh-in-power-bi-desktop)
 
-As a capacity admin, you must first enable [automatic page refresh](https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the Power BI Admin portal.
+As an administrator with Premium capacity, you must first enable [automatic page refresh](/power-bi/enterprise/service-admin-premium-workloads#automatic-page-refresh) from the [Power BI Admin portal](https://msit.powerbi.com/). You need to use the [fixed interval](/power-bi/create-reports/desktop-automatic-page-refresh#fixed-interval) refresh type, with either five or ten sec as the interval.
 
 To enable automatic page refresh for specific reports:
 
@@ -168,7 +168,7 @@ To enable automatic page refresh for specific reports:
 1. Go to **Visualizations > Format page**.
 1. Switch the **Page refresh** toggle to **On**.
 1. Select **Auto page refresh** from the **Refresh type** dropdown list.
-1. Set the refresh period.
+1. Set the refresh period to either five or ten sec.
 1. Select **Publish** to publish the updated report to the customized workspace.
 
 In case you change the report name, perform the steps provided in [Step 4: Embed customized reports back to Dynamics 365](#step-4-embed-customized-reports-back-to-dynamics-365)
