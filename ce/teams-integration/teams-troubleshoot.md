@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 08/09/2023
+ms.date: 01/23/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -114,6 +114,10 @@ To resolve the issue, manually delete the association row.
 7. Find the name of team and channel you want to disconnect from Dynamics 365.
 8. Select the record, and then select **Delete**.
 9. Go to Dynamics 365 and refres the page. The team and channel will not be listed as connected channels.
+
+### Error: I see a blank screen when accessing Dynamics 365 records from Teams.
+
+When you access a Dynamics 365 record from classic version of Teams, a blank screen is displayed. To resolve this issure, you must use the new version of Teams.
 
 ## Troubleshoot errors in Microsoft Teams
 
