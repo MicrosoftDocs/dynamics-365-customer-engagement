@@ -43,18 +43,20 @@ The settings for different product areas are categorized as such.
 
 ### Search and notifications
 
-Use the search function to quickly find the specific settings you need, saving both time and effort. As you type in the search box, the results are filtered to show only the settings that match your search criteria.  
-For example, if you want to configure the lead qualification experience, search for **lead qualification**. The search results will show you the settings for lead qualification experience and also the navigation path to the setting.  
-The search results also show the navigation path to the setting. The search box saves and displays the latest 5 search terms for quick access.
+Use the search function to quickly find the specific settings you need, saving both time and effort. As you type in the search box, the results are filtered to show only the settings that match your search criteria. The search results also show the navigation path to the setting.  
+For example, if you want to configure the lead qualification experience, search for **lead qualification**. The search results will show you the settings for lead qualification experience along with the navigation path.  
+The search box saves and displays the latest 5 settings that are accessed via search for quick access.
 
 The sales settings page displays notifications about new features and settings, keeping you informed about the latest updates to enhance your usage of the application.
 
 > [!TIP]
 > By default, this new unified settings experience is available only in the Sales Hub app. To learn how to enable this experience in custom applications, see **Leverage the unified settings experience in a custom sales application** in the [Simplified system configuration in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/03/30/simplified-system-configuration-in-dynamics-365-sales/) blog.  
 
+To add the administrator settings site map to your custom app, see [Add site map entry to custom app](add-custom-site-map.md).
+
 ## Sales Insights settings
 
-The Sales Insights settings include settings for standard and premium sales insights features such as, sales accelerator, email engagement, relationship intelligence, predictive scoring, sales accelerator, and so on.
+The Sales Insights settings include settings for standard and premium sales insights features such as sales accelerator, email engagement, relationship intelligence, predictive scoring, and so on.
 
 To open the Sales Insights settings, select **Change area** ![Change area.](media/change-area-icon.png "Change area") at the bottom of the site map, and then select **Sales Insights Settings**. More information: [Install and administer Sales Insights features](intro-admin-guide-sales-insights.md)
 

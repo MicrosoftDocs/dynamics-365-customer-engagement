@@ -109,6 +109,8 @@
           href: change-color-scheme-logo.md
         - name: Customize the app
           href: manage-app.md
+        - name: Add site map entry to custom app
+          href: add-custom-site-map.md  
   - name: Upgrade
     items:
       - name: Upgrade from Dynamics 365 Sales Professional
