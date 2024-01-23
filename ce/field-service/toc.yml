@@ -186,9 +186,9 @@ items:
           href: flw-copilot-setup.md
     - name: Work with Field Service in Outlook (frontline managers)
       items:
-        - name: Get started with Field Service in Outlook
+        - name: Get started
           href: flw-outlook-get-started.md
-        - name: Manage work orders with Field Service in Outlook
+        - name: Manage work orders
           href: flw-outlook.md
     - name: Work with Field Service in Teams (frontline managers)
       href: flw-teams-manager.md
