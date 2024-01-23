@@ -1,10 +1,10 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot (preview)
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot (preview).
-ms.date: 11/28/2023
+ms.date: 01/22/2024
 ms.custom: 
   - responsible-ai-faqs
-ms.topic: article
+ms.topic: faq
 author: KishorIoT
 ms.author: nandab
 ms.reviewer: v-wendysmith@microsoft.com
