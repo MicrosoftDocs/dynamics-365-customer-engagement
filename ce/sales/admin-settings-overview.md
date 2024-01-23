@@ -1,7 +1,7 @@
 ---
 title: Admin settings overview
 description: Admin settings provide an organized and unified experience for administrators to easily configure the sales app from a single place.
-ms.date: 03/24/2023
+ms.date: 02/02/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -40,6 +40,14 @@ The settings for different product areas are categorized as such.
 
 > [!NOTE]
 > These settings are also available in the legacy web client but have been consolidated in one place in the Sales Hub app for ease of use.  
+
+### Search and notifications
+
+Use the search function to quickly find the specific settings you need, saving both time and effort. As you type in the search box, the results are filtered to show only the settings that match your search criteria.  
+For example, if you want to configure the lead qualification experience, search for **lead qualification**. The search results will show you the settings for lead qualification experience and also the navigation path to the setting.  
+The search results also show the navigation path to the setting. The search box saves and displays the latest 5 search terms for quick access.
+
+The sales settings page displays notifications about new features and settings, keeping you informed about the latest updates to enhance your usage of the application.
 
 > [!TIP]
 > By default, this new unified settings experience is available only in the Sales Hub app. To learn how to enable this experience in custom applications, see **Leverage the unified settings experience in a custom sales application** in the [Simplified system configuration in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/03/30/simplified-system-configuration-in-dynamics-365-sales/) blog.  
