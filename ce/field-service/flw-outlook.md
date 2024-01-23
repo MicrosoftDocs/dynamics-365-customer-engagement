@@ -12,7 +12,7 @@ ms.subservice: m365-integrations
 
 # Manage work orders with Field Service in Outlook (frontline managers)
 
-Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. The add-in provides copilot AI assistance to quickly create a work order with the information from the email. Then you can see suggested schedules so you can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
+Dynamics 365 Field Service provides an Outlook add-in for frontline managers to create, view, and edit work orders directly from their email. Without leaving Outlook, you can quickly respond to requests for service or questions about existing requests. With Copilot, you can quickly create a work order with the information from the email, respond with proposed schedules, or confirm a schedule. You can quickly select and book a technician. You can also create a work order manually and use the [Field Service schedule board](work-with-schedule-board.md) for scheduling.
 
 ## Prerequisites
 
@@ -89,7 +89,7 @@ Copilot in Dynamics 365 Field Service adheres to [responsible AI guidelines](faq
 
 Use Copilot to share proposed schedules for any unscheduled work orders.
 
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in)
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
 1. On the Home tab, select **Draft email based on work order**, and then select **Proposed schedules**.
 
@@ -99,8 +99,8 @@ Use Copilot to share proposed schedules for any unscheduled work orders.
 
    - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
    - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
-   - Adjust the length of the email or tone
-   - Regenerate a different email response
+   - Make adjustments: Select the **Adjust** icon to change the length or the tone of the email, and then select **Update**.
+   - Regenerate: Select the **Regenerate** icon to generate a different email response.
 
 ## View a work order
 
@@ -126,9 +126,9 @@ Use Copilot to share proposed schedules for any unscheduled work orders.
 
 While you're viewing a work order, you can also:
 
-- [Draft an email with Copilot to propose schedules](#draft-an-email-with-copilot-to-propose-schedules)
+- [Draft an email with Copilot to propose schedules](#draft-an-email-with-copilot-to-propose-schedules).
 
-- [Schedule the work order](#schedule-or-reschedule-a-work-order)
+- [Schedule the work order](#schedule-or-reschedule-a-work-order).
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** icon.
 
@@ -194,8 +194,8 @@ Use Copilot to confirm schedules for any scheduled work orders.
 
    - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
    - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
-   - Adjust the length of the email or tone and then select **Update**.
-   - Regenerate a different email response.
+   - Make adjustments: Select the **Adjust** icon to change the length or the tone of the email, and then select **Update**.
+   - Regenerate: Select the **Regenerate** icon to generate a different email response.
 
 ## Edit a work order
 
