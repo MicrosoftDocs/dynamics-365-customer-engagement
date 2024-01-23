@@ -1,7 +1,7 @@
 ---
 title: Mobile offline capabilities (contains video)
 description: Learn about the mobile offline profile for the Dynamics 365 Field Service mobile app including guidance and limitations for its use.
-ms.date: 01/18/2024
+ms.date: 01/23/2024
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Mobile offline capabilities
 
-Often frontline workers need to work in areas without internet access like remote areas or underground. The Dynamics 365 Field Service mobile app offers offline capabilities through a mobile offline profile. When an admin [configures an offline profile](mobile-power-app-system-offline-setup.md), frontline workers can continue using the Field Service mobile app when there's no internet connection. With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Changes on the device are stored locally and then they sync with the server when an active internet connection becomes available.
+Often frontline workers need to work in areas without internet access like remote areas or underground. The Dynamics 365 Field Service mobile app offers offline capabilities through a mobile offline profile. When an admin [configures an offline profile](mobile-power-app-system-offline-setup.md), frontline workers can continue using the Field Service mobile app when there's no internet connection. With offline capabilities, important data syncs to the device for viewing when there's no internet connection. Changes on the device are stored locally and then they sync with the server when an active internet connection becomes available. For more information, see [Best practices for offline mode](https://cloudblogs.microsoft.com/dynamics365/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/).
 
 > [!TIP]
 > Configuring offline capabilities creates a fast and consistent experience and is strongly recommended.
@@ -35,7 +35,7 @@ Before configuring the offline profile, consider these important guidelines.
 
 - **Use offline JavaScript**. Organizations often need to run workflows on mobile devices to execute business processes. However, Power Automate flows only run when the device has network connection or on the next sync. Use offline JavaScript to run workflows on the device quickly and without internet access. For more information, see [Workflows and scripts for the Field Service mobile app](mobile-power-app-workflows.md).
 
-For more best practices, see [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines) and [Best practices for offline mode](https://cloudblogs.microsoft.com/dynamics365/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/).
+For more best practices, see [Power Apps Mobile Offline Guidelines](/power-apps/mobile/mobile-offline-guidelines).
 
 ## Limitations of the offline profile
 

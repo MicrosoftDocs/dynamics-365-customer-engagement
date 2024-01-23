@@ -1,7 +1,7 @@
 ---
 title: Offline data synchronization
 description: Learn how offline data is synchronized to the server for the Dynamics 365 Field Service mobile app.
-ms.date: 01/18/2024
+ms.date: 01/23/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -18,7 +18,7 @@ Sync intervals define how often record type data automatically syncs down to the
 
 The default **Field Service Mobile - Offline Profile** contains predetermined sync intervals for each record type, based on typical usage patterns of those record types.
 
-A sync is only initiated when there's connectivity and when the app is actively running on the user's mobile device. For Android devices, once the sync is initiated, it can be completed even when the app is in the background. Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table might not be respected if there's a related table with a lower sync interval.
+A sync is only initiated when there's connectivity and when the app is actively running on the user's mobile device. For Android and iOS devices, once the sync is initiated, it can be completed even when the app is in the [background](/power-apps/mobile/sync-data-offline-background). Dependencies based on selected relationships and custom filters that include related tables are analyzed at each sync request. A sync interval for a table might not be respected if there's a related table with a lower sync interval.
 
 In addition, users can [control when synchronizations are triggered](/power-apps/mobile/offline-sync-icon#offline-sync-settings) from the mobile app.
 
