@@ -28,7 +28,7 @@ In this procedure, we're adding the administrator settings overview page site ma
 1. In the **New page** dialog box, select an option according to your requirement. Here, we are adding the site map entry using a **URL**.
 1. Select **Next**.
 1. Enter the following URL information:
-   - **URL**: Enter the '/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings' value to render for the administrator settings overview page. 
+   - **URL**: Enter the value ```/main.aspx?pagetype=control&controlName=MscrmControls.FieldControls.CCFadminsettings``` to render for the administrator settings overview page. 
    - **Title**: Enter the display name for the site map entry.
 1. Select **Add**.
 1. Save and publish the custom app.
