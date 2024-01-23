@@ -5,6 +5,7 @@ author: lavanyakr01 # GitHub alias
 ms.author: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 ms.date: 10/05/2023
 ---
 
