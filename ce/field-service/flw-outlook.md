@@ -184,16 +184,18 @@ If you don't need to change the assigned technician, just the date or time of th
 
 Use Copilot to confirm schedules for any scheduled work orders.
 
-1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in)
+1. While you're viewing an email, [open the Field Service add-in](flw-outlook-get-started.md#open-the-field-service-add-in).
 
 1. On the Home tab, select **Draft email based on work order**, and then select **Confirm schedule**.
 
+   Or from an open work order, select **Draft email to confirm schedule**.
+   
 1. After reviewing the generated email, select one of the following:
 
    - **Add to email**: The generated response appears as a reply. Make any changes and select **Send**.
    - Copy to clipboard: Select the **Copy** icon to copy the response and paste it where needed.
-   - Adjust the length of the email or tone
-   - Regenerate a different email response
+   - Adjust the length of the email or tone and then select **Update**.
+   - Regenerate a different email response.
 
 ## Edit a work order
 
