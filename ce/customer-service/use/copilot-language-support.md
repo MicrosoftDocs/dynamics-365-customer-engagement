@@ -24,8 +24,8 @@ This article describes Copilot behaviour for different UI input language scenari
 | For a case, the description is in French, email thread is in Spanish, and the user's UI language is set to Spanish. |  The Copilot generates the case summary in Spanish. |
 | **Knowledge Base** | | |
 | The user's UI language is set to Spanish. The knowledge base articles are in Spanish. If the user asks a question in Spanish. | The knowledge base is filtered to articles authored in the user's UI language. Responses are returned in the user's UI language. |
-| The user's UI language is set to Spanish. The knowledge base will be filtered to articles which are authored in the same language, Spanish. If the user asks a question in French. | The user's UI language is set to Spanish. The knowledge base will be filtered to articles which are authored in the same language, Spanish. If the user asks a question in French the response will be returned in Spanish. |
-|  The user's UI language is set to Spanish. There are no knowledge base articles authored in Spanish, only English. If the user asks a question in Spanish.| there will be no response returned. |
+| The user's UI language is set to Spanish, and the user asks a question in French. | Copilot generates the response based on the UI language, so the response is in Spanish. |
+|  The user's UI language is set to Spanish. There are no knowledge base articles authored in Spanish, only English. The user asks a question in Spanish.| there will be no response returned. |
 | **Bing** | | |
 | The user's UI language is set to Japanese. The user asks a question where the source content is derived from the admin configured public web pages. The Bing Market is set based on the user's preferred language of Japanese and their current location of Japan to ja-JP | Content is returned from the restricted Bing search if it is available in the set market code. |
 
