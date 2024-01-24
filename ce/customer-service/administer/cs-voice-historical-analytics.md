@@ -15,7 +15,7 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Customer Service admin center or Omnichannel admin center app.
+To view the rich analytics and insights for your organization, you must enable **Omnichannel historical analytics for voice** in the Customer Service admin center or Omnichannel admin center (deprecated) app.
 
 ## Enable historical analytics for voice
 
@@ -28,7 +28,9 @@ To view the rich analytics and insights for your organization, you must enable *
 
      The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for voice** check box.      
 
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center (deprecated) ](#tab/omnichanneladmincenter)
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
     
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Omnichannel historical analytics for voice** section, select **Manage**.

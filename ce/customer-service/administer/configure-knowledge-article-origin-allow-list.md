@@ -38,22 +38,22 @@ You can configure the origins allowlist in the Customer Service admin center or 
 
 1. Go to the **Settings** page.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. In the **General settings** section, select **Manage**. The **General settings** page appears.
+    1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+    1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 
-### [Customer Service Hub](#tab/customerservicehub)
+   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
 
-   * In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
 
----
+    - In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
-4.	Go to **Origins allowlist** and add your links to the **Add origin links** field.
+1.	Go to **Origins allowlist** and add your links to the **Add origin links** field.
 
-5.	Select **Add**![Add](../media/add-icon.png) or **Enter** to add the link to your list.
+1.	Select **Add**![Add](../media/add-icon.png) or **Enter** to add the link to your list.
 
-6.	Select **Save**.
+1.	Select **Save**.
 
 To remove a domain, select **Close** next to the domain name.
 

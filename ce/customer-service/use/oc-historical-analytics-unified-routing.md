@@ -20,7 +20,9 @@ With the introduction of unified routing, an advanced and elaborate set of capab
 
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
 
-The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in Omnichannel admin center.
+The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in the Omnichannel admin center (deprecated) app.
+
+[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
 :::image type="content" source="../media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 

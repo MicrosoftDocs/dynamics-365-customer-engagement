@@ -6,8 +6,8 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.collection:
-ms.date: 12/01/2023
+ms.collection: bap-ai-copilot
+ms.date: 01/04/2024
 search.app: salescopilot-docs
 ms.custom:
   - bap-template
@@ -47,8 +47,6 @@ The following table lists the geography of the Azure OpenAI service that Copilot
 | Yes | United Arab Emirates | United States |
 | Yes | United Kingdom | Europe |
 | Yes | United States | United States |
-
-To learn more about how Azure OpenAI protects your data, read [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy#preventing-abuse-and-harmful-content-generation).
 
 ### See also
 

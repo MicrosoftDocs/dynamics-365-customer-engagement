@@ -156,32 +156,34 @@
             href: overview-cases.md
           - name: Define status reason transitions for case management
             href: define-status-reason-transitions-case-management.md
+          - name: Create and manage subjects
+            href: create-manage-subject-tree.md            
           - name: Define parent and child cases
             href: define-settings-parent-child-cases.md
+          - name: Enable AI suggestions for similar cases
+            href: csw-enable-ai-suggested-cases-knowledge-articles.md#enable-ai-suggestions-for-similar-cases
           - name: View similar case suggestions
-            href: suggest-similar-cases-for-a-case.md
-          - name: Create and manage subjects
-            href: create-manage-subject-tree.md
-          - name: Enable case grids
-            href: enable-case-grids.md
-          - name: Use Power Apps to customize the case management experience
-            href: add-enhanced-case-management.md
-          - name: Configure components to display customer details and recent records
-            href: add-display-components-to-case-form.md
-          - name: Configure components to display case associations
-            href: add-associated-grid-control.md 
-          - name: Enable enhanced case forms for multisession apps
-            href: case-enh-config.md    
-          - name: Use Attachment Control to customize forms
-            href: add-attachment-control.md
-          - name: Use the Due open activities control to customize forms
-            href: add-due-open-activities.md
+            href: suggest-similar-cases-for-a-case.md                
           - name: Allow updates for resolved and canceled cases
             href: update-resolved-canceled-cases.md
           - name: Modify case resolution dialog
             href: modify-case-resolution-dialog.md
+          - name: Customize the case resolution experience
+            href: add-enhanced-case-management.md          
+          - name: Enable enhanced case forms for multisession apps
+            href: case-enh-config.md    
+          - name: Configure components to display customer details and recent records
+            href: add-display-components-to-case-form.md
+          - name: Configure components to display case associations
+            href: add-associated-grid-control.md             
+          - name: Use Attachment Control to customize forms
+            href: add-attachment-control.md
+          - name: Use the Due open activities control to customize forms
+            href: add-due-open-activities.md               
+          - name: Enable case grids
+            href: enable-case-grids.md     
           - name: Remove validation on contact and customer for cases
-            href: remove-validation-contacts.md
+            href: remove-validation-contacts.md                  
           - name: FAQ on managing cases
             href: faq-case-mgmt.md
       - name: Automatically create or update records
@@ -218,6 +220,8 @@
             href: define-service-level-agreements.md
           - name: Apply service-level agreements
             href: apply-slas.md
+          - name: Configure pause conditions for SLA-enabled entities
+            href: set-pause-conditions-sla.md
           - name: Add timer control for SLA-enabled entities
             href: add-timer-control-case-form-track-time-against-sla.md
           - name: Export and import a solution with SLAs
@@ -308,6 +312,8 @@
             href: configure-knowledge-search-control-productivity-pane.md
           - name: Add the knowledge base search control to forms
             href: add-knowledge-base-search-control-forms.md
+          - name: Add a knowledge article rich text editor control to a form
+            href: rich-text-editor-ka.md
       - name: Microsoft Teams for collaboration
         items:
           - name: Introduction to collaboration
@@ -398,7 +404,7 @@
             href: voice-consult-microsoft-teams-user.md
           - name: Manage phone music
             href: voice-channel-music.md
-          - name: Set up a multilingual bot in Copilot Studio
+          - name: Set up a multilingual bot
             href: set-up-multilingual-pva-bot.md  
           - name: Set up a multilingual contact center
             href: voice-channel-multi-language-contact-center.md

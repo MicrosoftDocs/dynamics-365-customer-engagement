@@ -1,11 +1,11 @@
 ---
 title: Manage the enhanced Active Conversation settings | MicrosoftDocs 
-description: Manage the enhanced Active Conversation settings
+description: Manage the enhanced Active Conversation settings.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
-ms.date: 09/25/2023
+ms.date: 12/21/2023
 ms.custom: bap-template 
 ---
 
@@ -18,6 +18,10 @@ The enhanced Active Conversation experience displays the customer and case detai
 - You can also set the required view to display case details in the **Issue Snapshot**. By default, the **Default view** is set to **Case Lookup View**.
 
  More information: [Configure components to display customer details and recent records](add-display-components-to-case-form.md).
+
+Watch this video to understand enhanced active conversation form settings and how to set it up:
+
+> [!VIDEO https://www.youtube.com/embed/sLVOTt1-pgo]
 
 ## Manage Active Conversation form settings
 

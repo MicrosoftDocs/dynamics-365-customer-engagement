@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/08/2023
+ms.date: 12/18/2023
 ms.custom: bap-template 
 ---
 
@@ -27,6 +27,8 @@ The Copilot help pane allows agents to use Copilot features such as respond to q
    - The locale is set to English
 - If you aren't in the North America region and you want to use the web search powered by Bing feature, you must enable data movement across regions and Bing search in Power Platform admin center. See [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot).
 
+   :::image type="content" source="../media/ppac-gen-ai-features.png" alt-text="Power Platform Admin center bing chat.":::
+
 ## Enable Copilot assist features
 
 Perform the following steps to enable the Copilot features in Customer Service admin center:
@@ -41,7 +43,7 @@ Perform the following steps to enable the Copilot features in Customer Service a
 
 ## Enable ask a question
 
-Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal and external knowledge base sources and trusted domains.
+Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
 
 ## Enable draft a response (Preview)
 
@@ -55,7 +57,7 @@ Select **For email** in the **Copilot help pane** page of Customer Service admin
 
 ## Add trusted webpages as sources
 
-You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain.
+You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain. You must enable the Bing Search in Power Platform admin center to add trusted web sources. See [Enable data across geographic locations](/microsoft-copilot-studio/manage-data-movement-outside-us#enable-data-across-geographic-locations).
 
 Copilot uses articles that are two nodes down the configured domain.
 

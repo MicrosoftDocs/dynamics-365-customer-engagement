@@ -23,7 +23,9 @@ Your agents can send and receive messages formatted using Markdown.
      
     - In the site map, in **Agent experience**, select **Productivity**.
    
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter) 
+
+    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 

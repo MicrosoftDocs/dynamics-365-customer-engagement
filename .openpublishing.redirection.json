@@ -909,6 +909,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/develop/rich-text-editor-ka.md",
+      "redirect_url": "administer/rich-text-editor-ka",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/timeline-faqs.md",
       "redirect_url": "/powerapps/user/faq-for-timeline-and-activity",
       "redirect_document_id": "false"
@@ -28665,7 +28670,7 @@
     },
     {
       "source_path": "ce/customer-service/enh-casemgmt-csw.md",
-      "redirect_url": "administer/enh-casemgmt-csw",
+      "redirect_url": "use/enh-casemgmt-csw",
       "redirect_document_id": false
     },
     {
