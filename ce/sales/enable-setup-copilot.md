@@ -137,6 +137,37 @@ Copilot generates the list of recent changes for leads and opportunities from th
 
 1. Select **Save + close**.
 
+## Add the Copilot page to custom apps (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+The Copilot page is available in the Sales Hub app by default. If you have a custom app and would like to use Copilot in the full-screen view, add the Copilot page to the sitemap in your custom app. The following example uses the Sales Sandbox custom app.
+
+1. Make sure that the [Copilot preview feature flag](copilot-preview-features.md#enable-all-preview-features-for-copilot) is turned on.
+
+1. On the Dynamics 365 Apps page, select the ellipses on your custom app tile and select **OPEN IN APP DESIGNER**.
+
+    :::image type="content" source="media/faq-sa-open-app-designer.png" alt-text="Screenshot of the Sales Sandbox custom app on the App page and in App Designer.":::
+
+1. Open the site map designer. Select the pencil icon for the Site Map section.
+
+    :::image type="content" source="media/faq-sa-open-site-map-designer.png" alt-text="Screenshot of the Sales Sandbox custom app in Sitemap Designer.":::
+
+1. Select the area in which you want to add the work list entry, and then select **Add** > **Subarea**.
+
+1. Select the new subarea, go to the **Properties** tab, and enter the following values:
+
+   - Select **Type** as **URL**.
+   - Enter the **URL value** as */main.aspx?&pagetype=control&controlName=PowerApps.Copilot*.
+   - Enter the **Title (1033)** as *Copilot*.
+   - Select the default **Icon** to use the default Copilot icon.
+   - Enter a unique ID; for example, *copilotpage*.
+
+1. Save and publish the sitemap.
+
+Sellers can now access the Copilot page in your custom app.
 
 ### See also
 

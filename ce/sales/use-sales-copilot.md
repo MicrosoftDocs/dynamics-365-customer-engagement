@@ -35,9 +35,32 @@ Your admin has [turned on and set up Copilot](enable-setup-copilot.md).
 
 ## Open Copilot
 
-1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. 
+You can open Copilot in a [side pane](#open-copilot-in-a-side-pane)&mdash;side-by-side with a record such as, an opportunity or a lead&mdash;or in a [full-screen view](#open-copilot-in-full-screen-view-preview).
+
+### Open Copilot in a side pane
+
+Open the Copilot side pane when you want to get quick insights about a record or ask Copilot to summarize other records, display recent changes, and prepare for meetings without leaving the current page.
+
+1. Select the **Copilot** icon (:::image type="icon" source="media/copilot-icon.png" border="false":::) on the right side of your app. You can open the **Copilot** side pane from any page in your app except the **Copilot** page.
 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
+
+### Open Copilot in full-screen view (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+
+Open the Copilot page in full-screen view when you want more space and focus to chat with Copilot and ask questions.
+
+1. Select **Copilot** in your sitemap.
+
+    :::image type="content" source="media/sales-copilot-pane.png" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
+
+    If it isn't there, ask your admin to [turn on Copilot preview features](copilot-preview-features.md#enable-all-preview-features-for-copilot). If you're using a custom app, ask your admin to [add the Copilot page to your app's sitemap](enable-setup-copilot.md#add-the-copilot-page-to-custom-apps-preview).
+
+2. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with.
+
 
 
 ## Chat with Copilot

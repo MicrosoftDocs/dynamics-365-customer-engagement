@@ -24,6 +24,8 @@ Stay ahead of your work by asking Copilot to help you prepare for meetings and c
 
 If you have meetings scheduled on your calendar in the next 24 hours, Copilot can help you prepare for them. Go into your meetings with a helpful summary of notes from the last three months and the most recent email thread on the timeline of the related record.
 
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
 1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Prepare for sales appointments**.
 
     - If you have a record open, Copilot lists sales appointments in the next 24 hours that are related to that record.
@@ -39,7 +41,9 @@ If you have meetings scheduled on your calendar in the next 24 hours, Copilot ca
 
 Copilot can help make sure that you don't miss important emails by reminding you of any that you haven't replied to.
 
-In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).
+
+1. In the Copilot side pane, select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
 
 - If you have a record open, Copilot lists unanswered emails that are related to that record.
 - If you're in the grid view, Copilot lists all your unanswered emails.
