@@ -70,13 +70,17 @@ Copilot summarizes the last 10 updates to the record from the audit history, for
 
 Keep in mind that these fields are configured at the organization level. Make sure that your entire sales team agrees on the top ten fields that are most relevant for your business.
 
-## Get answers from Sharepoint documents
+## Get answers from SharePoint documents
 
-As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. These documents are typically stored in Sharepoint. Copilot can help you find answers from these documents and summarize the answers for you.
+As a seller, you may have to refer to documents such as contracts, technical documents, amd marketing collateral to answer questions from your customers. These documents are typically stored in SharePoint. Copilot can help you find answers from these documents and summarize the answers for you.
 
-In the Copilot side pane, type in your question in natural language, and select **Enter**. You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
+1. In the Copilot side pane, type in your question in natural language, and select **Enter**. 
+    You need not open a record to ask Copilot a question. For example, you can ask Copilot, **What is the warranty period for Contoso 3D printers?** or **What is the price of Contoso 3D printers?**.
 
-Copilot searches for answers from the sales data stored in Dataverse first. If it finds the answer in Dataverse, it displays the answer in the chat pane. If it doesn't, it displays a message. In either case, you'll see a follow-up prompt to search for answers from Sharepoint documents. Select the prompt to search for answers from Sharepoint documents.  
+    Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.
+
+2. Select the follow-up prompt **Would you like me to search other sources**.  
+   If the answer is available in SharePoint, Copilot summarizes the answer and provides a link to the corresponding document in SharePoint.
 
 
 ### See also
