@@ -1,6 +1,6 @@
 ---
-title: "msdyn_ConversationSignal table/entity reference (Microsoft Dataverse) | Microsoft Docs"
-description: "Includes schema information and supported messages for the msdyn_ConversationSignal table/entity."
+title: "msdyn_predictivescore table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_predictivescore table/entity."
 ms.date: 01/24/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
@@ -11,38 +11,32 @@ search.audienceType:
   - developer
 ---
 
-# msdyn_ConversationSignal table/entity reference
+# msdyn_predictivescore table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
 
 
-**Added by**: Conversation Intelligence Solution
+**Added by**: Predictive Scoring Common Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK class or method|
 |-|-|-|
-|Assign|PATCH /msdyn_conversationsignals(*msdyn_conversationsignalid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
 |BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Create|POST /msdyn_conversationsignals<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Create|POST /msdyn_predictivescores<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE /msdyn_conversationsignals(*msdyn_conversationsignalid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|Delete|DELETE /msdyn_predictivescores(*msdyn_predictivescoreid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
 |PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 |Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|Retrieve|GET /msdyn_conversationsignals(*msdyn_conversationsignalid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET /msdyn_conversationsignals<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Retrieve|GET /msdyn_predictivescores(*msdyn_predictivescoreid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_predictivescores<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
-|SetState|PATCH /msdyn_conversationsignals(*msdyn_conversationsignalid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH /msdyn_conversationsignals(*msdyn_conversationsignalid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH /msdyn_predictivescores(*msdyn_predictivescoreid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_predictivescores(*msdyn_predictivescoreid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 |ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
@@ -50,17 +44,17 @@ search.audienceType:
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msdyn_ConversationSignals|
-|DisplayCollectionName|Conversation Signals|
-|DisplayName|Conversation Signal|
-|EntitySetName|msdyn_conversationsignals|
+|CollectionSchemaName|msdyn_predictivescores|
+|DisplayCollectionName|Predictive Score|
+|DisplayName|Predictive Score|
+|EntitySetName|msdyn_predictivescores|
 |IsBPFEntity|False|
-|LogicalCollectionName|msdyn_conversationsignals|
-|LogicalName|msdyn_conversationsignal|
-|OwnershipType|UserOwned|
-|PrimaryIdAttribute|msdyn_conversationsignalid|
+|LogicalCollectionName|msdyn_predictivescores|
+|LogicalName|msdyn_predictivescore|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|msdyn_predictivescoreid|
 |PrimaryNameAttribute|msdyn_name|
-|SchemaName|msdyn_ConversationSignal|
+|SchemaName|msdyn_predictivescore|
 
 <a name="writable-attributes"></a>
 
@@ -69,21 +63,18 @@ search.audienceType:
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_ActualText](#BKMK_msdyn_ActualText)
-- [msdyn_Confidence](#BKMK_msdyn_Confidence)
-- [msdyn_ConversationParticipantInsights](#BKMK_msdyn_ConversationParticipantInsights)
-- [msdyn_ConversationSignalId](#BKMK_msdyn_ConversationSignalId)
-- [msdyn_DurationInMS](#BKMK_msdyn_DurationInMS)
-- [msdyn_FragmentEnd](#BKMK_msdyn_FragmentEnd)
-- [msdyn_FragmentStart](#BKMK_msdyn_FragmentStart)
-- [msdyn_Locale](#BKMK_msdyn_Locale)
-- [msdyn_Name](#BKMK_msdyn_Name)
-- [msdyn_OffsetInMS](#BKMK_msdyn_OffsetInMS)
-- [msdyn_Text](#BKMK_msdyn_Text)
-- [msdyn_Type](#BKMK_msdyn_Type)
+- [msdyn_ContributingPredictionIDs](#BKMK_msdyn_ContributingPredictionIDs)
+- [msdyn_EntityId](#BKMK_msdyn_EntityId)
+- [msdyn_EntityType](#BKMK_msdyn_EntityType)
+- [msdyn_Grade](#BKMK_msdyn_Grade)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_predictivescoreId](#BKMK_msdyn_predictivescoreId)
+- [msdyn_Score](#BKMK_msdyn_Score)
+- [msdyn_ScoredOn](#BKMK_msdyn_ScoredOn)
+- [msdyn_ScoreReasons](#BKMK_msdyn_ScoreReasons)
+- [msdyn_ScoreTrend](#BKMK_msdyn_ScoreTrend)
+- [msdyn_similaropportunities](#BKMK_msdyn_similaropportunities)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
 - [statecode](#BKMK_statecode)
 - [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
@@ -107,224 +98,191 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_ActualText"></a> msdyn_ActualText
+### <a name="BKMK_msdyn_ContributingPredictionIDs"></a> msdyn_ContributingPredictionIDs
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|ActualText|
+|Description|Contributing prediction IDs.|
+|DisplayName|Contributing prediction IDs|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contributingpredictionids|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_EntityId"></a> msdyn_EntityId
+
+|Property|Value|
+|--------|-----|
+|Description|Entity ID of primary entity.|
+|DisplayName|Entity ID|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_actualtext|
-|MaxLength|4000|
-|RequiredLevel|None|
+|LogicalName|msdyn_entityid|
+|MaxLength|256|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_Confidence"></a> msdyn_Confidence
+### <a name="BKMK_msdyn_EntityType"></a> msdyn_EntityType
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Confidence|
+|Description|Entity type of primary entity.|
+|DisplayName|Entity type|
+|FormatName|Text|
+|IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_confidence|
-|MaxValue|1|
-|MinValue|-1|
-|Precision|2|
-|RequiredLevel|None|
-|Type|Decimal|
+|LogicalName|msdyn_entitytype|
+|MaxLength|128|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
-### <a name="BKMK_msdyn_ConversationParticipantInsights"></a> msdyn_ConversationParticipantInsights
+### <a name="BKMK_msdyn_Grade"></a> msdyn_Grade
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|ConversationParticipantInsights|
+|Description|Grade of prediction score.|
+|DisplayName|Grade|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_conversationparticipantinsights|
-|RequiredLevel|None|
-|Targets|msdyn_conversationparticipantinsights|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_ConversationSignalId"></a> msdyn_ConversationSignalId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Conversation Signal|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msdyn_conversationsignalid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msdyn_DurationInMS"></a> msdyn_DurationInMS
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|DurationInMS|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_durationinms|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_FragmentEnd"></a> msdyn_FragmentEnd
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|FragmentEnd|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fragmentend|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_FragmentStart"></a> msdyn_FragmentStart
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|FragmentStart|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_fragmentstart|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_msdyn_Locale"></a> msdyn_Locale
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Locale|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_locale|
+|LogicalName|msdyn_grade|
 |RequiredLevel|None|
 |Type|Picklist|
 
-#### msdyn_Locale Choices/Options
+#### msdyn_Grade Choices/Options
 
 |Value|Label|Description|
 |-----|-----|--------|
-|0|en-us||
-|10|en-gb||
-|20|de-de||
-|30|fr-fr||
-|40|it-it||
-|50|es-es||
-|60|es-mx||
-|70|ja-jp||
-|80|pt-br||
-|90|zh-cn||
-|110|nl-nl||
-|120|fr-ca||
-|130|pt-pt||
-|140|ar-ae||
-|150|ar-bh||
-|160|ar-eg||
-|170|ar-iq||
-|180|ar-jo||
-|190|ar-kw||
-|200|ar-lb||
-|210|ar-om||
-|220|ar-qa||
-|230|ar-sa||
-|240|ar-sy||
-|250|he-il||
-|260|da-dk||
-|270|sv-se||
-|280|fi-fi||
-|290|nb-no||
+|0|Grade A||
+|1|Grade B||
+|2|Grade C||
+|3|Grade D||
 
 
 
-### <a name="BKMK_msdyn_Name"></a> msdyn_Name
+### <a name="BKMK_msdyn_name"></a> msdyn_name
 
 |Property|Value|
 |--------|-----|
-|Description||
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_name|
-|MaxLength|100|
-|RequiredLevel|ApplicationRequired|
+|MaxLength|128|
+|RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msdyn_OffsetInMS"></a> msdyn_OffsetInMS
+### <a name="BKMK_msdyn_predictivescoreId"></a> msdyn_predictivescoreId
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|OffsetInMS|
+|Description|Unique identifier for entity instances.|
+|DisplayName|Predictive score|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_predictivescoreid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_Score"></a> msdyn_Score
+
+|Property|Value|
+|--------|-----|
+|Description|Prediction score.|
+|DisplayName|Score|
 |Format|None|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_offsetinms|
+|LogicalName|msdyn_score|
 |MaxValue|2147483647|
-|MinValue|-1|
+|MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
 
 
-### <a name="BKMK_msdyn_Text"></a> msdyn_Text
+### <a name="BKMK_msdyn_ScoredOn"></a> msdyn_ScoredOn
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Text|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
+|DateTimeBehavior|UserLocal|
+|Description|Scored on.|
+|DisplayName|Scored on|
+|Format|DateOnly|
+|IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_text|
-|MaxLength|4000|
+|LogicalName|msdyn_scoredon|
 |RequiredLevel|None|
-|Type|String|
+|Type|DateTime|
 
 
-### <a name="BKMK_msdyn_Type"></a> msdyn_Type
+### <a name="BKMK_msdyn_ScoreReasons"></a> msdyn_ScoreReasons
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName|Type|
-|FormatName|Text|
+|Description|Score reasons.|
+|DisplayName|Score reasons|
+|Format|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_type|
-|MaxLength|100|
+|LogicalName|msdyn_scorereasons|
+|MaxLength|10000|
 |RequiredLevel|None|
-|Type|String|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_ScoreTrend"></a> msdyn_ScoreTrend
+
+|Property|Value|
+|--------|-----|
+|Description|Score trend.|
+|DisplayName|Score trend|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_scoretrend|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### msdyn_ScoreTrend Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Improving||
+|1|Steady||
+|2|Declining||
+|3|Not enough info||
+
+
+
+### <a name="BKMK_msdyn_similaropportunities"></a> msdyn_similaropportunities
+
+|Property|Value|
+|--------|-----|
+|Description|Similar Opportunities data|
+|DisplayName|Similar Opportunities data|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_similaropportunities|
+|MaxLength|65536|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -343,42 +301,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|DateTime|
 
 
-### <a name="BKMK_OwnerId"></a> OwnerId
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id|
-|DisplayName|Owner|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|ownerid|
-|RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
-|Type|Owner|
-
-
-### <a name="BKMK_OwnerIdType"></a> OwnerIdType
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Owner Id Type|
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridtype|
-|RequiredLevel|SystemRequired|
-|Type|EntityName|
-
-
 ### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Conversation Signal|
+|Description|Status of the Predictive Score.|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -400,7 +327,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Conversation Signal|
+|Description|Reason for the status of the Predictive Score.|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -437,7 +364,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Time zone code that was in use when the record was created.|
+|Description|Unique identifier of the user who created the record.|
 |DisplayName|UTC Conversion Time Zone Code|
 |Format|None|
 |IsValidForForm|False|
@@ -468,13 +395,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_ConversationParticipantInsightsName](#BKMK_msdyn_ConversationParticipantInsightsName)
-- [OwnerIdName](#BKMK_OwnerIdName)
-- [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
-- [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
-- [OwningBusinessUnitName](#BKMK_OwningBusinessUnitName)
-- [OwningTeam](#BKMK_OwningTeam)
-- [OwningUser](#BKMK_OwningUser)
+- [OrganizationId](#BKMK_OrganizationId)
+- [OrganizationIdName](#BKMK_OrganizationIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
@@ -716,75 +638,23 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_msdyn_ConversationParticipantInsightsName"></a> msdyn_ConversationParticipantInsightsName
+### <a name="BKMK_OrganizationId"></a> OrganizationId
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Unique identifier for the organization.|
+|DisplayName|Organization Id|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|msdyn_conversationparticipantinsightsname|
-|MaxLength|100|
+|LogicalName|organizationid|
 |RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_OwnerIdName"></a> OwnerIdName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Yomi name of the owner|
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owneridyominame|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
-
-### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the business unit that owns the record|
-|DisplayName|Owning Business Unit|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|owningbusinessunit|
-|RequiredLevel|None|
-|Targets|businessunit|
+|Targets|organization|
 |Type|Lookup|
 
 
-### <a name="BKMK_OwningBusinessUnitName"></a> OwningBusinessUnitName
+### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
 **Added by**: Active Solution Solution
 
@@ -796,42 +666,10 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsLocalizable|False|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|owningbusinessunitname|
+|LogicalName|organizationidname|
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_OwningTeam"></a> OwningTeam
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the team that owns the record.|
-|DisplayName|Owning Team|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owningteam|
-|RequiredLevel|None|
-|Targets|team|
-|Type|Lookup|
-
-
-### <a name="BKMK_OwningUser"></a> OwningUser
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user that owns the record.|
-|DisplayName|Owning User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|owninguser|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
@@ -850,16 +688,61 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="manytoone"></a>
+<a name="onetomany"></a>
 
-## Many-To-One Relationships
+## One-To-Many Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
+Listed by **SchemaName**.
+
+- [msdyn_msdyn_predictivescore_lead](#BKMK_msdyn_msdyn_predictivescore_lead)
+- [msdyn_msdyn_predictivescore_opportunity](#BKMK_msdyn_msdyn_predictivescore_opportunity)
+- [msdyn_PS_PMS](#BKMK_msdyn_PS_PMS)
 
 
-### <a name="BKMK_msdyn_msdyn_conversationsignal_ConversationPart"></a> msdyn_msdyn_conversationsignal_ConversationPart
+### <a name="BKMK_msdyn_msdyn_predictivescore_lead"></a> msdyn_msdyn_predictivescore_lead
 
-See the [msdyn_msdyn_conversationsignal_ConversationPart](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationsignal_ConversationPart) one-to-many relationship for the [msdyn_conversationparticipantinsights](msdyn_conversationparticipantinsights.md) table/entity.
+Same as the [msdyn_msdyn_predictivescore_lead](lead.md#BKMK_msdyn_msdyn_predictivescore_lead) many-to-one relationship for the [lead](lead.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|msdyn_predictivescoreid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_predictivescore_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_msdyn_predictivescore_opportunity"></a> msdyn_msdyn_predictivescore_opportunity
+
+Same as the [msdyn_msdyn_predictivescore_opportunity](opportunity.md#BKMK_msdyn_msdyn_predictivescore_opportunity) many-to-one relationship for the [opportunity](opportunity.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|msdyn_predictivescoreid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_predictivescore_opportunity|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msdyn_PS_PMS"></a> msdyn_PS_PMS
+
+Same as the [msdyn_PS_PMS](msdyn_predictivemodelscore.md#BKMK_msdyn_PS_PMS) many-to-one relationship for the [msdyn_predictivemodelscore](msdyn_predictivemodelscore.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_predictivemodelscore|
+|ReferencingAttribute|msdyn_predictivescoreid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|msdyn_PS_PMS|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 
 ### See also
 

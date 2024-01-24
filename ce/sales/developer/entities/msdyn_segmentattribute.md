@@ -1,6 +1,6 @@
 ---
-title: "Discount List (DiscountType)  table/entity reference (Microsoft Dataverse) | Microsoft Docs"
-description: "Includes schema information and supported messages for the Discount List (DiscountType)  table/entity."
+title: "msdyn_segmentattribute table/entity reference (Microsoft Dataverse) | Microsoft Docs"
+description: "Includes schema information and supported messages for the msdyn_segmentattribute table/entity."
 ms.date: 01/24/2024
 ms.service: "dynamics-365-sales"
 ms.topic: "reference"
@@ -11,44 +11,50 @@ search.audienceType:
   - developer
 ---
 
-# Discount List (DiscountType)  table/entity reference
+# msdyn_segmentattribute table/entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 
-Type of discount specified as either a percentage or an amount.
 
-**Added by**: Sales Solution
+
+**Added by**: Segment solution Solution
 
 
 ## Messages
 
 |Message|Web API Operation|SDK class or method|
 |-|-|-|
-|Create|POST /discounttypes<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /msdyn_segmentattributes<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
 |CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|DELETE /discounttypes(*discounttypeid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET /discounttypes(*discounttypeid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET /discounttypes<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH /discounttypes(*discounttypeid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH /discounttypes(*discounttypeid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Delete|DELETE /msdyn_segmentattributes(*msdyn_segmentattributeid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retrieve|GET /msdyn_segmentattributes(*msdyn_segmentattributeid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_segmentattributes<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|SetState|PATCH /msdyn_segmentattributes(*msdyn_segmentattributeid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_segmentattributes(*msdyn_segmentattributeid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
 ## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|DiscountTypes|
-|DisplayCollectionName|Discount Lists|
-|DisplayName|Discount List|
-|EntitySetName|discounttypes|
+|CollectionSchemaName|msdyn_segmentattributes|
+|DisplayCollectionName|Segment properties|
+|DisplayName|Segment property|
+|EntitySetName|msdyn_segmentattributes|
 |IsBPFEntity|False|
-|LogicalCollectionName|discounttypes|
-|LogicalName|discounttype|
+|LogicalCollectionName|msdyn_segmentattributes|
+|LogicalName|msdyn_segmentattribute|
 |OwnershipType|OrganizationOwned|
-|PrimaryIdAttribute|discounttypeid|
-|PrimaryNameAttribute|name|
-|SchemaName|DiscountType|
+|PrimaryIdAttribute|msdyn_segmentattributeid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_segmentattribute|
 
 <a name="writable-attributes"></a>
 
@@ -56,47 +62,19 @@ Type of discount specified as either a percentage or an amount.
 
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-- [Description](#BKMK_Description)
-- [DiscountTypeId](#BKMK_DiscountTypeId)
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [IsAmountType](#BKMK_IsAmountType)
-- [Name](#BKMK_Name)
+- [msdyn_aggregatedprimaryentityattributelist](#BKMK_msdyn_aggregatedprimaryentityattributelist)
+- [msdyn_aggregatedrelatedentityattributelist](#BKMK_msdyn_aggregatedrelatedentityattributelist)
+- [msdyn_attributemapping](#BKMK_msdyn_attributemapping)
+- [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_objecttype](#BKMK_msdyn_objecttype)
+- [msdyn_segmentattributeId](#BKMK_msdyn_segmentattributeId)
+- [msdyn_segmentpriorityorder](#BKMK_msdyn_segmentpriorityorder)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [StateCode](#BKMK_StateCode)
-- [StatusCode](#BKMK_StatusCode)
+- [statecode](#BKMK_statecode)
+- [statuscode](#BKMK_statuscode)
 - [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-
-
-### <a name="BKMK_Description"></a> Description
-
-|Property|Value|
-|--------|-----|
-|Description|Description of the discount list.|
-|DisplayName|Description|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|description|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_DiscountTypeId"></a> DiscountTypeId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the discount list.|
-|DisplayName|Discount List|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|discounttypeid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
@@ -116,44 +94,114 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
-### <a name="BKMK_IsAmountType"></a> IsAmountType
+### <a name="BKMK_msdyn_aggregatedprimaryentityattributelist"></a> msdyn_aggregatedprimaryentityattributelist
 
 |Property|Value|
 |--------|-----|
-|Description|Information about whether the discount list amounts are specified as monetary amounts or percentages.|
-|DisplayName|Type|
-|IsValidForForm|False|
+|Description||
+|DisplayName|Attributes list for primary entity|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|isamounttype|
+|LogicalName|msdyn_aggregatedprimaryentityattributelist|
+|MaxLength|1048576|
 |RequiredLevel|None|
-|Type|Boolean|
-
-#### IsAmountType Choices/Options
-
-|Value|Label|Description|
-|-----|-----|--------|
-|1|Amount||
-|0|Percentage||
-
-**DefaultValue**: 0
+|Type|Memo|
 
 
-
-### <a name="BKMK_Name"></a> Name
+### <a name="BKMK_msdyn_aggregatedrelatedentityattributelist"></a> msdyn_aggregatedrelatedentityattributelist
 
 |Property|Value|
 |--------|-----|
-|Description|Name of the discount list.|
+|Description||
+|DisplayName|Attributes list for related entities|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_aggregatedrelatedentityattributelist|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_attributemapping"></a> msdyn_attributemapping
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|attributemapping|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_attributemapping|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msdyn_name"></a> msdyn_name
+
+|Property|Value|
+|--------|-----|
+|Description|The name of the custom entity.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_objecttype"></a> msdyn_objecttype
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|objecttype|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_objecttype|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_segmentattributeId"></a> msdyn_segmentattributeId
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|segmentattribute|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|name|
-|MaxLength|100|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_segmentattributeid|
 |RequiredLevel|SystemRequired|
-|Type|String|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_segmentpriorityorder"></a> msdyn_segmentpriorityorder
+
+|Property|Value|
+|--------|-----|
+|Description|Ordered array of segment id|
+|DisplayName|Segment priority order|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_segmentpriorityorder|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -172,11 +220,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|DateTime|
 
 
-### <a name="BKMK_StateCode"></a> StateCode
+### <a name="BKMK_statecode"></a> statecode
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the discount list.|
+|Description|Status of the segmentattribute|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -185,33 +233,33 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### StateCode Choices/Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
-|0|Active|100001|Active|
-|1|Inactive|100002|Inactive|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
-### <a name="BKMK_StatusCode"></a> StatusCode
+### <a name="BKMK_statuscode"></a> statuscode
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the discount list.|
+|Description|Reason for the status of the segmentattribute|
 |DisplayName|Status Reason|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|statuscode|
 |RequiredLevel|None|
 |Type|Status|
 
-#### StatusCode Choices/Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
-|100001|Active|0|
-|100002|Inactive|1|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
@@ -229,21 +277,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MinValue|-1|
 |RequiredLevel|None|
 |Type|Integer|
-
-
-### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the currency associated with the discount type.|
-|DisplayName|Currency|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|transactioncurrencyid|
-|RequiredLevel|None|
-|Targets|transactioncurrency|
-|Type|Lookup|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
@@ -283,17 +316,18 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
-- [TransactionCurrencyIdName](#BKMK_TransactionCurrencyIdName)
 - [VersionNumber](#BKMK_VersionNumber)
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the user who created the discount list.|
+|Description|Unique identifier of the user who created the record.|
 |DisplayName|Created By|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdby|
 |RequiredLevel|None|
@@ -302,6 +336,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -319,6 +355,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -329,7 +367,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|createdbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
@@ -338,10 +376,10 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time when the discount list was created.|
+|Description|Date and time when the record was created.|
 |DisplayName|Created On|
 |Format|DateAndTime|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
 |RequiredLevel|None|
@@ -350,11 +388,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who created the discounttype.|
+|Description|Unique identifier of the delegate user who created the record.|
 |DisplayName|Created By (Delegate)|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdonbehalfby|
 |RequiredLevel|None|
@@ -363,6 +403,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -380,6 +422,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -390,17 +434,19 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|createdonbehalfbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the user who last modified the discount list.|
+|Description|Unique identifier of the user who modified the record.|
 |DisplayName|Modified By|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedby|
 |RequiredLevel|None|
@@ -409,6 +455,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -426,6 +474,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -436,7 +486,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
@@ -445,10 +495,10 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time when the discount list was last modified.|
+|Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
 |Format|DateAndTime|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
 |RequiredLevel|None|
@@ -457,11 +507,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who last modified the discounttype.|
+|Description|Unique identifier of the delegate user who modified the record.|
 |DisplayName|Modified By (Delegate)|
-|IsValidForForm|False|
+|IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfby|
 |RequiredLevel|None|
@@ -470,6 +522,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -487,6 +541,8 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -497,11 +553,13 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForRead|True|
 |LogicalName|modifiedonbehalfbyyominame|
 |MaxLength|100|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -510,12 +568,14 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|organizationid|
-|RequiredLevel|SystemRequired|
+|RequiredLevel|None|
 |Targets|organization|
 |Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -531,23 +591,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
-### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -561,44 +607,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-- [discount_type_discounts](#BKMK_discount_type_discounts)
-- [discount_type_product_price_levels](#BKMK_discount_type_product_price_levels)
-
-
-### <a name="BKMK_discount_type_discounts"></a> discount_type_discounts
-
-Same as the [discount_type_discounts](discount.md#BKMK_discount_type_discounts) many-to-one relationship for the [discount](discount.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|discount|
-|ReferencingAttribute|discounttypeid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|discount_type_discounts|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_discount_type_product_price_levels"></a> discount_type_product_price_levels
-
-Same as the [discount_type_product_price_levels](productpricelevel.md#BKMK_discount_type_product_price_levels) many-to-one relationship for the [productpricelevel](productpricelevel.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|productpricelevel|
-|ReferencingAttribute|discounttypeid|
-|IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|discount_type_product_price_levels|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### See also
