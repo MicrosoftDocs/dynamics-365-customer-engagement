@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 01/19/2024
+ms.date: 01/24/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -31,7 +31,8 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
-| Content recommendations | [Get content recommendations from SharePoint (preview)](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) <br> The documents are only fetched from the SharePoint site associated with your tenant. |
+| Content recommendations | [Get content recommendations from SharePoint (preview)](copilot-get-information.md#get-content-recommendations-from-sharepoint-preview) <br> The documents are fetched only from the SharePoint site associated with your tenant. |
+| Answers from SharePoint documents | [Get answers from SharePoint documents (preview)](copilot-ask-questions.md#get-answers-from-sharepoint-documents) <br> The answers are fetched only from the SharePoint site associated with your tenant. |
 
 ## Turn on all Copilot preview features
 
