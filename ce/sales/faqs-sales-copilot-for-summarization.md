@@ -10,6 +10,7 @@ ms.custom:
  - bap-template
 ms.topic: faq
 search.app: salescopilot-docs
+ms.collection: bap-ai-copilot
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: shujoshi
