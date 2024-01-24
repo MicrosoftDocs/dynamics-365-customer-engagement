@@ -14,7 +14,7 @@ ms.custom:
 
 # Configure the inbox
 
-As an administrator, you can configure the inbox setting so that when your agents open Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all the cases,  conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all the cases,  conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity-tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
 
@@ -63,7 +63,7 @@ You can configure the inbox in the Customer Service admin center by editing the 
    > [!Note]
    > Channel providers must have **All active channels** set to **On** to use and configure the chat setting in the inbox.
 
-1. In **Inbox**, select the **Settings** icon, and then toggle **Inbox** to on.
+1. In **Inbox**, select the **Settings** icon, and then turn on the **Inbox** toggle.
 
 1. You can either modify an existing view or create a new one by selecting **Edit**.
    The following fields can be configured:

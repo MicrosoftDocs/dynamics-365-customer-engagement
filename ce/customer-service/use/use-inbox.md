@@ -15,7 +15,7 @@ The inbox in Customer Service workspace gives you quick view of your assigned ca
 
 The view you see in your inbox depends on how your administrator has configured it. More information: [Configure the inbox](../administer/configure-inbox.md). 
 
-Depending on how your inbox configured, you may see any of the following channels:
+Depending on how your inbox is configured, you may see any of the following channels:
 
 - Live chat
 - Asynchronous chat
@@ -26,7 +26,7 @@ Depending on how your inbox configured, you may see any of the following channel
 
 ## View the inbox
 
-1. In Customer Service workspace, select **Inbox** on the sitemap.
+1. In Customer Service workspace, select **Inbox** on the site map.
 
 1. Select either **Cases** or **Conversations** to view a respective list of assigned items.
    
